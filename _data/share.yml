@@ -10,9 +10,54 @@ platforms:
     icon: "fab fa-facebook-square"
     link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
 
-  - type: Telegram
-    icon: "fab fa-telegram"
-    link: "https://t.me/share/url?url=URL&text=TITLE"
+  - type: reddit
+    icon: "fab fa-reddit"
+    link: "https://reddit.com/submit?url={url}&title={title}"
+
+  - type: linkedin
+    icon: "fab fa-linkedin"
+    link: "https://www.linkedin.com/sharing/share-offsite/?url={url}"
+
+  - type: whatsapp 
+    icon: "fab fa-whatsapp"
+    link: "https://api.whatsapp.com/send?phone={phone_number}&text={title}%20{url}" 
+
+  - type: tumblr
+    icon: "fab fa-tumblr"
+    link: "https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}&caption={text}&tags={hash_tags}"
+
+  - type: blogger
+    icon: "fab fa-blogger"
+    link: "https://www.blogger.com/blog-this.g?u={url}&n={title}&t={text}"
+  
+  - type: hackernews
+    icon: "fa-brands fa-square-hacker-news"
+    link: "https://news.ycombinator.com/submitlink?u={url}&t={title}"
+
+  - type: evernote
+    icon: "fa-brands fa-evernote"
+    link: "https://www.evernote.com/clip.action?url={url}&title={title}"
+
+  - type: getpocket
+    icon: "fa-brands fa-get-pocket"
+    link: "https://getpocket.com/edit?url={url}"
+  
+  - type: livejournal
+    icon: "fa-solid fa-square-pen"
+    link: "http://www.livejournal.com/update.bml?subject={title}&event={url}"
+
+  - type: pinterest
+    icon: "fa-brands fa-pinterest"
+    link: "http://pinterest.com/pin/create/link/?url={url}"
+  
+  - type: gmail
+    icon: "fa-brands fa-google"
+    link: "https://mail.google.com/mail/?view=cm&to={email_address}&su={title}&body={url}&bcc={email_address}&cc={email_address}" 
+
+  - type: yahoo
+    icon: "fa-brands fa-yahoo"
+    link: "http://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}"
+
 
   # Uncomment below if you need to.
   #
