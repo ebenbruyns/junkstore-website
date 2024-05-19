@@ -26,4 +26,4 @@ order: 2
 
 ## How to...
 
-- Please refer to this post for installation instructions - [How to install Junk Store](/posts/how-to-install/)
+- Please refer to this post for installation instructions - [How to install Junk Store](/posts/how-to-install)
