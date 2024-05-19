@@ -5,20 +5,24 @@ order: 2
 
 ## Frequently Asked Questions:
 
- Please see our [FAQ wiki](https://github.com/ebenbruyns/junkstore/wiki/FAQ) for answers to frequently asked questions about Junk Store.
+ Please see our [FAQ wiki](https://wiki.junkstore.xyz/wiki/Help:FAQ) Here, you'll find answers to common questions.
 
 ## Troubleshooting:
 
- Please see our [Troubleshooting wiki](https://github.com/ebenbruyns/junkstore/wiki/Troubleshooting) for answers to frequently asked questions about Junk Store.
+ Please see our [Troubleshooting wiki](https://wiki.junkstore.xyz/wiki/Help:Troubleshooting) This page is your go-to resource for resolving common issues..
 
 ## Games that work:
 
- Please see our list of [Games known to work](https://github.com/ebenbruyns/junkstore/wiki/Games-known-to-work) for answers to frequently asked questions about Junk Store.
+ Please see our list of games that work for each Junk-Store extension:
+ - [Epic Games known to work](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working)
+ - [GOG Games known to work](https://wiki.junkstore.xyz/wiki/Help:GOG_Games/Working)
 
 
 ## Games that don't work
 
- Please see our list of [Games that don't work](https://github.com/ebenbruyns/junkstore/wiki/Games-that-don't-work) for answers to frequently asked questions about Junk Store.
+ Please see our list of games that don't work (yet?) for each Junk-Store extension:
+ - [Epic Games that don't work](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Not_Working)
+ - GOG Games that don't work
 
 ## How to...
 
