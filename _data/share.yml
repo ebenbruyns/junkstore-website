@@ -30,21 +30,9 @@ platforms:
     icon: "fa-brands fa-get-pocket"
     link: "https://getpocket.com/edit?url={url}"
   
-  - type: livejournal
-    icon: "fa-solid fa-square-pen"
-    link: "https://www.livejournal.com/update.bml?subject={title}&event={url}"
-
-  - type: pinterest
-    icon: "fa-brands fa-pinterest"
-    link: "https://pinterest.com/pin/create/link/?url={url}"
-  
   - type: gmail
     icon: "fa-brands fa-google"
     link: "https://mail.google.com/mail/?view=cm&to={email_address}&su={title}&body={url}&bcc={email_address}&cc={email_address}" 
-
-  - type: yahoo
-    icon: "fa-brands fa-yahoo"
-    link: "https://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}"
 
 
   # Uncomment below if you need to.
