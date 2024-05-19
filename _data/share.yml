@@ -32,11 +32,11 @@ platforms:
   
   - type: livejournal
     icon: "fa-solid fa-square-pen"
-    link: "http://www.livejournal.com/update.bml?subject={title}&event={url}"
+    link: "https://www.livejournal.com/update.bml?subject={title}&event={url}"
 
   - type: pinterest
     icon: "fa-brands fa-pinterest"
-    link: "http://pinterest.com/pin/create/link/?url={url}"
+    link: "https://pinterest.com/pin/create/link/?url={url}"
   
   - type: gmail
     icon: "fa-brands fa-google"
@@ -44,7 +44,7 @@ platforms:
 
   - type: yahoo
     icon: "fa-brands fa-yahoo"
-    link: "http://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}"
+    link: "https://compose.mail.yahoo.com/?to={email_address}&subject={title}&body={url}"
 
 
   # Uncomment below if you need to.
