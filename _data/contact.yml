@@ -15,7 +15,9 @@
   icon: 'fab fa-discord'
   url:  'https://discord.gg/6mRUhR6Teh'                  # Fill with your discord homepage  
 
-
+- type: linktree
+  icon: 'fa-solid fa-tree'
+  url: 'https://linktr.ee/junk_store'
 
 
 # Uncomment and complete the url below to enable more contact options

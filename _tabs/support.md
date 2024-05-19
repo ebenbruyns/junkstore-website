@@ -15,11 +15,15 @@ There are many ways you can support Junk-Store:
  * Follow us on [Twitter](https://twitter.com/JunkStore4deck)
  * Join us on [reddit](https://www.reddit.com/r/JunkStore/) and help build an awsome and helpful community there!
  * Join us on [Discord](https://discord.gg/XMq4pCV4): Share tips, get real-time support, and participate in lively discussions about the latest updates and features!
- * You can help by adding to the [Junk Store Wiki](https://github.com/ebenbruyns/junkstore/wiki): 
-   * Add to the list of [games that work](https://github.com/ebenbruyns/junkstore/wiki/Games-known-to-work) if you've tested them.
+ * You can help by adding to the [Junk-Store Wiki](https://wiki.junkstore.xyz/wiki/): 
+   * Add to the list of games that work for each extension if you've tested them:
+     - [Epic Games known to work](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working)
+     - [GOG Games known to work](https://wiki.junkstore.xyz/wiki/Help:GOG_Games/Working)
      * If they requied a bit more than simply installing them you could add that infomation too for others.
-   * Alternatively if you've tested games and they don't work, even with other fixes, then add them to the list of [games that don't work](https://github.com/ebenbruyns/junkstore/wiki/Games-that-don't-work).
-   * You could add to the [troubleshooting](https://github.com/ebenbruyns/junkstore/wiki/Troubleshooting) if you've found a solution to an issue that has come up and doesn't have an answer yet.
+   * Alternatively if you've tested games and they don't work, even with other fixes, then add them to the list of games that don't work for each extension:
+     - [Epic Games that don't work](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Not_Working)
+     - GOG Games that don't work
+   * You could add to the [Troubleshooting wiki](https://wiki.junkstore.xyz/wiki/Help:Troubleshooting) if you've found a solution to an issue that has come up and doesn't have an answer yet.
 
 ### Financial support:
  * Become a [Patreon](https://www.patreon.com/junkstore/membership): Join our Patreon community and unlock exclusive perks while helping us shape the future of Junk-Store!
