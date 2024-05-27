@@ -2,11 +2,11 @@
 layout: post
 title: Introducing Junk-Store v1.0
 date: 2024-04-30 17:31 +1200
-categories: [Junkstore, plugin]
+categories: [Plugin]
 tags: [install, epic]
 ---
 
-TL;DR: It's an integrated Epic launcher for the Steam Deck.
+TL;DR: It's an integrated Epic launcher for the Steam Deck. ![Junk-Store](assets/images/website image.jpg){: w="200" h="100" }{: .right}
 
 After over 7 months of development and countless hours at the keyboard, Junk-Store is finally ready to step out into the world.
 
