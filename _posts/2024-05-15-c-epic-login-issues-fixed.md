@@ -2,13 +2,15 @@
 layout: post
 title: Epic Login Issues Fixed
 date: 2024-05-15 09:41 +1200
-categories: [Junkstore, plugin]
-tags: [login, epic, error, captcha]
+categories: [Epic]
+tags: [login, error, captcha, help]
 ---
 
 ## Login Woes No More!
 
-Hey Everyone!
+
+
+Hey Everyone! ![Epic-Games](assets/images/Epic Games.jpg){: w="200" h="100" }{: .left}
 
 Firstly, we want to express our heartfelt gratitude for the overwhelming reception that Junk Store has received in the past few days. The positive feedback has truly been incredible, and we're immensely thankful to those who persevered to get it up and running. Your patience and understanding mean the world to us. It's important to note that our team consists of just one developer, with another assisting on the UI, so all technical challenges ultimately come down to the expertise of one person.
 
