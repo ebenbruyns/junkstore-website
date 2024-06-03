@@ -8,7 +8,7 @@ tags: [install, faq, help, troubleshooting, resources, wiki]
 
 Hey everyone,
 
-We are excited to introduce our new [Junk-Store Wiki](https://wiki.junkstore.xy)! After weeks of collalting and incredible support from our community, we've created a comprehensive resource to help you get the most out of Junk-Store. Whether you're new to the plugin or a seasoned user, our wiki has something for everyone. The wiki is continually being added to and updated as more features are introduced and new users join the community.
+We are excited to introduce our new [Junk-Store Wiki](https://wiki.junkstore.xyz)! After weeks of collalting and incredible support from our community, we've created a comprehensive resource to help you get the most out of Junk-Store. Whether you're new to the plugin or a seasoned user, our wiki has something for everyone. The wiki is continually being added to and updated as more features are introduced and new users join the community.
 
 ## What's Inside?
 ### FAQs
