@@ -10,7 +10,7 @@ tags: [GOG]
 
 We hope you've been enjoying the Epic Games extension and diving into all those fantastic free games you've collected. We are thrilled to share that we're making strides in enhancing the gaming experience on the Steam Deck with our latest development: the GOG extension! 🚀
 
-Check it out in action here: (https://youtu.be/srPQxrRJ1uM)
+Check it out in action here: [GameTechPlanet](https://youtu.be/srPQxrRJ1uM)
 
 As dedicated gamers, we understand the importance of having access to your favorite games across different platforms. That's why we've been hard at work creating a solution to seamlessly integrate GOG games into the Steam Deck ecosystem.
 
