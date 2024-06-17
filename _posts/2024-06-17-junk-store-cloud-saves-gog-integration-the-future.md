@@ -41,6 +41,8 @@ This is evident by the fact that we have been receiving some vocal, albeit the m
 
 r/JunkStore - Gog Doesn't Appear Post "[Pointless Money Grab](https://www.reddit.com/r/JunkStore/comments/1deudp0/comment/l8f4f0x/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)"
 
+    [Image link to Money grab comments](/assets/images/money%20grab%20reddit%20comment.png) 
+
 Cloud Save Poll Post "[Are you trying to stir the pot?](https://www.reddit.com/r/JunkStore/comments/1deudp0/comment/l8f4f0x/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)"
 
 Looking at the data and the entitlement of users, it is clear that we need to take a step back and re-evaluate the project. So we are going to do just that. 
