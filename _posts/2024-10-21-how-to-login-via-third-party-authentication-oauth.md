@@ -70,4 +70,4 @@ Some games require further tweaks to get working on Steam Deck no matter which m
 
 Once you have tested Junk-Store with a smaller game and it works then you should be off and running!
 
-Have fun and if you have any issues check out our [[Help:FAQ|FAQ]] and [[Help:Troubleshooting|Troubleshooting]] pages. If you can't find what you are looking for there then jump in discord or on to reddit and have a look there.
+Have fun and if you have any issues check out our [Wiki FAQ](https://wiki.junkstore.xyz/wiki/Help:FAQ), [Troubleshooting](https://wiki.junkstore.xyz/wiki/Help:Troubleshooting) and [How To](https://wiki.junkstore.xyz/wiki/Help:How_to_guides) pages. If you can't find what you are looking for there then jump in [discord](https://discord.com/servers/junk-store-1169048999618170880) or on to reddit at [r/JunkStore](https://www.reddit.com/r/JunkStore/) and have a look there.
