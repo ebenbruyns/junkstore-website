@@ -24,7 +24,7 @@ For this guide I will be logging into Epic via Google; it will be the same steps
 You will first need to switch to desktop mode. If you don't have an external mouse and keyboard connected you may want to download *core keyboard* from the discover store.
 
 #### Step 2
-Open Steam and switch desktop mode then go into *Big Picture Mode*. [[File:Big Picture Mode.png|100px|Big Picture Mode]] ![BigPictureMode](assets/images/Big Picture Mode.png){: w="200" h="100" }{: .left}
+Open Steam and switch desktop mode then go into *Big Picture Mode*. ![BigPictureMode](assets/images/Big Picture Mode.png){: w="200" h="100" }{: .left}
 
 #### Step 3
 Go into Junk-Store > Games > Epic Tab > Navigate to *Login*. [[File:Login Epic.jpeg|100px|Login Epic]]
