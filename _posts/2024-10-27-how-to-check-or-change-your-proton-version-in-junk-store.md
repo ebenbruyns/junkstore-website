@@ -27,23 +27,23 @@ To check the Proton version in Junk-Store you need have already installed the ga
 #### Step 2
 Push **Y** which will take you to the Steam Game screen where you set the Proton version.
 Once on this screen go over to the cog and Push **A** to select.<br>
-![FMSteam](assets/images/Proton/FM '24 Steam App Page.jpg){: w="300" h="200" }
+![FMSteam](assets/images/Proton/FM'24 Steam App Page.jpg){: w="300" h="200" }
 
 #### Step 3
 A menu will open you now need go down to Properties and Push **A** to select.<br>
-![FMProperties](assets/images/Proton/FM '24 Properties Option Selection.jpg){: w="300" h="200" }
+![FMProperties](assets/images/Proton/FM'24 Properties Option Selection.jpg){: w="300" h="200" }
 
 #### Step 4
 You will now be in the Properties page. In order to change your Proton version you need to go to *Compatibility*.<br>
-![FMProton](assets/images/Proton/FM '24 Proton Version Screen.jpg){: w="300" h="200" }
+![FMProton](assets/images/Proton/FM'24 Proton Version Screen.jpg){: w="300" h="200" }
 
 #### Step 5
 To select a new already installed Proton version you need to navigate over to the drop down menu that shows the games current Proton version. Push **A** to select.<br>
-![FMProtonChange](assets/images/Proton/FM '24 Changing Proton Version.jpg){: w="300" h="200" }
+![FMProtonChange](assets/images/Proton/FM'24 Changing Proton Version.jpg){: w="300" h="200" }
 
 #### Step 6
 Once you have found the Proton version you are wating to use/try with your game Push **A**to select. The game will now be set to use that Proton version.<br> 
-![FMProtonNew](assets/images/Proton/FM '24 New Proton Version.jpg){: w="300" h="200" }
+![FMProtonNew](assets/images/Proton/FM'24 New Proton Version.jpg){: w="300" h="200" }
 
 ### Checking Proton Version via Steam Home/Library Screen
 On the game art you can push the Start/Options button (hamburger button). This will give you a menu screen where you can go to Properties and check/change your Proton version from there as well.<br>
