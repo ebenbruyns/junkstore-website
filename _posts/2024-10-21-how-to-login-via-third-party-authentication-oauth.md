@@ -10,11 +10,11 @@ This guide is for those from the Junk Store community who want to know how to lo
 ## How to Login using OAuth (third party authentication)
 Please follow the steps below if you are wanting to login into your Epic Games account using third party authentication via:
 
+#### Third Party/OAuth Login Options
 
-||| Third Party/OAuth Login Options   |||
-|---------|---------|---------|---------|
-| Facebook | Google | Xbox | Nintendo |
-| Playstaion | Lego | Steam |  apple |
+|:---|:---|:---|:---|
+| Facebook | PlayStation | Nintendo | Google |
+|   Lego   |    Steam    |   apple  |  Xbox  |
 
 
 ### Steps for logging in to Epic
