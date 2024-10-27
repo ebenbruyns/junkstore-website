@@ -47,16 +47,17 @@ Once you have found the Proton version you are wating to use/try with your game 
 
 ### Checking Proton Version via Steam Home/Library Screen
 On the game art you can push the Start/Options button (hamburger button). This will give you a menu screen where you can go to Properties and check/change your Proton version from there as well.<br>
-![SteamHome](assets/images/Proton/Steam Library Home Screen.jpg){: w="300" h="200" }
+![SteamHome](assets/images/Proton/Steam Library Home Screen.jpg){: w="300" h="200" } 
 
-![GameArt](assets/images/Proton/Game Art Steam Library.jpg){: w="300" h="200" }
+![GameArt](assets/images/Proton/Game Art Steam Library.jpg){: w="300" h="200" } 
 
 ![PropMenu](assets/images/Proton/Properties Menu from Steam Library.jpg){: w="300" h="200" }
 
 
 Now that you've got your Proton version selected just back out to the game screen and push play.<br>
-![FMLoad](assets/images/Proton/FM '24 Load Screen.jpg){: w="300" h="200" }
-![FMStart](assets/images/Proton/FM '24 Start Menu.jpg){: w="300" h="200" }
+![FMLoad](assets/images/Proton/FM'24 Load Screen.jpg){: w="300" h="200" }
+
+![FMStart](assets/images/Proton/FM'24 Start Menu.jpg){: w="300" h="200" }
 
 
 ### Where to find more information or help:
