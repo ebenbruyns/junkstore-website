@@ -7,8 +7,8 @@ tags: [Proton]
 ---
 This guide will assume that you have the Junk -Store and Wine Cellar plugins installed via Decky Loader. It also assumes you have some other versions of Proton already installed on your Steam Deck. If you don't please refer to the following guides on how to install these plugins.
 
-* [[Help:How to guides/Install Junk-Store|How to Install Junk-Store]]
-* [[Help:How to guides/Install Wine Cellar|How to Install Wine Cellar]]
+* [How to Install Junk-Store](https://wiki.junkstore.xyz/wiki/Help:How_to_guides/Install_Junk-Store)
+* [How to Install Wine Cellar](https://wiki.junkstore.xyz/wiki/Help:How_to_guides/Install_Wine_Cellar)
 
 Wine Cellar is what you need in order to use and download different versions of Proton easily. You can have game specific versions of Proton and game settings since Junk-Store creates and installs each game in it's own prefix.
 

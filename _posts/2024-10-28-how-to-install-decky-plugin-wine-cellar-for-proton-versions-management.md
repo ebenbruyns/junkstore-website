@@ -30,7 +30,8 @@ Just as you installed Junk-Store via Decky you also need to install Wine Cellar.
 
 #### Step 2
 It will now ask you for confirmation to install Wine Cellar. Push **A** to select. It will then begin to install the plugin.<br>
-![WineDecky](assets/images/Wine/Wine Cellar Screen.jpg){: w="300" h="200" }
+![WineDecky](assets/images/Wine/Install Wine Cellar Screen.jpg){: w="300" h="200" }
+
 ![WineDecky](assets/images/Wine/Installing Wine Cellar.jpg){: w="300" h="200" }
 
 #### Step 3
@@ -38,6 +39,7 @@ Once it has installed you can see which versions of Proton you have already inst
 
 To see already installed Proton versions you need to push the QAM button (three dots) and select the Wine Cellar plugin. Push **A** to select. Then Push **A** to select ''Manage''.<br>
 ![WineDecky](assets/images/Wine/Wine Cellar Plugin Button.jpg){: w="300" h="200" }
+
 ![WineDecky](assets/images/Wine/Wine Cellar Manage.jpg){: w="300" h="200" } 
 
 #### Step 4
@@ -50,18 +52,22 @@ We test with ProtonGE versions of Proton because more games ***just work*** with
 #### Step 5
 To install new versions of Proton you need to navigate down to the Proton version. In our case we navigate down to GEProton on our list, then across to the three dots. Push **A** to select.<br>
 ![WineDecky](assets/images/Wine/Proton Not Installed.jpg){: w="300" h="200" }
-![WineDecky](assets/images/Wine/Install Selection PV.jpg){: w="300" h="200" }
+
+![WineDecky](assets/images/Wine/Install selection PV.jpg){: w="300" h="200" }
 
 Now you can select your new Proton version for use
 
 #### Step 6
 It will now proceed to install your selected version of Proton (in our example GEProton9-12). Once it has installed you will need to restart your Steam Deck to be able to apply it to your game.<br>
 ![WineDecky](assets/images/Wine/Installing PV.jpg){: w="300" h="200" }
-![WineDecky](assets/images/Wine/Extractinging PV.jpg){: w="300" h="200" }
+
+![WineDecky](assets/images/Wine/Extracting PV.jpg){: w="300" h="200" }
+
 ![WineDecky](assets/images/Wine/Restart to use PV.jpg){: w="300" h="200" }
 
 Now that you've got your Proton version selected just back out to the game screen and push play.<br>
 ![WineDecky](assets/images/Wine/TMNT PV Selection.jpg){: w="300" h="200" }
+
 ![WineDecky](assets/images/Wine/TMNT Start Screen.jpg){: w="300" h="200" }
 
 ## How to Uninstall Old Proton Versions
@@ -69,6 +75,7 @@ If you have Proton versions you no longer need you can easily uninstall them by 
 
 Navigate to the installed version your want to ***uninstall*** go to the three dots and push **A** to select. You will then be asked if you want to uninstall the Proton version. That's it, it will then be removed from your Steam Deck.<br>
 ![WineDecky](assets/images/Wine/PV to uninstall.jpg){: w="300" h="200" }
+
 ![WineDecky](assets/images/Wine/Uninstall confirm.jpg){: w="300" h="200" }
 
 
