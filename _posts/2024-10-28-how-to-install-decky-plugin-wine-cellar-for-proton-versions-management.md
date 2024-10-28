@@ -12,7 +12,7 @@ This guide will assume that you have the Junk -Store installed via Decky Loader.
 
 If you are unsure of how to check or change the Proton version you are using per game please refer to the following guide.
 
-* [How to Check/Change Proton Version]()
+* [How to Check/Change Proton Version](https://wiki.junkstore.xyz/wiki/Help:How_to_guides/Check_Proton_Version)
 
 Wine Cellar is what we use for downloading different versions of Proton easily. There are other methods such as ProtonupQT. We use Wine Cellar as you don't need to go into desktop mode to download different versions of Proton. For us it's just an easier method to use on the Steam Deck.
 
