@@ -2,8 +2,6 @@
 layout: post
 title: Introducing the New Junk-Store Wiki!
 date: 2024-05-22 17:59 +1200
-categories: [Wiki]
-tags: [install, faq, help, troubleshooting, resources, wiki]
 ---
 
 Hey everyone,

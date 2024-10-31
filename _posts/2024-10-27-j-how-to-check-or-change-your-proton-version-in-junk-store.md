@@ -2,13 +2,12 @@
 layout: post
 title: How to Check or Change Your Proton Version in Junk Store
 date: 2024-10-27 14:59 +1300
-categories: [Tutorial]
-tags: [Proton]
 ---
 This guide will assume that you have the Junk -Store and Wine Cellar plugins installed via Decky Loader. It also assumes you have some other versions of Proton already installed on your Steam Deck. If you don't please refer to the following guides on how to install these plugins.
 
-* [How to Install Junk-Store](https://wiki.junkstore.xyz/wiki/Help:How_to_guides/Install_Junk-Store)
-* [How to Install Wine Cellar](https://wiki.junkstore.xyz/wiki/Help:How_to_guides/Install_Wine_Cellar)
+* [How to Install Junk-Store](https://www.junkstore.xyz/posts/l-how-to-install-decky-plugin-junk-store-updated/)
+
+* [How to Install Wine Cellar](https://www.junkstore.xyz/posts/k-how-to-install-decky-plugin-wine-cellar-for-proton-versions-management/)
 
 Wine Cellar is what you need in order to use and download different versions of Proton easily. You can have game specific versions of Proton and game settings since Junk-Store creates and installs each game in it's own prefix.
 
@@ -60,5 +59,5 @@ Now that you've got your Proton version selected just back out to the game scree
 ![FMStart](assets/images/Proton/FM'24 Start Menu.jpg){: w="300" h="200" }
 
 
-### Where to find more information or help:
+## Where to find more information or help:
  If you have any other issues check out our [Wiki FAQ](https://wiki.junkstore.xyz/wiki/Help:FAQ), [Troubleshooting](https://wiki.junkstore.xyz/wiki/Help:Troubleshooting) and [How To](https://wiki.junkstore.xyz/wiki/Help:How_to_guides) pages. If you can't find what you are looking for there then jump in [discord](https://discord.com/servers/junk-store-1169048999618170880) or on to reddit at [r/JunkStore](https://www.reddit.com/r/JunkStore/) and have a look there.

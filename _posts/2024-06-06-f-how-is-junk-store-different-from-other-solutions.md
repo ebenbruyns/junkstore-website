@@ -2,8 +2,7 @@
 layout: post
 title: How is Junk-Store Different from Other Solutions?
 date: 2024-06-06 11:45 +1200
-categories: [Junk-Store]
-tags: [GOG, epic, Heroic, compared]
+
 ---
 
 Hey Everyone,
