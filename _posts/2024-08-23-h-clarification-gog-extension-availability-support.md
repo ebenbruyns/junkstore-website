@@ -2,8 +2,6 @@
 layout: post
 title: Clarification - Gog Extension Availability & Support
 date: 2024-08-23 18:17 +1200
-categories: [Junk-Store]
-tags: [GOG]
 ---
 
 Dear Junk-Store users,

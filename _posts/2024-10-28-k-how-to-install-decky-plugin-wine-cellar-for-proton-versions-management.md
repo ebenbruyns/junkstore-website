@@ -1,18 +1,16 @@
 ---
 layout: post
-title: How to Install Decky Plugin Wine Cellar for Proton Versions Management
+title: How to Install Decky Plugin Wine Cellar for Proton Version Management
 date: 2024-10-28 13:41 +1300
-categories: [Tutorial]
-tags: [Proton, Plugin]
 ---
 # How to Install Wine Cellar & Different Proton Versions
 This guide will assume that you have the Junk -Store installed via Decky Loader. If you don't please refer to the following guide on how to install Junk-Store.
 
-* [How to Install Junk-Store](https://wiki.junkstore.xyz/wiki/Help:How_to_guides/Install_Junk-Store)
+* [How to Install Junk Store](https://www.junkstore.xyz/posts/l-how-to-install-decky-plugin-junk-store-updated/)
 
 If you are unsure of how to check or change the Proton version you are using per game please refer to the following guide.
 
-* [How to Check/Change Proton Version](https://wiki.junkstore.xyz/wiki/Help:How_to_guides/Check_Proton_Version)
+* [How to Check/Change Proton Version](https://www.junkstore.xyz/posts/j-how-to-check-or-change-your-proton-version-in-junk-store/)
 
 Wine Cellar is what we use for downloading different versions of Proton easily. There are other methods such as ProtonupQT. We use Wine Cellar as you don't need to go into desktop mode to download different versions of Proton. For us it's just an easier method to use on the Steam Deck.
 
@@ -79,5 +77,5 @@ Navigate to the installed version your want to ***uninstall*** go to the three d
 ![WineDecky](assets/images/Wine/Uninstall confirm.jpg){: w="300" h="200" }
 
 
-### Where to find more information or help:
+## Where to find more information or help:
  If you have any other issues check out our [Wiki FAQ](https://wiki.junkstore.xyz/wiki/Help:FAQ), [Troubleshooting](https://wiki.junkstore.xyz/wiki/Help:Troubleshooting) and [How To](https://wiki.junkstore.xyz/wiki/Help:How_to_guides) pages. If you can't find what you are looking for there then jump in [discord](https://discord.com/servers/junk-store-1169048999618170880) or on to reddit at [r/JunkStore](https://www.reddit.com/r/JunkStore/) and have a look there.

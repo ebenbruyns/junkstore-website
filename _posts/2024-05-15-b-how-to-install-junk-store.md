@@ -2,8 +2,6 @@
 layout: post
 title: How to Install Junk-Store
 date: 2024-05-15 08:21 +1200
-categories: [Plugin]
-tags: [install, epic, fall guys, resources, help]
 ---
 
 
