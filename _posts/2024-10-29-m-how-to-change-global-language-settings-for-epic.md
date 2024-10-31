@@ -36,11 +36,10 @@ This would set it to **English** - en_EN.<br>
 
 ![BorderlandsENG](assets/images/Overrides/ENG Borderlands.jpg){: w="300" h="200" }
 
-If you are unsure of the language code to use you can find them at the following links:
+If you are unsure of the language code to use you can find them at the following link:
 
 [Dyspatch Language Code Standards](https://docs.dyspatch.io/localization/supported_languages/#:~:text=The%20code%20for%20English%20(United,%2D1%20Alpha%2D2%20standard.))
 
-[ISO Language Code Table](http://www.lingoes.net/en/translator/langcode.htm)
 
 That's it! Remember this will only work for games that download language packages automatically.
 
