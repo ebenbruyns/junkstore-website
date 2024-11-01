@@ -2,8 +2,6 @@
 layout: post
 title: GOG Now on Junk-Store
 date: 2024-06-04 05:45 +1200
-categories: [GOG]
-tags: [GOG]
 ---
 
 🎮 Hey everyone! ![GOG](assets/images/gog brand.jpg){: w="200" h="100" }{: .right}
