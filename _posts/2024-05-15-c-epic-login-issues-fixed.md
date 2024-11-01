@@ -2,8 +2,6 @@
 layout: post
 title: Epic Login Issues Fixed
 date: 2024-05-15 09:41 +1200
-categories: [Epic]
-tags: [login, error, captcha, help]
 ---
 
 ## Login Woes No More!
