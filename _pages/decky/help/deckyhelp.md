@@ -34,18 +34,18 @@ excerpt:
   </div>
 
   <!-- Tested Games -->
-  <div class="content-box tested-games">
+  <!-- <div class="content-box tested-games">
     <h3>Games Tested</h3>
     <p>View tested Epic Store games known to work with Junk Store.</p>
     <a href="{{ '/decky/help/tested-games/epic' | relative_url }}">View Epic List</a>
-  </div>
+  </div> -->
 
   <!-- Posts -->
-  <div class="content-box posts">
+  <!-- <div class="content-box posts">
     <h3>Decky Plugin Updates</h3>
     <p>Catch up on changelogs and announcements from the previous site.</p>
     <a href="{{ '/decky/help/posts' | relative_url }}">View Posts</a>
-  </div>
+  </div> -->
 </div>
 
 <script src="{{ '/assets/js/filter.js' | relative_url }}"></script>
