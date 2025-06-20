@@ -6,7 +6,8 @@ baseurl: "" # root
 url: "https://junkstore.xyz" # your real live URL
 
 # Theme Settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
 minimal_mistakes_skin: "default" # Default skin (we will set light/dark below)
 locale: "en-US"
 
