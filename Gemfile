@@ -1,13 +1,13 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 7.0"
-
-group :test do
-  gem "html-proofer", "~> 4.4.3"
-end
+gem "jekyll", "~> 4.4.1"
+gem "minimal-mistakes-jekyll"
 
 group :jekyll_plugins do
-  gem 'jekyll-compose'
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-sitemap"
+  gem "jekyll-seo-tag"
+  gem "jekyll-include-cache"
+  gem "jekyll-archives"
+  gem "jekyll-paginate"
 end

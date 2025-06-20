@@ -1,0 +1,375 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.0 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Gog Extension Troubleshooting - Junk Store</title>
+<meta name="description" content="Gog Troubleshooting            Tips and fixes for GOG-specific issues in Junk Store.">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Junk Store">
+<meta property="og:title" content="Gog Extension Troubleshooting">
+<meta property="og:url" content="http://0.0.0.0:4000/troubleshooting/gog/">
+
+
+  <meta property="og:description" content="Gog Troubleshooting            Tips and fixes for GOG-specific issues in Junk Store.">
+
+
+
+  <meta property="og:image" content="http://0.0.0.0:4000/assets/images/junkstore-og-banner.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2025-06-20T13:54:30+12:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://0.0.0.0:4000/troubleshooting/gog/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Junk Store Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  window.enable_copy_code_button = true;
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+ <!-- Highlight.js CSS for syntax highlighting -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+
+
+
+<link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- start custom head snippets -->
+
+<!-- GOG Font -->
+<link href="https://fonts.googleapis.com/css2?family=Latoweb:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+<!-- Epic Font -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/JSAvatar.png" alt="Junk Store"></a>
+        
+        <a class="site-title" href="/">
+          Junk Store
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/v2faq"
+                
+                
+              >FAQ</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/troubleshooting/v2"
+                
+                
+              >Troubleshooting</a>
+            </li></ul>
+        
+        <!-- 🔽 Hidden menu with hamburger icon
+        <li class="dropdown-menu">
+          <a href="#" class="dropdown-toggle" aria-haspopup="true">
+            <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </a>
+          <ul class="dropdown-content">
+            <li><a href="/decky/decky-plugin">Decky Plugin</a></li>
+            <li><a href="/dev-notes/">Developer Notes</a></li>
+            <li><a href="/beta/">Beta Features</a></li>
+          </ul>
+        </li> -->
+        
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      <nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle menu</label>
+  <ul class="nav__items">
+    
+      
+      
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Gog Extension Troubleshooting">
+    <meta itemprop="description" content="    Gog Troubleshooting          Tips and fixes for GOG-specific issues in Junk Store.      ">
+    <meta itemprop="datePublished" content="2025-06-20T13:54:30+12:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://0.0.0.0:4000/troubleshooting/gog/" itemprop="url">Gog Extension Troubleshooting
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        
+<div class="gog-header">
+    <h1>Gog Troubleshooting</h1>
+    
+      <p class="gog-subtitle">Tips and fixes for GOG-specific issues in Junk Store.</p>
+    
+  </div>
+
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;700&amp;display=swap" rel="stylesheet" />
+
+<p>This section deals with any problems specific to GOG integration — from download issues to getting games to run smoothly through Junk-Store.</p>
+
+<details class="troubleshooting-box">
+  <summary>I can't get GOG to run in Junk Store.</summary>
+  <p>
+    Make sure you're using the <strong>latest version of Junk Store</strong> from the <strong>Decky Testing Store</strong>.<br /><br />
+    You’ll also need to reinstall dependencies by going to the <strong>About</strong> section and clicking “Install Dependencies.”
+  </p>
+</details>
+
+<details class="troubleshooting-box">
+  <summary>I don’t see any games in my Gog library.</summary>
+  <p>
+      Check the following:
+    <ul>
+      <li>If you have more than one Gog account, make sure you are logged into the correct one.</li>
+      <li>Press <strong>X</strong> to toggle the “Show Installed” filter — it may be hiding your uninstalled games.</li>
+      <li>Clear the search bar at the top — any text here will filter your library.</li>
+      <li>Refresh your games list from the main Gog tab:<br />
+    &nbsp;&nbsp;<strong>Sliders menu &gt; Refresh Games List</strong></li>
+      <li>Reboot the Steam Deck</li>
+      <li>Log out and log back into your Gog account</li>
+    </ul>
+  </p>
+</details>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-06-20T13:54:30+12:00">June 20, 2025</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/troubleshooting/epic/" class="pagination--pager" title="Epic Games Troubleshooting">Previous</a>
+    
+    
+      <a href="/troubleshooting/plugin/" class="pagination--pager" title="Decky Plugin Troubleshooting">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+        <li><a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+        
+      
+        
+        <li><a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+        
+      
+        
+        <li><a href="https://mastodon.social/@JunkStore" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i> Mastodon</a></li>
+        
+      
+        
+        <li><a href="https://bsky.app/profile/junkstore.bsky.social" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-cloud" aria-hidden="true"></i> Bluesky</a></li>
+        
+      
+        
+        <li><a href="https://x.com/JunkStore4deck" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i> X (Twitter)</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://0.0.0.0:4000">Junk Store</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
