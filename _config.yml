@@ -2,7 +2,7 @@
 title: "Junk Store"
 email: "junkstore@sdk.co.nz"
 description: "Play non-Steam games on your Steam Deck with ease."
-baseurl: "" # root
+baseurl: "/" # root
 url: "https://junkstore.xyz" # your real live URL
 
 # Theme Settings
