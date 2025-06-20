@@ -61,9 +61,9 @@ Remember this will only work for games that download language packages automatic
 
 ## Where to Find More Info or Help
 
-- 📘 [FAQ](/help/faq)  
+<!-- - 📘 [FAQ](/help/faq)  
 - 🛠️ [Troubleshooting](/decky/help/troubleshooting)  
-- 📚 [How-To Guides](/decky/help/tutorials)
+- 📚 [How-To Guides](/decky/help/tutorials) -->
 
 Or visit the community:
 
