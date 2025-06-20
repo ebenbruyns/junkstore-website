@@ -1,0 +1,404 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.0 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en-US" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>How to Install the C++ Runtime - Junk Store</title>
+<meta name="description" content="Step-by-step guide on downloading and installing C++ runtime dependency">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Junk Store">
+<meta property="og:title" content="How to Install the C++ Runtime">
+<meta property="og:url" content="http://0.0.0.0:4000/tutorials/C++Runtime">
+
+
+  <meta property="og:description" content="Step-by-step guide on downloading and installing C++ runtime dependency">
+
+
+
+  <meta property="og:image" content="http://0.0.0.0:4000/assets/images/junkstore-og-banner.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2025-06-20T13:54:30+12:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://0.0.0.0:4000/tutorials/C++Runtime">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Junk Store Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  window.enable_copy_code_button = true;
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+ <!-- Highlight.js CSS for syntax highlighting -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+
+
+
+<link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- start custom head snippets -->
+
+<!-- GOG Font -->
+<link href="https://fonts.googleapis.com/css2?family=Latoweb:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+<!-- Epic Font -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/JSAvatar.png" alt="Junk Store"></a>
+        
+        <a class="site-title" href="/">
+          Junk Store
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/v2faq"
+                
+                
+              >FAQ</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/troubleshooting/v2"
+                
+                
+              >Troubleshooting</a>
+            </li></ul>
+        
+        <!-- 🔽 Hidden menu with hamburger icon
+        <li class="dropdown-menu">
+          <a href="#" class="dropdown-toggle" aria-haspopup="true">
+            <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </a>
+          <ul class="dropdown-content">
+            <li><a href="/decky/decky-plugin">Decky Plugin</a></li>
+            <li><a href="/dev-notes/">Developer Notes</a></li>
+            <li><a href="/beta/">Beta Features</a></li>
+          </ul>
+        </li> -->
+        
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="How to Install the C++ Runtime">
+    <meta itemprop="description" content="Step-by-step guide on downloading and installing C++ runtime dependency">
+    <meta itemprop="datePublished" content="2025-06-20T13:54:30+12:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://0.0.0.0:4000/tutorials/C++Runtime" itemprop="url">How to Install the C++ Runtime
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h1 id="-if-protontricks-doesnt-work">🚀 If Protontricks Doesn’t Work</h1>
+
+<p>Some games need a special Microsoft file (called the <strong>C++ Runtime</strong>) to work properly.<br />
+Normally, we’d use <strong>Protontricks</strong> to install this — but sometimes Protontricks doesn’t do the job.</p>
+
+<p>Here’s how you can install it manually. Don’t worry, it’s easy!</p>
+
+<hr />
+
+<h2 id="️-manual-install-steps">🛠️ Manual Install Steps</h2>
+
+<ol>
+  <li>
+    <p>Go to the official download page:<br />
+👉 <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170">Microsoft C++ Redistributable Downloads</a></p>
+  </li>
+  <li>
+    <p>Download this file:<br />
+<strong>X64 Redistributable for Visual Studio 2015-2022</strong><br />
+(The file name will be something like <code class="language-plaintext highlighter-rouge">VC_redist.x64.exe</code>)</p>
+  </li>
+  <li>Move the downloaded file into your game’s folder:
+    <ul>
+      <li><strong>Epic Games</strong> (e.g., The Callisto Protocol): <em>~/Games/epic/TheCallistoProtocol</em></li>
+      <li><strong>GOG Games</strong>:  <em>~/Games/gog/<strong>your-game-folder</strong></em></li>
+    </ul>
+  </li>
+  <li>
+    <p>Open <strong>Junk-Store</strong> and go to the game’s page.</p>
+  </li>
+  <li>
+    <p>Open the <strong>sliders menu</strong> (press the button with the sliders icon).</p>
+  </li>
+  <li>
+    <p>Choose <em>Run EXE in game folder</em>.</p>
+  </li>
+  <li>
+    <p>Select <strong>VC_redist.x64.exe</strong></p>
+  </li>
+  <li>Follow the install instructions like you would on a Windows PC.</li>
+</ol>
+
+<p>That’s it! 🎉 Once it’s done, try launching the game again — it should now work properly.</p>
+
+<hr />
+
+<h2 id="-extra-tips-if-the-game-still-isnt-working">✅ Extra Tips If the Game Still Isn’t Working</h2>
+
+<ul>
+  <li>
+    <p>🔍 <strong>Check <a href="https://www.protondb.com">ProtonDB.com</a></strong><br />
+Other players often share which Proton version works best or if extra steps are needed.</p>
+  </li>
+  <li>
+    <p>🔄 <strong>Try a different Proton version</strong><br />
+The default “Experimental” version can be buggy. Try using <strong>GE-Proton</strong> — it’s more stable in many cases.</p>
+  </li>
+  <li>
+    <p>🛠 <strong>Game works with “Run EXE” but not the Play button?</strong><br />
+Try <strong>resetting the launch options</strong> in Junk-Store to default.</p>
+  </li>
+  <li>
+    <p>⚠️ <strong>Still no luck? Try a fresh start.</strong><br />
+You can <strong>delete the game’s prefix</strong> (basically its “Windows install environment”) from Junk-Store.</p>
+    <blockquote>
+      <p>Be careful — this will delete all saved data and settings for that game!</p>
+    </blockquote>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="need-more-help">Need More Help?</h2>
+
+<p>Check out:</p>
+
+<ul>
+  <li>📘 <a href="/decky/help/faq">FAQ</a></li>
+  <li>🛠️ <a href="/troubleshooting">Troubleshooting</a></li>
+  <li>📚 <a href="/tutorials">How-To Guides</a></li>
+</ul>
+
+<p>Or join the community:</p>
+
+<ul>
+  <li>💬 <a href="https://discord.com/servers/junk-store-1169048999618170880">Discord Server</a></li>
+  <li>📢 <a href="https://www.reddit.com/r/JunkStore/">r/JunkStore on Reddit</a></li>
+</ul>
+
+<hr />
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-06-20T13:54:30+12:00">June 20, 2025</time></p>
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="/tutorials/Install" class="pagination--pager" title="How to Install Junk Store">Next</a>
+    
+  </nav>
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+        <li><a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i> Reddit</a></li>
+        
+      
+        
+        <li><a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-discord" aria-hidden="true"></i> Discord</a></li>
+        
+      
+        
+        <li><a href="https://mastodon.social/@JunkStore" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i> Mastodon</a></li>
+        
+      
+        
+        <li><a href="https://bsky.app/profile/junkstore.bsky.social" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-cloud" aria-hidden="true"></i> Bluesky</a></li>
+        
+      
+        
+        <li><a href="https://x.com/JunkStore4deck" target="_blank" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-x-twitter" aria-hidden="true"></i> X (Twitter)</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://0.0.0.0:4000">Junk Store</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
