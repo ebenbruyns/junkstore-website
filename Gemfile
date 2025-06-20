@@ -11,3 +11,7 @@ gem "jekyll-include-cache", group: :jekyll_plugins
 #   gem "jekyll-archives"
 #   gem "jekyll-paginate"
 # end
+
+group :test do
+  gem "html-proofer"
+end
