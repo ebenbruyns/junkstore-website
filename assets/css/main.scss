@@ -1,0 +1,612 @@
+---
+---
+
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Container for all content boxes */
+.content-box-container {
+  display: flex; /* Layout children in a row */
+  justify-content: space-between; /* Evenly space the boxes horizontally */
+  gap: 20px; /* Space between each box */
+  margin: 20px 0;
+  flex-wrap: wrap; /* Allow wrapping to next line on small screens */
+}
+
+/* Style for each individual content box */
+.content-box {
+  background-color: #f9f9f9; /* Light gray background */
+  border: 1px solid #ddd; /* Thin border */
+  padding: 20px;
+  width: 30%; /* Each box uses 30% of the available width */
+  min-height: 400px; /* 🔥 NEW: Minimum height so all boxes match */
+  box-sizing: border-box; /* Includes padding/border in width/height */
+  border-radius: 8px;
+  text-align: center; /* Center the text horizontally */
+
+  /* Flexbox to control layout inside the box */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: space-between; /* Push heading/paragraph to top and button to bottom */
+  align-items: center; /* Center items horizontally */
+
+  /* Responsive: Stack vertically on smaller screens */
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+/* Heading inside the content box */
+.content-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+/* Paragraph inside the content box */
+.content-box p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  flex-grow: 1; /* 🔥 NEW: Allows paragraph to grow and push button down if needed */
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+  }
+}
+
+/* Style for the buttons */
+a.button {
+  color: #fff;
+  background-color: #007acc; /* Blue background */
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  min-width: 150px; /* Minimum width so buttons don't shrink too much */
+  max-width: 200px; /* Maximum width to keep them consistent */
+  white-space: normal; /* Allow wrapping if necessary */
+  word-break: break-word; /* Prevent overflow if long words */
+
+  /* Hover Effects */
+  &:hover, &:visited:hover {
+    background-color: #005f99; /* Darker blue on hover */
+    color: #fff;
+  }
+}
+
+/* Favicon inside button */
+.favicon-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+/* Visited button link */
+a.button:visited {
+  color: #fff;
+  background-color: #007acc; /* Same as normal to keep consistent */
+}
+
+/* Ensure hero images or avatars aren't accidentally grayed out */
+.page__hero-image img {
+  opacity: 1 !important;
+  transition: none !important;
+}
+
+.u-photo {
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+.page-intro {
+  background-color: #f3f4f6;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.toc {
+  background: #eef2f5;
+  padding: 1rem;
+  border-left: 4px solid #007acc;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  line-height: 1.6;
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: #007acc;
+    margin-bottom: 0.5rem;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* FAQ collapse box styles */
+details.faq-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+details.faq-box[open] {
+  background-color: #eef6ff;
+  border-color: #007acc;
+}
+
+details.faq-box summary {
+  font-weight: 600;
+  font-size: 1.1em;
+  margin: -0.5em -1em;
+  padding: 0.5em 1em;
+  list-style: none;
+}
+
+details.faq-box summary:hover {
+  color: #007acc;
+}
+
+details.faq-box summary::marker {
+  display: none;
+}
+
+details.faq-box p {
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  border-top: 1px solid #ddd;
+}
+
+/* Troubleshooting collapse box styles */
+details.troubleshooting-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #f9f9f9;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+details.troubleshooting-box[open] {
+  background-color: #eef6ff;
+  border-color: #007acc;
+}
+
+details.troubleshooting-box summary {
+  font-weight: 600;
+  font-size: 1.1em;
+  margin: -0.5em -1em;
+  padding: 0.5em 1em;
+  list-style: none;
+}
+
+details.troubleshooting-boxx summary:hover {
+  color: #007acc;
+}
+
+details.troubleshooting-box summary::marker {
+  display: none;
+}
+
+details.troubleshooting-box p {
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  border-top: 1px solid #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Dark background for content boxes */
+  .content-box {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    color: #e0e0e0;
+  }
+
+  /* FAQ and Troubleshooting boxes */
+  details.faq-box,
+  details.troubleshooting-box {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #e0e0e0;
+  }
+
+  details.faq-box[open],
+  details.troubleshooting-box[open] {
+    background-color: #1e2a38;
+    border-color: #3399ff;
+  }
+
+  details.faq-box summary:hover,
+  details.troubleshooting-box summary:hover {
+    color: #3399ff;
+  }
+
+  details.faq-box p,
+  details.troubleshooting-box p {
+    border-top: 1px solid #444;
+  }
+
+  /* Page intro box */
+  .page-intro {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+  }
+
+  /* Table of contents */
+  .toc {
+    background: #1e2a38;
+    border-left: 4px solid #007acc;
+    color: #e0e0e0;
+
+    a {
+      color: #66bfff;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* Gog header for gog related content pages */
+.gog-header {
+  background: linear-gradient(to right, #4c3b5c, #2e253d); // GOG-like purple gradient
+  color: #f0e6ff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-family: 'Lexend', sans-serif; // Free and similar to GOG’s modern UI
+}
+
+.gog-subtitle {
+  font-size: 1rem;
+  color: #d6cbe7;
+  margin-top: 0.5rem;
+}
+
+/* Hero video landing page */
+.hero-video-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  overflow: hidden;
+}
+
+.hero-video-inner {
+  width: 100%;
+  max-width: 960px;
+}
+
+.hero-video-inner video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+/* CTA Button */
+.hero-cta {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.btn-primary {
+  background-color: #9147ff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #7c38e2;
+}
+
+/* Scroll Hint */
+.scroll-hint {
+  text-align: center;
+  font-size: 2rem;
+  color: #aaa;
+  animation: bounce 2s infinite;
+  margin-top: 1rem;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(8px); }
+}
+
+/* Landing page card with picture */
+.feature-card {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
+  background: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  max-width: 1000px;
+}
+
+.card-content img {
+  width: 100%;
+  max-width: 500px;
+  object-fit: cover;
+  display: block;
+  flex: 1 1 300px;
+}
+
+.card-text {
+  flex: 1 1 300px;
+  padding: 1.5rem;
+  color: #fff;
+  background-color: #2a2a2a;
+}
+
+.card-text h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.card-text p {
+  margin: 0.75rem 0 0;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+/* Custom layout for image + text showcases */
+.feature-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.feature-box.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-box img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature-text {
+  max-width: 500px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .feature-box {
+    flex-direction: column;
+  }
+  .feature-box.reverse {
+    flex-direction: column;
+  }
+}
+
+/* Hamburger menu */
+.dropdown-menu {
+  position: relative;
+  display: inline-block;
+
+  .dropdown-toggle {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+
+  .hamburger-icon {
+    fill: none;
+    stroke: white;
+    transition: 0.3s ease;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #1e1e1e;
+    min-width: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+
+    a {
+      display: block;
+      padding: 0.5rem 1rem;
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        background-color: #333;
+      }
+    }
+  }
+
+  &:hover .dropdown-content {
+    display: block;
+  }
+}
+
+/* Tutorials Collection Styles (Dark Skin Themed) */
+.tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.tutorial-box {
+  background-color: #1e1e1e; /* dark box background */
+  border: 1px solid #333; /* subtle border */
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tutorial-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.tutorial-img img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.tutorial-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.tutorial-content h3 a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.tutorial-content h3 a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.tutorial-content h3 a:visited {
+  color: #ddd; /* maintain same color for visited links */
+}
+
+.tutorial-content p {
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+/* Troubleshooting Collection Styles (Dark Skin Themed) */
+.troubleshooting-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.troubleshooting-box {
+  background-color: #1e1e1e; /* dark box background */
+  border: 1px solid #333; /* subtle border */
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.troubleshooting-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.troubleshooting-img img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.troubleshooting-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.troubleshooting-content h3 a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.troubleshooting-content h3 a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.troubleshooting-content h3 a:visited {
+  color: #ddd; /* maintain same color for visited links */
+}
+
+.troubleshooting-content p {
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+/* Troubleshooting Code Block Styles */
+pre code {
+  display: block;
+  background-color: #2e2e2e;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: #f8f8f2;
+}
+
+pre code.language-bash {
+  color: #8be9fd;
+}
+
+pre code span {
+  color: #50fa7b; /* Example of different color for keywords */
+}
+
+.code-wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.copy-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+.copy-btn:hover {
+  background-color: #0056b3;
+}

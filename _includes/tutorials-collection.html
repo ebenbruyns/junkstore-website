@@ -1,0 +1,22 @@
+
+{% comment %}Loop through a specific collection and display as content boxes{% endcomment %}
+{% assign docs = site[include.collection] | sort: include.sort_by %}
+{% if include.sort_order == "reverse" %}
+  {% assign docs = docs | reverse %}
+{% endif %}
+
+<div class="tutorial-grid">
+  {% for doc in docs %}
+    <div class="tutorial-box">
+      {% if doc.image %}
+        <div class="tutorial-img">
+          <img src="{{ doc.image | relative_url }}" alt="{{ doc.title }}">
+        </div>
+      {% endif %}
+      <div class="tutorial-content">
+        <h3><a href="{{ doc.url | relative_url }}">{{ doc.title }}</a></h3>
+        <p>{{ doc.excerpt | strip_html | truncate: 120 }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

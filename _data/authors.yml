@@ -1,0 +1,15 @@
+# Authors
+
+junkstoreteam:
+  name: "Eben Bruyns"
+  avatar: "/assets/images/eben.png"
+  bio: "Creator of Junk Store — bringing better gaming to Steam Deck."
+  location: "Auckland, New Zealand"
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/eben-bruyns/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/ebenbruyns"
+  
