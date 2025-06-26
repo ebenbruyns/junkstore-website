@@ -59,7 +59,7 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
 </details>
 
 <details class="faq-box">
-  <summary>Is Junk-Store trustworthy?</summary>
+  <summary>Is Junk Store trustworthy?</summary>
   <p>
     Yes. Junk Store is developed by a cybersecurity expert and white-hat professional. You can verify our lead developer’s credentials on <a href="https://www.linkedin.com/in/eben-bruyns/" target="_blank">LinkedIn</a>.
   </p>
@@ -139,7 +139,7 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
   To uninstall a game:
 </p>
 <ol>
-  <li>Open the game page in Junk-Store.</li>
+  <li>Open the game page in Junk Store.</li>
   <li>Select the slider menu and choose <strong>Uninstall</strong>.</li>
   <li>Locate and manually delete any leftover files:
     <ul>
@@ -153,7 +153,7 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
 <details class="faq-box">
   <summary>How do I find save data for my games?</summary>
 <ol>
-  <li>Find the Steam ID at the bottom of the game page in Junk-Store.</li>
+  <li>Find the Steam ID at the bottom of the game page in Junk Store.</li>
   <li>Navigate to: <code>~/.local/share/Steam/steamapps/compatdata/*SteamID*/pfx/drive_c/users/steamuser/</code></li>
   <li>From here, follow the game's path:
     <ul>
@@ -166,11 +166,11 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
 
 <details class="faq-box">
   <summary>How do I change the Proton version for a game?</summary>
-<p>You can change the Proton version from either your Steam Library or directly in Junk-Store:</p>
+<p>You can change the Proton version from either your Steam Library or directly in Junk Store:</p>
 
 <ul>
   <li>
-    <strong>In Junk-Store:</strong>  
+    <strong>In Junk Store:</strong>  
     <ol>
       <li>Press <code>Y</code> to open the Steam shortcut.</li>
       <li>Click the gear icon → <strong>Properties</strong> → <strong>Compatibility</strong>, then select your desired Proton version.</li>
@@ -193,16 +193,16 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
 </details>
 
 <details class="faq-box">
-  <summary>Can I use Junk-Store with games I already installed using Heroic or Lutris?</summary>
+  <summary>Can I use Junk Store with games I already installed using Heroic or Lutris?</summary>
   <p>
-    No, Junk-Store manages its own game installs. If you want to manage those games, you’ll need to install them again via Junk-Store.
+    No, Junk Store manages its own game installs. If you want to manage those games, you’ll need to install them again via Junk Store.
   </p>
 </details>
 
 <details class="faq-box">
-  <summary>Does CheatDeck work with Junk-Store?</summary>
+  <summary>Does CheatDeck work with Junk Store?</summary>
   <p>
-    Not reliably. Epic game launch options are very sensitive, and tools like CheatDeck can conflict with Junk-Store’s configuration. We’ve spent over 100 hours fine-tuning this — so use with caution.
+    Not reliably. Epic game launch options are very sensitive, and tools like CheatDeck can conflict with Junk Store’s configuration. We’ve spent over 100 hours fine-tuning this — so use with caution.
 
     That said, our extension scripts are open and easier to modify than the plugin core. If you want to experiment and send a working pull request, we’re happy to review it!
   </p>
@@ -256,7 +256,7 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
 <details class="faq-box">
   <summary>Do games that require third-party launchers work?</summary>
   <p>
-    Not currently. While Legendary has limited support, this feature isn’t implemented in Junk-Store yet. You can attempt manual setup via CLI or modify the extension script.
+    Not currently. While Legendary has limited support, this feature isn’t implemented in Junk Store yet. You can attempt manual setup via CLI or modify the extension script.
   </p>
 </details>
 

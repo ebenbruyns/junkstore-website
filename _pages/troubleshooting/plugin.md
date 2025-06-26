@@ -30,11 +30,11 @@ Issues with Junk Store itself? This section covers general plugin problems — f
 <h3>If you're seeing errors and dependencies aren't installing, try running the following commands in Konsole:</h3>
 
 ```ruby
-export DECKY_PLUGIN_RUNTIME_DIR=~/homebrew/data/Junk-Store
-export PYTHONPATH=~/homebrew/plugins/Junk-Store/scripts:$PYTHONPATH:~/homebrew/plugins/Junk-Store/scripts/shared
-export DECKY_PLUGIN_DIR=~/homebrew/plugins/Junk-Store
-export DECKY_PLUGIN_LOG_DIR=~/homebrew/logs/Junk-Store
-cd ~/homebrew/plugins/Junk-Store
+export DECKY_PLUGIN_RUNTIME_DIR=~/homebrew/data/Junk Store
+export PYTHONPATH=~/homebrew/plugins/Junk Store/scripts:$PYTHONPATH:~/homebrew/plugins/Junk Store/scripts/shared
+export DECKY_PLUGIN_DIR=~/homebrew/plugins/Junk Store
+export DECKY_PLUGIN_LOG_DIR=~/homebrew/logs/Junk Store
+cd ~/homebrew/plugins/Junk Store
 ./scripts/install_deps.sh
 ```
 
@@ -61,9 +61,9 @@ cd ~/homebrew/plugins/Junk-Store
 </details>
 
 <details class="troubleshooting-box">
-  <summary>My game works in Heroic or Lutris, but not in Junk-Store</summary>
+  <summary>My game works in Heroic or Lutris, but not in Junk Store</summary>
 <p>
-  Games that run in Heroic or Lutris usually work in Junk-Store too — it’s just a matter of finding the right tweaks:
+  Games that run in Heroic or Lutris usually work in Junk Store too — it’s just a matter of finding the right tweaks:
 </p>
 <ul>
   <li>Try switching to a different GE-Proton version.</li>
@@ -111,7 +111,7 @@ cd ~/homebrew/plugins/Junk-Store
 <details class="troubleshooting-box">
   <summary>Do I need to keep Junk Store open while downloading from Epic?</summary>
   <p>
-    Yes. Junk-Store doesn't have a background download queue. If you close or leave the plugin, your download may stop or behave unpredictably.
+    Yes. Junk Store doesn't have a background download queue. If you close or leave the plugin, your download may stop or behave unpredictably.
   </p>
 </details>
 
@@ -130,7 +130,7 @@ cd ~/homebrew/plugins/Junk-Store
 <details class="troubleshooting-box">
   <summary>What are the backend scripts, and do I need them?</summary>
   <p>
-    These are optional example scripts mainly for DOSBox games. They are not officially supported and may stop working if Junk-Store is updated. Use them only if you know how they work.
+    These are optional example scripts mainly for DOSBox games. They are not officially supported and may stop working if Junk Store is updated. Use them only if you know how they work.
   </p>
 </details>
 
@@ -139,18 +139,18 @@ cd ~/homebrew/plugins/Junk-Store
   <p>
     You can delete them manually from:
     <br>
-    <code>~/homebrew/data/Junk-Store/scripts/Extensions</code>
+    <code>~/homebrew/data/Junk Store/scripts/Extensions</code>
   </p>
 </details>
 
 <details class="troubleshooting-box">
   <summary>Game gets stuck at the Steam pre-launch screen</summary>
   <p>
-    This might be caused by another plugin (like <strong>decky-cloud-save</strong>) locking Junk-Store’s files. Make sure nothing is interfering with this folder:
+    This might be caused by another plugin (like <strong>decky-cloud-save</strong>) locking Junk Store’s files. Make sure nothing is interfering with this folder:
     <br>
-    <code>/home/deck/homebrew/data/Junk-Store</code>
+    <code>/home/deck/homebrew/data/Junk Store</code>
     <br>
-    Junk-Store relies on that data directory to function correctly.
+    Junk Store relies on that data directory to function correctly.
   </p>
 </details>
 

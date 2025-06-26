@@ -1,17 +1,34 @@
 ---
+layout: splash
 title: "How to Login using OAuth"
 excerpt: "Step-by-step guide on loging in via third party logins"
-layout: single
 permalink: /tutorials/plugin/OAuth
-collection: tutorials
 classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/website_image.jpg
 ---
+<div class="spacer mt-4"></div>
+
 
 Follow these steps if you'd like to log into your Epic Games account using third-party authentication via one of the following options:
 
-| Google    | PlayStation | Lego     | Nintendo |
-|-----------|-------------|----------|----------|
-| Xbox      | Facebook    | Steam    | Apple    |
+<table>
+  <tr>
+    <td>Google</td>
+    <td>PlayStation</td>
+    <td>Lego</td>
+    <td>Nintendo</td>
+  </tr>
+  <tr>
+    <td>Xbox</td>
+    <td>Facebook</td>
+    <td>Steam</td>
+    <td>Apple</td>
+  </tr>
+</table>
+
 
 ### Steps for Logging in to Epic Games
 
@@ -24,8 +41,8 @@ This guide uses Google for logging in, but the steps are the same for other thir
    Press the Steam button and switch to **Big Picture Mode**.  
    ![Big Picture Mode](/assets/images/OAuth/Big Picture Mode.png)
 
-3. **Navigate to Epic Tab in Junk-Store**  
-   Go to **Junk-Store** > **Games** > **Epic Tab** and select **Login**.  
+3. **Navigate to Epic Tab in Junk Store**  
+   Go to **Junk Store** > **Games** > **Epic Tab** and select **Login**.  
    ![Login Epic](/assets/images/OAuth/Login%20Epic.jpeg)
 
 4. **Choose Your Login Method**  
@@ -55,8 +72,8 @@ This guide uses Google for logging in, but the steps are the same for other thir
 10. **Exit Big Picture Mode**  
     Press the Steam button, navigate to **Power**, and select **Exit Big Picture Mode** to return to **Game Mode**.
 
-11. **Go Back to Junk-Store**  
-    Once in **Game Mode**, press the three dots, go back to **Junk-Store** > **Games**, and you should now be logged into your Epic account.
+11. **Go Back to Junk Store**  
+    Once in **Game Mode**, press the three dots, go back to **Junk Store** > **Games**, and you should now be logged into your Epic account.
 
 12. **Check Your Library**  
     Your Epic Games library should now populate. If it doesn’t, navigate down and press **Y** to select **Show All**.  

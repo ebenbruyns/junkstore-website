@@ -14,7 +14,7 @@ header:
 <section class="tutorials-welcome">
   <h2>Welcome to Our 'How To' Guides</h2>
   <p>
-    Here you'll find step-by-step tutorials designed to help you get the most out of Junk-Store. Whether you're just getting started or looking for advanced tips, these guides cover a wide range of topics — from setup and login to dependencies and troubleshooting.
+    Here you'll find step-by-step tutorials designed to help you get the most out of Junk Store. Whether you're just getting started or looking for advanced tips, these guides cover a wide range of topics — from setup and login to dependencies and troubleshooting.
   </p>
   <p>
     Got questions or need a guide we haven’t written yet? Reach out on 
@@ -27,14 +27,14 @@ header:
 <div class="content-box-container">
 
   <div class="content-box">
-    <h3>Install Junk-Store</h3>
-    <p>Step-by-step guide for installing Junk-Store through the Decky plugin store.</p>
+    <h3>Install Junk Store</h3>
+    <p>Step-by-step guide for installing Junk Store through the Decky plugin store.</p>
     <a href="{{ '/tutorials/plugin/Install' | relative_url }}" class="button">View Guide</a>
   </div>
 
   <div class="content-box">
     <h3>Login with OAuth</h3>
-    <p>How to login using third-party login providers through Junk-Store.</p>
+    <p>How to login using third-party login providers through Junk Store.</p>
     <a href="{{ '/tutorials/plugin/OAuth' | relative_url }}" class="button">View Guide</a>
   </div>
 
@@ -52,7 +52,7 @@ header:
 
   <!-- <div class="content-box">
     <h3>Change Epic Language</h3>
-    <p>Guide to changing the global language setting for Epic Games via Junk-Store.</p>
+    <p>Guide to changing the global language setting for Epic Games via Junk Store.</p>
     <a href="{{ '/help/tutorials/change-epic-language' | relative_url }}" class="button">View Guide</a>
   </div> -->
 
@@ -64,13 +64,13 @@ header:
 
   <!-- <div class="content-box">
     <h3>Install Ubisoft Launcher</h3>
-    <p>Step-by-step walkthrough for setting up the Ubisoft launcher through Junk-Store.</p>
+    <p>Step-by-step walkthrough for setting up the Ubisoft launcher through Junk Store.</p>
     <a href="{{ '/help/tutorials/install-ubisoft-launcher' | relative_url }}" class="button">View Guide</a>
   </div> -->
 
   <!-- <div class="content-box">
     <h3>Install Fall Guys</h3>
-    <p>Instructions on getting Fall Guys running through Epic Games on Junk-Store.</p>
+    <p>Instructions on getting Fall Guys running through Epic Games on Junk Store.</p>
     <a href="{{ '/help/tutorials/install-fall-guys' | relative_url }}" class="button">View Guide</a>
   </div> -->
 

@@ -10,7 +10,7 @@ sidebar:
 {% include gog-header.html title="Gog Troubleshooting" subtitle="Tips and fixes for GOG-specific issues in Junk Store." %}
 
 
-This section deals with any problems specific to GOG integration — from download issues to getting games to run smoothly through Junk-Store.
+This section deals with any problems specific to GOG integration — from download issues to getting games to run smoothly through Junk Store.
 
 <details class="troubleshooting-box">
   <summary>I can't get GOG to run in Junk Store.</summary>

@@ -1,21 +1,24 @@
 ---
 title: "How to Install Junk Store"
-excerpt: "Step-by-step guide to install Junk-Store on your Steam Deck"
-layout: single
+excerpt: "Step-by-step guide to install Junk Store on your Steam Deck"
+layout: splash
 permalink: /tutorials/plugin/Install
-collection: tutorials
-classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/website_image.jpg
 ---
+<div class="spacer mt-4"></div>
 
-This guide walks you through installing the **Junk-Store** plugin and logging in to your Epic Games account on a Steam Deck.
+This guide walks you through installing the **Junk Store** plugin and logging in to your Epic Games account on a Steam Deck.
 
 > ⚠️ **Note:** This guide assumes you already have **Decky Loader** installed.
 
 ---
 
-## Download Junk-Store
+## Download Junk Store
 
-You can download Junk-Store from either of the following Decky Plugin stores:
+You can download Junk Store from either of the following Decky Plugin stores:
 
 - [Decky Plugin Main Store](https://plugins.deckbrew.xyz)
 - [Decky Plugin Testing Store](https://testing.deckbrew.xyz)
@@ -38,22 +41,22 @@ Make sure you’re using the correct **Store Channel** in Decky.
 
 ---
 
-### Step 2: Install Junk-Store
+### Step 2: Install Junk Store
 
 - Go back to the Decky Loader main screen
 - Open the **Decky Plugin Store**
-- Search for or scroll to **Junk-Store Plugin**
+- Search for or scroll to **Junk Store Plugin**
 - Select it and click **Install**
 
 > 💡 You can also choose a specific version before installing.
 
-![Junk-Store Install](/assets/images/JSInstall/Junk-Store%20Install.jpeg)
+![Junk Store Install](/assets/images/JSInstall/Junk Store%20Install.jpeg)
 
 ---
 
 ### Step 3: Install Dependencies
 
-- After installing, open **Junk-Store**
+- After installing, open **Junk Store**
 - Go to the **About** section
 - Select **Dependencies** > **Install Dependencies**
 
@@ -65,7 +68,7 @@ Make sure you’re using the correct **Store Channel** in Decky.
 
 ### Step 4: Log in to Epic Games
 
-- From the Junk-Store menu, select **Games**
+- From the Junk Store menu, select **Games**
 - You’ll be prompted to log in to your **Epic Games** account
 
 ![Login Epic](/assets/images/JSInstall/Login%20Epic.jpeg)
@@ -132,7 +135,7 @@ Still stuck? Ask for help on [r/JunkStore](https://www.reddit.com/r/JunkStore/) 
 
 ## 📺 Bonus: Video Guide
 
-Steam Deck Gaming made a great video showing how to install Junk-Store (including Fall Guys):
+Steam Deck Gaming made a great video showing how to install Junk Store (including Fall Guys):
 
 [![Watch on YouTube](https://img.youtube.com/vi/tgc7yiKtpW0/0.jpg)](https://www.youtube.com/watch?v=tgc7yiKtpW0)
 

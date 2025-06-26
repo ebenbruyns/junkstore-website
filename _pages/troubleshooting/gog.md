@@ -13,7 +13,7 @@ header:
 <!-- {% include gog-header.html title="Gog Troubleshooting" subtitle="Tips and fixes for GOG-specific issues in Junk Store." %} -->
 
 
-This section deals with any problems specific to GOG integration — from download issues to getting games to run smoothly through Junk-Store.
+This section deals with any problems specific to GOG integration — from download issues to getting games to run smoothly through Junk Store.
 
 <h2>Need Help or More Info?</h2>
 <p>Here are your best starting points:</p>
