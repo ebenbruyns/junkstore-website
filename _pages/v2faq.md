@@ -138,8 +138,8 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
   </p>
 
   <p>
-    🐞 <strong>Submit bugs on GitHub so we can track them properly:</strong><br>
-    👉 <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues/new" target="_blank" rel="noopener">Submit a bug report</a>
+    <strong>Submit bugs on GitHub so we can track them properly:</strong><br>
+    <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues/new" target="_blank" rel="noopener">Submit a bug report</a>
   </p>
 
   <p>

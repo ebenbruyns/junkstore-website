@@ -9,19 +9,20 @@
 
 /* Container for all content boxes */
 .content-box-container {
-  display: flex; /* Layout children in a row */
-  justify-content: space-between; /* Evenly space the boxes horizontally */
+  display: grid; /* Layout children in a row */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  // justify-content: space-between; /* Evenly space the boxes horizontally */
   gap: 20px; /* Space between each box */
-  margin: 20px 0;
-  flex-wrap: wrap; /* Allow wrapping to next line on small screens */
+  // margin: 20px 0;
+  // flex-wrap: wrap; /* Allow wrapping to next line on small screens */
 }
 
 /* Style for each individual content box */
 .content-box {
-  background-color: #f9f9f9; /* Light gray background */
+  background-color: #1e2a38; /* Light gray background */
   border: 1px solid #ddd; /* Thin border */
   padding: 20px;
-  width: 30%; /* Each box uses 30% of the available width */
+  width: 100%; /* Each box uses 30% of the available width */
   min-height: 400px; /* 🔥 NEW: Minimum height so all boxes match */
   box-sizing: border-box; /* Includes padding/border in width/height */
   border-radius: 8px;
@@ -71,8 +72,8 @@ a.button {
   text-align: center;
   font-weight: bold;
   transition: background-color 0.3s ease;
-  min-width: 150px; /* Minimum width so buttons don't shrink too much */
-  max-width: 200px; /* Maximum width to keep them consistent */
+  min-width: 200px; /* Minimum width so buttons don't shrink too much */
+  max-width: 230px; /* Maximum width to keep them consistent */
   white-space: normal; /* Allow wrapping if necessary */
   word-break: break-word; /* Prevent overflow if long words */
 
@@ -303,35 +304,35 @@ details.troubleshooting-box p {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-/* CTA Button */
-.hero-cta {
-  text-align: center;
-  margin-top: 1rem;
-}
+// /* CTA Button */
+// .hero-cta {
+//   text-align: center;
+//   margin-top: 1rem;
+// }
 
-.btn-primary {
-  background-color: #9147ff;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  display: inline-block;
-  transition: background-color 0.3s ease;
-}
+// .btn-primary {
+//   background-color: #9147ff;
+//   color: white;
+//   padding: 0.75rem 1.5rem;
+//   border-radius: 8px;
+//   text-decoration: none;
+//   font-weight: bold;
+//   display: inline-block;
+//   transition: background-color 0.3s ease;
+// }
 
-.btn-primary:hover {
-  background-color: #7c38e2;
-}
+// .btn-primary:hover {
+//   background-color: #7c38e2;
+// }
 
-/* Scroll Hint */
-.scroll-hint {
-  text-align: center;
-  font-size: 2rem;
-  color: #aaa;
-  animation: bounce 2s infinite;
-  margin-top: 1rem;
-}
+// /* Scroll Hint */
+// .scroll-hint {
+//   text-align: center;
+//   font-size: 2rem;
+//   color: #aaa;
+//   animation: bounce 2s infinite;
+//   margin-top: 1rem;
+// }
 
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
