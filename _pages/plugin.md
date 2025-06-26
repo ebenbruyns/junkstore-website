@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Junk Store Decky Plugin"
-permalink: /plugin
+permalink: /plugin/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
