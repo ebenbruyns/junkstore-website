@@ -14,20 +14,6 @@ header:
 
 Running into problems with Epic games? This section covers common issues with Epic integration, like missing games, launch problems, or DLC not working as expected.
 
-<h2>Need Help or More Info?</h2>
-<p>Here are your best starting points:</p>
-<ul>
-  <li>
-    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
-  </li>
-<li>
-    Still stuck? Ask us on 
-    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
-    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>
-  </li>
-</ul>
-
-
 <details class="troubleshooting-box">
   <summary>Experiencing login issues?</summary>
   <p>
@@ -166,3 +152,16 @@ Running into problems with Epic games? This section covers common issues with Ep
     Still having trouble? Ask in our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> <em> #epic-support forum</em>.
   </p>
 </details>
+
+<h2>Need Help or More Info?</h2>
+<p>Here are your best starting points:</p>
+<ul>
+  <li>
+    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
+  </li>
+<li>
+    Still stuck? Ask us on 
+    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
+    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>
+  </li>
+</ul>

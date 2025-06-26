@@ -13,20 +13,6 @@ header:
 
 Issues with Junk Store itself? This section covers general plugin problems — from install issues to launch errors and everything in between.
 
-<h2>Need Help or More Info?</h2>
-<p>Here are your best starting points:</p>
-<ul>
-  <li>
-    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
-  </li>
-<li>
-    Still stuck? Ask us on 
-    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
-    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>.
-  </li>
-</ul>
-
-
 <h3>If you're seeing errors and dependencies aren't installing, try running the following commands in Konsole:</h3>
 
 ```ruby
@@ -154,4 +140,15 @@ cd ~/homebrew/plugins/Junk Store
   </p>
 </details>
 
-
+<h2>Need Help or More Info?</h2>
+<p>Here are your best starting points:</p>
+<ul>
+  <li>
+    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
+  </li>
+<li>
+    Still stuck? Ask us on 
+    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
+    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>.
+  </li>
+</ul>

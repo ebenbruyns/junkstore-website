@@ -41,6 +41,13 @@ header:
 </details>
 
 <details class="faq-box">
+  <summary>How many devices can I install Junk Store on?</summary>
+  <p>
+    You can install Junk Store on up to <strong>five</strong> devices under a single license. We think this strikes a fair balance between flexibility and sustainability.
+  </p>
+</details>
+
+<details class="faq-box">
   <summary>Early Supporters & Rollout Plan</summary>
   <p>To thank our existing users and supporters, we’ll begin onboarding them first. Due to hosting and bandwidth costs, we’re rolling out in waves to stay sustainable. Based on past download volumes, an immediate public launch would burn through our budget fast — and we want to do this right.
   </p>
