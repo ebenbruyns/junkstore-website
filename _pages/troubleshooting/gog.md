@@ -1,0 +1,53 @@
+---
+layout: splash
+title: "Gog Extension Troubleshooting"
+category: troubleshooting
+permalink: /troubleshooting/gog/
+classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/website_image.jpg
+---
+<div class="spacer mt-4"></div>
+<!-- {% include gog-header.html title="Gog Troubleshooting" subtitle="Tips and fixes for GOG-specific issues in Junk Store." %} -->
+
+This section deals with any problems specific to GOG integration — from download issues to getting games to run smoothly through Junk Store.
+
+<details class="faq-box">
+  <summary>I can't get GOG to run in Junk Store.</summary>
+  <p>
+    Make sure you're using the <strong>latest version of Junk Store</strong> from the <strong>Decky Testing Store</strong>.<br><br>
+    You’ll also need to reinstall dependencies by going to the <strong>About</strong> section and clicking “Install Dependencies.”<br><br>
+    If you've purchased the GOG extension, <strong>follow the setup instructions emailed to you</strong> or refer to the downloadable PDF — skipping these steps may cause issues.
+  </p>
+</details>
+
+<details class="troubleshooting-box">
+  <summary>I don’t see any games in my Gog library.</summary>
+  <p>
+      Check the following:
+    <ul>
+      <li>If you have more than one Gog account, make sure you are logged into the correct one.</li>
+      <li>Press <strong>X</strong> to toggle the “Show Installed” filter — it may be hiding your uninstalled games.</li>
+      <li>Clear the search bar at the top — any text here will filter your library.</li>
+      <li>Refresh your games list from the main Gog tab:<br>
+    &nbsp;&nbsp;<strong>Sliders menu &gt; Refresh Games List</strong></li>
+      <li>Reboot the Steam Deck</li>
+      <li>Log out and log back into your Gog account</li>
+    </ul>
+  </p>
+</details>
+
+<h2>Need Help or More Info?</h2>
+<p>Here are your best starting points:</p>
+<ul>
+  <li>
+    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
+  </li>
+<li>
+    Still stuck? Ask us on 
+    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
+    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>
+  </li>
+</ul>

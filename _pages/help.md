@@ -7,8 +7,6 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image.jpg # This sets the URL for this page
 excerpt: "FAQs, Troubleshooting Tips, and How-To Guides"
-sidebar:
-  nav: sidebar-main
 classes: wide
 ---
 
