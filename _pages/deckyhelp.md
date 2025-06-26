@@ -10,11 +10,11 @@ excerpt:
     <p><a href="https://github.com/ebenbruyns/junkstore/releases/latest" target="_blank" rel="noopener noreferrer">Latest release v1.1.9</a></p>
 ---
 
-<!-- Where to Find Junk-Store -->
+<!-- Where to Find Junk Store -->
 <section class="where-to-find">
-  <h2>Where to Find Junk-Store</h2>
+  <h2>Where to Find Junk Store</h2>
   <p>
-    You can install Junk-Store from the Decky Plugin Store on your Steam Deck. Check the testing store for early versions and previews of upcoming features.
+    You can install Junk Store from the Decky Plugin Store on your Steam Deck. Check the testing store for early versions and previews of upcoming features.
   </p>
   <ul>
     <li><a href="https://plugins.deckbrew.xyz/" target="_blank" rel="noopener noreferrer">Decky Plugin Main Store</a></li>
@@ -25,7 +25,7 @@ excerpt:
 <section class="gog-extension">
   <h2>Installing the GOG Extension</h2>
   <p>
-    The GOG extension is available as a supporter benefit. You can purchase it via Ko-fi or Patreon using the button below. Once completed, you’ll receive download access and emailed instructions on how to install it and link it to your Junk-Store plugin.
+    The GOG extension is available as a supporter benefit. You can purchase it via Ko-fi or Patreon using the button below. Once completed, you’ll receive download access and emailed instructions on how to install it and link it to your Junk Store plugin.
   </p>
   
  <a href="https://ko-fi.com/junkstore" class="button" style="margin-right: 10px;" target="_blank" rel="noopener noreferrer">Ko-fi</a>
@@ -45,13 +45,13 @@ excerpt:
 
   <div class="content-box troubleshooting">
     <h3>Epic Games FAQ</h3>
-    <p>Answers to common questions about using Junk-Store with Epic Games.</p>
+    <p>Answers to common questions about using Junk Store with Epic Games.</p>
     <a href="{{ '/faq/epicfaq/' | relative_url }}" class="button">Epic FAQ</a>
   </div>
 
   <div class="content-box troubleshooting">
     <h3>Gog Extension FAQ</h3>
-    <p>Learn what works, what doesn’t, and how to get the most out of the GOG extension with Junk-Store.</p>
+    <p>Learn what works, what doesn’t, and how to get the most out of the GOG extension with Junk Store.</p>
     <a href="{{ '/faq/gogfaq/' | relative_url }}" class="button">Gog FAQ</a>
   </div>
 

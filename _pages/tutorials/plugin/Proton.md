@@ -1,22 +1,26 @@
 ---
 title: "How to change Proton Version"
 excerpt: "Step-by-step guide on how to change your Proton version in Junk Store"
-layout: single
+layout: splash
 permalink: /tutorials/plugin/Proton
-collection: tutorials
-classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/website_image.jpg
 ---
+<div class="spacer mt-4"></div>
 
-This guide shows you how to check or change the **Proton version** used for a game, using the **Junk-Store** and **Wine Cellar** plugins via Decky Loader.
+
+This guide shows you how to check or change the **Proton version** used for a game, using the **Junk Store** and **Wine Cellar** plugins via Decky Loader.
 
 It assumes:
-- You’ve already installed **Junk-Store**
+- You’ve already installed **Junk Store**
 - You’ve installed **Wine Cellar**
 - You’ve got at least one extra version of Proton installed
 
 If not, start here first:
 
-- [How to Install Junk-Store](/tutorials/plugin/Install)
+- [How to Install Junk Store](/tutorials/plugin/Install)
 - [How to Install Wine Cellar](/tutorials/plugin/WineCellar)
 
 ---
@@ -30,8 +34,6 @@ If your game:
 
 It might need a different Proton version.
 
-> 💡 We’ve had the most success with **GE-Proton 9-7** and **GE-Proton 9-20**.
-
 You can also check:
 - [ProtonDB.com](https://www.protondb.com) for user reports
 - Our working game lists:
@@ -40,19 +42,19 @@ You can also check:
 
 ---
 
-## How Junk-Store Handles Proton
+## How Junk Store Handles Proton
 
-Junk-Store installs each game in its own prefix (kind of like its own folder with settings), so you can set a **different Proton version per game**.  
+Junk Store installs each game in its own prefix (kind of like its own folder with settings), so you can set a **different Proton version per game**.  
 The setting stays saved—even after reboot.
 
 ---
 
-## How to Check or Change Proton Version (Using Junk-Store)
+## How to Check or Change Proton Version (Using Junk Store)
 
-### Step 1: Open the Game Page in Junk-Store
-Go to the game you installed through Junk-Store.
+### Step 1: Open the Game Page in Junk Store
+Go to the game you installed through Junk Store.
 
-![Junk-Store Game Page](/assets/images/Proton/FM'24%20JS%20Game%20Page.jpg)
+![Junk Store Game Page](/assets/images/Proton/FM'24%20JS%20Game%20Page.jpg)
 
 ---
 

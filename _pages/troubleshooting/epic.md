@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/website_image.jpg
 ---
 <div class="spacer mt-4"></div>
-<!-- {% include epic-header.html title="Epic Troubleshooting" subtitle="Tips and fixes for Epic Games-specific issues in Junk-Store." %} -->
+<!-- {% include epic-header.html title="Epic Troubleshooting" subtitle="Tips and fixes for Epic Games-specific issues in Junk Store." %} -->
 
 Running into problems with Epic games? This section covers common issues with Epic integration, like missing games, launch problems, or DLC not working as expected.
 
@@ -70,7 +70,7 @@ Running into problems with Epic games? This section covers common issues with Ep
 <details class="troubleshooting-box">
   <summary>How do I update the Legendary Flatpak?</summary>
   <p>
-    Go to <strong>About &gt; Dependencies</strong> in the Junk-Store UI and click “Install Dependencies” again.
+    Go to <strong>About &gt; Dependencies</strong> in the Junk Store UI and click “Install Dependencies” again.
   </p>
 </details>
 
@@ -111,7 +111,7 @@ Running into problems with Epic games? This section covers common issues with Ep
     <ol>
       <li>Download the <strong>X64 redistributable</strong> from <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170" target="_blank">Microsoft Learn</a>.</li>
       <li>Copy the file to the game’s install folder:<br><code>~/Games/epic/[game title]</code></li>
-      <li>In Junk-Store, go to the game’s slider menu → <strong>Run EXE in Game Folder</strong></li>
+      <li>In Junk Store, go to the game’s slider menu → <strong>Run EXE in Game Folder</strong></li>
       <li>Select <code>VC_redist.x64.exe</code> and complete the install.</li>
     </ol>
     This should allow the game to run.
@@ -119,7 +119,7 @@ Running into problems with Epic games? This section covers common issues with Ep
 </details>
 
 <details class="troubleshooting-box">
-  <summary>Junk-Store and EGS library don’t match?</summary>
+  <summary>Junk Store and EGS library don’t match?</summary>
   <p>
   Have you tried <strong>refreshing your games list?</strong>
   <li>Refresh your games list from the main Epic tab:<br>

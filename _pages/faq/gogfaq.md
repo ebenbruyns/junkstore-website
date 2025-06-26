@@ -60,7 +60,7 @@ header:
 <details class="faq-box">
   <summary>How do I uninstall and clear game data?</summary>
   <p>
-    First on the game screen in Junk-Store go to the sliders menu and select <strong>uninstall</strong>.
+    First on the game screen in Junk Store go to the sliders menu and select <strong>uninstall</strong>.
   </p>
   <p>
     Then depending on where you installed your games, you can find them in either <code>~/Games/gog</code> or <code>&lt;microsd&gt;/Games/gog</code>.
@@ -91,6 +91,6 @@ header:
 <details class="faq-box">
   <summary>Does the GOG extension support native Linux games?</summary>
   <p>
-    No — the GOG extension is designed for Windows games running through Proton. Native Linux games from GOG are not currently supported, as Junk-Store relies on Proton’s compatibility layer for game execution and integration.
+    No — the GOG extension is designed for Windows games running through Proton. Native Linux games from GOG are not currently supported, as Junk Store relies on Proton’s compatibility layer for game execution and integration.
   </p>
 </details>

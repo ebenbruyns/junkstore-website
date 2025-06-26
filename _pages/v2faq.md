@@ -264,10 +264,10 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 <details class="faq-box">
   <summary>How do I change the Proton version for a game?</summary>
   <p>
-    You can do this from either your Steam Library or directly inside Junk-Store.
+    You can do this from either your Steam Library or directly inside Junk Store.
 
     <br><br>
-    <strong>From Junk-Store:</strong><br>
+    <strong>From Junk Store:</strong><br>
     Press <code>Y</code> to open the Steam shortcut.
     <ol>
       <li>Click the gear icon → <strong>Properties</strong> → <strong>Compatibility</strong></li>
@@ -373,6 +373,6 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 <details class="faq-box">
   <summary>Do games that require third-party launchers work?</summary>
   <p>
-    Not currently. While Legendary has limited support, this feature isn’t implemented in Junk-Store yet. You can attempt manual setup via CLI or modify the extension script.
+    Not currently. While Legendary has limited support, this feature isn’t implemented in Junk Store yet. You can attempt manual setup via CLI or modify the extension script.
   </p>
 </details>

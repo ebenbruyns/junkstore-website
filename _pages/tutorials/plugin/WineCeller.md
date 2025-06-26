@@ -1,18 +1,21 @@
 ---
 title: "How to Install and Use Wine Cellar Plugin"
-layout: single
+layout: splash
 excerpt: "Step-by-step guide on installing WineCellar to manage compatibility tools"
 permalink: /tutorials/plugin/WineCellar
-collection: tutorials
-classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/website_image.jpg
 ---
+<div class="spacer mt-4"></div>
 
 ## Intro
 
-This guide assumes you've already installed **Junk-Store via Decky Loader**.  
+This guide assumes you've already installed **Junk Store via Decky Loader**.  
 If you haven't, check out our tutorial here:
 
-- [How to Install Junk-Store](/tutorials/plugin/Install)
+- [How to Install Junk Store](/tutorials/plugin/Install)
 
 If you're not sure how to change the **Proton version** used for a game, refer to:
 
@@ -36,8 +39,6 @@ If you launch a game and it:
 
 Then you probably need to switch your Proton version.
 
-> ✅ **We’ve had great results with GE-Proton 9-7 and 9-20.**
-
 To find the best version for your game:
 - Check [ProtonDB.com](https://www.protondb.com/)
 - Or visit our known-working game lists:
@@ -48,7 +49,7 @@ To find the best version for your game:
 
 ## How to Install Wine Cellar
 
-Installing Wine Cellar is just like installing Junk-Store.
+Installing Wine Cellar is just like installing Junk Store.
 
 ### Step 1: Search in Decky Store
 - Open the **Decky Plugin Store**
