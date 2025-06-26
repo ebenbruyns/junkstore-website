@@ -163,6 +163,6 @@ Running into problems with Epic games? This section covers common issues with Ep
       <li>Your SD card may not be formatted correctly.</li>
       <li>Old dependencies — revisit <strong>About &gt; Dependencies</strong> and reinstall them.</li>
     </ul>
-    Still having trouble? Ask in our<a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> <em>#epic-support forum</em>.
+    Still having trouble? Ask in our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> <em> #epic-support forum</em>.
   </p>
 </details>
