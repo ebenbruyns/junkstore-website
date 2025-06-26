@@ -12,19 +12,6 @@ header:
 
   Welcome to our Epic Games Store FAQ page, focused on common questions about using Epic Games titles with Junk Store on the Steam Deck.
 
-<h2>Need Help or More Info?</h2>
-<p>Here are your best starting points:</p>
-<ul>
-  <li>
-    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
-  </li>
-<li>
-    Still stuck? Ask us on 
-    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
-    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>.
-  </li>
-</ul>
-
 <details class="faq-box">
   <summary>Does Junk Store automatically install DLC content too?</summary>
   <p>Yes, DLC is installed automatically by default.</p>
@@ -94,3 +81,16 @@ header:
   That said, you’re welcome to search for fixes or community workarounds online — others have experimented with getting it running and may have suggestions to share.
 </p>
 </details>
+
+<h2>Need Help or More Info?</h2>
+<p>Here are your best starting points:</p>
+<ul>
+  <li>
+    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
+  </li>
+<li>
+    Still stuck? Ask us on 
+    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
+    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>.
+  </li>
+</ul>

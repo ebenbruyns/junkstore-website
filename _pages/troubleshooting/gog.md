@@ -12,21 +12,7 @@ header:
 <div class="spacer mt-4"></div>
 <!-- {% include gog-header.html title="Gog Troubleshooting" subtitle="Tips and fixes for GOG-specific issues in Junk Store." %} -->
 
-
 This section deals with any problems specific to GOG integration — from download issues to getting games to run smoothly through Junk Store.
-
-<h2>Need Help or More Info?</h2>
-<p>Here are your best starting points:</p>
-<ul>
-  <li>
-    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
-  </li>
-<li>
-    Still stuck? Ask us on 
-    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
-    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>
-  </li>
-</ul>
 
 <details class="faq-box">
   <summary>I can't get GOG to run in Junk Store.</summary>
@@ -36,7 +22,6 @@ This section deals with any problems specific to GOG integration — from downlo
     If you've purchased the GOG extension, <strong>follow the setup instructions emailed to you</strong> or refer to the downloadable PDF — skipping these steps may cause issues.
   </p>
 </details>
-
 
 <details class="troubleshooting-box">
   <summary>I don’t see any games in my Gog library.</summary>
@@ -53,3 +38,16 @@ This section deals with any problems specific to GOG integration — from downlo
     </ul>
   </p>
 </details>
+
+<h2>Need Help or More Info?</h2>
+<p>Here are your best starting points:</p>
+<ul>
+  <li>
+    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
+  </li>
+<li>
+    Still stuck? Ask us on 
+    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
+    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>
+  </li>
+</ul>

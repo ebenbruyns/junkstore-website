@@ -12,19 +12,6 @@ header:
 
 Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the most commonly asked questions about the Junk Store Decky plugin. This page is updated regularly as we respond to user feedback and questions.
 
-<h2>Need Help or More Info?</h2>
-<p>Here are your best starting points:</p>
-<ul>
-  <li>
-    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
-  </li>
-<li>
-    Still stuck? Ask us on 
-    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
-    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>.
-  </li>
-</ul>
-
 ## General
 
 <details class="troubleshooting-box">
@@ -272,5 +259,17 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
     <strong>Ubisoft Games:</strong><br>
     It’s complicated. Some Ubisoft titles do appear in your Epic library, while others don’t. The Ubisoft Launcher is not officially supported, but we—and some users—have successfully installed it manually and run select games through Junk Store.
   </p>
-
 </details>
+
+<h2>Need Help or More Info?</h2>
+<p>Here are your best starting points:</p>
+<ul>
+  <li>
+    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
+  </li>
+<li>
+    Still stuck? Ask us on 
+    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
+    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>.
+  </li>
+</ul>

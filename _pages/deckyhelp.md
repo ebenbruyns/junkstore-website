@@ -27,11 +27,15 @@ excerpt:
   <p>
     The GOG extension is available as a supporter benefit. You can purchase it via Ko-fi or Patreon using the button below. Once completed, you’ll receive download access and emailed instructions on how to install it and link it to your Junk Store plugin.
   </p>
-  
- <a href="https://ko-fi.com/junkstore" class="button" style="margin-right: 10px;" target="_blank" rel="noopener noreferrer">Ko-fi</a>
- <a href="https://www.patreon.com/junkstore" class="button" target="_blank" rel="noopener noreferrer">Patreon</a>
 
+  <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
+    <strong>Note:</strong> The GOG extension is currently in <strong>maintenance-only</strong> mode. This means we’ll continue fixing bugs and ensuring compatibility, but we’re not actively adding new features. Continued support depends on user interest and purchases.
+  </p>
+
+  <a href="https://ko-fi.com/junkstore" class="button" style="margin-right: 10px;" target="_blank" rel="noopener noreferrer">Ko-fi</a>
+  <a href="https://www.patreon.com/junkstore" class="button" target="_blank" rel="noopener noreferrer">Patreon</a>
 </section>
+
 <br>
 
 <!-- Content Boxes -->
@@ -40,57 +44,57 @@ excerpt:
   <div class="content-box faq">
     <h3>Decky Plugin FAQ</h3>
     <p>Common questions and answers about Junk Store for Decky.</p>
-    <a href="{{ '/faq/deckyfaq' | relative_url }}" class="button">Plugin FAQ</a>
+    <a href="{{ '/faq/deckyfaq' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Plugin FAQ</a>
   </div>
 
   <div class="content-box troubleshooting">
     <h3>Epic Games FAQ</h3>
     <p>Answers to common questions about using Junk Store with Epic Games.</p>
-    <a href="{{ '/faq/epicfaq/' | relative_url }}" class="button">Epic FAQ</a>
+    <a href="{{ '/faq/epicfaq/' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Epic FAQ</a>
   </div>
 
   <div class="content-box troubleshooting">
     <h3>Gog Extension FAQ</h3>
     <p>Learn what works, what doesn’t, and how to get the most out of the GOG extension with Junk Store.</p>
-    <a href="{{ '/faq/gogfaq/' | relative_url }}" class="button">Gog FAQ</a>
+    <a href="{{ '/faq/gogfaq/' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Gog FAQ</a>
   </div>
 
   <!-- Troubleshooting -->
   <div class="content-box troubleshooting">
     <h3>Decky Plugin Troubleshooting</h3>
     <p>Tips, tricks, and workarounds for common issues.</p>
-    <a href="{{ '/troubleshooting/plugin' | relative_url }}" class="button">Plugin Troubleshooting</a>
+    <a href="{{ '/troubleshooting/plugin' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Plugin Troubleshooting</a>
   </div>
 
   <div class="content-box troubleshooting">
     <h3>Epic Games Troubleshooting</h3>
     <p>Having issues with your Epic Games library? Check here for fixes to login problems, launch errors, and more.</p>
-    <a href="{{ '/troubleshooting/epic' | relative_url }}" class="button">Epic Troubleshooting</a>
+    <a href="{{ '/troubleshooting/epic' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Epic Troubleshooting</a>
   </div>
 
   <div class="content-box troubleshooting">
     <h3>Gog Troubleshooting</h3>
     <p>Running into trouble with your GOG setup? This guide helps you diagnose and resolve common issues fast.</p>
-    <a href="{{ '/troubleshooting/gog' | relative_url }}" class="button">Gog Troubleshooting</a>
+    <a href="{{ '/troubleshooting/gog' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Gog Troubleshooting</a>
   </div>
 
   <!-- Tutorials -->
   <div class="content-box tutorials">
     <h3>Decky Plugin Tutorials</h3>
     <p>Step-by-step instructions for installing, configuring, and using Junk Store on Decky.</p>
-    <a href="{{ '/plugin_tutorials/' | relative_url }}" class="button">Tutorials</a>
+    <a href="{{ '/plugin_tutorials/' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Tutorials</a>
   </div>
 
   <!-- Tested Games -->
   <div class="content-box tested-games">
     <h3>Epic Games Tested</h3>
     <p>View Epic Store games known to work with Junk Store.</p>
-    <a href="https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working" class="button">Epic List</a>
+    <a href="https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working" class="button" target="_blank" rel="noopener noreferrer">Epic List</a>
   </div>
 
    <div class="content-box tested-games">
     <h3>Gog Games Tested</h3>
     <p>View Gog games known to work with Junk Store.</p>
-    <a href="https://wiki.junkstore.xyz/wiki/Help:GOG_Games/Working" class="button">Gog List</a>
+    <a href="https://wiki.junkstore.xyz/wiki/Help:GOG_Games/Working" class="button" target="_blank" rel="noopener noreferrer">Gog List</a>
   </div>
 </div>
