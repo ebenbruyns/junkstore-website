@@ -29,25 +29,25 @@ header:
   <div class="content-box">
     <h3>Install Junk-Store</h3>
     <p>Step-by-step guide for installing Junk-Store through the Decky plugin store.</p>
-    <a href="{{ '/help/tutorials/install-junkstore' | relative_url }}" class="button">View Guide</a>
+    <a href="{{ '/help/tutorials/Install' | relative_url }}" class="button">View Guide</a>
   </div>
 
   <div class="content-box">
     <h3>Login with OAuth</h3>
     <p>How to login using third-party login providers through Junk-Store.</p>
-    <a href="{{ '/help/tutorials/login-oauth' | relative_url }}" class="button">View Guide</a>
+    <a href="{{ '/help/tutorials/OAuth' | relative_url }}" class="button">View Guide</a>
   </div>
 
   <div class="content-box">
     <h3>Install Wine Cellar</h3>
     <p>Instructions on installing Wine Cellar to enhance compatibility with various titles.</p>
-    <a href="{{ '/help/tutorials/install-wine-cellar' | relative_url }}" class="button">View Guide</a>
+    <a href="{{ '/help/tutorials/WineCellar' | relative_url }}" class="button">View Guide</a>
   </div>
 
   <div class="content-box">
     <h3>Check or Change Proton Version</h3>
     <p>Learn how to verify and adjust the Proton version used for your games.</p>
-    <a href="{{ '/help/tutorials/check-proton-version' | relative_url }}" class="button">View Guide</a>
+    <a href="{{ '/help/tutorials/Proton' | relative_url }}" class="button">View Guide</a>
   </div>
 
   <!-- <div class="content-box">
@@ -59,7 +59,7 @@ header:
   <div class="content-box">
     <h3>Install C++ Runtime</h3>
     <p>How to install the required C++ runtime dependencies for certain games.</p>
-    <a href="{{ '/help/tutorials/install-cpp-runtime' | relative_url }}" class="button">View Guide</a>
+    <a href="{{ '/help/tutorials/C++Runtime' | relative_url }}" class="button">View Guide</a>
   </div>
 
   <!-- <div class="content-box">
