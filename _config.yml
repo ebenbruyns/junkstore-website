@@ -125,8 +125,13 @@ footer:
      # url: "https://github.com/your-closed-source-repo"
 
 # SEO/Analytics
-google_site_verification: # Optional
-bing_site_verification:   # Optional
+# google_analytics: # Optional
+# bing_site_verification:   # Optional
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-E2Y00GCMSG"   # Replace with your GA4 measurement ID
+    anonymize_ip: true            # Optional
 
 # Permalinks
 permalink: /:categories/:title/
