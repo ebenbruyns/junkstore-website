@@ -214,35 +214,35 @@ details.troubleshooting-box p {
 
 @media (prefers-color-scheme: dark) {
   /* Dark background for content boxes */
-  .content-box {
-    background-color: #1f1f1f;
-    border: 1px solid #333;
-    color: #e0e0e0;
-  }
+  // .content-box {
+  //   background-color: #1f1f1f;
+  //   border: 1px solid #333;
+  //   color: #e0e0e0;
+  // }
 
   /* FAQ and Troubleshooting boxes */
-  details.faq-box,
-  details.troubleshooting-box {
-    background-color: #2a2a2a;
-    border: 1px solid #444;
-    color: #e0e0e0;
-  }
+  // details.faq-box,
+  // details.troubleshooting-box {
+  //   background-color: #1e2a38;
+  //   border: 1px solid #444;
+  //   color: #e0e0e0;
+  // }
 
-  details.faq-box[open],
-  details.troubleshooting-box[open] {
-    background-color: #1e2a38;
-    border-color: #3399ff;
-  }
+  // details.faq-box[open],
+  // details.troubleshooting-box[open] {
+  //   background-color: #1e2a38;
+  //   border-color: #3399ff;
+  // }
 
-  details.faq-box summary:hover,
-  details.troubleshooting-box summary:hover {
-    color: #3399ff;
-  }
+  // details.faq-box summary:hover,
+  // details.troubleshooting-box summary:hover {
+  //   color: #3399ff;
+  // }
 
-  details.faq-box p,
-  details.troubleshooting-box p {
-    border-top: 1px solid #444;
-  }
+  // details.faq-box p,
+  // details.troubleshooting-box p {
+  //   border-top: 1px solid #444;
+  // }
 
   /* Page intro box */
   .page-intro {
@@ -250,37 +250,37 @@ details.troubleshooting-box p {
     color: #e0e0e0;
   }
 
-  /* Table of contents */
-  .toc {
-    background: #1e2a38;
-    border-left: 4px solid #007acc;
-    color: #e0e0e0;
+//   /* Table of contents */
+//   .toc {
+//     background: #1e2a38;
+//     border-left: 4px solid #007acc;
+//     color: #e0e0e0;
 
-    a {
-      color: #66bfff;
+//     a {
+//       color: #66bfff;
 
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-}
+//       &:hover {
+//         text-decoration: underline;
+//       }
+//     }
+//   }
+// }
 
-/* Gog header for gog related content pages */
-.gog-header {
-  background: linear-gradient(to right, #4c3b5c, #2e253d); // GOG-like purple gradient
-  color: #f0e6ff;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  text-align: center;
-  font-family: 'Lexend', sans-serif; // Free and similar to GOG’s modern UI
-}
+// /* Gog header for gog related content pages */
+// .gog-header {
+//   background: linear-gradient(to right, #4c3b5c, #2e253d); // GOG-like purple gradient
+//   color: #f0e6ff;
+//   padding: 1.5rem;
+//   border-radius: 0.5rem;
+//   text-align: center;
+//   font-family: 'Lexend', sans-serif; // Free and similar to GOG’s modern UI
+// }
 
-.gog-subtitle {
-  font-size: 1rem;
-  color: #d6cbe7;
-  margin-top: 0.5rem;
-}
+// .gog-subtitle {
+//   font-size: 1rem;
+//   color: #d6cbe7;
+//   margin-top: 0.5rem;
+// }
 
 /* Hero video landing page */
 .hero-video-wrapper {
@@ -610,4 +610,6 @@ pre code span {
 
 .copy-btn:hover {
   background-color: #0056b3;
+}
+
 }

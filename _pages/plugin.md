@@ -6,9 +6,13 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image.jpg # This sets the URL for this page
-excerpt:
-    <p><a href="https://github.com/ebenbruyns/junkstore/releases/latest" target="_blank" rel="noopener noreferrer">Latest release v1.1.9</a></p>
+  actions:
+    - label: "Latest Release"
+      url: "https://github.com/ebenbruyns/junkstore/releases/latest"
+      class: "button"
 ---
+<div class="spacer mt-4"></div>
+
 <div style="height: 0px;"></div>
 <section class="welcome-message">
   <h2>Welcome to the Junk Store Plugin Page!</h2>
@@ -20,7 +24,7 @@ excerpt:
    <div class="content-box">
     <h3>Need Help with the Decky Plugin?</h3>
     <p>Find setup guides, tips, and troubleshooting specifically for the Decky version of Junk Store.</p>
-    <a href="{{ '/deckyhelp' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Plugin Help</a>
+    <a href="{{ '/deckyhelp' | relative_url }}" class="button">Plugin Help</a>
   </div>
   
   <div class="content-box">

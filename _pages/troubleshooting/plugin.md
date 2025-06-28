@@ -57,7 +57,7 @@ cd ~/homebrew/plugins/Junk Store
   <li>Some Epic games require the EOS overlay to be enabled before they will work. Make sure you have installed this globally (Epic tab) and enabled it for the game (done from the game page in Junk Store).</li>
 </ul>
 <p>
-  Please refer to our <a href="/plugin_tutorials" target="_blank" rel="noopener noreferrer">Tutorials</a> section to learn how to change or check your Proton version or install Microsoft C++ runtimes if you are unsure how to do this.
+  Please refer to our <a href="/plugin_tutorials">Tutorials</a> section to learn how to change or check your Proton version or install Microsoft C++ runtimes if you are unsure how to do this.
 </p>
 <p>
   If that doesn’t work, ask for help in our Discord server. Please be patient—our team is small! While we have a decent game library, we don’t have every game, so we may only be able to offer advice rather than fixes.
@@ -81,7 +81,7 @@ cd ~/homebrew/plugins/Junk Store
   </p>
 
   <p>
-    Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}" target="_blank" rel="noopener noreferrer"> Plugin Tutorials</a> page. section to see how to change/check your Proton version if you are unsure how to do this.
+    Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}"> Plugin Tutorials</a> page. section to see how to change/check your Proton version if you are unsure how to do this.
   </p>
 </details>
 
