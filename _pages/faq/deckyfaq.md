@@ -41,7 +41,7 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
   <summary>What’s the difference between the Decky version and the Paid version</summary>
   <p>
     The Decky version is free and open source, designed to run via the Decky Loader. The Paid version includes extra convenience features and doesn't require Decky to run.
-      For more infomation, see our <a href="{{ '/comingsoon' | relative_url }}" target="_blank" rel="noopener noreferrer">Junk Store 2.0 Coming Soon Page</a>
+      For more infomation, see our <a href="{{ '/comingsoon' | relative_url }}">Junk Store 2.0 Coming Soon Page</a>
   </p>
 </details>
 
