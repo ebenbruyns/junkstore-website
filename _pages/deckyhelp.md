@@ -44,45 +44,45 @@ excerpt:
   <div class="content-box faq">
     <h3>Decky Plugin FAQ</h3>
     <p>Common questions and answers about Junk Store for Decky.</p>
-    <a href="{{ '/faq/deckyfaq' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Plugin FAQ</a>
+    <a href="{{ '/faq/deckyfaq' | relative_url }}" class="button">Plugin FAQ</a>
   </div>
 
   <div class="content-box troubleshooting">
     <h3>Epic Games FAQ</h3>
     <p>Answers to common questions about using Junk Store with Epic Games.</p>
-    <a href="{{ '/faq/epicfaq/' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Epic FAQ</a>
+    <a href="{{ '/faq/epicfaq/' | relative_url }}" class="button">Epic FAQ</a>
   </div>
 
   <div class="content-box troubleshooting">
     <h3>Gog Extension FAQ</h3>
     <p>Learn what works, what doesn’t, and how to get the most out of the GOG extension with Junk Store.</p>
-    <a href="{{ '/faq/gogfaq/' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Gog FAQ</a>
+    <a href="{{ '/faq/gogfaq/' | relative_url }}" class="button">Gog FAQ</a>
   </div>
 
   <!-- Troubleshooting -->
   <div class="content-box troubleshooting">
     <h3>Decky Plugin Troubleshooting</h3>
     <p>Tips, tricks, and workarounds for common issues.</p>
-    <a href="{{ '/troubleshooting/plugin' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Plugin Troubleshooting</a>
+    <a href="{{ '/troubleshooting/plugin' | relative_url }}" class="button">Plugin Troubleshooting</a>
   </div>
 
   <div class="content-box troubleshooting">
     <h3>Epic Games Troubleshooting</h3>
     <p>Having issues with your Epic Games library? Check here for fixes to login problems, launch errors, and more.</p>
-    <a href="{{ '/troubleshooting/epic' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Epic Troubleshooting</a>
+    <a href="{{ '/troubleshooting/epic' | relative_url }}" class="button">Epic Troubleshooting</a>
   </div>
 
   <div class="content-box troubleshooting">
     <h3>Gog Troubleshooting</h3>
     <p>Running into trouble with your GOG setup? This guide helps you diagnose and resolve common issues fast.</p>
-    <a href="{{ '/troubleshooting/gog' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Gog Troubleshooting</a>
+    <a href="{{ '/troubleshooting/gog' | relative_url }}" class="button">Gog Troubleshooting</a>
   </div>
 
   <!-- Tutorials -->
   <div class="content-box tutorials">
     <h3>Decky Plugin Tutorials</h3>
     <p>Step-by-step instructions for installing, configuring, and using Junk Store on Decky.</p>
-    <a href="{{ '/plugin_tutorials/' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Tutorials</a>
+    <a href="{{ '/plugin_tutorials/' | relative_url }}" class="button">Tutorials</a>
   </div>
 
   <!-- Tested Games -->

@@ -24,7 +24,7 @@ header:
    <div class="content-box">
     <h3>Need Help with the Decky Plugin?</h3>
     <p>Find setup guides, tips, and troubleshooting specifically for the Decky version of Junk Store.</p>
-    <a href="{{ '/deckyhelp' | relative_url }}" class="button" target="_blank" rel="noopener noreferrer">Plugin Help</a>
+    <a href="{{ '/deckyhelp' | relative_url }}" class="button">Plugin Help</a>
   </div>
   
   <div class="content-box">
