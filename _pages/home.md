@@ -9,7 +9,7 @@ header:
   actions:
     - label: "Learn More"
       url: "/comingsoon/"
-      class: "btn btn--primary btn--large highlight-button"
+      class: "button"
 excerpt: "Unlock a New Level of Gaming on Steam Deck with Junk Store"
 ---
 
