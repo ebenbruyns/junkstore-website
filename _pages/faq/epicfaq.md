@@ -20,7 +20,7 @@ header:
 <details class="faq-box">
   <summary>Do games that require third-party launchers work?</summary>
   <p>Not yet — support exists in Legendary, but we haven’t implemented it due to limited testing resources. You can attempt to configure it manually using the CLI or modify the Epic script.</p>
-  <p>If this is something you want prioritized, let us know via the <a href="{{ '/faq/deckyfaq' | relative_url }}" target="_blank" rel="noopener noreferrer">Plugin FAQ</a> page.</p>
+  <p>If this is something you want prioritized, let us know via the <a href="{{ '/faq/deckyfaq' | relative_url }}">Plugin FAQ</a> page.</p>
 </details>
 
 <details class="faq-box">
@@ -46,7 +46,7 @@ header:
   </p>
 
   <p>
-    Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}" target="_blank" rel="noopener noreferrer"> Plugin Tutorials</a> page. section to see how to change/check your Proton version if you are unsure how to do this.
+    Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}"> Plugin Tutorials</a> page. section to see how to change/check your Proton version if you are unsure how to do this.
   </p>
 </details>
 
