@@ -9,7 +9,7 @@ header:
   actions:
     - label: "Latest Release"
       url: "https://github.com/ebenbruyns/junkstore/releases/latest"
-      class: "btn btn--primary btn--large highlight-button"
+      class: "button"
 ---
 <div class="spacer mt-4"></div>
 
