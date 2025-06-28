@@ -250,37 +250,37 @@ details.troubleshooting-box p {
     color: #e0e0e0;
   }
 
-  /* Table of contents */
-  .toc {
-    background: #1e2a38;
-    border-left: 4px solid #007acc;
-    color: #e0e0e0;
+//   /* Table of contents */
+//   .toc {
+//     background: #1e2a38;
+//     border-left: 4px solid #007acc;
+//     color: #e0e0e0;
 
-    a {
-      color: #66bfff;
+//     a {
+//       color: #66bfff;
 
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-}
+//       &:hover {
+//         text-decoration: underline;
+//       }
+//     }
+//   }
+// }
 
-/* Gog header for gog related content pages */
-.gog-header {
-  background: linear-gradient(to right, #4c3b5c, #2e253d); // GOG-like purple gradient
-  color: #f0e6ff;
-  padding: 1.5rem;
-  border-radius: 0.5rem;
-  text-align: center;
-  font-family: 'Lexend', sans-serif; // Free and similar to GOG’s modern UI
-}
+// /* Gog header for gog related content pages */
+// .gog-header {
+//   background: linear-gradient(to right, #4c3b5c, #2e253d); // GOG-like purple gradient
+//   color: #f0e6ff;
+//   padding: 1.5rem;
+//   border-radius: 0.5rem;
+//   text-align: center;
+//   font-family: 'Lexend', sans-serif; // Free and similar to GOG’s modern UI
+// }
 
-.gog-subtitle {
-  font-size: 1rem;
-  color: #d6cbe7;
-  margin-top: 0.5rem;
-}
+// .gog-subtitle {
+//   font-size: 1rem;
+//   color: #d6cbe7;
+//   margin-top: 0.5rem;
+// }
 
 /* Hero video landing page */
 .hero-video-wrapper {
@@ -610,4 +610,24 @@ pre code span {
 
 .copy-btn:hover {
   background-color: #0056b3;
+}
+
+/* Custom solid blue version of the hero button */
+.btn.highlight-button {
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.btn.highlight-button:hover {
+  background-color: #005f99;
+  color: #fff;
+}
+
 }
