@@ -9,7 +9,7 @@ header:
   actions:
     - label: "Learn More"
       url: "/comingsoon/"
-      class: "btn btn--primary btn--large highlight-button"
+      class: "button"
 ---
 <div class="spacer mt-4"></div>
 
