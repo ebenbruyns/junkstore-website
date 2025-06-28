@@ -221,28 +221,28 @@ details.troubleshooting-box p {
   }
 
   /* FAQ and Troubleshooting boxes */
-  details.faq-box,
-  details.troubleshooting-box {
-    background-color: #2a2a2a;
-    border: 1px solid #444;
-    color: #e0e0e0;
-  }
+  // details.faq-box,
+  // details.troubleshooting-box {
+  //   background-color: #1e2a38;
+  //   border: 1px solid #444;
+  //   color: #e0e0e0;
+  // }
 
-  details.faq-box[open],
-  details.troubleshooting-box[open] {
-    background-color: #1e2a38;
-    border-color: #3399ff;
-  }
+  // details.faq-box[open],
+  // details.troubleshooting-box[open] {
+  //   background-color: #1e2a38;
+  //   border-color: #3399ff;
+  // }
 
-  details.faq-box summary:hover,
-  details.troubleshooting-box summary:hover {
-    color: #3399ff;
-  }
+  // details.faq-box summary:hover,
+  // details.troubleshooting-box summary:hover {
+  //   color: #3399ff;
+  // }
 
-  details.faq-box p,
-  details.troubleshooting-box p {
-    border-top: 1px solid #444;
-  }
+  // details.faq-box p,
+  // details.troubleshooting-box p {
+  //   border-top: 1px solid #444;
+  // }
 
   /* Page intro box */
   .page-intro {
@@ -610,24 +610,6 @@ pre code span {
 
 .copy-btn:hover {
   background-color: #0056b3;
-}
-
-/* Custom solid blue version of the hero button */
-.btn.highlight-button {
-  background-color: #007acc;
-  color: #fff;
-  border: none;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  transition: background-color 0.3s ease;
-}
-
-.btn.highlight-button:hover {
-  background-color: #005f99;
-  color: #fff;
 }
 
 }
