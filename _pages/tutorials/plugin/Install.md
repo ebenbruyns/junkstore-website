@@ -50,7 +50,7 @@ Make sure you’re using the correct **Store Channel** in Decky.
 
 > 💡 You can also choose a specific version before installing.
 
-![Junk Store Install](/assets/images/JSInstall/Junk Store%20Install.jpeg)
+![Junk Store Install](/assets/images/JSInstall/Junk-Store%20Install.jpeg)
 
 ---
 

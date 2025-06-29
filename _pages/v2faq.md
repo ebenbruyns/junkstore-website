@@ -368,9 +368,8 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 
 <details class="faq-box">
   <summary>Can I play Kingdom Hearts via Junk Store?</summary>
-  <p>
-    This title hasn’t been officially tested and is known to have compatibility issues unrelated to Junk Store.  
-    If you're keen to give it a shot, check the <a href="https://github.com/derrod/legendary/blob/master/README.md" target="_blank">Legendary README</a> for possible workarounds and notes.
+   <p>
+    Kingdom Hearts has known compatibility issues on Linux, and this isn’t specific to Junk Store. We haven’t been able to test it ourselves as we don’t own a copy, so we can’t provide official support or recommendations at this time.
   </p>
 </details>
 

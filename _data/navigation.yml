@@ -8,8 +8,6 @@ main:
     url: /troubleshooting/v2
   - title: "Decky Plugin"
     url: /plugin/
-  #- title: "Test"
-  #  url: /testlandingpages/
   #- title: "Sitemap"
   #  url: /sitemap/
   #- title: "Extra Menu Item 1"
