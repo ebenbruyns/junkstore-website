@@ -221,9 +221,6 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
       <li>Dual-boot Windows</li>
       <li>Use a cloud gaming or streaming service</li>
     </ul>
-  </p>
-
-  <p>
     More info: <a href="https://www.theverge.com/2022/2/8/22923163/fortnite-steam-deck-update-epic-tim-sweeney" target="_blank" rel="noopener">The Verge article</a>
   </p>
 </details>

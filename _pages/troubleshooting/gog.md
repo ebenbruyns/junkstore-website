@@ -25,18 +25,17 @@ This section deals with any problems specific to GOG integration — from downlo
 
 <details class="troubleshooting-box">
   <summary>I don’t see any games in my Gog library.</summary>
-  <p>
-      Check the following:
-    <ul>
-      <li>If you have more than one Gog account, make sure you are logged into the correct one.</li>
-      <li>Press <strong>X</strong> to toggle the “Show Installed” filter — it may be hiding your uninstalled games.</li>
-      <li>Clear the search bar at the top — any text here will filter your library.</li>
-      <li>Refresh your games list from the main Gog tab:<br>
-    &nbsp;&nbsp;<strong>Sliders menu &gt; Refresh Games List</strong></li>
-      <li>Reboot the Steam Deck</li>
-      <li>Log out and log back into your Gog account</li>
-    </ul>
-  </p>
+  <p>Check the following:</p>
+  <ul>
+    <li>If you have more than one Gog account, make sure you are logged into the correct one.</li>
+    <li>Press <strong>X</strong> to toggle the “Show Installed” filter — it may be hiding your uninstalled games.</li>
+    <li>Clear the search bar at the top — any text here will filter your library.</li>
+    <li>Refresh your games list from the main Gog tab:<br>
+      &nbsp;&nbsp;<strong>Sliders menu &gt; Refresh Games List</strong>
+    </li>
+    <li>Reboot the Steam Deck</li>
+    <li>Log out and log back into your Gog account</li>
+  </ul>
 </details>
 
 <details class="troubleshooting-box">
@@ -50,9 +49,7 @@ This section deals with any problems specific to GOG integration — from downlo
     <li>Try toggling to Desktop Mode and back to Game Mode to reset input services.</li>
     <li>Restart Steam or the device if the issue persists.</li>
   </ul>
-  <p>
     This is a known Steam bug that has been around for a while. These steps usually help work around it until Valve fixes it in a future update.
-  </p>
 </details>
 
 <h2>Need Help or More Info?</h2>
