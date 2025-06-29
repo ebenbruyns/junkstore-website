@@ -6,9 +6,12 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image.jpg # This sets the URL for this page
-excerpt:
-    <p><a href="https://github.com/ebenbruyns/junkstore/releases/latest" target="_blank" rel="noopener noreferrer">Latest release v1.1.9</a></p>
+  actions:
+    - label: "Latest Release"
+      url: "https://github.com/ebenbruyns/junkstore/releases/latest"
+      class: "button"
 ---
+<div class="spacer mt-4"></div>
 
 <!-- Where to Find Junk Store -->
 <section class="where-to-find">

@@ -79,7 +79,6 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
  <p>
   We prefer feature requests via GitHub where they can be tracked:<br>
   <a href="https://github.com/ebenbruyns/junkstore/issues/new/choose" target="_blank" rel="noopener noreferrer">Submit a feature request</a><br><br>
-  Requests submitted this way are reviewed first.
 </p>
 </details>
 
@@ -98,9 +97,7 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
 
 <details class="faq-box">
   <summary>Does Junk Store support cloud saves</summary>
-  <ul>
-  <li>No, as we don't want to have users run the risk of losing their game saves.</li>
-</ul>
+  <p>No, as we don't want to have users run the risk of losing their game saves.</p>
 </details>
 
 <details class="faq-box">
@@ -234,8 +231,7 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
 <details class="faq-box">
   <summary>Can I play Kingdom Hearts via Junk Store?</summary>
   <p>
-    This title hasn’t been officially tested and is known to have compatibility issues unrelated to Junk Store.  
-    If you're keen to give it a shot, check the <a href="https://github.com/derrod/legendary/blob/master/README.md" target="_blank" rel="noopener noreferrer">Legendary README</a> for possible workarounds and notes.
+    Kingdom Hearts has known compatibility issues on Linux, and this isn’t specific to Junk Store. We haven’t been able to test it ourselves as we don’t own a copy, so we can’t provide official support or recommendations at this time.
   </p>
 </details>
 
