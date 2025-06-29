@@ -21,109 +21,41 @@
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
- <!-- Add this to your _includes/head.html near the end, before </head> -->
+ <!-- Highlight.js CSS for syntax highlighting -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
 
-<!-- 1. Load CookieConsent CSS & JS -->
+{% if site.head_scripts %}
+  {% for script in site.head_scripts %}
+    <script src="{{ script | relative_url }}"></script>
+  {% endfor %}
+{% endif %}
+
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Cookie Consent by Osano -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-
 <script>
-  window.addEventListener("load", function() {
-
-    // 2. Initialise the cookie consent banner
+  window.addEventListener("load", function(){
     window.cookieconsent.initialise({
-      // Opt-in means tracking only happens after user accepts
-      type: "opt-in",
-
       palette: {
         popup: { background: "#222" },
         button: { background: "#f1d600" }
       },
-
       theme: "classic",
       position: "bottom-right",
-
       content: {
-        message: "This site uses cookies to improve your experience and analytics.",
-        dismiss: "Accept",    // This means consent given
-        deny: "Decline",      // This means no consent
+        message: "This site uses cookies to ensure you get the best experience.",
+        dismiss: "Got it!",
         link: "Learn more",
         href: "/privacy-policy"
-      },
-
-      // 3. Called when the banner initialises
-      onInitialise: function(status) {
-        var didConsent = this.hasConsented();
-
-        if (didConsent) {
-          // If user already consented, load Google Analytics immediately
-          loadGoogleAnalytics();
-        }
-        // If no consent, do nothing — GA won't load
-      },
-
-      // 4. Called when user changes consent status (accepts or declines)
-      onStatusChange: function(status, chosenBefore) {
-        var didConsent = this.hasConsented();
-
-        if (didConsent) {
-          // User accepted cookies — load GA
-          loadGoogleAnalytics();
-        } else {
-          // User declined — disable GA and remove cookies
-          disableGoogleAnalytics();
-        }
-      },
-
-      // 5. Called when user explicitly revokes consent
-      onRevokeChoice: function() {
-        disableGoogleAnalytics();
       }
     });
 
-
-    // 6. Function to load Google Analytics script dynamically
-    function loadGoogleAnalytics() {
-      if (window.gaLoaded) return; // prevent double loading
-      window.gaLoaded = true;
-
-      // Replace 'G-XXXXXXXXXX' with your Google Analytics Measurement ID
-      var GA_MEASUREMENT_ID = 'G-E2Y00GCMSG';
-
-      // Load GA script
-      var script = document.createElement('script');
-      script.async = true;
-      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_MEASUREMENT_ID;
-      document.head.appendChild(script);
-
-      // Initialize GA after script loads
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      window.gtag = gtag;
-
-      gtag('js', new Date());
-      gtag('config', GA_MEASUREMENT_ID, { 'anonymize_ip': true });  // anonymize IP for privacy
-    }
-
-    // 7. Function to disable GA and remove cookies if user declines
-    function disableGoogleAnalytics() {
-      // Remove Google Analytics cookies by setting expiration in the past
-      var cookiesToRemove = ['_ga', '_gid', '_gat'];
-
-      cookiesToRemove.forEach(function(cookieName) {
-        document.cookie = cookieName + '=; Max-Age=0; path=/; domain=' + location.hostname + ';';
-        document.cookie = cookieName + '=; Max-Age=0; path=/;';
-      });
-
-      // Disable GA function calls to prevent tracking after revoke
-      window['gtag'] = function() {};
-    }
-
-     // After initialization, find the "Learn more" link and change target to _self
+  // After initialization, find the "Learn more" link and change target to _self
     var learnMoreLink = document.querySelector(".cc-window .cc-link");
     if (learnMoreLink) {
       learnMoreLink.setAttribute("target", "_self");
     }
-
   });
 </script>
