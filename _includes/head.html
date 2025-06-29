@@ -31,3 +31,31 @@
 {% endif %}
 
 <link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Cookie Consent by Osano -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      palette: {
+        popup: { background: "#222" },
+        button: { background: "#f1d600" }
+      },
+      theme: "classic",
+      position: "bottom-right",
+      content: {
+        message: "This site uses cookies to ensure you get the best experience.",
+        dismiss: "Got it!",
+        link: "Learn more",
+        href: "/privacy-policy"
+      }
+    });
+
+  // After initialization, find the "Learn more" link and change target to _self
+    var learnMoreLink = document.querySelector(".cc-window .cc-link");
+    if (learnMoreLink) {
+      learnMoreLink.setAttribute("target", "_self");
+    }
+  });
+</script>

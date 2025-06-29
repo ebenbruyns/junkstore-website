@@ -21,18 +21,18 @@ Inspired by the simplicity of platforms like Kodi, our goal is to turn the Steam
 We’re committed to active development, community feedback, and making it feel like it just works—because gaming should be fun, not frustrating.
 
 
-# Our Mission
+<h2>Our Mission</h2>
 
 Junk Store is built to make playing non-Steam games feel as seamless and intuitive as launching native Steam titles.
 
-- **Low-Friction Setup**  
+- <strong>Low-Friction Setup</strong>  
   No complicated steps—just install, launch, and play.
 
-- **Seamless Integration**  
+- <strong>Seamless Integration</strong> 
   Easily add and update games from platforms like Epic Games, Gog and Amazon directly onto your Steam Deck.
 
-- **User-Friendly Interface**  
+- <strong>User-Friendly Interface</strong>
   Navigate your library easily and discover new titles without the hassle.
 
-- **Active Development**  
+- <strong>Active Development</strong>
   We're constantly improving Junk Store with regular updates and new features based on your feedback.
