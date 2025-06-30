@@ -20,13 +20,11 @@ header:
 <details class="faq-box">
   <summary>Do games that require third-party launchers work?</summary>
   <p>Not yet — support exists in Legendary, but we haven’t implemented it due to limited testing resources. You can attempt to configure it manually using the CLI or modify the Epic script.</p>
-  <p>If this is something you want prioritized, let us know via the <a href="{{ '/faq/deckyfaq' | relative_url }}">Plugin FAQ</a> page.</p>
 </details>
 
 <details class="faq-box">
   <summary>Are cloud saves supported?</summary>
-  <p>While Legendary supports this, we haven't implemented it yet due to potential data loss risks.</p>
-  <p>If you're tech-savvy, you can manually configure this via the CLI.</p>
+  <p>While Legendary supports this, we haven't implemented it yet due to potential data loss risks. If you're tech-savvy, you can manually configure this via the CLI.</p>
 </details>
 
 <details class="troubleshooting-box">
@@ -63,7 +61,6 @@ header:
     <code>.local/share/Steam/steamapps/compatdata/SteamID/pfx/drive_c/users/steamuser/local settings/application data/Dying Light/Saved</code>
   </p>
 </details>
-
 
 <details class="faq-box">
   <summary>Am I able to play Fortnite?</summary>

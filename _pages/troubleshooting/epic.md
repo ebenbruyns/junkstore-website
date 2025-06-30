@@ -107,16 +107,21 @@ Running into problems with Epic games? This section covers common issues with Ep
 <details class="troubleshooting-box">
   <summary>Junk Store and EGS library don’t match?</summary>
   <p>
-  Have you tried <strong>refreshing your games list?</strong>
-  <li>Refresh your games list from the main Epic tab:<br>
-    &nbsp;&nbsp;<strong>Sliders menu &gt; Refresh Games List</strong></li>
-</p>
+    Have you tried <strong>refreshing your games list?</strong>
+  </p>
   <p>
-    Run the following in Konsole to refresh:
-    <pre>flatpak run com.github.derrod.legendary list --force-refresh</pre>
+    Refresh your games list from the main Epic tab:<br>
+    &nbsp;&nbsp;<strong>Sliders menu &gt; Refresh Games List</strong>
+  </p>
+  <p>
+    Or run the following in Konsole to refresh:
+  </p>
+  <pre><code>flatpak run com.github.derrod.legendary list --force-refresh</code></pre>
+  <p>
     If missing games still don’t appear, they may require a third-party launcher and are currently unsupported.
   </p>
 </details>
+
 
 <details class="troubleshooting-box">
   <summary>Game won't download — CRITICAL error?</summary>
