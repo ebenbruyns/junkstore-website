@@ -202,15 +202,7 @@ header:
 
 <details class="faq-box">
   <summary>How quickly will updates and fixes roll out in v2?</summary>
-  <p>
-    Now that we control the full release cycle, we can push updates more frequently and with less friction. While we can’t guarantee weekly or monthly updates, separating Extensions from the core plugin means fixes can roll out fast.
-  </p>
-  <p>
-    With the new system, a fix could reach users in as little as five minutes (though real-world QA slows this a bit). We’re also building out stable, beta, and dev release streams for those who want the latest features early.
-  </p>
-  <p>
-    The pipeline’s still being refined, and since it’s currently a one-person effort, hiring help is a top priority.
-  </p>
+  <p>Now that we control the full release cycle, we can push updates more frequently and with less friction. While we can’t guarantee a fixed schedule, separating extensions from the core plugin means fixes and new features can roll out quickly — sometimes within minutes once verified. We’re also building stable, beta, and test release streams so users can choose how cutting-edge they want to be. The pipeline is still evolving, and I will be bringing on help to speed things up as resourcing permits.</p>
 </details>
 
 <details class="faq-box">
