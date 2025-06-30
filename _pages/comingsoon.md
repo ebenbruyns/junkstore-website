@@ -206,10 +206,10 @@ header:
     Now that we control the full release cycle, we can push updates more frequently and with less friction. While we can’t guarantee a fixed schedule, separating extensions from the core plugin means fixes and new features can roll out quickly — sometimes within minutes once verified. We’re also building stable, beta, and test release streams so users can choose how cutting-edge they want to be. The pipeline is still evolving, and we will be bringing on help to speed things up as resourcing permits.
   </p>
   <p>
-    We understand some users might worry about updates after release, but the “subscription” model ensures ongoing maintenance and support. You’re buying a working product today, with a commitment to keep it maintained and functional. While new features are a bonus, the core promise is stability and timely fixes.
+    We understand some users might worry about updates after release. The core commitment is a stable, working product with ongoing maintenance and support. New features will come as development allows, but they’re not what you're paying for upfront.
   </p>
   <p>
-    That said, users should base their purchase decision on what the product currently offers, not on promises or speculative future features.
+    Users should base their purchase decision on what the product currently offers — not on promises or speculative future features. If the current feature set doesn’t meet their needs, they’re free to wait and buy once it supports what they’re looking for.
   </p>
 </details>
 
