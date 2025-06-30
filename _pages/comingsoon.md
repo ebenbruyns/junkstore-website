@@ -37,7 +37,6 @@ header:
   We don’t have a firm public release date just yet — but it’s close.<br>
   Right now, we’re focused on final polish and making sure everything is ready for early adopters.<br>
   Thanks again to everyone who’s been on this journey with us — we’re nearly there.<br><br>
-  <em>In the immortal words of Wayne & Garth: Game on.</em>
 </details>
 
 <details class="faq-box">
@@ -202,7 +201,7 @@ header:
 </details>
 
 <details class="faq-box">
-  <summary>How often are updates on the status of v2 coming?</summary>
+  <summary>How quickly will updates and fixes roll out in v2?</summary>
   <p>
     Now that we control the full release cycle, we can push updates more frequently and with less friction. While we can’t guarantee weekly or monthly updates, separating Extensions from the core plugin means fixes can roll out fast.
   </p>
@@ -219,14 +218,12 @@ header:
   <p>
     Junk Store doesn’t rely on Decky Loader. Instead, it uses a lightweight system called <strong>junk-loader</strong>, built to be more resilient with SteamOS updates.
   </p>
-  <p>
     Unlike Decky, junk-loader runs as a user-mode systemd service, meaning:
     <ul>
       <li>No <code>sudo</code> access or password required</li>
       <li>Cleaner system integration</li>
       <li>No conflicts if Decky is also installed</li>
     </ul>
-  </p>
   <p>
     This approach avoids many of the breakages Decky users face and lets us push fixes more quickly.
   </p>
@@ -242,7 +239,7 @@ header:
 </details>
 
 <details class="faq-box">
-  <summary>Since GOG addon support is going to be bug-fix only, is it going to be added to the public, open source release?</summary>
+  <summary>What’s the future of the GOG addon and its open-source availability?</summary>
   <p>
     We’re using the GOG addon as a canary in the coal mine. If enough people continue to support it by purchasing, that sends a clear signal we should keep investing time into both the GOG addon and maintaining the open-source code. However, if sales drop off significantly, it will indicate we can safely scale back or stop work on the open-source version without jeopardizing the project’s sustainability. We will keep the door open on this and revisit it in the future though. It all comes down to sustainability.
   </p>
