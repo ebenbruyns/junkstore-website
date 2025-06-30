@@ -201,8 +201,13 @@ header:
 </details>
 
 <details class="faq-box">
-  <summary>How quickly will updates and fixes roll out in v2?</summary>
-  <p>Now that we control the full release cycle, we can push updates more frequently and with less friction. While we can’t guarantee a fixed schedule, separating extensions from the core plugin means fixes and new features can roll out quickly — sometimes within minutes once verified. We’re also building stable, beta, and test release streams so users can choose how cutting-edge they want to be. The pipeline is still evolving, and I will be bringing on help to speed things up as resourcing permits.</p>
+  <summary>How frequently will updates and fixes roll out in v2?</summary>
+  <p>
+    Now that we control the full release cycle, we can push updates more frequently and with less friction. While we can’t guarantee a fixed schedule, separating extensions from the core plugin means fixes and new features can roll out quickly — sometimes within minutes once verified. We’re also building stable, beta, and test release streams so users can choose how cutting-edge they want to be. The pipeline is still evolving, and we will be bringing on help to speed things up as resourcing permits.
+  </p>
+  <p>
+    That said, users should base their purchase decision on what the product currently offers, not on promises or speculative future features.
+  </p>
 </details>
 
 <details class="faq-box">
