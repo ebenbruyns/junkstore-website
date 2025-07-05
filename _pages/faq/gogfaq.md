@@ -29,46 +29,45 @@ header:
 <!-- FAQ Entries -->
 <details class="faq-box">
   <summary>Where can I find the GOG extension?</summary>
-  <p>
+  <p></p>
     It is only available to our Ko-fi & Patreon supporters. You can either subscribe as a monthly supporter, or you can purchase it as a one off through 
     <a href="https://ko-fi.com/junkstore/shop" target="_blank">Ko-fi</a> or 
     <a href="https://www.patreon.com/junkstore/shop" target="_blank">Patreon</a>. 
     Once you have it, you have it. We can't take away Gog functionality/integration with the Junk Store plugin. All funds go back into the enhancement and development of Junk Store.
-  </p>
 </details>
 
 <details class="faq-box">
   <summary>Why isn't GOG free to use?</summary>
-  <p>
+  <p></p>
     GOG support is available to paid supporters, and while we'd love to offer it for free, there's a lot of behind-the-scenes work and resources involved in creating and maintaining Junk Store. We appreciate your understanding and support as we continue to improve and expand Junk Store. All funds go back into the enhancement and development of Junk Store.
-  </p>
 </details>
 
 <details class="faq-box">
   <summary>Does Junk Store automatically install DLC content too?</summary>
-  <p>
+  <p></p>
     Yes, at the moment it will automatically install DLC content by default.
-  </p>
 </details>
 
 <details class="faq-box">
   <summary>Does Junk Store support GOG cloud saves?</summary>
-   <p>
+   <p></p>
     This has not yet been looked at for implementation at this stage as it isn't a trivial problem to solve. It will require more resources and time than we currently have available.
-  </p>
 </details>
 
 <details class="faq-box">
   <summary>How do I uninstall and clear game data?</summary>
-  <p>
-    First on the game screen in Junk Store go to the sliders menu and select <strong>uninstall</strong>.
-  </p>
-  <p>
-    Then depending on where you installed your games, you can find them in either <code>~/Games/gog</code> or <code>&lt;microsd&gt;/Games/gog</code>.
-  </p>
-  <p>
-    Once you have located the games folder you can delete any remaining game files/data.
-  </p>
+  <p></p>
+  <strong>In Junk Store:</strong> 
+  <ul>
+  <li>Open the sliders ☰ menu for the game</li>
+  <li>Choose 'Uninstall'</li>
+  <li>Then delete leftover files in either</li>
+    <ul>
+    <li><code>~/Games/gog</code></li>
+    <li>Or your microSD under <code>/Games/gog</code></li>
+    </ul>
+  </ul>
+  Once you have located the games folder you can delete any remaining games files/data.
 </details>
 
 <details class="faq-box">
@@ -83,17 +82,36 @@ header:
 </details>
 
 <details class="faq-box">
+  <summary>How do I find save data for my games?</summary>
+  <p></p>
+  <ol>
+    <li>
+      Find the game's <strong>Steam ID</strong> at the bottom of its page in Junk Store.
+    </li>
+    <li>
+      Navigate to the following path on your Steam Deck:<br>
+      <code>~/.local/share/Steam/steamapps/compatdata/&lt;SteamID&gt;/pfx/drive_c/users/steamuser/</code>
+    </li>
+    <li>
+      From there, follow the path used by your game - for example:
+      <ul>
+        <li><code>/AppData/Roaming/Lonely Troops/Hero of the Kingdom II</code></li>
+      </ul>
+    </li>
+  </ol>
+  Each game may store saves in slightly different locations depending on how it was packaged or ported. Look under <code>AppData</code>, <code>Local Settings</code>, or <code>Documents</code> within the Steam compatibility prefix.
+</details>
+
+<details class="faq-box">
   <summary>Does the extension support DOS and ScummVM games?</summary>
-  <p>
+  <p></p>
     DOS games and some ScummVM games are not supported via the GOG extension.
-  </p>
 </details>
 
 <details class="faq-box">
   <summary>Does the GOG extension support native Linux games?</summary>
-  <p>
+  <p></p>
     No — the GOG extension is designed for Windows games running through Proton. Native Linux games from GOG are not currently supported, as Junk Store relies on Proton’s compatibility layer for game execution and integration.
-  </p>
 </details>
 
 <h2>Need Help or More Info?</h2>
