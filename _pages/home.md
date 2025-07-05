@@ -22,7 +22,7 @@ excerpt: "Unlock a New Level of Gaming on Steam Deck with Junk Store"
 <section class="screenshot-section">
   <div class="screenshot-box">
     <div class="screenshot-text">
-      <h3>No desktop mode required. Just games, where they belong.</h3>
+      <h3>No <em>desktop</em> mode required. Just games, where they belong.</h3>
       <p>Unified game library access across storefronts — seamlessly in Game Mode.</p>
     </div>
     <img src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Feature Screenshot">
