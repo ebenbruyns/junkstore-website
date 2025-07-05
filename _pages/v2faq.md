@@ -144,7 +144,7 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 <details class="faq-box">
   <summary>I've installed Junk Store, how do I access it?</summary>
   <p></p>
-    You open Junk Store by pushing the left and right joystick L3 + R3.
+    You open Junk Store by pushing <strong>Select</strong> button above the D-pad.
   </details>
 
 <details class="faq-box">
