@@ -10,7 +10,6 @@ header:
   overlay_image: /assets/images/website_image.jpg
 ---
 <div class="spacer mt-4"></div>
-<!-- {% include epic-header.html title="Epic Troubleshooting" subtitle="Tips and fixes for Epic Games-specific issues in Junk Store." %} -->
 
 Running into problems with Epic games? This section covers common issues with Epic integration, like missing games, launch problems, or DLC not working as expected.
 

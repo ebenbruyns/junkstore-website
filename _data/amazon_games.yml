@@ -1,0 +1,120 @@
+- title: "Aces of the Luftwaffe - Squadron Extended Edition"
+  notes: "Works out of the box with native controller support."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "Bang Bang Racing"
+  notes: "Works out of the box with native controller support."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "The Collage Atlas"
+  notes: "Works out of the box with native controller support."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "Dexter Stardust: Adventures in Outer Space"
+  notes: "Works out of the box with native controller support."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "Faraway 2: Jungle Escape"
+  notes: "Need to change to keyboard & mouse layout."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "Faraway 3: Artic Escape"
+  notes: "Need to change to keyboard & mouse layout."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "The Gap"
+  notes: "Works out of the box with native controller support."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "Max: The Curse of Brotherhood"
+  notes: "Works out of the box with native controller support."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "Nine Witches: Family Disruption"
+  notes: "Works out of the box with native controller support."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "Spirit Mancer"
+  notes: "Works out of the box with native controller support."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "Through the Darkest of Times"
+  notes: "Need to change to keyboard & mouse layout."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "Tiny Robots Recharged"
+  notes: "Need to change to keyboard & mouse layout."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "Warhammer 40,000: Dawn of War II"
+  notes: "Need to change to keyboard & mouse layout."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+
+- title: "Star Wars Knights of the Republic"
+  notes: "Works out of the box with native controller support."
+  protondb: ""
+  storefront: Amazon
+  date_tested: ""
+
+- title: "Baldur's Gate 2 Enhanced"
+  notes: "Must run ./dependencies/oalinst.exeto install OpenAL32.dll  first"
+  protondb: ""
+  storefront: Amazon
+  date_tested: ""
+
+- title: "Baldur's Gate Enhanced"
+  notes: "Must run ./dependencies/oalinst.exeto install OpenAL32.dll  first"
+  protondb: ""
+  storefront: Amazon
+  date_tested: ""
+
+
+- title: "Projection First Light"
+  notes: "Works out of the box with native controller support."
+  protondb: ""
+  storefront: Amazon
+  date_tested: ""
+  
+- title: "Vlad Circus"
+  notes: "Works out of the box with native controller support."
+  protondb: ""
+  storefront: Amazon
+  date_tested: ""
+
+- title: ""
+  notes: ""
+  protondb: ""
+  storefront: Amazon
+  date_tested: ""
+  
+# - title: ""
+#   notes: ""
+#   protondb: ""
+#   storefront: Amazon
+#   date_tested: ""
