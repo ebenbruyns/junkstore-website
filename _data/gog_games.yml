@@ -1,0 +1,1577 @@
+- title: "9 Years of Shadows"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1402120"
+
+
+  notes: ""
+
+- title: "A Plague Tale: Innocence"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/752590"
+
+
+  notes: ""
+
+- title: "Absolute Drift"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/320140"
+
+
+  notes: ""
+
+- title: "Alan Wake"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/108710"
+  proton_version: "Proton 7.0rc6-GE-1"
+  dependencies: "VC_redist.x64, DirectX"
+  notes: "Browse to where the game is installed (z:\\home\\deck\\Games...)."
+
+- title: "Alder's Blood Prologue"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1227260"
+
+
+  notes: ""
+
+- title: "Alien Breed 2: Assault"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/22650"
+
+
+  notes: ""
+
+- title: "Alien Breed 3: Descent"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/22670"
+
+
+  notes: ""
+
+- title: "Medal of Honor: Allied Assault War Chest"
+  storefront: "GOG"
+  protondb: ""
+
+
+  notes: "This game works with hte new updated Gog extension. In desktop mode you will get the intro video, but in Game Mode you need to map buttons to Alt+Enter in order to skip this and get to the game menu. This game requires Keyboard & Mouse layout."
+
+- title: "Alwa's Awakening"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/549260"
+
+
+  notes: ""
+
+- title: "Amerzone"
+  storefront: "GOG"
+  protondb: ""
+  proton_version: "https://www.protondb.com/app/302190"
+
+  notes: "Requires binding keys to controller layout to navigate menus and gameplay."
+
+- title: "Amid Evil"
+  storefront: "GOG"
+  protondb: ""
+
+
+  notes: ""
+
+- title: "Amnesia: A Machine for Pigs"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/239200"
+
+
+  notes: ""
+
+- title: "Amnesia: The Bunker"
+  storefront: "GOG"
+  protondb: ""
+  proton_version: "https://www.protondb.com/app/1944430"
+
+  notes: ""
+
+- title: "Amnesia: The Dark Descent"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/57300"
+
+
+  notes: ""
+
+- title: "Ancient Enemy"
+  storefront: "GOG"
+  protondb: ""
+  proton_version: "https://www.protondb.com/app/993790"
+
+  notes: ""
+
+- title: "Arcade Paradise"
+  storefront: "GOG"
+  protondb: ""
+  proton_version: "https://www.protondb.com/app/1388870"
+
+  notes: ""
+
+- title: "Ascendant"
+  storefront: "GOG"
+  protondb: ""
+  proton_version: "https://www.protondb.com/app/296930"
+
+  notes: ""
+
+- title: "ATOM RPG: Trudograd I"
+  storefront: "GOG"
+  protondb: ""
+  proton_version: "https://www.protondb.com/app/1139940"
+
+  notes: ""
+
+- title: "Baldur's Gate: Enhanced Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/228280"
+
+
+  notes: ""
+
+- title: "Baldur's Gate II: Enhanced Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/494360"
+
+
+  notes: ""
+
+- title: "Barrow Hill: Curse of the Ancient Circle"
+  storefront: "GOG"
+  protondb: ""
+  proton_version: "https://www.protondb.com/app/494360"
+
+  notes: "Point & Click; set Mouse controls."
+
+- title: "Barrow Hill: The Dark Path"
+  storefront: "GOG"
+  protondb: ""
+  proton_version: "https://www.protondb.com/app/520990"
+
+  notes: "Point & Click; set Mouse controls."
+
+# - title: "Beautiful Desolation"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/1151350"
+# 
+# 
+#   notes: "Some issues present – fix in progress."
+
+- title: "Beholder 2"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/761620"
+
+
+  notes: ""
+
+- title: "Berserk Boy"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1561340"
+
+
+  notes: ""
+
+- title: "Betrayer"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/243120"
+
+
+  notes: ""
+
+- title: "BioShock Remastered"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/409710"
+
+
+  notes: "Turn on Esync and Fsync toggles under Proton config to fix the low-res textures and long saving/loading."
+
+- title: "BioShock 2 Remastered"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/409720"
+
+
+  notes: ""
+
+- title: "Blacksad: Under the Skin"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1003890"
+
+
+  notes: ""
+
+- title: "Blade of Darkness"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1710170"
+
+
+  notes: ""
+
+- title: "Blast Brigade vs. the Evil Legion of Dr. Cread"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1550760"
+
+
+  notes: ""
+
+- title: "Blood Omen: Legacy of Kain"
+  storefront: "GOG"
+  protondb: ""
+
+
+  notes: ""
+
+- title: "Blood Omen 2: Legacy of Kain"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/242960"
+
+
+  notes: "Need to change the controller layout to Keyboard and Mouse and map some keys."
+
+- title: "Bloody Hell"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2056220"
+
+
+  notes: ""
+
+- title: "Book of Demons"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/449960"
+
+
+  notes: "Requires Keyboard & Mouse controller settings."
+
+- title: "Breachway"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2118810"
+
+
+  notes: ""
+
+- title: "Broken Sword: Director's Cut"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/57640"
+
+
+  notes: ""
+
+- title: "Builders of Egypt: Prologue"
+  storefront: "GOG"
+  protondb: ""
+
+
+  notes: ""
+
+- title: "Bullet Runner: The First Slaughter"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2343570"
+
+
+  notes: ""
+
+- title: "Bunny Garden"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2654470"
+
+
+  notes: ""
+
+- title: "Butcher"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/474210"
+
+
+  notes: ""
+
+- title: "Call of Juarez"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/3020"
+
+
+  notes: ""
+
+- title: "Call of Juarez: Bound in Blood"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/21980"
+
+
+  notes: ""
+
+- title: "Call of Juarez: Gunslinger"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/204450"
+
+
+  notes: ""
+
+- title: "Cat Quest II"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/914710"
+
+
+  notes: ""
+
+- title: "Cayne"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/532840"
+
+
+  notes: ""
+
+- title: "Chained Echoes"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1229240"
+
+
+  notes: ""
+
+- title: "Chasm: The Rift"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2061230"
+
+
+  notes: ""
+
+- title: "Chicken Assassin: Reloaded"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/489610"
+
+
+  notes: "Need to change controller mapping."
+
+- title: "Close to the Sun"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/968870"
+
+
+  notes: "Need to adjust scaling — text and menus get clipped."
+
+- title: "Cloudpunk"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/746850"
+
+
+  notes: ""
+
+- title: "Colt Canyon"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/940710"
+
+
+  notes: ""
+
+- title: "The Coma - Recut"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/600090"
+
+
+  notes: ""
+
+- title: "The Coma 2: Vicious Sisters"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1045720"
+
+
+  notes: ""
+
+- title: "Coromon"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1218210"
+
+
+  notes: ""
+
+- title: "Crusader Kings II"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/203770"
+
+
+  notes: ""
+
+- title: "Crysis®"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/17300"
+
+
+  notes: ""
+
+- title: "Cuphead"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/268910"
+
+
+  notes: ""
+
+- title: "Cursed to Golf"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1726120"
+
+
+  notes: ""
+
+- title: "Dagon: by H.P. Lovecraft"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1481400"
+
+
+  notes: ""
+
+- title: "Dakar Desert Rally"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1839940"
+
+
+  notes: ""
+
+- title: "Dark Deity: Complete Edition"
+  storefront: "GOG"
+  protondb: ""
+
+
+  notes: ""
+
+- title: "The Dark Eye: Chains of Satinav"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/203830"
+
+
+  notes: ""
+
+- title: "Dark Fall 3: Lost Souls"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/46750"
+
+
+  notes: "Point & Click; set Mouse controls."
+
+- title: "Dark Sky"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1454960"
+
+
+  notes: ""
+
+- title: "The Darkest Tales - Into the Nightmare"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1307690"
+
+
+  notes: ""
+
+- title: "Daymare:1998"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/842100"
+
+
+  notes: ""
+
+- title: "Deathabound"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1277130"
+
+
+  notes: ""
+
+- title: "Deep Sky Derelicts"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/698640"
+
+
+  notes: ""
+
+- title: "Defender's Quest: Valley of the Forgotten"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/218410"
+  notes: ""
+
+- title: "Deus Ex: GOTY Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/6910"
+  notes: ""
+
+- title: "Deus Ex: Human Revolution - Director's Cut"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/238010"
+  notes: ""
+
+- title: "Deus Ex: Invisible War"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/6920"
+  notes: ""
+
+- title: "Deus Ex: Mankind Divided"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/337000"
+  notes: ""
+
+- title: "Devil's Kiss"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1213550"
+  notes: ""
+
+- title: "Dex"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/269650"
+  notes: ""
+
+- title: "Diggles: The Myth of Fenris"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1478650"
+  notes: "Need to change controller mapping."
+
+- title: "Dino Crisis 1 & 2 (GOG)"
+  storefront: "GOG"
+  protondb: ""
+  notes: "Set launch command: WINEDLLOVERRIDES=\"ddraw=n,b\" %command%"
+
+- title: "Dishonored 2"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/403640"
+  notes: ""
+
+- title: "Doomdark's Revenge"
+  storefront: "GOG"
+  protondb: ""
+  notes: ""
+
+- title: "DREDGE"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1562430"
+  notes: "May open with web browser controller mapping. Switch to gamepad/joystick layout to fix."
+
+- title: "Duck Paradox"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2058150"
+  notes: ""
+
+- title: "Empire of the Ants"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2287330"
+  notes: ""
+
+- title: "Endless Sky"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2287330"
+  notes: ""
+
+- title: "En Garde!"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1654660"
+  notes: "Requires at least v1.1.7 and correct EXE must be set."
+
+- title: "Eschalon: Book 1"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/25600"
+  notes: ""
+
+- title: "The Falconeer"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1135260"
+  notes: ""
+
+- title: "Fallout 3 GOTY"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/22370"
+  notes: ""
+
+- title: "Fate"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/246840"
+  notes: "You need to change controller to Keyboard & Mouse."
+  date_tested: "May '25"
+
+- title: "The Feast"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2221940"
+  notes: ""
+
+- title: "F.E.A.R. Platinum"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/21090"
+  notes: "Change controller layout to Keyboard & Mouse."
+
+- title: "Figment"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/493540"
+  notes: ""
+
+- title: "Firewatch"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/383870"
+  notes: ""
+
+- title: "The First Templar - Special Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/57680"
+  notes: ""
+
+- title: "Flashout 3D: Enhanced Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2022780"
+  notes: ""
+
+- title: "Flatout"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/6220"
+  notes: ""
+
+- title: "Flipon"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1285020"
+  notes: ""
+
+- title: "Forager"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/751780"
+  notes: ""
+
+- title: "Front Mission 1st Remake"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2399730"
+  notes: ""
+
+- title: "Gamedec - Definitive Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/917720"
+  notes: ""
+
+- title: "Gex"
+  storefront: "GOG"
+  protondb: ""
+  notes: "Change controller layout to Keyboard & Mouse."
+
+- title: "Ghost of a Tale"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/417290"
+  notes: ""
+
+- title: "Ghost Song"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/347800"
+  notes: ""
+
+- title: "God's Trigger"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/488730"
+  notes: ""
+
+- title: "Golf With Your Friends"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/431240"
+  notes: "Works out of the box with native controller support."
+  date_tested: "May '25"
+
+- title: "Greak: Memories of Azur"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1311070"
+  notes: ""
+
+- title: "Greedfall"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/606880"
+  notes: ""
+
+- title: "Grim Dawn (including DLCs)"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/219990"
+  notes: ""
+
+- title: "GRIP"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/396900"
+  notes: ""
+
+- title: "The Gunk"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1087760"
+  notes: ""
+
+- title: "Hammerting"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/760650"
+  notes: "Change controller mapping."
+
+- title: "Hard West II"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1282410"
+  notes: "Change controller mapping."
+
+- title: "Haven Park"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1549550"
+  notes: ""
+
+- title: "Heads Will Roll: Downfall"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1903060"
+  notes: "Change controller mapping."
+
+- title: "Hell Division"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2004360"
+  notes: ""
+
+- title: "Hell Pie"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/889910"
+  notes: ""
+
+- title: "Hellblade: Senua's Sacrifice"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/414340"
+  notes: ""
+
+- title: "Hero's Hour"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1656780"
+  notes: ""
+
+- title: "Hero of the Kingdom II"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/346560"
+  notes: "Change controller mapping."
+
+- title: "Hitman Absolution"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/203140"
+  notes: ""
+
+- title: "Hive Jump 2: Survivors"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2545740"
+  notes: ""
+
+- title: "Icewind Dale: Enhanced Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/321800"
+  notes: ""
+
+- title: "Immortal Redneck"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/595140"
+  notes: ""
+
+- title: "Industria"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1172650"
+  notes: "Change controller mapping."
+
+- title: "Intravenous"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1486630"
+  notes: ""
+
+- title: "Iratus: Lord of the Dead"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/807120"
+  notes: "Change controls to map to mouse only."
+
+- title: "Iris and the Giant"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1127610"
+  notes: ""
+
+- title: "Kerbal Space Program"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/220200"
+  notes: ""
+
+- title: "King's Bounty: The Legend"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/25900"
+  notes: ""
+
+- title: "King's Bounty: Crossworlds GOTY Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/63910"
+  notes: ""
+
+- title: "King of Seas"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1209410"
+  notes: ""
+
+- title: "Lacuna - A Sci-Fi Noir Adventure"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1364100"
+  notes: ""
+
+- title: "The Last Spell"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1105670"
+  notes: ""
+
+- title: "Legacy of Kain: Defiance"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/224300"
+  notes: "Need to sort out controller mapping."
+
+- title: "Legacy of Kain: Soul Reaver 1 & 2 Remaster"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2521380"
+  notes: ""
+
+- title: "Legend of Keepers: Career of a Dungeon Manager"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/978520"
+  notes: ""
+
+- title: "LEGO Lord of the Rings™"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/214510"
+  notes: ""
+
+- title: "LEGO The Hobbit"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/285160"
+  notes: ""
+
+- title: "LEGO Star Wars: The Complete Saga"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/32440"
+  notes: "Change to Keyboard & Mouse controller mapping."
+
+- title: "The Life & Suffering of Sir Brante - Chapter 1 & 2"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1460090"
+  notes: ""
+
+- title: "Little Nightmares"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/424840"
+  notes: ""
+
+- title: "Loop Hero"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1282730"
+  notes: ""
+
+- title: "Mafia: Definitive Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1030840"
+
+
+  notes: ""
+
+- title: "Mafia II: Definitive Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1030830"
+
+
+  notes: ""
+
+- title: "Mafia III: Definitive Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/360430"
+
+
+  notes: ""
+
+- title: "Magrunner: Dark Pulse"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/209630"
+
+
+  notes: ""
+
+- title: "Mail Time"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1607240"
+
+
+  notes: ""
+
+- title: "Metal Slug Tactics"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1590760"
+  notes: ""
+
+- title: "Metro Last Light Redux"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/287390"
+  notes: ""
+
+- title: "Midnight Fight Express"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1390410"
+  notes: ""
+
+- title: "Monster Train"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1102190"
+  notes: ""
+
+- title: "Moonlighter"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/606150"
+  notes: "You need to install the C++ runtime dependency."
+
+- title: "Moonscars"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1374970"
+  notes: ""
+
+- title: "Mordheim: City of the Damned"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/276810"
+  notes: "Works out of the box with native controller support."
+  date_tested: "June '25"
+
+- title: "Mortal Kombat Trilogy"
+  storefront: "GOG"
+  protondb: ""
+  notes: "Use GE-Proton 9-4, Deck native controller support."
+
+- title: "Mullet Mad Jack"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2111190"
+  notes: ""
+
+- title: "MDK - Murder Death Kill"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/38450"
+  notes: ""
+
+- title: "Mutazione"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1080750"
+  notes: ""
+
+- title: "Neverwinter Nights Diamond"
+  storefront: "GOG"
+  protondb: ""
+  notes: "Change controller mapping to mouse and keyboard."
+
+- title: "Noita"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/881100"
+  notes: ""
+
+- title: "Oaken"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1348690"
+  notes: ""
+
+- title: "Obduction"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/306760"
+  notes: ""
+
+- title: "Once Upon a Jester"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1668190"
+  notes: ""
+
+- title: "One Step From Eden"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/960690"
+  notes: ""
+
+- title: "The Outerworlds"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/578650"
+  notes: ""
+
+- title: "Overcooked: Gourmet Edition"
+  storefront: "GOG"
+  protondb: ""
+  notes: ""
+
+- title: "Overcooked! 2"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/728880"
+  notes: "GE-Proton7-55"
+
+- title: "Penumbra - Overture"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/22180"
+  notes: "Gameplay will be a black screen unless you disable Post Effects in the settings menu. Mouse & Keyboard only."
+
+- title: "Penumbra - Black Plague"
+  storefront: "GOG"
+  protondb: ""
+  notes: "Gameplay will be a black screen unless you disable Post Effects in the settings menu. Mouse & Keyboard only."
+
+- title: "Pillars of Eternity: Definitive Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/291650"
+  notes: ""
+
+- title: "Planet of Lana"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1608230"
+  notes: ""
+
+- title: "Primordia"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/227000"
+  notes: "Point & Click game; set Mouse controls."
+
+- title: "Prince of Persia: Sands of Time"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/13600"
+  notes: "Turn off fog & increase resolution in graphics settings."
+
+- title: "Prince of Persia: Warrior Within"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/13500"
+  notes: "Works with Proton 7.0-6 (GOG)."
+
+- title: "Prince of Persia: The Two Thrones"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/13530"
+  notes: ""
+
+- title: "Prince of Persia"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/19980"
+  notes: "Set the executable to ./Prince of Persia.exe"
+
+- title: "Prison Architect"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/233450"
+  notes: ""
+
+- title: "Quake II"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2320"
+  notes: ""
+
+- title: "Raidborn"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1546090"
+  notes: "Early access."
+
+- title: "Return of the Phantom"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1299710"
+  notes: "Change controller settings."
+
+- title: "Riot - Civil Unrest"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/342310"
+  notes: ""
+
+- title: "The Saboteur"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/24880"
+  notes: ""
+
+- title: "Saint's Row: The Third Remastered"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/978300"
+  notes: ""
+
+- title: "Saints Row: Gat Out of Hell"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/301910"
+  notes: ""
+
+- title: "Scorn"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/698670"
+  notes: "May need C++ Runtime. Resolution wrong on launch but automatically set to correct one after opening settings menu."
+
+- title: "Severance: Blade of Darkness"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1944520"
+  notes: ""
+
+- title: "Shadows Awakening"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/585450"
+  notes: ""
+
+- title: "Shadowrun Returns"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/234650"
+  notes: "Change controls to map to mouse only."
+
+- title: "Shadow Tactics: Blades of the Shogun"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/418240"
+  notes: ""
+
+- title: "Shantae and the Pirate's Curse"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/345820"
+  notes: ""
+
+- title: "Sherlock Holmes Chapter One"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1137300"
+  notes: ""
+
+- title: "Sherlock Holmes The Awakened (2024)"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1949030"
+  notes: ""
+
+- title: "Shores Unknown: Arrival (Demo)"
+  storefront: "GOG"
+  protondb: ""
+  notes: ""
+
+- title: "Showgunners"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1155330"
+  notes: "Set executable: ./ArtificerOne/Binaries/Win64/Showgunner-Win64-Shippng.exe"
+
+- title: "Showgun Showdown"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2084000"
+  notes: ""
+
+- title: "Sigma Theory: Global Cold War"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/716640"
+  notes: ""
+
+- title: "Silent Hill 4: The Room"
+  storefront: "GOG"
+  protondb: ""
+  notes: ""
+
+- title: "SimCity 3000 Unlimited"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2741560"
+  notes: ""
+
+- title: "SimCity 4 Deluxe"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/24780"
+  notes: "Please refer to the help guide [here](https://wiki.junkstore.xyz/wiki/Help:Gog_Games/Working/SimCity_4_Deluxe)"
+
+- title: "Sin Slayers: The First Sin"
+  storefront: "GOG"
+  protondb: ""
+  notes: ""
+
+- title: "Sir Whoopass: Immortal Death"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1240590"
+  notes: ""
+
+- title: "The Smurfs 2: The Prisoner of the Green Stone"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2397500"
+  notes: ""
+
+- title: "Song of Saya"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/702050"
+  notes: ""
+
+- title: "South of the Circle"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1811040https://www.protondb.com/app/2443110"
+  notes: ""
+
+- title: "South Scrimshaw, Part 1"
+  storefront: "GOG"
+  protondb: ""
+  notes: ""
+
+- title: "Space Hulk: Deathwing - Enhanced Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/816090"
+  notes: ""
+
+- title: "Spells and Secrets"
+  storefront: "GOG"
+  protondb: ""
+  notes: ""
+
+- title: "Spelunky"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/239350"
+  notes: ""
+
+- title: "Star Wars Battlefront II (Classic, 2005)"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/6060"
+  notes: ""
+
+- title: "Star Wars: Bounty Hunter"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2419090"
+  notes: ""
+
+- title: "Star Wars: Knights of the Old Republic"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/32370"
+  notes: "Needs gamepad customization due to age; plays well."
+
+- title: "SteamWorld Heist"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/322190"
+  notes: ""
+
+- title: "SteamWorld Heist II"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2396240"
+  notes: ""
+
+- title: "SteamWorld Quest: Hand of Gilgamech"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/804010"
+  notes: ""
+
+- title: "STILL LIFE 2"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/46490"
+  notes: "Point & Click – set Mouse controls."
+
+- title: "Stray Gods: The Roleplaying Musical"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1920780"
+  notes: "If game doesn't launch try setting the .exe from sliders menu."
+
+- title: "Styx: Shards of Darkness"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/355790"
+  notes: ""
+
+- title: "Styx: Master of Shadows"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/242640"
+  notes: ""
+
+- title: "Sunriders: Mask of Arcadius"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/313730"
+  notes: "Change controller mapping."
+
+- title: "The Supper"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1171370"
+  notes: "Change to mouse & keyboard."
+
+- title: "SWAT 4"
+  storefront: "GOG"
+  protondb: ""
+  notes: "Change controller layout."
+
+- title: "Syberia: The World Before"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1410640"
+  notes: ""
+
+- title: "Symphonia"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1865960"
+  notes: "Student Project, 2020."
+
+- title: "Talisman: Digital Classic Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/247000"
+  notes: ""
+
+- title: "The Talos Principle: Gold Edition"
+  storefront: "GOG"
+  protondb: ""
+  notes: ""
+
+- title: "Terraformers: First Steps on Mars"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1557040"
+  notes: ""
+
+- title: "Terroir"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/559910"
+  notes: ""
+
+- title: "Thea 2: The Shattering"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/606230"
+  notes: "Change controller mapping."
+
+- title: "Thief II: The Metal Age"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/211740"
+  notes: "You need to change controller to Keyboard & Mouse."
+  date_tested: "May '25"
+
+- title: "A Thimbleweed Park Mini-Adventure"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1305720"
+  notes: ""
+
+- title: "Thronebreaker: The Witcher Tales"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/973760"
+  notes: ""
+
+- title: "Time Loader: First Memories"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1421970"
+  notes: ""
+
+- title: "TimeShift"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/10130"
+  notes: "Use alternate executable: `./bin/TimeShift.exe`."
+
+- title: "Tomb Raider: Anniversary"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/8000"
+  notes: ""
+
+- title: "Tomb Raider Chronicles"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/225000"
+  notes: "Requires controller and scaling tweaks via QAM."
+
+- title: "Tomb Raider: Legend"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/7000"
+  notes: "Use GE-Proton7-37; configure screen size in game settings."
+
+- title: "Tomb Raider: Underworld"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/8140"
+  notes: ""
+
+- title: "The Town of Light"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/433100"
+  notes: ""
+
+- title: "Transistor"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/237930"
+  notes: "VC 2010/2012 Redists, DirectX Jun 2010 Redist"
+
+- title: "Trinity Fusion"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1911360"
+  notes: ""
+
+- title: "Tropico 4"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/57690"
+  notes: ""
+
+- title: "Truberbrook"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/757300"
+  notes: "Change to keyboard and mouse."
+
+- title: "Under the Moon"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1945780"
+  notes: "Needs C++ runtime and controller config."
+
+- title: "Vambrace: Cold Soul"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/904380"
+  notes: ""
+
+- title: "Vampire: The Masquerade - Bloodlines"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2600"
+  notes: ""
+
+- title: "Vampire: The Masquerade - Coteries of New York"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1096410"
+  notes: ""
+
+- title: "Venetica: Gold Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/338140"
+  notes: "Change controller mapping."
+
+- title: "Voidbound"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2500710"
+  notes: ""
+
+- title: "Warhammer 40,000: Fire Team"
+  storefront: "GOG"
+  protondb: ""
+  notes: "Change controller layout."
+
+- title: "Warhammer 40,000: Rites of War"
+  storefront: "GOG"
+  protondb: ""
+  notes: "You need to change controller to Keyboard & Mouse."
+  date_tested: "May '25"
+
+- title: "Warhammer 40,000: Rogue Trader"
+  storefront: "GOG"
+  protondb: ""
+  notes: ""
+
+- title: "Wasteland 3"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/719040"
+  notes: ""
+
+- title: "The Whispered: Special Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/268540"
+  notes: ""
+
+- title: "The Whisperer"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2329580"
+  notes: "Change controller mapping."
+
+- title: "Whispering Willows"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/288060"
+  notes: ""
+
+- title: "Wild Country"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1515000"
+  notes: ""
+
+- title: "The Witcher: Enhanced Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/20900"
+  notes: ""
+
+- title: "The Witcher 2: Assassins of Kings Enhanced Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/20920"
+  notes: ""
+
+- title: "The Witcher 3: Complete Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/292030"
+  notes: ""
+
+- title: "Worms Revolution Gold Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/200170"
+  notes: ""
+
+- title: "XIII"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1154790"
+  notes: "Mouse & Keyboard only."
+
+- title: "X-Morph: Defense Complete Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/408410"
+  notes: ""
+
+- title: "Yakuza 0"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/638970"
+  notes: ""
+
+- title: "Yakuza Kiwami (Yakuza 1)"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/834530"
+  notes: ""
+
+- title: "Yes, Your Grace"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1115690"
+  notes: ""
+
+- title: "Ziggurat"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/308420"
+  notes: ""
+
+- title: "Dark Envoy"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/945770"
+  notes: "Works out of the box"
+  date_tested: "July '25"
+
+- title: "Saints Row IV: Re-Elected"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/206420"
+  notes: "Works out of the box"
+  date_tested: "July '25"
+
+- title: "TOEM: A Photo Adventure"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/1307580"
+  notes: "Works out of the box"
+  date_tested: "July '25"
+
+- title: "Saints Row 2"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/9480"
+  notes: "You need to set the game to run using the ./SR2_pc.exe from the sliders menu (remember to Push X to Save). I also changed the ctroller settings to Keyboard & Mouse. You may want to change the resolution/scaling in game via Options."
+  date_tested: "July '25"
+
+- title: "Fate: Undiscovered Realms"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/276890"
+  notes: "You need to change the controller layout; I chose Keyboard & Mouse. There are also a few lighting glitches when you enter the dungeons. To avoid these make the game look make sure your game options are set as follows:<br>
+          - Light Blur: Off<br>
+          - Shadow Detail: High<br>
+          - VSYNC: Off<br>
+          - Shadow: All<br>
+          - ParticlesL High<br>
+          - Antialiasing: On<br>
+          - Fog: Animated"
+  date_tested: "July '25"
+
+- title: "Star Wars Rebellion"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/441550"
+  notes: "You need to change to keyboard & mouse"
+  date_tested: "July '25"
+
+- title: "Hypnospace Outlaw"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/844590"
+  notes: "You need to change to keyboard & mouse"
+
+- title: "World in Conflict: Complete Edition"
+  storefront: "GOG"
+  protondb: ""
+  notes: "Works perfectly when you change the controls to mouse and keyboard"
+
+- title: "DOOM (2016)"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/379720"
+  notes: "You need to download and install X64 redistributable for Visual Studio 2015-2022."
+
+- title: "The Knights of the Old Republic II: The Sith Lords"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/208580"
+  notes: ""
+
+- title: "Tomb Raider: The Last Revelation + Chronicles"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/224980"
+  notes: "Needs controller mapping tweaks"
+
+- title: "Tomb Raider I-III Remastered Starring Lara Croft"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/2478970"
+  notes: ""
+
+- title: "Death Squared"
+  storefront: "GOG"
+  protondb: ""
+  notes: "Works out of the box, however multiplayer seems to be local co-op only"
+  date_tested: "July '25"
+
+
+
+# - title: ""
+#   storefront: "GOG"
+#   protondb: ""
+# 
+# 
+#   notes: ""
+
+# - title: ""
+#   storefront: "GOG"
+#   protondb: ""
+# 
+# 
+#   notes: ""  

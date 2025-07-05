@@ -6,6 +6,8 @@ main:
     url: "/v2faq"    
   - title: "Troubleshooting"
     url: /troubleshooting/v2
+  - title: "Tested Games"
+    url: /v2/tested-games
   - title: "Decky Plugin"
     url: /plugin/
   #- title: "Sitemap"

@@ -1,0 +1,49 @@
+<div id="testimonial-container">
+  {% for testimonial in site.data.testimonials %}
+    <div class="testimonial{% unless forloop.first %} hidden{% endunless %}">
+      <p class="testimonial-text">“{{ testimonial.text }}”</p>
+      <p class="testimonial-author">— {{ testimonial.name }}</p>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const testimonials = document.querySelectorAll("#testimonial-container .testimonial");
+    let current = 0;
+
+    setInterval(() => {
+      testimonials[current].classList.add("hidden");
+      current = (current + 1) % testimonials.length;
+      testimonials[current].classList.remove("hidden");
+    }, 5000); // 5 seconds per testimonial
+  });
+</script>
+
+<style>
+  #testimonial-container {
+    position: relative;
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .testimonial {
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .testimonial-text {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-author {
+    font-size: 0.9rem;
+    color: #b7aeae;
+    margin-top: 0;
+  }
+</style>

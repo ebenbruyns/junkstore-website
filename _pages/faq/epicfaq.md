@@ -22,61 +22,86 @@ header:
   <p>Not yet — support exists in Legendary, but we haven’t implemented it due to limited testing resources. You can attempt to configure it manually using the CLI or modify the Epic script.</p>
 </details>
 
+<details class="troubleshooting-box">
+  <summary>Do I need to keep Junk Store open while downloading from Epic?</summary>
+  <p></p>
+    Yes. Junk Store doesn't have a background download queue. If you close or leave the plugin, your download may stop or behave unpredictably.
+</details>
+
 <details class="faq-box">
   <summary>Are cloud saves supported?</summary>
   <p>While Legendary supports this, we haven't implemented it yet due to potential data loss risks. If you're tech-savvy, you can manually configure this via the CLI.</p>
 </details>
 
-<details class="troubleshooting-box">
-  <summary>I don’t have Proton GE or don’t know how to install it.</summary>
-
-  <p>
-    To get Proton GE or other custom versions of Proton, you can use one of the following tools:
-  </p>
-
-  <ul>
-    <li><strong>ProtonUp-QT</strong> — A simple app that lets you download and manage Proton versions. You can find it in the <strong>Discover Store</strong> (in Desktop Mode).</li>
-    <li><strong>Wine Cellar</strong> — A Decky plugin that works similarly to ProtonUp-QT. If you already have Decky installed for other plugins, you can install Wine Cellar directly from the <strong>Decky Plugin Store</strong>.</li>
-  </ul>
-
-  <p>
-    Once installed, use either tool to download the latest <strong>GE-Proton</strong> release. After that, you’ll be able to select it as a compatibility option in Junk Store.
-  </p>
-
-  <p>
-    Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}"> Plugin Tutorials</a> page. section to see how to change/check your Proton version if you are unsure how to do this.
-  </p>
-</details>
-
 <details class="faq-box">
   <summary>How do I uninstall and clear game data?</summary>
-  <p>In Junk Store, open the sliders menu for the game and choose 'Uninstall'. Then delete leftover files in either <code>~/Games/epic</code> or your microSD under <code>/Games/epic</code>.</p>
+  <p></p>
+  <strong>In Junk Store:</strong> 
+  <ul>
+  <li>Open the sliders ☰ menu for the game</li>
+  <li>Choose 'Uninstall'</li>
+  <li>Then delete leftover files in either</li>
+    <ul>
+    <li><code>~/Games/epic</code></li>
+    <li>Or your microSD under <code>/Games/epic</code></li>
+    </ul>
+  </ul>
+  Once you have located the games folder you can delete any remaining games files/data.
 </details>
 
 <details class="faq-box">
-  <summary>Where can I locate saved data for my Epic games?</summary>
-  <p>
-    Get the <strong>Steam ID</strong> from the game’s info panel in Junk Store.<br>
-    Then navigate to your Steam <code>compatdata</code> folder. Example path:<br>
-    <code>.local/share/Steam/steamapps/compatdata/SteamID/pfx/drive_c/users/steamuser/local settings/application data/Dying Light/Saved</code>
-  </p>
+  <summary>How do I find save data for my games?</summary>
+  <p></p>
+  <ol>
+    <li>
+      Find the game's <strong>Steam ID</strong> at the bottom of its page in Junk Store.
+    </li>
+    <li>
+      Navigate to the following path on your Steam Deck:<br>
+      <code>~/.local/share/Steam/steamapps/compatdata/&lt;SteamID&gt;/pfx/drive_c/users/steamuser/</code>
+    </li>
+    <li>
+      From there, follow the path used by your game - for example:
+      <ul>
+        <li><code>Local Settings/Application Data/Dying Light/Saved</code></li>
+      </ul>
+    </li>
+  </ol>
+  Each game may store saves in slightly different locations depending on how it was packaged or ported. Look under <code>AppData</code>, <code>Local Settings</code>, or <code>Documents</code> within the Steam compatibility prefix.
 </details>
 
 <details class="faq-box">
-  <summary>Am I able to play Fortnite?</summary>
-  <p>Unfortunately, Epic Games does not support Fortnite on Linux. This means our plugin cannot magically enable Fortnite gameplay on SteamOS.</p>
-  <p>Epic’s decision stems from their refusal to enable anti-cheat functionality for Linux systems. Please refrain from requesting help with Fortnite — it’s not something we can fix.</p>
-  <p>More info: <a href="https://www.theverge.com/2022/2/8/22923163/fortnite-steam-deck-update-epic-tim-sweeney" target="_blank" rel="noopener noreferrer">The Verge article</a>.</p>
+  <summary>I want to change the FPS for a game. How do I do this in Junk Store?</summary>
+  <p></p>
+    Just like with regular Steam games, you can change the FPS cap through the Quick Access Menu (QAM).
+    <ul> 
+      <li>Hit the <strong>three-dot button</strong> on your Deck to open the QAM</li>
+      <li>Scroll to the performance tab</li>
+      <li>Adjust the FPS, TDP, refresh rate, or any other performance settings from there.</li>
+    </ul>
 </details>
 
 <details class="faq-box">
-  <summary>Am I able to play Kingdom Hearts?</summary>
-  <p>
-  Kingdom Hearts has known compatibility issues on Linux, and this isn’t specific to Junk Store. We haven’t been able to test it ourselves as we don’t own a copy, so we can’t provide official support or recommendations at this time.
-</p>
-<p>
-  That said, you’re welcome to search for fixes or community workarounds online — others have experimented with getting it running and may have suggestions to share.
-</p>
+  <summary>Can I play Fortnite via Junk Store?</summary>
+  <p></p>
+    <strong>No.</strong> Epic Games does not support Fortnite on Linux due to anti-cheat limitations.
+  <br>
+  <br>
+    To play Fortnite on a Steam Deck or Linux system, you will need to either:
+    <ul>
+      <li>Dual-boot Windows</li>
+      <li>Use a cloud gaming or streaming service</li>
+    </ul>
+    More info: <a href="https://www.theverge.com/2022/2/8/22923163/fortnite-steam-deck-update-epic-tim-sweeney" target="_blank" rel="noopener">The Verge article</a>
+</details>
+
+<details class="faq-box">
+  <summary>Can I play Kingdom Hearts via Junk Store?</summary>
+   <p></p>
+    Kingdom Hearts has known compatibility issues on Linux, and this isn’t specific to Junk Store. 
+    <br>
+    <br>
+    We haven’t been able to test it ourselves as we don’t own a copy, so we can’t provide official support or recommendations at this time.
 </details>
 
 <h2>Need Help or More Info?</h2>

@@ -7,11 +7,17 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image.jpg
   actions:
+    - label: "Buy Now"
+      url: "/buy_now/"
+      class: "button buy-button"
     - label: "Learn More"
       url: "/comingsoon/"
       class: "button"
 excerpt: "Unlock a New Level of Gaming on Steam Deck with Junk Store"
 ---
+
+{% include testimonials.html %}
+
 
 <section class="screenshot-section">
   <div class="screenshot-box">

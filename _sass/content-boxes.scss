@@ -1,0 +1,53 @@
+/* Container for all content boxes */
+.content-box-container {
+  display: grid; /* Layout children in a row */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  // justify-content: space-between; /* Evenly space the boxes horizontally */
+  gap: 20px; /* Space between each box */
+  // margin: 20px 0;
+  // flex-wrap: wrap; /* Allow wrapping to next line on small screens */
+}
+
+/* Style for each individual content box */
+.content-box {
+  background-color: #1e2a38; /* Light gray background */
+  border: 1px solid #ddd; /* Thin border */
+  padding: 20px;
+  width: 100%; /* Each box uses 30% of the available width */
+  min-height: 400px; /* 🔥 NEW: Minimum height so all boxes match */
+  box-sizing: border-box; /* Includes padding/border in width/height */
+  border-radius: 8px;
+  text-align: center; /* Center the text horizontally */
+
+  /* Flexbox to control layout inside the box */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: space-between; /* Push heading/paragraph to top and button to bottom */
+  align-items: center; /* Center items horizontally */
+
+  /* Responsive: Stack vertically on smaller screens */
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+/* Heading inside the content box */
+.content-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+/* Paragraph inside the content box */
+.content-box p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  flex-grow: 1; /* 🔥 NEW: Allows paragraph to grow and push button down if needed */
+
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+  }
+}

@@ -12,246 +12,257 @@ header:
 
 Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the most commonly asked questions about the Junk Store Decky plugin. This page is updated regularly as we respond to user feedback and questions.
 
-## General
+<h2>General</h2>
 
-<details class="troubleshooting-box">
-  <summary>Why won't my game launch?</summary>
 
-  <p>
-    Games may fail to launch for a variety of reasons. Here are some common causes and what you can do:
-  </p>
-
-  <ul>
-    <li><strong>Wrong compatibility layer:</strong><br>
-      Try switching to a different version of Proton. Non-Steam games usually work best with <strong>GE-Proton</strong>. We recommend finding a version that works well for most of your library and using it as the default for non-Steam games.<br><br>
-      However, some titles require a <em>specific</em> version of Proton or GE-Proton to run properly.
-    </li>
-
-    <li><strong>Missing dependencies:</strong><br>
-      Some games require additional libraries such as <strong>Microsoft C++ Runtime</strong> or <strong>DirectX</strong>. These dependencies may not always trigger an obvious error message, so try installing them if you suspect they’re missing.
-    </li>
-
-    <li><strong>Check ProtonDB:</strong><br>
-      If the game still won’t launch, visit <a href="https://www.protondb.com" target="_blank" rel="noopener">ProtonDB.com</a> for community tips. You may find game-specific tweaks, compatibility reports, or Proton version recommendations that solve your issue.
-    </li>
-  </ul>
-</details>
 
 <details class="faq-box">
   <summary>What’s the difference between the Decky version and the Paid version</summary>
-  <p>
+  <p></p>
     The Decky version is free and open source, designed to run via the Decky Loader. The Paid version includes extra convenience features and doesn't require Decky to run.
-      For more infomation, see our <a href="{{ '/comingsoon' | relative_url }}">Junk Store 2.0 Coming Soon Page</a>
-  </p>
+    <br>
+    <br>
+    For more infomation, see our <a href="{{ '/comingsoon' | relative_url }}">Junk Store 2.0 Coming Soon Page</a>
 </details>
 
 <details class="faq-box">
   <summary>Is Junk Store trustworthy?</summary>
-  <p>
+    <p></p>
     Yes. Junk Store is developed by a cybersecurity expert and white-hat professional. You can verify our lead developer’s credentials on <a href="https://www.linkedin.com/in/eben-bruyns/" target="_blank">LinkedIn</a>.
-  </p>
+  <br>
+  <br>
+    We take user privacy and security seriously — nothing is stored, tracked, or transmitted beyond what is absolutely required for Junk Store to function properly.
 </details>
 
 <details class="faq-box">
   <summary>Does Junk Store store any of my credentials?</summary>
-  <p>
-    No. Junk Store does not store any of your credentials.
-
+  <p></p>
+    No. Junk Store does not store any of your credentials. This works the same way as in the open-source Decky Plugin version of Junk Store.
+  <br>
+  <br>
     All authentication is handled via OAuth tokens. The only token managed directly by Junk Store is the Junk Store token. Other tokens are managed by external tools: Legendary (Epic) & lgogdownloader (Gog).
-  </p>
 </details>
 
 <details class="faq-box">
-  <summary>How do I report a bug?</summary>
-<p>
-  We really appreciate bug reports!<br><br>
-
-  Please submit them on GitHub so we can track them:<br>
-  <a href="https://github.com/ebenbruyns/junkstore/issues/new/choose" target="_blank" rel="noopener noreferrer">Submit a bug report</a><br><br>
-
-  <strong>Note:</strong> Bug reports aren’t support tickets. For help, reach out on 
-  <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener noreferrer">Discord</a>.
-</p>
+  <summary>I think I've found a bug. How do I report it?</summary>
+  <p></p>
+    We really appreciate bug reports! Like you, we want Junk Store to just work—so if you come across a bug, please let us know. If we don’t know about it, we can’t fix it.
+  <br>
+  <br>
+    <strong>Submit bugs on GitHub so we can track them properly:</strong><br>
+    <a href="https://github.com/ebenbruyns/junkstore/issues/new/choose" target="_blank" rel="noopener">Submit a bug report</a>
+  <br>
+  <br>
+    You’ll need a GitHub account to submit an issue. It’s free to create one if you don’t already have it.
+  <br>
+  <br>
+    <strong>Note:</strong> Bug reports aren’t support tickets. If you need help or aren’t sure if it’s a bug, please ask in our <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord server</a> first.
 </details>
 
 <details class="faq-box">
   <summary>How do I submit a feature request?</summary>
- <p>
+ <p></p>
   We prefer feature requests via GitHub where they can be tracked:<br>
-  <a href="https://github.com/ebenbruyns/junkstore/issues/new/choose" target="_blank" rel="noopener noreferrer">Submit a feature request</a><br><br>
-</p>
+  <a href="https://github.com/ebenbruyns/junkstore/issues/new/choose" target="_blank" rel="noopener noreferrer">Submit a feature request</a>
 </details>
 
 <details class="faq-box">
   <summary>I want X feature. Can you add it?</summary>
-<p>
+<p></p>
   There are a few ways to request features:
-</p>
 <ol>
   <li>Submit a pull request if you know how to code.</li>
   <li>Offer a bounty and pay a developer to implement it.</li>
 </ol>
 </details>
 
-## Using Junk Store
+<h2>Using Junk Store</h2>
 
 <details class="faq-box">
   <summary>Does Junk Store support cloud saves</summary>
-  <p>No, as we don't want to have users run the risk of losing their game saves.</p>
+  <p></p>
+  No, as we don't want to have users run the risk of losing their game saves.
 </details>
 
 <details class="faq-box">
   <summary>How do I change where games are downloaded?</summary>
-<p>
-  Go to the settings (gear icon) under the <strong>Epic</strong> tab and set your preferred download location. If you're using an SD card, point the path to your SD card directory.
-</p>
-<p>
-  <strong>Don't forget to press X to save your changes.</strong>
-</p>
+  <p></p>
+    You can set your preferred download location from the Epic tab:
+  <ul>
+    <li>Go to the <strong>Epic</strong> tab</li>
+    <li>Click the <strong>⚙️ Gear icon</strong> to open settings</li>
+    <li>Set your desired download path (e.g. your SD card directory)</li>
+    <li>Press <kbd>X</kbd> to save your changes.</li>
+  </ul>
 </details>
 
 <details class="faq-box">
   <summary>Can I move games to my SD card?</summary>
-  <p>
+  <p></p>
     Not at the moment. It’s a complex feature and on our development roadmap. For now, games need to be stored on internal storage or an already-mounted drive.
-  </p>
 </details>
 
 <details class="faq-box">
   <summary>How do I install or uninstall a game?</summary>
-<p>
-  To uninstall a game:
-</p>
-<ol>
-  <li>Open the game page in Junk Store.</li>
-  <li>Select the slider menu and choose <strong>Uninstall</strong>.</li>
-  <li>Locate and manually delete any leftover files:
-    <ul>
-      <li>For Epic: <code>~/Games/epic</code> or <code>/*microsd*/Games/epic</code></li>
-      <li>For GOG: <code>~/Games/gog</code> or <code>/*microsd*/Games/gog</code></li>
-    </ul>
-  </li>
-</ol>
+  <p></p>
+  <strong>To uninstall a game in Junk Store:</strong>
+  <ol>
+    <li>Open the game’s page in Junk Store.</li>
+    <li>
+      Open the <strong>☰ Slider menu</strong> and select <strong>Uninstall</strong>.<br>
+      <em>Note:</em> You may want to write down the game's SteamID so you can locate it later in your <code>compatdata</code> and <code>shadercache</code> folders.
+    </li>
+    <li>
+      Manually delete any leftover files to free up space or completely remove the game:
+      <ul>
+        <li><strong>Epic:</strong> <code>~/Games/epic</code> or <code>/*your-SD-card*/Games/epic</code></li>
+        <li><strong>GOG:</strong> <code>~/Games/gog</code> or <code>/*your-SD-card*/Games/gog</code></li>
+      </ul>
+    </li>
+  </ol>
+  <strong>Important:</strong> Uninstalling a game will remove all local save data. Be sure to back up your saves first if you want to keep them.
 </details>
 
 <details class="faq-box">
   <summary>How do I find save data for my games?</summary>
-<ol>
-  <li>Find the Steam ID at the bottom of the game page in Junk Store.</li>
-  <li>Navigate to: <code>~/.local/share/Steam/steamapps/compatdata/*SteamID*/pfx/drive_c/users/steamuser/</code></li>
-  <li>From here, follow the game's path:
-    <ul>
-      <li><strong>Example (Epic):</strong> <em>.../local settings/application data/Dying Light/Saved</em></li>
-      <li><strong>Example (GOG):</strong> <em>.../AppData/Roaming/Lonely Troops/Hero of the Kingdom II</em></li>
-    </ul>
-  </li>
-</ol>
+  <p></p>
+  <ol>
+    <li>
+      Find the game's <strong>Steam ID</strong> at the bottom of its page in Junk Store.
+    </li>
+    <li>
+      Navigate to the following path on your Steam Deck:<br>
+      <code>~/.local/share/Steam/steamapps/compatdata/&lt;SteamID&gt;/pfx/drive_c/users/steamuser/</code>
+    </li>
+    <li>
+      From there, follow the path used by your game. Here are some examples:
+      <ul>
+        <li><strong>Epic example:</strong> <code>Local Settings/Application Data/Dying Light/Saved</code></li>
+        <li><strong>GOG example:</strong> <code>AppData/Roaming/Lonely Troops/Hero of the Kingdom II</code></li>
+      </ul>
+    </li>
+  </ol>
+    Each game may store saves in slightly different locations depending on how it was packaged or ported. Look under <code>AppData</code>, <code>Local Settings</code>, or <code>Documents</code> within the Steam compatibility prefix.
 </details>
 
 <details class="faq-box">
   <summary>How do I change the Proton version for a game?</summary>
-<p>You can change the Proton version from either your Steam Library or directly in Junk Store:</p>
-
-<ul>
-  <li>
-    <strong>In Junk Store:</strong>  
+  <p></p>
+    You can do this from either your Steam Library or directly inside Junk Store.
+  <br>
+  <br>
+    <strong>From Junk Store:</strong><br>
+    Press <code>Y</code> to open the Steam shortcut.
     <ol>
-      <li>Press <code>Y</code> to open the Steam shortcut.</li>
-      <li>Click the gear icon → <strong>Properties</strong> → <strong>Compatibility</strong>, then select your desired Proton version.</li>
-      <li>Relaunch the game.</li>
+      <li>Click the gear icon ⚙️ → <strong>Properties</strong> → <strong>Compatibility</strong></li>
+      <li>Select the Proton version you want to use</li>
+      <li>Relaunch the game</li>
     </ol>
-  </li>
-
-  <li>
-    <strong>In Steam Library:</strong>
-    <ol>
-      <li>Highlight the game in your library.</li>
-      <li>Press the <strong>Start/Options</strong> button (three lines).</li>
-      <li>Go to <strong>Properties</strong> → <strong>Compatibility</strong>, then choose your Proton version.</li>
-      <li>Relaunch the game.</li>
+    <strong>From Steam Library:</strong><br>
+  <ol>
+      <li>Highlight the game and press the <strong>Start/Options</strong> button (the one with three lines)</li>
+      <li>Go to <strong>Properties</strong> → <strong>Compatibility</strong></li>
+      <li>Select the Proton version you want to use</li>
+      <li>Relaunch the game</li>
     </ol>
-  </li>
-</ul>
-
-<p>Once your Proton version is set, back out to the game screen and press <strong>Play</strong>.</p>
+    Once you've selected a version, back out to the game screen and hit <strong>Play</strong>.
 </details>
 
 <details class="faq-box">
-  <summary>Can I use Junk Store with games I already installed using Heroic or Lutris?</summary>
-  <p>
-    No, Junk Store manages its own game installs. If you want to manage those games, you’ll need to install them again via Junk Store.
-  </p>
+  <summary>I don’t have Proton GE or don’t know how to install it.</summary>
+  <p></p>
+    To get Proton GE or other custom versions of Proton, you can use one of the following tools:
+  <ul>
+    <li><strong>ProtonUp-QT</strong> — A simple app that lets you download and manage Proton versions. You can find it in the <strong>Discover Store</strong> (in Desktop Mode).</li>
+    <li><strong>Wine Cellar</strong> — A Decky plugin that works similarly to ProtonUp-QT. If you already have Decky installed for other plugins, you can install Wine Cellar directly from the <strong>Decky Plugin Store</strong>.</li>
+  </ul>
+    Once installed, use either tool to download the latest <strong>GE-Proton</strong> release. After that, you’ll be able to select it as a compatibility option in Junk Store.
+    <br>
+    <br>
+    Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}"> Plugin Tutorials</a> page to see how to change/check your Proton version if you are unsure how to do this.
 </details>
+
+<details class="faq-box">
+  <summary>Can I use Junk Store with games I already installed using other third-party solutions?</summary>
+  <p></p>
+    <strong>No.</strong> Junk Store manages its own installations and environment. Games installed through other launchers (like Heroic, Lutris, or Bottles) are not recognized or managed by Junk Store.
+  <br>
+  <br>
+      If you want to use Junk Store to manage a game, you’ll need to install it again through Junk Store directly.
+ </details>
 
 <details class="faq-box">
   <summary>Does CheatDeck work with Junk Store?</summary>
-  <p>
+  <p> </p>
     Not reliably. Epic game launch options are very sensitive, and tools like CheatDeck can conflict with Junk Store’s configuration. We’ve spent over 100 hours fine-tuning this — so use with caution.
-
+  <br>
+  <br>
     That said, our extension scripts are open and easier to modify than the plugin core. If you want to experiment and send a working pull request, we’re happy to review it!
-  </p>
 </details>
 
-## Game Compatibility & Support
+<details class="faq-box">
+  <summary>I want to change the FPS for a game. How do I do this in Junk Store?</summary>
+  <p></p>
+    Just like with regular Steam games, you can change the FPS cap through the Quick Access Menu (QAM).
+    <ul> 
+      <li>Hit the <strong>three-dot button</strong> on your Deck to open the QAM</li>
+      <li>Scroll to the performance tab</li>
+      <li>Adjust the FPS, TDP, refresh rate, or any other performance settings from there.</li>
+    </ul>
+</details>
+
+<h2>Game Compatibility & Support</h2>
 
 <details class="faq-box">
-  <summary>I can’t get EA or Ubisoft games to work through Epic. Why not?</summary>
-  <p>
-   These games aren't supported yet. They rely on additional launchers (EA and Ubisoft), which haven't been integrated. We're focused on other features for now, but pull requests are welcome if you’d like to contribute.
-  </p>
+  <summary>Do EA and Ubisoft games work via Junk Store?</summary>
+  <p></p>
+    <strong>EA Games:</strong><br>
+    No, EA games are not supported. They require the EA Launcher, which isn’t integrated with Junk Store. Because of this, EA titles will not appear in your Epic Games library when accessed through Junk Store.
+  <br>
+  <br>
+    <strong>Ubisoft Games:</strong><br>
+    It’s complicated. Some Ubisoft titles do appear in your Epic library, while others don’t. The Ubisoft Launcher is not officially supported, but we—and some users—have successfully installed it manually and run select games through Junk Store.
+  <!-- <ul>
+    <li>A full guide is available here: <a href="/tutorials/Ubisoft/">How to install Ubisoft via Junk Store</a></li>
+  </ul> -->
 </details>
 
 <details class="faq-box">
   <summary>Does the GOG extension support DOS and ScummVM games?</summary>
-  <p>
-    No. DOS and some ScummVM titles are not currently supported.
-  </p>
-</details>
+  <p></p>
+    <strong>Yes.</strong> In Junk Store 2.0, both <strong>DOS</strong> and <strong>ScummVM</strong> games downloaded via GOG are supported.
+  <br>
+  <br>
+    These games will automatically launch using the <strong>Flatpak versions</strong> of <code>ScummVM</code> and <code>DosBox</code> once installed.
+  </details>
 
-<details class="troubleshooting-box">
+<details class="faq-box">
   <summary>Can I play Fortnite via Junk Store?</summary>
-
-  <p>
+  <p></p>
     <strong>No.</strong> Epic Games does not support Fortnite on Linux due to anti-cheat limitations.
-  </p>
-
-  <p>
+  <br>
+  <br>
     To play Fortnite on a Steam Deck or Linux system, you will need to either:
     <ul>
       <li>Dual-boot Windows</li>
       <li>Use a cloud gaming or streaming service</li>
     </ul>
     More info: <a href="https://www.theverge.com/2022/2/8/22923163/fortnite-steam-deck-update-epic-tim-sweeney" target="_blank" rel="noopener">The Verge article</a>
-  </p>
 </details>
 
 <details class="faq-box">
   <summary>Can I play Kingdom Hearts via Junk Store?</summary>
-  <p>
-    Kingdom Hearts has known compatibility issues on Linux, and this isn’t specific to Junk Store. We haven’t been able to test it ourselves as we don’t own a copy, so we can’t provide official support or recommendations at this time.
-  </p>
+   <p></p>
+    Kingdom Hearts has known compatibility issues on Linux, and this isn’t specific to Junk Store.
+    <br>
+    <br>
+    We haven’t been able to test it ourselves as we don’t own a copy, so we can’t provide official support or recommendations at this time.
 </details>
-
 
 <details class="faq-box">
   <summary>Do games that require third-party launchers work?</summary>
-  <p>
+  <p></p>
     Not currently. While Legendary has limited support, this feature isn’t implemented in Junk Store yet. You can attempt manual setup via CLI or modify the extension script.
-  </p>
-</details>
-
-<details class="troubleshooting-box">
-  <summary>Do EA and Ubisoft games work via Junk Store?</summary>
-
-  <p>
-    <strong>EA Games:</strong><br>
-    No, EA games are not supported. They require the EA Launcher, which isn’t integrated with Junk Store. Because of this, EA titles will not appear in your Epic Games library when accessed through Junk Store.
-  </p>
-
-  <p>
-    <strong>Ubisoft Games:</strong><br>
-    It’s complicated. Some Ubisoft titles do appear in your Epic library, while others don’t. The Ubisoft Launcher is not officially supported, but we—and some users—have successfully installed it manually and run select games through Junk Store.
-  </p>
 </details>
 
 <h2>Need Help or More Info?</h2>
