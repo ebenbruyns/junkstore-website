@@ -10,22 +10,21 @@ header:
   overlay_image: /assets/images/website_image.jpg
 ---
 <div class="spacer mt-4"></div>
-<!-- {% include gog-header.html title="Gog Troubleshooting" subtitle="Tips and fixes for GOG-specific issues in Junk Store." %} -->
 
 This section deals with any problems specific to GOG integration — from download issues to getting games to run smoothly through Junk Store.
 
 <details class="faq-box">
   <summary>I can't get GOG to run in Junk Store.</summary>
-  <p>
+  <p></p>
     Make sure you're using the <strong>latest version of Junk Store</strong> from the <strong>Decky Testing Store</strong>.<br><br>
     You’ll also need to reinstall dependencies by going to the <strong>About</strong> section and clicking “Install Dependencies.”<br><br>
     If you've purchased the GOG extension, <strong>follow the setup instructions emailed to you</strong> or refer to the downloadable PDF — skipping these steps may cause issues.
-  </p>
 </details>
 
 <details class="troubleshooting-box">
   <summary>I don’t see any games in my Gog library.</summary>
-  <p>Check the following:</p>
+  <p></p>
+  Check the following:
   <ul>
     <li>If you have more than one Gog account, make sure you are logged into the correct one.</li>
     <li>Press <strong>X</strong> to toggle the “Show Installed” filter — it may be hiding your uninstalled games.</li>
@@ -40,9 +39,8 @@ This section deals with any problems specific to GOG integration — from downlo
 
 <details class="troubleshooting-box">
   <summary>Having issues bringing up the keyboard in Game Mode?</summary>
-  <p>
+  <p></p>
     If the <strong>Steam + X</strong> shortcut isn’t bringing up the keyboard try the following:
-  </p>
   <ul>
     <li>Try to bring up the keyboard ⌨️ from the Quick Access Menu (<strong>⋯</strong>).</li>
     <li>Tap directly on a text field (like a password box) to prompt the keyboard.</li>

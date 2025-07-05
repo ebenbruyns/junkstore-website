@@ -1,0 +1,62 @@
+/* Style for the buttons */
+a.button {
+  color: #fff;
+  background-color: #007acc; /* Blue background */
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  min-width: 200px; /* Minimum width so buttons don't shrink too much */
+  max-width: 230px; /* Maximum width to keep them consistent */
+  white-space: normal; /* Allow wrapping if necessary */
+  word-break: break-word; /* Prevent overflow if long words */
+
+  /* Hover Effects */
+  &:hover, &:visited:hover {
+    background-color: #005f99; /* Darker blue on hover */
+    color: #fff;
+  }
+}
+
+/* Buy Now button */
+a.button.buy-button {
+  background-color: #28a745 !important; /* Green background */
+}
+
+a.button.buy-button:hover,
+a.button.buy-button:visited:hover {
+  background-color: #218838; /* Darker green on hover */
+  color: #fff;
+}
+
+/* Favicon inside button */
+.favicon-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+/* Visited button link */
+a.button:visited {
+  color: #fff;
+  background-color: #007acc; /* Same as normal to keep consistent */
+}
+
+.buy-now-button {
+  font-size: 1.25rem;     /* bigger text */
+  padding: 1rem 2rem;     /* bigger button */
+  background-color: #28a745; /* example: green */
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.buy-now-button:hover {
+  background-color: #218838;
+}

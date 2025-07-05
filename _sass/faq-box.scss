@@ -1,0 +1,37 @@
+/* FAQ collapse box styles */
+details.faq-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 1em 0;
+  padding: 0.5em 1em;
+  background-color: #1e2a38;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+details.faq-box[open] {
+  background-color: #1e2a38;
+  border-color: #007acc;
+}
+
+details.faq-box summary {
+  font-weight: 600;
+  font-size: 1.1em;
+  margin: -0.5em -1em;
+  padding: 0.5em 1em;
+  list-style: none;
+}
+
+details.faq-box summary:hover {
+  color: #007acc;
+}
+
+details.faq-box summary::marker {
+  display: none;
+}
+
+details.faq-box p {
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  border-top: 1px solid #ddd;
+}

@@ -7,16 +7,22 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image.jpg
   actions:
+    - label: "Buy Now"
+      url: "/buy_now/"
+      class: "button buy-button"
     - label: "Learn More"
       url: "/comingsoon/"
       class: "button"
 excerpt: "Unlock a New Level of Gaming on Steam Deck with Junk Store"
 ---
 
+{% include testimonials.html %}
+
+
 <section class="screenshot-section">
   <div class="screenshot-box">
     <div class="screenshot-text">
-      <h3>No desktop mode required. Just games, where they belong.</h3>
+      <h3>No <em>desktop</em> mode required. Just games, where they belong.</h3>
       <p>Unified game library access across storefronts — seamlessly in Game Mode.</p>
     </div>
     <img src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Feature Screenshot">

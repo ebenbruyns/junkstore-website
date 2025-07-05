@@ -7,9 +7,9 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image.jpg
   actions:
-    - label: "Learn More"
-      url: "/comingsoon/"
-      class: "button"
+    - label: "Buy Now"
+      url: "/buy_now/"
+      class: "button buy-button"
 ---
 <div class="spacer mt-4"></div>
 
