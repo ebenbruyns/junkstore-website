@@ -1,7 +1,8 @@
 - title: "20 Minutes Till Dawn"
-  notes: ""
   protondb: "https://www.protondb.com/app/1966900"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
 
 - title: "20xx"
   notes: "Needs d3dcompiler_47 dependency."
@@ -9,29 +10,34 @@
   storefront: Epic
 
 - title: "3 out of 10: Season One"
-  notes: ""
   protondb: ""
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "911 Operator"
-  notes: ""
   protondb: "https://www.protondb.com/app/503560"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
 
 - title: "A Plague Tale: Innocence"
-  notes: ""
   protondb: "https://www.protondb.com/app/752590"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "A Short Hike"
-  notes: ""
   protondb: "https://www.protondb.com/app/1055540"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Absolute Drift"
-  notes: ""
   protondb: "https://www.protondb.com/app/320140"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Abzû"
   notes: ""
@@ -42,16 +48,19 @@
   notes: "May have to authenticate in desktop mode first. Needs Microsoft C++ runtime dependency."
   protondb: "https://www.protondb.com/app/1271400"
   storefront: Epic
+  date_tested: "July '24"
 
 - title: "AER Memories of Old"
-  notes: "May have to authenticate in desktop mode first."
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. May have to authenticate in desktop mode first."
   protondb: "https://www.protondb.com/app/331870"
   storefront: Epic
+  date_tested: "July '24"
 
 - title: "Aerial_Knight's Never Yield"
-  notes: ""
   protondb: "https://www.protondb.com/app/1323540"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 - title: "Against All Odds"
   notes: ""
@@ -59,9 +68,10 @@
   storefront: Epic
 
 - title: "Alan Wake 2"
-  notes: ""
   protondb: "https://www.protondb.com/app/alan-wake-2"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Alan Wake Remastered"
   notes: ""
@@ -69,14 +79,16 @@
   storefront: Epic
 
 - title: "Alba - A Wildlife Adventure"
-  notes: ""
   protondb: "https://www.protondb.com/app/1337010"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Alex the Kidd in Miracle World DX"
-  notes: ""
   protondb: "https://www.protondb.com/app/1333470"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Alien: Isolation"
   notes: ""
@@ -84,9 +96,10 @@
   storefront: Epic
 
 - title: "The Alto Collection"
-  notes: ""
   protondb: "https://www.protondb.com/app/2837600"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Amnesia - The Dark Descent"
   notes: ""
@@ -99,29 +112,34 @@
   storefront: Epic
 
 - title: "Amnesia - Rebirth"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/999220"
   storefront: Epic
+  date_tested: "May '25"
 
 - title: "Among the Sleep: Enhanced Edition"
   notes: "Keyboard & Mouse controller setting"
   protondb: "https://www.protondb.com/app/250620"
   storefront: Epic
+  date_tested: "July '24"
 
 - title: "Among Us"
   notes: "May have to authenticate in desktop mode first"
   protondb: "https://www.protondb.com/app/945360"
   storefront: Epic
+  date_tested: "May '24"
 
 - title: "Ancient Enemy"
   notes: "Mouse Only controller setting"
   protondb: "https://www.protondb.com/app/993790"
   storefront: Epic
+  date_tested: "July '24"
 
 - title: "Animation Throwdown: The Quest for Cards"
-  notes: ""
   protondb: "https://www.protondb.com/app/591960"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Anodyne 2 - Return to Dust"
   notes: ""
@@ -129,89 +147,106 @@
   storefront: Epic
 
 - title: "Arcade Paradise"
-  notes: ""
   protondb: "https://www.protondb.com/app/1388870"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "ArcadeGeddon"
-  notes: "May have to authenticate in desktop mode first"
+  notes: "May have to authenticate in desktop mode first. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1515640"
   storefront: Epic
+  date_tested: "April '25"
 
 - title: "Are You Smarter than a Fifth Grader?"
-  notes: "Needs Microsoft C++ Runtime"
+  notes: "Needs Microsoft C++ Runtime."
   protondb: "https://www.protondb.com/app/1521160"
   storefront: Epic
+  date_tested: "Jan '25"
 
 - title: "Armored Warfare"
   notes: "Keyboard & Mouse controller setting"
   protondb: "https://www.protondb.com/app/443110"
   storefront: Epic
+  date_tested: ""
 
 - title: "Art of Rally"
-  notes: ""
   protondb: "https://www.protondb.com/app/art-of-rally"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Assassin's Creed Mirage"
-  notes: "Need to download & log in to Uplay"
+  notes: "Need to download & log in to Uplay. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/assassins-creed-mirage"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "Assassin's Creed Origins"
-  notes: "Need to download & log in to Uplay"
+  notes: "Need to download & log in to Uplay. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/assassins-creed-origins"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "Astrea: Six Sided Oracles"
-  notes: "Need to verify with Epic account"
+  notes: "Need to verify with Epic account. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1755830"
   storefront: Epic
+  date_tested: "Dec '24"
 
 - title: "Astro Duel 2"
-  notes: ""
   protondb: "https://www.protondb.com/app/655350"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
 
 - title: "Atlas Fallen"
-  notes: ""
   protondb: ""
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Aven Colony"
-  notes: ""
+  notes: "Need to change to keyboard & mouse controller layout."
   protondb: "https://www.protondb.com/app/484900"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "Axiom Verge"
-  notes: ""
   protondb: "https://www.protondb.com/app/332200"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Barony"
-  notes: ""
   protondb: "https://www.protondb.com/app/371970"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Bear & Breakfast"
-  notes: ""
   protondb: "https://www.protondb.com/app/1136370"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Behind the Frame"
-  notes: "Need to verify with your Epic account"
+  notes: "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1634150"
   storefront: Epic
+  date_tested: "Jan '25"
 
 - title: "Beholder"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/475550"
   storefront: Epic
+  date_tested: "Nov '24"
 
 - title: "Beyond Blue"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/883360"
   storefront: Epic
+  date_tested: "Feb '25"
 
 - title: "The Big Con"
   notes: ""
@@ -219,14 +254,16 @@
   storefront: Epic
 
 - title: "BioShock 2 Remastered"
-  notes: ""
   protondb: "https://www.protondb.com/app/409720"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "June '24"
 
 - title: "BioShock Infinite"
-  notes: ""
   protondb: "https://www.protondb.com/app/8870"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
 
 - title: "BioShock Remastered"
   notes: "Need to toggle Esync and Fsync in game configs"
@@ -234,39 +271,46 @@
   storefront: Epic
 
 - title: "Black Book"
-  notes: ""
   protondb: "https://www.protondb.com/app/1138660"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 - title: "Black Widow: Recharged"
-  notes: ""
   protondb: "https://www.protondb.com/app/1714180"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 - title: "Blazing Sails"
-  notes: ""
+  notes: "Need to change controller mapping."
   protondb: "https://www.protondb.com/app/1158940"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "BLOCKLORDS"
   notes: "Keyboard & Mouse controller setting"
   protondb: "https://www.protondb.com/app/1278420"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "Bloons TD 6"
-  notes: ""
   protondb: "https://www.protondb.com/app/960090"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Book of Yog Idle RPG"
-  notes: ""
+  notes: "Might need to change controller mapping."
   protondb: "https://www.protondb.com/app/1097430"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "Borderlands 2"
-  notes: "UHD DLC not yet working in Junk-Store"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. UHD DLC not yet working in Junk-Store"
   protondb: "https://www.protondb.com/app/49520"
   storefront: Epic
+  date_tested: "Sept '24"
 
 - title: "Borderlands 3"
   notes: "If you get an error pop up verify the games files (cog menu) or delete the file the error is pointing to & then verify the files."
@@ -274,99 +318,118 @@
   storefront: Epic
 
 - title: "Borderlands The Pre-Sequel!"
-  notes: ""
   protondb: "https://www.protondb.com/app/261640"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Botanicula"
-  notes: ""
+  notes: "Need to enable the EOS overlay and change controller mapping to keyboard and mouse."
   protondb: "https://www.protondb.com/app/207690"
   storefront: Epic
+  date_tested: "July '25"
 
 - title: "Bramble: The Mountain King"
-  notes: ""
   protondb: "https://www.protondb.com/app/1623940"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Breathedge"
-  notes: ""
+  notes: "May need to tweak controller mapping."
   protondb: "https://www.protondb.com/app/738520"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "The Bridge"
-  notes: "Need to authorize in web browser first"
+  notes: "Need to authorize in web browser first. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/204240"
   storefront: Epic
+  date_tested: "Jan '25"
 
 - title: "Brotato"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1942280"
   storefront: Epic
+  date_tested: "Nov '24"
 
 - title: "Brothers: A Tale of Two Sons"
-  notes: ""
   protondb: "https://www.protondb.com/app/225080"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 - title: "Bus Simulator 21 Next Stop"
-  notes: "Install C++ Runtime Dependency"
+  notes: "Install C++ Runtime Dependency, no extra setup required."
   protondb: "https://www.protondb.com/app/976590"
   storefront: Epic
+  date_tested: "Dec '25"
 
 - title: "Call of the Sea"
-  notes: "May need to activate in Desktop Mode/Big Picture Mode via Epic on first launch"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. May need to activate in Desktop Mode/Big Picture Mode via Epic on first launch"
   protondb: "https://www.protondb.com/app/1042490"
   storefront: Epic
+  date_tested: "Sept '24"
 
 - title: "Call of the Wild: The Angler™"
-  notes: ""
   protondb: "https://www.protondb.com/app/1408610"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "The Callisto Protocol"
   notes: "Install C++ Runtime Dependency"
   protondb: "https://www.protondb.com/app/1544020"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "The Captain"
   notes: "Need to change controller mapping to mouse and Keyboard"
   protondb: "https://www.protondb.com/app/1721530"
   storefront: Epic
+  date_tested: "Dec '24"
 
 - title: "Car Mechanic Simulator 2018"
-  notes: ""
   protondb: "https://www.protondb.com/app/645630"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Card Shark"
-  notes: ""
   protondb: "https://www.protondb.com/app/1371720"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Carrion"
-  notes: ""
   protondb: "https://www.protondb.com/app/953490"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Castlevania Anniversary Collection"
-  notes: ""
+  notes: "Need to verify with Epic account & you may want to adjust resolution/scaling. Otherwise no extra setup needed."
   protondb: "https://www.protondb.com/app/1018010"
   storefront: Epic
+  date_tested: "Nov '24"
 
 - title: "Cat Quest"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/593280"
   storefront: Epic
+  date_tested: "March '25"
 
 - title: "Cat Quest II"
-  notes: "need to authorise in web browser first"
+  notes: "Need to verify with Epic account. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/914710"
   storefront: Epic
+  date_tested: "April '25"
 
 - title: "Cave Story"
-  notes: ""
   protondb: "https://www.protondb.com/app/200900"
   storefront: Epic
+  notes: "You need to change the controller mapping - there is a community layout that you can use."
+  date_tested: "July '25"
 
 - title: "Celeste"
   notes: "Install dxvk to fix the red colour issue."
@@ -374,9 +437,10 @@
   storefront: Epic
 
 - title: "Centipede Recharged"
-  notes: ""
   protondb: "https://www.protondb.com/app/1630960"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Chessarama"
   notes: "You need to verify with your Epic account. Works out of the box with native controller support."
@@ -385,54 +449,64 @@
   date_tested: "May '25"
 
 - title: "Chivalry II"
-  notes: ""
   protondb: "https://www.protondb.com/app/1824220"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Circus Electrique"
-  notes: ""
   protondb: "https://www.protondb.com/app/1666250"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "City of Brass"
-  notes: ""
   protondb: "https://www.protondb.com/app/301840"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Cook, Serve, Delicious! 3?!"
-  notes: ""
   protondb: "https://www.protondb.com/app/1000030"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Control"
-  notes: ""
   protondb: ""
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Dec '24"
 
 - title: "Costume Quest 2"
-  notes: ""
   protondb: "https://www.protondb.com/app/275180"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Creature in the Well"
-  notes: ""
   protondb: "https://www.protondb.com/app/852300"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Crime Boss: Rockay City"
   notes: "You need to install Microsoft C++ runtime & accept a EULA"
   protondb: "https://www.protondb.com/app/2933080"
   storefront: Epic
+  date_tested: "March '25"
 
 - title: "Cris Tales"
-  notes: ""
   protondb: "https://www.protondb.com/app/1079830"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
 
 - title: "Cursed to Golf"
-  notes: ""
   protondb: "https://www.protondb.com/app/1726120"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Cyberpunk 2077"
   notes: ""
@@ -443,11 +517,13 @@
   notes: "additional arguments > -epicdeploymentid=78a046d4ac1b42d7aaba9fe80f88a5d8"
   protondb: "https://www.protondb.com/app/1248080"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "Daemon X Machina"
-  notes: ""
   protondb: "https://www.protondb.com/app/1167450"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Dec '24"
 
 - title: "Darkest Dungeon®"
   notes: ""
@@ -455,34 +531,40 @@
   storefront: Epic
 
 - title: "Darkest Dungeon II"
-  notes: ""
   protondb: "https://www.protondb.com/app/262060"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Darkwood"
-  notes: ""
   protondb: "https://www.protondb.com/app/274520"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "DARQ"
-  notes: ""
   protondb: ""
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
 
 - title: "Dead Island 2"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/934700"
   storefront: Epic
+  date_tested: "May '25"
 
 - title: "Death's Door"
-  notes: ""
   protondb: "https://www.protondb.com/app/894020"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Nov '24"
 
 - title: "Death's Gambit - Afterlife"
-  notes: ""
   protondb: "https://www.protondb.com/app/356650"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24' "
 
 - title: "Death Loop"
   notes: "May need to login to Bethesda to change visual settings to windowed"
@@ -491,19 +573,22 @@
   date_tested: "June '25"
 
 - title: "Death Stranding"
-  notes: ""
-  protondb: ""
-  storefront: Epic
-
-- title: "Death Stranding Director's Cut"
-  notes: ""
   protondb: "https://www.protondb.com/app/1850570"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
+
+- title: "Death Stranding Director's Cut"
+  protondb: "https://www.protondb.com/app/1850570"
+  storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Deceive Inc."
-  notes: ""
   protondb: "https://www.protondb.com/app/820520"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Deliver At All Costs"
   notes: "Works out of the box with native controller support. If you are having issues, launch it twice or reinstall the dependencies (JS > About)."
@@ -513,9 +598,10 @@
 
 
 - title: "Deliver Us Mars"
-  notes: "needs C++ Runtime"
+  notes: "Needs C++ Runtime, otherwise no extra setup required."
   protondb: "https://www.protondb.com/app/1345890"
   storefront: Epic
+  date_tested: "Oct '24"
 
 - title: "Demon's Tilt"
   notes: ""
@@ -523,89 +609,107 @@
   storefront: Epic
 
 - title: "Dishonored - Definitive Edition"
-  notes: ""
   protondb: "https://www.protondb.com/app/205100"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "June '24"
 
 - title: "Dishonored®: Death of the Outsider™"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/614570"
   storefront: Epic
+  date_tested: "June '24"
 
 - title: "DNF Duel"
-  notes: ""
   protondb: "https://www.protondb.com/app/1216060"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 - title: "Dodo Peak"
-  notes: ""
   protondb: "https://www.protondb.com/app/2845610"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Doki Doki Literature Club Plus!"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1388880"
   storefront: Epic
+  date_tested: ""
 
 - title: "Doom 64"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1148590"
   storefront: Epic
+  date_tested: "June '24"
 
 - title: "Doomsday: Last Survivors"
-  notes: ""
+  notes: "Mouse only control scheme."
   protondb: "https://www.protondb.com/app/2439510"
   storefront: Epic
+  date_tested: "April '25"
 
 - title: "Doors Paradox"
-  notes: ""
+  notes: "Works out of the box, change controller layout to Keyboard & mouse."
   protondb: "https://www.protondb.com/app/1622770"
   storefront: Epic
+  date_tested: "May '25"
+  
 
 - title: "DREDGE"
-  notes: ""
+  notes: "You need to verify it with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1562430"
   storefront: Epic
+  date_tested: "Dec '24"
 
 - title: "The Drone Racing League Simulator"
   notes: "Need to verify with your Epic account and change controller mapping"
   protondb: "https://www.protondb.com/app/641780"
   storefront: Epic
+  date_tested: "Dec '24"
 
 - title: "The Dungeon of Naheulbeuk: The Amulet of Chaos"
   notes: "Change controller mapping to gamepad and joystick"
   protondb: "https://www.protondb.com/app/the-dungeon-of-naheulbeuk"
   storefront: Epic
+  date_tested: "Dec '24"
 
 - title: "Eastern Exorcist"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1120810"
   storefront: Epic
+  date_tested: "Jan '25"
 
 - title: "Electrician Simulator"
-  notes: "Need to verify with Epic Account"
+  notes: "Need to verify with Epic Account. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1080020"
   storefront: Epic
+  date_tested: "Dec '24"
 
 - title: "El Hijo - A Wild West Tale"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/853050"
   storefront: Epic
+  date_tested: "March '25"
 
 - title: "Elite Dangerous"
-  notes: "You need to have a Frontier account to play this game."
+  notes: "You need to have a Frontier account to play this game. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/359320"
   storefront: Epic
+  date_tested: "Nov '24"
 
 - title: "Empyrion - Galactic Survival"
   notes: "Multiplayer is broken even with EAC enabled, need to change controller setup"
   protondb: "https://www.protondb.com/app/383120"
   storefront: Epic
+  date_tested: "Oct '24"
 
 - title: "Escape Academy"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1812090"
   storefront: Epic
+  date_tested: "Jan '25"
 
 - title: "The Escapists"
   notes: ""
@@ -613,49 +717,56 @@
   storefront: Epic
 
 - title: "The Eternal Cylinder"
-  notes: "Install C++ Runtime Dependency"
+  notes: "Install C++ Runtime Dependency otherwise no extra setup required."
   protondb: "https://www.protondb.com/app/865680"
   storefront: Epic
+  date_tested: "Oct '24"
 
 - title: "Eternights"
-  notes: ""
   protondb: "https://www.protondb.com/app/1402110"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "F1 Manager 24"
   notes: "Need to install C++ Runtime (can be done from Run exe menu)"
   protondb: "https://www.protondb.com/app/2591280"
   storefront: Epic
+  date_tested: "March '25"
 
 - title: "The Falconeer"
-  notes: ""
   protondb: "https://www.protondb.com/app/1135260"
   storefront: Epic
+
 
 - title: "Fall Guys"
   notes: "Install the easy anti cheat runtime from the 'About' section- (make sure you are installing it to the SSD not the micro SD card)"
   protondb: "https://www.protondb.com/app/1097150"
   storefront: Epic
+  date_tested: "July '25"
 
 - title: "Fallout 2: A Post Nuclear Role Playing Game"
-  notes: ""
   protondb: "https://www.protondb.com/app/38410"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 - title: "Fallout 3"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/fallout-3"
   storefront: Epic
 
 - title: "Fallout: A Post Nuclear Role Playing Game"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/38400"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "Fallout Tactics: Brotherhood of Steel"
   notes: "Use Proton-7.0rc3-GE-1 to help with stuttering of cutscenes"
   protondb: "https://www.protondb.com/app/38420"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "Fallout: New Vegas"
   notes: "Use ProtonGE 9-4 and also click on the registry fix in the sliders menu(this is very important)."
@@ -668,19 +779,22 @@
   storefront: Epic
 
 - title: "Fashion Police Squad"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1319460"
   storefront: Epic
+  date_tested: "April '25"
 
 - title: "Farming Simulator 22"
-  notes: ""
   protondb: "https://www.protondb.com/app/1248130"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "June '24"
 
 - title: "Filament"
-  notes: ""
   protondb: "https://www.protondb.com/app/1137350"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Final Fantasy VII Remake Intergrade"
   notes: ""
@@ -688,49 +802,58 @@
   storefront: Epic
 
 - title: "Firestone Online Idle RPG"
-  notes: "Install & enable EOS overlay, verify with Epic account"
+  notes: "Install & enable EOS overlay, verify with Epic account. Need to change to keyboard and mouse layout."
   protondb: "https://www.protondb.com/app/1013320"
   storefront: Epic
+  date_tested: "April '25"
 
 - title: "F.I.S.T.: Forged In Shadow Torch"
-  notes: ""
   protondb: "https://www.protondb.com/app/1330470"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Floppy Knights"
-  notes: ""
   protondb: "https://www.protondb.com/app/1057800"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Football Manager 2024"
   notes: "change controller mapping"
   protondb: "https://www.protondb.com/app/2252570"
   storefront: Epic
+  date_tested: "Sept '24"
 
 - title: "The Forest Quartet"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1620720"
   storefront: Epic
+  date_tested: "Dec '24"
 
 - title: "Freshly Frosted"
-  notes: ""
   protondb: "https://www.protondb.com/app/1070790"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Gamedec - Definitive Edition"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/917720"
   storefront: Epic
+  date_tested: "March '25"
 
 - title: "Garden Story"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1062140"
   storefront: Epic
+  date_tested: "March '25"
 
 - title: "Ghostbusters: Spirits Unleashed Ecto Edition"
-  notes: ""
+  notes: "Needs C++ runtime and you need to verify with your Epic account. Once that's all done there's not extra setup required."
   protondb: "https://www.protondb.com/app/2383990"
   storefront: Epic
+  date_tested: "Oct '24"
 
 - title: "Ghostrunner"
   notes: "Install C++ Runtime Dependency"
@@ -738,19 +861,22 @@
   storefront: Epic
 
 - title: "Ghostrunner 2"
-  notes: "Install C++ Runtime Dependency"
+  notes: "Install C++ Runtime Dependency once installed there's no extra setup required."
   protondb: "https://www.protondb.com/app/2144740"
   storefront: Epic
+  date_tested: "Dec '24"
 
 - title: "Ghostwire: Tokyo"
-  notes: ""
   protondb: "https://www.protondb.com/app/1475810"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Nov '24"
 
 - title: "Gigantic: Rampage Edition"
-  notes: ""
   protondb: "https://www.protondb.com/app/1924490"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 - title: "Gigapocalypse"
   notes: "You need to change controller to Keyboard & Mouse."
@@ -759,24 +885,28 @@
   date_tested: "May '25"
 
 - title: "Gloomhaven"
-  notes: "You need to link with your Epic account."
+  notes: "You need to link with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/780290"
   storefront: Epic
+  date_tested: "April '25"
 
 - title: "Gods Will Fall"
-  notes: ""
   protondb: "https://www.protondb.com/app/1243690"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Godlike Burger"
-  notes: ""
   protondb: "https://www.protondb.com/app/1432910"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "GRIME Definitive Edition"
-  notes: ""
   protondb: "https://www.protondb.com/app/1123050"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Guacamelee! Super Turbo Championship Edition"
   notes: ""
@@ -792,6 +922,7 @@
   notes: "Read this [tutorial](https://www.reddit.com/r/JunkStore/comments/1j5d1f8/running_gtav_enhanced_edition_on_steam_deck_from/)"
   protondb: "https://www.protondb.com/app/gta-v"
   storefront: Epic
+  date_tested: "March '25"
 
 - title: "GTA V: Enhanced"
   notes: "Read this [tutorial](https://www.reddit.com/r/JunkStore/comments/1j5d1f8/running_gtav_enhanced_edition_on_steam_deck_from/)"
@@ -799,19 +930,22 @@
   storefront: Epic
 
 - title: "Hades"
-  notes: ""
   protondb: "https://www.protondb.com/app/1145360"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Hardspace: Shipbreaker"
-  notes: "You need to verify this with your Epic account."
+  notes: "You need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/1161580"
   storefront: Epic
+  date_tested: "Feb '25"
 
 - title: "Hell Let Loose"
-  notes: "Enabled EOS overlay and EAC. Also updated the game. You also need to verify with your Epic account."
+  notes: "Enabled EOS overlay and EAC. Also updated the game. You also need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/686810"
   storefront: Epic
+  date_tested: "March '25"
 
 - title: "Hell is Other Demons"
   notes: ""
@@ -822,41 +956,49 @@
   notes: "Install C++ Runtime Dependency"
   protondb: "https://www.protondb.com/app/990080"
   storefront: Epic
+  date_tested: "June '24"
 
 - title: "Horizon Chase Turbo"
-  notes: ""
   protondb: "https://www.protondb.com/app/389140"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Horizon Zero Dawn"
   notes: "Install C++ Runtime Dependency"
   protondb: "https://www.protondb.com/app/2561580"
   storefront: Epic
+  date_tested: "Aug '24"
 
 - title: "Hot Wheels Unleashed"
-  notes: "Install C++ Runtime Dependency"
+  notes: "Install C++ Runtime Dependency, once installed there's no extra setup required."
   protondb: "https://www.protondb.com/app/1271700"
   storefront: Epic
+  date_tested: "Dec '24"
 
 - title: "House of Golf 2"
-  notes: "Needs C++ runtime & Epic verification (may need to run once in BPM)"
+  notes: "Needs C++ runtime & Epic verification (may need to run once in BPM) - no extra setup needed."
   protondb: "https://www.protondb.com/app/2914390"
   storefront: Epic
+  date_tested: "Nov '24"
 
 - title: "HUMANKIND Standard Edition"
-  notes: "Need to enable EOS overlay."
+  notes: "Need to enable EOS overlay. May want to change to keyboard & mouse controller layout."
   protondb: "https://www.protondb.com/app/1124300"
   storefront: Epic
+  date_tested: "Feb '25"
 
 - title: "Call of the Wild: The Hunter"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/518790"
   storefront: Epic
+  date_tested: "April '25"
 
 - title: "Idle Champions of the Forgotten Realms"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: "https://www.protondb.com/app/627690"
   storefront: Epic
+  date_tested: "April '25"
 
 - title: "Industria"
   notes: "Check out our notes [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Industria)"
@@ -864,14 +1006,16 @@
   storefront: Epic
 
 - title: "Invincible Presents: Atom Eve"
-  notes: ""
   protondb: "https://www.protondb.com/app/2060870"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Islets"
-  notes: ""
   protondb: "https://www.protondb.com/app/1669420"
   storefront: Epic
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Jennifer Wilde: Unlikely Revolutionaires"
   storefront: Epic
@@ -882,22 +1026,26 @@
 - title: "Journey"
   storefront: Epic
   protondb: "https://www.protondb.com/app/638230"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 - title: "Journey to the Savage Planet"
   storefront: Epic
   protondb: "https://www.protondb.com/app/973810"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 - title: "Jurassic World Evolution"
   storefront: Epic
   protondb: "https://www.protondb.com/app/648350"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Nov '24"
 
 - title: "Jurassic World Evolution 2"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1244460"
-  notes: "You do need to verify this with your Epic account."
+  notes: "You do need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "March '25"
 
 - title: "Just Die Already"
   storefront: Epic
@@ -907,12 +1055,15 @@
 - title: "Kardboard Kings"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1298480"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "KeyWe"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1242980"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
+
 
 - title: "Kid A Mnesia Exhibition"
   storefront: Epic
@@ -922,59 +1073,70 @@
 - title: "Killing Floor 2"
   storefront: Epic
   protondb: "https://www.protondb.com/app/232090"
-  notes: "multiplayer not supported due to anti-cheat"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. Multiplayer not supported due to anti-cheat."
+  date_tested: "Oct '24"
 
 - title: "Kill Knight"
   storefront: Epic
   protondb: "https://www.protondb.com/app/2694420"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Dec '24"
+
 
 - title: "Kingdom Come: Deliverance"
   storefront: Epic
   protondb: "https://www.protondb.com/app/379430"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Jan '25"
+
 
 - title: "The Last Show of Mr Cavendish"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1164060"
-  notes: ""
+  notes: "Install C++ runtime."
+  date_tested: "April '25"
 
 - title: "The Last Stand: Aftermath"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1266840"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "LEGO Star Wars: The Skywalker Saga"
   storefront: Epic
   protondb: "https://www.protondb.com/app/920210"
-  notes: "You need to verify this game with your Epic account in desktop/Big Picture Mode."
+  notes: "You need to verify this game with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Dec '24"
 
 - title: "Let's Build a Zoo"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1547890"
-  notes: "You need to verify with your Epic account."
+  notes: "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "March '25"
 
 - title: "Liberte"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1590160"
-  notes: "Works out of the box with native controller support."
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "May '25"
 
 - title: "Limbo"
   storefront: Epic
   protondb: "https://www.protondb.com/app/48000"
-  notes: "Works out of the box with native controller support."
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "May '25"
 
 - title: "Loop Hero"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1282730"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 - title: "The Lord of the Rings: Return to Moria"
   storefront: Epic
   protondb: "https://www.protondb.com/app/2933130"
-  notes: "Install C++ Runtime"
+  notes: "Install C++ Runtime, once installed no extra setup required."
+  date_tested: "Dec '24"
 
 - title: "LOVE"
   storefront: Epic
@@ -984,42 +1146,50 @@
 - title: "Lumbearjack"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1582290"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 - title: "Lysfanga: The Time Shift Warrior"
   storefront: Epic
   protondb: "https://www.protondb.com/app/2161620"
-  notes: "You need to verify this with your Epic account."
+  notes: "You need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Feb '25"
 
 - title: "Mages of Mystralia"
   storefront: Epic
   protondb: "https://www.protondb.com/app/529660"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. There is no sound for the opening cinematic scene, but this seems to be an old issue."
+  date_tested: "March '25"
 
 - title: "Maid of Sker"
   storefront: Epic
   protondb: "https://www.protondb.com/app/826940"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Maneater"
   storefront: Epic
   protondb: "https://www.protondb.com/app/629820"
-  notes: "cannot currently disable EGS cloud saves"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. Cannot currently disable EGS cloud saves"
+  date_tested: "July '24"
 
 - title: "Marvel's Guardians of the Galaxy"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1088850"
   notes: "You need to use touch screen on the Start screen to get into the game or change controller settings to mouse and keyboard to naviagte menus"
+  date_tested: "Nov '24"
 
 - title: "Marvel's Midnight Suns"
   storefront: Epic
   protondb: "https://www.protondb.com/app/368260"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "June '24"
 
 - title: "Marvel Rivals"
   storefront: Epic
   protondb: "https://www.protondb.com/app/2767030"
   notes: "Install C++ runtime from sliders menu - ./dependency/VC_resist.x64.exe & set ./MarvelRivals_Launcher.exe from then sliders menue."
+  date_tested: "March '25"
 
 - title: "The Messenger"
   storefront: Epic
@@ -1034,12 +1204,14 @@
 - title: "Metro Last Light Redux"
   storefront: Epic
   protondb: "https://www.protondb.com/app/287390"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Disney Epic Mickey: Rebrushed"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1522160"
-  notes: "Install C++ runtime"
+  notes: "Install C++ runtime otherwise no extra setup required."
+  date_tested: "Sept '24"
 
 - title: "Minit"
   storefront: Epic
@@ -1054,32 +1226,41 @@
 - title: "Morbid: The Seven Acolytes"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1140890"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Mortal Shell"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1110910"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "March '25"
+
 
 - title: "Moving Out"
   storefront: Epic
   protondb: "https://www.protondb.com/app/996770"
-  notes: "Click link to be redirected to game page in Epic"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Necromunda: Hired Gun"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1222370"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Dec '24"
+
 
 - title: "Neko Ghost, Jump!"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1194750"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "March '25"
+
 
 - title: "No Straight Roads"
   storefront: Epic
   protondb: ""
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Ogu and the Secret Forest"
   storefront: Epic
@@ -1090,7 +1271,8 @@
 - title: "Orcs Must Die! 3"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1522820"
-  notes: ""
+  notes: "Needs C++ runtime but it ships with it, once installed there's no extra setup required."
+  date_tested: "Dec '24"
 
 - title: "The Outer Worlds: Spacer's Choice Edition"
   storefront: Epic
@@ -1100,22 +1282,26 @@
 - title: "Outliver: Tribulation"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1236930"
-  notes: "Install C++ runtime, need to verify game in BPM for Epic"
+  notes: "Install C++ runtime, need to verify game in BPM for Epic. No other setup required."
+  date_tested: "Oct '24"
 
 - title: "Overcooked"
   storefront: Epic
   protondb: "https://www.protondb.com/app/448510"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Overcooked! 2"
   storefront: Epic
   protondb: "https://www.protondb.com/app/728880"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "PC Building Simulator"
   storefront: Epic
   protondb: "https://www.protondb.com/app/621060"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "June '24"
 
 - title: "Pillars of Eternety - Definitive Edition"
   storefront: Epic
@@ -1125,7 +1311,9 @@
 - title: "Predator Hunting Grounds"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1556200"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Dec '24"
+
 
 - title: "Prey"
   storefront: Epic
@@ -1135,7 +1323,8 @@
 - title: "Priest Simulator: Vampire Show"
   storefront: Epic
   protondb: "https://www.protondb.com/app/950620"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Prison Architect"
   storefront: Epic
@@ -1146,6 +1335,7 @@
   storefront: Epic
   protondb: "https://www.protondb.com/app/1186640"
   notes: "Add -dx11 to the target line after the executable."
+  date_tested: "Oct '24"
 
 - title: "Q.U.B.E. 10th Anniversary"
   storefront: Epic
@@ -1155,7 +1345,8 @@
 - title: "RAWMEN: Food Fighter Arena"
   storefront: Epic
   protondb: "https://www.protondb.com/app/782940"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Aug '24"
 
 # - title: "Read Dead Redemption 2"
 #   storefront: Epic
@@ -1165,17 +1356,20 @@
 - title: "[REDACTED]"
   storefront: Epic
   protondb: "https://www.protondb.com/app/2229940"
-  notes: "Install C++ Runtime"
+  notes: "Need to install C++ Runtime & verify it with your Epic account."
+  date_tested: "Dec '24"
 
 - title: "Redemption Reapers"
   storefront: Epic
   protondb: "https://www.protondb.com/app/2139300"
-  notes: "Need to use GE-Proton 9.7 for cutscenes to play correctly."
+  notes: "Need to use GE-Proton 9.7 for cutscenes to play correctly. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "March '25"
 
 - title: "Redout: Enhanced Edition"
   storefront: Epic
   protondb: "https://www.protondb.com/app/517710"
-  notes: "Install C++ Runtime Install"
+  notes: "Install C++ Runtime Install, no extra setup required."
+  date_tested: "Nov '24"
 
 - title: "Redout 2"
   storefront: Epic
@@ -1186,11 +1380,13 @@
   storefront: Epic
   protondb: "https://www.protondb.com/app/2077750"
   notes: "Install C++ Runtime Install"
+  date_tested: "July '24"
 
 - title: "Republic of Jungle"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1413250"
-  notes: "You need to verify with your Epic account"
+  notes: "You need to verify with your Epic account after that <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "March '25"
 
 - title: "RiME"
   storefront: Epic
@@ -1200,22 +1396,27 @@
 - title: "Ring of Pain"
   storefront: Epic
   protondb: "https://www.protondb.com/app/998740"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Rise of the Tomb Raider : 20 Year Celebration"
   storefront: Epic
   protondb: "https://www.protondb.com/app/391220"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "River City Girls"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1049320"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "April '25"
+
 
 - title: "Rocket League"
   storefront: Epic
   protondb: "https://www.protondb.com/app/252950"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
 
 - title: "Rogue Legacy"
   storefront: Epic
@@ -1225,7 +1426,8 @@
 - title: "Rogue Legacy 2"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1253920"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Roller Champions"
   storefront: Epic
@@ -1235,7 +1437,8 @@
 - title: "Rugrats: Adventures in Gameland"
   storefront: Epic
   protondb: "https://www.protondb.com/app/2633950"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Sable"
   storefront: Epic
@@ -1251,43 +1454,52 @@
 - title: "Salt and Sanctuary"
   storefront: Epic
   protondb: "https://www.protondb.com/app/283640"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Scarf"
   storefront: Epic
   protondb: "https://www.protondb.com/app/645320"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Session: Skate Sim"
   storefront: Epic
   protondb: "https://www.protondb.com/app/861650"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "March '25"
+
 
 - title: "Shadow of the Tomb Raider: Definitive Edition"
   storefront: Epic
   protondb: "https://www.protondb.com/app/750920"
-  notes: ""
+  notes: "Set the graphics to medium, enable Exclusive full screen, turn on AMD FidelityFX, HDR and set refresh rate to 45."
+  date_tested: "Sept '24"
 
 - title: "shapez"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1318690"
-  notes: ""
+  notes: "Need to change controller mapping to keyboard & mouse."
+  date_tested: "Nov '24"
 
 - title: "Sifu"
   storefront: Epic
   protondb: "https://www.protondb.com/app/2138710"
-  notes: "Works out of the box with native controller support."
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "May '25"
 
 - title: "The Silent Age"
   storefront: Epic
   protondb: "https://www.protondb.com/app/352520"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "April '25"
+
 
 - title: "Skul: The Hero Slayer"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1147560"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "June '24"
 
 - title: "Skull & Bones"
   storefront: Epic
@@ -1297,27 +1509,33 @@
 - title: "SkyDrift Infinity"
   storefront: Epic
   protondb: "https://www.protondb.com/app/827330"
-  notes: "You need to verify this game with your Epic account."
+  notes: "You need to verify this game with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Jan '25"
 
 - title: "Slain Back From Hell"
   storefront: Epic
   protondb: "https://www.protondb.com/app/369070"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "March '25"
 
-- title: "Snakebird"
+
+- title: "Snakebird Complete"
   storefront: Epic
   protondb: "https://www.protondb.com/app/357300"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Nov '24"
 
 - title: "Sniper Ghost Warrior Contracts"
   storefront: Epic
   protondb: "https://www.protondb.com/app/973580"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Solar Ash"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1867530"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Solitarica"
   storefront: Epic
@@ -1332,27 +1550,33 @@
 - title: "Soulstice"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1602080"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Super Space Club"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1100290"
-  notes: "Verify with Epic account."
+  notes: "Verify with Epic account after that works out of the box with native controller support."
+  date_tested: "May '25"
 
 - title: "The Spirit & the Mouse"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1679210"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Spirit of the North"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1213700"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Oct '24"
 
 - title: "Star Stuff"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1955110"
-  notes: "Need to verify with your Epic account."
+  notes: "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Jan '25"
+
 
 - title: "STASIS: Bone Totem"
   storefront: Epic
@@ -1362,52 +1586,64 @@
 - title: "Stubbs the Zombie in Rebel Without a Pulse"
   storefront: Epic
   protondb: "https://www.protondb.com/app/7800"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "March '25"
 
 - title: "Stumble Upon Rumble"
   storefront: Epic
   protondb: ""
-  notes: "Need account for this game."
+  notes: "Need account for this game. Need to change the controller mapping to keyboard and mouse."
+  date_tested: "March '25"
 
 - title: "Suicide Squad: Kill the Justice League"
   storefront: Epic
   protondb: "https://www.protondb.com/app/315210"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "March '25"
 
 - title: "Sunless Skies: Sovereign Edition"
   storefront: Epic
   protondb: "https://www.protondb.com/app/596970"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Super Crazy Rhythm Castle"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1812560"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Super Meat Boy"
   storefront: Epic
   protondb: "https://www.protondb.com/app/40800"
-  notes: "Does have an audio issue that you need to install xact and d3dx9.27 via Protontricks to fix."
+  notes: "Does have an audio issue that you need to install <em>xact and d3dx9.27</em> to fix."
+  date_tested: "Nov '24"
 
 - title: "Super Meat Boy Forever"
   storefront: Epic
   protondb: "https://www.protondb.com/app/581660"
-  notes: ""
+  notes: "Does have an audio issue that you need to install <em>xact and d3dx9.27</em> to fix."
+  date_tested: "Feb '25"
+
 
 - title: "Surviving the Aftermath"
   storefront: Epic
   protondb: "https://www.protondb.com/app/684450"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. You do need to create an account with Paradox."
+  date_tested: "March '25"
+
 
 - title: "Tales from the Borderlands"
   storefront: Epic
   protondb: "https://www.protondb.com/app/330830"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Tandem A Tale of Shadows"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1436920"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Dec '24"
 
 - title: "Tannenberg"
   storefront: Epic
@@ -1418,6 +1654,7 @@
   storefront: Epic
   protondb: "https://www.protondb.com/app/1496590"
   notes: "Install C++ Runtime"
+  date_tested: "Sept '24"
 
 - title: "Terraforming Mars"
   storefront: Epic
@@ -1428,6 +1665,7 @@
   storefront: Epic
   protondb: "https://www.protondb.com/app/285920"
   notes: "Need to verify with your Epic account (I had to do this in desktop/BPM) & change controller mapping"
+  date_tested: "Dec '24"
 
 - title: "Tharsis"
   storefront: Epic
@@ -1437,23 +1675,27 @@
 - title: "Them's Fightin' Herds"
   storefront: Epic
   protondb: "https://www.protondb.com/app/574980"
-  notes: ""
+  notes: "You need to install DirectX components. Has native controller support."
+  date_tested: "March '25"
 
 - title: "Tiny Tina's Wonderland"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1286680"
-  notes: "Works out of the box with native controller support."
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "May '25"
 
 - title: "TMNT: Shredder's Revenge"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1361510"
-  notes: "Install C++ Runtime"
+  notes: "May need to install C++ Runtime"
+  date_tested: "July '24"
 
 - title: "To the Rescue: A Dog Shelter Simulator"
   storefront: Epic
   protondb: "https://www.protondb.com/app/946720"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Jan '25"
+
 
 - title: "ToeJam & Earl: Back in the Groove!"
   storefront: Epic
@@ -1463,7 +1705,8 @@
 - title: "TOEM: A Photo Adventure"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1307580"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Tom Clancy's Ghost Recon Breakpoint"
   storefront: Epic
@@ -1478,7 +1721,8 @@
 - title: "Tony Hawk's Pro Skater 1+2"
   storefront: Epic
   protondb: "https://www.protondb.com/app/2395210"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "Trackmania Starter Access"
   storefront: Epic
@@ -1489,41 +1733,49 @@
   storefront: Epic
   protondb: "https://www.protondb.com/app/2967990"
   notes: "Install C++ Runtime"
+  date_tested: "Sept '24"
 
 - title: "Train Valley 2"
   storefront: Epic
   protondb: "https://www.protondb.com/app/602320"
-  notes: ""
+  notes: "Need to change the controller layout"
+  date_tested: "April '25"
 
 - title: "Trek to Yomi"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1370050"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. Tested with GE-Proton 9.2. Text is a little hard to read."
+  date_tested: "Aug '24"
 
 - title: "Tunche"
   storefront: Epic
   protondb: "https://www.protondb.com/app/887450"
-  notes: "Make sure you enable the EOS overlay."
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. Make sure you enable the EOS overlay."
+  date_tested: "Nov '24"
 
 - title: "Turmoil"
   storefront: Epic
   protondb: "https://www.protondb.com/app/361280"
   notes: "Need to verify with Epic account and change controller mapping to mouse and keyboard."
+  date_tested: "Jan '25"
 
 - title: "Turnip Boy Commits Tax Evasion"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1205450"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Nov '24"
 
 - title: "Unrailed"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1016920"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Nov '24"
 
 - title: "Vampire Survivors"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1794680"
-  notes: "Need to verify with your Epic account"
+  notes: "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Dec '24"
 
 - title: "Vampyr"
   storefront: Epic
@@ -1533,62 +1785,76 @@
 - title: "The Vanishing of Ethen Carter"
   storefront: Epic
   protondb: "https://www.protondb.com/app/258520"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "April '25"
+
 
 - title: "The Walking Dead No Man's Land"
   storefront: Epic
   protondb: "https://www.protondb.com/app/2936310"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Warhammer 40,000: Gladius - Relics of War"
   storefront: Epic
   protondb: "https://www.protondb.com/app/489630"
-  notes: ""
+  notes: "Need to change to keybouard and mouse layout."
+  date_tested: "April '25"
 
 - title: "Warhammer 40,000: Mechanicus - Standard Edition"
   storefront: Epic
   protondb: "https://www.protondb.com/app/673880"
-  notes: ""
+  notes: "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "April '25"
 
 - title: "Warpips"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1291010"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Nov '24"
 
 - title: "Weird West"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1097350"
-  notes: "Install C++ Runtime"
+  notes: "Install C++ Runtime, otherwise no extra setup required."
+  date_tested: "July '24"
 
 - title: "What Remains of Edith Finch"
   storefront: Epic
   protondb: "https://www.protondb.com/app/501300"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
 
 - title: "while True: learn()"
   storefront: Epic
   protondb: "https://www.protondb.com/app/619150"
-  notes: ""
+  notes: "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Nov '24"
 
 - title: "Wildcat Gun Machine"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1288610"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Witch It"
   storefront: Epic
   protondb: "https://www.protondb.com/app/559650"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Nov '24"
 
-- title: "Wizards of Legend"
+- title: "Wizard of Legend"
   storefront: Epic
-  protondb: ""
-  notes: "https://www.protondb.com/app/445980"
+  protondb: "https://www.protondb.com/app/445980"
+  notes: "You may need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Dec '24"
+
 
 - title: "The Wolf Among Us"
   storefront: Epic
   protondb: "https://www.protondb.com/app/250320"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '24"
 
 - title: "Wolfenstein: The New Order"
   storefront: Epic
@@ -1598,22 +1864,26 @@
 - title: "Wonder Boy The Dragons Trap"
   storefront: Epic
   protondb: "https://www.protondb.com/app/543260"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Nov '24"
 
 - title: "World of Warships"
   storefront: Epic
   protondb: "https://www.protondb.com/app/552990"
   notes: "Change controller mapping"
+  date_tested: "Aug '24"
 
 - title: "World War Z"
   storefront: Epic
   protondb: "https://www.protondb.com/app/699130"
   notes: "Need to use Keyboard & Mouse layout."
+  date_tested: "March '25"
 
 - title: "Yooka-Laylee and the Impossible Lair"
   storefront: Epic
   protondb: "https://www.protondb.com/app/846870"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "Zenless Zone Zero"
   storefront: Epic
@@ -1623,22 +1893,27 @@
 - title: "Zombie Army 4: Dead War"
   storefront: Epic
   protondb: "https://www.protondb.com/app/694280"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Jan '25"
+
 
 - title: "Chronoshot"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1326700"
   notes: "Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Chronoshot)"
+  date_tested: "Aug '24"
 
 - title: "Illuvium"
   storefront: Epic
   protondb: ""
   notes: "Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Illuvium)"
+  date_tested: "Aug '24"
 
 - title: "TRIB3"
   storefront: Epic
   protondb: ""
   notes: "Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/TRIB3)"
+  date_tested: "Aug '24"
 
 - title: "Jupiter Hell"
   storefront: Epic
@@ -1661,29 +1936,32 @@
 - title: "Happy Game"
   storefront: "Epic"
   protondb: "https://www.protondb.com/app/1206060"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '25"
 
 - title: "The Operator"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1771980"
-  notes: ""
-  date_tested: "Works out of the box"
+  notes: "Works out of the box"
   date_tested: "July '25"
 
 - title: "Touch Type Tale"
   storefront: Epic
   protondb: "https://www.protondb.com/app/909470"
   notes: "Works out of the box but you need to change controller layout to Keyboard & Mouse. While it works on the Steam Deck you'll be better off playing with an external keyboard, was a pain testing using the on screen keyboard."
+  date_tested: "May '25"
 
 - title: "Deadtime Defenders"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1148700"
   notes: "Works out of the box with native controller support. Make sure you enable the EOS overlay and map shift+f3 if you want to use this feature."
+  date_tested: "May '25"
 
 - title: "Troublemaker"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1498740"
-  notes: ""
+  notes: "Works out of the box with native controller support."
+  date_tested: "April '25"
 
 - title: "Albion"
   storefront: Epic
@@ -1703,22 +1981,26 @@
 - title: "Undying"
   storefront: Epic
   protondb: "https://www.protondb.com/app/638990"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Feb '25"
+
 
 - title: "For the King"
   storefront: Epic
   protondb: "https://www.protondb.com/app/527230"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
 
 - title: "The Hitman 3: World of Assassination"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1659040"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. ReShade & LukeFZ's FSR frame generation mod work too."
+  date_tested: "July '24"
 
-- title: "Genshin Impact"
-  storefront: Epic
-  protondb: ""
-  notes: ""
+# - title: "Genshin Impact"
+#   storefront: Epic
+#   protondb: ""
+#   notes: ""
 
 - title: "Two Point Hospital"
   storefront: Epic
@@ -1726,8 +2008,44 @@
   notes: "You need to change your controller layout and may need to verify with your Epic account."
   date_tested: "July '25"
 
-- title: ""
-  storefront: "Epic"
-  protondb: ""
-  notes: ""
+- title: "Backpack Hero"
+  storefront: Epic
+  protondb: "https://www.protondb.com/app/1970580"
+  notes: "Works out of the box after you verify with Epic account."
   date_tested: "July '25"
+
+- title: "Figment"
+  storefront: Epic
+  protondb: "https://www.protondb.com/app/493540"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
+
+- title: "Sands of Aura"
+  storefront: Epic
+  protondb: ""
+  notes: "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Feb '25"
+
+- title: "Ender Lilies: Quietus of the Knights"
+  storefront: Epic
+  protondb: "https://www.protondb.com/app/1369630"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Feb '25"
+
+- title: "Void Bastards"
+  storefront: Epic
+  protondb: "https://www.protondb.com/app/857980"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
+
+- title: "Totally Reliable Delivery Service"
+  storefront: Epic
+  protondb: "https://www.protondb.com/app/1011670"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "Sept '24"
+
+- title: "Tetris Effect"
+  storefront: Epic
+  protondb: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "May '24"
