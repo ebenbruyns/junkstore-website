@@ -57,16 +57,17 @@ header:
       {% if prefix == "The " %}
         {% assign sort_title = sort_title | remove_first: "The " %}
       {% endif %}
-      {% assign sort_entry = sort_title | append: "|||" | append: game.title %}
+      {% assign sort_entry = sort_title | append: "|||" | append: game.title | append: "|||" | append: game.storefront %}
       {% assign games_with_keys = games_with_keys | push: sort_entry %}
     {% endfor %}
 
     {% assign sorted_entries = games_with_keys | sort_natural %}
 
     {% for entry in sorted_entries %}
-      {% assign parts = entry | split: "|||" %}
-      {% assign title = parts[1] %}
-      {% assign game = all_games | where: "title", title | first %}
+          {% assign parts = entry | split: "|||" %}
+          {% assign title = parts[1] %}
+          {% assign storefront = parts[2] %}
+          {% assign game = all_games | where: "title", title | where: "storefront", storefront | first %}
       <tr data-storefront="{{ game.storefront }}">
         <td>
           <a href="#" class="game-link" data-title="{{ game.title }}" data-details="{{ game.details | escape }}">{{ game.title }}</a>
@@ -84,7 +85,6 @@ header:
     {% endfor %}
   </tbody>
 </table>
-
 
 <button id="backToTop" title="Back to top" aria-label="Back to top">
   <span style="display:block; font-size:1.5rem;">↑</span>
