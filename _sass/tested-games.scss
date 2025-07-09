@@ -165,9 +165,9 @@
 #gamesTable th:nth-child(3),
 #gamesTable td:nth-child(3) { width: 15%; white-space: nowrap; } /* ProtonDB */
 #gamesTable th:nth-child(4),
-#gamesTable td:nth-child(4) { width: 42%; } /* Notes */
+#gamesTable td:nth-child(4) { width: 40%; } /* Notes */
 #gamesTable th:nth-child(5),
-#gamesTable td:nth-child(5) { width: 10%; white-space: nowrap; } /* Date Tested */
+#gamesTable td:nth-child(5) { width: 12%; white-space: nowrap; } /* Date Tested */
 
 
 @media (max-width: 768px) {
