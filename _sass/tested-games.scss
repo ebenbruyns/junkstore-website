@@ -159,15 +159,16 @@
 
 /* Column widths for fixed layout */
 #gamesTable th:nth-child(1),
-#gamesTable td:nth-child(1) { width: 25%; } /* Game */
+#gamesTable td:nth-child(1) { width: 20%; } /* Game */
 #gamesTable th:nth-child(2),
-#gamesTable td:nth-child(2) { width: 10%; white-space: nowrap; } /* Store */
+#gamesTable td:nth-child(2) { width: 13%; white-space: nowrap; } /* Store */
 #gamesTable th:nth-child(3),
-#gamesTable td:nth-child(3) { width: 10%; white-space: nowrap; } /* ProtonDB */
+#gamesTable td:nth-child(3) { width: 15%; white-space: nowrap; } /* ProtonDB */
 #gamesTable th:nth-child(4),
-#gamesTable td:nth-child(4) { width: 40%; } /* Notes */
+#gamesTable td:nth-child(4) { width: 42%; } /* Notes */
 #gamesTable th:nth-child(5),
-#gamesTable td:nth-child(5) { width: 15%; white-space: nowrap; } /* Date Tested */
+#gamesTable td:nth-child(5) { width: 10%; white-space: nowrap; } /* Date Tested */
+
 
 @media (max-width: 768px) {
   #gamesTable th,
@@ -177,69 +178,97 @@
   }
 }
 
-// /* Modal background overlay (hidden by default) */
-// #gameModal {
-//   display: none;
-//   position: fixed;
-//   z-index: 2000;
-//   left: 0;
-//   top: 0;
-//   width: 100%;
-//   height: 100%;
-//   overflow-y: auto;
-//   background-color: rgba(0, 0, 0, 0.7);
-//   justify-content: center;
-//   align-items: center;
-//   padding: 2rem;
-// }
+.feature-box {
+  background-color: #253445;
+  padding: 1rem 1.5rem;
+  border: 2px solid #007acc;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
 
-// /* When active, apply flex to center content */
-// #gameModal.show {
-//   display: flex;
-// }
+.feature-box h3 {
+  margin-top: 0;
+  color: #cceeff;
+}
 
-// /* Modal content box */
-// .modal-content {
-//   position: relative;
-//   background-color: #1e2a38;
-//   padding: 2rem;
-//   border-radius: 10px;
-//   max-width: 600px;
-//   width: 100%;
-//   color: #ddd;
-//   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-//   animation: fadeInScale 0.3s ease;
-// }
+.featured-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-// /* Animation */
-// @keyframes fadeInScale {
-//   from {
-//     opacity: 0;
-//     transform: scale(0.95);
-//   }
-//   to {
-//     opacity: 1;
-//     transform: scale(1);
-//   }
-// }
+.featured-list li {
+  margin: 0.5rem 0;
+}
 
-// /* Close button inside modal */
-// #closeModal {
-//   position: absolute;
-//   top: 1rem;
-//   right: 1rem;
-//   background: transparent;
-//   border: none;
-//   color: #fff;
-//   font-size: 1.5rem;
-//   cursor: pointer;
-// }
+.featured-list a {
+  color: #66bfff;
+  font-weight: 600;
+  text-decoration: none;
+}
 
-// #gameModal {
-//   display: none;
-//   /* other styles... */
-// }
+.featured-list a:hover {
+  text-decoration: underline;
+}
 
-// #gameModal.show {
-//   display: flex;
-// }
+.store-badge {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 6px;
+  background-color: #555;
+  color: #fff;
+}
+
+.store-badge.epic {
+  background-color: #444;
+}
+
+.store-badge.gog {
+  background-color: #863399;
+}
+
+.store-badge.amazon {
+  background-color: #00a14f;
+}
+
+.table-scroll-container {
+  max-height: 500px; /* Adjust height as needed */
+  overflow-y: auto;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background-color: #1e2a38; /* Match your table bg */
+}
+
+/* Sticky header */
+#gamesTable thead th {
+  position: sticky;
+  top: 0;
+  background-color: #253445; /* Your header bg */
+  z-index: 10;
+}
+
+/* To avoid header shadow overlap on scroll */
+.table-scroll-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.table-scroll-container::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.table-scroll-container::-webkit-scrollbar-track {
+  background-color: #1e2a38;
+}
+
+#gamesTable thead {
+  display: table-header-group;
+}
+
+#gamesTable {
+  display: table !important; // Override Minimal Mistakes' display: block
+}
+
+
