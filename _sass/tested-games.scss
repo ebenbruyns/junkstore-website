@@ -1,6 +1,7 @@
 /* Table container style */
 #gamesTable {
   width: 100%;
+  min-width: 600px; // ✅ Ensures scroll on small screens if needed
   border-collapse: collapse;
   margin-top: 1rem;
   background-color: #1e2a38;
@@ -174,9 +175,16 @@
   #gamesTable th,
   #gamesTable td {
     width: auto;
-    white-space: normal;
+    white-space: normal;         // Allow text to wrap
+    word-break: break-word;      // Break up long words
+    overflow-wrap: break-word;   // Better support across browsers
+  }
+
+  #gamesTable td:nth-child(1) {
+    white-space: normal;         // Specifically for the Game column
   }
 }
+
 
 .feature-box {
   background-color: #253445;
@@ -234,11 +242,12 @@
 }
 
 .table-scroll-container {
-  max-height: 500px; /* Adjust height as needed */
-  overflow-y: auto;
+  max-height: 500px;
+  overflow-x: auto;      // allow horizontal scroll
+  overflow-y: auto;      // keep vertical scroll too
   border-radius: 8px;
   border: 1px solid #ddd;
-  background-color: #1e2a38; /* Match your table bg */
+  background-color: #1e2a38;
 }
 
 /* Sticky header */
