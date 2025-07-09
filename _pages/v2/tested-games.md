@@ -10,6 +10,26 @@ header:
 
 <div class="spacer mt-4"></div>
 
+{% assign featured_games = site.data.featured_games %}
+
+<div class="feature-box">
+  <h3>🆕 Recently Tested</h3>
+  <ul class="featured-list">
+    {% for game in featured_games %}
+      <li>
+        <a href="#{{ game.title | slugify }}-{{ game.storefront | slugify }}">{{ game.title }}</a>
+        <span class="store-badge {{ game.storefront | downcase }}">{{ game.storefront }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
+  <strong>Note:</strong> Games tested by the Junk Store team use <strong>GE-Proton 9-20</strong>, as it consistently provides the best out-of-the-box compatibility.<br>
+  To use the <strong>EOS overlay</strong> with Epic Games, you’ll need <strong>GE-Proton 10.2 or newer</strong>.<br>
+  Games that require a specific Proton version will have it listed in the <strong>Notes</strong> column.
+</p>
+
 <div class="table-controls">
   <div class="filter-group">
     <label for="storefrontFilter">Filter by Storefront:</label>
@@ -37,54 +57,57 @@ header:
   </div>
 </div> -->
 
-<table id="gamesTable" class="table table--small table--bordered">
-  <thead>
-    <tr>
-      <th>Game</th>
-      <th>Store</th>
-      <th>ProtonDB</th>
-      <th>Notes</th>
-      <th>Date Tested</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% assign all_games = site.data.epic_games | concat: site.data.gog_games | concat: site.data.amazon_games %}
-    {% assign games_with_keys = "" | split: "" %}
-
-    {% for game in all_games %}
-      {% assign sort_title = game.title %}
-      {% assign prefix = sort_title | slice: 0, 4 %}
-      {% if prefix == "The " %}
-        {% assign sort_title = sort_title | remove_first: "The " %}
-      {% endif %}
-      {% assign sort_entry = sort_title | append: "|||" | append: game.title | append: "|||" | append: game.storefront %}
-      {% assign games_with_keys = games_with_keys | push: sort_entry %}
-    {% endfor %}
-
-    {% assign sorted_entries = games_with_keys | sort_natural %}
-
-    {% for entry in sorted_entries %}
-          {% assign parts = entry | split: "|||" %}
-          {% assign title = parts[1] %}
-          {% assign storefront = parts[2] %}
-          {% assign game = all_games | where: "title", title | where: "storefront", storefront | first %}
-      <tr data-storefront="{{ game.storefront }}">
-        <td>
-          <a href="#" class="game-link" data-title="{{ game.title }}" data-details="{{ game.details | escape }}">{{ game.title }}</a>
-        </td>
-        <td class="store {{ game.storefront | downcase }}">{{ game.storefront }}</td>
-        {% if game.protondb and game.protondb != "" %}
-          <td><a href="{{ game.protondb }}" target="_blank" rel="noopener noreferrer">Link</a></td>
-        {% else %}
-          <td></td>
-        {% endif %}
-        <td>{{ game.notes | default: "&nbsp;" }}</td>
-        <td>{{ game.date_tested | default: "&nbsp;" }}</td>
-
+<div class="table-scroll-container">
+  <table id="gamesTable" class="table table--small table--bordered">
+    <thead>
+      <tr>
+        <th>Game</th>
+        <th>Store</th>
+        <th>ProtonDB</th>
+        <th>Notes</th>
+        <th>Date<br>Tested</th>
       </tr>
-    {% endfor %}
-  </tbody>
-</table>
+    </thead>
+    <tbody>
+      {% assign all_games = site.data.epic_games | concat: site.data.gog_games | concat: site.data.amazon_games %}
+      {% assign games_with_keys = "" | split: "" %}
+
+      {% for game in all_games %}
+        {% assign sort_title = game.title %}
+        {% assign prefix = sort_title | slice: 0, 4 %}
+        {% if prefix == "The " %}
+          {% assign sort_title = sort_title | remove_first: "The " %}
+        {% endif %}
+        {% assign sort_entry = sort_title | append: "|||" | append: game.title | append: "|||" | append: game.storefront %}
+        {% assign games_with_keys = games_with_keys | push: sort_entry %}
+      {% endfor %}
+
+      {% assign sorted_entries = games_with_keys | sort_natural %}
+
+      {% for entry in sorted_entries %}
+        {% assign parts = entry | split: "|||" %}
+        {% assign title = parts[1] %}
+        {% assign storefront = parts[2] %}
+        {% assign game = all_games | where: "title", title | where: "storefront", storefront | first %}
+        <tr id="{{ game.title | slugify }}-{{ game.storefront | slugify }}" data-storefront="{{ game.storefront }}">
+          <td>
+            <span href="#" class="game-link" data-title="{{ game.title }}" data-details="{{ game.details | escape }}">{{ game.title }}</span>
+          </td>
+          <td style="text-align: center;">
+            <span class="store-badge {{ game.storefront | downcase }}">{{ game.storefront }}</span>
+          </td>
+          {% if game.protondb and game.protondb != "" %}
+            <td><a href="{{ game.protondb }}" target="_blank" rel="noopener noreferrer">Link</a></td>
+          {% else %}
+            <td></td>
+          {% endif %}
+          <td>{{ game.notes | default: "&nbsp;" }}</td>
+          <td>{{ game.date_tested | default: "&nbsp;" }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
 
 <button id="backToTop" title="Back to top" aria-label="Back to top">
   <span style="display:block; font-size:1.5rem;">↑</span>
@@ -114,21 +137,22 @@ header:
   storefrontFilter.addEventListener('change', filterTable);
   searchInput.addEventListener('input', filterTable);
 
-  // Back to top button logic
-  const backToTopBtn = document.getElementById("backToTop");
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-      backToTopBtn.style.display = "block";
-    } else {
-      backToTopBtn.style.display = "none";
-    }
-  });
-  backToTopBtn.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
-</script>
+//   // Back to top button logic
+//   const backToTopBtn = document.getElementById("backToTop");
+//   window.addEventListener("scroll", () => {
+//     if (window.scrollY > 300) {
+//       backToTopBtn.style.display = "block";
+//     } else {
+//       backToTopBtn.style.display = "none";
+//     }
+//   });
+//   backToTopBtn.addEventListener("click", () => {
+//     window.scrollTo({ top: 0, behavior: "smooth" });
+//   });
+// </script>
 
-<!-- <script>
+<!--
+<script>
   const modal = document.getElementById("gameModal");
   const modalTitle = document.getElementById("modalTitle");
   const modalDetails = document.getElementById("modalDetails");
@@ -152,4 +176,5 @@ header:
       modal.classList.remove("show");
     }
   });
-</script> -->
+</script>
+-->
