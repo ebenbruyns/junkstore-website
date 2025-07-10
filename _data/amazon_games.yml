@@ -80,19 +80,19 @@
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: ""
   storefront: Amazon
-  date_tested: ""
+  date_tested: "July '25"
 
 - title: "Baldur's Gate 2 Enhanced"
-  notes: "Must run ./dependencies/oalinst.exeto install OpenAL32.dll  first"
+  notes: "Must run ./dependencies/oalinst.exeto install OpenAL32.dll  first. ay need to set <em>./Baldur.exe</em>"
   protondb: ""
   storefront: Amazon
-  date_tested: ""
+  date_tested: "July '25"
 
 - title: "Baldur's Gate Enhanced"
-  notes: "Must run ./dependencies/oalinst.exeto install OpenAL32.dll  first"
+  notes: "Must run ./dependencies/oalinst.exeto install OpenAL32.dll  first. May need to set <em>./Baldur.exe</em>"
   protondb: ""
   storefront: Amazon
-  date_tested: ""
+  date_tested: "July '25"
 
 - title: "Projection First Light"
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
@@ -104,16 +104,28 @@
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: ""
   storefront: Amazon
-  date_tested: ""
+  date_tested: "July '25"
+
+- title: "Beholder 3"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  protondb: ""
+  storefront: Amazon
+  date_tested: "July '25"
+  
+- title: "The Abaondoned Planet"
+  protondb: ""
+  storefront: Amazon
+  notes: "Point and click game so will need to change the controller settings."
+  date_tested: "July '25"
 
 # - title: ""
-#   notes: ""
 #   protondb: ""
 #   storefront: Amazon
+#   notes: ""
 #   date_tested: ""
-  
+
 # - title: ""
-#   notes: ""
 #   protondb: ""
 #   storefront: Amazon
+#   notes: ""
 #   date_tested: ""
