@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Frequently Asked Questions"
-permalink: /v2faq/
+permalink: /2.0-faq/
 classes: wide
 header:
   overlay_color: "#000"
@@ -265,6 +265,22 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
       <li>Adjust the FPS, TDP, refresh rate, or any other performance settings from there.</li>
     </ul>
 </details>
+
+<details class="faq-box">
+  <summary>Can I move games from the new version back to the Decky (free) version?</summary>
+  <p></p>
+    No — games installed using the new version of Junk Store can't be "backported" to the older Decky version. They use different install paths and configuration systems.
+    <br>
+  <br>
+    If you want to continue using the free Decky version, you’ll need to:
+    <ul>
+      <li>Back up your save files for any games you plan to keep playing, as they may be wiped during uninstall.</li>
+      <li>Manually uninstall games installed via the new version before your trial expires (to free up space).</li>
+      <li>Reinstall those games using the Decky version.</li>
+      <li>Restore you game save manually.
+    </ul>
+</details>
+
 
 <h2>Game Compatibility & Support</h2>
 
