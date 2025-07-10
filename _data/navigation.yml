@@ -3,11 +3,11 @@ main:
   - title: "About"
     url: /about/
   - title: "FAQ"
-    url: "/2.0-faq/"    
+    url: "/v2faq"    
   - title: "Troubleshooting"
-    url: /2.0-troubleshooting/
+    url: /troubleshooting/v2
   - title: "Tested Games"
-    url: /tested-games/
+    url: /v2/tested-games
   - title: "Decky Plugin"
     url: /plugin/
   #- title: "Sitemap"
