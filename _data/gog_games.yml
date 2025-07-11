@@ -10,12 +10,6 @@
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "Nov '24"
 
-# - title: "Absolute Drift"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/320140"
-#   notes: ""
-#   date_tested: ""
-
 - title: "Alan Wake"
   storefront: "GOG"
   protondb: "https://www.protondb.com/app/108710"
@@ -32,18 +26,6 @@
   protondb: "https://www.protondb.com/app/1227260"
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "April '25"
-
-# - title: "Alien Breed 2: Assault"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/22650"
-#   notes: ""
-#   date_tested: ""
-
-# - title: "Alien Breed 3: Descent"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/22670"
-#   notes: ""
-#   date_tested: ""
 
 - title: "Medal of Honor: Allied Assault War Chest"
   storefront: "GOG"
@@ -80,12 +62,6 @@
   protondb: "https://www.protondb.com/app/1944430"
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "Oct '24"
-
-# - title: "Amnesia: The Dark Descent"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/57300"
-#   notes: ""
-#   date_tested: ""
 
 - title: "Ancient Enemy"
   storefront: "GOG"
@@ -134,13 +110,6 @@
   protondb: "https://www.protondb.com/app/520990"
   notes: "Point & Click; set Mouse controls."
   date_tested: "Oct '24"
-
-# - title: "Beautiful Desolation"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/1151350"
-# 
-# 
-#   notes: "Some issues present – fix in progress."
 
 - title: "Beholder 2"
   storefront: "GOG"
@@ -338,12 +307,6 @@
   protondb: "https://www.protondb.com/app/203770"
   notes: "Need to change to keyboard & mouse settings."
   date_tested: "July '24"
-
-# - title: "Crysis®"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/17300"
-#   notes: ""
-#   date_tested: ""
 
 - title: "Cuphead"
   storefront: "GOG"
@@ -735,12 +698,6 @@
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "Oct '24"
 
-# - title: "Icewind Dale: Enhanced Edition"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/321800"
-#   notes: ""
-#   date_tested: ""
-
 - title: "Immortal Redneck"
   storefront: "GOG"
   protondb: "https://www.protondb.com/app/595140"
@@ -975,12 +932,6 @@
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "Nov '24"
 
-# - title: "Obduction"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/306760"
-#   notes: ""
-#   date_tested: ""
-
 - title: "Once Upon a Jester"
   storefront: "GOG"
   protondb: "https://www.protondb.com/app/1668190"
@@ -1064,12 +1015,6 @@
   protondb: "https://www.protondb.com/app/19980"
   notes: "Set the executable to ./Prince of Persia.exe. Need to change controller mapping to keyboard and mouse."
   date_tested: "March '25"
-
-# - title: "Prison Architect"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/233450"
-#   notes: ""
-#   date_tested: ""
 
 - title: "Quake II"
   storefront: "GOG"
@@ -1546,18 +1491,6 @@
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "April '25"
 
-# - title: "The Witcher: Enhanced Edition"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/20900"
-#   notes: ""
-#   date_tested: "July '25"
-
-# - title: "The Witcher 2: Assassins of Kings Enhanced Edition"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/20920"
-#   notes: ""
-#   date_tested: "July '25"
-
 - title: "The Witcher 3: Complete Edition"
   storefront: "GOG"
   protondb: "https://www.protondb.com/app/292030"
@@ -1599,12 +1532,6 @@
   protondb: "https://www.protondb.com/app/1115690"
   notes: "Need to change controller mapping to keyboard & mouse."
   date_tested: "March '25"
-
-# - title: "Ziggurat"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/308420"
-#   notes: ""
-#   date_tested: ""
 
 - title: "Dark Envoy"
   storefront: "GOG"
@@ -1765,4 +1692,76 @@
 #   storefront: "GOG"
 #   protondb: ""
 #   notes: "" 
+#   date_tested: ""
+
+# - title: "The Witcher: Enhanced Edition"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/20900"
+#   notes: ""
+#   date_tested: "July '25"
+
+# - title: "The Witcher 2: Assassins of Kings Enhanced Edition"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/20920"
+#   notes: ""
+#   date_tested: "July '25"
+
+# - title: "Ziggurat"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/308420"
+#   notes: ""
+#   date_tested: ""
+
+# - title: "Absolute Drift"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/320140"
+#   notes: ""
+#   date_tested: ""
+
+# - title: "Alien Breed 2: Assault"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/22650"
+#   notes: ""
+#   date_tested: ""
+
+# - title: "Alien Breed 3: Descent"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/22670"
+#   notes: ""
+#   date_tested: ""
+
+# - title: "Amnesia: The Dark Descent"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/57300"
+#   notes: ""
+#   date_tested: ""
+
+# - title: "Beautiful Desolation"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/1151350"
+#   notes: "Some issues present – fix in progress."
+#   date_tested: ""
+
+# - title: "Crysis®"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/17300"
+#   notes: ""
+#   date_tested: ""
+
+# - title: "Icewind Dale: Enhanced Edition"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/321800"
+#   notes: ""
+#   date_tested: ""
+
+# - title: "Obduction"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/306760"
+#   notes: ""
+#   date_tested: ""
+
+# - title: "Prison Architect"
+#   storefront: "GOG"
+#   protondb: "https://www.protondb.com/app/233450"
+#   notes: ""
 #   date_tested: ""
