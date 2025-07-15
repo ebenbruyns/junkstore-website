@@ -1,6 +1,6 @@
 <div id="testimonial-container">
   {% for testimonial in site.data.testimonials %}
-    <div class="testimonial{% unless forloop.first %} hidden{% endunless %}">
+    <div class="testimonial{% if forloop.first %} visible{% endif %}">
       <p class="testimonial-text">“{{ testimonial.text }}”</p>
       <p class="testimonial-author">— {{ testimonial.name }}</p>
     </div>
@@ -13,9 +13,9 @@
     let current = 0;
 
     setInterval(() => {
-      testimonials[current].classList.add("hidden");
+      testimonials[current].classList.remove("visible");
       current = (current + 1) % testimonials.length;
-      testimonials[current].classList.remove("hidden");
+      testimonials[current].classList.add("visible");
     }, 5000); // 5 seconds per testimonial
   });
 </script>
@@ -27,14 +27,31 @@
     margin: 2rem auto;
     text-align: center;
     font-style: italic;
+    height: 200px;           /* FIXED height - adjust this */
+    overflow: hidden;
   }
 
   .testimonial {
+    position: absolute;       /* Stack testimonials */
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    pointer-events: none;     /* disable clicks on hidden */
   }
 
-  .hidden {
-    display: none;
+  .testimonial.visible {
+    opacity: 1;
+    pointer-events: auto;     /* enable clicks on visible */
+    z-index: 1;
+  }
+
+  .testimonial-text,
+  .testimonial-author {
+    margin: 0;
+    padding: 0;
   }
 
   .testimonial-text {
@@ -44,6 +61,7 @@
   .testimonial-author {
     font-size: 0.9rem;
     color: #b7aeae;
-    margin-top: 0;
+    margin-top: 0.3rem;
+    line-height: 1.2;
   }
 </style>
