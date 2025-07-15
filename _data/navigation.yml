@@ -1,5 +1,7 @@
 # main links links
 main:
+  - title: "Learn More"
+    url: /learnmore/
   - title: "About"
     url: /about/
   - title: "FAQ"
