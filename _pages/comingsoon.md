@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Junk Store 2.0 - Learn More"
-permalink: /comingsoon/
+permalink: /learnmore/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
