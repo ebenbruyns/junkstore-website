@@ -1,11 +1,11 @@
 - title: "Star Wars Jedi Knight: Dark Forces II"
   storefront: "GOG"
 
-# - title: ""
-#   storefront: "Epic"
+- title: "Beholder 3"
+  storefront: "Amazon"
 
-# - title: ""
-#   storefront: ""
+- title: "The Abaondoned Planet"
+  storefront: "Amazon"
 
 - title: "Figment 2: Creed Valley"
   storefront: "Epic"
@@ -14,10 +14,10 @@
   storefront: "Epic"
 
 # - title: ""
-#   storefront: ""
+#   storefront: "Epic"
 
 # - title: ""
-#   storefront: ""
+#   storefront: "GOG"
 
 - title: "Marvel's Midnight Suns"
   storefront: "Epic"
@@ -29,10 +29,4 @@
   storefront: "Epic"
 
 # - title: ""
-#   storefront: ""
-
-# - title: ""
-#   storefront: ""
-
-# - title: ""
-#   storefront: ""
+#   storefront: "Amazon"
