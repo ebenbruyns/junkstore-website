@@ -46,17 +46,35 @@ a.button:visited {
   background-color: #007acc; /* Same as normal to keep consistent */
 }
 
-.buy-now-button {
-  font-size: 1.25rem;     /* bigger text */
-  padding: 1rem 2rem;     /* bigger button */
-  background-color: #28a745; /* example: green */
+// .buy-now-button {
+//   font-size: 1.25rem;     /* bigger text */
+//   padding: 1rem 2rem;     /* bigger button */
+//   background-color: #28a745; /* example: green */
+//   color: white;
+//   border-radius: 8px;
+//   text-decoration: none;
+//   display: inline-block;
+//   transition: background-color 0.2s ease;
+// }
+
+// .buy-now-button:hover {
+//   background-color: #218838;
+// }
+
+/* Gog Extension Button */
+a.button.gog-extension-button,
+a.button.gog-extension-button:hover {
+   font-size: 1.25rem;
+  line-height: 1.4;
+  padding: 1rem 2.5rem;           /* wider padding */
+  background-color: #993cb3;
   color: white;
   border-radius: 8px;
   text-decoration: none;
   display: inline-block;
+  white-space: nowrap;           /* prevent text from wrapping */
+  width: fit-content;
+  max-width: 100%;              /* allow button to expand */
   transition: background-color 0.2s ease;
 }
 
-.buy-now-button:hover {
-  background-color: #218838;
-}

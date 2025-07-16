@@ -27,21 +27,19 @@ header:
 
 <section class="gog-extension">
   <h2>Installing the GOG Extension</h2>
-  <p>
-    The GOG extension is available as a supporter benefit. You can purchase it via Ko-fi or Patreon using the button below. Once completed, you’ll receive download access and emailed instructions on how to install it and link it to your Junk Store plugin.
-  </p>
+ 
+  <div>The GOG extension is now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them. Once you’ve purchased access, you’ll receive instructions on how to install the extension and link it to your Junk Store plugin.</div><br>
+
+  <div>Once you’ve purchased access, please follow the <a href="/tutorials/gogextension">Gog Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.</div>
 
   <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
     <strong>Note:</strong> The GOG extension is currently in <strong>maintenance-only</strong> mode. This means we’ll continue fixing bugs and ensuring compatibility, but we’re not actively adding new features. Continued support depends on user interest and purchases.
   </p>
-
-  <a href="https://ko-fi.com/junkstore" class="button" style="margin-right: 10px;" target="_blank" rel="noopener noreferrer">Ko-fi</a>
-  <a href="https://www.patreon.com/junkstore" class="button" target="_blank" rel="noopener noreferrer">Patreon</a>
 </section>
 
-<br>
+  <a href="https://portal.junkstore.xyz/" class="button gog-extension-button" style="margin-right: 10px;" target="_blank" rel="noopener noreferrer">Get the Gog Extension</a>
 
-<!-- Content Boxes -->
+ <!-- Content Boxes -->
 <div class="content-box-container">
   <!-- FAQ -->
   <div class="content-box faq">
@@ -90,14 +88,14 @@ header:
 
   <!-- Tested Games -->
   <div class="content-box tested-games">
-    <h3>Epic Games Tested</h3>
-    <p>View Epic Store games known to work with Junk Store.</p>
-    <a href="https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working" class="button" target="_blank" rel="noopener noreferrer">Epic List</a>
+    <h3>Games Tested</h3>
+    <p>View Epic, Gog & Amazon games known to work with Junk Store.</p>
+    <a href="/_pages/v2/tested-games.md" class="button" target="_blank" rel="noopener noreferrer">Games Tested</a>
   </div>
 
-   <div class="content-box tested-games">
+   <!-- <div class="content-box tested-games">
     <h3>Gog Games Tested</h3>
     <p>View Gog games known to work with Junk Store.</p>
     <a href="https://wiki.junkstore.xyz/wiki/Help:GOG_Games/Working" class="button" target="_blank" rel="noopener noreferrer">Gog List</a>
-  </div>
+  </div> -->
 </div>

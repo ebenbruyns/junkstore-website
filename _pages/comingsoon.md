@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Junk Store 2.0 - Learn More"
-permalink: /comingsoon/
+permalink: /learnmore/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -17,33 +17,42 @@ header:
 
 <h2>Junk Store 2.0 – Pricing and What to Expect</h2>
 
-<p>We’re getting very close to the public release of the new version of Junk Store. This has been in the works for over a year, and we’ve finally reached the point where we can share pricing and give you a look at what’s coming.</p>
+  We’re excited to announce that Junk Store is now open for purchase in early access!<br>
+  While the core features are ready, there may still be some bugs or rough edges as we continue polishing the experience.<br>
+  <div><strong>We offer a 7-day free trial</strong> so you can try everything before committing. Cancel anytime before the trial ends if you're not satisfied or want to avoid being billed.</div><br>
+ 
+  To thank our early supporters, we’re offering a special discount valid through the end of the month.<br>
+  💸 Use code <span style="color: green; font-weight: bold;">EarlyBird</span> at checkout for <strong>25% off</strong> — valid until <strong>July 31, 2025</strong><br>
 
-<p>We know this won’t satisfy everyone, but we have to be realistic about what’s needed to keep things sustainable — based on everything we’ve learned so far.</p>
+  If you’ve previously purchased or contributed, you’ll be eligible for a <strong>discount</strong> that reflects your support. This is our way of saying thanks for backing the project early.
 
-<h3>A few important clarifications upfront:</h3>
+  Get in early, explore all the new features, and help shape the future of Junk Store.
+
+  <div style="text-align: center; margin-top: 2rem;">
+  <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button">Sign Up Now</a>
+</div>
+
+<details class="faq-box">
+  <summary>A few important clarifications upfront</summary>
+  <p></p>
 <ul>
   <li>This new version does <strong>not</strong> share code with the open source version.</li>
   <li>The open source version will remain available for the community, free to use and collaborate on.</li>
   <li>Junk Store does not handle any credentials other than its own. Your platform accounts (Steam, GOG, etc.) are not touched or stored by Junk Store.</li>
 </ul>
-
+</details>
 <details class="faq-box">
   <summary>Pricing</summary>
   <p></p>
   After a lot of thought (and number crunching), here’s where we’ve landed:
   <ul>
-    <li><strong>$40 (USD)</strong> for 12 months of updates</li>
+    <li><strong>Aproximately $3 USD/month</strong> (billed yearly at $40 USD) – 12 months of updates included</li>
     <li>Includes all extension presets (currently GOG, Epic, and Amazon — more to come)</li>
     <li>You keep everything released during your subscription</li>
-    <li>Renewals are $40 for another 12 months of updates</li>
-    <li>7-day free trial</li>
+    <li><strong>12-month renewal:</strong> Around $3 USD/month, billed annually at $40 — includes continued updates and support</li>
+    <li><strong>7-day free trial</strong> – explore all features before committing</li>
     <li>Stripe handles billing — cancel anytime during the trial</li>
   </ul>
-
-  We don’t have a firm public release date just yet — but it’s close.<br>
-  Right now, we’re focused on final polish and making sure everything is ready for early adopters.<br>
-  Thanks again to everyone who’s been on this journey with us — we’re nearly there.
 </details>
 
 <details class="faq-box">
@@ -52,17 +61,17 @@ header:
     You can install Junk Store on up to <strong>five</strong> devices under a single license. We think this strikes a fair balance between flexibility and sustainability.
 </details>
 
-<details class="faq-box">
+<!-- <details class="faq-box">
   <summary>Early Supporters & Rollout Plan</summary>
   <p></p>
   To thank our existing users and supporters, we’ll begin onboarding them first. Due to hosting and bandwidth costs, we’re rolling out in waves to stay sustainable. Based on past download volumes, an immediate public launch would burn through our budget fast — and we want to do this right.
   <br>
   <br>
-  If you’ve previously purchased or contributed, you’ll be eligible for a <strong>discount</strong> that reflects your support. This is our way of saying thanks for backing the project early.
+
   <br>
   <br>
   We also expect the first couple of weeks to be a bit bumpy — this is all new code, and no software survives first contact with real users. Scaling gradually helps us support everyone properly and fix issues as they come up.
-</details>
+</details> -->
 
 <details class="faq-box">
   <summary>What’s New?</summary>

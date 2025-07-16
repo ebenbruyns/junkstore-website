@@ -101,13 +101,23 @@ This guide uses Google for logging in, but the steps are the same for other thir
 ## Need More Help?
 
 If you run into trouble, check out:
-- [Plugin Help](/deckyhelp)
-- [Plugin FAQ](/faq/deckyfaq)
-- [Decky Plugin Troubleshooting](/troubleshooting/plugin)
-- [Epic Games Troubleshooting](/troubleshooting/epic)
-- [Gog Extension Troubleshooting](/troubleshooting/gog)
+<ul>
+  <li><a href="/deckyhelp">Plugin Help</a></li>
+  <li><a href="/faq/deckyfaq">Plugin FAQ</a></li>
+  <li><a href="/troubleshooting/plugin">Decky Plugin Troubleshooting</a></li>
+  <li><a href="/troubleshooting/epic">Epic Games Troubleshooting</a></li>
+  <li><a href="/troubleshooting/gog">GOG Extension Troubleshooting</a></li>
+</ul>
 
-Still stuck? Ask for help on [r/JunkStore](https://www.reddit.com/r/JunkStore/) or join the [Discord](https://discord.gg/6mRUhR6Teh). The community’s friendly, and we’re happy to help get you sorted.
+
+<p>
+  Still stuck? Ask for help on
+  <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener">r/JunkStore</a>
+  or join the
+  <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a>.
+  The community’s friendly, and we’re happy to help get you sorted.
+</p>
+
 
 ---
 
