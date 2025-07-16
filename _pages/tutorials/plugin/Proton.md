@@ -49,12 +49,7 @@ If you haven't, check out our tutorial:</p>
 
 <ul>
   <li>Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB.com</a></li>
-  <li>Or visit our working lists:
-    <ul>
-      <li><a href="https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working" target="_blank" rel="noopener">Epic Games Known to Work</a></li>
-      <li><a href="https://wiki.junkstore.xyz/wiki/Help:GOG_Games/Working" target="_blank" rel="noopener">GOG Games Known to Work</a></li>
-    </ul>
-  </li>
+  <li>Or visit our working list: <a href="/tested-games/">Games Tested</a></li>
 </ul>
 
 <hr>
