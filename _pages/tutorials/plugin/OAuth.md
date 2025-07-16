@@ -87,7 +87,7 @@ This guide uses Google for logging in, but the steps are the same for other thir
 13. **Install a Game to Test**  
     Choose a game from your library to install. We recommend starting with a game that is known to work well on the Steam Deck.
 
-    - Visit our wiki page for a list of games that are known to work.
+    - Visit our <a href="/tested-games">Games Tested</a> page for a list of games that are known to work.
     - Avoid choosing a large or complex game for the first test.
 
     **Tip:** Some games may require additional tweaks to run properly on the Steam Deck. **Doom 64** is a great test game if you have it.  
