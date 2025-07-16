@@ -90,7 +90,7 @@ header:
   <div class="content-box tested-games">
     <h3>Games Tested</h3>
     <p>View Epic, Gog & Amazon games known to work with Junk Store.</p>
-    <a href="/_pages/v2/tested-games.md" class="button" target="_blank" rel="noopener noreferrer">Games Tested</a>
+    <a href="/tested-games/" class="button" target="_blank" rel="noopener noreferrer">Games Tested</a>
   </div>
 
    <!-- <div class="content-box tested-games">
