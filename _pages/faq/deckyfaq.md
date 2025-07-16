@@ -105,6 +105,11 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
 <details class="faq-box">
   <summary>How do I install or uninstall a game?</summary>
   <p></p>
+  <strong>To install a game in Junk Store:</strong>
+  <ul>
+    <li>Open the game’s page in Junk Store and click install.</li>
+    <li>Remember to stay on the game page until installation is complete.</li>
+  </ul>
   <strong>To uninstall a game in Junk Store:</strong>
   <ol>
     <li>Open the game’s page in Junk Store.</li>
