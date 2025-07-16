@@ -156,6 +156,23 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
     Please note that this process can take some time, as Junk Store is rebuilding the databases for each storefront.
   </details>
 
+  <details class="faq-box">
+    <summary>How do I uninstall Junk Store 2.0?</summary>
+      <p></p>
+        Before uninstalling Junk Store 2.0, you’ll need to:
+      <ul>
+        <li>Back up your save files for any games you plan to keep playing, as they may be wiped during uninstall.</li>
+        <li>Manually uninstall games installed via the new version before your trial expires (to free up space).</li>
+        <li>Reinstall those games using the Decky version.</li>
+        <li>Restore you game save manually.</li>
+      </ul>
+        Once you have done all teh above run the following uninstall script in konsole:
+        <code>~/.local/share/junkstore/uninstall.sh</code>
+      <br>
+      <br>
+        Please note that this process can take some time, as Junk Store is rebuilding the databases for each storefront.
+  </details>
+
 <details class="troubleshooting-box">
   <summary>I don’t have Proton GE or don’t know how to install it.</summary>
   <p></p>
@@ -264,6 +281,22 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
       <li>Scroll to the performance tab</li>
       <li>Adjust the FPS, TDP, refresh rate, or any other performance settings from there.</li>
     </ul>
+</details>
+
+<details class="faq-box">
+  <summary>Can I move games from the new version back to the Decky (free) version?</summary>
+  <p></p>
+    No — games installed using the new version of Junk Store can't be "backported" to the older Decky version. They use different install paths and configuration systems.
+    <br>
+  <br>
+    If you want to continue using the free Decky version, you’ll need to:
+    <ul>
+      <li>Back up your save files for any games you plan to keep playing, as they may be wiped during uninstall.</li>
+      <li>Manually uninstall games installed via the new version before your trial expires (to free up space).</li>
+      <li>Reinstall those games using the Decky version.</li>
+      <li>Restore you game save manually.</li>
+    </ul>
+     Tip: Do this before your trial ends — otherwise, you may lose access and the games will still occupy storage.
 </details>
 
 <h2>Game Compatibility & Support</h2>
