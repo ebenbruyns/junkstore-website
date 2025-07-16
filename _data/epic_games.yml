@@ -1987,14 +1987,15 @@
 #   notes: "You need to enable EAC from the cog menu. You also need to set <strong>/Hellis.exe</strong> from the sliders menu."
 #   date_tested: "July '25"
 
-# - title: ""
-#   storefront: Epic
-#   protondb: ""
-#   notes: ""
-#   date_tested: "July '25"
 - title: "Figment 2: Creed Valley"
   storefront: Epic
   protondb: "https://www.protondb.com/app/1085220"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
+
+- title: "Sky Racket"
+  storefront: Epic
+  protondb: "https://www.protondb.com/app/994500"
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "July '25"
 
