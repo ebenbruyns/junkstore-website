@@ -95,9 +95,9 @@ header:
     <a href="/tested-games/" class="button" target="_blank" rel="noopener noreferrer">Games Tested</a>
   </div>
 
-   <div class="content-box tested-games">
+   <!-- <div class="content-box tested-games">
     <h3>Gog Games Tested</h3>
     <p>View Gog games known to work with Junk Store.</p>
     <a href="https://wiki.junkstore.xyz/wiki/Help:GOG_Games/Working" class="button" target="_blank" rel="noopener noreferrer">Gog List</a>
-  </div>
+  </div> -->
 </div>
