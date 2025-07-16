@@ -35,7 +35,7 @@ Can’t access that email? Contact us via <a href="https://www.patreon.com/junks
 </ul>
 
 ✅ Your 7-day free trial starts now — and any discount tied to your previous support is already applied at checkout.
-<li>💸 Use code <span style="color: green; font-weight: bold;">EarlyBird</span> at checkout for <strong>25% off</strong> — valid until <strong>July 13, 2025</strong></li>
+<li>💸 Use code <span style="color: green; font-weight: bold;">EarlyBird</span> at checkout for <strong>25% off</strong> — valid until <strong>July 31, 2025</strong></li>
 <li>⚠️ Spots are limited — we’ll close signups temporarily once we hit our support capacity.</li>
 <li>🕒 Heads-up: If you cancel your trial, your discount won’t carry over.</li><br>
  This isn’t a pressure tactic — we just don’t have the bandwidth right now to automate discount tracking across cancellations. Thanks for understanding while we scale.

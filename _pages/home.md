@@ -11,7 +11,7 @@ header:
       url: "/buy_now/"
       class: "button buy-button"
     - label: "Learn More"
-      url: "/comingsoon/"
+      url: "/learnmore/"
       class: "button"
 excerpt: "Unlock a New Level of Gaming on Steam Deck with Junk Store"
 ---

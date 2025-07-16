@@ -105,7 +105,7 @@ header:
 <details class="faq-box">
   <summary>Does the extension support DOS and ScummVM games?</summary>
   <p></p>
-    DOS games and some ScummVM games are not supported via the GOG extension.
+     <strong>No.</strong> DOS games and some ScummVM titles are not supported by the GOG extension in the Decky version of Junk Store.
 </details>
 
 <details class="faq-box">
