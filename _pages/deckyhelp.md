@@ -90,14 +90,14 @@ header:
 
   <!-- Tested Games -->
   <div class="content-box tested-games">
-    <h3>Epic Games Tested</h3>
-    <p>View Epic Store games known to work with Junk Store.</p>
-    <a href="https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working" class="button" target="_blank" rel="noopener noreferrer">Epic List</a>
+    <h3>Games Tested</h3>
+    <p>View Epic, Gog & Amazon games known to work with Junk Store.</p>
+    <a href="/tested-games/" class="button">Games Tested</a>
   </div>
 
-   <div class="content-box tested-games">
+   <!-- <div class="content-box tested-games">
     <h3>Gog Games Tested</h3>
     <p>View Gog games known to work with Junk Store.</p>
     <a href="https://wiki.junkstore.xyz/wiki/Help:GOG_Games/Working" class="button" target="_blank" rel="noopener noreferrer">Gog List</a>
-  </div>
+  </div> -->
 </div>

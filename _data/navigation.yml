@@ -1,5 +1,7 @@
 # main links links
 main:
+  - title: "Learn More"
+    url: /learnmore/
   - title: "About"
     url: /about/
   - title: "FAQ"
@@ -7,7 +9,7 @@ main:
   - title: "Troubleshooting"
     url: /troubleshooting/v2
   - title: "Tested Games"
-    url: /v2/tested-games
+    url: /tested-games
   - title: "Decky Plugin"
     url: /plugin/
   #- title: "Sitemap"

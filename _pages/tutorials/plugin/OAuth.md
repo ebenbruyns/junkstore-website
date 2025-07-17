@@ -87,7 +87,7 @@ This guide uses Google for logging in, but the steps are the same for other thir
 13. **Install a Game to Test**  
     Choose a game from your library to install. We recommend starting with a game that is known to work well on the Steam Deck.
 
-    - Visit our wiki page for a list of games that are known to work.
+    - Visit our <a href="/tested-games">Games Tested</a> page for a list of games that are known to work.
     - Avoid choosing a large or complex game for the first test.
 
     **Tip:** Some games may require additional tweaks to run properly on the Steam Deck. **Doom 64** is a great test game if you have it.  
@@ -101,13 +101,23 @@ This guide uses Google for logging in, but the steps are the same for other thir
 ## Need More Help?
 
 If you run into trouble, check out:
-- [Plugin Help](/deckyhelp)
-- [Plugin FAQ](/faq/deckyfaq)
-- [Decky Plugin Troubleshooting](/troubleshooting/plugin)
-- [Epic Games Troubleshooting](/troubleshooting/epic)
-- [Gog Extension Troubleshooting](/troubleshooting/gog)
+<ul>
+  <li><a href="/deckyhelp">Plugin Help</a></li>
+  <li><a href="/faq/deckyfaq">Plugin FAQ</a></li>
+  <li><a href="/troubleshooting/plugin">Decky Plugin Troubleshooting</a></li>
+  <li><a href="/troubleshooting/epic">Epic Games Troubleshooting</a></li>
+  <li><a href="/troubleshooting/gog">GOG Extension Troubleshooting</a></li>
+</ul>
 
-Still stuck? Ask for help on [r/JunkStore](https://www.reddit.com/r/JunkStore/) or join the [Discord](https://discord.gg/6mRUhR6Teh). The community’s friendly, and we’re happy to help get you sorted.
+
+<p>
+  Still stuck? Ask for help on
+  <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener">r/JunkStore</a>
+  or join the
+  <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a>.
+  The community’s friendly, and we’re happy to help get you sorted.
+</p>
+
 
 ---
 

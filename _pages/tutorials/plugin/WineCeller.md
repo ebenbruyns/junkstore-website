@@ -41,9 +41,7 @@ Then you probably need to switch your Proton version.
 
 To find the best version for your game:
 - Check [ProtonDB.com](https://www.protondb.com/)
-- Or visit our known-working game lists:
-  - [Epic Games Known to Work](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working)
-  - [GOG Games Known to Work](https://wiki.junkstore.xyz/wiki/Help:GOG_Games/Working)
+- Or visit our known-working game lists: <a href="/tested-games">Games Tested</a>
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Junk Store Tested Games"
-permalink: /v2/tested-games/
+permalink: /tested-games/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -14,15 +14,16 @@ header:
 
 <div class="feature-box">
   <h3>🆕 Recently Tested</h3>
-  <ul class="featured-list">
+  <div class="featured-row">
     {% for game in featured_games %}
-      <li>
+      <div class="featured-entry">
         <a href="#{{ game.title | slugify }}-{{ game.storefront | slugify }}">{{ game.title }}</a>
         <span class="store-badge {{ game.storefront | downcase }}">{{ game.storefront }}</span>
-      </li>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 </div>
+
 
 <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
   <strong>Note:</strong> Games tested by the Junk Store team use <strong>GE-Proton 9-20</strong>, as it consistently provides the best out-of-the-box compatibility.<br>
