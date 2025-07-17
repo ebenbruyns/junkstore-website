@@ -1,17 +1,16 @@
 # main links links
 main:
+  - title: "Junk Store 2.0 Hub"
+    url: "/2.0-hub/"
   - title: "Learn More"
     url: /learnmore/
   - title: "About"
     url: /about/
-  - title: "FAQ"
-    url: "/2.0-faq/"    
-  - title: "Troubleshooting"
-    url: /2.0-troubleshooting/
+  - title: "Decky Plugin Hub"
+    url: /deckyhub/
   - title: "Tested Games"
     url: /tested-games/
-  - title: "Decky Plugin"
-    url: /plugin/
+  
   #- title: "Sitemap"
   #  url: /sitemap/
   #- title: "Extra Menu Item 1"
