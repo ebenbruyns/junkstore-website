@@ -1691,7 +1691,7 @@
 - title: "Prison Architect"
   storefront: "GOG"
   protondb: "https://www.protondb.com/app/233450"
-  notes: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to change the controller mapping to keyboard & mouse."
   date_tested: "July '25"
 
 # - title: ""
@@ -1705,8 +1705,6 @@
 #   protondb: ""
 #   notes: "" 
 #   date_tested: ""
-
-
 
 # - title: "The Witcher 2: Assassins of Kings Enhanced Edition"
 #   storefront: "GOG"
