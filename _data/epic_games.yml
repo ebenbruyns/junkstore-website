@@ -2017,6 +2017,12 @@
           - Once you get to playihg the game in desktop/big picture mode it should now load without issue in game mode. It seems to have full controller support too."
   date_tested: "July '25"
 
+- title: "Civilization VI"
+  storefront: Epic
+  protondb: ""
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
+
 # - title: "The Messenger"
 #   storefront: Epic
 #   protondb: "https://www.protondb.com/app/764790"
