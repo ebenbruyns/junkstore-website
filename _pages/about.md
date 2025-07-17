@@ -43,10 +43,11 @@ Junk Store is built to make playing non-Steam games feel as seamless and intuiti
 <p>Curious about the story behind Junk Store? Check out these interviews and talks featuring our developer.</p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-top: 1.5rem;">
+
   <!-- Video Interview -->
   <div style="max-width: 300px; text-align: center;">
     <a href="https://youtu.be/iRVFqHGkqio?si=H3RnIVYtWN6vxsaC" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.youtube.com/vi/iRVFqHGkqio/hqdefault.jpg" alt="Interview with Gardiner Bryant (Video)" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+      <img src="https://img.youtube.com/vi/iRVFqHGkqio/hqdefault.jpg" alt="Interview with Gardiner Bryant (Video)" style="width: 100%; height: 169px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
     </a>
     <p style="margin-top: 0.5rem; font-weight: bold;">Interview with Gardiner Bryant (Video)</p>
     <p style="font-style: italic; font-size: 0.9rem;">Click to watch on YouTube</p>
@@ -55,10 +56,10 @@ Junk Store is built to make playing non-Steam games feel as seamless and intuiti
   <!-- Article Interview -->
   <div style="max-width: 300px; text-align: center;">
     <a href="https://gardinerbryant.com/an-interview-with-the-dev-behind-junk-store/" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/JSInstall/Doom 64.jpeg" alt="Interview with Gardiner Bryant (Article)" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+      <img src="/assets/images/JSInstall/Doom 64.jpeg" alt="Interview with Gardiner Bryant (Article)" style="width: 100%; height: 169px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
     </a>
     <p style="margin-top: 0.5rem; font-weight: bold;">Interview with PerfectDark (Article)</p>
     <p style="font-style: italic; font-size: 0.9rem;">Click to read the article</p>
   </div>
-</div>
 
+</div>
