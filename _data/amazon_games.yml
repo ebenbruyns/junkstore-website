@@ -118,11 +118,11 @@
   notes: "Point and click game so will need to change the controller settings."
   date_tested: "July '25"
 
-# - title: ""
-#   protondb: ""
-#   storefront: Amazon
-#   notes: ""
-#   date_tested: ""
+- title: "Endless Space 2"
+  protondb: ""
+  storefront: Amazon
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
+  date_tested: "July '25"
 
 # - title: ""
 #   protondb: ""
