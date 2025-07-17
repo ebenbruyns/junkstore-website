@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Decky Plugin Help"
-permalink: /deckyhelp/
+permalink: /deckyhub/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -19,10 +19,10 @@ header:
   <p>
     You can install Junk Store from the Decky Plugin Store on your Steam Deck. Check the testing store for early versions and previews of upcoming features.
   </p>
-  <ul>
-    <li><a href="https://plugins.deckbrew.xyz/" target="_blank" rel="noopener noreferrer">Decky Plugin Main Store</a></li>
-    <li><a href="https://testing.deckbrew.xyz/" target="_blank" rel="noopener noreferrer">Decky Plugin Testing Store</a></li>
-  </ul>
+  <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+  <a href="https://plugins.deckbrew.xyz/" class="button" target="_blank" rel="noopener noreferrer">Decky Plugin Main Store</a>
+  <a href="https://testing.deckbrew.xyz/" class="button" target="_blank" rel="noopener noreferrer">Decky Plugin Testing Store</a>
+  </div>
 </section>
 
 <section class="gog-extension">
@@ -93,9 +93,15 @@ header:
     <a href="/tested-games/" class="button" target="_blank" rel="noopener noreferrer">Games Tested</a>
   </div>
 
-   <!-- <div class="content-box tested-games">
-    <h3>Gog Games Tested</h3>
-    <p>View Gog games known to work with Junk Store.</p>
-    <a href="https://wiki.junkstore.xyz/wiki/Help:GOG_Games/Working" class="button" target="_blank" rel="noopener noreferrer">Gog List</a>
-  </div> -->
+  <div class="content-box">
+    <h3>Explore the Code</h3>
+    <p>Browse the Junk Store plugin source code, contribute, or report an issue on GitHub.</p>
+    <a href="https://github.com/ebenbruyns/junkstore" class="button" target="_blank" rel="noopener noreferrer">Visit GitHub</a>
+  </div>
+
+  <div class="content-box">
+    <h3>Decky Loader</h3>
+    <p>Need help with Decky Loader or want to learn more about how it works? Find detailed info, setup instructions, and plugin guidance here.</p>
+    <a href="https://decky.xyz/" class="button" target="_blank" rel="noopener noreferrer">Decky Loader</a>
+  </div>
 </div>
