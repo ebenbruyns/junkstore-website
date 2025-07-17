@@ -1,23 +1,32 @@
 - title: "Star Wars Jedi Knight: Dark Forces II"
   storefront: "GOG"
 
+- title: "Beholder 3"
+  storefront: "Amazon"
+
+- title: "The Abaondoned Planet"
+  storefront: "Amazon"
+
+- title: "Figment 2: Creed Valley"
+  storefront: "Epic"
+
+- title: "Sky Racket"
+  storefront: "Epic"
+
 # - title: ""
 #   storefront: "Epic"
 
 # - title: ""
-#   storefront: ""
+#   storefront: "GOG"
+
+- title: "Marvel's Midnight Suns"
+  storefront: "Epic"
+
+- title: "Amnesia: Rebirth"
+  storefront: "Epic"
+
+- title: "Football Manager 2024"
+  storefront: "Epic"
 
 # - title: ""
-#   storefront: ""
-
-# - title: ""
-#   storefront: ""
-
-# - title: ""
-#   storefront: ""
-
-# - title: ""
-#   storefront: ""
-
-# - title: ""
-#   storefront: ""
+#   storefront: "Amazon"

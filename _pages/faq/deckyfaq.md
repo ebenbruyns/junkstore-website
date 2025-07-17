@@ -22,7 +22,7 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
     The Decky version is free and open source, designed to run via the Decky Loader. The Paid version includes extra convenience features and doesn't require Decky to run.
     <br>
     <br>
-    For more infomation, see our <a href="{{ '/comingsoon' | relative_url }}">Junk Store 2.0 Coming Soon Page</a>
+    For more infomation, see our <a href="{{ '/learnmore/' | relative_url }}">Junk Store 2.0 Learn More Page</a>
 </details>
 
 <details class="faq-box">
@@ -105,6 +105,11 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
 <details class="faq-box">
   <summary>How do I install or uninstall a game?</summary>
   <p></p>
+  <strong>To install a game in Junk Store:</strong>
+  <ul>
+    <li>Open the game’s page in Junk Store and click install.</li>
+    <li>Remember to stay on the game page until installation is complete.</li>
+  </ul>
   <strong>To uninstall a game in Junk Store:</strong>
   <ol>
     <li>Open the game’s page in Junk Store.</li>
@@ -230,10 +235,7 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
 <details class="faq-box">
   <summary>Does the GOG extension support DOS and ScummVM games?</summary>
   <p></p>
-    <strong>Yes.</strong> In Junk Store 2.0, both <strong>DOS</strong> and <strong>ScummVM</strong> games downloaded via GOG are supported.
-  <br>
-  <br>
-    These games will automatically launch using the <strong>Flatpak versions</strong> of <code>ScummVM</code> and <code>DosBox</code> once installed.
+    <strong>No.</strong> DOS games and some ScummVM titles are not supported by the GOG extension in the Decky version of Junk Store.
   </details>
 
 <details class="faq-box">
