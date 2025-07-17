@@ -64,7 +64,7 @@ a.button:visited {
 /* Gog Extension Button */
 a.button.gog-extension-button,
 a.button.gog-extension-button:hover {
-   font-size: 1.25rem;
+  font-size: 1.25rem;
   line-height: 1.4;
   padding: 1rem 2.5rem;           /* wider padding */
   background-color: #993cb3;
@@ -76,5 +76,10 @@ a.button.gog-extension-button:hover {
   width: fit-content;
   max-width: 100%;              /* allow button to expand */
   transition: background-color 0.2s ease;
+}
+
+/* Button spacing in front matter */
+.button + .button {
+  margin-left: 0.75rem;
 }
 
