@@ -1,8 +1,7 @@
-
 ---
 layout: splash
-title: "How to Install Junk Store v2.0"
-excerpt: "Guide on downloading and installing Junk Store v2.0"
+title: "How to Install Junk Store 2.0"
+excerpt: "Guide on downloading and installing Junk Store 2.0"
 permalink: /tutorials/installv2/
 classes: wide
 header:
