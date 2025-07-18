@@ -2,7 +2,7 @@
 layout: splash
 title: "Easily Install Game Dependencies"
 excerpt: "How to install common game dependencies in Junk Store"
-permalink: /tutorials/gamedeps/
+permalink: /tutorials/installgamedeps/
 classes: wide
 header:
   overlay_color: "#000"
@@ -20,32 +20,41 @@ header:
 
 <hr>
 
-<h3>✅ How to Install Dependencies in Junk Store</h3>
+<h3>How to Install Dependencies in Junk Store</h3>
 
 <ol>
   <li><strong>Open the Game Page</strong><br>
-    Navigate to the game inside Junk Store.</li>
-
-  <li><strong>Click the ⚙️ Cog Menu</strong><br>
-    It's located in the top-right corner of the game page.</li>
-
+    <li>Navigate to the game inside Junk Store and <strong>click the ⚙️ Cog Menu</strong></li>
+    <img src="/assets/images/jspro/dependencies/gamepagecog.png" alt="download from portal" width="600" />
+    <br>
+    <br>
   <li><strong>Select <code>Installation</code></strong><br>
     From the dropdown menu, choose the <code>Installation</code> tab.</li>
-
+    <img src="/assets/images/jspro/dependencies/installation.png" alt="download from portal" width="600" />
+    <br>
+    <br>
   <li><strong>Expand the Installation Options</strong><br>
     If you don’t see a <code>Dependencies</code> section, use the dropdown at the top (usually set to <code>Basic</code>) and change it to <code>All</code>.</li>
-
+    <img src="/assets/images/jspro/dependencies/dependecies.png" alt="download from portal" width="600" />
+    <br>
+    <br>
   <li><strong>Enable Required Dependencies</strong><br>
     Under the <code>Dependencies</code> section, you'll see a list of available components.<br>
     Toggle the one(s) you need — the switch will turn <strong>blue</strong> when enabled.</li>
-
+    <img src="/assets/images/jspro/dependencies/selectdep.png" alt="download from portal" width="600" />
+    <br>
+    <br>
   <li><strong>Save Your Changes</strong><br>
     Press <kbd>X</kbd> to save.<br>
+    <img src="/assets/images/jspro/dependencies/pushxtosave.png" alt="download from portal" width="600" />
+    <br>
+    <br>
     If you forget, Junk Store will remind you that you have unsaved changes.<br>
     - Click <strong>Save</strong> to apply changes so the dependency installs on next game launch.<br>
     - Or click <strong>Discard</strong> to exit without saving.</li>
+    <img src="/assets/images/jspro/dependencies/unsaveddialogue.png" alt="download from portal" width="600" />
 </ol>
 
 <hr>
 
-<p><strong>Tip:</strong> If you're not sure which dependency is needed, try launching the game first — missing components usually produce a helpful error. You can also check <a href="https://www.protondb.com/" target="_blank" rel="noopener noreferrer">ProtonDB</a> or community forums for guidance.</p>
+<p><strong>Tip:</strong> If you're not sure which dependency is needed, try launching the game first — missing components usually produce a helpful error. You can also check <a href="https://www.protondb.com/" target="_blank" rel="noopener noreferrer">ProtonDB</a>, <a href="{{ '/tested-games/' | relative_url }}">Tested Games</a> or community forums for guidance.</p>
