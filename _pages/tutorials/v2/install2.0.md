@@ -37,11 +37,10 @@ header:
     <img src="/assets/images/jspro/install2.0/tools.png" alt="Mark file as exectuable" width="600" />
     <br>
     <br>
-    Open the sliders menu and choose<br>
+    Open the sliders menu and choose <em>Download all presets from server</em><br>
     <img src="/assets/images/jspro/install2.0/generatorsliders.png" alt="Mark file as exectuable" width="600" />
     <br>
     <br>
-    Download all presets from server<br>
     <img src="/assets/images/jspro/install2.0/downloadpresets.png" alt="Mark file as exectuable" width="600" />
     <br>
     <br>
@@ -49,20 +48,34 @@ header:
     <img src="/assets/images/jspro/install2.0/generateextensions.png" alt="Mark file as exectuable" width="600" />
     <br>
     <br>
+    You should now see tabs for each of the extensions in Junk Store.<br>
+    <img src="/assets/images/jspro/install2.0/tabsgenerated.png" alt="Mark file as exectuable" width="600" />
+    <br>
+    <br>
+    Now all you need to do is log in to each and your libraries will be poplulated.<br>
+    <img src="/assets/images/jspro/install2.0/amazon.png" alt="Mark file as exectuable" width="600" />
+    <br>
+    <br>
+    <img src="/assets/images/jspro/install2.0/epic.png" alt="Mark file as exectuable" width="600" />
+    <br>
+    <br>
+    <img src="/assets/images/jspro/install2.0/gog.png" alt="Mark file as exectuable" width="600" />
   </ol>
 
   <h4>If you are upgrading from the Decky plugin version:</h4>
-  <ul>
-    <li>Your library and installed games will be ported across.</li>
-    <li><strong>Reset launch options for each game once</strong> — this completes the migration</li>
-    <img src="/assets/images/jspro/install2.0/slidersgamepage.png" alt="Mark file as exectuable" width="600" />
-    <br>
-    <br>
-    <img src="/assets/images/jspro/install2.0/resetlaunch.png" alt="Mark file as exectuable" width="600" />
-    <br>
-    <br>
-    <li>Your saves and settings will carry over automatically</li>
-  </ul>
+  
+  Your library and installed games will be ported across.<br>
+  In order to play already installed games <strong>Reset launch options for each game once</strong> — this completes the migration
+  <br>
+  <br>
+  <img src="/assets/images/jspro/install2.0/slidersgamepage.png" alt="Mark file as exectuable" width="600" />
+  <br>
+  <br>
+  <img src="/assets/images/jspro/install2.0/resetlaunch.png" alt="Mark file as exectuable" width="600" />
+  <br>
+  <br>
+  Your saves and settings will carry over automatically
+
 
 
 <h3>Supported Extensions (at launch)</h3>
