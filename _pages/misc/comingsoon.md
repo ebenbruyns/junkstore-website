@@ -103,7 +103,14 @@ header:
       <tr><td>UMU Fixes</td><td>✅Yes</td><td>✅ Yes</td></tr>
       <tr><td>GOG</td><td>💰 Paid</td><td>✅ Yes</td></tr>
       <tr><td>Amazon</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Download queue</td><td>❌ No</td><td>✅ Yes</td></tr>
+      <tr><td>Download queue</td><td>❌ No</td>
+          <td class="hover-popup" onmouseenter="restartGif(this)">
+              ✅ Yes <span class="hover-label">👁️ Hover to view</span>
+              <div class="gif-popup">
+                <img src="/assets/images/jspro/tablegifs/download.gif" alt="Demo">
+              </div><br>
+          </td>
+      </tr>
       <tr><td>Emulators</td><td>❌ No</td><td>✅ Yes</td></tr>     
       <tr><td>ROM download support</td><td>❌ No</td><td>✅ Yes</td></tr>
       <tr><td>GOG DOS games</td><td>❌ No</td><td>✅ Yes</td></tr>
@@ -111,21 +118,87 @@ header:
       <tr><td>Built-in extension updates</td><td>❌ No</td><td>✅ Yes</td></tr>
       <tr><td>Built-in help</td><td>❌ No</td><td>✅ Yes</td></tr>
       <tr><td>Offline artwork cache</td><td>❌ No</td><td>✅ Yes (per extension)</td></tr>
-      <tr><td>Change game language</td><td>❌ No</td><td>✅ Yes</td></tr>
+      <tr><td>Change game language</td><td>❌ No</td>
+          <td class="hover-popup" onmouseenter="restartGif(this)">
+              ✅ Yes <span class="hover-label">👁️ Hover to view</span>
+              <div class="gif-popup">
+                <img src="/assets/images/jspro/tablegifs/languageselection.gif" alt="Demo">
+              </div><br> 
+          </td>
+      </tr>
       <tr><td>Selective DLC install</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Change launcher per game</td><td>❌ No</td><td>✅ Yes</td></tr>
+      <tr><td>Change launcher per game</td><td>❌ No</td>
+          <td class="hover-popup" onmouseenter="restartGif(this)">
+              ✅ Yes <span class="hover-label">👁️ Hover to view</span>
+              <div class="gif-popup">
+                <img src="/assets/images/jspro/tablegifs/changelauncher.gif" alt="Demo">
+              </div><br>
+          </td>
+      </tr>
       <tr><td>Custom script hooks</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Cloud saves</td><td>❌ No</td><td>⚠️ Experimental</td></tr>
-      <tr><td>Access Junk Store</td><td>📥 Decky menu</td><td>🎮 L3+R3 or Ctrl+3</td></tr>
+      <tr><td>Cloud Saves</td><td>❌ No</td><td>⚠️ Experimental - need to enable per game</td></tr>
+      <tr><td>Access Junk Store</td><td>📥 Decky menu</td><td>🗗 Select or Ctrl+3</td></tr>
       <tr><td>Releases</td><td>🔧 Decky process</td><td>🚀 Direct</td></tr>
       <tr><td>Performance</td><td>💯 100 games/tab</td><td>🔟🔟🔟 1000 games/tab</td></tr>
       <tr><td>Tinkering</td><td>🔒 Limited</td><td>🔧 Extensive</td></tr>
       <tr><td>Open extensibility</td><td>🧩 All code</td><td>🪄 Generator + code</td></tr>
-      <tr><td>Game dependency install</td><td>🛠️ Manual<br>🧪 Proton Tricks</td><td>⚙️ Built-in<br>🛠️ Manual<br>🧪 Proton Tricks</td></tr>
+      <tr>
+        <td>Game dependency install</td>
+        <td>🛠️ Manual<br>🧪 Proton Tricks</td>
+        <td class="hover-popup" onmouseenter="restartGif(this)">
+          ⚙️ Built-in <span class="hover-label">👁️ Hover to view</span>
+          <div class="gif-popup">
+            <img src="/assets/images/jspro/tablegifs/dependencies.gif" alt="Demo">
+          </div><br>
+          🛠️ Manual<br>
+          🧪 Proton Tricks
+        </td>
+      </tr>
       <tr><td>Custom extensions</td><td>👨‍💻 Manual coding</td><td>🧙 Wizard-supported</td></tr>
       <tr><td>Customise extensions</td><td>💻 Code heavy</td><td>🧠 Generated + hooks</td></tr>
     </tbody>
   </table>
+    <style>
+      .hover-popup {
+        position: relative;
+        display: inline-block;
+      }
+
+      .hover-label {
+        font-size: 0.8em;
+        font-weight: bold;
+        color: #0af; /* bright cyan for visibility */
+        margin-left: 0.25em;
+      }
+
+      .hover-popup .gif-popup {
+      display: none;
+      position: fixed;
+      top: 2em; /* space below icon/text */
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      background: #222;
+      padding: 0.75em;
+      border: 2px solid #0af;
+      border-radius: 0.5em;
+      box-shadow: 0 0 10px #0af;
+      max-width: 90vw; /* prevent horizontal overflow */
+      max-height: 70vh; /* prevent vertical overflow */
+      overflow: auto;
+      text-align: center;
+      }
+
+      .hover-popup:hover .gif-popup {
+        display: block;
+      }
+
+      .hover-popup img {
+        max-width: 1000px;
+        max-height: 900px;
+        display: block;
+      }
+  </style>
 </details>
 
 <details class="faq-box">
@@ -269,3 +342,11 @@ header:
     It’s important to understand that some features users want are simply too large to build within the limitations of the existing GOG extension. While backporting features from the new version would be nice, it would require roughly ten times the effort due to the new tooling and rearchitected design centered around it.
   </p>
 </details>
+
+<script>
+  function restartGif(container) {
+    const gif = container.querySelector("img");
+    const src = gif.getAttribute("src").split("?")[0]; // remove any existing query
+    gif.setAttribute("src", `${src}?t=${Date.now()}`); // force reload
+  }
+</script>
