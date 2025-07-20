@@ -1,0 +1,42 @@
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.media-item {
+  text-align: center;
+}
+
+.media-item img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background-color: #111;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.media-item img.zoomed {
+  transform: scale(1.5);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.6);
+  z-index: 1000;
+  position: relative;
+}
+
+.caption-title {
+  margin-top: 0.6rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.caption {
+  font-size: 0.85rem;
+  color: #ccc;
+  margin-top: 0.25rem;
+}
