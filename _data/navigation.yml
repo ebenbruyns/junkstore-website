@@ -10,9 +10,10 @@ main:
     url: /deckyhub/
   - title: "Tested Games"
     url: /tested-games/
-  
-  #- title: "Sitemap"
-  #  url: /sitemap/
+  - title: "Media Gallery"
+    url: /gallery/
+
+
   #- title: "Extra Menu Item 1"
   #  url: /
   #- title: "Extra Menu Item 2"
