@@ -1682,11 +1682,17 @@
   notes: "You need to change controller mapping to keyboard & mouse and tweak the mapping." 
   date_tested: "July '25"
 
-# - title: ""
-#   storefront: "GOG"
-#   protondb: ""
-#   notes: "" 
-#   date_tested: ""
+- title: "The Witcher: Enhanced Edition"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/20900"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. Need v0.1.8 of the Gog extension."
+  date_tested: "July '25"
+
+- title: "Prison Architect"
+  storefront: "GOG"
+  protondb: "https://www.protondb.com/app/233450"
+  notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to change the controller mapping to keyboard & mouse."
+  date_tested: "July '25"
 
 # - title: ""
 #   storefront: "GOG"
@@ -1694,11 +1700,11 @@
 #   notes: "" 
 #   date_tested: ""
 
-# - title: "The Witcher: Enhanced Edition"
+# - title: ""
 #   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/20900"
-#   notes: ""
-#   date_tested: "July '25"
+#   protondb: ""
+#   notes: "" 
+#   date_tested: ""
 
 # - title: "The Witcher 2: Assassins of Kings Enhanced Edition"
 #   storefront: "GOG"
@@ -1760,8 +1766,3 @@
 #   notes: ""
 #   date_tested: ""
 
-# - title: "Prison Architect"
-#   storefront: "GOG"
-#   protondb: "https://www.protondb.com/app/233450"
-#   notes: ""
-#   date_tested: ""

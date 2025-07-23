@@ -16,8 +16,8 @@ header:
 
 {% include testimonials.html %}
 
-<h1>🎉 Welcome to Early Access for Junk Store 2.0</h1>
-We’re quietly opening up access ahead of the public launch to keep things manageable while we scale.
+<h1>🎉 Junk Store 2.0 is finally here!</h1>
+Junk Store 2.0 is now available for purchase.
 
 <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
 📧 <strong>Important:</strong>
