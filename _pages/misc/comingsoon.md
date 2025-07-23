@@ -17,14 +17,14 @@ header:
 
 <h2>Junk Store 2.0 – Pricing and What to Expect</h2>
 
-  We’re excited to announce that Junk Store is now open for purchase in early access!<br>
+  We’re excited to announce that Junk Store is now available for purchase!<br>
   While the core features are ready, there may still be some bugs or rough edges as we continue polishing the experience.<br>
   <div><strong>We offer a 7-day free trial</strong> so you can try everything before committing. Cancel anytime before the trial ends if you're not satisfied or want to avoid being billed.</div><br>
  
   To thank our early supporters, we’re offering a special discount valid through the end of the month.<br>
   💸 Use code <span style="color: green; font-weight: bold;">EarlyBird</span> at checkout for <strong>25% off</strong> — valid until <strong>July 31, 2025</strong><br>
 
-  If you’ve previously purchased or contributed, you’ll be eligible for a <strong>discount</strong> that reflects your support. This is our way of saying thanks for backing the project early.
+  If you’ve previously purchased or contributed, a <strong>discount</strong> has been applied against the email you signed up with on Patreon or Ko-fi. This is our way of saying thanks for backing the project early.
 
   Get in early, explore all the new features, and help shape the future of Junk Store.
 
