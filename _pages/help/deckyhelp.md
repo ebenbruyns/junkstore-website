@@ -28,7 +28,7 @@ header:
 <section class="gog-extension">
   <h2>Installing the GOG Extension</h2>
  
-  <div>The GOG extension is now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them. Once you’ve purchased access, you’ll receive instructions on how to install the extension and link it to your Junk Store plugin.</div><br>
+  <div>The GOG extension is now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</div><br>
 
   <div>Once you’ve purchased access, please follow the <a href="/tutorials/gogextension">Gog Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.</div>
 
