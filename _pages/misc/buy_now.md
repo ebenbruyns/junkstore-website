@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Junk Store 2.0 - Early Access"
+title: "Junk Store 2.0"
 permalink: /buy_now/
 header:
   overlay_color: "#000"
