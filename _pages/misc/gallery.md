@@ -6,7 +6,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image.jpg
-excerpt: "Explore Junk Store in action: screenshots, GIFs, videos, and articles."
+excerpt: "Explore Junk Store in action: GIFs, videos, and articles."
 classes: wide
 ---
 <div class="spacer mt-4"></div>
