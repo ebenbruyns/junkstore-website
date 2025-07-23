@@ -14,25 +14,22 @@ header:
 
 <section class="gog-extension">
   <h2>Installing the GOG Extension</h2>
-  <p>
-    The GOG extension is available as a supporter benefit. You can purchase it via Ko-fi or Patreon using the button below. Once completed, you’ll receive download access and emailed instructions on how to install it and link it to your Junk Store plugin.
-  </p>
+
+  <div>The GOG extension is now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</div><br>
+
+  <div>Once you’ve purchased access, please follow the <a href="/tutorials/gogextension">Gog Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.</div>
 
   <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
     <strong>Note:</strong> The GOG extension is currently in <strong>maintenance-only</strong> mode. This means we’ll continue fixing bugs and ensuring compatibility, but we’re not actively adding new features. Continued support depends on user interest and purchases.
   </p>
 
-  <a href="https://ko-fi.com/junkstore" class="button" style="margin-right: 10px;" target="_blank" rel="noopener noreferrer">Ko-fi</a>
-  <a href="https://www.patreon.com/junkstore" class="button" target="_blank" rel="noopener noreferrer">Patreon</a>
-</section>
+  <a href="https://portal.junkstore.xyz/" class="button gog-extension-button" style="margin-right: 10px;" target="_blank" rel="noopener noreferrer">Get the Gog Extension</a>
 
 <!-- FAQ Entries -->
 <details class="faq-box">
   <summary>Where can I find the GOG extension?</summary>
   <p></p>
-    It is only available to our Ko-fi & Patreon supporters. You can either subscribe as a monthly supporter, or you can purchase it as a one off through 
-    <a href="https://ko-fi.com/junkstore/shop" target="_blank">Ko-fi</a> or 
-    <a href="https://www.patreon.com/junkstore/shop" target="_blank">Patreon</a>. 
+    It is exclusively available through the Junk Store portal. You can purchase access there with a one-time payment from the <a href="https://portal.junkstore.xyz/" target="_blank">Junk Store Portal</a>.<br><br>
     Once you have it, you have it. We can't take away Gog functionality/integration with the Junk Store plugin. All funds go back into the enhancement and development of Junk Store.
 </details>
 

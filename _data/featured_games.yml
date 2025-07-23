@@ -1,5 +1,17 @@
-- title: "Star Wars Jedi Knight: Dark Forces II"
-  storefront: "GOG"
+- title: "Civilization VI"
+  storefront: "Epic"
+
+- title: "Endless Space 2"
+  storefront: "Amazon"
+
+- title: "Genshin Impact"
+  storefront: "Epic"
+
+- title: "Zenless Zone Zero"
+  storefront: "Epic"
+
+- title: "Crystal of Atlan"
+  storefront: "Epic"
 
 - title: "Beholder 3"
   storefront: "Amazon"
@@ -13,12 +25,6 @@
 - title: "Sky Racket"
   storefront: "Epic"
 
-# - title: ""
-#   storefront: "Epic"
-
-# - title: ""
-#   storefront: "GOG"
-
 - title: "Marvel's Midnight Suns"
   storefront: "Epic"
 
@@ -26,6 +32,18 @@
   storefront: "Epic"
 
 - title: "Football Manager 2024"
+  storefront: "Epic"
+
+# - title: ""
+#   storefront: "Epic"
+
+# - title: ""
+#   storefront: "GOG"
+
+- title: "Zenless Zone Zero"
+  storefront: "Epic"
+
+- title: "Crystal of Atlan"
   storefront: "Epic"
 
 # - title: ""
