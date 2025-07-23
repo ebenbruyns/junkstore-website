@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Frequently Asked Questions"
-permalink: /v2faq/
+permalink: /2.0faq/
 classes: wide
 header:
   overlay_color: "#000"
@@ -129,8 +129,7 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
     We really appreciate bug reports! Like you, we want Junk Store to just work—so if you come across a bug, please let us know. If we don’t know about it, we can’t fix it.
   <br>
   <br>
-    <strong>Submit bugs on GitHub so we can track them properly:</strong><br>
-    <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues/new" target="_blank" rel="noopener">Submit a bug report</a>
+    <strong>Submit bugs on GitHub so we can track them properly:</strong> <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues/new" target="_blank" rel="noopener">Submit a bug report</a>
   <br>
   <br>
     You’ll need a GitHub account to submit an issue. It’s free to create one if you don’t already have it.
