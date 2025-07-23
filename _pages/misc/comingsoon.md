@@ -15,7 +15,7 @@ header:
 
 {% include testimonials.html %}
 
-<h2>Junk Store 2.0 is now available for purchse!</h2>
+<h2>Junk Store 2.0 is now available for purchase!</h2>
 
   We’re excited to announce that Junk Store is now available for purchase!<br>
   While the core features are ready, there may still be some bugs or rough edges as we continue polishing the experience.<br>
