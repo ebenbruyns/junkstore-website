@@ -169,3 +169,6 @@ lunr:
   search_within_pages: true
 
 enable_copy_code_button: true
+
+google_analytics:
+  id: "G-E2Y00GCMSG" # replace with your actual Google Analytics Measurement ID
