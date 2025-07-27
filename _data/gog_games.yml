@@ -436,7 +436,7 @@
 
 - title: "Dishonored - Definitive Edition"
   protondb: "https://www.protondb.com/app/205100"
-  storefront: GOG
+  storefront: "GOG"
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "June '24"
 
@@ -941,7 +941,7 @@
 - title: "One Step From Eden"
   storefront: "GOG"
   protondb: "https://www.protondb.com/app/960690"
-  nnotes: "<strong>Works out of the box</strong> — no extra setup needed."
+  notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "Aug '24"
 
 - title: "The Outerworlds"
@@ -1175,7 +1175,7 @@
 
 - title: "South of the Circle"
   storefront: "GOG"
-  protondb: "https://www.protondb.com/app/1811040https://www.protondb.com/app/2443110"
+  protondb: "https://www.protondb.com/app/1811040"
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "Aug '24"
 
@@ -1673,7 +1673,7 @@
 - title: "Hard West"
   storefront: "GOG"
   protondb: ""
-  notes: "You need to chagne the controller layout/mapping." 
+  notes: "You need to change the controller layout/mapping." 
   date_tested: "Aug '24"
 
 - title: "Star Wars Jedi Knight: Dark Forces II"
