@@ -17,13 +17,15 @@ excerpt: "Not Sure What the Paid Version Includes? Start Here."
 {% include testimonials.html %}
 
 <h2>🎉 Junk Store 2.0 Is Here — Just $40/year, with a 7-Day Free Trial</h2>
+<p><strong>💬 TL;DR:</strong> $40/year license includes updates, support, and all features released during your active period.<br>
+If you don’t renew, you keep the last version you received — <strong>forever</strong>.</p>
+
 <p>Junk Store 2.0 is now available as a fully standalone app — no Decky required!<br>
 A single $40 yearly license gives you everything — updates, features, support, and peace of mind — plus a <strong>7-day free trial</strong> so you can try everything risk-free.</p>
 <p>It’s a small investment for the freedom to pick up and play your games whenever the mood strikes — no fuss.</p>
 <p>Install with a single click — no desktop mode or manual setup required. Configure everything using the Steam Deck’s built-in controller, no mouse needed.</p>
 
-<p><strong>💬 TL;DR:</strong> $40/year license includes updates, support, and all features released during your active period.<br>
-If you don’t renew, you keep the last version you received — <strong>forever</strong>.</p>
+
 
 <h3>🧪 Try Before You Buy</h3>
 <p>You get <strong>full access</strong> during your 7-day free trial.<br>
