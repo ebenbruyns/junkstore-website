@@ -13,10 +13,11 @@ header:
 <div class="spacer mt-4"></div>
 
   <h3>How to download and install Junk Store Pro</h3>
+  If you prefer a video tutorial you can find one here: <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener">How to Install Junk Store 2.0 on Steam Deck (Epic, Gog, Amazon)</a>
   <ol>
       <li><strong>Download the latest <code>js_pro</code></strong></li>
         Latest build will be the first file in the list<br>
-      <img src="/assets/images/jspro/install2.0/downloadjspro.png" alt="download from portal" width="600" /><br>
+      <img src="/assets/images/jspro/install2.0/downloadjspro.png" alt="download from portal" width="600" /><br><br>
       <li>Open Dolphin → Downloads → Right-click the file → Properties → Permissions</li>
         Mark it as executable and click <strong>OK </strong>then double-click on it to install<br>
       <img src="/assets/images/jspro/install2.0/executable.png" alt="Mark file as exectuable" width="600" /><br><br>

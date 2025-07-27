@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Junk Store 2.0 - Early Access"
+title: "Junk Store 2.0"
 permalink: /buy_now/
 header:
   overlay_color: "#000"
@@ -19,12 +19,8 @@ header:
 <h1>🎉 Junk Store 2.0 is finally here!</h1>
 Junk Store 2.0 is now available for purchase.
 
-<p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
-📧 <strong>Important:</strong>
-If you’ve contributed before or purchased the GOG extension, make sure to <em>reset your password using the <strong>same email</strong> you used on Ko-fi or Patreon.</em>
-<br>
-Can’t access that email? Contact us via <a href="https://www.patreon.com/junkstore" target="_blank" rel="noopener">Patreon</a> or <a href="https://ko-fi.com/junkstore" target="_blank" rel="noopener">Ko-fi</a> and we’ll help you get sorted.
-</p>
+<p>A single $40 yearly license gives you everything — updates, features, support, and peace of mind — plus a <strong>7-day free trial</strong> so you can try everything risk-free.</p>
+
 
 <h3>This is the biggest upgrade we’ve ever done:</h3>
 <ul>
@@ -43,6 +39,13 @@ Can’t access that email? Contact us via <a href="https://www.patreon.com/junks
 <br>
 💬 Join us on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a><br>
 📎 View the <a href="/get_started/" target="_blank" rel="noopener">Getting Started Guide</a>
+
+<p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
+📧 <strong>Important:</strong>
+If you’ve contributed before or purchased the GOG extension, make sure to <em>reset your password using the <strong>same email</strong> you used on Ko-fi or Patreon.</em>
+<br>
+Can’t access that email? Contact us via <a href="https://www.patreon.com/junkstore" target="_blank" rel="noopener">Patreon</a> or <a href="https://ko-fi.com/junkstore" target="_blank" rel="noopener">Ko-fi</a> and we’ll help you get sorted.
+</p>
 
 <div style="text-align: center; margin-top: 2rem;">
   <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button">Sign Up Now</a>
