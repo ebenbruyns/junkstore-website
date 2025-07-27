@@ -1,60 +1,14 @@
-# main links links
+# main navigation
 main:
-  - title: "Junk Store 2.0 Hub"
+  - title: "Junk Store 2.0"
     url: "/2.0-hub/"
-  # - title: "Learn More"
-  #   url: /learnmore/
-  - title: "About"
-    url: /about/
-  - title: "Decky Plugin Hub"
+  - title: "Decky Plugin"
     url: /deckyhub/
-  - title: "Tested Games"
+  - title: "Game Compatibility"
     url: /tested-games/
   - title: "Media Gallery"
     url: /gallery/
-
-
-  #- title: "Extra Menu Item 1"
-  #  url: /
-  #- title: "Extra Menu Item 2"
-  #  url: /
-  #- title: "Extra Menu Item Long Title"
-  #  url: /
-
-# # sidebar navigation list Decky Version
-# sidebar-help:
-#   - title: "Frequently Asked Questions - Plugin"
-#     url: "/help/faq"
-#   - title: "Tutorials"
-#     url: /tutorials/
-#     children:
-#       - title: "How to install Junk Store Plugin"
-#         url: "/tutorials/Install"
-#       - title: "How to Login via OAuth"
-#         url: "/tutorials/OAuth"
-#       - title: "How to Install and Use Wine Cellar Plugin"
-#         url: "/tutorials/WineCellar"
-#       - title: "How to check/change Proton Version"
-#         url: "/tutorials/Proton"
-#       - title: "How to Change the Language for Epic Games"
-#         url: "/tutorials/EpicOverrides"
-#       - title: "How to Manually Install the C++ Runtime"
-#         url: "/tutorials/C++Runtime" 
-#   - title: "Troubleshooting"
-#     children:
-#       - title: "Junk Store Decky Plugin"
-#         url: /help/troubleshooting/plugin/plugin/
-#       - title: "Epic Integration"
-#         url: /help/troubleshooting/plugin/epic/
-#       - title: "Gog Integration"
-#         url: /help/troubleshooting/plugin/gog/      
-
-# about-sidebar:
-#   - title: "About Junk Store"
-#     children:
-#       - title: "Who We Are"
-#         url: /about/#who-we-are
-#       - title: "Our Mission"
-#         url: /about/#our-mission
-#       - title: "Our Versions"
-#         url: /about/#our-versions
+  - title: "About"
+    url: /about/
+  - title: "Buy Now"
+    url: /buy_now/

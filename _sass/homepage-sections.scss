@@ -1,0 +1,245 @@
+/* Problem/Solution Section */
+.problem-solution {
+  background-color: #253445;
+  padding: 2.5rem 1rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  border: 1px solid #444;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 300px;
+}
+
+.problem-box, .solution-box {
+  padding: 1.5rem;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+}
+
+.problem-box {
+  background-color: rgba(231, 76, 60, 0.1);
+  border: 1px solid rgba(231, 76, 60, 0.3);
+}
+
+.solution-box {
+  background-color: rgba(46, 204, 113, 0.1);
+  border: 1px solid rgba(46, 204, 113, 0.3);
+}
+
+.problem-box h2 {
+  color: #e74c3c;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.solution-box h2 {
+  color: #2ecc71;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.problem-points, .solution-points {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.problem-points p, .solution-points p {
+  color: #e8e8e8;
+  line-height: 1.4;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.problem-points p {
+  border-left: 3px solid #e74c3c;
+}
+
+.solution-points p {
+  border-left: 3px solid #2ecc71;
+}
+
+/* Key Features Section */
+.key-features {
+  background-color: #1e2a38;
+  padding: 1rem 1rem 2.5rem 1rem;
+  margin: 2rem 0;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 300px;
+}
+
+.key-features h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature {
+  background-color: #253445;
+  padding: 1.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  color: #e8e8e8;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+.feature-detail {
+  display: block;
+  font-size: 0.9rem;
+  color: #b8b8b8;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  line-height: 1.3;
+}
+
+.feature:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 191, 255, 0.2);
+  border-color: #66bfff;
+}
+
+/* Final CTA Section */
+.final-cta {
+  background-color: #1a252f;
+  padding: 3rem 1rem;
+  margin: 2rem 0 0 0;
+  text-align: center;
+  border-top: 2px solid #444;
+}
+
+.cta-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.final-cta h2 {
+  color: #66bfff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.final-cta p {
+  color: #e8e8e8;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button-secondary {
+  background-color: transparent;
+  border: 2px solid #66bfff;
+  color: #66bfff;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.button-secondary:hover {
+  background-color: #66bfff;
+  color: #1a252f;
+  transform: translateY(-2px);
+}
+
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .problem-solution {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+  }
+  
+  .problem-box h2, .solution-box h2 {
+    font-size: 1.2rem;
+  }
+  
+  .key-features {
+    padding: 2rem 1rem;
+  }
+  
+  .key-features h2 {
+    font-size: 1.5rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .feature {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  .final-cta {
+    padding: 2rem 1rem;
+  }
+  
+  .final-cta h2 {
+    font-size: 1.5rem;
+  }
+  
+  .final-cta p {
+    font-size: 1rem;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button, .button-secondary {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+}
