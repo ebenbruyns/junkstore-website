@@ -16,9 +16,12 @@ excerpt: "Not Sure What the Paid Version Includes? Start Here."
 
 {% include testimonials.html %}
 
-<h2>🎉 Junk Store 2.0 Is Here — Just <strong>$3.33/month, billed annually</strong> (that’s $40/year), with a 7-Day Free Trial</h2>
+<h2>🎉 Junk Store 2.0 Is Here — Just $40/year, with a 7-Day Free Trial</h2>
 <p>Junk Store 2.0 is now available as a fully standalone app — no Decky required!<br>
-Enjoy full access for only <strong>$3.33 per month, billed annually</strong> (a single $40 payment each year), plus a <strong>7-day free trial</strong> so you can try everything risk-free.</p>
+A single $40 yearly license gives you everything — updates, features, support, and peace of mind — plus a <strong>7-day free trial</strong> so you can try everything risk-free.</p>
+<p>It’s a small investment for the freedom to pick up and play your games whenever the mood strikes — no fuss.</p>
+<p>Install with a single click — no desktop mode or manual setup required. Configure everything using the Steam Deck’s built-in controller, no mouse needed.</p>
+
 <p><strong>💬 TL;DR:</strong> $40/year license includes updates, support, and all features released during your active period.<br>
 If you don’t renew, you keep the last version you received — <strong>forever</strong>.</p>
 
@@ -71,7 +74,7 @@ No feature locks. No limitations. Just cancel before the trial ends if it’s no
   <li><strong>Amazon Games</strong> support</li>
   <li><strong>Full GOG support</strong>, including DOSBox & ScummVM</li>
   <li><strong>Emulator & ROM integration</strong></li>
-  </ul>
+</ul>
 
 <h4>🎮 Game Management Features</h4>
 <ul>
@@ -109,4 +112,5 @@ No feature locks. No limitations. Just cancel before the trial ends if it’s no
 <div style="text-align: center; margin-top: 2rem;">
   <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button">Sign Up Now</a>
 </div>
+
 
