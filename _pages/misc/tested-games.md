@@ -59,7 +59,7 @@ header:
 </div> -->
 
 <div class="table-scroll-container">
-  <table id="gamesTable" class="table table--small table--bordered">
+  <table id="gamesTable">
     <thead>
       <tr>
         <th>Game</th>

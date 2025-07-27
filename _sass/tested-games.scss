@@ -171,18 +171,123 @@
 #gamesTable td:nth-child(5) { width: 12%; white-space: nowrap; } /* Date Tested */
 
 
+/* Mobile card layout - hide table headers and convert to cards */
 @media (max-width: 768px) {
-  #gamesTable th,
+  .table-scroll-container {
+    border: none;
+    background: transparent;
+    overflow: visible;
+  }
+  
+  #gamesTable {
+    min-width: unset;
+    border: none;
+    background: transparent;
+  }
+  
+  #gamesTable thead {
+    display: none;
+  }
+  
+  #gamesTable tbody {
+    display: block;
+  }
+  
+  #gamesTable tbody tr {
+    display: block;
+    background-color: #1e2a38;
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  #gamesTable tbody tr:hover {
+    background-color: #253445;
+  }
+  
   #gamesTable td {
-    width: auto;
-    white-space: normal;         // Allow text to wrap
-    word-break: break-word;      // Break up long words
-    overflow-wrap: break-word;   // Better support across browsers
+    display: block;
+    border: none;
+    padding: 0.5rem 0;
+    text-align: left !important;
+    width: 100% !important;
+    white-space: normal;
+    word-break: break-word;
   }
-
+  
+  /* Add labels for each field */
+  #gamesTable td::before {
+    font-weight: bold;
+    color: #66bfff;
+    display: inline-block;
+    min-width: 80px;
+    margin-right: 0.5rem;
+  }
+  
+  #gamesTable td:nth-child(1)::before { content: "Game: "; }
+  #gamesTable td:nth-child(2)::before { content: "Store: "; }
+  #gamesTable td:nth-child(3)::before { content: "ProtonDB: "; }
+  #gamesTable td:nth-child(4)::before { content: "Notes: "; }
+  #gamesTable td:nth-child(5)::before { content: "Tested: "; }
+  
+  /* Hide empty cells */
+  #gamesTable td:empty,
+  #gamesTable td:nth-child(3):not(:has(a)),
+  #gamesTable td:nth-child(4):empty,
+  #gamesTable td:nth-child(5):empty {
+    display: none;
+  }
+  
+  /* Game title styling */
   #gamesTable td:nth-child(1) {
-    white-space: normal;         // Specifically for the Game column
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #cceeff;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.75rem;
   }
+  
+  /* Store badge in mobile */
+  #gamesTable td:nth-child(2) .store-badge {
+    margin-left: 0;
+  }
+  
+  /* Mobile table controls */
+  .table-controls {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+  
+  .filter-group,
+  .search-group {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.25rem;
+  }
+  
+  .search-input-wrapper input {
+    max-width: 100%;
+  }
+}
+
+/* Recently tested section */
+.feature-box {
+  background-color: #1e2a38;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.feature-box h3 {
+  color: #66bfff;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
 }
 
 .featured-row {
