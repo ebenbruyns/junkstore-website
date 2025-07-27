@@ -54,7 +54,7 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
       <tr><td>Change launcher per game</td><td>❌ No</td><td>✅ Yes</td></tr>
       <tr><td>Custom script hooks</td><td>❌ No</td><td>✅ Yes</td></tr>
       <tr><td>Cloud saves</td><td>❌ No</td><td>⚠️ Experimental</td></tr>
-      <tr><td>Access Junk Store</td><td>📥 Decky menu</td><td>🎮 L3+R3 or Ctrl+3</td></tr>
+      <tr><td>Access Junk Store</td><td>📥 Decky menu</td><td>🎮 View/Select or Ctrl+3</td></tr>
       <tr><td>Releases</td><td>🔧 Decky process</td><td>🚀 Direct</td></tr>
       <tr><td>Performance</td><td>💯 100 games/tab</td><td>🔟🔟🔟 1000 games/tab</td></tr>
       <tr><td>Tinkering</td><td>🔒 Limited</td><td>🔧 Extensive</td></tr>
@@ -207,6 +207,11 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 <details class="faq-box">
   <summary>How do I install or uninstall a game?</summary>
   <p></p>
+  <strong>To install a game in Junk Store:</strong>
+  <ul>
+    <li>Open the game’s page in Junk Store and click install.</li>
+    <li>Remember to stay on the game page until installation is complete.</li>
+  </ul>
   <strong>To uninstall a game in Junk Store:</strong>
   <ol>
     <li>Open the game’s page in Junk Store.</li>

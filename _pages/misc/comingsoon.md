@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Junk Store 2.0 - Learn More"
-permalink: /learnmore/
+permalink: /comingsoon/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -15,7 +15,7 @@ header:
 
 {% include testimonials.html %}
 
-<h2>Junk Store 2.0 – Pricing and What to Expect</h2>
+<h2>Junk Store 2.0 is now available for purchase!</h2>
 
   We’re excited to announce that Junk Store is now available for purchase!<br>
   While the core features are ready, there may still be some bugs or rough edges as we continue polishing the experience.<br>

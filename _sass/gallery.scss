@@ -7,6 +7,8 @@
 
 .media-item {
   text-align: center;
+  max-width: 400px;
+  margin: 0 auto; // center it if there's only one
 }
 
 .media-item img {
@@ -40,3 +42,5 @@
   color: #ccc;
   margin-top: 0.25rem;
 }
+
+
