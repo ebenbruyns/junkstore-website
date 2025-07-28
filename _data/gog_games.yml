@@ -1616,12 +1616,6 @@
   notes: "Works out of the box, however multiplayer seems to be local co-op only"
   date_tested: "July '25"
 
-- title: "Front Mission 1st Remake"
-  storefront: "GOG"
-  protondb: "https://www.protondb.com/app/2399730"
-  notes: "<strong>Works out of the box</strong> — no extra setup needed."
-  date_tested: "May '25"
-
 - title: "Blood West"
   storefront: "GOG"
   protondb: "https://www.protondb.com/app/1587130"
@@ -1661,12 +1655,6 @@
 - title: "Middle-earth: Shadow of Mordor"
   storefront: "GOG"
   protondb: "https://www.protondb.com/app/241930"
-  notes: "<strong>Works out of the box</strong> — no extra setup needed."
-  date_tested: "Sept '24"
-
-- title: "Dex"
-  storefront: "GOG"
-  protondb: "https://www.protondb.com/app/269650"
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   date_tested: "Sept '24"
 
