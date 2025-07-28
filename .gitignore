@@ -4,7 +4,7 @@ _site/
 assets/lib
 
 # Project management and internal documentation
-docs/
-agents/
+docs-organized/
+claude-agents/
 *.backup
 CLAUDE.md
