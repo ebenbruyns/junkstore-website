@@ -1,0 +1,29 @@
+{
+  "last_updated": "2025-07-28T13:02:00.705854",
+  "total_items": 3,
+  "categories": {
+    "technical/problem-solutions": [
+      {
+        "filename": "solution-from-progressmd-20250728.md",
+        "path": "technical/problem-solutions/solution-from-progressmd-20250728.md",
+        "modified": "2025-07-28T13:02:00.701161"
+      }
+    ],
+    "technical/architecture-patterns": [
+      {
+        "filename": "jekyll-website-project-structure-20250728.md",
+        "path": "technical/architecture-patterns/jekyll-website-project-structure-20250728.md",
+        "modified": "2025-07-28T13:02:00.701161"
+      }
+    ],
+    "performance/baselines": [
+      {
+        "filename": "current-performance-baseline-20250728.md",
+        "path": "performance/baselines/current-performance-baseline-20250728.md",
+        "modified": "2025-07-28T13:02:00.701161"
+      }
+    ]
+  },
+  "recent_additions": [],
+  "search_terms": {}
+}
