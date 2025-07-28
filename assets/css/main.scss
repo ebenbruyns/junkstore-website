@@ -12,7 +12,6 @@
 @import "content-boxes";
 @import "buttons";
 @import "gallery";
-// @import "modal";
 
 
 /* Ensure hero images or avatars aren't accidentally grayed out */
@@ -27,14 +26,17 @@
 }
 
 .page-intro {
-  background-color: #f3f4f6;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
   padding: 1.5rem;
   border-radius: 10px;
   margin-bottom: 2rem;
 }
 
 .toc {
-  background: #eef2f5;
+  background: #2a2a2a;
+  border: 1px solid #444;
+  color: #e0e0e0;
   padding: 1rem;
   border-left: 4px solid #007acc;
   margin-bottom: 2rem;
@@ -53,46 +55,10 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  /* Dark background for content boxes */
-  // .content-box {
-  //   background-color: #1f1f1f;
-  //   border: 1px solid #333;
-  //   color: #e0e0e0;
-  // }
+/* Force dark theme styles for all users */
 
-  /* FAQ and Troubleshooting boxes */
-  // details.faq-box,
-  // details.troubleshooting-box {
-  //   background-color: #1e2a38;
-  //   border: 1px solid #444;
-  //   color: #e0e0e0;
-  // }
-
-  // details.faq-box[open],
-  // details.troubleshooting-box[open] {
-  //   background-color: #1e2a38;
-  //   border-color: #3399ff;
-  // }
-
-  // details.faq-box summary:hover,
-  // details.troubleshooting-box summary:hover {
-  //   color: #3399ff;
-  // }
-
-  // details.faq-box p,
-  // details.troubleshooting-box p {
-  //   border-top: 1px solid #444;
-  // }
-
-  /* Page intro box */
-  .page-intro {
-    background-color: #2a2a2a;
-    color: #e0e0e0;
-  }
-
-  /* Hero video landing page */
-  .hero-video-wrapper {
+/* Hero video landing page */
+.hero-video-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,12 +66,12 @@
     overflow: hidden;
   }
 
-  .hero-video-inner {
+.hero-video-inner {
     width: 100%;
     max-width: 960px;
   }
 
-  .hero-video-inner video {
+.hero-video-inner video {
     width: 100%;
     height: auto;
     display: block;
@@ -115,19 +81,15 @@
 
 
 
-// @keyframes bounce {
-//   0%, 100% { transform: translateY(0); }
-//   50% { transform: translateY(8px); }
-// }
 
-  /* Landing page card with picture */
-  .feature-card {
+/* Landing page card with picture */
+.feature-card {
     display: flex;
     justify-content: center;
     padding: 2rem 1rem;
   }
 
-  .card-content {
+.card-content {
     display: flex;
     flex-wrap: wrap;
     background: #1e1e1e;
@@ -138,7 +100,7 @@
     max-width: 1000px;
   }
 
-  .card-content img {
+.card-content img {
     width: 100%;
     max-width: 500px;
     object-fit: cover;
@@ -146,14 +108,14 @@
     flex: 1 1 300px;
   }
 
-  .card-text {
+.card-text {
     flex: 1 1 300px;
     padding: 1.5rem;
     color: #fff;
     background-color: #2a2a2a;
   }
 
-  .card-text h3 {
+.card-text h3 {
     margin-top: 0;
     font-size: 1.5rem;
   }
@@ -194,10 +156,10 @@
 }
 
 @media (max-width: 768px) {
-  .feature-box {
+.feature-box {
     flex-direction: column;
   }
-  .feature-box.reverse {
+.feature-box.reverse {
     flex-direction: column;
   }
 }
@@ -249,109 +211,6 @@
   }
 }
 
-// /* Tutorials Collection Styles (Dark Skin Themed) */
-// .tutorial-grid {
-//   display: grid;
-//   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-//   gap: 1.5rem;
-//   margin-top: 2rem;
-// }
-
-// .tutorial-box {
-//   background-color: #1e1e1e; /* dark box background */
-//   border: 1px solid #333; /* subtle border */
-//   border-radius: 12px;
-//   padding: 1rem;
-//   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-//   transition: transform 0.2s ease, box-shadow 0.2s ease;
-// }
-
-// .tutorial-box:hover {
-//   transform: translateY(-4px);
-//   box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-// }
-
-// .tutorial-img img {
-//   max-width: 100%;
-//   border-radius: 8px;
-//   margin-bottom: 0.75rem;
-// }
-
-// .tutorial-content h3 {
-//   font-size: 1.2rem;
-//   margin-bottom: 0.5rem;
-// }
-
-// .tutorial-content h3 a {
-//   color: #ddd;
-//   text-decoration: none;
-// }
-
-// .tutorial-content h3 a:hover {
-//   color: #fff;
-//   text-decoration: underline;
-// }
-
-// .tutorial-content h3 a:visited {
-//   color: #ddd; /* maintain same color for visited links */
-// }
-
-// .tutorial-content p {
-//   font-size: 0.95rem;
-//   color: #aaa;
-// }
-
-// /* Troubleshooting Collection Styles (Dark Skin Themed) */
-// .troubleshooting-grid {
-//   display: grid;
-//   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-//   gap: 1.5rem;
-//   margin-top: 2rem;
-// }
-
-// .troubleshooting-box {
-//   background-color: #1e1e1e; /* dark box background */
-//   border: 1px solid #333; /* subtle border */
-//   border-radius: 12px;
-//   padding: 1rem;
-//   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-//   transition: transform 0.2s ease, box-shadow 0.2s ease;
-// }
-
-// .troubleshooting-box:hover {
-//   transform: translateY(-4px);
-//   box-shadow: 0 4px 8px rgba(0,0,0,0.4);
-// }
-
-// .troubleshooting-img img {
-//   max-width: 100%;
-//   border-radius: 8px;
-//   margin-bottom: 0.75rem;
-// }
-
-// .troubleshooting-content h3 {
-//   font-size: 1.2rem;
-//   margin-bottom: 0.5rem;
-// }
-
-// .troubleshooting-content h3 a {
-//   color: #ddd;
-//   text-decoration: none;
-// }
-
-// .troubleshooting-content h3 a:hover {
-//   color: #fff;
-//   text-decoration: underline;
-// }
-
-// .troubleshooting-content h3 a:visited {
-//   color: #ddd; /* maintain same color for visited links */
-// }
-
-// .troubleshooting-content p {
-//   font-size: 0.95rem;
-//   color: #aaa;
-// }
 
 /* Troubleshooting Code Block Styles */
 pre code {
@@ -391,6 +250,4 @@ pre code span {
 
 .copy-btn:hover {
   background-color: #0056b3;
-}
-
 }
