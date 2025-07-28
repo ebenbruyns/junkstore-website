@@ -54,7 +54,7 @@ This section deals with any problems specific to GOG integration — from downlo
 <p>Here are your best starting points:</p>
 <ul>
   <li>
-    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Deckly plugin.
+    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Decky plugin.
   </li>
 <li>
     Still stuck? Ask us on 

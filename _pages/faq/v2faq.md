@@ -1,6 +1,7 @@
 ---
 layout: splash
 title: "Frequently Asked Questions"
+description: "Junk Store 2.0 FAQ - standalone Steam Deck app for non-Steam games from Epic, GOG & Amazon. Features, pricing, trial info, and technical support."
 permalink: /2.0faq/
 classes: wide
 header:
