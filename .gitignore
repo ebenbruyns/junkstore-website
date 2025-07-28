@@ -2,3 +2,7 @@
 vendor/
 _site/
 assets/lib
+
+# Project management and internal documentation
+docs/
+*.backup
