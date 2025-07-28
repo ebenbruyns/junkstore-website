@@ -1,6 +1,7 @@
 ---
 layout: splash
-title: "About Junk Store"
+title: "About Junk Store 2.0 - Steam Deck App for Epic, GOG & Amazon"
+description: "Junk Store brings non-Steam games from Epic, GOG & Amazon to Steam Deck Game Mode. Available as standalone app or Decky plugin."
 permalink: /about/
 header:
   overlay_color: "#000"
@@ -14,7 +15,7 @@ header:
 <div class="spacer mt-4"></div>
 
 
-Junk Store exists to make non-Steam gaming on the Steam Deck as effortless as native Steam games. We’re building a unified, intuitive hub where players can install, launch, and manage games from other platforms—like Epic and GOG—right from Game Mode.
+Junk Store exists to make <strong>non-Steam gaming on Steam Deck</strong> as effortless as native Steam games. We're building a unified, intuitive hub where players can install, launch, and manage games from Epic, GOG, and Amazon directly in <strong>Steam Deck Game Mode</strong> without ever needing Desktop Mode.
 
 Inspired by the simplicity of platforms like Kodi, our goal is to turn the Steam Deck into an “everything deck.” One interface. Minimal friction. Maximum access.
 

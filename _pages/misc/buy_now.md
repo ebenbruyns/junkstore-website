@@ -1,6 +1,7 @@
 ---
 layout: splash
-title: "Junk Store 2.0"
+title: "Buy Junk Store 2.0 - Steam Deck App for Epic, GOG & Amazon Games"
+description: "Download Junk Store 2.0 standalone app for Steam Deck. $40/year with 7-day trial. No Decky required - install Epic, GOG & Amazon directly in Game Mode."
 permalink: /buy_now/
 header:
   overlay_color: "#000"
