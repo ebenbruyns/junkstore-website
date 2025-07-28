@@ -1,6 +1,7 @@
 ---
 layout: splash
-title: "Game Compatibility"
+title: "Junk Store Game Compatibility - Tested Epic, GOG & Amazon Games"
+description: "Steam Deck game compatibility list for Epic, GOG & Amazon. Verified non-Steam games working with Junk Store on Steam Deck."
 permalink: /game_compatibility/
 header:
   overlay_color: "#000"

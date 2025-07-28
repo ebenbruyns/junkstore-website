@@ -1,6 +1,7 @@
 ---
 layout: splash
-title: "Media Gallery"
+title: "Junk Store in Action - Videos & Screenshots"
+description: "See Junk Store in action on Steam Deck - videos, GIFs & screenshots. Everything done in Game Mode, no Desktop Mode required."
 permalink: /gallery/
 header:
   overlay_color: "#000"

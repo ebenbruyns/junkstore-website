@@ -1,5 +1,6 @@
 ---
-title: "How to Install Junk Store"
+title: "Install Junk Store Decky Plugin - Steam Deck Epic Games Setup"
+description: "Install Junk Store Decky plugin on Steam Deck. Open-source plugin for Epic Games in Game Mode via Decky Loader. GOG extension available separately."
 excerpt: "Step-by-step guide to install Junk Store on your Steam Deck"
 layout: splash
 permalink: /tutorials/plugin/Install
