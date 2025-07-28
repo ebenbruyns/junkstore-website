@@ -6,3 +6,4 @@ assets/lib
 # Project management and internal documentation
 docs/
 *.backup
+CLAUDE.md
