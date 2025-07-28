@@ -173,7 +173,7 @@
 
 /* Mobile card layout - hide table headers and convert to cards */
 @media (max-width: 768px) {
-  .table-scroll-container {
+  .games-table-wrapper {
     border: none;
     background: transparent;
     overflow: visible;
@@ -347,10 +347,10 @@
   background-color: #00a14f;
 }
 
-.table-scroll-container {
+.games-table-wrapper {
   max-height: 500px;
-  overflow-x: auto;      // allow horizontal scroll
-  overflow-y: auto;      // keep vertical scroll too
+  overflow-x: auto;
+  overflow-y: auto;
   border-radius: 8px;
   border: 1px solid #ddd;
   background-color: #1e2a38;
