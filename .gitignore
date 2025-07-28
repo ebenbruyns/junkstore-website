@@ -4,5 +4,5 @@ _site/
 assets/lib
 
 # Project management and internal documentation
-docs/
+docs-organized/
 *.backup
