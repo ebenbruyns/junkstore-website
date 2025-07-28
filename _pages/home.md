@@ -1,6 +1,7 @@
 ---
 layout: splash
-title: "Junk Store"
+title: "Junk Store 2.0 - Steam Deck App for Epic, GOG & Amazon"
+description: "Install non-Steam games from Epic, GOG & Amazon directly in Steam Deck Game Mode. Junk Store makes non-Steam gaming seamless on Steam Deck. 7-day trial."
 permalink: /
 header:
   overlay_color: "#000"
@@ -15,6 +16,12 @@ header:
       class: "button"
 excerpt: "The Easiest Way to Play Your Non-Steam Games on Steam Deck"
 ---
+
+<h1>Steam Deck App for Epic, GOG & Amazon Games</h1>
+
+<section class="seo-intro">
+  <p>Playing <strong>non-Steam games on Steam Deck</strong> has never been easier. Junk Store transforms your <strong>Steam Deck Game Mode</strong> into a unified gaming hub, letting you install and play games from <strong>Epic, GOG, and Amazon</strong> without ever switching to Desktop Mode. Experience true <strong>Steam Deck non-Steam gaming</strong> the way it should be.</p>
+</section>
 
 <section class="problem-solution">
   <div class="problem-box">
