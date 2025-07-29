@@ -32,8 +32,59 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<!-- Cookie Consent by Osano -->
+<!-- Cookie Consent with Accept/Decline -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<style>
+  /* Make cookie banner more prominent and visible */
+  .cc-window {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    visibility: visible !important;
+    min-width: 300px !important;
+    max-width: 350px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
+    border-radius: 8px !important;
+    z-index: 9999 !important;
+    padding: 1.5rem !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+  }
+  
+  .cc-message {
+    margin-bottom: 1rem !important;
+    display: block !important;
+  }
+  
+  .cc-compliance {
+    display: flex !important;
+    gap: 0.5rem !important;
+    flex-wrap: wrap !important;
+  }
+  
+  .cc-btn {
+    padding: 0.5rem 1rem !important;
+    border-radius: 4px !important;
+    font-weight: bold !important;
+    border: none !important;
+    cursor: pointer !important;
+    font-size: 13px !important;
+  }
+  
+  .cc-allow {
+    background: #f1d600 !important;
+    color: #000 !important;
+  }
+  
+  .cc-deny {
+    background: #666 !important;
+    color: #fff !important;
+  }
+  
+  .cc-link {
+    color: #f1d600 !important;
+    text-decoration: underline !important;
+  }
+</style>
 <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
 <script>
   window.addEventListener("load", function(){
@@ -44,32 +95,43 @@
       },
       theme: "classic",
       position: "bottom-right",
+      type: "opt-in",
       content: {
-        message: "This site uses cookies to ensure you get the best experience.",
-        dismiss: "Got it!",
-        link: "Learn more",
+        message: "We use cookies for analytics to improve your experience. You can accept or decline non-essential cookies.",
+        allow: "Accept",
+        deny: "Decline",
+        link: "Privacy Policy",
         href: "/privacy-policy"
+      },
+      onStatusChange: function(status, chosenBefore) {
+        var type = this.options.type;
+        var didConsent = this.hasConsented();
+        
+        if (didConsent) {
+          // User accepted - load analytics
+          loadAnalytics();
+        } else {
+          // User declined - don't load analytics
+          console.log('Analytics declined by user');
+        }
       }
     });
 
-  // After initialization, find the "Learn more" link and change target to _self
+    // After initialization, find the "Privacy Policy" link and change target to _self
     var learnMoreLink = document.querySelector(".cc-window .cc-link");
     if (learnMoreLink) {
       learnMoreLink.setAttribute("target", "_self");
     }
   });
+
+  // Function to load analytics only when user consents
+  function loadAnalytics() {
+    // Load Reddit Pixel
+    !function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','a2_he1ee07fnmdm');rdt('track', 'PageVisit');
+    
+    // Load Google Tag Manager
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5QM6MSX6');
+  }
 </script>
 
-<!-- Reddit Pixel -->
-<script>
-!function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','a2_he1ee07fnmdm');rdt('track', 'PageVisit');
-</script>
-<!-- DO NOT MODIFY UNLESS TO REPLACE A USER IDENTIFIER -->
-<!-- End Reddit Pixel -->
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5QM6MSX6');</script>
-<!-- End Google Tag Manager -->
+<!-- Analytics scripts now load conditionally based on consent (see cookie consent above) -->
