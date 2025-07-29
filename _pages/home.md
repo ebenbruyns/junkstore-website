@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Junk Store 2.0 - Never Leave Game Mode for Epic, GOG & Amazon Games"
+title: "Junk Store 2.0 - The Easiest Way to Play Non-Steam Games on Steam Deck"
 description: "The ONLY solution that eliminates Desktop Mode switching entirely. Play Epic, GOG & Amazon games directly in Steam Deck Game Mode. 7-day trial."
 permalink: /
 header:
@@ -14,7 +14,7 @@ header:
     - label: "See It In Action"
       url: "/gallery/"
       class: "button"
-excerpt: "Never Leave Game Mode to Play Your Epic, GOG & Amazon Games"
+excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amazon games work exactly like native Steam games"
 ---
 
 <h1>Never Leave Game Mode for Epic, GOG & Amazon Games</h1>
@@ -50,7 +50,7 @@ excerpt: "Never Leave Game Mode to Play Your Epic, GOG & Amazon Games"
     <div class="feature">🚀 <strong>Pure Game Mode Experience</strong><br><span class="feature-detail">While other solutions require Desktop Mode, Junk Store never leaves Game Mode</span></div>
     <div class="feature">⚡ <strong>Eliminate Hours of Setup</strong><br><span class="feature-detail">One-click vs complex configuration saves 3+ hours per platform</span></div>  
     <div class="feature">🛍️ <strong>True Steam Integration</strong><br><span class="feature-detail">Epic, GOG, Amazon games appear exactly like native Steam games</span></div>
-    <div class="feature">🔧 <strong>Professional Reliability</strong><br><span class="feature-detail">$40/year ensures consistent updates vs abandoned community projects</span></div>
+    <div class="feature">🔧 <strong>Professional Development & Support</strong><br><span class="feature-detail">Reliable update channels (stable/testing/beta) selectable in Game Mode vs inconsistent community projects</span></div>
     <div class="feature">💾 <strong>Advanced Queue Management</strong><br><span class="feature-detail">10x performance: 1000 games/tab vs 100 game limits in alternatives</span></div>
     <div class="feature">🎮 <strong>Comprehensive Platform Support</strong><br><span class="feature-detail">Only solution with Epic + GOG + Amazon + ROMs in single interface</span></div>
   </div>
@@ -60,7 +60,7 @@ excerpt: "Never Leave Game Mode to Play Your Epic, GOG & Amazon Games"
   <div class="screenshot-box">
     <div class="screenshot-text">
       <h3>Your Handheld Deserves a Handheld Experience</h3>
-      <p>While competitors force you into Desktop Mode with mouse and keyboard, Junk Store keeps everything in the comfortable Game Mode interface you bought your Steam Deck for.</p>
+      <p>While other solutions require Desktop Mode switching, Junk Store keeps everything in the comfortable Game Mode interface you bought your Steam Deck for.</p>
     </div>
     <img src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, and Amazon">
   </div>
@@ -92,10 +92,10 @@ excerpt: "Never Leave Game Mode to Play Your Epic, GOG & Amazon Games"
       <p><strong>Junk Store advantage:</strong> Professional simplicity - just works without technical knowledge</p>
     </div>
     <div class="comparison-item">
-      <h4>🎯 Reliability & Support</h4>
-      <p><strong>Free alternatives:</strong> Community-driven with inconsistent development</p>
-      <p><strong>The reality:</strong> Updates may break functionality, limited support available</p>
-      <p><strong>Junk Store advantage:</strong> Professional development with consistent updates and support</p>
+      <h4>🎯 Development & Updates</h4>
+      <p><strong>Free alternatives:</strong> Community-driven with irregular release schedules</p>
+      <p><strong>The reality:</strong> Updates can break compatibility, limited troubleshooting resources</p>
+      <p><strong>Junk Store advantage:</strong> Professional development with stable/testing/beta update channels managed within Game Mode</p>
     </div>
   </div>
   <div class="comparison-conclusion">
