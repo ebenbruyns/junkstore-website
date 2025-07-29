@@ -12,6 +12,7 @@ details.faq-box {
 details.faq-box[open] {
   background-color: #1e2a38;
   border-color: #007acc;
+  box-shadow: 0 4px 8px rgba(0, 122, 204, 0.2);
 }
 
 details.faq-box summary {
@@ -20,18 +21,79 @@ details.faq-box summary {
   margin: -0.5em -1em;
   padding: 0.5em 1em;
   list-style: none;
+  min-height: 44px; /* Minimum touch target for mobile */
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease;
 }
 
 details.faq-box summary:hover {
   color: #007acc;
+  background-color: rgba(0, 122, 204, 0.1);
+}
+
+details.faq-box summary:focus {
+  outline: 2px solid #66bfff;
+  outline-offset: 2px;
 }
 
 details.faq-box summary::marker {
   display: none;
 }
 
+/* Add custom arrow indicator */
+details.faq-box summary::after {
+  content: '▼';
+  color: #66bfff;
+  font-size: 0.8em;
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+details.faq-box[open] summary::after {
+  transform: rotate(180deg);
+}
+
 details.faq-box p {
   margin-top: 0.5em;
   padding-top: 0.5em;
   border-top: 1px solid #ddd;
+  color: #e8e8e8;
+  line-height: 1.5;
+}
+
+/* Mobile FAQ optimizations */
+@media (max-width: 768px) {
+  details.faq-box {
+    margin: 1.2em 0;
+    padding: 0.75em 1em;
+    border-radius: 10px; /* Larger radius for mobile friendliness */
+  }
+
+  details.faq-box summary {
+    font-size: 1.2em; /* Larger text for mobile readability */
+    padding: 1em;
+    margin: -0.75em -1em;
+    min-height: 48px; /* Larger touch target for mobile */
+    font-weight: 700; /* Bolder for mobile impact */
+  }
+
+  details.faq-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 1em 0 0.5em 0;
+    margin-top: 0.75em;
+  }
+
+  /* Enhanced touch feedback for mobile */
+  details.faq-box summary:active {
+    background-color: rgba(0, 122, 204, 0.2);
+    transform: scale(0.98);
+  }
+
+  /* Larger arrow for mobile */
+  details.faq-box summary::after {
+    font-size: 1em;
+    margin-left: 1em;
+  }
 }
