@@ -21,7 +21,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   min-height: 180px;
 }
 
@@ -38,6 +38,7 @@
 .problem-box h2 {
   color: #e74c3c;
   font-size: 1.4rem;
+  margin-top: 0;
   margin-bottom: 1rem;
   font-weight: bold;
   flex-shrink: 0;
@@ -46,6 +47,7 @@
 .solution-box h2 {
   color: #2ecc71;
   font-size: 1.4rem;
+  margin-top: 0;
   margin-bottom: 1rem;
   font-weight: bold;
   flex-shrink: 0;
@@ -55,7 +57,7 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.75rem;
 }
 
@@ -211,7 +213,7 @@
 /* Screenshot sections mobile optimization */
 .screenshot-section {
   background-color: #1e2a38;
-  padding: 2rem 1rem;
+  padding: 0.5rem 1rem 2rem 1rem;
   margin: 2rem 0;
   border-radius: 8px;
   border: 1px solid #444;
@@ -232,6 +234,7 @@
 .screenshot-text h3 {
   color: #66bfff;
   font-size: 1.5rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
@@ -253,7 +256,7 @@
 /* Competitive comparison section */
 .competitive-comparison {
   background-color: #253445;
-  padding: 2.5rem 1rem;
+  padding: 0.5rem 1rem 2.5rem 1rem;
   margin: 2rem 0;
   border-radius: 8px;
   border: 1px solid #444;
@@ -267,6 +270,7 @@
   color: #66bfff;
   font-size: 1.8rem;
   text-align: center;
+  margin-top: 0.5rem;
   margin-bottom: 2rem;
   font-weight: bold;
 }
