@@ -6,5 +6,10 @@ assets/lib
 # Project management and internal documentation
 docs-organized/
 claude-agents/
+docs/
 *.backup
 CLAUDE.md
+
+# Build artifacts
+.sass-cache/
+__pycache__/
