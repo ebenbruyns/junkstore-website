@@ -117,27 +117,71 @@
   }
 
   .testimonial-dots .dot {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     border: none;
     background-color: #444;
     cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 44px; /* Minimum touch target */
+    min-height: 44px; /* Minimum touch target */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial-dots .dot::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #444;
     transition: background-color 0.3s ease;
   }
 
-  .testimonial-dots .dot.active,
-  .testimonial-dots .dot:hover {
+  .testimonial-dots .dot.active::before,
+  .testimonial-dots .dot:hover::before {
     background-color: #66bfff;
   }
 
   @media (max-width: 768px) {
     .testimonials-section {
-      margin: 1rem auto;
+      margin: 1.5rem auto;
+      padding: 0 1.5rem;
+    }
+    
+    #testimonial-display {
+      height: 160px; /* More height for mobile text */
+    }
+    
+    .testimonial-item {
+      padding: 1.5rem 0.5rem;
     }
     
     .testimonial-quote {
-      font-size: 1rem;
+      font-size: 1.1rem; /* Larger for mobile readability */
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial-author {
+      font-size: 1rem; /* Larger author text for mobile */
+    }
+
+    .testimonial-dots {
+      gap: 1rem; /* More spacing between dots on mobile */
+      margin-top: 1.5rem;
+    }
+
+    .testimonial-dots .dot {
+      min-width: 48px; /* Larger touch targets for mobile */
+      min-height: 48px;
+    }
+
+    .testimonial-dots .dot::before {
+      width: 14px; /* Slightly larger visual indicator */
+      height: 14px;
     }
   }
 </style>
