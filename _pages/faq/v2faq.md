@@ -304,6 +304,167 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
      Tip: Do this before your trial ends — otherwise, you may lose access and the games will still occupy storage.
 </details>
 
+<h2>Pricing & Value</h2>
+
+<details class="faq-box">
+  <summary>Why pay $40 when Heroic Games Launcher is free?</summary>
+  <p></p>
+    While Heroic is an excellent free alternative, Junk Store solves a different problem: <strong>staying in Game Mode</strong>. Here's the key difference:
+  <br>
+  <br>
+    <strong>Heroic/Lutris approach:</strong> Switch to Desktop Mode → Launch separate app → Configure games → Return to Game Mode
+  <br>
+  <br>
+    <strong>Junk Store approach:</strong> Press Select button → Install/launch games → Stay in Game Mode the entire time
+  <br>
+  <br>
+    Beyond convenience, Junk Store includes features not available in free alternatives:
+    <ul>
+      <li>🎮 <strong>Game Mode native interface</strong> — no desktop switching required</li>
+      <li>⚡ <strong>One-click library generation</strong> — automatically creates Steam shortcuts for 1000+ games</li>
+      <li>🛠️ <strong>Built-in dependency management</strong> — handles Visual C++ redistributables, .NET frameworks automatically</li>
+      <li>💾 <strong>Unified game management</strong> — Epic, GOG, Amazon, and emulators in one interface</li>
+      <li>🧠 <strong>Smart automation</strong> — ROM downloads, artwork caching, Proton version optimization</li>
+      <li>🔧 <strong>Extension generator</strong> — create custom store integrations without coding</li>
+    </ul>
+    If Desktop Mode workflows work for you, stick with free alternatives. If you value seamless Game Mode integration, Junk Store eliminates the friction.
+</details>
+
+<details class="faq-box">
+  <summary>What makes Junk Store worth $40/year vs free alternatives?</summary>
+  <p></p>
+    The $40/year covers three things you can't get from free alternatives:
+  <br>
+  <br>
+    <strong>1. Time savings through automation:</strong>
+    <ul>
+      <li>One-click generation of entire game libraries (vs manual shortcuts)</li>
+      <li>Automatic dependency installation (vs troubleshooting runtime errors)</li>
+      <li>Built-in artwork and metadata (vs missing/broken game art)</li>
+      <li>Unified interface for all stores (vs managing multiple desktop apps)</li>
+    </ul>
+    <strong>2. Game Mode integration:</strong>
+    <ul>
+      <li>Native controller navigation — no keyboard/mouse required</li>
+      <li>Press Select to access — no desktop mode switching</li>
+      <li>Seamless Steam Deck experience — feels like built-in functionality</li>
+    </ul>
+    <strong>3. Advanced features:</strong>
+    <ul>
+      <li>Amazon Games support (not available in Heroic)</li>
+      <li>Emulator integration with ROM management</li>
+      <li>Custom extension generator for niche game stores</li>
+      <li>Professional support and regular updates</li>
+    </ul>
+    <strong>Value calculation:</strong> If Junk Store saves you 2 hours per month of setup/troubleshooting time, that's $1.67/hour for convenience. Most users report saving 5-10 hours monthly.
+</details>
+
+<details class="faq-box">
+  <summary>How much time does Junk Store actually save vs manual setup?</summary>
+  <p></p>
+    Based on user feedback, here's the typical time investment comparison:
+  <br>
+  <br>
+    <strong>Manual setup with free alternatives:</strong>
+    <ul>
+      <li>⏱️ <strong>Initial setup:</strong> 2-4 hours (installing Heroic/Lutris, configuring stores, learning interfaces)</li>
+      <li>⏱️ <strong>Per game setup:</strong> 15-30 minutes (creating shortcuts, troubleshooting dependencies, fixing artwork)</li>
+      <li>⏱️ <strong>Ongoing maintenance:</strong> 1-2 hours monthly (updates, fixes, new game setup)</li>
+      <li>⏱️ <strong>Desktop Mode transitions:</strong> 2-3 minutes per session (adds up quickly)</li>
+    </ul>
+    <strong>Junk Store setup:</strong>
+    <ul>
+      <li>⏱️ <strong>Initial setup:</strong> 15-30 minutes (download, generate extensions, login to stores)</li>
+      <li>⏱️ <strong>Per game setup:</strong> 30 seconds (click install, automatic Steam shortcut creation)</li>
+      <li>⏱️ <strong>Ongoing maintenance:</strong> 5-10 minutes monthly (automatic updates)</li>
+      <li>⏱️ <strong>Access time:</strong> 2 seconds (press Select button)</li>
+    </ul>
+    <strong>Realistic monthly time savings:</strong> 3-6 hours for active users, 1-2 hours for casual users.
+  <br>
+  <br>
+    Beyond time, users consistently mention <strong>reduced frustration</strong> and <strong>lower technical barriers</strong> as major value factors.
+</details>
+
+<details class="faq-box">
+  <summary>Is the premium version really that different from free alternatives?</summary>
+  <p></p>
+    Yes, it's architected completely differently. Free alternatives are <strong>desktop applications</strong> designed for traditional PC gaming. Junk Store is a <strong>Game Mode native tool</strong> designed specifically for Steam Deck workflows.
+  <br>
+  <br>
+    <strong>Architectural differences:</strong>
+    <ul>
+      <li>🎮 <strong>Controller-first design</strong> — every interaction optimized for D-pad/analog stick navigation</li>
+      <li>⚡ <strong>Steam integration</strong> — generates shortcuts automatically, handles compatibility layers natively</li>
+      <li>🔄 <strong>Unified backend</strong> — single interface manages multiple store APIs simultaneously</li>
+      <li>🧠 <strong>Automation engine</strong> — handles dependencies, artwork, metadata without user intervention</li>
+    </ul>
+    <strong>Feature differences:</strong>
+    <ul>
+      <li>📦 <strong>Amazon Games support</strong> — not available in Heroic/Lutris</li>
+      <li>🎯 <strong>ROM management</strong> — integrated emulator setup with automatic downloads</li>
+      <li>🛠️ <strong>Extension system</strong> — create custom store integrations via generator</li>
+      <li>☁️ <strong>Experimental cloud saves</strong> — Epic/GOG sync without desktop apps</li>
+      <li>📊 <strong>Performance optimization</strong> — handles 1000+ games per tab efficiently</li>
+    </ul>
+    Think of it as <strong>Steam Deck-specific software</strong> vs <strong>general PC gaming tools</strong>. Both solve game access, but for very different use cases.
+</details>
+
+<details class="faq-box">
+  <summary>What happens if I don't renew my subscription?</summary>
+  <p></p>
+    Your games remain installed and playable, but you lose access to Junk Store's management features:
+  <br>
+  <br>
+    <strong>What continues working:</strong>
+    <ul>
+      <li>✅ All installed games remain playable through Steam</li>
+      <li>✅ Steam shortcuts continue functioning normally</li>
+      <li>✅ Save files are preserved</li>
+      <li>✅ Proton compatibility settings maintained</li>
+    </ul>
+    <strong>What stops working:</strong>
+    <ul>
+      <li>❌ Installing new games through Junk Store</li>
+      <li>❌ Updating existing games via Junk Store</li>
+      <li>❌ Managing game settings/dependencies</li>
+      <li>❌ Accessing Junk Store interface (reverts to "trial expired" message)</li>
+    </ul>
+    <strong>Migration options:</strong>
+    <ul>
+      <li>🔄 Switch to free Decky plugin version (Epic only, limited features)</li>
+      <li>🖥️ Use Heroic/Lutris in Desktop Mode for new installs</li>
+      <li>💳 Reactivate subscription anytime to restore full functionality</li>
+    </ul>
+    <strong>Important:</strong> Plan ahead if you don't intend to renew. Install all desired games before subscription expires, as you'll need alternative tools for new installations.
+</details>
+
+<details class="faq-box">
+  <summary>Can I try before I buy to see if it's worth $40?</summary>
+  <p></p>
+    <strong>Absolutely.</strong> Every Junk Store subscription includes a <strong>7-day free trial</strong> with full access to all features:
+  <br>
+  <br>
+    <strong>Trial includes:</strong>
+    <ul>
+      <li>✅ Full Epic, GOG, and Amazon Games integration</li>
+      <li>✅ Emulator setup and ROM management</li>
+      <li>✅ Extension generator and custom store creation</li>
+      <li>✅ All premium features (cloud saves, dependencies, automation)</li>
+      <li>✅ Technical support via Discord</li>
+    </ul>
+    <strong>Trial recommendations:</strong>
+    <ul>
+      <li>🎯 Test with your existing game library — generate extensions for your owned games</li>
+      <li>⚡ Try the automation features — let Junk Store set up several games automatically</li>
+      <li>🎮 Use it exclusively in Game Mode — experience the workflow difference</li>
+      <li>🔧 Experiment with advanced features — dependencies, custom extensions, emulators</li>
+    </ul>
+    <strong>No commitment:</strong> Cancel anytime during trial period for zero charges. If you cancel, you can still access the free Decky version for basic Epic Games support.
+  <br>
+  <br>
+    <strong>Trial tip:</strong> Most users know within 2-3 days whether the convenience justifies the cost. The 7-day window gives you plenty of time to test real-world usage patterns.
+</details>
+
 <h2>Game Compatibility & Support</h2>
 
 <details class="faq-box">
