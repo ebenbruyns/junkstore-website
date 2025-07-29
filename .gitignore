@@ -13,3 +13,4 @@ CLAUDE.md
 # Build artifacts
 .sass-cache/
 __pycache__/
+POST_CHANGE_COORDINATION_PROTOCOL.md
