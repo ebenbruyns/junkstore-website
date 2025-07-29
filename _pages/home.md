@@ -14,13 +14,13 @@ header:
     - label: "See It In Action"
       url: "/gallery/"
       class: "button"
-excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amazon games work exactly like native Steam games"
+excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amazon games install and launch as natively as possible"
 ---
 
 <h1>Never Leave Game Mode for Epic, GOG & Amazon Games</h1>
 
 <section class="seo-intro">
-  <p><strong>Junk Store is the ONLY solution that eliminates Desktop Mode switching entirely.</strong> While other launchers force you into Desktop Mode for game management, Junk Store transforms your <strong>Steam Deck Game Mode</strong> into a unified gaming hub. Install and play games from <strong>Epic, GOG, and Amazon</strong> exactly like native Steam games - because your handheld deserves a handheld experience.</p>
+  <p><strong>Junk Store is the ONLY solution that keeps you in Game Mode.</strong> While other launchers require Desktop Mode for game management, Junk Store transforms your <strong>Steam Deck Game Mode</strong> into a unified gaming hub. Install and play games from <strong>Epic, GOG, and Amazon</strong> with native-like integration - because your handheld deserves a handheld experience.</p>
 </section>
 
 <section class="problem-solution">
@@ -28,31 +28,33 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
     <h2>Why Most Launchers Break the Handheld Experience</h2>
     <div class="problem-points">
       <p>❌ <strong>Desktop Mode dependency:</strong> Forces you out of handheld mode</p>
-      <p>❌ <strong>Complex setup processes:</strong> Multiple steps and configurations</p>
-      <p>❌ <strong>Manual Steam integration:</strong> Create shortcuts yourself</p>
+      <p>❌ <strong>Multi-step setup processes:</strong> Additional configuration steps required</p>
+      <p>❌ <strong>External integration:</strong> Limited by working outside Steam's ecosystem</p>
+      <p>❌ <strong>Background launcher dependency:</strong> Extra processes consuming resources while gaming</p>
       <p>❌ <strong>Inconsistent experience:</strong> Breaks the unified gaming flow</p>
     </div>
   </div>
   <div class="solution-box">
     <h2>Junk Store: Pure Game Mode Experience</h2>
     <div class="solution-points">
-      <p>✅ <strong>Zero Desktop Mode:</strong> Everything in Game Mode</p>
-      <p>✅ <strong>Native Steam Integration:</strong> Games appear like Steam games</p>
-      <p>✅ <strong>Automatic Library Sync:</strong> No manual shortcuts needed</p>
+      <p>✅ <strong>Stays in Game Mode:</strong> 99% of tasks done without Desktop Mode</p>
+      <p>✅ <strong>Native Steam integration:</strong> Built inside Steam to leverage all functionality</p>
+      <p>✅ <strong>Streamlined Library Management:</strong> Refresh libraries with simple menu option</p>
+      <p>✅ <strong>Direct Steam launch:</strong> No background launchers draining performance</p>
       <p>✅ <strong>True Handheld Experience:</strong> Never compromise your flow</p>
     </div>
   </div>
 </section>
 
 <section class="key-features">
-  <h2>The Only Game Mode-Native Solution</h2>
+  <h2>Game Mode-Native Solution</h2>
   <div class="features-grid">
-    <div class="feature">🚀 <strong>Pure Game Mode Experience</strong><br><span class="feature-detail">While other solutions require Desktop Mode, Junk Store never leaves Game Mode</span></div>
+    <div class="feature">🚀 <strong>Pure Game Mode Experience</strong><br><span class="feature-detail">While other solutions require Desktop Mode, Junk Store stays in Game Mode 99% of the time</span></div>
     <div class="feature">⚡ <strong>Eliminate Hours of Setup</strong><br><span class="feature-detail">One-click vs complex configuration saves 3+ hours per platform</span></div>  
-    <div class="feature">🛍️ <strong>True Steam Integration</strong><br><span class="feature-detail">Epic, GOG, Amazon games appear exactly like native Steam games</span></div>
-    <div class="feature">🔧 <strong>Professional Development & Support</strong><br><span class="feature-detail">Reliable update channels (stable/testing/beta) selectable in Game Mode vs inconsistent community projects</span></div>
-    <div class="feature">💾 <strong>Advanced Queue Management</strong><br><span class="feature-detail">10x performance: 1000 games/tab vs 100 game limits in alternatives</span></div>
-    <div class="feature">🎮 <strong>Comprehensive Platform Support</strong><br><span class="feature-detail">Only solution with Epic + GOG + Amazon + ROMs in single interface</span></div>
+    <div class="feature">🛍️ <strong>True Steam Integration</strong><br><span class="feature-detail">Epic, GOG, Amazon games install and launch as native-like as possible</span></div>
+    <div class="feature">🔧 <strong>Professional Development & Support</strong><br><span class="feature-detail">Dedicated update channels (stable/testing/beta) selectable directly in Game Mode</span></div>
+    <div class="feature">💾 <strong>Endless Customization</strong><br><span class="feature-detail">Deep game configuration, customize existing extensions, or create entirely new ones for any platform</span></div>
+    <div class="feature">🎮 <strong>Comprehensive Platform Support</strong><br><span class="feature-detail">Epic + GOG + Amazon + ROMs unified in single Game Mode interface</span></div>
   </div>
 </section>
 
@@ -60,7 +62,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
   <div class="screenshot-box">
     <div class="screenshot-text">
       <h3>Your Handheld Deserves a Handheld Experience</h3>
-      <p>While other solutions require Desktop Mode switching, Junk Store keeps everything in the comfortable Game Mode interface you bought your Steam Deck for.</p>
+      <p>While free alternatives require Desktop Mode switching, Junk Store keeps everything in the comfortable Game Mode interface you bought your Steam Deck for.</p>
     </div>
     <img src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, and Amazon">
   </div>
@@ -69,8 +71,8 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
 <section class="screenshot-section">
   <div class="screenshot-box">
    <div class="screenshot-text">
-      <h3>Stop Fighting Desktop Mode. Start Gaming.</h3>
-      <p>Other solutions make you switch to Desktop Mode for every installation and update. Junk Store eliminates this completely - install, update, and launch games without ever leaving the couch-friendly Game Mode interface.</p>
+      <h3>Stay in Your Comfort Zone. Keep Gaming.</h3>
+      <p>Most solutions require frequent Desktop Mode switching for game management. Junk Store keeps you in Game Mode for 99% of tasks - install, update, and launch games while staying in the couch-friendly interface you prefer.</p>
     </div>
     <img src="{{ '/assets/images/landing/Install.gif' | relative_url }}" alt="One-click game installation directly in Game Mode">
   </div>
@@ -81,25 +83,25 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
   <div class="comparison-grid">
     <div class="comparison-item">
       <h4>🎯 Desktop Mode Dependency</h4>
-      <p><strong>Free alternatives:</strong> Require Desktop Mode for game management</p>
-      <p><strong>The reality:</strong> Every installation, update, and troubleshooting session forces you out of handheld mode</p>
-      <p><strong>Junk Store advantage:</strong> Complete Game Mode integration - never touch Desktop Mode</p>
+      <p><strong>Most alternatives:</strong> Excellent desktop applications designed for traditional PC workflows</p>
+      <p><strong>The structural difference:</strong> Desktop-based architecture requires switching out of handheld mode</p>
+      <p><strong>Junk Store approach:</strong> Game Mode-native architecture eliminates desktop switching entirely</p>
     </div>
     <div class="comparison-item">
-      <h4>🎯 Setup Complexity</h4>
-      <p><strong>Free alternatives:</strong> Complex configuration and technical knowledge required</p>
-      <p><strong>The reality:</strong> Hours of setup, troubleshooting, and maintenance</p>
-      <p><strong>Junk Store advantage:</strong> Professional simplicity - just works without technical knowledge</p>
+      <h4>🎯 Workflow Philosophy</h4>
+      <p><strong>Most alternatives:</strong> Desktop-first design with comprehensive configuration options</p>
+      <p><strong>The structural difference:</strong> Designed for users comfortable with desktop game management</p>
+      <p><strong>Junk Store approach:</strong> Handheld-first design prioritizing controller navigation and simplicity</p>
     </div>
     <div class="comparison-item">
-      <h4>🎯 Development & Updates</h4>
-      <p><strong>Free alternatives:</strong> Community-driven with irregular release schedules</p>
-      <p><strong>The reality:</strong> Updates can break compatibility, limited troubleshooting resources</p>
-      <p><strong>Junk Store advantage:</strong> Professional development with stable/testing/beta update channels managed within Game Mode</p>
+      <h4>🎯 Library Access & Integration</h4>
+      <p><strong>Most alternatives:</strong> Must launch separate launcher apps to view your library and install games</p>
+      <p><strong>The structural difference:</strong> Need to open the launcher application first to browse and install from your Epic, GOG, or Amazon libraries</p>
+      <p><strong>Junk Store approach:</strong> Entire library (installed and uninstalled) visible directly in Game Mode - no launcher apps to open, just press Select button</p>
     </div>
   </div>
   <div class="comparison-conclusion">
-    <p><strong>The bottom line:</strong> Free solutions save money but cost time and frustration. Junk Store's $40/year eliminates Desktop Mode switching entirely - the one thing no free alternative can do.</p>
+    <p><strong>The bottom line:</strong> Excellent free alternatives serve users comfortable with launching separate apps for game management. Junk Store's $40/year serves users who want everything accessible directly in Game Mode - a fundamentally different architectural approach.</p>
   </div>
 </section>
 
@@ -110,9 +112,9 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
     <h3>🚀 The Only Pure Game Mode Solution</h3>
     <p class="price-text"><strong>$40/year</strong> • Less than $1/week to eliminate Desktop Mode forever</p>
     <p class="trial-text"><strong>7 days free to try everything</strong> • Only charged if you keep it • Cancel anytime</p>
-    <p class="value-text">💯 <strong>Worth it vs free alternatives?</strong> Absolutely. Save 3+ hours of setup per platform, eliminate ongoing Desktop Mode frustration, and get professional reliability that community projects can't match.</p>
+    <p class="value-text">💯 <strong>Worth it vs free alternatives?</strong> If you value instant library access without launching apps, absolutely. Your entire Epic, GOG & Amazon libraries visible directly in Game Mode - eliminate Desktop Mode switching with architecture designed specifically for handheld gaming.</p>
     <p class="discount-text">💰 Use code <strong>EarlyBird</strong> for 25% off until July&nbsp;31,&nbsp;2025</p>
-    <p class="fence-text">Why compromise your handheld experience? Try the only Game Mode-native solution free for 7 days.</p>
+    <p class="fence-text">Why compromise your handheld experience? Try our Game Mode-native solution free for 7 days.</p>
     <div class="pricing-cta">
       <a href="/buy_now/" class="button buy-button">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary">See It In Action</a>
