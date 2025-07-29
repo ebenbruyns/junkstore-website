@@ -21,6 +21,72 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/JunkStore/) or join us on [Discord](https://discord.gg/6mRUhR6Teh).
 
 
+<h2>Getting Started</h2>
+
+<details class="faq-box">
+  <summary>I just signed up for the trial. How do I access Junk Store?</summary>
+  <p></p>
+    After installing Junk Store 2.0, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck. No need to switch to Desktop Mode or launch separate applications.
+  <br>
+  <br>
+    This opens directly in Game Mode, giving you immediate access to your Epic, GOG, and Amazon game libraries.
+</details>
+
+<details class="faq-box">
+  <summary>What should I do first after accessing Junk Store?</summary>
+  <p></p>
+    <strong>Step 1:</strong> Generate extensions for the platforms you want to use (Epic, GOG, Amazon)<br>
+    <strong>Step 2:</strong> Log into your game store accounts when prompted<br>
+    <strong>Step 3:</strong> Your existing libraries will automatically sync and appear in Junk Store<br>
+    <strong>Step 4:</strong> Start installing games directly from Game Mode
+  <br>
+  <br>
+    The initial library sync can take a few minutes as Junk Store builds the database for each platform.
+</details>
+
+<details class="faq-box">
+  <summary>What makes Junk Store different from free alternatives?</summary>
+  <p></p>
+    <strong>The key difference:</strong> Junk Store works entirely within Game Mode. Free alternatives require launching separate desktop applications to view libraries and install games.
+  <br>
+  <br>
+    With Junk Store, your entire Epic, GOG, and Amazon libraries are visible directly in Game Mode without opening any external apps. This eliminates the friction of switching between interfaces just to manage your games.
+</details>
+
+<details class="faq-box">
+  <summary>How long is my trial and what happens when it ends?</summary>
+  <p></p>
+    You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon integration, emulators, ROM support, and all premium features.
+  <br>
+  <br>
+    After 7 days, if you don't subscribe, you'll lose access to Junk Store's interface but your installed games remain playable through Steam. You can reactivate anytime to restore full functionality.
+</details>
+
+<details class="faq-box">
+  <summary>Why pay $40 when free alternatives exist?</summary>
+  <p></p>
+    While free alternatives are excellent, Junk Store solves a different problem: <strong>staying in Game Mode</strong>. Here's the key difference:
+  <br>
+  <br>
+    <strong>Free alternatives approach:</strong> Switch to Desktop Mode → Launch separate app → Configure games → Return to Game Mode
+  <br>
+  <br>
+    <strong>Junk Store approach:</strong> Press Select button → Install/launch games → Stay in Game Mode the entire time
+  <br>
+  <br>
+    Beyond convenience, Junk Store includes features not available in free alternatives:
+    <ul>
+      <li>🎮 <strong>Game Mode native interface</strong> — no desktop switching required</li>
+      <li>⚡ <strong>One-click library generation</strong> — automatically creates Steam shortcuts for 1000+ games</li>
+      <li>🛠️ <strong>Built-in dependency management</strong> — handles Visual C++ redistributables, .NET frameworks automatically</li>
+      <li>💾 <strong>Unified game management</strong> — Epic, GOG, Amazon, and emulators in one interface</li>
+      <li>🧠 <strong>Smart automation</strong> — ROM downloads, artwork caching, Proton version optimization</li>
+      <li>🔧 <strong>Extension generator</strong> — create custom store integrations without coding</li>
+    </ul>
+    If Desktop Mode workflows work for you, stick with free alternatives. If you value seamless Game Mode integration, Junk Store eliminates the friction.
+</details>
+
+
 <h2>General</h2>
 
 <details class="faq-box">
@@ -141,11 +207,6 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 
 <h2>Using Junk Store</h2>
 
-<details class="faq-box">
-  <summary>I've installed Junk Store, how do I access it?</summary>
-  <p></p>
-    You open Junk Store by pushing <strong>Select</strong> button above the D-pad.
-  </details>
 
 <details class="faq-box">
   <summary>How do I import my installed games from the Decky version of Junk Store?</summary>
@@ -164,13 +225,10 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
         <li>Back up your save files for any games you plan to keep playing, as they may be wiped during uninstall.</li>
         <li>Manually uninstall games installed via the new version before your trial expires (to free up space).</li>
         <li>Reinstall those games using the Decky version.</li>
-        <li>Restore you game save manually.</li>
+        <li>Restore your game saves manually.</li>
       </ul>
-        Once you have done all teh above run the following uninstall script in konsole:
+        Once you have done all the above run the following uninstall script in konsole:
         <code>~/.local/share/junkstore/uninstall.sh</code>
-      <br>
-      <br>
-        Please note that this process can take some time, as Junk Store is rebuilding the databases for each storefront.
   </details>
 
 <details class="troubleshooting-box">
@@ -299,7 +357,7 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
       <li>Back up your save files for any games you plan to keep playing, as they may be wiped during uninstall.</li>
       <li>Manually uninstall games installed via the new version before your trial expires (to free up space).</li>
       <li>Reinstall those games using the Decky version.</li>
-      <li>Restore you game save manually.</li>
+      <li>Restore your game saves manually.</li>
     </ul>
      Tip: Do this before your trial ends — otherwise, you may lose access and the games will still occupy storage.
 </details>
