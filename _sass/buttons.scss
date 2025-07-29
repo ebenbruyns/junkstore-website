@@ -2,34 +2,55 @@
 a.button {
   color: #fff;
   background-color: #007acc; /* Blue background */
-  padding: 0.75rem 1.5rem;
+  padding: 0.875rem 1.75rem; /* Increased padding for larger touch targets */
   border-radius: 8px;
   text-decoration: none;
   display: inline-block;
   text-align: center;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
   min-width: 200px; /* Minimum width so buttons don't shrink too much */
   max-width: 230px; /* Maximum width to keep them consistent */
+  min-height: 44px; /* Minimum touch target size for mobile */
   white-space: normal; /* Allow wrapping if necessary */
   word-break: break-word; /* Prevent overflow if long words */
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0.5rem 0; /* Added vertical margin for better spacing */
 
   /* Hover Effects */
   &:hover, &:visited:hover {
     background-color: #005f99; /* Darker blue on hover */
     color: #fff;
+    transform: translateY(-1px); /* Subtle lift effect */
+    box-shadow: 0 4px 8px rgba(0, 122, 204, 0.3);
+  }
+
+  /* Active/Focus states for better mobile feedback */
+  &:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 122, 204, 0.2);
+  }
+
+  &:focus {
+    outline: 2px solid #66bfff;
+    outline-offset: 2px;
   }
 }
 
 /* Buy Now button */
 a.button.buy-button {
   background-color: #28a745 !important; /* Green background */
+  min-height: 48px; /* Slightly larger for primary action */
+  font-size: 1.1rem; /* Slightly larger text for primary CTA */
+  font-weight: 700; /* Bolder for primary action */
 }
 
 a.button.buy-button:hover,
 a.button.buy-button:visited:hover {
   background-color: #218838; /* Darker green on hover */
   color: #fff;
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
 }
 
 /* Favicon inside button */
@@ -81,5 +102,81 @@ a.button.gog-extension-button:hover {
 /* Button spacing in front matter */
 .button + .button {
   margin-left: 0.75rem;
+}
+
+/* Mobile button optimizations */
+@media (max-width: 768px) {
+  a.button {
+    width: 100%;
+    max-width: 300px; /* Optimized max width for mobile */
+    margin: 0.75rem auto; /* Center buttons with more spacing */
+    padding: 1.1rem 1.5rem; /* Larger touch areas on mobile */
+    font-size: 1.1rem; /* Larger text for better readability */
+    min-height: 50px; /* Larger minimum touch target */
+    /* Enhanced mobile interactions */
+    -webkit-tap-highlight-color: rgba(0, 122, 204, 0.2);
+    touch-action: manipulation;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  a.button.buy-button {
+    min-height: 54px; /* Even larger for primary CTA on mobile */
+    font-size: 1.2rem;
+    margin: 1rem auto; /* More spacing for primary action */
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+    /* Enhanced visual hierarchy on mobile */
+    background-color: #28a745;
+    border: none;
+  }
+
+  a.button.buy-button:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(40, 167, 69, 0.4);
+    transition: all 0.1s ease;
+  }
+
+  /* Stack buttons vertically on mobile with proper spacing */
+  .button + .button {
+    margin-left: 0;
+    margin-top: 0.75rem;
+  }
+
+  /* Special handling for pricing CTA buttons */
+  .pricing-cta {
+    .button, .button-secondary {
+      width: 100%;
+      max-width: 280px;
+      margin: 0.5rem 0;
+    }
+  }
+
+  /* Header action buttons */
+  .page__hero .btn {
+    width: 100%;
+    max-width: 280px;
+    margin: 0.75rem auto;
+    padding: 1.1rem 1.5rem;
+    font-size: 1.1rem;
+    min-height: 50px;
+    border-radius: 8px;
+    font-weight: 600;
+    /* Enhanced mobile accessibility */
+    -webkit-tap-highlight-color: rgba(0, 122, 204, 0.2);
+    touch-action: manipulation;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+  }
+
+  .page__hero .btn:active {
+    transform: scale(0.98);
+    transition: all 0.1s ease;
+  }
 }
 
