@@ -9,6 +9,7 @@ claude-agents/
 docs/
 *.backup
 CLAUDE.md
+PROJECT_DOCS.md
 
 # Build artifacts
 .sass-cache/
