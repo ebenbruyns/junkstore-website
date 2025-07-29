@@ -5,4 +5,9 @@ assets/lib
 
 # Project management and internal documentation
 docs-organized/
+docs/
 *.backup
+
+# Build artifacts
+.sass-cache/
+__pycache__/
