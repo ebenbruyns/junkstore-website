@@ -48,7 +48,29 @@ If you’ve contributed before or purchased the GOG extension, make sure to <em>
 Can’t access that email? Contact us via <a href="https://www.patreon.com/junkstore" target="_blank" rel="noopener">Patreon</a> or <a href="https://ko-fi.com/junkstore" target="_blank" rel="noopener">Ko-fi</a> and we’ll help you get sorted.
 </p>
 
-<div style="text-align: center; margin-top: 2rem;">
+<div style="text-align: center; margin-top: 2rem;" class="mobile-cta-container">
   <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button">Sign Up Now</a>
 </div>
+
+<style>
+.mobile-cta-container {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .mobile-cta-container {
+    padding: 1.5rem 1rem;
+  }
+  
+  .mobile-cta-container .button {
+    width: 100%;
+    max-width: 300px;
+    font-size: 1.3rem;
+    padding: 1.2rem;
+    min-height: 54px;
+    margin: 0 auto;
+    display: block;
+  }
+}
+</style>
 
