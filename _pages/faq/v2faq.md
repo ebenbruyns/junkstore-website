@@ -194,7 +194,7 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
       <li>🖥️ Use Heroic/Lutris in Desktop Mode for new installs</li>
       <li>💳 Reactivate subscription anytime to restore full functionality</li>
     </ul>
-    <strong>Important:</strong> Plan ahead if you don't intend to renew. Install all desired games before subscription expires, as you'll need alternative tools for new installations.
+    <strong>Important:</strong> If switching away from Junk Store 2.0, see "How do I migrate games back to the Decky version?" below for complete backup and migration steps.
 </details>
 
 <details class="faq-box">
@@ -239,29 +239,25 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
   <details class="faq-box">
     <summary>How do I uninstall Junk Store 2.0?</summary>
       <p></p>
-        Before uninstalling Junk Store 2.0, you’ll need to:
-      <ul>
-        <li>Back up your save files for any games you plan to keep playing, as they may be wiped during uninstall.</li>
-        <li>Manually uninstall games installed via the new version before your trial expires (to free up space).</li>
-        <li>Reinstall those games using the Decky version.</li>
-        <li>Restore your game saves manually.</li>
-      </ul>
-        Once you have done all the above run the following uninstall script in konsole:
+        Before uninstalling, complete the migration process outlined in "How do I migrate games back to the Decky version?" below to preserve your games and saves.
+      <br>
+      <br>
+        Once migration is complete, run the uninstall script in konsole:
         <code>~/.local/share/junkstore/uninstall.sh</code>
   </details>
 
-<details class="troubleshooting-box">
-  <summary>I don’t have Proton GE or don’t know how to install it.</summary>
+<details class="faq-box">
+  <summary>How do I install custom Proton versions (like GE-Proton)?</summary>
   <p></p>
-    To get Proton GE or other custom versions of Proton, you can use one of the following tools:
+    To get GE-Proton or other custom Proton versions, use one of these tools:
   <ul>
-    <li><strong>ProtonUp-QT</strong> — A simple app that lets you download and manage Proton versions. You can find it in the <strong>Discover Store</strong> (in Desktop Mode).</li>
-    <li><strong>Wine Cellar</strong> — A Decky plugin that works similarly to ProtonUp-QT. If you already have Decky installed for other plugins, you can install Wine Cellar directly from the <strong>Decky Plugin Store</strong>.</li>
+    <li><strong>ProtonUp-QT</strong> — Download from the <strong>Discover Store</strong> (Desktop Mode)</li>
+    <li><strong>Wine Cellar</strong> — Install from the <strong>Decky Plugin Store</strong> (if you have Decky)</li>
   </ul>
-    Once installed, use either tool to download the latest <strong>GE-Proton</strong> release. After that, you’ll be able to select it as a compatibility option in Junk Store.
+    After installation, download the latest <strong>GE-Proton</strong> release. You can then select it as a compatibility option when changing Proton versions (see "How do I change the Proton version for a game?" below).
     <br>
     <br>
-    Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}"> Plugin Tutorials</a> page to see how to change/check your Proton version if you are unsure how to do this.
+    For detailed steps, see our <a href="{{ '/plugin_tutorials/' | relative_url }}">Plugin Tutorials</a> page.
 </details>
 
 <details class="faq-box">
@@ -292,13 +288,10 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
   </ul>
   <strong>To uninstall a game in Junk Store:</strong>
   <ol>
-    <li>Open the game’s page in Junk Store.</li>
+    <li>Open the game's page in Junk Store.</li>
+    <li>Open the <strong>☰ Slider menu</strong> and select <strong>Uninstall</strong>.</li>
     <li>
-      Open the <strong>☰ Slider menu</strong> and select <strong>Uninstall</strong>.<br>
-      <em>Note:</em> You may want to write down the game's SteamID so you can locate it later in your <code>compatdata</code> and <code>shadercache</code> folders.
-    </li>
-    <li>
-      Manually delete any leftover files to free up space or completely remove the game:
+      Manually delete any leftover files to free up space:
       <ul>
         <li><strong>Epic:</strong> <code>~/Games/epic</code> or <code>/*your-SD-card*/Games/epic</code></li>
         <li><strong>GOG:</strong> <code>~/Games/gog</code> or <code>/*your-SD-card*/Games/gog</code></li>
@@ -306,7 +299,7 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
       </ul>
     </li>
   </ol>
-  <strong>Important:</strong> Uninstalling a game will remove all local save data. Be sure to back up your saves first if you want to keep them.
+  <strong>Important:</strong> Uninstalling removes all local save data. To back up saves first, see "How do I find save data for my games?" below.
 </details>
 
 <details class="faq-box">
@@ -334,24 +327,13 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 <details class="faq-box">
   <summary>How do I change the Proton version for a game?</summary>
   <p></p>
-    You can do this from either your Steam Library or directly inside Junk Store.
+    <strong>From Junk Store:</strong> Press <code>Y</code> to open the Steam shortcut, then click the gear icon ⚙️ → <strong>Properties</strong> → <strong>Compatibility</strong>.
   <br>
   <br>
-    <strong>From Junk Store:</strong><br>
-    Press <code>Y</code> to open the Steam shortcut.
-    <ol>
-      <li>Click the gear icon ⚙️ → <strong>Properties</strong> → <strong>Compatibility</strong></li>
-      <li>Select the Proton version you want to use</li>
-      <li>Relaunch the game</li>
-    </ol>
-    <strong>From Steam Library:</strong><br>
-  <ol>
-      <li>Highlight the game and press the <strong>Start/Options</strong> button (the one with three lines)</li>
-      <li>Go to <strong>Properties</strong> → <strong>Compatibility</strong></li>
-      <li>Select the Proton version you want to use</li>
-      <li>Relaunch the game</li>
-    </ol>
-    Once you've selected a version, back out to the game screen and hit <strong>Play</strong>.
+    <strong>From Steam Library:</strong> Highlight the game, press the <strong>Start/Options</strong> button → <strong>Properties</strong> → <strong>Compatibility</strong>.
+  <br>
+  <br>
+    Select your desired Proton version and relaunch the game. If you need custom versions like GE-Proton, see "How do I install custom Proton versions?" above.
 </details>
 
 <details class="faq-box">
@@ -366,19 +348,25 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 </details>
 
 <details class="faq-box">
-  <summary>Can I move games from the new version back to the Decky (free) version?</summary>
+  <summary>How do I migrate games back to the Decky (free) version?</summary>
   <p></p>
-    No — games installed using the new version of Junk Store can't be "backported" to the older Decky version. They use different install paths and configuration systems.
+    <strong>It depends on when the games were originally installed:</strong>
     <br>
-  <br>
-    If you want to continue using the free Decky version, you’ll need to:
+    <br>
+    <strong>✅ Games originally from Decky version:</strong> These CAN be migrated back. For already installed games, open the game page in Junk Store and use <strong>Reset Launch Options</strong> from the sliders menu. This completes the migration back to Decky compatibility.
+    <br>
+    <br>
+    <strong>❌ Games newly installed in Junk Store 2.0:</strong> These cannot be migrated back to Decky due to different install paths and configuration systems.
+    <br>
+    <br>
+    <strong>For games newly installed in 2.0 that you want to keep:</strong>
     <ul>
-      <li>Back up your save files for any games you plan to keep playing, as they may be wiped during uninstall.</li>
-      <li>Manually uninstall games installed via the new version before your trial expires (to free up space).</li>
-      <li>Reinstall those games using the Decky version.</li>
-      <li>Restore your game saves manually.</li>
+      <li>Back up your save files for any games you plan to keep playing</li>
+      <li>Manually uninstall games installed via the new version before your trial expires (to free up space)</li>
+      <li>Reinstall those games using the Decky version</li>
+      <li>Restore your game saves manually</li>
     </ul>
-     Tip: Do this before your trial ends — otherwise, you may lose access and the games will still occupy storage.
+     <strong>Tip:</strong> Complete this process before your trial ends — otherwise, you may lose access and the games will still occupy storage.
 </details>
 
 <h2>Game Compatibility & Support</h2>
