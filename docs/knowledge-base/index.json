@@ -1,0 +1,41 @@
+{
+  "last_updated": "2025-07-28T22:53:27.091089",
+  "total_items": 5,
+  "categories": {
+    ".": [
+      {
+        "filename": "README.md",
+        "path": "README.md",
+        "modified": "2025-07-28T13:02:00.701161"
+      },
+      {
+        "filename": "COMPREHENSIVE_JUNK_STORE_RESEARCH_REPORT_2025.md",
+        "path": "COMPREHENSIVE_JUNK_STORE_RESEARCH_REPORT_2025.md",
+        "modified": "2025-07-28T22:09:04.685290"
+      }
+    ],
+    "technical/problem-solutions": [
+      {
+        "filename": "solution-from-progressmd-20250728.md",
+        "path": "technical/problem-solutions/solution-from-progressmd-20250728.md",
+        "modified": "2025-07-28T22:53:27.089365"
+      }
+    ],
+    "technical/architecture-patterns": [
+      {
+        "filename": "jekyll-website-project-structure-20250728.md",
+        "path": "technical/architecture-patterns/jekyll-website-project-structure-20250728.md",
+        "modified": "2025-07-28T22:53:27.089365"
+      }
+    ],
+    "performance/baselines": [
+      {
+        "filename": "current-performance-baseline-20250728.md",
+        "path": "performance/baselines/current-performance-baseline-20250728.md",
+        "modified": "2025-07-28T22:53:27.089365"
+      }
+    ]
+  },
+  "recent_additions": [],
+  "search_terms": {}
+}
