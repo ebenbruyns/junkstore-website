@@ -17,18 +17,20 @@ header:
 
 {% include testimonials.html %}
 
-<h1>🎉 Junk Store 2.0 is finally here!</h1>
-Junk Store 2.0 is now available for purchase.
+<h1>🎉 The ONLY Game Mode solution is here!</h1>
+
+**Never leave Game Mode again.** While other launchers require switching to Desktop Mode, Junk Store 2.0 keeps you in your Steam Deck's natural handheld environment.
 
 <p>A single $40 yearly license gives you everything — updates, features, support, and peace of mind — plus a <strong>7-day free trial</strong> so you can try everything risk-free.</p>
 
 
-<h3>This is the biggest upgrade we’ve ever done:</h3>
+<h3>Why choose the Game Mode solution:</h3>
 <ul>
-    <li>⚡ Faster everything — UI, extension generation, and library loading</li>
-    <li>🎮 Unified launcher for all your games</li>
-    <li>🧠 One-click automation for generating entire libraries</li>
-    <li>💾 Automatic migration of saves, settings, and install data</li>
+    <li>🎮 **Game Mode native** — Controller-friendly interface, no Desktop Mode required</li>
+    <li>⚡ **Faster everything** — UI, extension generation, and library loading</li>
+    <li>🎯 **Unified launcher** — All your Epic, GOG & Amazon games in one place</li>
+    <li>🧠 **One-click automation** — Generate entire libraries without complexity</li>
+    <li>💾 **Seamless migration** — Automatic transfer of saves, settings, and install data</li>
 </ul>
 
 ✅ Your 7-day free trial starts now — and any discount tied to your previous support is already applied at checkout.
