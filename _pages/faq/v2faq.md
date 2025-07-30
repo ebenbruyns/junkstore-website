@@ -47,26 +47,74 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 <details class="faq-box">
   <summary>What makes Junk Store different from free alternatives?</summary>
   <p></p>
-    <strong>The key difference:</strong> Junk Store works entirely within Game Mode. Free alternatives require launching separate desktop applications to view libraries and install games.
+    <strong>Junk Store is Steam Deck-specific software</strong> designed exclusively for handheld gaming workflows, while alternatives are general PC gaming tools adapted for Steam Deck.
   <br>
   <br>
-    With Junk Store, your entire Epic, GOG, and Amazon libraries are visible directly in Game Mode without opening any external apps. This eliminates the friction of switching between interfaces just to manage your games.
+    <strong>Key advantages:</strong>
+  <br>
+  <br>
+    <strong>1. Controller-First Design:</strong> Every interaction optimized for D-pad/analog stick navigation - no keyboard/mouse needed
+  <br>
+  <br>
+    <strong>2. Game Mode Native:</strong> Works entirely within Game Mode - no desktop switching required to view libraries or install games
+  <br>
+  <br>
+    <strong>3. Direct Launch:</strong> Games launch directly without nested launchers - no "launcher to launch a launcher to launch your game" complexity
+  <br>
+  <br>
+    <strong>4. Unified Library:</strong> Epic, GOG, Amazon games AND emulators integrated into your Steam library as if they were native Steam games
+  <br>
+  <br>
+    <strong>5. Rapid Updates:</strong> Direct update channels mean fixes and new features roll out quickly without waiting for third-party distribution
+  <br>
+  <br>
+     <div class="text-center">
+      <a href="https://portal.junkstore.xyz/" class="button buy-button">Start Your 7-Day Free Trial</a>
+    </div>
 </details>
 
 <details class="faq-box">
   <summary>How long is my trial and what happens when it ends?</summary>
   <p></p>
-    You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon integration, emulators, ROM support, and all premium features.
+    You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon integration, emulator extension creation, and all premium features.
   <br>
   <br>
-    After 7 days, if you don't subscribe, you'll lose access to Junk Store's interface but your installed games remain playable through Steam. You can reactivate anytime to restore full functionality.
+    After 7 days, if you don't subscribe, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
 </details>
 
+<h2>Quick Start Guide</h2>
+
+<details class="faq-box">  
+  <summary>New to Junk Store? Start here for fastest setup</summary>
+  <p></p>
+    <strong>5-Minute Setup (Perfect for trial users):</strong><br>
+    After downloading and installing Junk Store 2.0 from the Portal
+  <br>
+  <br>
+    <strong>1. Access Junk Store:</strong> Press Select button (above D-pad) - opens instantly in Game Mode<br>
+    <strong>2. Generate Extensions:</strong> Click generate for Epic, GOG, or Amazon - creates instant library access<br>
+    <strong>3. Login:</strong> Sign into your game store accounts when prompted<br>
+    <strong>4. Install a Game:</strong> Click any game → Install → Automatic Steam shortcut creation
+  <br>
+  <br>
+    <strong>Try This During Your Trial:</strong>
+    <ul>
+      <li>🎯 Install 2-3 games you already own to see the automation difference</li>
+      <li>⚡ Compare setup time vs Desktop Mode alternatives you've used</li>
+      <li>🎮 Notice how everything stays in Game Mode without app switching</li>
+    </ul>
+    <strong>Most users know within 2-3 days if the convenience justifies the cost.</strong> The 7-day trial gives plenty of time to test real usage patterns.
+  <br>
+  <br>
+    <div class="text-center">
+      <a href="https://portal.junkstore.xyz/" class="button buy-button" target="_blank" rel="noopener noreferrer">Start Your 7-Day Free Trial</a>
+    </div>
+</details>
 
 <h2>Pricing & Value</h2>
 
 <details class="faq-box">
-  <summary>Why pay $40 when Heroic Games Launcher is free?</summary>
+  <summary>What makes Junk Store worth $40/year compared to free alternatives?</summary>
   <p></p>
     While Heroic is an excellent free alternative, Junk Store solves a different problem: <strong>staying in Game Mode</strong>. Here's the key difference:
   <br>
@@ -80,17 +128,21 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
     Beyond convenience, Junk Store includes features not available in free alternatives:
     <ul>
       <li>🎮 <strong>Game Mode native interface</strong> — no desktop switching required</li>
-      <li>⚡ <strong>One-click library generation</strong> — automatically creates Steam shortcuts for 1000+ games</li>
-      <li>🛠️ <strong>Built-in dependency management</strong> — handles Visual C++ redistributables, .NET frameworks automatically</li>
+      <li>🛠️ <strong>Built-in dependency management</strong> — Visual C++ installed automatically, other dependencies via built-in menu (no 3rd party tools needed)</li>
       <li>💾 <strong>Unified game management</strong> — Epic, GOG, Amazon, and emulators in one interface</li>
       <li>🧠 <strong>Smart automation</strong> — ROM downloads, artwork caching, Proton version optimization</li>
       <li>🔧 <strong>Extension generator</strong> — create custom store integrations without coding</li>
     </ul>
     If Desktop Mode workflows work for you, stick with free alternatives. If you value seamless Game Mode integration, Junk Store eliminates the friction.
+  <br>
+  <br>
+    <div class="text-center">
+      <a href="https://portal.junkstore.xyz/" class="button buy-button" target="_blank" rel="noopener noreferrer">Start Your 7-Day Free Trial</a>
+    </div>
 </details>
 
 <details class="faq-box">
-  <summary>What makes Junk Store worth $40/year vs free alternatives?</summary>
+  <summary>How does Junk Store's $40/year value compare to the time investment of free alternatives?</summary>
   <p></p>
     The $40/year covers three things you can't get from free alternatives:
   <br>
@@ -116,57 +168,14 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
       <li>Professional support and regular updates</li>
     </ul>
     <strong>Value calculation:</strong> If Junk Store saves you 2 hours per month of setup/troubleshooting time, that's $1.67/hour for convenience. Most users report saving 5-10 hours monthly.
+  <br>
+  <br>
+    <div class="text-center">
+      <a href="https://portal.junkstore.xyz/" class="button buy-button" target="_blank" rel="noopener noreferrer">Start Your 7-Day Free Trial</a>
+    </div>
 </details>
 
-<details class="faq-box">
-  <summary>How much time does Junk Store actually save vs manual setup?</summary>
-  <p></p>
-    Based on user feedback, here's the typical time investment comparison:
-  <br>
-  <br>
-    <strong>Manual setup with free alternatives:</strong>
-    <ul>
-      <li>⏱️ <strong>Initial setup:</strong> 2-4 hours (installing Heroic/Lutris, configuring stores, learning interfaces)</li>
-      <li>⏱️ <strong>Per game setup:</strong> 15-30 minutes (creating shortcuts, troubleshooting dependencies, fixing artwork)</li>
-      <li>⏱️ <strong>Ongoing maintenance:</strong> 1-2 hours monthly (updates, fixes, new game setup)</li>
-      <li>⏱️ <strong>Desktop Mode transitions:</strong> 2-3 minutes per session (adds up quickly)</li>
-    </ul>
-    <strong>Junk Store setup:</strong>
-    <ul>
-      <li>⏱️ <strong>Initial setup:</strong> 15-30 minutes (download, generate extensions, login to stores)</li>
-      <li>⏱️ <strong>Per game setup:</strong> 30 seconds (click install, automatic Steam shortcut creation)</li>
-      <li>⏱️ <strong>Ongoing maintenance:</strong> 5-10 minutes monthly (automatic updates)</li>
-      <li>⏱️ <strong>Access time:</strong> 2 seconds (press Select button)</li>
-    </ul>
-    <strong>Realistic monthly time savings:</strong> 3-6 hours for active users, 1-2 hours for casual users.
-  <br>
-  <br>
-    Beyond time, users consistently mention <strong>reduced frustration</strong> and <strong>lower technical barriers</strong> as major value factors.
-</details>
 
-<details class="faq-box">
-  <summary>Is the premium version really that different from free alternatives?</summary>
-  <p></p>
-    Yes, it's architected completely differently. Free alternatives are <strong>desktop applications</strong> designed for traditional PC gaming. Junk Store is a <strong>Game Mode native tool</strong> designed specifically for Steam Deck workflows.
-  <br>
-  <br>
-    <strong>Architectural differences:</strong>
-    <ul>
-      <li>🎮 <strong>Controller-first design</strong> — every interaction optimized for D-pad/analog stick navigation</li>
-      <li>⚡ <strong>Steam integration</strong> — generates shortcuts automatically, handles compatibility layers natively</li>
-      <li>🔄 <strong>Unified backend</strong> — single interface manages multiple store APIs simultaneously</li>
-      <li>🧠 <strong>Automation engine</strong> — handles dependencies, artwork, metadata without user intervention</li>
-    </ul>
-    <strong>Feature differences:</strong>
-    <ul>
-      <li>📦 <strong>Amazon Games support</strong> — not available in Heroic/Lutris</li>
-      <li>🎯 <strong>ROM management</strong> — integrated emulator setup with automatic downloads</li>
-      <li>🛠️ <strong>Extension system</strong> — create custom store integrations via generator</li>
-      <li>☁️ <strong>Experimental cloud saves</strong> — Epic/GOG sync without desktop apps</li>
-      <li>📊 <strong>Performance optimization</strong> — handles 1000+ games per tab efficiently</li>
-    </ul>
-    Think of it as <strong>Steam Deck-specific software</strong> vs <strong>general PC gaming tools</strong>. Both solve game access, but for very different use cases.
-</details>
 
 <details class="faq-box">
   <summary>What happens if I don't renew my subscription?</summary>
@@ -228,12 +237,15 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 
 
 <details class="faq-box">
-  <summary>How do I import my installed games from the Decky version of Junk Store?</summary>
+  <summary>How do I import and play my games from the Decky version in Junk Store 2.0?</summary>
   <p></p>
-    This is done automatically when you first install and launch Junk Store 2.0. Once you’ve generated the extensions (Epic and/or GOG), your games will sync across when you open each corresponding tab.
+    <strong>Automatic Import:</strong> This happens automatically when you first install and launch Junk Store 2.0. Once you've generated the extensions (Epic and/or GOG), your games will sync across when you open each corresponding tab.
   <br>
   <br>
-    Please note that this process can take some time, as Junk Store is rebuilding the databases for each storefront.
+    <strong>Playing Imported Games:</strong> Yes, your games will work, but you'll need to <strong>Reset Launch Options</strong> for each game (found in the sliders menu on the game page). This only needs to be done once per game to fully migrate it to the new version.
+  <br>
+  <br>
+    <strong>Note:</strong> The initial import process can take some time, as Junk Store is rebuilding the databases for each storefront.
   </details>
 
   <details class="faq-box">
@@ -245,6 +257,28 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
         Once migration is complete, run the uninstall script in konsole:
         <code>~/.local/share/junkstore/uninstall.sh</code>
   </details>
+
+  <details class="faq-box">
+  <summary>How do I migrate games back to the Decky (free) version?</summary>
+  <p></p>
+    <strong>It depends on when the games were originally installed:</strong>
+    <br>
+    <br>
+    <strong>✅ Games originally from Decky version:</strong> These CAN be migrated back. For already installed games, open the game page in Junk Store and use <strong>Reset Launch Options</strong> from the sliders menu. This completes the migration back to Decky compatibility.
+    <br>
+    <br>
+    <strong>❌ Games newly installed in Junk Store 2.0:</strong> These cannot be migrated back to Decky due to different install paths and configuration systems.
+    <br>
+    <br>
+    <strong>For games newly installed in 2.0 that you want to keep:</strong>
+    <ul>
+      <li>Back up your save files for any games you plan to keep playing</li>
+      <li>Manually uninstall games installed via the new version before your trial expires (to free up space)</li>
+      <li>Reinstall those games using the Decky version</li>
+      <li>Restore your game saves manually</li>
+    </ul>
+     <strong>Tip:</strong> Complete this process before your trial ends — otherwise, you may lose access and the games will still occupy storage.
+</details>
 
 <details class="faq-box">
   <summary>How do I install custom Proton versions (like GE-Proton)?</summary>
@@ -261,21 +295,17 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 </details>
 
 <details class="faq-box">
-  <summary>How do I change where games are downloaded?</summary>
+  <summary>How do I manage game storage and SD card downloads?</summary>
   <p></p>
-    You can set your preferred download location from the Epic tab:
+    <strong>Changing Download Location:</strong> You can set your preferred download location for each platform separately:
   <ul>
-    <li>Go to the <strong>Epic</strong> tab</li>
+    <li>Go to the <strong>Epic</strong>, <strong>GOG</strong>, or <strong>Amazon</strong> tab</li>
     <li>Click the <strong>⚙️ Gear icon</strong> to open settings</li>
     <li>Set your desired download path (e.g. your SD card directory)</li>
-    <li>Press <kbd>X</kbd> to save your changes.</li>
+    <li>Press <kbd>X</kbd> to save your changes</li>
+    <li>Repeat for each platform you want to configure</li>
   </ul>
-</details>
-
-<details class="faq-box">
-  <summary>Can I move games to my SD card?</summary>
-  <p></p>
-    Not at the moment. It’s a complex feature and on our development roadmap. For now, games need to be stored on internal storage or an already-mounted drive.  
+    <strong>Moving Existing Games:</strong> Not currently supported. Moving installed games to SD card is a complex feature on our development roadmap. For now, games need to be stored on internal storage or an already-mounted drive.
 </details>
 
 <details class="faq-box">
@@ -348,41 +378,125 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 </details>
 
 <details class="faq-box">
-  <summary>How do I migrate games back to the Decky (free) version?</summary>
+  <summary>How do I change game language settings on Steam Deck without Desktop Mode?</summary>
   <p></p>
-    <strong>It depends on when the games were originally installed:</strong>
-    <br>
-    <br>
-    <strong>✅ Games originally from Decky version:</strong> These CAN be migrated back. For already installed games, open the game page in Junk Store and use <strong>Reset Launch Options</strong> from the sliders menu. This completes the migration back to Decky compatibility.
-    <br>
-    <br>
-    <strong>❌ Games newly installed in Junk Store 2.0:</strong> These cannot be migrated back to Decky due to different install paths and configuration systems.
-    <br>
-    <br>
-    <strong>For games newly installed in 2.0 that you want to keep:</strong>
-    <ul>
-      <li>Back up your save files for any games you plan to keep playing</li>
-      <li>Manually uninstall games installed via the new version before your trial expires (to free up space)</li>
-      <li>Reinstall those games using the Decky version</li>
-      <li>Restore your game saves manually</li>
-    </ul>
-     <strong>Tip:</strong> Complete this process before your trial ends — otherwise, you may lose access and the games will still occupy storage.
+    Change your Epic, GOG, or Amazon game language settings directly in Game Mode - no desktop switching required:
+  <ul>
+    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
+    <li>Select <strong>Game Configs</strong></li>
+    <li>Change the dropdown to <strong>All</strong></li>
+    <li>Click <strong>ENVIRONMENT</strong> dropdown</li>
+    <li>Scroll to <strong>LANG</strong> and select your preferred language</li>
+    <li>Press <kbd>X</kbd> to save changes</li>
+  </ul>
+    Your game will launch in the selected language - all managed from Game Mode with no additional tools needed.
+</details>
+
+<details class="faq-box">
+  <summary>How do I enable offline mode for Steam Deck non-Steam games?</summary>
+  <p></p>
+    Set offline mode per individual game (improved from the global setting in free alternatives) directly in Game Mode:
+  <ul>
+    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
+    <li>Select <strong>Game Configs</strong></li>
+    <li>Change the dropdown to <strong>All</strong></li>
+    <li>Click <strong>ENVIRONMENT</strong> dropdown</li>
+    <li>Find <strong>TOGGLE OFFLINE MODE</strong> and turn it on (blue = enabled)</li>
+    <li>Press <kbd>X</kbd> to save changes</li>
+  </ul>
+    Your Epic, GOG, or Amazon games that support offline play will now work without internet connection.
+</details>
+
+<details class="faq-box">
+  <summary>How do I manage DLC installations for Steam Deck non-Steam games?</summary>
+  <p></p>
+    Control which DLCs install for your Epic, GOG, and Amazon games without leaving Game Mode:
+  <ul>
+    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
+    <li>Select <strong>Installation</strong></li>
+    <li>Click <strong>DLC</strong></li>
+    <li>Toggle DLCs on/off (blue = will install, grey = won't install)</li>
+    <li>Press <kbd>X</kbd> to save changes</li>
+  </ul>
+    <strong>Timing:</strong> Configure before installation to download only wanted DLCs, or update existing games to add/remove DLC content. No external tools or desktop switching required.
+</details>
+
+<details class="faq-box">
+  <summary>How do I install game dependencies on Steam Deck without Proton Tricks?</summary>
+  <p></p>
+    Junk Store includes built-in dependency management for common gaming requirements - no third-party tools needed:
+  <ul>
+    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
+    <li>Select <strong>Installation</strong></li>
+    <li>Set dropdown to <strong>Expert</strong> mode</li>
+    <li>Click <strong>Dependencies</strong></li>
+    <li>Toggle needed dependencies on (blue = will install)</li>
+    <li>Press <kbd>X</kbd> to save changes</li>
+  </ul>
+    <strong>Coverage:</strong> Handles most common game dependencies. For rare or game-specific requirements not listed, you may still need external tools. Install before or after game installation as needed.
+</details>
+
+<details class="faq-box">
+  <summary>How do I update Junk Store and track new Steam Deck gaming features?</summary>
+  <p></p>
+    Stay current with the latest Steam Deck non-Steam gaming improvements through our direct update system:
+  <br>
+  <br>
+    <strong>Update Notifications:</strong> Join our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord #version-2-updates</a> channel for immediate update announcements.
+  <br>
+  <br>
+    <strong>Update Channels:</strong>
+  <ul>
+    <li><strong>Stable:</strong> Recommended for most Steam Deck users</li>
+    <li><strong>Test:</strong> Early access to hotfixes and new gaming features</li>
+    <li><strong>Beta:</strong> SteamOS compatibility updates (use if on SteamOS beta)</li>
+  </ul>
+    <strong>Change Channels:</strong> Press <strong>Select</strong> → <strong>About</strong> → <strong>System</strong>. Choose channels for both Junk Store core and Extensions (where new platform support is added).
+</details>
+
+<details class="faq-box">
+  <summary>How do I add custom launch arguments for Steam Deck non-Steam games?</summary>
+  <p></p>
+    Add advanced launch parameters for Epic, GOG, and Amazon games using Junk Store's built-in text editor:
+  <ul>
+    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
+    <li>Select <strong>PROTON</strong></li>
+    <li>Set dropdown to <strong>Expert</strong> or higher</li>
+    <li>Click <strong>ALL</strong></li>
+    <li>Navigate to <strong>Additional Variables</strong> or <strong>Additional Arguments</strong> field</li>
+    <li>Press <kbd>Y</kbd> to open the text editor</li>
+    <li>Press <kbd>A</kbd> to open keyboard and type arguments</li>
+    <li>Press <kbd>X</kbd> to save changes</li>
+  </ul>
+    All custom arguments are applied automatically when launching games - no manual Steam shortcut editing required.
+</details>
+
+<details class="faq-box">
+  <summary>How do I enable anticheat (EAC/BattlEye) and advanced Proton settings on Steam Deck?</summary>
+  <p></p>
+    Configure anticheat runtimes and Proton performance settings for your non-Steam games directly in Game Mode:
+  <ul>
+    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
+    <li>Select <strong>PROTON</strong></li>
+    <li>Toggle required settings: <strong>EAC</strong>, <strong>BattlEye</strong>, <strong>VKD3</strong>, <strong>ESYNC</strong>, <strong>FSYNC</strong></li>
+    <li>Adjust <strong>Frame Rate</strong>, <strong>FSR strength</strong>, and other performance options</li>
+    <li>Press <kbd>X</kbd> to save changes</li>
+  </ul>
+    <strong>Advanced Options:</strong> Extensive configuration available for power users who want to optimize Epic, GOG, and Amazon game performance without leaving the handheld interface.
 </details>
 
 <h2>Game Compatibility & Support</h2>
 
 <details class="faq-box">
-  <summary>Do EA and Ubisoft games work via Junk Store?</summary>
+  <summary>Do games requiring third-party launchers (EA, Ubisoft, etc.) work with Junk Store?</summary>
   <p></p>
-    <strong>EA Games:</strong><br>
-    No, EA games are not supported. They require the EA Launcher, which isn’t integrated with Junk Store. Because of this, EA titles will not appear in your Epic Games library when accessed through Junk Store.
+    <strong>EA Games:</strong> No, EA games are not supported. They require the EA Launcher, which isn't integrated with Junk Store. EA titles will not appear in your Epic Games library when accessed through Junk Store.
   <br>
   <br>
-    <strong>Ubisoft Games:</strong><br>
-    It’s complicated. Some Ubisoft titles do appear in your Epic library, while others don’t. The Ubisoft Launcher is not officially supported, but we—and some users—have successfully installed it manually and run select games through Junk Store.
-  <!-- <ul>
-    <li>A full guide is available here: <a href="/tutorials/Ubisoft/">How to install Ubisoft via Junk Store</a></li>
-  </ul> -->
+    <strong>Ubisoft Games:</strong> It's complicated. Some Ubisoft titles appear in your Epic library, while others don't. The Ubisoft Launcher is not officially supported, but some users have successfully installed it manually and run select games.
+  <br>
+  <br>
+    <strong>Other Third-Party Launchers:</strong> Not currently supported. While Legendary has limited support, this feature isn't implemented in Junk Store yet. You can attempt manual setup via CLI or modify the extension script.
 </details>
 
 <details class="faq-box">
@@ -414,11 +528,6 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
     Kingdom Hearts has known compatibility issues on Linux, and this isn’t specific to Junk Store. We haven’t been able to test it ourselves as we don’t own a copy, so we can’t provide official support or recommendations at this time.
 </details>
 
-<details class="faq-box">
-  <summary>Do games that require third-party launchers work?</summary>
-  <p></p>
-    Not currently. While Legendary has limited support, this feature isn't implemented in Junk Store yet. You can attempt manual setup via CLI or modify the extension script.
-</details>
 
 <h2>General/Technical Details</h2>
 
@@ -467,21 +576,15 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
 </details>
 
 <details class="faq-box">
-  <summary>Is Junk Store trustworthy?</summary>
+  <summary>Is Junk Store trustworthy and how are my credentials handled?</summary>
     <p></p>
-    Yes. Junk Store is developed by a cybersecurity expert and white-hat professional. You can verify our lead developer's credentials on <a href="https://www.linkedin.com/in/eben-bruyns/" target="_blank">LinkedIn</a>.
+    <strong>Developer Credentials:</strong> Yes, Junk Store is trustworthy. It's developed by a cybersecurity expert and white-hat professional. You can verify our lead developer's credentials on <a href="https://www.linkedin.com/in/eben-bruyns/" target="_blank">LinkedIn</a>.
   <br>
   <br>
-    We take user privacy and security seriously — nothing is stored, tracked, or transmitted beyond what is absolutely required for Junk Store to function properly.
-</details>
-
-<details class="faq-box">
-  <summary>Does Junk Store store any of my credentials?</summary>
-  <p></p>
-    No. Junk Store does not store any of your credentials. This works the same way as in the open-source Decky Plugin version of Junk Store.
+    <strong>Privacy & Security:</strong> We take user privacy and security seriously — nothing is stored, tracked, or transmitted beyond what is absolutely required for Junk Store to function properly.
   <br>
   <br>
-    All authentication is handled via OAuth tokens. The only token managed directly by Junk Store is the Junk Store token. Other tokens are managed by external tools: Legendary (Epic), lgogdownloader (Gog), and Nile (Amazon).
+    <strong>Credential Storage:</strong> No, Junk Store does not store any of your credentials. This works the same way as in the open-source Decky Plugin version. All authentication is handled via OAuth tokens. The only token managed directly by Junk Store is the Junk Store token. Other tokens are managed by external tools: Legendary (Epic), lgogdownloader (GOG), and Nile (Amazon).
 </details>
 
 <details class="faq-box">
@@ -496,19 +599,11 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
     <strong>Note:</strong> Not all games from either platform support cloud saves.
 </details>
 
-<details class="faq-box">
-  <summary>Will I be able to play my games installed from the Decky version in the new version?</summary>
-  <p></p>
-    Yes. However, you'll need to <strong>Reset Launch Options</strong> for each game. 
-    <br>
-    <br>
-    This only needs to be done once per game to fully migrate it to the new version of Junk Store.
-</details>
 
 <details class="faq-box">
   <summary>Can I use Junk Store with games I already installed using other third-party solutions?</summary>
   <p></p>
-    <strong>No.</strong> Junk Store manages its own installations and environment. Games installed through other launchers (like Heroic, Lutris, or Bottles) are not recognized or managed by Junk Store.
+    <strong>No.</strong> Junk Store manages its own installations and environment. Games installed through other launchers are not recognized or managed by Junk Store.
   <br>
   <br>
       If you want to use Junk Store to manage a game, you'll need to install it again through Junk Store directly.
