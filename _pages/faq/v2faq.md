@@ -17,8 +17,11 @@ header:
 
 
 This is the official Junk Store FAQ, where you'll find answers to the most commonly asked questions. We update this page regularly as new features roll out and feedback comes in.
-  
-For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/JunkStore/) or join us on [Discord](https://discord.gg/6mRUhR6Teh).
+
+**Need more help?** 
+- **Step-by-step guides:** [Tutorials & How-To Guides](/2.0tutorials/) 
+- **Technical issues:** [Troubleshooting Guide](/2.0troubleshooting/)
+- **Community support:** [r/JunkStore subreddit](https://www.reddit.com/r/JunkStore/) or [Discord](https://discord.gg/6mRUhR6Teh)
 
 
 <h2>Getting Started</h2>
@@ -42,6 +45,8 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
   <br>
   <br>
     The initial library sync can take a few minutes as Junk Store builds the database for each platform.
+  <br><br>
+  <strong>📖 Need detailed setup instructions?</strong> Check out our [Installation Tutorial](/tutorials/install2.0/)
 </details>
 
 <details class="faq-box">
@@ -434,6 +439,8 @@ For more help, drop by the [r/JunkStore subreddit](https://www.reddit.com/r/Junk
     <li>Press <kbd>X</kbd> to save changes</li>
   </ul>
     <strong>Coverage:</strong> Handles most common game dependencies. For rare or game-specific requirements not listed, you may still need external tools. Install before or after game installation as needed.
+  <br><br>
+  <strong>📖 Need step-by-step instructions?</strong> Check our [Game Dependencies Tutorial](/tutorials/installgamedeps/)
 </details>
 
 <details class="faq-box">
