@@ -1,9 +1,12 @@
 ---
-layout: splash
+layout: single
 title: "Frequently Asked Questions"
 description: "Junk Store 2.0 FAQ - standalone Steam Deck app for non-Steam games from Epic, GOG & Amazon. Features, pricing, trial info, and technical support."
 permalink: /2.0faq/
 classes: wide
+sidebar:
+  nav: "faq-nav"
+show_pagination: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -13,40 +16,84 @@ header:
       url: "/buy_now/"
       class: "button buy-button"
 ---
+<div id="top"></div>
 <div class="spacer mt-4"></div>
-
 
 This is the official Junk Store FAQ, where you'll find answers to the most commonly asked questions. We update this page regularly as new features roll out and feedback comes in.
 
-**Need more help?** 
-- **Step-by-step guides:** [Tutorials & How-To Guides](/2.0tutorials/) 
-- **Technical issues:** [Troubleshooting Guide](/2.0troubleshooting/)
-- **Community support:** [r/JunkStore subreddit](https://www.reddit.com/r/JunkStore/) or [Discord](https://discord.gg/6mRUhR6Teh)
+<div class="faq-quick-nav">
+  <h3>🧭 Quick Navigation - Jump to Section:</h3>
+  <div class="nav-grid">
+    <a href="#overview-trial" class="nav-card">
+      <strong>🔍 Overview</strong>
+      <span>Key differences, trial details, and subscription info</span>
+    </a>
+    <a href="#getting-started-setup" class="nav-card">
+      <strong>🚀 Getting Started</strong>
+      <span>Step-by-step setup and first steps</span>
+    </a>
+    <a href="#using-junk-store" class="nav-card">
+      <strong>🎮 Using Junk Store</strong>
+      <span>Game management and features</span>
+    </a>
+    <a href="#game-compatibility--support" class="nav-card">
+      <strong>🎯 Game Compatibility</strong>
+      <span>Supported games and platforms</span>
+    </a>
+    <a href="#generaltechnical-details" class="nav-card">
+      <strong>⚙️ Technical Details</strong>
+      <span>Security, updates, and comparisons</span>
+    </a>
+  </div>
+</div>
 
+<!-- FAQ Search Interface -->
+<div class="faq-search-container">
+  <div class="search-box">
+    <input type="text" id="faq-search" placeholder="🔍 Search FAQs..." aria-label="Search FAQ questions">
+    <button type="button" id="clear-search" class="clear-button" title="Clear search">✕</button>
+  </div>
+  <div class="search-results-info" id="search-info">Showing all 35 questions</div>
+  <div class="no-results" id="no-results" style="display: none;">
+    <p>No questions found matching your search. Try different keywords or browse all sections above.</p>
+  </div>
+</div>
 
-<h2>Getting Started</h2>
+<h2 id="overview-trial">Overview & Trial Information</h2>
+
+<div class="section-summary">
+  <h3>Overview & Trial Information - <span class="question-count">5 Questions</span></h3>
+  <p>Security, key differences, trial details, and subscription pricing.</p>
+</div>
 
 <details class="faq-box">
-  <summary>I just signed up for the trial. How do I access Junk Store?</summary>
+  <summary>Is Junk Store trustworthy and how are my credentials handled?</summary>
   <p></p>
-    After installing Junk Store 2.0, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck. No need to switch to Desktop Mode or launch separate applications.
+    <strong>Yes, Junk Store is trustworthy.</strong> We prioritize user security and transparency in how we handle your gaming credentials.
   <br>
   <br>
-    This opens directly in Game Mode, giving you immediate access to your Epic, GOG, and Amazon game libraries.
-</details>
-
-<details class="faq-box">
-  <summary>What should I do first after accessing Junk Store?</summary>
-  <p></p>
-    <strong>Step 1:</strong> Generate extensions for the platforms you want to use (Epic, GOG, Amazon)<br>
-    <strong>Step 2:</strong> Log into your game store accounts when prompted<br>
-    <strong>Step 3:</strong> Your existing libraries will automatically sync and appear in Junk Store<br>
-    <strong>Step 4:</strong> Start installing games directly from Game Mode
-  <br>
-  <br>
-    The initial library sync can take a few minutes as Junk Store builds the database for each platform.
-  <br><br>
-  <strong>📖 Need detailed setup instructions?</strong> Check out our [Installation Tutorial](/tutorials/install2.0/)
+    <strong>Credential Security:</strong>
+    <ul>
+      <li>🔒 <strong>No password storage:</strong> Junk Store never stores your Epic, GOG, or Amazon passwords</li>
+      <li>🎫 <strong>Token-based authentication:</strong> Uses secure login tokens provided by each platform</li>
+      <li>💻 <strong>Local storage only:</strong> All tokens stored locally on your Steam Deck</li>
+      <li>🔐 <strong>Standard OAuth flow:</strong> Same login method used by official store websites</li>
+    </ul>
+    <strong>Privacy Protection:</strong>
+    <ul>
+      <li>📊 <strong>No personal data collection:</strong> We don't collect or store personal information</li>
+      <li>🎮 <strong>No game tracking:</strong> Your gaming habits aren't monitored or reported</li>
+      <li>🔍 <strong>Open source foundation:</strong> Core Decky plugin code is publicly auditable</li>
+      <li>🛡️ <strong>Local operation:</strong> Most functionality works entirely offline</li>
+    </ul>
+    <strong>Technical Trust Factors:</strong>
+    <ul>
+      <li>✅ <strong>Established developer:</strong> Active in Steam Deck community since launch</li>
+      <li>📈 <strong>Transparent development:</strong> Regular updates with clear changelogs</li>
+      <li>🤝 <strong>Community support:</strong> Active Discord and Reddit communities</li>
+      <li>🔧 <strong>Professional maintenance:</strong> Consistent updates and bug fixes</li>
+    </ul>
+    <strong>Bottom line:</strong> Junk Store follows standard security practices and prioritizes user privacy. Your credentials are handled the same way as official store applications.
 </details>
 
 <details class="faq-box">
@@ -55,10 +102,10 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Junk Store is Steam Deck-specific software</strong> designed exclusively for handheld gaming workflows, while alternatives are general PC gaming tools adapted for Steam Deck.
   <br>
   <br>
-    <strong>Key advantages:</strong>
+    <strong>Key differences:</strong>
   <br>
   <br>
-    <strong>1. Controller-First Design:</strong> Every interaction optimized for D-pad/analog stick navigation - no keyboard/mouse needed
+    <strong>1. Steam Deck Controller Navigation:</strong> Every interaction optimized for the full Steam Deck controller experience - analog sticks, D-pad, buttons, touchpads
   <br>
   <br>
     <strong>2. Game Mode Native:</strong> Works entirely within Game Mode - no desktop switching required to view libraries or install games
@@ -70,145 +117,15 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>4. Unified Library:</strong> Epic, GOG, Amazon games AND emulators integrated into your Steam library as if they were native Steam games
   <br>
   <br>
-    <strong>5. Rapid Updates:</strong> Direct update channels mean fixes and new features roll out quickly without waiting for third-party distribution
+    <strong>5. Built-in Automation:</strong> Dependency management, artwork caching, and ROM downloads handled automatically
   <br>
   <br>
-     <div class="text-center">
+    If Desktop Mode workflows work for you, free alternatives are excellent choices. Junk Store focuses specifically on seamless Game Mode integration for users who prefer staying in the Steam ecosystem.
+  <br>
+  <br>
+    <div class="text-center">
       <a href="https://portal.junkstore.xyz/" class="button buy-button">Start Your 7-Day Free Trial</a>
     </div>
-</details>
-
-<details class="faq-box">
-  <summary>How long is my trial and what happens when it ends?</summary>
-  <p></p>
-    You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon integration, emulator extension creation, and all premium features.
-  <br>
-  <br>
-    After 7 days, if you don't subscribe, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
-</details>
-
-<h2>Quick Start Guide</h2>
-
-<details class="faq-box">  
-  <summary>New to Junk Store? Start here for fastest setup</summary>
-  <p></p>
-    <strong>5-Minute Setup (Perfect for trial users):</strong><br>
-    After downloading and installing Junk Store 2.0 from the Portal
-  <br>
-  <br>
-    <strong>1. Access Junk Store:</strong> Press Select button (above D-pad) - opens instantly in Game Mode<br>
-    <strong>2. Generate Extensions:</strong> Click generate for Epic, GOG, or Amazon - creates instant library access<br>
-    <strong>3. Login:</strong> Sign into your game store accounts when prompted<br>
-    <strong>4. Install a Game:</strong> Click any game → Install → Automatic Steam shortcut creation
-  <br>
-  <br>
-    <strong>Try This During Your Trial:</strong>
-    <ul>
-      <li>🎯 Install 2-3 games you already own to see the automation difference</li>
-      <li>⚡ Compare setup time vs Desktop Mode alternatives you've used</li>
-      <li>🎮 Notice how everything stays in Game Mode without app switching</li>
-    </ul>
-    <strong>Most users know within 2-3 days if the convenience justifies the cost.</strong> The 7-day trial gives plenty of time to test real usage patterns.
-  <br>
-  <br>
-    <div class="text-center">
-      <a href="https://portal.junkstore.xyz/" class="button buy-button" target="_blank" rel="noopener noreferrer">Start Your 7-Day Free Trial</a>
-    </div>
-</details>
-
-<h2>Pricing & Value</h2>
-
-<details class="faq-box">
-  <summary>What makes Junk Store worth $40/year compared to free alternatives?</summary>
-  <p></p>
-    While Heroic is an excellent free alternative, Junk Store solves a different problem: <strong>staying in Game Mode</strong>. Here's the key difference:
-  <br>
-  <br>
-    <strong>Heroic/Lutris approach:</strong> Switch to Desktop Mode → Launch separate app → Configure games → Return to Game Mode
-  <br>
-  <br>
-    <strong>Junk Store approach:</strong> Press Select button → Install/launch games → Stay in Game Mode the entire time
-  <br>
-  <br>
-    Beyond convenience, Junk Store includes features not available in free alternatives:
-    <ul>
-      <li>🎮 <strong>Game Mode native interface</strong> — no desktop switching required</li>
-      <li>🛠️ <strong>Built-in dependency management</strong> — Visual C++ installed automatically, other dependencies via built-in menu (no 3rd party tools needed)</li>
-      <li>💾 <strong>Unified game management</strong> — Epic, GOG, Amazon, and emulators in one interface</li>
-      <li>🧠 <strong>Smart automation</strong> — ROM downloads, artwork caching, Proton version optimization</li>
-      <li>🔧 <strong>Extension generator</strong> — create custom store integrations without coding</li>
-    </ul>
-    If Desktop Mode workflows work for you, stick with free alternatives. If you value seamless Game Mode integration, Junk Store eliminates the friction.
-  <br>
-  <br>
-    <div class="text-center">
-      <a href="https://portal.junkstore.xyz/" class="button buy-button" target="_blank" rel="noopener noreferrer">Start Your 7-Day Free Trial</a>
-    </div>
-</details>
-
-<details class="faq-box">
-  <summary>How does Junk Store's $40/year value compare to the time investment of free alternatives?</summary>
-  <p></p>
-    The $40/year covers three things you can't get from free alternatives:
-  <br>
-  <br>
-    <strong>1. Time savings through automation:</strong>
-    <ul>
-      <li>One-click generation of entire game libraries (vs manual shortcuts)</li>
-      <li>Automatic dependency installation (vs troubleshooting runtime errors)</li>
-      <li>Built-in artwork and metadata (vs missing/broken game art)</li>
-      <li>Unified interface for all stores (vs managing multiple desktop apps)</li>
-    </ul>
-    <strong>2. Game Mode integration:</strong>
-    <ul>
-      <li>Native controller navigation — no keyboard/mouse required</li>
-      <li>Press Select to access — no desktop mode switching</li>
-      <li>Seamless Steam Deck experience — feels like built-in functionality</li>
-    </ul>
-    <strong>3. Advanced features:</strong>
-    <ul>
-      <li>Amazon Games support (not available in Heroic)</li>
-      <li>Emulator integration with ROM management</li>
-      <li>Custom extension generator for niche game stores</li>
-      <li>Professional support and regular updates</li>
-    </ul>
-    <strong>Value calculation:</strong> If Junk Store saves you 2 hours per month of setup/troubleshooting time, that's $1.67/hour for convenience. Most users report saving 5-10 hours monthly.
-  <br>
-  <br>
-    <div class="text-center">
-      <a href="https://portal.junkstore.xyz/" class="button buy-button" target="_blank" rel="noopener noreferrer">Start Your 7-Day Free Trial</a>
-    </div>
-</details>
-
-
-
-<details class="faq-box">
-  <summary>What happens if I don't renew my subscription?</summary>
-  <p></p>
-    Your games remain installed and playable, but you lose access to Junk Store's management features:
-  <br>
-  <br>
-    <strong>What continues working:</strong>
-    <ul>
-      <li>✅ All installed games remain playable through Steam</li>
-      <li>✅ Steam shortcuts continue functioning normally</li>
-      <li>✅ Save files are preserved</li>
-      <li>✅ Proton compatibility settings maintained</li>
-    </ul>
-    <strong>What stops working:</strong>
-    <ul>
-      <li>❌ Installing new games through Junk Store</li>
-      <li>❌ Updating existing games via Junk Store</li>
-      <li>❌ Managing game settings/dependencies</li>
-      <li>❌ Accessing Junk Store interface (reverts to "trial expired" message)</li>
-    </ul>
-    <strong>Migration options:</strong>
-    <ul>
-      <li>🔄 Switch to free Decky plugin version (Epic only, limited features)</li>
-      <li>🖥️ Use Heroic/Lutris in Desktop Mode for new installs</li>
-      <li>💳 Reactivate subscription anytime to restore full functionality</li>
-    </ul>
-    <strong>Important:</strong> If switching away from Junk Store 2.0, see "How do I migrate games back to the Decky version?" below for complete backup and migration steps.
 </details>
 
 <details class="faq-box">
@@ -238,8 +155,102 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Trial tip:</strong> Most users know within 2-3 days whether the convenience justifies the cost. The 7-day window gives you plenty of time to test real-world usage patterns.
 </details>
 
-<h2>Using Junk Store</h2>
+<details class="faq-box">
+  <summary>How long is my trial and what happens when it ends?</summary>
+  <p></p>
+    You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon integration, emulator extension creation, and all premium features.
+  <br>
+  <br>
+    After 7 days, if you don't subscribe, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
+</details>
 
+<details class="faq-box">
+  <summary>What happens if I don't renew my subscription?</summary>
+  <p></p>
+    <strong>You keep access to the version of Junk Store 2.0 you paid for.</strong> Everything continues working as normal, but you won't receive future updates.
+  <br>
+  <br>
+    <strong>What continues working:</strong>
+    <ul>
+      <li>✅ All games installed through Junk Store 2.0 remain playable</li>
+      <li>✅ Full Junk Store 2.0 functionality you paid for</li>
+      <li>✅ Installing and managing games</li>
+    </ul>
+    <strong>What you won't get going forward:</strong>
+    <ul>
+      <li>❌ New software updates and features</li>
+      <li>❌ Bug fixes and compatibility improvements</li>
+      <li>❌ New game store integrations</li>
+      <li>❌ Technical support</li>
+    </ul>
+    <strong>Important:</strong> Steam Deck/Valve updates may break functionality over time. Active subscriptions receive compatibility fixes to address these issues.
+  <br>
+  <br>
+    <strong>Note:</strong> You can reactivate anytime to resume receiving updates and support.
+</details>
+
+<h2 id="getting-started-setup">Getting Started & Setup</h2>
+
+<div class="section-summary">
+  <h3>Getting Started & Setup - <span class="question-count">2 Questions</span></h3>
+  <p>Step-by-step setup guide: accessing Junk Store and first steps after installation, with trial recommendations.</p>
+</div>
+
+<details class="faq-box">
+  <summary>I just signed up for the trial. How do I access Junk Store?</summary>
+  <p></p>
+    After installing Junk Store 2.0, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck. No need to switch to Desktop Mode or launch separate applications.
+  <br>
+  <br>
+    This opens directly in Game Mode, giving you immediate access to your Epic, GOG, and Amazon game libraries.
+</details>
+
+<details class="faq-box">
+  <summary>What should I do first after accessing Junk Store?</summary>
+  <p></p>
+    <strong>Step 1:</strong> Generate extensions for the platforms you want to use (Epic, GOG, Amazon)<br>
+    <strong>Step 2:</strong> Log into your game store accounts when prompted<br>
+    <strong>Step 3:</strong> Your existing libraries will automatically sync and appear in Junk Store<br>
+    <strong>Step 4:</strong> Start installing games directly from Game Mode
+  <br>
+  <br>
+    The initial library sync can take a few minutes as Junk Store builds the database for each platform.
+  <br><br>
+    <strong>Try This During Your Trial:</strong>
+    <ul>
+      <li>🎯 Install 2-3 games  to see the automation difference</li>
+      <li>⚡ Compare setup time vs Desktop Mode alternatives you've used</li>
+      <li>🎮 Notice how everything stays in Game Mode without app switching</li>
+    </ul>
+    <strong>Most users know within 2-3 days if the convenience justifies the cost.</strong> The 7-day trial gives plenty of time to test real usage patterns.
+  <br><br>
+  <strong>📖 Need detailed setup instructions?</strong> Check out our <a href="/tutorials/install2.0/">Installation Tutorial</a>
+</details>
+
+<h2 id="using-junk-store">Using Junk Store</h2>
+
+<div class="section-summary">
+  <h3>Using Junk Store - <span class="question-count">15 Questions</span></h3>
+  <p>Complete guide to game management: installation, settings, dependencies, language options, and advanced configurations.</p>
+</div>
+
+<details class="faq-box">
+  <summary>How do I update Junk Store and track new Steam Deck gaming features?</summary>
+  <p></p>
+    Stay current with the latest Steam Deck non-Steam gaming improvements through our direct update system:
+  <br>
+  <br>
+    <strong>Update Notifications:</strong> Join our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord #version-2-updates</a> channel for immediate update announcements.
+  <br>
+  <br>
+    <strong>Update Channels:</strong>
+  <ul>
+    <li><strong>Stable:</strong> Recommended for most Steam Deck users</li>
+    <li><strong>Test:</strong> Early access to hotfixes and new gaming features</li>
+    <li><strong>Beta:</strong> SteamOS compatibility updates (use if on SteamOS beta)</li>
+  </ul>
+    <strong>Change Channels:</strong> Press <strong>Select</strong> → <strong>About</strong> → <strong>System</strong>. Choose channels for both Junk Store core and Extensions (where new platform support is added).
+</details>
 
 <details class="faq-box">
   <summary>How do I import and play my games from the Decky version in Junk Store 2.0?</summary>
@@ -253,39 +264,8 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Note:</strong> The initial import process can take some time, as Junk Store is rebuilding the databases for each storefront.
   </details>
 
-  <details class="faq-box">
-    <summary>How do I uninstall Junk Store 2.0?</summary>
-      <p></p>
-        Before uninstalling, complete the migration process outlined in "How do I migrate games back to the Decky version?" below to preserve your games and saves.
-      <br>
-      <br>
-        Once migration is complete, run the uninstall script in konsole:
-        <code>~/.local/share/junkstore/uninstall.sh</code>
-  </details>
 
-  <details class="faq-box">
-  <summary>How do I migrate games back to the Decky (free) version?</summary>
-  <p></p>
-    <strong>It depends on when the games were originally installed:</strong>
-    <br>
-    <br>
-    <strong>✅ Games originally from Decky version:</strong> These CAN be migrated back. For already installed games, open the game page in Junk Store and use <strong>Reset Launch Options</strong> from the sliders menu. This completes the migration back to Decky compatibility.
-    <br>
-    <br>
-    <strong>❌ Games newly installed in Junk Store 2.0:</strong> These cannot be migrated back to Decky due to different install paths and configuration systems.
-    <br>
-    <br>
-    <strong>For games newly installed in 2.0 that you want to keep:</strong>
-    <ul>
-      <li>Back up your save files for any games you plan to keep playing</li>
-      <li>Manually uninstall games installed via the new version before your trial expires (to free up space)</li>
-      <li>Reinstall those games using the Decky version</li>
-      <li>Restore your game saves manually</li>
-    </ul>
-     <strong>Tip:</strong> Complete this process before your trial ends — otherwise, you may lose access and the games will still occupy storage.
-</details>
-
-<details class="faq-box">
+<details class="faq-box" data-advanced="true">
   <summary>How do I install custom Proton versions (like GE-Proton)?</summary>
   <p></p>
     To get GE-Proton or other custom Proton versions, use one of these tools:
@@ -337,7 +317,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <strong>Important:</strong> Uninstalling removes all local save data. To back up saves first, see "How do I find save data for my games?" below.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" data-advanced="true">
   <summary>How do I find save data for my games?</summary>
   <p></p>
   <ol>
@@ -426,7 +406,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Timing:</strong> Configure before installation to download only wanted DLCs, or update existing games to add/remove DLC content. No external tools or desktop switching required.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" data-advanced="true">
   <summary>How do I install game dependencies on Steam Deck without Proton Tricks?</summary>
   <p></p>
     Junk Store includes built-in dependency management for common gaming requirements - no third-party tools needed:
@@ -443,25 +423,8 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <strong>📖 Need step-by-step instructions?</strong> Check our [Game Dependencies Tutorial](/tutorials/installgamedeps/)
 </details>
 
-<details class="faq-box">
-  <summary>How do I update Junk Store and track new Steam Deck gaming features?</summary>
-  <p></p>
-    Stay current with the latest Steam Deck non-Steam gaming improvements through our direct update system:
-  <br>
-  <br>
-    <strong>Update Notifications:</strong> Join our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord #version-2-updates</a> channel for immediate update announcements.
-  <br>
-  <br>
-    <strong>Update Channels:</strong>
-  <ul>
-    <li><strong>Stable:</strong> Recommended for most Steam Deck users</li>
-    <li><strong>Test:</strong> Early access to hotfixes and new gaming features</li>
-    <li><strong>Beta:</strong> SteamOS compatibility updates (use if on SteamOS beta)</li>
-  </ul>
-    <strong>Change Channels:</strong> Press <strong>Select</strong> → <strong>About</strong> → <strong>System</strong>. Choose channels for both Junk Store core and Extensions (where new platform support is added).
-</details>
 
-<details class="faq-box">
+<details class="faq-box" data-advanced="true">
   <summary>How do I add custom launch arguments for Steam Deck non-Steam games?</summary>
   <p></p>
     Add advanced launch parameters for Epic, GOG, and Amazon games using Junk Store's built-in text editor:
@@ -478,7 +441,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     All custom arguments are applied automatically when launching games - no manual Steam shortcut editing required.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" data-advanced="true">
   <summary>How do I enable anticheat (EAC/BattlEye) and advanced Proton settings on Steam Deck?</summary>
   <p></p>
     Configure anticheat runtimes and Proton performance settings for your non-Steam games directly in Game Mode:
@@ -492,7 +455,44 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Advanced Options:</strong> Extensive configuration available for power users who want to optimize Epic, GOG, and Amazon game performance without leaving the handheld interface.
 </details>
 
-<h2>Game Compatibility & Support</h2>
+<details class="faq-box">
+  <summary>How do I migrate games back to the Decky (free) version?</summary>
+  <p></p>
+    <strong>It depends on when the games were originally installed:</strong>
+    <br>
+    <br>
+    <strong>✅ Games originally from Decky version:</strong> These CAN be migrated back. For already installed games, open the game page in Junk Store and use <strong>Reset Launch Options</strong> from the sliders menu. This completes the migration back to Decky compatibility.
+    <br>
+    <br>
+    <strong>❌ Games newly installed in Junk Store 2.0:</strong> These cannot be migrated back to Decky due to different install paths and configuration systems.
+    <br>
+    <br>
+    <strong>For games newly installed in 2.0 that you want to keep:</strong>
+    <ul>
+      <li>Back up your save files for any games you plan to keep playing</li>
+      <li>Manually uninstall games installed via the new version before your trial expires (to free up space)</li>
+      <li>Reinstall those games using the Decky version</li>
+      <li>Restore your game saves manually</li>
+    </ul>
+     <strong>Tip:</strong> Complete this process before your trial ends — otherwise, you may lose access and the games will still occupy storage.
+</details>
+
+<details class="faq-box">
+  <summary>How do I uninstall Junk Store 2.0?</summary>
+  <p></p>
+    Before uninstalling, complete the migration process outlined in "How do I migrate games back to the Decky version?" above to preserve your games and saves.
+  <br>
+  <br>
+    Once migration is complete, run the uninstall script in konsole:
+    <code>~/.local/share/junkstore/uninstall.sh</code>
+</details>
+
+<h2 id="game-compatibility--support">Game Compatibility & Support</h2>
+
+<div class="section-summary">
+  <h3>Game Compatibility - <span class="question-count">4 Questions</span></h3>
+  <p>Platform support details: third-party launchers, DOS/ScummVM games, and specific game compatibility issues.</p>
+</div>
 
 <details class="faq-box">
   <summary>Do games requiring third-party launchers (EA, Ubisoft, etc.) work with Junk Store?</summary>
@@ -536,7 +536,12 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 </details>
 
 
-<h2>General/Technical Details</h2>
+<h2 id="generaltechnical-details">General/Technical Details</h2>
+
+<div class="section-summary">
+  <h3>Technical Details - <span class="question-count">6 Questions</span></h3>
+  <p>Version comparisons, cloud saves, compatibility with other tools, and bug reporting information.</p>
+</div>
 
 <details class="faq-box">
   <summary>What's the difference between the Decky version and the Paid version?</summary>
@@ -582,17 +587,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   </table>
 </details>
 
-<details class="faq-box">
-  <summary>Is Junk Store trustworthy and how are my credentials handled?</summary>
-    <p></p>
-    <strong>Developer Credentials:</strong> Yes, Junk Store is trustworthy. It's developed by a cybersecurity expert and white-hat professional. You can verify our lead developer's credentials on <a href="https://www.linkedin.com/in/eben-bruyns/" target="_blank">LinkedIn</a>.
-  <br>
-  <br>
-    <strong>Privacy & Security:</strong> We take user privacy and security seriously — nothing is stored, tracked, or transmitted beyond what is absolutely required for Junk Store to function properly.
-  <br>
-  <br>
-    <strong>Credential Storage:</strong> No, Junk Store does not store any of your credentials. This works the same way as in the open-source Decky Plugin version. All authentication is handled via OAuth tokens. The only token managed directly by Junk Store is the Junk Store token. Other tokens are managed by external tools: Legendary (Epic), lgogdownloader (GOG), and Nile (Amazon).
-</details>
 
 <details class="faq-box">
   <summary>Does Junk Store 2.0 support cloud saves?</summary>
@@ -616,7 +610,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
       If you want to use Junk Store to manage a game, you'll need to install it again through Junk Store directly.
  </details>
 
-<details class="faq-box">
+<details class="faq-box" data-advanced="true">
   <summary>Does CheatDeck work with Junk Store?</summary>
   <p></p>
     <strong>Not reliably.</strong> Epic Games launch options are very sensitive, and tools like CheatDeck often conflict with Junk Store's custom launch configuration. We've spent many hours fine-tuning this setup, so use CheatDeck at your own risk.
@@ -639,3 +633,132 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <br>
     <strong>Note:</strong> Bug reports aren't support tickets. If you need help or aren't sure if it's a bug, please ask in our <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord server</a> first.
 </details>
+
+**Need more help?** 
+- **Step-by-step guides:** [Tutorials & How-To Guides](/2.0tutorials/) 
+- **Technical issues:** [Troubleshooting Guide](/2.0troubleshooting/)
+- **Community support:** [r/JunkStore subreddit](https://www.reddit.com/r/JunkStore/) or [Discord](https://discord.gg/6mRUhR6Teh)
+
+<!-- Final navigation - Back to top buttons -->
+<div class="section-end">
+  <a href="#top" class="back-to-top">↑ Back to Top</a>
+  <a href="#" onclick="document.querySelector('.faq-quick-nav').scrollIntoView({behavior: 'smooth'}); return false;" class="back-to-nav">🧭 Quick Navigation</a>
+</div>
+
+<!-- Mobile floating action button -->
+<a href="#top" class="faq-mobile-fab" id="mobile-fab">↑</a>
+
+<script>
+// Show/hide mobile FAB based on scroll position
+window.addEventListener('scroll', function() {
+  const fab = document.getElementById('mobile-fab');
+  if (window.scrollY > 300) {
+    fab.classList.add('visible');
+  } else {
+    fab.classList.remove('visible');
+  }
+});
+
+// FAQ Search Functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('faq-search');
+  const clearButton = document.getElementById('clear-search');
+  const searchInfo = document.getElementById('search-info');
+  const noResults = document.getElementById('no-results');
+  const faqBoxes = document.querySelectorAll('.faq-box');
+  const sectionSummaries = document.querySelectorAll('.section-summary');
+  
+  let totalQuestions = faqBoxes.length;
+  
+  function highlightText(text, searchTerm) {
+    if (!searchTerm) return text;
+    const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    return text.replace(regex, '<span class="search-highlight">$1</span>');
+  }
+  
+  function removeHighlights(element) {
+    const highlights = element.querySelectorAll('.search-highlight');
+    highlights.forEach(highlight => {
+      highlight.outerHTML = highlight.innerHTML;
+    });
+  }
+  
+  function searchFAQs() {
+    const searchTerm = searchInput.value.trim().toLowerCase();
+    let visibleCount = 0;
+    
+    // Clear previous highlights
+    faqBoxes.forEach(box => removeHighlights(box));
+    
+    if (searchTerm === '') {
+      // Show all questions
+      faqBoxes.forEach(box => {
+        box.style.display = 'block';
+        visibleCount++;
+      });
+      sectionSummaries.forEach(summary => summary.style.display = 'block');
+      noResults.style.display = 'none';
+      clearButton.style.display = 'none';
+    } else {
+      // Search and filter
+      faqBoxes.forEach(box => {
+        const summary = box.querySelector('summary');
+        const content = box.querySelector('p, ul, ol, div');
+        
+        const summaryText = summary ? summary.textContent.toLowerCase() : '';
+        const contentText = content ? content.textContent.toLowerCase() : '';
+        
+        if (summaryText.includes(searchTerm) || contentText.includes(searchTerm)) {
+          box.style.display = 'block';
+          visibleCount++;
+          
+          // Simple highlighting - avoid HTML mangling by working with plain text only
+          if (summary && summaryText.includes(searchTerm)) {
+            const originalText = summary.textContent;
+            const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
+            const regex = new RegExp(`(${escapedTerm})`, 'gi');
+            summary.innerHTML = originalText.replace(regex, '<span class="search-highlight">$1</span>');
+          }
+        } else {
+          box.style.display = 'none';
+        }
+      });
+      
+      // Hide section summaries during search
+      sectionSummaries.forEach(summary => summary.style.display = 'none');
+      clearButton.style.display = 'inline-block';
+    }
+    
+    // Update results info
+    if (visibleCount === 0 && searchTerm !== '') {
+      searchInfo.textContent = 'No results found';
+      noResults.style.display = 'block';
+    } else if (searchTerm === '') {
+      searchInfo.textContent = `Showing all ${totalQuestions} questions`;
+      noResults.style.display = 'none';
+    } else {
+      searchInfo.textContent = `Showing ${visibleCount} of ${totalQuestions} questions`;
+      noResults.style.display = 'none';
+    }
+  }
+  
+  function clearSearch() {
+    searchInput.value = '';
+    searchFAQs();
+    searchInput.focus();
+  }
+  
+  // Event listeners
+  searchInput.addEventListener('input', searchFAQs);
+  searchInput.addEventListener('keyup', function(e) {
+    if (e.key === 'Escape') {
+      clearSearch();
+    }
+  });
+  
+  clearButton.addEventListener('click', clearSearch);
+  
+  // Initialize
+  searchInfo.textContent = `Showing all ${totalQuestions} questions`;
+});
+</script>
