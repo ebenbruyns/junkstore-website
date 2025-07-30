@@ -4,14 +4,9 @@ _site/
 assets/lib
 
 # Project management and internal documentation
-docs-organized/
-claude-agents/
 docs/
 *.backup
-CLAUDE.md
-PROJECT_DOCS.md
 
 # Build artifacts
 .sass-cache/
 __pycache__/
-POST_CHANGE_COORDINATION_PROTOCOL.md
