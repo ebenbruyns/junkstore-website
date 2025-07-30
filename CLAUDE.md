@@ -71,7 +71,12 @@
 - **Current Build System:** Jekyll with Minimal Mistakes theme
 - **Table System:** JavaScript-based tables with JSON data (not Jekyll liquid)
 - **Performance Priority:** Site optimized to 42.9MB (was 64.3MB)
-- **Git Workflow:** Logical commits with proper descriptions, avoid massive commits
+- **Git Workflow:** 
+  - **SEPARATE COMMITS REQUIRED:** Always separate website files from documentation files
+    - **Website commits:** Files that affect the built site (_pages/, _sass/, assets/, _config.yml, etc.)
+    - **Documentation commits:** Files in docs/, CLAUDE.md, and other development-only files
+    - This allows clean cherry-picking for production builds
+  - Logical commit messages with proper descriptions, avoid massive commits
 
 ## File Management Rules
 
