@@ -12,3 +12,20 @@ main:
     url: /about/
   - title: "Buy Now"
     url: /buy_now/
+
+# FAQ sidebar navigation
+faq-nav:
+  - title: "Quick Navigation"
+    children:
+      - title: "🚀 Getting Started"
+        url: "#getting-started"
+      - title: "⚡ Quick Start Guide"  
+        url: "#quick-start-guide"
+      - title: "💰 Pricing & Value"
+        url: "#pricing--value"
+      - title: "🎮 Using Junk Store"
+        url: "#using-junk-store"
+      - title: "🎯 Game Compatibility"
+        url: "#game-compatibility--support"
+      - title: "⚙️ Technical Details"
+        url: "#generaltechnical-details"
