@@ -27,6 +27,63 @@
 - Maintain developer community relationships - don't be abrasive
 - **This policy may be revisited in future but is firm for now**
 
+## 🤖 MANDATORY AGENT USAGE PROTOCOL
+**⚠️ CRITICAL: Always use specialized agents - DO NOT work directly without agent consultation**
+
+### When to Use Each Agent (MANDATORY)
+
+#### 🔧 **Technical Work** → `quality-assurance-build-safety-agent` 
+**ALWAYS USE FOR:**
+- Any SCSS/CSS changes or styling work
+- Jekyll build modifications or configuration  
+- File operations (create, edit, delete)
+- Performance optimizations or mobile fixes
+- Any changes that could break the site build
+
+#### ✍️ **Content Work** → `strategic-content-brand-consistency-agent`
+**ALWAYS USE FOR:**
+- Copywriting, messaging, or text changes
+- FAQ organization or tutorial content
+- Brand voice enforcement and consistency
+- Marketing copy or competitive messaging
+- Any user-facing content creation
+
+#### 📊 **Strategic Work** → `strategic-positioning-market-intelligence-agent`
+**ALWAYS USE FOR:**
+- Competitive messaging or positioning
+- Market analysis or value proposition work  
+- Pricing justification or strategic decisions
+- Competitor research or differentiation
+
+#### 💰 **Business Work** → `business-conversion-revenue-optimization-agent`
+**ALWAYS USE FOR:**
+- Conversion optimization or homepage improvements
+- Trial signup focus or user experience enhancements
+- Revenue-focused decisions or A/B testing
+- Customer journey optimization
+
+#### 🎯 **Complex Tasks** → `project-coordination-quality-control-agent`
+**ALWAYS USE FOR:**
+- Multi-step tasks requiring multiple agents
+- Quality control oversight and coordination
+- Strategic planning or resource allocation
+- Any task involving 3+ file changes
+
+### 🚨 NON-NEGOTIABLE RULES
+1. **NEVER** perform specialized work without consulting the relevant agent first
+2. **ALWAYS** delegate to agents immediately when starting any task
+3. **MANDATORY** agent consultation - not optional or "when convenient"
+4. **NO EXCEPTIONS** - even for "quick fixes" or "simple changes"
+
+### Agent Deployment Pattern
+```
+Task Received → Identify Type → Deploy Relevant Agent → Execute via Agent → Quality Check
+```
+
+**Example:**
+- User asks to "fix FAQ styling" → Deploy `quality-assurance-build-safety-agent` + `strategic-content-brand-consistency-agent`
+- User asks for "competitive messaging" → Deploy `strategic-positioning-market-intelligence-agent` + `strategic-content-brand-consistency-agent`
+
 ## Documentation Organization Structure (Organized July 29, 2025)
 - **Primary Documentation Hub:** `docs/` - Single organized location for all project documentation
 - **Current Night Reports:** 
@@ -51,7 +108,7 @@
 - **Reference CLAUDE.md at start of each session**
 - **Update TodoWrite for all complex multi-step tasks**
 - **Use parallel tool calls for efficiency when possible**
-- **ALWAYS use relevant specialized agents when given tasks** (don't wait for user to prompt)
+- **FOLLOW MANDATORY AGENT USAGE PROTOCOL above** - never work without agents
 
 ### Quality Standards
 - Test all changes with Jekyll build verification: `bundle exec jekyll build`
