@@ -56,3 +56,8 @@ header:
 </ol>
 
 <p><strong>Tip:</strong> If you're not sure which dependency is needed, try launching the game first — missing components usually produce a helpful error. You can also check <a href="https://www.protondb.com/" target="_blank" rel="noopener noreferrer">ProtonDB</a>, <a href="{{ '/tested-games/' | relative_url }}">Tested Games</a> or community forums for guidance.</p>
+
+**Still having issues after installing dependencies?**
+- **Game won't launch:** [Troubleshooting Guide](/2.0troubleshooting/)
+- **General questions:** [Frequently Asked Questions](/2.0faq/)
+- **More tutorials:** [All How-To Guides](/2.0tutorials/)
