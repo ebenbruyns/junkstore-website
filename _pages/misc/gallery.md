@@ -1,6 +1,7 @@
 ---
 layout: splash
-title: "Media Gallery"
+title: "Junk Store in Action - Videos & Screenshots"
+description: "See Junk Store in action on Steam Deck - videos, GIFs & screenshots. Everything done in Game Mode, no Desktop Mode required."
 permalink: /gallery/
 header:
   overlay_color: "#000"
@@ -11,8 +12,10 @@ classes: wide
 ---
 <div class="spacer mt-4"></div>
 
+**See the difference: Everything shown here is done in Game Mode with your Steam Deck's controller.** No Desktop Mode switching, no mouse required—just pure handheld gaming as intended.
+
 <!-- Animated GIFs Section -->
-<h2>In-App Features (GIF Previews)</h2>
+<h2>Game Mode Features (Click to animate)</h2>
 <div class="media-grid">
 
   <div class="media-item">

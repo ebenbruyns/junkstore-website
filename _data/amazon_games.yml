@@ -83,13 +83,13 @@
   date_tested: "July '25"
 
 - title: "Baldur's Gate 2 Enhanced"
-  notes: "Must run ./dependencies/oalinst.exeto install OpenAL32.dll  first. ay need to set <em>./Baldur.exe</em>"
+  notes: "Must run ./dependencies/oalinst.exe to install OpenAL32.dll first. May need to set ./Baldur.exe"
   protondb: ""
   storefront: Amazon
   date_tested: "July '25"
 
 - title: "Baldur's Gate Enhanced"
-  notes: "Must run ./dependencies/oalinst.exeto install OpenAL32.dll  first. May need to set <em>./Baldur.exe</em>"
+  notes: "Must run ./dependencies/oalinst.exe to install OpenAL32.dll first. May need to set ./Baldur.exe"
   protondb: ""
   storefront: Amazon
   date_tested: "July '25"
@@ -98,7 +98,7 @@
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
   protondb: ""
   storefront: Amazon
-  date_tested: ""
+  date_tested: "July '25"
   
 - title: "Vlad Circus"
   notes: "<strong>Works out of the box</strong> — no extra setup needed."
@@ -112,7 +112,7 @@
   storefront: Amazon
   date_tested: "July '25"
   
-- title: "The Abaondoned Planet"
+- title: "The Abandoned Planet"
   protondb: ""
   storefront: Amazon
   notes: "Point and click game so will need to change the controller settings."

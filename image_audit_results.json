@@ -1,0 +1,6025 @@
+{
+  "used": [
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/2fa in epic.png",
+      "relative_path": "assets/images/OAuth/2fa in epic.png",
+      "name": "2fa in epic.png",
+      "size": 35298,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/Decky Store Change.jpeg",
+      "relative_path": "assets/images/JSInstall/Decky Store Change.jpeg",
+      "name": "Decky Store Change.jpeg",
+      "size": 53806,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/Dependencies.jpeg",
+      "relative_path": "assets/images/JSInstall/Dependencies.jpeg",
+      "name": "Dependencies.jpeg",
+      "size": 53183,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/Doom 64.jpeg",
+      "relative_path": "assets/images/JSInstall/Doom 64.jpeg",
+      "name": "Doom 64.jpeg",
+      "size": 225822,
+      "reference_type": "filename"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/Doom 64.jpeg",
+      "relative_path": "assets/images/OAuth/Doom 64.jpeg",
+      "name": "Doom 64.jpeg",
+      "size": 225822,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/Doom64 install.jpeg",
+      "relative_path": "assets/images/JSInstall/Doom64 install.jpeg",
+      "name": "Doom64 install.jpeg",
+      "size": 119663,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/Epic Library v2.jpeg",
+      "relative_path": "assets/images/JSInstall/Epic Library v2.jpeg",
+      "name": "Epic Library v2.jpeg",
+      "size": 195501,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/Epic Library v2.jpeg",
+      "relative_path": "assets/images/OAuth/Epic Library v2.jpeg",
+      "name": "Epic Library v2.jpeg",
+      "size": 195501,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/Epic Login Dialogue.jpg",
+      "relative_path": "assets/images/JSInstall/Epic Login Dialogue.jpg",
+      "name": "Epic Login Dialogue.jpg",
+      "size": 152394,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/Epic Login Screen.png",
+      "relative_path": "assets/images/OAuth/Epic Login Screen.png",
+      "name": "Epic Login Screen.png",
+      "size": 38531,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/Epic login via google.png",
+      "relative_path": "assets/images/OAuth/Epic login via google.png",
+      "name": "Epic login via google.png",
+      "size": 43037,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Extracting PV.jpg",
+      "relative_path": "assets/images/Wine/Extracting PV.jpg",
+      "name": "Extracting PV.jpg",
+      "size": 76114,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Install Wine Cellar Screen.jpg",
+      "relative_path": "assets/images/Wine/Install Wine Cellar Screen.jpg",
+      "name": "Install Wine Cellar Screen.jpg",
+      "size": 58725,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Install selection PV.jpg",
+      "relative_path": "assets/images/Wine/Install selection PV.jpg",
+      "name": "Install selection PV.jpg",
+      "size": 48680,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/landing/Install.gif",
+      "relative_path": "assets/images/landing/Install.gif",
+      "name": "Install.gif",
+      "size": 1730908,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Installing PV.jpg",
+      "relative_path": "assets/images/Wine/Installing PV.jpg",
+      "name": "Installing PV.jpg",
+      "size": 76009,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Installing Wine Cellar.jpg",
+      "relative_path": "assets/images/Wine/Installing Wine Cellar.jpg",
+      "name": "Installing Wine Cellar.jpg",
+      "size": 62406,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSAvatar.png",
+      "relative_path": "assets/images/JSAvatar.png",
+      "name": "JSAvatar.png",
+      "size": 536407,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/Junk-Store Install.jpeg",
+      "relative_path": "assets/images/JSInstall/Junk-Store Install.jpeg",
+      "name": "Junk-Store Install.jpeg",
+      "size": 144812,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/landing/LibrariesNew.gif",
+      "relative_path": "assets/images/landing/LibrariesNew.gif",
+      "name": "LibrariesNew.gif",
+      "size": 2895338,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/Login Epic.jpeg",
+      "relative_path": "assets/images/JSInstall/Login Epic.jpeg",
+      "name": "Login Epic.jpeg",
+      "size": 42488,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/Login Epic.jpeg",
+      "relative_path": "assets/images/OAuth/Login Epic.jpeg",
+      "name": "Login Epic.jpeg",
+      "size": 42488,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/PV to uninstall.jpg",
+      "relative_path": "assets/images/Wine/PV to uninstall.jpg",
+      "name": "PV to uninstall.jpg",
+      "size": 73319,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Proton Installed.jpg",
+      "relative_path": "assets/images/Wine/Proton Installed.jpg",
+      "name": "Proton Installed.jpg",
+      "size": 71654,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Proton Not Installed.jpg",
+      "relative_path": "assets/images/Wine/Proton Not Installed.jpg",
+      "name": "Proton Not Installed.jpg",
+      "size": 69192,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Restart to use PV.jpg",
+      "relative_path": "assets/images/Wine/Restart to use PV.jpg",
+      "name": "Restart to use PV.jpg",
+      "size": 73444,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/TMNT PV Selection.jpg",
+      "relative_path": "assets/images/Wine/TMNT PV Selection.jpg",
+      "name": "TMNT PV Selection.jpg",
+      "size": 74454,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/TMNT Start Screen.jpg",
+      "relative_path": "assets/images/Wine/TMNT Start Screen.jpg",
+      "name": "TMNT Start Screen.jpg",
+      "size": 303046,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Uninstall PV.jpg",
+      "relative_path": "assets/images/Wine/Uninstall PV.jpg",
+      "name": "Uninstall PV.jpg",
+      "size": 49314,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Wine Cellar Manage.jpg",
+      "relative_path": "assets/images/Wine/Wine Cellar Manage.jpg",
+      "name": "Wine Cellar Manage.jpg",
+      "size": 61826,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Wine Cellar Plugin Button.jpg",
+      "relative_path": "assets/images/Wine/Wine Cellar Plugin Button.jpg",
+      "name": "Wine Cellar Plugin Button.jpg",
+      "size": 61480,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Wine Cellar in Decky Store.jpg",
+      "relative_path": "assets/images/Wine/Wine Cellar in Decky Store.jpg",
+      "name": "Wine Cellar in Decky Store.jpg",
+      "size": 81282,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/amazon.png",
+      "relative_path": "assets/images/jspro/install2.0/amazon.png",
+      "name": "amazon.png",
+      "size": 1192815,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/gallery/changelauncher-still.jpg",
+      "relative_path": "assets/images/jspro/gallery/changelauncher-still.jpg",
+      "name": "changelauncher-still.jpg",
+      "size": 271119,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/gallery/changelauncher.gif",
+      "relative_path": "assets/images/jspro/gallery/changelauncher.gif",
+      "name": "changelauncher.gif",
+      "size": 1486133,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/tablegifs/changelauncher.gif",
+      "relative_path": "assets/images/jspro/tablegifs/changelauncher.gif",
+      "name": "changelauncher.gif",
+      "size": 1486133,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/dependencies/dependecies.png",
+      "relative_path": "assets/images/jspro/dependencies/dependecies.png",
+      "name": "dependecies.png",
+      "size": 34477,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/gallery/dependencies-still.jpg",
+      "relative_path": "assets/images/jspro/gallery/dependencies-still.jpg",
+      "name": "dependencies-still.jpg",
+      "size": 229106,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/gallery/dependencies.gif",
+      "relative_path": "assets/images/jspro/gallery/dependencies.gif",
+      "name": "dependencies.gif",
+      "size": 1613198,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/tablegifs/dependencies.gif",
+      "relative_path": "assets/images/jspro/tablegifs/dependencies.gif",
+      "name": "dependencies.gif",
+      "size": 1613198,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/gallery/download-still.jpg",
+      "relative_path": "assets/images/jspro/gallery/download-still.jpg",
+      "name": "download-still.jpg",
+      "size": 98788,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/gallery/download.gif",
+      "relative_path": "assets/images/jspro/gallery/download.gif",
+      "name": "download.gif",
+      "size": 2265988,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/tablegifs/download.gif",
+      "relative_path": "assets/images/jspro/tablegifs/download.gif",
+      "name": "download.gif",
+      "size": 2265988,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/downloadjspro.png",
+      "relative_path": "assets/images/jspro/install2.0/downloadjspro.png",
+      "name": "downloadjspro.png",
+      "size": 1155642,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/downloadpresets.png",
+      "relative_path": "assets/images/jspro/install2.0/downloadpresets.png",
+      "name": "downloadpresets.png",
+      "size": 66168,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/eben.png",
+      "relative_path": "assets/images/eben.png",
+      "name": "eben.png",
+      "size": 316947,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/epic almost done.png",
+      "relative_path": "assets/images/OAuth/epic almost done.png",
+      "name": "epic almost done.png",
+      "size": 39075,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/epic.png",
+      "relative_path": "assets/images/jspro/install2.0/epic.png",
+      "name": "epic.png",
+      "size": 2733799,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/executable.png",
+      "relative_path": "assets/images/jspro/install2.0/executable.png",
+      "name": "executable.png",
+      "size": 89832,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/gogext/extracthere.png",
+      "relative_path": "assets/images/gogext/extracthere.png",
+      "name": "extracthere.png",
+      "size": 129151,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/dependencies/gamepagecog.png",
+      "relative_path": "assets/images/jspro/dependencies/gamepagecog.png",
+      "name": "gamepagecog.png",
+      "size": 1970021,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/generateextensions.png",
+      "relative_path": "assets/images/jspro/install2.0/generateextensions.png",
+      "name": "generateextensions.png",
+      "size": 216497,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/generatorsliders.png",
+      "relative_path": "assets/images/jspro/install2.0/generatorsliders.png",
+      "name": "generatorsliders.png",
+      "size": 72834,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/gog.png",
+      "relative_path": "assets/images/jspro/install2.0/gog.png",
+      "name": "gog.png",
+      "size": 3623822,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/google sign in screen.png",
+      "relative_path": "assets/images/OAuth/google sign in screen.png",
+      "name": "google sign in screen.png",
+      "size": 67609,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/install1.png",
+      "relative_path": "assets/images/jspro/install2.0/install1.png",
+      "name": "install1.png",
+      "size": 66313,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/dependencies/installation.png",
+      "relative_path": "assets/images/jspro/dependencies/installation.png",
+      "name": "installation.png",
+      "size": 98339,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/gogext/installdeps.png",
+      "relative_path": "assets/images/gogext/installdeps.png",
+      "name": "installdeps.png",
+      "size": 136913,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/gogext/installerprompt.png",
+      "relative_path": "assets/images/gogext/installerprompt.png",
+      "name": "installerprompt.png",
+      "size": 33940,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/jsinstaller.png",
+      "relative_path": "assets/images/jspro/install2.0/jsinstaller.png",
+      "name": "jsinstaller.png",
+      "size": 62379,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/jslogin.png",
+      "relative_path": "assets/images/jspro/install2.0/jslogin.png",
+      "name": "jslogin.png",
+      "size": 232769,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/gogext/jstabs.png",
+      "relative_path": "assets/images/gogext/jstabs.png",
+      "name": "jstabs.png",
+      "size": 3615983,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/gallery/language-still.jpg",
+      "relative_path": "assets/images/jspro/gallery/language-still.jpg",
+      "name": "language-still.jpg",
+      "size": 159225,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/gallery/languageselection.gif",
+      "relative_path": "assets/images/jspro/gallery/languageselection.gif",
+      "name": "languageselection.gif",
+      "size": 2210286,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/tablegifs/languageselection.gif",
+      "relative_path": "assets/images/jspro/tablegifs/languageselection.gif",
+      "name": "languageselection.gif",
+      "size": 2210286,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/gogext/launchinstaller.png",
+      "relative_path": "assets/images/gogext/launchinstaller.png",
+      "name": "launchinstaller.png",
+      "size": 15518,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/dependencies/pushxtosave.png",
+      "relative_path": "assets/images/jspro/dependencies/pushxtosave.png",
+      "name": "pushxtosave.png",
+      "size": 19180,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/resetlaunch.png",
+      "relative_path": "assets/images/jspro/install2.0/resetlaunch.png",
+      "name": "resetlaunch.png",
+      "size": 109594,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/dependencies/selectdep.png",
+      "relative_path": "assets/images/jspro/dependencies/selectdep.png",
+      "name": "selectdep.png",
+      "size": 65619,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/slidersgamepage.png",
+      "relative_path": "assets/images/jspro/install2.0/slidersgamepage.png",
+      "name": "slidersgamepage.png",
+      "size": 173963,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/success logged in.png",
+      "relative_path": "assets/images/OAuth/success logged in.png",
+      "name": "success logged in.png",
+      "size": 36380,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/tabsgenerated.png",
+      "relative_path": "assets/images/jspro/install2.0/tabsgenerated.png",
+      "name": "tabsgenerated.png",
+      "size": 139344,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/tools.png",
+      "relative_path": "assets/images/jspro/install2.0/tools.png",
+      "name": "tools.png",
+      "size": 136101,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/dependencies/unsaveddialogue.png",
+      "relative_path": "assets/images/jspro/dependencies/unsaveddialogue.png",
+      "name": "unsaveddialogue.png",
+      "size": 79917,
+      "reference_type": "direct"
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/website_image.jpg",
+      "relative_path": "assets/images/website_image.jpg",
+      "name": "website_image.jpg",
+      "size": 541903,
+      "reference_type": "direct"
+    }
+  ],
+  "unused": [
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/20240905103932_1.jpg",
+      "relative_path": "assets/images/JSInstall/20240905103932_1.jpg",
+      "name": "20240905103932_1.jpg",
+      "size": 66765
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/20240923093826_1.jpg",
+      "relative_path": "assets/images/Wine/20240923093826_1.jpg",
+      "name": "20240923093826_1.jpg",
+      "size": 69794
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/20240923165300_1.jpg",
+      "relative_path": "assets/images/Proton/20240923165300_1.jpg",
+      "name": "20240923165300_1.jpg",
+      "size": 71419
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/Big Picture Mode.png",
+      "relative_path": "assets/images/OAuth/Big Picture Mode.png",
+      "name": "Big Picture Mode.png",
+      "size": 798299
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Close Ubisoft Connect.jpg",
+      "relative_path": "assets/images/Ubisoft/Close Ubisoft Connect.jpg",
+      "name": "Close Ubisoft Connect.jpg",
+      "size": 73127
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Overrides/Create Text File.jpg",
+      "relative_path": "assets/images/Overrides/Create Text File.jpg",
+      "name": "Create Text File.jpg",
+      "size": 372628
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/Decky Store Selection.jpeg",
+      "relative_path": "assets/images/JSInstall/Decky Store Selection.jpeg",
+      "name": "Decky Store Selection.jpeg",
+      "size": 31876
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/DeckyStore.png",
+      "relative_path": "assets/images/DeckyStore.png",
+      "name": "DeckyStore.png",
+      "size": 665014
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Overrides/ENG Borderlands.jpg",
+      "relative_path": "assets/images/Overrides/ENG Borderlands.jpg",
+      "name": "ENG Borderlands.jpg",
+      "size": 544409
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Overrides/ESP Borderlands.jpg",
+      "relative_path": "assets/images/Overrides/ESP Borderlands.jpg",
+      "name": "ESP Borderlands.jpg",
+      "size": 537898
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/Epic Library.jpeg",
+      "relative_path": "assets/images/JSInstall/Epic Library.jpeg",
+      "name": "Epic Library.jpeg",
+      "size": 153515
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/JSInstall/Epic Login Dialogue.png",
+      "relative_path": "assets/images/JSInstall/Epic Login Dialogue.png",
+      "name": "Epic Login Dialogue.png",
+      "size": 87340
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Overrides/Epic Overrides Created.jpg",
+      "relative_path": "assets/images/Overrides/Epic Overrides Created.jpg",
+      "name": "Epic Overrides Created.jpg",
+      "size": 491813
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/ImageMap/EpicMap/EpicTab.jpg",
+      "relative_path": "assets/images/ImageMap/EpicMap/EpicTab.jpg",
+      "name": "EpicTab.jpg",
+      "size": 185971
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/FM Current Proton Version.jpg",
+      "relative_path": "assets/images/Proton/FM Current Proton Version.jpg",
+      "name": "FM Current Proton Version.jpg",
+      "size": 67674
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/FM'24 Changing Proton Version.jpg",
+      "relative_path": "assets/images/Proton/FM'24 Changing Proton Version.jpg",
+      "name": "FM'24 Changing Proton Version.jpg",
+      "size": 57647
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/FM'24 JS Game Page.jpg",
+      "relative_path": "assets/images/Proton/FM'24 JS Game Page.jpg",
+      "name": "FM'24 JS Game Page.jpg",
+      "size": 189052
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/FM'24 Load Screen.jpg",
+      "relative_path": "assets/images/Proton/FM'24 Load Screen.jpg",
+      "name": "FM'24 Load Screen.jpg",
+      "size": 270045
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/FM'24 New Proton Version.jpg",
+      "relative_path": "assets/images/Proton/FM'24 New Proton Version.jpg",
+      "name": "FM'24 New Proton Version.jpg",
+      "size": 68367
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/FM'24 Properties Option Selection.jpg",
+      "relative_path": "assets/images/Proton/FM'24 Properties Option Selection.jpg",
+      "name": "FM'24 Properties Option Selection.jpg",
+      "size": 58182
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/FM'24 Proton Version Screen.jpg",
+      "relative_path": "assets/images/Proton/FM'24 Proton Version Screen.jpg",
+      "name": "FM'24 Proton Version Screen.jpg",
+      "size": 64911
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/FM'24 Start Menu.jpg",
+      "relative_path": "assets/images/Proton/FM'24 Start Menu.jpg",
+      "name": "FM'24 Start Menu.jpg",
+      "size": 189173
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/FM'24 Steam App Page.jpg",
+      "relative_path": "assets/images/Proton/FM'24 Steam App Page.jpg",
+      "name": "FM'24 Steam App Page.jpg",
+      "size": 156362
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/Game Art Steam Library.jpg",
+      "relative_path": "assets/images/Proton/Game Art Steam Library.jpg",
+      "name": "Game Art Steam Library.jpg",
+      "size": 186783
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/landing/GamesLib1sec.gif",
+      "relative_path": "assets/images/landing/GamesLib1sec.gif",
+      "name": "GamesLib1sec.gif",
+      "size": 2809847
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Overrides/Homebrew for Epic Overrides.jpg",
+      "relative_path": "assets/images/Overrides/Homebrew for Epic Overrides.jpg",
+      "name": "Homebrew for Epic Overrides.jpg",
+      "size": 505968
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Overrides/Lang Code to Spanish.jpg",
+      "relative_path": "assets/images/Overrides/Lang Code to Spanish.jpg",
+      "name": "Lang Code to Spanish.jpg",
+      "size": 320272
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Overrides/Lang Code.jpg",
+      "relative_path": "assets/images/Overrides/Lang Code.jpg",
+      "name": "Lang Code.jpg",
+      "size": 321770
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Minimise Uplay Screen.jpg",
+      "relative_path": "assets/images/Ubisoft/Minimise Uplay Screen.jpg",
+      "name": "Minimise Uplay Screen.jpg",
+      "size": 62197
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Overrides/Name New Text File.jpg",
+      "relative_path": "assets/images/Overrides/Name New Text File.jpg",
+      "name": "Name New Text File.jpg",
+      "size": 205632
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Not installed three dots.jpg",
+      "relative_path": "assets/images/Wine/Not installed three dots.jpg",
+      "name": "Not installed three dots.jpg",
+      "size": 74264
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/Properties Menu from Steam Library.jpg",
+      "relative_path": "assets/images/Proton/Properties Menu from Steam Library.jpg",
+      "name": "Properties Menu from Steam Library.jpg",
+      "size": 65323
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Run exe in Game Folder.jpg",
+      "relative_path": "assets/images/Ubisoft/Run exe in Game Folder.jpg",
+      "name": "Run exe in Game Folder.jpg",
+      "size": 66400
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Proton/Steam Library Home Screen.jpg",
+      "relative_path": "assets/images/Proton/Steam Library Home Screen.jpg",
+      "name": "Steam Library Home Screen.jpg",
+      "size": 276009
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania .exe Menu.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania .exe Menu.jpg",
+      "name": "Trackmania .exe Menu.jpg",
+      "size": 73543
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania Download Complete.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania Download Complete.jpg",
+      "name": "Trackmania Download Complete.jpg",
+      "size": 154369
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania Downloading.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania Downloading.jpg",
+      "name": "Trackmania Downloading.jpg",
+      "size": 153810
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania EULA.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania EULA.jpg",
+      "name": "Trackmania EULA.jpg",
+      "size": 155572
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania In Game Screen.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania In Game Screen.jpg",
+      "name": "Trackmania In Game Screen.jpg",
+      "size": 249822
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania Install Prompt.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania Install Prompt.jpg",
+      "name": "Trackmania Install Prompt.jpg",
+      "size": 63248
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania Language Selection.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania Language Selection.jpg",
+      "name": "Trackmania Language Selection.jpg",
+      "size": 43204
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania Play Game.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania Play Game.jpg",
+      "name": "Trackmania Play Game.jpg",
+      "size": 158665
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania Sliders.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania Sliders.jpg",
+      "name": "Trackmania Sliders.jpg",
+      "size": 157997
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania Ubisoft Launcher Lang.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania Ubisoft Launcher Lang.jpg",
+      "name": "Trackmania Ubisoft Launcher Lang.jpg",
+      "size": 33899
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania Ubisoft Launcher complete.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania Ubisoft Launcher complete.jpg",
+      "name": "Trackmania Ubisoft Launcher complete.jpg",
+      "size": 54971
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Trackmania exe.jpg",
+      "relative_path": "assets/images/Ubisoft/Trackmania exe.jpg",
+      "name": "Trackmania exe.jpg",
+      "size": 73543
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Ubisoft Connect Complete.jpg",
+      "relative_path": "assets/images/Ubisoft/Ubisoft Connect Complete.jpg",
+      "name": "Ubisoft Connect Complete.jpg",
+      "size": 83493
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Ubisoft Connect Install Location.jpg",
+      "relative_path": "assets/images/Ubisoft/Ubisoft Connect Install Location.jpg",
+      "name": "Ubisoft Connect Install Location.jpg",
+      "size": 93408
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Ubisoft EULA.jpg",
+      "relative_path": "assets/images/Ubisoft/Ubisoft EULA.jpg",
+      "name": "Ubisoft EULA.jpg",
+      "size": 178422
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Ubisoft Login.jpg",
+      "relative_path": "assets/images/Ubisoft/Ubisoft Login.jpg",
+      "name": "Ubisoft Login.jpg",
+      "size": 50142
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Ubisoft Webpage.jpg",
+      "relative_path": "assets/images/Ubisoft/Ubisoft Webpage.jpg",
+      "name": "Ubisoft Webpage.jpg",
+      "size": 107979
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Uninstall confirm.jpg",
+      "relative_path": "assets/images/Wine/Uninstall confirm.jpg",
+      "name": "Uninstall confirm.jpg",
+      "size": 63808
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Ubisoft/Uplay Installer Trackmania.jpg",
+      "relative_path": "assets/images/Ubisoft/Uplay Installer Trackmania.jpg",
+      "name": "Uplay Installer Trackmania.jpg",
+      "size": 73710
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Wine Cellar About Screen.jpg",
+      "relative_path": "assets/images/Wine/Wine Cellar About Screen.jpg",
+      "name": "Wine Cellar About Screen.jpg",
+      "size": 95648
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Wine Cellar Installed.jpg",
+      "relative_path": "assets/images/Wine/Wine Cellar Installed.jpg",
+      "name": "Wine Cellar Installed.jpg",
+      "size": 57551
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/Wine/Wine Cellar Search in Decky.jpg",
+      "relative_path": "assets/images/Wine/Wine Cellar Search in Decky.jpg",
+      "name": "Wine Cellar Search in Decky.jpg",
+      "size": 81466
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/gallery/cloudsaves-still.jpg",
+      "relative_path": "assets/images/jspro/gallery/cloudsaves-still.jpg",
+      "name": "cloudsaves-still.jpg",
+      "size": 177672
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/gallery/cloudsaves.gif",
+      "relative_path": "assets/images/jspro/gallery/cloudsaves.gif",
+      "name": "cloudsaves.gif",
+      "size": 1310471
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/tablegifs/cloudsaves.gif",
+      "relative_path": "assets/images/jspro/tablegifs/cloudsaves.gif",
+      "name": "cloudsaves.gif",
+      "size": 1310471
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/ImageMap/EpicMap/cog.jpg",
+      "relative_path": "assets/images/ImageMap/EpicMap/cog.jpg",
+      "name": "cog.jpg",
+      "size": 65336
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/eben.jpeg",
+      "relative_path": "assets/images/eben.jpeg",
+      "name": "eben.jpeg",
+      "size": 40261
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/epic screen after selecting google confirm.png",
+      "relative_path": "assets/images/OAuth/epic screen after selecting google confirm.png",
+      "name": "epic screen after selecting google confirm.png",
+      "size": 42730
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/installgame.png",
+      "relative_path": "assets/images/jspro/install2.0/installgame.png",
+      "name": "installgame.png",
+      "size": 1740917
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/tablegifs/launcher5.png",
+      "relative_path": "assets/images/jspro/tablegifs/launcher5.png",
+      "name": "launcher5.png",
+      "size": 304705
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/tablegifs/launcher6.png",
+      "relative_path": "assets/images/jspro/tablegifs/launcher6.png",
+      "name": "launcher6.png",
+      "size": 483426
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/jspro/install2.0/logintostores.png",
+      "relative_path": "assets/images/jspro/install2.0/logintostores.png",
+      "name": "logintostores.png",
+      "size": 140284
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/OAuth/return to gaming mode.png",
+      "relative_path": "assets/images/OAuth/return to gaming mode.png",
+      "name": "return to gaming mode.png",
+      "size": 805022
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/ImageMap/EpicMap/sliders.jpg",
+      "relative_path": "assets/images/ImageMap/EpicMap/sliders.jpg",
+      "name": "sliders.jpg",
+      "size": 63061
+    }
+  ],
+  "potentially_unused": [
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/backups/GamesLib1sec.gif.original",
+      "relative_path": "assets/images/backups/GamesLib1sec.gif.original",
+      "name": "GamesLib1sec.gif.original",
+      "size": 3650969
+    },
+    {
+      "path": "/home/annie/JunkStore/Website/mrsjunkrunner.github.io/assets/images/backups/LibrariesNew.gif.original",
+      "relative_path": "assets/images/backups/LibrariesNew.gif.original",
+      "name": "LibrariesNew.gif.original",
+      "size": 3720784
+    }
+  ],
+  "all_references": [
+    {
+      "file": "_config.yml",
+      "reference": "/assets/images/junkstore-og-banner.png",
+      "context": "config"
+    },
+    {
+      "file": "_config.yml",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "config"
+    },
+    {
+      "file": "_config.yml",
+      "reference": "assets/images/junkstore-og-banner.png",
+      "context": "config"
+    },
+    {
+      "file": "_config.yml",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "config"
+    },
+    {
+      "file": "_config.yml",
+      "reference": "images/junkstore-og-banner.png",
+      "context": "config"
+    },
+    {
+      "file": "_config.yml",
+      "reference": "images/JSAvatar.png",
+      "context": "config"
+    },
+    {
+      "file": "_pages/plugin.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/plugin.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/plugin.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/privacy-policy.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/privacy-policy.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/privacy-policy.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/home.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/home.md",
+      "reference": "/assets/images/landing/LibrariesNew.gif'",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/home.md",
+      "reference": "/assets/images/landing/Install.gif'",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/home.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/home.md",
+      "reference": "assets/images/landing/LibrariesNew.gif'",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/home.md",
+      "reference": "assets/images/landing/Install.gif'",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/home.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/home.md",
+      "reference": "images/landing/LibrariesNew.gif'",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/home.md",
+      "reference": "images/landing/Install.gif'",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/plugin.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/plugin.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/plugin.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/gog.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/gog.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/gog.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/epic.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/epic.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/epic.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/v2.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/v2.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/troubleshooting/v2.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin_tutorials.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin_tutorials.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin_tutorials.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/2.0tutorials.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/2.0tutorials.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/2.0tutorials.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/epicfaq.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/epicfaq.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/epicfaq.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/deckyfaq.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/deckyfaq.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/deckyfaq.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/gogfaq.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/gogfaq.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/gogfaq.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/v2faq.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/v2faq.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/faq/v2faq.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/help/deckyhelp.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/help/deckyhelp.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/help/deckyhelp.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/help/v2.0help.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/help/v2.0help.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/help/v2.0help.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/get_started.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/get_started.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/get_started.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/about.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/about.md",
+      "reference": "/assets/images/JSInstall/Doom",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/about.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/about.md",
+      "reference": "assets/images/JSInstall/Doom",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/about.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/about.md",
+      "reference": "images/JSInstall/Doom",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/buy_now.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/buy_now.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/buy_now.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "/assets/images/jspro/tablegifs/download.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "/assets/images/jspro/tablegifs/languageselection.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "/assets/images/jspro/tablegifs/changelauncher.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "/assets/images/jspro/tablegifs/dependencies.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "assets/images/jspro/tablegifs/download.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "assets/images/jspro/tablegifs/languageselection.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "assets/images/jspro/tablegifs/changelauncher.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "assets/images/jspro/tablegifs/dependencies.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "images/jspro/tablegifs/download.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "images/jspro/tablegifs/languageselection.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "images/jspro/tablegifs/changelauncher.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/comingsoon.md",
+      "reference": "images/jspro/tablegifs/dependencies.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/download-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/download.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/download-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/language-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/languageselection.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/language-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/dependencies-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/dependencies.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/dependencies-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/changelauncher.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "/assets/images/JSInstall/Doom",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/download-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/download.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/download-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/language-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/languageselection.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/language-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/dependencies-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/dependencies.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/dependencies-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/changelauncher.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "assets/images/JSInstall/Doom",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/download-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/download.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/download-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/language-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/languageselection.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/language-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/dependencies-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/dependencies.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/dependencies-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/changelauncher.gif",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/gallery.md",
+      "reference": "images/JSInstall/Doom",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/learnmore.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/learnmore.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/learnmore.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games-clean.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games-clean.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games-clean.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/game_compatibility.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/game_compatibility.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/game_compatibility.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/working-compatibility-table.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/working-compatibility-table.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/working-compatibility-table.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games-backup.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games-backup.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games-backup.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games-js.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games-js.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/misc/tested-games-js.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "/assets/images/JSInstall/Decky%20Store%20Change.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "/assets/images/JSInstall/Junk-Store%20Install.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "/assets/images/JSInstall/Dependencies.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "/assets/images/JSInstall/Login%20Epic.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "/assets/images/JSInstall/Epic%20Login%20Dialogue.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "/assets/images/JSInstall/Epic%20Library%20v2.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "/assets/images/JSInstall/Doom64%20install.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "assets/images/JSInstall/Decky%20Store%20Change.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "assets/images/JSInstall/Junk-Store%20Install.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "assets/images/JSInstall/Dependencies.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "assets/images/JSInstall/Login%20Epic.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "assets/images/JSInstall/Epic%20Login%20Dialogue.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "assets/images/JSInstall/Epic%20Library%20v2.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "assets/images/JSInstall/Doom64%20install.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "images/JSInstall/Decky%20Store%20Change.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "images/JSInstall/Junk-Store%20Install.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "images/JSInstall/Dependencies.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "images/JSInstall/Login%20Epic.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "images/JSInstall/Epic%20Login%20Dialogue.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "images/JSInstall/Epic%20Library%20v2.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Install.md",
+      "reference": "images/JSInstall/Doom64%20install.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/C++Runtime.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/C++Runtime.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/C++Runtime.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "/assets/images/OAuth/Big",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "/assets/images/OAuth/Login%20Epic.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "/assets/images/OAuth/Epic%20Login%20Screen.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "/assets/images/OAuth/Epic%20login%20via%20google.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "/assets/images/OAuth/google%20sign%20in%20screen.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "/assets/images/OAuth/epic%20almost%20done.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "/assets/images/OAuth/success%20logged%20in.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "/assets/images/OAuth/2fa%20in%20epic.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "/assets/images/OAuth/Epic%20Library%20v2.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "/assets/images/OAuth/Doom%2064.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "assets/images/OAuth/Big",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "assets/images/OAuth/Login%20Epic.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "assets/images/OAuth/Epic%20Login%20Screen.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "assets/images/OAuth/Epic%20login%20via%20google.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "assets/images/OAuth/google%20sign%20in%20screen.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "assets/images/OAuth/epic%20almost%20done.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "assets/images/OAuth/success%20logged%20in.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "assets/images/OAuth/2fa%20in%20epic.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "assets/images/OAuth/Epic%20Library%20v2.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "assets/images/OAuth/Doom%2064.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "images/OAuth/Big",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "images/OAuth/Login%20Epic.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "images/OAuth/Epic%20Login%20Screen.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "images/OAuth/Epic%20login%20via%20google.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "images/OAuth/google%20sign%20in%20screen.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "images/OAuth/epic%20almost%20done.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "images/OAuth/success%20logged%20in.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "images/OAuth/2fa%20in%20epic.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "images/OAuth/Epic%20Library%20v2.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/OAuth.md",
+      "reference": "images/OAuth/Doom%2064.jpeg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Proton%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Install%20selection%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Installing%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Extracting%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "/assets/images/Wine/Uninstall%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Proton%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Install%20selection%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Installing%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Extracting%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "assets/images/Wine/Uninstall%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Proton%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Install%20selection%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Installing%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Extracting%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/Proton.md",
+      "reference": "images/Wine/Uninstall%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "/assets/images/gogext/extracthere.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "/assets/images/gogext/launchinstaller.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "/assets/images/gogext/installerprompt.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "/assets/images/gogext/installdeps.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "/assets/images/gogext/jstabs.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "assets/images/gogext/extracthere.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "assets/images/gogext/launchinstaller.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "assets/images/gogext/installerprompt.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "assets/images/gogext/installdeps.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "assets/images/gogext/jstabs.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "images/gogext/extracthere.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "images/gogext/launchinstaller.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "images/gogext/installerprompt.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "images/gogext/installdeps.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/gogextension.md",
+      "reference": "images/gogext/jstabs.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Proton%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Install%20selection%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Installing%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Extracting%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "/assets/images/Wine/Uninstall%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Proton%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Install%20selection%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Installing%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Extracting%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "assets/images/Wine/Uninstall%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Proton%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Install%20selection%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Installing%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Extracting%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/plugin/WineCeller.md",
+      "reference": "images/Wine/Uninstall%20PV.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/emulators.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/emulators.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/emulators.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "/assets/images/jspro/dependencies/gamepagecog.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "/assets/images/jspro/dependencies/installation.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "/assets/images/jspro/dependencies/dependecies.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "/assets/images/jspro/dependencies/selectdep.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "/assets/images/jspro/dependencies/pushxtosave.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "/assets/images/jspro/dependencies/unsaveddialogue.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "assets/images/jspro/dependencies/gamepagecog.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "assets/images/jspro/dependencies/installation.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "assets/images/jspro/dependencies/dependecies.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "assets/images/jspro/dependencies/selectdep.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "assets/images/jspro/dependencies/pushxtosave.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "assets/images/jspro/dependencies/unsaveddialogue.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "images/jspro/dependencies/gamepagecog.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "images/jspro/dependencies/installation.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "images/jspro/dependencies/dependecies.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "images/jspro/dependencies/selectdep.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "images/jspro/dependencies/pushxtosave.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/installgamedeps.md",
+      "reference": "images/jspro/dependencies/unsaveddialogue.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/downloadjspro.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/executable.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/install1.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/jsinstaller.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/jslogin.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/tools.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/generatorsliders.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/downloadpresets.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/generateextensions.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/tabsgenerated.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/amazon.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/epic.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/gog.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/slidersgamepage.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "/assets/images/jspro/install2.0/resetlaunch.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/downloadjspro.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/executable.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/install1.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/jsinstaller.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/jslogin.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/tools.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/generatorsliders.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/downloadpresets.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/generateextensions.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/tabsgenerated.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/amazon.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/epic.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/gog.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/slidersgamepage.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "assets/images/jspro/install2.0/resetlaunch.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/website_image.jpg",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/downloadjspro.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/executable.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/install1.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/jsinstaller.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/jslogin.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/tools.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/generatorsliders.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/downloadpresets.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/generateextensions.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/tabsgenerated.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/amazon.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/epic.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/gog.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/slidersgamepage.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_pages/tutorials/v2/install2.0.md",
+      "reference": "images/jspro/install2.0/resetlaunch.png",
+      "context": "_pages"
+    },
+    {
+      "file": "_data/authors.yml",
+      "reference": "/assets/images/eben.png",
+      "context": "_data"
+    },
+    {
+      "file": "_data/authors.yml",
+      "reference": "assets/images/eben.png",
+      "context": "_data"
+    },
+    {
+      "file": "_data/authors.yml",
+      "reference": "images/eben.png",
+      "context": "_data"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "/assets/images/landing/LibrariesNew.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "/assets/images/landing/Install.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "assets/images/landing/LibrariesNew.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "assets/images/landing/Install.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "images/landing/LibrariesNew.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/index.html",
+      "reference": "images/landing/Install.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0faq/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0faq/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0faq/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0faq/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0faq/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0faq/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0faq/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0faq/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0faq/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/deckyhub/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/deckyhub/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/deckyhub/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/deckyhub/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/deckyhub/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/deckyhub/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/deckyhub/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/deckyhub/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/deckyhub/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0-hub/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0-hub/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0-hub/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0-hub/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0-hub/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0-hub/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0-hub/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0-hub/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0-hub/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "/assets/images/JSInstall/Doom",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "assets/images/JSInstall/Doom",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/about/index.html",
+      "reference": "images/JSInstall/Doom",
+      "context": "_site"
+    },
+    {
+      "file": "_site/buy_now/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/buy_now/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/buy_now/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/buy_now/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/buy_now/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/buy_now/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/buy_now/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/buy_now/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/buy_now/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "/assets/images/jspro/tablegifs/download.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "/assets/images/jspro/tablegifs/languageselection.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "/assets/images/jspro/tablegifs/changelauncher.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "/assets/images/jspro/tablegifs/dependencies.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "assets/images/jspro/tablegifs/download.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "assets/images/jspro/tablegifs/languageselection.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "assets/images/jspro/tablegifs/changelauncher.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "assets/images/jspro/tablegifs/dependencies.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "images/jspro/tablegifs/download.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "images/jspro/tablegifs/languageselection.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "images/jspro/tablegifs/changelauncher.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/comingsoon/index.html",
+      "reference": "images/jspro/tablegifs/dependencies.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/download-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/download.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/download-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/language-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/languageselection.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/language-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/dependencies-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/dependencies.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/dependencies-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/changelauncher.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "/assets/images/JSInstall/Doom",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/download-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/download.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/download-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/language-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/languageselection.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/language-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/dependencies-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/dependencies.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/dependencies-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/changelauncher.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "assets/images/JSInstall/Doom",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/download-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/download.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/download-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/language-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/languageselection.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/language-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/dependencies-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/dependencies.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/dependencies-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/changelauncher.gif",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/jspro/gallery/changelauncher-still.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/gallery/index.html",
+      "reference": "images/JSInstall/Doom",
+      "context": "_site"
+    },
+    {
+      "file": "_site/game_compatibility/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/game_compatibility/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/game_compatibility/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/game_compatibility/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/game_compatibility/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/game_compatibility/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/game_compatibility/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/game_compatibility/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/game_compatibility/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/get_started/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/get_started/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/get_started/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/get_started/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/get_started/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/get_started/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/get_started/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/get_started/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/get_started/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/learnmore/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/learnmore/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/learnmore/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/learnmore/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/learnmore/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/learnmore/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/learnmore/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/learnmore/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/learnmore/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-clean/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-clean/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-clean/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-clean/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-clean/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-clean/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-clean/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-clean/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-clean/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/working-compatibility/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/working-compatibility/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/working-compatibility/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/working-compatibility/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/working-compatibility/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/working-compatibility/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/working-compatibility/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/working-compatibility/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/working-compatibility/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/privacy-policy/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/privacy-policy/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/privacy-policy/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/privacy-policy/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/privacy-policy/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/privacy-policy/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/privacy-policy/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/privacy-policy/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/privacy-policy/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0troubleshooting/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0troubleshooting/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0troubleshooting/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0troubleshooting/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0troubleshooting/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0troubleshooting/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0troubleshooting/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0troubleshooting/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0troubleshooting/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0tutorials/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0tutorials/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0tutorials/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0tutorials/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0tutorials/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0tutorials/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0tutorials/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0tutorials/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/2.0tutorials/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/Ubisoft.html",
+      "reference": "/assets/images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/Ubisoft.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/Ubisoft.html",
+      "reference": "assets/images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/Ubisoft.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/Ubisoft.html",
+      "reference": "images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/Ubisoft.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin_tutorials/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin_tutorials/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin_tutorials/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin_tutorials/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin_tutorials/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin_tutorials/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin_tutorials/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin_tutorials/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/plugin_tutorials/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-js/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-js/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-js/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-js/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-js/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-js/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-js/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-js/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tested-games-js/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/PROJECT_DOCS/index.html",
+      "reference": "/assets/images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/PROJECT_DOCS/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/PROJECT_DOCS/index.html",
+      "reference": "assets/images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/PROJECT_DOCS/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/PROJECT_DOCS/index.html",
+      "reference": "images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/PROJECT_DOCS/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/C++Runtime.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/C++Runtime.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/C++Runtime.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/C++Runtime.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/C++Runtime.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/C++Runtime.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/C++Runtime.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/C++Runtime.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/C++Runtime.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "/assets/images/JSInstall/Decky%20Store%20Change.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "/assets/images/JSInstall/Junk-Store%20Install.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "/assets/images/JSInstall/Dependencies.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "/assets/images/JSInstall/Login%20Epic.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "/assets/images/JSInstall/Epic%20Login%20Dialogue.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "/assets/images/JSInstall/Epic%20Library%20v2.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "/assets/images/JSInstall/Doom64%20install.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "assets/images/JSInstall/Decky%20Store%20Change.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "assets/images/JSInstall/Junk-Store%20Install.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "assets/images/JSInstall/Dependencies.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "assets/images/JSInstall/Login%20Epic.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "assets/images/JSInstall/Epic%20Login%20Dialogue.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "assets/images/JSInstall/Epic%20Library%20v2.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "assets/images/JSInstall/Doom64%20install.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "images/JSInstall/Decky%20Store%20Change.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "images/JSInstall/Junk-Store%20Install.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "images/JSInstall/Dependencies.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "images/JSInstall/Login%20Epic.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "images/JSInstall/Epic%20Login%20Dialogue.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "images/JSInstall/Epic%20Library%20v2.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Install.html",
+      "reference": "images/JSInstall/Doom64%20install.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/OAuth/Big",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/OAuth/Login%20Epic.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/OAuth/Epic%20Login%20Screen.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/OAuth/Epic%20login%20via%20google.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/OAuth/google%20sign%20in%20screen.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/OAuth/epic%20almost%20done.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/OAuth/success%20logged%20in.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/OAuth/2fa%20in%20epic.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/OAuth/Epic%20Library%20v2.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "/assets/images/OAuth/Doom%2064.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/OAuth/Big",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/OAuth/Login%20Epic.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/OAuth/Epic%20Login%20Screen.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/OAuth/Epic%20login%20via%20google.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/OAuth/google%20sign%20in%20screen.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/OAuth/epic%20almost%20done.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/OAuth/success%20logged%20in.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/OAuth/2fa%20in%20epic.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/OAuth/Epic%20Library%20v2.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "assets/images/OAuth/Doom%2064.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/OAuth/Big",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/OAuth/Login%20Epic.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/OAuth/Epic%20Login%20Screen.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/OAuth/Epic%20login%20via%20google.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/OAuth/google%20sign%20in%20screen.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/OAuth/epic%20almost%20done.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/OAuth/success%20logged%20in.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/OAuth/2fa%20in%20epic.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/OAuth/Epic%20Library%20v2.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/OAuth.html",
+      "reference": "images/OAuth/Doom%2064.jpeg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Proton%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Install%20selection%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Installing%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Extracting%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "/assets/images/Wine/Uninstall%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Proton%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Install%20selection%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Installing%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Extracting%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "assets/images/Wine/Uninstall%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Proton%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Install%20selection%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Installing%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Extracting%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/Proton.html",
+      "reference": "images/Wine/Uninstall%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Proton%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Install%20selection%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Installing%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Extracting%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "/assets/images/Wine/Uninstall%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Proton%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Install%20selection%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Installing%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Extracting%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "assets/images/Wine/Uninstall%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Install%20Wine%20Cellar%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Installing%20Wine%20Cellar.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Wine%20Cellar%20Plugin%20Button.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Wine%20Cellar%20Manage.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Proton%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Proton%20Not%20Installed.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Install%20selection%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Installing%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Extracting%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Restart%20to%20use%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/TMNT%20PV%20Selection.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/TMNT%20Start%20Screen.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/PV%20to%20uninstall.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/plugin/WineCellar.html",
+      "reference": "images/Wine/Uninstall%20PV.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "/assets/images/gogext/extracthere.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "/assets/images/gogext/launchinstaller.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "/assets/images/gogext/installerprompt.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "/assets/images/gogext/installdeps.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "/assets/images/gogext/jstabs.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "assets/images/gogext/extracthere.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "assets/images/gogext/launchinstaller.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "assets/images/gogext/installerprompt.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "assets/images/gogext/installdeps.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "assets/images/gogext/jstabs.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "images/gogext/extracthere.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "images/gogext/launchinstaller.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "images/gogext/installerprompt.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "images/gogext/installdeps.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/gogextension/index.html",
+      "reference": "images/gogext/jstabs.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/emulators/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/emulators/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/emulators/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/emulators/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/emulators/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/emulators/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/emulators/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/emulators/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/emulators/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/downloadjspro.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/executable.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/install1.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/jsinstaller.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/jslogin.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/tools.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/generatorsliders.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/downloadpresets.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/generateextensions.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/tabsgenerated.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/amazon.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/epic.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/gog.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/slidersgamepage.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "/assets/images/jspro/install2.0/resetlaunch.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/downloadjspro.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/executable.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/install1.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/jsinstaller.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/jslogin.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/tools.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/generatorsliders.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/downloadpresets.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/generateextensions.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/tabsgenerated.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/amazon.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/epic.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/gog.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/slidersgamepage.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "assets/images/jspro/install2.0/resetlaunch.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/downloadjspro.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/executable.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/install1.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/jsinstaller.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/jslogin.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/tools.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/generatorsliders.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/downloadpresets.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/generateextensions.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/tabsgenerated.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/amazon.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/epic.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/gog.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/slidersgamepage.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/install2.0/index.html",
+      "reference": "images/jspro/install2.0/resetlaunch.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "/assets/images/jspro/dependencies/gamepagecog.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "/assets/images/jspro/dependencies/installation.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "/assets/images/jspro/dependencies/dependecies.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "/assets/images/jspro/dependencies/selectdep.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "/assets/images/jspro/dependencies/pushxtosave.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "/assets/images/jspro/dependencies/unsaveddialogue.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "assets/images/jspro/dependencies/gamepagecog.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "assets/images/jspro/dependencies/installation.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "assets/images/jspro/dependencies/dependecies.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "assets/images/jspro/dependencies/selectdep.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "assets/images/jspro/dependencies/pushxtosave.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "assets/images/jspro/dependencies/unsaveddialogue.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "images/jspro/dependencies/gamepagecog.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "images/jspro/dependencies/installation.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "images/jspro/dependencies/dependecies.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "images/jspro/dependencies/selectdep.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "images/jspro/dependencies/pushxtosave.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/tutorials/installgamedeps/index.html",
+      "reference": "images/jspro/dependencies/unsaveddialogue.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/epic/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/epic/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/epic/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/epic/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/epic/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/epic/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/epic/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/epic/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/epic/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/gog/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/gog/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/gog/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/gog/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/gog/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/gog/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/gog/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/gog/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/gog/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/plugin/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/plugin/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/plugin/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/plugin/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/plugin/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/plugin/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/plugin/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/plugin/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/troubleshooting/plugin/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/deckyfaq/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/deckyfaq/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/deckyfaq/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/deckyfaq/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/deckyfaq/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/deckyfaq/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/deckyfaq/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/deckyfaq/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/deckyfaq/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/epicfaq/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/epicfaq/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/epicfaq/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/epicfaq/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/epicfaq/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/epicfaq/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/epicfaq/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/epicfaq/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/epicfaq/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/gogfaq/index.html",
+      "reference": "/assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/gogfaq/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/gogfaq/index.html",
+      "reference": "/assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/gogfaq/index.html",
+      "reference": "assets/images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/gogfaq/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/gogfaq/index.html",
+      "reference": "assets/images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/gogfaq/index.html",
+      "reference": "images/website_image.jpg",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/gogfaq/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/faq/gogfaq/index.html",
+      "reference": "images/website_image.jpg'",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/index.html",
+      "reference": "/assets/images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/index.html",
+      "reference": "assets/images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/index.html",
+      "reference": "images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/fontawesome-free/index.html",
+      "reference": "/assets/images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/fontawesome-free/index.html",
+      "reference": "/assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/fontawesome-free/index.html",
+      "reference": "assets/images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/fontawesome-free/index.html",
+      "reference": "assets/images/JSAvatar.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/fontawesome-free/index.html",
+      "reference": "images/junkstore-og-banner.png",
+      "context": "_site"
+    },
+    {
+      "file": "_site/assets/lib/fontawesome-free/index.html",
+      "reference": "images/JSAvatar.png",
+      "context": "_site"
+    }
+  ]
+}
