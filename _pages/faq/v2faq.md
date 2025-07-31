@@ -504,7 +504,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
     <li>Select <strong>PROTON</strong></li>
     <li>Set dropdown to <strong>Expert</strong> or higher</li>
-    <li>Click <strong>ALL</strong></li>
+    <li>Click <strong>ADVANCED</strong></li>
     <li>Navigate to <strong>Additional Variables</strong> or <strong>Additional Arguments</strong> field</li>
     <li>Press <kbd>Y</kbd> to open the text editor</li>
     <li>Press <kbd>A</kbd> to open keyboard and type arguments</li>
