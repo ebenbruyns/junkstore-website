@@ -114,9 +114,9 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
     <p class="discount-text">💰 Use code <strong>EarlyBird</strong> for 25% off until July&nbsp;31,&nbsp;2025</p>
     <p class="fence-text">Why compromise your handheld experience? Try our Game Mode-native solution free for 7 days.</p>
     <div class="pricing-cta">
-      <a href="/buy_now/" class="button buy-button">Start Free Trial</a>
-      <a href="/gallery/" class="button button-secondary">See It In Action</a>
-      <a href="/comparison/" class="button button-secondary">Compare Features</a>
+      <a href="/buy_now/" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>
+      <a href="/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_gallery" data-label="homepage_pricing">See It In Action</a>
+      <a href="/comparison/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_comparison" data-label="homepage_pricing">Compare Features</a>
     </div>
   </div>
 </section>
