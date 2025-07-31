@@ -43,21 +43,9 @@ header:
 <div class="content-box-container">
   <!-- FAQ -->
   <div class="content-box faq">
-    <h3>Decky Plugin FAQ</h3>
-    <p>Common questions and answers about Junk Store for Decky.</p>
-    <a href="{{ '/faq/deckyfaq' | relative_url }}" class="button">Plugin FAQ</a>
-  </div>
-
-  <div class="content-box troubleshooting">
-    <h3>Epic Games FAQ</h3>
-    <p>Answers to common questions about using Junk Store with Epic Games.</p>
-    <a href="{{ '/faq/epicfaq/' | relative_url }}" class="button">Epic FAQ</a>
-  </div>
-
-  <div class="content-box troubleshooting">
-    <h3>Gog Extension FAQ</h3>
-    <p>Learn what works, what doesn’t, and how to get the most out of the GOG extension with Junk Store.</p>
-    <a href="{{ '/faq/gogfaq/' | relative_url }}" class="button">Gog FAQ</a>
+    <h3>Complete Decky Plugin FAQ</h3>
+    <p>Comprehensive FAQ covering Epic Games, GOG extension, installation, troubleshooting, and compatibility for the Junk Store Decky plugin.</p>
+    <a href="{{ '/faq/decky/' | relative_url }}" class="button">Complete Plugin FAQ</a>
   </div>
 
   <!-- Troubleshooting -->
