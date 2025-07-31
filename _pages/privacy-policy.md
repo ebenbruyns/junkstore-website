@@ -37,7 +37,7 @@ This website does not collect or store personal information directly. With your 
 
 **Opt-Out Anytime:**
 - [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout)
-- [Reddit Advertising Preferences](https://www.reddit.com/personalization)
+- [Reddit Advertising Preferences](https://www.reddit.com/settings/privacy)
 
 ### Data Requests
 
@@ -50,4 +50,4 @@ Since we don't collect personal data, any privacy requests go directly to:
 
 For questions about this privacy policy, reach us through:
 - **Reddit:** [r/JunkStore](https://www.reddit.com/r/JunkStore)
-- **Discord:** Our community Discord server
+- **Discord:** [Discord](https://discord.gg/6mRUhR6Teh)
