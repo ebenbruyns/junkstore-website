@@ -87,17 +87,16 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <ul>
       <li>📊 <strong>No personal data collection:</strong> We don't collect or store personal information</li>
       <li>🎮 <strong>No game tracking:</strong> Your gaming habits aren't monitored or reported</li>
-      <li>🔍 <strong>Open source foundation:</strong> Core Decky plugin code is publicly auditable</li>
       <li>🛡️ <strong>Local operation:</strong> Most functionality works entirely offline</li>
     </ul>
     <strong>Technical Trust Factors:</strong>
     <ul>
-      <li>✅ <strong>Established developer:</strong> Active in Steam Deck community since launch</li>
+      <li>✅ <strong>Established developer:</strong> Active in Steam Deck community since launch with well-established security credentials</li>
       <li>📈 <strong>Transparent development:</strong> Regular updates with clear changelogs</li>
       <li>🤝 <strong>Community support:</strong> Active Discord and Reddit communities</li>
       <li>🔧 <strong>Professional maintenance:</strong> Consistent updates and bug fixes</li>
     </ul>
-    <strong>Bottom line:</strong> Junk Store follows standard security practices and prioritizes user privacy. Your credentials are handled the same way as official store applications.
+    <strong>Bottom line:</strong> Junk Store is built to be as robust as possible following standard security practices. Your credentials are handled the same way as official store applications.
 </details>
 
 <details class="faq-box">
@@ -228,10 +227,15 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>The reality of "permanent" ownership:</strong>
     <ul>
       <li>⚠️ <strong>Steam Deck OS updates</strong> may break functionality over time</li>
-      <li>⚠️ <strong>Game store changes</strong> (Epic, GOG, Amazon) may cause compatibility issues</li>
       <li>⚠️ <strong>Third-party dependencies</strong> may become outdated or incompatible</li>
     </ul>
-    <strong>Bottom line:</strong> While you technically "own" your version forever, the Steam Deck ecosystem evolves constantly. Most users find continued updates necessary for practical long-term use, even though the software itself never expires.
+    <strong>Our commitment to long-term stability:</strong>
+    <ul>
+      <li>🛠️ <strong>We're actively working</strong> to make Junk Store as stable as possible even after subscription cancellation</li>
+      <li>🤝 <strong>Seeking Valve partnership:</strong> This complex task would be significantly easier with Valve's blessing and cooperation</li>
+      <li>📦 <strong>Current approach:</strong> Game store changes continue working via updated flatpaks (free and open source) with publicly available manifests</li>
+    </ul>
+    <strong>Bottom line:</strong> While you technically "own" your version forever, the Steam Deck ecosystem evolves constantly. We're endeavoring to minimize breakage over time, but this is a big and complicated technical challenge that would benefit greatly from official Steam platform support.
 </details>
 
 <details class="faq-box">
@@ -265,10 +269,11 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box">
   <summary>What should I do first after accessing Junk Store?</summary>
   <p></p>
-    <strong>Step 1:</strong> Generate extensions for the platforms you want to use (Epic, GOG, Amazon)<br>
-    <strong>Step 2:</strong> Log into your game store accounts when prompted<br>
-    <strong>Step 3:</strong> Your existing libraries will automatically sync and appear in Junk Store<br>
-    <strong>Step 4:</strong> Start installing games directly from Game Mode
+    <strong>Step 1:</strong> Log into Junk Store<br>
+    <strong>Step 2:</strong> Generate extensions for the platforms you want to use (Epic, GOG, Amazon)<br>
+    <strong>Step 3:</strong> Log into your game store accounts when prompted<br>
+    <strong>Step 4:</strong> Your existing libraries will automatically sync and appear in Junk Store<br>
+    <strong>Step 5:</strong> Start installing games directly from Game Mode
   <br>
   <br>
     The initial library sync can take a few minutes as Junk Store builds the database for each platform.
@@ -370,8 +375,8 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <p></p>
   <strong>To install a game in Junk Store:</strong>
   <ul>
-    <li>Open the game’s page in Junk Store and click install.</li>
-    <li>Remember to stay on the game page until installation is complete.</li>
+    <li>Open the game's page in Junk Store and click install.</li>
+    <li>Games are added to the download queue - you can navigate away and continue using Junk Store while they install.</li>
   </ul>
   <strong>To uninstall a game in Junk Store:</strong>
   <ol>
@@ -437,7 +442,9 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box">
   <summary>How do I change game language settings on Steam Deck without Desktop Mode?</summary>
   <p></p>
-    Change your Epic, GOG, or Amazon game language settings directly in Game Mode - no desktop switching required:
+    Change your Epic, GOG, or Amazon game language settings directly in Game Mode - no desktop switching required. There are two methods:
+  <br><br>
+  <strong>Method 1: Environment Variables (for individual games)</strong>
   <ul>
     <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
     <li>Select <strong>Game Configs</strong></li>
@@ -445,6 +452,13 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <li>Click <strong>ENVIRONMENT</strong> dropdown</li>
     <li>Scroll to <strong>LANG</strong> and select your preferred language</li>
     <li>Press <kbd>X</kbd> to save changes</li>
+  </ul>
+  <strong>Method 2: Installation Settings (affects game installation language)</strong>
+  <ul>
+    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
+    <li>Access the installation settings and configure the language preference</li>
+    <li>This will download and install the game with your selected language files</li>
+    <li><strong>Note:</strong> If changing language after game installation, update the game from the ☰ Slider menu to pull in new language packs</li>
   </ul>
     Your game will launch in the selected language - all managed from Game Mode with no additional tools needed.
 </details>
@@ -491,8 +505,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <li>Press <kbd>X</kbd> to save changes</li>
   </ul>
     <strong>Coverage:</strong> Handles most common game dependencies. For rare or game-specific requirements not listed, you may still need external tools. Install before or after game installation as needed.
-  <br><br>
-  <strong>📖 Need step-by-step instructions?</strong> Check our [Game Dependencies Tutorial](/tutorials/installgamedeps/)
 </details>
 
 
@@ -617,46 +629,11 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <details class="faq-box">
   <summary>What's the difference between the Decky version and the Paid version?</summary>
-  <p>
-    The Decky version is free and open source, designed to run via the Decky Loader. The Paid version includes extra convenience features and doesn't require Decky to run.
-  </p>
   <p></p>
-  <table style="width:100%; table-layout:fixed;">
-    <thead>
-      <tr>
-        <th style="width:33%;">Feature</th>
-        <th style="width:33%;">Decky Version</th>
-        <th style="width:33%;">Paid Version</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>Epic</td><td>✅ Yes</td><td>✅ Yes</td></tr>
-      <tr><td>UMU Fixes</td><td>✅Yes</td><td>✅ Yes</td></tr>
-      <tr><td>GOG</td><td>💰 Paid</td><td>✅ Yes</td></tr>
-      <tr><td>Amazon</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Download queue</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Emulators</td><td>❌ No</td><td>✅ Yes</td></tr>     
-      <tr><td>ROM download support</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>GOG DOS games</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>GOG ScummVM games</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Built-in extension updates</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Built-in help</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Offline artwork cache</td><td>❌ No</td><td>✅ Yes (per extension)</td></tr>
-      <tr><td>Change game language</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Selective DLC install</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Change launcher per game</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Custom script hooks</td><td>❌ No</td><td>✅ Yes</td></tr>
-      <tr><td>Cloud saves</td><td>❌ No</td><td>⚠️ Experimental</td></tr>
-      <tr><td>Access Junk Store</td><td>📥 Decky menu</td><td>🎮 View/Select or Ctrl+3</td></tr>
-      <tr><td>Releases</td><td>🔧 Decky process</td><td>🚀 Direct</td></tr>
-      <tr><td>Performance</td><td>💯 100 games/tab</td><td>🔟🔟🔟 1000 games/tab</td></tr>
-      <tr><td>Tinkering</td><td>🔒 Limited</td><td>🔧 Extensive</td></tr>
-      <tr><td>Open extensibility</td><td>🧩 All code</td><td>🪄 Generator + code</td></tr>
-      <tr><td>Game dependency install</td><td>🛠️ Manual<br>🧪 Proton Tricks</td><td>⚙️ Built-in<br>🛠️ Manual<br>🧪 Proton Tricks</td></tr>
-      <tr><td>Custom extensions</td><td>👨‍💻 Manual coding</td><td>🧙 Wizard-supported</td></tr>
-      <tr><td>Customise extensions</td><td>💻 Code heavy</td><td>🧠 Generated + hooks</td></tr>
-    </tbody>
-  </table>
+    The Decky version is free and open source, designed to run via the Decky Loader. The Paid version includes extra convenience features and doesn't require Decky to run.
+  <br>
+  <br>
+  <strong>📊 For detailed feature comparison:</strong> <a href="/comparison/">View Complete Comparison Chart</a>
 </details>
 
 
