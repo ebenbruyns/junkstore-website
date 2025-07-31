@@ -101,12 +101,16 @@
   font-weight: 600;
   border-bottom: 2px solid #0af;
   color: #fff;
+  font-size: 1.1rem;
 }
 
 .comparison-table td {
-  padding: 0.8rem 1rem;
+  padding: 1rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   vertical-align: top;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #e8e8e8;
 }
 
 .comparison-table tr:nth-child(even) {
@@ -236,9 +240,12 @@
 
 .price-comparison {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin: 2rem 0;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .price-option {
@@ -287,7 +294,7 @@
 /* Trial CTA Section */
 .trial-cta {
   background: rgba(0, 170, 255, 0.1);
-  padding: 3rem 1rem;
+  padding: 2.5rem 1rem;
   text-align: center;
   margin: 3rem auto;
   border-radius: 8px;
@@ -344,8 +351,8 @@
   
   .comparison-table th,
   .comparison-table td {
-    padding: 0.5rem;
-    font-size: 0.9rem;
+    padding: 0.75rem;
+    font-size: 0.95rem;
   }
   
   .hover-popup .gif-popup {
@@ -371,6 +378,7 @@
   
   .price-comparison {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
   
   .price-option.featured {
@@ -397,7 +405,13 @@
 
 @media (max-width: 480px) {
   .comparison-table {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.9rem;
   }
   
   .hover-label {
