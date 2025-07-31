@@ -159,7 +159,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
         <tr>
           <td><strong>Access Method</strong></td>
           <td>📥 Through Decky Menu</td>
-          <td>🎮 L3+R3 or Select Button</td>
+          <td>🎮 Ctrl+3 or Select Button</td>
         </tr>
         <tr>
           <td><strong>Release Distribution</strong></td>
