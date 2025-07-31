@@ -31,3 +31,16 @@ faq-nav:
         url: "#game-compatibility--support"
       - title: "⚙️ Technical Details"
         url: "#generaltechnical-details"
+
+# Troubleshooting sidebar navigation
+troubleshooting-nav:
+  - title: "Quick Navigation"
+    children:
+      - title: "🛠️ Installation & Setup"
+        url: "#installation-setup"
+      - title: "👤 Account & Library Sync"
+        url: "#account-library"
+      - title: "🎮 Game Launch & Performance"
+        url: "#launch-performance"
+      - title: "🆘 Additional Support"
+        url: "#additional-support"
