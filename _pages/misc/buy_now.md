@@ -40,8 +40,8 @@ header:
     <p class="discount-text">💰 Use code <strong>EarlyBird</strong> for 25% off until July&nbsp;31,&nbsp;2025</p>
     <p class="fence-text">Transform your Steam Deck experience today with the only Game Mode-native solution.</p>
     <div class="pricing-cta">
-      <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button">Sign Up Now</a>
-      <a href="/get_started/" class="button button-secondary">Getting Started Guide</a>
+      <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Sign Up Now</a>
+      <a href="/get_started/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_getting_started" data-label="buy_now_page_secondary">Getting Started Guide</a>
     </div>
   </div>
 </section>

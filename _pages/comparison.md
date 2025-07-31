@@ -274,8 +274,8 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
     <h2>Ready to Experience the Difference?</h2>
     <p>Try Junk Store 2.0 risk-free for 7 full days. Experience every feature, test your games, and see the performance improvement firsthand.</p>
     <div class="cta-buttons">
-      <a href="/buy_now/" class="button buy-button large">Start Free 7-Day Trial</a>
-      <a href="/gallery/" class="button large">See Live Demos First</a>
+      <a href="/buy_now/" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="comparison_page_bottom">Start Free 7-Day Trial</a>
+      <a href="/gallery/" class="button large" data-event="click" data-category="engagement" data-action="view_gallery" data-label="comparison_page_bottom">See Live Demos First</a>
     </div>
     <p class="guarantee">Cancel anytime during trial • No commitment • Full feature access</p>
   </div>

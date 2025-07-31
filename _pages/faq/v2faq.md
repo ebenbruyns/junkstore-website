@@ -128,7 +128,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <br>
   <br>
     <div class="text-center">
-      <a href="https://portal.junkstore.xyz/" class="button buy-button">Start Your 7-Day Free Trial</a>
+      <a href="https://portal.junkstore.xyz/" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="faq_page_bottom">Start Your 7-Day Free Trial</a>
     </div>
 </details>
 
