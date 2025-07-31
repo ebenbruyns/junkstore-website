@@ -28,6 +28,10 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
       <strong>🔍 Overview</strong>
       <span>Key differences, trial details, and subscription info</span>
     </a>
+    <a href="#licensing-account-management" class="nav-card">
+      <strong>📋 Licensing</strong>
+      <span>Device limits, license model, and free version status</span>
+    </a>
     <a href="#getting-started-setup" class="nav-card">
       <strong>🚀 Getting Started</strong>
       <span>Step-by-step setup and first steps</span>
@@ -53,7 +57,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <input type="text" id="faq-search" placeholder="🔍 Search FAQs..." aria-label="Search FAQ questions">
     <button type="button" id="clear-search" class="clear-button" title="Clear search">✕</button>
   </div>
-  <div class="search-results-info" id="search-info">Showing all 35 questions</div>
+  <div class="search-results-info" id="search-info">Showing all 40 questions</div>
   <div class="no-results" id="no-results" style="display: none;">
     <p>No questions found matching your search. Try different keywords or browse all sections above.</p>
   </div>
@@ -189,11 +193,64 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Note:</strong> You can reactivate anytime to resume receiving updates and support.
 </details>
 
+<h2 id="licensing-account-management">Licensing & Account Management</h2>
+
+<div class="section-summary">
+  <h3>Licensing & Account Management - <span class="question-count">3 Questions</span></h3>
+  <p>Device limits, license model details, and free version availability.</p>
+</div>
+
+<details class="faq-box">
+  <summary>How many devices can I install Junk Store on?</summary>
+  <p></p>
+    You can install Junk Store on up to <strong>five</strong> devices under a single license. We think this strikes a fair balance between flexibility and sustainability.
+  <br>
+  <br>
+    <strong>Device management:</strong> Each installation counts toward your device limit when you first activate it. If you need to replace a device or reinstall, contact support for assistance with license transfers.
+</details>
+
+<details class="faq-box">
+  <summary>Is this a subscription or perpetual license?</summary>
+  <p></p>
+    Junk Store uses a perpetual license model with optional subscription updates. You own your software version forever, but updates require an active subscription.
+  <br>
+  <br>
+    <strong>Junk Store uses perpetual licensing with subscription-based updates.</strong> This is different from both traditional subscription software and one-time purchase models.
+  <br>
+  <br>
+    <strong>What requires active subscription:</strong>
+    <ul>
+      <li>🔄 Software updates and new features</li>
+      <li>🛠️ Bug fixes and compatibility improvements</li>
+      <li>🆕 New game store integrations</li>
+      <li>💬 Technical support and troubleshooting</li>
+    </ul>
+    <strong>The reality of "permanent" ownership:</strong>
+    <ul>
+      <li>⚠️ <strong>Steam Deck OS updates</strong> may break functionality over time</li>
+      <li>⚠️ <strong>Game store changes</strong> (Epic, GOG, Amazon) may cause compatibility issues</li>
+      <li>⚠️ <strong>Third-party dependencies</strong> may become outdated or incompatible</li>
+    </ul>
+    <strong>Bottom line:</strong> While you technically "own" your version forever, the Steam Deck ecosystem evolves constantly. Most users find continued updates necessary for practical long-term use, even though the software itself never expires.
+</details>
+
+<details class="faq-box">
+  <summary>Will the free Decky version continue to be available?</summary>
+  <p></p>
+    <strong>Yes.</strong> The open source Decky version remains available for the community, free to use and collaborate on.
+  <br>
+  <br>
+    Junk Store 2.0 is completely separate software that doesn't share code with the open source version. Both versions can coexist, and you can choose what works best for your needs.
+  <br>
+  <br>
+    <strong>Key difference:</strong> The free Decky version focuses on basic Epic Games support, while Junk Store 2.0 provides the complete Game Mode native experience across multiple platforms.
+</details>
+
 <h2 id="getting-started-setup">Getting Started & Setup</h2>
 
 <div class="section-summary">
-  <h3>Getting Started & Setup - <span class="question-count">2 Questions</span></h3>
-  <p>Step-by-step setup guide: accessing Junk Store and first steps after installation, with trial recommendations.</p>
+  <h3>Getting Started & Setup - <span class="question-count">3 Questions</span></h3>
+  <p>Step-by-step setup guide: accessing Junk Store, first steps after installation, and future platform plans.</p>
 </div>
 
 <details class="faq-box">
@@ -225,6 +282,21 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Most users know within 2-3 days if the convenience justifies the cost.</strong> The 7-day trial gives plenty of time to test real usage patterns.
   <br><br>
   <strong>📖 Need detailed setup instructions?</strong> Check out our <a href="/tutorials/install2.0/">Installation Tutorial</a>
+</details>
+
+<details class="faq-box">
+  <summary>What new platforms are planned for future releases?</summary>
+  <p></p>
+    <strong>Planned platform support</strong> (pending successful launch and resources):
+  <ul>
+    <li>🎯 <strong>Itch.io</strong> - First priority for next platform addition</li>
+    <li>🎮 <strong>EA, Ubisoft, Battle.net</strong> - If technically viable</li>
+    <li>🔧 <strong>Community extension sharing</strong> - User-created platform support</li>
+  </ul>
+    <strong>Development approach:</strong> Each new platform requires extensive testing and compatibility work. We prioritize stable, Game Mode native implementations over quick additions.
+  <br>
+  <br>
+    <strong>Important:</strong> Base your purchase decision on current features, not future promises. New platforms will be added as development resources allow.
 </details>
 
 <h2 id="using-junk-store">Using Junk Store</h2>
@@ -659,6 +731,11 @@ window.addEventListener('scroll', function() {
   }
 });
 
+// Load fuzzy search component
+const fuzzySearchScript = document.createElement('script');
+fuzzySearchScript.src = '{{ "/assets/js/fuzzy-search.js" | relative_url }}';
+document.head.appendChild(fuzzySearchScript);
+
 // FAQ Search Functionality
 document.addEventListener('DOMContentLoaded', function() {
   const searchInput = document.getElementById('faq-search');
@@ -669,6 +746,23 @@ document.addEventListener('DOMContentLoaded', function() {
   const sectionSummaries = document.querySelectorAll('.section-summary');
   
   let totalQuestions = faqBoxes.length;
+  
+  // Initialize fuzzy search when available
+  let fuzzySearch = null;
+  setTimeout(() => {
+    if (window.FuzzySearch) {
+      fuzzySearch = new window.FuzzySearch({
+        maxSuggestions: 3,
+        minSearchLength: 3
+      });
+    }
+  }, 100);
+  
+  // Extract searchable text from FAQ questions
+  const faqQuestions = Array.from(faqBoxes).map(box => {
+    const summary = box.querySelector('summary');
+    return summary ? summary.textContent.trim() : '';
+  }).filter(text => text.length > 0);
   
   function highlightText(text, searchTerm) {
     if (!searchTerm) return text;
@@ -729,6 +823,21 @@ document.addEventListener('DOMContentLoaded', function() {
       clearButton.style.display = 'inline-block';
     }
     
+    // Show fuzzy suggestions if no results found and fuzzy search is available
+    if (fuzzySearch && visibleCount === 0 && searchTerm.length >= 3) {
+      fuzzySearch.hideSuggestions(); // Clear any existing suggestions
+      const suggestions = fuzzySearch.findSuggestions(searchTerm, faqQuestions);
+      if (suggestions.length > 0) {
+        const container = document.querySelector('.faq-search-container');
+        fuzzySearch.showSuggestions(searchTerm, suggestions, container, (suggestion) => {
+          searchInput.value = suggestion;
+          searchFAQs();
+        });
+      }
+    } else if (fuzzySearch) {
+      fuzzySearch.hideSuggestions();
+    }
+    
     // Update results info
     if (visibleCount === 0 && searchTerm !== '') {
       searchInfo.textContent = 'No results found';
@@ -744,6 +853,9 @@ document.addEventListener('DOMContentLoaded', function() {
   
   function clearSearch() {
     searchInput.value = '';
+    if (fuzzySearch) {
+      fuzzySearch.hideSuggestions();
+    }
     searchFAQs();
     searchInput.focus();
   }
