@@ -116,6 +116,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
     <div class="pricing-cta">
       <a href="/buy_now/" class="button buy-button">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary">See It In Action</a>
+      <a href="/comparison/" class="button button-secondary">Compare Features</a>
     </div>
   </div>
 </section>

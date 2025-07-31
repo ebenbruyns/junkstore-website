@@ -4,6 +4,8 @@ main:
     url: "/2.0-hub/"
   - title: "Decky Plugin"
     url: /deckyhub/
+  - title: "Plugin vs 2.0"
+    url: /comparison/
   - title: "Game Compatibility"
     url: /tested-games/
   - title: "Media Gallery"
