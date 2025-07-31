@@ -103,7 +103,7 @@ This guide uses Google for logging in, but the steps are the same for other thir
 If you run into trouble, check out:
 <ul>
   <li><a href="/deckyhelp">Plugin Help</a></li>
-  <li><a href="/faq/deckyfaq">Plugin FAQ</a></li>
+  <li><a href="/faq/decky/">Plugin FAQ</a></li>
   <li><a href="/troubleshooting/plugin">Decky Plugin Troubleshooting</a></li>
   <li><a href="/troubleshooting/epic">Epic Games Troubleshooting</a></li>
   <li><a href="/troubleshooting/gog">GOG Extension Troubleshooting</a></li>

@@ -125,7 +125,7 @@ Once you’ve installed and tested a game, you’re all set.
 
 If you run into trouble, check out:
 - [Plugin Help](/deckyhelp)
-- [Plugin FAQ](/faq/deckyfaq)
+- [Plugin FAQ](/faq/decky/)
 - [Decky Plugin Troubleshooting](/troubleshooting/plugin)
 - [Epic Games Troubleshooting](/troubleshooting/epic)
 - [Gog Extension Troubleshooting](/troubleshooting/gog)
