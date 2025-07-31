@@ -111,7 +111,6 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
     <p class="price-text"><strong>$40/year</strong> • Less than $1/week to eliminate Desktop Mode forever</p>
     <p class="trial-text"><strong>7 days free to try everything</strong> • Only charged if you keep it • Cancel anytime</p>
     <p class="value-text">💯 <strong>Worth it vs free alternatives?</strong> If you value instant library access without launching apps, absolutely. Your entire Epic, GOG & Amazon libraries visible directly in Game Mode - eliminate Desktop Mode switching with architecture designed specifically for handheld gaming.</p>
-    <p class="discount-text">💰 Use code <strong>EarlyBird</strong> for 25% off until July&nbsp;31,&nbsp;2025</p>
     <p class="fence-text">Why compromise your handheld experience? Try our Game Mode-native solution free for 7 days.</p>
     <div class="pricing-cta">
       <a href="/buy_now/" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>
