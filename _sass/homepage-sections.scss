@@ -318,6 +318,108 @@
   margin: 0;
 }
 
+/* Competitive Advantages Section (Support Hub) */
+.competitive-advantages {
+  background-color: #1e2a38;
+  padding: 1rem 1rem 2.5rem 1rem;
+  margin: 2rem 0;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 250px;
+}
+
+.competitive-advantages h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.advantage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.advantage-item {
+  background-color: #253445;
+  padding: 1.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  color: #e8e8e8;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+.advantage-item h4 {
+  color: #66bfff;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.advantage-item p {
+  font-size: 0.95rem;
+  color: #e8e8e8;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.advantage-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 191, 255, 0.2);
+  border-color: #66bfff;
+}
+
+/* Where to Find Section Styling */
+.where-to-find {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  background-color: #1e2a38;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 95%;
+}
+
+.where-to-find h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.where-to-find p {
+  color: #e8e8e8;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.where-to-find .button {
+  margin-top: 1rem;
+}
+
+/* Spacer utility */
+.spacer.mt-4 {
+  margin-top: 2rem;
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
   /* Hero section improvements for mobile conversion */
@@ -509,6 +611,42 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
+
+  /* Mobile responsive for new sections */
+  .competitive-advantages {
+    padding: 2rem 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .competitive-advantages h2 {
+    font-size: 1.5rem;
+  }
+
+  .advantage-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .advantage-item {
+    padding: 1.25rem 1rem;
+  }
+
+  .advantage-item h4 {
+    font-size: 1.1rem;
+  }
+
+  .where-to-find {
+    padding: 1.5rem 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .where-to-find h2 {
+    font-size: 1.5rem;
+  }
+
+  .where-to-find p {
+    font-size: 1rem;
   }
   
 }
