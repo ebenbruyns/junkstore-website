@@ -23,7 +23,7 @@ Welcome to the Junk Store Decky Plugin FAQ! Here you’ll find answers to the mo
     The Decky version is free and open source, designed to run via the Decky Loader. The Paid version includes extra convenience features and doesn't require Decky to run.
     <br>
     <br>
-    For more infomation, see our <a href="{{ '/learnmore/' | relative_url }}">Junk Store 2.0 Learn More Page</a>
+    For more infomation, see our <a href="{{ '/2.0faq/' | relative_url }}">Junk Store 2.0 FAQ</a>
 </details>
 
 <details class="faq-box">
