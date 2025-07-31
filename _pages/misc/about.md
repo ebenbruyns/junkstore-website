@@ -1,6 +1,7 @@
 ---
 layout: splash
-title: "About Junk Store"
+title: "About Junk Store 2.0 - Steam Deck App for Epic, GOG & Amazon"
+description: "Junk Store brings non-Steam games from Epic, GOG & Amazon to Steam Deck Game Mode. Available as standalone app or Decky plugin."
 permalink: /about/
 header:
   overlay_color: "#000"
@@ -14,11 +15,13 @@ header:
 <div class="spacer mt-4"></div>
 
 
-Junk Store exists to make non-Steam gaming on the Steam Deck as effortless as native Steam games. We’re building a unified, intuitive hub where players can install, launch, and manage games from other platforms—like Epic and GOG—right from Game Mode.
+**Junk Store is the ONLY solution that keeps you in Game Mode.**
 
-Inspired by the simplicity of platforms like Kodi, our goal is to turn the Steam Deck into an “everything deck.” One interface. Minimal friction. Maximum access.
+While other launchers require Desktop Mode for game management, Junk Store exists to make <strong>non-Steam gaming on Steam Deck</strong> as effortless as native Steam games. We're building a unified, intuitive hub where players can install, launch, and manage games from Epic, GOG, and Amazon directly in <strong>Steam Deck Game Mode</strong> without ever switching modes.
 
-We’re committed to active development, community feedback, and making it feel like it just works—because gaming should be fun, not frustrating.
+**Why we built this differently:** Your Steam Deck was designed for handheld gaming. Other solutions treat it like a mini-PC, requiring Desktop Mode with mouse-based interfaces and complex workflows. Junk Store respects the handheld experience—everything works with your Steam Deck's controller in Game Mode.
+
+We're committed to active development, community feedback, and making it feel like it just works—because gaming should be fun, not frustrating.
 
 
 <h2>Our Mission</h2>
@@ -35,7 +38,7 @@ Junk Store is built to make playing non-Steam games feel as seamless and intuiti
   Navigate your library easily and discover new titles without the hassle.
 
 - <strong>Active Development</strong>
-  We're constantly improving Junk Store with regular updates and new features based on your feedback.
+  We're constantly improving Junk Store with regular updates and new features.
 
 
 <h2>Hear from the Developer</h2>

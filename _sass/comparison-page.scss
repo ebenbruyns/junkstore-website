@@ -1,0 +1,434 @@
+/* Comparison Page Styles - Consistent with Site Standards */
+
+/* Hero Section */
+.comparison-hero {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.comparison-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #66bfff;
+  font-weight: bold;
+}
+
+.lead-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0af;
+  margin-bottom: 1rem;
+}
+
+/* Value Proposition Section */
+.value-proposition {
+  background: rgba(0, 170, 255, 0.1);
+  padding: 2.5rem 1rem;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 1200px;
+  width: 95%;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.value-item {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #253445;
+  border-radius: 8px;
+  border: 1px solid #444;
+}
+
+.value-item h3 {
+  color: #0af;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Comparison Table Section - Same Width as Pricing */
+.comparison-table-section {
+  margin: 0 auto 2rem auto;
+  max-width: 1400px;
+  width: 90%;
+  padding: 0;
+}
+
+.comparison-table-section h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.table-intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0;
+  border: 1px solid #444;
+}
+
+.comparison-table th {
+  background: rgba(0, 170, 255, 0.2);
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #0af;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.comparison-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  vertical-align: top;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #e8e8e8;
+  text-align: left;
+}
+
+.comparison-table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.comparison-table tr:hover {
+  background: rgba(0, 170, 255, 0.05);
+}
+
+/* Hover popup styles for GIF demonstrations */
+.hover-popup {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-label {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #0af;
+  margin-left: 0.25em;
+}
+
+.hover-popup .gif-popup {
+  display: none;
+  position: fixed;
+  top: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: #222;
+  padding: 1rem;
+  border: 2px solid #0af;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.3);
+  max-width: 90vw;
+  max-height: 70vh;
+  overflow: auto;
+  text-align: center;
+}
+
+.hover-popup:hover .gif-popup {
+  display: block;
+}
+
+.hover-popup img {
+  max-width: 800px;
+  max-height: 600px;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.gif-popup p {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Upgrade Benefits Section - FIXED: 6 benefits, proper sizing, centered header */
+.upgrade-benefits {
+  padding: 2.5rem 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  margin: 2rem auto 0 auto;
+  max-width: 1200px;
+  width: 95%;
+}
+
+.upgrade-benefits h2 {
+  text-align: center;
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.benefit-item {
+  background: rgba(0, 170, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #0af;
+  border: 1px solid #444;
+}
+
+.benefit-item h4 {
+  color: #0af;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.benefit-item p {
+  color: #e8e8e8;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Pricing Comparison Section - Simplified */
+.pricing-comparison {
+  margin: 0 auto 2rem auto;
+  max-width: 1400px;
+  width: 90%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.pricing-comparison h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.price-comparison {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: stretch;
+  max-width: 100%;
+}
+
+.price-option {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  flex: 1;
+  max-width: 600px;
+  min-width: 500px;
+  font-size: 1.1rem;
+}
+
+.price-option.featured {
+  border: 2px solid #0af;
+  background: rgba(0, 170, 255, 0.1);
+  transform: none;
+}
+
+.price-option h3 {
+  color: #66bfff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0af;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.price-detail {
+  font-size: 1rem;
+  color: #ccc;
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.price-option p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  color: #e8e8e8;
+}
+
+.price-option ul {
+  text-align: left;
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+}
+
+.price-option li {
+  margin: 0.75rem 0;
+  padding-left: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Trial CTA Section */
+.trial-cta {
+  background: rgba(0, 170, 255, 0.1);
+  padding: 1.5rem 1rem; /* Further reduced to match homepage sections */
+  text-align: center;
+  margin: 3rem auto;
+  border-radius: 8px;
+  max-width: 1200px;
+  width: 95%;
+}
+
+.cta-box h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  color: #66bfff;
+  font-weight: bold;
+}
+
+.cta-box p {
+  color: #e8e8e8;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.cta-buttons {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-buttons .button {
+  margin: 0.5rem;
+}
+
+.button.large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+.guarantee {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .comparison-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .lead-text {
+    font-size: 1.1rem;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
+  
+  .hover-popup .gif-popup {
+    max-width: 95vw;
+    max-height: 60vh;
+  }
+  
+  .hover-popup img {
+    max-width: 100%;
+    max-height: 400px;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cta-buttons .button {
+    width: 100%;
+    max-width: 280px;
+    margin: 0.5rem 0;
+  }
+  
+  .price-comparison {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .price-option.featured {
+    transform: none;
+  }
+
+  .value-grid,
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .value-proposition,
+  .upgrade-benefits,
+  .trial-cta {
+    padding: 2rem 1rem;
+  }
+
+  .comparison-table-section h2,
+  .upgrade-benefits h2,
+  .pricing-box h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .comparison-table {
+    font-size: 0.9rem;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .hover-label {
+    display: block;
+    margin-top: 0.25rem;
+  }
+
+  .value-item,
+  .benefit-item {
+    padding: 1.25rem 1rem;
+  }
+}

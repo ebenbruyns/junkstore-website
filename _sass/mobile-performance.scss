@@ -1,0 +1,248 @@
+/* Mobile Performance Optimizations */
+
+/* Critical CSS for above-the-fold content */
+@media (max-width: 768px) {
+  /* Optimize font loading for mobile */
+  body {
+    font-display: swap;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* Optimize mobile scrolling */
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
+
+  /* Optimize initial viewport rendering */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Reduce layout shifts and optimize images */
+  img {
+    height: auto;
+    max-width: 100%;
+    /* Improve image loading performance */
+    loading: lazy;
+    decode: async;
+    /* Reserve space to prevent layout shift */
+    aspect-ratio: attr(width) / attr(height);
+  }
+
+  /* Hero and critical images should load immediately */
+  .page__hero img,
+  .page__hero-image {
+    loading: eager;
+  }
+
+  /* Optimize images for mobile */
+  .page__hero-image {
+    background-size: cover;
+    background-position: center;
+    will-change: transform;
+  }
+
+  /* Reduce paint complexity */
+  .button {
+    will-change: transform, box-shadow;
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  /* GPU acceleration for smooth animations */
+  .testimonial-item,
+  .feature:hover,
+  .feature:active,
+  .button:hover,
+  .button:active {
+    transform: translateZ(0);
+    will-change: transform;
+    backface-visibility: hidden;
+  }
+
+  /* Optimize touch interactions */
+  .feature,
+  .button,
+  .pricing-cta a,
+  .testimonial-item {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  }
+
+  /* Optimize scroll performance */
+  .testimonials-section,
+  .pricing-highlight,
+  .key-features,
+  .problem-solution,
+  .screenshot-section {
+    contain: layout style paint;
+    /* Improve mobile scroll performance */
+    overflow: hidden;
+  }
+
+  /* Optimize large sections for mobile scrolling */
+  .homepage-section {
+    transform: translateZ(0);
+    will-change: transform;
+  }
+
+  /* Reduce repaint on mobile interactions */
+  .faq-box summary:active,
+  .button:active {
+    will-change: transform;
+  }
+}
+
+/* Preload critical resources */
+.page__hero {
+  contain: layout;
+  /* Optimize hero section for mobile */
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Critical loading optimization */
+@media (max-width: 768px) {
+  /* Prevent font loading delays */
+  @font-face {
+    font-display: swap;
+  }
+
+  /* Optimize critical path rendering */
+  .page__hero,
+  .seo-intro,
+  .problem-solution {
+    visibility: visible;
+    opacity: 1;
+    animation: fadeInUp 0.6s ease-out;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optimize mobile viewport handling */
+@viewport {
+  width: device-width;
+  initial-scale: 1;
+}
+
+/* Touch action optimization */
+.button,
+.testimonial-dots .dot,
+.faq-box summary,
+.feature,
+.pricing-cta a,
+.greedy-nav__toggle,
+.search__toggle {
+  touch-action: manipulation;
+  /* Improve touch responsiveness */
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* Reduce mobile scroll jank */
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Mobile-specific performance improvements */
+@media (max-width: 768px) {
+  /* Optimize animations for mobile */
+  * {
+    animation-duration: 0.2s !important;
+    transition-duration: 0.2s !important;
+  }
+
+  /* Reduce motion for users who prefer it */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      transform: none !important;
+    }
+  }
+
+  /* Optimize button interactions for mobile */
+  .button:active,
+  .feature:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+  }
+}
+
+/* Critical above-the-fold mobile styles */
+@media (max-width: 768px) {
+  /* Ensure hero section renders quickly */
+  .page__hero {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Optimize CTA button visibility */
+  .page__hero .btn {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    min-height: 50px;
+    width: 90%;
+    max-width: 300px;
+  }
+
+  /* Reduce initial content shift */
+  .page__title {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  .page__lead {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* Optimize for different mobile screen sizes */
+@media (max-width: 480px) {
+  .page__title {
+    font-size: 1.75rem;
+  }
+  
+  .page__lead {
+    font-size: 1.1rem;
+  }
+  
+  .button {
+    font-size: 1rem;
+    padding: 0.875rem 1.5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .page__title {
+    font-size: 1.5rem;
+  }
+  
+  .pricing-box h3 {
+    font-size: 1.4rem;
+  }
+  
+  .price-text {
+    font-size: 1.2rem;
+  }
+}

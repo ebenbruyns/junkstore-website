@@ -2,3 +2,14 @@
 vendor/
 _site/
 assets/lib
+
+# Project management and internal documentation
+*.backup
+
+# Build artifacts
+.sass-cache/
+__pycache__/
+
+# Auto-generated reports (exclude from version control)
+docs/automation/HEALTH_STATUS.md
+docs/automation/AUTOMATION_STATUS.md

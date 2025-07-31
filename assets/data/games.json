@@ -1,0 +1,4454 @@
+[
+  {
+    "title": "#DRIVE Rally",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2494780",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "20 Minutes Till Dawn",
+    "protondb": "https://www.protondb.com/app/1966900",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "20xx",
+    "notes": "Needs d3dcompiler_47 dependency.",
+    "protondb": "https://www.protondb.com/app/322110",
+    "storefront": "Epic",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "3 out of 10: Season One",
+    "protondb": "",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "9 Years of Shadows",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1402120",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "911 Operator",
+    "protondb": "https://www.protondb.com/app/503560",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "A Plague Tale: Innocence",
+    "protondb": "https://www.protondb.com/app/752590",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "A Plague Tale: Innocence",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/752590",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "A Short Hike",
+    "protondb": "https://www.protondb.com/app/1055540",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "A Thimbleweed Park Mini-Adventure",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1305720",
+    "notes": "Mouse only control scheme.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "AER Memories of Old",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. May have to authenticate in desktop mode first.",
+    "protondb": "https://www.protondb.com/app/331870",
+    "storefront": "Epic",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "ATOM RPG: Trudograd I",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1139940",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Absolute Drift",
+    "protondb": "https://www.protondb.com/app/320140",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Abzû",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/384190",
+    "storefront": "Epic",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Aces of the Luftwaffe - Squadron Extended Edition",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Adios",
+    "notes": "May have to authenticate in desktop mode first. Needs Microsoft C++ runtime dependency.",
+    "protondb": "https://www.protondb.com/app/1271400",
+    "storefront": "Epic",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Aerial_Knight's Never Yield",
+    "protondb": "https://www.protondb.com/app/1323540",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Against All Odds",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1465560",
+    "storefront": "Epic",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Ak-xolotl: Together",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1479140",
+    "notes": "You need to verify this with your Epic account",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Alan Wake",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/108710",
+    "proton_version": "Proton 7.0rc6-GE-1",
+    "dependencies": "VC_redist.x64, DirectX",
+    "notes": "You need to download and run the exe for the following:<br> - Install DirectX<br> - Install VC_redist.x64<br> - You also need to download this version of Proton: <strong>Proton 7.0rc6-GE-1</strong>",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Alan Wake 2",
+    "protondb": "https://www.protondb.com/app/alan-wake-2",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Alan Wake Remastered",
+    "protondb": "https://www.protondb.com/app/108710",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Alba - A Wildlife Adventure",
+    "protondb": "https://www.protondb.com/app/1337010",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Albion",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "Works out of the box once you create an account. Don't forget to enble/toggle the anti-cheat for this game.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Alder's Blood Prologue",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1227260",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Alex the Kidd in Miracle World DX",
+    "protondb": "https://www.protondb.com/app/1333470",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Alien: Isolation",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/214490",
+    "storefront": "Epic",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Alwa's Awakening",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/549260",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Amerzone",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/302190",
+    "notes": "Requires binding keys to controller layout to navigate menus and gameplay.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Amid Evil",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/673130",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Amnesia - A Machine For Pigs",
+    "protondb": "https://www.protondb.com/app/239200",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Amnesia - Rebirth",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/999220",
+    "storefront": "Epic",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Amnesia - The Dark Descent",
+    "protondb": "https://www.protondb.com/app/57300",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Amnesia: A Machine for Pigs",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/239200",
+    "notes": "Need to change controller layout to keyboard and mouse.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Amnesia: The Bunker",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1944430",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Among Us",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. May have to authenticate in desktop mode first.",
+    "protondb": "https://www.protondb.com/app/945360",
+    "storefront": "Epic",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Among the Sleep: Enhanced Edition",
+    "notes": "Keyboard & Mouse controller setting",
+    "protondb": "https://www.protondb.com/app/250620",
+    "storefront": "Epic",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Ancient Enemy",
+    "notes": "Mouse Only controller setting",
+    "protondb": "https://www.protondb.com/app/993790",
+    "storefront": "Epic",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Ancient Enemy",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/993790",
+    "notes": "Mouse only.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Animation Throwdown: The Quest for Cards",
+    "protondb": "https://www.protondb.com/app/591960",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Anodyne 2 - Return to Dust",
+    "protondb": "https://www.protondb.com/app/877810",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Arcade Paradise",
+    "protondb": "https://www.protondb.com/app/1388870",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Arcade Paradise",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1388870",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "ArcadeGeddon",
+    "notes": "May have to authenticate in desktop mode first. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1515640",
+    "storefront": "Epic",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Are You Smarter than a Fifth Grader?",
+    "notes": "Needs Microsoft C++ Runtime.",
+    "protondb": "https://www.protondb.com/app/1521160",
+    "storefront": "Epic",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "Armored Warfare",
+    "notes": "Keyboard & Mouse controller setting",
+    "protondb": "https://www.protondb.com/app/443110",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Art of Rally",
+    "protondb": "https://www.protondb.com/app/art-of-rally",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Ascendant",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/296930",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Assassin's Creed Mirage",
+    "notes": "Need to download & log in to Uplay. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/assassins-creed-mirage",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Assassin's Creed Origins",
+    "notes": "Need to download & log in to Uplay. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/assassins-creed-origins",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Astrea: Six Sided Oracles",
+    "notes": "Need to verify with Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1755830",
+    "storefront": "Epic",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Astro Duel 2",
+    "protondb": "https://www.protondb.com/app/655350",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Atlas Fallen",
+    "protondb": "",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Aven Colony",
+    "notes": "Need to change to keyboard & mouse controller layout.",
+    "protondb": "https://www.protondb.com/app/484900",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Axiom Verge",
+    "protondb": "https://www.protondb.com/app/332200",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "BLOCKLORDS",
+    "notes": "Keyboard & Mouse controller setting",
+    "protondb": "https://www.protondb.com/app/1278420",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Backpack Hero",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1970580",
+    "notes": "Works out of the box after you verify with Epic account.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Baldur's Gate 2 Enhanced",
+    "notes": "Must run ./dependencies/oalinst.exe to install OpenAL32.dll first. May need to set ./Baldur.exe",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Baldur's Gate Enhanced",
+    "notes": "Must run ./dependencies/oalinst.exe to install OpenAL32.dll first. May need to set ./Baldur.exe",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Baldur's Gate II: Enhanced Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/494360",
+    "notes": "Need to change controller mapping.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Baldur's Gate: Enhanced Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/228280",
+    "notes": "Need to change controller mapping.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Bang Bang Racing",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Barony",
+    "protondb": "https://www.protondb.com/app/371970",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Barrow Hill: Curse of the Ancient Circle",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/494360",
+    "notes": "Point & Click; set Mouse controls.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Barrow Hill: The Dark Path",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/520990",
+    "notes": "Point & Click; set Mouse controls.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Bear & Breakfast",
+    "protondb": "https://www.protondb.com/app/1136370",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Behind the Frame",
+    "notes": "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1634150",
+    "storefront": "Epic",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "Beholder",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/475550",
+    "storefront": "Epic",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Beholder 2",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/761620",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Beholder 3",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Berserk Boy",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1561340",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Betrayer",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/243120",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Beyond Blue",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/883360",
+    "storefront": "Epic",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "BioShock 2 Remastered",
+    "protondb": "https://www.protondb.com/app/409720",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "BioShock 2 Remastered",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/409720",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "BioShock Infinite",
+    "protondb": "https://www.protondb.com/app/8870",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "BioShock Infinte",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/8870",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "BioShock Remastered",
+    "notes": "Need to toggle Esync and Fsync in game configs",
+    "protondb": "https://www.protondb.com/app/409710",
+    "storefront": "Epic",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "BioShock Remastered",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/409710",
+    "notes": "Turn on Esync and Fsync toggles under Proton config to fix the low-res textures and long saving/loading.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Black Book",
+    "protondb": "https://www.protondb.com/app/1138660",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Black Widow: Recharged",
+    "protondb": "https://www.protondb.com/app/1714180",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Blacksad: Under the Skin",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1003890",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Blade of Darkness",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1710170",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1550760",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Blazing Sails",
+    "notes": "Need to change controller mapping.",
+    "protondb": "https://www.protondb.com/app/1158940",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Blood Omen 2: Legacy of Kain",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/242960",
+    "notes": "Need to change the controller layout to Keyboard and Mouse and map some keys."
+  },
+  {
+    "title": "Blood Omen: Legacy of Kain",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Blood West",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1587130",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "Bloody Hell",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2056220",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Bloons TD 6",
+    "protondb": "https://www.protondb.com/app/960090",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Book of Demons",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/449960",
+    "notes": "Requires Keyboard & Mouse controller settings.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Book of Yog Idle RPG",
+    "notes": "Might need to change controller mapping.",
+    "protondb": "https://www.protondb.com/app/1097430",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Borderlands 2",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. UHD DLC not yet working in Junk-Store",
+    "protondb": "https://www.protondb.com/app/49520",
+    "storefront": "Epic",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Borderlands 3",
+    "notes": "If you get an error pop up verify the games files (cog menu) or delete the file the error is pointing to & then verify the files.",
+    "protondb": "https://www.protondb.com/app/397540",
+    "storefront": "Epic",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Borderlands The Pre-Sequel!",
+    "protondb": "https://www.protondb.com/app/261640",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Botanicula",
+    "notes": "Need to enable the EOS overlay and change controller mapping to keyboard and mouse.",
+    "protondb": "https://www.protondb.com/app/207690",
+    "storefront": "Epic",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Boxes: Lost Segments",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2019810",
+    "notes": "You need to use the mouse - point and click game.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Bramble: The Mountain King",
+    "protondb": "https://www.protondb.com/app/1623940",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Breachway",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2118810",
+    "notes": "No controller support at date of testing.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Breathedge",
+    "notes": "May need to tweak controller mapping.",
+    "protondb": "https://www.protondb.com/app/738520",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Broken Sword: Director's Cut",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/57640",
+    "notes": "Mouse & keyboard layout.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Brotato",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1942280",
+    "storefront": "Epic",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Brothers: A Tale of Two Sons",
+    "protondb": "https://www.protondb.com/app/225080",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Builders of Egypt: Prologue",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "Need to map controller setting to mouse",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Bullet Runner: The First Slaughter",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2343570",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Bunny Garden",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2654470",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Bus Simulator 21 Next Stop",
+    "notes": "Install C++ Runtime Dependency, no extra setup required.",
+    "protondb": "https://www.protondb.com/app/976590",
+    "storefront": "Epic",
+    "date_tested": "Dec '25"
+  },
+  {
+    "title": "Butcher",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/474210",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "CYGNI: All Guns Blazing",
+    "notes": "additional arguments > -epicdeploymentid=78a046d4ac1b42d7aaba9fe80f88a5d8",
+    "protondb": "https://www.protondb.com/app/1248080",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Call of Cthulhu: Dark Corners of the Earth",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/22340",
+    "notes": "Need to change controller to keyboard & mouse.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Call of Juarez",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/3020",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Call of Juarez: Bound in Blood",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/21980",
+    "notes": "Need to change/map controller.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Call of Juarez: Gunslinger",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/204450",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Call of the Sea",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. May need to activate in Desktop Mode/Big Picture Mode via Epic on first launch",
+    "protondb": "https://www.protondb.com/app/1042490",
+    "storefront": "Epic",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Call of the Wild: The Angler™",
+    "protondb": "https://www.protondb.com/app/1408610",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Call of the Wild: The Hunter",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/518790",
+    "storefront": "Epic",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Car Mechanic Simulator 2018",
+    "protondb": "https://www.protondb.com/app/645630",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Card Shark",
+    "protondb": "https://www.protondb.com/app/1371720",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Carrion",
+    "protondb": "https://www.protondb.com/app/953490",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Castlevania Anniversary Collection",
+    "notes": "Need to verify with Epic account & you may want to adjust resolution/scaling. Otherwise no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1018010",
+    "storefront": "Epic",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Cat Quest",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/593280",
+    "storefront": "Epic",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Cat Quest II",
+    "notes": "Need to verify with Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/914710",
+    "storefront": "Epic",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Cat Quest II",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/914710",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Cave Story",
+    "protondb": "https://www.protondb.com/app/200900",
+    "storefront": "Epic",
+    "notes": "You need to change the controller mapping - there is a community layout that you can use.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Cayne",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/532840",
+    "notes": "Need to change controller to mouse",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Celeste",
+    "notes": "Install dxvk to fix the red colour issue.",
+    "protondb": "https://www.protondb.com/app/504230",
+    "storefront": "Epic"
+  },
+  {
+    "title": "Centipede Recharged",
+    "protondb": "https://www.protondb.com/app/1630960",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Chained Echoes",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1229240",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Chasm: The Rift",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2061230",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Chessarama",
+    "notes": "You need to verify with your Epic account. Works out of the box with native controller support.",
+    "protondb": "https://www.protondb.com/app/1831830",
+    "storefront": "Epic",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Chicken Assassin: Reloaded",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/489610",
+    "notes": "Need to change controller mapping.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Chivalry II",
+    "protondb": "https://www.protondb.com/app/1824220",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Chronoshot",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1326700",
+    "notes": "Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Chronoshot)",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Chuchel",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/711660",
+    "notes": "Change controller mapping to use the trackpads/mouse. Remeber to enable EOS overlay for the game so you can see when your achievements pop.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Circus Electrique",
+    "protondb": "https://www.protondb.com/app/1666250",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "City of Brass",
+    "protondb": "https://www.protondb.com/app/301840",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Civilization VI",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Close to the Sun",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/968870",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. May want to adjust scaling — text and menus get clipped.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Cloudpunk",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/746850",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Colt Canyon",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/940710",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Control",
+    "protondb": "",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Cook, Serve, Delicious! 3?!",
+    "protondb": "https://www.protondb.com/app/1000030",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Coromon",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1218210",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Costume Quest 2",
+    "protondb": "https://www.protondb.com/app/275180",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Creature in the Well",
+    "protondb": "https://www.protondb.com/app/852300",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Crime Boss: Rockay City",
+    "notes": "You need to install Microsoft C++ runtime & accept a EULA",
+    "protondb": "https://www.protondb.com/app/2933080",
+    "storefront": "Epic",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Cris Tales",
+    "protondb": "https://www.protondb.com/app/1079830",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Crusader Kings II",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/203770",
+    "notes": "Need to change to keyboard & mouse settings.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Crystal of Atlan",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "There are a few steps to get this working in game mode. Best is to do this all in desktop/Big Picure mode through Junk Store before hopping back into Game mode. Tested with Proton Experimental.<br> - First download the game in Junk Store then launch the game once to set a prefix<br> - You then need to install  the pdh dependency, I used Protontricks from desktop mode<br> - Once the depedency is installed, go back into Big Picture mode and before launching the game set the exe to <strong>./Crystal of Atlan.exe</strong> (remember to push X to save) then launch the game.<br> - This next part took me a few goes. The game may load to a black screen and seem stuck, just be patient as it's loading and you'll see the game splash screen eventually.<br> - Once the game loads and says <em>Click anywhere to proceed</em> do that and then you need to wait for an age verification box to open. This is what didn't always load properly, you get a white screen and may need to move the mouse around for it to show. Once you click confirm for age verification the game should load and you can play.<br> - Once you get to playihg the game in desktop/big picture mode it should now load without issue in game mode. It seems to have full controller support too.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Cuphead",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/268910",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Cursed to Golf",
+    "protondb": "https://www.protondb.com/app/1726120",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Cursed to Golf",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1726120",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "DARQ",
+    "protondb": "",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "DNF Duel",
+    "protondb": "https://www.protondb.com/app/1216060",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "DOOM (2016)",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/379720",
+    "notes": "You need to download and install X64 redistributable for Visual Studio 2015-2022."
+  },
+  {
+    "title": "DREDGE",
+    "notes": "You need to verify it with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1562430",
+    "storefront": "Epic",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "DREDGE",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1562430",
+    "notes": "May open with web browser controller mapping. Switch to gamepad/joystick layout to fix.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Daemon X Machina",
+    "protondb": "https://www.protondb.com/app/1167450",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Dagon: by H.P. Lovecraft",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1481400",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Dakar Desert Rally",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1839940",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '25"
+  },
+  {
+    "title": "Dark Deity: Complete Edition",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Dark Envoy",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/945770",
+    "notes": "Works out of the box",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Dark Fall 3: Lost Souls",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/46750",
+    "notes": "Point & Click; set Mouse controls.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Dark Sky",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1454960",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "Darkest Dungeon II",
+    "protondb": "https://www.protondb.com/app/262060",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Darkwood",
+    "protondb": "https://www.protondb.com/app/274520",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Daymare:1998",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/842100",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Dead Island 2",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/934700",
+    "storefront": "Epic",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Deadtime Defenders",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1148700",
+    "notes": "Works out of the box with native controller support. Make sure you enable the EOS overlay and map shift+f3 if you want to use this feature.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Death Loop",
+    "notes": "May need to login to Bethesda to change visual settings to windowed",
+    "protondb": "https://www.protondb.com/app/1252330",
+    "storefront": "Epic",
+    "date_tested": "June '25"
+  },
+  {
+    "title": "Death Squared",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "Works out of the box, however multiplayer seems to be local co-op only",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Death Stranding",
+    "protondb": "https://www.protondb.com/app/1850570",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Death Stranding Director's Cut",
+    "protondb": "https://www.protondb.com/app/1850570",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Death's Door",
+    "protondb": "https://www.protondb.com/app/894020",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Death's Gambit - Afterlife",
+    "protondb": "https://www.protondb.com/app/356650",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24' "
+  },
+  {
+    "title": "Deathbound",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1277130",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Deceive Inc.",
+    "protondb": "https://www.protondb.com/app/820520",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Deep Sky Derelicts",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/698640",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Defender's Quest: Valley of the Forgotten",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/218410",
+    "notes": "It has native controller settings, but does require touch screen for some input.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Deliver At All Costs",
+    "notes": "Works out of the box with native controller support. If you are having issues, launch it twice or reinstall the dependencies (JS > About).",
+    "protondb": "https://www.protondb.com/app/1880610",
+    "storefront": "Epic",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Deliver Us Mars",
+    "notes": "Needs C++ Runtime, otherwise no extra setup required.",
+    "protondb": "https://www.protondb.com/app/1345890",
+    "storefront": "Epic",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Demon's Tilt",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/422510",
+    "storefront": "Epic",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Deus Ex: GOTY Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/6910",
+    "notes": "Need to use keyboard and mouse layout.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Deus Ex: Human Revolution - Director's Cut",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/238010",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Deus Ex: Invisible War",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/6920",
+    "notes": "Need to change controller mapping to keyboard and mouse.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Deus Ex: Mankind Divided",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/337000",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Devil's Kiss",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1213550",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Dex",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/269650",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Dexter Stardust: Adventures in Outer Space",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Diggles: The Myth of Fenris",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1478650",
+    "notes": "Need to change controller mapping.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Dino Crisis 1 & 2 (GOG)",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "Set launch command: WINEDLLOVERRIDES=\"ddraw=n,b\" %command%",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Dishonored - Definitive Edition",
+    "protondb": "https://www.protondb.com/app/205100",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Dishonored - Definitive Edition",
+    "protondb": "https://www.protondb.com/app/205100",
+    "storefront": "GOG",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Dishonored 2",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/403640",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Dishonored®: Death of the Outsider™",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/614570",
+    "storefront": "Epic",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Disney Epic Mickey: Rebrushed",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1522160",
+    "notes": "Install C++ runtime otherwise no extra setup required.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Dodo Peak",
+    "protondb": "https://www.protondb.com/app/2845610",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Doki Doki Literature Club Plus!",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1388880",
+    "storefront": "Epic",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Doom 64",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1148590",
+    "storefront": "Epic",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Doomdark's Revenge",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "Mouse only controller scheme.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Doomsday: Last Survivors",
+    "notes": "Mouse only control scheme.",
+    "protondb": "https://www.protondb.com/app/2439510",
+    "storefront": "Epic",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Doors Paradox",
+    "notes": "Works out of the box, change controller layout to Keyboard & mouse.",
+    "protondb": "https://www.protondb.com/app/1622770",
+    "storefront": "Epic",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Duck Paradox",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2058150",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Eastern Exorcist",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1120810",
+    "storefront": "Epic",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "El Hijo - A Wild West Tale",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/853050",
+    "storefront": "Epic",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Electrician Simulator",
+    "notes": "Need to verify with Epic Account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1080020",
+    "storefront": "Epic",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Elite Dangerous",
+    "notes": "You need to have a Frontier account to play this game. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/359320",
+    "storefront": "Epic",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Empire of the Ants",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2287330",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Empyrion - Galactic Survival",
+    "notes": "Multiplayer is broken even with EAC enabled, need to change controller setup",
+    "protondb": "https://www.protondb.com/app/383120",
+    "storefront": "Epic",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "En Garde!",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1654660",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Ender Lilies: Quietus of the Knights",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1369630",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "Endless Sky",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2287330",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Endless Space 2",
+    "protondb": "",
+    "storefront": "Amazon",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Escape Academy",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1812090",
+    "storefront": "Epic",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "Eschalon: Book 1",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/25600",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Eternights",
+    "protondb": "https://www.protondb.com/app/1402110",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "F.E.A.R. Platinum",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/21090",
+    "notes": "Change controller layout to Keyboard & Mouse.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "F.I.S.T.: Forged In Shadow Torch",
+    "protondb": "https://www.protondb.com/app/1330470",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "F1 Manager 24",
+    "notes": "Need to install C++ Runtime (can be done from Run exe menu)",
+    "protondb": "https://www.protondb.com/app/2591280",
+    "storefront": "Epic",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Fall Guys",
+    "notes": "Install the easy anti cheat runtime from the 'About' section- (make sure you are installing it to the SSD not the micro SD card)",
+    "protondb": "https://www.protondb.com/app/1097150",
+    "storefront": "Epic",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Fallout 2: A Post Nuclear Role Playing Game",
+    "protondb": "https://www.protondb.com/app/38410",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Fallout 3",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/fallout-3",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Fallout 3 GOTY",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/22370",
+    "notes": "Works out of the box with GE-Proton 9.20. Use touchscreen to get past launcher.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Fallout Tactics: Brotherhood of Steel",
+    "notes": "Use Proton-7.0rc3-GE-1 to help with stuttering of cutscenes",
+    "protondb": "https://www.protondb.com/app/38420",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Fallout: A Post Nuclear Role Playing Game",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/38400",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Fallout: New Vegas",
+    "notes": "Use ProtonGE 9-4 and also click on the registry fix in the sliders menu(this is very important).",
+    "protondb": "https://www.protondb.com/app/22380",
+    "storefront": "Epic"
+  },
+  {
+    "title": "Far Cry 6",
+    "notes": "Need to download & log in to Uplay",
+    "protondb": "https://www.protondb.com/app/2369390",
+    "storefront": "Epic"
+  },
+  {
+    "title": "Faraway 2: Jungle Escape",
+    "notes": "Need to change to keyboard & mouse layout.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Faraway 3: Artic Escape",
+    "notes": "Need to change to keyboard & mouse layout.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Farming Simulator 22",
+    "protondb": "https://www.protondb.com/app/1248130",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Fashion Police Squad",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1319460",
+    "storefront": "Epic",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Fate",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/246840",
+    "notes": "You need to change controller to Keyboard & Mouse.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Fate: Undiscovered Realms",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/276890",
+    "notes": "You need to change the controller layout; I chose Keyboard & Mouse. There are also a few lighting glitches when you enter the dungeons. To avoid these make the game look make sure your game options are set as follows:<br> - Light Blur: Off<br> - Shadow Detail: High<br> - VSYNC: Off<br> - Shadow: All<br> - ParticlesL High<br> - Antialiasing: On<br> - Fog: Animated",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Figment",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/493540",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Figment",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/493540",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Figment 2: Creed Valley",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1085220",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Filament",
+    "protondb": "https://www.protondb.com/app/1137350",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Firestone Online Idle RPG",
+    "notes": "Install & enable EOS overlay, verify with Epic account. Need to change to keyboard and mouse layout.",
+    "protondb": "https://www.protondb.com/app/1013320",
+    "storefront": "Epic",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Firewatch",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/383870",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Flashout 3D: Enhanced Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2022780",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Flatout",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/6220",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Flipon",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1285020",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Floppy Knights",
+    "protondb": "https://www.protondb.com/app/1057800",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Football Manager 2024",
+    "notes": "change controller mapping",
+    "protondb": "https://www.protondb.com/app/2252570",
+    "storefront": "Epic",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "For the King",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/527230",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Forager",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/751780",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Freshly Frosted",
+    "protondb": "https://www.protondb.com/app/1070790",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Front Mission 1st Remake",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2399730",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "GRIME Definitive Edition",
+    "protondb": "https://www.protondb.com/app/1123050",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "GRIP",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/396900",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "GTA V",
+    "notes": "Read this [tutorial](https://www.reddit.com/r/JunkStore/comments/1j5d1f8/running_gtav_enhanced_edition_on_steam_deck_from/)",
+    "protondb": "https://www.protondb.com/app/gta-v",
+    "storefront": "Epic",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "GTA V: Enhanced",
+    "notes": "Read this [tutorial](https://www.reddit.com/r/JunkStore/comments/1j5d1f8/running_gtav_enhanced_edition_on_steam_deck_from/)",
+    "protondb": "https://www.protondb.com/app/gta-v-enhanced",
+    "storefront": "Epic"
+  },
+  {
+    "title": "Gamedec - Definitive Edition",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/917720",
+    "storefront": "Epic",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Gamedec - Definitive Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/917720",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Garden Story",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1062140",
+    "storefront": "Epic",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Genshin Impact",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "You need to set the exe either to <stong>./HYP.exe</strong> or <stong>./games/Genshin Impact game/GenshinImpact.exe</strong> both worked for me.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Gex",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "Change controller layout to Keyboard & Mouse.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Ghost Song",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/347800",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Ghost of a Tale",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/417290",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Ghostbusters: Spirits Unleashed Ecto Edition",
+    "notes": "Needs C++ runtime and you need to verify with your Epic account. Once that's all done there's not extra setup required.",
+    "protondb": "https://www.protondb.com/app/2383990",
+    "storefront": "Epic",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Ghostrunner",
+    "notes": "Install C++ Runtime Dependency",
+    "protondb": "https://www.protondb.com/app/1139900",
+    "storefront": "Epic"
+  },
+  {
+    "title": "Ghostrunner 2",
+    "notes": "Install C++ Runtime Dependency once installed there's no extra setup required.",
+    "protondb": "https://www.protondb.com/app/2144740",
+    "storefront": "Epic",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Ghostwire: Tokyo",
+    "protondb": "https://www.protondb.com/app/1475810",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Gigantic: Rampage Edition",
+    "protondb": "https://www.protondb.com/app/1924490",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Gigapocalypse",
+    "notes": "You need to change controller to Keyboard & Mouse.",
+    "protondb": "https://www.protondb.com/app/1543240",
+    "storefront": "Epic",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Gloomhaven",
+    "notes": "You need to link with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/780290",
+    "storefront": "Epic",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "God's Trigger",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/488730",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Godlike Burger",
+    "protondb": "https://www.protondb.com/app/1432910",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Gods Will Fall",
+    "protondb": "https://www.protondb.com/app/1243690",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Golf With Your Friends",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/431240",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Greak: Memories of Azur",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1311070",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Greedfall",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/606880",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Grim Dawn (including DLCs)",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/219990",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Guacamelee 2",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account.",
+    "protondb": "https://www.protondb.com/app/534550",
+    "storefront": "Epic",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Guacamelee! Super Turbo Championship Edition",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account, may need to be done in desktop/BPM.",
+    "protondb": "https://www.protondb.com/app/275390",
+    "storefront": "Epic",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "HUMANKIND Standard Edition",
+    "notes": "Need to enable EOS overlay. May want to change to keyboard & mouse controller layout.",
+    "protondb": "https://www.protondb.com/app/1124300",
+    "storefront": "Epic",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "Hades",
+    "protondb": "https://www.protondb.com/app/1145360",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Hammerting",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/760650",
+    "notes": "Change controller mapping to keyboard & mouse.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Happy Game",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1206060",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Hard West",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "You need to change the controller layout/mapping.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Hard West II",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1282410",
+    "notes": "Change controller mapping."
+  },
+  {
+    "title": "Hardspace: Shipbreaker",
+    "notes": "You need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1161580",
+    "storefront": "Epic",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "Haven Park",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1549550",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Heads Will Roll: Downfall",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1903060",
+    "notes": "Change controller mapping.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Hell Division",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2004360",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Hell Let Loose",
+    "notes": "Enabled EOS overlay and EAC. Also updated the game. You also need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/686810",
+    "storefront": "Epic",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Hell Pie",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/889910",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Hell Point",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/628670",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Hellblade: Senua's Sacrifice",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/414340",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Hero of the Kingdom II",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/346560",
+    "notes": "Change controller mapping.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Hero's Hour",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1656780",
+    "notes": "Need to change controller mapping to mouse and Keyboard.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Hitman Absolution",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/203140",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Hive Jump 2: Survivors",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2545740",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Hogwarts Legacy",
+    "notes": "Install C++ Runtime Dependency",
+    "protondb": "https://www.protondb.com/app/990080",
+    "storefront": "Epic",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Horizon Chase Turbo",
+    "protondb": "https://www.protondb.com/app/389140",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Horizon Zero Dawn",
+    "notes": "Install C++ Runtime Dependency",
+    "protondb": "https://www.protondb.com/app/2561580",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Hot Wheels Unleashed",
+    "notes": "Install C++ Runtime Dependency, once installed there's no extra setup required.",
+    "protondb": "https://www.protondb.com/app/1271700",
+    "storefront": "Epic",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "House of Golf 2",
+    "notes": "Needs C++ runtime & Epic verification (may need to run once in BPM) - no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/2914390",
+    "storefront": "Epic",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "HuniePop",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Hypnospace Outlaw",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/844590",
+    "notes": "You need to change to keyboard & mouse",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Idle Champions of the Forgotten Realms",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/627690",
+    "storefront": "Epic",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Illuvium",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Illuvium)",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Immortal Redneck",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/595140",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Industria",
+    "notes": "Check out our notes [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Industria)",
+    "protondb": "https://www.protondb.com/app/1172650",
+    "storefront": "Epic"
+  },
+  {
+    "title": "Industria",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1172650",
+    "notes": "Change controller mapping.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Intravenous",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1486630",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Invincible Presents: Atom Eve",
+    "protondb": "https://www.protondb.com/app/2060870",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Iratus: Lord of the Dead",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/807120",
+    "notes": "Change controls to map to mouse only.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Iris and the Giant",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1127610",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Islets",
+    "protondb": "https://www.protondb.com/app/1669420",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Jennifer Wilde: Unlikely Revolutionaires",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1466350",
+    "notes": "Works out of the box with native controller support. You need to verify with your Epic account.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Journey",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/638230",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Journey to the Savage Planet",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/973810",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Jupiter Hell",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/811320 ",
+    "notes": "You need to change to keyboard & mouse as well as remap keys. No issue if you select Yes or No at the Vulkan prompt.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Jurassic World Evolution",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/648350",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Jurassic World Evolution 2",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1244460",
+    "notes": "You do need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Just Die Already",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/979070",
+    "notes": "You need to mess around with controller layout and key bindings.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Kardboard Kings",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1298480",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Kerbal Space Program",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/220200",
+    "notes": "May need to tinker with controller mapping.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "KeyWe",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1242980",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Kid A Mnesia Exhibition",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. Prompted to install C++ runtime, ships with game.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Kill Knight",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2694420",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Killing Floor 2",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/232090",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. Multiplayer not supported due to anti-cheat.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "King of Seas",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1209410",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "King's Bounty: Crossworlds GOTY Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/63910",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "King's Bounty: The Legend",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/25900",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Kingdom Come: Deliverance",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/379430",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "LEGO Lord of the Rings™",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/214510",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "LEGO Star Wars: The Complete Saga",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/32440",
+    "notes": "Change to Keyboard & Mouse controller mapping.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "LEGO Star Wars: The Skywalker Saga",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/920210",
+    "notes": "You need to verify this game with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "LEGO The Hobbit",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/285160",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Lacuna - A Sci-Fi Noir Adventure",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1364100",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Legacy of Kain: Defiance",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/224300",
+    "notes": "Need to sort out controller mapping.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Legacy of Kain: Soul Reaver 1 & 2 Remaster",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2521380",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "Legend of Keepers: Career of a Dungeon Manager",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/978520",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Let's Build a Zoo",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1547890",
+    "notes": "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Liberte",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1590160",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Limbo",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/48000",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Little Nightmares",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/424840",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Loop Hero",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1282730",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Loop Hero",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1282730",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Lumbearjack",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1582290",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Lysfanga: The Time Shift Warrior",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2161620",
+    "notes": "You need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "MDK - Murder Death Kill",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/38450",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Mafia II: Definitive Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1030830",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Mafia III: Definitive Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/360430",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Mafia: Definitive Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1030840",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Mages of Mystralia",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/529660",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. There is no sound for the opening cinematic scene, but this seems to be an old issue.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Magrunner: Dark Pulse",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/209630",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Maid of Sker",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/826940",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Mail Time",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1607240",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Maneater",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/629820",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. Cannot currently disable EGS cloud saves",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Marvel Rivals",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2767030",
+    "notes": "Install C++ runtime from sliders menu - ./dependency/VC_resist.x64.exe & set ./MarvelRivals_Launcher.exe from then sliders menue.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Marvel's Guardians of the Galaxy",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1088850",
+    "notes": "You need to use touch screen on the Start screen to get into the game or change controller settings to mouse and keyboard to naviagte menus",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Marvel's Midnight Suns",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/368260",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Max: The Curse of Brotherhood",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Medal of Honor: Allied Assault War Chest",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "This game works with hte new updated Gog extension. In desktop mode you will get the intro video, but in Game Mode you need to map buttons to Alt+Enter in order to skip this and get to the game menu. This game requires Keyboard & Mouse layout.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Metal Slug Tactics",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1590760",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Metro Last Light Redux",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/287390",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Metro Last Light Redux",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/287390",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Middle-earth: Shadow of Mordor",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/241930",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Midnight Fight Express",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1390410",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Monoply Madness",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2383760",
+    "notes": "Need to download & log in to Uplay"
+  },
+  {
+    "title": "Monster Train",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1102190",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Moonlighter",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/606150",
+    "notes": "You need to install the C++ runtime dependency.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Moonscars",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1374970",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Morbid: The Seven Acolytes",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1140890",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Mordheim: City of the Damned",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/276810",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '25"
+  },
+  {
+    "title": "Mortal Kombat Trilogy",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Mortal Shell",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1110910",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Moving Out",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/996770",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Mullet Mad Jack",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2111190",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Mutazione",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1080750",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Necromunda: Hired Gun",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1222370",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Neko Ghost, Jump!",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1194750",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Neverwinter Nights Diamond",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "Change controller mapping to mouse and keyboard.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Nine Witches: Family Disruption",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "No Straight Roads",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Noita",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/881100",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Oaken",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1348690",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Ogu and the Secret Forest",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1985960",
+    "notes": "A bit laggy but this seems to be a game issue.",
+    "date_tested": "June '25"
+  },
+  {
+    "title": "Once Upon a Jester",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1668190",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "One Step From Eden",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/960690",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Orcs Must Die! 3",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1522820",
+    "notes": "Needs C++ runtime but it ships with it, once installed there's no extra setup required.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Outliver: Tribulation",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1236930",
+    "notes": "Install C++ runtime, need to verify game in BPM for Epic. No other setup required.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Overcooked",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/448510",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Overcooked! 2",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/728880",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Overcooked! 2",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/728880",
+    "notes": "Need to use GE-Proton7-55. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Overcooked: Gourmet Edition",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "PC Building Simulator",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/621060",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Paquerette Down the Bunburows",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1628610",
+    "notes": "You need to verify it with your Epic account.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Penumbra - Black Plague",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/22120",
+    "notes": "Gameplay will be a black screen unless you disable Post Effects in the settings menu. Mouse & Keyboard only.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Penumbra - Overture",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/22180",
+    "notes": "Gameplay will be a black screen unless you disable Post Effects in the settings menu. Mouse & Keyboard only.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Pillars of Eternity: Definitive Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/291650",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Planet of Lana",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1608230",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Predator Hunting Grounds",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1556200",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Prey",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/480490",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Priest Simulator: Vampire Show",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/950620",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Primordia",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/227000",
+    "notes": "Point & Click game; set Mouse controls.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Prince of Persia",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/19980",
+    "notes": "Set the executable to ./Prince of Persia.exe. Need to change controller mapping to keyboard and mouse.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Prince of Persia: Sands of Time",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/13600",
+    "notes": "Turn off fog & increase resolution in graphics settings. Need to change controller mapping to keyboard and mouse.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Prince of Persia: The Two Thrones",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/13530",
+    "notes": "Need to change controller mapping to keyboard and mouse.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Prince of Persia: Warrior Within",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/13500",
+    "notes": "Works with Proton 7.0-6 (GOG). Need to change controller mapping to keyboard and mouse.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Prison Architect",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/233450",
+    "notes": "You need to have/create a Paradox Interactive account. You also need to link it with your Epic account, I had to do this in desktop/BPM. Change controls to keyboard & mouse.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Prison Architect",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/233450",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. You need to change the controller mapping to keyboard & mouse.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Projection First Light",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Pumpkin Jack",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1186640",
+    "notes": "Add -dx11 to the target line after the executable.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Q.U.B.E. 10th Anniversary",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1564220",
+    "notes": "Install C++ Runtime Install",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Quake II",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2320",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "RAWMEN: Food Fighter Arena",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/782940",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "RENNSPORT",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2077750",
+    "notes": "Install C++ Runtime Install",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Raidborn",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1546090",
+    "notes": "Early access.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Redemption Reapers",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2139300",
+    "notes": "Need to use GE-Proton 9.7 for cutscenes to play correctly. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Redout 2",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1799930",
+    "notes": "Install C++ Runtime Install"
+  },
+  {
+    "title": "Redout: Enhanced Edition",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/517710",
+    "notes": "Install C++ Runtime Install, no extra setup required.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Republic of Jungle",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1413250",
+    "notes": "You need to verify with your Epic account after that <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Return of the Phantom",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1299710",
+    "notes": "Change controller settings.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "RiME",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/493200",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Ring of Pain",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/998740",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Riot - Civil Unrest",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/342310",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Rise of the Tomb Raider : 20 Year Celebration",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/391220",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "River City Girls",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1049320",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Rocket League",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/252950",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Rogue Legacy",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/241600",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Rogue Legacy 2",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1253920",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Roller Champions",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2211280",
+    "notes": "Need to download & log in to Uplay"
+  },
+  {
+    "title": "Rugrats: Adventures in Gameland",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2633950",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "STASIS: Bone Totem",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1426010",
+    "notes": "You need to activate in BPM from desktop mode before it will work in Game Mode; also need to change controller settings"
+  },
+  {
+    "title": "STILL LIFE 2",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/46490",
+    "notes": "Point & Click – set Mouse controls.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "SWAT 4",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "Change controller layout.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Sable",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/757310",
+    "notes": "Works out of the box.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Sail Forth",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1031460",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Saints Row 2",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/9480",
+    "notes": "You need to set the game to run using the ./SR2_pc.exe from the sliders menu (remember to Push X to Save). I also changed the ctroller settings to Keyboard & Mouse. You may want to change the resolution/scaling in game via Options.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Saints Row IV: Re-Elected",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/206420",
+    "notes": "Works out of the box",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Saints Row: Gat Out of Hell",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/301910",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Saints Row: The Third Remastered",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/978300",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Salt and Sanctuary",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/283640",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Sands of Aura",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "Scarf",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/645320",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Scorn",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/698670",
+    "notes": "May need C++ Runtime. Resolution wrong on launch but automatically set to correct one after opening settings menu.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Session: Skate Sim",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/861650",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Severance: Blade of Darkness",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1944520",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Shadow Tactics: Blades of the Shogun",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/418240",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Shadow of the Tomb Raider: Definitive Edition",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/750920",
+    "notes": "Set the graphics to medium, enable Exclusive full screen, turn on AMD FidelityFX, HDR and set refresh rate to 45.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Shadowrun Returns",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/234650",
+    "notes": "Change controls to map to mouse only.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Shadows Awakening",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/585450",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Shantae and the Pirate's Curse",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/345820",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Sherlock Holmes Chapter One",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1137300",
+    "notes": "Point and click - mouse controls.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Sherlock Holmes The Awakened (2024)",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1949030",
+    "notes": "Point and click - mouse controls.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Shores Unknown: Arrival (Demo)",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Showgun Showdown",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2084000",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Showgunners",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1155330",
+    "notes": "Set executable: ./ArtificerOne/Binaries/Win64/Showgunner-Win64-Shippng.exe",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Sifu",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2138710",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Sigma Theory: Global Cold War",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/716640",
+    "notes": "You need to change the controller mapping to keyboard & mouse.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Silent Hill 4: The Room",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "Tested with Proton 9.0-4",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "SimCity 3000 Unlimited",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2741560",
+    "notes": "Tested with Proton Experimental",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "SimCity 4 Deluxe",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/24780",
+    "notes": "Please refer to the help guide [here](https://wiki.junkstore.xyz/wiki/Help:Gog_Games/Working/SimCity_4_Deluxe)",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Sin Slayers: The First Sin",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Sir Whoopass: Immortal Death",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1240590",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Skul: The Hero Slayer",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1147560",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Skull & Bones",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2853730",
+    "notes": "Need to log in to download & login to Uplay. Toggle on BattlEye"
+  },
+  {
+    "title": "Sky Racket",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/994500",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "SkyDrift Infinity",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/827330",
+    "notes": "You need to verify this game with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "Slain Back From Hell",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/369070",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Snakebird Complete",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/357300",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Sniper Ghost Warrior Contracts",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/973580",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Solar Ash",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1867530",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Song of Saya",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/702050",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Sonic Mania",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/584400",
+    "notes": "Need to update the .ini file: Set windowed mode from Y to N & set resolution to 1280x800. Save settings."
+  },
+  {
+    "title": "Soulstice",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1602080",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "South Scrimshaw, Part 1",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "South of the Circle",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1811040",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Space Hulk: Deathwing - Enhanced Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/816090",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Spells and Secrets",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Spelunky",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/239350",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Spirit Mancer",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Spirit of the North",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1213700",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Star Stuff",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1955110",
+    "notes": "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "Star Wars Battlefront II (Classic, 2005)",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/6060",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Star Wars Jedi Knight: Dark Forces II",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/32380",
+    "notes": "You need to change controller mapping to keyboard & mouse and tweak the mapping.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Star Wars Knights of the Republic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Star Wars Rebellion",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/441550",
+    "notes": "You need to change to keyboard & mouse",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Star Wars: Bounty Hunter",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2419090",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Star Wars: Knights of the Old Republic",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/32370",
+    "notes": "Needs gamepad customization due to age; plays well."
+  },
+  {
+    "title": "SteamWorld Heist",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/322190",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "SteamWorld Heist II",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2396240",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "SteamWorld Quest: Hand of Gilgamech",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/804010",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "Stray Gods: The Roleplaying Musical",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1920780",
+    "notes": "If game doesn't launch try setting the .exe from sliders menu.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Stubbs the Zombie in Rebel Without a Pulse",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/7800",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Stumble Upon Rumble",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "Need account for this game. Need to change the controller mapping to keyboard and mouse.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Styx: Master of Shadows",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/242640",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Styx: Shards of Darkness",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/355790",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Suicide Squad: Kill the Justice League",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/315210",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Sunless Skies: Sovereign Edition",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/596970",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Sunrider: Mask of Arcadius",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/313730",
+    "notes": "Change controller mapping to keyboard & mouse.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Super Crazy Rhythm Castle",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1812560",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Super Meat Boy",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/40800",
+    "notes": "Does have an audio issue that you need to install xact and d3dx9.27 to fix.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Super Meat Boy Forever",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/581660",
+    "notes": "Does have an audio issue that you need to install xact and d3dx9.27 to fix.",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "Super Space Club",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1100290",
+    "notes": "Verify with Epic account after that works out of the box with native controller support.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Surviving the Aftermath",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/684450",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. You do need to create an account with Paradox.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Syberia: The World Before",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1410640",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Symphonia",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1865960",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. Student Project, 2020.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "TMNT: Shredder's Revenge",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1361510",
+    "notes": "May need to install C++ Runtime",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "TOEM: A Photo Adventure",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1307580",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "TOEM: A Photo Adventure",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1307580",
+    "notes": "Works out of the box",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "TRIB3",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/TRIB3)",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Tales from the Borderlands",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/330830",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Talisman: Digital Classic Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/247000",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Tandem A Tale of Shadows",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1436920",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Tannenberg",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/633460",
+    "notes": "Need to verify with Epic account"
+  },
+  {
+    "title": "Tchia",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1496590",
+    "notes": "Install C++ Runtime",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "TerraTech",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/285920",
+    "notes": "Need to verify with your Epic account (I had to do this in desktop/BPM) & change controller mapping",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Terraformers: First Steps on Mars",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1557040",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Terraforming Mars",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/800270",
+    "notes": "Need to change controller layout"
+  },
+  {
+    "title": "Terroir",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/559910",
+    "notes": "Need to change to keyboard and mouse layout",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Tetris Effect",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1003590",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Tharsis",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/323060",
+    "notes": "Need to verify with Epic account (I had to do this in desktop/BPM)"
+  },
+  {
+    "title": "The Abandoned Planet",
+    "protondb": "",
+    "storefront": "Amazon",
+    "notes": "Point and click game so will need to change the controller settings.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "The Alto Collection",
+    "protondb": "https://www.protondb.com/app/2837600",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "The Bridge",
+    "notes": "Need to authorize in web browser first. <strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/204240",
+    "storefront": "Epic",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "The Callisto Protocol",
+    "notes": "Install C++ Runtime Dependency",
+    "protondb": "https://www.protondb.com/app/1544020",
+    "storefront": "Epic",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "The Captain",
+    "notes": "Need to change controller mapping to mouse and Keyboard",
+    "protondb": "https://www.protondb.com/app/1721530",
+    "storefront": "Epic",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "The Collage Atlas",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "The Coma - Recut",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/600090",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "The Coma 2: Vicious Sisters",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1045720",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "The Dark Eye: Chains of Satinav",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/203830",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "The Darkest Tales - Into the Nightmare",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1307690",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "The Drone Racing League Simulator",
+    "notes": "Need to verify with your Epic account and change controller mapping",
+    "protondb": "https://www.protondb.com/app/641780",
+    "storefront": "Epic",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "The Dungeon of Naheulbeuk: The Amulet of Chaos",
+    "notes": "Change controller mapping to gamepad and joystick",
+    "protondb": "https://www.protondb.com/app/the-dungeon-of-naheulbeuk",
+    "storefront": "Epic",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "The Escapists",
+    "notes": "You need to tweak controller layout.",
+    "protondb": "https://www.protondb.com/app/298630",
+    "storefront": "Epic",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "The Eternal Cylinder",
+    "notes": "Install C++ Runtime Dependency otherwise no extra setup required.",
+    "protondb": "https://www.protondb.com/app/865680",
+    "storefront": "Epic",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "The Falconeer",
+    "protondb": "https://www.protondb.com/app/1135260",
+    "storefront": "Epic",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "The Falconeer",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1135260",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "The Feast",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2221940",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "The First Templar - Special Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/57680",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "The Forest Quartet",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "https://www.protondb.com/app/1620720",
+    "storefront": "Epic",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "The Gap",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "The Gunk",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1087760",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "The Hitman 3: World of Assassination",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1659040",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. ReShade & LukeFZ's FSR frame generation mod work too.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "The Knights of the Old Republic II: The Sith Lords",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/208580",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "The Last Show of Mr Cavendish",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1164060",
+    "notes": "Install C++ runtime.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "The Last Spell",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1105670",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "The Last Stand: Aftermath",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1266840",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "The Life & Suffering of Sir Brante - Chapter 1 & 2",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1460090",
+    "notes": "Need to change to keyboard and mouse layout.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "The Lord of the Rings: Return to Moria",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2933130",
+    "notes": "Install C++ Runtime, once installed no extra setup required.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "The Operator",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1771980",
+    "notes": "Works out of the box",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "The Outer Worlds: Spacer's Choice Edition",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1920490",
+    "notes": "May have stability issues"
+  },
+  {
+    "title": "The Outerworlds",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/578650",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "The Saboteur",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/24880",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "The Silent Age",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/352520",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "The Smurfs 2: The Prisoner of the Green Stone",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2397500",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "The Spirit & the Mouse",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1679210",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "The Supper",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1171370",
+    "notes": "Change to mouse & keyboard.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "The Talos Principle: Gold Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/257510",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "The Town of Light",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/433100",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "The Vanishing of Ethen Carter",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/258520",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "The Walking Dead No Man's Land",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2936310",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "The Whispered: Special Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/268540",
+    "notes": "Need to change controller mapping to mouse and Keyboard.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "The Whisperer",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2329580",
+    "notes": "Change controller mapping.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "The Witcher 3: Complete Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/292030",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "The Witcher: Enhanced Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/20900",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. Need v0.1.8 of the Gog extension.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "The Wolf Among Us",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/250320",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Thea 2: The Shattering",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/606230",
+    "notes": "Change controller mapping.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Them's Fightin' Herds",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/574980",
+    "notes": "You need to install DirectX components. Has native controller support.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Thief II: The Metal Age",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/211740",
+    "notes": "You need to change controller to Keyboard & Mouse.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Thronebreaker: The Witcher Tales",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/973760",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Through the Darkest of Times",
+    "notes": "Need to change to keyboard & mouse layout.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Time Loader: First Memories",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1421970",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "TimeShift",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/10130",
+    "notes": "Use alternate executable: `./bin/TimeShift.exe`. Tested with Proton 9.0-4",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Tiny Robots Recharged",
+    "notes": "Need to change to keyboard & mouse layout.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Tiny Tina's Wonderland",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1286680",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "To the Rescue: A Dog Shelter Simulator",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/946720",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "ToeJam & Earl: Back in the Groove!",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/516110",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "June '24"
+  },
+  {
+    "title": "Tomb Raider Chronicles",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/225000",
+    "notes": "Requires controller and scaling tweaks via QAM.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Tomb Raider GAME OF THE YEAR EDITION",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/750920",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Tomb Raider I-III Remastered Starring Lara Croft",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2478970",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. May need to tweak key bindings.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Tomb Raider: Anniversary",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/8000",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Tomb Raider: Legend",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/7000",
+    "notes": "Use GE-Proton7-37; configure screen size in game settings.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Tomb Raider: The Last Revelation + Chronicles",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/224980",
+    "notes": "Needs controller mapping tweaks"
+  },
+  {
+    "title": "Tomb Raider: Underworld",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/8140",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Tony Hawk's Pro Skater 1+2",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2395210",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Totally Reliable Delivery Service",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1011670",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Touch Type Tale",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/909470",
+    "notes": "Works out of the box but you need to change controller layout to Keyboard & Mouse. While it works on the Steam Deck you'll be better off playing with an external keyboard, was a pain testing using the on screen keyboard.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Trackmania Starter Access",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2225070",
+    "notes": "Need to download & log in to Uplay"
+  },
+  {
+    "title": "Train Sim World® 5",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2967990",
+    "notes": "Install C++ Runtime",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Train Valley 2",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/602320",
+    "notes": "Need to change the controller layout",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Transistor",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/237930",
+    "notes": "VC 2010/2012 Redists, DirectX Jun 2010 Redist",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Trek to Yomi",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1370050",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. Tested with GE-Proton 9.2. Text is a little hard to read.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Trinity Fusion",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1911360",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Tropico 4",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/57690",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Troublemaker",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1498740",
+    "notes": "Works out of the box with native controller support.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Truberbrook",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/757300",
+    "notes": "Change to keyboard and mouse."
+  },
+  {
+    "title": "Tunche",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/887450",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed. Make sure you enable the EOS overlay.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Turmoil",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/361280",
+    "notes": "Need to verify with Epic account and change controller mapping to mouse and keyboard.",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "Turnip Boy Commits Tax Evasion",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1205450",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Two Point Hospital",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "You need to change your controller layout and may need to verify with your Epic account.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Under the Moon",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1945780",
+    "notes": "Needs C++ runtime and controller config.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Undying",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/638990",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Feb '25"
+  },
+  {
+    "title": "Unrailed",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1016920",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Vambrace: Cold Soul",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/904380",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "Vampire Survivors",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1794680",
+    "notes": "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Vampire: The Masquerade - Bloodlines",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2600",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "Vampire: The Masquerade - Coteries of New York",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1096410",
+    "notes": "Tested with Proton Experimental",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Venetica: Gold Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/338140",
+    "notes": "Change controller mapping.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Vlad Circus",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Void Bastards",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/857980",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Voidbound",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/2500710",
+    "notes": "No native controller support.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Warhammer 40,000: Dawn of War II",
+    "notes": "Need to change to keyboard & mouse layout.",
+    "protondb": "",
+    "storefront": "Amazon",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Warhammer 40,000: Fire Team",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "Change controller layout.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Warhammer 40,000: Gladius - Relics of War",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/489630",
+    "notes": "Need to change to keybouard and mouse layout.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Warhammer 40,000: Mechanicus - Standard Edition",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/673880",
+    "notes": "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Warhammer 40,000: Rites of War",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "You need to change controller to Keyboard & Mouse.",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "Warhammer 40,000: Rogue Trader",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Warpips",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1291010",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Wasteland 3",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/719040",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Weird West",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1097350",
+    "notes": "Install C++ Runtime, otherwise no extra setup required.",
+    "date_tested": "July '24"
+  },
+  {
+    "title": "What Remains of Edith Finch",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/501300",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "May '24"
+  },
+  {
+    "title": "Whispering Willows",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/288060",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Wild Country",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1515000",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "April '25"
+  },
+  {
+    "title": "Wildcat Gun Machine",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1288610",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Witch It",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/559650",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "Wizard of Legend",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/445980",
+    "notes": "You may need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "Wolfenstein: The New Order",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/201810",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Wonder Boy The Dragons Trap",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/543260",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "World War Z",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/699130",
+    "notes": "Need to use Keyboard & Mouse layout.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "World in Conflict: Complete Edition",
+    "storefront": "GOG",
+    "protondb": "",
+    "notes": "Works perfectly when you change the controls to mouse and keyboard",
+    "date_tested": "May '25"
+  },
+  {
+    "title": "World of Warships",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/552990",
+    "notes": "Change controller mapping",
+    "date_tested": "Aug '24"
+  },
+  {
+    "title": "Worms Revolution Gold Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/200170",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "X-Morph: Defense Complete Edition",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/408410",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "XIII",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1154790",
+    "notes": "Mouse & Keyboard only.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Yakuza 0",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/638970",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Yakuza Kiwami (Yakuza 1)",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/834530",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Oct '24"
+  },
+  {
+    "title": "Yes, Your Grace",
+    "storefront": "GOG",
+    "protondb": "https://www.protondb.com/app/1115690",
+    "notes": "Need to change controller mapping to keyboard & mouse.",
+    "date_tested": "March '25"
+  },
+  {
+    "title": "Yooka-Laylee and the Impossible Lair",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/846870",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Sept '24"
+  },
+  {
+    "title": "Zenless Zone Zero",
+    "storefront": "Epic",
+    "protondb": "",
+    "notes": "I had to set this exe (sliders menu - run exe) Push X to Save: <strong>./games/ZenlessZoneZeroGame/ZenlessZoneZero.exe</strong>",
+    "date_tested": "July '25"
+  },
+  {
+    "title": "Zombie Army 4: Dead War",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/694280",
+    "notes": "<strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Jan '25"
+  },
+  {
+    "title": "[REDACTED]",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/2229940",
+    "notes": "Need to install C++ Runtime & verify it with your Epic account.",
+    "date_tested": "Dec '24"
+  },
+  {
+    "title": "shapez",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/1318690",
+    "notes": "Need to change controller mapping to keyboard & mouse.",
+    "date_tested": "Nov '24"
+  },
+  {
+    "title": "while True: learn()",
+    "storefront": "Epic",
+    "protondb": "https://www.protondb.com/app/619150",
+    "notes": "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
+    "date_tested": "Nov '24"
+  }
+]

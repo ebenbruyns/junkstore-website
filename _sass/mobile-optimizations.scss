@@ -1,0 +1,257 @@
+/* Mobile-First Optimizations for Junk Store Website */
+/* Focused on 60% mobile traffic conversion optimization */
+
+/* ==========================================================================
+   Mobile-First Critical Path Rendering
+   ========================================================================== */
+
+/* Optimize for mobile-first loading */
+@media (max-width: 768px) {
+  /* Prevent layout shifts during load */
+  .page__hero,
+  .seo-intro,
+  .problem-solution,
+  .key-features {
+    min-height: auto;
+    visibility: visible;
+  }
+
+  /* Optimize mobile typography for readability */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /* Enhanced mobile spacing for better UX */
+  .page {
+    padding: 0;
+  }
+
+  .page__content {
+    padding: 0 1rem;
+  }
+
+  /* Mobile-optimized section spacing */
+  section {
+    margin-bottom: 2rem;
+  }
+
+  /* Optimize images for mobile loading */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  /* Mobile-specific animations */
+  .feature:hover {
+    animation: none; /* Disable hover animations on mobile */
+  }
+
+  .feature:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+  }
+}
+
+/* ==========================================================================
+   Mobile Navigation Enhancements
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  /* Optimize navigation for one-handed use */
+  .masthead {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+  }
+
+  /* Ensure all interactive elements meet accessibility standards */
+  .greedy-nav__toggle,
+  .search__toggle,
+  .button,
+  .btn {
+    min-width: 44px;
+    min-height: 44px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* ==========================================================================
+   Mobile Conversion Optimization
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  /* Optimize hero section for mobile conversion */
+  .page__hero {
+    padding: 1.5rem 1rem 2.5rem 1rem;
+    text-align: center;
+  }
+
+  /* Enhance mobile CTA visibility */
+  .buy-button,
+  .pricing-cta .button {
+    background-color: #28a745;
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+    font-weight: 700;
+    transform: translateZ(0);
+  }
+
+  /* Mobile-specific testimonials optimization */
+  .testimonials-section {
+    padding: 2rem 1rem;
+  }
+
+  .testimonial-item {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+/* ==========================================================================
+   Mobile Performance Optimizations
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  /* GPU acceleration for smooth scrolling */
+  .homepage-section,
+  .feature,
+  .pricing-highlight,
+  .testimonial-item {
+    transform: translateZ(0);
+    will-change: transform;
+  }
+
+  /* Optimize mobile scroll performance */
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Reduce motion for better performance and accessibility */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Touch feedback optimization */
+  .button:active,
+  .btn:active,
+  .feature:active {
+    transform: scale(0.98) translateZ(0);
+    transition: transform 0.1s ease;
+  }
+}
+
+/* ==========================================================================
+   Mobile Content Optimization
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  /* Optimize content readability */
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+  }
+
+  h1, h2, h3 {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  /* Mobile-friendly spacing */
+  .content-box,
+  .faq-box,
+  .troubleshooting-box {
+    margin: 1rem 0;
+    padding: 1.25rem;
+    border-radius: 8px;
+  }
+
+  /* Optimize lists for mobile */
+  ul, ol {
+    padding-left: 1.5rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* ==========================================================================
+   Mobile Form and Input Optimization
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  /* Optimize form inputs for mobile */
+  input, textarea, select {
+    font-size: 16px; /* Prevent zoom on iOS */
+    padding: 0.75rem;
+    border-radius: 6px;
+  }
+
+  /* Search functionality mobile optimization */
+  .search__toggle {
+    touch-action: manipulation;
+  }
+}
+
+/* ==========================================================================
+   Very Small Mobile Devices (< 480px)
+   ========================================================================== */
+
+@media (max-width: 480px) {
+  /* Extra small screen optimizations */
+  .page__hero .page__title {
+    font-size: 1.6rem !important;
+  }
+
+  .features-grid {
+    gap: 1rem;
+  }
+
+  .feature {
+    padding: 1rem 0.75rem;
+  }
+
+  .pricing-highlight {
+    margin: 1rem 0.25rem;
+  }
+
+  /* Optimize buttons for smallest screens */
+  .button,
+  .btn {
+    font-size: 1rem;
+    padding: 1rem 1.25rem;
+  }
+}
+
+/* ==========================================================================
+   Landscape Mobile Optimization
+   ========================================================================== */
+
+@media (max-width: 768px) and (orientation: landscape) {
+  /* Optimize for landscape mobile browsing */
+  .page__hero {
+    min-height: 50vh;
+    padding: 1rem 1rem 1.5rem 1rem;
+  }
+
+  .masthead {
+    position: sticky;
+    top: 0;
+  }
+
+  /* Optimize navigation for landscape */
+  .hidden-links {
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+}
