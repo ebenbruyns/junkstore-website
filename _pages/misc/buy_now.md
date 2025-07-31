@@ -37,7 +37,6 @@ header:
     <p class="price-text"><strong>Less than $1 per week</strong> for unlimited Epic, GOG & Amazon gaming without Desktop Mode frustration</p>
     <p class="trial-text"><strong>7 full days free to try everything</strong> • Only charged if you keep it • Cancel anytime</p>
     <p class="value-text">💯 <strong>Start Your Risk-Free Trial:</strong> Immediate access to all features and platforms with easy cancellation if it's not the perfect fit</p>
-    <p class="discount-text">💰 Use code <strong>EarlyBird</strong> for 25% off until July&nbsp;31,&nbsp;2025</p>
     <p class="fence-text">Transform your Steam Deck experience today with the only Game Mode-native solution.</p>
     <div class="pricing-cta">
       <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Sign Up Now</a>
