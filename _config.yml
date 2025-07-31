@@ -172,3 +172,7 @@ enable_copy_code_button: true
 
 google_analytics:
   id: "G-E2Y00GCMSG" # replace with your actual Google Analytics Measurement ID
+
+# Footer scripts (loads after main analytics)
+after_footer_scripts:
+  - /assets/js/conversion-tracking.js
