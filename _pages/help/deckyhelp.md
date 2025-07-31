@@ -50,21 +50,9 @@ header:
 
   <!-- Troubleshooting -->
   <div class="content-box troubleshooting">
-    <h3>Decky Plugin Troubleshooting</h3>
-    <p>Tips, tricks, and workarounds for common issues.</p>
-    <a href="{{ '/troubleshooting/plugin' | relative_url }}" class="button">Plugin Troubleshooting</a>
-  </div>
-
-  <div class="content-box troubleshooting">
-    <h3>Epic Games Troubleshooting</h3>
-    <p>Having issues with your Epic Games library? Check here for fixes to login problems, launch errors, and more.</p>
-    <a href="{{ '/troubleshooting/epic' | relative_url }}" class="button">Epic Troubleshooting</a>
-  </div>
-
-  <div class="content-box troubleshooting">
-    <h3>Gog Troubleshooting</h3>
-    <p>Running into trouble with your GOG setup? This guide helps you diagnose and resolve common issues fast.</p>
-    <a href="{{ '/troubleshooting/gog' | relative_url }}" class="button">Gog Troubleshooting</a>
+    <h3>Complete Decky Plugin Troubleshooting</h3>
+    <p>Complete troubleshooting guide covering general plugin issues, Epic Games integration, and GOG extension problems all in one place.</p>
+    <a href="{{ '/troubleshooting/decky/' | relative_url }}" class="button">Complete Troubleshooting Guide</a>
   </div>
 
   <!-- Tutorials -->
