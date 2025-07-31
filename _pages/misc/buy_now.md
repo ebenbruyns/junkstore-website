@@ -1,6 +1,7 @@
 ---
 layout: splash
-title: "Junk Store 2.0"
+title: "Buy Junk Store 2.0 - Steam Deck App for Epic, GOG & Amazon Games"
+description: "Download Junk Store 2.0 standalone app for Steam Deck. $40/year with 7-day trial. No Decky required - install Epic, GOG & Amazon directly in Game Mode."
 permalink: /buy_now/
 header:
   overlay_color: "#000"
@@ -12,42 +13,55 @@ header:
       class: "button buy-button"
       target: "_blank"
 ---
-<div class="spacer mt-4"></div>
+
+<h1>Transform Your Steam Deck Into a Unified Gaming Hub</h1>
+
+<section class="seo-intro">
+  <p><strong>The ONLY solution that eliminates Desktop Mode switching entirely.</strong> While other launchers require Desktop Mode management, Junk Store 2.0 delivers the true handheld gaming freedom your Steam Deck was designed for.</p>
+</section>
 
 {% include testimonials.html %}
 
-<h1>🎉 Junk Store 2.0 is finally here!</h1>
-Junk Store 2.0 is now available for purchase.
+<section class="key-features">
+  <h2>Why Junk Store 2.0 Is Worth the Investment</h2>
+  <div class="features-grid">
+    <div class="feature">💾 <strong>Endless Customization</strong><br><span class="feature-detail">Deep game configuration, customize existing extensions, or create entirely new ones for any platform</span></div>
+    <div class="feature">⚡ <strong>Professional Reliability</strong><br><span class="feature-detail">Fast updates, dedicated support, and continuous improvements — because your gaming time is valuable</span></div>
+    <div class="feature">🎯 <strong>True Steam Integration</strong><br><span class="feature-detail">Games launch directly through Steam with native-like experience — no background launchers draining performance</span></div>
+  </div>
+</section>
 
-<p>A single $40 yearly license gives you everything — updates, features, support, and peace of mind — plus a <strong>7-day free trial</strong> so you can try everything risk-free.</p>
+<section class="pricing-highlight">
+  <div class="pricing-box">
+    <h3>🚀 Get Everything for $40/Year</h3>
+    <p class="price-text"><strong>Less than $1 per week</strong> for unlimited Epic, GOG & Amazon gaming without Desktop Mode frustration</p>
+    <p class="trial-text"><strong>7 full days free to try everything</strong> • Only charged if you keep it • Cancel anytime</p>
+    <p class="value-text">💯 <strong>Start Your Risk-Free Trial:</strong> Immediate access to all features and platforms with easy cancellation if it's not the perfect fit</p>
+    <p class="fence-text">Transform your Steam Deck experience today with the only Game Mode-native solution.</p>
+    <div class="pricing-cta">
+      <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Sign Up Now</a>
+      <a href="/get_started/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_getting_started" data-label="buy_now_page_secondary">Getting Started Guide</a>
+    </div>
+  </div>
+</section>
 
+<section class="competitive-comparison">
+  <h3>💡 Previous Supporter?</h3>
+  <div class="comparison-grid">
+    <div class="comparison-item">
+      <p>If you've supported us on Ko-fi or Patreon before, use your same email address for automatic access to your existing benefits.</p>
+      <p><strong>Need help?</strong> Contact us via <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a>, or reach out through the same platform where you originally supported us (Patreon or Ko-fi) to ensure a smooth transition.</p>
+    </div>
+  </div>
+</section>
 
-<h3>This is the biggest upgrade we’ve ever done:</h3>
-<ul>
-    <li>⚡ Faster everything — UI, extension generation, and library loading</li>
-    <li>🎮 Unified launcher for all your games</li>
-    <li>🧠 One-click automation for generating entire libraries</li>
-    <li>💾 Automatic migration of saves, settings, and install data</li>
-</ul>
+<section class="competitive-comparison">
+  <div class="comparison-grid">
+    <div class="comparison-item">
+      <p>💬 Join us on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a></p>
+      <p>📎 View the <a href="/get_started/" target="_blank" rel="noopener">Getting Started Guide</a></p>
+    </div>
+  </div>
+</section>
 
-✅ Your 7-day free trial starts now — and any discount tied to your previous support is already applied at checkout.
-<li>💸 Use code <span style="color: green; font-weight: bold;">EarlyBird</span> at checkout for <strong>25% off</strong> — valid until <strong>July 31, 2025</strong></li>
-<li>⚠️ Spots are limited — we’ll close signups temporarily once we hit our support capacity.</li>
-<li>🕒 Heads-up: If you cancel your trial, your discount won’t carry over.</li><br>
- This isn’t a pressure tactic — we just don’t have the bandwidth right now to automate discount tracking across cancellations. Thanks for understanding while we scale.
-<br>
-<br>
-💬 Join us on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a><br>
-📎 View the <a href="/get_started/" target="_blank" rel="noopener">Getting Started Guide</a>
-
-<p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
-📧 <strong>Important:</strong>
-If you’ve contributed before or purchased the GOG extension, make sure to <em>reset your password using the <strong>same email</strong> you used on Ko-fi or Patreon.</em>
-<br>
-Can’t access that email? Contact us via <a href="https://www.patreon.com/junkstore" target="_blank" rel="noopener">Patreon</a> or <a href="https://ko-fi.com/junkstore" target="_blank" rel="noopener">Ko-fi</a> and we’ll help you get sorted.
-</p>
-
-<div style="text-align: center; margin-top: 2rem;">
-  <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button">Sign Up Now</a>
-</div>
 

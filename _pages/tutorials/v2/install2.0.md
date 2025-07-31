@@ -13,6 +13,11 @@ header:
 <div class="spacer mt-4"></div>
 
   <h3>How to download and install Junk Store Pro</h3>
+  
+  **Need help after installation?**
+  - **Common questions:** [Frequently Asked Questions](/2.0faq/)
+  - **Technical issues:** [Troubleshooting Guide](/2.0troubleshooting/)
+  
   If you prefer a video tutorial you can find one here: <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener">How to Install Junk Store 2.0 on Steam Deck (Epic, Gog, Amazon)</a>
   <ol>
       <li><strong>Download the latest <code>js_pro</code></strong></li>
