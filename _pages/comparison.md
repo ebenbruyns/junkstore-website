@@ -44,8 +44,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
   <h2>Complete Feature Comparison</h2>
   <p class="table-intro">Every feature comparison includes live demonstrations. Hover over "👁️ Hover to view" to see the functionality in action.</p>
   
-  <div class="table-container">
-    <table class="comparison-table">
+  <table class="comparison-table">
       <thead>
         <tr>
           <th>Feature</th>
@@ -205,8 +204,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td>🧠 Generated Templates + Hooks</td>
         </tr>
       </tbody>
-    </table>
-  </div>
+  </table>
 </section>
 
 <section class="upgrade-benefits">
@@ -245,8 +243,8 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
     <div class="price-comparison">
       <div class="price-option">
         <h3>Free Decky Plugin</h3>
-        <p class="price">$0</p>
-        <p>Perfect for trying the concept</p>
+        <p class="price">$0</p><br>
+        <p><strong>Perfect for trying the concept</strong></p>
         <ul>
           <li>Epic Games support</li>
           <li>Community-driven updates</li>
