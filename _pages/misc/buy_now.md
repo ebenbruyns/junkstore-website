@@ -17,49 +17,142 @@ header:
 
 {% include testimonials.html %}
 
-<h1>🎉 The ONLY Game Mode solution is here!</h1>
+<h1>Transform Your Steam Deck Into a Unified Gaming Hub</h1>
 
-**Never leave Game Mode again.** While other launchers require switching to Desktop Mode, Junk Store 2.0 keeps you in your Steam Deck's natural handheld environment.
+**The ONLY solution that eliminates Desktop Mode switching entirely.** While other launchers require constant Desktop Mode management, Junk Store 2.0 delivers true handheld gaming freedom.
 
-<p>A single $40 yearly license gives you everything — updates, features, support, and peace of mind — plus a <strong>7-day free trial</strong> so you can try everything risk-free.</p>
+<section class="value-proposition">
+  <h2>Why Junk Store 2.0 Is Worth the Investment</h2>
+  <div class="value-grid">
+    <div class="value-point">
+      <strong>🎮 Never Leave Game Mode</strong><br>
+      Complete Epic, GOG & Amazon game management without Desktop Mode switching — a capability no free alternative can match
+    </div>
+    <div class="value-point">
+      <strong>⚡ Professional Reliability</strong><br>
+      Fast updates, dedicated support, and continuous improvements — because your gaming time is valuable
+    </div>
+    <div class="value-point">
+      <strong>🎯 True Steam Integration</strong><br>
+      Games launch directly through Steam with native-like experience — no background launchers draining performance
+    </div>
+    <div class="value-point">
+      <strong>🧠 Effortless Setup</strong><br>
+      One-click library automation saves hours of manual configuration per platform
+    </div>
+  </div>
+</section>
 
-
-<h3>Why choose the Game Mode solution:</h3>
-<ul>
-    <li>🎮 **Game Mode native** — Controller-friendly interface, no Desktop Mode required</li>
-    <li>⚡ **Faster everything** — UI, extension generation, and library loading</li>
-    <li>🎯 **Unified launcher** — All your Epic, GOG & Amazon games in one place</li>
-    <li>🧠 **One-click automation** — Generate entire libraries without complexity</li>
-    <li>💾 **Seamless migration** — Automatic transfer of saves, settings, and install data</li>
-</ul>
-
-✅ Your 7-day free trial starts now — and any discount tied to your previous support is already applied at checkout.
-<li>💸 Use code <span style="color: green; font-weight: bold;">EarlyBird</span> at checkout for <strong>25% off</strong> — valid until <strong>July 31, 2025</strong></li>
-<li>⚠️ Spots are limited — we’ll close signups temporarily once we hit our support capacity.</li>
-<li>🕒 Heads-up: If you cancel your trial, your discount won’t carry over.</li><br>
- This isn’t a pressure tactic — we just don’t have the bandwidth right now to automate discount tracking across cancellations. Thanks for understanding while we scale.
+<section class="pricing-value">
+  <h2>Get Everything for $40/Year</h2>
+  <p><strong>Less than $1 per week</strong> for unlimited Epic, GOG & Amazon gaming without Desktop Mode frustration.</p>
+  
+  <div class="trial-benefits">
+    <h3>🚀 Start Your Risk-Free Trial Today</h3>
+    <ul class="benefit-list">
+      <li>✅ <strong>7 full days</strong> to experience the Game Mode difference</li>
+      <li>✅ <strong>Immediate access</strong> to all features and platforms</li>
+      <li>✅ <strong>Easy cancellation</strong> if it's not the perfect fit</li>
+      <li>✅ <strong>Early Bird savings:</strong> 25% off with code <span class="discount-code">EarlyBird</span> (expires July 31)</li>
+    </ul>
+  </div>
+</section>
 <br>
 <br>
 💬 Join us on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a><br>
 📎 View the <a href="/get_started/" target="_blank" rel="noopener">Getting Started Guide</a>
 
-<p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
-📧 <strong>Important:</strong>
-If you’ve contributed before or purchased the GOG extension, make sure to <em>reset your password using the <strong>same email</strong> you used on Ko-fi or Patreon.</em>
-<br>
-Can’t access that email? Contact us via <a href="https://www.patreon.com/junkstore" target="_blank" rel="noopener">Patreon</a> or <a href="https://ko-fi.com/junkstore" target="_blank" rel="noopener">Ko-fi</a> and we’ll help you get sorted.
-</p>
+<section class="support-info">
+  <h3>💡 Previous Supporter?</h3>
+  <p>If you've supported us on Ko-fi or Patreon before, use your same email address for automatic access to your existing benefits.</p>
+  <p><strong>Need help?</strong> Our support team is standing by via <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a> to ensure a smooth transition.</p>
+</section>
 
 <div style="text-align: center; margin-top: 2rem;" class="mobile-cta-container">
   <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button">Sign Up Now</a>
 </div>
 
 <style>
+.value-proposition {
+  margin: 2rem 0;
+  max-width: 1200px;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.value-point {
+  background: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.pricing-value {
+  background: linear-gradient(135deg, #2d4a3e 0%, #1f1f1f 100%);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+  max-width: 1200px;
+}
+
+.trial-benefits {
+  margin-top: 1.5rem;
+}
+
+.benefit-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.benefit-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.discount-code {
+  background: #4a7c59;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.support-info {
+  background: #2a2a2a;
+  border-left: 4px solid #4a7c59;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 8px 8px 0;
+}
+
 .mobile-cta-container {
   padding: 1rem;
 }
 
 @media (max-width: 768px) {
+  .value-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .value-point {
+    padding: 1.2rem;
+  }
+  
+  .pricing-value {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  
   .mobile-cta-container {
     padding: 1.5rem 1rem;
   }
