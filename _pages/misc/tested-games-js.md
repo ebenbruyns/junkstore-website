@@ -12,8 +12,33 @@ header:
 
 {% assign featured_games = site.data.featured_games %}
 
+<div class="feature-box">
+  <h3>🆕 Recently Tested</h3>
+  <div class="featured-row">
+    {% assign sorted_games = featured_games | sort: 'title' %}
+    {% assign short_games = sorted_games | where_exp: "game", "game.title.size <= 15" %}
+    {% assign long_games = sorted_games | where_exp: "game", "game.title.size > 15" %}
+    {% for game in short_games %}
+      <div class="featured-entry">
+        <a href="#{{ game.title | slugify }}-{{ game.storefront | slugify }}">{{ game.title }}</a>
+        <span class="store-badge {{ game.storefront | downcase }}">{{ game.storefront }}</span>
+      </div>
+    {% endfor %}
+    {% for game in long_games %}
+      <div class="featured-entry">
+        <a href="#{{ game.title | slugify }}-{{ game.storefront | slugify }}">{{ game.title }}</a>
+        <span class="store-badge {{ game.storefront | downcase }}">{{ game.storefront }}</span>
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
-<p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
+<script>
+// Embed featured games data from Jekyll
+window.featuredGamesData = {{ site.data.featured_games | jsonify }};
+</script>
+
+<p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 5px;">
   <strong>Note:</strong> Games tested by the Junk Store team use <strong>GE-Proton 9-20</strong>, as it consistently provides the best out-of-the-box compatibility.<br>
   To use the <strong>EOS overlay</strong> with Epic Games, you'll need <strong>GE-Proton 10.2 or newer</strong>.<br>
   Games that require a specific Proton version will have it listed in the <strong>Notes</strong> column.
