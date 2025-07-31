@@ -1,0 +1,220 @@
+/* Pricing highlight section styling */
+.pricing-highlight {
+  background-color: #1e2a38;
+  padding: 1rem 1rem 2.5rem 1rem;
+  margin: 2rem 0;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 300px;
+}
+
+.pricing-box {
+  max-width: 500px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.pricing-box h3 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #66bfff;
+  font-weight: bold;
+}
+
+.price-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.trial-text {
+  font-size: 1rem;
+  color: #cceeff;
+  margin-bottom: 0.75rem;
+  font-weight: 400;
+}
+
+.discount-text {
+  font-size: 0.9rem;
+  color: #28a745;
+  background-color: rgba(40, 167, 69, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #28a745;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.fence-text {
+  font-size: 1rem;
+  color: #cceeff;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pricing-cta {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing-cta .button {
+  font-size: 1rem;
+  padding: 0.875rem 1.75rem; /* Match base button padding */
+  white-space: nowrap;
+  line-height: 1.4; /* Match base button line-height */
+  text-align: center;
+  display: inline-flex; /* Consistent with base button */
+  align-items: center;
+  justify-content: center;
+  min-height: 44px; /* Match base button min-height */
+  box-sizing: border-box; /* Consistent sizing calculation */
+}
+
+.pricing-cta .button-secondary {
+  background-color: #007acc;
+  border: none;
+  color: #fff;
+  padding: 0.875rem 1.75rem; /* Match base button padding */
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  display: inline-flex; /* Consistent with base button */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  min-height: 44px; /* Match base button min-height */
+  line-height: 1.4; /* Match base button line-height */
+  box-sizing: border-box; /* Consistent sizing calculation */
+}
+
+.pricing-cta .button-secondary:hover {
+  background-color: #005f99;
+  color: #fff;
+}
+
+/* Value proposition enhancement */
+.value-text {
+  font-size: 1rem;
+  color: #cceeff;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 1rem;
+  background-color: rgba(102, 191, 255, 0.1);
+  border-radius: 6px;
+  border: 1px solid rgba(102, 191, 255, 0.2);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .pricing-highlight {
+    padding: 2rem 1rem;
+    margin: 1.5rem 0.5rem;
+    border-radius: 12px; /* Larger radius for mobile friendliness */
+    /* Enhance mobile visual impact */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    border: 2px solid #444;
+  }
+  
+  .pricing-box {
+    max-width: 100%;
+    padding: 0 0.5rem;
+  }
+  
+  .pricing-box h3 {
+    font-size: 1.7rem; /* Larger for mobile impact */
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .price-text {
+    font-size: 1.4rem; /* Larger price for mobile visibility */
+    margin-bottom: 0.5rem;
+  }
+  
+  .trial-text {
+    font-size: 1.1rem; /* Larger trial text for mobile readability */
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  .value-text {
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  .discount-text {
+    font-size: 1rem; /* Larger discount text for mobile visibility */
+    padding: 0.75rem 1rem;
+    margin: 1rem auto;
+    max-width: 280px;
+    font-weight: 600; /* Bolder for mobile impact */
+  }
+  
+  .fence-text {
+    font-size: 1.1rem; /* Larger fence text for mobile */
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+    padding: 0 0.5rem;
+  }
+  
+  .pricing-cta {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .pricing-cta .button,
+  .pricing-cta .button-secondary {
+    width: 100%;
+    max-width: 280px;
+    margin: 0.75rem 0;
+    padding: 1.1rem 1.5rem; /* Match base mobile button padding */
+    font-size: 1.1rem; /* Match base mobile button font size */
+    min-height: 50px; /* Match base mobile button min-height */
+    border-radius: 8px;
+    font-weight: 600;
+    /* Enhanced mobile interaction feedback */
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; /* Consistent sizing calculation */
+    white-space: nowrap;
+  }
+
+  .pricing-cta .button {
+    min-height: 50px; /* Match base mobile button min-height */
+    font-weight: 700;
+    background-color: #28a745;
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
+  }
+
+  .pricing-cta .button:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(40, 167, 69, 0.4);
+  }
+
+  .pricing-cta .button-secondary:active {
+    transform: scale(0.98);
+  }
+}

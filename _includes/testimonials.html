@@ -1,67 +1,187 @@
-<div id="testimonial-container">
-  {% for testimonial in site.data.testimonials %}
-    <div class="testimonial{% if forloop.first %} visible{% endif %}">
-      <p class="testimonial-text">“{{ testimonial.text }}”</p>
-      <p class="testimonial-author">— {{ testimonial.name }}</p>
-    </div>
-  {% endfor %}
+<div class="testimonials-section">
+  <div id="testimonial-display">
+    {% for testimonial in site.data.testimonials %}
+      <div class="testimonial-item{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}">
+        <blockquote class="testimonial-quote">"{{ testimonial.text }}"</blockquote>
+        <cite class="testimonial-author">— {{ testimonial.name }}</cite>
+      </div>
+    {% endfor %}
+  </div>
+  
+  <div class="testimonial-dots">
+    {% for testimonial in site.data.testimonials %}
+      <button class="dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}"></button>
+    {% endfor %}
+  </div>
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const testimonials = document.querySelectorAll("#testimonial-container .testimonial");
-    let current = 0;
+    const testimonials = document.querySelectorAll(".testimonial-item");
+    const dots = document.querySelectorAll(".testimonial-dots .dot");
+    let currentIndex = 0;
+    let autoRotate;
 
-    setInterval(() => {
-      testimonials[current].classList.remove("visible");
-      current = (current + 1) % testimonials.length;
-      testimonials[current].classList.add("visible");
-    }, 5000); // 5 seconds per testimonial
+    function showTestimonial(index) {
+      // Hide all testimonials
+      testimonials.forEach(t => t.classList.remove("active"));
+      dots.forEach(d => d.classList.remove("active"));
+      
+      // Show selected testimonial
+      testimonials[index].classList.add("active");
+      dots[index].classList.add("active");
+      currentIndex = index;
+    }
+
+    function nextTestimonial() {
+      const next = (currentIndex + 1) % testimonials.length;
+      showTestimonial(next);
+    }
+
+    function startAutoRotate() {
+      autoRotate = setInterval(nextTestimonial, 6000);
+    }
+
+    function stopAutoRotate() {
+      clearInterval(autoRotate);
+    }
+
+    // Dot click handlers
+    dots.forEach((dot, index) => {
+      dot.addEventListener("click", () => {
+        stopAutoRotate();
+        showTestimonial(index);
+        startAutoRotate();
+      });
+    });
+
+    // Start auto rotation
+    startAutoRotate();
   });
 </script>
 
 <style>
-  #testimonial-container {
-    position: relative;
-    max-width: 600px;
-    margin: 2rem auto;
+  .testimonials-section {
+    max-width: 700px;
+    margin: 1.5rem auto;
     text-align: center;
-    font-style: italic;
-    height: 200px;           /* FIXED height - adjust this */
+    padding: 0 1rem;
+  }
+
+  #testimonial-display {
+    position: relative;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
   }
 
-  .testimonial {
-    position: absolute;       /* Stack testimonials */
+  .testimonial-item {
+    opacity: 0;
+    position: absolute;
     top: 50%;
     left: 0;
-    width: 100%;
+    right: 0;
     transform: translateY(-50%);
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    pointer-events: none;     /* disable clicks on hidden */
+    transition: opacity 0.4s ease-in-out;
+    padding: 1rem;
   }
 
-  .testimonial.visible {
+  .testimonial-item.active {
     opacity: 1;
-    pointer-events: auto;     /* enable clicks on visible */
-    z-index: 1;
   }
 
-  .testimonial-text,
-  .testimonial-author {
-    margin: 0;
-    padding: 0;
-  }
-
-  .testimonial-text {
-    font-size: 1.2rem;
+  .testimonial-quote {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-style: italic;
+    margin: 0 0 0.75rem 0;
+    color: #e8e8e8;
+    border-left: none;
+    padding-left: 0;
   }
 
   .testimonial-author {
     font-size: 0.9rem;
     color: #b7aeae;
-    margin-top: 0.3rem;
-    line-height: 1.2;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .testimonial-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .testimonial-dots .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background-color: #444;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 44px; /* Minimum touch target */
+    min-height: 44px; /* Minimum touch target */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial-dots .dot::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #444;
+    transition: background-color 0.3s ease;
+  }
+
+  .testimonial-dots .dot.active::before,
+  .testimonial-dots .dot:hover::before {
+    background-color: #66bfff;
+  }
+
+  @media (max-width: 768px) {
+    .testimonials-section {
+      margin: 1.5rem auto;
+      padding: 0 1.5rem;
+    }
+    
+    #testimonial-display {
+      height: 160px; /* More height for mobile text */
+    }
+    
+    .testimonial-item {
+      padding: 1.5rem 0.5rem;
+    }
+    
+    .testimonial-quote {
+      font-size: 1.1rem; /* Larger for mobile readability */
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial-author {
+      font-size: 1rem; /* Larger author text for mobile */
+    }
+
+    .testimonial-dots {
+      gap: 1rem; /* More spacing between dots on mobile */
+      margin-top: 1.5rem;
+    }
+
+    .testimonial-dots .dot {
+      min-width: 48px; /* Larger touch targets for mobile */
+      min-height: 48px;
+    }
+
+    .testimonial-dots .dot::before {
+      width: 14px; /* Slightly larger visual indicator */
+      height: 14px;
+    }
   }
 </style>

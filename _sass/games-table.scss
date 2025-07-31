@@ -1,0 +1,101 @@
+// Clean games table styling
+.games-table-wrapper {
+  margin-top: 20px;
+  overflow-x: auto;
+  border-radius: 8px;
+  border: 1px solid #444;
+  
+  // Custom scrollbar styling
+  &::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: #1f1f1f;
+    border-radius: 4px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+    
+    &:hover {
+      background: #777;
+    }
+  }
+  
+  // Firefox scrollbar
+  scrollbar-width: thin;
+  scrollbar-color: #555 #1f1f1f;
+}
+
+#gamesTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1f1f1f;
+  
+  thead {
+    background: #2d2d2d;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  th {
+    padding: 12px 8px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid #444;
+    color: #fff;
+    white-space: nowrap;
+    
+    // Set specific column widths
+    &:nth-child(1) { width: 30%; min-width: 200px; } // Game title
+    &:nth-child(2) { width: 15%; min-width: 80px; }  // Store
+    &:nth-child(3) { display: none; }                // ProtonDB (hidden)
+    &:nth-child(4) { width: 40%; min-width: 250px; } // Notes
+    &:nth-child(5) { width: 15%; min-width: 140px; } // Date Tested
+  }
+  
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #333;
+    vertical-align: top;
+    
+    // Hide ProtonDB column
+    &:nth-child(3) { 
+      display: none; 
+    }
+  }
+  
+  tr:hover {
+    background: #252525;
+  }
+}
+
+.store-badge {
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: bold;
+  
+  &.epic {
+    background: #0078f2;
+    color: white;
+  }
+  
+  &.gog {
+    background: #86328a;
+    color: white;
+  }
+  
+  &.amazon {
+    background: #ff9900;
+    color: black;
+  }
+}
+
+#loadingIndicator {
+  color: #ccc;
+  font-style: italic;
+}
