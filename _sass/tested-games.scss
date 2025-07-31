@@ -276,18 +276,19 @@
 
 /* Recently tested section */
 .feature-box {
-  background-color: #1e2a38;
-  border: 1px solid #444;
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #2a3442 0%, #1e2a38 100%);
+  border: 1px solid #3a4a5c;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .feature-box h3 {
-  color: #66bfff;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 1.3rem;
+  color: #ffa366;
+  margin: 0 0 0.25rem 0 !important;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .featured-row {
@@ -299,29 +300,39 @@
 }
 
 .featured-entry {
-  background-color: #1e2a38;
-  padding: 0.4rem 0.75rem;
+  background-color: #334458;
+  padding: 0.5rem 0.75rem;
   border-radius: 6px;
-  border: 1px solid #444;
-  font-weight: 500;
+  border: 1px solid #4a5a6c;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  transition: all 0.2s ease;
   white-space: nowrap;
 }
 
+.featured-entry:hover {
+  background-color: #3e5068;
+  border-color: #5a6a7c;
+  transform: translateY(-1px);
+}
+
 .featured-entry a {
-  color: #66bfff;
+  color: #cceeff;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 0.95rem;
 }
 
 .featured-entry a:hover {
-  text-decoration: underline;
+  color: #ffffff;
 }
 
 .featured-entry .store-badge {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -385,5 +396,69 @@
 #gamesTable {
   display: table !important; // Override Minimal Mistakes' display: block
 }
+
+/* Search suggestions */
+.search-suggestions {
+  background-color: #2a3442;
+  border: 1px solid #4a5a6c;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-suggestions p {
+  color: #cceeff;
+  margin: 0 0 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.search-suggestions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.search-suggestions li {
+  margin: 0;
+}
+
+.search-suggestions a {
+  display: inline-block;
+  background-color: #334458;
+  color: #66bfff;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #4a5a6c;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.search-suggestions a:hover {
+  background-color: #3e5068;
+  color: #ffffff;
+  border-color: #5a6a7c;
+  transform: translateY(-1px);
+}
+
+/* Featured games styling */
+#gamesTable tr.featured-game {
+  background-color: #2a3442;
+  border-left: 3px solid #e67300;
+}
+
+#gamesTable tr.featured-game:hover {
+  background-color: #334458;
+}
+
+#gamesTable tr.featured-game td:first-child {
+  font-weight: 600;
+  color: #ffa366;
+}
+
 
 
