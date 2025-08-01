@@ -79,7 +79,10 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ✅ Advanced Queue System <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <img src="/assets/images/jspro/tablegifs/download.gif" alt="Download queue management demo">
+              <video autoplay muted loop playsinline>
+                <source src="/assets/images/jspro/tablegifs/download.webm" type="video/webm">
+                <img src="/assets/images/jspro/tablegifs/download.gif" alt="Download queue management demo">
+              </video>
               <p>Manage multiple downloads, pause/resume, and monitor progress</p>
             </div>
           </td>
@@ -125,7 +128,10 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ✅ Multi-Language Support <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <img src="/assets/images/jspro/tablegifs/languageselection.gif" alt="Language selection demo">
+              <video autoplay muted loop playsinline>
+                <source src="/assets/images/jspro/tablegifs/languageselection.webm" type="video/webm">
+                <img src="/assets/images/jspro/tablegifs/languageselection.gif" alt="Language selection demo">
+              </video>
               <p>Choose your preferred language for supported games</p>
             </div>
           </td>
@@ -141,7 +147,10 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ✅ Flexible Launcher System <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <img src="/assets/images/jspro/tablegifs/changelauncher.gif" alt="Per-game launcher configuration demo">
+              <video autoplay muted loop playsinline>
+                <source src="/assets/images/jspro/tablegifs/changelauncher.webm" type="video/webm">
+                <img src="/assets/images/jspro/tablegifs/changelauncher.gif" alt="Per-game launcher configuration demo">
+              </video>
               <p>Customize launcher behavior for each individual game</p>
             </div>
           </td>
@@ -187,7 +196,10 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ⚙️ Built-in Installer <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <img src="/assets/images/jspro/tablegifs/dependencies.gif" alt="Automated dependency installation demo">
+              <video autoplay muted loop playsinline>
+                <source src="/assets/images/jspro/tablegifs/dependencies.webm" type="video/webm">
+                <img src="/assets/images/jspro/tablegifs/dependencies.gif" alt="Automated dependency installation demo">
+              </video>
               <p>Automatic dependency detection and one-click installation</p>
             </div>
             <br>🛠️ Manual Available<br>🧪 Proton Tricks Compatible

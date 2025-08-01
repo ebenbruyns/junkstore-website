@@ -22,7 +22,7 @@ classes: wide
     <img 
       class="gif-click" 
       src="/assets/images/jspro/gallery/download-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/download.gif" 
+      data-gif="/assets/images/jspro/gallery/download.webm" 
       alt="Cloud saves" 
       data-still="/assets/images/jspro/gallery/download-still.jpg"
     >
@@ -34,7 +34,7 @@ classes: wide
     <img 
       class="gif-click" 
       src="/assets/images/jspro/gallery/language-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/languageselection.gif" 
+      data-gif="/assets/images/jspro/gallery/languageselection.webm" 
       alt="Install dependencies" 
       data-still="/assets/images/jspro/gallery/language-still.jpg"
     >
@@ -47,7 +47,7 @@ classes: wide
     <img 
       class="gif-click" 
       src="/assets/images/jspro/gallery/dependencies-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/dependencies.gif" 
+      data-gif="/assets/images/jspro/gallery/dependencies.webm" 
       alt="Install dependencies" 
       data-still="/assets/images/jspro/gallery/dependencies-still.jpg"
     >
@@ -59,7 +59,7 @@ classes: wide
     <img 
       class="gif-click" 
       src="/assets/images/jspro/gallery/changelauncher-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/changelauncher.gif" 
+      data-gif="/assets/images/jspro/gallery/changelauncher.webm" 
       alt="Change launcher" 
       data-still="/assets/images/jspro/gallery/changelauncher-still.jpg"
     >
@@ -116,25 +116,49 @@ document.addEventListener("DOMContentLoaded", function () {
   function unzoomAll() {
     imgs.forEach(img => {
       img.classList.remove("zoomed");
-      img.src = img.getAttribute("data-still");
+      // Reset to still image
+      if (img.tagName === 'VIDEO') {
+        const stillSrc = img.getAttribute("data-still");
+        img.outerHTML = `<img class="gif-click" src="${stillSrc}" data-gif="${img.getAttribute("data-gif")}" alt="${img.getAttribute("alt")}" data-still="${stillSrc}">`;
+      } else {
+        img.src = img.getAttribute("data-still");
+      }
+    });
+    // Re-attach event listeners after DOM changes
+    attachClickListeners();
+  }
+
+  function attachClickListeners() {
+    const currentImgs = document.querySelectorAll(".gif-click");
+    currentImgs.forEach(img => {
+      img.removeEventListener("click", handleClick); // Remove existing listeners
+      img.addEventListener("click", handleClick);
     });
   }
 
-  imgs.forEach(img => {
-    img.addEventListener("click", e => {
-      e.stopPropagation(); // prevent event bubbling to document click
-      const isZoomed = img.classList.contains("zoomed");
+  function handleClick(e) {
+    e.stopPropagation();
+    const img = e.target;
+    const isZoomed = img.classList.contains("zoomed");
 
-      // Unzoom all first
-      unzoomAll();
+    // Unzoom all first
+    unzoomAll();
 
-      if (!isZoomed) {
-        // Zoom this one and switch to GIF
-        img.src = img.getAttribute("data-gif");
-        img.classList.add("zoomed");
-      }
-    });
-  });
+    if (!isZoomed) {
+      // Zoom this one and switch to video
+      const videoSrc = img.getAttribute("data-gif");
+      const stillSrc = img.getAttribute("data-still");
+      const altText = img.getAttribute("alt");
+      
+      img.outerHTML = `<video class="gif-click zoomed" autoplay muted loop playsinline data-gif="${videoSrc}" alt="${altText}" data-still="${stillSrc}">
+        <source src="${videoSrc}" type="video/webm">
+        <img src="${stillSrc}" alt="${altText}">
+      </video>`;
+    }
+  }
+
+  // Initial attachment
+  attachClickListeners();
 
   // Click anywhere else closes all zooms
   document.addEventListener("click", () => {
