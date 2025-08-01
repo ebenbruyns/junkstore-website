@@ -10,7 +10,7 @@
   
   <div class="testimonial-dots">
     {% for testimonial in site.data.testimonials %}
-      <button class="dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}"></button>
+      <button class="dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="View testimonial {{ forloop.index }} of {{ site.data.testimonials.size }}"></button>
     {% endfor %}
   </div>
 </div>
