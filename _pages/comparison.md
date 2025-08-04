@@ -17,13 +17,14 @@ header:
 excerpt: "From plugin limitations to professional platform - discover what's possible when you never leave Game Mode"
 ---
 
+
 <section class="comparison-hero">
   <h1>Decky Plugin vs Junk Store 2.0</h1>
   <p class="lead-text">The Decky plugin proved the concept. <strong>Junk Store 2.0 perfects the execution.</strong></p>
   <p>See exactly what you gain by upgrading from the free plugin to the professional Game Mode-native platform.</p>
 </section>
 
-<section class="recent-updates-section">
+<section class="recent-updates-section" id="recent-updates">
   <h2>🆕 Recent Updates to Junk Store 2.0</h2>
   <div class="updates-content">
     <div class="update-item">
@@ -37,7 +38,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
   </div>
 </section>
 
-<section class="value-proposition">
+<section class="value-proposition" id="key-benefits">
   <div class="value-grid">
     <div class="value-item">
       <h3>🚀 From 100 to 1,000 Games</h3>
@@ -54,7 +55,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
   </div>
 </section>
 
-<section class="comparison-table-section">
+<section class="comparison-table-section" id="feature-comparison">
   <h2>Complete Feature Comparison</h2>
   <p class="table-intro">Every feature comparison includes live demonstrations. Hover over "👁️ Hover to view" to see the functionality in action.</p>
   
@@ -243,7 +244,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
   </table>
 </section>
 
-<section class="upgrade-benefits">
+<section class="upgrade-benefits" id="upgrade-benefits">
   <h2>Why 250,000+ Users Are Considering the Upgrade</h2>
   <div class="benefits-grid">
     <div class="benefit-item">
@@ -273,7 +274,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
   </div>
 </section>
 
-<section class="pricing-comparison">
+<section class="pricing-comparison" id="pricing">
   <div class="pricing-box">
     <h2>Investment vs. Value</h2>
     <div class="price-comparison">
@@ -305,7 +306,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
   </div>
 </section>
 
-<section class="trial-cta">
+<section class="trial-cta" id="trial">
   <div class="cta-box">
     <h2>Ready to Experience the Difference?</h2>
     <p>Try Junk Store 2.0 risk-free for 7 full days. Experience every feature, test your games, and see the performance improvement firsthand.</p>
@@ -346,5 +347,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
 });
 </script>
