@@ -3,7 +3,7 @@
 /* Hero Section */
 .comparison-hero {
   text-align: center;
-  padding: 2.5rem 1rem;
+  padding: 0.5rem 1rem 1.5rem 1rem;
   max-width: 1200px;
   width: 95%;
   margin: 0 auto;
@@ -23,12 +23,66 @@
   margin-bottom: 1rem;
 }
 
+/* Recent Updates Section */
+.recent-updates-section {
+  padding: 1rem;
+  margin: 0.5rem auto;
+  max-width: 1200px;
+  width: 95%;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.recent-updates-section h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.updates-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.update-item {
+  background: rgba(0, 170, 255, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #0af;
+  border: 1px solid #444;
+  margin-bottom: 1rem;
+}
+
+.update-item:last-child {
+  margin-bottom: 0;
+}
+
+.update-item h4 {
+  color: #0af;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.update-item p {
+  color: #e8e8e8;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
 /* Value Proposition Section */
 .value-proposition {
   background: rgba(0, 170, 255, 0.1);
-  padding: 2.5rem 1rem;
+  padding: 1.5rem 1rem;
   border-radius: 8px;
-  margin: 2rem auto;
+  margin: 1rem auto;
   max-width: 1200px;
   width: 95%;
 }
@@ -43,7 +97,7 @@
 
 .value-item {
   text-align: center;
-  padding: 1.5rem;
+  padding: 1rem;
   background-color: #253445;
   border-radius: 8px;
   border: 1px solid #444;
@@ -58,7 +112,7 @@
 
 /* Comparison Table Section - Same Width as Pricing */
 .comparison-table-section {
-  margin: 0 auto 2rem auto;
+  margin: 1rem auto 1rem auto;
   max-width: 1400px;
   width: 90%;
   padding: 0;
@@ -165,10 +219,10 @@
 
 /* Upgrade Benefits Section - FIXED: 6 benefits, proper sizing, centered header */
 .upgrade-benefits {
-  padding: 2.5rem 1rem;
+  padding: 1.5rem 1rem;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
-  margin: 2rem auto 0 auto;
+  margin: 1rem auto 0 auto;
   max-width: 1200px;
   width: 95%;
 }
@@ -177,7 +231,7 @@
   text-align: center;
   color: #66bfff;
   font-size: 1.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   margin-top: 0;
 }
@@ -301,9 +355,9 @@
 /* Trial CTA Section */
 .trial-cta {
   background: rgba(0, 170, 255, 0.1);
-  padding: 1.5rem 1rem; /* Further reduced to match homepage sections */
+  padding: 1.5rem 1rem;
   text-align: center;
-  margin: 3rem auto;
+  margin: 1.5rem auto;
   border-radius: 8px;
   max-width: 1200px;
   width: 95%;
@@ -401,13 +455,22 @@
   .value-proposition,
   .upgrade-benefits,
   .trial-cta {
-    padding: 2rem 1rem;
+    padding: 1.25rem 1rem;
   }
 
   .comparison-table-section h2,
   .upgrade-benefits h2,
-  .pricing-box h2 {
+  .pricing-box h2,
+  .recent-updates-section h2 {
     font-size: 1.5rem;
+  }
+
+  .recent-updates-section {
+    padding: 0.75rem;
+  }
+
+  .update-item {
+    padding: 1rem;
   }
 }
 
@@ -429,6 +492,6 @@
 
   .value-item,
   .benefit-item {
-    padding: 1.25rem 1rem;
+    padding: 0.75rem;
   }
 }

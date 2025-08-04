@@ -23,6 +23,20 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
   <p>See exactly what you gain by upgrading from the free plugin to the professional Game Mode-native platform.</p>
 </section>
 
+<section class="recent-updates-section">
+  <h2>🆕 Recent Updates to Junk Store 2.0</h2>
+  <div class="updates-content">
+    <div class="update-item">
+      <h4>🔌 Offline Mode Per Game</h4>
+      <p><strong>NEW:</strong> Set offline mode individually for each game across all storefronts. Unlike the Decky version which requires global settings under each tab, Junk Store 2.0 lets you configure offline mode per-game for precise control.</p>
+    </div>
+    <div class="update-item">
+      <h4>🌐 Per-Game System Language Control</h4>
+      <p><strong>NEW:</strong> Configure game language setting for games that use system language detection. No more manual file editing to add language codes like the Decky version requires.</p>
+    </div>
+  </div>
+</section>
+
 <section class="value-proposition">
   <div class="value-grid">
     <div class="value-item">
@@ -214,6 +228,16 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td><strong>Extension Customization</strong></td>
           <td>💻 Code-Heavy Modifications</td>
           <td>🧠 Generated Templates + Hooks</td>
+        </tr>
+        <tr>
+          <td><strong>Offline Mode Per Game</strong></td>
+          <td>🔧 Requires Global Setting Under Each Tab</td>
+          <td>✅ Per-Game Configuration<br><span style="font-size: 0.9em; color: #ccc;">Set offline mode individually for each game across all storefronts</span></td>
+        </tr>
+        <tr>
+          <td><strong>System Language Detection Per Game</strong></td>
+          <td>🔧 Requires Manual File Editing<br><span style="font-size: 0.9em; color: #ccc;">Must alter files to add language codes</span></td>
+          <td>✅ Per Game Language Setting<br><span style="font-size: 0.9em; color: #ccc;">Individual language control for games that use system language detection</span></td>
         </tr>
       </tbody>
   </table>
