@@ -1,5 +1,6 @@
 /* Comparison Page Styles - Consistent with Site Standards */
 
+
 /* Hero Section */
 .comparison-hero {
   text-align: center;
@@ -29,9 +30,10 @@
   margin: 0.5rem auto;
   max-width: 1200px;
   width: 95%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 170, 255, 0.15);
   border-radius: 8px;
   text-align: center;
+  border: 1px solid rgba(0, 170, 255, 0.2);
 }
 
 .recent-updates-section h2 {
@@ -472,6 +474,7 @@
   .update-item {
     padding: 1rem;
   }
+
 }
 
 @media (max-width: 480px) {
