@@ -4,10 +4,12 @@
 .modal-header-enhanced {
     background: linear-gradient(135deg, #334458 0%, #253445 100%) !important;
     border-bottom: 2px solid #ffa366 !important;
-    padding: 20px !important;
+    padding: 25px !important;
     position: relative !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
     color: #ffffff !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+    overflow: hidden !important;
 }
 
 .game-header-content {
@@ -28,30 +30,46 @@
     margin: 0 !important;
     color: #ffffff !important;
     font-weight: 700 !important;
-    font-size: 1.4rem !important;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+    font-size: 1.2rem !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4) !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+    letter-spacing: -0.02em !important;
+    line-height: 1.3 !important;
 }
 
 .game-meta {
-    color: #a0aec0;
-    font-size: 0.9rem;
-    margin-top: 2px;
+    color: #cbd5e0 !important;
+    font-size: 0.8rem !important;
+    margin-top: 4px !important;
+    font-weight: 400 !important;
+    opacity: 0.9 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
 }
 
 .storefront-badge {
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px 18px !important;
+    border-radius: 20px !important;
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4) !important;
+    transition: transform 0.2s ease !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
-.storefront-epic { background: #444 !important; color: white !important; }
-.storefront-gog { background: #8b4dbd !important; color: white !important; }
-.storefront-amazon { background: #00a14f !important; color: white !important; }
+.storefront-epic { 
+    background: linear-gradient(135deg, #444 0%, #333 100%) !important; 
+    color: white !important; 
+}
+.storefront-gog { 
+    background: linear-gradient(135deg, #8b4dbd 0%, #7a3fa3 100%) !important; 
+    color: white !important; 
+}
+.storefront-amazon { 
+    background: linear-gradient(135deg, #00a14f 0%, #008a42 100%) !important; 
+    color: white !important; 
+}
 
 /* Store badges in modals - ensure correct colors */
 .game-modal .store-badge,
@@ -98,34 +116,68 @@
 
 .feature-item {
     text-align: center;
-    padding: 12px;
+    padding: 15px 12px;
     background: #1e2a38;
     border: 1px solid #4a5568;
-    border-radius: 10px;
-    transition: all 0.3s;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
 }
 
 .feature-item:hover {
     background: #253445;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 163, 102, 0.5);
     border-color: #ffa366;
 }
 
+.feature-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 163, 102, 0.1), transparent);
+    transition: left 0.5s;
+}
+
+.feature-item:hover::before {
+    left: 100%;
+}
+
 .feature-label {
-    font-size: 0.8rem;
-    color: #a0aec0;
-    font-weight: 500;
+    font-size: 0.75rem;
+    color: #9CA3AF;
+    font-weight: 600;
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
 
 .feature-value {
     font-weight: 700;
     color: #ffffff;
-    font-size: 1rem;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 0.9rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease;
+}
+
+.feature-item:hover .feature-value {
+    transform: scale(1.05);
+}
+
+.feature-item:hover .feature-label {
+    opacity: 1;
+    color: #ffa366;
 }
 
 /* Simple Tabs for Dark Theme */
@@ -144,32 +196,61 @@
     background: none;
     color: #a0aec0;
     font-weight: 600;
-    padding: 15px 25px;
-    transition: all 0.2s;
+    padding: 18px 30px;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    overflow: hidden;
 }
 
 .tab-button:hover {
     color: #ffa366;
-    background: rgba(255, 163, 102, 0.05);
+    background: rgba(255, 163, 102, 0.08);
+    transform: translateY(-1px);
+}
+
+.tab-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 163, 102, 0.1), transparent);
+    transition: left 0.6s;
+}
+
+.tab-button:hover::before {
+    left: 100%;
 }
 
 .tab-button.active {
-    background: #2d3748;
+    background: linear-gradient(135deg, #2d3748 0%, #253445 100%);
     border-bottom-color: #ffa366;
     color: #ffa366;
-    border-radius: 8px 8px 0 0;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.tab-button.active::before {
+    display: none;
 }
 
 /* Tab Content - Dark Theme */
 .tab-content-simple {
-    padding: 25px 30px !important;
-    min-height: 300px !important;
+    padding: 20px 25px !important;
+    min-height: 280px !important;
     background: #2d3748 !important;
-    max-height: 400px !important;
+    max-height: 380px !important;
     overflow-y: auto !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
     color: #e2e8f0 !important;
+    font-size: 0.9rem !important;
 }
 
 .tab-panel {
@@ -181,16 +262,17 @@
 }
 
 .info-section {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .info-section h6 {
     color: #ffa366 !important;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     font-weight: 600;
+    font-size: 1rem;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
 }
 
 /* All modal section headers should be orange */
@@ -245,12 +327,13 @@
 }
 
 .info-item {
-    padding: 12px 15px !important;
+    padding: 8px 12px !important;
     background: rgba(45, 55, 72, 0.4) !important;
     border-radius: 6px !important;
     border: 1px solid rgba(74, 85, 104, 0.3) !important;
     color: #e2e8f0 !important;
-    margin-bottom: 8px !important;
+    margin-bottom: 6px !important;
+    font-size: 0.85rem !important;
 }
 
 .info-item:last-child {
@@ -273,10 +356,12 @@
 .notes-content {
     background: #1a202c;
     border-left: 4px solid #ffa366;
-    padding: 15px;
+    padding: 10px 12px;
     border-radius: 0 8px 8px 0;
-    margin-top: 10px;
+    margin-top: 5px;
     color: #e2e8f0;
+    font-size: 0.85rem;
+    line-height: 1.4;
 }
 
 .notes-content.alert-warning {
@@ -349,7 +434,7 @@ div.game-modal.show,
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5) !important;
     max-width: 1200px !important;
     width: 90vw !important;
-    max-height: 85vh !important;
+    max-height: calc(100vh - 80px) !important;
     overflow: hidden !important;
     overflow-y: auto !important;
     position: relative !important;
@@ -357,7 +442,7 @@ div.game-modal.show,
     transition: transform 0.3s ease !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
     color: #e2e8f0 !important;
-    margin: 0 auto !important;
+    margin: 40px auto !important;
 }
 
 .game-modal.show .modal-content {
@@ -448,32 +533,59 @@ div.game-modal.show,
     background: none !important;
     color: #a0aec0 !important;
     font-weight: 600 !important;
-    padding: 15px 25px !important;
-    transition: all 0.2s !important;
+    padding: 18px 30px !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
     text-decoration: none !important;
     display: flex !important;
     align-items: center !important;
+    gap: 6px !important;
+    font-size: 0.85rem !important;
+    position: relative !important;
+    overflow: hidden !important;
 }
 
 .nav-tabs-clean .nav-link:hover {
     color: #ffa366 !important;
-    background: rgba(255, 163, 102, 0.05) !important;
+    background: rgba(255, 163, 102, 0.08) !important;
     text-decoration: none !important;
+    transform: translateY(-1px) !important;
+}
+
+.nav-tabs-clean .nav-link::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: -100% !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: linear-gradient(90deg, transparent, rgba(255, 163, 102, 0.1), transparent) !important;
+    transition: left 0.6s !important;
+}
+
+.nav-tabs-clean .nav-link:hover::before {
+    left: 100% !important;
 }
 
 .nav-tabs-clean .nav-link.active {
-    background: #2d3748 !important;
+    background: linear-gradient(135deg, #2d3748 0%, #253445 100%) !important;
     border-bottom-color: #ffa366 !important;
     color: #ffa366 !important;
-    border-radius: 8px 8px 0 0 !important;
+    border-radius: 12px 12px 0 0 !important;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2) !important;
+    transform: translateY(-2px) !important;
+}
+
+.nav-tabs-clean .nav-link.active::before {
+    display: none !important;
 }
 
 .tab-content-enhanced {
-    padding: 25px 30px !important;
-    min-height: 300px !important;
+    padding: 20px 25px !important;
+    min-height: 280px !important;
     background: #2d3748 !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
     color: #e2e8f0 !important;
+    font-size: 0.9rem !important;
 }
 
 .tab-pane {
@@ -512,13 +624,17 @@ div.game-modal.show,
 .game-image-main {
     max-height: 320px !important;
     max-width: 100% !important;
-    border-radius: 12px !important;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
-    transition: transform 0.2s ease !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25) !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+    border: 2px solid transparent !important;
+    object-fit: cover !important;
 }
 
 .game-image-main:hover {
-    transform: scale(1.02) !important;
+    transform: scale(1.05) translateY(-2px) !important;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.35) !important;
+    border-color: rgba(255, 163, 102, 0.3) !important;
 }
 
 .info-grid {
@@ -662,14 +778,17 @@ div.game-modal.show,
 .game-image-placeholder {
     width: 100% !important;
     max-height: 320px !important;
-    height: 200px !important;
-    background: rgba(42, 52, 70, 0.3) !important;
+    height: 240px !important;
+    background: linear-gradient(135deg, rgba(42, 52, 70, 0.4) 0%, rgba(30, 42, 56, 0.6) 100%) !important;
     border: 2px dashed #4a5568 !important;
-    border-radius: 12px !important;
+    border-radius: 15px !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     text-align: center !important;
+    transition: all 0.3s ease !important;
+    position: relative !important;
+    overflow: hidden !important;
 }
 
 .placeholder-content {
@@ -677,6 +796,44 @@ div.game-modal.show,
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
+    z-index: 1 !important;
+    position: relative !important;
+}
+
+.game-image-placeholder::before {
+    content: '' !important;
+    position: absolute !important;
+    top: -50% !important;
+    left: -50% !important;
+    width: 200% !important;
+    height: 200% !important;
+    background: repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(255, 163, 102, 0.03) 10px,
+        rgba(255, 163, 102, 0.03) 20px
+    ) !important;
+    animation: placeholderShimmer 8s linear infinite !important;
+}
+
+@keyframes placeholderShimmer {
+    0% { transform: translateX(-50%) translateY(-50%) rotate(0deg); }
+    100% { transform: translateX(-50%) translateY(-50%) rotate(360deg); }
+}
+
+.placeholder-content i {
+    font-size: 3.5rem !important;
+    color: #4a5568 !important;
+    margin-bottom: 12px !important;
+    opacity: 0.7 !important;
+}
+
+.placeholder-content p {
+    color: #a0aec0 !important;
+    margin: 4px 0 !important;
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
 }
 
 @media (max-width: 768px) {
