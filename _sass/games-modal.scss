@@ -49,9 +49,38 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.storefront-epic { background: #2c3e50; color: white; }
-.storefront-gog { background: #7b68ee; color: white; }
-.storefront-amazon { background: #ff9900; color: white; }
+.storefront-epic { background: #444 !important; color: white !important; }
+.storefront-gog { background: #8b4dbd !important; color: white !important; }
+.storefront-amazon { background: #00a14f !important; color: white !important; }
+
+/* Store badges in modals - ensure correct colors */
+.game-modal .store-badge,
+.modal-content .store-badge {
+    font-size: 0.9rem !important;
+    margin-left: 0.5rem !important;
+    padding: 0.1rem 0.5rem !important;
+    border-radius: 6px !important;
+    background-color: #555 !important;
+    color: #fff !important;
+}
+
+.game-modal .store-badge.epic,
+.modal-content .store-badge.epic {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+
+.game-modal .store-badge.gog,
+.modal-content .store-badge.gog {
+    background-color: #8b4dbd !important;
+    color: #fff !important;
+}
+
+.game-modal .store-badge.amazon,
+.modal-content .store-badge.amazon {
+    background-color: #00a14f !important;
+    color: #fff !important;
+}
 
 /* Essential Info Strip - Dark Theme */
 .essential-info {
@@ -156,12 +185,57 @@
 }
 
 .info-section h6 {
-    color: #e2e8f0;
+    color: #ffa366 !important;
     margin-bottom: 12px;
     font-weight: 600;
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+/* All modal section headers should be orange */
+.game-modal h6,
+.modal-content h6,
+.game-modal .info-section h6,
+.modal-content .info-section h6 {
+    color: #ffa366 !important;
+}
+
+/* Section header icons - exact source colors with maximum specificity */
+.game-modal .text-primary,
+.modal-content .text-primary,
+.game-modal i.text-primary,
+.modal-content i.text-primary,
+.game-modal .fas.text-primary,
+.modal-content .fas.text-primary,
+.game-modal h6 i.text-primary,
+.modal-content h6 i.text-primary,
+.game-modal i.fas.fa-gamepad.text-primary,
+.modal-content i.fas.fa-gamepad.text-primary {
+    color: #007bff !important;
+    --bs-text-opacity: 1 !important;
+}
+
+.game-modal .text-success,
+.modal-content .text-success,
+.game-modal i.text-success,
+.modal-content i.text-success,
+.game-modal .fas.text-success,
+.modal-content .fas.text-success,
+.game-modal h6 i.text-success,
+.modal-content h6 i.text-success {
+    color: #28a745 !important;
+}
+
+.game-modal .text-info,
+.modal-content .text-info,
+.game-modal i.text-info,
+.modal-content i.text-info,
+.game-modal .fas.text-info,
+.modal-content .fas.text-info,
+.game-modal h6 i.text-info,
+.modal-content h6 i.text-info {
+    color: #17a2b8 !important;
 }
 
 .info-list {
@@ -184,11 +258,11 @@
 }
 
 .info-label {
-    font-weight: 500;
-    color: #a0aec0;
-    font-size: 0.9rem;
-    display: block;
-    margin-bottom: 2px;
+    font-weight: 600 !important;
+    color: #ffa366 !important;
+    font-size: 0.85rem !important;
+    display: block !important;
+    margin-bottom: 6px !important;
 }
 
 .info-value {
@@ -228,6 +302,7 @@
 .compatibility-unknown { color: #a0aec0; }
 
 /* Modal backdrop and basic styling - Override Bootstrap */
+div.game-modal,
 .game-modal {
     position: fixed !important;
     top: 0 !important;
@@ -247,6 +322,12 @@
     box-sizing: border-box !important;
     padding: 20px !important;
     overflow: auto !important;
+}
+
+/* Force center alignment with highest specificity */
+div.game-modal.show,
+.game-modal.show {
+    align-items: center !important;
 }
 
 .game-modal.show {
@@ -485,12 +566,80 @@
     font-weight: 600 !important;
 }
 
-/* Bootstrap-like text utilities for dark theme */
-.text-primary { color: #ffa366 !important; }
-.text-success { color: #48bb78 !important; }
-.text-warning { color: #ecc94b !important; }
-.text-danger { color: #f56565 !important; }
-.text-info { color: #63b3ed !important; }
+/* Bootstrap-like text utilities for dark theme - Highest specificity */
+.game-modal .text-primary,
+.modal-content .text-primary,
+.game-modal .modal-content .text-primary { 
+    color: #ffa366 !important; 
+}
+
+.game-modal .text-success,
+.modal-content .text-success,
+.game-modal .modal-content .text-success { 
+    color: #48bb78 !important; 
+}
+
+.game-modal .text-warning,
+.modal-content .text-warning,
+.game-modal .modal-content .text-warning { 
+    color: #ecc94b !important; 
+}
+
+.game-modal .text-danger,
+.modal-content .text-danger,
+.game-modal .modal-content .text-danger { 
+    color: #f56565 !important; 
+}
+
+.game-modal .text-info,
+.modal-content .text-info,
+.game-modal .modal-content .text-info { 
+    color: #63b3ed !important; 
+}
+
+/* Essential info feature values - highest specificity override */
+.game-modal .essential-info .feature-value.text-success,
+.modal-content .essential-info .feature-value.text-success,
+.game-modal .modal-content .essential-info .feature-value.text-success {
+    color: #48bb78 !important;
+}
+
+.game-modal .essential-info .feature-value.text-warning,
+.modal-content .essential-info .feature-value.text-warning,
+.game-modal .modal-content .essential-info .feature-value.text-warning {
+    color: #ecc94b !important;
+}
+
+.game-modal .essential-info .feature-value.text-danger,
+.modal-content .essential-info .feature-value.text-danger,
+.game-modal .modal-content .essential-info .feature-value.text-danger {
+    color: #f56565 !important;
+}
+
+/* Base feature value styling */
+.game-modal .feature-value,
+.modal-content .feature-value {
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+    color: #ffa366 !important;
+}
+
+/* Status-specific colors - must come AFTER base styling */
+.game-modal .feature-value.text-success,
+.modal-content .feature-value.text-success {
+    color: #48bb78 !important;
+}
+
+.game-modal .feature-value.text-warning,
+.modal-content .feature-value.text-warning {
+    color: #ecc94b !important;
+}
+
+.game-modal .feature-value.text-danger,
+.modal-content .feature-value.text-danger {
+    color: #f56565 !important;
+}
 
 .me-2 { margin-right: 0.5rem !important; }
 .ms-1 { margin-left: 0.25rem !important; }
