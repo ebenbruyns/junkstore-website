@@ -1,48 +1,73 @@
-/* Table container style */
-#gamesTable {
-  width: 100%;
-  min-width: 600px; // ✅ Ensures scroll on small screens if needed
-  border-collapse: collapse;
-  margin-top: 1rem;
-  background-color: #1e2a38;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  color: #ddd;
-  font-size: 1rem;
-  table-layout: fixed;
+/* Games table wrapper - high specificity */
+.games-table-wrapper,
+div.games-table-wrapper {
+    background: #1e2a38 !important;
+    border-radius: 8px !important;
+    border: 1px solid #3a4a5c !important;
+    overflow: hidden !important;
+    margin-bottom: 20px !important;
 }
 
-/* Shared th/td base styles */
-#gamesTable th,
-#gamesTable td {
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid #444;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  word-wrap: break-word;
-  word-break: break-word;
-  min-width: 0;
-  max-width: 100%;
+/* Table container style - highest specificity to override theme */
+body #gamesTable,
+body table#gamesTable,
+body .games-table-wrapper #gamesTable {
+  width: 100% !important;
+  min-width: 600px !important; // ✅ Ensures scroll on small screens if needed
+  border-collapse: collapse !important;
+  margin-top: 0 !important;
+  background: #1e2a38 !important;
+  color: #ddd !important;
+  font-size: 1rem !important;
+  table-layout: fixed !important;
+  border: none !important;
 }
 
-/* Header styles */
-#gamesTable thead th {
-  font-weight: 600;
-  border-bottom: 2px solid #444;
-  background-color: #253445;
-  padding: 0.75rem 1rem;
+/* Header styles - highest specificity */
+body #gamesTable th,
+body table#gamesTable th,
+body .games-table-wrapper #gamesTable th,
+body #gamesTable thead th {
+    background: #253445 !important;
+    padding: 12px 15px !important;
+    font-weight: 600 !important;
+    border-bottom: 2px solid #3a4a5c !important;
+    text-align: left !important;
+    color: #ddd !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+/* Table cell styles - highest specificity */
+body #gamesTable td,
+body table#gamesTable td,
+body .games-table-wrapper #gamesTable td,
+body #gamesTable tbody td {
+    padding: 10px 15px !important;
+    border-bottom: 1px solid #3a4a5c !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    background: #1e2a38 !important;
+    color: #ddd !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
 }
 
 /* Header alignments */
-#gamesTable thead th:nth-child(1) { text-align: center; }  /* Game */
-#gamesTable thead th:nth-child(2) { text-align: center; }  /* Store */
-#gamesTable thead th:nth-child(3) { text-align: center; }  /* ProtonDB */
-#gamesTable thead th:nth-child(4) { text-align: left;   }  /* Notes */
+#gamesTable thead th:nth-child(1) { text-align: center; }  /* Title */
+#gamesTable thead th:nth-child(2) { text-align: center; }  /* Storefront */
+#gamesTable thead th:nth-child(3) { text-align: center; }  /* Decky Plugin */
+#gamesTable thead th:nth-child(4) { text-align: center; }  /* 2.0 Standalone */
 #gamesTable thead th:nth-child(5) { text-align: center; }  /* Date Tested */
 
 /* Body alignments */
-#gamesTable td:nth-child(1),
-#gamesTable td:nth-child(4) {
+#gamesTable td:nth-child(1) {
   text-align: left;
   color: #cceeff;
   font-weight: 500;
@@ -50,24 +75,53 @@
 
 #gamesTable td:nth-child(2),
 #gamesTable td:nth-child(3),
+#gamesTable td:nth-child(4),
 #gamesTable td:nth-child(5) {
   text-align: center;
 }
 
-/* Row hover */
-#gamesTable tbody tr:hover {
-  background-color: #007acc33;
-  color: #fff;
+/* Compatibility rating styling */
+.compatibility-rating {
+  font-size: 1.2rem;
 }
 
-/* Links */
+/* Row hover - high specificity */
+#gamesTable tbody tr:hover,
+table#gamesTable tbody tr:hover,
+.games-table-wrapper #gamesTable tbody tr:hover {
+    background: rgba(255, 163, 102, 0.1) !important;
+}
+
+#gamesTable tbody tr:hover td,
+table#gamesTable tbody tr:hover td,
+.games-table-wrapper #gamesTable tbody tr:hover td {
+    background: rgba(255, 163, 102, 0.1) !important;
+}
+
+/* Game links and clickable titles */
+#gamesTable .game-link,
+#gamesTable .game-link.clickable,
+.games-table-wrapper #gamesTable .game-link {
+    color: #cceeff !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    font-weight: 500 !important;
+}
+
+#gamesTable .game-link:hover,
+#gamesTable .game-link.clickable:hover {
+    color: #ffa366 !important;
+    text-decoration: underline !important;
+}
+
+/* Other links */
 #gamesTable a {
-  color: #66bfff;
-  text-decoration: underline;
+  color: #66bfff !important;
+  text-decoration: underline !important;
 }
 #gamesTable a:hover {
-  color: #aaddff;
-  text-decoration: none;
+  color: #aaddff !important;
+  text-decoration: none !important;
 }
 
 /* Storefront tag coloring */
@@ -81,18 +135,52 @@
   color: #00a14f;
 }
 
-/* Filter dropdown styled like your buttons */
-#storefrontFilter {
-  background-color: #007acc;
-  color: #fff;
-  padding: 0.5em 1em;
-  border-radius: 8px;
-  border: none;
-  font-size: 1rem;
-  font-family: inherit;
-  cursor: pointer;
-  min-width: 150px;
-  transition: background-color 0.3s ease;
+/* Table controls styling to match source */
+.table-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #2a2a2a;
+    border-radius: 8px;
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.control-group label {
+    font-weight: 600;
+    color: #ffa366;
+    font-size: 0.9rem;
+}
+
+/* Filter dropdown styled like source - high specificity */
+#storefrontFilter,
+#searchInput, 
+#pageSizeSelect,
+.table-controls select,
+.table-controls input {
+    background: #445465 !important;
+    color: #ddd !important;
+    border: 1px solid #666 !important;
+    border-radius: 6px !important;
+    padding: 8px 12px !important;
+    font-size: 0.9rem !important;
+}
+
+#storefrontFilter:focus,
+#searchInput:focus,
+#pageSizeSelect:focus,
+.table-controls select:focus,
+.table-controls input:focus {
+    outline: none !important;
+    border-color: #ffa366 !important;
 }
 
 #storefrontFilter:hover,
@@ -101,39 +189,63 @@
   outline: none;
 }
 
-/* Layout for filter + search */
+/* Layout for filter + search + page size */
 .table-controls {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #1e2a38;
+  border-radius: 8px;
+  border: 1px solid #444;
 }
 
-.filter-group,
-.search-group {
+.control-group {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
 
-/* Search input */
-.search-input-wrapper {
-  position: relative;
-  display: flex;
-  align-items: center;
+.control-group label {
+  color: #ccc;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
-.search-input-wrapper input {
+/* Search input */
+#searchInput {
   background-color: #445465;
   color: #ddd;
-  padding: 0.5em 2.5em 0.5em 0.75em;
+  padding: 0.5em 0.75em;
   border: 1px solid #444;
   border-radius: 6px;
   font-size: 1rem;
-  max-width: 300px;
-  width: 100%;
+  width: 200px;
+}
+
+#searchInput:focus {
+  border-color: #ffa366;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 163, 102, 0.3);
+}
+
+/* Page size selector */
+#pageSizeSelect {
+  background-color: #007acc;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  min-width: 120px;
+}
+
+#pageSizeSelect:hover {
+  background-color: #005f99;
 }
 
 /* Back to top button */
@@ -160,15 +272,15 @@
 
 /* Column widths for fixed layout */
 #gamesTable th:nth-child(1),
-#gamesTable td:nth-child(1) { width: 20%; } /* Game */
+#gamesTable td:nth-child(1) { width: 35%; } /* Title */
 #gamesTable th:nth-child(2),
-#gamesTable td:nth-child(2) { width: 13%; white-space: nowrap; } /* Store */
+#gamesTable td:nth-child(2) { width: 15%; white-space: nowrap; } /* Storefront */
 #gamesTable th:nth-child(3),
-#gamesTable td:nth-child(3) { width: 15%; white-space: nowrap; } /* ProtonDB */
+#gamesTable td:nth-child(3) { width: 15%; white-space: nowrap; } /* Decky Plugin */
 #gamesTable th:nth-child(4),
-#gamesTable td:nth-child(4) { width: 40%; } /* Notes */
+#gamesTable td:nth-child(4) { width: 18%; white-space: nowrap; } /* 2.0 Standalone */
 #gamesTable th:nth-child(5),
-#gamesTable td:nth-child(5) { width: 12%; white-space: nowrap; } /* Date Tested */
+#gamesTable td:nth-child(5) { width: 17%; white-space: nowrap; } /* Date Tested */
 
 
 /* Mobile card layout - hide table headers and convert to cards */
@@ -226,10 +338,10 @@
     margin-right: 0.5rem;
   }
   
-  #gamesTable td:nth-child(1)::before { content: "Game: "; }
+  #gamesTable td:nth-child(1)::before { content: "Title: "; }
   #gamesTable td:nth-child(2)::before { content: "Store: "; }
-  #gamesTable td:nth-child(3)::before { content: "ProtonDB: "; }
-  #gamesTable td:nth-child(4)::before { content: "Notes: "; }
+  #gamesTable td:nth-child(3)::before { content: "Decky: "; }
+  #gamesTable td:nth-child(4)::before { content: "2.0: "; }
   #gamesTable td:nth-child(5)::before { content: "Tested: "; }
   
   /* Hide empty cells */
@@ -262,15 +374,19 @@
     gap: 0.75rem;
   }
   
-  .filter-group,
-  .search-group {
+  .control-group {
     flex-direction: column;
     align-items: stretch;
     gap: 0.25rem;
   }
   
-  .search-input-wrapper input {
-    max-width: 100%;
+  #searchInput {
+    width: 100%;
+  }
+  
+  #pageSizeSelect,
+  #storefrontFilter {
+    width: 100%;
   }
 }
 
@@ -359,12 +475,11 @@
 }
 
 .games-table-wrapper {
-  max-height: 500px;
   overflow-x: auto;
-  overflow-y: auto;
   border-radius: 8px;
   border: 1px solid #ddd;
   background-color: #1e2a38;
+  min-height: 600px;
 }
 
 /* Sticky header */
@@ -458,6 +573,118 @@
 #gamesTable tr.featured-game td:first-child {
   font-weight: 600;
   color: #ffa366;
+}
+
+/* Game title clickable styling */
+.game-link.clickable {
+  cursor: pointer;
+  color: #66bfff !important;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+}
+
+.game-link.clickable:hover {
+  color: #ffa366 !important;
+  text-decoration-color: #ffa366;
+  background-color: rgba(255, 163, 102, 0.1);
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Pagination Container */
+.pagination-container {
+  margin-top: 1.5rem;
+  background-color: #1e2a38;
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid #444;
+}
+
+.pagination-info {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: #a0aec0;
+  font-weight: 500;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.pagination-btn {
+  background-color: #334458;
+  color: #cceeff;
+  border: 1px solid #4a5a6c;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  min-width: 40px;
+  border-radius: 0;
+  margin: 0;
+}
+
+.pagination-btn:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.pagination-btn:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.pagination-btn + .pagination-btn {
+  border-left: none;
+}
+
+.pagination-btn:hover {
+  background-color: #3e5068;
+  color: #ffffff;
+  z-index: 1;
+  position: relative;
+  border-color: #5a6a7c;
+}
+
+.pagination-btn.active {
+  background-color: #ffa366;
+  color: #1a202c;
+  border-color: #ffa366;
+  font-weight: 600;
+  z-index: 2;
+  position: relative;
+}
+
+.pagination-ellipsis {
+  padding: 0.5rem 0.75rem;
+  color: #a0aec0;
+  font-size: 0.9rem;
+  background-color: transparent;
+}
+
+/* Mobile pagination adjustments */
+@media (max-width: 768px) {
+  .pagination-controls {
+    gap: 0;
+  }
+  
+  .pagination-btn {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+    min-width: 35px;
+  }
+  
+  .pagination-ellipsis {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
 }
 
 
