@@ -63,24 +63,18 @@ class StaticOptimizedGamesTable {
       // Merge with featured games from Jekyll data
       this.mergeFeaturedGames();
       
-      // Sort tested games to put featured games first
+      // Sort tested games to put featured games first, then alphabetical
       this.testedGames.sort((a, b) => {
-        if (a.is_featured && !b.is_featured) return -1;
-        if (!a.is_featured && b.is_featured) return 1;
+        // Check featured status (could be true or truthy)
+        const aFeatured = a.is_featured === true || a.is_featured;
+        const bFeatured = b.is_featured === true || b.is_featured;
         
-        // If both are featured or both are not featured, sort by date tested (newest first)
-        const dateA = a.date_tested || '';
-        const dateB = b.date_tested || '';
+        // Featured games go first
+        if (aFeatured && !bFeatured) return -1;
+        if (!aFeatured && bFeatured) return 1;
         
-        if (dateA && dateB) {
-          return dateB.localeCompare(dateA);
-        } else if (dateA) {
-          return -1;
-        } else if (dateB) {
-          return 1;
-        } else {
-          return a.title.localeCompare(b.title);
-        }
+        // Within same featured status, sort alphabetically by title
+        return a.title.localeCompare(b.title);
       });
       
       this.filteredGames = [...this.testedGames];
@@ -92,13 +86,23 @@ class StaticOptimizedGamesTable {
   }
 
   /**
-   * Merge with featured games data from Jekyll
+   * Process featured games from JSON data or fallback to Jekyll data
    */
   mergeFeaturedGames() {
+    // First try to get featured games from JSON data (future implementation)
+    const jsonFeaturedGames = this.testedGames.filter(game => game.is_featured === true);
+    
+    if (jsonFeaturedGames.length > 0) {
+      console.log(`🌟 Found ${jsonFeaturedGames.length} featured games in JSON data`);
+      this.featuredGames = jsonFeaturedGames;
+      return;
+    }
+    
+    // Fallback to Jekyll featured games data (current implementation)
     const featuredGames = Array.isArray(window.featuredGamesData) ? window.featuredGamesData : [];
     
     if (featuredGames.length > 0) {
-      console.log(`🌟 Processing ${featuredGames.length} featured games`);
+      console.log(`🌟 Processing ${featuredGames.length} featured games from Jekyll data`);
       
       // Mark existing games as featured
       const featuredSet = new Set(
@@ -471,9 +475,16 @@ class StaticOptimizedGamesTable {
     document.body.appendChild(modal);
     this.setupModalEventListeners(modal);
     
+    // Force modal positioning with inline styles - CENTERED
+    modal.style.setProperty('align-items', 'center', 'important');
+    modal.style.setProperty('padding', '20px', 'important');
+    modal.style.setProperty('justify-content', 'center', 'important');
+    
     // Show modal
     requestAnimationFrame(() => {
       modal.classList.add('show');
+      // Double-check positioning after show - CENTERED
+      modal.style.setProperty('align-items', 'center', 'important');
     });
   }
 
@@ -699,22 +710,31 @@ class StaticOptimizedGamesTable {
   getStatusClass(rating) {
     if (!rating) return '';
     const ratingLower = rating.toLowerCase();
+    console.log(`🎨 Status class for "${rating}":`, ratingLower);
     if (ratingLower === 'perfect' || ratingLower === 'green') {
+      console.log('→ Returning text-success');
       return 'text-success';
-    } else if (ratingLower === 'playable' || ratingLower === 'yellow') {
+    } else if (ratingLower === 'yellow') {
+      console.log('→ Returning text-warning');
       return 'text-warning';
-    } else if (ratingLower === 'broken' || ratingLower === 'red') {
+    } else if (ratingLower === 'red') {
+      console.log('→ Returning text-primary');
+      return 'text-primary';
+    } else if (ratingLower === 'not-working') {
+      console.log('→ Returning text-danger');
       return 'text-danger';
     }
+    console.log(`→ Returning empty string for unknown rating: ${rating}`);
     return '';
   }
 
   getStatusText(rating) {
     if (!rating) return 'Not tested';
     const ratingLower = rating.toLowerCase();
-    if (ratingLower === 'green') return 'Works great';
-    if (ratingLower === 'yellow') return 'Works with issues';
-    if (ratingLower === 'red') return 'Doesn\'t work';
+    if (ratingLower === 'perfect' || ratingLower === 'green') return 'Works great';
+    if (ratingLower === 'yellow') return 'Minor tinkering';
+    if (ratingLower === 'red') return 'Advanced tinkering';
+    if (ratingLower === 'not-working') return 'Doesn\'t work';
     return rating;
   }
 
