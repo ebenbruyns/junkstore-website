@@ -1,0 +1,367 @@
+/* 
+ * ISOLATED GAMES TABLE STYLING - Black/Orange Theme
+ * Completely isolated from other page styles to match source exactly
+ */
+
+/* Games table wrapper - isolated container */
+.games-table-wrapper {
+    background: #1e2a38 !important;
+    border-radius: 8px !important;
+    border: 1px solid #3a4a5c !important;
+    overflow: hidden !important;
+    margin: 20px 0 !important;
+    width: 100% !important;
+    position: relative !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+/* Reset specific styles within the table wrapper only */
+.games-table-wrapper table,
+.games-table-wrapper table *,
+.games-table-wrapper .pagination-container,
+.games-table-wrapper .pagination-container * {
+    box-sizing: border-box !important;
+}
+
+/* Table base styles - completely isolated */
+.games-table-wrapper #gamesTable {
+    display: table !important;
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 0 !important;
+    background: #1e2a38 !important;
+    color: #ddd !important;
+    font-size: 1rem !important;
+    table-layout: fixed !important;
+    border: none !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+/* Force proper table structure display */
+.games-table-wrapper #gamesTable thead {
+    display: table-header-group !important;
+}
+
+.games-table-wrapper #gamesTable tbody {
+    display: table-row-group !important;
+}
+
+.games-table-wrapper #gamesTable tr {
+    display: table-row !important;
+}
+
+.games-table-wrapper #gamesTable th,
+.games-table-wrapper #gamesTable td {
+    display: table-cell !important;
+}
+
+/* Table headers - isolated styling */
+.games-table-wrapper #gamesTable th {
+    background: #253445 !important;
+    padding: 12px 15px !important;
+    font-weight: 600 !important;
+    border-bottom: 2px solid #3a4a5c !important;
+    text-align: left !important;
+    color: #ddd !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+/* Table cells - isolated styling */
+.games-table-wrapper #gamesTable td {
+    padding: 10px 15px !important;
+    border-bottom: 1px solid #3a4a5c !important;
+    background: #1e2a38 !important;
+    color: #ddd !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    word-wrap: break-word !important;
+}
+
+/* Featured game highlighting */
+.games-table-wrapper #gamesTable tbody tr.featured-game {
+    background: rgba(255, 163, 102, 0.05) !important;
+    border-left: 3px solid #ffa366 !important;
+}
+
+.games-table-wrapper #gamesTable tbody tr.featured-game td {
+    background: rgba(255, 163, 102, 0.05) !important;
+}
+
+/* Row hover effects */
+.games-table-wrapper #gamesTable tbody tr:hover {
+    background: rgba(255, 163, 102, 0.1) !important;
+}
+
+.games-table-wrapper #gamesTable tbody tr:hover td {
+    background: rgba(255, 163, 102, 0.1) !important;
+}
+
+/* Featured games hover (slightly more intense) */
+.games-table-wrapper #gamesTable tbody tr.featured-game:hover {
+    background: rgba(255, 163, 102, 0.15) !important;
+}
+
+.games-table-wrapper #gamesTable tbody tr.featured-game:hover td {
+    background: rgba(255, 163, 102, 0.15) !important;
+}
+
+/* Game title links */
+.games-table-wrapper .game-link {
+    color: #cceeff !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    font-weight: 500 !important;
+}
+
+.games-table-wrapper .game-link:hover {
+    color: #ffa366 !important;
+    text-decoration: underline !important;
+}
+
+/* Store badges */
+.games-table-wrapper .store-badge {
+    font-size: 0.8rem !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.games-table-wrapper .store-badge.epic {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+
+.games-table-wrapper .store-badge.gog {
+    background-color: #863399 !important;
+    color: #fff !important;
+}
+
+.games-table-wrapper .store-badge.amazon {
+    background-color: #00a14f !important;
+    color: #fff !important;
+}
+
+/* Compatibility ratings */
+.games-table-wrapper .compatibility-rating {
+    font-size: 1.2rem !important;
+}
+
+/* Compatibility emoji styling - force clean emoji display */
+.games-table-wrapper .compatibility-good,
+.games-table-wrapper .compatibility-okay, 
+.games-table-wrapper .compatibility-bad,
+.games-table-wrapper .compatibility-unknown {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-variant-emoji: emoji !important;
+    display: inline !important;
+    width: auto !important;
+    height: auto !important;
+    line-height: inherit !important;
+    font-size: inherit !important;
+}
+
+.games-table-wrapper .compatibility-good {
+    color: inherit !important;
+}
+
+.games-table-wrapper .compatibility-okay {
+    color: inherit !important;
+}
+
+.games-table-wrapper .compatibility-bad {
+    color: inherit !important;
+}
+
+.games-table-wrapper .compatibility-unknown {
+    color: inherit !important;
+}
+
+/* Pagination styling */
+.games-table-wrapper .pagination-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 15px !important;
+    background: #2a2a2a !important;
+    border-radius: 8px !important;
+    margin-top: 20px !important;
+}
+
+.games-table-wrapper .pagination-info {
+    color: #ccc !important;
+    font-size: 0.9rem !important;
+}
+
+.games-table-wrapper .pagination-controls {
+    display: flex !important;
+    gap: 5px !important;
+    align-items: center !important;
+}
+
+.games-table-wrapper .pagination-btn {
+    background: #445465 !important;
+    color: #ddd !important;
+    border: 1px solid #666 !important;
+    padding: 8px 12px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: all 0.2s !important;
+    font-size: 0.9rem !important;
+    text-decoration: none !important;
+}
+
+.games-table-wrapper .pagination-btn:hover {
+    background: #5a6575 !important;
+    border-color: #ffa366 !important;
+}
+
+.games-table-wrapper .pagination-btn.active {
+    background: #ffa366 !important;
+    color: #000 !important;
+    border-color: #ffa366 !important;
+    font-weight: 600 !important;
+}
+
+/* Column alignments */
+.games-table-wrapper #gamesTable th:nth-child(1) { text-align: center !important; }
+.games-table-wrapper #gamesTable th:nth-child(2) { text-align: center !important; }
+.games-table-wrapper #gamesTable th:nth-child(3) { text-align: center !important; }
+.games-table-wrapper #gamesTable th:nth-child(4) { text-align: center !important; }
+.games-table-wrapper #gamesTable th:nth-child(5) { text-align: center !important; }
+
+.games-table-wrapper #gamesTable td:nth-child(1) { text-align: left !important; }
+.games-table-wrapper #gamesTable td:nth-child(2) { text-align: center !important; }
+.games-table-wrapper #gamesTable td:nth-child(3) { text-align: center !important; }
+.games-table-wrapper #gamesTable td:nth-child(4) { text-align: center !important; }
+.games-table-wrapper #gamesTable td:nth-child(5) { text-align: center !important; }
+
+/* Table controls styling (outside the table wrapper) */
+.table-controls {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 15px !important;
+    margin-bottom: 20px !important;
+    padding: 15px !important;
+    background: #2a2a2a !important;
+    border-radius: 8px !important;
+}
+
+.control-group {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+.control-group label {
+    font-weight: 600 !important;
+    color: #ffa366 !important;
+    font-size: 0.9rem !important;
+}
+
+/* Form controls styling */
+#storefrontFilter,
+#searchInput,
+#pageSizeSelect {
+    background: #445465 !important;
+    color: #ddd !important;
+    border: 1px solid #666 !important;
+    border-radius: 6px !important;
+    padding: 8px 12px !important;
+    font-size: 0.9rem !important;
+}
+
+#storefrontFilter:focus,
+#searchInput:focus,
+#pageSizeSelect:focus {
+    outline: none !important;
+    border-color: #ffa366 !important;
+}
+
+/* Featured games section styling */
+.feature-box.games-featured-box {
+    background: linear-gradient(135deg, #2a3442 0%, #1e2a38 100%) !important;
+    border: 1px solid #3a4a5c !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.feature-box.games-featured-box h3 {
+    color: #ffa366 !important;
+    margin: 0 0 15px 0 !important;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+}
+
+.featured-row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+}
+
+.featured-entry {
+    background-color: #334458 !important;
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+    border: 1px solid #4a5a6c !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    transition: all 0.2s ease !important;
+    cursor: pointer !important;
+}
+
+.featured-entry:hover {
+    background-color: #3e5068 !important;
+    transform: translateY(-1px) !important;
+}
+
+.featured-game-link {
+    color: #cceeff !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    font-size: 0.9rem !important;
+}
+
+/* Store badges in featured games section */
+.featured-row .store-badge {
+    font-size: 0.8rem !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    margin-left: 0.5rem !important;
+}
+
+.featured-row .store-badge.epic {
+    background-color: #444 !important;
+    color: #fff !important;
+}
+
+.featured-row .store-badge.gog {
+    background-color: #863399 !important;
+    color: #fff !important;
+}
+
+.featured-row .store-badge.amazon {
+    background-color: #00a14f !important;
+    color: #fff !important;
+}

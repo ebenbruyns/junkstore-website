@@ -1,0 +1,838 @@
+/**
+ * Static Optimized Games Table for Jekyll Site
+ * 
+ * This is the static version of the dynamic optimized table:
+ * 1. Loads lightweight summary first (fast table display) 
+ * 2. Only shows tested games (max 20 at a time with pagination)
+ * 3. Loads detailed game info only when modal is opened
+ * 4. Caches modal content to avoid repeated processing
+ */
+
+class StaticOptimizedGamesTable {
+  constructor() {
+    this.allGames = [];
+    this.testedGames = [];
+    this.filteredGames = [];
+    this.currentFilter = 'All';
+    this.currentSearch = '';
+    this.modalCache = new Map();
+    this.currentPage = 0;
+    this.gamesPerPage = 20;
+    this.pageSizeSelect = null;
+    this.init();
+  }
+
+  async init() {
+    try {
+      console.log('🚀 Loading static games data...');
+      await this.loadGamesData();
+      this.setupElements();
+      this.setupEventListeners();
+      this.renderTable();
+      this.displayFeaturedGames();
+      console.log('✅ Static optimized games table initialized successfully');
+    } catch (error) {
+      console.error('❌ Failed to initialize games table:', error);
+      this.showError('Failed to load games data. Please refresh the page.');
+    }
+  }
+
+  /**
+   * Load games data from static JSON file
+   */
+  async loadGamesData() {
+    try {
+      const response = await fetch('/assets/data/games.json');
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+      
+      const data = await response.json();
+      console.log(`📊 Loaded ${data.length} total games from JSON`);
+      
+      this.allGames = data || [];
+      
+      // Filter to only tested games (those with actual test data)
+      this.testedGames = this.allGames.filter(game => 
+        game.tested === true && 
+        (game.decky_rating || game.standalone_rating || game.date_tested)
+      );
+      
+      console.log(`🧪 Found ${this.testedGames.length} tested games`);
+      
+      // Merge with featured games from Jekyll data
+      this.mergeFeaturedGames();
+      
+      // Sort tested games to put featured games first
+      this.testedGames.sort((a, b) => {
+        if (a.is_featured && !b.is_featured) return -1;
+        if (!a.is_featured && b.is_featured) return 1;
+        
+        // If both are featured or both are not featured, sort by date tested (newest first)
+        const dateA = a.date_tested || '';
+        const dateB = b.date_tested || '';
+        
+        if (dateA && dateB) {
+          return dateB.localeCompare(dateA);
+        } else if (dateA) {
+          return -1;
+        } else if (dateB) {
+          return 1;
+        } else {
+          return a.title.localeCompare(b.title);
+        }
+      });
+      
+      this.filteredGames = [...this.testedGames];
+      
+    } catch (error) {
+      console.error('Failed to load games data:', error);
+      throw error;
+    }
+  }
+
+  /**
+   * Merge with featured games data from Jekyll
+   */
+  mergeFeaturedGames() {
+    const featuredGames = Array.isArray(window.featuredGamesData) ? window.featuredGamesData : [];
+    
+    if (featuredGames.length > 0) {
+      console.log(`🌟 Processing ${featuredGames.length} featured games`);
+      
+      // Mark existing games as featured
+      const featuredSet = new Set(
+        featuredGames
+          .filter(fg => fg && fg.title && fg.storefront)
+          .map(fg => `${fg.title}|${fg.storefront}`)
+      );
+      
+      this.testedGames.forEach(game => {
+        if (game && game.title && game.storefront) {
+          game.is_featured = featuredSet.has(`${game.title}|${game.storefront}`);
+        }
+      });
+      
+      // Store featured games for display
+      this.featuredGames = featuredGames.filter(fg => fg && fg.title && fg.storefront);
+    } else {
+      this.featuredGames = [];
+    }
+  }
+
+  setupElements() {
+    this.tableContainer = document.getElementById('gamesTableContainer');
+    this.storefrontFilter = document.getElementById('storefrontFilter');
+    this.searchInput = document.getElementById('searchInput');
+    this.loadingDiv = document.getElementById('loadingIndicator');
+    this.featuredRow = document.getElementById('featuredGamesRow');
+    this.pageSizeSelect = document.getElementById('pageSizeSelect');
+    
+    if (this.loadingDiv) {
+      this.loadingDiv.style.display = 'none';
+    }
+  }
+
+  setupEventListeners() {
+    if (this.storefrontFilter) {
+      this.storefrontFilter.addEventListener('change', (e) => {
+        this.currentFilter = e.target.value || 'All';
+        this.currentPage = 0;
+        this.filterAndRender();
+      });
+    }
+
+    if (this.searchInput) {
+      this.searchInput.addEventListener('input', (e) => {
+        this.currentSearch = (e.target.value || '').trim().toLowerCase();
+        this.currentPage = 0;
+        this.filterAndRender();
+      });
+    }
+
+    if (this.pageSizeSelect) {
+      this.pageSizeSelect.addEventListener('change', (e) => {
+        this.gamesPerPage = parseInt(e.target.value) || 20;
+        this.currentPage = 0;
+        this.renderTable();
+      });
+    }
+  }
+
+  displayFeaturedGames() {
+    if (!this.featuredRow) return;
+
+    if (this.featuredGames && this.featuredGames.length > 0) {
+      console.log(`🌟 Displaying ${this.featuredGames.length} featured games`);
+      
+      // Sort by most recently tested first (newest dates first)
+      const sortedFeatured = this.featuredGames.slice().sort((a, b) => {
+        // Get the actual game data to access date_tested
+        const gameA = this.testedGames.find(g => g.title === a.title && g.storefront === a.storefront);
+        const gameB = this.testedGames.find(g => g.title === b.title && g.storefront === b.storefront);
+        
+        const dateA = gameA?.date_tested || '';
+        const dateB = gameB?.date_tested || '';
+        
+        // Sort by date descending (newest first), then by title
+        if (dateA && dateB) {
+          return dateB.localeCompare(dateA);
+        } else if (dateA) {
+          return -1;
+        } else if (dateB) {
+          return 1;
+        } else {
+          return a.title.localeCompare(b.title);
+        }
+      });
+      
+      this.featuredRow.innerHTML = sortedFeatured
+        .map(game => {
+          return `
+            <div class="featured-entry">
+              <a href="#" class="featured-game-link" data-game-title="${game.title}" data-game-storefront="${game.storefront}">
+                ${this.escapeHtml(game.title)}
+              </a>
+              <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
+            </div>
+          `;
+        }).join('');
+        
+      // Add click handlers for featured games
+      this.featuredRow.querySelectorAll('.featured-game-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const title = e.target.dataset.gameTitle;
+          const storefront = e.target.dataset.gameStorefront;
+          const game = this.testedGames.find(g => g.title === title && g.storefront === storefront);
+          if (game) {
+            this.openGameModal(game.id);
+          }
+        });
+      });
+    } else {
+      this.featuredRow.innerHTML = `
+        <div class="featured-entry">
+          <span style="color: #ccc; font-style: italic;">No featured games available</span>
+        </div>
+      `;
+    }
+  }
+
+  filterAndRender() {
+    this.filteredGames = this.testedGames.filter(game => {
+      const title = game.title || '';
+      const storefront = game.storefront || '';
+      const notes = game.notes || '';
+      
+      // Store filter
+      const storeMatches = this.currentFilter === 'All' || storefront === this.currentFilter;
+      
+      // Search filter - search in title and notes
+      const searchMatches = this.currentSearch === '' || (() => {
+        try {
+          const searchTerm = this.currentSearch.trim();
+          if (!searchTerm) return true;
+          
+          const titleMatch = title.toLowerCase().includes(searchTerm);
+          const cleanNotes = notes.replace(/<[^>]*>/g, '').toLowerCase();
+          const notesMatch = cleanNotes.includes(searchTerm);
+          
+          return titleMatch || notesMatch;
+        } catch (error) {
+          console.warn('Search error:', error);
+          return true;
+        }
+      })();
+      
+      return storeMatches && searchMatches;
+    });
+    
+    console.log(`🔍 Filtered to ${this.filteredGames.length} games`);
+    this.renderTable();
+  }
+
+  renderTable() {
+    if (!this.tableContainer) return;
+
+    // Calculate pagination
+    const startIndex = this.currentPage * this.gamesPerPage;
+    const endIndex = Math.min(startIndex + this.gamesPerPage, this.filteredGames.length);
+    const paginatedGames = this.filteredGames.slice(startIndex, endIndex);
+
+    const table = document.createElement('table');
+    table.id = 'gamesTable';
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Storefront</th>
+          <th>Decky Plugin</th>
+          <th>2.0 Standalone</th>
+          <th>Date Tested</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${paginatedGames.map(game => this.renderGameRow(game)).join('')}
+      </tbody>
+    `;
+
+    // Add pagination container
+    const paginationContainer = document.createElement('div');
+    paginationContainer.id = 'paginationContainer';
+    paginationContainer.className = 'pagination-container';
+    paginationContainer.innerHTML = `
+      <div class="pagination-info">
+        Showing ${startIndex + 1}-${endIndex} of ${this.filteredGames.length} games
+      </div>
+      ${this.renderPaginationControls()}
+    `;
+
+    this.tableContainer.innerHTML = '';
+    this.tableContainer.appendChild(table);
+    this.tableContainer.appendChild(paginationContainer);
+    
+    // Add click handlers for game titles
+    this.addModalHandlers();
+  }
+
+  renderPaginationControls() {
+    const totalPages = Math.ceil(this.filteredGames.length / this.gamesPerPage);
+    
+    if (totalPages <= 1) return '';
+
+    let controls = '<div class="pagination-controls">';
+    
+    // Show first few pages
+    const maxVisiblePages = 4;
+    for (let i = 0; i < Math.min(maxVisiblePages, totalPages); i++) {
+      const activeClass = i === this.currentPage ? ' active' : '';
+      const pageNum = i + 1;
+      controls += `<button class="pagination-btn${activeClass}" data-page="${i}">${pageNum}</button>`;
+    }
+    
+    // Add ellipsis if there are many more pages
+    if (totalPages > maxVisiblePages + 1) {
+      controls += '<span class="pagination-ellipsis">...</span>';
+      
+      // Show last page
+      const lastPage = totalPages - 1;
+      controls += `<button class="pagination-btn" data-page="${lastPage}">${totalPages}</button>`;
+    }
+    
+    // Next button (always show if there are more pages)
+    if (this.currentPage < totalPages - 1) {
+      const nextPage = this.currentPage + 1;
+      controls += `<button class="pagination-btn" data-page="${nextPage}">Next →</button>`;
+    }
+    
+    controls += '</div>';
+    
+    // Add event listeners after rendering
+    setTimeout(() => {
+      document.querySelectorAll('.pagination-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const targetPage = parseInt(e.target.dataset.page);
+          if (!isNaN(targetPage)) {
+            this.currentPage = targetPage;
+            this.renderTable();
+          }
+        });
+      });
+    }, 0);
+    
+    return controls;
+  }
+
+  renderGameRow(game) {
+    const dateTest = game.date_tested || '&nbsp;';
+    const featuredClass = game.is_featured ? ' featured-game' : '';
+    
+    const deckyRating = this.getCompatibilityIndicator(game.decky_rating);
+    const standaloneRating = this.getCompatibilityIndicator(game.standalone_rating);
+
+    return `
+      <tr data-game-id="${game.id}" class="${featuredClass.trim()}">
+        <td><span class="game-link clickable" data-game-id="${game.id}">${this.escapeHtml(game.title)}</span></td>
+        <td><span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span></td>
+        <td class="compatibility-rating">${deckyRating}</td>
+        <td class="compatibility-rating">${standaloneRating}</td>
+        <td>${dateTest}</td>
+      </tr>
+    `;
+  }
+
+  getCompatibilityIndicator(rating) {
+    if (!rating) return '<span class="compatibility-unknown">❓</span>';
+    
+    const ratingLower = rating.toLowerCase();
+    if (ratingLower === 'perfect' || ratingLower === 'green') {
+      return '<span class="compatibility-good">🟢</span>';
+    } else if (ratingLower === 'playable' || ratingLower === 'yellow') {
+      return '<span class="compatibility-okay">🟡</span>';
+    } else if (ratingLower === 'broken' || ratingLower === 'red') {
+      return '<span class="compatibility-bad">🔴</span>';
+    } else if (ratingLower === 'not-working') {
+      return '<span class="compatibility-bad">❌</span>';
+    }
+    return '<span class="compatibility-unknown">❓</span>';
+  }
+
+  addModalHandlers() {
+    const gameLinks = document.querySelectorAll('.game-link.clickable');
+    gameLinks.forEach(link => {
+      link.addEventListener('click', async (e) => {
+        e.preventDefault();
+        const gameId = e.target.dataset.gameId;
+        await this.openGameModal(gameId);
+      });
+    });
+  }
+
+  async openGameModal(gameId) {
+    try {
+      // Show loading state
+      const loadingModal = document.createElement('div');
+      loadingModal.className = 'game-modal show';
+      loadingModal.innerHTML = `
+        <div class="modal-backdrop">
+          <div class="modal-content">
+            <div style="text-align: center; padding: 40px;">
+              <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: #ffa366;"></i>
+              <p style="margin-top: 20px; color: #ccc;">Loading game details...</p>
+            </div>
+          </div>
+        </div>
+      `;
+      document.body.appendChild(loadingModal);
+
+      // Find game details (static lookup)
+      const gameDetails = this.getGameDetails(gameId);
+      
+      if (!gameDetails) {
+        throw new Error('Game not found');
+      }
+      
+      // Remove loading modal
+      loadingModal.remove();
+      
+      // Create actual modal
+      this.createGameModal(gameDetails);
+      
+    } catch (error) {
+      console.error('Failed to open game modal:', error);
+      // Remove loading modal if it exists
+      const loadingModal = document.querySelector('.game-modal');
+      if (loadingModal) loadingModal.remove();
+      
+      // Show error
+      alert('Failed to load game details. Please try again.');
+    }
+  }
+
+  /**
+   * Get game details from static data (replaces API call)
+   */
+  getGameDetails(gameId) {
+    // Return cached data if available
+    if (this.modalCache.has(gameId)) {
+      console.log(`📋 Using cached details for game: ${gameId}`);
+      return this.modalCache.get(gameId);
+    }
+
+    // Find game in static data
+    const game = this.allGames.find(g => g.id === gameId);
+    if (!game) {
+      console.error(`Game not found: ${gameId}`);
+      return null;
+    }
+
+    // Cache the result
+    this.modalCache.set(gameId, game);
+    console.log(`💾 Cached details for game: ${game.title}`);
+    
+    return game;
+  }
+
+  createGameModal(game) {
+    // Remove existing modal
+    const existingModal = document.getElementById('gameModal');
+    if (existingModal) {
+      existingModal.remove();
+    }
+    
+    const modal = document.createElement('div');
+    modal.id = 'gameModal';
+    modal.className = 'game-modal';
+    
+    const modalContent = this.getModalContent(game);
+    modal.innerHTML = modalContent;
+    
+    document.body.appendChild(modal);
+    this.setupModalEventListeners(modal);
+    
+    // Show modal
+    requestAnimationFrame(() => {
+      modal.classList.add('show');
+    });
+  }
+
+  getModalContent(game) {
+    const storefrontClass = game.storefront.toLowerCase();
+    
+    return `
+      <div class="modal-backdrop">
+        <div class="modal-content">
+          <!-- Game Banner -->
+          <div id="gameBanner-${game.id}" class="game-banner">
+            ${game.verticalArtwork ? `<img src="${game.verticalArtwork}" alt="Game Banner" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
+          </div>
+          
+          <!-- Enhanced Header -->
+          <div class="modal-header-enhanced">
+            <div class="game-header-content">
+              <div class="game-basic-info">
+                <div class="game-title-area">
+                  <h4>${this.escapeHtml(game.title)}</h4>
+                </div>
+                <span class="storefront-badge storefront-${storefrontClass}">${game.storefront}</span>
+              </div>
+            </div>
+            <button class="modal-close">&times;</button>
+          </div>
+          
+          <!-- Essential Info Strip -->
+          <div class="essential-info">
+            <div class="feature-grid">
+              <div class="feature-item">
+                <span class="feature-label">Decky Plugin</span>
+                <span class="feature-value ${this.getStatusClass(game.decky_rating)}">${this.getStatusText(game.decky_rating)}</span>
+              </div>
+              <div class="feature-item">
+                <span class="feature-label">2.0 Standalone</span>
+                <span class="feature-value ${this.getStatusClass(game.standalone_rating)}">${this.getStatusText(game.standalone_rating)}</span>
+              </div>
+              <div class="feature-item">
+                <span class="feature-label">Proton Version</span>
+                <span class="feature-value">${game.proton_version || 'Default'}</span>
+              </div>
+              <div class="feature-item">
+                <span class="feature-label">Date Tested</span>
+                <span class="feature-value">${game.date_tested || 'Not tested'}</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- 2-Tab Navigation (Bootstrap Style) -->
+          <ul class="nav nav-tabs nav-tabs-clean" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="tab" href="#overview-${game.id}" role="tab">
+                <i class="fas fa-info-circle me-2"></i>Overview
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#testing-${game.id}" role="tab">
+                <i class="fas fa-cogs me-2"></i>Testing Details
+              </a>
+            </li>
+          </ul>
+          
+          <!-- Tab Content -->
+          <div class="tab-content tab-content-enhanced">
+            <!-- Overview Tab -->
+            <div class="tab-pane active" id="overview-${game.id}" role="tabpanel">
+              <div class="row">
+                <div class="col-md-4">
+                  <div id="gameImages-${game.id}" class="game-image-container">
+                    ${game.verticalArtwork && game.verticalArtwork.trim() ? 
+                      `<img src="${game.verticalArtwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
+                      `<div class="game-image-placeholder">
+                        <div class="placeholder-content">
+                          <i class="fas fa-gamepad" style="font-size: 3rem; color: #4a5568; margin-bottom: 10px;"></i>
+                          <p style="color: #a0aec0; margin: 0; font-size: 0.9rem;">Game Image</p>
+                          <p style="color: #a0aec0; margin: 0; font-size: 0.8rem;">Not Available</p>
+                        </div>
+                      </div>`
+                    }
+                  </div>
+                  
+                  ${this.renderEpicFeatures(game)}
+                </div>
+                <div class="col-md-8" id="gameDescription-${game.id}">
+                  <div class="info-section">
+                    <h6><i class="fas fa-gamepad text-primary"></i> Game Information</h6>
+                    <div class="info-grid">
+                      ${game.publisher ? `
+                        <div class="info-item">
+                          <span class="info-label">Publisher</span>
+                          <span class="info-value">${game.publisher}</span>
+                        </div>
+                      ` : ''}
+                      ${game.genre ? `
+                        <div class="info-item">
+                          <span class="info-label">Genre</span>
+                          <span class="info-value">${game.genre}</span>
+                        </div>
+                      ` : ''}
+                    </div>
+                  </div>
+                
+                  ${game.description ? `
+                    <div class="info-section">
+                      <h6>Description</h6>
+                      <div class="notes-content">${game.description}</div>
+                    </div>
+                  ` : ''}
+                </div>
+              </div>
+            </div>
+            
+            <!-- Testing Details Tab -->
+            <div class="tab-pane" id="testing-${game.id}" role="tabpanel">
+              ${this.renderTestingDetailsBootstrap(game)}
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+  renderTestingDetails(game) {
+    let content = '';
+    
+    // Technical Configuration
+    const hasConfig = game.dependencies || game.controller_config || game.required_launcher;
+    if (hasConfig) {
+      content += `
+        <div class="info-section">
+          <h6>Technical Configuration</h6>
+          <div class="info-list">
+            ${game.required_launcher ? `<div class="info-item"><strong>Required Launcher:</strong> ${game.required_launcher}</div>` : ''}
+            ${game.dependencies ? `<div class="info-item"><strong>Dependencies:</strong> ${game.dependencies}</div>` : ''}
+            ${game.controller_config ? `<div class="info-item"><strong>Controller Config:</strong> ${game.controller_config}</div>` : ''}
+          </div>
+        </div>
+      `;
+    }
+    
+    // Performance Notes
+    if (game.performance_notes) {
+      content += `
+        <div class="info-section">
+          <h6>Performance Notes</h6>
+          <div class="notes-content">${this.renderMarkdown(game.performance_notes)}</div>
+        </div>
+      `;
+    }
+    
+    // Known Issues
+    if (game.known_issues) {
+      content += `
+        <div class="info-section">
+          <h6>Known Issues</h6>
+          <div class="notes-content alert-warning">${this.renderMarkdown(game.known_issues)}</div>
+        </div>
+      `;
+    }
+    
+    return content || '<p style="color: #ccc; text-align: center; padding: 40px;">No additional testing details available.</p>';
+  }
+
+  setupModalEventListeners(modal) {
+    // Close button
+    const closeBtn = modal.querySelector('.modal-close');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', () => this.closeModal(modal));
+    }
+    
+    // Backdrop click
+    const backdrop = modal.querySelector('.modal-backdrop');
+    if (backdrop) {
+      backdrop.addEventListener('click', (e) => {
+        if (e.target === backdrop) {
+          this.closeModal(modal);
+        }
+      });
+    }
+    
+    // Bootstrap tab switching
+    const tabLinks = modal.querySelectorAll('.nav-link');
+    tabLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        // Remove active classes from all tabs
+        modal.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+        modal.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+        
+        // Add active class to clicked tab
+        link.classList.add('active');
+        
+        // Show corresponding tab content
+        const targetId = link.getAttribute('href').substring(1);
+        const targetPanel = modal.querySelector(`#${targetId}`);
+        if (targetPanel) {
+          targetPanel.classList.add('active');
+        }
+      });
+    });
+    
+    // Escape key
+    const escapeHandler = (e) => {
+      if (e.key === 'Escape') {
+        this.closeModal(modal);
+        document.removeEventListener('keydown', escapeHandler);
+      }
+    };
+    document.addEventListener('keydown', escapeHandler);
+  }
+
+  closeModal(modal) {
+    modal.classList.remove('show');
+    setTimeout(() => {
+      if (modal.parentNode) {
+        modal.parentNode.removeChild(modal);
+      }
+    }, 300);
+  }
+
+  getStatusClass(rating) {
+    if (!rating) return '';
+    const ratingLower = rating.toLowerCase();
+    if (ratingLower === 'perfect' || ratingLower === 'green') {
+      return 'text-success';
+    } else if (ratingLower === 'playable' || ratingLower === 'yellow') {
+      return 'text-warning';
+    } else if (ratingLower === 'broken' || ratingLower === 'red') {
+      return 'text-danger';
+    }
+    return '';
+  }
+
+  getStatusText(rating) {
+    if (!rating) return 'Not tested';
+    const ratingLower = rating.toLowerCase();
+    if (ratingLower === 'green') return 'Works great';
+    if (ratingLower === 'yellow') return 'Works with issues';
+    if (ratingLower === 'red') return 'Doesn\'t work';
+    return rating;
+  }
+
+  renderEpicFeatures(game) {
+    if (game.storefront !== 'Epic') return '';
+    
+    return `
+      <div class="info-section">
+        <h6><i class="fas fa-star text-warning"></i> Epic Games Features</h6>
+        <div class="epic-features-grid">
+          ${game.epic_achievements ? `
+            <div class="epic-feature-item">
+              <span>Achievements</span>
+              <span class="feature-status status-supported">✓ Supported</span>
+            </div>
+          ` : ''}
+          ${game.epic_offline_mode ? `
+            <div class="epic-feature-item">
+              <span>Offline Mode</span>
+              <span class="feature-status status-supported">✓ Available</span>
+            </div>
+          ` : ''}
+          ${game.requires_eos ? `
+            <div class="epic-feature-item">
+              <span>EOS Overlay</span>
+              <span class="feature-status status-required">Required</span>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+  }
+
+  renderTestingDetailsBootstrap(game) {
+    let content = '';
+    
+    // Technical Configuration
+    const hasConfig = game.dependencies || game.controller_config || game.required_launcher;
+    if (hasConfig) {
+      content += `
+        <div class="info-section">
+          <h6><i class="fas fa-tools text-success"></i> Technical Configuration</h6>
+          <div class="info-grid">
+            ${game.controller_input ? `
+              <div class="info-item">
+                <span class="info-label">Input Method</span>
+                <span class="info-value">
+                  🎮 ${game.controller_input === 'native' ? 'Native Controller' : game.controller_input}
+                </span>
+              </div>
+            ` : ''}
+            ${game.controller_config ? `
+              <div class="info-item">
+                <span class="info-label">Controller Config</span>
+                <span class="info-value">${game.controller_config}</span>
+              </div>
+            ` : ''}
+            ${game.protondb ? `
+              <div class="info-item">
+                <span class="info-label">ProtonDB</span>
+                <span class="info-value"><a href="${game.protondb}" target="_blank" rel="noopener noreferrer">View on ProtonDB <i class="fas fa-external-link-alt ms-1"></i></a></span>
+              </div>
+            ` : ''}
+          </div>
+        </div>
+      `;
+    }
+    
+    // Testing Notes
+    if (game.notes) {
+      content += `
+        <div class="info-section">
+          <h6><i class="fas fa-clipboard-list text-info"></i> Testing Notes</h6>
+          <div class="notes-content">${this.renderMarkdown(game.notes)}</div>
+        </div>
+      `;
+    }
+    
+    return content || '<p style="color: #ccc; text-align: center; padding: 40px;">No additional testing details available.</p>';
+  }
+
+  // Utility functions
+  slugify(text) {
+    return text.toLowerCase()
+      .replace(/[^\w\s-]/g, '')
+      .replace(/[\s_-]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
+  escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  renderMarkdown(text) {
+    if (!text) return '';
+    
+    let html = this.escapeHtml(text);
+    html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+    
+    return html;
+  }
+
+  showError(message) {
+    if (this.tableContainer) {
+      this.tableContainer.innerHTML = `
+        <div style="padding: 20px; text-align: center; color: #ff6b6b;">
+          <p><strong>Error:</strong> ${message}</p>
+        </div>
+      `;
+    }
+  }
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+  console.log('🎮 Initializing Static Optimized Games Table...');
+  window.gamesTable = new StaticOptimizedGamesTable();
+});

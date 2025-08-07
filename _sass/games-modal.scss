@@ -1,0 +1,550 @@
+/* Dark Theme Modal Styles for Junk Store Games Table */
+
+/* Enhanced Header - Dark Theme */
+.modal-header-enhanced {
+    background: linear-gradient(135deg, #334458 0%, #253445 100%) !important;
+    border-bottom: 2px solid #ffa366 !important;
+    padding: 20px !important;
+    position: relative !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+    color: #ffffff !important;
+}
+
+.game-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.game-basic-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+}
+
+.game-title-area h4 {
+    margin: 0 !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 1.4rem !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+}
+
+.game-meta {
+    color: #a0aec0;
+    font-size: 0.9rem;
+    margin-top: 2px;
+}
+
+.storefront-badge {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.storefront-epic { background: #2c3e50; color: white; }
+.storefront-gog { background: #7b68ee; color: white; }
+.storefront-amazon { background: #ff9900; color: white; }
+
+/* Essential Info Strip - Dark Theme */
+.essential-info {
+    background: linear-gradient(135deg, #253445 0%, #1e2a38 100%) !important;
+    padding: 20px !important;
+    border-bottom: 1px solid #4a5568 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 15px;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 12px;
+    background: #1e2a38;
+    border: 1px solid #4a5568;
+    border-radius: 10px;
+    transition: all 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.feature-item:hover {
+    background: #253445;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-color: #ffa366;
+}
+
+.feature-label {
+    font-size: 0.8rem;
+    color: #a0aec0;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.feature-value {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1rem;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Simple Tabs for Dark Theme */
+.simple-tabs {
+    border-bottom: 1px solid #4a5568;
+    background: #1a202c;
+    padding: 0 20px;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.tab-button {
+    border: none;
+    border-bottom: 3px solid transparent;
+    background: none;
+    color: #a0aec0;
+    font-weight: 600;
+    padding: 15px 25px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.tab-button:hover {
+    color: #ffa366;
+    background: rgba(255, 163, 102, 0.05);
+}
+
+.tab-button.active {
+    background: #2d3748;
+    border-bottom-color: #ffa366;
+    color: #ffa366;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Tab Content - Dark Theme */
+.tab-content-simple {
+    padding: 25px 30px !important;
+    min-height: 300px !important;
+    background: #2d3748 !important;
+    max-height: 400px !important;
+    overflow-y: auto !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+    color: #e2e8f0 !important;
+}
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+.info-section {
+    margin-bottom: 30px;
+}
+
+.info-section h6 {
+    color: #e2e8f0;
+    margin-bottom: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-item {
+    padding: 12px 15px !important;
+    background: rgba(45, 55, 72, 0.4) !important;
+    border-radius: 6px !important;
+    border: 1px solid rgba(74, 85, 104, 0.3) !important;
+    color: #e2e8f0 !important;
+    margin-bottom: 8px !important;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-weight: 500;
+    color: #a0aec0;
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.info-value {
+    color: #e2e8f0;
+    font-weight: 500;
+}
+
+.notes-content {
+    background: #1a202c;
+    border-left: 4px solid #ffa366;
+    padding: 15px;
+    border-radius: 0 8px 8px 0;
+    margin-top: 10px;
+    color: #e2e8f0;
+}
+
+.notes-content.alert-warning {
+    border-left-color: #f56565;
+    background: rgba(245, 101, 101, 0.1);
+}
+
+/* Compatibility indicators */
+.compatibility-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    border-radius: 25px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.compatibility-good { background: rgba(72, 187, 120, 0.2); color: #48bb78; }
+.compatibility-okay { background: rgba(236, 201, 75, 0.2); color: #ecc94b; }
+.compatibility-bad { background: rgba(245, 101, 101, 0.2); color: #f56565; }
+.compatibility-unknown { color: #a0aec0; }
+
+/* Modal backdrop and basic styling - Override Bootstrap */
+.game-modal {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0, 0, 0, 0.85) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 1050 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: all 0.3s ease !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+    color: #e2e8f0 !important;
+    box-sizing: border-box !important;
+    padding: 20px !important;
+    overflow: auto !important;
+}
+
+.game-modal.show {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.modal-backdrop {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.modal-content {
+    background: #1a202c !important;
+    border-radius: 12px !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5) !important;
+    max-width: 1200px !important;
+    width: 90vw !important;
+    max-height: 85vh !important;
+    overflow: hidden !important;
+    overflow-y: auto !important;
+    position: relative !important;
+    transform: scale(0.9) !important;
+    transition: transform 0.3s ease !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+    color: #e2e8f0 !important;
+    margin: 0 auto !important;
+}
+
+.game-modal.show .modal-content {
+    transform: scale(1) !important;
+}
+
+.modal-close {
+    position: absolute !important;
+    top: 15px !important;
+    right: 15px !important;
+    background: none !important;
+    border: none !important;
+    font-size: 24px !important;
+    color: #a0aec0 !important;
+    cursor: pointer !important;
+    padding: 5px !important;
+    line-height: 1 !important;
+    transition: color 0.2s !important;
+    z-index: 10 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+}
+
+.modal-close:hover {
+    color: #e2e8f0 !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1200px) {
+    .modal-content {
+        max-width: 95vw;
+        width: 95vw;
+    }
+    
+    .feature-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .game-header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .tab-button {
+        padding: 12px 15px;
+        font-size: 0.9rem;
+    }
+    
+    .tab-content-simple {
+        padding: 15px 20px;
+    }
+    
+    .modal-content {
+        max-width: 95vw;
+        width: 95vw;
+        margin: 10px;
+    }
+}
+
+/* Bootstrap modal components */
+.game-banner {
+    display: block !important;
+}
+
+.nav-tabs-clean {
+    border-bottom: 1px solid #4a5568 !important;
+    background: #1a202c !important;
+    padding: 0 20px !important;
+    margin: 0 !important;
+    display: flex !important;
+    list-style: none !important;
+}
+
+.nav-tabs-clean .nav-item {
+    margin-bottom: -1px !important;
+    list-style: none !important;
+}
+
+.nav-tabs-clean .nav-link {
+    border: none !important;
+    border-bottom: 3px solid transparent !important;
+    background: none !important;
+    color: #a0aec0 !important;
+    font-weight: 600 !important;
+    padding: 15px 25px !important;
+    transition: all 0.2s !important;
+    text-decoration: none !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.nav-tabs-clean .nav-link:hover {
+    color: #ffa366 !important;
+    background: rgba(255, 163, 102, 0.05) !important;
+    text-decoration: none !important;
+}
+
+.nav-tabs-clean .nav-link.active {
+    background: #2d3748 !important;
+    border-bottom-color: #ffa366 !important;
+    color: #ffa366 !important;
+    border-radius: 8px 8px 0 0 !important;
+}
+
+.tab-content-enhanced {
+    padding: 25px 30px !important;
+    min-height: 300px !important;
+    background: #2d3748 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
+    color: #e2e8f0 !important;
+}
+
+.tab-pane {
+    display: none !important;
+}
+
+.tab-pane.active {
+    display: block !important;
+}
+
+.row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin: 0 -15px !important;
+}
+
+.col-md-4, .col-md-8 {
+    padding: 0 15px !important;
+}
+
+.col-md-4 {
+    flex: 0 0 33.333333% !important;
+    max-width: 33.333333% !important;
+}
+
+.col-md-8 {
+    flex: 0 0 66.666667% !important;
+    max-width: 66.666667% !important;
+}
+
+.game-image-container {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+}
+
+.game-image-main {
+    max-height: 320px !important;
+    max-width: 100% !important;
+    border-radius: 12px !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15) !important;
+    transition: transform 0.2s ease !important;
+}
+
+.game-image-main:hover {
+    transform: scale(1.02) !important;
+}
+
+.info-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    gap: 15px !important;
+}
+
+.epic-features-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+}
+
+.epic-feature-item {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 8px 12px !important;
+    background: rgba(42, 52, 70, 0.5) !important;
+    border-radius: 6px !important;
+    border: 1px solid #4a5568 !important;
+}
+
+.epic-feature-item:last-child {
+    border-bottom: none !important;
+}
+
+/* Epic features section styling */
+.epic-features {
+    background: rgba(42, 52, 70, 0.3) !important;
+    border-radius: 8px !important;
+    padding: 15px !important;
+    margin-top: 15px !important;
+    border: 1px solid #4a5568 !important;
+}
+
+.feature-status.status-supported {
+    color: #48bb78 !important;
+    font-weight: 600 !important;
+}
+
+.feature-status.status-required {
+    color: #f56565 !important;
+    font-weight: 600 !important;
+}
+
+/* Bootstrap-like text utilities for dark theme */
+.text-primary { color: #ffa366 !important; }
+.text-success { color: #48bb78 !important; }
+.text-warning { color: #ecc94b !important; }
+.text-danger { color: #f56565 !important; }
+.text-info { color: #63b3ed !important; }
+
+.me-2 { margin-right: 0.5rem !important; }
+.ms-1 { margin-left: 0.25rem !important; }
+
+/* Game banner styling */
+.game-banner {
+    display: block !important;
+    overflow: hidden !important;
+    border-radius: 8px 8px 0 0 !important;
+}
+
+.game-banner img {
+    width: 100% !important;
+    max-height: 200px !important;
+    object-fit: cover !important;
+    display: block !important;
+}
+
+/* Image placeholder styling */
+.game-image-placeholder {
+    width: 100% !important;
+    max-height: 320px !important;
+    height: 200px !important;
+    background: rgba(42, 52, 70, 0.3) !important;
+    border: 2px dashed #4a5568 !important;
+    border-radius: 12px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.placeholder-content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+@media (max-width: 768px) {
+    .col-md-4, .col-md-8 {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    
+    .row {
+        flex-direction: column !important;
+    }
+    
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    .info-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
