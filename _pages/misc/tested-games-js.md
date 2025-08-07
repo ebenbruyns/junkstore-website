@@ -44,7 +44,10 @@ window.featuredGamesData = {{ site.data.featured_games | jsonify }};
   
   <div class="control-group">
     <label for="searchInput">Search:</label>
-    <input type="text" id="searchInput" placeholder="Type game name..." autocomplete="off">
+    <div class="search-input-wrapper">
+      <input type="text" id="searchInput" placeholder="Type game name..." autocomplete="off">
+      <span id="clearSearch" class="search-clear-btn" title="Clear search">×</span>
+    </div>
   </div>
   
   <div class="control-group">
