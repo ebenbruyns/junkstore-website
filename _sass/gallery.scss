@@ -11,7 +11,8 @@
   margin: 0 auto; // center it if there's only one
 }
 
-.media-item img {
+.media-item img,
+.media-item video {
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
@@ -23,11 +24,39 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.media-item img.zoomed {
+.media-item img.zoomed,
+.media-item video.zoomed {
   transform: scale(1.5);
   box-shadow: 0 12px 32px rgba(0,0,0,0.6);
-  z-index: 1000;
+  z-index: 10500 !important;
   position: relative;
+}
+
+.close-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10502;
+  line-height: 1;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.close-btn:hover {
+  background: rgba(0, 0, 0, 1);
+  border-color: rgba(255, 255, 255, 0.6);
+  transform: scale(1.1);
 }
 
 .caption-title {
