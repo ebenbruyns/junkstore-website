@@ -34,9 +34,11 @@ header:
 <section class="pricing-highlight">
   <div class="pricing-box">
     <h3>🚀 Get Everything for $40/Year</h3>
-    <p class="price-text"><strong>Less than $1 per week</strong> for unlimited Epic, GOG & Amazon gaming without Desktop Mode frustration</p>
-    <p class="trial-text"><strong>7 full days free to try everything</strong> • Only charged if you keep it • Cancel anytime</p>
-    <p class="value-text">💯 <strong>Start Your Risk-Free Trial:</strong> Immediate access to all features and platforms with easy cancellation if it's not the perfect fit</p>
+    <p class="price-text">Less than $1 per week for unlimited Epic, GOG & Amazon gaming without Desktop Mode frustration</p>
+    <p class="trial-text">7 full days free to try everything • Only charged if you keep it • Cancel anytime</p>
+    <p class="value-text">💯 Start Your Risk-Free Trial: Immediate access to all features and platforms with easy cancellation if it's not the perfect fit</p>
+    <p class="ownership-text">✅ <strong>Own JunkStore 2.0 Forever - $40</strong> Keep Everything You've Paid For: Includes 1 full year of updates. Keep everything permanently.
+Only pay again if you want future updates beyond year 1.</p>
     <p class="fence-text">Transform your Steam Deck experience today with the only Game Mode-native solution.</p>
     <div class="pricing-cta">
       <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Sign Up Now</a>
