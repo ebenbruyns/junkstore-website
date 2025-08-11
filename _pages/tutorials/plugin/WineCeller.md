@@ -54,16 +54,16 @@ Installing Wine Cellar is just like installing Junk Store.
 - Use the search bar to find **Wine Cellar**
 - Click **Install**
 
-![Wine Cellar in Decky Store](/assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg)
+![Wine Cellar in Decky Store](/assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg){: loading="lazy"}
 
 ---
 
 ### Step 2: Confirm Installation
 - When asked, press `A` to confirm and begin the install.
 
-![Install Wine Cellar](/assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg)
+![Install Wine Cellar](/assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg){: loading="lazy"}
 
-![Installing Wine Cellar](/assets/images/Wine/Installing%20Wine%20Cellar.jpg)
+![Installing Wine Cellar](/assets/images/Wine/Installing%20Wine%20Cellar.jpg){: loading="lazy"}
 
 ---
 
@@ -73,9 +73,9 @@ Installing Wine Cellar is just like installing Junk Store.
 - Press `A` to open it
 - Press `A` again on **Manage**
 
-![Open Wine Cellar Plugin](/assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg)
+![Open Wine Cellar Plugin](/assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg){: loading="lazy"}
 
-![Manage Menu](/assets/images/Wine/Wine%20Cellar%20Manage.jpg)
+![Manage Menu](/assets/images/Wine/Wine%20Cellar%20Manage.jpg){: loading="lazy"}
 
 ---
 
@@ -83,7 +83,7 @@ Installing Wine Cellar is just like installing Junk Store.
 - The **Wine Cellar Dashboard** will show all Proton versions currently installed
 - From here you can install, remove, or update versions
 
-![Proton Installed List](/assets/images/Wine/Proton%20Installed.jpg)
+![Proton Installed List](/assets/images/Wine/Proton%20Installed.jpg){: loading="lazy"}
 
 ---
 
@@ -95,9 +95,9 @@ We recommend using **GE-Proton** versions because they support more games and fi
 - Scroll to the **GE-Proton** version you want
 - Move to the **three dots**, then press `A`
 
-![Choose Proton to Install](/assets/images/Wine/Proton%20Not%20Installed.jpg)
+![Choose Proton to Install](/assets/images/Wine/Proton%20Not%20Installed.jpg){: loading="lazy"}
 
-![Confirm Install Selection](/assets/images/Wine/Install%20selection%20PV.jpg)
+![Confirm Install Selection](/assets/images/Wine/Install%20selection%20PV.jpg){: loading="lazy"}
 
 ---
 
@@ -105,19 +105,19 @@ We recommend using **GE-Proton** versions because they support more games and fi
 - It will now install (e.g., **GEProton 9-12**)
 - Once finished, restart your Steam Deck to apply it
 
-![Installing Proton Version](/assets/images/Wine/Installing%20PV.jpg)
+![Installing Proton Version](/assets/images/Wine/Installing%20PV.jpg){: loading="lazy"}
 
-![Extracting Files](/assets/images/Wine/Extracting%20PV.jpg)
+![Extracting Files](/assets/images/Wine/Extracting%20PV.jpg){: loading="lazy"}
 
-![Restart Prompt](/assets/images/Wine/Restart%20to%20use%20PV.jpg)
+![Restart Prompt](/assets/images/Wine/Restart%20to%20use%20PV.jpg){: loading="lazy"}
 
 ---
 
 After restarting, go back to the game you want to run and hit **Play**.
 
-![Game Proton Selected](/assets/images/Wine/TMNT%20PV%20Selection.jpg)
+![Game Proton Selected](/assets/images/Wine/TMNT%20PV%20Selection.jpg){: loading="lazy"}
 
-![Game Start Screen](/assets/images/Wine/TMNT%20Start%20Screen.jpg)
+![Game Start Screen](/assets/images/Wine/TMNT%20Start%20Screen.jpg){: loading="lazy"}
 
 ---
 
@@ -129,9 +129,9 @@ Got a Proton version you don’t need anymore? Here’s how to clean it up:
 - Move to the **three dots** and press `A`
 - Confirm the uninstall
 
-![Select to Uninstall](/assets/images/Wine/PV%20to%20uninstall.jpg)
+![Select to Uninstall](/assets/images/Wine/PV%20to%20uninstall.jpg){: loading="lazy"}
 
-![Uninstall Confirm](/assets/images/Wine/Uninstall%20PV.jpg)
+![Uninstall Confirm](/assets/images/Wine/Uninstall%20PV.jpg){: loading="lazy"}
 
 That’s it! The version will be removed from your system.
 
