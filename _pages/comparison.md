@@ -94,7 +94,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ✅ Advanced Queue System <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <video autoplay muted loop playsinline>
+              <video autoplay muted loop playsinline preload="none">
                 <source src="/assets/images/jspro/tablegifs/download.webm" type="video/webm">
                 <img src="/assets/images/jspro/tablegifs/download.gif" alt="Download queue management demo">
               </video>
@@ -143,7 +143,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ✅ Multi-Language Support <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <video autoplay muted loop playsinline>
+              <video autoplay muted loop playsinline preload="none">
                 <source src="/assets/images/jspro/tablegifs/languageselection.webm" type="video/webm">
                 <img src="/assets/images/jspro/tablegifs/languageselection.gif" alt="Language selection demo">
               </video>
@@ -162,7 +162,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ✅ Flexible Launcher System <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <video autoplay muted loop playsinline>
+              <video autoplay muted loop playsinline preload="none">
                 <source src="/assets/images/jspro/tablegifs/changelauncher.webm" type="video/webm">
                 <img src="/assets/images/jspro/tablegifs/changelauncher.gif" alt="Per-game launcher configuration demo">
               </video>
@@ -211,7 +211,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ⚙️ Built-in Installer <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <video autoplay muted loop playsinline>
+              <video autoplay muted loop playsinline preload="none">
                 <source src="/assets/images/jspro/tablegifs/dependencies.webm" type="video/webm">
                 <img src="/assets/images/jspro/tablegifs/dependencies.gif" alt="Automated dependency installation demo">
               </video>

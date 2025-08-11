@@ -38,7 +38,7 @@ Make sure you’re using the correct **Store Channel** in Decky.
   - `Default` for the main store
   - `Testing` for the test version
 
-![Decky Store Change](/assets/images/JSInstall/Decky%20Store%20Change.jpeg)
+![Decky Store Change](/assets/images/JSInstall/Decky%20Store%20Change.jpeg){: loading="lazy"}
 
 ---
 
@@ -51,7 +51,7 @@ Make sure you’re using the correct **Store Channel** in Decky.
 
 > 💡 You can also choose a specific version before installing.
 
-![Junk Store Install](/assets/images/JSInstall/Junk-Store%20Install.jpeg)
+![Junk Store Install](/assets/images/JSInstall/Junk-Store%20Install.jpeg){: loading="lazy"}
 
 ---
 
@@ -63,7 +63,7 @@ Make sure you’re using the correct **Store Channel** in Decky.
 
 > ⏳ This might take a while (around 30 seconds, or longer). Just wait — it’s normal.
 
-![Install Dependencies](/assets/images/JSInstall/Dependencies.jpeg)
+![Install Dependencies](/assets/images/JSInstall/Dependencies.jpeg){: loading="lazy"}
 
 ---
 
@@ -72,8 +72,8 @@ Make sure you’re using the correct **Store Channel** in Decky.
 - From the Junk Store menu, select **Games**
 - You’ll be prompted to log in to your **Epic Games** account
 
-![Login Epic](/assets/images/JSInstall/Login%20Epic.jpeg)
-![Epic Login Dialogue](/assets/images/JSInstall/Epic%20Login%20Dialogue.jpg)
+![Login Epic](/assets/images/JSInstall/Login%20Epic.jpeg){: loading="lazy"}
+![Epic Login Dialogue](/assets/images/JSInstall/Epic%20Login%20Dialogue.jpg){: loading="lazy"}
 
 > ✅ Make sure the Epic account you log in with has games in its library, or nothing will show up.
 
@@ -96,7 +96,7 @@ If you want to log in using **Xbox**, **PlayStation**, **Nintendo**, or another 
   - Make sure **Show Installed** is not selected
   - Clear the search box if needed
 
-![Epic Library](/assets/images/JSInstall/Epic%20Library%20v2.jpeg)
+![Epic Library](/assets/images/JSInstall/Epic%20Library%20v2.jpeg){: loading="lazy"}
 
 > ⚠️ Games that need **EA App** or **Origin** won’t show up — they aren't supported.
 
@@ -111,7 +111,7 @@ To make sure everything works:
 
 > ❗ Avoid huge or complex games right away. Some games need extra setup to work properly on Steam Deck.
 
-![Doom64 Install](/assets/images/JSInstall/Doom64%20install.jpeg)
+![Doom64 Install](/assets/images/JSInstall/Doom64%20install.jpeg){: loading="lazy"}
 
 ---
 
@@ -138,7 +138,7 @@ Still stuck? Ask for help on [r/JunkStore](https://www.reddit.com/r/JunkStore/) 
 
 Steam Deck Gaming made a great video showing how to install Junk Store (including Fall Guys):
 
-[![Watch on YouTube](https://img.youtube.com/vi/tgc7yiKtpW0/0.jpg)](https://www.youtube.com/watch?v=tgc7yiKtpW0)
+[![Watch on YouTube](https://img.youtube.com/vi/tgc7yiKtpW0/0.jpg){: loading="lazy"}](https://www.youtube.com/watch?v=tgc7yiKtpW0)
 
 ---
 
