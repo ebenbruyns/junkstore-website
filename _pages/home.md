@@ -62,7 +62,10 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
       <h3>Your Handheld Deserves a Handheld Experience</h3>
       <p>While free alternatives require Desktop Mode switching, Junk Store keeps everything in the comfortable Game Mode interface you bought your Steam Deck for.</p>
     </div>
-    <img src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, and Amazon">
+    <video autoplay muted loop playsinline>
+      <source src="{{ '/assets/images/landing/LibrariesNew.webm' | relative_url }}" type="video/webm">
+      <img src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, and Amazon">
+    </video>
   </div>
 </section>
 
@@ -72,7 +75,10 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
       <h3>Stay in Your Comfort Zone. Keep Gaming.</h3>
       <p>One-click installs, instant library access, and streamlined game management - all from the controller-friendly interface you prefer.</p>
     </div>
-    <img src="{{ '/assets/images/landing/Install.gif' | relative_url }}" alt="One-click game installation directly in Game Mode">
+    <video autoplay muted loop playsinline>
+      <source src="{{ '/assets/images/landing/Install.webm' | relative_url }}" type="video/webm">
+      <img src="{{ '/assets/images/landing/Install.gif' | relative_url }}" alt="One-click game installation directly in Game Mode">
+    </video>
   </div>
 </section>
 
@@ -80,19 +86,19 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
   <h2>Why Choose Junk Store Over Free Alternatives?</h2>
   <div class="comparison-grid">
     <div class="comparison-item">
-      <h4>🎯 Desktop Mode Dependency</h4>
+      <h3>🎯 Desktop Mode Dependency</h3>
       <p><strong>Most alternatives:</strong> Excellent desktop applications designed for traditional PC workflows</p>
       <p><strong>The structural difference:</strong> Desktop-based architecture requires switching out of handheld mode</p>
       <p><strong>Junk Store approach:</strong> Game Mode-native architecture eliminates desktop switching entirely</p>
     </div>
     <div class="comparison-item">
-      <h4>🎯 Workflow Philosophy</h4>
+      <h3>🎯 Workflow Philosophy</h3>
       <p><strong>Most alternatives:</strong> Desktop-first design with comprehensive configuration options</p>
       <p><strong>The structural difference:</strong> Designed for users comfortable with desktop game management</p>
       <p><strong>Junk Store approach:</strong> Handheld-first design prioritizing controller navigation and simplicity</p>
     </div>
     <div class="comparison-item">
-      <h4>🎯 Library Access & Integration</h4>
+      <h3>🎯 Library Access & Integration</h3>
       <p><strong>Most alternatives:</strong> Must launch separate launcher apps to view your library and install games</p>
       <p><strong>The structural difference:</strong> Need to open the launcher application first to browse and install from your Epic, GOG, or Amazon libraries</p>
       <p><strong>Junk Store approach:</strong> Entire library (installed and uninstalled games) visible directly in Game Mode</p>

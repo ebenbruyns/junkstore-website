@@ -3,6 +3,7 @@ layout: splash
 title: "Decky Plugin Troubleshooting"
 category: troubleshooting
 permalink: /troubleshooting/plugin/
+redirect_to: /troubleshooting/decky/#general-plugin-issues
 classes: wide
 header:
   overlay_color: "#000"

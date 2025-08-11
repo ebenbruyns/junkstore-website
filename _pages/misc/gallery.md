@@ -22,7 +22,7 @@ classes: wide
     <img 
       class="gif-click" 
       src="/assets/images/jspro/gallery/download-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/download.gif" 
+      data-gif="/assets/images/jspro/gallery/download.webm" 
       alt="Cloud saves" 
       data-still="/assets/images/jspro/gallery/download-still.jpg"
     >
@@ -34,7 +34,7 @@ classes: wide
     <img 
       class="gif-click" 
       src="/assets/images/jspro/gallery/language-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/languageselection.gif" 
+      data-gif="/assets/images/jspro/gallery/languageselection.webm" 
       alt="Install dependencies" 
       data-still="/assets/images/jspro/gallery/language-still.jpg"
     >
@@ -47,7 +47,7 @@ classes: wide
     <img 
       class="gif-click" 
       src="/assets/images/jspro/gallery/dependencies-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/dependencies.gif" 
+      data-gif="/assets/images/jspro/gallery/dependencies.webm" 
       alt="Install dependencies" 
       data-still="/assets/images/jspro/gallery/dependencies-still.jpg"
     >
@@ -59,7 +59,7 @@ classes: wide
     <img 
       class="gif-click" 
       src="/assets/images/jspro/gallery/changelauncher-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/changelauncher.gif" 
+      data-gif="/assets/images/jspro/gallery/changelauncher.webm" 
       alt="Change launcher" 
       data-still="/assets/images/jspro/gallery/changelauncher-still.jpg"
     >
@@ -114,27 +114,79 @@ document.addEventListener("DOMContentLoaded", function () {
   const imgs = document.querySelectorAll(".gif-click");
 
   function unzoomAll() {
-    imgs.forEach(img => {
+    // Remove close button if it exists
+    const closeBtn = document.querySelector('.close-btn');
+    if (closeBtn) {
+      closeBtn.remove();
+    }
+    
+    // Handle videos - convert back to images
+    document.querySelectorAll('video.gif-click.zoomed').forEach(video => {
+      const stillSrc = video.getAttribute("data-still");
+      const gifSrc = video.getAttribute("data-gif");
+      const altText = video.getAttribute("alt");
+      video.outerHTML = `<img class="gif-click" src="${stillSrc}" data-gif="${gifSrc}" alt="${altText}" data-still="${stillSrc}">`;
+    });
+    
+    // Handle regular images
+    document.querySelectorAll('.gif-click').forEach(img => {
       img.classList.remove("zoomed");
-      img.src = img.getAttribute("data-still");
+      if (img.tagName === 'IMG') {
+        img.src = img.getAttribute("data-still");
+      }
+    });
+    
+    // Re-attach event listeners after DOM changes
+    attachClickListeners();
+  }
+
+  function attachClickListeners() {
+    const currentImgs = document.querySelectorAll(".gif-click");
+    currentImgs.forEach(img => {
+      img.removeEventListener("click", handleClick); // Remove existing listeners
+      img.addEventListener("click", handleClick);
     });
   }
 
-  imgs.forEach(img => {
-    img.addEventListener("click", e => {
-      e.stopPropagation(); // prevent event bubbling to document click
-      const isZoomed = img.classList.contains("zoomed");
+  function handleClick(e) {
+    e.stopPropagation();
+    const img = e.target;
+    const isZoomed = img.classList.contains("zoomed");
 
-      // Unzoom all first
-      unzoomAll();
+    // Unzoom all first
+    unzoomAll();
 
-      if (!isZoomed) {
-        // Zoom this one and switch to GIF
-        img.src = img.getAttribute("data-gif");
-        img.classList.add("zoomed");
-      }
-    });
-  });
+    if (!isZoomed) {
+      // Zoom this one and switch to video
+      const videoSrc = img.getAttribute("data-gif");
+      const stillSrc = img.getAttribute("data-still");
+      const altText = img.getAttribute("alt");
+      
+      img.outerHTML = `<video class="gif-click zoomed" autoplay muted loop playsinline data-gif="${videoSrc}" alt="${altText}" data-still="${stillSrc}">
+        <source src="${videoSrc}" type="video/webm">
+        <img src="${stillSrc}" alt="${altText}">
+      </video>`;
+      
+      // Add close button separately, outside the scaled container
+      const closeBtn = document.createElement('button');
+      closeBtn.className = 'close-btn';
+      closeBtn.innerHTML = '&times;';
+      document.body.appendChild(closeBtn);
+      
+      // Re-attach listeners immediately after creating the video
+      setTimeout(() => {
+        attachClickListeners();
+        // Add close button listener
+        closeBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          unzoomAll();
+        });
+      }, 0);
+    }
+  }
+
+  // Initial attachment
+  attachClickListeners();
 
   // Click anywhere else closes all zooms
   document.addEventListener("click", () => {
