@@ -6,6 +6,9 @@ assets/lib
 # Project management and internal documentation
 *.backup
 
+# WebM backup files
+assets/images/backups/
+
 # Build artifacts
 .sass-cache/
 __pycache__/
