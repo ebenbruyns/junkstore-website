@@ -150,7 +150,7 @@ That’s it! The version will be removed from your system.
 
 If you run into trouble, check out:
 - [Plugin Help](/deckyhelp)
-- [Plugin FAQ](/faq/deckyfaq)
+- [Plugin FAQ](/faq/decky/)
 - [Decky Plugin Troubleshooting](/troubleshooting/plugin)
 - [Epic Games Troubleshooting](/troubleshooting/epic)
 - [Gog Extension Troubleshooting](/troubleshooting/gog)
