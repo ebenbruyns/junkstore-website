@@ -17,13 +17,28 @@ header:
 excerpt: "From plugin limitations to professional platform - discover what's possible when you never leave Game Mode"
 ---
 
+
 <section class="comparison-hero">
   <h1>Decky Plugin vs Junk Store 2.0</h1>
   <p class="lead-text">The Decky plugin proved the concept. <strong>Junk Store 2.0 perfects the execution.</strong></p>
   <p>See exactly what you gain by upgrading from the free plugin to the professional Game Mode-native platform.</p>
 </section>
 
-<section class="value-proposition">
+<section class="recent-updates-section" id="recent-updates">
+  <h2>🆕 Recent Updates to Junk Store 2.0</h2>
+  <div class="updates-content">
+    <div class="update-item">
+      <h4>🔌 Offline Mode Per Game</h4>
+      <p><strong>NEW:</strong> Set offline mode individually for each game across all storefronts. Unlike the Decky version which requires global settings under each tab, Junk Store 2.0 lets you configure offline mode per-game for precise control.</p>
+    </div>
+    <div class="update-item">
+      <h4>🌐 Per-Game System Language Control</h4>
+      <p><strong>NEW:</strong> Configure game language setting for games that use system language detection. No more manual file editing to add language codes like the Decky version requires.</p>
+    </div>
+  </div>
+</section>
+
+<section class="value-proposition" id="key-benefits">
   <div class="value-grid">
     <div class="value-item">
       <h3>🚀 From 100 to 1,000 Games</h3>
@@ -40,7 +55,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
   </div>
 </section>
 
-<section class="comparison-table-section">
+<section class="comparison-table-section" id="feature-comparison">
   <h2>Complete Feature Comparison</h2>
   <p class="table-intro">Every feature comparison includes live demonstrations. Hover over "👁️ Hover to view" to see the functionality in action.</p>
   
@@ -79,7 +94,10 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ✅ Advanced Queue System <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <img src="/assets/images/jspro/tablegifs/download.gif" alt="Download queue management demo">
+              <video autoplay muted loop playsinline>
+                <source src="/assets/images/jspro/tablegifs/download.webm" type="video/webm">
+                <img src="/assets/images/jspro/tablegifs/download.gif" alt="Download queue management demo">
+              </video>
               <p>Manage multiple downloads, pause/resume, and monitor progress</p>
             </div>
           </td>
@@ -125,7 +143,10 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ✅ Multi-Language Support <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <img src="/assets/images/jspro/tablegifs/languageselection.gif" alt="Language selection demo">
+              <video autoplay muted loop playsinline>
+                <source src="/assets/images/jspro/tablegifs/languageselection.webm" type="video/webm">
+                <img src="/assets/images/jspro/tablegifs/languageselection.gif" alt="Language selection demo">
+              </video>
               <p>Choose your preferred language for supported games</p>
             </div>
           </td>
@@ -141,7 +162,10 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ✅ Flexible Launcher System <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <img src="/assets/images/jspro/tablegifs/changelauncher.gif" alt="Per-game launcher configuration demo">
+              <video autoplay muted loop playsinline>
+                <source src="/assets/images/jspro/tablegifs/changelauncher.webm" type="video/webm">
+                <img src="/assets/images/jspro/tablegifs/changelauncher.gif" alt="Per-game launcher configuration demo">
+              </video>
               <p>Customize launcher behavior for each individual game</p>
             </div>
           </td>
@@ -187,7 +211,10 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td class="hover-popup" onmouseenter="restartGif(this)">
             ⚙️ Built-in Installer <span class="hover-label">👁️ Hover to view</span>
             <div class="gif-popup">
-              <img src="/assets/images/jspro/tablegifs/dependencies.gif" alt="Automated dependency installation demo">
+              <video autoplay muted loop playsinline>
+                <source src="/assets/images/jspro/tablegifs/dependencies.webm" type="video/webm">
+                <img src="/assets/images/jspro/tablegifs/dependencies.gif" alt="Automated dependency installation demo">
+              </video>
               <p>Automatic dependency detection and one-click installation</p>
             </div>
             <br>🛠️ Manual Available<br>🧪 Proton Tricks Compatible
@@ -203,11 +230,21 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td>💻 Code-Heavy Modifications</td>
           <td>🧠 Generated Templates + Hooks</td>
         </tr>
+        <tr>
+          <td><strong>Offline Mode Per Game</strong></td>
+          <td>🔧 Requires Global Setting Under Each Tab</td>
+          <td>✅ Per-Game Configuration<br><span style="font-size: 0.9em; color: #ccc;">Set offline mode individually for each game across all storefronts</span></td>
+        </tr>
+        <tr>
+          <td><strong>System Language Detection Per Game</strong></td>
+          <td>🔧 Requires Manual File Editing<br><span style="font-size: 0.9em; color: #ccc;">Must alter files to add language codes</span></td>
+          <td>✅ Per Game Language Setting<br><span style="font-size: 0.9em; color: #ccc;">Individual language control for games that use system language detection</span></td>
+        </tr>
       </tbody>
   </table>
 </section>
 
-<section class="upgrade-benefits">
+<section class="upgrade-benefits" id="upgrade-benefits">
   <h2>Why 250,000+ Users Are Considering the Upgrade</h2>
   <div class="benefits-grid">
     <div class="benefit-item">
@@ -237,7 +274,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
   </div>
 </section>
 
-<section class="pricing-comparison">
+<section class="pricing-comparison" id="pricing">
   <div class="pricing-box">
     <h2>Investment vs. Value</h2>
     <div class="price-comparison">
@@ -269,7 +306,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
   </div>
 </section>
 
-<section class="trial-cta">
+<section class="trial-cta" id="trial">
   <div class="cta-box">
     <h2>Ready to Experience the Difference?</h2>
     <p>Try Junk Store 2.0 risk-free for 7 full days. Experience every feature, test your games, and see the performance improvement firsthand.</p>
@@ -310,5 +347,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
 });
 </script>

@@ -107,7 +107,10 @@ header:
           <td class="hover-popup" onmouseenter="restartGif(this)">
               ✅ Yes <span class="hover-label">👁️ Hover to view</span>
               <div class="gif-popup">
-                <img src="/assets/images/jspro/tablegifs/download.gif" alt="Demo">
+                <video autoplay muted loop playsinline>
+                  <source src="/assets/images/jspro/tablegifs/download.webm" type="video/webm">
+                  <img src="/assets/images/jspro/tablegifs/download.gif" alt="Demo">
+                </video>
               </div><br>
           </td>
       </tr>
@@ -122,7 +125,10 @@ header:
           <td class="hover-popup" onmouseenter="restartGif(this)">
               ✅ Yes <span class="hover-label">👁️ Hover to view</span>
               <div class="gif-popup">
-                <img src="/assets/images/jspro/tablegifs/languageselection.gif" alt="Demo">
+                <video autoplay muted loop playsinline>
+                  <source src="/assets/images/jspro/tablegifs/languageselection.webm" type="video/webm">
+                  <img src="/assets/images/jspro/tablegifs/languageselection.gif" alt="Demo">
+                </video>
               </div><br> 
           </td>
       </tr>
@@ -131,7 +137,10 @@ header:
           <td class="hover-popup" onmouseenter="restartGif(this)">
               ✅ Yes <span class="hover-label">👁️ Hover to view</span>
               <div class="gif-popup">
-                <img src="/assets/images/jspro/tablegifs/changelauncher.gif" alt="Demo">
+                <video autoplay muted loop playsinline>
+                  <source src="/assets/images/jspro/tablegifs/changelauncher.webm" type="video/webm">
+                  <img src="/assets/images/jspro/tablegifs/changelauncher.gif" alt="Demo">
+                </video>
               </div><br>
           </td>
       </tr>
@@ -148,7 +157,10 @@ header:
         <td class="hover-popup" onmouseenter="restartGif(this)">
           ⚙️ Built-in <span class="hover-label">👁️ Hover to view</span>
           <div class="gif-popup">
-            <img src="/assets/images/jspro/tablegifs/dependencies.gif" alt="Demo">
+            <video autoplay muted loop playsinline>
+              <source src="/assets/images/jspro/tablegifs/dependencies.webm" type="video/webm">
+              <img src="/assets/images/jspro/tablegifs/dependencies.gif" alt="Demo">
+            </video>
           </div><br>
           🛠️ Manual<br>
           🧪 Proton Tricks

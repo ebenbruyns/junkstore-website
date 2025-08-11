@@ -187,7 +187,7 @@ From here, you can:</p>
 
 <ul>
   <li><a href="/deckyhelp">Plugin Help</a></li>
-  <li><a href="/faq/deckyfaq">Plugin FAQ</a></li>
+  <li><a href="/faq/decky/">Plugin FAQ</a></li>
   <li><a href="/troubleshooting/plugin">Decky Plugin Troubleshooting</a></li>
   <li><a href="/troubleshooting/epic">Epic Games Troubleshooting</a></li>
   <li><a href="/troubleshooting/gog">GOG Extension Troubleshooting</a></li>
