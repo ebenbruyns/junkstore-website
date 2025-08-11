@@ -62,9 +62,8 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
       <h3>Your Handheld Deserves a Handheld Experience</h3>
       <p>While free alternatives require Desktop Mode switching, Junk Store keeps everything in the comfortable Game Mode interface you bought your Steam Deck for.</p>
     </div>
-    <video autoplay muted loop playsinline>
+    <video autoplay muted loop playsinline preload="none">
       <source src="{{ '/assets/images/landing/LibrariesNew.webm' | relative_url }}" type="video/webm">
-      <img src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, and Amazon">
     </video>
   </div>
 </section>
@@ -75,9 +74,8 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
       <h3>Stay in Your Comfort Zone. Keep Gaming.</h3>
       <p>One-click installs, instant library access, and streamlined game management - all from the controller-friendly interface you prefer.</p>
     </div>
-    <video autoplay muted loop playsinline>
+    <video autoplay muted loop playsinline preload="none">
       <source src="{{ '/assets/images/landing/Install.webm' | relative_url }}" type="video/webm">
-      <img src="{{ '/assets/images/landing/Install.gif' | relative_url }}" alt="One-click game installation directly in Game Mode">
     </video>
   </div>
 </section>
