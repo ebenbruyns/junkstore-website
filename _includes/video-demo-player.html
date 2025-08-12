@@ -97,15 +97,25 @@ function playDemo(container, webmSrc) {
   // Hide poster and button
   const poster = container.querySelector('.demo-poster');
   const button = container.querySelector('.demo-play-btn');
-  const gif = container.querySelector('.demo-gif');
+  let gif = container.querySelector('.demo-gif');
   
   if (poster) poster.style.display = 'none';
   if (button) button.style.display = 'none';
   
-  // Show the GIF directly (since WebM isn't working)
+  // Lazy load the GIF only when clicked (CRITICAL PERFORMANCE FIX)
+  if (gif && !gif.src) {
+    // Get the GIF src from data attribute
+    const gifSrc = gif.getAttribute('data-src');
+    if (gifSrc) {
+      gif.src = gifSrc; // This triggers the actual download
+      console.log('Lazy loading GIF:', gifSrc);
+    }
+  }
+  
+  // Show the GIF
   if (gif) {
     gif.style.display = 'block';
-    console.log('Showing GIF instead of WebM');
+    console.log('Showing GIF');
   }
 }
 </script>
