@@ -462,7 +462,10 @@ function createGameModal(game) {
             <div class="game-basic-info">
               <div class="game-title-area">
                 <h4>${game.title}</h4>
+                ${game.releasedate ? `<div class="game-meta">Released: ${new Date(game.releasedate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>` : ''}
               </div>
+            </div>
+            <div class="header-badges">
               <span class="storefront-badge storefront-${game.storefront.toLowerCase()}">${game.storefront}</span>
             </div>
           </div>
@@ -543,6 +546,12 @@ function createGameModal(game) {
                       </div>
                     ` : ''}
                   </div>
+                  ${game.language_support ? `
+                    <div class="info-item" style="margin-top: 10px;">
+                      <span class="info-label">Language Support</span>
+                      <span class="info-value">${game.language_support}</span>
+                    </div>
+                  ` : ''}
                 </div>
               
                 ${game.description ? `
