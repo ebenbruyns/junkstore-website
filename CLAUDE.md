@@ -178,7 +178,7 @@ assets/lib
 4. ✅ Mobile experience optimization (60% of traffic) (COMPLETED)
 5. ✅ Trust building and social proof enhancement (COMPLETED)
 
-### CURRENT ACTIVE PRIORITIES (July 31, 2025)
+### CURRENT ACTIVE PRIORITIES (August 11, 2025)
 **LIVE SITE STATUS VERIFIED:** All 2.0 pages functional, redirects working correctly
 
 **COMPLETED ITEMS:**
@@ -188,6 +188,7 @@ assets/lib
 4. ✅ **Game Compatibility Update** - COMPLETED: JavaScript-based table updated in place at /tested-games/
 5. ✅ **Documentation Archival** - COMPLETED: Outdated analysis files moved to archive
 6. ✅ **Comparison Page Enhancement** - COMPLETED: Added Recent Updates feature highlight box with blue styling, new comparison table features (Offline Mode Per Game, System Language Detection Per Game), comprehensive spacing optimization throughout page
+7. ✅ **FAQ & Troubleshooting Direct Linking** - COMPLETED: All questions now have unique IDs, copy-to-clipboard functionality, and auto-open linked questions with cross-browser compatibility
 
 **CURRENT FOCUS AREAS:**
 1. 🎯 **Mobile Performance Optimization** - Continue improvements for 60% of traffic
@@ -197,6 +198,35 @@ assets/lib
 5. ⚡ **Performance Monitoring** - Maintain 40% size reduction and loading speed gains
 
 **NOTE:** Decky-related pages intentionally excluded from current updates per user direction
+
+### FAQ & Troubleshooting Direct Linking Feature (August 11, 2025)
+**Enhanced support experience with linkable questions:**
+
+**Direct Linking System:**
+- All FAQ and troubleshooting questions now have unique IDs for direct linking
+- Format: `/2.0faq/#question-slug` and `/2.0troubleshooting/#question-slug`
+- Questions automatically open and scroll into view when accessed via direct link
+- Visual highlight effect provides clear feedback when question opens
+
+**Copy-to-Clipboard Functionality:**
+- 🔗 buttons appear on hover for each question
+- Cross-browser compatibility with modern clipboard API and enhanced fallbacks
+- Robust error handling for HTTP contexts, older browsers, and permission issues
+- Success/error notifications with visual feedback (green for success, red for errors)
+- Mobile-friendly implementation with proper touch support
+
+**Support Team Usage:**
+Support can now share direct links to specific answers:
+- "How to install custom Proton?" → `/2.0faq/#install-custom-proton`
+- "Games not showing up?" → `/2.0troubleshooting/#games-not-showing`  
+- "Change game language?" → `/2.0faq/#change-game-language`
+- "Keyboard issues in Game Mode?" → `/2.0troubleshooting/#keyboard-issues`
+
+**Technical Implementation:**
+- JavaScript auto-generates anchor buttons for all questions with IDs
+- Fallback copy methods for browsers without clipboard API support
+- Error notifications display full URL for manual copying when automated copy fails
+- Hash change detection ensures browser navigation compatibility
 
 ### Analysis Reports Generated (July 29, 2025)
 - **`/docs/SITE_ANALYSIS_REPORT.md`** - Complete audit of all 25+ pages with specific action items

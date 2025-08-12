@@ -25,6 +25,7 @@ classes: wide
       data-gif="/assets/images/jspro/gallery/download.webm" 
       alt="Cloud saves" 
       data-still="/assets/images/jspro/gallery/download-still.jpg"
+      loading="lazy"
     >
     <p class="caption-title">Download Queue</p>
     <p class="caption">Manage multiple downloads across stores - change order, pause or cancel individual downloads.</p>
@@ -37,6 +38,7 @@ classes: wide
       data-gif="/assets/images/jspro/gallery/languageselection.webm" 
       alt="Install dependencies" 
       data-still="/assets/images/jspro/gallery/language-still.jpg"
+      loading="lazy"
     >
     <p class="caption-title">Select Language for Game</p>
     <p class="caption">One-click install of languages for games that support them.</p>
@@ -50,6 +52,7 @@ classes: wide
       data-gif="/assets/images/jspro/gallery/dependencies.webm" 
       alt="Install dependencies" 
       data-still="/assets/images/jspro/gallery/dependencies-still.jpg"
+      loading="lazy"
     >
     <p class="caption-title">Install Dependencies</p>
     <p class="caption">One-click install for common libraries like VC++ Redist, DirectX, .Net etc.</p>
@@ -62,6 +65,7 @@ classes: wide
       data-gif="/assets/images/jspro/gallery/changelauncher.webm" 
       alt="Change launcher" 
       data-still="/assets/images/jspro/gallery/changelauncher-still.jpg"
+      loading="lazy"
     >
     <p class="caption-title">Change Launcher</p>
     <p class="caption">Switch between ScummVm, Dosbox, Dolphin, etc..</p>
@@ -77,7 +81,7 @@ classes: wide
 
  <div class="media-item">
   <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com/vi/kDKQyL5iLSg/hqdefault.jpg" alt="How to Install Junk Store 2.0 on Steam Deck">
+    <img src="https://img.youtube.com/vi/kDKQyL5iLSg/hqdefault.jpg" alt="How to Install Junk Store 2.0 on Steam Deck" loading="lazy">
   </a>
   <p class="caption-title">How to Install Junk Store 2.0 on Steam Deck</p>
   <p class="caption">Step-by-step video tutorial on downloading and installing Junk Store 2.0</p>
@@ -93,7 +97,7 @@ classes: wide
 
   <div class="media-item">
     <a href="https://youtu.be/iRVFqHGkqio?si=H3RnIVYtWN6vxsaC" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.youtube.com/vi/iRVFqHGkqio/hqdefault.jpg" alt="Interview with Gardiner Bryant (Video)">
+      <img src="https://img.youtube.com/vi/iRVFqHGkqio/hqdefault.jpg" alt="Interview with Gardiner Bryant (Video)" loading="lazy">
     </a>
     <p class="caption-title">Interview with Gardiner Bryant (Video) - June 2025</p>
     <p class="caption">Listen to the dev behind Junk Store discuss development, features and why he created Junk Store.</p>
@@ -101,7 +105,7 @@ classes: wide
 
   <div class="media-item">
     <a href="https://gardinerbryant.com/an-interview-with-the-dev-behind-junk-store/" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/JSInstall/Doom 64.jpeg" alt="Interview with Gardiner Bryant (Article)">
+      <img src="/assets/images/JSInstall/Doom 64.jpeg" alt="Interview with Gardiner Bryant (Article)" loading="lazy">
     </a>
     <p class="caption-title">Interview with PerfectDark (Article) - July 2024</p>
     <p class="caption">A deep dive into the philosophy behind Junk Store early on development.</p>
@@ -120,12 +124,12 @@ document.addEventListener("DOMContentLoaded", function () {
       closeBtn.remove();
     }
     
-    // Handle videos - convert back to images
-    document.querySelectorAll('video.gif-click.zoomed').forEach(video => {
-      const stillSrc = video.getAttribute("data-still");
-      const gifSrc = video.getAttribute("data-gif");
-      const altText = video.getAttribute("alt");
-      video.outerHTML = `<img class="gif-click" src="${stillSrc}" data-gif="${gifSrc}" alt="${altText}" data-still="${stillSrc}">`;
+    // Handle zoomed images - convert back to still images
+    document.querySelectorAll('img.gif-click.zoomed').forEach(zoomedImg => {
+      const stillSrc = zoomedImg.getAttribute("data-still");
+      const gifSrc = zoomedImg.getAttribute("data-gif");
+      const altText = zoomedImg.getAttribute("alt");
+      zoomedImg.outerHTML = `<img class="gif-click" src="${stillSrc}" data-gif="${gifSrc}" alt="${altText}" data-still="${stillSrc}">`;
     });
     
     // Handle regular images
@@ -157,15 +161,13 @@ document.addEventListener("DOMContentLoaded", function () {
     unzoomAll();
 
     if (!isZoomed) {
-      // Zoom this one and switch to video
-      const videoSrc = img.getAttribute("data-gif");
+      // Zoom this one and switch to GIF
+      const webmSrc = img.getAttribute("data-gif");
+      const gifSrc = webmSrc.replace('.webm', '.gif'); // Convert WebM to GIF
       const stillSrc = img.getAttribute("data-still");
       const altText = img.getAttribute("alt");
       
-      img.outerHTML = `<video class="gif-click zoomed" autoplay muted loop playsinline data-gif="${videoSrc}" alt="${altText}" data-still="${stillSrc}">
-        <source src="${videoSrc}" type="video/webm">
-        <img src="${stillSrc}" alt="${altText}">
-      </video>`;
+      img.outerHTML = `<img class="gif-click zoomed" src="${gifSrc}" alt="${altText}" data-gif="${webmSrc}" data-still="${stillSrc}">`;
       
       // Add close button separately, outside the scaled container
       const closeBtn = document.createElement('button');

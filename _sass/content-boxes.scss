@@ -28,6 +28,9 @@
   /* Responsive: Stack vertically on smaller screens */
   @media (max-width: 768px) {
     width: 100%;
+    min-height: 250px; /* Reduced height for mobile - less white space */
+    padding: 1rem; /* Reduced padding for tighter mobile layout */
+    margin-bottom: 1rem; /* Consistent spacing between boxes */
   }
 }
 
@@ -49,5 +52,7 @@
 
   @media (max-width: 768px) {
     font-size: 0.9rem;
+    margin-bottom: 1rem; /* Reduced spacing between text and button */
+    line-height: 1.4; /* Tighter line height for mobile readability */
   }
 }
