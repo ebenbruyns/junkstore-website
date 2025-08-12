@@ -13,6 +13,12 @@ This directory contains files that have been archived during repository cleanup 
 
 ### Pages
 - `tested-games-simple.md` - Empty test file (0 lines)
+- `comingsoon.md` - Legacy page, replaced by redirect to `/2.0faq/`
+- `deckyfaq.md` - Legacy FAQ page, replaced by redirect to `/2.0faq/`
+- `epicfaq.md` - Legacy Epic FAQ, replaced by redirect to `/2.0faq/`
+- `gogfaq.md` - Legacy GOG FAQ, replaced by redirect to `/2.0faq/`
+- `learnmore.md` - Legacy learn more page, replaced by redirect to `/2.0faq/`
+- `tested-games.md` - Legacy games table (`/tested-games-legacy/` permalink)
 
 ### SCSS  
 - `_site/` directory - Duplicate SCSS files that were also in main `_sass/` directory
