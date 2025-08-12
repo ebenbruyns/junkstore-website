@@ -17,6 +17,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 15px;
+    padding-right: 50px; /* Space for close button */
 }
 
 .game-basic-info {
@@ -24,6 +25,12 @@
     align-items: center;
     gap: 15px;
     flex: 1;
+}
+
+.header-badges {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .game-title-area h4 {
