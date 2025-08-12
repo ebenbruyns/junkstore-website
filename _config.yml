@@ -141,6 +141,12 @@ sass:
   sass_dir: _sass
   style: compressed
 
+# Static asset caching for performance
+# These headers will be set by GitHub Pages or can be configured in hosting
+staticfiles:
+  - /assets/images/
+  - /assets/css/
+  - /assets/js/
 
 # Output
 exclude:
