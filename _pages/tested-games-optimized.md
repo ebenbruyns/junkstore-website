@@ -43,7 +43,10 @@ header:
   
   <div class="control-group">
     <label for="searchInput">Search:</label>
-    <input type="text" id="searchInput" placeholder="Type game name..." autocomplete="off" />
+    <div class="search-input-wrapper">
+      <input type="text" id="searchInput" placeholder="Type game name..." autocomplete="off" />
+      <div class="search-clear-btn" id="clearSearch" title="Clear search">&times;</div>
+    </div>
   </div>
   
   <div class="control-group">
@@ -782,7 +785,7 @@ function escapeHtml(text) {
 function setupEventListeners() {
   // Filter controls
   document.getElementById('storefrontFilter').addEventListener('change', filterTable);
-  document.getElementById('searchInput').addEventListener('input', filterTable);
+  document.getElementById('searchInput').addEventListener('input', handleSearchInput);
   document.getElementById('pageSizeSelect').addEventListener('change', changePageSize);
   
   // Add modal click handlers
@@ -790,17 +793,47 @@ function setupEventListeners() {
   
   // Back to top button
   const backToTop = document.getElementById('backToTop');
-  window.addEventListener('scroll', function() {
-    if (window.pageYOffset > 300) {
-      backToTop.style.display = 'block';
-    } else {
-      backToTop.style.display = 'none';
-    }
-  });
+  if (backToTop) {
+    window.addEventListener('scroll', function() {
+      if (window.pageYOffset > 300) {
+        backToTop.style.setProperty('display', 'block', 'important');
+      } else {
+        backToTop.style.setProperty('display', 'none', 'important');
+      }
+    });
+    
+    backToTop.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
   
-  backToTop.addEventListener('click', function() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+  // Clear search button
+  const clearSearchBtn = document.getElementById('clearSearch');
+  clearSearchBtn.addEventListener('click', function() {
+    const searchInput = document.getElementById('searchInput');
+    searchInput.value = '';
+    searchInput.focus();
+    filterTable();
+    toggleClearButton();
   });
+}
+
+// Handle search input with clear button visibility
+function handleSearchInput() {
+  filterTable();
+  toggleClearButton();
+}
+
+// Toggle clear button visibility
+function toggleClearButton() {
+  const searchInput = document.getElementById('searchInput');
+  const clearBtn = document.getElementById('clearSearch');
+  
+  if (searchInput.value.length > 0) {
+    clearBtn.classList.add('show');
+  } else {
+    clearBtn.classList.remove('show');
+  }
 }
 
 // Initialize when page loads

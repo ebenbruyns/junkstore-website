@@ -407,3 +407,32 @@
     background-color: #00a14f !important;
     color: #fff !important;
 }
+
+/* Back to top button - matching table theme */
+#backToTop {
+    position: fixed !important;
+    bottom: 1.5rem !important;
+    right: 1.5rem !important;
+    z-index: 1000 !important;
+    display: none !important;
+    background: #1e2a38 !important;
+    color: #ffa366 !important;
+    border: 2px solid #ffa366 !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4) !important;
+    transition: all 0.3s ease !important;
+    min-width: 60px !important;
+    text-align: center !important;
+    line-height: 1.2 !important;
+}
+
+#backToTop:hover {
+    background: #ffa366 !important;
+    color: #1e2a38 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.5) !important;
+}
