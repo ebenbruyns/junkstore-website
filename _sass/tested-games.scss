@@ -177,20 +177,25 @@
     border: none;
     background: transparent;
     overflow: visible;
+    width: 100%;
+    padding: 0;
   }
   
   #gamesTable {
     min-width: unset;
+    width: 100% !important;
     border: none;
     background: transparent;
+    table-layout: auto;
   }
   
   #gamesTable thead {
-    display: none;
+    display: none !important;
   }
   
   #gamesTable tbody {
     display: block;
+    width: 100%;
   }
   
   #gamesTable tbody tr {
@@ -201,6 +206,8 @@
     margin-bottom: 1rem;
     padding: 1rem;
     position: relative;
+    width: 100%;
+    box-sizing: border-box;
   }
   
   #gamesTable tbody tr:hover {
@@ -215,6 +222,8 @@
     width: 100% !important;
     white-space: normal;
     word-break: break-word;
+    box-sizing: border-box;
+    overflow: hidden;
   }
   
   /* Add labels for each field */
