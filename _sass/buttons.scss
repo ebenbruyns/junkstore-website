@@ -151,38 +151,42 @@ a.button.gog-extension-button:hover {
 }
 
 /* Header actions container - fix front matter button centering */
-.page__hero p {
+.page__hero-actions {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 0;
 }
 
-.page__hero p a.button {
-  display: inline-block;
-  margin: 0.5rem;
+.page__hero-actions a.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Mobile button optimizations */
 @media (max-width: 768px) {
   /* Fix header actions button alignment on mobile */
-  .page__hero p {
-    text-align: center !important;
+  .page__hero-actions {
     display: flex !important;
-    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
     align-items: center !important;
-    gap: 1rem !important;
+    gap: 0.75rem !important;
     padding: 1rem 0 !important;
     width: 100% !important;
   }
 
-  .page__hero p a.button,
-  .page__hero p a.button-secondary,
-  .page__hero p a.buy-button {
-    width: 100% !important;
-    max-width: 280px !important;
+  .page__hero-actions a.button,
+  .page__hero-actions a.button-secondary,
+  .page__hero-actions a.buy-button {
+    flex: 0 1 auto !important;
+    min-width: 180px !important;
+    max-width: 250px !important;
     margin: 0 !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    text-align: center !important;
   }
   a.button {
     width: 100%;
