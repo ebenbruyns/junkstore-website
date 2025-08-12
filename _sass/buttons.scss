@@ -1,7 +1,7 @@
 /* Style for the buttons - consistent base styling */
 a.button {
   color: #fff;
-  background-color: #007acc; /* Blue background */
+  background-color: #0056b3; /* Darker blue background for better contrast */
   padding: 0.875rem 1.75rem; /* Consistent padding for all buttons */
   border-radius: 8px;
   text-decoration: none;
@@ -23,7 +23,7 @@ a.button {
 
   /* Hover Effects */
   &:hover, &:visited:hover {
-    background-color: #005f99; /* Darker blue on hover */
+    background-color: #004494; /* Even darker blue on hover */
     color: #fff;
     transform: translateY(-1px); /* Subtle lift effect */
     box-shadow: 0 4px 8px rgba(0, 122, 204, 0.3);
@@ -55,6 +55,20 @@ a.button.buy-button:visited:hover {
   box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
 }
 
+/* Secondary button - better contrast */
+a.button.button-secondary {
+  background-color: #0056b3 !important; /* Darker blue for better contrast */
+  color: #fff !important;
+  font-weight: 600;
+}
+
+a.button.button-secondary:hover,
+a.button.button-secondary:visited:hover {
+  background-color: #004494 !important; /* Even darker blue on hover */
+  color: #fff !important;
+  box-shadow: 0 4px 12px rgba(0, 86, 179, 0.4);
+}
+
 /* Favicon inside button */
 .favicon-icon {
   width: 16px;
@@ -66,7 +80,7 @@ a.button.buy-button:visited:hover {
 /* Visited button link */
 a.button:visited {
   color: #fff;
-  background-color: #007acc; /* Same as normal to keep consistent */
+  background-color: #0056b3; /* Same as normal to keep consistent */
 }
 
 /* Ensure theme .btn class inherits consistent styling */
@@ -136,8 +150,40 @@ a.button.gog-extension-button:hover {
   margin-left: 0.75rem;
 }
 
+/* Header actions container - fix front matter button centering */
+.page__hero p {
+  text-align: center;
+}
+
+.page__hero p a.button {
+  display: inline-block;
+  margin: 0.5rem;
+}
+
 /* Mobile button optimizations */
 @media (max-width: 768px) {
+  /* Fix header actions button alignment on mobile */
+  .page__hero p {
+    text-align: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    padding: 1rem 0 !important;
+    width: 100% !important;
+  }
+
+  .page__hero p a.button,
+  .page__hero p a.button-secondary,
+  .page__hero p a.buy-button {
+    width: 100% !important;
+    max-width: 280px !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
   a.button {
     width: 100%;
     max-width: 300px; /* Optimized max width for mobile */
