@@ -152,13 +152,14 @@ a.button.gog-extension-button:hover {
 
 /* Header actions container - fix front matter button centering */
 .page__hero-actions {
-  text-align: center;
+  text-align: left; /* Left align for desktop */
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start; /* Start alignment for desktop */
   align-items: center;
   gap: 0.75rem;
-  padding: 1rem 0;
+  padding: 0.5rem 0; /* Reduced from 1rem to bring closer to excerpt */
+  margin-top: 0; /* Remove any top margin */
 }
 
 .page__hero-actions a.button {
@@ -171,13 +172,15 @@ a.button.gog-extension-button:hover {
 @media (max-width: 768px) {
   /* Fix header actions button alignment on mobile */
   .page__hero-actions {
+    text-align: center !important; /* Center align on mobile */
     display: flex !important;
     flex-wrap: wrap !important;
-    justify-content: center !important;
+    justify-content: center !important; /* Center alignment on mobile */
     align-items: center !important;
     gap: 0.75rem !important;
-    padding: 1rem 0 !important;
+    padding: 0.5rem 0 !important; /* Reduced spacing on mobile too */
     width: 100% !important;
+    margin-top: 0 !important;
   }
 
   .page__hero-actions a.button,
