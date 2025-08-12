@@ -425,6 +425,11 @@ function createGameModal(game) {
   modal.innerHTML = `
     <div class="modal-backdrop">
       <div class="modal-content">
+        <!-- Game Banner -->
+        <div id="gameBanner-${game.id}" class="game-banner">
+          ${game.verticalArtwork ? `<img src="${game.verticalArtwork}" alt="Game Banner" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
+        </div>
+        
         <!-- Enhanced Header -->
         <div class="modal-header-enhanced">
           <div class="game-header-content">
@@ -450,38 +455,84 @@ function createGameModal(game) {
               <span class="feature-value ${getStatusClass(game.standalone_rating)}">${getStatusText(game.standalone_rating)}</span>
             </div>
             <div class="feature-item">
+              <span class="feature-label">Proton Version</span>
+              <span class="feature-value">${game.proton_version || 'Default'}</span>
+            </div>
+            <div class="feature-item">
               <span class="feature-label">Date Tested</span>
               <span class="feature-value">${game.date_tested || 'Not tested'}</span>
             </div>
           </div>
         </div>
         
+        <!-- 2-Tab Navigation (Bootstrap Style) -->
+        <ul class="nav nav-tabs nav-tabs-clean" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#overview-${game.id}" role="tab">
+              <i class="fas fa-info-circle me-2"></i>Overview
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#testing-${game.id}" role="tab">
+              <i class="fas fa-cogs me-2"></i>Testing Details
+            </a>
+          </li>
+        </ul>
+        
         <!-- Tab Content -->
-        <div class="tab-content-enhanced">
-          <div class="info-section">
-            <h6><i class="fas fa-gamepad text-primary"></i> Game Information</h6>
-            <div class="info-grid">
-              ${game.publisher ? `
-                <div class="info-item">
-                  <span class="info-label">Publisher</span>
-                  <span class="info-value">${game.publisher}</span>
+        <div class="tab-content tab-content-enhanced">
+          <!-- Overview Tab -->
+          <div class="tab-pane active" id="overview-${game.id}" role="tabpanel">
+            <div class="row">
+              <div class="col-md-4">
+                <div id="gameImages-${game.id}" class="game-image-container">
+                  ${game.verticalArtwork && game.verticalArtwork.trim() ? 
+                    `<img src="${game.verticalArtwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
+                    `<div class="game-image-placeholder">
+                      <div class="placeholder-content">
+                        <i class="fas fa-gamepad" style="font-size: 3rem; color: #4a5568; margin-bottom: 10px;"></i>
+                        <p style="color: #a0aec0; margin: 0; font-size: 0.9rem;">Game Image</p>
+                        <p style="color: #a0aec0; margin: 0; font-size: 0.8rem;">Not Available</p>
+                      </div>
+                    </div>`
+                  }
                 </div>
-              ` : ''}
-              ${game.genre ? `
-                <div class="info-item">
-                  <span class="info-label">Genre</span>
-                  <span class="info-value">${game.genre}</span>
+                
+                ${renderEpicFeatures(game)}
+              </div>
+              <div class="col-md-8" id="gameDescription-${game.id}">
+                <div class="info-section">
+                  <h6><i class="fas fa-gamepad text-primary"></i> Game Information</h6>
+                  <div class="info-grid">
+                    ${game.publisher ? `
+                      <div class="info-item">
+                        <span class="info-label">Publisher</span>
+                        <span class="info-value">${game.publisher}</span>
+                      </div>
+                    ` : ''}
+                    ${game.genre ? `
+                      <div class="info-item">
+                        <span class="info-label">Genre</span>
+                        <span class="info-value">${game.genre}</span>
+                      </div>
+                    ` : ''}
+                  </div>
                 </div>
-              ` : ''}
+              
+                ${game.description ? `
+                  <div class="info-section">
+                    <h6>Description</h6>
+                    <div class="notes-content">${game.description}</div>
+                  </div>
+                ` : ''}
+              </div>
             </div>
           </div>
-        
-          ${game.notes ? `
-            <div class="info-section">
-              <h6><i class="fas fa-clipboard-list text-info"></i> Testing Notes</h6>
-              <div class="notes-content">${game.notes}</div>
-            </div>
-          ` : ''}
+          
+          <!-- Testing Details Tab -->
+          <div class="tab-pane" id="testing-${game.id}" role="tabpanel">
+            ${renderTestingDetailsBootstrap(game)}
+          </div>
         </div>
       </div>
     </div>
@@ -503,6 +554,28 @@ function createGameModal(game) {
       }
     });
   }
+  
+  // Bootstrap tab switching
+  const tabLinks = modal.querySelectorAll('.nav-link');
+  tabLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      
+      // Remove active classes from all tabs
+      modal.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+      modal.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+      
+      // Add active class to clicked tab
+      link.classList.add('active');
+      
+      // Show corresponding tab content
+      const targetId = link.getAttribute('href').substring(1);
+      const targetPanel = modal.querySelector(`#${targetId}`);
+      if (targetPanel) {
+        targetPanel.classList.add('active');
+      }
+    });
+  });
   
   // Escape key
   const escapeHandler = (e) => {
@@ -548,6 +621,104 @@ function getStatusText(rating) {
   if (ratingLower === 'red') return 'Advanced tinkering';
   if (ratingLower === 'not-working') return 'Doesn\'t work';
   return rating;
+}
+
+// Render Epic Games features
+function renderEpicFeatures(game) {
+  if (game.storefront !== 'Epic') return '';
+  
+  return `
+    <div class="info-section">
+      <h6><i class="fas fa-star text-warning"></i> Epic Games Features</h6>
+      <div class="epic-features-grid">
+        ${game.epic_achievements ? `
+          <div class="epic-feature-item">
+            <span>Achievements</span>
+            <span class="feature-status status-supported">✓ Supported</span>
+          </div>
+        ` : ''}
+        ${game.epic_offline_mode ? `
+          <div class="epic-feature-item">
+            <span>Offline Mode</span>
+            <span class="feature-status status-supported">✓ Available</span>
+          </div>
+        ` : ''}
+        ${game.requires_eos ? `
+          <div class="epic-feature-item">
+            <span>EOS Overlay</span>
+            <span class="feature-status status-required">Required</span>
+          </div>
+        ` : ''}
+      </div>
+    </div>
+  `;
+}
+
+// Render testing details (Bootstrap version)
+function renderTestingDetailsBootstrap(game) {
+  let content = '';
+  
+  // Technical Configuration
+  const hasConfig = game.dependencies || game.controller_config || game.required_launcher;
+  if (hasConfig) {
+    content += `
+      <div class="info-section">
+        <h6><i class="fas fa-tools text-success"></i> Technical Configuration</h6>
+        <div class="info-grid">
+          ${game.controller_input ? `
+            <div class="info-item">
+              <span class="info-label">Input Method</span>
+              <span class="info-value">
+                🎮 ${game.controller_input === 'native' ? 'Native Controller' : game.controller_input}
+              </span>
+            </div>
+          ` : ''}
+          ${game.controller_config ? `
+            <div class="info-item">
+              <span class="info-label">Controller Config</span>
+              <span class="info-value">${game.controller_config}</span>
+            </div>
+          ` : ''}
+          ${game.protondb ? `
+            <div class="info-item">
+              <span class="info-label">ProtonDB</span>
+              <span class="info-value"><a href="${game.protondb}" target="_blank" rel="noopener noreferrer">View on ProtonDB <i class="fas fa-external-link-alt ms-1"></i></a></span>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    `;
+  }
+  
+  // Testing Notes
+  if (game.notes) {
+    content += `
+      <div class="info-section">
+        <h6><i class="fas fa-clipboard-list text-info"></i> Testing Notes</h6>
+        <div class="notes-content">${renderMarkdown(game.notes)}</div>
+      </div>
+    `;
+  }
+  
+  return content || '<p style="color: #ccc; text-align: center; padding: 40px;">No additional testing details available.</p>';
+}
+
+// Simple markdown renderer
+function renderMarkdown(text) {
+  if (!text) return '';
+  
+  let html = escapeHtml(text);
+  html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+  
+  return html;
+}
+
+// Escape HTML
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
 }
 
 // Setup event listeners
