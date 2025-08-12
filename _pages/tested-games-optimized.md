@@ -507,10 +507,10 @@ function createGameModal(game) {
           <div class="tab-pane active" id="overview-${game.id}" role="tabpanel">
             <div class="row">
               <div class="col-md-4">
-                <div id="gameImages-${game.id}" class="game-image-container">
+                <div id="gameImages-${game.id}" class="game-image-container ${hasEpicFeatures(game) ? '' : 'no-epic-features'}">
                   ${(game.images && game.images.verticalArtwork) || game.verticalArtwork ? 
-                    `<img src="${(game.images && game.images.verticalArtwork) || game.verticalArtwork}" alt="Game Cover" class="game-image-main" style="max-height: 160px; width: auto; object-fit: contain;" onerror="this.style.display='none';">` :
-                    `<div class="game-image-placeholder" style="height: 140px;">
+                    `<img src="${(game.images && game.images.verticalArtwork) || game.verticalArtwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
+                    `<div class="game-image-placeholder">
                       <div class="placeholder-content">
                         <i class="fas fa-gamepad" style="font-size: 2rem; color: #4a5568; margin-bottom: 8px;"></i>
                         <p style="color: #a0aec0; margin: 0; font-size: 0.8rem;">Game Image</p>
@@ -645,14 +645,19 @@ function getStatusText(rating) {
   return rating;
 }
 
-// Render Epic Games features
-function renderEpicFeatures(game) {
-  if (game.storefront !== 'Epic') return '';
+// Check if game has Epic features to display
+function hasEpicFeatures(game) {
+  if (game.storefront !== 'Epic') return false;
   
   const epicFeatures = game.epic_features || {};
-  const hasFeatures = epicFeatures.epic_achievements || epicFeatures.epic_offline_mode || epicFeatures.requires_eos;
+  return epicFeatures.epic_achievements || epicFeatures.epic_offline_mode || epicFeatures.requires_eos;
+}
+
+// Render Epic Games features
+function renderEpicFeatures(game) {
+  if (!hasEpicFeatures(game)) return '';
   
-  if (!hasFeatures) return '';
+  const epicFeatures = game.epic_features || {};
   
   return `
     <div class="info-section">
