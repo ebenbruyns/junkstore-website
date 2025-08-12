@@ -211,6 +211,7 @@ function getCompatibilityDisplay(rating) {
   
   const ratingMap = {
     'green': '✅',
+    'Perfect': '✅',  // Handle Perfect ratings as green checkmarks
     'yellow': '⚠️',
     'red': '🔧',
     'not-working': '❌',
@@ -628,7 +629,7 @@ function closeModal(modal) {
 function getStatusClass(rating) {
   if (!rating) return '';
   const ratingLower = rating.toLowerCase();
-  if (ratingLower === 'green') return 'text-success';
+  if (ratingLower === 'green' || ratingLower === 'perfect') return 'text-success';
   if (ratingLower === 'yellow') return 'text-warning';
   if (ratingLower === 'red') return 'text-danger';
   if (ratingLower === 'not-working') return 'text-danger';
@@ -638,7 +639,7 @@ function getStatusClass(rating) {
 function getStatusText(rating) {
   if (!rating) return 'Not tested';
   const ratingLower = rating.toLowerCase();
-  if (ratingLower === 'green') return 'Works great';
+  if (ratingLower === 'green' || ratingLower === 'perfect') return 'Works great';
   if (ratingLower === 'yellow') return 'Minor tinkering';
   if (ratingLower === 'red') return 'Advanced tinkering';
   if (ratingLower === 'not-working') return 'Doesn\'t work';
