@@ -509,8 +509,8 @@ function createGameModal(game) {
               <div class="col-md-4">
                 <div id="gameImages-${game.id}" class="game-image-container">
                   ${(game.images && game.images.verticalArtwork) || game.verticalArtwork ? 
-                    `<img src="${(game.images && game.images.verticalArtwork) || game.verticalArtwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
-                    `<div class="game-image-placeholder">
+                    `<img src="${(game.images && game.images.verticalArtwork) || game.verticalArtwork}" alt="Game Cover" class="game-image-main" style="max-height: 240px; width: auto; object-fit: contain;" onerror="this.style.display='none';">` :
+                    `<div class="game-image-placeholder" style="height: 200px;">
                       <div class="placeholder-content">
                         <i class="fas fa-gamepad" style="font-size: 3rem; color: #4a5568; margin-bottom: 10px;"></i>
                         <p style="color: #a0aec0; margin: 0; font-size: 0.9rem;">Game Image</p>
@@ -526,16 +526,16 @@ function createGameModal(game) {
                 <div class="info-section">
                   <h6><i class="fas fa-gamepad text-primary"></i> Game Information</h6>
                   <div class="info-grid">
-                    ${game.publisher ? `
-                      <div class="info-item">
-                        <span class="info-label">Publisher</span>
-                        <span class="info-value">${game.publisher}</span>
-                      </div>
-                    ` : ''}
                     ${game.genre ? `
                       <div class="info-item">
                         <span class="info-label">Genre</span>
                         <span class="info-value">${game.genre}</span>
+                      </div>
+                    ` : ''}
+                    ${game.publisher ? `
+                      <div class="info-item">
+                        <span class="info-label">Publisher</span>
+                        <span class="info-value">${game.publisher}</span>
                       </div>
                     ` : ''}
                   </div>
@@ -544,7 +544,7 @@ function createGameModal(game) {
                 ${game.description ? `
                   <div class="info-section">
                     <h6>Description</h6>
-                    <div class="notes-content">${game.description}</div>
+                    <div class="notes-content" style="max-height: 150px; overflow-y: auto;">${game.description}</div>
                   </div>
                 ` : ''}
               </div>
@@ -686,24 +686,30 @@ function renderTestingDetailsBootstrap(game) {
   let content = '';
   
   // Technical Configuration
-  const hasConfig = game.dependencies || game.controller_config || game.required_launcher;
+  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb;
   if (hasConfig) {
     content += `
       <div class="info-section">
         <h6><i class="fas fa-tools text-success"></i> Technical Configuration</h6>
         <div class="info-grid">
-          ${game.controller_input ? `
+          ${game.controller_config || game.controller_input ? `
             <div class="info-item">
-              <span class="info-label">Input Method</span>
+              <span class="info-label">Controller Config</span>
               <span class="info-value">
-                🎮 ${game.controller_input === 'native' ? 'Native Controller' : game.controller_input}
+                ${game.controller_config || (game.controller_input === 'native' ? '🎮 Native Controller' : (game.controller_input ? `🎮 ${game.controller_input}` : 'Not specified'))}
               </span>
             </div>
           ` : ''}
-          ${game.controller_config ? `
+          ${game.dependencies ? `
             <div class="info-item">
-              <span class="info-label">Controller Config</span>
-              <span class="info-value">${game.controller_config}</span>
+              <span class="info-label">Dependencies</span>
+              <span class="info-value">${game.dependencies}</span>
+            </div>
+          ` : ''}
+          ${game.proton_version ? `
+            <div class="info-item">
+              <span class="info-label">Proton Version</span>
+              <span class="info-value">${game.proton_version}</span>
             </div>
           ` : ''}
           ${game.protondb ? `
