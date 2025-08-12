@@ -6,7 +6,7 @@ permalink: /gallery/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image.jpg
+  overlay_image: /assets/images/website_image_compressed.jpg
 excerpt: "Explore Junk Store in action: GIFs, videos, and articles."
 classes: wide
 ---

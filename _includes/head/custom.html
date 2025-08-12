@@ -1,12 +1,21 @@
 <!-- start custom head snippets -->
 
-<!-- GOG Font -->
+<!-- Critical LCP Image Preload for Homepage Hero -->
+<link rel="preload" as="image" href="/assets/images/website_image_compressed.jpg" fetchpriority="high">
+
+<!-- Preconnect to external domains for faster font loading -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- GOG Font with optimized loading -->
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
 
-
-<!-- Epic Font -->
+<!-- Epic Font with optimized loading -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+
+<!-- Mobile performance optimizations -->
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
