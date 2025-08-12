@@ -654,7 +654,7 @@ function hasEpicFeatures(game) {
   if (game.storefront !== 'Epic') return false;
   
   const epicFeatures = game.epic_features || {};
-  return epicFeatures.epic_achievements || epicFeatures.epic_offline_mode || epicFeatures.requires_eos;
+  return epicFeatures.epic_achievements || epicFeatures.epic_offline_mode || epicFeatures.requires_eos || epicFeatures.requires_verification;
 }
 
 // Render Epic Games features
@@ -670,18 +670,24 @@ function renderEpicFeatures(game) {
         ${epicFeatures.epic_achievements ? `
           <div class="epic-feature-item">
             <span>Achievements</span>
-            <span class="feature-status status-supported">✓ Supported</span>
+            <span class="feature-status status-supported">Supported</span>
           </div>
         ` : ''}
         ${epicFeatures.epic_offline_mode ? `
           <div class="epic-feature-item">
             <span>Offline Mode</span>
-            <span class="feature-status status-supported">✓ Available</span>
+            <span class="feature-status status-supported">Supported</span>
           </div>
         ` : ''}
         ${epicFeatures.requires_eos ? `
           <div class="epic-feature-item">
             <span>EOS Overlay</span>
+            <span class="feature-status status-required">Required</span>
+          </div>
+        ` : ''}
+        ${epicFeatures.requires_verification ? `
+          <div class="epic-feature-item">
+            <span>Verification</span>
             <span class="feature-status status-required">Required</span>
           </div>
         ` : ''}
