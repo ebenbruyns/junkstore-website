@@ -1,0 +1,111 @@
+<style>
+.video-demo-container {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.demo-poster {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.demo-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: 2px solid #28a745;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.demo-play-btn:hover {
+  background: rgba(40, 167, 69, 0.9);
+  transform: translate(-50%, -50%) scale(1.05);
+  box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+}
+
+.demo-play-btn:active {
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
+.play-icon {
+  font-size: 1.2rem;
+}
+
+.demo-video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.video-demo-container.playing .demo-poster,
+.video-demo-container.playing .demo-play-btn {
+  display: none;
+}
+
+.video-demo-container.playing .demo-video {
+  display: block !important;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .demo-play-btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    min-width: 44px;
+    min-height: 44px;
+    touch-action: manipulation;
+  }
+  
+  .play-text {
+    display: none; /* Show only icon on small screens */
+  }
+  
+  .play-icon {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .demo-play-btn {
+    padding: 0.5rem 1rem;
+  }
+}
+</style>
+
+<script>
+function playDemo(container, webmSrc) {
+  console.log('playDemo called with:', webmSrc);
+  
+  // Hide poster and button
+  const poster = container.querySelector('.demo-poster');
+  const button = container.querySelector('.demo-play-btn');
+  const gif = container.querySelector('.demo-gif');
+  
+  if (poster) poster.style.display = 'none';
+  if (button) button.style.display = 'none';
+  
+  // Show the GIF directly (since WebM isn't working)
+  if (gif) {
+    gif.style.display = 'block';
+    console.log('Showing GIF instead of WebM');
+  }
+}
+</script>

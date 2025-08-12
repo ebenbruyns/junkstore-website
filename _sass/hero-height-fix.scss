@@ -1,0 +1,47 @@
+/* Hero Section Height Reduction
+   Reduces excessive empty space below hero buttons */
+
+/* Override default hero height */
+.page__hero,
+.page__hero--overlay {
+  min-height: 45vh !important; /* Reduced from 60vh */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem !important; /* Reduced padding */
+}
+
+/* Ensure wrapper content is properly centered */
+.page__hero .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Reduce bottom padding for hero actions */
+.page__hero-actions {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .page__hero,
+  .page__hero--overlay {
+    min-height: 40vh !important; /* Even smaller on mobile */
+    padding: 1.5rem 1rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .page__hero,
+  .page__hero--overlay {
+    min-height: 35vh !important; /* Smallest on very small screens */
+    padding: 1rem !important;
+  }
+}
