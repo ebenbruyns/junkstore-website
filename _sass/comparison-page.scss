@@ -300,7 +300,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   flex: 1;
   max-width: 600px;
-  min-width: 500px;
+  min-width: 300px; /* Reduced from 500px for mobile compatibility */
   font-size: 1.1rem;
 }
 
@@ -413,10 +413,53 @@
     font-size: 1.1rem;
   }
   
+  .comparison-table-section {
+    width: 100%;
+    padding: 0 0.5rem;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .comparison-table {
+    min-width: 700px; /* Increased minimum width to ensure all columns visible */
+    width: auto;
+    display: block;
+    white-space: nowrap;
+  }
+  
+  .comparison-table thead,
+  .comparison-table tbody {
+    display: block;
+  }
+  
+  .comparison-table tr {
+    display: table;
+    width: 700px; /* Fixed width to match min-width */
+    table-layout: fixed;
+  }
+  
   .comparison-table th,
   .comparison-table td {
-    padding: 0.75rem;
-    font-size: 0.95rem;
+    display: table-cell;
+    padding: 0.75rem 0.5rem;
+    font-size: 0.9rem;
+    vertical-align: top;
+    word-wrap: break-word;
+  }
+  
+  .comparison-table th:first-child,
+  .comparison-table td:first-child {
+    width: 40%; /* Feature column */
+  }
+  
+  .comparison-table th:nth-child(2),
+  .comparison-table td:nth-child(2) {
+    width: 30%; /* Plugin column */
+  }
+  
+  .comparison-table th:nth-child(3),
+  .comparison-table td:nth-child(3) {
+    width: 30%; /* 2.0 column */
   }
   
   .hover-popup .gif-popup {
@@ -441,8 +484,16 @@
   }
   
   .price-comparison {
-    grid-template-columns: 1fr;
+    flex-direction: column;
     gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .price-option {
+    min-width: unset;
+    width: 100%;
+    max-width: 400px;
+    padding: 1.5rem;
   }
   
   .price-option.featured {
