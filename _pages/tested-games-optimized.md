@@ -156,12 +156,15 @@ function populateFeaturedGames() {
   
   container.innerHTML = featuredGames.map(game => `
     <div class="featured-entry">
-      <span class="featured-game-link">
+      <span class="featured-game-link game-link clickable" data-game-id="${game.id}" data-modal-file="${game.modal_file}">
         ${game.title}
       </span>
       <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
     </div>
   `).join('');
+  
+  // Re-add modal handlers for featured games
+  addModalHandlers();
 }
 
 // Populate statistics
@@ -543,9 +546,9 @@ function createGameModal(game) {
                 </div>
               
                 ${game.description ? `
-                  <div class="info-section">
-                    <h6>Description</h6>
-                    <div class="notes-content" style="max-height: 150px; overflow-y: auto;">${game.description}</div>
+                  <div class="info-section" style="margin-top: -6px;">
+                    <h6 style="margin-bottom: 2px;">Description</h6>
+                    <div class="notes-content">${game.description}</div>
                   </div>
                 ` : ''}
               </div>
