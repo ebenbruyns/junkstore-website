@@ -5,7 +5,7 @@ permalink: /get_started/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image.jpg
+  overlay_image: /assets/images/website_image_compressed.jpg
   actions:
     - label: "Support Hub"
       url: "/2.0-hub/"

@@ -5,7 +5,7 @@ permalink: /plugin/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image.jpg # This sets the URL for this page
+  overlay_image: /assets/images/website_image_compressed.jpg # This sets the URL for this page
   actions:
     - label: "Latest Release"
       url: "https://github.com/ebenbruyns/junkstore/releases/latest"
