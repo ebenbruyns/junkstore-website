@@ -449,7 +449,7 @@ function createGameModal(game) {
         <!-- Game Banner -->
         <div id="gameBanner-${game.id}" class="game-banner">
           ${(game.images && game.images.banner_image) || game.verticalArtwork ? 
-            `<img src="${(game.images && game.images.banner_image) || game.verticalArtwork}" alt="Game Banner" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
+            `<img src="${(game.images && game.images.banner_image) || game.verticalArtwork}" alt="Game Banner" style="width: 100%; max-height: 120px; object-fit: cover; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
         </div>
         
         <!-- Enhanced Header -->
@@ -509,12 +509,12 @@ function createGameModal(game) {
               <div class="col-md-4">
                 <div id="gameImages-${game.id}" class="game-image-container">
                   ${(game.images && game.images.verticalArtwork) || game.verticalArtwork ? 
-                    `<img src="${(game.images && game.images.verticalArtwork) || game.verticalArtwork}" alt="Game Cover" class="game-image-main" style="max-height: 240px; width: auto; object-fit: contain;" onerror="this.style.display='none';">` :
-                    `<div class="game-image-placeholder" style="height: 200px;">
+                    `<img src="${(game.images && game.images.verticalArtwork) || game.verticalArtwork}" alt="Game Cover" class="game-image-main" style="max-height: 160px; width: auto; object-fit: contain;" onerror="this.style.display='none';">` :
+                    `<div class="game-image-placeholder" style="height: 140px;">
                       <div class="placeholder-content">
-                        <i class="fas fa-gamepad" style="font-size: 3rem; color: #4a5568; margin-bottom: 10px;"></i>
-                        <p style="color: #a0aec0; margin: 0; font-size: 0.9rem;">Game Image</p>
-                        <p style="color: #a0aec0; margin: 0; font-size: 0.8rem;">Not Available</p>
+                        <i class="fas fa-gamepad" style="font-size: 2rem; color: #4a5568; margin-bottom: 8px;"></i>
+                        <p style="color: #a0aec0; margin: 0; font-size: 0.8rem;">Game Image</p>
+                        <p style="color: #a0aec0; margin: 0; font-size: 0.7rem;">Not Available</p>
                       </div>
                     </div>`
                   }
