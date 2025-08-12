@@ -6,7 +6,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image.jpg
+  overlay_image: /assets/images/website_image_compressed.jpg
   actions:
     - label: "Start Free Trial"
       url: "/buy_now/"
@@ -70,7 +70,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
         <span class="play-icon">▶️</span>
         <span class="play-text">Play Demo</span>
       </div>
-      <img src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, and Amazon" class="demo-gif" style="display: none;">
+      <img data-src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, and Amazon" class="demo-gif" style="display: none;">
     </div>
   </div>
 </section>
@@ -87,7 +87,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
         <span class="play-icon">▶️</span>
         <span class="play-text">Play Demo</span>
       </div>
-      <img src="{{ '/assets/images/landing/Install.gif' | relative_url }}" alt="One-click game installation directly in Game Mode" class="demo-gif" style="display: none;">
+      <img data-src="{{ '/assets/images/landing/Install.gif' | relative_url }}" alt="One-click game installation directly in Game Mode" class="demo-gif" style="display: none;">
     </div>
   </div>
 </section>
