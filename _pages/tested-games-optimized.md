@@ -255,6 +255,9 @@ function updateTable() {
   console.log('tbody rows after setting:', tbody.children.length);
   
   updatePagination();
+  
+  // Re-add modal handlers after table update
+  addModalHandlers();
 }
 
 // Update pagination controls
@@ -351,12 +354,211 @@ function changePageSize() {
   updateTable();
 }
 
+// Add modal click handlers
+function addModalHandlers() {
+  const gameLinks = document.querySelectorAll('.game-link.clickable');
+  gameLinks.forEach(link => {
+    link.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const gameId = e.target.dataset.gameId;
+      const modalFile = e.target.dataset.modalFile;
+      await openGameModal(gameId, modalFile);
+    });
+  });
+}
+
+// Open game modal
+async function openGameModal(gameId, modalFile) {
+  try {
+    console.log(`Opening modal for game: ${gameId}`);
+    
+    // Show loading state
+    const loadingModal = document.createElement('div');
+    loadingModal.className = 'game-modal show';
+    loadingModal.innerHTML = `
+      <div class="modal-backdrop">
+        <div class="modal-content">
+          <div style="text-align: center; padding: 40px;">
+            <div style="font-size: 2rem; color: #ffa366;">Loading...</div>
+            <p style="margin-top: 20px; color: #ccc;">Loading game details...</p>
+          </div>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(loadingModal);
+
+    // Find game in data
+    const game = gamesData.games.find(g => g.id === gameId);
+    if (!game) {
+      throw new Error('Game not found');
+    }
+    
+    // Remove loading modal
+    loadingModal.remove();
+    
+    // Create actual modal
+    createGameModal(game);
+    
+  } catch (error) {
+    console.error('Failed to open game modal:', error);
+    // Remove loading modal if it exists
+    const loadingModal = document.querySelector('.game-modal');
+    if (loadingModal) loadingModal.remove();
+    
+    // Show error
+    alert('Failed to load game details. Please try again.');
+  }
+}
+
+// Create game modal
+function createGameModal(game) {
+  // Remove existing modal
+  const existingModal = document.getElementById('gameModal');
+  if (existingModal) {
+    existingModal.remove();
+  }
+  
+  const modal = document.createElement('div');
+  modal.id = 'gameModal';
+  modal.className = 'game-modal';
+  
+  modal.innerHTML = `
+    <div class="modal-backdrop">
+      <div class="modal-content">
+        <!-- Enhanced Header -->
+        <div class="modal-header-enhanced">
+          <div class="game-header-content">
+            <div class="game-basic-info">
+              <div class="game-title-area">
+                <h4>${game.title}</h4>
+              </div>
+              <span class="storefront-badge storefront-${game.storefront.toLowerCase()}">${game.storefront}</span>
+            </div>
+          </div>
+          <button class="modal-close">&times;</button>
+        </div>
+        
+        <!-- Essential Info Strip -->
+        <div class="essential-info">
+          <div class="feature-grid">
+            <div class="feature-item">
+              <span class="feature-label">Decky Plugin</span>
+              <span class="feature-value ${getStatusClass(game.decky_rating)}">${getStatusText(game.decky_rating)}</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-label">2.0 Standalone</span>
+              <span class="feature-value ${getStatusClass(game.standalone_rating)}">${getStatusText(game.standalone_rating)}</span>
+            </div>
+            <div class="feature-item">
+              <span class="feature-label">Date Tested</span>
+              <span class="feature-value">${game.date_tested || 'Not tested'}</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Tab Content -->
+        <div class="tab-content-enhanced">
+          <div class="info-section">
+            <h6><i class="fas fa-gamepad text-primary"></i> Game Information</h6>
+            <div class="info-grid">
+              ${game.publisher ? `
+                <div class="info-item">
+                  <span class="info-label">Publisher</span>
+                  <span class="info-value">${game.publisher}</span>
+                </div>
+              ` : ''}
+              ${game.genre ? `
+                <div class="info-item">
+                  <span class="info-label">Genre</span>
+                  <span class="info-value">${game.genre}</span>
+                </div>
+              ` : ''}
+            </div>
+          </div>
+        
+          ${game.notes ? `
+            <div class="info-section">
+              <h6><i class="fas fa-clipboard-list text-info"></i> Testing Notes</h6>
+              <div class="notes-content">${game.notes}</div>
+            </div>
+          ` : ''}
+        </div>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(modal);
+  
+  // Setup close handlers
+  const closeBtn = modal.querySelector('.modal-close');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => closeModal(modal));
+  }
+  
+  const backdrop = modal.querySelector('.modal-backdrop');
+  if (backdrop) {
+    backdrop.addEventListener('click', (e) => {
+      if (e.target === backdrop) {
+        closeModal(modal);
+      }
+    });
+  }
+  
+  // Escape key
+  const escapeHandler = (e) => {
+    if (e.key === 'Escape') {
+      closeModal(modal);
+      document.removeEventListener('keydown', escapeHandler);
+    }
+  };
+  document.addEventListener('keydown', escapeHandler);
+  
+  // Show modal
+  requestAnimationFrame(() => {
+    modal.classList.add('show');
+  });
+}
+
+// Close modal
+function closeModal(modal) {
+  modal.classList.remove('show');
+  setTimeout(() => {
+    if (modal.parentNode) {
+      modal.parentNode.removeChild(modal);
+    }
+  }, 300);
+}
+
+// Helper functions for modal
+function getStatusClass(rating) {
+  if (!rating) return '';
+  const ratingLower = rating.toLowerCase();
+  if (ratingLower === 'green') return 'text-success';
+  if (ratingLower === 'yellow') return 'text-warning';
+  if (ratingLower === 'red') return 'text-danger';
+  if (ratingLower === 'not-working') return 'text-danger';
+  return '';
+}
+
+function getStatusText(rating) {
+  if (!rating) return 'Not tested';
+  const ratingLower = rating.toLowerCase();
+  if (ratingLower === 'green') return 'Works great';
+  if (ratingLower === 'yellow') return 'Minor tinkering';
+  if (ratingLower === 'red') return 'Advanced tinkering';
+  if (ratingLower === 'not-working') return 'Doesn\'t work';
+  return rating;
+}
+
 // Setup event listeners
 function setupEventListeners() {
   // Filter controls
   document.getElementById('storefrontFilter').addEventListener('change', filterTable);
   document.getElementById('searchInput').addEventListener('input', filterTable);
   document.getElementById('pageSizeSelect').addEventListener('change', changePageSize);
+  
+  // Add modal click handlers
+  addModalHandlers();
   
   // Back to top button
   const backToTop = document.getElementById('backToTop');
