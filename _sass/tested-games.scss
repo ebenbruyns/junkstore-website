@@ -251,23 +251,66 @@ table#gamesTable tbody tr:hover td,
 /* Back to top button */
 #backToTop {
   position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 1.5rem;
+  right: 1.5rem;
   z-index: 1000;
   display: none;
-  background-color: #444;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  padding: 0.75rem 1rem;
-  font-size: 1.25rem;
+  background: #1e2a38 !important;
+  color: #ffa366 !important;
+  border: 2px solid #ffa366 !important;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 0 5px rgba(0,0,0,0.3);
-  transition: opacity 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+  min-width: 60px;
+  text-align: center;
 }
 
 #backToTop:hover {
-  background-color: #222;
+  background: #ffa366 !important;
+  color: #1e2a38 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.5);
+}
+
+/* Search input with clear button */
+.search-input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.clear-search-btn {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #1e2a38;
+  border: 1px solid #ffa366;
+  color: #ffa366;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  display: none;
+  height: 24px;
+  width: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.clear-search-btn:hover {
+  background: #ffa366;
+  color: #1e2a38;
+}
+
+.search-input-container input {
+  padding-right: 35px !important; /* Space for clear button */
 }
 
 /* Column widths for fixed layout */
