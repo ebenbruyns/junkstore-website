@@ -124,12 +124,12 @@ document.addEventListener("DOMContentLoaded", function () {
       closeBtn.remove();
     }
     
-    // Handle videos - convert back to images
-    document.querySelectorAll('video.gif-click.zoomed').forEach(video => {
-      const stillSrc = video.getAttribute("data-still");
-      const gifSrc = video.getAttribute("data-gif");
-      const altText = video.getAttribute("alt");
-      video.outerHTML = `<img class="gif-click" src="${stillSrc}" data-gif="${gifSrc}" alt="${altText}" data-still="${stillSrc}">`;
+    // Handle zoomed images - convert back to still images
+    document.querySelectorAll('img.gif-click.zoomed').forEach(zoomedImg => {
+      const stillSrc = zoomedImg.getAttribute("data-still");
+      const gifSrc = zoomedImg.getAttribute("data-gif");
+      const altText = zoomedImg.getAttribute("alt");
+      zoomedImg.outerHTML = `<img class="gif-click" src="${stillSrc}" data-gif="${gifSrc}" alt="${altText}" data-still="${stillSrc}">`;
     });
     
     // Handle regular images
@@ -161,15 +161,13 @@ document.addEventListener("DOMContentLoaded", function () {
     unzoomAll();
 
     if (!isZoomed) {
-      // Zoom this one and switch to video
-      const videoSrc = img.getAttribute("data-gif");
+      // Zoom this one and switch to GIF
+      const webmSrc = img.getAttribute("data-gif");
+      const gifSrc = webmSrc.replace('.webm', '.gif'); // Convert WebM to GIF
       const stillSrc = img.getAttribute("data-still");
       const altText = img.getAttribute("alt");
       
-      img.outerHTML = `<video class="gif-click zoomed" autoplay muted loop playsinline data-gif="${videoSrc}" alt="${altText}" data-still="${stillSrc}">
-        <source src="${videoSrc}" type="video/webm">
-        <img src="${stillSrc}" alt="${altText}">
-      </video>`;
+      img.outerHTML = `<img class="gif-click zoomed" src="${gifSrc}" alt="${altText}" data-gif="${webmSrc}" data-still="${stillSrc}">`;
       
       // Add close button separately, outside the scaled container
       const closeBtn = document.createElement('button');
