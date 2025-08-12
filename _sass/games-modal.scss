@@ -4,7 +4,7 @@
 .modal-header-enhanced {
     background: linear-gradient(135deg, #334458 0%, #253445 100%) !important;
     border-bottom: 2px solid #ffa366 !important;
-    padding: 25px !important;
+    padding: 15px !important;
     position: relative !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
     color: #ffffff !important;
@@ -618,17 +618,17 @@ div.game-modal.show,
 
 .game-image-container {
     text-align: center !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 12px !important;
 }
 
 .game-image-main {
-    max-height: 320px !important;
+    max-height: 160px !important;
     max-width: 100% !important;
     border-radius: 15px !important;
     box-shadow: 0 8px 25px rgba(0,0,0,0.25) !important;
     transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
     border: 2px solid transparent !important;
-    object-fit: cover !important;
+    object-fit: contain !important;
 }
 
 .game-image-main:hover {
@@ -640,20 +640,20 @@ div.game-modal.show,
 .info-grid {
     display: grid !important;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
-    gap: 15px !important;
+    gap: 10px !important;
 }
 
 .epic-features-grid {
     display: flex !important;
     flex-direction: column !important;
-    gap: 10px !important;
+    gap: 6px !important;
 }
 
 .epic-feature-item {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    padding: 8px 12px !important;
+    padding: 6px 10px !important;
     background: rgba(42, 52, 70, 0.5) !important;
     border-radius: 6px !important;
     border: 1px solid #4a5568 !important;
@@ -769,7 +769,7 @@ div.game-modal.show,
 
 .game-banner img {
     width: 100% !important;
-    max-height: 200px !important;
+    max-height: 120px !important;
     object-fit: cover !important;
     display: block !important;
 }
@@ -777,8 +777,8 @@ div.game-modal.show,
 /* Image placeholder styling */
 .game-image-placeholder {
     width: 100% !important;
-    max-height: 320px !important;
-    height: 240px !important;
+    max-height: 160px !important;
+    height: 140px !important;
     background: linear-gradient(135deg, rgba(42, 52, 70, 0.4) 0%, rgba(30, 42, 56, 0.6) 100%) !important;
     border: 2px dashed #4a5568 !important;
     border-radius: 15px !important;
