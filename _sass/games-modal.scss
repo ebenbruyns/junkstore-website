@@ -246,7 +246,7 @@
     padding: 20px 25px !important;
     min-height: 280px !important;
     background: #2d3748 !important;
-    max-height: 380px !important;
+    max-height: 450px !important;
     overflow-y: auto !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
     color: #e2e8f0 !important;
@@ -262,14 +262,20 @@
 }
 
 .info-section {
-    margin-bottom: 4px;
+    margin-bottom: 12px;
+}
+
+.info-section:last-child {
+    margin-bottom: 20px !important;
 }
 
 .info-section h6 {
     color: #ffa366 !important;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
+    margin-top: 0;
     font-weight: 600;
     font-size: 1rem;
+    line-height: 1.4;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -358,7 +364,7 @@
     border-left: 4px solid #ffa366;
     padding: 10px 12px;
     border-radius: 0 8px 8px 0;
-    margin-top: 5px;
+    margin-top: 1px;
     color: #e2e8f0;
     font-size: 0.85rem;
     line-height: 1.4;
@@ -435,7 +441,6 @@ div.game-modal.show,
     max-width: 1200px !important;
     width: 90vw !important;
     max-height: calc(100vh - 80px) !important;
-    overflow: hidden !important;
     overflow-y: auto !important;
     position: relative !important;
     transform: scale(0.9) !important;
@@ -580,7 +585,7 @@ div.game-modal.show,
 }
 
 .tab-content-enhanced {
-    padding: 20px 25px !important;
+    padding: 10px 20px 30px 20px !important;
     min-height: 280px !important;
     background: #2d3748 !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
@@ -607,17 +612,20 @@ div.game-modal.show,
 }
 
 .col-md-4 {
-    flex: 0 0 33.333333% !important;
-    max-width: 33.333333% !important;
+    flex: 0 0 28% !important;
+    max-width: 28% !important;
+    padding-left: 8px !important;  /* Reduce left padding for artwork */
 }
 
 .col-md-8 {
-    flex: 0 0 66.666667% !important;
-    max-width: 66.666667% !important;
+    flex: 0 0 72% !important;
+    max-width: 72% !important;
+    padding-left: 8px !important;  /* Reduce left padding for content */
 }
 
 .game-image-container {
     text-align: center !important;
+    margin-top: 8px !important;
     margin-bottom: 6px !important;
 }
 
@@ -657,20 +665,24 @@ div.game-modal.show,
     display: flex !important;
     flex-direction: column !important;
     gap: 6px !important;
+    margin-bottom: 15px !important;
+    padding-bottom: 5px !important;
 }
 
 .epic-feature-item {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    padding: 6px 10px !important;
+    padding: 6px 8px !important;
     background: rgba(42, 52, 70, 0.5) !important;
     border-radius: 6px !important;
     border: 1px solid #4a5568 !important;
+    margin-bottom: 2px !important;
 }
 
 .epic-feature-item:last-child {
     border-bottom: none !important;
+    margin-bottom: 8px !important;
 }
 
 /* Epic features section styling */
@@ -679,6 +691,7 @@ div.game-modal.show,
     border-radius: 8px !important;
     padding: 15px !important;
     margin-top: 15px !important;
+    margin-bottom: 20px !important;
     border: 1px solid #4a5568 !important;
 }
 
