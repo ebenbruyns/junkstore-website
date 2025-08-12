@@ -370,7 +370,7 @@ function addModalHandlers() {
 // Open game modal
 async function openGameModal(gameId, modalFile) {
   try {
-    console.log(`Opening modal for game: ${gameId}`);
+    console.log(`Opening modal for game: ${gameId}, modal file: ${modalFile}`);
     
     // Show loading state
     const loadingModal = document.createElement('div');
@@ -387,17 +387,38 @@ async function openGameModal(gameId, modalFile) {
     `;
     document.body.appendChild(loadingModal);
 
-    // Find game in data
-    const game = gamesData.games.find(g => g.id === gameId);
-    if (!game) {
-      throw new Error('Game not found');
+    // Find basic game info from table data
+    const basicGame = gamesData.games.find(g => g.id === gameId);
+    if (!basicGame) {
+      throw new Error('Game not found in table data');
+    }
+    
+    // Load detailed game data from individual JSON file
+    let detailedGame = basicGame; // fallback to basic data
+    
+    if (modalFile) {
+      try {
+        console.log(`Fetching detailed game data from: /assets/data/${modalFile}`);
+        const detailResponse = await fetch(`/assets/data/${modalFile}`);
+        if (detailResponse.ok) {
+          const detailedData = await detailResponse.json();
+          // Merge basic table data with detailed JSON data
+          detailedGame = { ...basicGame, ...detailedData };
+          console.log('✅ Loaded detailed game data:', detailedGame.title);
+        } else {
+          console.warn(`Could not load detailed data from ${modalFile}, using basic data`);
+        }
+      } catch (detailError) {
+        console.warn('Error loading detailed game data:', detailError);
+        // Continue with basic data
+      }
     }
     
     // Remove loading modal
     loadingModal.remove();
     
-    // Create actual modal
-    createGameModal(game);
+    // Create actual modal with detailed data
+    createGameModal(detailedGame);
     
   } catch (error) {
     console.error('Failed to open game modal:', error);
@@ -427,7 +448,8 @@ function createGameModal(game) {
       <div class="modal-content">
         <!-- Game Banner -->
         <div id="gameBanner-${game.id}" class="game-banner">
-          ${game.verticalArtwork ? `<img src="${game.verticalArtwork}" alt="Game Banner" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
+          ${(game.images && game.images.banner_image) || game.verticalArtwork ? 
+            `<img src="${(game.images && game.images.banner_image) || game.verticalArtwork}" alt="Game Banner" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
         </div>
         
         <!-- Enhanced Header -->
@@ -486,8 +508,8 @@ function createGameModal(game) {
             <div class="row">
               <div class="col-md-4">
                 <div id="gameImages-${game.id}" class="game-image-container">
-                  ${game.verticalArtwork && game.verticalArtwork.trim() ? 
-                    `<img src="${game.verticalArtwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
+                  ${(game.images && game.images.verticalArtwork) || game.verticalArtwork ? 
+                    `<img src="${(game.images && game.images.verticalArtwork) || game.verticalArtwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
                     `<div class="game-image-placeholder">
                       <div class="placeholder-content">
                         <i class="fas fa-gamepad" style="font-size: 3rem; color: #4a5568; margin-bottom: 10px;"></i>
@@ -627,23 +649,28 @@ function getStatusText(rating) {
 function renderEpicFeatures(game) {
   if (game.storefront !== 'Epic') return '';
   
+  const epicFeatures = game.epic_features || {};
+  const hasFeatures = epicFeatures.epic_achievements || epicFeatures.epic_offline_mode || epicFeatures.requires_eos;
+  
+  if (!hasFeatures) return '';
+  
   return `
     <div class="info-section">
       <h6><i class="fas fa-star text-warning"></i> Epic Games Features</h6>
       <div class="epic-features-grid">
-        ${game.epic_achievements ? `
+        ${epicFeatures.epic_achievements ? `
           <div class="epic-feature-item">
             <span>Achievements</span>
             <span class="feature-status status-supported">✓ Supported</span>
           </div>
         ` : ''}
-        ${game.epic_offline_mode ? `
+        ${epicFeatures.epic_offline_mode ? `
           <div class="epic-feature-item">
             <span>Offline Mode</span>
             <span class="feature-status status-supported">✓ Available</span>
           </div>
         ` : ''}
-        ${game.requires_eos ? `
+        ${epicFeatures.requires_eos ? `
           <div class="epic-feature-item">
             <span>EOS Overlay</span>
             <span class="feature-status status-required">Required</span>
