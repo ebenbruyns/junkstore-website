@@ -205,10 +205,6 @@ function populateStats() {
         <span class="stat-number">${gamesData.storefronts.amazon}</span>
         <span class="stat-label">Amazon</span>
       </div>
-      <div class="stat-item">
-        <span class="stat-number">${gamesData.storefronts.itch || 0}</span>
-        <span class="stat-label">itch.io</span>
-      </div>
     </div>
   `;
 }
