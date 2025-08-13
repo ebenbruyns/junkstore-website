@@ -158,7 +158,8 @@
 .games-table-wrapper .compatibility-good,
 .games-table-wrapper .compatibility-okay, 
 .games-table-wrapper .compatibility-bad,
-.games-table-wrapper .compatibility-unknown {
+.games-table-wrapper .compatibility-unknown,
+.games-table-wrapper .compatibility-anticheat {
     background: transparent !important;
     background-color: transparent !important;
     border: none !important;
@@ -189,6 +190,17 @@
 
 .games-table-wrapper .compatibility-unknown {
     color: inherit !important;
+}
+
+.games-table-wrapper .compatibility-anticheat {
+    color: inherit !important;
+}
+
+/* Non-clickable game titles (anti-cheat games) */
+.games-table-wrapper .game-title-static {
+    color: #ccc !important;
+    cursor: default !important;
+    text-decoration: none !important;
 }
 
 /* Pagination styling */

@@ -64,6 +64,16 @@ header:
   Loading games...
 </div>
 
+<!-- Compatibility Legend -->
+<div class="compatibility-legend">
+  <span class="legend-title">Compatibility:</span>
+  <span class="legend-item">✅ Works great</span>
+  <span class="legend-item">🟡 Minor tinkering</span>
+  <span class="legend-item">🔧 Advanced tinkering</span>
+  <span class="legend-item">❌ Doesn't work</span>
+  <span class="legend-item">⚠️ Anti-cheat incompatible</span>
+</div>
+
 <!-- Games Table -->
 <div class="games-table-wrapper">
   <table id="gamesTable">
@@ -108,8 +118,8 @@ let pageSize = 20;
 // Load games data
 async function loadGamesData() {
   try {
-    console.log('Loading games data from /assets/data/games-table.json');
-    const response = await fetch('/assets/data/games-table.json');
+    console.log('Loading games data from /assets/data/games.json');
+    const response = await fetch('/assets/data/games.json');
     
     console.log('Response status:', response.status);
     if (!response.ok) {
@@ -218,13 +228,29 @@ function getCompatibilityDisplay(rating) {
   const ratingMap = {
     'green': '✅',
     'Perfect': '✅',  // Handle Perfect ratings as green checkmarks
-    'yellow': '⚠️',
+    'yellow': '🟡',
     'red': '🔧',
     'not-working': '❌',
     'not-supported': '🚫'
   };
   
   return `<span class="compatibility-rating">${ratingMap[rating] || '❓'}</span>`;
+}
+
+// Convert controller input to user-friendly game mode text
+function getGameModeDisplay(controllerInput) {
+  if (!controllerInput) return 'Unknown';
+  
+  const modeMap = {
+    'native': '🎮 Controller Native',
+    'mouse-only': '🖱️ Mouse Only',
+    'keyboard-mouse': '⌨️ Keyboard + Mouse',
+    'controller': '🎮 Controller',
+    'touchpad': '👆 Touchpad',
+    'mixed': '🎮🖱️ Mixed Input'
+  };
+  
+  return modeMap[controllerInput.toLowerCase()] || `🎮 ${controllerInput}`;
 }
 
 // Update table with current page
@@ -236,25 +262,30 @@ function updateTable() {
   
   console.log(`Page ${currentPage}: showing ${pageGames.length} games (${startIdx}-${endIdx}) of ${filteredGames.length} total, pageSize: ${pageSize}`);
   
-  const tableHTML = pageGames.map(game => `
+  const tableHTML = pageGames.map(game => {
+    // Check if this is an anti-cheat game
+    const isAntiCheat = game.cant_test_linux === true;
+    
+    return `
     <tr class="${game.is_featured ? 'featured-game' : ''}" data-storefront="${game.storefront}" data-status="${game.overall_status}">
       <td title="${game.title}">
-        <span class="game-link clickable" data-game-id="${game.id}" data-modal-file="${game.modal_file}">
-          ${game.title}
-        </span>
+        ${isAntiCheat ? 
+          `<span class="game-title-static">${game.title}</span>` :
+          `<span class="game-link clickable" data-game-id="${game.id}" data-modal-file="${game.modal_file}">${game.title}</span>`
+        }
       </td>
       <td>
         <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
       </td>
-      <td class="compatibility-rating">
-        ${getCompatibilityDisplay(game.decky_rating)}
-      </td>
-      <td class="compatibility-rating">
-        ${getCompatibilityDisplay(game.standalone_rating)}
-      </td>
-      <td>${game.date_tested}</td>
+      ${isAntiCheat ? 
+        `<td colspan="2" class="anticheat-warning">⚠️ Incompatible - Anti Cheat</td>` :
+        `<td class="compatibility-rating">${getCompatibilityDisplay(game.decky_rating)}</td>
+         <td class="compatibility-rating">${getCompatibilityDisplay(game.standalone_rating)}</td>`
+      }
+      <td>${game.date_tested || ''}</td>
     </tr>
-  `).join('');
+    `;
+  }).join('');
   
   console.log('Generated HTML length:', tableHTML.length);
   console.log('Setting tbody innerHTML...');
@@ -548,13 +579,13 @@ function createGameModal(game) {
                         <span class="info-value">${game.publisher}</span>
                       </div>
                     ` : ''}
+                    ${game.language_support ? `
+                      <div class="info-item">
+                        <span class="info-label">Language Support</span>
+                        <span class="info-value">${game.language_support}</span>
+                      </div>
+                    ` : ''}
                   </div>
-                  ${game.language_support ? `
-                    <div class="info-item" style="margin-top: 10px;">
-                      <span class="info-label">Language Support</span>
-                      <span class="info-value">${game.language_support}</span>
-                    </div>
-                  ` : ''}
                 </div>
               
                 ${game.description ? `
@@ -1125,6 +1156,63 @@ select:focus, input:focus {
   .stats-grid {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 15px;
+  }
+}
+
+/* Anti-cheat game styling */
+.anticheat-warning {
+  text-align: center !important;
+  color: #ffa500 !important;
+  font-weight: bold !important;
+  background: rgba(255, 165, 0, 0.1) !important;
+  padding: 8px 12px !important;
+  border-radius: 4px !important;
+}
+
+.game-title-static {
+  color: #ccc !important;
+  cursor: default !important;
+  text-decoration: none !important;
+}
+
+.game-title-static:hover {
+  color: #ccc !important;
+  text-decoration: none !important;
+}
+
+/* Compatibility Legend */
+.compatibility-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+  background: rgba(30, 42, 56, 0.5);
+  padding: 12px 20px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  border: 1px solid rgba(58, 74, 92, 0.5);
+}
+
+.legend-title {
+  color: #ffa366;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.legend-item {
+  color: #ddd;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .compatibility-legend {
+    gap: 10px;
+    font-size: 0.85rem;
+  }
+  
+  .legend-item {
+    font-size: 0.8rem;
   }
 }
 </style>
