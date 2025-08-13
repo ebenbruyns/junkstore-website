@@ -3,23 +3,6 @@
   "total_games": 673,
   "games": [
     {
-      "id": "test-itch-badge-preview",
-      "title": "itch.io Badge Test Game",
-      "storefront": "itch",
-      "date_tested": "Aug '25",
-      "decky_rating": "green",
-      "standalone_rating": "green",
-      "decky_text": "Works great",
-      "standalone_text": "Works great",
-      "overall_status": "works-great",
-      "cant_test_linux": false,
-      "is_featured": true,
-      "modal_file": null,
-      "thumbnail": null,
-      "publisher": "Test Publisher",
-      "tested": true
-    },
-    {
       "id": "f1d56fa3-be57-45cd-878f-809b096da946",
       "title": "[REDACTED]",
       "storefront": "Epic",
