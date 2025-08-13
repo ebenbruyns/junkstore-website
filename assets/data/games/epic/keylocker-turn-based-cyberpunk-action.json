@@ -12,11 +12,11 @@
     "icon_image": "https://images.gog.com/236491c86ca323c1c0d2fdb8fec88a64ed0603813a5eca9fb8ef0153dfabe557.jpg?namespace=gamesdb",
     "verticalArtwork": "https://images.gog.com/ad1ce0856f1e62bc533d61b65834c18350925555663ac37292026f65bc12f3d8.jpg?namespace=gamesdb"
   },
-  "publisher": "",
-  "developer": "",
-  "genre": "",
-  "releasedate": "",
-  "description": "",
+  "publisher": "Serenity Forge",
+  "developer": "Moonana",
+  "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Music",
+  "releasedate": "2024-09-18T00:00:00+0000",
+  "description": "Keylocker is a Cyberpunk turn based rhythm JRPG inspired by the Mario&Luigi RPG series and Chrono Trigger, in which you play as the singer and songwriter, BOBO. Fuel your moves with the electric power of music in this unforgiving planet by using real-time execution of moves in rhythm game style! Battle the authorities, unlock the secrets of Saturn, play on your own bands' concerts and hack into the network to bring an end to this corrupt system, for better or worse.",
   "size": "",
   "epic_features": {
     "requires_eos": false,
