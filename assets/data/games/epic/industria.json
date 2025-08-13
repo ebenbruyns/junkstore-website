@@ -2,9 +2,9 @@
   "id": "df5b7266-bb07-4d2d-8563-e58e28a396b2",
   "title": "Industria",
   "storefront": "Epic",
-  "date_tested": "May '24",
-  "decky_rating": "",
-  "standalone_rating": "",
+  "date_tested": "Aug '25",
+  "decky_rating": "green",
+  "standalone_rating": "green",
   "proton_version": "",
   "images": {
     "vertical_artwork": "https://images.gog.com/0424514c2d6089337d143b2ca11a543dbb9cc4af075b89335a4de9bec56f0927.jpg?namespace=gamesdb",
@@ -27,9 +27,9 @@
     "requires_eac_runtime": false,
     "requires_battleye_runtime": false
   },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
+  "dependencies": "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>",
+  "controller_config": "",
+  "controller_input": "native",
   "set_executable": "",
   "required_launcher": "",
   "requires_account_setup": false,
@@ -38,9 +38,9 @@
   "protondb": "https://www.protondb.com/app/1172650",
   "is_featured": false,
   "cant_test_linux": false,
-  "notes": "Check out our notes [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Industria)",
+  "notes": "Native controller support. Community controller layout available. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**. You need to either use the mouse or touch screen to get past main menu and into the game. If you want to, you can remap controls in game from the 'Options' menu. Community layout is for the 'Steam Controller'.",
   "performance_notes": "",
   "known_issues": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-04T06:50:23.811Z"
+  "updated_at": "2025-08-12T08:38:12.567Z"
 }
