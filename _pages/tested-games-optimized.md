@@ -70,7 +70,7 @@ header:
   <span class="legend-item">✅ Works great</span>
   <span class="legend-item">🟡 Minor tinkering</span>
   <span class="legend-item">🔧 Advanced tinkering</span>
-  <span class="legend-item">❌ Doesn't work</span>
+  <span class="legend-item">🚫 Unsupported</span>
   <span class="legend-item">⚠️ Anti-cheat incompatible</span>
 </div>
 
@@ -205,6 +205,10 @@ function populateStats() {
         <span class="stat-number">${gamesData.storefronts.amazon}</span>
         <span class="stat-label">Amazon</span>
       </div>
+      <div class="stat-item">
+        <span class="stat-number">${gamesData.storefronts.itch || 0}</span>
+        <span class="stat-label">itch.io</span>
+      </div>
     </div>
   `;
 }
@@ -230,7 +234,7 @@ function getCompatibilityDisplay(rating) {
     'Perfect': '✅',  // Handle Perfect ratings as green checkmarks
     'yellow': '🟡',
     'red': '🔧',
-    'not-working': '❌',
+    'not-working': '🚫',
     'not-supported': '🚫'
   };
   
@@ -1137,6 +1141,11 @@ select:focus, input:focus {
   color: white;
 }
 
+.store-badge.itch {
+  background: #fa5c5c;
+  color: white;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
   .table-controls {
@@ -1184,7 +1193,7 @@ select:focus, input:focus {
 .compatibility-legend {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 25px;
   align-items: center;
   background: rgba(30, 42, 56, 0.5);
   padding: 12px 20px;
