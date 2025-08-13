@@ -48,17 +48,40 @@ class StaticOptimizedGamesTable {
       }
       
       const data = await response.json();
-      console.log(`📊 Loaded ${data.length} total games from JSON`);
+      // Handle both old format (direct array) and new format (object with games array)
+      const gamesArray = Array.isArray(data) ? data : (data.games || []);
+      console.log(`📊 Loaded ${gamesArray.length} total games from JSON`);
       
-      this.allGames = data || [];
+      this.allGames = gamesArray;
       
-      // Filter to only tested games (those with actual test data)
-      this.testedGames = this.allGames.filter(game => 
-        game.tested === true && 
-        (game.decky_rating || game.standalone_rating || game.date_tested)
-      );
+      // Filter to tested games and anti-cheat games that can't be tested
+      this.testedGames = this.allGames.filter(game => {
+        const normalTested = game.tested === true && (game.decky_rating || game.standalone_rating || game.date_tested);
+        const antiCheat = game.cant_test_linux === true;
+        const result = normalTested || antiCheat;
+        
+        if (game.title === 'Fortnite') {
+          console.log(`🔍 Fortnite debug:`, {
+            title: game.title,
+            tested: game.tested,
+            decky_rating: game.decky_rating,
+            standalone_rating: game.standalone_rating,
+            date_tested: game.date_tested,
+            cant_test_linux: game.cant_test_linux,
+            normalTested,
+            antiCheat,
+            result
+          });
+        }
+        
+        return result;
+      });
       
       console.log(`🧪 Found ${this.testedGames.length} tested games`);
+      
+      // Count anti-cheat games specifically
+      const antiCheatCount = this.testedGames.filter(game => game.cant_test_linux === true).length;
+      console.log(`🚫 Including ${antiCheatCount} anti-cheat games`);
       
       // Merge with featured games from Jekyll data
       this.mergeFeaturedGames();
@@ -386,9 +409,15 @@ class StaticOptimizedGamesTable {
     const deckyRating = this.getCompatibilityIndicator(game.decky_rating);
     const standaloneRating = this.getCompatibilityIndicator(game.standalone_rating);
 
+    // Don't make anti-cheat games clickable since they can't be tested
+    const isClickable = !game.cant_test_linux;
+    const titleSpan = isClickable 
+      ? `<span class="game-link clickable" data-game-id="${game.id}">${this.escapeHtml(game.title)}</span>`
+      : `<span class="game-title-static">${this.escapeHtml(game.title)}</span>`;
+
     return `
       <tr data-game-id="${game.id}" class="${featuredClass.trim()}">
-        <td><span class="game-link clickable" data-game-id="${game.id}">${this.escapeHtml(game.title)}</span></td>
+        <td>${titleSpan}</td>
         <td><span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span></td>
         <td class="compatibility-rating">${deckyRating}</td>
         <td class="compatibility-rating">${standaloneRating}</td>
@@ -409,6 +438,8 @@ class StaticOptimizedGamesTable {
       return '<span class="compatibility-bad">🔴</span>';
     } else if (ratingLower === 'not-working') {
       return '<span class="compatibility-bad">❌</span>';
+    } else if (ratingLower === 'cant-test-anticheat') {
+      return '<span class="compatibility-anticheat">🚫</span>';
     }
     return '<span class="compatibility-unknown">❓</span>';
   }
