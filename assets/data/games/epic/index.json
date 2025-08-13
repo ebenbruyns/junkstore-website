@@ -19,8 +19,8 @@
   },
   {
     "id": "df6e679d-11b7-47d5-9764-b2a0caa766b6",
-    "title": "3 out of 10: Season One",
-    "filename": "3-out-of-10-season-one.json",
+    "title": "3 out of 10, Ep. 1: \"Welcome to Shovelworks\"",
+    "filename": "3-out-of-10-ep-1-welcome-to-shovelworks.json",
     "date_tested": "July '24",
     "is_featured": false,
     "decky_rating": "green",
@@ -64,7 +64,7 @@
   },
   {
     "id": "325a32b0-dfce-4f7e-8282-2ab78de99f34",
-    "title": "Alba - A Wildlife Adventure",
+    "title": "Alba: A Wildlife Adventure",
     "filename": "alba-a-wildlife-adventure.json",
     "date_tested": "May '24",
     "is_featured": false,
@@ -73,8 +73,8 @@
   },
   {
     "id": "ed768cae-d800-4eaf-9a8f-3fb6d0c463a4",
-    "title": "Albion",
-    "filename": "albion.json",
+    "title": "Albion Online",
+    "filename": "albion-online.json",
     "date_tested": "July '24",
     "is_featured": false,
     "decky_rating": "Perfect",
@@ -82,8 +82,8 @@
   },
   {
     "id": "9bca419f-d67e-4699-aea4-fb62dc816b82",
-    "title": "Alex the Kidd in Miracle World DX",
-    "filename": "alex-the-kidd-in-miracle-world-dx.json",
+    "title": "Alex Kidd in Miracle World DX",
+    "filename": "alex-kidd-in-miracle-world-dx.json",
     "date_tested": "July '24",
     "is_featured": false,
     "decky_rating": "green",
@@ -91,8 +91,8 @@
   },
   {
     "id": "790e593b-7c41-44f9-a931-eba01432f2a1",
-    "title": "Alan Wake 2",
-    "filename": "alan-wake-2.json",
+    "title": "Alan Wake II",
+    "filename": "alan-wake-ii.json",
     "date_tested": "July '24",
     "is_featured": false,
     "decky_rating": "green",
@@ -109,7 +109,7 @@
   },
   {
     "id": "99d256b3-5656-4933-b615-8fc43d18edcc",
-    "title": "Amnesia - The Dark Descent",
+    "title": "Amnesia: The Dark Descent",
     "filename": "amnesia-the-dark-descent.json",
     "date_tested": "Nov '24",
     "is_featured": false,
@@ -154,7 +154,7 @@
   },
   {
     "id": "eececd6b-ff3b-40c3-8806-48fe44638d7f",
-    "title": "ArcadeGeddon",
+    "title": "Arcadegeddon",
     "filename": "arcadegeddon.json",
     "date_tested": "April '25",
     "is_featured": false,
@@ -163,8 +163,8 @@
   },
   {
     "id": "2f43feac-50dc-4b61-a72d-0d5900409231",
-    "title": "Are You Smarter than a Fifth Grader?",
-    "filename": "are-you-smarter-than-a-fifth-grader.json",
+    "title": "Are You Smarter Than A 5th Grader?",
+    "filename": "are-you-smarter-than-a-5th-grader.json",
     "date_tested": "Aug '25",
     "is_featured": false,
     "decky_rating": "yellow",
@@ -190,7 +190,7 @@
   },
   {
     "id": "0e083eba-5e16-4e8c-a5c6-0471dd9eacc2",
-    "title": "Astrea: Six Sided Oracles",
+    "title": "Astrea: Six-Sided Oracles",
     "filename": "astrea-six-sided-oracles.json",
     "date_tested": "Dec '24",
     "is_featured": false,
@@ -244,8 +244,8 @@
   },
   {
     "id": "40318f0e-90d1-4e53-91ca-8db0d664dc76",
-    "title": "Behind the Frame",
-    "filename": "behind-the-frame.json",
+    "title": "Behind the Frame: The Finest Scenery",
+    "filename": "behind-the-frame-the-finest-scenery.json",
     "date_tested": "Jan '25",
     "is_featured": false,
     "decky_rating": "Perfect",
@@ -316,7 +316,7 @@
   },
   {
     "id": "39d752ff-e368-4109-bd76-81d477fc7627",
-    "title": "BLOCKLORDS",
+    "title": "Blocklords",
     "filename": "blocklords.json",
     "date_tested": "Aug '24",
     "is_featured": false,
@@ -334,8 +334,8 @@
   },
   {
     "id": "4f6bfa5b-4ab4-42c5-8a89-c1b2047b9845",
-    "title": "Book of Yog Idle RPG",
-    "filename": "book-of-yog-idle-rpg.json",
+    "title": "Book of Yog",
+    "filename": "book-of-yog.json",
     "date_tested": "Aug '24",
     "is_featured": false,
     "decky_rating": "yellow",
@@ -361,7 +361,7 @@
   },
   {
     "id": "18e0a436-eae2-4931-b8c6-214d5e67938e",
-    "title": "Borderlands The Pre-Sequel!",
+    "title": "Borderlands: The Pre-Sequel",
     "filename": "borderlands-the-pre-sequel.json",
     "date_tested": "Sept '24",
     "is_featured": false,
@@ -442,7 +442,7 @@
   },
   {
     "id": "fb12d102-40c7-4c16-bf49-eb06576da333",
-    "title": "Call of the Wild: The Angler™",
+    "title": "Call of the Wild: The Angler",
     "filename": "call-of-the-wild-the-angler.json",
     "date_tested": "Sept '24",
     "is_featured": false,
@@ -496,7 +496,7 @@
   },
   {
     "id": "347a0f91-3315-4ebd-9641-38bb216e5702",
-    "title": "Cave Story",
+    "title": "Cave Story+",
     "filename": "cave-story.json",
     "date_tested": "July '25",
     "is_featured": false,
@@ -505,7 +505,7 @@
   },
   {
     "id": "32de6303-0f79-463c-adb5-57ace6d5c6e0",
-    "title": "Centipede Recharged",
+    "title": "Centipede: Recharged",
     "filename": "centipede-recharged.json",
     "date_tested": "Sept '24",
     "is_featured": false,
@@ -514,8 +514,8 @@
   },
   {
     "id": "40574eb8-ff58-4755-b10b-ccacec0b9506",
-    "title": "Call of the Wild: The Hunter",
-    "filename": "call-of-the-wild-the-hunter.json",
+    "title": "TheHunter: Call of the Wild",
+    "filename": "thehunter-call-of-the-wild.json",
     "date_tested": "April '25",
     "is_featured": false,
     "decky_rating": "green",
@@ -532,8 +532,8 @@
   },
   {
     "id": "d72dafbf-09d2-4486-9205-9aed487f1751",
-    "title": "Chivalry II",
-    "filename": "chivalry-ii.json",
+    "title": "Chivalry 2",
+    "filename": "chivalry-2.json",
     "date_tested": "July '24",
     "is_featured": false,
     "decky_rating": "green",
@@ -541,7 +541,7 @@
   },
   {
     "id": "5d8adeb0-4f9b-4b18-8993-813ee46094ce",
-    "title": "Chronoshot",
+    "title": "CHRONOSHOT",
     "filename": "chronoshot.json",
     "date_tested": "Aug '24",
     "is_featured": false,
@@ -649,7 +649,7 @@
   },
   {
     "id": "5f5aa21d-3abc-498f-b06b-68a272bf295b",
-    "title": "CYGNI: All Guns Blazing",
+    "title": "Cygni: All Guns Blazing",
     "filename": "cygni-all-guns-blazing.json",
     "date_tested": "Aug '24",
     "is_featured": false,
@@ -667,7 +667,7 @@
   },
   {
     "id": "c51a8808-dde9-4756-8d51-47b4c16816a5",
-    "title": "DARQ",
+    "title": "Darq",
     "filename": "darq.json",
     "date_tested": "July '25",
     "is_featured": false,
@@ -694,8 +694,8 @@
   },
   {
     "id": "01a999b1-ff7c-4471-be99-e43388481d30",
-    "title": "Death Loop",
-    "filename": "death-loop.json",
+    "title": "Deathloop",
+    "filename": "deathloop.json",
     "date_tested": "June '25",
     "is_featured": false,
     "decky_rating": "green",
@@ -730,7 +730,7 @@
   },
   {
     "id": "027bb567-c0f1-4ecb-8005-9c417e3c5ece",
-    "title": "Death's Gambit - Afterlife",
+    "title": "Death's Gambit: Afterlife",
     "filename": "deaths-gambit-afterlife.json",
     "date_tested": "Aug '24' ",
     "is_featured": false,
@@ -775,7 +775,7 @@
   },
   {
     "id": "f5e74286-0954-49d2-943a-76017db78cee",
-    "title": "Dishonored®: Death of the Outsider™",
+    "title": "Dishonored: Death of the Outsider",
     "filename": "dishonored-death-of-the-outsider.json",
     "date_tested": "June '24",
     "is_featured": false,
@@ -784,8 +784,8 @@
   },
   {
     "id": "a1d9b5e8-8797-4f5f-8394-81fe3b803de6",
-    "title": "Doki Doki Literature Club Plus!",
-    "filename": "doki-doki-literature-club-plus.json",
+    "title": "Doki Doki Literature Club!",
+    "filename": "doki-doki-literature-club.json",
     "date_tested": "July '25",
     "is_featured": false,
     "decky_rating": "green",
@@ -820,7 +820,7 @@
   },
   {
     "id": "8a1b651e-ebcc-485d-ad88-5e3046fcc526",
-    "title": "Doors Paradox",
+    "title": "Doors: Paradox",
     "filename": "doors-paradox.json",
     "date_tested": "May '25",
     "is_featured": false,
@@ -829,7 +829,7 @@
   },
   {
     "id": "f26286ad-ea7a-4073-8302-bddc7e2b920e",
-    "title": "DREDGE",
+    "title": "Dredge",
     "filename": "dredge.json",
     "date_tested": "Aug '25",
     "is_featured": false,
@@ -847,8 +847,8 @@
   },
   {
     "id": "e1c5c399-7a53-436b-a9ca-882e29443ca1",
-    "title": "Dishonored - Definitive Edition",
-    "filename": "dishonored-definitive-edition.json",
+    "title": "Dishonored",
+    "filename": "dishonored.json",
     "date_tested": "June '24",
     "is_featured": false,
     "decky_rating": "green",
@@ -865,7 +865,7 @@
   },
   {
     "id": "5db2f911-2843-4c1a-9a5d-7bbbe5b67fd7",
-    "title": "El Hijo - A Wild West Tale",
+    "title": "El Hijo: A Wild West Tale",
     "filename": "el-hijo-a-wild-west-tale.json",
     "date_tested": "March '25",
     "is_featured": false,
@@ -883,7 +883,7 @@
   },
   {
     "id": "b5622537-d078-493e-978c-e844ac593d73",
-    "title": "Elite Dangerous",
+    "title": "Elite: Dangerous",
     "filename": "elite-dangerous.json",
     "date_tested": "Aug '25",
     "is_featured": false,
@@ -892,7 +892,7 @@
   },
   {
     "id": "868004a6-8250-4120-98a4-c04f3ad5f9a9",
-    "title": "Empyrion - Galactic Survival",
+    "title": "Empyrion: Galactic Survival",
     "filename": "empyrion-galactic-survival.json",
     "date_tested": "Oct '24",
     "is_featured": false,
@@ -937,8 +937,8 @@
   },
   {
     "id": "7179944b-0130-4b88-8544-b8a12ba978d8",
-    "title": "F1 Manager 24",
-    "filename": "f1-manager-24.json",
+    "title": "F1 Manager 2024",
+    "filename": "f1-manager-2024.json",
     "date_tested": "March '25",
     "is_featured": false,
     "decky_rating": "yellow",
@@ -955,8 +955,8 @@
   },
   {
     "id": "ea6a288c-a283-471c-b950-12bfed0e95de",
-    "title": "Fallout 2: A Post Nuclear Role Playing Game",
-    "filename": "fallout-2-a-post-nuclear-role-playing-game.json",
+    "title": "Fallout 2",
+    "filename": "fallout-2.json",
     "date_tested": "Aug '24",
     "is_featured": false,
     "decky_rating": "green",
@@ -964,8 +964,8 @@
   },
   {
     "id": "4d123b9f-b377-49af-be94-dad0610b8db0",
-    "title": "Fallout 3",
-    "filename": "fallout-3.json",
+    "title": "Fallout 3: Game of the Year Edition",
+    "filename": "fallout-3-game-of-the-year-edition.json",
     "date_tested": "Aug '24",
     "is_featured": false,
     "decky_rating": "green",
@@ -1054,7 +1054,7 @@
   },
   {
     "id": "f849ac75-2cde-41a4-87ff-2d23c39c9d76",
-    "title": "Firestone Online Idle RPG",
+    "title": "Firestone: Online Idle RPG",
     "filename": "firestone-online-idle-rpg.json",
     "date_tested": "April '25",
     "is_featured": false,
@@ -1090,8 +1090,8 @@
   },
   {
     "id": "0c5d13fb-66bf-4c78-9f42-305078784ff8",
-    "title": "Gamedec - Definitive Edition",
-    "filename": "gamedec-definitive-edition.json",
+    "title": "Gamedec",
+    "filename": "gamedec.json",
     "date_tested": "March '25",
     "is_featured": false,
     "decky_rating": "green",
@@ -1117,8 +1117,8 @@
   },
   {
     "id": "6b452e63-6aff-4fbc-a3e3-60562b9def94",
-    "title": "Ghostbusters: Spirits Unleashed Ecto Edition",
-    "filename": "ghostbusters-spirits-unleashed-ecto-edition.json",
+    "title": "Ghostbusters: Spirits Unleashed",
+    "filename": "ghostbusters-spirits-unleashed.json",
     "date_tested": "Oct '24",
     "is_featured": false,
     "decky_rating": "yellow",
@@ -1135,8 +1135,8 @@
   },
   {
     "id": "c283e98c-4a6a-4e2a-a8bf-99762cbb8b6b",
-    "title": "Ghostrunner 2",
-    "filename": "ghostrunner-2.json",
+    "title": "Ghostrunner II",
+    "filename": "ghostrunner-ii.json",
     "date_tested": "Dec '24",
     "is_featured": false,
     "decky_rating": "yellow",
@@ -1198,8 +1198,8 @@
   },
   {
     "id": "2042402d-a4e6-4e18-9e9c-7abf82ee7987",
-    "title": "GTA V",
-    "filename": "gta-v.json",
+    "title": "Grand Theft Auto V",
+    "filename": "grand-theft-auto-v.json",
     "date_tested": "March '25",
     "is_featured": false,
     "decky_rating": "",
@@ -1207,8 +1207,8 @@
   },
   {
     "id": "a73fb27f-2fd2-415d-bbcc-b60b3eccbd04",
-    "title": "GTA V: Enhanced",
-    "filename": "gta-v-enhanced.json",
+    "title": "Grand Theft Auto V Enhanced",
+    "filename": "grand-theft-auto-v-enhanced.json",
     "date_tested": "March '25",
     "is_featured": false,
     "decky_rating": "red",
@@ -1216,8 +1216,8 @@
   },
   {
     "id": "5b2e2667-b9f7-4825-a218-122142e89d6b",
-    "title": "GRIME Definitive Edition",
-    "filename": "grime-definitive-edition.json",
+    "title": "Grime",
+    "filename": "grime.json",
     "date_tested": "Sept '24",
     "is_featured": false,
     "decky_rating": "green",
@@ -1225,7 +1225,7 @@
   },
   {
     "id": "1522e4d7-9f35-45db-98c3-e3d186b787ea",
-    "title": "Guacamelee 2",
+    "title": "Guacamelee! 2",
     "filename": "guacamelee-2.json",
     "date_tested": "July '25",
     "is_featured": false,
@@ -1297,8 +1297,8 @@
   },
   {
     "id": "5c3a6722-80fc-404f-8c9e-c6de21c723c1",
-    "title": "HUMANKIND Standard Edition",
-    "filename": "humankind-standard-edition.json",
+    "title": "Humankind",
+    "filename": "humankind.json",
     "date_tested": "Feb '25",
     "is_featured": false,
     "decky_rating": "green",
@@ -1324,10 +1324,10 @@
     "id": "df5b7266-bb07-4d2d-8563-e58e28a396b2",
     "title": "Industria",
     "filename": "industria.json",
-    "date_tested": "May '24",
+    "date_tested": "Aug '25",
     "is_featured": false,
-    "decky_rating": "",
-    "standalone_rating": ""
+    "decky_rating": "green",
+    "standalone_rating": "green"
   },
   {
     "id": "95d79957-37d9-4f88-a29c-f397e45546d6",
@@ -1349,8 +1349,8 @@
   },
   {
     "id": "ec773159-2afe-488d-90c2-1a554da72018",
-    "title": "Jennifer Wilde: Unlikely Revolutionaires",
-    "filename": "jennifer-wilde-unlikely-revolutionaires.json",
+    "title": "Jennifer Wilde: Unlikely Revolutionaries",
+    "filename": "jennifer-wilde-unlikely-revolutionaries.json",
     "date_tested": "May '25",
     "is_featured": false,
     "decky_rating": "green",
@@ -1394,8 +1394,8 @@
   },
   {
     "id": "2851cb94-010e-4a77-94a7-f34d5737ecbd",
-    "title": "Kardboard Kings",
-    "filename": "kardboard-kings.json",
+    "title": "Kardboard Kings: Card Shop Simulator",
+    "filename": "kardboard-kings-card-shop-simulator.json",
     "date_tested": "Oct '24",
     "is_featured": false,
     "decky_rating": "green",
@@ -1484,7 +1484,7 @@
   },
   {
     "id": "13ee61a1-d556-4ed5-849f-c6945e96166f",
-    "title": "Lumbearjack",
+    "title": "LumbearJack",
     "filename": "lumbearjack.json",
     "date_tested": "Aug '24",
     "is_featured": false,
@@ -1556,7 +1556,7 @@
   },
   {
     "id": "dfed0a5b-7def-4924-a40a-77a35b86c58f",
-    "title": "Metro Last Light Redux",
+    "title": "Metro: Last Light Redux",
     "filename": "metro-last-light-redux.json",
     "date_tested": "Sept '24",
     "is_featured": false,
@@ -1565,8 +1565,8 @@
   },
   {
     "id": "4cbb6418-94f7-4d6a-9bae-a672e8ae43be",
-    "title": "Monoply Madness",
-    "filename": "monoply-madness.json",
+    "title": "Monopoly Madness",
+    "filename": "monopoly-madness.json",
     "date_tested": "Sep '24",
     "is_featured": false,
     "decky_rating": "red",
@@ -1664,8 +1664,8 @@
   },
   {
     "id": "54db0d47-1b29-4dd1-97fb-9412cee32895",
-    "title": "Paquerette Down the Bunburows",
-    "filename": "paquerette-down-the-bunburows.json",
+    "title": "Paquerette Down the Bunburrows",
+    "filename": "paquerette-down-the-bunburrows.json",
     "date_tested": "July '25",
     "is_featured": false,
     "decky_rating": "green",
@@ -1673,7 +1673,7 @@
   },
   {
     "id": "52efd26a-f361-4d6b-b9a8-5c2a4f5a06ce",
-    "title": "Predator Hunting Grounds",
+    "title": "Predator: Hunting Grounds",
     "filename": "predator-hunting-grounds.json",
     "date_tested": "Dec '24",
     "is_featured": false,
@@ -1702,8 +1702,10 @@
     "id": "29748aae-7389-47f2-90ee-399ae87a39f2",
     "title": "Prison Architect",
     "filename": "prison-architect.json",
-    "date_tested": "July '25",
-    "is_featured": false
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
   },
   {
     "id": "14ef46ea-d127-400b-aec3-f0472c65cc2f",
@@ -1743,7 +1745,7 @@
   },
   {
     "id": "02065461-2ff2-4120-9a2d-b5be6906bb19",
-    "title": "RENNSPORT",
+    "title": "Rennsport",
     "filename": "rennsport.json",
     "date_tested": "July '24",
     "is_featured": false,
@@ -1770,7 +1772,7 @@
   },
   {
     "id": "83ce086a-741c-449d-888d-00892b90d90b",
-    "title": "Rise of the Tomb Raider : 20 Year Celebration",
+    "title": "Rise of the Tomb Raider: 20 Year Celebration",
     "filename": "rise-of-the-tomb-raider-20-year-celebration.json",
     "date_tested": "July '24",
     "is_featured": false,
@@ -1887,7 +1889,7 @@
   },
   {
     "id": "70c59175-b62b-46b1-b507-7030a5be96d4",
-    "title": "shapez",
+    "title": "Shapez",
     "filename": "shapez.json",
     "date_tested": "Nov '24",
     "is_featured": false,
@@ -1905,8 +1907,8 @@
   },
   {
     "id": "4c161878-2f72-4775-a610-ffa7f2d38125",
-    "title": "Skull & Bones",
-    "filename": "skull-bones.json",
+    "title": "Skull and Bones",
+    "filename": "skull-and-bones.json",
     "date_tested": "Sep '24",
     "is_featured": false,
     "decky_rating": "red",
@@ -1923,7 +1925,7 @@
   },
   {
     "id": "888ae20c-e4ec-431f-bc86-4b2352de823c",
-    "title": "SkyDrift Infinity",
+    "title": "Skydrift Infinity",
     "filename": "skydrift-infinity.json",
     "date_tested": "Jan '25",
     "is_featured": false,
@@ -1932,7 +1934,7 @@
   },
   {
     "id": "15f5d27a-3825-41ab-94f4-518d0ef1130b",
-    "title": "Slain Back From Hell",
+    "title": "Slain: Back from Hell",
     "filename": "slain-back-from-hell.json",
     "date_tested": "March '25",
     "is_featured": false,
@@ -1986,7 +1988,7 @@
   },
   {
     "id": "6fe99c37-340f-49e9-a03a-97854c8216e3",
-    "title": "STASIS: Bone Totem",
+    "title": "Stasis: Bone Totem",
     "filename": "stasis-bone-totem.json",
     "date_tested": "Oct '24",
     "is_featured": false,
@@ -2006,10 +2008,10 @@
     "id": "8ef1a461-37d5-468e-8cf8-bfe2a16f3d94",
     "title": "Stumble Upon Rumble",
     "filename": "stumble-upon-rumble.json",
-    "date_tested": "March '25",
+    "date_tested": "Aug '25",
     "is_featured": false,
-    "decky_rating": "",
-    "standalone_rating": ""
+    "decky_rating": "green",
+    "standalone_rating": "green"
   },
   {
     "id": "d2027e06-9673-401d-a9e8-499840c6a157",
@@ -2085,7 +2087,7 @@
   },
   {
     "id": "635e3105-199c-4b9f-aab5-0608cf6b2000",
-    "title": "Tandem A Tale of Shadows",
+    "title": "Tandem: A Tale of Shadows",
     "filename": "tandem-a-tale-of-shadows.json",
     "date_tested": "Dec '24",
     "is_featured": false,
@@ -2130,8 +2132,8 @@
   },
   {
     "id": "8d7437ef-ec78-4774-9284-52a5c3657fdf",
-    "title": "TMNT: Shredder's Revenge",
-    "filename": "tmnt-shredders-revenge.json",
+    "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    "filename": "teenage-mutant-ninja-turtles-shredders-revenge.json",
     "date_tested": "July '24",
     "is_featured": false,
     "decky_rating": "yellow",
@@ -2220,7 +2222,7 @@
   },
   {
     "id": "76a46084-6a33-4ae2-8e7c-12517b01d82c",
-    "title": "The Last Show of Mr Chardish",
+    "title": "The Last Show of Mr. Chardish",
     "filename": "the-last-show-of-mr-chardish.json",
     "date_tested": "April '25",
     "is_featured": false,
@@ -2274,8 +2276,8 @@
   },
   {
     "id": "e720aa8b-035f-40bc-978a-9d4d0ac771e1",
-    "title": "The Spirit & the Mouse",
-    "filename": "the-spirit-the-mouse.json",
+    "title": "The Spirit and the Mouse",
+    "filename": "the-spirit-and-the-mouse.json",
     "date_tested": "Sept '24",
     "is_featured": false,
     "decky_rating": "green",
@@ -2283,8 +2285,8 @@
   },
   {
     "id": "678adb15-3d93-4276-bd51-e8b4fe5b3a81",
-    "title": "The Vanishing of Ethen Carter",
-    "filename": "the-vanishing-of-ethen-carter.json",
+    "title": "The Vanishing of Ethan Carter",
+    "filename": "the-vanishing-of-ethan-carter.json",
     "date_tested": "April '25",
     "is_featured": false,
     "decky_rating": "green",
@@ -2301,8 +2303,8 @@
   },
   {
     "id": "0162b786-a69d-4557-9de7-b1ca4f77fb60",
-    "title": "Tiny Tina's Wonderland",
-    "filename": "tiny-tinas-wonderland.json",
+    "title": "Tiny Tina's Wonderlands",
+    "filename": "tiny-tinas-wonderlands.json",
     "date_tested": "May '25",
     "is_featured": false,
     "decky_rating": "green",
@@ -2310,7 +2312,7 @@
   },
   {
     "id": "8821aa84-6472-4c11-acc9-5443382b16a4",
-    "title": "The Walking Dead No Man's Land",
+    "title": "The Walking Dead: No Man's Land",
     "filename": "the-walking-dead-no-mans-land.json",
     "date_tested": "July '24",
     "is_featured": false,
@@ -2319,8 +2321,8 @@
   },
   {
     "id": "81789515-6d05-4914-8197-6a4198cce1a2",
-    "title": "TOEM: A Photo Adventure",
-    "filename": "toem-a-photo-adventure.json",
+    "title": "Toem",
+    "filename": "toem.json",
     "date_tested": "Sept '24",
     "is_featured": false,
     "decky_rating": "green",
@@ -2328,7 +2330,7 @@
   },
   {
     "id": "2e7e4c9b-86b1-41df-906c-b6beb75673a2",
-    "title": "Tomb Raider GAME OF THE YEAR EDITION",
+    "title": "Tomb Raider: Game of the Year Edition",
     "filename": "tomb-raider-game-of-the-year-edition.json",
     "date_tested": "July '25",
     "is_featured": false,
@@ -2337,7 +2339,7 @@
   },
   {
     "id": "8b074b41-127d-42d7-9176-b7f6a7ebc101",
-    "title": "ToeJam & Earl: Back in the Groove!",
+    "title": "ToeJam & Earl: Back in the Groove",
     "filename": "toejam-earl-back-in-the-groove.json",
     "date_tested": "June '24",
     "is_featured": false,
@@ -2346,8 +2348,8 @@
   },
   {
     "id": "9aab4af3-c0ea-48b4-91d5-85c4853dd446",
-    "title": "To the Rescue: A Dog Shelter Simulator",
-    "filename": "to-the-rescue-a-dog-shelter-simulator.json",
+    "title": "To the Rescue!",
+    "filename": "to-the-rescue.json",
     "date_tested": "Jan '25",
     "is_featured": false,
     "decky_rating": "green",
@@ -2364,8 +2366,8 @@
   },
   {
     "id": "a5efa025-882c-4513-a5f4-f7ad8ac7572e",
-    "title": "Trackmania Starter Access",
-    "filename": "trackmania-starter-access.json",
+    "title": "Trackmania",
+    "filename": "trackmania.json",
     "date_tested": "Sep '24",
     "is_featured": false,
     "decky_rating": "red",
@@ -2373,7 +2375,7 @@
   },
   {
     "id": "c0f13806-1a0e-41fb-8a02-85a5c4e5ba22",
-    "title": "Train Sim World® 5",
+    "title": "Train Sim World 5",
     "filename": "train-sim-world-5.json",
     "date_tested": "Sept '24",
     "is_featured": false,
@@ -2454,7 +2456,7 @@
   },
   {
     "id": "a7eed1b2-d2ac-4e69-ad2a-ccb434b7e764",
-    "title": "Unrailed",
+    "title": "Unrailed!",
     "filename": "unrailed.json",
     "date_tested": "Nov '24",
     "is_featured": false,
@@ -2481,8 +2483,8 @@
   },
   {
     "id": "832568fa-4da7-4070-88f6-a4beec497a95",
-    "title": "Warhammer 40,000: Mechanicus - Standard Edition",
-    "filename": "warhammer-40000-mechanicus-standard-edition.json",
+    "title": "Warhammer 40,000: Mechanicus",
+    "filename": "warhammer-40000-mechanicus.json",
     "date_tested": "April '25",
     "is_featured": false,
     "decky_rating": "Perfect",
@@ -2544,7 +2546,7 @@
   },
   {
     "id": "2c1a6d2c-b033-4145-a32a-6f6f7b1b792e",
-    "title": "Wonder Boy The Dragons Trap",
+    "title": "Wonder Boy: The Dragon's Trap",
     "filename": "wonder-boy-the-dragons-trap.json",
     "date_tested": "Nov '24",
     "is_featured": false,

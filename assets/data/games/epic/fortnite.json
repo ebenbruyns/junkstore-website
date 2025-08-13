@@ -1,0 +1,23 @@
+{
+  "id": "f9e7ea73-c9c7-490a-bdff-4358ef1a7684",
+  "title": "Fortnite",
+  "storefront": "Epic",
+  "protondb": "",
+  "notes": "Imported from library - not yet tested",
+  "date_tested": "",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
+  "decky_rating": "",
+  "standalone_rating": "",
+  "gog_url": "",
+  "steamId": "",
+  "publisher": "Epic Games",
+  "developer": "Epic Games",
+  "genre": "Role-playing (RPG), Adventure, Strategy, Shooter, Simulator",
+  "description": "Fortnite is the completely free online game where you and your friends fight to be the last one standing in Battle Royale, join forces to make your own Creative games, or catch a live show at Party Royale.",
+  "updated_at": "2025-08-04T06:01:46.210Z",
+  "exported_at": "2025-08-13T09:58:22.425Z"
+}
