@@ -6,7 +6,7 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-@import "tested-games";
+@import "games-table-optimized";
 @import "faq-box";
 @import "troubleshooting-box";
 @import "content-boxes";
@@ -15,6 +15,7 @@
 @import "mobile-navigation";
 @import "mobile-performance";
 @import "mobile-optimizations";
+@import "games-modal";
 
 
 /* Ensure hero images or avatars aren't accidentally grayed out */

@@ -1,0 +1,720 @@
+GAMES NEEDING METADATA IMPORT
+==================================================
+
+SUMMARY: 160 total games need metadata updates
+- Critical Priority (4+ missing fields): 9 games
+- Epic Games with missing metadata: 65 games
+- GOG Games with missing metadata: 91 games
+- Amazon Games with missing metadata: 4 games
+
+1. CRITICAL PRIORITY (Complete Missing Data)
+--------------------------------------------------
+Games missing 4 or more critical metadata fields:
+
+• RAWMEN: Food Fighter Arena
+  Steam ID: 782940
+  Missing fields (5): publisher, developer, genre, description, releasedate
+
+• TRIB3
+  Steam ID: 
+  Missing fields (5): publisher, developer, genre, description, releasedate
+
+• Keylocker: Turn Based Cyberpunk Action
+  Steam ID: 1325040
+  Missing fields (5): publisher, developer, genre, description, releasedate
+
+• [REDACTED]
+  Steam ID: 2229940
+  Missing fields (4): publisher, developer, genre, releasedate
+
+• Gigantic: Rampage Edition
+  Steam ID: 1924490
+  Missing fields (4): publisher, developer, genre, releasedate
+
+• Call of Cthulhu: Dark Corners of the Earth
+  Steam ID: 22340
+  Missing fields (4): publisher, developer, genre, releasedate
+
+• The Witcher 3: Complete Edition
+  Steam ID: 292030
+  Missing fields (4): publisher, developer, genre, releasedate
+
+• Helping the Hotties
+  Steam ID: 1590730
+  Missing fields (4): publisher, developer, genre, releasedate
+
+• Summer's Gone - Season 1
+  Steam ID: 2240150
+  Missing fields (4): publisher, developer, genre, releasedate
+
+2. EPIC GAMES - Missing Metadata
+--------------------------------------------------
+Total Epic games with missing metadata: 65
+
+• RAWMEN: Food Fighter Arena
+  Steam ID: 782940
+  Missing fields (5): publisher, developer, genre, description, releasedate
+
+• TRIB3
+  Steam ID: 
+  Missing fields (5): publisher, developer, genre, description, releasedate
+
+• Keylocker: Turn Based Cyberpunk Action
+  Steam ID: 1325040
+  Missing fields (5): publisher, developer, genre, description, releasedate
+
+• [REDACTED]
+  Steam ID: 2229940
+  Missing fields (4): publisher, developer, genre, releasedate
+
+• Gigantic: Rampage Edition
+  Steam ID: 1924490
+  Missing fields (4): publisher, developer, genre, releasedate
+
+• BLOCKLORDS
+  Steam ID: 1278420
+  Missing fields (3): publisher, developer, releasedate
+
+• The Outer Worlds: Spacer's Choice Edition
+  Steam ID: 1920490
+  Missing fields (3): publisher, developer, releasedate
+
+• Filament
+  Steam ID: 1137350
+  Missing fields (2): developer, releasedate
+
+• Jennifer Wilde: Unlikely Revolutionaires
+  Steam ID: 1466350
+  Missing fields (2): publisher, developer
+
+• RENNSPORT
+  Steam ID: 2077750
+  Missing fields (2): publisher, developer
+
+• Against All Odds
+  Steam ID: 1465560
+  Missing fields (2): genre, releasedate
+
+• Tetris Effect
+  Steam ID: 1003590
+  Missing fields (2): genre, releasedate
+
+• 3 out of 10: Season One
+  Steam ID: 
+  Missing fields (1): publisher
+
+• Amnesia: Rebirth
+  Steam ID: 999220
+  Missing fields (1): releasedate
+
+• Illuvium
+  Steam ID: 
+  Missing fields (1): publisher
+
+• PC Building Simulator
+  Steam ID: 621060
+  Missing fields (1): publisher
+
+• Q.U.B.E. 10th Anniversary
+  Steam ID: 1564220
+  Missing fields (1): publisher
+
+• Sands of Aura
+  Steam ID: 1119840
+  Missing fields (1): releasedate
+
+• Snakebird Complete
+  Steam ID: 357300
+  Missing fields (1): publisher
+
+• The Walking Dead No Man's Land
+  Steam ID: 2936310
+  Missing fields (1): publisher
+
+• Trackmania Starter Access
+  Steam ID: 2225070
+  Missing fields (1): publisher
+
+• 20xx
+  Steam ID: 322110
+  Missing fields (1): releasedate
+
+• A Short Hike
+  Steam ID: 1055540
+  Missing fields (1): releasedate
+
+• AER Memories of Old
+  Steam ID: 331870
+  Missing fields (1): releasedate
+
+• Absolute Drift
+  Steam ID: 320140
+  Missing fields (1): releasedate
+
+• Abzû
+  Steam ID: 384190
+  Missing fields (1): releasedate
+
+• Alan Wake Remastered
+  Steam ID: 108710
+  Missing fields (1): releasedate
+
+• Amnesia - A Machine For Pigs
+  Steam ID: 239200
+  Missing fields (1): releasedate
+
+• Assassin's Creed Mirage
+  Steam ID: 
+  Missing fields (1): releasedate
+
+• Assassin's Creed Origins
+  Steam ID: 
+  Missing fields (1): releasedate
+
+• Alien: Isolation
+  Steam ID: 214490
+  Missing fields (1): releasedate
+
+• Among Us
+  Steam ID: 945360
+  Missing fields (1): releasedate
+
+• Anodyne 2 - Return to Dust
+  Steam ID: 877810
+  Missing fields (1): releasedate
+
+• Axiom Verge
+  Steam ID: 332200
+  Missing fields (1): releasedate
+
+• Atlas Fallen
+  Steam ID: 1230530
+  Missing fields (1): releasedate
+
+• Barony
+  Steam ID: 371970
+  Missing fields (1): releasedate
+
+• Celeste
+  Steam ID: 504230
+  Missing fields (1): releasedate
+
+• Creature in the Well
+  Steam ID: 852300
+  Missing fields (1): releasedate
+
+• Darkest Dungeon II
+  Steam ID: 262060
+  Missing fields (1): releasedate
+
+• Death Stranding Director's Cut
+  Steam ID: 1850570
+  Missing fields (1): releasedate
+
+• Disney Epic Mickey: Rebrushed
+  Steam ID: 1522160
+  Missing fields (1): releasedate
+
+• For the King
+  Steam ID: 527230
+  Missing fields (1): releasedate
+
+• Hades
+  Steam ID: 1145360
+  Missing fields (1): releasedate
+
+• Hogwarts Legacy
+  Steam ID: 990080
+  Missing fields (1): releasedate
+
+• Horizon Zero Dawn
+  Steam ID: 2561580
+  Missing fields (1): releasedate
+
+• Journey
+  Steam ID: 638230
+  Missing fields (1): releasedate
+
+• Journey to the Savage Planet
+  Steam ID: 973810
+  Missing fields (1): releasedate
+
+• Overcooked!
+  Steam ID: 448510
+  Missing fields (1): releasedate
+
+• Overcooked! 2
+  Steam ID: 728880
+  Missing fields (1): releasedate
+
+• Rogue Legacy 2
+  Steam ID: 1253920
+  Missing fields (1): releasedate
+
+• RiME
+  Steam ID: 493200
+  Missing fields (1): releasedate
+
+• Skul: The Hero Slayer
+  Steam ID: 1147560
+  Missing fields (1): releasedate
+
+• Hitman World of Assassination
+  Steam ID: 1659040
+  Missing fields (1): releasedate
+
+• The Wolf Among Us
+  Steam ID: 250320
+  Missing fields (1): releasedate
+
+• Tony Hawk's Pro Skater 1+2
+  Steam ID: 2395210
+  Missing fields (1): releasedate
+
+• Totally Reliable Delivery Service
+  Steam ID: 1011670
+  Missing fields (1): releasedate
+
+• Void Bastards
+  Steam ID: 857980
+  Missing fields (1): releasedate
+
+• What Remains of Edith Finch
+  Steam ID: 501300
+  Missing fields (1): releasedate
+
+• Wizard of Legend
+  Steam ID: 445980
+  Missing fields (1): releasedate
+
+• Ak-xolotl: Together
+  Steam ID: 1479140
+  Missing fields (1): releasedate
+
+• Carrion
+  Steam ID: 953490
+  Missing fields (1): releasedate
+
+• Solar Ash
+  Steam ID: 1867530
+  Missing fields (1): releasedate
+
+• Sonic Mania
+  Steam ID: 584400
+  Missing fields (1): releasedate
+
+• Tchia
+  Steam ID: 1496590
+  Missing fields (1): releasedate
+
+• The Alto Collection
+  Steam ID: 2837600
+  Missing fields (1): releasedate
+
+3. GOG GAMES - Missing Metadata
+--------------------------------------------------
+Total GOG games with missing metadata: 91
+
+• Call of Cthulhu: Dark Corners of the Earth
+  Steam ID: 22340
+  Missing fields (4): publisher, developer, genre, releasedate
+
+• The Witcher 3: Complete Edition
+  Steam ID: 292030
+  Missing fields (4): publisher, developer, genre, releasedate
+
+• Helping the Hotties
+  Steam ID: 1590730
+  Missing fields (4): publisher, developer, genre, releasedate
+
+• Summer's Gone - Season 1
+  Steam ID: 2240150
+  Missing fields (4): publisher, developer, genre, releasedate
+
+• Bullet Runner: The First Slaughter
+  Steam ID: 2343570
+  Missing fields (2): publisher, developer
+
+• Duck Paradox
+  Steam ID: 2058150
+  Missing fields (2): publisher, developer
+
+• Endless Sky
+  Steam ID: 2287330
+  Missing fields (2): publisher, developer
+
+• Heads Will Roll: Downfall
+  Steam ID: 1903060
+  Missing fields (2): publisher, developer
+
+• Terraformers: First Steps on Mars
+  Steam ID: 1557040
+  Missing fields (2): publisher, developer
+
+• The Last Spell
+  Steam ID: 1105670
+  Missing fields (2): publisher, developer
+
+• Time Loader: First Memories
+  Steam ID: 1421970
+  Missing fields (2): genre, releasedate
+
+• Pillars of Eternity: Definitive Edition
+  Steam ID: 291650
+  Missing fields (2): developer, releasedate
+
+• Defender's Quest: Valley of the Forgotten
+  Steam ID: 218410
+  Missing fields (2): publisher, releasedate
+
+• Leap of Love
+  Steam ID: 1469300
+  Missing fields (2): genre, releasedate
+
+• Thief: Master Thief Edition
+  Steam ID: 239160
+  Missing fields (2): publisher, developer
+
+• Betrayer
+  Steam ID: 243120
+  Missing fields (1): publisher
+
+• Builders of Egypt: Prologue
+  Steam ID: 1207590
+  Missing fields (1): releasedate
+
+• Doomdark's Revenge
+  Steam ID: 
+  Missing fields (1): developer
+
+• Eschalon: Book 1
+  Steam ID: 25600
+  Missing fields (1): publisher
+
+• Mafia II: Definitive Edition
+  Steam ID: 1030830
+  Missing fields (1): developer
+
+• Monster Train
+  Steam ID: 1102190
+  Missing fields (1): releasedate
+
+• Medal of Honor: Allied Assault War Chest
+  Steam ID: 
+  Missing fields (1): developer
+
+• Saints Row: The Third Remastered
+  Steam ID: 978300
+  Missing fields (1): genre
+
+• The Feast
+  Steam ID: 2221940
+  Missing fields (1): developer
+
+• The Life & Suffering of Sir Brante - Chapter 1 & 2
+  Steam ID: 1460090
+  Missing fields (1): releasedate
+
+• X-Morph: Defense Complete Edition
+  Steam ID: 408410
+  Missing fields (1): publisher
+
+• #DRIVE Rally
+  Steam ID: 2494780
+  Missing fields (1): releasedate
+
+• Alan Wake
+  Steam ID: 108710
+  Missing fields (1): releasedate
+
+• Amnesia: The Bunker
+  Steam ID: 1944430
+  Missing fields (1): releasedate
+
+• Amid Evil
+  Steam ID: 673130
+  Missing fields (1): releasedate
+
+• Barrow Hill: Curse of the Ancient Circle
+  Steam ID: 494360
+  Missing fields (1): releasedate
+
+• Barrow Hill: The Dark Path
+  Steam ID: 520990
+  Missing fields (1): releasedate
+
+• ATOM RPG: Trudograd I
+  Steam ID: 1139940
+  Missing fields (1): releasedate
+
+• Dino Crisis 1 & 2 (GOG)
+  Steam ID: 
+  Missing fields (1): releasedate
+
+• Empire of the Ants
+  Steam ID: 2287330
+  Missing fields (1): releasedate
+
+• Mortal Kombat Trilogy
+  Steam ID: 
+  Missing fields (1): releasedate
+
+• Mullet Mad Jack
+  Steam ID: 2111190
+  Missing fields (1): releasedate
+
+• MDK - Murder Death Kill
+  Steam ID: 38450
+  Missing fields (1): releasedate
+
+• Penumbra - Black Plague
+  Steam ID: 22120
+  Missing fields (1): releasedate
+
+• Penumbra - Overture
+  Steam ID: 22180
+  Missing fields (1): releasedate
+
+• SimCity 3000 Unlimited
+  Steam ID: 2741560
+  Missing fields (1): releasedate
+
+• SimCity 4 Deluxe
+  Steam ID: 24780
+  Missing fields (1): releasedate
+
+• Silent Hill 4: The Room
+  Steam ID: 
+  Missing fields (1): releasedate
+
+• Transistor
+  Steam ID: 237930
+  Missing fields (1): releasedate
+
+• Yakuza 0
+  Steam ID: 638970
+  Missing fields (1): releasedate
+
+• Yakuza Kiwami (Yakuza 1)
+  Steam ID: 834530
+  Missing fields (1): releasedate
+
+• World in Conflict: Complete Edition
+  Steam ID: 
+  Missing fields (1): releasedate
+
+• XIII
+  Steam ID: 1154790
+  Missing fields (1): releasedate
+
+• Breachway
+  Steam ID: 2118810
+  Missing fields (1): releasedate
+
+• Bunny Garden
+  Steam ID: 2654470
+  Missing fields (1): releasedate
+
+• Chained Echoes
+  Steam ID: 1229240
+  Missing fields (1): releasedate
+
+• Cloudpunk
+  Steam ID: 746850
+  Missing fields (1): releasedate
+
+• Cuphead
+  Steam ID: 268910
+  Missing fields (1): releasedate
+
+• Dark Fall 3: Lost Souls
+  Steam ID: 46750
+  Missing fields (1): releasedate
+
+• Deathbound
+  Steam ID: 1277130
+  Missing fields (1): releasedate
+
+• DOOM (2016)
+  Steam ID: 379720
+  Missing fields (1): releasedate
+
+• Fallout 3 GOTY
+  Steam ID: 22370
+  Missing fields (1): releasedate
+
+• Firewatch
+  Steam ID: 383870
+  Missing fields (1): releasedate
+
+• Flatout
+  Steam ID: 6220
+  Missing fields (1): releasedate
+
+• Flipon
+  Steam ID: 1285020
+  Missing fields (1): releasedate
+
+• Front Mission 1st Remake
+  Steam ID: 2399730
+  Missing fields (1): releasedate
+
+• Grim Dawn Definitive Edition
+  Steam ID: 219990
+  Missing fields (1): releasedate
+
+• Hard West
+  Steam ID: 307670
+  Missing fields (1): releasedate
+
+• Hellblade: Senua's Sacrifice
+  Steam ID: 414340
+  Missing fields (1): releasedate
+
+• King's Bounty: Crossworlds GOTY Edition
+  Steam ID: 63910
+  Missing fields (1): releasedate
+
+• Legacy of Kain: Soul Reaver 1 & 2 Remaster
+  Steam ID: 2521380
+  Missing fields (1): releasedate
+
+• Little Nightmares
+  Steam ID: 424840
+  Missing fields (1): releasedate
+
+• Loop Hero
+  Steam ID: 1282730
+  Missing fields (1): releasedate
+
+• Magrunner: Dark Pulse
+  Steam ID: 209630
+  Missing fields (1): releasedate
+
+• Metal Slug Tactics
+  Steam ID: 1590760
+  Missing fields (1): releasedate
+
+• Noita
+  Steam ID: 881100
+  Missing fields (1): releasedate
+
+• One Step From Eden
+  Steam ID: 960690
+  Missing fields (1): releasedate
+
+• Overcooked: Gourmet Edition
+  Steam ID: 448510
+  Missing fields (1): releasedate
+
+• Primordia
+  Steam ID: 227000
+  Missing fields (1): releasedate
+
+• Raidborn
+  Steam ID: 1546090
+  Missing fields (1): releasedate
+
+• Sherlock Holmes Chapter One
+  Steam ID: 1137300
+  Missing fields (1): releasedate
+
+• Sherlock Holmes The Awakened (2024)
+  Steam ID: 1949030
+  Missing fields (1): releasedate
+
+• Song of Saya
+  Steam ID: 702050
+  Missing fields (1): releasedate
+
+• Star Wars: Knights of the Old Republic
+  Steam ID: 32370
+  Missing fields (1): releasedate
+
+• SteamWorld Heist II
+  Steam ID: 2396240
+  Missing fields (1): releasedate
+
+• Still Life 2
+  Steam ID: 46490
+  Missing fields (1): releasedate
+
+• SWAT 4
+  Steam ID: 
+  Missing fields (1): releasedate
+
+• The Coma 2: Vicious Sisters
+  Steam ID: 1045720
+  Missing fields (1): releasedate
+
+• The Saboteur
+  Steam ID: 24880
+  Missing fields (1): releasedate
+
+• TimeShift
+  Steam ID: 10130
+  Missing fields (1): releasedate
+
+• Trinity Fusion
+  Steam ID: 1911360
+  Missing fields (1): releasedate
+
+• Vampire: The Masquerade - Bloodlines
+  Steam ID: 2600
+  Missing fields (1): releasedate
+
+• Vampire: The Masquerade - Coteries of New York
+  Steam ID: 1096410
+  Missing fields (1): releasedate
+
+• Voidbound
+  Steam ID: 2500710
+  Missing fields (1): releasedate
+
+• Warhammer 40,000: Rogue Trader
+  Steam ID: 2186680
+  Missing fields (1): releasedate
+
+• Wasteland 3
+  Steam ID: 719040
+  Missing fields (1): releasedate
+
+4. AMAZON GAMES - Missing Metadata
+--------------------------------------------------
+Total Amazon games with missing metadata: 4
+
+• Faraway 3: Artic Escape
+  Steam ID: 1747690
+  Missing fields (3): publisher, developer, releasedate
+
+• Beholder 3
+  Steam ID: 1570070
+  Missing fields (2): genre, releasedate
+
+• The Gap
+  Steam ID: 2972040
+  Missing fields (2): publisher, developer
+
+• Faraway 2: Jungle Escape
+  Steam ID: 1747680
+  Missing fields (1): publisher
+
+METADATA FIELDS TRACKED:
+------------------------------
+• publisher - Game publisher information
+• developer - Game developer information
+• genre - Game genre categories
+• description - Game description text
+• releasedate - Game release date
+
+IMPORT PRIORITY RECOMMENDATIONS:
+-----------------------------------
+1. Focus on Critical Priority games first (most missing data)
+2. GOG games have the highest volume of missing metadata
+3. Epic games are second priority for metadata completion
+4. Amazon games have minimal missing metadata
+
+NOTES:
+- Games with 'NIL' or empty values are considered missing metadata
+- Steam IDs can be used for cross-referencing with Steam metadata
+- Consider automated import tools for bulk metadata updates

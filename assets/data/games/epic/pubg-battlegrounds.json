@@ -1,0 +1,23 @@
+{
+  "id": "8aeeee99-021b-4092-96f9-79fe42280922",
+  "title": "PUBG: Battlegrounds",
+  "storefront": "Epic",
+  "protondb": "",
+  "notes": "Imported from library - not yet tested",
+  "date_tested": "",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
+  "decky_rating": "",
+  "standalone_rating": "",
+  "gog_url": "",
+  "steamId": "",
+  "publisher": "Microsoft Studios, Bluehole Studio",
+  "developer": "PUBG Corp",
+  "genre": "Shooter",
+  "description": "PUBG: Battlegrounds is a battle royale shooter that pits 100 players against each other in a struggle for survival. Gather supplies and outwit your opponents to become the last person standing.",
+  "updated_at": "2025-08-11T09:27:54.625Z",
+  "exported_at": "2025-08-13T09:58:22.425Z"
+}

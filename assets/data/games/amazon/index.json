@@ -1,0 +1,200 @@
+[
+  {
+    "id": "c3278851-deeb-4d64-8188-a76e52905445",
+    "title": "Aces of the Luftwaffe - Squadron Extended Edition",
+    "filename": "aces-of-the-luftwaffe-squadron-extended-edition.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "2b7072d3-c442-41cf-84ff-98e7ad3cbfed",
+    "title": "Baldur's Gate II: Enhanced Edition",
+    "filename": "baldurs-gate-ii-enhanced-edition.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "f1dce9b2-7732-4bca-be05-c882950ad4b3",
+    "title": "Baldur's Gate: Enhanced Edition",
+    "filename": "baldurs-gate-enhanced-edition.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "bfcd1b74-2497-40e2-a7b4-1efff7929c8c",
+    "title": "Bang Bang Racing",
+    "filename": "bang-bang-racing.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "7db8244b-f1b7-4628-891e-5a7b12b2f72c",
+    "title": "Beholder 3",
+    "filename": "beholder-3.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "a48b8c3f-ad9c-4d9d-bc49-b472d2e98b97",
+    "title": "The Collage Atlas",
+    "filename": "the-collage-atlas.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "664da477-0874-41a3-bbb4-200e69168717",
+    "title": "The Gap",
+    "filename": "the-gap.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "2c2bbba6-282c-48dc-bfb1-c6a5a2d15d4e",
+    "title": "Tiny Robots Recharged",
+    "filename": "tiny-robots-recharged.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "1f1426d6-413d-4b36-b96e-8b2deb639c43",
+    "title": "Through the Darkest of Times",
+    "filename": "through-the-darkest-of-times.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "3333c313-ac89-4094-b5e4-b63407604253",
+    "title": "Vlad Circus: Descend Into Madness",
+    "filename": "vlad-circus-descend-into-madness.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "9211a1c7-e2ca-4572-84f6-304f324662ba",
+    "title": "The Abandoned Planet",
+    "filename": "the-abandoned-planet.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "97c684a1-b1fb-441d-ba1e-420c84923279",
+    "title": "Spirit Mancer",
+    "filename": "spirit-mancer.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "9bcc1fea-4771-41b8-b8b7-16055c663ebd",
+    "title": "Dexter Stardust: Adventures in Outer Space",
+    "filename": "dexter-stardust-adventures-in-outer-space.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "8afc587b-e630-4708-96e7-641b4e2c03cc",
+    "title": "Endless Space 2: Definitive Edition",
+    "filename": "endless-space-2-definitive-edition.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "965c39fd-87fa-41b3-a719-ba8ffe902736",
+    "title": "Faraway 2: Jungle Escape",
+    "filename": "faraway-2-jungle-escape.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "4c01cdb1-1a01-42b2-977a-46a535aae7a5",
+    "title": "Faraway: Arctic Escape",
+    "filename": "faraway-arctic-escape.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f73ada7b-1fa5-47aa-88b8-5a135d3f8376",
+    "title": "Nine Witches: Family Disruption",
+    "filename": "nine-witches-family-disruption.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "1c4d956b-d06e-4aa1-a7b1-26901fdec228",
+    "title": "Max: The Curse of Brotherhood",
+    "filename": "max-the-curse-of-brotherhood.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "17689f3f-39ea-4b85-9f14-6a95ce77cab6",
+    "title": "Projection: First Light",
+    "filename": "projection-first-light.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "6f76a67f-79d0-49de-97f0-7cbc6ef3be8e",
+    "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+    "filename": "star-wars-knights-of-the-old-republic-ii-the-sith-lords.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-working",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "4e3defcf-cea2-4576-bb1c-9e58e452d056",
+    "title": "Warhammer 40,000: Dawn of War II",
+    "filename": "warhammer-40000-dawn-of-war-ii.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "af1935d2-6fee-42bc-8e4e-fee1ce5a8095",
+    "title": "The Academy: The First Riddle",
+    "filename": "the-academy-the-first-riddle.json",
+    "date_tested": "Aug '25",
+    "is_featured": true,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  }
+]
