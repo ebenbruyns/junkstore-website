@@ -7,7 +7,51 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.jpg
+excerpt: "Junk Store compatibility database of Epic, GOG, and Amazon games tested on Steam Deck."
 ---
+
+<!-- Custom header height for this page -->
+<style>
+/* Force specific header height */
+.layout--splash .page__hero--overlay {
+  min-height: 300px !important;
+  height: 300px !important;
+  max-height: 300px !important;
+}
+
+/* Override default padding/margins with high specificity */
+.layout--splash .page__hero--overlay .page__inner-wrap {
+  position: relative !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.layout--splash .page__hero--overlay .page__title {
+  margin-top: 0 !important;
+  margin-bottom: 8px !important;
+  padding-top: 70px !important;
+  padding-bottom: 8px !important;
+}
+
+.layout--splash .page__hero--overlay .archive__item-excerpt {
+  margin-bottom: 0 !important;
+  padding-bottom: 70px !important;
+}
+
+.layout--splash .page__hero--overlay .archive__item-excerpt p {
+  margin-bottom: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .layout--splash .page__hero--overlay {
+    min-height: 250px !important;
+    height: 250px !important;
+    max-height: 250px !important;
+  }
+}
+</style>
 
 <div class="spacer mt-4"></div>
 
