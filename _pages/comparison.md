@@ -35,6 +35,10 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
       <h4>🌐 Per-Game System Language Control</h4>
       <p><strong>NEW:</strong> Configure game language setting for games that use system language detection. No more manual file editing to add language codes like the Decky version requires.</p>
     </div>
+    <div class="update-item">
+      <h4>🎮 itch.io Platform Support</h4>
+      <p><strong>NEW:</strong> Beta support for itch.io games now available.</p>
+    </div>
   </div>
 </section>
 
@@ -87,6 +91,11 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td><strong>Amazon Prime Gaming</strong></td>
           <td>❌ Not Available</td>
           <td>✅ Full Support</td>
+        </tr>
+          <tr>
+          <td><strong>itch.io Gaming</strong></td>
+          <td>❌ Not Available</td>
+          <td>✅ beta Support</td>
         </tr>
         <tr>
           <td><strong>Download Queue Management</strong></td>
@@ -261,7 +270,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
     </div>
     <div class="benefit-item">
       <h4>🎮 More Platforms</h4>
-      <p>Amazon Prime Gaming, advanced emulator integration, and expanded GOG support including DOS and ScummVM games.</p>
+      <p>Amazon Prime Gaming, itch.io (beta), advanced emulator integration, and expanded GOG support including DOS and ScummVM games.</p>
     </div>
     <div class="benefit-item">
       <h4>⚙️ Built-in Dependency Management</h4>
@@ -295,7 +304,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
         <p class="price-detail">About $3.33/month</p>
         <p><strong>Professional platform</strong></p>
         <ul>
-          <li>All platforms included (Epic + GOG + Amazon)</li>
+          <li>All platforms included (Epic + GOG + Amazon + itch.io (beta))</li>
           <li>10x performance improvement</li>
           <li>Dedicated development team</li>
           <li>Advanced features + frequent updates</li>
