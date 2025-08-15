@@ -1,7 +1,8 @@
 ---
 layout: splash
-title: "Junk Store Tested Games - Optimized"
-permalink: /tested-games-optimized/
+title: "Junk Store Game Compatibility"
+description: "Complete compatibility database of Epic, GOG, and Amazon games tested on Steam Deck. Search hundreds of games with working status and setup notes."
+permalink: /tested-games/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
