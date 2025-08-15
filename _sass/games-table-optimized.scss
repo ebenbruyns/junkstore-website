@@ -448,3 +448,149 @@
     transform: translateY(-2px) !important;
     box-shadow: 0 6px 16px rgba(0,0,0,0.5) !important;
 }
+
+/* Mobile responsive card layout */
+@media (max-width: 768px) {
+  /* Mobile card layout for games table */
+  .games-table-wrapper #gamesTable {
+    display: block !important;
+    width: 100% !important;
+    background: transparent !important;
+  }
+  
+  .games-table-wrapper #gamesTable thead {
+    display: none !important;
+  }
+  
+  .games-table-wrapper #gamesTable tbody {
+    display: block !important;
+    width: 100% !important;
+  }
+  
+  .games-table-wrapper #gamesTable tbody tr {
+    display: block !important;
+    background: #1e2a38 !important;
+    border: 1px solid #3a4a5c !important;
+    border-radius: 8px !important;
+    margin-bottom: 15px !important;
+    padding: 15px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+    position: relative !important;
+  }
+  
+  .games-table-wrapper #gamesTable tbody tr.featured-game {
+    border-left: 4px solid #ffa366 !important;
+    background: rgba(255, 163, 102, 0.05) !important;
+  }
+  
+  .games-table-wrapper #gamesTable tbody tr td {
+    display: block !important;
+    width: 100% !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    text-align: left !important;
+    margin-bottom: 8px !important;
+  }
+  
+  .games-table-wrapper #gamesTable tbody tr td:last-child {
+    margin-bottom: 0 !important;
+  }
+  
+  /* Mobile card content styling */
+  .games-table-wrapper #gamesTable tbody tr td:nth-child(1) {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 12px !important;
+    padding-bottom: 8px !important;
+    border-bottom: 1px solid #3a4a5c !important;
+  }
+  
+  .games-table-wrapper #gamesTable tbody tr td:nth-child(2):before {
+    content: "Store: ";
+    font-weight: 600;
+    color: #ffa366;
+    margin-right: 8px;
+  }
+  
+  .games-table-wrapper #gamesTable tbody tr td:nth-child(3):before {
+    content: "Decky Plugin: ";
+    font-weight: 600;
+    color: #ffa366;
+    margin-right: 8px;
+  }
+  
+  .games-table-wrapper #gamesTable tbody tr td:nth-child(4):before {
+    content: "2.0 Standalone: ";
+    font-weight: 600;
+    color: #ffa366;
+    margin-right: 8px;
+  }
+  
+  .games-table-wrapper #gamesTable tbody tr td:nth-child(5):before {
+    content: "Date Tested: ";
+    font-weight: 600;
+    color: #ffa366;
+    margin-right: 8px;
+  }
+  
+  /* Anti-cheat warning styling for mobile */
+  .games-table-wrapper #gamesTable tbody tr td.anticheat-warning {
+    text-align: center !important;
+    background: rgba(255, 165, 0, 0.1) !important;
+    border-radius: 6px !important;
+    padding: 10px !important;
+    margin: 8px 0 !important;
+    font-weight: bold !important;
+    color: #ffa500 !important;
+  }
+  
+  .games-table-wrapper #gamesTable tbody tr td.anticheat-warning:before {
+    content: "" !important;
+  }
+  
+  /* Mobile touch improvements */
+  .games-table-wrapper .game-link.clickable {
+    min-height: 44px !important;
+    display: inline-block !important;
+    line-height: 1.4 !important;
+    padding: 4px 0 !important;
+  }
+  
+  .pagination-btn {
+    min-height: 44px !important;
+    min-width: 44px !important;
+    padding: 10px 14px !important;
+  }
+  
+  .search-clear-btn {
+    min-height: 44px !important;
+    min-width: 44px !important;
+  }
+  
+  /* Featured games mobile adjustments */
+  .featured-row {
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+  
+  .featured-entry {
+    width: 100% !important;
+    justify-content: space-between !important;
+  }
+  
+  /* Table controls mobile optimization */
+  .table-controls {
+    flex-direction: column !important;
+    gap: 15px !important;
+  }
+  
+  .control-group {
+    justify-content: center !important;
+  }
+  
+  .pagination-container {
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+}
