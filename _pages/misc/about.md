@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "About Junk Store 2.0 - Steam Deck App for Epic, GOG & Amazon"
-description: "Junk Store brings non-Steam games from Epic, GOG & Amazon to Steam Deck Game Mode. Available as standalone app or Decky plugin."
+title: "About Junk Store 2.0 - Steam Deck App for Epic, GOG, Amazon & itch.io (beta)"
+description: "Junk Store brings non-Steam games from Epic, GOG, Amazon & itch.io (beta) to Steam Deck Game Mode. Available as standalone app or Decky plugin."
 permalink: /about/
 header:
   overlay_color: "#000"

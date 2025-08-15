@@ -21,7 +21,7 @@ This comprehensive research report provides a complete analysis of Junk Store's 
 **Core Value Proposition:** Native Steam Deck Game Mode integration without Desktop Mode dependency
 
 **Key Features:**
-- **Complete Store Coverage:** Epic, GOG, Amazon Games support
+- **Complete Store Coverage:** Epic, GOG, Amazon & itch.io (beta) Games support
 - **Performance:** 1000 games/tab vs 100 in free version
 - **Advanced Features:** Download queue, emulators, ROM support, cloud saves (experimental)
 - **Convenience Features:** Built-in help, extension updates, dependency management

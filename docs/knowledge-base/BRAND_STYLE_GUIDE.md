@@ -127,7 +127,7 @@ This guide ensures consistent brand messaging, tone, and presentation across all
 ## User Pain Points & Messaging Responses
 
 ### Research-Backed Pain Points (Address These Directly)
-1. **"I hate switching to Desktop Mode"** → "Never leave Game Mode to play your Epic, GOG & Amazon games"
+1. **"I hate switching to Desktop Mode"** → "Never leave Game Mode to play your Epic, GOG, Amazon & itch.io (beta) games"
 2. **"Too many steps to get games working"** → "One-click installation and setup"
 3. **"Games don't always launch properly"** → "Professional testing and reliability"
 4. **"Have to manually add each game to Steam"** → "Automatic Steam library integration"
@@ -306,7 +306,7 @@ This guide will help you [specific outcome].
 ## Messaging Examples
 
 ### Strategic Value Proposition Examples (Updated 2025)
-✅ **Primary Hero Message:** "Never leave Game Mode to play your Epic, GOG & Amazon games"
+✅ **Primary Hero Message:** "Never leave Game Mode to play your Epic, GOG, Amazon & itch.io (beta) games"
 ✅ **Unique Value:** "Only solution with zero Desktop Mode switching"
 ✅ **Proof Point:** "Games appear exactly like native Steam games"
 ✅ **Social Proof:** "Trusted by Steam Deck gamers who refuse to compromise"

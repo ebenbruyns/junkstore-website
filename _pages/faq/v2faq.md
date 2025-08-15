@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Frequently Asked Questions"
-description: "Junk Store 2.0 FAQ - standalone Steam Deck app for non-Steam games from Epic, GOG & Amazon. Features, pricing, trial info, and technical support."
+description: "Junk Store 2.0 FAQ - standalone Steam Deck app for non-Steam games from Epic, GOG, Amazon & itch.io (beta). Features, pricing, trial info, and technical support."
 permalink: /2.0faq/
 classes: wide
 sidebar:
@@ -117,7 +117,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>3. Direct Launch:</strong> Games launch directly without nested launchers - no "launcher to launch a launcher to launch your game" complexity
   <br>
   <br>
-    <strong>4. Unified Library:</strong> Epic, GOG, Amazon games AND emulators integrated into your Steam library as if they were native Steam games
+    <strong>4. Unified Library:</strong> Epic, GOG, Amazon & itch.io (beta) games AND emulators integrated into your Steam library as if they were native Steam games
   <br>
   <br>
     <strong>5. Built-in Automation:</strong> Dependency management, artwork caching, and ROM downloads handled automatically
@@ -161,7 +161,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="trial-length-what-happens">
   <summary>How long is my trial and what happens when it ends?</summary>
   <p></p>
-    You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon integration, emulator extension creation, and all premium features.
+    You get <strong>7 days free</strong> to try all features. During the trial, you have full access toEpic, GOG, Amazon & itch.io (beta) integration, emulator extension creation, and all premium features.
   <br>
   <br>
     After 7 days, if you don't subscribe, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.

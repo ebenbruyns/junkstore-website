@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Buy Junk Store 2.0 - Steam Deck App for Epic, GOG & Amazon Games"
-description: "Download Junk Store 2.0 standalone app for Steam Deck. $40/year with 7-day trial. No Decky required - install Epic, GOG & Amazon directly in Game Mode."
+title: "Buy Junk Store 2.0 - Steam Deck App for Epic, GOG, Amazon & itch.io (beta) Games"
+description: "Download Junk Store 2.0 standalone app for Steam Deck. $40/year with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch.io (beta) directly in Game Mode."
 permalink: /buy_now/
 header:
   overlay_color: "#000"
@@ -34,7 +34,7 @@ header:
 <section class="pricing-highlight">
   <div class="pricing-box">
     <h3>🚀 Get Everything for $40/Year</h3>
-    <p class="price-text">Less than $1 per week for unlimited Epic, GOG & Amazon gaming without Desktop Mode frustration</p>
+    <p class="price-text">Less than $1 per week for unlimited Epic, GOG, Amazon & itch.io (beta) gaming without Desktop Mode frustration</p>
     <p class="trial-text">7 full days free to try everything • Only charged if you keep it • Cancel anytime</p>
     <p class="value-text">💯 Start Your Risk-Free Trial: Immediate access to all features and platforms with easy cancellation if it's not the perfect fit</p>
     <p class="ownership-text">✅ <strong>Own JunkStore 2.0 Forever - $40</strong> Keep Everything You've Paid For: Includes 1 full year of updates. Keep everything permanently.
