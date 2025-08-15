@@ -1,0 +1,23 @@
+{
+  "id": "7d026d0a-ca4c-4e8b-856d-507ca8583146",
+  "title": "Valorant",
+  "storefront": "Epic",
+  "protondb": "",
+  "notes": "Imported from library - not yet tested",
+  "date_tested": "",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
+  "decky_rating": "",
+  "standalone_rating": "",
+  "gog_url": "",
+  "steamId": "",
+  "publisher": "Riot Games",
+  "developer": "Riot Games",
+  "genre": "Shooter, Tactical",
+  "description": "Valorant is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork.",
+  "updated_at": "2025-08-11T09:24:31.464Z",
+  "exported_at": "2025-08-13T09:58:22.426Z"
+}

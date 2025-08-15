@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Junk Store 2.0 - The Easiest Way to Play Non-Steam Games on Steam Deck"
-description: "The ONLY solution that eliminates Desktop Mode switching entirely. Play Epic, GOG & Amazon games directly in Steam Deck Game Mode. 7-day trial."
+description: "The ONLY solution that eliminates Desktop Mode switching entirely. Play Epic, GOG, Amazon & itch.io (beta) games directly in Steam Deck Game Mode. 7-day trial."
 permalink: /
 header:
   overlay_color: "#000"
@@ -14,15 +14,15 @@ header:
     - label: "See It In Action"
       url: "/gallery/"
       class: "button button-secondary"
-excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amazon games install and launch as natively as possible"
+excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazon & itch.io (beta) games install and launch as natively as possible"
 ---
 
 {% include video-demo-player.html %}
 
-<h1>Never Leave Game Mode for Epic, GOG & Amazon Games</h1>
+<h1>Never Leave Game Mode for Epic, GOG, Amazon & itch.io (beta) Games</h1>
 
 <section class="seo-intro">
-  <p><strong>Junk Store is the ONLY solution that keeps you in Game Mode.</strong> While other launchers require Desktop Mode for game management, Junk Store transforms your <strong>Steam Deck Game Mode</strong> into a unified gaming hub. Install and play games from <strong>Epic, GOG, and Amazon</strong> with native-like integration - because your handheld deserves a handheld experience.</p>
+  <p><strong>Junk Store is the ONLY solution that keeps you in Game Mode.</strong> While other launchers require Desktop Mode for game management, Junk Store transforms your <strong>Steam Deck Game Mode</strong> into a unified gaming hub. Install and play games from <strong>Epic, GOG, Amazon & itch.io (beta)</strong> with native-like integration - because your handheld deserves a handheld experience.</p>
 </section>
 
 <section class="problem-solution">
@@ -51,10 +51,10 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
   <div class="features-grid">
     <div class="feature">🚀 <strong>Pure Game Mode Experience</strong><br><span class="feature-detail">While other solutions require Desktop Mode, Junk Store keeps you in Game Mode always</span></div>
     <div class="feature">⚡ <strong>Games Just Work</strong><br><span class="feature-detail">Minimal tinkering required - install and play with streamlined setup</span></div>  
-    <div class="feature">🛍️ <strong>True Steam Integration</strong><br><span class="feature-detail">Epic, GOG, Amazon games install and launch as native-like as possible</span></div>
+    <div class="feature">🛍️ <strong>True Steam Integration</strong><br><span class="feature-detail">Epic, GOG, Amazon & itch.io (beta) games install and launch as native-like as possible</span></div>
     <div class="feature">🔧 <strong>Professional Development & Support</strong><br><span class="feature-detail">Dedicated update channels (stable/testing/beta) selectable directly in Game Mode</span></div>
     <div class="feature">💾 <strong>Endless Customization</strong><br><span class="feature-detail">Deep game configuration, customize existing extensions, or create entirely new ones for any platform</span></div>
-    <div class="feature">🎮 <strong>Comprehensive Platform Support</strong><br><span class="feature-detail">Epic + GOG + Amazon + ROMs unified in single Game Mode interface</span></div>
+    <div class="feature">🎮 <strong>Comprehensive Platform Support</strong><br><span class="feature-detail">Epic + GOG + Amazon + itch.io (beta) + ROMs unified in single Game Mode interface</span></div>
   </div>
 </section>
 
@@ -110,7 +110,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
     <div class="comparison-item">
       <h3>🎯 Library Access & Integration</h3>
       <p><strong>Most alternatives:</strong> Must launch separate launcher apps to view your library and install games</p>
-      <p><strong>The structural difference:</strong> Need to open the launcher application first to browse and install from your Epic, GOG, or Amazon libraries</p>
+      <p><strong>The structural difference:</strong> Need to open the launcher application first to browse and install from your Epic, GOG, Amazon & itch.io libraries</p>
       <p><strong>Junk Store approach:</strong> Entire library (installed and uninstalled games) visible directly in Game Mode</p>
     </div>
   </div>
@@ -127,7 +127,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG & Amaz
     <p class="own-forever-text"><strong>Own JunkStore 2.0 Forever - $40</strong><br>Includes 1 full year of updates. Keep everything permanently.<br>Only pay again if you want future updates beyond year 1.</p>
     <p class="price-text"><strong>$40/year</strong> • Less than $1/week to eliminate Desktop Mode forever</p>
     <p class="trial-text"><strong>7 days free to try everything</strong> • Only charged if you keep it • Cancel anytime</p>
-    <p class="value-text">💯 <strong>Worth it vs free alternatives?</strong> If you value instant library access without launching apps, absolutely. Your entire Epic, GOG & Amazon libraries visible directly in Game Mode - eliminate Desktop Mode switching with architecture designed specifically for handheld gaming.</p>
+    <p class="value-text">💯 <strong>Worth it vs free alternatives?</strong> If you value instant library access without launching apps, absolutely. Your entire Epic, GOG, Amazon & itch.io (beta) libraries visible directly in Game Mode - eliminate Desktop Mode switching with architecture designed specifically for handheld gaming.</p>
     <p class="fence-text">Why compromise your handheld experience? Try our Game Mode-native solution free for 7 days.</p>
     <div class="pricing-cta">
       <a href="/buy_now/" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>

@@ -1,0 +1,2673 @@
+[
+  {
+    "id": "aa8d7db2-163d-49f5-9b82-0037cdb9ac50",
+    "title": "9 Years of Shadows",
+    "filename": "9-years-of-shadows.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "592f5620-3f58-46df-bb89-116af854046a",
+    "title": "A Plague Tale: Innocence",
+    "filename": "a-plague-tale-innocence.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "7a998551-d383-4115-b3c7-f5ecb06475ad",
+    "title": "Delores: A Thimbleweed Park Mini-Adventure",
+    "filename": "delores-a-thimbleweed-park-mini-adventure.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "374e3934-587e-43ed-84b5-68bf708b59aa",
+    "title": "Amerzone: The Explorer's Legacy (1999)",
+    "filename": "amerzone-the-explorers-legacy-1999.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "8da62607-c942-4bfb-b517-d7d375e74b80",
+    "title": "Alder's Blood Prologue",
+    "filename": "alders-blood-prologue.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "1d86a22d-296c-4f72-813f-14c2baf945e3",
+    "title": "Amnesia: A Machine for Pigs",
+    "filename": "amnesia-a-machine-for-pigs.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "63702910-9d9a-44e2-8969-8538e6ab8576",
+    "title": "Mordheim: City of the Damned",
+    "filename": "mordheim-city-of-the-damned.json",
+    "date_tested": "June '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "01456533-1e71-46b8-be06-0585e4773644",
+    "title": "Alwa's Awakening",
+    "filename": "alwas-awakening.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "a5c18612-8181-4728-9890-54087632fd4e",
+    "title": "Ancient Enemy",
+    "filename": "ancient-enemy.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "3a98ec11-71b1-4864-9522-6e8cfef5e8db",
+    "title": "Arcade Paradise",
+    "filename": "arcade-paradise.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "cef011ce-792f-4597-bb93-24cbc2153316",
+    "title": "Baldur's Gate II: Enhanced Edition",
+    "filename": "baldurs-gate-ii-enhanced-edition.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "e9dd735f-c8d7-4531-abc1-5e1678206fdf",
+    "title": "Baldur's Gate: Enhanced Edition",
+    "filename": "baldurs-gate-enhanced-edition.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "4fcbf9ff-f43f-4db1-9786-d82057fa4b19",
+    "title": "Ascendant",
+    "filename": "ascendant.json",
+    "date_tested": "June '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "015c4b0d-8a61-4a0c-ba83-1d8cb445b600",
+    "title": "Beholder 2",
+    "filename": "beholder-2.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "b3fd3648-53d5-4f4a-b1b4-4decb837fed2",
+    "title": "Berserk Boy",
+    "filename": "berserk-boy.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "8d4eb200-5b47-4de6-94e1-2d8f4537e7e5",
+    "title": "BioShock 2 Remastered",
+    "filename": "bioshock-2-remastered.json",
+    "date_tested": "Jan '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e99a5fbd-de5d-4b02-b49c-1e04c2fa4f31",
+    "title": "BioShock Infinite",
+    "filename": "bioshock-infinite.json",
+    "date_tested": "Feb '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "6944b634-6b1c-4fe8-bfca-e6024a1de99e",
+    "title": "BioShock Remastered",
+    "filename": "bioshock-remastered.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "c5f462ce-b777-4ed6-8cf4-693ecc3a643a",
+    "title": "Blacksad: Under the Skin",
+    "filename": "blacksad-under-the-skin.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "593e11f5-75b7-43d7-8cf1-177bc957c78f",
+    "title": "Blade of Darkness",
+    "filename": "blade-of-darkness.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f2664877-df27-49fc-be2f-c17f3c927847",
+    "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+    "filename": "blast-brigade-vs-the-evil-legion-of-dr-cread.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "57c4cc0c-0da8-4fae-912a-e94d9df5a083",
+    "title": "Blood Omen: Legacy of Kain",
+    "filename": "blood-omen-legacy-of-kain.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "19599847-5017-4b1b-b680-7b11ad49c3a0",
+    "title": "Blood Omen 2: Legacy of Kain",
+    "filename": "blood-omen-2-legacy-of-kain.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "9289d33d-8fc6-4032-ac72-0aa315872b77",
+    "title": "Betrayer",
+    "filename": "betrayer.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e0f69a54-ab32-4537-8f3b-77f516c9f94a",
+    "title": "Blood West",
+    "filename": "blood-west.json",
+    "date_tested": "Feb '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "50e031d2-75dd-403b-a3ff-9345b34329d9",
+    "title": "Bloody Hell",
+    "filename": "bloody-hell.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "64fbe201-47a8-4917-9ab2-d2aafc7775cf",
+    "title": "Book of Demons",
+    "filename": "book-of-demons.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "70ac8686-eca5-4b33-a9e6-751de6562478",
+    "title": "Broken Sword: Shadow of the Templars - The Director's Cut",
+    "filename": "broken-sword-shadow-of-the-templars-the-directors-cut.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ef022636-72b4-422f-baae-d3ded811a006",
+    "title": "Builders of Egypt: Prologue",
+    "filename": "builders-of-egypt-prologue.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "3930d331-a7b9-4fdf-a09d-e3a8cf63da1f",
+    "title": "Bullet Runner: The First Slaughter",
+    "filename": "bullet-runner-the-first-slaughter.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "5caec57d-588b-4f47-9926-eeb06407cc4f",
+    "title": "Butcher",
+    "filename": "butcher.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "725ff57f-5491-4e7c-b6cd-a6452edcde4c",
+    "title": "Call of Juarez",
+    "filename": "call-of-juarez.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "46ca9e8f-c032-42e6-a24f-b1a9c6005991",
+    "title": "Call of Juarez: Bound In Blood",
+    "filename": "call-of-juarez-bound-in-blood.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "61d93f89-dc8f-4105-86ee-b2c04ed20716",
+    "title": "Call of Juarez: Gunslinger",
+    "filename": "call-of-juarez-gunslinger.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e8157fd5-57d9-4d0e-b552-42d5db7ddc95",
+    "title": "Cat Quest II",
+    "filename": "cat-quest-ii.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "27efbd66-b06a-44d0-b264-b556a4093fa6",
+    "title": "Cayne",
+    "filename": "cayne.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e8341601-004e-40cd-8aed-747770cce581",
+    "title": "Chasm: The Rift",
+    "filename": "chasm-the-rift.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "5545790f-87c5-4b45-966a-a534a9db1fdc",
+    "title": "Chicken Assassin: Reloaded",
+    "filename": "chicken-assassin-reloaded.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "f4545da6-f583-4049-969c-85db945146b4",
+    "title": "Close to the Sun",
+    "filename": "close-to-the-sun.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "03ef2308-96fb-41ef-bb14-ede9d43cd28d",
+    "title": "Colt Canyon",
+    "filename": "colt-canyon.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e0dcdf09-0f40-4bae-8c82-162a257bcf8e",
+    "title": "Coromon",
+    "filename": "coromon.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "65e45e2f-3ca3-4b7b-96e4-7d4af70aaa3d",
+    "title": "Crusader Kings II",
+    "filename": "crusader-kings-ii.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "149bd01f-c27a-4ce8-b2b5-667736b32ac9",
+    "title": "Cursed to Golf",
+    "filename": "cursed-to-golf.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "76b244d1-7fc4-4b61-b843-ccc3e8cbada3",
+    "title": "Dagon: by H. P. Lovecraft",
+    "filename": "dagon-by-h-p-lovecraft.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "71f204de-f316-4052-8ec4-a84d706cad07",
+    "title": "Dark Deity",
+    "filename": "dark-deity.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "40f67184-3910-4bb5-85fa-bdda959e6c9f",
+    "title": "Dark Envoy",
+    "filename": "dark-envoy.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "Perfect",
+    "standalone_rating": "Perfect"
+  },
+  {
+    "id": "a1ced782-ee0a-43fc-9ded-80353a5f5f67",
+    "title": "Dark Sky",
+    "filename": "dark-sky.json",
+    "date_tested": "Feb '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "20157d6d-8f77-4267-a77b-e80443ff1b8f",
+    "title": "Daymare: 1998",
+    "filename": "daymare-1998.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "1ae7759f-1e2d-4b1d-a9cd-d7599952718c",
+    "title": "Death Squared",
+    "filename": "death-squared.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "Perfect",
+    "standalone_rating": "Perfect"
+  },
+  {
+    "id": "8dd182e1-7e9a-4af2-b3a2-82c7325ccf53",
+    "title": "Deep Sky Derelicts",
+    "filename": "deep-sky-derelicts.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "fca19643-898a-48e0-b629-1036076d5fb3",
+    "title": "Deus Ex: Game of the Year Edition",
+    "filename": "deus-ex-game-of-the-year-edition.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "dee15f8d-69ff-40c1-8c39-74abd0fb5e3b",
+    "title": "Deus Ex: Human Revolution - Director's Cut",
+    "filename": "deus-ex-human-revolution-directors-cut.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f055d885-2ebf-4b5d-9835-5afd74dcbceb",
+    "title": "Deus Ex: Invisible War",
+    "filename": "deus-ex-invisible-war.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ac54b1f7-b1ad-4cc9-b21c-5a2c36032e2c",
+    "title": "Devil's Kiss",
+    "filename": "devils-kiss.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "29b106cb-3863-4158-848b-521d2dd194c5",
+    "title": "Deus Ex: Mankind Divided",
+    "filename": "deus-ex-mankind-divided.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "942bf43a-0b13-475c-9f79-243732874745",
+    "title": "Diggles: The Myth of Fenris",
+    "filename": "diggles-the-myth-of-fenris.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "f3483bb1-b52b-4b50-9f2e-540f01dd2b33",
+    "title": "Dishonored",
+    "filename": "dishonored.json",
+    "date_tested": "June '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "20b7e879-ea7e-4a13-be25-fd3721c5e059",
+    "title": "Dishonored 2",
+    "filename": "dishonored-2.json",
+    "date_tested": "June '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "5937235a-d5e6-4c00-a3c3-32c3f3f1c579",
+    "title": "Doomdark's Revenge",
+    "filename": "doomdarks-revenge.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "8e5762d6-577a-4ef7-a1b6-6942c48635ad",
+    "title": "Dredge",
+    "filename": "dredge.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "658bea4c-a7f7-42e8-a270-5a8ee1f92ff6",
+    "title": "Duck Paradox",
+    "filename": "duck-paradox.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "d538fd68-6927-4377-abe2-b2b25b0ad33c",
+    "title": "En Garde!",
+    "filename": "en-garde.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "90889ae6-8450-4888-8eef-57cfc24aed59",
+    "title": "Endless Sky",
+    "filename": "endless-sky.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "5bd5fd9a-76f9-4912-8f23-a0dce9cad92f",
+    "title": "Eschalon: Book I",
+    "filename": "eschalon-book-i.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "10c92f79-c339-4d0a-accc-453780e3d639",
+    "title": "F.E.A.R. Platinum",
+    "filename": "fear-platinum.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "0a6b3aff-a368-49ce-b7d6-f9435f5a997d",
+    "title": "Fate",
+    "filename": "fate.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "800d7f3a-44ca-4767-9d91-57251bdbf7ff",
+    "title": "Fate: Undiscovered Realms",
+    "filename": "fate-undiscovered-realms.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "0e78a50b-d1b1-4fd5-a962-1f9d10ebcf30",
+    "title": "Figment",
+    "filename": "figment.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f47bc168-a610-4512-8c34-9c1921966cca",
+    "title": "Flashout 3D: Enhanced Edition",
+    "filename": "flashout-3d-enhanced-edition.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "284b81fc-bc27-447e-a87d-8f79ebbe7119",
+    "title": "Forager",
+    "filename": "forager.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "17a54355-d4ab-4802-81ba-ce4379627237",
+    "title": "Gamedec",
+    "filename": "gamedec.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "fca21335-4f6c-4210-bfac-adfd934cf01d",
+    "title": "Gex",
+    "filename": "gex.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "c36a1016-e228-4864-8658-f0e5db42ef1e",
+    "title": "Ghost of a Tale",
+    "filename": "ghost-of-a-tale.json",
+    "date_tested": "June '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "739d06e8-0e4a-4c59-81f0-a1da0aefe31d",
+    "title": "Ghost Song",
+    "filename": "ghost-song.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "fabc8409-1982-4ab7-8dcc-07b127cb6709",
+    "title": "God's Trigger",
+    "filename": "gods-trigger.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "15e3c42d-254d-4fa1-9272-74863d6bbba8",
+    "title": "Golf With Your Friends",
+    "filename": "golf-with-your-friends.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "02189402-56ee-4f1a-a32d-c459bce30b2c",
+    "title": "Greak: Memories of Azur",
+    "filename": "greak-memories-of-azur.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e7ba7ab5-9fbc-4799-a6a5-c9bb7ec44e44",
+    "title": "GreedFall",
+    "filename": "greedfall.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "27315bd4-4b61-4650-852c-41ec4f19fcb6",
+    "title": "Grip",
+    "filename": "grip.json",
+    "date_tested": "Jan '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "93e614c0-dacc-4f04-a40e-9ba0272ac655",
+    "title": "Hammerting",
+    "filename": "hammerting.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "6a503bb9-91c8-408b-866c-bc3d48203bd7",
+    "title": "Hard West 2",
+    "filename": "hard-west-2.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "d52d0f75-b2da-4c7e-8b45-37aeb4ec7b5e",
+    "title": "Haven Park",
+    "filename": "haven-park.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "8c13eec6-e359-426b-bb09-6c6d4e976cae",
+    "title": "Heads Will Roll: Downfall",
+    "filename": "heads-will-roll-downfall.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "748a2da7-3777-44c2-a515-6e68deaece65",
+    "title": "Hell Division",
+    "filename": "hell-division.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "9a0be178-742f-4fbe-aa77-db94ea51d699",
+    "title": "Hell Pie",
+    "filename": "hell-pie.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "71432530-6bf0-45c9-8e23-7c759d07996d",
+    "title": "Hellpoint",
+    "filename": "hellpoint.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ef6163e3-cbfb-4866-b4c4-43803cadbd49",
+    "title": "Hero of the Kingdom II",
+    "filename": "hero-of-the-kingdom-ii.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "a49ae9c0-f9dd-47f2-9668-c01a62f73719",
+    "title": "Hero's Hour",
+    "filename": "heros-hour.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "c4479baa-adf3-493f-9b06-84074c83b014",
+    "title": "Hitman: Absolution",
+    "filename": "hitman-absolution.json",
+    "date_tested": "June '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ee34196d-6979-4ec8-9507-4034f02b753d",
+    "title": "Hive Jump 2: Survivors",
+    "filename": "hive-jump-2-survivors.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "db4a2780-bae4-4dbf-9d7d-3446d7756414",
+    "title": "HuniePop",
+    "filename": "huniepop.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "8e863ba9-015e-4818-9abc-c1cdc8e0403b",
+    "title": "Hypnospace Outlaw",
+    "filename": "hypnospace-outlaw.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "8fd47f44-86fc-4c1e-957e-6d59186a2833",
+    "title": "Industria",
+    "filename": "industria.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e6c406c7-9e28-4b69-ac55-f29ea78da40c",
+    "title": "Immortal Redneck",
+    "filename": "immortal-redneck.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "a8e8eaaa-b3df-4658-bb66-7351de636303",
+    "title": "Intravenous",
+    "filename": "intravenous.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "1dec3401-860d-4547-a5c3-9b111dec7b0f",
+    "title": "Iratus: Lord of the Dead",
+    "filename": "iratus-lord-of-the-dead.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "1fac9b53-4800-4a29-a960-0daf0a83d9c9",
+    "title": "Iris and the Giant",
+    "filename": "iris-and-the-giant.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "1a038eb9-299b-49de-a4a1-e1dc1fa3bc5f",
+    "title": "Kerbal Space Program",
+    "filename": "kerbal-space-program.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "8c8764c6-6e21-49d7-aa28-36cc1b63e806",
+    "title": "King of Seas",
+    "filename": "king-of-seas.json",
+    "date_tested": "June '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "dbd9c942-dd92-47ff-a34d-3fd5da40bc21",
+    "title": "King's Bounty: The Legend",
+    "filename": "kings-bounty-the-legend.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e1f9a674-7428-4bc8-bf16-cc4f4a102052",
+    "title": "LEGO Star Wars: The Complete Saga",
+    "filename": "lego-star-wars-the-complete-saga.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "851a338f-d91a-4d09-b95d-b936151c1046",
+    "title": "LEGO The Hobbit",
+    "filename": "lego-the-hobbit.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "b39b4f85-6636-458c-9107-91217a73bd6a",
+    "title": "LEGO The Lord of the Rings",
+    "filename": "lego-the-lord-of-the-rings.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f191e2e6-36d4-421f-aa45-a735b1346597",
+    "title": "Lacuna",
+    "filename": "lacuna.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "729b5c64-ed32-4da4-b2f7-4cf359c56d52",
+    "title": "Legacy of Kain: Defiance",
+    "filename": "legacy-of-kain-defiance.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "a8738ab0-4f48-4a14-bf65-476620a4ec4a",
+    "title": "Legend of Keepers",
+    "filename": "legend-of-keepers.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "d7e008a9-450a-4c8e-8a63-3d8281a093c6",
+    "title": "Mafia II: Definitive Edition",
+    "filename": "mafia-ii-definitive-edition.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "0df31a6f-aaee-4af0-9e01-7287de45a83e",
+    "title": "Mafia III: Definitive Edition",
+    "filename": "mafia-iii-definitive-edition.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "5199e3b1-57db-4342-8438-021f0432c351",
+    "title": "Mafia: Definitive Edition",
+    "filename": "mafia-definitive-edition.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "a4646b89-45ac-4505-8b93-98f316460806",
+    "title": "Mail Time",
+    "filename": "mail-time.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "757dec93-0603-4db1-b2d7-d7300fd95d41",
+    "title": "Metro: Last Light Redux",
+    "filename": "metro-last-light-redux.json",
+    "date_tested": "June '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "1212edc2-40d6-4fc9-ba4b-6d5e6f4f8f53",
+    "title": "Middle-earth: Shadow of Mordor",
+    "filename": "middle-earth-shadow-of-mordor.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "298e4fa7-eea2-414b-b737-687368b7739a",
+    "title": "Midnight Fight Express",
+    "filename": "midnight-fight-express.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "4dd1a1c1-ccd7-4e4d-9035-c1f3987b4398",
+    "title": "Monster Train",
+    "filename": "monster-train.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "7bb7ee9c-098e-4c7a-895c-a72ccc4c90f9",
+    "title": "Moonlighter",
+    "filename": "moonlighter.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "d7c2e769-2c79-4eac-a438-1724060e5c38",
+    "title": "Moonscars",
+    "filename": "moonscars.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "69476655-8cb9-46f1-adfc-78f3a5316ba2",
+    "title": "Mutazione",
+    "filename": "mutazione.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "b624be21-e130-4a0e-b82d-b183a3239d54",
+    "title": "Medal of Honor: Allied Assault War Chest",
+    "filename": "medal-of-honor-allied-assault-war-chest.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "702e3ef8-4ea9-4181-bb13-f52aab3a17cf",
+    "title": "Neverwinter Nights: Diamond",
+    "filename": "neverwinter-nights-diamond.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "707e56bc-7962-4ffe-96a0-fbd6f5678e1c",
+    "title": "Oaken",
+    "filename": "oaken.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ad87b00a-5d5e-47ef-ade7-5e6555bb6253",
+    "title": "Once Upon a Jester",
+    "filename": "once-upon-a-jester.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "cf06bf60-de96-4d4c-a17b-b6eb6011ff8d",
+    "title": "Overcooked! 2",
+    "filename": "overcooked-2.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "848cb2cd-cca6-4d36-a9cc-43439a919600",
+    "title": "Planet of Lana",
+    "filename": "planet-of-lana.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "cdcf95b8-84c2-4928-af78-695ccd541e85",
+    "title": "Prince of Persia",
+    "filename": "prince-of-persia.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "02445453-1a1b-4758-af4f-c8380516591c",
+    "title": "Prince of Persia: The Sands of Time",
+    "filename": "prince-of-persia-the-sands-of-time.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "0ea93e84-2da3-4a09-94c0-4d0a7fd316f1",
+    "title": "Prince of Persia: The Two Thrones",
+    "filename": "prince-of-persia-the-two-thrones.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "d2402a29-ae84-4b6f-ad79-aa6b3f6c3602",
+    "title": "Prince of Persia: Warrior Within",
+    "filename": "prince-of-persia-warrior-within.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "6d157bc6-fa70-4d93-884f-f0a0fd5309d5",
+    "title": "Prison Architect",
+    "filename": "prison-architect.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "Perfect",
+    "standalone_rating": "Perfect"
+  },
+  {
+    "id": "433af97a-a711-461a-b423-1f0dfd9b42c8",
+    "title": "Quake II",
+    "filename": "quake-ii.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "92f07e21-96ef-468b-8bc3-cbb8d0c3bf6b",
+    "title": "Riot: Civil Unrest",
+    "filename": "riot-civil-unrest.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ee79872f-d5e2-4cca-b6a6-3959ef23abc9",
+    "title": "Saints Row 2",
+    "filename": "saints-row-2.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "295b2f1e-73bd-4cd6-bc08-1e52b1ba2be9",
+    "title": "Saints Row IV: Re-Elected",
+    "filename": "saints-row-iv-re-elected.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "Perfect",
+    "standalone_rating": "Perfect"
+  },
+  {
+    "id": "ab55c3de-4cc8-4160-aa32-6b4cb2f5bb3f",
+    "title": "Saints Row: Gat Out of Hell",
+    "filename": "saints-row-gat-out-of-hell.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ecb0b4f9-6dc1-437c-bbef-350346c15da5",
+    "title": "Saints Row: The Third Remastered",
+    "filename": "saints-row-the-third-remastered.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "438b3189-2dfc-4a11-8d3c-00da411ceddc",
+    "title": "STAR WARS™ Jedi Knight: Dark Forces II - Mysteries of the Sith",
+    "filename": "star-wars-jedi-knight-dark-forces-ii-mysteries-of-the-sith.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "7763ed16-c50f-4f6f-88f0-41e48f8bc0ae",
+    "title": "Scorn",
+    "filename": "scorn.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "4672e276-e61d-4484-b80c-62048eb45e51",
+    "title": "Shadow Tactics: Blades of the Shogun",
+    "filename": "shadow-tactics-blades-of-the-shogun.json",
+    "date_tested": "June '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "6f6870d7-7245-40fd-b9c3-4664b5344af4",
+    "title": "Shadowrun Returns",
+    "filename": "shadowrun-returns.json",
+    "date_tested": "June '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "8280d26a-75b6-4ca3-af9e-be854452d661",
+    "title": "Shadows: Awakening",
+    "filename": "shadows-awakening.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "4bf95583-bd51-4410-b499-db621f2c806c",
+    "title": "Shantae and the Pirate's Curse",
+    "filename": "shantae-and-the-pirates-curse.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "5f3612eb-f03b-4e66-aa1d-4ebf48433920",
+    "title": "Shogun Showdown",
+    "filename": "shogun-showdown.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "4d06ff20-b149-4f19-b6ff-cff32a939c34",
+    "title": "Showgunners",
+    "filename": "showgunners.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "e85164d1-a6ab-43c9-b7b8-5d0cee3ede87",
+    "title": "Sigma Theory: Global Cold War",
+    "filename": "sigma-theory-global-cold-war.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "a0b1a613-5bd2-4462-a6be-47859dfaa80b",
+    "title": "Sin Slayers: The First Sin",
+    "filename": "sin-slayers-the-first-sin.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "910ce370-8f4c-48dc-885f-5149e0016d79",
+    "title": "Sir Whoopass: Immortal Death",
+    "filename": "sir-whoopass-immortal-death.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "49ba154d-0e2e-4fc7-bde5-ce7bcdd1e886",
+    "title": "Shores Unknown",
+    "filename": "shores-unknown.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "d5903400-8ef6-4a25-9264-9e4bd08bf877",
+    "title": "South Scrimshaw, Part One",
+    "filename": "south-scrimshaw-part-one.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "c2e36a26-8fcf-44e2-bc62-6dd8e3153075",
+    "title": "Space Hulk: Deathwing",
+    "filename": "space-hulk-deathwing.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "2f84bf10-fdd4-4431-9aa3-154619fb202a",
+    "title": "Spelunky Classic",
+    "filename": "spelunky-classic.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "1f908c13-c683-43ef-9347-2c7c58c439b3",
+    "title": "Spells & Secrets",
+    "filename": "spells-secrets.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "887399c4-1417-457e-a40c-39c655bc4410",
+    "title": "South of the Circle",
+    "filename": "south-of-the-circle.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "033cb2ee-eb78-4f82-b8db-cb4f646a9f40",
+    "title": "Star Wars: Battlefront II",
+    "filename": "star-wars-battlefront-ii.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "2f51e298-5b57-4a84-9ef8-ad27eb0cbb2a",
+    "title": "Star Wars: Rebellion",
+    "filename": "star-wars-rebellion.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e79c1434-316f-4e46-8a4a-24fb7fe00618",
+    "title": "Star Wars: Bounty Hunter",
+    "filename": "star-wars-bounty-hunter.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f5d92333-fe6b-4832-9df1-1212889fb509",
+    "title": "SteamWorld Heist",
+    "filename": "steamworld-heist.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "64060112-4bf6-477b-a554-2930ff088d33",
+    "title": "SteamWorld Quest: Hand of Gilgamech",
+    "filename": "steamworld-quest-hand-of-gilgamech.json",
+    "date_tested": "Jan '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "246e774d-1421-4e40-b4af-d0832dfb643e",
+    "title": "Stray Gods: The Roleplaying Musical",
+    "filename": "stray-gods-the-roleplaying-musical.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "fbe6b0ea-dd9f-4469-b53f-c21973ecf720",
+    "title": "Styx: Master of Shadows",
+    "filename": "styx-master-of-shadows.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "448227b6-4d84-4bd0-b788-ca19a46bb433",
+    "title": "Styx: Shards of Darkness",
+    "filename": "styx-shards-of-darkness.json",
+    "date_tested": "June '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f5b2d068-9f36-4abd-a1b9-dc3552c3e79c",
+    "title": "Symphonia",
+    "filename": "symphonia.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "Perfect",
+    "standalone_rating": "Perfect"
+  },
+  {
+    "id": "dbcfe165-0e8b-4897-9833-8d3688447ce3",
+    "title": "Sunrider: Mask of Arcadius",
+    "filename": "sunrider-mask-of-arcadius.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "1ea1b864-2867-4e6e-8178-c20c3630cae0",
+    "title": "Talisman: Digital Edition",
+    "filename": "talisman-digital-edition.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "4803dfae-4c36-4382-a069-befb5176aeb9",
+    "title": "Terraformers: First Steps on Mars",
+    "filename": "terraformers-first-steps-on-mars.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e168f4e7-871d-4da3-afe2-6d3ffe313035",
+    "title": "Terroir",
+    "filename": "terroir.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "de702f0e-a02a-40d5-9354-dc972f24aa48",
+    "title": "The Coma: Recut",
+    "filename": "the-coma-recut.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "04f5696a-2583-479d-995c-0bcccf6620dc",
+    "title": "The Dark Eye: Chains of Satinav",
+    "filename": "the-dark-eye-chains-of-satinav.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f880a492-05cc-4e06-bc4e-11558fa272fd",
+    "title": "The Darkest Tales: Into the Nightmare",
+    "filename": "the-darkest-tales-into-the-nightmare.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "341f560f-df53-4a53-a7f5-81b6887f842e",
+    "title": "The Falconeer",
+    "filename": "the-falconeer.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "0f0dd602-43c6-4347-92d1-23ff6ae89aec",
+    "title": "The Feast",
+    "filename": "the-feast.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e85a174e-6457-422d-8bb3-e813a80e6422",
+    "title": "The First Templar",
+    "filename": "the-first-templar.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "b48bb350-437c-48e3-b4bc-cd49e9723158",
+    "title": "The Gunk",
+    "filename": "the-gunk.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "0cdb95ff-7a5d-455e-a71f-9ee4be2f9368",
+    "title": "The Last Spell",
+    "filename": "the-last-spell.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "b127e530-d40e-415a-aa7a-b6ad6fb45ef3",
+    "title": "The Life and Suffering of Sir Brante",
+    "filename": "the-life-and-suffering-of-sir-brante.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "04e0d8b2-4c05-4cfb-8fa0-f057fd1593f7",
+    "title": "The Outer Worlds",
+    "filename": "the-outer-worlds.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "14d45460-d9d3-4297-9bcd-1cd340f35e83",
+    "title": "The Smurfs 2: The Prisoner of the Green Stone",
+    "filename": "the-smurfs-2-the-prisoner-of-the-green-stone.json",
+    "date_tested": "Feb '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "9ac634ac-c393-4593-b08d-9004ce1d9aad",
+    "title": "The Supper",
+    "filename": "the-supper.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "6e9497d8-ebf7-4c28-addf-982db7b7e1ef",
+    "title": "The Talos Principle",
+    "filename": "the-talos-principle.json",
+    "date_tested": "Feb '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "62811ebc-5ba4-447b-b9aa-694e0ca84418",
+    "title": "The Town of Light",
+    "filename": "the-town-of-light.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "4d709da1-3133-4573-842d-1ef628c21c8a",
+    "title": "The Whispered World: Special Edition",
+    "filename": "the-whispered-world-special-edition.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "78c87f8c-04e6-4f9e-8804-312fee55c330",
+    "title": "The Whisperer",
+    "filename": "the-whisperer.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "3529f44a-cbf5-463f-9036-ec0b967a6d63",
+    "title": "The Witcher: Enhanced Edition",
+    "filename": "the-witcher-enhanced-edition.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "Perfect",
+    "standalone_rating": "Perfect"
+  },
+  {
+    "id": "f181495c-82d3-4458-96ff-d085d24c59f4",
+    "title": "Thea 2: The Shattering",
+    "filename": "thea-2-the-shattering.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "97ed55ce-56a5-4604-af9d-06b759e211ff",
+    "title": "Thief II: The Metal Age",
+    "filename": "thief-ii-the-metal-age.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "400f997d-3e71-4111-a68d-7337ba20e9b8",
+    "title": "Toem",
+    "filename": "toem.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "Perfect",
+    "standalone_rating": "Perfect"
+  },
+  {
+    "id": "9be42709-ef15-4677-8ca2-6b50f0a5c410",
+    "title": "Tomb Raider I•II•III Remastered",
+    "filename": "tomb-raider-iiiiii-remastered.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "Perfect",
+    "standalone_rating": "Perfect"
+  },
+  {
+    "id": "5d622fe2-8c9a-42d8-b2be-e781cbd2a7c9",
+    "title": "Tomb Raider: Anniversary",
+    "filename": "tomb-raider-anniversary.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "db3d8c37-2a1b-4015-9861-ae3a4659fded",
+    "title": "Tomb Raider: Chronicles",
+    "filename": "tomb-raider-chronicles.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "c3e6be6d-2112-44d8-9763-54394582cec5",
+    "title": "Tomb Raider: Legend",
+    "filename": "tomb-raider-legend.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "25573c2f-d81b-4b6b-895e-7a5bcdc51fc1",
+    "title": "Tomb Raider: The Last Revelation",
+    "filename": "tomb-raider-the-last-revelation.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "e383bb86-8ff2-4249-a755-9d406fcda52d",
+    "title": "Tomb Raider: Underworld",
+    "filename": "tomb-raider-underworld.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "190d6ee1-67ed-4af0-a2ae-adc7a36d5367",
+    "title": "Tropico 4",
+    "filename": "tropico-4.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "225b3cb9-f482-43c6-b6d4-c484353ef6ca",
+    "title": "Trüberbrook",
+    "filename": "trberbrook.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e22e0b51-c512-400c-89d6-c4855a76694c",
+    "title": "Under the Moon",
+    "filename": "under-the-moon.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "0198c26f-1d9f-4c0e-b38b-634542f0cb0d",
+    "title": "Vambrace: Cold Soul",
+    "filename": "vambrace-cold-soul.json",
+    "date_tested": "Jan '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "905ab458-e55c-4900-80a9-005bbecfb930",
+    "title": "Venetica",
+    "filename": "venetica.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "12c9994d-2701-4ec1-9692-ef120605735a",
+    "title": "Warhammer 40,000: Rites of War",
+    "filename": "warhammer-40000-rites-of-war.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "5f186232-4df1-4a15-85dc-68887f8006ca",
+    "title": "Whispering Willows",
+    "filename": "whispering-willows.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "4e3e5495-f2ca-4379-b223-5dda0ef857a8",
+    "title": "Wild Country",
+    "filename": "wild-country.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "deb0050c-75eb-4576-877a-e131f582de99",
+    "title": "Worms Revolution",
+    "filename": "worms-revolution.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f576dad0-3445-43ec-a956-e95e4756802a",
+    "title": "X-Morph: Defense Complete Edition",
+    "filename": "x-morph-defense-complete-edition.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "03186776-0a50-4546-9d92-caac657b1398",
+    "title": "Yes, Your Grace",
+    "filename": "yes-your-grace.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "57214737-64a0-477e-83d2-516990d67c51",
+    "title": "Metro 2033 Redux",
+    "filename": "metro-2033-redux.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "9de0acc8-c75e-42aa-b24a-c45ea3a1b581",
+    "title": "Venba",
+    "filename": "venba.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e3161545-78f1-4042-87af-1fc9f25ff0f6",
+    "title": "Time Loader",
+    "filename": "time-loader.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "79b674e6-193d-457f-8c02-bffa18560635",
+    "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+    "filename": "star-wars-knights-of-the-old-republic-ii-the-sith-lords.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "6cb9a570-fe4f-4577-9d63-13ae5b5af1da",
+    "title": "Syberia: The World Before",
+    "filename": "syberia-the-world-before.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e0aa5896-ec68-4efc-bcd8-bcabc162b04e",
+    "title": "Dex",
+    "filename": "dex.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "df864656-e264-4e51-93a3-be790e4fe3ab",
+    "title": "Thronebreaker: The Witcher Tales",
+    "filename": "thronebreaker-the-witcher-tales.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "6b44ac26-fead-4f92-bed9-0f6dd0e2a8df",
+    "title": "#Drive Rally",
+    "filename": "drive-rally.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "34772e95-535b-432c-95e2-69112b3e9a0f",
+    "title": "Alan Wake",
+    "filename": "alan-wake.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "3231f04c-2d04-4b6d-bc64-e94e65dc8858",
+    "title": "Amnesia: The Bunker",
+    "filename": "amnesia-the-bunker.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "8459e623-3dda-435d-8b6d-b6d2ebc0c13a",
+    "title": "Amid Evil",
+    "filename": "amid-evil.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f0974842-f60a-4f4e-8af1-364d6b32100f",
+    "title": "Barrow Hill: Curse of the Ancient Circle",
+    "filename": "barrow-hill-curse-of-the-ancient-circle.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "60e2b162-d0d8-4bca-a8fd-c21e9fc65ee6",
+    "title": "Barrow Hill: The Dark Path",
+    "filename": "barrow-hill-the-dark-path.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "0c3916c7-9d05-49f3-8e36-3f6c1b9d2083",
+    "title": "ATOM RPG: Trudograd",
+    "filename": "atom-rpg-trudograd.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "3b0c3299-b4ba-48e2-b0ab-eeae672e7061",
+    "title": "Call of Cthulhu: Dark Corners of the Earth",
+    "filename": "call-of-cthulhu-dark-corners-of-the-earth.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "50719fac-b06e-4a47-a883-ea9b196226a7",
+    "title": "Dino Crisis Bundle",
+    "filename": "dino-crisis-bundle.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "e782e739-acd5-4df1-922c-9728d4f7a189",
+    "title": "Empire of the Ants",
+    "filename": "empire-of-the-ants.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "d29f405d-ee1f-44a9-8c8a-da4888062155",
+    "title": "Mortal Kombat Trilogy",
+    "filename": "mortal-kombat-trilogy.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "737e83f4-d597-4760-8bd3-5f0d067d538b",
+    "title": "MULLET MADJACK",
+    "filename": "mullet-madjack.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "421b9172-2d9d-4878-9355-cf008003304a",
+    "title": "MDK",
+    "filename": "mdk.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "9a22dc41-fabf-4b5a-8a17-22942fc4ea32",
+    "title": "Penumbra: Black Plague",
+    "filename": "penumbra-black-plague.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "e1551f6a-ca10-41a3-924f-176953cb8f7d",
+    "title": "Penumbra: Overture",
+    "filename": "penumbra-overture.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "2ee01d5e-943a-4bca-95ee-6af11e717b95",
+    "title": "Pillars of Eternity: Definitive Edition",
+    "filename": "pillars-of-eternity-definitive-edition.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "c2abb6f7-5c93-4849-a7bb-64a7b5d33568",
+    "title": "SimCity 3000 Unlimited",
+    "filename": "simcity-3000-unlimited.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "61eeff08-9e3a-4d55-8b45-a449636f2456",
+    "title": "SimCity 4: Deluxe Edition",
+    "filename": "simcity-4-deluxe-edition.json",
+    "date_tested": "March '25",
+    "is_featured": false
+  },
+  {
+    "id": "5643eabc-ab4b-4243-9baf-fe3f0a7cd35d",
+    "title": "Silent Hill 4: The Room",
+    "filename": "silent-hill-4-the-room.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "3c2c005d-f517-4753-a9ef-7db8009855cd",
+    "title": "Transistor",
+    "filename": "transistor.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "e202259a-fe8b-46ac-9288-b4642c602129",
+    "title": "Yakuza 0",
+    "filename": "yakuza-0.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "265d9e3b-15e2-44b6-bf3f-bdc0584253fe",
+    "title": "Yakuza Kiwami",
+    "filename": "yakuza-kiwami.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "cf6b4a3f-16bd-44ab-ac07-9beeb41d9ab1",
+    "title": "World in Conflict: Complete Edition",
+    "filename": "world-in-conflict-complete-edition.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "423aa177-c0c3-43ac-93cd-54c885a19957",
+    "title": "XIII",
+    "filename": "xiii.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "685fab50-c1c6-4cdd-818d-69988d3e348d",
+    "title": "Breachway",
+    "filename": "breachway.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "7c61cedd-40a1-45e1-9588-0c66a091da38",
+    "title": "Bunny Garden",
+    "filename": "bunny-garden.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "34fb4508-8f55-438c-942f-4850667d9cbf",
+    "title": "Chained Echoes",
+    "filename": "chained-echoes.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "c34c830d-e2f6-40a6-8153-dce120223e08",
+    "title": "Cloudpunk",
+    "filename": "cloudpunk.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "61c22ab2-c706-487b-93ed-7f9ec228c9e7",
+    "title": "Cuphead",
+    "filename": "cuphead.json",
+    "date_tested": "June '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "963f6311-37fa-449d-9674-a6182962b33f",
+    "title": "Dark Fall: Lost Souls",
+    "filename": "dark-fall-lost-souls.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "3653c051-c38c-42ac-b55f-6c41810262b2",
+    "title": "Deathbound",
+    "filename": "deathbound.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "1d41276f-1bf2-4e18-bf05-cc6133a1098f",
+    "title": "Defender's Quest: Valley of the Forgotten",
+    "filename": "defenders-quest-valley-of-the-forgotten.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "680d3889-5326-4ed5-8348-bb959d47a4c6",
+    "title": "Doom",
+    "filename": "doom.json",
+    "date_tested": "April '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": ""
+  },
+  {
+    "id": "fee3bb9a-4f3f-41c2-a5ed-d4b14ea0fe67",
+    "title": "Fallout 3: Game of the Year Edition",
+    "filename": "fallout-3-game-of-the-year-edition.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "fe9fb4ea-5dc6-477b-b5b2-115dd8f10a52",
+    "title": "Firewatch",
+    "filename": "firewatch.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "7b2f7408-d381-4baa-8af6-169570caa8bc",
+    "title": "FlatOut",
+    "filename": "flatout.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "0a20a92a-8473-421c-a0b5-540260fde489",
+    "title": "Flipon",
+    "filename": "flipon.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "aa727381-ce5f-4051-9c80-3b33d2be7a2f",
+    "title": "Front Mission: 1st Remake - Limited Edition",
+    "filename": "front-mission-1st-remake-limited-edition.json",
+    "date_tested": "May '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "353d06f0-56a4-452c-b456-a5d27c104957",
+    "title": "Grim Dawn Definitive Edition",
+    "filename": "grim-dawn-definitive-edition.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "dfe49d39-4909-4eef-a996-e45417b92da7",
+    "title": "Hard West",
+    "filename": "hard-west.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "c63a4e68-80a4-4dc7-97c9-d39ff57ffc6c",
+    "title": "Hellblade: Senua's Sacrifice",
+    "filename": "hellblade-senuas-sacrifice.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f4025931-2c7e-49ed-be3f-7c7b2d625f29",
+    "title": "King's Bounty: Crossworlds",
+    "filename": "kings-bounty-crossworlds.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "8c11e552-ed2e-4b61-a05e-93afaed14022",
+    "title": "Legacy of Kain: Soul Reaver 1 & 2 Remastered",
+    "filename": "legacy-of-kain-soul-reaver-1-2-remastered.json",
+    "date_tested": "Feb '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "9edf5f36-be55-4d25-8f33-c1f7fde45683",
+    "title": "Little Nightmares",
+    "filename": "little-nightmares.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "48b68249-43f2-467e-ac93-15603ae1e98b",
+    "title": "Loop Hero",
+    "filename": "loop-hero.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "d26f359d-4041-43c2-acb9-09ddb9c50b35",
+    "title": "Magrunner: Dark Pulse",
+    "filename": "magrunner-dark-pulse.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "cb085182-448b-4735-840f-36d2a228232c",
+    "title": "Metal Slug Tactics",
+    "filename": "metal-slug-tactics.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "225ea5e1-05f1-4b08-a3c0-afbe019d9128",
+    "title": "Noita",
+    "filename": "noita.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "bd9c606d-2508-4d80-8033-85315d22f6b8",
+    "title": "One Step From Eden",
+    "filename": "one-step-from-eden.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "839f456d-b837-42b3-9a06-7157999017a1",
+    "title": "Overcooked!",
+    "filename": "overcooked.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ec9cbb57-4357-4ea0-abfb-b73f694ae331",
+    "title": "Primordia",
+    "filename": "primordia.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "65631a46-e1d8-44b2-9d60-480a1d754576",
+    "title": "Raidborn",
+    "filename": "raidborn.json",
+    "date_tested": "Nov '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "96ed4698-3490-4652-9098-58cac918df8d",
+    "title": "Sherlock Holmes: Chapter One",
+    "filename": "sherlock-holmes-chapter-one.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "93abd418-c198-4eb9-9189-aeff63b8f912",
+    "title": "Sherlock Holmes: The Awakened",
+    "filename": "sherlock-holmes-the-awakened.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "bf629723-b251-4d66-b374-d7f6566c7a59",
+    "title": "King of Seas",
+    "filename": "king-of-seas.json",
+    "date_tested": "Sept '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "3523b293-3837-487f-8db1-4c5c3d4ba089",
+    "title": "Star Wars: Knights of the Old Republic",
+    "filename": "star-wars-knights-of-the-old-republic.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "2b06f2d5-f6ed-4153-9bc6-957a6af0227a",
+    "title": "SteamWorld Heist II",
+    "filename": "steamworld-heist-ii.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "091816ae-0771-44f0-894a-6b31a7914727",
+    "title": "Still Life 2",
+    "filename": "still-life-2.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f7d00fc7-fd97-44c1-84c8-715a267e3e64",
+    "title": "SWAT 4: Gold Edition",
+    "filename": "swat-4-gold-edition.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "9ce98e5e-effc-4c6d-b1a7-cb1fe2d458f2",
+    "title": "The Coma 2: Vicious Sisters",
+    "filename": "the-coma-2-vicious-sisters.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "8449afd0-f3ad-4f99-9b4a-e81800833dbc",
+    "title": "The Saboteur",
+    "filename": "the-saboteur.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ab34ddca-082c-43d1-9131-0e0495b39eec",
+    "title": "The Witcher 3: Wild Hunt - Game of the Year Edition",
+    "filename": "the-witcher-3-wild-hunt-game-of-the-year-edition.json",
+    "date_tested": "Aug '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e1426544-b79b-48be-b667-c4bf8679738c",
+    "title": "TimeShift",
+    "filename": "timeshift.json",
+    "date_tested": "March '25",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "eba20865-bfcd-4acd-86b2-f2f3c7b348a6",
+    "title": "Trinity Fusion",
+    "filename": "trinity-fusion.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "716675a9-e568-4dca-9afc-2751047532d6",
+    "title": "Vampire: The Masquerade - Bloodlines",
+    "filename": "vampire-the-masquerade-bloodlines.json",
+    "date_tested": "July '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "04a922e5-6d33-44b3-acd6-c206e9e91dea",
+    "title": "Vampire: The Masquerade - Coteries of New York",
+    "filename": "vampire-the-masquerade-coteries-of-new-york.json",
+    "date_tested": "Dec '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "21fbbaaa-077b-4fe0-b052-49fddda260ad",
+    "title": "Voidbound",
+    "filename": "voidbound.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "bf406b0e-e2f4-439c-9872-d9f514f7e4e8",
+    "title": "Warhammer 40,000: Rogue Trader",
+    "filename": "warhammer-40000-rogue-trader.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "50d932d4-21d3-4ba7-a0e0-940701e52631",
+    "title": "Wasteland 3",
+    "filename": "wasteland-3.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "4d116fc8-66e9-4fc4-b3ea-290c3e0add44",
+    "title": "Agony",
+    "filename": "agony.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "e3001468-90f5-4dc2-970e-b834e778e92a",
+    "title": "Agony",
+    "filename": "agony.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "5be1897e-ce3e-4222-b79d-a74a116f2f44",
+    "title": "Being a DIK",
+    "filename": "being-a-dik.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "afbdd58f-969c-4bb6-9889-37b249b8e1b1",
+    "title": "Beneath a Steel Sky",
+    "filename": "beneath-a-steel-sky.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ec52458e-05d3-4a18-8632-f481caa7636a",
+    "title": "Bio Menace",
+    "filename": "bio-menace.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "not-supported",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "a89ec3a5-014a-4b92-9256-4e425ab4555d",
+    "title": "Fetish Locator Week One",
+    "filename": "fetish-locator-week-one.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ac3f1576-638d-4a14-975d-37a10b0f1c9d",
+    "title": "Helping the Hotties",
+    "filename": "helping-the-hotties.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "0f1720d8-677b-413d-86d4-dc1034dd8e91",
+    "title": "Heroes of Loot",
+    "filename": "heroes-of-loot.json",
+    "date_tested": "Aug '25",
+    "is_featured": true,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "fa94297b-d96f-48d0-83d8-69b9003a640f",
+    "title": "House Party",
+    "filename": "house-party.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "d04cbd8b-74b3-48b9-a5c7-ca933c952f48",
+    "title": "Jupiter Hell",
+    "filename": "jupiter-hell.json",
+    "date_tested": "July '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f2e31d20-5425-49c3-b480-498a0d85a89c",
+    "title": "Leap of Faith + Official Walkthrough",
+    "filename": "leap-of-faith-official-walkthrough.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "be4db6de-4c1c-4a87-ac72-7222dda22276",
+    "title": "Leap of Love",
+    "filename": "leap-of-love.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "adaf008f-7315-44a8-bf93-f18f3db19c29",
+    "title": "Lust Theory - Season 1",
+    "filename": "lust-theory-season-1.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "f6a1ada6-9468-4628-a8f7-c5fc045774f3",
+    "title": "Postal 2",
+    "filename": "postal-2.json",
+    "date_tested": "Aug '25",
+    "is_featured": true,
+    "decky_rating": "yellow",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "ad2dbc53-9c68-48eb-b869-72f5764694a6",
+    "title": "Pumpkin Jack",
+    "filename": "pumpkin-jack.json",
+    "date_tested": "Oct '24",
+    "is_featured": false,
+    "decky_rating": "yellow",
+    "standalone_rating": "yellow"
+  },
+  {
+    "id": "37a58d3e-bff3-4d96-b171-b3f9b2cc0543",
+    "title": "Sapphire Safari",
+    "filename": "sapphire-safari.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "d98d14d4-7795-4de2-9852-3ba571281b36",
+    "title": "Summer's Gone - Season 1",
+    "filename": "summers-gone-season-1.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "0f1af348-0c1e-41c5-a15a-baa3b048f1f6",
+    "title": "Treasure of Nadia",
+    "filename": "treasure-of-nadia.json",
+    "date_tested": "Aug '25",
+    "is_featured": false,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "897ed7e6-f8d5-476d-82f2-b99b345eac6c",
+    "title": "Sid Meier's Civilization III: Complete",
+    "filename": "sid-meiers-civilization-iii-complete.json",
+    "date_tested": "Aug '25",
+    "is_featured": true,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  },
+  {
+    "id": "dde59d88-0a4b-4ab6-b09a-a03501c1d4b3",
+    "title": "Thief: Definitive Edition",
+    "filename": "thief-definitive-edition.json",
+    "date_tested": "Aug '25",
+    "is_featured": true,
+    "decky_rating": "green",
+    "standalone_rating": "green"
+  }
+]

@@ -35,7 +35,7 @@ Based on the Master Action Plan and comprehensive research, Junk Store's unique 
 
 1. **Update Main Hero Message**
    ```markdown
-   # Never Leave Game Mode to Play Your Epic, GOG & Amazon Games
+   # Never Leave Game Mode to Play Your Epic, GOG, Amazon & itch.io (beta) Games
    
    ## The Only Solution with Zero Desktop Mode Switching
    Skip the frustration. Junk Store keeps everything in Steam Deck's Game Mode - no desktop switching, no complex setup, no manual Steam shortcuts required.
