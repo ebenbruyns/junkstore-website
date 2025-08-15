@@ -1142,22 +1142,8 @@ select:focus, input:focus {
   color: white;
 }
 
-/* Mobile responsive */
+/* Mobile responsive - stats grid only (table mobile styles moved to SCSS) */
 @media (max-width: 768px) {
-  .table-controls {
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .control-group {
-    justify-content: center;
-  }
-  
-  .pagination-container {
-    flex-direction: column;
-    gap: 10px;
-  }
-  
   .stats-grid {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 15px;
