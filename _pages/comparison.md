@@ -35,6 +35,10 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
       <h4>🌐 Per-Game System Language Control</h4>
       <p><strong>NEW:</strong> Configure game language setting for games that use system language detection. No more manual file editing to add language codes like the Decky version requires.</p>
     </div>
+    <div class="update-item">
+      <h4>🎮 itch.io Platform Support</h4>
+      <p><strong>NEW:</strong> Beta support for itch.io games now available.</p>
+    </div>
   </div>
 </section>
 
