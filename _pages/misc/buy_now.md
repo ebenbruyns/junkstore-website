@@ -20,6 +20,18 @@ header:
   <p><strong>The ONLY solution that eliminates Desktop Mode switching entirely.</strong> While other launchers require Desktop Mode management, Junk Store 2.0 delivers the true handheld gaming freedom your Steam Deck was designed for.</p>
 </section>
 
+<section class="visual-proof">
+  <div class="screenshot-container">
+    <img src="/assets/images/jspro/4tabs.jpg" 
+         alt="Steam Deck showing unified gaming library with Epic, GOG, Amazon and itch.io games integrated directly into Steam interface" 
+         class="unified-library-screenshot"
+         loading="lazy">
+    <div class="screenshot-caption">
+      <p><a href="/gallery/" class="action-link"><strong>See it in action:</strong></a> All your Epic, GOG, Amazon & itch.io games appearing natively in your Steam library - no Desktop Mode required</p>
+    </div>
+  </div>
+</section>
+
 {% include testimonials.html %}
 
 <section class="key-features">
