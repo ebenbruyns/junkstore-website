@@ -37,7 +37,7 @@
   "genre": "Adventure, Indie, Sport, Arcade, Hack and slash/Beat 'em up",
   "description": "10S is a sports shmup with a light roguelike bent to it. After tennis-ing your way through a random wave of monsters, you'll be asked to pick from one of three upgrades. There's bosses to fight, oddly eerie music, and if you don't like the look of the game you can hand-pick your own colour palette.",
   "size": "",
-  "vertical_artwork": "https://images.gog.com/de31abc354c65bdf7ec0bff26927045370a44be41242a451f958f0cb1d599924.jpg?namespace=gamesdb",
+  "vertical_artwork": "./artwork/10s-vertical.jpg",
   "banner_image": "",
   "icon_image": "",
   "steamId": "",

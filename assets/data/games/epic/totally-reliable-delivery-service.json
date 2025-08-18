@@ -37,9 +37,9 @@
   "genre": "Adventure, Indie, Simulator, Racing",
   "description": "Delivery Attempted. T.R.D.S. is a ragdoll physics simulation about terrible package delivery couriers.",
   "size": "",
-  "vertical_artwork": "https://images.gog.com/dfa740f6e9cac4eab3cc88f05057b6d3a876fd401706ea7c4ca47301f6e83dac.jpg?namespace=gamesdb",
-  "banner_image": "https://images.gog.com/db19dcbdfd80232cf538d1aa4e00bd23f4664941f70a07315fa2ff03863885fe.jpg?namespace=gamesdb",
-  "icon_image": "https://images.gog.com/dfa740f6e9cac4eab3cc88f05057b6d3a876fd401706ea7c4ca47301f6e83dac.jpg?namespace=gamesdb",
+  "vertical_artwork": "./artwork/totally-reliable-delivery-service-vertical.jpg",
+  "banner_image": "./artwork/totally-reliable-delivery-service-banner.jpg",
+  "icon_image": "./artwork/totally-reliable-delivery-service-icon.jpg",
   "steamId": "1011670",
   "game_modes": [
     "Single player",

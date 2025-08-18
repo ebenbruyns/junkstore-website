@@ -539,8 +539,8 @@ function createGameModal(game) {
       <div class="modal-content">
         <!-- Game Banner -->
         <div id="gameBanner-${game.id}" class="game-banner">
-          ${(game.images && game.images.banner_image) || game.verticalArtwork ? 
-            `<img src="${(game.images && game.images.banner_image) || game.verticalArtwork}" alt="Game Banner" style="width: 100%; max-height: 120px; object-fit: cover; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
+          ${game.banner_image || game.vertical_artwork ? 
+            `<img src="/assets/data/${(game.banner_image || game.vertical_artwork).replace('./', '')}" alt="Game Banner" style="width: 100%; max-height: 120px; object-fit: scale-down; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
         </div>
         
         <!-- Enhanced Header -->
@@ -602,8 +602,8 @@ function createGameModal(game) {
             <div class="row">
               <div class="col-md-4">
                 <div id="gameImages-${game.id}" class="game-image-container ${hasEpicFeatures(game) ? '' : 'no-epic-features'}">
-                  ${(game.images && game.images.verticalArtwork) || game.verticalArtwork ? 
-                    `<img src="${(game.images && game.images.verticalArtwork) || game.verticalArtwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
+                  ${game.vertical_artwork ? 
+                    `<img src="/assets/data/${game.vertical_artwork.replace('./', '')}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
                     `<div class="game-image-placeholder">
                       <div class="placeholder-content">
                         <i class="fas fa-gamepad" style="font-size: 2rem; color: #4a5568; margin-bottom: 8px;"></i>
@@ -797,7 +797,7 @@ function renderTestingDetailsBootstrap(game) {
   let content = '';
   
   // Technical Configuration
-  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb;
+  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb || game.epic_url || game.itch_url;
   if (hasConfig) {
     content += `
       <div class="info-section">
@@ -827,6 +827,18 @@ function renderTestingDetailsBootstrap(game) {
             <div class="info-item">
               <span class="info-label">ProtonDB</span>
               <span class="info-value"><a href="${game.protondb}" target="_blank" rel="noopener noreferrer">View on ProtonDB <i class="fas fa-external-link-alt ms-1"></i></a></span>
+            </div>
+          ` : ''}
+          ${game.epic_url ? `
+            <div class="info-item">
+              <span class="info-label">Epic Store</span>
+              <span class="info-value"><a href="${game.epic_url}" target="_blank" rel="noopener noreferrer">View on Epic <i class="fas fa-external-link-alt ms-1"></i></a></span>
+            </div>
+          ` : ''}
+          ${game.itch_url ? `
+            <div class="info-item">
+              <span class="info-label">itch.io</span>
+              <span class="info-value"><a href="${game.itch_url}" target="_blank" rel="noopener noreferrer">View on itch.io <i class="fas fa-external-link-alt ms-1"></i></a></span>
             </div>
           ` : ''}
         </div>

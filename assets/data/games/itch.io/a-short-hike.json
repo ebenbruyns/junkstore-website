@@ -37,7 +37,7 @@
   "genre": "Adventure, Indie",
   "description": "Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak Provincial Park as you make your way to the summit.",
   "size": "",
-  "vertical_artwork": "https://images.gog.com/7cffad16560764af2a9cfdb34df54b12bd3e042913e7219b9a8f7e647a053097.jpg?namespace=gamesdb",
+  "vertical_artwork": "./artwork/a-short-hike-vertical.jpg",
   "banner_image": "",
   "icon_image": "",
   "steamId": "1055540",

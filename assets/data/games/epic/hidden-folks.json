@@ -37,7 +37,7 @@
   "genre": "Adventure, Indie, Puzzle, Point-and-click",
   "description": "Search for hidden folks in hand-drawn, interactive, miniature landscapes. Unfurl tent flaps, cut through bushes, slam doors, and poke some crocodiles!",
   "size": "",
-  "vertical_artwork": "https://images.gog.com/21590071a3becb3c941e217f0a1793453c8bf1c394f9788c2edd7bb4a0f51dab.jpg?namespace=gamesdb",
+  "vertical_artwork": "./artwork/hidden-folks-vertical.jpg",
   "banner_image": "",
   "icon_image": "",
   "steamId": "435400",

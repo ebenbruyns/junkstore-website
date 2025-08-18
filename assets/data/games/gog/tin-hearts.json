@@ -37,7 +37,7 @@
   "genre": "Adventure, Strategy, Indie, Platform, Puzzle",
   "description": "Guide squads of tin soldiers to safety through this magical toy filled world. A beautiful VR puzzle game with a heartfelt story. Are you guiding the soldiers or are they guiding you?",
   "size": "",
-  "vertical_artwork": "https://images.gog.com/a4e2232bc9851277b1e493979cce0698e879332f35bc24d4b46d203be8079b85.jpg?namespace=gamesdb",
+  "vertical_artwork": "./artwork/tin-hearts-vertical.jpg",
   "banner_image": "",
   "icon_image": "",
   "steamId": "1831700",
