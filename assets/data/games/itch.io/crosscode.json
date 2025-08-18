@@ -37,8 +37,8 @@
   "genre": "Role-playing (RPG), Adventure, Indie, Puzzle, Shooter",
   "description": "A retro-inspired 2D Action RPG set in the distant future. CrossCode combines 16-bit SNES-style graphics with butter-smooth physics, a fast-paced combat system, and engaging puzzle mechanics, served with a gripping sci-fi story.",
   "size": "",
-  "vertical_artwork": "./artwork/crosscode-vertical.jpg",
-  "banner_image": "",
+  "vertical_artwork": "https://images.gog.com/5ffe049a4a1ad1a357f74b46360e62c8a417acee92c3254bcf3f99479ebd4481.jpg?namespace=gamesdb",
+  "banner_image": "https://images.gog.com/9250df856e1396f04898566fbc0564ad02539854c3b0154b443c04cbbca09817.jpg?namespace=gamesdb",
   "icon_image": "",
   "steamId": "368340",
   "game_modes": [

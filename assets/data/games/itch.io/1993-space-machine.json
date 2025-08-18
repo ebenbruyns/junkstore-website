@@ -37,8 +37,8 @@
   "genre": "Indie, Shooter",
   "description": "Space shooters never die. 1993 is a testament to that. 1993 is a classic shoot em up celebrating games like Gradius, R-Type and Life Force.",
   "size": "",
-  "vertical_artwork": "./artwork/1993-space-machine-vertical.jpg",
-  "banner_image": "",
+  "vertical_artwork": "https://images.gog.com/da84f2b24b2b424a15a05b37bda025bc734690e658c35bd3fa9df24cb9ca5443.jpg?namespace=gamesdb",
+  "banner_image": "https://images.gog.com/a8eb7cf5658677a28b33149fdbf6f1a2655daff9371f4058f979aa6e83685cb7.jpg?namespace=gamesdb",
   "icon_image": "",
   "steamId": "373480",
   "game_modes": [
