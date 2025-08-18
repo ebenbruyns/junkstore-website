@@ -2,45 +2,28 @@
   "id": "273da258-4034-48bf-895f-e4b09938203e",
   "title": "Two Point Hospital",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/535930",
+  "notes": "May need to verify with Epic account before launch. Epic achievements working. Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "July '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/9e9d090973a43b0cbb69c5f49a57086a051047f0549ee3b286f763919f655e6d.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/de8d34e084799165a8b2156990d02884ef93d66bd694c0d0bd8b1731fb5a8ccb.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/e2442af4ebc2e005933d85fe5ef12d25a497b6568ac0584438fbd4292b2ac2c2.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/9e9d090973a43b0cbb69c5f49a57086a051047f0549ee3b286f763919f655e6d.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "535930",
   "publisher": "Sega",
   "developer": "Two Point Studios",
   "genre": "Strategy, Indie, Simulator",
-  "releasedate": "2018-08-29T00:00:00+0000",
   "description": "Design stunning hospitals, cure peculiar illnesses and manage troublesome staff as you spread your budding healthcare organisation across Two Point County.\nBuild and customise your hospital - it is yours after all - with specialist diagnosis and treatment facilities, as well as the very latest in ornamental technology!",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": true,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "keyboard-mouse",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "535930",
-  "protondb": "https://www.protondb.com/app/535930",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "May need to verify with Epic account before launch. Epic achievements working. Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:38:55.151Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T07:38:55.151Z",
+  "exported_at": "2025-08-13T20:50:39.612Z"
 }

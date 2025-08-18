@@ -2,45 +2,28 @@
   "id": "05e81b5f-ed49-4607-8982-ee29dd02076a",
   "title": "Lysfanga: The Time Shift Warrior",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/2161620",
+  "notes": "You need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
   "date_tested": "Feb '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/99af3d1e713a06e796db6bce41599f21057ad72998fe3a593c0426e1f609da0c.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/497d92a1a2fb32f1d395f241da3585c4ffdf69016e2594eacdb1e222abfcd54d.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/f48fe6a2790bdd5187f9e8ce7d2d3494e069aeef5067d6c917d78fe3ece4833b.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/99af3d1e713a06e796db6bce41599f21057ad72998fe3a593c0426e1f609da0c.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "2161620",
   "publisher": "Quantic Dream, Fabloo Games",
   "developer": "Sand Door Studio",
   "genre": "Strategy, Indie, Puzzle, Hack and slash/Beat 'em up",
-  "releasedate": "2024-02-13T00:00:00+0000",
   "description": "Your Kingdom’s fate relies on you… you… and you. Rewind time to create clones of your past-selves, and fight with an army of your own. Become legion and triumph over hordes of monsters to rescue Antala in this Hack'N'Slash game with a tactical twist.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "2161620",
-  "protondb": "https://www.protondb.com/app/2161620",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "You need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.967Z",
+  "exported_at": "2025-08-13T20:50:39.604Z"
 }

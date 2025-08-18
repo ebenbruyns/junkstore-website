@@ -2,45 +2,28 @@
   "id": "42849640-6e35-40ab-932e-f8a04810c501",
   "title": "Darkwood",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/274520",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "May '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/ce428e47acc09268d2a3ae398f35fd4e3ce4c829a160f45cee000caf0cc204a5.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/afcbccf62e6ef2c56b8fcdddffcce3b7b16e14d9c47c1601f83ab253185b7103.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/b3655e1313d943a10476113504bfcd2931b24bf4a5bae800152eafde572e4f21.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/ce428e47acc09268d2a3ae398f35fd4e3ce4c829a160f45cee000caf0cc204a5.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "274520",
   "publisher": "Crunching Koalas",
   "developer": "Acid Wizard Studio",
   "genre": "Role-playing (RPG), Adventure, Indie",
-  "releasedate": "2017-08-17T00:00:00+0000",
   "description": "Darkwood is a unforgiving survival horror with a procedurally generated, open world. By blending RPG, roguelike and adventure elements together with a challenging difficulty, Darkwood aims to please players craving for a deep and rewarding experience.\n\nThe fear of unknown is powerful. Your senses will be deceived by Darkwood's surreal terrors. No answer will be given to you for free, yet somewhere in the woods lies the truth, an explanation to what has happened in this godforsaken place.\n\nBy day, explore the randomly generated woods, scavenge for materials and weapons, discover secrets, solve mysteries and talk, trade with or kill the various inhabitants of Darkwood. By night, return to your hideout, barricade, set up traps and hide or defend yourself from the horrors that lurk in the dark.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "274520",
-  "protondb": "https://www.protondb.com/app/274520",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.966Z",
+  "exported_at": "2025-08-13T20:50:39.598Z"
 }

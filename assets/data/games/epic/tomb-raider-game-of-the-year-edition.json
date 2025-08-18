@@ -2,45 +2,29 @@
   "id": "2e7e4c9b-86b1-41df-906c-b6beb75673a2",
   "title": "Tomb Raider: Game of the Year Edition",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/750920",
+  "notes": "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account.",
   "date_tested": "July '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/49fdca9e1a5255f1bd4a38708f7d6d0593f352865b60c0a76d22ddab89c2e90c.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/19c3f0fea64bb07ed55b90ccf3490a79fe194089a7b8cef31ec325fc0a1d95a9.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/208820963b27073461f2df3b5c1b55c82b5d93cfd0cf67c4344a74a23250c668.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/49fdca9e1a5255f1bd4a38708f7d6d0593f352865b60c0a76d22ddab89c2e90c.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "750920",
   "publisher": "Square Enix, Crystal Dynamics, Feral Interactive",
   "developer": "Crystal Dynamics",
   "genre": "Adventure, Platform, Puzzle, Shooter",
-  "releasedate": "2013-03-04T00:00:00+0000",
   "description": "Tomb Raider explores the intense and gritty origin story of Lara Croft and her ascent from a young woman to a hardened survivor. Armed only with raw instincts and the ability to push beyond the limits of human endurance, Lara must fight to unravel the dark history of a forgotten island to escape its relentless hold.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "750920",
-  "protondb": "https://www.protondb.com/app/750920",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "exported_at": "2025-08-13T20:50:39.612Z"
 }

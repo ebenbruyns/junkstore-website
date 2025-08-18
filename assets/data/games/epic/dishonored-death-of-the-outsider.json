@@ -2,45 +2,28 @@
   "id": "f5e74286-0954-49d2-943a-76017db78cee",
   "title": "Dishonored: Death of the Outsider",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/614570",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "June '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/186704a0d6616c43b93c7122605f8b539b3abf9538323560e32b049ef9724faa.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/e8539eb87b7c14dc694588a01f679470139c2b1063aa26ed9ef513c5eac4d445.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/b56ac8e83d6d4ebd2b1bd097cba252b05289e4ee3fe935875d36a4a64a51d9a6.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/186704a0d6616c43b93c7122605f8b539b3abf9538323560e32b049ef9724faa.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "614570",
   "publisher": "Bethesda Softworks",
   "developer": "Arkane Studios",
   "genre": "Role-playing (RPG), Adventure, Puzzle",
-  "releasedate": "2017-09-14T00:00:00+0000",
   "description": "Dishonored: Death of the Outsider is a standalone expansion pack and a sequel to Dishonored 2. The game features all the series hallmarks, including brutal combat systems, unique level design and immersive storytelling that responds to your every choice. With compelling characters and exhilarating action, Death of the Outsider is the perfect entry point for those new to the Dishonored series, while delivering a significant expansion of the gameplay and world for longtime fans.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "614570",
-  "protondb": "https://www.protondb.com/app/614570",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.966Z",
+  "exported_at": "2025-08-13T20:50:39.599Z"
 }
