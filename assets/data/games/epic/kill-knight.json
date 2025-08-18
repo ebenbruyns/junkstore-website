@@ -2,45 +2,28 @@
   "id": "17e1b3f5-677d-4ace-bd07-e72c1a5c42c4",
   "title": "Kill Knight",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/2694420",
+  "notes": "Epic achievements working Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Dec '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/0711c3e46e2d8fbb58fb2570dfc74138309c94117f42b03d3f7cf5de6166f277.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/ef71f12810de3bc1e0b7722d4af2d9ebaa42868d663fc77d7bdc8bc55e527470.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/b3c22193572fe28be836080813fdf2149930bbcb05df69a3c2fb3e23059b2de9.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/0711c3e46e2d8fbb58fb2570dfc74138309c94117f42b03d3f7cf5de6166f277.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "2694420",
   "publisher": "PlaySide",
   "developer": "PlaySide",
   "genre": "Indie, Shooter, Arcade",
-  "releasedate": "2024-10-02T00:00:00+0000",
   "description": "KILL KNIGHT is an ultra-responsive arcade-inspired isometric action shooter. Condemned to eternal sufferance, deep within the voids of an eldritch arena, you must wield an arsenal of devastating weaponry to obliterate swarms of otherworldly horrors - and MASTER THE DEMON WITHIN.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": true,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "2694420",
-  "protondb": "https://www.protondb.com/app/2694420",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Epic achievements working Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-05T22:10:35.333Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-05T22:10:35.333Z",
+  "exported_at": "2025-08-13T20:50:39.604Z"
 }

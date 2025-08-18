@@ -2,45 +2,28 @@
   "id": "5bad7bdd-c772-4a66-ace7-261b35f99697",
   "title": "Bramble: The Mountain King",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1623940",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "July '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/233477b7de1891561b29051d86299382d6f2cd5c561c07218abdde946df68003.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/971135f1a5cf4a82b857aee6685b9e23ecfae4163cedaeeff5d22ffd353a9441.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/aa896099945ca32b5660f048bb8dbe664eb535354fe63ebc76083177f8a6754b.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/233477b7de1891561b29051d86299382d6f2cd5c561c07218abdde946df68003.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1623940",
   "publisher": "Dimfrost Studio",
   "developer": "Dimfrost Studio",
   "genre": "Adventure, Indie, Platform, Puzzle",
-  "releasedate": "2023-04-27T00:00:00+0000",
   "description": "Bramble: The Mountain King is a grim adventure set in a world inspired by dark, Nordic fables.\n\nExplore the beautiful yet dangerous and twisted land of Bramble in your endeavour to rescue your sister. Traverse a wondrous landscape and survive deadly encounters with Bramble's many hideous creatures.\n\nNot everything in Bramble is exactly how it seems - in this strange land with creatures big and small, you must be careful when to approach and when to hide. Many hungry and spiteful beasts lurk in these forests and caves. Watch your step....",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1623940",
-  "protondb": "https://www.protondb.com/app/1623940",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.964Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.964Z",
+  "exported_at": "2025-08-13T20:50:39.595Z"
 }

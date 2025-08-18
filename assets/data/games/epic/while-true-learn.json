@@ -2,45 +2,28 @@
   "id": "52eecb5d-215c-4363-91fa-de6990bf3d04",
   "title": "while True: learn()",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/619150",
+  "notes": "May need to verify with Epic account before launch. Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Nov '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/9c3a91b6fbf7e05009dadb8e38cb02f82694547707f6ee938cb1ce078907bf28.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/df55f7d291e1b1c4885f77611e7e02cbe5518c97e65fbc46ed201b66ff126348.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/25fc593dfe2b9d96bb89e0b279b6c4cad73590514e7a8f5170ebdb9d17ca31db.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/9c3a91b6fbf7e05009dadb8e38cb02f82694547707f6ee938cb1ce078907bf28.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "619150",
   "publisher": "Nival",
   "developer": "Luden.io",
   "genre": "Indie, Puzzle, Simulator",
-  "releasedate": "2019-01-17T00:00:00+0000",
   "description": "You're a machine learning specialist who makes neural networks but your cat seems to be better at it. Now you must solve puzzles to build a cat-to-human translation system (who knows what else this cat is capable of!). Earn a fortune, buy kickass cat outfits and learn how machine learning really works!",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": true,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "619150",
-  "protondb": "https://www.protondb.com/app/619150",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "May need to verify with Epic account before launch. Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:44:01.011Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T07:44:01.011Z",
+  "exported_at": "2025-08-13T20:50:39.613Z"
 }

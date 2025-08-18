@@ -83,6 +83,7 @@ excerpt: "Junk Store compatibility database of Epic, GOG, and Amazon games teste
       <option value="Epic">Epic</option>
       <option value="GOG">GOG</option>
       <option value="Amazon">Amazon</option>
+      <option value="itch.io">itch.io</option>
     </select>
   </div>
   
@@ -163,8 +164,8 @@ let pageSize = 20;
 // Load games data
 async function loadGamesData() {
   try {
-    console.log('Loading games data from /assets/data/games.json');
-    const response = await fetch('/assets/data/games.json');
+    console.log('Loading games data from /assets/data/games-table.json');
+    const response = await fetch('/assets/data/games-table.json');
     
     console.log('Response status:', response.status);
     if (!response.ok) {
@@ -212,14 +213,17 @@ function populateFeaturedGames() {
     return;
   }
   
-  container.innerHTML = featuredGames.map(game => `
+  container.innerHTML = featuredGames.map(game => {
+    const storefrontDir = game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase();
+    return `
     <div class="featured-entry">
-      <span class="featured-game-link game-link clickable" data-game-id="${game.id}" data-modal-file="${game.modal_file}">
+      <span class="featured-game-link game-link clickable" data-game-id="${game.id}" data-modal-file="games/${storefrontDir}/${game.slug}.json">
         ${game.title}
       </span>
-      <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
+      <span class="store-badge ${game.storefront === 'itch.io' ? 'itch' : game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
     </div>
-  `).join('');
+    `;
+  }).join('');
   
   // Re-add modal handlers for featured games
   addModalHandlers();
@@ -235,20 +239,24 @@ function populateStats() {
         <span class="stat-label">Total Games</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">${gamesData.status_counts.works_great}</span>
+        <span class="stat-number">${gamesData.ratings_summary.both_green}</span>
         <span class="stat-label">Works Great</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">${gamesData.storefronts.epic}</span>
+        <span class="stat-number">${gamesData.storefronts.Epic.total}</span>
         <span class="stat-label">Epic Games</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">${gamesData.storefronts.gog}</span>
+        <span class="stat-number">${gamesData.storefronts.GOG.total}</span>
         <span class="stat-label">GOG</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">${gamesData.storefronts.amazon}</span>
+        <span class="stat-number">${gamesData.storefronts.Amazon.total}</span>
         <span class="stat-label">Amazon</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">${gamesData.storefronts['itch.io'].total}</span>
+        <span class="stat-label">itch.io</span>
       </div>
     </div>
   `;
@@ -316,11 +324,11 @@ function updateTable() {
       <td title="${game.title}">
         ${isAntiCheat ? 
           `<span class="game-title-static">${game.title}</span>` :
-          `<span class="game-link clickable" data-game-id="${game.id}" data-modal-file="${game.modal_file}">${game.title}</span>`
+          `<span class="game-link clickable" data-game-id="${game.id}" data-modal-file="games/${game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase()}/${game.slug}.json">${game.title}</span>`
         }
       </td>
       <td>
-        <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
+        <span class="store-badge ${game.storefront === 'itch.io' ? 'itch' : game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
       </td>
       ${isAntiCheat ? 
         `<td colspan="2" class="anticheat-warning">⚠️ Incompatible - Anti Cheat</td>` :
@@ -545,7 +553,7 @@ function createGameModal(game) {
               </div>
             </div>
             <div class="header-badges">
-              <span class="storefront-badge storefront-${game.storefront.toLowerCase()}">${game.storefront}</span>
+              <span class="storefront-badge storefront-${game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
             </div>
           </div>
           <button class="modal-close">&times;</button>

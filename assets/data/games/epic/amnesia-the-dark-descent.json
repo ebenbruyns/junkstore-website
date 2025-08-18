@@ -2,45 +2,28 @@
   "id": "99d256b3-5656-4933-b615-8fc43d18edcc",
   "title": "Amnesia: The Dark Descent",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/57300",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Nov '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/c249233f5ae92174498f2252eae54d2ee01ff11d934063801d80f28059ca4c27.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/26960cb6d47a6a0709e2644c1626a780fabccf5c65741fd033abfd50f1024657.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/698ae66ee45c34b46c79f5b985349b3d4b1eab367bc104859ecbee918676669f.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/c249233f5ae92174498f2252eae54d2ee01ff11d934063801d80f28059ca4c27.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "57300",
   "publisher": "Frictional Games",
   "developer": "Frictional Games",
   "genre": "Adventure, Indie, Puzzle",
-  "releasedate": "2010-09-08T00:00:00+0000",
   "description": "Amnesia: The Dark Descent is a survival horror video game by Frictional Games. The game features a protagonist named Daniel exploring a dark and foreboding castle, while trying to maintain his sanity by avoiding monsters and other terrifying obstructions. The game was critically well received.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "57300",
-  "protondb": "https://www.protondb.com/app/57300",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T04:43:35.190Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T04:43:35.190Z",
+  "exported_at": "2025-08-13T20:50:39.591Z"
 }

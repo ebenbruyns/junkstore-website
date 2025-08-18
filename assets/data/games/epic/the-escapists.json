@@ -2,45 +2,28 @@
   "id": "4cd581dc-06a5-4042-bc63-a4543dc85a1d",
   "title": "The Escapists",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/298630",
+  "notes": "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**.",
   "date_tested": "July '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "yellow",
   "standalone_rating": "yellow",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/fae303c9288b985b94e28a90bd792703eb8456ca19d21f88c4daa37bcc177550.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/2eec70541ed619271b60924d7f06fec1198d283c72f601ba954290ec14ed8b5c.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/663c8923ced2684a8a193b47ce315647be356956422be838881114577b3a9427.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/fae303c9288b985b94e28a90bd792703eb8456ca19d21f88c4daa37bcc177550.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "298630",
   "publisher": "Team17",
   "developer": "Mouldy Toof Studios",
   "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Puzzle, Simulator, Tactical",
-  "releasedate": "2015-02-13T00:00:00+0000",
   "description": "All that stands between you and your freedom is a perfectly executed escape plan. The Escapists provides players the opportunity of experiencing a light-hearted insight into everyday prison life with the main objective being that of breaking out.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "requires-mapping",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "298630",
-  "protondb": "https://www.protondb.com/app/298630",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T07:10:43.927Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T07:10:43.927Z",
+  "exported_at": "2025-08-13T20:50:39.611Z"
 }

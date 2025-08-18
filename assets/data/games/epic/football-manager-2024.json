@@ -2,45 +2,29 @@
   "id": "5879b10d-54f2-4de9-bab0-4ba55210fa64",
   "title": "Football Manager 2024",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/2252570",
+  "notes": "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**.",
   "date_tested": "July '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "yellow",
   "standalone_rating": "yellow",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/a3fdf0ee4026c257a75140a2843b85a2e3e844e67ba8f79b98e5a6c94c9a3187.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/0d34c456880db7082c86b1496835aef3d12f1d04aa4662108445f11d75a8a0ef.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/61c108f33def83d631ec67f2c2f8194c45b9393d0d17e5fc989a21f68c466384.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/a3fdf0ee4026c257a75140a2843b85a2e3e844e67ba8f79b98e5a6c94c9a3187.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "2252570",
   "publisher": "Sega",
   "developer": "Sports Interactive",
   "genre": "Strategy, Sport, Simulator",
-  "releasedate": "2023-11-06T00:00:00+0000",
   "description": "Progress never stops when you're pursuing footballing greatness. Gameplay upgrades empower you to develop a blueprint for success on and off the pitch. Pre-order for 10% off and Early Access*.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "requires-mapping",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "2252570",
-  "protondb": "https://www.protondb.com/app/2252570",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T07:07:47.275Z"
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T07:07:47.275Z",
+  "exported_at": "2025-08-13T20:50:39.601Z"
 }

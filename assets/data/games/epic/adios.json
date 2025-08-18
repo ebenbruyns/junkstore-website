@@ -2,45 +2,28 @@
   "id": "d530cf26-5ee4-4112-9f17-e6741dc87a7e",
   "title": "Adios",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1271400",
+  "notes": "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**. Needs Microsoft C++ runtime dependency but ships with it, so just install it.",
   "date_tested": "Aug '25",
+  "proton_version": "",
+  "dependencies": "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/e2d61f63e21a57daa74e6e4873f508d653c86a316024cce836c9952f034c9f1a.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/e6030f1211af2baa459fe5a8c7ae04f1e1e16f9b1b9c8a692e0788901eba6af8.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/6dd436603c9f02c4ef0a56ad0107756da89c4941b252bf9ce359acad679426df.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/e2d61f63e21a57daa74e6e4873f508d653c86a316024cce836c9952f034c9f1a.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1271400",
   "publisher": "Mischief",
   "developer": "Mischief",
   "genre": "Adventure, Indie, Simulator",
-  "releasedate": "2021-03-17T00:00:00+0000",
   "description": "A pig farmer decides he no longer wants to dispose of bodies for the mob. What follows is a discussion between him and his would-be killer.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1271400",
-  "protondb": "https://www.protondb.com/app/1271400",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**. Needs Microsoft C++ runtime dependency but ships with it, so just install it.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-06T03:18:46.904Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-06T03:18:46.904Z",
+  "exported_at": "2025-08-13T20:50:39.590Z"
 }

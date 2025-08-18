@@ -2,45 +2,28 @@
   "id": "46ec32c7-0393-4557-a14d-dee2e635e20c",
   "title": "Warpips",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1291010",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Nov '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/189376e0849ed603351725c115baed3b6758fd0076d92d69953db13eb2dfe533.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/d3fc470055cce4a9baf9b4b42d682220f0fc0866a759b31be737c7b24ff874ea.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/6962aff9e641f3f76dafcaadc19e19f9db4f7b1a23b7ec9926e35593ff7ac439.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/189376e0849ed603351725c115baed3b6758fd0076d92d69953db13eb2dfe533.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1291010",
   "publisher": "Daedalic Entertainment",
   "developer": "Skirmish Mode Games",
   "genre": "Strategy, Indie, Real Time Strategy (RTS), Tactical",
-  "releasedate": "2021-04-29T00:00:00+0000",
   "description": "Warpips is the ultimate quick to learn but amazingly deep tug-of-war strategy game. Deploy the right composition of soldiers, tanks, helicopters and planes in this tight, streamlined strategy-focused war game. Compose the best army, research the right tech; overwhelm your enemy!",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1291010",
-  "protondb": "https://www.protondb.com/app/1291010",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "exported_at": "2025-08-13T20:50:39.613Z"
 }

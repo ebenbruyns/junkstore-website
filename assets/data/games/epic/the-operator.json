@@ -2,45 +2,28 @@
   "id": "3193e48b-dabd-43bf-a462-3b68cf79760e",
   "title": "The Operator",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1771980",
+  "notes": "Works out of the box",
   "date_tested": "July '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/b26181a3fd8d9f3d1050c80f1d88771bf26aae6ebf17de7f17d75aff4994559c.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/9d1565b567517ff491c455031c7f482ae798a012b0ba6c7584330a1df338f9a0.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/89ce56055c3aff48ca3966e9922d22082bd0da34cdf08b8f558daebd469c4215.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/b26181a3fd8d9f3d1050c80f1d88771bf26aae6ebf17de7f17d75aff4994559c.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1771980",
   "publisher": "Bureau 81",
   "developer": "Bureau 81",
   "genre": "Adventure, Indie, Puzzle, Simulator, Point-and-click",
-  "releasedate": "2024-07-22T00:00:00+0000",
   "description": "As an Operator, you will assist FDI's field agents by analyzing evidence on your computer and making deductions. Help them solve impossible cases in this immersive interface game, full of plot twists and mysteries. Everything will be explained, you just have to ████ ██ ██████.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1771980",
-  "protondb": "https://www.protondb.com/app/1771980",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Works out of the box",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "exported_at": "2025-08-13T20:50:39.611Z"
 }

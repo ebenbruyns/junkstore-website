@@ -18,6 +18,12 @@
   "developer": "Riot Games",
   "genre": "Shooter, Tactical",
   "description": "Valorant is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork.",
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "languages": [
+    "English"
+  ],
   "updated_at": "2025-08-11T09:24:31.464Z",
-  "exported_at": "2025-08-13T09:58:22.426Z"
+  "exported_at": "2025-08-13T20:50:39.639Z"
 }

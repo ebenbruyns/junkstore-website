@@ -2,45 +2,29 @@
   "id": "ed768cae-d800-4eaf-9a8f-3fb6d0c463a4",
   "title": "Albion Online",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/761890",
+  "notes": "Works out of the box once you create an account. Don't forget to enble/toggle the anti-cheat for this game.",
   "date_tested": "July '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/53171d5eebad6e1ca2946f83b63e3c57fac561d1a5395486feaee953cf8f7b7a.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/c79d1fd451e3ffeb6ee47a0c1ee18f32b3d1d453cc132e1a4d439b0b67fde113.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/23916a09d9ff536597976ba22e7851024b50c2ec5f38fb1fe10ab386b91c8087.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/53171d5eebad6e1ca2946f83b63e3c57fac561d1a5395486feaee953cf8f7b7a.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "761890",
   "publisher": "Sandbox Interactive",
   "developer": "Sandbox Interactive",
   "genre": "Role-playing (RPG)",
-  "releasedate": "2017-07-17T00:00:00+0000",
   "description": "Albion Online is a sandbox MMORPG set in an open medieval fantasy world. The game features a player-driven economy where nearly every item is player-crafted. Combine armor pieces and weapons suited to your playstyle in a unique, classless \"you are what you wear\" system. Explore the world, take on other adventurers in thrilling battles, conquer territories, and build a home.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "761890",
-  "protondb": "https://www.protondb.com/app/761890",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Works out of the box once you create an account. Don't forget to enble/toggle the anti-cheat for this game.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.964Z"
+  "game_modes": [
+    "Multiplayer",
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.964Z",
+  "exported_at": "2025-08-13T20:50:39.591Z"
 }
