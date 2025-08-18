@@ -470,8 +470,8 @@ class StaticOptimizedGamesTable {
       `;
       document.body.appendChild(loadingModal);
 
-      // Find game details (static lookup)
-      const gameDetails = this.getGameDetails(gameId);
+      // Find game details (async lookup from individual JSON file)
+      const gameDetails = await this.getGameDetails(gameId);
       
       if (!gameDetails) {
         throw new Error('Game not found');
@@ -495,27 +495,57 @@ class StaticOptimizedGamesTable {
   }
 
   /**
-   * Get game details from static data (replaces API call)
+   * Get game details from individual JSON file (for modal display)
    */
-  getGameDetails(gameId) {
+  async getGameDetails(gameId) {
     // Return cached data if available
     if (this.modalCache.has(gameId)) {
       console.log(`📋 Using cached details for game: ${gameId}`);
       return this.modalCache.get(gameId);
     }
 
-    // Find game in static data
-    const game = this.allGames.find(g => g.id === gameId);
-    if (!game) {
-      console.error(`Game not found: ${gameId}`);
+    // Find game in table data to get storefront and slug
+    const gameTableData = this.allGames.find(g => g.id === gameId);
+    if (!gameTableData) {
+      console.error(`Game not found in table data: ${gameId}`);
       return null;
     }
 
-    // Cache the result
-    this.modalCache.set(gameId, game);
-    console.log(`💾 Cached details for game: ${game.title}`);
-    
-    return game;
+    try {
+      // Load full game data from individual JSON file
+      const storefront = gameTableData.storefront === 'itch.io' ? 'itch.io' : gameTableData.storefront.toLowerCase();
+      const slug = gameTableData.slug || gameTableData.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+      const gameUrl = `/assets/data/games/${storefront}/${slug}.json`;
+      
+      console.log(`🔄 Loading full game data from: ${gameUrl}`);
+      const response = await fetch(gameUrl);
+      
+      if (!response.ok) {
+        throw new Error(`Failed to load game data: ${response.status}`);
+      }
+      
+      const fullGameData = await response.json();
+      
+      // Debug logging for image URLs
+      console.log(`🖼️ Image URLs for ${fullGameData.title}:`, {
+        vertical_artwork: fullGameData.vertical_artwork,
+        banner_image: fullGameData.banner_image,
+        icon_image: fullGameData.icon_image
+      });
+      
+      // Cache the result
+      this.modalCache.set(gameId, fullGameData);
+      console.log(`💾 Cached full details for game: ${fullGameData.title}`);
+      
+      return fullGameData;
+    } catch (error) {
+      console.error(`Error loading game details for ${gameTableData.title}:`, error);
+      
+      // Fallback to table data if individual file fails
+      console.log(`🔄 Falling back to table data for: ${gameTableData.title}`);
+      this.modalCache.set(gameId, gameTableData);
+      return gameTableData;
+    }
   }
 
   createGameModal(game) {
@@ -556,7 +586,7 @@ class StaticOptimizedGamesTable {
         <div class="modal-content">
           <!-- Game Banner -->
           <div id="gameBanner-${game.id}" class="game-banner">
-            ${game.verticalArtwork ? `<img src="${game.verticalArtwork}" alt="Game Banner" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
+            ${game.banner_image && !game.banner_image.startsWith('./artwork/') ? `<img src="${game.banner_image}" alt="Game Banner" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px;" onerror="console.error('Image failed to load:', '${game.banner_image}'); this.parentElement.style.display='none';">` : ''}
           </div>
           
           <!-- Enhanced Header -->
@@ -615,8 +645,8 @@ class StaticOptimizedGamesTable {
               <div class="row">
                 <div class="col-md-4">
                   <div id="gameImages-${game.id}" class="game-image-container">
-                    ${game.verticalArtwork && game.verticalArtwork.trim() ? 
-                      `<img src="${game.verticalArtwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
+                    ${game.vertical_artwork && game.vertical_artwork.trim() && !game.vertical_artwork.startsWith('./artwork/') ? 
+                      `<img src="${game.vertical_artwork}" alt="Game Cover" class="game-image-main" onerror="console.error('Vertical image failed to load:', '${game.vertical_artwork}'); this.style.display='none';">` :
                       `<div class="game-image-placeholder">
                         <div class="placeholder-content">
                           <i class="fas fa-gamepad" style="font-size: 3rem; color: #4a5568; margin-bottom: 10px;"></i>

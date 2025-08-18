@@ -37,8 +37,8 @@
   "genre": "Adventure, Indie, Platform",
   "description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
   "size": "",
-  "vertical_artwork": "./artwork/celeste-vertical.jpg",
-  "banner_image": "",
+  "vertical_artwork": "https://images.gog.com/a7cb8cce9f9530fd08bbb81271d776c6b0685bda00a801b77acd3fe23573b247.jpg?namespace=gamesdb",
+  "banner_image": "https://images.gog.com/a7cb8cce9f9530fd08bbb81271d776c6b0685bda00a801b77acd3fe23573b247.jpg?namespace=gamesdb",
   "icon_image": "",
   "steamId": "504230",
   "game_modes": [

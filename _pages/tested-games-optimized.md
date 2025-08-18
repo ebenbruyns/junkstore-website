@@ -496,6 +496,10 @@ async function openGameModal(gameId, modalFile) {
           // Merge basic table data with detailed JSON data
           detailedGame = { ...basicGame, ...detailedData };
           console.log('✅ Loaded detailed game data:', detailedGame.title);
+          console.log('🖼️ Image URLs from detailed data:');
+          console.log('  banner_image:', detailedData.banner_image);
+          console.log('  vertical_artwork:', detailedData.vertical_artwork);
+          console.log('  icon_image:', detailedData.icon_image);
         } else {
           console.warn(`Could not load detailed data from ${modalFile}, using basic data`);
         }
@@ -524,6 +528,13 @@ async function openGameModal(gameId, modalFile) {
 
 // Create game modal
 function createGameModal(game) {
+  console.log('🎨 Creating modal for game:', game.title);
+  console.log('🖼️ Final image URLs for modal:');
+  console.log('  banner_image:', game.banner_image);
+  console.log('  vertical_artwork:', game.vertical_artwork);
+  console.log('  Will show banner?', game.banner_image && !game.banner_image.startsWith('./artwork/'));
+  console.log('  Will show vertical?', game.vertical_artwork && !game.vertical_artwork.startsWith('./artwork/'));
+  
   // Remove existing modal
   const existingModal = document.getElementById('gameModal');
   if (existingModal) {
@@ -539,8 +550,8 @@ function createGameModal(game) {
       <div class="modal-content">
         <!-- Game Banner -->
         <div id="gameBanner-${game.id}" class="game-banner">
-          ${game.banner_image || game.vertical_artwork ? 
-            `<img src="/assets/data/${(game.banner_image || game.vertical_artwork).replace('./', '')}" alt="Game Banner" style="width: 100%; max-height: 120px; object-fit: scale-down; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
+          ${game.banner_image && !game.banner_image.startsWith('./artwork/') ? 
+            `<img src="${game.banner_image}" alt="Game Banner" style="width: 100%; max-height: 120px; object-fit: scale-down; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
         </div>
         
         <!-- Enhanced Header -->
@@ -602,8 +613,8 @@ function createGameModal(game) {
             <div class="row">
               <div class="col-md-4">
                 <div id="gameImages-${game.id}" class="game-image-container ${hasEpicFeatures(game) ? '' : 'no-epic-features'}">
-                  ${game.vertical_artwork ? 
-                    `<img src="/assets/data/${game.vertical_artwork.replace('./', '')}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
+                  ${game.vertical_artwork && !game.vertical_artwork.startsWith('./artwork/') ? 
+                    `<img src="${game.vertical_artwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
                     `<div class="game-image-placeholder">
                       <div class="placeholder-content">
                         <i class="fas fa-gamepad" style="font-size: 2rem; color: #4a5568; margin-bottom: 8px;"></i>
@@ -1203,6 +1214,35 @@ select:focus, input:focus {
 }
 
 .store-badge.itch {
+  background: #fa5c5c;
+  color: white;
+}
+
+/* Modal storefront badges */
+.storefront-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.storefront-epic {
+  background: #000;
+  color: white;
+}
+
+.storefront-gog {
+  background: #86328a;
+  color: white;
+}
+
+.storefront-amazon {
+  background: #00a14f;
+  color: white;
+}
+
+.storefront-itch\.io {
   background: #fa5c5c;
   color: white;
 }
