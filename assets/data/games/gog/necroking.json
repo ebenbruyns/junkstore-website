@@ -37,7 +37,7 @@
   "genre": "Adventure, Strategy, Indie, Tactical, Card & Board Game",
   "description": "Necroking is a turn-based tactics roguelite with pixel art graphics. You play as a Master of Necromancy. Build your sculls deck, rise skeletons and other scum to defeat settlements desecrated by life.",
   "size": "",
-  "vertical_artwork": "https://images.gog.com/37841db09d5e0971d64e02351ad19dc3351d6a2d91d08001a2e4f73135a59a29.jpg?namespace=gamesdb",
+  "vertical_artwork": "./artwork/necroking-vertical.jpg",
   "banner_image": "",
   "icon_image": "",
   "steamId": "2852980",

@@ -37,7 +37,7 @@
   "genre": "Strategy, Indie, Puzzle",
   "description": "Baba Is You is a puzzle game where you can change the rules by which you play. In every level, the rules themselves are present as blocks you can interact with; by manipulating them, you can change how the level works and cause surprising, unexpected interactions! With some simple block-pushing you can turn yourself into a rock, turn patches of grass into dangerously hot obstacles, and even change the goal you need to reach to something entirely different.",
   "size": "",
-  "vertical_artwork": "https://images.gog.com/e7371a4ecd80937d5bb5292bff60063cb1d794108dfbba5ec5461eaac367d149.jpg?namespace=gamesdb",
+  "vertical_artwork": "./artwork/baba-is-you-vertical.jpg",
   "banner_image": "",
   "icon_image": "",
   "steamId": "736260",
