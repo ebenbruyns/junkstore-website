@@ -37,7 +37,7 @@
   "genre": "Arcade",
   "description": "10 Flights of Ballooning is 10 mini-games based on the Balloon Trip mode in the original game Balloon Fight for NES.",
   "size": "36862684",
-  "vertical_artwork": "https://images.gog.com/f6e075ded3a56ac2fcf4ccc4e8430f0b36b4810376f6fa82b59f1b04a2c7fc2c.jpg?namespace=gamesdb",
+  "vertical_artwork": "./artwork/10-flights-of-ballooning-vertical.jpg",
   "banner_image": "",
   "icon_image": "",
   "steamId": "",

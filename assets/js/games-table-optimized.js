@@ -42,7 +42,7 @@ class StaticOptimizedGamesTable {
    */
   async loadGamesData() {
     try {
-      const response = await fetch('/assets/data/games.json');
+      const response = await fetch('/assets/data/games-table.json');
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
@@ -248,7 +248,7 @@ class StaticOptimizedGamesTable {
         .map(game => {
           return `
             <div class="featured-entry">
-              <a href="#" class="featured-game-link" data-game-title="${game.title}" data-game-storefront="${game.storefront}">
+              <a href="#" class="featured-game-link" data-game-id="${game.id}">
                 ${this.escapeHtml(game.title)}
               </a>
               <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
@@ -256,15 +256,13 @@ class StaticOptimizedGamesTable {
           `;
         }).join('');
         
-      // Add click handlers for featured games
+      // Add click handlers for featured games - same as main table
       this.featuredRow.querySelectorAll('.featured-game-link').forEach(link => {
         link.addEventListener('click', (e) => {
           e.preventDefault();
-          const title = e.target.dataset.gameTitle;
-          const storefront = e.target.dataset.gameStorefront;
-          const game = this.testedGames.find(g => g.title === title && g.storefront === storefront);
-          if (game) {
-            this.openGameModal(game.id);
+          const gameId = e.target.dataset.gameId;
+          if (gameId) {
+            this.openGameModal(gameId);
           }
         });
       });
@@ -858,6 +856,18 @@ class StaticOptimizedGamesTable {
               <div class="info-item">
                 <span class="info-label">ProtonDB</span>
                 <span class="info-value"><a href="${game.protondb}" target="_blank" rel="noopener noreferrer">View on ProtonDB <i class="fas fa-external-link-alt ms-1"></i></a></span>
+              </div>
+            ` : ''}
+            ${game.epic_url ? `
+              <div class="info-item">
+                <span class="info-label">Epic Store</span>
+                <span class="info-value"><a href="${game.epic_url}" target="_blank" rel="noopener noreferrer">View on Epic <i class="fas fa-external-link-alt ms-1"></i></a></span>
+              </div>
+            ` : ''}
+            ${game.itch_url ? `
+              <div class="info-item">
+                <span class="info-label">itch.io</span>
+                <span class="info-value"><a href="${game.itch_url}" target="_blank" rel="noopener noreferrer">View on itch.io <i class="fas fa-external-link-alt ms-1"></i></a></span>
               </div>
             ` : ''}
           </div>
