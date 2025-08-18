@@ -2,45 +2,28 @@
   "id": "a4dc1c58-978b-4496-bf4c-5a031da981fa",
   "title": "Tharsis",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/323060",
+  "notes": "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Dec '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/fb593d37b155ec000b9c39f54266f3f5b61420970ec2bfe76e3001f4c199b619.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/4c8d33807cf3f2aab31d051e4d76ec3261555720491f0618b73ec9fd9c1330ba.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/d9c3b48254a9cb72ac7d0f3d61b79ff365f601fff6e41f2f8c56d264aadb61dd.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/fb593d37b155ec000b9c39f54266f3f5b61420970ec2bfe76e3001f4c199b619.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "323060",
   "publisher": "QubicGames S.A.",
   "developer": "Choice Provisions",
   "genre": "Role-playing (RPG), Adventure, Strategy, Simulator",
-  "releasedate": "2016-01-11T00:00:00+0000",
   "description": "Tharsis is a turn-based space strategy game. With dice and cannibalism. It puts you in control of humanity's first manned mission to Mars, just as it's struck by a micrometeoroid storm. You must guide your crew through disasters, food shortages, and the unforgiving nature of space - all while maintaining your sanity amidst cryptic signals and warnings from Mars.\nDefy the odds, make the difficult decisions, and embark on the most important mission in human history.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "323060",
-  "protondb": "https://www.protondb.com/app/323060",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:34:25.302Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T07:34:25.302Z",
+  "exported_at": "2025-08-13T20:50:39.610Z"
 }

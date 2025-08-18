@@ -2,45 +2,29 @@
   "id": "84ee238c-e6b2-4e0f-8b5e-8f59b88a0297",
   "title": "Touch Type Tale",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/909470",
+  "notes": "Works out of the box but you need to change controller layout to Keyboard & Mouse. While it works on the Steam Deck you'll be better off playing with an external keyboard, was a pain testing using the on screen keyboard.",
   "date_tested": "May '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Keyboard & Mouse",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/26334d747a6f76b5245adbffc54bec0817a44c03c404dee587e6d0cfcce4c1d9.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/ece2157005bd5984cb2ac89badeb94119de8bc9cf65f754e7de9f73f1dce3bee.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/f42cde13de166a61f55a5a10c15333224f2a093edc3b517c744235041ec63511.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/26334d747a6f76b5245adbffc54bec0817a44c03c404dee587e6d0cfcce4c1d9.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "909470",
   "publisher": "Mythwright",
   "developer": "Pumpernickel Studio",
   "genre": "Strategy, Indie, Real Time Strategy (RTS)",
-  "releasedate": "2023-03-28T00:00:00+0000",
   "description": "A boy is wanted for his nimble fingers by four rivaling dukes and duchesses of a kingdom in turmoil.\n\nTouch Type Tale is a real-time strategy typing game featuring a story rich campaign and online competitive play.\nChallenge your friends in a battle of tactics and typing skills!",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Keyboard & Mouse",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "909470",
-  "protondb": "https://www.protondb.com/app/909470",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Works out of the box but you need to change controller layout to Keyboard & Mouse. While it works on the Steam Deck you'll be better off playing with an external keyboard, was a pain testing using the on screen keyboard.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:07:05.223Z"
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:07:05.223Z",
+  "exported_at": "2025-08-13T20:50:39.612Z"
 }

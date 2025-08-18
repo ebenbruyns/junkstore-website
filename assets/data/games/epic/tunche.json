@@ -2,45 +2,29 @@
   "id": "07ff660c-510f-49d6-bcf1-13e1303edf3c",
   "title": "Tunche",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/887450",
+  "notes": "<strong>Works out of the box</strong> — no extra setup needed. Make sure you enable the EOS overlay.",
   "date_tested": "Nov '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/a7d891b393f24ed69f690da8b7bcaee3473968328ce236d0b7989bb344ce16ee.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/ecd4a6fef7c24663e12de51b5d82279411d55d394bdd6a3af9a12aed5b97f15c.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/a5862997711a7e2313331a05f638b20e2db3117f8f4e61a0744f709c50857be0.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/a7d891b393f24ed69f690da8b7bcaee3473968328ce236d0b7989bb344ce16ee.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "887450",
   "publisher": "HypeTrain Digital",
   "developer": "LEAP Game Studios",
   "genre": "Role-playing (RPG), Adventure, Indie, Arcade, Hack and slash/Beat 'em up, Fighting",
-  "releasedate": "2021-11-02T00:00:00+0000",
   "description": "Tunche is a charming, hand-drawn adventure that blends classic beat'em up brawler gameplay with roguelike elements, 4-player co-op and a pinch of shaman witchcraft. Master the ancient magical arts, defeat epic bosses and unravel the secrets of the mysterious Amazonian jungle!",
-  "size": "",
-  "epic_features": {
-    "requires_eos": true,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "887450",
-  "protondb": "https://www.protondb.com/app/887450",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "<strong>Works out of the box</strong> — no extra setup needed. Make sure you enable the EOS overlay.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "exported_at": "2025-08-13T20:50:39.612Z"
 }

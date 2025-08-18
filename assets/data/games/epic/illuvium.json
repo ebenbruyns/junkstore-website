@@ -2,43 +2,29 @@
   "id": "2d9925b4-e3f2-4a87-a652-874ed50e6afc",
   "title": "Illuvium",
   "storefront": "Epic",
+  "protondb": "",
+  "notes": "Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Illuvium)",
   "date_tested": "Aug '24",
   "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/1cf292d7d6c68e3647064cf58c55039547de76fb0d4eabf7ef812b41d4009209.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/be1ac0bc19963972e84f915962adb9add8cecc23ca5818027862533bc651d565.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/45e6d550ca36012f168e0719908bd2be742021bc03f6a05dfcdf0b7e70ddeb59.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/1cf292d7d6c68e3647064cf58c55039547de76fb0d4eabf7ef812b41d4009209.jpg?namespace=gamesdb"
-  },
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
+  "decky_rating": "",
+  "standalone_rating": "",
+  "gog_url": "",
+  "steamId": "",
   "publisher": "NIL, NIL",
   "developer": "Illuvium",
   "genre": "Role-playing (RPG), Adventure, Turn-based strategy (TBS)",
-  "releasedate": "2023-11-28T00:00:00+0000",
   "description": "Step into the adrenaline-fueled Arena, where strategy and action converge. Whether facing the relentless waves of Illuvials in the Survival Arena or outwitting foes in competitive duels in the Ascendant Arena.\n\nIlluvium: Overworld will be an expansive third-person RPG set within a diverse and dynamic open world. Across this alien terrain, mystical creatures lurk—each with potent abilities. Craft gear to explore, collect precious resources, and empower your team. Every decision shapes your path, carving out your legacy in the wilds of an alien world.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "",
-  "protondb": "",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Illuvium)",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.967Z",
+  "exported_at": "2025-08-13T20:50:39.603Z"
 }

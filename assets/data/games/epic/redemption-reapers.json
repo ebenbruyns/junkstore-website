@@ -2,45 +2,28 @@
   "id": "2c778cdd-af25-473c-90b4-a48d4fe6e58b",
   "title": "Redemption Reapers",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/2139300",
+  "notes": "Need to use GE-Proton 9.7 for cutscenes to play correctly. <strong>Works out of the box</strong> — no extra setup needed.",
   "date_tested": "March '25",
+  "proton_version": "GE-Proton 9.7",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "GE-Proton 9.7",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/077e9c5c1e9ef332c3ac153cc791304521d7b7be00b8562839f74e9c0fa2b69b.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/bafbe0ca628e33750726b720327aab30773ab79bcb77ce364dc91f3a68caed99.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/2f1f17433a5c23c81a4e003a5270af281e428ca191f350cb3188f72b2113a3ae.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/077e9c5c1e9ef332c3ac153cc791304521d7b7be00b8562839f74e9c0fa2b69b.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "2139300",
   "publisher": "Binary Haze Interactive",
   "developer": "adglobe",
   "genre": "Role-playing (RPG), Turn-based strategy (TBS), Simulator, Tactical",
-  "releasedate": "2023-02-22T00:00:00+0000",
   "description": "Descending suddenly on the world, the macabre Mort armies destroy nation after nation, leaving humanity decimated in their wake. Among the forces resisting the Mort is a small band of mercenaries known as the Ashen Hawk Brigade.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "2139300",
-  "protondb": "https://www.protondb.com/app/2139300",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Need to use GE-Proton 9.7 for cutscenes to play correctly. <strong>Works out of the box</strong> — no extra setup needed.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T07:48:54.986Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T07:48:54.986Z",
+  "exported_at": "2025-08-13T20:50:39.607Z"
 }

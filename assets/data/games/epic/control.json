@@ -2,45 +2,28 @@
   "id": "146e0deb-5b62-466a-9230-5ad254a15064",
   "title": "Control",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/870780",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Dec '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/a7109b6805ba44c05a110ceb6401422f3ed6de9289f95216b979b918ad3a0e95.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/d76cff73fe6d26607f202fe6abc314e7b113f36dea7c89c3d568d2b183701ef7.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/f5d4c750155f5ed637ed1b3c207b01d32429ded62d66a41e654a5894abbc6906.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/a7109b6805ba44c05a110ceb6401422f3ed6de9289f95216b979b918ad3a0e95.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "870780",
   "publisher": "505 Games",
   "developer": "Remedy Entertainment",
   "genre": "Adventure, Shooter",
-  "releasedate": "2019-08-27T00:00:00+0000",
   "description": "Control is a supernatural 3rd person action-adventure will challenge you to master the combination of supernatural abilities, modifiable loadouts and reactive environments while fighting through a deep and unpredictable world.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "870780",
-  "protondb": "https://www.protondb.com/app/870780",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.965Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.965Z",
+  "exported_at": "2025-08-13T20:50:39.597Z"
 }

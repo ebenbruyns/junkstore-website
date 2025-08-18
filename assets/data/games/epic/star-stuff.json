@@ -2,45 +2,28 @@
   "id": "5de4d85f-d81b-4372-a26c-31ca7ff92490",
   "title": "Star Stuff",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1955110",
+  "notes": "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
   "date_tested": "Jan '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/859a41cb4c414518865fc2e07d10cb3ce4db4988ced011204ba90d68adab5573.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/cc0abf3784598a9214785a3afb8ef0a461adc51ce63fe5083d6ab3bedfec3970.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/0ea35cee69fa93abbc99c5f15eda0ac508632e4dd33066fd71ebdbcfe3c1991e.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/859a41cb4c414518865fc2e07d10cb3ce4db4988ced011204ba90d68adab5573.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1955110",
   "publisher": "Astra Logical",
   "developer": "Ánimo Games Studio",
   "genre": "Adventure, Strategy, Indie, Puzzle",
-  "releasedate": "2024-06-07T00:00:00+0000",
   "description": "Star Stuff is a puzzle automation game that mixes bot programming with real time shenanigans. Play as Mija (me-ha), a cosmic employee on their first day at a star factory. Automate bots, interact in real time with bot actions to solve mind-bending puzzles, and save the ever-expanding universe while you're at it!",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1955110",
-  "protondb": "https://www.protondb.com/app/1955110",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.969Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.969Z",
+  "exported_at": "2025-08-13T20:50:39.609Z"
 }

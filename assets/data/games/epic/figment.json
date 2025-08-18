@@ -2,45 +2,28 @@
   "id": "a23e4843-2232-45ef-a57f-394c9507f1bf",
   "title": "Figment",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/493540",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "July '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/1286900fea4fb4f154987f15bb5e11396670b1c174ca31e0eaf96835442890ff.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/fae02216d95ec1ff3c204a25f3354e0af65196eebbe485a47c1dfb0d77a1f849.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/aa02ba2f4562187f000799fb33e60c9c582c85fed5c76f24bf1c4f1e5ce84e15.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/1286900fea4fb4f154987f15bb5e11396670b1c174ca31e0eaf96835442890ff.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "493540",
   "publisher": "Bedtime Digital Games",
   "developer": "Bedtime Digital Games",
   "genre": "Adventure, Indie, Platform, Puzzle, Music",
-  "releasedate": "2017-09-22T00:00:00+0000",
   "description": "A musical action-adventure set in the recesses of the human mind... Welcome to the world of Figment. A strange and surreal world; a place filled with our deepest thoughts, urges and memories, populated by the many voices we hear in our heads.\n\nThis mind has been quiet and calm for many years. But something has changed. New thoughts have started to emerge - taking the shape of nightmarish creatures who spread fear wherever they go. The only hope is for the grumpy Dusty, the mind's former voice of courage, to get back to his old self and help the mind to face its fears.\n\nJoin Dusty and his ever-optimistic friend, Piper, on an adventure through the different sides of the mind, solving puzzles to set things straight, beating back the nightmares and seeking to restore the courage that's been lost.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "493540",
-  "protondb": "https://www.protondb.com/app/493540",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.966Z",
+  "exported_at": "2025-08-13T20:50:39.601Z"
 }

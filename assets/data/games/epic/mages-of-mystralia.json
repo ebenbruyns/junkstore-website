@@ -2,45 +2,28 @@
   "id": "68222450-a8c1-43fe-ba51-5fe06f0cf053",
   "title": "Mages of Mystralia",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/529660",
+  "notes": "<strong>Works out of the box</strong> — no extra setup needed. There is no sound for the opening cinematic scene, but this seems to be an old issue.",
   "date_tested": "March '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/3881869e67b1e68cc0e2956f07d7e7a65c9bee45864b2f234ba9dc5524b8c0e5.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/80bcf1db0ad6d8576740382c507f89ec1186db1275249bc487c2642d22049398.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/5fc29675dd68f7ad5e51ceac83dbe176708933a007019741695fdfddcd35ef53.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/3881869e67b1e68cc0e2956f07d7e7a65c9bee45864b2f234ba9dc5524b8c0e5.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "529660",
   "publisher": "Borealys Games",
   "developer": "Borealys Games",
   "genre": "Adventure, Indie",
-  "releasedate": "2017-05-18T00:00:00+0000",
   "description": "Accompany Zia as she strikes off to train and learn to control her magical abilities that had her exiled. Journey across the lands to meet other exiled mages and uncover runes with magical properties that can be combined into millions of different possibilities, letting you come up with completely new and incredible spells!",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "529660",
-  "protondb": "https://www.protondb.com/app/529660",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "<strong>Works out of the box</strong> — no extra setup needed. There is no sound for the opening cinematic scene, but this seems to be an old issue.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.967Z",
+  "exported_at": "2025-08-13T20:50:39.604Z"
 }

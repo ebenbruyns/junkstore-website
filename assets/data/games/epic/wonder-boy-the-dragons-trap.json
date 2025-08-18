@@ -2,45 +2,28 @@
   "id": "2c1a6d2c-b033-4145-a32a-6f6f7b1b792e",
   "title": "Wonder Boy: The Dragon's Trap",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/543260",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Nov '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/056e9a04957aeaf47b03a1870f39199e9ff27220e9c708597a4e2b120daff7e4.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/e2d1c8359f9d40e49880dc820ecbf05ea122a097c9de760e27f96d3c2729be48.jpg?namespace=gamesdb",
-    "icon_image": "",
-    "verticalArtwork": "https://images.gog.com/056e9a04957aeaf47b03a1870f39199e9ff27220e9c708597a4e2b120daff7e4.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "543260",
   "publisher": "DotEmu",
   "developer": "Lizardcube",
   "genre": "Adventure, Indie, Platform",
-  "releasedate": "2017-04-18T00:00:00+0000",
   "description": "\"A modern version of cult classic Wonder Boy: The Dragon's Trap! A close collaboration between Lizardcube, DotEmu and legendary series creator Ryuichi Nishizawa, based on Westone Bit Entertainment's original masterpiece. \n \nHow many more transformations can one hopeful body survive as it turns into a Lizard, a Mouse, a Piranha, a Lion, and a Hawk... The six different forms of our shape-shifting hero make up the cast of this non-stop action-adventure platformer!\"",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "543260",
-  "protondb": "https://www.protondb.com/app/543260",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "exported_at": "2025-08-13T20:50:39.613Z"
 }

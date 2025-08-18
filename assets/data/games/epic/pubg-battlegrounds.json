@@ -18,6 +18,15 @@
   "developer": "PUBG Corp",
   "genre": "Shooter",
   "description": "PUBG: Battlegrounds is a battle royale shooter that pits 100 players against each other in a struggle for survival. Gather supplies and outwit your opponents to become the last person standing.",
+  "game_modes": [
+    "Single player",
+    "Co-operative",
+    "Multiplayer",
+    "Battle Royale"
+  ],
+  "languages": [
+    "English"
+  ],
   "updated_at": "2025-08-11T09:27:54.625Z",
-  "exported_at": "2025-08-13T09:58:22.425Z"
+  "exported_at": "2025-08-13T20:50:39.639Z"
 }

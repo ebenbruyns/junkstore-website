@@ -2,45 +2,28 @@
   "id": "c51a8808-dde9-4756-8d51-47b4c16816a5",
   "title": "Darq",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/433550",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "July '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/6d6901c0b6b1a303e26b9a2679276457a3d835f358fb8f9882694c61691a48d2.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/b77c85adcb94654d3ebb77af55cb252013b67e089baf6c05d7d16752f2c6507f.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/ebe949262a7ba7309c9f3e27b35c7cfe0ef7cf1f1d4d7564336d6e29b2b54b9c.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/6d6901c0b6b1a303e26b9a2679276457a3d835f358fb8f9882694c61691a48d2.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "433550",
   "publisher": "Unfold Games",
   "developer": "Unfold Games",
   "genre": "Adventure, Indie",
-  "releasedate": "2019-08-15T00:00:00+0000",
   "description": "Darq tells the story of Lloyd, a boy who becomes aware of the fact that he is dreaming. To Lloyd's misfortune, the dream quickly turns into a nightmare and all attempts to wake up end in failure. While exploring the darkest corners of his subconscious, Lloyd learns how to survive the nightmare by bending the laws of physics and manipulating the fluid fabric of the dream world.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "433550",
-  "protondb": "https://www.protondb.com/app/433550",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.966Z",
+  "exported_at": "2025-08-13T20:50:39.598Z"
 }

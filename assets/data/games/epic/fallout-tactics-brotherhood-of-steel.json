@@ -2,45 +2,29 @@
   "id": "715f9e3b-e85e-402a-976c-4d28635ae07d",
   "title": "Fallout Tactics: Brotherhood of Steel",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/38420",
+  "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**. Use Proton-7.0rc3-GE-1 to help with stuttering of cutscenes",
   "date_tested": "Aug '24",
+  "proton_version": "Proton-7.0rc3-GE-1",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "Proton-7.0rc3-GE-1",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/167a302bf82ec4edfcfc2a10493069abf1174e737d43cd50c50c340f8d6e0ded.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/6ffa0c1b1ea418b043a2a360baca479b2945f5ffce044ebd64c4c78992b421f5.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/d0c8aeb40f65c8e036dd476e19995e96a6ebcf605fcda10f6d074e33b36692f9.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/167a302bf82ec4edfcfc2a10493069abf1174e737d43cd50c50c340f8d6e0ded.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "38420",
   "publisher": "Interplay Entertainment, 14 Degrees East, Bethesda Softworks",
   "developer": "Micro Forté",
   "genre": "Role-playing (RPG), Strategy, Turn-based strategy (TBS), Tactical",
-  "releasedate": "2001-03-15T00:00:00+0000",
   "description": "This is a Tactical Squad-Based Combat comes to the Fallout Universe. You are the wretched refuse. You may be born from dirt, but we will forge you into steel. You will learn to bend; if not you, will you break. In these dark times, the Brotherhood - your Brotherhood - is all that stands between the rekindled flame of civilization and the howling, radiated wasteland.\n\nYour weapons will become more than your tools, they will become your friends. You will use your skills to inspire the lowly and protect the weak... whether they like it or not. Your squadmates will be more dear to you than your kin and for those that survive there will be honor, respect and the spoils of war.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "38420",
-  "protondb": "https://www.protondb.com/app/38420",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**. Use Proton-7.0rc3-GE-1 to help with stuttering of cutscenes",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T07:27:48.278Z"
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T07:27:48.278Z",
+  "exported_at": "2025-08-13T20:50:39.600Z"
 }

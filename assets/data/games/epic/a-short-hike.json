@@ -2,45 +2,28 @@
   "id": "a1374723-d8f6-4f0a-8cd6-130505f43a88",
   "title": "A Short Hike",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1055540",
+  "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Sept '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/7cffad16560764af2a9cfdb34df54b12bd3e042913e7219b9a8f7e647a053097.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/6cd02e02bc691cb846b8f6bea011ac7330cd34bc2076fd92f520aab08c5508d6.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/9707c721bb655caf72a99e6cc4755c1ad6cf31565e1ce5a01d34acac48be5d09.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/7cffad16560764af2a9cfdb34df54b12bd3e042913e7219b9a8f7e647a053097.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1055540",
   "publisher": "Whippoorwill, Adam Gryu",
   "developer": "Adam Gryu",
   "genre": "adventure, indie",
-  "releasedate": "",
   "description": "Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak Provincial Park as you make your way to the summit.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1055540",
-  "protondb": "https://www.protondb.com/app/1055540",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T02:35:17.862Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T02:35:17.862Z",
+  "exported_at": "2025-08-13T20:50:39.629Z"
 }

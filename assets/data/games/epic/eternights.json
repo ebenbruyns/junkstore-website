@@ -2,45 +2,28 @@
   "id": "521b908d-8449-4c75-a1ad-ef0c9c658860",
   "title": "Eternights",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1402110",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Sept '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/9df19abab215477c9a840e39b91e6ee13e8fc56e25abecebb4d163e015640dcc.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/a1a099bd9e2af6310c2b0ec42a9c7426c163471cfee78381493b796a92885c85.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/6bec0b9ef8b9825a6c8d29024506496a4de72f182732a29d8d1d87e4d8d1bc3b.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/9df19abab215477c9a840e39b91e6ee13e8fc56e25abecebb4d163e015640dcc.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1402110",
   "publisher": "Studio Sai, Kowloon Nights",
   "developer": "Studio Sai",
   "genre": "Role-playing (RPG), Adventure, Indie, Hack and slash/Beat 'em up",
-  "releasedate": "2023-09-12T00:00:00+0000",
   "description": "Eternights is a dating action game where you try to make the most out of life during the apocalypse. Monday: Go on a date. Tuesday: Clear dungeon. Friday: Freak out! The clock is ticking!!",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1402110",
-  "protondb": "https://www.protondb.com/app/1402110",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.966Z",
+  "exported_at": "2025-08-13T20:50:39.600Z"
 }

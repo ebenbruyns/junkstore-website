@@ -2,45 +2,28 @@
   "id": "e7e105e6-7bba-4594-a770-5da2ca21eb39",
   "title": "The Eternal Cylinder",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/865680",
+  "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Works out of the box**. Install C++ Runtime Dependency.",
   "date_tested": "Oct '24",
+  "proton_version": "",
+  "dependencies": "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "yellow",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/1ce4ca887d3edd20e5cb28d0fb98c8b40a46c0cb4a36cd4c91d4253ba28b0ac3.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/873b513e0502b668a16e6f104e2fd78934414569b989649be7e2843ec131b648.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/69802e68eb958d9153b6ce43b6ebb743a9dec32cf4065adc21e1be31bfb87928.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/1ce4ca887d3edd20e5cb28d0fb98c8b40a46c0cb4a36cd4c91d4253ba28b0ac3.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "865680",
   "publisher": "Good Shepherd Entertainment",
   "developer": "ACE Team",
   "genre": "Adventure",
-  "releasedate": "2021-09-30T00:00:00+0000",
   "description": "In The Eternal Cylinder, players control a herd of adorable creatures called Trebhums and must explore a strange alien world filled with exotic lifeforms, surreal environments, and the constant threat of the Cylinder, a gargantuan rolling structure of ancient origin which crushes everything in its path. This unique ecosystem is a massive, procedurally generated land with unique animal AI, real-time world destruction, and organic exploration and puzzle design to create emergent gameplay that ensures no two playthroughs are ever the same.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>",
-  "controller_config": "",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "865680",
-  "protondb": "https://www.protondb.com/app/865680",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Works out of the box**. Install C++ Runtime Dependency.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T07:37:27.176Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T07:37:27.176Z",
+  "exported_at": "2025-08-13T20:50:39.611Z"
 }

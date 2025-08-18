@@ -2,45 +2,28 @@
   "id": "832568fa-4da7-4070-88f6-a4beec497a95",
   "title": "Warhammer 40,000: Mechanicus",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/673880",
+  "notes": "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
   "date_tested": "April '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/abd6a7f013ac52395b0ec0a7f5e3f078a014298782cecd784e320604c59ec031.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/7e7bb4fffb96ed4573bbeb829a4461f1f55121929e716544fd980f217fa5ab71.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/ab2d48e1ab27a2ce64392a4667de7d2efe42b0bd3a74e34c15b058c28b982aca.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/abd6a7f013ac52395b0ec0a7f5e3f078a014298782cecd784e320604c59ec031.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "673880",
   "publisher": "Kasedo Games, KalypsoMediaGroup",
   "developer": "Bulwark Studios",
   "genre": "Strategy, Tactical",
-  "releasedate": "2018-11-15T00:00:00+0000",
   "description": "Take control of one of the most technologically advanced armies in the Imperium - The Adeptus Mechanicus. As Magos Dominus Faustinius, you'll lead the expedition on the newly rediscovered planet of Silva Tenebris. Manage resources, discover long-forgotten tech, plan tactical operations using the Noosphere technology and control your Tech-Priests every move.\n\nYour every decision will shape the missions ahead and ultimately decide the fate of the troops under your command. However, choose your path carefully - the Imperium depends on it.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "673880",
-  "protondb": "https://www.protondb.com/app/673880",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "exported_at": "2025-08-13T20:50:39.613Z"
 }

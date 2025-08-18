@@ -2,45 +2,28 @@
   "id": "c15124a1-86e3-4986-9b7e-b20868c7745f",
   "title": "Death Stranding Director's Cut",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1850570",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Oct '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/c05f4f579a6bc3c13e8fc413470a13a366697b8eadeff770649c06289a8a02e4.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/2a49779fdfc1425acdabd887a7cbf98f40560e69d8aad9edc511f676ebc96ba1.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/625da82e2de2bfb335a60af86c7736c91a212a0ee121eb65000188cc07c87d9c.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/c05f4f579a6bc3c13e8fc413470a13a366697b8eadeff770649c06289a8a02e4.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1850570",
   "publisher": "505 Games, Sony Interactive Entertainment",
   "developer": "Kojima Productions",
   "genre": "Adventure, Shooter",
-  "releasedate": "",
   "description": "From legendary game creator Hideo Kojima comes a genre-defying experience... As Sam Bridges, your mission is to deliver hope to humanity",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1850570",
-  "protondb": "https://www.protondb.com/app/1850570",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-10T08:00:09.875Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-10T08:00:09.875Z",
+  "exported_at": "2025-08-13T20:50:39.630Z"
 }

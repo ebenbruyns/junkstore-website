@@ -18,6 +18,14 @@
   "developer": "Ubisoft Montreal",
   "genre": "Strategy, Shooter",
   "description": "Assemble your elite team of Rainbow Six Operators to launch incursions in the unpredictable containment zones and face off against an evolving Alien threat. Band together and put everything on the line as you take on this unknown enemy.",
+  "game_modes": [
+    "Single player",
+    "Co-operative",
+    "Multiplayer"
+  ],
+  "languages": [
+    "English"
+  ],
   "updated_at": "2025-08-11T06:44:21.436Z",
-  "exported_at": "2025-08-13T09:58:22.426Z"
+  "exported_at": "2025-08-13T20:50:39.639Z"
 }

@@ -2,45 +2,28 @@
   "id": "39d752ff-e368-4109-bd76-81d477fc7627",
   "title": "Blocklords",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1278420",
+  "notes": "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Aug '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/1e9cc08e417fbc8483f5520233b209126a7f37493c1a07f7792bc30d560f6280.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/cb103db88580ddfb127adf3a269e04bb37f5abb10f96c883003abf3a0f9c8484.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/cad2e8809854bb9536bf165c9e132375897069c6c46d812509b33acee8eb9382.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/1e9cc08e417fbc8483f5520233b209126a7f37493c1a07f7792bc30d560f6280.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1278420",
   "publisher": "NIL, NIL",
   "developer": "NIL, NIL",
   "genre": "Role-playing (RPG), Strategy, Simulator",
-  "releasedate": "",
   "description": "Blocklords is a player-driven grand strategy game by MetaKing Studios. Rule, conquer, and grow with your medieval Hero.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "keyboard-mouse",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1278420",
-  "protondb": "https://www.protondb.com/app/1278420",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T06:36:49.768Z"
+  "game_modes": [
+    "Massively Multiplayer Online (MMO)"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T06:36:49.768Z",
+  "exported_at": "2025-08-13T20:50:39.594Z"
 }

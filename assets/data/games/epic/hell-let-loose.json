@@ -2,45 +2,28 @@
   "id": "8b3448de-463b-42e4-ba32-dbcc227e8707",
   "title": "Hell Let Loose",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/686810",
+  "notes": "",
   "date_tested": "March '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "yellow",
   "standalone_rating": "yellow",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/14864ff1c935f0a95f4c2a90069ea7a175e38fc651bcd17be696bb9cdf8950e6.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/d25cfe798397ae55c9831952b8c01ebee30c678c718476eff9b2280b12e6f3c3.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/13d37a5b973a4b3343b62fa4d8d2daaa0c327493fed17c0f52a19ab344fedf08.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/14864ff1c935f0a95f4c2a90069ea7a175e38fc651bcd17be696bb9cdf8950e6.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "686810",
   "publisher": "Team17",
   "developer": "Team17",
   "genre": "Strategy, Indie, Shooter, Simulator",
-  "releasedate": "2019-06-06T00:00:00+0000",
   "description": "Fight in the most iconic battles of the Second World War, including El Alamein, Stalingrad, Omaha Beach, and Foy! This is combat at a whole new scale.. with lumbering tanks dominating the battlefield, and crucial supply chains fuelling the frontlines, you are a cog in the machine of colossal combined arms warfare. Hell Let Loose puts you in the chaos of war, complete with deep player-controlled vehicles, a dynamically evolving front line, and crucial unit-focused gameplay that commands the tide of battle.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": true,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": true,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": true,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "686810",
-  "protondb": "https://www.protondb.com/app/686810",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-06T06:13:53.331Z"
+  "game_modes": [
+    "Multiplayer"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-06T06:13:53.331Z",
+  "exported_at": "2025-08-13T20:50:39.602Z"
 }

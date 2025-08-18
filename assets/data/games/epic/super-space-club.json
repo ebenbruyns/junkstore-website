@@ -2,45 +2,28 @@
   "id": "fb10408a-f8f1-4677-9957-e07a75c83701",
   "title": "Super Space Club",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1100290",
+  "notes": "May need to verify with Epic account before launch. Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "May '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/31649461f108ba54ae15fe41dab468641f087a3d692e5af4966a4e7cc81fcc6a.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/c1d54691091d30e63951c2d052457d743f8f1c4120efaae2a0c4e28b9bdd0ca6.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/42c910373effb6e483bf46ee3653c08802277e7377466e4b4ec98ab6534bf1d2.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/31649461f108ba54ae15fe41dab468641f087a3d692e5af4966a4e7cc81fcc6a.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1100290",
   "publisher": "GrahamOfLegend",
   "developer": "GrahamOfLegend",
   "genre": "Indie, Shooter, Arcade",
-  "releasedate": "2024-03-27T00:00:00+0000",
   "description": "In Super Space Club, journey alongside a group of anthropomorphic heroes as they set out to be the top-ranked defenders of the galaxy. You'll take on various missions, partake in several space dogfights, and jam out to lo-fi beats in this chill, arcade-style shooter.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": true,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1100290",
-  "protondb": "https://www.protondb.com/app/1100290",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "May need to verify with Epic account before launch. Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:16:52.158Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T07:16:52.158Z",
+  "exported_at": "2025-08-13T20:50:39.610Z"
 }

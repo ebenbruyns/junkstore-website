@@ -2,45 +2,29 @@
   "id": "83ce086a-741c-449d-888d-00892b90d90b",
   "title": "Rise of the Tomb Raider: 20 Year Celebration",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/391220",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "July '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/4db99ceb60c4c4403cf6e639f88912c0f1fdc172d93cc8b0d61fc24d0d67674c.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/a2711547b1336ac8a9c5724162c968d6829b2297c5d421aa02409f0c7387a0a2.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/f829e08fcf0d716c957cf2720fe3afe5a961b5312e0dd78daa6a08e9b70aed1a.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/4db99ceb60c4c4403cf6e639f88912c0f1fdc172d93cc8b0d61fc24d0d67674c.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "391220",
   "publisher": "Square Enix, Crystal Dynamics, Feral Interactive",
   "developer": "Crystal Dynamics",
   "genre": "Role-playing (RPG), Adventure, Shooter",
-  "releasedate": "2016-10-11T00:00:00+0000",
   "description": "Rise of the Tomb Raider: 20 Year Celebration includes the critically acclaimed Rise of the Tomb Raider. With over 50 hours of gameplay and all-new content created to celebrate 20 years of the iconic Lara Croft. In the critically acclaimed Tomb Raider, Lara Croft was forged into a true survivor, but she glimpsed a deeper, secret world.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "391220",
-  "protondb": "https://www.protondb.com/app/391220",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.968Z"
+  "game_modes": [
+    "Single player",
+    "Co-operative"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.968Z",
+  "exported_at": "2025-08-13T20:50:39.607Z"
 }

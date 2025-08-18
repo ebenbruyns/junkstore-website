@@ -2,45 +2,28 @@
   "id": "bef1f0b6-af9d-43fa-8509-4dc1e1f6ce47",
   "title": "Boxes: Lost Fragments",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/2019810",
+  "notes": "Can play in offline mode. Mouse-only controls. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "July '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/0e019c05097dc41eed39ef4f7a5aa9ddf3efdf3ecf36eab0ae74f10e33d160eb.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/a46a70403b892fc1a269111d07b3d80231ee9adce4960d3cebb998e580636dfa.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/339884cf9ec8d31e7cd46bbb8f2a54709cc36a95007e887220c4c1cf6d0a1d6c.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/0e019c05097dc41eed39ef4f7a5aa9ddf3efdf3ecf36eab0ae74f10e33d160eb.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "2019810",
   "publisher": "Snapbreak",
   "developer": "Big Loop Studios",
   "genre": "Adventure, Indie, Puzzle",
-  "releasedate": "2024-02-01T00:00:00+0000",
   "description": "As a legendary thief, your next assignment lures you into a grand and lavish mansion. There you find a series of puzzle boxes, designed for an unknown purpose. What should have been a quick in-and-out, gradually turns into your own harrowing struggle for freedom and answers.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": true,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "mouse-only",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "2019810",
-  "protondb": "https://www.protondb.com/app/2019810",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Can play in offline mode. Mouse-only controls. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T04:48:16.704Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T04:48:16.704Z",
+  "exported_at": "2025-08-13T20:50:39.595Z"
 }

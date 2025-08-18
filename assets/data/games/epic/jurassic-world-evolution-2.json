@@ -2,45 +2,28 @@
   "id": "0402b58c-eb09-4a7b-803c-bde9a2031111",
   "title": "Jurassic World Evolution 2",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1244460",
+  "notes": "You do need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
   "date_tested": "March '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/096df605512c76eb6697ff407471353e5df9b844c59bd2a06c347c09a2cde2ed.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/66e78c6ee3992577678db917da7d34522aa4330d00c1c8cbc9714df845d3d27a.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/e830ce00665938d6b93e14113058537be2e6b5269a07e025c4a2cda0feb4bac2.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/096df605512c76eb6697ff407471353e5df9b844c59bd2a06c347c09a2cde2ed.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1244460",
   "publisher": "Frontier Developments",
   "developer": "Frontier Developments",
   "genre": "Strategy, Simulator",
-  "releasedate": "2021-11-09T00:00:00+0000",
   "description": "Jurassic World Evolution 2 is the much-anticipated sequel to Frontier’s ground-breaking 2018 management simulation, Jurassic World Evolution, offering an all new narrative campaign voiced by cast members from across the Jurassic World film franchise, exciting new features, four engaging game modes, and an expanded roster of awe-inspiring dinosaurs.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1244460",
-  "protondb": "https://www.protondb.com/app/1244460",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "You do need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.967Z",
+  "exported_at": "2025-08-13T20:50:39.603Z"
 }

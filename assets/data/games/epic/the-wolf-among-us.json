@@ -2,45 +2,28 @@
   "id": "16cfde1c-ff94-4345-b844-110106b02bae",
   "title": "The Wolf Among Us",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/250320",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "June '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/45fe32d8cdb9c7fda468eff071d6fb7f736560da19dbcbc967347b8ab9901969.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/69063ca937da983e467d6c5e035942e19067b3a01be968b93b7fdeead33c051e.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/49f976b81be54ae20dd5d49235e6a349e991532f1611236d62dc5ee4a017f1e1.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/45fe32d8cdb9c7fda468eff071d6fb7f736560da19dbcbc967347b8ab9901969.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "250320",
   "publisher": "Telltale Games",
   "developer": "Telltale Games",
   "genre": "Adventure, Point-and-click",
-  "releasedate": "",
   "description": "A five-episode series based on Fables comic, a violent thriller where myth and legend characters exist in our world.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "250320",
-  "protondb": "https://www.protondb.com/app/250320",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-10T08:23:40.084Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-10T08:23:40.084Z",
+  "exported_at": "2025-08-13T20:50:39.631Z"
 }

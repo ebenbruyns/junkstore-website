@@ -2,45 +2,28 @@
   "id": "3c136019-a5a4-424c-85a7-d2167606147e",
   "title": "Fashion Police Squad",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1319460",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "April '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/3055ae3a82170a8eddcb6ff89a14950d5c5dcc4934f3abbbe4f4d24eb57a1bd7.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/a7580bccff1c65035436a9b0ba644663c2844b72780e44eb65b685036c8b27fc.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/cf3faa95205f1a06bbd064bffe141bd25cdfe468192aa0d9345d8214233197a7.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/3055ae3a82170a8eddcb6ff89a14950d5c5dcc4934f3abbbe4f4d24eb57a1bd7.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1319460",
   "publisher": "No More Robots, Mopeful Games",
   "developer": "Mopeful Games",
   "genre": "Adventure, Indie, Platform, Shooter",
-  "releasedate": "2022-08-15T00:00:00+0000",
   "description": "Fashion Police Squad is a humorous retro FPS where you fight against fashion crime using attire enhancing weaponry. Clean the streets off of socks in sandals as Sergeant Des, and experience a single player story full of fabulous characters, dazzling encounters and fierce runway shows!",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1319460",
-  "protondb": "https://www.protondb.com/app/1319460",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.966Z",
+  "exported_at": "2025-08-13T20:50:39.601Z"
 }

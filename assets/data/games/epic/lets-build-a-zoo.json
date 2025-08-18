@@ -2,45 +2,28 @@
   "id": "264c377f-7ab4-478f-80b2-a9e52658c1b8",
   "title": "Let's Build a Zoo",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1547890",
+  "notes": "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
   "date_tested": "March '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/4958b59889b003f89ab19b8fed7b55ab3e4c1a561143f1300743387967adb5c4.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/4e603a53aabf3a3b84ac166383dadc6998c2db193c031490d672e46d06823bd8.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/7a7f1abc7ef4191be8825620d100b3e014824abd396dba56578b6c97ca4f0238.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/4958b59889b003f89ab19b8fed7b55ab3e4c1a561143f1300743387967adb5c4.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1547890",
   "publisher": "No More Robots",
   "developer": "Springloaded",
   "genre": "Role-playing (RPG), Adventure, Strategy, Simulator",
-  "releasedate": "2021-11-05T00:00:00+0000",
   "description": "It's time to Build a Zoo! Construct and decorate enclosures, buy and breed animals, hire zookeepers and vets... then try your hand at DNA splicing, and stitch together over 300,000 different types of animal. This can only go smoothly...",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1547890",
-  "protondb": "https://www.protondb.com/app/1547890",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.967Z",
+  "exported_at": "2025-08-13T20:50:39.604Z"
 }

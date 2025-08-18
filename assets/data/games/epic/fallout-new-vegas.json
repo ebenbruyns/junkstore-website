@@ -2,45 +2,28 @@
   "id": "0c38930e-174b-4c5d-b6c1-d2800315f09a",
   "title": "Fallout: New Vegas",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/22380",
+  "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "July '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/602f85ba5c82e939d25b74762a08cc6c6efc2efb6215144d618cd7d6c73293bc.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/e2e63bb22e866c8563f002850c3dd345721c1eb50a54ee141569fbe60f544fd8.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/6d431fe490d54f2906d087b17135adf6c6cab52dda333c31a51c60d9209538b7.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/602f85ba5c82e939d25b74762a08cc6c6efc2efb6215144d618cd7d6c73293bc.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "22380",
   "publisher": "Bethesda Softworks",
   "developer": "Obsidian Entertainment",
   "genre": "Role-playing (RPG), Shooter",
-  "releasedate": "2012-02-07T00:00:00+0000",
   "description": "Welcome back to New Vegas!\n\nWith the introduction of the Ultimate Edition Bethesda Softworks presents the definitive edition of Fallout: New Vegas. This complete package, which includes the Dead Money, Honest Hearts, Old World Blues and Lonesome Road add-on packs, allows you to experience everything that New Vegas has to offer. To sweeten the pot, you'll be armed with the latest cache of unique weapons, ammo types and recipes from the most recent add-on packs Courier's Stash and Gun Runners Arsenal.\n\nWhether you're a seasoned explorer of the Mojave or playing the game for the first time you will find there are more friends, and enemies, to make, more consequences to be responsible for and more opportunities to live in glory, or infamy, throughout the Wasteland. The choices you make will be as influential as ever.\n\nEnjoy your stay.",
-  "size": "14868682412\n",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "22380",
-  "protondb": "https://www.protondb.com/app/22380",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T08:17:47.394Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T08:17:47.394Z",
+  "exported_at": "2025-08-13T20:50:39.600Z"
 }
