@@ -2,45 +2,28 @@
   "id": "75f6f111-1b2c-4e89-80b7-09ff2b345540",
   "title": "Darkest Dungeon II",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/262060",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "May '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/9f933e7dfd547c509a100d85d64d476fcb359ad4da22bd858361c168a9394e70.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/103f229fd63d0cb43a25b03c176fe4e450053cba845e458c81a08f30a3228064.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/4706601359313181ab74f53a1089b4be781897f3ade363bbaf7624a745a95797.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/9f933e7dfd547c509a100d85d64d476fcb359ad4da22bd858361c168a9394e70.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "262060",
   "publisher": "Red Hook Studios",
   "developer": "Red Hook Studios",
   "genre": "Role-playing (RPG), Adventure, Strategy, Turn-based strategy, Indie, Tactical",
-  "releasedate": "",
   "description": "The eagerly awaited follow-up to Red Hook's smash hit gothic horror RPG! DDII will test your mettle and drive you to the brink of madness.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "262060",
-  "protondb": "https://www.protondb.com/app/262060",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-10T07:59:13.842Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-10T07:59:13.842Z",
+  "exported_at": "2025-08-13T20:50:39.630Z"
 }

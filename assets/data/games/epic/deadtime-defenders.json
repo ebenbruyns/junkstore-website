@@ -2,45 +2,28 @@
   "id": "a44c1895-84c2-4dcb-b4e0-303e57e51c2c",
   "title": "Deadtime Defenders",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1148700",
+  "notes": "Supports EOS Overlay for additional features (optional). Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "May '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/4404d48fc316ecad61c2ce3266e9ca00f96c0a7f19c5a7fa1eb834fe11943864.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/6ac842af6c826128ef41b503f0707c399d489fb24cf7c2b4bb9ba183030d22fc.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/f77e81a399b5cd121f1e57e03cf3fef009dffec50db9748e4390249c1b60d257.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/4404d48fc316ecad61c2ce3266e9ca00f96c0a7f19c5a7fa1eb834fe11943864.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1148700",
   "publisher": "Ravenous Games Inc.",
   "developer": "Ravenous Games Inc.",
   "genre": "Role-playing (RPG), Indie, Shooter",
-  "releasedate": "2025-05-08T00:00:00+0000",
   "description": "Deadtime Defenders is a hectic, side-scrolling looter shooter where you battle your way through monster-filled alternate dimensions all while collecting lots of randomly rolled glorious loot! Unlock the end-game to complete Void Runs chasing after Legendary items!",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": true,
-    "requires_verification": false,
-    "epic_achievements": true,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1148700",
-  "protondb": "https://www.protondb.com/app/1148700",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Supports EOS Overlay for additional features (optional). Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T06:40:02.324Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T06:40:02.324Z",
+  "exported_at": "2025-08-13T20:50:39.598Z"
 }

@@ -2,45 +2,29 @@
   "id": "f73e87e2-f5ea-4da2-8d51-3082eb15d632",
   "title": "Dakar Desert Rally",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1839940",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "June '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/c484090a7c055d9d38f2c1ce4cbb2e6a1c1f1aaf7c0b3b0b3a33bbc7e4554fb3.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/d80091ad24b3b7f17245a3a3cbd1a2d345700b3b0327b9aa71a240435e792e30.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/ce7196402932541a528fabb9d4c029a5a5411d469516212665a5a78b9cc8aa86.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/c484090a7c055d9d38f2c1ce4cbb2e6a1c1f1aaf7c0b3b0b3a33bbc7e4554fb3.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1839940",
   "publisher": "Saber Interactive",
   "developer": "Saber Interactive",
   "genre": "Sport, Arcade, Simulator, Racing",
-  "releasedate": "2022-10-04T00:00:00+0000",
   "description": "Dakar Desert Rally is the biggest and most epic off-road rally racing adventure ever developed. Experience the speed and excitement of the largest rally race on the planet, featuring a wide variety of licensed vehicles from the world’s top makers, including motorcycles, cars, trucks, quads and SSVs.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1839940",
-  "protondb": "https://www.protondb.com/app/1839940",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-08-04T06:44:01.365Z"
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-04T06:44:01.365Z",
+  "exported_at": "2025-08-13T20:50:39.637Z"
 }

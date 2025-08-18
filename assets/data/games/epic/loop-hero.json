@@ -2,45 +2,28 @@
   "id": "7b6b2263-052c-4229-86ff-9070271f7f0a",
   "title": "Loop Hero",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1282730",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Aug '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/8ef3980678c5a1a96bc924663def96362a91fdcf362958ad880a23135e8282ad.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/c6600bc7e19e367f36734acc5fe74f7fbaf097a0bb14079db123e19ec2c2ac6c.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/dc1f63ac806f9cd519266d5e76ccf042319a97f42df2e3d9974e578544594f61.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/8ef3980678c5a1a96bc924663def96362a91fdcf362958ad880a23135e8282ad.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1282730",
   "publisher": "Devolver Digital, Playdigious",
   "developer": "Four Quarters",
   "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Card & Board Game",
-  "releasedate": "2021-03-04T00:00:00+0000",
   "description": "The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos. Wield an expanding deck of mystical cards to place enemies, buildings, and terrain along each unique expedition loop for the brave hero.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1282730",
-  "protondb": "https://www.protondb.com/app/1282730",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.967Z",
+  "exported_at": "2025-08-13T20:50:39.604Z"
 }

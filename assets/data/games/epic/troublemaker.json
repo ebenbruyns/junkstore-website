@@ -2,45 +2,28 @@
   "id": "99df8c9c-1386-44c6-8080-2a0107fdb2dc",
   "title": "Troublemaker",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1498740",
+  "notes": "Works out of the box with native controller support.",
   "date_tested": "April '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "Perfect",
   "standalone_rating": "Perfect",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/30643786afa89c8a84be9b7537b0c403268118b9ed75a1a8b3befb3745a58887.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/197d41b5a36c6353f3b9d1a448afc329517b33d269a9edadd20c360bb8e437f1.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/6ca838ee8cc82ffbe1d6901bcba101a63452ff39aa397bab93ec07d60650e7e9.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/30643786afa89c8a84be9b7537b0c403268118b9ed75a1a8b3befb3745a58887.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1498740",
   "publisher": "Freedom Games",
   "developer": "Gamecom Team",
   "genre": "Role-playing (RPG), Adventure, Indie, Fighting",
-  "releasedate": "2023-03-31T00:00:00+0000",
   "description": "Troublemaker tells the story of friendship, chaos, romance, and strife between school gangs. Defeat the enemy gangs, Seize their territory, And become the ruler of the School in the Strongest High School here.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1498740",
-  "protondb": "https://www.protondb.com/app/1498740",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Works out of the box with native controller support.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "exported_at": "2025-08-13T20:50:39.612Z"
 }

@@ -2,45 +2,29 @@
   "id": "4f6bfa5b-4ab4-42c5-8a89-c1b2047b9845",
   "title": "Book of Yog",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1097430",
+  "notes": "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**.",
   "date_tested": "Aug '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "yellow",
   "standalone_rating": "yellow",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/8fc04b4423177b9c5b8d315c1e94ebdc05a4bd0f7fd4a0e297f6df64bd5d6659.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/340b50bbbaa82ffd027fc041472f6970296c9eec742c3748cfa7a2e0da967071.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/4aada9ca03334feca7097354d1ef0fb3622309ad5ee0773635a1ea125444def5.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/8fc04b4423177b9c5b8d315c1e94ebdc05a4bd0f7fd4a0e297f6df64bd5d6659.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1097430",
   "publisher": "元气工作室",
   "developer": "元气工作室",
   "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Simulator",
-  "releasedate": "2022-07-30T00:00:00+0000",
   "description": "The Book of Yog is a 3D idle RPG game presenting with Cel-Shading skills. You can call heroes, develop the kingdom and explore secrets of the lost world. Dozens of heroes, hundreds of skills, thousands of equipment, free combinations, come and form the most powerful team that belongs to you!",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "requires-mapping",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1097430",
-  "protondb": "https://www.protondb.com/app/1097430",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T08:08:35.325Z"
+  "game_modes": [
+    "Single player",
+    "Multiplayer"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T08:08:35.325Z",
+  "exported_at": "2025-08-13T20:50:39.595Z"
 }

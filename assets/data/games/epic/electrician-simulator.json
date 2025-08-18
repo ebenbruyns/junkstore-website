@@ -2,45 +2,28 @@
   "id": "20c056b0-ac0e-4960-866e-0113320c1c71",
   "title": "Electrician Simulator",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1080020",
+  "notes": "May need to verify with Epic account before launch. Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Dec '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/28d8abf4b733c7dc8da26525c9d8a751bd067976f5e6f2e996ba8f4ec1f81743.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/b67a8ba93168c79871ee5c303c415e1f7a0cca58f96e2a031732aee1060a58c0.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/8cdeda31c2730580952a958ae0786cc5ac5dc9c4a3af67aae8b0074cc7755157.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/28d8abf4b733c7dc8da26525c9d8a751bd067976f5e6f2e996ba8f4ec1f81743.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1080020",
   "publisher": "Ultimate Games S.A., Gaming Factory S.A.",
   "developer": "Take IT Studio!",
   "genre": "Adventure, Indie, Puzzle, Simulator",
-  "releasedate": "2022-09-21T00:00:00+0000",
   "description": "Take over the family business from your Dad and become an electrician. Learn the basics and test your skills in the Electrician Simulator. Repair and assemble sockets, panels, strips, plugs, chandeliers and even change light bulbs. Oh... and don't mix up the wires! Results might be shocking.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": true,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1080020",
-  "protondb": "https://www.protondb.com/app/1080020",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "May need to verify with Epic account before launch. Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-05T21:52:55.743Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-05T21:52:55.743Z",
+  "exported_at": "2025-08-13T20:50:39.599Z"
 }

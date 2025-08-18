@@ -2,45 +2,28 @@
   "id": "22a82fff-b3e5-42b8-8932-686abbbeb3a6",
   "title": "AER Memories of Old",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/331870",
+  "notes": "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "June '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/3fe2a60891d8071c8e004e41cdaa05ccb8960fc46e35fadf8543ef375fd59e59.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/d301a4613ccfd29484848ce062b1ec65114e5f302f680ed16639560760cb43e5.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/6ad3bc45c8101ce7f8a854bd7d6b3066a069c79cdfdbb58721aafe2bbe0d7eea.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/3fe2a60891d8071c8e004e41cdaa05ccb8960fc46e35fadf8543ef375fd59e59.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "331870",
   "publisher": "Daedalic Entertainment",
   "developer": "Daedalic Entertainment, Forgotten Key",
   "genre": "Adventure, Indie, Puzzle",
-  "releasedate": "",
   "description": "Transform into a bird and fly to explore and experience a vibrant world of floating islands in the sky.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": true,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "331870",
-  "protondb": "https://www.protondb.com/app/331870",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-10T09:26:50.309Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-10T09:26:50.309Z",
+  "exported_at": "2025-08-13T20:50:39.629Z"
 }

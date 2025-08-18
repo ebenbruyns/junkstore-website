@@ -2,45 +2,28 @@
   "id": "027c1f25-4879-4a04-8962-9be4822adf85",
   "title": "Skul: The Hero Slayer",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/1147560",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "June '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/b6f5f632bad0ea16b0c6ae2f4b398c26f29a477ec702ff38b8e6e55e91886629.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/fc0e33cec6d0501d478ac00b56a21797ddc71210324f86583e01bdbd5405e120.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/b6f5f632bad0ea16b0c6ae2f4b398c26f29a477ec702ff38b8e6e55e91886629.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/b6f5f632bad0ea16b0c6ae2f4b398c26f29a477ec702ff38b8e6e55e91886629.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "1147560",
   "publisher": "Playdigious, Neowiz",
   "developer": "SouthPaw Games",
   "genre": "Indie, Platform, Action",
-  "releasedate": "",
   "description": "An action-platformer with rogue-like features, challenging maps. Guide 'Skul' to take on the Imperial Army and rescue his King.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "1147560",
-  "protondb": "https://www.protondb.com/app/1147560",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-10T08:19:19.004Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-10T08:19:19.004Z",
+  "exported_at": "2025-08-13T20:50:39.631Z"
 }

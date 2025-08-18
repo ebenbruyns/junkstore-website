@@ -2,45 +2,28 @@
   "id": "044e0ba2-b23c-406b-9549-6de1aa0ee63a",
   "title": "Botanicula",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/207690",
+  "notes": "Requires EOS Overlay to be enabled. Epic achievements working. Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "July '25",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/59ffec1fbe40505c524fa12f7d294c5e52d8f4943cc6e3176488dc49e08f24e4.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/dd2dde09986808a6886c3753cf85e77e1c6554d89f18a2c5ca6326dc0c951405.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/b67f44301fb08c60154c97bd5c8bf01d294d6c4f1210a2aa26a49a5c42af43da.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/59ffec1fbe40505c524fa12f7d294c5e52d8f4943cc6e3176488dc49e08f24e4.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "207690",
   "publisher": "Amanita Design",
   "developer": "Amanita Design",
   "genre": "Adventure, Indie, Puzzle, Point-and-click",
-  "releasedate": "2012-04-19T00:00:00+0000",
   "description": "Humor-filled indie adventure game created by the makers of Machinarium.\n\nLike the previous games from Amanita Design, in Botanicula the player controls a protagonist (or multiple protagonists) while exploring the environment, solving puzzles and collecting items that are required for the obstacles that come in their way. The player is able to interact with other creatures and find easter eggs that are present in the lush environment. Like Machinarium, the game has no spoken or written dialogue.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": true,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": true,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "",
-  "controller_input": "keyboard-mouse",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "207690",
-  "protondb": "https://www.protondb.com/app/207690",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Requires EOS Overlay to be enabled. Epic achievements working. Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T06:38:07.200Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-11T06:38:07.200Z",
+  "exported_at": "2025-08-13T20:50:39.595Z"
 }

@@ -2,45 +2,28 @@
   "id": "34e1eeb9-fa2d-4c98-a098-fc82234c3f43",
   "title": "What Remains of Edith Finch",
   "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/501300",
+  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "May '24",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "Native Steam Deck Controls",
+  "performance_notes": "",
+  "known_issues": "",
   "decky_rating": "green",
   "standalone_rating": "green",
-  "proton_version": "",
-  "images": {
-    "vertical_artwork": "https://images.gog.com/e241085afeba7422d6ab3e26a0d1c122ed064f65bfd32298e099e8ffbfd66339.jpg?namespace=gamesdb",
-    "banner_image": "https://images.gog.com/014efe0206ccc4357c6f7999b05708c3a400b513beb778abece17f2d876f7a05.jpg?namespace=gamesdb",
-    "icon_image": "https://images.gog.com/321ecaaf42fa92eacb0299a788343b0bb2fa98b4f265a6e5255cd7abda9ce5d3.jpg?namespace=gamesdb",
-    "verticalArtwork": "https://images.gog.com/e241085afeba7422d6ab3e26a0d1c122ed064f65bfd32298e099e8ffbfd66339.jpg?namespace=gamesdb"
-  },
+  "gog_url": "",
+  "steamId": "501300",
   "publisher": "Annapurna Interactive",
   "developer": "Giant Sparrow",
   "genre": "Adventure, Indie, Puzzle",
-  "releasedate": "",
   "description": "A collection of short stories about a cursed family in Washington State. Each story ends with a family member's death.",
-  "size": "",
-  "epic_features": {
-    "requires_eos": false,
-    "supports_eos": false,
-    "requires_verification": false,
-    "epic_achievements": false,
-    "epic_offline_mode": false,
-    "requires_eac_runtime": false,
-    "requires_battleye_runtime": false
-  },
-  "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
-  "controller_input": "native",
-  "set_executable": "",
-  "required_launcher": "",
-  "requires_account_setup": false,
-  "account_type": "",
-  "steamId": "501300",
-  "protondb": "https://www.protondb.com/app/501300",
-  "is_featured": false,
-  "cant_test_linux": false,
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "performance_notes": "",
-  "known_issues": "",
-  "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-10T08:31:30.306Z"
+  "game_modes": [
+    "Single player"
+  ],
+  "languages": [
+    "English"
+  ],
+  "updated_at": "2025-08-10T08:31:30.306Z",
+  "exported_at": "2025-08-13T20:50:39.632Z"
 }
