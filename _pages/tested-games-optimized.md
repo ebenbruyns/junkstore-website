@@ -761,7 +761,16 @@ function hasEpicFeatures(game) {
   if (game.storefront !== 'Epic') return false;
   
   const epicFeatures = game.epic_features || {};
-  return epicFeatures.epic_achievements || epicFeatures.epic_offline_mode || epicFeatures.requires_eos || epicFeatures.requires_verification;
+  console.log(`🎮 Epic features for ${game.title}:`, epicFeatures);
+  
+  return epicFeatures.epic_achievements || game.epic_achievements ||
+         epicFeatures.epic_offline_mode || game.epic_offline_mode ||
+         epicFeatures.must_be_online || game.must_be_online ||
+         epicFeatures.requires_eos || game.requires_eos ||
+         epicFeatures.supports_eos || game.supports_eos ||
+         epicFeatures.requires_verification || game.requires_verification ||
+         epicFeatures.requires_eac_runtime || game.requires_eac_runtime ||
+         epicFeatures.requires_battleye_runtime || game.requires_battleye_runtime;
 }
 
 // Render Epic Games features
@@ -769,32 +778,51 @@ function renderEpicFeatures(game) {
   if (!hasEpicFeatures(game)) return '';
   
   const epicFeatures = game.epic_features || {};
+  console.log(`✅ Rendering Epic features for ${game.title}`);
   
   return `
     <div class="info-section">
       <h6><i class="fas fa-star text-warning"></i> Epic Games Features</h6>
       <div class="epic-features-grid">
-        ${epicFeatures.epic_achievements ? `
+        ${epicFeatures.epic_achievements || game.epic_achievements ? `
           <div class="epic-feature-item">
             <span>Achievements</span>
-            <span class="feature-status status-supported">Supported</span>
+            <span class="feature-status status-supported">✓ Supported</span>
           </div>
         ` : ''}
-        ${epicFeatures.epic_offline_mode ? `
+        ${epicFeatures.epic_offline_mode || game.epic_offline_mode ? `
           <div class="epic-feature-item">
             <span>Offline Mode</span>
-            <span class="feature-status status-supported">Supported</span>
+            <span class="feature-status status-supported">✓ Available</span>
           </div>
         ` : ''}
-        ${epicFeatures.requires_eos ? `
+        ${epicFeatures.must_be_online || game.must_be_online ? `
           <div class="epic-feature-item">
-            <span>EOS Overlay</span>
+            <span>Must be Online</span>
             <span class="feature-status status-required">Required</span>
           </div>
         ` : ''}
-        ${epicFeatures.requires_verification ? `
+        ${epicFeatures.requires_eos || epicFeatures.supports_eos || game.requires_eos || game.supports_eos ? `
+          <div class="epic-feature-item">
+            <span>EOS Overlay</span>
+            <span class="feature-status ${(epicFeatures.requires_eos || game.requires_eos) ? 'status-required' : 'status-supported'}">${(epicFeatures.requires_eos || game.requires_eos) ? 'Required' : '✓ Supported'}</span>
+          </div>
+        ` : ''}
+        ${epicFeatures.requires_verification || game.requires_verification ? `
           <div class="epic-feature-item">
             <span>Verification</span>
+            <span class="feature-status status-warning">⚠️ May need to verify</span>
+          </div>
+        ` : ''}
+        ${epicFeatures.requires_eac_runtime || game.requires_eac_runtime ? `
+          <div class="epic-feature-item">
+            <span>EasyAntiCheat</span>
+            <span class="feature-status status-required">Required</span>
+          </div>
+        ` : ''}
+        ${epicFeatures.requires_battleye_runtime || game.requires_battleye_runtime ? `
+          <div class="epic-feature-item">
+            <span>BattlEye</span>
             <span class="feature-status status-required">Required</span>
           </div>
         ` : ''}
