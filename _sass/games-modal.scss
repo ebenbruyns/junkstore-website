@@ -1,5 +1,51 @@
 /* Dark Theme Modal Styles for Junk Store Games Table */
 
+/* Epic Games Features Section */
+.epic-features-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.epic-feature-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background: rgba(255, 163, 102, 0.05) !important;
+    border: 1px solid rgba(255, 163, 102, 0.15);
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+.epic-feature-item span:first-child {
+    color: #ffa366 !important;
+    font-weight: 600;
+}
+
+.feature-status {
+    font-size: 0.8rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.feature-status.status-supported {
+    background: rgba(72, 187, 120, 0.15);
+    color: #68d391 !important;
+}
+
+.feature-status.status-required {
+    background: rgba(245, 101, 101, 0.15);
+    color: #fc8181 !important;
+}
+
+.feature-status.status-warning {
+    background: rgba(236, 201, 75, 0.15);
+    color: #f6e05e !important;
+}
+
 /* Enhanced Header - Dark Theme */
 .modal-header-enhanced {
     background: linear-gradient(135deg, #334458 0%, #253445 100%) !important;
