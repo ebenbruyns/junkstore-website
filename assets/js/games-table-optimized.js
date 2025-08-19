@@ -657,7 +657,12 @@ class StaticOptimizedGamesTable {
                     }
                   </div>
                   
-                  ${this.renderEpicFeatures(game)}
+                  ${(() => {
+                    console.log(`🚀 About to call renderEpicFeatures for ${game.title}`);
+                    const result = this.renderEpicFeatures(game);
+                    console.log(`📝 renderEpicFeatures returned:`, result);
+                    return result;
+                  })()}
                 </div>
                 <div class="col-md-8" id="gameDescription-${game.id}">
                   <div class="info-section">
@@ -829,27 +834,68 @@ class StaticOptimizedGamesTable {
   }
 
   renderEpicFeatures(game) {
+    console.log(`🔍 renderEpicFeatures called for ${game.title}, storefront: ${game.storefront}`);
     if (game.storefront !== 'Epic') return '';
+    
+    const epicFeatures = game.epic_features || {};
+    console.log(`🎮 Epic features for ${game.title}:`, epicFeatures);
+    
+    // Check if any Epic features are present
+    const hasFeatures = epicFeatures.epic_achievements || 
+                       epicFeatures.epic_offline_mode || 
+                       epicFeatures.requires_eos || 
+                       epicFeatures.supports_eos ||
+                       epicFeatures.requires_verification ||
+                       epicFeatures.requires_eac_runtime ||
+                       epicFeatures.requires_battleye_runtime ||
+                       game.requires_verification || 
+                       game.requires_eac_runtime || 
+                       game.requires_battleye_runtime;
+    
+    if (!hasFeatures) {
+      console.log(`⚠️ No Epic features found for ${game.title}`);
+      return '';
+    }
+    
+    console.log(`✅ Rendering Epic features for ${game.title}`);
     
     return `
       <div class="info-section">
         <h6><i class="fas fa-star text-warning"></i> Epic Games Features</h6>
         <div class="epic-features-grid">
-          ${game.epic_achievements ? `
+          ${epicFeatures.epic_achievements ? `
             <div class="epic-feature-item">
               <span>Achievements</span>
               <span class="feature-status status-supported">✓ Supported</span>
             </div>
           ` : ''}
-          ${game.epic_offline_mode ? `
+          ${epicFeatures.epic_offline_mode ? `
             <div class="epic-feature-item">
               <span>Offline Mode</span>
               <span class="feature-status status-supported">✓ Available</span>
             </div>
           ` : ''}
-          ${game.requires_eos ? `
+          ${epicFeatures.requires_eos || epicFeatures.supports_eos ? `
             <div class="epic-feature-item">
               <span>EOS Overlay</span>
+              <span class="feature-status ${epicFeatures.requires_eos ? 'status-required' : 'status-supported'}">${epicFeatures.requires_eos ? 'Required' : '✓ Supported'}</span>
+            </div>
+          ` : ''}
+          ${epicFeatures.requires_verification || game.requires_verification ? `
+            <div class="epic-feature-item">
+              <span>Verification</span>
+              <span class="feature-status status-warning">⚠️ May need to verify</span>
+            </div>
+          ` : ''}
+          ${epicFeatures.requires_eac_runtime || game.requires_eac_runtime ? `
+            <div class="epic-feature-item">
+              <span>EasyAntiCheat</span>
+              <span class="feature-status status-required">Required</span>
+            </div>
+          ` : ''}
+          ${epicFeatures.requires_battleye_runtime || game.requires_battleye_runtime ? `
+            <div class="epic-feature-item">
+              <span>BattlEye</span>
               <span class="feature-status status-required">Required</span>
             </div>
           ` : ''}
