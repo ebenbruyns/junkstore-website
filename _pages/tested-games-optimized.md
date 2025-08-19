@@ -83,6 +83,7 @@ excerpt: "Junk Store compatibility database of Epic, GOG, and Amazon games teste
       <option value="Epic">Epic</option>
       <option value="GOG">GOG</option>
       <option value="Amazon">Amazon</option>
+      <option value="itch.io">itch.io</option>
     </select>
   </div>
   
@@ -163,8 +164,8 @@ let pageSize = 20;
 // Load games data
 async function loadGamesData() {
   try {
-    console.log('Loading games data from /assets/data/games.json');
-    const response = await fetch('/assets/data/games.json');
+    console.log('Loading games data from /assets/data/games-table.json');
+    const response = await fetch('/assets/data/games-table.json');
     
     console.log('Response status:', response.status);
     if (!response.ok) {
@@ -212,14 +213,17 @@ function populateFeaturedGames() {
     return;
   }
   
-  container.innerHTML = featuredGames.map(game => `
+  container.innerHTML = featuredGames.map(game => {
+    const storefrontDir = game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase();
+    return `
     <div class="featured-entry">
-      <span class="featured-game-link game-link clickable" data-game-id="${game.id}" data-modal-file="${game.modal_file}">
+      <span class="featured-game-link game-link clickable" data-game-id="${game.id}" data-modal-file="games/${storefrontDir}/${game.slug}.json">
         ${game.title}
       </span>
-      <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
+      <span class="store-badge ${game.storefront === 'itch.io' ? 'itch' : game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
     </div>
-  `).join('');
+    `;
+  }).join('');
   
   // Re-add modal handlers for featured games
   addModalHandlers();
@@ -235,20 +239,24 @@ function populateStats() {
         <span class="stat-label">Total Games</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">${gamesData.status_counts.works_great}</span>
+        <span class="stat-number">${gamesData.ratings_summary.both_green}</span>
         <span class="stat-label">Works Great</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">${gamesData.storefronts.epic}</span>
+        <span class="stat-number">${gamesData.storefronts.Epic.total}</span>
         <span class="stat-label">Epic Games</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">${gamesData.storefronts.gog}</span>
+        <span class="stat-number">${gamesData.storefronts.GOG.total}</span>
         <span class="stat-label">GOG</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">${gamesData.storefronts.amazon}</span>
+        <span class="stat-number">${gamesData.storefronts.Amazon.total}</span>
         <span class="stat-label">Amazon</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">${gamesData.storefronts['itch.io'].total}</span>
+        <span class="stat-label">itch.io</span>
       </div>
     </div>
   `;
@@ -316,11 +324,11 @@ function updateTable() {
       <td title="${game.title}">
         ${isAntiCheat ? 
           `<span class="game-title-static">${game.title}</span>` :
-          `<span class="game-link clickable" data-game-id="${game.id}" data-modal-file="${game.modal_file}">${game.title}</span>`
+          `<span class="game-link clickable" data-game-id="${game.id}" data-modal-file="games/${game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase()}/${game.slug}.json">${game.title}</span>`
         }
       </td>
       <td>
-        <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
+        <span class="store-badge ${game.storefront === 'itch.io' ? 'itch' : game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
       </td>
       ${isAntiCheat ? 
         `<td colspan="2" class="anticheat-warning">⚠️ Incompatible - Anti Cheat</td>` :
@@ -488,6 +496,10 @@ async function openGameModal(gameId, modalFile) {
           // Merge basic table data with detailed JSON data
           detailedGame = { ...basicGame, ...detailedData };
           console.log('✅ Loaded detailed game data:', detailedGame.title);
+          console.log('🖼️ Image URLs from detailed data:');
+          console.log('  banner_image:', detailedData.banner_image);
+          console.log('  vertical_artwork:', detailedData.vertical_artwork);
+          console.log('  icon_image:', detailedData.icon_image);
         } else {
           console.warn(`Could not load detailed data from ${modalFile}, using basic data`);
         }
@@ -516,6 +528,13 @@ async function openGameModal(gameId, modalFile) {
 
 // Create game modal
 function createGameModal(game) {
+  console.log('🎨 Creating modal for game:', game.title);
+  console.log('🖼️ Final image URLs for modal:');
+  console.log('  banner_image:', game.banner_image);
+  console.log('  vertical_artwork:', game.vertical_artwork);
+  console.log('  Will show banner?', game.banner_image && !game.banner_image.startsWith('./artwork/'));
+  console.log('  Will show vertical?', game.vertical_artwork && !game.vertical_artwork.startsWith('./artwork/'));
+  
   // Remove existing modal
   const existingModal = document.getElementById('gameModal');
   if (existingModal) {
@@ -531,8 +550,8 @@ function createGameModal(game) {
       <div class="modal-content">
         <!-- Game Banner -->
         <div id="gameBanner-${game.id}" class="game-banner">
-          ${(game.images && game.images.banner_image) || game.verticalArtwork ? 
-            `<img src="${(game.images && game.images.banner_image) || game.verticalArtwork}" alt="Game Banner" style="width: 100%; max-height: 120px; object-fit: cover; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
+          ${game.banner_image && !game.banner_image.startsWith('./artwork/') ? 
+            `<img src="${game.banner_image}" alt="Game Banner" style="width: 100%; max-height: 120px; object-fit: scale-down; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
         </div>
         
         <!-- Enhanced Header -->
@@ -545,7 +564,7 @@ function createGameModal(game) {
               </div>
             </div>
             <div class="header-badges">
-              <span class="storefront-badge storefront-${game.storefront.toLowerCase()}">${game.storefront}</span>
+              <span class="storefront-badge storefront-${game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
             </div>
           </div>
           <button class="modal-close">&times;</button>
@@ -594,8 +613,8 @@ function createGameModal(game) {
             <div class="row">
               <div class="col-md-4">
                 <div id="gameImages-${game.id}" class="game-image-container ${hasEpicFeatures(game) ? '' : 'no-epic-features'}">
-                  ${(game.images && game.images.verticalArtwork) || game.verticalArtwork ? 
-                    `<img src="${(game.images && game.images.verticalArtwork) || game.verticalArtwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
+                  ${game.vertical_artwork && !game.vertical_artwork.startsWith('./artwork/') ? 
+                    `<img src="${game.vertical_artwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
                     `<div class="game-image-placeholder">
                       <div class="placeholder-content">
                         <i class="fas fa-gamepad" style="font-size: 2rem; color: #4a5568; margin-bottom: 8px;"></i>
@@ -742,7 +761,16 @@ function hasEpicFeatures(game) {
   if (game.storefront !== 'Epic') return false;
   
   const epicFeatures = game.epic_features || {};
-  return epicFeatures.epic_achievements || epicFeatures.epic_offline_mode || epicFeatures.requires_eos || epicFeatures.requires_verification;
+  console.log(`🎮 Epic features for ${game.title}:`, epicFeatures);
+  
+  return epicFeatures.epic_achievements || game.epic_achievements ||
+         epicFeatures.epic_offline_mode || game.epic_offline_mode ||
+         epicFeatures.must_be_online || game.must_be_online ||
+         epicFeatures.requires_eos || game.requires_eos ||
+         epicFeatures.supports_eos || game.supports_eos ||
+         epicFeatures.requires_verification || game.requires_verification ||
+         epicFeatures.requires_eac_runtime || game.requires_eac_runtime ||
+         epicFeatures.requires_battleye_runtime || game.requires_battleye_runtime;
 }
 
 // Render Epic Games features
@@ -750,32 +778,51 @@ function renderEpicFeatures(game) {
   if (!hasEpicFeatures(game)) return '';
   
   const epicFeatures = game.epic_features || {};
+  console.log(`✅ Rendering Epic features for ${game.title}`);
   
   return `
     <div class="info-section">
       <h6><i class="fas fa-star text-warning"></i> Epic Games Features</h6>
       <div class="epic-features-grid">
-        ${epicFeatures.epic_achievements ? `
+        ${epicFeatures.epic_achievements || game.epic_achievements ? `
           <div class="epic-feature-item">
             <span>Achievements</span>
-            <span class="feature-status status-supported">Supported</span>
+            <span class="feature-status status-supported">✓ Supported</span>
           </div>
         ` : ''}
-        ${epicFeatures.epic_offline_mode ? `
+        ${epicFeatures.epic_offline_mode || game.epic_offline_mode ? `
           <div class="epic-feature-item">
             <span>Offline Mode</span>
-            <span class="feature-status status-supported">Supported</span>
+            <span class="feature-status status-supported">✓ Available</span>
           </div>
         ` : ''}
-        ${epicFeatures.requires_eos ? `
+        ${epicFeatures.must_be_online || game.must_be_online ? `
           <div class="epic-feature-item">
-            <span>EOS Overlay</span>
+            <span>Must be Online</span>
             <span class="feature-status status-required">Required</span>
           </div>
         ` : ''}
-        ${epicFeatures.requires_verification ? `
+        ${epicFeatures.requires_eos || epicFeatures.supports_eos || game.requires_eos || game.supports_eos ? `
+          <div class="epic-feature-item">
+            <span>EOS Overlay</span>
+            <span class="feature-status ${(epicFeatures.requires_eos || game.requires_eos) ? 'status-required' : 'status-supported'}">${(epicFeatures.requires_eos || game.requires_eos) ? 'Required' : '✓ Supported'}</span>
+          </div>
+        ` : ''}
+        ${epicFeatures.requires_verification || game.requires_verification ? `
           <div class="epic-feature-item">
             <span>Verification</span>
+            <span class="feature-status status-warning">⚠️ May need to verify</span>
+          </div>
+        ` : ''}
+        ${epicFeatures.requires_eac_runtime || game.requires_eac_runtime ? `
+          <div class="epic-feature-item">
+            <span>EasyAntiCheat</span>
+            <span class="feature-status status-required">Required</span>
+          </div>
+        ` : ''}
+        ${epicFeatures.requires_battleye_runtime || game.requires_battleye_runtime ? `
+          <div class="epic-feature-item">
+            <span>BattlEye</span>
             <span class="feature-status status-required">Required</span>
           </div>
         ` : ''}
@@ -789,7 +836,7 @@ function renderTestingDetailsBootstrap(game) {
   let content = '';
   
   // Technical Configuration
-  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb;
+  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb || game.epic_url || game.itch_url;
   if (hasConfig) {
     content += `
       <div class="info-section">
@@ -819,6 +866,18 @@ function renderTestingDetailsBootstrap(game) {
             <div class="info-item">
               <span class="info-label">ProtonDB</span>
               <span class="info-value"><a href="${game.protondb}" target="_blank" rel="noopener noreferrer">View on ProtonDB <i class="fas fa-external-link-alt ms-1"></i></a></span>
+            </div>
+          ` : ''}
+          ${game.epic_url ? `
+            <div class="info-item">
+              <span class="info-label">Epic Store</span>
+              <span class="info-value"><a href="${game.epic_url}" target="_blank" rel="noopener noreferrer">View on Epic <i class="fas fa-external-link-alt ms-1"></i></a></span>
+            </div>
+          ` : ''}
+          ${game.itch_url ? `
+            <div class="info-item">
+              <span class="info-label">itch.io</span>
+              <span class="info-value"><a href="${game.itch_url}" target="_blank" rel="noopener noreferrer">View on itch.io <i class="fas fa-external-link-alt ms-1"></i></a></span>
             </div>
           ` : ''}
         </div>
@@ -1183,6 +1242,35 @@ select:focus, input:focus {
 }
 
 .store-badge.itch {
+  background: #fa5c5c;
+  color: white;
+}
+
+/* Modal storefront badges */
+.storefront-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.storefront-epic {
+  background: #000;
+  color: white;
+}
+
+.storefront-gog {
+  background: #86328a;
+  color: white;
+}
+
+.storefront-amazon {
+  background: #00a14f;
+  color: white;
+}
+
+.storefront-itch\.io {
   background: #fa5c5c;
   color: white;
 }
