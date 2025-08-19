@@ -18,6 +18,14 @@
   "developer": "Ivory Tower",
   "genre": "Adventure, Racing",
   "description": "Welcome to Motorfest! Join a one-of-a-kind festival and enjoy the best experiences car culture has to offer in a beautiful Hawaiian open world.",
+  "game_modes": [
+    "Single player",
+    "Co-operative",
+    "Multiplayer"
+  ],
+  "languages": [
+    "English"
+  ],
   "updated_at": "2025-08-11T09:25:45.265Z",
-  "exported_at": "2025-08-13T09:58:22.425Z"
+  "exported_at": "2025-08-13T20:50:39.639Z"
 }

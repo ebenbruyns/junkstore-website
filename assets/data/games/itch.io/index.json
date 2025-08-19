@@ -1,0 +1,73 @@
+{
+  "storefront": "itch.io",
+  "total_games": 9,
+  "games": [
+    "10-flights-of-ballooning.json",
+    "10s.json",
+    "1993-space-machine.json",
+    "2-9-0-1-freelancer.json",
+    "a-short-hike.json",
+    "baba-is-you.json",
+    "celeste.json",
+    "crosscode.json",
+    "super-hexagon.json"
+  ],
+  "featured_games": 9,
+  "last_updated": "2025-08-18T07:55:39.325Z",
+  "latest_games": [
+    {
+      "title": "2   9   0   1  / / FREELANCER",
+      "slug": "2-9-0-1-freelancer",
+      "date_tested": "Aug '25",
+      "is_featured": true
+    },
+    {
+      "title": "1993 Space Machine",
+      "slug": "1993-space-machine",
+      "date_tested": "Aug '25",
+      "is_featured": true
+    },
+    {
+      "title": "10 Flights of Ballooning",
+      "slug": "10-flights-of-ballooning",
+      "date_tested": "Aug '25",
+      "is_featured": true
+    },
+    {
+      "title": "CrossCode",
+      "slug": "crosscode",
+      "date_tested": "Aug '25",
+      "is_featured": true
+    },
+    {
+      "title": "Super Hexagon",
+      "slug": "super-hexagon",
+      "date_tested": "Aug '25",
+      "is_featured": true
+    },
+    {
+      "title": "Celeste",
+      "slug": "celeste",
+      "date_tested": "Aug '25",
+      "is_featured": true
+    },
+    {
+      "title": "Baba Is You",
+      "slug": "baba-is-you",
+      "date_tested": "Aug '25",
+      "is_featured": true
+    },
+    {
+      "title": "A Short Hike",
+      "slug": "a-short-hike",
+      "date_tested": "Aug '25",
+      "is_featured": true
+    },
+    {
+      "title": "10S",
+      "slug": "10s",
+      "date_tested": "Aug '25",
+      "is_featured": true
+    }
+  ]
+}

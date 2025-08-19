@@ -18,6 +18,16 @@
   "developer": "Epic Games",
   "genre": "Role-playing (RPG), Adventure, Strategy, Shooter, Simulator",
   "description": "Fortnite is the completely free online game where you and your friends fight to be the last one standing in Battle Royale, join forces to make your own Creative games, or catch a live show at Party Royale.",
+  "game_modes": [
+    "Single player",
+    "Co-operative",
+    "Multiplayer",
+    "Split screen",
+    "Battle Royale"
+  ],
+  "languages": [
+    "English"
+  ],
   "updated_at": "2025-08-04T06:01:46.210Z",
-  "exported_at": "2025-08-13T09:58:22.425Z"
+  "exported_at": "2025-08-13T20:50:39.639Z"
 }
