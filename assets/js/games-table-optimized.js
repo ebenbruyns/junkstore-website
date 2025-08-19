@@ -42,7 +42,7 @@ class StaticOptimizedGamesTable {
    */
   async loadGamesData() {
     try {
-      const response = await fetch('/assets/data/games.json');
+      const response = await fetch('/assets/data/games-table.json');
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }
@@ -248,7 +248,7 @@ class StaticOptimizedGamesTable {
         .map(game => {
           return `
             <div class="featured-entry">
-              <a href="#" class="featured-game-link" data-game-title="${game.title}" data-game-storefront="${game.storefront}">
+              <a href="#" class="featured-game-link" data-game-id="${game.id}">
                 ${this.escapeHtml(game.title)}
               </a>
               <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
@@ -256,15 +256,13 @@ class StaticOptimizedGamesTable {
           `;
         }).join('');
         
-      // Add click handlers for featured games
+      // Add click handlers for featured games - same as main table
       this.featuredRow.querySelectorAll('.featured-game-link').forEach(link => {
         link.addEventListener('click', (e) => {
           e.preventDefault();
-          const title = e.target.dataset.gameTitle;
-          const storefront = e.target.dataset.gameStorefront;
-          const game = this.testedGames.find(g => g.title === title && g.storefront === storefront);
-          if (game) {
-            this.openGameModal(game.id);
+          const gameId = e.target.dataset.gameId;
+          if (gameId) {
+            this.openGameModal(gameId);
           }
         });
       });
@@ -472,8 +470,8 @@ class StaticOptimizedGamesTable {
       `;
       document.body.appendChild(loadingModal);
 
-      // Find game details (static lookup)
-      const gameDetails = this.getGameDetails(gameId);
+      // Find game details (async lookup from individual JSON file)
+      const gameDetails = await this.getGameDetails(gameId);
       
       if (!gameDetails) {
         throw new Error('Game not found');
@@ -497,27 +495,57 @@ class StaticOptimizedGamesTable {
   }
 
   /**
-   * Get game details from static data (replaces API call)
+   * Get game details from individual JSON file (for modal display)
    */
-  getGameDetails(gameId) {
+  async getGameDetails(gameId) {
     // Return cached data if available
     if (this.modalCache.has(gameId)) {
       console.log(`📋 Using cached details for game: ${gameId}`);
       return this.modalCache.get(gameId);
     }
 
-    // Find game in static data
-    const game = this.allGames.find(g => g.id === gameId);
-    if (!game) {
-      console.error(`Game not found: ${gameId}`);
+    // Find game in table data to get storefront and slug
+    const gameTableData = this.allGames.find(g => g.id === gameId);
+    if (!gameTableData) {
+      console.error(`Game not found in table data: ${gameId}`);
       return null;
     }
 
-    // Cache the result
-    this.modalCache.set(gameId, game);
-    console.log(`💾 Cached details for game: ${game.title}`);
-    
-    return game;
+    try {
+      // Load full game data from individual JSON file
+      const storefront = gameTableData.storefront === 'itch.io' ? 'itch.io' : gameTableData.storefront.toLowerCase();
+      const slug = gameTableData.slug || gameTableData.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+      const gameUrl = `/assets/data/games/${storefront}/${slug}.json`;
+      
+      console.log(`🔄 Loading full game data from: ${gameUrl}`);
+      const response = await fetch(gameUrl);
+      
+      if (!response.ok) {
+        throw new Error(`Failed to load game data: ${response.status}`);
+      }
+      
+      const fullGameData = await response.json();
+      
+      // Debug logging for image URLs
+      console.log(`🖼️ Image URLs for ${fullGameData.title}:`, {
+        vertical_artwork: fullGameData.vertical_artwork,
+        banner_image: fullGameData.banner_image,
+        icon_image: fullGameData.icon_image
+      });
+      
+      // Cache the result
+      this.modalCache.set(gameId, fullGameData);
+      console.log(`💾 Cached full details for game: ${fullGameData.title}`);
+      
+      return fullGameData;
+    } catch (error) {
+      console.error(`Error loading game details for ${gameTableData.title}:`, error);
+      
+      // Fallback to table data if individual file fails
+      console.log(`🔄 Falling back to table data for: ${gameTableData.title}`);
+      this.modalCache.set(gameId, gameTableData);
+      return gameTableData;
+    }
   }
 
   createGameModal(game) {
@@ -558,7 +586,7 @@ class StaticOptimizedGamesTable {
         <div class="modal-content">
           <!-- Game Banner -->
           <div id="gameBanner-${game.id}" class="game-banner">
-            ${game.verticalArtwork ? `<img src="${game.verticalArtwork}" alt="Game Banner" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
+            ${game.banner_image && !game.banner_image.startsWith('./artwork/') ? `<img src="${game.banner_image}" alt="Game Banner" style="width: 100%; max-height: 200px; object-fit: cover; border-radius: 8px;" onerror="console.error('Image failed to load:', '${game.banner_image}'); this.parentElement.style.display='none';">` : ''}
           </div>
           
           <!-- Enhanced Header -->
@@ -617,8 +645,8 @@ class StaticOptimizedGamesTable {
               <div class="row">
                 <div class="col-md-4">
                   <div id="gameImages-${game.id}" class="game-image-container">
-                    ${game.verticalArtwork && game.verticalArtwork.trim() ? 
-                      `<img src="${game.verticalArtwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
+                    ${game.vertical_artwork && game.vertical_artwork.trim() && !game.vertical_artwork.startsWith('./artwork/') ? 
+                      `<img src="${game.vertical_artwork}" alt="Game Cover" class="game-image-main" onerror="console.error('Vertical image failed to load:', '${game.vertical_artwork}'); this.style.display='none';">` :
                       `<div class="game-image-placeholder">
                         <div class="placeholder-content">
                           <i class="fas fa-gamepad" style="font-size: 3rem; color: #4a5568; margin-bottom: 10px;"></i>
@@ -629,7 +657,12 @@ class StaticOptimizedGamesTable {
                     }
                   </div>
                   
-                  ${this.renderEpicFeatures(game)}
+                  ${(() => {
+                    console.log(`🚀 About to call renderEpicFeatures for ${game.title}`);
+                    const result = this.renderEpicFeatures(game);
+                    console.log(`📝 renderEpicFeatures returned:`, result);
+                    return result;
+                  })()}
                 </div>
                 <div class="col-md-8" id="gameDescription-${game.id}">
                   <div class="info-section">
@@ -801,27 +834,68 @@ class StaticOptimizedGamesTable {
   }
 
   renderEpicFeatures(game) {
+    console.log(`🔍 renderEpicFeatures called for ${game.title}, storefront: ${game.storefront}`);
     if (game.storefront !== 'Epic') return '';
+    
+    const epicFeatures = game.epic_features || {};
+    console.log(`🎮 Epic features for ${game.title}:`, epicFeatures);
+    
+    // Check if any Epic features are present
+    const hasFeatures = epicFeatures.epic_achievements || 
+                       epicFeatures.epic_offline_mode || 
+                       epicFeatures.requires_eos || 
+                       epicFeatures.supports_eos ||
+                       epicFeatures.requires_verification ||
+                       epicFeatures.requires_eac_runtime ||
+                       epicFeatures.requires_battleye_runtime ||
+                       game.requires_verification || 
+                       game.requires_eac_runtime || 
+                       game.requires_battleye_runtime;
+    
+    if (!hasFeatures) {
+      console.log(`⚠️ No Epic features found for ${game.title}`);
+      return '';
+    }
+    
+    console.log(`✅ Rendering Epic features for ${game.title}`);
     
     return `
       <div class="info-section">
         <h6><i class="fas fa-star text-warning"></i> Epic Games Features</h6>
         <div class="epic-features-grid">
-          ${game.epic_achievements ? `
+          ${epicFeatures.epic_achievements ? `
             <div class="epic-feature-item">
               <span>Achievements</span>
               <span class="feature-status status-supported">✓ Supported</span>
             </div>
           ` : ''}
-          ${game.epic_offline_mode ? `
+          ${epicFeatures.epic_offline_mode ? `
             <div class="epic-feature-item">
               <span>Offline Mode</span>
               <span class="feature-status status-supported">✓ Available</span>
             </div>
           ` : ''}
-          ${game.requires_eos ? `
+          ${epicFeatures.requires_eos || epicFeatures.supports_eos ? `
             <div class="epic-feature-item">
               <span>EOS Overlay</span>
+              <span class="feature-status ${epicFeatures.requires_eos ? 'status-required' : 'status-supported'}">${epicFeatures.requires_eos ? 'Required' : '✓ Supported'}</span>
+            </div>
+          ` : ''}
+          ${epicFeatures.requires_verification || game.requires_verification ? `
+            <div class="epic-feature-item">
+              <span>Verification</span>
+              <span class="feature-status status-warning">⚠️ May need to verify</span>
+            </div>
+          ` : ''}
+          ${epicFeatures.requires_eac_runtime || game.requires_eac_runtime ? `
+            <div class="epic-feature-item">
+              <span>EasyAntiCheat</span>
+              <span class="feature-status status-required">Required</span>
+            </div>
+          ` : ''}
+          ${epicFeatures.requires_battleye_runtime || game.requires_battleye_runtime ? `
+            <div class="epic-feature-item">
+              <span>BattlEye</span>
               <span class="feature-status status-required">Required</span>
             </div>
           ` : ''}
@@ -858,6 +932,18 @@ class StaticOptimizedGamesTable {
               <div class="info-item">
                 <span class="info-label">ProtonDB</span>
                 <span class="info-value"><a href="${game.protondb}" target="_blank" rel="noopener noreferrer">View on ProtonDB <i class="fas fa-external-link-alt ms-1"></i></a></span>
+              </div>
+            ` : ''}
+            ${game.epic_url ? `
+              <div class="info-item">
+                <span class="info-label">Epic Store</span>
+                <span class="info-value"><a href="${game.epic_url}" target="_blank" rel="noopener noreferrer">View on Epic <i class="fas fa-external-link-alt ms-1"></i></a></span>
+              </div>
+            ` : ''}
+            ${game.itch_url ? `
+              <div class="info-item">
+                <span class="info-label">itch.io</span>
+                <span class="info-value"><a href="${game.itch_url}" target="_blank" rel="noopener noreferrer">View on itch.io <i class="fas fa-external-link-alt ms-1"></i></a></span>
               </div>
             ` : ''}
           </div>
