@@ -387,6 +387,8 @@
     gap: 8px !important;
     transition: all 0.2s ease !important;
     cursor: pointer !important;
+    text-decoration: none !important;
+    user-select: none !important;
 }
 
 .featured-entry:hover {
