@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Tutoraials & Guides - Junk Store Plugin"
+title: "Tutorials & Guides - Junk Store Plugin"
 permalink: /plugin_tutorials/
 classes: wide
 header:
