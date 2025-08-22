@@ -52,7 +52,7 @@ header:
   <div class="content-box troubleshooting">
     <h3>Complete Decky Plugin Troubleshooting</h3>
     <p>Complete troubleshooting guide covering general plugin issues, Epic Games integration, and GOG extension problems all in one place.</p>
-    <a href="{{ '/troubleshooting/decky/' | relative_url }}" class="button">Complete Troubleshooting Guide</a>
+    <a href="{{ '/troubleshooting/decky/' | relative_url }}" class="button">Troubleshooting</a>
   </div>
 
   <!-- Tutorials -->
