@@ -161,7 +161,7 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 </div>
 
 <div class="gog-extension-info">
-  <p>The GOG extension is now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</p>
+  <p>GOG extension updates are now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</p>
   
   <p>Once you've purchased access, please follow the <a href="/tutorials/gogextension">GOG Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.</p>
 
