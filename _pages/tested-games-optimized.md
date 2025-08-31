@@ -793,6 +793,7 @@ function getStatusClass(rating) {
   if (ratingLower === 'yellow') return 'text-warning';
   if (ratingLower === 'red') return 'text-danger';
   if (ratingLower === 'not-working') return 'text-danger';
+  if (ratingLower === 'not-supported') return 'text-danger';
   return '';
 }
 
@@ -803,6 +804,7 @@ function getStatusText(rating) {
   if (ratingLower === 'yellow') return 'Minor tinkering';
   if (ratingLower === 'red') return 'Advanced tinkering';
   if (ratingLower === 'not-working') return 'Doesn\'t work';
+  if (ratingLower === 'not-supported') return 'Not Supported';
   return rating;
 }
 
