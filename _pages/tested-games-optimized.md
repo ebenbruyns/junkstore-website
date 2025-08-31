@@ -203,6 +203,41 @@ async function loadGamesData() {
   }
 }
 
+// Estimate visual width of game entry for optimal packing
+function estimateGameEntryWidth(game) {
+  const titleLength = game.title.length;
+  const storeLength = game.storefront.length;
+  
+  // Weight factors: title characters are wider than store badge
+  // Add base padding/margin estimates
+  const baseWidth = 40; // padding, borders, gaps
+  const titleWeight = titleLength * 8; // ~8px per character for title
+  const storeWeight = storeLength * 6; // ~6px per character for badge
+  
+  return baseWidth + titleWeight + storeWeight;
+}
+
+// Sort games by estimated width for better space utilization
+function sortGamesByWidth(games) {
+  return games
+    .map(game => ({
+      ...game,
+      estimatedWidth: estimateGameEntryWidth(game)
+    }))
+    .sort((a, b) => {
+      // Alternate between short and long titles for better packing
+      // This creates a more balanced visual layout
+      const aIndex = games.indexOf(a);
+      const bIndex = games.indexOf(b);
+      
+      if (aIndex % 2 === 0) {
+        return a.estimatedWidth - b.estimatedWidth; // Short first for even positions
+      } else {
+        return b.estimatedWidth - a.estimatedWidth; // Long first for odd positions
+      }
+    });
+}
+
 // Populate featured games
 function populateFeaturedGames() {
   const featuredGames = gamesData.games.filter(game => game.is_featured);
@@ -213,7 +248,10 @@ function populateFeaturedGames() {
     return;
   }
   
-  container.innerHTML = featuredGames.map(game => {
+  // Sort games for optimal space utilization
+  const sortedGames = sortGamesByWidth(featuredGames);
+  
+  container.innerHTML = sortedGames.map(game => {
     const storefrontDir = game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase();
     return `
     <div class="featured-entry">
