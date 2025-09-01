@@ -8,6 +8,8 @@ main:
     url: /comparison/
   - title: "Game Compatibility"
     url: /tested-games/
+  - title: "Blog"
+    url: /blog/
   - title: "Media Gallery"
     url: /gallery/
   - title: "About"
