@@ -50,6 +50,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  posts:
+    output: true
+    permalink: /blog/:title/
 
 
 # Categories
