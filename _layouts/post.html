@@ -382,6 +382,9 @@ layout: default
   transition: right 0.3s ease;
   z-index: 1000;
   font-size: 0.9rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .sticky-toc.visible {
@@ -422,16 +425,21 @@ layout: default
 }
 
 .sticky-toc-nav {
+  flex: 1;
   padding: 15px;
-  max-height: calc(70vh - 45px);
   overflow-y: auto;
+  overflow-x: hidden;
   transition: max-height 0.3s ease, padding 0.3s ease;
+  box-sizing: border-box;
+  min-height: 0;
 }
 
 .sticky-toc-nav.collapsed {
+  flex: 0 0 0;
   max-height: 0;
   padding: 0 15px;
   overflow: hidden;
+  min-height: 0;
 }
 
 .toc-item {
@@ -531,6 +539,14 @@ layout: default
 
 .back-to-top-btn:active {
   transform: translateY(-1px);
+}
+
+/* Blog post hero image positioning - increase height to show full image */
+article.page .page__hero--overlay {
+  min-height: 60vh !important;
+  background-position: center bottom !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
 }
 
 /* Mobile responsive */
