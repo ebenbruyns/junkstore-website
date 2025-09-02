@@ -3,6 +3,7 @@ layout: post
 title: "Tip of the Week: Custom Keyboard Shortcuts in Game Mode"
 date: 2025-09-07
 categories: [Tip of the Week, Steam Deck]
+slug: "keyboard-shortcuts-tip"
 excerpt: "Speed up your workflow with these essential keyboard shortcuts that work directly in Steam Deck Game Mode - no Desktop Mode required!"
 image: /assets/images/blog/tip-keyboard-shortcuts.png
 read_time: "3 min read"

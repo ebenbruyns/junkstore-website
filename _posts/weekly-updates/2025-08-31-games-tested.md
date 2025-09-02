@@ -3,8 +3,9 @@ layout: post
 title: "Junk Store Tested - August 31, 2025"
 date: 2025-08-31
 categories: [Weekly Update, Featured Games]
+slug: "games-tested-aug-31"
 excerpt: "Back on the boat after 3 months away! Showcasing our 11 featured games that work brilliantly on Steam Deck - from Epic's indie gems to GOG classics and Amazon surprises."
-image: /assets/images/blog/firstbloghero.png
+image: /assets/images/blog/aug31-hero.jpg
 read_time: "5 min read"
 toc: true
 ---
@@ -25,7 +26,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 ### Epic Games
 
 <div class="game-entry">
-  <img src="https://images.gog.com/a00d7e17f7009f9b8a6ea02afd9892d49a5dd4764cc34c60eedfd29141026728.jpg?namespace=gamesdb" alt="Machinarium" class="game-thumbnail">
+  <img src="https://images.gog.com/c6bca2ad6e957c82422932faaf98f9f273976fc1b9acc30c33a347d85099b3e1.jpg?namespace=gamesdb" alt="Machinarium" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="https://store.epicgames.com/en-US/p/machinarium-5e6c71" target="_blank">Machinarium</a></strong>
     <div class="compatibility-info">
@@ -85,7 +86,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/853bbad6662bbed0349318fc0ca9c0cef274427d989de9d6fea55ce1758b1dee.jpg?namespace=gamesdb" alt="Labyrinth City: Pierre the Maze Detective" class="game-thumbnail">
+  <img src="https://images.gog.com/301995a20037fce69a676849409b579d54105ecda91a64e65942bbc27384e7af.jpg?namespace=gamesdb" alt="Labyrinth City: Pierre the Maze Detective" class="game-thumbnail">
   <div class="game-details">
     <strong>Labyrinth City: Pierre the Maze Detective</strong>
     <div class="compatibility-info">
@@ -98,7 +99,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 ### Epic Games
 
 <div class="game-entry">
-  <img src="https://images.gog.com/e7c78884cac0d381fb0bea9a567e19b5287c7d50898d568ee8bd12a3a16a755b.jpg?namespace=gamesdb" alt="Strange Horticulture" class="game-thumbnail">
+  <img src="https://images.gog.com/9ef214fd189fdcd12ec9707ec516e21b896c3e039e0c6399091da8c4246c9506.jpg?namespace=gamesdb" alt="Strange Horticulture" class="game-thumbnail">
   <div class="game-details">
     <strong>Strange Horticulture</strong>
     <div class="compatibility-info">
@@ -122,7 +123,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 ### GOG
 
 <div class="game-entry">
-  <img src="https://images.gog.com/d751b8210cc043bf1fa09946c3af573c35ef1a1c8bc65efb8bb5496526950f11.jpg?namespace=gamesdb" alt="Shadow Sorcerer" class="game-thumbnail">
+  <img src="https://images.gog.com/d074ec00ebbc412abc9f6dc1666ccfc22a864f9cbe64ca20803a6a08469b9377.jpg?namespace=gamesdb" alt="Shadow Sorcerer" class="game-thumbnail">
   <div class="game-details">
     <strong>Shadow Sorcerer</strong>
     <div class="compatibility-info">
@@ -133,7 +134,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/e19028763428c3d77c888b735937b724f7800ab6fb696e607a06a92537a51eaf.jpg?namespace=gamesdb" alt="War of the Lance" class="game-thumbnail">
+  <img src="https://images.gog.com/bd17b3a723a89c74dfeebaebad6d8b3ff969cfacb772ebb19646d8e5f8cfabb3.jpg?namespace=gamesdb" alt="War of the Lance" class="game-thumbnail">
   <div class="game-details">
     <strong>War of the Lance</strong>
     <div class="compatibility-info">
@@ -144,7 +145,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/b2e3f613ffe1dc45eb5df02925a92915f515fab0fc35081313cc0b5ec46d7645.jpg?namespace=gamesdb" alt="Advanced Dungeons & Dragons: Heroes of the Lance" class="game-thumbnail">
+  <img src="https://images.gog.com/9117dee5ff36ea6876f33cf2594e0a40a01a8689fa12605777c723fe50f938f5.jpg?namespace=gamesdb" alt="Advanced Dungeons & Dragons: Heroes of the Lance" class="game-thumbnail">
   <div class="game-details">
     <strong>Advanced Dungeons & Dragons: Heroes of the Lance</strong>
     <div class="compatibility-info">
