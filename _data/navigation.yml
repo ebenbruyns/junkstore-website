@@ -6,11 +6,11 @@ main:
     url: /deckyhub/
   - title: "Plugin vs 2.0"
     url: /comparison/
-  - title: "Game Compatibility"
+  - title: "Tested Games"
     url: /tested-games/
-  - title: "Blog"
+  - title: "What's New"
     url: /blog/
-  - title: "Media Gallery"
+  - title: "Gallery"
     url: /gallery/
   - title: "About"
     url: /about/

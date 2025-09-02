@@ -3,6 +3,7 @@ layout: post
 title: "New Feature: Batch Game Install System"
 date: 2025-09-09  
 categories: [Feature Release, Junk Store 2.0]
+slug: "batch-install-feature"
 excerpt: "Install multiple Epic, GOG, and Amazon games simultaneously with our new batch processing system - perfect for setting up a new Steam Deck or after major updates."
 image: /assets/images/blog/batch-install-feature.png
 read_time: "5 min read"

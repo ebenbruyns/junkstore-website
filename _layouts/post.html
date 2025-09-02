@@ -79,6 +79,18 @@ layout: default
         
         <!-- Blog-specific footer -->
         <div class="blog-post-footer">
+          {% if page.categories contains 'Weekly Update' or page.tags contains 'game testing' or page.tags contains 'compatibility' %}
+          <div class="games-cta">
+            <div class="games-cta-content">
+              <h4>🎮 See All Tested Games</h4>
+              <p>Check out our complete database of {{ site.data.games.size | default: "600+" }} tested games with detailed compatibility ratings.</p>
+              <a href="/tested-games/" class="games-cta-button">
+                View Full Compatibility List →
+              </a>
+            </div>
+          </div>
+          {% endif %}
+          
           <div class="blog-cta">
             <p><strong>Like this update?</strong></p>
             <a href="/buy_now/" class="blog-cta-button">
@@ -207,6 +219,56 @@ layout: default
   padding: 20px;
   margin-top: 30px;
   border: 1px solid #3a4a5c;
+}
+
+.games-cta {
+  background: #2a3442;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #66bfff;
+  border-left: 4px solid #66bfff;
+}
+
+.games-cta-content {
+  text-align: center;
+}
+
+.games-cta h4 {
+  color: #66bfff;
+  margin: 0 0 10px 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.games-cta p {
+  color: #ccc;
+  margin-bottom: 15px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.games-cta-button {
+  display: inline-block;
+  background: transparent;
+  color: #66bfff !important;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  border: 2px solid #66bfff;
+  margin: 5px 0;
+}
+
+.games-cta-button:hover,
+.games-cta-button:visited,
+.games-cta-button:visited:hover {
+  background: #66bfff;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(102, 191, 255, 0.3);
 }
 
 .blog-cta {

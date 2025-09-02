@@ -11,110 +11,22 @@ header:
     - label: "Try Junk Store 2.0 Free"
       url: "/buy_now/"
       class: "button buy-button"
-    - label: "View Tested Games"
-      url: "/tested-games/"
-      class: "button button-secondary"
 excerpt: "Tips, reviews, and updates for Steam Deck gaming"
 ---
 
-<section class="blog-hero">
-  <h1>Latest from the Junk Store Team</h1>
-  <p class="lead-text">Weekly tips, game reviews, compatibility updates, and Steam Deck gaming insights.</p>
-</section>
-
-<!-- Featured Content Hero -->
-<section class="featured-hero-section">
-  <div class="featured-hero-grid">
-    <!-- Tip of the Week -->
-    <div class="featured-hero-box tip-box">
-      <div class="featured-hero-icon">🎯</div>
-      <h3>Tip of the Week</h3>
-      {% assign tip_posts = site.posts | where: 'categories', 'Tip of the Week' | sort: 'date' | reverse %}
-      {% assign latest_tip = tip_posts.first %}
-      {% if latest_tip %}
-        <div class="featured-hero-content">
-          <h4><a href="{{ latest_tip.url | relative_url }}">{{ latest_tip.title }}</a></h4>
-          <p>{{ latest_tip.excerpt | strip_html | truncatewords: 25 }}</p>
-          <div class="featured-hero-meta">
-            <span class="featured-hero-date">{{ latest_tip.date | date: "%b %d" }}</span>
-            <a href="{{ latest_tip.url | relative_url }}" class="featured-hero-link">Read Tip →</a>
-          </div>
-        </div>
-      {% else %}
-        <div class="featured-hero-placeholder">
-          <p>Coming soon! Weekly Steam Deck tips, shortcuts, and pro tricks to enhance your gaming experience and master Game Mode.</p>
-          <div class="featured-hero-meta">
-            <span class="featured-hero-date">Soon</span>
-          </div>
-        </div>
-      {% endif %}
-    </div>
-
-    <!-- Game of the Week - COMMENTED OUT FOR NOW -->
-    {% comment %}
-    <div class="featured-hero-box game-box">
-      <div class="featured-hero-icon">🎮</div>
-      <h3>Game of the Week</h3>
-      {% assign game_posts = site.posts | where: 'categories', 'Game Spotlight' | sort: 'date' | reverse %}
-      {% assign latest_game = game_posts.first %}
-      {% if latest_game %}
-        <div class="featured-hero-content">
-          <h4><a href="{{ latest_game.url | relative_url }}">{{ latest_game.title }}</a></h4>
-          <p>{{ latest_game.excerpt | strip_html | truncatewords: 25 }}</p>
-          <div class="featured-hero-meta">
-            <span class="featured-hero-date">{{ latest_game.date | date: "%b %d" }}</span>
-            <a href="{{ latest_game.url | relative_url }}" class="featured-hero-link">Read Review →</a>
-          </div>
-        </div>
-      {% else %}
-        <div class="featured-hero-placeholder">
-          <p>Weekly in-depth game reviews, hidden gems, and detailed compatibility breakdowns for standout titles perfect for Steam Deck.</p>
-          <div class="featured-hero-meta">
-            <span class="featured-hero-date">Soon</span>
-          </div>
-        </div>
-      {% endif %}
-    </div>
-    {% endcomment %}
-
-    <!-- Weekly Games Tested -->
-    <div class="featured-hero-box update-box">
-      <div class="featured-hero-icon">🎮</div>
-      <h3>Weekly Games Tested</h3>
-      {% assign update_posts = site.posts | where: 'categories', 'Weekly Update' | sort: 'date' | reverse %}
-      {% assign latest_update = update_posts.first %}
-      {% if latest_update %}
-        <div class="featured-hero-content">
-          <h4><a href="{{ latest_update.url | relative_url }}">{{ latest_update.title }}</a></h4>
-          <p>{{ latest_update.excerpt | strip_html | truncatewords: 25 }}</p>
-          <div class="featured-hero-meta">
-            <span class="featured-hero-date">{{ latest_update.date | date: "%b %d" }}</span>
-            <a href="{{ latest_update.url | relative_url }}" class="featured-hero-link">View Results →</a>
-          </div>
-        </div>
-      {% else %}
-        <div class="featured-hero-placeholder">
-          <p>Weekly game compatibility testing results from Epic, GOG, Amazon Games, and itch.io, with detailed performance notes for Steam Deck.</p>
-          <div class="featured-hero-meta">
-            <span class="featured-hero-date">Soon</span>
-          </div>
-        </div>
-      {% endif %}
-    </div>
-  </div>
+<section class="blog-header">
+  <h1>What's New</h1>
+  <p class="blog-subtitle">Weekly tips, game reviews, compatibility updates, and Steam Deck gaming insights.</p>
 </section>
 
 <!-- Category Filter -->
 <section class="category-filter-section">
-  <div class="filter-container">
-    <h3>Browse by Category</h3>
-    <div class="category-filters">
-      <button class="category-filter active" data-category="all">All Posts</button>
-      <button class="category-filter" data-category="Weekly Update">Weekly Updates</button>
-      <button class="category-filter" data-category="Tip of the Week">Tips & Tricks</button>
-      <button class="category-filter" data-category="Game Spotlight">Game Spotlights</button>
-      <button class="category-filter" data-category="Feature Release">Feature Releases</button>
-    </div>
+  <div class="category-filters">
+    <button class="category-filter active" data-category="all">All Posts</button>
+    <button class="category-filter" data-category="Weekly Update">Games Tested</button>
+    <button class="category-filter" data-category="Tip of the Week">Tips & Tricks</button>
+    <button class="category-filter" data-category="Game Spotlight">Game Spotlights</button>
+    <button class="category-filter" data-category="Feature Release">Feature Releases</button>
   </div>
 </section>
 
@@ -218,140 +130,35 @@ excerpt: "Tips, reviews, and updates for Steam Deck gaming"
 </button>
 
 <style>
-/* Featured Hero Section */
-.featured-hero-section {
-  margin: 30px 0 40px 0;
-}
-
-.featured-hero-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  margin-bottom: 35px;
-}
-
-.featured-hero-box {
-  background: linear-gradient(135deg, #2a3442 0%, #1e2a38 100%);
-  border-radius: 12px;
-  padding: 25px;
-  border: 1px solid #3a4a5c;
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
-  min-height: 180px;
-}
-
-.featured-hero-box::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 5px;
-  background: linear-gradient(90deg, #66bfff, #cceeff);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.featured-hero-box:hover::before {
-  opacity: 1;
-}
-
-.featured-hero-box:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
-  border-color: #66bfff;
-}
-
-.featured-hero-icon {
-  font-size: 2.5rem;
-  margin-bottom: 6px;
+/* Streamlined Blog Header */
+.blog-header {
   text-align: center;
+  padding: 20px 20px 15px 20px;
+  margin-bottom: 25px;
 }
 
-.featured-hero-box h3 {
+.blog-header h1 {
   color: #66bfff;
-  margin: 0 0 15px 0;
-  font-size: 1.3rem;
-  text-align: center;
+  margin-bottom: 8px;
+  font-size: 2.2rem;
+  line-height: 1.2;
   font-weight: 600;
 }
 
-.featured-hero-content h4 {
-  margin-bottom: 12px;
-  font-size: 1.1rem;
-  line-height: 1.3;
-}
-
-.featured-hero-content h4 a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.featured-hero-content h4 a:hover {
-  color: #cceeff;
-}
-
-.featured-hero-content p {
-  color: #ccc;
-  line-height: 1.5;
-  margin-bottom: 15px;
-  font-size: 0.9rem;
-}
-
-.featured-hero-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.featured-hero-date {
-  color: #999;
-  font-size: 0.9rem;
-  font-weight: 500;
-}
-
-.featured-hero-link {
-  color: #66bfff;
-  text-decoration: none;
-  font-size: 0.85rem;
-  font-weight: 600;
-  transition: all 0.2s ease;
-  padding: 6px 12px;
-  border-radius: 5px;
-  border: 1px solid #66bfff;
-}
-
-.featured-hero-link:hover {
-  color: #000;
-  background: #66bfff;
-  transform: translateY(-1px);
-}
-
-.featured-hero-placeholder {
-  text-align: center;
-  opacity: 0.8;
-}
-
-.featured-hero-placeholder p {
-  color: #aaa;
-  font-style: italic;
-  margin-bottom: 15px;
-  line-height: 1.4;
-  font-size: 0.9rem;
+.blog-subtitle {
+  font-size: 1rem !important;
+  color: #ccc !important;
+  font-weight: 400 !important;
+  max-width: 600px;
+  margin: 0 auto !important;
+  line-height: 1.4 !important;
+  text-align: center !important;
 }
 
 /* Category Filter Section */
 .category-filter-section {
-  margin: 30px 0 40px 0;
+  margin: 0 0 30px 0;
   text-align: center;
-}
-
-.filter-container h3 {
-  color: #66bfff;
-  margin-bottom: 20px;
-  font-size: 1.4rem;
 }
 
 .category-filters {
@@ -390,43 +197,16 @@ excerpt: "Tips, reviews, and updates for Steam Deck gaming"
   border-color: #cceeff;
 }
 
-/* Blog Index Styling */
-.blog-hero {
-  text-align: center;
-  padding: 30px 20px 25px 20px;
-  background: linear-gradient(135deg, #2a3442 0%, #1e2a38 100%);
-  border-radius: 12px;
-  margin-bottom: 40px;
-  border: 1px solid #3a4a5c;
-}
-
-.blog-hero h1 {
-  color: #66bfff;
-  margin-bottom: 12px;
-  font-size: 2.5rem;
-  line-height: 1.2;
-}
-
-.blog-hero .lead-text {
-  font-size: 1.2rem !important;
-  color: #cceeff !important;
-  font-weight: 400 !important;
-  max-width: 700px;
-  margin: 0 auto 5px auto !important;
-  line-height: 1.5 !important;
-  text-align: center !important;
-  display: block;
-  width: 100%;
-}
+/* Clean Blog Styling */
 
 .blog-posts-section {
   margin-bottom: 60px;
 }
 
 .posts-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
   margin-bottom: 40px;
 }
 
@@ -446,7 +226,7 @@ excerpt: "Tips, reviews, and updates for Steam Deck gaming"
 }
 
 .post-image {
-  height: 200px;
+  height: 250px;
   overflow: hidden;
   background: #2a2a2a;
 }
@@ -734,52 +514,17 @@ excerpt: "Tips, reviews, and updates for Steam Deck gaming"
 
 /* Mobile responsive */
 @media (max-width: 768px) {
-  .blog-hero h1 {
-    font-size: 2rem;
+  .blog-header h1 {
+    font-size: 1.8rem;
   }
   
-  .lead-text {
-    font-size: 1.1rem;
+  .blog-subtitle {
+    font-size: 0.9rem !important;
   }
   
-  /* Featured Hero Mobile */
-  .featured-hero-grid {
-    grid-template-columns: 1fr;
-    gap: 15px;
-  }
-  
-  .featured-hero-box {
-    padding: 20px;
-    min-height: auto;
-  }
-  
-  .featured-hero-icon {
-    font-size: 2.2rem;
-    margin-bottom: 4px;
-  }
-  
-  .featured-hero-box h3 {
-    font-size: 1.2rem;
-  }
-  
-  .featured-hero-content h4 {
-    font-size: 1rem;
-  }
-  
-  .featured-hero-content p {
-    font-size: 0.85rem;
-  }
-  
-  .featured-hero-meta {
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-  
-  .featured-hero-link {
-    width: 100%;
-    text-align: center;
-    padding: 8px 16px;
+  .blog-header {
+    padding: 15px 20px 10px 20px;
+    margin-bottom: 20px;
   }
   
   /* Category Filter Mobile */
@@ -793,7 +538,6 @@ excerpt: "Tips, reviews, and updates for Steam Deck gaming"
   }
   
   .posts-grid {
-    grid-template-columns: 1fr;
     gap: 20px;
   }
   
