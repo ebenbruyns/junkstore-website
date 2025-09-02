@@ -5,7 +5,7 @@ date: 2025-09-01
 categories: [Feature Release, Community]
 slug: "itch-feedback-needed"
 excerpt: "It's been 2 weeks since we launched the first-ever itch.io integration into Steam. Here's what we've learned, what we've improved, and what we need from YOU to make it even better."
-image: /assets/images/blog/itch-feedback-hero.png
+image: /assets/images/blog/itch-feedback-hero.jpg
 read_time: "4 min read"
 toc: true
 ---
