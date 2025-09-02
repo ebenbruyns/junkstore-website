@@ -65,12 +65,12 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
       <p>While free alternatives require Desktop Mode switching, Junk Store keeps everything in the comfortable Game Mode interface you bought your Steam Deck for.</p>
     </div>
     <div class="video-demo-container" onclick="playDemo(this, '{{ '/assets/images/landing/LibrariesNew.webm' | relative_url }}')">
-      <img src="{{ '/assets/images/landing/LibrariesNew-poster.jpg' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, and Amazon" class="demo-poster">
+      <img src="{{ '/assets/images/landing/LibrariesNew-poster.jpg' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch.io (beta)" class="demo-poster">
       <div class="demo-play-btn">
         <span class="play-icon">▶️</span>
         <span class="play-text">Play Demo</span>
       </div>
-      <img data-src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, and Amazon" class="demo-gif" style="display: none;">
+      <img data-src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch.io (beta)" class="demo-gif" style="display: none;">
     </div>
   </div>
 </section>
