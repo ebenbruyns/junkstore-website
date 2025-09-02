@@ -1,13 +1,13 @@
 ---
 layout: splash
 title: "Junk Store Game Compatibility"
-description: "Complete compatibility database of Epic, GOG, and Amazon games tested on Steam Deck. Search hundreds of games with working status and setup notes."
+description: "Complete compatibility database of Epic, GOG, Amazon & itch.io (beta) games tested on Steam Deck. Search hundreds of games with working status and setup notes."
 permalink: /tested-games/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.jpg
-excerpt: "Junk Store compatibility database of Epic, GOG, and Amazon games tested on Steam Deck."
+excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta) games tested on Steam Deck."
 ---
 
 <!-- Custom header height for this page -->

@@ -17,7 +17,7 @@ header:
 
 <div style="background-color: #1e2a38; border: 1px solid #007acc; border-radius: 8px; padding: 1.5em; margin: 2em 0; text-align: center;">
   <h3 style="margin-top: 0; color: #007acc;">🚀 Pure Game Mode Experience</h3>
-  <p>While other solutions require Desktop Mode, Junk Store keeps you in Game Mode always. This one-time installation gets you permanent Game Mode access to your Epic, GOG, and Amazon libraries.</p>
+  <p>While other solutions require Desktop Mode, Junk Store keeps you in Game Mode always. This one-time installation gets you permanent Game Mode access to your Epic, GOG, Amazon & itch.io (beta) libraries.</p>
 </div>
 
 <h2>Getting Started</h2>
