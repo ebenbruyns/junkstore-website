@@ -1,15 +1,17 @@
 ---
 layout: splash
-title: "Decky Plugin Help"
-permalink: /deckyhub/
+title: "Steam Deck Epic Games Plugin - Free Decky Installation Guide"
+description: "Play Epic Games & GOG on Steam Deck with free Junk Store Decky plugin. Complete Game Mode integration guide - no Desktop Mode required for non-Steam games."
+permalink: /deckyhelp/
+classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.jpg # This sets the URL for this page
+  overlay_image: /assets/images/website_image_compressed.jpg
   actions:
-    - label: "Latest Release"
-      url: "https://github.com/ebenbruyns/junkstore/releases/latest"
-      class: "button"
+    - label: "Upgrade to 2.0"
+      url: "/buy_now/"
+      class: "button buy-button"
 ---
 <div class="spacer mt-4"></div>
 
@@ -19,16 +21,17 @@ header:
   <p>
     You can install Junk Store from the Decky Plugin Store on your Steam Deck. Check the testing store for early versions and previews of upcoming features.
   </p>
-  <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
-  <a href="https://plugins.deckbrew.xyz/" class="button" target="_blank" rel="noopener noreferrer">Decky Plugin Main Store</a>
-  <a href="https://testing.deckbrew.xyz/" class="button" target="_blank" rel="noopener noreferrer">Decky Plugin Testing Store</a>
+  <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center;">
+    <a href="https://plugins.deckbrew.xyz/" class="button" target="_blank" rel="noopener noreferrer">Decky Plugin Main Store</a>
+    <a href="https://testing.deckbrew.xyz/" class="button" target="_blank" rel="noopener noreferrer">Decky Plugin Testing Store</a>
+    <a href="https://github.com/ebenbruyns/junkstore/releases/latest" class="button" target="_blank" rel="noopener noreferrer">Latest Release</a>
   </div>
 </section>
 
 <section class="gog-extension">
   <h2>Installing the GOG Extension</h2>
  
-  <div>The GOG extension is now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</div><br>
+  <div>GOG extension updates are now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</div><br>
 
   <div>Once you’ve purchased access, please follow the <a href="/tutorials/gogextension">Gog Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.</div>
 
@@ -52,7 +55,7 @@ header:
   <div class="content-box troubleshooting">
     <h3>Complete Decky Plugin Troubleshooting</h3>
     <p>Complete troubleshooting guide covering general plugin issues, Epic Games integration, and GOG extension problems all in one place.</p>
-    <a href="{{ '/troubleshooting/decky/' | relative_url }}" class="button">Complete Troubleshooting Guide</a>
+    <a href="{{ '/troubleshooting/decky/' | relative_url }}" class="button">Troubleshooting Guide</a>
   </div>
 
   <!-- Tutorials -->

@@ -1,12 +1,17 @@
 ---
 layout: splash
-title: "Tutoraials & Guides - Junk Store Plugin"
+title: "Steam Deck Decky Plugin Tutorials - Epic Games & GOG Setup"
+description: "Step-by-step tutorials for the free Junk Store Decky plugin on Steam Deck. Learn to play Epic Games & GOG games in Game Mode without Desktop Mode switching."
 permalink: /plugin_tutorials/
 classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.jpg
+  actions:
+    - label: "Get Junk Store 2.0"
+      url: "/buy_now/"
+      class: "button buy-button"
 ---
 <div class="spacer mt-4"></div>
 
@@ -14,13 +19,17 @@ header:
 <section class="tutorials-welcome">
   <h2>Welcome to Our 'How To' Guides</h2>
   <p>
-    Here you'll find step-by-step tutorials designed to help you get the most out of Junk Store. Whether you're just getting started or looking for advanced tips, these guides cover a wide range of topics — from setup and login to dependencies and troubleshooting.
+     Here you'll find step-by-step tutorials to help you get the most out of the free Junk Store Decky plugin — whether you're just getting started or looking for advanced tips.<br><br>
+     
+    Currently, we have guides on plugin installation, authentication, Proton management, and dependency setup. More tutorials are coming soon!
   </p>
-  <p>
-    Got questions or need a guide we haven’t written yet? Reach out on 
-    <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener noreferrer">Discord</a> or 
-    <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener noreferrer">Reddit</a>.
-  </p>
+  
+  <strong>Need help beyond these guides?</strong>
+  <ul>
+    <li><strong>Quick answers:</strong> <a href="/faq/decky/">Decky Plugin FAQ</a></li>
+    <li><strong>Technical problems:</strong> <a href="/troubleshooting/decky/">Troubleshooting Guide</a></li>
+    <li><strong>Community support:</strong> <a href="https://discord.gg/6mRUhR6Teh">Discord</a> or <a href="https://www.reddit.com/r/JunkStore/">Reddit</a></li>
+  </ul>
 </section>
 
 <!-- Tutorials Content Boxes -->
