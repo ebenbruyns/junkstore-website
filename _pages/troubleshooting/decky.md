@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Decky Plugin Troubleshooting - Complete Guide"
-description: "Complete Junk Store Decky plugin troubleshooting guide covering Epic Games, GOG extension, installation issues, and game compatibility. Free Steam Deck plugin support."
+title: "Steam Deck Epic Games Troubleshooting - Decky Plugin Issues"
+description: "Fix Steam Deck Epic Games & GOG issues with Junk Store Decky plugin. Complete troubleshooting guide for Game Mode gaming, installation problems, and compatibility."
 permalink: /troubleshooting/decky/
 classes: wide
 sidebar:
@@ -16,40 +16,69 @@ header:
       url: "/buy_now/"
       class: "button buy-button"
 ---
-
+<div id="top"></div>
 <div class="spacer mt-4"></div>
 
-## General Plugin Issues
+Having problems playing Epic Games or GOG games on your Steam Deck? This comprehensive troubleshooting guide covers everything from Junk Store Decky plugin installation issues to Game Mode compatibility problems and authentication solutions.
 
-Issues with Junk Store itself? This section covers general plugin problems — from install issues to launch errors and everything in between.
+<div class="faq-quick-nav">
+  <h3>🧭 Quick Navigation - Jump to Section:</h3>
+  <div class="nav-grid">
+    <a href="#general-plugin-issues" class="nav-card">
+      <strong>🔧 General Issues</strong>
+      <span>Plugin installation, dependencies, shortcuts, and system problems</span>
+    </a>
+    <a href="#epic-games-troubleshooting" class="nav-card">
+      <strong>🎮 Epic Games Issues</strong>
+      <span>Authentication, library sync, downloads, and game launch problems</span>
+    </a>
+    <a href="#gog-extension-troubleshooting" class="nav-card">
+      <strong>📦 GOG Extension Issues</strong>
+      <span>GOG extension setup, authentication, and compatibility problems</span>
+    </a>
+    <a href="#game-compatibility-problems" class="nav-card">
+      <strong>🎯 Game Issues</strong>
+      <span>Controller problems, Proton versions, performance, and anti-cheat</span>
+    </a>
+    <a href="#advanced-troubleshooting" class="nav-card">
+      <strong>⚙️ Advanced Issues</strong>
+      <span>Backend scripts, dependencies, and system-level problems</span>
+    </a>
+  </div>
+</div>
 
-### If you're seeing errors and dependencies aren't installing, try running the following commands in Konsole:
+<!-- Troubleshooting Search Interface -->
+<div class="faq-search-container">
+  <div class="search-box">
+    <input type="text" id="faq-search" placeholder="🔍 Search troubleshooting solutions..." aria-label="Search troubleshooting questions">
+    <button type="button" id="clear-search" class="clear-button" title="Clear search">✕</button>
+  </div>
+  <div class="search-results-info" id="search-info">Showing all solutions</div>
+  <div class="no-results" id="no-results" style="display: none;">
+    <p>No solutions found matching your search. Try different keywords or browse all sections above.</p>
+  </div>
+</div>
 
-```ruby
-export DECKY_PLUGIN_RUNTIME_DIR=~/homebrew/data/Junk Store
+<h2 id="general-plugin-issues">General Plugin Issues</h2>
+
+<div class="section-summary">
+  <h3>General Plugin Issues - <span class="question-count">5 Questions</span></h3>
+  <p>Plugin installation, dependencies, shortcuts, system problems, and basic troubleshooting steps.</p>
+</div>
+
+<details class="troubleshooting-box">
+  <summary>Dependencies aren't installing - how do I fix this?</summary>
+  <p></p>
+    If you're seeing errors and dependencies aren't installing, try running these commands in Konsole:
+    <br><br>
+    <strong>Command sequence:</strong>
+    <pre><code>export DECKY_PLUGIN_RUNTIME_DIR=~/homebrew/data/Junk Store
 export PYTHONPATH=~/homebrew/plugins/Junk Store/scripts:$PYTHONPATH:~/homebrew/plugins/Junk Store/scripts/shared
 export DECKY_PLUGIN_DIR=~/homebrew/plugins/Junk Store
 export DECKY_PLUGIN_LOG_DIR=~/homebrew/logs/Junk Store
 cd ~/homebrew/plugins/Junk Store
-./scripts/install_deps.sh
-```
-
-<details class="troubleshooting-box">
-  <summary>Why won't my game launch?</summary>
-  <p></p>
-    Games may fail to launch for a variety of reasons. Here are some common causes and what you can do:
-  <ul>
-    <li><strong>Wrong compatibility layer:</strong><br>
-      Try switching to a different version of Proton. Non-Steam games usually work best with <strong>GE-Proton</strong>. We recommend finding a version that works well for most of your library and using it as the default for non-Steam games.<br><br>
-      However, some titles require a <em>specific</em> version of Proton or GE-Proton to run properly.
-    </li>
-    <li><strong>Missing dependencies:</strong><br>
-      Some games require additional libraries such as <strong>Microsoft C++ Runtime</strong> or <strong>DirectX</strong>. These dependencies may not always trigger an obvious error message, so try installing them if you suspect they're missing.
-    </li>
-    <li><strong>Check ProtonDB:</strong><br>
-      If the game still won't launch, visit <a href="https://www.protondb.com" target="_blank" rel="noopener">ProtonDB.com</a> for community tips. You may find game-specific tweaks, compatibility reports, or Proton version recommendations that solve your issue.
-    </li>
-  </ul>
+./scripts/install_deps.sh</code></pre>
+    <strong>What this does:</strong> Sets up the correct environment and runs the dependency installer manually.
 </details>
 
 <details class="troubleshooting-box">
@@ -70,22 +99,8 @@ cd ~/homebrew/plugins/Junk Store
     Try rebooting your device first. If they still don't appear, ask for help in the <em>plugin-support</em> forum on <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>.
 </details>
 
-<details class="troubleshooting-box">
-  <summary>My game works in Heroic or Lutris, but not in Junk Store</summary>
-<p></p>
-  Games that run in Heroic or Lutris usually work in Junk Store too — it's just a matter of finding the right tweaks:
-<ul>
-  <li>Try switching to a different GE-Proton version.</li>
-  <li>Install any required or missing dependencies (you may sometimes get a prompt to install a Microsoft C++ runtime, or something else).</li>
-  <li>Some Epic games require the EOS overlay to be enabled before they will work. Make sure you have installed this globally (Epic tab) and enabled it for the game (done from the game page in Junk Store).</li>
-</ul>
-  Please refer to our <a href="/plugin_tutorials">Tutorials</a> section to learn how to change or check your Proton version or install Microsoft C++ runtimes if you are unsure how to do this.
-<br>
-<br>
-  If that doesn't work, ask for help in our Discord server. Please be patient—our team is small! While we have a decent game library, we don't have every game, so we may only be able to offer advice rather than fixes.
-</details>
 
-<details class="troubleshooting-box">
+<details class="troubleshooting-box" id="proton-ge-installation">
   <summary>I don't have Proton GE or don't know how to install it</summary>
   <p></p>
     To get Proton GE or other custom versions of Proton, you can use one of the following tools:
@@ -97,34 +112,6 @@ cd ~/homebrew/plugins/Junk Store
     <br>
     <br>
     Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}"> Plugin Tutorials</a> page to see how to change/check your Proton version if you are unsure how to do this.
-</details>
-
-<details class="troubleshooting-box">
-  <summary>What are the backend scripts, and do I need them?</summary>
-  <p></p>
-    These are optional example scripts mainly for DOSBox games. They are not officially supported and may stop working if Junk Store is updated. Use them only if you know how they work.
-</details>
-
-<details class="troubleshooting-box">
-  <summary>How do I uninstall the backend scripts for DOS and Win 3.1?</summary>
-  <p></p>
-    You can delete them manually from:
-    <br>
-    <code>~/homebrew/data/Junk Store/scripts/Extensions</code>
-</details>
-
-<details class="troubleshooting-box">
-  <summary>Game gets stuck at the Steam pre-launch screen</summary>
-  <p></p>
-    This might be caused by another plugin (like <strong>decky-cloud-save</strong>) locking Junk Store's files. 
-    <br>
-    <br>
-    Make sure nothing is interfering with this folder:
-    <br>
-    <code>/home/deck/homebrew/data/Junk Store</code>
-    <br>
-    <br>
-    Junk Store relies on that data directory to function correctly.
 </details>
 
 <details class="troubleshooting-box">
@@ -143,9 +130,12 @@ cd ~/homebrew/plugins/Junk Store
   </p>
 </details>
 
-## Epic Games Integration
+<h2 id="epic-games-troubleshooting">Epic Games Troubleshooting</h2>
 
-Running into problems with Epic games? This section covers common issues with Epic integration, like missing games, launch problems, or DLC not working as expected.
+<div class="section-summary">
+  <h3>Epic Games Troubleshooting - <span class="question-count">9 Questions</span></h3>
+  <p>Authentication problems, library sync issues, download errors, and Epic-specific game launch problems.</p>
+</div>
 
 <details class="troubleshooting-box">
   <summary>Experiencing login issues?</summary>
@@ -265,20 +255,6 @@ Running into problems with Epic games? This section covers common issues with Ep
 </details>
 
 <details class="troubleshooting-box">
-  <summary>Game launches but controller doesn't work?</summary>
-  <p>
-    Try the following:
-    <ul>
-      <li>Restart your Steam Deck — this can resolve odd controller issues.</li>
-      <li>Check your Steam Input settings — they may be interfering.</li>
-      <li>Open and close the Quick Access menu — this can "wake" controller detection.</li>
-      <li>Change the Proton version — ProtonGE is often more compatible.</li>
-    </ul>
-    If none of these work, further research may be needed. Note that we can't test every game.
-  </p>
-</details>
-
-<details class="troubleshooting-box">
   <summary>Installing games to SD card causes a Permissions Error?</summary>
   <p>
     Possible causes:
@@ -290,11 +266,14 @@ Running into problems with Epic games? This section covers common issues with Ep
   </p>
 </details>
 
-## GOG Extension
+<h2 id="gog-extension-troubleshooting">GOG Extension Troubleshooting</h2>
 
-This section deals with any problems specific to GOG integration — from download issues to getting games to run smoothly through Junk Store.
+<div class="section-summary">
+  <h3>GOG Extension Troubleshooting - <span class="question-count">2 Questions</span></h3>
+  <p>GOG extension setup problems, authentication issues, and library sync problems.</p>
+</div>
 
-<details class="faq-box">
+<details class="troubleshooting-box">
   <summary>I can't get GOG to run in Junk Store.</summary>
   <p></p>
     Make sure you're using the <strong>latest version of Junk Store</strong> from the <strong>Decky Testing Store</strong>.<br><br>
@@ -318,15 +297,265 @@ This section deals with any problems specific to GOG integration — from downlo
   </ul>
 </details>
 
-<h2>Need Help or More Info?</h2>
-<p>Here are your best starting points:</p>
-<ul>
-  <li>
-    <strong><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a></strong>: Everything you need related to the Junk Store Decky plugin.
-  </li>
-<li>
-    Still stuck? Ask us on 
-    <a href="https://www.reddit.com/r/JunkStore/" target="_blank">Reddit</a> or 
-    <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>.
-  </li>
-</ul>
+<h2 id="game-compatibility-problems">Game Compatibility Problems</h2>
+
+<div class="section-summary">
+  <h3>Game Compatibility Problems - <span class="question-count">3 Questions</span></h3>
+  <p>Game launch failures, controller issues, compatibility with other launchers, and performance problems.</p>
+</div>
+
+<details class="troubleshooting-box">
+  <summary>My game works in Heroic or Lutris, but not in Junk Store</summary>
+  <p></p>
+    Games that run in Heroic or Lutris usually work in Junk Store too — it's just a matter of finding the right tweaks:
+  <ul>
+    <li>Try switching to a different GE-Proton version.</li>
+    <li>Install any required or missing dependencies (you may sometimes get a prompt to install a Microsoft C++ runtime, or something else).</li>
+    <li>Some Epic games require the EOS overlay to be enabled before they will work. Make sure you have installed this globally (Epic tab) and enabled it for the game (done from the game page in Junk Store).</li>
+  </ul>
+    Please refer to our <a href="/plugin_tutorials">Tutorials</a> section to learn how to change or check your Proton version or install Microsoft C++ runtimes if you are unsure how to do this.
+  <br>
+  <br>
+    If that doesn't work, ask for help in our Discord server. Please be patient—our team is small! While we have a decent game library, we don't have every game, so we may only be able to offer advice rather than fixes.
+</details>
+
+<details class="troubleshooting-box">
+  <summary>Game launches but controller doesn't work?</summary>
+  <p></p>
+    Try the following:
+    <ul>
+      <li>Restart your Steam Deck — this can resolve odd controller issues.</li>
+      <li>Check your Steam Input settings — they may be interfering.</li>
+      <li>Open and close the Quick Access menu — this can "wake" controller detection.</li>
+      <li>Change the Proton version — ProtonGE is often more compatible.</li>
+    </ul>
+    If none of these work, further research may be needed. Note that we can't test every game.
+</details>
+
+<details class="troubleshooting-box">
+  <summary>Why won't my game launch?</summary>
+  <p></p>
+    Games may fail to launch for a variety of reasons. Here are some common causes and what you can do:
+  <ul>
+    <li><strong>Wrong compatibility layer:</strong><br>
+      Try switching to a different version of Proton. Non-Steam games usually work best with <strong>GE-Proton</strong>. We recommend finding a version that works well for most of your library and using it as the default for non-Steam games.<br><br>
+      However, some titles require a <em>specific</em> version of Proton or GE-Proton to run properly.
+    </li>
+    <li><strong>Missing dependencies:</strong><br>
+      Some games require additional libraries such as <strong>Microsoft C++ Runtime</strong> or <strong>DirectX</strong>. These dependencies may not always trigger an obvious error message, so try installing them if you suspect they're missing.
+    </li>
+    <li><strong>Check ProtonDB:</strong><br>
+      If the game still won't launch, visit <a href="https://www.protondb.com" target="_blank" rel="noopener">ProtonDB.com</a> for community tips. You may find game-specific tweaks, compatibility reports, or Proton version recommendations that solve your issue.
+    </li>
+  </ul>
+</details>
+
+<h2 id="advanced-troubleshooting">Advanced Troubleshooting</h2>
+
+<div class="section-summary">
+  <h3>Advanced Troubleshooting - <span class="question-count">3 Questions</span></h3>
+  <p>Backend scripts, system-level issues, and advanced configuration problems.</p>
+</div>
+
+<details class="troubleshooting-box">
+  <summary>What are the backend scripts, and do I need them?</summary>
+  <p></p>
+    These are optional example scripts mainly for DOSBox games. They are not officially supported and may stop working if Junk Store is updated. Use them only if you know how they work.
+</details>
+
+<details class="troubleshooting-box">
+  <summary>How do I uninstall the backend scripts for DOS and Win 3.1?</summary>
+  <p></p>
+    You can delete them manually from:
+    <br>
+    <code>~/homebrew/data/Junk Store/scripts/Extensions</code>
+</details>
+
+<details class="troubleshooting-box">
+  <summary>Game gets stuck at the Steam pre-launch screen</summary>
+  <p></p>
+    This might be caused by another plugin (like <strong>decky-cloud-save</strong>) locking Junk Store's files. 
+    <br>
+    <br>
+    Make sure nothing is interfering with this folder:
+    <br>
+    <code>/home/deck/homebrew/data/Junk Store</code>
+    <br>
+    <br>
+    Junk Store relies on that data directory to function correctly.
+</details>
+
+**Need more help?** 
+- **Decky Plugin Installation:** [Decky Plugin Help](/deckyhelp/) 
+- **Step-by-step tutorials:** [Plugin Tutorials](/plugin_tutorials/)
+- **Community support:** [r/JunkStore subreddit](https://www.reddit.com/r/JunkStore/) or [Discord](https://discord.gg/6mRUhR6Teh)
+
+<!-- Final navigation - Back to top buttons -->
+<div class="section-end">
+  <a href="#top" class="back-to-top">↑ Back to Top</a>
+  <a href="#" onclick="document.querySelector('.faq-quick-nav').scrollIntoView({behavior: 'smooth'}); return false;" class="back-to-nav">🧭 Quick Navigation</a>
+</div>
+
+<!-- Mobile floating action button -->
+<a href="#top" class="faq-mobile-fab" id="mobile-fab">↑</a>
+
+<script>
+// Show/hide mobile FAB based on scroll position
+window.addEventListener('scroll', function() {
+  const fab = document.getElementById('mobile-fab');
+  if (window.scrollY > 300) {
+    fab.classList.add('visible');
+  } else {
+    fab.classList.remove('visible');
+  }
+});
+
+// Load fuzzy search component
+const fuzzySearchScript = document.createElement('script');
+fuzzySearchScript.src = '{{ "/assets/js/fuzzy-search.js" | relative_url }}';
+document.head.appendChild(fuzzySearchScript);
+
+// Troubleshooting Search Functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('faq-search');
+  const clearButton = document.getElementById('clear-search');
+  const searchInfo = document.getElementById('search-info');
+  const noResults = document.getElementById('no-results');
+  const troubleshootingBoxes = document.querySelectorAll('.troubleshooting-box');
+  const sectionSummaries = document.querySelectorAll('.section-summary');
+  
+  let totalQuestions = troubleshootingBoxes.length;
+  
+  // Initialize fuzzy search when available
+  let fuzzySearch = null;
+  setTimeout(() => {
+    if (window.FuzzySearch) {
+      fuzzySearch = new window.FuzzySearch({
+        maxSuggestions: 3,
+        minSearchLength: 3
+      });
+    }
+  }, 100);
+  
+  // Extract searchable text from troubleshooting questions
+  const troubleshootingQuestions = Array.from(troubleshootingBoxes).map(box => {
+    const summary = box.querySelector('summary');
+    return summary ? summary.textContent.trim() : '';
+  }).filter(text => text.length > 0);
+  
+  function highlightText(text, searchTerm) {
+    if (!searchTerm) return text;
+    const regex = new RegExp(`(${searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    return text.replace(regex, '<span class="search-highlight">$1</span>');
+  }
+  
+  function removeHighlights(element) {
+    const highlights = element.querySelectorAll('.search-highlight');
+    highlights.forEach(highlight => {
+      highlight.outerHTML = highlight.innerHTML;
+    });
+  }
+  
+  function searchTroubleshooting() {
+    const searchTerm = searchInput.value.trim().toLowerCase();
+    let visibleCount = 0;
+    
+    // Clear previous highlights
+    troubleshootingBoxes.forEach(box => removeHighlights(box));
+    
+    if (searchTerm === '') {
+      // Show all questions
+      troubleshootingBoxes.forEach(box => {
+        box.style.display = 'block';
+        visibleCount++;
+      });
+      sectionSummaries.forEach(summary => summary.style.display = 'block');
+      noResults.style.display = 'none';
+      clearButton.style.display = 'none';
+    } else {
+      // Search and filter
+      troubleshootingBoxes.forEach(box => {
+        const summary = box.querySelector('summary');
+        const content = box.querySelector('p, ul, ol, div');
+        
+        const summaryText = summary ? summary.textContent.toLowerCase() : '';
+        const contentText = content ? content.textContent.toLowerCase() : '';
+        
+        if (summaryText.includes(searchTerm) || contentText.includes(searchTerm)) {
+          box.style.display = 'block';
+          visibleCount++;
+          
+          // Simple highlighting - avoid HTML mangling by working with plain text only
+          if (summary && summaryText.includes(searchTerm)) {
+            const originalText = summary.textContent;
+            const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
+            const regex = new RegExp(`(${escapedTerm})`, 'gi');
+            summary.innerHTML = originalText.replace(regex, '<span class="search-highlight">$1</span>');
+          }
+        } else {
+          box.style.display = 'none';
+        }
+      });
+      
+      // Hide section summaries during search
+      sectionSummaries.forEach(summary => summary.style.display = 'none');
+      clearButton.style.display = 'inline-block';
+    }
+    
+    // Show fuzzy suggestions if no results found and fuzzy search is available
+    if (fuzzySearch && visibleCount === 0 && searchTerm.length >= 3) {
+      fuzzySearch.hideSuggestions(); // Clear any existing suggestions
+      const suggestions = fuzzySearch.findSuggestions(searchTerm, troubleshootingQuestions);
+      if (suggestions.length > 0) {
+        const container = document.querySelector('.faq-search-container');
+        fuzzySearch.showSuggestions(searchTerm, suggestions, container, (suggestion) => {
+          searchInput.value = suggestion;
+          searchTroubleshooting();
+        });
+      }
+    } else if (fuzzySearch) {
+      fuzzySearch.hideSuggestions();
+    }
+    
+    // Update results info
+    if (visibleCount === 0 && searchTerm !== '') {
+      searchInfo.textContent = 'No solutions found';
+      noResults.style.display = 'block';
+    } else if (searchTerm === '') {
+      searchInfo.textContent = `Showing all ${totalQuestions} solutions`;
+      noResults.style.display = 'none';
+    } else {
+      searchInfo.textContent = `Showing ${visibleCount} of ${totalQuestions} solutions`;
+      noResults.style.display = 'none';
+    }
+  }
+  
+  function clearSearch() {
+    searchInput.value = '';
+    if (fuzzySearch) {
+      fuzzySearch.hideSuggestions();
+    }
+    searchTroubleshooting();
+    searchInput.focus();
+  }
+  
+  // Event listeners
+  searchInput.addEventListener('input', searchTroubleshooting);
+  searchInput.addEventListener('keyup', function(e) {
+    if (e.key === 'Escape') {
+      clearSearch();
+    }
+  });
+  
+  clearButton.addEventListener('click', clearSearch);
+  
+  // Initialize
+  searchInfo.textContent = `Showing all ${totalQuestions} solutions`;
+  
+  // Update total questions display on load
+  setTimeout(() => {
+    totalQuestions = document.querySelectorAll('.troubleshooting-box').length;
+    searchInfo.textContent = `Showing all ${totalQuestions} solutions`;
+  }, 100);
+});
+</script>
