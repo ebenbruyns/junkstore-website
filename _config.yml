@@ -52,7 +52,7 @@ collections:
     permalink: /:path/
   posts:
     output: true
-    permalink: /blog/:title/
+    permalink: /blog/:slug/
 
 
 # Categories
