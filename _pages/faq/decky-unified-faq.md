@@ -62,8 +62,8 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 <h2 id="overview-getting-started">Overview & Getting Started</h2>
 
 <div class="section-summary">
-  <h3>Overview & Getting Started - <span class="question-count">5 Questions</span></h3>
-  <p>Plugin differences, security & credentials, installation, and initial setup steps.</p>
+  <h3>Overview & Getting Started - <span class="question-count">6 Questions</span></h3>
+  <p>Plugin differences, security & credentials, installation, initial setup steps, and library navigation.</p>
 </div>
 
 <details class="faq-box">
@@ -148,6 +148,29 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
   <br>
   <br>
     For GOG support, you'll need to purchase the GOG extension separately from the <a href="https://portal.junkstore.xyz/" target="_blank">Junk Store Portal</a>.
+</details>
+
+<details class="faq-box" id="games-missing-a-through-l">
+  <summary>Why can I only see games A-L in my Epic/GOG library?</summary>
+  <p></p>
+    <strong>This is normal behavior for the Decky plugin.</strong> The free Decky version only loads your first 100 games by default for performance optimization.
+  <br>
+  <br>
+    <strong>To see your full library:</strong>
+    <ol>
+      <li>Open your Epic or GOG library in Junk Store</li>
+      <li>Navigate to any game in the list (move out of the search field)</li>
+      <li>Look for the bottom menu with <strong>"SHOW ALL"</strong> button</li>
+      <li>Press the <strong>Y button</strong> on your Steam Deck</li>
+      <li>Wait a moment for your complete library to load</li>
+    </ol>
+    <strong>Can't see the "SHOW ALL" button?</strong>
+    <ul>
+      <li>Your CSS Loader theme might be hiding the bottom menu</li>
+      <li>Try temporarily disabling your CSS theme to access the button</li>
+      <li>You can still search for specific games by name</li>
+    </ul>
+    <strong>Note:</strong> Each store (Epic, GOG, Amazon) needs "SHOW ALL" pressed separately.
 </details>
 
 
