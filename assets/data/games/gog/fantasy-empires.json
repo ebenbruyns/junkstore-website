@@ -39,7 +39,7 @@
   "size": "",
   "vertical_artwork": "https://images.gog.com/3231386d62f8187b649c5e42517b5d6bf6b789f0ca1e235d706a9b675ac274a3.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2fc044e8a52ea36e88fd6f9535bc8d9184efc8c48fce9353fb85bc94bc51e87c.jpg?namespace=gamesdb",
-  "icon_image": "",
+  "icon_image": "https://images.gog.com/50b1cacad7fe192cac171187aeb67de521aa92592810415c73cdf183c8d263b0{formatter}.{ext}?namespace=gamesdb",
   "steamId": "2350530",
   "game_modes": [
     "Single player",
