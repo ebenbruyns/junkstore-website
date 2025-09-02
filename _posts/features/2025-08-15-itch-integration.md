@@ -5,7 +5,7 @@ date: 2025-08-15
 categories: [Feature Release, Major Update]
 slug: "itch-integration-launch"
 excerpt: "For the first time ever, Itch.io is integrated directly into Steam — right inside Junk Store. A groundbreaking feature that brings thousands of indie games to your Steam Deck."
-image: /assets/images/blog/itch-integration-hero.png
+image: /assets/images/blog/itch-integration-hero.jpg
 read_time: "3 min read"
 toc: true
 ---
