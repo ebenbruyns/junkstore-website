@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Decky Plugin FAQ - Complete Guide"
-description: "Complete Junk Store Decky plugin FAQ covering Epic Games, GOG extension, installation, troubleshooting, and game compatibility. Free Steam Deck plugin guide."
+title: "Steam Deck Epic Games & GOG FAQ - Free Decky Plugin Guide"
+description: "Complete Steam Deck FAQ for playing Epic Games & GOG games in Game Mode. Free Junk Store Decky plugin setup, troubleshooting, and compatibility guide."
 permalink: /faq/decky/
 classes: wide
 sidebar:
@@ -19,7 +19,7 @@ header:
 <div id="top"></div>
 <div class="spacer mt-4"></div>
 
-Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything about the free, open-source Decky plugin including Epic Games integration, GOG extension, installation help, and troubleshooting. Updated regularly based on community feedback.
+Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers everything about playing Epic Games and GOG games on Steam Deck using the free, open-source Decky plugin. Play your non-Steam games in Game Mode without switching to Desktop Mode.
 
 <div class="faq-quick-nav">
   <h3>🧭 Quick Navigation - Jump to Section:</h3>
@@ -72,34 +72,33 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
     The Decky version is free and open source, designed to run via the Decky Loader. The Paid version includes extra convenience features and doesn't require Decky to run.
     <br>
     <br>
+    <strong>For detailed feature comparison:</strong> <a href="/comparison/">View Complete Comparison Chart</a>
+    <br>
+    <br>
     For more information, see our <a href="{{ '/2.0faq/' | relative_url }}">Junk Store 2.0 FAQ</a>
 </details>
 
 <details class="faq-box">
-  <summary>Is Junk Store trustworthy and how are credentials handled?</summary>
-    <p></p>
-    <strong>Yes, Junk Store is trustworthy.</strong> We prioritize user security and transparency in how we handle your gaming credentials.
+  <summary>Is Junk Store trustworthy and how are my credentials handled?</summary>
+  <p></p>
+    <strong>Yes, Junk Store is trustworthy.</strong> Here's why you can trust us with your gaming credentials:
   <br>
   <br>
-    <strong>Developer Trust:</strong>
+    <strong>Developer Credentials:</strong>
     <ul>
-      <li>Developed by a cybersecurity expert and white-hat professional</li>
-      <li>You can verify our lead developer's credentials on <a href="https://www.linkedin.com/in/eben-bruyns/" target="_blank">LinkedIn</a></li>
-      <li>Open-source Decky plugin code is publicly auditable</li>
+      <li>🔐 Developed by a cybersecurity expert and white-hat professional</li>
+      <li>📋 You can verify our lead developer's credentials on <a href="https://www.linkedin.com/in/eben-bruyns/" target="_blank">LinkedIn</a></li>
+      <li>🔍 Open-source Decky plugin code is publicly auditable on GitHub</li>
+      <li>🤝 Active in Steam Deck community since launch with established reputation</li>
     </ul>
-    <strong>Credential Security:</strong>
+    <strong>How Your Credentials Are Handled:</strong>
     <ul>
-      <li>🔒 <strong>No password storage:</strong> Junk Store never stores your Epic or GOG passwords</li>
-      <li>🎫 <strong>Token-based authentication:</strong> Uses secure OAuth tokens provided by each platform</li>
-      <li>💻 <strong>Local storage only:</strong> All authentication data stored locally on your Steam Deck</li>
-      <li>🔐 <strong>External tool management:</strong> Epic tokens managed by Legendary, GOG by lgogdownloader</li>
+      <li>🔒 <strong>No password storage:</strong> We never store your Epic or GOG passwords</li>
+      <li>🎫 <strong>Token-based only:</strong> Uses secure OAuth tokens managed by Legendary and lgogdownloader</li>
+      <li>💻 <strong>Local storage only:</strong> All authentication data stays on your Steam Deck</li>
+      <li>🛡️ <strong>Same as official stores:</strong> Uses the exact same login methods as Epic/GOG websites</li>
     </ul>
-    <strong>Privacy Protection:</strong>
-    <ul>
-      <li>Nothing is stored, tracked, or transmitted beyond what's required for functionality</li>
-      <li>No personal data collection or game usage monitoring</li>
-      <li>Authentication works the same as official store websites</li>
-    </ul>
+    <strong>Bottom line:</strong> The Decky plugin has been stable and trusted by thousands of Steam Deck users since launch. Your credentials are handled using industry-standard practices by established tools in the Linux gaming community.
 </details>
 
 <details class="faq-box">
@@ -108,16 +107,12 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
     The Junk Store Decky plugin requires <strong>Decky Loader</strong> to be installed first on your Steam Deck.
   <br>
   <br>
-    <strong>Step 1:</strong> Install Decky Loader by following the <a href="https://decky.xyz/" target="_blank" rel="noopener">official Decky installation guide</a>
-  <br>
-  <br>
-    <strong>Step 2:</strong> Once Decky is installed, access the Decky Plugin Store from your Quick Access Menu
-  <br>
-  <br>
-    <strong>Step 3:</strong> Search for "Junk Store" and install the plugin
-  <br>
-  <br>
-    <strong>Step 4:</strong> The plugin will appear in your Decky menu after installation
+  <ol>
+    <li>Install Decky Loader by following the <a href="https://decky.xyz/" target="_blank" rel="noopener">official Decky installation guide</a></li>
+    <li>Once Decky is installed, access the Decky Plugin Store from your Quick Access Menu</li>
+    <li>Search for "Junk Store" and install the plugin</li>
+    <li>The plugin will appear in your Decky menu after installation</li>
+  </ol>
   <br>
   <br>
     For detailed instructions, visit our <a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a> page.
@@ -138,10 +133,12 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 <details class="faq-box">
   <summary>What should I do first after installing the Decky plugin?</summary>
   <p></p>
-    <strong>Step 1:</strong> Open Junk Store from the Decky menu<br>
-    <strong>Step 2:</strong> Go to the <strong>Epic</strong> tab and log into your Epic Games account<br>
-    <strong>Step 3:</strong> Your Epic Games library will automatically sync and appear<br>
-    <strong>Step 4:</strong> (Optional) Install the GOG extension if you want GOG game support
+  <ol>
+    <li>Open Junk Store from the Decky menu</li>
+    <li>Go to the <strong>Epic</strong> tab and log into your Epic Games account</li>
+    <li>Your Epic Games library will automatically sync and appear</li>
+    <li>(Optional) Install the GOG extension if you want GOG game support</li>
+  </ol>
   <br>
   <br>
     <strong>Note:</strong> The initial library sync can take a few minutes as Junk Store builds the database for your games.
@@ -184,7 +181,7 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 </div>
 
 <div class="gog-extension-info">
-  <p>The GOG extension is now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</p>
+  <p>GOG extension updates are now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</p>
   
   <p>Once you've purchased access, please follow the <a href="/tutorials/gogextension">GOG Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.</p>
 
@@ -236,7 +233,7 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 <h2 id="game-management">Game Management</h2>
 
 <div class="section-summary">
-  <h3>Game Management - <span class="question-count">11 Questions</span></h3>
+  <h3>Game Management - <span class="question-count">10 Questions</span></h3>
   <p>Installation, uninstallation, save data, storage, Proton versions, and best practices.</p>
 </div>
 
@@ -293,12 +290,12 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
   <summary>How do I change where games are downloaded?</summary>
   <p></p>
     You can set your preferred download location from the Epic tab:
-  <ul>
+  <ol>
     <li>Go to the <strong>Epic</strong> tab</li>
     <li>Click the <strong>⚙️ Gear icon</strong> to open settings</li>
     <li>Set your desired download path (e.g. your SD card directory)</li>
-    <li>Press <kbd>X</kbd> to save your changes.</li>
-  </ul>
+    <li>Press <kbd>X</kbd> to save your changes</li>
+  </ol>
   <strong>For GOG games:</strong> Similar process but from the GOG extension interface after installation.
 </details>
 
@@ -332,21 +329,11 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
       <li>Relaunch the game</li>
     </ol>
     Once you've selected a version, back out to the game screen and hit <strong>Play</strong>.
+  <br>
+  <br>
+    <strong>Need Proton GE?</strong> See our <a href="{{ '/troubleshooting/decky/' | relative_url }}#proton-ge-installation">Decky Troubleshooting guide</a> for installation instructions.
 </details>
 
-<details class="faq-box">
-  <summary>I don't have Proton GE or don't know how to install it.</summary>
-  <p></p>
-    To get Proton GE or other custom versions of Proton, you can use one of the following tools:
-  <ul>
-    <li><strong>ProtonUp-QT</strong> — A simple app that lets you download and manage Proton versions. You can find it in the <strong>Discover Store</strong> (in Desktop Mode).</li>
-    <li><strong>Wine Cellar</strong> — A Decky plugin that works similarly to ProtonUp-QT. If you already have Decky installed for other plugins, you can install Wine Cellar directly from the <strong>Decky Plugin Store</strong>.</li>
-  </ul>
-    Once installed, use either tool to download the latest <strong>GE-Proton</strong> release. After that, you'll be able to select it as a compatibility option in Junk Store.
-    <br>
-    <br>
-    Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}"> Plugin Tutorials</a> page to see how to change/check your Proton version if you are unsure how to do this.
-</details>
 
 <details class="faq-box">
   <summary>Can I use Junk Store with games I already installed using other third-party solutions?</summary>
