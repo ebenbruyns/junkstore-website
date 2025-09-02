@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 # CLAUDE.md - Junk Store Website Project Context
 **Documentation Organized:** July 29, 2025 - All project files now in unified `docs/` structure
 
