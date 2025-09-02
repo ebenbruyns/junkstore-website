@@ -78,7 +78,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <br>
     <strong>Credential Security:</strong>
     <ul>
-      <li>🔒 <strong>No password storage:</strong> Junk Store never stores your Epic, GOG, or Amazon passwords</li>
+      <li>🔒 <strong>No password storage:</strong> Junk Store never stores your Epic, GOG, Amazon, or itch.io (beta) passwords</li>
       <li>🎫 <strong>Token-based authentication:</strong> Uses secure login tokens provided by each platform</li>
       <li>💻 <strong>Local storage only:</strong> All tokens stored locally on your Steam Deck</li>
       <li>🔐 <strong>Standard OAuth flow:</strong> Same login method used by official store websites</li>
@@ -139,7 +139,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <br>
     <strong>Trial includes:</strong>
     <ul>
-      <li>✅ Full Epic, GOG, and Amazon Games integration</li>
+      <li>✅ Full Epic, GOG, Amazon & itch.io (beta) Games integration</li>
       <li>✅ Emulator setup and ROM management</li>
       <li>✅ Extension generator and custom store creation</li>
       <li>✅ All premium features (cloud saves, dependencies, automation)</li>
@@ -263,7 +263,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     After installing Junk Store 2.0, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck. No need to switch to Desktop Mode or launch separate applications.
   <br>
   <br>
-    This opens directly in Game Mode, giving you immediate access to your Epic, GOG, and Amazon game libraries.
+    This opens directly in Game Mode, giving you immediate access to your Epic, GOG, Amazon & itch.io (beta) game libraries.
 </details>
 
 <details class="faq-box" id="what-to-do-first">
@@ -271,7 +271,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <p></p>
   <ol>
     <li>Log into Junk Store</li>
-    <li>Generate extensions for the platforms you want to use (Epic, GOG, Amazon)</li>
+    <li>Generate extensions for the platforms you want to use (Epic, GOG, Amazon, itch.io (beta))</li>
     <li>Log into your game store accounts when prompted</li>
     <li>Your existing libraries will automatically sync and appear in Junk Store</li>
     <li>Start installing games directly from Game Mode</li>
@@ -363,7 +363,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <p></p>
     <strong>Changing Download Location:</strong> You can set your preferred download location for each platform separately:
   <ul>
-    <li>Go to the <strong>Epic</strong>, <strong>GOG</strong>, or <strong>Amazon</strong> tab</li>
+    <li>Go to the <strong>Epic</strong>, <strong>GOG</strong>, <strong>Amazon</strong>, or <strong>itch.io (beta)</strong> tab</li>
     <li>Click the <strong>⚙️ Gear icon</strong> to open settings</li>
     <li>Set your desired download path (e.g. your SD card directory)</li>
     <li>Press <kbd>X</kbd> to save your changes</li>
@@ -483,7 +483,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="manage-dlc-installations">
   <summary>How do I manage DLC installations for Steam Deck non-Steam games?</summary>
   <p></p>
-    Control which DLCs install for your Epic, GOG, and Amazon games without leaving Game Mode:
+    Control which DLCs install for your Epic and GOG games without leaving Game Mode:
   <ul>
     <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
     <li>Select <strong>Installation</strong></li>
