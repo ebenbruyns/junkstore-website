@@ -269,11 +269,13 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="what-to-do-first">
   <summary>What should I do first after accessing Junk Store?</summary>
   <p></p>
-    <strong>Step 1:</strong> Log into Junk Store<br>
-    <strong>Step 2:</strong> Generate extensions for the platforms you want to use (Epic, GOG, Amazon)<br>
-    <strong>Step 3:</strong> Log into your game store accounts when prompted<br>
-    <strong>Step 4:</strong> Your existing libraries will automatically sync and appear in Junk Store<br>
-    <strong>Step 5:</strong> Start installing games directly from Game Mode
+  <ol>
+    <li>Log into Junk Store</li>
+    <li>Generate extensions for the platforms you want to use (Epic, GOG, Amazon)</li>
+    <li>Log into your game store accounts when prompted</li>
+    <li>Your existing libraries will automatically sync and appear in Junk Store</li>
+    <li>Start installing games directly from Game Mode</li>
+  </ol>
   <br>
   <br>
     The initial library sync can take a few minutes as Junk Store builds the database for each platform.
