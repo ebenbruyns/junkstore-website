@@ -72,12 +72,31 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     If you're seeing errors and dependencies aren't installing, try running these commands in Konsole:
     <br><br>
     <strong>Command sequence:</strong>
-    <pre><code>export DECKY_PLUGIN_RUNTIME_DIR=~/homebrew/data/Junk Store
-export PYTHONPATH=~/homebrew/plugins/Junk Store/scripts:$PYTHONPATH:~/homebrew/plugins/Junk Store/scripts/shared
-export DECKY_PLUGIN_DIR=~/homebrew/plugins/Junk Store
-export DECKY_PLUGIN_LOG_DIR=~/homebrew/logs/Junk Store
-cd ~/homebrew/plugins/Junk Store
+    <div class="custom-code-block" style="position: relative; margin: 15px 0;">
+      <pre style="background: #272822; color: #f8f8f2; padding: 15px; border-radius: 6px; overflow-x: auto; position: relative; font-family: 'Fira Code', Consolas, monospace; font-size: 14px; line-height: 1.4;"><code><span style="color: #66d9ef">export</span> <span style="color: #fd971f">DECKY_PLUGIN_RUNTIME_DIR</span><span style="color: #f92672">=</span>~/homebrew/data/Junk Store
+<span style="color: #66d9ef">export</span> <span style="color: #fd971f">PYTHONPATH</span><span style="color: #f92672">=</span>~/homebrew/plugins/Junk Store/scripts:<span style="color: #fd971f">$PYTHONPATH</span>:~/homebrew/plugins/Junk Store/scripts/shared
+<span style="color: #66d9ef">export</span> <span style="color: #fd971f">DECKY_PLUGIN_DIR</span><span style="color: #f92672">=</span>~/homebrew/plugins/Junk Store
+<span style="color: #66d9ef">export</span> <span style="color: #fd971f">DECKY_PLUGIN_LOG_DIR</span><span style="color: #f92672">=</span>~/homebrew/logs/Junk Store
+<span style="color: #66d9ef">cd</span> ~/homebrew/plugins/Junk Store
 ./scripts/install_deps.sh</code></pre>
+      <button onclick="copyCode(this)" style="position: absolute; top: 8px; right: 8px; background: rgba(0,0,0,0.6); border: 1px solid #555; color: #fff; padding: 6px 8px; border-radius: 3px; cursor: pointer; font-size: 11px; z-index: 100;" title="Copy to clipboard">⧉</button>
+    </div>
+    
+    <script>
+    function copyCode(button) {
+      const code = button.parentElement.parentElement.querySelector('code').textContent.trim();
+      navigator.clipboard.writeText(code).then(() => {
+        button.innerHTML = '<span style="color: #4ade80;">✓ Copied</span>';
+        setTimeout(() => {
+          button.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+            <path d="m5 15-4-4 4-4"></path>
+            <path d="M5 20v-7a3 3 0 0 1 3-3h7"></path>
+          </svg>`;
+        }, 2000);
+      });
+    }
+    </script>
     <strong>What this does:</strong> Sets up the correct environment and runs the dependency installer manually.
 </details>
 
