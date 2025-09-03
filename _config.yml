@@ -161,6 +161,7 @@ exclude:
   - docs/
   - "*.backup"
   - test
+  - assets/lib/
 keep_files:
   - .git
 
