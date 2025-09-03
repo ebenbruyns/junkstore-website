@@ -8,6 +8,8 @@ excerpt: "It's been 2 weeks since we launched the first-ever itch.io integration
 image: /assets/images/blog/itch-feedback-hero.jpg
 read_time: "4 min read"
 toc: true
+published: false
+search: false
 ---
 
 ## We Need Your Help with itch.io Integration
