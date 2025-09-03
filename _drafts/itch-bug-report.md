@@ -2,6 +2,7 @@
 title: "itch.io Integration - Bug Report"
 permalink: /itch-bug-report/
 layout: single
+published: false
 search: false
 ---
 
