@@ -162,6 +162,7 @@ exclude:
   - CLAUDE.md
   - "*.backup"
   - test
+  - assets/lib/
 keep_files:
   - .git
 
