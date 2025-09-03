@@ -8,6 +8,8 @@ excerpt: "Speed up your workflow with these essential keyboard shortcuts that wo
 image: /assets/images/blog/tip-keyboard-shortcuts.png
 read_time: "3 min read"
 toc: true
+published: false
+search: false
 ---
 
 **This Week's Pro Tip:** Master these Game Mode keyboard shortcuts to navigate your Steam Deck like a pro!

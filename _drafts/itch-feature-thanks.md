@@ -2,6 +2,7 @@
 title: "Feature Request Submitted"
 permalink: /itch-feature-thanks/
 layout: single
+published: false
 search: false
 ---
 
