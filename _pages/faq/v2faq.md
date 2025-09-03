@@ -161,7 +161,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="trial-length-what-happens">
   <summary>How long is my trial and what happens when it ends?</summary>
   <p></p>
-    You get <strong>7 days free</strong> to try all features. During the trial, you have full access toEpic, GOG, Amazon & itch.io (beta) integration, emulator extension creation, and all premium features.
+    You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon & itch.io (beta) integration, emulator extension creation, and all premium features.
   <br>
   <br>
     After 7 days, if you don't subscribe, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
@@ -260,7 +260,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="how-to-access-junk-store">
   <summary>I just signed up for the trial. How do I access Junk Store?</summary>
   <p></p>
-    After installing Junk Store 2.0, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck. No need to switch to Desktop Mode or launch separate applications.
+    After installing Junk Store 2.0, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck or <strong>Ctrl+3</strong> if using a PC. No need to switch to Desktop Mode or launch separate applications.
   <br>
   <br>
     This opens directly in Game Mode, giving you immediate access to your Epic, GOG, Amazon & itch.io (beta) game libraries.
@@ -276,8 +276,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <li>Your existing libraries will automatically sync and appear in Junk Store</li>
     <li>Start installing games directly from Game Mode</li>
   </ol>
-  <br>
-  <br>
     The initial library sync can take a few minutes as Junk Store builds the database for each platform.
   <br><br>
     <strong>Try This During Your Trial:</strong>
@@ -294,9 +292,12 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="new-platforms-planned">
   <summary>What new platforms are planned for future releases?</summary>
   <p></p>
+    <strong>Current platform support:</strong>
+  <ul>
+    <li>✅ <strong>Itch.io</strong> - Now available in beta</li>
+  </ul>
     <strong>Planned platform support</strong> (pending successful launch and resources):
   <ul>
-    <li>🎯 <strong>Itch.io</strong> - First priority for next platform addition</li>
     <li>🎮 <strong>EA, Ubisoft, Battle.net</strong> - If technically viable</li>
     <li>🔧 <strong>Community extension sharing</strong> - User-created platform support</li>
   </ul>
@@ -319,7 +320,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     Stay current with the latest Steam Deck non-Steam gaming improvements through our direct update system:
   <br>
   <br>
-    <strong>Update Notifications:</strong> Join our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord #version-2-updates</a> channel for immediate update announcements.
+    <strong>Update Notifications:</strong> Join our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> and follow our <strong>#version-2-updates</strong> channel for immediate update announcements.
   <br>
   <br>
     <strong>Update Channels:</strong>
@@ -329,6 +330,25 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <li><strong>Beta:</strong> SteamOS compatibility updates (use if on SteamOS beta)</li>
   </ul>
     <strong>Change Channels:</strong> Press <strong>Select</strong> → <strong>About</strong> → <strong>System</strong>. Choose channels for both Junk Store core and Extensions (where new platform support is added).
+</details>
+
+<details class="faq-box" id="how-to-access-itch-io-beta">
+  <summary>How do I access the itch.io extension (beta)?</summary>
+  <p></p>
+    To access the itch.io extension currently in beta testing:
+  <ol>
+    <li>Change both your <strong>Build Channel</strong> and <strong>Extension Channel</strong> to <strong>Beta</strong></li>
+    <li>Press <strong>Select button</strong> → <strong>About</strong> → <strong>System</strong> to access channel settings</li>
+    <li>Check for updates in Junk Store</li>
+    <li>Open the <strong>hamburger menu</strong> (☰) and select <strong>Extension Generator</strong></li>
+    <li><strong>Download the itch.io extension</strong></li>
+    <li> Click the 📥 <strong>Install</strong> button</li>
+    <li> You should now see the <strong>itch.io tab</strong> in Junk Store - log into your account and start downloading games!</li>
+  </ol>
+    <strong>Important:</strong> Both channels must be set to Beta to access itch.io support. This ensures you have the latest core features and the beta extension system.
+  <br>
+  <br>
+    <strong>Beta Status:</strong> itch.io support is actively being tested. Report any issues on our <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues" target="_blank">GitHub Issues page</a>.
 </details>
 
 <details class="faq-box" id="import-games-from-decky">
@@ -590,6 +610,9 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <br>
   <br>
     <strong>Other Third-Party Launchers:</strong> Not currently supported. While Legendary has limited support, this feature isn't implemented in Junk Store yet. You can attempt manual setup via CLI or modify the extension script.
+  <br>
+  <br>
+    📋 <strong>Check specific games:</strong> Visit our <a href="/tested-games/">Games Tested table</a> to see compatibility status and any workarounds for specific titles.
 </details>
 
 <details class="faq-box" id="gog-dos-scummvm-support">
@@ -618,7 +641,10 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="play-kingdom-hearts">
   <summary>Can I play Kingdom Hearts via Junk Store?</summary>
    <p></p>
-    Kingdom Hearts has known compatibility issues on Linux, and this isn’t specific to Junk Store. We haven’t been able to test it ourselves as we don’t own a copy, so we can’t provide official support or recommendations at this time.
+    Kingdom Hearts has known compatibility issues on Linux, and this isn't specific to Junk Store. We haven't been able to test it ourselves as we don't own a copy, so we can't provide official support or recommendations at this time.
+  <br>
+  <br>
+    📋 <strong>Check our testing:</strong> Visit our <a href="/tested-games/">Games Tested table</a> to see if Kingdom Hearts titles have been tested and any compatibility notes.
 </details>
 
 

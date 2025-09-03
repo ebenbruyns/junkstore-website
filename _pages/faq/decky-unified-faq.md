@@ -88,7 +88,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <ul>
       <li>🔐 Developed by a cybersecurity expert and white-hat professional</li>
       <li>📋 You can verify our lead developer's credentials on <a href="https://www.linkedin.com/in/eben-bruyns/" target="_blank">LinkedIn</a></li>
-      <li>🔍 Open-source Decky plugin code is publicly auditable on GitHub</li>
+      <li>🔍 Open-source Decky plugin code is publicly auditable on <a href="https://github.com/ebenbruyns/junkstore" target="_blank">GitHub</a></li>
       <li>🤝 Active in Steam Deck community since launch with established reputation</li>
     </ul>
     <strong>How Your Credentials Are Handled:</strong>
@@ -106,27 +106,24 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   <p></p>
     The Junk Store Decky plugin requires <strong>Decky Loader</strong> to be installed first on your Steam Deck.
   <br>
-  <br>
   <ol>
-    <li>Install Decky Loader by following the <a href="https://decky.xyz/" target="_blank" rel="noopener">official Decky installation guide</a></li>
+    <li>Install Decky Loader by following the <a href="https://wiki.deckbrew.xyz/en/user-guide/home" target="_blank" rel="noopener">official Decky installation guide</a></li>
     <li>Once Decky is installed, access the Decky Plugin Store from your Quick Access Menu</li>
     <li>Search for "Junk Store" and install the plugin</li>
     <li>The plugin will appear in your Decky menu after installation</li>
   </ol>
-  <br>
-  <br>
-    For detailed instructions, visit our <a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a> page.
+    For detailed instructions, refer to our <a href="{{ '/tutorials/plugin/Install' | relative_url }}">Junk Store Decky Plugin Install Guide</a>.
 </details>
 
 <details class="faq-box">
   <summary>How do I access Junk Store after installation?</summary>
   <p></p>
     After installing the Decky plugin, access Junk Store through the <strong>Decky Loader menu</strong>:
-  <ul>
+  <ol>
     <li>Press the <strong>three-dot button</strong> (Quick Access Menu) on your Steam Deck</li>
     <li>Look for the <strong>Decky</strong> icon in the menu</li>
     <li>Select <strong>Junk Store</strong> from the plugin list</li>
-  </ul>
+  </ol>
     The plugin opens directly in Game Mode without requiring Desktop Mode switching.
 </details>
 
@@ -137,10 +134,8 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <li>Open Junk Store from the Decky menu</li>
     <li>Go to the <strong>Epic</strong> tab and log into your Epic Games account</li>
     <li>Your Epic Games library will automatically sync and appear</li>
-    <li>(Optional) Install the GOG extension if you want GOG game support</li>
+    <li>(Optional) Download and install the GOG extension if you want GOG game support (paid)</li>
   </ol>
-  <br>
-  <br>
     <strong>Note:</strong> The initial library sync can take a few minutes as Junk Store builds the database for your games.
   <br>
   <br>
@@ -188,14 +183,30 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
     <strong>Note:</strong> The GOG extension is currently in <strong>maintenance-only</strong> mode. This means we'll continue fixing bugs and ensuring compatibility, but we're not actively adding new features. Continued support depends on user interest and purchases.
   </p>
-
-  <a href="https://portal.junkstore.xyz/" class="button gog-extension-button" style="margin-right: 10px;" target="_blank" rel="noopener noreferrer">Get the GOG Extension</a>
 </div>
 
 <details class="faq-box">
   <summary>Where can I find the GOG extension?</summary>
   <p></p>
-    It is exclusively available through the Junk Store portal. You can purchase access there with a one-time payment from the <a href="https://portal.junkstore.xyz/" target="_blank">Junk Store Portal</a>.<br><br>
+    You can purchase access with a one-time payment via three different methods:<br><br>
+    
+    <div class="purchase-buttons-container">
+      <a href="https://portal.junkstore.xyz/" target="_blank" class="purchase-button portal-button">
+        <span class="button-text">🏆 Junk Store Portal</span>
+        <span class="button-subtitle">Recommended - Easy updates!</span>
+      </a>
+      
+      <a href="https://www.patreon.com/junkstore" target="_blank" class="purchase-button patreon-button">
+        <span class="button-text">Patreon Shop</span>
+      </a>
+      
+      <a href="https://ko-fi.com/junkstore" target="_blank" class="purchase-button kofi-button">
+        <span class="button-text">Ko-fi Shop</span>
+      </a>
+    </div>
+
+    <p><strong>⚠️ Important:</strong> GOG extension updates are now exclusively available via the Junk Store Portal. This makes it faster for us to deliver updates and much easier for you to download and install them.</p>
+    
     Once you have it, you have it. We can't take away GOG functionality/integration with the Junk Store plugin. All funds go back into the enhancement and development of Junk Store.
 </details>
 
@@ -218,17 +229,6 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   <p></p>
     No — the GOG extension is designed for Windows games running through Proton. Native Linux games from GOG are not currently supported, as Junk Store relies on Proton's compatibility layer for game execution and integration.
 </details>
-
-
-
-<details class="faq-box">
-  <summary>Can I use the GOG extension with games I already installed using other third-party solutions?</summary>
-  <p></p>
-    <strong>No.</strong> Junk Store manages its own installations and environment. Games installed through other launchers (like Heroic, Lutris, or Bottles) are not recognized or managed by the GOG extension.
-  <br>
-  <br>
-      If you want to use the GOG extension to manage a game, you'll need to install it again through Junk Store directly.
- </details>
 
 <h2 id="game-management">Game Management</h2>
 
@@ -302,7 +302,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 <details class="faq-box">
   <summary>Can I move games to my SD card?</summary>
   <p></p>
-    Not at the moment. It's a complex feature and on our development roadmap. For now, games need to be stored on internal storage or an already-mounted drive.
+    No, not possible. This is a complex feature that we're not planning to implement, but we're open if someone wants to contribute a pull request for this feature.
   <br>
   <br>
     <strong>Workaround:</strong> Set your download location to your SD card before installing new games.
@@ -341,7 +341,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <strong>No.</strong> Junk Store manages its own installations and environment. Games installed through other launchers (like Heroic, Lutris, or Bottles) are not recognized or managed by Junk Store.
   <br>
   <br>
-      If you want to use Junk Store to manage a game, you'll need to install it again through Junk Store directly.
+    <strong>This applies to both Epic and GOG games.</strong> If you want to use Junk Store to manage a game, you'll need to install it again through Junk Store directly.
  </details>
 
 <details class="faq-box">
@@ -462,16 +462,6 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <strong>General Anti-Cheat Compatibility:</strong> Most games with BattlEye and Easy Anti-Cheat (EAC) that work on Steam Deck should also work through Junk Store, since they use the same Proton compatibility layer.
   <br>
   <br>
-    <strong>Known Working:</strong>
-  <ul>
-    <li>Games with Steam-verified anti-cheat support typically work fine</li>
-    <li>Most BattlEye and EAC games function normally through Junk Store</li>
-  </ul>
-    <strong>Known Issues:</strong>
-  <ul>
-    <li>Some anti-cheat systems may not recognize non-Steam game launches</li>
-    <li>Newer or more restrictive anti-cheat systems may cause problems</li>
-  </ul>
     <strong>❌ Fortnite Specifically:</strong>
   <ul>
     <li><strong>Does not work</strong> - Epic Games does not support Fortnite on Linux due to anti-cheat policy</li>
@@ -480,6 +470,9 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <li>More info: <a href="https://www.theverge.com/2022/2/8/22923163/fortnite-steam-deck-update-epic-tim-sweeney" target="_blank" rel="noopener">The Verge article</a></li>
   </ul>
     <strong>Best Practice:</strong> Check <a href="https://www.protondb.com" target="_blank" rel="noopener">ProtonDB</a> for compatibility reports specific to your anti-cheat games before installing.
+  <br>
+  <br>
+    📋 <strong>Check our testing:</strong> Visit our <a href="/tested-games/">Games Tested table</a> to see which anti-cheat games have been tested and their compatibility status.
 </details>
 
 <details class="faq-box">
