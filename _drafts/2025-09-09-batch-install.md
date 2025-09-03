@@ -8,6 +8,8 @@ excerpt: "Install multiple Epic, GOG, and Amazon games simultaneously with our n
 image: /assets/images/blog/batch-install-feature.png
 read_time: "5 min read"
 toc: true
+published: false
+search: false
 ---
 
 **🚀 New in Junk Store 2.0.8:** Batch Game Install System revolutionizes how you set up your Steam Deck gaming library.

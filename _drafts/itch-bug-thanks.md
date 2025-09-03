@@ -2,6 +2,7 @@
 title: "Bug Report Submitted"
 permalink: /itch-bug-thanks/
 layout: single
+published: false
 search: false
 ---
 
