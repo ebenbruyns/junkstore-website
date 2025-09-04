@@ -23,13 +23,6 @@ header:
      
     Currently, we have guides on plugin installation, authentication, Proton management, and dependency setup. More tutorials are coming soon!
   </p>
-  
-  <strong>Need help beyond these guides?</strong>
-  <ul>
-    <li><strong>Quick answers:</strong> <a href="/faq/decky/">Decky Plugin FAQ</a></li>
-    <li><strong>Technical problems:</strong> <a href="/troubleshooting/decky/">Troubleshooting Guide</a></li>
-    <li><strong>Community support:</strong> <a href="https://discord.gg/6mRUhR6Teh">Discord</a> or <a href="https://www.reddit.com/r/JunkStore/">Reddit</a></li>
-  </ul>
 </section>
 
 <!-- Tutorials Content Boxes -->
@@ -90,3 +83,55 @@ header:
   </div> -->
 
 </div>
+
+<!-- Need Help Section -->
+<section class="need-help-section" style="margin-top: 2rem; padding: 1.5rem 2rem; background: rgba(255,255,255,0.03); border-radius: 8px;">
+  <h2 style="margin-top: 0;">Still Need Help?</h2>
+  <p>If these tutorials didn't solve your issue, here are additional resources:</p>
+  <ul>
+    <li><strong>Quick answers:</strong> <a href="/faq/decky/">Decky Plugin FAQ</a></li>
+    <li><strong>Technical problems:</strong> <a href="/troubleshooting/decky/">Troubleshooting Guide</a></li>
+    <li><strong>Community support:</strong> 
+      <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
+        <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
+      </a>
+      <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
+        <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
+      </a>
+    </li>
+  </ul>
+</section>
+
+<style>
+.community-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  margin-left: 8px;
+  color: white;
+}
+
+.discord-btn {
+  background: #5865f2;
+  color: white !important;
+}
+
+.reddit-btn {
+  background: #ff4500;
+  color: white !important;
+}
+
+.community-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+</style>
