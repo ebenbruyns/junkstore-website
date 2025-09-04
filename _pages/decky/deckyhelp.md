@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Steam Deck Epic Games Plugin - Free Decky Installation Guide"
-description: "Play Epic Games & GOG on Steam Deck with free Junk Store Decky plugin. Complete Game Mode integration guide - no Desktop Mode required for non-Steam games."
+title: "Junk Store Decky Plugin Help"
+description: "Complete Junk Store Decky plugin help hub. Installation guide, FAQ, troubleshooting, and tutorials for playing Epic & GOG games in Game Mode."
 permalink: /deckyhelp/
 classes: wide
 header:
