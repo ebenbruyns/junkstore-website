@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Steam Deck Decky Plugin Tutorials - Epic Games & GOG Setup"
+title: "Junk Store Decky Plugin Tutorials"
 description: "Step-by-step tutorials for the free Junk Store Decky plugin on Steam Deck. Learn to play Epic Games & GOG games in Game Mode without Desktop Mode switching."
 permalink: /plugin_tutorials/
 classes: wide
