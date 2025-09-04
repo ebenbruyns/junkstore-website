@@ -1,11 +1,9 @@
 ---
-layout: single
-title: "Decky Plugin FAQ - Complete Guide"
-description: "Complete Junk Store Decky plugin FAQ covering Epic Games, GOG extension, installation, troubleshooting, and game compatibility. Free Steam Deck plugin guide."
+layout: splash
+title: "Junk Store Decky Plugin FAQ"
+description: "Complete Junk Store Decky plugin FAQ for playing Epic & GOG games in Game Mode. Free plugin setup, features, compatibility, and usage guide."
 permalink: /faq/decky/
 classes: wide
-sidebar:
-  nav: "faq-nav"
 show_pagination: false
 header:
   overlay_color: "#000"
@@ -19,33 +17,8 @@ header:
 <div id="top"></div>
 <div class="spacer mt-4"></div>
 
-Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything about the free, open-source Decky plugin including Epic Games integration, GOG extension, installation help, and troubleshooting. Updated regularly based on community feedback.
+Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers everything about playing Epic Games and GOG games on Steam Deck using the free, open-source Decky plugin. Play your non-Steam games in Game Mode without switching to Desktop Mode.
 
-<div class="faq-quick-nav">
-  <h3>🧭 Quick Navigation - Jump to Section:</h3>
-  <div class="nav-grid">
-    <a href="#overview-getting-started" class="nav-card">
-      <strong>🔍 Overview & Setup</strong>
-      <span>Plugin differences, installation, and first steps</span>
-    </a>
-    <a href="#gog-extension" class="nav-card">
-      <strong>📦 GOG Extension</strong>
-      <span>Purchase info, DOS games, and native Linux support</span>
-    </a>
-    <a href="#game-management" class="nav-card">
-      <strong>⚙️ Game Management</strong>
-      <span>Install, uninstall, saves, Proton, and performance</span>
-    </a>
-    <a href="#game-compatibility" class="nav-card">
-      <strong>🎯 Compatibility</strong>
-      <span>EA, Ubisoft, specific games, and third-party tools</span>
-    </a>
-    <a href="#technical-support" class="nav-card">
-      <strong>🛠️ Support & Help</strong>
-      <span>Bug reports, feature requests, and community resources</span>
-    </a>
-  </div>
-</div>
 
 <!-- FAQ Search Interface -->
 <div class="faq-search-container">
@@ -61,93 +34,104 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 
 <h2 id="overview-getting-started">Overview & Getting Started</h2>
 
-<div class="section-summary">
-  <h3>Overview & Getting Started - <span class="question-count">5 Questions</span></h3>
-  <p>Plugin differences, security & credentials, installation, and initial setup steps.</p>
-</div>
 
-<details class="faq-box">
+<details class="faq-box" id="decky-vs-paid-version">
   <summary>What's the difference between the Decky version and the Paid version?</summary>
   <p></p>
     The Decky version is free and open source, designed to run via the Decky Loader. The Paid version includes extra convenience features and doesn't require Decky to run.
     <br>
     <br>
+    <strong>For detailed feature comparison:</strong> <a href="/comparison/">View Complete Comparison Chart</a>
+    <br>
+    <br>
     For more information, see our <a href="{{ '/2.0faq/' | relative_url }}">Junk Store 2.0 FAQ</a>
 </details>
 
-<details class="faq-box">
-  <summary>Is Junk Store trustworthy and how are credentials handled?</summary>
-    <p></p>
-    <strong>Yes, Junk Store is trustworthy.</strong> We prioritize user security and transparency in how we handle your gaming credentials.
+<details class="faq-box" id="trustworthy-credentials">
+  <summary>Is Junk Store trustworthy and how are my credentials handled?</summary>
+  <p></p>
+    <strong>Yes, Junk Store is trustworthy.</strong> Here's why you can trust us with your gaming credentials:
   <br>
   <br>
-    <strong>Developer Trust:</strong>
+    <strong>Developer Credentials:</strong>
     <ul>
-      <li>Developed by a cybersecurity expert and white-hat professional</li>
-      <li>You can verify our lead developer's credentials on <a href="https://www.linkedin.com/in/eben-bruyns/" target="_blank">LinkedIn</a></li>
-      <li>Open-source Decky plugin code is publicly auditable</li>
+      <li>🔐 Developed by a cybersecurity expert and white-hat professional</li>
+      <li>📋 You can verify our lead developer's credentials on <a href="https://www.linkedin.com/in/eben-bruyns/" target="_blank">LinkedIn</a></li>
+      <li>🔍 Open-source Decky plugin code is publicly auditable on <a href="https://github.com/ebenbruyns/junkstore" target="_blank">GitHub</a></li>
+      <li>🤝 Active in Steam Deck community since launch with established reputation</li>
     </ul>
-    <strong>Credential Security:</strong>
+    <strong>How Your Credentials Are Handled:</strong>
     <ul>
-      <li>🔒 <strong>No password storage:</strong> Junk Store never stores your Epic or GOG passwords</li>
-      <li>🎫 <strong>Token-based authentication:</strong> Uses secure OAuth tokens provided by each platform</li>
-      <li>💻 <strong>Local storage only:</strong> All authentication data stored locally on your Steam Deck</li>
-      <li>🔐 <strong>External tool management:</strong> Epic tokens managed by Legendary, GOG by lgogdownloader</li>
+      <li>🔒 <strong>No password storage:</strong> We never store your Epic or GOG passwords</li>
+      <li>🎫 <strong>Token-based only:</strong> Uses secure OAuth tokens managed by Legendary and lgogdownloader</li>
+      <li>💻 <strong>Local storage only:</strong> All authentication data stays on your Steam Deck</li>
+      <li>🛡️ <strong>Same as official stores:</strong> Uses the exact same login methods as Epic/GOG websites</li>
     </ul>
-    <strong>Privacy Protection:</strong>
-    <ul>
-      <li>Nothing is stored, tracked, or transmitted beyond what's required for functionality</li>
-      <li>No personal data collection or game usage monitoring</li>
-      <li>Authentication works the same as official store websites</li>
-    </ul>
+    <strong>Bottom line:</strong> The Decky plugin has been stable and trusted by thousands of Steam Deck users since launch. Your credentials are handled using industry-standard practices by established tools in the Linux gaming community.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="install-decky-plugin">
   <summary>How do I install the Junk Store Decky plugin?</summary>
   <p></p>
     The Junk Store Decky plugin requires <strong>Decky Loader</strong> to be installed first on your Steam Deck.
   <br>
-  <br>
-    <strong>Step 1:</strong> Install Decky Loader by following the <a href="https://decky.xyz/" target="_blank" rel="noopener">official Decky installation guide</a>
-  <br>
-  <br>
-    <strong>Step 2:</strong> Once Decky is installed, access the Decky Plugin Store from your Quick Access Menu
-  <br>
-  <br>
-    <strong>Step 3:</strong> Search for "Junk Store" and install the plugin
-  <br>
-  <br>
-    <strong>Step 4:</strong> The plugin will appear in your Decky menu after installation
-  <br>
-  <br>
-    For detailed instructions, visit our <a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a> page.
+  <ol>
+    <li>Install Decky Loader by following the <a href="https://wiki.deckbrew.xyz/en/user-guide/home" target="_blank" rel="noopener">official Decky installation guide</a></li>
+    <li>Once Decky is installed, access the Decky Plugin Store from your Quick Access Menu</li>
+    <li>Search for "Junk Store" and install the plugin</li>
+    <li>The plugin will appear in your Decky menu after installation</li>
+  </ol>
+    For detailed instructions, refer to our <a href="{{ '/tutorials/plugin/Install' | relative_url }}">Junk Store Decky Plugin Install Guide</a>.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="access-junk-store">
   <summary>How do I access Junk Store after installation?</summary>
   <p></p>
     After installing the Decky plugin, access Junk Store through the <strong>Decky Loader menu</strong>:
-  <ul>
+  <ol>
     <li>Press the <strong>three-dot button</strong> (Quick Access Menu) on your Steam Deck</li>
     <li>Look for the <strong>Decky</strong> icon in the menu</li>
     <li>Select <strong>Junk Store</strong> from the plugin list</li>
-  </ul>
+  </ol>
     The plugin opens directly in Game Mode without requiring Desktop Mode switching.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="first-steps-after-install">
   <summary>What should I do first after installing the Decky plugin?</summary>
   <p></p>
-    <strong>Step 1:</strong> Open Junk Store from the Decky menu<br>
-    <strong>Step 2:</strong> Go to the <strong>Epic</strong> tab and log into your Epic Games account<br>
-    <strong>Step 3:</strong> Your Epic Games library will automatically sync and appear<br>
-    <strong>Step 4:</strong> (Optional) Install the GOG extension if you want GOG game support
-  <br>
-  <br>
+  <ol>
+    <li>Open Junk Store from the Decky menu</li>
+    <li>Go to the <strong>Epic</strong> tab and log into your Epic Games account</li>
+    <li>Your Epic Games library will automatically sync and appear</li>
+    <li>(Optional) Download and install the GOG extension if you want GOG game support (paid)</li>
+  </ol>
     <strong>Note:</strong> The initial library sync can take a few minutes as Junk Store builds the database for your games.
   <br>
   <br>
     For GOG support, you'll need to purchase the GOG extension separately from the <a href="https://portal.junkstore.xyz/" target="_blank">Junk Store Portal</a>.
+</details>
+
+<details class="faq-box" id="games-missing-a-through-l">
+  <summary>Why can I only see games A-L in my Epic/GOG library?</summary>
+  <p></p>
+    <strong>This is normal behavior for the Decky plugin.</strong> The free Decky version only loads your first 100 games by default for performance optimization.
+  <br>
+  <br>
+    <strong>To see your full library:</strong>
+    <ol>
+      <li>Open your Epic or GOG library in Junk Store</li>
+      <li>Navigate to any game in the list (move out of the search field)</li>
+      <li>Look for the bottom menu with <strong>"SHOW ALL"</strong> button</li>
+      <li>Press the <strong>Y button</strong> on your Steam Deck</li>
+      <li>Wait a moment for your complete library to load</li>
+    </ol>
+    <strong>Can't see the "SHOW ALL" button?</strong>
+    <ul>
+      <li>Your CSS Loader theme might be hiding the bottom menu</li>
+      <li>Try temporarily disabling your CSS theme to access the button</li>
+      <li>You can still search for specific games by name</li>
+    </ul>
+    <strong>Note:</strong> Each store (Epic, GOG, Amazon) needs "SHOW ALL" pressed separately.
 </details>
 
 
@@ -155,10 +139,6 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 
 <h2 id="gog-extension">GOG Extension</h2>
 
-<div class="section-summary">
-  <h3>GOG Extension - <span class="question-count">5 Questions</span></h3>
-  <p>Purchase information, pricing, DOS/ScummVM support, and extension capabilities.</p>
-</div>
 
 <div class="gog-extension-info">
   <p>GOG extension updates are now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</p>
@@ -168,18 +148,36 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
   <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
     <strong>Note:</strong> The GOG extension is currently in <strong>maintenance-only</strong> mode. This means we'll continue fixing bugs and ensuring compatibility, but we're not actively adding new features. Continued support depends on user interest and purchases.
   </p>
-
-  <a href="https://portal.junkstore.xyz/" class="button gog-extension-button" style="margin-right: 10px;" target="_blank" rel="noopener noreferrer">Get the GOG Extension</a>
 </div>
 
-<details class="faq-box">
+<details class="faq-box" id="find-gog-extension">
   <summary>Where can I find the GOG extension?</summary>
   <p></p>
-    It is exclusively available through the Junk Store portal. You can purchase access there with a one-time payment from the <a href="https://portal.junkstore.xyz/" target="_blank">Junk Store Portal</a>.<br><br>
+    You can purchase access with a one-time payment via three different methods:<br><br>
+    
+    <div class="purchase-buttons-container">
+      <a href="https://portal.junkstore.xyz/" target="_blank" class="purchase-button portal-button">
+        <span class="button-text">🏆 Junk Store Portal</span>
+        <span class="button-subtitle">Recommended - Easy updates!</span>
+      </a>
+      
+      <a href="https://www.patreon.com/junkstore" target="_blank" class="purchase-button patreon-button">
+        <span class="button-text">Patreon Shop</span>
+      </a>
+      
+      <a href="https://ko-fi.com/junkstore" target="_blank" class="purchase-button kofi-button">
+        <span class="button-text">Ko-fi Shop</span>
+      </a>
+    </div>
+
+    <p><strong>⚠️ Important:</strong> GOG extension updates are now exclusively available via the Junk Store Portal. This makes it faster for us to deliver updates and much easier for you to download and install them.</p>
+
+    <p><strong>📝 Note:</strong> There will be a delay in migrating new Patreon/Ko-fi customers to the Portal system. If you want instant access to the most up-to-date GOG extension version, purchase directly through the Junk Store Portal.</p>
+    
     Once you have it, you have it. We can't take away GOG functionality/integration with the Junk Store plugin. All funds go back into the enhancement and development of Junk Store.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="why-gog-not-free">
   <summary>Why isn't GOG free to use?</summary>
   <p></p>
     GOG support is available to paid supporters, and while we'd love to offer it for free, there's a lot of behind-the-scenes work and resources involved in creating and maintaining Junk Store. We appreciate your understanding and support as we continue to improve and expand Junk Store. All funds go back into the enhancement and development of Junk Store.
@@ -187,37 +185,22 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 
 
 
-<details class="faq-box">
+<details class="faq-box" id="gog-dos-scummvm-support">
   <summary>Does the GOG extension support DOS and ScummVM games?</summary>
   <p></p>
      <strong>No.</strong> DOS games and some ScummVM titles are not supported by the GOG extension in the Decky version of Junk Store.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="gog-native-linux-support">
   <summary>Does the GOG extension support native Linux games?</summary>
   <p></p>
     No — the GOG extension is designed for Windows games running through Proton. Native Linux games from GOG are not currently supported, as Junk Store relies on Proton's compatibility layer for game execution and integration.
 </details>
 
-
-
-<details class="faq-box">
-  <summary>Can I use the GOG extension with games I already installed using other third-party solutions?</summary>
-  <p></p>
-    <strong>No.</strong> Junk Store manages its own installations and environment. Games installed through other launchers (like Heroic, Lutris, or Bottles) are not recognized or managed by the GOG extension.
-  <br>
-  <br>
-      If you want to use the GOG extension to manage a game, you'll need to install it again through Junk Store directly.
- </details>
-
 <h2 id="game-management">Game Management</h2>
 
-<div class="section-summary">
-  <h3>Game Management - <span class="question-count">11 Questions</span></h3>
-  <p>Installation, uninstallation, save data, storage, Proton versions, and best practices.</p>
-</div>
 
-<details class="faq-box">
+<details class="faq-box" id="install-uninstall-game">
   <summary>How do I install or uninstall a game?</summary>
   <p></p>
   <strong>To install a game in Junk Store:</strong>
@@ -230,7 +213,7 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
     <li>Open the game's page in Junk Store.</li>
     <li>
       Open the <strong>☰ Slider menu</strong> and select <strong>Uninstall</strong>.<br>
-      <em>Note:</em> You may want to write down the game's SteamID so you can locate it later in your <code>compatdata</code> and <code>shadercache</code> folders.
+      <em>Note:</em> You may want to write down the game's SteamID so you can locate it later in your <code>compatdata</code> and <code>shadercache</code> folders to delete any potential leftover files.
     </li>
     <li>
       Manually delete any leftover files to free up space or completely remove the game:
@@ -244,7 +227,7 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
   <strong>Important:</strong> Uninstalling a game will remove all local save data. Be sure to back up your saves first if you want to keep them.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="find-save-data">
   <summary>How do I find save data for my games?</summary>
   <p></p>
   <ol>
@@ -264,31 +247,33 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
     </li>
   </ol>
     Each game may store saves in slightly different locations depending on how it was packaged or ported. Look under <code>AppData</code>, <code>Local Settings</code>, or <code>Documents</code> within the Steam compatibility prefix.
+    
+    <p><strong>💡 Pro Tip:</strong> For exact save file locations, search for your game on <a href="https://www.pcgamingwiki.com/" target="_blank" rel="noopener">PCGamingWiki.com</a> - they have detailed save location information for thousands of games.</p>
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="change-download-location">
   <summary>How do I change where games are downloaded?</summary>
   <p></p>
     You can set your preferred download location from the Epic tab:
-  <ul>
+  <ol>
     <li>Go to the <strong>Epic</strong> tab</li>
     <li>Click the <strong>⚙️ Gear icon</strong> to open settings</li>
     <li>Set your desired download path (e.g. your SD card directory)</li>
-    <li>Press <kbd>X</kbd> to save your changes.</li>
-  </ul>
+    <li>Press <kbd>X</kbd> to save your changes</li>
+  </ol>
   <strong>For GOG games:</strong> Similar process but from the GOG extension interface after installation.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="move-games-sd-card">
   <summary>Can I move games to my SD card?</summary>
   <p></p>
-    Not at the moment. It's a complex feature and on our development roadmap. For now, games need to be stored on internal storage or an already-mounted drive.
+    No, not possible. This is a complex feature that we're not planning to implement, but we're open if someone wants to contribute a pull request for this feature.
   <br>
   <br>
     <strong>Workaround:</strong> Set your download location to your SD card before installing new games.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="change-proton-version">
   <summary>How do I change the Proton version for a game?</summary>
   <p></p>
     You can do this from either your Steam Library or directly inside Junk Store.
@@ -309,32 +294,22 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
       <li>Relaunch the game</li>
     </ol>
     Once you've selected a version, back out to the game screen and hit <strong>Play</strong>.
+  <br>
+  <br>
+    <strong>Need Proton GE?</strong> See our <a href="{{ '/troubleshooting/decky/' | relative_url }}#proton-ge-installation">Decky Troubleshooting guide</a> for installation instructions.
 </details>
 
-<details class="faq-box">
-  <summary>I don't have Proton GE or don't know how to install it.</summary>
-  <p></p>
-    To get Proton GE or other custom versions of Proton, you can use one of the following tools:
-  <ul>
-    <li><strong>ProtonUp-QT</strong> — A simple app that lets you download and manage Proton versions. You can find it in the <strong>Discover Store</strong> (in Desktop Mode).</li>
-    <li><strong>Wine Cellar</strong> — A Decky plugin that works similarly to ProtonUp-QT. If you already have Decky installed for other plugins, you can install Wine Cellar directly from the <strong>Decky Plugin Store</strong>.</li>
-  </ul>
-    Once installed, use either tool to download the latest <strong>GE-Proton</strong> release. After that, you'll be able to select it as a compatibility option in Junk Store.
-    <br>
-    <br>
-    Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}"> Plugin Tutorials</a> page to see how to change/check your Proton version if you are unsure how to do this.
-</details>
 
-<details class="faq-box">
+<details class="faq-box" id="use-with-other-solutions">
   <summary>Can I use Junk Store with games I already installed using other third-party solutions?</summary>
   <p></p>
     <strong>No.</strong> Junk Store manages its own installations and environment. Games installed through other launchers (like Heroic, Lutris, or Bottles) are not recognized or managed by Junk Store.
   <br>
   <br>
-      If you want to use Junk Store to manage a game, you'll need to install it again through Junk Store directly.
+    <strong>This applies to both Epic and GOG games.</strong> If you want to use Junk Store to manage a game, you'll need to install it again through Junk Store directly.
  </details>
 
-<details class="faq-box">
+<details class="faq-box" id="cloud-saves-support">
   <summary>Does Junk Store support cloud saves?</summary>
   <p></p>
     <strong>No, cloud saves are not supported.</strong> We don't want users to run the risk of losing their game saves.
@@ -348,7 +323,7 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
   </ul>
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="automatic-dlc-install">
   <summary>Does Junk Store automatically install DLC content?</summary>
   <p></p>
     <strong>Yes, DLC is installed automatically by default.</strong>
@@ -367,7 +342,7 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
     We're aware of these limitations, but right now we don't have the resources to fully address them.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="keep-open-while-downloading">
   <summary>Do I need to keep Junk Store open while downloading games?</summary>
   <p></p>
     <strong>Yes.</strong> Junk Store doesn't have a background download queue. If you close or leave the plugin, your download may stop or behave unpredictably.
@@ -381,7 +356,7 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
     <strong>Important:</strong> Stay on the game page until installation is complete to ensure reliable downloads.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="usage-tips-best-practices">
   <summary>What are some general usage tips and best practices?</summary>
   <p></p>
     <strong>How games integrate:</strong>
@@ -397,11 +372,11 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
     <li>Back up save files before uninstalling games</li>
     <li>Use custom Proton versions (like GE-Proton) for better compatibility</li>
     <li>Set download locations to SD card to save internal storage</li>
-    <li>Write down Steam IDs before uninstalling (for save data recovery)</li>
+    <li>Write down Steam IDs before uninstalling (to clean lingering compatdata files)</li>
   </ul>
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="change-fps-performance-settings">
   <summary>How do I change the FPS or performance settings for games?</summary>
   <p></p>
     Just like with regular Steam games, you can change the FPS cap and other performance settings through the Quick Access Menu (QAM).
@@ -415,12 +390,8 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 
 <h2 id="game-compatibility">Game Compatibility</h2>
 
-<div class="section-summary">
-  <h3>Game Compatibility - <span class="question-count">4 Questions</span></h3>
-  <p>Third-party launchers, anti-cheat systems, specific games, and tool integration.</p>
-</div>
 
-<details class="faq-box">
+<details class="faq-box" id="third-party-launchers">
   <summary>Do games requiring third-party launchers (EA, Ubisoft, etc.) work?</summary>
   <p></p>
     <strong>Generally not supported.</strong> While Legendary has limited support for third-party launchers, this feature isn't implemented in Junk Store yet.
@@ -446,22 +417,12 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
     <strong>Workarounds:</strong> Advanced users can attempt manual setup via CLI or modify extension scripts, but this requires technical knowledge and isn't officially supported.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="anti-cheat-games">
   <summary>What about games with anti-cheat systems (including Fortnite)?</summary>
   <p></p>
     <strong>General Anti-Cheat Compatibility:</strong> Most games with BattlEye and Easy Anti-Cheat (EAC) that work on Steam Deck should also work through Junk Store, since they use the same Proton compatibility layer.
   <br>
   <br>
-    <strong>Known Working:</strong>
-  <ul>
-    <li>Games with Steam-verified anti-cheat support typically work fine</li>
-    <li>Most BattlEye and EAC games function normally through Junk Store</li>
-  </ul>
-    <strong>Known Issues:</strong>
-  <ul>
-    <li>Some anti-cheat systems may not recognize non-Steam game launches</li>
-    <li>Newer or more restrictive anti-cheat systems may cause problems</li>
-  </ul>
     <strong>❌ Fortnite Specifically:</strong>
   <ul>
     <li><strong>Does not work</strong> - Epic Games does not support Fortnite on Linux due to anti-cheat policy</li>
@@ -470,9 +431,12 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
     <li>More info: <a href="https://www.theverge.com/2022/2/8/22923163/fortnite-steam-deck-update-epic-tim-sweeney" target="_blank" rel="noopener">The Verge article</a></li>
   </ul>
     <strong>Best Practice:</strong> Check <a href="https://www.protondb.com" target="_blank" rel="noopener">ProtonDB</a> for compatibility reports specific to your anti-cheat games before installing.
+  <br>
+  <br>
+    📋 <strong>Check our testing:</strong> Visit our <a href="/tested-games/">Games Tested table</a> to see which anti-cheat games have been tested and their compatibility status.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="kingdom-hearts-support">
   <summary>Can I play Kingdom Hearts via Junk Store?</summary>
    <p></p>
     Kingdom Hearts has known compatibility issues on Linux, and this isn't specific to Junk Store.
@@ -482,7 +446,7 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 </details>
 
 
-<details class="faq-box">
+<details class="faq-box" id="cheatdeck-compatibility">
   <summary>Does CheatDeck work with Junk Store?</summary>
   <p> </p>
     Not reliably. Epic game launch options are very sensitive, and tools like CheatDeck can conflict with Junk Store's configuration. We've spent over 100 hours fine-tuning this — so use with caution.
@@ -493,12 +457,8 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 
 <h2 id="technical-support">Technical Support</h2>
 
-<div class="section-summary">
-  <h3>Technical Support - <span class="question-count">3 Questions</span></h3>
-  <p>Bug reporting, feature requests, and community help resources.</p>
-</div>
 
-<details class="faq-box">
+<details class="faq-box" id="report-bug">
   <summary>I think I've found a bug. How do I report it?</summary>
   <p></p>
     We really appreciate bug reports! Like you, we want Junk Store to just work—so if you come across a bug, please let us know. If we don't know about it, we can't fix it.
@@ -514,7 +474,7 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
     <strong>Note:</strong> Bug reports aren't support tickets. If you need help or aren't sure if it's a bug, please ask in our <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord server</a> first.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="request-features">
   <summary>How do I request features or get X feature added?</summary>
  <p></p>
   <strong>We prefer feature requests via GitHub where they can be tracked:</strong><br>
@@ -529,7 +489,7 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
   <strong>Alternative:</strong> Discuss ideas first in our Discord community before submitting requests.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="get-help-stuck">
   <summary>Where can I get help if I'm stuck?</summary>
   <p></p>
     <strong>Community Support:</strong> Our community is very helpful for troubleshooting and general questions.
@@ -548,16 +508,75 @@ Welcome to the complete Junk Store Decky Plugin FAQ! This page covers everything
 **Need more help?** 
 - **Decky Plugin Installation:** [Decky Plugin Help](/deckyhelp/) 
 - **Step-by-step tutorials:** [Plugin Tutorials](/plugin_tutorials/)
-- **Community support:** [r/JunkStore subreddit](https://www.reddit.com/r/JunkStore/) or [Discord](https://discord.gg/6mRUhR6Teh)
+- **Community support:** 
+  <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
+    <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
+  </a>
+  <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
+    <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
+  </a>
 
 <!-- Final navigation - Back to top buttons -->
 <div class="section-end">
   <a href="#top" class="back-to-top">↑ Back to Top</a>
-  <a href="#" onclick="document.querySelector('.faq-quick-nav').scrollIntoView({behavior: 'smooth'}); return false;" class="back-to-nav">🧭 Quick Navigation</a>
 </div>
 
 <!-- Mobile floating action button -->
 <a href="#top" class="faq-mobile-fab" id="mobile-fab">↑</a>
+
+<style>
+.faq-anchor {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8em;
+  margin-left: 8px;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.faq-anchor:hover {
+  opacity: 1;
+}
+
+.faq-box summary:hover .faq-anchor {
+  opacity: 0.8;
+}
+
+.community-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  margin-left: 8px;
+  color: white;
+}
+
+.discord-btn {
+  background: #5865f2;
+  color: white !important;
+}
+
+.reddit-btn {
+  background: #ff4500;
+  color: white !important;
+}
+
+.community-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+</style>
 
 <script>
 // Show/hide mobile FAB based on scroll position
@@ -717,5 +736,102 @@ document.addEventListener('DOMContentLoaded', function() {
     totalQuestions = document.querySelectorAll('.faq-box').length;
     searchInfo.textContent = `Showing all ${totalQuestions} questions`;
   }, 100);
+
+  // Handle direct links to FAQ items
+  function openLinkedFAQ() {
+    if (window.location.hash) {
+      const targetId = window.location.hash.substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement && targetElement.tagName === 'DETAILS') {
+        targetElement.open = true;
+        setTimeout(() => {
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          targetElement.style.boxShadow = '0 0 10px rgba(59, 130, 246, 0.5)';
+          setTimeout(() => {
+            targetElement.style.boxShadow = '';
+          }, 3000);
+        }, 100);
+      }
+    }
+  }
+
+  // Add anchor buttons to all FAQ questions
+  function addAnchorButtons() {
+    const faqBoxes = document.querySelectorAll('.faq-box[id]');
+    faqBoxes.forEach(box => {
+      const summary = box.querySelector('summary');
+      const id = box.getAttribute('id');
+      if (summary && id && !summary.querySelector('.faq-anchor')) {
+        const anchorButton = document.createElement('button');
+        anchorButton.className = 'faq-anchor';
+        anchorButton.setAttribute('onclick', `copyFAQLink('${id}')`);
+        anchorButton.setAttribute('title', 'Copy link to this question');
+        anchorButton.innerHTML = '🔗';
+        summary.appendChild(document.createTextNode(' '));
+        summary.appendChild(anchorButton);
+      }
+    });
+  }
+
+  // Initialize anchor functionality
+  addAnchorButtons();
+  openLinkedFAQ();
+  window.addEventListener('hashchange', openLinkedFAQ);
 });
+
+// Copy FAQ link function (global scope for onclick handlers)
+function copyFAQLink(questionId) {
+  const url = window.location.origin + window.location.pathname + '#' + questionId;
+  
+  function showNotification(message, isError = false) {
+    const notification = document.createElement('div');
+    notification.className = 'copy-success';
+    notification.style.cssText = `
+      position: fixed; top: 20px; right: 20px; z-index: 1000;
+      background: ${isError ? '#ef4444' : '#10b981'}; color: white;
+      padding: 12px 20px; border-radius: 6px; font-size: 14px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    `;
+    notification.textContent = message;
+    document.body.appendChild(notification);
+    
+    setTimeout(() => {
+      if (document.body.contains(notification)) {
+        document.body.removeChild(notification);
+      }
+    }, 3000);
+  }
+  
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(url).then(() => {
+      showNotification('Link copied to clipboard!');
+    }).catch(() => {
+      fallbackCopy();
+    });
+  } else {
+    fallbackCopy();
+  }
+  
+  function fallbackCopy() {
+    try {
+      const textArea = document.createElement('textarea');
+      textArea.value = url;
+      textArea.style.cssText = 'position:fixed;left:-9999px;top:-9999px;';
+      textArea.setAttribute('readonly', '');
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      const successful = document.execCommand('copy');
+      document.body.removeChild(textArea);
+      
+      if (successful) {
+        showNotification('Link copied to clipboard!');
+      } else {
+        showNotification('Copy failed. URL: ' + url, true);
+      }
+    } catch (err) {
+      showNotification('Copy failed. URL: ' + url, true);
+    }
+  }
+}
 </script>

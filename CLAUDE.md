@@ -1,3 +1,7 @@
+---
+search: false
+---
+
 # CLAUDE.md - Junk Store Website Project Context
 **Documentation Organized:** July 29, 2025 - All project files now in unified `docs/` structure
 
@@ -201,12 +205,13 @@ assets/lib
 12. ✅ **itch.io Store Integration** - COMPLETED: Added itch.io store badge with official branding, ready for future game testing
 
 **CURRENT FOCUS AREAS:**
-1. 🖼️ **Game Images Integration** - Connect SQLite database images to optimized table system
-2. 🎯 **Mobile Performance Optimization** - Continue improvements for 60% of traffic
-3. 🔥 **Secondary Page Enhancement** - Strengthen competitive messaging on About, Gallery pages
-4. 📊 **Conversion Optimization** - Monitor and improve trial signup flow
-5. 🚀 **Content Strategy** - Consider tutorial video production for competitive advantage
-6. ⚡ **Performance Monitoring** - Maintain 40% size reduction and loading speed gains
+1. ✅ **Blog System** - COMPLETED: Full blog implementation with navigation, TOC, and templates
+2. 🖼️ **Game Images Integration** - Connect SQLite database images to optimized table system
+3. 🎯 **Mobile Performance Optimization** - Continue improvements for 60% of traffic
+4. 🔥 **Secondary Page Enhancement** - Strengthen competitive messaging on About, Gallery pages
+5. 📊 **Conversion Optimization** - Monitor and improve trial signup flow
+6. 🚀 **Content Strategy** - Blog templates ready for regular content creation
+7. ⚡ **Performance Monitoring** - Maintain 40% size reduction and loading speed gains
 
 ## Recent Technical Implementation (August 7, 2025)
 
@@ -280,6 +285,43 @@ assets/lib
 - Stats counter hidden until itch.io game testing begins
 - Easy re-activation by uncommenting stats display code
 - Badge styling ready for immediate use with itch.io games
+
+### Comprehensive Blog System - COMPLETED ✅ (September 1, 2025)
+**Complete blog implementation with professional navigation and content management:**
+
+**Blog Landing Page Features:**
+- ✅ **2-Card Hero Layout**: Tip of the Week + Weekly Games Tested featured prominently
+- ✅ **Smart Category Filtering**: All Posts, Weekly Updates, Tips & Tricks, Game Spotlights, Feature Releases
+- ✅ **Pagination System**: Load More functionality with smooth animations and post counting
+- ✅ **Back-to-Top Button**: Fixed positioning with blue gradient theme matching
+- ✅ **Mobile Responsive**: Optimized layout for mobile users (60% of traffic)
+
+**Individual Blog Post Enhancements:**
+- ✅ **Sticky TOC System**: Auto-generated table of contents that slides in from right side
+- ✅ **Smart TOC Behavior**: Shows/hides based on scroll position, highlights active sections
+- ✅ **Collapsible TOC**: Toggle with localStorage memory, custom scrollbar styling
+- ✅ **Back-to-Top Button**: Left-side positioning to avoid TOC conflicts
+- ✅ **Game Thumbnail Integration**: Support for game artwork in blog posts with flexbox layout
+
+**Content Templates Created:**
+- ✅ **Tip of the Week**: Steam Deck tips and shortcuts with step-by-step guides
+- ✅ **Game Spotlight**: In-depth game reviews with compatibility analysis
+- ✅ **Feature Release**: New Junk Store feature announcements and usage guides
+- ✅ **Weekly Update**: Game compatibility testing results (existing format enhanced)
+
+**Technical Implementation:**
+- Blog collection configured in `_config.yml` with permalink structure
+- Custom `post.html` layout with enhanced meta information and CTA footer
+- JavaScript-based filtering and pagination with category-aware logic
+- Professional sliding animations and hover effects throughout
+- Blue gradient theme consistency with site design
+- Hidden on mobile for optimal user experience
+
+**SEO and Content Strategy:**
+- Clean URL structure: `/blog/post-title/`
+- Category-based content organization for easy discovery
+- Internal linking strategy to drive traffic between site sections
+- Meta descriptions and structured data for search engines
 
 ### Optimized Games Table System - COMPLETED ✅
 **Successfully implemented and refined static optimized games table with full isolation:**

@@ -50,6 +50,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  posts:
+    output: true
+    permalink: /blog/:slug/
 
 
 # Categories
@@ -155,8 +158,14 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - docs/
+  - CLAUDE.md
+  - "*.backup"
   - test
-  - docs
+  - assets/lib/
+  - assets/images/backups/
+  - tested-games-new/
+  - _archive/
 keep_files:
   - .git
 

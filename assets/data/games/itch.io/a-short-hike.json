@@ -37,9 +37,9 @@
   "genre": "Adventure, Indie",
   "description": "Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak Provincial Park as you make your way to the summit.",
   "size": "",
-  "vertical_artwork": "https://images.gog.com/7cffad16560764af2a9cfdb34df54b12bd3e042913e7219b9a8f7e647a053097.jpg?namespace=gamesdb",
-  "banner_image": "https://images.gog.com/6cd02e02bc691cb846b8f6bea011ac7330cd34bc2076fd92f520aab08c5508d6.jpg?namespace=gamesdb",
-  "icon_image": "",
+  "vertical_artwork": "https://images.gog.com/6cd02e02bc691cb846b8f6bea011ac7330cd34bc2076fd92f520aab08c5508d6.jpg?namespace=gamesdb",
+  "banner_image": "https://images.gog.com/7cffad16560764af2a9cfdb34df54b12bd3e042913e7219b9a8f7e647a053097.jpg?namespace=gamesdb",
+  "icon_image": "https://images.gog.com/cd47889e20a77f77678ec48cc764c50871182cd5066ef776693296416022f9eb.jpg?namespace=gamesdb",
   "steamId": "1055540",
   "game_modes": [
     "Single player"

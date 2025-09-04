@@ -3,12 +3,14 @@ main:
   - title: "Junk Store 2.0"
     url: "/2.0-hub/"
   - title: "Decky Plugin"
-    url: /deckyhub/
+    url: /deckyhelp/
   - title: "Plugin vs 2.0"
     url: /comparison/
-  - title: "Game Compatibility"
+  - title: "Tested Games"
     url: /tested-games/
-  - title: "Media Gallery"
+  - title: "What's New"
+    url: /blog/
+  - title: "Gallery"
     url: /gallery/
   - title: "About"
     url: /about/

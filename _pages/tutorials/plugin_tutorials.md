@@ -1,12 +1,17 @@
 ---
 layout: splash
-title: "Tutorials & Guides - Junk Store Plugin"
+title: "Junk Store Decky Plugin Tutorials"
+description: "Step-by-step tutorials for the free Junk Store Decky plugin on Steam Deck. Learn to play Epic Games & GOG games in Game Mode without Desktop Mode switching."
 permalink: /plugin_tutorials/
 classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.jpg
+  actions:
+    - label: "Get Junk Store 2.0"
+      url: "/buy_now/"
+      class: "button buy-button"
 ---
 <div class="spacer mt-4"></div>
 
@@ -14,12 +19,9 @@ header:
 <section class="tutorials-welcome">
   <h2>Welcome to Our 'How To' Guides</h2>
   <p>
-    Here you'll find step-by-step tutorials designed to help you get the most out of Junk Store. Whether you're just getting started or looking for advanced tips, these guides cover a wide range of topics — from setup and login to dependencies and troubleshooting.
-  </p>
-  <p>
-    Got questions or need a guide we haven’t written yet? Reach out on 
-    <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener noreferrer">Discord</a> or 
-    <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener noreferrer">Reddit</a>.
+     Here you'll find step-by-step tutorials to help you get the most out of the free Junk Store Decky plugin — whether you're just getting started or looking for advanced tips.<br><br>
+     
+    Currently, we have guides on plugin installation, authentication, Proton management, and dependency setup. More tutorials are coming soon!
   </p>
 </section>
 
@@ -81,3 +83,55 @@ header:
   </div> -->
 
 </div>
+
+<!-- Need Help Section -->
+<section class="need-help-section" style="margin-top: 2rem; padding: 1.5rem 2rem; background: rgba(255,255,255,0.03); border-radius: 8px;">
+  <h2 style="margin-top: 0;">Still Need Help?</h2>
+  <p>If these tutorials didn't solve your issue, here are additional resources:</p>
+  <ul>
+    <li><strong>Quick answers:</strong> <a href="/faq/decky/">Decky Plugin FAQ</a></li>
+    <li><strong>Technical problems:</strong> <a href="/troubleshooting/decky/">Troubleshooting Guide</a></li>
+    <li><strong>Community support:</strong> 
+      <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
+        <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
+      </a>
+      <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
+        <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
+      </a>
+    </li>
+  </ul>
+</section>
+
+<style>
+.community-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  margin-left: 8px;
+  color: white;
+}
+
+.discord-btn {
+  background: #5865f2;
+  color: white !important;
+}
+
+.reddit-btn {
+  background: #ff4500;
+  color: white !important;
+}
+
+.community-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+</style>
