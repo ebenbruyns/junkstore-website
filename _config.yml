@@ -165,6 +165,7 @@ exclude:
   - assets/lib/
   - assets/images/backups/
   - tested-games-new/
+  - _archive/
 keep_files:
   - .git
 
