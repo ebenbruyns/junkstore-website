@@ -10,7 +10,11 @@
   {%- assign search_provider = site.search_provider | default: "lunr" -%}
   {%- case search_provider -%}
     {%- when "lunr" -%}
-      {% include_cached search/lunr-search-scripts.html %}
+      {% if page.layout == "search" %}
+        {% include_cached search/lunr-search-scripts.html %}
+      {% else %}
+        {% include_cached search/lunr-search-scripts-deferred.html %}
+      {% endif %}
     {%- when "google" -%}
       {% include_cached search/google-search-scripts.html %}
     {%- when "algolia" -%}
