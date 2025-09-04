@@ -12,12 +12,12 @@ toc: true
 
 Kia ora Everyone! 
 
-We are back on the boat after being away for almost 3 months (basically all of winter here in NZ). Yesterday we had 50kt winds and rain - proper rough conditions - today it's still windy and rainy but much more manageable. Perfect weather really, to get some games testing done.
+We are back on the boat after being away for almost 3 months (basically all of winter here in NZ). Over the weekend we had 50kt winds and rain - proper rough conditions - today it's a beautiful sunny day and calm. Perfect weather catch up on some computer work without the fear getting seasick!
 
 ## Current System Setup
 * **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9  
-* **GOG Extension**: v0.1.8 (can be purchased & downloaded from the Junk Store Portal)
+* **GOG Extension**: v0.1.8 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.10 (Stable)
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: 3.7.8 (Stable)
@@ -157,13 +157,11 @@ We are back on the boat after being away for almost 3 months (basically all of w
 
 ## Next Week's Epic Giveaways
 
-Epic has announced next week's free games, and they look perfect for Steam Deck gaming:
+**<a href="https://store.epicgames.com/en-US/p/monument-valley-1d99d3" target="_blank">Monument Valley</a>**: A surreal exploration through fantastical architecture and impossible geometry. Guide the silent princess Ida through mysterious monuments, uncovering hidden paths, unfolding optical illusions, and outsmarting the enigmatic Crow People.
 
-**<a href="https://store.epicgames.com/en-US/p/monument-valley-1d99d3" target="_blank">Monument Valley</a>**: Beautiful puzzle adventure with stunning minimalist design and mind-bending perspective gameplay. Originally a mobile hit, this should be perfect for handheld gaming on Steam Deck.
+**<a href="https://store.epicgames.com/en-US/p/the-battle-of-polytopia-12fed6" target="_blank">The Battle of Polytopia</a>**: A turn-based strategic adventure. It's a game about ruling the world, fighting evil AI tribes, discovering new lands, and mastering new technologies.
 
-**<a href="https://store.epicgames.com/en-US/p/the-battle-of-polytopia-12fed6" target="_blank">The Battle of Polytopia</a>**: Turn-based strategy game with charming low-poly art style. Think Civilization meets mobile-friendly gameplay - ideal for those longer gaming sessions on the boat or couch.
-
-Both games look like they'll be excellent candidates for Junk Store compatibility testing. We'll also be testing whatever Amazon Prime gaming giveaways get announced this week. Full reports on all of them next week!
+Amazon Prime gaming giveaways yet to be announced.
 
 ## Looking Forward
 
@@ -171,10 +169,42 @@ It's great to be back and working from the boat again. Taking the last two weeks
 
 As always, if you've got any questions about these games or JunkStore in general, lets us know through our community channels. 
 
-Cheers from a much calmer (but still windy) Kawau Island!
+Cheers from a much calmer Kawau Island!
 
 ---
 
 *All compatibility information is based on real testing with the hardware and software versions listed above.*
 
-*Have questions about any of these featured games? Join our community on <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank">Reddit</a>!*
+*Have questions about any of these featured games? Join our community on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>!*
+
+<style>
+.community-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  margin-left: 8px;
+  color: white !important;
+}
+
+.discord-btn {
+  background: #5865f2;
+}
+
+.reddit-btn {
+  background: #ff4500;
+}
+
+.community-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: white !important;
+  opacity: 0.9;
+}
+</style>
