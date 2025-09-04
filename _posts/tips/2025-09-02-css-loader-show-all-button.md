@@ -10,7 +10,7 @@ read_time: "3 min read"
 toc: true
 ---
 
-**This Week's Pro Tip:** If you're using the free Decky plugin and only seeing the first 100 games in your Epic/GOG library, look for the <strong>"Press Y to Show All"</strong> prompt at the bottom of the screen!
+**This Week's Pro Tip:** If you're using the free Decky plugin and only seeing the first 100 games in your Epic/GOG library, look for the <strong>"Show All"</strong> prompt at the bottom of the screen!
 
 *Note: This tip applies to the free Decky plugin version. Junk Store 2.0 (paid version) loads up to 1000 games automatically.*
 
@@ -57,7 +57,7 @@ You've installed Junk Store and your Epic/GOG games are syncing perfectly, but y
 3. Look for the **"SHOW ALL"** button in the bottom menu (highlighted in red below)
 4. **Press the Y button** on your Steam Deck
 5. Wait a moment while your complete library loads
-6. All your M-Z games will now appear!
+6. The rest of your games will now appear!
 
 ![Junk Store bottom menu showing the SHOW ALL button](/assets/images/blog/pushY.png)
 *The "SHOW ALL" button is located in Junk Store's bottom menu - press Y to load your complete library!*
@@ -84,7 +84,7 @@ Sometimes CSS Loader themes hide or modify the bottom menu area where this promp
   <div class="game-details">
     <strong>Each Store Has Its Own Setting</strong>
     <div class="compatibility-info">
-      <div class="compatibility-line">Epic, GOG, and Amazon libraries each need "Press Y" separately</div>
+      <div class="compatibility-line">You need to press Y in each store separately - Epic and GOG each have their own "Show All" setting</div>
     </div>
   </div>
 </div>
