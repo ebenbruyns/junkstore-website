@@ -2,6 +2,7 @@
 layout: single
 title: "Redirecting..."
 permalink: /learnmore/
+search: false
 ---
 
 <script>
