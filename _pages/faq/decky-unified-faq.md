@@ -1,11 +1,9 @@
 ---
-layout: single
+layout: splash
 title: "Junk Store Decky Plugin FAQ"
 description: "Complete Junk Store Decky plugin FAQ for playing Epic & GOG games in Game Mode. Free plugin setup, features, compatibility, and usage guide."
 permalink: /faq/decky/
 classes: wide
-sidebar:
-  nav: "faq-nav"
 show_pagination: false
 header:
   overlay_color: "#000"
@@ -21,31 +19,6 @@ header:
 
 Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers everything about playing Epic Games and GOG games on Steam Deck using the free, open-source Decky plugin. Play your non-Steam games in Game Mode without switching to Desktop Mode.
 
-<div class="faq-quick-nav">
-  <h3>🧭 Quick Navigation - Jump to Section:</h3>
-  <div class="nav-grid">
-    <a href="#overview-getting-started" class="nav-card">
-      <strong>🔍 Overview & Setup</strong>
-      <span>Plugin differences, installation, and first steps</span>
-    </a>
-    <a href="#gog-extension" class="nav-card">
-      <strong>📦 GOG Extension</strong>
-      <span>Purchase info, DOS games, and native Linux support</span>
-    </a>
-    <a href="#game-management" class="nav-card">
-      <strong>⚙️ Game Management</strong>
-      <span>Install, uninstall, saves, Proton, and performance</span>
-    </a>
-    <a href="#game-compatibility" class="nav-card">
-      <strong>🎯 Compatibility</strong>
-      <span>EA, Ubisoft, specific games, and third-party tools</span>
-    </a>
-    <a href="#technical-support" class="nav-card">
-      <strong>🛠️ Support & Help</strong>
-      <span>Bug reports, feature requests, and community resources</span>
-    </a>
-  </div>
-</div>
 
 <!-- FAQ Search Interface -->
 <div class="faq-search-container">
@@ -61,10 +34,6 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 
 <h2 id="overview-getting-started">Overview & Getting Started</h2>
 
-<div class="section-summary">
-  <h3>Overview & Getting Started - <span class="question-count">6 Questions</span></h3>
-  <p>Plugin differences, security & credentials, installation, initial setup steps, and library navigation.</p>
-</div>
 
 <details class="faq-box" id="decky-vs-paid-version">
   <summary>What's the difference between the Decky version and the Paid version?</summary>
@@ -170,10 +139,6 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 
 <h2 id="gog-extension">GOG Extension</h2>
 
-<div class="section-summary">
-  <h3>GOG Extension - <span class="question-count">5 Questions</span></h3>
-  <p>Purchase information, pricing, DOS/ScummVM support, and extension capabilities.</p>
-</div>
 
 <div class="gog-extension-info">
   <p>GOG extension updates are now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</p>
@@ -206,6 +171,8 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     </div>
 
     <p><strong>⚠️ Important:</strong> GOG extension updates are now exclusively available via the Junk Store Portal. This makes it faster for us to deliver updates and much easier for you to download and install them.</p>
+
+    <p><strong>📝 Note:</strong> There will be a delay in migrating new Patreon/Ko-fi customers to the Portal system. If you want instant access to the most up-to-date GOG extension version, purchase directly through the Junk Store Portal.</p>
     
     Once you have it, you have it. We can't take away GOG functionality/integration with the Junk Store plugin. All funds go back into the enhancement and development of Junk Store.
 </details>
@@ -232,10 +199,6 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 
 <h2 id="game-management">Game Management</h2>
 
-<div class="section-summary">
-  <h3>Game Management - <span class="question-count">10 Questions</span></h3>
-  <p>Installation, uninstallation, save data, storage, Proton versions, and best practices.</p>
-</div>
 
 <details class="faq-box" id="install-uninstall-game">
   <summary>How do I install or uninstall a game?</summary>
@@ -250,7 +213,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <li>Open the game's page in Junk Store.</li>
     <li>
       Open the <strong>☰ Slider menu</strong> and select <strong>Uninstall</strong>.<br>
-      <em>Note:</em> You may want to write down the game's SteamID so you can locate it later in your <code>compatdata</code> and <code>shadercache</code> folders.
+      <em>Note:</em> You may want to write down the game's SteamID so you can locate it later in your <code>compatdata</code> and <code>shadercache</code> folders to delete any potential leftover files.
     </li>
     <li>
       Manually delete any leftover files to free up space or completely remove the game:
@@ -284,6 +247,8 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     </li>
   </ol>
     Each game may store saves in slightly different locations depending on how it was packaged or ported. Look under <code>AppData</code>, <code>Local Settings</code>, or <code>Documents</code> within the Steam compatibility prefix.
+    
+    <p><strong>💡 Pro Tip:</strong> For exact save file locations, search for your game on <a href="https://www.pcgamingwiki.com/" target="_blank" rel="noopener">PCGamingWiki.com</a> - they have detailed save location information for thousands of games.</p>
 </details>
 
 <details class="faq-box" id="change-download-location">
@@ -407,7 +372,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <li>Back up save files before uninstalling games</li>
     <li>Use custom Proton versions (like GE-Proton) for better compatibility</li>
     <li>Set download locations to SD card to save internal storage</li>
-    <li>Write down Steam IDs before uninstalling (for save data recovery)</li>
+    <li>Write down Steam IDs before uninstalling (to clean lingering compatdata files)</li>
   </ul>
 </details>
 
@@ -425,10 +390,6 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 
 <h2 id="game-compatibility">Game Compatibility</h2>
 
-<div class="section-summary">
-  <h3>Game Compatibility - <span class="question-count">4 Questions</span></h3>
-  <p>Third-party launchers, anti-cheat systems, specific games, and tool integration.</p>
-</div>
 
 <details class="faq-box" id="third-party-launchers">
   <summary>Do games requiring third-party launchers (EA, Ubisoft, etc.) work?</summary>
@@ -496,10 +457,6 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 
 <h2 id="technical-support">Technical Support</h2>
 
-<div class="section-summary">
-  <h3>Technical Support - <span class="question-count">3 Questions</span></h3>
-  <p>Bug reporting, feature requests, and community help resources.</p>
-</div>
 
 <details class="faq-box" id="report-bug">
   <summary>I think I've found a bug. How do I report it?</summary>
@@ -562,7 +519,6 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 <!-- Final navigation - Back to top buttons -->
 <div class="section-end">
   <a href="#top" class="back-to-top">↑ Back to Top</a>
-  <a href="#" onclick="document.querySelector('.faq-quick-nav').scrollIntoView({behavior: 'smooth'}); return false;" class="back-to-nav">🧭 Quick Navigation</a>
 </div>
 
 <!-- Mobile floating action button -->

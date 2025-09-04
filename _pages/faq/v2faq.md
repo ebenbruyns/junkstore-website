@@ -1,11 +1,9 @@
 ---
-layout: single
+layout: splash
 title: "Junk Store 2.0 FAQ"
 description: "Complete Junk Store 2.0 FAQ for playing Epic, GOG, Amazon & itch games on Steam Deck. Standalone app features, pricing, trial info, and technical support."
 permalink: /2.0faq/
 classes: wide
-sidebar:
-  nav: "faq-nav"
 show_pagination: false
 header:
   overlay_color: "#000"
@@ -21,35 +19,6 @@ header:
 
 This is the official Junk Store FAQ, where you'll find answers to the most commonly asked questions. We update this page regularly as new features roll out and feedback comes in.
 
-<div class="faq-quick-nav">
-  <h3>🧭 Quick Navigation - Jump to Section:</h3>
-  <div class="nav-grid">
-    <a href="#overview-trial" class="nav-card">
-      <strong>🔍 Overview</strong>
-      <span>Key differences, trial details, and subscription info</span>
-    </a>
-    <a href="#licensing-account-management" class="nav-card">
-      <strong>📋 Licensing</strong>
-      <span>Device limits, license model, and free version status</span>
-    </a>
-    <a href="#getting-started-setup" class="nav-card">
-      <strong>🚀 Getting Started</strong>
-      <span>Step-by-step setup and first steps</span>
-    </a>
-    <a href="#using-junk-store" class="nav-card">
-      <strong>🎮 Using Junk Store</strong>
-      <span>Game management and features</span>
-    </a>
-    <a href="#game-compatibility--support" class="nav-card">
-      <strong>🎯 Game Compatibility</strong>
-      <span>Supported games and platforms</span>
-    </a>
-    <a href="#generaltechnical-details" class="nav-card">
-      <strong>⚙️ Technical Details</strong>
-      <span>Security, updates, and comparisons</span>
-    </a>
-  </div>
-</div>
 
 <!-- FAQ Search Interface -->
 <div class="faq-search-container">
@@ -65,10 +34,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <h2 id="overview-trial">Overview & Trial Information</h2>
 
-<div class="section-summary">
-  <h3>Overview & Trial Information - <span class="question-count">5 Questions</span></h3>
-  <p>Security, key differences, trial details, and subscription pricing.</p>
-</div>
 
 <details class="faq-box" id="is-junk-store-trustworthy">
   <summary>Is Junk Store trustworthy and how are my credentials handled?</summary>
@@ -194,10 +159,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <h2 id="licensing-account-management">Licensing & Account Management</h2>
 
-<div class="section-summary">
-  <h3>Licensing & Account Management - <span class="question-count">3 Questions</span></h3>
-  <p>Device limits, license model details, and free version availability.</p>
-</div>
 
 <details class="faq-box" id="how-many-devices">
   <summary>How many devices can I install Junk Store on?</summary>
@@ -252,10 +213,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <h2 id="getting-started-setup">Getting Started & Setup</h2>
 
-<div class="section-summary">
-  <h3>Getting Started & Setup - <span class="question-count">3 Questions</span></h3>
-  <p>Step-by-step setup guide: accessing Junk Store, first steps after installation, and future platform plans.</p>
-</div>
 
 <details class="faq-box" id="how-to-access-junk-store">
   <summary>I just signed up for the trial. How do I access Junk Store?</summary>
@@ -309,10 +266,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <h2 id="using-junk-store">Using Junk Store</h2>
 
-<div class="section-summary">
-  <h3>Using Junk Store - <span class="question-count">15 Questions</span></h3>
-  <p>Complete guide to game management: installation, settings, dependencies, language options, and advanced configurations.</p>
-</div>
 
 <details class="faq-box" id="how-to-update-junk-store">
   <summary>How do I update Junk Store and track new Steam Deck gaming features?</summary>
@@ -595,10 +548,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <h2 id="game-compatibility--support">Game Compatibility & Support</h2>
 
-<div class="section-summary">
-  <h3>Game Compatibility - <span class="question-count">4 Questions</span></h3>
-  <p>Platform support details: third-party launchers, DOS/ScummVM games, and specific game compatibility issues.</p>
-</div>
 
 <details class="faq-box" id="third-party-launchers">
   <summary>Do games requiring third-party launchers (EA, Ubisoft, etc.) work with Junk Store?</summary>
@@ -650,10 +599,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <h2 id="generaltechnical-details">General/Technical Details</h2>
 
-<div class="section-summary">
-  <h3>Technical Details - <span class="question-count">6 Questions</span></h3>
-  <p>Version comparisons, cloud saves, compatibility with other tools, and bug reporting information.</p>
-</div>
 
 <details class="faq-box" id="decky-vs-paid-version">
   <summary>What's the difference between the Decky version and the Paid version?</summary>
@@ -725,7 +670,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <!-- Final navigation - Back to top buttons -->
 <div class="section-end">
   <a href="#top" class="back-to-top">↑ Back to Top</a>
-  <a href="#" onclick="document.querySelector('.faq-quick-nav').scrollIntoView({behavior: 'smooth'}); return false;" class="back-to-nav">🧭 Quick Navigation</a>
 </div>
 
 <!-- Mobile floating action button -->
