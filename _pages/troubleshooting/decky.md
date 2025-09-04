@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Steam Deck Epic Games Troubleshooting - Decky Plugin Issues"
-description: "Fix Steam Deck Epic Games & GOG issues with Junk Store Decky plugin. Complete troubleshooting guide for Game Mode gaming, installation problems, and compatibility."
+title: "Junk Store Decky Plugin Troubleshooting"
+description: "Fix Junk Store Decky plugin issues for Epic & GOG games. Complete troubleshooting guide for Game Mode installation problems, compatibility, and launch issues."
 permalink: /troubleshooting/decky/
 classes: wide
 sidebar:

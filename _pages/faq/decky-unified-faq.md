@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Steam Deck Epic Games & GOG FAQ - Free Decky Plugin Guide"
-description: "Complete Steam Deck FAQ for playing Epic Games & GOG games in Game Mode. Free Junk Store Decky plugin setup, troubleshooting, and compatibility guide."
+title: "Junk Store Decky Plugin FAQ"
+description: "Complete Junk Store Decky plugin FAQ for playing Epic & GOG games in Game Mode. Free plugin setup, features, compatibility, and usage guide."
 permalink: /faq/decky/
 classes: wide
 sidebar:
