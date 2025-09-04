@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "Frequently Asked Questions"
-description: "Junk Store 2.0 FAQ - standalone Steam Deck app for non-Steam games from Epic, GOG, Amazon & itch.io (beta). Features, pricing, trial info, and technical support."
+title: "Junk Store 2.0 FAQ"
+description: "Complete Junk Store 2.0 FAQ for playing Epic, GOG, Amazon & itch games on Steam Deck. Standalone app features, pricing, trial info, and technical support."
 permalink: /2.0faq/
 classes: wide
 sidebar:
