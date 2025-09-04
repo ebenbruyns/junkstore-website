@@ -10,7 +10,7 @@ read_time: "3 min read"
 toc: true
 ---
 
-*Originally shared on [r/JunkStore](https://www.reddit.com/r/JunkStore) - reformatted for our blog.*
+*Originally shared on <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>r/JunkStore</a> - reformatted for our blog.*
 
 ## For the First Time Ever: Itch.io → Steam Integration
 
@@ -93,3 +93,35 @@ This is bleeding edge stuff - you're getting access to something that's never ex
 
 **Game on!**  
 **The Junk Store Team**
+
+<style>
+.community-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  margin-left: 8px;
+  color: white !important;
+}
+
+.discord-btn {
+  background: #5865f2;
+}
+
+.reddit-btn {
+  background: #ff4500;
+}
+
+.community-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: white !important;
+  opacity: 0.9;
+}
+</style>
