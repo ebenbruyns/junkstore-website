@@ -1,11 +1,9 @@
 ---
-layout: single
-title: "Frequently Asked Questions"
-description: "Junk Store 2.0 FAQ - standalone Steam Deck app for non-Steam games from Epic, GOG, Amazon & itch.io (beta). Features, pricing, trial info, and technical support."
+layout: splash
+title: "Junk Store 2.0 FAQ"
+description: "Complete Junk Store 2.0 FAQ for playing Epic, GOG, Amazon & itch games on Steam Deck. Standalone app features, pricing, trial info, and technical support."
 permalink: /2.0faq/
 classes: wide
-sidebar:
-  nav: "faq-nav"
 show_pagination: false
 header:
   overlay_color: "#000"
@@ -21,35 +19,6 @@ header:
 
 This is the official Junk Store FAQ, where you'll find answers to the most commonly asked questions. We update this page regularly as new features roll out and feedback comes in.
 
-<div class="faq-quick-nav">
-  <h3>🧭 Quick Navigation - Jump to Section:</h3>
-  <div class="nav-grid">
-    <a href="#overview-trial" class="nav-card">
-      <strong>🔍 Overview</strong>
-      <span>Key differences, trial details, and subscription info</span>
-    </a>
-    <a href="#licensing-account-management" class="nav-card">
-      <strong>📋 Licensing</strong>
-      <span>Device limits, license model, and free version status</span>
-    </a>
-    <a href="#getting-started-setup" class="nav-card">
-      <strong>🚀 Getting Started</strong>
-      <span>Step-by-step setup and first steps</span>
-    </a>
-    <a href="#using-junk-store" class="nav-card">
-      <strong>🎮 Using Junk Store</strong>
-      <span>Game management and features</span>
-    </a>
-    <a href="#game-compatibility--support" class="nav-card">
-      <strong>🎯 Game Compatibility</strong>
-      <span>Supported games and platforms</span>
-    </a>
-    <a href="#generaltechnical-details" class="nav-card">
-      <strong>⚙️ Technical Details</strong>
-      <span>Security, updates, and comparisons</span>
-    </a>
-  </div>
-</div>
 
 <!-- FAQ Search Interface -->
 <div class="faq-search-container">
@@ -65,10 +34,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <h2 id="overview-trial">Overview & Trial Information</h2>
 
-<div class="section-summary">
-  <h3>Overview & Trial Information - <span class="question-count">5 Questions</span></h3>
-  <p>Security, key differences, trial details, and subscription pricing.</p>
-</div>
 
 <details class="faq-box" id="is-junk-store-trustworthy">
   <summary>Is Junk Store trustworthy and how are my credentials handled?</summary>
@@ -78,7 +43,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <br>
     <strong>Credential Security:</strong>
     <ul>
-      <li>🔒 <strong>No password storage:</strong> Junk Store never stores your Epic, GOG, or Amazon passwords</li>
+      <li>🔒 <strong>No password storage:</strong> Junk Store never stores your Epic, GOG, Amazon, or itch.io (beta) passwords</li>
       <li>🎫 <strong>Token-based authentication:</strong> Uses secure login tokens provided by each platform</li>
       <li>💻 <strong>Local storage only:</strong> All tokens stored locally on your Steam Deck</li>
       <li>🔐 <strong>Standard OAuth flow:</strong> Same login method used by official store websites</li>
@@ -139,7 +104,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <br>
     <strong>Trial includes:</strong>
     <ul>
-      <li>✅ Full Epic, GOG, and Amazon Games integration</li>
+      <li>✅ Full Epic, GOG, Amazon & itch.io (beta) Games integration</li>
       <li>✅ Emulator setup and ROM management</li>
       <li>✅ Extension generator and custom store creation</li>
       <li>✅ All premium features (cloud saves, dependencies, automation)</li>
@@ -161,7 +126,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="trial-length-what-happens">
   <summary>How long is my trial and what happens when it ends?</summary>
   <p></p>
-    You get <strong>7 days free</strong> to try all features. During the trial, you have full access toEpic, GOG, Amazon & itch.io (beta) integration, emulator extension creation, and all premium features.
+    You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon & itch.io (beta) integration, emulator extension creation, and all premium features.
   <br>
   <br>
     After 7 days, if you don't subscribe, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
@@ -194,10 +159,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <h2 id="licensing-account-management">Licensing & Account Management</h2>
 
-<div class="section-summary">
-  <h3>Licensing & Account Management - <span class="question-count">3 Questions</span></h3>
-  <p>Device limits, license model details, and free version availability.</p>
-</div>
 
 <details class="faq-box" id="how-many-devices">
   <summary>How many devices can I install Junk Store on?</summary>
@@ -252,30 +213,26 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <h2 id="getting-started-setup">Getting Started & Setup</h2>
 
-<div class="section-summary">
-  <h3>Getting Started & Setup - <span class="question-count">3 Questions</span></h3>
-  <p>Step-by-step setup guide: accessing Junk Store, first steps after installation, and future platform plans.</p>
-</div>
 
 <details class="faq-box" id="how-to-access-junk-store">
   <summary>I just signed up for the trial. How do I access Junk Store?</summary>
   <p></p>
-    After installing Junk Store 2.0, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck. No need to switch to Desktop Mode or launch separate applications.
+    After installing Junk Store 2.0, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck or <strong>Ctrl+3</strong> if using a PC. No need to switch to Desktop Mode or launch separate applications.
   <br>
   <br>
-    This opens directly in Game Mode, giving you immediate access to your Epic, GOG, and Amazon game libraries.
+    This opens directly in Game Mode, giving you immediate access to your Epic, GOG, Amazon & itch.io (beta) game libraries.
 </details>
 
 <details class="faq-box" id="what-to-do-first">
   <summary>What should I do first after accessing Junk Store?</summary>
   <p></p>
-    <strong>Step 1:</strong> Log into Junk Store<br>
-    <strong>Step 2:</strong> Generate extensions for the platforms you want to use (Epic, GOG, Amazon)<br>
-    <strong>Step 3:</strong> Log into your game store accounts when prompted<br>
-    <strong>Step 4:</strong> Your existing libraries will automatically sync and appear in Junk Store<br>
-    <strong>Step 5:</strong> Start installing games directly from Game Mode
-  <br>
-  <br>
+  <ol>
+    <li>Log into Junk Store</li>
+    <li>Generate extensions for the platforms you want to use (Epic, GOG, Amazon, itch.io (beta))</li>
+    <li>Log into your game store accounts when prompted</li>
+    <li>Your existing libraries will automatically sync and appear in Junk Store</li>
+    <li>Start installing games directly from Game Mode</li>
+  </ol>
     The initial library sync can take a few minutes as Junk Store builds the database for each platform.
   <br><br>
     <strong>Try This During Your Trial:</strong>
@@ -292,9 +249,12 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="new-platforms-planned">
   <summary>What new platforms are planned for future releases?</summary>
   <p></p>
+    <strong>Current platform support:</strong>
+  <ul>
+    <li>✅ <strong>Itch.io</strong> - Now available in beta</li>
+  </ul>
     <strong>Planned platform support</strong> (pending successful launch and resources):
   <ul>
-    <li>🎯 <strong>Itch.io</strong> - First priority for next platform addition</li>
     <li>🎮 <strong>EA, Ubisoft, Battle.net</strong> - If technically viable</li>
     <li>🔧 <strong>Community extension sharing</strong> - User-created platform support</li>
   </ul>
@@ -306,10 +266,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <h2 id="using-junk-store">Using Junk Store</h2>
 
-<div class="section-summary">
-  <h3>Using Junk Store - <span class="question-count">15 Questions</span></h3>
-  <p>Complete guide to game management: installation, settings, dependencies, language options, and advanced configurations.</p>
-</div>
 
 <details class="faq-box" id="how-to-update-junk-store">
   <summary>How do I update Junk Store and track new Steam Deck gaming features?</summary>
@@ -317,7 +273,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     Stay current with the latest Steam Deck non-Steam gaming improvements through our direct update system:
   <br>
   <br>
-    <strong>Update Notifications:</strong> Join our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord #version-2-updates</a> channel for immediate update announcements.
+    <strong>Update Notifications:</strong> Join our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> and follow our <strong>#version-2-updates</strong> channel for immediate update announcements.
   <br>
   <br>
     <strong>Update Channels:</strong>
@@ -327,6 +283,25 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <li><strong>Beta:</strong> SteamOS compatibility updates (use if on SteamOS beta)</li>
   </ul>
     <strong>Change Channels:</strong> Press <strong>Select</strong> → <strong>About</strong> → <strong>System</strong>. Choose channels for both Junk Store core and Extensions (where new platform support is added).
+</details>
+
+<details class="faq-box" id="how-to-access-itch-io-beta">
+  <summary>How do I access the itch.io extension (beta)?</summary>
+  <p></p>
+    To access the itch.io extension currently in beta testing:
+  <ol>
+    <li>Change both your <strong>Build Channel</strong> and <strong>Extension Channel</strong> to <strong>Beta</strong></li>
+    <li>Press <strong>Select button</strong> → <strong>About</strong> → <strong>System</strong> to access channel settings</li>
+    <li>Check for updates in Junk Store</li>
+    <li>Open the <strong>hamburger menu</strong> (☰) and select <strong>Extension Generator</strong></li>
+    <li><strong>Download the itch.io extension</strong></li>
+    <li> Click the 📥 <strong>Install</strong> button</li>
+    <li> You should now see the <strong>itch.io tab</strong> in Junk Store - log into your account and start downloading games!</li>
+  </ol>
+    <strong>Important:</strong> Both channels must be set to Beta to access itch.io support. This ensures you have the latest core features and the beta extension system.
+  <br>
+  <br>
+    <strong>Beta Status:</strong> itch.io support is actively being tested. Report any issues on our <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues" target="_blank">GitHub Issues page</a>.
 </details>
 
 <details class="faq-box" id="import-games-from-decky">
@@ -361,7 +336,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <p></p>
     <strong>Changing Download Location:</strong> You can set your preferred download location for each platform separately:
   <ul>
-    <li>Go to the <strong>Epic</strong>, <strong>GOG</strong>, or <strong>Amazon</strong> tab</li>
+    <li>Go to the <strong>Epic</strong>, <strong>GOG</strong>, <strong>Amazon</strong>, or <strong>itch.io (beta)</strong> tab</li>
     <li>Click the <strong>⚙️ Gear icon</strong> to open settings</li>
     <li>Set your desired download path (e.g. your SD card directory)</li>
     <li>Press <kbd>X</kbd> to save your changes</li>
@@ -481,7 +456,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="manage-dlc-installations">
   <summary>How do I manage DLC installations for Steam Deck non-Steam games?</summary>
   <p></p>
-    Control which DLCs install for your Epic, GOG, and Amazon games without leaving Game Mode:
+    Control which DLCs install for your Epic and GOG games without leaving Game Mode:
   <ul>
     <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
     <li>Select <strong>Installation</strong></li>
@@ -573,10 +548,6 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 <h2 id="game-compatibility--support">Game Compatibility & Support</h2>
 
-<div class="section-summary">
-  <h3>Game Compatibility - <span class="question-count">4 Questions</span></h3>
-  <p>Platform support details: third-party launchers, DOS/ScummVM games, and specific game compatibility issues.</p>
-</div>
 
 <details class="faq-box" id="third-party-launchers">
   <summary>Do games requiring third-party launchers (EA, Ubisoft, etc.) work with Junk Store?</summary>
@@ -588,6 +559,9 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   <br>
   <br>
     <strong>Other Third-Party Launchers:</strong> Not currently supported. While Legendary has limited support, this feature isn't implemented in Junk Store yet. You can attempt manual setup via CLI or modify the extension script.
+  <br>
+  <br>
+    📋 <strong>Check specific games:</strong> Visit our <a href="/tested-games/">Games Tested table</a> to see compatibility status and any workarounds for specific titles.
 </details>
 
 <details class="faq-box" id="gog-dos-scummvm-support">
@@ -616,16 +590,15 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="play-kingdom-hearts">
   <summary>Can I play Kingdom Hearts via Junk Store?</summary>
    <p></p>
-    Kingdom Hearts has known compatibility issues on Linux, and this isn’t specific to Junk Store. We haven’t been able to test it ourselves as we don’t own a copy, so we can’t provide official support or recommendations at this time.
+    Kingdom Hearts has known compatibility issues on Linux, and this isn't specific to Junk Store. We haven't been able to test it ourselves as we don't own a copy, so we can't provide official support or recommendations at this time.
+  <br>
+  <br>
+    📋 <strong>Check our testing:</strong> Visit our <a href="/tested-games/">Games Tested table</a> to see if Kingdom Hearts titles have been tested and any compatibility notes.
 </details>
 
 
 <h2 id="generaltechnical-details">General/Technical Details</h2>
 
-<div class="section-summary">
-  <h3>Technical Details - <span class="question-count">6 Questions</span></h3>
-  <p>Version comparisons, cloud saves, compatibility with other tools, and bug reporting information.</p>
-</div>
 
 <details class="faq-box" id="decky-vs-paid-version">
   <summary>What's the difference between the Decky version and the Paid version?</summary>
@@ -686,12 +659,17 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 **Need more help?** 
 - **Step-by-step guides:** [Tutorials & How-To Guides](/2.0tutorials/) 
 - **Technical issues:** [Troubleshooting Guide](/2.0troubleshooting/)
-- **Community support:** [r/JunkStore subreddit](https://www.reddit.com/r/JunkStore/) or [Discord](https://discord.gg/6mRUhR6Teh)
+- **Community support:** 
+  <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
+    <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
+  </a>
+  <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
+    <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
+  </a>
 
 <!-- Final navigation - Back to top buttons -->
 <div class="section-end">
   <a href="#top" class="back-to-top">↑ Back to Top</a>
-  <a href="#" onclick="document.querySelector('.faq-quick-nav').scrollIntoView({behavior: 'smooth'}); return false;" class="back-to-nav">🧭 Quick Navigation</a>
 </div>
 
 <!-- Mobile floating action button -->
@@ -735,6 +713,38 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   15% { opacity: 1; transform: translateY(0); }
   85% { opacity: 1; transform: translateY(0); }
   100% { opacity: 0; transform: translateY(-10px); }
+}
+
+.community-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  margin-left: 8px;
+  color: white;
+}
+
+.discord-btn {
+  background: #5865f2;
+  color: white !important;
+}
+
+.reddit-btn {
+  background: #ff4500;
+  color: white !important;
+}
+
+.community-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
 }
 </style>
 
