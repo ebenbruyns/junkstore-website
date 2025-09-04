@@ -6,7 +6,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.jpg
+  overlay_image: /assets/images/website_image_compressed.webp
   actions:
     - label: "Start Free Trial"
       url: "/buy_now/"
@@ -65,7 +65,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
       <p>While free alternatives require Desktop Mode switching, Junk Store keeps everything in the comfortable Game Mode interface you bought your Steam Deck for.</p>
     </div>
     <div class="video-demo-container" onclick="playDemo(this, '{{ '/assets/images/landing/LibrariesNew.webm' | relative_url }}')">
-      <img src="{{ '/assets/images/landing/LibrariesNew-poster.jpg' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch.io (beta)" class="demo-poster">
+      <img src="{{ '/assets/images/landing/LibrariesNew-poster.jpg' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch.io (beta)" class="demo-poster" loading="lazy">
       <div class="demo-play-btn">
         <span class="play-icon">▶️</span>
         <span class="play-text">Play Demo</span>
@@ -82,7 +82,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
       <p>One-click installs, instant library access, and streamlined game management - all from the controller-friendly interface you prefer.</p>
     </div>
     <div class="video-demo-container" onclick="playDemo(this, '{{ '/assets/images/landing/Install.webm' | relative_url }}')">
-      <img src="{{ '/assets/images/landing/Install-poster.jpg' | relative_url }}" alt="One-click game installation directly in Game Mode" class="demo-poster">
+      <img src="{{ '/assets/images/landing/Install-poster.jpg' | relative_url }}" alt="One-click game installation directly in Game Mode" class="demo-poster" loading="lazy">
       <div class="demo-play-btn">
         <span class="play-icon">▶️</span>
         <span class="play-text">Play Demo</span>
