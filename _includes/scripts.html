@@ -4,6 +4,16 @@
   {% endfor %}
 {% else %}
   <script src="{{ '/assets/js/main.min.js' | relative_url }}" defer></script>
+  <!-- Delay DOM-heavy operations to reduce forced reflows -->
+  <script>
+    window.addEventListener('load', function() {
+      // Delay any DOM queries by one frame to allow layout to stabilize
+      requestAnimationFrame(function() {
+        // Theme scripts can now query DOM without forcing reflow
+        document.body.classList.add('layout-stable');
+      });
+    });
+  </script>
 {% endif %}
 
 {% if site.search == true or page.layout == "search" %}
