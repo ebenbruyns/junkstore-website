@@ -2,7 +2,7 @@
 layout: post
 title: "Junk Store Tested - August 19, 2025"
 date: 2025-08-19
-categories: [Weekly Update, Featured Games]
+categories: [Weekly Update, Game Compatibility]
 slug: "games-tested-aug-19"
 excerpt: "Major announcement: itch.io integration is live! Plus updated games compatibility table with detailed modals, and testing results from Epic giveaways, Prime Gaming, and our first batch of itch.io indies."
 image: /assets/images/blog/aug19-hero.jpg
