@@ -1,11 +1,9 @@
 ---
-layout: single
+layout: splash
 title: "Junk Store Decky Plugin Troubleshooting"
 description: "Fix Junk Store Decky plugin issues for Epic & GOG games. Complete troubleshooting guide for Game Mode installation problems, compatibility, and launch issues."
 permalink: /troubleshooting/decky/
 classes: wide
-sidebar:
-  nav: "troubleshooting-nav"
 show_pagination: false
 header:
   overlay_color: "#000"
@@ -21,31 +19,6 @@ header:
 
 Having problems playing Epic Games or GOG games on your Steam Deck? This comprehensive troubleshooting guide covers everything from Junk Store Decky plugin installation issues to Game Mode compatibility problems and authentication solutions.
 
-<div class="faq-quick-nav">
-  <h3>🧭 Quick Navigation - Jump to Section:</h3>
-  <div class="nav-grid">
-    <a href="#general-plugin-issues" class="nav-card">
-      <strong>🔧 General Issues</strong>
-      <span>Plugin installation, dependencies, shortcuts, and system problems</span>
-    </a>
-    <a href="#epic-games-troubleshooting" class="nav-card">
-      <strong>🎮 Epic Games Issues</strong>
-      <span>Authentication, library sync, downloads, and game launch problems</span>
-    </a>
-    <a href="#gog-extension-troubleshooting" class="nav-card">
-      <strong>📦 GOG Extension Issues</strong>
-      <span>GOG extension setup, authentication, and compatibility problems</span>
-    </a>
-    <a href="#game-compatibility-problems" class="nav-card">
-      <strong>🎯 Game Issues</strong>
-      <span>Controller problems, Proton versions, performance, and anti-cheat</span>
-    </a>
-    <a href="#advanced-troubleshooting" class="nav-card">
-      <strong>⚙️ Advanced Issues</strong>
-      <span>Backend scripts, dependencies, and system-level problems</span>
-    </a>
-  </div>
-</div>
 
 <!-- Troubleshooting Search Interface -->
 <div class="faq-search-container">
@@ -61,10 +34,6 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 
 <h2 id="general-plugin-issues">General Plugin Issues</h2>
 
-<div class="section-summary">
-  <h3>General Plugin Issues - <span class="question-count">5 Questions</span></h3>
-  <p>Plugin installation, dependencies, shortcuts, system problems, and basic troubleshooting steps.</p>
-</div>
 
 <details class="troubleshooting-box" id="dependencies-not-installing">
   <summary>Dependencies aren't installing - how do I fix this?</summary>
@@ -149,10 +118,6 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 
 <h2 id="epic-games-troubleshooting">Epic Games Troubleshooting</h2>
 
-<div class="section-summary">
-  <h3>Epic Games Troubleshooting - <span class="question-count">9 Questions</span></h3>
-  <p>Authentication problems, library sync issues, download errors, and Epic-specific game launch problems.</p>
-</div>
 
 <details class="troubleshooting-box" id="epic-login-issues">
   <summary>Experiencing Epic Games login issues?</summary>
@@ -275,10 +240,6 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 
 <h2 id="gog-extension-troubleshooting">GOG Extension Troubleshooting</h2>
 
-<div class="section-summary">
-  <h3>GOG Extension Troubleshooting - <span class="question-count">2 Questions</span></h3>
-  <p>GOG extension setup problems, authentication issues, and library sync problems.</p>
-</div>
 
 <details class="troubleshooting-box" id="gog-wont-run">
   <summary>I can't get GOG to run in Junk Store.</summary>
@@ -306,10 +267,6 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 
 <h2 id="game-compatibility-problems">Game Compatibility Problems</h2>
 
-<div class="section-summary">
-  <h3>Game Compatibility Problems - <span class="question-count">3 Questions</span></h3>
-  <p>Game launch failures, controller issues, compatibility with other launchers, and performance problems.</p>
-</div>
 
 <details class="troubleshooting-box" id="works-in-heroic-lutris-not-junk-store">
   <summary>My game works in Heroic or Lutris, but not in Junk Store</summary>
@@ -361,10 +318,6 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 
 <h2 id="advanced-troubleshooting">Advanced Troubleshooting</h2>
 
-<div class="section-summary">
-  <h3>Advanced Troubleshooting - <span class="question-count">3 Questions</span></h3>
-  <p>Backend scripts, system-level issues, and advanced configuration problems.</p>
-</div>
 
 <details class="troubleshooting-box" id="backend-scripts-info">
   <summary>What are the backend scripts, and do I need them?</summary>
@@ -408,7 +361,6 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 <!-- Final navigation - Back to top buttons -->
 <div class="section-end">
   <a href="#top" class="back-to-top">↑ Back to Top</a>
-  <a href="#" onclick="document.querySelector('.faq-quick-nav').scrollIntoView({behavior: 'smooth'}); return false;" class="back-to-nav">🧭 Quick Navigation</a>
 </div>
 
 <!-- Mobile floating action button -->

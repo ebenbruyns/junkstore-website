@@ -178,6 +178,64 @@ Cheers from a much calmer Kawau Island!
 *Have questions about any of these featured games? Join our community on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>!*
 
 <style>
+/* Left-side TOC experiment */
+.page__content {
+  position: relative;
+  max-width: none !important;
+  margin: 0 auto;
+  padding-left: 280px !important; /* Make room for left TOC */
+}
+
+.toc {
+  position: fixed !important;
+  top: 120px !important;
+  left: 20px !important;
+  width: 240px !important;
+  max-height: calc(100vh - 140px) !important;
+  overflow-y: auto !important;
+  background: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid #333 !important;
+  border-radius: 8px !important;
+  padding: 20px !important;
+  z-index: 1000 !important;
+}
+
+.toc__title {
+  color: #ffa366 !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin-bottom: 15px !important;
+}
+
+.toc__menu a {
+  color: #e0e0e0 !important;
+  text-decoration: none !important;
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+  padding: 4px 0 !important;
+  display: block !important;
+}
+
+.toc__menu a:hover {
+  color: #ffa366 !important;
+}
+
+.toc__menu .active a {
+  color: #ffa366 !important;
+  font-weight: 600 !important;
+}
+
+/* Mobile - hide left TOC */
+@media (max-width: 1024px) {
+  .page__content {
+    padding-left: 20px !important;
+  }
+  
+  .toc {
+    display: none !important;
+  }
+}
+
 .community-btn {
   display: inline-flex;
   align-items: center;
