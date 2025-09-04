@@ -66,7 +66,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   <p>Plugin differences, security & credentials, installation, initial setup steps, and library navigation.</p>
 </div>
 
-<details class="faq-box">
+<details class="faq-box" id="decky-vs-paid-version">
   <summary>What's the difference between the Decky version and the Paid version?</summary>
   <p></p>
     The Decky version is free and open source, designed to run via the Decky Loader. The Paid version includes extra convenience features and doesn't require Decky to run.
@@ -78,7 +78,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     For more information, see our <a href="{{ '/2.0faq/' | relative_url }}">Junk Store 2.0 FAQ</a>
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="trustworthy-credentials">
   <summary>Is Junk Store trustworthy and how are my credentials handled?</summary>
   <p></p>
     <strong>Yes, Junk Store is trustworthy.</strong> Here's why you can trust us with your gaming credentials:
@@ -101,7 +101,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <strong>Bottom line:</strong> The Decky plugin has been stable and trusted by thousands of Steam Deck users since launch. Your credentials are handled using industry-standard practices by established tools in the Linux gaming community.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="install-decky-plugin">
   <summary>How do I install the Junk Store Decky plugin?</summary>
   <p></p>
     The Junk Store Decky plugin requires <strong>Decky Loader</strong> to be installed first on your Steam Deck.
@@ -115,7 +115,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     For detailed instructions, refer to our <a href="{{ '/tutorials/plugin/Install' | relative_url }}">Junk Store Decky Plugin Install Guide</a>.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="access-junk-store">
   <summary>How do I access Junk Store after installation?</summary>
   <p></p>
     After installing the Decky plugin, access Junk Store through the <strong>Decky Loader menu</strong>:
@@ -127,7 +127,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     The plugin opens directly in Game Mode without requiring Desktop Mode switching.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="first-steps-after-install">
   <summary>What should I do first after installing the Decky plugin?</summary>
   <p></p>
   <ol>
@@ -185,7 +185,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   </p>
 </div>
 
-<details class="faq-box">
+<details class="faq-box" id="find-gog-extension">
   <summary>Where can I find the GOG extension?</summary>
   <p></p>
     You can purchase access with a one-time payment via three different methods:<br><br>
@@ -210,7 +210,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     Once you have it, you have it. We can't take away GOG functionality/integration with the Junk Store plugin. All funds go back into the enhancement and development of Junk Store.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="why-gog-not-free">
   <summary>Why isn't GOG free to use?</summary>
   <p></p>
     GOG support is available to paid supporters, and while we'd love to offer it for free, there's a lot of behind-the-scenes work and resources involved in creating and maintaining Junk Store. We appreciate your understanding and support as we continue to improve and expand Junk Store. All funds go back into the enhancement and development of Junk Store.
@@ -218,13 +218,13 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 
 
 
-<details class="faq-box">
+<details class="faq-box" id="gog-dos-scummvm-support">
   <summary>Does the GOG extension support DOS and ScummVM games?</summary>
   <p></p>
      <strong>No.</strong> DOS games and some ScummVM titles are not supported by the GOG extension in the Decky version of Junk Store.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="gog-native-linux-support">
   <summary>Does the GOG extension support native Linux games?</summary>
   <p></p>
     No — the GOG extension is designed for Windows games running through Proton. Native Linux games from GOG are not currently supported, as Junk Store relies on Proton's compatibility layer for game execution and integration.
@@ -237,7 +237,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   <p>Installation, uninstallation, save data, storage, Proton versions, and best practices.</p>
 </div>
 
-<details class="faq-box">
+<details class="faq-box" id="install-uninstall-game">
   <summary>How do I install or uninstall a game?</summary>
   <p></p>
   <strong>To install a game in Junk Store:</strong>
@@ -264,7 +264,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   <strong>Important:</strong> Uninstalling a game will remove all local save data. Be sure to back up your saves first if you want to keep them.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="find-save-data">
   <summary>How do I find save data for my games?</summary>
   <p></p>
   <ol>
@@ -286,7 +286,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     Each game may store saves in slightly different locations depending on how it was packaged or ported. Look under <code>AppData</code>, <code>Local Settings</code>, or <code>Documents</code> within the Steam compatibility prefix.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="change-download-location">
   <summary>How do I change where games are downloaded?</summary>
   <p></p>
     You can set your preferred download location from the Epic tab:
@@ -299,7 +299,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   <strong>For GOG games:</strong> Similar process but from the GOG extension interface after installation.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="move-games-sd-card">
   <summary>Can I move games to my SD card?</summary>
   <p></p>
     No, not possible. This is a complex feature that we're not planning to implement, but we're open if someone wants to contribute a pull request for this feature.
@@ -308,7 +308,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <strong>Workaround:</strong> Set your download location to your SD card before installing new games.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="change-proton-version">
   <summary>How do I change the Proton version for a game?</summary>
   <p></p>
     You can do this from either your Steam Library or directly inside Junk Store.
@@ -335,7 +335,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 </details>
 
 
-<details class="faq-box">
+<details class="faq-box" id="use-with-other-solutions">
   <summary>Can I use Junk Store with games I already installed using other third-party solutions?</summary>
   <p></p>
     <strong>No.</strong> Junk Store manages its own installations and environment. Games installed through other launchers (like Heroic, Lutris, or Bottles) are not recognized or managed by Junk Store.
@@ -344,7 +344,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <strong>This applies to both Epic and GOG games.</strong> If you want to use Junk Store to manage a game, you'll need to install it again through Junk Store directly.
  </details>
 
-<details class="faq-box">
+<details class="faq-box" id="cloud-saves-support">
   <summary>Does Junk Store support cloud saves?</summary>
   <p></p>
     <strong>No, cloud saves are not supported.</strong> We don't want users to run the risk of losing their game saves.
@@ -358,7 +358,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   </ul>
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="automatic-dlc-install">
   <summary>Does Junk Store automatically install DLC content?</summary>
   <p></p>
     <strong>Yes, DLC is installed automatically by default.</strong>
@@ -377,7 +377,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     We're aware of these limitations, but right now we don't have the resources to fully address them.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="keep-open-while-downloading">
   <summary>Do I need to keep Junk Store open while downloading games?</summary>
   <p></p>
     <strong>Yes.</strong> Junk Store doesn't have a background download queue. If you close or leave the plugin, your download may stop or behave unpredictably.
@@ -391,7 +391,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <strong>Important:</strong> Stay on the game page until installation is complete to ensure reliable downloads.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="usage-tips-best-practices">
   <summary>What are some general usage tips and best practices?</summary>
   <p></p>
     <strong>How games integrate:</strong>
@@ -411,7 +411,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   </ul>
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="change-fps-performance-settings">
   <summary>How do I change the FPS or performance settings for games?</summary>
   <p></p>
     Just like with regular Steam games, you can change the FPS cap and other performance settings through the Quick Access Menu (QAM).
@@ -430,7 +430,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   <p>Third-party launchers, anti-cheat systems, specific games, and tool integration.</p>
 </div>
 
-<details class="faq-box">
+<details class="faq-box" id="third-party-launchers">
   <summary>Do games requiring third-party launchers (EA, Ubisoft, etc.) work?</summary>
   <p></p>
     <strong>Generally not supported.</strong> While Legendary has limited support for third-party launchers, this feature isn't implemented in Junk Store yet.
@@ -456,7 +456,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <strong>Workarounds:</strong> Advanced users can attempt manual setup via CLI or modify extension scripts, but this requires technical knowledge and isn't officially supported.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="anti-cheat-games">
   <summary>What about games with anti-cheat systems (including Fortnite)?</summary>
   <p></p>
     <strong>General Anti-Cheat Compatibility:</strong> Most games with BattlEye and Easy Anti-Cheat (EAC) that work on Steam Deck should also work through Junk Store, since they use the same Proton compatibility layer.
@@ -475,7 +475,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     📋 <strong>Check our testing:</strong> Visit our <a href="/tested-games/">Games Tested table</a> to see which anti-cheat games have been tested and their compatibility status.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="kingdom-hearts-support">
   <summary>Can I play Kingdom Hearts via Junk Store?</summary>
    <p></p>
     Kingdom Hearts has known compatibility issues on Linux, and this isn't specific to Junk Store.
@@ -485,7 +485,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 </details>
 
 
-<details class="faq-box">
+<details class="faq-box" id="cheatdeck-compatibility">
   <summary>Does CheatDeck work with Junk Store?</summary>
   <p> </p>
     Not reliably. Epic game launch options are very sensitive, and tools like CheatDeck can conflict with Junk Store's configuration. We've spent over 100 hours fine-tuning this — so use with caution.
@@ -501,7 +501,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   <p>Bug reporting, feature requests, and community help resources.</p>
 </div>
 
-<details class="faq-box">
+<details class="faq-box" id="report-bug">
   <summary>I think I've found a bug. How do I report it?</summary>
   <p></p>
     We really appreciate bug reports! Like you, we want Junk Store to just work—so if you come across a bug, please let us know. If we don't know about it, we can't fix it.
@@ -517,7 +517,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <strong>Note:</strong> Bug reports aren't support tickets. If you need help or aren't sure if it's a bug, please ask in our <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord server</a> first.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="request-features">
   <summary>How do I request features or get X feature added?</summary>
  <p></p>
   <strong>We prefer feature requests via GitHub where they can be tracked:</strong><br>
@@ -532,7 +532,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
   <strong>Alternative:</strong> Discuss ideas first in our Discord community before submitting requests.
 </details>
 
-<details class="faq-box">
+<details class="faq-box" id="get-help-stuck">
   <summary>Where can I get help if I'm stuck?</summary>
   <p></p>
     <strong>Community Support:</strong> Our community is very helpful for troubleshooting and general questions.
@@ -551,7 +551,13 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 **Need more help?** 
 - **Decky Plugin Installation:** [Decky Plugin Help](/deckyhelp/) 
 - **Step-by-step tutorials:** [Plugin Tutorials](/plugin_tutorials/)
-- **Community support:** [r/JunkStore subreddit](https://www.reddit.com/r/JunkStore/) or [Discord](https://discord.gg/6mRUhR6Teh)
+- **Community support:** 
+  <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
+    <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
+  </a>
+  <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
+    <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
+  </a>
 
 <!-- Final navigation - Back to top buttons -->
 <div class="section-end">
@@ -561,6 +567,60 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 
 <!-- Mobile floating action button -->
 <a href="#top" class="faq-mobile-fab" id="mobile-fab">↑</a>
+
+<style>
+.faq-anchor {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8em;
+  margin-left: 8px;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.faq-anchor:hover {
+  opacity: 1;
+}
+
+.faq-box summary:hover .faq-anchor {
+  opacity: 0.8;
+}
+
+.community-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  margin-left: 8px;
+  color: white;
+}
+
+.discord-btn {
+  background: #5865f2;
+  color: white !important;
+}
+
+.reddit-btn {
+  background: #ff4500;
+  color: white !important;
+}
+
+.community-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+</style>
 
 <script>
 // Show/hide mobile FAB based on scroll position
@@ -720,5 +780,102 @@ document.addEventListener('DOMContentLoaded', function() {
     totalQuestions = document.querySelectorAll('.faq-box').length;
     searchInfo.textContent = `Showing all ${totalQuestions} questions`;
   }, 100);
+
+  // Handle direct links to FAQ items
+  function openLinkedFAQ() {
+    if (window.location.hash) {
+      const targetId = window.location.hash.substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement && targetElement.tagName === 'DETAILS') {
+        targetElement.open = true;
+        setTimeout(() => {
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          targetElement.style.boxShadow = '0 0 10px rgba(59, 130, 246, 0.5)';
+          setTimeout(() => {
+            targetElement.style.boxShadow = '';
+          }, 3000);
+        }, 100);
+      }
+    }
+  }
+
+  // Add anchor buttons to all FAQ questions
+  function addAnchorButtons() {
+    const faqBoxes = document.querySelectorAll('.faq-box[id]');
+    faqBoxes.forEach(box => {
+      const summary = box.querySelector('summary');
+      const id = box.getAttribute('id');
+      if (summary && id && !summary.querySelector('.faq-anchor')) {
+        const anchorButton = document.createElement('button');
+        anchorButton.className = 'faq-anchor';
+        anchorButton.setAttribute('onclick', `copyFAQLink('${id}')`);
+        anchorButton.setAttribute('title', 'Copy link to this question');
+        anchorButton.innerHTML = '🔗';
+        summary.appendChild(document.createTextNode(' '));
+        summary.appendChild(anchorButton);
+      }
+    });
+  }
+
+  // Initialize anchor functionality
+  addAnchorButtons();
+  openLinkedFAQ();
+  window.addEventListener('hashchange', openLinkedFAQ);
 });
+
+// Copy FAQ link function (global scope for onclick handlers)
+function copyFAQLink(questionId) {
+  const url = window.location.origin + window.location.pathname + '#' + questionId;
+  
+  function showNotification(message, isError = false) {
+    const notification = document.createElement('div');
+    notification.className = 'copy-success';
+    notification.style.cssText = `
+      position: fixed; top: 20px; right: 20px; z-index: 1000;
+      background: ${isError ? '#ef4444' : '#10b981'}; color: white;
+      padding: 12px 20px; border-radius: 6px; font-size: 14px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    `;
+    notification.textContent = message;
+    document.body.appendChild(notification);
+    
+    setTimeout(() => {
+      if (document.body.contains(notification)) {
+        document.body.removeChild(notification);
+      }
+    }, 3000);
+  }
+  
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(url).then(() => {
+      showNotification('Link copied to clipboard!');
+    }).catch(() => {
+      fallbackCopy();
+    });
+  } else {
+    fallbackCopy();
+  }
+  
+  function fallbackCopy() {
+    try {
+      const textArea = document.createElement('textarea');
+      textArea.value = url;
+      textArea.style.cssText = 'position:fixed;left:-9999px;top:-9999px;';
+      textArea.setAttribute('readonly', '');
+      document.body.appendChild(textArea);
+      textArea.focus();
+      textArea.select();
+      const successful = document.execCommand('copy');
+      document.body.removeChild(textArea);
+      
+      if (successful) {
+        showNotification('Link copied to clipboard!');
+      } else {
+        showNotification('Copy failed. URL: ' + url, true);
+      }
+    } catch (err) {
+      showNotification('Copy failed. URL: ' + url, true);
+    }
+  }
+}
 </script>
