@@ -10,7 +10,7 @@ read_time: "3 min read"
 toc: true
 ---
 
-**This Week's Pro Tip:** If you're using the free Decky plugin and only seeing the first 100 games in your Epic/GOG library, look for the "Press Y to Show All" prompt at the bottom of the screen!
+**This Week's Pro Tip:** If you're using the free Decky plugin and only seeing the first 100 games in your Epic/GOG library, look for the <strong>"Press Y to Show All"</strong> prompt at the bottom of the screen!
 
 *Note: This tip applies to the free Decky plugin version. Junk Store 2.0 (paid version) loads up to 1000 games automatically.*
 
@@ -101,6 +101,6 @@ Sometimes CSS Loader themes hide or modify the bottom menu area where this promp
 
 
 ## Next Week Preview
-Coming next week: **Installing Game Dependencies Without ProtonTricks** - The easy way to install Visual C++, .NET Framework, and other dependencies directly through Junk Store.
+Coming next week: **Dive into Junk Store's Many Menus** - Start exploring what's inside the different configuration options and game settings throughout your Decky plugin interface!
 
 ---
