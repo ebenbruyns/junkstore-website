@@ -163,6 +163,8 @@ exclude:
   - "*.backup"
   - test
   - assets/lib/
+  - assets/images/backups/
+  - tested-games-new/
 keep_files:
   - .git
 
