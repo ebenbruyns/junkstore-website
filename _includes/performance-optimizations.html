@@ -1,0 +1,58 @@
+<!-- Critical Performance Optimizations for Mobile -->
+<link rel="preload" href="/assets/images/website_image_compressed.webp" as="image" type="image/webp">
+<link rel="preload" href="/assets/css/main.css" as="style">
+
+<!-- Font Display Optimization -->
+<style>
+@font-face {
+  font-family: system-ui;
+  font-display: swap;
+}
+
+/* Critical above-the-fold CSS inline to prevent render blocking */
+body {
+  font-display: swap;
+}
+
+.page__hero {
+  background-image: url('/assets/images/website_image_compressed.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+/* WebP support check with fallback */
+.no-webp .page__hero {
+  background-image: url('/assets/images/website_image_compressed.jpg');
+}
+</style>
+
+<!-- WebP Support Detection -->
+<script>
+(function() {
+  var webP = new Image();
+  webP.onload = webP.onerror = function () {
+    if (webP.height !== 2) {
+      document.documentElement.classList.add('no-webp');
+    }
+  };
+  webP.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
+})();
+</script>
+
+<!-- Deferred JavaScript Loading -->
+<script>
+// Defer non-critical JavaScript until after page load
+window.addEventListener('load', function() {
+  // Load analytics and other non-critical scripts
+  var scripts = [
+    '/assets/js/conversion-tracking.js'
+  ];
+  
+  scripts.forEach(function(src) {
+    var script = document.createElement('script');
+    script.src = src;
+    script.async = true;
+    document.head.appendChild(script);
+  });
+});
+</script>
