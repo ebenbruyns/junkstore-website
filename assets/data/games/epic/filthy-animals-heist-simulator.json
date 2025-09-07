@@ -38,8 +38,8 @@
   "description": "Join a gang of mutant animals and embark on a series of hilarious heists under the guidance of Tony, the mad scientist and getaway driver as he tries to pull off his master plan!",
   "size": "",
   "vertical_artwork": "https://images.gog.com/3411622cd93d0657d7395462ed605c121eafe0ec7947bdf0f741ea78fcc26816.jpg?namespace=gamesdb",
-  "banner_image": "https://images.gog.com/42c711e647772b1021ed1e8d860a2da8cde64eef021d0076276ae3c44692756d.jpg?namespace=gamesdb",
-  "icon_image": "https://images.gog.com/aa85be33107f5f711548ea49a13355181519f5b1b4e5fb30ab8b09b61d0549f1.jpg?namespace=gamesdb",
+  "banner_image": "",
+  "icon_image": "",
   "steamId": "1195420",
   "game_modes": [
     "Co-operative",
@@ -48,9 +48,10 @@
   "languages": [
     "English"
   ],
+  "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "created_at": "2025-08-15T09:02:06.258Z",
-  "updated_at": "2025-08-18T04:34:50.714Z"
+  "updated_at": "2025-08-19T04:55:10.633Z"
 }

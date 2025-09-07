@@ -38,8 +38,8 @@
   "description": "10S is a sports shmup with a light roguelike bent to it. After tennis-ing your way through a random wave of monsters, you'll be asked to pick from one of three upgrades. There's bosses to fight, oddly eerie music, and if you don't like the look of the game you can hand-pick your own colour palette.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/de31abc354c65bdf7ec0bff26927045370a44be41242a451f958f0cb1d599924.jpg?namespace=gamesdb",
-  "banner_image": "https://images.gog.com/fecd9c31de565d3e73dbcdb96d373b3b478da4375b3199885d613175aa7b84cf.jpg?namespace=gamesdb",
-  "icon_image": "https://images.gog.com/de31abc354c65bdf7ec0bff26927045370a44be41242a451f958f0cb1d599924.jpg?namespace=gamesdb",
+  "banner_image": "",
+  "icon_image": "",
   "steamId": "",
   "game_modes": [
     "Single player",
@@ -50,7 +50,7 @@
   ],
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "created_at": "2025-08-15T05:54:16.786Z",
-  "updated_at": "2025-08-18T03:20:44.455Z"
+  "updated_at": "2025-08-19T04:55:03.943Z"
 }

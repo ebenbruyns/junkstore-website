@@ -12,7 +12,7 @@
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -31,15 +31,15 @@
   "cant_test_linux": false,
   "databaseId": "93228a1a7b2b4205811d8edf930a0c18",
   "shortname": "93228a1a7b2b4205811d8edf930a0c18",
-  "publisher": "",
-  "developer": "",
+  "publisher": "tinyBuild",
+  "developer": "ANIMAL",
   "releasedate": "",
-  "genre": "",
-  "description": "",
+  "genre": "Action, Casual, Indie",
+  "description": "RAWMEN is a radical multiplayer arena shooter that pits you against 2-8 of your closest taste buds or foes. Channel your inner souperiority and unleash culinary devastation for good. Join our Discord and Playtest today!",
   "size": "",
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/925b89bff456434291f264924ab51443/rawmen-z1x0r.png",
-  "banner_image": "https://cdn1.epicgames.com/spt-assets/925b89bff456434291f264924ab51443/rawmen-14zyp.png",
-  "icon_image": "",
+  "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/782940/library_hero.jpg",
+  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/782940/capsule_231x87.jpg",
   "steamId": "782940",
   "game_modes": [
     "Single player",
@@ -50,8 +50,10 @@
   "languages": [
     "English"
   ],
-  "owned": false,
+  "epic_cloud_saves": false,
+  "tested": true,
+  "owned": true,
   "is_featured": false,
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.968Z"
+  "updated_at": "2025-09-07T03:46:19.013Z"
 }

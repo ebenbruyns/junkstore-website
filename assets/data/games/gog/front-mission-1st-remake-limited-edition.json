@@ -55,6 +55,8 @@
     "Spanish",
     "zh-Hans"
   ],
+  "gog_cloud_saves": false,
+  "gog_achievements": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
