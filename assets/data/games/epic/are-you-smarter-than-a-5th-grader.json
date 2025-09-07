@@ -37,9 +37,9 @@
   "genre": "Quiz/Trivia",
   "description": "The Are You Smarter Than A 5th Grader? Plug-and-Play game is is based off the game show of the same name. It was released in 2006 by Jakks Pacific.",
   "size": "",
-  "vertical_artwork": "https://images.gog.com/5c5842b154399b49a917fbbdb92a7fa8f0e18707a8c728da75506acd4b5302be.jpg?namespace=gamesdb",
-  "banner_image": "",
-  "icon_image": "",
+  "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1521160/library_600x900.jpg",
+  "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1521160/library_hero.jpg",
+  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1521160/capsule_231x87.jpg",
   "steamId": "1521160",
   "game_modes": [
     "Single player",
@@ -49,9 +49,10 @@
   "languages": [
     "English"
   ],
+  "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T07:05:21.501Z"
+  "updated_at": "2025-09-07T02:19:28.017Z"
 }

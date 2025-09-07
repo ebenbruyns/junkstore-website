@@ -47,9 +47,10 @@
   "languages": [
     "English (United States)"
   ],
+  "epic_cloud_saves": false,
   "tested": true,
-  "owned": false,
+  "owned": true,
   "is_featured": false,
   "created_at": "2025-08-04T06:00:42.846Z",
-  "updated_at": "2025-08-17T21:04:22.734Z"
+  "updated_at": "2025-09-07T03:46:14.423Z"
 }
