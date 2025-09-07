@@ -1,5 +1,5 @@
 /**
- * Static Optimized Games Table for Jekyll Site
+ * Static Optimized Games Table for Jekyll Site - Updated Sept 7, 2025 15:42
  * 
  * This is the static version of the dynamic optimized table:
  * 1. Loads lightweight summary first (fast table display) 
@@ -579,6 +579,7 @@ class StaticOptimizedGamesTable {
   }
 
   getModalContent(game) {
+    console.log(`🔥 MODAL DEBUG: Creating modal for ${game.title} with languages:`, game.languages, 'and game_modes:', game.game_modes);
     const storefrontClass = game.storefront.toLowerCase();
     
     return `
@@ -680,6 +681,88 @@ class StaticOptimizedGamesTable {
                           <span class="info-value">${game.genre}</span>
                         </div>
                       ` : ''}
+                      ${(() => {
+                        console.log(`🎮 Debug game_modes for ${game.title}:`, game.game_modes);
+                        return game.game_modes && game.game_modes.length > 0 ? `
+                        <div class="info-item">
+                          <span class="info-label">Game Modes</span>
+                          <span class="info-value">${game.game_modes.join(', ')}</span>
+                        </div>
+                      ` : '';
+                      })()}
+                      ${(() => {
+                        console.log(`🌍 Debug languages for ${game.title}:`, game.languages);
+                        return game.languages && game.languages.length > 0 ? `
+                        <div class="info-item">
+                          <span class="info-label">Languages</span>
+                          <span class="info-value">${game.languages.join(', ')}</span>
+                        </div>
+                      ` : '';
+                      })()}
+                      ${game.releasedate ? `
+                        <div class="info-item">
+                          <span class="info-label">Release Date</span>
+                          <span class="info-value">${new Date(game.releasedate).toLocaleDateString()}</span>
+                        </div>
+                      ` : ''}
+                      ${(() => {
+                        console.log(`🎮 Debug game_modes for ${game.title}:`, game.game_modes);
+                        return game.game_modes && game.game_modes.length > 0 ? `
+                        <div class="info-item">
+                          <span class="info-label">Game Modes</span>
+                          <span class="info-value">${game.game_modes.join(', ')}</span>
+                        </div>
+                      ` : '';
+                      })()}
+                      ${(() => {
+                        console.log(`🌍 Debug languages for ${game.title}:`, game.languages);
+                        return game.languages && game.languages.length > 0 ? `
+                        <div class="info-item">
+                          <span class="info-label">Languages</span>
+                          <span class="info-value">${game.languages.join(', ')}</span>
+                        </div>
+                      ` : '';
+                      })()}
+                    </div>
+                  </div>
+                  
+                  <!-- External Links Section -->
+                  <div class="info-section">
+                    <h6><i class="fas fa-external-link-alt text-primary"></i> External Links</h6>
+                    <div class="external-links">
+                      ${game.protondb ? `
+                        <a href="${game.protondb}" target="_blank" rel="noopener" class="external-link protondb">
+                          <i class="fas fa-database"></i> ProtonDB
+                        </a>
+                      ` : ''}
+                      ${game.pcgaming_wiki_url ? `
+                        <a href="${game.pcgaming_wiki_url}" target="_blank" rel="noopener" class="external-link pcgaming">
+                          <i class="fas fa-book"></i> PCGaming Wiki
+                        </a>
+                      ` : game.epic_url && game.epic_url.includes('pcgamingwiki.com') ? `
+                        <a href="${game.epic_url}" target="_blank" rel="noopener" class="external-link pcgaming">
+                          <i class="fas fa-book"></i> PCGaming Wiki
+                        </a>
+                      ` : game.gog_url && game.gog_url.includes('pcgamingwiki.com') ? `
+                        <a href="${game.gog_url}" target="_blank" rel="noopener" class="external-link pcgaming">
+                          <i class="fas fa-book"></i> PCGaming Wiki
+                        </a>
+                      ` : ''}
+                      ${game.epic_url && game.epic_url.trim() && game.storefront === 'Epic' && !game.epic_url.includes('pcgamingwiki.com') ? `
+                        <a href="${game.epic_url}" target="_blank" rel="noopener" class="external-link epic">
+                          <i class="fab fa-epic-games"></i> Epic Games Store
+                        </a>
+                      ` : ''}
+                      ${game.gog_url && game.gog_url.trim() && game.storefront === 'GOG' && !game.gog_url.includes('pcgamingwiki.com') ? `
+                        <a href="${game.gog_url}" target="_blank" rel="noopener" class="external-link gog">
+                          <i class="fas fa-gamepad"></i> GOG.com
+                        </a>
+                      ` : ''}
+                      ${game.itch_url ? `
+                        <a href="${game.itch_url}" target="_blank" rel="noopener" class="external-link itch">
+                          <i class="fas fa-heart"></i> itch.io
+                        </a>
+                      ` : ''}
                     </div>
                   </div>
                 
@@ -707,15 +790,16 @@ class StaticOptimizedGamesTable {
     let content = '';
     
     // Technical Configuration
-    const hasConfig = game.dependencies || game.controller_config || game.required_launcher;
+    const hasConfig = game.dependencies || game.controller_config || game.required_launcher || (game.requires_account_setup && game.account_type);
     if (hasConfig) {
       content += `
         <div class="info-section">
           <h6>Technical Configuration</h6>
           <div class="info-list">
-            ${game.required_launcher ? `<div class="info-item"><strong>Required Launcher:</strong> ${game.required_launcher}</div>` : ''}
+            ${game.required_launcher ? `<div class="info-item"><strong>Required Launcher:</strong> ${this.formatFieldValue(game.required_launcher)}</div>` : ''}
+            ${game.requires_account_setup && game.account_type ? `<div class="info-item"><strong>Account Required:</strong> ${game.account_type}</div>` : ''}
             ${game.dependencies ? `<div class="info-item"><strong>Dependencies:</strong> ${game.dependencies}</div>` : ''}
-            ${game.controller_config ? `<div class="info-item"><strong>Controller Config:</strong> ${game.controller_config}</div>` : ''}
+            ${game.controller_config ? `<div class="info-item"><strong>Controller Config:</strong> ${this.formatControllerConfig(game.controller_config)}</div>` : ''}
           </div>
         </div>
       `;
@@ -818,6 +902,9 @@ class StaticOptimizedGamesTable {
     } else if (ratingLower === 'not-working') {
       console.log('→ Returning text-danger');
       return 'text-danger';
+    } else if (ratingLower === 'unknown') {
+      console.log('→ Returning text-muted for unknown');
+      return 'text-muted';
     }
     console.log(`→ Returning empty string for unknown rating: ${rating}`);
     return '';
@@ -830,26 +917,51 @@ class StaticOptimizedGamesTable {
     if (ratingLower === 'yellow') return 'Minor tinkering';
     if (ratingLower === 'red') return 'Advanced tinkering';
     if (ratingLower === 'not-working') return 'Doesn\'t work';
+    if (ratingLower === 'unknown') return 'Unknown';
     return rating;
+  }
+
+  formatControllerInput(input) {
+    if (!input) return '';
+    const inputLower = input.toLowerCase();
+    if (inputLower === 'native') return 'Native';
+    if (inputLower === 'keyboard-mouse') return 'Keyboard & Mouse';
+    if (inputLower === 'mouse-only') return 'Mouse Only';
+    if (inputLower === 'requires-mapping') return 'Requires Mapping';
+    // Return as-is for other values
+    return input;
+  }
+
+  formatControllerConfig(config) {
+    if (!config) return '';
+    // These are the actual values from your data - just return them as-is since they're already properly formatted
+    return config;
+  }
+
+  formatFieldValue(value) {
+    if (!value) return '';
+    // Handle actual launcher values from your data
+    const valueLower = value.toLowerCase();
+    if (valueLower === 'ubisoft-connect') return 'Ubisoft Connect';
+    if (valueLower === 'hoyoplay') return 'HoYoPlay';
+    if (valueLower === 'dosbox') return 'Dosbox';
+    if (valueLower === 'scummvm') return 'ScummVM';
+    // Capitalize and clean up other values
+    return value.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
   }
 
   renderEpicFeatures(game) {
     console.log(`🔍 renderEpicFeatures called for ${game.title}, storefront: ${game.storefront}`);
     if (game.storefront !== 'Epic') return '';
     
-    const epicFeatures = game.epic_features || {};
-    console.log(`🎮 Epic features for ${game.title}:`, epicFeatures);
-    
-    // Check if any Epic features are present
-    const hasFeatures = epicFeatures.epic_achievements || 
-                       epicFeatures.epic_offline_mode || 
-                       epicFeatures.requires_eos || 
-                       epicFeatures.supports_eos ||
-                       epicFeatures.requires_verification ||
-                       epicFeatures.requires_eac_runtime ||
-                       epicFeatures.requires_battleye_runtime ||
-                       game.requires_verification || 
-                       game.requires_eac_runtime || 
+    // Check if any Epic features are present (using direct game properties)
+    const hasFeatures = game.epic_achievements || 
+                       game.epic_offline_mode || 
+                       game.epic_cloud_saves !== undefined ||
+                       game.requires_eos || 
+                       game.supports_eos ||
+                       game.requires_verification ||
+                       game.requires_eac_runtime ||
                        game.requires_battleye_runtime;
     
     if (!hasFeatures) {
@@ -863,25 +975,31 @@ class StaticOptimizedGamesTable {
       <div class="info-section">
         <h6><i class="fas fa-star text-warning"></i> Epic Games Features</h6>
         <div class="epic-features-grid">
-          ${epicFeatures.epic_achievements ? `
+          ${game.epic_cloud_saves !== undefined ? `
+            <div class="epic-feature-item">
+              <span>Cloud Saves</span>
+              <span class="feature-status ${game.epic_cloud_saves ? 'status-supported' : 'status-unsupported'}">${game.epic_cloud_saves ? '✓ Supported' : '✗ Not Available'}</span>
+            </div>
+          ` : ''}
+          ${game.epic_achievements ? `
             <div class="epic-feature-item">
               <span>Achievements</span>
               <span class="feature-status status-supported">✓ Supported</span>
             </div>
           ` : ''}
-          ${epicFeatures.epic_offline_mode ? `
+          ${game.epic_offline_mode ? `
             <div class="epic-feature-item">
               <span>Offline Mode</span>
               <span class="feature-status status-supported">✓ Available</span>
             </div>
           ` : ''}
-          ${epicFeatures.requires_eos || epicFeatures.supports_eos ? `
+          ${game.requires_eos || game.supports_eos ? `
             <div class="epic-feature-item">
               <span>EOS Overlay</span>
-              <span class="feature-status ${epicFeatures.requires_eos ? 'status-required' : 'status-supported'}">${epicFeatures.requires_eos ? 'Required' : '✓ Supported'}</span>
+              <span class="feature-status ${game.requires_eos ? 'status-required' : 'status-supported'}">${game.requires_eos ? 'Required' : '✓ Supported'}</span>
             </div>
           ` : ''}
-          ${epicFeatures.requires_verification || game.requires_verification ? `
+          ${game.requires_verification ? `
             <div class="epic-feature-item">
               <span>Verification</span>
               <span class="feature-status status-warning">⚠️ May need to verify</span>
