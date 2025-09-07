@@ -1,5 +1,5 @@
 {
-  "id": "e3001468-90f5-4dc2-970e-b834e778e92a",
+  "id": "4d116fc8-66e9-4fc4-b3ea-290c3e0add44",
   "title": "Agony",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/487720",
@@ -29,8 +29,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "1213448387",
-  "shortname": "1213448387",
+  "databaseId": "2028023186",
+  "shortname": "2028023186",
   "publisher": "Forever Entertainment S. A., PlayWay",
   "developer": "Madmind Studio",
   "releasedate": "2018-05-29T00:00:00+0000",
@@ -47,9 +47,11 @@
   "languages": [
     "English"
   ],
+  "gog_cloud_saves": false,
+  "gog_achievements": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "created_at": "2025-08-04T05:34:28.038Z",
-  "updated_at": "2025-08-13T00:12:50.956Z"
+  "updated_at": "2025-08-11T02:35:30.423Z"
 }

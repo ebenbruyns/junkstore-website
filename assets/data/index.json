@@ -1,165 +1,77 @@
 {
-  "last_updated": "2025-08-18T06:15:20.731Z",
-  "total_tested_games": 678,
-  "featured_games": 15,
+  "last_updated": "2025-09-07T09:10:29.283Z",
+  "total_tested_games": 697,
+  "featured_games": 8,
   "storefronts": {
     "Epic": {
-      "total": 346,
+      "total": 353,
       "featured": 3,
       "directory": "epic"
     },
     "GOG": {
-      "total": 300,
-      "featured": 3,
+      "total": 310,
+      "featured": 5,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 23,
+      "total": 25,
       "featured": 0,
       "directory": "amazon"
     },
     "itch.io": {
       "total": 9,
-      "featured": 9,
+      "featured": 0,
       "directory": "itch.io"
     }
   },
   "recent_updates": [
     {
-      "title": "2   9   0   1  / / FREELANCER",
-      "storefront": "itch.io",
-      "slug": "2-9-0-1-freelancer",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T04:36:18.624Z"
-    },
-    {
-      "title": "1993 Space Machine",
-      "storefront": "itch.io",
-      "slug": "1993-space-machine",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T04:36:06.441Z"
-    },
-    {
-      "title": "10 Flights of Ballooning",
-      "storefront": "itch.io",
-      "slug": "10-flights-of-ballooning",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T04:35:57.786Z"
-    },
-    {
-      "title": "CrossCode",
-      "storefront": "itch.io",
-      "slug": "crosscode",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T04:35:03.491Z"
-    },
-    {
-      "title": "Filthy Animals: Heist Simulator",
+      "title": "Against All Odds",
       "storefront": "Epic",
-      "slug": "filthy-animals-heist-simulator",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T04:34:50.714Z"
+      "slug": "against-all-odds",
+      "date_tested": "Nov '24",
+      "is_featured": false,
+      "updated_at": "2025-09-07T04:49:20.767Z"
     },
     {
-      "title": "Necroking",
-      "storefront": "GOG",
-      "slug": "necroking",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T04:34:19.999Z"
-    },
-    {
-      "title": "Fate: The Traitor Soul",
-      "storefront": "GOG",
-      "slug": "fate-the-traitor-soul",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T04:31:23.494Z"
-    },
-    {
-      "title": "Hidden Folks",
+      "title": "Abzû",
       "storefront": "Epic",
-      "slug": "hidden-folks",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T04:23:01.355Z"
+      "slug": "abz",
+      "date_tested": "Nov '24",
+      "is_featured": false,
+      "updated_at": "2025-09-07T04:47:18.010Z"
     },
     {
-      "title": "Totally Reliable Delivery Service",
+      "title": "Ak-xolotl: Together",
       "storefront": "Epic",
-      "slug": "totally-reliable-delivery-service",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T04:22:33.294Z"
+      "slug": "ak-xolotl-together",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2025-09-07T03:46:51.258Z"
     },
     {
-      "title": "Tin Hearts",
-      "storefront": "GOG",
-      "slug": "tin-hearts",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T04:22:21.297Z"
-    },
-    {
-      "title": "Super Hexagon",
-      "storefront": "itch.io",
-      "slug": "super-hexagon",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T03:24:07.201Z"
-    },
-    {
-      "title": "Celeste",
-      "storefront": "itch.io",
-      "slug": "celeste",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T03:23:08.443Z"
-    },
-    {
-      "title": "Baba Is You",
-      "storefront": "itch.io",
-      "slug": "baba-is-you",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T03:22:40.703Z"
-    },
-    {
-      "title": "A Short Hike",
-      "storefront": "itch.io",
-      "slug": "a-short-hike",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T03:21:48.282Z"
-    },
-    {
-      "title": "10S",
-      "storefront": "itch.io",
-      "slug": "10s",
-      "date_tested": "Aug '25",
-      "is_featured": true,
-      "updated_at": "2025-08-18T03:20:44.455Z"
-    },
-    {
-      "title": "Heroes of Loot",
-      "storefront": "GOG",
-      "slug": "heroes-of-loot",
+      "title": "Kamaeru",
+      "storefront": "Epic",
+      "slug": "kamaeru",
       "date_tested": "Aug '25",
       "is_featured": false,
-      "updated_at": "2025-08-17T21:29:57.269Z"
+      "updated_at": "2025-09-07T03:46:27.290Z"
     },
     {
-      "title": "112 Operator",
+      "title": "RAWMEN: Food Fighter Arena",
       "storefront": "Epic",
-      "slug": "112-operator",
+      "slug": "rawmen-food-fighter-arena",
+      "date_tested": "Aug '24",
+      "is_featured": false,
+      "updated_at": "2025-09-07T03:46:19.013Z"
+    },
+    {
+      "title": "Make Way",
+      "storefront": "Epic",
+      "slug": "make-way",
       "date_tested": "Aug '25",
       "is_featured": false,
-      "updated_at": "2025-08-17T21:04:25.374Z"
+      "updated_at": "2025-09-07T03:46:17.032Z"
     },
     {
       "title": "Keylocker: Turn Based Cyberpunk Action",
@@ -167,23 +79,111 @@
       "slug": "keylocker-turn-based-cyberpunk-action",
       "date_tested": "Aug '25",
       "is_featured": false,
-      "updated_at": "2025-08-17T21:04:22.734Z"
+      "updated_at": "2025-09-07T03:46:14.423Z"
     },
     {
-      "title": "Postal 2",
-      "storefront": "GOG",
-      "slug": "postal-2",
-      "date_tested": "Aug '25",
+      "title": "TRIB3",
+      "storefront": "Epic",
+      "slug": "trib3",
+      "date_tested": "Aug '24",
       "is_featured": false,
-      "updated_at": "2025-08-17T21:04:20.107Z"
+      "updated_at": "2025-09-07T03:46:11.971Z"
     },
     {
-      "title": "Thief: Definitive Edition",
+      "title": "Absolute Drift",
+      "storefront": "Epic",
+      "slug": "absolute-drift",
+      "date_tested": "May '24",
+      "is_featured": false,
+      "updated_at": "2025-09-07T03:42:14.978Z"
+    },
+    {
+      "title": "AER Memories of Old",
+      "storefront": "Epic",
+      "slug": "aer-memories-of-old",
+      "date_tested": "June '24",
+      "is_featured": false,
+      "updated_at": "2025-09-07T03:41:15.646Z"
+    },
+    {
+      "title": "A Short Hike",
+      "storefront": "Epic",
+      "slug": "a-short-hike",
+      "date_tested": "Sept '24",
+      "is_featured": false,
+      "updated_at": "2025-09-07T03:39:52.483Z"
+    },
+    {
+      "title": "20xx",
+      "storefront": "Epic",
+      "slug": "20xx",
+      "date_tested": "Oct '24",
+      "is_featured": false,
+      "updated_at": "2025-09-07T03:39:00.564Z"
+    },
+    {
+      "title": "#Drive Rally",
       "storefront": "GOG",
-      "slug": "thief-definitive-edition",
+      "slug": "drive-rally",
+      "date_tested": "Oct '24",
+      "is_featured": false,
+      "updated_at": "2025-09-07T03:36:32.782Z"
+    },
+    {
+      "title": "Are You Smarter Than A 5th Grader?",
+      "storefront": "Epic",
+      "slug": "are-you-smarter-than-a-5th-grader",
       "date_tested": "Aug '25",
       "is_featured": false,
-      "updated_at": "2025-08-17T21:04:18.083Z"
+      "updated_at": "2025-09-07T02:19:28.017Z"
+    },
+    {
+      "title": "The Operator",
+      "storefront": "Epic",
+      "slug": "the-operator",
+      "date_tested": "July '25",
+      "is_featured": false,
+      "updated_at": "2025-09-07T02:18:39.528Z"
+    },
+    {
+      "title": "Tetris Effect",
+      "storefront": "Epic",
+      "slug": "tetris-effect",
+      "date_tested": "May '24",
+      "is_featured": false,
+      "updated_at": "2025-09-07T02:17:41.373Z"
+    },
+    {
+      "title": "Defender's Quest: Valley of the Forgotten",
+      "storefront": "GOG",
+      "slug": "defenders-quest-valley-of-the-forgotten",
+      "date_tested": "April '25",
+      "is_featured": false,
+      "updated_at": "2025-09-07T02:15:09.766Z"
+    },
+    {
+      "title": "Dorfromantik",
+      "storefront": "GOG",
+      "slug": "dorfromantik",
+      "date_tested": "Sep '25",
+      "is_featured": true,
+      "updated_at": "2025-09-07T02:12:12.128Z"
+    },
+    {
+      "title": "Monument Valley+",
+      "storefront": "Epic",
+      "slug": "monument-valley",
+      "date_tested": "Sep '25",
+      "is_featured": true,
+      "updated_at": "2025-09-06T23:15:52.607Z"
+    },
+    {
+      "title": "Into the Breach",
+      "storefront": "Epic",
+      "slug": "into-the-breach",
+      "date_tested": "Sep '25",
+      "is_featured": true,
+      "updated_at": "2025-09-06T21:45:23.476Z"
     }
   ]
 }

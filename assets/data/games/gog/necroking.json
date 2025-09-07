@@ -38,8 +38,8 @@
   "description": "Necroking is a turn-based tactics roguelite with pixel art graphics. You play as a Master of Necromancy. Build your sculls deck, rise skeletons and other scum to defeat settlements desecrated by life.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/37841db09d5e0971d64e02351ad19dc3351d6a2d91d08001a2e4f73135a59a29.jpg?namespace=gamesdb",
-  "banner_image": "https://images.gog.com/28e463007fbe7fd41de8984eac20b1aeb20a456d8c6ac7331c9a37187cb0afa7.jpg?namespace=gamesdb",
-  "icon_image": "https://images.gog.com/55d5cb8956aacc799fba08c766d50e4ceea0cee6589d8c6429c67d6107616923.jpg?namespace=gamesdb",
+  "banner_image": "",
+  "icon_image": "",
   "steamId": "2852980",
   "game_modes": [
     "Single player"
@@ -57,9 +57,11 @@
     "Russian",
     "zh-Hans"
   ],
+  "gog_cloud_saves": false,
+  "gog_achievements": false,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "created_at": "2025-08-15T08:59:20.498Z",
-  "updated_at": "2025-08-18T04:34:19.999Z"
+  "updated_at": "2025-08-19T04:55:13.318Z"
 }

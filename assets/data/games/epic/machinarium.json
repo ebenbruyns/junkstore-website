@@ -38,8 +38,8 @@
   "description": "Machinarium is award-winning independent adventure game developed by the makers of Samorost and Botanicula. A little robot who’s been thrown out to the scrap yard behind the city must return and confront the Black Cap Brotherhood and save his robot-girl friend.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/a00d7e17f7009f9b8a6ea02afd9892d49a5dd4764cc34c60eedfd29141026728.jpg?namespace=gamesdb",
-  "banner_image": "https://images.gog.com/f0334825f68e6f4a8ba8af9e8277f9171d37a883efb10ee023802b3949b40028.jpg?namespace=gamesdb",
-  "icon_image": "https://images.gog.com/c6bca2ad6e957c82422932faaf98f9f273976fc1b9acc30c33a347d85099b3e1.jpg?namespace=gamesdb",
+  "banner_image": "",
+  "icon_image": "",
   "steamId": "40700",
   "game_modes": [
     "Single player"
@@ -47,9 +47,10 @@
   "languages": [
     "Too many to list"
   ],
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "created_at": "2025-08-29T00:10:09.093Z",
-  "updated_at": "2025-08-31T03:48:27.001Z"
+  "updated_at": "2025-09-04T23:47:30.860Z"
 }
