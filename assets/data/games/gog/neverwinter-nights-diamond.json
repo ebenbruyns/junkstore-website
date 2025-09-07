@@ -53,6 +53,8 @@
     "Polish",
     "Spanish"
   ],
+  "gog_cloud_saves": false,
+  "gog_achievements": false,
   "tested": true,
   "owned": true,
   "is_featured": false,

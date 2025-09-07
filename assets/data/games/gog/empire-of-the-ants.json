@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "gog_cloud_saves": false,
+  "gog_achievements": false,
   "owned": false,
   "is_featured": false,
   "created_at": "2025-08-01T02:40:48.192Z",

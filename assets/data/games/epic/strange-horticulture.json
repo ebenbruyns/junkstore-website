@@ -50,9 +50,10 @@
     "Russian",
     "Chinese (Simplified)"
   ],
+  "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "created_at": "2025-08-23T03:13:13.159Z",
-  "updated_at": "2025-08-31T03:45:13.520Z"
+  "updated_at": "2025-09-04T23:47:35.950Z"
 }

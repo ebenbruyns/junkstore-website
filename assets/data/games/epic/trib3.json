@@ -43,8 +43,9 @@
   "steamId": "",
   "game_modes": [],
   "languages": [],
-  "owned": false,
+  "epic_cloud_saves": false,
+  "owned": true,
   "is_featured": false,
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "updated_at": "2025-09-07T03:46:11.971Z"
 }
