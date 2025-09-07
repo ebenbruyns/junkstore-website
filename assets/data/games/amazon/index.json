@@ -1,27 +1,24 @@
 {
   "storefront": "Amazon",
-  "total_games": 23,
+  "total_games": 25,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
-    "baldurs-gate-2-enhanced.json",
     "baldurs-gate-enhanced-edition.json",
-    "baldurs-gate-enhanced.json",
     "baldurs-gate-ii-enhanced-edition.json",
     "bang-bang-racing.json",
     "beholder-3.json",
     "clouds-sheep-2.json",
     "dexter-stardust-adventures-in-outer-space.json",
+    "dungeon-of-the-endless-definitive-edition.json",
     "endless-space-2-definitive-edition.json",
-    "endless-space-2.json",
     "faraway-2-jungle-escape.json",
-    "faraway-3-artic-escape.json",
     "faraway-arctic-escape.json",
+    "labyrinth-city-pierre-the-maze-detective.json",
     "max-the-curse-of-brotherhood.json",
     "nine-witches-family-disruption.json",
     "projection-first-light.json",
     "spirit-mancer.json",
     "star-wars-knights-of-the-old-republic-ii-the-sith-lords.json",
-    "star-wars-knights-of-the-republic.json",
     "the-abandoned-planet.json",
     "the-academy-the-first-riddle.json",
     "the-collage-atlas.json",
@@ -29,12 +26,23 @@
     "through-the-darkest-of-times.json",
     "tiny-robots-recharged.json",
     "vlad-circus-descend-into-madness.json",
-    "vlad-circus.json",
     "warhammer-40000-dawn-of-war-ii.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-08-18T07:55:39.324Z",
+  "last_updated": "2025-09-07T09:10:29.277Z",
   "latest_games": [
+    {
+      "title": "Labyrinth City: Pierre the Maze Detective",
+      "slug": "labyrinth-city-pierre-the-maze-detective",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Dungeon of the Endless: Definitive Edition",
+      "slug": "dungeon-of-the-endless-definitive-edition",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
     {
       "title": "The Academy: The First Riddle",
       "slug": "the-academy-the-first-riddle",
@@ -80,18 +88,6 @@
     {
       "title": "Vlad Circus: Descend Into Madness",
       "slug": "vlad-circus-descend-into-madness",
-      "date_tested": "July '25",
-      "is_featured": false
-    },
-    {
-      "title": "Tiny Robots Recharged",
-      "slug": "tiny-robots-recharged",
-      "date_tested": "July '25",
-      "is_featured": false
-    },
-    {
-      "title": "Through the Darkest of Times",
-      "slug": "through-the-darkest-of-times",
       "date_tested": "July '25",
       "is_featured": false
     }
