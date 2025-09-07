@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Junk Store Tested - September 07, 2025"
-date: 2025-09-07
+title: "Junk Store Tested - September 08, 2025"
+date: 2025-09-08
 categories: [Weekly Update, Game Compatibility]
-slug: "games-tested-sep-07"
+slug: "games-tested-sep-08"
 excerpt: "Weekly testing update featuring 8 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
-image: /assets/images/blog/250907-hero.jpg
+image: /assets/images/blog/250908-hero.jpg
 header:
-  teaser: /assets/images/blog/250907-hero-thumb.jpg
+  teaser: /assets/images/blog/250908-hero-thumb.jpg
 read_time: "5 min read"
 toc: true
 ---
@@ -28,29 +28,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 
 ## This Week's Featured Games
 
-### Epic Games
-
-<div class="game-entry">
-  <img src="https://images.gog.com/5e0c70e05ebb59abbccdcc25c4f66d52fb9f861ea7518f13a3c27ff8e37b6ecb.jpg?namespace=gamesdb" alt="LEGO Builder's Journey" class="game-thumbnail">
-  <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/p/lego-builders-journey" target="_blank">LEGO Builder's Journey</a></strong>
-    <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
-    </div>
-  </div>
-</div>
-
-<div class="game-entry">
-  <img src="https://images.gog.com/7c7579d6f9bf02de0810b2de594d9c1906620b046c6a98d1992e993ce690a3b6.jpg?namespace=gamesdb" alt="Into the Breach" class="game-thumbnail">
-  <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/p/into-the-breach" target="_blank">Into the Breach</a></strong>
-    <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
-    </div>
-  </div>
-</div>
+### Epic Giveaways
 
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1927720/capsule_231x87.jpg" alt="Monument Valley+" class="game-thumbnail">
@@ -63,18 +41,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
   </div>
 </div>
 
-### GOG
-
-<div class="game-entry">
-  <img src="https://images.gog.com/0c0b926fc0781754010bfb71ab0aff7937ea0daaff756f4cf571e1a5fdb91596.jpg?namespace=gamesdb" alt="GMDX" class="game-thumbnail">
-  <div class="game-details">
-    <strong><a href="https://www.gog.com/en/game/gmdx" target="_blank">GMDX</a></strong>
-    <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
-    </div>
-  </div>
-</div>
+### Amazon Prime Giveaways
 
 <div class="game-entry">
   <img src="https://images.gog.com/75aa24717e3ef05396f2fe74e2149fd7fb5dbe18b11ea0f670e8cc5e7d031a51.jpg?namespace=gamesdb" alt="Ravenloft: Stone Prophet" class="game-thumbnail">
@@ -110,6 +77,43 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 </div>
 
 <div class="game-entry">
+  <img src="https://images.gog.com/7c7579d6f9bf02de0810b2de594d9c1906620b046c6a98d1992e993ce690a3b6.jpg?namespace=gamesdb" alt="Into the Breach" class="game-thumbnail">
+  <div class="game-details">
+    <strong><a href="https://store.epicgames.com/en-US/p/into-the-breach" target="_blank">Into the Breach</a></strong>
+    <div class="compatibility-info">
+      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+    </div>
+  </div>
+</div>
+
+### Backlog Tested
+
+<div class="game-entry">
+  <img src="https://images.gog.com/5e0c70e05ebb59abbccdcc25c4f66d52fb9f861ea7518f13a3c27ff8e37b6ecb.jpg?namespace=gamesdb" alt="LEGO Builder's Journey" class="game-thumbnail">
+  <div class="game-details">
+    <strong><a href="https://store.epicgames.com/en-US/p/lego-builders-journey" target="_blank">LEGO Builder's Journey</a></strong>
+    <div class="compatibility-info">
+      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+    </div>
+  </div>
+</div>
+
+<div class="game-entry">
+  <img src="https://images.gog.com/0c0b926fc0781754010bfb71ab0aff7937ea0daaff756f4cf571e1a5fdb91596.jpg?namespace=gamesdb" alt="GMDX" class="game-thumbnail">
+  <div class="game-details">
+    <strong><a href="https://www.gog.com/en/game/gmdx" target="_blank">GMDX (Gog Mod)</a></strong>
+    <div class="compatibility-info">
+      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+    </div>
+  </div>
+</div>
+
+### Community Tested
+
+<div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1455840/capsule_231x87.jpg" alt="Dorfromantik" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="https://www.gog.com/en/game/dorfromantik" target="_blank">Dorfromantik</a></strong>
@@ -119,8 +123,6 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
     </div>
   </div>
 </div>
-
-
 
 ## Next Week's Games
 
