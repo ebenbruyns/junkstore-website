@@ -49,6 +49,7 @@
   "languages": [
     "English"
   ],
+  "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,

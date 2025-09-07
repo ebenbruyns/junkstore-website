@@ -4,15 +4,15 @@
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/1055540",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/a-short-hike",
   "itch_url": "",
-  "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
+  "notes": "",
   "date_tested": "Sept '24",
   "decky_rating": "green",
-  "standalone_rating": "green",
+  "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -47,9 +47,10 @@
   "languages": [
     "English"
   ],
+  "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T02:35:17.862Z"
+  "updated_at": "2025-09-07T03:39:52.483Z"
 }

@@ -6,7 +6,7 @@
   "gog_url": "https://www.gog.com/en/game/beneath_a_steel_sky",
   "epic_url": "",
   "itch_url": "",
-  "notes": "Requires DOSBox. Mouse-only controls. **Decky Plugin: Not Supported**. **2.0 Standalone: Works out of the box**.",
+  "notes": "You need to set the platform to DOSBox from the cog menu on the game screen: Game Configs > ADVANCED > platform > Dosbox. Save the config change and launch the game.",
   "date_tested": "Aug '25",
   "decky_rating": "not-supported",
   "standalone_rating": "green",
@@ -47,9 +47,11 @@
   "languages": [
     "English"
   ],
+  "gog_cloud_saves": false,
+  "gog_achievements": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2025-08-11T10:21:14.409Z"
+  "updated_at": "2025-09-06T01:10:17.154Z"
 }

@@ -43,6 +43,7 @@
   "steamId": "2561580",
   "game_modes": [],
   "languages": [],
+  "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
