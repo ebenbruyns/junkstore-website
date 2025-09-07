@@ -6,13 +6,17 @@ categories: [Weekly Update, Game Compatibility]
 slug: "games-tested-sep-07"
 excerpt: "Weekly testing update featuring 8 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/250907-hero.jpg
+header:
+  teaser: /assets/images/blog/250907-hero-thumb.jpg
 read_time: "5 min read"
 toc: true
 ---
 
 Kia ora Everyone! 
 
-Weekly testing update with our featured games. Here's what we've been testing this week across multiple storefronts.
+We love being back on board our boat after winter - we really missed the calming nature of living on the water full time. We're slowly getting back into the rhythms of boat life, and the weather has been quite a mixed bag of good and not-so-good days. It makes each day interesting as we work with and around whatever weather conditions get thrown at us, but honestly, we love it - even after almost 9 years of this lifestyle!
+
+Anyway, on to what you came for - let's see how last week's giveaways fared.
 
 ## Current System Setup
 * **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
@@ -118,9 +122,38 @@ Weekly testing update with our featured games. Here's what we've been testing th
 
 
 
+## Next Week's Games
+
+### Epic Games Store
+Epic has announced some exciting titles coming up for free next week:
+
+**Ghostrunner 2** - The hardcore FPP cyber-ninja sequel featuring enhanced abilities, motorbike sequences, and intense katana combat. One year after the original, Jack returns with new skills and ultimate abilities to take on relentless enemies in this synthwave-powered action platformer.
+
+**Monument Valley 2** - The award-winning puzzle sequel returns with a touching story of a mother and daughter navigating impossible architecture. Guide Ro and her child through mazes of optical illusions and impossible objects in this beautifully crafted continuation of the Monument Valley saga.
+
+**The Battle of Polytopia** - A charming turn-based 4X strategy game where you control unique tribes to rule the world. Discover new lands, master technologies, and engage in clever combat across a colorful low-poly world. Perfect bite-sized civilization building with up to 16-player multiplayer support.
+
+### Amazon Games
+Amazon Prime Gaming is giving away some classic RPG adventures next week:
+
+**Afterimage** (Amazon Games App) - Coming to Amazon's launcher
+
+**Tower of Time** (GOG Code) - A story-rich dungeon crawler with innovative real-time combat that lets you pause or slow time. Features over 50 hours of tactical RPG gameplay with hand-crafted levels, thousands of pieces of loot, and the unique Arrow-Time combat system where technology meets magic.
+
+**Spelljammer: Pirates of Realmspace** (GOG Code) - Captain your own magical ship in this classic D&D space fantasy RPG. Recruit crew, trade between planets, engage in ship-to-ship combat, and board enemy vessels in this 1992 adventure through Realmspace's eight worlds.
+
+**Subterrain: Mines of Titan** (Amazon Games App) - Coming to Amazon's launcher
+
+---
+
 ## Looking Forward
 
-As always, if you've got any questions about these games or JunkStore in general, let us know through our community channels.
+It's been quite a busy weekend as we've been tweaking our tools and workflows to make things run more smoothly. We're hoping to roll out some more helpful tips this week that should benefit both new and current users alike. We're also planning to make a concerted effort to start chipping away at our testing backlog - luckily it's not growing anymore, but it's certainly not getting any smaller either!
+
+We hope you're having a wonderful time wherever you are in the world, and as always, if you've got any questions about these games or Junk Store in general, please don't hesitate to reach out through our community channels.
+
+Cheers,  
+The Junk Store Team
 
 ---
 
