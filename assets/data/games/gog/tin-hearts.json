@@ -38,8 +38,8 @@
   "description": "Guide squads of tin soldiers to safety through this magical toy filled world. A beautiful VR puzzle game with a heartfelt story. Are you guiding the soldiers or are they guiding you?",
   "size": "",
   "vertical_artwork": "https://images.gog.com/a4e2232bc9851277b1e493979cce0698e879332f35bc24d4b46d203be8079b85.jpg?namespace=gamesdb",
-  "banner_image": "https://images.gog.com/c40b91027bcc1402b9788c633a495a036dc97cb14565ecc6250238a31f64e6fe.jpg?namespace=gamesdb",
-  "icon_image": "https://images.gog.com/24b009a395b5d7f6f5a668d58b9681237ca9a45aa0632c1fbe1e9c4cf8f7c944.jpg?namespace=gamesdb",
+  "banner_image": "",
+  "icon_image": "",
   "steamId": "1831700",
   "game_modes": [
     "Single player"
@@ -58,9 +58,11 @@
     "Russian",
     "zh-Hans"
   ],
+  "gog_cloud_saves": false,
+  "gog_achievements": false,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "created_at": "2025-08-15T08:59:20.500Z",
-  "updated_at": "2025-08-18T04:22:21.297Z"
+  "updated_at": "2025-08-19T04:55:14.420Z"
 }

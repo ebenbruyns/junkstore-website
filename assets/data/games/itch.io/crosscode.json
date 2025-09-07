@@ -38,8 +38,8 @@
   "description": "A retro-inspired 2D Action RPG set in the distant future. CrossCode combines 16-bit SNES-style graphics with butter-smooth physics, a fast-paced combat system, and engaging puzzle mechanics, served with a gripping sci-fi story.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/5ffe049a4a1ad1a357f74b46360e62c8a417acee92c3254bcf3f99479ebd4481.jpg?namespace=gamesdb",
-  "banner_image": "https://images.gog.com/9250df856e1396f04898566fbc0564ad02539854c3b0154b443c04cbbca09817.jpg?namespace=gamesdb",
-  "icon_image": "https://images.gog.com/f78e724218d50dc20c03b6a12b5b9067d8b8f8dae01530d05e2a1d5c4d7fc350.jpg?namespace=gamesdb",
+  "banner_image": "",
+  "icon_image": "",
   "steamId": "368340",
   "game_modes": [
     "Single player"
@@ -49,7 +49,7 @@
   ],
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "created_at": "2025-08-15T05:54:16.921Z",
-  "updated_at": "2025-08-18T04:35:03.491Z"
+  "updated_at": "2025-08-19T04:55:08.902Z"
 }

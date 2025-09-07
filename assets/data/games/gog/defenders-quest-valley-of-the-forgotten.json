@@ -31,7 +31,7 @@
   "cant_test_linux": false,
   "databaseId": "1207659129",
   "shortname": "1207659129",
-  "publisher": "",
+  "publisher": "Level Up Labs",
   "developer": "Level Up Labs",
   "releasedate": "",
   "genre": "role-playing-rpg, strategy, indie",
@@ -47,9 +47,11 @@
   "languages": [
     "English"
   ],
+  "gog_cloud_saves": false,
+  "gog_achievements": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-08-11T06:59:17.156Z"
+  "updated_at": "2025-09-07T02:15:09.766Z"
 }
