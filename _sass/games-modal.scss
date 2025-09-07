@@ -46,6 +46,96 @@
     color: #f6e05e !important;
 }
 
+.feature-status.status-unsupported {
+    background: rgba(245, 101, 101, 0.10);
+    color: #fc8181 !important;
+}
+
+/* External Links Section */
+.external-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.external-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    background: rgba(255, 163, 102, 0.08) !important;
+    border: 1px solid rgba(255, 163, 102, 0.2);
+    border-radius: 6px;
+    color: #ffa366 !important;
+    text-decoration: none !important;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.external-link:hover {
+    background: rgba(255, 163, 102, 0.15) !important;
+    border-color: rgba(255, 163, 102, 0.4);
+    color: #ffb380 !important;
+    text-decoration: none !important;
+    transform: translateY(-1px);
+}
+
+.external-link i {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.external-link.protondb {
+    border-color: rgba(102, 187, 106, 0.3);
+}
+
+.external-link.protondb:hover {
+    border-color: rgba(102, 187, 106, 0.5);
+}
+
+.external-link.pcgaming {
+    border-color: rgba(156, 163, 175, 0.3);
+}
+
+.external-link.pcgaming:hover {
+    border-color: rgba(156, 163, 175, 0.5);
+}
+
+/* Compatibility Status Styling - Force correct colors with highest specificity */
+.game-modal .feature-value.text-success,
+.modal-content .feature-value.text-success,
+.essential-info .feature-value.text-success {
+    color: #22c55e !important;
+}
+
+.game-modal .feature-value.text-warning,
+.modal-content .feature-value.text-warning,
+.essential-info .feature-value.text-warning {
+    color: #eab308 !important;
+}
+
+.game-modal .feature-value.text-danger,
+.modal-content .feature-value.text-danger,
+.essential-info .feature-value.text-danger {
+    color: #ef4444 !important;
+}
+
+/* Not supported status - distinct orange color */
+.game-modal .feature-value.text-not-supported,
+.modal-content .feature-value.text-not-supported,
+.essential-info .feature-value.text-not-supported {
+    color: #f97316 !important;
+}
+
+/* Unknown status styling - highest specificity */
+.game-modal .feature-value.text-muted,
+.modal-content .feature-value.text-muted,
+.essential-info .feature-value.text-muted {
+    color: #9ca3af !important;
+}
+
 /* Enhanced Header - Dark Theme */
 .modal-header-enhanced {
     background: linear-gradient(135deg, #334458 0%, #253445 100%) !important;
@@ -315,7 +405,7 @@
 }
 
 .info-section {
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 }
 
 .info-section:last-child {
@@ -386,7 +476,7 @@
 }
 
 .info-item {
-    padding: 8px 12px !important;
+    padding: 6px 10px !important;
     background: rgba(45, 55, 72, 0.4) !important;
     border-radius: 6px !important;
     border: 1px solid rgba(74, 85, 104, 0.3) !important;
@@ -711,7 +801,23 @@ div.game-modal.show,
 .info-grid {
     display: grid !important;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
-    gap: 10px !important;
+    gap: 6px !important;
+}
+
+/* Top row grid for short items (Genre, Publisher, Game Modes) */
+.info-grid-top {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+    margin-bottom: 6px !important;
+}
+
+/* Languages row - full width, flexible */
+.info-grid-languages {
+    grid-template-columns: 1fr !important;
+    margin-bottom: 6px !important;
+}
+
+.info-item-full {
+    grid-column: 1 / -1 !important;
 }
 
 .epic-features-grid {
