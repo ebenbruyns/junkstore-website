@@ -344,6 +344,30 @@ function getGameModeDisplay(controllerInput) {
   return modeMap[controllerInput.toLowerCase()] || `🎮 ${controllerInput}`;
 }
 
+// Format controller input for display
+function formatControllerInput(controllerInput) {
+  if (!controllerInput) return 'Not specified';
+  
+  const inputLower = controllerInput.toLowerCase();
+  const formatMap = {
+    'native': '🎮 Native Controller',
+    'keyboard-mouse': '⌨️ Keyboard & Mouse',
+    'controller': '🎮 Controller',
+    'mouse-only': '🖱️ Mouse Only',
+    'touchpad': '👆 Touchpad',
+    'mixed': '🎮🖱️ Mixed Input'
+  };
+  
+  // If it's a known mapping, use it
+  if (formatMap[inputLower]) {
+    return formatMap[inputLower];
+  }
+  
+  // Otherwise, capitalize first letter and add gamepad emoji if not present
+  const formatted = controllerInput.charAt(0).toUpperCase() + controllerInput.slice(1);
+  return formatted.includes('🎮') ? formatted : `🎮 ${formatted}`;
+}
+
 // Update table with current page
 function updateTable() {
   const tbody = document.getElementById('gamesTableBody');
@@ -566,6 +590,11 @@ async function openGameModal(gameId, modalFile) {
 
 // Create game modal
 function createGameModal(game) {
+  console.log('🔥 MODAL DEBUG: Creating modal for', game.title, 'with languages:', game.languages, 'and game_modes:', game.game_modes);
+  console.log('🎮 Debug game_modes:', game.game_modes);
+  console.log('🌍 Debug languages:', game.languages);
+  console.log('⭐ Debug decky_rating:', game.decky_rating, '-> class:', getStatusClass(game.decky_rating), 'text:', getStatusText(game.decky_rating));
+  console.log('⭐ Debug standalone_rating:', game.standalone_rating, '-> class:', getStatusClass(game.standalone_rating), 'text:', getStatusText(game.standalone_rating));
   console.log('🎨 Creating modal for game:', game.title);
   console.log('🖼️ Final image URLs for modal:');
   console.log('  banner_image:', game.banner_image);
@@ -668,7 +697,8 @@ function createGameModal(game) {
               <div class="col-md-8" id="gameDescription-${game.id}">
                 <div class="info-section">
                   <h6><i class="fas fa-gamepad text-primary"></i> Game Information</h6>
-                  <div class="info-grid">
+                  <!-- Top row: Genre, Publisher, Game Modes (short items) -->
+                  <div class="info-grid info-grid-top">
                     ${game.genre ? `
                       <div class="info-item">
                         <span class="info-label">Genre</span>
@@ -681,18 +711,38 @@ function createGameModal(game) {
                         <span class="info-value">${game.publisher}</span>
                       </div>
                     ` : ''}
-                    ${game.language_support ? `
+                    ${game.game_modes && Array.isArray(game.game_modes) && game.game_modes.length > 0 ? `
                       <div class="info-item">
-                        <span class="info-label">Language Support</span>
-                        <span class="info-value">${game.language_support}</span>
+                        <span class="info-label">Game Modes</span>
+                        <span class="info-value">${game.game_modes.join(', ')}</span>
                       </div>
                     ` : ''}
                   </div>
+                  
+                  <!-- Bottom row: Languages (flexible, can be long) -->
+                  ${game.languages && Array.isArray(game.languages) && game.languages.length > 0 ? `
+                    <div class="info-grid info-grid-languages">
+                      <div class="info-item info-item-full">
+                        <span class="info-label">Languages</span>
+                        <span class="info-value">${game.languages.join(', ')}</span>
+                      </div>
+                    </div>
+                  ` : ''}
+                  
+                  <!-- Legacy language support (if present) -->
+                  ${game.language_support ? `
+                    <div class="info-grid info-grid-languages">
+                      <div class="info-item info-item-full">
+                        <span class="info-label">Language Support</span>
+                        <span class="info-value">${game.language_support}</span>
+                      </div>
+                    </div>
+                  ` : ''}
                 </div>
               
                 ${game.description ? `
-                  <div class="info-section" style="margin-top: -6px;">
-                    <h6 style="margin-bottom: 2px;">Description</h6>
+                  <div class="info-section" style="margin-top: -3px;">
+                    <h6 style="margin-bottom: 4px;">Description</h6>
                     <div class="notes-content">${game.description}</div>
                   </div>
                 ` : ''}
@@ -775,13 +825,15 @@ function closeModal(modal) {
 
 // Helper functions for modal
 function getStatusClass(rating) {
-  if (!rating) return '';
+  if (!rating) return 'text-muted';
   const ratingLower = rating.toLowerCase();
   if (ratingLower === 'green' || ratingLower === 'perfect') return 'text-success';
   if (ratingLower === 'yellow') return 'text-warning';
   if (ratingLower === 'red') return 'text-danger';
   if (ratingLower === 'not-working') return 'text-danger';
-  return '';
+  if (ratingLower === 'not-supported') return 'text-not-supported';
+  if (ratingLower === 'unknown') return 'text-muted';
+  return 'text-muted';
 }
 
 function getStatusText(rating) {
@@ -791,7 +843,12 @@ function getStatusText(rating) {
   if (ratingLower === 'yellow') return 'Minor tinkering';
   if (ratingLower === 'red') return 'Advanced tinkering';
   if (ratingLower === 'not-working') return 'Doesn\'t work';
-  return rating;
+  if (ratingLower === 'unknown') return 'Untested';
+  if (ratingLower === 'not-supported') return 'Not supported';
+  if (ratingLower === 'untested') return 'Untested';
+  
+  // For any other value, capitalize first letter
+  return rating.charAt(0).toUpperCase() + rating.slice(1).toLowerCase();
 }
 
 // Check if game has Epic features to display
@@ -874,7 +931,7 @@ function renderTestingDetailsBootstrap(game) {
   let content = '';
   
   // Technical Configuration
-  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb || game.epic_url || game.itch_url;
+  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb || game.epic_url || game.gog_url || game.itch_url || game.pcgaming_wiki_url;
   if (hasConfig) {
     content += `
       <div class="info-section">
@@ -884,7 +941,7 @@ function renderTestingDetailsBootstrap(game) {
             <div class="info-item">
               <span class="info-label">Controller Config</span>
               <span class="info-value">
-                ${game.controller_config || (game.controller_input === 'native' ? '🎮 Native Controller' : (game.controller_input ? `🎮 ${game.controller_input}` : 'Not specified'))}
+                ${formatControllerInput(game.controller_config || game.controller_input)}
               </span>
             </div>
           ` : ''}
@@ -912,10 +969,22 @@ function renderTestingDetailsBootstrap(game) {
               <span class="info-value"><a href="${game.epic_url}" target="_blank" rel="noopener noreferrer">View on Epic <i class="fas fa-external-link-alt ms-1"></i></a></span>
             </div>
           ` : ''}
+          ${game.gog_url ? `
+            <div class="info-item">
+              <span class="info-label">GOG Store</span>
+              <span class="info-value"><a href="${game.gog_url}" target="_blank" rel="noopener noreferrer">View on GOG <i class="fas fa-external-link-alt ms-1"></i></a></span>
+            </div>
+          ` : ''}
           ${game.itch_url ? `
             <div class="info-item">
               <span class="info-label">itch.io</span>
               <span class="info-value"><a href="${game.itch_url}" target="_blank" rel="noopener noreferrer">View on itch.io <i class="fas fa-external-link-alt ms-1"></i></a></span>
+            </div>
+          ` : ''}
+          ${game.pcgaming_wiki_url ? `
+            <div class="info-item">
+              <span class="info-label">PCGaming Wiki</span>
+              <span class="info-value"><a href="${game.pcgaming_wiki_url}" target="_blank" rel="noopener noreferrer">View on PCGaming Wiki <i class="fas fa-external-link-alt ms-1"></i></a></span>
             </div>
           ` : ''}
         </div>
@@ -1043,6 +1112,11 @@ document.addEventListener('DOMContentLoaded', loadGamesData);
 .stat-label {
   font-size: 0.9em;
   color: #ccc;
+}
+
+/* Text utility classes */
+.text-muted {
+  color: #9ca3af !important;
 }
 
 /* Optimized Table Styling (from test system) */

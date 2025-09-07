@@ -218,6 +218,13 @@ assets/lib
 ### Modal System Enhancement - COMPLETED ✅
 **Comprehensive modal improvements matching source project design with full QA agent deployment:**
 
+**⚠️ CRITICAL FILE LOCATION NOTE:**
+**ALL MODAL FUNCTIONALITY IS IN:** `/mrsjunkrunner.github.io/_pages/games/tested-games-optimized.md`
+- Modal JavaScript code is embedded directly in the page file (NOT in separate .js files)
+- All modal features, field additions, and formatting changes must be made to this file
+- Functions: `createGameModal()`, `renderTestingDetailsBootstrap()`, `formatControllerInput()`
+- This file contains both the HTML structure AND all JavaScript for modal functionality
+
 **Enhanced Modal Features:**
 - ✅ **Enhanced Header Design**: Linear gradient backgrounds, improved typography (1.2rem titles), enhanced text shadows
 - ✅ **Interactive Hover Effects**: Transform animations with translateY(-4px) scale(1.02), multi-layered shadows, orange border glow
