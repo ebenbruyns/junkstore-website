@@ -118,7 +118,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
   <div class="game-details">
     <strong><a href="https://www.gog.com/en/game/dorfromantik" target="_blank">Dorfromantik</a></strong>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
+      <div class="compatibility-line">Decky Plugin: ❓ Not tested</div>
         <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
     </div>
   </div>
