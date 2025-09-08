@@ -22,6 +22,5 @@ node_modules/
 # Archive directory (keep archived files in git for recovery)
 # _archive/ - commented out to track archived files
 
-# Auto-generated reports (exclude from version control)
-docs/automation/HEALTH_STATUS.md
-docs/automation/AUTOMATION_STATUS.md
+# All documentation and project management files (exclude from version control)
+docs/
