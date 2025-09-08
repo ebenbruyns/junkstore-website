@@ -3,6 +3,7 @@ layout: post
 title: "Junk Store Tested - September 08, 2025"
 date: 2025-09-08 12:00:00 +1300
 categories: [Weekly Update, Game Compatibility]
+tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Prime Gaming, Decky Plugin, Game Mode, Non-Steam Games, DosBox]
 slug: "games-tested-sep-08"
 excerpt: "Weekly testing update featuring 8 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/250908-hero.jpg
@@ -26,7 +27,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: 3.7.8 (Stable)
 
-## This Week's Featured Games
+## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
 
 ### Epic Giveaways
 
@@ -157,6 +158,14 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 Cheers,  
 The Junk Store Team
 
+<div class="inline-blog-cta">
+  <p><strong>Ready for an all-in-one launcher?</strong></p>
+  <a href="/buy_now/" class="inline-blog-cta-button">
+    🚀 Try Junk Store 2.0 Free for 7 Days
+  </a>
+  <p class="inline-cta-subtext">Join hundreds of users who upgraded from the free plugin</p>
+</div>
+
 ---
 
 *All compatibility information is based on real testing with the hardware and software versions listed above.*
@@ -192,5 +201,52 @@ The Junk Store Team
   text-decoration: none;
   color: white !important;
   opacity: 0.9;
+}
+
+.inline-blog-cta {
+  text-align: center;
+  background: #1e2a38;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+  border: 1px solid #3a4a5c;
+}
+
+.inline-blog-cta p {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.inline-blog-cta-button {
+  display: inline-block;
+  background: #0056b3;
+  color: #fff !important;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin: 10px 0;
+  border: 2px solid #0056b3;
+}
+
+.inline-blog-cta-button:hover,
+.inline-blog-cta-button:visited,
+.inline-blog-cta-button:visited:hover {
+  background: #004494;
+  border-color: #004494;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 86, 179, 0.4);
+  text-decoration: none;
+}
+
+.inline-cta-subtext {
+  margin-top: 8px;
+  color: #cceeff;
+  font-size: 0.9rem;
+  font-style: italic;
 }
 </style>
