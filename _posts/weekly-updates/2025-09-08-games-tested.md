@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Junk Store Tested - September 08, 2025"
-date: 2025-09-08
+date: 2025-09-08 12:00:00 +1300
 categories: [Weekly Update, Game Compatibility]
 slug: "games-tested-sep-08"
 excerpt: "Weekly testing update featuring 8 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
