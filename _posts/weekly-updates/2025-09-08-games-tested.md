@@ -163,7 +163,7 @@ The Junk Store Team
   <a href="/buy_now/" class="inline-blog-cta-button">
     🚀 Try Junk Store 2.0 Free for 7 Days
   </a>
-  <p class="inline-cta-subtext">Join hundreds of users who upgraded from the free plugin</p>
+  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>
 
 ---
