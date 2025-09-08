@@ -58,9 +58,16 @@ collections:
 jekyll-archives:
   enabled:
     - categories
+    - tags
   layout: category
   permalinks:
     category: /:path/:name/
+    tag: /tags/:name/
+
+# Tag archive configuration
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
 
 
 # Author/Social Links
