@@ -1,24 +1,24 @@
 {
-  "total_games": 697,
-  "featured_games": 8,
+  "total_games": 706,
+  "featured_games": 6,
   "storefronts": {
     "Epic": {
-      "total": 353,
+      "total": 357,
       "featured": 3,
-      "green_decky": 264,
-      "green_standalone": 285
+      "green_decky": 269,
+      "green_standalone": 289
     },
     "GOG": {
-      "total": 310,
-      "featured": 5,
-      "green_decky": 256,
-      "green_standalone": 267
+      "total": 312,
+      "featured": 1,
+      "green_decky": 258,
+      "green_standalone": 269
     },
     "Amazon": {
-      "total": 25,
-      "featured": 0,
+      "total": 28,
+      "featured": 2,
       "green_decky": 0,
-      "green_standalone": 23
+      "green_standalone": 25
     },
     "itch.io": {
       "total": 9,
@@ -28,11 +28,11 @@
     }
   },
   "ratings_summary": {
-    "green_decky": 520,
-    "green_standalone": 584,
-    "both_green": 512
+    "green_decky": 527,
+    "green_standalone": 592,
+    "both_green": 519
   },
-  "last_updated": "2025-09-07T09:10:29.279Z",
+  "last_updated": "2025-09-13T04:35:04.962Z",
   "games": [
     {
       "id": "aa1a2fc7-85e0-4dc6-a4bf-dd908fe161b8",
@@ -47,6 +47,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1966900"
     },
     {
@@ -62,6 +63,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2229940"
     },
     {
@@ -77,6 +79,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -92,6 +95,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "503560"
     },
     {
@@ -107,6 +111,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "752590"
     },
     {
@@ -122,6 +127,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1323540"
     },
     {
@@ -137,6 +143,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1271400"
     },
     {
@@ -152,6 +159,7 @@
       "gog_url": "https://www.gog.com/en/game/9_years_of_shadows",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1402120"
     },
     {
@@ -167,6 +175,7 @@
       "gog_url": "https://www.gog.com/en/game/a_plague_tale_innocence",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "752590"
     },
     {
@@ -182,6 +191,7 @@
       "gog_url": "https://www.gog.com/en/game/delores_a_thimbleweed_park_miniadventure",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1305720"
     },
     {
@@ -197,6 +207,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "859350"
     },
     {
@@ -206,12 +217,13 @@
       "slug": "alba-a-wildlife-adventure",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "May '24",
+      "date_tested": "Sept '25",
       "is_featured": false,
       "protondb": "https://www.protondb.com/app/1337010",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/alba-a-wildlife-adventure-93736a",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Alba:_A_Wildlife_Adventure",
       "steamId": "1337010"
     },
     {
@@ -227,6 +239,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "761890"
     },
     {
@@ -242,6 +255,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1333470"
     },
     {
@@ -257,6 +271,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -272,6 +287,7 @@
       "gog_url": "https://www.gog.com/en/game/amerzone_the_explorers_legacy",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "302190"
     },
     {
@@ -287,6 +303,7 @@
       "gog_url": "https://www.gog.com/en/game/alders_blood_prologue",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1227260"
     },
     {
@@ -302,6 +319,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "999220"
     },
     {
@@ -317,6 +335,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "57300"
     },
     {
@@ -332,6 +351,7 @@
       "gog_url": "https://www.gog.com/en/game/amnesia_a_machine_for_pigs",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "239200"
     },
     {
@@ -347,6 +367,7 @@
       "gog_url": "https://www.gog.com/en/game/mordheim_city_of_the_damned",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "276810"
     },
     {
@@ -362,6 +383,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "250620"
     },
     {
@@ -377,6 +399,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "993790"
     },
     {
@@ -392,6 +415,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "591960"
     },
     {
@@ -407,6 +431,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1388870"
     },
     {
@@ -422,6 +447,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1515640"
     },
     {
@@ -437,6 +463,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1521160"
     },
     {
@@ -452,6 +479,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "443110"
     },
     {
@@ -461,13 +489,14 @@
       "slug": "art-of-rally",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "May '24",
+      "date_tested": "Sept '25",
       "is_featured": false,
-      "protondb": "https://www.protondb.com/app/art-of-rally",
+      "protondb": "https://www.protondb.com/app/550320",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/art-of-rally",
       "itch_url": "",
-      "steamId": ""
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Art_of_Rally",
+      "steamId": "550320"
     },
     {
       "id": "0e083eba-5e16-4e8c-a5c6-0471dd9eacc2",
@@ -482,6 +511,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1755830"
     },
     {
@@ -497,6 +527,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "655350"
     },
     {
@@ -512,6 +543,7 @@
       "gog_url": "https://www.gog.com/en/game/alwas_awakening",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "549260"
     },
     {
@@ -527,6 +559,7 @@
       "gog_url": "https://www.gog.com/en/game/ancient_enemy",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "993790"
     },
     {
@@ -542,6 +575,7 @@
       "gog_url": "https://www.gog.com/en/game/arcade_paradise",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1388870"
     },
     {
@@ -557,6 +591,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "484900"
     },
     {
@@ -572,6 +607,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1970580"
     },
     {
@@ -587,6 +623,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "257350"
     },
     {
@@ -602,6 +639,7 @@
       "gog_url": "https://www.gog.com/en/game/baldurs_gate_ii_enhanced_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "494360"
     },
     {
@@ -617,6 +655,7 @@
       "gog_url": "https://www.gog.com/en/game/baldurs_gate_enhanced_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "228280"
     },
     {
@@ -632,6 +671,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "228280"
     },
     {
@@ -641,12 +681,13 @@
       "slug": "ascendant",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "June '24",
+      "date_tested": "Sept '25",
       "is_featured": false,
       "protondb": "https://www.protondb.com/app/296930",
       "gog_url": "https://www.gog.com/en/game/ascendant",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "296930"
     },
     {
@@ -662,6 +703,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "207020"
     },
     {
@@ -677,6 +719,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1136370"
     },
     {
@@ -692,6 +735,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "475550"
     },
     {
@@ -707,6 +751,7 @@
       "gog_url": "https://www.gog.com/en/game/beholder_2",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "761620"
     },
     {
@@ -722,6 +767,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1570070"
     },
     {
@@ -737,6 +783,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1634150"
     },
     {
@@ -752,6 +799,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "883360"
     },
     {
@@ -767,6 +815,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "409720"
     },
     {
@@ -782,6 +831,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "8870"
     },
     {
@@ -797,6 +847,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "409710"
     },
     {
@@ -812,6 +863,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1138660"
     },
     {
@@ -827,6 +879,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1714180"
     },
     {
@@ -842,6 +895,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1158940"
     },
     {
@@ -857,6 +911,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1278420"
     },
     {
@@ -872,6 +927,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "960090"
     },
     {
@@ -887,6 +943,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1097430"
     },
     {
@@ -902,6 +959,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "49520"
     },
     {
@@ -917,6 +975,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "397540"
     },
     {
@@ -932,6 +991,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "261640"
     },
     {
@@ -947,6 +1007,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "207690"
     },
     {
@@ -962,6 +1023,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2019810"
     },
     {
@@ -977,6 +1039,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1623940"
     },
     {
@@ -992,6 +1055,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "738520"
     },
     {
@@ -1007,6 +1071,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1942280"
     },
     {
@@ -1022,6 +1087,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "225080"
     },
     {
@@ -1037,6 +1103,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "976590"
     },
     {
@@ -1052,6 +1119,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1042490"
     },
     {
@@ -1067,6 +1135,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1408610"
     },
     {
@@ -1082,6 +1151,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "645630"
     },
     {
@@ -1097,6 +1167,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1371720"
     },
     {
@@ -1112,6 +1183,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1018010"
     },
     {
@@ -1127,6 +1199,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "593280"
     },
     {
@@ -1142,6 +1215,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "914710"
     },
     {
@@ -1157,6 +1231,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "200900"
     },
     {
@@ -1172,6 +1247,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1630960"
     },
     {
@@ -1187,6 +1263,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "518790"
     },
     {
@@ -1202,6 +1279,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1831830"
     },
     {
@@ -1217,6 +1295,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1824220"
     },
     {
@@ -1232,6 +1311,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1326700"
     },
     {
@@ -1247,6 +1327,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "711660"
     },
     {
@@ -1262,6 +1343,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1666250"
     },
     {
@@ -1277,6 +1359,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "301840"
     },
     {
@@ -1292,6 +1375,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "870780"
     },
     {
@@ -1307,6 +1391,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "289070"
     },
     {
@@ -1322,6 +1407,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1000030"
     },
     {
@@ -1337,6 +1423,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "275180"
     },
     {
@@ -1352,6 +1439,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2933080"
     },
     {
@@ -1367,6 +1455,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1079830"
     },
     {
@@ -1382,6 +1471,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "3839850"
     },
     {
@@ -1397,6 +1487,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1726120"
     },
     {
@@ -1412,6 +1503,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1248080"
     },
     {
@@ -1427,6 +1519,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1167450"
     },
     {
@@ -1442,6 +1535,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "433550"
     },
     {
@@ -1457,6 +1551,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "274520"
     },
     {
@@ -1472,6 +1567,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "934700"
     },
     {
@@ -1487,6 +1583,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1252330"
     },
     {
@@ -1502,6 +1599,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1148700"
     },
     {
@@ -1517,6 +1615,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1850570"
     },
     {
@@ -1532,6 +1631,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "894020"
     },
     {
@@ -1547,6 +1647,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "356650"
     },
     {
@@ -1562,6 +1663,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "820520"
     },
     {
@@ -1577,6 +1679,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1880610"
     },
     {
@@ -1592,6 +1695,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1345890"
     },
     {
@@ -1607,6 +1711,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "422510"
     },
     {
@@ -1622,6 +1727,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "614570"
     },
     {
@@ -1637,6 +1743,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1388880"
     },
     {
@@ -1652,6 +1759,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2845610"
     },
     {
@@ -1667,6 +1775,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1148590"
     },
     {
@@ -1682,6 +1791,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2439510"
     },
     {
@@ -1697,6 +1807,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1622770"
     },
     {
@@ -1712,6 +1823,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1562430"
     },
     {
@@ -1727,6 +1839,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1216060"
     },
     {
@@ -1742,6 +1855,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "205100"
     },
     {
@@ -1757,6 +1871,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1120810"
     },
     {
@@ -1772,6 +1887,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "853050"
     },
     {
@@ -1787,6 +1903,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1080020"
     },
     {
@@ -1802,6 +1919,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "359320"
     },
     {
@@ -1817,6 +1935,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "383120"
     },
     {
@@ -1832,6 +1951,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1369630"
     },
     {
@@ -1847,6 +1967,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1812090"
     },
     {
@@ -1862,6 +1983,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1402110"
     },
     {
@@ -1877,6 +1999,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1330470"
     },
     {
@@ -1892,6 +2015,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2591280"
     },
     {
@@ -1907,6 +2031,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1097150"
     },
     {
@@ -1922,6 +2047,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "38410"
     },
     {
@@ -1937,6 +2063,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -1952,6 +2079,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "38420"
     },
     {
@@ -1967,6 +2095,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "38400"
     },
     {
@@ -1982,6 +2111,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "22380"
     },
     {
@@ -1997,6 +2127,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2369390"
     },
     {
@@ -2012,6 +2143,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1248130"
     },
     {
@@ -2027,6 +2159,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1319460"
     },
     {
@@ -2042,6 +2175,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "493540"
     },
     {
@@ -2057,6 +2191,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1085220"
     },
     {
@@ -2072,6 +2207,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1137350"
     },
     {
@@ -2087,6 +2223,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1013320"
     },
     {
@@ -2102,6 +2239,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1057800"
     },
     {
@@ -2117,6 +2255,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2252570"
     },
     {
@@ -2132,6 +2271,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1070790"
     },
     {
@@ -2147,6 +2287,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "917720"
     },
     {
@@ -2162,6 +2303,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1062140"
     },
     {
@@ -2177,6 +2319,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -2192,6 +2335,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2383990"
     },
     {
@@ -2207,6 +2351,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1139900"
     },
     {
@@ -2214,14 +2359,15 @@
       "title": "Ghostrunner II",
       "storefront": "Epic",
       "slug": "ghostrunner-ii",
-      "decky_rating": "yellow",
+      "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "Dec '24",
-      "is_featured": false,
+      "date_tested": "Sept '25",
+      "is_featured": true,
       "protondb": "https://www.protondb.com/app/2144740",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/ghostrunner-2",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ghostrunner_2",
       "steamId": "2144740"
     },
     {
@@ -2237,6 +2383,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1475810"
     },
     {
@@ -2252,6 +2399,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1924490"
     },
     {
@@ -2267,6 +2415,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1543240"
     },
     {
@@ -2282,6 +2431,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "780290"
     },
     {
@@ -2297,6 +2447,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1432910"
     },
     {
@@ -2312,6 +2463,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1243690"
     },
     {
@@ -2327,6 +2479,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -2342,6 +2495,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -2357,6 +2511,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1123050"
     },
     {
@@ -2372,6 +2527,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "534550"
     },
     {
@@ -2387,6 +2543,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "275390"
     },
     {
@@ -2402,6 +2559,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1206060"
     },
     {
@@ -2417,6 +2575,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1161580"
     },
     {
@@ -2432,6 +2591,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "686810"
     },
     {
@@ -2447,6 +2607,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "389140"
     },
     {
@@ -2462,6 +2623,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1271700"
     },
     {
@@ -2477,6 +2639,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2914390"
     },
     {
@@ -2492,6 +2655,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1124300"
     },
     {
@@ -2507,6 +2671,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "627690"
     },
     {
@@ -2522,6 +2687,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -2537,6 +2703,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1172650"
     },
     {
@@ -2552,6 +2719,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2060870"
     },
     {
@@ -2567,6 +2735,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1669420"
     },
     {
@@ -2582,6 +2751,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1466350"
     },
     {
@@ -2597,6 +2767,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "648350"
     },
     {
@@ -2612,6 +2783,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1244460"
     },
     {
@@ -2627,6 +2799,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "979070"
     },
     {
@@ -2642,6 +2815,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1242980"
     },
     {
@@ -2657,6 +2831,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1298480"
     },
     {
@@ -2672,6 +2847,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -2687,6 +2863,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2694420"
     },
     {
@@ -2702,6 +2879,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "232090"
     },
     {
@@ -2717,6 +2895,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "379430"
     },
     {
@@ -2732,6 +2911,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "920210"
     },
     {
@@ -2747,6 +2927,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1547890"
     },
     {
@@ -2762,6 +2943,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1590160"
     },
     {
@@ -2777,6 +2959,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "48000"
     },
     {
@@ -2792,6 +2975,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1282730"
     },
     {
@@ -2807,6 +2991,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1582290"
     },
     {
@@ -2822,6 +3007,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2161620"
     },
     {
@@ -2837,6 +3023,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "529660"
     },
     {
@@ -2852,6 +3039,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "826940"
     },
     {
@@ -2867,6 +3055,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "629820"
     },
     {
@@ -2882,6 +3071,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2767030"
     },
     {
@@ -2897,6 +3087,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1088850"
     },
     {
@@ -2912,6 +3103,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "368260"
     },
     {
@@ -2927,6 +3119,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "287390"
     },
     {
@@ -2942,6 +3135,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2383760"
     },
     {
@@ -2957,6 +3151,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1140890"
     },
     {
@@ -2972,6 +3167,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1110910"
     },
     {
@@ -2987,6 +3183,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "996770"
     },
     {
@@ -3002,6 +3199,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1222370"
     },
     {
@@ -3017,6 +3215,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1194750"
     },
     {
@@ -3032,6 +3231,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1726190"
     },
     {
@@ -3047,6 +3247,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1985960"
     },
     {
@@ -3062,6 +3263,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1522820"
     },
     {
@@ -3077,6 +3279,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1236930"
     },
     {
@@ -3092,6 +3295,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "621060"
     },
     {
@@ -3107,6 +3311,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1628610"
     },
     {
@@ -3122,6 +3327,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1556200"
     },
     {
@@ -3137,6 +3343,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "480490"
     },
     {
@@ -3152,6 +3359,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "950620"
     },
     {
@@ -3167,6 +3375,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "233450"
     },
     {
@@ -3182,6 +3391,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1564220"
     },
     {
@@ -3197,6 +3407,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2139300"
     },
     {
@@ -3212,6 +3423,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1799930"
     },
     {
@@ -3227,6 +3439,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "517710"
     },
     {
@@ -3242,6 +3455,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2077750"
     },
     {
@@ -3257,6 +3471,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1413250"
     },
     {
@@ -3272,6 +3487,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "998740"
     },
     {
@@ -3287,6 +3503,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "391220"
     },
     {
@@ -3302,6 +3519,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1049320"
     },
     {
@@ -3317,6 +3535,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "252950"
     },
     {
@@ -3332,6 +3551,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "241600"
     },
     {
@@ -3347,6 +3567,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2211280"
     },
     {
@@ -3362,6 +3583,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2633950"
     },
     {
@@ -3377,6 +3599,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "757310"
     },
     {
@@ -3392,6 +3615,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1031460"
     },
     {
@@ -3407,6 +3631,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1119840"
     },
     {
@@ -3422,6 +3647,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "283640"
     },
     {
@@ -3437,6 +3663,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "645320"
     },
     {
@@ -3452,6 +3679,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "861650"
     },
     {
@@ -3467,6 +3695,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "750920"
     },
     {
@@ -3482,6 +3711,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1318690"
     },
     {
@@ -3497,6 +3727,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2138710"
     },
     {
@@ -3512,6 +3743,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2853730"
     },
     {
@@ -3527,6 +3759,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "994500"
     },
     {
@@ -3542,6 +3775,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "827330"
     },
     {
@@ -3557,6 +3791,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "369070"
     },
     {
@@ -3572,6 +3807,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "357300"
     },
     {
@@ -3587,6 +3823,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "973580"
     },
     {
@@ -3602,6 +3839,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1602080"
     },
     {
@@ -3617,6 +3855,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1213700"
     },
     {
@@ -3632,6 +3871,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1955110"
     },
     {
@@ -3647,6 +3887,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1426010"
     },
     {
@@ -3662,6 +3903,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "7800"
     },
     {
@@ -3677,6 +3919,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -3692,6 +3935,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "315210"
     },
     {
@@ -3707,6 +3951,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "596970"
     },
     {
@@ -3722,6 +3967,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1812560"
     },
     {
@@ -3737,6 +3983,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "40800"
     },
     {
@@ -3752,6 +3999,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "581660"
     },
     {
@@ -3767,6 +4015,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1100290"
     },
     {
@@ -3782,6 +4031,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "684450"
     },
     {
@@ -3797,6 +4047,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "330830"
     },
     {
@@ -3812,6 +4063,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1436920"
     },
     {
@@ -3827,6 +4079,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "633460"
     },
     {
@@ -3842,6 +4095,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "800270"
     },
     {
@@ -3857,6 +4111,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "285920"
     },
     {
@@ -3872,6 +4127,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "323060"
     },
     {
@@ -3887,6 +4143,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1361510"
     },
     {
@@ -3902,6 +4159,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "204240"
     },
     {
@@ -3917,6 +4175,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1544020"
     },
     {
@@ -3932,6 +4191,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1721530"
     },
     {
@@ -3947,6 +4207,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "641780"
     },
     {
@@ -3962,6 +4223,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -3977,6 +4239,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "298630"
     },
     {
@@ -3992,6 +4255,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "865680"
     },
     {
@@ -4007,6 +4271,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1135260"
     },
     {
@@ -4022,6 +4287,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1620720"
     },
     {
@@ -4037,6 +4303,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1164060"
     },
     {
@@ -4052,6 +4319,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1266840"
     },
     {
@@ -4067,6 +4335,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2933130"
     },
     {
@@ -4082,6 +4351,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1771980"
     },
     {
@@ -4097,6 +4367,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1920490"
     },
     {
@@ -4112,6 +4383,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "352520"
     },
     {
@@ -4127,6 +4399,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1679210"
     },
     {
@@ -4142,6 +4415,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "258520"
     },
     {
@@ -4157,6 +4431,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "574980"
     },
     {
@@ -4172,6 +4447,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1286680"
     },
     {
@@ -4187,6 +4463,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2936310"
     },
     {
@@ -4202,6 +4479,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1307580"
     },
     {
@@ -4217,6 +4495,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "750920"
     },
     {
@@ -4232,6 +4511,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "516110"
     },
     {
@@ -4247,6 +4527,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "946720"
     },
     {
@@ -4262,6 +4543,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "909470"
     },
     {
@@ -4277,6 +4559,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2225070"
     },
     {
@@ -4292,6 +4575,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2967990"
     },
     {
@@ -4307,6 +4591,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "602320"
     },
     {
@@ -4322,6 +4607,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1370050"
     },
     {
@@ -4337,6 +4623,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1498740"
     },
     {
@@ -4352,6 +4639,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "887450"
     },
     {
@@ -4367,6 +4655,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "361280"
     },
     {
@@ -4382,6 +4671,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1205450"
     },
     {
@@ -4397,6 +4687,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "535930"
     },
     {
@@ -4412,6 +4703,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "638990"
     },
     {
@@ -4427,6 +4719,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1016920"
     },
     {
@@ -4442,6 +4735,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1794680"
     },
     {
@@ -4457,6 +4751,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "489630"
     },
     {
@@ -4472,6 +4767,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "673880"
     },
     {
@@ -4487,6 +4783,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1291010"
     },
     {
@@ -4502,6 +4799,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1097350"
     },
     {
@@ -4517,6 +4815,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "619150"
     },
     {
@@ -4532,6 +4831,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1288610"
     },
     {
@@ -4547,6 +4847,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "559650"
     },
     {
@@ -4562,6 +4863,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "201810"
     },
     {
@@ -4577,6 +4879,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "543260"
     },
     {
@@ -4592,6 +4895,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "552990"
     },
     {
@@ -4607,6 +4911,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "699130"
     },
     {
@@ -4622,6 +4927,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "846870"
     },
     {
@@ -4637,6 +4943,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -4652,6 +4959,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "694280"
     },
     {
@@ -4667,6 +4975,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "469600"
     },
     {
@@ -4682,6 +4991,7 @@
       "gog_url": "https://www.gog.com/en/game/berserk_boy",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1561340"
     },
     {
@@ -4697,6 +5007,7 @@
       "gog_url": "https://www.gog.com/en/game/bioshock_2_remastered",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "409720"
     },
     {
@@ -4712,6 +5023,7 @@
       "gog_url": "https://www.gog.com/en/game/bioshock_infinite",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "8870"
     },
     {
@@ -4727,6 +5039,7 @@
       "gog_url": "https://www.gog.com/en/game/bioshock_remastered",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "409710"
     },
     {
@@ -4742,6 +5055,7 @@
       "gog_url": "https://www.gog.com/en/game/blacksad_under_the_skin",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1003890"
     },
     {
@@ -4757,6 +5071,7 @@
       "gog_url": "https://www.gog.com/en/game/blade_of_darkness",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1710170"
     },
     {
@@ -4772,6 +5087,7 @@
       "gog_url": "https://www.gog.com/en/game/blast_brigade_vs_the_evil_legion_of_dr_cread",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1550760"
     },
     {
@@ -4787,6 +5103,7 @@
       "gog_url": "https://www.gog.com/en/game/blood_omen_legacy_of_kain",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -4802,6 +5119,7 @@
       "gog_url": "https://www.gog.com/en/game/blood_omen_2_legacy_of_kain",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "242960"
     },
     {
@@ -4817,6 +5135,7 @@
       "gog_url": "https://www.gog.com/en/game/betrayer",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "243120"
     },
     {
@@ -4832,6 +5151,7 @@
       "gog_url": "https://www.gog.com/en/game/blood_west",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1587130"
     },
     {
@@ -4847,6 +5167,7 @@
       "gog_url": "https://www.gog.com/en/game/bloody_hell",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2056220"
     },
     {
@@ -4862,6 +5183,7 @@
       "gog_url": "https://www.gog.com/en/game/book_of_demons",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "449960"
     },
     {
@@ -4877,6 +5199,7 @@
       "gog_url": "https://www.gog.com/en/game/broken_sword_directors_cut",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "57640"
     },
     {
@@ -4892,6 +5215,7 @@
       "gog_url": "https://www.gog.com/en/game/builders_of_egypt_prologue",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1207590"
     },
     {
@@ -4907,6 +5231,7 @@
       "gog_url": "https://www.gog.com/en/game/bullet_runner_the_first_slaughter",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2343570"
     },
     {
@@ -4922,6 +5247,7 @@
       "gog_url": "https://www.gog.com/en/game/butcher",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "474210"
     },
     {
@@ -4937,6 +5263,7 @@
       "gog_url": "https://www.gog.com/en/game/call_of_juarez",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "3020"
     },
     {
@@ -4952,6 +5279,7 @@
       "gog_url": "https://www.gog.com/en/game/call_of_juarez_bound_in_blood",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "21980"
     },
     {
@@ -4967,6 +5295,7 @@
       "gog_url": "https://www.gog.com/en/game/call_of_juarez_gunslinger",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "204450"
     },
     {
@@ -4982,6 +5311,7 @@
       "gog_url": "https://www.gog.com/en/game/cat_quest_ii",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "914710"
     },
     {
@@ -4997,6 +5327,7 @@
       "gog_url": "https://www.gog.com/en/game/cayne",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "532840"
     },
     {
@@ -5012,6 +5343,7 @@
       "gog_url": "https://www.gog.com/en/game/chasmtherift",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2061230"
     },
     {
@@ -5027,6 +5359,7 @@
       "gog_url": "https://www.gog.com/en/game/chicken_assassin_reloaded",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "489610"
     },
     {
@@ -5042,6 +5375,7 @@
       "gog_url": "https://www.gog.com/en/game/close_to_the_sun",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "968870"
     },
     {
@@ -5057,6 +5391,7 @@
       "gog_url": "https://www.gog.com/en/game/colt_canyon",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "940710"
     },
     {
@@ -5072,6 +5407,7 @@
       "gog_url": "https://www.gog.com/en/game/coromon",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1218210"
     },
     {
@@ -5087,6 +5423,7 @@
       "gog_url": "https://www.gog.com/en/game/crusader_kings_ii",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "203770"
     },
     {
@@ -5102,6 +5439,7 @@
       "gog_url": "https://www.gog.com/en/game/cursed_to_golf",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1726120"
     },
     {
@@ -5117,6 +5455,7 @@
       "gog_url": "https://www.gog.com/en/game/dagon_by_h_p_lovecraft",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1481400"
     },
     {
@@ -5132,6 +5471,7 @@
       "gog_url": "https://www.gog.com/en/game/dark_deity_complete_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1374840"
     },
     {
@@ -5147,6 +5487,7 @@
       "gog_url": "https://www.gog.com/en/game/dark_envoy",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "945770"
     },
     {
@@ -5162,6 +5503,7 @@
       "gog_url": "https://www.gog.com/en/game/dark_sky",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1454960"
     },
     {
@@ -5177,6 +5519,7 @@
       "gog_url": "https://www.gog.com/en/game/daymare_1998",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "842100"
     },
     {
@@ -5192,6 +5535,7 @@
       "gog_url": "https://www.gog.com/en/game/death_squared",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "471810"
     },
     {
@@ -5207,6 +5551,7 @@
       "gog_url": "https://www.gog.com/en/game/deep_sky_derelicts",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "698640"
     },
     {
@@ -5222,6 +5567,7 @@
       "gog_url": "https://www.gog.com/en/game/deus_ex",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "6910"
     },
     {
@@ -5237,6 +5583,7 @@
       "gog_url": "https://www.gog.com/en/game/deus_ex_human_revolution_directors_cut",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "238010"
     },
     {
@@ -5252,6 +5599,7 @@
       "gog_url": "https://www.gog.com/en/game/deus_ex_invisible_war",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "6920"
     },
     {
@@ -5267,6 +5615,7 @@
       "gog_url": "https://www.gog.com/en/game/devils_kiss",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1213550"
     },
     {
@@ -5282,6 +5631,7 @@
       "gog_url": "https://www.gog.com/en/game/deus_ex_mankind_divided",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "337000"
     },
     {
@@ -5297,6 +5647,7 @@
       "gog_url": "https://www.gog.com/en/game/diggles_the_myth_of_fenris",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1478650"
     },
     {
@@ -5306,12 +5657,13 @@
       "slug": "dishonored",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "June '24",
+      "date_tested": "Sept '25",
       "is_featured": false,
       "protondb": "https://www.protondb.com/app/205100",
       "gog_url": "https://www.gog.com/en/game/dishonored_definitive_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Dishonored",
       "steamId": "205100"
     },
     {
@@ -5327,6 +5679,7 @@
       "gog_url": "https://www.gog.com/en/game/dishonored_2",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "403640"
     },
     {
@@ -5342,6 +5695,7 @@
       "gog_url": "https://www.gog.com/en/game/doomdarks_revenge",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -5357,6 +5711,7 @@
       "gog_url": "https://www.gog.com/en/game/dredge",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1562430"
     },
     {
@@ -5372,6 +5727,7 @@
       "gog_url": "https://www.gog.com/en/game/duck_paradox",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2058150"
     },
     {
@@ -5387,6 +5743,7 @@
       "gog_url": "https://www.gog.com/en/game/en_garde",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1654660"
     },
     {
@@ -5402,6 +5759,7 @@
       "gog_url": "https://www.gog.com/en/game/endless_sky",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2287330"
     },
     {
@@ -5417,6 +5775,7 @@
       "gog_url": "https://www.gog.com/en/game/eschalon_book_i",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "25600"
     },
     {
@@ -5432,6 +5791,7 @@
       "gog_url": "https://www.gog.com/en/game/fear_platinum",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "21090"
     },
     {
@@ -5447,6 +5807,7 @@
       "gog_url": "https://www.gog.com/en/game/fate",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "246840"
     },
     {
@@ -5462,6 +5823,7 @@
       "gog_url": "https://www.gog.com/en/game/fate_undiscovered_realms",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "276890"
     },
     {
@@ -5477,6 +5839,7 @@
       "gog_url": "https://www.gog.com/en/game/figment",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "493540"
     },
     {
@@ -5492,6 +5855,7 @@
       "gog_url": "https://www.gog.com/en/game/flashout_3d_enhanced_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2022780"
     },
     {
@@ -5507,6 +5871,7 @@
       "gog_url": "https://www.gog.com/en/game/forager",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "751780"
     },
     {
@@ -5522,6 +5887,7 @@
       "gog_url": "https://www.gog.com/en/game/gamedec_definitive_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "917720"
     },
     {
@@ -5537,6 +5903,7 @@
       "gog_url": "https://www.gog.com/en/game/gex",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -5552,6 +5919,7 @@
       "gog_url": "https://www.gog.com/en/game/ghost_of_a_tale",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "417290"
     },
     {
@@ -5567,6 +5935,7 @@
       "gog_url": "https://www.gog.com/en/game/ghost_song",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "347800"
     },
     {
@@ -5582,6 +5951,7 @@
       "gog_url": "https://www.gog.com/en/game/gods_trigger",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "488730"
     },
     {
@@ -5597,6 +5967,7 @@
       "gog_url": "https://www.gog.com/en/game/golf_with_your_friends",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "431240"
     },
     {
@@ -5612,6 +5983,7 @@
       "gog_url": "https://www.gog.com/en/game/greak_memories_of_azur",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1311070"
     },
     {
@@ -5627,6 +5999,7 @@
       "gog_url": "https://www.gog.com/en/game/greedfall",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "606880"
     },
     {
@@ -5642,6 +6015,7 @@
       "gog_url": "https://www.gog.com/en/game/grip",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "396900"
     },
     {
@@ -5657,6 +6031,7 @@
       "gog_url": "https://www.gog.com/en/game/hammerting",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "760650"
     },
     {
@@ -5672,6 +6047,7 @@
       "gog_url": "https://www.gog.com/en/game/hard_west_2",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1282410"
     },
     {
@@ -5687,6 +6063,7 @@
       "gog_url": "https://www.gog.com/en/game/haven_park",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1549550"
     },
     {
@@ -5702,6 +6079,7 @@
       "gog_url": "https://www.gog.com/en/game/heads_will_roll_downfall",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1903060"
     },
     {
@@ -5717,6 +6095,7 @@
       "gog_url": "https://www.gog.com/en/game/hell_division",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2004360"
     },
     {
@@ -5732,6 +6111,7 @@
       "gog_url": "https://www.gog.com/en/game/hell_pie",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "889910"
     },
     {
@@ -5747,6 +6127,7 @@
       "gog_url": "https://www.gog.com/en/game/hellpoint",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "628670"
     },
     {
@@ -5762,6 +6143,7 @@
       "gog_url": "https://www.gog.com/en/game/hero_of_the_kingdom_ii",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "346560"
     },
     {
@@ -5777,6 +6159,7 @@
       "gog_url": "https://www.gog.com/en/game/heros_hour",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1656780"
     },
     {
@@ -5792,6 +6175,7 @@
       "gog_url": "https://www.gog.com/en/game/hitman_absolution",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "203140"
     },
     {
@@ -5807,6 +6191,7 @@
       "gog_url": "https://www.gog.com/en/game/hive_jump_2_survivors",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2545740"
     },
     {
@@ -5822,6 +6207,7 @@
       "gog_url": "https://www.gog.com/en/game/huniepop",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "339800"
     },
     {
@@ -5837,6 +6223,7 @@
       "gog_url": "https://www.gog.com/en/game/hypnospace_outlaw",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "844590"
     },
     {
@@ -5852,6 +6239,7 @@
       "gog_url": "https://www.gog.com/en/game/industria",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1172650"
     },
     {
@@ -5867,6 +6255,7 @@
       "gog_url": "https://www.gog.com/en/game/immortal_redneck",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "595140"
     },
     {
@@ -5882,6 +6271,7 @@
       "gog_url": "https://www.gog.com/en/game/intravenous",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1486630"
     },
     {
@@ -5897,6 +6287,7 @@
       "gog_url": "https://www.gog.com/en/game/iratus_lord_of_the_dead",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "807120"
     },
     {
@@ -5912,6 +6303,7 @@
       "gog_url": "https://www.gog.com/en/game/iris_and_the_giant",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1127610"
     },
     {
@@ -5927,6 +6319,7 @@
       "gog_url": "https://www.gog.com/en/game/kerbal_space_program",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "220200"
     },
     {
@@ -5942,6 +6335,7 @@
       "gog_url": "https://www.gog.com/en/game/king_of_seas",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1209410"
     },
     {
@@ -5957,6 +6351,7 @@
       "gog_url": "https://www.gog.com/en/game/kings_bounty_the_legend",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "25900"
     },
     {
@@ -5972,6 +6367,7 @@
       "gog_url": "https://www.gog.com/en/game/lego_star_wars_the_complete_saga",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "32440"
     },
     {
@@ -5987,6 +6383,7 @@
       "gog_url": "https://www.gog.com/en/game/lego_the_hobbit",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "285160"
     },
     {
@@ -6002,6 +6399,7 @@
       "gog_url": "https://www.gog.com/en/game/lego_the_lord_of_the_rings",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "214510"
     },
     {
@@ -6017,6 +6415,7 @@
       "gog_url": "https://www.gog.com/en/game/lacuna_a_scifi_noir_adventure",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1364100"
     },
     {
@@ -6032,6 +6431,7 @@
       "gog_url": "https://www.gog.com/en/game/legacy_of_kain_defiance",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "224300"
     },
     {
@@ -6047,6 +6447,7 @@
       "gog_url": "https://www.gog.com/en/game/legend_of_keepers_career_of_a_dungeon_manager",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "978520"
     },
     {
@@ -6062,6 +6463,7 @@
       "gog_url": "https://www.gog.com/en/game/mafia_ii_definitive_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1030830"
     },
     {
@@ -6077,6 +6479,7 @@
       "gog_url": "https://www.gog.com/en/game/mafia_iii_definitive_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "360430"
     },
     {
@@ -6092,6 +6495,7 @@
       "gog_url": "https://www.gog.com/en/game/mafia_definitive_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1030840"
     },
     {
@@ -6107,6 +6511,7 @@
       "gog_url": "https://www.gog.com/en/game/mail_time",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1607240"
     },
     {
@@ -6122,6 +6527,7 @@
       "gog_url": "https://www.gog.com/en/game/metro_last_light_redux",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "287390"
     },
     {
@@ -6137,6 +6543,7 @@
       "gog_url": "https://www.gog.com/en/game/middleearth_shadow_of_mordor",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "241930"
     },
     {
@@ -6152,6 +6559,7 @@
       "gog_url": "https://www.gog.com/en/game/midnight_fight_express",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1390410"
     },
     {
@@ -6167,6 +6575,7 @@
       "gog_url": "https://www.gog.com/en/game/monster_train",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1102190"
     },
     {
@@ -6182,6 +6591,7 @@
       "gog_url": "https://www.gog.com/en/game/moonlighter",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "606150"
     },
     {
@@ -6197,6 +6607,7 @@
       "gog_url": "https://www.gog.com/en/game/moonscars",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1374970"
     },
     {
@@ -6212,6 +6623,7 @@
       "gog_url": "https://www.gog.com/en/game/mutazione",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1080750"
     },
     {
@@ -6227,6 +6639,7 @@
       "gog_url": "https://www.gog.com/en/game/medal_of_honor_allied_assault_war_chest",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -6242,6 +6655,7 @@
       "gog_url": "https://www.gog.com/en/game/neverwinter_nights_diamond",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -6257,6 +6671,7 @@
       "gog_url": "https://www.gog.com/en/game/oaken",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1348690"
     },
     {
@@ -6272,6 +6687,7 @@
       "gog_url": "https://www.gog.com/en/game/once_upon_a_jester",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1668190"
     },
     {
@@ -6287,6 +6703,7 @@
       "gog_url": "https://www.gog.com/en/game/overcooked_2",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "728880"
     },
     {
@@ -6302,6 +6719,7 @@
       "gog_url": "https://www.gog.com/en/game/planet_of_lana",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1608230"
     },
     {
@@ -6317,6 +6735,7 @@
       "gog_url": "https://www.gog.com/en/game/prince_of_persia",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "19980"
     },
     {
@@ -6332,6 +6751,7 @@
       "gog_url": "https://www.gog.com/en/game/prince_of_persia_the_sands_of_time",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "13600"
     },
     {
@@ -6347,6 +6767,7 @@
       "gog_url": "https://www.gog.com/en/game/prince_of_persia_the_two_thrones",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "13530"
     },
     {
@@ -6362,6 +6783,7 @@
       "gog_url": "https://www.gog.com/en/game/prince_of_persia_warrior_within",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "13500"
     },
     {
@@ -6377,6 +6799,7 @@
       "gog_url": "https://www.gog.com/en/game/prison_architect",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "233450"
     },
     {
@@ -6392,6 +6815,7 @@
       "gog_url": "https://www.gog.com/en/game/quake_ii",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2320"
     },
     {
@@ -6407,6 +6831,7 @@
       "gog_url": "https://www.gog.com/en/game/riot_civil_unrest",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "342310"
     },
     {
@@ -6422,6 +6847,7 @@
       "gog_url": "https://www.gog.com/en/game/saints_row_2",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "9480"
     },
     {
@@ -6437,6 +6863,7 @@
       "gog_url": "https://www.gog.com/en/game/saints_row_iv_re_elected",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "206420"
     },
     {
@@ -6452,6 +6879,7 @@
       "gog_url": "https://www.gog.com/en/game/saints_row_gat_out_of_hell",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "301910"
     },
     {
@@ -6467,6 +6895,7 @@
       "gog_url": "https://www.gog.com/en/game/saints_row_the_third_remastered",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "978300"
     },
     {
@@ -6482,6 +6911,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "32380"
     },
     {
@@ -6497,6 +6927,7 @@
       "gog_url": "https://www.gog.com/en/game/scorn",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "698670"
     },
     {
@@ -6512,6 +6943,7 @@
       "gog_url": "https://www.gog.com/en/game/shadow_tactics_blades_of_the_shogun",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "418240"
     },
     {
@@ -6527,6 +6959,7 @@
       "gog_url": "https://www.gog.com/en/game/shadowrun_returns",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "234650"
     },
     {
@@ -6542,6 +6975,7 @@
       "gog_url": "https://www.gog.com/en/game/shadows_awakening",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "585450"
     },
     {
@@ -6557,6 +6991,7 @@
       "gog_url": "https://www.gog.com/en/game/shantae_and_the_pirates_curse",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "345820"
     },
     {
@@ -6572,6 +7007,7 @@
       "gog_url": "https://www.gog.com/en/game/shogun_showdown",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2084000"
     },
     {
@@ -6587,6 +7023,7 @@
       "gog_url": "https://www.gog.com/en/game/showgunners",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1155330"
     },
     {
@@ -6602,6 +7039,7 @@
       "gog_url": "https://www.gog.com/en/game/sigma_theory_global_cold_war",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "716640"
     },
     {
@@ -6617,6 +7055,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1057690"
     },
     {
@@ -6632,6 +7071,7 @@
       "gog_url": "https://www.gog.com/en/game/sir_whoopass_immortal_death",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1240590"
     },
     {
@@ -6647,6 +7087,7 @@
       "gog_url": "https://www.gog.com/en/game/shores_unknown_arrival",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "899460"
     },
     {
@@ -6662,6 +7103,7 @@
       "gog_url": "https://www.gog.com/en/game/south_scrimshaw_part_one",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2443110"
     },
     {
@@ -6677,6 +7119,7 @@
       "gog_url": "https://www.gog.com/en/game/space_hulk_deathwing_enhanced_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "816090"
     },
     {
@@ -6692,6 +7135,7 @@
       "gog_url": "https://www.gog.com/en/game/spelunky",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "239350"
     },
     {
@@ -6707,6 +7151,7 @@
       "gog_url": "https://www.gog.com/en/game/spells_and_secrets",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1518220"
     },
     {
@@ -6722,6 +7167,7 @@
       "gog_url": "https://www.gog.com/en/game/south_of_the_circle",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1811040"
     },
     {
@@ -6737,6 +7183,7 @@
       "gog_url": "https://www.gog.com/en/game/star_wars_battlefront_2_classic_2005",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "6060"
     },
     {
@@ -6752,6 +7199,7 @@
       "gog_url": "https://www.gog.com/en/game/star_wars_rebellion",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "441550"
     },
     {
@@ -6767,6 +7215,7 @@
       "gog_url": "https://www.gog.com/en/game/star_wars_bounty_hunter",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2419090"
     },
     {
@@ -6782,6 +7231,7 @@
       "gog_url": "https://www.gog.com/en/game/steamworld_heist",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "322190"
     },
     {
@@ -6797,6 +7247,7 @@
       "gog_url": "https://www.gog.com/en/game/steamworld_quest_hand_of_gilgamech",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "804010"
     },
     {
@@ -6812,6 +7263,7 @@
       "gog_url": "https://www.gog.com/en/game/stray_gods_the_roleplaying_musical",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1920780"
     },
     {
@@ -6827,6 +7279,7 @@
       "gog_url": "https://www.gog.com/en/game/styx_master_of_shadows",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "242640"
     },
     {
@@ -6842,6 +7295,7 @@
       "gog_url": "https://www.gog.com/en/game/styx_shards_of_darkness",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "355790"
     },
     {
@@ -6857,6 +7311,7 @@
       "gog_url": "https://www.gog.com/en/game/symphonia_student_project_2020",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1865960"
     },
     {
@@ -6872,6 +7327,7 @@
       "gog_url": "https://www.gog.com/en/game/sunrider_mask_of_arcadius",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "313730"
     },
     {
@@ -6887,6 +7343,7 @@
       "gog_url": "https://www.gog.com/en/game/talisman_digital_classic_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "247000"
     },
     {
@@ -6902,6 +7359,7 @@
       "gog_url": "https://www.gog.com/en/game/terraformers_first_steps_on_mars",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1557040"
     },
     {
@@ -6917,6 +7375,7 @@
       "gog_url": "https://www.gog.com/en/game/terroir",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "559910"
     },
     {
@@ -6932,6 +7391,7 @@
       "gog_url": "https://www.gog.com/en/game/coma_recut",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "600090"
     },
     {
@@ -6947,6 +7407,7 @@
       "gog_url": "https://www.gog.com/en/game/dark_eye_chains_of_satinav",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "203830"
     },
     {
@@ -6962,6 +7423,7 @@
       "gog_url": "https://www.gog.com/en/game/darkest_tales_into_the_nightmare",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1307690"
     },
     {
@@ -6977,6 +7439,7 @@
       "gog_url": "https://www.gog.com/en/game/falconeer",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1135260"
     },
     {
@@ -6992,6 +7455,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2221940"
     },
     {
@@ -7007,6 +7471,7 @@
       "gog_url": "https://www.gog.com/en/game/first_templar_special_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "57680"
     },
     {
@@ -7022,6 +7487,7 @@
       "gog_url": "https://www.gog.com/en/game/gunk",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1087760"
     },
     {
@@ -7037,6 +7503,7 @@
       "gog_url": "https://www.gog.com/en/game/last_spell",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1105670"
     },
     {
@@ -7052,6 +7519,7 @@
       "gog_url": "https://www.gog.com/en/game/life_and_suffering_of_sir_brante_chapter_1_and_2",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1460090"
     },
     {
@@ -7067,6 +7535,7 @@
       "gog_url": "https://www.gog.com/en/game/outer_worlds",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "578650"
     },
     {
@@ -7082,6 +7551,7 @@
       "gog_url": "https://www.gog.com/en/game/smurfs_2_the_prisoner_of_the_green_stone",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2397500"
     },
     {
@@ -7097,6 +7567,7 @@
       "gog_url": "https://www.gog.com/en/game/supper",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1171370"
     },
     {
@@ -7112,6 +7583,7 @@
       "gog_url": "https://www.gog.com/en/game/talos_principle_gold_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "257510"
     },
     {
@@ -7127,6 +7599,7 @@
       "gog_url": "https://www.gog.com/en/game/town_of_light",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "433100"
     },
     {
@@ -7142,6 +7615,7 @@
       "gog_url": "https://www.gog.com/en/game/whispered_world_special_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "268540"
     },
     {
@@ -7157,6 +7631,7 @@
       "gog_url": "https://www.gog.com/en/game/whisperer",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2329580"
     },
     {
@@ -7172,6 +7647,7 @@
       "gog_url": "https://www.gog.com/en/game/witcher_enhanced_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "20900"
     },
     {
@@ -7187,6 +7663,7 @@
       "gog_url": "https://www.gog.com/en/game/thea_2_the_shattering",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "606230"
     },
     {
@@ -7202,6 +7679,7 @@
       "gog_url": "https://www.gog.com/en/game/thief_2_the_metal_age",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "211740"
     },
     {
@@ -7217,6 +7695,7 @@
       "gog_url": "https://www.gog.com/en/game/toem",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1307580"
     },
     {
@@ -7232,6 +7711,7 @@
       "gog_url": "https://www.gog.com/en/game/tomb_raider_13_remastered_starring_lara_croft",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2478970"
     },
     {
@@ -7247,6 +7727,7 @@
       "gog_url": "https://www.gog.com/en/game/tomb_raider_anniversary",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "8000"
     },
     {
@@ -7262,6 +7743,7 @@
       "gog_url": "https://www.gog.com/en/game/tomb_raider_chronicles",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "225000"
     },
     {
@@ -7277,6 +7759,7 @@
       "gog_url": "https://www.gog.com/en/game/tomb_raider_legend",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "7000"
     },
     {
@@ -7292,6 +7775,7 @@
       "gog_url": "https://www.gog.com/en/game/tomb_raider_the_last_revelation",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "224980"
     },
     {
@@ -7307,6 +7791,7 @@
       "gog_url": "https://www.gog.com/en/game/tomb_raider_underworld",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "8140"
     },
     {
@@ -7322,6 +7807,7 @@
       "gog_url": "https://www.gog.com/en/game/tropico_4",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "57690"
     },
     {
@@ -7337,6 +7823,7 @@
       "gog_url": "https://www.gog.com/en/game/trberbrook",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "757300"
     },
     {
@@ -7352,6 +7839,7 @@
       "gog_url": "https://www.gog.com/en/game/under_the_moon",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1945780"
     },
     {
@@ -7367,6 +7855,7 @@
       "gog_url": "https://www.gog.com/en/game/vambrace_cold_soul",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "904380"
     },
     {
@@ -7382,6 +7871,7 @@
       "gog_url": "https://www.gog.com/en/game/venetica_gold_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "338140"
     },
     {
@@ -7397,6 +7887,7 @@
       "gog_url": "https://www.gog.com/en/game/warhammer_40000_rites_of_war",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -7412,6 +7903,7 @@
       "gog_url": "https://www.gog.com/en/game/whispering_willows",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "288060"
     },
     {
@@ -7427,6 +7919,7 @@
       "gog_url": "https://www.gog.com/en/game/wild_country",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1515000"
     },
     {
@@ -7442,6 +7935,7 @@
       "gog_url": "https://www.gog.com/en/game/worms_revolution_gold_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "200170"
     },
     {
@@ -7457,6 +7951,7 @@
       "gog_url": "https://www.gog.com/en/game/xmorph_defense_complete_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "408410"
     },
     {
@@ -7472,6 +7967,7 @@
       "gog_url": "https://www.gog.com/en/game/yes_your_grace",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1115690"
     },
     {
@@ -7487,6 +7983,7 @@
       "gog_url": "https://www.gog.com/en/game/metro_2033_redux",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "286690"
     },
     {
@@ -7502,6 +7999,7 @@
       "gog_url": "https://www.gog.com/en/game/venba",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1491670"
     },
     {
@@ -7517,6 +8015,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2581960"
     },
     {
@@ -7532,6 +8031,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2972040"
     },
     {
@@ -7547,6 +8047,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1709580"
     },
     {
@@ -7562,6 +8063,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1003090"
     },
     {
@@ -7577,6 +8079,7 @@
       "gog_url": "https://www.gog.com/en/game/time_loader_first_memories",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1421970"
     },
     {
@@ -7592,6 +8095,7 @@
       "gog_url": "https://www.gog.com/en/game/the_knights_of_the_old_republic_ii_the_sith_lords",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "208580"
     },
     {
@@ -7607,6 +8111,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1702430"
     },
     {
@@ -7622,6 +8127,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2014470"
     },
     {
@@ -7637,6 +8143,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2172580"
     },
     {
@@ -7652,6 +8159,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1647390"
     },
     {
@@ -7667,6 +8175,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "392110"
     },
     {
@@ -7682,6 +8191,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1747680"
     },
     {
@@ -7697,6 +8207,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1747690"
     },
     {
@@ -7712,6 +8223,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1034930"
     },
     {
@@ -7727,6 +8239,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "255390"
     },
     {
@@ -7742,6 +8255,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "726490"
     },
     {
@@ -7757,6 +8271,7 @@
       "gog_url": "https://www.gog.com/en/game/syberia_the_world_before",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1410640"
     },
     {
@@ -7772,6 +8287,7 @@
       "gog_url": "https://www.gog.com/en/game/dex",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "269650"
     },
     {
@@ -7787,6 +8303,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "208580"
     },
     {
@@ -7802,6 +8319,7 @@
       "gog_url": "https://www.gog.com/en/game/thronebreaker_the_witcher_tales",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "973760"
     },
     {
@@ -7817,6 +8335,7 @@
       "gog_url": "https://www.gog.com/en/game/drive_rally",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Drive_Rally",
       "steamId": "2494780"
     },
     {
@@ -7832,6 +8351,7 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/20xx",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/20XX",
       "steamId": "322110"
     },
     {
@@ -7847,6 +8367,7 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/a-short-hike",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/A_Short_Hike",
       "steamId": "1055540"
     },
     {
@@ -7862,6 +8383,7 @@
       "gog_url": "",
       "epic_url": "https://www.pcgamingwiki.com/wiki/Aer:_Memories_of_Old",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Aer:_Memories_of_Old",
       "steamId": "331870"
     },
     {
@@ -7877,6 +8399,7 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/absolute-drift",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Absolute_Drift",
       "steamId": "320140"
     },
     {
@@ -7892,6 +8415,7 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/abzu",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Abz%C3%BB",
       "steamId": "384190"
     },
     {
@@ -7907,6 +8431,7 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/against-all-odds-409105",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Against_All_Odds",
       "steamId": "1465560"
     },
     {
@@ -7922,6 +8447,7 @@
       "gog_url": "https://www.gog.com/en/game/alan_wake",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "108710"
     },
     {
@@ -7937,6 +8463,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "108710"
     },
     {
@@ -7952,6 +8479,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "239200"
     },
     {
@@ -7967,6 +8495,7 @@
       "gog_url": "https://www.gog.com/en/game/amnesia_the_bunker",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1944430"
     },
     {
@@ -7982,6 +8511,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -7997,6 +8527,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -8012,6 +8543,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "214490"
     },
     {
@@ -8027,6 +8559,7 @@
       "gog_url": "https://www.gog.com/en/game/amid_evil",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "673130"
     },
     {
@@ -8042,6 +8575,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "945360"
     },
     {
@@ -8057,6 +8591,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "877810"
     },
     {
@@ -8072,6 +8607,7 @@
       "gog_url": "https://www.gog.com/en/game/barrow_hill_curse_of_the_ancient_circle",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "494360"
     },
     {
@@ -8087,6 +8623,7 @@
       "gog_url": "https://www.gog.com/en/game/barrow_hill_the_dark_path",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "520990"
     },
     {
@@ -8102,6 +8639,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "332200"
     },
     {
@@ -8117,6 +8655,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1230530"
     },
     {
@@ -8132,6 +8671,7 @@
       "gog_url": "https://www.gog.com/en/game/atom_rpg_trudograd_i",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1139940"
     },
     {
@@ -8147,6 +8687,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "371970"
     },
     {
@@ -8162,6 +8703,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "504230"
     },
     {
@@ -8177,6 +8719,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "852300"
     },
     {
@@ -8192,6 +8735,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "262060"
     },
     {
@@ -8207,6 +8751,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1850570"
     },
     {
@@ -8222,6 +8767,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1522160"
     },
     {
@@ -8237,6 +8783,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "527230"
     },
     {
@@ -8252,6 +8799,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1145360"
     },
     {
@@ -8267,6 +8815,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "990080"
     },
     {
@@ -8282,6 +8831,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2561580"
     },
     {
@@ -8297,6 +8847,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "638230"
     },
     {
@@ -8312,6 +8863,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "973810"
     },
     {
@@ -8327,6 +8879,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "448510"
     },
     {
@@ -8342,6 +8895,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "728880"
     },
     {
@@ -8357,6 +8911,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1253920"
     },
     {
@@ -8372,6 +8927,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "493200"
     },
     {
@@ -8387,6 +8943,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1147560"
     },
     {
@@ -8402,6 +8959,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1659040"
     },
     {
@@ -8417,6 +8975,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "250320"
     },
     {
@@ -8432,6 +8991,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2395210"
     },
     {
@@ -8447,6 +9007,7 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/totally-reliable-delivery-service",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1011670"
     },
     {
@@ -8462,6 +9023,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "857980"
     },
     {
@@ -8477,6 +9039,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "501300"
     },
     {
@@ -8492,6 +9055,7 @@
       "gog_url": "https://www.gog.com/en/game/call_of_cthulhu_dark_corners_of_the_earth",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "22340"
     },
     {
@@ -8507,6 +9071,7 @@
       "gog_url": "https://www.gog.com/en/game/dino_crisis_1_2_gog",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -8522,6 +9087,7 @@
       "gog_url": "https://www.gog.com/en/game/empire_of_the_ants",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2287330"
     },
     {
@@ -8537,6 +9103,7 @@
       "gog_url": "https://www.gog.com/en/game/mortal_kombat_trilogy",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -8552,6 +9119,7 @@
       "gog_url": "https://www.gog.com/en/game/mullet_madjack",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2111190"
     },
     {
@@ -8567,6 +9135,7 @@
       "gog_url": "https://www.gog.com/en/game/mdk",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "38450"
     },
     {
@@ -8582,6 +9151,7 @@
       "gog_url": "https://www.gog.com/en/game/the_penumbra_collection",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "22120"
     },
     {
@@ -8597,6 +9167,7 @@
       "gog_url": "https://www.gog.com/en/game/the_penumbra_collection",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "22180"
     },
     {
@@ -8612,6 +9183,7 @@
       "gog_url": "https://www.gog.com/en/game/pillars_of_eternity_definitive_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "291650"
     },
     {
@@ -8627,6 +9199,7 @@
       "gog_url": "https://www.gog.com/en/game/simcity_3000_unlimited",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2741560"
     },
     {
@@ -8642,6 +9215,7 @@
       "gog_url": "https://www.gog.com/en/game/simcity_4_deluxe",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "24780"
     },
     {
@@ -8657,6 +9231,7 @@
       "gog_url": "https://www.gog.com/en/game/silent_hill_4_the_room",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -8672,6 +9247,7 @@
       "gog_url": "https://www.gog.com/en/game/transistor",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "237930"
     },
     {
@@ -8687,6 +9263,7 @@
       "gog_url": "https://www.gog.com/en/game/yakuza_0",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "638970"
     },
     {
@@ -8702,6 +9279,7 @@
       "gog_url": "https://www.gog.com/en/game/yakuza_kiwami_yakuza_1",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "834530"
     },
     {
@@ -8717,6 +9295,7 @@
       "gog_url": "https://www.gog.com/en/game/world_in_conflict_complete_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -8732,6 +9311,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "445980"
     },
     {
@@ -8747,6 +9327,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1479140"
     },
     {
@@ -8762,6 +9343,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "953490"
     },
     {
@@ -8777,6 +9359,7 @@
       "gog_url": "https://www.gog.com/en/game/xiii",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1154790"
     },
     {
@@ -8792,6 +9375,7 @@
       "gog_url": "https://www.gog.com/en/game/breachway",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2118810"
     },
     {
@@ -8807,6 +9391,7 @@
       "gog_url": "https://www.gog.com/en/game/bunny_garden",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2654470"
     },
     {
@@ -8822,6 +9407,7 @@
       "gog_url": "https://www.gog.com/en/game/chained_echoes",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1229240"
     },
     {
@@ -8837,6 +9423,7 @@
       "gog_url": "https://www.gog.com/en/game/cloudpunk",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "746850"
     },
     {
@@ -8852,6 +9439,7 @@
       "gog_url": "https://www.gog.com/en/game/cuphead",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "268910"
     },
     {
@@ -8867,6 +9455,7 @@
       "gog_url": "https://www.gog.com/en/game/dark_fall_3_lost_souls",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "46750"
     },
     {
@@ -8882,6 +9471,7 @@
       "gog_url": "https://www.gog.com/en/game/deathbound",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1277130"
     },
     {
@@ -8897,6 +9487,7 @@
       "gog_url": "https://www.gog.com/en/game/defenders_quest",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "218410"
     },
     {
@@ -8912,6 +9503,7 @@
       "gog_url": "https://www.gog.com/en/game/doom_2016",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "379720"
     },
     {
@@ -8927,6 +9519,7 @@
       "gog_url": "https://www.gog.com/en/game/fallout_3_game_of_the_year_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "22370"
     },
     {
@@ -8942,6 +9535,7 @@
       "gog_url": "https://www.gog.com/en/game/firewatch",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "383870"
     },
     {
@@ -8957,6 +9551,7 @@
       "gog_url": "https://www.gog.com/en/game/flatout",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "6220"
     },
     {
@@ -8972,6 +9567,7 @@
       "gog_url": "https://www.gog.com/en/game/flipon",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1285020"
     },
     {
@@ -8987,6 +9583,7 @@
       "gog_url": "https://www.gog.com/en/game/front_mission_1st_remake_limited_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2399730"
     },
     {
@@ -9002,6 +9599,7 @@
       "gog_url": "https://www.gog.com/en/game/grim_dawn_definitive_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "219990"
     },
     {
@@ -9017,6 +9615,7 @@
       "gog_url": "https://www.gog.com/en/game/hard_west",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "307670"
     },
     {
@@ -9032,6 +9631,7 @@
       "gog_url": "https://www.gog.com/en/game/hellblade_senuas_sacrifice",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "414340"
     },
     {
@@ -9047,6 +9647,7 @@
       "gog_url": "https://www.gog.com/en/game/kings_bounty_crossworlds_goty_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "63910"
     },
     {
@@ -9062,6 +9663,7 @@
       "gog_url": "https://www.gog.com/en/game/legacy_of_kain_soul_reaver_1_2_remastered",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2521380"
     },
     {
@@ -9077,6 +9679,7 @@
       "gog_url": "https://www.gog.com/en/game/little_nightmares",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "424840"
     },
     {
@@ -9092,6 +9695,7 @@
       "gog_url": "https://www.gog.com/en/game/loop_hero",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1282730"
     },
     {
@@ -9107,6 +9711,7 @@
       "gog_url": "https://www.gog.com/en/game/magrunner_dark_pulse",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "209630"
     },
     {
@@ -9122,6 +9727,7 @@
       "gog_url": "https://www.gog.com/en/game/metal_slug_tactics",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1590760"
     },
     {
@@ -9137,6 +9743,7 @@
       "gog_url": "https://www.gog.com/en/game/noita",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "881100"
     },
     {
@@ -9152,6 +9759,7 @@
       "gog_url": "https://www.gog.com/en/game/one_step_from_eden",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "960690"
     },
     {
@@ -9167,6 +9775,7 @@
       "gog_url": "https://www.gog.com/en/game/overcooked_gourmet_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "448510"
     },
     {
@@ -9182,6 +9791,7 @@
       "gog_url": "https://www.gog.com/en/game/primordia",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "227000"
     },
     {
@@ -9197,6 +9807,7 @@
       "gog_url": "https://www.gog.com/en/game/raidborn",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1546090"
     },
     {
@@ -9212,6 +9823,7 @@
       "gog_url": "https://www.gog.com/en/game/sherlock_holmes_chapter_one",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1137300"
     },
     {
@@ -9227,6 +9839,7 @@
       "gog_url": "https://www.gog.com/en/game/sherlock_holmes_the_awakened_2024",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1949030"
     },
     {
@@ -9242,6 +9855,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1867530"
     },
     {
@@ -9257,6 +9871,7 @@
       "gog_url": "https://www.gog.com/en/game/king_of_seas",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "702050"
     },
     {
@@ -9272,6 +9887,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "584400"
     },
     {
@@ -9287,6 +9903,7 @@
       "gog_url": "https://www.gog.com/en/game/star_wars_knights_of_the_old_republic",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "32370"
     },
     {
@@ -9302,6 +9919,7 @@
       "gog_url": "https://www.gog.com/en/game/steamworld_heist_ii",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2396240"
     },
     {
@@ -9317,6 +9935,7 @@
       "gog_url": "https://www.gog.com/en/game/still_life_2",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "46490"
     },
     {
@@ -9332,6 +9951,7 @@
       "gog_url": "https://www.gog.com/en/game/swat_4",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -9347,6 +9967,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1496590"
     },
     {
@@ -9362,6 +9983,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1003590"
     },
     {
@@ -9377,6 +9999,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2837600"
     },
     {
@@ -9392,6 +10015,7 @@
       "gog_url": "https://www.gog.com/en/game/the_coma_2_vicious_sisters",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1045720"
     },
     {
@@ -9407,6 +10031,7 @@
       "gog_url": "https://www.gog.com/en/game/the_saboteur",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "24880"
     },
     {
@@ -9422,6 +10047,7 @@
       "gog_url": "https://www.gog.com/en/game/the_witcher_3_wild_hunt_game_of_the_year_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "292030"
     },
     {
@@ -9437,6 +10063,7 @@
       "gog_url": "https://www.gog.com/en/game/timeshift",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "10130"
     },
     {
@@ -9452,6 +10079,7 @@
       "gog_url": "https://www.gog.com/en/game/trinity_fusion",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1911360"
     },
     {
@@ -9467,6 +10095,7 @@
       "gog_url": "https://www.gog.com/en/game/vampire_the_masquerade_-_bloodlines",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2600"
     },
     {
@@ -9482,6 +10111,7 @@
       "gog_url": "https://www.gog.com/en/game/vampire_the_masquerade_-_coteries_of_new_york",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1096410"
     },
     {
@@ -9497,6 +10127,7 @@
       "gog_url": "https://www.gog.com/en/game/voidbound",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2500710"
     },
     {
@@ -9512,6 +10143,7 @@
       "gog_url": "https://www.gog.com/en/game/warhammer_40000_rogue_trader",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2186680"
     },
     {
@@ -9527,6 +10159,7 @@
       "gog_url": "https://www.gog.com/en/game/wasteland_3",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "719040"
     },
     {
@@ -9542,6 +10175,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "782940"
     },
     {
@@ -9557,6 +10191,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -9572,6 +10207,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1839940"
     },
     {
@@ -9582,12 +10218,29 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sep '25",
-      "is_featured": true,
+      "is_featured": false,
       "protondb": "https://www.protondb.com/app/1544360",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/lego-builders-journey",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Lego_Builder%27s_Journey",
       "steamId": "1544360"
+    },
+    {
+      "id": "65c9c1d4-79be-4618-a021-45d1acf36ed3",
+      "title": "Lords Mobile",
+      "storefront": "Epic",
+      "slug": "lords-mobile",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "protondb": "https://www.protondb.com/app/1041320",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/lords-mobile-014f32",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Lords_Mobile",
+      "steamId": "1041320"
     },
     {
       "id": "0f1a556f-56e8-4b77-aa9a-f6401305c037",
@@ -9602,6 +10255,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1049280"
     },
     {
@@ -9617,6 +10271,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1712840"
     },
     {
@@ -9632,6 +10287,7 @@
       "gog_url": "https://www.gog.com/en/game/agony",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "487720"
     },
     {
@@ -9647,6 +10303,7 @@
       "gog_url": "https://www.gog.com/en/game/agony",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "487720"
     },
     {
@@ -9662,6 +10319,7 @@
       "gog_url": "https://www.gog.com/en/game/being_a_dik",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1126320"
     },
     {
@@ -9677,6 +10335,7 @@
       "gog_url": "https://www.gog.com/en/game/beneath_a_steel_sky",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1368340"
     },
     {
@@ -9692,6 +10351,7 @@
       "gog_url": "https://www.gog.com/en/game/bio_menace",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "358180"
     },
     {
@@ -9707,6 +10367,7 @@
       "gog_url": "https://www.gog.com/en/game/fetish_locator_week_one",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1360980"
     },
     {
@@ -9722,6 +10383,7 @@
       "gog_url": "https://www.gog.com/en/game/helping_the_hotties",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1590730"
     },
     {
@@ -9737,6 +10399,7 @@
       "gog_url": "https://www.gog.com/en/game/heroes_of_loot",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "359280"
     },
     {
@@ -9752,6 +10415,7 @@
       "gog_url": "https://www.gog.com/en/game/house_party",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "611790"
     },
     {
@@ -9767,6 +10431,7 @@
       "gog_url": "https://www.gog.com/en/game/jupiter_hell",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "811320"
     },
     {
@@ -9782,6 +10447,7 @@
       "gog_url": "https://www.gog.com/en/game/leap_of_faith_official_walkthrough",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1768640"
     },
     {
@@ -9797,7 +10463,24 @@
       "gog_url": "https://www.gog.com/en/game/leap_of_love",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1469300"
+    },
+    {
+      "id": "fbfa6f62-7a0e-4de7-8bdf-38953c274a12",
+      "title": "Liberated",
+      "storefront": "GOG",
+      "slug": "liberated",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "protondb": "https://www.protondb.com/app/875310",
+      "gog_url": "https://www.gog.com/en/game/liberated",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Liberated",
+      "steamId": "875310"
     },
     {
       "id": "adaf008f-7315-44a8-bf93-f18f3db19c29",
@@ -9812,6 +10495,7 @@
       "gog_url": "https://www.gog.com/en/game/lust_theory_season_1",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1607130"
     },
     {
@@ -9827,6 +10511,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "223470"
     },
     {
@@ -9842,6 +10527,7 @@
       "gog_url": "https://www.gog.com/en/game/pumpkin_jack",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1186640"
     },
     {
@@ -9857,6 +10543,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1526900"
     },
     {
@@ -9872,7 +10559,24 @@
       "gog_url": "https://www.gog.com/en/game/summers_gone_season_1",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2240150"
+    },
+    {
+      "id": "7b2dba41-e694-46bb-9a3a-d9884a32d59f",
+      "title": "Tower of Time",
+      "storefront": "GOG",
+      "slug": "tower-of-time",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sept '25",
+      "is_featured": true,
+      "protondb": "https://www.protondb.com/app/617480",
+      "gog_url": "https://www.gog.com/en/game/tower_of_time",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Tower_of_Time",
+      "steamId": "617480"
     },
     {
       "id": "0f1af348-0c1e-41c5-a15a-baa3b048f1f6",
@@ -9887,6 +10591,7 @@
       "gog_url": "https://www.gog.com/en/game/treasure_of_nadia",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1737100"
     },
     {
@@ -9902,6 +10607,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -9917,7 +10623,24 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Dungeon_of_the_Endless",
       "steamId": "1485590"
+    },
+    {
+      "id": "906f6511-9907-490a-8346-8e1b0691223e",
+      "title": "LEGO Indiana Jones: The Original Adventures",
+      "storefront": "Amazon",
+      "slug": "lego-indiana-jones-the-original-adventures",
+      "decky_rating": "not-supported",
+      "standalone_rating": "yellow",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "protondb": "https://www.protondb.com/app/32330",
+      "gog_url": "",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Lego_Indiana_Jones:_The_Original_Adventures",
+      "steamId": "32330"
     },
     {
       "id": "4e3defcf-cea2-4576-bb1c-9e58e452d056",
@@ -9932,6 +10655,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "15620"
     },
     {
@@ -9947,6 +10671,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1325040"
     },
     {
@@ -9962,6 +10687,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "793460"
     },
     {
@@ -9977,6 +10703,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "300380"
     },
     {
@@ -9992,6 +10719,7 @@
       "gog_url": "https://www.gog.com/en/game/sid_meiers_civilization_3_complete",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "3910"
     },
     {
@@ -10007,6 +10735,7 @@
       "gog_url": "https://www.gog.com/en/game/thief_definitive_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "239160"
     },
     {
@@ -10022,6 +10751,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1155460"
     },
     {
@@ -10037,6 +10767,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://eeease.itch.io/10-flights-of-ballooning",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -10052,6 +10783,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://owch.itch.io/10s",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -10067,6 +10799,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://aurora-punks.itch.io/1993-space-machine",
+      "pc_gaming_wiki_url": "",
       "steamId": "373480"
     },
     {
@@ -10082,6 +10815,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://notsleeping.itch.io/2901",
+      "pc_gaming_wiki_url": "",
       "steamId": ""
     },
     {
@@ -10097,6 +10831,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://adamgryu.itch.io/a-short-hike",
+      "pc_gaming_wiki_url": "",
       "steamId": "1055540"
     },
     {
@@ -10112,6 +10847,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://hempuli.itch.io/baba",
+      "pc_gaming_wiki_url": "",
       "steamId": "736260"
     },
     {
@@ -10127,6 +10863,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://maddymakesgamesinc.itch.io/celeste",
+      "pc_gaming_wiki_url": "",
       "steamId": "504230"
     },
     {
@@ -10142,6 +10879,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://radicalfishgames.itch.io/crosscode",
+      "pc_gaming_wiki_url": "",
       "steamId": "368340"
     },
     {
@@ -10157,6 +10895,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://terrycavanagh.itch.io/super-hexagon",
+      "pc_gaming_wiki_url": "",
       "steamId": "221640"
     },
     {
@@ -10172,6 +10911,7 @@
       "gog_url": "https://www.gog.com/en/game/fate_the_traitor_soul",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "303680"
     },
     {
@@ -10187,6 +10927,7 @@
       "gog_url": "https://www.gog.com/en/game/necroking",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "2852980"
     },
     {
@@ -10202,6 +10943,7 @@
       "gog_url": "https://www.gog.com/en/game/tin_hearts",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1831700"
     },
     {
@@ -10217,6 +10959,7 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/hidden-folks-239d16",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "435400"
     },
     {
@@ -10232,6 +10975,7 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/achievements/filthy-animals-f6c65c",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1195420"
     },
     {
@@ -10247,6 +10991,7 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/strange-horticulture-360e80",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Strange_Horticulture",
       "steamId": "1574580"
     },
     {
@@ -10262,6 +11007,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Labyrinth_City:_Pierre_the_Maze_Detective",
       "steamId": "1421790"
     },
     {
@@ -10277,6 +11023,7 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/machinarium-5e6c71",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Machinarium",
       "steamId": "40700"
     },
     {
@@ -10292,6 +11039,7 @@
       "gog_url": "https://www.gog.com/en/game/silver_box_classics",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Heroes_of_the_Lance",
       "steamId": "2344020"
     },
     {
@@ -10307,6 +11055,7 @@
       "gog_url": "https://www.gog.com/en/game/fantasy_empires",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Fantasy_Empires",
       "steamId": "2350530"
     },
     {
@@ -10322,6 +11071,7 @@
       "gog_url": "https://www.gog.com/en/game/heroes_of_loot_2",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Heroes_of_Loot_2",
       "steamId": "439880"
     },
     {
@@ -10337,6 +11087,7 @@
       "gog_url": "https://www.gog.com/en/game/silver_box_classics",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Shadow_Sorcerer",
       "steamId": "2344020"
     },
     {
@@ -10352,6 +11103,7 @@
       "gog_url": "https://www.gog.com/en/game/silver_box_classics",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/War_of_the_Lance",
       "steamId": "2344020"
     },
     {
@@ -10367,6 +11119,7 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/make-way-bddf5f",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Make_Way",
       "steamId": "1445790"
     },
     {
@@ -10382,7 +11135,24 @@
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/kamaeru-0c301e",
       "itch_url": "",
+      "pc_gaming_wiki_url": "",
       "steamId": "1978150"
+    },
+    {
+      "id": "430a4d80-fa1b-4362-ab3a-66aa622c499f",
+      "title": "Mortal Shell Tech Beta",
+      "storefront": "Epic",
+      "slug": "mortal-shell-tech-beta",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "protondb": "https://www.protondb.com/app/1110910",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/mortal-shell",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Mortal_Shell",
+      "steamId": "1110910"
     },
     {
       "id": "242b76b3-5e33-4426-a271-54f17de63130",
@@ -10392,11 +11162,12 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sep '25",
-      "is_featured": true,
+      "is_featured": false,
       "protondb": "https://www.protondb.com/app/590380",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/into-the-breach",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Into_the_Breach",
       "steamId": "590380"
     },
     {
@@ -10407,11 +11178,12 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sep '25",
-      "is_featured": true,
+      "is_featured": false,
       "protondb": "https://www.protondb.com/app/1927720",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/monument-valley-1d99d3",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Monument_Valley:_Panoramic_Edition",
       "steamId": "1927720"
     },
     {
@@ -10422,11 +11194,12 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '25",
-      "is_featured": true,
+      "is_featured": false,
       "protondb": "",
       "gog_url": "https://www.gog.com/en/game/gmdx",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Deus_Ex",
       "steamId": ""
     },
     {
@@ -10437,11 +11210,12 @@
       "decky_rating": "not-supported",
       "standalone_rating": "green",
       "date_tested": "Sept '25",
-      "is_featured": true,
+      "is_featured": false,
       "protondb": "https://www.protondb.com/app/1904560",
       "gog_url": "https://www.gog.com/en/game/dungeons_dragons_ravenloft_series",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ravenloft:_Stone_Prophet",
       "steamId": "1904560"
     },
     {
@@ -10452,11 +11226,12 @@
       "decky_rating": "not-supported",
       "standalone_rating": "green",
       "date_tested": "Sept '25",
-      "is_featured": true,
+      "is_featured": false,
       "protondb": "https://www.protondb.com/app/1904560",
       "gog_url": "https://www.gog.com/en/game/dungeons_dragons_ravenloft_series",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ravenloft:_Strahd%27s_Possession",
       "steamId": "1904560"
     },
     {
@@ -10467,11 +11242,12 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '25",
-      "is_featured": true,
+      "is_featured": false,
       "protondb": "https://www.protondb.com/app/3900",
       "gog_url": "https://www.gog.com/en/game/sid_meiers_civilization_iv_the_complete_edition",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Sid_Meier%27s_Civilization_IV",
       "steamId": "3900"
     },
     {
@@ -10482,12 +11258,77 @@
       "decky_rating": "unknown",
       "standalone_rating": "green",
       "date_tested": "Sep '25",
-      "is_featured": true,
+      "is_featured": false,
       "protondb": "https://www.protondb.com/app/1455840",
       "gog_url": "https://www.gog.com/en/game/dorfromantik",
       "epic_url": "",
       "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Dorfromantik",
       "steamId": "1455840"
+    },
+    {
+      "id": "397fb256-d386-404c-b227-2de720c7e8b7",
+      "title": "The Battle of Polytopia",
+      "storefront": "Epic",
+      "slug": "the-battle-of-polytopia",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sept '25",
+      "is_featured": true,
+      "protondb": "https://www.protondb.com/app/874390",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/the-battle-of-polytopia-12fed6",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "",
+      "steamId": "874390"
+    },
+    {
+      "id": "2202a6d3-52ff-404f-9beb-b1a47b859b8b",
+      "title": "Monument Valley 2",
+      "storefront": "Epic",
+      "slug": "monument-valley-2",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Sep '25",
+      "is_featured": true,
+      "protondb": "https://www.protondb.com/app/1927740",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/monument-valley-2-addd02",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Monument_Valley_2:_Panoramic_Edition",
+      "steamId": "1927740"
+    },
+    {
+      "id": "3eaa45b1-279e-4ba5-b4ec-e81c031f36ec",
+      "title": "Afterimage",
+      "storefront": "Amazon",
+      "slug": "afterimage",
+      "decky_rating": "not-supported",
+      "standalone_rating": "green",
+      "date_tested": "Sep '25",
+      "is_featured": true,
+      "protondb": "https://www.protondb.com/app/1701520",
+      "gog_url": "",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Afterimage",
+      "steamId": "1701520"
+    },
+    {
+      "id": "60a911fa-6d97-497c-b83f-83405ba98839",
+      "title": "Subterrain: Mines of Titan",
+      "storefront": "Amazon",
+      "slug": "subterrain-mines-of-titan",
+      "decky_rating": "not-supported",
+      "standalone_rating": "green",
+      "date_tested": "Sep '25",
+      "is_featured": true,
+      "protondb": "https://www.protondb.com/app/1573100",
+      "gog_url": "",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "",
+      "steamId": "1573100"
     }
   ]
 }

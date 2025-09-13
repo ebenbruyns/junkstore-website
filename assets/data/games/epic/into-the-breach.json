@@ -6,6 +6,7 @@
   "gog_url": "",
   "epic_url": "https://store.epicgames.com/en-US/p/into-the-breach",
   "itch_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Into_the_Breach",
   "notes": "Can play in offline mode. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Sep '25",
   "decky_rating": "green",
@@ -50,7 +51,7 @@
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "created_at": "2025-09-04T23:12:06.948Z",
-  "updated_at": "2025-09-06T21:45:23.476Z"
+  "updated_at": "2025-09-11T20:02:10.345Z"
 }

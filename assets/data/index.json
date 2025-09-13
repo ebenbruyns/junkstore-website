@@ -1,21 +1,21 @@
 {
-  "last_updated": "2025-09-07T09:10:29.283Z",
-  "total_tested_games": 697,
-  "featured_games": 8,
+  "last_updated": "2025-09-13T04:35:04.968Z",
+  "total_tested_games": 706,
+  "featured_games": 6,
   "storefronts": {
     "Epic": {
-      "total": 353,
+      "total": 357,
       "featured": 3,
       "directory": "epic"
     },
     "GOG": {
-      "total": 310,
-      "featured": 5,
+      "total": 312,
+      "featured": 1,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 25,
-      "featured": 0,
+      "total": 28,
+      "featured": 2,
       "directory": "amazon"
     },
     "itch.io": {
@@ -26,164 +26,164 @@
   },
   "recent_updates": [
     {
-      "title": "Against All Odds",
-      "storefront": "Epic",
-      "slug": "against-all-odds",
-      "date_tested": "Nov '24",
-      "is_featured": false,
-      "updated_at": "2025-09-07T04:49:20.767Z"
-    },
-    {
-      "title": "Abzû",
-      "storefront": "Epic",
-      "slug": "abz",
-      "date_tested": "Nov '24",
-      "is_featured": false,
-      "updated_at": "2025-09-07T04:47:18.010Z"
-    },
-    {
-      "title": "Ak-xolotl: Together",
-      "storefront": "Epic",
-      "slug": "ak-xolotl-together",
-      "date_tested": "July '24",
-      "is_featured": false,
-      "updated_at": "2025-09-07T03:46:51.258Z"
-    },
-    {
-      "title": "Kamaeru",
-      "storefront": "Epic",
-      "slug": "kamaeru",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2025-09-07T03:46:27.290Z"
-    },
-    {
-      "title": "RAWMEN: Food Fighter Arena",
-      "storefront": "Epic",
-      "slug": "rawmen-food-fighter-arena",
-      "date_tested": "Aug '24",
-      "is_featured": false,
-      "updated_at": "2025-09-07T03:46:19.013Z"
-    },
-    {
-      "title": "Make Way",
-      "storefront": "Epic",
-      "slug": "make-way",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2025-09-07T03:46:17.032Z"
-    },
-    {
-      "title": "Keylocker: Turn Based Cyberpunk Action",
-      "storefront": "Epic",
-      "slug": "keylocker-turn-based-cyberpunk-action",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2025-09-07T03:46:14.423Z"
-    },
-    {
-      "title": "TRIB3",
-      "storefront": "Epic",
-      "slug": "trib3",
-      "date_tested": "Aug '24",
-      "is_featured": false,
-      "updated_at": "2025-09-07T03:46:11.971Z"
-    },
-    {
-      "title": "Absolute Drift",
-      "storefront": "Epic",
-      "slug": "absolute-drift",
-      "date_tested": "May '24",
-      "is_featured": false,
-      "updated_at": "2025-09-07T03:42:14.978Z"
-    },
-    {
-      "title": "AER Memories of Old",
-      "storefront": "Epic",
-      "slug": "aer-memories-of-old",
-      "date_tested": "June '24",
-      "is_featured": false,
-      "updated_at": "2025-09-07T03:41:15.646Z"
-    },
-    {
-      "title": "A Short Hike",
-      "storefront": "Epic",
-      "slug": "a-short-hike",
-      "date_tested": "Sept '24",
-      "is_featured": false,
-      "updated_at": "2025-09-07T03:39:52.483Z"
-    },
-    {
-      "title": "20xx",
-      "storefront": "Epic",
-      "slug": "20xx",
-      "date_tested": "Oct '24",
-      "is_featured": false,
-      "updated_at": "2025-09-07T03:39:00.564Z"
-    },
-    {
-      "title": "#Drive Rally",
+      "title": "Liberated",
       "storefront": "GOG",
-      "slug": "drive-rally",
-      "date_tested": "Oct '24",
+      "slug": "liberated",
+      "date_tested": "Sept '25",
       "is_featured": false,
-      "updated_at": "2025-09-07T03:36:32.782Z"
+      "updated_at": "2025-09-13T04:24:25.583Z"
     },
     {
-      "title": "Are You Smarter Than A 5th Grader?",
+      "title": "Ghostrunner II",
       "storefront": "Epic",
-      "slug": "are-you-smarter-than-a-5th-grader",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2025-09-07T02:19:28.017Z"
+      "slug": "ghostrunner-ii",
+      "date_tested": "Sept '25",
+      "is_featured": true,
+      "updated_at": "2025-09-13T04:22:33.630Z"
     },
     {
-      "title": "The Operator",
-      "storefront": "Epic",
-      "slug": "the-operator",
-      "date_tested": "July '25",
-      "is_featured": false,
-      "updated_at": "2025-09-07T02:18:39.528Z"
-    },
-    {
-      "title": "Tetris Effect",
-      "storefront": "Epic",
-      "slug": "tetris-effect",
-      "date_tested": "May '24",
-      "is_featured": false,
-      "updated_at": "2025-09-07T02:17:41.373Z"
-    },
-    {
-      "title": "Defender's Quest: Valley of the Forgotten",
+      "title": "Tower of Time",
       "storefront": "GOG",
-      "slug": "defenders-quest-valley-of-the-forgotten",
-      "date_tested": "April '25",
-      "is_featured": false,
-      "updated_at": "2025-09-07T02:15:09.766Z"
+      "slug": "tower-of-time",
+      "date_tested": "Sept '25",
+      "is_featured": true,
+      "updated_at": "2025-09-13T04:11:43.973Z"
     },
     {
-      "title": "Dorfromantik",
-      "storefront": "GOG",
-      "slug": "dorfromantik",
+      "title": "Mortal Shell Tech Beta",
+      "storefront": "Epic",
+      "slug": "mortal-shell-tech-beta",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-13T01:46:31.075Z"
+    },
+    {
+      "title": "Mortal Shell",
+      "storefront": "Epic",
+      "slug": "mortal-shell",
+      "date_tested": "March '25",
+      "is_featured": false,
+      "updated_at": "2025-09-13T01:23:19.331Z"
+    },
+    {
+      "title": "Lords Mobile",
+      "storefront": "Epic",
+      "slug": "lords-mobile",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-12T23:23:36.481Z"
+    },
+    {
+      "title": "Subterrain: Mines of Titan",
+      "storefront": "Amazon",
+      "slug": "subterrain-mines-of-titan",
       "date_tested": "Sep '25",
       "is_featured": true,
-      "updated_at": "2025-09-07T02:12:12.128Z"
+      "updated_at": "2025-09-12T09:31:12.667Z"
+    },
+    {
+      "title": "Afterimage",
+      "storefront": "Amazon",
+      "slug": "afterimage",
+      "date_tested": "Sep '25",
+      "is_featured": true,
+      "updated_at": "2025-09-12T09:24:32.146Z"
+    },
+    {
+      "title": "Monument Valley 2",
+      "storefront": "Epic",
+      "slug": "monument-valley-2",
+      "date_tested": "Sep '25",
+      "is_featured": true,
+      "updated_at": "2025-09-12T09:08:47.828Z"
+    },
+    {
+      "title": "The Battle of Polytopia",
+      "storefront": "Epic",
+      "slug": "the-battle-of-polytopia",
+      "date_tested": "Sept '25",
+      "is_featured": true,
+      "updated_at": "2025-09-12T06:50:07.864Z"
+    },
+    {
+      "title": "LEGO Indiana Jones: The Original Adventures",
+      "storefront": "Amazon",
+      "slug": "lego-indiana-jones-the-original-adventures",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-11T20:55:12.380Z"
+    },
+    {
+      "title": "Sid Meier's Civilization IV: Complete Edition",
+      "storefront": "GOG",
+      "slug": "sid-meiers-civilization-iv-complete-edition",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-11T20:02:25.673Z"
+    },
+    {
+      "title": "Ravenloft: Strahd's Possession",
+      "storefront": "GOG",
+      "slug": "ravenloft-strahds-possession",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-11T20:02:22.771Z"
+    },
+    {
+      "title": "Ravenloft: Stone Prophet",
+      "storefront": "GOG",
+      "slug": "ravenloft-stone-prophet",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-11T20:02:14.811Z"
     },
     {
       "title": "Monument Valley+",
       "storefront": "Epic",
       "slug": "monument-valley",
       "date_tested": "Sep '25",
-      "is_featured": true,
-      "updated_at": "2025-09-06T23:15:52.607Z"
+      "is_featured": false,
+      "updated_at": "2025-09-11T20:02:13.257Z"
+    },
+    {
+      "title": "LEGO Builder's Journey",
+      "storefront": "Epic",
+      "slug": "lego-builders-journey",
+      "date_tested": "Sep '25",
+      "is_featured": false,
+      "updated_at": "2025-09-11T20:02:11.401Z"
     },
     {
       "title": "Into the Breach",
       "storefront": "Epic",
       "slug": "into-the-breach",
       "date_tested": "Sep '25",
-      "is_featured": true,
-      "updated_at": "2025-09-06T21:45:23.476Z"
+      "is_featured": false,
+      "updated_at": "2025-09-11T20:02:10.345Z"
+    },
+    {
+      "title": "GMDX",
+      "storefront": "GOG",
+      "slug": "gmdx",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-11T20:02:06.618Z"
+    },
+    {
+      "title": "Dorfromantik",
+      "storefront": "GOG",
+      "slug": "dorfromantik",
+      "date_tested": "Sep '25",
+      "is_featured": false,
+      "updated_at": "2025-09-11T20:02:05.955Z"
+    },
+    {
+      "title": "Art of Rally",
+      "storefront": "Epic",
+      "slug": "art-of-rally",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-11T00:22:35.067Z"
     }
   ]
 }
