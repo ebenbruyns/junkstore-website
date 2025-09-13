@@ -735,8 +735,8 @@ class StaticOptimizedGamesTable {
                           <i class="fas fa-database"></i> ProtonDB
                         </a>
                       ` : ''}
-                      ${game.pcgaming_wiki_url ? `
-                        <a href="${game.pcgaming_wiki_url}" target="_blank" rel="noopener" class="external-link pcgaming">
+                      ${game.pc_gaming_wiki_url ? `
+                        <a href="${game.pc_gaming_wiki_url}" target="_blank" rel="noopener" class="external-link pcgaming">
                           <i class="fas fa-book"></i> PCGaming Wiki
                         </a>
                       ` : game.epic_url && game.epic_url.includes('pcgamingwiki.com') ? `
