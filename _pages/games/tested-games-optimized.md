@@ -921,7 +921,7 @@ function renderEpicFeatures(game) {
         ${epicFeatures.requires_verification || game.requires_verification ? `
           <div class="epic-feature-item">
             <span>Verification</span>
-            <span class="feature-status status-warning">⚠️ May need to verify</span>
+            <span class="feature-status status-warning">⚠️ Verify required</span>
           </div>
         ` : ''}
         ${epicFeatures.requires_eac_runtime || game.requires_eac_runtime ? `
@@ -946,7 +946,7 @@ function renderTestingDetailsBootstrap(game) {
   let content = '';
   
   // Technical Configuration
-  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb || game.epic_url || game.gog_url || game.itch_url || game.pcgaming_wiki_url;
+  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb || game.epic_url || game.gog_url || game.itch_url || game.pc_gaming_wiki_url;
   if (hasConfig) {
     content += `
       <div class="info-section">
@@ -996,10 +996,10 @@ function renderTestingDetailsBootstrap(game) {
               <span class="info-value"><a href="${game.itch_url}" target="_blank" rel="noopener noreferrer">View on itch.io <i class="fas fa-external-link-alt ms-1"></i></a></span>
             </div>
           ` : ''}
-          ${game.pcgaming_wiki_url ? `
+          ${game.pc_gaming_wiki_url ? `
             <div class="info-item">
               <span class="info-label">PCGaming Wiki</span>
-              <span class="info-value"><a href="${game.pcgaming_wiki_url}" target="_blank" rel="noopener noreferrer">View on PCGaming Wiki <i class="fas fa-external-link-alt ms-1"></i></a></span>
+              <span class="info-value"><a href="${game.pc_gaming_wiki_url}" target="_blank" rel="noopener noreferrer">View on PCGaming Wiki <i class="fas fa-external-link-alt ms-1"></i></a></span>
             </div>
           ` : ''}
         </div>
