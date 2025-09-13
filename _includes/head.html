@@ -9,6 +9,16 @@
 {%- comment %} https://docs.google.com/presentation/d/1rmxwWa9P6_xHqonmh5ONXRS-jPc5XKbnv99Rjkhe04s/present {% endcomment -%}
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<!-- Preconnect hints for external domains to reduce connection time -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+<!-- Preload critical fonts to reduce cascading delay -->
+<link rel="preload" href="https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ.woff2" as="font" type="font/woff2" crossorigin>
+
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
   {% if site.enable_copy_code_button -%}
@@ -18,11 +28,29 @@
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+<!-- Preload hero image for LCP optimization -->
+{% if page.header.overlay_image %}
+<link rel="preload" as="image" href="{{ page.header.overlay_image | relative_url }}" fetchpriority="high">
+{% endif %}
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
- <!-- Highlight.js CSS for syntax highlighting -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+<!-- Font display optimization for performance -->
+<style>
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-display: swap;
+}
+</style>
+
+ <!-- Highlight.js CSS for syntax highlighting - deferred as non-critical -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css"></noscript>
 
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}

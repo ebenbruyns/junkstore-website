@@ -3,6 +3,7 @@ layout: post
 title: "Tip of the Week: Missing the 'Press Y to Show All' Prompt"
 date: 2025-09-02
 categories: [Tip of the Week, Decky Plugin]
+tags: [Junk Store, Steam Deck, Decky Plugin, CSS Loader, Epic Games, GOG Games, Game Mode, Tips & Tricks, User Interface, Performance]
 slug: "press-y-show-all-games"
 excerpt: "Only seeing A-L games in your Epic/GOG library? Look for the 'Press Y to Show All' prompt at the bottom - or check if your CSS theme is hiding it!"
 image: /assets/images/blog/pushY-cropped.png
@@ -103,4 +104,98 @@ Sometimes CSS Loader themes hide or modify the bottom menu area where this promp
 ## Next Week Preview
 Coming next week: **Dive into Junk Store's Many Menus** - Start exploring what's inside the different configuration options and game settings throughout your Decky plugin interface!
 
+Hope this tip helps you access your complete game library! If you have any questions or run into issues, don't hesitate to reach out through our community channels.
+
+Cheers,  
+The Junk Store Team
+
+<div class="inline-blog-cta">
+  <p><strong>Ready for an all-in-one launcher?</strong></p>
+  <a href="/buy_now/" class="inline-blog-cta-button">
+    🚀 Try Junk Store 2.0 Free for 7 Days
+  </a>
+  <p class="inline-cta-subtext">Less tweaking, more gaming — that's the 2.0 difference</p>
+</div>
+
 ---
+
+*Have questions about this tip? Join our community on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>!*
+
+<style>
+.community-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  margin-left: 8px;
+  color: white !important;
+}
+
+.discord-btn {
+  background: #5865f2;
+}
+
+.reddit-btn {
+  background: #ff4500;
+}
+
+.community-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: white !important;
+  opacity: 0.9;
+}
+
+.inline-blog-cta {
+  text-align: center;
+  background: #1e2a38;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+  border: 1px solid #3a4a5c;
+}
+
+.inline-blog-cta p {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.inline-blog-cta-button {
+  display: inline-block;
+  background: #0056b3;
+  color: #fff !important;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin: 10px 0;
+  border: 2px solid #0056b3;
+}
+
+.inline-blog-cta-button:hover,
+.inline-blog-cta-button:visited,
+.inline-blog-cta-button:visited:hover {
+  background: #004494;
+  border-color: #004494;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 86, 179, 0.4);
+  text-decoration: none;
+}
+
+.inline-cta-subtext {
+  margin-top: 8px;
+  color: #cceeff;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+</style>

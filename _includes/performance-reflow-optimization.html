@@ -1,0 +1,39 @@
+<!-- Reflow optimization to reduce forced layout thrashing -->
+<script>
+  // Optimize common DOM queries that cause forced reflows
+  (function() {
+    // Cache frequently accessed DOM properties
+    let cachedViewportWidth = window.innerWidth;
+    let cachedViewportHeight = window.innerHeight;
+    let cachedScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    // Update cached values on resize/scroll (throttled)
+    let resizeTimeout;
+    let scrollTimeout;
+    
+    function updateCachedDimensions() {
+      cachedViewportWidth = window.innerWidth;
+      cachedViewportHeight = window.innerHeight;
+    }
+    
+    function updateCachedScroll() {
+      cachedScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    }
+    
+    // Throttled event handlers
+    window.addEventListener('resize', function() {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(updateCachedDimensions, 16);
+    });
+    
+    window.addEventListener('scroll', function() {
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(updateCachedScroll, 16);
+    }, { passive: true });
+    
+    // Provide cached values to reduce forced reflows
+    window.getCachedViewportWidth = function() { return cachedViewportWidth; };
+    window.getCachedViewportHeight = function() { return cachedViewportHeight; };
+    window.getCachedScrollTop = function() { return cachedScrollTop; };
+  })();
+</script>
