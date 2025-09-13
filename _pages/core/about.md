@@ -67,7 +67,7 @@ Junk Store is built to make playing non-Steam games feel as seamless and intuiti
 
 </div>
 
-<h2>Meet the Team</h2>
+<!-- <h2>Meet the Team</h2>
 
 <p>Junk Store is brought to you by a small but dedicated team of developers and contributors:</p>
 
@@ -88,4 +88,4 @@ Junk Store is built to make playing non-Steam games feel as seamless and intuiti
 
 </div>
 
-<p>Each contribution, no matter how big or small, has helped us move forward and evolve. We're grateful for everyone who has been part of the Junk Store journey.</p>
+<p>Each contribution, no matter how big or small, has helped us move forward and evolve. We're grateful for everyone who has been part of the Junk Store journey.</p> -->
