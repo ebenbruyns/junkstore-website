@@ -639,7 +639,10 @@ function createGameModal(game) {
             <div class="game-basic-info">
               <div class="game-title-area">
                 <h4>${game.title}</h4>
-                ${game.releasedate ? `<div class="game-meta">Released: ${new Date(game.releasedate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>` : ''}
+                <div class="game-meta-row">
+                  ${game.releasedate ? `<div class="game-meta">Released: ${new Date(game.releasedate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>` : ''}
+                  ${game.size && game.size.trim() !== '' ? `<div class="game-meta">Size: ${game.size}</div>` : ''}
+                </div>
               </div>
             </div>
             <div class="header-badges">
@@ -1453,6 +1456,19 @@ select:focus, input:focus {
   white-space: nowrap;
 }
 
+/* Game meta row styling for modal header */
+.game-meta-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.game-meta {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .compatibility-legend {
     gap: 10px;
@@ -1461,6 +1477,14 @@ select:focus, input:focus {
   
   .legend-item {
     font-size: 0.8rem;
+  }
+  
+  .game-meta-row {
+    gap: 15px;
+  }
+  
+  .game-meta {
+    font-size: 0.85rem;
   }
 }
 </style>
