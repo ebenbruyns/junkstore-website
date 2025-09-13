@@ -13,19 +13,21 @@ read_time: "5 min read"
 toc: true
 ---
 
-Kia ora Everyone! 
+Kia ora Everyone!
 
-[This will be a placeholder for a personal update about boat life, travel, or current situation - keep it conversational and authentic]
+We're currently battening down the hatches here as Mother Nature serves up our third consecutive day of challenging weather. Living aboard has its perks, but rough seas definitely aren't one of them – both of us have been dealing with a bit of seasickness, making productive work sessions few and far between. Sometimes the best plan is simply to hunker down, ride it out, and embrace the forced downtime.
 
-[Brief transition to games content]
+Fortunately, I managed to get some solid testing done earlier in the week before the weather turned. I'm particularly excited to dive into the Monument Valley games (they seem perfect for shorter, seasickness-friendly gaming sessions), and I'm absolutely stoked about Samorost 2 coming to Epic next week – Amanita Design's atmospheric puzzle adventures are exactly the type of games I love!
 
 ## Current System Setup
 * **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
-* **Junk Store Plugin**: Latest Decky version 1.1.9  
+* **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.8 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.10 (Stable)
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: 3.7.8 (Stable)
+
+> **📋 Quick Note:** Epic Games recently updated their download system and a new Flatpak is available. If you're experiencing issues downloading games, try updating your dependencies – this should resolve most download-related problems!
 
 ## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
 
@@ -195,7 +197,7 @@ Kia ora Everyone!
 
 ## Looking Forward
 
-[Brief outlook on upcoming work, next week's anticipated releases, or general thoughts]
+Next week's Epic Games freebies are **[Project Winter](https://store.epicgames.com/en-US/p/project-winter-3b9e84)** and **[Samorost 2](https://store.epicgames.com/en-US/p/samorost-2-1b9bb1)**, while Amazon Prime Gaming brings us **[Residual](https://www.gog.com/en/game/residual)** and **[Fate: The Cursed King](https://www.gog.com/en/game/fate_the_cursed_king)** (both GOG keys). Looking forward to testing these titles and seeing how they perform with our Junk Store setup!
 
 We hope you're having a wonderful time wherever you are in the world, and as always, if you've got any questions about these games or Junk Store in general, please don't hesitate to reach out through our community channels.
 
@@ -207,7 +209,7 @@ The Junk Store Team
   <a href="/buy_now/" class="inline-blog-cta-button">
     🚀 Try Junk Store 2.0 Free for 7 Days
   </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
+  <p class="inline-cta-subtext">Game Mode native — the way handheld gaming should be</p>
 </div>
 
 ---

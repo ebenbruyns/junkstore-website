@@ -6,6 +6,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
+  "pc_gaming_wiki_url": "",
   "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**. If you get an error pop up verify the games files (cog menu) or delete the file the error is pointing to & then verify the files.",
   "date_tested": "June '24",
   "decky_rating": "green",

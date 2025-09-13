@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 310,
+  "total_games": 312,
   "games": [
     "9-years-of-shadows.json",
     "a-plague-tale-innocence.json",
@@ -154,6 +154,7 @@
     "lego-star-wars-the-complete-saga.json",
     "lego-the-hobbit.json",
     "lego-the-lord-of-the-rings.json",
+    "liberated.json",
     "little-nightmares.json",
     "loop-hero.json",
     "lust-theory-season-1.json",
@@ -285,6 +286,7 @@
     "tomb-raider-legend.json",
     "tomb-raider-the-last-revelation.json",
     "tomb-raider-underworld.json",
+    "tower-of-time.json",
     "transistor.json",
     "trberbrook.json",
     "treasure-of-nadia.json",
@@ -311,30 +313,18 @@
     "yakuza-kiwami.json",
     "yes-your-grace.json"
   ],
-  "featured_games": 5,
-  "last_updated": "2025-09-07T09:10:29.274Z",
+  "featured_games": 1,
+  "last_updated": "2025-09-13T04:35:04.956Z",
   "latest_games": [
     {
-      "title": "#Drive Rally",
-      "slug": "drive-rally",
-      "date_tested": "Oct '24",
+      "title": "Liberated",
+      "slug": "liberated",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Defender's Quest: Valley of the Forgotten",
-      "slug": "defenders-quest-valley-of-the-forgotten",
-      "date_tested": "April '25",
-      "is_featured": false
-    },
-    {
-      "title": "Dorfromantik",
-      "slug": "dorfromantik",
-      "date_tested": "Sep '25",
-      "is_featured": true
-    },
-    {
-      "title": "GMDX",
-      "slug": "gmdx",
+      "title": "Tower of Time",
+      "slug": "tower-of-time",
       "date_tested": "Sept '25",
       "is_featured": true
     },
@@ -342,36 +332,48 @@
       "title": "Sid Meier's Civilization IV: Complete Edition",
       "slug": "sid-meiers-civilization-iv-complete-edition",
       "date_tested": "Sept '25",
-      "is_featured": true
-    },
-    {
-      "title": "Middle-earth: Shadow of Mordor",
-      "slug": "middle-earth-shadow-of-mordor",
-      "date_tested": "Sept '24",
       "is_featured": false
     },
     {
-      "title": "War of the Lance",
-      "slug": "war-of-the-lance",
-      "date_tested": "Aug '25",
+      "title": "Ravenloft: Strahd's Possession",
+      "slug": "ravenloft-strahds-possession",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Shadow Sorcerer",
-      "slug": "shadow-sorcerer",
-      "date_tested": "Aug '25",
+      "title": "Ravenloft: Stone Prophet",
+      "slug": "ravenloft-stone-prophet",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Fantasy Empires",
-      "slug": "fantasy-empires",
-      "date_tested": "Aug '25",
+      "title": "GMDX",
+      "slug": "gmdx",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Beneath a Steel Sky",
-      "slug": "beneath-a-steel-sky",
-      "date_tested": "Aug '25",
+      "title": "Dorfromantik",
+      "slug": "dorfromantik",
+      "date_tested": "Sep '25",
+      "is_featured": false
+    },
+    {
+      "title": "Dishonored",
+      "slug": "dishonored",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Ascendant",
+      "slug": "ascendant",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "BioShock 2 Remastered",
+      "slug": "bioshock-2-remastered",
+      "date_tested": "Jan '25",
       "is_featured": false
     }
   ]

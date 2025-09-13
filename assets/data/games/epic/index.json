@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 353,
+  "total_games": 357,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -203,6 +203,7 @@
     "liberte.json",
     "limbo.json",
     "loop-hero.json",
+    "lords-mobile.json",
     "lumbearjack.json",
     "lysfanga-the-time-shift-warrior.json",
     "machinarium.json",
@@ -215,8 +216,10 @@
     "marvels-midnight-suns.json",
     "metro-last-light-redux.json",
     "monopoly-madness.json",
+    "monument-valley-2.json",
     "monument-valley.json",
     "morbid-the-seven-acolytes.json",
+    "mortal-shell-tech-beta.json",
     "mortal-shell.json",
     "moving-out.json",
     "necromunda-hired-gun.json",
@@ -295,6 +298,7 @@
     "tetris-effect.json",
     "tharsis.json",
     "the-alto-collection.json",
+    "the-battle-of-polytopia.json",
     "the-bridge.json",
     "the-callisto-protocol.json",
     "the-captain.json",
@@ -357,66 +361,66 @@
     "zombie-army-4-dead-war.json"
   ],
   "featured_games": 3,
-  "last_updated": "2025-09-07T09:10:29.270Z",
+  "last_updated": "2025-09-13T04:35:04.953Z",
   "latest_games": [
     {
-      "title": "Against All Odds",
-      "slug": "against-all-odds",
-      "date_tested": "Nov '24",
+      "title": "Ghostrunner II",
+      "slug": "ghostrunner-ii",
+      "date_tested": "Sept '25",
+      "is_featured": true
+    },
+    {
+      "title": "Mortal Shell Tech Beta",
+      "slug": "mortal-shell-tech-beta",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Abzû",
-      "slug": "abz",
-      "date_tested": "Nov '24",
+      "title": "Mortal Shell",
+      "slug": "mortal-shell",
+      "date_tested": "March '25",
       "is_featured": false
     },
     {
-      "title": "Ak-xolotl: Together",
-      "slug": "ak-xolotl-together",
-      "date_tested": "July '24",
+      "title": "Lords Mobile",
+      "slug": "lords-mobile",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Kamaeru",
-      "slug": "kamaeru",
-      "date_tested": "Aug '25",
+      "title": "Monument Valley 2",
+      "slug": "monument-valley-2",
+      "date_tested": "Sep '25",
+      "is_featured": true
+    },
+    {
+      "title": "The Battle of Polytopia",
+      "slug": "the-battle-of-polytopia",
+      "date_tested": "Sept '25",
+      "is_featured": true
+    },
+    {
+      "title": "Monument Valley+",
+      "slug": "monument-valley",
+      "date_tested": "Sep '25",
       "is_featured": false
     },
     {
-      "title": "RAWMEN: Food Fighter Arena",
-      "slug": "rawmen-food-fighter-arena",
-      "date_tested": "Aug '24",
+      "title": "LEGO Builder's Journey",
+      "slug": "lego-builders-journey",
+      "date_tested": "Sep '25",
       "is_featured": false
     },
     {
-      "title": "Make Way",
-      "slug": "make-way",
-      "date_tested": "Aug '25",
+      "title": "Into the Breach",
+      "slug": "into-the-breach",
+      "date_tested": "Sep '25",
       "is_featured": false
     },
     {
-      "title": "Keylocker: Turn Based Cyberpunk Action",
-      "slug": "keylocker-turn-based-cyberpunk-action",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "TRIB3",
-      "slug": "trib3",
-      "date_tested": "Aug '24",
-      "is_featured": false
-    },
-    {
-      "title": "Absolute Drift",
-      "slug": "absolute-drift",
-      "date_tested": "May '24",
-      "is_featured": false
-    },
-    {
-      "title": "AER Memories of Old",
-      "slug": "aer-memories-of-old",
-      "date_tested": "June '24",
+      "title": "Art of Rally",
+      "slug": "art-of-rally",
+      "date_tested": "Sept '25",
       "is_featured": false
     }
   ]

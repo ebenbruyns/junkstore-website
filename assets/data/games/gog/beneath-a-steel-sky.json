@@ -6,6 +6,7 @@
   "gog_url": "https://www.gog.com/en/game/beneath_a_steel_sky",
   "epic_url": "",
   "itch_url": "",
+  "pc_gaming_wiki_url": "",
   "notes": "You need to set the platform to DOSBox from the cog menu on the game screen: Game Configs > ADVANCED > platform > Dosbox. Save the config change and launch the game.",
   "date_tested": "Aug '25",
   "decky_rating": "not-supported",
