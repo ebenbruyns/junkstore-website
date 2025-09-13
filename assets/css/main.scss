@@ -4,6 +4,11 @@
 
 @charset "utf-8";
 
+/* Font display optimization for faster rendering */
+* {
+  font-display: swap;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "games-table-optimized";

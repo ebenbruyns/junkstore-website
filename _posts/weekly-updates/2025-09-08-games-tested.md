@@ -1,13 +1,14 @@
 ---
 layout: post
-title: "Junk Store Tested - September 07, 2025"
-date: 2025-09-07
+title: "Junk Store Tested - September 08, 2025"
+date: 2025-09-08 12:00:00 +1300
 categories: [Weekly Update, Game Compatibility]
-slug: "games-tested-sep-07"
+tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Prime Gaming, Decky Plugin, Game Mode, Non-Steam Games, DosBox]
+slug: "games-tested-sep-08"
 excerpt: "Weekly testing update featuring 8 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
-image: /assets/images/blog/250907-hero.jpg
+image: /assets/images/blog/250908-hero.jpg
 header:
-  teaser: /assets/images/blog/250907-hero-thumb.jpg
+  teaser: /assets/images/blog/250908-hero-thumb.jpg
 read_time: "5 min read"
 toc: true
 ---
@@ -26,31 +27,9 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: 3.7.8 (Stable)
 
-## This Week's Featured Games
+## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
 
-### Epic Games
-
-<div class="game-entry">
-  <img src="https://images.gog.com/5e0c70e05ebb59abbccdcc25c4f66d52fb9f861ea7518f13a3c27ff8e37b6ecb.jpg?namespace=gamesdb" alt="LEGO Builder's Journey" class="game-thumbnail">
-  <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/p/lego-builders-journey" target="_blank">LEGO Builder's Journey</a></strong>
-    <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
-    </div>
-  </div>
-</div>
-
-<div class="game-entry">
-  <img src="https://images.gog.com/7c7579d6f9bf02de0810b2de594d9c1906620b046c6a98d1992e993ce690a3b6.jpg?namespace=gamesdb" alt="Into the Breach" class="game-thumbnail">
-  <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/p/into-the-breach" target="_blank">Into the Breach</a></strong>
-    <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
-    </div>
-  </div>
-</div>
+### Epic Giveaways
 
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1927720/capsule_231x87.jpg" alt="Monument Valley+" class="game-thumbnail">
@@ -63,18 +42,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
   </div>
 </div>
 
-### GOG
-
-<div class="game-entry">
-  <img src="https://images.gog.com/0c0b926fc0781754010bfb71ab0aff7937ea0daaff756f4cf571e1a5fdb91596.jpg?namespace=gamesdb" alt="GMDX" class="game-thumbnail">
-  <div class="game-details">
-    <strong><a href="https://www.gog.com/en/game/gmdx" target="_blank">GMDX</a></strong>
-    <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
-    </div>
-  </div>
-</div>
+### Amazon Prime Giveaways
 
 <div class="game-entry">
   <img src="https://images.gog.com/75aa24717e3ef05396f2fe74e2149fd7fb5dbe18b11ea0f670e8cc5e7d031a51.jpg?namespace=gamesdb" alt="Ravenloft: Stone Prophet" class="game-thumbnail">
@@ -110,17 +78,52 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1455840/capsule_231x87.jpg" alt="Dorfromantik" class="game-thumbnail">
+  <img src="https://images.gog.com/7c7579d6f9bf02de0810b2de594d9c1906620b046c6a98d1992e993ce690a3b6.jpg?namespace=gamesdb" alt="Into the Breach" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://www.gog.com/en/game/dorfromantik" target="_blank">Dorfromantik</a></strong>
+    <strong><a href="https://store.epicgames.com/en-US/p/into-the-breach" target="_blank">Into the Breach</a></strong>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
 
+### Backlog Tested
 
+<div class="game-entry">
+  <img src="https://images.gog.com/5e0c70e05ebb59abbccdcc25c4f66d52fb9f861ea7518f13a3c27ff8e37b6ecb.jpg?namespace=gamesdb" alt="LEGO Builder's Journey" class="game-thumbnail">
+  <div class="game-details">
+    <strong><a href="https://store.epicgames.com/en-US/p/lego-builders-journey" target="_blank">LEGO Builder's Journey</a></strong>
+    <div class="compatibility-info">
+      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+    </div>
+  </div>
+</div>
+
+<div class="game-entry">
+  <img src="https://images.gog.com/0c0b926fc0781754010bfb71ab0aff7937ea0daaff756f4cf571e1a5fdb91596.jpg?namespace=gamesdb" alt="GMDX" class="game-thumbnail">
+  <div class="game-details">
+    <strong><a href="https://www.gog.com/en/game/gmdx" target="_blank">GMDX (Gog Mod)</a></strong>
+    <div class="compatibility-info">
+      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+    </div>
+  </div>
+</div>
+
+### Community Tested
+
+<div class="game-entry">
+  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1455840/capsule_231x87.jpg" alt="Dorfromantik" class="game-thumbnail">
+  <div class="game-details">
+    <strong><a href="https://www.gog.com/en/game/dorfromantik" target="_blank">Dorfromantik</a></strong>
+    <div class="compatibility-info">
+      <div class="compatibility-line">Decky Plugin: ❓ Not tested</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+    </div>
+  </div>
+</div>
 
 ## Next Week's Games
 
@@ -154,6 +157,14 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,  
 The Junk Store Team
+
+<div class="inline-blog-cta">
+  <p><strong>Ready for an all-in-one launcher?</strong></p>
+  <a href="/buy_now/" class="inline-blog-cta-button">
+    🚀 Try Junk Store 2.0 Free for 7 Days
+  </a>
+  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
+</div>
 
 ---
 
@@ -190,5 +201,52 @@ The Junk Store Team
   text-decoration: none;
   color: white !important;
   opacity: 0.9;
+}
+
+.inline-blog-cta {
+  text-align: center;
+  background: #1e2a38;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+  border: 1px solid #3a4a5c;
+}
+
+.inline-blog-cta p {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.inline-blog-cta-button {
+  display: inline-block;
+  background: #0056b3;
+  color: #fff !important;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin: 10px 0;
+  border: 2px solid #0056b3;
+}
+
+.inline-blog-cta-button:hover,
+.inline-blog-cta-button:visited,
+.inline-blog-cta-button:visited:hover {
+  background: #004494;
+  border-color: #004494;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 86, 179, 0.4);
+  text-decoration: none;
+}
+
+.inline-cta-subtext {
+  margin-top: 8px;
+  color: #cceeff;
+  font-size: 0.9rem;
+  font-style: italic;
 }
 </style>

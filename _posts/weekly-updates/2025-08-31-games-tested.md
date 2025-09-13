@@ -3,6 +3,7 @@ layout: post
 title: "Junk Store Tested - August 31, 2025"
 date: 2025-08-31
 categories: [Weekly Update, Game Compatibility]
+tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Prime Gaming, Game Mode, Non-Steam Games, Game Compatibility, Decky Plugin, DOSBox]
 slug: "games-tested-aug-31"
 excerpt: "Back on the boat after 3 months away! Showcasing our 11 featured games that work brilliantly on Steam Deck - from Epic's indie gems to GOG classics and Amazon surprises."
 image: /assets/images/blog/aug31-hero.jpg
@@ -22,7 +23,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: 3.7.8 (Stable)
 
-## This Weeks  Giveaways
+## This Weeks  Giveaways <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
 ### Epic Games
 
 <div class="game-entry">
@@ -47,12 +48,12 @@ We are back on the boat after being away for almost 3 months (basically all of w
   </div>
 </div>
 
-### Prime Gaming Giveaways
+### Prime Gaming Giveaways <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
 
 <div class="game-entry">
   <img src="https://images.gog.com/3231386d62f8187b649c5e42517b5d6bf6b789f0ca1e235d706a9b675ac274a3.jpg?namespace=gamesdb" alt="Fantasy Empires" class="game-thumbnail">
   <div class="game-details">
-    <strong>Fantasy Empires</strong>
+    <strong>Fantasy Empires</strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
       <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
@@ -63,7 +64,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 <div class="game-entry">
   <img src="https://images.gog.com/2e6ddbe2207a03033ac1e054e85ea47df071471275198f2ae08de1ccc2a21594.jpg?namespace=gamesdb" alt="Heroes of Loot" class="game-thumbnail">
   <div class="game-details">
-    <strong>Heroes of Loot 2</strong>
+    <strong>Heroes of Loot 2</strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
       <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
@@ -72,7 +73,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 </div>
 
 ## Past Giveaways
-### Amazon Games
+### Amazon Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
 
 <div class="game-entry">
   <img src="https://images.gog.com/532c5d953dce14ea2623833bf97ecdda3e63599cb3103694753c3f3abb85e65b.jpg?namespace=gamesdb" alt="Dungeon of the Endless: Definitive Edition" class="game-thumbnail">
@@ -120,7 +121,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
   </div>
 </div>
 
-### GOG
+### GOG <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
 
 <div class="game-entry">
   <img src="https://images.gog.com/d074ec00ebbc412abc9f6dc1666ccfc22a864f9cbe64ca20803a6a08469b9377.jpg?namespace=gamesdb" alt="Shadow Sorcerer" class="game-thumbnail">
@@ -171,6 +172,14 @@ As always, if you've got any questions about these games or JunkStore in general
 
 Cheers from a much calmer Kawau Island!
 
+<div class="inline-blog-cta">
+  <p><strong>Ready for an all-in-one launcher?</strong></p>
+  <a href="/buy_now/" class="inline-blog-cta-button">
+    🚀 Try Junk Store 2.0 Free for 7 Days
+  </a>
+  <p class="inline-cta-subtext">Experience what premium Steam Deck gaming feels like</p>
+</div>
+
 ---
 
 *All compatibility information is based on real testing with the hardware and software versions listed above.*
@@ -206,5 +215,78 @@ Cheers from a much calmer Kawau Island!
   text-decoration: none;
   color: white !important;
   opacity: 0.9;
+}
+
+/* Inline games CTA button next to heading */
+.inline-games-cta-button {
+  display: inline-block;
+  background: transparent;
+  color: #66bfff !important;
+  padding: 4px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.7em;
+  transition: all 0.3s ease;
+  border: 1px solid #66bfff;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.inline-games-cta-button:hover,
+.inline-games-cta-button:visited,
+.inline-games-cta-button:visited:hover {
+  background: #66bfff;
+  color: #fff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(102, 191, 255, 0.3);
+  text-decoration: none;
+}
+
+.inline-blog-cta {
+  text-align: center;
+  background: #1e2a38;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+  border: 1px solid #3a4a5c;
+}
+
+.inline-blog-cta p {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.inline-blog-cta-button {
+  display: inline-block;
+  background: #0056b3;
+  color: #fff !important;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin: 10px 0;
+  border: 2px solid #0056b3;
+}
+
+.inline-blog-cta-button:hover,
+.inline-blog-cta-button:visited,
+.inline-blog-cta-button:visited:hover {
+  background: #004494;
+  border-color: #004494;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 86, 179, 0.4);
+  text-decoration: none;
+}
+
+.inline-cta-subtext {
+  margin-top: 8px;
+  color: #cceeff;
+  font-size: 0.9rem;
+  font-style: italic;
 }
 </style>
