@@ -74,31 +74,11 @@ layout: default
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
-        {% include page__taxonomy.html %}
         {% include page__date.html %}
         
-        <!-- Blog-specific footer -->
-        <div class="blog-post-footer">
-          {% if page.categories contains 'Weekly Update' or page.tags contains 'game testing' or page.tags contains 'compatibility' %}
-          <div class="games-cta">
-            <div class="games-cta-content">
-              <h4>🎮 See All Tested Games</h4>
-              <p>Check out our complete database of {{ site.data.games.size | default: "600+" }} tested games with detailed compatibility ratings.</p>
-              <a href="/tested-games/" class="games-cta-button">
-                View Full Compatibility List →
-              </a>
-            </div>
-          </div>
-          {% endif %}
-          
-          <div class="blog-cta">
-            <p><strong>Like this update?</strong></p>
-            <a href="/buy_now/" class="blog-cta-button">
-              🚀 Try Junk Store 2.0 Free for 7 Days
-            </a>
-            <p class="cta-subtext">Never leave Game Mode again</p>
-          </div>
-        </div>
+        
+        <!-- Tags as separate section below CTA -->
+        {% include page__taxonomy.html %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
@@ -364,6 +344,32 @@ layout: default
 
 .compatibility-line {
   margin: 3px 0;
+}
+
+/* Inline games CTA button next to heading */
+.inline-games-cta-button {
+  display: inline-block;
+  background: transparent;
+  color: #66bfff !important;
+  padding: 4px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.7em;
+  transition: all 0.3s ease;
+  border: 1px solid #66bfff;
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+.inline-games-cta-button:hover,
+.inline-games-cta-button:visited,
+.inline-games-cta-button:visited:hover {
+  background: #66bfff;
+  color: #fff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(102, 191, 255, 0.3);
+  text-decoration: none;
 }
 
 /* Sticky TOC Styles */

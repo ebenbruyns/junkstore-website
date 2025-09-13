@@ -3,6 +3,7 @@ layout: post
 title: "Now You Can Scratch That Itch — Itch.io Comes to Steam via Junk Store"
 date: 2025-08-15
 categories: [Feature Release, Major Update]
+tags: [Junk Store, Steam Deck, itch.io Games, Indie Games, Game Mode, Beta Features, Steam Integration, Non-Steam Games, CLI Tools, Game Development]
 slug: "itch-integration-launch"
 excerpt: "For the first time ever, Itch.io is integrated directly into Steam — right inside Junk Store. A groundbreaking feature that brings thousands of indie games to your Steam Deck."
 image: /assets/images/blog/itch-integration-hero.jpg
@@ -85,14 +86,18 @@ Your feedback over the coming weeks will determine how far we take this integrat
 
 This is bleeding edge stuff - you're getting access to something that's never existed before. The indie gaming community on Steam Deck just got a whole lot bigger.
 
-**Ready to scratch that itch?**
-
-[Start your free trial](/buy_now/) and dive into the world's largest indie game collection, right from your Steam library.
-
----
-
 **Game on!**  
 **The Junk Store Team**
+
+<div class="inline-blog-cta">
+  <p><strong>Ready for an all-in-one launcher?</strong></p>
+  <a href="/buy_now/" class="inline-blog-cta-button">
+    🚀 Try Junk Store 2.0 Free for 7 Days
+  </a>
+  <p class="inline-cta-subtext">Your Steam Deck, simplified and supercharged</p>
+</div>
+
+---
 
 <style>
 .community-btn {
@@ -123,5 +128,52 @@ This is bleeding edge stuff - you're getting access to something that's never ex
   text-decoration: none;
   color: white !important;
   opacity: 0.9;
+}
+
+.inline-blog-cta {
+  text-align: center;
+  background: #1e2a38;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 30px 0;
+  border: 1px solid #3a4a5c;
+}
+
+.inline-blog-cta p {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.inline-blog-cta-button {
+  display: inline-block;
+  background: #0056b3;
+  color: #fff !important;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin: 10px 0;
+  border: 2px solid #0056b3;
+}
+
+.inline-blog-cta-button:hover,
+.inline-blog-cta-button:visited,
+.inline-blog-cta-button:visited:hover {
+  background: #004494;
+  border-color: #004494;
+  color: #fff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 86, 179, 0.4);
+  text-decoration: none;
+}
+
+.inline-cta-subtext {
+  margin-top: 8px;
+  color: #cceeff;
+  font-size: 0.9rem;
+  font-style: italic;
 }
 </style>

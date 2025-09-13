@@ -1,0 +1,53 @@
+{% assign lang = site.locale | slice: 0,2 | default: "en" %}
+{% case lang %}
+{% when "gr" %}
+  {% assign lang = "gr" %}
+{% else %}
+  {% assign lang = "en" %}
+{% endcase %}
+
+<!-- Deferred Lunr search loading for performance -->
+<script>
+  // Only load search when user interacts with search
+  let searchLoaded = false;
+  
+  function loadSearch() {
+    if (searchLoaded) return;
+    searchLoaded = true;
+    
+    // Load Lunr scripts dynamically
+    const scripts = [
+      '{{ "/assets/js/lunr/lunr.min.js" | relative_url }}',
+      '{{ "/assets/js/lunr/lunr-store.js" | relative_url }}',
+      '{{ "/assets/js/lunr/lunr-" | append: lang | append: ".js" | relative_url }}'
+    ];
+    
+    // Load scripts in sequence
+    let loadIndex = 0;
+    function loadNext() {
+      if (loadIndex >= scripts.length) return;
+      const script = document.createElement('script');
+      script.src = scripts[loadIndex];
+      script.onload = () => {
+        loadIndex++;
+        loadNext();
+      };
+      document.head.appendChild(script);
+    }
+    loadNext();
+  }
+  
+  // Load search when user focuses on search input or clicks search button
+  document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.querySelector('.search__toggle, .search-content__form input, #search-input');
+    const searchButton = document.querySelector('.search__toggle, .search-content__form button');
+    
+    if (searchInput) {
+      searchInput.addEventListener('focus', loadSearch, { once: true });
+      searchInput.addEventListener('click', loadSearch, { once: true });
+    }
+    if (searchButton) {
+      searchButton.addEventListener('click', loadSearch, { once: true });
+    }
+  });
+</script>

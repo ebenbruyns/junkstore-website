@@ -1,0 +1,19 @@
+<!-- Deferred Google Analytics for performance -->
+<script>
+  // Defer Google Analytics loading until page is interactive
+  window.addEventListener('load', function() {
+    // Create and inject the gtag script
+    var gtagScript = document.createElement('script');
+    gtagScript.async = true;
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}';
+    document.head.appendChild(gtagScript);
+    
+    // Initialize dataLayer and gtag function
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.analytics.google.tracking_id }}', { 
+      'anonymize_ip': {{ site.analytics.google.anonymize_ip | default: false }}
+    });
+  });
+</script>

@@ -12,11 +12,10 @@ minimal_mistakes_skin: "default" # Default skin (we will set light/dark below)
 locale: "en-US"
 
 # Light/Dark Mode
-# Allow user to switch between light and dark themes (Auto)
-# Can force if you want to (ask me)
+# Fixed theme - no user toggle to maintain consistent styling
 minimal_mistakes_skin: "dark"
-# Add "skin" toggle automatically:
-skin_toggle: true
+# Disable skin toggle - site designed for consistent appearance
+skin_toggle: false
 
 # Site-Wide Open Graph Image (for social previews)
 og_image: /assets/images/junkstore-og-banner.png # <--- you need to upload this file!
@@ -59,9 +58,16 @@ collections:
 jekyll-archives:
   enabled:
     - categories
+    - tags
   layout: category
   permalinks:
     category: /:path/:name/
+    tag: /tags/:name/
+
+# Tag archive configuration
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
 
 
 # Author/Social Links
@@ -188,6 +194,7 @@ enable_copy_code_button: true
 google_analytics:
   id: "G-E2Y00GCMSG" # replace with your actual Google Analytics Measurement ID
 
-# Footer scripts (loads after main analytics)
-after_footer_scripts:
-  - /assets/js/conversion-tracking.js
+# Footer scripts (deferred loading for performance)
+# after_footer_scripts:
+#   - /assets/js/conversion-tracking.js
+# Note: Scripts now loaded via performance-optimizations.html for better control

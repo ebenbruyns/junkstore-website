@@ -43,14 +43,14 @@ a.button {
 
 /* Buy Now button - inherits all base button properties */
 a.button.buy-button {
-  background-color: #28a745 !important; /* Green background */
+  background-color: #1e7e34 !important; /* Darker green for better contrast */
   font-weight: 700; /* Bolder for primary action */
   /* All other properties inherited from base .button class */
 }
 
 a.button.buy-button:hover,
 a.button.buy-button:visited:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #155724; /* Even darker green on hover for better contrast */
   color: #fff;
   box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
 }
@@ -100,14 +100,14 @@ a.button:visited {
 
 /* Special buy button styling for theme buttons */
 .btn.buy-button {
-  background-color: #28a745 !important;
+  background-color: #1e7e34 !important;
   color: #fff !important;
   font-weight: 700;
 }
 
 .btn.buy-button:hover,
 .btn.buy-button:visited:hover {
-  background-color: #218838 !important;
+  background-color: #155724 !important;
   color: #fff !important;
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
@@ -215,7 +215,7 @@ a.button.gog-extension-button:hover {
     font-weight: 700;
     box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
     /* Enhanced visual hierarchy on mobile */
-    background-color: #28a745;
+    background-color: #1e7e34;
     border: none;
     /* All other mobile properties inherited from base .button class */
   }
@@ -279,7 +279,7 @@ a.button.gog-extension-button:hover {
 
   .btn.buy-button {
     font-weight: 700;
-    background-color: #28a745 !important;
+    background-color: #1e7e34 !important;
     box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
   }
 

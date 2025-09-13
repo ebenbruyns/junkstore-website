@@ -254,8 +254,8 @@ function populateFeaturedGames() {
   container.innerHTML = sortedGames.map(game => {
     const storefrontDir = game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase();
     return `
-    <div class="featured-entry">
-      <span class="featured-game-link game-link clickable" data-game-id="${game.id}" data-modal-file="games/${storefrontDir}/${game.slug}.json">
+    <div class="featured-entry clickable" data-game-id="${game.id}" data-modal-file="games/${storefrontDir}/${game.slug}.json">
+      <span class="featured-game-link">
         ${game.title}
       </span>
       <span class="store-badge ${game.storefront === 'itch.io' ? 'itch' : game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
@@ -509,12 +509,24 @@ function changePageSize() {
 
 // Add modal click handlers
 function addModalHandlers() {
+  // Handle clickable game links in table
   const gameLinks = document.querySelectorAll('.game-link.clickable');
   gameLinks.forEach(link => {
     link.addEventListener('click', async (e) => {
       e.preventDefault();
       const gameId = e.target.dataset.gameId;
       const modalFile = e.target.dataset.modalFile;
+      await openGameModal(gameId, modalFile);
+    });
+  });
+  
+  // Handle clickable featured game entries (entire div is clickable)
+  const featuredEntries = document.querySelectorAll('.featured-entry.clickable');
+  featuredEntries.forEach(entry => {
+    entry.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const gameId = entry.dataset.gameId;
+      const modalFile = entry.dataset.modalFile;
       await openGameModal(gameId, modalFile);
     });
   });
