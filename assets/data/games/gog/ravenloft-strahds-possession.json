@@ -6,6 +6,7 @@
   "gog_url": "https://www.gog.com/en/game/dungeons_dragons_ravenloft_series",
   "epic_url": "",
   "itch_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ravenloft:_Strahd%27s_Possession",
   "notes": "You need to set the platform to DOSBox from the cog menu on the game screen: Game Configs > ADVANCED > platform > Dosbox. Save the config change and launch the game.",
   "date_tested": "Sept '25",
   "decky_rating": "not-supported",
@@ -52,7 +53,7 @@
   "gog_achievements": false,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "created_at": "2025-09-04T23:12:06.976Z",
-  "updated_at": "2025-09-06T01:05:24.377Z"
+  "updated_at": "2025-09-11T20:02:22.771Z"
 }

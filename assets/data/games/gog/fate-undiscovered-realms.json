@@ -6,6 +6,7 @@
   "gog_url": "https://www.gog.com/en/game/fate_undiscovered_realms",
   "epic_url": "",
   "itch_url": "",
+  "pc_gaming_wiki_url": "",
   "notes": "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**. There are also a few lighting glitches when you enter the dungeons. To avoid these make the game look make sure your game options are set as follows: Light Blur: Off; Shadow Detail: High; VSYNC: Off; Shadow: All; ParticlesL High; Antialiasing: On; Fog: Animated",
   "date_tested": "July '25",
   "decky_rating": "yellow",

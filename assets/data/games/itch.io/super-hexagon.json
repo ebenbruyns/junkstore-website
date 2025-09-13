@@ -6,6 +6,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "https://terrycavanagh.itch.io/super-hexagon",
+  "pc_gaming_wiki_url": "",
   "notes": "Native controller support. Community controller layout available. **Decky Plugin: Not Supported**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Aug '25",
   "decky_rating": "not-supported",

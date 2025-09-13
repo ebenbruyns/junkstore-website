@@ -6,6 +6,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
+  "pc_gaming_wiki_url": "",
   "notes": "Requires EOS Overlay to be enabled. Native controller support. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Works out of the box**. Need to install C++ Runtime (can be done from Run exe menu)",
   "date_tested": "March '25",
   "decky_rating": "yellow",
