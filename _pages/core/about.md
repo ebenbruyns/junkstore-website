@@ -66,26 +66,3 @@ Junk Store is built to make playing non-Steam games feel as seamless and intuiti
   </div>
 
 </div>
-
-<!-- <h2>Meet the Team</h2>
-
-<p>Junk Store is brought to you by a small but dedicated team of developers and contributors:</p>
-
-<div style="margin: 2rem 0;">
-
-<p><strong>Active Contributors (Junk Store 2.0 &amp; Decky Plugin):</strong></p>
-<ul>
-  <li><strong>Eben Bruyns (junkrunner)</strong> - <em>Software Sorcerer</em> - Lead developer and creator</li>
-  <li><strong>Annie Ryan (mrs junkrunner)</strong> - <em>Order Oracle</em> - Website, community support, and game testing</li>
-  <li><strong>Tech</strong> - <em>Glitch Gladiator</em> - Junk Store functionality testing</li>
-</ul>
-
-<p><strong>Previous Contributors (Decky Plugin):</strong></p>
-<ul>
-  <li><strong>Jesse Bofill</strong> - <em>Visual Virtuoso</em> - UI design and graphics (inactive)</li>
-  <li><strong>Logan (Beebles)</strong> - <em>UI Developer</em> - Interface development (inactive)</li>
-</ul>
-
-</div>
-
-<p>Each contribution, no matter how big or small, has helped us move forward and evolve. We're grateful for everyone who has been part of the Junk Store journey.</p> -->
