@@ -639,7 +639,10 @@ function createGameModal(game) {
             <div class="game-basic-info">
               <div class="game-title-area">
                 <h4>${game.title}</h4>
-                ${game.releasedate ? `<div class="game-meta">Released: ${new Date(game.releasedate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>` : ''}
+                <div class="game-meta-row">
+                  ${game.releasedate ? `<div class="game-meta">Released: ${new Date(game.releasedate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>` : ''}
+                  ${game.size && game.size.trim() !== '' ? `<div class="game-meta">Size: ${game.size}</div>` : ''}
+                </div>
               </div>
             </div>
             <div class="header-badges">
@@ -918,7 +921,7 @@ function renderEpicFeatures(game) {
         ${epicFeatures.requires_verification || game.requires_verification ? `
           <div class="epic-feature-item">
             <span>Verification</span>
-            <span class="feature-status status-warning">⚠️ May need to verify</span>
+            <span class="feature-status status-warning">⚠️ Verify required</span>
           </div>
         ` : ''}
         ${epicFeatures.requires_eac_runtime || game.requires_eac_runtime ? `
@@ -943,7 +946,7 @@ function renderTestingDetailsBootstrap(game) {
   let content = '';
   
   // Technical Configuration
-  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb || game.epic_url || game.gog_url || game.itch_url || game.pcgaming_wiki_url;
+  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb || game.epic_url || game.gog_url || game.itch_url || game.pc_gaming_wiki_url;
   if (hasConfig) {
     content += `
       <div class="info-section">
@@ -993,10 +996,10 @@ function renderTestingDetailsBootstrap(game) {
               <span class="info-value"><a href="${game.itch_url}" target="_blank" rel="noopener noreferrer">View on itch.io <i class="fas fa-external-link-alt ms-1"></i></a></span>
             </div>
           ` : ''}
-          ${game.pcgaming_wiki_url ? `
+          ${game.pc_gaming_wiki_url ? `
             <div class="info-item">
               <span class="info-label">PCGaming Wiki</span>
-              <span class="info-value"><a href="${game.pcgaming_wiki_url}" target="_blank" rel="noopener noreferrer">View on PCGaming Wiki <i class="fas fa-external-link-alt ms-1"></i></a></span>
+              <span class="info-value"><a href="${game.pc_gaming_wiki_url}" target="_blank" rel="noopener noreferrer">View on PCGaming Wiki <i class="fas fa-external-link-alt ms-1"></i></a></span>
             </div>
           ` : ''}
         </div>
@@ -1453,6 +1456,19 @@ select:focus, input:focus {
   white-space: nowrap;
 }
 
+/* Game meta row styling for modal header */
+.game-meta-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.game-meta {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 768px) {
   .compatibility-legend {
     gap: 10px;
@@ -1461,6 +1477,14 @@ select:focus, input:focus {
   
   .legend-item {
     font-size: 0.8rem;
+  }
+  
+  .game-meta-row {
+    gap: 15px;
+  }
+  
+  .game-meta {
+    font-size: 0.85rem;
   }
 }
 </style>
