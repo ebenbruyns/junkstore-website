@@ -6,6 +6,7 @@
   "gog_url": "https://www.gog.com/en/game/medal_of_honor_allied_assault_war_chest",
   "epic_url": "",
   "itch_url": "",
+  "pc_gaming_wiki_url": "",
   "notes": "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**. In desktop mode you will get the intro video, but in Game Mode you need to map buttons to Alt+Enter in order to skip this and get to the game menu.",
   "date_tested": "March '25",
   "decky_rating": "green",
