@@ -27,7 +27,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: 3.7.8 (Stable)
 
-> **📋 Quick Note:** Epic Games recently updated their download system and a new Flatpak is available. If you're experiencing issues downloading games, try updating your dependencies – this should resolve most download-related problems!
+> **📋 Quick Note:** Epic Games recently updated their download system and a new Flatpak is available. If you're experiencing issues downloading games, try updating your dependencies and logging out/back into your Epic account – this should resolve most download-related problems!
 
 ## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
 
