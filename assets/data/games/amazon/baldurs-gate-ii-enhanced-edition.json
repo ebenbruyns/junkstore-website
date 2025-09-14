@@ -6,6 +6,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
+  "pc_gaming_wiki_url": "",
   "notes": "Keyboard & mouse controls. **Decky Plugin: Not Supported**. **2.0 Standalone: Some tinkering required**. Must run ./dependencies/oalinst.exe to install OpenAL32.dll first. May need to set ./Baldur.exe",
   "date_tested": "July '25",
   "decky_rating": "not-supported",
