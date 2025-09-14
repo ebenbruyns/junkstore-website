@@ -1,8 +1,9 @@
 {
   "storefront": "Amazon",
-  "total_games": 25,
+  "total_games": 28,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
+    "afterimage.json",
     "baldurs-gate-enhanced-edition.json",
     "baldurs-gate-ii-enhanced-edition.json",
     "bang-bang-racing.json",
@@ -14,11 +15,13 @@
     "faraway-2-jungle-escape.json",
     "faraway-arctic-escape.json",
     "labyrinth-city-pierre-the-maze-detective.json",
+    "lego-indiana-jones-the-original-adventures.json",
     "max-the-curse-of-brotherhood.json",
     "nine-witches-family-disruption.json",
     "projection-first-light.json",
     "spirit-mancer.json",
     "star-wars-knights-of-the-old-republic-ii-the-sith-lords.json",
+    "subterrain-mines-of-titan.json",
     "the-abandoned-planet.json",
     "the-academy-the-first-riddle.json",
     "the-collage-atlas.json",
@@ -28,9 +31,27 @@
     "vlad-circus-descend-into-madness.json",
     "warhammer-40000-dawn-of-war-ii.json"
   ],
-  "featured_games": 0,
-  "last_updated": "2025-09-07T09:10:29.277Z",
+  "featured_games": 2,
+  "last_updated": "2025-09-13T04:35:04.961Z",
   "latest_games": [
+    {
+      "title": "Subterrain: Mines of Titan",
+      "slug": "subterrain-mines-of-titan",
+      "date_tested": "Sep '25",
+      "is_featured": true
+    },
+    {
+      "title": "Afterimage",
+      "slug": "afterimage",
+      "date_tested": "Sep '25",
+      "is_featured": true
+    },
+    {
+      "title": "LEGO Indiana Jones: The Original Adventures",
+      "slug": "lego-indiana-jones-the-original-adventures",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
     {
       "title": "Labyrinth City: Pierre the Maze Detective",
       "slug": "labyrinth-city-pierre-the-maze-detective",
@@ -70,24 +91,6 @@
     {
       "title": "Aces of the Luftwaffe - Squadron Extended Edition",
       "slug": "aces-of-the-luftwaffe-squadron-extended-edition",
-      "date_tested": "July '25",
-      "is_featured": false
-    },
-    {
-      "title": "Bang Bang Racing",
-      "slug": "bang-bang-racing",
-      "date_tested": "July '25",
-      "is_featured": false
-    },
-    {
-      "title": "Warhammer 40,000: Dawn of War II",
-      "slug": "warhammer-40000-dawn-of-war-ii",
-      "date_tested": "July '25",
-      "is_featured": false
-    },
-    {
-      "title": "Vlad Circus: Descend Into Madness",
-      "slug": "vlad-circus-descend-into-madness",
       "date_tested": "July '25",
       "is_featured": false
     }

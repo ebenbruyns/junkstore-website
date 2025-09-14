@@ -6,6 +6,7 @@
   "gog_url": "https://www.gog.com/en/game/pumpkin_jack",
   "epic_url": "",
   "itch_url": "",
+  "pc_gaming_wiki_url": "",
   "notes": "Add -dx11 to the target line after the executable.",
   "date_tested": "Oct '24",
   "decky_rating": "yellow",

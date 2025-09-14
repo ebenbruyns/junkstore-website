@@ -6,6 +6,7 @@
   "gog_url": "https://www.gog.com/en/game/saints_row_2",
   "epic_url": "",
   "itch_url": "",
+  "pc_gaming_wiki_url": "",
   "notes": "You need to set the game to run using the ./SR2_pc.exe from the sliders menu (remember to Push X to Save). I also changed the ctroller settings to Keyboard & Mouse. You may want to change the resolution/scaling in game via Options.",
   "date_tested": "July '25",
   "decky_rating": "yellow",
