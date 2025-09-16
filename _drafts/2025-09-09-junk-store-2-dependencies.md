@@ -13,7 +13,7 @@ published: false
 
 **This Week's Pro Tip:** Skip the headache of ProtonTricks and terminal commands - Junk Store 2.0 has a built-in dependency installer that handles Visual C++, .NET Framework, DirectX, and more with just a few clicks!
 
-*Note: This tip applies to Junk Store 2.0 (paid version). The free Decky plugin requires manual ProtonTricks setup.*
+*Note: This tip applies to Junk Store 2.0 (Professional version). The free Decky plugin requires manual ProtonTricks setup.*
 
 ## The Problem
 
