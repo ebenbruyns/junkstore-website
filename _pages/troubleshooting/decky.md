@@ -240,6 +240,19 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 
 <h2 id="gog-extension-troubleshooting">GOG Extension Troubleshooting</h2>
 
+<details class="troubleshooting-box">
+  <summary>GOG Extension installer won't execute or opens in text editor</summary>
+  <p><strong>Problem:</strong> When double-clicking the GOG Extension installer, nothing happens or it opens in Kate text editor.</p>
+
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li><strong>Check file permissions:</strong> Right-click → Properties → Permissions → Check "Is executable"</li>
+    <li><strong>Check for theme conflicts:</strong> Custom icon packs can break system dialogs. Switch to default theme temporarily</li>
+    <li><strong>Use console as backup:</strong> Right-click → "Run in Konsole" to see error messages</li>
+  </ol>
+
+  <p><em>Most common cause: Custom icon themes interfering with system dialogs (zenity).</em></p>
+</details>
 
 <details class="troubleshooting-box" id="gog-wont-run">
   <summary>I can't get GOG to run in Junk Store.</summary>
