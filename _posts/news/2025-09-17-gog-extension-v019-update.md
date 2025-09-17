@@ -4,7 +4,7 @@ title: "GOG Extension v0.1.9 Update - Flatpak Update, Umu ID Fix & Portal Migrat
 date: 2025-09-17 12:00:00 +1300
 categories: [News, GOG Extension]
 tags: [GOG Extension, Steam Deck, Update, Migration, Portal, Flatpak, Compatibility, Umu ID]
-slug: "gog-extension-v019-update-portal-migration"
+slug: "gog-extension-v019-update"
 excerpt: "GOG Extension v0.1.9 brings critical bug fixes, updated Flatpak runtime dependencies, and streamlined Portal distribution for Steam Deck users."
 image: /assets/images/blog/gog-extension-update-hero.svg
 header:
