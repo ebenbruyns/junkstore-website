@@ -24,25 +24,25 @@ header:
   <ul>
     <li>Download the latest GOG extension ZIP file from the portal</li>
     <li>Right-click the ZIP file and choose <strong>“Extract Here”</strong></li>
-    <img src="/assets/images/gogext/extracthere.png" alt="Extract here" width="600" loading="lazy" />
+    <img src="/assets/images/gogext/extracthere.png" alt="Extract here" width="600" height="338" loading="lazy" />
     <li>Double-click the extracted file to launch the installer</li>
-    <img src="/assets/images/gogext/launchinstaller.png" alt="Launch Installer" width="600" loading="lazy" />
+    <img src="/assets/images/gogext/launchinstaller.png" alt="Launch Installer" width="600" height="338" loading="lazy" />
     <li>Follow the prompt to install the GOG extension</li>
-    <img src="/assets/images/gogext/installerprompt.png" alt="Click yes to run installer" width="600" loading="lazy" />
+    <img src="/assets/images/gogext/installerprompt.png" alt="Click yes to run installer" width="600" height="338" loading="lazy" />
   </ul>
 
   <h3>3. Return to Game Mode</h3>
   <ul>
     <li>Once installed, switch back to Game Mode</li>
     <li><strong>Note:</strong> You will need to reinstall the dependencies after installation</li>
-    <img src="/assets/images/gogext/installdeps.png" alt="Install dependencies in Junk Store" width="600" loading="lazy" />
+    <img src="/assets/images/gogext/installdeps.png" alt="Install dependencies in Junk Store" width="600" height="338" loading="lazy" />
   </ul>
 
   <h3>4. Verify the GOG Tab</h3>
   <ul>
     <li>The GOG tab should now be visible in Junk-Store</li>
     <li>Log into GOG using your GOG account credentials</li>
-    <img src="/assets/images/gogext/jstabs.png" alt="Gog tab visible in Junk Store" width="600" loading="lazy" />
+    <img src="/assets/images/gogext/jstabs.png" alt="Gog tab visible in Junk Store" width="600" height="338" loading="lazy" />
   </ul>
 
   <h3>5. Test with a Simple Game</h3>

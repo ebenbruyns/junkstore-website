@@ -81,7 +81,7 @@ classes: wide
 
  <div class="media-item">
   <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com/vi/kDKQyL5iLSg/hqdefault.jpg" alt="How to Install Junk Store 2.0 on Steam Deck" loading="lazy">
+    <img src="https://img.youtube.com/vi/kDKQyL5iLSg/hqdefault.jpg" alt="How to Install Junk Store 2.0 on Steam Deck" loading="lazy" width="320" height="180">
   </a>
   <p class="caption-title">How to Install Junk Store 2.0 on Steam Deck</p>
   <p class="caption">Step-by-step video tutorial on downloading and installing Junk Store 2.0</p>
@@ -97,7 +97,7 @@ classes: wide
 
   <div class="media-item">
     <a href="https://youtu.be/iRVFqHGkqio?si=H3RnIVYtWN6vxsaC" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.youtube.com/vi/iRVFqHGkqio/hqdefault.jpg" alt="Interview with Gardiner Bryant (Video)" loading="lazy">
+      <img src="https://img.youtube.com/vi/iRVFqHGkqio/hqdefault.jpg" alt="Interview with Gardiner Bryant (Video)" loading="lazy" width="320" height="180">
     </a>
     <p class="caption-title">Interview with Gardiner Bryant (Video) - June 2025</p>
     <p class="caption">Listen to the dev behind Junk Store discuss development, features and why he created Junk Store.</p>
@@ -105,7 +105,7 @@ classes: wide
 
   <div class="media-item">
     <a href="https://gardinerbryant.com/an-interview-with-the-dev-behind-junk-store/" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/JSInstall/Doom 64.jpeg" alt="Interview with Gardiner Bryant (Article)" loading="lazy">
+      <img src="/assets/images/JSInstall/Doom 64.jpeg" alt="Interview with Gardiner Bryant (Article)" loading="lazy" width="320" height="180">
     </a>
     <p class="caption-title">Interview with PerfectDark (Article) - July 2024</p>
     <p class="caption">A deep dive into the philosophy behind Junk Store early on development.</p>
