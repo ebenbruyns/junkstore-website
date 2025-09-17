@@ -29,4 +29,20 @@ End with clear next steps for readers.
 
 ---
 
+<!-- Choose appropriate sign-off based on post type: -->
+
+<!-- For Weekly Updates: -->
+<!-- Game On! -->
+<!-- The Junk Store Team -->
+
+<!-- For Tips & Tricks: -->
+<!-- Happy Gaming! -->
+<!-- The Junk Store Team -->
+
+<!-- For News/Announcements: -->
+<!-- The Junk Store Team -->
+
+<!-- For Feature Releases: -->
+<!-- The Junk Store Team -->
+
 *Footer note if needed*

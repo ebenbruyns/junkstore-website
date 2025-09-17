@@ -42,7 +42,7 @@ If you experience any login issues, please contact us through the same platform 
 - **Ko-fi customers:** Contact us via [Ko-fi](https://ko-fi.com/junkstore)
 - **Patreon supporters:** Reach out through [Patreon](https://www.patreon.com/junkstore)
 
-We'll resolve any access issues quickly to get you up and running with the latest improvements.
+We'll resolve any access issues quickly to get you up and running with the latest version.
 
 The Junk Store Team
 
