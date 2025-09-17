@@ -16,13 +16,9 @@
       <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
     </linearGradient>
 
-    <!-- Pixel glow effect -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <!-- Drop shadow effect -->
+    <filter id="dropShadow">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.8"/>
     </filter>
   </defs>
 
@@ -31,11 +27,16 @@
 
   <!-- Background panel for title -->
   <rect x="50" y="75" width="300" height="150" rx="15" ry="15"
-        fill="rgba(124, 58, 237, 0.2)" stroke="url(#accentGradient)" stroke-width="2"/>
+        fill="url(#bgGradient)" stroke="url(#accentGradient)" stroke-width="2"/>
 
+  <!-- Shadow text -->
+  <text x="202" y="132" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+        text-anchor="middle" fill="#000000" opacity="0.6">
+    GOG Extension
+  </text>
   <!-- Main title -->
   <text x="200" y="130" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
-        text-anchor="middle" fill="#ffffff" filter="url(#glow)">
+        text-anchor="middle" fill="#ffffff">
     GOG Extension
   </text>
 
