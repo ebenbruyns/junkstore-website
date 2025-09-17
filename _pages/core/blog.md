@@ -24,13 +24,9 @@ excerpt: "Tips, reviews, and updates for Steam Deck gaming"
   <div class="category-filters">
     <button class="category-filter active" data-category="all">All Posts</button>
     <button class="category-filter" data-category="Weekly Update">Games Tested</button>
-    <button class="category-filter" data-category="Tip of the Week">Tips & Tricks</button>
-    <button class="category-filter" data-category="Quick Win">Quick Wins</button>
-    <button class="category-filter" data-category="Deep Dive">Deep Dives</button>
-    <button class="category-filter" data-category="Best Practices">Best Practices</button>
-    <button class="category-filter" data-category="Problem Prevention">Problem Prevention</button>
-    <button class="category-filter" data-category="Game Spotlight">Game Spotlights</button>
+    <button class="category-filter" data-category="News">News</button>
     <button class="category-filter" data-category="Feature Release">Feature Releases</button>
+    <button class="category-filter" data-category="Tip of the Week">Tips & Tricks</button>
   </div>
 </section>
 
