@@ -59,9 +59,8 @@ body{margin:0;padding:0;color:#eaeaea;font-family:-apple-system,BlinkMacSystemFo
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
 
-<!-- Font display optimization for performance - comprehensive FontAwesome fix -->
+<!-- Font display optimization for performance -->
 <style>
-/* All possible FontAwesome font families with swap */
 @font-face {
   font-family: 'Font Awesome 6 Free';
   font-display: swap;
@@ -70,23 +69,6 @@ body{margin:0;padding:0;color:#eaeaea;font-family:-apple-system,BlinkMacSystemFo
   font-family: 'Font Awesome 6 Brands';
   font-display: swap;
 }
-@font-face {
-  font-family: 'Font Awesome 6 Pro';
-  font-display: swap;
-}
-@font-face {
-  font-family: 'FontAwesome';
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Font Awesome 5 Free';
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Font Awesome 5 Brands';
-  font-display: swap;
-}
-/* Google Fonts */
 @font-face {
   font-family: 'Lato';
   font-display: swap;
@@ -103,8 +85,6 @@ body{margin:0;padding:0;color:#eaeaea;font-family:-apple-system,BlinkMacSystemFo
 .font-lato { font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', Arial, sans-serif; }
 .font-roboto { font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', Arial, sans-serif; }
 .font-lexend { font-family: 'Lexend', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', Arial, sans-serif; }
-/* FontAwesome icon fallback to prevent layout shifts */
-.fas, .far, .fab, .fa { font-display: swap !important; }
 </style>
 
  <!-- Highlight.js CSS for syntax highlighting - deferred as non-critical -->
