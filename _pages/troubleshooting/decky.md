@@ -35,7 +35,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 <h2 id="general-plugin-issues">General Plugin Issues</h2>
 
 
-<details class="troubleshooting-box" id="dependencies-not-installing">
+<details class="faq-box" id="dependencies-not-installing">
   <summary>Dependencies aren't installing - how do I fix this?</summary>
   <p></p>
     If you're seeing errors and dependencies aren't installing, try running these commands in Konsole:
@@ -69,26 +69,26 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     <strong>What this does:</strong> Sets up the correct environment and runs the dependency installer manually.
 </details>
 
-<details class="troubleshooting-box" id="steam-download-stuck-0">
+<details class="faq-box" id="steam-download-stuck-0">
  <summary>When I launch a game, Steam tries to download something but it gets stuck at 0%</summary>
   <p></p>
     This is a known Steam issue, often related to Proton 9. We recommend switching to a <strong>GE-Proton</strong> version instead, as these are better suited for running non-Steam games. Open the game's properties in Steam and select a different Proton version from the Compatibility tab to resolve the issue.
 </details>
 
-<details class="troubleshooting-box" id="games-not-showing-non-steam">
+<details class="faq-box" id="games-not-showing-non-steam">
   <summary>Games aren't showing up in the Non-Steam tab</summary>
   <p></p>
     Check your settings and make sure the shortcut isn't hidden. After changing settings, reboot your Steam Deck for changes to take effect.
 </details>
 
-<details class="troubleshooting-box" id="shortcuts-not-appearing">
+<details class="faq-box" id="shortcuts-not-appearing">
   <summary>Shortcuts aren't appearing</summary>
   <p></p>
     Try rebooting your device first. If they still don't appear, ask for help in the <em>plugin-support</em> forum on <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>.
 </details>
 
 
-<details class="troubleshooting-box" id="proton-ge-installation">
+<details class="faq-box" id="proton-ge-installation">
   <summary>I don't have Proton GE or don't know how to install it</summary>
   <p></p>
     To get Proton GE or other custom versions of Proton, you can use one of the following tools:
@@ -102,7 +102,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}"> Plugin Tutorials</a> page to see how to change/check your Proton version if you are unsure how to do this.
 </details>
 
-<details class="troubleshooting-box" id="keyboard-issues-game-mode">
+<details class="faq-box" id="keyboard-issues-game-mode">
   <summary>Having issues bringing up the keyboard in Game Mode?</summary>
   <p></p>
     If the <strong>Steam + X</strong> shortcut isn't bringing up the keyboard try the following:
@@ -119,7 +119,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 <h2 id="epic-games-troubleshooting">Epic Games Troubleshooting</h2>
 
 
-<details class="troubleshooting-box" id="epic-login-issues">
+<details class="faq-box" id="epic-login-issues">
   <summary>Experiencing Epic Games login issues?</summary>
   <p></p>
     Legendary sometimes has trouble logging in, especially with alternative authentication methods. Try these solutions:
@@ -142,7 +142,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     </ol>
 </details>
 
-<details class="troubleshooting-box" id="legendary-error-popup">
+<details class="faq-box" id="legendary-error-popup">
   <summary>Legendary ERROR pop-up when signing in?</summary>
   <p></p>
     If you see "Legendary status produced no output," your credentials may be corrupted.<br><br>
@@ -152,19 +152,19 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     <code>/bin/flatpak run com.github.derrod.legendary auth</code>
 </details>
 
-<details class="troubleshooting-box" id="changed-epic-password">
+<details class="faq-box" id="changed-epic-password">
   <summary>Have you recently changed your Epic password?</summary>
   <p></p>
     If you've changed your password and are having issues logging in, simply reboot your Steam Deck.
 </details>
 
-<details class="troubleshooting-box" id="update-legendary-flatpak">
+<details class="faq-box" id="update-legendary-flatpak">
   <summary>How do I update the Legendary Flatpak?</summary>
   <p> </p>
     Go to <strong>About &gt; Dependencies</strong> in the Junk Store UI and click "Install Dependencies" again.
 </details>
 
-<details class="troubleshooting-box" id="captcha-mouse-wont-reach">
+<details class="faq-box" id="captcha-mouse-wont-reach">
   <summary>Can't verify captcha — mouse won't reach button?</summary>
   <p></p>
     Try the following:
@@ -177,7 +177,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     </ul>
 </details>
 
-<details class="troubleshooting-box" id="no-epic-games-showing">
+<details class="faq-box" id="no-epic-games-showing">
   <summary>I don't see any games in my Epic library.</summary>
   <p></p>
       Check the following:
@@ -192,7 +192,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     </ul>
 </details>
 
-<details class="troubleshooting-box" id="games-wont-load-cpp-error">
+<details class="faq-box" id="games-wont-load-cpp-error">
   <summary>Games won't load — Microsoft Visual C++ error?</summary>
   <p></p>
     If prompted to install Microsoft Visual C++ Runtime:
@@ -205,7 +205,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     This should allow the game to run.
 </details>
 
-<details class="troubleshooting-box" id="junk-store-egs-mismatch">
+<details class="faq-box" id="junk-store-egs-mismatch">
   <summary>Junk Store and EGS library don't match?</summary>
   <p></p>
     Have you tried <strong>refreshing your games list?</strong>
@@ -219,7 +219,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     If missing games still don't appear, they may require a third-party launcher and are currently unsupported.
 </details>
 
-<details class="troubleshooting-box" id="game-wont-download-critical">
+<details class="faq-box" id="game-wont-download-critical">
   <summary>Game won't download — CRITICAL error?</summary>
   <p></p>
     If you get:<br>
@@ -227,7 +227,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     It likely means your storage is full. Free up space or install to another location.
 </details>
 
-<details class="troubleshooting-box" id="sd-card-permissions-error">
+<details class="faq-box" id="sd-card-permissions-error">
   <summary>Installing games to SD card causes a Permissions Error?</summary>
   <p></p>
     Possible causes:
@@ -240,8 +240,21 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 
 <h2 id="gog-extension-troubleshooting">GOG Extension Troubleshooting</h2>
 
+<details class="faq-box" id="gog-installer-wont-execute">
+  <summary>GOG Extension installer won't execute or opens in text editor</summary>
+  <p><strong>Problem:</strong> When double-clicking the GOG Extension installer, nothing happens or it opens in Kate text editor.</p>
 
-<details class="troubleshooting-box" id="gog-wont-run">
+  <p><strong>Solution:</strong></p>
+  <ol>
+    <li><strong>Check file permissions:</strong> Right-click → Properties → Permissions → Check "Is executable"</li>
+    <li><strong>Check for theme conflicts:</strong> Custom icon packs can break system dialogs. Switch to default theme temporarily</li>
+    <li><strong>Use console as backup:</strong> Right-click → "Run in Konsole" to see error messages</li>
+  </ol>
+
+  <p><em>Most common cause: Custom icon themes interfering with system dialogs (zenity).</em></p>
+</details>
+
+<details class="faq-box" id="gog-wont-run">
   <summary>I can't get GOG to run in Junk Store.</summary>
   <p></p>
     Make sure you're using the <strong>latest version of Junk Store</strong> from the <strong>Decky Testing Store</strong>.<br><br>
@@ -249,7 +262,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     Once you've purchased the GOG extension, please follow the <a href="/tutorials/gogextension">GOG Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.
 </details>
 
-<details class="troubleshooting-box" id="no-gog-games-showing">
+<details class="faq-box" id="no-gog-games-showing">
   <summary>I don't see any games in my Gog library.</summary>
   <p></p>
   Check the following:
@@ -268,7 +281,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 <h2 id="game-compatibility-problems">Game Compatibility Problems</h2>
 
 
-<details class="troubleshooting-box" id="works-in-heroic-lutris-not-junk-store">
+<details class="faq-box" id="works-in-heroic-lutris-not-junk-store">
   <summary>My game works in Heroic or Lutris, but not in Junk Store</summary>
   <p></p>
     Games that run in Heroic or Lutris usually work in Junk Store too — it's just a matter of finding the right tweaks:
@@ -284,7 +297,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     If that doesn't work, ask for help in our Discord server. Please be patient—our team is small! While we have a decent game library, we don't have every game, so we may only be able to offer advice rather than fixes.
 </details>
 
-<details class="troubleshooting-box" id="controller-not-working">
+<details class="faq-box" id="controller-not-working">
   <summary>Game launches but controller doesn't work?</summary>
   <p></p>
     Try the following:
@@ -297,7 +310,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     If none of these work, further research may be needed. Note that we can't test every game.
 </details>
 
-<details class="troubleshooting-box" id="game-wont-launch">
+<details class="faq-box" id="game-wont-launch">
   <summary>Why won't my game launch?</summary>
   <p></p>
     Games may fail to launch for a variety of reasons. Here are some common causes and what you can do:
@@ -319,13 +332,13 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 <h2 id="advanced-troubleshooting">Advanced Troubleshooting</h2>
 
 
-<details class="troubleshooting-box" id="backend-scripts-info">
+<details class="faq-box" id="backend-scripts-info">
   <summary>What are the backend scripts, and do I need them?</summary>
   <p></p>
     These are optional example scripts mainly for DOSBox games. They are not officially supported and may stop working if Junk Store is updated. Use them only if you know how they work.
 </details>
 
-<details class="troubleshooting-box" id="uninstall-backend-scripts">
+<details class="faq-box" id="uninstall-backend-scripts">
   <summary>How do I uninstall the backend scripts for DOS and Win 3.1?</summary>
   <p></p>
     You can delete them manually from:
@@ -333,7 +346,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
     <code>~/homebrew/data/Junk Store/scripts/Extensions</code>
 </details>
 
-<details class="troubleshooting-box" id="stuck-steam-prelaunch">
+<details class="faq-box" id="stuck-steam-prelaunch">
   <summary>Game gets stuck at the Steam pre-launch screen</summary>
   <p></p>
     This might be caused by another plugin (like <strong>decky-cloud-save</strong>) locking Junk Store's files. 
