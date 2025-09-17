@@ -36,9 +36,9 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
 
 
 <details class="faq-box" id="decky-vs-paid-version">
-  <summary>What's the difference between the Decky version and the Paid version?</summary>
+  <summary>What's the difference between the Decky version and the Professional version?</summary>
   <p></p>
-    The Decky version is free and open source, designed to run via the Decky Loader. The Paid version includes extra convenience features and doesn't require Decky to run.
+    The Decky version is free and open source, designed to run via the Decky Loader. The Professional version includes extra convenience features and doesn't require Decky to run.
     <br>
     <br>
     <strong>For detailed feature comparison:</strong> <a href="/comparison/">View Complete Comparison Chart</a>

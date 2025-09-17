@@ -99,7 +99,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 <details class="faq-box" id="can-i-try-before-buy">
   <summary>Can I try before I buy to see if it's worth $40?</summary>
   <p></p>
-    <strong>Absolutely.</strong> Every Junk Store subscription includes a <strong>7-day free trial</strong> with full access to all features:
+    <strong>Absolutely.</strong> Every Junk Store annual license includes a <strong>7-day free trial</strong> with full access to all features:
   <br>
   <br>
     <strong>Trial includes:</strong>
@@ -133,7 +133,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 </details>
 
 <details class="faq-box" id="what-happens-no-renew">
-  <summary>What happens if I don't renew my subscription?</summary>
+  <summary>What happens if I don't renew my annual license?</summary>
   <p></p>
     <strong>You keep access to the version of Junk Store 2.0 you paid for.</strong> Everything continues working as normal, but you won't receive future updates.
   <br>
@@ -151,7 +151,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
       <li>❌ New game store integrations</li>
       <li>❌ Technical support</li>
     </ul>
-    <strong>Important:</strong> Steam Deck/Valve updates may break functionality over time. Active subscriptions receive compatibility fixes to address these issues.
+    <strong>Important:</strong> Steam Deck/Valve updates may break functionality over time. Active license holders receive compatibility fixes to address these issues.
   <br>
   <br>
     <strong>Note:</strong> You can reactivate anytime to resume receiving updates and support.
@@ -169,16 +169,16 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Device management:</strong> Each installation counts toward your device limit when you first activate it. If you need to replace a device or reinstall, contact support for assistance with license transfers.
 </details>
 
-<details class="faq-box" id="subscription-or-perpetual">
-  <summary>Is this a subscription or perpetual license?</summary>
+<details class="faq-box" id="annual-license-or-perpetual">
+  <summary>Do I need to keep paying to use the software?</summary>
   <p></p>
-    Junk Store uses a perpetual license model with optional subscription updates. You own your software version forever, but updates require an active subscription.
+    Junk Store uses a perpetual license model with optional annual updates. You own your software version forever, but updates require an active annual license.
   <br>
   <br>
-    <strong>Junk Store uses perpetual licensing with subscription-based updates.</strong> This is different from both traditional subscription software and one-time purchase models.
+    <strong>Junk Store uses perpetual licensing with annual update support.</strong> This is different from both traditional annual license software and one-time purchase models.
   <br>
   <br>
-    <strong>What requires active subscription:</strong>
+    <strong>What requires active annual license:</strong>
     <ul>
       <li>🔄 Software updates and new features</li>
       <li>🛠️ Bug fixes and compatibility improvements</li>
@@ -192,7 +192,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     </ul>
     <strong>Our commitment to long-term stability:</strong>
     <ul>
-      <li>🛠️ <strong>We're actively working</strong> to make Junk Store as stable as possible even after subscription cancellation</li>
+      <li>🛠️ <strong>We're actively working</strong> to make Junk Store as stable as possible even after annual license expiration</li>
       <li>🤝 <strong>Seeking Valve partnership:</strong> This complex task would be significantly easier with Valve's blessing and cooperation</li>
       <li>📦 <strong>Current approach:</strong> Game store changes continue working via updated flatpaks (free and open source) with publicly available manifests</li>
     </ul>
@@ -601,9 +601,9 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 
 
 <details class="faq-box" id="decky-vs-paid-version">
-  <summary>What's the difference between the Decky version and the Paid version?</summary>
+  <summary>What's the difference between the Decky version and the Professional version?</summary>
   <p></p>
-    The Decky version is free and open source, designed to run via the Decky Loader. The Paid version includes extra convenience features and doesn't require Decky to run.
+    The Decky version is free and open source, designed to run via the Decky Loader. The Professional version includes extra convenience features and doesn't require Decky to run.
   <br>
   <br>
   <strong>📊 For detailed feature comparison:</strong> <a href="/comparison/">View Complete Comparison Chart</a>
