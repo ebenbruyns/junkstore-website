@@ -44,6 +44,8 @@ If you experience any login issues, please contact us through the same platform 
 
 We'll resolve any access issues quickly to get you up and running with the latest improvements.
 
+The Junk Store Team
+
 ---
 
 *This migration to the Portal system allows us to deliver updates faster and makes downloading much easier for our users. Thank you for your continued support!*
