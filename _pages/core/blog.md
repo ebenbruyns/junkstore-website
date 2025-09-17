@@ -40,7 +40,7 @@ excerpt: "Tips, reviews, and updates for Steam Deck gaming"
           {% if post.image %}
           <div class="post-image">
             <a href="{{ post.url | relative_url }}">
-              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy" width="400" height="225">
             </a>
           </div>
           {% endif %}
