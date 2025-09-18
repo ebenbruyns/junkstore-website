@@ -5,7 +5,7 @@ permalink: /privacy-policy/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.jpg # This sets the URL for this page
+  overlay_image: /assets/images/website_image_compressed.webp # This sets the URL for this page
 ---
 
 ## Privacy Policy

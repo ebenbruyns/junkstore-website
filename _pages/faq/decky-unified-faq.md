@@ -8,7 +8,7 @@ show_pagination: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.jpg
+  overlay_image: /assets/images/website_image_compressed.webp
   actions:
     - label: "Get Junk Store 2.0"
       url: "/buy_now/"

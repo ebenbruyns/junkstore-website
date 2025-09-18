@@ -7,7 +7,7 @@ classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.jpg
+  overlay_image: /assets/images/website_image_compressed.webp
 ---
 
 <div class="spacer mt-4"></div>
@@ -62,10 +62,10 @@ header:
     <img src="/assets/images/jspro/install2.0/amazon.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
     <br>
     <br>
-    <img src="/assets/images/jspro/install2.0/epic.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
+    <img src="/assets/images/jspro/install2.0/epic.webp" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
     <br>
     <br>
-    <img src="/assets/images/jspro/install2.0/gog.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
+    <img src="/assets/images/jspro/install2.0/gog.webp" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
   </ol>
 
   <h4>If you are upgrading from the Decky plugin version:</h4>
