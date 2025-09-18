@@ -41,6 +41,10 @@ Junk Store is built to make playing non-Steam games feel as seamless and intuiti
   We're constantly improving Junk Store with regular updates and new features.
 
 
+## What Our Users Say
+
+{% include testimonials.html %}
+
 <h2>Hear from the Developer</h2>
 
 <p>Curious about the story behind Junk Store? Check out these interviews and talks featuring our developer.</p>
