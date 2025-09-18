@@ -1,8 +1,12 @@
 ---
-title: "How to change Proton Version"
-excerpt: "Step-by-step guide on how to change your Proton version in Junk Store"
+title: "How to Check/Change Proton Version - Junk Store Steam Deck Tutorial"
+description: "Step-by-step guide to check and change Proton versions for Epic/GOG games in Junk Store on Steam Deck. Fix black screen issues and optimize game compatibility."
+excerpt: "Step-by-step guide on how to check and change your Proton version in Junk Store"
 layout: splash
 permalink: /tutorials/plugin/Proton
+categories: ["Universal"]
+tags: ["proton", "compatibility", "both-versions"]
+difficulty: "Intermediate"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -10,197 +14,166 @@ header:
 ---
 <div class="spacer mt-4"></div>
 
-<h2>Intro</h2>
+This guide shows you how to **check and change Proton versions** for games installed through Junk Store on your Steam Deck.
 
-<p>This guide assumes you've already installed <strong>Junk Store via Decky Loader</strong>.<br>
-If you haven't, check out our tutorial:</p>
+> ⚠️ **Prerequisites:** You need **Junk Store** and **Wine Cellar** plugins installed via Decky Loader, plus some Proton versions already installed.
 
-<ul>
-  <li><a href="/tutorials/plugin/Install">How to Install Junk Store</a></li>
-</ul>
+---
 
-<p>If you're not sure how to change the <strong>Proton version</strong> used for a game, refer to:</p>
+## When Do You Need to Change Proton Versions?
 
-<ul>
-  <li><a href="/tutorials/plugin/Proton">How to Check/Change Proton Version</a></li>
-</ul>
+If you experience any of these issues, try a different Proton version:
 
-<hr>
+- Game shows a **black screen** then closes
+- Game **won't launch** at all
+- Game **crashes immediately**
 
-<h2>What is Wine Cellar?</h2>
+### Recommended Proton Versions
 
-<p><strong>Wine Cellar</strong> is a Decky plugin that makes it easy to download and manage different versions of Proton — without switching to Desktop Mode.</p>
+- **GE-Proton** versions are generally recommended over standard Steam Proton
+- **Don't always update** to the latest release - we find a stable version and stick with it
+- **Test before upgrading** - newer isn't always better for game compatibility
+- **Keep 2-3 versions** installed so you can switch if one doesn't work
 
-<p>There are other tools like <strong>ProtonUp-Qt</strong>, but Wine Cellar is the most Deck-friendly option. We recommend it because it's simple, clean, and works right inside Game Mode.</p>
+> 💡 **Pro Tip:** Check [ProtonDB.com](https://www.protondb.com/) or our [Games Tested](/tested-games/) page to see what works best for your specific game.
 
-<hr>
+---
 
-<h2>When Should You Use a Different Proton Version?</h2>
+## Prerequisites: Install a Proton Manager
 
-<p>Use a different Proton version if your game:</p>
+You'll need a tool to download and manage different Proton versions. You have two good options:
 
-<ul>
-  <li>Shows a black screen, then closes</li>
-  <li>Doesn't launch at all</li>
-  <li>Crashes immediately</li>
-</ul>
+### Option 1: Wine Cellar (Recommended for Game Mode)
+- **Decky plugin** - works directly in Game Mode
+- **No Desktop Mode needed** for downloads and management
+- **Requires restart** after installing new Proton versions
+- **Installation:** Search "Wine Cellar" in Decky Plugin Store
 
-<h3>To find the best version for your game:</h3>
+### Option 2: ProtonUp-Qt (Desktop Mode)
+- **Desktop application** - download from Discover Store
+- **Must use Desktop Mode** to install new versions
+- **No restart required** - updates apply when returning to Game Mode
+- Search "ProtonUp-Qt" in Discover Store
 
-<ul>
-  <li>Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB.com</a></li>
-  <li>Or visit our working list: <a href="/tested-games/">Games Tested</a></li>
-</ul>
+> ✅ **Why use either?** Junk Store creates separate prefixes for each game, so you can use different Proton versions per game.
 
-<hr>
+**Quick Links:**
+- [How to Install Junk Store](/tutorials/plugin/Install)
 
-<h2>How to Install Wine Cellar</h2>
+---
 
-<h3>1. Search in the Decky Store</h3>
+## Method 1: Change Proton Version in Junk Store
 
-<ul>
-  <li>Open the <strong>Decky Plugin Store</strong></li>
-  <li>Use the search bar to find <strong>Wine Cellar</strong></li>
-  <li>Click <strong>Install</strong></li>
-</ul>
+### Step 1: Open Your Game in Junk Store
 
-<p><img src="/assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg" alt="Wine Cellar in Decky Store"></p>
+Start from the game screen **inside Junk Store** (not Steam library).
 
-<hr>
+![FM'24 JS Game Page](/assets/images/Proton/FM'24%20JS%20Game%20Page.webp){: loading="lazy"}
 
-<h3>2. Confirm Installation</h3>
+---
 
-<ul>
-  <li>When prompted, press <code>A</code> to confirm and begin installing</li>
-</ul>
+### Step 2: Access Steam Game Properties
 
-<p><img src="/assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg" alt="Install Wine Cellar Screen"></p>
-<p><img src="/assets/images/Wine/Installing%20Wine%20Cellar.jpg" alt="Installing Wine Cellar"></p>
+- Press **Y** to go to Steam's game page
+- Navigate to the **gear/cog icon**
+- Press **A** to select
 
-<hr>
+![FM'24 Steam App Page](/assets/images/Proton/FM'24%20Steam%20App%20Page.webp){: loading="lazy"}
 
-<h3>3. Open Wine Cellar</h3>
+---
 
-<ul>
-  <li>Press the <strong>three dots (QAM button)</strong> on your Steam Deck</li>
-  <li>Select <strong>Wine Cellar</strong></li>
-  <li>Press <code>A</code> to open it</li>
-  <li>Press <code>A</code> again on <strong>Manage</strong></li>
-</ul>
+### Step 3: Open Properties Menu
 
-<p><img src="/assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg" alt="Open Wine Cellar Plugin"></p>
-<p><img src="/assets/images/Wine/Wine%20Cellar%20Manage.jpg" alt="Manage Menu"></p>
+- Select **Properties** from the menu
+- Press **A** to confirm
 
-<hr>
+![FM'24 Properties Option Selection](/assets/images/Proton/FM'24%20Properties%20Option%20Selection.webp){: loading="lazy"}
 
-<h3>4. View Installed Proton Versions</h3>
+---
 
-<p>The <strong>Wine Cellar Dashboard</strong> will show all Proton versions currently installed.<br>
-From here, you can:</p>
+### Step 4: Navigate to Compatibility
 
-<ul>
-  <li>Install new versions</li>
-  <li>Remove old ones</li>
-  <li>Update existing ones</li>
-</ul>
+- Go to the **Compatibility** tab
+- This is where you'll find Proton settings
 
-<p><img src="/assets/images/Wine/Proton%20Installed.jpg" alt="Proton Installed List"></p>
+![FM'24 Proton Version Screen](/assets/images/Proton/FM'24%20Proton%20Version%20Screen.webp){: loading="lazy"}
 
-<hr>
+---
 
-<h2>How to Install New Proton Versions</h2>
+### Step 5: Select Proton Version
 
-<p>We recommend using <strong>GE-Proton</strong> versions. These support more games and fix more issues than the default Steam versions.</p>
+- Navigate to the **Proton dropdown menu**
+- Press **A** to open the list of available versions
 
-<h3>1. Find the Version</h3>
+![FM Current Proton Version](/assets/images/Proton/FM%20Current%20Proton%20Version.webp){: loading="lazy"}
 
-<ul>
-  <li>Scroll to the <strong>GE-Proton</strong> version you want</li>
-  <li>Move to the <strong>three dots</strong></li>
-  <li>Press <code>A</code></li>
-</ul>
+---
 
-<p><img src="/assets/images/Wine/Proton%20Not%20Installed.jpg" alt="Choose Proton to Install"></p>
-<p><img src="/assets/images/Wine/Install%20selection%20PV.jpg" alt="Confirm Install Selection"></p>
+### Step 6: Choose Your Version
 
-<hr>
+- Select the **Proton version** you want to try
+- Press **A** to confirm
+- The setting is **automatically saved** per game
 
-<h3>2. Install and Reboot</h3>
+![FM'24 Changing Proton Version](/assets/images/Proton/FM'24%20Changing%20Proton%20Version.webp){: loading="lazy"}
 
-<ul>
-  <li>The selected version (e.g., <strong>GEProton 9-12</strong>) will now install</li>
-  <li>When it finishes, restart your Steam Deck</li>
-</ul>
+> ✅ **Saved Settings:** Your Proton choice is remembered for this specific game, even after rebooting.
 
-<p><img src="/assets/images/Wine/Installing%20PV.jpg" alt="Installing Proton Version"></p>
-<p><img src="/assets/images/Wine/Extracting%20PV.jpg" alt="Extracting Files"></p>
-<p><img src="/assets/images/Wine/Restart%20to%20use%20PV.jpg" alt="Restart Prompt"></p>
+---
 
-<hr>
+## Method 2: Change via Steam Library
 
-<h3>3. Play the Game</h3>
+You can also change Proton versions directly from Steam's library:
 
-<p>After restarting:</p>
+### Quick Access Method
 
-<ul>
-  <li>Launch the game</li>
-  <li>It will use the new Proton version you selected</li>
-</ul>
+- Find your game in **Steam Library**
+- Press the **Start/Options button** (hamburger menu)
+- Select **Properties**
 
-<p><img src="/assets/images/Wine/TMNT%20PV%20Selection.jpg" alt="Game Proton Selected"></p>
-<p><img src="/assets/images/Wine/TMNT%20Start%20Screen.jpg" alt="Game Start Screen"></p>
+![Game Art Steam Library](/assets/images/Proton/Game%20Art%20Steam%20Library.webp){: loading="lazy"}
 
-<hr>
+![Properties Menu from Steam Library](/assets/images/Proton/Properties%20Menu%20from%20Steam%20Library.webp){: loading="lazy"}
 
-<h2>How to Uninstall Old Proton Versions</h2>
+- Follow **Steps 4-6** from Method 1 above
 
-<p>Want to clean up versions you’re not using?</p>
+---
 
-<ul>
-  <li>Open the <strong>Wine Cellar Dashboard</strong></li>
-  <li>Scroll to the installed version</li>
-  <li>Move to the <strong>three dots</strong></li>
-  <li>Press <code>A</code> and confirm uninstall</li>
-</ul>
+## Ready to Play!
 
-<p><img src="/assets/images/Wine/PV%20to%20uninstall.jpg" alt="Select to Uninstall"></p>
-<p><img src="/assets/images/Wine/Uninstall%20PV.jpg" alt="Uninstall Confirm"></p>
+Once you've selected your Proton version:
 
-<p>That’s it — the version will be removed.</p>
+- **Back out** to the game screen
+- Press **Play** to launch with the new settings
 
-<hr>
+![FM'24 Load Screen](/assets/images/Proton/FM'24%20Load%20Screen.webp){: loading="lazy"}
 
-<h2>Final Tips</h2>
+---
 
-<ul>
-  <li>You can set different Proton versions <strong>per game</strong></li>
-  <li>Once set, the version stays saved (even after reboot)</li>
-  <li>If unsure which version to use, <strong>start with GEProton 9-7</strong></li>
-  <li>Use <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> to check what works best</li>
-</ul>
+## Troubleshooting Tips
 
-<hr>
+- **Game still won't work?** Try a different GE-Proton version
+- **Need more versions?** Use Wine Cellar to download additional options
+- **Unsure which version to use?** Check our [compatibility database](/tested-games/)
 
-<h2>Need More Help?</h2>
+---
 
-<p>Check out:</p>
+## Need More Help?
 
-<ul>
-  <li><a href="/deckyhelp">Plugin Help</a></li>
-  <li><a href="/faq/decky/">Plugin FAQ</a></li>
-  <li><a href="/troubleshooting/plugin">Decky Plugin Troubleshooting</a></li>
-  <li><a href="/troubleshooting/epic">Epic Games Troubleshooting</a></li>
-  <li><a href="/troubleshooting/gog">GOG Extension Troubleshooting</a></li>
-</ul>
+If you're still having trouble:
 
-<p>Still stuck? Ask for help: 
+- [Plugin Help](/deckyhelp)
+- [Plugin FAQ](/faq/decky/)
+- [Decky Plugin Troubleshooting](/troubleshooting/decky/)
+- [2.0 Standalone Troubleshooting](/troubleshooting/v2/)
+
+Still stuck? Ask for help:
 <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
   <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
 </a>
 <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
   <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
 </a>
-— the community is happy to help.</p>
 
 
 <style>
