@@ -25,7 +25,7 @@ header:
 <ol>
   <li><strong>Open the Game Page</strong></li><br>
     <li>Navigate to the game inside Junk Store and <strong>click the ⚙️ Cog Menu</strong></li>
-    <img src="/assets/images/jspro/dependencies/gamepagecog.png" alt="download from portal" width="600" />
+    <img src="/assets/images/jspro/dependencies/gamepagecog.webp" alt="download from portal" width="600" />
     <br>
     <br>
   <li><strong>Select <code>Installation</code></strong></li><br>

@@ -22,7 +22,7 @@ header:
   <ol>
       <li><strong>Download the latest <code>js_pro</code></strong></li>
         Latest build will be the first file in the list<br>
-      <img src="/assets/images/jspro/install2.0/downloadjspro.png" alt="download from portal" width="600" height="338" loading="lazy" /><br><br>
+      <img src="/assets/images/jspro/install2.0/downloadjspro.webp" alt="download from portal" width="600" height="338" loading="lazy" /><br><br>
       <li>Open Dolphin → Downloads → Right-click the file → Properties → Permissions</li>
         Mark it as executable and click <strong>OK </strong>then double-click on it to install<br>
       <img src="/assets/images/jspro/install2.0/executable.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" /><br><br>
@@ -59,7 +59,7 @@ header:
     <br>
     <br>
     Now all you need to do is log in to each and your libraries will be poplulated.<br>
-    <img src="/assets/images/jspro/install2.0/amazon.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
+    <img src="/assets/images/jspro/install2.0/amazon.webp" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
     <br>
     <br>
     <img src="/assets/images/jspro/install2.0/epic.webp" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
