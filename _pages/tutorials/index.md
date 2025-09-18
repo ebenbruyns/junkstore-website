@@ -55,7 +55,7 @@ header:
 </div>
 
 <div class="tutorial-item standalone">
-  <h4><a href="/tutorials/v2/install2.0">Install Junk Store 2.0</a></h4>
+  <h4><a href="/tutorials/install2.0/">Install Junk Store 2.0</a></h4>
   <p>Setup guide for the Professional standalone version</p>
   <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
 </div>
