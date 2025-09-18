@@ -103,9 +103,8 @@ If you run into trouble, check out:
 <ul>
   <li><a href="/deckyhelp">Plugin Help</a></li>
   <li><a href="/faq/decky/">Plugin FAQ</a></li>
-  <li><a href="/troubleshooting/plugin">Decky Plugin Troubleshooting</a></li>
-  <li><a href="/troubleshooting/epic">Epic Games Troubleshooting</a></li>
-  <li><a href="/troubleshooting/gog">GOG Extension Troubleshooting</a></li>
+  <li><a href="/troubleshooting/decky/">Decky Plugin Troubleshooting</a></li>
+  <li><a href="/troubleshooting/v2/">2.0 Standalone Troubleshooting</a></li>
 </ul>
 
 
