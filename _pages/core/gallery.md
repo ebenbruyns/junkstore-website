@@ -105,7 +105,7 @@ classes: wide
 
   <div class="media-item">
     <a href="https://gardinerbryant.com/an-interview-with-the-dev-behind-junk-store/" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/JSInstall/Doom 64.jpeg" alt="Interview with Gardiner Bryant (Article)" loading="lazy" width="320" height="180">
+      <img src="/assets/images/JSInstall/Doom 64.webp" alt="Interview with Gardiner Bryant (Article)" loading="lazy" width="320" height="180">
     </a>
     <p class="caption-title">Interview with PerfectDark (Article) - July 2024</p>
     <p class="caption">A deep dive into the philosophy behind Junk Store early on development.</p>
