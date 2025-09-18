@@ -500,7 +500,7 @@ Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers
     <strong>Documentation:</strong>
   <ul>
     <li><a href="{{ '/deckyhelp' | relative_url }}">Decky Plugin Help</a> - Installation and basic setup</li>
-    <li><a href="{{ '/plugin_tutorials/' | relative_url }}">Plugin Tutorials</a> - Step-by-step guides</li>
+    <li><a href="{{ '/tutorials/' | relative_url }}">Tutorials</a> - Step-by-step guides</li>
   </ul>
     <strong>When contacting support:</strong> Include your Steam Deck model, SteamOS version, and specific error messages or symptoms.
 </details>

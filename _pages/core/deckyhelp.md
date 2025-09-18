@@ -62,7 +62,7 @@ header:
   <div class="content-box tutorials">
     <h3>Decky Plugin Tutorials</h3>
     <p>Step-by-step instructions for installing, configuring, and using Junk Store on Decky.</p>
-    <a href="{{ '/plugin_tutorials/' | relative_url }}" class="button">Tutorials</a>
+    <a href="{{ '/tutorials/' | relative_url }}" class="button">View All Tutorials</a>
   </div>
 
   <!-- Tested Games -->

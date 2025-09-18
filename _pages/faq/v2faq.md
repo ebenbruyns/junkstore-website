@@ -657,7 +657,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 </details>
 
 **Need more help?** 
-- **Step-by-step guides:** [Tutorials & How-To Guides](/2.0tutorials/) 
+- **Step-by-step guides:** [All Tutorials](/tutorials/) 
 - **Technical issues:** [Troubleshooting Guide](/2.0troubleshooting/)
 - **Community support:** 
   <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
