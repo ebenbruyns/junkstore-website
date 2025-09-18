@@ -108,6 +108,20 @@ header:
 
 ---
 
+## ⚡ Quick Tips & Tricks
+
+<div class="tips-grid">
+
+<div class="tip-item">
+  <h4><a href="/blog/press-y-show-all-games/">Missing the 'Press Y to Show All' Prompt</a></h4>
+  <p>Only seeing A-L games in your Epic/GOG library? Look for the 'Press Y to Show All' prompt at the bottom</p>
+  <span class="tip-tag">3 min read</span>
+</div>
+
+</div>
+
+---
+
 ## 🆘 Need Help?
 
 If you're still having trouble after following these guides:
@@ -138,6 +152,14 @@ If you're still having trouble after following these guides:
 .tutorial-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+/* Tips Grid Layout */
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
   margin: 20px 0;
 }
@@ -198,6 +220,56 @@ If you're still having trouble after following these guides:
 .both-tag {
   background: #4caf50;
   color: white;
+}
+
+/* Tips Items */
+.tip-item {
+  border: 2px solid #444;
+  border-radius: 8px;
+  padding: 18px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #242424 100%);
+  transition: all 0.3s ease;
+  position: relative;
+  border-left: 4px solid #ffa500;
+}
+
+.tip-item:hover {
+  border-color: #ffa500;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 165, 0, 0.2);
+}
+
+.tip-item h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.tip-item h4 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tip-item h4 a:hover {
+  color: #ffa500;
+}
+
+.tip-item p {
+  margin-bottom: 12px;
+  color: #ccc;
+  font-size: 0.95em;
+}
+
+/* Tip Tags */
+.tip-tag {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.75em;
+  font-weight: 600;
+  background: rgba(255, 165, 0, 0.15);
+  color: #ffa500;
+  border: 1px solid rgba(255, 165, 0, 0.3);
 }
 
 /* Version Guide Cards */
@@ -306,6 +378,10 @@ If you're still having trouble after following these guides:
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .tutorial-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tips-grid {
     grid-template-columns: 1fr;
   }
 
