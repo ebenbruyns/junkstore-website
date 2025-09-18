@@ -68,9 +68,8 @@ That’s it! Once it’s done, try launching the game again — it should now wo
 If you run into trouble, check out:
 - [Plugin Help](/deckyhelp)
 - [Plugin FAQ](/faq/decky/)
-- [Decky Plugin Troubleshooting](/troubleshooting/plugin)
-- [Epic Games Troubleshooting](/troubleshooting/epic)
-- [Gog Extension Troubleshooting](/troubleshooting/gog)
+- [Decky Plugin Troubleshooting](/troubleshooting/decky/)
+- [2.0 Standalone Troubleshooting](/troubleshooting/v2/)
 
 Still stuck? Ask for help: 
 <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
