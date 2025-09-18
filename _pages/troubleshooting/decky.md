@@ -362,7 +362,7 @@ Having problems playing Epic Games or GOG games on your Steam Deck? This compreh
 
 **Need more help?** 
 - **Decky Plugin Installation:** [Decky Plugin Help](/deckyhelp/) 
-- **Step-by-step tutorials:** [Plugin Tutorials](/plugin_tutorials/)
+- **Step-by-step tutorials:** [All Tutorials](/tutorials/)
 - **Community support:** 
   <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
     <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
