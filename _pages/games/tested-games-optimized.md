@@ -6,7 +6,7 @@ permalink: /tested-games/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.jpg
+  overlay_image: /assets/images/website_image_compressed.webp
 excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta) games tested on Steam Deck."
 ---
 
