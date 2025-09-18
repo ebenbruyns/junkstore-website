@@ -4,6 +4,9 @@ description: "Install Junk Store Decky plugin on Steam Deck. Open-source plugin 
 excerpt: "Step-by-step guide to install Junk Store on your Steam Deck"
 layout: splash
 permalink: /tutorials/plugin/Install
+categories: ["Decky Plugin"]
+tags: ["installation", "decky-loader", "epic-games", "setup"]
+difficulty: "Beginner"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -126,9 +129,8 @@ Once you’ve installed and tested a game, you’re all set.
 If you run into trouble, check out:
 - [Plugin Help](/deckyhelp)
 - [Plugin FAQ](/faq/decky/)
-- [Decky Plugin Troubleshooting](/troubleshooting/plugin)
-- [Epic Games Troubleshooting](/troubleshooting/epic)
-- [Gog Extension Troubleshooting](/troubleshooting/gog)
+- [Decky Plugin Troubleshooting](/troubleshooting/decky/)
+- [2.0 Standalone Troubleshooting](/troubleshooting/v2/)
 
 Still stuck? Ask for help: 
 <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
