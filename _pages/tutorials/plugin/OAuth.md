@@ -37,9 +37,8 @@ This guide uses Google for logging in, but the steps are the same for other thir
 1. **Switch to Desktop Mode**  
    If you don't have an external mouse and keyboard connected, you may want to download **Core Keyboard** from the Discover Store.
 
-2. **Open Steam in Big Picture Mode**  
-   Press the Steam button and switch to **Big Picture Mode**.  
-   ![Big Picture Mode](/assets/images/OAuth/Big Picture Mode.png){: loading="lazy"}
+2. **Open Steam in Big Picture Mode**
+   Press the Steam button and switch to **Big Picture Mode** (the controller-friendly interface).
 
 3. **Navigate to Epic Tab in Junk Store**  
    Go to **Junk Store** > **Games** > **Epic Tab** and select **Login**.  
