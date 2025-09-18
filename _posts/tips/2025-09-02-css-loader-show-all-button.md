@@ -60,7 +60,7 @@ You've installed Junk Store and your Epic/GOG games are syncing perfectly, but y
 5. Wait a moment while your complete library loads
 6. The rest of your games will now appear!
 
-![Junk Store bottom menu showing the SHOW ALL button](/assets/images/blog/pushY.png)
+![Junk Store bottom menu showing the SHOW ALL button](/assets/images/blog/pushY.webp)
 *The "SHOW ALL" button is located in Junk Store's bottom menu - press Y to load your complete library!*
 
 ## If You Can't See the Prompt

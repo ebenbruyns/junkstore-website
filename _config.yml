@@ -195,6 +195,12 @@ google_analytics:
   id: "G-E2Y00GCMSG" # replace with your actual Google Analytics Measurement ID
 
 # Footer scripts (deferred loading for performance)
+# Removed jQuery CDN as it was causing render-blocking issues on mobile
+# Local bundled version performs better
+
+# Custom main.min.js excludes jQuery (loaded from CDN above)
+# Local main.min.js now only contains theme plugins + custom scripts
+
 # after_footer_scripts:
 #   - /assets/js/conversion-tracking.js
 # Note: Scripts now loaded via performance-optimizations.html for better control

@@ -7,7 +7,7 @@ classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.jpg
+  overlay_image: /assets/images/website_image_compressed.webp
 ---
 <div class="spacer mt-4"></div>
 
@@ -37,9 +37,8 @@ This guide uses Google for logging in, but the steps are the same for other thir
 1. **Switch to Desktop Mode**  
    If you don't have an external mouse and keyboard connected, you may want to download **Core Keyboard** from the Discover Store.
 
-2. **Open Steam in Big Picture Mode**  
-   Press the Steam button and switch to **Big Picture Mode**.  
-   ![Big Picture Mode](/assets/images/OAuth/Big Picture Mode.png){: loading="lazy"}
+2. **Open Steam in Big Picture Mode**
+   Press the Steam button and switch to **Big Picture Mode** (the controller-friendly interface).
 
 3. **Navigate to Epic Tab in Junk Store**  
    Go to **Junk Store** > **Games** > **Epic Tab** and select **Login**.  
