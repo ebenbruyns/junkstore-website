@@ -6,7 +6,7 @@ permalink: /tutorials/gogextension/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.jpg
+  overlay_image: /assets/images/website_image_compressed.webp
 ---
 <div class="spacer mt-4"></div>
 
@@ -42,7 +42,7 @@ header:
   <ul>
     <li>The GOG tab should now be visible in Junk-Store</li>
     <li>Log into GOG using your GOG account credentials</li>
-    <img src="/assets/images/gogext/jstabs.png" alt="Gog tab visible in Junk Store" width="600" height="338" loading="lazy" />
+    <img src="/assets/images/gogext/jstabs.webp" alt="Gog tab visible in Junk Store" width="600" height="338" loading="lazy" />
   </ul>
 
   <h3>5. Test with a Simple Game</h3>

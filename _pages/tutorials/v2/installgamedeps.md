@@ -7,7 +7,7 @@ classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.jpg
+  overlay_image: /assets/images/website_image_compressed.webp
 ---
 
 <div class="spacer mt-4"></div>
@@ -25,7 +25,7 @@ header:
 <ol>
   <li><strong>Open the Game Page</strong></li><br>
     <li>Navigate to the game inside Junk Store and <strong>click the ⚙️ Cog Menu</strong></li>
-    <img src="/assets/images/jspro/dependencies/gamepagecog.png" alt="download from portal" width="600" />
+    <img src="/assets/images/jspro/dependencies/gamepagecog.webp" alt="download from portal" width="600" />
     <br>
     <br>
   <li><strong>Select <code>Installation</code></strong></li><br>
