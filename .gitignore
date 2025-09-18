@@ -26,5 +26,6 @@ node_modules/
 docs/
 # Performance monitoring and optimization files
 performance-*.json
+lighthouse-*.json
 image-analysis-report.txt
 build.log
