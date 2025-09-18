@@ -4,6 +4,7 @@
 
 <!-- Font Display Optimization -->
 <style>
+/* Force font-display: swap for all fonts to prevent layout shift */
 @font-face {
   font-family: system-ui;
   font-display: swap;
@@ -11,6 +12,37 @@
 
 /* Critical above-the-fold CSS inline to prevent render blocking */
 body {
+  font-display: swap;
+}
+
+/* Fix major CLS issues from Lighthouse report */
+.page__hero--overlay {
+  min-height: 400px; /* Prevent layout shift */
+  background-color: #000 !important; /* Ensure consistent background */
+}
+
+.wrapper {
+  contain: layout; /* Prevent layout shifts in wrapper */
+}
+
+.initial-content {
+  contain: layout; /* Prevent layout shifts in main content */
+}
+
+/* Fix unsized image elements causing CLS */
+.masthead__menu-item img,
+img[alt="Junk Store"] {
+  width: 48px;
+  height: 48px;
+}
+
+/* FontAwesome font display optimization */
+.fas, .far, .fab, .fa {
+  font-display: swap !important;
+}
+
+/* Roboto and Lato font optimization */
+.page, body, .initial-content {
   font-display: swap;
 }
 
@@ -25,6 +57,12 @@ body {
   background-image: url('/assets/images/website_image_compressed.webp');
 }
 </style>
+
+<!-- Preconnect to external domains to reduce latency -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://www.googletagmanager.com">
 
 <!-- WebP Support Detection -->
 <script>
