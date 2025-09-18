@@ -64,7 +64,7 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
 </div>
 
 <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
-  <strong>Note:</strong> Games tested by the Junk Store team use <strong>GE-Proton 9-20</strong>, as it consistently provides the best out-of-the-box compatibility.<br>
+  <strong>Note:</strong> Games tested by the Junk Store team use <strong>GE-Proton 10.10</strong>, as it consistently provides the best out-of-the-box compatibility.<br>
   To use the <strong>EOS overlay</strong> with Epic Games, you'll need <strong>GE-Proton 10.2 or newer</strong>.<br>
   Games that require a specific Proton version will have it listed in the <strong>compatibility details</strong>.
 </p>
