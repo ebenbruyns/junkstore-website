@@ -52,22 +52,22 @@ header:
 <section class="key-features">
   <h2>Why Junk Store 2.0 Is Worth the Investment</h2>
   <div class="features-grid">
-    <div class="feature">🚀 <strong>Pure Game Mode Experience</strong><br><span class="feature-detail">While other solutions require Desktop Mode, Junk Store keeps you in Game Mode always</span></div>
-    <div class="feature">⚡ <strong>Professional Reliability</strong><br><span class="feature-detail">Fast updates, dedicated support, and continuous improvements — because your gaming time is valuable</span></div>
-    <div class="feature">🎯 <strong>True Steam Integration</strong><br><span class="feature-detail">Games launch directly through Steam with native-like experience — no background launchers draining performance</span></div>
-    <div class="feature">⚡ <strong>Games Just Work</strong><br><span class="feature-detail">Minimal tinkering required - install and play with streamlined setup</span></div>
-    <div class="feature">🎮 <strong>Comprehensive Platform Support</strong><br><span class="feature-detail">Epic + GOG + Amazon + itch.io (beta) + ROMs unified in single Game Mode interface</span></div>
-    <div class="feature">🔧 <strong>Professional Development & Support</strong><br><span class="feature-detail">Dedicated update channels (stable/testing/beta) selectable directly in Game Mode</span></div>
+    <div class="feature">🚀 <strong>Never Leave Game Mode</strong><br><span class="feature-detail">No Desktop Mode switching required</span></div>
+    <div class="feature">⚡ <strong>Just Works</strong><br><span class="feature-detail">Install once, play immediately</span></div>
+    <div class="feature">🎯 <strong>Native Steam Experience</strong><br><span class="feature-detail">Games appear directly in your library</span></div>
+    <div class="feature">🎮 <strong>All Your Stores</strong><br><span class="feature-detail">Epic, GOG, Amazon & itch.io unified</span></div>
+    <div class="feature">🔧 <strong>Ongoing Support</strong><br><span class="feature-detail">Regular updates and quick fixes</span></div>
+    <div class="feature">💰 <strong>Better Than Free</strong><br><span class="feature-detail">Professional quality without the hassle</span></div>
   </div>
 </section>
 
 {% include testimonials.html %}
 
 <div class="progressive-cta testimonial-cta">
-  <p class="cta-prompt">Ready to join these satisfied users?</p>
+  <p class="cta-prompt">Stop wasting precious gaming time on setup — start playing in minutes, not hours</p>
   <div class="cta-buttons">
     <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_testimonials">Start Your Free Trial</a>
-    <a href="/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_more_demos" data-label="buy_now_testimonials">Watch More Demos</a>
+    <a href="/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_more_demos" data-label="buy_now_testimonials">See More Demos</a>
   </div>
 </div>
 
