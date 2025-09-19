@@ -7,6 +7,14 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
+  actions:
+    - label: "Start Free Trial"
+      url: "https://portal.junkstore.xyz"
+      class: "button buy-button"
+      target: "_blank"
+    - label: "Learn More"
+      url: "/buy_now/"
+      class: "button button-secondary"
 excerpt: "Explore Junk Store in action: GIFs, videos, and articles."
 classes: wide
 ---
