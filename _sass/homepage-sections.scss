@@ -350,6 +350,25 @@
   line-height: 1.4;
 }
 
+/* Mobile text contrast improvements */
+@media (max-width: 768px) {
+  .feature .problem {
+    color: #ffb3ba !important; /* Lighter red for better mobile contrast */
+    font-size: 1rem !important; /* Slightly larger for mobile readability */
+    line-height: 1.5 !important;
+  }
+
+  .feature .solution {
+    color: #90ee90 !important; /* Lighter green for better mobile contrast */
+    font-size: 1rem !important; /* Slightly larger for mobile readability */
+    line-height: 1.5 !important;
+  }
+
+  .feature h3 {
+    font-size: 1.2rem !important; /* Larger headers on mobile */
+  }
+}
+
 .feature-detail {
   display: block;
   font-size: 0.9rem;
@@ -642,7 +661,7 @@
   .page__hero {
     text-align: center;
     padding: 1.5rem 1rem 2rem 1rem;
-    min-height: 60vh;
+    min-height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
