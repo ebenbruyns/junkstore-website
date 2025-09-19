@@ -326,7 +326,28 @@
   font-size: 1.1rem;
   font-weight: 500;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+
+.feature h3 {
+  color: #ffa366;
+  font-size: 1.1rem;
+  margin: 0 0 1rem 0;
   text-align: center;
+}
+
+.feature .problem {
+  color: #ff8a80;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.feature .solution {
+  color: #69f0ae;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
 
 .feature-detail {
