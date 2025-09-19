@@ -19,48 +19,78 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
 
 
 <section class="comparison-hero">
-  <h1>Decky Plugin vs Junk Store 2.0</h1>
-  <p class="lead-text">The Decky plugin proved the concept. <strong>Junk Store 2.0 perfects the execution.</strong></p>
-  <p>See exactly what you gain by upgrading from the free plugin to the professional Game Mode-native platform.</p>
+  <h1>Why Choose Junk Store Over Free Alternatives?</h1>
+  <p class="lead-text"><strong>The ONLY solution that eliminates Desktop Mode switching entirely.</strong></p>
+  <p>While other launchers require Desktop Mode management, Junk Store delivers the true handheld gaming freedom your Steam Deck was designed for.</p>
 </section>
 
-<section class="recent-updates-section" id="recent-updates">
-  <h2>🆕 Recent Updates to Junk Store 2.0</h2>
-  <div class="updates-content">
-    <div class="update-item">
-      <h4>🔌 Offline Mode Per Game</h4>
-      <p><strong>NEW:</strong> Set offline mode individually for each game across all storefronts. Unlike the Decky version which requires global settings under each tab, Junk Store 2.0 lets you configure offline mode per-game for precise control.</p>
+<section class="major-differentiators">
+  <h2>Junk Store vs Free Alternatives - The Key Differences</h2>
+  <div class="differentiator-grid">
+
+    <div class="differentiator-item">
+      <h3>🎯 Desktop Mode Elimination</h3>
+      <p class="problem">❌ <strong>Others:</strong> Require desktop switching</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> Pure Game Mode - never leave handheld mode</p>
     </div>
-    <div class="update-item">
-      <h4>🌐 Per-Game System Language Control</h4>
-      <p><strong>NEW:</strong> Configure game language setting for games that use system language detection. No more manual file editing to add language codes like the Decky version requires.</p>
+
+    <div class="differentiator-item">
+      <h3>⚡ Zero Performance Impact</h3>
+      <p class="problem">❌ <strong>Others:</strong> Run background processes while gaming</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> Lightweight scripts - zero performance interference</p>
     </div>
-    <div class="update-item">
-      <h4>🎮 itch.io Platform Support</h4>
-      <p><strong>NEW:</strong> Beta support for itch.io games now available.</p>
+
+    <div class="differentiator-item">
+      <h3>🚀 Professional Development</h3>
+      <p class="problem">❌ <strong>Others:</strong> Community volunteers, slower GitHub releases</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> Full-time dev team, instant update channels</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>🎮 True Steam Integration</h3>
+      <p class="problem">❌ <strong>Others:</strong> Launch separate launcher apps</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> All libraries visible directly in Game Mode</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>🎲 Handheld-First Design</h3>
+      <p class="problem">❌ <strong>Others:</strong> Desktop-first with controller afterthought</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> Built specifically for Steam Deck workflows</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>🕹️ Complete Gaming Ecosystem</h3>
+      <p class="problem">❌ <strong>Others:</strong> Only handle store games, separate emulator setup</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> ROMs + emulators + itch.io all integrated in Game Mode</p>
+    </div>
+
+  </div>
+
+  <div class="differentiator-conclusion">
+    <p><strong>The bottom line:</strong> Free alternatives are excellent desktop applications. Junk Store is purpose-built for Steam Deck - a fundamentally different architectural approach.</p>
+  </div>
+
+  <div class="primary-cta">
+    <h3>Ready to Experience the Difference?</h3>
+    <p>Try all these benefits free for 7 days. No commitment, cancel anytime.</p>
+    <div class="cta-buttons">
+      <a href="/buy_now/" class="button buy-button large">Start Free 7-Day Trial</a>
+      <a href="/gallery/" class="button button-secondary">Watch Demos First</a>
     </div>
   </div>
 </section>
 
-<section class="value-proposition" id="key-benefits">
-  <div class="value-grid">
-    <div class="value-item">
-      <h3>🚀 From 100 to 1,000 Games</h3>
-      <p>Built from scratch for performance - handle massive libraries without slowdown</p>
-    </div>
-    <div class="value-item">
-      <h3>🎯 Direct Launch System</h3>
-      <p>No more Decky dependency - faster startup and bulletproof stability</p>
-    </div>
-    <div class="value-item">
-      <h3>🛠️ Professional Support</h3>
-      <p>Dedicated update channels and responsive development team</p>
-    </div>
-  </div>
-</section>
+<div class="whats-new-banner">
+  <p><strong>🆕 What's New in Junk Store 2.0:</strong> Offline mode per game • System language control per game • itch.io platform support</p>
+</div>
 
 <section class="comparison-table-section" id="feature-comparison">
-  <h2>Complete Feature Comparison</h2>
+  <details class="detailed-comparison">
+    <summary>
+      <h2>📋 Free vs Junk Store 2.0 Feature Comparison Table</h2>
+      <p class="summary-text">Already convinced? <a href="/buy_now/">Start your free trial</a> • Want detailed feature-by-feature breakdown? <strong>Click here to expand the full comparison table ▼</strong></p>
+    </summary>
+    <h3>Decky Plugin vs Junk Store 2.0</h3>
   <p class="table-intro">Every feature comparison includes live demonstrations. Hover over "👁️ Hover to view" to see the functionality in action.</p>
   
   <table class="comparison-table">
@@ -93,7 +123,7 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td>✅ Full Support</td>
         </tr>
           <tr>
-          <td><strong>itch.io Gaming</strong></td>
+          <td><strong>itch.io Gaming</strong> <span class="new-badge">NEW</span></td>
           <td>❌ Not Available</td>
           <td>✅ beta Support</td>
         </tr>
@@ -240,18 +270,21 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
           <td>🧠 Generated Templates + Hooks</td>
         </tr>
         <tr>
-          <td><strong>Offline Mode Per Game</strong></td>
+          <td><strong>Offline Mode Per Game</strong> <span class="new-badge">NEW</span></td>
           <td>🔧 Requires Global Setting Under Each Tab</td>
           <td>✅ Per-Game Configuration<br><span style="font-size: 0.9em; color: #ccc;">Set offline mode individually for each game across all storefronts</span></td>
         </tr>
         <tr>
-          <td><strong>System Language Detection Per Game</strong></td>
+          <td><strong>System Language Detection Per Game</strong> <span class="new-badge">NEW</span></td>
           <td>🔧 Requires Manual File Editing<br><span style="font-size: 0.9em; color: #ccc;">Must alter files to add language codes</span></td>
           <td>✅ Per Game Language Setting<br><span style="font-size: 0.9em; color: #ccc;">Individual language control for games that use system language detection</span></td>
         </tr>
       </tbody>
   </table>
+  </details>
 </section>
+
+<div style="margin: 3rem 0;"></div>
 
 <section class="upgrade-benefits" id="upgrade-benefits">
   <h2>Why 250,000+ Users Are Considering the Upgrade</h2>
@@ -283,33 +316,34 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
   </div>
 </section>
 
-<section class="pricing-comparison" id="pricing">
-  <div class="pricing-box">
-    <h2>Investment vs. Value</h2>
-    <div class="price-comparison">
-      <div class="price-option">
-        <h3>Free Decky Plugin</h3>
-        <p class="price">$0</p><br>
-        <p><strong>Perfect for trying the concept</strong></p>
-        <ul>
-          <li>Epic Games support</li>
-          <li>Community-driven updates</li>
-          <li>Basic functionality</li>
-          <li>GOG requires separate purchase</li>
-        </ul>
+
+
+<section class="fence-sitter-conversion" id="decision-time">
+  <div class="decision-box">
+    <h2>Still Deciding? Here's What Tips the Scale</h2>
+    <div class="decision-points">
+      <div class="decision-point">
+        <h4>🔧 <strong>Look, We Get It - Some People Love to Tinker</strong></h4>
+        <p>And that's totally their game! But if you're here because you want to play your <em>actual</em> games instead of playing "fix the launcher," Junk Store was created to remove as many friction points as possible. <strong>Install → Launch → Play.</strong> Revolutionary concept, we know. 😉</p>
       </div>
-      <div class="price-option featured">
-        <h3>Junk Store 2.0</h3>
-        <p class="price">$40/year</p>
-        <p class="price-detail">About $3.33/month</p>
-        <p><strong>Professional platform</strong></p>
-        <ul>
-          <li>All platforms included (Epic + GOG + Amazon + itch.io (beta))</li>
-          <li>10x performance improvement</li>
-          <li>Dedicated development team</li>
-          <li>Advanced features + frequent updates</li>
-          <li><strong>7-day free trial - try everything first</strong></li>
-        </ul>
+      <div class="decision-point">
+        <h4>🎯 <strong>You Already Know You Want This</strong></h4>
+        <p>You're here comparing features because you want the best Game Mode experience. Why settle for "good enough" when perfection costs <strong>less than $1/week</strong>?</p>
+      </div>
+      <div class="decision-point">
+        <h4>🚀 <strong>Professional Development vs Community-Driven</strong></h4>
+        <p>Free alternatives rely on community volunteers for updates, fixes, and new features - which means slower releases and GitHub builds. Junk Store 2.0 has full-time professional development, so fixes and features are available at the click of a button through dedicated update channels (stable/testing/beta). No compiling, no waiting.</p>
+      </div>
+    </div>
+
+    <div class="urgency-box">
+      <h3>🔥 Decision Made Easy: Test Everything for 7 Days</h3>
+      <p><strong>Stop researching. Start experiencing.</strong> Use your 7-day trial to test every feature mentioned above with your actual game library.</p>
+      <div class="trial-benefits">
+        <div class="trial-benefit">✅ Full access to all platforms (Epic, GOG, Amazon, itch.io)</div>
+        <div class="trial-benefit">✅ Test with your entire game library</div>
+        <div class="trial-benefit">✅ Experience the architectural difference</div>
+        <div class="trial-benefit">✅ Cancel anytime if it's not worth it</div>
       </div>
     </div>
   </div>
@@ -317,8 +351,8 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
 
 <section class="trial-cta" id="trial">
   <div class="cta-box">
-    <h2>Ready to Experience the Difference?</h2>
-    <p>Try Junk Store 2.0 risk-free for 7 full days. Experience every feature, test your games, and see the performance improvement firsthand.</p>
+    <h2>Ready to Stop Comparing and Start Playing?</h2>
+    <p>Join the users who stopped settling for "free but frustrating" and upgraded to "just works."</p>
     <div class="cta-buttons">
       <a href="/buy_now/" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="comparison_page_bottom">Start Free 7-Day Trial</a>
       <a href="/gallery/" class="button large" data-event="click" data-category="engagement" data-action="view_gallery" data-label="comparison_page_bottom">See Live Demos First</a>
