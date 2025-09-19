@@ -63,19 +63,31 @@ header:
   <p><em>Your handheld deserves a handheld experience.</em></p>
 </div>
 
-<h3>Supported Extensions (at launch)</h3>
+<h3>Supported Extensions</h3>
 <p></p>
-<li>✅ Gog</li>
+<li>✅ GOG</li>
 <li>✅ Epic</li>
 <li>✅ Amazon</li>
+<li>✅ itch.io (beta)</li>
 
 <h3>Found a bug?</h3>
 <p></p>
 Report issues here:
  <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues" target="_blank" rel="noopener">https://github.com/SDK-Innovation/JunkStoreBugs/issues</a>
 
-<h3>Stuck or need help?</h3>
-Join us on <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> and post a help ticket in <strong>v2-support</strong> channel.
+<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+<h3 style="margin-top: 0; color: #e74c3c;">🆘 Stuck or need help?</h3>
+<p><strong>Need setup help? We're here for you!</strong> Most installation issues are quick environmental fixes we can resolve in minutes. Our team provides friendly support to get you up and running smoothly.</p>
+
+<p><strong>Quick fixes for common issues:</strong></p>
+<ul style="margin-left: 1rem;">
+<li><a href="/2.0troubleshooting/#installation-not-completing" target="_blank" style="color: #66bfff;">Installation issues</a> - If the installer seems stuck or incomplete</li>
+<li><a href="/2.0troubleshooting/#executables-wont-run" target="_blank" style="color: #66bfff;">Executable won't run</a> - If Junk Store won't start after installation</li>
+<li><a href="/2.0faq/#using-junk-store" target="_blank" style="color: #66bfff;">Using Junk Store guide</a> - General usage questions</li>
+</ul>
+
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" style="color: #66bfff;">Discord</a> and post a help ticket in <strong>v2-support</strong> channel. Our team is here to help you get everything working smoothly.</p>
+</div>
 
 <div style="text-align: center; margin-top: 2rem;">
   <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button">Sign Up Now</a>
