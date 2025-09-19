@@ -1,3 +1,208 @@
+/* What's New Banner */
+.whats-new-banner {
+  background: linear-gradient(135deg, rgba(102, 191, 255, 0.15), rgba(102, 191, 255, 0.08));
+  border: 1px solid rgba(102, 191, 255, 0.3);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.whats-new-banner p {
+  margin: 0;
+  color: #66bfff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.new-badge {
+  background: #28a745;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-left: 8px;
+  text-transform: uppercase;
+}
+
+/* Major differentiators section */
+.major-differentiators {
+  max-width: 1200px;
+  width: 95%;
+  margin: 1rem auto 3rem auto;
+  text-align: center;
+}
+
+.major-differentiators h2 {
+  color: #66bfff;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.differentiator-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.differentiator-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.differentiator-item h3 {
+  color: #ffa366;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.differentiator-item p {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+.differentiator-item p:last-child {
+  margin-bottom: 0;
+}
+
+.differentiator-item .problem {
+  color: #ff8a80;
+}
+
+.differentiator-item .solution {
+  color: #69f0ae;
+}
+
+/* Adjust grid for better balance - 3x2 layout */
+.differentiator-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+  .differentiator-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .differentiator-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.differentiator-conclusion {
+  background: rgba(102, 191, 255, 0.1);
+  border: 1px solid rgba(102, 191, 255, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+  color: #e8e8e8;
+  margin-bottom: 2rem;
+}
+
+.primary-cta {
+  background: linear-gradient(135deg, rgba(40, 167, 69, 0.15), rgba(40, 167, 69, 0.08));
+  border: 2px solid rgba(40, 167, 69, 0.4);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.primary-cta h3 {
+  color: #28a745;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.4rem;
+}
+
+.primary-cta p {
+  color: #e8e8e8;
+  margin: 0 0 1.5rem 0;
+  font-size: 1.1rem;
+}
+
+.primary-cta .cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .primary-cta .cta-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .primary-cta .cta-buttons .button {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* Comparison table section alignment */
+.comparison-table-section {
+  max-width: 1200px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.detailed-comparison summary {
+  cursor: pointer;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.detailed-comparison summary h2 {
+  margin: 0;
+  color: #66bfff;
+  display: inline;
+}
+
+.summary-text {
+  margin: 0.5rem 0 0 0;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.summary-text a {
+  color: #66bfff;
+  text-decoration: none;
+}
+
+.summary-text a:hover {
+  text-decoration: underline;
+}
+
+.comparison-table-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.comparison-table-section h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #ffa366;
+}
+
+.table-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 /* Problem/Solution Section */
 .problem-solution {
   background-color: #253445;
