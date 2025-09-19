@@ -77,32 +77,32 @@ header:
 
     <div class="faq-item">
       <h4>Can I try before I buy to see if it's worth it?</h4>
-      <p>Absolutely. Every license includes a <strong>7-day free trial</strong> with full access to all features: Epic, GOG, Amazon & itch.io integration, emulator setup, and all premium features. Cancel anytime during trial for zero charges.</p>
+      ✅ <strong>7-day free trial</strong> with full access to all features. Cancel anytime for zero charges. <a href="/2.0faq/#trial-length-what-happens" target="_blank">Trial details →</a>
     </div>
 
     <div class="faq-item">
       <h4>What happens if I don't renew my annual license?</h4>
-      <p>You keep access to the version you paid for. All installed games remain playable and functionality continues working - you just won't receive future updates.</p>
+      ✅ <strong>You keep everything forever.</strong> All games remain playable, just no future updates. <a href="/2.0faq/#what-happens-no-renew" target="_blank">Ownership details →</a>
     </div>
 
     <div class="faq-item">
       <h4>Is Junk Store trustworthy with my credentials?</h4>
-      <p>Yes. We never store your passwords - only secure login tokens stored locally on your Steam Deck. Uses the same OAuth flow as official store websites. No personal data collection or game tracking.</p>
+      ✅ <strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores. <a href="/2.0faq/#is-junk-store-trustworthy" target="_blank">Security details →</a>
     </div>
 
     <div class="faq-item">
       <h4>Will this slow down my Steam Deck?</h4>
-      <p>No! Games launch directly through Steam without background launchers. More efficient than external alternatives that require Desktop Mode switching.</p>
+      ✅ <strong>Zero performance impact.</strong> Games launch directly through Steam without background processes.
     </div>
 
     <div class="faq-item">
       <h4>What makes this different from free alternatives?</h4>
-      <p>Junk Store is Steam Deck-specific software designed for handheld workflows with full controller navigation in Game Mode. <strong>Most importantly: Junk Store doesn't run additional processes while gaming.</strong> Other solutions run between Steam and your game (consuming system resources), but Junk Store uses lightweight scripts that hand everything directly to Steam - no performance interference.</p>
+      ✅ <strong>Game Mode-native + zero resource usage.</strong> Others run between Steam and games. <a href="/comparison/" target="_blank">Full comparison →</a>
     </div>
 
     <div class="faq-item">
       <h4>What if I have problems during setup?</h4>
-      <p><strong>Need setup help? We're here for you!</strong> Most installation issues are quick environmental fixes we can resolve in minutes. Our team provides friendly support to get you up and running. <strong>Common quick fixes:</strong> Conflicting software, setup steps, or system configuration. Try these resources: <a href="/2.0troubleshooting/#installation-not-completing" target="_blank">installation issues</a>, <a href="/2.0troubleshooting/#executables-wont-run" target="_blank">executable won't run</a>, and <a href="/2.0faq/#using-junk-store" target="_blank">Using Junk Store guide</a>, then reach out if you need assistance.</p>
+      ✅ <strong>Professional support team.</strong> Most issues resolved in minutes. <a href="/2.0troubleshooting/#installation-not-completing" target="_blank">Installation fixes →</a> • <a href="/2.0troubleshooting/#executables-wont-run" target="_blank">Executable fixes →</a>
     </div>
 
   </div>

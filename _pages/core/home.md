@@ -47,14 +47,38 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
 </section>
 
 <section class="key-features">
-  <h2>Game Mode-Native Solution</h2>
+  <h2>Why Steam Deck Users Choose Junk Store</h2>
   <div class="features-grid">
-    <div class="feature">🚀 <strong>Pure Game Mode Experience</strong><br><span class="feature-detail">While other solutions require Desktop Mode, Junk Store keeps you in Game Mode always</span></div>
-    <div class="feature">⚡ <strong>Games Just Work</strong><br><span class="feature-detail">Minimal tinkering required - install and play with streamlined setup</span></div>  
-    <div class="feature">🛍️ <strong>True Steam Integration</strong><br><span class="feature-detail">Epic, GOG, Amazon & itch.io (beta) games install and launch as native-like as possible</span></div>
-    <div class="feature">🔧 <strong>Professional Development & Support</strong><br><span class="feature-detail">Dedicated update channels (stable/testing/beta) selectable directly in Game Mode</span></div>
-    <div class="feature">💾 <strong>Endless Customization</strong><br><span class="feature-detail">Deep game configuration, customize existing extensions, or create entirely new ones for any platform</span></div>
-    <div class="feature">🎮 <strong>Comprehensive Platform Support</strong><br><span class="feature-detail">Epic + GOG + Amazon + itch.io (beta) + ROMs unified in single Game Mode interface</span></div>
+    <div class="feature">
+      <h3>🚀 Pure Game Mode Experience</h3>
+      <p class="problem">❌ <strong>Others:</strong> Force desktop switching</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> Never leave Game Mode</p>
+    </div>
+    <div class="feature">
+      <h3>⚡ Games Just Work</h3>
+      <p class="problem">❌ <strong>Others:</strong> Complex setup and tinkering</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> Install and play immediately</p>
+    </div>
+    <div class="feature">
+      <h3>🛍️ True Steam Integration</h3>
+      <p class="problem">❌ <strong>Others:</strong> Separate launcher apps</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> All games in Steam library</p>
+    </div>
+    <div class="feature">
+      <h3>🔧 Professional Support</h3>
+      <p class="problem">❌ <strong>Others:</strong> Community volunteers, slow updates</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> Full-time dev team, instant updates</p>
+    </div>
+    <div class="feature">
+      <h3>💾 Advanced Customization</h3>
+      <p class="problem">❌ <strong>Others:</strong> Limited modification options</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> Deep config + custom extensions</p>
+    </div>
+    <div class="feature">
+      <h3>🎮 Complete Gaming Hub</h3>
+      <p class="problem">❌ <strong>Others:</strong> Only handle store games</p>
+      <p class="solution">✅ <strong>Junk Store:</strong> Stores + ROMs + emulators unified</p>
+    </div>
   </div>
 </section>
 
