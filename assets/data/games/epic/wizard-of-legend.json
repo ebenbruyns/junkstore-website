@@ -10,7 +10,7 @@
   "notes": "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Dec '24",
   "decky_rating": "green",
-  "standalone_rating": "green",
+  "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "",
