@@ -10,7 +10,7 @@
   "notes": "You need to download and install X64 redistributable for Visual Studio 2015-2022.",
   "date_tested": "April '25",
   "decky_rating": "yellow",
-  "standalone_rating": "",
+  "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "Native Steam Deck Controls",
