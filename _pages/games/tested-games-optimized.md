@@ -665,7 +665,7 @@ function createGameModal(game) {
             </div>
             <div class="feature-item">
               <span class="feature-label">Proton Version</span>
-              <span class="feature-value">${game.proton_version || 'Default'}</span>
+              <span class="feature-value">${game.proton_version || 'GE-Proton'}</span>
             </div>
             <div class="feature-item">
               <span class="feature-label">Date Tested</span>
@@ -966,12 +966,10 @@ function renderTestingDetailsBootstrap(game) {
               <span class="info-value">${game.dependencies}</span>
             </div>
           ` : ''}
-          ${game.proton_version ? `
-            <div class="info-item">
-              <span class="info-label">Proton Version</span>
-              <span class="info-value">${game.proton_version}</span>
-            </div>
-          ` : ''}
+          <div class="info-item">
+            <span class="info-label">Proton Version</span>
+            <span class="info-value">${game.proton_version || 'GE-Proton'}</span>
+          </div>
           ${game.protondb ? `
             <div class="info-item">
               <span class="info-label">ProtonDB</span>
