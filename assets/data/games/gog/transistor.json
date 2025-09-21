@@ -10,7 +10,7 @@
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**. VC 2010/2012 Redists, DirectX Jun 2010 Redist",
   "date_tested": "Oct '24",
   "decky_rating": "yellow",
-  "standalone_rating": "yellow",
+  "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "<a href=\"https://www.microsoft.com/en-nz/download/details.aspx?id=35\" target=\"_blank\" rel=\"noopener noreferrer\">DirectX</a>",
   "controller_config": "",
