@@ -1,10 +1,11 @@
 {
   "storefront": "GOG",
-  "total_games": 312,
+  "total_games": 315,
   "games": [
     "9-years-of-shadows.json",
     "a-plague-tale-innocence.json",
     "advanced-dungeons-dragons-heroes-of-the-lance.json",
+    "agony-unrated.json",
     "agony.json",
     "alan-wake.json",
     "alders-blood-prologue.json",
@@ -93,6 +94,7 @@
     "eschalon-book-i.json",
     "fallout-3-game-of-the-year-edition.json",
     "fantasy-empires.json",
+    "fate-the-cursed-king.json",
     "fate-the-traitor-soul.json",
     "fate-undiscovered-realms.json",
     "fate.json",
@@ -160,6 +162,7 @@
     "lust-theory-season-1.json",
     "mafia-definitive-edition.json",
     "mafia-ii-definitive-edition.json",
+    "mafia-ii.json",
     "mafia-iii-definitive-edition.json",
     "magrunner-dark-pulse.json",
     "mail-time.json",
@@ -201,6 +204,7 @@
     "raidborn.json",
     "ravenloft-stone-prophet.json",
     "ravenloft-strahds-possession.json",
+    "residual.json",
     "riot-civil-unrest.json",
     "saints-row-2.json",
     "saints-row-gat-out-of-hell.json",
@@ -313,54 +317,60 @@
     "yakuza-kiwami.json",
     "yes-your-grace.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2025-09-13T04:35:04.956Z",
+  "featured_games": 2,
+  "last_updated": "2025-09-21T04:09:45.890Z",
   "latest_games": [
     {
-      "title": "Liberated",
-      "slug": "liberated",
-      "date_tested": "Sept '25",
-      "is_featured": false
+      "title": "Residual",
+      "slug": "residual",
+      "date_tested": "Sep '25",
+      "is_featured": true
+    },
+    {
+      "title": "FATE: The Cursed King",
+      "slug": "fate-the-cursed-king",
+      "date_tested": "Sep '25",
+      "is_featured": true
     },
     {
       "title": "Tower of Time",
       "slug": "tower-of-time",
       "date_tested": "Sept '25",
-      "is_featured": true
+      "is_featured": false
     },
     {
-      "title": "Sid Meier's Civilization IV: Complete Edition",
-      "slug": "sid-meiers-civilization-iv-complete-edition",
+      "title": "Agony",
+      "slug": "agony",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Agony UNRATED",
+      "slug": "agony-unrated",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Alan Wake",
+      "slug": "alan-wake",
+      "date_tested": "March '25",
+      "is_featured": false
+    },
+    {
+      "title": "Mafia II",
+      "slug": "mafia-ii",
       "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Ravenloft: Strahd's Possession",
-      "slug": "ravenloft-strahds-possession",
+      "title": "Dishonored 2",
+      "slug": "dishonored-2",
       "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Ravenloft: Stone Prophet",
-      "slug": "ravenloft-stone-prophet",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "GMDX",
-      "slug": "gmdx",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Dorfromantik",
-      "slug": "dorfromantik",
-      "date_tested": "Sep '25",
-      "is_featured": false
-    },
-    {
-      "title": "Dishonored",
-      "slug": "dishonored",
+      "title": "Ghost of a Tale",
+      "slug": "ghost-of-a-tale",
       "date_tested": "Sept '25",
       "is_featured": false
     },
@@ -368,12 +378,6 @@
       "title": "Ascendant",
       "slug": "ascendant",
       "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "BioShock 2 Remastered",
-      "slug": "bioshock-2-remastered",
-      "date_tested": "Jan '25",
       "is_featured": false
     }
   ]
