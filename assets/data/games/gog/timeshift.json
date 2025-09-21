@@ -10,7 +10,7 @@
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**. Use alternate executable: `./bin/TimeShift.exe`. Tested with Proton 9.0-4",
   "date_tested": "March '25",
   "decky_rating": "yellow",
-  "standalone_rating": "yellow",
+  "standalone_rating": "unknown",
   "proton_version": "Proton 9.0-4",
   "dependencies": "",
   "controller_config": "Native Steam Deck Controls",
