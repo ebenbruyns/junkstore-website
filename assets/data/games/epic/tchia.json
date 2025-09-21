@@ -10,7 +10,7 @@
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Works out of the box**. Need to install C++ runtime.",
   "date_tested": "Sept '24",
   "decky_rating": "yellow",
-  "standalone_rating": "green",
+  "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>",
   "controller_config": "",
