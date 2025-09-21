@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 357,
+  "total_games": 359,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -237,6 +237,7 @@
     "prey.json",
     "priest-simulator-vampire-show.json",
     "prison-architect.json",
+    "project-winter.json",
     "qube-10th-anniversary.json",
     "rawmen-food-fighter-arena.json",
     "redacted.json",
@@ -258,6 +259,7 @@
     "sable.json",
     "sail-forth.json",
     "salt-and-sanctuary.json",
+    "samorost-2.json",
     "sands-of-aura.json",
     "scarf.json",
     "session-skate-sim.json",
@@ -360,36 +362,18 @@
     "zenless-zone-zero.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 3,
-  "last_updated": "2025-09-13T04:35:04.953Z",
+  "featured_games": 2,
+  "last_updated": "2025-09-21T04:09:45.886Z",
   "latest_games": [
     {
-      "title": "Ghostrunner II",
-      "slug": "ghostrunner-ii",
-      "date_tested": "Sept '25",
+      "title": "Samorost 2",
+      "slug": "samorost-2",
+      "date_tested": "Sep '25",
       "is_featured": true
     },
     {
-      "title": "Mortal Shell Tech Beta",
-      "slug": "mortal-shell-tech-beta",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Mortal Shell",
-      "slug": "mortal-shell",
-      "date_tested": "March '25",
-      "is_featured": false
-    },
-    {
-      "title": "Lords Mobile",
-      "slug": "lords-mobile",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Monument Valley 2",
-      "slug": "monument-valley-2",
+      "title": "Project Winter",
+      "slug": "project-winter",
       "date_tested": "Sep '25",
       "is_featured": true
     },
@@ -397,24 +381,42 @@
       "title": "The Battle of Polytopia",
       "slug": "the-battle-of-polytopia",
       "date_tested": "Sept '25",
-      "is_featured": true
+      "is_featured": false
     },
     {
-      "title": "Monument Valley+",
-      "slug": "monument-valley",
+      "title": "Monument Valley 2",
+      "slug": "monument-valley-2",
       "date_tested": "Sep '25",
       "is_featured": false
     },
     {
-      "title": "LEGO Builder's Journey",
-      "slug": "lego-builders-journey",
-      "date_tested": "Sep '25",
+      "title": "Ghostrunner II",
+      "slug": "ghostrunner-ii",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Into the Breach",
-      "slug": "into-the-breach",
-      "date_tested": "Sep '25",
+      "title": "Totally Reliable Delivery Service",
+      "slug": "totally-reliable-delivery-service",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Alan Wake Remastered",
+      "slug": "alan-wake-remastered",
+      "date_tested": "July '24",
+      "is_featured": false
+    },
+    {
+      "title": "Cursed to Golf",
+      "slug": "cursed-to-golf",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Bloons TD 6",
+      "slug": "bloons-td-6",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
