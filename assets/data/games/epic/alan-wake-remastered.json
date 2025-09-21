@@ -10,10 +10,10 @@
   "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "July '24",
   "decky_rating": "green",
-  "standalone_rating": "green",
+  "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -53,5 +53,5 @@
   "owned": false,
   "is_featured": false,
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T05:39:00.556Z"
+  "updated_at": "2025-09-18T19:32:50.428Z"
 }
