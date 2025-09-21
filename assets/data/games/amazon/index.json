@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 28,
+  "total_games": 30,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -14,6 +14,7 @@
     "endless-space-2-definitive-edition.json",
     "faraway-2-jungle-escape.json",
     "faraway-arctic-escape.json",
+    "figment-2-creed-valley.json",
     "labyrinth-city-pierre-the-maze-detective.json",
     "lego-indiana-jones-the-original-adventures.json",
     "max-the-curse-of-brotherhood.json",
@@ -29,22 +30,35 @@
     "through-the-darkest-of-times.json",
     "tiny-robots-recharged.json",
     "vlad-circus-descend-into-madness.json",
-    "warhammer-40000-dawn-of-war-ii.json"
+    "warhammer-40000-dawn-of-war-ii.json",
+    "warhammer-40000-space-marine.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2025-09-13T04:35:04.961Z",
+  "featured_games": 0,
+  "last_updated": "2025-09-21T04:09:45.892Z",
   "latest_games": [
     {
       "title": "Subterrain: Mines of Titan",
       "slug": "subterrain-mines-of-titan",
       "date_tested": "Sep '25",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "Afterimage",
       "slug": "afterimage",
       "date_tested": "Sep '25",
-      "is_featured": true
+      "is_featured": false
+    },
+    {
+      "title": "Warhammer 40,000: Space Marine",
+      "slug": "warhammer-40000-space-marine",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Figment 2: Creed Valley",
+      "slug": "figment-2-creed-valley",
+      "date_tested": "Sept '25",
+      "is_featured": false
     },
     {
       "title": "LEGO Indiana Jones: The Original Adventures",
@@ -79,18 +93,6 @@
     {
       "title": "Faraway 2: Jungle Escape",
       "slug": "faraway-2-jungle-escape",
-      "date_tested": "July '25",
-      "is_featured": false
-    },
-    {
-      "title": "Endless Space 2: Definitive Edition",
-      "slug": "endless-space-2-definitive-edition",
-      "date_tested": "July '25",
-      "is_featured": false
-    },
-    {
-      "title": "Aces of the Luftwaffe - Squadron Extended Edition",
-      "slug": "aces-of-the-luftwaffe-squadron-extended-edition",
       "date_tested": "July '25",
       "is_featured": false
     }

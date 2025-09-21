@@ -1,6 +1,6 @@
 {
   "storefront": "itch.io",
-  "total_games": 9,
+  "total_games": 10,
   "games": [
     "10-flights-of-ballooning.json",
     "10s.json",
@@ -10,11 +10,18 @@
     "baba-is-you.json",
     "celeste.json",
     "crosscode.json",
+    "macbat-64-journey-of-a-nice-chap.json",
     "super-hexagon.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-09-13T04:35:04.961Z",
+  "last_updated": "2025-09-21T04:09:45.892Z",
   "latest_games": [
+    {
+      "title": "Macbat 64: Journey of a Nice Chap",
+      "slug": "macbat-64-journey-of-a-nice-chap",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
     {
       "title": "Super Hexagon",
       "slug": "super-hexagon",
