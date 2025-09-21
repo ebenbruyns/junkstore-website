@@ -1,189 +1,189 @@
 {
-  "last_updated": "2025-09-13T04:35:04.968Z",
-  "total_tested_games": 706,
-  "featured_games": 6,
+  "last_updated": "2025-09-21T04:09:45.900Z",
+  "total_tested_games": 714,
+  "featured_games": 4,
   "storefronts": {
     "Epic": {
-      "total": 357,
-      "featured": 3,
+      "total": 359,
+      "featured": 2,
       "directory": "epic"
     },
     "GOG": {
-      "total": 312,
-      "featured": 1,
+      "total": 315,
+      "featured": 2,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 28,
-      "featured": 2,
+      "total": 30,
+      "featured": 0,
       "directory": "amazon"
     },
     "itch.io": {
-      "total": 9,
+      "total": 10,
       "featured": 0,
       "directory": "itch.io"
     }
   },
   "recent_updates": [
     {
-      "title": "Liberated",
+      "title": "Residual",
       "storefront": "GOG",
-      "slug": "liberated",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-13T04:24:25.583Z"
+      "slug": "residual",
+      "date_tested": "Sep '25",
+      "is_featured": true,
+      "updated_at": "2025-09-21T04:09:28.875Z"
     },
     {
-      "title": "Ghostrunner II",
+      "title": "Samorost 2",
       "storefront": "Epic",
-      "slug": "ghostrunner-ii",
-      "date_tested": "Sept '25",
+      "slug": "samorost-2",
+      "date_tested": "Sep '25",
       "is_featured": true,
-      "updated_at": "2025-09-13T04:22:33.630Z"
+      "updated_at": "2025-09-21T03:58:12.379Z"
+    },
+    {
+      "title": "FATE: The Cursed King",
+      "storefront": "GOG",
+      "slug": "fate-the-cursed-king",
+      "date_tested": "Sep '25",
+      "is_featured": true,
+      "updated_at": "2025-09-21T01:13:15.680Z"
+    },
+    {
+      "title": "Project Winter",
+      "storefront": "Epic",
+      "slug": "project-winter",
+      "date_tested": "Sep '25",
+      "is_featured": true,
+      "updated_at": "2025-09-20T01:49:59.047Z"
     },
     {
       "title": "Tower of Time",
       "storefront": "GOG",
       "slug": "tower-of-time",
       "date_tested": "Sept '25",
-      "is_featured": true,
-      "updated_at": "2025-09-13T04:11:43.973Z"
-    },
-    {
-      "title": "Mortal Shell Tech Beta",
-      "storefront": "Epic",
-      "slug": "mortal-shell-tech-beta",
-      "date_tested": "Sept '25",
       "is_featured": false,
-      "updated_at": "2025-09-13T01:46:31.075Z"
-    },
-    {
-      "title": "Mortal Shell",
-      "storefront": "Epic",
-      "slug": "mortal-shell",
-      "date_tested": "March '25",
-      "is_featured": false,
-      "updated_at": "2025-09-13T01:23:19.331Z"
-    },
-    {
-      "title": "Lords Mobile",
-      "storefront": "Epic",
-      "slug": "lords-mobile",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-12T23:23:36.481Z"
-    },
-    {
-      "title": "Subterrain: Mines of Titan",
-      "storefront": "Amazon",
-      "slug": "subterrain-mines-of-titan",
-      "date_tested": "Sep '25",
-      "is_featured": true,
-      "updated_at": "2025-09-12T09:31:12.667Z"
-    },
-    {
-      "title": "Afterimage",
-      "storefront": "Amazon",
-      "slug": "afterimage",
-      "date_tested": "Sep '25",
-      "is_featured": true,
-      "updated_at": "2025-09-12T09:24:32.146Z"
-    },
-    {
-      "title": "Monument Valley 2",
-      "storefront": "Epic",
-      "slug": "monument-valley-2",
-      "date_tested": "Sep '25",
-      "is_featured": true,
-      "updated_at": "2025-09-12T09:08:47.828Z"
+      "updated_at": "2025-09-18T23:42:19.648Z"
     },
     {
       "title": "The Battle of Polytopia",
       "storefront": "Epic",
       "slug": "the-battle-of-polytopia",
       "date_tested": "Sept '25",
-      "is_featured": true,
-      "updated_at": "2025-09-12T06:50:07.864Z"
+      "is_featured": false,
+      "updated_at": "2025-09-18T23:42:17.078Z"
     },
     {
-      "title": "LEGO Indiana Jones: The Original Adventures",
+      "title": "Subterrain: Mines of Titan",
       "storefront": "Amazon",
-      "slug": "lego-indiana-jones-the-original-adventures",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-11T20:55:12.380Z"
-    },
-    {
-      "title": "Sid Meier's Civilization IV: Complete Edition",
-      "storefront": "GOG",
-      "slug": "sid-meiers-civilization-iv-complete-edition",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-11T20:02:25.673Z"
-    },
-    {
-      "title": "Ravenloft: Strahd's Possession",
-      "storefront": "GOG",
-      "slug": "ravenloft-strahds-possession",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-11T20:02:22.771Z"
-    },
-    {
-      "title": "Ravenloft: Stone Prophet",
-      "storefront": "GOG",
-      "slug": "ravenloft-stone-prophet",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-11T20:02:14.811Z"
-    },
-    {
-      "title": "Monument Valley+",
-      "storefront": "Epic",
-      "slug": "monument-valley",
+      "slug": "subterrain-mines-of-titan",
       "date_tested": "Sep '25",
       "is_featured": false,
-      "updated_at": "2025-09-11T20:02:13.257Z"
+      "updated_at": "2025-09-18T23:42:15.523Z"
     },
     {
-      "title": "LEGO Builder's Journey",
+      "title": "Monument Valley 2",
       "storefront": "Epic",
-      "slug": "lego-builders-journey",
+      "slug": "monument-valley-2",
       "date_tested": "Sep '25",
       "is_featured": false,
-      "updated_at": "2025-09-11T20:02:11.401Z"
+      "updated_at": "2025-09-18T23:42:10.280Z"
     },
     {
-      "title": "Into the Breach",
+      "title": "Ghostrunner II",
       "storefront": "Epic",
-      "slug": "into-the-breach",
-      "date_tested": "Sep '25",
-      "is_featured": false,
-      "updated_at": "2025-09-11T20:02:10.345Z"
-    },
-    {
-      "title": "GMDX",
-      "storefront": "GOG",
-      "slug": "gmdx",
+      "slug": "ghostrunner-ii",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "updated_at": "2025-09-11T20:02:06.618Z"
+      "updated_at": "2025-09-18T23:42:08.865Z"
     },
     {
-      "title": "Dorfromantik",
-      "storefront": "GOG",
-      "slug": "dorfromantik",
+      "title": "Afterimage",
+      "storefront": "Amazon",
+      "slug": "afterimage",
       "date_tested": "Sep '25",
       "is_featured": false,
-      "updated_at": "2025-09-11T20:02:05.955Z"
+      "updated_at": "2025-09-18T23:42:05.956Z"
     },
     {
-      "title": "Art of Rally",
+      "title": "Agony",
+      "storefront": "GOG",
+      "slug": "agony",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2025-09-18T20:11:30.132Z"
+    },
+    {
+      "title": "Agony UNRATED",
+      "storefront": "GOG",
+      "slug": "agony-unrated",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2025-09-18T20:11:01.785Z"
+    },
+    {
+      "title": "Totally Reliable Delivery Service",
       "storefront": "Epic",
-      "slug": "art-of-rally",
+      "slug": "totally-reliable-delivery-service",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2025-09-18T20:02:59.738Z"
+    },
+    {
+      "title": "Alan Wake Remastered",
+      "storefront": "Epic",
+      "slug": "alan-wake-remastered",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2025-09-18T19:32:50.428Z"
+    },
+    {
+      "title": "Alan Wake",
+      "storefront": "GOG",
+      "slug": "alan-wake",
+      "date_tested": "March '25",
+      "is_featured": false,
+      "updated_at": "2025-09-18T09:10:22.410Z"
+    },
+    {
+      "title": "Macbat 64: Journey of a Nice Chap",
+      "storefront": "itch.io",
+      "slug": "macbat-64-journey-of-a-nice-chap",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "updated_at": "2025-09-11T00:22:35.067Z"
+      "updated_at": "2025-09-16T04:52:07.068Z"
+    },
+    {
+      "title": "Mafia II",
+      "storefront": "GOG",
+      "slug": "mafia-ii",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-16T04:17:16.932Z"
+    },
+    {
+      "title": "Dishonored 2",
+      "storefront": "GOG",
+      "slug": "dishonored-2",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-16T02:11:39.887Z"
+    },
+    {
+      "title": "Cursed to Golf",
+      "storefront": "Epic",
+      "slug": "cursed-to-golf",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-14T23:58:36.994Z"
+    },
+    {
+      "title": "Ghost of a Tale",
+      "storefront": "GOG",
+      "slug": "ghost-of-a-tale",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-09-14T22:09:07.297Z"
     }
   ]
 }
