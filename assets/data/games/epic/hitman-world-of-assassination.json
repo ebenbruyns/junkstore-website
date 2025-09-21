@@ -10,7 +10,7 @@
   "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**. ReShade & LukeFZ's FSR frame generation mod work too.",
   "date_tested": "July '24",
   "decky_rating": "green",
-  "standalone_rating": "green",
+  "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "",
