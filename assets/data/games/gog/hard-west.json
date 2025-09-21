@@ -10,7 +10,7 @@
   "notes": "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**.",
   "date_tested": "Aug '24",
   "decky_rating": "yellow",
-  "standalone_rating": "yellow",
+  "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "",

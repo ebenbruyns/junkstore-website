@@ -10,7 +10,7 @@
   "notes": "Keyboard & mouse controls. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**. Gameplay will be a black screen unless you disable Post Effects in the settings menu. Mouse & Keyboard only.",
   "date_tested": "Oct '24",
   "decky_rating": "yellow",
-  "standalone_rating": "yellow",
+  "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "",
