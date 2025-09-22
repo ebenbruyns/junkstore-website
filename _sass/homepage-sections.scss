@@ -468,6 +468,19 @@
   transform: translateY(-2px);
 }
 
+/* Wide button for longer text - higher specificity */
+.pricing-cta .button.button-secondary.button-wide {
+  min-width: 250px !important;
+  width: auto !important;
+  padding: 0.75rem 2rem !important;
+  white-space: nowrap !important;
+}
+
+.button-wide {
+  min-width: 200px;
+  padding: 0.75rem 1.5rem;
+}
+
 
 /* SEO Intro section for mobile readability */
 .seo-intro {
@@ -826,6 +839,104 @@
 
 .detailed-comparison summary h2 {
   text-align: center !important;
+}
+
+/* About page styles */
+.about-story {
+  max-width: 1200px;
+  width: 98%;
+  margin: -1rem auto 0.5rem auto;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+}
+
+.about-story h1 {
+  color: #66bfff;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.about-story p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #e8e8e8;
+}
+
+.philosophy {
+  max-width: 1200px;
+  width: 98%;
+  margin: 0.5rem auto;
+  padding: 1rem 1.5rem;
+}
+
+.philosophy h2 {
+  color: #66bfff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.philosophy-points p {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #e8e8e8;
+}
+
+/* About page - nuclear option targeting */
+.page__content h2,
+.page__inner-wrap h2,
+#main h2,
+.archive h2,
+h2#what-our-users-say,
+h2[id] {
+  max-width: 1200px !important;
+  width: 98% !important;
+  margin: 0.5rem auto 0.5rem auto !important;
+  padding: 0 1.5rem !important;
+  color: #66bfff !important;
+  font-size: 2rem !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  display: block !important;
+  box-sizing: border-box !important;
+}
+
+/* Specific override for About page */
+body.layout--splash h2 {
+  text-align: center !important;
+  margin: 0.5rem auto !important;
+  max-width: 1200px !important;
+  width: 98% !important;
+  color: #66bfff !important;
+}
+
+/* Developer section spacing */
+h2:nth-of-type(2) {
+  margin-top: 2rem !important;
+}
+
+/* About page - target paragraphs after story section */
+.about-story ~ p {
+  max-width: 1200px !important;
+  width: 98% !important;
+  margin: 0 auto 1.5rem auto !important;
+  padding: 0 1.5rem !important;
+  font-size: 1.1rem !important;
+  line-height: 1.6 !important;
+  color: #e8e8e8 !important;
+  text-align: center !important;
+}
+
+/* Interview links container */
+.about-story ~ div[style*="display: flex"] {
+  max-width: 1200px !important;
+  width: 98% !important;
+  margin: 0 auto !important;
+  padding: 0 1.5rem !important;
 }
 
 /* Spacer utility */
