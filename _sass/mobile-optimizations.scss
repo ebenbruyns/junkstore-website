@@ -240,8 +240,7 @@
 @media (max-width: 768px) and (orientation: landscape) {
   /* Optimize for landscape mobile browsing */
   .page__hero {
-    min-height: 50vh;
-    padding: 1rem 1rem 1.5rem 1rem;
+    /* Height and padding managed by hero-height-fix.scss */
   }
 
   .masthead {
