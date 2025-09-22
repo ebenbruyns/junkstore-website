@@ -1,9 +1,14 @@
 /* Hero Section Height Reduction
    Reduces excessive empty space below hero buttons */
 
-/* Override default hero height */
+/* Override default hero height - applies to ALL pages */
 .page__hero,
-.page__hero--overlay {
+.page__hero--overlay,
+.page__hero--splash,
+.splash .page__hero,
+.layout--splash .page__hero,
+.archive__hero,
+.page__feature {
   min-height: 35vh !important; /* Significantly reduced for more content space */
   max-height: 500px !important; /* Cap maximum height on large screens */
   display: flex;
@@ -30,10 +35,15 @@
   margin-bottom: 0 !important;
 }
 
-/* Mobile adjustments */
+/* Mobile adjustments - applies to ALL pages */
 @media (max-width: 768px) {
   .page__hero,
-  .page__hero--overlay {
+  .page__hero--overlay,
+  .page__hero--splash,
+  .splash .page__hero,
+  .layout--splash .page__hero,
+  .archive__hero,
+  .page__feature {
     min-height: 30vh !important; /* Compact mobile hero */
     max-height: 400px !important;
     padding: 1rem !important;
@@ -42,7 +52,12 @@
 
 @media (max-width: 480px) {
   .page__hero,
-  .page__hero--overlay {
+  .page__hero--overlay,
+  .page__hero--splash,
+  .splash .page__hero,
+  .layout--splash .page__hero,
+  .archive__hero,
+  .page__feature {
     min-height: 25vh !important; /* Very compact on small screens */
     max-height: 350px !important;
     padding: 0.75rem !important;
