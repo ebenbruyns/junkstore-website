@@ -33,7 +33,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
   <div class="problem-box">
     <h2>Other Launchers: Desktop Mode Required</h2>
     <div class="problem-points">
-      <p>❌ <strong>Desktop Mode dependency:</strong> Requires Desktop Mode for most game management tasks</p>
+      <p>❌ <strong>Desktop Mode dependency:</strong> Requires Desktop Mode for game management tasks</p>
       <p>❌ <strong>External integration:</strong> Limited by working outside Steam's ecosystem</p>
       <p>❌ <strong>Background launcher dependency:</strong> Extra processes consuming resources while gaming</p>
       <p>❌ <strong>Inconsistent experience:</strong> Breaks the unified gaming flow</p>
@@ -91,11 +91,8 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
 <section class="pricing-highlight">
   <div class="pricing-box">
     <h3>🚀 The Only Pure Game Mode Solution</h3>
-    <p class="own-forever-text"><strong>Own JunkStore 2.0 Forever - $40</strong><br>Includes 1 full year of updates. Keep everything permanently.<br>Only pay again if you want future updates beyond year 1.</p>
-    <p class="price-text"><strong>$40/year</strong> • Less than $1/week to eliminate Desktop Mode forever</p>
-    <p class="trial-text"><strong>7 days free to try everything</strong> • Only charged if you keep it • Cancel anytime</p>
-    <p class="value-text">💯 <strong>Worth it vs free alternatives?</strong> If you value instant library access without launching apps, absolutely. Your entire Epic, GOG, Amazon & itch.io (beta) libraries visible directly in Game Mode - eliminate Desktop Mode switching with architecture designed specifically for handheld gaming.</p>
-    <p class="fence-text">Why compromise your handheld experience? Try our Game Mode-native solution free for 7 days.</p>
+    <p class="price-text"><strong>$40/year • 7-day free trial</strong></p>
+    <p class="value-text">Never leave Game Mode to play Epic, GOG, Amazon & itch.io games</p>
     <div class="pricing-cta">
       <a href="/buy_now/" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_gallery" data-label="homepage_pricing">See It In Action</a>
