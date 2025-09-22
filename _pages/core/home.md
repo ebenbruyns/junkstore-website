@@ -120,32 +120,6 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
   </div>
 </section>
 
-<section class="competitive-comparison">
-  <h2>Why Choose Junk Store Over Free Alternatives?</h2>
-  <div class="comparison-grid">
-    <div class="comparison-item">
-      <h3>🎯 Desktop Mode Dependency</h3>
-      <p><strong>Most alternatives:</strong> Excellent desktop applications designed for traditional PC workflows</p>
-      <p><strong>The structural difference:</strong> Desktop-based architecture requires switching out of handheld mode</p>
-      <p><strong>Junk Store approach:</strong> Game Mode-native architecture eliminates desktop switching entirely</p>
-    </div>
-    <div class="comparison-item">
-      <h3>🎯 Workflow Philosophy</h3>
-      <p><strong>Most alternatives:</strong> Desktop-first design with comprehensive configuration options</p>
-      <p><strong>The structural difference:</strong> Designed for users comfortable with desktop game management</p>
-      <p><strong>Junk Store approach:</strong> Handheld-first design prioritizing controller navigation and simplicity</p>
-    </div>
-    <div class="comparison-item">
-      <h3>🎯 Library Access & Integration</h3>
-      <p><strong>Most alternatives:</strong> Must launch separate launcher apps to view your library and install games</p>
-      <p><strong>The structural difference:</strong> Need to open the launcher application first to browse and install from your Epic, GOG, Amazon & itch.io libraries</p>
-      <p><strong>Junk Store approach:</strong> Entire library (installed and uninstalled games) visible directly in Game Mode</p>
-    </div>
-  </div>
-  <div class="comparison-conclusion">
-    <p><strong>The bottom line:</strong> Excellent free alternatives serve users comfortable with launching separate apps for game management. Junk Store's $40/year serves users who want everything accessible directly in Game Mode - a fundamentally different architectural approach.</p>
-  </div>
-</section>
 
 {% include testimonials.html %}
 
@@ -160,7 +134,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
     <div class="pricing-cta">
       <a href="/buy_now/" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_gallery" data-label="homepage_pricing">See It In Action</a>
-      <a href="/comparison/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_comparison" data-label="homepage_pricing">Compare Features</a>
+      <a href="/comparison/" class="button button-secondary button-wide" data-event="click" data-category="engagement" data-action="view_comparison" data-label="homepage_pricing">Why Choose Junk Store</a>
     </div>
   </div>
 </section>
