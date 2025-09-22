@@ -4,12 +4,13 @@
 /* Override default hero height */
 .page__hero,
 .page__hero--overlay {
-  min-height: 45vh !important; /* Reduced from 60vh */
+  min-height: 35vh !important; /* Significantly reduced for more content space */
+  max-height: 500px !important; /* Cap maximum height on large screens */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1rem !important; /* Reduced padding */
+  padding: 1.5rem 1rem !important; /* Reduced padding */
 }
 
 /* Ensure wrapper content is properly centered */
@@ -33,15 +34,17 @@
 @media (max-width: 768px) {
   .page__hero,
   .page__hero--overlay {
-    min-height: 40vh !important; /* Even smaller on mobile */
-    padding: 1.5rem 1rem !important;
+    min-height: 30vh !important; /* Compact mobile hero */
+    max-height: 400px !important;
+    padding: 1rem !important;
   }
 }
 
 @media (max-width: 480px) {
   .page__hero,
   .page__hero--overlay {
-    min-height: 35vh !important; /* Smallest on very small screens */
-    padding: 1rem !important;
+    min-height: 25vh !important; /* Very compact on small screens */
+    max-height: 350px !important;
+    padding: 0.75rem !important;
   }
 }
