@@ -95,8 +95,7 @@
 /* Preload critical resources */
 .page__hero {
   contain: layout;
-  /* Optimize hero section for mobile */
-  min-height: 60vh;
+  /* Hero height managed by hero-height-fix.scss */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,9 +182,8 @@
 
 /* Critical above-the-fold mobile styles */
 @media (max-width: 768px) {
-  /* Ensure hero section renders quickly */
+  /* Ensure hero section renders quickly - height managed by hero-height-fix.scss */
   .page__hero {
-    min-height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
