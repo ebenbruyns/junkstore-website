@@ -8,36 +8,21 @@
     {% endfor %}
   </div>
   
-  <div class="testimonial-dots">
-    {% for testimonial in site.data.testimonials %}
-      <button class="dot{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}" aria-label="View testimonial {{ forloop.index }} of {{ site.data.testimonials.size }}"></button>
-    {% endfor %}
-  </div>
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const testimonials = document.querySelectorAll(".testimonial-item");
-    const dots = document.querySelectorAll(".testimonial-dots .dot");
     let currentIndex = 0;
     let autoRotate;
 
     function showTestimonial(index) {
       // Hide all testimonials
       testimonials.forEach(t => t.classList.remove("active"));
-      dots.forEach(d => d.classList.remove("active"));
 
       // Show selected testimonial
       testimonials[index].classList.add("active");
-      dots[index].classList.add("active");
       currentIndex = index;
-
-      // Dynamically adjust container height to prevent overlap
-      const activeTestimonial = testimonials[index];
-      const container = document.getElementById("testimonial-display");
-      const testimonialHeight = activeTestimonial.scrollHeight;
-      const minHeight = window.innerWidth <= 768 ? 200 : 140; // Mobile vs desktop min height
-      container.style.minHeight = Math.max(minHeight, testimonialHeight + 40) + 'px'; // 40px buffer
     }
 
     function nextTestimonial() {
@@ -53,19 +38,6 @@
       clearInterval(autoRotate);
     }
 
-    // Dot click handlers
-    dots.forEach((dot, index) => {
-      dot.addEventListener("click", () => {
-        stopAutoRotate();
-        showTestimonial(index);
-        startAutoRotate();
-      });
-    });
-
-    // Handle window resize to recalculate heights
-    window.addEventListener('resize', () => {
-      showTestimonial(currentIndex); // Recalculate height for current testimonial
-    });
 
     // Start auto rotation
     startAutoRotate();
@@ -82,25 +54,28 @@
 
   #testimonial-display {
     position: relative;
-    min-height: 140px;
+    height: 140px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    overflow: visible;
-    padding-bottom: 1rem; /* Extra space to prevent overlap with dots */
+    overflow: hidden;
   }
 
   .testimonial-item {
     opacity: 0;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
     right: 0;
-    transform: translateY(0);
+    transform: translateY(-50%);
     transition: opacity 0.4s ease-in-out;
     padding: 1rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .testimonial-item.active {
@@ -124,80 +99,29 @@
     font-weight: 500;
   }
 
-  .testimonial-dots {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    margin-top: 1rem;
-  }
-
-  .testimonial-dots .dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    border: none;
-    background-color: #444;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    min-width: 44px; /* Minimum touch target */
-    min-height: 44px; /* Minimum touch target */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .testimonial-dots .dot::before {
-    content: '';
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: #444;
-    transition: background-color 0.3s ease;
-  }
-
-  .testimonial-dots .dot.active::before,
-  .testimonial-dots .dot:hover::before {
-    background-color: #66bfff;
-  }
 
   @media (max-width: 768px) {
     .testimonials-section {
       margin: 1.5rem auto;
       padding: 0 1.5rem;
     }
-    
+
     #testimonial-display {
-      min-height: 200px; /* More minimum height for mobile text */
-      padding-bottom: 1.5rem; /* Extra mobile spacing to prevent overlap */
+      height: 180px; /* Fixed height for mobile */
     }
-    
+
     .testimonial-item {
       padding: 1.5rem 0.5rem;
     }
-    
+
     .testimonial-quote {
-      font-size: 1.1rem; /* Larger for mobile readability */
-      line-height: 1.6;
+      font-size: 1.05rem; /* Slightly larger for mobile readability */
+      line-height: 1.5;
       margin-bottom: 1rem;
     }
 
     .testimonial-author {
-      font-size: 1rem; /* Larger author text for mobile */
-    }
-
-    .testimonial-dots {
-      gap: 1rem; /* More spacing between dots on mobile */
-      margin-top: 2rem; /* More space from testimonials to dots */
-    }
-
-    .testimonial-dots .dot {
-      min-width: 48px; /* Larger touch targets for mobile */
-      min-height: 48px;
-    }
-
-    .testimonial-dots .dot::before {
-      width: 14px; /* Slightly larger visual indicator */
-      height: 14px;
+      font-size: 0.95rem; /* Compact author text for mobile */
     }
   }
 </style>
