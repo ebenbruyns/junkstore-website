@@ -31,7 +31,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
 
 <section class="problem-solution">
   <div class="problem-box">
-    <h2>Why Most Launchers Break the Handheld Experience</h2>
+    <h2>Other Launchers: Desktop Mode Required</h2>
     <div class="problem-points">
       <p>❌ <strong>Desktop Mode dependency:</strong> Requires Desktop Mode for most game management tasks</p>
       <p>❌ <strong>External integration:</strong> Limited by working outside Steam's ecosystem</p>
