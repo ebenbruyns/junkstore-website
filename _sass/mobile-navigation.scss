@@ -1,5 +1,27 @@
 /* Mobile Navigation Enhancements */
 
+/* Greedy Navigation Optimizations */
+.greedy-nav {
+  .visible-links {
+    /* Ensure proper width calculation */
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+
+  .masthead__menu-item {
+    /* Prevent text wrapping that could affect calculations */
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+}
+
+/* Force recalculation on larger screens */
+@media (min-width: 769px) {
+  .greedy-nav .visible-links {
+    display: flex !important;
+  }
+}
+
 /* Improve mobile masthead */
 @media (max-width: 768px) {
   .masthead {

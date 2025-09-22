@@ -12,16 +12,16 @@ header:
     - label: "Get Junk Store 2.0"
       url: "/buy_now/"
       class: "button buy-button"
+excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.io games - both free Decky plugin and Junk Store 2.0"
 ---
-<div class="spacer mt-4"></div>
+
+<section class="seo-intro">
+  <p><strong>Complete tutorials for both Junk Store versions.</strong> Whether you're using the free Decky plugin or Junk Store 2.0, find step-by-step guides for Epic, GOG, Amazon & itch.io games - all in Steam Deck Game Mode.</p>
+</section>
 
 <!-- Welcome Message -->
 <section class="tutorials-welcome">
-  <h2>Complete Tutorials & How-To Guides</h2>
-  <p>
-    Step-by-step tutorials for both <strong>Junk Store Decky Plugin</strong> (free) and <strong>Junk Store 2.0 Standalone</strong> (Professional).
-    Whether you're just getting started or need advanced tips, we've got you covered.
-  </p>
+  <h2>Choose Your Version</h2>
 
   <div class="version-guide">
     <div class="version-card decky filter-card" data-filter="decky" onclick="filterTutorials('decky')">

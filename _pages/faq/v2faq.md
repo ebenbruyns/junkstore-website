@@ -13,11 +13,13 @@ header:
     - label: "Buy Now"
       url: "/buy_now/"
       class: "button buy-button"
+excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on Steam Deck. Pricing, setup, and technical support"
 ---
 <div id="top"></div>
-<div class="spacer mt-4"></div>
 
-This is the official Junk Store FAQ, where you'll find answers to the most commonly asked questions. We update this page regularly as new features roll out and feedback comes in.
+<section class="seo-intro">
+  <p><strong>Complete FAQ for Junk Store 2.0.</strong> Find answers to common questions about playing Epic, GOG, Amazon & itch.io games on Steam Deck with our standalone app.</p>
+</section>
 
 
 <!-- FAQ Search Interface -->
