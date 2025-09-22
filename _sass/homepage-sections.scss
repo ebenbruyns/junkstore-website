@@ -4,8 +4,10 @@
   border: 1px solid rgba(102, 191, 255, 0.3);
   border-radius: 8px;
   padding: 1rem 1.5rem;
-  margin-bottom: 1.5rem;
+  margin: 1.5rem auto;
   text-align: center;
+  max-width: 1200px;
+  width: 98%;
 }
 
 .whats-new-banner p {
@@ -26,10 +28,47 @@
   text-transform: uppercase;
 }
 
+/* Homepage h1 alignment */
+.layout--splash h1 {
+  max-width: 1200px;
+  width: 98%;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+/* Hero section alignment with content boxes - override theme defaults */
+.page__hero--overlay,
+.page__hero {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.page__hero--overlay .wrapper,
+.page__hero .wrapper {
+  max-width: 1200px !important;
+  width: 98% !important;
+  margin: 0 auto !important;
+  padding: 3em 0 !important;
+  text-align: left !important;
+}
+
+.page__hero--overlay .page__title,
+.page__hero--overlay .page__lead,
+.page__hero--overlay .page__hero-actions,
+.page__hero .page__title,
+.page__hero .page__lead,
+.page__hero .page__hero-actions {
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: none !important;
+  width: 100% !important;
+}
+
 /* Major differentiators section */
 .major-differentiators {
   max-width: 1200px;
-  width: 95%;
+  width: 98%;
   margin: 1rem auto 3rem auto;
   text-align: center;
 }
@@ -59,6 +98,8 @@
   color: #ffa366;
   font-size: 1.1rem;
   margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 0;
 }
 
 .differentiator-item p {
@@ -207,16 +248,14 @@
 .problem-solution {
   background-color: #253445;
   padding: 2.5rem 1rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
   border-radius: 8px;
   border: 1px solid #444;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   max-width: 1200px;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 98%;
   min-height: 300px;
 }
 
@@ -289,15 +328,13 @@
 /* Key Features Section */
 .key-features {
   background-color: #1e2a38;
-  padding: 0.5rem 1rem 2rem 1rem !important;
-  margin: 0.5rem 0 0.5rem 0 !important;
+  padding: 0.5rem 1rem 2rem 1rem;
+  margin: 0.5rem auto;
   text-align: center;
   border-radius: 8px;
   border: 1px solid #444;
   max-width: 1200px;
-  width: 95%;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  width: 98%;
   min-height: 300px;
 }
 
@@ -435,12 +472,12 @@
 /* SEO Intro section for mobile readability */
 .seo-intro {
   padding: 1.5rem 1rem;
-  margin: 1rem 0;
+  margin: 1rem auto;
   background-color: rgba(102, 191, 255, 0.1);
   border-left: 4px solid #66bfff;
   border-radius: 0 6px 6px 0;
   max-width: 1200px;
-  margin: 1rem auto;
+  width: 98%;
 }
 
 .seo-intro p {
@@ -454,13 +491,11 @@
 .screenshot-section {
   background-color: #1e2a38;
   padding: 0.5rem 1rem 2rem 1rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
   border-radius: 8px;
   border: 1px solid #444;
   max-width: 1200px;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 98%;
 }
 
 .screenshot-box {
@@ -625,7 +660,7 @@
   border-radius: 8px;
   border: 1px solid #444;
   max-width: 1200px;
-  width: 95%;
+  width: 98%;
 }
 
 .where-to-find h2 {
@@ -648,6 +683,149 @@
 
 .where-to-find .button {
   margin-top: 1rem;
+}
+
+/* GOG Extension Section Styling */
+.gog-extension {
+  text-align: left;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background-color: #1e2a38;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 98%;
+}
+
+.gog-extension h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
+}
+
+.gog-extension p,
+.gog-extension div {
+  color: #e8e8e8;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.gog-extension .button {
+  display: block;
+  margin: 1.5rem auto 0 auto;
+  text-align: center;
+}
+
+/* Standalone button alignment */
+.gog-extension + a.button.gog-extension-button {
+  display: block;
+  text-align: center;
+  max-width: 1200px;
+  width: 98%;
+  margin: 1rem auto 2rem auto;
+}
+
+/* Tutorials page styling */
+.tutorials-welcome {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background-color: #1e2a38;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 98%;
+}
+
+.tutorials-welcome h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+/* Comparison page hero styling */
+.comparison-hero {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  max-width: 1200px;
+  width: 98%;
+}
+
+.comparison-hero h1 {
+  color: #66bfff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+/* Upgrade page hero styling */
+.upgrade-hero {
+  text-align: center;
+  margin: 2rem auto 0 auto;
+  padding: 2rem 1.5rem 0.5rem 1.5rem;
+  max-width: 1200px;
+  width: 98%;
+}
+
+.upgrade-hero h1 {
+  color: #66bfff;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center !important;
+}
+
+/* Upgrade page sections alignment */
+.upgrade-highlights,
+.upgrade-benefits,
+.upgrade-decision,
+.detailed-comparison-section {
+  max-width: 1200px;
+  width: 98%;
+  margin: 1rem auto;
+  padding: 1rem 1.5rem;
+}
+
+/* Reduce spacing between decision section and comparison */
+.upgrade-decision {
+  margin-bottom: 0.5rem;
+}
+
+.upgrade-decision h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.detailed-comparison-section {
+  margin-top: 0.5rem;
+}
+
+/* Reduce spacing between upgrade hero and highlights */
+.upgrade-highlights {
+  margin-top: 0;
+}
+
+/* Reduce bottom padding on upgrade hero */
+.upgrade-hero {
+  padding-bottom: 1rem;
+}
+
+/* Center text in detailed comparison summary */
+.detailed-comparison summary {
+  text-align: center;
+}
+
+.detailed-comparison summary h2 {
+  text-align: center !important;
 }
 
 /* Spacer utility */
