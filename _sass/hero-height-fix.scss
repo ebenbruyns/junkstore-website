@@ -44,9 +44,10 @@
   .layout--splash .page__hero,
   .archive__hero,
   .page__feature {
-    min-height: 30vh !important; /* Compact mobile hero */
-    max-height: 400px !important;
-    padding: 1rem !important;
+    min-height: 45vh !important; /* Increased for mobile content */
+    max-height: 600px !important; /* Higher max for mobile */
+    padding: 2rem 1rem !important; /* More top padding to clear navigation */
+    padding-top: 3rem !important; /* Extra top padding for navigation clearance */
   }
 }
 
@@ -58,9 +59,10 @@
   .layout--splash .page__hero,
   .archive__hero,
   .page__feature {
-    min-height: 35vh !important; /* Increased for small screens - need room for content */
-    max-height: 450px !important; /* Increased max height for small screens */
-    padding: 1rem 0.75rem !important; /* More vertical padding */
+    min-height: 55vh !important; /* Much taller for small screens with buttons */
+    max-height: 700px !important; /* Higher max to prevent overflow */
+    padding: 3rem 0.75rem 2rem 0.75rem !important; /* Extra top/bottom padding */
+    padding-top: 4rem !important; /* Clear navigation completely */
   }
 }
 
@@ -68,9 +70,10 @@
 @media (max-width: 375px) {
   .page__hero,
   .page__hero--overlay {
-    min-height: 40vh !important; /* Even more space for tiny screens */
-    max-height: 500px !important;
-    padding: 1.25rem 0.5rem !important;
+    min-height: 60vh !important; /* Even more space for tiny screens */
+    max-height: 750px !important;
+    padding: 4rem 0.5rem 2.5rem 0.5rem !important;
+    padding-top: 5rem !important; /* Maximum clearance for old phones */
   }
 }
 
