@@ -6,6 +6,9 @@
   gap: 20px; /* Space between each box */
   // margin: 20px 0;
   // flex-wrap: wrap; /* Allow wrapping to next line on small screens */
+  max-width: 1200px;
+  width: 98%;
+  margin: 2rem auto;
 }
 
 /* Style for each individual content box */
