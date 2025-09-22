@@ -1,7 +1,7 @@
-/* GitHub-Style Professional Notice Banner */
+/* GitHub-Style Professional Notice Banner - Safari Compatible */
 .whats-new-banner {
-  background: #0d1117;
-  border: 1px solid #30363d;
+  background-color: #0d1117 !important;
+  border: 1px solid #30363d !important;
   border-radius: 6px;
   padding: 16px;
   margin: 1.5rem auto;
@@ -9,6 +9,7 @@
   width: 98%;
   position: relative;
   text-align: center;
+  -webkit-appearance: none; /* Safari fix */
 }
 
 .whats-new-banner::before {
@@ -16,8 +17,8 @@
   position: absolute;
   top: -8px;
   left: 24px;
-  background: #238636;
-  color: white;
+  background-color: #238636 !important;
+  color: #ffffff !important;
   padding: 2px 8px;
   font-size: 0.75rem;
   border-radius: 3px;
@@ -26,13 +27,13 @@
 
 .whats-new-banner p {
   margin: 0;
-  color: #f0f6fc;
+  color: #f0f6fc !important;
   font-size: 1rem;
   font-weight: 500;
 }
 
 .whats-new-banner strong {
-  color: #58a6ff;
+  color: #58a6ff !important; /* GitHub blue */
   font-weight: 600;
 }
 
