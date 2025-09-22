@@ -13,11 +13,13 @@ header:
     - label: "Get Junk Store 2.0"
       url: "/buy_now/"
       class: "button buy-button"
+excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support included, GOG extension available separately"
 ---
 <div id="top"></div>
-<div class="spacer mt-4"></div>
 
-Welcome to the complete Steam Deck Junk Store Decky Plugin FAQ! This page covers everything about playing Epic Games and GOG games on Steam Deck using the free, open-source Decky plugin. Play your non-Steam games in Game Mode without switching to Desktop Mode.
+<section class="seo-intro">
+  <p><strong>Complete FAQ for the free Junk Store Decky plugin.</strong> This page covers everything about playing Epic Games and GOG games on Steam Deck using the free, open-source Decky plugin in Game Mode.</p>
+</section>
 
 
 <!-- FAQ Search Interface -->

@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Buy Junk Store 2.0 - Steam Deck App for Epic, GOG, Amazon & itch.io (beta) Games"
+title: "Get Junk Store 2.0"
 description: "Download Junk Store 2.0 standalone app for Steam Deck. $40/year with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch.io (beta) directly in Game Mode."
 permalink: /buy_now/
 header:
@@ -15,6 +15,7 @@ header:
     - label: "Watch Demo First"
       url: "/gallery/"
       class: "button button-secondary"
+excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io games in Game Mode. 7-day free trial available"
 ---
 
 <h1>Transform Your Steam Deck Into a Unified Gaming Hub</h1>
