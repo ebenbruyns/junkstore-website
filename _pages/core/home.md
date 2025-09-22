@@ -50,41 +50,6 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
   </div>
 </section>
 
-<section class="key-features">
-  <h2>Why Steam Deck Users Choose Junk Store</h2>
-  <div class="features-grid">
-    <div class="feature">
-      <h3>🚀 Pure Game Mode Experience</h3>
-      <p class="problem">❌ <strong>Others:</strong> Force desktop switching</p>
-      <p class="solution">✅ <strong>Junk Store:</strong> Never leave Game Mode</p>
-    </div>
-    <div class="feature">
-      <h3>⚡ Games Just Work</h3>
-      <p class="problem">❌ <strong>Others:</strong> Complex setup and tinkering</p>
-      <p class="solution">✅ <strong>Junk Store:</strong> Install and play immediately</p>
-    </div>
-    <div class="feature">
-      <h3>🛍️ True Steam Integration</h3>
-      <p class="problem">❌ <strong>Others:</strong> Separate launcher apps</p>
-      <p class="solution">✅ <strong>Junk Store:</strong> All games in Steam library</p>
-    </div>
-    <div class="feature">
-      <h3>🔧 Professional Support</h3>
-      <p class="problem">❌ <strong>Others:</strong> Community volunteers, slow updates</p>
-      <p class="solution">✅ <strong>Junk Store:</strong> Full-time dev team, instant updates</p>
-    </div>
-    <div class="feature">
-      <h3>💾 Advanced Customization</h3>
-      <p class="problem">❌ <strong>Others:</strong> Limited modification options</p>
-      <p class="solution">✅ <strong>Junk Store:</strong> Deep config + custom extensions</p>
-    </div>
-    <div class="feature">
-      <h3>🎮 Complete Gaming Hub</h3>
-      <p class="problem">❌ <strong>Others:</strong> Only handle store games</p>
-      <p class="solution">✅ <strong>Junk Store:</strong> Stores + ROMs + emulators unified</p>
-    </div>
-  </div>
-</section>
 
 <section class="screenshot-section">
   <div class="screenshot-box">
