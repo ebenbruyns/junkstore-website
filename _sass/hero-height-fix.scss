@@ -58,8 +58,32 @@
   .layout--splash .page__hero,
   .archive__hero,
   .page__feature {
-    min-height: 25vh !important; /* Very compact on small screens */
-    max-height: 350px !important;
-    padding: 0.75rem !important;
+    min-height: 35vh !important; /* Increased for small screens - need room for content */
+    max-height: 450px !important; /* Increased max height for small screens */
+    padding: 1rem 0.75rem !important; /* More vertical padding */
+  }
+}
+
+/* Special handling for very small screens and homepage */
+@media (max-width: 375px) {
+  .page__hero,
+  .page__hero--overlay {
+    min-height: 40vh !important; /* Even more space for tiny screens */
+    max-height: 500px !important;
+    padding: 1.25rem 0.5rem !important;
+  }
+}
+
+/* Ensure buttons don't overflow on small screens */
+@media (max-width: 480px) {
+  .page__hero-actions {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .page__hero-actions .button {
+    margin: 0.25rem auto !important;
+    font-size: 0.9rem !important;
+    padding: 0.75rem 1rem !important;
   }
 }
