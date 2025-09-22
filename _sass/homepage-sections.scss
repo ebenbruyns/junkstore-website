@@ -43,6 +43,7 @@
     margin: 1rem auto;
     padding: 14px 12px;
     width: 95%;
+    background-color: #000000 !important; /* Force black background for Safari */
   }
 
   .whats-new-banner::before {
@@ -50,15 +51,18 @@
     top: -6px;
     font-size: 0.7rem;
     padding: 1px 6px;
+    background-color: #28a745 !important; /* Force green for Safari */
   }
 
   .whats-new-banner p {
     font-size: 0.95rem;
     line-height: 1.4;
+    color: #ffffff !important; /* Force white text for Safari */
   }
 
   .whats-new-banner strong {
     font-size: 0.95rem;
+    color: #66bfff !important; /* Force lighter blue for Safari contrast */
   }
 }
 
@@ -994,8 +998,7 @@ h2:nth-of-type(2) {
   /* Hero section improvements for mobile conversion */
   .page__hero {
     text-align: center;
-    padding: 1.5rem 1rem 2rem 1rem;
-    min-height: 65vh;
+    /* Height and padding managed by hero-height-fix.scss */
     display: flex;
     flex-direction: column;
     justify-content: center;
