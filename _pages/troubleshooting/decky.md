@@ -397,9 +397,9 @@ header:
       <span class="help-title">Decky Plugin FAQ</span>
       <span class="help-desc">Common plugin questions</span>
     </a>
-    <a href="/gallery/" class="help-link">
-      <span class="help-title">Gallery</span>
-      <span class="help-desc">Visual examples</span>
+    <a href="/tested-games/" class="help-link">
+      <span class="help-title">Games Tested</span>
+      <span class="help-desc">Compatibility database</span>
     </a>
   </div>
 </div>
@@ -407,9 +407,9 @@ header:
 <div class="help-section">
   <h3>More Resources</h3>
   <div class="help-links">
-    <a href="/tested-games/" class="help-link">
-      <span class="help-title">Games Tested</span>
-      <span class="help-desc">Compatibility database</span>
+    <a href="/upgrade/" class="help-link">
+      <span class="help-title">Upgrade to 2.0</span>
+      <span class="help-desc">Free vs Professional</span>
     </a>
     <a href="/get_started/" class="help-link">
       <span class="help-title">Getting Started</span>
