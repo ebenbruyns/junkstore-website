@@ -40,10 +40,10 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
   </div>
 
   <div class="progressive-cta">
-    <p class="cta-prompt">Convinced by what you see?</p>
+    <p class="cta-prompt">Ready to get started, or need more details?</p>
     <div class="cta-buttons">
       <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_visual_proof">Start Free Trial</a>
-      <a href="#pricing-details" class="button button-secondary" data-event="click" data-category="engagement" data-action="scroll_to_pricing" data-label="buy_now_visual_proof">See Full Pricing Details</a>
+      <a href="/comparison/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_comparison" data-label="buy_now_visual_proof">Compare Features</a>
     </div>
   </div>
 </section>
@@ -116,8 +116,6 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
     <p class="trial-text">7-day free trial • Cancel anytime • Keep everything forever after purchase</p>
     <div class="pricing-cta">
       <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Start Free Trial</a>
-      <a href="/comparison/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_comparison" data-label="buy_now_page_secondary">Compare Features</a>
-      <a href="/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_gallery" data-label="buy_now_page_pricing">See More Demos</a>
     </div>
   </div>
 </section>
