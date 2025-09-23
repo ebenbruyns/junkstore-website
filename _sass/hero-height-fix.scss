@@ -1,15 +1,21 @@
 /* Hero Section Height Reduction
    Reduces excessive empty space below hero buttons */
 
-/* Override default hero height */
+/* Override default hero height - applies to ALL pages */
 .page__hero,
-.page__hero--overlay {
-  min-height: 45vh !important; /* Reduced from 60vh */
+.page__hero--overlay,
+.page__hero--splash,
+.splash .page__hero,
+.layout--splash .page__hero,
+.archive__hero,
+.page__feature {
+  min-height: 35vh !important; /* Significantly reduced for more content space */
+  max-height: 500px !important; /* Cap maximum height on large screens */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1rem !important; /* Reduced padding */
+  padding: 1.5rem 1rem !important; /* Reduced padding */
 }
 
 /* Ensure wrapper content is properly centered */
@@ -29,19 +35,58 @@
   margin-bottom: 0 !important;
 }
 
-/* Mobile adjustments */
+/* Mobile adjustments - applies to ALL pages */
 @media (max-width: 768px) {
   .page__hero,
-  .page__hero--overlay {
-    min-height: 40vh !important; /* Even smaller on mobile */
-    padding: 1.5rem 1rem !important;
+  .page__hero--overlay,
+  .page__hero--splash,
+  .splash .page__hero,
+  .layout--splash .page__hero,
+  .archive__hero,
+  .page__feature {
+    min-height: 45vh !important; /* Increased for mobile content */
+    max-height: 600px !important; /* Higher max for mobile */
+    padding: 2rem 1rem !important; /* More top padding to clear navigation */
+    padding-top: 3rem !important; /* Extra top padding for navigation clearance */
   }
 }
 
 @media (max-width: 480px) {
   .page__hero,
+  .page__hero--overlay,
+  .page__hero--splash,
+  .splash .page__hero,
+  .layout--splash .page__hero,
+  .archive__hero,
+  .page__feature {
+    min-height: 55vh !important; /* Much taller for small screens with buttons */
+    max-height: 700px !important; /* Higher max to prevent overflow */
+    padding: 3rem 0.75rem 2rem 0.75rem !important; /* Extra top/bottom padding */
+    padding-top: 4rem !important; /* Clear navigation completely */
+  }
+}
+
+/* Special handling for very small screens and homepage */
+@media (max-width: 375px) {
+  .page__hero,
   .page__hero--overlay {
-    min-height: 35vh !important; /* Smallest on very small screens */
-    padding: 1rem !important;
+    min-height: 60vh !important; /* Even more space for tiny screens */
+    max-height: 750px !important;
+    padding: 4rem 0.5rem 2.5rem 0.5rem !important;
+    padding-top: 5rem !important; /* Maximum clearance for old phones */
+  }
+}
+
+/* Ensure buttons don't overflow on small screens */
+@media (max-width: 480px) {
+  .page__hero-actions {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .page__hero-actions .button {
+    margin: 0.25rem auto !important;
+    font-size: 0.9rem !important;
+    padding: 0.75rem 1rem !important;
   }
 }

@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Junk Store in Action - Videos & Screenshots"
-description: "See Junk Store in action on Steam Deck - videos, GIFs & screenshots. Everything done in Game Mode, no Desktop Mode required."
+title: "Gallery - Junk Store in Action"
+description: "See Junk Store in action on Steam Deck with Epic, GOG, Amazon & itch.io games - videos, GIFs & screenshots. Everything done in Game Mode, no Desktop Mode required."
 permalink: /gallery/
 header:
   overlay_color: "#000"
@@ -15,7 +15,7 @@ header:
     - label: "Learn More"
       url: "/buy_now/"
       class: "button button-secondary"
-excerpt: "Explore Junk Store in action: GIFs, videos, and articles."
+excerpt: "See Epic, GOG, Amazon & itch.io games running seamlessly in Steam Deck Game Mode - GIFs, videos, and live demos"
 classes: wide
 ---
 <div class="spacer mt-4"></div>
