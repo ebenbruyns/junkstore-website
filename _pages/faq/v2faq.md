@@ -96,7 +96,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
   <br>
   <br>
     <div class="text-center">
-      <a href="https://portal.junkstore.xyz/" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="faq_page_bottom">Start Your 7-Day Free Trial</a>
+      <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="faq_page_bottom">Start Your 7-Day Free Trial</a>
     </div>
 </details>
 
@@ -695,9 +695,9 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
       <span class="help-title">2.0 Troubleshooting</span>
       <span class="help-desc">Fix technical issues</span>
     </a>
-    <a href="/gallery/" class="help-link">
-      <span class="help-title">Gallery</span>
-      <span class="help-desc">Visual examples</span>
+    <a href="/tested-games/" class="help-link">
+      <span class="help-title">Games Tested</span>
+      <span class="help-desc">Compatibility database</span>
     </a>
   </div>
 </div>
@@ -705,9 +705,9 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
 <div class="help-section">
   <h3>More Resources</h3>
   <div class="help-links">
-    <a href="/upgrade/" class="help-link">
-      <span class="help-title">Upgrade Comparison</span>
-      <span class="help-desc">Free vs Professional</span>
+    <a href="/gallery/" class="help-link">
+      <span class="help-title">Gallery</span>
+      <span class="help-desc">Visual examples</span>
     </a>
     <a href="/get_started/" class="help-link">
       <span class="help-title">Getting Started</span>
