@@ -84,7 +84,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
   <details class="detailed-comparison">
     <summary>
       <h2>Complete Feature Comparison<br>Free Plugin vs Professional Plugin</h2>
-      <p class="summary-text">Want the detailed breakdown? <strong>Click to expand the full feature-by-feature comparison</strong></p>
+      <p class="summary-text">Want the detailed breakdown? <strong style="color: #ffa366; text-shadow: 0 0 8px rgba(255, 163, 102, 0.3);">Click to expand the full feature-by-feature comparison</strong></p>
     </summary>
 
     <h3 style="text-align: center;">Decky Plugin vs Junk Store 2.0</h3>
