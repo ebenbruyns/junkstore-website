@@ -16,6 +16,8 @@ header:
       url: "/gallery/"
       class: "button button-secondary"
 excerpt: "Test all Epic, GOG, Amazon & itch.io features free for 7 days. Only charged if you keep it."
+published: false
+search: false
 ---
 
 <section class="trial-process">
