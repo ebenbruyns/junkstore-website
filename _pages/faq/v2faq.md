@@ -10,9 +10,9 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
-    - label: "Buy Now"
-      url: "/buy_now/"
-      class: "button buy-button"
+    - label: "Troubleshooting Guide"
+      url: "/2.0troubleshooting/"
+      class: "button"
 excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on Steam Deck. Pricing, setup, and technical support"
 ---
 <div id="top"></div>

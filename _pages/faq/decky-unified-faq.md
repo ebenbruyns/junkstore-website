@@ -10,9 +10,9 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
-    - label: "Get Junk Store 2.0"
-      url: "/buy_now/"
-      class: "button buy-button"
+    - label: "Decky Troubleshooting"
+      url: "/troubleshooting/decky/"
+      class: "button"
 excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support included, GOG extension available separately"
 ---
 <div id="top"></div>
