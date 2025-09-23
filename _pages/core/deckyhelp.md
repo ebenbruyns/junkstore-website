@@ -11,7 +11,7 @@ header:
   title: "Free Junk Store Decky Plugin - Complete Help Hub"
   actions:
     - label: "Upgrade to 2.0"
-      url: "/buy_now/"
+      url: "/upgrade/"
       class: "button buy-button"
 excerpt: "Complete help hub for the free Junk Store Decky plugin - installation, troubleshooting, and Epic Games setup guides"
 ---

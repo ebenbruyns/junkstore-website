@@ -10,18 +10,14 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
-    - label: "Get Junk Store 2.0"
-      url: "/buy_now/"
-      class: "button buy-button"
+    - label: "Decky FAQ"
+      url: "/faq/decky/"
+      class: "button"
 ---
 <section class="seo-intro">
   <p><strong>Fix Epic and GOG game issues directly from Game Mode!</strong> This comprehensive troubleshooting guide covers Junk Store Decky plugin installation, compatibility problems, and authentication solutions for Steam Deck users.</p>
 </section>
 
-**Before troubleshooting:**
-- **Check our FAQ:** [Common questions answered](/faq/decky/)
-- **Follow setup guides:** [All Tutorials](/tutorials/)
-- **Still need help?** [Discord](https://discord.gg/6mRUhR6Teh) or [Reddit](https://www.reddit.com/r/JunkStore/)
 
 
 <!-- Troubleshooting Search Interface -->
