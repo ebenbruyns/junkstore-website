@@ -115,7 +115,7 @@ excerpt: "Test all Epic, GOG, Amazon & itch.io features free for 7 days. Only ch
 
     <div class="faq-item">
       <h4>What makes this different from free alternatives?</h4>
-      ✅ <strong>Game Mode-native + zero resource usage.</strong> Others run between Steam and games. <a href="/comparison/" target="_blank">Full comparison →</a>
+      ✅ <strong>Game Mode-native + zero resource usage.</strong> Others run between Steam and games. <a href="/comparison/">Full comparison →</a>
     </div>
 
     <div class="faq-item">
