@@ -21,7 +21,7 @@ excerpt: "The only Steam Deck solution that keeps you in Game Mode while playing
 
   <p>We live on a sailboat, and we're just a team of two. Eben brings decades of software development and cybersecurity experience to the project, while Annie handles everything else - marketing, support, content, you name it. Annie had no background in tech when we started, but she's learning as she goes so Eben can focus entirely on development. When there are only two people, you wear a lot of hats!</p>
 
-  <p>What started as a simple DOS game launcher has evolved into our vision for a unified launcher for all non-Steam games, fully integrated into Game Mode for a native gaming experience on Steam Deck. We work full-time on Junk Store and have invested over 6,000 hours and counting into making this vision a reality.</p>
+  <p>What started as a simple DOS game launcher has evolved into our vision for a unified launcher for all non-Steam games, fully integrated into Game Mode for a native gaming experience on Steam Deck. We work full-time on Junk Store and have invested over 8,000 hours and counting into making this vision a reality.</p>
 
   <p>The driving philosophy behind everything we build is simple: your handheld deserves a handheld experience. Unlike desktop-first solutions that treat Steam Deck like a mini-PC, every feature in Junk Store is designed to work seamlessly with your controller in Game Mode. We never force you to switch to Desktop Mode because that breaks the magic of what makes Steam Deck special.</p>
 </section>

@@ -65,29 +65,19 @@ excerpt: "Complete help hub for the free Junk Store Decky plugin - installation,
   </div>
 </div>
 
-<!-- Installation and Setup - MOVED BELOW HELP CONTENT -->
-<section class="where-to-find">
-  <h2>Where to Install Junk Store</h2>
-  <p>
-    You can install Junk Store from the Decky Plugin Store on your Steam Deck. Check the testing store for early versions and previews of upcoming features.
-  </p>
-  <div style="display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center;">
-    <a href="https://plugins.deckbrew.xyz/" class="button" target="_blank" rel="noopener noreferrer">Decky Plugin Main Store</a>
-    <a href="https://testing.deckbrew.xyz/" class="button" target="_blank" rel="noopener noreferrer">Decky Plugin Testing Store</a>
-    <a href="https://github.com/ebenbruyns/junkstore/releases/latest" class="button" target="_blank" rel="noopener noreferrer">Latest Release</a>
-  </div>
-</section>
 
 <section class="gog-extension">
   <h2>Installing the GOG Extension</h2>
 
-  <div>GOG extension updates are now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</div><br>
+  <div>GOG extension updates are now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</div>
 
-  <div>Once you've purchased access, please follow the <a href="/tutorials/gogextension">Gog Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.</div>
+  <div style="text-align: center; margin: 0.25rem 0 0.5rem 0;">
+    <a href="https://portal.junkstore.xyz/" class="button gog-extension-button" style="padding: 10px 20px; font-size: 1rem;" target="_blank" rel="noopener noreferrer">Get the GOG Extension</a>
+  </div>
+
+  <div>Once you've purchased access, please follow the <a href="/tutorials/gogextension">GOG Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.</div>
 
   <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
     <strong>Note:</strong> The GOG extension is currently in <strong>maintenance-only</strong> mode. This means we'll continue fixing bugs and ensuring compatibility, but we're not actively adding new features. Continued support depends on user interest and purchases.
   </p>
-
-  <a href="https://portal.junkstore.xyz/" class="button gog-extension-button" style="margin-top: 1.5rem;" target="_blank" rel="noopener noreferrer">Get the Gog Extension</a>
 </section>

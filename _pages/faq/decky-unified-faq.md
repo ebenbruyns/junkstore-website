@@ -34,7 +34,9 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
   </div>
 </div>
 
+<div style="text-align: center;">
 <h2 id="overview-getting-started">Overview & Getting Started</h2>
+</div>
 
 
 <details class="faq-box" id="decky-vs-paid-version">
@@ -139,7 +141,9 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
 
 
 
+<div style="text-align: center;">
 <h2 id="gog-extension">GOG Extension</h2>
+</div>
 
 
 <div class="gog-extension-info">
@@ -199,7 +203,9 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
     No — the GOG extension is designed for Windows games running through Proton. Native Linux games from GOG are not currently supported, as Junk Store relies on Proton's compatibility layer for game execution and integration.
 </details>
 
+<div style="text-align: center;">
 <h2 id="game-management">Game Management</h2>
+</div>
 
 
 <details class="faq-box" id="install-uninstall-game">
@@ -390,7 +396,9 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
     This works for both Epic and GOG games since they're integrated as Steam shortcuts.
 </details>
 
+<div style="text-align: center;">
 <h2 id="game-compatibility">Game Compatibility</h2>
+</div>
 
 
 <details class="faq-box" id="third-party-launchers">
@@ -457,7 +465,9 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
     That said, our extension scripts are open and easier to modify than the plugin core. If you want to experiment and send a working pull request, we're happy to review it!
 </details>
 
+<div style="text-align: center;">
 <h2 id="technical-support">Technical Support</h2>
+</div>
 
 
 <details class="faq-box" id="report-bug">
@@ -507,16 +517,66 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
     <strong>When contacting support:</strong> Include your Steam Deck model, SteamOS version, and specific error messages or symptoms.
 </details>
 
-**Need more help?** 
-- **Decky Plugin Installation:** [Decky Plugin Help](/deckyhelp/) 
-- **Step-by-step tutorials:** [Plugin Tutorials](/plugin_tutorials/)
-- **Community support:** 
+<h2 style="text-align: center; margin-top: 4rem;">Didn't Find Your Answer?</h2>
+
+<p style="text-align: center; margin-bottom: 2rem; color: #ccc;">Still have questions after reading this FAQ? We've got you covered with multiple support options.</p>
+
+<div class="help-grid">
+
+<div class="help-section">
+  <h3>Quick Help</h3>
+  <div class="help-links">
+    <a href="/deckyhelp/" class="help-link">
+      <span class="help-title">Decky Plugin Help</span>
+      <span class="help-desc">Installation and setup</span>
+    </a>
+    <a href="/tutorials/" class="help-link">
+      <span class="help-title">Tutorials</span>
+      <span class="help-desc">Step-by-step guides</span>
+    </a>
+  </div>
+</div>
+
+<div class="help-section">
+  <h3>Troubleshooting</h3>
+  <div class="help-links">
+    <a href="/troubleshooting/decky/" class="help-link">
+      <span class="help-title">Decky Troubleshooting</span>
+      <span class="help-desc">Fix plugin issues</span>
+    </a>
+    <a href="/gallery/" class="help-link">
+      <span class="help-title">Gallery</span>
+      <span class="help-desc">Visual examples</span>
+    </a>
+  </div>
+</div>
+
+<div class="help-section">
+  <h3>More Resources</h3>
+  <div class="help-links">
+    <a href="/tested-games/" class="help-link">
+      <span class="help-title">Games Tested</span>
+      <span class="help-desc">Compatibility database</span>
+    </a>
+    <a href="/get_started/" class="help-link">
+      <span class="help-title">Getting Started</span>
+      <span class="help-desc">Initial setup guide</span>
+    </a>
+  </div>
+</div>
+
+</div>
+
+<div style="text-align: center; margin-top: 3rem;">
+  <h3>Community Support</h3>
+  <p style="margin-bottom: 1.5rem;">Join our community for live help and discussion</p>
   <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
     <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
   </a>
   <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
     <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
   </a>
+</div>
 
 <!-- Final navigation - Back to top buttons -->
 <div class="section-end">
@@ -539,25 +599,82 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
   color: inherit;
 }
 
-.faq-anchor:hover {
-  opacity: 1;
+/* Help Section Styling */
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin: 30px 0;
 }
 
-.faq-box summary:hover .faq-anchor {
-  opacity: 0.8;
+.help-section {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 25px;
+  background-color: #1e2a38;
+  transition: all 0.3s ease;
+  text-align: center;
 }
 
+.help-section:hover {
+  border-color: #e67300;
+  transform: translateY(-2px);
+}
+
+.help-section h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #e67300;
+  font-size: 1.2em;
+}
+
+.help-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.help-link {
+  display: block;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.help-link:hover {
+  background: rgba(230, 115, 0, 0.1);
+  border-color: #e67300;
+  transform: translateX(5px);
+}
+
+.help-title {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.help-desc {
+  display: block;
+  color: #ccc;
+  font-size: 0.9em;
+}
+
+/* Community Buttons */
 .community-btn {
   display: inline-flex;
   align-items: center;
-  padding: 6px 12px;
-  border-radius: 4px;
+  padding: 12px 20px;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   transition: all 0.2s ease;
   border: 2px solid transparent;
-  margin-left: 8px;
+  margin-right: 12px;
   color: white;
 }
 
@@ -578,6 +695,23 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
   color: white;
   opacity: 0.9;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .help-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.faq-anchor:hover {
+  opacity: 1;
+}
+
+.faq-box summary:hover .faq-anchor {
+  opacity: 0.8;
+}
+
 </style>
 
 <script>

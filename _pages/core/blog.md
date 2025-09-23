@@ -11,7 +11,7 @@ header:
     - label: "Try Junk Store 2.0 Free"
       url: "/buy_now/"
       class: "button buy-button"
-excerpt: "Tips, reviews, and updates for Epic, GOG, Amazon & itch.io games on Steam Deck"
+excerpt: "Junk Store tips, game reviews, feature updates, and guides for Epic, GOG, Amazon & itch.io games"
 ---
 
 <section class="seo-intro">
@@ -19,7 +19,7 @@ excerpt: "Tips, reviews, and updates for Epic, GOG, Amazon & itch.io games on St
 </section>
 
 <section class="blog-header">
-  <h1>What's New</h1>
+  <h1 style="text-align: center;">What's New</h1>
   <p class="blog-subtitle">Weekly Junk Store tips, game compatibility updates, and Steam Deck gaming mastery guides.</p>
 </section>
 
