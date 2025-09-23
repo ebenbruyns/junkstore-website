@@ -21,7 +21,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 <!-- Welcome Message -->
 <section class="tutorials-welcome">
-  <h2>Choose Your Version</h2>
+  <h2 style="text-align: center;">Choose Your Version</h2>
 
   <div class="version-guide">
     <div class="version-card decky filter-card" data-filter="decky" onclick="filterTutorials('decky')">
@@ -44,7 +44,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 ---
 
-## 🚀 Getting Started
+<h2 style="text-align: center;">🚀 Getting Started</h2>
 
 <div class="tutorial-grid">
 
@@ -64,7 +64,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 ---
 
-## 🔧 Configuration & Setup
+<h2 style="text-align: center;">🔧 Configuration & Setup</h2>
 
 <div class="tutorial-grid">
 
@@ -81,16 +81,18 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 </div>
 
 <div class="tutorial-item decky">
-  <h4><a href="/tutorials/plugin/gogextension">GOG Extension Setup</a></h4>
+  <h4><a href="/tutorials/gogextension/">GOG Extension Setup</a></h4>
   <p>Add GOG games to your Decky plugin</p>
   <span class="tutorial-tag decky-tag">Decky Plugin</span>
 </div>
 
+<!-- Hidden until updated
 <div class="tutorial-item both">
   <h4><a href="/tutorials/plugin/Ubisoft">Ubisoft Connect Games</a></h4>
   <p>Setup guide for Ubisoft games through Epic Games Store</p>
   <span class="tutorial-tag both-tag">Universal</span>
 </div>
+-->
 
 <div class="tutorial-item decky">
   <h4><a href="/tutorials/plugin/C++Runtime">Visual C++ Runtime</a></h4>
@@ -108,7 +110,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 ---
 
-## ⚡ Quick Tips & Tricks
+<h2 style="text-align: center;">⚡ Quick Tips & Tricks</h2>
 
 <div class="tips-grid">
 
@@ -122,29 +124,66 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 ---
 
-## 🆘 Need Help?
+<h2 style="text-align: center; margin-top: 4rem;">Didn't Find Your Answer?</h2>
 
-If you're still having trouble after following these guides:
+<p style="text-align: center; margin-bottom: 2rem; color: #ccc;">Still having trouble after following these guides? We've got you covered with multiple support options.</p>
 
-**Quick Help:**
-- **[Decky Plugin Help](/deckyhelp)** - Quick reference and tips
-- **[2.0 Standalone Help](/2.0-hub/)** - Quick reference and tips
+<div class="help-grid">
 
-**FAQ Pages:**
-- **[Decky Plugin FAQ](/faq/decky/)** - Common plugin questions
-- **[2.0 Standalone FAQ](/faq/v2/)** - Common 2.0 questions
+<div class="help-section">
+  <h3>Quick Help</h3>
+  <div class="help-links">
+    <a href="/deckyhelp" class="help-link">
+      <span class="help-title">Decky Plugin Help</span>
+      <span class="help-desc">Quick reference and tips</span>
+    </a>
+    <a href="/2.0-hub/" class="help-link">
+      <span class="help-title">2.0 Standalone Help</span>
+      <span class="help-desc">Quick reference and tips</span>
+    </a>
+  </div>
+</div>
 
-**Troubleshooting:**
-- **[Decky Plugin Troubleshooting](/troubleshooting/decky/)** - Fix plugin issues
-- **[2.0 Standalone Troubleshooting](/troubleshooting/v2/)** - Fix standalone issues
+<div class="help-section">
+  <h3>FAQ Pages</h3>
+  <div class="help-links">
+    <a href="/faq/decky/" class="help-link">
+      <span class="help-title">Decky Plugin FAQ</span>
+      <span class="help-desc">Common plugin questions</span>
+    </a>
+    <a href="/faq/v2/" class="help-link">
+      <span class="help-title">2.0 Standalone FAQ</span>
+      <span class="help-desc">Common 2.0 questions</span>
+    </a>
+  </div>
+</div>
 
-### Community Support
-<a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
-  <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
-</a>
-<a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
-  <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
-</a>
+<div class="help-section">
+  <h3>Troubleshooting</h3>
+  <div class="help-links">
+    <a href="/troubleshooting/decky/" class="help-link">
+      <span class="help-title">Decky Plugin Issues</span>
+      <span class="help-desc">Fix plugin problems</span>
+    </a>
+    <a href="/troubleshooting/v2/" class="help-link">
+      <span class="help-title">2.0 Standalone Issues</span>
+      <span class="help-desc">Fix standalone problems</span>
+    </a>
+  </div>
+</div>
+
+</div>
+
+<div style="text-align: center; margin-top: 3rem;">
+  <h3>Community Support</h3>
+  <p style="margin-bottom: 1.5rem;">Join our community for live help and discussion</p>
+  <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
+    <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
+  </a>
+  <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
+    <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
+  </a>
+</div>
 
 
 <style>
@@ -165,12 +204,13 @@ If you're still having trouble after following these guides:
 }
 
 .tutorial-item {
-  border: 2px solid #333;
+  border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
-  background: #1a1a1a;
+  background-color: #1e2a38;
   transition: all 0.3s ease;
   position: relative;
+  cursor: pointer;
 }
 
 .tutorial-item:hover {
@@ -224,10 +264,10 @@ If you're still having trouble after following these guides:
 
 /* Tips Items */
 .tip-item {
-  border: 2px solid #444;
+  border: 1px solid #ddd;
   border-radius: 8px;
   padding: 18px;
-  background: linear-gradient(135deg, #1a1a1a 0%, #242424 100%);
+  background-color: #1e2a38;
   transition: all 0.3s ease;
   position: relative;
   border-left: 4px solid #ffa500;
@@ -317,14 +357,14 @@ If you're still having trouble after following these guides:
 .community-btn {
   display: inline-flex;
   align-items: center;
-  padding: 6px 12px;
-  border-radius: 4px;
+  padding: 12px 20px;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   transition: all 0.2s ease;
   border: 2px solid transparent;
-  margin-right: 8px;
+  margin-right: 12px;
   color: white;
 }
 
@@ -375,6 +415,70 @@ If you're still having trouble after following these guides:
   display: none;
 }
 
+/* Help Section Styling */
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.help-section {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 25px;
+  background-color: #1e2a38;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.help-section:hover {
+  border-color: #e67300;
+  transform: translateY(-2px);
+}
+
+.help-section h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #e67300;
+  font-size: 1.2em;
+}
+
+.help-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.help-link {
+  display: block;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.help-link:hover {
+  background: rgba(230, 115, 0, 0.1);
+  border-color: #e67300;
+  transform: translateX(5px);
+}
+
+.help-title {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.help-desc {
+  display: block;
+  color: #ccc;
+  font-size: 0.9em;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .tutorial-grid {
@@ -387,6 +491,11 @@ If you're still having trouble after following these guides:
 
   .version-guide {
     grid-template-columns: 1fr;
+  }
+
+  .help-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 </style>
@@ -431,5 +540,25 @@ function filterTutorials(filterType) {
 document.addEventListener('DOMContentLoaded', function() {
   // Set "Show All" as active by default
   document.querySelector('[data-filter="all"]').classList.add('active');
+
+  // Make tutorial boxes clickable
+  document.querySelectorAll('.tutorial-item').forEach(item => {
+    item.addEventListener('click', function() {
+      const link = this.querySelector('h4 a');
+      if (link) {
+        window.location.href = link.href;
+      }
+    });
+  });
+
+  // Make tip boxes clickable
+  document.querySelectorAll('.tip-item').forEach(item => {
+    item.addEventListener('click', function() {
+      const link = this.querySelector('h4 a');
+      if (link) {
+        window.location.href = link.href;
+      }
+    });
+  });
 });
 </script>

@@ -42,7 +42,9 @@ Let's get to this week's results — some real gems!
 
 > **📋 GOG Extension Note:** The updated GOG Extension is exclusively available through the [Junk Store Portal](https://portal.junkstore.xyz/). Previous Patreon/Ko-fi supporters have been migrated - sign in with your original email to access. If you haven't been migrated yet, let us know so we can help. [Read more about the v0.1.9 update](https://www.junkstore.xyz/blog/gog-extension-v019-update/).
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games</h2>
+
+<a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
 
 ### Epic Games Giveaway
 

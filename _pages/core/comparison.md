@@ -23,8 +23,8 @@ excerpt: "The only launcher that eliminates Desktop Mode switching entirely - di
   <p class="lead-text"><strong>The ONLY launcher that eliminates Desktop Mode switching entirely.</strong></p>
   <p>While free alternatives require Desktop Mode management, Junk Store delivers the true handheld gaming freedom your Steam Deck was designed for.</p>
 
-  <div class="hero-upgrade-link">
-    <p><em>Already using our free Decky plugin?</em> <a href="/upgrade/">See what upgrading to 2.0 unlocks →</a></p>
+  <div class="hero-upgrade-link" style="background: rgba(255, 163, 102, 0.1); border: 1px solid rgba(255, 163, 102, 0.3); border-radius: 8px; padding: 1rem; margin-top: 1.5rem;">
+    <p style="margin: 0;"><em>Already using our free Decky plugin?</em> &nbsp;&nbsp;<a href="/upgrade/" style="color: #ffa366; font-weight: 600; text-decoration: underline;">See what upgrading to 2.0 unlocks →</a></p>
   </div>
 </section>
 
@@ -45,27 +45,27 @@ excerpt: "The only launcher that eliminates Desktop Mode switching entirely - di
     </div>
 
     <div class="differentiator-item">
-      <h3>🚀 Professional Development</h3>
-      <p class="problem">❌ <strong>Free Alternatives:</strong> Community volunteers, slower GitHub releases</p>
-      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Full-time dev team, instant update channels</p>
+      <h3>🚀 Professional Development Team</h3>
+      <p class="problem">❌ <strong>Free Alternatives:</strong> Community volunteers with slower GitHub releases</p>
+      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Full-time dev team with instant update channels</p>
     </div>
 
     <div class="differentiator-item">
-      <h3>🎮 True Steam Integration</h3>
-      <p class="problem">❌ <strong>Free Alternatives:</strong> Launch separate launcher apps in desktop mode</p>
+      <h3>🎮 True Native Steam Integration</h3>
+      <p class="problem">❌ <strong>Free Alternatives:</strong> Launch separate launcher apps with limited integration</p>
       <p class="solution">✅ <strong>Junk Store 2.0:</strong> All libraries visible directly in Game Mode</p>
     </div>
 
     <div class="differentiator-item">
-      <h3>🎲 Handheld-First Design</h3>
-      <p class="problem">❌ <strong>Free Alternatives:</strong> Desktop-first with controller afterthought</p>
+      <h3>🎲 Handheld-First Experience</h3>
+      <p class="problem">❌ <strong>Free Alternatives:</strong> Desktop-first with controller as afterthought</p>
       <p class="solution">✅ <strong>Junk Store 2.0:</strong> Built specifically for Steam Deck workflows</p>
     </div>
 
     <div class="differentiator-item">
       <h3>🕹️ Complete Gaming Ecosystem</h3>
-      <p class="problem">❌ <strong>Free Alternatives:</strong> Handle store games only, separate emulator setup</p>
-      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Epic + GOG + Amazon + itch.io + ROMs all integrated in Game Mode</p>
+      <p class="problem">❌ <strong>Free Alternatives:</strong> Handle store games only with separate emulator setup</p>
+      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Epic + GOG + Amazon + itch.io + ROMs integrated in Game Mode</p>
     </div>
 
   </div>
@@ -112,7 +112,7 @@ excerpt: "The only launcher that eliminates Desktop Mode switching entirely - di
       <p><strong>Stop researching. Start experiencing.</strong> Use your 7-day trial to test every feature mentioned above with your actual game library.</p>
       <div class="trial-benefits">
         <div class="trial-benefit">✅ Full access to all platforms (Epic, GOG, Amazon, itch.io)</div>
-        <div class="trial-benefit">✅ Test with your entire game library</div>
+        <div class="trial-benefit">✅ Test with your entire game library + Rom/Emulator support</div>
         <div class="trial-benefit">✅ Experience the architectural difference</div>
         <div class="trial-benefit">✅ Cancel anytime if it's not worth it</div>
       </div>
