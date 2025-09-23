@@ -38,16 +38,46 @@
   }
   
   // Load search when user focuses on search input or clicks search button
-  document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.querySelector('.search__toggle, .search-content__form input, #search-input');
-    const searchButton = document.querySelector('.search__toggle, .search-content__form button');
-    
-    if (searchInput) {
-      searchInput.addEventListener('focus', loadSearch, { once: true });
-      searchInput.addEventListener('click', loadSearch, { once: true });
-    }
-    if (searchButton) {
-      searchButton.addEventListener('click', loadSearch, { once: true });
+  function attachSearchListeners() {
+    const searchInputs = document.querySelectorAll('.search-input, #search-input, #search');
+    const searchButtons = document.querySelectorAll('.search__toggle, .search-content__form button');
+
+    searchInputs.forEach(input => {
+      if (!input.hasAttribute('data-search-listener')) {
+        input.setAttribute('data-search-listener', 'true');
+        input.addEventListener('focus', loadSearch, { once: true });
+        input.addEventListener('click', loadSearch, { once: true });
+      }
+    });
+
+    searchButtons.forEach(button => {
+      if (!button.hasAttribute('data-search-listener')) {
+        button.setAttribute('data-search-listener', 'true');
+        button.addEventListener('click', loadSearch, { once: true });
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', attachSearchListeners);
+
+  // Also check for dynamically added search elements
+  const observer = new MutationObserver(function(mutations) {
+    let shouldAttach = false;
+    mutations.forEach(function(mutation) {
+      if (mutation.type === 'childList') {
+        mutation.addedNodes.forEach(function(node) {
+          if (node.nodeType === 1) { // Element node
+            if (node.matches && (node.matches('.search-input') || node.querySelector && node.querySelector('.search-input'))) {
+              shouldAttach = true;
+            }
+          }
+        });
+      }
+    });
+    if (shouldAttach) {
+      attachSearchListeners();
     }
   });
+
+  observer.observe(document.body, { childList: true, subtree: true });
 </script>
