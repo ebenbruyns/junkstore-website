@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Junk Store 2.0 vs Decky Plugin - Feature Comparison"
-description: "Complete comparison between the free Decky plugin and Junk Store 2.0. See why upgrading unlocks the full Steam Deck Game Mode experience."
+title: "Why Choose Junk Store"
+description: "Compare Junk Store 2.0 with free third-party launchers for Epic, GOG, Amazon & itch.io games. Discover the Game Mode-native difference."
 permalink: /comparison/
 header:
   overlay_color: "#000"
@@ -14,302 +14,107 @@ header:
     - label: "See Live Demos"
       url: "/gallery/"
       class: "button"
-excerpt: "From plugin limitations to professional platform - discover what's possible when you never leave Game Mode"
+excerpt: "The only launcher that eliminates Desktop Mode switching entirely - discover the Game Mode-native difference"
 ---
 
 
 <section class="comparison-hero">
-  <h1>Decky Plugin vs Junk Store 2.0</h1>
-  <p class="lead-text">The Decky plugin proved the concept. <strong>Junk Store 2.0 perfects the execution.</strong></p>
-  <p>See exactly what you gain by upgrading from the free plugin to the professional Game Mode-native platform.</p>
-</section>
+  <h1>The Game Mode-Native Launcher</h1>
+  <p class="lead-text"><strong>The ONLY launcher that eliminates Desktop Mode switching entirely.</strong></p>
+  <p>While free alternatives require Desktop Mode management, Junk Store delivers the true handheld gaming freedom your Steam Deck was designed for.</p>
 
-<section class="recent-updates-section" id="recent-updates">
-  <h2>🆕 Recent Updates to Junk Store 2.0</h2>
-  <div class="updates-content">
-    <div class="update-item">
-      <h4>🔌 Offline Mode Per Game</h4>
-      <p><strong>NEW:</strong> Set offline mode individually for each game across all storefronts. Unlike the Decky version which requires global settings under each tab, Junk Store 2.0 lets you configure offline mode per-game for precise control.</p>
-    </div>
-    <div class="update-item">
-      <h4>🌐 Per-Game System Language Control</h4>
-      <p><strong>NEW:</strong> Configure game language setting for games that use system language detection. No more manual file editing to add language codes like the Decky version requires.</p>
-    </div>
-    <div class="update-item">
-      <h4>🎮 itch.io Platform Support</h4>
-      <p><strong>NEW:</strong> Beta support for itch.io games now available.</p>
-    </div>
+  <div class="hero-upgrade-link" style="background: rgba(255, 163, 102, 0.1); border: 1px solid rgba(255, 163, 102, 0.3); border-radius: 8px; padding: 1rem; margin-top: 1.5rem;">
+    <p style="margin: 0;"><em>Already using our free Decky plugin?</em> &nbsp;&nbsp;<a href="/upgrade/" style="color: #ffa366; font-weight: 600; text-decoration: underline;">See what upgrading to 2.0 unlocks →</a></p>
   </div>
 </section>
 
-<section class="value-proposition" id="key-benefits">
-  <div class="value-grid">
-    <div class="value-item">
-      <h3>🚀 From 100 to 1,000 Games</h3>
-      <p>Built from scratch for performance - handle massive libraries without slowdown</p>
+<section class="major-differentiators">
+  <h2>Free Alternatives vs Junk Store 2.0 - The Key Differences</h2>
+  <div class="differentiator-grid">
+
+    <div class="differentiator-item">
+      <h3>🎯 Desktop Mode Elimination</h3>
+      <p class="problem">❌ <strong>Free Alternatives:</strong> Require desktop switching for setup and management</p>
+      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Pure Game Mode - never leave handheld mode</p>
     </div>
-    <div class="value-item">
-      <h3>🎯 Direct Launch System</h3>
-      <p>No more Decky dependency - faster startup and bulletproof stability</p>
+
+    <div class="differentiator-item">
+      <h3>⚡ Zero Performance Impact</h3>
+      <p class="problem">❌ <strong>Free Alternatives:</strong> Run background processes while gaming</p>
+      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Lightweight scripts - zero performance interference</p>
     </div>
-    <div class="value-item">
-      <h3>🛠️ Professional Support</h3>
-      <p>Dedicated update channels and responsive development team</p>
+
+    <div class="differentiator-item">
+      <h3>🚀 Professional Development Team</h3>
+      <p class="problem">❌ <strong>Free Alternatives:</strong> Community volunteers with slower GitHub releases</p>
+      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Full-time dev team with instant update channels</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>🎮 True Native Steam Integration</h3>
+      <p class="problem">❌ <strong>Free Alternatives:</strong> Launch separate launcher apps with limited integration</p>
+      <p class="solution">✅ <strong>Junk Store 2.0:</strong> All libraries visible directly in Game Mode</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>🎲 Handheld-First Experience</h3>
+      <p class="problem">❌ <strong>Free Alternatives:</strong> Desktop-first with controller as afterthought</p>
+      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Built specifically for Steam Deck workflows</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>🕹️ Complete Gaming Ecosystem</h3>
+      <p class="problem">❌ <strong>Free Alternatives:</strong> Handle store games only with separate emulator setup</p>
+      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Epic + GOG + Amazon + itch.io + ROMs integrated in Game Mode</p>
+    </div>
+
+  </div>
+
+  <div class="differentiator-conclusion">
+    <p><strong>The bottom line:</strong> Free alternatives are excellent desktop applications adapted for Steam Deck. Junk Store 2.0 is purpose-built for handheld gaming - a fundamentally different architectural approach.</p>
+  </div>
+
+  <div class="primary-cta">
+    <h3>Ready to Experience the Difference?</h3>
+    <p>Try all these benefits free for 7 days. No commitment, cancel anytime.</p>
+    <div class="cta-buttons">
+      <a href="/buy_now/" class="button buy-button large">Start Free 7-Day Trial</a>
+      <a href="/gallery/" class="button button-secondary">Watch Demos First</a>
     </div>
   </div>
+
 </section>
 
-<section class="comparison-table-section" id="feature-comparison">
-  <h2>Complete Feature Comparison</h2>
-  <p class="table-intro">Every feature comparison includes live demonstrations. Hover over "👁️ Hover to view" to see the functionality in action.</p>
-  
-  <table class="comparison-table">
-      <thead>
-        <tr>
-          <th>Feature</th>
-          <th>Free Decky Plugin</th>
-          <th>Junk Store 2.0</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Epic Games</strong></td>
-          <td>✅ Yes</td>
-          <td>✅ Yes</td>
-        </tr>
-        <tr>
-          <td><strong>UMU Compatibility Fixes</strong></td>
-          <td>✅ Yes</td>
-          <td>✅ Yes</td>
-        </tr>
-        <tr>
-          <td><strong>GOG Games</strong></td>
-          <td>💰 Paid Extension Required</td>
-          <td>✅ Included</td>
-        </tr>
-        <tr>
-          <td><strong>Amazon Prime Gaming</strong></td>
-          <td>❌ Not Available</td>
-          <td>✅ Full Support</td>
-        </tr>
-          <tr>
-          <td><strong>itch.io Gaming</strong></td>
-          <td>❌ Not Available</td>
-          <td>✅ beta Support</td>
-        </tr>
-        <tr>
-          <td><strong>Download Queue Management</strong></td>
-          <td>❌ Not Available</td>
-          <td class="hover-popup" onmouseenter="restartGif(this)">
-            ✅ Advanced Queue System <span class="hover-label">👁️ Hover to view</span>
-            <div class="gif-popup">
-              <video autoplay muted loop playsinline preload="none">
-                <source src="/assets/images/jspro/tablegifs/download.webm" type="video/webm">
-                <img src="/assets/images/jspro/tablegifs/download.gif" alt="Download queue management demo">
-              </video>
-              <p>Manage multiple downloads, pause/resume, and monitor progress</p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td><strong>Emulator Integration</strong></td>
-          <td>❌ Not Available</td>
-          <td>✅ Full ROM Support</td>
-        </tr>
-        <tr>
-          <td><strong>ROM Download Support</strong></td>
-          <td>❌ Not Available</td>
-          <td>✅ Direct ROM Management</td>
-        </tr>
-        <tr>
-          <td><strong>GOG DOS Games</strong></td>
-          <td>❌ Not Available</td>
-          <td>✅ Native Support</td>
-        </tr>
-        <tr>
-          <td><strong>GOG ScummVM Games</strong></td>
-          <td>❌ Not Available</td>
-          <td>✅ Automatic Integration</td>
-        </tr>
-        <tr>
-          <td><strong>Built-in Extension Updates</strong></td>
-          <td>❌ Manual Process</td>
-          <td>✅ Automated Updates</td>
-        </tr>
-        <tr>
-          <td><strong>Built-in Help System</strong></td>
-          <td>❌ External Documentation</td>
-          <td>✅ Contextual Help</td>
-        </tr>
-        <tr>
-          <td><strong>Offline Artwork Cache</strong></td>
-          <td>❌ Requires Online</td>
-          <td>✅ Per-Extension Caching</td>
-        </tr>
-        <tr>
-          <td><strong>Game Language Selection</strong></td>
-          <td>❌ Not Available</td>
-          <td class="hover-popup" onmouseenter="restartGif(this)">
-            ✅ Multi-Language Support <span class="hover-label">👁️ Hover to view</span>
-            <div class="gif-popup">
-              <video autoplay muted loop playsinline preload="none">
-                <source src="/assets/images/jspro/tablegifs/languageselection.webm" type="video/webm">
-                <img src="/assets/images/jspro/tablegifs/languageselection.gif" alt="Language selection demo">
-              </video>
-              <p>Choose your preferred language for supported games</p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td><strong>Selective DLC Installation</strong></td>
-          <td>❌ All or Nothing</td>
-          <td>✅ Choose DLC Packs</td>
-        </tr>
-        <tr>
-          <td><strong>Per-Game Launcher Options</strong></td>
-          <td>❌ Fixed Configuration</td>
-          <td class="hover-popup" onmouseenter="restartGif(this)">
-            ✅ Flexible Launcher System <span class="hover-label">👁️ Hover to view</span>
-            <div class="gif-popup">
-              <video autoplay muted loop playsinline preload="none">
-                <source src="/assets/images/jspro/tablegifs/changelauncher.webm" type="video/webm">
-                <img src="/assets/images/jspro/tablegifs/changelauncher.gif" alt="Per-game launcher configuration demo">
-              </video>
-              <p>Customize launcher behavior for each individual game</p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td><strong>Custom Script Hooks</strong></td>
-          <td>❌ Limited Customization</td>
-          <td>✅ Advanced Scripting</td>
-        </tr>
-        <tr>
-          <td><strong>Cloud Saves</strong></td>
-          <td>❌ Not Available</td>
-          <td>⚠️ Experimental (Enable Per Game)</td>
-        </tr>
-        <tr>
-          <td><strong>Access Method</strong></td>
-          <td>📥 Through Decky Menu</td>
-          <td>🎮 Ctrl+3 or Select Button</td>
-        </tr>
-        <tr>
-          <td><strong>Release Distribution</strong></td>
-          <td>🔧 Through Decky Store</td>
-          <td>🚀 Direct from Developer</td>
-        </tr>
-        <tr>
-          <td><strong>Performance Capacity</strong></td>
-          <td>💯 100 Games Per Tab</td>
-          <td>🔢 1,000 Games Per Tab</td>
-        </tr>
-        <tr>
-          <td><strong>System Customization</strong></td>
-          <td>🔒 Plugin Limitations</td>
-          <td>🔧 Extensive Configuration</td>
-        </tr>
-        <tr>
-          <td><strong>Extension Development</strong></td>
-          <td>🧩 Full Code Required</td>
-          <td>🪄 Wizard + Manual Coding</td>
-        </tr>
-        <tr>
-          <td><strong>Game Dependency Installation</strong></td>
-          <td>🛠️ Manual Process<br>🧪 Requires Proton Tricks</td>
-          <td class="hover-popup" onmouseenter="restartGif(this)">
-            ⚙️ Built-in Installer <span class="hover-label">👁️ Hover to view</span>
-            <div class="gif-popup">
-              <video autoplay muted loop playsinline preload="none">
-                <source src="/assets/images/jspro/tablegifs/dependencies.webm" type="video/webm">
-                <img src="/assets/images/jspro/tablegifs/dependencies.gif" alt="Automated dependency installation demo">
-              </video>
-              <p>Automatic dependency detection and one-click installation</p>
-            </div>
-            <br>🛠️ Manual Available<br>🧪 Proton Tricks Compatible
-          </td>
-        </tr>
-        <tr>
-          <td><strong>Custom Extension Creation</strong></td>
-          <td>👨‍💻 Manual Coding Only</td>
-          <td>🧙 Wizard-Guided Creation</td>
-        </tr>
-        <tr>
-          <td><strong>Extension Customization</strong></td>
-          <td>💻 Code-Heavy Modifications</td>
-          <td>🧠 Generated Templates + Hooks</td>
-        </tr>
-        <tr>
-          <td><strong>Offline Mode Per Game</strong></td>
-          <td>🔧 Requires Global Setting Under Each Tab</td>
-          <td>✅ Per-Game Configuration<br><span style="font-size: 0.9em; color: #ccc;">Set offline mode individually for each game across all storefronts</span></td>
-        </tr>
-        <tr>
-          <td><strong>System Language Detection Per Game</strong></td>
-          <td>🔧 Requires Manual File Editing<br><span style="font-size: 0.9em; color: #ccc;">Must alter files to add language codes</span></td>
-          <td>✅ Per Game Language Setting<br><span style="font-size: 0.9em; color: #ccc;">Individual language control for games that use system language detection</span></td>
-        </tr>
-      </tbody>
-  </table>
-</section>
 
-<section class="upgrade-benefits" id="upgrade-benefits">
-  <h2>Why 250,000+ Users Are Considering the Upgrade</h2>
-  <div class="benefits-grid">
-    <div class="benefit-item">
-      <h4>🎯 Professional Performance</h4>
-      <p>Built from scratch for stability and speed. Handle 10x more games (1,000 vs 100 per tab) without plugin limitations.</p>
-    </div>
-    <div class="benefit-item">
-      <h4>⚡ Faster Development Cycle</h4>
-      <p>Direct updates mean fixes and features arrive faster than the Decky store approval process.</p>
-    </div>
-    <div class="benefit-item">
-      <h4>🛠️ Advanced Customization</h4>
-      <p>Create custom extensions with wizard guidance, or modify existing ones without deep coding knowledge.</p>
-    </div>
-    <div class="benefit-item">
-      <h4>🎮 More Platforms</h4>
-      <p>Amazon Prime Gaming, itch.io (beta), advanced emulator integration, and expanded GOG support including DOS and ScummVM games.</p>
-    </div>
-    <div class="benefit-item">
-      <h4>⚙️ Built-in Dependency Management</h4>
-      <p>Automated installation of game dependencies with one-click setup. No more manual Proton Tricks configuration.</p>
-    </div>
-    <div class="benefit-item">
-      <h4>🎯 Advanced ROM/Emulator Integration</h4>
-      <p>Direct ROM download support and seamless emulator integration for expanded gaming beyond just PC titles.</p>
-    </div>
-  </div>
-</section>
 
-<section class="pricing-comparison" id="pricing">
-  <div class="pricing-box">
-    <h2>Investment vs. Value</h2>
-    <div class="price-comparison">
-      <div class="price-option">
-        <h3>Free Decky Plugin</h3>
-        <p class="price">$0</p><br>
-        <p><strong>Perfect for trying the concept</strong></p>
-        <ul>
-          <li>Epic Games support</li>
-          <li>Community-driven updates</li>
-          <li>Basic functionality</li>
-          <li>GOG requires separate purchase</li>
-        </ul>
+
+
+<section class="decision-section" id="decision-time">
+  <div class="decision-box">
+    <h2>The Choice is Clear</h2>
+    <div class="decision-points">
+      <div class="decision-point">
+        <h4>🎮 <strong>Game Mode Native vs Desktop Adapted</strong></h4>
+        <p>Free alternatives are desktop applications trying to work on Steam Deck. Junk Store was built from the ground up for handheld gaming. <strong>Install → Launch → Play.</strong> All in Game Mode.</p>
       </div>
-      <div class="price-option featured">
-        <h3>Junk Store 2.0</h3>
-        <p class="price">$40/year</p>
-        <p class="price-detail">About $3.33/month</p>
-        <p><strong>Professional platform</strong></p>
-        <ul>
-          <li>All platforms included (Epic + GOG + Amazon + itch.io (beta))</li>
-          <li>10x performance improvement</li>
-          <li>Dedicated development team</li>
-          <li>Advanced features + frequent updates</li>
-          <li><strong>7-day free trial - try everything first</strong></li>
-        </ul>
+      <div class="decision-point">
+        <h4>🚀 <strong>Professional vs Community Development</strong></h4>
+        <p>Free alternatives rely on community volunteers with slower releases. Junk Store 2.0 has full-time professional development with instant update channels (stable/testing/beta). No waiting for GitHub builds.</p>
+      </div>
+      <div class="decision-point">
+        <h4>💰 <strong>Premium Experience for Less Than $1/Week</strong></h4>
+        <p>Skip the frustration of desktop switching and manual setup. Get the complete Game Mode experience for the price of a coffee.</p>
+      </div>
+    </div>
+
+    <div class="urgency-box">
+      <h3>🔥 Decision Made Easy: Test Everything for 7 Days</h3>
+      <p><strong>Stop researching. Start experiencing.</strong> Use your 7-day trial to test every feature mentioned above with your actual game library.</p>
+      <div class="trial-benefits">
+        <div class="trial-benefit">✅ Full access to all platforms (Epic, GOG, Amazon, itch.io)</div>
+        <div class="trial-benefit">✅ Test with your entire game library + Rom/Emulator support</div>
+        <div class="trial-benefit">✅ Experience the architectural difference</div>
+        <div class="trial-benefit">✅ Cancel anytime if it's not worth it</div>
       </div>
     </div>
   </div>
@@ -317,8 +122,8 @@ excerpt: "From plugin limitations to professional platform - discover what's pos
 
 <section class="trial-cta" id="trial">
   <div class="cta-box">
-    <h2>Ready to Experience the Difference?</h2>
-    <p>Try Junk Store 2.0 risk-free for 7 full days. Experience every feature, test your games, and see the performance improvement firsthand.</p>
+    <h2>Ready to Stop Comparing and Start Playing?</h2>
+    <p>Join the users who stopped settling for "free but frustrating" and upgraded to "just works."</p>
     <div class="cta-buttons">
       <a href="/buy_now/" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="comparison_page_bottom">Start Free 7-Day Trial</a>
       <a href="/gallery/" class="button large" data-event="click" data-category="engagement" data-action="view_gallery" data-label="comparison_page_bottom">See Live Demos First</a>
