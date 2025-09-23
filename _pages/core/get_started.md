@@ -2,6 +2,7 @@
 layout: splash
 title: "Junk Store 2.0 - Getting Started"
 permalink: /get_started/
+excerpt: "Get started with Junk Store 2.0 - complete setup guide for Epic, GOG, Amazon & itch.io games in Steam Deck Game Mode"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

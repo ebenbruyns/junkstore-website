@@ -82,12 +82,12 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
 <section class="detailed-comparison-section" id="feature-comparison">
   <details class="detailed-comparison">
     <summary>
-      <h2>📋 Complete Feature Comparison: Free vs Premium</h2>
+      <h2>Complete Feature Comparison<br>Free Plugin vs Professional Plugin</h2>
       <p class="summary-text">Want the detailed breakdown? <strong>Click to expand the full feature-by-feature comparison</strong></p>
     </summary>
 
-    <h3>Decky Plugin vs Junk Store 2.0</h3>
-    <p class="table-intro">Every feature comparison includes live demonstrations. Hover over "👁️ Hover to view" to see the functionality in action.</p>
+    <h3 style="text-align: center;">Decky Plugin vs Junk Store 2.0</h3>
+    <p class="table-intro">Selected features include live demonstrations. Hover over "👁️ Hover to view" to see the functionality in action.</p>
 
     <table class="comparison-table">
         <thead>
@@ -291,11 +291,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
       </div>
       <div class="decision-point">
         <h4>🚀 <strong>Professional vs Community Development</strong></h4>
-        <p>The free plugin relies on community updates through the Decky store. Junk Store 2.0 has full-time professional development with instant update channels - no waiting for store approvals.</p>
-      </div>
-      <div class="decision-point">
-        <h4>💰 <strong>Less Than $1 Per Week</strong></h4>
-        <p>For the price of a coffee, get Amazon Prime Gaming, itch.io support, 10x performance capacity, automated features, and direct developer updates.</p>
+        <p>The free plugin relies on community updates through the Decky store. For less than $1 per week, you get full-time professional development with instant update channels - no waiting for store approvals.</p>
       </div>
     </div>
 
@@ -355,3 +351,26 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
+<style>
+.detailed-comparison summary {
+  list-style: none; /* Remove the marker */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+}
+
+.detailed-comparison summary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #ffa366;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.detailed-comparison summary::-webkit-details-marker {
+  display: none; /* Hide marker in WebKit browsers */
+}
+</style>
