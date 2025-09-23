@@ -1,5 +1,5 @@
 ---
-title: "Gog Extension Install Instruction"
+title: "Gog Extension Install Guide"
 excerpt: "Step-by-step guide on downloading and installing the Gog Extension"
 layout: splash
 permalink: /tutorials/gogextension/

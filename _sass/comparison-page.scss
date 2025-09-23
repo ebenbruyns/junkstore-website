@@ -4,10 +4,10 @@
 /* Hero Section */
 .comparison-hero {
   text-align: center;
-  padding: 0.5rem 1rem 1.5rem 1rem;
+  padding: 2rem 1.5rem;
   max-width: 1200px;
-  width: 95%;
-  margin: 0 auto;
+  width: 98%;
+  margin: 2rem auto;
 }
 
 .comparison-hero h1 {
@@ -15,6 +15,7 @@
   margin-bottom: 1rem;
   color: #66bfff;
   font-weight: bold;
+  text-align: center !important;
 }
 
 .lead-text {
