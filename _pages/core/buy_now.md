@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Buy Junk Store 2.0 - Steam Deck App for Epic, GOG, Amazon & itch.io (beta) Games"
+title: "Get Junk Store 2.0"
 description: "Download Junk Store 2.0 standalone app for Steam Deck. $40/year with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch.io (beta) directly in Game Mode."
 permalink: /buy_now/
 header:
@@ -15,6 +15,7 @@ header:
     - label: "Watch Demo First"
       url: "/gallery/"
       class: "button button-secondary"
+excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io games in Game Mode. 7-day free trial available"
 ---
 
 <h1>Transform Your Steam Deck Into a Unified Gaming Hub</h1>
@@ -34,7 +35,7 @@ header:
       <img data-src="/assets/images/landing/LibrariesNew.gif" alt="Steam Deck unified gaming library with Epic, GOG, Amazon & itch.io games in Game Mode" class="demo-gif" style="display: none;" />
     </div>
     <div class="screenshot-caption">
-      <p><strong>See it in action:</strong> All your Epic, GOG, Amazon & itch.io games appearing natively in your Steam library - no Desktop Mode required</p>
+      <p><strong>See it in action:</strong> All your Epic, GOG, Amazon & itch.io games appearing as natively as possible in your Steam library - no Desktop Mode required</p>
     </div>
   </div>
 
@@ -52,12 +53,12 @@ header:
 <section class="key-features">
   <h2>Why Junk Store 2.0 Is Worth the Investment</h2>
   <div class="features-grid">
-    <div class="feature">🚀 <strong>Never Leave Game Mode</strong><br><span class="feature-detail">No Desktop Mode switching required</span></div>
-    <div class="feature">⚡ <strong>Just Works</strong><br><span class="feature-detail">Install once, play immediately</span></div>
-    <div class="feature">🎯 <strong>Native Steam Experience</strong><br><span class="feature-detail">Games appear directly in your library</span></div>
-    <div class="feature">🎮 <strong>All Your Stores</strong><br><span class="feature-detail">Epic, GOG, Amazon & itch.io unified</span></div>
-    <div class="feature">🔧 <strong>Ongoing Support</strong><br><span class="feature-detail">Regular updates and quick fixes</span></div>
-    <div class="feature">💰 <strong>Better Than Free</strong><br><span class="feature-detail">Professional quality without the hassle</span></div>
+    <div class="feature"><div style="text-align: center;">🚀 <strong>Never Leave Game Mode</strong></div><span class="feature-detail" style="text-align: left; display: block;">No Desktop Mode switching required</span></div>
+    <div class="feature"><div style="text-align: center;">⚡ <strong>Just Works</strong></div><span class="feature-detail" style="text-align: left; display: block;">Install once, play immediately</span></div>
+    <div class="feature"><div style="text-align: center;">🎯 <strong>Native-Like Integration</strong></div><span class="feature-detail" style="text-align: left; display: block;">Games appear directly in your library</span></div>
+    <div class="feature"><div style="text-align: center;">🎮 <strong>All Your Stores</strong></div><span class="feature-detail" style="text-align: left; display: block;">Epic, GOG, Amazon & itch.io unified</span></div>
+    <div class="feature"><div style="text-align: center;">🔧 <strong>Ongoing Support</strong></div><span class="feature-detail" style="text-align: left; display: block;">Regular updates and quick fixes</span></div>
+    <div class="feature"><div style="text-align: center;">💰 <strong>Better Than Free</strong></div><span class="feature-detail" style="text-align: left; display: block;">Professional quality without the hassle</span></div>
   </div>
 </section>
 
@@ -77,32 +78,32 @@ header:
 
     <div class="faq-item">
       <h4>Can I try before I buy to see if it's worth it?</h4>
-      <p>Absolutely. Every license includes a <strong>7-day free trial</strong> with full access to all features: Epic, GOG, Amazon & itch.io integration, emulator setup, and all premium features. Cancel anytime during trial for zero charges.</p>
-    </div>
-
-    <div class="faq-item">
-      <h4>What happens if I don't renew my annual license?</h4>
-      <p>You keep access to the version you paid for. All installed games remain playable and functionality continues working - you just won't receive future updates.</p>
+      ✅ <strong>7-day free trial</strong> with full access to all features. Cancel anytime for zero charges. <a href="/2.0faq/#trial-length-what-happens" target="_blank">Trial details →</a>
     </div>
 
     <div class="faq-item">
       <h4>Is Junk Store trustworthy with my credentials?</h4>
-      <p>Yes. We never store your passwords - only secure login tokens stored locally on your Steam Deck. Uses the same OAuth flow as official store websites. No personal data collection or game tracking.</p>
+      ✅ <strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores. <a href="/2.0faq/#is-junk-store-trustworthy" target="_blank">Security details →</a>
     </div>
 
     <div class="faq-item">
-      <h4>Will this slow down my Steam Deck?</h4>
-      <p>No! Games launch directly through Steam without background launchers. More efficient than external alternatives that require Desktop Mode switching.</p>
+      <h4>What happens if I don't renew my annual license?</h4>
+      ✅ <strong>You keep everything forever.</strong> All games remain playable, just no future updates. <a href="/2.0faq/#what-happens-no-renew" target="_blank">Ownership details →</a>
     </div>
 
     <div class="faq-item">
       <h4>What makes this different from free alternatives?</h4>
-      <p>Junk Store is Steam Deck-specific software designed for handheld workflows with full controller navigation in Game Mode. <strong>Most importantly: Junk Store doesn't run additional processes while gaming.</strong> Other solutions run between Steam and your game (consuming system resources), but Junk Store uses lightweight scripts that hand everything directly to Steam - no performance interference.</p>
+      ✅ <strong>Game Mode-native + zero resource usage.</strong> Others run between Steam and games. <a href="/comparison/" target="_blank">Full comparison →</a>
+    </div>
+
+    <div class="faq-item">
+      <h4>Will this slow down my Steam Deck?</h4>
+      ✅ <strong>Zero performance impact.</strong> Games launch directly through Steam without background processes.
     </div>
 
     <div class="faq-item">
       <h4>What if I have problems during setup?</h4>
-      <p><strong>Need setup help? We're here for you!</strong> Most installation issues are quick environmental fixes we can resolve in minutes. Our team provides friendly support to get you up and running. <strong>Common quick fixes:</strong> Conflicting software, setup steps, or system configuration. Try these resources: <a href="/2.0troubleshooting/#installation-not-completing" target="_blank">installation issues</a>, <a href="/2.0troubleshooting/#executables-wont-run" target="_blank">executable won't run</a>, and <a href="/2.0faq/#using-junk-store" target="_blank">Using Junk Store guide</a>, then reach out if you need assistance.</p>
+      ✅ <strong>Professional support team.</strong> Most issues resolved in minutes. <a href="/2.0troubleshooting/#installation-not-completing" target="_blank">Installation fixes →</a> • <a href="/2.0troubleshooting/#executables-wont-run" target="_blank">Executable fixes →</a>
     </div>
 
   </div>
@@ -111,12 +112,8 @@ header:
 <section class="pricing-highlight" id="pricing-details">
   <div class="pricing-box">
     <h3>🚀 Get Everything for $40/Year</h3>
-    <p class="price-text">Less than $1 per week for unlimited Epic, GOG, Amazon & itch.io (beta) gaming without Desktop Mode frustration</p>
-    <p class="trial-text">7 full days free to try everything • Only charged if you keep it • Cancel anytime</p>
-    <p class="value-text">💯 Start Your Risk-Free Trial: Immediate access to all features and platforms with easy cancellation if it's not the perfect fit</p>
-    <p class="ownership-text">✅ <strong>Own JunkStore 2.0 Forever - $40</strong> Keep Everything You've Paid For: Includes 1 full year of updates. Keep everything permanently.
-Only pay again if you want future updates beyond year 1.</p>
-    <p class="fence-text">Transform your Steam Deck experience today with the only Game Mode-native solution.</p>
+    <p class="price-text">Less than $1 per week for unlimited Epic, GOG, Amazon & itch.io gaming without Desktop Mode frustration</p>
+    <p class="trial-text">7-day free trial • Cancel anytime • Keep everything forever after purchase</p>
     <div class="pricing-cta">
       <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Start Free Trial</a>
       <a href="/comparison/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_comparison" data-label="buy_now_page_secondary">Compare Features</a>

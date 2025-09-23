@@ -22,21 +22,6 @@
             </li>
           {%- endfor -%}
         </ul>
-        
-        <!-- 🔽 Hidden menu with hamburger icon
-        <li class="dropdown-menu">
-          <a href="#" class="dropdown-toggle" aria-haspopup="true">
-            <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24">
-              <path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-            </svg>
-          </a>
-          <ul class="dropdown-content">
-            <li><a href="{{ '/decky/decky-plugin' | relative_url }}">Decky Plugin</a></li>
-            <li><a href="{{ '/dev-notes/' | relative_url }}">Developer Notes</a></li>
-            <li><a href="{{ '/beta/' | relative_url }}">Beta Features</a></li>
-          </ul>
-        </li> -->
-        
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
@@ -52,3 +37,54 @@
     </div>
   </div>
 </div>
+
+<script>
+// Debug and ensure greedy nav works properly
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('Greedy nav debug: DOM loaded');
+
+  // Check if greedy nav elements exist
+  const nav = document.querySelector('nav.greedy-nav');
+  const visibleLinks = document.querySelector('nav.greedy-nav .visible-links');
+  const hiddenLinks = document.querySelector('nav.greedy-nav .hidden-links');
+  const toggle = document.querySelector('nav.greedy-nav .greedy-nav__toggle');
+
+  console.log('Greedy nav elements:', {
+    nav: !!nav,
+    visibleLinks: !!visibleLinks,
+    hiddenLinks: !!hiddenLinks,
+    toggle: !!toggle,
+    visibleCount: visibleLinks ? visibleLinks.children.length : 0,
+    toggleVisible: toggle ? !toggle.classList.contains('hidden') : false,
+    toggleClasses: toggle ? toggle.className : 'none'
+  });
+
+  // Force greedy nav recalculation after fonts and layout are loaded
+  setTimeout(function() {
+    console.log('Triggering resize event for greedy nav');
+    window.dispatchEvent(new Event('resize'));
+  }, 100);
+
+  // Also recalculate when fonts finish loading
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(function() {
+      setTimeout(function() {
+        console.log('Fonts loaded, triggering resize');
+        window.dispatchEvent(new Event('resize'));
+      }, 50);
+    });
+  }
+
+  // Debug: Monitor when items move
+  if (hiddenLinks) {
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.type === 'childList') {
+          console.log('Hidden links changed:', hiddenLinks.children.length, 'items now hidden');
+        }
+      });
+    });
+    observer.observe(hiddenLinks, { childList: true });
+  }
+});
+</script>

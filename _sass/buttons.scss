@@ -241,16 +241,16 @@ a.button.gog-extension-button:hover {
     }
   }
 
-  /* Header action buttons - consistent with .button styles */
+  /* Header action buttons - enhanced mobile prominence */
   .page__hero .btn {
     width: 100%;
     max-width: 280px;
-    margin: 0.75rem auto;
-    padding: 1.1rem 1.5rem;
-    font-size: 1.1rem;
-    min-height: 50px; /* Consistent with mobile .button height */
+    margin: 1rem auto; /* Increased spacing for prominence */
+    padding: 1.2rem 1.75rem; /* Larger padding for better touch */
+    font-size: 1.15rem; /* Slightly larger text */
+    min-height: 52px; /* Slightly taller for prominence */
     border-radius: 8px;
-    font-weight: 600;
+    font-weight: 700; /* Bolder text for prominence */
     /* Enhanced mobile accessibility */
     -webkit-tap-highlight-color: rgba(0, 122, 204, 0.2);
     touch-action: manipulation;
@@ -259,11 +259,29 @@ a.button.gog-extension-button:hover {
     justify-content: center;
     transition: all 0.2s ease;
     box-sizing: border-box;
+    /* Enhanced mobile CTA styling */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border: 2px solid transparent;
   }
 
   .page__hero .btn:active {
     transform: scale(0.98);
     transition: all 0.1s ease;
+  }
+
+  /* Enhanced mobile hero buy button prominence */
+  .page__hero .btn.buy-button {
+    font-weight: 800; /* Extra bold for primary action */
+    background-color: #1e7e34 !important;
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4); /* Stronger shadow */
+    border: 2px solid rgba(40, 167, 69, 0.3); /* Subtle green border */
+    font-size: 1.2rem; /* Larger text for primary CTA */
+    min-height: 56px; /* Taller for primary action */
+  }
+
+  .page__hero .btn.buy-button:active {
+    transform: scale(0.97);
+    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.5);
   }
 
   /* Ensure mobile .btn buttons have consistent styling */

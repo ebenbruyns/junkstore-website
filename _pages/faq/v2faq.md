@@ -13,11 +13,13 @@ header:
     - label: "Buy Now"
       url: "/buy_now/"
       class: "button buy-button"
+excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on Steam Deck. Pricing, setup, and technical support"
 ---
 <div id="top"></div>
-<div class="spacer mt-4"></div>
 
-This is the official Junk Store FAQ, where you'll find answers to the most commonly asked questions. We update this page regularly as new features roll out and feedback comes in.
+<section class="seo-intro">
+  <p><strong>Complete FAQ for Junk Store 2.0.</strong> Find answers to common questions about playing Epic, GOG, Amazon & itch.io games on Steam Deck with our standalone app.</p>
+</section>
 
 
 <!-- FAQ Search Interface -->
@@ -32,7 +34,9 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   </div>
 </div>
 
-<h2 id="overview-trial">Overview & Trial Information</h2>
+<div style="display: flex; justify-content: center; width: 100%;">
+<h2>Overview & Trial Information</h2>
+</div>
 
 
 <details class="faq-box" id="is-junk-store-trustworthy">
@@ -157,7 +161,7 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Note:</strong> You can reactivate anytime to resume receiving updates and support.
 </details>
 
-<h2 id="licensing-account-management">Licensing & Account Management</h2>
+<h2 id="licensing-account-management" style="text-align: center; margin-top: 2rem;">Licensing & Account Management</h2>
 
 
 <details class="faq-box" id="how-many-devices">
@@ -211,7 +215,9 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Key difference:</strong> The free Decky version focuses on basic Epic Games support, while Junk Store 2.0 provides the complete Game Mode native experience across multiple platforms.
 </details>
 
+<div style="display: flex; justify-content: center; width: 100%;">
 <h2 id="getting-started-setup">Getting Started & Setup</h2>
+</div>
 
 
 <details class="faq-box" id="how-to-access-junk-store">
@@ -264,7 +270,9 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Important:</strong> Base your purchase decision on current features, not future promises. New platforms will be added as development resources allow.
 </details>
 
+<div style="display: flex; justify-content: center; width: 100%;">
 <h2 id="using-junk-store">Using Junk Store</h2>
+</div>
 
 
 <details class="faq-box" id="how-to-update-junk-store">
@@ -546,7 +554,9 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <code>~/.local/share/junkstore/uninstall.sh</code>
 </details>
 
+<div style="display: flex; justify-content: center; width: 100%;">
 <h2 id="game-compatibility--support">Game Compatibility & Support</h2>
+</div>
 
 
 <details class="faq-box" id="third-party-launchers">
@@ -597,7 +607,9 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
 </details>
 
 
+<div style="display: flex; justify-content: center; width: 100%;">
 <h2 id="generaltechnical-details">General/Technical Details</h2>
+</div>
 
 
 <details class="faq-box" id="decky-vs-paid-version">
@@ -656,16 +668,66 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
     <strong>Note:</strong> Bug reports aren't support tickets. If you need help or aren't sure if it's a bug, please ask in our <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord server</a> first.
 </details>
 
-**Need more help?** 
-- **Step-by-step guides:** [All Tutorials](/tutorials/) 
-- **Technical issues:** [Troubleshooting Guide](/2.0troubleshooting/)
-- **Community support:** 
+<h2 style="text-align: center; margin-top: 4rem;">Didn't Find Your Answer?</h2>
+
+<p style="text-align: center; margin-bottom: 2rem; color: #ccc;">Still have questions after reading this FAQ? We've got you covered with multiple support options.</p>
+
+<div class="help-grid">
+
+<div class="help-section">
+  <h3>Quick Help</h3>
+  <div class="help-links">
+    <a href="/2.0-hub/" class="help-link">
+      <span class="help-title">2.0 Standalone Help</span>
+      <span class="help-desc">Quick reference and tips</span>
+    </a>
+    <a href="/tutorials/" class="help-link">
+      <span class="help-title">Setup Tutorials</span>
+      <span class="help-desc">Step-by-step guides</span>
+    </a>
+  </div>
+</div>
+
+<div class="help-section">
+  <h3>Troubleshooting</h3>
+  <div class="help-links">
+    <a href="/2.0troubleshooting/" class="help-link">
+      <span class="help-title">2.0 Troubleshooting</span>
+      <span class="help-desc">Fix technical issues</span>
+    </a>
+    <a href="/gallery/" class="help-link">
+      <span class="help-title">Gallery</span>
+      <span class="help-desc">Visual examples</span>
+    </a>
+  </div>
+</div>
+
+<div class="help-section">
+  <h3>More Resources</h3>
+  <div class="help-links">
+    <a href="/upgrade/" class="help-link">
+      <span class="help-title">Upgrade Comparison</span>
+      <span class="help-desc">Free vs Professional</span>
+    </a>
+    <a href="/get_started/" class="help-link">
+      <span class="help-title">Getting Started</span>
+      <span class="help-desc">Initial setup guide</span>
+    </a>
+  </div>
+</div>
+
+</div>
+
+<div style="text-align: center; margin-top: 3rem;">
+  <h3>Community Support</h3>
+  <p style="margin-bottom: 1.5rem;">Join our community for live help and discussion</p>
   <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
     <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
   </a>
   <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
     <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
   </a>
+</div>
 
 <!-- Final navigation - Back to top buttons -->
 <div class="section-end">
@@ -686,6 +748,103 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   transition: opacity 0.2s ease;
   text-decoration: none;
   color: inherit;
+}
+
+/* Help Section Styling */
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.help-section {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 25px;
+  background-color: #1e2a38;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.help-section:hover {
+  border-color: #e67300;
+  transform: translateY(-2px);
+}
+
+.help-section h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #e67300;
+  font-size: 1.2em;
+}
+
+.help-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.help-link {
+  display: block;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.help-link:hover {
+  background: rgba(230, 115, 0, 0.1);
+  border-color: #e67300;
+  transform: translateX(5px);
+}
+
+.help-title {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.help-desc {
+  display: block;
+  color: #ccc;
+  font-size: 0.9em;
+}
+
+/* Community Buttons */
+.community-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  margin-right: 12px;
+  color: white;
+}
+
+.discord-btn {
+  background: #5865f2;
+  color: white !important;
+}
+
+.reddit-btn {
+  background: #ff4500;
+  color: white !important;
+}
+
+.community-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
 }
 
 .faq-anchor:hover {
@@ -715,36 +874,13 @@ This is the official Junk Store FAQ, where you'll find answers to the most commo
   100% { opacity: 0; transform: translateY(-10px); }
 }
 
-.community-btn {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 12px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 13px;
-  transition: all 0.2s ease;
-  border: 2px solid transparent;
-  margin-left: 8px;
-  color: white;
-}
 
-.discord-btn {
-  background: #5865f2;
-  color: white !important;
-}
-
-.reddit-btn {
-  background: #ff4500;
-  color: white !important;
-}
-
-.community-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  color: white;
-  opacity: 0.9;
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .help-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }
 </style>
 

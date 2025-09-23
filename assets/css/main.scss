@@ -260,3 +260,9 @@ pre code span {
 .copy-btn:hover {
   background-color: #0056b3;
 }
+
+/* FINAL OVERRIDE: Force center all section headers on FAQ and troubleshooting pages */
+.centered-header {
+  text-align: center !important;
+  display: block !important;
+}

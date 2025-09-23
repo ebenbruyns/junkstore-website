@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Junk Store Blog"
-description: "Tips, reviews, and updates for Steam Deck gaming. Weekly content from the Junk Store team."
+description: "Tips, reviews, and updates for Steam Deck gaming with Epic, GOG, Amazon & itch.io games. Weekly content from the Junk Store team."
 permalink: /blog/
 header:
   overlay_color: "#000"
@@ -11,11 +11,15 @@ header:
     - label: "Try Junk Store 2.0 Free"
       url: "/buy_now/"
       class: "button buy-button"
-excerpt: "Tips, reviews, and updates for Steam Deck gaming"
+excerpt: "Junk Store tips, game reviews, feature updates, and guides for Epic, GOG, Amazon & itch.io games"
 ---
 
+<section class="seo-intro">
+  <p><strong>Stay updated with the latest Junk Store news.</strong> Weekly tips, game compatibility updates, and reviews for Epic, GOG, Amazon & itch.io games on Steam Deck.</p>
+</section>
+
 <section class="blog-header">
-  <h1>What's New</h1>
+  <h1 style="text-align: center;">What's New</h1>
   <p class="blog-subtitle">Weekly Junk Store tips, game compatibility updates, and Steam Deck gaming mastery guides.</p>
 </section>
 
