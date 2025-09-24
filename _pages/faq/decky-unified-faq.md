@@ -10,9 +10,9 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
-    - label: "Get Junk Store 2.0"
-      url: "/buy_now/"
-      class: "button buy-button"
+    - label: "Decky Troubleshooting"
+      url: "/troubleshooting/decky/"
+      class: "button"
 excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support included, GOG extension available separately"
 ---
 <div id="top"></div>
@@ -544,9 +544,9 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
       <span class="help-title">Decky Troubleshooting</span>
       <span class="help-desc">Fix plugin issues</span>
     </a>
-    <a href="/gallery/" class="help-link">
-      <span class="help-title">Gallery</span>
-      <span class="help-desc">Visual examples</span>
+    <a href="/tested-games/" class="help-link">
+      <span class="help-title">Games Tested</span>
+      <span class="help-desc">Compatibility database</span>
     </a>
   </div>
 </div>
@@ -554,9 +554,9 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
 <div class="help-section">
   <h3>More Resources</h3>
   <div class="help-links">
-    <a href="/tested-games/" class="help-link">
-      <span class="help-title">Games Tested</span>
-      <span class="help-desc">Compatibility database</span>
+    <a href="/upgrade/" class="help-link">
+      <span class="help-title">Upgrade to 2.0</span>
+      <span class="help-desc">Free vs Professional</span>
     </a>
     <a href="/get_started/" class="help-link">
       <span class="help-title">Getting Started</span>

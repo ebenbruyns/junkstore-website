@@ -10,18 +10,14 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
-    - label: "Get Junk Store 2.0"
-      url: "/buy_now/"
-      class: "button buy-button"
+    - label: "Decky FAQ"
+      url: "/faq/decky/"
+      class: "button"
 ---
 <section class="seo-intro">
   <p><strong>Fix Epic and GOG game issues directly from Game Mode!</strong> This comprehensive troubleshooting guide covers Junk Store Decky plugin installation, compatibility problems, and authentication solutions for Steam Deck users.</p>
 </section>
 
-**Before troubleshooting:**
-- **Check our FAQ:** [Common questions answered](/faq/decky/)
-- **Follow setup guides:** [All Tutorials](/tutorials/)
-- **Still need help?** [Discord](https://discord.gg/6mRUhR6Teh) or [Reddit](https://www.reddit.com/r/JunkStore/)
 
 
 <!-- Troubleshooting Search Interface -->
@@ -401,9 +397,9 @@ header:
       <span class="help-title">Decky Plugin FAQ</span>
       <span class="help-desc">Common plugin questions</span>
     </a>
-    <a href="/gallery/" class="help-link">
-      <span class="help-title">Gallery</span>
-      <span class="help-desc">Visual examples</span>
+    <a href="/tested-games/" class="help-link">
+      <span class="help-title">Games Tested</span>
+      <span class="help-desc">Compatibility database</span>
     </a>
   </div>
 </div>
@@ -411,9 +407,9 @@ header:
 <div class="help-section">
   <h3>More Resources</h3>
   <div class="help-links">
-    <a href="/tested-games/" class="help-link">
-      <span class="help-title">Games Tested</span>
-      <span class="help-desc">Compatibility database</span>
+    <a href="/upgrade/" class="help-link">
+      <span class="help-title">Upgrade to 2.0</span>
+      <span class="help-desc">Free vs Professional</span>
     </a>
     <a href="/get_started/" class="help-link">
       <span class="help-title">Getting Started</span>

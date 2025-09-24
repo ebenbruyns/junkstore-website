@@ -10,8 +10,8 @@ header:
   actions:
     - label: "Start Free Trial"
       url: "https://portal.junkstore.xyz"
-      class: "button buy-button"
       target: "_blank"
+      class: "button buy-button"
     - label: "Watch Demo First"
       url: "/gallery/"
       class: "button button-secondary"
@@ -40,10 +40,10 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
   </div>
 
   <div class="progressive-cta">
-    <p class="cta-prompt">Convinced by what you see?</p>
+    <p class="cta-prompt">Ready to get started, or need more details?</p>
     <div class="cta-buttons">
       <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_visual_proof">Start Free Trial</a>
-      <a href="#pricing-details" class="button button-secondary" data-event="click" data-category="engagement" data-action="scroll_to_pricing" data-label="buy_now_visual_proof">See Full Pricing Details</a>
+      <a href="/comparison/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_comparison" data-label="buy_now_visual_proof">Compare Features</a>
     </div>
   </div>
 </section>
@@ -78,22 +78,22 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 
     <div class="faq-item">
       <h4>Can I try before I buy to see if it's worth it?</h4>
-      ✅ <strong>7-day free trial</strong> with full access to all features. Cancel anytime for zero charges. <a href="/2.0faq/#trial-length-what-happens" target="_blank">Trial details →</a>
+      ✅ <strong>7-day free trial</strong> with full access to all features. Cancel anytime for zero charges. <a href="/2.0faq/#trial-length-what-happens">Trial details →</a>
     </div>
 
     <div class="faq-item">
       <h4>Is Junk Store trustworthy with my credentials?</h4>
-      ✅ <strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores. <a href="/2.0faq/#is-junk-store-trustworthy" target="_blank">Security details →</a>
+      ✅ <strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores. <a href="/2.0faq/#is-junk-store-trustworthy">Security details →</a>
     </div>
 
     <div class="faq-item">
       <h4>What happens if I don't renew my annual license?</h4>
-      ✅ <strong>You keep everything forever.</strong> All games remain playable, just no future updates. <a href="/2.0faq/#what-happens-no-renew" target="_blank">Ownership details →</a>
+      ✅ <strong>You keep everything forever.</strong> All games remain playable, just no future updates. <a href="/2.0faq/#what-happens-no-renew">Ownership details →</a>
     </div>
 
     <div class="faq-item">
       <h4>What makes this different from free alternatives?</h4>
-      ✅ <strong>Game Mode-native + zero resource usage.</strong> Others run between Steam and games. <a href="/comparison/" target="_blank">Full comparison →</a>
+      ✅ <strong>Game Mode-native + zero resource usage.</strong> Others run between Steam and games. <a href="/comparison/">Full comparison →</a>
     </div>
 
     <div class="faq-item">
@@ -103,7 +103,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 
     <div class="faq-item">
       <h4>What if I have problems during setup?</h4>
-      ✅ <strong>Professional support team.</strong> Most issues resolved in minutes. <a href="/2.0troubleshooting/#installation-not-completing" target="_blank">Installation fixes →</a> • <a href="/2.0troubleshooting/#executables-wont-run" target="_blank">Executable fixes →</a>
+      ✅ <strong>Professional support team.</strong> Most issues resolved in minutes. <a href="/2.0troubleshooting/#installation-not-completing">Installation fixes →</a> • <a href="/2.0troubleshooting/#executables-wont-run">Executable fixes →</a>
     </div>
 
   </div>
@@ -116,8 +116,6 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
     <p class="trial-text">7-day free trial • Cancel anytime • Keep everything forever after purchase</p>
     <div class="pricing-cta">
       <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Start Free Trial</a>
-      <a href="/comparison/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_comparison" data-label="buy_now_page_secondary">Compare Features</a>
-      <a href="/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_gallery" data-label="buy_now_page_pricing">See More Demos</a>
     </div>
   </div>
 </section>
