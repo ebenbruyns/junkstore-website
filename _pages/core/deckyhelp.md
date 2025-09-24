@@ -11,7 +11,7 @@ header:
   title: "Free Junk Store Decky Plugin - Complete Help Hub"
   actions:
     - label: "Upgrade to 2.0"
-      url: "/buy_now/"
+      url: "/upgrade/"
       class: "button buy-button"
 excerpt: "Complete help hub for the free Junk Store Decky plugin - installation, troubleshooting, and Epic Games setup guides"
 ---
@@ -49,7 +49,7 @@ excerpt: "Complete help hub for the free Junk Store Decky plugin - installation,
   <div class="content-box tested-games">
     <h3>Games Tested</h3>
     <p>View Epic & Gog games known to work with Junk Store.</p>
-    <a href="/tested-games/" class="button" target="_blank" rel="noopener noreferrer">Games Tested</a>
+    <a href="/tested-games/" class="button">Games Tested</a>
   </div>
 
   <div class="content-box">

@@ -39,6 +39,10 @@ header:
         <li>Open Dolphin → Downloads → Right-click the file → Properties → Permissions</li>
         <li>Mark it as executable and click <strong>OK</strong>, then double-click to install</li>
     </ul>
+
+    <div style="background: rgba(255, 69, 0, 0.2); border: 2px solid #ff4500; border-radius: 8px; padding: 15px; margin: 10px 0;">
+      <strong style="color: #ff6b35; font-size: 1.1em;">⚠️ CRITICAL:</strong> When installing Junk Store 2.0, you <strong style="color: #ff6b35;">MUST wait until the dialogue box says "Installation Complete"</strong> before clicking OK. <strong style="color: #ff6b35;">Clicking the OK button too early cancels the installation process.</strong>
+    </div>
     <br>
     
     <li><strong>Return to Game Mode </strong> <span style="color: #00d4aa; font-weight: bold;">(The Magic Begins)</span></li>
