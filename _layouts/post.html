@@ -164,16 +164,29 @@ layout: default
   line-height: 1.7;
 }
 
-.blog-content h2 {
+.blog-content h2,
+.blog-content h2[id] {
   color: #66bfff;
   border-bottom: 2px solid #3a4a5c;
   padding-bottom: 8px;
   margin: 30px 0 20px 0;
+  text-align: left !important;
 }
 
-.blog-content h3 {
+.blog-content h3,
+.blog-content h3[id] {
   color: #cceeff;
   margin: 25px 0 15px 0;
+  text-align: left !important;
+}
+
+.blog-content h4,
+.blog-content h4[id],
+.blog-content h5,
+.blog-content h5[id],
+.blog-content h6,
+.blog-content h6[id] {
+  text-align: left !important;
 }
 
 .blog-content ul, .blog-content ol {

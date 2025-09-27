@@ -23,7 +23,7 @@ Kia ora Everyone!
 
 [Brief transition to games content]
 
-## Current System Setup
+<h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 * **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
@@ -33,7 +33,9 @@ Kia ora Everyone!
 
 > **📋 GOG Extension Note:** The updated GOG Extension is exclusively available through the [Junk Store Portal](https://portal.junkstore.xyz/). Previous Patreon/Ko-fi supporters have been migrated - sign in with your original email to access. If you haven't been migrated yet, let us know so we can help. [Read more about the v0.1.9 update](https://www.junkstore.xyz/blog/gog-extension-v019-update/).
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games</h2>
+
+<a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
 
 ### Epic Games Giveaway
 
@@ -233,7 +235,7 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
 
 
 
-## Looking Forward
+<h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
 [Brief outlook on upcoming work, next week's anticipated releases, or general thoughts]
 

@@ -954,6 +954,21 @@ h2[id] {
   box-sizing: border-box !important;
 }
 
+/* Override for blog content headings - force left alignment */
+.blog-content h2[id],
+.blog-content h3[id],
+.blog-content h4[id],
+.blog-content h5[id],
+.blog-content h6[id] {
+  text-align: left !important;
+  max-width: none !important;
+  width: auto !important;
+  margin: 30px 0 20px 0 !important;
+  padding: 0 0 8px 0 !important;
+  font-size: 1.5rem !important;
+  font-weight: normal !important;
+}
+
 /* Specific override for About page */
 body.layout--splash h2 {
   text-align: center !important;
