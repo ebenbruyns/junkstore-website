@@ -57,7 +57,7 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
 
 <!-- Featured Games Section -->
 <div class="feature-box">
-  <h3>🆕 Recently Tested</h3>
+  <h3>🎁 This Week's Giveaways</h3>
   <div class="featured-row" id="featuredGamesContainer">
     <!-- Featured games will be populated by JavaScript -->
   </div>
@@ -165,16 +165,32 @@ let weeklyTestedGames = []; // Games from current week's blog post
 // Load weekly tested games from latest blog post
 async function loadWeeklyTestedGames() {
   try {
-    console.log('Loading weekly tested games from latest blog post');
+    console.log('🔍 Loading weekly tested games from latest blog post');
 
-    // Try direct approach first - load the specific current week post
-    const currentWeekResponse = await fetch('/blog/games-tested-sep-27/');
-    if (currentWeekResponse.ok) {
-      const postContent = await currentWeekResponse.text();
-      const weeklyGames = extractGamesFromPost(postContent);
-      if (weeklyGames.length > 0) {
-        console.log(`✅ Loaded ${weeklyGames.length} games from current week's post:`, weeklyGames);
-        return weeklyGames;
+    // Try multiple URL patterns for current week post
+    const possibleUrls = [
+      '/blog/games-tested-sep-27/',
+      '/2025/09/27/games-tested-sep-27.html',
+      '/weekly-update/game-compatibility/2025/09/27/games-tested-sep-27.html'
+    ];
+
+    for (const url of possibleUrls) {
+      console.log(`🔗 Trying URL: ${url}`);
+      try {
+        const response = await fetch(url);
+        if (response.ok) {
+          console.log(`✅ Found post at: ${url}`);
+          const postContent = await response.text();
+          const weeklyGames = extractGamesFromPost(postContent);
+          if (weeklyGames.length > 0) {
+            console.log(`🎮 Loaded ${weeklyGames.length} games from current week's post:`, weeklyGames);
+            return weeklyGames;
+          }
+        } else {
+          console.log(`❌ Failed to load ${url}: ${response.status}`);
+        }
+      } catch (urlError) {
+        console.log(`❌ Error trying ${url}:`, urlError.message);
       }
     }
 
@@ -386,14 +402,21 @@ function populateStats() {
   `;
 }
 
-// Sort games: featured first, then alphabetically
+// Sort games: featured first, then backlog/retest (alphabetized together), then regular games
 function sortGames() {
   filteredGames.sort((a, b) => {
     // Featured games come first
     if (a.is_featured && !b.is_featured) return -1;
     if (!a.is_featured && b.is_featured) return 1;
-    
-    // Then sort alphabetically by title
+
+    // If neither are featured, prioritize backlog/retest games as one group
+    const aIsBacklogRetest = a.blog_category === 'backlog' || a.blog_category === 'retest';
+    const bIsBacklogRetest = b.blog_category === 'backlog' || b.blog_category === 'retest';
+
+    if (aIsBacklogRetest && !bIsBacklogRetest) return -1;
+    if (!aIsBacklogRetest && bIsBacklogRetest) return 1;
+
+    // Then sort alphabetically by title (both within and across groups)
     return a.title.localeCompare(b.title);
   });
 }
@@ -475,7 +498,13 @@ function updateTable() {
     if (game.is_featured) {
       rowClasses += 'featured-game ';
     }
-    if (isWeeklyTested && !game.is_featured) {
+    else if (game.blog_category === 'retest') {
+      rowClasses += 'retest-game ';
+    }
+    else if (game.blog_category === 'backlog') {
+      rowClasses += 'backlog-game ';
+    }
+    else if (isWeeklyTested) {
       rowClasses += 'weekly-tested-game ';
     }
 
