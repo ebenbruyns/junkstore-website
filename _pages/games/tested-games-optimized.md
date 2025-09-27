@@ -160,105 +160,9 @@ let gamesData = null;
 let filteredGames = [];
 let currentPage = 1;
 let pageSize = 20;
-let weeklyTestedGames = []; // Games from current week's blog post
+// Note: Weekly tested games are now identified via blog_category field in JSON data
 
-// Load weekly tested games from latest blog post
-async function loadWeeklyTestedGames() {
-  try {
-    console.log('🔍 Loading weekly tested games from latest blog post');
-
-    // Try multiple URL patterns for current week post
-    const possibleUrls = [
-      '/blog/games-tested-sep-27/',
-      '/2025/09/27/games-tested-sep-27.html',
-      '/weekly-update/game-compatibility/2025/09/27/games-tested-sep-27.html'
-    ];
-
-    for (const url of possibleUrls) {
-      console.log(`🔗 Trying URL: ${url}`);
-      try {
-        const response = await fetch(url);
-        if (response.ok) {
-          console.log(`✅ Found post at: ${url}`);
-          const postContent = await response.text();
-          const weeklyGames = extractGamesFromPost(postContent);
-          if (weeklyGames.length > 0) {
-            console.log(`🎮 Loaded ${weeklyGames.length} games from current week's post:`, weeklyGames);
-            return weeklyGames;
-          }
-        } else {
-          console.log(`❌ Failed to load ${url}: ${response.status}`);
-        }
-      } catch (urlError) {
-        console.log(`❌ Error trying ${url}:`, urlError.message);
-      }
-    }
-
-    // Fallback approach - try to find latest weekly post from blog page
-    const response = await fetch('/blog.html');
-    if (!response.ok) {
-      console.warn('Could not load blog page, skipping weekly highlighting');
-      return [];
-    }
-
-    const blogHtml = await response.text();
-
-    // Look for the latest weekly-updates post
-    const postMatch = blogHtml.match(/href="([^"]*weekly-updates[^"]*games-tested[^"]*?)"/);
-    if (!postMatch) {
-      console.warn('Could not find latest weekly update post');
-      return [];
-    }
-
-    const latestPostUrl = postMatch[1];
-    console.log('Found latest weekly post URL:', latestPostUrl);
-
-    // Fetch the post content
-    const postResponse = await fetch(latestPostUrl);
-    if (!postResponse.ok) {
-      console.warn('Could not load latest weekly post');
-      return [];
-    }
-
-    const postContent = await postResponse.text();
-    const weeklyGames = extractGamesFromPost(postContent);
-
-    if (weeklyGames.length > 0) {
-      console.log(`✅ Loaded ${weeklyGames.length} games from weekly post:`, weeklyGames);
-    }
-
-    return weeklyGames;
-
-  } catch (error) {
-    console.warn('Error loading weekly tested games:', error);
-    return [];
-  }
-}
-
-// Extract games_tested array from post content
-function extractGamesFromPost(postContent) {
-  try {
-    // Extract games_tested from front matter
-    const frontMatterMatch = postContent.match(/games_tested:\s*\n((?:\s*-\s*"[^"]+"\s*\n)*)/);
-    if (!frontMatterMatch) {
-      console.warn('Could not find games_tested in front matter');
-      return [];
-    }
-
-    // Parse the games list
-    const gamesSection = frontMatterMatch[1];
-    const gameMatches = gamesSection.match(/-\s*"([^"]+)"/g);
-    if (!gameMatches) {
-      console.warn('Could not parse games list');
-      return [];
-    }
-
-    return gameMatches.map(match => match.replace(/-\s*"([^"]+)"/, '$1'));
-  } catch (error) {
-    console.warn('Error extracting games from post:', error);
-    return [];
-  }
-}
+// Note: Weekly tested games are now identified directly via blog_category field in JSON data
 
 // Load games data
 async function loadGamesData() {
@@ -275,8 +179,7 @@ async function loadGamesData() {
     console.log(`✅ Loaded ${gamesData.total_games} games successfully`);
     console.log('First 3 games:', gamesData.games.slice(0, 3));
 
-    // Load weekly tested games for highlighting
-    weeklyTestedGames = await loadWeeklyTestedGames();
+    // Weekly tested games now identified via blog_category field
 
     // Initialize the page
     populateFeaturedGames();
@@ -490,8 +393,7 @@ function updateTable() {
     // Check if this is an anti-cheat game
     const isAntiCheat = game.cant_test_linux === true;
 
-    // Check if this game is in current week's blog post
-    const isWeeklyTested = weeklyTestedGames.includes(game.slug);
+    // Weekly highlighting now handled via blog_category field
 
     // Determine CSS classes for highlighting
     let rowClasses = '';
@@ -504,9 +406,7 @@ function updateTable() {
     else if (game.blog_category === 'backlog') {
       rowClasses += 'backlog-game ';
     }
-    else if (isWeeklyTested) {
-      rowClasses += 'weekly-tested-game ';
-    }
+    // No longer needed - all highlighting handled by blog_category
 
     return `
     <tr class="${rowClasses.trim()}" data-storefront="${game.storefront}" data-status="${game.overall_status}">
