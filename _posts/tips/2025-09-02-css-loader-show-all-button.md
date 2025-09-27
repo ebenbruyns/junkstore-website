@@ -15,13 +15,13 @@ toc: true
 
 *Note: This tip applies to the free Decky plugin version. Junk Store 2.0 (Professional version) loads up to 1000 games automatically.*
 
-## The Problem
+<h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
 You've installed Junk Store and your Epic/GOG games are syncing perfectly, but you can only see games alphabetically from A-L. Games starting with M-Z seem to be completely missing, even though you know you own them.
 
 **This is a very common support question we get**, and there are two main causes: people simply don't notice the prompt, or CSS Loader themes are hiding it.
 
-## Why This Happens (Decky Plugin Optimization)
+<h2 style="text-align: left !important; margin-left: 0;">Why This Happens (Decky Plugin Optimization)</h2>
 
 <div class="game-entry">
   <div class="game-details">
@@ -50,7 +50,7 @@ You've installed Junk Store and your Epic/GOG games are syncing perfectly, but y
   </div>
 </div>
 
-## The Simple Solution
+<h2 style="text-align: left !important; margin-left: 0;">The Simple Solution</h2>
 
 ### Just Press Y!
 1. Open your Epic/GOG library in Junk Store
@@ -63,7 +63,7 @@ You've installed Junk Store and your Epic/GOG games are syncing perfectly, but y
 ![Junk Store bottom menu showing the SHOW ALL button](/assets/images/blog/pushY.webp)
 *The "SHOW ALL" button is located in Junk Store's bottom menu - press Y to load your complete library!*
 
-## If You Can't See the Prompt
+<h2 style="text-align: left !important; margin-left: 0;">If You Can't See the Prompt</h2>
 
 ### Check Your CSS Loader Theme
 Sometimes CSS Loader themes hide or modify the bottom menu area where this prompt appears:
@@ -79,7 +79,7 @@ Sometimes CSS Loader themes hide or modify the bottom menu area where this promp
 
 
 
-## Pro Tips
+<h2 style="text-align: left !important; margin-left: 0;">Pro Tips</h2>
 
 <div class="game-entry">
   <div class="game-details">
@@ -101,7 +101,7 @@ Sometimes CSS Loader themes hide or modify the bottom menu area where this promp
 </div>
 
 
-## Next Week Preview
+<h2 style="text-align: left !important; margin-left: 0;">Next Week Preview</h2>
 Coming next week: **Dive into Junk Store's Many Menus** - Start exploring what's inside the different configuration options and game settings throughout your Decky plugin interface!
 
 Hope this tip helps you access your complete game library! If you have any questions or run into issues, don't hesitate to reach out through our community channels.
