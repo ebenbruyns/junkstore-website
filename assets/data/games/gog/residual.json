@@ -60,8 +60,8 @@
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
-  "owned": false,
-  "is_featured": true,
+  "owned": true,
+  "is_featured": false,
   "created_at": "2025-09-18T23:40:36.518Z",
-  "updated_at": "2025-09-21T04:09:28.875Z"
+  "updated_at": "2025-09-23T23:48:58.236Z"
 }

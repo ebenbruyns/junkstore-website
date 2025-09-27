@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 359,
+  "total_games": 362,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -40,6 +40,7 @@
     "astrea-six-sided-oracles.json",
     "astro-duel-2.json",
     "atlas-fallen.json",
+    "auto-chess.json",
     "aven-colony.json",
     "axiom-verge.json",
     "backpack-hero.json",
@@ -183,6 +184,7 @@
     "invincible-presents-atom-eve.json",
     "islets.json",
     "jennifer-wilde-unlikely-revolutionaries.json",
+    "jorels-brother-and-the-most-important-game-of-the-galaxy.json",
     "journey-to-the-savage-planet.json",
     "journey.json",
     "jurassic-world-evolution-2.json",
@@ -248,6 +250,7 @@
     "republic-of-jungle.json",
     "rime.json",
     "ring-of-pain.json",
+    "rise-of-industry.json",
     "rise-of-the-tomb-raider-20-year-celebration.json",
     "river-city-girls.json",
     "road-redemption.json",
@@ -363,48 +366,42 @@
     "zombie-army-4-dead-war.json"
   ],
   "featured_games": 2,
-  "last_updated": "2025-09-21T04:09:45.886Z",
+  "last_updated": "2025-09-27T22:01:34.558Z",
   "latest_games": [
     {
-      "title": "Samorost 2",
-      "slug": "samorost-2",
-      "date_tested": "Sep '25",
+      "title": "Eastern Exorcist",
+      "slug": "eastern-exorcist",
+      "date_tested": "Sept '25",
       "is_featured": true
     },
     {
-      "title": "Project Winter",
-      "slug": "project-winter",
-      "date_tested": "Sep '25",
+      "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
+      "slug": "jorels-brother-and-the-most-important-game-of-the-galaxy",
+      "date_tested": "Sept '25",
       "is_featured": true
     },
     {
-      "title": "The Battle of Polytopia",
-      "slug": "the-battle-of-polytopia",
+      "title": "Auto Chess",
+      "slug": "auto-chess",
       "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Monument Valley 2",
-      "slug": "monument-valley-2",
-      "date_tested": "Sep '25",
-      "is_featured": false
-    },
-    {
-      "title": "Ghostrunner II",
-      "slug": "ghostrunner-ii",
+      "title": "Darkwood",
+      "slug": "darkwood",
       "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Totally Reliable Delivery Service",
-      "slug": "totally-reliable-delivery-service",
-      "date_tested": "Aug '25",
+      "title": "Islets",
+      "slug": "islets",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Alan Wake Remastered",
-      "slug": "alan-wake-remastered",
-      "date_tested": "July '24",
+      "title": "Rise of Industry",
+      "slug": "rise-of-industry",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
@@ -420,9 +417,15 @@
       "is_featured": false
     },
     {
-      "title": "Art of Rally",
-      "slug": "art-of-rally",
-      "date_tested": "Sept '25",
+      "title": "Samorost 2",
+      "slug": "samorost-2",
+      "date_tested": "Sep '25",
+      "is_featured": false
+    },
+    {
+      "title": "Project Winter",
+      "slug": "project-winter",
+      "date_tested": "Sep '25",
       "is_featured": false
     }
   ]
