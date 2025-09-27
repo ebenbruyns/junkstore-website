@@ -11,22 +11,6 @@ header:
   teaser: /assets/images/blog/250927-hero-thumb.jpg
 read_time: "5 min read"
 toc: true
-games_tested:
-  - "eastern-exorcist"
-  - "jorels-brother-and-the-most-important-game-of-the-galaxy"
-  - "pixel-cafe"
-  - "auto-chess"
-  - "rise-of-industry"
-  - "icewind-dale-enhanced-edition"
-  - "ziggurat"
-  - "golfie"
-  - "ynglet"
-  - "crossniq"
-  - "forma8"
-  - "darkwood"
-  - "islets"
-  - "hitman-absolution"
-  - "king-of-seas"
 ---
 
 **This week's testing highlights:** 15 games across Epic, GOG, Amazon, itch.io storefronts — including standout finds like Darkwood running flawlessly and Eastern Exorcist running flawlessly. 15 games work perfectly out of the box!
@@ -129,7 +113,8 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
     <strong><a href="https://www.gog.com/en/game/icewind_dale_enhanced_edition" target="_blank">Icewind Dale: Enhanced Edition</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Icewind Dale: Enhanced Edition revives the classic RPG with fresh updates for modern players.</div>
     <div class="compatibility-info">
-      <div class="compatibility-line">❓ Testing in progress...</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
