@@ -4,64 +4,20 @@
 
 @charset "utf-8";
 
-/* Font display optimization for faster rendering */
-* {
-  font-display: swap;
-}
-
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
-@import "games-table-optimized";
-@import "faq-box";
-@import "troubleshooting-box";
-@import "content-boxes";
-@import "buttons";
-@import "gallery";
+@import "minimal-mistakes"; // main partials - includes our new page-specific CSS files
 @import "mobile-navigation";
 @import "mobile-performance";
 @import "mobile-optimizations";
 @import "games-modal";
 
-
-/* Ensure hero images or avatars aren't accidentally grayed out */
-.page__hero-image img {
-  opacity: 1 !important;
-  transition: none !important;
-}
-
-.u-photo {
-  opacity: 1 !important;
-  filter: none !important;
-}
-
+/* Page-specific intro styles */
 .page-intro {
   background-color: #2a2a2a;
   color: #e0e0e0;
   padding: 1.5rem;
   border-radius: 10px;
   margin-bottom: 2rem;
-}
-
-.toc {
-  background: #2a2a2a;
-  border: 1px solid #444;
-  color: #e0e0e0;
-  padding: 1rem;
-  border-left: 4px solid #007acc;
-  margin-bottom: 2rem;
-  font-weight: bold;
-  line-height: 1.6;
-
-  a {
-    display: block;
-    text-decoration: none;
-    color: #007acc;
-    margin-bottom: 0.5rem;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 }
 
 /* Force dark theme styles for all users */
@@ -171,94 +127,6 @@
 .feature-box.reverse {
     flex-direction: column;
   }
-}
-
-/* Hamburger menu */
-.dropdown-menu {
-  position: relative;
-  display: inline-block;
-
-  .dropdown-toggle {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    padding: 0.5rem;
-  }
-
-  .hamburger-icon {
-    fill: none;
-    stroke: white;
-    transition: 0.3s ease;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    top: 100%;
-    background-color: #1e1e1e;
-    min-width: 180px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
-    border-radius: 0.5rem;
-    padding: 0.5rem 0;
-
-    a {
-      display: block;
-      padding: 0.5rem 1rem;
-      color: white;
-      text-decoration: none;
-
-      &:hover {
-        background-color: #333;
-      }
-    }
-  }
-
-  &:hover .dropdown-content {
-    display: block;
-  }
-}
-
-
-/* Troubleshooting Code Block Styles */
-pre code {
-  display: block;
-  background-color: #2e2e2e;
-  padding: 1rem;
-  border-radius: 8px;
-  font-size: 0.9rem;
-  color: #f8f8f2;
-}
-
-pre code.language-bash {
-  color: #8be9fd;
-}
-
-pre code span {
-  color: #50fa7b; /* Example of different color for keywords */
-}
-
-.code-wrapper {
-  position: relative;
-  margin-bottom: 1rem;
-}
-
-.copy-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  border-radius: 5px;
-}
-
-.copy-btn:hover {
-  background-color: #0056b3;
 }
 
 /* FINAL OVERRIDE: Force center all section headers on FAQ and troubleshooting pages */
