@@ -86,11 +86,12 @@ Ready to upgrade to the ultimate Steam Deck gaming experience? Junk Store 2.0 br
 
 
 
-## Supported Extensions (at launch)
+## Supported Extensions
 <p></p>
 <li>✅ Gog</li>
 <li>✅ Epic</li>
 <li>✅ Amazon</li>
+<li>✅ itch.io (Beta)</li>
 
 ---
 

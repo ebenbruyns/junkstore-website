@@ -15,7 +15,7 @@ header:
 ---
 <div class="spacer mt-4"></div>
 
-Want to access your GOG game library through Junk Store? The GOG extension adds full GOG integration to the Junk Store Decky plugin, giving you DRM-free gaming access directly through Steam's interface on your Steam Deck.
+Want to access your GOG game library through Junk Store? The GOG extension adds basic GOG integration to the Junk Store Decky plugin, giving you DRM-free gaming access directly through Steam's interface on your Steam Deck.
 
 <section class="tutorial-section">
   <h2>How to Install and Add the GOG Extension to Junk-Store</h2>

@@ -17,7 +17,6 @@ header:
 
 Experiencing black screens or compatibility issues with Epic/GOG games? Changing your Proton version often fixes these problems. This guide shows you how to check your current Proton version and switch to a different one to improve game compatibility in Junk Store.
 
-This guide shows you how to **check and change Proton versions** for games installed through Junk Store on your Steam Deck.
 
 > ⚠️ **Prerequisites:** You need **Junk Store** and **Wine Cellar** plugins installed via Decky Loader, plus some Proton versions already installed.
 
