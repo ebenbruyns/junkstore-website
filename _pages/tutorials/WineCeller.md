@@ -148,7 +148,7 @@ That’s it! The version will be removed from your system.
 
 - You can set different Proton versions **per game**
 - Once you set it, it **stays saved** (even after reboot)
-- If unsure which Proton to use, **start with GEProton 9-7**
+- If unsure which Proton to use, check what's recommended on our [compatibility table](/tested-games/) unless ProtonDB suggests a specific version
 - Use [ProtonDB](https://www.protondb.com/) for up-to-date community tips
 
 ---
