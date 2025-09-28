@@ -3,7 +3,8 @@ title: "How to Check/Change Proton Version - Junk Store Steam Deck Tutorial"
 description: "Step-by-step guide to check and change Proton versions for Epic/GOG games in Junk Store on Steam Deck. Fix black screen issues and optimize game compatibility."
 excerpt: "Step-by-step guide on how to check and change your Proton version in Junk Store"
 layout: splash
-permalink: /tutorials/plugin/Proton
+classes: wide tutorial-page
+permalink: /tutorials/proton-versions
 categories: ["Universal"]
 tags: ["proton", "compatibility", "both-versions"]
 difficulty: "Intermediate"
@@ -13,6 +14,8 @@ header:
   overlay_image: /assets/images/website_image_compressed.webp
 ---
 <div class="spacer mt-4"></div>
+
+Experiencing black screens or compatibility issues with Epic/GOG games? Changing your Proton version often fixes these problems. This guide shows you how to check your current Proton version and switch to a different one to improve game compatibility in Junk Store.
 
 This guide shows you how to **check and change Proton versions** for games installed through Junk Store on your Steam Deck.
 
@@ -58,7 +61,7 @@ You'll need a tool to download and manage different Proton versions. You have tw
 > ✅ **Why use either?** Junk Store creates separate prefixes for each game, so you can use different Proton versions per game.
 
 **Quick Links:**
-- [How to Install Junk Store](/tutorials/plugin/Install)
+- [How to Install Junk Store](/tutorials/install-decky-plugin)
 
 ---
 

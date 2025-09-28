@@ -1,9 +1,13 @@
 ---
 layout: splash
 title: "Easily Install Game Dependencies"
+description: "Learn how to install common game dependencies in Junk Store 2.0 without using Protontricks. Fix games that need Visual C++ and other Windows components."
 excerpt: "How to install common game dependencies in Junk Store"
-permalink: /tutorials/installgamedeps/
-classes: wide
+permalink: /tutorials/game-dependencies
+classes: wide tutorial-page
+categories: ["2.0 Standalone"]
+tags: ["dependencies", "visual-c++", "windows-components", "troubleshooting"]
+difficulty: "Intermediate"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -11,6 +15,8 @@ header:
 ---
 
 <div class="spacer mt-4"></div>
+
+Struggling with games that won't launch due to missing Windows components? Junk Store 2.0 makes installing game dependencies simple without the complexity of Protontricks. Get Visual C++, .NET Framework, and other essential components installed directly through your game's prefix.
 
 <h2>Installing Common Dependencies with Junk Store (No Protontricks Needed)</h2>
 

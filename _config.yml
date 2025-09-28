@@ -35,6 +35,7 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  auto_ids: false
   syntax_highlighter_opts:
     block:
       line_numbers: false
