@@ -1,6 +1,6 @@
 ---
-title: "How to Play Ubisoft Games - Junk Store Steam Deck Tutorial"
-description: "Complete guide to installing and launching Ubisoft Connect games through Junk Store on Steam Deck. Works with both Decky Plugin and 2.0 Standalone versions."
+title: "How to Play Ubisoft Games from Epic Games Store in Junk Store"
+description: "Step-by-step guide on installing Ubisoft Connect and launching Ubisoft games through Epic Games Store in Junk Store on Steam Deck."
 excerpt: "Step-by-step guide on installing Ubisoft Connect and launching Ubisoft games through Epic Games Store"
 layout: splash
 classes: wide tutorial-page
@@ -15,183 +15,104 @@ header:
 ---
 <div class="spacer mt-4"></div>
 
-Looking to play Ubisoft games on your Steam Deck through Junk Store? While some Ubisoft titles are available through Epic Games Store integration, others require manual Ubisoft Connect installation. This comprehensive guide covers both scenarios and compatibility expectations.
+**Note**: Junk Store relies on Legendary to pick these games up and show them in your Epic Games libraries. Not all Ubisoft titles currently work through Junk Store. If you are planning to purchase any then do so at your own risk or with the understanding that you will need to play these games using another method.
 
-> ⚠️ **Important:** Ubisoft games have **mixed support** through Junk Store. Some titles appear in Epic Games Store and work well, while others may require additional setup or may not work at all. This tutorial covers the manual installation process for Ubisoft Connect.
+Big shout out to Discord member *numbersix* for bringing our attention to the fact that you can play some Ubisoft games through Junk Store! I tested it out and it works!
 
-## Overview
+I have successfully tested the ability to play the following Ubisoft games via Junk Store:
+- Far Cry 6 (Demo)
+- Skull & Bones (Demo - you need to enable Battleye Anti Cheat from the cog icon)
+- Tom Clancy's Ghost Recon Breakpoint (Demo)
+- Trackmania Starter Access
+- Monopoly Madness (Demo)
+- Roller Champions
 
-This guide shows you how to **manually install Ubisoft Connect** and run select Ubisoft games through Junk Store on your Steam Deck. This process works with both the **Decky Plugin** and **2.0 Standalone** versions.
+We have also had reports that Assassin's Creed Origins and AC Mirage are also working through Junk Store.
 
-### What You'll Need
-- Junk Store (either Decky Plugin or 2.0 Standalone)
-- Epic Games Store access through Junk Store
-- A Ubisoft game that appears in your Epic library
-- Wine Cellar plugin (for Decky users) or built-in Wine management (for 2.0 users)
+## How to Install & Run Ubisoft Games via Junk Store
 
-### Compatibility Reality Check
-- ✅ **Some Ubisoft games work** - Particularly older titles and some newer ones
-- ⚠️ **Mixed results** - Success varies by game and system configuration
-- ❌ **Not officially supported** - This is a community workaround, not a guaranteed solution
-- 🔧 **Advanced setup required** - Requires manual intervention and troubleshooting
+Follow the steps below to install and play Ubisoft games via Junk Store. Make sure you are logged into your Epic Games account and have Junk Store & Wine Cellar (for Proton versions) already installed.
 
----
+You will need the latest version of Junk Store installed. This example uses Trackmania as a guide.
 
-## Installing Ubisoft Connect
+### Installing Ubisoft Connect Launcher
 
-### Step 1: Download a Ubisoft Game Through Epic
+If you keep getting pushed back to the game screen in Junk Store and nothing is happening, you may need to check that *Proton Compatibility* is **enabled**. If this isn't toggled on, you won't be able to install the Ubisoft Connect launcher. If you're unsure how to do this, refer to the [How to Check/Change Proton Version](/tutorials/proton-versions) guide.
 
-1. **Open Junk Store** (either version)
-2. **Access Epic Games Store** through Junk Store
-3. **Find a Ubisoft game** in your Epic library
-   - Look for games that show "Ubisoft" as the publisher
-   - Common examples: Assassin's Creed series, Far Cry series, Watch Dogs series
-4. **Start the download** through Epic Games Store
+1) After installing the game via Junk Store, navigate to the sliders menu icon on the game screen and press **A**.
+   ![Trackmania Sliders](/assets/images/ubisoft/trackmania-sliders.webp){: loading="lazy" width="600" height="338"}
 
-### Step 2: Let the Ubisoft Connect Installer Run
+2) When this screen opens, highlight "Run exe in Game folder" and press **A** to select it. Then find and select the UPlay installer executable: `./Uplay/UplayInstaller.exe` and press **A** again.
 
-1. **During the Epic download**, Ubisoft Connect installer will typically launch automatically
-2. **Follow the Ubisoft Connect installation** prompts
-3. **Create or log into your Ubisoft account** when prompted
-4. **Allow Ubisoft Connect to download** and install in the background
+   ![Run exe in Game Folder](/assets/images/ubisoft/run-exe-in-game-folder.webp){: loading="lazy" width="600" height="338"}
+   ![Uplay Installer Trackmania](/assets/images/ubisoft/uplay-installer-trackmania.webp){: loading="lazy" width="600" height="338"}
 
-**Note:** Screenshot showing Ubisoft Connect downloading process will be added here.
+3) This will install the Ubisoft Connect Launcher. Follow the prompts as shown below:
 
-### Step 3: Complete the Game Installation
+   * Select your language preference and click OK.
+     ![Trackmania Ubisoft Launcher Lang](/assets/images/ubisoft/trackmania-ubisoft-launcher-lang.webp){: loading="lazy" width="600" height="338"}
 
-1. **Wait for both downloads** to complete:
-   - Epic Games Store download
-   - Ubisoft Connect download (if different)
-2. **The game should appear** in both Epic and Ubisoft Connect libraries
-3. **Close Ubisoft Connect** when downloads are finished
+   * Agree to the License agreement by clicking "I accept".
+     ![Ubisoft EULA](/assets/images/ubisoft/ubisoft-eula.webp){: loading="lazy" width="600" height="338"}
 
-**Note:** Screenshot showing download completion will be added here.
+   * Choose where to install Ubisoft Connect launcher. Leave it as default and select "Install".
+     ![Ubisoft Connect Install Location](/assets/images/ubisoft/ubisoft-connect-install-location.webp){: loading="lazy" width="600" height="338"}
 
----
+   * When installation completes, select "Next".
+     ![Trackmania Ubisoft Launcher complete](/assets/images/ubisoft/trackmania-ubisoft-launcher-complete.webp){: loading="lazy" width="600" height="338"}
 
-## Running Ubisoft Games
+   * Leave the box checked to proceed to account login, then select "Finish".
+     ![Ubisoft Connect Complete](/assets/images/ubisoft/ubisoft-connect-complete.webp){: loading="lazy" width="600" height="338"}
 
-### For Most Games: Launch Through Epic
+### Ubisoft Connect Login
 
-1. **Open Junk Store** and access Epic Games Store
-2. **Find your Ubisoft game** in the Epic library
-3. **Click Play** - This should:
-   - Launch Ubisoft Connect automatically
-   - Start the game after Ubisoft Connect loads
-4. **Wait for Ubisoft Connect** to initialize and authenticate
-5. **The game should launch** through Ubisoft Connect
+You will be asked to log in to Ubisoft Connect. You'll need an account - if you don't have one, you can create one at this time.
 
-### For Problematic Games: Direct Executable Method
+1) Log in with your email and password. You may be asked to set up 2FA if you haven't already. Select "Remember Me".
+   ![Ubisoft Login](/assets/images/ubisoft/ubisoft-login.webp){: loading="lazy" width="600" height="338"}
 
-1. **Navigate to the game installation folder**
-2. **Look for alternative executable files**:
-   - Main game `.exe` file
-   - Launcher `.exe` files
-   - Setup or configuration `.exe` files
+   * Ubisoft's web page will load. Once finished, close this page.
+     ![Ubisoft Webpage](/assets/images/ubisoft/ubisoft-webpage.webp){: loading="lazy" width="600" height="338"}
 
-**Note:** Screenshot showing executable selection menu will be added here.
+   * When you close the page, this dialog will appear. Choose "Exit the application" and press OK. This returns you to the game screen in Junk Store.
+     ![Minimise Uplay Screen](/assets/images/ubisoft/minimise-uplay-screen.webp){: loading="lazy" width="600" height="338"}
 
-3. **Try running different executables** to find one that works
-4. **Note which executable works** for future launches
+2) Now you need to set the game executable. Repeat step 2 above:
 
-**Note:** Screenshot showing running executable from game folder will be added here.
+   * Back on the game screen in Junk Store, navigate to the sliders menu icon and press **A**.
+   * Highlight "Run exe in Game folder" and press **A** to select it.
 
----
+3) Find and select the game executable: `./Trackmania.exe`. Press **X** to "Set Game Executable" for future use.
+   ![Trackmania exe Menu](/assets/images/ubisoft/trackmania-exe-menu.webp){: loading="lazy" width="600" height="338"}
 
-## Optimizing Performance
+4) You'll return to the game screen where you can now press "Play".
+   ![Trackmania Play Game](/assets/images/ubisoft/trackmania-play-game.webp){: loading="lazy" width="600" height="338"}
 
-### Managing Ubisoft Connect
+5) A screen will appear saying "Installing Trackmania" asking you to set the installation language.
+   ![Trackmania Language Selection](/assets/images/ubisoft/trackmania-language-selection.webp){: loading="lazy" width="600" height="338"}
 
-1. **Minimize Ubisoft Connect** when possible to save resources
-2. **Close unnecessary Ubisoft Connect features**:
-   - Social features
-   - Store browsing
-   - Achievement overlays
+6) Select an install location for the game. Leave as default (you can create a shortcut if desired, but this can be skipped). Press 'A' to continue.
+   ![Trackmania Install Prompt](/assets/images/ubisoft/trackmania-install-prompt.webp){: loading="lazy" width="600" height="338"}
 
-**Note:** Screenshot showing minimizing Ubisoft Connect interface will be added here.
+   * Accept the EULA when prompted.
+     ![Trackmania EULA](/assets/images/ubisoft/trackmania-eula.webp){: loading="lazy" width="600" height="338"}
 
-3. **Exit Ubisoft Connect completely** when finished gaming
+7) Trackmania will download through Ubisoft Connect. When finished, press 'A' to play.
 
-**Note:** Screenshot showing closing Ubisoft Connect properly will be added here.
+   ![Trackmania Downloading](/assets/images/ubisoft/trackmania-downloading.webp){: loading="lazy" width="600" height="338"}
+   ![Trackmania Download Complete](/assets/images/ubisoft/trackmania-download-complete.webp){: loading="lazy" width="600" height="338"}
 
-### Proton Compatibility
+The game will now launch and you'll be able to play!
 
-**For Decky Plugin Users:**
-- Use **Wine Cellar** to manage Proton versions
-- Try **Proton GE** for better compatibility
-- **Test different Proton versions** if games don't work
+![Trackmania In Game Screen](/assets/images/ubisoft/trackmania-in-game-screen.webp){: loading="lazy" width="600" height="338"}
 
-**For 2.0 Standalone Users:**
-- **Built-in Proton management** handles most cases automatically
-- **Adjust compatibility settings** in game properties if needed
-- **Check game-specific settings** for known working configurations
+There you have it. You can now play some of your Ubisoft games in Junk Store too!
+
+Have fun gaming everyone,
+
+The Junk Store Team
 
 ---
-
-## Troubleshooting Common Issues
-
-### Game Won't Launch
-- **Check if the game appears in Epic library** - Some Ubisoft games don't sync properly
-- **Try launching through Ubisoft Connect directly** instead of Epic
-- **Verify game files** through Epic Games Store
-- **Test different Proton versions** (see Proton guide)
-
-### Ubisoft Connect Won't Install
-- **Clear Epic Games Store cache** and try downloading again
-- **Check internet connection** - Ubisoft Connect requires online authentication
-- **Try a different Ubisoft game** - Some trigger the installer better than others
-
-### Performance Issues
-- **Close unnecessary background applications**
-- **Lower game graphics settings** in Ubisoft Connect or game menus
-- **Disable Ubisoft Connect overlay** if available
-- **Monitor system resources** and adjust accordingly
-
-### Authentication Problems
-- **Ensure stable internet connection** during game launch
-- **Re-login to Ubisoft account** if authentication fails
-- **Check Ubisoft server status** - Service outages affect game launches
-
----
-
-## Version-Specific Notes
-
-### Decky Plugin Version
-- **Requires Wine Cellar** for advanced Proton management
-- **More manual configuration** may be needed
-- **Limited to Epic Games Store** integration
-- **Community support** through plugin channels
-
-### 2.0 Standalone Version
-- **Built-in Wine management** simplifies setup
-- **Better integration** with multiple storefronts
-- **More automated configuration** handling
-- **Official support** through Junk Store channels
-
----
-
-## Supported vs. Unsupported Games
-
-### Generally Working
-- **Older Assassin's Creed titles** (pre-Origins)
-- **Far Cry 3/4/5** (varies by system)
-- **Trackmania** series
-- **Some indie Ubisoft titles**
-
-### Commonly Problematic
-- **Newest AAA releases** with heavy DRM
-- **Games requiring always-online connection**
-- **Titles with anti-cheat systems**
-- **VR-enabled Ubisoft games**
-
-### Complete Incompatibility
-- **Games not in Epic Games Store** library
-- **Ubisoft+ subscription titles** (streaming service)
-- **Some multiplayer-focused games**
-
----
-
-## Alternative Solutions
 
 ### If This Method Doesn't Work
 1. **Check our [game compatibility database](/tested-games/)** for specific game status
@@ -207,7 +128,7 @@ If you run into trouble, check out:
 - **Universal:** [FAQ Section](/2.0faq/) for common questions
 - **Universal:** [Troubleshooting Guide](/2.0troubleshooting/) for technical issues
 - **Decky Plugin:** [Plugin-specific help](/faq/decky/) and [troubleshooting](/troubleshooting/decky/)
-- **2.0 Standalone:** [Version-specific help](/faq/v2/) and [troubleshooting](/troubleshooting/v2/)
+- **2.0 Standalone:** [Version-specific help](/2.0faq/) and [troubleshooting](/2.0troubleshooting/)
 
 **Still stuck? Get community help:**
 
@@ -251,6 +172,3 @@ If you run into trouble, check out:
   opacity: 0.9;
 }
 </style>
-
----
-

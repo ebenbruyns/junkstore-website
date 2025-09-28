@@ -58,8 +58,8 @@ That’s it! Once it’s done, try launching the game again — it should now wo
 - **Check [ProtonDB.com](https://www.protondb.com)**  
   Other players often share which Proton version works best or if extra steps are needed.
 
-- **Try a different Proton version**  
-  The default "Experimental" version can be buggy. Try using **GE-Proton** — it's more stable in many cases.
+- **Try a different Proton version**<br>
+  Try using **GE-Proton** — it's better suited for non-Steam games as it often has required fixes needed for non-Steam games.
 
 - **Game works with "Run EXE" but not the Play button?**  
   Try **resetting the launch options** in Junk Store to default.
