@@ -16,8 +16,8 @@ toc: true
 <h2 style="text-align: left !important; margin-left: 0;">What's New in v0.1.9</h2>
 
 **Technical Improvements:**
-- ✅ Updated Flatpak runtime dependencies
-- 🐛 Fixed critical bug with Umu ID updating process
+- Updated Flatpak runtime dependencies
+- Fixed critical bug with Umu ID updating process
 
 <h2 style="text-align: left !important; margin-left: 0;">Important Migration Notice</h2>
 

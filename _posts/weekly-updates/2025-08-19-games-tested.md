@@ -15,13 +15,13 @@ toc: true
 
 <h2 style="text-align: left !important; margin-left: 0;">TL;DR</h2>
 
-🚀 **itch integration (beta) is live!** Junk Store now supports a fourth storefront alongside Epic, GOG, and Amazon.
+**itch integration (beta) is live!** Junk Store now supports a fourth storefront alongside Epic, GOG, and Amazon.
 
-✨ **New games compatibility table** launched with detailed modals showing compatibility ratings, controller setups, and performance notes.
+**New games compatibility table** launched with detailed modals showing compatibility ratings, controller setups, and performance notes.
 
-🎮 Brings thousands of indie games into our testing ecosystem with Steam Deck compatibility ratings.
+Brings thousands of indie games into our testing ecosystem with Steam Deck compatibility ratings.
 
-<h2 style="text-align: left !important; margin-left: 0;">🎮 MAJOR ANNOUNCEMENT: itch.io Integration is HERE!</h2>
+<h2 style="text-align: left !important; margin-left: 0;">MAJOR ANNOUNCEMENT: itch.io Integration is HERE!</h2>
 
 We're absolutely thrilled to announce that **itch is now our fourth official storefront integration!**
 
@@ -55,9 +55,9 @@ This gives you a whole new way to explore our game database and find exactly wha
 - **Proton**: GE-Proton 10.10
 - **SteamOS**: 3.7.8 (Stable)
 
-<h2 style="text-align: left !important; margin-left: 0;">Epic Games Giveaways</h2>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a></h2>
 
-<a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+### Epic Games Giveaway
 
 <div class="game-entry">
   <img src="https://images.gog.com/95ffe10fbf91c9f12de47c9a56260b5c4ed904d0a8b249a6ac46bab19c61f521.jpg?namespace=gamesdb" alt="Totally Reliable Delivery Service" class="game-thumbnail">
@@ -81,9 +81,7 @@ This gives you a whole new way to explore our game database and find exactly wha
   </div>
 </div>
 
-<h2 style="text-align: left !important; margin-left: 0;">Prime Gaming Giveaways</h2>
-
-<a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+### Prime Gaming Giveaways
 
 <div class="game-entry">
   <img src="https://images.gog.com/aa85be33107f5f711548ea49a13355181519f5b1b4e5fb30ab8b09b61d0549f1.jpg?namespace=gamesdb" alt="Filthy Animals: Heist Simulator" class="game-thumbnail">
@@ -129,9 +127,7 @@ This gives you a whole new way to explore our game database and find exactly wha
   </div>
 </div>
 
-<h2 style="text-align: left !important; margin-left: 0;">itch.io Games (Only available on Junk Store 2.0)</h2>
-
-<a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+### itch.io Games (Only available on Junk Store 2.0)
 
 <div class="game-entry">
   <img src="https://images.gog.com/f6e075ded3a56ac2fcf4ccc4e8430f0b36b4810376f6fa82b59f1b04a2c7fc2c.jpg?namespace=gamesdb" alt="10 Flights of Ballooning" class="game-thumbnail">

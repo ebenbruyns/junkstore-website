@@ -29,9 +29,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 
 > **📋 Quick Note:** Epic Games recently updated their download system and a new Flatpak is available. If you're experiencing issues downloading games, try updating your dependencies and logging out/back into your Epic account – this should resolve most download-related problems!
 
-<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games</h2>
-
-<a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a></h2>
 
 ### Epic Giveaways
 
