@@ -2,7 +2,8 @@
 title: "How to Install the C++ Runtime"
 excerpt: "Step-by-step guide on downloading and installing C++ runtime dependency"
 layout: splash
-permalink: /tutorials/plugin/C++Runtime 
+classes: wide tutorial-page
+permalink: /tutorials/cpp-runtime 
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -10,7 +11,9 @@ header:
 ---
 <div class="spacer mt-4"></div>
 
-# If Protontricks Doesn’t Work
+Game crashing on launch with missing DLL errors? Many Windows games require Microsoft Visual C++ redistributables to run properly on Steam Deck. When Protontricks fails, this manual installation method ensures your games get the Windows components they need to work.
+
+# If Protontricks Doesn't Work
 
 Some games need a special Microsoft file (called the **C++ Runtime**) to work properly.  
 Normally, we'd use **Protontricks** to install this — but sometimes Protontricks doesn't do the job.

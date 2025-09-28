@@ -2,8 +2,8 @@
 layout: splash
 title: "How to Login using OAuth"
 excerpt: "Step-by-step guide on loging in via third party logins"
-permalink: /tutorials/plugin/OAuth
-classes: wide
+permalink: /tutorials/oauth-login
+classes: wide tutorial-page
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -11,6 +11,7 @@ header:
 ---
 <div class="spacer mt-4"></div>
 
+Looking for an alternative way to log into Epic Games without using your password? OAuth login lets you use your existing accounts from Google, PlayStation, Xbox, and more to securely access Epic Games on your Steam Deck through Junk Store.
 
 Follow these steps if you'd like to log into your Epic Games account using third-party authentication via one of the following options:
 

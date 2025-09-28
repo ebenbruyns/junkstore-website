@@ -2,8 +2,8 @@
 layout: splash
 title: "How to Install Junk Store 2.0"
 excerpt: "Guide on downloading and installing Junk Store 2.0"
-permalink: /tutorials/install2.0/
-classes: wide
+permalink: /tutorials/install-junk-store-2
+classes: wide tutorial-page
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -11,6 +11,8 @@ header:
 ---
 
 <div class="spacer mt-4"></div>
+
+Ready to upgrade to the ultimate Steam Deck gaming experience? Junk Store 2.0 brings Epic Games, GOG, and Amazon games directly to your Steam library without ever leaving Game Mode. This standalone version offers enhanced performance and features beyond the free Decky plugin.
 
   <h3>How to download and install Junk Store Pro</h3>
   
