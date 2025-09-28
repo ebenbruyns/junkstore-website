@@ -19,9 +19,9 @@ toc: true
 
 Kia ora Everyone!
 
-[This will be a placeholder for a personal update about boat life, travel, or current situation - keep it conversational and authentic]
+Finally feels like summer is on its way down under! Just had daylight savings, so losing that hour threw us off a bit, but at least it's lighter later in the evening now. Looking forward to summer and getting back on track with some long-neglected boat jobs!
 
-[Brief transition to games content]
+Some great games in this week's batch too — Jorel's Brother and The Most Important Game of the Galaxy looks like it could be a bit of fun, and Forma.8 from itch.io looks promising as well! Let's dive into this week's testing results.
 
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 * **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
@@ -235,9 +235,13 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
 
 <h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
-[Brief outlook on upcoming work, next week's anticipated releases, or general thoughts]
+Next week's Epic giveaways look exciting! **[Nightingale](https://store.epicgames.com/en-US/p/nightingale)** is a first-person, PVE, open-world survival crafting game that can be played solo or cooperatively with friends. Build, craft, fight and explore as you venture through mystical portals into amazing and fantastical realms. This one looks really interesting — like something the two of us could get completely lost in. Really looking forward to testing that one!
 
-**Which of these games are you most excited to try?** Let us know in the comments below or join our vibrant community on Discord! We love hearing about your Steam Deck gaming experiences and which titles you're planning to add to your library next.
+The other Epic game is **[Firestone: Online Idle RPG](https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b)**, which we previously tested back in April and works perfectly out of the box on both versions of Junk Store, so that'll be a nice easy addition to next week's batch.
+
+Wonder what we'll be getting from Amazon Prime Gaming next week — fingers crossed for some goodies!
+
+**Which of these games are you most excited to try?** Let us know on Reddit or join our community on Discord! We love hearing about your Steam Deck gaming experiences and which titles you're planning to add to your library next.
 
 We hope you're having a wonderful time wherever you are in the world, and as always, if you've got any questions about these games or Junk Store in general, please don't hesitate to reach out through our community channels.
 
