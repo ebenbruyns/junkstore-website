@@ -1,9 +1,13 @@
 ---
 title: "How to Install and Use Wine Cellar Plugin"
+description: "Access advanced compatibility tools like GE-Proton and Wine-GE for challenging games in Junk Store. Better than default Steam Proton versions."
+excerpt: "Step-by-step guide on installing WineCellar to manage compatibility tools"
 layout: splash
 classes: wide tutorial-page
-excerpt: "Step-by-step guide on installing WineCellar to manage compatibility tools"
 permalink: /tutorials/wine-cellar
+categories: ["Universal"]
+tags: ["wine-cellar", "compatibility", "proton", "ge-proton", "both-versions"]
+difficulty: "Advanced"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -152,12 +156,13 @@ That’s it! The version will be removed from your system.
 ## Need More Help?
 
 If you run into trouble, check out:
-- [Plugin Help](/deckyhelp)
-- [Plugin FAQ](/faq/decky/)
-- [Decky Plugin Troubleshooting](/troubleshooting/decky/)
-- [2.0 Standalone Troubleshooting](/troubleshooting/v2/)
+- **Universal:** [FAQ Section](/2.0faq/) for common questions
+- **Universal:** [Troubleshooting Guide](/2.0troubleshooting/) for technical issues
+- **Decky Plugin:** [Plugin-specific help](/faq/decky/) and [troubleshooting](/troubleshooting/decky/)
+- **2.0 Standalone:** [Version-specific help](/2.0faq/) and [troubleshooting](/2.0troubleshooting/)
 
-Still stuck? Ask for help: 
+**Still stuck? Get community help:**
+
 <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
   <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
 </a>

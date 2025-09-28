@@ -1,9 +1,13 @@
 ---
-title: "Gog Extension Install Guide"
-excerpt: "Step-by-step guide on downloading and installing the Gog Extension"
+title: "GOG Extension Install Guide"
+description: "Add GOG game library integration to Junk Store Decky plugin on Steam Deck. Access DRM-free gaming directly through Steam's interface."
+excerpt: "Step-by-step guide on downloading and installing the GOG Extension"
 layout: splash
 classes: wide tutorial-page
 permalink: /tutorials/gog-extension
+categories: ["Decky Plugin"]
+tags: ["gog", "extension", "decky-plugin", "installation"]
+difficulty: "Intermediate"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -58,15 +62,17 @@ Want to access your GOG game library through Junk Store? The GOG extension adds 
 </section>
 
 
-## Other helpful links
+---
+
+## Need More Help?
 
 If you run into trouble, check out:
-- [Plugin Help](/deckyhelp)
-- [Plugin FAQ](/faq/decky/)
-- [Decky Plugin Troubleshooting](/troubleshooting/decky/)
-- [2.0 Standalone Troubleshooting](/troubleshooting/v2/)
+- **Decky Plugin:** [Plugin FAQ](/faq/decky/) for common questions
+- **Decky Plugin:** [Plugin Troubleshooting](/troubleshooting/decky/) for technical issues
+- **General:** [Plugin Help Guide](/deckyhelp) for setup assistance
 
-Still stuck? Ask for help: 
+**Still stuck? Get community help:**
+
 <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
   <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
 </a>
