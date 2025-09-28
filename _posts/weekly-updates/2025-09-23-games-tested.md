@@ -32,7 +32,7 @@ I got completely sucked into FATE: The Cursed King this weekend — my "testing"
 
 Let's get to this week's results — some real gems!
 
-## Current System Setup
+<h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 * **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
@@ -40,11 +40,9 @@ Let's get to this week's results — some real gems!
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: v3.7.13 (Stable)
 
-> **📋 GOG Extension Note:** The updated GOG Extension is exclusively available through the [Junk Store Portal](https://portal.junkstore.xyz/). Previous Patreon/Ko-fi supporters have been migrated - sign in with your original email to access. If you haven't been migrated yet, let us know so we can help. [Read more about the v0.1.9 update](https://www.junkstore.xyz/blog/gog-extension-v019-update/).
+> **GOG Extension Note:** The updated GOG Extension is exclusively available through the [Junk Store Portal](https://portal.junkstore.xyz/). Previous Patreon/Ko-fi supporters have been migrated - sign in with your original email to access. If you haven't been migrated yet, let us know so we can help. [Read more about the v0.1.9 update](https://www.junkstore.xyz/blog/gog-extension-v019-update/).
 
-<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games</h2>
-
-<a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a></h2>
 
 ### Epic Games Giveaway
 
@@ -208,7 +206,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
 
 
 
-## Looking Forward
+<h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
 Next week we're looking at some exciting new releases! Prime Gaming is featuring **Mystical Riddles: Ghostly Park Collector's Edition** (Legacy Games Code) and **Pixel Cafe** (Amazon Games App), while Epic Games has **Eastern Exorcist** and **Jorel's Brother and the Most Important Game of the Galaxy**. Should be a fun mix of mystery, café management, and action-adventure to test!
 

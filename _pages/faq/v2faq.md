@@ -249,7 +249,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
     </ul>
     <strong>Most users know within 2-3 days if the convenience justifies the cost.</strong> The 7-day trial gives plenty of time to test real usage patterns.
   <br><br>
-  <strong>📖 Need detailed setup instructions?</strong> Check out our <a href="/tutorials/install2.0/">Installation Tutorial</a>
+  <strong>📖 Need detailed setup instructions?</strong> Check out our <a href="/tutorials/install-junk-store-2">Installation Tutorial</a>
 </details>
 
 <details class="faq-box" id="new-platforms-planned">

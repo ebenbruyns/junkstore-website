@@ -13,7 +13,7 @@ toc: true
 
 It's unusual for us to release early R&D work, but we have a diagnostics tool based on extensive research that we think would be useful to users. This framework is still in the early phases of development, but we have already found it useful. It's available on the beta build channel for Junk Store 2.0.
 
-## What Does It Do?
+<h2 style="text-align: left !important; margin-left: 0;">What Does It Do?</h2>
 
 The diagnostics framework will attempt to detect issues and suggest remedies on your Steam Deck. It deliberately does not interface with Valve's APIs and controls, which means it can enable Junk Store updates even if things are broken. Think of this as an emergency escape hatch.
 
@@ -23,7 +23,7 @@ This means that if a SteamOS update affects Junk Store 2.0 functionality, this d
 
 Over time, we'd like to extend this to include more checks and more fixes. It's limited, but already useful. 
 
-## How to Enable It
+<h2 style="text-align: left !important; margin-left: 0;">How to Enable It</h2>
 
 You can enable it by activating developer mode from the **About → System** menu (scroll down to find the toggle at the bottom). Then, in the developer menu, you can toggle it on. This will give you a magnifying glass button that floats above the Steam UI.
 
@@ -32,7 +32,7 @@ You can enable it by activating developer mode from the **About → System** men
 
 This is not controller-enabled, so you will have to use the touch screen or hold down the Steam button and use the trackpad to click on it.
 
-## How It Works
+<h2 style="text-align: left !important; margin-left: 0;">How It Works</h2>
 
 When you select "Run Diagnostics", it will check for any issues on your Steam Deck that could be causing Junk Store problems. Each check will show as passed or failed, and you'll get warnings for things like outdated Flatpaks or missing dependencies.
 
@@ -68,7 +68,7 @@ Here's an example showing a connection issue with Epic Games:
 
 ![Epic Games diagnostics showing connection issue](/assets/images/blog/epic-diagnostics-issue.webp)
 
-## Need Help?
+<h2 style="text-align: left !important; margin-left: 0;">Need Help?</h2>
 
 If you get stuck or encounter any issues with the diagnostic tool, don't hesitate to reach out for help. Join our community for support and discussion.
 

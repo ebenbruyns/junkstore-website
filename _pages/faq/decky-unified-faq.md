@@ -85,7 +85,7 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
     <li>Search for "Junk Store" and install the plugin</li>
     <li>The plugin will appear in your Decky menu after installation</li>
   </ol>
-    For detailed instructions, refer to our <a href="{{ '/tutorials/plugin/Install' | relative_url }}">Junk Store Decky Plugin Install Guide</a>.
+    For detailed instructions, refer to our <a href="/tutorials/install-decky-plugin">Junk Store Decky Plugin Install Guide</a>.
 </details>
 
 <details class="faq-box" id="access-junk-store">

@@ -9,6 +9,10 @@ assets/lib
 *.temp
 *~
 
+# SCSS backup and legacy files
+_sass/*-backup.scss
+_sass/*-legacy.scss
+
 # WebM backup files
 assets/images/backups/
 
@@ -24,6 +28,8 @@ node_modules/
 
 # All documentation and project management files (exclude from version control)
 docs/
+# Draft files should never be committed
+_drafts/
 # Performance monitoring and optimization files
 performance-*.json
 lighthouse-*.json

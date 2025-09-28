@@ -1,0 +1,274 @@
+/* ==========================================================================
+   TUTORIAL-SPECIFIC STYLES - Starting with OAuth.md clean style
+   ========================================================================== */
+
+/* Tutorial pages use: classes: wide tutorial-page */
+.layout--splash.tutorial-page {
+
+  /* ==========================================================================
+     CONTENT WIDTH & SPACING
+     ========================================================================== */
+
+  /* Bring content in from edges for better readability */
+  .page__content {
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    padding: 0 2rem !important;
+  }
+
+  /* ==========================================================================
+     OAUTH.MD STYLE - CLEAN & SIMPLE
+     ========================================================================== */
+
+  /* Let the theme handle most styling - keep it clean like OAuth.md */
+
+  /* Headers should be left-aligned and professional sized */
+  h1, h2, h3, h4, h5, h6 {
+    text-align: left !important;
+  }
+
+  /* Professional header sizing - not too large */
+  h1 {
+    font-size: 1.8rem !important;
+    margin-bottom: 1.2rem !important;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  h3 {
+    font-size: 1.2rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.8rem !important;
+  }
+
+  h4 {
+    font-size: 1.1rem !important;
+    margin-top: 1.2rem !important;
+    margin-bottom: 0.6rem !important;
+  }
+
+  /* ==========================================================================
+     SEO-STYLE TUTORIAL INTRO SECTIONS
+     ========================================================================== */
+
+  /* Style the intro paragraph(s) right after spacer */
+  .spacer + p,
+  .spacer + blockquote + h2 + p,
+  .spacer + blockquote + p {
+    background: rgba(102, 191, 255, 0.08) !important;
+    border-left: 4px solid #66bfff !important;
+    padding: 1.2rem 1.5rem !important;
+    margin: 1.5rem 0 2rem 0 !important;
+    border-radius: 0 8px 8px 0 !important;
+    font-size: 1.05rem !important;
+    line-height: 1.6 !important;
+    color: #e8e8e8 !important;
+  }
+
+  /* Style blockquote warnings/alerts */
+  blockquote {
+    background: rgba(255, 193, 7, 0.1) !important;
+    border-left: 4px solid #ffc107 !important;
+    padding: 1rem 1.5rem !important;
+    margin: 1.5rem 0 !important;
+    border-radius: 0 6px 6px 0 !important;
+
+    p {
+      margin-bottom: 0 !important;
+      color: #fff !important;
+      font-weight: 500 !important;
+    }
+  }
+
+  /* Basic spacing utility */
+  .spacer {
+    height: 2rem;
+  }
+
+  .mt-4 {
+    margin-top: 1.5rem !important;
+  }
+
+  /* ==========================================================================
+     COMMUNITY HELP BUTTONS (standard across all tutorials)
+     ========================================================================== */
+
+  .community-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    padding: 6px 12px !important;
+    border-radius: 4px !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    transition: all 0.2s ease !important;
+    border: 2px solid transparent !important;
+    margin-left: 8px !important;
+    color: white !important;
+  }
+
+  .discord-btn {
+    background: #5865f2 !important;
+    color: white !important;
+  }
+
+  .reddit-btn {
+    background: #ff4500 !important;
+    color: white !important;
+  }
+
+  .community-btn:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+    text-decoration: none !important;
+    color: white !important;
+    opacity: 0.9 !important;
+  }
+
+  /* ==========================================================================
+     IMAGE STYLING (like OAuth.md with loading="lazy")
+     ========================================================================== */
+
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 6px !important;
+    margin: 1rem 0 !important;
+    display: block !important;
+  }
+
+  /* ==========================================================================
+     TABLE STYLING (for OAuth login options, etc.)
+     ========================================================================== */
+
+  table {
+    margin: 1.5rem 0;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table td {
+    padding: 0.75rem;
+    border: 1px solid #444;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  /* ==========================================================================
+     MOBILE RESPONSIVENESS
+     ========================================================================== */
+
+  @media (max-width: 768px) {
+    .page__content {
+      padding: 0 1rem !important;
+      max-width: 100% !important;
+    }
+
+    .community-btn {
+      margin-left: 4px !important;
+      padding: 4px 8px !important;
+      font-size: 12px !important;
+    }
+
+    img {
+      margin: 0.5rem 0 !important;
+    }
+
+    table {
+      font-size: 0.9rem;
+    }
+
+    table td {
+      padding: 0.5rem;
+    }
+  }
+}
+
+/* ==========================================================================
+   TUTORIAL INDEX STYLING (for /tutorials/ page)
+   ========================================================================== */
+
+.layout--splash .tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.layout--splash .tutorial-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  h4 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+
+    a {
+      color: #66bfff;
+      text-decoration: none;
+      pointer-events: auto !important;
+      cursor: pointer !important;
+
+      &:hover {
+        color: #ffa366;
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 1rem;
+    color: #ccc;
+    font-size: 0.9rem;
+  }
+
+  /* Remove hover effect that interferes with links */
+  /* &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  } */
+
+  /* Simple, clean link styling - no interference */
+  h4 a {
+    color: #66bfff;
+    text-decoration: none;
+    display: inline;
+    pointer-events: auto !important;
+    user-select: auto !important;
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+
+    &:hover {
+      color: #ffa366;
+    }
+  }
+}
+
+.layout--splash .tutorial-tag {
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.75rem;
+  font-weight: 600;
+
+  &.both-tag {
+    background: rgba(46, 204, 113, 0.2);
+    color: #2ecc71;
+  }
+
+  &.decky-tag {
+    background: rgba(102, 191, 255, 0.2);
+    color: #66bfff;
+  }
+
+  &.standalone-tag {
+    background: rgba(255, 163, 102, 0.2);
+    color: #ffa366;
+  }
+}

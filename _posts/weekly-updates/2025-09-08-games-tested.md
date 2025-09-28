@@ -19,7 +19,7 @@ We love being back on board our boat after winter - we really missed the calming
 
 Anyway, on to what you came for - let's see how last week's giveaways fared.
 
-## Current System Setup
+<h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 * **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9  
 * **GOG Extension**: v0.1.8 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
@@ -27,7 +27,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: 3.7.8 (Stable)
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a></h2>
 
 ### Epic Giveaways
 
@@ -125,7 +125,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
   </div>
 </div>
 
-## Next Week's Games
+<h2 style="text-align: left !important; margin-left: 0;">Next Week's Games</h2>
 
 ### Epic Games Store
 Epic has announced some exciting titles coming up for free next week:
@@ -149,7 +149,7 @@ Amazon Prime Gaming is giving away some classic RPG adventures next week:
 
 ---
 
-## Looking Forward
+<h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
 It's been quite a busy weekend as we've been tweaking our tools and workflows to make things run more smoothly. We're hoping to roll out some more helpful tips this week that should benefit both new and current users alike. We're also planning to make a concerted effort to start chipping away at our testing backlog - luckily it's not growing anymore, but it's certainly not getting any smaller either!
 

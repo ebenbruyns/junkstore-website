@@ -13,13 +13,13 @@ toc: true
 
 *Originally shared on <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>r/JunkStore</a> - reformatted for our blog.*
 
-## For the First Time Ever: Itch.io → Steam Integration
+<h2 style="text-align: left !important; margin-left: 0;">For the First Time Ever: Itch.io → Steam Integration</h2>
 
 This is hot off the press: I've been on a little side quest to get **Itch.io working**, and it's now live in the beta branch for all existing Junk Store 2.0 customers.
 
 **Historic milestone**: This is the **first time ever** that Itch.io has been integrated directly into Steam.
 
-## 🚀 How to Try It Right Now
+<h2 style="text-align: left !important; margin-left: 0;">How to Try It Right Now</h2>
 
 - **Existing customers**: Set both build and extension channels to **beta**
 - **New users**: The fully functional trial includes all builds for testing
@@ -27,7 +27,7 @@ This is hot off the press: I've been on a little side quest to get **Itch.io wor
 
 **Important**: You must have both build and extension channels set to beta.
 
-## ⚠️ Beta Reality Check
+<h2 style="text-align: left !important; margin-left: 0;">Beta Reality Check</h2>
 
 **Heads up — this is very beta.** I had to build an Itch.io client completely from scratch since no suitable CLI client existed. 
 
@@ -38,7 +38,7 @@ This is hot off the press: I've been on a little side quest to get **Itch.io wor
 
 Rather than spend six months perfecting it in a vacuum, I'm releasing it early to get real user feedback.
 
-## 🎯 Why Early Release?
+<h2 style="text-align: left !important; margin-left: 0;">Why Early Release?</h2>
 
 **Feature priorities** – You tell me what you want most.
 
@@ -46,27 +46,27 @@ Rather than spend six months perfecting it in a vacuum, I'm releasing it early t
 
 **Real-world testing** – Better than any internal QA process.
 
-## 🐛 Found a Bug? Here's How to Help
+<h2 style="text-align: left !important; margin-left: 0;">Found a Bug? Here's How to Help</h2>
 
 If you run into bugs (and you probably will), please report them here:  
 **[GitHub Issues: JunkStoreBugs](https://github.com/SDK-Innovation/JunkStoreBugs/issues)**
 
 **Pro tip**: Make sure to search first to avoid duplicates — I'll prioritise fixes based on how many people are affected.
 
-## 📈 The Goal
+<h2 style="text-align: left !important; margin-left: 0;">The Goal</h2>
 
 **Get to 80% coverage** of games and use cases as fast as possible so most of you can play most of what you want, sooner.
 
 This isn't about perfection on day one - it's about rapid iteration based on your real usage patterns.
 
-## 🎮 What This Means for You
+<h2 style="text-align: left !important; margin-left: 0;">What This Means for You</h2>
 
 - **Thousands of indie games** now accessible through Steam
 - **Steam Deck native experience** - no Desktop Mode required  
 - **Same Junk Store quality** - compatibility tested and rated
 - **Unified library** - all your games in one place
 
-## The Development Story
+<h2 style="text-align: left !important; margin-left: 0;">The Development Story</h2>
 
 I've been incredibly busy on Junk Store since launch, but this was a fun dash to get something cool in your hands.
 
@@ -74,7 +74,7 @@ I've been incredibly busy on Junk Store since launch, but this was a fun dash to
 **The solution**: Build one from scratch  
 **The result**: First-ever Steam integration for itch.io games
 
-## What Happens Next?
+<h2 style="text-align: left !important; margin-left: 0;">What Happens Next?</h2>
 
 Your feedback over the coming weeks will determine how far we take this integration:
 
@@ -82,7 +82,7 @@ Your feedback over the coming weeks will determine how far we take this integrat
 - **Issues but interest** = Bug fixes and improvements  
 - **Low adoption** = Maintenance mode
 
-## Try It Today
+<h2 style="text-align: left !important; margin-left: 0;">Try It Today</h2>
 
 This is bleeding edge stuff - you're getting access to something that's never existed before. The indie gaming community on Steam Deck just got a whole lot bigger.
 

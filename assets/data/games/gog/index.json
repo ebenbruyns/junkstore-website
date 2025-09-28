@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 315,
+  "total_games": 317,
   "games": [
     "9-years-of-shadows.json",
     "a-plague-tale-innocence.json",
@@ -137,6 +137,7 @@
     "house-party.json",
     "huniepop.json",
     "hypnospace-outlaw.json",
+    "icewind-dale-enhanced-edition.json",
     "immortal-redneck.json",
     "industria.json",
     "intravenous.json",
@@ -315,56 +316,33 @@
     "xiii.json",
     "yakuza-0.json",
     "yakuza-kiwami.json",
-    "yes-your-grace.json"
+    "yes-your-grace.json",
+    "ziggurat.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2025-09-21T04:09:45.890Z",
+  "featured_games": 0,
+  "last_updated": "2025-09-27T22:01:34.562Z",
   "latest_games": [
     {
-      "title": "Residual",
-      "slug": "residual",
-      "date_tested": "Sep '25",
-      "is_featured": true
-    },
-    {
-      "title": "FATE: The Cursed King",
-      "slug": "fate-the-cursed-king",
-      "date_tested": "Sep '25",
-      "is_featured": true
-    },
-    {
-      "title": "Tower of Time",
-      "slug": "tower-of-time",
+      "title": "Icewind Dale: Enhanced Edition",
+      "slug": "icewind-dale-enhanced-edition",
       "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Agony",
-      "slug": "agony",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "Agony UNRATED",
-      "slug": "agony-unrated",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "Alan Wake",
-      "slug": "alan-wake",
-      "date_tested": "March '25",
-      "is_featured": false
-    },
-    {
-      "title": "Mafia II",
-      "slug": "mafia-ii",
+      "title": "Hitman: Absolution",
+      "slug": "hitman-absolution",
       "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Dishonored 2",
-      "slug": "dishonored-2",
+      "title": "King of Seas",
+      "slug": "king-of-seas",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Ziggurat",
+      "slug": "ziggurat",
       "date_tested": "Sept '25",
       "is_featured": false
     },
@@ -375,8 +353,32 @@
       "is_featured": false
     },
     {
-      "title": "Ascendant",
-      "slug": "ascendant",
+      "title": "Dishonored 2",
+      "slug": "dishonored-2",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Mafia II",
+      "slug": "mafia-ii",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Residual",
+      "slug": "residual",
+      "date_tested": "Sep '25",
+      "is_featured": false
+    },
+    {
+      "title": "FATE: The Cursed King",
+      "slug": "fate-the-cursed-king",
+      "date_tested": "Sep '25",
+      "is_featured": false
+    },
+    {
+      "title": "Tower of Time",
+      "slug": "tower-of-time",
       "date_tested": "Sept '25",
       "is_featured": false
     }
