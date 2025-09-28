@@ -1,9 +1,13 @@
 ---
-layout: splash
 title: "How to Login using OAuth"
-excerpt: "Step-by-step guide on loging in via third party logins"
-permalink: /tutorials/oauth-login
+description: "Use third-party authentication with Google, PlayStation, Xbox, Nintendo and more to securely login to Epic Games through Junk Store on Steam Deck."
+excerpt: "Step-by-step guide on logging in via third party logins"
+layout: splash
 classes: wide tutorial-page
+permalink: /tutorials/oauth-login
+categories: ["Universal"]
+tags: ["oauth", "authentication", "epic-games", "login", "both-versions"]
+difficulty: "Beginner"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -15,23 +19,25 @@ Looking for an alternative way to log into Epic Games without using your passwor
 
 Follow these steps if you'd like to log into your Epic Games account using third-party authentication via one of the following options:
 
-<table>
+<div style="display: flex; justify-content: center; margin: 2rem 0;">
+<table style="margin: 0 auto; border-collapse: separate; border-spacing: 8px; font-size: 1.1rem;">
   <tr>
-    <td>Google</td>
-    <td>PlayStation</td>
-    <td>Lego</td>
-    <td>Nintendo</td>
+    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-google" style="color: #4285f4; margin-right: 8px;"></i>Google</td>
+    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-playstation" style="color: #006fcd; margin-right: 8px;"></i>PlayStation</td>
+    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fas fa-cube" style="color: #ffcf00; margin-right: 8px;"></i>Lego</td>
+    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fas fa-gamepad" style="color: #e60012; margin-right: 8px;"></i>Nintendo</td>
   </tr>
   <tr>
-    <td>Xbox</td>
-    <td>Facebook</td>
-    <td>Steam</td>
-    <td>Apple</td>
+    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-xbox" style="color: #107c10; margin-right: 8px;"></i>Xbox</td>
+    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-facebook" style="color: #1877f2; margin-right: 8px;"></i>Facebook</td>
+    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-steam" style="color: #1b2838; margin-right: 8px;"></i>Steam</td>
+    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-apple" style="color: #007aff; margin-right: 8px;"></i>Apple</td>
   </tr>
 </table>
+</div>
 
 
-### Steps for Logging in to Epic Games
+## Steps for Logging in to Epic Games
 
 This guide uses Google for logging in, but the steps are the same for other third-party methods.
 
@@ -101,24 +107,19 @@ This guide uses Google for logging in, but the steps are the same for other thir
 ## Need More Help?
 
 If you run into trouble, check out:
-<ul>
-  <li><a href="/deckyhelp">Plugin Help</a></li>
-  <li><a href="/faq/decky/">Plugin FAQ</a></li>
-  <li><a href="/troubleshooting/decky/">Decky Plugin Troubleshooting</a></li>
-  <li><a href="/troubleshooting/v2/">2.0 Standalone Troubleshooting</a></li>
-</ul>
+- **Universal:** [FAQ Section](/2.0faq/) for common questions
+- **Universal:** [Troubleshooting Guide](/2.0troubleshooting/) for technical issues
+- **Decky Plugin:** [Plugin-specific help](/faq/decky/) and [troubleshooting](/troubleshooting/decky/)
+- **2.0 Standalone:** [Version-specific help](/2.0faq/) and [troubleshooting](/2.0troubleshooting/)
 
+**Still stuck? Get community help:**
 
-<p>
-  Still stuck? Ask for help: 
-  <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
-    <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
-  </a>
-  <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
-    <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
-  </a>
-  — The community's friendly, and we're happy to help get you sorted.
-</p>
+<a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
+  <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
+</a>
+<a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
+  <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
+</a>
 
 
 ---
