@@ -19,7 +19,7 @@ This is hot off the press: I've been on a little side quest to get **Itch.io wor
 
 **Historic milestone**: This is the **first time ever** that Itch.io has been integrated directly into Steam.
 
-<h2 style="text-align: left !important; margin-left: 0;">🚀 How to Try It Right Now</h2>
+<h2 style="text-align: left !important; margin-left: 0;">How to Try It Right Now</h2>
 
 - **Existing customers**: Set both build and extension channels to **beta**
 - **New users**: The fully functional trial includes all builds for testing
@@ -27,7 +27,7 @@ This is hot off the press: I've been on a little side quest to get **Itch.io wor
 
 **Important**: You must have both build and extension channels set to beta.
 
-<h2 style="text-align: left !important; margin-left: 0;">⚠️ Beta Reality Check</h2>
+<h2 style="text-align: left !important; margin-left: 0;">Beta Reality Check</h2>
 
 **Heads up — this is very beta.** I had to build an Itch.io client completely from scratch since no suitable CLI client existed. 
 
@@ -38,7 +38,7 @@ This is hot off the press: I've been on a little side quest to get **Itch.io wor
 
 Rather than spend six months perfecting it in a vacuum, I'm releasing it early to get real user feedback.
 
-<h2 style="text-align: left !important; margin-left: 0;">🎯 Why Early Release?</h2>
+<h2 style="text-align: left !important; margin-left: 0;">Why Early Release?</h2>
 
 **Feature priorities** – You tell me what you want most.
 
@@ -46,20 +46,20 @@ Rather than spend six months perfecting it in a vacuum, I'm releasing it early t
 
 **Real-world testing** – Better than any internal QA process.
 
-<h2 style="text-align: left !important; margin-left: 0;">🐛 Found a Bug? Here's How to Help</h2>
+<h2 style="text-align: left !important; margin-left: 0;">Found a Bug? Here's How to Help</h2>
 
 If you run into bugs (and you probably will), please report them here:  
 **[GitHub Issues: JunkStoreBugs](https://github.com/SDK-Innovation/JunkStoreBugs/issues)**
 
 **Pro tip**: Make sure to search first to avoid duplicates — I'll prioritise fixes based on how many people are affected.
 
-<h2 style="text-align: left !important; margin-left: 0;">📈 The Goal</h2>
+<h2 style="text-align: left !important; margin-left: 0;">The Goal</h2>
 
 **Get to 80% coverage** of games and use cases as fast as possible so most of you can play most of what you want, sooner.
 
 This isn't about perfection on day one - it's about rapid iteration based on your real usage patterns.
 
-<h2 style="text-align: left !important; margin-left: 0;">🎮 What This Means for You</h2>
+<h2 style="text-align: left !important; margin-left: 0;">What This Means for You</h2>
 
 - **Thousands of indie games** now accessible through Steam
 - **Steam Deck native experience** - no Desktop Mode required  
