@@ -14,7 +14,7 @@ header:
 
 Ready to upgrade to the ultimate Steam Deck gaming experience? Junk Store 2.0 brings Epic Games, GOG, and Amazon games directly to your Steam library without ever leaving Game Mode. This standalone version offers enhanced performance and features beyond the free Decky plugin.
 
-  <h3>How to download and install Junk Store Pro</h3>
+## How to download and install Junk Store Pro
   
   **Need help after installation?**
   - **Common questions:** [Frequently Asked Questions](/2.0faq/)
@@ -70,7 +70,7 @@ Ready to upgrade to the ultimate Steam Deck gaming experience? Junk Store 2.0 br
     <img src="/assets/images/jspro/install2.0/gog.webp" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
   </ol>
 
-  <h4>If you are upgrading from the Decky plugin version:</h4>
+### If you are upgrading from the Decky plugin version:
   
   Your library and installed games will be ported across.<br>
   In order to play already installed games <strong>Reset launch options for each game once</strong> — this completes the migration
@@ -86,16 +86,61 @@ Ready to upgrade to the ultimate Steam Deck gaming experience? Junk Store 2.0 br
 
 
 
-<h3>Supported Extensions (at launch)</h3>
+## Supported Extensions (at launch)
 <p></p>
 <li>✅ Gog</li>
 <li>✅ Epic</li>
 <li>✅ Amazon</li>
 
-<h3>Found a bug?</h3>
-<p></p>
-Report issues here:
- <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues" target="_blank" rel="noopener">https://github.com/SDK-Innovation/JunkStoreBugs/issues</a>
+---
 
-<h3>Stuck or need help?</h3>
-Join us on <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> and post a help ticket in <strong>v2-support</strong> channel.
+## Need More Help?
+
+If you run into trouble, check out:
+- [2.0 FAQ](/2.0faq/)
+- [2.0 Troubleshooting Guide](/2.0troubleshooting/)
+- [2.0 Support Hub](/2.0-hub/)
+
+**Found a bug?** Report issues here: [GitHub Issues](https://github.com/SDK-Innovation/JunkStoreBugs/issues)
+
+Still stuck? Ask for help:
+<a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
+  <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
+</a>
+<a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
+  <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
+</a>
+
+<style>
+.community-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  margin-left: 8px;
+  color: white;
+}
+
+.discord-btn {
+  background: #5865f2;
+  color: white !important;
+}
+
+.reddit-btn {
+  background: #ff4500;
+  color: white !important;
+}
+
+.community-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+</style>

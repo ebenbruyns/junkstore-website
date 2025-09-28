@@ -130,12 +130,12 @@ Once you’ve installed and tested a game, you’re all set.
 ## Need More Help?
 
 If you run into trouble, check out:
-- [Plugin Help](/deckyhelp)
-- [Plugin FAQ](/faq/decky/)
-- [Decky Plugin Troubleshooting](/troubleshooting/decky/)
-- [2.0 Standalone Troubleshooting](/troubleshooting/v2/)
+- **Decky Plugin:** [Plugin FAQ](/faq/decky/) for common questions
+- **Decky Plugin:** [Plugin Troubleshooting](/troubleshooting/decky/) for technical issues
+- **General:** [Plugin Help Guide](/deckyhelp) for setup assistance
 
-Still stuck? Ask for help: 
+**Still stuck? Get community help:**
+
 <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
   <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
 </a>

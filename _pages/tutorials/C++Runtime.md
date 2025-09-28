@@ -1,9 +1,13 @@
 ---
 title: "How to Install the C++ Runtime"
+description: "Fix game crashes and missing DLL errors by manually installing Microsoft Visual C++ redistributables when Protontricks fails on Steam Deck."
 excerpt: "Step-by-step guide on downloading and installing C++ runtime dependency"
 layout: splash
 classes: wide tutorial-page
-permalink: /tutorials/cpp-runtime 
+permalink: /tutorials/cpp-runtime
+categories: ["Universal"]
+tags: ["c++", "runtime", "dependencies", "troubleshooting", "both-versions"]
+difficulty: "Intermediate"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -69,12 +73,13 @@ That’s it! Once it’s done, try launching the game again — it should now wo
 ## Need More Help?
 
 If you run into trouble, check out:
-- [Plugin Help](/deckyhelp)
-- [Plugin FAQ](/faq/decky/)
-- [Decky Plugin Troubleshooting](/troubleshooting/decky/)
-- [2.0 Standalone Troubleshooting](/troubleshooting/v2/)
+- **Universal:** [FAQ Section](/2.0faq/) for common questions
+- **Universal:** [Troubleshooting Guide](/2.0troubleshooting/) for technical issues
+- **Decky Plugin:** [Plugin-specific help](/faq/decky/) and [troubleshooting](/troubleshooting/decky/)
+- **2.0 Standalone:** [Version-specific help](/2.0faq/) and [troubleshooting](/2.0troubleshooting/)
 
-Still stuck? Ask for help: 
+**Still stuck? Get community help:**
+
 <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
   <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
 </a>

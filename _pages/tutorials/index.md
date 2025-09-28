@@ -115,19 +115,6 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 </div>
 
----
-
-<h2 style="text-align: center;"> Advanced Features</h2>
-
-<div class="tutorial-grid">
-
-<div class="tutorial-item standalone">
-  <h4><a href="/tutorials/emulation-setup">Emulation Extensions</a></h4>
-  <p>Set up retro gaming with ROM collection integration</p>
-  <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
-</div>
-
-</div>
 
 ---
 
