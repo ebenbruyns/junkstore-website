@@ -28,6 +28,8 @@ node_modules/
 
 # All documentation and project management files (exclude from version control)
 docs/
+# Draft files should never be committed
+_drafts/
 # Performance monitoring and optimization files
 performance-*.json
 lighthouse-*.json
