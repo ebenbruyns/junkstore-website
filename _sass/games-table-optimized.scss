@@ -112,6 +112,27 @@
     background: rgba(255, 163, 102, 0.15) !important;
 }
 
+/* Backlog and retest game highlighting - unified light blue for both */
+.games-table-wrapper #gamesTable tbody tr.retest-game,
+.games-table-wrapper #gamesTable tbody tr.backlog-game {
+    background: rgba(102, 191, 255, 0.08) !important;
+    border-left: 3px solid #66bfff !important;
+}
+.games-table-wrapper #gamesTable tbody tr.retest-game td,
+.games-table-wrapper #gamesTable tbody tr.backlog-game td {
+    background: rgba(102, 191, 255, 0.08) !important;
+}
+
+/* Backlog and retest games hover (slightly more intense) */
+.games-table-wrapper #gamesTable tbody tr.retest-game:hover,
+.games-table-wrapper #gamesTable tbody tr.backlog-game:hover {
+    background: rgba(102, 191, 255, 0.15) !important;
+}
+.games-table-wrapper #gamesTable tbody tr.retest-game:hover td,
+.games-table-wrapper #gamesTable tbody tr.backlog-game:hover td {
+    background: rgba(102, 191, 255, 0.15) !important;
+}
+
 /* Game title links - make them more obvious and clickable */
 .games-table-wrapper .game-link {
     color: #66bfff !important;

@@ -28,17 +28,17 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
   <div class="version-guide">
     <div class="version-card decky filter-card" data-filter="decky" onclick="filterTutorials('decky')">
-      <h3>🔌 Decky Plugin (Free)</h3>
+      <h3>Decky Plugin (Free)</h3>
       <p>Game Mode plugin via Decky Loader</p>
       <small>Click to filter</small>
     </div>
     <div class="version-card standalone filter-card" data-filter="standalone" onclick="filterTutorials('standalone')">
-      <h3>🚀 2.0 Standalone (Professional)</h3>
+      <h3>2.0 Standalone (Professional)</h3>
       <p>Full-featured standalone application</p>
       <small>Click to filter</small>
     </div>
     <div class="version-card both filter-card" data-filter="all" onclick="filterTutorials('all')">
-      <h3>⚡ Show All</h3>
+      <h3>Show All</h3>
       <p>View all tutorials</p>
       <small>Click to show all</small>
     </div>
@@ -47,18 +47,18 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 ---
 
-<h2 style="text-align: center;">🚀 Getting Started</h2>
+<h2 style="text-align: center;"> Getting Started</h2>
 
 <div class="tutorial-grid">
 
 <div class="tutorial-item decky">
-  <h4><a href="/tutorials/plugin/Install">Install Junk Store Decky Plugin</a></h4>
+  <h4><a href="/tutorials/install-decky-plugin">Install Junk Store Decky Plugin</a></h4>
   <p>Complete setup guide for the free Decky plugin</p>
   <span class="tutorial-tag decky-tag">Decky Plugin</span>
 </div>
 
 <div class="tutorial-item standalone">
-  <h4><a href="/tutorials/install2.0/">Install Junk Store 2.0</a></h4>
+  <h4><a href="/tutorials/install-junk-store-2">Install Junk Store 2.0</a></h4>
   <p>Setup guide for the Professional standalone version</p>
   <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
 </div>
@@ -67,53 +67,58 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 ---
 
-<h2 style="text-align: center;">🔧 Configuration & Setup</h2>
+<h2 style="text-align: center;"> Configuration & Setup</h2>
 
 <div class="tutorial-grid">
 
 <div class="tutorial-item both">
-  <h4><a href="/tutorials/plugin/Proton">Change Proton Versions</a></h4>
+  <h4><a href="/tutorials/proton-versions">Change Proton Versions</a></h4>
   <p>Fix compatibility issues by switching Proton versions</p>
   <span class="tutorial-tag both-tag">Universal</span>
 </div>
 
 <div class="tutorial-item both">
-  <h4><a href="/tutorials/plugin/OAuth">Third-Party Login (OAuth)</a></h4>
+  <h4><a href="/tutorials/oauth-login">Third-Party Login (OAuth)</a></h4>
   <p>Login with Xbox, PlayStation, Nintendo accounts</p>
   <span class="tutorial-tag both-tag">Universal</span>
 </div>
 
 <div class="tutorial-item decky">
-  <h4><a href="/tutorials/gogextension/">GOG Extension Setup</a></h4>
+  <h4><a href="/tutorials/gog-extension">GOG Extension Setup</a></h4>
   <p>Add GOG games to your Decky plugin</p>
   <span class="tutorial-tag decky-tag">Decky Plugin</span>
 </div>
 
-<!-- Hidden until updated
 <div class="tutorial-item both">
-  <h4><a href="/tutorials/plugin/Ubisoft">Ubisoft Connect Games</a></h4>
+  <h4><a href="/tutorials/ubisoft-games">Ubisoft Connect Games</a></h4>
   <p>Setup guide for Ubisoft games through Epic Games Store</p>
   <span class="tutorial-tag both-tag">Universal</span>
 </div>
--->
 
 <div class="tutorial-item decky">
-  <h4><a href="/tutorials/plugin/C++Runtime">Visual C++ Runtime</a></h4>
+  <h4><a href="/tutorials/cpp-runtime">Visual C++ Runtime</a></h4>
   <p>Install required Visual C++ components for games</p>
   <span class="tutorial-tag decky-tag">Decky Plugin</span>
 </div>
 
 <div class="tutorial-item both">
-  <h4><a href="/tutorials/plugin/WineCeller">Wine Cellar Setup</a></h4>
+  <h4><a href="/tutorials/wine-cellar">Wine Cellar Setup</a></h4>
   <p>Advanced Wine configuration and management</p>
   <span class="tutorial-tag both-tag">Universal</span>
 </div>
 
+<div class="tutorial-item standalone">
+  <h4><a href="/tutorials/game-dependencies">Install Game Dependencies</a></h4>
+  <p>Install Visual C++, .NET and other Windows components</p>
+  <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
 </div>
+
+</div>
+
 
 ---
 
-<h2 style="text-align: center;">⚡ Quick Tips & Tricks</h2>
+<h2 style="text-align: center;">Quick Tips & Tricks</h2>
 
 <div class="tips-grid">
 
@@ -544,22 +549,28 @@ document.addEventListener('DOMContentLoaded', function() {
   // Set "Show All" as active by default
   document.querySelector('[data-filter="all"]').classList.add('active');
 
-  // Make tutorial boxes clickable
+  // Make tutorial boxes clickable (left-click only, preserve right-click)
   document.querySelectorAll('.tutorial-item').forEach(item => {
-    item.addEventListener('click', function() {
-      const link = this.querySelector('h4 a');
-      if (link) {
-        window.location.href = link.href;
+    item.addEventListener('click', function(e) {
+      // Only handle left clicks, ignore right clicks and clicks on actual links
+      if (e.button === 0 && e.target.tagName !== 'A') {
+        const link = this.querySelector('h4 a');
+        if (link) {
+          window.location.href = link.href;
+        }
       }
     });
   });
 
-  // Make tip boxes clickable
+  // Make tip boxes clickable (left-click only, preserve right-click)
   document.querySelectorAll('.tip-item').forEach(item => {
-    item.addEventListener('click', function() {
-      const link = this.querySelector('h4 a');
-      if (link) {
-        window.location.href = link.href;
+    item.addEventListener('click', function(e) {
+      // Only handle left clicks, ignore right clicks and clicks on actual links
+      if (e.button === 0 && e.target.tagName !== 'A') {
+        const link = this.querySelector('h4 a');
+        if (link) {
+          window.location.href = link.href;
+        }
       }
     });
   });

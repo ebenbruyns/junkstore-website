@@ -15,7 +15,7 @@ Kia ora Everyone!
 
 We are back on the boat after being away for almost 3 months (basically all of winter here in NZ). Over the weekend we had 50kt winds and rain - proper rough conditions - today it's a beautiful sunny day and calm. Perfect weather catch up on some computer work without the fear getting seasick!
 
-## Current System Setup
+<h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 * **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9  
 * **GOG Extension**: v0.1.8 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
@@ -23,7 +23,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: 3.7.8 (Stable)
 
-## This Weeks  Giveaways <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Giveaways <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a></h2>
 ### Epic Games
 
 <div class="game-entry">
@@ -48,7 +48,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
   </div>
 </div>
 
-### Prime Gaming Giveaways <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+### Prime Gaming Giveaways
 
 <div class="game-entry">
   <img src="https://images.gog.com/3231386d62f8187b649c5e42517b5d6bf6b789f0ca1e235d706a9b675ac274a3.jpg?namespace=gamesdb" alt="Fantasy Empires" class="game-thumbnail">
@@ -72,8 +72,8 @@ We are back on the boat after being away for almost 3 months (basically all of w
   </div>
 </div>
 
-## Past Giveaways
-### Amazon Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+<h2 style="text-align: left !important; margin-left: 0;">Past Giveaways</h2>
+### Amazon Games
 
 <div class="game-entry">
   <img src="https://images.gog.com/532c5d953dce14ea2623833bf97ecdda3e63599cb3103694753c3f3abb85e65b.jpg?namespace=gamesdb" alt="Dungeon of the Endless: Definitive Edition" class="game-thumbnail">
@@ -121,7 +121,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
   </div>
 </div>
 
-### GOG <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+### GOG
 
 <div class="game-entry">
   <img src="https://images.gog.com/d074ec00ebbc412abc9f6dc1666ccfc22a864f9cbe64ca20803a6a08469b9377.jpg?namespace=gamesdb" alt="Shadow Sorcerer" class="game-thumbnail">
@@ -156,7 +156,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
   </div>
 </div>
 
-## Next Week's Epic Giveaways
+<h2 style="text-align: left !important; margin-left: 0;">Next Week's Epic Giveaways</h2>
 
 **<a href="https://store.epicgames.com/en-US/p/monument-valley-1d99d3" target="_blank">Monument Valley</a>**: A surreal exploration through fantastical architecture and impossible geometry. Guide the silent princess Ida through mysterious monuments, uncovering hidden paths, unfolding optical illusions, and outsmarting the enigmatic Crow People.
 
@@ -164,7 +164,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 
 Amazon Prime gaming giveaways yet to be announced.
 
-## Looking Forward
+<h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
 It's great to be back and working from the boat again. Taking the last two weeks off has given us fresh perspective on the project, and we're excited to continue expanding and improving Junk Store.
 
