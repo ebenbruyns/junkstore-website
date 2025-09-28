@@ -13,15 +13,15 @@ toc: true
 
 *Originally shared on <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>r/JunkStore</a> - reformatted for our blog.*
 
-## TL;DR
+<h2 style="text-align: left !important; margin-left: 0;">TL;DR</h2>
 
-🚀 **itch integration (beta) is live!** Junk Store now supports a fourth storefront alongside Epic, GOG, and Amazon.
+**itch integration (beta) is live!** Junk Store now supports a fourth storefront alongside Epic, GOG, and Amazon.
 
-✨ **New games compatibility table** launched with detailed modals showing compatibility ratings, controller setups, and performance notes.
+**New games compatibility table** launched with detailed modals showing compatibility ratings, controller setups, and performance notes.
 
-🎮 Brings thousands of indie games into our testing ecosystem with Steam Deck compatibility ratings.
+Brings thousands of indie games into our testing ecosystem with Steam Deck compatibility ratings.
 
-## 🎮 MAJOR ANNOUNCEMENT: itch.io Integration is HERE!
+<h2 style="text-align: left !important; margin-left: 0;">MAJOR ANNOUNCEMENT: itch.io Integration is HERE!</h2>
 
 We're absolutely thrilled to announce that **itch is now our fourth official storefront integration!**
 
@@ -35,7 +35,7 @@ This has been a bucket list integration, and while it's still in beta, we couldn
 
 We really hope our current users and anyone new to Junk Store are as excited about this as we are! We'd love for you to test it out and provide feedback. Please post any issues, bugs or feature requests for itch on our [GitHub Issues page](https://github.com/SDK-Innovation/JunkStoreBugs/issues).
 
-## Updated Games Compatibility Table
+<h2 style="text-align: left !important; margin-left: 0;">Updated Games Compatibility Table</h2>
 
 We've also launched our **updated games compatibility table!** Now when you browse our tested games, you can click on any game title to get a detailed information modal with comprehensive game data including:
 
@@ -46,7 +46,7 @@ We've also launched our **updated games compatibility table!** Now when you brow
 
 This gives you a whole new way to explore our game database and find exactly what you're looking for. [Check it out on our website!](/tested-games/)
 
-## Current System Setup
+<h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 
 - **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch integration (beta)**
 - **Junk Store Plugin**: Latest Decky version 1.1.9  
@@ -55,7 +55,9 @@ This gives you a whole new way to explore our game database and find exactly wha
 - **Proton**: GE-Proton 10.10
 - **SteamOS**: 3.7.8 (Stable)
 
-## Epic Games Giveaways <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a></h2>
+
+### Epic Games Giveaway
 
 <div class="game-entry">
   <img src="https://images.gog.com/95ffe10fbf91c9f12de47c9a56260b5c4ed904d0a8b249a6ac46bab19c61f521.jpg?namespace=gamesdb" alt="Totally Reliable Delivery Service" class="game-thumbnail">
@@ -79,7 +81,7 @@ This gives you a whole new way to explore our game database and find exactly wha
   </div>
 </div>
 
-## Prime Gaming Giveaways <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+### Prime Gaming Giveaways
 
 <div class="game-entry">
   <img src="https://images.gog.com/aa85be33107f5f711548ea49a13355181519f5b1b4e5fb30ab8b09b61d0549f1.jpg?namespace=gamesdb" alt="Filthy Animals: Heist Simulator" class="game-thumbnail">
@@ -125,7 +127,7 @@ This gives you a whole new way to explore our game database and find exactly wha
   </div>
 </div>
 
-## itch.io Games (Only available on Junk Store 2.0) <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+### itch.io Games (Only available on Junk Store 2.0)
 
 <div class="game-entry">
   <img src="https://images.gog.com/f6e075ded3a56ac2fcf4ccc4e8430f0b36b4810376f6fa82b59f1b04a2c7fc2c.jpg?namespace=gamesdb" alt="10 Flights of Ballooning" class="game-thumbnail">
@@ -226,7 +228,7 @@ This gives you a whole new way to explore our game database and find exactly wha
   </div>
 </div>
 
-## Wrapping Up
+<h2 style="text-align: left !important; margin-left: 0;">Wrapping Up</h2>
 
 That's all for this week's update! We're incredibly excited about both the itch.io integration and the new compatibility table. These represent major steps forward in making Junk Store the best resource for non-Steam gaming on Steam Deck.
 

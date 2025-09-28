@@ -60,8 +60,8 @@
   ],
   "epic_cloud_saves": false,
   "tested": true,
-  "owned": false,
-  "is_featured": true,
+  "owned": true,
+  "is_featured": false,
   "created_at": "2025-09-18T23:45:55.373Z",
-  "updated_at": "2025-09-20T01:49:59.047Z"
+  "updated_at": "2025-09-23T23:48:49.814Z"
 }

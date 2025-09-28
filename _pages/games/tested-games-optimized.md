@@ -57,7 +57,7 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
 
 <!-- Featured Games Section -->
 <div class="feature-box">
-  <h3>🆕 Recently Tested</h3>
+  <h3>🎁 This Week's Giveaways</h3>
   <div class="featured-row" id="featuredGamesContainer">
     <!-- Featured games will be populated by JavaScript -->
   </div>
@@ -160,6 +160,9 @@ let gamesData = null;
 let filteredGames = [];
 let currentPage = 1;
 let pageSize = 20;
+// Note: Weekly tested games are now identified via blog_category field in JSON data
+
+// Note: Weekly tested games are now identified directly via blog_category field in JSON data
 
 // Load games data
 async function loadGamesData() {
@@ -175,7 +178,9 @@ async function loadGamesData() {
     gamesData = await response.json();
     console.log(`✅ Loaded ${gamesData.total_games} games successfully`);
     console.log('First 3 games:', gamesData.games.slice(0, 3));
-    
+
+    // Weekly tested games now identified via blog_category field
+
     // Initialize the page
     populateFeaturedGames();
     populateStats();
@@ -300,14 +305,21 @@ function populateStats() {
   `;
 }
 
-// Sort games: featured first, then alphabetically
+// Sort games: featured first, then backlog/retest (alphabetized together), then regular games
 function sortGames() {
   filteredGames.sort((a, b) => {
     // Featured games come first
     if (a.is_featured && !b.is_featured) return -1;
     if (!a.is_featured && b.is_featured) return 1;
-    
-    // Then sort alphabetically by title
+
+    // If neither are featured, prioritize backlog/retest games as one group
+    const aIsBacklogRetest = a.blog_category === 'backlog' || a.blog_category === 'retest';
+    const bIsBacklogRetest = b.blog_category === 'backlog' || b.blog_category === 'retest';
+
+    if (aIsBacklogRetest && !bIsBacklogRetest) return -1;
+    if (!aIsBacklogRetest && bIsBacklogRetest) return 1;
+
+    // Then sort alphabetically by title (both within and across groups)
     return a.title.localeCompare(b.title);
   });
 }
@@ -380,9 +392,24 @@ function updateTable() {
   const tableHTML = pageGames.map(game => {
     // Check if this is an anti-cheat game
     const isAntiCheat = game.cant_test_linux === true;
-    
+
+    // Weekly highlighting now handled via blog_category field
+
+    // Determine CSS classes for highlighting
+    let rowClasses = '';
+    if (game.is_featured) {
+      rowClasses += 'featured-game ';
+    }
+    else if (game.blog_category === 'retest') {
+      rowClasses += 'retest-game ';
+    }
+    else if (game.blog_category === 'backlog') {
+      rowClasses += 'backlog-game ';
+    }
+    // No longer needed - all highlighting handled by blog_category
+
     return `
-    <tr class="${game.is_featured ? 'featured-game' : ''}" data-storefront="${game.storefront}" data-status="${game.overall_status}">
+    <tr class="${rowClasses.trim()}" data-storefront="${game.storefront}" data-status="${game.overall_status}">
       <td title="${game.title}">
         ${isAntiCheat ? 
           `<span class="game-title-static">${game.title}</span>` :
@@ -1267,6 +1294,11 @@ select:focus, input:focus {
 .featured-game {
   background: rgba(255, 163, 102, 0.05) !important;
   border-left: 3px solid #ffa366;
+}
+
+.weekly-tested-game {
+  background: rgba(102, 191, 255, 0.05) !important;
+  border-left: 3px solid #66bfff;
 }
 
 .game-link.clickable {
