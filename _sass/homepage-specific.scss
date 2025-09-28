@@ -1,0 +1,973 @@
+/* Homepage-specific styles only - applies to splash layout only */
+
+/* GitHub-Style Professional Notice Banner - Safari Compatible */
+.layout--splash .whats-new-banner {
+  background-color: #0d1117 !important;
+  border: 1px solid #30363d !important;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 1.5rem auto;
+  max-width: 1200px;
+  width: 98%;
+  position: relative;
+  text-align: center;
+  -webkit-appearance: none; /* Safari fix */
+}
+
+.layout--splash .whats-new-banner::before {
+  content: "NEW";
+  position: absolute;
+  top: -8px;
+  left: 24px;
+  background-color: #238636 !important;
+  color: #ffffff !important;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.layout--splash .whats-new-banner p {
+  margin: 0;
+  color: #f0f6fc !important;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.layout--splash .whats-new-banner strong {
+  color: #58a6ff !important; /* GitHub blue */
+  font-weight: 600;
+}
+
+/* Mobile responsiveness for What's New banner */
+@media (max-width: 768px) {
+  .layout--splash .whats-new-banner {
+    margin: 1rem auto;
+    padding: 14px 12px;
+    width: 95%;
+    background-color: #000000 !important; /* Force black background for Safari */
+  }
+
+  .layout--splash .whats-new-banner::before {
+    left: 16px;
+    top: -6px;
+    font-size: 0.7rem;
+    padding: 1px 6px;
+    background-color: #28a745 !important; /* Force green for Safari */
+  }
+
+  .layout--splash .whats-new-banner p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #ffffff !important; /* Force white text for Safari */
+  }
+
+  .layout--splash .whats-new-banner strong {
+    font-size: 0.95rem;
+    color: #66bfff !important; /* Force lighter blue for Safari contrast */
+  }
+}
+
+.layout--splash .new-badge {
+  background: #28a745;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-left: 8px;
+  text-transform: uppercase;
+}
+
+/* Homepage h1 alignment */
+.layout--splash h1 {
+  max-width: 1200px;
+  width: 98%;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+/* Hero section alignment with content boxes - override theme defaults */
+.layout--splash .page__hero--overlay,
+.layout--splash .page__hero {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.layout--splash .page__hero--overlay .wrapper,
+.layout--splash .page__hero .wrapper {
+  max-width: 1200px !important;
+  width: 98% !important;
+  margin: 0 auto !important;
+  padding: 3em 0 !important;
+  text-align: left !important;
+}
+
+.layout--splash .page__hero--overlay .page__title,
+.layout--splash .page__hero--overlay .page__lead,
+.layout--splash .page__hero--overlay .page__hero-actions,
+.layout--splash .page__hero .page__title,
+.layout--splash .page__hero .page__lead,
+.layout--splash .page__hero .page__hero-actions {
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Major differentiators section */
+.layout--splash .major-differentiators {
+  max-width: 1200px;
+  width: 98%;
+  margin: 1rem auto 3rem auto;
+  text-align: center;
+}
+
+.layout--splash .major-differentiators h2 {
+  color: #66bfff;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.layout--splash .differentiator-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.layout--splash .differentiator-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: left;
+}
+
+.layout--splash .differentiator-item h3 {
+  color: #ffa366;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+.layout--splash .differentiator-item p {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+.layout--splash .differentiator-item p:last-child {
+  margin-bottom: 0;
+}
+
+.layout--splash .differentiator-item .problem {
+  color: #ff8a80;
+}
+
+.layout--splash .differentiator-item .solution {
+  color: #69f0ae;
+}
+
+/* Adjust grid for better balance - 3x2 layout */
+.layout--splash .differentiator-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+  .layout--splash .differentiator-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .layout--splash .differentiator-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.layout--splash .differentiator-conclusion {
+  background: rgba(102, 191, 255, 0.1);
+  border: 1px solid rgba(102, 191, 255, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+  color: #e8e8e8;
+  margin-bottom: 2rem;
+}
+
+.layout--splash .primary-cta {
+  background: linear-gradient(135deg, rgba(40, 167, 69, 0.15), rgba(40, 167, 69, 0.08));
+  border: 2px solid rgba(40, 167, 69, 0.4);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.layout--splash .primary-cta h3 {
+  color: #28a745;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.4rem;
+}
+
+.layout--splash .primary-cta p {
+  color: #e8e8e8;
+  margin: 0 0 1.5rem 0;
+  font-size: 1.1rem;
+}
+
+.layout--splash .primary-cta .cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .layout--splash .primary-cta .cta-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .layout--splash .primary-cta .cta-buttons .button {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+/* Problem/Solution Section */
+.layout--splash .problem-solution {
+  background-color: #253445;
+  padding: 2.5rem 1rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+  border: 1px solid #444;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 98%;
+  min-height: 300px;
+}
+
+.layout--splash .problem-box,
+.layout--splash .solution-box {
+  padding: 1.5rem;
+  border-radius: 6px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 180px;
+}
+
+.layout--splash .problem-box {
+  background-color: rgba(231, 76, 60, 0.1);
+  border: 1px solid rgba(231, 76, 60, 0.3);
+}
+
+.layout--splash .solution-box {
+  background-color: rgba(46, 204, 113, 0.1);
+  border: 1px solid rgba(46, 204, 113, 0.3);
+}
+
+.layout--splash .problem-box h2 {
+  color: #e74c3c;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.layout--splash .solution-box h2 {
+  color: #2ecc71;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.layout--splash .problem-points,
+.layout--splash .solution-points {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.75rem;
+}
+
+.layout--splash .problem-points p,
+.layout--splash .solution-points p {
+  color: #e8e8e8;
+  line-height: 1.4;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.layout--splash .problem-points p {
+  border-left: 3px solid #e74c3c;
+}
+
+.layout--splash .solution-points p {
+  border-left: 3px solid #2ecc71;
+}
+
+/* Key Features Section */
+.layout--splash .key-features {
+  background-color: #1e2a38;
+  padding: 0.5rem 1rem 2rem 1rem;
+  margin: 0.5rem auto;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 98%;
+  min-height: 300px;
+}
+
+.layout--splash .key-features h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.layout--splash .features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.layout--splash .feature {
+  background-color: #253445;
+  padding: 1.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  color: #e8e8e8;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: left;
+}
+
+.layout--splash .feature h3 {
+  color: #ffa366;
+  font-size: 1.1rem;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.layout--splash .feature .problem {
+  color: #ff8a80;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.layout--splash .feature .solution {
+  color: #69f0ae;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Mobile text contrast improvements */
+@media (max-width: 768px) {
+  .layout--splash .feature .problem {
+    color: #ffb3ba !important; /* Lighter red for better mobile contrast */
+    font-size: 1rem !important; /* Slightly larger for mobile readability */
+    line-height: 1.5 !important;
+  }
+
+  .layout--splash .feature .solution {
+    color: #90ee90 !important; /* Lighter green for better mobile contrast */
+    font-size: 1rem !important; /* Slightly larger for mobile readability */
+    line-height: 1.5 !important;
+  }
+
+  .layout--splash .feature h3 {
+    font-size: 1.2rem !important; /* Larger headers on mobile */
+  }
+}
+
+.layout--splash .feature-detail {
+  display: block;
+  font-size: 0.9rem;
+  color: #b8b8b8;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  line-height: 1.3;
+}
+
+/* Final CTA Section */
+.layout--splash .final-cta {
+  background-color: #1a252f;
+  padding: 3rem 1rem;
+  margin: 2rem 0 0 0;
+  text-align: center;
+  border-top: 2px solid #444;
+}
+
+.layout--splash .cta-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.layout--splash .final-cta h2 {
+  color: #66bfff;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.layout--splash .final-cta p {
+  color: #e8e8e8;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.layout--splash .cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.layout--splash .button-secondary {
+  background-color: transparent;
+  border: 2px solid #66bfff;
+  color: #66bfff;
+  padding: 0.75rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.layout--splash .button-secondary:hover {
+  background-color: #66bfff;
+  color: #1a252f;
+  transform: translateY(-2px);
+}
+
+/* Wide button for longer text - higher specificity */
+.layout--splash .pricing-cta .button.button-secondary.button-wide {
+  min-width: 250px !important;
+  width: auto !important;
+  padding: 0.75rem 2rem !important;
+  white-space: nowrap !important;
+}
+
+.layout--splash .button-wide {
+  min-width: 200px;
+  padding: 0.75rem 1.5rem;
+}
+
+/* SEO Intro section for mobile readability */
+.layout--splash .seo-intro {
+  padding: 1.5rem 1rem;
+  margin: 1rem auto;
+  background-color: rgba(102, 191, 255, 0.1);
+  border-left: 4px solid #66bfff;
+  border-radius: 0 6px 6px 0;
+  max-width: 1200px;
+  width: 98%;
+}
+
+.layout--splash .seo-intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+  color: #e8e8e8;
+}
+
+/* Screenshot sections mobile optimization */
+.layout--splash .screenshot-section {
+  background-color: #1e2a38;
+  padding: 0.5rem 1rem 2rem 1rem;
+  margin: 2rem auto;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 98%;
+}
+
+.layout--splash .screenshot-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.layout--splash .screenshot-text h3 {
+  color: #66bfff;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.layout--splash .screenshot-text p {
+  color: #e8e8e8;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.layout--splash .screenshot-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #444;
+}
+
+/* Competitive comparison section */
+.layout--splash .competitive-comparison {
+  background-color: #253445;
+  padding: 0.5rem 1rem 2.5rem 1rem;
+  margin: 2rem 0;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.layout--splash .competitive-comparison h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.layout--splash .comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.layout--splash .comparison-item {
+  background-color: #1e2a38;
+  padding: 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+}
+
+.layout--splash .comparison-item h4 {
+  color: #66bfff;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.layout--splash .comparison-item p {
+  color: #e8e8e8;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+
+.layout--splash .comparison-conclusion {
+  background-color: rgba(102, 191, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #66bfff;
+  text-align: center;
+}
+
+.layout--splash .comparison-conclusion p {
+  color: #e8e8e8;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Competitive Advantages Section (Support Hub) */
+.layout--splash .competitive-advantages {
+  background-color: #1e2a38;
+  padding: 1rem 1rem 2.5rem 1rem;
+  margin: 2rem 0;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 250px;
+}
+
+.layout--splash .competitive-advantages h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.layout--splash .advantage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.layout--splash .advantage-item {
+  background-color: #253445;
+  padding: 1.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  color: #e8e8e8;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+.layout--splash .advantage-item h4 {
+  color: #66bfff;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.layout--splash .advantage-item p {
+  font-size: 0.95rem;
+  color: #e8e8e8;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Where to Find Section Styling */
+.layout--splash .where-to-find {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  background-color: #1e2a38;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 98%;
+}
+
+.layout--splash .where-to-find h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.layout--splash .where-to-find p {
+  color: #e8e8e8;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.layout--splash .where-to-find .button {
+  margin-top: 1rem;
+}
+
+/* GOG Extension Section Styling */
+.layout--splash .gog-extension {
+  text-align: left;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background-color: #1e2a38;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 98%;
+}
+
+.layout--splash .gog-extension h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
+}
+
+.layout--splash .gog-extension p,
+.layout--splash .gog-extension div {
+  color: #e8e8e8;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.layout--splash .gog-extension .button {
+  display: block;
+  margin: 1.5rem auto 0 auto;
+  text-align: center;
+}
+
+/* Standalone button alignment */
+.layout--splash .gog-extension + a.button.gog-extension-button {
+  display: block;
+  text-align: center;
+  max-width: 1200px;
+  width: 98%;
+  margin: 1rem auto 2rem auto;
+}
+
+/* Homepage-specific h2 styles - override generic ones */
+.layout--splash h2 {
+  max-width: 1200px !important;
+  width: 98% !important;
+  margin: 0.5rem auto 0.5rem auto !important;
+  padding: 0 1.5rem !important;
+  color: #66bfff !important;
+  font-size: 2rem !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  display: block !important;
+  box-sizing: border-box !important;
+}
+
+/* Mobile Responsiveness for Homepage */
+@media (max-width: 768px) {
+  /* Hero section improvements for mobile conversion */
+  .layout--splash .page__hero {
+    text-align: center;
+    /* Height and padding managed by hero-height-fix.scss */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .layout--splash .page__hero .page__title {
+    font-size: 1.9rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 1.25rem !important;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  .layout--splash .page__hero .page__lead {
+    font-size: 1.25rem !important;
+    line-height: 1.35 !important;
+    margin-bottom: 2rem !important;
+    color: #f0f0f0;
+    font-weight: 500;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Hero action buttons mobile optimization */
+  .layout--splash .page__hero .btn {
+    margin: 0.5rem auto;
+    width: 100%;
+    max-width: 280px;
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .layout--splash .page__hero .btn:first-of-type {
+    margin-top: 1rem;
+  }
+
+  /* Improve SEO intro for mobile */
+  .layout--splash .seo-intro {
+    padding: 1.5rem 1rem;
+    margin: 1rem 0.5rem;
+    border-radius: 8px;
+  }
+
+  .layout--splash .seo-intro p {
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: #f0f0f0;
+  }
+
+  /* Screenshot sections mobile */
+  .layout--splash .screenshot-section {
+    padding: 1.5rem 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .layout--splash .screenshot-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .layout--splash .screenshot-text p {
+    font-size: 1rem;
+  }
+
+  /* Competitive comparison mobile */
+  .layout--splash .competitive-comparison {
+    padding: 2rem 1rem;
+  }
+
+  .layout--splash .competitive-comparison h2 {
+    font-size: 1.5rem;
+  }
+
+  .layout--splash .comparison-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .layout--splash .comparison-item {
+    padding: 1.25rem;
+  }
+
+  .layout--splash .comparison-item h4 {
+    font-size: 1.1rem;
+  }
+
+  .layout--splash .comparison-conclusion {
+    padding: 1.25rem;
+  }
+
+  .layout--splash .comparison-conclusion p {
+    font-size: 1rem;
+  }
+
+  .layout--splash .problem-solution {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .layout--splash .problem-box h2,
+  .layout--splash .solution-box h2 {
+    font-size: 1.2rem;
+  }
+
+  .layout--splash .key-features {
+    padding: 2rem 1rem;
+  }
+
+  .layout--splash .key-features h2 {
+    font-size: 1.5rem;
+  }
+
+  .layout--splash .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding: 0 0.5rem;
+  }
+
+  .layout--splash .feature {
+    padding: 1.25rem 1rem;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .layout--splash .feature:active {
+    transform: scale(0.98);
+  }
+
+  .layout--splash .feature-detail {
+    font-size: 0.95rem;
+    margin-top: 0.75rem;
+    line-height: 1.4;
+  }
+
+  .layout--splash .final-cta {
+    padding: 2rem 1rem;
+  }
+
+  .layout--splash .final-cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .layout--splash .final-cta p {
+    font-size: 1rem;
+  }
+
+  .layout--splash .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .layout--splash .button,
+  .layout--splash .button-secondary {
+    width: 100%;
+    max-width: 280px;
+    margin: 0.5rem 0;
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    min-height: 50px;
+    border-radius: 8px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* Mobile responsive for new sections */
+  .layout--splash .competitive-advantages {
+    padding: 2rem 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .layout--splash .competitive-advantages h2 {
+    font-size: 1.5rem;
+  }
+
+  .layout--splash .advantage-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .layout--splash .advantage-item {
+    padding: 1.25rem 1rem;
+  }
+
+  .layout--splash .advantage-item h4 {
+    font-size: 1.1rem;
+  }
+
+  .layout--splash .where-to-find {
+    padding: 1.5rem 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .layout--splash .where-to-find h2 {
+    font-size: 1.5rem;
+  }
+
+  .layout--splash .where-to-find p {
+    font-size: 1rem;
+  }
+}
