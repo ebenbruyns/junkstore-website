@@ -9,6 +9,10 @@ assets/lib
 *.temp
 *~
 
+# SCSS backup and legacy files
+_sass/*-backup.scss
+_sass/*-legacy.scss
+
 # WebM backup files
 assets/images/backups/
 
