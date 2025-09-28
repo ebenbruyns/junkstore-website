@@ -27,9 +27,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: 3.7.8 (Stable)
 
-<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games</h2>
-
-<a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a></h2>
 
 ### Epic Giveaways
 

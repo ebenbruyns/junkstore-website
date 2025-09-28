@@ -23,9 +23,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: 3.7.8 (Stable)
 
-<h2 style="text-align: left !important; margin-left: 0;">This Week's Giveaways</h2>
-
-<a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Giveaways <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a></h2>
 ### Epic Games
 
 <div class="game-entry">
@@ -50,7 +48,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
   </div>
 </div>
 
-### Prime Gaming Giveaways <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+### Prime Gaming Giveaways
 
 <div class="game-entry">
   <img src="https://images.gog.com/3231386d62f8187b649c5e42517b5d6bf6b789f0ca1e235d706a9b675ac274a3.jpg?namespace=gamesdb" alt="Fantasy Empires" class="game-thumbnail">
@@ -75,7 +73,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 </div>
 
 <h2 style="text-align: left !important; margin-left: 0;">Past Giveaways</h2>
-### Amazon Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+### Amazon Games
 
 <div class="game-entry">
   <img src="https://images.gog.com/532c5d953dce14ea2623833bf97ecdda3e63599cb3103694753c3f3abb85e65b.jpg?namespace=gamesdb" alt="Dungeon of the Endless: Definitive Edition" class="game-thumbnail">
@@ -123,7 +121,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
   </div>
 </div>
 
-### GOG <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+### GOG
 
 <div class="game-entry">
   <img src="https://images.gog.com/d074ec00ebbc412abc9f6dc1666ccfc22a864f9cbe64ca20803a6a08469b9377.jpg?namespace=gamesdb" alt="Shadow Sorcerer" class="game-thumbnail">
