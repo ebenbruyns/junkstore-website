@@ -45,8 +45,13 @@
 @import "troubleshooting-box";
 @import "faq-navigation";
 @import "pricing-section";
-@import "homepage-sections";
 @import "compatibility-table";
 @import "comparison-page";
 @import "hero-height-fix";
 @import "buy-now-screenshot";
+
+/* New page-specific CSS structure */
+@import "base-styles";           // Site-wide styles (TOC, navigation, code blocks)
+@import "homepage-specific";     // Homepage (.layout--splash) styles only
+@import "blog-specific";         // Blog (.layout--single/.layout--blog) styles only
+@import "other-pages-specific";  // FAQ, comparison, about page styles
