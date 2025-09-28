@@ -19,7 +19,7 @@ We're currently battening down the hatches here as Mother Nature serves up our t
 
 Fortunately, I managed to get some solid testing done earlier in the week before the weather turned. I'm particularly excited to dive into the Monument Valley games (they seem perfect for shorter, seasickness-friendly gaming sessions), and I'm absolutely stoked about Samorost 2 coming to Epic next week – Amanita Design's atmospheric puzzle adventures are exactly the type of games I love!
 
-## Current System Setup
+<h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 * **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.8 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
@@ -29,7 +29,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 
 > **📋 Quick Note:** Epic Games recently updated their download system and a new Flatpak is available. If you're experiencing issues downloading games, try updating your dependencies and logging out/back into your Epic account – this should resolve most download-related problems!
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a></h2>
 
 ### Epic Giveaways
 
@@ -195,7 +195,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 
 
 
-## Looking Forward
+<h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
 Next week's Epic Games freebies are **[Project Winter](https://store.epicgames.com/en-US/p/project-winter-3b9e84)** and **[Samorost 2](https://store.epicgames.com/en-US/p/samorost-2-1b9bb1)**, while Amazon Prime Gaming brings us **[Residual](https://www.gog.com/en/game/residual)** and **[Fate: The Cursed King](https://www.gog.com/en/game/fate_the_cursed_king)** (both GOG keys). Looking forward to testing these titles and seeing how they perform with our Junk Store setup!
 
