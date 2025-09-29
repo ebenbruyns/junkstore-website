@@ -235,9 +235,9 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
 
 <h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
-Next week's Epic giveaways look exciting! **[Nightingale](https://store.epicgames.com/en-US/p/nightingale)** is a first-person, PVE, open-world survival crafting game that can be played solo or cooperatively with friends. Build, craft, fight and explore as you venture through mystical portals into amazing and fantastical realms. This one looks really interesting — like something the two of us could get completely lost in. Really looking forward to testing that one!
+Next week's Epic giveaways look exciting! **<a href="https://store.epicgames.com/en-US/p/nightingale" target="_blank">Nightingale</a>** is a first-person, PVE, open-world survival crafting game that can be played solo or cooperatively with friends. Build, craft, fight and explore as you venture through mystical portals into amazing and fantastical realms. This one looks really interesting — like something the two of us could get completely lost in. Really looking forward to testing that one!
 
-The other Epic game is **[Firestone: Online Idle RPG](https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b)**, which we previously tested back in April and works perfectly out of the box on both versions of Junk Store, so that'll be a nice easy addition to next week's batch.
+The other Epic game is **<a href="https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b" target="_blank">Firestone: Online Idle RPG</a>**, which we previously tested back in April and works perfectly out of the box on both versions of Junk Store, so that'll be a nice easy addition to next week's batch.
 
 Wonder what we'll be getting from Amazon Prime Gaming next week — fingers crossed for some goodies!
 
