@@ -19,8 +19,8 @@ header:
 <section class="tutorials-welcome">
   <h2>Welcome to Our 'How To' Guides</h2>
   <p>
-     Here you'll find step-by-step tutorials to help you get the most out of the free Junk Store Decky plugin — whether you're just getting started or looking for advanced tips.<br><br>
-     
+     Whether you're using the free Decky plugin or Junk Store 2.0, find step-by-step guides for Junk Store features — all in Steam Deck Game Mode.<br><br>
+
     Currently, we have guides on plugin installation, authentication, Proton management, and dependency setup. More tutorials are coming soon!
   </p>
 </section>
