@@ -276,6 +276,11 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
             <td>🔧 Requires Manual File Editing<br><span style="font-size: 0.9em; color: #ccc;">Must alter files to add language codes</span></td>
             <td>✅ Per Game Language Setting<br><span style="font-size: 0.9em; color: #ccc;">Individual language control for games that use system language detection</span></td>
           </tr>
+          <tr>
+            <td><strong>Diagnostics Framework</strong> <span class="new-badge">NEW</span></td>
+            <td>❌ Not Available<br><span style="font-size: 0.9em; color: #ccc;">Manual troubleshooting required</span></td>
+            <td>✅ Automated Detection<br><span style="font-size: 0.9em; color: #ccc;">Automatically detects Junk Store configurations that are broken</span></td>
+          </tr>
         </tbody>
     </table>
   </details>
