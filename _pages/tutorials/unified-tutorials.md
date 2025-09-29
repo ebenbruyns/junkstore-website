@@ -19,7 +19,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 ---
 
 <section class="seo-intro">
-  <p><strong>Complete tutorials for both Junk Store versions.</strong> Whether you're using the free Decky plugin or Junk Store 2.0, find step-by-step guides for Epic, GOG, Amazon & itch.io games - all in Steam Deck Game Mode.</p>
+  <p><strong>Complete tutorials for both Junk Store versions.</strong> Whether you're using the free Decky plugin or Junk Store 2.0, find step-by-step guides for Junk Store features — all in Steam Deck Game Mode.</p>
 </section>
 
 <!-- Welcome Message -->

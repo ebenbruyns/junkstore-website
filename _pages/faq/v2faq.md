@@ -336,7 +336,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
     After installation, download the latest <strong>GE-Proton</strong> release. You can then select it as a compatibility option when changing Proton versions (see "How do I change the Proton version for a game?" below).
     <br>
     <br>
-    For detailed steps, see our <a href="{{ '/plugin_tutorials/' | relative_url }}">Plugin Tutorials</a> page.
+    For detailed steps, see our <a href="{{ '/tutorials/' | relative_url }}">Tutorials</a> page.
 </details>
 
 <details class="faq-box" id="manage-game-storage">
