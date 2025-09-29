@@ -20,7 +20,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
 {% include video-demo-player.html %}
 
 <div class="whats-new-banner">
-  <p><strong>What's New in Junk Store 2.0:</strong> Offline mode per game • System language control per game • itch.io platform support</p>
+  <p><strong>What's New in Junk Store 2.0:</strong> Diagnostics Framework - Automatically detects Junk Store configurations that are broken</p>
 </div>
 
 <h1>Never Leave Game Mode for Epic, GOG, Amazon & itch.io (beta) Games</h1>
