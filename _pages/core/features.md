@@ -127,6 +127,10 @@ excerpt: "Everything included with Junk Store 2.0 - organized by category for ea
         <td><strong>Cloud Saves (Experimental)</strong></td>
         <td>Per-game cloud save synchronization (beta feature)</td>
       </tr>
+      <tr>
+        <td><strong>Diagnostics Framework</strong></td>
+        <td>Automatically detects Junk Store configurations that are broken</td>
+      </tr>
     </tbody>
   </table>
 </section>
