@@ -114,7 +114,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 </div>
 
 <div class="tutorial-item standalone">
-  <h4><a href="/tutorials/change-game-language/">Change Game Language Settings</a></h4>
+  <h4><a href="/tutorials/change-game-language/">Change Language Settings</a></h4>
   <p>Change your Epic, GOG, or Amazon game language settings directly in Game Mode</p>
   <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
 </div>
