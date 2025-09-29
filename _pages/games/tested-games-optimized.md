@@ -131,6 +131,15 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
         <th>2.0 Standalone</th>
         <th>Date Tested</th>
       </tr>
+      <!-- Compatibility counts row - commented out for now
+      <tr class="compatibility-counts">
+        <th></th>
+        <th></th>
+        <th id="deckyWorksCount" class="works-count">✅ (0)</th>
+        <th id="standaloneWorksCount" class="works-count">✅ (0)</th>
+        <th></th>
+      </tr>
+      -->
     </thead>
     <tbody id="gamesTableBody">
       <!-- Table rows will be populated by JavaScript -->
@@ -282,10 +291,6 @@ function populateStats() {
         <span class="stat-label">Total Games</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">${gamesData.ratings_summary.both_green}</span>
-        <span class="stat-label">Works Great</span>
-      </div>
-      <div class="stat-item">
         <span class="stat-number">${gamesData.storefronts.Epic.total}</span>
         <span class="stat-label">Epic Games</span>
       </div>
@@ -386,14 +391,12 @@ function updateTable() {
   const startIdx = (currentPage - 1) * pageSize;
   const endIdx = Math.min(startIdx + pageSize, filteredGames.length);
   const pageGames = filteredGames.slice(startIdx, endIdx);
-  
+
   console.log(`Page ${currentPage}: showing ${pageGames.length} games (${startIdx}-${endIdx}) of ${filteredGames.length} total, pageSize: ${pageSize}`);
-  
+
   const tableHTML = pageGames.map(game => {
     // Check if this is an anti-cheat game
     const isAntiCheat = game.cant_test_linux === true;
-
-    // Weekly highlighting now handled via blog_category field
 
     // Determine CSS classes for highlighting
     let rowClasses = '';
@@ -406,12 +409,11 @@ function updateTable() {
     else if (game.blog_category === 'backlog') {
       rowClasses += 'backlog-game ';
     }
-    // No longer needed - all highlighting handled by blog_category
 
     return `
     <tr class="${rowClasses.trim()}" data-storefront="${game.storefront}" data-status="${game.overall_status}">
       <td title="${game.title}">
-        ${isAntiCheat ? 
+        ${isAntiCheat ?
           `<span class="game-title-static">${game.title}</span>` :
           `<span class="game-link clickable" data-game-id="${game.id}" data-modal-file="games/${game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase()}/${game.slug}.json">${game.title}</span>`
         }
@@ -419,7 +421,7 @@ function updateTable() {
       <td>
         <span class="store-badge ${game.storefront === 'itch.io' ? 'itch' : game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
       </td>
-      ${isAntiCheat ? 
+      ${isAntiCheat ?
         `<td colspan="2" class="anticheat-warning">⚠️ Incompatible - Anti Cheat</td>` :
         `<td class="compatibility-rating">${getCompatibilityDisplay(game.decky_rating)}</td>
          <td class="compatibility-rating">${getCompatibilityDisplay(game.standalone_rating)}</td>`
@@ -433,11 +435,40 @@ function updateTable() {
   console.log('Setting tbody innerHTML...');
   tbody.innerHTML = tableHTML;
   console.log('tbody rows after setting:', tbody.children.length);
-  
+
   updatePagination();
-  
+  // updateCompatibilityCounts(); // Commented out - compatibility counts row is hidden
+
   // Re-add modal handlers after table update
   addModalHandlers();
+}
+
+// Update compatibility counts in column headers
+function updateCompatibilityCounts() {
+  if (!gamesData) return;
+
+  let deckyPerfectCount = 0;
+  let standalonePerfectCount = 0;
+
+  // Count games that work perfectly for each version
+  filteredGames.forEach(game => {
+    // Skip anti-cheat games
+    if (game.cant_test_linux === true) return;
+
+    // Check if Decky version works perfectly
+    if (game.decky_rating && (game.decky_rating.toLowerCase() === 'green' || game.decky_rating.toLowerCase() === 'perfect')) {
+      deckyPerfectCount++;
+    }
+
+    // Check if Standalone version works perfectly
+    if (game.standalone_rating && (game.standalone_rating.toLowerCase() === 'green' || game.standalone_rating.toLowerCase() === 'perfect')) {
+      standalonePerfectCount++;
+    }
+  });
+
+  // Update the header counts
+  document.getElementById('deckyWorksCount').textContent = `✅ (${deckyPerfectCount})`;
+  document.getElementById('standaloneWorksCount').textContent = `✅ (${standalonePerfectCount})`;
 }
 
 // Update pagination controls
@@ -1516,5 +1547,19 @@ select:focus, input:focus {
   .game-meta {
     font-size: 0.85rem;
   }
+}
+
+/* Compatibility counts row styling */
+.compatibility-counts th {
+  background: rgba(255, 255, 255, 0.02) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding: 8px 15px !important;
+}
+
+.works-count {
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+  color: #28a745 !important;
+  text-align: center !important;
 }
 </style>
