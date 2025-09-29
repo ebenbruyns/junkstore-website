@@ -18,10 +18,37 @@ Change your Epic, GOG, or Amazon game language settings directly in Game Mode - 
 
 <ol>
   <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
+</ol>
+
+![Settings menu on game page](/assets/images/tutorials/change-language/CogGamePage.webp)
+*Click the ⚙️ Settings menu from the game page*
+
+<ol start="2">
   <li>Select <strong>Game Configs</strong></li>
+</ol>
+
+![Game Configs tab selection](/assets/images/tutorials/change-language/CogTab.webp)
+*Select the Game Configs tab*
+
+<ol start="3">
   <li>Change the dropdown to <strong>All</strong></li>
   <li>Click <strong>ENVIRONMENT</strong> dropdown</li>
+</ol>
+
+![Game configuration screen with dropdowns](/assets/images/tutorials/change-language/GameConfi.webp)
+*Change dropdown to "All" then access the ENVIRONMENT dropdown*
+
+<ol start="5">
   <li>Scroll to <strong>LANG</strong> and select your preferred language</li>
+</ol>
+
+![Language dropdown with options](/assets/images/tutorials/change-language/LangDropdown.webp)
+*Scroll to LANG and select your preferred language*
+
+![Language selection example](/assets/images/tutorials/change-language/LangSelection.webp)
+*Example of language selection*
+
+<ol start="6">
   <li>Press <kbd>X</kbd> to save changes</li>
 </ol>
 
