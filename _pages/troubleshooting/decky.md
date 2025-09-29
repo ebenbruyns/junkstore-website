@@ -101,7 +101,7 @@ header:
     Once installed, use either tool to download the latest <strong>GE-Proton</strong> release. After that, you'll be able to select it as a compatibility option in Junk Store.
     <br>
     <br>
-    Please refer to our <a href="{{ '/plugin_tutorials/' | relative_url }}"> Plugin Tutorials</a> page to see how to change/check your Proton version if you are unsure how to do this.
+    Please refer to our <a href="{{ '/tutorials/' | relative_url }}">Tutorials</a> page to see how to change/check your Proton version if you are unsure how to do this.
 </details>
 
 <details class="faq-box" id="keyboard-issues-game-mode">
@@ -299,7 +299,7 @@ header:
     <li>Install any required or missing dependencies (you may sometimes get a prompt to install a Microsoft C++ runtime, or something else).</li>
     <li>Some Epic games require the EOS overlay to be enabled before they will work. Make sure you have installed this globally (Epic tab) and enabled it for the game (done from the game page in Junk Store).</li>
   </ul>
-    Please refer to our <a href="/plugin_tutorials">Tutorials</a> section to learn how to change or check your Proton version or install Microsoft C++ runtimes if you are unsure how to do this.
+    Please refer to our <a href="/tutorials/">Tutorials</a> section to learn how to change or check your Proton version or install Microsoft C++ runtimes if you are unsure how to do this.
   <br>
   <br>
     If that doesn't work, ask for help in our Discord server. Please be patient—our team is small! While we have a decent game library, we don't have every game, so we may only be able to offer advice rather than fixes.
