@@ -88,10 +88,19 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
 
 {% include testimonials.html %}
 
+<section class="library-value-callout">
+  <div class="value-box">
+    <h3>🎮 Your Free Game Collection Is Worth Thousands</h3>
+    <p>Between Epic's weekly giveaways and Prime Gaming's monthly drops, you've likely claimed hundreds—or even thousands—of dollars in free games.</p>
+    <p><strong>Epic alone has given away over $10,000 worth of games since 2018.</strong></p>
+    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode with a $40 annual license.</p>
+  </div>
+</section>
+
 <section class="pricing-highlight">
   <div class="pricing-box">
     <h3>🚀 The Only Pure Game Mode Solution</h3>
-    <p class="price-text"><strong>$40/year • 7-day free trial</strong></p>
+    <p class="price-text"><strong>$40 annual license • 7-day free trial</strong></p>
     <p class="value-text">Never leave Game Mode to play Epic, GOG, Amazon & itch.io games</p>
     <div class="pricing-cta">
       <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>
