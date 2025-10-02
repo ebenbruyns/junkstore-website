@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Get Junk Store 2.0"
-description: "Download Junk Store 2.0 standalone app for Steam Deck. $40/year with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch.io (beta) directly in Game Mode."
+description: "Download Junk Store 2.0 standalone app for Steam Deck. $40 annual license with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch.io (beta) directly in Game Mode."
 permalink: /buy_now/
 header:
   overlay_color: "#000"
@@ -106,12 +106,26 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
       ✅ <strong>Professional support team.</strong> Most issues resolved in minutes. <a href="/2.0troubleshooting/#installation-not-completing">Installation fixes →</a> • <a href="/2.0troubleshooting/#executables-wont-run">Executable fixes →</a>
     </div>
 
+    <div class="faq-item">
+      <h4>I've been claiming free Epic and Prime Gaming games. Will this work with those?</h4>
+      ✅ <strong>Absolutely.</strong> Epic has given away $10,000+ worth of games since 2018, and Prime Gaming adds 15-25 games monthly. One $40 annual license unlocks your entire collection in Game Mode - no Desktop Mode required. <a href="/tested-games/">See compatible games →</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="library-value-callout">
+  <div class="value-box">
+    <h3>🎮 Your Free Game Collection Is Worth Thousands</h3>
+    <p>Between Epic's weekly giveaways and Prime Gaming's monthly drops, you've likely claimed hundreds—or even thousands—of dollars in free games.</p>
+    <p><strong>Epic alone has given away over $10,000 worth of games since 2018.</strong></p>
+    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode with a $40 annual license.</p>
   </div>
 </section>
 
 <section class="pricing-highlight" id="pricing-details">
   <div class="pricing-box">
-    <h3>🚀 Get Everything for $40/Year</h3>
+    <h3>🚀 Get Everything for $40 Annual License</h3>
     <p class="price-text">Less than $1 per week for unlimited Epic, GOG, Amazon & itch.io gaming without Desktop Mode frustration</p>
     <p class="trial-text">7-day free trial • Cancel anytime • Keep everything forever after purchase</p>
     <div class="pricing-cta">
