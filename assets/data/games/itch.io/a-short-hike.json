@@ -6,7 +6,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "https://adamgryu.itch.io/a-short-hike",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/A_Short_Hike",
   "notes": "Native controller support. **Decky Plugin: Not Supported**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Aug '25",
   "decky_rating": "not-supported",
@@ -39,8 +39,8 @@
   "description": "Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak Provincial Park as you make your way to the summit.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/7cffad16560764af2a9cfdb34df54b12bd3e042913e7219b9a8f7e647a053097.jpg?namespace=gamesdb",
-  "banner_image": "",
-  "icon_image": "",
+  "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1055540/library_hero.jpg",
+  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1055540/capsule_231x87.jpg",
   "steamId": "1055540",
   "game_modes": [
     "Single player"
@@ -51,6 +51,7 @@
   "tested": true,
   "owned": true,
   "is_featured": false,
+  "blog_category": "",
   "created_at": "2025-08-15T05:54:16.805Z",
-  "updated_at": "2025-08-19T04:55:07.194Z"
+  "updated_at": "2025-10-01T20:32:38.996Z"
 }
