@@ -6,14 +6,14 @@
   "gog_url": "https://www.gog.com/en/game/shadow_tactics_blades_of_the_shogun",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Shadow_Tactics:_Blades_of_the_Shogun",
   "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "date_tested": "June '24",
+  "date_tested": "Oct '25",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -36,7 +36,7 @@
   "developer": "Mimimi Games",
   "releasedate": "2016-12-06T00:00:00+0000",
   "genre": "Strategy, Tactical",
-  "description": "Skillfully hide from and sneak past the enemies fields of view, take their formations apart and hide their bodies to cover your tracks. Quick Save will enable you to execute your plans perfectly. Tactically plan actions for your whole team and execute them all at once. Make use of the vertical gameplay and jump from roof to roof to silently kill your foes from above.",
+  "description": "Shadow Tactics is a hardcore tactical stealth game set in Japan around the Edo period. A new Shogun seizes power over Japan and enforces nationwide peace. In his battle against conspiracy and rebellion, he recruits five specialists with extraordinary skills for assassination, sabotage and espionage.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/09efa51f1ca073ff78161875e5626804b4ffa354f4e43821f5feb16552d183e6.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/316714fc01d0c9678d119d2a9c096967483d22d5adfb593cb56fe5c45a28b8bd.jpg?namespace=gamesdb",
@@ -46,12 +46,23 @@
     "Single player"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French",
+    "German",
+    "Spanish - Spain",
+    "Japanese*",
+    "Polish",
+    "Russian",
+    "Korean",
+    "Simplified Chinese",
+    "Portuguese - Brazil"
   ],
   "gog_cloud_saves": false,
   "gog_achievements": false,
+  "tested": true,
   "owned": true,
   "is_featured": false,
+  "blog_category": "retest",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-01T04:08:36.969Z"
+  "updated_at": "2025-10-04T21:57:01.802Z"
 }
