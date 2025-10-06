@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 362,
+  "total_games": 364,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -232,6 +232,7 @@
     "outliver-tribulation.json",
     "overcooked-2.json",
     "overcooked.json",
+    "paladins.json",
     "paquerette-down-the-bunburrows.json",
     "pc-building-simulator.json",
     "pilgrims.json",
@@ -241,6 +242,7 @@
     "prison-architect.json",
     "project-winter.json",
     "qube-10th-anniversary.json",
+    "qube-2.json",
     "rawmen-food-fighter-arena.json",
     "redacted.json",
     "redemption-reapers.json",
@@ -365,24 +367,54 @@
     "zenless-zone-zero.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2025-09-27T22:01:34.558Z",
+  "featured_games": 1,
+  "last_updated": "2025-10-06T21:14:28.877Z",
   "latest_games": [
     {
-      "title": "Eastern Exorcist",
-      "slug": "eastern-exorcist",
-      "date_tested": "Sept '25",
+      "title": "Paladins",
+      "slug": "paladins",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Q.U.B.E. 2",
+      "slug": "qube-2",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Salt and Sanctuary",
+      "slug": "salt-and-sanctuary",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Hades",
+      "slug": "hades",
+      "date_tested": "May '24",
+      "is_featured": false
+    },
+    {
+      "title": "BioShock 2 Remastered",
+      "slug": "bioshock-2-remastered",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Firestone: Online Idle RPG",
+      "slug": "firestone-online-idle-rpg",
+      "date_tested": "Oct '25",
       "is_featured": true
     },
     {
       "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
       "slug": "jorels-brother-and-the-most-important-game-of-the-galaxy",
       "date_tested": "Sept '25",
-      "is_featured": true
+      "is_featured": false
     },
     {
-      "title": "Auto Chess",
-      "slug": "auto-chess",
+      "title": "Eastern Exorcist",
+      "slug": "eastern-exorcist",
       "date_tested": "Sept '25",
       "is_featured": false
     },
@@ -396,36 +428,6 @@
       "title": "Islets",
       "slug": "islets",
       "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Rise of Industry",
-      "slug": "rise-of-industry",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Cursed to Golf",
-      "slug": "cursed-to-golf",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Bloons TD 6",
-      "slug": "bloons-td-6",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Samorost 2",
-      "slug": "samorost-2",
-      "date_tested": "Sep '25",
-      "is_featured": false
-    },
-    {
-      "title": "Project Winter",
-      "slug": "project-winter",
-      "date_tested": "Sep '25",
       "is_featured": false
     }
   ]

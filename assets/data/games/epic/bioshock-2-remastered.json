@@ -4,16 +4,16 @@
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/409720",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/bioshock-2-remastered",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/BioShock_2_Remastered",
   "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "date_tested": "June '24",
+  "date_tested": "Oct '25",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -40,17 +40,25 @@
   "size": "",
   "vertical_artwork": "https://images.gog.com/0fe04d361c05029d708725ea138acd5b1decb7e096d7b2283eeb717e6e3d8a2a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f96b1900ca6b38158276669e0179e9c346c01956f5a49667341fae15beced11a.jpg?namespace=gamesdb",
-  "icon_image": "",
+  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/409720/capsule_231x87.jpg",
   "steamId": "409720",
   "game_modes": [
     "Single player"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French*",
+    "Italian*",
+    "German*",
+    "Spanish - Spain*",
+    "Japanese",
+    "Simplified Chinese*languages with full audio support"
   ],
   "epic_cloud_saves": false,
+  "tested": true,
   "owned": true,
   "is_featured": false,
+  "blog_category": "retest",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.964Z"
+  "updated_at": "2025-10-03T21:40:06.779Z"
 }
