@@ -1,12 +1,12 @@
 {
-  "total_games": 724,
-  "featured_games": 3,
+  "total_games": 729,
+  "featured_games": 2,
   "storefronts": {
     "Epic": {
-      "total": 362,
-      "featured": 2,
+      "total": 364,
+      "featured": 1,
       "green_decky": 273,
-      "green_standalone": 260
+      "green_standalone": 263
     },
     "GOG": {
       "total": 317,
@@ -15,10 +15,10 @@
       "green_standalone": 220
     },
     "Amazon": {
-      "total": 33,
+      "total": 36,
       "featured": 1,
       "green_decky": 0,
-      "green_standalone": 30
+      "green_standalone": 33
     },
     "itch.io": {
       "total": 12,
@@ -29,10 +29,10 @@
   },
   "ratings_summary": {
     "green_decky": 536,
-    "green_standalone": 521,
-    "both_green": 444
+    "green_standalone": 527,
+    "both_green": 445
   },
-  "last_updated": "2025-09-27T22:01:34.567Z",
+  "last_updated": "2025-10-06T21:14:28.886Z",
   "games": [
     {
       "id": "aa1a2fc7-85e0-4dc6-a4bf-dd908fe161b8",
@@ -857,14 +857,14 @@
       "slug": "bioshock-2-remastered",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "June '24",
+      "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "",
+      "blog_category": "retest",
       "protondb": "https://www.protondb.com/app/409720",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/bioshock-2-remastered",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/BioShock_2_Remastered",
       "steamId": "409720"
     },
     {
@@ -1641,7 +1641,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/274520",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/darkwood-fa73bd",
@@ -1980,7 +1980,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '25",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1120810",
       "gog_url": "",
@@ -2353,8 +2353,8 @@
       "slug": "firestone-online-idle-rpg",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "April '25",
-      "is_featured": false,
+      "date_tested": "Oct '25",
+      "is_featured": true,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1013320",
       "gog_url": "",
@@ -2899,7 +2899,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/1669420",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/islets-5f2670",
@@ -3866,14 +3866,14 @@
       "slug": "salt-and-sanctuary",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "May '24",
+      "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "",
+      "blog_category": "retest",
       "protondb": "https://www.protondb.com/app/283640",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/salt-and-sanctuary",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Salt_and_Sanctuary",
       "steamId": "283640"
     },
     {
@@ -6554,7 +6554,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/203140",
       "gog_url": "https://www.gog.com/en/game/hitman_absolution",
       "epic_url": "",
@@ -6724,7 +6724,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/1209410",
       "gog_url": "https://www.gog.com/en/game/king_of_seas",
       "epic_url": "",
@@ -6926,14 +6926,14 @@
       "slug": "metro-last-light-redux",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "June '24",
+      "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "",
+      "blog_category": "retest",
       "protondb": "https://www.protondb.com/app/287390",
       "gog_url": "https://www.gog.com/en/game/metro_last_light_redux",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Metro:_Last_Light_Redux",
       "steamId": "287390"
     },
     {
@@ -7368,14 +7368,14 @@
       "slug": "shadow-tactics-blades-of-the-shogun",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "June '24",
+      "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "",
+      "blog_category": "retest",
       "protondb": "https://www.protondb.com/app/418240",
       "gog_url": "https://www.gog.com/en/game/shadow_tactics_blades_of_the_shogun",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Shadow_Tactics:_Blades_of_the_Shogun",
       "steamId": "418240"
     },
     {
@@ -9339,7 +9339,7 @@
       "storefront": "Epic",
       "slug": "hades",
       "decky_rating": "green",
-      "standalone_rating": "unknown",
+      "standalone_rating": "green",
       "date_tested": "May '24",
       "is_featured": false,
       "blog_category": "",
@@ -10838,7 +10838,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/1530300",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/auto-chess",
@@ -10898,6 +10898,23 @@
       "steamId": "1041320"
     },
     {
+      "id": "1d818ef5-ed07-41ce-985a-e1063ef248ab",
+      "title": "Paladins",
+      "storefront": "Epic",
+      "slug": "paladins",
+      "decky_rating": "not-working",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/444090",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/paladins",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Paladins:_Champions_of_the_Realm",
+      "steamId": "444090"
+    },
+    {
       "id": "0f1a556f-56e8-4b77-aa9a-f6401305c037",
       "title": "Pilgrims",
       "storefront": "Epic",
@@ -10915,6 +10932,23 @@
       "steamId": "1049280"
     },
     {
+      "id": "e109ab89-7e2f-43d5-9417-e8605847b07b",
+      "title": "Q.U.B.E. 2",
+      "storefront": "Epic",
+      "slug": "qube-2",
+      "decky_rating": "yellow",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/359100",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/q-u-b-e-2",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Q.U.B.E._2",
+      "steamId": "359100"
+    },
+    {
       "id": "1808f220-d53e-46c3-b365-b5095e19961b",
       "title": "Rise of Industry",
       "storefront": "Epic",
@@ -10923,7 +10957,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/671440",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/rise-of-industry-0af838",
@@ -11110,7 +11144,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/321800",
       "gog_url": "https://www.gog.com/en/game/icewind_dale_enhanced_edition",
       "epic_url": "",
@@ -11331,7 +11365,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/308420",
       "gog_url": "https://www.gog.com/en/game/ziggurat",
       "epic_url": "",
@@ -11391,6 +11425,23 @@
       "steamId": "1085220"
     },
     {
+      "id": "600e4216-a61f-4070-894b-93a5442c86de",
+      "title": "Gargoyles Remastered",
+      "storefront": "Amazon",
+      "slug": "gargoyles-remastered",
+      "decky_rating": "not-supported",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/1928020",
+      "gog_url": "",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gargoyles_Remastered",
+      "steamId": "1928020"
+    },
+    {
       "id": "c076276c-1ed4-417a-a787-f618b661107a",
       "title": "Golfie",
       "storefront": "Amazon",
@@ -11399,7 +11450,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/1579020",
       "gog_url": "",
       "epic_url": "",
@@ -11423,6 +11474,23 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Lego_Indiana_Jones:_The_Original_Adventures",
       "steamId": "32330"
+    },
+    {
+      "id": "3a3c724a-d0d5-48c2-8c18-58f9ef2a266a",
+      "title": "The Forgotten City",
+      "storefront": "Amazon",
+      "slug": "the-forgotten-city",
+      "decky_rating": "not-supported",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/874260",
+      "gog_url": "",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Forgotten_City",
+      "steamId": "874260"
     },
     {
       "id": "4e3defcf-cea2-4576-bb1c-9e58e452d056",
@@ -11467,7 +11535,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/1015920",
       "gog_url": "",
       "epic_url": "",
@@ -11659,7 +11727,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://adamgryu.itch.io/a-short-hike",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/A_Short_Hike",
       "steamId": "1055540"
     },
     {
@@ -11676,7 +11744,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://hempuli.itch.io/baba",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Baba_Is_You",
       "steamId": "736260"
     },
     {
@@ -11693,7 +11761,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://maddymakesgamesinc.itch.io/celeste",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Celeste",
       "steamId": "504230"
     },
     {
@@ -11710,7 +11778,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://radicalfishgames.itch.io/crosscode",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/CrossCode",
       "steamId": "368340"
     },
     {
@@ -11722,7 +11790,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/1128180",
       "gog_url": "",
       "epic_url": "",
@@ -11739,7 +11807,7 @@
       "standalone_rating": "green",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/510240",
       "gog_url": "",
       "epic_url": "",
@@ -11778,7 +11846,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "https://terrycavanagh.itch.io/super-hexagon",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Super_Hexagon",
       "steamId": "221640"
     },
     {
@@ -12316,7 +12384,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '25",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1398910",
       "gog_url": "",
@@ -12333,7 +12401,7 @@
       "decky_rating": "not-supported",
       "standalone_rating": "green",
       "date_tested": "Sept '25",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/2409360",
       "gog_url": "",
@@ -12341,6 +12409,23 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "2409360"
+    },
+    {
+      "id": "14965c9d-eca5-4c2c-bbca-aa3637b24ae2",
+      "title": "Tormented Souls",
+      "storefront": "Amazon",
+      "slug": "tormented-souls",
+      "decky_rating": "not-supported",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/1367590",
+      "gog_url": "",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Tormented_Souls",
+      "steamId": "1367590"
     }
   ]
 }
