@@ -113,11 +113,13 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
 <!-- Compatibility Legend -->
 <div class="compatibility-legend">
   <span class="legend-title">Compatibility:</span>
-  <span class="legend-item">✅ Works great</span>
-  <span class="legend-item">🟡 Minor tinkering</span>
-  <span class="legend-item">🔧 Advanced tinkering</span>
+  <span class="legend-item">✅ Works perfect</span>
+  <span class="legend-item">🟡 Minor setup</span>
+  <span class="legend-item">🔧 Advanced setup</span>
+  <span class="legend-item">❌ Broken</span>
   <span class="legend-item">🚫 Unsupported</span>
-  <span class="legend-item">⚠️ Anti-cheat incompatible</span>
+  <span class="legend-item">❓ Untested</span>
+  <span class="legend-item">⚠️ Anti-cheat</span>
 </div>
 
 <!-- Games Table -->
@@ -282,10 +284,6 @@ function populateStats() {
         <span class="stat-label">Total Games</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">${gamesData.ratings_summary.both_green}</span>
-        <span class="stat-label">Works Great</span>
-      </div>
-      <div class="stat-item">
         <span class="stat-number">${gamesData.storefronts.Epic.total}</span>
         <span class="stat-label">Epic Games</span>
       </div>
@@ -333,10 +331,10 @@ function getCompatibilityDisplay(rating) {
     'Perfect': '✅',  // Handle Perfect ratings as green checkmarks
     'yellow': '🟡',
     'red': '🔧',
-    'not-working': '🚫',
+    'not-working': '❌',
     'not-supported': '🚫'
   };
-  
+
   return `<span class="compatibility-rating">${ratingMap[rating] || '❓'}</span>`;
 }
 
@@ -881,10 +879,10 @@ function getStatusClass(rating) {
 function getStatusText(rating) {
   if (!rating) return 'Not tested';
   const ratingLower = rating.toLowerCase();
-  if (ratingLower === 'green' || ratingLower === 'perfect') return 'Works great';
-  if (ratingLower === 'yellow') return 'Minor tinkering';
-  if (ratingLower === 'red') return 'Advanced tinkering';
-  if (ratingLower === 'not-working') return 'Doesn\'t work';
+  if (ratingLower === 'green' || ratingLower === 'perfect') return 'Works perfect';
+  if (ratingLower === 'yellow') return 'Minor setup';
+  if (ratingLower === 'red') return 'Advanced setup';
+  if (ratingLower === 'not-working') return 'Broken';
   if (ratingLower === 'unknown') return 'Untested';
   if (ratingLower === 'not-supported') return 'Not supported';
   if (ratingLower === 'untested') return 'Untested';
@@ -1465,7 +1463,7 @@ select:focus, input:focus {
 .compatibility-legend {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 15px;
   align-items: center;
   background: rgba(30, 42, 56, 0.5);
   padding: 12px 20px;
