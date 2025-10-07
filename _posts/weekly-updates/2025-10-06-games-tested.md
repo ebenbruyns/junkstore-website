@@ -42,7 +42,7 @@ This week featuring Firestone: Online Idle RPG.
 <div class="game-entry">
   <img src="https://images.gog.com/b2449c5b44e83b74a6d21e9b1cc7a3eb6da588b1667431a7e0aa5722a3e8695d.jpg?namespace=gamesdb" alt="Firestone: Online Idle RPG" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="#" target="_blank">Firestone: Online Idle RPG</a></strong>
+    <strong><a href="https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b" target="_blank">Firestone: Online Idle RPG</a></strong>
     <div class="game-description">Firestone is an Idle RPG set in the Fantasy world of Alandria, where Undead and Orc forces have gathered for the first time in millennia to bring chaos and disorder to the realm.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -58,7 +58,7 @@ This week featuring Tormented Souls.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1367590/capsule_231x87.jpg" alt="Tormented Souls" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="#" target="_blank">Tormented Souls</a></strong> <span style="color: #999;">(Prime Gaming)</span>
+    <strong>Tormented Souls</strong> <span style="color: #999;">(Prime Gaming)</span>
     <div class="game-description">Classic survival horror is back! Inspired by the original Resident Evil and Alone in the Dark series, Tormented Souls modernises with a fresh twist on the fixed perspective adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -98,7 +98,7 @@ Catching up on Paladins, Q.U.B.E. 2, Gargoyles Remastered, The Forgotten City.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1928020/capsule_231x87.jpg" alt="Gargoyles Remastered" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="#" target="_blank">Gargoyles Remastered</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong>Gargoyles Remastered</strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">Relive the legend of Goliath and save the world from destruction.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -110,7 +110,7 @@ Catching up on Paladins, Q.U.B.E. 2, Gargoyles Remastered, The Forgotten City.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/874260/capsule_231x87.jpg" alt="The Forgotten City" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="#" target="_blank">The Forgotten City</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong>The Forgotten City</strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">The Forgotten City is a mystery adventure game of exploration and deduction, and a re-imagining of the critically acclaimed mod of the same name.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
