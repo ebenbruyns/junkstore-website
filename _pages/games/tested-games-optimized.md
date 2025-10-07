@@ -991,10 +991,6 @@ function renderTestingDetailsBootstrap(game) {
               <span class="info-value">${game.dependencies}</span>
             </div>
           ` : ''}
-          <div class="info-item">
-            <span class="info-label">Proton Version</span>
-            <span class="info-value">${game.proton_version || 'GE-Proton'}</span>
-          </div>
           ${game.protondb ? `
             <div class="info-item">
               <span class="info-label">ProtonDB</span>
