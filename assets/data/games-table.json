@@ -1,12 +1,12 @@
 {
-  "total_games": 729,
-  "featured_games": 2,
+  "total_games": 733,
+  "featured_games": 4,
   "storefronts": {
     "Epic": {
-      "total": 364,
-      "featured": 1,
-      "green_decky": 273,
-      "green_standalone": 263
+      "total": 367,
+      "featured": 4,
+      "green_decky": 277,
+      "green_standalone": 267
     },
     "GOG": {
       "total": 317,
@@ -15,10 +15,10 @@
       "green_standalone": 220
     },
     "Amazon": {
-      "total": 36,
-      "featured": 1,
+      "total": 37,
+      "featured": 0,
       "green_decky": 0,
-      "green_standalone": 33
+      "green_standalone": 34
     },
     "itch.io": {
       "total": 12,
@@ -28,11 +28,11 @@
     }
   },
   "ratings_summary": {
-    "green_decky": 536,
-    "green_standalone": 527,
-    "both_green": 445
+    "green_decky": 540,
+    "green_standalone": 532,
+    "both_green": 449
   },
-  "last_updated": "2025-10-06T21:14:28.886Z",
+  "last_updated": "2025-10-14T00:54:56.775Z",
   "games": [
     {
       "id": "aa1a2fc7-85e0-4dc6-a4bf-dd908fe161b8",
@@ -243,16 +243,16 @@
       "title": "Albion Online",
       "storefront": "Epic",
       "slug": "albion-online",
-      "decky_rating": "Perfect",
-      "standalone_rating": "Perfect",
-      "date_tested": "July '24",
-      "is_featured": false,
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": true,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/761890",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/albion-online-7eb24d",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Albion_Online",
       "steamId": "761890"
     },
     {
@@ -859,7 +859,7 @@
       "standalone_rating": "green",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/409720",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/bioshock-2-remastered",
@@ -1831,9 +1831,9 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/614570",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/dishonored-death-of-the-outsider",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Dishonored:_Death_of_the_Outsider",
       "steamId": "614570"
     },
     {
@@ -2354,13 +2354,13 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '25",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1013320",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Firestone_Idle_RPG",
       "steamId": "1013320"
     },
     {
@@ -3868,7 +3868,7 @@
       "standalone_rating": "green",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/283640",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/salt-and-sanctuary",
@@ -6928,7 +6928,7 @@
       "standalone_rating": "green",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/287390",
       "gog_url": "https://www.gog.com/en/game/metro_last_light_redux",
       "epic_url": "",
@@ -7370,7 +7370,7 @@
       "standalone_rating": "green",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/418240",
       "gog_url": "https://www.gog.com/en/game/shadow_tactics_blades_of_the_shogun",
       "epic_url": "",
@@ -7392,7 +7392,7 @@
       "gog_url": "https://www.gog.com/en/game/shadowrun_returns",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Shadowrun_Returns",
       "steamId": "234650"
     },
     {
@@ -10906,7 +10906,7 @@
       "standalone_rating": "green",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/444090",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/paladins",
@@ -10940,7 +10940,7 @@
       "standalone_rating": "green",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/359100",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/q-u-b-e-2",
@@ -11433,7 +11433,7 @@
       "standalone_rating": "green",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/1928020",
       "gog_url": "",
       "epic_url": "",
@@ -11484,7 +11484,7 @@
       "standalone_rating": "green",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/874260",
       "gog_url": "",
       "epic_url": "",
@@ -11542,6 +11542,23 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "1015920"
+    },
+    {
+      "id": "46fc1af3-7270-4d91-923a-d1f5bf801683",
+      "title": "Youtubers Life 2",
+      "storefront": "Amazon",
+      "slug": "youtubers-life-2",
+      "decky_rating": "not-supported",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/1493760",
+      "gog_url": "",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Youtubers_Life_2",
+      "steamId": "1493760"
     },
     {
       "id": "72214a5a-ac74-4df8-b61a-22599350dd52",
@@ -12418,7 +12435,7 @@
       "decky_rating": "not-supported",
       "standalone_rating": "green",
       "date_tested": "Oct '25",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1367590",
       "gog_url": "",
@@ -12426,6 +12443,57 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Tormented_Souls",
       "steamId": "1367590"
+    },
+    {
+      "id": "bce42169-592f-4c5f-8558-aee74f9809d0",
+      "title": "Faaast Penguin",
+      "storefront": "Epic",
+      "slug": "faaast-penguin",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/2590150",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/achievements/faaast-penguin-4319d6",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Faaast_Penguin",
+      "steamId": "2590150"
+    },
+    {
+      "id": "d34a6c7f-5657-4b3e-b0b4-38c1e691e9b3",
+      "title": "Vampire: The Masquerade - Reckoning of New York",
+      "storefront": "Epic",
+      "slug": "vampire-the-masquerade-reckoning-of-new-york",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/2658720",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/vampire-the-masquerade-reckoning-of-new-york-5a391e",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Vampire:_The_Masquerade_-_Reckoning_of_New_York",
+      "steamId": "2658720"
+    },
+    {
+      "id": "07f57818-a7db-4552-99fc-24cc01c47764",
+      "title": "Gravity Circuit",
+      "storefront": "Epic",
+      "slug": "gravity-circuit",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/858710",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/gravity-circuit-489baa",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gravity_Circuit",
+      "steamId": "858710"
     }
   ]
 }

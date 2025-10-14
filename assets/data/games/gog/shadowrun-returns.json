@@ -6,7 +6,7 @@
   "gog_url": "https://www.gog.com/en/game/shadowrun_returns",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Shadowrun_Returns",
   "notes": "Mouse-only controls. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "June '24",
   "decky_rating": "green",
@@ -46,7 +46,12 @@
     "Single player"
   ],
   "languages": [
-    "English"
+    "English",
+    "French",
+    "Italian",
+    "Spanish - Spain",
+    "German",
+    "Russian"
   ],
   "gog_cloud_saves": false,
   "gog_achievements": false,
@@ -55,5 +60,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-11T07:58:55.845Z"
+  "updated_at": "2025-10-14T00:17:55.660Z"
 }
