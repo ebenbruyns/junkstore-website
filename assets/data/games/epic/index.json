@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 364,
+  "total_games": 367,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -129,6 +129,7 @@
     "escape-academy.json",
     "eternights.json",
     "f1-manager-2024.json",
+    "faaast-penguin.json",
     "fall-guys.json",
     "fallout-2.json",
     "fallout-3-game-of-the-year-edition.json",
@@ -162,6 +163,7 @@
     "gods-will-fall.json",
     "grand-theft-auto-v-enhanced.json",
     "grand-theft-auto-v.json",
+    "gravity-circuit.json",
     "grime.json",
     "guacamelee-2.json",
     "guacamelee-super-turbo-championship-edition.json",
@@ -349,6 +351,7 @@
     "undying.json",
     "unrailed.json",
     "vampire-survivors.json",
+    "vampire-the-masquerade-reckoning-of-new-york.json",
     "void-bastards.json",
     "warhammer-40000-gladius-relics-of-war.json",
     "warhammer-40000-mechanicus.json",
@@ -367,9 +370,57 @@
     "zenless-zone-zero.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2025-10-06T21:14:28.877Z",
+  "featured_games": 4,
+  "last_updated": "2025-10-14T00:54:56.760Z",
   "latest_games": [
+    {
+      "title": "Albion Online",
+      "slug": "albion-online",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "Dishonored: Death of the Outsider",
+      "slug": "dishonored-death-of-the-outsider",
+      "date_tested": "June '24",
+      "is_featured": false
+    },
+    {
+      "title": "Vampire: The Masquerade - Reckoning of New York",
+      "slug": "vampire-the-masquerade-reckoning-of-new-york",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "Gravity Circuit",
+      "slug": "gravity-circuit",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "Cursed to Golf",
+      "slug": "cursed-to-golf",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Bloons TD 6",
+      "slug": "bloons-td-6",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Faaast Penguin",
+      "slug": "faaast-penguin",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "Borderlands 3",
+      "slug": "borderlands-3",
+      "date_tested": "June '24",
+      "is_featured": false
+    },
     {
       "title": "Paladins",
       "slug": "paladins",
@@ -380,54 +431,6 @@
       "title": "Q.U.B.E. 2",
       "slug": "qube-2",
       "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Salt and Sanctuary",
-      "slug": "salt-and-sanctuary",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Hades",
-      "slug": "hades",
-      "date_tested": "May '24",
-      "is_featured": false
-    },
-    {
-      "title": "BioShock 2 Remastered",
-      "slug": "bioshock-2-remastered",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Firestone: Online Idle RPG",
-      "slug": "firestone-online-idle-rpg",
-      "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
-      "slug": "jorels-brother-and-the-most-important-game-of-the-galaxy",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Eastern Exorcist",
-      "slug": "eastern-exorcist",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Darkwood",
-      "slug": "darkwood",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Islets",
-      "slug": "islets",
-      "date_tested": "Sept '25",
       "is_featured": false
     }
   ]
