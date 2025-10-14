@@ -13,15 +13,15 @@ read_time: "5 min read"
 toc: true
 ---
 
-**This week's testing highlights:** 5 games across Epic, Amazon storefronts — including fun finds like Faaast Penguin and Gravity Circuit running flawlessly. All 5 games work perfectly out of the box!
+**This week's testing highlights:** 5 games across Epic, Amazon storefronts, including fun finds like Faaast Penguin and Gravity Circuit running flawlessly. All 5 games work perfectly out of the box!
 
 
 
 G'day!
 
-What a week for wildlife here in North Cove, Kawau Island! We've had a pod of dolphins visit twice this week, and between their appearances, a group of orca showed up right at our mooring. Living on a boat has its share of compromises and challenges compared to life on land, but experiences like these make it all worthwhile. Watching these magnificent creatures from our floating home is something we never could have imagined in our previous landlocked life—and honestly, we wouldn't trade it for anything!
+What a week for wildlife here in North Cove, Kawau Island! We've had a pod of dolphins visit twice this week, and between their appearances, a group of orca showed up right at our mooring. Living on a boat has its share of compromises and challenges compared to life on land, but experiences like these make it all worthwhile. Watching these magnificent creatures from our floating home is something we never could have imagined in our previous landlocked life and honestly, we wouldn't trade it for anything!
 
-Unfortunately, our internet has been playing up this week, which meant I could only download and test a handful of games. I'll do my best to catch up next week with the ones I missed—that is, if our internet decides to cooperate! Anyway, here's what I managed to get through this week.
+Unfortunately, our internet has been playing up this week, which meant I could only download and test a handful of games. I'll do my best to catch up next week with the ones I missed, that is, if our internet decides to cooperate! Anyway, here's what I managed to get through this week.
 
 ## Current System Setup
 * **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
