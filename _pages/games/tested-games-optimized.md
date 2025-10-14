@@ -387,17 +387,14 @@ function updateTable() {
   
   console.log(`Page ${currentPage}: showing ${pageGames.length} games (${startIdx}-${endIdx}) of ${filteredGames.length} total, pageSize: ${pageSize}`);
   
-  // Add info row on first page only
-  let infoRow = '';
-  if (currentPage === 1) {
-    infoRow = `
+  // Add info row on every page
+  const infoRow = `
     <tr class="info-row">
       <td colspan="5" style="text-align: center !important; padding: 14px !important; font-weight: bold !important; color: #ffa366 !important; font-size: 1.05rem !important;">
         Click any game title for detailed compatibility info, testing notes, controller configs, and more
       </td>
     </tr>
     `;
-  }
 
   const tableHTML = pageGames.map(game => {
     // Check if this is an anti-cheat game
