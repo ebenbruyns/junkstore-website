@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 36,
+  "total_games": 37,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -37,11 +37,30 @@
     "vlad-circus-descend-into-madness.json",
     "warhammer-40000-dawn-of-war-ii.json",
     "warhammer-40000-space-marine.json",
-    "ynglet.json"
+    "ynglet.json",
+    "youtubers-life-2.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2025-10-06T21:14:28.884Z",
+  "featured_games": 0,
+  "last_updated": "2025-10-14T00:54:56.771Z",
   "latest_games": [
+    {
+      "title": "Youtubers Life 2",
+      "slug": "youtubers-life-2",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Warhammer 40,000: Space Marine",
+      "slug": "warhammer-40000-space-marine",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Figment 2: Creed Valley",
+      "slug": "figment-2-creed-valley",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
     {
       "title": "Gargoyles Remastered",
       "slug": "gargoyles-remastered",
@@ -58,7 +77,7 @@
       "title": "Tormented Souls",
       "slug": "tormented-souls",
       "date_tested": "Oct '25",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "Pixel Cafe",
@@ -79,26 +98,8 @@
       "is_featured": false
     },
     {
-      "title": "Warhammer 40,000: Space Marine",
-      "slug": "warhammer-40000-space-marine",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Figment 2: Creed Valley",
-      "slug": "figment-2-creed-valley",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
       "title": "Subterrain: Mines of Titan",
       "slug": "subterrain-mines-of-titan",
-      "date_tested": "Sep '25",
-      "is_featured": false
-    },
-    {
-      "title": "Afterimage",
-      "slug": "afterimage",
       "date_tested": "Sep '25",
       "is_featured": false
     }
