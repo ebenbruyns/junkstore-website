@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 362,
+  "total_games": 367,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -129,6 +129,7 @@
     "escape-academy.json",
     "eternights.json",
     "f1-manager-2024.json",
+    "faaast-penguin.json",
     "fall-guys.json",
     "fallout-2.json",
     "fallout-3-game-of-the-year-edition.json",
@@ -162,6 +163,7 @@
     "gods-will-fall.json",
     "grand-theft-auto-v-enhanced.json",
     "grand-theft-auto-v.json",
+    "gravity-circuit.json",
     "grime.json",
     "guacamelee-2.json",
     "guacamelee-super-turbo-championship-edition.json",
@@ -232,6 +234,7 @@
     "outliver-tribulation.json",
     "overcooked-2.json",
     "overcooked.json",
+    "paladins.json",
     "paquerette-down-the-bunburrows.json",
     "pc-building-simulator.json",
     "pilgrims.json",
@@ -241,6 +244,7 @@
     "prison-architect.json",
     "project-winter.json",
     "qube-10th-anniversary.json",
+    "qube-2.json",
     "rawmen-food-fighter-arena.json",
     "redacted.json",
     "redemption-reapers.json",
@@ -347,6 +351,7 @@
     "undying.json",
     "unrailed.json",
     "vampire-survivors.json",
+    "vampire-the-masquerade-reckoning-of-new-york.json",
     "void-bastards.json",
     "warhammer-40000-gladius-relics-of-war.json",
     "warhammer-40000-mechanicus.json",
@@ -365,44 +370,32 @@
     "zenless-zone-zero.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2025-09-27T22:01:34.558Z",
+  "featured_games": 4,
+  "last_updated": "2025-10-14T00:54:56.760Z",
   "latest_games": [
     {
-      "title": "Eastern Exorcist",
-      "slug": "eastern-exorcist",
-      "date_tested": "Sept '25",
+      "title": "Albion Online",
+      "slug": "albion-online",
+      "date_tested": "Oct '25",
       "is_featured": true
     },
     {
-      "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
-      "slug": "jorels-brother-and-the-most-important-game-of-the-galaxy",
-      "date_tested": "Sept '25",
+      "title": "Dishonored: Death of the Outsider",
+      "slug": "dishonored-death-of-the-outsider",
+      "date_tested": "June '24",
+      "is_featured": false
+    },
+    {
+      "title": "Vampire: The Masquerade - Reckoning of New York",
+      "slug": "vampire-the-masquerade-reckoning-of-new-york",
+      "date_tested": "Oct '25",
       "is_featured": true
     },
     {
-      "title": "Auto Chess",
-      "slug": "auto-chess",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Darkwood",
-      "slug": "darkwood",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Islets",
-      "slug": "islets",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Rise of Industry",
-      "slug": "rise-of-industry",
-      "date_tested": "Sept '25",
-      "is_featured": false
+      "title": "Gravity Circuit",
+      "slug": "gravity-circuit",
+      "date_tested": "Oct '25",
+      "is_featured": true
     },
     {
       "title": "Cursed to Golf",
@@ -417,15 +410,27 @@
       "is_featured": false
     },
     {
-      "title": "Samorost 2",
-      "slug": "samorost-2",
-      "date_tested": "Sep '25",
+      "title": "Faaast Penguin",
+      "slug": "faaast-penguin",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "Borderlands 3",
+      "slug": "borderlands-3",
+      "date_tested": "June '24",
       "is_featured": false
     },
     {
-      "title": "Project Winter",
-      "slug": "project-winter",
-      "date_tested": "Sep '25",
+      "title": "Paladins",
+      "slug": "paladins",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Q.U.B.E. 2",
+      "slug": "qube-2",
+      "date_tested": "Oct '25",
       "is_featured": false
     }
   ]

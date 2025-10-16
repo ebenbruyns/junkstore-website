@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 33,
+  "total_games": 37,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -15,6 +15,7 @@
     "faraway-2-jungle-escape.json",
     "faraway-arctic-escape.json",
     "figment-2-creed-valley.json",
+    "gargoyles-remastered.json",
     "golfie.json",
     "labyrinth-city-pierre-the-maze-detective.json",
     "lego-indiana-jones-the-original-adventures.json",
@@ -28,33 +29,24 @@
     "the-abandoned-planet.json",
     "the-academy-the-first-riddle.json",
     "the-collage-atlas.json",
+    "the-forgotten-city.json",
     "the-gap.json",
     "through-the-darkest-of-times.json",
     "tiny-robots-recharged.json",
+    "tormented-souls.json",
     "vlad-circus-descend-into-madness.json",
     "warhammer-40000-dawn-of-war-ii.json",
     "warhammer-40000-space-marine.json",
-    "ynglet.json"
+    "ynglet.json",
+    "youtubers-life-2.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2025-09-27T22:01:34.566Z",
+  "featured_games": 0,
+  "last_updated": "2025-10-14T00:54:56.771Z",
   "latest_games": [
     {
-      "title": "Pixel Cafe",
-      "slug": "pixel-cafe",
-      "date_tested": "Sept '25",
-      "is_featured": true
-    },
-    {
-      "title": "Golfie",
-      "slug": "golfie",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Ynglet",
-      "slug": "ynglet",
-      "date_tested": "Sept '25",
+      "title": "Youtubers Life 2",
+      "slug": "youtubers-life-2",
+      "date_tested": "Oct '25",
       "is_featured": false
     },
     {
@@ -70,33 +62,45 @@
       "is_featured": false
     },
     {
-      "title": "Subterrain: Mines of Titan",
-      "slug": "subterrain-mines-of-titan",
-      "date_tested": "Sep '25",
+      "title": "Gargoyles Remastered",
+      "slug": "gargoyles-remastered",
+      "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "Afterimage",
-      "slug": "afterimage",
-      "date_tested": "Sep '25",
+      "title": "The Forgotten City",
+      "slug": "the-forgotten-city",
+      "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "LEGO Indiana Jones: The Original Adventures",
-      "slug": "lego-indiana-jones-the-original-adventures",
+      "title": "Tormented Souls",
+      "slug": "tormented-souls",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Pixel Cafe",
+      "slug": "pixel-cafe",
       "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Labyrinth City: Pierre the Maze Detective",
-      "slug": "labyrinth-city-pierre-the-maze-detective",
-      "date_tested": "Aug '25",
+      "title": "Golfie",
+      "slug": "golfie",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Dungeon of the Endless: Definitive Edition",
-      "slug": "dungeon-of-the-endless-definitive-edition",
-      "date_tested": "Aug '25",
+      "title": "Ynglet",
+      "slug": "ynglet",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Subterrain: Mines of Titan",
+      "slug": "subterrain-mines-of-titan",
+      "date_tested": "Sep '25",
       "is_featured": false
     }
   ]

@@ -320,29 +320,17 @@
     "ziggurat.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-09-27T22:01:34.562Z",
+  "last_updated": "2025-10-14T00:54:56.767Z",
   "latest_games": [
     {
-      "title": "Icewind Dale: Enhanced Edition",
-      "slug": "icewind-dale-enhanced-edition",
-      "date_tested": "Sept '25",
+      "title": "Shadowrun Returns",
+      "slug": "shadowrun-returns",
+      "date_tested": "June '24",
       "is_featured": false
     },
     {
-      "title": "Hitman: Absolution",
-      "slug": "hitman-absolution",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "King of Seas",
-      "slug": "king-of-seas",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Ziggurat",
-      "slug": "ziggurat",
+      "title": "Mafia II",
+      "slug": "mafia-ii",
       "date_tested": "Sept '25",
       "is_featured": false
     },
@@ -359,26 +347,38 @@
       "is_featured": false
     },
     {
-      "title": "Mafia II",
-      "slug": "mafia-ii",
+      "title": "Styx: Shards of Darkness",
+      "slug": "styx-shards-of-darkness",
+      "date_tested": "June '24",
+      "is_featured": false
+    },
+    {
+      "title": "Metro: Last Light Redux",
+      "slug": "metro-last-light-redux",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Shadow Tactics: Blades of the Shogun",
+      "slug": "shadow-tactics-blades-of-the-shogun",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Hitman: Absolution",
+      "slug": "hitman-absolution",
       "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Residual",
-      "slug": "residual",
-      "date_tested": "Sep '25",
+      "title": "King of Seas",
+      "slug": "king-of-seas",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "FATE: The Cursed King",
-      "slug": "fate-the-cursed-king",
-      "date_tested": "Sep '25",
-      "is_featured": false
-    },
-    {
-      "title": "Tower of Time",
-      "slug": "tower-of-time",
+      "title": "Icewind Dale: Enhanced Edition",
+      "slug": "icewind-dale-enhanced-edition",
       "date_tested": "Sept '25",
       "is_featured": false
     }

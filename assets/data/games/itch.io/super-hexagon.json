@@ -6,7 +6,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "https://terrycavanagh.itch.io/super-hexagon",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Super_Hexagon",
   "notes": "Native controller support. Community controller layout available. **Decky Plugin: Not Supported**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Aug '25",
   "decky_rating": "not-supported",
@@ -39,8 +39,8 @@
   "description": "Super Hexagon is a minimal action game by Terry Cavanagh, with music by Chipzel.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/887c91f1a734305b1e183a9e78badf01be5845afce0ba2014ad202d8176c10bf.jpg?namespace=gamesdb",
-  "banner_image": "",
-  "icon_image": "",
+  "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/221640/library_hero.jpg",
+  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/221640/capsule_231x87.jpg",
   "steamId": "221640",
   "game_modes": [
     "Single player"
@@ -51,6 +51,7 @@
   "tested": true,
   "owned": true,
   "is_featured": false,
+  "blog_category": "",
   "created_at": "2025-08-15T05:54:17.291Z",
-  "updated_at": "2025-08-19T04:55:16.812Z"
+  "updated_at": "2025-10-01T20:35:06.924Z"
 }

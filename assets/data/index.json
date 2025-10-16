@@ -1,11 +1,11 @@
 {
-  "last_updated": "2025-09-27T22:01:34.573Z",
-  "total_tested_games": 724,
-  "featured_games": 3,
+  "last_updated": "2025-10-14T00:54:56.787Z",
+  "total_tested_games": 733,
+  "featured_games": 4,
   "storefronts": {
     "Epic": {
-      "total": 362,
-      "featured": 2,
+      "total": 367,
+      "featured": 4,
       "directory": "epic"
     },
     "GOG": {
@@ -14,8 +14,8 @@
       "directory": "gog"
     },
     "Amazon": {
-      "total": 33,
-      "featured": 1,
+      "total": 37,
+      "featured": 0,
       "directory": "amazon"
     },
     "itch.io": {
@@ -26,156 +26,60 @@
   },
   "recent_updates": [
     {
-      "title": "Pixel Cafe",
-      "storefront": "Amazon",
-      "slug": "pixel-cafe",
-      "date_tested": "Sept '25",
+      "title": "Albion Online",
+      "storefront": "Epic",
+      "slug": "albion-online",
+      "date_tested": "Oct '25",
       "is_featured": true,
-      "updated_at": "2025-09-27T22:01:31.168Z"
+      "updated_at": "2025-10-14T00:21:00.199Z"
     },
     {
-      "title": "Eastern Exorcist",
-      "storefront": "Epic",
-      "slug": "eastern-exorcist",
-      "date_tested": "Sept '25",
-      "is_featured": true,
-      "updated_at": "2025-09-27T21:57:19.922Z"
-    },
-    {
-      "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
-      "storefront": "Epic",
-      "slug": "jorels-brother-and-the-most-important-game-of-the-galaxy",
-      "date_tested": "Sept '25",
-      "is_featured": true,
-      "updated_at": "2025-09-27T21:57:06.148Z"
-    },
-    {
-      "title": "Icewind Dale: Enhanced Edition",
+      "title": "Shadowrun Returns",
       "storefront": "GOG",
-      "slug": "icewind-dale-enhanced-edition",
-      "date_tested": "Sept '25",
+      "slug": "shadowrun-returns",
+      "date_tested": "June '24",
       "is_featured": false,
-      "updated_at": "2025-09-27T21:38:38.654Z"
+      "updated_at": "2025-10-14T00:17:55.660Z"
     },
     {
-      "title": "Auto Chess",
+      "title": "Dishonored: Death of the Outsider",
       "storefront": "Epic",
-      "slug": "auto-chess",
-      "date_tested": "Sept '25",
+      "slug": "dishonored-death-of-the-outsider",
+      "date_tested": "June '24",
       "is_featured": false,
-      "updated_at": "2025-09-27T21:38:27.778Z"
+      "updated_at": "2025-10-14T00:17:52.764Z"
     },
     {
-      "title": "Golfie",
+      "title": "Youtubers Life 2",
       "storefront": "Amazon",
-      "slug": "golfie",
-      "date_tested": "Sept '25",
+      "slug": "youtubers-life-2",
+      "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2025-09-27T20:50:20.080Z"
+      "updated_at": "2025-10-13T22:53:38.950Z"
     },
     {
-      "title": "Hitman: Absolution",
-      "storefront": "GOG",
-      "slug": "hitman-absolution",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-27T01:52:18.583Z"
-    },
-    {
-      "title": "King of Seas",
-      "storefront": "GOG",
-      "slug": "king-of-seas",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-27T00:57:30.133Z"
-    },
-    {
-      "title": "Darkwood",
+      "title": "Vampire: The Masquerade - Reckoning of New York",
       "storefront": "Epic",
-      "slug": "darkwood",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-27T00:50:18.262Z"
+      "slug": "vampire-the-masquerade-reckoning-of-new-york",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "updated_at": "2025-10-13T22:43:16.792Z"
     },
     {
-      "title": "Islets",
+      "title": "Gravity Circuit",
       "storefront": "Epic",
-      "slug": "islets",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-27T00:47:18.479Z"
+      "slug": "gravity-circuit",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "updated_at": "2025-10-13T22:35:11.155Z"
     },
     {
-      "title": "Ziggurat",
-      "storefront": "GOG",
-      "slug": "ziggurat",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-27T00:23:20.655Z"
-    },
-    {
-      "title": "Rise of Industry",
-      "storefront": "Epic",
-      "slug": "rise-of-industry",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-26T20:18:12.096Z"
-    },
-    {
-      "title": "Ynglet",
-      "storefront": "Amazon",
-      "slug": "ynglet",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-26T05:27:49.382Z"
-    },
-    {
-      "title": "Forma.8",
+      "title": "Macbat 64: Journey of a Nice Chap",
       "storefront": "itch.io",
-      "slug": "forma8",
+      "slug": "macbat-64-journey-of-a-nice-chap",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "updated_at": "2025-09-26T04:49:36.078Z"
-    },
-    {
-      "title": "Crossniq",
-      "storefront": "itch.io",
-      "slug": "crossniq",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-26T04:34:00.128Z"
-    },
-    {
-      "title": "Ghost of a Tale",
-      "storefront": "GOG",
-      "slug": "ghost-of-a-tale",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-23T23:49:29.464Z"
-    },
-    {
-      "title": "Dishonored 2",
-      "storefront": "GOG",
-      "slug": "dishonored-2",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-23T23:49:27.402Z"
-    },
-    {
-      "title": "Cursed to Golf",
-      "storefront": "Epic",
-      "slug": "cursed-to-golf",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-23T23:49:25.066Z"
-    },
-    {
-      "title": "Bloons TD 6",
-      "storefront": "Epic",
-      "slug": "bloons-td-6",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2025-09-23T23:49:24.532Z"
+      "updated_at": "2025-10-13T22:27:19.320Z"
     },
     {
       "title": "Warhammer 40,000: Space Marine",
@@ -183,7 +87,103 @@
       "slug": "warhammer-40000-space-marine",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "updated_at": "2025-09-23T23:49:15.985Z"
+      "updated_at": "2025-10-13T22:27:14.227Z"
+    },
+    {
+      "title": "Figment 2: Creed Valley",
+      "storefront": "Amazon",
+      "slug": "figment-2-creed-valley",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-10-13T22:27:12.215Z"
+    },
+    {
+      "title": "Mafia II",
+      "storefront": "GOG",
+      "slug": "mafia-ii",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-10-13T22:27:10.846Z"
+    },
+    {
+      "title": "Ghost of a Tale",
+      "storefront": "GOG",
+      "slug": "ghost-of-a-tale",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-10-13T22:14:16.021Z"
+    },
+    {
+      "title": "Dishonored 2",
+      "storefront": "GOG",
+      "slug": "dishonored-2",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-10-13T22:14:13.951Z"
+    },
+    {
+      "title": "Cursed to Golf",
+      "storefront": "Epic",
+      "slug": "cursed-to-golf",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-10-13T22:14:08.208Z"
+    },
+    {
+      "title": "Bloons TD 6",
+      "storefront": "Epic",
+      "slug": "bloons-td-6",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-10-13T22:14:07.293Z"
+    },
+    {
+      "title": "Faaast Penguin",
+      "storefront": "Epic",
+      "slug": "faaast-penguin",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "updated_at": "2025-10-13T19:59:16.351Z"
+    },
+    {
+      "title": "Styx: Shards of Darkness",
+      "storefront": "GOG",
+      "slug": "styx-shards-of-darkness",
+      "date_tested": "June '24",
+      "is_featured": false,
+      "updated_at": "2025-10-13T19:54:38.499Z"
+    },
+    {
+      "title": "Borderlands 3",
+      "storefront": "Epic",
+      "slug": "borderlands-3",
+      "date_tested": "June '24",
+      "is_featured": false,
+      "updated_at": "2025-10-13T19:54:24.141Z"
+    },
+    {
+      "title": "Paladins",
+      "storefront": "Epic",
+      "slug": "paladins",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-07T23:44:41.122Z"
+    },
+    {
+      "title": "Q.U.B.E. 2",
+      "storefront": "Epic",
+      "slug": "qube-2",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-07T23:44:41.122Z"
+    },
+    {
+      "title": "Gargoyles Remastered",
+      "storefront": "Amazon",
+      "slug": "gargoyles-remastered",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-07T23:44:41.122Z"
     }
   ]
 }
