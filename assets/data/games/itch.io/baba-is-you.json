@@ -6,7 +6,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "https://hempuli.itch.io/baba",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Baba_Is_You",
   "notes": "Native controller support. **Decky Plugin: Not Supported**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Aug '25",
   "decky_rating": "not-supported",
@@ -39,8 +39,8 @@
   "description": "Baba Is You is a puzzle game where you can change the rules by which you play. In every level, the rules themselves are present as blocks you can interact with; by manipulating them, you can change how the level works and cause surprising, unexpected interactions! With some simple block-pushing you can turn yourself into a rock, turn patches of grass into dangerously hot obstacles, and even change the goal you need to reach to something entirely different.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/e7371a4ecd80937d5bb5292bff60063cb1d794108dfbba5ec5461eaac367d149.jpg?namespace=gamesdb",
-  "banner_image": "",
-  "icon_image": "",
+  "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/736260/library_hero.jpg",
+  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/736260/capsule_231x87.jpg",
   "steamId": "736260",
   "game_modes": [
     "Single player"
@@ -51,6 +51,7 @@
   "tested": true,
   "owned": true,
   "is_featured": false,
+  "blog_category": "",
   "created_at": "2025-08-15T05:54:16.842Z",
-  "updated_at": "2025-08-19T04:55:07.792Z"
+  "updated_at": "2025-10-01T20:33:16.863Z"
 }
