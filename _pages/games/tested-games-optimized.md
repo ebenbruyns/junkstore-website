@@ -113,11 +113,13 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
 <!-- Compatibility Legend -->
 <div class="compatibility-legend">
   <span class="legend-title">Compatibility:</span>
-  <span class="legend-item">✅ Works great</span>
-  <span class="legend-item">🟡 Minor tinkering</span>
-  <span class="legend-item">🔧 Advanced tinkering</span>
+  <span class="legend-item">✅ Works perfect</span>
+  <span class="legend-item">🟡 Minor setup</span>
+  <span class="legend-item">🔧 Advanced setup</span>
+  <span class="legend-item">❌ Broken</span>
   <span class="legend-item">🚫 Unsupported</span>
-  <span class="legend-item">⚠️ Anti-cheat incompatible</span>
+  <span class="legend-item">❓ Untested</span>
+  <span class="legend-item">⚠️ Anti-cheat</span>
 </div>
 
 <!-- Games Table -->
@@ -338,10 +340,10 @@ function getCompatibilityDisplay(rating) {
     'Perfect': '✅',  // Handle Perfect ratings as green checkmarks
     'yellow': '🟡',
     'red': '🔧',
-    'not-working': '🚫',
+    'not-working': '❌',
     'not-supported': '🚫'
   };
-  
+
   return `<span class="compatibility-rating">${ratingMap[rating] || '❓'}</span>`;
 }
 
@@ -393,6 +395,15 @@ function updateTable() {
   const pageGames = filteredGames.slice(startIdx, endIdx);
 
   console.log(`Page ${currentPage}: showing ${pageGames.length} games (${startIdx}-${endIdx}) of ${filteredGames.length} total, pageSize: ${pageSize}`);
+  
+  // Add info row on every page
+  const infoRow = `
+    <tr class="info-row">
+      <td colspan="5" style="text-align: center !important; padding: 14px !important; font-weight: bold !important; color: #ffa366 !important; font-size: 1.05rem !important;">
+        Click any game title for detailed compatibility info, testing notes, controller configs, and more
+      </td>
+    </tr>
+    `;
 
   const tableHTML = pageGames.map(game => {
     // Check if this is an anti-cheat game
@@ -430,10 +441,12 @@ function updateTable() {
     </tr>
     `;
   }).join('');
-  
-  console.log('Generated HTML length:', tableHTML.length);
+
+  const finalHTML = infoRow + tableHTML;
+
+  console.log('Generated HTML length:', finalHTML.length);
   console.log('Setting tbody innerHTML...');
-  tbody.innerHTML = tableHTML;
+  tbody.innerHTML = finalHTML;
   console.log('tbody rows after setting:', tbody.children.length);
 
   updatePagination();
@@ -912,10 +925,10 @@ function getStatusClass(rating) {
 function getStatusText(rating) {
   if (!rating) return 'Not tested';
   const ratingLower = rating.toLowerCase();
-  if (ratingLower === 'green' || ratingLower === 'perfect') return 'Works great';
-  if (ratingLower === 'yellow') return 'Minor tinkering';
-  if (ratingLower === 'red') return 'Advanced tinkering';
-  if (ratingLower === 'not-working') return 'Doesn\'t work';
+  if (ratingLower === 'green' || ratingLower === 'perfect') return 'Works perfect';
+  if (ratingLower === 'yellow') return 'Minor setup';
+  if (ratingLower === 'red') return 'Advanced setup';
+  if (ratingLower === 'not-working') return 'Broken';
   if (ratingLower === 'unknown') return 'Untested';
   if (ratingLower === 'not-supported') return 'Not supported';
   if (ratingLower === 'untested') return 'Untested';
@@ -1024,10 +1037,6 @@ function renderTestingDetailsBootstrap(game) {
               <span class="info-value">${game.dependencies}</span>
             </div>
           ` : ''}
-          <div class="info-item">
-            <span class="info-label">Proton Version</span>
-            <span class="info-value">${game.proton_version || 'GE-Proton'}</span>
-          </div>
           ${game.protondb ? `
             <div class="info-item">
               <span class="info-label">ProtonDB</span>
@@ -1322,6 +1331,16 @@ select:focus, input:focus {
   background: rgba(255, 163, 102, 0.1);
 }
 
+/* Remove hover effect from info row */
+#gamesTable tbody tr.info-row {
+  pointer-events: none;
+}
+
+#gamesTable tbody tr.info-row:hover {
+  background: inherit !important;
+  cursor: default;
+}
+
 .featured-game {
   background: rgba(255, 163, 102, 0.05) !important;
   border-left: 3px solid #ffa366;
@@ -1496,7 +1515,7 @@ select:focus, input:focus {
 .compatibility-legend {
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 15px;
   align-items: center;
   background: rgba(30, 42, 56, 0.5);
   padding: 12px 20px;

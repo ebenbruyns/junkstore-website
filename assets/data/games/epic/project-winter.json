@@ -62,6 +62,7 @@
   "tested": true,
   "owned": true,
   "is_featured": false,
+  "blog_category": "",
   "created_at": "2025-09-18T23:45:55.373Z",
   "updated_at": "2025-09-23T23:48:49.814Z"
 }

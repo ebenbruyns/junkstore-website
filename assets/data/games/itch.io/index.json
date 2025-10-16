@@ -16,20 +16,8 @@
     "super-hexagon.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-09-27T22:01:34.566Z",
+  "last_updated": "2025-10-14T00:54:56.773Z",
   "latest_games": [
-    {
-      "title": "Forma.8",
-      "slug": "forma8",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Crossniq",
-      "slug": "crossniq",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
     {
       "title": "Macbat 64: Journey of a Nice Chap",
       "slug": "macbat-64-journey-of-a-nice-chap",
@@ -67,15 +55,27 @@
       "is_featured": false
     },
     {
-      "title": "2   9   0   1  / / FREELANCER",
-      "slug": "2-9-0-1-freelancer",
+      "title": "10S",
+      "slug": "10s",
       "date_tested": "Aug '25",
       "is_featured": false
     },
     {
-      "title": "1993 Space Machine",
-      "slug": "1993-space-machine",
+      "title": "10 Flights of Ballooning",
+      "slug": "10-flights-of-ballooning",
       "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Crossniq",
+      "slug": "crossniq",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Forma.8",
+      "slug": "forma8",
+      "date_tested": "Sept '25",
       "is_featured": false
     }
   ]
