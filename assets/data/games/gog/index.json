@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 317,
+  "total_games": 322,
   "games": [
     "9-years-of-shadows.json",
     "a-plague-tale-innocence.json",
@@ -89,10 +89,13 @@
     "drive-rally.json",
     "duck-paradox.json",
     "empire-of-the-ants.json",
+    "empty-shell.json",
     "en-garde.json",
     "endless-sky.json",
     "eschalon-book-i.json",
+    "eschalon-book-ii.json",
     "fallout-3-game-of-the-year-edition.json",
+    "fallout-new-vegas-ultimate-edition.json",
     "fantasy-empires.json",
     "fate-the-cursed-king.json",
     "fate-the-traitor-soul.json",
@@ -291,12 +294,14 @@
     "tomb-raider-legend.json",
     "tomb-raider-the-last-revelation.json",
     "tomb-raider-underworld.json",
+    "total-annihilation-commander-pack.json",
     "tower-of-time.json",
     "transistor.json",
     "trberbrook.json",
     "treasure-of-nadia.json",
     "trinity-fusion.json",
     "tropico-4.json",
+    "true-fear-forsaken-souls-part-1.json",
     "under-the-moon.json",
     "vambrace-cold-soul.json",
     "vampire-the-masquerade-bloodlines.json",
@@ -319,13 +324,55 @@
     "yes-your-grace.json",
     "ziggurat.json"
   ],
-  "featured_games": 0,
-  "last_updated": "2025-10-14T00:54:56.767Z",
+  "featured_games": 3,
+  "last_updated": "2025-10-18T21:19:44.959Z",
   "latest_games": [
+    {
+      "title": "Styx: Shards of Darkness",
+      "slug": "styx-shards-of-darkness",
+      "date_tested": "June '24",
+      "is_featured": false
+    },
+    {
+      "title": "Fallout: New Vegas Ultimate Edition",
+      "slug": "fallout-new-vegas-ultimate-edition",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "SimCity 4: Deluxe Edition",
+      "slug": "simcity-4-deluxe-edition",
+      "date_tested": "March '25",
+      "is_featured": false
+    },
+    {
+      "title": "True Fear: Forsaken Souls Part 1",
+      "slug": "true-fear-forsaken-souls-part-1",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "EMPTY SHELL",
+      "slug": "empty-shell",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "Total Annihilation: Commander Pack",
+      "slug": "total-annihilation-commander-pack",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Eschalon: Book II",
+      "slug": "eschalon-book-ii",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
     {
       "title": "Shadowrun Returns",
       "slug": "shadowrun-returns",
-      "date_tested": "June '24",
+      "date_tested": "Oct '25",
       "is_featured": false
     },
     {
@@ -337,48 +384,6 @@
     {
       "title": "Ghost of a Tale",
       "slug": "ghost-of-a-tale",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Dishonored 2",
-      "slug": "dishonored-2",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Styx: Shards of Darkness",
-      "slug": "styx-shards-of-darkness",
-      "date_tested": "June '24",
-      "is_featured": false
-    },
-    {
-      "title": "Metro: Last Light Redux",
-      "slug": "metro-last-light-redux",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Shadow Tactics: Blades of the Shogun",
-      "slug": "shadow-tactics-blades-of-the-shogun",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Hitman: Absolution",
-      "slug": "hitman-absolution",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "King of Seas",
-      "slug": "king-of-seas",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Icewind Dale: Enhanced Edition",
-      "slug": "icewind-dale-enhanced-edition",
       "date_tested": "Sept '25",
       "is_featured": false
     }

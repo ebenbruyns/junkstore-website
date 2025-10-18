@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 367,
+  "total_games": 370,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -24,6 +24,7 @@
     "alien-isolation.json",
     "amnesia-a-machine-for-pigs.json",
     "amnesia-rebirth.json",
+    "amnesia-the-bunker.json",
     "amnesia-the-dark-descent.json",
     "among-the-sleep-enhanced-edition.json",
     "among-us.json",
@@ -267,6 +268,7 @@
     "sail-forth.json",
     "salt-and-sanctuary.json",
     "samorost-2.json",
+    "samorost-3.json",
     "sands-of-aura.json",
     "scarf.json",
     "session-skate-sim.json",
@@ -290,6 +292,7 @@
     "strange-horticulture.json",
     "stubbs-the-zombie-in-rebel-without-a-pulse.json",
     "stumble-upon-rumble.json",
+    "submerged-hidden-depths.json",
     "suicide-squad-kill-the-justice-league.json",
     "sunless-skies-sovereign-edition.json",
     "super-crazy-rhythm-castle.json",
@@ -370,48 +373,18 @@
     "zenless-zone-zero.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 4,
-  "last_updated": "2025-10-14T00:54:56.760Z",
+  "featured_games": 2,
+  "last_updated": "2025-10-18T21:19:44.954Z",
   "latest_games": [
     {
-      "title": "Albion Online",
-      "slug": "albion-online",
+      "title": "Samorost 3",
+      "slug": "samorost-3",
       "date_tested": "Oct '25",
       "is_featured": true
     },
     {
-      "title": "Dishonored: Death of the Outsider",
-      "slug": "dishonored-death-of-the-outsider",
-      "date_tested": "June '24",
-      "is_featured": false
-    },
-    {
-      "title": "Vampire: The Masquerade - Reckoning of New York",
-      "slug": "vampire-the-masquerade-reckoning-of-new-york",
-      "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "Gravity Circuit",
-      "slug": "gravity-circuit",
-      "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "Cursed to Golf",
-      "slug": "cursed-to-golf",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Bloons TD 6",
-      "slug": "bloons-td-6",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Faaast Penguin",
-      "slug": "faaast-penguin",
+      "title": "Amnesia: The Bunker",
+      "slug": "amnesia-the-bunker",
       "date_tested": "Oct '25",
       "is_featured": true
     },
@@ -422,15 +395,45 @@
       "is_featured": false
     },
     {
-      "title": "Paladins",
-      "slug": "paladins",
+      "title": "Submerged: Hidden Depths",
+      "slug": "submerged-hidden-depths",
       "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "Q.U.B.E. 2",
-      "slug": "qube-2",
+      "title": "Dishonored: Death of the Outsider",
+      "slug": "dishonored-death-of-the-outsider",
       "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Vampire: The Masquerade - Reckoning of New York",
+      "slug": "vampire-the-masquerade-reckoning-of-new-york",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Gravity Circuit",
+      "slug": "gravity-circuit",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Faaast Penguin",
+      "slug": "faaast-penguin",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Albion Online",
+      "slug": "albion-online",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Cursed to Golf",
+      "slug": "cursed-to-golf",
+      "date_tested": "Sept '25",
       "is_featured": false
     }
   ]
