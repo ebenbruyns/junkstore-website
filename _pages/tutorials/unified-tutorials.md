@@ -47,7 +47,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 ---
 
-<h2 style="text-align: center;"> Getting Started</h2>
+<h2 style="text-align: center;"> Installation Guides</h2>
 
 <div class="tutorial-grid">
 
@@ -61,6 +61,12 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <h4><a href="/tutorials/install-junk-store-2">Install Junk Store 2.0</a></h4>
   <p>Setup guide for the Professional standalone version</p>
   <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
+</div>
+
+<div class="tutorial-item decky">
+  <h4><a href="/tutorials/gog-extension">GOG Extension Setup</a></h4>
+  <p>Add GOG games to your Decky plugin</p>
+  <span class="tutorial-tag decky-tag">Decky Plugin</span>
 </div>
 
 </div>
@@ -81,12 +87,6 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <h4><a href="/tutorials/oauth-login">Third-Party Login (OAuth)</a></h4>
   <p>Login with Xbox, PlayStation, Nintendo accounts</p>
   <span class="tutorial-tag both-tag">Universal</span>
-</div>
-
-<div class="tutorial-item decky">
-  <h4><a href="/tutorials/gog-extension">GOG Extension Setup</a></h4>
-  <p>Add GOG games to your Decky plugin</p>
-  <span class="tutorial-tag decky-tag">Decky Plugin</span>
 </div>
 
 <div class="tutorial-item both">
@@ -128,10 +128,25 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 <div class="tips-grid">
 
-<div class="tip-item">
+<div class="tip-item both">
   <h4><a href="/blog/press-y-show-all-games/">Missing the 'Press Y to Show All' Prompt</a></h4>
   <p>Only seeing A-L games in your Epic/GOG library? Look for the 'Press Y to Show All' prompt at the bottom</p>
   <span class="tip-tag">3 min read</span>
+  <span class="tutorial-tag both-tag">Universal</span>
+</div>
+
+<div class="tip-item both">
+  <h4><a href="/blog/custom-launch-arguments/">Add Custom Launch Arguments</a></h4>
+  <p>Add advanced launch parameters for Epic and GOG games using Junk Store's built-in text editor</p>
+  <span class="tip-tag">4 min read</span>
+  <span class="tutorial-tag both-tag">Universal</span>
+</div>
+
+<div class="tip-item standalone">
+  <h4><a href="/blog/install-dependencies-junk-store-2/">Install Game Dependencies Without ProtonTricks</a></h4>
+  <p>Skip the complex ProtonTricks setup - install Visual C++, .NET Framework, and DirectX with one click</p>
+  <span class="tip-tag">4 min read</span>
+  <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
 </div>
 
 </div>
