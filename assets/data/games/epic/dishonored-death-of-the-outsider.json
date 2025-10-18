@@ -8,7 +8,7 @@
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Dishonored:_Death_of_the_Outsider",
   "notes": "",
-  "date_tested": "June '24",
+  "date_tested": "Oct '25",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
@@ -61,7 +61,7 @@
   "tested": true,
   "owned": true,
   "is_featured": false,
-  "blog_category": "",
+  "blog_category": "retest",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-10-14T00:17:52.764Z"
+  "updated_at": "2025-10-14T22:21:41.744Z"
 }

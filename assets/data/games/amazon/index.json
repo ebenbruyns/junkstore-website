@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 37,
+  "total_games": 39,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -16,10 +16,12 @@
     "faraway-arctic-escape.json",
     "figment-2-creed-valley.json",
     "gargoyles-remastered.json",
+    "genesis-noir.json",
     "golfie.json",
     "labyrinth-city-pierre-the-maze-detective.json",
     "lego-indiana-jones-the-original-adventures.json",
     "max-the-curse-of-brotherhood.json",
+    "naheulbeuks-dungeon-master.json",
     "nine-witches-family-disruption.json",
     "pixel-cafe.json",
     "projection-first-light.json",
@@ -41,8 +43,20 @@
     "youtubers-life-2.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-10-14T00:54:56.771Z",
+  "last_updated": "2025-10-18T21:19:44.962Z",
   "latest_games": [
+    {
+      "title": "Naheulbeuk's Dungeon Master",
+      "slug": "naheulbeuks-dungeon-master",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Genesis Noir",
+      "slug": "genesis-noir",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
     {
       "title": "Youtubers Life 2",
       "slug": "youtubers-life-2",
@@ -89,18 +103,6 @@
       "title": "Golfie",
       "slug": "golfie",
       "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Ynglet",
-      "slug": "ynglet",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Subterrain: Mines of Titan",
-      "slug": "subterrain-mines-of-titan",
-      "date_tested": "Sep '25",
       "is_featured": false
     }
   ]
