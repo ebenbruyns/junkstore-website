@@ -6,14 +6,14 @@
   "gog_url": "https://www.gog.com/en/game/styx_shards_of_darkness",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Styx:_Shards_of_Darkness",
   "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "June '24",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -52,9 +52,10 @@
   ],
   "gog_cloud_saves": false,
   "gog_achievements": false,
+  "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-10-13T19:54:38.499Z"
+  "updated_at": "2025-10-18T21:17:55.893Z"
 }
