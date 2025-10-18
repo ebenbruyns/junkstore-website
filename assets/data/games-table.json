@@ -1,24 +1,24 @@
 {
-  "total_games": 733,
-  "featured_games": 4,
+  "total_games": 743,
+  "featured_games": 5,
   "storefronts": {
     "Epic": {
-      "total": 367,
-      "featured": 4,
-      "green_decky": 277,
-      "green_standalone": 267
+      "total": 370,
+      "featured": 2,
+      "green_decky": 279,
+      "green_standalone": 270
     },
     "GOG": {
-      "total": 317,
-      "featured": 0,
-      "green_decky": 263,
-      "green_standalone": 220
+      "total": 322,
+      "featured": 3,
+      "green_decky": 268,
+      "green_standalone": 225
     },
     "Amazon": {
-      "total": 37,
+      "total": 39,
       "featured": 0,
       "green_decky": 0,
-      "green_standalone": 34
+      "green_standalone": 36
     },
     "itch.io": {
       "total": 12,
@@ -28,11 +28,11 @@
     }
   },
   "ratings_summary": {
-    "green_decky": 540,
-    "green_standalone": 532,
-    "both_green": 449
+    "green_decky": 547,
+    "green_standalone": 542,
+    "both_green": 456
   },
-  "last_updated": "2025-10-14T00:54:56.775Z",
+  "last_updated": "2025-10-18T21:19:44.964Z",
   "games": [
     {
       "id": "aa1a2fc7-85e0-4dc6-a4bf-dd908fe161b8",
@@ -246,7 +246,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '25",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/761890",
       "gog_url": "",
@@ -1032,9 +1032,9 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/397540",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/borderlands-3",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Borderlands_3",
       "steamId": "397540"
     },
     {
@@ -1826,9 +1826,9 @@
       "slug": "dishonored-death-of-the-outsider",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "June '24",
+      "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "",
+      "blog_category": "retest",
       "protondb": "https://www.protondb.com/app/614570",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/dishonored-death-of-the-outsider",
@@ -7385,9 +7385,9 @@
       "slug": "shadowrun-returns",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "June '24",
+      "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "",
+      "blog_category": "retest",
       "protondb": "https://www.protondb.com/app/234650",
       "gog_url": "https://www.gog.com/en/game/shadowrun_returns",
       "epic_url": "",
@@ -7749,7 +7749,7 @@
       "gog_url": "https://www.gog.com/en/game/styx_shards_of_darkness",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Styx:_Shards_of_Darkness",
       "steamId": "355790"
     },
     {
@@ -9780,7 +9780,7 @@
       "title": "SimCity 4: Deluxe Edition",
       "storefront": "GOG",
       "slug": "simcity-4-deluxe-edition",
-      "decky_rating": "",
+      "decky_rating": "yellow",
       "standalone_rating": "unknown",
       "date_tested": "March '25",
       "is_featured": false,
@@ -10966,6 +10966,23 @@
       "steamId": "671440"
     },
     {
+      "id": "d1be9a92-602b-4770-a244-3f0be72c4de9",
+      "title": "Submerged: Hidden Depths",
+      "storefront": "Epic",
+      "slug": "submerged-hidden-depths",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/1614270",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/submerged-hidden-depths-6065a1",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Submerged:_Hidden_Depths",
+      "steamId": "1614270"
+    },
+    {
       "id": "c7a0f46d-56ab-42ab-9fba-ab019cc4de09",
       "title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
       "storefront": "Epic",
@@ -11066,6 +11083,23 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "358180"
+    },
+    {
+      "id": "0b249aa8-95cb-43dc-abbf-69a39df56a67",
+      "title": "Eschalon: Book II",
+      "storefront": "GOG",
+      "slug": "eschalon-book-ii",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/25620",
+      "gog_url": "https://www.gog.com/en/game/eschalon_book_ii",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Eschalon:_Book_II",
+      "steamId": "25620"
     },
     {
       "id": "a89ec3a5-014a-4b92-9256-4e425ab4555d",
@@ -11323,6 +11357,23 @@
       "steamId": "2240150"
     },
     {
+      "id": "b3f73ec1-0d80-4687-b81e-fd681ae20bfc",
+      "title": "Total Annihilation: Commander Pack",
+      "storefront": "GOG",
+      "slug": "total-annihilation-commander-pack",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/298030",
+      "gog_url": "https://www.gog.com/en/game/total_annihilation_commander_pack",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Total_Annihilation",
+      "steamId": "298030"
+    },
+    {
       "id": "7b2dba41-e694-46bb-9a3a-d9884a32d59f",
       "title": "Tower of Time",
       "storefront": "GOG",
@@ -11442,6 +11493,23 @@
       "steamId": "1928020"
     },
     {
+      "id": "8232d9e3-55f1-4733-9dd2-c9f83b0285ea",
+      "title": "Genesis Noir",
+      "storefront": "Amazon",
+      "slug": "genesis-noir",
+      "decky_rating": "not-supported",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/735290",
+      "gog_url": "",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Genesis_Noir",
+      "steamId": "735290"
+    },
+    {
       "id": "c076276c-1ed4-417a-a787-f618b661107a",
       "title": "Golfie",
       "storefront": "Amazon",
@@ -11474,6 +11542,23 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Lego_Indiana_Jones:_The_Original_Adventures",
       "steamId": "32330"
+    },
+    {
+      "id": "3752501f-83ad-4df5-8600-56e3b0923a94",
+      "title": "Naheulbeuk's Dungeon Master",
+      "storefront": "Amazon",
+      "slug": "naheulbeuks-dungeon-master",
+      "decky_rating": "not-supported",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/2005160",
+      "gog_url": "",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "",
+      "steamId": "2005160"
     },
     {
       "id": "3a3c724a-d0d5-48c2-8c18-58f9ef2a266a",
@@ -11552,7 +11637,7 @@
       "standalone_rating": "green",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/1493760",
       "gog_url": "",
       "epic_url": "",
@@ -12452,7 +12537,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '25",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/2590150",
       "gog_url": "",
@@ -12469,7 +12554,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '25",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/2658720",
       "gog_url": "",
@@ -12486,7 +12571,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '25",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/858710",
       "gog_url": "",
@@ -12494,6 +12579,91 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gravity_Circuit",
       "steamId": "858710"
+    },
+    {
+      "id": "70ede6ea-99db-4ab4-bb57-4157e0a8fdc3",
+      "title": "Amnesia: The Bunker",
+      "storefront": "Epic",
+      "slug": "amnesia-the-bunker",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/1944430",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/amnesia-the-bunker-9d5799",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Amnesia:_The_Bunker",
+      "steamId": "1944430"
+    },
+    {
+      "id": "b1f71ef9-26b9-4abe-a596-8e0051f996f4",
+      "title": "Samorost 3",
+      "storefront": "Epic",
+      "slug": "samorost-3",
+      "decky_rating": "not-working",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/421120",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/samorost-3-0c4489",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Samorost_3",
+      "steamId": "421120"
+    },
+    {
+      "id": "74092666-60e4-464c-9c4f-07b8f706e638",
+      "title": "EMPTY SHELL",
+      "storefront": "GOG",
+      "slug": "empty-shell",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/2243110",
+      "gog_url": "https://www.gog.com/en/game/empty_shell",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Empty_Shell",
+      "steamId": "2243110"
+    },
+    {
+      "id": "4fdeb852-05b7-41af-a042-f465eb3eebec",
+      "title": "True Fear: Forsaken Souls Part 1",
+      "storefront": "GOG",
+      "slug": "true-fear-forsaken-souls-part-1",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/440420",
+      "gog_url": "https://www.gog.com/en/game/true_fear_forsaken_souls",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/True_Fear:_Forsaken_Souls_Part_1",
+      "steamId": "440420"
+    },
+    {
+      "id": "1711b769-3ef7-4a1e-906e-b95e4d52c4a9",
+      "title": "Fallout: New Vegas Ultimate Edition",
+      "storefront": "GOG",
+      "slug": "fallout-new-vegas-ultimate-edition",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/22380",
+      "gog_url": "https://www.gog.com/en/game/fallout_new_vegas_ultimate_edition",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Fallout:_New_Vegas",
+      "steamId": "22380"
     }
   ]
 }
