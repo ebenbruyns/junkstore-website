@@ -13,7 +13,7 @@ read_time: "3 min read"
 toc: true
 ---
 
-**This Week's Pro Tip:** Need to add custom launch arguments to your Epic, GOG, or Amazon games? Use Junk Store's **Additional Variables** or **Additional Arguments** fields in the Advanced settings!
+**This Week's Pro Tip:** Need to add custom launch arguments to your Epic, GOG, Amazon or itch.io games? Use Junk Store's **Additional Variables** or **Additional Arguments** fields in the Advanced settings!
 
 *Note: This tip applies to both versions, but the steps differ slightly between Decky Plugin and 2.0 Standalone.*
 
