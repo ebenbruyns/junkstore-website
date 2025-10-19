@@ -149,6 +149,13 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
 </div>
 
+<div class="tip-item both">
+  <h4><a href="/blog/custom-launch-arguments/">Add Custom Launch Arguments</a></h4>
+  <p>Add advanced launch parameters for Epic and GOG games using Junk Store's built-in text editor</p>
+  <span class="tip-tag">4 min read</span>
+  <span class="tutorial-tag both-tag">Universal</span>
+</div>
+
 </div>
 
 ---
