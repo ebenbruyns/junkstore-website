@@ -19,9 +19,11 @@ toc: true
 
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
-You need to add advanced launch parameters to fix compatibility issues, enable specific features, or optimize performance for your non-Steam games. Manually editing Steam shortcuts is tedious and settings get lost after updates.
+You need to add advanced launch parameters to fix compatibility issues, enable specific features, or optimize performance for your non-Steam games.
 
 <h2 style="text-align: left !important; margin-left: 0;">The Solution</h2>
+
+Easily add or edit launch arguments and variables directly in Junk Store. The content of these fields gets injected into the launch script just before the game launches, ensuring your custom settings persist between updates and launch option resets - no more redoing your tweaks after every game update!
 
 ### For Junk Store 2.0
 
@@ -88,10 +90,6 @@ All custom arguments are applied automatically when launching games - no manual 
 7. Press **X** to save changes
 
 All custom arguments are applied automatically when launching games - no manual Steam shortcut editing required.
-
-<h2 style="text-align: left !important; margin-left: 0;">Why This Matters</h2>
-
-The content of that field gets injected into the launch script just before the game gets launched. Adding launch variables or arguments this way ensures they are preserved between updates and launch option resets - no more redoing your tweaks after every game update!
 
 <h2 style="text-align: left !important; margin-left: 0;">Pro Tips</h2>
 
