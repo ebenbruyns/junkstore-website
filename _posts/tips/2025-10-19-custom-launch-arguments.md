@@ -94,7 +94,7 @@ All custom arguments are applied automatically when launching games - no manual 
 <h2 style="text-align: left !important; margin-left: 0;">Pro Tips</h2>
 
 <div class="tip-callout">
-  <strong>💡 Pro Tip:</strong> The 2.0 built-in text editor (Press Y) makes adding multi-line arguments much easier than using the on-screen keyboard.
+  <strong>💡 Pro Tip:</strong> The 2.0 built-in text editor (Press Y) makes adding multi-line arguments much easier with the on-screen keyboard.
 </div>
 
 <div class="tip-callout">
@@ -105,7 +105,8 @@ All custom arguments are applied automatically when launching games - no manual 
   <strong>💡 Pro Tip:</strong> Common use cases include forcing specific DirectX versions, enabling debug modes, setting language preferences, or adding compatibility flags for older games.
 </div>
 
----
+<h2 style="text-align: left !important; margin-left: 0;">Next Week Preview</h2>
+Coming next week: **Installing Game Dependencies Without Protontricks** - Learn how Junk Store 2.0 makes it easy to add Visual C++, .NET Framework, and other Windows components when games won't launch!
 
 Hope this tip helps! Questions? Our team is always ready to help.
 
