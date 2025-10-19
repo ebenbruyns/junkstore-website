@@ -28,16 +28,28 @@ toc: true
 - **Hero Image**: 1200x400px WebP format (optimized at 85% quality)
   - Used in blog listings and as featured image
   - Should fit properly in blog card without cropping
-  - Dark gradient background (#1a2332 to #2d3e50)
+  - Background gradient (#2a3f54 to #3d5266) - provides contrast with blog cards
   - Title positioned at y=120, subtitle at y=160
   - Feature boxes (if used) positioned at y=210
-  - Generate with Node.js Canvas library, convert to WebP with ImageMagick
+  - Icons drawn using geometric shapes (NOT AI-generated)
+
+- **Generating Hero Images**:
+  ```bash
+  cd docs/scripts
+  # Create/edit config file in configs/ directory
+  node create-tip-hero.js configs/your-tip.json
+  # Convert PNG to WebP
+  magick ../../assets/images/blog/YYMMDD-tipname-hero.png -quality 85 -define webp:method=6 ../../assets/images/blog/YYMMDD-tipname-hero.webp
+  ```
+  - Available icons: `terminal`, `edit`, `checkCircle`
+  - See `docs/scripts/README.md` for full documentation
+  - See `docs/scripts/configs/launch-arguments-hero.json` for example
 
 - **Thumbnail**: 500x500px WebP format (optimized at 85% quality)
   - Used in smaller previews and social media
   - Should contain simplified version of hero design
 
-- **Conversion Command**:
+- **Manual Conversion**:
   ```bash
   magick source.png -quality 85 -define webp:method=6 output.webp
   ```
