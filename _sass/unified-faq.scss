@@ -133,12 +133,21 @@
   display: none;
 }
 
-/* Version Badges */
+/* FAQ Question Header Container */
+.faq-question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  gap: 1rem;
+}
+
+/* Version Badges - Inline with Question */
 .version-badges {
   display: flex;
   gap: 0.5rem;
-  margin-bottom: 1rem;
-  padding: 1rem 1.5rem 0;
+  flex-shrink: 0;
 }
 
 .version-badge {
@@ -148,6 +157,7 @@
   font-size: 0.75em;
   font-weight: bold;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .version-badge.decky {
@@ -169,13 +179,13 @@
 .faq-item h3 {
   color: #fff;
   margin: 0;
-  padding: 0 1.5rem 1rem;
-  cursor: pointer;
+  padding: 0;
   font-size: 1.1rem;
   transition: color 0.2s ease;
+  flex: 1;
 }
 
-.faq-item h3:hover {
+.faq-question-header:hover h3 {
   color: #e67300;
 }
 
@@ -280,6 +290,13 @@
 
   .faq-item h3 {
     font-size: 1rem;
+  }
+
+  /* Stack question and badges on mobile */
+  .faq-question-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
   }
 
   .version-badges {

@@ -52,11 +52,13 @@ classes: wide
     <h2>Overview & Getting Started</h2>
 
     <div class="faq-item shared" data-version="shared">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>What's the difference between the Decky version and the Professional version?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>What's the difference between the Decky version and the Professional version?</h3>
       <div class="faq-answer">
         <p>The Decky version is free and open source, designed to run via the Decky Loader. The Professional version includes extra convenience features and doesn't require Decky to run.</p>
         <p><strong>For detailed feature comparison:</strong> <a href="/comparison/">View Complete Comparison Chart</a></p>
@@ -64,11 +66,13 @@ classes: wide
     </div>
 
     <div class="faq-item shared" data-version="shared">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>Is Junk Store trustworthy and how are my credentials handled?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>Is Junk Store trustworthy and how are my credentials handled?</h3>
       <div class="faq-answer">
         <p><strong>Yes, Junk Store is trustworthy.</strong> Here's why you can trust us with your gaming credentials:</p>
 
@@ -91,10 +95,12 @@ classes: wide
     </div>
 
     <div class="faq-item decky" data-version="decky">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
+      <div class="faq-question-header">
+        <h3>How do I install the Junk Store Decky plugin?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+        </div>
       </div>
-      <h3>How do I install the Junk Store Decky plugin?</h3>
       <div class="faq-answer">
         <p>Install through the Decky Plugin Store:</p>
         <ol>
@@ -107,10 +113,12 @@ classes: wide
     </div>
 
     <div class="faq-item professional" data-version="professional">
-      <div class="version-badges">
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>Can I try before I buy to see if it's worth $40?</h3>
+        <div class="version-badges">
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>Can I try before I buy to see if it's worth $40?</h3>
       <div class="faq-answer">
         <p><strong>Yes!</strong> Junk Store 2.0 includes a 7-day free trial with full access to all features. You can test everything before committing to the annual subscription.</p>
         <p>The trial gives you time to install games, test compatibility, and see if the Game Mode-native experience works for your gaming habits.</p>
@@ -118,10 +126,12 @@ classes: wide
     </div>
 
     <div class="faq-item professional" data-version="professional">
-      <div class="version-badges">
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>What makes Junk Store different from free alternatives?</h3>
+        <div class="version-badges">
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>What makes Junk Store different from free alternatives?</h3>
       <div class="faq-answer">
         <p><strong>Junk Store is Steam Deck-specific software</strong> designed exclusively for handheld gaming workflows, while alternatives are general PC gaming tools adapted for Steam Deck.</p>
 
@@ -144,11 +154,13 @@ classes: wide
     <h2>Game Management</h2>
 
     <div class="faq-item shared" data-version="shared">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>How do I find save data for my games?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>How do I find save data for my games?</h3>
       <div class="faq-answer">
         <p>Game saves are typically located in:</p>
         <ul>
@@ -161,11 +173,13 @@ classes: wide
     </div>
 
     <div class="faq-item shared" data-version="shared">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>How do I change the Proton version for a game?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>How do I change the Proton version for a game?</h3>
       <div class="faq-answer">
         <p>Change Proton versions through Steam's game properties:</p>
         <ol>
@@ -180,11 +194,13 @@ classes: wide
     </div>
 
     <div class="faq-item shared" data-version="shared">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>How do I change the FPS or performance settings for games?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>How do I change the FPS or performance settings for games?</h3>
       <div class="faq-answer">
         <p>Use Steam Deck's built-in performance controls:</p>
         <ul>
@@ -202,11 +218,13 @@ classes: wide
     <h2>Game Compatibility</h2>
 
     <div class="faq-item shared" data-version="shared">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>How many games are compatible?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>How many games are compatible?</h3>
       <div class="faq-answer">
         <p>We've tested over 670 games across all platforms. Check our <a href="/tested-games/">compatibility database</a> for specific titles.</p>
         <p><strong>Generally compatible:</strong> Most single-player games work great</p>
@@ -215,11 +233,13 @@ classes: wide
     </div>
 
     <div class="faq-item shared" data-version="shared">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>Do games requiring third-party launchers (EA, Ubisoft, etc.) work?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>Do games requiring third-party launchers (EA, Ubisoft, etc.) work?</h3>
       <div class="faq-answer">
         <p><strong>Mixed compatibility.</strong> Here's what to expect:</p>
         <ul>
@@ -232,11 +252,13 @@ classes: wide
     </div>
 
     <div class="faq-item shared" data-version="shared">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>Can I play Fortnite via Junk Store?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>Can I play Fortnite via Junk Store?</h3>
       <div class="faq-answer">
         <p><strong>No.</strong> Fortnite uses Easy Anti-Cheat (EAC) which is not compatible with Linux/Steam Deck for this game specifically.</p>
         <p>While EAC supports Linux in general, Epic Games has not enabled Linux support for Fortnite's EAC implementation.</p>
@@ -244,11 +266,13 @@ classes: wide
     </div>
 
     <div class="faq-item shared" data-version="shared">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>Can I use Junk Store with games I already installed using other third-party solutions?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>Can I use Junk Store with games I already installed using other third-party solutions?</h3>
       <div class="faq-answer">
         <p><strong>No.</strong> Games installed through other launchers (Heroic, Lutris, etc.) cannot be imported into Junk Store.</p>
         <p>You'll need to reinstall games through Junk Store to use its features. This ensures proper integration with Steam and prevents conflicts between different launcher configurations.</p>
@@ -261,11 +285,13 @@ classes: wide
     <h2>Support & Community</h2>
 
     <div class="faq-item shared" data-version="shared">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>I think I've found a bug. How do I report it?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>I think I've found a bug. How do I report it?</h3>
       <div class="faq-answer">
         <p>Report bugs on our GitHub repository with detailed information:</p>
         <ul>
@@ -277,11 +303,13 @@ classes: wide
     </div>
 
     <div class="faq-item shared" data-version="shared">
-      <div class="version-badges">
-        <span class="version-badge decky">Decky</span>
-        <span class="version-badge professional">2.0</span>
+      <div class="faq-question-header">
+        <h3>Where can I get community help?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
+        </div>
       </div>
-      <h3>Where can I get community help?</h3>
       <div class="faq-answer">
         <p>Join our active community for help and tips:</p>
         <ul>
@@ -335,10 +363,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // FAQ accordion functionality
   faqItems.forEach(item => {
-    const question = item.querySelector('h3');
+    const questionHeader = item.querySelector('.faq-question-header');
     const answer = item.querySelector('.faq-answer');
 
-    question.addEventListener('click', function() {
+    questionHeader.addEventListener('click', function() {
       // Toggle the 'show' class for smooth transitions
       answer.classList.toggle('show');
     });
