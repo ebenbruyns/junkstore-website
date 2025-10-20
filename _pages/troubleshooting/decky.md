@@ -239,7 +239,17 @@ header:
       <li>Your SD card may not be formatted correctly.</li>
       <li>Old dependencies — revisit <strong>About &gt; Dependencies</strong> and reinstall them.</li>
     </ul>
-    Still having trouble? Ask in our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> <em> #epic-support forum</em>.
+    <strong>Bazzite users:</strong>
+    <br>
+    If you are getting this error you need to edit the <code>settings.sh</code> file to match your setup.
+    <br><br>
+    The file you need to edit is here:<br>
+    <code>~/homebrew/plugins/Junk-Store/scripts/Extensions/Epic/settings.sh</code>
+    <br><br>
+    Look for the line:<br>
+    <code>INSTALL_DIR="/run/media/mmcblk0p1/Games/epic/"</code>
+    <br><br>
+    That's the fallback, likely the cause of this issue.
 </details>
 
 <div style="text-align: center;">
