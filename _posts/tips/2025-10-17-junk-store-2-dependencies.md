@@ -1,28 +1,32 @@
 ---
 layout: post
-title: "How to Install Game Dependencies Without ProtonTricks"
+title: "Tip of the Week: Installing Game Dependencies"
 date: 2025-10-17
 categories: [Tip of the Week, 2.0 Standalone]
-tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Games, Game Dependencies, Visual C++, .NET Framework]
+tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Games, Game Dependencies, Visual C++, .NET Framework, ProtonDB]
 slug: "install-dependencies-junk-store-2"
 excerpt: "Skip the complex ProtonTricks setup! Junk Store 2.0 makes installing Visual C++, .NET Framework, and other Windows dependencies as simple as clicking a button."
 image: /assets/images/blog/251017-deps-hero.webp
 header:
   teaser: /assets/images/blog/251017-deps-thumb.webp
-read_time: "2 min read"
+read_time: "3 min read"
 toc: true
 ---
 
-**Applies to:**
-<span class="tutorial-tag standalone-tag">2.0 Standalone</span>
+**This Week's Pro Tip:** Games won't launch due to missing Windows components? Junk Store 2.0 includes **built-in dependency management** directly in Game Mode menus - no Protontricks needed!
 
-**Quick Tip:** Junk Store 2.0 includes built-in dependency management directly in Game Mode menus.
+*Note: This feature is exclusive to Junk Store 2.0 Standalone.*
 
-## The Problem
+<h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
-Your game crashes on launch with missing Visual C++ or DirectX errors. Fixing this usually requires ProtonTricks, Winetricks, or manually downloading and installing dependencies yourself.
+Your game crashes on launch with missing Visual C++, .NET Framework, or DirectX errors. Fixing this usually requires learning Protontricks, Winetricks, or manually downloading and installing dependencies yourself through Desktop Mode.
 
-## The Solution
+<h2 style="text-align: left !important; margin-left: 0;">The Solution</h2>
+
+Most games work out of the box thanks to Visual C++ Redistributable 2022 (x64), which Junk Store automatically installs with every Epic and Amazon game. For games needing extra dependencies like .NET or older Visual C++ versions, you can install them with one click - all from Game Mode.
+
+<h2 style="text-align: left !important; margin-left: 0;">How to Install Dependencies</h2>
+
 
 1. **Navigate to the game** inside Junk Store and click the **⚙️ Settings menu**
 
@@ -41,37 +45,35 @@ Your game crashes on launch with missing Visual C++ or DirectX errors. Fixing th
    ![Click Dependencies section](/assets/images/blog/251017-deps-step3.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Open the Dependencies section in Expert mode</p>
 
-5. **Toggle needed dependencies on** (blue = will install)
+5. **Toggle needed dependencies on** (blue = will install) and **Press X to save changes**
 
    ![Toggle dependencies on](/assets/images/blog/251017-deps-step4.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Toggle the dependencies you need - blue means it will install</p>
 
-6. **Press X to save changes**
+6. **Launch the game** - Dependencies will automatically install on first launch
 
-7. **Launch the game** - Dependencies will automatically install on first launch
+All dependency configurations are saved to your game's settings and persist between updates and reinstalls - configure once and forget about it!
 
-<div class="tip-callout">
-  <strong>💡 Important:</strong> Your dependency configuration is saved to the game's settings and will persist even after uninstalling - no need to reconfigure when you reinstall.
-</div>
-
-## Why This Matters
-
-Missing dependencies is a common reason some games fail on Steam Deck. Junk Store 2.0 handles installation directly in Game Mode without external tools.
-
-## Pro Tips
+<h2 style="text-align: left !important; margin-left: 0;">Pro Tips</h2>
 
 <div class="tip-callout">
-  <strong>💡 Pro Tip:</strong> Junk Store automatically toggles on Visual C++ Redistributable 2022 (x64) for Epic and Amazon Games.
+  <strong>💡 Pro Tip:</strong> Junk Store automatically toggles on Visual C++ Redistributable 2022 (x64) for every Epic and Amazon game, so most games work immediately without any configuration.
 </div>
 
 <div class="tip-callout">
-  <strong>💡 Pro Tip:</strong> Check our tested games database before launching new games - we list required dependencies for each tested title, so you can install them proactively.
+  <strong>💡 Pro Tip:</strong> Your dependency configuration is saved to the game's settings and persists even after uninstalling - no need to reconfigure when you reinstall the game.
 </div>
 
----
+<div class="tip-callout">
+  <strong>💡 Pro Tip:</strong> Not sure which dependency is needed? Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> or our <a href="/tested-games/">tested games database</a> - we list required dependencies for each tested title so you can install them proactively.
+</div>
 
-Cheers,
+<h2 style="text-align: left !important; margin-left: 0;">Next Week Preview</h2>
+Coming next week: **Managing Multiple Proton Versions** - Learn how to switch between Proton versions and use custom builds for maximum compatibility!
 
+Hope this tip helps! Questions? Our team is always ready to help.
+
+Cheers,<br>
 The Junk Store Team
 
 <div class="inline-blog-cta">
@@ -79,7 +81,7 @@ The Junk Store Team
   <a href="/buy_now/" class="inline-blog-cta-button">
     🚀 Try Junk Store 2.0 Free for 7 Days
   </a>
-  <p class="inline-cta-subtext">Stop fighting with ProtonTricks - install dependencies with one click</p>
+  <p class="inline-cta-subtext">Stop fighting with Protontricks - install dependencies with one click</p>
 </div>
 
 ---
@@ -87,44 +89,10 @@ The Junk Store Team
 *Have questions about this tip? Join our community on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>!*
 
 <style>
-/* Version tags */
-.tutorial-tag {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 4px;
-  font-size: 0.85em;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-right: 8px;
-}
-
-.decky-tag {
-  background: #2196f3;
-  color: white;
-}
-
-.standalone-tag {
-  background: #e67300;
-  color: white;
-}
-
-.both-tag {
-  background: #4caf50;
-  color: white;
-}
-
 /* Callout boxes */
 .tip-callout {
   background: rgba(76, 175, 80, 0.1);
   border-left: 4px solid #4caf50;
-  padding: 15px;
-  margin: 20px 0;
-  border-radius: 4px;
-}
-
-.warning-callout {
-  background: rgba(255, 152, 0, 0.1);
-  border-left: 4px solid #ff9800;
   padding: 15px;
   margin: 20px 0;
   border-radius: 4px;
