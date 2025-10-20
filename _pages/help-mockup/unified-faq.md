@@ -27,23 +27,19 @@ classes: wide
 
 <!-- Version Filter -->
 <section class="version-filter">
-  <h2>Filter by Version</h2>
+  <h2>Choose Your Version</h2>
   <div class="filter-buttons">
-    <button class="filter-btn active" data-filter="all">
+    <button class="filter-btn filter-decky" data-filter="decky">
+      <strong>Decky Plugin (Free)</strong>
+      <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">Game Mode plugin via Decky Loader</p>
+    </button>
+    <button class="filter-btn filter-standalone" data-filter="professional">
+      <strong>2.0 Standalone (Professional)</strong>
+      <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">Full-featured standalone application</p>
+    </button>
+    <button class="filter-btn filter-all active" data-filter="all">
       <strong>Show All</strong>
       <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">View all questions</p>
-    </button>
-    <button class="filter-btn" data-filter="decky">
-      <strong>Decky Plugin (Free)</strong>
-      <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">Free version questions</p>
-    </button>
-    <button class="filter-btn" data-filter="professional">
-      <strong>2.0 Standalone</strong>
-      <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">Professional questions</p>
-    </button>
-    <button class="filter-btn" data-filter="shared">
-      <strong>Universal</strong>
-      <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">Applies to both</p>
     </button>
   </div>
 </section>
@@ -315,9 +311,22 @@ document.addEventListener('DOMContentLoaded', function() {
       const filter = this.dataset.filter;
 
       faqItems.forEach(item => {
-        if (filter === 'all' || item.dataset.version === filter) {
+        const version = item.dataset.version;
+
+        // Show All: show everything
+        if (filter === 'all') {
           item.classList.remove('hidden');
-        } else {
+        }
+        // Decky filter: show decky AND shared
+        else if (filter === 'decky' && (version === 'decky' || version === 'shared')) {
+          item.classList.remove('hidden');
+        }
+        // Professional filter: show professional AND shared
+        else if (filter === 'professional' && (version === 'professional' || version === 'shared')) {
+          item.classList.remove('hidden');
+        }
+        // Hide if doesn't match
+        else {
           item.classList.add('hidden');
         }
       });

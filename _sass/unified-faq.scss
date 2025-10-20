@@ -33,7 +33,7 @@
   margin-bottom: 1.5rem;
 }
 
-/* Filter Cards - Similar to Tutorials Page */
+/* Filter Cards - Same as Tutorials Page */
 .filter-buttons {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -46,7 +46,6 @@
   padding: 15px;
   border-radius: 8px;
   border: 2px solid;
-  background: rgba(255, 255, 255, 0.05);
   color: #fff;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -56,13 +55,43 @@
 
 .filter-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(230, 115, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(156, 39, 176, 0.3);
 }
 
-.filter-btn.active {
+/* Decky Filter - Blue */
+.filter-btn.filter-decky {
+  border-color: #2196f3;
+  background: rgba(33, 150, 243, 0.1);
+}
+
+.filter-btn.filter-decky.active {
+  border-width: 3px;
+  background: rgba(33, 150, 243, 0.15);
+  border-color: #2196f3;
+}
+
+/* Standalone Filter - Orange */
+.filter-btn.filter-standalone {
+  border-color: #e67300;
+  background: rgba(230, 115, 0, 0.1);
+}
+
+.filter-btn.filter-standalone.active {
   border-width: 3px;
   background: rgba(230, 115, 0, 0.15);
   border-color: #e67300;
+}
+
+/* Show All Filter - Green */
+.filter-btn.filter-all {
+  border-color: #4caf50;
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.filter-btn.filter-all.active {
+  border-width: 3px;
+  background: rgba(76, 175, 80, 0.15);
+  border-color: #4caf50;
 }
 
 /* FAQ Content Container */
