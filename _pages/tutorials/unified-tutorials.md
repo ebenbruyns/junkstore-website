@@ -108,12 +108,6 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 </div>
 
 <div class="tutorial-item standalone">
-  <h4><a href="/tutorials/game-dependencies">Install Game Dependencies</a></h4>
-  <p>Install Visual C++, .NET and other Windows components</p>
-  <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
-</div>
-
-<div class="tutorial-item standalone">
   <h4><a href="/tutorials/change-game-language/">Change Language Settings</a></h4>
   <p>Change your Epic, GOG, or Amazon game language settings directly in Game Mode</p>
   <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
@@ -147,13 +141,6 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <p>Skip the complex ProtonTricks setup - install Visual C++, .NET Framework, and DirectX with one click</p>
   <span class="tip-tag">4 min read</span>
   <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
-</div>
-
-<div class="tip-item both">
-  <h4><a href="/blog/custom-launch-arguments/">Add Custom Launch Arguments</a></h4>
-  <p>Add advanced launch parameters for Epic and GOG games using Junk Store's built-in text editor</p>
-  <span class="tip-tag">4 min read</span>
-  <span class="tutorial-tag both-tag">Universal</span>
 </div>
 
 </div>
@@ -231,10 +218,10 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   margin: 20px 0;
 }
 
-/* Tips Grid Layout */
+/* Tips Grid Layout - Stacked */
 .tips-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 20px;
   margin: 20px 0;
 }
@@ -306,13 +293,13 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   background-color: #1e2a38;
   transition: all 0.3s ease;
   position: relative;
-  border-left: 4px solid #ffa500;
+  border-left: 4px solid #ffd700;
 }
 
 .tip-item:hover {
-  border-color: #ffa500;
+  border-color: #ffd700;
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 165, 0, 0.2);
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.2);
 }
 
 .tip-item h4 {
@@ -327,7 +314,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 }
 
 .tip-item h4 a:hover {
-  color: #ffa500;
+  color: #ffd700;
 }
 
 .tip-item p {
@@ -343,9 +330,9 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   border-radius: 12px;
   font-size: 0.75em;
   font-weight: 600;
-  background: rgba(255, 165, 0, 0.15);
-  color: #ffa500;
-  border: 1px solid rgba(255, 165, 0, 0.3);
+  background: rgba(255, 215, 0, 0.15);
+  color: #ffd700;
+  border: 1px solid rgba(255, 215, 0, 0.3);
 }
 
 /* Version Guide Cards */
@@ -518,10 +505,6 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .tutorial-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .tips-grid {
     grid-template-columns: 1fr;
   }
 
