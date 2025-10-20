@@ -29,10 +29,22 @@ classes: wide
 <section class="version-filter">
   <h2>Filter by Version</h2>
   <div class="filter-buttons">
-    <button class="filter-btn active" data-filter="all">All Questions</button>
-    <button class="filter-btn" data-filter="decky">Decky Plugin Only</button>
-    <button class="filter-btn" data-filter="professional">Junk Store 2.0 Only</button>
-    <button class="filter-btn" data-filter="shared">Applies to Both</button>
+    <button class="filter-btn active" data-filter="all">
+      <strong>Show All</strong>
+      <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">View all questions</p>
+    </button>
+    <button class="filter-btn" data-filter="decky">
+      <strong>Decky Plugin (Free)</strong>
+      <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">Free version questions</p>
+    </button>
+    <button class="filter-btn" data-filter="professional">
+      <strong>2.0 Standalone</strong>
+      <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">Professional questions</p>
+    </button>
+    <button class="filter-btn" data-filter="shared">
+      <strong>Universal</strong>
+      <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">Applies to both</p>
+    </button>
   </div>
 </section>
 
@@ -287,192 +299,12 @@ classes: wide
 
 </section>
 
-<style>
-.help-breadcrumb {
-  max-width: 1200px;
-  margin: 1rem auto;
-  padding: 0 1.5rem;
-  color: #c8c8c8;
-  font-size: 0.9rem;
-}
-
-.help-breadcrumb a {
-  color: #66bfff;
-  text-decoration: none;
-}
-
-.version-filter {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
-  text-align: center;
-}
-
-.version-filter h2 {
-  color: #66bfff;
-  margin-bottom: 1.5rem;
-}
-
-.filter-buttons {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.filter-btn {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #e8e8e8;
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.filter-btn:hover,
-.filter-btn.active {
-  background: rgba(255, 163, 102, 0.2);
-  border-color: #ffa366;
-  color: #ffa366;
-}
-
-.faq-content {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
-}
-
-.faq-category {
-  margin-bottom: 3rem;
-}
-
-.faq-category h2 {
-  color: #66bfff;
-  border-bottom: 2px solid #66bfff;
-  padding-bottom: 0.5rem;
-  margin-bottom: 2rem;
-}
-
-.faq-item {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
-  margin-bottom: 1.5rem;
-  overflow: hidden;
-  transition: all 0.3s ease;
-}
-
-.faq-item.hidden {
-  display: none;
-}
-
-.version-badges {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-  padding: 1rem 1.5rem 0;
-}
-
-.version-badge {
-  font-size: 0.75rem;
-  padding: 0.25rem 0.75rem;
-  border-radius: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.version-badge.decky {
-  background: rgba(40, 167, 69, 0.2);
-  color: #28a745;
-  border: 1px solid rgba(40, 167, 69, 0.3);
-}
-
-.version-badge.professional {
-  background: rgba(255, 163, 102, 0.2);
-  color: #ffa366;
-  border: 1px solid rgba(255, 163, 102, 0.3);
-}
-
-.faq-item h3 {
-  color: #ffa366;
-  margin: 0;
-  padding: 0 1.5rem 1rem;
-  cursor: pointer;
-  font-size: 1.2rem;
-}
-
-.faq-item h3:hover {
-  color: #66bfff;
-}
-
-.faq-answer {
-  padding: 0 1.5rem 1.5rem;
-  color: #e8e8e8;
-  line-height: 1.6;
-}
-
-.faq-answer p {
-  margin-bottom: 1rem;
-}
-
-.faq-answer ol {
-  margin-left: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.faq-answer li {
-  margin-bottom: 0.5rem;
-}
-
-.comparison-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1rem 0;
-}
-
-.comparison-table th,
-.comparison-table td {
-  padding: 0.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  text-align: left;
-}
-
-.comparison-table th {
-  background: rgba(255, 163, 102, 0.1);
-  color: #ffa366;
-  font-weight: 600;
-}
-
-.comparison-table td {
-  color: #e8e8e8;
-}
-
-@media (max-width: 768px) {
-  .filter-buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .filter-btn {
-    width: 200px;
-  }
-
-  .comparison-table {
-    font-size: 0.9rem;
-  }
-
-  .comparison-table th,
-  .comparison-table td {
-    padding: 0.5rem;
-  }
-}
-</style>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const filterButtons = document.querySelectorAll('.filter-btn');
   const faqItems = document.querySelectorAll('.faq-item');
 
+  // Filter button functionality
   filterButtons.forEach(button => {
     button.addEventListener('click', function() {
       // Update active button
@@ -497,15 +329,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const question = item.querySelector('h3');
     const answer = item.querySelector('.faq-answer');
 
-    // Initially hide answers
-    answer.style.display = 'none';
-
     question.addEventListener('click', function() {
-      if (answer.style.display === 'none') {
-        answer.style.display = 'block';
-      } else {
-        answer.style.display = 'none';
-      }
+      // Toggle the 'show' class for smooth transitions
+      answer.classList.toggle('show');
     });
   });
 });
