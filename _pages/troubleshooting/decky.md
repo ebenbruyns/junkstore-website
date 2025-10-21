@@ -234,7 +234,7 @@ header:
 <details class="faq-box" id="sd-card-permissions-error">
   <summary>Installing games to SD card causes a Permissions Error?</summary>
   <p></p>
-    Possible causes:
+    <strong>Possible causes:</strong>
     <ul>
       <li>Your SD card may not be formatted correctly.</li>
       <li>Old dependencies — revisit <strong>About &gt; Dependencies</strong> and reinstall them.</li>
