@@ -238,6 +238,7 @@ header:
     <ul>
       <li>Your SD card may not be formatted correctly.</li>
       <li>Old dependencies — revisit <strong>About &gt; Dependencies</strong> and reinstall them.</li>
+      <li><strong>SD card naming:</strong> If you've renamed your SD card, it may not be in the path Junk Store expects (<code>/run/media/mmcblk0p1</code>). See solution below.</li>
     </ul>
     <strong>Bazzite users:</strong>
     <br>
@@ -249,7 +250,7 @@ header:
     Look for the line:<br>
     <code>INSTALL_DIR="/run/media/mmcblk0p1/Games/epic/"</code>
     <br><br>
-    That's the fallback, likely the cause of this issue.
+    That's the fallback path Junk Store expects. If your SD card has a different name or path, update this line to match your actual SD card location.
 </details>
 
 <div style="text-align: center;">
