@@ -6,14 +6,14 @@
   "gog_url": "https://www.gog.com/en/game/alwas_awakening",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
-  "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "date_tested": "July '24",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Alwa%27s_Awakening",
+  "notes": "Works out of the box!",
+  "date_tested": "Oct '25",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -36,7 +36,7 @@
   "developer": "Elden Pixels",
   "releasedate": "2017-02-02T00:00:00+0000",
   "genre": "Adventure, Indie, Platform",
-  "description": "Use your magic staff and progress through a large interconnected world where you'll solve puzzles, fight enemies and defeat bosses in order to help free the land of Alwa. Explore and uncover the secrets by using your platforming skills in this challenging and charming 8-bit adventure game.\n\nAlwa’s Awakening is a game that tries to stay as close as possible to the authentic 8-bit look with sweet pixel art, a soundtrack filled with catchy chiptunes and so much charm it’ll bring you right back to the NES era. With easy to understand controls the game is easy to learn but tough to master, just like how games were in the old days!\n\n- A new challenging NES-inspired adventure game\n- Use the magic staff to solve puzzles and defeat enemies\n- Find and unlock upgrades to your items and abilities\n- Explore a large interconnected map in true 'Metroidvania' style\n- Listen to a completely new 8-bit soundtrack with over 25 new original tracks",
+  "description": "Use your magic staff and progress through a large interconnected world where you'll solve puzzles, fight enemies and defeat bosses in order to help free the land of Alwa. Explore and uncover the secrets by using your platforming skills in this challenging and charming 8-bit adventure game.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/8c0834b7d6a1f0ca654ba565eca7a999edc7d4fdfe0b4617830a46d9dbc3670c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c5860c0dbaabb986bba6cb7f2479c9aa02666f20ceb75948df716505ea782f5c.jpg?namespace=gamesdb",
@@ -46,14 +46,21 @@
     "Single player"
   ],
   "languages": [
-    "English"
+    "English",
+    "Swedish",
+    "German",
+    "Spanish - Spain",
+    "Portuguese - Brazil",
+    "French",
+    "Italian",
+    "Russian"
   ],
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
-  "blog_category": "",
+  "blog_category": "retest",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-08-11T02:14:28.539Z"
+  "updated_at": "2025-10-23T00:08:11.721Z"
 }

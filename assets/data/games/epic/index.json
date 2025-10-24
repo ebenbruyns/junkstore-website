@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 370,
+  "total_games": 372,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -140,6 +140,7 @@
     "far-cry-6.json",
     "farming-simulator-22.json",
     "fashion-police-squad.json",
+    "fear-the-spotlight.json",
     "figment-2-creed-valley.json",
     "figment.json",
     "filament.json",
@@ -287,6 +288,7 @@
     "sonic-mania.json",
     "soulstice.json",
     "spirit-of-the-north.json",
+    "star-stable.json",
     "star-stuff.json",
     "stasis-bone-totem.json",
     "strange-horticulture.json",
@@ -374,17 +376,17 @@
     "zombie-army-4-dead-war.json"
   ],
   "featured_games": 2,
-  "last_updated": "2025-10-18T21:19:44.954Z",
+  "last_updated": "2025-10-24T21:30:41.900Z",
   "latest_games": [
     {
-      "title": "Samorost 3",
-      "slug": "samorost-3",
+      "title": "Alan Wake II",
+      "slug": "alan-wake-ii",
       "date_tested": "Oct '25",
       "is_featured": true
     },
     {
-      "title": "Amnesia: The Bunker",
-      "slug": "amnesia-the-bunker",
+      "title": "Fear the Spotlight",
+      "slug": "fear-the-spotlight",
       "date_tested": "Oct '25",
       "is_featured": true
     },
@@ -392,6 +394,30 @@
       "title": "Borderlands 3",
       "slug": "borderlands-3",
       "date_tested": "June '24",
+      "is_featured": false
+    },
+    {
+      "title": "Star Stable",
+      "slug": "star-stable",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Doom 64",
+      "slug": "doom-64",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Samorost 3",
+      "slug": "samorost-3",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Amnesia: The Bunker",
+      "slug": "amnesia-the-bunker",
+      "date_tested": "Oct '25",
       "is_featured": false
     },
     {
@@ -410,30 +436,6 @@
       "title": "Vampire: The Masquerade - Reckoning of New York",
       "slug": "vampire-the-masquerade-reckoning-of-new-york",
       "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Gravity Circuit",
-      "slug": "gravity-circuit",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Faaast Penguin",
-      "slug": "faaast-penguin",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Albion Online",
-      "slug": "albion-online",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Cursed to Golf",
-      "slug": "cursed-to-golf",
-      "date_tested": "Sept '25",
       "is_featured": false
     }
   ]

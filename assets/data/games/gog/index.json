@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 322,
+  "total_games": 326,
   "games": [
     "9-years-of-shadows.json",
     "a-plague-tale-innocence.json",
@@ -8,6 +8,7 @@
     "agony-unrated.json",
     "agony.json",
     "alan-wake.json",
+    "alan-wakes-american-nightmare.json",
     "alders-blood-prologue.json",
     "alwas-awakening.json",
     "amerzone-the-explorers-legacy-1999.json",
@@ -130,6 +131,7 @@
     "hell-pie.json",
     "hellblade-senuas-sacrifice.json",
     "hellpoint.json",
+    "hellslave.json",
     "helping-the-hotties.json",
     "hero-of-the-kingdom-ii.json",
     "heroes-of-loot-2.json",
@@ -190,6 +192,7 @@
     "oaken.json",
     "once-upon-a-jester.json",
     "one-step-from-eden.json",
+    "openttd.json",
     "overcooked-2.json",
     "overcooked.json",
     "penumbra-black-plague.json",
@@ -302,6 +305,7 @@
     "trinity-fusion.json",
     "tropico-4.json",
     "true-fear-forsaken-souls-part-1.json",
+    "true-fear-forsaken-souls-part-2.json",
     "under-the-moon.json",
     "vambrace-cold-soul.json",
     "vampire-the-masquerade-bloodlines.json",
@@ -324,67 +328,67 @@
     "yes-your-grace.json",
     "ziggurat.json"
   ],
-  "featured_games": 3,
-  "last_updated": "2025-10-18T21:19:44.959Z",
+  "featured_games": 5,
+  "last_updated": "2025-10-24T21:30:41.904Z",
   "latest_games": [
+    {
+      "title": "True Fear: Forsaken Souls Part 2",
+      "slug": "true-fear-forsaken-souls-part-2",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "Hellslave",
+      "slug": "hellslave",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "Fallout 3: Game of the Year Edition",
+      "slug": "fallout-3-game-of-the-year-edition",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
     {
       "title": "Styx: Shards of Darkness",
       "slug": "styx-shards-of-darkness",
-      "date_tested": "June '24",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Alan Wake",
+      "slug": "alan-wake",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "OpenTTD",
+      "slug": "openttd",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Alwa's Awakening",
+      "slug": "alwas-awakening",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Alan Wake's American Nightmare",
+      "slug": "alan-wakes-american-nightmare",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "True Fear: Forsaken Souls Part 1",
+      "slug": "true-fear-forsaken-souls-part-1",
+      "date_tested": "Oct '25",
       "is_featured": false
     },
     {
       "title": "Fallout: New Vegas Ultimate Edition",
       "slug": "fallout-new-vegas-ultimate-edition",
       "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "SimCity 4: Deluxe Edition",
-      "slug": "simcity-4-deluxe-edition",
-      "date_tested": "March '25",
-      "is_featured": false
-    },
-    {
-      "title": "True Fear: Forsaken Souls Part 1",
-      "slug": "true-fear-forsaken-souls-part-1",
-      "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "EMPTY SHELL",
-      "slug": "empty-shell",
-      "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "Total Annihilation: Commander Pack",
-      "slug": "total-annihilation-commander-pack",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Eschalon: Book II",
-      "slug": "eschalon-book-ii",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Shadowrun Returns",
-      "slug": "shadowrun-returns",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Mafia II",
-      "slug": "mafia-ii",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Ghost of a Tale",
-      "slug": "ghost-of-a-tale",
-      "date_tested": "Sept '25",
       "is_featured": false
     }
   ]
