@@ -27,7 +27,8 @@ classes: wide
 
 <!-- Version Filter -->
 <section class="version-filter">
-  <h2>Choose Your Version</h2>
+  <h2>Filter by Your Version</h2>
+  <p style="text-align: center; margin: 0 0 20px 0; opacity: 0.8;">Choose your version to see relevant questions, or show all to browse everything</p>
   <div class="filter-buttons">
     <button class="filter-btn filter-decky" data-filter="decky">
       <strong>Decky Plugin (Free)</strong>
@@ -38,11 +39,39 @@ classes: wide
       <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">Full-featured standalone application</p>
     </button>
     <button class="filter-btn filter-all active" data-filter="all">
-      <strong>Show All</strong>
-      <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">View all questions</p>
+      <strong>Show All Questions</strong>
+      <p style="margin: 5px 0 0 0; font-size: 0.9em; opacity: 0.8;">View all versions together</p>
     </button>
   </div>
 </section>
+
+<style>
+  /* Version-specific content styling */
+  .version-content-box {
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border-left: 4px solid;
+  }
+
+  .version-professional {
+    background-color: rgba(59, 130, 246, 0.08);
+    border-left-color: #3b82f6;
+  }
+
+  .version-professional strong:first-child {
+    color: #3b82f6;
+  }
+
+  .version-decky {
+    background-color: rgba(251, 146, 60, 0.08);
+    border-left-color: #fb923c;
+  }
+
+  .version-decky strong:first-child {
+    color: #fb923c;
+  }
+</style>
 
 <!-- FAQ Content -->
 <section class="faq-content">
@@ -120,19 +149,31 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    After installing the Decky plugin, access Junk Store through the <strong>Decky Loader menu</strong>:
-  <ol>
-    <li>Press the <strong>three-dot button</strong> (Quick Access Menu) on your Steam Deck</li>
-    <li>Look for the <strong>Decky</strong> icon in the menu</li>
-    <li>Select <strong>Junk Store</strong> from the plugin list</li>
-  </ol>
-    The plugin opens directly in Game Mode without requiring Desktop Mode switching.
+    <div class="version-content-box version-professional">
+      <strong>For Junk Store 2.0:</strong>
+      <br><br>
+      After installing Junk Store 2.0, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck or <strong>Ctrl+3</strong> if using a PC. No need to switch to Desktop Mode or launch separate applications.
+      <br><br>
+      This opens directly in Game Mode, giving you immediate access to your Epic, GOG, Amazon & itch.io (beta) game libraries.
+    </div>
+
+    <div class="version-content-box version-decky">
+      <strong>For Decky Plugin:</strong>
+      <br><br>
+      After installing the Decky plugin, access Junk Store through the <strong>Decky Loader menu</strong>:
+      <ol>
+        <li>Press the <strong>three-dot button</strong> (Quick Access Menu) on your Steam Deck</li>
+        <li>Look for the <strong>Decky</strong> icon in the menu</li>
+        <li>Select <strong>Junk Store</strong> from the plugin list</li>
+      </ol>
+      The plugin opens directly in Game Mode without requiring Desktop Mode switching.
+    </div>
       </div>
     </div>
 
     <div class="faq-item shared" data-version="shared">
       <div class="faq-question-header">
-        <h3>What should I do first after installing the Decky plugin?</h3>
+        <h3>What should I do first after installation?</h3>
         <div class="version-badges">
           <span class="version-badge decky">Decky</span>
           <span class="version-badge professional">2.0</span>
@@ -140,47 +181,42 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-  <ol>
-    <li>Open Junk Store from the Decky menu</li>
-    <li>Go to the <strong>Epic</strong> tab and log into your Epic Games account</li>
-    <li>Your Epic Games library will automatically sync and appear</li>
-    <li>(Optional) Download and install the GOG extension if you want GOG game support (paid)</li>
-  </ol>
-    <strong>Note:</strong> The initial library sync can take a few minutes as Junk Store builds the database for your games.
-  <br>
-  <br>
-    For GOG support, you'll need to purchase the GOG extension separately from the <a href="https://portal.junkstore.xyz/" target="_blank">Junk Store Portal</a>.
-      </div>
+    <div class="version-content-box version-professional">
+      <strong>For Junk Store 2.0:</strong>
+      <br><br>
+      <ol>
+        <li>Log into Junk Store</li>
+        <li>Generate extensions for the platforms you want to use (Epic, GOG, Amazon, itch.io (beta))</li>
+        <li>Log into your game store accounts when prompted</li>
+        <li>Your existing libraries will automatically sync and appear in Junk Store</li>
+        <li>Start installing games directly from Game Mode</li>
+      </ol>
+      The initial library sync can take a few minutes as Junk Store builds the database for each platform.
+      <br><br>
+      <strong>Try This During Your Trial:</strong>
+      <ul>
+        <li>🎯 Install 2-3 games to see the automation difference</li>
+        <li>⚡ Compare setup time vs Desktop Mode alternatives you've used</li>
+        <li>🎮 Notice how everything stays in Game Mode without app switching</li>
+      </ul>
+      <strong>Most users know within 2-3 days if the convenience justifies the cost.</strong> The 7-day trial gives plenty of time to test real usage patterns.
+      <br><br>
+      <strong>📖 Need detailed setup instructions?</strong> Check out our <a href="/tutorials/install-junk-store-2">Installation Tutorial</a>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
-      <div class="faq-question-header">
-        <h3>What should I do first after accessing Junk Store?</h3>
-        <div class="version-badges">
-          <span class="version-badge decky">Decky</span>
-          <span class="version-badge professional">2.0</span>
-        </div>
-      </div>
-      <div class="faq-answer">
-<p></p>
-  <ol>
-    <li>Log into Junk Store</li>
-    <li>Generate extensions for the platforms you want to use (Epic, GOG, Amazon, itch.io (beta))</li>
-    <li>Log into your game store accounts when prompted</li>
-    <li>Your existing libraries will automatically sync and appear in Junk Store</li>
-    <li>Start installing games directly from Game Mode</li>
-  </ol>
-    The initial library sync can take a few minutes as Junk Store builds the database for each platform.
-  <br><br>
-    <strong>Try This During Your Trial:</strong>
-    <ul>
-      <li>🎯 Install 2-3 games  to see the automation difference</li>
-      <li>⚡ Compare setup time vs Desktop Mode alternatives you've used</li>
-      <li>🎮 Notice how everything stays in Game Mode without app switching</li>
-    </ul>
-    <strong>Most users know within 2-3 days if the convenience justifies the cost.</strong> The 7-day trial gives plenty of time to test real usage patterns.
-  <br><br>
-  <strong>📖 Need detailed setup instructions?</strong> Check out our <a href="/tutorials/install-junk-store-2">Installation Tutorial</a>
+    <div class="version-content-box version-decky">
+      <strong>For Decky Plugin:</strong>
+      <br><br>
+      <ol>
+        <li>Open Junk Store from the Decky menu</li>
+        <li>Go to the <strong>Epic</strong> tab and log into your Epic Games account</li>
+        <li>Your Epic Games library will automatically sync and appear</li>
+        <li>(Optional) Download and install the GOG extension if you want GOG game support (paid)</li>
+      </ol>
+      <strong>Note:</strong> The initial library sync can take a few minutes as Junk Store builds the database for your games.
+      <br><br>
+      For GOG support, you'll need to purchase the GOG extension separately from the <a href="https://portal.junkstore.xyz/" target="_blank">Junk Store Portal</a>.
+    </div>
       </div>
     </div>
 
@@ -404,17 +440,19 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    <strong>Junk Store 2.0:</strong>
-    <br>
-    <strong>Yes.</strong> In Junk Store 2.0, both <strong>DOS</strong> and <strong>ScummVM</strong> games downloaded via GOG are supported.
-  <br>
-  <br>
-    These games will automatically launch using the <strong>Flatpak versions</strong> of <code>ScummVM</code> and <code>DosBox</code> once installed.
-  <br>
-  <br>
-    <strong>Decky Plugin:</strong>
-    <br>
-    <strong>No.</strong> DOS games and some ScummVM titles are not supported by the GOG extension in the Decky version of Junk Store.
+    <div class="version-content-box version-professional">
+      <strong>Junk Store 2.0:</strong>
+      <br><br>
+      <strong>Yes.</strong> In Junk Store 2.0, both <strong>DOS</strong> and <strong>ScummVM</strong> games downloaded via GOG are supported.
+      <br><br>
+      These games will automatically launch using the <strong>Flatpak versions</strong> of <code>ScummVM</code> and <code>DosBox</code> once installed.
+    </div>
+
+    <div class="version-content-box version-decky">
+      <strong>Decky Plugin:</strong>
+      <br><br>
+      <strong>No.</strong> DOS games and some ScummVM titles are not supported by the GOG extension in the Decky version of Junk Store.
+    </div>
       </div>
     </div>
 
@@ -423,22 +461,6 @@ classes: wide
   <!-- Platform & Installation -->
   <div class="faq-category">
     <h2>Platform & Installation</h2>
-
-    <div class="faq-item professional" data-version="professional">
-      <div class="faq-question-header">
-        <h3>I just signed up for the trial. How do I access Junk Store?</h3>
-        <div class="version-badges">
-          <span class="version-badge professional">2.0</span>
-        </div>
-      </div>
-      <div class="faq-answer">
-<p></p>
-    After installing Junk Store 2.0, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck or <strong>Ctrl+3</strong> if using a PC. No need to switch to Desktop Mode or launch separate applications.
-  <br>
-  <br>
-    This opens directly in Game Mode, giving you immediate access to your Epic, GOG, Amazon & itch.io (beta) game libraries.
-      </div>
-    </div>
 
     <div class="faq-item professional" data-version="professional">
       <div class="faq-question-header">
@@ -557,10 +579,18 @@ classes: wide
   </ul>
 
   <strong>Download behavior:</strong>
-  <ul>
-    <li><strong>Junk Store 2.0:</strong> Games are added to the download queue - you can navigate away and continue using Junk Store while they install</li>
-    <li><strong>Decky Plugin:</strong> Remember to stay on the game page until installation is complete</li>
-  </ul>
+
+  <div class="version-content-box version-professional">
+    <strong>Junk Store 2.0:</strong>
+    <br><br>
+    Games are added to the download queue - you can navigate away and continue using Junk Store while they install.
+  </div>
+
+  <div class="version-content-box version-decky">
+    <strong>Decky Plugin:</strong>
+    <br><br>
+    Remember to stay on the game page until installation is complete.
+  </div>
 
   <strong>To uninstall a game in Junk Store:</strong>
   <ol>
@@ -965,28 +995,28 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    <strong>Junk Store 2.0:</strong>
-    <br>
-    Junk Store 2.0 currently offers <strong>experimental cloud save support</strong> for <strong>Epic</strong> and <strong>GOG</strong>. However, this feature is intended only for advanced users who understand and accept the risks involved — including the potential for save data loss.
-  <br>
-  <br>
-    <strong>Important:</strong> We do <em>not</em> offer technical support for issues related to cloud saves at this time. If you choose to enable it, please make sure you're confident in your ability to troubleshoot and back up your save data manually if needed.
-  <br>
-  <br>
-    <strong>Note:</strong> Not all games from either platform support cloud saves.
-  <br>
-  <br>
-    <strong>Decky Plugin:</strong>
-    <br>
-    <strong>No, cloud saves are not supported.</strong> We don't want users to run the risk of losing their game saves.
-  <br>
-  <br>
-    <strong>Technical details:</strong>
-  <ul>
-    <li><strong>Epic Games:</strong> While Legendary supports this, we haven't implemented it due to potential data loss risks</li>
-    <li><strong>GOG Games:</strong> Not implemented as it isn't a trivial problem to solve and requires more resources than currently available</li>
-    <li><strong>Manual configuration:</strong> Tech-savvy users can manually configure via CLI, but it's not recommended</li>
-  </ul>
+    <div class="version-content-box version-professional">
+      <strong>Junk Store 2.0:</strong>
+      <br><br>
+      Junk Store 2.0 currently offers <strong>experimental cloud save support</strong> for <strong>Epic</strong> and <strong>GOG</strong>. However, this feature is intended only for advanced users who understand and accept the risks involved — including the potential for save data loss.
+      <br><br>
+      <strong>Important:</strong> We do <em>not</em> offer technical support for issues related to cloud saves at this time. If you choose to enable it, please make sure you're confident in your ability to troubleshoot and back up your save data manually if needed.
+      <br><br>
+      <strong>Note:</strong> Not all games from either platform support cloud saves.
+    </div>
+
+    <div class="version-content-box version-decky">
+      <strong>Decky Plugin:</strong>
+      <br><br>
+      <strong>No, cloud saves are not supported.</strong> We don't want users to run the risk of losing their game saves.
+      <br><br>
+      <strong>Technical details:</strong>
+      <ul>
+        <li><strong>Epic Games:</strong> While Legendary supports this, we haven't implemented it due to potential data loss risks</li>
+        <li><strong>GOG Games:</strong> Not implemented as it isn't a trivial problem to solve and requires more resources than currently available</li>
+        <li><strong>Manual configuration:</strong> Tech-savvy users can manually configure via CLI, but it's not recommended</li>
+      </ul>
+    </div>
       </div>
     </div>
 
@@ -1001,13 +1031,21 @@ classes: wide
       <div class="faq-answer">
 <p></p>
     We really appreciate bug reports! Like you, we want Junk Store to just work—so if you come across a bug, please let us know. If we don't know about it, we can't fix it.
-  <br>
-  <br>
+  <br><br>
     <strong>Submit bugs on GitHub so we can track them properly:</strong>
-  <ul>
-    <li><strong>Junk Store 2.0:</strong> <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues/new" target="_blank" rel="noopener">Submit a bug report</a></li>
-    <li><strong>Decky Plugin:</strong> <a href="https://github.com/ebenbruyns/junkstore/issues/new/choose" target="_blank" rel="noopener">Submit a bug report</a></li>
-  </ul>
+
+    <div class="version-content-box version-professional">
+      <strong>Junk Store 2.0:</strong>
+      <br><br>
+      <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues/new" target="_blank" rel="noopener">Submit a bug report →</a>
+    </div>
+
+    <div class="version-content-box version-decky">
+      <strong>Decky Plugin:</strong>
+      <br><br>
+      <a href="https://github.com/ebenbruyns/junkstore/issues/new/choose" target="_blank" rel="noopener">Submit a bug report →</a>
+    </div>
+
     You'll need a GitHub account to submit an issue. It's free to create one if you don't already have it.
   <br>
   <br>
@@ -1069,37 +1107,57 @@ classes: wide
 document.addEventListener('DOMContentLoaded', function() {
   const filterButtons = document.querySelectorAll('.filter-btn');
   const faqItems = document.querySelectorAll('.faq-item');
+  const versionBadges = document.querySelectorAll('.version-badges');
+
+  // Function to apply filter
+  function applyFilter(filter) {
+    // Update active button
+    filterButtons.forEach(btn => {
+      btn.classList.remove('active');
+      if (btn.dataset.filter === filter) {
+        btn.classList.add('active');
+      }
+    });
+
+    // Filter FAQ items and manage badge visibility
+    faqItems.forEach(item => {
+      const version = item.dataset.version;
+      const badges = item.querySelector('.version-badges');
+
+      // Show All: show everything and show badges
+      if (filter === 'all') {
+        item.classList.remove('hidden');
+        if (badges) badges.style.display = 'flex';
+      }
+      // Decky filter: show decky AND shared, hide badges
+      else if (filter === 'decky' && (version === 'decky' || version === 'shared')) {
+        item.classList.remove('hidden');
+        if (badges) badges.style.display = 'none';
+      }
+      // Professional filter: show professional AND shared, hide badges
+      else if (filter === 'professional' && (version === 'professional' || version === 'shared')) {
+        item.classList.remove('hidden');
+        if (badges) badges.style.display = 'none';
+      }
+      // Hide if doesn't match
+      else {
+        item.classList.add('hidden');
+      }
+    });
+
+    // Save filter choice to localStorage
+    localStorage.setItem('faqFilter', filter);
+  }
+
+  // Load saved filter from localStorage or default to 'all'
+  const savedFilter = localStorage.getItem('faqFilter') || 'all';
+  applyFilter(savedFilter);
 
   // Filter button functionality
   filterButtons.forEach(button => {
     button.addEventListener('click', function() {
-      // Update active button
-      filterButtons.forEach(btn => btn.classList.remove('active'));
-      this.classList.add('active');
-
-      // Filter FAQ items
       const filter = this.dataset.filter;
-
-      faqItems.forEach(item => {
-        const version = item.dataset.version;
-
-        // Show All: show everything
-        if (filter === 'all') {
-          item.classList.remove('hidden');
-        }
-        // Decky filter: show decky AND shared
-        else if (filter === 'decky' && (version === 'decky' || version === 'shared')) {
-          item.classList.remove('hidden');
-        }
-        // Professional filter: show professional AND shared
-        else if (filter === 'professional' && (version === 'professional' || version === 'shared')) {
-          item.classList.remove('hidden');
-        }
-        // Hide if doesn't match
-        else {
-          item.classList.add('hidden');
-        }
-      });
+      applyFilter(filter);
     });
   });
 
