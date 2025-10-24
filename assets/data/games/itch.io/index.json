@@ -1,6 +1,6 @@
 {
   "storefront": "itch.io",
-  "total_games": 12,
+  "total_games": 13,
   "games": [
     "10-flights-of-ballooning.json",
     "10s.json",
@@ -13,11 +13,18 @@
     "crossniq.json",
     "forma8.json",
     "macbat-64-journey-of-a-nice-chap.json",
+    "spa-taxi.json",
     "super-hexagon.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-10-18T21:19:44.963Z",
+  "last_updated": "2025-10-24T21:30:41.909Z",
   "latest_games": [
+    {
+      "title": "Spaß Taxi",
+      "slug": "spa-taxi",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
     {
       "title": "Macbat 64: Journey of a Nice Chap",
       "slug": "macbat-64-journey-of-a-nice-chap",
@@ -69,12 +76,6 @@
     {
       "title": "Crossniq",
       "slug": "crossniq",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Forma.8",
-      "slug": "forma8",
       "date_tested": "Sept '25",
       "is_featured": false
     }
