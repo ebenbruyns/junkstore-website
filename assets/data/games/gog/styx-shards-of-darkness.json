@@ -7,8 +7,8 @@
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Styx:_Shards_of_Darkness",
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "date_tested": "June '24",
+  "notes": "Works out of the box!",
+  "date_tested": "Oct '25",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
@@ -55,7 +55,7 @@
   "tested": true,
   "owned": true,
   "is_featured": false,
-  "blog_category": "",
+  "blog_category": "retest",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-10-18T21:17:55.893Z"
+  "updated_at": "2025-10-23T19:56:02.314Z"
 }
