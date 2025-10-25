@@ -128,6 +128,13 @@ Task Received → Identify Type → Deploy Relevant Agent → Execute via Agent 
 - **Use TodoWrite tool** to track progress on complex tasks
 - **Batch related tasks** for efficiency
 
+### Writing Style Guidelines
+**For all blog posts, pages, and content writing:**
+- **No em dashes (—)** - Use colons, commas, or split into separate sentences instead
+- **Keep language clear and conversational** - Match the authentic voice of the blog
+- **Avoid redundancy** - Cut unnecessary words and filler phrases
+- **Edit for flow** - Ensure smooth transitions between thoughts
+
 ### Technical Preferences
 - **Current Build System:** Jekyll with Minimal Mistakes theme
 - **Table System:** JavaScript-based tables with JSON data (not Jekyll liquid)
