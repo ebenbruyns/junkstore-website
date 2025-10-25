@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tip of the Week: Installing Game Dependencies"
-date: 2025-10-17
+date: 2025-10-24
 categories: [Tip of the Week, 2.0 Standalone]
 tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Games, Game Dependencies, Visual C++, .NET Framework, ProtonDB]
 slug: "install-dependencies-junk-store-2"
@@ -69,7 +69,7 @@ All dependency configurations are saved to your game's settings and persist betw
 </div>
 
 <h2 style="text-align: left !important; margin-left: 0;">Next Week Preview</h2>
-Coming next week: **Managing Multiple Proton Versions** - Learn how to switch between Proton versions and use custom builds for maximum compatibility!
+Coming next week: **Changing Your Proton Version** - Experiencing black screens or compatibility issues? Learn how to check your current Proton version and switch to a different one to fix game compatibility problems!
 
 Hope this tip helps! Questions? Our team is always ready to help.
 
