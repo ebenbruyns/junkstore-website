@@ -203,7 +203,10 @@ async function loadGamesData() {
     
     // Hide loading indicator
     document.getElementById('loadingIndicator').style.display = 'none';
-    
+
+    // Check for URL parameter to auto-open a game modal
+    checkForGameParameter();
+
   } catch (error) {
     console.error('❌ Error loading games data:', error);
     document.getElementById('loadingIndicator').innerHTML = `
@@ -578,6 +581,66 @@ function changePageSize() {
   updateTable();
 }
 
+// Check for URL parameter and auto-open game modal
+function checkForGameParameter() {
+  try {
+    const urlParams = new URLSearchParams(window.location.search);
+    const gameName = urlParams.get('game');
+
+    if (!gameName) {
+      return; // No game parameter found
+    }
+
+    console.log(`🎯 Auto-opening modal for game: ${gameName}`);
+
+    // Decode URL parameter (handles spaces and special characters)
+    const decodedGameName = decodeURIComponent(gameName.replace(/\+/g, ' '));
+
+    // Find the game in the loaded data (exact title match)
+    const game = gamesData.games.find(g => g.title === decodedGameName);
+
+    if (!game) {
+      console.warn(`⚠️ Game not found: ${decodedGameName}`);
+      return;
+    }
+
+    console.log(`✅ Found game:`, game);
+
+    // Calculate which page this game is on
+    const gameIndex = filteredGames.findIndex(g => g.id === game.id);
+    if (gameIndex === -1) {
+      console.warn(`⚠️ Game not in filtered list: ${decodedGameName}`);
+      return;
+    }
+
+    // Switch to the correct page if needed
+    const targetPage = Math.floor(gameIndex / pageSize) + 1;
+    if (targetPage !== currentPage) {
+      console.log(`📄 Switching to page ${targetPage} (game index: ${gameIndex})`);
+      currentPage = targetPage;
+      updateTable();
+    }
+
+    // Scroll to the game in the table first for context
+    setTimeout(() => {
+      const gameRow = document.querySelector(`[data-game-id="${game.id}"]`);
+      if (gameRow) {
+        gameRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+
+      // Open the modal after a brief delay to allow scroll
+      setTimeout(() => {
+        const storefrontDir = game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase();
+        const modalFile = `games/${storefrontDir}/${game.slug}.json`;
+        openGameModal(game.id, modalFile);
+      }, 500);
+    }, 300);
+
+  } catch (error) {
+    console.error('❌ Error processing game parameter:', error);
+  }
+}
+
 // Add modal click handlers
 function addModalHandlers() {
   // Handle clickable game links in table
@@ -590,7 +653,7 @@ function addModalHandlers() {
       await openGameModal(gameId, modalFile);
     });
   });
-  
+
   // Handle clickable featured game entries (entire div is clickable)
   const featuredEntries = document.querySelectorAll('.featured-entry.clickable');
   featuredEntries.forEach(entry => {
