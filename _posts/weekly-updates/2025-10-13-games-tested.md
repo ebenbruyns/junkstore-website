@@ -42,7 +42,7 @@ This week featuring Albion Online, Gravity Circuit.
 <div class="game-entry">
   <img src="https://images.gog.com/23916a09d9ff536597976ba22e7851024b50c2ec5f38fb1fe10ab386b91c8087.jpg?namespace=gamesdb" alt="Albion Online" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/p/albion-online-7eb24d" target="_blank">Albion Online</a></strong>
+    <strong><a href="/tested-games/?game=Albion+Online">Albion Online</a></strong>
     <div class="game-description">Albion Online is a sandbox MMORPG set in an open medieval fantasy world.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -54,7 +54,7 @@ This week featuring Albion Online, Gravity Circuit.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/858710/capsule_231x87.jpg" alt="Gravity Circuit" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/p/gravity-circuit-489baa" target="_blank">Gravity Circuit</a></strong>
+    <strong><a href="/tested-games/?game=Gravity+Circuit">Gravity Circuit</a></strong>
     <div class="game-description">Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -70,7 +70,7 @@ This week featuring Vampire: The Masquerade - Reckoning of New York.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2658720/capsule_231x87.jpg" alt="Vampire: The Masquerade - Reckoning of New York" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/p/vampire-the-masquerade-reckoning-of-new-york-5a391e" target="_blank">Vampire: The Masquerade - Reckoning of New York</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - Epic)</span>
+    <strong><a href="/tested-games/?game=Vampire%3A+The+Masquerade+-+Reckoning+of+New+York">Vampire: The Masquerade - Reckoning of New York</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - Epic)</span>
     <div class="game-description">Vampire: The Masquerade - Reckoning of New York is a narrative game set in the World of Darkness Universe.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -86,7 +86,7 @@ Catching up on Youtubers Life 2 and Faaast Penguin.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1493760/capsule_231x87.jpg" alt="Youtubers Life 2" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="#" target="_blank">Youtubers Life 2</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/tested-games/?game=Youtubers+Life+2">Youtubers Life 2</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">Become the trendiest youtuber in the world and live your dream.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -98,7 +98,7 @@ Catching up on Youtubers Life 2 and Faaast Penguin.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2590150/capsule_231x87.jpg" alt="Faaast Penguin" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/achievements/faaast-penguin-4319d6" target="_blank">Faaast Penguin</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/tested-games/?game=Faaast+Penguin">Faaast Penguin</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">&quot;Faaast Penguin&quot; is a wild and thrilling knockout action racing game where up to 40 penguins collide in a chaotic race to the finish!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -111,7 +111,7 @@ Catching up on Youtubers Life 2 and Faaast Penguin.
 
 ## Looking Forward
 
-Next week's Epic Games giveaways look absolutely fantastic! We're getting <a href="https://store.epicgames.com/en-US/p/samorost-3-0c4489" target="_blank">Samorost 3</a> and <a href="https://store.epicgames.com/en-US/p/amnesia-the-bunker-9d5799" target="_blank">Amnesia: The Bunker</a>, two games I'm genuinely excited to "test" (read: play for way too long). Meanwhile, Prime Gaming is delivering three GOG keys this weekend: <a href="https://www.gog.com/en/game/empty_shell" target="_blank">Empty Shell</a>, <a href="https://www.gog.com/en/game/fallout_new_vegas_ultimate_edition" target="_blank">Fallout: New Vegas Ultimate Edition</a>, and <a href="https://www.gog.com/en/game/true_fear_forsaken_souls" target="_blank">True Fear: Forsaken Souls Part 1</a>. What an incredible lineup for the weekend!
+Next week's Epic Games giveaways look absolutely fantastic! We're getting <a href="/tested-games/?game=Samorost+3">Samorost 3</a> and <a href="/tested-games/?game=Amnesia%3A+The+Bunker">Amnesia: The Bunker</a>, two games I'm genuinely excited to "test" (read: play for way too long). Meanwhile, Prime Gaming is delivering three GOG keys this weekend: <a href="/tested-games/?game=EMPTY+SHELL">Empty Shell</a>, <a href="/tested-games/?game=Fallout%3A+New+Vegas+Ultimate+Edition">Fallout: New Vegas Ultimate Edition</a>, and <a href="/tested-games/?game=True+Fear%3A+Forsaken+Souls+Part+1">True Fear: Forsaken Souls Part 1</a>. What an incredible lineup for the weekend!
 
 We hope you're having a wonderful time wherever you are in the world, and as always, if you've got any questions about these games or Junk Store in general, please don't hesitate to reach out through our community channels.
 
