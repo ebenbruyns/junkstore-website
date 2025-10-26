@@ -2,8 +2,8 @@
 layout: post
 title: "🎮 Did You Know About Our Games Compatibility Table?"
 date: 2025-10-27
-categories: [Tips, Game Testing]
-tags: [compatibility-table, steam-deck, game-testing, epic-games, gog, amazon-prime-gaming, itch-io, junk-store-2-0]
+categories: [Tip of the Week, Game Testing]
+tags: [compatibility-table, steam-deck, game-testing]
 excerpt: "Our game compatibility table has been helping Steam Deck users for months. If you haven't discovered it yet, here's what you've been missing."
 image: /assets/images/blog/games-table-showcase/games-table-hero-card.webp
 header:
