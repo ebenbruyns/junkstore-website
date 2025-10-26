@@ -7,7 +7,7 @@ tags: [compatibility-table, steam-deck, game-testing]
 excerpt: "Our game compatibility table has been helping Steam Deck users for months. If you haven't discovered it yet, here's what you've been missing."
 image: /assets/images/blog/games-table-showcase/games-table-hero-card.webp
 header:
-  teaser: 
+  teaser: /assets/images/blog/251027-hero-thumb.webp 
 read_time: "3 min read"
 toc: true
 author: "Junk Store Team"
