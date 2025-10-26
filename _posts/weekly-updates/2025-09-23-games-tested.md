@@ -51,7 +51,7 @@ This week featuring Samorost 2, Project Winter.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/40720/capsule_231x87.jpg" alt="Samorost 2" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/p/samorost-2-1b9bb1" target="_blank">Samorost 2</a></strong>
+    <strong><a href="/tested-games/?game=Samorost+2">Samorost 2</a></strong>
     <div class="game-description">A whimsical point-and-click adventure through a surreal world of dreams and imagination.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❌ Doesn't work</div>
@@ -63,7 +63,7 @@ This week featuring Samorost 2, Project Winter.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/774861/capsule_231x87.jpg" alt="Project Winter" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/p/project-winter-3b9e84" target="_blank">Project Winter</a></strong>
+    <strong><a href="/tested-games/?game=Project+Winter">Project Winter</a></strong>
     <div class="game-description">Face the wilderness, uncover traitors, and survive paranoia in this streamlined yet chaotic multiplayer experience.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -79,7 +79,7 @@ This week featuring Residual, FATE: The Cursed King.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1290780/capsule_231x87.jpg" alt="Residual" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://www.gog.com/en/game/residual" target="_blank">Residual</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - GOG)</span>
+    <strong><a href="/tested-games/?game=Residual">Residual</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - GOG)</span>
     <div class="game-description">In a forgotten galaxy full of strange planets, a lone explorer crash-lands on one with an ancient alien secret. An exploration (survival) game like no other.. Adventure awaits!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -91,7 +91,7 @@ This week featuring Residual, FATE: The Cursed King.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/303690/capsule_231x87.jpg" alt="FATE: The Cursed King" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://www.gog.com/en/game/fate_the_cursed_king" target="_blank">FATE: The Cursed King</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - GOG)</span>
+    <strong><a href="/tested-games/?game=FATE%3A+The+Cursed+King">FATE: The Cursed King</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - GOG)</span>
     <div class="game-description">In FATE: The Cursed King, disaster threatens your home! Can you break the curse or will the city of Ekbatan be forever doomed?</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -107,7 +107,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
 <div class="game-entry">
   <img src="https://images.gog.com/594e0fe635de32014e2c9abd0160b767b26e6750f02aff01a31215b3dd06535e.jpg?namespace=gamesdb" alt="Mafia II" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://www.gog.com/en/game/mafia_ii" target="_blank">Mafia II</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/tested-games/?game=Mafia+II">Mafia II</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Experience the gritty world of 1940s-50s organized crime in this cinematic third-person action adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -119,7 +119,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1085220/capsule_231x87.jpg" alt="Figment 2: Creed Valley" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="#" target="_blank">Figment 2: Creed Valley</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/tested-games/?game=Figment+2%3A+Creed+Valley">Figment 2: Creed Valley</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">A musical action-adventure where you battle nightmares with creativity and rhythm in a surreal mindscape.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -131,7 +131,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/55150/capsule_231x87.jpg" alt="Warhammer 40,000: Space Marine" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="#" target="_blank">Warhammer 40,000: Space Marine</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/tested-games/?game=Warhammer+40%2C000%3A+Space+Marine">Warhammer 40,000: Space Marine</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">Brutal third-person action as an Ultramarine fighting against hordes of Orks in the grim darkness of the far future.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -143,7 +143,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/568040/capsule_231x87.jpg" alt="Macbat 64: Journey of a Nice Chap" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://siactro.itch.io/macbat64" target="_blank">Macbat 64: Journey of a Nice Chap</a></strong> <span style="color: #999;">(itch.io)</span>
+    <strong><a href="/tested-games/?game=Macbat+64%3A+Journey+of+a+Nice+Chap">Macbat 64: Journey of a Nice Chap</a></strong> <span style="color: #999;">(itch.io)</span>
     <div class="game-description">A charming N64-style 3D platformer about a friendly bat exploring colorful worlds with retro gameplay.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -159,7 +159,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
 <div class="game-entry">
   <img src="https://images.gog.com/aa1700b28782f43da1d61c33bd01eb4b677a3a5c46a15ad0fb1a210493f9fa2b.jpg?namespace=gamesdb" alt="Bloons TD 6" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/p/bloons-td-6-bf95a0" target="_blank">Bloons TD 6</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/tested-games/?game=Bloons+TD+6">Bloons TD 6</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">The ultimate tower defense experience with monkeys, balloons, and endless strategic depth across multiple game modes.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -171,7 +171,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
 <div class="game-entry">
   <img src="https://images.gog.com/fabe3a4788a2434e8408c93e1acdb445224c54def3c072b77005184a86dae5e2.jpg?namespace=gamesdb" alt="Cursed to Golf" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://store.epicgames.com/en-US/p/cursed-to-golf-a6bc22" target="_blank">Cursed to Golf</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/tested-games/?game=Cursed+to+Golf">Cursed to Golf</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">A challenging golf adventure through Golf Purgatory where you must ace your way back to the land of the living.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -183,7 +183,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
 <div class="game-entry">
   <img src="https://images.gog.com/a28c39f3450b74507701cece797eb07b4ad67a70c89f9ae5e62942f1f53e96cf.jpg?namespace=gamesdb" alt="Dishonored 2" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://www.gog.com/en/game/dishonored_2" target="_blank">Dishonored 2</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/tested-games/?game=Dishonored+2">Dishonored 2</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Master supernatural powers and stealth in this immersive first-person action game set in a plague-ridden empire.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -195,7 +195,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
 <div class="game-entry">
   <img src="https://images.gog.com/118ed75c7edf136a86e800b0f12d1171c21f9a68ca8d8f9bf143d8ce5ebe77d6.jpg?namespace=gamesdb" alt="Ghost of a Tale" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="https://www.gog.com/en/game/ghost_of_a_tale" target="_blank">Ghost of a Tale</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/tested-games/?game=Ghost+of+a+Tale">Ghost of a Tale</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">A charming stealth-adventure starring a courageous mouse minstrel in a beautifully crafted medieval world.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
