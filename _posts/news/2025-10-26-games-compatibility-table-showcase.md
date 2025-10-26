@@ -1,10 +1,15 @@
 ---
 layout: post
-title: "🎮 Take a Look at Our New Games Compatibility Table - What Do You Think?"
+title: "🎮 Did You Know About Our Games Compatibility Table?"
 date: 2025-10-27
-categories: [News, Game Testing]
+categories: [Tips, Game Testing]
 tags: [compatibility-table, steam-deck, game-testing, epic-games, gog, amazon-prime-gaming, itch-io, junk-store-2-0]
-excerpt: "We've been working hard on making it easier for you to find compatible games for your Steam Deck. Check out our updated compatibility table and let us know what you think!"
+excerpt: "Our game compatibility table has been helping Steam Deck users for months. If you haven't discovered it yet, here's what you've been missing."
+image: /assets/images/blog/games-table-showcase/games-table-hero-card.webp
+header:
+  teaser: 
+read_time: "3 min read"
+toc: true
 author: "Junk Store Team"
 ---
 
@@ -33,8 +38,8 @@ We highlight recently tested games right at the top, plus you can filter by any 
 
 This is where it gets really useful. Click any game and you get a detailed modal with actual testing information from our Steam Deck sessions:
 
-![Cat Quest II game modal showing detailed compatibility information and testing details](/assets/images/blog/games-table-showcase/GamesTableCatQuestII4.webp)
-*Game modal showing Cat Quest II with compatibility rating and detailed metadata*
+![Alan Wake game modal showing detailed compatibility information and testing details](/assets/images/blog/games-table-showcase/alanwake1.webp)
+*Game modal showing Alan Wake with compatibility rating and detailed metadata*
 
 Each modal includes:
 - **Compatibility ratings** with clear explanations
@@ -42,54 +47,29 @@ Each modal includes:
 - **Testing notes** from actual Steam Deck sessions
 - **Special requirements** and configuration notes
 
-![Cat Quest II testing details tab showing specific compatibility information](/assets/images/blog/games-table-showcase/GamesTableCatQuestII5.webp)
+![Alan Wake testing details tab showing specific compatibility information](/assets/images/blog/games-table-showcase/alanwake2.webp)
 *Testing details tab with specific compatibility notes and configuration information*
 
-## What Makes This Different
+## Connected to Our Weekly Updates
 
-**This isn't just a static list** - it's a living database that gets updated as we test new games. Each entry includes real testing notes from actual Steam Deck sessions.
+If you follow our weekly game testing posts, you'll notice something new: every game we test now links directly to its full compatibility details in the table.
 
-**Here's what we've built:**
+Instead of just reading about a game in our weekly update, you can click through to see the complete modal with all testing notes, controller configurations, and compatibility ratings. It's a seamless way to go from "we tested this" to "here's everything you need to know about running it."
 
-📊 **Live Statistics Dashboard**
-- Real-time breakdown of tested games across Epic, GOG, Amazon Prime Gaming & itch.io
-- Clear numbers so you know exactly what's been verified
-- Updated weekly as we test more games
+## Always Up to Date
 
-🎯 **Smart Filtering & Search**
-- Filter by storefront to focus on your preferred platform
-- Recently tested games highlighted at the top
-- Quick search to find specific titles
-- Store badges for easy identification
+This isn't just a static list - it's a living database that gets updated weekly as we test new games. Each entry includes real testing notes from actual Steam Deck sessions.
 
-🔍 **Detailed Game Information**
-- Click any game to see comprehensive testing details
-- Compatibility ratings with clear explanations
-- Game metadata including release info and store details
-- Testing notes from our actual Steam Deck sessions
-
-📱 **Clean, Fast Interface**
-- Loads quickly even with hundreds of games
-- Mobile-friendly for checking on the go
-- Pagination keeps everything organized
-
-## We Want Your Feedback
-
-**I'd love your feedback:**
-- Is there anything missing that would help you choose games?
-- Any specific game metadata you'd want to see?
-- How's the overall usability when you're browsing?
-- Any features from other compatibility sites that you find useful?
-
-You can check it out at: [junkstore.xyz/tested-games](/tested-games/)
-
-The goal is to make this a useful Steam Deck compatibility resource that supplements what's already out there, so honest feedback (positive or negative) is super appreciated!
-
-What would make this table more useful for your game selection process?
+Check it out at: [junkstore.xyz/tested-games](/tested-games/)
 
 ## Share Your Feedback
 
-Have thoughts on the compatibility table? We'd love to hear from you! Since we don't have comments on blog posts, join the conversation on Discord or Reddit:
+The goal is to make this a useful Steam Deck compatibility resource, so honest feedback is appreciated:
+- Is there anything missing that would help you choose games?
+- Any specific game metadata you'd want to see?
+- How's the overall usability when browsing?
+
+Since we don't have comments on blog posts, join the conversation on Discord or Reddit:
 
 <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Join Discord</a>
 <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>r/JunkStore</a>
