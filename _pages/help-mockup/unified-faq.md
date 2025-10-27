@@ -55,21 +55,21 @@ classes: wide
   }
 
   .version-professional {
-    background-color: rgba(59, 130, 246, 0.08);
-    border-left-color: #3b82f6;
-  }
-
-  .version-professional strong:first-child {
-    color: #3b82f6;
-  }
-
-  .version-decky {
     background-color: rgba(251, 146, 60, 0.08);
     border-left-color: #fb923c;
   }
 
-  .version-decky strong:first-child {
+  .version-professional strong:first-child {
     color: #fb923c;
+  }
+
+  .version-decky {
+    background-color: rgba(59, 130, 246, 0.08);
+    border-left-color: #3b82f6;
+  }
+
+  .version-decky strong:first-child {
+    color: #3b82f6;
   }
 </style>
 
@@ -229,24 +229,25 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    <strong>This is normal behavior for the Decky plugin.</strong> The free Decky version only loads your first 100 games by default for performance optimization.
-  <br>
-  <br>
-    <strong>To see your full library:</strong>
-    <ol>
-      <li>Open your Epic or GOG library in Junk Store</li>
-      <li>Navigate to any game in the list (move out of the search field)</li>
-      <li>Look for the bottom menu with <strong>"SHOW ALL"</strong> button</li>
-      <li>Press the <strong>Y button</strong> on your Steam Deck</li>
-      <li>Wait a moment for your complete library to load</li>
-    </ol>
-    <strong>Can't see the "SHOW ALL" button?</strong>
-    <ul>
-      <li>Your CSS Loader theme might be hiding the bottom menu</li>
-      <li>Try temporarily disabling your CSS theme to access the button</li>
-      <li>You can still search for specific games by name</li>
-    </ul>
-    <strong>Note:</strong> Each store (Epic, GOG, Amazon) needs "SHOW ALL" pressed separately.
+    <div class="version-content-box version-decky">
+      <strong>This is normal behavior for the Decky plugin.</strong> The free Decky version only loads your first 100 games by default for performance optimization.
+      <br><br>
+      <strong>To see your full library:</strong>
+      <ol>
+        <li>Open your Epic or GOG library in Junk Store</li>
+        <li>Navigate to any game in the list (move out of the search field)</li>
+        <li>Look for the bottom menu with <strong>"SHOW ALL"</strong> button</li>
+        <li>Press the <strong>Y button</strong> on your Steam Deck</li>
+        <li>Wait a moment for your complete library to load</li>
+      </ol>
+      <strong>Can't see the "SHOW ALL" button?</strong>
+      <ul>
+        <li>Your CSS Loader theme might be hiding the bottom menu</li>
+        <li>Try temporarily disabling your CSS theme to access the button</li>
+        <li>You can still search for specific games by name</li>
+      </ul>
+      <strong>Note:</strong> Each store (Epic, GOG, Amazon) needs "SHOW ALL" pressed separately.
+    </div>
       </div>
     </div>
 
@@ -265,10 +266,11 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon & itch.io (beta) integration, emulator extension creation, and all premium features.
-  <br>
-  <br>
-    After 7 days, if you don't subscribe, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
+    <div class="version-content-box version-professional">
+      You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon & itch.io (beta) integration, emulator extension creation, and all premium features.
+      <br><br>
+      After 7 days, if you don't subscribe, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
+    </div>
       </div>
     </div>
 
@@ -281,26 +283,26 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    <strong>You keep access to the version of Junk Store 2.0 you paid for.</strong> Everything continues working as normal, but you won't receive future updates.
-  <br>
-  <br>
-    <strong>What continues working:</strong>
-    <ul>
-      <li>✅ All games installed through Junk Store 2.0 remain playable</li>
-      <li>✅ Full Junk Store 2.0 functionality you paid for</li>
-      <li>✅ Installing and managing games</li>
-    </ul>
-    <strong>What you won't get going forward:</strong>
-    <ul>
-      <li>❌ New software updates and features</li>
-      <li>❌ Bug fixes and compatibility improvements</li>
-      <li>❌ New game store integrations</li>
-      <li>❌ Technical support</li>
-    </ul>
-    <strong>Important:</strong> Steam Deck/Valve updates may break functionality over time. Active license holders receive compatibility fixes to address these issues.
-  <br>
-  <br>
-    <strong>Note:</strong> You can reactivate anytime to resume receiving updates and support.
+    <div class="version-content-box version-professional">
+      <strong>You keep access to the version of Junk Store 2.0 you paid for.</strong> Everything continues working as normal, but you won't receive future updates.
+      <br><br>
+      <strong>What continues working:</strong>
+      <ul>
+        <li>✅ All games installed through Junk Store 2.0 remain playable</li>
+        <li>✅ Full Junk Store 2.0 functionality you paid for</li>
+        <li>✅ Installing and managing games</li>
+      </ul>
+      <strong>What you won't get going forward:</strong>
+      <ul>
+        <li>❌ New software updates and features</li>
+        <li>❌ Bug fixes and compatibility improvements</li>
+        <li>❌ New game store integrations</li>
+        <li>❌ Technical support</li>
+      </ul>
+      <strong>Important:</strong> Steam Deck/Valve updates may break functionality over time. Active license holders receive compatibility fixes to address these issues.
+      <br><br>
+      <strong>Note:</strong> You can reactivate anytime to resume receiving updates and support.
+    </div>
       </div>
     </div>
 
@@ -313,10 +315,11 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    You can install Junk Store on up to <strong>five</strong> devices under a single license. We think this strikes a fair balance between flexibility and sustainability.
-  <br>
-  <br>
-    <strong>Device management:</strong> Each installation counts toward your device limit when you first activate it. If you need to replace a device or reinstall, contact support for assistance with license transfers.
+    <div class="version-content-box version-professional">
+      You can install Junk Store on up to <strong>five</strong> devices under a single license. We think this strikes a fair balance between flexibility and sustainability.
+      <br><br>
+      <strong>Device management:</strong> Each installation counts toward your device limit when you first activate it. If you need to replace a device or reinstall, contact support for assistance with license transfers.
+    </div>
       </div>
     </div>
 
@@ -329,31 +332,31 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    Junk Store uses a perpetual license model with optional annual updates. You own your software version forever, but updates require an active annual license.
-  <br>
-  <br>
-    <strong>Junk Store uses perpetual licensing with annual update support.</strong> This is different from both traditional annual license software and one-time purchase models.
-  <br>
-  <br>
-    <strong>What requires active annual license:</strong>
-    <ul>
-      <li>🔄 Software updates and new features</li>
-      <li>🛠️ Bug fixes and compatibility improvements</li>
-      <li>🆕 New game store integrations</li>
-      <li>💬 Technical support and troubleshooting</li>
-    </ul>
-    <strong>The reality of "permanent" ownership:</strong>
-    <ul>
-      <li>⚠️ <strong>Steam Deck OS updates</strong> may break functionality over time</li>
-      <li>⚠️ <strong>Third-party dependencies</strong> may become outdated or incompatible</li>
-    </ul>
-    <strong>Our commitment to long-term stability:</strong>
-    <ul>
-      <li>🛠️ <strong>We're actively working</strong> to make Junk Store as stable as possible even after annual license expiration</li>
-      <li>🤝 <strong>Seeking Valve partnership:</strong> This complex task would be significantly easier with Valve's blessing and cooperation</li>
-      <li>📦 <strong>Current approach:</strong> Game store changes continue working via updated flatpaks (free and open source) with publicly available manifests</li>
-    </ul>
-    <strong>Bottom line:</strong> While you technically "own" your version forever, the Steam Deck ecosystem evolves constantly. We're endeavoring to minimize breakage over time, but this is a big and complicated technical challenge that would benefit greatly from official Steam platform support.
+    <div class="version-content-box version-professional">
+      Junk Store uses a perpetual license model with optional annual updates. You own your software version forever, but updates require an active annual license.
+      <br><br>
+      <strong>Junk Store uses perpetual licensing with annual update support.</strong> This is different from both traditional annual license software and one-time purchase models.
+      <br><br>
+      <strong>What requires active annual license:</strong>
+      <ul>
+        <li>🔄 Software updates and new features</li>
+        <li>🛠️ Bug fixes and compatibility improvements</li>
+        <li>🆕 New game store integrations</li>
+        <li>💬 Technical support and troubleshooting</li>
+      </ul>
+      <strong>The reality of "permanent" ownership:</strong>
+      <ul>
+        <li>⚠️ <strong>Steam Deck OS updates</strong> may break functionality over time</li>
+        <li>⚠️ <strong>Third-party dependencies</strong> may become outdated or incompatible</li>
+      </ul>
+      <strong>Our commitment to long-term stability:</strong>
+      <ul>
+        <li>🛠️ <strong>We're actively working</strong> to make Junk Store as stable as possible even after annual license expiration</li>
+        <li>🤝 <strong>Seeking Valve partnership:</strong> This complex task would be significantly easier with Valve's blessing and cooperation</li>
+        <li>📦 <strong>Current approach:</strong> Game store changes continue working via updated flatpaks (free and open source) with publicly available manifests</li>
+      </ul>
+      <strong>Bottom line:</strong> While you technically "own" your version forever, the Steam Deck ecosystem evolves constantly. We're endeavoring to minimize breakage over time, but this is a big and complicated technical challenge that would benefit greatly from official Steam platform support.
+    </div>
       </div>
     </div>
 
@@ -392,28 +395,30 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    You can purchase access with a one-time payment via three different methods:<br><br>
-    
-    <div class="purchase-buttons-container">
-      <a href="https://portal.junkstore.xyz/" target="_blank" class="purchase-button portal-button">
-        <span class="button-text">🏆 Junk Store Portal</span>
-        <span class="button-subtitle">Recommended - Easy updates!</span>
-      </a>
-      
-      <a href="https://www.patreon.com/junkstore" target="_blank" class="purchase-button patreon-button">
-        <span class="button-text">Patreon Shop</span>
-      </a>
-      
-      <a href="https://ko-fi.com/junkstore" target="_blank" class="purchase-button kofi-button">
-        <span class="button-text">Ko-fi Shop</span>
-      </a>
+    <div class="version-content-box version-decky">
+      You can purchase access with a one-time payment via three different methods:<br><br>
+
+      <div class="purchase-buttons-container">
+        <a href="https://portal.junkstore.xyz/" target="_blank" class="purchase-button portal-button">
+          <span class="button-text">🏆 Junk Store Portal</span>
+          <span class="button-subtitle">Recommended - Easy updates!</span>
+        </a>
+
+        <a href="https://www.patreon.com/junkstore" target="_blank" class="purchase-button patreon-button">
+          <span class="button-text">Patreon Shop</span>
+        </a>
+
+        <a href="https://ko-fi.com/junkstore" target="_blank" class="purchase-button kofi-button">
+          <span class="button-text">Ko-fi Shop</span>
+        </a>
+      </div>
+
+      <p><strong>⚠️ Important:</strong> GOG extension updates are now exclusively available via the Junk Store Portal. This makes it faster for us to deliver updates and much easier for you to download and install them.</p>
+
+      <p><strong>📝 Note:</strong> There will be a delay in migrating new Patreon/Ko-fi customers to the Portal system. If you want instant access to the most up-to-date GOG extension version, purchase directly through the Junk Store Portal.</p>
+
+      Once you have it, you have it. We can't take away GOG functionality/integration with the Junk Store plugin. All funds go back into the enhancement and development of Junk Store.
     </div>
-
-    <p><strong>⚠️ Important:</strong> GOG extension updates are now exclusively available via the Junk Store Portal. This makes it faster for us to deliver updates and much easier for you to download and install them.</p>
-
-    <p><strong>📝 Note:</strong> There will be a delay in migrating new Patreon/Ko-fi customers to the Portal system. If you want instant access to the most up-to-date GOG extension version, purchase directly through the Junk Store Portal.</p>
-    
-    Once you have it, you have it. We can't take away GOG functionality/integration with the Junk Store plugin. All funds go back into the enhancement and development of Junk Store.
       </div>
     </div>
 
@@ -426,7 +431,9 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    GOG support is available to paid supporters, and while we'd love to offer it for free, there's a lot of behind-the-scenes work and resources involved in creating and maintaining Junk Store. We appreciate your understanding and support as we continue to improve and expand Junk Store. All funds go back into the enhancement and development of Junk Store.
+    <div class="version-content-box version-decky">
+      GOG support is available to paid supporters, and while we'd love to offer it for free, there's a lot of behind-the-scenes work and resources involved in creating and maintaining Junk Store. We appreciate your understanding and support as we continue to improve and expand Junk Store. All funds go back into the enhancement and development of Junk Store.
+    </div>
       </div>
     </div>
 
@@ -471,19 +478,20 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    <strong>Current platform support:</strong>
-  <ul>
-    <li>✅ <strong>Itch.io</strong> - Now available in beta</li>
-  </ul>
-    <strong>Planned platform support</strong> (pending successful launch and resources):
-  <ul>
-    <li>🎮 <strong>EA, Ubisoft, Battle.net</strong> - If technically viable</li>
-    <li>🔧 <strong>Community extension sharing</strong> - User-created platform support</li>
-  </ul>
-    <strong>Development approach:</strong> Each new platform requires extensive testing and compatibility work. We prioritize stable, Game Mode native implementations over quick additions.
-  <br>
-  <br>
-    <strong>Important:</strong> Base your purchase decision on current features, not future promises. New platforms will be added as development resources allow.
+    <div class="version-content-box version-professional">
+      <strong>Current platform support:</strong>
+      <ul>
+        <li>✅ <strong>Itch.io</strong> - Now available in beta</li>
+      </ul>
+      <strong>Planned platform support</strong> (pending successful launch and resources):
+      <ul>
+        <li>🎮 <strong>EA, Ubisoft, Battle.net</strong> - If technically viable</li>
+        <li>🔧 <strong>Community extension sharing</strong> - User-created platform support</li>
+      </ul>
+      <strong>Development approach:</strong> Each new platform requires extensive testing and compatibility work. We prioritize stable, Game Mode native implementations over quick additions.
+      <br><br>
+      <strong>Important:</strong> Base your purchase decision on current features, not future promises. New platforms will be added as development resources allow.
+    </div>
       </div>
     </div>
 
@@ -496,19 +504,19 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    Stay current with the latest Steam Deck non-Steam gaming improvements through our direct update system:
-  <br>
-  <br>
-    <strong>Update Notifications:</strong> Join our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> and follow our <strong>#version-2-updates</strong> channel for immediate update announcements.
-  <br>
-  <br>
-    <strong>Update Channels:</strong>
-  <ul>
-    <li><strong>Stable:</strong> Recommended for most Steam Deck users</li>
-    <li><strong>Test:</strong> Early access to hotfixes and new gaming features</li>
-    <li><strong>Beta:</strong> SteamOS compatibility updates (use if on SteamOS beta)</li>
-  </ul>
-    <strong>Change Channels:</strong> Press <strong>Select</strong> → <strong>About</strong> → <strong>System</strong>. Choose channels for both Junk Store core and Extensions (where new platform support is added).
+    <div class="version-content-box version-professional">
+      Stay current with the latest Steam Deck non-Steam gaming improvements through our direct update system:
+      <br><br>
+      <strong>Update Notifications:</strong> Join our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> and follow our <strong>#version-2-updates</strong> channel for immediate update announcements.
+      <br><br>
+      <strong>Update Channels:</strong>
+      <ul>
+        <li><strong>Stable:</strong> Recommended for most Steam Deck users</li>
+        <li><strong>Test:</strong> Early access to hotfixes and new gaming features</li>
+        <li><strong>Beta:</strong> SteamOS compatibility updates (use if on SteamOS beta)</li>
+      </ul>
+      <strong>Change Channels:</strong> Press <strong>Select</strong> → <strong>About</strong> → <strong>System</strong>. Choose channels for both Junk Store core and Extensions (where new platform support is added).
+    </div>
       </div>
     </div>
 
@@ -521,20 +529,21 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    To access the itch.io extension currently in beta testing:
-  <ol>
-    <li>Change both your <strong>Build Channel</strong> and <strong>Extension Channel</strong> to <strong>Beta</strong></li>
-    <li>Press <strong>Select button</strong> → <strong>About</strong> → <strong>System</strong> to access channel settings</li>
-    <li>Check for updates in Junk Store</li>
-    <li>Open the <strong>hamburger menu</strong> (☰) and select <strong>Extension Generator</strong></li>
-    <li><strong>Download the itch.io extension</strong></li>
-    <li> Click the 📥 <strong>Install</strong> button</li>
-    <li> You should now see the <strong>itch.io tab</strong> in Junk Store - log into your account and start downloading games!</li>
-  </ol>
-    <strong>Important:</strong> Both channels must be set to Beta to access itch.io support. This ensures you have the latest core features and the beta extension system.
-  <br>
-  <br>
-    <strong>Beta Status:</strong> itch.io support is actively being tested. Report any issues on our <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues" target="_blank">GitHub Issues page</a>.
+    <div class="version-content-box version-professional">
+      To access the itch.io extension currently in beta testing:
+      <ol>
+        <li>Change both your <strong>Build Channel</strong> and <strong>Extension Channel</strong> to <strong>Beta</strong></li>
+        <li>Press <strong>Select button</strong> → <strong>About</strong> → <strong>System</strong> to access channel settings</li>
+        <li>Check for updates in Junk Store</li>
+        <li>Open the <strong>hamburger menu</strong> (☰) and select <strong>Extension Generator</strong></li>
+        <li><strong>Download the itch.io extension</strong></li>
+        <li> Click the 📥 <strong>Install</strong> button</li>
+        <li> You should now see the <strong>itch.io tab</strong> in Junk Store - log into your account and start downloading games!</li>
+      </ol>
+      <strong>Important:</strong> Both channels must be set to Beta to access itch.io support. This ensures you have the latest core features and the beta extension system.
+      <br><br>
+      <strong>Beta Status:</strong> itch.io support is actively being tested. Report any issues on our <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues" target="_blank">GitHub Issues page</a>.
+    </div>
       </div>
     </div>
 
@@ -547,13 +556,13 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    <strong>Automatic Import:</strong> This happens automatically when you first install and launch Junk Store 2.0. Once you've generated the extensions (Epic and/or GOG), your games will sync across when you open each corresponding tab.
-  <br>
-  <br>
-    <strong>Playing Imported Games:</strong> Yes, your games will work, but you'll need to <strong>Reset Launch Options</strong> for each game (found in the sliders menu on the game page). This only needs to be done once per game to fully migrate it to the new version.
-  <br>
-  <br>
-    <strong>Note:</strong> The initial import process can take some time, as Junk Store is rebuilding the databases for each storefront.
+    <div class="version-content-box version-professional">
+      <strong>Automatic Import:</strong> This happens automatically when you first install and launch Junk Store 2.0. Once you've generated the extensions (Epic and/or GOG), your games will sync across when you open each corresponding tab.
+      <br><br>
+      <strong>Playing Imported Games:</strong> Yes, your games will work, but you'll need to <strong>Reset Launch Options</strong> for each game (found in the sliders menu on the game page). This only needs to be done once per game to fully migrate it to the new version.
+      <br><br>
+      <strong>Note:</strong> The initial import process can take some time, as Junk Store is rebuilding the databases for each storefront.
+    </div>
       </div>
     </div>
 
@@ -763,25 +772,27 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-    Change your Epic, GOG, or Amazon game language settings directly in Game Mode - no desktop switching required. There are two methods:
-  <br><br>
-  <strong>Method 1: Environment Variables (for individual games)</strong>
-  <ul>
-    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
-    <li>Select <strong>Game Configs</strong></li>
-    <li>Change the dropdown to <strong>All</strong></li>
-    <li>Click <strong>ENVIRONMENT</strong> dropdown</li>
-    <li>Scroll to <strong>LANG</strong> and select your preferred language</li>
-    <li>Press <kbd>X</kbd> to save changes</li>
-  </ul>
-  <strong>Method 2: Installation Settings (affects game installation language)</strong>
-  <ul>
-    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
-    <li>Access the installation settings and configure the language preference</li>
-    <li>This will download and install the game with your selected language files</li>
-    <li><strong>Note:</strong> If changing language after game installation, update the game from the ☰ Slider menu to pull in new language packs</li>
-  </ul>
-    Your game will launch in the selected language - all managed from Game Mode with no additional tools needed.
+    <div class="version-content-box version-professional">
+      Change your Epic, GOG, or Amazon game language settings directly in Game Mode - no desktop switching required. There are two methods:
+      <br><br>
+      <strong>Method 1: Environment Variables (for individual games)</strong>
+      <ul>
+        <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
+        <li>Select <strong>Game Configs</strong></li>
+        <li>Change the dropdown to <strong>All</strong></li>
+        <li>Click <strong>ENVIRONMENT</strong> dropdown</li>
+        <li>Scroll to <strong>LANG</strong> and select your preferred language</li>
+        <li>Press <kbd>X</kbd> to save changes</li>
+      </ul>
+      <strong>Method 2: Installation Settings (affects game installation language)</strong>
+      <ul>
+        <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
+        <li>Access the installation settings and configure the language preference</li>
+        <li>This will download and install the game with your selected language files</li>
+        <li><strong>Note:</strong> If changing language after game installation, update the game from the ☰ Slider menu to pull in new language packs</li>
+      </ul>
+      Your game will launch in the selected language - all managed from Game Mode with no additional tools needed.
+    </div>
       </div>
     </div>
 
@@ -793,17 +804,18 @@ classes: wide
         </div>
       </div>
       <div class="faq-answer">
-<p></p>
-    Set offline mode per individual game (improved from the global setting in free alternatives) directly in Game Mode:
-  <ul>
-    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
-    <li>Select <strong>Game Configs</strong></li>
-    <li>Change the dropdown to <strong>All</strong></li>
-    <li>Click <strong>ENVIRONMENT</strong> dropdown</li>
-    <li>Find <strong>TOGGLE OFFLINE MODE</strong> and turn it on (blue = enabled)</li>
-    <li>Press <kbd>X</kbd> to save changes</li>
-  </ul>
-    Your Epic, GOG, or Amazon games that support offline play will now work without internet connection.
+        <div class="version-content-box version-professional">
+          Set offline mode per individual game (improved from the global setting in free alternatives) directly in Game Mode:
+          <ul>
+            <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>
+            <li>Select <strong>Game Configs</strong></li>
+            <li>Change the dropdown to <strong>All</strong></li>
+            <li>Click <strong>ENVIRONMENT</strong> dropdown</li>
+            <li>Find <strong>TOGGLE OFFLINE MODE</strong> and turn it on (blue = enabled)</li>
+            <li>Press <kbd>X</kbd> to save changes</li>
+          </ul>
+          Your Epic, GOG, or Amazon games that support offline play will now work without internet connection.
+        </div>
       </div>
     </div>
 
@@ -864,16 +876,17 @@ classes: wide
         </div>
       </div>
       <div class="faq-answer">
-<p></p>
-    <strong>Yes.</strong> Junk Store doesn't have a background download queue. If you close or leave the plugin, your download may stop or behave unpredictably.
-  <br>
-  <br>
-    <strong>This applies to both:</strong>
-  <ul>
-    <li><strong>Epic Games:</strong> Stay on the game page until installation is complete</li>
-    <li><strong>GOG Games:</strong> Keep the plugin open during downloads</li>
-  </ul>
-    <strong>Important:</strong> Stay on the game page until installation is complete to ensure reliable downloads.
+        <div class="version-content-box version-decky">
+          <strong>Yes.</strong> Junk Store doesn't have a background download queue. If you close or leave the plugin, your download may stop or behave unpredictably.
+          <br>
+          <br>
+          <strong>This applies to both:</strong>
+          <ul>
+            <li><strong>Epic Games:</strong> Stay on the game page until installation is complete</li>
+            <li><strong>GOG Games:</strong> Keep the plugin open during downloads</li>
+          </ul>
+          <strong>Important:</strong> Stay on the game page until installation is complete to ensure reliable downloads.
+        </div>
       </div>
     </div>
 
@@ -885,24 +898,25 @@ classes: wide
         </div>
       </div>
       <div class="faq-answer">
-<p></p>
-    <strong>It depends on when the games were originally installed:</strong>
-    <br>
-    <br>
-    <strong>✅ Games originally from Decky version:</strong> These CAN be migrated back. For already installed games, open the game page in Junk Store and use <strong>Reset Launch Options</strong> from the sliders menu. This completes the migration back to Decky compatibility.
-    <br>
-    <br>
-    <strong>❌ Games newly installed in Junk Store 2.0:</strong> These cannot be migrated back to Decky due to different install paths and configuration systems.
-    <br>
-    <br>
-    <strong>For games newly installed in 2.0 that you want to keep:</strong>
-    <ul>
-      <li>Back up your save files for any games you plan to keep playing</li>
-      <li>Manually uninstall games installed via the new version before your trial expires (to free up space)</li>
-      <li>Reinstall those games using the Decky version</li>
-      <li>Restore your game saves manually</li>
-    </ul>
-     <strong>Tip:</strong> Complete this process before your trial ends — otherwise, you may lose access and the games will still occupy storage.
+        <div class="version-content-box version-professional">
+          <strong>It depends on when the games were originally installed:</strong>
+          <br>
+          <br>
+          <strong>✅ Games originally from Decky version:</strong> These CAN be migrated back. For already installed games, open the game page in Junk Store and use <strong>Reset Launch Options</strong> from the sliders menu. This completes the migration back to Decky compatibility.
+          <br>
+          <br>
+          <strong>❌ Games newly installed in Junk Store 2.0:</strong> These cannot be migrated back to Decky due to different install paths and configuration systems.
+          <br>
+          <br>
+          <strong>For games newly installed in 2.0 that you want to keep:</strong>
+          <ul>
+            <li>Back up your save files for any games you plan to keep playing</li>
+            <li>Manually uninstall games installed via the new version before your trial expires (to free up space)</li>
+            <li>Reinstall those games using the Decky version</li>
+            <li>Restore your game saves manually</li>
+          </ul>
+          <strong>Tip:</strong> Complete this process before your trial ends — otherwise, you may lose access and the games will still occupy storage.
+        </div>
       </div>
     </div>
 
@@ -1062,16 +1076,17 @@ classes: wide
       </div>
       <div class="faq-answer">
 <p></p>
-  <strong>We prefer feature requests via GitHub where they can be tracked:</strong><br>
-  <a href="https://github.com/ebenbruyns/junkstore/issues/new/choose" target="_blank" rel="noopener noreferrer">Submit a feature request</a>
-  <br>
-  <br>
-  <strong>Ways to get features implemented:</strong>
-<ol>
-  <li>Submit a pull request if you know how to code</li>
-  <li>Offer a bounty and pay a developer to implement it</li>
-</ol>
-  <strong>Alternative:</strong> Discuss ideas first in our Discord community before submitting requests.
+    <div class="version-content-box version-decky">
+      <strong>We prefer feature requests via GitHub where they can be tracked:</strong><br>
+      <a href="https://github.com/ebenbruyns/junkstore/issues/new/choose" target="_blank" rel="noopener noreferrer">Submit a feature request</a>
+      <br><br>
+      <strong>Ways to get features implemented:</strong>
+      <ol>
+        <li>Submit a pull request if you know how to code</li>
+        <li>Offer a bounty and pay a developer to implement it</li>
+      </ol>
+      <strong>Alternative:</strong> Discuss ideas first in our Discord community before submitting requests.
+    </div>
       </div>
     </div>
 
