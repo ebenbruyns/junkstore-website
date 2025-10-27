@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Tip of the Week: Installing Game Dependencies"
-date: 2025-10-24
+title: "Tip of the Week: Easily Install Game Dependencies with Junk Store 2.0"
+date: 2025-10-27
 categories: [Tip of the Week, 2.0 Standalone]
-tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Games, Game Dependencies, Visual C++, .NET Framework, ProtonDB]
+tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Games, Game Dependencies]
 slug: "install-dependencies-junk-store-2"
 excerpt: "Skip the complex ProtonTricks setup! Junk Store 2.0 makes installing Visual C++, .NET Framework, and other Windows dependencies as simple as clicking a button."
 image: /assets/images/blog/251017-deps-hero.webp
@@ -23,7 +23,7 @@ Your game crashes on launch with missing Visual C++, .NET Framework, or DirectX 
 
 <h2 style="text-align: left !important; margin-left: 0;">The Solution</h2>
 
-Most games work out of the box thanks to Visual C++ Redistributable 2022 (x64), which Junk Store automatically installs with every Epic and Amazon game. For games needing extra dependencies like .NET or older Visual C++ versions, you can install them with one click - all from Game Mode.
+Most games work out of the box thanks to Visual C++ Redistributable 2022 (x64), which Junk Store automatically installs with every Epic and Amazon game. For games needing extra dependencies like .NET, DirectX or other Visual C++ versions, you can install them with one click - all from Game Mode.
 
 <h2 style="text-align: left !important; margin-left: 0;">How to Install Dependencies</h2>
 
@@ -38,19 +38,17 @@ Most games work out of the box thanks to Visual C++ Redistributable 2022 (x64), 
    ![Select Installation tab](/assets/images/blog/251017-deps-step2.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Choose Installation from the settings menu</p>
 
-3. **Set dropdown to "Expert" mode** (if you don't see a Dependencies section)
-
-4. **Click "Dependencies"**
+3. **Set dropdown to "Expert" mode or higher (if needed) and click "Dependencies"**
 
    ![Click Dependencies section](/assets/images/blog/251017-deps-step3.webp){: .align-center}
-   <p style="text-align: center; font-style: italic;">Open the Dependencies section in Expert mode</p>
+   <p style="text-align: center; font-style: italic;">Set to Expert mode or higher and open the Dependencies section</p>
 
-5. **Toggle needed dependencies on** (blue = will install) and **Press X to save changes**
+4. **Toggle needed dependencies on** (blue = will install) and **Press X to save changes**
 
    ![Toggle dependencies on](/assets/images/blog/251017-deps-step4.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Toggle the dependencies you need - blue means it will install</p>
 
-6. **Launch the game** - Dependencies will automatically install on first launch
+5. **Launch the game** - Dependencies will automatically install on first launch
 
 All dependency configurations are saved to your game's settings and persist between updates and reinstalls - configure once and forget about it!
 
