@@ -149,7 +149,7 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
 <div class="gog-extension-info">
   <p>GOG extension updates are now exclusively available through the Junk Store portal. This change makes it faster for us to deliver updates and much easier for you to download and install them.</p>
   
-  <p>Once you've purchased access, please follow the <a href="/tutorials/gog-extension">GOG Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.</p>
+  <p>Once you've purchased access, please follow the <a href="/tutorials/gogextension">GOG Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.</p>
 
   <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
     <strong>Note:</strong> The GOG extension is currently in <strong>maintenance-only</strong> mode. This means we'll continue fixing bugs and ensuring compatibility, but we're not actively adding new features. Continued support depends on user interest and purchases.
