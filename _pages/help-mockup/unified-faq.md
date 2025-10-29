@@ -1280,21 +1280,29 @@ document.addEventListener('DOMContentLoaded', function() {
     faqItems.forEach(item => {
       const version = item.dataset.version;
       const badges = item.querySelector('.version-badges');
+      const professionalBoxes = item.querySelectorAll('.version-content-box.version-professional');
+      const deckyBoxes = item.querySelectorAll('.version-content-box.version-decky');
 
       // Show All: show everything and show badges
       if (filter === 'all') {
         item.classList.remove('hidden');
         if (badges) badges.style.display = 'flex';
+        professionalBoxes.forEach(box => box.style.display = 'block');
+        deckyBoxes.forEach(box => box.style.display = 'block');
       }
-      // Decky filter: show decky AND shared, hide badges
+      // Decky filter: show decky AND shared, hide badges, hide professional boxes
       else if (filter === 'decky' && (version === 'decky' || version === 'shared')) {
         item.classList.remove('hidden');
         if (badges) badges.style.display = 'none';
+        professionalBoxes.forEach(box => box.style.display = 'none');
+        deckyBoxes.forEach(box => box.style.display = 'block');
       }
-      // Professional filter: show professional AND shared, hide badges
+      // Professional filter: show professional AND shared, hide badges, hide decky boxes
       else if (filter === 'professional' && (version === 'professional' || version === 'shared')) {
         item.classList.remove('hidden');
         if (badges) badges.style.display = 'none';
+        professionalBoxes.forEach(box => box.style.display = 'block');
+        deckyBoxes.forEach(box => box.style.display = 'none');
       }
       // Hide if doesn't match
       else {
