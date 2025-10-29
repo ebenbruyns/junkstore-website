@@ -75,11 +75,11 @@ classes: wide
 
 <!-- FAQ Content -->
 <section class="faq-content">
-  <!-- Overview & Getting Started -->
+  <!-- Getting Started -->
   <div class="faq-category">
-    <h2>Overview & Getting Started</h2>
+    <h2>Getting Started</h2>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="difference-between-versions">
       <div class="faq-question-header">
         <h3>What's the difference between the Decky version and the Professional version?</h3>
         <div class="version-badges">
@@ -88,15 +88,35 @@ classes: wide
         </div>
       </div>
       <div class="faq-answer">
-<p></p>
-    The Decky version is free and open source, designed to run via the Decky Loader. The Professional version includes extra convenience features and doesn't require Decky to run.
-  <br>
-  <br>
-  <strong>📊 For detailed feature comparison:</strong> <a href="/comparison/">View Complete Comparison Chart</a>
+        <div class="version-content-box version-professional">
+          <strong>Junk Store 2.0 (Professional):</strong>
+          <br><br>
+          A standalone app that doesn't require Decky Loader, with more features and active development:
+          <ul>
+            <li>Built-in integrations: Epic, GOG, Amazon, and itch.io</li>
+            <li>Emulation and ROM support with individual console tabs in Game Mode</li>
+            <li>Download game dependencies in Game Mode (no ProtonTricks/WineTricks needed)</li>
+            <li>Dedicated update channels for hotfixes, features, and beta releases</li>
+            <li>Per-game settings: language, DLC selection, launcher options, and offline mode</li>
+          </ul>
+        </div>
+
+        <div class="version-content-box version-decky">
+          <strong>Decky Plugin (Free):</strong>
+          <br><br>
+          Free and open source, runs via Decky Loader:
+          <ul>
+            <li>Epic integration included; GOG integration available for $6 USD one-time purchase</li>
+            <li>In maintenance mode, but <a href="https://github.com/ebenbruyns/junkstore/pulls" target="_blank" rel="noopener noreferrer">community contributions</a> welcome</li>
+          </ul>
+        </div>
+
+        <br>
+        <strong>For detailed feature comparison:</strong> <a href="/comparison/">View Complete Comparison Chart</a>
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="is-junk-store-trustworthy">
       <div class="faq-question-header">
         <h3>Is Junk Store trustworthy and how are my credentials handled?</h3>
         <div class="version-badges">
@@ -135,11 +155,13 @@ classes: wide
       <li><strong>Transparent development:</strong> Regular updates with clear changelogs (2.0 Professional version)</li>
       <li><strong>Professional maintenance:</strong> Consistent updates and bug fixes (2.0 Professional version)</li>
     </ul>
-    <strong>Bottom line:</strong> Junk Store has been trusted by thousands of Steam Deck users across both versions. Your credentials are handled using industry-standard practices by established tools in the Linux gaming community.
+    <div style="background-color: rgba(59, 130, 246, 0.15); border-left: 4px solid #3b82f6; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
+      <strong>Bottom line:</strong> Junk Store has been trusted by thousands of Steam Deck users across both versions. Your credentials are handled using industry-standard practices by established tools in the Linux gaming community.
+    </div>
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="how-to-access-junk-store">
       <div class="faq-question-header">
         <h3>How do I access Junk Store after installation?</h3>
         <div class="version-badges">
@@ -171,7 +193,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="what-to-do-first">
       <div class="faq-question-header">
         <h3>What should I do first after installation?</h3>
         <div class="version-badges">
@@ -220,44 +242,63 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item decky" data-version="decky">
+    <div class="faq-item shared" data-version="shared" id="how-to-install-junk-store">
       <div class="faq-question-header">
-        <h3>Why can I only see games A-L in my Epic/GOG library?</h3>
+        <h3>How do I install Junk Store?</h3>
         <div class="version-badges">
           <span class="version-badge decky">Decky</span>
+          <span class="version-badge professional">2.0</span>
         </div>
       </div>
       <div class="faq-answer">
-<p></p>
-    <div class="version-content-box version-decky">
-      <strong>This is normal behavior for the Decky plugin.</strong> The free Decky version only loads your first 100 games by default for performance optimization.
-      <br><br>
-      <strong>To see your full library:</strong>
-      <ol>
-        <li>Open your Epic or GOG library in Junk Store</li>
-        <li>Navigate to any game in the list (move out of the search field)</li>
-        <li>Look for the bottom menu with <strong>"SHOW ALL"</strong> button</li>
-        <li>Press the <strong>Y button</strong> on your Steam Deck</li>
-        <li>Wait a moment for your complete library to load</li>
-      </ol>
-      <strong>Can't see the "SHOW ALL" button?</strong>
-      <ul>
-        <li>Your CSS Loader theme might be hiding the bottom menu</li>
-        <li>Try temporarily disabling your CSS theme to access the button</li>
-        <li>You can still search for specific games by name</li>
-      </ul>
-      <strong>Note:</strong> Each store (Epic, GOG, Amazon) needs "SHOW ALL" pressed separately.
+        <div class="version-content-box version-professional">
+          <strong>Junk Store 2.0:</strong>
+          <br><br>
+          [Content coming soon]
+        </div>
+
+        <div class="version-content-box version-decky">
+          <strong>Decky Plugin:</strong>
+          <br><br>
+          The Junk Store Decky plugin requires Decky Loader to be installed first on your Steam Deck.
+          <ol>
+            <li>Install Decky Loader by following the <a href="https://decky.xyz/" target="_blank" rel="noopener noreferrer">official Decky installation guide</a></li>
+            <li>Once Decky is installed, access the Decky Plugin Store from your Quick Access Menu</li>
+            <li>Search for "Junk Store" and install the plugin</li>
+            <li>The plugin will appear in your Decky menu after installation</li>
+          </ol>
+          For detailed instructions, refer to our <a href="/tutorials/junkstore-decky-install/">Junk Store Decky Plugin Install Guide</a>.
+        </div>
+      </div>
     </div>
+
+    <div class="faq-item professional" data-version="professional" id="import-games-from-decky">
+      <div class="faq-question-header">
+        <h3>How do I import and play my games from the Decky version in Junk Store 2.0?</h3>
+        <div class="version-badges">
+          <span class="version-badge professional">2.0</span>
+        </div>
+      </div>
+      <div class="faq-answer">
+        <div class="version-content-box version-professional">
+          <strong>Automatic Import:</strong> This happens automatically when you first install and launch Junk Store 2.0. Once you've generated the extensions (Epic and/or GOG), your games will sync across when you open each corresponding tab.
+          <br><br>
+          <strong>Playing Imported Games:</strong> Yes, your games will work, but you'll need to <strong>Reset Launch Options</strong> for each game (found in the sliders menu on the game page). This only needs to be done once per game to fully migrate it to the new version.
+        </div>
+
+        <div style="background-color: rgba(168, 162, 158, 0.15); border-left: 4px solid #a8a29e; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
+          <strong>Note:</strong> The initial import process can take some time, as Junk Store is rebuilding the databases for each storefront.
+        </div>
       </div>
     </div>
 
   </div>
 
-  <!-- Licensing & Pricing -->
+  <!-- Pricing & Licenses -->
   <div class="faq-category">
-    <h2>Licensing & Pricing</h2>
+    <h2>Pricing & Licenses</h2>
 
-    <div class="faq-item professional" data-version="professional">
+    <div class="faq-item professional" data-version="professional" id="trial-length-what-happens">
       <div class="faq-question-header">
         <h3>How long is my trial and what happens when it ends?</h3>
         <div class="version-badges">
@@ -274,7 +315,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item professional" data-version="professional">
+    <div class="faq-item professional" data-version="professional" id="what-happens-no-renew">
       <div class="faq-question-header">
         <h3>What happens if I don't renew my annual license?</h3>
         <div class="version-badges">
@@ -299,6 +340,9 @@ classes: wide
         <li>❌ New game store integrations</li>
         <li>❌ Technical support</li>
       </ul>
+    </div>
+
+    <div style="background-color: rgba(168, 162, 158, 0.15); border-left: 4px solid #a8a29e; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
       <strong>Important:</strong> Steam Deck/Valve updates may break functionality over time. Active license holders receive compatibility fixes to address these issues.
       <br><br>
       <strong>Note:</strong> You can reactivate anytime to resume receiving updates and support.
@@ -306,7 +350,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item professional" data-version="professional">
+    <div class="faq-item professional" data-version="professional" id="how-many-devices">
       <div class="faq-question-header">
         <h3>How many devices can I install Junk Store on?</h3>
         <div class="version-badges">
@@ -323,7 +367,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item professional" data-version="professional">
+    <div class="faq-item professional" data-version="professional" id="annual-license-or-perpetual">
       <div class="faq-question-header">
         <h3>Do I need to keep paying to use the software?</h3>
         <div class="version-badges">
@@ -333,9 +377,7 @@ classes: wide
       <div class="faq-answer">
 <p></p>
     <div class="version-content-box version-professional">
-      Junk Store uses a perpetual license model with optional annual updates. You own your software version forever, but updates require an active annual license.
-      <br><br>
-      <strong>Junk Store uses perpetual licensing with annual update support.</strong> This is different from both traditional annual license software and one-time purchase models.
+      <strong>No.</strong> Junk Store uses perpetual licensing — you own your software version forever, but updates require an active annual license.
       <br><br>
       <strong>What requires active annual license:</strong>
       <ul>
@@ -355,12 +397,15 @@ classes: wide
         <li>🤝 <strong>Seeking Valve partnership:</strong> This complex task would be significantly easier with Valve's blessing and cooperation</li>
         <li>📦 <strong>Current approach:</strong> Game store changes continue working via updated flatpaks (free and open source) with publicly available manifests</li>
       </ul>
+    </div>
+
+    <div style="background-color: rgba(168, 162, 158, 0.15); border-left: 4px solid #a8a29e; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
       <strong>Bottom line:</strong> While you technically "own" your version forever, the Steam Deck ecosystem evolves constantly. We're endeavoring to minimize breakage over time, but this is a big and complicated technical challenge that would benefit greatly from official Steam platform support.
     </div>
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="free-decky-available">
       <div class="faq-question-header">
         <h3>Will the free Decky version continue to be available?</h3>
         <div class="version-badges">
@@ -369,24 +414,158 @@ classes: wide
         </div>
       </div>
       <div class="faq-answer">
+        <div class="version-content-box version-decky">
+          <strong>Yes.</strong> The open source Decky version remains available for the community, free to use and collaborate on.
+        </div>
+
+        <div class="version-content-box version-professional">
+          Junk Store 2.0 is completely separate software that doesn't share code with the open source version. Both versions can coexist, and you can choose what works best for your needs.
+        </div>
+
+        <div style="background-color: rgba(168, 162, 158, 0.15); border-left: 4px solid #a8a29e; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
+          <strong>Key difference:</strong> The free Decky version focuses on basic Epic Games support, while Junk Store 2.0 provides the complete Game Mode native experience across multiple platforms.
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item decky" data-version="decky" id="why-gog-not-free">
+      <div class="faq-question-header">
+        <h3>Why isn't GOG free to use?</h3>
+        <div class="version-badges">
+          <span class="version-badge decky">Decky</span>
+        </div>
+      </div>
+      <div class="faq-answer">
 <p></p>
-    <strong>Yes.</strong> The open source Decky version remains available for the community, free to use and collaborate on.
-  <br>
-  <br>
-    Junk Store 2.0 is completely separate software that doesn't share code with the open source version. Both versions can coexist, and you can choose what works best for your needs.
-  <br>
-  <br>
-    <strong>Key difference:</strong> The free Decky version focuses on basic Epic Games support, while Junk Store 2.0 provides the complete Game Mode native experience across multiple platforms.
+    <div class="version-content-box version-decky">
+      GOG support is available to paid supporters, and while we'd love to offer it for free, there's a lot of behind-the-scenes work and resources involved in creating and maintaining Junk Store. We appreciate your understanding and support as we continue to improve and expand Junk Store. All funds go back into the enhancement and development of Junk Store.
+    </div>
       </div>
     </div>
 
   </div>
 
-  <!-- GOG Extension -->
+  <!-- Platform Support & Updates -->
   <div class="faq-category">
-    <h2>GOG Extension</h2>
+    <h2>Platform Support & Updates</h2>
 
-    <div class="faq-item decky" data-version="decky">
+    <div class="faq-item professional" data-version="professional" id="how-to-update-junk-store">
+      <div class="faq-question-header">
+        <h3>How do I update Junk Store and track new Steam Deck gaming features?</h3>
+        <div class="version-badges">
+          <span class="version-badge professional">2.0</span>
+        </div>
+      </div>
+      <div class="faq-answer">
+        <div style="background-color: rgba(168, 162, 158, 0.15); border-left: 4px solid #a8a29e; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
+          <strong>Update Notifications:</strong> Join our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> and follow our <strong>#version-2-updates</strong> channel for immediate update announcements.
+        </div>
+
+        <div class="version-content-box version-professional">
+          <strong>Update Channels:</strong>
+          <ul>
+            <li><strong>Stable:</strong> Recommended for most Steam Deck users</li>
+            <li><strong>Test:</strong> Early access to hotfixes and new gaming features</li>
+            <li><strong>Beta:</strong> SteamOS compatibility updates (use if on SteamOS beta)</li>
+          </ul>
+          <strong>Change Channels:</strong> Press <strong>Select</strong> → <strong>About</strong> → <strong>System</strong>. Choose channels for both Junk Store core and Extensions (where new platform support is added).
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item professional" data-version="professional" id="how-to-access-itch-io-beta">
+      <div class="faq-question-header">
+        <h3>How do I access the itch.io extension (beta)?</h3>
+        <div class="version-badges">
+          <span class="version-badge professional">2.0</span>
+        </div>
+      </div>
+      <div class="faq-answer">
+        <div class="version-content-box version-professional">
+          To access the itch.io extension currently in beta testing:
+          <ol>
+            <li>Change both your <strong>Build Channel</strong> and <strong>Extension Channel</strong> to <strong>Beta</strong></li>
+            <li>Press <strong>Select button</strong> → <strong>About</strong> → <strong>System</strong> to access channel settings</li>
+            <li>Check for updates in Junk Store</li>
+            <li>Open the <strong>hamburger menu</strong> (☰) and select <strong>Extension Generator</strong></li>
+            <li><strong>Download the itch.io extension</strong></li>
+            <li> Click the 📥 <strong>Install</strong> button</li>
+            <li> You should now see the <strong>itch.io tab</strong> in Junk Store - log into your account and start downloading games!</li>
+          </ol>
+        </div>
+
+        <div style="background-color: rgba(168, 162, 158, 0.15); border-left: 4px solid #a8a29e; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
+          <strong>Important:</strong> Both channels must be set to Beta to access itch.io support. This ensures you have the latest core features and the beta extension system.
+          <br><br>
+          <strong>Beta Status:</strong> itch.io support is actively being tested. Report any issues on our <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues" target="_blank">GitHub Issues page</a>.
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item professional" data-version="professional" id="new-platforms-planned">
+      <div class="faq-question-header">
+        <h3>What new platforms are planned for future releases?</h3>
+        <div class="version-badges">
+          <span class="version-badge professional">2.0</span>
+        </div>
+      </div>
+      <div class="faq-answer">
+        <div class="version-content-box version-professional">
+          <strong>Current platform support:</strong>
+          <ul>
+            <li>✅ <strong>Itch.io</strong> - Now available in beta</li>
+          </ul>
+          <strong>Planned platform support</strong> (pending successful launch and resources):
+          <ul>
+            <li>🎮 <strong>EA, Ubisoft, Battle.net</strong> - If technically viable</li>
+            <li>🔧 <strong>Community extension sharing</strong> - User-created platform support</li>
+          </ul>
+          <strong>Development approach:</strong> Each new platform requires extensive testing and compatibility work. We prioritize stable, Game Mode native implementations over quick additions.
+        </div>
+
+        <div style="background-color: rgba(168, 162, 158, 0.15); border-left: 4px solid #a8a29e; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
+          <strong>Important:</strong> Base your purchase decision on current features, not future promises. New platforms will be added as development resources allow.
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item professional" data-version="professional" id="migrate-games-to-decky">
+      <div class="faq-question-header">
+        <h3>Can I migrate my games back to the Decky (free) version after trying 2.0?</h3>
+        <div class="version-badges">
+          <span class="version-badge professional">2.0</span>
+        </div>
+      </div>
+      <div class="faq-answer">
+        <div class="version-content-box version-decky">
+          <strong>✅ Games originally from Decky version:</strong>
+          <br><br>
+          These CAN be migrated back. For already installed games, open the game page in Junk Store and use <strong>Reset Launch Options</strong> from the sliders menu. This completes the migration back to Decky compatibility.
+          <br><br>
+          <strong>Note:</strong> You need to keep Decky installed and the games must remain installed through Decky to perform this migration.
+        </div>
+
+        <div class="version-content-box version-professional">
+          <strong>❌ Games newly installed in Junk Store 2.0:</strong>
+          <br><br>
+          These cannot be migrated back to Decky due to different install paths and configuration systems.
+          <br><br>
+          <strong>For games newly installed in 2.0 that you want to keep:</strong>
+          <ul>
+            <li>Back up your save files for any games you plan to keep playing</li>
+            <li>Manually uninstall games installed via the new version before your trial expires (to free up space)</li>
+            <li>Reinstall those games using the Decky version</li>
+            <li>Restore your game saves manually</li>
+          </ul>
+        </div>
+
+        <div style="background-color: rgba(168, 162, 158, 0.15); border-left: 4px solid #a8a29e; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
+          <strong>Tip:</strong> Complete this process before your trial ends — otherwise, you may lose access and the games will still occupy storage.
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item decky" data-version="decky" id="where-find-gog-extension">
       <div class="faq-question-header">
         <h3>Where can I find the GOG extension?</h3>
         <div class="version-badges">
@@ -422,22 +601,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item decky" data-version="decky">
-      <div class="faq-question-header">
-        <h3>Why isn't GOG free to use?</h3>
-        <div class="version-badges">
-          <span class="version-badge decky">Decky</span>
-        </div>
-      </div>
-      <div class="faq-answer">
-<p></p>
-    <div class="version-content-box version-decky">
-      GOG support is available to paid supporters, and while we'd love to offer it for free, there's a lot of behind-the-scenes work and resources involved in creating and maintaining Junk Store. We appreciate your understanding and support as we continue to improve and expand Junk Store. All funds go back into the enhancement and development of Junk Store.
-    </div>
-      </div>
-    </div>
-
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="gog-dos-scummvm-support">
       <div class="faq-question-header">
         <h3>Does the GOG extension support DOS and ScummVM games?</h3>
         <div class="version-badges">
@@ -463,162 +627,99 @@ classes: wide
       </div>
     </div>
 
-  </div>
-
-  <!-- Platform & Installation -->
-  <div class="faq-category">
-    <h2>Platform & Installation</h2>
-
-    <div class="faq-item professional" data-version="professional">
+    <div class="faq-item decky" data-version="decky" id="only-see-games-a-l">
       <div class="faq-question-header">
-        <h3>What new platforms are planned for future releases?</h3>
+        <h3>Why can I only see games A-L in my Epic/GOG library?</h3>
         <div class="version-badges">
-          <span class="version-badge professional">2.0</span>
+          <span class="version-badge decky">Decky</span>
         </div>
       </div>
       <div class="faq-answer">
 <p></p>
-    <div class="version-content-box version-professional">
-      <strong>Current platform support:</strong>
-      <ul>
-        <li>✅ <strong>Itch.io</strong> - Now available in beta</li>
-      </ul>
-      <strong>Planned platform support</strong> (pending successful launch and resources):
-      <ul>
-        <li>🎮 <strong>EA, Ubisoft, Battle.net</strong> - If technically viable</li>
-        <li>🔧 <strong>Community extension sharing</strong> - User-created platform support</li>
-      </ul>
-      <strong>Development approach:</strong> Each new platform requires extensive testing and compatibility work. We prioritize stable, Game Mode native implementations over quick additions.
+    <div class="version-content-box version-decky">
+      <strong>This is normal behavior for the Decky plugin.</strong> The free Decky version only loads your first 100 games by default for performance optimization.
       <br><br>
-      <strong>Important:</strong> Base your purchase decision on current features, not future promises. New platforms will be added as development resources allow.
-    </div>
-      </div>
-    </div>
-
-    <div class="faq-item professional" data-version="professional">
-      <div class="faq-question-header">
-        <h3>How do I update Junk Store and track new Steam Deck gaming features?</h3>
-        <div class="version-badges">
-          <span class="version-badge professional">2.0</span>
-        </div>
-      </div>
-      <div class="faq-answer">
-<p></p>
-    <div class="version-content-box version-professional">
-      Stay current with the latest Steam Deck non-Steam gaming improvements through our direct update system:
-      <br><br>
-      <strong>Update Notifications:</strong> Join our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> and follow our <strong>#version-2-updates</strong> channel for immediate update announcements.
-      <br><br>
-      <strong>Update Channels:</strong>
-      <ul>
-        <li><strong>Stable:</strong> Recommended for most Steam Deck users</li>
-        <li><strong>Test:</strong> Early access to hotfixes and new gaming features</li>
-        <li><strong>Beta:</strong> SteamOS compatibility updates (use if on SteamOS beta)</li>
-      </ul>
-      <strong>Change Channels:</strong> Press <strong>Select</strong> → <strong>About</strong> → <strong>System</strong>. Choose channels for both Junk Store core and Extensions (where new platform support is added).
-    </div>
-      </div>
-    </div>
-
-    <div class="faq-item professional" data-version="professional">
-      <div class="faq-question-header">
-        <h3>How do I access the itch.io extension (beta)?</h3>
-        <div class="version-badges">
-          <span class="version-badge professional">2.0</span>
-        </div>
-      </div>
-      <div class="faq-answer">
-<p></p>
-    <div class="version-content-box version-professional">
-      To access the itch.io extension currently in beta testing:
+      <strong>To see your full library:</strong>
       <ol>
-        <li>Change both your <strong>Build Channel</strong> and <strong>Extension Channel</strong> to <strong>Beta</strong></li>
-        <li>Press <strong>Select button</strong> → <strong>About</strong> → <strong>System</strong> to access channel settings</li>
-        <li>Check for updates in Junk Store</li>
-        <li>Open the <strong>hamburger menu</strong> (☰) and select <strong>Extension Generator</strong></li>
-        <li><strong>Download the itch.io extension</strong></li>
-        <li> Click the 📥 <strong>Install</strong> button</li>
-        <li> You should now see the <strong>itch.io tab</strong> in Junk Store - log into your account and start downloading games!</li>
+        <li>Open your Epic or GOG library in Junk Store</li>
+        <li>Navigate to any game in the list (move out of the search field)</li>
+        <li>Look for the bottom menu with <strong>"SHOW ALL"</strong> button</li>
+        <li>Press the <strong>Y button</strong> on your Steam Deck</li>
+        <li>Wait a moment for your complete library to load</li>
       </ol>
-      <strong>Important:</strong> Both channels must be set to Beta to access itch.io support. This ensures you have the latest core features and the beta extension system.
-      <br><br>
-      <strong>Beta Status:</strong> itch.io support is actively being tested. Report any issues on our <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues" target="_blank">GitHub Issues page</a>.
-    </div>
-      </div>
-    </div>
-
-    <div class="faq-item professional" data-version="professional">
-      <div class="faq-question-header">
-        <h3>How do I import and play my games from the Decky version in Junk Store 2.0?</h3>
-        <div class="version-badges">
-          <span class="version-badge professional">2.0</span>
-        </div>
-      </div>
-      <div class="faq-answer">
-<p></p>
-    <div class="version-content-box version-professional">
-      <strong>Automatic Import:</strong> This happens automatically when you first install and launch Junk Store 2.0. Once you've generated the extensions (Epic and/or GOG), your games will sync across when you open each corresponding tab.
-      <br><br>
-      <strong>Playing Imported Games:</strong> Yes, your games will work, but you'll need to <strong>Reset Launch Options</strong> for each game (found in the sliders menu on the game page). This only needs to be done once per game to fully migrate it to the new version.
-      <br><br>
-      <strong>Note:</strong> The initial import process can take some time, as Junk Store is rebuilding the databases for each storefront.
+      <strong>Can't see the "SHOW ALL" button?</strong>
+      <ul>
+        <li>Your CSS Loader theme might be hiding the bottom menu</li>
+        <li>Try temporarily disabling your CSS theme to access the button</li>
+        <li>You can still search for specific games by name</li>
+      </ul>
+      <strong>Note:</strong> Each store (Epic, GOG, Amazon) needs "SHOW ALL" pressed separately.
     </div>
       </div>
     </div>
 
   </div>
 
-  <!-- Game Management -->
+  <!-- Installing & Managing Games -->
   <div class="faq-category">
-    <h2>Game Management</h2>
+    <h2>Installing & Managing Games</h2>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="install-uninstall-game">
       <div class="faq-question-header">
-        <h3>How do I install or uninstall a game?</h3>
+        <h3>How do I install and uninstall games?</h3>
         <div class="version-badges">
           <span class="version-badge decky">Decky</span>
           <span class="version-badge professional">2.0</span>
         </div>
       </div>
       <div class="faq-answer">
-<p></p>
-  <strong>To install a game in Junk Store:</strong>
-  <ul>
-    <li>Open the game's page in Junk Store and click install</li>
-  </ul>
+        <strong>Installing games:</strong>
+        <ol>
+          <li>Open the game's page in Junk Store</li>
+          <li>Click <strong>Install</strong></li>
+        </ol>
 
-  <strong>Download behavior:</strong>
+        <strong>Download behavior:</strong>
 
-  <div class="version-content-box version-professional">
-    <strong>Junk Store 2.0:</strong>
-    <br><br>
-    Games are added to the download queue - you can navigate away and continue using Junk Store while they install.
-  </div>
+        <div class="version-content-box version-professional">
+          <strong>Junk Store 2.0:</strong>
+          <br><br>
+          Games are added to the download queue - you can navigate away and continue using Junk Store while they install.
+        </div>
 
-  <div class="version-content-box version-decky">
-    <strong>Decky Plugin:</strong>
-    <br><br>
-    Remember to stay on the game page until installation is complete.
-  </div>
+        <div class="version-content-box version-decky">
+          <strong>Decky Plugin:</strong>
+          <br><br>
+          <strong>Important:</strong> You must keep Junk Store open and stay on the game page until installation is complete. Junk Store doesn't have a background download queue - if you close or leave the plugin, your download may stop or behave unpredictably.
+          <br><br>
+          <strong>This applies to both:</strong>
+          <ul>
+            <li><strong>Epic Games:</strong> Stay on the game page until installation is complete</li>
+            <li><strong>GOG Games:</strong> Keep the plugin open during downloads</li>
+          </ul>
+        </div>
 
-  <strong>To uninstall a game in Junk Store:</strong>
-  <ol>
-    <li>Open the game's page in Junk Store</li>
-    <li>Open the <strong>☰ Slider menu</strong> and select <strong>Uninstall</strong></li>
-    <li>
-      Manually delete any leftover files to free up space:
-      <ul>
-        <li><strong>Epic:</strong> <code>~/Games/epic</code> or <code>/*your-SD-card*/Games/epic</code></li>
-        <li><strong>GOG:</strong> <code>~/Games/gog</code> or <code>/*your-SD-card*/Games/gog</code></li>
-        <li><strong>Amazon:</strong> <code>~/Games/amazon</code> or <code>/*your-SD-card*/Games/amazon</code></li>
-      </ul>
-    </li>
-  </ol>
-  <strong>Important:</strong> Uninstalling removes all local save data. To back up saves first, see "How do I find save data for my games?" below.
+        <strong>Uninstalling games:</strong>
+        <ol>
+          <li>Open the game's page in Junk Store</li>
+          <li>Open the <strong>☰ Slider menu</strong> and select <strong>Uninstall</strong></li>
+          <li>
+            Manually delete any leftover files to free up space:
+            <ul>
+              <li><strong>Epic:</strong> <code>~/Games/epic</code> or <code>/*your-SD-card*/Games/epic</code></li>
+              <li><strong>GOG:</strong> <code>~/Games/gog</code> or <code>/*your-SD-card*/Games/gog</code></li>
+              <li><strong>Amazon:</strong> <code>~/Games/amazon</code> or <code>/*your-SD-card*/Games/amazon</code></li>
+            </ul>
+          </li>
+        </ol>
+
+        <div style="background-color: rgba(168, 162, 158, 0.15); border-left: 4px solid #a8a29e; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
+          <strong>Important:</strong> Uninstalling removes all local save data. To back up saves first, see "How do I find save data for my games?" below.
+        </div>
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="find-save-data">
       <div class="faq-question-header">
         <h3>How do I find save data for my games?</h3>
         <div class="version-badges">
@@ -650,50 +751,50 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="manage-game-storage">
       <div class="faq-question-header">
-        <h3>How do I change where games are downloaded?</h3>
+        <h3>How do I change where games are downloaded and manage game storage?</h3>
         <div class="version-badges">
           <span class="version-badge decky">Decky</span>
           <span class="version-badge professional">2.0</span>
         </div>
       </div>
       <div class="faq-answer">
-<p></p>
-    You can set your preferred download location from the Epic tab:
-  <ol>
-    <li>Go to the <strong>Epic</strong> tab</li>
-    <li>Click the <strong>⚙️ Gear icon</strong> to open settings</li>
-    <li>Set your desired download path (e.g. your SD card directory)</li>
-    <li>Press <kbd>X</kbd> to save your changes</li>
-  </ol>
-  <strong>For GOG games:</strong> Similar process but from the GOG extension interface after installation.
-      </div>
-    </div>
+        <div class="version-content-box version-professional">
+          <strong>Junk Store 2.0:</strong>
+          <br><br>
+          You can set your preferred download location for each platform separately:
+          <ol>
+            <li>Go to the Epic, GOG, Amazon, or itch.io (beta) tab</li>
+            <li>Click the <strong>⚙️ Gear icon</strong> to open settings</li>
+            <li>Make sure to set the dropdown at the top to <strong>All</strong></li>
+            <li>Set your desired download path:
+              <ul>
+                <li>Choose from preset options (SSD, microSD), OR</li>
+                <li>Select <strong>Specify your own path</strong> and enter a custom location in the <strong>Custom Install Path</strong> field</li>
+              </ul>
+            </li>
+            <li>Press <kbd>X</kbd> to save your changes</li>
+            <li>Repeat for each platform you want to configure</li>
+          </ol>
+        </div>
 
-    <div class="faq-item shared" data-version="shared">
-      <div class="faq-question-header">
-        <h3>How do I manage game storage and SD card downloads?</h3>
-        <div class="version-badges">
-          <span class="version-badge decky">Decky</span>
-          <span class="version-badge professional">2.0</span>
+        <div class="version-content-box version-decky">
+          <strong>Decky Plugin:</strong>
+          <br><br>
+          You can set your preferred download location from the Epic tab:
+          <ol>
+            <li>Go to the <strong>Epic</strong> tab</li>
+            <li>Click the <strong>⚙️ Gear icon</strong> to open settings</li>
+            <li>Set your desired download path (e.g. your microSD card directory)</li>
+            <li>Press <kbd>X</kbd> to save your changes</li>
+          </ol>
+          <strong>For GOG games:</strong> Similar process but from the GOG extension interface after installation.
         </div>
       </div>
-      <div class="faq-answer">
-<p></p>
-    <strong>Changing Download Location:</strong> You can set your preferred download location for each platform separately:
-  <ul>
-    <li>Go to the <strong>Epic</strong>, <strong>GOG</strong>, <strong>Amazon</strong>, or <strong>itch.io (beta)</strong> tab</li>
-    <li>Click the <strong>⚙️ Gear icon</strong> to open settings</li>
-    <li>Set your desired download path (e.g. your SD card directory)</li>
-    <li>Press <kbd>X</kbd> to save your changes</li>
-    <li>Repeat for each platform you want to configure</li>
-  </ul>
-    <strong>Moving Existing Games:</strong> Not currently supported. Moving installed games to SD card is a complex feature on our development roadmap. For now, games need to be stored on internal storage or an already-mounted drive.
-      </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="move-games-to-sd-card">
       <div class="faq-question-header">
         <h3>Can I move games to my SD card?</h3>
         <div class="version-badges">
@@ -702,15 +803,25 @@ classes: wide
         </div>
       </div>
       <div class="faq-answer">
-<p></p>
-    No, not possible. This is a complex feature that we're not planning to implement, but we're open if someone wants to contribute a pull request for this feature.
-  <br>
-  <br>
-    <strong>Workaround:</strong> Set your download location to your SD card before installing new games.
+        <div class="version-content-box version-professional">
+          <strong>Junk Store 2.0:</strong>
+          <br><br>
+          Not currently supported. Moving installed games to SD card is a complex feature on our development roadmap for Junk Store 2.0. For now, games need to be stored on internal storage or an already-mounted drive.
+        </div>
+
+        <div class="version-content-box version-decky">
+          <strong>Decky Plugin:</strong>
+          <br><br>
+          No, not possible. This is a complex feature that we're not planning to implement in the Decky version, but we're open if someone wants to contribute a pull request for this feature.
+        </div>
+
+        <div style="background-color: rgba(168, 162, 158, 0.15); border-left: 4px solid #a8a29e; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
+          <strong>Workaround:</strong> Set your desired download location before installing new games.
+        </div>
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="change-proton-version">
       <div class="faq-question-header">
         <h3>How do I change the Proton version for a game?</h3>
         <div class="version-badges">
@@ -744,26 +855,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
-      <div class="faq-question-header">
-        <h3>I want to change the FPS for a game. How do I do this in Junk Store?</h3>
-        <div class="version-badges">
-          <span class="version-badge decky">Decky</span>
-          <span class="version-badge professional">2.0</span>
-        </div>
-      </div>
-      <div class="faq-answer">
-<p></p>
-    Just like with regular Steam games, you can change the FPS cap through the Quick Access Menu (QAM).
-    <ul> 
-      <li>Hit the <strong>three-dot button</strong> on your Deck to open the QAM</li>
-      <li>Scroll to the performance tab</li>
-      <li>Adjust the FPS, TDP, refresh rate, or any other performance settings from there.</li>
-    </ul>
-      </div>
-    </div>
-
-    <div class="faq-item professional" data-version="professional">
+    <div class="faq-item professional" data-version="professional" id="change-game-language">
       <div class="faq-question-header">
         <h3>How do I change game language settings on Steam Deck without Desktop Mode?</h3>
         <div class="version-badges">
@@ -796,7 +888,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item professional" data-version="professional">
+    <div class="faq-item professional" data-version="professional" id="enable-offline-mode">
       <div class="faq-question-header">
         <h3>How do I enable offline mode for Steam Deck non-Steam games?</h3>
         <div class="version-badges">
@@ -819,7 +911,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="auto-install-dlc">
       <div class="faq-question-header">
         <h3>Does Junk Store automatically install DLC content?</h3>
         <div class="version-badges">
@@ -846,7 +938,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="manage-dlc-installations">
       <div class="faq-question-header">
         <h3>How do I manage DLC installations for Steam Deck non-Steam games?</h3>
         <div class="version-badges">
@@ -868,65 +960,13 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item decky" data-version="decky">
-      <div class="faq-question-header">
-        <h3>Do I need to keep Junk Store open while downloading games?</h3>
-        <div class="version-badges">
-          <span class="version-badge decky">Decky</span>
-        </div>
-      </div>
-      <div class="faq-answer">
-        <div class="version-content-box version-decky">
-          <strong>Yes.</strong> Junk Store doesn't have a background download queue. If you close or leave the plugin, your download may stop or behave unpredictably.
-          <br>
-          <br>
-          <strong>This applies to both:</strong>
-          <ul>
-            <li><strong>Epic Games:</strong> Stay on the game page until installation is complete</li>
-            <li><strong>GOG Games:</strong> Keep the plugin open during downloads</li>
-          </ul>
-          <strong>Important:</strong> Stay on the game page until installation is complete to ensure reliable downloads.
-        </div>
-      </div>
-    </div>
-
-    <div class="faq-item professional" data-version="professional">
-      <div class="faq-question-header">
-        <h3>How do I migrate games back to the Decky (free) version?</h3>
-        <div class="version-badges">
-          <span class="version-badge professional">2.0</span>
-        </div>
-      </div>
-      <div class="faq-answer">
-        <div class="version-content-box version-professional">
-          <strong>It depends on when the games were originally installed:</strong>
-          <br>
-          <br>
-          <strong>✅ Games originally from Decky version:</strong> These CAN be migrated back. For already installed games, open the game page in Junk Store and use <strong>Reset Launch Options</strong> from the sliders menu. This completes the migration back to Decky compatibility.
-          <br>
-          <br>
-          <strong>❌ Games newly installed in Junk Store 2.0:</strong> These cannot be migrated back to Decky due to different install paths and configuration systems.
-          <br>
-          <br>
-          <strong>For games newly installed in 2.0 that you want to keep:</strong>
-          <ul>
-            <li>Back up your save files for any games you plan to keep playing</li>
-            <li>Manually uninstall games installed via the new version before your trial expires (to free up space)</li>
-            <li>Reinstall those games using the Decky version</li>
-            <li>Restore your game saves manually</li>
-          </ul>
-          <strong>Tip:</strong> Complete this process before your trial ends — otherwise, you may lose access and the games will still occupy storage.
-        </div>
-      </div>
-    </div>
-
   </div>
 
-  <!-- Game Compatibility -->
+  <!-- Compatibility & Support -->
   <div class="faq-category">
-    <h2>Game Compatibility</h2>
+    <h2>Compatibility & Support</h2>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="third-party-launchers">
       <div class="faq-question-header">
         <h3>Do games requiring third-party launchers (EA, Ubisoft, etc.) work with Junk Store?</h3>
         <div class="version-badges">
@@ -949,7 +989,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="anti-cheat-games">
       <div class="faq-question-header">
         <h3>What about games with anti-cheat systems (including Fortnite)?</h3>
         <div class="version-badges">
@@ -976,7 +1016,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="cheatdeck-compatibility">
       <div class="faq-question-header">
         <h3>Does CheatDeck work with Junk Store?</h3>
         <div class="version-badges">
@@ -993,13 +1033,7 @@ classes: wide
       </div>
     </div>
 
-  </div>
-
-  <!-- Technical Support -->
-  <div class="faq-category">
-    <h2>Technical Support</h2>
-
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="cloud-saves-support">
       <div class="faq-question-header">
         <h3>Does Junk Store support cloud saves?</h3>
         <div class="version-badges">
@@ -1034,7 +1068,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="report-bug">
       <div class="faq-question-header">
         <h3>I think I've found a bug. How do I report it?</h3>
         <div class="version-badges">
@@ -1067,7 +1101,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item decky" data-version="decky">
+    <div class="faq-item decky" data-version="decky" id="request-features">
       <div class="faq-question-header">
         <h3>How do I request features or get X feature added?</h3>
         <div class="version-badges">
@@ -1090,7 +1124,7 @@ classes: wide
       </div>
     </div>
 
-    <div class="faq-item shared" data-version="shared">
+    <div class="faq-item shared" data-version="shared" id="where-get-help">
       <div class="faq-question-header">
         <h3>Where can I get help if I'm stuck?</h3>
         <div class="version-badges">
@@ -1117,6 +1151,114 @@ classes: wide
   </div>
 
 </section>
+
+<style>
+/* FAQ Anchor Link Styling */
+.faq-anchor {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8em;
+  margin-left: 8px;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.faq-anchor:hover {
+  opacity: 1;
+}
+
+.faq-question-header:hover .faq-anchor {
+  opacity: 0.8;
+}
+
+/* Copy Success Notification */
+.copy-success {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #10b981;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 6px;
+  z-index: 9999;
+  animation: fadeInOut 3s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  15% { opacity: 1; transform: translateY(0); }
+  85% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+</style>
+
+<script>
+// Copy FAQ link function (must be before DOMContentLoaded)
+function copyFAQLink(questionId) {
+  const url = window.location.origin + window.location.pathname + '#' + questionId;
+
+  // Show notification helper
+  function showNotification(message, isError = false) {
+    const notification = document.createElement('div');
+    notification.className = 'copy-success';
+    notification.style.background = isError ? '#ef4444' : '#10b981';
+    notification.textContent = message;
+    document.body.appendChild(notification);
+
+    setTimeout(() => {
+      if (document.body.contains(notification)) {
+        document.body.removeChild(notification);
+      }
+    }, 3000);
+  }
+
+  // Try modern clipboard API first
+  if (navigator.clipboard && window.isSecureContext) {
+    navigator.clipboard.writeText(url).then(() => {
+      showNotification('Link copied to clipboard!');
+    }).catch((err) => {
+      console.warn('Clipboard API failed:', err);
+      fallbackCopy();
+    });
+  } else {
+    fallbackCopy();
+  }
+
+  // Fallback copy method
+  function fallbackCopy() {
+    try {
+      // Create temporary textarea
+      const textArea = document.createElement('textarea');
+      textArea.value = url;
+      textArea.style.position = 'fixed';
+      textArea.style.left = '-9999px';
+      textArea.style.top = '-9999px';
+      textArea.setAttribute('readonly', '');
+      document.body.appendChild(textArea);
+
+      // Select and copy
+      textArea.focus();
+      textArea.select();
+      textArea.setSelectionRange(0, 99999); // For mobile
+
+      const successful = document.execCommand('copy');
+      document.body.removeChild(textArea);
+
+      if (successful) {
+        showNotification('Link copied to clipboard!');
+      } else {
+        showNotification('Copy failed - please copy manually: ' + url, true);
+      }
+    } catch (err) {
+      console.error('Copy failed:', err);
+      showNotification('Copy failed - please copy manually: ' + url, true);
+    }
+  }
+}
+</script>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -1186,5 +1328,52 @@ document.addEventListener('DOMContentLoaded', function() {
       answer.classList.toggle('show');
     });
   });
+
+  // Add anchor buttons to all FAQ questions
+  function addAnchorButtons() {
+    const faqItems = document.querySelectorAll('.faq-item[id]');
+    faqItems.forEach(item => {
+      const questionHeader = item.querySelector('.faq-question-header h3');
+      const id = item.getAttribute('id');
+      if (questionHeader && id && !questionHeader.querySelector('.faq-anchor')) {
+        const anchorButton = document.createElement('button');
+        anchorButton.className = 'faq-anchor';
+        anchorButton.setAttribute('onclick', `copyFAQLink('${id}')`);
+        anchorButton.setAttribute('title', 'Copy link to this question');
+        anchorButton.innerHTML = '🔗';
+        questionHeader.appendChild(document.createTextNode(' '));
+        questionHeader.appendChild(anchorButton);
+      }
+    });
+  }
+
+  // Handle direct links to FAQ items
+  function openLinkedFAQ() {
+    if (window.location.hash) {
+      const targetId = window.location.hash.substring(1);
+      const targetElement = document.getElementById(targetId);
+      if (targetElement && targetElement.classList.contains('faq-item')) {
+        // Open the answer by adding the 'show' class
+        const answer = targetElement.querySelector('.faq-answer');
+        if (answer) {
+          answer.classList.add('show');
+        }
+        // Scroll to the element with some offset for better visibility
+        setTimeout(() => {
+          targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          // Add temporary highlight
+          targetElement.style.boxShadow = '0 0 10px rgba(59, 130, 246, 0.5)';
+          setTimeout(() => {
+            targetElement.style.boxShadow = '';
+          }, 3000);
+        }, 100);
+      }
+    }
+  }
+
+  // Run on page load and hash change
+  addAnchorButtons();
+  openLinkedFAQ();
+  window.addEventListener('hashchange', openLinkedFAQ);
 });
 </script>
