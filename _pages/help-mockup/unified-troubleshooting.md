@@ -469,30 +469,21 @@ cd ~/homebrew/plugins/Junk Store
       </div>
     </div>
 
-    <div class="faq-item decky" data-version="decky" id="shortcuts-not-appearing">
+    <div class="faq-item shared" data-version="shared" id="shortcuts-not-appearing">
       <div class="faq-question-header">
-        <h3>Shortcuts aren't appearing</h3>
-        <div class="version-badges">
-          <span class="version-badge decky">Decky</span>
-        </div>
-      </div>
-      <div class="faq-answer">
-        <div class="version-content-box version-decky">
-          Try rebooting your device first. If they still don't appear, ask for help in the <em>plugin-support</em> forum on <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a>.
-        </div>
-      </div>
-    </div>
-
-    <div class="faq-item shared" data-version="shared" id="games-not-showing-non-steam">
-      <div class="faq-question-header">
-        <h3>Games aren't showing up in the Non-Steam tab</h3>
+        <h3>Shortcuts aren't appearing in the Non-Steam tab</h3>
         <div class="version-badges">
           <span class="version-badge decky">Decky</span>
           <span class="version-badge professional">2.0</span>
         </div>
       </div>
       <div class="faq-answer">
-        Check your settings and make sure the shortcut isn't hidden. After changing settings, reboot your Steam Deck for changes to take effect.
+        Try the following steps:
+        <ol>
+          <li>Check your settings and make sure the shortcut isn't hidden</li>
+          <li>Reboot your Steam Deck for changes to take effect</li>
+          <li>If shortcuts still don't appear after rebooting, ask for help in the <em>plugin-support</em> forum on <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a></li>
+        </ol>
       </div>
     </div>
 
@@ -534,64 +525,53 @@ cd ~/homebrew/plugins/Junk Store
         </div>
       </div>
       <div class="faq-answer">
-        <div class="version-content-box version-professional">
-          <strong>For Junk Store 2.0:</strong><br>
-          Games may fail to launch for various reasons. Let's go through a step-by-step checklist to identify and fix the issue. After each step, try launching the game—this helps identify exactly what fixed the problem.
-          <br><br>
-          <strong>Check offline mode settings:</strong>
-          <ul>
-            <li>Check global settings: Go to the storefront tab (<span class="store-name">Epic</span>/<span class="store-name">GOG</span>/<span class="store-name">Amazon</span>/<span class="store-name">itch.io</span>) → ⚙️ Cog Icon and make sure <strong>Offline Mode</strong> is toggled <strong>off</strong></li>
-            <li>Check per-game settings: Go to Junk Store → [Your Game] → Press Y → ⚙️ Cog Icon → Game Configs and check if <strong>Offline Mode</strong> is enabled for that specific game</li>
-            <li>If you change any settings, make sure to <strong>Press X to Save</strong></li>
-          </ul>
-          <br>
-          <strong>Install any missing game dependencies:</strong>
-          <ul>
-            <li>Missing or broken dependencies can cause launch issues</li>
-            <li>You may get prompted to install things like Microsoft C++ runtimes when first launching</li>
-            <li>Easily install any missing dependencies via our built-in dependency installer</li>
-          </ul>
-          <br>
-          <strong>Update, verify, or repair the game files:</strong>
-          <ul>
-            <li>To update game files: <code>Junk Store → [Your Game] → ☰ Sliders Menu → Update Game</code></li>
-            <li>To verify game files: <code>Junk Store → [Your Game] → ☰ Sliders Menu → Verify Game</code></li>
-            <li>To repair game files: <code>Junk Store → [Your Game] → ☰ Sliders Menu → Repair Game</code></li>
-          </ul>
-          <br>
-          <strong>Change to a GE-Proton version:</strong>
-          <ul>
-            <li>Some games require a more compatible version of Proton</li>
-            <li>Go to: <code>Junk Store → [Your Game] → Press Y → ⚙️ Cog Icon → Compatibility</code></li>
-            <li>You can also change this from the <strong>Non-Steam Tab</strong></li>
-            <li>Select a <strong>GE-Proton</strong> version</li>
-          </ul>
-          <br>
-          <strong>Install and enable the EOS Overlay (<span class="store-name">Epic</span> games only):</strong>
-          <ul>
-            <li>Some <span class="store-name">Epic</span> games require the <span class="store-name">Epic</span> Online Services (EOS) overlay to launch properly</li>
-            <li>To install the EOS overlay: <code>Junk Store → <span class="store-name">Epic</span> Tab → ☰ Sliders Menu → Install EOS Overlay</code> (this only needs to be done once)</li>
-            <li>To enable the EOS overlay: <code>Junk Store → [Your Game] → ☰ Sliders Menu → Enable EOS Overlay</code> (this needs to be done per game that requires/supports it if needed)</li>
-          </ul>
-        </div>
-        <div class="version-content-box version-decky">
-          <strong>For Decky Plugin:</strong><br>
-          Games may fail to launch for a variety of reasons. Here are some common causes and what you can do:
-          <br><br>
-          <strong>Wrong compatibility layer:</strong><br>
-          Try switching to a different version of Proton. Non-Steam games usually work best with <strong>GE-Proton</strong>. We recommend finding a version that works well for most of your library and using it as the default for non-Steam games.
-          <br><br>
-          However, some titles require a <em>specific</em> version of Proton or GE-Proton to run properly.
-          <br><br>
-          <strong>Missing dependencies:</strong><br>
-          Some games require additional libraries such as <strong>Microsoft C++ Runtime</strong> or <strong>DirectX</strong>. These dependencies may not always trigger an obvious error message, so try installing them if you suspect they're missing.
-        </div>
-
+        Games may fail to launch for various reasons. Let's go through a step-by-step checklist to identify and fix the issue. After each step, try launching the game—this helps identify exactly what fixed the problem.
+        <br><br>
+        <strong>Check offline mode settings:</strong>
+        <ul>
+          <li>Check global settings: Go to the storefront tab (<span class="store-name">Epic</span>/<span class="store-name">GOG</span>/<span class="store-name">Amazon</span>/<span class="store-name">itch.io</span>) → ⚙️ Cog Icon and make sure <strong>Offline Mode</strong> is toggled <strong>off</strong></li>
+          <li>Check per-game settings: Go to Junk Store → [Your Game] → Press Y → ⚙️ Cog Icon → Game Configs and check if <strong>Offline Mode</strong> is enabled for that specific game</li>
+          <li>If you change any settings, make sure to <strong>Press X to Save</strong></li>
+        </ul>
+        <br>
+        <strong>Install any missing game dependencies:</strong>
+        <ul>
+          <li>Missing or broken dependencies can cause launch issues</li>
+          <li>You may get prompted to install things like Microsoft C++ runtimes when first launching</li>
+          <li>Easily install any missing dependencies via our built-in dependency installer</li>
+        </ul>
+        <br>
+        <strong>Update, verify, or repair the game files:</strong>
+        <ul>
+          <li>To update game files: <code>Junk Store → [Your Game] → ☰ Sliders Menu → Update Game</code></li>
+          <li>To verify game files: <code>Junk Store → [Your Game] → ☰ Sliders Menu → Verify Game</code></li>
+          <li>To repair game files: <code>Junk Store → [Your Game] → ☰ Sliders Menu → Repair Game</code></li>
+        </ul>
+        <br>
+        <strong>Change to a GE-Proton version:</strong>
+        <ul>
+          <li>Some games require a more compatible version of Proton</li>
+          <li>Go to: <code>Junk Store → [Your Game] → Press Y → ⚙️ Cog Icon → Compatibility</code></li>
+          <li>You can also change this from the <strong>Non-Steam Tab</strong></li>
+          <li>Select a <strong>GE-Proton</strong> version</li>
+        </ul>
+        <br>
+        <strong>Install and enable the EOS Overlay (<span class="store-name">Epic</span> games only):</strong>
+        <ul>
+          <li>Some <span class="store-name">Epic</span> games require the <span class="store-name">Epic</span> Online Services (EOS) overlay to launch properly</li>
+          <li>To install the EOS overlay: <code>Junk Store → <span class="store-name">Epic</span> Tab → ☰ Sliders Menu → Install EOS Overlay</code> (this only needs to be done once)</li>
+          <li>To enable the EOS overlay: <code>Junk Store → [Your Game] → ☰ Sliders Menu → Enable EOS Overlay</code> (this needs to be done per game that requires/supports it if needed)</li>
+        </ul>
+        <br>
+        Please refer to our <a href="/tutorials/">Tutorials</a> section to learn how to change or check your Proton version or install Microsoft C++ runtimes if you are unsure how to do this.
+        <br><br>
         <div style="background-color: rgba(168, 162, 158, 0.15); border-left: 4px solid #a8a29e; padding: 15px 20px; margin: 15px 0; border-radius: 6px;">
           <strong>Still not working? Check compatibility resources:</strong><br>
           First check our <a href="/tested-games/">Games Tested table</a> for compatibility status and any specific workarounds for your game.
           <br><br>
           If not found there, visit <a href="https://www.protondb.com" target="_blank" rel="noopener">ProtonDB.com</a> for community tips. You may find game-specific tweaks, compatibility reports, or Proton version recommendations that solve your issue.
+          <br><br>
+          If that doesn't work, ask for help in our <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> server. Please be patient—our team is small! While we have a decent game library, we don't have every game, so we may only be able to offer advice rather than fixes.
         </div>
       </div>
     </div>
@@ -610,15 +590,11 @@ cd ~/homebrew/plugins/Junk Store
         <strong>Try using a GE-Proton version:</strong><br>
         GE-Proton tends to be more compatible with non-Steam games and often fixes these launch issues.
         <br><br>
-        <div class="version-content-box version-professional">
-          <strong>For Junk Store 2.0:</strong><br>
-          To change Proton version: <code>Junk Store → [Your Game] → Press Y → ⚙️ Cog Icon → Compatibility</code><br>
-          Select a <strong>GE-Proton</strong> version from the list
-        </div>
-        <div class="version-content-box version-decky">
-          <strong>For Decky Plugin:</strong><br>
-          To change Proton version: Open the game's properties in Steam and select a different Proton version from the Compatibility tab
-        </div>
+        <strong>To change Proton version:</strong>
+        <ul>
+          <li>In Junk Store: <code>Junk Store → [Your Game] → Press Y → ⚙️ Cog Icon → Compatibility</code> and select a <strong>GE-Proton</strong> version from the list</li>
+          <li>From Steam: Open the game's properties in Steam and select a different Proton version from the Compatibility tab</li>
+        </ul>
         <br>
         <strong>Where to get GE-Proton versions:</strong>
         <ul>
@@ -626,6 +602,8 @@ cd ~/homebrew/plugins/Junk Store
           <li><strong>ProtonUp-QT</strong> from the Discover Store on your Steam Deck</li>
         </ul>
         <br>
+        Please refer to our <a href="/tutorials/">Tutorials</a> page to see how to change/check your Proton version if you are unsure how to do this.
+        <br><br>
         <strong>Need more tweaks? Or still having issues?</strong><br>
         Check <a href="https://www.protondb.com" target="_blank" rel="noopener">ProtonDB.com</a> for community-recommended tweaks or launch options that may be needed to get your specific game working.
       </div>
@@ -655,29 +633,6 @@ cd ~/homebrew/plugins/Junk Store
           <code>/home/deck/homebrew/data/Junk Store</code>
           <br><br>
           Junk Store relies on that data directory to function correctly.
-        </div>
-      </div>
-    </div>
-
-    <div class="faq-item decky" data-version="decky" id="works-in-heroic-lutris-not-junk-store">
-      <div class="faq-question-header">
-        <h3>My game works in Heroic or Lutris, but not in Junk Store</h3>
-        <div class="version-badges">
-          <span class="version-badge decky">Decky</span>
-        </div>
-      </div>
-      <div class="faq-answer">
-        <div class="version-content-box version-decky">
-          Games that run in Heroic or Lutris usually work in Junk Store too — it's just a matter of finding the right tweaks:
-          <ul>
-            <li><strong>Check our game compatibility table first</strong> — see if the game is listed in our <a href="/tested-games/">tested games database</a> for known compatibility status and specific tweaks</li>
-            <li>Try switching to a different GE-Proton version</li>
-            <li>Install any required or missing dependencies (you may sometimes get a prompt to install a Microsoft C++ runtime, or something else)</li>
-            <li>Some <span class="store-name">Epic</span> games require the EOS overlay to be enabled before they will work. Make sure you have installed this globally (<span class="store-name">Epic</span> tab) and enabled it for the game (done from the game page in Junk Store)</li>
-          </ul>
-          Please refer to our <a href="/tutorials/">Tutorials</a> section to learn how to change or check your Proton version or install Microsoft C++ runtimes if you are unsure how to do this.
-          <br><br>
-          If that doesn't work, ask for help in our Discord server. Please be patient—our team is small! While we have a decent game library, we don't have every game, so we may only be able to offer advice rather than fixes.
         </div>
       </div>
     </div>
