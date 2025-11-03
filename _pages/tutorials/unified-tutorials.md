@@ -64,7 +64,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 </div>
 
 <div class="tutorial-item decky">
-  <h4><a href="/tutorials/gog-extension">GOG Extension Setup</a></h4>
+  <h4><a href="/tutorials/gogextension/">GOG Extension Setup</a></h4>
   <p>Add GOG games to your Decky plugin</p>
   <span class="tutorial-tag decky-tag">Decky Plugin</span>
 </div>
