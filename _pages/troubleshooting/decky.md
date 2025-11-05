@@ -276,7 +276,7 @@ header:
   <p></p>
     Make sure you're using the <strong>latest version of Junk Store</strong> from the <strong>Decky Testing Store</strong>.<br><br>
     You'll also need to reinstall dependencies by going to the <strong>About</strong> section and clicking "Install Dependencies."<br><br>
-    Once you've purchased the GOG extension, please follow the <a href="/tutorials/gogextension">GOG Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.
+    Once you've purchased the GOG extension, please follow the <a href="/tutorials/gogextension/">GOG Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.
 </details>
 
 <details class="faq-box" id="no-gog-games-showing">
