@@ -159,26 +159,18 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
 <details class="faq-box" id="find-gog-extension">
   <summary>Where can I find the GOG extension?</summary>
   <p></p>
-    You can purchase access with a one-time payment via three different methods:<br><br>
+    Purchase access with a one-time payment through the Junk Store Portal:<br><br>
     
     <div class="purchase-buttons-container">
       <a href="https://portal.junkstore.xyz/" target="_blank" class="purchase-button portal-button">
         <span class="button-text">🏆 Junk Store Portal</span>
-        <span class="button-subtitle">Recommended - Easy updates!</span>
-      </a>
-      
-      <a href="https://www.patreon.com/junkstore" target="_blank" class="purchase-button patreon-button">
-        <span class="button-text">Patreon Shop</span>
-      </a>
-      
-      <a href="https://ko-fi.com/junkstore" target="_blank" class="purchase-button kofi-button">
-        <span class="button-text">Ko-fi Shop</span>
+        <span class="button-subtitle">Portal-only sales - Instant access!</span>
       </a>
     </div>
 
-    <p><strong>⚠️ Important:</strong> GOG extension updates are now exclusively available via the Junk Store Portal. This makes it faster for us to deliver updates and much easier for you to download and install them.</p>
+    <p><strong>⚠️ Important:</strong> The GOG extension is now exclusively available through the Junk Store Portal. All updates are delivered through the Portal for faster distribution and easier downloads.</p>
 
-    <p><strong>📝 Note:</strong> There will be a delay in migrating new Patreon/Ko-fi customers to the Portal system. If you want instant access to the most up-to-date GOG extension version, purchase directly through the Junk Store Portal.</p>
+    <p><strong>📝 Previous Supporters:</strong> All migrations have been completed. Sign in to the Portal using your original email address to access your extension. <a href="https://www.junkstore.xyz/blog/gog-extension-portal-only/" target="_blank">Read our step-by-step guide</a> for instructions on activating your Portal account.</p>
     
     Once you have it, you have it. We can't take away GOG functionality/integration with the Junk Store plugin. All funds go back into the enhancement and development of Junk Store.
 </details>
