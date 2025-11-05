@@ -7,7 +7,7 @@
   "epic_url": "https://store.epicgames.com/en-US/p/borderlands-3",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Borderlands_3",
-  "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**. If you get an error pop up verify the games files (cog menu) or delete the file the error is pointing to & then verify the files.",
+  "notes": "Worsk out of the box!<br><br>If you get an error pop up verify the games files (cog menu) or delete the file the error is pointing to & then verify the files.",
   "date_tested": "June '24",
   "decky_rating": "green",
   "standalone_rating": "green",
@@ -20,7 +20,7 @@
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
-  "epic_offline_mode": false,
+  "epic_offline_mode": true,
   "must_be_online": false,
   "requires_eac_runtime": false,
   "requires_battleye_runtime": false,
@@ -60,11 +60,11 @@
     "Russian",
     "Simplified Chinese*"
   ],
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-10-23T19:51:18.546Z"
+  "updated_at": "2025-10-31T02:18:16.072Z"
 }

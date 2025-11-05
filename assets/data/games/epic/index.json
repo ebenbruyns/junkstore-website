@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 372,
+  "total_games": 376,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -49,6 +49,7 @@
     "bear-breakfast.json",
     "behind-the-frame-the-finest-scenery.json",
     "beholder.json",
+    "bendy-and-the-ink-machine.json",
     "beyond-blue.json",
     "bioshock-2-remastered.json",
     "bioshock-infinite.json",
@@ -121,6 +122,7 @@
     "doomsday-last-survivors.json",
     "doors-paradox.json",
     "dredge.json",
+    "duet-night-abyss.json",
     "eastern-exorcist.json",
     "el-hijo-a-wild-west-tale.json",
     "electrician-simulator.json",
@@ -129,6 +131,7 @@
     "ender-lilies-quietus-of-the-knights.json",
     "escape-academy.json",
     "eternights.json",
+    "europa-universalis-iv.json",
     "f1-manager-2024.json",
     "faaast-penguin.json",
     "fall-guys.json",
@@ -147,6 +150,7 @@
     "filthy-animals-heist-simulator.json",
     "firestone-online-idle-rpg.json",
     "fist-forged-in-shadow-torch.json",
+    "five-nights-at-freddys-into-the-pit.json",
     "floppy-knights.json",
     "football-manager-2024.json",
     "for-the-king.json",
@@ -375,18 +379,12 @@
     "zenless-zone-zero.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2025-10-24T21:30:41.900Z",
+  "featured_games": 3,
+  "last_updated": "2025-11-04T19:55:56.726Z",
   "latest_games": [
     {
-      "title": "Alan Wake II",
-      "slug": "alan-wake-ii",
-      "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "Fear the Spotlight",
-      "slug": "fear-the-spotlight",
+      "title": "Duet Night Abyss",
+      "slug": "duet-night-abyss",
       "date_tested": "Oct '25",
       "is_featured": true
     },
@@ -397,45 +395,51 @@
       "is_featured": false
     },
     {
-      "title": "Star Stable",
-      "slug": "star-stable",
+      "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
+      "slug": "jorels-brother-and-the-most-important-game-of-the-galaxy",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Five Nights at Freddy's: Into the Pit",
+      "slug": "five-nights-at-freddys-into-the-pit",
       "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "Doom 64",
-      "slug": "doom-64",
+      "title": "Bendy and the Ink Machine",
+      "slug": "bendy-and-the-ink-machine",
       "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "Samorost 3",
-      "slug": "samorost-3",
+      "title": "Dishonored",
+      "slug": "dishonored",
       "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "Amnesia: The Bunker",
-      "slug": "amnesia-the-bunker",
+      "title": "Europa Universalis IV",
+      "slug": "europa-universalis-iv",
       "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "Submerged: Hidden Depths",
-      "slug": "submerged-hidden-depths",
+      "title": "Happy Game",
+      "slug": "happy-game",
       "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "Dishonored: Death of the Outsider",
-      "slug": "dishonored-death-of-the-outsider",
-      "date_tested": "Oct '25",
+      "title": "Kamaeru",
+      "slug": "kamaeru",
+      "date_tested": "Aug '25",
       "is_featured": false
     },
     {
-      "title": "Vampire: The Masquerade - Reckoning of New York",
-      "slug": "vampire-the-masquerade-reckoning-of-new-york",
-      "date_tested": "Oct '25",
+      "title": "RiME",
+      "slug": "rime",
+      "date_tested": "June '24",
       "is_featured": false
     }
   ]
