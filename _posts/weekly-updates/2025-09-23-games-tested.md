@@ -40,7 +40,7 @@ Let's get to this week's results — some real gems!
 * **Proton**: GE-Proton 10.10
 * **SteamOS**: v3.7.13 (Stable)
 
-> **GOG Extension Note:** The updated GOG Extension is exclusively available through the [Junk Store Portal](https://portal.junkstore.xyz/). Previous Patreon/Ko-fi supporters have been migrated - sign in with your original email to access. If you haven't been migrated yet, let us know so we can help. [Read more about the v0.1.9 update](https://www.junkstore.xyz/blog/gog-extension-v019-update/).
+> **GOG Extension Note:** The GOG Extension is exclusively available through the [Junk Store Portal](https://portal.junkstore.xyz/). All previous supporters have been migrated - sign in with your original email to access. [Read more about portal-only sales](https://www.junkstore.xyz/blog/gog-extension-portal-only/).
 
 <h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a></h2>
 
