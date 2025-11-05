@@ -64,7 +64,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 </div>
 
 <div class="tutorial-item decky">
-  <h4><a href="/tutorials/gog-extension">GOG Extension Setup</a></h4>
+  <h4><a href="/tutorials/gogextension/">GOG Extension Setup</a></h4>
   <p>Add GOG games to your Decky plugin</p>
   <span class="tutorial-tag decky-tag">Decky Plugin</span>
 </div>
@@ -141,6 +141,13 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <p>Skip the complex ProtonTricks setup - install Visual C++, .NET Framework, and DirectX with one click</p>
   <span class="tip-tag">4 min read</span>
   <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
+</div>
+
+<div class="tip-item both">
+  <h4><a href="/blog/custom-launch-arguments/">Add Custom Launch Arguments</a></h4>
+  <p>Add advanced launch parameters for Epic and GOG games using Junk Store's built-in text editor</p>
+  <span class="tip-tag">4 min read</span>
+  <span class="tutorial-tag both-tag">Universal</span>
 </div>
 
 </div>

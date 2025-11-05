@@ -4,7 +4,7 @@ description: "Add GOG game library integration to Junk Store Decky plugin on Ste
 excerpt: "Step-by-step guide on downloading and installing the GOG Extension"
 layout: splash
 classes: wide tutorial-page
-permalink: /tutorials/gog-extension
+permalink: /tutorials/gogextension/
 categories: ["Decky Plugin"]
 tags: ["gog", "extension", "decky-plugin", "installation"]
 difficulty: "Intermediate"

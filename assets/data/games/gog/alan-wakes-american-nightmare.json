@@ -30,14 +30,14 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "1207659038",
+  "shortname": "1207659038",
   "publisher": "Remedy Entertainment",
   "developer": "Remedy Entertainment",
   "releasedate": "",
   "genre": "Action, Adventure",
   "description": "A thrilling new storyline, hordes of creepy enemies, serious firepower and beautiful Arizona locations, combined with a fun and challenging new game mode!",
-  "size": "",
+  "size": "2381264613\n",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/202750/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/202750/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/202750/capsule_231x87.jpg",
@@ -61,8 +61,8 @@
   "gog_achievements": false,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-22T00:30:36.819Z",
-  "updated_at": "2025-10-22T23:31:03.621Z"
+  "updated_at": "2025-10-25T04:29:12.975Z"
 }
