@@ -13,7 +13,7 @@ read_time: "5 min read"
 toc: true
 ---
 
-**This week's testing highlights:** 20 games across GOG, Epic, Amazon, itch.io storefronts — including fun finds like Magnibox (itch.io) and Bendy and the Ink Machine. 19 games work perfectly out of the box!
+**This week's testing highlights:** 20 games across GOG, Epic, Amazon, itch.io storefronts — including fun finds like Magnibox (itch.io) and Bendy and the Ink Machine. 19 games work out of the box!
 
 
 
