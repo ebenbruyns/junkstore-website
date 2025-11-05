@@ -6,11 +6,11 @@
   "gog_url": "https://www.gog.com/en/game/simcity_4_deluxe",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/SimCity_4",
   "notes": "Does not work straight out the box! You need to do this small trick after download:<br><br>\n\nGo to Desktop Mode:<br>\n1. Head to /home/deck/Games/gog/SimCity 4 Deluxe Editon/Apps <br>\n2. Copy SimCity 4.exe to /home/deck/Games/gog/SimCity 4 Deluxe Editon/ <br>\n3. Head back to Game Mode, open Junk Store <br>\n4. From Simcity 4 Deluxe in Junk store, choose slidermenu and open exe in folder > choose SimCity4.exe and press X <br>\n5. Press Play!",
-  "date_tested": "March '25",
+  "date_tested": "Oct '25",
   "decky_rating": "yellow",
-  "standalone_rating": "unknown",
+  "standalone_rating": "yellow",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "",
@@ -27,7 +27,7 @@
   "required_launcher": "",
   "requires_account_setup": false,
   "account_type": "",
-  "controller_input": "",
+  "controller_input": "keyboard-mouse",
   "community_layout": false,
   "cant_test_linux": false,
   "databaseId": "1207664593",
@@ -47,14 +47,21 @@
     "Multiplayer"
   ],
   "languages": [
-    "English"
+    "Danish",
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Spanish - Spain",
+    "Swedish"
   ],
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
-  "owned": false,
+  "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-10-16T23:52:28.574Z"
+  "updated_at": "2025-10-25T19:25:50.704Z"
 }

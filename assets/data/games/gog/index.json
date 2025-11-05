@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 326,
+  "total_games": 328,
   "games": [
     "9-years-of-shadows.json",
     "a-plague-tale-innocence.json",
@@ -256,6 +256,7 @@
     "styx-master-of-shadows.json",
     "styx-shards-of-darkness.json",
     "summers-gone-season-1.json",
+    "sunblaze.json",
     "sunrider-mask-of-arcadius.json",
     "swat-4-gold-edition.json",
     "syberia-the-world-before.json",
@@ -326,40 +327,59 @@
     "yakuza-0.json",
     "yakuza-kiwami.json",
     "yes-your-grace.json",
+    "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 5,
-  "last_updated": "2025-10-24T21:30:41.904Z",
+  "featured_games": 1,
+  "last_updated": "2025-11-04T19:55:56.731Z",
   "latest_games": [
     {
-      "title": "True Fear: Forsaken Souls Part 2",
-      "slug": "true-fear-forsaken-souls-part-2",
+      "title": "Fallout: New Vegas Ultimate Edition",
+      "slug": "fallout-new-vegas-ultimate-edition",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "You Will Die Here Tonight",
+      "slug": "you-will-die-here-tonight",
       "date_tested": "Oct '25",
       "is_featured": true
+    },
+    {
+      "title": "Sunblaze",
+      "slug": "sunblaze",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Beholder 2",
+      "slug": "beholder-2",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Ancient Enemy",
+      "slug": "ancient-enemy",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "SimCity 4: Deluxe Edition",
+      "slug": "simcity-4-deluxe-edition",
+      "date_tested": "Oct '25",
+      "is_featured": false
     },
     {
       "title": "Hellslave",
       "slug": "hellslave",
       "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "Fallout 3: Game of the Year Edition",
-      "slug": "fallout-3-game-of-the-year-edition",
-      "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "Styx: Shards of Darkness",
-      "slug": "styx-shards-of-darkness",
-      "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "Alan Wake",
-      "slug": "alan-wake",
+      "title": "True Fear: Forsaken Souls Part 2",
+      "slug": "true-fear-forsaken-souls-part-2",
       "date_tested": "Oct '25",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "OpenTTD",
@@ -370,24 +390,6 @@
     {
       "title": "Alwa's Awakening",
       "slug": "alwas-awakening",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Alan Wake's American Nightmare",
-      "slug": "alan-wakes-american-nightmare",
-      "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "True Fear: Forsaken Souls Part 1",
-      "slug": "true-fear-forsaken-souls-part-1",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Fallout: New Vegas Ultimate Edition",
-      "slug": "fallout-new-vegas-ultimate-edition",
       "date_tested": "Oct '25",
       "is_featured": false
     }

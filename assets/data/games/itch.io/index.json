@@ -1,6 +1,6 @@
 {
   "storefront": "itch.io",
-  "total_games": 13,
+  "total_games": 20,
   "games": [
     "10-flights-of-ballooning.json",
     "10s.json",
@@ -9,16 +9,65 @@
     "a-short-hike.json",
     "baba-is-you.json",
     "celeste.json",
+    "cloud-gardens.json",
+    "cosmic-express.json",
     "crosscode.json",
     "crossniq.json",
+    "dumpy-bumpy.json",
     "forma8.json",
     "macbat-64-journey-of-a-nice-chap.json",
+    "magnibox.json",
+    "omeganaut.json",
     "spa-taxi.json",
-    "super-hexagon.json"
+    "sundered.json",
+    "super-hexagon.json",
+    "underhero.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-10-24T21:30:41.909Z",
+  "last_updated": "2025-11-04T19:55:56.734Z",
   "latest_games": [
+    {
+      "title": "Sundered",
+      "slug": "sundered",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Magnibox",
+      "slug": "magnibox",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Cosmic Express",
+      "slug": "cosmic-express",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Underhero",
+      "slug": "underhero",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Dumpy & Bumpy",
+      "slug": "dumpy-bumpy",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Cloud Gardens",
+      "slug": "cloud-gardens",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Omeganaut",
+      "slug": "omeganaut",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
     {
       "title": "Spaß Taxi",
       "slug": "spa-taxi",
@@ -35,48 +84,6 @@
       "title": "Super Hexagon",
       "slug": "super-hexagon",
       "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "CrossCode",
-      "slug": "crosscode",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "Celeste",
-      "slug": "celeste",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "Baba Is You",
-      "slug": "baba-is-you",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "A Short Hike",
-      "slug": "a-short-hike",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "10S",
-      "slug": "10s",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "10 Flights of Ballooning",
-      "slug": "10-flights-of-ballooning",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "Crossniq",
-      "slug": "crossniq",
-      "date_tested": "Sept '25",
       "is_featured": false
     }
   ]

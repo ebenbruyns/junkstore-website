@@ -1,85 +1,37 @@
 {
-  "last_updated": "2025-10-24T21:30:41.918Z",
-  "total_tested_games": 752,
-  "featured_games": 7,
+  "last_updated": "2025-11-04T19:55:56.740Z",
+  "total_tested_games": 768,
+  "featured_games": 5,
   "storefronts": {
     "Epic": {
-      "total": 372,
-      "featured": 2,
+      "total": 376,
+      "featured": 3,
       "directory": "epic"
     },
     "GOG": {
-      "total": 326,
-      "featured": 5,
+      "total": 328,
+      "featured": 1,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 41,
-      "featured": 0,
+      "total": 44,
+      "featured": 1,
       "directory": "amazon"
     },
     "itch.io": {
-      "total": 13,
+      "total": 20,
       "featured": 0,
       "directory": "itch.io"
     }
   },
   "recent_updates": [
     {
-      "title": "Spaß Taxi",
-      "storefront": "itch.io",
-      "slug": "spa-taxi",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-24T21:29:58.168Z"
-    },
-    {
-      "title": "Alan Wake II",
+      "title": "Duet Night Abyss",
       "storefront": "Epic",
-      "slug": "alan-wake-ii",
+      "slug": "duet-night-abyss",
       "date_tested": "Oct '25",
       "is_featured": true,
-      "updated_at": "2025-10-24T06:17:12.174Z"
-    },
-    {
-      "title": "True Fear: Forsaken Souls Part 2",
-      "storefront": "GOG",
-      "slug": "true-fear-forsaken-souls-part-2",
-      "date_tested": "Oct '25",
-      "is_featured": true,
-      "updated_at": "2025-10-23T23:33:29.229Z"
-    },
-    {
-      "title": "Hellslave",
-      "storefront": "GOG",
-      "slug": "hellslave",
-      "date_tested": "Oct '25",
-      "is_featured": true,
-      "updated_at": "2025-10-23T23:20:53.142Z"
-    },
-    {
-      "title": "Fallout 3: Game of the Year Edition",
-      "storefront": "GOG",
-      "slug": "fallout-3-game-of-the-year-edition",
-      "date_tested": "Oct '25",
-      "is_featured": true,
-      "updated_at": "2025-10-23T23:02:29.595Z"
-    },
-    {
-      "title": "Fear the Spotlight",
-      "storefront": "Epic",
-      "slug": "fear-the-spotlight",
-      "date_tested": "Oct '25",
-      "is_featured": true,
-      "updated_at": "2025-10-23T22:53:54.732Z"
-    },
-    {
-      "title": "Styx: Shards of Darkness",
-      "storefront": "GOG",
-      "slug": "styx-shards-of-darkness",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-23T19:56:02.314Z"
+      "updated_at": "2025-11-04T19:55:36.080Z"
     },
     {
       "title": "Borderlands 3",
@@ -87,87 +39,23 @@
       "slug": "borderlands-3",
       "date_tested": "June '24",
       "is_featured": false,
-      "updated_at": "2025-10-23T19:51:18.546Z"
+      "updated_at": "2025-10-31T02:18:16.072Z"
     },
     {
-      "title": "Alan Wake",
-      "storefront": "GOG",
-      "slug": "alan-wake",
+      "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
+      "storefront": "Epic",
+      "slug": "jorels-brother-and-the-most-important-game-of-the-galaxy",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2025-10-31T00:18:22.241Z"
+    },
+    {
+      "title": "Werewolf: The Apocalypse — Heart of the Forest",
+      "storefront": "Amazon",
+      "slug": "werewolf-the-apocalypse-heart-of-the-forest",
       "date_tested": "Oct '25",
       "is_featured": true,
-      "updated_at": "2025-10-23T02:28:21.048Z"
-    },
-    {
-      "title": "OpenTTD",
-      "storefront": "GOG",
-      "slug": "openttd",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-23T02:21:02.959Z"
-    },
-    {
-      "title": "Star Stable",
-      "storefront": "Epic",
-      "slug": "star-stable",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-23T01:12:05.806Z"
-    },
-    {
-      "title": "Doom 64",
-      "storefront": "Epic",
-      "slug": "doom-64",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-23T00:16:34.941Z"
-    },
-    {
-      "title": "Alwa's Awakening",
-      "storefront": "GOG",
-      "slug": "alwas-awakening",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-23T00:08:11.721Z"
-    },
-    {
-      "title": "Alan Wake's American Nightmare",
-      "storefront": "GOG",
-      "slug": "alan-wakes-american-nightmare",
-      "date_tested": "Oct '25",
-      "is_featured": true,
-      "updated_at": "2025-10-22T23:31:03.621Z"
-    },
-    {
-      "title": "Endless Space: Definitive Edition",
-      "storefront": "Amazon",
-      "slug": "endless-space-definitive-edition",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-22T20:51:10.370Z"
-    },
-    {
-      "title": "Endling: Extinction is Forever",
-      "storefront": "Amazon",
-      "slug": "endling-extinction-is-forever",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-22T20:41:11.784Z"
-    },
-    {
-      "title": "True Fear: Forsaken Souls Part 1",
-      "storefront": "GOG",
-      "slug": "true-fear-forsaken-souls-part-1",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-20T06:39:48.418Z"
-    },
-    {
-      "title": "Samorost 3",
-      "storefront": "Epic",
-      "slug": "samorost-3",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-20T06:39:46.800Z"
+      "updated_at": "2025-10-30T23:02:30.366Z"
     },
     {
       "title": "Fallout: New Vegas Ultimate Edition",
@@ -175,15 +63,127 @@
       "slug": "fallout-new-vegas-ultimate-edition",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2025-10-20T06:39:41.067Z"
+      "updated_at": "2025-10-30T23:02:30.359Z"
     },
     {
-      "title": "EMPTY SHELL",
+      "title": "You Will Die Here Tonight",
       "storefront": "GOG",
-      "slug": "empty-shell",
+      "slug": "you-will-die-here-tonight",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "updated_at": "2025-10-30T21:14:29.474Z"
+    },
+    {
+      "title": "Five Nights at Freddy's: Into the Pit",
+      "storefront": "Epic",
+      "slug": "five-nights-at-freddys-into-the-pit",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "updated_at": "2025-10-30T21:13:10.027Z"
+    },
+    {
+      "title": "Bendy and the Ink Machine",
+      "storefront": "Epic",
+      "slug": "bendy-and-the-ink-machine",
+      "date_tested": "Oct '25",
+      "is_featured": true,
+      "updated_at": "2025-10-30T20:38:03.226Z"
+    },
+    {
+      "title": "Dishonored",
+      "storefront": "Epic",
+      "slug": "dishonored",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2025-10-20T06:39:40.064Z"
+      "updated_at": "2025-10-29T01:03:40.936Z"
+    },
+    {
+      "title": "DreadOut 2",
+      "storefront": "Amazon",
+      "slug": "dreadout-2",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-29T00:47:22.419Z"
+    },
+    {
+      "title": "Europa Universalis IV",
+      "storefront": "Epic",
+      "slug": "europa-universalis-iv",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-28T21:13:21.535Z"
+    },
+    {
+      "title": "Sundered",
+      "storefront": "itch.io",
+      "slug": "sundered",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-28T03:50:58.460Z"
+    },
+    {
+      "title": "Spitlings",
+      "storefront": "Amazon",
+      "slug": "spitlings",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-28T01:57:31.859Z"
+    },
+    {
+      "title": "Sunblaze",
+      "storefront": "GOG",
+      "slug": "sunblaze",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-28T00:41:53.714Z"
+    },
+    {
+      "title": "Beholder 2",
+      "storefront": "GOG",
+      "slug": "beholder-2",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-28T00:37:18.559Z"
+    },
+    {
+      "title": "Ancient Enemy",
+      "storefront": "GOG",
+      "slug": "ancient-enemy",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-28T00:35:09.232Z"
+    },
+    {
+      "title": "Magnibox",
+      "storefront": "itch.io",
+      "slug": "magnibox",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-27T22:58:09.736Z"
+    },
+    {
+      "title": "Happy Game",
+      "storefront": "Epic",
+      "slug": "happy-game",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-27T22:43:21.302Z"
+    },
+    {
+      "title": "Cosmic Express",
+      "storefront": "itch.io",
+      "slug": "cosmic-express",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-27T20:42:15.406Z"
+    },
+    {
+      "title": "Underhero",
+      "storefront": "itch.io",
+      "slug": "underhero",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-10-27T20:39:47.838Z"
     }
   ]
 }
