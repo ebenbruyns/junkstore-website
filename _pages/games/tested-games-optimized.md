@@ -57,7 +57,7 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
 
 <!-- Featured Games Section -->
 <div class="feature-box">
-  <h3>🎁 This Week's Giveaways</h3>
+  <h3>This Week's Giveaways and Featured Games</h3>
   <div class="featured-row" id="featuredGamesContainer">
     <!-- Featured games will be populated by JavaScript -->
   </div>
