@@ -39,8 +39,8 @@
   "description": "Magnibox is a colorful and challenging puzzle game about a magnet that's also a box. Hand-crafted for your brain to enjoy!",
   "size": "",
   "vertical_artwork": "https://images.gog.com/e99dd0cffc181d54fc5cb6d37a218639a038e1d01670934be5a2a6bbca9ec26f.jpg?namespace=gamesdb",
-  "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/999410/library_hero.jpg",
-  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/999410/capsule_231x87.jpg",
+  "banner_image": "",
+  "icon_image": "",
   "steamId": "999410",
   "game_modes": [
     "Single player"
