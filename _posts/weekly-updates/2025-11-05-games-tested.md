@@ -13,7 +13,7 @@ read_time: "5 min read"
 toc: true
 ---
 
-**This week's testing highlights:** 20 games across GOG, Epic, Amazon, itch.io storefronts — including fun finds like Magnibox (itch.io) and Bendy and the Ink Machine, both running flawlessly. 19 games work perfectly out of the box!
+**This week's testing highlights:** 20 games across GOG, Epic, Amazon, itch.io storefronts — including fun finds like Magnibox (itch.io) and Bendy and the Ink Machine. 19 games work perfectly out of the box!
 
 
 
@@ -21,7 +21,7 @@ Kia ora Everyone!
 
 This week's post is delayed as we took the weekend and Monday off (no computers or work allowed) to attend a family reunion on the mainland in Auckland. It was an amazing day all round: perfect summer weather, great food, and most importantly, great company. We were able to catch up with family we hadn't seen in far too long and were happy to see everyone was happy, healthy, and living their best life!
 
-Now we're back to business and looking forward to getting stuck into work this week. There were a few games that had my number this weekend: Magnibox and Bendy and the Ink Machine. I spent hours on both of these games, having an awesome and long-overdue gaming session (Junkrunner even took some time out to play a couple of games!).
+Now we're back to business and looking forward to getting stuck into work this week. There were a few games that had my number this weekend: Magnibox and Bendy and the Ink Machine. I spent hours on both of these games, having an awesome and long-overdue gaming session (Eben even took some time out to play a couple of games!).
 
 We announced yesterday that we're moving to portal-only sales of the GOG Extension, so if you're looking to purchase it, you can now only get it from our dedicated [Junk Store Portal](https://portal.junkstore.xyz). You can read more about the update in our [recent blog post](/blog/gog-extension-v019-update/).
 
@@ -51,8 +51,8 @@ This week featuring Bendy and the Ink Machine, Five Nights at Freddy's: Into the
     <strong><a href="/tested-games/?game=Bendy+and+the+Ink+Machine">Bendy and the Ink Machine</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons.</div>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -63,8 +63,8 @@ This week featuring Bendy and the Ink Machine, Five Nights at Freddy's: Into the
     <strong><a href="/tested-games/?game=Five+Nights+at+Freddy%27s%3A+Into+the+Pit">Five Nights at Freddy's: Into the Pit</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Survive five nights of terror in this chilling adventure game.</div>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -79,8 +79,8 @@ This week featuring You Will Die Here Tonight, Werewolf: The Apocalypse — Hear
     <strong><a href="/tested-games/?game=You+Will+Die+Here+Tonight">You Will Die Here Tonight</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Immerse yourself in retro top-down visuals as you face the horrors of Breckenridge Hall through intense first-person combat. Scavenge, solve puzzles, and upgrade your gear. Do whatever it takes to survive—but remember: You Will Die Here Tonight.</div>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -92,7 +92,7 @@ This week featuring You Will Die Here Tonight, Werewolf: The Apocalypse — Hear
     <div class="game-description">Explore the myths and monsters of Europe’s last primeval wilderness.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -107,8 +107,8 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
     <strong><a href="/tested-games/?game=Europa+Universalis+IV">Europa Universalis IV</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Rule your land and dominate the world with unparalleled freedom, depth and historical accuracy.</div>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -119,8 +119,8 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
     <strong><a href="/tested-games/?game=Sunblaze">Sunblaze</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Lead Josie, aka. Sunblaze into a superhero training simulator built by her dad, a retired protagonist fighting the evils of our universe. Sunblaze is a brain-twisting precision platformer with hundreds of challenging levels, an awesome story, a superb soundtrack, and a beautiful game design.</div>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -144,7 +144,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
     <div class="game-description">Spitlings is a cute but hardcore Arcade game that’s made for playing locally with friends.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -156,7 +156,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
     <div class="game-description">Magnibox is a colorful and challenging puzzle game about a magnet that's also a box.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -168,7 +168,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
     <div class="game-description">Sundered is a horrifying fight for survival and sanity, a hand­-drawn epic from the ​creators of ​Jotun.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -183,8 +183,8 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
     <strong><a href="/tested-games/?game=Ancient+Enemy">Ancient Enemy</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">An unusual, strategic RPG card game from the makers of Shadowhand and Regency Solitaire.</div>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -195,8 +195,8 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
     <strong><a href="/tested-games/?game=Beholder+2">Beholder 2</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Every citizen of our great State dreams of working at the Prime Ministry.</div>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -207,8 +207,8 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
     <strong><a href="/tested-games/?game=Dishonored">Dishonored</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Dishonored is an immersive first-person action game that casts you as a supernatural assassin driven by revenge.</div>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -219,8 +219,8 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
     <strong><a href="/tested-games/?game=Happy+Game">Happy Game</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">A little boy falls asleep to a horrible nightmare.  Can you make him happy again.</div>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -236,7 +236,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
     <div class="game-description">A chill game about using plants to overgrow abandoned wasteland dioramas.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -248,7 +248,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
     <div class="game-description">Plan the train route for the universe's most awkward space colony.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -260,7 +260,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
     <div class="game-description">A retro styled character puzzle game with couch co-op and 80 puzzles to solve.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -272,7 +272,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
     <div class="game-description">When Starfox meets roguelike.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -284,7 +284,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
     <div class="game-description">Underhero is a 2D side-scroller RPG adventure game with timing-based combat.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -299,8 +299,8 @@ This week highlighting Duet Night Abyss.
     <strong><a href="/tested-games/?game=Duet+Night+Abyss">Duet Night Abyss</a></strong>
     <div class="game-description">Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom developed by Hero Games' Pan Studio.</div>
     <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
