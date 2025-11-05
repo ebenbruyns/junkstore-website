@@ -123,8 +123,9 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 
 <section class="support-and-community" style="text-align: left !important; max-width: 1200px; margin-left: auto; margin-right: auto; margin-top: -1rem; padding: 0.5rem;">
   <h3 style="margin-top: 0;">💡 Previous Supporter?</h3>
-  <p>If you've supported us on Ko-fi or Patreon before, use your same email address for automatic access to your existing benefits.</p>
-  <p><strong>Need help?</strong> Contact us via Discord, or reach out through the same platform where you originally supported us (<a href="https://www.patreon.com/junkstore" target="_blank" rel="noopener">Patreon</a> or <a href="https://ko-fi.com/junkstore" target="_blank" rel="noopener">Ko-fi</a>) to ensure a smooth transition.</p>
+  <p>All previous supporters have been migrated to the Portal. Simply sign in using your original email address to access your existing benefits.</p>
+  <p><strong>First time signing in?</strong> Read our <a href="https://www.junkstore.xyz/blog/gog-extension-portal-only/" target="_blank">step-by-step guide</a> for instructions on activating your Portal account.</p>
+  <p><strong>Need help?</strong> Contact us via <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a> and we'll help you get sorted.</p>
 
   <div class="community-section">
     <p><strong>Connect with our community:</strong></p>
