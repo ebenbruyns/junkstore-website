@@ -13,6 +13,8 @@ read_time: "3 min read"
 toc: true
 ---
 
+> **📌 Update (November 2025):** The GOG Extension is now exclusively sold through the [Junk Store Portal](https://portal.junkstore.xyz/). All migrations have been completed. [Read the latest announcement](https://www.junkstore.xyz/blog/gog-extension-portal-only/).
+
 <h2 style="text-align: left !important; margin-left: 0;">What's New in v0.1.9</h2>
 
 **Technical Improvements:**
