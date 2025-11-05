@@ -30,14 +30,14 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "1454587428",
+  "shortname": "1454587428",
   "publisher": "Bethesda Softworks",
   "developer": "Obsidian Entertainment",
   "releasedate": "",
   "genre": "Action, RPG",
   "description": "Welcome to Vegas. New Vegas. Enjoy your stay!",
-  "size": "",
+  "size": "3174401438\n",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/22380/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/22380/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/22380/capsule_231x87.jpg",
@@ -59,5 +59,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-16T20:12:44.617Z",
-  "updated_at": "2025-10-20T06:39:41.067Z"
+  "updated_at": "2025-10-30T23:02:30.359Z"
 }

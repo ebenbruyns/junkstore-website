@@ -40,7 +40,7 @@
   "size": "",
   "vertical_artwork": "https://images.gog.com/19a50bf51b1bbd5dc88499ecc8c54b894dcbf51f1a8adb9f0ad889f97a47c788.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a28d5c30b92eee9b91694840b6f55cfa2f500f2dac3ea1d5d8801969d7f06df9.jpg?namespace=gamesdb",
-  "icon_image": "https://images.gog.com/19a50bf51b1bbd5dc88499ecc8c54b894dcbf51f1a8adb9f0ad889f97a47c788.jpg?namespace=gamesdb",
+  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1978150/capsule_231x87.jpg",
   "steamId": "1978150",
   "game_modes": [
     "Single player"
@@ -61,5 +61,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-30T23:53:40.670Z",
-  "updated_at": "2025-09-07T03:46:27.290Z"
+  "updated_at": "2025-10-26T01:08:02.686Z"
 }

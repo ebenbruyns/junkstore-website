@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 41,
+  "total_games": 44,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -10,6 +10,7 @@
     "beholder-3.json",
     "clouds-sheep-2.json",
     "dexter-stardust-adventures-in-outer-space.json",
+    "dreadout-2.json",
     "dungeon-of-the-endless-definitive-edition.json",
     "endless-space-2-definitive-edition.json",
     "endless-space-definitive-edition.json",
@@ -28,6 +29,7 @@
     "pixel-cafe.json",
     "projection-first-light.json",
     "spirit-mancer.json",
+    "spitlings.json",
     "star-wars-knights-of-the-old-republic-ii-the-sith-lords.json",
     "subterrain-mines-of-titan.json",
     "the-abandoned-planet.json",
@@ -41,12 +43,31 @@
     "vlad-circus-descend-into-madness.json",
     "warhammer-40000-dawn-of-war-ii.json",
     "warhammer-40000-space-marine.json",
+    "werewolf-the-apocalypse-heart-of-the-forest.json",
     "ynglet.json",
     "youtubers-life-2.json"
   ],
-  "featured_games": 0,
-  "last_updated": "2025-10-24T21:30:41.908Z",
+  "featured_games": 1,
+  "last_updated": "2025-11-04T19:55:56.733Z",
   "latest_games": [
+    {
+      "title": "Werewolf: The Apocalypse — Heart of the Forest",
+      "slug": "werewolf-the-apocalypse-heart-of-the-forest",
+      "date_tested": "Oct '25",
+      "is_featured": true
+    },
+    {
+      "title": "DreadOut 2",
+      "slug": "dreadout-2",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Spitlings",
+      "slug": "spitlings",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
     {
       "title": "Endless Space: Definitive Edition",
       "slug": "endless-space-definitive-edition",
@@ -87,24 +108,6 @@
       "title": "Figment 2: Creed Valley",
       "slug": "figment-2-creed-valley",
       "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Gargoyles Remastered",
-      "slug": "gargoyles-remastered",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "The Forgotten City",
-      "slug": "the-forgotten-city",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Tormented Souls",
-      "slug": "tormented-souls",
-      "date_tested": "Oct '25",
       "is_featured": false
     }
   ]
