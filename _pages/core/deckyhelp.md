@@ -77,6 +77,8 @@ excerpt: "Complete help hub for the free Junk Store Decky plugin - installation,
 
   <div>Once you've purchased access, please follow the <a href="/tutorials/gogextension/">GOG Extension Install Guide</a> to install the extension and link it to your Junk Store plugin.</div>
 
+  <div style="margin-top: 15px;"><strong>Previous supporter or first-time sign-in?</strong> Read our <a href="https://www.junkstore.xyz/blog/gog-extension-portal-only/" target="_blank">step-by-step guide</a> for instructions on activating your Portal account.</div>
+
   <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
     <strong>Note:</strong> The GOG extension is currently in <strong>maintenance-only</strong> mode. This means we'll continue fixing bugs and ensuring compatibility, but we're not actively adding new features. Continued support depends on user interest and purchases.
   </p>
