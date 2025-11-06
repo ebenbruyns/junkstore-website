@@ -169,6 +169,19 @@ _site/
 assets/lib
 ```
 
+### Social Media Blurbs and Non-Tracked Files
+**IMPORTANT:** Social media blurbs and similar temporary/working files should NEVER be created in the repository.
+
+**Correct location:** `/home/annie/JunkStore/Website/Social Media Blurbs/`
+- Create files with date prefix: `YYYY-MM-DD-social-media-blurbs.txt`
+- This directory is OUTSIDE the git repository
+- Files here won't be tracked or committed
+- Keeps the repo clean of temporary promotional content
+
+**Never create these files in:**
+- `/home/annie/JunkStore/Website/mrsjunkrunner.github.io/` (the repo root)
+- Any subdirectory of the repo
+
 ## Current Phase: Strategic Website Improvements
 
 ### Completed Optimizations (Latest: August 12, 2025)

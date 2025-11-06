@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tip of the Week: Easily Install Game Dependencies with Junk Store 2.0"
-date: 2025-10-27
+date: 2025-11-05
 categories: [Tip of the Week, 2.0 Standalone]
 tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Games, Game Dependencies]
 slug: "install-dependencies-junk-store-2"
