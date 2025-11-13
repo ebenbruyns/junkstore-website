@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 328,
+  "total_games": 329,
   "games": [
     "9-years-of-shadows.json",
     "a-plague-tale-innocence.json",
@@ -165,6 +165,7 @@
     "liberated.json",
     "little-nightmares.json",
     "loop-hero.json",
+    "lovecrafts-untold-stories.json",
     "lust-theory-season-1.json",
     "mafia-definitive-edition.json",
     "mafia-ii-definitive-edition.json",
@@ -330,24 +331,42 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2025-11-04T19:55:56.731Z",
+  "featured_games": 0,
+  "last_updated": "2025-11-13T03:14:37.178Z",
   "latest_games": [
     {
-      "title": "Fallout: New Vegas Ultimate Edition",
-      "slug": "fallout-new-vegas-ultimate-edition",
-      "date_tested": "Oct '25",
+      "title": "Lovecraft's Untold Stories",
+      "slug": "lovecrafts-untold-stories",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+      "slug": "blast-brigade-vs-the-evil-legion-of-dr-cread",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Blacksad: Under the Skin",
+      "slug": "blacksad-under-the-skin",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
       "title": "You Will Die Here Tonight",
       "slug": "you-will-die-here-tonight",
       "date_tested": "Oct '25",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "Sunblaze",
       "slug": "sunblaze",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Ancient Enemy",
+      "slug": "ancient-enemy",
       "date_tested": "Oct '25",
       "is_featured": false
     },
@@ -358,8 +377,8 @@
       "is_featured": false
     },
     {
-      "title": "Ancient Enemy",
-      "slug": "ancient-enemy",
+      "title": "Fallout: New Vegas Ultimate Edition",
+      "slug": "fallout-new-vegas-ultimate-edition",
       "date_tested": "Oct '25",
       "is_featured": false
     },
@@ -372,24 +391,6 @@
     {
       "title": "Hellslave",
       "slug": "hellslave",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "True Fear: Forsaken Souls Part 2",
-      "slug": "true-fear-forsaken-souls-part-2",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "OpenTTD",
-      "slug": "openttd",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Alwa's Awakening",
-      "slug": "alwas-awakening",
       "date_tested": "Oct '25",
       "is_featured": false
     }
