@@ -24,17 +24,11 @@
     "underhero.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-11-04T19:55:56.734Z",
+  "last_updated": "2025-11-13T03:14:37.181Z",
   "latest_games": [
     {
-      "title": "Sundered",
-      "slug": "sundered",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Magnibox",
-      "slug": "magnibox",
+      "title": "Cloud Gardens",
+      "slug": "cloud-gardens",
       "date_tested": "Oct '25",
       "is_featured": false
     },
@@ -45,26 +39,32 @@
       "is_featured": false
     },
     {
-      "title": "Underhero",
-      "slug": "underhero",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
       "title": "Dumpy & Bumpy",
       "slug": "dumpy-bumpy",
       "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "Cloud Gardens",
-      "slug": "cloud-gardens",
+      "title": "Omeganaut",
+      "slug": "omeganaut",
       "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "Omeganaut",
-      "slug": "omeganaut",
+      "title": "Underhero",
+      "slug": "underhero",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Magnibox",
+      "slug": "magnibox",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Sundered",
+      "slug": "sundered",
       "date_tested": "Oct '25",
       "is_featured": false
     },
