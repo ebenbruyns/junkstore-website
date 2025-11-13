@@ -1,21 +1,21 @@
 {
-  "last_updated": "2025-11-04T19:55:56.740Z",
-  "total_tested_games": 768,
-  "featured_games": 5,
+  "last_updated": "2025-11-13T03:14:37.191Z",
+  "total_tested_games": 777,
+  "featured_games": 4,
   "storefronts": {
     "Epic": {
-      "total": 376,
-      "featured": 3,
+      "total": 382,
+      "featured": 4,
       "directory": "epic"
     },
     "GOG": {
-      "total": 328,
-      "featured": 1,
+      "total": 329,
+      "featured": 0,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 44,
-      "featured": 1,
+      "total": 46,
+      "featured": 0,
       "directory": "amazon"
     },
     "itch.io": {
@@ -26,164 +26,164 @@
   },
   "recent_updates": [
     {
-      "title": "Duet Night Abyss",
-      "storefront": "Epic",
-      "slug": "duet-night-abyss",
-      "date_tested": "Oct '25",
-      "is_featured": true,
-      "updated_at": "2025-11-04T19:55:36.080Z"
-    },
-    {
       "title": "Borderlands 3",
       "storefront": "Epic",
       "slug": "borderlands-3",
       "date_tested": "June '24",
       "is_featured": false,
-      "updated_at": "2025-10-31T02:18:16.072Z"
+      "updated_at": "2025-11-13T03:13:20.665Z"
     },
     {
-      "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
+      "title": "Saints Row",
       "storefront": "Epic",
-      "slug": "jorels-brother-and-the-most-important-game-of-the-galaxy",
-      "date_tested": "Sept '25",
+      "slug": "saints-row",
+      "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2025-10-31T00:18:22.241Z"
+      "updated_at": "2025-11-13T03:13:15.677Z"
     },
     {
-      "title": "Werewolf: The Apocalypse — Heart of the Forest",
-      "storefront": "Amazon",
-      "slug": "werewolf-the-apocalypse-heart-of-the-forest",
-      "date_tested": "Oct '25",
+      "title": "Saints Row IV: Re-Elected",
+      "storefront": "Epic",
+      "slug": "saints-row-iv-re-elected",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-11-13T01:56:42.593Z"
+    },
+    {
+      "title": "PC Building Simulator",
+      "storefront": "Epic",
+      "slug": "pc-building-simulator",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-11-12T21:33:48.344Z"
+    },
+    {
+      "title": "Felix the Reaper",
+      "storefront": "Epic",
+      "slug": "felix-the-reaper",
+      "date_tested": "Nov '25",
       "is_featured": true,
-      "updated_at": "2025-10-30T23:02:30.366Z"
+      "updated_at": "2025-11-12T21:24:50.416Z"
     },
     {
-      "title": "Fallout: New Vegas Ultimate Edition",
+      "title": "Lovecraft's Untold Stories",
       "storefront": "GOG",
-      "slug": "fallout-new-vegas-ultimate-edition",
-      "date_tested": "Oct '25",
+      "slug": "lovecrafts-untold-stories",
+      "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2025-10-30T23:02:30.359Z"
+      "updated_at": "2025-11-11T23:41:58.452Z"
+    },
+    {
+      "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
+      "storefront": "GOG",
+      "slug": "blast-brigade-vs-the-evil-legion-of-dr-cread",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-11-11T23:37:33.821Z"
+    },
+    {
+      "title": "Blacksad: Under the Skin",
+      "storefront": "GOG",
+      "slug": "blacksad-under-the-skin",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-11-11T23:35:58.898Z"
+    },
+    {
+      "title": "New Tales from the Borderlands",
+      "storefront": "Epic",
+      "slug": "new-tales-from-the-borderlands",
+      "date_tested": "Nov '25",
+      "is_featured": true,
+      "updated_at": "2025-11-11T22:57:36.277Z"
+    },
+    {
+      "title": "Lovecraft's Untold Stories",
+      "storefront": "Epic",
+      "slug": "lovecrafts-untold-stories",
+      "date_tested": "Nov '25",
+      "is_featured": true,
+      "updated_at": "2025-11-11T22:28:49.914Z"
+    },
+    {
+      "title": "Gas Station Simulator",
+      "storefront": "Epic",
+      "slug": "gas-station-simulator",
+      "date_tested": "Nov '25",
+      "is_featured": true,
+      "updated_at": "2025-11-07T03:20:52.079Z"
+    },
+    {
+      "title": "Tales from the Borderlands",
+      "storefront": "Epic",
+      "slug": "tales-from-the-borderlands",
+      "date_tested": "Sept '24",
+      "is_featured": false,
+      "updated_at": "2025-11-06T22:01:49.032Z"
+    },
+    {
+      "title": "Sine Mora EX",
+      "storefront": "Amazon",
+      "slug": "sine-mora-ex",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-11-06T00:46:31.675Z"
+    },
+    {
+      "title": "Grime",
+      "storefront": "Amazon",
+      "slug": "grime",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-11-06T00:41:57.104Z"
     },
     {
       "title": "You Will Die Here Tonight",
       "storefront": "GOG",
       "slug": "you-will-die-here-tonight",
       "date_tested": "Oct '25",
-      "is_featured": true,
-      "updated_at": "2025-10-30T21:14:29.474Z"
+      "is_featured": false,
+      "updated_at": "2025-11-04T23:26:53.452Z"
+    },
+    {
+      "title": "Werewolf: The Apocalypse — Heart of the Forest",
+      "storefront": "Amazon",
+      "slug": "werewolf-the-apocalypse-heart-of-the-forest",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-11-04T23:26:51.220Z"
     },
     {
       "title": "Five Nights at Freddy's: Into the Pit",
       "storefront": "Epic",
       "slug": "five-nights-at-freddys-into-the-pit",
       "date_tested": "Oct '25",
-      "is_featured": true,
-      "updated_at": "2025-10-30T21:13:10.027Z"
+      "is_featured": false,
+      "updated_at": "2025-11-04T23:26:49.610Z"
+    },
+    {
+      "title": "Duet Night Abyss",
+      "storefront": "Epic",
+      "slug": "duet-night-abyss",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2025-11-04T23:26:48.791Z"
     },
     {
       "title": "Bendy and the Ink Machine",
       "storefront": "Epic",
       "slug": "bendy-and-the-ink-machine",
       "date_tested": "Oct '25",
-      "is_featured": true,
-      "updated_at": "2025-10-30T20:38:03.226Z"
-    },
-    {
-      "title": "Dishonored",
-      "storefront": "Epic",
-      "slug": "dishonored",
-      "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2025-10-29T01:03:40.936Z"
+      "updated_at": "2025-11-04T23:26:47.379Z"
     },
     {
-      "title": "DreadOut 2",
-      "storefront": "Amazon",
-      "slug": "dreadout-2",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-29T00:47:22.419Z"
-    },
-    {
-      "title": "Europa Universalis IV",
-      "storefront": "Epic",
-      "slug": "europa-universalis-iv",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-28T21:13:21.535Z"
-    },
-    {
-      "title": "Sundered",
+      "title": "Cloud Gardens",
       "storefront": "itch.io",
-      "slug": "sundered",
+      "slug": "cloud-gardens",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2025-10-28T03:50:58.460Z"
-    },
-    {
-      "title": "Spitlings",
-      "storefront": "Amazon",
-      "slug": "spitlings",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-28T01:57:31.859Z"
-    },
-    {
-      "title": "Sunblaze",
-      "storefront": "GOG",
-      "slug": "sunblaze",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-28T00:41:53.714Z"
-    },
-    {
-      "title": "Beholder 2",
-      "storefront": "GOG",
-      "slug": "beholder-2",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-28T00:37:18.559Z"
-    },
-    {
-      "title": "Ancient Enemy",
-      "storefront": "GOG",
-      "slug": "ancient-enemy",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-28T00:35:09.232Z"
-    },
-    {
-      "title": "Magnibox",
-      "storefront": "itch.io",
-      "slug": "magnibox",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-27T22:58:09.736Z"
-    },
-    {
-      "title": "Happy Game",
-      "storefront": "Epic",
-      "slug": "happy-game",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-27T22:43:21.302Z"
-    },
-    {
-      "title": "Cosmic Express",
-      "storefront": "itch.io",
-      "slug": "cosmic-express",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-27T20:42:15.406Z"
-    },
-    {
-      "title": "Underhero",
-      "storefront": "itch.io",
-      "slug": "underhero",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-10-27T20:39:47.838Z"
+      "updated_at": "2025-11-04T23:26:32.759Z"
     }
   ]
 }
