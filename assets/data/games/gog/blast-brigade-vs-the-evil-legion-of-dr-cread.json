@@ -6,14 +6,14 @@
   "gog_url": "https://www.gog.com/en/game/blast_brigade_vs_the_evil_legion_of_dr_cread",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
-  "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "date_tested": "July '24",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Blast_Brigade_vs._the_Evil_Legion_of_Dr._Cread",
+  "notes": "Works out of the box!",
+  "date_tested": "Nov '25",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -46,14 +46,23 @@
     "Single player"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French",
+    "Italian",
+    "German",
+    "Spanish - Spain",
+    "Japanese",
+    "Korean",
+    "Russian",
+    "Simplified Chinese",
+    "Portuguese - Brazil*languages with full audio support"
   ],
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
-  "blog_category": "",
+  "blog_category": "retest",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-08-11T02:16:49.663Z"
+  "updated_at": "2025-11-11T23:37:33.821Z"
 }
