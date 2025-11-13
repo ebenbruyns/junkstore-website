@@ -6,14 +6,14 @@
   "gog_url": "https://www.gog.com/en/game/blacksad_under_the_skin",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
-  "notes": "Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "date_tested": "July '24",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Blacksad:_Under_the_Skin",
+  "notes": "Works out of the box!",
+  "date_tested": "Nov '25",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -36,7 +36,7 @@
   "developer": "Pendulo Studios, Ys Interactive",
   "releasedate": "2019-11-05T00:00:00+0000",
   "genre": "Adventure, Puzzle",
-  "description": "BLACKSAD: Under the Skin - A dark corruption scandal in the heart of the New York City's underworld for charismatic detective John Blacksad!\n\nBased on the noir comic series by the same name. The game features a noir detective story about a PI by the name of Blacksad that gets dragged into the case of a murdered boxing club. The game feature an interactive system much reminiscent of Grim Fandango where you have direct control of the character and only things that catch his gaze is interactable.",
+  "description": "Based on the noir comic series by the same name. The game features a noir detective story about a PI by the name of Blacksad that gets dragged into the case of a murdered boxing club. The game feature an interactive system much reminiscent of Grim Fandango where you have direct control of the character and only things that catch his gaze is interactable.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/a3ba632a1c1f4b3dabbf717813737379cdb9fd4122e971e964de1ec77af5c3d2.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/5da598b8d741d8dce9b71cbf9bf62cea893e1276460f840892541fe04d11fcae.jpg?namespace=gamesdb",
@@ -46,14 +46,21 @@
     "Single player"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French*",
+    "Italian",
+    "German*",
+    "Spanish - Spain*",
+    "Russian*",
+    "Dutch",
+    "Simplified Chinese*languages with full audio support"
   ],
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
-  "blog_category": "",
+  "blog_category": "retest",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-08-11T02:16:23.194Z"
+  "updated_at": "2025-11-11T23:35:58.898Z"
 }

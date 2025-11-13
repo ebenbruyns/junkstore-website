@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 376,
+  "total_games": 382,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -144,6 +144,7 @@
     "farming-simulator-22.json",
     "fashion-police-squad.json",
     "fear-the-spotlight.json",
+    "felix-the-reaper.json",
     "figment-2-creed-valley.json",
     "figment.json",
     "filament.json",
@@ -157,6 +158,7 @@
     "freshly-frosted.json",
     "gamedec.json",
     "garden-story.json",
+    "gas-station-simulator.json",
     "genshin-impact.json",
     "ghostbusters-spirits-unleashed.json",
     "ghostrunner-ii.json",
@@ -214,6 +216,7 @@
     "limbo.json",
     "loop-hero.json",
     "lords-mobile.json",
+    "lovecrafts-untold-stories.json",
     "lumbearjack.json",
     "lysfanga-the-time-shift-warrior.json",
     "machinarium.json",
@@ -234,6 +237,7 @@
     "moving-out.json",
     "necromunda-hired-gun.json",
     "neko-ghost-jump.json",
+    "new-tales-from-the-borderlands.json",
     "no-straight-roads.json",
     "ogu-and-the-secret-forest.json",
     "orcs-must-die-3.json",
@@ -271,6 +275,8 @@
     "rugrats-adventures-in-gameland.json",
     "sable.json",
     "sail-forth.json",
+    "saints-row-iv-re-elected.json",
+    "saints-row.json",
     "salt-and-sanctuary.json",
     "samorost-2.json",
     "samorost-3.json",
@@ -379,15 +385,9 @@
     "zenless-zone-zero.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 3,
-  "last_updated": "2025-11-04T19:55:56.726Z",
+  "featured_games": 4,
+  "last_updated": "2025-11-13T03:14:37.174Z",
   "latest_games": [
-    {
-      "title": "Duet Night Abyss",
-      "slug": "duet-night-abyss",
-      "date_tested": "Oct '25",
-      "is_featured": true
-    },
     {
       "title": "Borderlands 3",
       "slug": "borderlands-3",
@@ -395,51 +395,57 @@
       "is_featured": false
     },
     {
-      "title": "Jorel’s Brother and The Most Important Game of the Galaxy",
-      "slug": "jorels-brother-and-the-most-important-game-of-the-galaxy",
-      "date_tested": "Sept '25",
+      "title": "Saints Row",
+      "slug": "saints-row",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Saints Row IV: Re-Elected",
+      "slug": "saints-row-iv-re-elected",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "PC Building Simulator",
+      "slug": "pc-building-simulator",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Felix the Reaper",
+      "slug": "felix-the-reaper",
+      "date_tested": "Nov '25",
+      "is_featured": true
+    },
+    {
+      "title": "New Tales from the Borderlands",
+      "slug": "new-tales-from-the-borderlands",
+      "date_tested": "Nov '25",
+      "is_featured": true
+    },
+    {
+      "title": "Lovecraft's Untold Stories",
+      "slug": "lovecrafts-untold-stories",
+      "date_tested": "Nov '25",
+      "is_featured": true
+    },
+    {
+      "title": "Gas Station Simulator",
+      "slug": "gas-station-simulator",
+      "date_tested": "Nov '25",
+      "is_featured": true
+    },
+    {
+      "title": "Tales from the Borderlands",
+      "slug": "tales-from-the-borderlands",
+      "date_tested": "Sept '24",
       "is_featured": false
     },
     {
       "title": "Five Nights at Freddy's: Into the Pit",
       "slug": "five-nights-at-freddys-into-the-pit",
       "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "Bendy and the Ink Machine",
-      "slug": "bendy-and-the-ink-machine",
-      "date_tested": "Oct '25",
-      "is_featured": true
-    },
-    {
-      "title": "Dishonored",
-      "slug": "dishonored",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Europa Universalis IV",
-      "slug": "europa-universalis-iv",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Happy Game",
-      "slug": "happy-game",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Kamaeru",
-      "slug": "kamaeru",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "RiME",
-      "slug": "rime",
-      "date_tested": "June '24",
       "is_featured": false
     }
   ]

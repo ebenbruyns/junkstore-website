@@ -40,7 +40,7 @@
   "size": "331 MB",
   "vertical_artwork": "https://images.gog.com/5b4d660e4cc58cf6d600d3dba40a36a7460ddaf4c89a0692e65328d00c8760c7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4f97f79606a9ac9267fb8c5344a3dc2d021c56bc8ed1b8523bd0c236cb2c570e.jpg?namespace=gamesdb",
-  "icon_image": "https://images.gog.com/5b4d660e4cc58cf6d600d3dba40a36a7460ddaf4c89a0692e65328d00c8760c7.jpg?namespace=gamesdb",
+  "icon_image": "",
   "steamId": "3950020",
   "game_modes": [
     "Single-player",
@@ -57,8 +57,8 @@
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
-  "is_featured": true,
+  "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-29T23:49:31.536Z",
-  "updated_at": "2025-11-04T19:55:36.080Z"
+  "updated_at": "2025-11-04T23:26:48.791Z"
 }
