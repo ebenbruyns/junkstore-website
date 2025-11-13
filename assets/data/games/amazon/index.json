@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 44,
+  "total_games": 46,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -21,6 +21,7 @@
     "gargoyles-remastered.json",
     "genesis-noir.json",
     "golfie.json",
+    "grime.json",
     "labyrinth-city-pierre-the-maze-detective.json",
     "lego-indiana-jones-the-original-adventures.json",
     "max-the-curse-of-brotherhood.json",
@@ -28,6 +29,7 @@
     "nine-witches-family-disruption.json",
     "pixel-cafe.json",
     "projection-first-light.json",
+    "sine-mora-ex.json",
     "spirit-mancer.json",
     "spitlings.json",
     "star-wars-knights-of-the-old-republic-ii-the-sith-lords.json",
@@ -47,14 +49,26 @@
     "ynglet.json",
     "youtubers-life-2.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2025-11-04T19:55:56.733Z",
+  "featured_games": 0,
+  "last_updated": "2025-11-13T03:14:37.180Z",
   "latest_games": [
+    {
+      "title": "Sine Mora EX",
+      "slug": "sine-mora-ex",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Grime",
+      "slug": "grime",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
     {
       "title": "Werewolf: The Apocalypse — Heart of the Forest",
       "slug": "werewolf-the-apocalypse-heart-of-the-forest",
       "date_tested": "Oct '25",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "DreadOut 2",
@@ -96,18 +110,6 @@
       "title": "Youtubers Life 2",
       "slug": "youtubers-life-2",
       "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Warhammer 40,000: Space Marine",
-      "slug": "warhammer-40000-space-marine",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Figment 2: Creed Valley",
-      "slug": "figment-2-creed-valley",
-      "date_tested": "Sept '25",
       "is_featured": false
     }
   ]
