@@ -1,0 +1,83 @@
+<!-- Black Friday Promo Banner - Remove after Dec 2nd -->
+<div class="promo-banner">
+  <div class="promo-banner__content">
+    <span class="promo-banner__main">
+      <strong>Black Friday Sale</strong> – 50% off JunkStore 2.0 with code <code class="promo-code">JunkFriday50</code> – Ends Dec 2nd
+    </span>
+    <span class="promo-banner__note">Running Decky? Use the Test channel build (conflict being resolved).</span>
+  </div>
+  <button class="promo-banner__close" aria-label="Close banner" onclick="this.parentElement.style.display='none';">&times;</button>
+</div>
+
+<style>
+.promo-banner {
+  background: linear-gradient(135deg, #1a1d24 0%, #252a34 50%, #1a1d24 100%);
+  border-bottom: 2px solid #00adb5;
+  color: #eaeaea;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promo-banner__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.promo-banner__main strong {
+  color: #00adb5;
+}
+
+.promo-code {
+  background: #00adb5;
+  color: #1a1d24;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+.promo-banner__note {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.promo-banner__close {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0.25rem;
+}
+
+.promo-banner__close:hover {
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .promo-banner {
+    font-size: 0.85rem;
+    padding: 0.6rem 2.5rem 0.6rem 0.75rem;
+  }
+
+  .promo-banner__note {
+    font-size: 0.75rem;
+  }
+
+  .promo-code {
+    font-size: 0.8rem;
+  }
+}
+</style>
