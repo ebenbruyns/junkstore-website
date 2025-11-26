@@ -913,7 +913,7 @@ class StaticOptimizedGamesTable {
   getStatusText(rating) {
     if (!rating) return 'Not tested';
     const ratingLower = rating.toLowerCase();
-    if (ratingLower === 'perfect' || ratingLower === 'green') return 'Works great';
+    if (ratingLower === 'perfect' || ratingLower === 'green') return 'Works Out of the Box';
     if (ratingLower === 'yellow') return 'Minor tinkering';
     if (ratingLower === 'red') return 'Advanced tinkering';
     if (ratingLower === 'not-working') return 'Doesn\'t work';
