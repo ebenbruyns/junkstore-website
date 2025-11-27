@@ -10827,7 +10827,9 @@
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
-      "steamId": ""
+      "steamId": "",
+      "cant_test_linux": true,
+      "tested": true
     },
     {
       "id": "2139d622-b673-4583-83f8-fc04dc88b758",
@@ -10878,7 +10880,9 @@
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
-      "steamId": ""
+      "steamId": "",
+      "cant_test_linux": true,
+      "tested": true
     },
     {
       "id": "56ac141b-24d7-4100-8931-dc3a243444c6",
@@ -10912,7 +10916,9 @@
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
-      "steamId": ""
+      "steamId": "",
+      "cant_test_linux": true,
+      "tested": true
     },
     {
       "id": "44e283b3-cc84-4bcb-9610-a522699f28f9",
@@ -10946,7 +10952,9 @@
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
-      "steamId": ""
+      "steamId": "",
+      "cant_test_linux": true,
+      "tested": true
     },
     {
       "id": "65c9c1d4-79be-4618-a021-45d1acf36ed3",
@@ -10980,7 +10988,9 @@
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
-      "steamId": ""
+      "steamId": "",
+      "cant_test_linux": true,
+      "tested": true
     },
     {
       "id": "1d818ef5-ed07-41ce-985a-e1063ef248ab",
@@ -11133,7 +11143,9 @@
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
-      "steamId": ""
+      "steamId": "",
+      "cant_test_linux": true,
+      "tested": true
     },
     {
       "id": "65b03dff-2d4a-4c4f-b9ee-f45a6a536154",
@@ -11201,7 +11213,9 @@
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
-      "steamId": ""
+      "steamId": "",
+      "cant_test_linux": true,
+      "tested": true
     },
     {
       "id": "d0ccdba7-8df6-4460-8d4d-1986e8a2c74b",
@@ -11218,7 +11232,9 @@
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
-      "steamId": ""
+      "steamId": "",
+      "cant_test_linux": true,
+      "tested": true
     },
     {
       "id": "7d026d0a-ca4c-4e8b-856d-507ca8583146",
@@ -11235,7 +11251,9 @@
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
-      "steamId": ""
+      "steamId": "",
+      "cant_test_linux": true,
+      "tested": true
     },
     {
       "id": "bac0eac2-d155-4e35-8902-88b60a2498ad",
@@ -11252,7 +11270,9 @@
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
-      "steamId": ""
+      "steamId": "",
+      "cant_test_linux": true,
+      "tested": true
     },
     {
       "id": "4d116fc8-66e9-4fc4-b3ea-290c3e0add44",
