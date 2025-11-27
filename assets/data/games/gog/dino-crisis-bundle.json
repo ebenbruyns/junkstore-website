@@ -7,7 +7,7 @@
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
-  "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**. Set launch command: WINEDLLOVERRIDES=\"ddraw=n,b\" %command%",
+  "notes": "Native controller support. **Decky Plugin: Some tinkering required**. Set launch command: WINEDLLOVERRIDES=\"ddraw=n,b\" %command%",
   "date_tested": "April '25",
   "decky_rating": "yellow",
   "standalone_rating": "unknown",
