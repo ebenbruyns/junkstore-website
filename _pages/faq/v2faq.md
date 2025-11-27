@@ -1033,12 +1033,28 @@ document.addEventListener('DOMContentLoaded', function() {
           box.style.display = 'block';
           visibleCount++;
           
-          // Simple highlighting - avoid HTML mangling by working with plain text only
+          // Simple highlighting - preserve anchor buttons
           if (summary && summaryText.includes(searchTerm)) {
-            const originalText = summary.textContent;
+            // Save the anchor button if it exists
+            const anchorButton = summary.querySelector('.faq-anchor');
+
+            // Get text content (excluding anchor button)
+            const textNodes = Array.from(summary.childNodes).filter(node => node.nodeType === Node.TEXT_NODE);
+            const originalText = textNodes.map(node => node.textContent).join('');
+
+            // Apply highlighting to text only
             const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
             const regex = new RegExp(`(${escapedTerm})`, 'gi');
-            summary.innerHTML = originalText.replace(regex, '<span class="search-highlight">$1</span>');
+            const highlightedText = originalText.replace(regex, '<span class="search-highlight">$1</span>');
+
+            // Clear summary and add highlighted text
+            summary.innerHTML = highlightedText;
+
+            // Re-append the anchor button if it existed
+            if (anchorButton) {
+              summary.appendChild(document.createTextNode(' '));
+              summary.appendChild(anchorButton);
+            }
           }
         } else {
           box.style.display = 'none';
