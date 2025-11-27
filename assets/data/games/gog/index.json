@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 329,
+  "total_games": 331,
   "games": [
     "9-years-of-shadows.json",
     "a-plague-tale-innocence.json",
@@ -16,6 +16,7 @@
     "amnesia-a-machine-for-pigs.json",
     "amnesia-the-bunker.json",
     "ancient-enemy.json",
+    "another-world-20th-anniversary-edition.json",
     "arcade-paradise.json",
     "ascendant.json",
     "atom-rpg-trudograd.json",
@@ -86,6 +87,7 @@
     "doom.json",
     "doomdarks-revenge.json",
     "dorfromantik.json",
+    "dream-tactics.json",
     "dredge.json",
     "drive-rally.json",
     "duck-paradox.json",
@@ -110,6 +112,7 @@
     "flatout.json",
     "flipon.json",
     "forager.json",
+    "fort-solis.json",
     "front-mission-1st-remake-limited-edition.json",
     "gamedec.json",
     "gex.json",
@@ -331,14 +334,44 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 0,
-  "last_updated": "2025-11-13T03:14:37.178Z",
+  "featured_games": 3,
+  "last_updated": "2025-11-26T06:08:54.183Z",
   "latest_games": [
     {
-      "title": "Lovecraft's Untold Stories",
-      "slug": "lovecrafts-untold-stories",
-      "date_tested": "Nov '25",
+      "title": "Barrow Hill: The Dark Path",
+      "slug": "barrow-hill-the-dark-path",
+      "date_tested": "Oct '24",
       "is_featured": false
+    },
+    {
+      "title": "Barrow Hill: Curse of the Ancient Circle",
+      "slug": "barrow-hill-curse-of-the-ancient-circle",
+      "date_tested": "Oct '24",
+      "is_featured": false
+    },
+    {
+      "title": "Amid Evil",
+      "slug": "amid-evil",
+      "date_tested": "Aug '24",
+      "is_featured": false
+    },
+    {
+      "title": "Amnesia: The Bunker",
+      "slug": "amnesia-the-bunker",
+      "date_tested": "Oct '24",
+      "is_featured": false
+    },
+    {
+      "title": "#Drive Rally",
+      "slug": "drive-rally",
+      "date_tested": "Oct '24",
+      "is_featured": false
+    },
+    {
+      "title": "Dream Tactics",
+      "slug": "dream-tactics",
+      "date_tested": "Nov '25",
+      "is_featured": true
     },
     {
       "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
@@ -353,45 +386,15 @@
       "is_featured": false
     },
     {
-      "title": "You Will Die Here Tonight",
-      "slug": "you-will-die-here-tonight",
-      "date_tested": "Oct '25",
-      "is_featured": false
+      "title": "Fort Solis",
+      "slug": "fort-solis",
+      "date_tested": "Nov '25",
+      "is_featured": true
     },
     {
-      "title": "Sunblaze",
-      "slug": "sunblaze",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Ancient Enemy",
-      "slug": "ancient-enemy",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Beholder 2",
-      "slug": "beholder-2",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Fallout: New Vegas Ultimate Edition",
-      "slug": "fallout-new-vegas-ultimate-edition",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "SimCity 4: Deluxe Edition",
-      "slug": "simcity-4-deluxe-edition",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Hellslave",
-      "slug": "hellslave",
-      "date_tested": "Oct '25",
+      "title": "Lovecraft's Untold Stories",
+      "slug": "lovecrafts-untold-stories",
+      "date_tested": "Nov '25",
       "is_featured": false
     }
   ]
