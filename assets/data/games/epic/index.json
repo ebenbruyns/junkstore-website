@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 382,
+  "total_games": 400,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -31,6 +31,7 @@
     "ancient-enemy.json",
     "animation-throwdown-the-quest-for-cards.json",
     "anodyne-2-return-to-dust.json",
+    "apex-legends.json",
     "arcade-paradise.json",
     "arcadegeddon.json",
     "are-you-smarter-than-a-5th-grader.json",
@@ -112,6 +113,7 @@
     "deliver-at-all-costs.json",
     "deliver-us-mars.json",
     "demons-tilt.json",
+    "destiny-2.json",
     "dishonored-death-of-the-outsider.json",
     "dishonored.json",
     "disney-epic-mickey-rebrushed.json",
@@ -155,6 +157,7 @@
     "floppy-knights.json",
     "football-manager-2024.json",
     "for-the-king.json",
+    "fortnite.json",
     "freshly-frosted.json",
     "gamedec.json",
     "garden-story.json",
@@ -169,6 +172,7 @@
     "gloomhaven.json",
     "godlike-burger.json",
     "gods-will-fall.json",
+    "godzilla-voxel-wars.json",
     "grand-theft-auto-v-enhanced.json",
     "grand-theft-auto-v.json",
     "gravity-circuit.json",
@@ -208,6 +212,7 @@
     "kill-knight.json",
     "killing-floor-2.json",
     "kingdom-come-deliverance.json",
+    "league-of-legends.json",
     "legion-td-2.json",
     "lego-builders-journey.json",
     "lego-star-wars-the-skywalker-saga.json",
@@ -248,11 +253,13 @@
     "paquerette-down-the-bunburrows.json",
     "pc-building-simulator.json",
     "pilgrims.json",
+    "plateup.json",
     "predator-hunting-grounds.json",
     "prey.json",
     "priest-simulator-vampire-show.json",
     "prison-architect.json",
     "project-winter.json",
+    "pubg-battlegrounds.json",
     "qube-10th-anniversary.json",
     "qube-2.json",
     "rawmen-food-fighter-arena.json",
@@ -282,6 +289,7 @@
     "samorost-3.json",
     "sands-of-aura.json",
     "scarf.json",
+    "scourgebringer.json",
     "session-skate-sim.json",
     "shadow-of-the-tomb-raider-definitive-edition.json",
     "shapez.json",
@@ -295,6 +303,7 @@
     "snakebird-complete.json",
     "sniper-ghost-warrior-contracts.json",
     "solar-ash.json",
+    "songs-of-silence.json",
     "sonic-mania.json",
     "soulstice.json",
     "spirit-of-the-north.json",
@@ -326,10 +335,13 @@
     "the-bridge.json",
     "the-callisto-protocol.json",
     "the-captain.json",
+    "the-crew-motorfest.json",
     "the-drone-racing-league-simulator.json",
     "the-dungeon-of-naheulbeuk-the-amulet-of-chaos.json",
     "the-escapists.json",
     "the-eternal-cylinder.json",
+    "the-evil-within-2.json",
+    "the-evil-within.json",
     "the-falconeer.json",
     "the-forest-quartet.json",
     "the-last-show-of-mr-chardish.json",
@@ -349,6 +361,8 @@
     "to-the-rescue.json",
     "toejam-earl-back-in-the-groove.json",
     "toem.json",
+    "tom-clancys-ghost-recon-breakpoint.json",
+    "tom-clancys-rainbow-six-extraction.json",
     "tomb-raider-game-of-the-year-edition.json",
     "tony-hawks-pro-skater-12.json",
     "totally-reliable-delivery-service.json",
@@ -365,6 +379,7 @@
     "two-point-hospital.json",
     "undying.json",
     "unrailed.json",
+    "valorant.json",
     "vampire-survivors.json",
     "vampire-the-masquerade-reckoning-of-new-york.json",
     "void-bastards.json",
@@ -381,71 +396,74 @@
     "wonder-boy-the-dragons-trap.json",
     "world-of-warships.json",
     "world-war-z.json",
+    "wuthering-waves.json",
     "yooka-laylee-and-the-impossible-lair.json",
     "zenless-zone-zero.json",
+    "zero-hour.json",
+    "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 4,
-  "last_updated": "2025-11-13T03:14:37.174Z",
+  "featured_games": 6,
+  "last_updated": "2025-11-26T06:08:54.179Z",
   "latest_games": [
     {
-      "title": "Borderlands 3",
-      "slug": "borderlands-3",
-      "date_tested": "June '24",
-      "is_featured": false
-    },
-    {
-      "title": "Saints Row",
-      "slug": "saints-row",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Saints Row IV: Re-Elected",
-      "slug": "saints-row-iv-re-elected",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "PC Building Simulator",
-      "slug": "pc-building-simulator",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Felix the Reaper",
-      "slug": "felix-the-reaper",
+      "title": "PlateUp!",
+      "slug": "plateup",
       "date_tested": "Nov '25",
       "is_featured": true
     },
     {
-      "title": "New Tales from the Borderlands",
-      "slug": "new-tales-from-the-borderlands",
+      "title": "Samorost 3",
+      "slug": "samorost-3",
       "date_tested": "Nov '25",
-      "is_featured": true
-    },
-    {
-      "title": "Lovecraft's Untold Stories",
-      "slug": "lovecrafts-untold-stories",
-      "date_tested": "Nov '25",
-      "is_featured": true
-    },
-    {
-      "title": "Gas Station Simulator",
-      "slug": "gas-station-simulator",
-      "date_tested": "Nov '25",
-      "is_featured": true
-    },
-    {
-      "title": "Tales from the Borderlands",
-      "slug": "tales-from-the-borderlands",
-      "date_tested": "Sept '24",
       "is_featured": false
     },
     {
-      "title": "Five Nights at Freddy's: Into the Pit",
-      "slug": "five-nights-at-freddys-into-the-pit",
-      "date_tested": "Oct '25",
+      "title": "Samorost 2",
+      "slug": "samorost-2",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Zero Hour",
+      "slug": "zero-hour",
+      "date_tested": "Nov '25",
+      "is_featured": true
+    },
+    {
+      "title": "Songs of Silence",
+      "slug": "songs-of-silence",
+      "date_tested": "Nov '25",
+      "is_featured": true
+    },
+    {
+      "title": "The Evil Within 2",
+      "slug": "the-evil-within-2",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Ghostwire: Tokyo",
+      "slug": "ghostwire-tokyo",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "The Lord of the Rings: Return to Moria",
+      "slug": "the-lord-of-the-rings-return-to-moria",
+      "date_tested": "Dec '24",
+      "is_featured": false
+    },
+    {
+      "title": "The Evil Within",
+      "slug": "the-evil-within",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Darkest Dungeon II",
+      "slug": "darkest-dungeon-ii",
+      "date_tested": "May '24",
       "is_featured": false
     }
   ]

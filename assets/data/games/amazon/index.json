@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 46,
+  "total_games": 48,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -12,6 +12,7 @@
     "dexter-stardust-adventures-in-outer-space.json",
     "dreadout-2.json",
     "dungeon-of-the-endless-definitive-edition.json",
+    "endless-legend-definitive-edition.json",
     "endless-space-2-definitive-edition.json",
     "endless-space-definitive-edition.json",
     "endling-extinction-is-forever.json",
@@ -47,20 +48,33 @@
     "warhammer-40000-space-marine.json",
     "werewolf-the-apocalypse-heart-of-the-forest.json",
     "ynglet.json",
+    "young-souls.json",
     "youtubers-life-2.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-11-13T03:14:37.180Z",
+  "last_updated": "2025-11-26T06:08:54.185Z",
   "latest_games": [
     {
-      "title": "Sine Mora EX",
-      "slug": "sine-mora-ex",
+      "title": "Young Souls",
+      "slug": "young-souls",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Endless Legend: Definitive Edition",
+      "slug": "endless-legend-definitive-edition",
       "date_tested": "Nov '25",
       "is_featured": false
     },
     {
       "title": "Grime",
       "slug": "grime",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Sine Mora EX",
+      "slug": "sine-mora-ex",
       "date_tested": "Nov '25",
       "is_featured": false
     },
@@ -97,18 +111,6 @@
     {
       "title": "Genesis Noir",
       "slug": "genesis-noir",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Naheulbeuk's Dungeon Master",
-      "slug": "naheulbeuks-dungeon-master",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Youtubers Life 2",
-      "slug": "youtubers-life-2",
       "date_tested": "Oct '25",
       "is_featured": false
     }
