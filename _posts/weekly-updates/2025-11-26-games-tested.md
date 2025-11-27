@@ -23,7 +23,7 @@ Apologies for missing last week's post—the past couple of weeks have been full
 
 **Quick updates:**
 
-- **Black Friday Special:** We're offering **50% off** your first year of Junk Store 2.0, valid until **December 2**. If you currently have a discount less than 50%, please DM us to remove it before applying this offer—due to Stripe limitations, only one discount can be active at a time, and your existing discount will be forfeited when using this code.
+- **Black Friday Special:** We're offering **50% off** your first year of Junk Store 2.0, valid until **December 2**. If you have an existing discount less than 50%, DM us to manually remove it so you can apply this code. Due to Stripe limitations and the manual work required, any existing discount will be forfeited if you choose not to use the 50% Black Friday code.
 
   **Promo Code:** <span class="promo-code">JunkFriday50</span>
 
