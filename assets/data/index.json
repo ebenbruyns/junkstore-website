@@ -1,189 +1,189 @@
 {
-  "last_updated": "2025-11-13T03:14:37.191Z",
-  "total_tested_games": 777,
-  "featured_games": 4,
+  "last_updated": "2025-11-26T06:08:54.196Z",
+  "total_tested_games": 816,
+  "featured_games": 9,
   "storefronts": {
     "Epic": {
-      "total": 382,
-      "featured": 4,
+      "total": 400,
+      "featured": 6,
       "directory": "epic"
     },
     "GOG": {
-      "total": 329,
-      "featured": 0,
+      "total": 331,
+      "featured": 3,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 46,
+      "total": 48,
       "featured": 0,
       "directory": "amazon"
     },
     "itch.io": {
-      "total": 20,
+      "total": 37,
       "featured": 0,
       "directory": "itch.io"
     }
   },
   "recent_updates": [
     {
-      "title": "Borderlands 3",
-      "storefront": "Epic",
-      "slug": "borderlands-3",
-      "date_tested": "June '24",
-      "is_featured": false,
-      "updated_at": "2025-11-13T03:13:20.665Z"
-    },
-    {
-      "title": "Saints Row",
-      "storefront": "Epic",
-      "slug": "saints-row",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-13T03:13:15.677Z"
-    },
-    {
-      "title": "Saints Row IV: Re-Elected",
-      "storefront": "Epic",
-      "slug": "saints-row-iv-re-elected",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-13T01:56:42.593Z"
-    },
-    {
-      "title": "PC Building Simulator",
-      "storefront": "Epic",
-      "slug": "pc-building-simulator",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-12T21:33:48.344Z"
-    },
-    {
-      "title": "Felix the Reaper",
-      "storefront": "Epic",
-      "slug": "felix-the-reaper",
-      "date_tested": "Nov '25",
-      "is_featured": true,
-      "updated_at": "2025-11-12T21:24:50.416Z"
-    },
-    {
-      "title": "Lovecraft's Untold Stories",
-      "storefront": "GOG",
-      "slug": "lovecrafts-untold-stories",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-11T23:41:58.452Z"
-    },
-    {
-      "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
-      "storefront": "GOG",
-      "slug": "blast-brigade-vs-the-evil-legion-of-dr-cread",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-11T23:37:33.821Z"
-    },
-    {
-      "title": "Blacksad: Under the Skin",
-      "storefront": "GOG",
-      "slug": "blacksad-under-the-skin",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-11T23:35:58.898Z"
-    },
-    {
-      "title": "New Tales from the Borderlands",
-      "storefront": "Epic",
-      "slug": "new-tales-from-the-borderlands",
-      "date_tested": "Nov '25",
-      "is_featured": true,
-      "updated_at": "2025-11-11T22:57:36.277Z"
-    },
-    {
-      "title": "Lovecraft's Untold Stories",
-      "storefront": "Epic",
-      "slug": "lovecrafts-untold-stories",
-      "date_tested": "Nov '25",
-      "is_featured": true,
-      "updated_at": "2025-11-11T22:28:49.914Z"
-    },
-    {
-      "title": "Gas Station Simulator",
-      "storefront": "Epic",
-      "slug": "gas-station-simulator",
-      "date_tested": "Nov '25",
-      "is_featured": true,
-      "updated_at": "2025-11-07T03:20:52.079Z"
-    },
-    {
-      "title": "Tales from the Borderlands",
-      "storefront": "Epic",
-      "slug": "tales-from-the-borderlands",
-      "date_tested": "Sept '24",
-      "is_featured": false,
-      "updated_at": "2025-11-06T22:01:49.032Z"
-    },
-    {
-      "title": "Sine Mora EX",
-      "storefront": "Amazon",
-      "slug": "sine-mora-ex",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-06T00:46:31.675Z"
-    },
-    {
-      "title": "Grime",
-      "storefront": "Amazon",
-      "slug": "grime",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-06T00:41:57.104Z"
-    },
-    {
-      "title": "You Will Die Here Tonight",
-      "storefront": "GOG",
-      "slug": "you-will-die-here-tonight",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-11-04T23:26:53.452Z"
-    },
-    {
-      "title": "Werewolf: The Apocalypse — Heart of the Forest",
-      "storefront": "Amazon",
-      "slug": "werewolf-the-apocalypse-heart-of-the-forest",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-11-04T23:26:51.220Z"
-    },
-    {
-      "title": "Five Nights at Freddy's: Into the Pit",
-      "storefront": "Epic",
-      "slug": "five-nights-at-freddys-into-the-pit",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-11-04T23:26:49.610Z"
-    },
-    {
-      "title": "Duet Night Abyss",
-      "storefront": "Epic",
-      "slug": "duet-night-abyss",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-11-04T23:26:48.791Z"
-    },
-    {
-      "title": "Bendy and the Ink Machine",
-      "storefront": "Epic",
-      "slug": "bendy-and-the-ink-machine",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2025-11-04T23:26:47.379Z"
-    },
-    {
-      "title": "Cloud Gardens",
+      "title": "Help Hurt Hopp",
       "storefront": "itch.io",
-      "slug": "cloud-gardens",
-      "date_tested": "Oct '25",
+      "slug": "help-hurt-hopp",
+      "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2025-11-04T23:26:32.759Z"
+      "updated_at": "2025-11-26T06:07:55.821Z"
+    },
+    {
+      "title": "PlateUp!",
+      "storefront": "Epic",
+      "slug": "plateup",
+      "date_tested": "Nov '25",
+      "is_featured": true,
+      "updated_at": "2025-11-26T05:20:57.191Z"
+    },
+    {
+      "title": "Samorost 3",
+      "storefront": "Epic",
+      "slug": "samorost-3",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-11-26T05:06:23.949Z"
+    },
+    {
+      "title": "Samorost 2",
+      "storefront": "Epic",
+      "slug": "samorost-2",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-11-26T05:01:32.127Z"
+    },
+    {
+      "title": "Zero Hour",
+      "storefront": "Epic",
+      "slug": "zero-hour",
+      "date_tested": "Nov '25",
+      "is_featured": true,
+      "updated_at": "2025-11-26T04:43:02.035Z"
+    },
+    {
+      "title": "Songs of Silence",
+      "storefront": "Epic",
+      "slug": "songs-of-silence",
+      "date_tested": "Nov '25",
+      "is_featured": true,
+      "updated_at": "2025-11-26T03:41:26.742Z"
+    },
+    {
+      "title": "The Evil Within 2",
+      "storefront": "Epic",
+      "slug": "the-evil-within-2",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-11-26T03:07:09.935Z"
+    },
+    {
+      "title": "Ghostwire: Tokyo",
+      "storefront": "Epic",
+      "slug": "ghostwire-tokyo",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-11-26T01:21:31.689Z"
+    },
+    {
+      "title": "The Lord of the Rings: Return to Moria",
+      "storefront": "Epic",
+      "slug": "the-lord-of-the-rings-return-to-moria",
+      "date_tested": "Dec '24",
+      "is_featured": false,
+      "updated_at": "2025-11-26T00:25:36.785Z"
+    },
+    {
+      "title": "The Evil Within",
+      "storefront": "Epic",
+      "slug": "the-evil-within",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-11-26T00:17:22.985Z"
+    },
+    {
+      "title": "Darkest Dungeon II",
+      "storefront": "Epic",
+      "slug": "darkest-dungeon-ii",
+      "date_tested": "May '24",
+      "is_featured": false,
+      "updated_at": "2025-11-25T23:47:49.792Z"
+    },
+    {
+      "title": "Atlas Fallen",
+      "storefront": "Epic",
+      "slug": "atlas-fallen",
+      "date_tested": "May '24",
+      "is_featured": false,
+      "updated_at": "2025-11-25T23:45:24.284Z"
+    },
+    {
+      "title": "Axiom Verge",
+      "storefront": "Epic",
+      "slug": "axiom-verge",
+      "date_tested": "May '24",
+      "is_featured": false,
+      "updated_at": "2025-11-25T23:45:11.954Z"
+    },
+    {
+      "title": "Barrow Hill: The Dark Path",
+      "storefront": "GOG",
+      "slug": "barrow-hill-the-dark-path",
+      "date_tested": "Oct '24",
+      "is_featured": false,
+      "updated_at": "2025-11-25T23:45:02.350Z"
+    },
+    {
+      "title": "Barrow Hill: Curse of the Ancient Circle",
+      "storefront": "GOG",
+      "slug": "barrow-hill-curse-of-the-ancient-circle",
+      "date_tested": "Oct '24",
+      "is_featured": false,
+      "updated_at": "2025-11-25T23:44:50.870Z"
+    },
+    {
+      "title": "Anodyne 2 - Return to Dust",
+      "storefront": "Epic",
+      "slug": "anodyne-2-return-to-dust",
+      "date_tested": "Nov '24",
+      "is_featured": false,
+      "updated_at": "2025-11-25T23:44:40.648Z"
+    },
+    {
+      "title": "Among Us",
+      "storefront": "Epic",
+      "slug": "among-us",
+      "date_tested": "Nov '24",
+      "is_featured": false,
+      "updated_at": "2025-11-25T23:44:23.521Z"
+    },
+    {
+      "title": "Amid Evil",
+      "storefront": "GOG",
+      "slug": "amid-evil",
+      "date_tested": "Aug '24",
+      "is_featured": false,
+      "updated_at": "2025-11-25T23:44:08.118Z"
+    },
+    {
+      "title": "Alien: Isolation",
+      "storefront": "Epic",
+      "slug": "alien-isolation",
+      "date_tested": "Nov '24",
+      "is_featured": false,
+      "updated_at": "2025-11-25T23:43:51.860Z"
+    },
+    {
+      "title": "Assassin's Creed Origins",
+      "storefront": "Epic",
+      "slug": "assassins-creed-origins",
+      "date_tested": "Aug '24",
+      "is_featured": false,
+      "updated_at": "2025-11-25T23:43:09.575Z"
     }
   ]
 }

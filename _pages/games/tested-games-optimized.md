@@ -113,13 +113,12 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
 <!-- Compatibility Legend -->
 <div class="compatibility-legend">
   <span class="legend-title">Compatibility:</span>
-  <span class="legend-item">✅ Works perfect</span>
+  <span class="legend-item">✅ Works Out of the Box</span>
   <span class="legend-item">🟡 Minor setup</span>
   <span class="legend-item">🔧 Advanced setup</span>
   <span class="legend-item">❌ Broken</span>
   <span class="legend-item">🚫 Unsupported</span>
   <span class="legend-item">❓ Untested</span>
-  <span class="legend-item">⚠️ Anti-cheat</span>
 </div>
 
 <!-- Games Table -->
@@ -988,14 +987,14 @@ function getStatusClass(rating) {
 function getStatusText(rating) {
   if (!rating) return 'Not tested';
   const ratingLower = rating.toLowerCase();
-  if (ratingLower === 'green' || ratingLower === 'perfect') return 'Works perfect';
+  if (ratingLower === 'green' || ratingLower === 'perfect') return 'Works Out of the Box';
   if (ratingLower === 'yellow') return 'Minor setup';
   if (ratingLower === 'red') return 'Advanced setup';
   if (ratingLower === 'not-working') return 'Broken';
   if (ratingLower === 'unknown') return 'Untested';
   if (ratingLower === 'not-supported') return 'Not supported';
   if (ratingLower === 'untested') return 'Untested';
-  
+
   // For any other value, capitalize first letter
   return rating.charAt(0).toUpperCase() + rating.slice(1).toLowerCase();
 }

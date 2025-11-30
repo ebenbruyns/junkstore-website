@@ -4,10 +4,10 @@
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/1799930",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/redout-2",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
-  "notes": "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Works out of the box**. Install C++ Runtime Install",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Redout_2",
+  "notes": "Works out of the box via Junk Store 2.0! For the Decky plugin you will need to Install C++ Runtime",
   "date_tested": "June '24",
   "decky_rating": "yellow",
   "standalone_rating": "green",
@@ -18,10 +18,10 @@
   "known_issues": "",
   "requires_eos": false,
   "supports_eos": false,
-  "requires_verification": false,
+  "requires_verification": true,
   "epic_achievements": true,
   "epic_offline_mode": false,
-  "must_be_online": false,
+  "must_be_online": true,
   "requires_eac_runtime": false,
   "requires_battleye_runtime": false,
   "required_launcher": "",
@@ -49,11 +49,11 @@
   "languages": [
     "English"
   ],
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:29:57.381Z"
+  "updated_at": "2025-11-25T20:38:53.922Z"
 }

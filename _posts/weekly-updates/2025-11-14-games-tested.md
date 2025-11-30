@@ -14,7 +14,7 @@ toc: true
 ---
 
 <div class="weekly-highlights">
-<strong>This week's testing highlights:</strong> 12 games across Epic, GOG, Amazon storefronts — including standout finds like PC Building Simulator works out of the box and Blacksad: Under the Skin works out of the box.
+<strong>This week's testing highlights:</strong> 12 games across Epic, GOG, Amazon storefronts — including fun finds like Gas Station Simulator and Felix the Reaper which work out of the box.
 </div>
 
 Kia ora Everyone!
