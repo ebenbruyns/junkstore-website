@@ -1,89 +1,106 @@
 {
   "storefront": "itch.io",
-  "total_games": 20,
+  "total_games": 37,
   "games": [
     "10-flights-of-ballooning.json",
+    "10mg-sealed-estate.json",
+    "10mg-snaaak.json",
     "10s.json",
     "1993-space-machine.json",
     "2-9-0-1-freelancer.json",
+    "a-dance-of-fire-and-ice.json",
+    "a-forgetful-loop.json",
+    "a-good-snowman-is-hard-to-build.json",
+    "a-morticians-tale.json",
     "a-short-hike.json",
     "baba-is-you.json",
+    "baldis-basics-plus.json",
     "celeste.json",
     "cloud-gardens.json",
     "cosmic-express.json",
     "crosscode.json",
     "crossniq.json",
+    "death-drives-a-bus.json",
+    "dragon-drop.json",
     "dumpy-bumpy.json",
+    "figment.json",
     "forma8.json",
+    "futuregrind.json",
+    "help-hurt-hopp.json",
     "macbat-64-journey-of-a-nice-chap.json",
     "magnibox.json",
+    "moon-hunters.json",
     "omeganaut.json",
     "spa-taxi.json",
     "sundered.json",
     "super-hexagon.json",
-    "underhero.json"
+    "toree-2.json",
+    "toree-3d.json",
+    "towerfall-ascension.json",
+    "underhero.json",
+    "zeroranger.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-11-13T03:14:37.181Z",
+  "last_updated": "2025-11-26T06:08:54.186Z",
   "latest_games": [
     {
-      "title": "Cloud Gardens",
-      "slug": "cloud-gardens",
-      "date_tested": "Oct '25",
+      "title": "Help Hurt Hopp",
+      "slug": "help-hurt-hopp",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Cosmic Express",
-      "slug": "cosmic-express",
-      "date_tested": "Oct '25",
+      "title": "A Good Snowman Is Hard To Build",
+      "slug": "a-good-snowman-is-hard-to-build",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Dumpy & Bumpy",
-      "slug": "dumpy-bumpy",
-      "date_tested": "Oct '25",
+      "title": "ZeroRanger",
+      "slug": "zeroranger",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Omeganaut",
-      "slug": "omeganaut",
-      "date_tested": "Oct '25",
+      "title": "TowerFall Ascension",
+      "slug": "towerfall-ascension",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Underhero",
-      "slug": "underhero",
-      "date_tested": "Oct '25",
+      "title": "Toree 3D",
+      "slug": "toree-3d",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Magnibox",
-      "slug": "magnibox",
-      "date_tested": "Oct '25",
+      "title": "Toree 2",
+      "slug": "toree-2",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Sundered",
-      "slug": "sundered",
-      "date_tested": "Oct '25",
+      "title": "FutureGrind",
+      "slug": "futuregrind",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Spaß Taxi",
-      "slug": "spa-taxi",
-      "date_tested": "Oct '25",
+      "title": "Figment",
+      "slug": "figment",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Macbat 64: Journey of a Nice Chap",
-      "slug": "macbat-64-journey-of-a-nice-chap",
-      "date_tested": "Sept '25",
+      "title": "Baldi's Basics Plus",
+      "slug": "baldis-basics-plus",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Super Hexagon",
-      "slug": "super-hexagon",
-      "date_tested": "Aug '25",
+      "title": "A Dance of Fire and Ice",
+      "slug": "a-dance-of-fire-and-ice",
+      "date_tested": "Nov '25",
       "is_featured": false
     }
   ]
