@@ -1,11 +1,11 @@
 {
-  "id": "8c84b476-8f37-46c5-8f57-cff88c0ebec6",
-  "title": "Help Hurt Hopp",
+  "id": "eca2ce65-5704-4861-9ac9-69b9c2772b99",
+  "title": "Roguelight",
   "storefront": "itch.io",
   "protondb": "",
   "gog_url": "",
   "epic_url": "",
-  "itch_url": "https://managore.itch.io/help-hurt-hopp",
+  "itch_url": "https://managore.itch.io/roguelight",
   "pc_gaming_wiki_url": "",
   "notes": "Works out of the box!",
   "date_tested": "Nov '25",
@@ -36,20 +36,22 @@
   "developer": "Daniel Linssen",
   "releasedate": "",
   "genre": "Platformer",
-  "description": "HOPP, HELP and HURT each have a different goal.\n\nHOPP wants to get to the gem on the far right side, without getting killed\nHOPP can run, jump and even wall jump, but has to avoid touching the deadly spikes,\nacidic drips, energy bullets or ghost skulls, or getting squashed.\n\nHELP wants to alter the level to help HOPP get to the gem.\n\nHURT wants to alter the level to kill HOPP before they get to the gem\nafter placing enough pieces, HURT can place a ghost skull that will chase HOPP indefinitely.",
+  "description": "The deeper you travel the darker it gets, and you only have your arrows to light the way.",
   "size": "",
-  "vertical_artwork": "https://images.igdb.com/igdb/image/upload/t_cover_big/co313g.jpg",
-  "banner_image": "",
-  "icon_image": "",
+  "vertical_artwork": "https://cdn2.steamgriddb.com/thumb/271d440a11031f1d0d40e26e46999aec.jpg",
+  "banner_image": "https://cdn2.steamgriddb.com/thumb/13962f26b05bdcb92c542be519a32320.jpg",
+  "icon_image": "https://cdn2.steamgriddb.com/thumb/420f64a4fd57fd93e1fc45a0c9c5aa85.jpg",
   "steamId": "",
   "game_modes": [
-    "Local multiplayer"
+    "Single player"
   ],
-  "languages": [],
+  "languages": [
+    "English"
+  ],
   "tested": true,
   "owned": false,
   "is_featured": false,
-  "blog_category": "",
-  "created_at": "2025-11-24T01:52:38.981Z",
-  "updated_at": "2025-11-27T06:07:08.723Z"
+  "blog_category": "community",
+  "created_at": "2025-11-27T06:24:30.613Z",
+  "updated_at": "2025-11-27T07:12:27.638Z"
 }

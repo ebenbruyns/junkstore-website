@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 48,
+  "total_games": 50,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -26,8 +26,10 @@
     "labyrinth-city-pierre-the-maze-detective.json",
     "lego-indiana-jones-the-original-adventures.json",
     "max-the-curse-of-brotherhood.json",
+    "minabo-a-walk-through-life.json",
     "naheulbeuks-dungeon-master.json",
     "nine-witches-family-disruption.json",
+    "paleo-pines.json",
     "pixel-cafe.json",
     "projection-first-light.json",
     "sine-mora-ex.json",
@@ -52,17 +54,29 @@
     "youtubers-life-2.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-11-26T06:08:54.185Z",
+  "last_updated": "2025-12-01T05:22:04.701Z",
   "latest_games": [
     {
-      "title": "Young Souls",
-      "slug": "young-souls",
-      "date_tested": "Nov '25",
+      "title": "Minabo: A Walk Through Life",
+      "slug": "minabo-a-walk-through-life",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Paleo Pines",
+      "slug": "paleo-pines",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
       "title": "Endless Legend: Definitive Edition",
       "slug": "endless-legend-definitive-edition",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Young Souls",
+      "slug": "young-souls",
       "date_tested": "Nov '25",
       "is_featured": false
     },
@@ -99,18 +113,6 @@
     {
       "title": "Endless Space: Definitive Edition",
       "slug": "endless-space-definitive-edition",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Endling: Extinction is Forever",
-      "slug": "endling-extinction-is-forever",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Genesis Noir",
-      "slug": "genesis-noir",
       "date_tested": "Oct '25",
       "is_featured": false
     }

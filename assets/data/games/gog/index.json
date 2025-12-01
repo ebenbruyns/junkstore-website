@@ -1,7 +1,8 @@
 {
   "storefront": "GOG",
-  "total_games": 331,
+  "total_games": 334,
   "games": [
+    "60-parsecs.json",
     "9-years-of-shadows.json",
     "a-plague-tale-innocence.json",
     "advanced-dungeons-dragons-heroes-of-the-lance.json",
@@ -125,6 +126,7 @@
     "greedfall.json",
     "grim-dawn-definitive-edition.json",
     "grip.json",
+    "gunslugs.json",
     "hammerting.json",
     "hard-west-2.json",
     "hard-west.json",
@@ -140,6 +142,7 @@
     "heroes-of-loot-2.json",
     "heroes-of-loot.json",
     "heros-hour.json",
+    "higurashi-no-naku-koro-ni-chapter-1-onikakushi.json",
     "hitman-absolution.json",
     "hive-jump-2-survivors.json",
     "house-party.json",
@@ -334,66 +337,66 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 3,
-  "last_updated": "2025-11-26T06:08:54.183Z",
+  "featured_games": 1,
+  "last_updated": "2025-12-01T05:22:04.699Z",
   "latest_games": [
     {
-      "title": "Barrow Hill: The Dark Path",
-      "slug": "barrow-hill-the-dark-path",
-      "date_tested": "Oct '24",
+      "title": "Broken Sword: Shadow of the Templars - The Director's Cut",
+      "slug": "broken-sword-shadow-of-the-templars-the-directors-cut",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Barrow Hill: Curse of the Ancient Circle",
-      "slug": "barrow-hill-curse-of-the-ancient-circle",
-      "date_tested": "Oct '24",
+      "title": "Higurashi no Naku Koro ni: Chapter 1 - Onikakushi",
+      "slug": "higurashi-no-naku-koro-ni-chapter-1-onikakushi",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Amid Evil",
-      "slug": "amid-evil",
-      "date_tested": "Aug '24",
+      "title": "Call of Juarez: Bound In Blood",
+      "slug": "call-of-juarez-bound-in-blood",
+      "date_tested": "July '24",
       "is_featured": false
     },
     {
-      "title": "Amnesia: The Bunker",
-      "slug": "amnesia-the-bunker",
-      "date_tested": "Oct '24",
+      "title": "Call of Juarez",
+      "slug": "call-of-juarez",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "#Drive Rally",
-      "slug": "drive-rally",
-      "date_tested": "Oct '24",
+      "title": "Call of Juarez: Gunslinger",
+      "slug": "call-of-juarez-gunslinger",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Gunslugs",
+      "slug": "gunslugs",
+      "date_tested": "Nov '25",
+      "is_featured": true
+    },
+    {
+      "title": "Shadowrun Returns",
+      "slug": "shadowrun-returns",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "60 Parsecs!",
+      "slug": "60-parsecs",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Dorfromantik",
+      "slug": "dorfromantik",
+      "date_tested": "Sep '25",
       "is_featured": false
     },
     {
       "title": "Dream Tactics",
       "slug": "dream-tactics",
-      "date_tested": "Nov '25",
-      "is_featured": true
-    },
-    {
-      "title": "Blast Brigade vs. the Evil Legion of Dr. Cread",
-      "slug": "blast-brigade-vs-the-evil-legion-of-dr-cread",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Blacksad: Under the Skin",
-      "slug": "blacksad-under-the-skin",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Fort Solis",
-      "slug": "fort-solis",
-      "date_tested": "Nov '25",
-      "is_featured": true
-    },
-    {
-      "title": "Lovecraft's Untold Stories",
-      "slug": "lovecrafts-untold-stories",
       "date_tested": "Nov '25",
       "is_featured": false
     }
