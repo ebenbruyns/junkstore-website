@@ -226,7 +226,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
 
 ### Community Tested
 
-Thanks to **Trekopep** and **ALt** for testing these games. Apologies for the delay in getting them added, we really appreciate the help!
+Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the delay in getting them added, we really appreciate the help!
 
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/751490/library_600x900.jpg" alt="WaveCrash!!" class="game-thumbnail">
