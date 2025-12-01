@@ -206,6 +206,9 @@ async function loadGamesData() {
     // Check for URL parameter to auto-open a game modal
     checkForGameParameter();
 
+    // Check for URL hash to auto-open a game modal
+    checkForGameHash();
+
   } catch (error) {
     console.error('❌ Error loading games data:', error);
     document.getElementById('loadingIndicator').innerHTML = `
@@ -423,8 +426,11 @@ function updateTable() {
       rowClasses += 'backlog-game ';
     }
 
+    // Generate unique ID for this game entry (slug + storefront)
+    const gameEntryId = `game-${game.slug}-${game.storefront.toLowerCase().replace(/\./g, '-')}`;
+
     return `
-    <tr class="${rowClasses.trim()}" data-storefront="${game.storefront}" data-status="${game.overall_status}">
+    <tr id="${gameEntryId}" class="${rowClasses.trim()}" data-storefront="${game.storefront}" data-status="${game.overall_status}">
       <td title="${game.title}">
         ${isAntiCheat ?
           `<span class="game-title-static">${game.title}</span>` :
@@ -640,6 +646,60 @@ function checkForGameParameter() {
   }
 }
 
+// Check for URL hash and auto-open game modal
+function checkForGameHash() {
+  try {
+    const hash = window.location.hash;
+
+    if (!hash || !hash.startsWith('#game-')) {
+      return; // No game hash found
+    }
+
+    console.log(`🎯 Auto-opening modal for hash: ${hash}`);
+
+    // Extract game entry ID from hash (e.g., #game-hades-epic)
+    const gameEntryId = hash.substring(1); // Remove the #
+
+    // Find the game row with this ID
+    const gameRow = document.getElementById(gameEntryId);
+    if (!gameRow) {
+      console.warn(`⚠️ Game row not found for hash: ${hash}`);
+      return;
+    }
+
+    // Extract game ID and modal file from the clickable element
+    const gameLink = gameRow.querySelector('.game-link.clickable');
+    if (!gameLink) {
+      console.warn(`⚠️ No clickable game link found in row: ${hash}`);
+      return;
+    }
+
+    const gameId = gameLink.dataset.gameId;
+    const modalFile = gameLink.dataset.modalFile;
+
+    console.log(`✅ Found game via hash:`, gameId);
+
+    // Highlight the row temporarily
+    gameRow.style.backgroundColor = 'rgba(255, 163, 102, 0.3)';
+    setTimeout(() => {
+      gameRow.style.backgroundColor = '';
+    }, 2000);
+
+    // Scroll to the game in the table first for context
+    setTimeout(() => {
+      gameRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+      // Open the modal after a brief delay to allow scroll
+      setTimeout(() => {
+        openGameModal(gameId, modalFile);
+      }, 500);
+    }, 300);
+
+  } catch (error) {
+    console.error('❌ Error processing game hash:', error);
+  }
+}
+
 // Add modal click handlers
 function addModalHandlers() {
   // Handle clickable game links in table
@@ -780,6 +840,7 @@ function createGameModal(game) {
             </div>
             <div class="header-badges">
               <span class="storefront-badge storefront-${game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
+              <button class="copy-game-link-btn" data-game-slug="${game.slug}" data-storefront="${game.storefront}" title="Copy link to this game">🔗</button>
             </div>
           </div>
           <button class="modal-close">&times;</button>
@@ -946,6 +1007,32 @@ function createGameModal(game) {
     });
   });
   
+  // Copy link button handler
+  const copyLinkBtn = modal.querySelector('.copy-game-link-btn');
+  if (copyLinkBtn) {
+    copyLinkBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const slug = copyLinkBtn.dataset.gameSlug;
+      const storefront = copyLinkBtn.dataset.storefront;
+      const gameEntryId = `game-${slug}-${storefront.toLowerCase().replace(/\./g, '-')}`;
+      const gameUrl = `${window.location.origin}${window.location.pathname}#${gameEntryId}`;
+
+      // Copy to clipboard with multiple fallback methods
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(gameUrl)
+          .then(() => {
+            showCopyNotification(copyLinkBtn, 'Link copied!', 'success');
+          })
+          .catch(err => {
+            console.error('Clipboard API failed:', err);
+            fallbackCopyToClipboard(gameUrl, copyLinkBtn);
+          });
+      } else {
+        fallbackCopyToClipboard(gameUrl, copyLinkBtn);
+      }
+    });
+  }
+
   // Escape key
   const escapeHandler = (e) => {
     if (e.key === 'Escape') {
@@ -954,11 +1041,69 @@ function createGameModal(game) {
     }
   };
   document.addEventListener('keydown', escapeHandler);
-  
+
   // Show modal
   requestAnimationFrame(() => {
     modal.classList.add('show');
   });
+}
+
+// Fallback copy to clipboard for older browsers
+function fallbackCopyToClipboard(text, button) {
+  // Create a temporary textarea
+  const textarea = document.createElement('textarea');
+  textarea.value = text;
+  textarea.style.position = 'fixed';
+  textarea.style.opacity = '0';
+  document.body.appendChild(textarea);
+
+  try {
+    textarea.select();
+    textarea.setSelectionRange(0, 99999); // For mobile devices
+
+    const successful = document.execCommand('copy');
+    if (successful) {
+      showCopyNotification(button, 'Link copied!', 'success');
+    } else {
+      throw new Error('Copy command failed');
+    }
+  } catch (err) {
+    console.error('Fallback copy failed:', err);
+    showCopyNotification(button, `Copy failed. URL: ${text}`, 'error');
+  } finally {
+    document.body.removeChild(textarea);
+  }
+}
+
+// Show copy notification near button
+function showCopyNotification(button, message, type) {
+  const notification = document.createElement('div');
+  notification.className = `copy-notification copy-notification-${type}`;
+  notification.textContent = message;
+  notification.style.cssText = `
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    background: ${type === 'success' ? '#28a745' : '#dc3545'};
+    color: white;
+    border-radius: 6px;
+    z-index: 10001;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    animation: slideInRight 0.3s ease;
+  `;
+
+  document.body.appendChild(notification);
+
+  setTimeout(() => {
+    notification.style.animation = 'fadeOut 0.3s ease';
+    setTimeout(() => {
+      if (notification.parentNode) {
+        notification.parentNode.removeChild(notification);
+      }
+    }, 300);
+  }, 3000);
 }
 
 // Close modal
@@ -1642,5 +1787,49 @@ select:focus, input:focus {
   font-weight: 500 !important;
   color: #28a745 !important;
   text-align: center !important;
+}
+
+/* Copy game link button */
+.copy-game-link-btn {
+  background: rgba(255, 163, 102, 0.1);
+  border: 1px solid rgba(255, 163, 102, 0.3);
+  color: #ffa366;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  margin-left: 8px;
+}
+
+.copy-game-link-btn:hover {
+  background: rgba(255, 163, 102, 0.2);
+  border-color: #ffa366;
+  transform: scale(1.05);
+}
+
+.copy-game-link-btn:active {
+  transform: scale(0.95);
+}
+
+/* Copy notification animations */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 </style>
