@@ -33,7 +33,10 @@ Just a few housekeeping things before we get into it:
 
 - **New Decky Plugin in Testing Store (v1.1.10):** Fixes Epic server connection issues that broke games like Return to Moria, Paladins, Ghostwire: Tokyo, and Saints Row. I've been retesting affected games to confirm they're working out of the box again.
 
-- **Help us test v1.1.10:** If you have a GitHub account, we'd really appreciate a testing report to help get this merged to the Main Store. **[Submit report here](https://github.com/SteamDeckHomebrew/decky-plugin-database/pull/895)** | **[Template](https://wiki.deckbrew.xyz/user-guide/testing)**
+- **Help us test v1.1.10:** If you have a GitHub account, we'd really appreciate a testing report to help get this merged to the Main Store.
+
+  **→ [Submit Testing Report](https://github.com/SteamDeckHomebrew/decky-plugin-database/pull/895)**<br>
+  **→ [Test Report Template](https://wiki.deckbrew.xyz/user-guide/testing)**
 
 ## Current System Setup
 * **<a href="/buy_now/">Junk Store 2.0</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
