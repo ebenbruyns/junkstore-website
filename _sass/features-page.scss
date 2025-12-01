@@ -1,0 +1,204 @@
+/* Features Page Styles */
+
+/* Hero Section */
+.features-hero {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  max-width: 1200px;
+  width: 98%;
+  margin: 2rem auto;
+}
+
+.features-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #66bfff;
+  font-weight: bold;
+  text-align: center !important;
+}
+
+.features-hero .lead-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0af;
+  margin-bottom: 1rem;
+}
+
+/* Feature Sections */
+.features-section {
+  margin: 2rem auto;
+  max-width: 1200px;
+  width: 98%;
+  padding: 0 1rem;
+}
+
+.features-section h2 {
+  color: #66bfff;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+/* Feature Tables */
+.features-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #444;
+  margin-bottom: 1rem;
+}
+
+.features-table td {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  vertical-align: top;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.features-table td:first-child {
+  color: #ffa366;
+  font-weight: 600;
+  width: 35%;
+  white-space: nowrap;
+}
+
+.features-table td:last-child {
+  color: #e8e8e8;
+  width: 65%;
+}
+
+.features-table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.features-table tr:hover {
+  background: rgba(0, 170, 255, 0.05);
+}
+
+.features-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* CTA Section */
+.features-cta {
+  background: rgba(0, 170, 255, 0.1);
+  padding: 2rem 1rem;
+  text-align: center;
+  margin: 3rem auto 2rem auto;
+  border-radius: 8px;
+  max-width: 1200px;
+  width: 98%;
+  border: 1px solid rgba(0, 170, 255, 0.2);
+}
+
+.features-cta .cta-box h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  color: #66bfff;
+  font-weight: bold;
+}
+
+.features-cta .cta-box p {
+  color: #e8e8e8;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.features-cta .cta-buttons {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.features-cta .cta-buttons .button {
+  margin: 0.5rem;
+}
+
+.features-cta .button.large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+.features-cta .guarantee {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .features-hero h1 {
+    font-size: 2rem;
+  }
+
+  .features-hero .lead-text {
+    font-size: 1.1rem;
+  }
+
+  .features-section {
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+
+  .features-section h2 {
+    font-size: 1.5rem;
+    padding-left: 0.25rem;
+  }
+
+  .features-table td {
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  .features-table td:first-child {
+    white-space: normal;
+    width: 32%;
+  }
+
+  .features-table td:last-child {
+    width: 68%;
+  }
+
+  .features-cta {
+    padding: 1.5rem 1rem;
+  }
+
+  .features-cta .cta-box h2 {
+    font-size: 1.5rem;
+  }
+
+  .features-cta .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-cta .cta-buttons .button {
+    width: 100%;
+    max-width: 280px;
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-table td {
+    padding: 0.75rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .features-table td:first-child {
+    width: 30%;
+  }
+
+  .features-table td:last-child {
+    width: 70%;
+  }
+}
