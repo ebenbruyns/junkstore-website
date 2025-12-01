@@ -1,189 +1,189 @@
 {
-  "last_updated": "2025-11-26T06:08:54.196Z",
-  "total_tested_games": 816,
-  "featured_games": 9,
+  "last_updated": "2025-12-01T05:22:04.712Z",
+  "total_tested_games": 828,
+  "featured_games": 2,
   "storefronts": {
     "Epic": {
-      "total": 400,
-      "featured": 6,
+      "total": 402,
+      "featured": 1,
       "directory": "epic"
     },
     "GOG": {
-      "total": 331,
-      "featured": 3,
+      "total": 334,
+      "featured": 1,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 48,
+      "total": 50,
       "featured": 0,
       "directory": "amazon"
     },
     "itch.io": {
-      "total": 37,
+      "total": 42,
       "featured": 0,
       "directory": "itch.io"
     }
   },
   "recent_updates": [
     {
-      "title": "Help Hurt Hopp",
+      "title": "Elite: Dangerous",
+      "storefront": "Epic",
+      "slug": "elite-dangerous",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2025-12-01T05:19:31.236Z"
+    },
+    {
+      "title": "Broken Sword: Shadow of the Templars - The Director's Cut",
+      "storefront": "GOG",
+      "slug": "broken-sword-shadow-of-the-templars-the-directors-cut",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-01T00:01:33.305Z"
+    },
+    {
+      "title": "Redout 2",
+      "storefront": "Epic",
+      "slug": "redout-2",
+      "date_tested": "June '24",
+      "is_featured": false,
+      "updated_at": "2025-11-30T21:37:55.362Z"
+    },
+    {
+      "title": "Paladins",
+      "storefront": "Epic",
+      "slug": "paladins",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-11-30T21:13:13.552Z"
+    },
+    {
+      "title": "Minabo: A Walk Through Life",
+      "storefront": "Amazon",
+      "slug": "minabo-a-walk-through-life",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-11-30T20:51:44.689Z"
+    },
+    {
+      "title": "Paleo Pines",
+      "storefront": "Amazon",
+      "slug": "paleo-pines",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-11-30T20:32:59.190Z"
+    },
+    {
+      "title": "Sky Rogue",
       "storefront": "itch.io",
-      "slug": "help-hurt-hopp",
-      "date_tested": "Nov '25",
+      "slug": "sky-rogue",
+      "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2025-11-26T06:07:55.821Z"
+      "updated_at": "2025-11-30T20:29:49.031Z"
     },
     {
-      "title": "PlateUp!",
+      "title": "Four Horsemen",
+      "storefront": "itch.io",
+      "slug": "four-horsemen",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-11-30T20:21:01.985Z"
+    },
+    {
+      "title": "Borderlands 3",
       "storefront": "Epic",
-      "slug": "plateup",
+      "slug": "borderlands-3",
+      "date_tested": "June '24",
+      "is_featured": false,
+      "updated_at": "2025-11-30T19:50:15.523Z"
+    },
+    {
+      "title": "Higurashi no Naku Koro ni: Chapter 1 - Onikakushi",
+      "storefront": "GOG",
+      "slug": "higurashi-no-naku-koro-ni-chapter-1-onikakushi",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-11-30T19:50:06.424Z"
+    },
+    {
+      "title": "Call of Juarez: Bound In Blood",
+      "storefront": "GOG",
+      "slug": "call-of-juarez-bound-in-blood",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2025-11-30T19:49:44.858Z"
+    },
+    {
+      "title": "Call of Juarez",
+      "storefront": "GOG",
+      "slug": "call-of-juarez",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-11-30T19:49:27.249Z"
+    },
+    {
+      "title": "Call of Juarez: Gunslinger",
+      "storefront": "GOG",
+      "slug": "call-of-juarez-gunslinger",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-11-30T19:45:28.582Z"
+    },
+    {
+      "title": "Universe For Sale",
+      "storefront": "Epic",
+      "slug": "universe-for-sale",
       "date_tested": "Nov '25",
       "is_featured": true,
-      "updated_at": "2025-11-26T05:20:57.191Z"
+      "updated_at": "2025-11-30T18:41:15.010Z"
     },
     {
-      "title": "Samorost 3",
-      "storefront": "Epic",
-      "slug": "samorost-3",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-26T05:06:23.949Z"
-    },
-    {
-      "title": "Samorost 2",
-      "storefront": "Epic",
-      "slug": "samorost-2",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-26T05:01:32.127Z"
-    },
-    {
-      "title": "Zero Hour",
-      "storefront": "Epic",
-      "slug": "zero-hour",
+      "title": "Gunslugs",
+      "storefront": "GOG",
+      "slug": "gunslugs",
       "date_tested": "Nov '25",
       "is_featured": true,
-      "updated_at": "2025-11-26T04:43:02.035Z"
+      "updated_at": "2025-11-30T18:40:22.740Z"
     },
     {
-      "title": "Songs of Silence",
+      "title": "Saints Row",
       "storefront": "Epic",
-      "slug": "songs-of-silence",
-      "date_tested": "Nov '25",
-      "is_featured": true,
-      "updated_at": "2025-11-26T03:41:26.742Z"
-    },
-    {
-      "title": "The Evil Within 2",
-      "storefront": "Epic",
-      "slug": "the-evil-within-2",
+      "slug": "saints-row",
       "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2025-11-26T03:07:09.935Z"
-    },
-    {
-      "title": "Ghostwire: Tokyo",
-      "storefront": "Epic",
-      "slug": "ghostwire-tokyo",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-26T01:21:31.689Z"
+      "updated_at": "2025-11-27T23:06:38.832Z"
     },
     {
       "title": "The Lord of the Rings: Return to Moria",
       "storefront": "Epic",
       "slug": "the-lord-of-the-rings-return-to-moria",
-      "date_tested": "Dec '24",
-      "is_featured": false,
-      "updated_at": "2025-11-26T00:25:36.785Z"
-    },
-    {
-      "title": "The Evil Within",
-      "storefront": "Epic",
-      "slug": "the-evil-within",
       "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2025-11-26T00:17:22.985Z"
+      "updated_at": "2025-11-27T23:06:07.553Z"
     },
     {
-      "title": "Darkest Dungeon II",
-      "storefront": "Epic",
-      "slug": "darkest-dungeon-ii",
-      "date_tested": "May '24",
-      "is_featured": false,
-      "updated_at": "2025-11-25T23:47:49.792Z"
-    },
-    {
-      "title": "Atlas Fallen",
-      "storefront": "Epic",
-      "slug": "atlas-fallen",
-      "date_tested": "May '24",
-      "is_featured": false,
-      "updated_at": "2025-11-25T23:45:24.284Z"
-    },
-    {
-      "title": "Axiom Verge",
-      "storefront": "Epic",
-      "slug": "axiom-verge",
-      "date_tested": "May '24",
-      "is_featured": false,
-      "updated_at": "2025-11-25T23:45:11.954Z"
-    },
-    {
-      "title": "Barrow Hill: The Dark Path",
+      "title": "Shadowrun Returns",
       "storefront": "GOG",
-      "slug": "barrow-hill-the-dark-path",
-      "date_tested": "Oct '24",
+      "slug": "shadowrun-returns",
+      "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2025-11-25T23:45:02.350Z"
+      "updated_at": "2025-11-27T07:17:27.914Z"
     },
     {
-      "title": "Barrow Hill: Curse of the Ancient Circle",
-      "storefront": "GOG",
-      "slug": "barrow-hill-curse-of-the-ancient-circle",
-      "date_tested": "Oct '24",
+      "title": "Roguelight",
+      "storefront": "itch.io",
+      "slug": "roguelight",
+      "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2025-11-25T23:44:50.870Z"
+      "updated_at": "2025-11-27T07:12:27.638Z"
     },
     {
-      "title": "Anodyne 2 - Return to Dust",
+      "title": "Goat Simulator 3",
       "storefront": "Epic",
-      "slug": "anodyne-2-return-to-dust",
-      "date_tested": "Nov '24",
+      "slug": "goat-simulator-3",
+      "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2025-11-25T23:44:40.648Z"
-    },
-    {
-      "title": "Among Us",
-      "storefront": "Epic",
-      "slug": "among-us",
-      "date_tested": "Nov '24",
-      "is_featured": false,
-      "updated_at": "2025-11-25T23:44:23.521Z"
-    },
-    {
-      "title": "Amid Evil",
-      "storefront": "GOG",
-      "slug": "amid-evil",
-      "date_tested": "Aug '24",
-      "is_featured": false,
-      "updated_at": "2025-11-25T23:44:08.118Z"
-    },
-    {
-      "title": "Alien: Isolation",
-      "storefront": "Epic",
-      "slug": "alien-isolation",
-      "date_tested": "Nov '24",
-      "is_featured": false,
-      "updated_at": "2025-11-25T23:43:51.860Z"
-    },
-    {
-      "title": "Assassin's Creed Origins",
-      "storefront": "Epic",
-      "slug": "assassins-creed-origins",
-      "date_tested": "Aug '24",
-      "is_featured": false,
-      "updated_at": "2025-11-25T23:43:09.575Z"
+      "updated_at": "2025-11-27T07:07:35.511Z"
     }
   ]
 }

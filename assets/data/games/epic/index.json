@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 400,
+  "total_games": 402,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -170,6 +170,7 @@
     "gigantic-rampage-edition.json",
     "gigapocalypse.json",
     "gloomhaven.json",
+    "goat-simulator-3.json",
     "godlike-burger.json",
     "gods-will-fall.json",
     "godzilla-voxel-wars.json",
@@ -378,6 +379,7 @@
     "turnip-boy-commits-tax-evasion.json",
     "two-point-hospital.json",
     "undying.json",
+    "universe-for-sale.json",
     "unrailed.json",
     "valorant.json",
     "vampire-survivors.json",
@@ -403,24 +405,60 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 6,
-  "last_updated": "2025-11-26T06:08:54.179Z",
+  "featured_games": 1,
+  "last_updated": "2025-12-01T05:22:04.695Z",
   "latest_games": [
     {
-      "title": "PlateUp!",
-      "slug": "plateup",
+      "title": "Elite: Dangerous",
+      "slug": "elite-dangerous",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Redout 2",
+      "slug": "redout-2",
+      "date_tested": "June '24",
+      "is_featured": false
+    },
+    {
+      "title": "Paladins",
+      "slug": "paladins",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Borderlands 3",
+      "slug": "borderlands-3",
+      "date_tested": "June '24",
+      "is_featured": false
+    },
+    {
+      "title": "Universe For Sale",
+      "slug": "universe-for-sale",
       "date_tested": "Nov '25",
       "is_featured": true
     },
     {
-      "title": "Samorost 3",
-      "slug": "samorost-3",
+      "title": "Saints Row",
+      "slug": "saints-row",
       "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Samorost 2",
-      "slug": "samorost-2",
+      "title": "The Lord of the Rings: Return to Moria",
+      "slug": "the-lord-of-the-rings-return-to-moria",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Goat Simulator 3",
+      "slug": "goat-simulator-3",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Zoeti",
+      "slug": "zoeti",
       "date_tested": "Nov '25",
       "is_featured": false
     },
@@ -428,42 +466,6 @@
       "title": "Zero Hour",
       "slug": "zero-hour",
       "date_tested": "Nov '25",
-      "is_featured": true
-    },
-    {
-      "title": "Songs of Silence",
-      "slug": "songs-of-silence",
-      "date_tested": "Nov '25",
-      "is_featured": true
-    },
-    {
-      "title": "The Evil Within 2",
-      "slug": "the-evil-within-2",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Ghostwire: Tokyo",
-      "slug": "ghostwire-tokyo",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "The Lord of the Rings: Return to Moria",
-      "slug": "the-lord-of-the-rings-return-to-moria",
-      "date_tested": "Dec '24",
-      "is_featured": false
-    },
-    {
-      "title": "The Evil Within",
-      "slug": "the-evil-within",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Darkest Dungeon II",
-      "slug": "darkest-dungeon-ii",
-      "date_tested": "May '24",
       "is_featured": false
     }
   ]
