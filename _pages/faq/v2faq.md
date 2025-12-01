@@ -1033,28 +1033,38 @@ document.addEventListener('DOMContentLoaded', function() {
           box.style.display = 'block';
           visibleCount++;
           
-          // Simple highlighting - preserve anchor buttons
+          // Simple highlighting - preserve anchor buttons and structure
           if (summary && summaryText.includes(searchTerm)) {
-            // Save the anchor button if it exists
             const anchorButton = summary.querySelector('.faq-anchor');
 
-            // Get text content (excluding anchor button)
-            const textNodes = Array.from(summary.childNodes).filter(node => node.nodeType === Node.TEXT_NODE);
-            const originalText = textNodes.map(node => node.textContent).join('');
+            // Function to highlight text in text nodes only
+            const highlightTextNodes = (node) => {
+              if (node.nodeType === Node.TEXT_NODE) {
+                const text = node.textContent;
+                if (text.toLowerCase().includes(searchTerm)) {
+                  const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                  const regex = new RegExp(`(${escapedTerm})`, 'gi');
+                  const highlightedHTML = text.replace(regex, '<span class="search-highlight">$1</span>');
 
-            // Apply highlighting to text only
-            const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
-            const regex = new RegExp(`(${escapedTerm})`, 'gi');
-            const highlightedText = originalText.replace(regex, '<span class="search-highlight">$1</span>');
+                  // Create a temporary container to parse the HTML
+                  const temp = document.createElement('span');
+                  temp.innerHTML = highlightedHTML;
 
-            // Clear summary and add highlighted text
-            summary.innerHTML = highlightedText;
+                  // Replace the text node with highlighted content
+                  const parent = node.parentNode;
+                  while (temp.firstChild) {
+                    parent.insertBefore(temp.firstChild, node);
+                  }
+                  parent.removeChild(node);
+                }
+              } else if (node.nodeType === Node.ELEMENT_NODE && !node.classList.contains('faq-anchor')) {
+                // Recursively process child nodes, but skip anchor buttons
+                Array.from(node.childNodes).forEach(child => highlightTextNodes(child));
+              }
+            };
 
-            // Re-append the anchor button if it existed
-            if (anchorButton) {
-              summary.appendChild(document.createTextNode(' '));
-              summary.appendChild(anchorButton);
-            }
+            // Apply highlighting to text nodes
+            highlightTextNodes(summary);
           }
         } else {
           box.style.display = 'none';

@@ -791,13 +791,37 @@ document.addEventListener('DOMContentLoaded', function() {
         if (summaryText.includes(searchTerm) || contentText.includes(searchTerm)) {
           box.style.display = 'block';
           visibleCount++;
-          
-          // Simple highlighting - avoid HTML mangling by working with plain text only
+
+          // Highlight text in summary while preserving anchor buttons
           if (summary && summaryText.includes(searchTerm)) {
-            const originalText = summary.textContent;
-            const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
-            const regex = new RegExp(`(${escapedTerm})`, 'gi');
-            summary.innerHTML = originalText.replace(regex, '<span class="search-highlight">$1</span>');
+            // Function to highlight text in text nodes only
+            const highlightTextNodes = (node) => {
+              if (node.nodeType === Node.TEXT_NODE) {
+                const text = node.textContent;
+                if (text.toLowerCase().includes(searchTerm)) {
+                  const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                  const regex = new RegExp(`(${escapedTerm})`, 'gi');
+                  const highlightedHTML = text.replace(regex, '<span class="search-highlight">$1</span>');
+
+                  // Create temporary container to parse HTML
+                  const temp = document.createElement('span');
+                  temp.innerHTML = highlightedHTML;
+
+                  // Replace text node with highlighted content
+                  const parent = node.parentNode;
+                  while (temp.firstChild) {
+                    parent.insertBefore(temp.firstChild, node);
+                  }
+                  parent.removeChild(node);
+                }
+              } else if (node.nodeType === Node.ELEMENT_NODE && !node.classList.contains('faq-anchor')) {
+                // Recursively process child nodes, but skip anchor buttons
+                Array.from(node.childNodes).forEach(child => highlightTextNodes(child));
+              }
+            };
+
+            // Apply highlighting to text nodes
+            highlightTextNodes(summary);
           }
         } else {
           box.style.display = 'none';
