@@ -7,9 +7,9 @@
   "epic_url": "https://store.epicgames.com/en-US/p/saints-row",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Saints_Row",
-  "notes": "Works out of the box on Junk Store 2.0 with HDR support.",
+  "notes": "Works out of the box!",
   "date_tested": "Nov '25",
-  "decky_rating": "not-working",
+  "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
@@ -63,7 +63,7 @@
   "tested": true,
   "owned": true,
   "is_featured": false,
-  "blog_category": "",
+  "blog_category": "retest",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-11-23T21:48:51.550Z"
+  "updated_at": "2025-11-27T23:06:38.832Z"
 }

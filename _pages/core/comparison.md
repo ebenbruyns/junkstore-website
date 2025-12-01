@@ -29,6 +29,7 @@ excerpt: "The only launcher that eliminates Desktop Mode switching entirely - di
   </div>
 </section>
 
+
 <section class="major-differentiators">
   <h2>Free Alternatives vs Junk Store 2.0 - The Key Differences</h2>
   <div class="differentiator-grid">
@@ -81,6 +82,7 @@ excerpt: "The only launcher that eliminates Desktop Mode switching entirely - di
     <div class="cta-buttons">
       <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="button buy-button large">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary">Watch Demos First</a>
+      <a href="/features/" class="button button-secondary">View Complete Feature List</a>
     </div>
   </div>
 

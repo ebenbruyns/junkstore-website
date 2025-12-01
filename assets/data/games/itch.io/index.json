@@ -1,6 +1,6 @@
 {
   "storefront": "itch.io",
-  "total_games": 37,
+  "total_games": 42,
   "games": [
     "10-flights-of-ballooning.json",
     "10mg-sealed-estate.json",
@@ -25,81 +25,86 @@
     "dumpy-bumpy.json",
     "figment.json",
     "forma8.json",
+    "four-horsemen.json",
     "futuregrind.json",
     "help-hurt-hopp.json",
     "macbat-64-journey-of-a-nice-chap.json",
     "magnibox.json",
     "moon-hunters.json",
     "omeganaut.json",
+    "roguelight.json",
+    "sky-rogue.json",
     "spa-taxi.json",
     "sundered.json",
     "super-hexagon.json",
     "toree-2.json",
     "toree-3d.json",
     "towerfall-ascension.json",
+    "towerfall-ascention.json",
     "underhero.json",
+    "wavecrash.json",
     "zeroranger.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-11-26T06:08:54.186Z",
+  "last_updated": "2025-12-01T05:22:04.702Z",
   "latest_games": [
     {
-      "title": "Help Hurt Hopp",
-      "slug": "help-hurt-hopp",
+      "title": "Sky Rogue",
+      "slug": "sky-rogue",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Four Horsemen",
+      "slug": "four-horsemen",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Roguelight",
+      "slug": "roguelight",
       "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "A Good Snowman Is Hard To Build",
-      "slug": "a-good-snowman-is-hard-to-build",
+      "title": "TowerFall Ascention",
+      "slug": "towerfall-ascention",
       "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "ZeroRanger",
-      "slug": "zeroranger",
+      "title": "WaveCrash!!",
+      "slug": "wavecrash",
       "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "TowerFall Ascension",
-      "slug": "towerfall-ascension",
+      "title": "Death Drives a Bus",
+      "slug": "death-drives-a-bus",
       "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Toree 3D",
-      "slug": "toree-3d",
+      "title": "Dragon Drop",
+      "slug": "dragon-drop",
       "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Toree 2",
-      "slug": "toree-2",
+      "title": "Moon Hunters",
+      "slug": "moon-hunters",
       "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "FutureGrind",
-      "slug": "futuregrind",
+      "title": "10mg: Sealed Estate",
+      "slug": "10mg-sealed-estate",
       "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Figment",
-      "slug": "figment",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Baldi's Basics Plus",
-      "slug": "baldis-basics-plus",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "A Dance of Fire and Ice",
-      "slug": "a-dance-of-fire-and-ice",
+      "title": "10mg: Snaaak",
+      "slug": "10mg-snaaak",
       "date_tested": "Nov '25",
       "is_featured": false
     }

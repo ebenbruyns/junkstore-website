@@ -128,6 +128,13 @@ Task Received → Identify Type → Deploy Relevant Agent → Execute via Agent 
 - **Use TodoWrite tool** to track progress on complex tasks
 - **Batch related tasks** for efficiency
 
+### Writing Style Guidelines
+**For all blog posts, pages, and content writing:**
+- **No em dashes (—)** - Use colons, commas, or split into separate sentences instead
+- **Keep language clear and conversational** - Match the authentic voice of the blog
+- **Avoid redundancy** - Cut unnecessary words and filler phrases
+- **Edit for flow** - Ensure smooth transitions between thoughts
+
 ### Technical Preferences
 - **Current Build System:** Jekyll with Minimal Mistakes theme
 - **Table System:** JavaScript-based tables with JSON data (not Jekyll liquid)
@@ -161,6 +168,19 @@ vendor/
 _site/
 assets/lib
 ```
+
+### Social Media Blurbs and Non-Tracked Files
+**IMPORTANT:** Social media blurbs and similar temporary/working files should NEVER be created in the repository.
+
+**Correct location:** `/home/annie/JunkStore/Website/Social Media Blurbs/`
+- Create files with date prefix: `YYYY-MM-DD-social-media-blurbs.txt`
+- This directory is OUTSIDE the git repository
+- Files here won't be tracked or committed
+- Keeps the repo clean of temporary promotional content
+
+**Never create these files in:**
+- `/home/annie/JunkStore/Website/mrsjunkrunner.github.io/` (the repo root)
+- Any subdirectory of the repo
 
 ## Current Phase: Strategic Website Improvements
 

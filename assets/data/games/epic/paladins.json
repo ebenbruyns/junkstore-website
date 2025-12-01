@@ -7,9 +7,9 @@
   "epic_url": "https://store.epicgames.com/en-US/p/paladins",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Paladins:_Champions_of_the_Realm",
-  "notes": "",
-  "date_tested": "Oct '25",
-  "decky_rating": "not-working",
+  "notes": "Works out of the box!",
+  "date_tested": "Dec '25",
+  "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
@@ -61,7 +61,7 @@
   "tested": true,
   "owned": true,
   "is_featured": false,
-  "blog_category": "",
+  "blog_category": "retest",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-10-07T23:44:41.122Z"
+  "updated_at": "2025-11-30T21:13:13.552Z"
 }

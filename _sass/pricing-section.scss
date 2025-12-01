@@ -219,6 +219,85 @@
   }
 }
 
+/* Library value callout section - positioned before pricing */
+.library-value-callout {
+  background: linear-gradient(135deg, rgba(255, 163, 102, 0.1) 0%, rgba(102, 191, 255, 0.1) 100%);
+  padding: 2rem 1.5rem;
+  margin: 2rem auto;
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 163, 102, 0.3);
+  max-width: 1200px;
+  width: 95%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.value-box {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #fff;
+
+  h3 {
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    color: #ffa366;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: #e8e8e8;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+
+    strong {
+      color: #66bfff;
+      font-weight: 600;
+    }
+  }
+
+  .value-unlock {
+    font-size: 1.2rem;
+    color: #ffa366;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 163, 102, 0.4);
+  }
+}
+
+/* Mobile responsiveness for library value callout */
+@media (max-width: 768px) {
+  .library-value-callout {
+    padding: 1.5rem 1rem;
+    margin: 1.5rem 0.5rem;
+    border-width: 2px;
+  }
+
+  .value-box {
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .value-unlock {
+      font-size: 1.1rem;
+      padding: 0.875rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
 // Progressive CTA styling for Buy Now page
 .progressive-cta {
   text-align: center;

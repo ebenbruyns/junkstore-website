@@ -4,16 +4,16 @@
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/359320",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/elite-dangerous",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Elite_Dangerous",
   "notes": "Requires Frontier Account setup. Native controller support. **Decky Plugin: Not working (Paid version only)**. **2.0 Standalone: Works out of the box**.",
   "date_tested": "Aug '25",
   "decky_rating": "not-working",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -57,5 +57,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-04T21:01:39.703Z"
+  "updated_at": "2025-12-01T05:19:31.236Z"
 }
