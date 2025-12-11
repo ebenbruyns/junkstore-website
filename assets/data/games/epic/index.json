@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 402,
+  "total_games": 406,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -157,6 +157,7 @@
     "floppy-knights.json",
     "football-manager-2024.json",
     "for-the-king.json",
+    "formula-evolution-2024.json",
     "fortnite.json",
     "freshly-frosted.json",
     "gamedec.json",
@@ -215,6 +216,7 @@
     "kingdom-come-deliverance.json",
     "league-of-legends.json",
     "legion-td-2.json",
+    "lego-2k-drive.json",
     "lego-builders-journey.json",
     "lego-star-wars-the-skywalker-saga.json",
     "lets-build-a-zoo.json",
@@ -337,6 +339,7 @@
     "the-callisto-protocol.json",
     "the-captain.json",
     "the-crew-motorfest.json",
+    "the-darkside-detective.json",
     "the-drone-racing-league-simulator.json",
     "the-dungeon-of-naheulbeuk-the-amulet-of-chaos.json",
     "the-escapists.json",
@@ -345,6 +348,7 @@
     "the-evil-within.json",
     "the-falconeer.json",
     "the-forest-quartet.json",
+    "the-jackbox-party-pack-4.json",
     "the-last-show-of-mr-chardish.json",
     "the-last-stand-aftermath.json",
     "the-lord-of-the-rings-return-to-moria.json",
@@ -405,42 +409,48 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2025-12-01T05:22:04.695Z",
+  "featured_games": 3,
+  "last_updated": "2025-12-08T09:24:15.727Z",
   "latest_games": [
     {
-      "title": "Elite: Dangerous",
-      "slug": "elite-dangerous",
-      "date_tested": "Aug '25",
+      "title": "Borderlands 3",
+      "slug": "borderlands-3",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
       "title": "Redout 2",
       "slug": "redout-2",
-      "date_tested": "June '24",
-      "is_featured": false
-    },
-    {
-      "title": "Paladins",
-      "slug": "paladins",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Borderlands 3",
-      "slug": "borderlands-3",
-      "date_tested": "June '24",
+      "title": "Formula Evolution 2024",
+      "slug": "formula-evolution-2024",
+      "date_tested": "Dec '25",
       "is_featured": false
+    },
+    {
+      "title": "The Jackbox Party Pack 4",
+      "slug": "the-jackbox-party-pack-4",
+      "date_tested": "Dec '25",
+      "is_featured": true
+    },
+    {
+      "title": "The Darkside Detective",
+      "slug": "the-darkside-detective",
+      "date_tested": "Dec '25",
+      "is_featured": true
+    },
+    {
+      "title": "LEGO® 2K Drive",
+      "slug": "lego-2k-drive",
+      "date_tested": "Dec '25",
+      "is_featured": true
     },
     {
       "title": "Universe For Sale",
       "slug": "universe-for-sale",
-      "date_tested": "Nov '25",
-      "is_featured": true
-    },
-    {
-      "title": "Saints Row",
-      "slug": "saints-row",
       "date_tested": "Nov '25",
       "is_featured": false
     },
@@ -451,20 +461,14 @@
       "is_featured": false
     },
     {
-      "title": "Goat Simulator 3",
-      "slug": "goat-simulator-3",
-      "date_tested": "Nov '25",
+      "title": "Paladins",
+      "slug": "paladins",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Zoeti",
-      "slug": "zoeti",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Zero Hour",
-      "slug": "zero-hour",
+      "title": "Saints Row",
+      "slug": "saints-row",
       "date_tested": "Nov '25",
       "is_featured": false
     }
