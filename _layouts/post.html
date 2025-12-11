@@ -398,7 +398,7 @@ layout: default
   border: 1px solid #3a4a5c;
   border-right: none;
   box-shadow: -4px 0 20px rgba(0, 0, 0, 0.3);
-  transition: right 0.3s ease;
+  transition: right 0.3s ease, width 0.3s ease;
   z-index: 1000;
   font-size: 0.9rem;
   overflow: hidden;
@@ -408,6 +408,13 @@ layout: default
 
 .sticky-toc.visible {
   right: 0;
+}
+
+/* Collapsed state - shrink to small tab */
+.sticky-toc.toc-collapsed {
+  width: 45px;
+  right: 0 !important;
+  border-radius: 8px 0 0 8px;
 }
 
 .sticky-toc-header {
@@ -422,10 +429,31 @@ layout: default
   border-radius: 12px 0 0 0;
   cursor: pointer;
   user-select: none;
+  transition: padding 0.3s ease;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* When TOC is collapsed, show only icon */
+.sticky-toc.toc-collapsed .sticky-toc-header {
+  padding: 12px 8px;
+  justify-content: center;
+  border-radius: 8px 0 0 0;
+}
+
+.sticky-toc.toc-collapsed .sticky-toc-header span,
+.sticky-toc.toc-collapsed .toc-toggle {
+  display: none;
+}
+
+.sticky-toc.toc-collapsed .sticky-toc-header i {
+  margin: 0;
+  font-size: 1rem;
 }
 
 .sticky-toc-header i {
   font-size: 0.8rem;
+  flex-shrink: 0;
 }
 
 .toc-toggle {
@@ -437,6 +465,7 @@ layout: default
   margin-left: auto;
   padding: 2px;
   transition: transform 0.2s ease;
+  flex-shrink: 0;
 }
 
 .toc-toggle.collapsed {
@@ -695,10 +724,11 @@ document.addEventListener('DOMContentLoaded', function() {
   function toggleToc() {
     const tocNavElement = document.getElementById('toc-nav');
     const toggleIcon = tocToggle.querySelector('i');
-    
+
     tocNavElement.classList.toggle('collapsed');
     tocToggle.classList.toggle('collapsed');
-    
+    stickyToc.classList.toggle('toc-collapsed'); // Shrink entire TOC to small tab
+
     // Store state in localStorage
     const isCollapsed = tocNavElement.classList.contains('collapsed');
     localStorage.setItem('tocCollapsed', isCollapsed);
@@ -729,11 +759,13 @@ document.addEventListener('DOMContentLoaded', function() {
   
   // Initialize TOC
   generateTOC();
-  
+
   // Set initial collapse state from localStorage
   const savedState = localStorage.getItem('tocCollapsed');
   if (savedState === 'true') {
-    toggleToc();
+    tocNav.classList.add('collapsed');
+    tocToggle.classList.add('collapsed');
+    stickyToc.classList.add('toc-collapsed');
   }
   
   // Event listeners
