@@ -337,13 +337,25 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2025-12-01T05:22:04.699Z",
+  "featured_games": 0,
+  "last_updated": "2025-12-08T09:24:15.732Z",
   "latest_games": [
     {
-      "title": "Broken Sword: Shadow of the Templars - The Director's Cut",
-      "slug": "broken-sword-shadow-of-the-templars-the-directors-cut",
+      "title": "Crusader Kings II",
+      "slug": "crusader-kings-ii",
       "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Call of Juarez: Bound In Blood",
+      "slug": "call-of-juarez-bound-in-blood",
+      "date_tested": "July '24",
+      "is_featured": false
+    },
+    {
+      "title": "Gunslugs",
+      "slug": "gunslugs",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
@@ -353,9 +365,9 @@
       "is_featured": false
     },
     {
-      "title": "Call of Juarez: Bound In Blood",
-      "slug": "call-of-juarez-bound-in-blood",
-      "date_tested": "July '24",
+      "title": "Broken Sword: Shadow of the Templars - The Director's Cut",
+      "slug": "broken-sword-shadow-of-the-templars-the-directors-cut",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
@@ -371,10 +383,10 @@
       "is_featured": false
     },
     {
-      "title": "Gunslugs",
-      "slug": "gunslugs",
-      "date_tested": "Nov '25",
-      "is_featured": true
+      "title": "60 Parsecs!",
+      "slug": "60-parsecs",
+      "date_tested": "Oct '25",
+      "is_featured": false
     },
     {
       "title": "Shadowrun Returns",
@@ -383,21 +395,9 @@
       "is_featured": false
     },
     {
-      "title": "60 Parsecs!",
-      "slug": "60-parsecs",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
       "title": "Dorfromantik",
       "slug": "dorfromantik",
       "date_tested": "Sep '25",
-      "is_featured": false
-    },
-    {
-      "title": "Dream Tactics",
-      "slug": "dream-tactics",
-      "date_tested": "Nov '25",
       "is_featured": false
     }
   ]
