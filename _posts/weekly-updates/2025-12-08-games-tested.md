@@ -80,7 +80,7 @@ This week featuring GYLT, LEGO® 2K Drive.
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
         <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
     </div>
-    <p style="margin-top: 8px; font-size: 0.9rem; color: #ccc;">Note: Cutscenes don't work - known issue with no current known fix.</p>
+    <p style="margin-top: 8px; font-size: 0.9rem; color: #ccc;">Note: Cutscenes don't work - existing issue with no current known fix.</p>
   </div>
 </div>
 
