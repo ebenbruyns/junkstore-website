@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Junk Store Tested - December 08, 2025"
-date: 2025-12-08 12:00:00 -0000
+title: "Junk Store Tested - December 11, 2025"
+date: 2025-12-10 12:00:00 -0000
 categories: [Weekly Update, Game Compatibility]
 tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Luna, Decky Plugin, Game Mode, Non-Steam Games, itch.io Games, Game Compatibility]
-slug: "games-tested-dec-08"
+slug: "games-tested-dec-11"
 excerpt: "Weekly testing update featuring 23 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/251208-hero.jpg
 header:
@@ -80,6 +80,7 @@ This week featuring GYLT, LEGO® 2K Drive.
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
         <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
     </div>
+    <p style="margin-top: 8px; font-size: 0.9rem; color: #ccc;">Note: Cutscenes don't work - known issue with no current known fix.</p>
   </div>
 </div>
 
