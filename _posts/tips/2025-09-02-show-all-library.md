@@ -3,7 +3,7 @@ layout: post
 title: "Tip of the Week: Missing the 'Press Y to Show All' Prompt"
 date: 2025-09-02
 categories: [Tip of the Week, Decky Plugin]
-tags: [Junk Store, Steam Deck, Decky Plugin, CSS Loader, Epic Games, GOG Games, Game Mode, Tips & Tricks, User Interface, Performance]
+tags: [junk-store, steam-deck, epic-games, gog]
 slug: "press-y-show-all-games"
 excerpt: "Only seeing A-L games in your Epic/GOG library? Look for the 'Press Y to Show All' prompt at the bottom - or check if your CSS theme is hiding it!"
 image: /assets/images/blog/pushY-cropped.png
