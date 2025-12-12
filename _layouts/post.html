@@ -75,10 +75,12 @@ layout: default
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__date.html %}
-        
-        
-        <!-- Tags as separate section below CTA -->
-        {% include page__taxonomy.html %}
+
+
+        <!-- Tags hidden from view but kept for SEO -->
+        <div class="page__taxonomy-seo-only" style="display: none;">
+          {% include page__taxonomy.html %}
+        </div>
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}

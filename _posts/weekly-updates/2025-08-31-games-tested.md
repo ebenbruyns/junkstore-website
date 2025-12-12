@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - August 31, 2025"
 date: 2025-08-31
 categories: [Weekly Update, Game Compatibility]
-tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Prime Gaming, Game Mode, Non-Steam Games, Game Compatibility, Decky Plugin, DOSBox]
+tags: [junk-store, steam-deck, epic-games, gog, amazon-games]
 slug: "games-tested-aug-31"
 excerpt: "Back on the boat after 3 months away! Showcasing our 11 featured games that work brilliantly on Steam Deck - from Epic's indie gems to GOG classics and Amazon surprises."
 image: /assets/images/blog/aug31-hero.jpg

@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - November 26, 2025"
 date: 2025-11-25 12:00:00 -0000
 categories: [Weekly Update, Game Compatibility]
-tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Luna, Decky Plugin, Game Mode, Non-Steam Games, itch.io Games, Game Compatibility]
+tags: [junk-store, steam-deck, epic-games, gog, amazon-games, itch-io]
 slug: "games-tested-nov-26"
 excerpt: "Weekly testing update featuring 34 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/251126-hero.jpg
