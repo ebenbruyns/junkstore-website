@@ -3,7 +3,7 @@ layout: post
 title: "🎮 Did You Know About Our Games Compatibility Table?"
 date: 2025-10-27
 categories: [Tip of the Week, Game Testing]
-tags: [compatibility-table, steam-deck, game-testing]
+tags: [junk-store, steam-deck]
 excerpt: "Our game compatibility table has been helping Steam Deck users for months. If you haven't discovered it yet, here's what you've been missing."
 image: /assets/images/blog/games-table-showcase/games-table-hero-card.webp
 header:
