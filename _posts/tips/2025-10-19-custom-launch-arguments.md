@@ -3,7 +3,7 @@ layout: post
 title: "Tip of the Week: Custom Launch Arguments"
 date: 2025-10-19
 categories: [Tip of the Week, Universal]
-tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Games, Tips & Tricks, Advanced Settings, Proton]
+tags: [junk-store, steam-deck, epic-games, gog, amazon-games]
 slug: "custom-launch-arguments"
 excerpt: "Add advanced launch parameters for Epic and GOG games using Junk Store's Advanced settings. 2.0 includes a built-in text editor for easier configuration."
 image: /assets/images/blog/251015-launch-args-hero.webp
