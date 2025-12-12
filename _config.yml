@@ -30,6 +30,11 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
 
+# Feed configuration
+feed:
+  excerpt_only: true
+  logo: https://www.junkstore.xyz/assets/images/JSAvatar-48.webp
+
 # Markdown and Kramdown
 markdown: kramdown
 highlighter: rouge
@@ -73,9 +78,8 @@ tag_archive:
 
 
 # Author/Social Links
-#author:
-#  name: "Junk Store Team"
-#  email: "junkstore@sdk.co.nz"
+author:
+  name: "Junk Store Team"
 #  links:
 #    - label: "Email"
 #      icon: "fas fa-fw fa-envelope"

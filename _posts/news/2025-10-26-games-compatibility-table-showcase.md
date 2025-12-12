@@ -3,7 +3,7 @@ layout: post
 title: "🎮 Take a Look at Our New Games Compatibility Table - What Do You Think?"
 date: 2025-10-27
 categories: [News, Game Testing]
-tags: [compatibility-table, steam-deck, game-testing, epic-games, gog, amazon-prime-gaming, itch-io, junk-store-2-0]
+tags: [junk-store, steam-deck]
 excerpt: "We've been working hard on making it easier for you to find compatible games for your Steam Deck. Check out our updated compatibility table and let us know what you think!"
 author: "Junk Store Team"
 ---
