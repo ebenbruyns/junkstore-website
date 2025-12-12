@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - October 08, 2025"
 date: 2025-10-07 12:00:00 -0000
 categories: [Weekly Update, Game Compatibility]
-tags: [Junk Store, Steam Deck, Epic Games, GOG Games, Amazon Prime Gaming, Decky Plugin, Game Mode, Non-Steam Games, itch.io Games, Game Compatibility]
+tags: [junk-store, steam-deck, epic-games, gog, amazon-games, itch-io]
 slug: "games-tested-oct-08"
 excerpt: "Weekly testing update featuring 10 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/251006-hero.jpg
