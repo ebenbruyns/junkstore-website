@@ -3,7 +3,7 @@ layout: post
 title: "Now You Can Scratch That Itch — Itch.io Comes to Steam via Junk Store"
 date: 2025-08-15
 categories: [Feature Release, Major Update]
-tags: [Junk Store, Steam Deck, itch.io Games, Indie Games, Game Mode, Beta Features, Steam Integration, Non-Steam Games, CLI Tools, Game Development]
+tags: [junk-store, steam-deck, itch-io]
 slug: "itch-integration-launch"
 excerpt: "For the first time ever, Itch.io is integrated directly into Steam — right inside Junk Store. A groundbreaking feature that brings thousands of indie games to your Steam Deck."
 image: /assets/images/blog/itch-integration-hero.jpg
