@@ -338,66 +338,66 @@
     "ziggurat.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-12-08T09:24:15.732Z",
+  "last_updated": "2025-12-14T06:05:00.349Z",
   "latest_games": [
     {
-      "title": "Crusader Kings II",
-      "slug": "crusader-kings-ii",
+      "title": "Dagon: by H. P. Lovecraft",
+      "slug": "dagon-by-h-p-lovecraft",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
       "title": "Call of Juarez: Bound In Blood",
       "slug": "call-of-juarez-bound-in-blood",
-      "date_tested": "July '24",
-      "is_featured": false
-    },
-    {
-      "title": "Gunslugs",
-      "slug": "gunslugs",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Higurashi no Naku Koro ni: Chapter 1 - Onikakushi",
-      "slug": "higurashi-no-naku-koro-ni-chapter-1-onikakushi",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Broken Sword: Shadow of the Templars - The Director's Cut",
-      "slug": "broken-sword-shadow-of-the-templars-the-directors-cut",
-      "date_tested": "Dec '25",
+      "title": "Penumbra: Black Plague",
+      "slug": "penumbra-black-plague",
+      "date_tested": "Oct '24",
       "is_featured": false
     },
     {
-      "title": "Call of Juarez",
-      "slug": "call-of-juarez",
-      "date_tested": "Dec '25",
+      "title": "Kerbal Space Program",
+      "slug": "kerbal-space-program",
+      "date_tested": "Sept '24",
       "is_featured": false
     },
     {
-      "title": "Call of Juarez: Gunslinger",
-      "slug": "call-of-juarez-gunslinger",
-      "date_tested": "Dec '25",
+      "title": "Prince of Persia",
+      "slug": "prince-of-persia",
+      "date_tested": "March '25",
       "is_featured": false
     },
     {
-      "title": "60 Parsecs!",
-      "slug": "60-parsecs",
-      "date_tested": "Oct '25",
+      "title": "Legacy of Kain: Defiance",
+      "slug": "legacy-of-kain-defiance",
+      "date_tested": "March '25",
       "is_featured": false
     },
     {
-      "title": "Shadowrun Returns",
-      "slug": "shadowrun-returns",
-      "date_tested": "Oct '25",
+      "title": "Voidbound",
+      "slug": "voidbound",
+      "date_tested": "Oct '24",
       "is_featured": false
     },
     {
-      "title": "Dorfromantik",
-      "slug": "dorfromantik",
-      "date_tested": "Sep '25",
+      "title": "SWAT 4: Gold Edition",
+      "slug": "swat-4-gold-edition",
+      "date_tested": "Oct '24",
+      "is_featured": false
+    },
+    {
+      "title": "Star Wars: Knights of the Old Republic",
+      "slug": "star-wars-knights-of-the-old-republic",
+      "date_tested": "Oct '24",
+      "is_featured": false
+    },
+    {
+      "title": "Hard West",
+      "slug": "hard-west",
+      "date_tested": "Aug '24",
       "is_featured": false
     }
   ]
