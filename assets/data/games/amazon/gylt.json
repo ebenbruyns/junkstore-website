@@ -7,7 +7,7 @@
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gylt",
-  "notes": "Works out of the box! There is an issue with cut scenes not playing. This is an existing issue with no know fix yet.",
+  "notes": "Works out of the box!",
   "date_tested": "Dec '25",
   "decky_rating": "not-supported",
   "standalone_rating": "green",
@@ -59,8 +59,8 @@
   ],
   "tested": true,
   "owned": false,
-  "is_featured": true,
+  "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-07T08:11:39.995Z",
-  "updated_at": "2025-12-07T08:43:23.826Z"
+  "updated_at": "2025-12-11T21:41:50.981Z"
 }

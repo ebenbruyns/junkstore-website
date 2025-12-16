@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 66,
+  "total_games": 68,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -23,6 +23,7 @@
     "figment-2-creed-valley.json",
     "gargoyles-remastered.json",
     "genesis-noir.json",
+    "giana-sisters-twisted-dreams.json",
     "golfie.json",
     "gravity-circuit.json",
     "grime.json",
@@ -41,6 +42,7 @@
     "pixel-cafe.json",
     "projection-first-light.json",
     "samurai-bringer.json",
+    "scarf.json",
     "sine-mora-ex.json",
     "spirit-mancer.json",
     "spitlings.json",
@@ -69,54 +71,54 @@
     "youtubers-life-2.json",
     "zombies-ate-my-neighbors-and-ghoul-patrol.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2025-12-08T09:24:15.734Z",
+  "featured_games": 0,
+  "last_updated": "2025-12-14T06:05:00.352Z",
   "latest_games": [
+    {
+      "title": "Giana Sisters: Twisted Dreams",
+      "slug": "giana-sisters-twisted-dreams",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Scarf",
+      "slug": "scarf",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
     {
       "title": "GYLT",
       "slug": "gylt",
       "date_tested": "Dec '25",
-      "is_featured": true
+      "is_featured": false
     },
     {
-      "title": "Stunt Kite Party",
-      "slug": "stunt-kite-party",
+      "title": "Everdream Valley",
+      "slug": "everdream-valley",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "The Station",
-      "slug": "the-station",
+      "title": "Faraway: Director's Cut",
+      "slug": "faraway-directors-cut",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Surf World Series",
-      "slug": "surf-world-series",
+      "title": "Gravity Circuit",
+      "slug": "gravity-circuit",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Wall World",
-      "slug": "wall-world",
+      "title": "Heaven Dust 2",
+      "slug": "heaven-dust-2",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Warhammer 40,000: Dawn of War",
-      "slug": "warhammer-40000-dawn-of-war",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Zombies Ate My Neighbors and Ghoul Patrol",
-      "slug": "zombies-ate-my-neighbors-and-ghoul-patrol",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Samurai Bringer",
-      "slug": "samurai-bringer",
+      "title": "Kraken Academy!!",
+      "slug": "kraken-academy",
       "date_tested": "Dec '25",
       "is_featured": false
     },
@@ -127,8 +129,8 @@
       "is_featured": false
     },
     {
-      "title": "Trinity Fusion",
-      "slug": "trinity-fusion",
+      "title": "Night Reverie",
+      "slug": "night-reverie",
       "date_tested": "Dec '25",
       "is_featured": false
     }

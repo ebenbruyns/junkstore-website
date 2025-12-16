@@ -1,6 +1,6 @@
 {
   "storefront": "itch.io",
-  "total_games": 42,
+  "total_games": 57,
   "games": [
     "10-flights-of-ballooning.json",
     "10mg-sealed-estate.json",
@@ -8,11 +8,24 @@
     "10s.json",
     "1993-space-machine.json",
     "2-9-0-1-freelancer.json",
+    "2064-read-only-memories-integral.json",
+    "6-pack-of-craft-games.json",
     "a-dance-of-fire-and-ice.json",
     "a-forgetful-loop.json",
     "a-good-snowman-is-hard-to-build.json",
+    "a-hole-new-world.json",
+    "a-light-long-gone.json",
     "a-morticians-tale.json",
+    "a-nightmares-trip.json",
     "a-short-hike.json",
+    "a-sketchbook-about-her-sun.json",
+    "a-snakes-tale.json",
+    "about-love-hate-and-the-other-ones.json",
+    "adventure-for-a-bit.json",
+    "air-dasher.json",
+    "alone-with-you.json",
+    "amelie.json",
+    "an-airport-game.json",
     "baba-is-you.json",
     "baldis-basics-plus.json",
     "celeste.json",
@@ -21,6 +34,7 @@
     "crosscode.json",
     "crossniq.json",
     "death-drives-a-bus.json",
+    "derpy-deep-drive.json",
     "dragon-drop.json",
     "dumpy-bumpy.json",
     "figment.json",
@@ -35,6 +49,7 @@
     "roguelight.json",
     "sky-rogue.json",
     "spa-taxi.json",
+    "speer.json",
     "sundered.json",
     "super-hexagon.json",
     "toree-2.json",
@@ -45,67 +60,67 @@
     "wavecrash.json",
     "zeroranger.json"
   ],
-  "featured_games": 0,
-  "last_updated": "2025-12-08T09:24:15.735Z",
+  "featured_games": 2,
+  "last_updated": "2025-12-14T06:05:00.353Z",
   "latest_games": [
     {
-      "title": "Four Horsemen",
-      "slug": "four-horsemen",
+      "title": "Alone With You",
+      "slug": "alone-with-you",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Sky Rogue",
-      "slug": "sky-rogue",
+      "title": "2064: Read Only Memories INTEGRAL",
+      "slug": "2064-read-only-memories-integral",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "WaveCrash!!",
-      "slug": "wavecrash",
-      "date_tested": "Nov '25",
+      "title": "Amelie",
+      "slug": "amelie",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Roguelight",
-      "slug": "roguelight",
-      "date_tested": "Nov '25",
+      "title": "An Airport Game",
+      "slug": "an-airport-game",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "TowerFall Ascention",
-      "slug": "towerfall-ascention",
-      "date_tested": "Nov '25",
+      "title": "A Nightmare's Trip",
+      "slug": "a-nightmares-trip",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Death Drives a Bus",
-      "slug": "death-drives-a-bus",
-      "date_tested": "Nov '25",
+      "title": "A Hole New World",
+      "slug": "a-hole-new-world",
+      "date_tested": "Dec '25",
+      "is_featured": true
+    },
+    {
+      "title": "[Speer]",
+      "slug": "speer",
+      "date_tested": "Dec '25",
+      "is_featured": true
+    },
+    {
+      "title": "Air Dasher",
+      "slug": "air-dasher",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Dragon Drop",
-      "slug": "dragon-drop",
-      "date_tested": "Nov '25",
+      "title": "Adventure for a Bit",
+      "slug": "adventure-for-a-bit",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Moon Hunters",
-      "slug": "moon-hunters",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "10mg: Sealed Estate",
-      "slug": "10mg-sealed-estate",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "10mg: Snaaak",
-      "slug": "10mg-snaaak",
-      "date_tested": "Nov '25",
+      "title": "About Love, Hate and the other ones",
+      "slug": "about-love-hate-and-the-other-ones",
+      "date_tested": "Dec '25",
       "is_featured": false
     }
   ]
