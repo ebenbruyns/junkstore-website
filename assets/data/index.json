@@ -1,11 +1,11 @@
 {
-  "last_updated": "2025-12-08T09:24:15.747Z",
-  "total_tested_games": 848,
+  "last_updated": "2025-12-14T06:05:00.365Z",
+  "total_tested_games": 875,
   "featured_games": 4,
   "storefronts": {
     "Epic": {
-      "total": 406,
-      "featured": 3,
+      "total": 416,
+      "featured": 2,
       "directory": "epic"
     },
     "GOG": {
@@ -14,176 +14,176 @@
       "directory": "gog"
     },
     "Amazon": {
-      "total": 66,
-      "featured": 1,
+      "total": 68,
+      "featured": 0,
       "directory": "amazon"
     },
     "itch.io": {
-      "total": 42,
-      "featured": 0,
+      "total": 57,
+      "featured": 2,
       "directory": "itch.io"
     }
   },
   "recent_updates": [
     {
-      "title": "Crusader Kings II",
-      "storefront": "GOG",
-      "slug": "crusader-kings-ii",
+      "title": "Alone With You",
+      "storefront": "itch.io",
+      "slug": "alone-with-you",
       "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2025-12-08T09:24:07.695Z"
+      "updated_at": "2025-12-14T06:04:54.129Z"
     },
     {
-      "title": "Borderlands 3",
-      "storefront": "Epic",
-      "slug": "borderlands-3",
+      "title": "2064: Read Only Memories INTEGRAL",
+      "storefront": "itch.io",
+      "slug": "2064-read-only-memories-integral",
       "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2025-12-08T09:12:56.667Z"
+      "updated_at": "2025-12-14T06:03:48.466Z"
+    },
+    {
+      "title": "Amelie",
+      "storefront": "itch.io",
+      "slug": "amelie",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-14T06:01:00.573Z"
+    },
+    {
+      "title": "An Airport Game",
+      "storefront": "itch.io",
+      "slug": "an-airport-game",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-14T06:00:46.812Z"
+    },
+    {
+      "title": "A Nightmare's Trip",
+      "storefront": "itch.io",
+      "slug": "a-nightmares-trip",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-14T05:20:01.191Z"
+    },
+    {
+      "title": "A Hole New World",
+      "storefront": "itch.io",
+      "slug": "a-hole-new-world",
+      "date_tested": "Dec '25",
+      "is_featured": true,
+      "updated_at": "2025-12-14T05:17:17.362Z"
+    },
+    {
+      "title": "[Speer]",
+      "storefront": "itch.io",
+      "slug": "speer",
+      "date_tested": "Dec '25",
+      "is_featured": true,
+      "updated_at": "2025-12-14T05:16:25.914Z"
+    },
+    {
+      "title": "Town of Salem 2",
+      "storefront": "Epic",
+      "slug": "town-of-salem-2",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-14T04:34:59.324Z"
+    },
+    {
+      "title": "Warframe",
+      "storefront": "Epic",
+      "slug": "warframe",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-14T03:44:23.695Z"
+    },
+    {
+      "title": "Century: Age of Ashes",
+      "storefront": "Epic",
+      "slug": "century-age-of-ashes",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-14T01:16:24.834Z"
+    },
+    {
+      "title": "Where Winds Meet",
+      "storefront": "Epic",
+      "slug": "where-winds-meet",
+      "date_tested": "Dec '25",
+      "is_featured": true,
+      "updated_at": "2025-12-14T00:53:40.711Z"
+    },
+    {
+      "title": "OverTrip",
+      "storefront": "Epic",
+      "slug": "overtrip",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-13T23:18:33.986Z"
+    },
+    {
+      "title": "Galactic Civilizations III",
+      "storefront": "Epic",
+      "slug": "galactic-civilizations-iii",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-13T23:13:01.243Z"
+    },
+    {
+      "title": "Rogue Company",
+      "storefront": "Epic",
+      "slug": "rogue-company",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-13T23:07:36.232Z"
+    },
+    {
+      "title": "Guild of Dungeoneering",
+      "storefront": "Epic",
+      "slug": "guild-of-dungeoneering",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2025-12-13T22:34:41.888Z"
+    },
+    {
+      "title": "RiME",
+      "storefront": "Epic",
+      "slug": "rime",
+      "date_tested": "June '24",
+      "is_featured": false,
+      "updated_at": "2025-12-13T21:23:20.676Z"
+    },
+    {
+      "title": "ToeJam & Earl: Back in the Groove",
+      "storefront": "Epic",
+      "slug": "toejam-earl-back-in-the-groove",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-13T21:02:16.061Z"
+    },
+    {
+      "title": "Dagon: by H. P. Lovecraft",
+      "storefront": "GOG",
+      "slug": "dagon-by-h-p-lovecraft",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-13T20:01:36.748Z"
     },
     {
       "title": "Call of Juarez: Bound In Blood",
       "storefront": "GOG",
       "slug": "call-of-juarez-bound-in-blood",
-      "date_tested": "July '24",
+      "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2025-12-08T08:29:10.093Z"
+      "updated_at": "2025-12-13T19:56:47.846Z"
     },
     {
-      "title": "Redout 2",
+      "title": "War Tanks",
       "storefront": "Epic",
-      "slug": "redout-2",
+      "slug": "war-tanks",
       "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2025-12-08T08:29:01.027Z"
-    },
-    {
-      "title": "Formula Evolution 2024",
-      "storefront": "Epic",
-      "slug": "formula-evolution-2024",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-08T08:07:14.635Z"
-    },
-    {
-      "title": "The Jackbox Party Pack 4",
-      "storefront": "Epic",
-      "slug": "the-jackbox-party-pack-4",
-      "date_tested": "Dec '25",
-      "is_featured": true,
-      "updated_at": "2025-12-08T07:33:33.188Z"
-    },
-    {
-      "title": "The Darkside Detective",
-      "storefront": "Epic",
-      "slug": "the-darkside-detective",
-      "date_tested": "Dec '25",
-      "is_featured": true,
-      "updated_at": "2025-12-08T07:14:34.993Z"
-    },
-    {
-      "title": "LEGO® 2K Drive",
-      "storefront": "Epic",
-      "slug": "lego-2k-drive",
-      "date_tested": "Dec '25",
-      "is_featured": true,
-      "updated_at": "2025-12-08T07:10:10.682Z"
-    },
-    {
-      "title": "GYLT",
-      "storefront": "Amazon",
-      "slug": "gylt",
-      "date_tested": "Dec '25",
-      "is_featured": true,
-      "updated_at": "2025-12-07T08:43:23.826Z"
-    },
-    {
-      "title": "Universe For Sale",
-      "storefront": "Epic",
-      "slug": "universe-for-sale",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-12-07T08:10:19.128Z"
-    },
-    {
-      "title": "Gunslugs",
-      "storefront": "GOG",
-      "slug": "gunslugs",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-12-07T08:10:17.763Z"
-    },
-    {
-      "title": "Stunt Kite Party",
-      "storefront": "Amazon",
-      "slug": "stunt-kite-party",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-07T08:02:52.231Z"
-    },
-    {
-      "title": "The Station",
-      "storefront": "Amazon",
-      "slug": "the-station",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-07T07:57:11.804Z"
-    },
-    {
-      "title": "Surf World Series",
-      "storefront": "Amazon",
-      "slug": "surf-world-series",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-07T07:48:28.187Z"
-    },
-    {
-      "title": "Wall World",
-      "storefront": "Amazon",
-      "slug": "wall-world",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-07T07:33:39.838Z"
-    },
-    {
-      "title": "Warhammer 40,000: Dawn of War",
-      "storefront": "Amazon",
-      "slug": "warhammer-40000-dawn-of-war",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-07T07:24:43.252Z"
-    },
-    {
-      "title": "Zombies Ate My Neighbors and Ghoul Patrol",
-      "storefront": "Amazon",
-      "slug": "zombies-ate-my-neighbors-and-ghoul-patrol",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-07T07:17:45.958Z"
-    },
-    {
-      "title": "Samurai Bringer",
-      "storefront": "Amazon",
-      "slug": "samurai-bringer",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-07T07:08:04.973Z"
-    },
-    {
-      "title": "Masterplan Tycoon",
-      "storefront": "Amazon",
-      "slug": "masterplan-tycoon",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-07T03:10:42.356Z"
-    },
-    {
-      "title": "Trinity Fusion",
-      "storefront": "Amazon",
-      "slug": "trinity-fusion",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-07T03:01:14.819Z"
+      "updated_at": "2025-12-13T07:00:28.243Z"
     }
   ]
 }

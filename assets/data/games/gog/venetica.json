@@ -7,10 +7,10 @@
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
-  "notes": "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**.",
+  "notes": "Requires manual controller/key mapping.",
   "date_tested": "Nov '24",
-  "decky_rating": "yellow",
-  "standalone_rating": "yellow",
+  "decky_rating": "green",
+  "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "",
@@ -55,5 +55,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-08-11T08:02:46.595Z"
+  "updated_at": "2025-12-11T21:26:31.472Z"
 }

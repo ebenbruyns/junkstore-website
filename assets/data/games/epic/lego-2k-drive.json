@@ -62,9 +62,9 @@
   ],
   "epic_cloud_saves": false,
   "tested": true,
-  "owned": false,
-  "is_featured": true,
+  "owned": true,
+  "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-07T08:12:14.448Z",
-  "updated_at": "2025-12-08T07:10:10.682Z"
+  "updated_at": "2025-12-11T21:41:51.940Z"
 }

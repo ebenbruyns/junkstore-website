@@ -7,10 +7,10 @@
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
-  "notes": "May need to verify with Epic account before launch. Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Some tinkering required**. Need to verify with your Epic account and change controller mapping",
+  "notes": "Works out of the box, but need to map controller.",
   "date_tested": "Dec '24",
-  "decky_rating": "yellow",
-  "standalone_rating": "yellow",
+  "decky_rating": "green",
+  "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "",
@@ -55,5 +55,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T07:36:20.087Z"
+  "updated_at": "2025-12-11T20:42:43.002Z"
 }

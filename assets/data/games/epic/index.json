@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 406,
+  "total_games": 416,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -82,6 +82,7 @@
     "cave-story.json",
     "celeste.json",
     "centipede-recharged.json",
+    "century-age-of-ashes.json",
     "chessarama.json",
     "chivalry-2.json",
     "chronoshot.json",
@@ -160,6 +161,7 @@
     "formula-evolution-2024.json",
     "fortnite.json",
     "freshly-frosted.json",
+    "galactic-civilizations-iii.json",
     "gamedec.json",
     "garden-story.json",
     "gas-station-simulator.json",
@@ -181,6 +183,7 @@
     "grime.json",
     "guacamelee-2.json",
     "guacamelee-super-turbo-championship-edition.json",
+    "guild-of-dungeoneering.json",
     "hades.json",
     "happy-game.json",
     "hardspace-shipbreaker.json",
@@ -252,6 +255,7 @@
     "outliver-tribulation.json",
     "overcooked-2.json",
     "overcooked.json",
+    "overtrip.json",
     "paladins.json",
     "paquerette-down-the-bunburrows.json",
     "pc-building-simulator.json",
@@ -279,6 +283,7 @@
     "river-city-girls.json",
     "road-redemption.json",
     "rocket-league.json",
+    "rogue-company.json",
     "rogue-legacy-2.json",
     "rogue-legacy.json",
     "roller-champions.json",
@@ -372,6 +377,7 @@
     "tony-hawks-pro-skater-12.json",
     "totally-reliable-delivery-service.json",
     "touch-type-tale.json",
+    "town-of-salem-2.json",
     "trackmania.json",
     "train-sim-world-5.json",
     "train-valley-2.json",
@@ -389,13 +395,17 @@
     "vampire-survivors.json",
     "vampire-the-masquerade-reckoning-of-new-york.json",
     "void-bastards.json",
+    "war-tanks.json",
+    "warframe.json",
     "warhammer-40000-gladius-relics-of-war.json",
     "warhammer-40000-mechanicus.json",
     "warpips.json",
     "weird-west.json",
     "what-remains-of-edith-finch.json",
+    "where-winds-meet.json",
     "while-true-learn.json",
     "wildcat-gun-machine.json",
+    "windbound.json",
     "witch-it.json",
     "wizard-of-legend.json",
     "wolfenstein-the-new-order.json",
@@ -409,67 +419,67 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 3,
-  "last_updated": "2025-12-08T09:24:15.727Z",
+  "featured_games": 2,
+  "last_updated": "2025-12-14T06:05:00.345Z",
   "latest_games": [
     {
-      "title": "Borderlands 3",
-      "slug": "borderlands-3",
+      "title": "Town of Salem 2",
+      "slug": "town-of-salem-2",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Redout 2",
-      "slug": "redout-2",
+      "title": "Warframe",
+      "slug": "warframe",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Formula Evolution 2024",
-      "slug": "formula-evolution-2024",
+      "title": "Century: Age of Ashes",
+      "slug": "century-age-of-ashes",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "The Jackbox Party Pack 4",
-      "slug": "the-jackbox-party-pack-4",
+      "title": "Where Winds Meet",
+      "slug": "where-winds-meet",
       "date_tested": "Dec '25",
       "is_featured": true
     },
     {
-      "title": "The Darkside Detective",
-      "slug": "the-darkside-detective",
-      "date_tested": "Dec '25",
-      "is_featured": true
-    },
-    {
-      "title": "LEGO® 2K Drive",
-      "slug": "lego-2k-drive",
-      "date_tested": "Dec '25",
-      "is_featured": true
-    },
-    {
-      "title": "Universe For Sale",
-      "slug": "universe-for-sale",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "The Lord of the Rings: Return to Moria",
-      "slug": "the-lord-of-the-rings-return-to-moria",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Paladins",
-      "slug": "paladins",
+      "title": "OverTrip",
+      "slug": "overtrip",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Saints Row",
-      "slug": "saints-row",
+      "title": "Galactic Civilizations III",
+      "slug": "galactic-civilizations-iii",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Rogue Company",
+      "slug": "rogue-company",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Guild of Dungeoneering",
+      "slug": "guild-of-dungeoneering",
       "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "RiME",
+      "slug": "rime",
+      "date_tested": "June '24",
+      "is_featured": false
+    },
+    {
+      "title": "ToeJam & Earl: Back in the Groove",
+      "slug": "toejam-earl-back-in-the-groove",
+      "date_tested": "Dec '25",
       "is_featured": false
     }
   ]
