@@ -6,9 +6,9 @@
   "gog_url": "https://www.gog.com/en/game/iratus_lord_of_the_dead",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
-  "notes": "Mouse-only controls. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "date_tested": "July '24",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Iratus:_Lord_of_the_Dead",
+  "notes": "Works out of the box!",
+  "date_tested": "Dec '25",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
@@ -27,7 +27,7 @@
   "required_launcher": "",
   "requires_account_setup": false,
   "account_type": "",
-  "controller_input": "mouse-only",
+  "controller_input": "keyboard-mouse",
   "community_layout": false,
   "cant_test_linux": false,
   "databaseId": "1447412730",
@@ -53,7 +53,7 @@
   "tested": true,
   "owned": true,
   "is_featured": false,
-  "blog_category": "",
+  "blog_category": "retest",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-11T07:53:16.706Z"
+  "updated_at": "2025-12-18T05:06:26.703Z"
 }

@@ -1,16 +1,16 @@
 {
-  "last_updated": "2025-12-14T06:05:00.365Z",
-  "total_tested_games": 875,
-  "featured_games": 4,
+  "last_updated": "2025-12-21T05:11:23.388Z",
+  "total_tested_games": 894,
+  "featured_games": 5,
   "storefronts": {
     "Epic": {
-      "total": 416,
-      "featured": 2,
+      "total": 421,
+      "featured": 3,
       "directory": "epic"
     },
     "GOG": {
-      "total": 334,
-      "featured": 0,
+      "total": 342,
+      "featured": 2,
       "directory": "gog"
     },
     "Amazon": {
@@ -19,131 +19,115 @@
       "directory": "amazon"
     },
     "itch.io": {
-      "total": 57,
-      "featured": 2,
+      "total": 63,
+      "featured": 0,
       "directory": "itch.io"
     }
   },
   "recent_updates": [
     {
-      "title": "Alone With You",
-      "storefront": "itch.io",
-      "slug": "alone-with-you",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-14T06:04:54.129Z"
-    },
-    {
-      "title": "2064: Read Only Memories INTEGRAL",
-      "storefront": "itch.io",
-      "slug": "2064-read-only-memories-integral",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-14T06:03:48.466Z"
-    },
-    {
-      "title": "Amelie",
-      "storefront": "itch.io",
-      "slug": "amelie",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-14T06:01:00.573Z"
-    },
-    {
-      "title": "An Airport Game",
-      "storefront": "itch.io",
-      "slug": "an-airport-game",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-14T06:00:46.812Z"
-    },
-    {
-      "title": "A Nightmare's Trip",
-      "storefront": "itch.io",
-      "slug": "a-nightmares-trip",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-14T05:20:01.191Z"
-    },
-    {
-      "title": "A Hole New World",
-      "storefront": "itch.io",
-      "slug": "a-hole-new-world",
+      "title": "Jotunnslayer: Hordes of Hel",
+      "storefront": "Epic",
+      "slug": "jotunnslayer-hordes-of-hel",
       "date_tested": "Dec '25",
       "is_featured": true,
-      "updated_at": "2025-12-14T05:17:17.362Z"
+      "updated_at": "2025-12-21T05:11:10.553Z"
     },
     {
-      "title": "[Speer]",
+      "title": "Bō: Path of the Teal Lotus",
+      "storefront": "GOG",
+      "slug": "b-path-of-the-teal-lotus",
+      "date_tested": "Dec '25",
+      "is_featured": true,
+      "updated_at": "2025-12-21T05:10:53.822Z"
+    },
+    {
+      "title": "Blood West",
+      "storefront": "Epic",
+      "slug": "blood-west",
+      "date_tested": "Dec '25",
+      "is_featured": true,
+      "updated_at": "2025-12-21T05:10:12.470Z"
+    },
+    {
+      "title": "Eternal Threads",
+      "storefront": "Epic",
+      "slug": "eternal-threads",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-21T03:26:13.440Z"
+    },
+    {
+      "title": "Backspace Bouken",
       "storefront": "itch.io",
-      "slug": "speer",
+      "slug": "backspace-bouken",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-21T02:15:06.604Z"
+    },
+    {
+      "title": "Arachnowopunk",
+      "storefront": "itch.io",
+      "slug": "arachnowopunk",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-21T01:28:58.859Z"
+    },
+    {
+      "title": "Angry Video Game Nerd I & II Deluxe",
+      "storefront": "itch.io",
+      "slug": "angry-video-game-nerd-i-ii-deluxe",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-21T01:19:20.606Z"
+    },
+    {
+      "title": "And Yet It Moves",
+      "storefront": "itch.io",
+      "slug": "and-yet-it-moves",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-21T01:09:51.159Z"
+    },
+    {
+      "title": "An Outcry, Prelude",
+      "storefront": "itch.io",
+      "slug": "an-outcry-prelude",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-21T01:03:03.133Z"
+    },
+    {
+      "title": "An American Werewolf in LA",
+      "storefront": "itch.io",
+      "slug": "an-american-werewolf-in-la",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-21T00:56:31.153Z"
+    },
+    {
+      "title": "Eternights",
+      "storefront": "Epic",
+      "slug": "eternights",
       "date_tested": "Dec '25",
       "is_featured": true,
-      "updated_at": "2025-12-14T05:16:25.914Z"
+      "updated_at": "2025-12-21T00:19:04.002Z"
     },
     {
-      "title": "Town of Salem 2",
-      "storefront": "Epic",
-      "slug": "town-of-salem-2",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-14T04:34:59.324Z"
-    },
-    {
-      "title": "Warframe",
-      "storefront": "Epic",
-      "slug": "warframe",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-14T03:44:23.695Z"
-    },
-    {
-      "title": "Century: Age of Ashes",
-      "storefront": "Epic",
-      "slug": "century-age-of-ashes",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-14T01:16:24.834Z"
-    },
-    {
-      "title": "Where Winds Meet",
-      "storefront": "Epic",
-      "slug": "where-winds-meet",
+      "title": "Ashworld",
+      "storefront": "GOG",
+      "slug": "ashworld",
       "date_tested": "Dec '25",
       "is_featured": true,
-      "updated_at": "2025-12-14T00:53:40.711Z"
+      "updated_at": "2025-12-19T23:44:32.144Z"
     },
     {
-      "title": "OverTrip",
-      "storefront": "Epic",
-      "slug": "overtrip",
+      "title": "Absolute Drift",
+      "storefront": "GOG",
+      "slug": "absolute-drift",
       "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2025-12-13T23:18:33.986Z"
-    },
-    {
-      "title": "Galactic Civilizations III",
-      "storefront": "Epic",
-      "slug": "galactic-civilizations-iii",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-13T23:13:01.243Z"
-    },
-    {
-      "title": "Rogue Company",
-      "storefront": "Epic",
-      "slug": "rogue-company",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-13T23:07:36.232Z"
-    },
-    {
-      "title": "Guild of Dungeoneering",
-      "storefront": "Epic",
-      "slug": "guild-of-dungeoneering",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-12-13T22:34:41.888Z"
+      "updated_at": "2025-12-18T06:39:44.622Z"
     },
     {
       "title": "RiME",
@@ -151,39 +135,55 @@
       "slug": "rime",
       "date_tested": "June '24",
       "is_featured": false,
-      "updated_at": "2025-12-13T21:23:20.676Z"
+      "updated_at": "2025-12-18T06:35:39.183Z"
     },
     {
-      "title": "ToeJam & Earl: Back in the Groove",
-      "storefront": "Epic",
-      "slug": "toejam-earl-back-in-the-groove",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-13T21:02:16.061Z"
-    },
-    {
-      "title": "Dagon: by H. P. Lovecraft",
+      "title": "RiME",
       "storefront": "GOG",
-      "slug": "dagon-by-h-p-lovecraft",
+      "slug": "rime",
       "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2025-12-13T20:01:36.748Z"
+      "updated_at": "2025-12-18T06:35:28.796Z"
     },
     {
-      "title": "Call of Juarez: Bound In Blood",
+      "title": "Obduction",
       "storefront": "GOG",
-      "slug": "call-of-juarez-bound-in-blood",
+      "slug": "obduction",
       "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2025-12-13T19:56:47.846Z"
+      "updated_at": "2025-12-18T06:31:17.837Z"
     },
     {
-      "title": "War Tanks",
-      "storefront": "Epic",
-      "slug": "war-tanks",
+      "title": "Amnesia: The Dark Descent",
+      "storefront": "GOG",
+      "slug": "amnesia-the-dark-descent",
       "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2025-12-13T07:00:28.243Z"
+      "updated_at": "2025-12-18T06:24:25.655Z"
+    },
+    {
+      "title": "3 out of 10, Ep. 1: \"Welcome to Shovelworks\"",
+      "storefront": "Epic",
+      "slug": "3-out-of-10-ep-1-welcome-to-shovelworks",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-18T05:26:24.151Z"
+    },
+    {
+      "title": "Iratus: Lord of the Dead",
+      "storefront": "GOG",
+      "slug": "iratus-lord-of-the-dead",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-18T05:06:26.703Z"
+    },
+    {
+      "title": "Greak: Memories of Azur",
+      "storefront": "GOG",
+      "slug": "greak-memories-of-azur",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2025-12-18T04:56:21.040Z"
     }
   ]
 }
