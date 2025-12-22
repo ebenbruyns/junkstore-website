@@ -1,6 +1,6 @@
 {
   "storefront": "itch.io",
-  "total_games": 57,
+  "total_games": 63,
   "games": [
     "10-flights-of-ballooning.json",
     "10mg-sealed-estate.json",
@@ -26,7 +26,13 @@
     "alone-with-you.json",
     "amelie.json",
     "an-airport-game.json",
+    "an-american-werewolf-in-la.json",
+    "an-outcry-prelude.json",
+    "and-yet-it-moves.json",
+    "angry-video-game-nerd-i-ii-deluxe.json",
+    "arachnowopunk.json",
     "baba-is-you.json",
+    "backspace-bouken.json",
     "baldis-basics-plus.json",
     "celeste.json",
     "cloud-gardens.json",
@@ -60,12 +66,54 @@
     "wavecrash.json",
     "zeroranger.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2025-12-14T06:05:00.353Z",
+  "featured_games": 0,
+  "last_updated": "2025-12-21T05:11:23.376Z",
   "latest_games": [
     {
-      "title": "Alone With You",
-      "slug": "alone-with-you",
+      "title": "Backspace Bouken",
+      "slug": "backspace-bouken",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Arachnowopunk",
+      "slug": "arachnowopunk",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Angry Video Game Nerd I & II Deluxe",
+      "slug": "angry-video-game-nerd-i-ii-deluxe",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "And Yet It Moves",
+      "slug": "and-yet-it-moves",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "An Outcry, Prelude",
+      "slug": "an-outcry-prelude",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "An American Werewolf in LA",
+      "slug": "an-american-werewolf-in-la",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "A Hole New World",
+      "slug": "a-hole-new-world",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "[Speer]",
+      "slug": "speer",
       "date_tested": "Dec '25",
       "is_featured": false
     },
@@ -76,50 +124,8 @@
       "is_featured": false
     },
     {
-      "title": "Amelie",
-      "slug": "amelie",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "An Airport Game",
-      "slug": "an-airport-game",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "A Nightmare's Trip",
-      "slug": "a-nightmares-trip",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "A Hole New World",
-      "slug": "a-hole-new-world",
-      "date_tested": "Dec '25",
-      "is_featured": true
-    },
-    {
-      "title": "[Speer]",
-      "slug": "speer",
-      "date_tested": "Dec '25",
-      "is_featured": true
-    },
-    {
-      "title": "Air Dasher",
-      "slug": "air-dasher",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Adventure for a Bit",
-      "slug": "adventure-for-a-bit",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "About Love, Hate and the other ones",
-      "slug": "about-love-hate-and-the-other-ones",
+      "title": "6 Pack of Craft Games",
+      "slug": "6-pack-of-craft-games",
       "date_tested": "Dec '25",
       "is_featured": false
     }

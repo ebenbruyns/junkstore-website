@@ -1,10 +1,11 @@
 {
   "storefront": "GOG",
-  "total_games": 334,
+  "total_games": 342,
   "games": [
     "60-parsecs.json",
     "9-years-of-shadows.json",
     "a-plague-tale-innocence.json",
+    "absolute-drift.json",
     "advanced-dungeons-dragons-heroes-of-the-lance.json",
     "agony-unrated.json",
     "agony.json",
@@ -16,11 +17,14 @@
     "amid-evil.json",
     "amnesia-a-machine-for-pigs.json",
     "amnesia-the-bunker.json",
+    "amnesia-the-dark-descent.json",
     "ancient-enemy.json",
     "another-world-20th-anniversary-edition.json",
     "arcade-paradise.json",
     "ascendant.json",
+    "ashworld.json",
     "atom-rpg-trudograd.json",
+    "b-path-of-the-teal-lotus.json",
     "baldurs-gate-enhanced-edition.json",
     "baldurs-gate-ii-enhanced-edition.json",
     "barrow-hill-curse-of-the-ancient-circle.json",
@@ -32,8 +36,10 @@
     "betrayer.json",
     "bio-menace.json",
     "bioshock-2-remastered.json",
+    "bioshock-2.json",
     "bioshock-infinite.json",
     "bioshock-remastered.json",
+    "bioshock.json",
     "blacksad-under-the-skin.json",
     "blade-of-darkness.json",
     "blast-brigade-vs-the-evil-legion-of-dr-cread.json",
@@ -197,6 +203,7 @@
     "neverwinter-nights-diamond.json",
     "noita.json",
     "oaken.json",
+    "obduction.json",
     "once-upon-a-jester.json",
     "one-step-from-eden.json",
     "openttd.json",
@@ -219,6 +226,7 @@
     "ravenloft-stone-prophet.json",
     "ravenloft-strahds-possession.json",
     "residual.json",
+    "rime.json",
     "riot-civil-unrest.json",
     "saints-row-2.json",
     "saints-row-gat-out-of-hell.json",
@@ -337,67 +345,67 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 0,
-  "last_updated": "2025-12-14T06:05:00.349Z",
+  "featured_games": 2,
+  "last_updated": "2025-12-21T05:11:23.372Z",
   "latest_games": [
     {
-      "title": "Dagon: by H. P. Lovecraft",
-      "slug": "dagon-by-h-p-lovecraft",
+      "title": "Bō: Path of the Teal Lotus",
+      "slug": "b-path-of-the-teal-lotus",
+      "date_tested": "Dec '25",
+      "is_featured": true
+    },
+    {
+      "title": "Ashworld",
+      "slug": "ashworld",
+      "date_tested": "Dec '25",
+      "is_featured": true
+    },
+    {
+      "title": "Absolute Drift",
+      "slug": "absolute-drift",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Call of Juarez: Bound In Blood",
-      "slug": "call-of-juarez-bound-in-blood",
+      "title": "RiME",
+      "slug": "rime",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Penumbra: Black Plague",
-      "slug": "penumbra-black-plague",
-      "date_tested": "Oct '24",
+      "title": "Obduction",
+      "slug": "obduction",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Kerbal Space Program",
-      "slug": "kerbal-space-program",
-      "date_tested": "Sept '24",
+      "title": "Amnesia: The Dark Descent",
+      "slug": "amnesia-the-dark-descent",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Prince of Persia",
-      "slug": "prince-of-persia",
-      "date_tested": "March '25",
+      "title": "Iratus: Lord of the Dead",
+      "slug": "iratus-lord-of-the-dead",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Legacy of Kain: Defiance",
-      "slug": "legacy-of-kain-defiance",
-      "date_tested": "March '25",
+      "title": "Greak: Memories of Azur",
+      "slug": "greak-memories-of-azur",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Voidbound",
-      "slug": "voidbound",
-      "date_tested": "Oct '24",
+      "title": "BioShock 2",
+      "slug": "bioshock-2",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "SWAT 4: Gold Edition",
-      "slug": "swat-4-gold-edition",
-      "date_tested": "Oct '24",
-      "is_featured": false
-    },
-    {
-      "title": "Star Wars: Knights of the Old Republic",
-      "slug": "star-wars-knights-of-the-old-republic",
-      "date_tested": "Oct '24",
-      "is_featured": false
-    },
-    {
-      "title": "Hard West",
-      "slug": "hard-west",
-      "date_tested": "Aug '24",
+      "title": "BioShock",
+      "slug": "bioshock",
+      "date_tested": "Dec '25",
       "is_featured": false
     }
   ]

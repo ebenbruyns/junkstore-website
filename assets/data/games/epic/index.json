@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 416,
+  "total_games": 421,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -59,6 +59,7 @@
     "black-widow-recharged.json",
     "blazing-sails.json",
     "blocklords.json",
+    "blood-west.json",
     "bloons-td-6.json",
     "book-of-yog.json",
     "borderlands-2.json",
@@ -71,6 +72,7 @@
     "brotato.json",
     "brothers-a-tale-of-two-sons.json",
     "bus-simulator-21-next-stop.json",
+    "call-of-dragons.json",
     "call-of-the-sea.json",
     "call-of-the-wild-the-angler.json",
     "car-mechanic-simulator-2018.json",
@@ -133,6 +135,7 @@
     "empyrion-galactic-survival.json",
     "ender-lilies-quietus-of-the-knights.json",
     "escape-academy.json",
+    "eternal-threads.json",
     "eternights.json",
     "europa-universalis-iv.json",
     "f1-manager-2024.json",
@@ -204,6 +207,8 @@
     "islets.json",
     "jennifer-wilde-unlikely-revolutionaries.json",
     "jorels-brother-and-the-most-important-game-of-the-galaxy.json",
+    "jotun-valhalla-edition.json",
+    "jotunnslayer-hordes-of-hel.json",
     "journey-to-the-savage-planet.json",
     "journey.json",
     "jurassic-world-evolution-2.json",
@@ -419,56 +424,32 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2025-12-14T06:05:00.345Z",
+  "featured_games": 3,
+  "last_updated": "2025-12-21T05:11:23.368Z",
   "latest_games": [
     {
-      "title": "Town of Salem 2",
-      "slug": "town-of-salem-2",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Warframe",
-      "slug": "warframe",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Century: Age of Ashes",
-      "slug": "century-age-of-ashes",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Where Winds Meet",
-      "slug": "where-winds-meet",
+      "title": "Jotunnslayer: Hordes of Hel",
+      "slug": "jotunnslayer-hordes-of-hel",
       "date_tested": "Dec '25",
       "is_featured": true
     },
     {
-      "title": "OverTrip",
-      "slug": "overtrip",
+      "title": "Blood West",
+      "slug": "blood-west",
+      "date_tested": "Dec '25",
+      "is_featured": true
+    },
+    {
+      "title": "Eternal Threads",
+      "slug": "eternal-threads",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Galactic Civilizations III",
-      "slug": "galactic-civilizations-iii",
+      "title": "Eternights",
+      "slug": "eternights",
       "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Rogue Company",
-      "slug": "rogue-company",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Guild of Dungeoneering",
-      "slug": "guild-of-dungeoneering",
-      "date_tested": "Nov '25",
-      "is_featured": false
+      "is_featured": true
     },
     {
       "title": "RiME",
@@ -477,9 +458,33 @@
       "is_featured": false
     },
     {
-      "title": "ToeJam & Earl: Back in the Groove",
-      "slug": "toejam-earl-back-in-the-groove",
+      "title": "3 out of 10, Ep. 1: \"Welcome to Shovelworks\"",
+      "slug": "3-out-of-10-ep-1-welcome-to-shovelworks",
       "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Jotun: Valhalla Edition",
+      "slug": "jotun-valhalla-edition",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Call of Dragons",
+      "slug": "call-of-dragons",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "The Crew: Motorfest",
+      "slug": "the-crew-motorfest",
+      "date_tested": "N/A",
+      "is_featured": false
+    },
+    {
+      "title": "Tom Clancy's Ghost Recon: Breakpoint",
+      "slug": "tom-clancys-ghost-recon-breakpoint",
+      "date_tested": "N/A",
       "is_featured": false
     }
   ]
