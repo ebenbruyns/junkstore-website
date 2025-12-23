@@ -25,7 +25,7 @@ Use promo code <span class="promo-code">JUNKMAS25</span> at checkout for your fi
 
 ## How to get the deal
 
-[Download and sign up](/buy_now/) for Junk Store 2.0. The 21-day trial applies automatically to new accounts during this period. Use coupon code <strong style="color: #ffa366;">JUNKMAS25</strong> for 25% off when you purchase.
+[Sign up to the portal](https://portal.junkstore.xyz/) for Junk Store 2.0. The 21-day trial applies automatically to new accounts during this period. Use coupon code <strong style="color: #ffa366;">JUNKMAS25</strong> for 25% off when you purchase.
 
 Questions? [Check the FAQ](/2.0faq/).
 
