@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 421,
+  "total_games": 428,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -60,6 +60,7 @@
     "blazing-sails.json",
     "blocklords.json",
     "blood-west.json",
+    "bloodstained-ritual-of-the-night.json",
     "bloons-td-6.json",
     "book-of-yog.json",
     "borderlands-2.json",
@@ -78,6 +79,7 @@
     "car-mechanic-simulator-2018.json",
     "card-shark.json",
     "carrion.json",
+    "cassette-beasts.json",
     "castlevania-anniversary-collection.json",
     "cat-quest-ii.json",
     "cat-quest.json",
@@ -117,6 +119,7 @@
     "deliver-us-mars.json",
     "demons-tilt.json",
     "destiny-2.json",
+    "disco-elysium-the-final-cut.json",
     "dishonored-death-of-the-outsider.json",
     "dishonored.json",
     "disney-epic-mickey-rebrushed.json",
@@ -263,6 +266,7 @@
     "overtrip.json",
     "paladins.json",
     "paquerette-down-the-bunburrows.json",
+    "paradise-killer.json",
     "pc-building-simulator.json",
     "pilgrims.json",
     "plateup.json",
@@ -308,6 +312,7 @@
     "shapez.json",
     "sid-meiers-civilization-vi.json",
     "sifu.json",
+    "skald-against-the-black-priory.json",
     "skul-the-hero-slayer.json",
     "skull-and-bones.json",
     "sky-racket.json",
@@ -318,6 +323,7 @@
     "solar-ash.json",
     "songs-of-silence.json",
     "sonic-mania.json",
+    "sorry-were-closed.json",
     "soulstice.json",
     "spirit-of-the-north.json",
     "star-stable.json",
@@ -405,6 +411,7 @@
     "warhammer-40000-gladius-relics-of-war.json",
     "warhammer-40000-mechanicus.json",
     "warpips.json",
+    "we-were-here-together.json",
     "weird-west.json",
     "what-remains-of-edith-finch.json",
     "where-winds-meet.json",
@@ -424,32 +431,26 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 3,
-  "last_updated": "2025-12-21T05:11:23.368Z",
+  "featured_games": 8,
+  "last_updated": "2025-12-29T02:51:44.122Z",
   "latest_games": [
     {
-      "title": "Jotunnslayer: Hordes of Hel",
-      "slug": "jotunnslayer-hordes-of-hel",
+      "title": "SKALD: Against the Black Priory",
+      "slug": "skald-against-the-black-priory",
       "date_tested": "Dec '25",
       "is_featured": true
     },
     {
-      "title": "Blood West",
-      "slug": "blood-west",
+      "title": "We Were Here Together",
+      "slug": "we-were-here-together",
       "date_tested": "Dec '25",
       "is_featured": true
     },
     {
-      "title": "Eternal Threads",
-      "slug": "eternal-threads",
+      "title": "A Plague Tale: Innocence",
+      "slug": "a-plague-tale-innocence",
       "date_tested": "Dec '25",
       "is_featured": false
-    },
-    {
-      "title": "Eternights",
-      "slug": "eternights",
-      "date_tested": "Dec '25",
-      "is_featured": true
     },
     {
       "title": "RiME",
@@ -458,34 +459,40 @@
       "is_featured": false
     },
     {
-      "title": "3 out of 10, Ep. 1: \"Welcome to Shovelworks\"",
-      "slug": "3-out-of-10-ep-1-welcome-to-shovelworks",
+      "title": "Paradise Killer",
+      "slug": "paradise-killer",
+      "date_tested": "Dec '25",
+      "is_featured": true
+    },
+    {
+      "title": "Bloodstained: Ritual of the Night",
+      "slug": "bloodstained-ritual-of-the-night",
+      "date_tested": "Dec '25",
+      "is_featured": true
+    },
+    {
+      "title": "Blood West",
+      "slug": "blood-west",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Jotun: Valhalla Edition",
-      "slug": "jotun-valhalla-edition",
+      "title": "Sorry We're Closed",
+      "slug": "sorry-were-closed",
       "date_tested": "Dec '25",
-      "is_featured": false
+      "is_featured": true
     },
     {
-      "title": "Call of Dragons",
-      "slug": "call-of-dragons",
+      "title": "Disco Elysium - The Final Cut",
+      "slug": "disco-elysium-the-final-cut",
       "date_tested": "Dec '25",
-      "is_featured": false
+      "is_featured": true
     },
     {
-      "title": "The Crew: Motorfest",
-      "slug": "the-crew-motorfest",
-      "date_tested": "N/A",
-      "is_featured": false
-    },
-    {
-      "title": "Tom Clancy's Ghost Recon: Breakpoint",
-      "slug": "tom-clancys-ghost-recon-breakpoint",
-      "date_tested": "N/A",
-      "is_featured": false
+      "title": "Cassette Beasts",
+      "slug": "cassette-beasts",
+      "date_tested": "Dec '25",
+      "is_featured": true
     }
   ]
 }
