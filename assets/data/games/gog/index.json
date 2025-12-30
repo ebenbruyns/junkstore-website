@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 342,
+  "total_games": 345,
   "games": [
     "60-parsecs.json",
     "9-years-of-shadows.json",
@@ -9,6 +9,7 @@
     "advanced-dungeons-dragons-heroes-of-the-lance.json",
     "agony-unrated.json",
     "agony.json",
+    "akalabeth-world-of-doom.json",
     "alan-wake.json",
     "alan-wakes-american-nightmare.json",
     "alders-blood-prologue.json",
@@ -104,7 +105,9 @@
     "endless-sky.json",
     "eschalon-book-i.json",
     "eschalon-book-ii.json",
+    "fallout-2-a-post-nuclear-role-playing-game.json",
     "fallout-3-game-of-the-year-edition.json",
+    "fallout-a-post-nuclear-role-playing-game.json",
     "fallout-new-vegas-ultimate-edition.json",
     "fantasy-empires.json",
     "fate-the-cursed-king.json",
@@ -346,47 +349,47 @@
     "ziggurat.json"
   ],
   "featured_games": 2,
-  "last_updated": "2025-12-21T05:11:23.372Z",
+  "last_updated": "2025-12-29T02:51:44.146Z",
   "latest_games": [
+    {
+      "title": "Shadows: Awakening",
+      "slug": "shadows-awakening",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Midnight Fight Express",
+      "slug": "midnight-fight-express",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Akalabeth: World of Doom",
+      "slug": "akalabeth-world-of-doom",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Fallout: A Post Nuclear Role Playing Game",
+      "slug": "fallout-a-post-nuclear-role-playing-game",
+      "date_tested": "Dec '25",
+      "is_featured": true
+    },
+    {
+      "title": "Fallout 2: A Post Nuclear Role Playing Game",
+      "slug": "fallout-2-a-post-nuclear-role-playing-game",
+      "date_tested": "Dec '25",
+      "is_featured": true
+    },
     {
       "title": "Bō: Path of the Teal Lotus",
       "slug": "b-path-of-the-teal-lotus",
       "date_tested": "Dec '25",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "Ashworld",
       "slug": "ashworld",
-      "date_tested": "Dec '25",
-      "is_featured": true
-    },
-    {
-      "title": "Absolute Drift",
-      "slug": "absolute-drift",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "RiME",
-      "slug": "rime",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Obduction",
-      "slug": "obduction",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Amnesia: The Dark Descent",
-      "slug": "amnesia-the-dark-descent",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Iratus: Lord of the Dead",
-      "slug": "iratus-lord-of-the-dead",
       "date_tested": "Dec '25",
       "is_featured": false
     },
@@ -397,14 +400,14 @@
       "is_featured": false
     },
     {
-      "title": "BioShock 2",
-      "slug": "bioshock-2",
+      "title": "Iratus: Lord of the Dead",
+      "slug": "iratus-lord-of-the-dead",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "BioShock",
-      "slug": "bioshock",
+      "title": "Obduction",
+      "slug": "obduction",
       "date_tested": "Dec '25",
       "is_featured": false
     }
