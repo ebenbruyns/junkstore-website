@@ -1,6 +1,6 @@
 {
   "storefront": "itch.io",
-  "total_games": 63,
+  "total_games": 69,
   "games": [
     "10-flights-of-ballooning.json",
     "10mg-sealed-estate.json",
@@ -31,6 +31,11 @@
     "and-yet-it-moves.json",
     "angry-video-game-nerd-i-ii-deluxe.json",
     "arachnowopunk.json",
+    "arcade-spirits.json",
+    "arlo-the-rabbit.json",
+    "art-sqool.json",
+    "asterism.json",
+    "asteroids-but-roguelite.json",
     "baba-is-you.json",
     "backspace-bouken.json",
     "baldis-basics-plus.json",
@@ -53,6 +58,7 @@
     "moon-hunters.json",
     "omeganaut.json",
     "roguelight.json",
+    "sector-781.json",
     "sky-rogue.json",
     "spa-taxi.json",
     "speer.json",
@@ -67,35 +73,41 @@
     "zeroranger.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-12-21T05:11:23.376Z",
+  "last_updated": "2025-12-29T02:51:44.153Z",
   "latest_games": [
     {
-      "title": "Backspace Bouken",
-      "slug": "backspace-bouken",
+      "title": "Asteroids... But Roguelite",
+      "slug": "asteroids-but-roguelite",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Arachnowopunk",
-      "slug": "arachnowopunk",
+      "title": "Asterism",
+      "slug": "asterism",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Angry Video Game Nerd I & II Deluxe",
-      "slug": "angry-video-game-nerd-i-ii-deluxe",
+      "title": "Art Sqool",
+      "slug": "art-sqool",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "And Yet It Moves",
-      "slug": "and-yet-it-moves",
+      "title": "Arlo the Rabbit",
+      "slug": "arlo-the-rabbit",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "An Outcry, Prelude",
-      "slug": "an-outcry-prelude",
+      "title": "Arcade Spirits",
+      "slug": "arcade-spirits",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Sector 781",
+      "slug": "sector-781",
       "date_tested": "Dec '25",
       "is_featured": false
     },
@@ -106,26 +118,20 @@
       "is_featured": false
     },
     {
-      "title": "A Hole New World",
-      "slug": "a-hole-new-world",
+      "title": "An Outcry, Prelude",
+      "slug": "an-outcry-prelude",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "[Speer]",
-      "slug": "speer",
+      "title": "And Yet It Moves",
+      "slug": "and-yet-it-moves",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "2064: Read Only Memories INTEGRAL",
-      "slug": "2064-read-only-memories-integral",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "6 Pack of Craft Games",
-      "slug": "6-pack-of-craft-games",
+      "title": "Angry Video Game Nerd I & II Deluxe",
+      "slug": "angry-video-game-nerd-i-ii-deluxe",
       "date_tested": "Dec '25",
       "is_featured": false
     }
