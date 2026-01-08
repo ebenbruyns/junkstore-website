@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 68,
+  "total_games": 69,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -55,6 +55,7 @@
     "the-collage-atlas.json",
     "the-forgotten-city.json",
     "the-gap.json",
+    "the-invisible-hand.json",
     "the-station.json",
     "through-the-darkest-of-times.json",
     "tiny-robots-recharged.json",
@@ -71,9 +72,15 @@
     "youtubers-life-2.json",
     "zombies-ate-my-neighbors-and-ghoul-patrol.json"
   ],
-  "featured_games": 0,
-  "last_updated": "2025-12-29T02:51:44.152Z",
+  "featured_games": 1,
+  "last_updated": "2026-01-08T02:08:35.854Z",
   "latest_games": [
+    {
+      "title": "The Invisible Hand",
+      "slug": "the-invisible-hand",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
     {
       "title": "Giana Sisters: Twisted Dreams",
       "slug": "giana-sisters-twisted-dreams",
@@ -125,12 +132,6 @@
     {
       "title": "Masterplan Tycoon",
       "slug": "masterplan-tycoon",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Night Reverie",
-      "slug": "night-reverie",
       "date_tested": "Dec '25",
       "is_featured": false
     }
