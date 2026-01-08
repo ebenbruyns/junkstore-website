@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store 2.0 Holiday Deal: Use Code JUNKMAS25 for 25% Off"
 date: 2025-12-23
 categories: [News, Promotion]
-tags: [junk-store, steam-deck, holiday-special, discount, trial-extension, christmas-deal, epic-games, gog, amazon-games, itch-io, emulators]
+tags: [junk-store, steam-deck, news]
 slug: "christmas-holiday-special-2025"
 excerpt: "Holiday promotion for new users. 21-day trial and 25% off your first year through January 6th, 2026."
 image: /assets/images/blog/christmas-special-2025.jpg

@@ -13,7 +13,7 @@
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -54,5 +54,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-05T22:11:51.546Z"
+  "updated_at": "2026-01-05T23:50:10.195Z"
 }

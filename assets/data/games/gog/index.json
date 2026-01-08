@@ -348,13 +348,49 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2025-12-29T02:51:44.146Z",
+  "featured_games": 0,
+  "last_updated": "2026-01-08T02:08:35.851Z",
   "latest_games": [
     {
-      "title": "Shadows: Awakening",
-      "slug": "shadows-awakening",
-      "date_tested": "Dec '25",
+      "title": "Ghost Song",
+      "slug": "ghost-song",
+      "date_tested": "Sept '24",
+      "is_featured": false
+    },
+    {
+      "title": "GreedFall",
+      "slug": "greedfall",
+      "date_tested": "Sept '24",
+      "is_featured": false
+    },
+    {
+      "title": "Hell Division",
+      "slug": "hell-division",
+      "date_tested": "Sept '24",
+      "is_featured": false
+    },
+    {
+      "title": "Immortal Redneck",
+      "slug": "immortal-redneck",
+      "date_tested": "Sept '24",
+      "is_featured": false
+    },
+    {
+      "title": "Star Wars: Battlefront II",
+      "slug": "star-wars-battlefront-ii",
+      "date_tested": "July '24",
+      "is_featured": false
+    },
+    {
+      "title": "The First Templar",
+      "slug": "the-first-templar",
+      "date_tested": "July '24",
+      "is_featured": false
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt - Game of the Year Edition",
+      "slug": "the-witcher-3-wild-hunt-game-of-the-year-edition",
+      "date_tested": "Aug '24",
       "is_featured": false
     },
     {
@@ -364,50 +400,14 @@
       "is_featured": false
     },
     {
+      "title": "Shadows: Awakening",
+      "slug": "shadows-awakening",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
       "title": "Akalabeth: World of Doom",
       "slug": "akalabeth-world-of-doom",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Fallout: A Post Nuclear Role Playing Game",
-      "slug": "fallout-a-post-nuclear-role-playing-game",
-      "date_tested": "Dec '25",
-      "is_featured": true
-    },
-    {
-      "title": "Fallout 2: A Post Nuclear Role Playing Game",
-      "slug": "fallout-2-a-post-nuclear-role-playing-game",
-      "date_tested": "Dec '25",
-      "is_featured": true
-    },
-    {
-      "title": "Bō: Path of the Teal Lotus",
-      "slug": "b-path-of-the-teal-lotus",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Ashworld",
-      "slug": "ashworld",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Greak: Memories of Azur",
-      "slug": "greak-memories-of-azur",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Iratus: Lord of the Dead",
-      "slug": "iratus-lord-of-the-dead",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Obduction",
-      "slug": "obduction",
       "date_tested": "Dec '25",
       "is_featured": false
     }

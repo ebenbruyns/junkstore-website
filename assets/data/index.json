@@ -1,21 +1,21 @@
 {
-  "last_updated": "2025-12-29T02:51:44.170Z",
-  "total_tested_games": 910,
-  "featured_games": 10,
+  "last_updated": "2026-01-08T02:08:35.867Z",
+  "total_tested_games": 918,
+  "featured_games": 8,
   "storefronts": {
     "Epic": {
-      "total": 428,
-      "featured": 8,
+      "total": 435,
+      "featured": 7,
       "directory": "epic"
     },
     "GOG": {
       "total": 345,
-      "featured": 2,
+      "featured": 0,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 68,
-      "featured": 0,
+      "total": 69,
+      "featured": 1,
       "directory": "amazon"
     },
     "itch.io": {
@@ -26,164 +26,164 @@
   },
   "recent_updates": [
     {
-      "title": "SKALD: Against the Black Priory",
+      "title": "Chivalry 2",
       "storefront": "Epic",
-      "slug": "skald-against-the-black-priory",
-      "date_tested": "Dec '25",
-      "is_featured": true,
-      "updated_at": "2025-12-29T02:51:31.290Z"
-    },
-    {
-      "title": "We Were Here Together",
-      "storefront": "Epic",
-      "slug": "we-were-here-together",
-      "date_tested": "Dec '25",
-      "is_featured": true,
-      "updated_at": "2025-12-29T02:41:40.386Z"
-    },
-    {
-      "title": "A Plague Tale: Innocence",
-      "storefront": "Epic",
-      "slug": "a-plague-tale-innocence",
-      "date_tested": "Dec '25",
+      "slug": "chivalry-2",
+      "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2025-12-29T02:27:26.350Z"
+      "updated_at": "2026-01-08T01:21:45.450Z"
     },
     {
-      "title": "Shadows: Awakening",
+      "title": "Wildgate",
+      "storefront": "Epic",
+      "slug": "wildgate",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "updated_at": "2026-01-08T00:17:31.290Z"
+    },
+    {
+      "title": "The Invisible Hand",
+      "storefront": "Amazon",
+      "slug": "the-invisible-hand",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "updated_at": "2026-01-07T23:43:04.211Z"
+    },
+    {
+      "title": "Viewfinder",
+      "storefront": "Epic",
+      "slug": "viewfinder",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "updated_at": "2026-01-06T05:10:05.130Z"
+    },
+    {
+      "title": "Dreamscaper",
+      "storefront": "Epic",
+      "slug": "dreamscaper",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "updated_at": "2026-01-06T00:16:20.729Z"
+    },
+    {
+      "title": "Trine 4: The Nightmare Prince",
+      "storefront": "Epic",
+      "slug": "trine-4-the-nightmare-prince",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "updated_at": "2026-01-06T00:14:56.661Z"
+    },
+    {
+      "title": "Alex Kidd in Miracle World DX",
+      "storefront": "Epic",
+      "slug": "alex-kidd-in-miracle-world-dx",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2026-01-05T23:50:10.195Z"
+    },
+    {
+      "title": "Among the Sleep: Enhanced Edition",
+      "storefront": "Epic",
+      "slug": "among-the-sleep-enhanced-edition",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2026-01-05T23:50:10.195Z"
+    },
+    {
+      "title": "Sunless Skies: Sovereign Edition",
+      "storefront": "Epic",
+      "slug": "sunless-skies-sovereign-edition",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2026-01-05T23:50:10.195Z"
+    },
+    {
+      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "storefront": "Epic",
+      "slug": "teenage-mutant-ninja-turtles-shredders-revenge",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2026-01-05T23:50:10.195Z"
+    },
+    {
+      "title": "Ghost Song",
       "storefront": "GOG",
-      "slug": "shadows-awakening",
-      "date_tested": "Dec '25",
+      "slug": "ghost-song",
+      "date_tested": "Sept '24",
       "is_featured": false,
-      "updated_at": "2025-12-29T01:47:57.982Z"
+      "updated_at": "2026-01-05T23:50:10.195Z"
     },
     {
-      "title": "Midnight Fight Express",
+      "title": "GreedFall",
       "storefront": "GOG",
-      "slug": "midnight-fight-express",
-      "date_tested": "Dec '25",
+      "slug": "greedfall",
+      "date_tested": "Sept '24",
       "is_featured": false,
-      "updated_at": "2025-12-29T01:45:34.343Z"
+      "updated_at": "2026-01-05T23:50:10.195Z"
     },
     {
-      "title": "Akalabeth: World of Doom",
+      "title": "Hell Division",
       "storefront": "GOG",
-      "slug": "akalabeth-world-of-doom",
-      "date_tested": "Dec '25",
+      "slug": "hell-division",
+      "date_tested": "Sept '24",
       "is_featured": false,
-      "updated_at": "2025-12-29T01:18:19.447Z"
+      "updated_at": "2026-01-05T23:50:10.195Z"
     },
     {
-      "title": "Asteroids... But Roguelite",
-      "storefront": "itch.io",
-      "slug": "asteroids-but-roguelite",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-29T01:17:32.530Z"
-    },
-    {
-      "title": "Asterism",
-      "storefront": "itch.io",
-      "slug": "asterism",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-29T01:13:30.403Z"
-    },
-    {
-      "title": "Art Sqool",
-      "storefront": "itch.io",
-      "slug": "art-sqool",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-29T01:06:22.714Z"
-    },
-    {
-      "title": "Arlo the Rabbit",
-      "storefront": "itch.io",
-      "slug": "arlo-the-rabbit",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-29T00:59:30.270Z"
-    },
-    {
-      "title": "Arcade Spirits",
-      "storefront": "itch.io",
-      "slug": "arcade-spirits",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-29T00:51:35.836Z"
-    },
-    {
-      "title": "Sector 781",
-      "storefront": "itch.io",
-      "slug": "sector-781",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-29T00:46:09.651Z"
-    },
-    {
-      "title": "RiME",
-      "storefront": "Epic",
-      "slug": "rime",
-      "date_tested": "June '24",
-      "is_featured": false,
-      "updated_at": "2025-12-28T20:15:51.014Z"
-    },
-    {
-      "title": "Paradise Killer",
-      "storefront": "Epic",
-      "slug": "paradise-killer",
-      "date_tested": "Dec '25",
-      "is_featured": true,
-      "updated_at": "2025-12-28T20:04:41.598Z"
-    },
-    {
-      "title": "Bloodstained: Ritual of the Night",
-      "storefront": "Epic",
-      "slug": "bloodstained-ritual-of-the-night",
-      "date_tested": "Dec '25",
-      "is_featured": true,
-      "updated_at": "2025-12-28T20:04:39.377Z"
-    },
-    {
-      "title": "Fallout: A Post Nuclear Role Playing Game",
+      "title": "Immortal Redneck",
       "storefront": "GOG",
-      "slug": "fallout-a-post-nuclear-role-playing-game",
-      "date_tested": "Dec '25",
-      "is_featured": true,
-      "updated_at": "2025-12-28T20:04:27.805Z"
-    },
-    {
-      "title": "Fallout 2: A Post Nuclear Role Playing Game",
-      "storefront": "GOG",
-      "slug": "fallout-2-a-post-nuclear-role-playing-game",
-      "date_tested": "Dec '25",
-      "is_featured": true,
-      "updated_at": "2025-12-28T20:04:26.232Z"
-    },
-    {
-      "title": "Blood West",
-      "storefront": "Epic",
-      "slug": "blood-west",
-      "date_tested": "Dec '25",
+      "slug": "immortal-redneck",
+      "date_tested": "Sept '24",
       "is_featured": false,
-      "updated_at": "2025-12-28T20:04:23.765Z"
+      "updated_at": "2026-01-05T23:50:10.195Z"
     },
     {
-      "title": "Sorry We're Closed",
-      "storefront": "Epic",
-      "slug": "sorry-were-closed",
-      "date_tested": "Dec '25",
-      "is_featured": true,
-      "updated_at": "2025-12-28T20:04:22.294Z"
+      "title": "Star Wars: Battlefront II",
+      "storefront": "GOG",
+      "slug": "star-wars-battlefront-ii",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2026-01-05T23:50:10.195Z"
     },
     {
-      "title": "Disco Elysium - The Final Cut",
+      "title": "The First Templar",
+      "storefront": "GOG",
+      "slug": "the-first-templar",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2026-01-05T23:50:10.195Z"
+    },
+    {
+      "title": "Trine 3: The Artifacts of Power",
       "storefront": "Epic",
-      "slug": "disco-elysium-the-final-cut",
-      "date_tested": "Dec '25",
+      "slug": "trine-3-the-artifacts-of-power",
+      "date_tested": "Jan '26",
       "is_featured": true,
-      "updated_at": "2025-12-28T20:04:19.678Z"
+      "updated_at": "2026-01-05T23:13:20.724Z"
+    },
+    {
+      "title": "Trine 2: Complete Story",
+      "storefront": "Epic",
+      "slug": "trine-2-complete-story",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "updated_at": "2026-01-05T23:01:50.083Z"
+    },
+    {
+      "title": "Trine Enchanted Edition",
+      "storefront": "Epic",
+      "slug": "trine-enchanted-edition",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "updated_at": "2026-01-05T22:54:39.780Z"
+    },
+    {
+      "title": "Deliver At All Costs",
+      "storefront": "Epic",
+      "slug": "deliver-at-all-costs",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-01T21:12:44.469Z"
     }
   ]
 }

@@ -73,23 +73,11 @@
     "zeroranger.json"
   ],
   "featured_games": 0,
-  "last_updated": "2025-12-29T02:51:44.153Z",
+  "last_updated": "2026-01-08T02:08:35.855Z",
   "latest_games": [
     {
-      "title": "Asteroids... But Roguelite",
-      "slug": "asteroids-but-roguelite",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Asterism",
-      "slug": "asterism",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Art Sqool",
-      "slug": "art-sqool",
+      "title": "Arcade Spirits",
+      "slug": "arcade-spirits",
       "date_tested": "Dec '25",
       "is_featured": false
     },
@@ -100,8 +88,20 @@
       "is_featured": false
     },
     {
-      "title": "Arcade Spirits",
-      "slug": "arcade-spirits",
+      "title": "Art Sqool",
+      "slug": "art-sqool",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Asterism",
+      "slug": "asterism",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Asteroids... But Roguelite",
+      "slug": "asteroids-but-roguelite",
       "date_tested": "Dec '25",
       "is_featured": false
     },
