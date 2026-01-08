@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 428,
+  "total_games": 435,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -129,6 +129,7 @@
     "doom-64.json",
     "doomsday-last-survivors.json",
     "doors-paradox.json",
+    "dreamscaper.json",
     "dredge.json",
     "duet-night-abyss.json",
     "eastern-exorcist.json",
@@ -394,6 +395,10 @@
     "train-valley-2.json",
     "trek-to-yomi.json",
     "trib3.json",
+    "trine-2-complete-story.json",
+    "trine-3-the-artifacts-of-power.json",
+    "trine-4-the-nightmare-prince.json",
+    "trine-enchanted-edition.json",
     "troublemaker.json",
     "tunche.json",
     "turmoil.json",
@@ -405,6 +410,7 @@
     "valorant.json",
     "vampire-survivors.json",
     "vampire-the-masquerade-reckoning-of-new-york.json",
+    "viewfinder.json",
     "void-bastards.json",
     "war-tanks.json",
     "warframe.json",
@@ -417,6 +423,7 @@
     "where-winds-meet.json",
     "while-true-learn.json",
     "wildcat-gun-machine.json",
+    "wildgate.json",
     "windbound.json",
     "witch-it.json",
     "wizard-of-legend.json",
@@ -431,67 +438,67 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 8,
-  "last_updated": "2025-12-29T02:51:44.122Z",
+  "featured_games": 7,
+  "last_updated": "2026-01-08T02:08:35.845Z",
   "latest_games": [
     {
-      "title": "SKALD: Against the Black Priory",
-      "slug": "skald-against-the-black-priory",
-      "date_tested": "Dec '25",
-      "is_featured": true
-    },
-    {
-      "title": "We Were Here Together",
-      "slug": "we-were-here-together",
-      "date_tested": "Dec '25",
-      "is_featured": true
-    },
-    {
-      "title": "A Plague Tale: Innocence",
-      "slug": "a-plague-tale-innocence",
-      "date_tested": "Dec '25",
+      "title": "Chivalry 2",
+      "slug": "chivalry-2",
+      "date_tested": "Jan '26",
       "is_featured": false
     },
     {
-      "title": "RiME",
-      "slug": "rime",
-      "date_tested": "June '24",
+      "title": "Wildgate",
+      "slug": "wildgate",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Viewfinder",
+      "slug": "viewfinder",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Dreamscaper",
+      "slug": "dreamscaper",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Trine 4: The Nightmare Prince",
+      "slug": "trine-4-the-nightmare-prince",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Alex Kidd in Miracle World DX",
+      "slug": "alex-kidd-in-miracle-world-dx",
+      "date_tested": "July '24",
       "is_featured": false
     },
     {
-      "title": "Paradise Killer",
-      "slug": "paradise-killer",
-      "date_tested": "Dec '25",
-      "is_featured": true
-    },
-    {
-      "title": "Bloodstained: Ritual of the Night",
-      "slug": "bloodstained-ritual-of-the-night",
-      "date_tested": "Dec '25",
-      "is_featured": true
-    },
-    {
-      "title": "Blood West",
-      "slug": "blood-west",
-      "date_tested": "Dec '25",
+      "title": "Among the Sleep: Enhanced Edition",
+      "slug": "among-the-sleep-enhanced-edition",
+      "date_tested": "July '24",
       "is_featured": false
     },
     {
-      "title": "Sorry We're Closed",
-      "slug": "sorry-were-closed",
-      "date_tested": "Dec '25",
-      "is_featured": true
+      "title": "Sunless Skies: Sovereign Edition",
+      "slug": "sunless-skies-sovereign-edition",
+      "date_tested": "July '24",
+      "is_featured": false
     },
     {
-      "title": "Disco Elysium - The Final Cut",
-      "slug": "disco-elysium-the-final-cut",
-      "date_tested": "Dec '25",
-      "is_featured": true
+      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+      "slug": "teenage-mutant-ninja-turtles-shredders-revenge",
+      "date_tested": "July '24",
+      "is_featured": false
     },
     {
-      "title": "Cassette Beasts",
-      "slug": "cassette-beasts",
-      "date_tested": "Dec '25",
+      "title": "Trine 3: The Artifacts of Power",
+      "slug": "trine-3-the-artifacts-of-power",
+      "date_tested": "Jan '26",
       "is_featured": true
     }
   ]
