@@ -181,7 +181,17 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
     GOG support is available to paid supporters, and while we'd love to offer it for free, there's a lot of behind-the-scenes work and resources involved in creating and maintaining Junk Store. We appreciate your understanding and support as we continue to improve and expand Junk Store. All funds go back into the enhancement and development of Junk Store.
 </details>
 
-
+<details class="faq-box" id="gog-extension-refunds">
+  <summary>Can I get a refund for the GOG extension?</summary>
+  <p></p>
+    <strong>All sales are final.</strong> Due to the DRM-free nature of the GOG extension, we are unable to offer refunds. This policy is clearly stated on the Junk Store Portal at the time of purchase.
+  <br>
+  <br>
+    Because the extension is delivered as a downloadable file without copy protection, we cannot verify whether it has been used or copied after purchase.
+  <br>
+  <br>
+    If you're experiencing technical issues with the extension, please visit our <a href="/troubleshooting/decky/">Troubleshooting page</a> or reach out on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a> and we'll do our best to help resolve them.
+</details>
 
 <details class="faq-box" id="gog-dos-scummvm-support">
   <summary>Does the GOG extension support DOS and ScummVM games?</summary>
