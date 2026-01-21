@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - October 22, 2025"
 date: 2025-10-21 12:00:00 -0000
 categories: [Weekly Update, Game Compatibility]
-tags: [junk-store, steam-deck, epic-games, gog, amazon-games, itch-io]
+tags: [junk-store, steam-deck, game-testing, epic-games, gog]
 slug: "games-tested-oct-22"
 excerpt: "Weekly testing update featuring 12 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/251018-hero.jpg
