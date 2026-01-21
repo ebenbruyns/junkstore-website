@@ -3,7 +3,7 @@ layout: post
 title: "Tip of the Week: Easily Install Game Dependencies with Junk Store 2.0"
 date: 2025-11-05
 categories: [Tip of the Week, 2.0 Standalone]
-tags: [junk-store, steam-deck, epic-games, gog, amazon-games]
+tags: [junk-store, steam-deck, tips]
 slug: "install-dependencies-junk-store-2"
 excerpt: "Skip the complex ProtonTricks setup! Junk Store 2.0 makes installing Visual C++, .NET Framework, and other Windows dependencies as simple as clicking a button."
 image: /assets/images/blog/251017-deps-hero.webp
