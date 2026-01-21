@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 435,
+  "total_games": 440,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -32,6 +32,7 @@
     "animation-throwdown-the-quest-for-cards.json",
     "anodyne-2-return-to-dust.json",
     "apex-legends.json",
+    "arc-raiders.json",
     "arcade-paradise.json",
     "arcadegeddon.json",
     "are-you-smarter-than-a-5th-grader.json",
@@ -119,6 +120,7 @@
     "deliver-us-mars.json",
     "demons-tilt.json",
     "destiny-2.json",
+    "deus-ex-mankind-divided.json",
     "disco-elysium-the-final-cut.json",
     "dishonored-death-of-the-outsider.json",
     "dishonored.json",
@@ -333,6 +335,8 @@
     "strange-horticulture.json",
     "stubbs-the-zombie-in-rebel-without-a-pulse.json",
     "stumble-upon-rumble.json",
+    "styx-master-of-shadows.json",
+    "styx-shards-of-darkness-deluxe-edition.json",
     "submerged-hidden-depths.json",
     "suicide-squad-kill-the-justice-league.json",
     "sunless-skies-sovereign-edition.json",
@@ -387,6 +391,7 @@
     "tom-clancys-rainbow-six-extraction.json",
     "tomb-raider-game-of-the-year-edition.json",
     "tony-hawks-pro-skater-12.json",
+    "total-war-three-kingdoms.json",
     "totally-reliable-delivery-service.json",
     "touch-type-tale.json",
     "town-of-salem-2.json",
@@ -438,68 +443,68 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 7,
-  "last_updated": "2026-01-08T02:08:35.845Z",
+  "featured_games": 4,
+  "last_updated": "2026-01-18T04:11:56.700Z",
   "latest_games": [
     {
-      "title": "Chivalry 2",
-      "slug": "chivalry-2",
+      "title": "Bloons TD 6",
+      "slug": "bloons-td-6",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Styx: Master of Shadows",
+      "slug": "styx-master-of-shadows",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Among the Sleep: Enhanced Edition",
+      "slug": "among-the-sleep-enhanced-edition",
       "date_tested": "Jan '26",
       "is_featured": false
+    },
+    {
+      "title": "Alex Kidd in Miracle World DX",
+      "slug": "alex-kidd-in-miracle-world-dx",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Sid Meier's Civilization VI",
+      "slug": "sid-meiers-civilization-vi",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Total War: THREE KINGDOMS",
+      "slug": "total-war-three-kingdoms",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Deus Ex: Mankind Divided",
+      "slug": "deus-ex-mankind-divided",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "ARC Raiders",
+      "slug": "arc-raiders",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Styx: Shards of Darkness - Deluxe Edition",
+      "slug": "styx-shards-of-darkness-deluxe-edition",
+      "date_tested": "Jan '26",
+      "is_featured": true
     },
     {
       "title": "Wildgate",
       "slug": "wildgate",
       "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "Viewfinder",
-      "slug": "viewfinder",
-      "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "Dreamscaper",
-      "slug": "dreamscaper",
-      "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "Trine 4: The Nightmare Prince",
-      "slug": "trine-4-the-nightmare-prince",
-      "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "Alex Kidd in Miracle World DX",
-      "slug": "alex-kidd-in-miracle-world-dx",
-      "date_tested": "July '24",
       "is_featured": false
-    },
-    {
-      "title": "Among the Sleep: Enhanced Edition",
-      "slug": "among-the-sleep-enhanced-edition",
-      "date_tested": "July '24",
-      "is_featured": false
-    },
-    {
-      "title": "Sunless Skies: Sovereign Edition",
-      "slug": "sunless-skies-sovereign-edition",
-      "date_tested": "July '24",
-      "is_featured": false
-    },
-    {
-      "title": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
-      "slug": "teenage-mutant-ninja-turtles-shredders-revenge",
-      "date_tested": "July '24",
-      "is_featured": false
-    },
-    {
-      "title": "Trine 3: The Artifacts of Power",
-      "slug": "trine-3-the-artifacts-of-power",
-      "date_tested": "Jan '26",
-      "is_featured": true
     }
   ]
 }

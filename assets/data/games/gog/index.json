@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 345,
+  "total_games": 349,
   "games": [
     "60-parsecs.json",
     "9-years-of-shadows.json",
@@ -50,6 +50,7 @@
     "bloody-hell.json",
     "book-of-demons.json",
     "breachway.json",
+    "brigador-up-armored-edition.json",
     "broken-sword-shadow-of-the-templars-the-directors-cut.json",
     "builders-of-egypt-prologue.json",
     "bullet-runner-the-first-slaughter.json",
@@ -79,6 +80,7 @@
     "daymare-1998.json",
     "death-squared.json",
     "deathbound.json",
+    "deathkeep.json",
     "deep-sky-derelicts.json",
     "defenders-quest-valley-of-the-forgotten.json",
     "delores-a-thimbleweed-park-mini-adventure.json",
@@ -107,6 +109,7 @@
     "eschalon-book-ii.json",
     "fallout-2-a-post-nuclear-role-playing-game.json",
     "fallout-3-game-of-the-year-edition.json",
+    "fallout-4.json",
     "fallout-a-post-nuclear-role-playing-game.json",
     "fallout-new-vegas-ultimate-edition.json",
     "fantasy-empires.json",
@@ -135,6 +138,7 @@
     "greedfall.json",
     "grim-dawn-definitive-edition.json",
     "grip.json",
+    "gunslugs-rogue-tactics.json",
     "gunslugs.json",
     "hammerting.json",
     "hard-west-2.json",
@@ -260,6 +264,7 @@
     "space-hulk-deathwing.json",
     "spells-secrets.json",
     "spelunky-classic.json",
+    "star-wars-battlefront-ii-classic-2005.json",
     "star-wars-battlefront-ii.json",
     "star-wars-bounty-hunter.json",
     "star-wars-jedi-knight-dark-forces-ii-mysteries-of-the-sith.json",
@@ -348,9 +353,51 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 0,
-  "last_updated": "2026-01-08T02:08:35.851Z",
+  "featured_games": 4,
+  "last_updated": "2026-01-18T04:11:56.768Z",
   "latest_games": [
+    {
+      "title": "The First Templar",
+      "slug": "the-first-templar",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "STAR WARS™ Battlefront II (Classic, 2005)",
+      "slug": "star-wars-battlefront-ii-classic-2005",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Bō: Path of the Teal Lotus",
+      "slug": "b-path-of-the-teal-lotus",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Fallout 4",
+      "slug": "fallout-4",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Brigador: Up-Armored Edition",
+      "slug": "brigador-up-armored-edition",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "DeathKeep",
+      "slug": "deathkeep",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Gunslugs : Rogue Tactics",
+      "slug": "gunslugs-rogue-tactics",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
     {
       "title": "Ghost Song",
       "slug": "ghost-song",
@@ -367,48 +414,6 @@
       "title": "Hell Division",
       "slug": "hell-division",
       "date_tested": "Sept '24",
-      "is_featured": false
-    },
-    {
-      "title": "Immortal Redneck",
-      "slug": "immortal-redneck",
-      "date_tested": "Sept '24",
-      "is_featured": false
-    },
-    {
-      "title": "Star Wars: Battlefront II",
-      "slug": "star-wars-battlefront-ii",
-      "date_tested": "July '24",
-      "is_featured": false
-    },
-    {
-      "title": "The First Templar",
-      "slug": "the-first-templar",
-      "date_tested": "July '24",
-      "is_featured": false
-    },
-    {
-      "title": "The Witcher 3: Wild Hunt - Game of the Year Edition",
-      "slug": "the-witcher-3-wild-hunt-game-of-the-year-edition",
-      "date_tested": "Aug '24",
-      "is_featured": false
-    },
-    {
-      "title": "Midnight Fight Express",
-      "slug": "midnight-fight-express",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Shadows: Awakening",
-      "slug": "shadows-awakening",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Akalabeth: World of Doom",
-      "slug": "akalabeth-world-of-doom",
-      "date_tested": "Dec '25",
       "is_featured": false
     }
   ]

@@ -72,14 +72,14 @@
     "youtubers-life-2.json",
     "zombies-ate-my-neighbors-and-ghoul-patrol.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2026-01-08T02:08:35.854Z",
+  "featured_games": 0,
+  "last_updated": "2026-01-18T04:11:56.772Z",
   "latest_games": [
     {
       "title": "The Invisible Hand",
       "slug": "the-invisible-hand",
       "date_tested": "Jan '26",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "Giana Sisters: Twisted Dreams",
