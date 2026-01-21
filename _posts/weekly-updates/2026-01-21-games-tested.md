@@ -223,7 +223,7 @@ Updated compatibility for Alex Kidd in Miracle World DX, Among the Sleep: Enhanc
 
 ### Community Tested
 
-Testing ARC Raiders by request.
+Big thanks to Anatharias for letting us know about this game!
 
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1808500/library_600x900.jpg" alt="ARC Raiders" class="game-thumbnail">
@@ -239,7 +239,7 @@ Testing ARC Raiders by request.
 
 ### Featured Games
 
-This week highlighting Fallout 4.
+This week highlighting Fallout 4, got this as a Christmas presnet to myself as well as a few others. Now I just need to find time to play this one and the others!
 
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/377160/library_600x900.jpg" alt="Fallout 4" class="game-thumbnail">
