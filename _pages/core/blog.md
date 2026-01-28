@@ -648,10 +648,11 @@ document.addEventListener('DOMContentLoaded', function() {
         
         currentlyShown += postsToShow;
         updatePostsShownCount();
-        updateLoadMoreButton(getFilteredPostsCount());
-        
+
+        // Restore button HTML first, then update the count
         this.classList.remove('loading');
-        this.innerHTML = '<i class="fas fa-plus"></i> Load More Posts <span class="load-count">(' + getFilteredHiddenPosts().length + ' more)</span>';
+        this.innerHTML = '<i class="fas fa-plus"></i> Load More Posts <span class="load-count"></span>';
+        updateLoadMoreButton(getFilteredPostsCount());
       }, 500); // Small delay for better UX
     });
   }
@@ -672,7 +673,7 @@ document.addEventListener('DOMContentLoaded', function() {
     postCards.forEach(card => {
       const postCategories = card.getAttribute('data-categories');
       const shouldShow = currentCategory === 'all' || (postCategories && postCategories.includes(currentCategory));
-      if (shouldShow && card.style.display === 'none') {
+      if (shouldShow && card.classList.contains('hidden-post')) {
         hiddenPosts.push(card);
       }
     });
@@ -692,7 +693,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const remainingPosts = Math.max(0, totalFilteredPosts - currentlyShown);
       if (remainingPosts > 0) {
         loadMoreBtn.style.display = 'flex';
-        loadMoreBtn.querySelector('.load-count').textContent = `(${remainingPosts} more)`;
+        const loadCountEl = loadMoreBtn.querySelector('.load-count');
+        if (loadCountEl) {
+          loadCountEl.textContent = `(${remainingPosts} more)`;
+        }
       } else {
         loadMoreBtn.style.display = 'none';
       }
