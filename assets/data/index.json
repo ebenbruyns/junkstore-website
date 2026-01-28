@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-01-18T04:11:56.789Z",
-  "total_tested_games": 927,
-  "featured_games": 8,
+  "last_updated": "2026-01-28T20:11:58.883Z",
+  "total_tested_games": 932,
+  "featured_games": 4,
   "storefronts": {
     "Epic": {
-      "total": 440,
-      "featured": 4,
+      "total": 442,
+      "featured": 2,
       "directory": "epic"
     },
     "GOG": {
-      "total": 349,
-      "featured": 4,
+      "total": 352,
+      "featured": 2,
       "directory": "gog"
     },
     "Amazon": {
@@ -26,28 +26,140 @@
   },
   "recent_updates": [
     {
-      "title": "Bloons TD 6",
-      "storefront": "Epic",
-      "slug": "bloons-td-6",
+      "title": "Cyberpunk 2077",
+      "storefront": "GOG",
+      "slug": "cyberpunk-2077",
       "date_tested": "Jan '26",
       "is_featured": true,
-      "updated_at": "2026-01-18T04:11:50.166Z"
+      "updated_at": "2026-01-28T20:11:55.250Z"
+    },
+    {
+      "title": "Arknights: Endfield",
+      "storefront": "Epic",
+      "slug": "arknights-endfield",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "updated_at": "2026-01-28T19:54:48.910Z"
+    },
+    {
+      "title": "Lords of Midnight",
+      "storefront": "GOG",
+      "slug": "lords-of-midnight",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-28T19:53:55.925Z"
+    },
+    {
+      "title": "Rustler (Grand Theft Horse)",
+      "storefront": "Epic",
+      "slug": "rustler-grand-theft-horse",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "updated_at": "2026-01-28T05:48:03.895Z"
+    },
+    {
+      "title": "Ancient Enemy",
+      "storefront": "Epic",
+      "slug": "ancient-enemy",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-28T05:46:27.726Z"
+    },
+    {
+      "title": "Arcade Paradise",
+      "storefront": "GOG",
+      "slug": "arcade-paradise",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-28T05:44:18.776Z"
+    },
+    {
+      "title": "Harold Halibut",
+      "storefront": "GOG",
+      "slug": "harold-halibut",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "updated_at": "2026-01-28T03:58:18.184Z"
+    },
+    {
+      "title": "Animation Throwdown: The Quest for Cards",
+      "storefront": "Epic",
+      "slug": "animation-throwdown-the-quest-for-cards",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2026-01-25T04:11:42.701Z"
+    },
+    {
+      "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+      "storefront": "GOG",
+      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2026-01-22T03:23:39.065Z"
+    },
+    {
+      "title": "Styx: Shards of Darkness - Deluxe Edition",
+      "storefront": "Epic",
+      "slug": "styx-shards-of-darkness-deluxe-edition",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-18T04:18:15.453Z"
     },
     {
       "title": "Styx: Master of Shadows",
       "storefront": "Epic",
       "slug": "styx-master-of-shadows",
       "date_tested": "Jan '26",
-      "is_featured": true,
-      "updated_at": "2026-01-18T04:11:10.432Z"
+      "is_featured": false,
+      "updated_at": "2026-01-18T04:18:14.750Z"
     },
     {
-      "title": "The First Templar",
+      "title": "Gunslugs : Rogue Tactics",
       "storefront": "GOG",
-      "slug": "the-first-templar",
+      "slug": "gunslugs-rogue-tactics",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2026-01-18T02:51:01.581Z"
+      "updated_at": "2026-01-18T04:18:14.023Z"
+    },
+    {
+      "title": "Fallout 4",
+      "storefront": "GOG",
+      "slug": "fallout-4",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-18T04:18:13.284Z"
+    },
+    {
+      "title": "DeathKeep",
+      "storefront": "GOG",
+      "slug": "deathkeep",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-18T04:18:12.226Z"
+    },
+    {
+      "title": "Brigador: Up-Armored Edition",
+      "storefront": "GOG",
+      "slug": "brigador-up-armored-edition",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-18T04:18:11.425Z"
+    },
+    {
+      "title": "Bloons TD 6",
+      "storefront": "Epic",
+      "slug": "bloons-td-6",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-18T04:18:10.712Z"
+    },
+    {
+      "title": "ARC Raiders",
+      "storefront": "Epic",
+      "slug": "arc-raiders",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-18T04:18:08.314Z"
     },
     {
       "title": "STAR WARS™ Battlefront II (Classic, 2005)",
@@ -55,15 +167,15 @@
       "slug": "star-wars-battlefront-ii-classic-2005",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2026-01-18T02:34:04.680Z"
+      "updated_at": "2026-01-18T04:17:25.219Z"
     },
     {
-      "title": "Among the Sleep: Enhanced Edition",
-      "storefront": "Epic",
-      "slug": "among-the-sleep-enhanced-edition",
+      "title": "The First Templar",
+      "storefront": "GOG",
+      "slug": "the-first-templar",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2026-01-18T02:03:10.421Z"
+      "updated_at": "2026-01-18T04:17:25.219Z"
     },
     {
       "title": "Alex Kidd in Miracle World DX",
@@ -71,119 +183,7 @@
       "slug": "alex-kidd-in-miracle-world-dx",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2026-01-18T01:47:54.793Z"
-    },
-    {
-      "title": "Sid Meier's Civilization VI",
-      "storefront": "Epic",
-      "slug": "sid-meiers-civilization-vi",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-17T00:39:19.669Z"
-    },
-    {
-      "title": "Total War: THREE KINGDOMS",
-      "storefront": "Epic",
-      "slug": "total-war-three-kingdoms",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-17T00:39:03.044Z"
-    },
-    {
-      "title": "Deus Ex: Mankind Divided",
-      "storefront": "Epic",
-      "slug": "deus-ex-mankind-divided",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-17T00:38:40.143Z"
-    },
-    {
-      "title": "ARC Raiders",
-      "storefront": "Epic",
-      "slug": "arc-raiders",
-      "date_tested": "Jan '26",
-      "is_featured": true,
-      "updated_at": "2026-01-16T21:59:50.880Z"
-    },
-    {
-      "title": "Styx: Shards of Darkness - Deluxe Edition",
-      "storefront": "Epic",
-      "slug": "styx-shards-of-darkness-deluxe-edition",
-      "date_tested": "Jan '26",
-      "is_featured": true,
-      "updated_at": "2026-01-16T05:43:30.242Z"
-    },
-    {
-      "title": "Bō: Path of the Teal Lotus",
-      "storefront": "GOG",
-      "slug": "b-path-of-the-teal-lotus",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-01-16T05:08:54.543Z"
-    },
-    {
-      "title": "Fallout 4",
-      "storefront": "GOG",
-      "slug": "fallout-4",
-      "date_tested": "Jan '26",
-      "is_featured": true,
-      "updated_at": "2026-01-16T03:30:13.592Z"
-    },
-    {
-      "title": "Brigador: Up-Armored Edition",
-      "storefront": "GOG",
-      "slug": "brigador-up-armored-edition",
-      "date_tested": "Jan '26",
-      "is_featured": true,
-      "updated_at": "2026-01-16T01:27:46.760Z"
-    },
-    {
-      "title": "DeathKeep",
-      "storefront": "GOG",
-      "slug": "deathkeep",
-      "date_tested": "Jan '26",
-      "is_featured": true,
-      "updated_at": "2026-01-16T01:19:48.582Z"
-    },
-    {
-      "title": "Gunslugs : Rogue Tactics",
-      "storefront": "GOG",
-      "slug": "gunslugs-rogue-tactics",
-      "date_tested": "Jan '26",
-      "is_featured": true,
-      "updated_at": "2026-01-16T01:02:33.014Z"
-    },
-    {
-      "title": "Wildgate",
-      "storefront": "Epic",
-      "slug": "wildgate",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-11T08:23:40.175Z"
-    },
-    {
-      "title": "Dreamscaper",
-      "storefront": "Epic",
-      "slug": "dreamscaper",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-08T03:54:04.216Z"
-    },
-    {
-      "title": "Trine 4: The Nightmare Prince",
-      "storefront": "Epic",
-      "slug": "trine-4-the-nightmare-prince",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-08T03:54:03.281Z"
-    },
-    {
-      "title": "Trine 3: The Artifacts of Power",
-      "storefront": "Epic",
-      "slug": "trine-3-the-artifacts-of-power",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-08T03:54:02.673Z"
+      "updated_at": "2026-01-18T04:17:25.218Z"
     }
   ]
 }
