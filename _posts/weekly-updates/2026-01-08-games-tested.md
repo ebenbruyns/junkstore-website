@@ -46,7 +46,7 @@ A few quick updates before we dive into the games:
 This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story, Trine 3: The Artifacts of Power, Trine 4: The Nightmare Prince, Wildgate.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1382070/library_600x900.jpg" alt="Viewfinder" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1382070/library_600x900.jpg" alt="Viewfinder" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Viewfinder">Viewfinder</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Challenge perception, redefine reality, and reshape the world around you with an instant camera.</div>
@@ -58,7 +58,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/35700/library_600x900.jpg" alt="Trine Enchanted Edition" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/35700/library_600x900.jpg" alt="Trine Enchanted Edition" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Trine%20Enchanted%20Edition">Trine Enchanted Edition</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Three Heroes make their way through dangers untold in a fairytale world of great castles and strange machinery, featurin...</div>
@@ -70,7 +70,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/35720/library_600x900.jpg" alt="Trine 2: Complete Story" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/35720/library_600x900.jpg" alt="Trine 2: Complete Story" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Trine%202%3A%20Complete%20Story">Trine 2: Complete Story</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Three Heroes make their way through dangers untold in a fairytale world, featuring physics-based puzzles, beautiful sigh...</div>
@@ -82,7 +82,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/319910/library_600x900.jpg" alt="Trine 3: The Artifacts of Power" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/319910/library_600x900.jpg" alt="Trine 3: The Artifacts of Power" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Trine%203%3A%20The%20Artifacts%20of%20Power">Trine 3: The Artifacts of Power</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Trine 3: The Artifacts of Power is a platforming game of action, puzzles and adventure, and the sequel to the award winn...</div>
@@ -94,7 +94,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/690640/library_600x900.jpg" alt="Trine 4: The Nightmare Prince" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/690640/library_600x900.jpg" alt="Trine 4: The Nightmare Prince" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Trine%204%3A%20The%20Nightmare%20Prince">Trine 4: The Nightmare Prince</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">The best-selling Trine series returns to the magic of 2.</div>
@@ -106,7 +106,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/3504780/library_600x900.jpg" alt="Wildgate" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/3504780/library_600x900.jpg" alt="Wildgate" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Wildgate">Wildgate</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Wildgate is a PvPvE multiplayer shooter that blends tactical ship-to-ship combat with fast-paced first-person action.</div>
@@ -122,7 +122,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
 This week featuring Dreamscaper.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1040420/library_600x900.jpg" alt="Dreamscaper" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1040420/library_600x900.jpg" alt="Dreamscaper" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Dreamscaper">Dreamscaper</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">By night, delve deep into your subconscious and discover powerful artifacts to conquer your nightmares.</div>
@@ -138,7 +138,7 @@ This week featuring Dreamscaper.
 This week highlighting The Invisible Hand.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/880a8180427727d490669b8ea3dab76fbe0420ccadf626b93ed0904e1a1bdc57.jpg?namespace=gamesdb" alt="The Invisible Hand" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/880a8180427727d490669b8ea3dab76fbe0420ccadf626b93ed0904e1a1bdc57.jpg?namespace=gamesdb" alt="The Invisible Hand" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=The%20Invisible%20Hand">The Invisible Hand</a></strong> <span class="store-badge amazon">Amazon</span>
     <div class="game-description">Experience the obsessive life of a mid-level stockbroker, pursuing wealth and success at the cost of everything else.</div>

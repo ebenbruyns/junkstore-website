@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - September 23, 2025"
 date: 2025-09-23 12:00:00 +1200
 categories: [Weekly Update, Game Compatibility]
-tags: [junk-store, steam-deck, game-testing, epic-games, gog]
+tags: [junk-store, steam-deck, game-testing, epic-games, gog, amazon-games, itch-io]
 slug: "games-tested-sep-23"
 excerpt: "Weekly testing update featuring 12 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/250923-hero.jpg
@@ -49,7 +49,7 @@ Let's get to this week's results — some real gems!
 This week featuring Samorost 2, Project Winter.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/40720/capsule_231x87.jpg" alt="Samorost 2" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/40720/capsule_231x87.jpg" alt="Samorost 2" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Samorost+2">Samorost 2</a></strong>
     <div class="game-description">A whimsical point-and-click adventure through a surreal world of dreams and imagination.</div>
@@ -61,7 +61,7 @@ This week featuring Samorost 2, Project Winter.
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/774861/capsule_231x87.jpg" alt="Project Winter" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/774861/capsule_231x87.jpg" alt="Project Winter" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Project+Winter">Project Winter</a></strong>
     <div class="game-description">Face the wilderness, uncover traitors, and survive paranoia in this streamlined yet chaotic multiplayer experience.</div>
@@ -77,7 +77,7 @@ This week featuring Samorost 2, Project Winter.
 This week featuring Residual, FATE: The Cursed King.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1290780/capsule_231x87.jpg" alt="Residual" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1290780/capsule_231x87.jpg" alt="Residual" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Residual">Residual</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - GOG)</span>
     <div class="game-description">In a forgotten galaxy full of strange planets, a lone explorer crash-lands on one with an ancient alien secret. An exploration (survival) game like no other.. Adventure awaits!</div>
@@ -89,7 +89,7 @@ This week featuring Residual, FATE: The Cursed King.
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/303690/capsule_231x87.jpg" alt="FATE: The Cursed King" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/303690/capsule_231x87.jpg" alt="FATE: The Cursed King" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=FATE%3A+The+Cursed+King">FATE: The Cursed King</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - GOG)</span>
     <div class="game-description">In FATE: The Cursed King, disaster threatens your home! Can you break the curse or will the city of Ekbatan be forever doomed?</div>
@@ -105,7 +105,7 @@ This week featuring Residual, FATE: The Cursed King.
 Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine, Macbat 64: Journey of a Nice Chap.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/594e0fe635de32014e2c9abd0160b767b26e6750f02aff01a31215b3dd06535e.jpg?namespace=gamesdb" alt="Mafia II" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/594e0fe635de32014e2c9abd0160b767b26e6750f02aff01a31215b3dd06535e.jpg?namespace=gamesdb" alt="Mafia II" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Mafia+II">Mafia II</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Experience the gritty world of 1940s-50s organized crime in this cinematic third-person action adventure.</div>
@@ -117,7 +117,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1085220/capsule_231x87.jpg" alt="Figment 2: Creed Valley" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1085220/capsule_231x87.jpg" alt="Figment 2: Creed Valley" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Figment+2%3A+Creed+Valley">Figment 2: Creed Valley</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">A musical action-adventure where you battle nightmares with creativity and rhythm in a surreal mindscape.</div>
@@ -129,7 +129,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/55150/capsule_231x87.jpg" alt="Warhammer 40,000: Space Marine" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/55150/capsule_231x87.jpg" alt="Warhammer 40,000: Space Marine" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Warhammer+40%2C000%3A+Space+Marine">Warhammer 40,000: Space Marine</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">Brutal third-person action as an Ultramarine fighting against hordes of Orks in the grim darkness of the far future.</div>
@@ -141,7 +141,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/568040/capsule_231x87.jpg" alt="Macbat 64: Journey of a Nice Chap" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/568040/capsule_231x87.jpg" alt="Macbat 64: Journey of a Nice Chap" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Macbat+64%3A+Journey+of+a+Nice+Chap">Macbat 64: Journey of a Nice Chap</a></strong> <span style="color: #999;">(itch.io)</span>
     <div class="game-description">A charming N64-style 3D platformer about a friendly bat exploring colorful worlds with retro gameplay.</div>
@@ -157,7 +157,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
 Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a Tale.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/aa1700b28782f43da1d61c33bd01eb4b677a3a5c46a15ad0fb1a210493f9fa2b.jpg?namespace=gamesdb" alt="Bloons TD 6" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/aa1700b28782f43da1d61c33bd01eb4b677a3a5c46a15ad0fb1a210493f9fa2b.jpg?namespace=gamesdb" alt="Bloons TD 6" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Bloons+TD+6">Bloons TD 6</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">The ultimate tower defense experience with monkeys, balloons, and endless strategic depth across multiple game modes.</div>
@@ -169,7 +169,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/fabe3a4788a2434e8408c93e1acdb445224c54def3c072b77005184a86dae5e2.jpg?namespace=gamesdb" alt="Cursed to Golf" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/fabe3a4788a2434e8408c93e1acdb445224c54def3c072b77005184a86dae5e2.jpg?namespace=gamesdb" alt="Cursed to Golf" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Cursed+to+Golf">Cursed to Golf</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">A challenging golf adventure through Golf Purgatory where you must ace your way back to the land of the living.</div>
@@ -181,7 +181,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/a28c39f3450b74507701cece797eb07b4ad67a70c89f9ae5e62942f1f53e96cf.jpg?namespace=gamesdb" alt="Dishonored 2" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/a28c39f3450b74507701cece797eb07b4ad67a70c89f9ae5e62942f1f53e96cf.jpg?namespace=gamesdb" alt="Dishonored 2" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Dishonored+2">Dishonored 2</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Master supernatural powers and stealth in this immersive first-person action game set in a plague-ridden empire.</div>
@@ -193,7 +193,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/118ed75c7edf136a86e800b0f12d1171c21f9a68ca8d8f9bf143d8ce5ebe77d6.jpg?namespace=gamesdb" alt="Ghost of a Tale" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/118ed75c7edf136a86e800b0f12d1171c21f9a68ca8d8f9bf143d8ce5ebe77d6.jpg?namespace=gamesdb" alt="Ghost of a Tale" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Ghost+of+a+Tale">Ghost of a Tale</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">A charming stealth-adventure starring a courageous mouse minstrel in a beautifully crafted medieval world.</div>
