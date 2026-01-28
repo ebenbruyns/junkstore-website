@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 440,
+  "total_games": 442,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -36,6 +36,7 @@
     "arcade-paradise.json",
     "arcadegeddon.json",
     "are-you-smarter-than-a-5th-grader.json",
+    "arknights-endfield.json",
     "armored-warfare.json",
     "art-of-rally.json",
     "assassins-creed-mirage.json",
@@ -300,6 +301,7 @@
     "rogue-legacy.json",
     "roller-champions.json",
     "rugrats-adventures-in-gameland.json",
+    "rustler-grand-theft-horse.json",
     "sable.json",
     "sail-forth.json",
     "saints-row-iv-re-elected.json",
@@ -443,24 +445,54 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 4,
-  "last_updated": "2026-01-18T04:11:56.700Z",
+  "featured_games": 2,
+  "last_updated": "2026-01-28T20:11:58.864Z",
   "latest_games": [
     {
-      "title": "Bloons TD 6",
-      "slug": "bloons-td-6",
+      "title": "Arknights: Endfield",
+      "slug": "arknights-endfield",
       "date_tested": "Jan '26",
       "is_featured": true
+    },
+    {
+      "title": "Rustler (Grand Theft Horse)",
+      "slug": "rustler-grand-theft-horse",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Ancient Enemy",
+      "slug": "ancient-enemy",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Animation Throwdown: The Quest for Cards",
+      "slug": "animation-throwdown-the-quest-for-cards",
+      "date_tested": "July '24",
+      "is_featured": false
+    },
+    {
+      "title": "Styx: Shards of Darkness - Deluxe Edition",
+      "slug": "styx-shards-of-darkness-deluxe-edition",
+      "date_tested": "Jan '26",
+      "is_featured": false
     },
     {
       "title": "Styx: Master of Shadows",
       "slug": "styx-master-of-shadows",
       "date_tested": "Jan '26",
-      "is_featured": true
+      "is_featured": false
     },
     {
-      "title": "Among the Sleep: Enhanced Edition",
-      "slug": "among-the-sleep-enhanced-edition",
+      "title": "Bloons TD 6",
+      "slug": "bloons-td-6",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "ARC Raiders",
+      "slug": "arc-raiders",
       "date_tested": "Jan '26",
       "is_featured": false
     },
@@ -471,38 +503,8 @@
       "is_featured": false
     },
     {
-      "title": "Sid Meier's Civilization VI",
-      "slug": "sid-meiers-civilization-vi",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Total War: THREE KINGDOMS",
-      "slug": "total-war-three-kingdoms",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Deus Ex: Mankind Divided",
-      "slug": "deus-ex-mankind-divided",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "ARC Raiders",
-      "slug": "arc-raiders",
-      "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "Styx: Shards of Darkness - Deluxe Edition",
-      "slug": "styx-shards-of-darkness-deluxe-edition",
-      "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "Wildgate",
-      "slug": "wildgate",
+      "title": "Among the Sleep: Enhanced Edition",
+      "slug": "among-the-sleep-enhanced-edition",
       "date_tested": "Jan '26",
       "is_featured": false
     }
