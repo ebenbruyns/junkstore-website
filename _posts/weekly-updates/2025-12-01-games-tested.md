@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - December 02, 2025"
 date: 2025-12-01 12:00:00 -0000
 categories: [Weekly Update, Game Compatibility]
-tags: [junk-store, steam-deck, game-testing, epic-games, gog]
+tags: [junk-store, steam-deck, game-testing, epic-games, gog, amazon-games, itch-io]
 slug: "games-tested-dec-02"
 excerpt: "Weekly testing update featuring 18 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/251201-hero.jpg
@@ -57,7 +57,7 @@ Just a few housekeeping things before we get into it:
 This week featuring Universe For Sale.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1627840/library_600x900.jpg" alt="Universe For Sale" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1627840/library_600x900.jpg" alt="Universe For Sale" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Universe%20For%20Sale">Universe For Sale</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">A space station nestled in the clouds of Jupiter. A bizarre bazaar where a young, worried woman crafts entire universes in the palm of her hand. A mysterious cultist who's stripped the flesh from his bones in order to reach enlightenment. Here, there's a universe for sale. You buying?</div>
@@ -73,7 +73,7 @@ This week featuring Universe For Sale.
 This week featuring Gunslugs.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/371890/library_600x900.jpg" alt="Gunslugs" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/371890/library_600x900.jpg" alt="Gunslugs" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Gunslugs">Gunslugs</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Lock and load for chaotic, fast-paced action in Gunslugs.</div>
@@ -89,7 +89,7 @@ This week featuring Gunslugs.
 Catching up on Higurashi no Naku Koro ni: Chapter 1 - Onikakushi, Minabo: A Walk Through Life, Paleo Pines, Four Horsemen, Sky Rogue.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/fe2e176197761740269db41f9b39948e7461dfc261470ce67bd38266e3844f70.jpg?namespace=gamesdb" alt="Higurashi no Naku Koro ni: Chapter 1 - Onikakushi" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/fe2e176197761740269db41f9b39948e7461dfc261470ce67bd38266e3844f70.jpg?namespace=gamesdb" alt="Higurashi no Naku Koro ni: Chapter 1 - Onikakushi" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Higurashi%20no%20Naku%20Koro%20ni%3A%20Chapter%201%20-%20Onikakushi">Higurashi no Naku Koro ni: Chapter 1 - Onikakushi</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Higurashi When They Cry is a sound novel. The music, backgrounds and characters work together to create a world that is the stage of a novel for the user to read.</div>
@@ -101,7 +101,7 @@ Catching up on Higurashi no Naku Koro ni: Chapter 1 - Onikakushi, Minabo: A Walk
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/a8e5b61c4aab49f55852b83ba01252704533bdd81529763b8e384fd6ceb398fc.jpg?namespace=gamesdb" alt="Minabo: A Walk Through Life" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/a8e5b61c4aab49f55852b83ba01252704533bdd81529763b8e384fd6ceb398fc.jpg?namespace=gamesdb" alt="Minabo: A Walk Through Life" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Minabo%3A%20A%20Walk%20Through%20Life">Minabo: A Walk Through Life</a></strong> <span class="store-badge amazon">Amazon</span>
     <div class="game-description">Minabo - A walk through life is a social simulation game where you walk the path of life while your turnip grows and thrives (or not) in its social relationships.</div>
@@ -113,7 +113,7 @@ Catching up on Higurashi no Naku Koro ni: Chapter 1 - Onikakushi, Minabo: A Walk
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/991d068c17f56fb94868882a6ec189b2fdfca2b5f607e5745aae8382bbce321c.jpg?namespace=gamesdb" alt="Paleo Pines" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/991d068c17f56fb94868882a6ec189b2fdfca2b5f607e5745aae8382bbce321c.jpg?namespace=gamesdb" alt="Paleo Pines" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Paleo%20Pines">Paleo Pines</a></strong> <span class="store-badge amazon">Amazon</span>
     <div class="game-description">Escape to an island populated with welcoming townsfolk and dozens of friendly dinosaurs.</div>
@@ -125,7 +125,7 @@ Catching up on Higurashi no Naku Koro ni: Chapter 1 - Onikakushi, Minabo: A Walk
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/dfe1c201adcedb60c882dbcc54d5de986cefe453185fb135cecd474824bdfbfa.jpg?namespace=gamesdb" alt="Four Horsemen" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/dfe1c201adcedb60c882dbcc54d5de986cefe453185fb135cecd474824bdfbfa.jpg?namespace=gamesdb" alt="Four Horsemen" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Four%20Horsemen">Four Horsemen</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">An ambitious life sim about the parts of the immigrant experience everyone pretends to forget.</div>
@@ -137,7 +137,7 @@ Catching up on Higurashi no Naku Koro ni: Chapter 1 - Onikakushi, Minabo: A Walk
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/b87172008807789392fbcf493d73d4bd801ef1df7bf71b4c46ca0c1dd69fa170.jpg?namespace=gamesdb" alt="Sky Rogue" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/b87172008807789392fbcf493d73d4bd801ef1df7bf71b4c46ca0c1dd69fa170.jpg?namespace=gamesdb" alt="Sky Rogue" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Sky%20Rogue">Sky Rogue</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">Sky Rogue is a fwooshy rogue-lite action flight simulator.</div>
@@ -153,7 +153,7 @@ Catching up on Higurashi no Naku Koro ni: Chapter 1 - Onikakushi, Minabo: A Walk
 Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: Shadow of the Templars - The Director's Cut, Call of Juarez, Call of Juarez: Gunslinger, Paladins, Saints Row.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/97ade2382ef20e9ba14cfb67eb36440fe7efab2785ec42be5b57378e5ec44f8e.jpg?namespace=gamesdb" alt="The Lord of the Rings: Return to Moria" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/97ade2382ef20e9ba14cfb67eb36440fe7efab2785ec42be5b57378e5ec44f8e.jpg?namespace=gamesdb" alt="The Lord of the Rings: Return to Moria" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=The%20Lord%20of%20the%20Rings%3A%20Return%20to%20Moria">The Lord of the Rings: Return to Moria</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">The only survival crafting game set in the Fourth Age of Middle-earth, the iconic fantasy world created by J.R.R. Tolkien.</div>
@@ -165,7 +165,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/522f5110cda6c01bc9d4e2521ba94e4ac20e710c4551302e6d46aa550848b69d.jpg?namespace=gamesdb" alt="Broken Sword: Shadow of the Templars - The Director's Cut" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/522f5110cda6c01bc9d4e2521ba94e4ac20e710c4551302e6d46aa550848b69d.jpg?namespace=gamesdb" alt="Broken Sword: Shadow of the Templars - The Director's Cut" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Broken%20Sword%3A%20Shadow%20of%20the%20Templars%20-%20The%20Director's%20Cut">Broken Sword: Shadow of the Templars - The Director's Cut</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">One of the all-time classic adventures, multi BAFTA-nominated "Broken Sword: Director's Cut" pitches sassy journalist Nico Collard, and intrepid American George Stobbart into a mysterious journey of intrigue and jeopardy.</div>
@@ -177,7 +177,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/d8504c47d22afe11654b43a2c790af0caa6ac4c59ddcfb65f50977d6089d83fe.jpg?namespace=gamesdb" alt="Call of Juarez" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/d8504c47d22afe11654b43a2c790af0caa6ac4c59ddcfb65f50977d6089d83fe.jpg?namespace=gamesdb" alt="Call of Juarez" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Call%20of%20Juarez">Call of Juarez</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Call of Juarez is an epic adventure western themed FPS game.</div>
@@ -189,7 +189,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/483824fe0627f13a84b802b6dbda093440de79b28f453bc01b049486d421d716.jpg?namespace=gamesdb" alt="Call of Juarez: Gunslinger" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/483824fe0627f13a84b802b6dbda093440de79b28f453bc01b049486d421d716.jpg?namespace=gamesdb" alt="Call of Juarez: Gunslinger" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Call%20of%20Juarez%3A%20Gunslinger">Call of Juarez: Gunslinger</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">From the dust of a gold mine to the dirt of a saloon, Call of Juarez: Gunslinger is a real homage to the Wild West tales.</div>
@@ -201,7 +201,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/0249e180986dfa55899dd17db68b95953e152d4227b9637d98bc601f65542293.jpg?namespace=gamesdb" alt="Paladins" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/0249e180986dfa55899dd17db68b95953e152d4227b9637d98bc601f65542293.jpg?namespace=gamesdb" alt="Paladins" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Paladins">Paladins</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Paladins is the ultimate fantasy team-based shooter experience, with over 50 customizable Champions fighting in 5v5 action across a diverse Realm of modes and maps!</div>
@@ -213,7 +213,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/a4ae7740d3c9ece528a4ee041ef9a3d81a3436cfaad6fe113816d06786a87f15.jpg?namespace=gamesdb" alt="Saints Row" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/a4ae7740d3c9ece528a4ee041ef9a3d81a3436cfaad6fe113816d06786a87f15.jpg?namespace=gamesdb" alt="Saints Row" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Saints%20Row">Saints Row</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Welcome to Santo Ileso, a vibrant fictional city in the American Southwest.</div>
@@ -229,7 +229,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
 Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the delay in getting them added, we really appreciate the help!
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/751490/library_600x900.jpg" alt="WaveCrash!!" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/751490/library_600x900.jpg" alt="WaveCrash!!" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=WaveCrash!!">WaveCrash!!</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">Head-to-head puzzle brawling action.  Match blocks to send waves at your opponent.</div>
@@ -241,7 +241,7 @@ Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the de
 </div>
 
 <div class="game-entry">
-  <img src="https://cdn2.steamgriddb.com/thumb/271d440a11031f1d0d40e26e46999aec.jpg" alt="Roguelight" class="game-thumbnail">
+  <img loading="lazy" src="https://cdn2.steamgriddb.com/thumb/271d440a11031f1d0d40e26e46999aec.jpg" alt="Roguelight" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Roguelight">Roguelight</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">The deeper you travel the darker it gets, and you only have your arrows to light the way.</div>
@@ -253,7 +253,7 @@ Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the de
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/251470/library_600x900.jpg" alt="TowerFall Ascention" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/251470/library_600x900.jpg" alt="TowerFall Ascention" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=TowerFall%20Ascention">TowerFall Ascention</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">TowerFall Ascension is the definitive version of the hit archery combat game.</div>
@@ -265,7 +265,7 @@ Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the de
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/850190/library_600x900.jpg" alt="Goat Simulator 3" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/850190/library_600x900.jpg" alt="Goat Simulator 3" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Goat%20Simulator%203">Goat Simulator 3</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience.</div>
@@ -277,7 +277,7 @@ Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the de
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/646270/library_600x900.jpg" alt="60 Parsecs!" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/646270/library_600x900.jpg" alt="60 Parsecs!" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=60%20Parsecs!">60 Parsecs!</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">60 Parsecs.  is an Atomic Space Age adventure of scavenge and survival.</div>
