@@ -122,9 +122,23 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 <div class="tips-grid">
 
+<div class="tip-item decky">
+  <h4><a href="/blog/change-game-language-environment-variables/">Change Game Language with Environment Variables</a></h4>
+  <p>Use environment variables to change the language of Epic games with multi-language support on Steam Deck</p>
+  <span class="tip-tag">3 min read</span>
+  <span class="tutorial-tag decky-tag">Decky Plugin</span>
+</div>
+
+<div class="tip-item standalone">
+  <h4><a href="/blog/install-dependencies-junk-store-2/">Install Game Dependencies Without ProtonTricks</a></h4>
+  <p>Skip the complex ProtonTricks setup - install Visual C++, .NET Framework, and DirectX with one click</p>
+  <span class="tip-tag">4 min read</span>
+  <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
+</div>
+
 <div class="tip-item both">
-  <h4><a href="/blog/press-y-show-all-games/">Missing the 'Press Y to Show All' Prompt</a></h4>
-  <p>Only seeing A-L games in your Epic/GOG library? Look for the 'Press Y to Show All' prompt at the bottom</p>
+  <h4><a href="/blog/games-compatibility-table-showcase/">Did You Know About Our Games Compatibility Table?</a></h4>
+  <p>Our game compatibility table has been helping Steam Deck users for months. Here's what you've been missing</p>
   <span class="tip-tag">3 min read</span>
   <span class="tutorial-tag both-tag">Universal</span>
 </div>
@@ -136,17 +150,10 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <span class="tutorial-tag both-tag">Universal</span>
 </div>
 
-<div class="tip-item standalone">
-  <h4><a href="/blog/install-dependencies-junk-store-2/">Install Game Dependencies Without ProtonTricks</a></h4>
-  <p>Skip the complex ProtonTricks setup - install Visual C++, .NET Framework, and DirectX with one click</p>
-  <span class="tip-tag">4 min read</span>
-  <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
-</div>
-
 <div class="tip-item both">
-  <h4><a href="/blog/custom-launch-arguments/">Add Custom Launch Arguments</a></h4>
-  <p>Add advanced launch parameters for Epic and GOG games using Junk Store's built-in text editor</p>
-  <span class="tip-tag">4 min read</span>
+  <h4><a href="/blog/press-y-show-all-games/">Missing the 'Press Y to Show All' Prompt</a></h4>
+  <p>Only seeing A-L games in your Epic/GOG library? Look for the 'Press Y to Show All' prompt at the bottom</p>
+  <span class="tip-tag">3 min read</span>
   <span class="tutorial-tag both-tag">Universal</span>
 </div>
 
