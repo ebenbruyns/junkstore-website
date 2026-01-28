@@ -61,8 +61,8 @@
   "gog_achievements": false,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-08T04:00:08.939Z",
-  "updated_at": "2026-01-16T01:27:46.760Z"
+  "updated_at": "2026-01-18T04:18:11.425Z"
 }

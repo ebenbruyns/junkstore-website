@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 349,
+  "total_games": 352,
   "games": [
     "60-parsecs.json",
     "9-years-of-shadows.json",
@@ -72,6 +72,8 @@
     "crusader-kings-ii.json",
     "cuphead.json",
     "cursed-to-golf.json",
+    "cyberpunk-2077-ultimate-edition.json",
+    "cyberpunk-2077.json",
     "dagon-by-h-p-lovecraft.json",
     "dark-deity.json",
     "dark-envoy.json",
@@ -143,6 +145,7 @@
     "hammerting.json",
     "hard-west-2.json",
     "hard-west.json",
+    "harold-halibut.json",
     "haven-park.json",
     "heads-will-roll-downfall.json",
     "hell-division.json",
@@ -184,6 +187,7 @@
     "liberated.json",
     "little-nightmares.json",
     "loop-hero.json",
+    "lords-of-midnight.json",
     "lovecrafts-untold-stories.json",
     "lust-theory-season-1.json",
     "mafia-definitive-edition.json",
@@ -353,12 +357,60 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 4,
-  "last_updated": "2026-01-18T04:11:56.768Z",
+  "featured_games": 2,
+  "last_updated": "2026-01-28T20:11:58.867Z",
   "latest_games": [
     {
-      "title": "The First Templar",
-      "slug": "the-first-templar",
+      "title": "Cyberpunk 2077",
+      "slug": "cyberpunk-2077",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Lords of Midnight",
+      "slug": "lords-of-midnight",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Arcade Paradise",
+      "slug": "arcade-paradise",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Harold Halibut",
+      "slug": "harold-halibut",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
+    {
+      "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+      "date_tested": "July '24",
+      "is_featured": false
+    },
+    {
+      "title": "Gunslugs : Rogue Tactics",
+      "slug": "gunslugs-rogue-tactics",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Fallout 4",
+      "slug": "fallout-4",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "DeathKeep",
+      "slug": "deathkeep",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Brigador: Up-Armored Edition",
+      "slug": "brigador-up-armored-edition",
       "date_tested": "Jan '26",
       "is_featured": false
     },
@@ -366,54 +418,6 @@
       "title": "STAR WARS™ Battlefront II (Classic, 2005)",
       "slug": "star-wars-battlefront-ii-classic-2005",
       "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Bō: Path of the Teal Lotus",
-      "slug": "b-path-of-the-teal-lotus",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Fallout 4",
-      "slug": "fallout-4",
-      "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "Brigador: Up-Armored Edition",
-      "slug": "brigador-up-armored-edition",
-      "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "DeathKeep",
-      "slug": "deathkeep",
-      "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "Gunslugs : Rogue Tactics",
-      "slug": "gunslugs-rogue-tactics",
-      "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "Ghost Song",
-      "slug": "ghost-song",
-      "date_tested": "Sept '24",
-      "is_featured": false
-    },
-    {
-      "title": "GreedFall",
-      "slug": "greedfall",
-      "date_tested": "Sept '24",
-      "is_featured": false
-    },
-    {
-      "title": "Hell Division",
-      "slug": "hell-division",
-      "date_tested": "Sept '24",
       "is_featured": false
     }
   ]
