@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - October 26, 2025"
 date: 2025-10-25 12:00:00 -0000
 categories: [Weekly Update, Game Compatibility]
-tags: [junk-store, steam-deck, game-testing, epic-games, gog]
+tags: [junk-store, steam-deck, game-testing, epic-games, gog, amazon-games, itch-io]
 slug: "games-tested-oct-26"
 excerpt: "Weekly testing update featuring 15 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/251025-hero.jpg
@@ -40,7 +40,7 @@ This week's testing session was particularly fun. I couldn't pass up the amazing
 This week featuring Fear the Spotlight.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1959390/capsule_231x87.jpg" alt="Fear the Spotlight" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1959390/capsule_231x87.jpg" alt="Fear the Spotlight" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Fear+the+Spotlight">Fear the Spotlight</a></strong>
     <div class="game-description">Fear the Spotlight is an atmospheric third-person horror adventure with a disturbing mystery to unravel.</div>
@@ -56,7 +56,7 @@ This week featuring Fear the Spotlight.
 This week featuring True Fear: Forsaken Souls Part 2, Fallout 3: Game of the Year Edition, Hellslave.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/935580/capsule_231x87.jpg" alt="True Fear: Forsaken Souls Part 2" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/935580/capsule_231x87.jpg" alt="True Fear: Forsaken Souls Part 2" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=True+Fear%3A+Forsaken+Souls+Part+2">True Fear: Forsaken Souls Part 2</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - GOG)</span>
     <div class="game-description">Holly Stonehouse followed the clues from her old family house to finally arrive at the Dark Falls Asylum and again see that someone was there before her, waiting for her. However this time she is no longer a spectator and what follows her is no longer just a shadow - the danger is real as the Asylum comes alive at night.</div>
@@ -68,7 +68,7 @@ This week featuring True Fear: Forsaken Souls Part 2, Fallout 3: Game of the Yea
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/b5803bcb5d14b2f1477c3b4d6be9dfea70d3e6047af0dd73cfde5e53285b89ad.jpg?namespace=gamesdb" alt="Fallout 3: Game of the Year Edition" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/b5803bcb5d14b2f1477c3b4d6be9dfea70d3e6047af0dd73cfde5e53285b89ad.jpg?namespace=gamesdb" alt="Fallout 3: Game of the Year Edition" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Fallout+3%3A+Game+of+the+Year+Edition">Fallout 3: Game of the Year Edition</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - GOG)</span>
     <div class="game-description">With Fallout 3: Game of the Year Edition, experience the most acclaimed game of 2008 like never before.</div>
@@ -80,7 +80,7 @@ This week featuring True Fear: Forsaken Souls Part 2, Fallout 3: Game of the Yea
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1608450/capsule_231x87.jpg" alt="Hellslave" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1608450/capsule_231x87.jpg" alt="Hellslave" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Hellslave">Hellslave</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - GOG)</span>
     <div class="game-description">Hellslave is a dark fantasy dungeon crawler where you make a pact with the Devil to fight back a demon invasion.</div>
@@ -96,7 +96,7 @@ This week featuring True Fear: Forsaken Souls Part 2, Fallout 3: Game of the Yea
 Catching up on Star Stable, OpenTTD, Endless Space: Definitive Edition, Endling: Extinction is Forever, Spaß Taxi.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/c3e6935dc4458af95b259c876e5be9393664f960268544826fbb0cc1f4b9ff19.jpg?namespace=gamesdb" alt="Star Stable" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/c3e6935dc4458af95b259c876e5be9393664f960268544826fbb0cc1f4b9ff19.jpg?namespace=gamesdb" alt="Star Stable" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Star+Stable">Star Stable</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Star Stable is a MMORPG built especially for those with a passion for horses and games.</div>
@@ -108,7 +108,7 @@ Catching up on Star Stable, OpenTTD, Endless Space: Definitive Edition, Endling:
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/9531038872dde85dbed650b592b7ff9d843cf7aec52274027cd0357c5330b857.jpg?namespace=gamesdb" alt="OpenTTD" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/9531038872dde85dbed650b592b7ff9d843cf7aec52274027cd0357c5330b857.jpg?namespace=gamesdb" alt="OpenTTD" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=OpenTTD">OpenTTD</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">OpenTTD is a business simulation game in which players earn money by transporting passengers and cargo via road, rail, water, and air. It is an open-source remake and expansion of the 1995 Chris Sawyer video game Transport Tycoon Deluxe.</div>
@@ -120,7 +120,7 @@ Catching up on Star Stable, OpenTTD, Endless Space: Definitive Edition, Endling:
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/208140/capsule_231x87.jpg" alt="Endless Space: Definitive Edition" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/208140/capsule_231x87.jpg" alt="Endless Space: Definitive Edition" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Endless+Space%3A+Definitive+Edition">Endless Space: Definitive Edition</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">Endless Space - Definitive Edition includes all the expansions and updates released for the game (including Endless Space Disharmony).</div>
@@ -132,7 +132,7 @@ Catching up on Star Stable, OpenTTD, Endless Space: Definitive Edition, Endling:
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/898890/capsule_231x87.jpg" alt="Endling: Extinction is Forever" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/898890/capsule_231x87.jpg" alt="Endling: Extinction is Forever" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Endling%3A+Extinction+is+Forever">Endling: Extinction is Forever</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">As the last mother fox on Earth, your cubs need all your care to survive in a merciless world that slowly destroys itself. You have to help them, teach them and save them. And you should never forget that extinction is forever.</div>
@@ -144,7 +144,7 @@ Catching up on Star Stable, OpenTTD, Endless Space: Definitive Edition, Endling:
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1206770/capsule_231x87.jpg" alt="Spaß Taxi" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1206770/capsule_231x87.jpg" alt="Spaß Taxi" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Spa%C3%9F+Taxi">Spaß Taxi</a></strong> <span style="color: #999;">(itch.io)</span>
     <div class="game-description">Spaß Taxi is a clone of the original Space Taxi, where you need to bring passengers from one pad to another in weird environments with unexpected obstacles.</div>
@@ -160,7 +160,7 @@ Catching up on Star Stable, OpenTTD, Endless Space: Definitive Edition, Endling:
 Updated compatibility for Alwa's Awakening, Doom 64, Styx: Shards of Darkness.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/a473a87ef8760118b45d36dc42cdca5ca2fa913b87c3329a3b55ef9230f067f7.jpg?namespace=gamesdb" alt="Alwa's Awakening" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/a473a87ef8760118b45d36dc42cdca5ca2fa913b87c3329a3b55ef9230f067f7.jpg?namespace=gamesdb" alt="Alwa's Awakening" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Alwa%27s+Awakening">Alwa's Awakening</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Use your magic staff and progress through a large interconnected world where you'll solve puzzles, fight enemies and defeat bosses in order to help free the land of Alwa.</div>
@@ -172,7 +172,7 @@ Updated compatibility for Alwa's Awakening, Doom 64, Styx: Shards of Darkness.
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/0af2f06ebc42de210bee76da5cad43595d25098156ea66f208e3ffa2416a21f6.jpg?namespace=gamesdb" alt="Doom 64" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/0af2f06ebc42de210bee76da5cad43595d25098156ea66f208e3ffa2416a21f6.jpg?namespace=gamesdb" alt="Doom 64" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Doom+64">Doom 64</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">You killed the Demons once, they were all dead.  Or so you thought.</div>
@@ -184,7 +184,7 @@ Updated compatibility for Alwa's Awakening, Doom 64, Styx: Shards of Darkness.
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/bd21f1ab319e0c8f5b04cb7e0a524cac4dca8a386f863c6dfae1f2632cf7e8b3.jpg?namespace=gamesdb" alt="Styx: Shards of Darkness" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/bd21f1ab319e0c8f5b04cb7e0a524cac4dca8a386f863c6dfae1f2632cf7e8b3.jpg?namespace=gamesdb" alt="Styx: Shards of Darkness" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Styx%3A+Shards+of+Darkness">Styx: Shards of Darkness</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Embark upon a stealthy adventure with new enemies, new environments, and a plethora of new mechanics aimed at refining the abilities and movement of Styx; grappling around corners, climbing ropes, and using his trusty knife as a zip-wire.</div>
@@ -200,7 +200,7 @@ Updated compatibility for Alwa's Awakening, Doom 64, Styx: Shards of Darkness.
 This week highlighting Alan Wake II, Alan Wake, Alan Wake's American Nightmare.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/458c67cd5e4139e7f58d2e4a69c0ec6c6a5f3913f09980b4ed88d6ed2e05b257.jpg?namespace=gamesdb" alt="Alan Wake II" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/458c67cd5e4139e7f58d2e4a69c0ec6c6a5f3913f09980b4ed88d6ed2e05b257.jpg?namespace=gamesdb" alt="Alan Wake II" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Alan+Wake+II">Alan Wake II</a></strong>
     <div class="game-description">Ritualistic murders in a small town. A writer trapped in a nightmare. An FBI agent looking for answers. Two realities. Two hero characters. One horror story that wants them dead.</div>
@@ -212,7 +212,7 @@ This week highlighting Alan Wake II, Alan Wake, Alan Wake's American Nightmare.
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/33aa9867f8b843e23f35837c44e73524c6fba0aef81c40f2d0f9e02117356550.jpg?namespace=gamesdb" alt="Alan Wake" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/33aa9867f8b843e23f35837c44e73524c6fba0aef81c40f2d0f9e02117356550.jpg?namespace=gamesdb" alt="Alan Wake" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Alan+Wake">Alan Wake</a></strong>
     <div class="game-description">When the wife of the best-selling writer Alan Wake disappears on their vacation, his search turns up pages from a thriller he doesn’t even remember writing. A Dark Presence stalks the small town of Bright Falls, pushing Wake to the brink of sanity in his fight to unravel the mystery and save his love.</div>
@@ -224,7 +224,7 @@ This week highlighting Alan Wake II, Alan Wake, Alan Wake's American Nightmare.
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/202750/capsule_231x87.jpg" alt="Alan Wake's American Nightmare" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/202750/capsule_231x87.jpg" alt="Alan Wake's American Nightmare" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Alan+Wake%27s+American+Nightmare">Alan Wake's American Nightmare</a></strong>
     <div class="game-description">Alan Wake’s American Nightmare is a stand alone spin-off adventure featuring a thrilling pulp action story mode and an all new “Fight till Dawn” arcade mode. American Nightmare will shine a new light on the world of Wake while appealing to fans and newcomers alike.</div>

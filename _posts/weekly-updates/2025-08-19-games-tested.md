@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - August 19, 2025"
 date: 2025-08-19
 categories: [Weekly Update, Game Compatibility]
-tags: [junk-store, steam-deck, game-testing, epic-games, itch-io]
+tags: [junk-store, steam-deck, game-testing, epic-games, gog, itch-io]
 slug: "games-tested-aug-19"
 excerpt: "Major announcement: itch.io integration is live! Plus updated games compatibility table with detailed modals, and testing results from Epic giveaways, Prime Gaming, and our first batch of itch.io indies."
 image: /assets/images/blog/aug19-hero.jpg
@@ -60,7 +60,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 ### Epic Games Giveaway
 
 <div class="game-entry">
-  <img src="https://images.gog.com/95ffe10fbf91c9f12de47c9a56260b5c4ed904d0a8b249a6ac46bab19c61f521.jpg?namespace=gamesdb" alt="Totally Reliable Delivery Service" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/95ffe10fbf91c9f12de47c9a56260b5c4ed904d0a8b249a6ac46bab19c61f521.jpg?namespace=gamesdb" alt="Totally Reliable Delivery Service" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Totally+Reliable+Delivery+Service">Totally Reliable Delivery Service</a></strong>
     <div class="compatibility-info">
@@ -71,7 +71,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/335c37c4956387b89a61300a588c5178f63614db64e760a72d7eda203287d020.jpg?namespace=gamesdb" alt="Hidden Folks" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/335c37c4956387b89a61300a588c5178f63614db64e760a72d7eda203287d020.jpg?namespace=gamesdb" alt="Hidden Folks" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Hidden+Folks">Hidden Folks</a></strong>
     <div class="compatibility-info">
@@ -84,7 +84,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 ### Prime Gaming Giveaways
 
 <div class="game-entry">
-  <img src="https://images.gog.com/aa85be33107f5f711548ea49a13355181519f5b1b4e5fb30ab8b09b61d0549f1.jpg?namespace=gamesdb" alt="Filthy Animals: Heist Simulator" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/aa85be33107f5f711548ea49a13355181519f5b1b4e5fb30ab8b09b61d0549f1.jpg?namespace=gamesdb" alt="Filthy Animals: Heist Simulator" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Filthy+Animals%3A+Heist+Simulator">Filthy Animals: Heist Simulator</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
@@ -95,7 +95,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/9f455ee7dd210d089fa4becf094957aafb8036d29416b88a209d84edf25c9a0c.jpg?namespace=gamesdb" alt="Fate: The Traitor Soul" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/9f455ee7dd210d089fa4becf094957aafb8036d29416b88a209d84edf25c9a0c.jpg?namespace=gamesdb" alt="Fate: The Traitor Soul" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Fate%3A+The+Traitor+Soul">Fate: The Traitor Soul</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
@@ -106,7 +106,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/55d5cb8956aacc799fba08c766d50e4ceea0cee6589d8c6429c67d6107616923.jpg?namespace=gamesdb" alt="Necroking" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/55d5cb8956aacc799fba08c766d50e4ceea0cee6589d8c6429c67d6107616923.jpg?namespace=gamesdb" alt="Necroking" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Necroking">Necroking</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
@@ -117,7 +117,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/24b009a395b5d7f6f5a668d58b9681237ca9a45aa0632c1fbe1e9c4cf8f7c944.jpg?namespace=gamesdb" alt="Tin Hearts" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/24b009a395b5d7f6f5a668d58b9681237ca9a45aa0632c1fbe1e9c4cf8f7c944.jpg?namespace=gamesdb" alt="Tin Hearts" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Tin+Hearts">Tin Hearts</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
@@ -130,7 +130,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 ### itch.io Games (Only available on Junk Store 2.0)
 
 <div class="game-entry">
-  <img src="https://images.gog.com/f6e075ded3a56ac2fcf4ccc4e8430f0b36b4810376f6fa82b59f1b04a2c7fc2c.jpg?namespace=gamesdb" alt="10 Flights of Ballooning" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/f6e075ded3a56ac2fcf4ccc4e8430f0b36b4810376f6fa82b59f1b04a2c7fc2c.jpg?namespace=gamesdb" alt="10 Flights of Ballooning" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=10+Flights+of+Ballooning">10 Flights of Ballooning</a></strong>
     <div class="compatibility-info">
@@ -141,7 +141,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/de31abc354c65bdf7ec0bff26927045370a44be41242a451f958f0cb1d599924.jpg?namespace=gamesdb" alt="10S" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/de31abc354c65bdf7ec0bff26927045370a44be41242a451f958f0cb1d599924.jpg?namespace=gamesdb" alt="10S" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=10S">10S</a></strong>
     <div class="compatibility-info">
@@ -152,7 +152,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/da84f2b24b2b424a15a05b37bda025bc734690e658c35bd3fa9df24cb9ca5443.jpg?namespace=gamesdb" alt="1993 Space Machine" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/da84f2b24b2b424a15a05b37bda025bc734690e658c35bd3fa9df24cb9ca5443.jpg?namespace=gamesdb" alt="1993 Space Machine" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=1993+Space+Machine">1993 Space Machine</a></strong>
     <div class="compatibility-info">
@@ -163,7 +163,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/b6c93e1e4845233dbe82f1ea63d17bf146f87e972f9fcb84f228db87c95a5f78.jpg?namespace=gamesdb" alt="2 9 0 1 / / FREELANCER" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/b6c93e1e4845233dbe82f1ea63d17bf146f87e972f9fcb84f228db87c95a5f78.jpg?namespace=gamesdb" alt="2 9 0 1 / / FREELANCER" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=2+++9+++0+++1++%2F+%2F+FREELANCER">2 9 0 1 / / FREELANCER</a></strong>
     <div class="compatibility-info">
@@ -174,7 +174,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/cd47889e20a77f77678ec48cc764c50871182cd5066ef776693296416022f9eb.jpg?namespace=gamesdb" alt="A Short Hike" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/cd47889e20a77f77678ec48cc764c50871182cd5066ef776693296416022f9eb.jpg?namespace=gamesdb" alt="A Short Hike" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=A+Short+Hike">A Short Hike</a></strong>
     <div class="compatibility-info">
@@ -185,7 +185,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/afead364043ba2f85a59bed75bd0baf7acb7d1c9631f33267e78a325859514a1.jpg?namespace=gamesdb" alt="Baba Is You" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/afead364043ba2f85a59bed75bd0baf7acb7d1c9631f33267e78a325859514a1.jpg?namespace=gamesdb" alt="Baba Is You" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Baba+Is+You">Baba Is You</a></strong>
     <div class="compatibility-info">
@@ -196,7 +196,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/10006aa6137272d4fe7842fc7d5699feb55278c2212cd97140ba425dccd4fb80.jpg?namespace=gamesdb" alt="Celeste" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/10006aa6137272d4fe7842fc7d5699feb55278c2212cd97140ba425dccd4fb80.jpg?namespace=gamesdb" alt="Celeste" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Celeste">Celeste</a></strong>
     <div class="compatibility-info">
@@ -207,7 +207,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/f78e724218d50dc20c03b6a12b5b9067d8b8f8dae01530d05e2a1d5c4d7fc350.jpg?namespace=gamesdb" alt="CrossCode" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/f78e724218d50dc20c03b6a12b5b9067d8b8f8dae01530d05e2a1d5c4d7fc350.jpg?namespace=gamesdb" alt="CrossCode" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=CrossCode">CrossCode</a></strong>
     <div class="compatibility-info">
@@ -218,7 +218,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/972188ba588fbd9d3d94b3201810c950692d603caafc2dab40ad6fcf0e4aa4db.jpg?namespace=gamesdb" alt="Super Hexagon" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/972188ba588fbd9d3d94b3201810c950692d603caafc2dab40ad6fcf0e4aa4db.jpg?namespace=gamesdb" alt="Super Hexagon" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Super+Hexagon">Super Hexagon</a></strong>
     <div class="compatibility-info">

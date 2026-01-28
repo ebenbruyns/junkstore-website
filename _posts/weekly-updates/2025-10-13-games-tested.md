@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - October 14, 2025"
 date: 2025-10-13 12:00:00 -0000
 categories: [Weekly Update, Game Compatibility]
-tags: [junk-store, steam-deck, game-testing, epic-games, gog]
+tags: [junk-store, steam-deck, game-testing, epic-games, amazon-games]
 slug: "games-tested-oct-14"
 excerpt: "Weekly testing update featuring 5 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/251013-hero.jpg
@@ -40,7 +40,7 @@ Unfortunately, our internet has been playing up this week, which meant I could o
 This week featuring Albion Online, Gravity Circuit.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/23916a09d9ff536597976ba22e7851024b50c2ec5f38fb1fe10ab386b91c8087.jpg?namespace=gamesdb" alt="Albion Online" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/23916a09d9ff536597976ba22e7851024b50c2ec5f38fb1fe10ab386b91c8087.jpg?namespace=gamesdb" alt="Albion Online" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Albion+Online">Albion Online</a></strong>
     <div class="game-description">Albion Online is a sandbox MMORPG set in an open medieval fantasy world.</div>
@@ -52,7 +52,7 @@ This week featuring Albion Online, Gravity Circuit.
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/858710/capsule_231x87.jpg" alt="Gravity Circuit" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/858710/capsule_231x87.jpg" alt="Gravity Circuit" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Gravity+Circuit">Gravity Circuit</a></strong>
     <div class="game-description">Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics.</div>
@@ -68,7 +68,7 @@ This week featuring Albion Online, Gravity Circuit.
 This week featuring Vampire: The Masquerade - Reckoning of New York.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/2658720/capsule_231x87.jpg" alt="Vampire: The Masquerade - Reckoning of New York" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/2658720/capsule_231x87.jpg" alt="Vampire: The Masquerade - Reckoning of New York" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Vampire%3A+The+Masquerade+-+Reckoning+of+New+York">Vampire: The Masquerade - Reckoning of New York</a></strong> <span style="color: #999;">(Amazon Prime Gaming Key - Epic)</span>
     <div class="game-description">Vampire: The Masquerade - Reckoning of New York is a narrative game set in the World of Darkness Universe.</div>
@@ -84,7 +84,7 @@ This week featuring Vampire: The Masquerade - Reckoning of New York.
 Catching up on Youtubers Life 2 and Faaast Penguin.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1493760/capsule_231x87.jpg" alt="Youtubers Life 2" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1493760/capsule_231x87.jpg" alt="Youtubers Life 2" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Youtubers+Life+2">Youtubers Life 2</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">Become the trendiest youtuber in the world and live your dream.</div>
@@ -96,7 +96,7 @@ Catching up on Youtubers Life 2 and Faaast Penguin.
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/2590150/capsule_231x87.jpg" alt="Faaast Penguin" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/2590150/capsule_231x87.jpg" alt="Faaast Penguin" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Faaast+Penguin">Faaast Penguin</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">&quot;Faaast Penguin&quot; is a wild and thrilling knockout action racing game where up to 40 penguins collide in a chaotic race to the finish!</div>
