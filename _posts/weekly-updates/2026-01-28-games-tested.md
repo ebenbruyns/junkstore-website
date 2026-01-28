@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Junk Store Tested - January 28, 2026"
-date: 2026-01-28 09:50:00 +1300
+title: "Junk Store Tested - January 29, 2026"
+date: 2026-01-28 10:50:00 +1300
 categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck, game-testing, epic-games, gog]
 slug: "games-tested-jan-29"
