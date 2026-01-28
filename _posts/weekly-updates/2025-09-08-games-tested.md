@@ -32,7 +32,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 ### Epic Giveaways
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1927720/capsule_231x87.jpg" alt="Monument Valley+" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1927720/capsule_231x87.jpg" alt="Monument Valley+" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Monument+Valley%2B">Monument Valley+</a></strong>
     <div class="compatibility-info">
@@ -45,7 +45,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 ### Amazon Prime Giveaways
 
 <div class="game-entry">
-  <img src="https://images.gog.com/75aa24717e3ef05396f2fe74e2149fd7fb5dbe18b11ea0f670e8cc5e7d031a51.jpg?namespace=gamesdb" alt="Ravenloft: Stone Prophet" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/75aa24717e3ef05396f2fe74e2149fd7fb5dbe18b11ea0f670e8cc5e7d031a51.jpg?namespace=gamesdb" alt="Ravenloft: Stone Prophet" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Ravenloft%3A+Stone+Prophet">Ravenloft: Stone Prophet</a></strong>
     <div class="compatibility-info">
@@ -56,7 +56,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/0c17ff167722260e5c42a1f268ac0ea0c3e0c41210ede55edd8123475278ed8a.jpg?namespace=gamesdb" alt="Ravenloft: Strahd's Possession" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/0c17ff167722260e5c42a1f268ac0ea0c3e0c41210ede55edd8123475278ed8a.jpg?namespace=gamesdb" alt="Ravenloft: Strahd's Possession" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Ravenloft%3A+Strahd%27s+Possession">Ravenloft: Strahd's Possession</a></strong>
     <div class="compatibility-info">
@@ -67,7 +67,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/f1fd32be26fb7a06039c97e6e45a5d2f41bfeea58147e3ecec4a15e0e19beaa3.jpg?namespace=gamesdb" alt="Sid Meier's Civilization IV: Complete Edition" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/f1fd32be26fb7a06039c97e6e45a5d2f41bfeea58147e3ecec4a15e0e19beaa3.jpg?namespace=gamesdb" alt="Sid Meier's Civilization IV: Complete Edition" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Sid+Meier%27s+Civilization+IV%3A+Complete+Edition">Sid Meier's Civilization IV: Complete Edition</a></strong>
     <div class="compatibility-info">
@@ -78,7 +78,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/7c7579d6f9bf02de0810b2de594d9c1906620b046c6a98d1992e993ce690a3b6.jpg?namespace=gamesdb" alt="Into the Breach" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/7c7579d6f9bf02de0810b2de594d9c1906620b046c6a98d1992e993ce690a3b6.jpg?namespace=gamesdb" alt="Into the Breach" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Into+the+Breach">Into the Breach</a></strong>
     <div class="compatibility-info">
@@ -91,7 +91,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 ### Backlog Tested
 
 <div class="game-entry">
-  <img src="https://images.gog.com/5e0c70e05ebb59abbccdcc25c4f66d52fb9f861ea7518f13a3c27ff8e37b6ecb.jpg?namespace=gamesdb" alt="LEGO Builder's Journey" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/5e0c70e05ebb59abbccdcc25c4f66d52fb9f861ea7518f13a3c27ff8e37b6ecb.jpg?namespace=gamesdb" alt="LEGO Builder's Journey" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=LEGO+Builder%27s+Journey">LEGO Builder's Journey</a></strong>
     <div class="compatibility-info">
@@ -102,7 +102,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/0c0b926fc0781754010bfb71ab0aff7937ea0daaff756f4cf571e1a5fdb91596.jpg?namespace=gamesdb" alt="GMDX" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/0c0b926fc0781754010bfb71ab0aff7937ea0daaff756f4cf571e1a5fdb91596.jpg?namespace=gamesdb" alt="GMDX" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=GMDX">GMDX (Gog Mod)</a></strong>
     <div class="compatibility-info">
@@ -115,7 +115,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
 ### Community Tested
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1455840/capsule_231x87.jpg" alt="Dorfromantik" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1455840/capsule_231x87.jpg" alt="Dorfromantik" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Dorfromantik">Dorfromantik</a></strong>
     <div class="compatibility-info">

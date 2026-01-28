@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - December 30, 2025"
 date: 2025-12-29 12:00:00 -0000
 categories: [Weekly Update, Game Compatibility]
-tags: [junk-store, steam-deck, game-testing, epic-games, gog]
+tags: [junk-store, steam-deck, game-testing, epic-games, gog, itch-io]
 slug: "games-tested-dec-30"
 excerpt: "Weekly testing update featuring 20 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/251229-hero.jpg
@@ -49,7 +49,7 @@ A few quick updates before we dive into the games:
 This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, Disco Elysium - The Final Cut, Bloodstained: Ritual of the Night, We Were Here Together, Cassette Beasts, SKALD: Against the Black Priory.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/71561336ac8481eb8bf9f057f99f8df0acc10fcef3b6e098bf2e897fc45a3f4d.jpg?namespace=gamesdb" alt="The Callisto Protocol" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/71561336ac8481eb8bf9f057f99f8df0acc10fcef3b6e098bf2e897fc45a3f4d.jpg?namespace=gamesdb" alt="The Callisto Protocol" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=The%20Callisto%20Protocol">The Callisto Protocol</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">In this narrative-driven, third-person survival horror game set 300 years in the future, the player will take on the rol...</div>
@@ -61,7 +61,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1796580/library_600x900.jpg" alt="Sorry We're Closed" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1796580/library_600x900.jpg" alt="Sorry We're Closed" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Sorry%20We're%20Closed">Sorry We're Closed</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Sorry We're Closed is an eccentric story-driven survival horror game about demons, angels and what happens when both sid...</div>
@@ -73,7 +73,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1160220/library_600x900.jpg" alt="Paradise Killer" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1160220/library_600x900.jpg" alt="Paradise Killer" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Paradise%20Killer">Paradise Killer</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Paradise Island, a world outside reality.  There’s been a murder that only &quot;investigation freak&quot; Lady Love Die...</div>
@@ -85,7 +85,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/632470/library_600x900.jpg" alt="Disco Elysium - The Final Cut" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/632470/library_600x900.jpg" alt="Disco Elysium - The Final Cut" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Disco%20Elysium%20-%20The%20Final%20Cut">Disco Elysium - The Final Cut</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Disco Elysium - The Final Cut is a groundbreaking role playing game.</div>
@@ -97,7 +97,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/692850/library_600x900.jpg" alt="Bloodstained: Ritual of the Night" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/692850/library_600x900.jpg" alt="Bloodstained: Ritual of the Night" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Bloodstained%3A%20Ritual%20of%20the%20Night">Bloodstained: Ritual of the Night</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Bloodstained: Ritual of the Night is an exploration-focused, side-scroller action RPG by Koji Igarashi.</div>
@@ -109,7 +109,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/865360/library_600x900.jpg" alt="We Were Here Together" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/865360/library_600x900.jpg" alt="We Were Here Together" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=We%20Were%20Here%20Together">We Were Here Together</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">As we explore these frozen wastes, misfortune strikes once again.</div>
@@ -121,7 +121,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1321440/library_600x900.jpg" alt="Cassette Beasts" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1321440/library_600x900.jpg" alt="Cassette Beasts" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Cassette%20Beasts">Cassette Beasts</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Collect awesome monsters to use during turn-based battles in this open-world RPG, now with online multiplayer mode.</div>
@@ -133,7 +133,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1069160/library_600x900.jpg" alt="SKALD: Against the Black Priory" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1069160/library_600x900.jpg" alt="SKALD: Against the Black Priory" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=SKALD%3A%20Against%20the%20Black%20Priory">SKALD: Against the Black Priory</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">SKALD:Against the Black Priory is a retro-style party-based RPG set in a grim-dark fantasy world of tragic heroes, viole...</div>
@@ -149,7 +149,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
 This week featuring Fallout 2: A Post Nuclear Role Playing Game, Fallout: A Post Nuclear Role Playing Game.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/38410/library_600x900.jpg" alt="Fallout 2: A Post Nuclear Role Playing Game" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/38410/library_600x900.jpg" alt="Fallout 2: A Post Nuclear Role Playing Game" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Fallout%202%3A%20A%20Post%20Nuclear%20Role%20Playing%20Game">Fallout 2: A Post Nuclear Role Playing Game</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Fallout® 2 is the sequel to the critically acclaimed game that took RPG'ing out of the dungeons and into a dynamic, apoc...</div>
@@ -161,7 +161,7 @@ This week featuring Fallout 2: A Post Nuclear Role Playing Game, Fallout: A Post
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/38400/library_600x900.jpg" alt="Fallout: A Post Nuclear Role Playing Game" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/38400/library_600x900.jpg" alt="Fallout: A Post Nuclear Role Playing Game" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Fallout%3A%20A%20Post%20Nuclear%20Role%20Playing%20Game">Fallout: A Post Nuclear Role Playing Game</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">You've just unearthed the classic post-apocalyptic role-playing game that revitalized the entire CRPG genre.</div>
@@ -177,7 +177,7 @@ This week featuring Fallout 2: A Post Nuclear Role Playing Game, Fallout: A Post
 Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sqool, Asterism, Asteroids... But Roguelite, Sector 781.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/511cf474562bdaf2c8b9eec1a0c94e1eb5cf4e3900a618516adff2ebd89118e0.jpg?namespace=gamesdb" alt="Akalabeth: World of Doom" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/511cf474562bdaf2c8b9eec1a0c94e1eb5cf4e3900a618516adff2ebd89118e0.jpg?namespace=gamesdb" alt="Akalabeth: World of Doom" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Akalabeth%3A%20World%20of%20Doom">Akalabeth: World of Doom</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">In the game, the player character visits Lord British and is instructed by him to kill certain monsters.</div>
@@ -189,7 +189,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/910630/library_600x900.jpg" alt="Arcade Spirits" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/910630/library_600x900.jpg" alt="Arcade Spirits" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Arcade%20Spirits">Arcade Spirits</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">"Set in 20XX, Arcade Spirits follows an alternative timeline where the 1983 video game crash never occurred - after a tu...</div>
@@ -201,7 +201,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/d795687da7338bfe02a40243f5bc87fefb4452a38662f4dc9a122771ba23800f.jpg?namespace=gamesdb" alt="Arlo the Rabbit" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/d795687da7338bfe02a40243f5bc87fefb4452a38662f4dc9a122771ba23800f.jpg?namespace=gamesdb" alt="Arlo the Rabbit" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Arlo%20the%20Rabbit">Arlo the Rabbit</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">Welcome to Arlo's first adventure, in an old-school platformer fashion.</div>
@@ -213,7 +213,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/8086cdad0fbec2db9fa5c78ed18ec43b70a0b5fc0782955be2106f1499777af9.jpg?namespace=gamesdb" alt="Art Sqool" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/8086cdad0fbec2db9fa5c78ed18ec43b70a0b5fc0782955be2106f1499777af9.jpg?namespace=gamesdb" alt="Art Sqool" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Art%20Sqool">Art Sqool</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">🖼make art🖼 ✨achieve creative fulfillment✨ 🖌that's ART SQOOL babie.</div>
@@ -225,7 +225,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/dea4758faf3eea2dec348068fb2925c665d5a49a14a7b6684ddfb43611f645fc.jpg?namespace=gamesdb" alt="Asterism" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/dea4758faf3eea2dec348068fb2925c665d5a49a14a7b6684ddfb43611f645fc.jpg?namespace=gamesdb" alt="Asterism" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Asterism">Asterism</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">Kotachi Asterio wants to help people that can’t fight for themselves.</div>
@@ -237,7 +237,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/013fa69ce0d71c5793b32787ff9995deb13e4a0c078f4b1c4b8e835d85de9a89.jpg?namespace=gamesdb" alt="Asteroids... But Roguelite" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/013fa69ce0d71c5793b32787ff9995deb13e4a0c078f4b1c4b8e835d85de9a89.jpg?namespace=gamesdb" alt="Asteroids... But Roguelite" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Asteroids...%20But%20Roguelite">Asteroids... But Roguelite</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">Start off as a weak ship with a simple attack and fight through waves of enemies, earning currency in order to purchase ...</div>
@@ -249,7 +249,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
 </div>
 
 <div class="game-entry">
-  <img src="https://cdn2.steamgriddb.com/thumb/5b843ce3b917354244838d29dd8e2395.jpg" alt="Sector 781" class="game-thumbnail">
+  <img loading="lazy" src="https://cdn2.steamgriddb.com/thumb/5b843ce3b917354244838d29dd8e2395.jpg" alt="Sector 781" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Sector%20781">Sector 781</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">Battle your way through 3 realms of 'Sector 781', a pixel art platformer.</div>
@@ -265,7 +265,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
 Updated compatibility for A Plague Tale: Innocence, Midnight Fight Express, Shadows: Awakening.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/d011a348d40d61f090cb1aae27f2113e0cd242dec6dec92d648f0221da95c9c8.jpg?namespace=gamesdb" alt="A Plague Tale: Innocence" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/d011a348d40d61f090cb1aae27f2113e0cd242dec6dec92d648f0221da95c9c8.jpg?namespace=gamesdb" alt="A Plague Tale: Innocence" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=A%20Plague%20Tale%3A%20Innocence">A Plague Tale: Innocence</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">A Plague Tale: Innocence, on PlayStation 4, Xbox One and PC, tells the grim story of two siblings fighting together for ...</div>
@@ -277,7 +277,7 @@ Updated compatibility for A Plague Tale: Innocence, Midnight Fight Express, Shad
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/75f7c3cbe2cb2a18619d866e6618848d7ab0cc0c8d7e01deb878d1a7f82c3b65.jpg?namespace=gamesdb" alt="Midnight Fight Express" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/75f7c3cbe2cb2a18619d866e6618848d7ab0cc0c8d7e01deb878d1a7f82c3b65.jpg?namespace=gamesdb" alt="Midnight Fight Express" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Midnight%20Fight%20Express">Midnight Fight Express</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Fight your way across the city in a brutal romp that mixes old school brawlers and fast-paced motion-captured combat.</div>
@@ -289,7 +289,7 @@ Updated compatibility for A Plague Tale: Innocence, Midnight Fight Express, Shad
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/585450/library_600x900.jpg" alt="Shadows: Awakening" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/585450/library_600x900.jpg" alt="Shadows: Awakening" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Shadows%3A%20Awakening">Shadows: Awakening</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Shadows: Awakening is a unique, isometric single-player RPG with real-time tactical combat.</div>

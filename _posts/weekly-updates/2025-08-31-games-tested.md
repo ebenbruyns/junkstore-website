@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - August 31, 2025"
 date: 2025-08-31
 categories: [Weekly Update, Game Compatibility]
-tags: [junk-store, steam-deck, game-testing, epic-games, gog]
+tags: [junk-store, steam-deck, game-testing, epic-games, gog, amazon-games]
 slug: "games-tested-aug-31"
 excerpt: "Back on the boat after 3 months away! Showcasing our 11 featured games that work brilliantly on Steam Deck - from Epic's indie gems to GOG classics and Amazon surprises."
 image: /assets/images/blog/aug31-hero.jpg
@@ -27,7 +27,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 ### Epic Games
 
 <div class="game-entry">
-  <img src="https://images.gog.com/c6bca2ad6e957c82422932faaf98f9f273976fc1b9acc30c33a347d85099b3e1.jpg?namespace=gamesdb" alt="Machinarium" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/c6bca2ad6e957c82422932faaf98f9f273976fc1b9acc30c33a347d85099b3e1.jpg?namespace=gamesdb" alt="Machinarium" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Machinarium">Machinarium</a></strong>
     <div class="compatibility-info">
@@ -38,7 +38,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/1e68c542d43427da6716a2cfc530a97024c9582ce11853f5fd67c617f028f140.jpg?namespace=gamesdb" alt="Make Way" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/1e68c542d43427da6716a2cfc530a97024c9582ce11853f5fd67c617f028f140.jpg?namespace=gamesdb" alt="Make Way" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Make+Way">Make Way</a></strong>
     <div class="compatibility-info">
@@ -51,7 +51,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 ### Prime Gaming Giveaways
 
 <div class="game-entry">
-  <img src="https://images.gog.com/3231386d62f8187b649c5e42517b5d6bf6b789f0ca1e235d706a9b675ac274a3.jpg?namespace=gamesdb" alt="Fantasy Empires" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/3231386d62f8187b649c5e42517b5d6bf6b789f0ca1e235d706a9b675ac274a3.jpg?namespace=gamesdb" alt="Fantasy Empires" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Fantasy+Empires">Fantasy Empires</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
@@ -62,7 +62,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/2e6ddbe2207a03033ac1e054e85ea47df071471275198f2ae08de1ccc2a21594.jpg?namespace=gamesdb" alt="Heroes of Loot" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/2e6ddbe2207a03033ac1e054e85ea47df071471275198f2ae08de1ccc2a21594.jpg?namespace=gamesdb" alt="Heroes of Loot" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Heroes+of+Loot+2">Heroes of Loot 2</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
@@ -76,7 +76,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 ### Amazon Games
 
 <div class="game-entry">
-  <img src="https://images.gog.com/532c5d953dce14ea2623833bf97ecdda3e63599cb3103694753c3f3abb85e65b.jpg?namespace=gamesdb" alt="Dungeon of the Endless: Definitive Edition" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/532c5d953dce14ea2623833bf97ecdda3e63599cb3103694753c3f3abb85e65b.jpg?namespace=gamesdb" alt="Dungeon of the Endless: Definitive Edition" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Dungeon+of+the+Endless%3A+Definitive+Edition">Dungeon of the Endless: Definitive Edition</a></strong>
     <div class="compatibility-info">
@@ -87,7 +87,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/301995a20037fce69a676849409b579d54105ecda91a64e65942bbc27384e7af.jpg?namespace=gamesdb" alt="Labyrinth City: Pierre the Maze Detective" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/301995a20037fce69a676849409b579d54105ecda91a64e65942bbc27384e7af.jpg?namespace=gamesdb" alt="Labyrinth City: Pierre the Maze Detective" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Labyrinth+City%3A+Pierre+the+Maze+Detective">Labyrinth City: Pierre the Maze Detective</a></strong>
     <div class="compatibility-info">
@@ -100,7 +100,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 ### Epic Games
 
 <div class="game-entry">
-  <img src="https://images.gog.com/9ef214fd189fdcd12ec9707ec516e21b896c3e039e0c6399091da8c4246c9506.jpg?namespace=gamesdb" alt="Strange Horticulture" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/9ef214fd189fdcd12ec9707ec516e21b896c3e039e0c6399091da8c4246c9506.jpg?namespace=gamesdb" alt="Strange Horticulture" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Strange+Horticulture">Strange Horticulture</a></strong>
     <div class="compatibility-info">
@@ -111,7 +111,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/19a50bf51b1bbd5dc88499ecc8c54b894dcbf51f1a8adb9f0ad889f97a47c788.jpg?namespace=gamesdb" alt="Kamaeru" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/19a50bf51b1bbd5dc88499ecc8c54b894dcbf51f1a8adb9f0ad889f97a47c788.jpg?namespace=gamesdb" alt="Kamaeru" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Kamaeru">Kamaeru</a></strong>
     <div class="compatibility-info">
@@ -124,7 +124,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 ### GOG
 
 <div class="game-entry">
-  <img src="https://images.gog.com/d074ec00ebbc412abc9f6dc1666ccfc22a864f9cbe64ca20803a6a08469b9377.jpg?namespace=gamesdb" alt="Shadow Sorcerer" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/d074ec00ebbc412abc9f6dc1666ccfc22a864f9cbe64ca20803a6a08469b9377.jpg?namespace=gamesdb" alt="Shadow Sorcerer" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Shadow+Sorcerer">Shadow Sorcerer</a></strong>
     <div class="compatibility-info">
@@ -135,7 +135,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/bd17b3a723a89c74dfeebaebad6d8b3ff969cfacb772ebb19646d8e5f8cfabb3.jpg?namespace=gamesdb" alt="War of the Lance" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/bd17b3a723a89c74dfeebaebad6d8b3ff969cfacb772ebb19646d8e5f8cfabb3.jpg?namespace=gamesdb" alt="War of the Lance" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=War+of+the+Lance">War of the Lance</a></strong>
     <div class="compatibility-info">
@@ -146,7 +146,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/9117dee5ff36ea6876f33cf2594e0a40a01a8689fa12605777c723fe50f938f5.jpg?namespace=gamesdb" alt="Advanced Dungeons & Dragons: Heroes of the Lance" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/9117dee5ff36ea6876f33cf2594e0a40a01a8689fa12605777c723fe50f938f5.jpg?namespace=gamesdb" alt="Advanced Dungeons & Dragons: Heroes of the Lance" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Advanced+Dungeons+%26+Dragons%3A+Heroes+of+the+Lance">Advanced Dungeons & Dragons: Heroes of the Lance</a></strong>
     <div class="compatibility-info">

@@ -3,7 +3,7 @@ layout: post
 title: "Junk Store Tested - September 13, 2025"
 date: 2025-09-13 12:00:00 +1300
 categories: [Weekly Update, Game Compatibility]
-tags: [junk-store, steam-deck, game-testing, epic-games, gog]
+tags: [junk-store, steam-deck, game-testing, epic-games, gog, amazon-games]
 slug: "games-tested-sep-13"
 excerpt: "Weekly testing update featuring 14 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/250913-hero.jpg
@@ -34,7 +34,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 ### Epic Giveaways
 
 <div class="game-entry">
-  <img src="https://images.gog.com/916054a7da196bb23e1c50bd29511ada7c87ea1db08de1d26339b829f25dc66b.jpg?namespace=gamesdb" alt="Ghostrunner II" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/916054a7da196bb23e1c50bd29511ada7c87ea1db08de1d26339b829f25dc66b.jpg?namespace=gamesdb" alt="Ghostrunner II" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Ghostrunner+II">Ghostrunner II</a></strong>
     <div class="compatibility-info">
@@ -45,7 +45,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/874390/capsule_231x87.jpg" alt="The Battle of Polytopia" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/874390/capsule_231x87.jpg" alt="The Battle of Polytopia" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=The+Battle+of+Polytopia">The Battle of Polytopia</a></strong>
     <div class="compatibility-info">
@@ -56,7 +56,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1927740/capsule_231x87.jpg" alt="Monument Valley 2" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1927740/capsule_231x87.jpg" alt="Monument Valley 2" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Monument+Valley+2">Monument Valley 2</a></strong>
     <div class="compatibility-info">
@@ -69,7 +69,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 ### Amazon Prime Giveaways
 
 <div class="game-entry">
-  <img src="https://images.gog.com/a7a09b3ac646a6cb2ff952df4c6ff40d5ffe2e073db809b1bae25584736d94a9.jpg?namespace=gamesdb" alt="Tower of Time" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/a7a09b3ac646a6cb2ff952df4c6ff40d5ffe2e073db809b1bae25584736d94a9.jpg?namespace=gamesdb" alt="Tower of Time" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Tower+of+Time">Tower of Time</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
@@ -80,7 +80,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1701520/capsule_231x87.jpg" alt="Afterimage" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1701520/capsule_231x87.jpg" alt="Afterimage" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Afterimage">Afterimage</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="compatibility-info">
@@ -91,7 +91,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1573100/capsule_231x87.jpg" alt="Subterrain: Mines of Titan" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1573100/capsule_231x87.jpg" alt="Subterrain: Mines of Titan" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Subterrain%3A+Mines+of+Titan">Subterrain: Mines of Titan</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="compatibility-info">
@@ -104,7 +104,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 ### Backlog Tested
 
 <div class="game-entry">
-  <img src="https://images.gog.com/0cf063c8d36640df637982c3d7f9c9eb838e347cbc55b3fad50da352ea81d2bb.jpg?namespace=gamesdb" alt="Lords Mobile" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/0cf063c8d36640df637982c3d7f9c9eb838e347cbc55b3fad50da352ea81d2bb.jpg?namespace=gamesdb" alt="Lords Mobile" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Lords+Mobile">Lords Mobile</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
@@ -115,7 +115,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/f40ff0211e465aaf814aff67b3fd040b56281f866f4846b5ec6ddb1e9717770f.jpg?namespace=gamesdb" alt="Liberated" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/f40ff0211e465aaf814aff67b3fd040b56281f866f4846b5ec6ddb1e9717770f.jpg?namespace=gamesdb" alt="Liberated" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Liberated">Liberated</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
@@ -126,7 +126,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/32330/capsule_231x87.jpg" alt="LEGO Indiana Jones: The Original Adventures" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/32330/capsule_231x87.jpg" alt="LEGO Indiana Jones: The Original Adventures" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=LEGO+Indiana+Jones%3A+The+Original+Adventures">LEGO Indiana Jones: The Original Adventures</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="compatibility-info">
@@ -137,7 +137,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1110910/capsule_231x87.jpg" alt="Mortal Shell Tech Beta" class="game-thumbnail">
+  <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1110910/capsule_231x87.jpg" alt="Mortal Shell Tech Beta" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Mortal+Shell+Tech+Beta">Mortal Shell Tech Beta</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
@@ -150,7 +150,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 ### Retested Games
 
 <div class="game-entry">
-  <img src="https://images.gog.com/a835897e14e64edb71d9c48e8da22e047304b6266586569f7ffcb49696c9f51b.jpg?namespace=gamesdb" alt="Alba: A Wildlife Adventure" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/a835897e14e64edb71d9c48e8da22e047304b6266586569f7ffcb49696c9f51b.jpg?namespace=gamesdb" alt="Alba: A Wildlife Adventure" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Alba%3A+A+Wildlife+Adventure">Alba: A Wildlife Adventure</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
@@ -161,7 +161,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/b489b17adecb4e813fe37f8501373c52d233e259ce4ca1525f332b2917013abc.jpg?namespace=gamesdb" alt="Art of Rally" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/b489b17adecb4e813fe37f8501373c52d233e259ce4ca1525f332b2917013abc.jpg?namespace=gamesdb" alt="Art of Rally" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Art+of+Rally">Art of Rally</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
@@ -172,7 +172,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/faaa39ce7bcf3d3d6ec8df1cddfb88cc8f89c65804fdc41f9a9d1deca3a7243f.jpg?namespace=gamesdb" alt="Ascendant" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/faaa39ce7bcf3d3d6ec8df1cddfb88cc8f89c65804fdc41f9a9d1deca3a7243f.jpg?namespace=gamesdb" alt="Ascendant" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Ascendant">Ascendant</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
@@ -183,7 +183,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/39f4dfc1951e7beb36b71271b2b415fabd882a56645a01fe03eedadbc5e0c298.jpg?namespace=gamesdb" alt="Dishonored" class="game-thumbnail">
+  <img loading="lazy" src="https://images.gog.com/39f4dfc1951e7beb36b71271b2b415fabd882a56645a01fe03eedadbc5e0c298.jpg?namespace=gamesdb" alt="Dishonored" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/tested-games/?game=Dishonored">Dishonored</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
