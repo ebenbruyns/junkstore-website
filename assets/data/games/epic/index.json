@@ -446,7 +446,7 @@
     "zombie-army-4-dead-war.json"
   ],
   "featured_games": 2,
-  "last_updated": "2026-01-28T20:11:58.864Z",
+  "last_updated": "2026-01-28T22:13:31.942Z",
   "latest_games": [
     {
       "title": "Arknights: Endfield",
@@ -487,12 +487,6 @@
     {
       "title": "Bloons TD 6",
       "slug": "bloons-td-6",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "ARC Raiders",
-      "slug": "arc-raiders",
       "date_tested": "Jan '26",
       "is_featured": false
     },

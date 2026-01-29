@@ -32,7 +32,7 @@
     "green_standalone": 741,
     "both_green": 569
   },
-  "last_updated": "2026-01-28T20:11:58.872Z",
+  "last_updated": "2026-01-28T22:13:31.957Z",
   "games": [
     {
       "id": "aa1a2fc7-85e0-4dc6-a4bf-dd908fe161b8",
@@ -15819,7 +15819,7 @@
       "standalone_rating": "unknown",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "blog_category": "community",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/1808500",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/arc-raiders",

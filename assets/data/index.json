@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-28T20:11:58.883Z",
+  "last_updated": "2026-01-28T22:13:32.066Z",
   "total_tested_games": 932,
   "featured_games": 4,
   "storefronts": {
@@ -25,6 +25,14 @@
     }
   },
   "recent_updates": [
+    {
+      "title": "ARC Raiders",
+      "storefront": "Epic",
+      "slug": "arc-raiders",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-28T22:09:01.321Z"
+    },
     {
       "title": "Cyberpunk 2077",
       "storefront": "GOG",
@@ -152,14 +160,6 @@
       "date_tested": "Jan '26",
       "is_featured": false,
       "updated_at": "2026-01-18T04:18:10.712Z"
-    },
-    {
-      "title": "ARC Raiders",
-      "storefront": "Epic",
-      "slug": "arc-raiders",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-18T04:18:08.314Z"
     },
     {
       "title": "STAR WARS™ Battlefront II (Classic, 2005)",
