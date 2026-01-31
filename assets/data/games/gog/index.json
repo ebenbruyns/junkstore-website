@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 352,
+  "total_games": 357,
   "games": [
     "60-parsecs.json",
     "9-years-of-shadows.json",
@@ -103,12 +103,14 @@
     "dredge.json",
     "drive-rally.json",
     "duck-paradox.json",
+    "elderborn.json",
     "empire-of-the-ants.json",
     "empty-shell.json",
     "en-garde.json",
     "endless-sky.json",
     "eschalon-book-i.json",
     "eschalon-book-ii.json",
+    "fall-of-porcupine.json",
     "fallout-2-a-post-nuclear-role-playing-game.json",
     "fallout-3-game-of-the-year-edition.json",
     "fallout-4.json",
@@ -136,6 +138,7 @@
     "gmdx.json",
     "gods-trigger.json",
     "golf-with-your-friends.json",
+    "gravewood-high.json",
     "greak-memories-of-azur.json",
     "greedfall.json",
     "grim-dawn-definitive-edition.json",
@@ -211,7 +214,9 @@
     "mullet-madjack.json",
     "mutazione.json",
     "necroking.json",
+    "neurodeck-psychological-deckbuilder.json",
     "neverwinter-nights-diamond.json",
+    "neverwinter-nights-enhanced-edition.json",
     "noita.json",
     "oaken.json",
     "obduction.json",
@@ -357,30 +362,42 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2026-01-28T22:13:31.947Z",
+  "featured_games": 1,
+  "last_updated": "2026-01-30T23:16:46.095Z",
   "latest_games": [
     {
-      "title": "Cyberpunk 2077",
-      "slug": "cyberpunk-2077",
-      "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "Lords of Midnight",
-      "slug": "lords-of-midnight",
+      "title": "Fall of Porcupine",
+      "slug": "fall-of-porcupine",
       "date_tested": "Jan '26",
       "is_featured": false
     },
     {
-      "title": "Arcade Paradise",
-      "slug": "arcade-paradise",
+      "title": "Neurodeck : Psychological Deckbuilder",
+      "slug": "neurodeck-psychological-deckbuilder",
       "date_tested": "Jan '26",
       "is_featured": false
     },
     {
-      "title": "Harold Halibut",
-      "slug": "harold-halibut",
+      "title": "Gravewood High",
+      "slug": "gravewood-high",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Cat Quest II",
+      "slug": "cat-quest-ii",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Neverwinter Nights: Enhanced Edition",
+      "slug": "neverwinter-nights-enhanced-edition",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "ELDERBORN",
+      "slug": "elderborn",
       "date_tested": "Jan '26",
       "is_featured": true
     },
@@ -391,32 +408,20 @@
       "is_featured": false
     },
     {
-      "title": "Gunslugs : Rogue Tactics",
-      "slug": "gunslugs-rogue-tactics",
+      "title": "Harold Halibut",
+      "slug": "harold-halibut",
       "date_tested": "Jan '26",
       "is_featured": false
     },
     {
-      "title": "Fallout 4",
-      "slug": "fallout-4",
+      "title": "Cyberpunk 2077",
+      "slug": "cyberpunk-2077",
       "date_tested": "Jan '26",
       "is_featured": false
     },
     {
-      "title": "DeathKeep",
-      "slug": "deathkeep",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Brigador: Up-Armored Edition",
-      "slug": "brigador-up-armored-edition",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "STAR WARS™ Battlefront II (Classic, 2005)",
-      "slug": "star-wars-battlefront-ii-classic-2005",
+      "title": "Lords of Midnight",
+      "slug": "lords-of-midnight",
       "date_tested": "Jan '26",
       "is_featured": false
     }
