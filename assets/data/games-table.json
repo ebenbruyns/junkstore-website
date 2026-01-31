@@ -1,24 +1,24 @@
 {
-  "total_games": 932,
-  "featured_games": 4,
+  "total_games": 939,
+  "featured_games": 3,
   "storefronts": {
     "Epic": {
-      "total": 442,
-      "featured": 2,
-      "green_decky": 357,
-      "green_standalone": 339
+      "total": 443,
+      "featured": 1,
+      "green_decky": 359,
+      "green_standalone": 341
     },
     "GOG": {
-      "total": 352,
-      "featured": 2,
-      "green_decky": 315,
-      "green_standalone": 268
+      "total": 357,
+      "featured": 1,
+      "green_decky": 320,
+      "green_standalone": 273
     },
     "Amazon": {
-      "total": 69,
-      "featured": 0,
+      "total": 70,
+      "featured": 1,
       "green_decky": 0,
-      "green_standalone": 65
+      "green_standalone": 66
     },
     "itch.io": {
       "total": 69,
@@ -28,11 +28,11 @@
     }
   },
   "ratings_summary": {
-    "green_decky": 672,
-    "green_standalone": 741,
-    "both_green": 569
+    "green_decky": 679,
+    "green_standalone": 749,
+    "both_green": 576
   },
-  "last_updated": "2026-01-28T22:13:31.957Z",
+  "last_updated": "2026-01-30T23:16:46.100Z",
   "games": [
     {
       "id": "aa1a2fc7-85e0-4dc6-a4bf-dd908fe161b8",
@@ -417,7 +417,7 @@
       "standalone_rating": "green",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/993790",
       "gog_url": "",
       "epic_url": "https://store.epicgames.com/en-US/p/ancient-enemy",
@@ -449,9 +449,9 @@
       "slug": "arcade-paradise",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "July '24",
+      "date_tested": "Jan '26",
       "is_featured": false,
-      "blog_category": "",
+      "blog_category": "retest",
       "protondb": "https://www.protondb.com/app/1388870",
       "gog_url": "",
       "epic_url": "",
@@ -604,7 +604,7 @@
       "standalone_rating": "green",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/1388870",
       "gog_url": "https://www.gog.com/en/game/arcade_paradise",
       "epic_url": "",
@@ -5634,14 +5634,14 @@
       "slug": "cat-quest-ii",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "Aug '24",
+      "date_tested": "Jan '26",
       "is_featured": false,
-      "blog_category": "",
+      "blog_category": "retest",
       "protondb": "https://www.protondb.com/app/914710",
       "gog_url": "https://www.gog.com/en/game/cat_quest_ii",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Cat_Quest_II",
       "steamId": "914710"
     },
     {
@@ -10796,23 +10796,6 @@
       "steamId": ""
     },
     {
-      "id": "bebeabfa-8f08-41c1-82b2-c43d119533df",
-      "title": "Apex Legends",
-      "storefront": "Epic",
-      "slug": "apex-legends",
-      "decky_rating": "",
-      "standalone_rating": "",
-      "date_tested": "",
-      "is_featured": false,
-      "blog_category": "",
-      "protondb": "",
-      "gog_url": "",
-      "epic_url": "",
-      "itch_url": "",
-      "pc_gaming_wiki_url": "",
-      "steamId": ""
-    },
-    {
       "id": "2139d622-b673-4583-83f8-fc04dc88b758",
       "title": "Auto Chess",
       "storefront": "Epic",
@@ -11238,6 +11221,23 @@
       "steamId": "206420"
     },
     {
+      "id": "7d5cb561-f076-4cb4-b950-59cdb091feff",
+      "title": "Shadow Tactics: Aiko's Choice",
+      "storefront": "Epic",
+      "slug": "shadow-tactics-aikos-choice",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/1579380",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/shadow-tactics-aikos-choice-5678c1",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Shadow_Tactics:_Blades_of_the_Shogun_-_Aiko%27s_Choice",
+      "steamId": "1579380"
+    },
+    {
       "id": "6bd7acaa-21f2-40d8-b2ea-2277983e398e",
       "title": "Star Stable",
       "storefront": "Epic",
@@ -11653,7 +11653,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '26",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1091500",
       "gog_url": "https://www.gog.com/en/game/cyberpunk_2077_ultimate_edition",
@@ -11680,6 +11680,23 @@
       "steamId": "25620"
     },
     {
+      "id": "16bf1712-0757-4cea-b029-0ba88bc8cdb6",
+      "title": "Fall of Porcupine",
+      "storefront": "GOG",
+      "slug": "fall-of-porcupine",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/1710540",
+      "gog_url": "https://www.gog.com/en/game/fall_of_porcupine",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Fall_of_Porcupine",
+      "steamId": "1710540"
+    },
+    {
       "id": "a89ec3a5-014a-4b92-9256-4e425ab4555d",
       "title": "Fetish Locator Week One",
       "storefront": "GOG",
@@ -11695,6 +11712,23 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "1360980"
+    },
+    {
+      "id": "603fdf20-dcf2-44a4-abbb-90b9f666e76c",
+      "title": "Gravewood High",
+      "storefront": "GOG",
+      "slug": "gravewood-high",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/1239300",
+      "gog_url": "https://www.gog.com/en/game/gravewood_high_complete",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gravewood_High",
+      "steamId": "1239300"
     },
     {
       "id": "ac3f1576-638d-4a14-975d-37a10b0f1c9d",
@@ -11858,7 +11892,7 @@
       "standalone_rating": "green",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "blog_category": "backlog",
+      "blog_category": "",
       "protondb": "",
       "gog_url": "https://www.gog.com/en/game/the_lords_of_midnight",
       "epic_url": "",
@@ -11916,6 +11950,40 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Mafia_II",
       "steamId": "50130"
+    },
+    {
+      "id": "9f1bb827-2030-423e-98cc-2af088916143",
+      "title": "Neurodeck : Psychological Deckbuilder",
+      "storefront": "GOG",
+      "slug": "neurodeck-psychological-deckbuilder",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/1253860",
+      "gog_url": "https://www.gog.com/en/game/https://www.gog.com/en/game/neurodeck_psychological_deckbuilder",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Neurodeck",
+      "steamId": "1253860"
+    },
+    {
+      "id": "5ef60f70-ffce-4ca7-845c-b61a5898900c",
+      "title": "Neverwinter Nights: Enhanced Edition",
+      "storefront": "GOG",
+      "slug": "neverwinter-nights-enhanced-edition",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "blog_category": "backlog",
+      "protondb": "https://www.protondb.com/app/704450",
+      "gog_url": "https://www.gog.com/en/game/neverwinter_nights_enhanced_edition_pack",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Neverwinter_Nights:_Enhanced_Edition",
+      "steamId": "704450"
     },
     {
       "id": "96f95386-5316-42cf-844a-05dfccbf0818",
@@ -15835,7 +15903,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '26",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "",
       "gog_url": "",
@@ -15852,7 +15920,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '26",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/924750",
       "gog_url": "https://www.gog.com/en/game/harold_halibut",
@@ -15869,7 +15937,7 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "Jan '26",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/844260",
       "gog_url": "",
@@ -15877,6 +15945,57 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Rustler",
       "steamId": "844260"
+    },
+    {
+      "id": "3ce581e7-4867-41fd-bffd-e04e4720c849",
+      "title": "Definitely Not Fried Chicken",
+      "storefront": "Epic",
+      "slug": "definitely-not-fried-chicken",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/1036240",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/definitely-not-fried-chicken-a30160",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "",
+      "steamId": "1036240"
+    },
+    {
+      "id": "d53215b8-96cf-473c-862c-25a02af2083b",
+      "title": "Technotopia",
+      "storefront": "Amazon",
+      "slug": "technotopia",
+      "decky_rating": "not-supported",
+      "standalone_rating": "green",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/2825110",
+      "gog_url": "",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "",
+      "steamId": "2825110"
+    },
+    {
+      "id": "2d9e02a9-c522-431b-bc5b-3f2762753f6b",
+      "title": "ELDERBORN",
+      "storefront": "GOG",
+      "slug": "elderborn",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Jan '26",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/727850",
+      "gog_url": "https://www.gog.com/en/game/elderborn",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Elderborn",
+      "steamId": "727850"
     }
   ]
 }
