@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 442,
+  "total_games": 443,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -117,6 +117,7 @@
     "deaths-door.json",
     "deaths-gambit-afterlife.json",
     "deceive-inc.json",
+    "definitely-not-fried-chicken.json",
     "deliver-at-all-costs.json",
     "deliver-us-mars.json",
     "demons-tilt.json",
@@ -314,6 +315,7 @@
     "scourgebringer.json",
     "session-skate-sim.json",
     "shadow-of-the-tomb-raider-definitive-edition.json",
+    "shadow-tactics-aikos-choice.json",
     "shapez.json",
     "sid-meiers-civilization-vi.json",
     "sifu.json",
@@ -445,20 +447,44 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2026-01-28T22:13:31.942Z",
+  "featured_games": 1,
+  "last_updated": "2026-01-30T23:16:46.034Z",
   "latest_games": [
     {
-      "title": "Arknights: Endfield",
-      "slug": "arknights-endfield",
+      "title": "Definitely Not Fried Chicken",
+      "slug": "definitely-not-fried-chicken",
       "date_tested": "Jan '26",
       "is_featured": true
+    },
+    {
+      "title": "Animation Throwdown: The Quest for Cards",
+      "slug": "animation-throwdown-the-quest-for-cards",
+      "date_tested": "July '24",
+      "is_featured": false
+    },
+    {
+      "title": "Shadow Tactics: Aiko's Choice",
+      "slug": "shadow-tactics-aikos-choice",
+      "date_tested": "Jan '26",
+      "is_featured": false
+    },
+    {
+      "title": "Arcade Paradise",
+      "slug": "arcade-paradise",
+      "date_tested": "Jan '26",
+      "is_featured": false
     },
     {
       "title": "Rustler (Grand Theft Horse)",
       "slug": "rustler-grand-theft-horse",
       "date_tested": "Jan '26",
-      "is_featured": true
+      "is_featured": false
+    },
+    {
+      "title": "Arknights: Endfield",
+      "slug": "arknights-endfield",
+      "date_tested": "Jan '26",
+      "is_featured": false
     },
     {
       "title": "Ancient Enemy",
@@ -467,9 +493,9 @@
       "is_featured": false
     },
     {
-      "title": "Animation Throwdown: The Quest for Cards",
-      "slug": "animation-throwdown-the-quest-for-cards",
-      "date_tested": "July '24",
+      "title": "ARC Raiders",
+      "slug": "arc-raiders",
+      "date_tested": "Jan '26",
       "is_featured": false
     },
     {
@@ -481,24 +507,6 @@
     {
       "title": "Styx: Master of Shadows",
       "slug": "styx-master-of-shadows",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Bloons TD 6",
-      "slug": "bloons-td-6",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Alex Kidd in Miracle World DX",
-      "slug": "alex-kidd-in-miracle-world-dx",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Among the Sleep: Enhanced Edition",
-      "slug": "among-the-sleep-enhanced-edition",
       "date_tested": "Jan '26",
       "is_featured": false
     }

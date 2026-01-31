@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 69,
+  "total_games": 70,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -50,6 +50,7 @@
     "stunt-kite-party.json",
     "subterrain-mines-of-titan.json",
     "surf-world-series.json",
+    "technotopia.json",
     "the-abandoned-planet.json",
     "the-academy-the-first-riddle.json",
     "the-collage-atlas.json",
@@ -72,9 +73,15 @@
     "youtubers-life-2.json",
     "zombies-ate-my-neighbors-and-ghoul-patrol.json"
   ],
-  "featured_games": 0,
-  "last_updated": "2026-01-28T22:13:31.953Z",
+  "featured_games": 1,
+  "last_updated": "2026-01-30T23:16:46.097Z",
   "latest_games": [
+    {
+      "title": "Technotopia",
+      "slug": "technotopia",
+      "date_tested": "Jan '26",
+      "is_featured": true
+    },
     {
       "title": "The Invisible Hand",
       "slug": "the-invisible-hand",
@@ -126,12 +133,6 @@
     {
       "title": "Kraken Academy!!",
       "slug": "kraken-academy",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Masterplan Tycoon",
-      "slug": "masterplan-tycoon",
       "date_tested": "Dec '25",
       "is_featured": false
     }
