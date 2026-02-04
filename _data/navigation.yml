@@ -16,6 +16,8 @@ main:
     url: /about/
   - title: "Buy Now"
     url: /buy_now/
+  - title: "Portal"
+    url: https://portal.junkstore.xyz/
 
 # FAQ sidebar navigation
 faq-nav:
