@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tip of the Week: Filter to Show Only Installed Games"
-date: 2026-02-04 14:20:00 +1300
+date: 2026-02-04 14:59:00 +1300
 categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips]
 slug: "show-hide-installed-games"
@@ -24,32 +24,42 @@ You've got hundreds of Epic, GOG, itch.io or Amazon games in your library, but y
 <h2 style="text-align: left !important; margin-left: 0;">The Simple Solution</h2>
 
 ### Just Press X!
-1. Open your Epic, GOG, itch.io or Amazon library in Junk Store
+
+<ol style="padding-left: 1.2em; margin-left: 0; text-align: justify;">
+<li>Open your Epic, GOG, itch.io or Amazon library in Junk Store</li>
+</ol>
 
 ![All games showing in library](/assets/images/blog/PushX/itchliball.jpg)
 
-2. **Press the X button** on your Steam Deck
-3. Your library instantly filters to show **only installed games**
+<ol start="2" style="padding-left: 1.2em; margin-left: 0; text-align: justify;">
+<li><strong>Press the X button</strong> on your Steam Deck</li>
+<li>Your library instantly filters to show <strong>only installed games</strong></li>
+</ol>
 
 ![Only installed games showing](/assets/images/blog/PushX/itchlibinstalled.jpg)
 
-4. Press X again to toggle back to showing **all games** (installed + not installed)
-5. The filter remembers your preference per store
+<ol start="4" style="padding-left: 1.2em; margin-left: 0; text-align: justify;">
+<li>Press X again to toggle back to showing <strong>all games</strong> (installed + not installed)</li>
+<li>The filter remembers your preference per store</li>
+</ol>
 
-<h2 style="text-align: left !important; margin-left: 0;">How It Works</h2>
+<h2 style="text-align: left !important; margin-left: 0;">Pro Tips</h2>
 
-**Toggle Between Views**<br>
-Press X to switch between "installed only" and "show all games" modes. Press X again to toggle back.
+<div class="tip-callout">
+  <strong>🔄 Toggle Between Views:</strong> Press X to switch between "installed only" and "show all games" modes. Press X again to toggle back.
+</div>
 
-**Each Store Remembers Your Setting**<br>
-Epic, GOG, itch.io, and Amazon each remember their filter setting independently. Epic can show "installed only" while GOG shows "all games" at the same time.
+<div class="tip-callout">
+  <strong>💾 Each Store Remembers Your Setting:</strong> Epic, GOG, itch.io, and Amazon each remember their filter setting independently. Epic can show "installed only" while GOG shows "all games" at the same time.
+</div>
 
-**Combine with Search**<br>
-Filter to installed games first, then use search to quickly find specific titles within your installed collection.
+<div class="tip-callout">
+  <strong>🔍 Combine with Search:</strong> Filter to installed games first, then use search to quickly find specific titles within your installed collection.
+</div>
 
 Hope this tip helps you manage your game libraries more efficiently! If you have any questions or run into issues, don't hesitate to reach out through our community channels.
 
-Cheers,
+Cheers,<br>
 The Junk Store Team
 
 <div class="inline-blog-cta">
@@ -65,6 +75,15 @@ The Junk Store Team
 *Have questions about this tip? Join our community on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>!*
 
 <style>
+/* Callout boxes */
+.tip-callout {
+  background: rgba(76, 175, 80, 0.1);
+  border-left: 4px solid #4caf50;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
 .community-btn {
   display: inline-flex;
   align-items: center;
