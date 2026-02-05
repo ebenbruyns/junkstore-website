@@ -13,6 +13,10 @@ read_time: "1 min read"
 toc: true
 ---
 
+<div class="notice--warning">
+  <strong>⏰ This promotion has ended.</strong> Check our <a href="/blog/">latest posts</a> for current offers.
+</div>
+
 Merry Christmas from us. A small gift for anyone wanting to try Junk Store 2.0, especially if you missed Black Friday.
 
 **All new Junk Store 2.0 users get:**

@@ -12,6 +12,10 @@ header:
 read_time: "1 min read"
 ---
 
+<div class="notice--warning">
+  <strong>⏰ This promotion has ended.</strong> Check our <a href="/blog/">latest posts</a> for current offers.
+</div>
+
 Quick heads up: today is the **last day** to get the extended 21-day trial for Junk Store 2.0.
 
 Starting tomorrow, trials return to the standard 7 days.
