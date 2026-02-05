@@ -48,6 +48,10 @@ You've got hundreds of Epic, GOG, itch.io or Amazon games in your library, but y
 <h2 style="text-align: left !important; margin-left: 0;">Pro Tips</h2>
 
 <div class="tip-callout">
+  <strong>👀 Can't See the Prompt?</strong> CSS Loader themes or disabled footer settings can hide the bottom menu. Try disabling your theme temporarily, or just remember that X toggles the filter even without the visual indicator.
+</div>
+
+<div class="tip-callout">
   <strong>🔄 Toggle Between Views:</strong> Press X to switch between "installed only" and "show all games" modes. Press X again to toggle back.
 </div>
 
