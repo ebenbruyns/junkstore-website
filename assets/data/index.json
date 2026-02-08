@@ -1,20 +1,20 @@
 {
-  "last_updated": "2026-01-30T23:16:46.108Z",
-  "total_tested_games": 939,
-  "featured_games": 3,
+  "last_updated": "2026-02-06T22:26:13.174Z",
+  "total_tested_games": 946,
+  "featured_games": 5,
   "storefronts": {
     "Epic": {
-      "total": 443,
-      "featured": 1,
+      "total": 446,
+      "featured": 3,
       "directory": "epic"
     },
     "GOG": {
-      "total": 357,
+      "total": 360,
       "featured": 1,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 70,
+      "total": 71,
       "featured": 1,
       "directory": "amazon"
     },
@@ -26,44 +26,116 @@
   },
   "recent_updates": [
     {
-      "title": "Fall of Porcupine",
-      "storefront": "GOG",
-      "slug": "fall-of-porcupine",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-30T23:13:43.722Z"
-    },
-    {
-      "title": "Neurodeck : Psychological Deckbuilder",
-      "storefront": "GOG",
-      "slug": "neurodeck-psychological-deckbuilder",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-30T23:09:32.790Z"
-    },
-    {
-      "title": "Gravewood High",
-      "storefront": "GOG",
-      "slug": "gravewood-high",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-30T23:04:37.902Z"
-    },
-    {
-      "title": "Definitely Not Fried Chicken",
-      "storefront": "Epic",
-      "slug": "definitely-not-fried-chicken",
-      "date_tested": "Jan '26",
+      "title": "Dread Templar",
+      "storefront": "Amazon",
+      "slug": "dread-templar",
+      "date_tested": "Feb '26",
       "is_featured": true,
-      "updated_at": "2026-01-30T21:06:35.548Z"
+      "updated_at": "2026-02-06T21:01:12.165Z"
     },
     {
-      "title": "Cat Quest II",
-      "storefront": "GOG",
-      "slug": "cat-quest-ii",
-      "date_tested": "Jan '26",
+      "title": "The Machines Arena",
+      "storefront": "Epic",
+      "slug": "the-machines-arena",
+      "date_tested": "Feb '26",
       "is_featured": false,
-      "updated_at": "2026-01-30T04:50:36.992Z"
+      "updated_at": "2026-02-06T21:00:10.761Z"
+    },
+    {
+      "title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
+      "storefront": "Epic",
+      "slug": "tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-06T20:35:01.500Z"
+    },
+    {
+      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "storefront": "GOG",
+      "slug": "the-witcher-2-assassins-of-kings-enhanced-edition",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-06T20:25:46.703Z"
+    },
+    {
+      "title": "Botany Manor",
+      "storefront": "Epic",
+      "slug": "botany-manor",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-06T20:05:08.987Z"
+    },
+    {
+      "title": "NightReaper2",
+      "storefront": "Epic",
+      "slug": "nightreaper2",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-05T19:58:06.953Z"
+    },
+    {
+      "title": "Deus Ex: Mankind Divided",
+      "storefront": "GOG",
+      "slug": "deus-ex-mankind-divided",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-04T04:42:16.981Z"
+    },
+    {
+      "title": "STAR WARS™ Jedi Knight: Dark Forces II",
+      "storefront": "GOG",
+      "slug": "star-wars-jedi-knight-dark-forces-ii",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T02:46:54.651Z"
+    },
+    {
+      "title": "STAR WARS™ Galactic Battlegrounds Saga",
+      "storefront": "GOG",
+      "slug": "star-wars-galactic-battlegrounds-saga",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T02:41:12.738Z"
+    },
+    {
+      "title": "BioShock™ Remastered",
+      "storefront": "Epic",
+      "slug": "bioshock-remastered",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T02:32:01.761Z"
+    },
+    {
+      "title": "Bramble: The Mountain King",
+      "storefront": "Epic",
+      "slug": "bramble-the-mountain-king",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T01:50:58.193Z"
+    },
+    {
+      "title": "Chuchel",
+      "storefront": "Epic",
+      "slug": "chuchel",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T01:03:32.239Z"
+    },
+    {
+      "title": "Deep Sky Derelicts",
+      "storefront": "GOG",
+      "slug": "deep-sky-derelicts",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T00:56:48.647Z"
+    },
+    {
+      "title": "Deceive Inc.",
+      "storefront": "Epic",
+      "slug": "deceive-inc",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2026-02-01T07:47:37.085Z"
     },
     {
       "title": "Animation Throwdown: The Quest for Cards",
@@ -71,47 +143,7 @@
       "slug": "animation-throwdown-the-quest-for-cards",
       "date_tested": "July '24",
       "is_featured": false,
-      "updated_at": "2026-01-30T04:46:29.318Z"
-    },
-    {
-      "title": "Neverwinter Nights: Enhanced Edition",
-      "storefront": "GOG",
-      "slug": "neverwinter-nights-enhanced-edition",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-30T04:36:13.469Z"
-    },
-    {
-      "title": "Shadow Tactics: Aiko's Choice",
-      "storefront": "Epic",
-      "slug": "shadow-tactics-aikos-choice",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-30T02:47:33.449Z"
-    },
-    {
-      "title": "ELDERBORN",
-      "storefront": "GOG",
-      "slug": "elderborn",
-      "date_tested": "Jan '26",
-      "is_featured": true,
-      "updated_at": "2026-01-30T02:40:19.345Z"
-    },
-    {
-      "title": "Arcade Paradise",
-      "storefront": "Epic",
-      "slug": "arcade-paradise",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-30T02:20:35.462Z"
-    },
-    {
-      "title": "Technotopia",
-      "storefront": "Amazon",
-      "slug": "technotopia",
-      "date_tested": "Jan '26",
-      "is_featured": true,
-      "updated_at": "2026-01-30T01:23:34.083Z"
+      "updated_at": "2026-02-01T07:46:37.441Z"
     },
     {
       "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
@@ -119,71 +151,39 @@
       "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
       "date_tested": "July '24",
       "is_featured": false,
-      "updated_at": "2026-01-29T22:48:46.176Z"
+      "updated_at": "2026-01-31T22:37:14.235Z"
     },
     {
-      "title": "Rustler (Grand Theft Horse)",
-      "storefront": "Epic",
-      "slug": "rustler-grand-theft-horse",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-29T19:48:23.636Z"
-    },
-    {
-      "title": "Harold Halibut",
+      "title": "ELDERBORN",
       "storefront": "GOG",
-      "slug": "harold-halibut",
+      "slug": "elderborn",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2026-01-29T19:48:20.875Z"
+      "updated_at": "2026-01-31T22:31:00.520Z"
     },
     {
-      "title": "Cyberpunk 2077",
-      "storefront": "GOG",
-      "slug": "cyberpunk-2077",
+      "title": "Technotopia",
+      "storefront": "Amazon",
+      "slug": "technotopia",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2026-01-29T19:48:08.944Z"
+      "updated_at": "2026-01-31T22:30:58.579Z"
     },
     {
-      "title": "Arknights: Endfield",
+      "title": "Definitely Not Fried Chicken",
       "storefront": "Epic",
-      "slug": "arknights-endfield",
+      "slug": "definitely-not-fried-chicken",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2026-01-29T19:48:06.010Z"
+      "updated_at": "2026-01-31T22:30:57.312Z"
     },
     {
-      "title": "Lords of Midnight",
-      "storefront": "GOG",
-      "slug": "lords-of-midnight",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-29T04:00:27.417Z"
-    },
-    {
-      "title": "Arcade Paradise",
-      "storefront": "GOG",
-      "slug": "arcade-paradise",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-29T04:00:24.764Z"
-    },
-    {
-      "title": "Ancient Enemy",
+      "title": "Shadow Tactics: Aiko's Choice",
       "storefront": "Epic",
-      "slug": "ancient-enemy",
+      "slug": "shadow-tactics-aikos-choice",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2026-01-29T04:00:24.763Z"
-    },
-    {
-      "title": "ARC Raiders",
-      "storefront": "Epic",
-      "slug": "arc-raiders",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-01-28T22:35:54.213Z"
+      "updated_at": "2026-01-31T22:30:50.152Z"
     }
   ]
 }
