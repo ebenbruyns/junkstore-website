@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Junk Store Tested - February 07, 2026"
-date: 2026-02-06 12:00:00 +1300
+title: "Junk Store Tested - February 08, 2026"
+date: 2026-02-08 14:50:00 +1300
 categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck, epic-games, gog, amazon-games, itch-io]
-slug: "games-tested-feb-07"
+slug: "games-tested-feb-08"
 excerpt: "Weekly testing update featuring 13 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
 image: /assets/images/blog/260207-hero.jpg
 header:
