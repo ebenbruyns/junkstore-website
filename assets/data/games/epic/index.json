@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 443,
+  "total_games": 446,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -69,6 +69,7 @@
     "borderlands-3.json",
     "borderlands-the-pre-sequel.json",
     "botanicula.json",
+    "botany-manor.json",
     "boxes-lost-fragments.json",
     "bramble-the-mountain-king.json",
     "breathedge.json",
@@ -262,6 +263,7 @@
     "necromunda-hired-gun.json",
     "neko-ghost-jump.json",
     "new-tales-from-the-borderlands.json",
+    "nightreaper2.json",
     "no-straight-roads.json",
     "ogu-and-the-secret-forest.json",
     "orcs-must-die-3.json",
@@ -377,6 +379,7 @@
     "the-last-show-of-mr-chardish.json",
     "the-last-stand-aftermath.json",
     "the-lord-of-the-rings-return-to-moria.json",
+    "the-machines-arena.json",
     "the-operator.json",
     "the-outer-worlds-spacers-choice-edition.json",
     "the-silent-age.json",
@@ -447,14 +450,56 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2026-01-30T23:16:46.034Z",
+  "featured_games": 3,
+  "last_updated": "2026-02-06T22:26:13.150Z",
   "latest_games": [
     {
-      "title": "Definitely Not Fried Chicken",
-      "slug": "definitely-not-fried-chicken",
-      "date_tested": "Jan '26",
+      "title": "The Machines Arena",
+      "slug": "the-machines-arena",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
+      "slug": "tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure",
+      "date_tested": "Feb '26",
       "is_featured": true
+    },
+    {
+      "title": "Botany Manor",
+      "slug": "botany-manor",
+      "date_tested": "Feb '26",
+      "is_featured": true
+    },
+    {
+      "title": "NightReaper2",
+      "slug": "nightreaper2",
+      "date_tested": "Feb '26",
+      "is_featured": true
+    },
+    {
+      "title": "BioShock™ Remastered",
+      "slug": "bioshock-remastered",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Bramble: The Mountain King",
+      "slug": "bramble-the-mountain-king",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Chuchel",
+      "slug": "chuchel",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Deceive Inc.",
+      "slug": "deceive-inc",
+      "date_tested": "July '24",
+      "is_featured": false
     },
     {
       "title": "Animation Throwdown: The Quest for Cards",
@@ -463,50 +508,8 @@
       "is_featured": false
     },
     {
-      "title": "Shadow Tactics: Aiko's Choice",
-      "slug": "shadow-tactics-aikos-choice",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Arcade Paradise",
-      "slug": "arcade-paradise",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Rustler (Grand Theft Horse)",
-      "slug": "rustler-grand-theft-horse",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Arknights: Endfield",
-      "slug": "arknights-endfield",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Ancient Enemy",
-      "slug": "ancient-enemy",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "ARC Raiders",
-      "slug": "arc-raiders",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Styx: Shards of Darkness - Deluxe Edition",
-      "slug": "styx-shards-of-darkness-deluxe-edition",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Styx: Master of Shadows",
-      "slug": "styx-master-of-shadows",
+      "title": "Definitely Not Fried Chicken",
+      "slug": "definitely-not-fried-chicken",
       "date_tested": "Jan '26",
       "is_featured": false
     }

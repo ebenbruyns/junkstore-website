@@ -6,14 +6,14 @@
   "gog_url": "https://www.gog.com/en/game/deep_sky_derelicts",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
-  "date_tested": "Aug '24",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Deep_Sky_Derelicts",
+  "notes": "Works out of the box!",
+  "date_tested": "Feb '26",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -46,13 +46,20 @@
     "Single player"
   ],
   "languages": [
-    "English"
+    "English",
+    "Russian",
+    "French",
+    "German",
+    "Spanish - Spain",
+    "Polish",
+    "Simplified Chinese"
   ],
   "gog_cloud_saves": false,
   "gog_achievements": false,
+  "tested": true,
   "owned": true,
   "is_featured": false,
-  "blog_category": "",
+  "blog_category": "retest",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "updated_at": "2026-02-03T00:56:48.647Z"
 }
