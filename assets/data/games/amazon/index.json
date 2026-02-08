@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 70,
+  "total_games": 71,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -10,6 +10,7 @@
     "beholder-3.json",
     "clouds-sheep-2.json",
     "dexter-stardust-adventures-in-outer-space.json",
+    "dread-templar.json",
     "dreadout-2.json",
     "dungeon-of-the-endless-definitive-edition.json",
     "endless-legend-definitive-edition.json",
@@ -74,13 +75,19 @@
     "zombies-ate-my-neighbors-and-ghoul-patrol.json"
   ],
   "featured_games": 1,
-  "last_updated": "2026-01-30T23:16:46.097Z",
+  "last_updated": "2026-02-06T22:26:13.160Z",
   "latest_games": [
+    {
+      "title": "Dread Templar",
+      "slug": "dread-templar",
+      "date_tested": "Feb '26",
+      "is_featured": true
+    },
     {
       "title": "Technotopia",
       "slug": "technotopia",
       "date_tested": "Jan '26",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "The Invisible Hand",
@@ -127,12 +134,6 @@
     {
       "title": "Heaven Dust 2",
       "slug": "heaven-dust-2",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Kraken Academy!!",
-      "slug": "kraken-academy",
       "date_tested": "Dec '25",
       "is_featured": false
     }

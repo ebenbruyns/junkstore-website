@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 357,
+  "total_games": 360,
   "games": [
     "60-parsecs.json",
     "9-years-of-shadows.json",
@@ -276,7 +276,9 @@
     "star-wars-battlefront-ii-classic-2005.json",
     "star-wars-battlefront-ii.json",
     "star-wars-bounty-hunter.json",
+    "star-wars-galactic-battlegrounds-saga.json",
     "star-wars-jedi-knight-dark-forces-ii-mysteries-of-the-sith.json",
+    "star-wars-jedi-knight-dark-forces-ii.json",
     "star-wars-knights-of-the-old-republic-ii-the-sith-lords.json",
     "star-wars-knights-of-the-old-republic.json",
     "star-wars-rebellion.json",
@@ -314,6 +316,7 @@
     "the-town-of-light.json",
     "the-whispered-world-special-edition.json",
     "the-whisperer.json",
+    "the-witcher-2-assassins-of-kings-enhanced-edition.json",
     "the-witcher-3-wild-hunt-game-of-the-year-edition.json",
     "the-witcher-enhanced-edition.json",
     "thea-2-the-shattering.json",
@@ -363,17 +366,53 @@
     "ziggurat.json"
   ],
   "featured_games": 1,
-  "last_updated": "2026-01-30T23:16:46.095Z",
+  "last_updated": "2026-02-06T22:26:13.156Z",
   "latest_games": [
     {
-      "title": "Fall of Porcupine",
-      "slug": "fall-of-porcupine",
+      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "slug": "the-witcher-2-assassins-of-kings-enhanced-edition",
+      "date_tested": "Feb '26",
+      "is_featured": true
+    },
+    {
+      "title": "Deus Ex: Mankind Divided",
+      "slug": "deus-ex-mankind-divided",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "STAR WARS™ Jedi Knight: Dark Forces II",
+      "slug": "star-wars-jedi-knight-dark-forces-ii",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "STAR WARS™ Galactic Battlegrounds Saga",
+      "slug": "star-wars-galactic-battlegrounds-saga",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Deep Sky Derelicts",
+      "slug": "deep-sky-derelicts",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+      "date_tested": "July '24",
+      "is_featured": false
+    },
+    {
+      "title": "ELDERBORN",
+      "slug": "elderborn",
       "date_tested": "Jan '26",
       "is_featured": false
     },
     {
-      "title": "Neurodeck : Psychological Deckbuilder",
-      "slug": "neurodeck-psychological-deckbuilder",
+      "title": "Fall of Porcupine",
+      "slug": "fall-of-porcupine",
       "date_tested": "Jan '26",
       "is_featured": false
     },
@@ -384,44 +423,8 @@
       "is_featured": false
     },
     {
-      "title": "Cat Quest II",
-      "slug": "cat-quest-ii",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Neverwinter Nights: Enhanced Edition",
-      "slug": "neverwinter-nights-enhanced-edition",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "ELDERBORN",
-      "slug": "elderborn",
-      "date_tested": "Jan '26",
-      "is_featured": true
-    },
-    {
-      "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
-      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
-      "date_tested": "July '24",
-      "is_featured": false
-    },
-    {
-      "title": "Harold Halibut",
-      "slug": "harold-halibut",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Cyberpunk 2077",
-      "slug": "cyberpunk-2077",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Lords of Midnight",
-      "slug": "lords-of-midnight",
+      "title": "Neurodeck : Psychological Deckbuilder",
+      "slug": "neurodeck-psychological-deckbuilder",
       "date_tested": "Jan '26",
       "is_featured": false
     }
