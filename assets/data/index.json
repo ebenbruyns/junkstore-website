@@ -1,189 +1,189 @@
 {
-  "last_updated": "2025-12-01T05:22:04.712Z",
-  "total_tested_games": 828,
-  "featured_games": 2,
+  "last_updated": "2026-02-06T22:26:13.174Z",
+  "total_tested_games": 946,
+  "featured_games": 5,
   "storefronts": {
     "Epic": {
-      "total": 402,
-      "featured": 1,
+      "total": 446,
+      "featured": 3,
       "directory": "epic"
     },
     "GOG": {
-      "total": 334,
+      "total": 360,
       "featured": 1,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 50,
-      "featured": 0,
+      "total": 71,
+      "featured": 1,
       "directory": "amazon"
     },
     "itch.io": {
-      "total": 42,
+      "total": 69,
       "featured": 0,
       "directory": "itch.io"
     }
   },
   "recent_updates": [
     {
-      "title": "Elite: Dangerous",
-      "storefront": "Epic",
-      "slug": "elite-dangerous",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2025-12-01T05:19:31.236Z"
-    },
-    {
-      "title": "Broken Sword: Shadow of the Templars - The Director's Cut",
-      "storefront": "GOG",
-      "slug": "broken-sword-shadow-of-the-templars-the-directors-cut",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-12-01T00:01:33.305Z"
-    },
-    {
-      "title": "Redout 2",
-      "storefront": "Epic",
-      "slug": "redout-2",
-      "date_tested": "June '24",
-      "is_featured": false,
-      "updated_at": "2025-11-30T21:37:55.362Z"
-    },
-    {
-      "title": "Paladins",
-      "storefront": "Epic",
-      "slug": "paladins",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-11-30T21:13:13.552Z"
-    },
-    {
-      "title": "Minabo: A Walk Through Life",
+      "title": "Dread Templar",
       "storefront": "Amazon",
-      "slug": "minabo-a-walk-through-life",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-11-30T20:51:44.689Z"
+      "slug": "dread-templar",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-06T21:01:12.165Z"
     },
     {
-      "title": "Paleo Pines",
-      "storefront": "Amazon",
-      "slug": "paleo-pines",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-11-30T20:32:59.190Z"
-    },
-    {
-      "title": "Sky Rogue",
-      "storefront": "itch.io",
-      "slug": "sky-rogue",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-11-30T20:29:49.031Z"
-    },
-    {
-      "title": "Four Horsemen",
-      "storefront": "itch.io",
-      "slug": "four-horsemen",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-11-30T20:21:01.985Z"
-    },
-    {
-      "title": "Borderlands 3",
+      "title": "The Machines Arena",
       "storefront": "Epic",
-      "slug": "borderlands-3",
-      "date_tested": "June '24",
+      "slug": "the-machines-arena",
+      "date_tested": "Feb '26",
       "is_featured": false,
-      "updated_at": "2025-11-30T19:50:15.523Z"
+      "updated_at": "2026-02-06T21:00:10.761Z"
     },
     {
-      "title": "Higurashi no Naku Koro ni: Chapter 1 - Onikakushi",
-      "storefront": "GOG",
-      "slug": "higurashi-no-naku-koro-ni-chapter-1-onikakushi",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-11-30T19:50:06.424Z"
+      "title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
+      "storefront": "Epic",
+      "slug": "tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-06T20:35:01.500Z"
     },
     {
-      "title": "Call of Juarez: Bound In Blood",
+      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
       "storefront": "GOG",
-      "slug": "call-of-juarez-bound-in-blood",
+      "slug": "the-witcher-2-assassins-of-kings-enhanced-edition",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-06T20:25:46.703Z"
+    },
+    {
+      "title": "Botany Manor",
+      "storefront": "Epic",
+      "slug": "botany-manor",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-06T20:05:08.987Z"
+    },
+    {
+      "title": "NightReaper2",
+      "storefront": "Epic",
+      "slug": "nightreaper2",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-05T19:58:06.953Z"
+    },
+    {
+      "title": "Deus Ex: Mankind Divided",
+      "storefront": "GOG",
+      "slug": "deus-ex-mankind-divided",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-04T04:42:16.981Z"
+    },
+    {
+      "title": "STAR WARS™ Jedi Knight: Dark Forces II",
+      "storefront": "GOG",
+      "slug": "star-wars-jedi-knight-dark-forces-ii",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T02:46:54.651Z"
+    },
+    {
+      "title": "STAR WARS™ Galactic Battlegrounds Saga",
+      "storefront": "GOG",
+      "slug": "star-wars-galactic-battlegrounds-saga",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T02:41:12.738Z"
+    },
+    {
+      "title": "BioShock™ Remastered",
+      "storefront": "Epic",
+      "slug": "bioshock-remastered",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T02:32:01.761Z"
+    },
+    {
+      "title": "Bramble: The Mountain King",
+      "storefront": "Epic",
+      "slug": "bramble-the-mountain-king",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T01:50:58.193Z"
+    },
+    {
+      "title": "Chuchel",
+      "storefront": "Epic",
+      "slug": "chuchel",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T01:03:32.239Z"
+    },
+    {
+      "title": "Deep Sky Derelicts",
+      "storefront": "GOG",
+      "slug": "deep-sky-derelicts",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-03T00:56:48.647Z"
+    },
+    {
+      "title": "Deceive Inc.",
+      "storefront": "Epic",
+      "slug": "deceive-inc",
       "date_tested": "July '24",
       "is_featured": false,
-      "updated_at": "2025-11-30T19:49:44.858Z"
+      "updated_at": "2026-02-01T07:47:37.085Z"
     },
     {
-      "title": "Call of Juarez",
-      "storefront": "GOG",
-      "slug": "call-of-juarez",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-11-30T19:49:27.249Z"
-    },
-    {
-      "title": "Call of Juarez: Gunslinger",
-      "storefront": "GOG",
-      "slug": "call-of-juarez-gunslinger",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2025-11-30T19:45:28.582Z"
-    },
-    {
-      "title": "Universe For Sale",
+      "title": "Animation Throwdown: The Quest for Cards",
       "storefront": "Epic",
-      "slug": "universe-for-sale",
-      "date_tested": "Nov '25",
-      "is_featured": true,
-      "updated_at": "2025-11-30T18:41:15.010Z"
+      "slug": "animation-throwdown-the-quest-for-cards",
+      "date_tested": "July '24",
+      "is_featured": false,
+      "updated_at": "2026-02-01T07:46:37.441Z"
     },
     {
-      "title": "Gunslugs",
+      "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
       "storefront": "GOG",
-      "slug": "gunslugs",
-      "date_tested": "Nov '25",
-      "is_featured": true,
-      "updated_at": "2025-11-30T18:40:22.740Z"
-    },
-    {
-      "title": "Saints Row",
-      "storefront": "Epic",
-      "slug": "saints-row",
-      "date_tested": "Nov '25",
+      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+      "date_tested": "July '24",
       "is_featured": false,
-      "updated_at": "2025-11-27T23:06:38.832Z"
+      "updated_at": "2026-01-31T22:37:14.235Z"
     },
     {
-      "title": "The Lord of the Rings: Return to Moria",
-      "storefront": "Epic",
-      "slug": "the-lord-of-the-rings-return-to-moria",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2025-11-27T23:06:07.553Z"
-    },
-    {
-      "title": "Shadowrun Returns",
+      "title": "ELDERBORN",
       "storefront": "GOG",
-      "slug": "shadowrun-returns",
-      "date_tested": "Oct '25",
+      "slug": "elderborn",
+      "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2025-11-27T07:17:27.914Z"
+      "updated_at": "2026-01-31T22:31:00.520Z"
     },
     {
-      "title": "Roguelight",
-      "storefront": "itch.io",
-      "slug": "roguelight",
-      "date_tested": "Nov '25",
+      "title": "Technotopia",
+      "storefront": "Amazon",
+      "slug": "technotopia",
+      "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2025-11-27T07:12:27.638Z"
+      "updated_at": "2026-01-31T22:30:58.579Z"
     },
     {
-      "title": "Goat Simulator 3",
+      "title": "Definitely Not Fried Chicken",
       "storefront": "Epic",
-      "slug": "goat-simulator-3",
-      "date_tested": "Nov '25",
+      "slug": "definitely-not-fried-chicken",
+      "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2025-11-27T07:07:35.511Z"
+      "updated_at": "2026-01-31T22:30:57.312Z"
+    },
+    {
+      "title": "Shadow Tactics: Aiko's Choice",
+      "storefront": "Epic",
+      "slug": "shadow-tactics-aikos-choice",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-01-31T22:30:50.152Z"
     }
   ]
 }

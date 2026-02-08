@@ -181,7 +181,17 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
     GOG support is available to paid supporters, and while we'd love to offer it for free, there's a lot of behind-the-scenes work and resources involved in creating and maintaining Junk Store. We appreciate your understanding and support as we continue to improve and expand Junk Store. All funds go back into the enhancement and development of Junk Store.
 </details>
 
-
+<details class="faq-box" id="gog-extension-refunds">
+  <summary>Can I get a refund for the GOG extension?</summary>
+  <p></p>
+    <strong>All sales are final.</strong> Due to the DRM-free nature of the GOG extension, we are unable to offer refunds. This policy is clearly stated on the Junk Store Portal at the time of purchase.
+  <br>
+  <br>
+    Because the extension is delivered as a downloadable file without copy protection, we cannot verify whether it has been used or copied after purchase.
+  <br>
+  <br>
+    If you're experiencing technical issues with the extension, please visit our <a href="/troubleshooting/decky/">Troubleshooting page</a> or reach out on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a> and we'll do our best to help resolve them.
+</details>
 
 <details class="faq-box" id="gog-dos-scummvm-support">
   <summary>Does the GOG extension support DOS and ScummVM games?</summary>
@@ -791,13 +801,37 @@ document.addEventListener('DOMContentLoaded', function() {
         if (summaryText.includes(searchTerm) || contentText.includes(searchTerm)) {
           box.style.display = 'block';
           visibleCount++;
-          
-          // Simple highlighting - avoid HTML mangling by working with plain text only
+
+          // Highlight text in summary while preserving anchor buttons
           if (summary && summaryText.includes(searchTerm)) {
-            const originalText = summary.textContent;
-            const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
-            const regex = new RegExp(`(${escapedTerm})`, 'gi');
-            summary.innerHTML = originalText.replace(regex, '<span class="search-highlight">$1</span>');
+            // Function to highlight text in text nodes only
+            const highlightTextNodes = (node) => {
+              if (node.nodeType === Node.TEXT_NODE) {
+                const text = node.textContent;
+                if (text.toLowerCase().includes(searchTerm)) {
+                  const escapedTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                  const regex = new RegExp(`(${escapedTerm})`, 'gi');
+                  const highlightedHTML = text.replace(regex, '<span class="search-highlight">$1</span>');
+
+                  // Create temporary container to parse HTML
+                  const temp = document.createElement('span');
+                  temp.innerHTML = highlightedHTML;
+
+                  // Replace text node with highlighted content
+                  const parent = node.parentNode;
+                  while (temp.firstChild) {
+                    parent.insertBefore(temp.firstChild, node);
+                  }
+                  parent.removeChild(node);
+                }
+              } else if (node.nodeType === Node.ELEMENT_NODE && !node.classList.contains('faq-anchor')) {
+                // Recursively process child nodes, but skip anchor buttons
+                Array.from(node.childNodes).forEach(child => highlightTextNodes(child));
+              }
+            };
+
+            // Apply highlighting to text nodes
+            highlightTextNodes(summary);
           }
         } else {
           box.style.display = 'none';
