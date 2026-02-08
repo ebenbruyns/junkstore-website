@@ -3,7 +3,7 @@ layout: post
 title: "Diagnostics Framework - Early R&D Release"
 date: 2025-09-25
 categories: [Feature Release, Beta Features]
-tags: [junk-store, steam-deck]
+tags: [junk-store, steam-deck, features]
 slug: "diagnostics-framework-release"
 excerpt: "R&D release - our diagnostics framework for detecting issues and suggesting remedies on Steam Deck."
 image: /assets/images/blog/JunkStoreDiagnostics-1.webp
