@@ -64,7 +64,7 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
 </div>
 
 <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
-  <strong>Note:</strong> Games tested by the Junk Store team use <strong>GE-Proton 10.10</strong>, as it consistently provides the best out-of-the-box compatibility.<br>
+  <strong>Note:</strong> Games tested by the Junk Store team use <strong>GE-Proton 10.26</strong>, as it consistently provides the best out-of-the-box compatibility.<br>
   To use the <strong>EOS overlay</strong> with Epic Games, you'll need <strong>GE-Proton 10.2 or newer</strong>.<br>
   Games that require a specific Proton version will have it listed in the <strong>compatibility details</strong>.
 </p>
@@ -660,38 +660,72 @@ function checkForGameHash() {
     // Extract game entry ID from hash (e.g., #game-hades-epic)
     const gameEntryId = hash.substring(1); // Remove the #
 
-    // Find the game row with this ID
-    const gameRow = document.getElementById(gameEntryId);
-    if (!gameRow) {
-      console.warn(`⚠️ Game row not found for hash: ${hash}`);
+    // Parse the hash to extract slug and storefront
+    // Format: game-{slug}-{storefront}
+    const hashParts = gameEntryId.split('-');
+    if (hashParts.length < 3) {
+      console.warn(`⚠️ Invalid hash format: ${hash}`);
       return;
     }
 
-    // Extract game ID and modal file from the clickable element
-    const gameLink = gameRow.querySelector('.game-link.clickable');
-    if (!gameLink) {
-      console.warn(`⚠️ No clickable game link found in row: ${hash}`);
+    // Remove 'game' prefix and extract storefront from the end
+    hashParts.shift(); // Remove 'game'
+    const storefront = hashParts.pop().replace(/-/g, '.'); // Last part is storefront, restore dots
+    const slug = hashParts.join('-'); // Remaining parts form the slug
+
+    console.log(`📋 Parsed hash: slug="${slug}", storefront="${storefront}"`);
+
+    // Find the game in the full dataset by slug and storefront
+    const game = gamesData.games.find(g => {
+      const gameStorefront = g.storefront.toLowerCase().replace(/\./g, '-');
+      const targetStorefront = storefront.toLowerCase();
+      return g.slug === slug && gameStorefront === targetStorefront;
+    });
+
+    if (!game) {
+      console.warn(`⚠️ Game not found in dataset for hash: ${hash}`);
       return;
     }
 
-    const gameId = gameLink.dataset.gameId;
-    const modalFile = gameLink.dataset.modalFile;
+    console.log(`✅ Found game via hash:`, game.title);
 
-    console.log(`✅ Found game via hash:`, gameId);
+    // Calculate which page this game is on in the filtered list
+    const gameIndex = filteredGames.findIndex(g => g.id === game.id);
+    if (gameIndex === -1) {
+      console.warn(`⚠️ Game not in filtered list: ${game.title}`);
+      return;
+    }
 
-    // Highlight the row temporarily
-    gameRow.style.backgroundColor = 'rgba(255, 163, 102, 0.3)';
+    // Switch to the correct page if needed
+    const targetPage = Math.floor(gameIndex / pageSize) + 1;
+    if (targetPage !== currentPage) {
+      console.log(`📄 Switching to page ${targetPage} (game index: ${gameIndex})`);
+      currentPage = targetPage;
+      updateTable();
+    }
+
+    // Wait for table to render, then scroll and open modal
     setTimeout(() => {
-      gameRow.style.backgroundColor = '';
-    }, 2000);
+      const gameRow = document.getElementById(gameEntryId);
+      if (!gameRow) {
+        console.warn(`⚠️ Game row not found after page switch: ${hash}`);
+        return;
+      }
 
-    // Scroll to the game in the table first for context
-    setTimeout(() => {
+      // Highlight the row temporarily
+      gameRow.style.backgroundColor = 'rgba(255, 163, 102, 0.3)';
+      setTimeout(() => {
+        gameRow.style.backgroundColor = '';
+      }, 2000);
+
+      // Scroll to the game in the table first for context
       gameRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
       // Open the modal after a brief delay to allow scroll
       setTimeout(() => {
-        openGameModal(gameId, modalFile);
+        const storefrontDir = game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase();
+        const modalFile = `games/${storefrontDir}/${game.slug}.json`;
+        openGameModal(game.id, modalFile);
       }, 500);
     }, 300);
 
