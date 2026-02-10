@@ -13,7 +13,7 @@ toc: true
 
 **This Week's Pro Tip:** If you're using the free Decky plugin and only seeing the first 100 games in your Epic/GOG library, look for the <strong>"Show All"</strong> prompt at the bottom of the screen!
 
-*Note: This tip applies to the free Decky plugin version. Junk Store 2.0 (Professional version) loads up to 1000 games automatically.*
+*Note: This tip applies to the free Decky plugin version. Junk Store Pro (Professional version) loads up to 1000 games automatically.*
 
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
@@ -45,7 +45,7 @@ You've installed Junk Store and your Epic/GOG games are syncing perfectly, but y
   <div class="game-details">
     <strong>Professional Version Difference</strong>
     <div class="compatibility-info">
-      <div class="compatibility-line">Junk Store 2.0 (Professional version) loads up to 1000 games instantly with better optimization</div>
+      <div class="compatibility-line">Junk Store Pro (Professional version) loads up to 1000 games instantly with better optimization</div>
     </div>
   </div>
 </div>
@@ -112,7 +112,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Less tweaking, more gaming — that's the 2.0 difference</p>
 </div>

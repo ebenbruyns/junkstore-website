@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Junk Store 2.0 Holiday Deal: Use Code JUNKMAS25 for 25% Off"
+title: "Junk Store Pro Holiday Deal: Use Code JUNKMAS25 for 25% Off"
 date: 2025-12-23
 categories: [News, Promotion]
 tags: [junk-store, steam-deck, news]
@@ -17,9 +17,9 @@ toc: true
   <strong>⏰ This promotion has ended.</strong> Check our <a href="/blog/">latest posts</a> for current offers.
 </div>
 
-Merry Christmas from us. A small gift for anyone wanting to try Junk Store 2.0, especially if you missed Black Friday.
+Merry Christmas from us. A small gift for anyone wanting to try Junk Store Pro, especially if you missed Black Friday.
 
-**All new Junk Store 2.0 users get:**
+**All new Junk Store Pro users get:**
 - 21-day extended trial (automatic, no code needed)
 - Valid through January 6th, 2026
 
@@ -29,7 +29,7 @@ Use promo code <span class="promo-code">JUNKMAS25</span> at checkout for your fi
 
 ## How to get the deal
 
-[Sign up to the portal](https://portal.junkstore.xyz/) for Junk Store 2.0. The 21-day trial applies automatically to new accounts during this period. Use coupon code <strong style="color: #ffa366;">JUNKMAS25</strong> for 25% off when you purchase.
+[Sign up to the portal](https://portal.junkstore.xyz/) for Junk Store Pro. The 21-day trial applies automatically to new accounts during this period. Use coupon code <strong style="color: #ffa366;">JUNKMAS25</strong> for 25% off when you purchase.
 
 Questions? [Check the FAQ](/2.0faq/).
 

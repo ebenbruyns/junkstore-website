@@ -129,7 +129,7 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
         <th>Game</th>
         <th>Store</th>
         <th>Decky Plugin</th>
-        <th>2.0 Standalone</th>
+        <th>Pro Version</th>
         <th>Date Tested</th>
       </tr>
       <!-- Compatibility counts row - commented out for now
@@ -177,15 +177,21 @@ let pageSize = 20;
 // Load games data
 async function loadGamesData() {
   try {
-    console.log('Loading games data from /assets/data/games-table.json');
-    const response = await fetch('/assets/data/games-table.json');
-    
-    console.log('Response status:', response.status);
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+    // Use Firebase loader if available, fall back to static JSON
+    if (typeof loadGamesFromFirebase === 'function') {
+      console.log('Loading games data from Firebase...');
+      gamesData = await loadGamesFromFirebase();
+    } else {
+      console.log('Loading games data from /assets/data/games-table.json');
+      const response = await fetch('/assets/data/games-table.json');
+
+      console.log('Response status:', response.status);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      gamesData = await response.json();
     }
-    
-    gamesData = await response.json();
     console.log(`✅ Loaded ${gamesData.total_games} games successfully`);
     console.log('First 3 games:', gamesData.games.slice(0, 3));
 
@@ -590,6 +596,45 @@ function changePageSize() {
 function checkForGameParameter() {
   try {
     const urlParams = new URLSearchParams(window.location.search);
+
+    // Check for store + id parameters first (for JunkStore plugin)
+    const store = urlParams.get('store');
+    const databaseId = urlParams.get('id');
+
+    if (store && databaseId) {
+      console.log(`🎯 Auto-opening modal for store: ${store}, databaseId: ${databaseId}`);
+
+      // Normalize storefront name for matching
+      const storeMap = {
+        'epic': 'Epic',
+        'gog': 'GOG',
+        'amazon': 'Amazon',
+        'itch': 'itch.io',
+        'itch.io': 'itch.io'
+      };
+      const normalizedStore = storeMap[store.toLowerCase()];
+
+      if (!normalizedStore) {
+        console.warn(`⚠️ Unknown store: ${store}`);
+        return;
+      }
+
+      // Find game by storefront + databaseId
+      const game = gamesData.games.find(g =>
+        g.storefront === normalizedStore &&
+        (g.databaseId === databaseId || (g._fullData && g._fullData.databaseId === databaseId))
+      );
+
+      if (game) {
+        console.log(`✅ Found game by databaseId:`, game.title);
+        openGameFromSearch(game);
+      } else {
+        console.warn(`⚠️ Game not found for store: ${normalizedStore}, id: ${databaseId}`);
+      }
+      return;
+    }
+
+    // Fall back to game title parameter
     const gameName = urlParams.get('game');
 
     if (!gameName) {
@@ -610,40 +655,55 @@ function checkForGameParameter() {
     }
 
     console.log(`✅ Found game:`, game);
-
-    // Calculate which page this game is on
-    const gameIndex = filteredGames.findIndex(g => g.id === game.id);
-    if (gameIndex === -1) {
-      console.warn(`⚠️ Game not in filtered list: ${decodedGameName}`);
-      return;
-    }
-
-    // Switch to the correct page if needed
-    const targetPage = Math.floor(gameIndex / pageSize) + 1;
-    if (targetPage !== currentPage) {
-      console.log(`📄 Switching to page ${targetPage} (game index: ${gameIndex})`);
-      currentPage = targetPage;
-      updateTable();
-    }
-
-    // Scroll to the game in the table first for context
-    setTimeout(() => {
-      const gameRow = document.querySelector(`[data-game-id="${game.id}"]`);
-      if (gameRow) {
-        gameRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }
-
-      // Open the modal after a brief delay to allow scroll
-      setTimeout(() => {
-        const storefrontDir = game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase();
-        const modalFile = `games/${storefrontDir}/${game.slug}.json`;
-        openGameModal(game.id, modalFile);
-      }, 500);
-    }, 300);
+    openGameFromSearch(game);
 
   } catch (error) {
     console.error('❌ Error processing game parameter:', error);
   }
+}
+
+// Helper function to open a game modal from URL search
+function openGameFromSearch(game) {
+  // Calculate which page this game is on
+  const gameIndex = filteredGames.findIndex(g => g.id === game.id);
+  if (gameIndex === -1) {
+    // Game not in filtered list, clear filters and try again
+    console.log(`📄 Game not in current filter, clearing filters...`);
+    document.getElementById('searchBox').value = '';
+    document.getElementById('ratingFilter').value = 'all';
+    document.getElementById('storefrontFilter').value = 'all';
+    filteredGames = [...gamesData.games];
+    sortGames();
+  }
+
+  const newGameIndex = filteredGames.findIndex(g => g.id === game.id);
+  if (newGameIndex === -1) {
+    console.warn(`⚠️ Game not found in list: ${game.title}`);
+    return;
+  }
+
+  // Switch to the correct page if needed
+  const targetPage = Math.floor(newGameIndex / pageSize) + 1;
+  if (targetPage !== currentPage) {
+    console.log(`📄 Switching to page ${targetPage} (game index: ${newGameIndex})`);
+    currentPage = targetPage;
+    updateTable();
+  }
+
+  // Scroll to the game in the table first for context
+  setTimeout(() => {
+    const gameRow = document.querySelector(`[data-game-id="${game.id}"]`);
+    if (gameRow) {
+      gameRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    // Open the modal after a brief delay to allow scroll
+    setTimeout(() => {
+      const storefrontDir = game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase();
+      const modalFile = `games/${storefrontDir}/${game.slug}.json`;
+      openGameModal(game.id, modalFile);
+    }, 500);
+  }, 300);
 }
 
 // Check for URL hash and auto-open game modal
@@ -784,11 +844,20 @@ async function openGameModal(gameId, modalFile) {
     if (!basicGame) {
       throw new Error('Game not found in table data');
     }
-    
-    // Load detailed game data from individual JSON file
+
+    // Load detailed game data - check for Firebase _fullData first, then fall back to JSON file
     let detailedGame = basicGame; // fallback to basic data
-    
-    if (modalFile) {
+
+    // If we have full data from Firebase, use it directly
+    if (basicGame._fullData) {
+      console.log('✅ Using Firebase full data for:', basicGame.title);
+      detailedGame = { ...basicGame, ...basicGame._fullData };
+      console.log('🖼️ Image URLs from Firebase data:');
+      console.log('  banner_image:', detailedGame.banner_image);
+      console.log('  vertical_artwork:', detailedGame.vertical_artwork);
+      console.log('  icon_image:', detailedGame.icon_image);
+    } else if (modalFile) {
+      // Fall back to fetching individual JSON file
       try {
         console.log(`Fetching detailed game data from: /assets/data/${modalFile}`);
         const detailResponse = await fetch(`/assets/data/${modalFile}`);
@@ -874,7 +943,7 @@ function createGameModal(game) {
             </div>
             <div class="header-badges">
               <span class="storefront-badge storefront-${game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
-              <button class="copy-game-link-btn" data-game-slug="${game.slug}" data-storefront="${game.storefront}" title="Copy link to this game">🔗</button>
+              <button class="copy-game-link-btn" data-game-slug="${game.slug}" data-storefront="${game.storefront}" data-database-id="${game.databaseId || game._fullData?.databaseId || ''}" title="Copy link to this game">🔗</button>
             </div>
           </div>
           <button class="modal-close">&times;</button>
@@ -888,7 +957,7 @@ function createGameModal(game) {
               <span class="feature-value ${getStatusClass(game.decky_rating)}">${getStatusText(game.decky_rating)}</span>
             </div>
             <div class="feature-item">
-              <span class="feature-label">2.0 Standalone</span>
+              <span class="feature-label">Pro Version</span>
               <span class="feature-value ${getStatusClass(game.standalone_rating)}">${getStatusText(game.standalone_rating)}</span>
             </div>
             <div class="feature-item">
@@ -1046,10 +1115,20 @@ function createGameModal(game) {
   if (copyLinkBtn) {
     copyLinkBtn.addEventListener('click', (e) => {
       e.stopPropagation();
-      const slug = copyLinkBtn.dataset.gameSlug;
       const storefront = copyLinkBtn.dataset.storefront;
-      const gameEntryId = `game-${slug}-${storefront.toLowerCase().replace(/\./g, '-')}`;
-      const gameUrl = `${window.location.origin}${window.location.pathname}#${gameEntryId}`;
+      const databaseId = copyLinkBtn.dataset.databaseId;
+
+      // Map storefront to URL-friendly store name
+      const storeMap = {
+        'Epic': 'epic',
+        'GOG': 'gog',
+        'Amazon': 'amazon',
+        'itch.io': 'itch'
+      };
+      const store = storeMap[storefront] || storefront.toLowerCase();
+
+      // Use new format: /tested-games/?store=epic&id=abc123
+      const gameUrl = `${window.location.origin}/tested-games/?store=${store}&id=${databaseId}`;
 
       // Copy to clipboard with multiple fallback methods
       if (navigator.clipboard && navigator.clipboard.writeText) {
@@ -1555,7 +1634,7 @@ select:focus, input:focus {
 #gamesTable th:nth-child(1) { width: 30%; min-width: 200px; } /* Game */
 #gamesTable th:nth-child(2) { width: 12%; min-width: 80px; }  /* Store */
 #gamesTable th:nth-child(3) { width: 18%; min-width: 110px; text-align: center; } /* Decky Plugin */
-#gamesTable th:nth-child(4) { width: 18%; min-width: 110px; text-align: center; padding-left: 12px; padding-right: 12px; } /* 2.0 Standalone */
+#gamesTable th:nth-child(4) { width: 18%; min-width: 110px; text-align: center; padding-left: 12px; padding-right: 12px; } /* Pro Version */
 #gamesTable th:nth-child(5) { width: 22%; min-width: 130px; } /* Date Tested */
 
 #gamesTable td {

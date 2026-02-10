@@ -167,7 +167,7 @@ If you're still having trouble:
 - [Plugin Help](/deckyhelp)
 - [Plugin FAQ](/faq/decky/)
 - [Decky Plugin Troubleshooting](/troubleshooting/decky/)
-- [2.0 Standalone Troubleshooting](/troubleshooting/v2/)
+- [Pro Version Troubleshooting](/troubleshooting/v2/)
 
 Still stuck? Ask for help:
 <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">

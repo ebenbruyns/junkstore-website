@@ -19,7 +19,7 @@ excerpt: "Complete help hub for the free Junk Store Decky plugin - installation,
 <section class="seo-intro">
   <p><strong>Get help with the free Junk Store Decky plugin.</strong> Find troubleshooting solutions, step-by-step tutorials, and answers to common questions about playing Epic Games and GOG titles in Steam Deck Game Mode.</p>
 
-  <p><em>Looking for more platforms and advanced features?</em> <a href="/upgrade/">See what upgrading to Junk Store 2.0 unlocks →</a></p>
+  <p><em>Looking for more platforms and advanced features?</em> <a href="/upgrade/">See what upgrading to Junk Store Pro unlocks →</a></p>
 </section>
 
  <!-- Help Content Boxes - MOVED TO TOP -->

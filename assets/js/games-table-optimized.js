@@ -324,7 +324,7 @@ class StaticOptimizedGamesTable {
           <th>Title</th>
           <th>Storefront</th>
           <th>Decky Plugin</th>
-          <th>2.0 Standalone</th>
+          <th>Pro Version</th>
           <th>Date Tested</th>
         </tr>
       </thead>
@@ -611,7 +611,7 @@ class StaticOptimizedGamesTable {
                 <span class="feature-value ${this.getStatusClass(game.decky_rating)}">${this.getStatusText(game.decky_rating)}</span>
               </div>
               <div class="feature-item">
-                <span class="feature-label">2.0 Standalone</span>
+                <span class="feature-label">Pro Version</span>
                 <span class="feature-value ${this.getStatusClass(game.standalone_rating)}">${this.getStatusText(game.standalone_rating)}</span>
               </div>
               <div class="feature-item">

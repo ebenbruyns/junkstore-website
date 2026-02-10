@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Complete Junk Store 2.0 Feature List"
-description: "Complete breakdown of all Junk Store 2.0 features organized by category - gaming platforms, management tools, performance features, and advanced capabilities."
+title: "Complete Junk Store Pro Feature List"
+description: "Complete breakdown of all Junk Store Pro features organized by category - gaming platforms, management tools, performance features, and advanced capabilities."
 permalink: /features/
 header:
   overlay_color: "#000"
@@ -15,11 +15,11 @@ header:
     - label: "Why Choose Junk Store"
       url: "/comparison/"
       class: "button button-secondary"
-excerpt: "Everything included with Junk Store 2.0 - organized by category for easy reference"
+excerpt: "Everything included with Junk Store Pro - organized by category for easy reference"
 ---
 
 <section class="features-hero">
-  <h1>Complete Junk Store 2.0 Feature Breakdown</h1>
+  <h1>Complete Junk Store Pro Feature Breakdown</h1>
   <p class="lead-text">Everything you get with your subscription, organized by category</p>
 </section>
 

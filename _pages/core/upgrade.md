@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Upgrade from Decky Plugin to Junk Store 2.0"
-description: "See what you're missing! Compare the free Decky plugin with Junk Store 2.0's premium features for Epic, GOG, Amazon & itch.io games. Start your 7-day free trial today."
+title: "Upgrade from Decky Plugin to Junk Store Pro"
+description: "See what you're missing! Compare the free Decky plugin with Junk Store Pro's premium features for Epic, GOG, Amazon & itch.io games. Start your 7-day free trial today."
 permalink: /upgrade/
 header:
   overlay_color: "#000"
@@ -19,7 +19,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
 ---
 
 <section class="upgrade-hero">
-  <h1>Ready to Upgrade? Decky Plugin → Junk Store 2.0</h1>
+  <h1>Ready to Upgrade? Decky Plugin → Junk Store Pro</h1>
   <p class="lead-text"><strong>You already love the free version - here's what the premium experience unlocks.</strong></p>
   <p>Keep everything you have now, plus get exclusive platforms, advanced features, and professional-grade performance.</p>
 </section>
@@ -87,7 +87,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
       <p class="summary-text">Want the detailed breakdown? <strong style="color: #ffa366; text-shadow: 0 0 8px rgba(255, 163, 102, 0.3);">Click to expand the full feature-by-feature comparison</strong></p>
     </summary>
 
-    <h3 style="text-align: center;">Decky Plugin vs Junk Store 2.0</h3>
+    <h3 style="text-align: center;">Decky Plugin vs Junk Store Pro</h3>
     <p class="table-intro">Selected features include live demonstrations. Hover over "👁️ Hover to view" to see the functionality in action.</p>
 
     <table class="comparison-table">
@@ -95,7 +95,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
           <tr>
             <th>Feature</th>
             <th>Free Decky Plugin</th>
-            <th>Junk Store 2.0</th>
+            <th>Junk Store Pro</th>
           </tr>
         </thead>
         <tbody>

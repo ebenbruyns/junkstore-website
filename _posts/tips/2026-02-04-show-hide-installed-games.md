@@ -15,7 +15,7 @@ header:
 
 **This Week's Pro Tip:** Press X in any Junk Store library to toggle between showing only installed games and showing your complete library - perfect for decluttering large collections!
 
-*Note: This feature works identically in both the free Decky plugin and Junk Store 2.0 (Professional version).*
+*Note: This feature works identically in both the free Decky plugin and Junk Store Pro (Professional version).*
 
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
@@ -71,7 +71,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Want seamless library management across all your stores?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Your Steam Deck, simplified and supercharged</p>
 </div>

@@ -24,7 +24,7 @@ Finally feels like summer is on its way down under! Just had daylight savings, s
 Some great games in this week's batch too — Jorel's Brother and The Most Important Game of the Galaxy looks like it could be a bit of fun, and Forma.8 from itch.io looks promising as well! Let's dive into this week's testing results.
 
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
-* **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.11 (Pre-release)
@@ -46,7 +46,7 @@ This week featuring Eastern Exorcist, Jorel’s Brother and The Most Important G
     <div class="game-description">The Eastern Exorcist is a stunning 2D side-scrolling action RPG set in a fictitious oriental world with the infestation of vicious demon monsters.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -58,7 +58,7 @@ This week featuring Eastern Exorcist, Jorel’s Brother and The Most Important G
     <div class="game-description">“Jorel’s Brother and The Most Important Game of the Galaxy” is a point-and-click adventure about an eight-year-old boy who lives with his eccentric family in the shadow of Jorel, his handsome and popular brother.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -74,7 +74,7 @@ This week featuring Pixel Cafe.
     <div class="game-description">Step into Pixel's shoes in this one-of-a-kind journey that bridges time, memories, and the aroma of fresh coffee.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -90,7 +90,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
     <div class="game-description">Auto Chess is the original auto battler game that had a significant worldwide influence with its brand new gameplay mode and strategic competitive features.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -102,7 +102,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
     <div class="game-description">Rise of Industry is a strategic tycoon game that puts you in the shoes of an early 20th-century industrialist.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -114,7 +114,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
     <div class="game-description">Icewind Dale: Enhanced Edition revives the classic RPG with fresh updates for modern players.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -126,7 +126,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
     <div class="game-description">Dungeon-Crawling First Person Shooting at its finest.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -138,7 +138,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
     <div class="game-description">Golfie is a run-based, roguelike minigolf deck builder.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -150,7 +150,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
     <div class="game-description">Swim, launch and bounce through this meditative floating platformer.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -162,7 +162,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
     <div class="game-description">Crossniq is a new tile-sliding puzzle game to be played with your mouse or your fingers.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -174,7 +174,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
     <div class="game-description">Explore, fight and solve puzzles.  Uncover the secrets of a mysterious alien planet in this open world metroidvania adventure, where nothing is what it seems.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -190,7 +190,7 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
     <div class="game-description">Darkwood is a unforgiving survival horror with a procedurally generated, open world.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -202,7 +202,7 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
     <div class="game-description">Take to the sky and reunite a fragmented world in this surprisingly wholesome metroidvania.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -214,7 +214,7 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
     <div class="game-description">Hitman: Absolution follows the Original Assassin undertaking his most personal contract to date.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -226,7 +226,7 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
     <div class="game-description">King of Seas is an Action Role playing game set in a procedural pirate world.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -251,9 +251,9 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
-  <p class="inline-cta-subtext">See why users are ditching multiple launchers for 2.0</p>
+  <p class="inline-cta-subtext">See why users are ditching multiple launchers for Pro</p>
 </div>
 
 ---

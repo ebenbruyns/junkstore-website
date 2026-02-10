@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Junk Store 2.0 FAQ"
-description: "Complete Junk Store 2.0 FAQ for playing Epic, GOG, Amazon & itch games on Steam Deck. Standalone app features, pricing, trial info, and technical support."
+title: "Junk Store Pro FAQ"
+description: "Complete Junk Store Pro FAQ for playing Epic, GOG, Amazon & itch games on Steam Deck. Standalone app features, pricing, trial info, and technical support."
 permalink: /2.0faq/
 classes: wide
 show_pagination: false
@@ -13,12 +13,12 @@ header:
     - label: "Troubleshooting Guide"
       url: "/2.0troubleshooting/"
       class: "button"
-excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on Steam Deck. Pricing, setup, and technical support"
+excerpt: "Complete FAQ for Junk Store Pro - Epic, GOG, Amazon & itch.io games on Steam Deck. Pricing, setup, and technical support"
 ---
 <div id="top"></div>
 
 <section class="seo-intro">
-  <p><strong>Complete FAQ for Junk Store 2.0.</strong> Find answers to common questions about playing Epic, GOG, Amazon & itch.io games on Steam Deck with our standalone app.</p>
+  <p><strong>Complete FAQ for Junk Store Pro.</strong> Find answers to common questions about playing Epic, GOG, Amazon & itch.io games on Steam Deck with our standalone app.</p>
 </section>
 
 
@@ -133,19 +133,19 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
     You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon & itch.io (beta) integration, emulator extension creation, and all premium features.
   <br>
   <br>
-    After 7 days, if you don't subscribe, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
+    After 7 days, if you don't subscribe, you'll lose access to the Junk Store Pro interface and games installed in the new version. You can reactivate anytime to restore full functionality.
 </details>
 
 <details class="faq-box" id="what-happens-no-renew">
   <summary>What happens if I don't renew my annual license?</summary>
   <p></p>
-    <strong>You keep access to the version of Junk Store 2.0 you paid for.</strong> Everything continues working as normal, but you won't receive future updates.
+    <strong>You keep access to the version of Junk Store Pro you paid for.</strong> Everything continues working as normal, but you won't receive future updates.
   <br>
   <br>
     <strong>What continues working:</strong>
     <ul>
-      <li>✅ All games installed through Junk Store 2.0 remain playable</li>
-      <li>✅ Full Junk Store 2.0 functionality you paid for</li>
+      <li>✅ All games installed through Junk Store Pro remain playable</li>
+      <li>✅ Full Junk Store Pro functionality you paid for</li>
       <li>✅ Installing and managing games</li>
     </ul>
     <strong>What you won't get going forward:</strong>
@@ -209,10 +209,10 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
     <strong>Yes.</strong> The open source Decky version remains available for the community, free to use and collaborate on.
   <br>
   <br>
-    Junk Store 2.0 is completely separate software that doesn't share code with the open source version. Both versions can coexist, and you can choose what works best for your needs.
+    Junk Store Pro is completely separate software that doesn't share code with the open source version. Both versions can coexist, and you can choose what works best for your needs.
   <br>
   <br>
-    <strong>Key difference:</strong> The free Decky version focuses on basic Epic Games support, while Junk Store 2.0 provides the complete Game Mode native experience across multiple platforms.
+    <strong>Key difference:</strong> The free Decky version focuses on basic Epic Games support, while Junk Store Pro provides the complete Game Mode native experience across multiple platforms.
 </details>
 
 <div style="display: flex; justify-content: center; width: 100%;">
@@ -223,7 +223,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
 <details class="faq-box" id="how-to-access-junk-store">
   <summary>I just signed up for the trial. How do I access Junk Store?</summary>
   <p></p>
-    After installing Junk Store 2.0, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck or <strong>Ctrl+3</strong> if using a PC. No need to switch to Desktop Mode or launch separate applications.
+    After installing Junk Store Pro, you access it by pressing the <strong>Select</strong> button above the D-pad on your Steam Deck or <strong>Ctrl+3</strong> if using a PC. No need to switch to Desktop Mode or launch separate applications.
   <br>
   <br>
     This opens directly in Game Mode, giving you immediate access to your Epic, GOG, Amazon & itch.io (beta) game libraries.
@@ -313,9 +313,9 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
 </details>
 
 <details class="faq-box" id="import-games-from-decky">
-  <summary>How do I import and play my games from the Decky version in Junk Store 2.0?</summary>
+  <summary>How do I import and play my games from the Decky version in Junk Store Pro?</summary>
   <p></p>
-    <strong>Automatic Import:</strong> This happens automatically when you first install and launch Junk Store 2.0. Once you've generated the extensions (Epic and/or GOG), your games will sync across when you open each corresponding tab.
+    <strong>Automatic Import:</strong> This happens automatically when you first install and launch Junk Store Pro. Once you've generated the extensions (Epic and/or GOG), your games will sync across when you open each corresponding tab.
   <br>
   <br>
     <strong>Playing Imported Games:</strong> Yes, your games will work, but you'll need to <strong>Reset Launch Options</strong> for each game (found in the sliders menu on the game page). This only needs to be done once per game to fully migrate it to the new version.
@@ -531,7 +531,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
     <strong>✅ Games originally from Decky version:</strong> These CAN be migrated back. For already installed games, open the game page in Junk Store and use <strong>Reset Launch Options</strong> from the sliders menu. This completes the migration back to Decky compatibility.
     <br>
     <br>
-    <strong>❌ Games newly installed in Junk Store 2.0:</strong> These cannot be migrated back to Decky due to different install paths and configuration systems.
+    <strong>❌ Games newly installed in Junk Store Pro:</strong> These cannot be migrated back to Decky due to different install paths and configuration systems.
     <br>
     <br>
     <strong>For games newly installed in 2.0 that you want to keep:</strong>
@@ -545,7 +545,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
 </details>
 
 <details class="faq-box" id="uninstall-junk-store">
-  <summary>How do I uninstall Junk Store 2.0?</summary>
+  <summary>How do I uninstall Junk Store Pro?</summary>
   <p></p>
     Before uninstalling, complete the migration process outlined in "How do I migrate games back to the Decky version?" above to preserve your games and saves.
   <br>
@@ -577,7 +577,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
 <details class="faq-box" id="gog-dos-scummvm-support">
   <summary>Does the GOG extension support DOS and ScummVM games?</summary>
   <p></p>
-    <strong>Yes.</strong> In Junk Store 2.0, both <strong>DOS</strong> and <strong>ScummVM</strong> games downloaded via GOG are supported.
+    <strong>Yes.</strong> In Junk Store Pro, both <strong>DOS</strong> and <strong>ScummVM</strong> games downloaded via GOG are supported.
   <br>
   <br>
     These games will automatically launch using the <strong>Flatpak versions</strong> of <code>ScummVM</code> and <code>DosBox</code> once installed.
@@ -623,9 +623,9 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
 
 
 <details class="faq-box" id="cloud-saves-support">
-  <summary>Does Junk Store 2.0 support cloud saves?</summary>
+  <summary>Does Junk Store Pro support cloud saves?</summary>
   <p></p>
-    Junk Store 2.0 currently offers <strong>experimental cloud save support</strong> for <strong>Epic</strong> and <strong>GOG</strong>. However, this feature is intended only for advanced users who understand and accept the risks involved — including the potential for save data loss.
+    Junk Store Pro currently offers <strong>experimental cloud save support</strong> for <strong>Epic</strong> and <strong>GOG</strong>. However, this feature is intended only for advanced users who understand and accept the risks involved — including the potential for save data loss.
   <br>
   <br>
     <strong>Important:</strong> We do <em>not</em> offer technical support for issues related to cloud saves at this time. If you choose to enable it, please make sure you're confident in your ability to troubleshoot and back up your save data manually if needed.
@@ -678,7 +678,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
   <h3>Quick Help</h3>
   <div class="help-links">
     <a href="/2.0-hub/" class="help-link">
-      <span class="help-title">2.0 Standalone Help</span>
+      <span class="help-title">Pro Version Help</span>
       <span class="help-desc">Quick reference and tips</span>
     </a>
     <a href="/tutorials/" class="help-link">

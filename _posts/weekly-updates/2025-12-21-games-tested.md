@@ -26,7 +26,7 @@ I tested as many games as I could this week, though I missed a few and ran out o
 We hope you all have a fantastic Christmas wherever you are and whatever you're doing! Now, let's get into this week's testing results:
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
+* **<a href="/buy_now/">Junk Store Pro</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.11 (Main Store)
 * **GOG Extension**: v0.1.10 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Prerelease)
@@ -39,8 +39,8 @@ We hope you all have a fantastic Christmas wherever you are and whatever you're 
 
 A few quick updates before we dive into the games:
 
-* **Decky Loader Users**: Running Decky Loader alongside Junk Store 2.0? Make sure you're using the build from the **TEST channel**
-* **Legacy Discounts**: Legacy Discounts expire December 31st, 2025. If you supported us before the 2.0 release, check the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> and don't miss out!
+* **Decky Loader Users**: Running Decky Loader alongside Junk Store Pro? Make sure you're using the build from the **TEST channel**
+* **Legacy Discounts**: Legacy Discounts expire December 31st, 2025. If you supported us before the Pro release, check the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> and don't miss out!
 * **Epic Games EULA**: Having trouble launching Epic games? You may need to log in via a web browser to accept Epic's new EULA before games will launch.
 
 ## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
@@ -58,7 +58,7 @@ This week featuring Eternights, Jotunnslayer: Hordes of Hel, Blood West.
     <div class="game-description">Eternights is a dating action game where you try to make the most out of life during the apocalypse.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -70,7 +70,7 @@ This week featuring Eternights, Jotunnslayer: Hordes of Hel, Blood West.
     <div class="game-description">Hordes of Hel is a gripping roguelike horde-survivor game set in the dark realms of Norse Mythology.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: ❓ Not tested</div>
+        <div class="compatibility-line">Pro Version: ❓ Not tested</div>
     </div>
   </div>
 </div>
@@ -82,7 +82,7 @@ This week featuring Eternights, Jotunnslayer: Hordes of Hel, Blood West.
     <div class="game-description">Weird west legends meet eldritch horror in BLOOD WEST, an immersive stealth FPS.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -98,7 +98,7 @@ This week featuring Bō: Path of the Teal Lotus and Ashworld.
     <div class="game-description">Flow gracefully through a colorful, hand-drawn 2. 5D action platformer inspired by Japanese folklore.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: ❌ Doesn't work</div>
+        <div class="compatibility-line">Pro Version: ❌ Doesn't work</div>
     </div>
   </div>
 </div>
@@ -110,7 +110,7 @@ This week featuring Bō: Path of the Teal Lotus and Ashworld.
     <div class="game-description">Fight, scavenge, and survive in Ashworld, a post-apocalyptic open world filled with danger.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -126,7 +126,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">Call of Dragons is an MMO fantasy conquest game from the creators of Rise of Kingdoms, offering an incredible strategic ...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -138,7 +138,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -150,7 +150,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">Jotun is a hand-drawn action-exploration game set in Norse mythology.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -162,7 +162,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">In Absolute Drift, you will master the art of drifting.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -174,7 +174,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">Amnesia: The Dark Descent is a survival horror video game by Frictional Games.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -186,7 +186,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">BioShock is a horror-themed first-person shooter set in a steampunk underwater dystopia.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -198,7 +198,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">BioShock 2 is the second game of the BioShock series and the sequel to BioShock.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -210,7 +210,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">From Cyan, the indie studio that brought you Myst and Riven comes a whole new adventure that will become your world.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -222,7 +222,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">A third-person exploratory action/adventure title in which a boy ends up on a mysterious island and makes his way throug...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -234,7 +234,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">You are a Werewolf.  But there are worse monsters in Hell's Creek.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -246,7 +246,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">A branching-path narrative horror RPG set in Vienna, Austria.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -258,7 +258,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">And Yet It Moves is a puzzle-platformer, set in a unique world, made of ripped paper.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -270,7 +270,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">Control &quot;The Nerd&quot; in a retro-inspired action platformer.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -282,7 +282,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">A Single button infinite runner metriodvania about a friendly spider.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -294,7 +294,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
     <div class="game-description">Type your way through absurd encounters and mysterious puzzles in this old-school typing dungeon crawler.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -310,7 +310,7 @@ Updated compatibility for 3 out of 10, Ep. 1: "Welcome to Shovelworks", Greak: M
     <div class="game-description">Join the ongoing adventures of developers at the world's worst video game studio as they endure antics both absurd and t...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -322,7 +322,7 @@ Updated compatibility for 3 out of 10, Ep. 1: "Welcome to Shovelworks", Greak: M
     <div class="game-description">Greak: Memories of Azur is a beautiful single-player puzzle platformer adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -334,7 +334,7 @@ Updated compatibility for 3 out of 10, Ep. 1: "Welcome to Shovelworks", Greak: M
     <div class="game-description">Iratus: Lord of the Dead is a dark, challenging turn-based roguelike RPG where you play as an evil necromancer escaping ...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -355,7 +355,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

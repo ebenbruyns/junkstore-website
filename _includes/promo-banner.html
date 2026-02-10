@@ -1,9 +1,7 @@
-<!-- Important Notice Banner -->
-<div class="promo-banner">
+<!-- Dynamic Banner (loaded from Firebase) -->
+<div id="promo-banner" class="promo-banner" style="display: none;">
   <div class="promo-banner__content">
-    <span class="promo-banner__main">
-      <strong>⚠️ Decky Loader Users:</strong> Running both Decky Loader and 2.0? Use the Test channel build (conflict being resolved).
-    </span>
+    <!-- Content populated by firebase-banner.js -->
   </div>
   <button class="promo-banner__close" aria-label="Close banner" onclick="this.parentElement.style.display='none';">&times;</button>
 </div>

@@ -26,7 +26,7 @@ We're currently on the mainland house-sitting for my sister, which gives us a ch
 Alright, let's dive into this week's testing results.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
+* **<a href="/buy_now/">Junk Store Pro</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.10 (Testing Store)
 * **GOG Extension**: v0.1.10 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.0-pre1 (Pre-release)
@@ -50,7 +50,7 @@ This week featuring The Darkside Detective, The Jackbox Party Pack 4.
     <div class="game-description">Grab your trench coat, tune your sixth sense and join the Darkside Division as they investigate the outright bizarre, the downright dangerous and the confusing cases of Twin Lakes.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -62,7 +62,7 @@ This week featuring The Darkside Detective, The Jackbox Party Pack 4.
     <div class="game-description">The fourth pack in this storied party game franchise features Fibbage 3 and its new game mode.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -78,7 +78,7 @@ This week featuring GYLT, LEGO® 2K Drive.
     <div class="game-description">Shape your fears… Fear the shapes. Embark on a journey where you face your worst fears and are confronted with the emotional impact of your actions in this narrative adventure game with puzzles, stealth and action.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
     <p style="margin-top: 8px; font-size: 0.9rem; color: #ccc;">Note: Cutscenes don't work - existing issue with no current known fix.</p>
   </div>
@@ -91,7 +91,7 @@ This week featuring GYLT, LEGO® 2K Drive.
     <div class="game-description">Welcome to Bricklandia, home of a massive open-world LEGO® driving adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -107,7 +107,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">The first ever true MMO formula racing game is here.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -119,7 +119,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">A farming adventure with a dash of magic.  By day, restore your quaint homestead into a summer paradise.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -131,7 +131,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Faraway is an adventure game, a modern tribute to Myst.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -143,7 +143,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -155,7 +155,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Deep inside a research base, waking up from a cryogenic pod, you find yourself trapped in a living hell, surrounded by zombies.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -167,7 +167,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Make friends, free spirits and make sure that the world doesn’t end.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -179,7 +179,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Masterplan Tycoon is a real-time strategy game about building interconnected chains of resources in a minimalist visual style.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -191,7 +191,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Night Reverie is a Puzzle/Adventure game in which a child must solve the mystery behind the distortion of his house.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -203,7 +203,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Samurai Bringer is a roguelite action game with levels which change with every playthrough, where you cut down hordes of Samurai and Demons to collect combat techniques and polish your fighting style in order to defeat Yamata-no-Orochi, the eight-headed dragon of Japanese mythology.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -215,7 +215,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Stunt Kite Party is a family-friendly single player and couch-coop multiplayer game with an exciting storyline and endless fun in numerous game modes.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -227,7 +227,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Grab your board and take on legendary waves in Surf World Series.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -239,7 +239,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">The Station is a first-person exploration game set on a space station sent to study a sentient alien civilization.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -251,7 +251,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Take control of your parallel selves on a mission to save the dying multiverse in this rogue-lite action platformer.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -263,7 +263,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Explore the mysterious Wall World on your giant robospider: mine for valuable resources, upgrade your equipment to fight off hordes of monsters, and discover exotic biomes in-between attacks. Will you be able to survive and learn the secrets of the Wall World?</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -275,7 +275,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">The cult classic Zombies Ate My Neighbors and its sequel make their long awaited return in Zombies Ate My Neighbors and Ghoul Patrol! Play these classics from the golden age of 16-bit gaming with new enhancements and never before seen museum features.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -287,7 +287,7 @@ Catching up on Formula Evolution 2024, Everdream Valley, Faraway: Director's Cut
     <div class="game-description">Warhammer 40,000: Dawn of War is a revolutionary science fiction real-time strategy (RTS) game set in the violent, post-apocalyptic universe of the 41st Millennium.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -303,7 +303,7 @@ Updated compatibility for Borderlands 3, Redout 2, Crusader Kings II.
     <div class="game-description">The original shooter-looter returns, packing bazillions of guns and a mayhem-fueled adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -315,7 +315,7 @@ Updated compatibility for Borderlands 3, Redout 2, Crusader Kings II.
     <div class="game-description">The fastest racing game in the universe. Redout 2 is a tribute to classic arcade racing games and the sequel to the critically acclaimed Redout.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -327,7 +327,7 @@ Updated compatibility for Borderlands 3, Redout 2, Crusader Kings II.
     <div class="game-description">The Dark Ages might be drawing to a close, but Europe is still in turmoil.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -348,7 +348,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

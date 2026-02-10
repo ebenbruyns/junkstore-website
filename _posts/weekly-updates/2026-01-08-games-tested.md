@@ -25,12 +25,12 @@ Hope everyone's had a great start to 2026! Sorry for the delay with this week's 
 
 A few quick updates before we dive into the games:
 
-* **Decky Loader + 2.0 Conflict:** If running both together, use the TEST channel build. It's the same stable build, just packaged without a component that conflicts with Decky (since Decky already includes it). We're using the TEST channel to keep it separate and easy to distinguish.
-* **Extended Trials:** Trials for Junk Store 2.0 have been extended to 21 days for the rest of the month. Plenty of time to test everything out and see if it works for your setup.
+* **Decky Loader + Pro Conflict:** If running both together, use the TEST channel build. It's the same stable build, just packaged without a component that conflicts with Decky (since Decky already includes it). We're using the TEST channel to keep it separate and easy to distinguish.
+* **Extended Trials:** Trials for Junk Store Pro have been extended to 21 days for the rest of the month. Plenty of time to test everything out and see if it works for your setup.
 * **GOG Extension:** Exclusively available through the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a>. All Patreon/Ko-fi supporters have been migrated — sign in with your original email to access.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
+* **<a href="/buy_now/">Junk Store Pro</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.12 (Test Store - should be merged to Main soon)
 * **GOG Extension**: v0.1.10 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Prerelease)
@@ -52,7 +52,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
     <div class="game-description">Challenge perception, redefine reality, and reshape the world around you with an instant camera.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -64,7 +64,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
     <div class="game-description">Three Heroes make their way through dangers untold in a fairytale world of great castles and strange machinery, featurin...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -76,7 +76,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
     <div class="game-description">Three Heroes make their way through dangers untold in a fairytale world, featuring physics-based puzzles, beautiful sigh...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -88,7 +88,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
     <div class="game-description">Trine 3: The Artifacts of Power is a platforming game of action, puzzles and adventure, and the sequel to the award winn...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -100,7 +100,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
     <div class="game-description">The best-selling Trine series returns to the magic of 2.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -112,7 +112,7 @@ This week featuring Viewfinder, Trine Enchanted Edition, Trine 2: Complete Story
     <div class="game-description">Wildgate is a PvPvE multiplayer shooter that blends tactical ship-to-ship combat with fast-paced first-person action.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -128,7 +128,7 @@ This week featuring Dreamscaper.
     <div class="game-description">By night, delve deep into your subconscious and discover powerful artifacts to conquer your nightmares.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -144,7 +144,7 @@ This week highlighting The Invisible Hand.
     <div class="game-description">Experience the obsessive life of a mid-level stockbroker, pursuing wealth and success at the cost of everything else.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -165,7 +165,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

@@ -15,7 +15,7 @@ toc: true
 
 **This Week's Pro Tip:** Use the **Additional Variables** field in the Decky Plugin to set language environment variables for Epic games that support multiple languages!
 
-*Note: This tip is for Decky Plugin users. Junk Store 2.0 has a built-in language menu for easier switching.*
+*Note: This tip is for Decky Plugin users. Junk Store Pro has a built-in language menu for easier switching.*
 
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
@@ -112,7 +112,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for seamless Steam Deck gaming?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Game Mode native — the way handheld gaming should be</p>
 </div>

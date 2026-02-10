@@ -39,7 +39,7 @@ We really hope our current users and anyone new to Junk Store are as excited abo
 
 We've also launched our **updated games compatibility table!** Now when you browse our tested games, you can click on any game title to get a detailed information modal with comprehensive game data including:
 
-- **Full compatibility ratings** for both Decky Plugin and 2.0 Standalone
+- **Full compatibility ratings** for both Decky Plugin and Pro Version
 - **Controller configuration** details  
 - **Performance notes** and known issues
 - **Storefront links** and metadata
@@ -48,7 +48,7 @@ This gives you a whole new way to explore our game database and find exactly wha
 
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
 
-- **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch integration (beta)**
+- **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch integration (beta)**
 - **Junk Store Plugin**: Latest Decky version 1.1.9  
 - **GOG Extension**: v0.1.8 (can be downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 - **Decky Loader**: v3.1.10 (Stable)
@@ -65,7 +65,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=Totally+Reliable+Delivery+Service">Totally Reliable Delivery Service</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -76,7 +76,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=Hidden+Folks">Hidden Folks</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -89,7 +89,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=Filthy+Animals%3A+Heist+Simulator">Filthy Animals: Heist Simulator</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -100,7 +100,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=Fate%3A+The+Traitor+Soul">Fate: The Traitor Soul</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -111,7 +111,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=Necroking">Necroking</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -122,12 +122,12 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=Tin+Hearts">Tin Hearts</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
 
-### itch.io Games (Only available on Junk Store 2.0)
+### itch.io Games (Only available on Junk Store Pro)
 
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/f6e075ded3a56ac2fcf4ccc4e8430f0b36b4810376f6fa82b59f1b04a2c7fc2c.jpg?namespace=gamesdb" alt="10 Flights of Ballooning" class="game-thumbnail">
@@ -135,7 +135,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=10+Flights+of+Ballooning">10 Flights of Ballooning</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -146,7 +146,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=10S">10S</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -157,7 +157,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=1993+Space+Machine">1993 Space Machine</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -168,7 +168,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=2+++9+++0+++1++%2F+%2F+FREELANCER">2 9 0 1 / / FREELANCER</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -179,7 +179,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=A+Short+Hike">A Short Hike</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -190,7 +190,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=Baba+Is+You">Baba Is You</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -201,7 +201,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=Celeste">Celeste</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -212,7 +212,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=CrossCode">CrossCode</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -223,7 +223,7 @@ This gives you a whole new way to explore our game database and find exactly wha
     <strong><a href="/tested-games/?game=Super+Hexagon">Super Hexagon</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -240,7 +240,7 @@ Whether you're a longtime member of our community or just discovering what we do
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

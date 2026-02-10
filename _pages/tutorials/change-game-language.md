@@ -79,7 +79,7 @@ If you run into trouble, check out:
 - **Universal:** [FAQ Section](/2.0faq/) for common questions
 - **Universal:** [Troubleshooting Guide](/2.0troubleshooting/) for technical issues
 - **Decky Plugin:** [Plugin-specific help](/faq/decky/) and [troubleshooting](/troubleshooting/decky/)
-- **2.0 Standalone:** [Version-specific help](/2.0faq/) and [troubleshooting](/2.0troubleshooting/)
+- **Pro Version:** [Version-specific help](/2.0faq/) and [troubleshooting](/2.0troubleshooting/)
 
 **Still stuck? Get community help:**
 

@@ -1,8 +1,8 @@
 ---
 layout: splash
-title: "Junk Store 2.0 - Getting Started"
+title: "Junk Store Pro - Getting Started"
 permalink: /get_started/
-excerpt: "Get started with Junk Store 2.0 - complete setup guide for Epic, GOG, Amazon & itch.io games in Steam Deck Game Mode"
+excerpt: "Get started with Junk Store Pro - complete setup guide for Epic, GOG, Amazon & itch.io games in Steam Deck Game Mode"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -41,7 +41,7 @@ header:
     </ul>
 
     <div style="background: rgba(255, 69, 0, 0.2); border: 2px solid #ff4500; border-radius: 8px; padding: 15px; margin: 10px 0;">
-      <strong style="color: #ff6b35; font-size: 1.1em;">⚠️ CRITICAL:</strong> When installing Junk Store 2.0, you <strong style="color: #ff6b35;">MUST wait until the dialogue box says "Installation Complete"</strong> before clicking OK. <strong style="color: #ff6b35;">Clicking the OK button too early cancels the installation process.</strong>
+      <strong style="color: #ff6b35; font-size: 1.1em;">⚠️ CRITICAL:</strong> When installing Junk Store Pro, you <strong style="color: #ff6b35;">MUST wait until the dialogue box says "Installation Complete"</strong> before clicking OK. <strong style="color: #ff6b35;">Clicking the OK button too early cancels the installation process.</strong>
     </div>
     <br>
     

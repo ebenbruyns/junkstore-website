@@ -13,7 +13,7 @@ read_time: "5 min read"
 toc: true
 ---
 
-**This week's testing highlights:** 10 games across Epic, GOG, Amazon storefronts — including games like Gargoyles Remastered, Shadow Tactics, and Salt and Sanctuary that I could have easily turned into gaming sessions instead of testing sessions! All 10 games tested this week work perfectly out of the box on Junk Store 2.0.
+**This week's testing highlights:** 10 games across Epic, GOG, Amazon storefronts — including games like Gargoyles Remastered, Shadow Tactics, and Salt and Sanctuary that I could have easily turned into gaming sessions instead of testing sessions! All 10 games tested this week work perfectly out of the box on Junk Store Pro.
 
 
 
@@ -24,7 +24,7 @@ Apologies for the lateness of this week's post! The weather hasn't been the best
 Anyway, let's get to it!
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.11 (Pre-release)
@@ -46,7 +46,7 @@ This week featuring Firestone: Online Idle RPG.
     <div class="game-description">Firestone is an Idle RPG set in the Fantasy world of Alandria, where Undead and Orc forces have gathered for the first time in millennia to bring chaos and disorder to the realm.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -62,7 +62,7 @@ This week featuring Tormented Souls.
     <div class="game-description">Classic survival horror is back! Inspired by the original Resident Evil and Alone in the Dark series, Tormented Souls modernises with a fresh twist on the fixed perspective adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -78,7 +78,7 @@ Catching up on Paladins, Q.U.B.E. 2, Gargoyles Remastered, The Forgotten City.
     <div class="game-description">Paladins is the ultimate fantasy team-based shooter experience, with over 50 customizable Champions fighting in 5v5 action across a diverse Realm of modes and maps!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❌ Doesn't work</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -90,7 +90,7 @@ Catching up on Paladins, Q.U.B.E. 2, Gargoyles Remastered, The Forgotten City.
     <div class="game-description">Q.U.B.E. 2 is the sequel to the hit first-person puzzle game Q.U.B.E. With the distant help of another survivor you must manipulate the structure of this mysterious world and find a way back home.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟡 Minor tinkering</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -102,7 +102,7 @@ Catching up on Paladins, Q.U.B.E. 2, Gargoyles Remastered, The Forgotten City.
     <div class="game-description">Relive the legend of Goliath and save the world from destruction.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -114,7 +114,7 @@ Catching up on Paladins, Q.U.B.E. 2, Gargoyles Remastered, The Forgotten City.
     <div class="game-description">The Forgotten City is a mystery adventure game of exploration and deduction, and a re-imagining of the critically acclaimed mod of the same name.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -130,7 +130,7 @@ Updated compatibility for BioShock 2 Remastered, Salt and Sanctuary, Metro: Last
     <div class="game-description">In BioShock 2, you step into the boots of the most iconic denizen of Rapture, the Big Daddy, as you explore through the decrepit and beautiful fallen city, chasing an unseen foe in search of answers and your own survival.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -142,7 +142,7 @@ Updated compatibility for BioShock 2 Remastered, Salt and Sanctuary, Metro: Last
     <div class="game-description">Explore a haunting, punishing island in this stylized 2D action RPG.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -154,7 +154,7 @@ Updated compatibility for BioShock 2 Remastered, Salt and Sanctuary, Metro: Last
     <div class="game-description">It is the year 2034. Beneath the ruins of post-apocalyptic Moscow, in the tunnels of the Metro, the remnants of mankind are besieged by deadly threats from outside – and within.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -166,7 +166,7 @@ Updated compatibility for BioShock 2 Remastered, Salt and Sanctuary, Metro: Last
     <div class="game-description">Shadow Tactics is a hardcore tactical stealth game set in Japan around the Edo period.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -181,7 +181,7 @@ Unfortunately, there were a few games this week that didn't cooperate during tes
 
 **[DragonStrike](/tested-games/?game=DragonStrike) (Amazon Prime Gaming - GOG key)** - The DOSBox configuration files weren't located where Junk Store expects to find them. We'll be implementing a fix for this and other DOSBox-based games in an upcoming update.
 
-**[Paladins](/tested-games/?game=Paladins) (Epic) - Decky Plugin only** - Couldn't get this working on the Decky version, though given our unreliable internet this week, that may have been the culprit. The silver lining? It works flawlessly on Junk Store 2.0!
+**[Paladins](/tested-games/?game=Paladins) (Epic) - Decky Plugin only** - Couldn't get this working on the Decky version, though given our unreliable internet this week, that may have been the culprit. The silver lining? It works flawlessly on Junk Store Pro!
 
 All three games will be retested once we've resolved these issues—stay tuned for updates!
 
@@ -205,7 +205,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

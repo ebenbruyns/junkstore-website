@@ -85,10 +85,10 @@ classes: wide
 
  <div class="media-item">
   <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com/vi/kDKQyL5iLSg/hqdefault.jpg" alt="How to Install Junk Store 2.0 on Steam Deck" loading="lazy" width="320" height="180">
+    <img src="https://img.youtube.com/vi/kDKQyL5iLSg/hqdefault.jpg" alt="How to Install Junk Store Pro on Steam Deck" loading="lazy" width="320" height="180">
   </a>
-  <p class="caption-title">How to Install Junk Store 2.0 on Steam Deck</p>
-  <p class="caption">Step-by-step video tutorial on downloading and installing Junk Store 2.0</p>
+  <p class="caption-title">How to Install Junk Store Pro on Steam Deck</p>
+  <p class="caption">Step-by-step video tutorial on downloading and installing Junk Store Pro</p>
 </div>
 
 

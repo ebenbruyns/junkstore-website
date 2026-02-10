@@ -24,7 +24,7 @@ It's Labour Weekend here in New Zealand and we're keeping our fingers crossed th
 This week's testing session was particularly fun. I couldn't pass up the amazing deals GOG had on the Alan Wake games. Both were on sale and have been on my wishlist forever, so I finally pulled the pin and added them to my collection. Can't wait to dive in! Here's what I've been testing this week.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.0-pre1 (Pre-release)
@@ -46,7 +46,7 @@ This week featuring Fear the Spotlight.
     <div class="game-description">Fear the Spotlight is an atmospheric third-person horror adventure with a disturbing mystery to unravel.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -62,7 +62,7 @@ This week featuring True Fear: Forsaken Souls Part 2, Fallout 3: Game of the Yea
     <div class="game-description">Holly Stonehouse followed the clues from her old family house to finally arrive at the Dark Falls Asylum and again see that someone was there before her, waiting for her. However this time she is no longer a spectator and what follows her is no longer just a shadow - the danger is real as the Asylum comes alive at night.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -74,7 +74,7 @@ This week featuring True Fear: Forsaken Souls Part 2, Fallout 3: Game of the Yea
     <div class="game-description">With Fallout 3: Game of the Year Edition, experience the most acclaimed game of 2008 like never before.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -86,7 +86,7 @@ This week featuring True Fear: Forsaken Souls Part 2, Fallout 3: Game of the Yea
     <div class="game-description">Hellslave is a dark fantasy dungeon crawler where you make a pact with the Devil to fight back a demon invasion.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -102,7 +102,7 @@ Catching up on Star Stable, OpenTTD, Endless Space: Definitive Edition, Endling:
     <div class="game-description">Star Stable is a MMORPG built especially for those with a passion for horses and games.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -114,7 +114,7 @@ Catching up on Star Stable, OpenTTD, Endless Space: Definitive Edition, Endling:
     <div class="game-description">OpenTTD is a business simulation game in which players earn money by transporting passengers and cargo via road, rail, water, and air. It is an open-source remake and expansion of the 1995 Chris Sawyer video game Transport Tycoon Deluxe.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -126,7 +126,7 @@ Catching up on Star Stable, OpenTTD, Endless Space: Definitive Edition, Endling:
     <div class="game-description">Endless Space - Definitive Edition includes all the expansions and updates released for the game (including Endless Space Disharmony).</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -138,7 +138,7 @@ Catching up on Star Stable, OpenTTD, Endless Space: Definitive Edition, Endling:
     <div class="game-description">As the last mother fox on Earth, your cubs need all your care to survive in a merciless world that slowly destroys itself. You have to help them, teach them and save them. And you should never forget that extinction is forever.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -150,7 +150,7 @@ Catching up on Star Stable, OpenTTD, Endless Space: Definitive Edition, Endling:
     <div class="game-description">Spaß Taxi is a clone of the original Space Taxi, where you need to bring passengers from one pad to another in weird environments with unexpected obstacles.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -166,7 +166,7 @@ Updated compatibility for Alwa's Awakening, Doom 64, Styx: Shards of Darkness.
     <div class="game-description">Use your magic staff and progress through a large interconnected world where you'll solve puzzles, fight enemies and defeat bosses in order to help free the land of Alwa.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -178,7 +178,7 @@ Updated compatibility for Alwa's Awakening, Doom 64, Styx: Shards of Darkness.
     <div class="game-description">You killed the Demons once, they were all dead.  Or so you thought.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -190,7 +190,7 @@ Updated compatibility for Alwa's Awakening, Doom 64, Styx: Shards of Darkness.
     <div class="game-description">Embark upon a stealthy adventure with new enemies, new environments, and a plethora of new mechanics aimed at refining the abilities and movement of Styx; grappling around corners, climbing ropes, and using his trusty knife as a zip-wire.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -206,7 +206,7 @@ This week highlighting Alan Wake II, Alan Wake, Alan Wake's American Nightmare.
     <div class="game-description">Ritualistic murders in a small town. A writer trapped in a nightmare. An FBI agent looking for answers. Two realities. Two hero characters. One horror story that wants them dead.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -218,7 +218,7 @@ This week highlighting Alan Wake II, Alan Wake, Alan Wake's American Nightmare.
     <div class="game-description">When the wife of the best-selling writer Alan Wake disappears on their vacation, his search turns up pages from a thriller he doesn’t even remember writing. A Dark Presence stalks the small town of Bright Falls, pushing Wake to the brink of sanity in his fight to unravel the mystery and save his love.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟡 Minor tinkering</div>
-        <div class="compatibility-line">2.0 Standalone: 🟡 Minor tinkering</div>
+        <div class="compatibility-line">Pro Version: 🟡 Minor tinkering</div>
     </div>
   </div>
 </div>
@@ -230,7 +230,7 @@ This week highlighting Alan Wake II, Alan Wake, Alan Wake's American Nightmare.
     <div class="game-description">Alan Wake’s American Nightmare is a stand alone spin-off adventure featuring a thrilling pulp action story mode and an all new “Fight till Dawn” arcade mode. American Nightmare will shine a new light on the world of Wake while appealing to fans and newcomers alike.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -253,7 +253,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

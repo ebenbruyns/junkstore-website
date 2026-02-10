@@ -29,16 +29,16 @@ I have a confession so please don't judge, but retesting Arcade Paradise totally
 
 A few quick updates before we dive into the games:
 
-* **Decky Loader + 2.0 Conflict:** If running both together, use the TEST channel build. It's the same stable build, just packaged without a component that conflicts with Decky (since Decky already includes it). We're using the TEST channel to keep it separate and easy to distinguish.
+* **Decky Loader + Pro Conflict:** If running both together, use the TEST channel build. It's the same stable build, just packaged without a component that conflicts with Decky (since Decky already includes it). We're using the TEST channel to keep it separate and easy to distinguish.
 * **GOG Extension:** New version (v0.1.11) available on the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> with LSFG support. All Patreon/Ko-fi supporters have been migrated — sign in with your original email to access.
 * **LSFG-VK Support:** Now built into Junk Store with easy toggles. No need to manually add environment variables. Find it under the **Proton Config** menu (change the dropdown to "All"). You may need to try different Proton versions to find one that works for your game. <a href="https://www.junkstore.xyz/blog/lsfg-frame-generation-built-in/" target="_blank" rel="noopener">More info →</a>
   * **Decky Plugin:** v1.1.13 (Main Decky store)
   * **GOG Extension:** v0.1.11 (Junk Store Portal)
-  * **Junk Store 2.0 (without Decky Loader):** v2.5.0.0-beta-20260111-140530 (Beta channel)
-  * **Junk Store 2.0 (with Decky Loader):** v2.4.1.0-test-20260108-100341 (Test channel)
+  * **Junk Store Pro (without Decky Loader):** v2.5.0.0-beta-20260111-140530 (Beta channel)
+  * **Junk Store Pro (with Decky Loader):** v2.4.1.0-test-20260108-100341 (Test channel)
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.5.0.0-beta (for itch.io use **Extension** Channel: beta)
+* **<a href="/buy_now/">Junk Store Pro</a>**: v2.5.0.0-beta (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.13 (Testing Store)
 * **GOG Extension**: v0.1.11 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Prerelease)
@@ -62,7 +62,7 @@ This week featuring Definitely Not Fried Chicken.
     <div class="game-description">Definitely Not Fried Chicken is a business management sim with a Twist.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -78,7 +78,7 @@ This week featuring Technotopia, ELDERBORN.
     <div class="game-description">Welcome to Technotopia, a city-builder card game.  Take on the role of an AI designed to build a perfect city.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -90,7 +90,7 @@ This week featuring Technotopia, ELDERBORN.
     <div class="game-description">ELDERBORN - a Metal AF* Slasher with brutal FPP melee combat and souls-like/RPG character progression.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -106,7 +106,7 @@ Catching up on Shadow Tactics: Aiko's Choice, Fall of Porcupine, Gravewood High,
     <div class="game-description">Aiko's Choice is a brand-new standalone addon to the beloved stealth tactics game Shadow Tactics.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -118,7 +118,7 @@ Catching up on Shadow Tactics: Aiko's Choice, Fall of Porcupine, Gravewood High,
     <div class="game-description">Guide young Finley through his first weeks at a provincial hospital.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -130,7 +130,7 @@ Catching up on Shadow Tactics: Aiko's Choice, Fall of Porcupine, Gravewood High,
     <div class="game-description">An infinitely replayable stealth horror game set in high school - with destructible environments, randomized level layouts and a smart opponent that develops new abilities the more you play.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -142,7 +142,7 @@ Catching up on Shadow Tactics: Aiko's Choice, Fall of Porcupine, Gravewood High,
     <div class="game-description">Neurodeck is a psychological deckbuilding card game to challenge your fears.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -154,7 +154,7 @@ Catching up on Shadow Tactics: Aiko's Choice, Fall of Porcupine, Gravewood High,
     <div class="game-description">Neverwinter Nights: Enhanced Edition is an updated version of the 2002 video game Neverwinter Nights.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -170,7 +170,7 @@ Updated compatibility for Arcade Paradise, Cat Quest II.
     <div class="game-description">Welcome to Arcade Paradise, the 90’s retro arcade adventure game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -182,7 +182,7 @@ Updated compatibility for Arcade Paradise, Cat Quest II.
     <div class="game-description">Open-world action-RPG in a fantasy realm of cats and dogs. Sequel to the award-winning original, CAT QUEST II lets you play solo or with a friend, as both a cat and dog! Quest in a world filled with magic, defeat monsters and collect loot in a catventure like never before!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -203,7 +203,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

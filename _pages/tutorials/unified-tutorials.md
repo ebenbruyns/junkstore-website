@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Junk Store Tutorials & Guides"
-description: "Complete tutorial collection for Junk Store Decky Plugin and 2.0 Standalone. Step-by-step guides for Epic Games, GOG, and Steam Deck setup."
+description: "Complete tutorial collection for Junk Store Decky Plugin and Pro Version. Step-by-step guides for Epic Games, GOG, and Steam Deck setup."
 permalink: /tutorials/
 classes: wide
 header:
@@ -12,14 +12,14 @@ header:
     - label: "Decky Plugin Help"
       url: "/deckyhelp/"
       class: "button"
-    - label: "Junk Store 2.0 Help"
+    - label: "Junk Store Pro Help"
       url: "/2.0-hub/"
       class: "button"
-excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.io games - both free Decky plugin and Junk Store 2.0"
+excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.io games - both free Decky plugin and Junk Store Pro"
 ---
 
 <section class="seo-intro">
-  <p><strong>Complete tutorials for both Junk Store versions.</strong> Whether you're using the free Decky plugin or Junk Store 2.0, find step-by-step guides for Junk Store features — all in Steam Deck Game Mode.</p>
+  <p><strong>Complete tutorials for both Junk Store versions.</strong> Whether you're using the free Decky plugin or Junk Store Pro, find step-by-step guides for Junk Store features — all in Steam Deck Game Mode.</p>
 </section>
 
 <!-- Welcome Message -->
@@ -33,7 +33,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
       <small>Click to filter</small>
     </div>
     <div class="version-card standalone filter-card" data-filter="standalone" onclick="filterTutorials('standalone')">
-      <h3>2.0 Standalone (Professional)</h3>
+      <h3>Pro Version</h3>
       <p>Full-featured standalone application</p>
       <small>Click to filter</small>
     </div>
@@ -58,9 +58,9 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 </div>
 
 <div class="tutorial-item standalone">
-  <h4><a href="/tutorials/install-junk-store-2">Install Junk Store 2.0</a></h4>
+  <h4><a href="/tutorials/install-junk-store-2">Install Junk Store Pro</a></h4>
   <p>Setup guide for the Professional standalone version</p>
-  <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
+  <span class="tutorial-tag standalone-tag">Pro Version</span>
 </div>
 
 <div class="tutorial-item decky">
@@ -110,7 +110,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 <div class="tutorial-item standalone">
   <h4><a href="/tutorials/change-game-language/">Change Language Settings</a></h4>
   <p>Change your Epic, GOG, or Amazon game language settings directly in Game Mode</p>
-  <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
+  <span class="tutorial-tag standalone-tag">Pro Version</span>
 </div>
 
 </div>
@@ -140,7 +140,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <h4><a href="/blog/install-dependencies-junk-store-2/">Install Game Dependencies Without ProtonTricks</a></h4>
   <p>Skip the complex ProtonTricks setup - install Visual C++, .NET Framework, and DirectX with one click</p>
   <span class="tip-tag">4 min read</span>
-  <span class="tutorial-tag standalone-tag">2.0 Standalone</span>
+  <span class="tutorial-tag standalone-tag">Pro Version</span>
 </div>
 
 <div class="tip-item both">
@@ -182,7 +182,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
       <span class="help-desc">Quick reference and tips</span>
     </a>
     <a href="/2.0-hub/" class="help-link">
-      <span class="help-title">2.0 Standalone Help</span>
+      <span class="help-title">Pro Version Help</span>
       <span class="help-desc">Quick reference and tips</span>
     </a>
   </div>
@@ -196,7 +196,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
       <span class="help-desc">Common plugin questions</span>
     </a>
     <a href="/faq/v2/" class="help-link">
-      <span class="help-title">2.0 Standalone FAQ</span>
+      <span class="help-title">Pro Version FAQ</span>
       <span class="help-desc">Common 2.0 questions</span>
     </a>
   </div>
@@ -210,7 +210,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
       <span class="help-desc">Fix plugin problems</span>
     </a>
     <a href="/troubleshooting/v2/" class="help-link">
-      <span class="help-title">2.0 Standalone Issues</span>
+      <span class="help-title">Pro Version Issues</span>
       <span class="help-desc">Fix standalone problems</span>
     </a>
   </div>

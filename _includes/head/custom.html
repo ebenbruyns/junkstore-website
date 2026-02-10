@@ -17,4 +17,23 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+<!-- Firebase SDK for dynamic banners -->
+<script type="module">
+  import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js';
+  import { getFirestore, collection, getDocs, doc, getDoc } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js';
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyDnUIisCanLOxvTWiHMAnZimg7CBnqKQp8",
+    authDomain: "junkstore-website.firebaseapp.com",
+    projectId: "junkstore-website"
+  };
+
+  window.firebaseApp = initializeApp(firebaseConfig);
+  window.firebaseDb = getFirestore(window.firebaseApp);
+  window.firebaseGetDocs = getDocs;
+  window.firebaseCollection = collection;
+  window.firebaseDoc = doc;
+  window.firebaseGetDoc = getDoc;
+</script>
+
 <!-- end custom head snippets -->

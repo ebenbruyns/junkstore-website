@@ -16,7 +16,7 @@ Kia ora Everyone!
 We are back on the boat after being away for almost 3 months (basically all of winter here in NZ). Over the weekend we had 50kt winds and rain - proper rough conditions - today it's a beautiful sunny day and calm. Perfect weather catch up on some computer work without the fear getting seasick!
 
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
-* **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9  
 * **GOG Extension**: v0.1.8 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.10 (Stable)
@@ -32,7 +32,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
     <strong><a href="/tested-games/?game=Machinarium">Machinarium</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -43,7 +43,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
     <strong><a href="/tested-games/?game=Make+Way">Make Way</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -56,7 +56,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
     <strong><a href="/tested-games/?game=Fantasy+Empires">Fantasy Empires</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -67,7 +67,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
     <strong><a href="/tested-games/?game=Heroes+of+Loot+2">Heroes of Loot 2</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -81,7 +81,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
     <strong><a href="/tested-games/?game=Dungeon+of+the+Endless%3A+Definitive+Edition">Dungeon of the Endless: Definitive Edition</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -92,7 +92,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
     <strong><a href="/tested-games/?game=Labyrinth+City%3A+Pierre+the+Maze+Detective">Labyrinth City: Pierre the Maze Detective</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -105,7 +105,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
     <strong><a href="/tested-games/?game=Strange+Horticulture">Strange Horticulture</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -116,7 +116,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
     <strong><a href="/tested-games/?game=Kamaeru">Kamaeru</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -129,7 +129,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
     <strong><a href="/tested-games/?game=Shadow+Sorcerer">Shadow Sorcerer</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -140,7 +140,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
     <strong><a href="/tested-games/?game=War+of+the+Lance">War of the Lance</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -151,7 +151,7 @@ We are back on the boat after being away for almost 3 months (basically all of w
     <strong><a href="/tested-games/?game=Advanced+Dungeons+%26+Dragons%3A+Heroes+of+the+Lance">Advanced Dungeons & Dragons: Heroes of the Lance</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-      <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+      <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -175,7 +175,7 @@ Cheers from a much calmer Kawau Island!
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Experience what premium Steam Deck gaming feels like</p>
 </div>

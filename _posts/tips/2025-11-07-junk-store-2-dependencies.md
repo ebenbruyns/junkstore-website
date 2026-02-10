@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Tip of the Week: Easily Install Game Dependencies with Junk Store 2.0"
+title: "Tip of the Week: Easily Install Game Dependencies with Junk Store Pro"
 date: 2025-11-05
-categories: [Tip of the Week, 2.0 Standalone]
+categories: [Tip of the Week, Pro Version]
 tags: [junk-store, steam-deck, tips]
 slug: "install-dependencies-junk-store-2"
-excerpt: "Skip the complex ProtonTricks setup! Junk Store 2.0 makes installing Visual C++, .NET Framework, and other Windows dependencies as simple as clicking a button."
+excerpt: "Skip the complex ProtonTricks setup! Junk Store Pro makes installing Visual C++, .NET Framework, and other Windows dependencies as simple as clicking a button."
 image: /assets/images/blog/251017-deps-hero.webp
 header:
   teaser: /assets/images/blog/251017-deps-thumb.webp
@@ -13,9 +13,9 @@ read_time: "3 min read"
 toc: true
 ---
 
-**This Week's Pro Tip:** Games won't launch due to missing Windows components? Junk Store 2.0 includes **built-in dependency management** directly in Game Mode menus - no Protontricks needed!
+**This Week's Pro Tip:** Games won't launch due to missing Windows components? Junk Store Pro includes **built-in dependency management** directly in Game Mode menus - no Protontricks needed!
 
-*Note: This feature is exclusive to Junk Store 2.0 Standalone.*
+*Note: This feature is exclusive to Junk Store Pro Version.*
 
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
@@ -77,7 +77,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready to skip the Desktop Mode hassle?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop fighting with Protontricks - install dependencies with one click</p>
 </div>

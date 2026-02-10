@@ -5,7 +5,7 @@ date: 2025-10-19
 categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips, epic-games, gog]
 slug: "custom-launch-arguments"
-excerpt: "Add advanced launch parameters for Epic and GOG games using Junk Store's Advanced settings. 2.0 includes a built-in text editor for easier configuration."
+excerpt: "Add advanced launch parameters for Epic and GOG games using Junk Store's Advanced settings. Pro Version includes a built-in text editor for easier configuration."
 image: /assets/images/blog/251015-launch-args-hero.webp
 header:
   teaser: /assets/images/blog/251015-launch-args-thumb.webp
@@ -15,7 +15,7 @@ toc: true
 
 **This Week's Pro Tip:** Need to add custom launch arguments to your Epic, GOG, Amazon or itch.io games? Use Junk Store's **Additional Variables** or **Additional Arguments** fields in the Advanced settings!
 
-*Note: This tip applies to both versions, but the steps differ slightly between Decky Plugin and 2.0 Standalone.*
+*Note: This tip applies to both versions, but the steps differ slightly between Decky Plugin and Pro Version.*
 
 <h2 style="text-align: left !important; margin-left: 0;">The Problem</h2>
 
@@ -25,7 +25,7 @@ You need to add advanced launch parameters to fix compatibility issues, enable s
 
 Easily add or edit launch arguments and variables directly in Junk Store. The content of these fields gets injected into the launch script just before the game launches, ensuring your custom settings persist between updates and launch option resets - no more redoing your tweaks after every game update!
 
-### For Junk Store 2.0
+### For Junk Store Pro
 
 1. From the game page in Junk Store, click the ⚙️ **Settings** menu
 
@@ -51,7 +51,7 @@ Easily add or edit launch arguments and variables directly in Junk Store. The co
 
 6. Press **A** to open keyboard and type your arguments
 
-   ![Junk Store 2.0 Additional Variables Interface](/assets/images/blog/2.0-addvar.jpg){: .align-center}
+   ![Junk Store Pro Additional Variables Interface](/assets/images/blog/2.0-addvar.jpg){: .align-center}
    <p style="text-align: center; font-style: italic;">Type your custom launch arguments in the text editor</p>
 
 7. Press **X** to save changes
@@ -106,7 +106,7 @@ All custom arguments are applied automatically when launching games - no manual 
 </div>
 
 <h2 style="text-align: left !important; margin-left: 0;">Next Week Preview</h2>
-Coming next week: **Installing Game Dependencies Without Protontricks** - Learn how Junk Store 2.0 makes it easy to add Visual C++, .NET Framework, and other Windows components when games won't launch!
+Coming next week: **Installing Game Dependencies Without Protontricks** - Learn how Junk Store Pro makes it easy to add Visual C++, .NET Framework, and other Windows components when games won't launch!
 
 Hope this tip helps! Questions? Our team is always ready to help.
 
@@ -116,7 +116,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for seamless Steam Deck gaming?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Why make gaming harder than it needs to be?</p>
 </div>

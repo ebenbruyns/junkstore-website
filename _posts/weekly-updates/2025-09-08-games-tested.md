@@ -20,7 +20,7 @@ We love being back on board our boat after winter - we really missed the calming
 Anyway, on to what you came for - let's see how last week's giveaways fared.
 
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
-* **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9  
 * **GOG Extension**: v0.1.8 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.10 (Stable)
@@ -37,7 +37,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
     <strong><a href="/tested-games/?game=Monument+Valley%2B">Monument Valley+</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -50,7 +50,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
     <strong><a href="/tested-games/?game=Ravenloft%3A+Stone+Prophet">Ravenloft: Stone Prophet</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -61,7 +61,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
     <strong><a href="/tested-games/?game=Ravenloft%3A+Strahd%27s+Possession">Ravenloft: Strahd's Possession</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🔴 Not supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -72,7 +72,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
     <strong><a href="/tested-games/?game=Sid+Meier%27s+Civilization+IV%3A+Complete+Edition">Sid Meier's Civilization IV: Complete Edition</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -83,7 +83,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
     <strong><a href="/tested-games/?game=Into+the+Breach">Into the Breach</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -96,7 +96,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
     <strong><a href="/tested-games/?game=LEGO+Builder%27s+Journey">LEGO Builder's Journey</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -107,7 +107,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
     <strong><a href="/tested-games/?game=GMDX">GMDX (Gog Mod)</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -120,7 +120,7 @@ Anyway, on to what you came for - let's see how last week's giveaways fared.
     <strong><a href="/tested-games/?game=Dorfromantik">Dorfromantik</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❓ Not tested</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -161,7 +161,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

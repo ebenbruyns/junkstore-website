@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Get Junk Store 2.0"
-description: "Download Junk Store 2.0 standalone app for Steam Deck. $40 annual license with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch.io (beta) directly in Game Mode."
+title: "Get Junk Store Pro"
+description: "Download Junk Store Pro standalone app for Steam Deck. $40 annual license with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch.io (beta) directly in Game Mode."
 permalink: /buy_now/
 header:
   overlay_color: "#000"
@@ -21,7 +21,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 <h1>Transform Your Steam Deck Into a Unified Gaming Hub</h1>
 
 <section class="seo-intro">
-  <p><strong>The ONLY solution that eliminates Desktop Mode switching entirely.</strong> While other launchers require Desktop Mode management, Junk Store 2.0 delivers the true handheld gaming freedom your Steam Deck was designed for.</p>
+  <p><strong>The ONLY solution that eliminates Desktop Mode switching entirely.</strong> While other launchers require Desktop Mode management, Junk Store Pro delivers the true handheld gaming freedom your Steam Deck was designed for.</p>
 </section>
 
 <section class="visual-proof">
@@ -51,7 +51,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 {% include video-demo-player.html %}
 
 <section class="key-features">
-  <h2>Why Junk Store 2.0 Is Worth the Investment</h2>
+  <h2>Why Junk Store Pro Is Worth the Investment</h2>
   <div class="features-grid">
     <div class="feature"><div style="text-align: center;">🚀 <strong>Never Leave Game Mode</strong></div><span class="feature-detail" style="text-align: left; display: block;">No Desktop Mode switching required</span></div>
     <div class="feature"><div style="text-align: center;">⚡ <strong>Just Works</strong></div><span class="feature-detail" style="text-align: left; display: block;">Install once, play immediately</span></div>

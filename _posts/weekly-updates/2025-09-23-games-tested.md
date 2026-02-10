@@ -21,19 +21,19 @@ G'day Everyone!
 
 This week was spent refining the website and fixing bugs uncovered through testing and community feedback. While testing Samorost 2, I hit an elusive bug that also affects Guild of Dungeoneering — sometimes these games work, sometimes they don't. We think we've narrowed it down though!
 
-If you get an error about missing files in **Junk Store 2.0**, apply this fix: toggle off "Set Steam Compatibility Library Paths" at **Game screen > Cog > Proton > Set Steam Compatibility Library Paths**. If you get this error in the **Decky version**, there's no fix yet, but saying that, sometimes it does work... we're still trying to figure out why.
+If you get an error about missing files in **Junk Store Pro**, apply this fix: toggle off "Set Steam Compatibility Library Paths" at **Game screen > Cog > Proton > Set Steam Compatibility Library Paths**. If you get this error in the **Decky version**, there's no fix yet, but saying that, sometimes it does work... we're still trying to figure out why.
 
 We also fixed GOG DLC downloads, Umu ID updates, and flatpak improvements.
 
 > **⚡ IMPORTANT UPDATE REMINDER ⚡**
-> **Junk Store 2.0 users:** Make sure your channels are set to **Stable** and run **Check for Updates** to get the latest Epic extension and GOG improvements!
+> **Junk Store Pro users:** Make sure your channels are set to **Stable** and run **Check for Updates** to get the latest Epic extension and GOG improvements!
 
 I got completely sucked into FATE: The Cursed King this weekend — my "testing" session turned into hours of actual gameplay! It's definitely going back on my personal play list, along with Samorost 2 which I didn't get enough time with.
 
 Let's get to this week's results — some real gems!
 
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
-* **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.11 (Pre-release)
@@ -55,7 +55,7 @@ This week featuring Samorost 2, Project Winter.
     <div class="game-description">A whimsical point-and-click adventure through a surreal world of dreams and imagination.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❌ Doesn't work</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -67,7 +67,7 @@ This week featuring Samorost 2, Project Winter.
     <div class="game-description">Face the wilderness, uncover traitors, and survive paranoia in this streamlined yet chaotic multiplayer experience.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -83,7 +83,7 @@ This week featuring Residual, FATE: The Cursed King.
     <div class="game-description">In a forgotten galaxy full of strange planets, a lone explorer crash-lands on one with an ancient alien secret. An exploration (survival) game like no other.. Adventure awaits!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -95,7 +95,7 @@ This week featuring Residual, FATE: The Cursed King.
     <div class="game-description">In FATE: The Cursed King, disaster threatens your home! Can you break the curse or will the city of Ekbatan be forever doomed?</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -111,7 +111,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
     <div class="game-description">Experience the gritty world of 1940s-50s organized crime in this cinematic third-person action adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -123,7 +123,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
     <div class="game-description">A musical action-adventure where you battle nightmares with creativity and rhythm in a surreal mindscape.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -135,7 +135,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
     <div class="game-description">Brutal third-person action as an Ultramarine fighting against hordes of Orks in the grim darkness of the far future.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -147,7 +147,7 @@ Catching up on Mafia II, Figment 2: Creed Valley, Warhammer 40,000: Space Marine
     <div class="game-description">A charming N64-style 3D platformer about a friendly bat exploring colorful worlds with retro gameplay.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟡 Minor tinkering</div>
+        <div class="compatibility-line">Pro Version: 🟡 Minor tinkering</div>
     </div>
   </div>
 </div>
@@ -163,7 +163,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
     <div class="game-description">The ultimate tower defense experience with monkeys, balloons, and endless strategic depth across multiple game modes.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -175,7 +175,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
     <div class="game-description">A challenging golf adventure through Golf Purgatory where you must ace your way back to the land of the living.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -187,7 +187,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
     <div class="game-description">Master supernatural powers and stealth in this immersive first-person action game set in a plague-ridden empire.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -199,7 +199,7 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
     <div class="game-description">A charming stealth-adventure starring a courageous mouse minstrel in a beautifully crafted medieval world.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -220,7 +220,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

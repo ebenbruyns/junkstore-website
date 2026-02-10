@@ -25,14 +25,14 @@ Quick reminders before we jump into the games:
 
 - There's a new Junk Store version in the Decky Main store (v1.1.10) and an updated Testing Store build (v1.1.11)
 
-- Running Decky Loader alongside Junk Store 2.0? Make sure you're using the build from the **TEST channel**
+- Running Decky Loader alongside Junk Store Pro? Make sure you're using the build from the **TEST channel**
 
-- Legacy Discounts expire December 31st, 2025. If you supported us before the 2.0 release, check the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> and don't miss out!
+- Legacy Discounts expire December 31st, 2025. If you supported us before the Pro release, check the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> and don't miss out!
 
 Fair warning: this week's testing list is absolutely massive. But we found some incredible games in there, so hopefully you will too!
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
+* **<a href="/buy_now/">Junk Store Pro</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.10 (Main Store)
 * **GOG Extension**: v0.1.10 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Pre-release)
@@ -56,7 +56,7 @@ This week featuring Hogwarts Legacy.
     <div class="game-description">Hogwarts Legacy is an immersive, open-world action RPG.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -72,7 +72,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Century: Age of Ashes is a free-to-play multiplayer dragon battle game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -84,7 +84,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Galactic Civilizations III is the largest strategy sandbox ever made.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -96,7 +96,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Guild of Dungeoneering is a turn-based dungeon crawler with a twist: instead of controlling the hero you build the dungeon around him. Using cards drawn from your Guild decks you lay down rooms, monsters, traps and of course loot!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❓ Not tested</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -108,7 +108,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">A skill-based third-person shooter, where the thrill of competition meets the world of skill-based token betting and the captivating integration of diverse NFT collections.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -120,7 +120,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Gear up and drop in to Rogue Company, the third-person tactical action shooter that puts the fate of the world in your hands.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -132,7 +132,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Town of Salem 2 is the sequel to BlankMediaGames' hit Murder Mystery game, Town of Salem.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -144,7 +144,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">War Tanks is an intense online tank warfare game that combines the best elements of simulator, action, shooter, and strategy.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -156,7 +156,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Warframe situates players as members of the Tenno race, newly awoken after years of cryo-sleep into a solar system at war. Reborn into a corrupt era, the Tenno are sought by the oppressive Grineer Empire for annihilation.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -168,7 +168,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">The Forbidden Islands are Calling, Unlock their Secrets.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -180,7 +180,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Giana Sisters: Twisted Dreams is a blistering hardcore platformer with contrasting worlds.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -192,7 +192,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Scarf is a 3D Adventure game, where protagonist Hyke must use his polymorphic scarf to explore a magical environment, solve mysterious puzzles and overcome difficult challenges. Hyke’s scarf morphs into different objects which will help to progress the adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -204,7 +204,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Neo-San Francisco, 2064 AD. Your life as a struggling journalist is interrupted by the world’s first sapient machine, a ROM (Relationship and Organizational Manager) named Turing. Together, you and the quirky robot will encounter a colorful cast of locals and overcome challenges as you uncover the city’s secrets behind the overlapping futures of technology and humanity.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -216,7 +216,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Here are 6 things that are too small to be posted or sold on their own: - Chat Stashers - Bubble Herder - Planet Maker - Ladybug Window - Games Fast - Desktop Incense Burner</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -228,7 +228,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Interactive music album release.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -240,7 +240,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Adrien, a creature born of a young boy’s nightmares, takes a little summer vacation.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -252,7 +252,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Through a narrative based on Red Ribbon’s new album “Planet X”, experience a broken-heart girl’s journey through thoughts, daydreams and music.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -264,7 +264,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">A Snake's Tale is a puzzle game about snakes in cramped places.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -276,7 +276,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">About Love, Hate and the other ones“ is a mindbending puzzle game in which you take control of the two main characters Love and Hate. Guide them through 60 levels to take them back home to their beloved hill.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -288,7 +288,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Air Dasher is Fast! Air Dasher is Fluid! Air Dasher is Platformer!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -300,7 +300,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">A psychological mystery yuri visual novel about a girl named Amelie.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -312,7 +312,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">You've got one hour to make your flight and you're about to hit every conceivable airport related obstacle imaginable.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -324,7 +324,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">An Endless Bus Driving Game, created for Ludam Dare 48 created in Unrea Engine 4.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -336,7 +336,7 @@ Catching up on Century: Age of Ashes, Galactic Civilizations III, Guild of Dunge
     <div class="game-description">Alone With You is a bittersweet sci-fi adventure game that goes right for the heart.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -352,7 +352,7 @@ Updated compatibility for ToeJam & Earl: Back in the Groove, Call of Juarez: Bou
     <div class="game-description">ToeJam and Earl have crash-landed back on Earth in ToeJam and Earl: Back in the Groove.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -364,7 +364,7 @@ Updated compatibility for ToeJam & Earl: Back in the Groove, Call of Juarez: Bou
     <div class="game-description">In the remote and deadly Wild West, the outlaw McCall brothers are on a quest for the legendary Gold of Juarez.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -376,7 +376,7 @@ Updated compatibility for ToeJam & Earl: Back in the Groove, Call of Juarez: Bou
     <div class="game-description">Face unspeakable horrors.  Succumb to madness.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -392,7 +392,7 @@ This week highlighting A Hole New World, [Speer], Where Winds Meet.
     <div class="game-description">The city is being invaded by monsters from the Upside Down World! You, the Potion Master, must defeat evil all alone, with no tutorials or "Easy Mode" to assist you. You'll have to rely on the help of Fäy, your companion fairy, and your potions!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -404,7 +404,7 @@ This week highlighting A Hole New World, [Speer], Where Winds Meet.
     <div class="game-description">Grab your Speer and use it to make your way through this puzzle-platformer.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -416,7 +416,7 @@ This week highlighting A Hole New World, [Speer], Where Winds Meet.
     <div class="game-description">Where Winds Meet is an epic Wuxia open-world action-adventure RPG set in ancient China at the tenth century.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -439,7 +439,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

@@ -26,7 +26,7 @@ I'll try to stay focused this week, though it might be a challenge. I'm heading 
 Anyway, here's last weekend's testing session at long last.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.0-pre1 (Pre-release)
@@ -50,7 +50,7 @@ This week featuring Felix the Reaper.
     <div class="game-description">Felix The Reaper - A romantic comedy game about the life of death.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -66,7 +66,7 @@ This week featuring Lovecraft's Untold Stories, Gas Station Simulator, New Tales
     <div class="game-description">Lovecraft’s Untold Stories is an action RPG with rogue-like elements.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -78,7 +78,7 @@ This week featuring Lovecraft's Untold Stories, Gas Station Simulator, New Tales
     <div class="game-description">Gas Station Simulator is all about renovating, expanding and running a gas station along a highway in the middle of a desert. Freedom of choice and multiple approaches to run your business and deal with pressure are key ingredients in this game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -90,7 +90,7 @@ This week featuring Lovecraft's Untold Stories, Gas Station Simulator, New Tales
     <div class="game-description">Decide the fates of altruistic scientist Anu, her ambitious, "streetwise" brother Octavio, and the fierce, frogurt-slinging Fran. Claw and con your way through five thrilling chapters!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -102,7 +102,7 @@ This week featuring Lovecraft's Untold Stories, Gas Station Simulator, New Tales
     <div class="game-description">Lovecraft’s Untold Stories is an action RPG with rogue-like elements.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -118,7 +118,7 @@ Catching up on Saints Row, Saints Row IV: Re-Elected, Lovecraft's Untold Stories
     <div class="game-description">Welcome to Santo Ileso, a vibrant fictional city in the American Southwest.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❌ Doesn't work</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -130,7 +130,7 @@ Catching up on Saints Row, Saints Row IV: Re-Elected, Lovecraft's Untold Stories
     <div class="game-description">Saints Row IV: Re-Elected is an updated port version of Saints Row IV, originally ported to Xbox One and Playstation 4, and later on to Nintendo Switch.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -142,7 +142,7 @@ Catching up on Saints Row, Saints Row IV: Re-Elected, Lovecraft's Untold Stories
     <div class="game-description">Lovecraft’s Untold Stories is an action RPG with rogue-like elements.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -154,7 +154,7 @@ Catching up on Saints Row, Saints Row IV: Re-Elected, Lovecraft's Untold Stories
     <div class="game-description">Explore a surreal world obsessed with proportions and anatomy, in this 2.5D Metroidvania action RPG, where you will find out what you're made of... and break everything else apart.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -166,7 +166,7 @@ Catching up on Saints Row, Saints Row IV: Re-Elected, Lovecraft's Untold Stories
     <div class="game-description">Sine Mora EX is a side-scrolling shoot'em up that provides a unique challenge, where time is the ultimate factor.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -182,7 +182,7 @@ Updated compatibility for PC Building Simulator, Blacksad: Under the Skin, Blast
     <div class="game-description">PC Building Simulator lets players get to grips and experiment with building their very own gaming PC, without the associated risks and costs. With tutorials to help master the basics and an array of accurate and lifelike components that function exactly as they would in real life.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -194,7 +194,7 @@ Updated compatibility for PC Building Simulator, Blacksad: Under the Skin, Blast
     <div class="game-description">Based on the noir comic series by the same name. The game features a noir detective story about a PI by the name of Blacksad that gets dragged into the case of a murdered boxing club.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -206,7 +206,7 @@ Updated compatibility for PC Building Simulator, Blacksad: Under the Skin, Blast
     <div class="game-description">Blast Brigade is a colorful 2D action-adventure that combines intense platformer gameplay with metroidvania exploration.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -231,7 +231,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
-    - label: "Try Junk Store 2.0 Free"
+    - label: "Try Junk Store Pro Free"
       url: "/buy_now/"
       class: "button buy-button"
 excerpt: "Junk Store tips, game reviews, feature updates, and guides for Epic, GOG, Amazon & itch.io games"

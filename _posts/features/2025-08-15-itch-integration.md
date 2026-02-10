@@ -15,7 +15,7 @@ toc: true
 
 <h2 style="text-align: left !important; margin-left: 0;">For the First Time Ever: Itch.io → Steam Integration</h2>
 
-This is hot off the press: I've been on a little side quest to get **Itch.io working**, and it's now live in the beta branch for all existing Junk Store 2.0 customers.
+This is hot off the press: I've been on a little side quest to get **Itch.io working**, and it's now live in the beta branch for all existing Junk Store Pro customers.
 
 **Historic milestone**: This is the **first time ever** that Itch.io has been integrated directly into Steam.
 
@@ -92,7 +92,7 @@ This is bleeding edge stuff - you're getting access to something that's never ex
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Your Steam Deck, simplified and supercharged</p>
 </div>

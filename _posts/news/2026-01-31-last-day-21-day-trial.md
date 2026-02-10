@@ -5,7 +5,7 @@ date: 2026-01-31
 categories: [News]
 tags: [junk-store, steam-deck, news]
 slug: "last-day-21-day-trial"
-excerpt: "Today is your last chance to get the extended 21-day trial for Junk Store 2.0. Don't miss out!"
+excerpt: "Today is your last chance to get the extended 21-day trial for Junk Store Pro. Don't miss out!"
 image: /assets/images/blog/last-day-trial-hero.jpg
 header:
   teaser: /assets/images/blog/last-day-trial-hero-thumb.jpg
@@ -16,16 +16,16 @@ read_time: "1 min read"
   <strong>⏰ This promotion has ended.</strong> Check our <a href="/blog/">latest posts</a> for current offers.
 </div>
 
-Quick heads up: today is the **last day** to get the extended 21-day trial for Junk Store 2.0.
+Quick heads up: today is the **last day** to get the extended 21-day trial for Junk Store Pro.
 
 Starting tomorrow, trials return to the standard 7 days.
 
 ## Get Started Now
 
-If you've been thinking about trying Junk Store 2.0, now's the time:
+If you've been thinking about trying Junk Store Pro, now's the time:
 
 1. [Sign up at the portal](https://portal.junkstore.xyz/)
-2. Download and install Junk Store 2.0
+2. Download and install Junk Store Pro
 3. Enjoy 21 days to test everything out
 
 The extended trial gives you plenty of time to:
@@ -38,7 +38,7 @@ The extended trial gives you plenty of time to:
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 21 Days
+    🚀 Try Junk Store Pro Free for 21 Days
   </a>
   <p class="inline-cta-subtext">Today only: Extended trial ends at midnight</p>
 </div>

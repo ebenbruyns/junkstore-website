@@ -11,13 +11,13 @@ read_time: "3 min read"
 toc: true
 ---
 
-It's unusual for us to release early R&D work, but we have a diagnostics tool based on extensive research that we think would be useful to users. This framework is still in the early phases of development, but we have already found it useful. It's available on the beta build channel for Junk Store 2.0.
+It's unusual for us to release early R&D work, but we have a diagnostics tool based on extensive research that we think would be useful to users. This framework is still in the early phases of development, but we have already found it useful. It's available on the beta build channel for Junk Store Pro.
 
 <h2 style="text-align: left !important; margin-left: 0;">What Does It Do?</h2>
 
 The diagnostics framework will attempt to detect issues and suggest remedies on your Steam Deck. It deliberately does not interface with Valve's APIs and controls, which means it can enable Junk Store updates even if things are broken. Think of this as an emergency escape hatch.
 
-This means that if a SteamOS update affects Junk Store 2.0 functionality, this diagnostic tool will automatically pop up.
+This means that if a SteamOS update affects Junk Store Pro functionality, this diagnostic tool will automatically pop up.
 
 ![Diagnostics tool integrated with Steam UI](/assets/images/blog/JunkStoreDiagnostics-1.webp)
 
@@ -78,7 +78,7 @@ If you get stuck or encounter any issues with the diagnostic tool, don't hesitat
 <div class="inline-blog-cta">
   <p><strong>Ready to experience premium Steam Deck gaming?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🛠️ Try Junk Store 2.0 Free for 7 Days
+    🛠️ Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Give your Steam Deck the launcher it was meant to have</p>
 </div>

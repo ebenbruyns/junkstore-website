@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Why Choose Junk Store"
-description: "Compare Junk Store 2.0 with free third-party launchers for Epic, GOG, Amazon & itch.io games. Discover the Game Mode-native difference."
+description: "Compare Junk Store Pro with free third-party launchers for Epic, GOG, Amazon & itch.io games. Discover the Game Mode-native difference."
 permalink: /comparison/
 header:
   overlay_color: "#000"
@@ -31,49 +31,49 @@ excerpt: "The only launcher that eliminates Desktop Mode switching entirely - di
 
 
 <section class="major-differentiators">
-  <h2>Free Alternatives vs Junk Store 2.0 - The Key Differences</h2>
+  <h2>Free Alternatives vs Junk Store Pro - The Key Differences</h2>
   <div class="differentiator-grid">
 
     <div class="differentiator-item">
       <h3>🎯 Desktop Mode Elimination</h3>
       <p class="problem">❌ <strong>Free Alternatives:</strong> Require desktop switching for setup and management</p>
-      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Pure Game Mode - never leave handheld mode</p>
+      <p class="solution">✅ <strong>Junk Store Pro:</strong> Pure Game Mode - never leave handheld mode</p>
     </div>
 
     <div class="differentiator-item">
       <h3>⚡ Zero Performance Impact</h3>
       <p class="problem">❌ <strong>Free Alternatives:</strong> Run background processes while gaming</p>
-      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Lightweight scripts - zero performance interference</p>
+      <p class="solution">✅ <strong>Junk Store Pro:</strong> Lightweight scripts - zero performance interference</p>
     </div>
 
     <div class="differentiator-item">
       <h3>🚀 Professional Development Team</h3>
       <p class="problem">❌ <strong>Free Alternatives:</strong> Community volunteers with slower GitHub releases</p>
-      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Full-time dev team with instant update channels</p>
+      <p class="solution">✅ <strong>Junk Store Pro:</strong> Full-time dev team with instant update channels</p>
     </div>
 
     <div class="differentiator-item">
       <h3>🎮 True Native Steam Integration</h3>
       <p class="problem">❌ <strong>Free Alternatives:</strong> Launch separate launcher apps with limited integration</p>
-      <p class="solution">✅ <strong>Junk Store 2.0:</strong> All libraries visible directly in Game Mode</p>
+      <p class="solution">✅ <strong>Junk Store Pro:</strong> All libraries visible directly in Game Mode</p>
     </div>
 
     <div class="differentiator-item">
       <h3>🎲 Handheld-First Experience</h3>
       <p class="problem">❌ <strong>Free Alternatives:</strong> Desktop-first with controller as afterthought</p>
-      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Built specifically for Steam Deck workflows</p>
+      <p class="solution">✅ <strong>Junk Store Pro:</strong> Built specifically for Steam Deck workflows</p>
     </div>
 
     <div class="differentiator-item">
       <h3>🕹️ Complete Gaming Ecosystem</h3>
       <p class="problem">❌ <strong>Free Alternatives:</strong> Handle store games only with separate emulator setup</p>
-      <p class="solution">✅ <strong>Junk Store 2.0:</strong> Epic + GOG + Amazon + itch.io + ROMs integrated in Game Mode</p>
+      <p class="solution">✅ <strong>Junk Store Pro:</strong> Epic + GOG + Amazon + itch.io + ROMs integrated in Game Mode</p>
     </div>
 
   </div>
 
   <div class="differentiator-conclusion">
-    <p><strong>The bottom line:</strong> Free alternatives are excellent desktop applications adapted for Steam Deck. Junk Store 2.0 is purpose-built for handheld gaming - a fundamentally different architectural approach.</p>
+    <p><strong>The bottom line:</strong> Free alternatives are excellent desktop applications adapted for Steam Deck. Junk Store Pro is purpose-built for handheld gaming - a fundamentally different architectural approach.</p>
   </div>
 
   <div class="primary-cta">
@@ -102,7 +102,7 @@ excerpt: "The only launcher that eliminates Desktop Mode switching entirely - di
       </div>
       <div class="decision-point">
         <h4>🚀 <strong>Professional vs Community Development</strong></h4>
-        <p>Free alternatives rely on community volunteers with slower releases. Junk Store 2.0 has full-time professional development with instant update channels (stable/testing/beta). No waiting for GitHub builds.</p>
+        <p>Free alternatives rely on community volunteers with slower releases. Junk Store Pro has full-time professional development with instant update channels (stable/testing/beta). No waiting for GitHub builds.</p>
       </div>
       <div class="decision-point">
         <h4>💰 <strong>Premium Experience for Less Than $1/Week</strong></h4>

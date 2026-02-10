@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Junk Store 2.0 - Play Non-Steam Games on Steam Deck"
+title: "Junk Store Pro - Play Non-Steam Games on Steam Deck"
 description: "The ONLY solution that eliminates Desktop Mode switching entirely. Play Epic, GOG, Amazon & itch.io (beta) games directly in Steam Deck Game Mode. 7-day trial."
 permalink: /
 header:

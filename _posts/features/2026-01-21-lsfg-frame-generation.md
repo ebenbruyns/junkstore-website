@@ -18,8 +18,8 @@ toc: true
 *This feature is now supported on:*
 - **Decky Plugin:** v1.1.13 (Main Decky store)
 - **GOG Extension:** v0.1.11 (Junk Store Portal)
-- **Junk Store 2.0 (without Decky):** v2.5.0.0-beta-20260111-140530 (Beta channel)
-- **Junk Store 2.0 (with Decky):** v2.4.1.0-test-20260108-100341 (Test channel)
+- **Junk Store Pro (without Decky):** v2.5.0.0-beta-20260111-140530 (Beta channel)
+- **Junk Store Pro (with Decky):** v2.4.1.0-test-20260108-100341 (Test channel)
 
 <h2 style="text-align: left !important; margin-left: 0;">Requirements</h2>
 
@@ -68,7 +68,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for seamless Steam Deck gaming?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Game Mode native - the way handheld gaming should be</p>
 </div>

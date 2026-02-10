@@ -20,7 +20,7 @@ We're currently battening down the hatches here as Mother Nature serves up our t
 Fortunately, I managed to get some solid testing done earlier in the week before the weather turned. I'm particularly excited to dive into the Monument Valley games (they seem perfect for shorter, seasickness-friendly gaming sessions), and I'm absolutely stoked about Samorost 2 coming to Epic next week – Amanita Design's atmospheric puzzle adventures are exactly the type of games I love!
 
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
-* **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.8 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.10 (Stable)
@@ -39,7 +39,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Ghostrunner+II">Ghostrunner II</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -50,7 +50,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=The+Battle+of+Polytopia">The Battle of Polytopia</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -61,7 +61,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Monument+Valley+2">Monument Valley 2</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -74,7 +74,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Tower+of+Time">Tower of Time</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -85,7 +85,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Afterimage">Afterimage</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -96,7 +96,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Subterrain%3A+Mines+of+Titan">Subterrain: Mines of Titan</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -109,7 +109,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Lords+Mobile">Lords Mobile</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -120,7 +120,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Liberated">Liberated</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -131,7 +131,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=LEGO+Indiana+Jones%3A+The+Original+Adventures">LEGO Indiana Jones: The Original Adventures</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟡 Minor tinkering</div>
+        <div class="compatibility-line">Pro Version: 🟡 Minor tinkering</div>
     </div>
   </div>
 </div>
@@ -142,7 +142,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Mortal+Shell+Tech+Beta">Mortal Shell Tech Beta</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -155,7 +155,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Alba%3A+A+Wildlife+Adventure">Alba: A Wildlife Adventure</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -166,7 +166,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Art+of+Rally">Art of Rally</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -177,7 +177,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Ascendant">Ascendant</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -188,7 +188,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
     <strong><a href="/tested-games/?game=Dishonored">Dishonored</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -207,7 +207,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Game Mode native — the way handheld gaming should be</p>
 </div>

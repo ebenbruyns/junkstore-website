@@ -26,17 +26,17 @@ I'm back down in Papamoa for the week helping my parents out with a few things, 
 
 A few quick updates before we dive into the games:
 
-* **Decky Loader + 2.0 Conflict:** If running both together, use the TEST channel build. It's the same stable build, just packaged without a component that conflicts with Decky (since Decky already includes it). We're using the TEST channel to keep it separate and easy to distinguish.
-* **Extended Trials:** Trials for Junk Store 2.0 have been extended to 21 days for the rest of the month. Plenty of time to test everything out and see if it works for your setup.
+* **Decky Loader + Pro Conflict:** If running both together, use the TEST channel build. It's the same stable build, just packaged without a component that conflicts with Decky (since Decky already includes it). We're using the TEST channel to keep it separate and easy to distinguish.
+* **Extended Trials:** Trials for Junk Store Pro have been extended to 21 days for the rest of the month. Plenty of time to test everything out and see if it works for your setup.
 * **GOG Extension:** New version (v0.1.11) now available on the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> with LSFG support. All Patreon/Ko-fi supporters have been migrated — sign in with your original email to access.
 * **LSFG-VK Support:** Now built into Junk Store with easy toggles. No need to manually add environment variables. Find it under the **Proton Config** menu (change the dropdown to "All"). You may need to try different Proton versions to find one that works for your game. <a href="https://www.junkstore.xyz/blog/lsfg-frame-generation-built-in/" target="_blank" rel="noopener">More info →</a>
   * **Decky Plugin:** v1.1.13 (Main Decky store)
   * **GOG Extension:** v0.1.11 (Junk Store Portal)
-  * **Junk Store 2.0 (without Decky Loader):** v2.5.0.0-beta-20260111-140530 (Beta channel)
-  * **Junk Store 2.0 (with Decky Loader):** v2.4.1.0-test-20260108-100341 (Test channel)
+  * **Junk Store Pro (without Decky Loader):** v2.5.0.0-beta-20260111-140530 (Beta channel)
+  * **Junk Store Pro (with Decky Loader):** v2.4.1.0-test-20260108-100341 (Test channel)
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.5.0.0-beta (for itch.io use **Extension** Channel: beta)
+* **<a href="/buy_now/">Junk Store Pro</a>**: v2.5.0.0-beta (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.13 (Testing Store)
 * **GOG Extension**: v0.1.11 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Prerelease)
@@ -60,7 +60,7 @@ This week featuring Styx: Master of Shadows, Styx: Shards of Darkness - Deluxe E
     <div class="game-description">Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -72,7 +72,7 @@ This week featuring Styx: Master of Shadows, Styx: Shards of Darkness - Deluxe E
     <div class="game-description">Styx returns in a new stealth adventure! Explore and master huge open environments, sneak past or assassinate new enemies and bosses, and experiment with the new array of lethal abilities and weapons in our goblin assassin's arsenal.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: ❓ Not tested</div>
+        <div class="compatibility-line">Pro Version: ❓ Not tested</div>
     </div>
   </div>
 </div>
@@ -88,7 +88,7 @@ This week featuring Brigador: Up-Armored Edition, Gunslugs : Rogue Tactics, Deat
     <div class="game-description">Pilot a mech to hunt down and destroy the oppressive government of a cyberpunk autocracy.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -100,7 +100,7 @@ This week featuring Brigador: Up-Armored Edition, Gunslugs : Rogue Tactics, Deat
     <div class="game-description">Grab your bandana and get ready for Gunslugs : Rogue Tactics.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -112,7 +112,7 @@ This week featuring Brigador: Up-Armored Edition, Gunslugs : Rogue Tactics, Deat
     <div class="game-description">DeathKeep is a D&amp;D dungeon delving the way you like it - fast, furious and fun.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -128,7 +128,7 @@ Catching up on Sid Meier's Civilization VI, Deus Ex: Mankind Divided, Total War:
     <div class="game-description">Civilization is a turn-based strategy game in which you attempt to build an empire to stand the test of time.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -140,7 +140,7 @@ Catching up on Sid Meier's Civilization VI, Deus Ex: Mankind Divided, Total War:
     <div class="game-description">Deus Ex: Mankind Divided directly follows the aftermath of the Aug Incident, a day when mechanically augmented citizens all over the world were stripped of control over their minds and bodies, resulting in the deaths of millions of innocents. The year is now 2029, and the golden era of augmentations is over. </div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -152,7 +152,7 @@ Catching up on Sid Meier's Civilization VI, Deus Ex: Mankind Divided, Total War:
     <div class="game-description">Total War: THREE KINGDOMS is the first in the award-winning series to recreate epic conflict across ancient China.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: ❌ Doesn't work</div>
+        <div class="compatibility-line">Pro Version: ❌ Doesn't work</div>
     </div>
   </div>
 </div>
@@ -168,7 +168,7 @@ Updated compatibility for Alex Kidd in Miracle World DX, Among the Sleep: Enhanc
     <div class="game-description">The legendary Alex Kidd returns with Alex Kidd in Miracle World DX.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -180,7 +180,7 @@ Updated compatibility for Alex Kidd in Miracle World DX, Among the Sleep: Enhanc
     <div class="game-description">Among the Sleep: Enhanced Edition is a new and improved version of the award winning first person horror adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -192,7 +192,7 @@ Updated compatibility for Alex Kidd in Miracle World DX, Among the Sleep: Enhanc
     <div class="game-description">The Bloons are back and better than ever! Craft your perfect defense from a combination of awesome monkey towers, upgrades, Heroes, and activated abilities, then pop every last Bloon that comes your way!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -204,7 +204,7 @@ Updated compatibility for Alex Kidd in Miracle World DX, Among the Sleep: Enhanc
     <div class="game-description">Star Wars: Battlefront II is the sequel to Star Wars: Battlefront.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -216,7 +216,7 @@ Updated compatibility for Alex Kidd in Miracle World DX, Among the Sleep: Enhanc
     <div class="game-description">The First Templar follows the story of two main characters – a French Templar, and his companion, a noble lady who has been proclaimed a heretic. Taking control over these two unlikely allies, the player must uncover the mysteries behind the Templar Order, play a role in a grand conspiracy, and discover the secret of the Holy Grail.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -232,7 +232,7 @@ Big thanks to Anatharias for letting us know about this game!
     <div class="game-description">ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: ❓ Not tested</div>
+        <div class="compatibility-line">Pro Version: ❓ Not tested</div>
     </div>
   </div>
 </div>
@@ -248,7 +248,7 @@ This week highlighting Fallout 4, got this as a Christmas presnet to myself as w
     <div class="game-description">From Bethesda Game Studios, the award-winning creators of Starfield and The Elder Scrolls V: Skyrim, comes Fallout 4.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -269,7 +269,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

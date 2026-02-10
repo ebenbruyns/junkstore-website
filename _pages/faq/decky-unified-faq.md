@@ -48,7 +48,7 @@ excerpt: "Complete FAQ for the free Junk Store Decky plugin - Epic Games support
     <strong>For detailed feature comparison:</strong> <a href="/comparison/">View Complete Comparison Chart</a>
     <br>
     <br>
-    For more information, see our <a href="{{ '/2.0faq/' | relative_url }}">Junk Store 2.0 FAQ</a>
+    For more information, see our <a href="{{ '/2.0faq/' | relative_url }}">Junk Store Pro FAQ</a>
 </details>
 
 <details class="faq-box" id="trustworthy-credentials">

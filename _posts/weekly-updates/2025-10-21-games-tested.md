@@ -24,7 +24,7 @@ The sun is shining, the internet is cooperating, AND I managed to resist turning
 Hope you all get a chance to try some of these out - there are some genuinely good ones in this week's batch.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.0-pre1 (Pre-release)
@@ -46,7 +46,7 @@ This week featuring Amnesia: The Bunker, Samorost 3.
     <div class="game-description">Amnesia: The Bunker is a first-person horror game set in a WW1 bunker.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -58,7 +58,7 @@ This week featuring Amnesia: The Bunker, Samorost 3.
     <div class="game-description">Samorost 3 is an exploration adventure and puzzle game from the award-winning creators of Machinarium and Botanicula.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❌ Doesn't work</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -74,7 +74,7 @@ This week featuring EMPTY SHELL, True Fear: Forsaken Souls Part 1, Fallout: New 
     <div class="game-description">EMPTY SHELL will throw you in a dark industrial environment, a secret facility on a Japanese island.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -86,7 +86,7 @@ This week featuring EMPTY SHELL, True Fear: Forsaken Souls Part 1, Fallout: New 
     <div class="game-description">True Fear: Forsaken Souls takes the best of the psychological thriller, blending in fun and intuitive gameplay mechanics.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -98,7 +98,7 @@ This week featuring EMPTY SHELL, True Fear: Forsaken Souls Part 1, Fallout: New 
     <div class="game-description">Welcome to Vegas.  New Vegas. IT's the kind of town where you dig your own grave prior to being shot in the head and left for dead… and that’s before things really get ugly.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -114,7 +114,7 @@ Catching up on Submerged: Hidden Depths, Eschalon: Book II, Total Annihilation: 
     <div class="game-description">Submerged: Hidden Depths is a non-combat third-person “relaxploration” adventure, set in the sunken ruins of a beautiful world. Take on the role of Miku and Taku – one cursed with a mysterious power that she wants to use for good, the other determined not to let it tear them apart.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -126,7 +126,7 @@ Catching up on Submerged: Hidden Depths, Eschalon: Book II, Total Annihilation: 
     <div class="game-description">The time has come to return to the realm of Eschalon! A new menace threatens Mistfell and the northern provinces, and evidence of your mysterious past come to light which will make you question everything you know about yourself. Don't miss this thrilling sequel to 2007's award-winning Eschalon: Book I!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -138,7 +138,7 @@ Catching up on Submerged: Hidden Depths, Eschalon: Book II, Total Annihilation: 
     <div class="game-description">A four-thousand-year war between the Core and the Arm has devastated a million worlds in their struggle for domination. With both sides crippled and resources exhausted, the battle continues - a fight to the death where only total annihilation of the enemy is acceptable.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -150,7 +150,7 @@ Catching up on Submerged: Hidden Depths, Eschalon: Book II, Total Annihilation: 
     <div class="game-description">A noir adventure spanning time and space. You play as No Man, a watch peddler caught in a love triangle with other cosmic beings, Miss Mass and Golden Boy. When your affair turns into a bitter confrontation, you will witness a gunshot fired by a jealous god—otherwise known as The Big Bang. Jump into the expanding universe and search for a way to prevent or destroy creation and save your love.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -162,7 +162,7 @@ Catching up on Submerged: Hidden Depths, Eschalon: Book II, Total Annihilation: 
     <div class="game-description">A dungeon in danger ! Build, manage, and defend your tower in the satirical heroic fantasy universe of Dungeon of Naheulbeuk. From a shaky establishment to an infamous lair!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -178,7 +178,7 @@ Updated compatibility for Dishonored: Death of the Outsider, Shadowrun Returns.
     <div class="game-description">Dishonored: Death of the Outsider is a standalone expansion pack and a sequel to Dishonored 2.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -190,7 +190,7 @@ Updated compatibility for Dishonored: Death of the Outsider, Shadowrun Returns.
     <div class="game-description">The unique cyberpunk-meets-fantasy world of Shadowrun has gained a huge cult following since its creation nearly 25 years ago. Now, creator Jordan Weisman returns to the world of Shadowrun, modernizing this classic game setting as a single player, turn-based tactical RPG.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works perfectly</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
     </div>
   </div>
 </div>
@@ -211,7 +211,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

@@ -77,7 +77,7 @@ Since we don't have comments on blog posts, join the conversation on Discord or 
 <div class="inline-blog-cta">
   <p><strong>Ready to try these tested games on your Steam Deck?</strong></p>
   <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="inline-blog-cta-button">
-    🎮 Start Free Trial - Junk Store 2.0
+    🎮 Start Free Trial - Junk Store Pro
   </a>
   <p class="inline-cta-subtext">Get instant access to Epic, GOG, Amazon & itch.io games in Game Mode</p>
 </div>

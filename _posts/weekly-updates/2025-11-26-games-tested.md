@@ -23,12 +23,12 @@ Apologies for missing last week's post—the past couple of weeks have been full
 
 **Quick updates:**
 
-- **Black Friday Special:** We're offering **50% off** your first year of Junk Store 2.0, valid until **December 2**. If you have an existing discount less than 50%, DM us to manually remove it so you can apply this code. Due to Stripe limitations and the manual work required, any existing discount will be forfeited if you choose not to use the 50% Black Friday code.
+- **Black Friday Special:** We're offering **50% off** your first year of Junk Store Pro, valid until **December 2**. If you have an existing discount less than 50%, DM us to manually remove it so you can apply this code. Due to Stripe limitations and the manual work required, any existing discount will be forfeited if you choose not to use the 50% Black Friday code.
 
   **Promo Code:** <span class="promo-code">JunkFriday50</span>
 
-- **Decky + 2.0 Conflict Fix:** Running both Decky Plugin and Junk Store 2.0 together? There's a temporary fix available.
-  **To get it:** Open Junk Store 2.0 → Click **About** → Go to **System** → Change **Build Channel** to **TEST** → Click **Check for Updates**
+- **Decky + Pro Conflict Fix:** Running both Decky Plugin and Junk Store Pro together? There's a temporary fix available.
+  **To get it:** Open Junk Store Pro → Click **About** → Go to **System** → Change **Build Channel** to **TEST** → Click **Check for Updates**
   (Or download from the Portal)
 
 - **itch.io Extension Updates:** Huge thanks to **Trekopep** for testing! We've fixed multiple bugs to make installing and downloading more reliable. If you've got a big itch.io library, dive in—there are gems waiting to be discovered.
@@ -36,7 +36,7 @@ Apologies for missing last week's post—the past couple of weeks have been full
 Onto the past two weeks' testing results—apologies for the massive post!
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.1.0.0 (for itch.io use Extension Channel: beta)
+* **<a href="/buy_now/">Junk Store Pro</a>**: v2.1.0.0 (for itch.io use Extension Channel: beta)
 * **Junk Store Plugin**: v1.1.10 (Testing Store)
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.0-pre1 (Pre-release)
@@ -60,7 +60,7 @@ This week featuring Zoeti, Godzilla Voxel Wars.
     <div class="game-description">Zoeti is a turn-based roguelite that features a deck of playing cards used to create card combos and activate skills in the heat of battle.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -72,7 +72,7 @@ This week featuring Zoeti, Godzilla Voxel Wars.
     <div class="game-description">Get ready to battle using your brain.  A full-fledged turn-based strategy game with a difficulty level: GODZILLA.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -88,7 +88,7 @@ This week featuring Dream Tactics, PlateUp!.
     <div class="game-description">Dream Tactics is a GBA-styled strategy RPG with cunning card combos and deep character customization.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -100,7 +100,7 @@ This week featuring Dream Tactics, PlateUp!.
     <div class="game-description">Cook and serve your dishes, design and decorate your restaurants, and expand your culinary kingdom with new unlocks, abilities and dishes in procedurally-generated locations.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -116,7 +116,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">Answer the call from a mining base on Mars as engineer Jack Leary and search for the missing crew.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -128,7 +128,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">Also known as Out Of This World™, Another World is a pioneer action/platformer that released across more than a dozen platforms since its debut in 1991. Along the years, Another World™ has attained cult status among critics and sophisticated gamers alike.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -140,7 +140,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">ScourgeBringer is a fast-paced free-moving roguelite platformer.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -152,7 +152,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">Lead armies, rebuild fallen kingdoms, and rise to greatness.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -164,7 +164,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">Zero Hour is a tactical FPS with online team-based game play that takes place in a variety of fictional locations interpreted in Bangladesh with Real-life scale & resource management.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -176,7 +176,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">The Evil Within is an action survival horror game that draws inspiration from the Resident Evil series with a grimy look with exaggerated gore.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -188,7 +188,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">The Evil Within 2 is the latest evolution of survival horror.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -200,7 +200,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">Endless Legend is the turn-based 4X fantasy strategy game from Amplitude Studios.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -212,7 +212,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">Young Souls combines the beat'em up and RPG genres in a world created with stunning art direction.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -224,7 +224,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">A psychological horror game in which you are locked inside by a creature ready to hunt you down, whilst you figure out how to escape from the estate you have been locked inside. Who lived here? Who are the voices haunting your every step?</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -236,7 +236,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">A short Snakevania about encarnating a formless critter delving into the bowels of a bleak complex.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -248,7 +248,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">A Forgetful Loop is a time-based worker-placement puzzle game, where you need to weigh up which nodes are more important at a given moment; To get closer to the core, closer to the finish line!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -260,7 +260,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">A Mortician's Tale is a narrative-driven death positive video game where you play as a mortician tasked with running a funeral home—preparing the cadavers of the deceased (via embalming or cremation), attending their funerals and listening to their loved ones' stories, and running the business.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -272,7 +272,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">The Grim Reaper, the dark collector of lost souls. Unfortunately, your horse has fallen ill so you need to drive a bus instead. Navigate traffic, shoddy roads, and try not to run out of gas while gathering up angels and demons. Deliver these wayward souls to heaven or heck across 50 levels in this simple retro puzzle game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -284,7 +284,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">Dragon Drop is a frantic couch-multiplayer game where lovable dragons try to drop the blocks out from below their opponents. Drop the dragons! Don't get dropped!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -296,7 +296,7 @@ Catching up on Fort Solis, Another World – 20th Anniversary Edition, ScourgeBr
     <div class="game-description">Moon Hunters is a procedural world to explore, populated with hand-crafted stories and memorable characters.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -312,7 +312,7 @@ Updated compatibility for Ghostwire: Tokyo, Betrayer, Book of Demons, Samorost 2
     <div class="game-description">After strange disappearances hit Tokyo's population, it's up to you to uncover the source and purge the city of a strange, new evil. Armed with your own mysterious spectral abilities, you will face down the occult, unravel conspiracy theories and experience urban legends like never before.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -324,7 +324,7 @@ Updated compatibility for Ghostwire: Tokyo, Betrayer, Book of Demons, Samorost 2
     <div class="game-description">Betrayer is a first person action adventure game that takes you to the New World at the turn of the 17th century.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -336,7 +336,7 @@ Updated compatibility for Ghostwire: Tokyo, Betrayer, Book of Demons, Samorost 2
     <div class="game-description">Book of Demons is a deck-building hack and slash adventure, with a dark theme reminiscent of classics of the PC ARPG genre.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -348,7 +348,7 @@ Updated compatibility for Ghostwire: Tokyo, Betrayer, Book of Demons, Samorost 2
     <div class="game-description">Samorost 2 tells a surreal story of a space gnome whose dog just got kidnapped by mischievous aliens.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -360,7 +360,7 @@ Updated compatibility for Ghostwire: Tokyo, Betrayer, Book of Demons, Samorost 2
     <div class="game-description">Samorost 3 is an exploration adventure and puzzle game from the award-winning creators of Machinarium and Botanicula.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -378,7 +378,7 @@ Testing A Dance of Fire and Ice, Baldi's Basics Plus, Figment, FutureGrind, Tore
     <div class="game-description">A Dance of Fire and Ice is a strict rhythm game. Keep your focus as you guide two orbiting planets along a winding path without breaking their perfect equilibrium.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -390,7 +390,7 @@ Testing A Dance of Fire and Ice, Baldi's Basics Plus, Figment, FutureGrind, Tore
     <div class="game-description">Baldi's Basics Plus is like the original game, but PLUS.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -402,7 +402,7 @@ Testing A Dance of Fire and Ice, Baldi's Basics Plus, Figment, FutureGrind, Tore
     <div class="game-description">A musical action-adventure set in the recesses of the human mind.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -414,7 +414,7 @@ Testing A Dance of Fire and Ice, Baldi's Basics Plus, Figment, FutureGrind, Tore
     <div class="game-description">Grab your bike and hit the rails in FutureGrind, a stylish stunt-racer all about tricks, skill, and speed.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -426,7 +426,7 @@ Testing A Dance of Fire and Ice, Baldi's Basics Plus, Figment, FutureGrind, Tore
     <div class="game-description">Toree 2 is the sequel to Toree 3D. A bite-sized 3D Platformer sequel with more focus on the things people enjoyed in the first game like fast gameplay, flow focused levels and cute costumes (two this time).</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -438,7 +438,7 @@ Testing A Dance of Fire and Ice, Baldi's Basics Plus, Figment, FutureGrind, Tore
     <div class="game-description">A bite-sized 3D Platformer with a few weird elements.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -450,7 +450,7 @@ Testing A Dance of Fire and Ice, Baldi's Basics Plus, Figment, FutureGrind, Tore
     <div class="game-description">Enter the land of TowerFall with your friends and engage in the noble and brutal tradition of bow-and-arrow combat.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -462,7 +462,7 @@ Testing A Dance of Fire and Ice, Baldi's Basics Plus, Figment, FutureGrind, Tore
     <div class="game-description">HOPP, HELP and HURT each have a different goal. Help Hurt Hopp is a unique 3-player, cooperative/competitive platformer and level-editing game where each player has a different goal and control scheme.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -474,7 +474,7 @@ Testing A Dance of Fire and Ice, Baldi's Basics Plus, Figment, FutureGrind, Tore
     <div class="game-description">An adorable puzzle game about being a monster and making snowmen.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -493,7 +493,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

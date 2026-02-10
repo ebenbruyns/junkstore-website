@@ -1,0 +1,72 @@
+<!-- Junk Store Pro Uptime Tracker (Footer) -->
+<div id="uptime-tracker" class="uptime-tracker-footer" style="display: none;">
+  <a href="/status/" class="uptime-tracker-link">
+    <span class="uptime-tracker-icon">🛡️</span>
+    <span class="uptime-tracker-text">
+      <strong>Junk Store Pro:</strong>
+      <span id="uptime-days" class="uptime-count">--</span> days stable
+    </span>
+    <span class="uptime-tracker-view">View Status →</span>
+  </a>
+</div>
+
+<style>
+.uptime-tracker-footer {
+  text-align: center;
+  padding: 0.75rem 0;
+  margin-bottom: 0.5rem;
+  border-top: 1px solid rgba(46, 204, 113, 0.3);
+}
+
+.uptime-tracker-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.2s ease;
+}
+
+.uptime-tracker-link:hover {
+  color: #2ecc71;
+  text-decoration: none;
+}
+
+.uptime-tracker-icon {
+  font-size: 1rem;
+}
+
+.uptime-count {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+.uptime-tracker-view {
+  color: #666;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.uptime-tracker-link:hover .uptime-tracker-view {
+  color: #2ecc71;
+}
+
+/* Milestone glow effect */
+.uptime-tracker-footer.uptime-milestone .uptime-count {
+  text-shadow: 0 0 8px rgba(46, 204, 113, 0.6);
+}
+
+@media (max-width: 600px) {
+  .uptime-tracker-link {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem;
+  }
+  .uptime-tracker-view {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0.25rem;
+  }
+}
+</style>

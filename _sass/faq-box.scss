@@ -24,7 +24,13 @@ details.faq-box summary {
   min-height: 44px; /* Minimum touch target for mobile */
   display: flex;
   align-items: center;
+  gap: 10px;
   transition: all 0.2s ease;
+}
+
+/* Summary text for badge alignment */
+details.faq-box .summary-text {
+  flex: 1;
 }
 
 details.faq-box summary:hover {

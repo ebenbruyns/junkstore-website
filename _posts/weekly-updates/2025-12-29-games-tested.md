@@ -26,7 +26,7 @@ We wish all of you the best heading into the New Year! Wherever you are in the w
 Now, let's dive into this week's testing!
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
+* **<a href="/buy_now/">Junk Store Pro</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**:v1.1.12 (Test Store)
 * **GOG Extension**: v0.1.10 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Prerelease)
@@ -37,8 +37,8 @@ Now, let's dive into this week's testing!
 
 A few quick updates before we dive into the games:
 
-* **Decky Loader Users**: Running Decky Loader alongside Junk Store 2.0? Make sure you're using the build from the **TEST channel** *v2.3.1.3-test-20251204-120931*
-* **Legacy Discounts**: Legacy Discounts expire December 31st, 2025. If you supported us before the 2.0 release, check the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> and don't miss out!
+* **Decky Loader Users**: Running Decky Loader alongside Junk Store Pro? Make sure you're using the build from the **TEST channel** *v2.3.1.3-test-20251204-120931*
+* **Legacy Discounts**: Legacy Discounts expire December 31st, 2025. If you supported us before the Pro release, check the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> and don't miss out!
 
 ## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
 
@@ -55,7 +55,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
     <div class="game-description">In this narrative-driven, third-person survival horror game set 300 years in the future, the player will take on the rol...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -67,7 +67,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
     <div class="game-description">Sorry We're Closed is an eccentric story-driven survival horror game about demons, angels and what happens when both sid...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -79,7 +79,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
     <div class="game-description">Paradise Island, a world outside reality.  There’s been a murder that only &quot;investigation freak&quot; Lady Love Die...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -91,7 +91,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
     <div class="game-description">Disco Elysium - The Final Cut is a groundbreaking role playing game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -103,7 +103,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
     <div class="game-description">Bloodstained: Ritual of the Night is an exploration-focused, side-scroller action RPG by Koji Igarashi.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -115,7 +115,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
     <div class="game-description">As we explore these frozen wastes, misfortune strikes once again.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -127,7 +127,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
     <div class="game-description">Collect awesome monsters to use during turn-based battles in this open-world RPG, now with online multiplayer mode.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -139,7 +139,7 @@ This week featuring The Callisto Protocol, Sorry We're Closed, Paradise Killer, 
     <div class="game-description">SKALD:Against the Black Priory is a retro-style party-based RPG set in a grim-dark fantasy world of tragic heroes, viole...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -155,7 +155,7 @@ This week featuring Fallout 2: A Post Nuclear Role Playing Game, Fallout: A Post
     <div class="game-description">Fallout® 2 is the sequel to the critically acclaimed game that took RPG'ing out of the dungeons and into a dynamic, apoc...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -167,7 +167,7 @@ This week featuring Fallout 2: A Post Nuclear Role Playing Game, Fallout: A Post
     <div class="game-description">You've just unearthed the classic post-apocalyptic role-playing game that revitalized the entire CRPG genre.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -183,7 +183,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
     <div class="game-description">In the game, the player character visits Lord British and is instructed by him to kill certain monsters.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟡 Minor tinkering</div>
+        <div class="compatibility-line">Pro Version: 🟡 Minor tinkering</div>
     </div>
   </div>
 </div>
@@ -195,7 +195,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
     <div class="game-description">"Set in 20XX, Arcade Spirits follows an alternative timeline where the 1983 video game crash never occurred - after a tu...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -207,7 +207,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
     <div class="game-description">Welcome to Arlo's first adventure, in an old-school platformer fashion.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -219,7 +219,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
     <div class="game-description">🖼make art🖼 ✨achieve creative fulfillment✨ 🖌that's ART SQOOL babie.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -231,7 +231,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
     <div class="game-description">Kotachi Asterio wants to help people that can’t fight for themselves.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -243,7 +243,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
     <div class="game-description">Start off as a weak ship with a simple attack and fight through waves of enemies, earning currency in order to purchase ...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -255,7 +255,7 @@ Catching up on Akalabeth: World of Doom, Arcade Spirits, Arlo the Rabbit, Art Sq
     <div class="game-description">Battle your way through 3 realms of 'Sector 781', a pixel art platformer.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -271,7 +271,7 @@ Updated compatibility for A Plague Tale: Innocence, Midnight Fight Express, Shad
     <div class="game-description">A Plague Tale: Innocence, on PlayStation 4, Xbox One and PC, tells the grim story of two siblings fighting together for ...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -283,7 +283,7 @@ Updated compatibility for A Plague Tale: Innocence, Midnight Fight Express, Shad
     <div class="game-description">Fight your way across the city in a brutal romp that mixes old school brawlers and fast-paced motion-captured combat.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -295,7 +295,7 @@ Updated compatibility for A Plague Tale: Innocence, Midnight Fight Express, Shad
     <div class="game-description">Shadows: Awakening is a unique, isometric single-player RPG with real-time tactical combat.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -316,7 +316,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

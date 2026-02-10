@@ -25,17 +25,17 @@ Made it back to the boat a couple of days ago; I am so glad to be home! I've got
 
 A few quick updates before we dive into the games:
 
-* **Decky Loader + 2.0 Conflict:** If running both together, use the TEST channel build. It's the same stable build, just packaged without a component that conflicts with Decky (since Decky already includes it). We're using the TEST channel to keep it separate and easy to distinguish.
-* **Extended Trials:** Trials for Junk Store 2.0 have been extended to 21 days for the rest of the month. Plenty of time to test everything out and see if it works for your setup.
+* **Decky Loader + Pro Conflict:** If running both together, use the TEST channel build. It's the same stable build, just packaged without a component that conflicts with Decky (since Decky already includes it). We're using the TEST channel to keep it separate and easy to distinguish.
+* **Extended Trials:** Trials for Junk Store Pro have been extended to 21 days for the rest of the month. Plenty of time to test everything out and see if it works for your setup.
 * **GOG Extension:** New version (v0.1.11) now available on the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> with LSFG support. All Patreon/Ko-fi supporters have been migrated — sign in with your original email to access.
 * **LSFG-VK Support:** Now built into Junk Store with easy toggles. No need to manually add environment variables. Find it under the **Proton Config** menu (change the dropdown to "All"). You may need to try different Proton versions to find one that works for your game. <a href="https://www.junkstore.xyz/blog/lsfg-frame-generation-built-in/" target="_blank" rel="noopener">More info →</a>
   * **Decky Plugin:** v1.1.13 (Main Decky store)
   * **GOG Extension:** v0.1.11 (Junk Store Portal)
-  * **Junk Store 2.0 (without Decky Loader):** v2.5.0.0-beta-20260111-140530 (Beta channel)
-  * **Junk Store 2.0 (with Decky Loader):** v2.4.1.0-test-20260108-100341 (Test channel)
+  * **Junk Store Pro (without Decky Loader):** v2.5.0.0-beta-20260111-140530 (Beta channel)
+  * **Junk Store Pro (with Decky Loader):** v2.4.1.0-test-20260108-100341 (Test channel)
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.5.0.0-beta (for itch.io use **Extension** Channel: beta)
+* **<a href="/buy_now/">Junk Store Pro</a>**: v2.5.0.0-beta (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.13 (Testing Store)
 * **GOG Extension**: v0.1.11 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Prerelease)
@@ -59,7 +59,7 @@ This week featuring Rustler (Grand Theft Horse).
     <div class="game-description">Become a medieval thug in a crazy open-world action game, full of pop-culture references.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: ❓ Not tested</div>
+        <div class="compatibility-line">Pro Version: ❓ Not tested</div>
     </div>
   </div>
 </div>
@@ -75,7 +75,7 @@ This week featuring Harold Halibut.
     <div class="game-description">Harold Halibut is a handmade narrative game about friendship and life on a city-sized spaceship submerged in an alien oc...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -91,7 +91,7 @@ This week highlighting Cyberpunk 2077, Arknights: Endfield.
     <div class="game-description">Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -103,7 +103,7 @@ This week highlighting Cyberpunk 2077, Arknights: Endfield.
     <div class="game-description">Arknights: Endfield is a 3D real-time strategy RPG developed by HYPERGRYPH.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -119,7 +119,7 @@ Catching up on Lords of Midnight.
     <div class="game-description">Mike Singleton's '84 classic Adventure Strategy game, brought to and updated for Windows.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❌ Doesn't work</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -135,7 +135,7 @@ Updated compatibility for Ancient Enemy, Arcade Paradise.
     <div class="game-description">Ancient Enemy is an RPG card battler set in a crumbling world where the forces of evil have already won.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -147,7 +147,7 @@ Updated compatibility for Ancient Enemy, Arcade Paradise.
     <div class="game-description">Welcome to Arcade Paradise, the 90’s retro arcade adventure game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -166,7 +166,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

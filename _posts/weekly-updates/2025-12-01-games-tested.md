@@ -25,11 +25,11 @@ Hope everyone had a great weekend, and for those who celebrated Thanksgiving, th
 
 Just a few housekeeping things before we get into it:
 
-- **⏰ Black Friday - Last Hours!** Get **50% off** your first year of Junk Store 2.0 (ends December 2). Already have a discount? DM us to swap it for this 50% deal.
+- **⏰ Black Friday - Last Hours!** Get **50% off** your first year of Junk Store Pro (ends December 2). Already have a discount? DM us to swap it for this 50% deal.
 
   **Promo Code:** <span class="promo-code">JunkFriday50</span>
 
-- **Decky + 2.0 Conflict Fix:** Running both together? Grab the temporary fix in Junk Store 2.0: **About** → **System** → Change **Build Channel** to **TEST** → **Check for Updates** (or download from the Portal)
+- **Decky + Pro Conflict Fix:** Running both together? Grab the temporary fix in Junk Store Pro: **About** → **System** → Change **Build Channel** to **TEST** → **Check for Updates** (or download from the Portal)
 
 - **New Decky Plugin in Testing Store (v1.1.10):** Fixes Epic server connection issues that broke games like Return to Moria, Paladins, Ghostwire: Tokyo, and Saints Row. I've been retesting affected games to confirm they're working out of the box again.
 
@@ -39,7 +39,7 @@ Just a few housekeeping things before we get into it:
   **→ [Test Report Template](https://wiki.deckbrew.xyz/user-guide/testing)**
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
+* **<a href="/buy_now/">Junk Store Pro</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.10 (Testing Store)
 * **GOG Extension**: v0.1.10 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.0-pre1 (Pre-release)
@@ -63,7 +63,7 @@ This week featuring Universe For Sale.
     <div class="game-description">A space station nestled in the clouds of Jupiter. A bizarre bazaar where a young, worried woman crafts entire universes in the palm of her hand. A mysterious cultist who's stripped the flesh from his bones in order to reach enlightenment. Here, there's a universe for sale. You buying?</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -79,7 +79,7 @@ This week featuring Gunslugs.
     <div class="game-description">Lock and load for chaotic, fast-paced action in Gunslugs.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -95,7 +95,7 @@ Catching up on Higurashi no Naku Koro ni: Chapter 1 - Onikakushi, Minabo: A Walk
     <div class="game-description">Higurashi When They Cry is a sound novel. The music, backgrounds and characters work together to create a world that is the stage of a novel for the user to read.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -107,7 +107,7 @@ Catching up on Higurashi no Naku Koro ni: Chapter 1 - Onikakushi, Minabo: A Walk
     <div class="game-description">Minabo - A walk through life is a social simulation game where you walk the path of life while your turnip grows and thrives (or not) in its social relationships.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -119,7 +119,7 @@ Catching up on Higurashi no Naku Koro ni: Chapter 1 - Onikakushi, Minabo: A Walk
     <div class="game-description">Escape to an island populated with welcoming townsfolk and dozens of friendly dinosaurs.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -131,7 +131,7 @@ Catching up on Higurashi no Naku Koro ni: Chapter 1 - Onikakushi, Minabo: A Walk
     <div class="game-description">An ambitious life sim about the parts of the immigrant experience everyone pretends to forget.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -143,7 +143,7 @@ Catching up on Higurashi no Naku Koro ni: Chapter 1 - Onikakushi, Minabo: A Walk
     <div class="game-description">Sky Rogue is a fwooshy rogue-lite action flight simulator.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -159,7 +159,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
     <div class="game-description">The only survival crafting game set in the Fourth Age of Middle-earth, the iconic fantasy world created by J.R.R. Tolkien.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -171,7 +171,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
     <div class="game-description">One of the all-time classic adventures, multi BAFTA-nominated "Broken Sword: Director's Cut" pitches sassy journalist Nico Collard, and intrepid American George Stobbart into a mysterious journey of intrigue and jeopardy.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -183,7 +183,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
     <div class="game-description">Call of Juarez is an epic adventure western themed FPS game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -195,7 +195,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
     <div class="game-description">From the dust of a gold mine to the dirt of a saloon, Call of Juarez: Gunslinger is a real homage to the Wild West tales.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -207,7 +207,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
     <div class="game-description">Paladins is the ultimate fantasy team-based shooter experience, with over 50 customizable Champions fighting in 5v5 action across a diverse Realm of modes and maps!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -219,7 +219,7 @@ Updated compatibility for The Lord of the Rings: Return to Moria, Broken Sword: 
     <div class="game-description">Welcome to Santo Ileso, a vibrant fictional city in the American Southwest.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -235,7 +235,7 @@ Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the de
     <div class="game-description">Head-to-head puzzle brawling action.  Match blocks to send waves at your opponent.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -247,7 +247,7 @@ Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the de
     <div class="game-description">The deeper you travel the darker it gets, and you only have your arrows to light the way.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -259,7 +259,7 @@ Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the de
     <div class="game-description">TowerFall Ascension is the definitive version of the hit archery combat game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -271,7 +271,7 @@ Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the de
     <div class="game-description">Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❓ Not tested</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -283,7 +283,7 @@ Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the de
     <div class="game-description">60 Parsecs.  is an Atomic Space Age adventure of scavenge and survival.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❓ Not tested</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -304,7 +304,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

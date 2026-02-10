@@ -28,7 +28,7 @@ We announced yesterday that we're moving to portal-only sales of the GOG Extensi
 Anyway, here's how the weekend's testing session went:
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.0-pre1 (Pre-release)
@@ -52,7 +52,7 @@ This week featuring Bendy and the Ink Machine, Five Nights at Freddy's: Into the
     <div class="game-description">Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -64,7 +64,7 @@ This week featuring Bendy and the Ink Machine, Five Nights at Freddy's: Into the
     <div class="game-description">Survive five nights of terror in this chilling adventure game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -80,7 +80,7 @@ This week featuring You Will Die Here Tonight, Werewolf: The Apocalypse — Hear
     <div class="game-description">Immerse yourself in retro top-down visuals as you face the horrors of Breckenridge Hall through intense first-person combat. Scavenge, solve puzzles, and upgrade your gear. Do whatever it takes to survive—but remember: You Will Die Here Tonight.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -92,7 +92,7 @@ This week featuring You Will Die Here Tonight, Werewolf: The Apocalypse — Hear
     <div class="game-description">Explore the myths and monsters of Europe’s last primeval wilderness.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -108,7 +108,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
     <div class="game-description">Rule your land and dominate the world with unparalleled freedom, depth and historical accuracy.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -120,7 +120,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
     <div class="game-description">Lead Josie, aka. Sunblaze into a superhero training simulator built by her dad, a retired protagonist fighting the evils of our universe. Sunblaze is a brain-twisting precision platformer with hundreds of challenging levels, an awesome story, a superb soundtrack, and a beautiful game design.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -132,7 +132,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
     <div class="game-description">Second installment of a third person action adventure survival horror with Indonesian supernatural in veins.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟡 Minor tinkering</div>
+        <div class="compatibility-line">Pro Version: 🟡 Minor tinkering</div>
     </div>
   </div>
 </div>
@@ -144,7 +144,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
     <div class="game-description">Spitlings is a cute but hardcore Arcade game that’s made for playing locally with friends.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -156,7 +156,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
     <div class="game-description">Magnibox is a colorful and challenging puzzle game about a magnet that's also a box.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -168,7 +168,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
     <div class="game-description">Sundered is a horrifying fight for survival and sanity, a hand­-drawn epic from the ​creators of ​Jotun.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -184,7 +184,7 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
     <div class="game-description">An unusual, strategic RPG card game from the makers of Shadowhand and Regency Solitaire.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -196,7 +196,7 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
     <div class="game-description">Every citizen of our great State dreams of working at the Prime Ministry.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -208,7 +208,7 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
     <div class="game-description">Dishonored is an immersive first-person action game that casts you as a supernatural assassin driven by revenge.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -220,7 +220,7 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
     <div class="game-description">A little boy falls asleep to a horrible nightmare.  Can you make him happy again.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -236,7 +236,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
     <div class="game-description">A chill game about using plants to overgrow abandoned wasteland dioramas.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -248,7 +248,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
     <div class="game-description">Plan the train route for the universe's most awkward space colony.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -260,7 +260,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
     <div class="game-description">A retro styled character puzzle game with couch co-op and 80 puzzles to solve.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -272,7 +272,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
     <div class="game-description">When Starfox meets roguelike.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -284,7 +284,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
     <div class="game-description">Underhero is a 2D side-scroller RPG adventure game with timing-based combat.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -300,7 +300,7 @@ This week highlighting Duet Night Abyss.
     <div class="game-description">Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom developed by Hero Games' Pan Studio.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box!</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box!</div>
     </div>
   </div>
 </div>
@@ -321,7 +321,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>
