@@ -19,7 +19,7 @@ excerpt: "Complete support for both Decky Plugin (free) and Pro Version"
 <!-- Version Selection -->
 <section class="version-selector-section">
   <h2 style="text-align: center;">Which version do you use?</h2>
-  <p style="text-align: center; color: #999; margin-bottom: 20px;">Select your version to filter help content</p>
+  <p style="text-align: center; color: #aaa; margin-bottom: 20px;">Select your version below. FAQ and Troubleshooting will automatically show content relevant to your selection.</p>
   <div class="version-selector">
     <div class="version-option decky" id="select-decky" onclick="selectVersion('decky')">
       <div class="version-check" id="check-decky"></div>
@@ -80,9 +80,13 @@ excerpt: "Complete support for both Decky Plugin (free) and Pro Version"
   <div class="content-box">
     <h3>Community</h3>
     <p>Get live help and join the discussion.</p>
-    <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
-      <a href="https://discord.gg/6mRUhR6Teh" class="button" target="_blank" rel="noopener">Discord</a>
-      <a href="https://www.reddit.com/r/JunkStore/" class="button" target="_blank" rel="noopener">Reddit</a>
+    <div class="community-buttons">
+      <a href="https://discord.gg/6mRUhR6Teh" class="community-btn discord-btn" target="_blank" rel="noopener">
+        <i class="fab fa-discord"></i> Discord
+      </a>
+      <a href="https://www.reddit.com/r/JunkStore/" class="community-btn reddit-btn" target="_blank" rel="noopener">
+        <i class="fab fa-reddit"></i> Reddit
+      </a>
     </div>
   </div>
 </div>
@@ -95,9 +99,9 @@ excerpt: "Complete support for both Decky Plugin (free) and Pro Version"
 
 .version-selector {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  max-width: 600px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -185,10 +189,65 @@ excerpt: "Complete support for both Decky Plugin (free) and Pro Version"
   font-size: 14px;
 }
 
+/* Community Buttons */
+.community-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.community-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  color: white;
+}
+
+.community-btn:hover {
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: white;
+}
+
+.discord-btn {
+  background: #5865f2;
+}
+
+.discord-btn:hover {
+  background: #4752c4;
+  box-shadow: 0 4px 15px rgba(88, 101, 242, 0.4);
+}
+
+.reddit-btn {
+  background: #ff4500;
+}
+
+.reddit-btn:hover {
+  background: #e03d00;
+  box-shadow: 0 4px 15px rgba(255, 69, 0, 0.4);
+}
+
 /* Mobile */
 @media (max-width: 600px) {
   .version-selector {
     grid-template-columns: 1fr;
+  }
+
+  .community-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .community-btn {
+    width: 80%;
+    justify-content: center;
   }
 }
 </style>
