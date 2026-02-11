@@ -78,7 +78,7 @@ excerpt: "The only launcher that eliminates Desktop Mode switching entirely - di
 
   <div class="primary-cta">
     <h3>Ready to Experience the Difference?</h3>
-    <p>Try all these benefits free for 7 days. No commitment, cancel anytime.</p>
+    <p>Try all these benefits free for <span data-pricing="trial-days">7</span> days. No commitment, cancel anytime.</p>
     <div class="cta-buttons">
       <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="button buy-button large">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary">Watch Demos First</a>
@@ -105,14 +105,14 @@ excerpt: "The only launcher that eliminates Desktop Mode switching entirely - di
         <p>Free alternatives rely on community volunteers with slower releases. Junk Store Pro has full-time professional development with instant update channels (stable/testing/beta). No waiting for GitHub builds.</p>
       </div>
       <div class="decision-point">
-        <h4>💰 <strong>Premium Experience for Less Than $1/Week</strong></h4>
+        <h4>💰 <strong>Premium Experience for <span data-pricing="weekly">Less than $1</span>/Week</strong></h4>
         <p>Skip the frustration of desktop switching and manual setup. Get the complete Game Mode experience for the price of a coffee.</p>
       </div>
     </div>
 
     <div class="urgency-box">
-      <h3>🔥 Decision Made Easy: Test Everything for 7 Days</h3>
-      <p><strong>Stop researching. Start experiencing.</strong> Use your 7-day trial to test every feature mentioned above with your actual game library.</p>
+      <h3>🔥 Decision Made Easy: Test Everything for <span data-pricing="trial-days">7</span> Days</h3>
+      <p><strong>Stop researching. Start experiencing.</strong> Use your <span data-pricing="trial">7-day free trial</span> to test every feature mentioned above with your actual game library.</p>
       <div class="trial-benefits">
         <div class="trial-benefit">✅ Full access to all platforms (Epic, GOG, Amazon, itch.io)</div>
         <div class="trial-benefit">✅ Test with your entire game library + Rom/Emulator support</div>

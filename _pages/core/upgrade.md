@@ -71,10 +71,10 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
   </div>
 
   <div class="primary-cta">
-    <h3>Test Everything Free for 7 Days</h3>
+    <h3>Test Everything Free for <span data-pricing="trial-days">7</span> Days</h3>
     <p>Try all premium features with your actual game library. Cancel anytime if it's not worth the upgrade.</p>
     <div class="cta-buttons">
-      <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="button buy-button large">Start Free Trial</a>
+      <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="button buy-button large" data-pricing="portal-url">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary">Watch Demos First</a>
     </div>
   </div>
@@ -303,7 +303,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
 
     <div class="urgency-box">
       <h3>🔥 Test Drive the Premium Features</h3>
-      <p><strong>Don't take our word for it.</strong> Use your 7-day trial to test every premium feature with your actual game library.</p>
+      <p><strong>Don't take our word for it.</strong> Use your <span data-pricing="trial">7-day free trial</span> to test every premium feature with your actual game library.</p>
       <div class="trial-benefits">
         <div class="trial-benefit">✅ Keep your current Epic Games functionality</div>
         <div class="trial-benefit">✅ Test GOG, Amazon Prime Gaming + itch.io</div>

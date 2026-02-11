@@ -30,7 +30,7 @@ excerpt: "Complete support for both Decky Plugin (free) and Pro Version"
     <div class="version-option pro" id="select-pro" onclick="selectVersion('pro')">
       <div class="version-check" id="check-pro"></div>
       <h3>Pro Version</h3>
-      <p>$40/year standalone app</p>
+      <p><span data-pricing="price">$40</span>/year standalone app</p>
       <small>Epic, GOG, Amazon & itch.io</small>
     </div>
   </div>
