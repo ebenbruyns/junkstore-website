@@ -30,7 +30,10 @@ Ready to upgrade to the ultimate Steam Deck gaming experience? Junk Store Pro br
       <img src="/assets/images/jspro/install2.0/executable.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" /><br><br>
       <img src="/assets/images/jspro/install2.0/install1.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" /><br><br>
       <img src="/assets/images/jspro/install2.0/jsinstaller.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
-      <br>
+
+      <div style="background: rgba(255, 69, 0, 0.2); border: 2px solid #ff4500; border-radius: 8px; padding: 15px; margin: 10px 0;">
+        <strong style="color: #ff6b35; font-size: 1.1em;">⚠️ CRITICAL:</strong> When installing Junk Store Pro, you <strong style="color: #ff6b35;">MUST wait until the dialogue box says "Installation Complete"</strong> before clicking OK. <strong style="color: #ff6b35;">Clicking the OK button too early cancels the installation process.</strong>
+      </div>
       <br>
 
   <li><strong>Return to Gaming Mode</strong></li>
