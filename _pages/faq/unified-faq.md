@@ -8,13 +8,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
-  actions:
-    - label: "Decky Plugin Help"
-      url: "/deckyhelp/"
-      class: "button"
-    - label: "Junk Store Pro Help"
-      url: "/2.0-hub/"
-      class: "button"
 excerpt: "Frequently asked questions for both Junk Store versions - free Decky plugin and Pro Version"
 ---
 <div id="top"></div>
@@ -73,29 +66,11 @@ excerpt: "Frequently asked questions for both Junk Store versions - free Decky p
 <div class="help-grid">
 
 <div class="help-section">
-  <h3>Quick Help</h3>
-  <div class="help-links">
-    <a href="/deckyhelp/" class="help-link">
-      <span class="help-title">Decky Plugin Help</span>
-      <span class="help-desc">Installation and setup</span>
-    </a>
-    <a href="/2.0-hub/" class="help-link">
-      <span class="help-title">Pro Version Help</span>
-      <span class="help-desc">Feature guides</span>
-    </a>
-  </div>
-</div>
-
-<div class="help-section">
   <h3>Troubleshooting</h3>
   <div class="help-links">
     <a href="/troubleshooting/" class="help-link">
       <span class="help-title">Troubleshooting Guide</span>
       <span class="help-desc">Fix common issues</span>
-    </a>
-    <a href="/tested-games/" class="help-link">
-      <span class="help-title">Games Tested</span>
-      <span class="help-desc">Compatibility database</span>
     </a>
   </div>
 </div>
@@ -107,9 +82,15 @@ excerpt: "Frequently asked questions for both Junk Store versions - free Decky p
       <span class="help-title">All Tutorials</span>
       <span class="help-desc">Step-by-step guides</span>
     </a>
-    <a href="/comparison/" class="help-link">
-      <span class="help-title">Version Comparison</span>
-      <span class="help-desc">Decky vs 2.0</span>
+  </div>
+</div>
+
+<div class="help-section">
+  <h3>Game Compatibility</h3>
+  <div class="help-links">
+    <a href="/tested-games/" class="help-link">
+      <span class="help-title">Games Tested</span>
+      <span class="help-desc">600+ games checked</span>
     </a>
   </div>
 </div>
@@ -140,6 +121,13 @@ excerpt: "Frequently asked questions for both Junk Store versions - free Decky p
    Unified FAQ Page Styles
    (Minimal overrides - uses global faq-box.scss)
    ======================================== */
+
+/* Skinny Hero */
+.layout--splash .page__hero--overlay {
+  min-height: 300px !important;
+  height: 300px !important;
+  max-height: 300px !important;
+}
 
 /* SEO Intro */
 .seo-intro {

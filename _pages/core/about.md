@@ -66,3 +66,12 @@ excerpt: "The only Steam Deck solution that keeps you in Game Mode while playing
   </div>
 
 </div>
+
+---
+
+<div style="text-align: center; margin-top: 3rem;">
+  <h2 style="color: #66bfff;">Ready to Try Junk Store?</h2>
+  <p style="margin-bottom: 1.5rem; color: #ccc;">See how Junk Store compares to other solutions, or get started today.</p>
+  <a href="/comparison/" class="btn btn--primary" style="margin-right: 1rem;">Compare Versions</a>
+  <a href="/buy_now/" class="btn btn--success">Get Started</a>
+</div>

@@ -1,50 +1,18 @@
 # main navigation
 main:
-  - title: "Junk Store Pro"
-    url: "/2.0-hub/"
-  - title: "Decky Plugin"
-    url: /deckyhelp/
-  - title: "Why Choose Junk Store"
+  - title: "Help"
+    url: /help/
+  - title: "Compare Versions"
     url: /comparison/
   - title: "Tested Games"
     url: /tested-games/
   - title: "What's New"
     url: /blog/
-  - title: "Gallery"
-    url: /gallery/
-  - title: "About"
-    url: /about/
   - title: "Buy Now"
     url: /buy_now/
   - title: "Portal"
     url: https://portal.junkstore.xyz/
-
-# FAQ sidebar navigation
-faq-nav:
-  - title: "Quick Navigation"
-    children:
-      - title: "🚀 Getting Started"
-        url: "#getting-started"
-      - title: "⚡ Quick Start Guide"  
-        url: "#quick-start-guide"
-      - title: "💰 Pricing & Value"
-        url: "#pricing--value"
-      - title: "🎮 Using Junk Store"
-        url: "#using-junk-store"
-      - title: "🎯 Game Compatibility"
-        url: "#game-compatibility--support"
-      - title: "⚙️ Technical Details"
-        url: "#generaltechnical-details"
-
-# Troubleshooting sidebar navigation
-troubleshooting-nav:
-  - title: "Quick Navigation"
-    children:
-      - title: "🛠️ Installation & Setup"
-        url: "#installation-setup"
-      - title: "👤 Account & Library Sync"
-        url: "#account-library"
-      - title: "🎮 Game Launch & Performance"
-        url: "#launch-performance"
-      - title: "🆘 Additional Support"
-        url: "#additional-support"
+  - title: "Gallery"
+    url: /gallery/
+  - title: "About"
+    url: /about/

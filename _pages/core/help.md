@@ -92,6 +92,13 @@ excerpt: "Complete support for both Decky Plugin (free) and Pro Version"
 </div>
 
 <style>
+/* Skinny Hero */
+.layout--splash .page__hero--overlay {
+  min-height: 300px !important;
+  height: 300px !important;
+  max-height: 300px !important;
+}
+
 /* Version Selector */
 .version-selector-section {
   margin: 2rem 0;
@@ -195,6 +202,7 @@ excerpt: "Complete support for both Decky Plugin (free) and Pro Version"
   gap: 12px;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .community-btn {
@@ -218,20 +226,24 @@ excerpt: "Complete support for both Decky Plugin (free) and Pro Version"
 
 .discord-btn {
   background: #5865f2;
+  color: white !important;
 }
 
 .discord-btn:hover {
   background: #4752c4;
   box-shadow: 0 4px 15px rgba(88, 101, 242, 0.4);
+  color: white !important;
 }
 
 .reddit-btn {
   background: #ff4500;
+  color: white !important;
 }
 
 .reddit-btn:hover {
   background: #e03d00;
   box-shadow: 0 4px 15px rgba(255, 69, 0, 0.4);
+  color: white !important;
 }
 
 /* Mobile */

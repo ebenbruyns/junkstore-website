@@ -8,13 +8,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.jpg
-  actions:
-    - label: "Decky Plugin Help"
-      url: "/deckyhelp/"
-      class: "button"
-    - label: "Junk Store Pro Help"
-      url: "/2.0-hub/"
-      class: "button"
 excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.io games - both free Decky plugin and Junk Store Pro"
 ---
 
@@ -175,29 +168,11 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 <div class="help-grid">
 
 <div class="help-section">
-  <h3>Quick Help</h3>
+  <h3>FAQ</h3>
   <div class="help-links">
-    <a href="/deckyhelp" class="help-link">
-      <span class="help-title">Decky Plugin Help</span>
-      <span class="help-desc">Quick reference and tips</span>
-    </a>
-    <a href="/2.0-hub/" class="help-link">
-      <span class="help-title">Pro Version Help</span>
-      <span class="help-desc">Quick reference and tips</span>
-    </a>
-  </div>
-</div>
-
-<div class="help-section">
-  <h3>FAQ Pages</h3>
-  <div class="help-links">
-    <a href="/faq/decky/" class="help-link">
-      <span class="help-title">Decky Plugin FAQ</span>
-      <span class="help-desc">Common plugin questions</span>
-    </a>
-    <a href="/faq/v2/" class="help-link">
-      <span class="help-title">Pro Version FAQ</span>
-      <span class="help-desc">Common 2.0 questions</span>
+    <a href="/faq/" class="help-link">
+      <span class="help-title">Full FAQ</span>
+      <span class="help-desc">Common questions answered</span>
     </a>
   </div>
 </div>
@@ -205,13 +180,19 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 <div class="help-section">
   <h3>Troubleshooting</h3>
   <div class="help-links">
-    <a href="/troubleshooting/decky/" class="help-link">
-      <span class="help-title">Decky Plugin Issues</span>
-      <span class="help-desc">Fix plugin problems</span>
+    <a href="/troubleshooting/" class="help-link">
+      <span class="help-title">Troubleshooting Guide</span>
+      <span class="help-desc">Fix common issues</span>
     </a>
-    <a href="/troubleshooting/v2/" class="help-link">
-      <span class="help-title">Pro Version Issues</span>
-      <span class="help-desc">Fix standalone problems</span>
+  </div>
+</div>
+
+<div class="help-section">
+  <h3>Game Compatibility</h3>
+  <div class="help-links">
+    <a href="/tested-games/" class="help-link">
+      <span class="help-title">Games Tested</span>
+      <span class="help-desc">600+ games checked</span>
     </a>
   </div>
 </div>
@@ -231,6 +212,13 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 
 <style>
+/* Skinny Hero */
+.layout--splash .page__hero--overlay {
+  min-height: 300px !important;
+  height: 300px !important;
+  max-height: 300px !important;
+}
+
 /* Tutorial Grid Layout */
 .tutorial-grid {
   display: grid;
