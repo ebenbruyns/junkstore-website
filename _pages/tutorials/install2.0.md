@@ -10,16 +10,26 @@ header:
   overlay_image: /assets/images/website_image_compressed.webp
 ---
 
-## How to Install Junk Store Pro
+<h2 style="text-align: center;">How to Install Junk Store Pro</h2>
 
-Prefer a video tutorial? <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener">Watch on YouTube</a>
+<p style="text-align: center;">Prefer a video tutorial? <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener">Watch on YouTube</a></p>
 
 <div class="install-guide">
 <ol>
 
 <li>
+<strong>Go to Desktop Mode</strong>
+<p>Press the Steam button → Power → Switch to Desktop.</p>
+</li>
+
+<li>
+<strong>Log into the portal</strong>
+<p>Go to the <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener">portal</a> and log in with your account credentials. If you can't remember your password, use the reset option on the login page.</p>
+</li>
+
+<li>
 <strong>Download the latest js_pro</strong>
-<p>Go to the <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener">portal</a> and download the latest build (first file in the list).</p>
+<p>Download the latest build (first file in the list).</p>
 <img src="/assets/images/jspro/install2.0/downloadjspro.webp" alt="Download Junk Store Pro from portal" width="600" height="338" loading="lazy" />
 </li>
 
