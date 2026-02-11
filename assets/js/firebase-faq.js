@@ -166,3 +166,12 @@ window.filterFAQ = function(filterType) {
     searchInfo.textContent = `Showing ${visibleCount} of ${totalCount} questions`;
   }
 };
+
+// Auto-apply filter from URL parameter (e.g., /faq/?filter=decky)
+document.addEventListener('faqLoaded', function() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const filter = urlParams.get('filter');
+  if (filter && (filter === 'decky' || filter === 'pro')) {
+    window.filterFAQ(filter);
+  }
+});

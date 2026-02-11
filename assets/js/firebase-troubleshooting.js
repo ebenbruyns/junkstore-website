@@ -168,3 +168,12 @@ window.filterTroubleshooting = function(filterType) {
     searchInfo.textContent = `Showing ${visibleCount} of ${totalCount} issues`;
   }
 };
+
+// Auto-apply filter from URL parameter (e.g., /troubleshooting/?filter=decky)
+document.addEventListener('troubleshootingLoaded', function() {
+  const urlParams = new URLSearchParams(window.location.search);
+  const filter = urlParams.get('filter');
+  if (filter && (filter === 'decky' || filter === 'pro')) {
+    window.filterTroubleshooting(filter);
+  }
+});
