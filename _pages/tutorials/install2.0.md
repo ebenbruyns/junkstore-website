@@ -47,7 +47,7 @@ header:
 
 <li>
 <strong>Return to Gaming Mode</strong>
-<p>Press <strong>View</strong> (button above the D-pad) to open Junk Store, then log in with your portal credentials.</p>
+<p>Press <strong>🗗 View</strong> (button above the D-pad) to open Junk Store, then log in with your portal credentials.</p>
 <img src="/assets/images/jspro/install2.0/jslogin.png" alt="Login to Junk Store" width="600" height="338" loading="lazy" />
 </li>
 
