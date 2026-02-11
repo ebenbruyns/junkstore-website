@@ -27,6 +27,11 @@
     text-align: left !important;
   }
 
+  /* Allow centered headers when explicitly requested */
+  .centered-header {
+    text-align: center !important;
+  }
+
   /* Professional header sizing - not too large */
   h1 {
     font-size: 1.8rem !important;
