@@ -1,0 +1,305 @@
+/* Unified FAQ Page Styling */
+/* Separate stylesheet to prevent conflicts with other pages */
+
+/* Breadcrumb Navigation */
+.help-breadcrumb {
+  max-width: 1200px;
+  margin: 1rem auto;
+  padding: 0 1.5rem;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.help-breadcrumb a {
+  color: #e67300;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.help-breadcrumb a:hover {
+  color: #ff8c1a;
+}
+
+/* Version Filter Section */
+.version-filter {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.version-filter h2 {
+  text-align: center;
+  color: #e67300;
+  margin-bottom: 1.5rem;
+}
+
+/* Filter Cards - Same as Tutorials Page */
+.filter-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.filter-btn {
+  text-align: center;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.filter-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(156, 39, 176, 0.3);
+}
+
+/* Decky Filter - Blue */
+.filter-btn.filter-decky {
+  border-color: #2196f3;
+  background: rgba(33, 150, 243, 0.1);
+}
+
+.filter-btn.filter-decky.active {
+  border-width: 3px;
+  background: rgba(33, 150, 243, 0.15);
+  border-color: #2196f3;
+}
+
+/* Standalone Filter - Orange */
+.filter-btn.filter-standalone {
+  border-color: #e67300;
+  background: rgba(230, 115, 0, 0.1);
+}
+
+.filter-btn.filter-standalone.active {
+  border-width: 3px;
+  background: rgba(230, 115, 0, 0.15);
+  border-color: #e67300;
+}
+
+/* Show All Filter - Green */
+.filter-btn.filter-all {
+  border-color: #4caf50;
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.filter-btn.filter-all.active {
+  border-width: 3px;
+  background: rgba(76, 175, 80, 0.15);
+  border-color: #4caf50;
+}
+
+/* FAQ Content Container */
+.faq-content {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+/* FAQ Category Sections */
+.faq-category {
+  margin-bottom: 3rem;
+}
+
+.faq-category h2 {
+  color: #e67300;
+  border-bottom: 2px solid #e67300;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* FAQ Items - Card Style Similar to Tutorials */
+.faq-item {
+  background-color: #1e2a38;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.faq-item:hover {
+  border-color: #e67300;
+  transform: translateY(-2px);
+}
+
+.faq-item.hidden {
+  display: none;
+}
+
+/* FAQ Question Header Container */
+.faq-question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  gap: 1rem;
+}
+
+/* Version Badges - Inline with Question */
+.version-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.version-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.version-badge.decky {
+  background: #2196f3;
+  color: white;
+}
+
+.version-badge.professional {
+  background: #e67300;
+  color: white;
+}
+
+.version-badge.shared {
+  background: #4caf50;
+  color: white;
+}
+
+/* FAQ Question Heading */
+.faq-item h3 {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+  flex: 1;
+}
+
+.faq-question-header:hover h3 {
+  color: #e67300;
+}
+
+/* FAQ Answer Content */
+.faq-answer {
+  padding: 0 1.5rem 1.5rem;
+  color: #ccc;
+  line-height: 1.6;
+  display: none; /* Hidden by default - accordion style */
+}
+
+.faq-answer.show {
+  display: block;
+}
+
+.faq-answer p {
+  margin-bottom: 1rem;
+}
+
+.faq-answer ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.faq-answer ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.faq-answer li {
+  margin-bottom: 0.5rem;
+}
+
+.faq-answer a {
+  color: #e67300;
+  text-decoration: none;
+}
+
+.faq-answer a:hover {
+  color: #ff8c1a;
+  text-decoration: underline;
+}
+
+/* Comparison Table Styling */
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: left;
+}
+
+.comparison-table th {
+  background: rgba(230, 115, 0, 0.2);
+  color: #e67300;
+  font-weight: 600;
+}
+
+.comparison-table td {
+  color: #ccc;
+}
+
+/* SEO Intro Styling */
+.seo-intro {
+  max-width: 1200px;
+  margin: 1.5rem auto;
+  padding: 1rem 1.5rem;
+  background: rgba(230, 115, 0, 0.1);
+  border-left: 4px solid #e67300;
+  border-radius: 4px;
+}
+
+.seo-intro p {
+  margin: 0;
+  color: #e8e8e8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .filter-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-btn {
+    width: 100%;
+  }
+
+  .comparison-table {
+    font-size: 0.9rem;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.5rem;
+  }
+
+  .faq-item h3 {
+    font-size: 1rem;
+  }
+
+  /* Stack question and badges on mobile */
+  .faq-question-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .version-badges {
+    flex-wrap: wrap;
+  }
+}
