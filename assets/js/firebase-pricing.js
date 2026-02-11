@@ -31,7 +31,7 @@
 
   try {
     const db = window.firebaseDb;
-    const pricingRef = window.firebaseDoc(db, 'config', 'pricing');
+    const pricingRef = window.firebaseDoc(db, 'pricing', 'config');
     const snapshot = await window.firebaseGetDoc(pricingRef);
 
     if (!snapshot.exists()) {
