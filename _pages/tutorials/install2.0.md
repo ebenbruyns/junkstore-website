@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/website_image_compressed.webp
 ---
 
-<h2 style="text-align: center;">How to Install Junk Store Pro</h2>
+## How to Install Junk Store Pro
 
 <p style="text-align: center;">Prefer a video tutorial? <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener">Watch on YouTube</a></p>
 
