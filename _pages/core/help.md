@@ -55,7 +55,7 @@ excerpt: "Complete support for both Decky Plugin (free) and Pro Version"
   <div class="content-box tutorials">
     <h3>Tutorials</h3>
     <p>Step-by-step setup guides, configuration tips, and advanced features.</p>
-    <a href="/tutorials/" class="button">View Tutorials</a>
+    <a href="#" class="button" onclick="goToPage('/tutorials/'); return false;">View Tutorials</a>
   </div>
 </div>
 

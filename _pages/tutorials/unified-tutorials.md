@@ -564,10 +564,21 @@ function filterTutorials(filterType) {
   });
 }
 
-// Initialize with all tutorials shown
+// Initialize with all tutorials shown, or apply URL filter
 document.addEventListener('DOMContentLoaded', function() {
-  // Set "Show All" as active by default
-  document.querySelector('[data-filter="all"]').classList.add('active');
+  // Check for filter in URL parameter (e.g., /tutorials/?filter=pro)
+  const urlParams = new URLSearchParams(window.location.search);
+  const filter = urlParams.get('filter');
+
+  if (filter === 'decky') {
+    filterTutorials('decky');
+  } else if (filter === 'pro' || filter === 'standalone') {
+    // Map 'pro' from help page to 'standalone' used here
+    filterTutorials('standalone');
+  } else {
+    // Set "Show All" as active by default
+    document.querySelector('[data-filter="all"]').classList.add('active');
+  }
 
   // Make tutorial boxes clickable (left-click only, preserve right-click)
   document.querySelectorAll('.tutorial-item').forEach(item => {
