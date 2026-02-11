@@ -10,141 +10,86 @@ header:
   overlay_image: /assets/images/website_image_compressed.webp
 ---
 
-<div class="spacer mt-4"></div>
+## How to Install Junk Store Pro
 
-Ready to upgrade to the ultimate Steam Deck gaming experience? Junk Store Pro brings Epic Games, GOG, and Amazon games directly to your Steam library without ever leaving Game Mode. This standalone version offers enhanced performance and features beyond the free Decky plugin.
+Prefer a video tutorial? <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener">Watch on YouTube</a>
 
-## How to download and install Junk Store Pro
-  
-  **Need help after installation?**
-  - **Common questions:** [Frequently Asked Questions](/2.0faq/)
-  - **Technical issues:** [Troubleshooting Guide](/2.0troubleshooting/)
-  
-  If you prefer a video tutorial you can find one here: <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener">How to Install Junk Store Pro on Steam Deck (Epic, Gog, Amazon)</a>
-  <ol>
-      <li><strong>Download the latest <code>js_pro</code></strong></li>
-        Latest build will be the first file in the list<br>
-      <img src="/assets/images/jspro/install2.0/downloadjspro.webp" alt="download from portal" width="600" height="338" loading="lazy" /><br><br>
-      <li>Open Dolphin → Downloads → Right-click the file → Properties → Permissions</li>
-        Mark it as executable and click <strong>OK </strong>then double-click on it to install<br>
-      <img src="/assets/images/jspro/install2.0/executable.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" /><br><br>
-      <img src="/assets/images/jspro/install2.0/install1.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" /><br><br>
-      <img src="/assets/images/jspro/install2.0/jsinstaller.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
+<div class="install-guide">
+<ol>
 
-      <div style="background: rgba(255, 69, 0, 0.2); border: 2px solid #ff4500; border-radius: 8px; padding: 15px; margin: 10px 0;">
-        <strong style="color: #ff6b35; font-size: 1.1em;">⚠️ CRITICAL:</strong> When installing Junk Store Pro, you <strong style="color: #ff6b35;">MUST wait until the dialogue box says "Installation Complete"</strong> before clicking OK. <strong style="color: #ff6b35;">Clicking the OK button too early cancels the installation process.</strong>
-      </div>
-      <br>
+<li>
+<strong>Download the latest js_pro</strong>
+<p>Go to the <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener">portal</a> and download the latest build (first file in the list).</p>
+<img src="/assets/images/jspro/install2.0/downloadjspro.webp" alt="Download Junk Store Pro from portal" width="600" height="338" loading="lazy" />
+</li>
 
-  <li><strong>Return to Gaming Mode</strong></li>
-        Press <strong>🗗</strong><em>View</em> (button above the D-pad) to open Junk Store<br>
-        Log in using your portal credentials<br>
-      <img src="/assets/images/jspro/install2.0/jslogin.png" alt="Login to Junk Store" width="600" height="338" loading="lazy" />
-      <br>
-      <br>
+<li>
+<strong>Make it executable and install</strong>
+<p>Open Dolphin → Downloads → Right-click the file → Properties → Permissions → Mark as executable → Click OK → Double-click to install.</p>
+<img src="/assets/images/jspro/install2.0/executable.png" alt="Set file as executable in Dolphin" width="600" height="338" loading="lazy" />
+<img src="/assets/images/jspro/install2.0/install1.png" alt="Double-click to run installer" width="600" height="338" loading="lazy" />
+<img src="/assets/images/jspro/install2.0/jsinstaller.png" alt="Junk Store installer progress" width="600" height="338" loading="lazy" />
 
- <li><strong>Generate and migrate your libraries</strong></li>
-    Go to Tools → Generator<br>
-    <img src="/assets/images/jspro/install2.0/tools.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
-    <br>
-    <br>
-    Open the sliders menu and choose <em>Download all presets from server</em><br>
-    <img src="/assets/images/jspro/install2.0/generatorsliders.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
-    <br>
-    <br>
-    <img src="/assets/images/jspro/install2.0/downloadpresets.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
-    <br>
-    <br>
-    Generate the extensions you want (Epic, GOG, etc.) by select the download (📥) button<br>
-    <img src="/assets/images/jspro/install2.0/generateextensions.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
-    <br>
-    <br>
-    You should now see tabs for each of the extensions in Junk Store.<br>
-    <img src="/assets/images/jspro/install2.0/tabsgenerated.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
-    <br>
-    <br>
-    Now all you need to do is log in to each and your libraries will be poplulated.<br>
-    <img src="/assets/images/jspro/install2.0/amazon.webp" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
-    <br>
-    <br>
-    <img src="/assets/images/jspro/install2.0/epic.webp" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
-    <br>
-    <br>
-    <img src="/assets/images/jspro/install2.0/gog.webp" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
-  </ol>
+<div style="background: rgba(255, 69, 0, 0.2); border: 2px solid #ff4500; border-radius: 8px; padding: 15px; margin: 1rem 0;">
+  <strong style="color: #ff6b35; font-size: 1.1em;">⚠️ CRITICAL:</strong> You <strong style="color: #ff6b35;">MUST wait until the dialogue box says "Installation Complete"</strong> before clicking OK. <strong style="color: #ff6b35;">Clicking OK too early cancels the installation.</strong>
+</div>
+</li>
 
-### If you are upgrading from the Decky plugin version:
-  
-  Your library and installed games will be ported across.<br>
-  In order to play already installed games <strong>Reset launch options for each game once</strong> — this completes the migration
-  <br>
-  <br>
-  <img src="/assets/images/jspro/install2.0/slidersgamepage.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
-  <br>
-  <br>
-  <img src="/assets/images/jspro/install2.0/resetlaunch.png" alt="Mark file as exectuable" width="600" height="338" loading="lazy" />
-  <br>
-  <br>
-  Your saves and settings will carry over automatically
+<li>
+<strong>Return to Gaming Mode</strong>
+<p>Press <strong>View</strong> (button above the D-pad) to open Junk Store, then log in with your portal credentials.</p>
+<img src="/assets/images/jspro/install2.0/jslogin.png" alt="Login to Junk Store" width="600" height="338" loading="lazy" />
+</li>
 
+<li>
+<strong>Generate your extensions</strong>
+<p>Go to Tools → Generator.</p>
+<img src="/assets/images/jspro/install2.0/tools.png" alt="Tools menu in Junk Store" width="600" height="338" loading="lazy" />
 
+<p>Open the sliders menu and choose <em>Download all presets from server</em>.</p>
+<img src="/assets/images/jspro/install2.0/generatorsliders.png" alt="Generator sliders menu" width="600" height="338" loading="lazy" />
+<img src="/assets/images/jspro/install2.0/downloadpresets.png" alt="Download presets option" width="600" height="338" loading="lazy" />
 
-## Supported Extensions
-<p></p>
-<li>✅ Gog</li>
-<li>✅ Epic</li>
-<li>✅ Amazon</li>
-<li>✅ itch.io (Beta)</li>
+<p>Generate the extensions you want (Epic, GOG, Amazon, itch.io) by pressing the download button.</p>
+<img src="/assets/images/jspro/install2.0/generateextensions.png" alt="Generate extensions button" width="600" height="338" loading="lazy" />
+
+<p>You should now see tabs for each extension.</p>
+<img src="/assets/images/jspro/install2.0/tabsgenerated.png" alt="Extension tabs in Junk Store" width="600" height="338" loading="lazy" />
+
+<p>Log in to each storefront and your libraries will populate.</p>
+<img src="/assets/images/jspro/install2.0/amazon.webp" alt="Amazon library in Junk Store" width="600" height="338" loading="lazy" />
+<img src="/assets/images/jspro/install2.0/epic.webp" alt="Epic library in Junk Store" width="600" height="338" loading="lazy" />
+<img src="/assets/images/jspro/install2.0/gog.webp" alt="GOG library in Junk Store" width="600" height="338" loading="lazy" />
+</li>
+
+</ol>
+</div>
 
 ---
 
-## Need More Help?
+### Upgrading from the Decky plugin?
 
-If you run into trouble, check out:
-- [2.0 FAQ](/2.0faq/)
-- [2.0 Troubleshooting Guide](/2.0troubleshooting/)
-- [2.0 Support Hub](/2.0-hub/)
+Your library and installed games will be ported across. To play already installed games, **reset launch options for each game once** — this completes the migration.
 
-**Found a bug?** Report issues here: [GitHub Issues](https://github.com/SDK-Innovation/JunkStoreBugs/issues)
+<div class="install-guide">
+<img src="/assets/images/jspro/install2.0/slidersgamepage.png" alt="Game page sliders menu" width="600" height="338" loading="lazy" />
+<img src="/assets/images/jspro/install2.0/resetlaunch.png" alt="Reset launch options" width="600" height="338" loading="lazy" />
+</div>
 
-Still stuck? Ask for help:
-<a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
-  <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
-</a>
-<a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
-  <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
-</a>
+Your saves and settings will carry over automatically.
 
-<style>
-.community-btn {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 12px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 13px;
-  transition: all 0.2s ease;
-  border: 2px solid transparent;
-  margin-left: 8px;
-  color: white;
-}
+---
 
-.discord-btn {
-  background: #5865f2;
-  color: white !important;
-}
+<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+<h3 style="margin-top: 0; color: #e74c3c;">🆘 Stuck or need help?</h3>
+<p><strong>Need setup help? We're here for you!</strong> Most installation issues are quick fixes we can resolve in minutes.</p>
 
-.reddit-btn {
-  background: #ff4500;
-  color: white !important;
-}
+<p><strong>Quick fixes for common issues:</strong></p>
+<ul style="margin-left: 1rem;">
+<li><a href="/troubleshooting/#3b04c412-e7be-4e3a-9322-b4adc4f8ad3f" style="color: #66bfff;">Installation not completing</a> - If the installer seems stuck</li>
+<li><a href="/troubleshooting/#e0849426-5126-41b8-bad7-45d61b3da1f1" style="color: #66bfff;">Executable won't run</a> - If Junk Store won't start</li>
+<li><a href="/faq/" style="color: #66bfff;">FAQ</a> - General usage questions</li>
+</ul>
 
-.community-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  color: white;
-  opacity: 0.9;
-}
-</style>
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> and post in <strong>v2-support</strong> channel.</p>
+</div>

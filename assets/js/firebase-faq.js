@@ -168,10 +168,27 @@ window.filterFAQ = function(filterType) {
 };
 
 // Auto-apply filter from URL parameter (e.g., /faq/?filter=decky)
+// Also handle hash links for deep linking to specific items
 document.addEventListener('faqLoaded', function() {
   const urlParams = new URLSearchParams(window.location.search);
   const filter = urlParams.get('filter');
   if (filter && (filter === 'decky' || filter === 'pro')) {
     window.filterFAQ(filter);
+  }
+
+  // Handle hash links - scroll to and open specific item
+  if (window.location.hash) {
+    const targetId = window.location.hash.substring(1);
+    const target = document.getElementById(targetId);
+    if (target) {
+      // Open the details element
+      if (target.tagName === 'DETAILS') {
+        target.open = true;
+      }
+      // Scroll to it with small delay for render
+      setTimeout(() => {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 100);
+    }
   }
 });
