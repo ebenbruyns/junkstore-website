@@ -13,201 +13,174 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
 ---
-<div class="spacer mt-4"></div>
 
-Experiencing black screens or compatibility issues with Epic/GOG games? Changing your Proton version often fixes these problems. This guide shows you how to check your current Proton version and switch to a different one to improve game compatibility in Junk Store.
+<h2 class="centered-header">How to Check/Change Proton Version</h2>
 
+<p style="text-align: center;">Fix black screens and compatibility issues by switching to a different Proton version.</p>
 
-> ⚠️ **Prerequisites:** You need **Junk Store** and **Wine Cellar** plugins installed via Decky Loader, plus some Proton versions already installed.
-
----
-
-## When Do You Need to Change Proton Versions?
-
-If you experience any of these issues, try a different Proton version:
-
-- Game shows a **black screen** then closes
-- Game **won't launch** at all
-- Game **crashes immediately**
-
-### Recommended Proton Versions
-
-- **GE-Proton** versions are generally recommended over standard Steam Proton
-- **Don't always update** to the latest release - we find a stable version and stick with it
-- **Test before upgrading** - newer isn't always better for game compatibility
-- **Keep 2-3 versions** installed so you can switch if one doesn't work
-
-> 💡 **Pro Tip:** Check [ProtonDB.com](https://www.protondb.com/) or our [Games Tested](/tested-games/) page to see what works best for your specific game.
+<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<strong>Prerequisites:</strong> You need <strong>Junk Store</strong> installed, plus a way to install different Proton versions (Wine Cellar, ProtonUp-Qt, etc.) and some Proton versions already installed.
+</div>
 
 ---
 
-## Prerequisites: Install a Proton Manager
+<h3 style="margin-top: 2rem;">When Do You Need to Change Proton Versions?</h3>
 
-You'll need a tool to download and manage different Proton versions. You have two good options:
+<p>If you experience any of these issues, try a different Proton version:</p>
+<ul>
+<li>Game shows a <strong>black screen</strong> then closes</li>
+<li>Game <strong>won't launch</strong> at all</li>
+<li>Game <strong>crashes immediately</strong></li>
+</ul>
 
-### Option 1: Wine Cellar (Recommended for Game Mode)
-- **Decky plugin** - works directly in Game Mode
-- **No Desktop Mode needed** for downloads and management
-- **Requires restart** after installing new Proton versions
-- **Installation:** Search "Wine Cellar" in Decky Plugin Store
+<h4>Recommended Proton Versions</h4>
+<ul>
+<li><strong>GE-Proton</strong> versions are generally recommended over standard Steam Proton</li>
+<li><strong>Don't always update</strong> to the latest release - we find a stable version and stick with it</li>
+<li><strong>Test before upgrading</strong> - newer isn't always better for game compatibility</li>
+<li><strong>Keep 2-3 versions</strong> installed so you can switch if one doesn't work</li>
+</ul>
 
-### Option 2: ProtonUp-Qt (Desktop Mode)
-- **Desktop application** - download from Discover Store
-- **Must use Desktop Mode** to install new versions
-- **No restart required** - updates apply when returning to Game Mode
-- Search "ProtonUp-Qt" in Discover Store
-
-> ✅ **Why use either?** Junk Store creates separate prefixes for each game, so you can use different Proton versions per game.
-
-**Quick Links:**
-- [How to Install Junk Store](/tutorials/install-decky-plugin)
-
----
-
-## Method 1: Change Proton Version in Junk Store
-
-### Step 1: Open Your Game in Junk Store
-
-Start from the game screen **inside Junk Store** (not Steam library).
-
-![FM'24 JS Game Page](/assets/images/Proton/FM'24%20JS%20Game%20Page.webp){: loading="lazy"}
+<div style="background: rgba(76, 175, 80, 0.1); border-left: 4px solid #4caf50; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<strong>Pro Tip:</strong> Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB.com</a> or our <a href="/tested-games/">Games Tested</a> page to see what works best for your specific game.
+</div>
 
 ---
 
-### Step 2: Access Steam Game Properties
+<h3 style="margin-top: 2rem;">Prerequisites: Install a Proton Manager</h3>
 
-- Press **Y** to go to Steam's game page
-- Navigate to the **gear/cog icon**
-- Press **A** to select
+<p>You'll need a tool to download and manage different Proton versions. You have two good options:</p>
 
-![FM'24 Steam App Page](/assets/images/Proton/FM'24%20Steam%20App%20Page.webp){: loading="lazy"}
+<h4>Option 1: Wine Cellar (Our Preferred for Game Mode)</h4>
+<ul>
+<li><strong>Decky plugin</strong> - works directly in Game Mode</li>
+<li><strong>No Desktop Mode needed</strong> for downloads and management</li>
+<li><strong>Requires restart</strong> after installing new Proton versions</li>
+<li><strong>Installation:</strong> Search "Wine Cellar" in Decky Plugin Store</li>
+</ul>
 
----
+<h4>Option 2: ProtonUp-Qt (Desktop Mode)</h4>
+<ul>
+<li><strong>Desktop application</strong> - download from Discover Store</li>
+<li><strong>Must use Desktop Mode</strong> to install new versions</li>
+<li><strong>No restart required</strong> - updates apply when returning to Game Mode</li>
+<li>Search "ProtonUp-Qt" in Discover Store</li>
+</ul>
 
-### Step 3: Open Properties Menu
-
-- Select **Properties** from the menu
-- Press **A** to confirm
-
-![FM'24 Properties Option Selection](/assets/images/Proton/FM'24%20Properties%20Option%20Selection.webp){: loading="lazy"}
-
----
-
-### Step 4: Navigate to Compatibility
-
-- Go to the **Compatibility** tab
-- This is where you'll find Proton settings
-
-![FM'24 Proton Version Screen](/assets/images/Proton/FM'24%20Proton%20Version%20Screen.webp){: loading="lazy"}
+<p><strong>Quick Links:</strong> <a href="/tutorials/install-decky-plugin">How to Install Junk Store</a></p>
 
 ---
 
-### Step 5: Select Proton Version
+<h3 style="margin-top: 2rem;">Method 1: Change Proton Version in Junk Store</h3>
 
-- Navigate to the **Proton dropdown menu**
-- Press **A** to open the list of available versions
+<div class="install-guide">
+<ol>
 
-![FM Current Proton Version](/assets/images/Proton/FM%20Current%20Proton%20Version.webp){: loading="lazy"}
+<li>
+<strong>Open Your Game in Junk Store</strong>
+<p>Start from the game screen <strong>inside Junk Store</strong> (not Steam library).</p>
+<img src="/assets/images/Proton/FM'24%20JS%20Game%20Page.webp" alt="Game page in Junk Store" width="600" height="338" loading="lazy" />
+</li>
 
----
+<li>
+<strong>Access Steam Game Properties</strong>
+<p>Press <strong>Y</strong> to go to Steam's game page, then navigate to the <strong>gear/cog icon</strong> and press <strong>A</strong> to select.</p>
+<img src="/assets/images/Proton/FM'24%20Steam%20App%20Page.webp" alt="Steam app page with cog icon" width="600" height="338" loading="lazy" />
+</li>
 
-### Step 6: Choose Your Version
+<li>
+<strong>Open Properties Menu</strong>
+<p>Select <strong>Properties</strong> from the menu and press <strong>A</strong> to confirm.</p>
+<img src="/assets/images/Proton/FM'24%20Properties%20Option%20Selection.webp" alt="Properties option in menu" width="600" height="338" loading="lazy" />
+</li>
 
-- Select the **Proton version** you want to try
-- Press **A** to confirm
-- The setting is **automatically saved** per game
+<li>
+<strong>Navigate to Compatibility</strong>
+<p>Go to the <strong>Compatibility</strong> tab. This is where you'll find Proton settings.</p>
+<img src="/assets/images/Proton/FM'24%20Proton%20Version%20Screen.webp" alt="Compatibility tab with Proton settings" width="600" height="338" loading="lazy" />
+</li>
 
-![FM'24 Changing Proton Version](/assets/images/Proton/FM'24%20Changing%20Proton%20Version.webp){: loading="lazy"}
+<li>
+<strong>Select Proton Version</strong>
+<p>Navigate to the <strong>Proton dropdown menu</strong> and press <strong>A</strong> to open the list of available versions.</p>
+<img src="/assets/images/Proton/FM%20Current%20Proton%20Version.webp" alt="Current Proton version dropdown" width="600" height="338" loading="lazy" />
+</li>
 
-> ✅ **Saved Settings:** Your Proton choice is remembered for this specific game, even after rebooting.
+<li>
+<strong>Choose Your Version</strong>
+<p>Select the <strong>Proton version</strong> you want to try and press <strong>A</strong> to confirm. The setting is <strong>automatically saved</strong> per game.</p>
+<img src="/assets/images/Proton/FM'24%20Changing%20Proton%20Version.webp" alt="Changing Proton version" width="600" height="338" loading="lazy" />
 
----
+<div style="background: rgba(76, 175, 80, 0.1); border-left: 4px solid #4caf50; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<strong>Saved Settings:</strong> Your Proton choice is remembered for this specific game, even after rebooting.
+</div>
+</li>
 
-## Method 2: Change via Steam Library
-
-You can also change Proton versions directly from Steam's library:
-
-### Quick Access Method
-
-- Find your game in **Steam Library**
-- Press the **Start/Options button** (hamburger menu)
-- Select **Properties**
-
-![Game Art Steam Library](/assets/images/Proton/Game%20Art%20Steam%20Library.webp){: loading="lazy"}
-
-![Properties Menu from Steam Library](/assets/images/Proton/Properties%20Menu%20from%20Steam%20Library.webp){: loading="lazy"}
-
-- Follow **Steps 4-6** from Method 1 above
-
----
-
-## Ready to Play!
-
-Once you've selected your Proton version:
-
-- **Back out** to the game screen
-- Press **Play** to launch with the new settings
-
-![FM'24 Load Screen](/assets/images/Proton/FM'24%20Load%20Screen.webp){: loading="lazy"}
-
----
-
-## Troubleshooting Tips
-
-- **Game still won't work?** Try a different GE-Proton version
-- **Need more versions?** Use Wine Cellar to download additional options
-- **Unsure which version to use?** Check our [compatibility database](/tested-games/)
+</ol>
+</div>
 
 ---
 
-## Need More Help?
+<h3 style="margin-top: 2rem;">Method 2: Change via Steam Library</h3>
 
-If you're still having trouble:
+<p>You can also change Proton versions directly from Steam's library:</p>
 
-- [Plugin Help](/deckyhelp)
-- [Plugin FAQ](/faq/decky/)
-- [Decky Plugin Troubleshooting](/troubleshooting/decky/)
-- [Pro Version Troubleshooting](/troubleshooting/v2/)
+<div class="install-guide">
+<ol>
 
-Still stuck? Ask for help:
-<a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
-  <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
-</a>
-<a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
-  <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
-</a>
+<li>
+<strong>Find Your Game in Steam Library</strong>
+<p>Locate your game in the <strong>Steam Library</strong>.</p>
+<img src="/assets/images/Proton/Game%20Art%20Steam%20Library.webp" alt="Game in Steam Library" width="600" height="338" loading="lazy" />
+</li>
 
+<li>
+<strong>Open Properties</strong>
+<p>Press the <strong>Start/Options button</strong> (hamburger menu) and select <strong>Properties</strong>.</p>
+<img src="/assets/images/Proton/Properties%20Menu%20from%20Steam%20Library.webp" alt="Properties menu from Steam Library" width="600" height="338" loading="lazy" />
+</li>
 
-<style>
-.community-btn {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 12px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 13px;
-  transition: all 0.2s ease;
-  border: 2px solid transparent;
-  margin-left: 8px;
-  color: white;
-}
+<li>
+<strong>Follow Method 1 Steps</strong>
+<p>Follow <strong>Steps 4-6</strong> from Method 1 above to change the Proton version.</p>
+</li>
 
-.discord-btn {
-  background: #5865f2;
-  color: white !important;
-}
+</ol>
+</div>
 
-.reddit-btn {
-  background: #ff4500;
-  color: white !important;
-}
+---
 
-.community-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  color: white;
-  opacity: 0.9;
-}
-</style>
+<h3 style="margin-top: 2rem;">Ready to Play!</h3>
+
+<p>Once you've selected your Proton version:</p>
+<ul>
+<li><strong>Back out</strong> to the game screen</li>
+<li>Press <strong>Play</strong> to launch with the new settings</li>
+</ul>
+
+<img src="/assets/images/Proton/FM'24%20Load%20Screen.webp" alt="Game loading screen" width="600" height="338" loading="lazy" />
+
+---
+
+<h3 style="margin-top: 2rem;">Troubleshooting Tips</h3>
+
+<ul>
+<li><strong>Game still won't work?</strong> Try a different GE-Proton version</li>
+<li><strong>Need more versions?</strong> Use Wine Cellar to download additional options</li>
+<li><strong>Unsure which version to use?</strong> Check our <a href="/tested-games/">compatibility database</a></li>
+</ul>
+
+---
+
+<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+<h3 style="margin-top: 0; color: #e74c3c;">Stuck or need help?</h3>
+<p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
+
+<p><strong>Quick fixes for common issues:</strong></p>
+<ul style="margin-left: 1rem;">
+<li><a href="/faq/" style="color: #66bfff;">FAQ</a> - General questions</li>
+<li><a href="/troubleshooting/" style="color: #66bfff;">Troubleshooting</a> - Common issues</li>
+</ul>
+
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> for community support.</p>
+</div>

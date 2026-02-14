@@ -13,183 +13,107 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
 ---
-<div class="spacer mt-4"></div>
 
-Ready to play your Epic Games library directly on Steam Deck without leaving Game Mode? The free Junk Store Decky plugin brings Epic Games integration to your Steam library, letting you install and launch Epic games seamlessly through Steam's interface.
+<h2 class="centered-header">How to Install Junk Store Decky Plugin</h2>
 
-This guide walks you through installing the **Junk Store** plugin and logging in to your Epic Games account on a Steam Deck.
+<p style="text-align: center;">Prefer a video tutorial? <a href="https://www.youtube.com/watch?v=tgc7yiKtpW0" target="_blank" rel="noopener">Watch on YouTube</a></p>
 
-> ⚠️ **Note:** This guide assumes you already have **Decky Loader** installed.
+<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 6px 6px 0;">
+<strong>Note:</strong> This guide assumes you already have <strong>Decky Loader</strong> installed.
+</div>
 
----
+<div class="install-guide">
+<ol>
 
-## Download Junk Store
+<li>
+<strong>Check your Store Channel</strong>
+<p>Make sure you're using the correct Store Channel in Decky. Press the <strong>three dots</strong> (...) button, go to the <strong>gear icon</strong> in the top-left, and set your Store Channel to <em>Default</em> for the main store or <em>Testing</em> for the test version.</p>
+<img src="/assets/images/JSInstall/Decky%20Store%20Change.jpeg" alt="Decky Store Channel settings" width="600" height="338" loading="lazy" />
+</li>
 
-You can download Junk Store from either of the following Decky Plugin stores:
+<li>
+<strong>Install Junk Store</strong>
+<p>Go back to the Decky Loader main screen, open the <strong>Decky Plugin Store</strong>, search for or scroll to <strong>Junk Store Plugin</strong>, and click <strong>Install</strong>.</p>
+<img src="/assets/images/JSInstall/Junk-Store%20Install.jpeg" alt="Install Junk Store from Decky store" width="600" height="338" loading="lazy" />
+</li>
 
-- [Decky Plugin Main Store](https://plugins.deckbrew.xyz)
-- [Decky Plugin Testing Store](https://testing.deckbrew.xyz)
+<li>
+<strong>Install Dependencies</strong>
+<p>After installing, open <strong>Junk Store</strong>, go to the <strong>About</strong> section, and select <strong>Dependencies</strong> > <strong>Install Dependencies</strong>.</p>
+<img src="/assets/images/JSInstall/Dependencies.jpeg" alt="Install Junk Store dependencies" width="600" height="338" loading="lazy" />
 
----
+<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+This might take around 30 seconds or longer. Just wait — it's normal.
+</div>
+</li>
 
-## Step-by-Step Installation
+<li>
+<strong>Log in to Epic Games</strong>
+<p>From the Junk Store menu, select <strong>Games</strong>. You'll be prompted to log in to your Epic Games account.</p>
+<img src="/assets/images/JSInstall/Login%20Epic.jpeg" alt="Epic Games login prompt" width="600" height="338" loading="lazy" />
+<img src="/assets/images/JSInstall/Epic%20Login%20Dialogue.jpg" alt="Epic Games login dialogue" width="600" height="338" loading="lazy" />
 
-### Step 1: Check Your Store Channel
+<div style="background: rgba(76, 175, 80, 0.1); border-left: 4px solid #4caf50; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+Make sure the Epic account you log in with has games in its library, or nothing will show up.
+</div>
+</li>
 
-Make sure you’re using the correct **Store Channel** in Decky.
+<li>
+<strong>Use Desktop Mode for Third-Party Logins</strong>
+<p>If you want to log in using <strong>Xbox</strong>, <strong>PlayStation</strong>, <strong>Nintendo</strong>, or another method, switch to <strong>Desktop Mode</strong> and follow our guide: <a href="/tutorials/oauth-login">Login with OAuth / Third-Party</a></p>
+</li>
 
-- Press the **three dots** (...) button
-- Go to the **gear icon** in the top-left
-- Set your Store Channel to either:
-  - `Default` for the main store
-  - `Testing` for the test version
+<li>
+<strong>View Your Library</strong>
+<p>After logging in, your Epic library should load automatically. If it doesn't, scroll down and press <strong>Y</strong> on <strong>Show All</strong>, make sure <strong>Show Installed</strong> is not selected, and clear the search box if needed.</p>
+<img src="/assets/images/JSInstall/Epic%20Library%20v2.jpeg" alt="Epic Games library in Junk Store" width="600" height="338" loading="lazy" />
 
-![Decky Store Change](/assets/images/JSInstall/Decky%20Store%20Change.jpeg){: loading="lazy"}
+<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+Games that need <strong>EA App</strong> or <strong>Origin</strong> won't show up — they aren't supported.
+</div>
+</li>
 
----
+<li>
+<strong>Test with a Small Game</strong>
+<p>To make sure everything works, try installing a smaller game. We recommend something simple like <strong>DOOM 64</strong>. Avoid huge or complex games right away — some need extra setup to work properly on Steam Deck.</p>
+<img src="/assets/images/JSInstall/Doom64%20install.jpeg" alt="Installing DOOM 64 as test game" width="600" height="338" loading="lazy" />
+</li>
 
-### Step 2: Install Junk Store
+<li>
+<strong>You're Ready to Go!</strong>
+<p>Once you've installed and tested a game, you're all set.</p>
+</li>
 
-- Go back to the Decky Loader main screen
-- Open the **Decky Plugin Store**
-- Search for or scroll to **Junk Store Plugin**
-- Select it and click **Install**
-
-> 💡 You can also choose a specific version before installing.
-
-![Junk Store Install](/assets/images/JSInstall/Junk-Store%20Install.jpeg){: loading="lazy"}
-
----
-
-### Step 3: Install Dependencies
-
-- After installing, open **Junk Store**
-- Go to the **About** section
-- Select **Dependencies** > **Install Dependencies**
-
-> ⏳ This might take a while (around 30 seconds, or longer). Just wait — it’s normal.
-
-![Install Dependencies](/assets/images/JSInstall/Dependencies.jpeg){: loading="lazy"}
-
----
-
-### Step 4: Log in to Epic Games
-
-- From the Junk Store menu, select **Games**
-- You’ll be prompted to log in to your **Epic Games** account
-
-![Login Epic](/assets/images/JSInstall/Login%20Epic.jpeg){: loading="lazy"}
-![Epic Login Dialogue](/assets/images/JSInstall/Epic%20Login%20Dialogue.jpg){: loading="lazy"}
-
-> ✅ Make sure the Epic account you log in with has games in its library, or nothing will show up.
-
----
-
-### Step 5: Use Desktop Mode for Third-Party Logins
-
-If you want to log in using **Xbox**, **PlayStation**, **Nintendo**, or another method:
-
-- Switch to **Desktop Mode**
-- Follow our guide: [Login with OAuth / Third-Party](/tutorials/oauth-login)
+</ol>
+</div>
 
 ---
 
-### Step 6: View Your Library
-
-- After logging in, your Epic library should load automatically
-- If it doesn't:
-  - Scroll down and press `Y` on **Show All**
-  - Make sure **Show Installed** is not selected
-  - Clear the search box if needed
-
-![Epic Library](/assets/images/JSInstall/Epic%20Library%20v2.jpeg){: loading="lazy"}
-
-> ⚠️ Games that need **EA App** or **Origin** won’t show up — they aren't supported.
-
----
-
-### Step 7: Test with a Small Game
-
-To make sure everything works:
-
-- Try installing a smaller game
-- We recommend something simple like **DOOM 64**
-
-> ❗ Avoid huge or complex games right away. Some games need extra setup to work properly on Steam Deck.
-
-![Doom64 Install](/assets/images/JSInstall/Doom64%20install.jpeg){: loading="lazy"}
-
----
-
-### Step 8: You're Ready to Go!
-
-Once you’ve installed and tested a game, you’re all set.
-
----
-
-## Need More Help?
-
-If you run into trouble, check out:
-- **Decky Plugin:** [Plugin FAQ](/faq/decky/) for common questions
-- **Decky Plugin:** [Plugin Troubleshooting](/troubleshooting/decky/) for technical issues
-- **General:** [Plugin Help Guide](/deckyhelp) for setup assistance
-
-**Still stuck? Get community help:**
-
-<a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
-  <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
-</a>
-<a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
-  <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
-</a>
-
----
-
-## 📺 Bonus: Video Guide
+### Bonus: Video Guide
 
 Steam Deck Gaming made a great video showing how to install Junk Store (including Fall Guys):
 
-[![Watch on YouTube](https://img.youtube.com/vi/tgc7yiKtpW0/0.jpg){: loading="lazy"}](https://www.youtube.com/watch?v=tgc7yiKtpW0)
+<p style="text-align: center;"><a href="https://www.youtube.com/watch?v=tgc7yiKtpW0" target="_blank" rel="noopener"><img src="https://img.youtube.com/vi/tgc7yiKtpW0/0.jpg" alt="Watch Junk Store install video on YouTube" width="480" height="360" loading="lazy" style="display: inline-block;" /></a></p>
 
 ---
 
-## 📖 Bonus: Written Guide
+### Bonus: Written Guide
 
 Noah from SteamDeckHQ wrote an awesome step-by-step article:
 
-👉 [Junk Store Install Guide on SteamDeckHQ](https://steamdeckhq.com/tips-and-guides/how-to-integrate-epic-games-into-steam-deck-library/?utm_source=dlvr.it&utm_medium=twitter)
+<a href="https://steamdeckhq.com/tips-and-guides/how-to-integrate-epic-games-into-steam-deck-library/" target="_blank" rel="noopener">Junk Store Install Guide on SteamDeckHQ</a>
 
+---
 
-<style>
-.community-btn {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 12px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 13px;
-  transition: all 0.2s ease;
-  border: 2px solid transparent;
-  margin-left: 8px;
-  color: white;
-}
+<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+<h3 style="margin-top: 0; color: #e74c3c;">🆘 Stuck or need help?</h3>
+<p><strong>Need setup help? We're here for you!</strong> Most installation issues are quick fixes.</p>
 
-.discord-btn {
-  background: #5865f2;
-  color: white !important;
-}
+<p><strong>Quick fixes for common issues:</strong></p>
+<ul style="margin-left: 1rem;">
+<li><a href="/faq/?filter=decky" style="color: #66bfff;">Decky Plugin FAQ</a> - General questions</li>
+<li><a href="/troubleshooting/?filter=decky" style="color: #66bfff;">Troubleshooting</a> - All Decky issues</li>
+</ul>
 
-.reddit-btn {
-  background: #ff4500;
-  color: white !important;
-}
-
-.community-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  color: white;
-  opacity: 0.9;
-}
-</style>
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> and post in <strong>#decky-support</strong> channel.</p>
+</div>

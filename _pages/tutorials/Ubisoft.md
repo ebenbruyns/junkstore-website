@@ -13,162 +13,198 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
 ---
-<div class="spacer mt-4"></div>
 
-**Note**: Junk Store relies on Legendary to pick these games up and show them in your Epic Games libraries. Not all Ubisoft titles currently work through Junk Store. If you are planning to purchase any then do so at your own risk or with the understanding that you will need to play these games using another method.
+<h2 class="centered-header">How to Play Ubisoft Games in Junk Store</h2>
 
-Big shout out to Discord member *numbersix* for bringing our attention to the fact that you can play some Ubisoft games through Junk Store! I tested it out and it works!
+<p style="text-align: center;">Install Ubisoft Connect and launch Ubisoft games through Epic Games Store.</p>
 
-I have successfully tested the ability to play the following Ubisoft games via Junk Store:
-- Far Cry 6 (Demo)
-- Skull & Bones (Demo - you need to enable Battleye Anti Cheat from the cog icon)
-- Tom Clancy's Ghost Recon Breakpoint (Demo)
-- Trackmania Starter Access
-- Monopoly Madness (Demo)
-- Roller Champions
+<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<strong>Note:</strong> Junk Store relies on Legendary to pick these games up and show them in your Epic Games libraries. Not all Ubisoft titles currently work through Junk Store. If you are planning to purchase any, do so at your own risk or with the understanding that you may need to play these games using another method.
+</div>
 
-We have also had reports that Assassin's Creed Origins and AC Mirage are also working through Junk Store.
+<p>Big shout out to Discord member <em>numbersix</em> for bringing our attention to the fact that you can play some Ubisoft games through Junk Store!</p>
 
-## How to Install & Run Ubisoft Games via Junk Store
-
-Follow the steps below to install and play Ubisoft games via Junk Store. Make sure you are logged into your Epic Games account and have Junk Store & Wine Cellar (for Proton versions) already installed.
-
-You will need the latest version of Junk Store installed. This example uses Trackmania as a guide.
-
-### Installing Ubisoft Connect Launcher
-
-If you keep getting pushed back to the game screen in Junk Store and nothing is happening, you may need to check that *Proton Compatibility* is **enabled**. If this isn't toggled on, you won't be able to install the Ubisoft Connect launcher. If you're unsure how to do this, refer to the [How to Check/Change Proton Version](/tutorials/proton-versions) guide.
-
-1) After installing the game via Junk Store, navigate to the sliders menu icon on the game screen and press **A**.
-   ![Trackmania Sliders](/assets/images/ubisoft/trackmania-sliders.webp){: loading="lazy" width="600" height="338"}
-
-2) When this screen opens, highlight "Run exe in Game folder" and press **A** to select it. Then find and select the UPlay installer executable: `./Uplay/UplayInstaller.exe` and press **A** again.
-
-   ![Run exe in Game Folder](/assets/images/ubisoft/run-exe-in-game-folder.webp){: loading="lazy" width="600" height="338"}
-   ![Uplay Installer Trackmania](/assets/images/ubisoft/uplay-installer-trackmania.webp){: loading="lazy" width="600" height="338"}
-
-3) This will install the Ubisoft Connect Launcher. Follow the prompts as shown below:
-
-   * Select your language preference and click OK.
-     ![Trackmania Ubisoft Launcher Lang](/assets/images/ubisoft/trackmania-ubisoft-launcher-lang.webp){: loading="lazy" width="600" height="338"}
-
-   * Agree to the License agreement by clicking "I accept".
-     ![Ubisoft EULA](/assets/images/ubisoft/ubisoft-eula.webp){: loading="lazy" width="600" height="338"}
-
-   * Choose where to install Ubisoft Connect launcher. Leave it as default and select "Install".
-     ![Ubisoft Connect Install Location](/assets/images/ubisoft/ubisoft-connect-install-location.webp){: loading="lazy" width="600" height="338"}
-
-   * When installation completes, select "Next".
-     ![Trackmania Ubisoft Launcher complete](/assets/images/ubisoft/trackmania-ubisoft-launcher-complete.webp){: loading="lazy" width="600" height="338"}
-
-   * Leave the box checked to proceed to account login, then select "Finish".
-     ![Ubisoft Connect Complete](/assets/images/ubisoft/ubisoft-connect-complete.webp){: loading="lazy" width="600" height="338"}
-
-### Ubisoft Connect Login
-
-You will be asked to log in to Ubisoft Connect. You'll need an account - if you don't have one, you can create one at this time.
-
-1) Log in with your email and password. You may be asked to set up 2FA if you haven't already. Select "Remember Me".
-   ![Ubisoft Login](/assets/images/ubisoft/ubisoft-login.webp){: loading="lazy" width="600" height="338"}
-
-   * Ubisoft's web page will load. Once finished, close this page.
-     ![Ubisoft Webpage](/assets/images/ubisoft/ubisoft-webpage.webp){: loading="lazy" width="600" height="338"}
-
-   * When you close the page, this dialog will appear. Choose "Exit the application" and press OK. This returns you to the game screen in Junk Store.
-     ![Minimise Uplay Screen](/assets/images/ubisoft/minimise-uplay-screen.webp){: loading="lazy" width="600" height="338"}
-
-2) Now you need to set the game executable. Repeat step 2 above:
-
-   * Back on the game screen in Junk Store, navigate to the sliders menu icon and press **A**.
-   * Highlight "Run exe in Game folder" and press **A** to select it.
-
-3) Find and select the game executable: `./Trackmania.exe`. Press **X** to "Set Game Executable" for future use.
-   ![Trackmania exe Menu](/assets/images/ubisoft/trackmania-exe-menu.webp){: loading="lazy" width="600" height="338"}
-
-4) You'll return to the game screen where you can now press "Play".
-   ![Trackmania Play Game](/assets/images/ubisoft/trackmania-play-game.webp){: loading="lazy" width="600" height="338"}
-
-5) A screen will appear saying "Installing Trackmania" asking you to set the installation language.
-   ![Trackmania Language Selection](/assets/images/ubisoft/trackmania-language-selection.webp){: loading="lazy" width="600" height="338"}
-
-6) Select an install location for the game. Leave as default (you can create a shortcut if desired, but this can be skipped). Press 'A' to continue.
-   ![Trackmania Install Prompt](/assets/images/ubisoft/trackmania-install-prompt.webp){: loading="lazy" width="600" height="338"}
-
-   * Accept the EULA when prompted.
-     ![Trackmania EULA](/assets/images/ubisoft/trackmania-eula.webp){: loading="lazy" width="600" height="338"}
-
-7) Trackmania will download through Ubisoft Connect. When finished, press 'A' to play.
-
-   ![Trackmania Downloading](/assets/images/ubisoft/trackmania-downloading.webp){: loading="lazy" width="600" height="338"}
-   ![Trackmania Download Complete](/assets/images/ubisoft/trackmania-download-complete.webp){: loading="lazy" width="600" height="338"}
-
-The game will now launch and you'll be able to play!
-
-![Trackmania In Game Screen](/assets/images/ubisoft/trackmania-in-game-screen.webp){: loading="lazy" width="600" height="338"}
-
-There you have it. You can now play some of your Ubisoft games in Junk Store too!
-
-Have fun gaming everyone,
-
-The Junk Store Team
+<h4>Successfully Tested Ubisoft Games:</h4>
+<ul>
+<li>Far Cry 6 (Demo)</li>
+<li>Skull & Bones (Demo - you need to enable Battleye Anti Cheat from the cog icon)</li>
+<li>Tom Clancy's Ghost Recon Breakpoint (Demo)</li>
+<li>Trackmania Starter Access</li>
+<li>Monopoly Madness (Demo)</li>
+<li>Roller Champions</li>
+<li>Assassin's Creed Origins (community reports)</li>
+<li>AC Mirage (community reports)</li>
+</ul>
 
 ---
 
-### If This Method Doesn't Work
-1. **Check our [game compatibility database](/tested-games/)** for specific game status
-2. **Try [native Steam versions](https://store.steampowered.com/)** when available
-3. **Consider [GOG versions](/tutorials/gog-extension)** for DRM-free alternatives
-4. **Use [Heroic Game Launcher](https://heroicgameslauncher.com/)** in Desktop Mode as fallback
+<h3 style="margin-top: 2rem;">Installing Ubisoft Connect Launcher</h3>
+
+<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<strong>Important:</strong> If you keep getting pushed back to the game screen and nothing happens, check that <em>Proton Compatibility</em> is <strong>enabled</strong>. If this isn't toggled on, you won't be able to install the Ubisoft Connect launcher. See the <a href="/tutorials/proton-versions">How to Check/Change Proton Version</a> guide.
+</div>
+
+<div class="install-guide">
+<ol>
+
+<li>
+<strong>Open the Sliders Menu</strong>
+<p>After installing the game via Junk Store, navigate to the sliders menu icon on the game screen and press <strong>A</strong>.</p>
+<img src="/assets/images/ubisoft/trackmania-sliders.webp" alt="Trackmania sliders menu" width="600" height="338" loading="lazy" />
+</li>
+
+<li>
+<strong>Run the UPlay Installer</strong>
+<p>Highlight "Run exe in Game folder" and press <strong>A</strong> to select it. Then find and select the UPlay installer executable: <code>./Uplay/UplayInstaller.exe</code> and press <strong>A</strong> again.</p>
+<img src="/assets/images/ubisoft/run-exe-in-game-folder.webp" alt="Run exe in Game Folder option" width="600" height="338" loading="lazy" />
+<img src="/assets/images/ubisoft/uplay-installer-trackmania.webp" alt="UPlay installer selection" width="600" height="338" loading="lazy" />
+</li>
+
+<li>
+<strong>Select Language</strong>
+<p>Select your language preference and click OK.</p>
+<img src="/assets/images/ubisoft/trackmania-ubisoft-launcher-lang.webp" alt="Ubisoft launcher language selection" width="600" height="338" loading="lazy" />
+</li>
+
+<li>
+<strong>Accept the License Agreement</strong>
+<p>Agree to the License agreement by clicking "I accept".</p>
+<img src="/assets/images/ubisoft/ubisoft-eula.webp" alt="Ubisoft EULA" width="600" height="338" loading="lazy" />
+</li>
+
+<li>
+<strong>Choose Install Location</strong>
+<p>Choose where to install Ubisoft Connect launcher. Leave it as default and select "Install".</p>
+<img src="/assets/images/ubisoft/ubisoft-connect-install-location.webp" alt="Ubisoft Connect install location" width="600" height="338" loading="lazy" />
+</li>
+
+<li>
+<strong>Complete Installation</strong>
+<p>When installation completes, select "Next".</p>
+<img src="/assets/images/ubisoft/trackmania-ubisoft-launcher-complete.webp" alt="Ubisoft launcher installation complete" width="600" height="338" loading="lazy" />
+</li>
+
+<li>
+<strong>Proceed to Login</strong>
+<p>Leave the box checked to proceed to account login, then select "Finish".</p>
+<img src="/assets/images/ubisoft/ubisoft-connect-complete.webp" alt="Ubisoft Connect complete" width="600" height="338" loading="lazy" />
+</li>
+
+</ol>
+</div>
 
 ---
 
-## Need More Help?
+<h3 style="margin-top: 2rem;">Ubisoft Connect Login</h3>
 
-If you run into trouble, check out:
-- **Universal:** [FAQ Section](/2.0faq/) for common questions
-- **Universal:** [Troubleshooting Guide](/2.0troubleshooting/) for technical issues
-- **Decky Plugin:** [Plugin-specific help](/faq/decky/) and [troubleshooting](/troubleshooting/decky/)
-- **Pro Version:** [Version-specific help](/2.0faq/) and [troubleshooting](/2.0troubleshooting/)
+<p>You will be asked to log in to Ubisoft Connect. You'll need an account - if you don't have one, you can create one at this time.</p>
 
-**Still stuck? Get community help:**
+<div class="install-guide">
+<ol>
 
-<a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
-  <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
-</a>
-<a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
-  <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
-</a>
+<li>
+<strong>Enter Credentials</strong>
+<p>Log in with your email and password. You may be asked to set up 2FA if you haven't already. Select "Remember Me".</p>
+<img src="/assets/images/ubisoft/ubisoft-login.webp" alt="Ubisoft login screen" width="600" height="338" loading="lazy" />
+</li>
 
-<style>
-.community-btn {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 12px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 13px;
-  transition: all 0.2s ease;
-  border: 2px solid transparent;
-  margin-left: 8px;
-  color: white;
-}
+<li>
+<strong>Close the Ubisoft Web Page</strong>
+<p>Ubisoft's web page will load. Once finished, close this page.</p>
+<img src="/assets/images/ubisoft/ubisoft-webpage.webp" alt="Ubisoft webpage" width="600" height="338" loading="lazy" />
+</li>
 
-.discord-btn {
-  background: #5865f2;
-  color: white !important;
-}
+<li>
+<strong>Exit the Application</strong>
+<p>When you close the page, a dialog will appear. Choose "Exit the application" and press OK. This returns you to the game screen in Junk Store.</p>
+<img src="/assets/images/ubisoft/minimise-uplay-screen.webp" alt="Exit UPlay application dialog" width="600" height="338" loading="lazy" />
+</li>
 
-.reddit-btn {
-  background: #ff4500;
-  color: white !important;
-}
+<li>
+<strong>Set the Game Executable</strong>
+<p>Back on the game screen in Junk Store, navigate to the sliders menu icon and press <strong>A</strong>. Highlight "Run exe in Game folder" and press <strong>A</strong> to select it.</p>
+</li>
 
-.community-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  color: white;
-  opacity: 0.9;
-}
-</style>
+<li>
+<strong>Select Game EXE and Save</strong>
+<p>Find and select the game executable: <code>./Trackmania.exe</code>. Press <strong>X</strong> to "Set Game Executable" for future use.</p>
+<img src="/assets/images/ubisoft/trackmania-exe-menu.webp" alt="Trackmania exe menu" width="600" height="338" loading="lazy" />
+</li>
+
+</ol>
+</div>
+
+---
+
+<h3 style="margin-top: 2rem;">Launch and Install the Game</h3>
+
+<div class="install-guide">
+<ol>
+
+<li>
+<strong>Press Play</strong>
+<p>You'll return to the game screen where you can now press "Play".</p>
+<img src="/assets/images/ubisoft/trackmania-play-game.webp" alt="Trackmania play game button" width="600" height="338" loading="lazy" />
+</li>
+
+<li>
+<strong>Select Installation Language</strong>
+<p>A screen will appear saying "Installing Trackmania" asking you to set the installation language.</p>
+<img src="/assets/images/ubisoft/trackmania-language-selection.webp" alt="Trackmania language selection" width="600" height="338" loading="lazy" />
+</li>
+
+<li>
+<strong>Choose Install Location</strong>
+<p>Select an install location for the game. Leave as default (you can create a shortcut if desired, but this can be skipped). Press 'A' to continue.</p>
+<img src="/assets/images/ubisoft/trackmania-install-prompt.webp" alt="Trackmania install prompt" width="600" height="338" loading="lazy" />
+</li>
+
+<li>
+<strong>Accept EULA</strong>
+<p>Accept the EULA when prompted.</p>
+<img src="/assets/images/ubisoft/trackmania-eula.webp" alt="Trackmania EULA" width="600" height="338" loading="lazy" />
+</li>
+
+<li>
+<strong>Download and Play</strong>
+<p>Trackmania will download through Ubisoft Connect. When finished, press 'A' to play.</p>
+<img src="/assets/images/ubisoft/trackmania-downloading.webp" alt="Trackmania downloading" width="600" height="338" loading="lazy" />
+<img src="/assets/images/ubisoft/trackmania-download-complete.webp" alt="Trackmania download complete" width="600" height="338" loading="lazy" />
+</li>
+
+</ol>
+</div>
+
+<p>The game will now launch and you'll be able to play!</p>
+
+<img src="/assets/images/ubisoft/trackmania-in-game-screen.webp" alt="Trackmania in-game screen" width="600" height="338" loading="lazy" />
+
+<p>There you have it. You can now play some of your Ubisoft games in Junk Store too!</p>
+
+<p><strong>Have fun gaming everyone,<br>The Junk Store Team</strong></p>
+
+---
+
+<h3 style="margin-top: 2rem;">If This Method Doesn't Work</h3>
+
+<ul>
+<li><strong>Check our <a href="/tested-games/">game compatibility database</a></strong> for specific game status</li>
+<li><strong>Try <a href="https://store.steampowered.com/" target="_blank" rel="noopener">native Steam versions</a></strong> when available</li>
+<li><strong>Consider <a href="/tutorials/gogextension">GOG versions</a></strong> for DRM-free alternatives</li>
+<li><strong>Use <a href="https://heroicgameslauncher.com/" target="_blank" rel="noopener">Heroic Game Launcher</a></strong> in Desktop Mode as fallback</li>
+</ul>
+
+---
+
+<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+<h3 style="margin-top: 0; color: #e74c3c;">Stuck or need help?</h3>
+<p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
+
+<p><strong>Quick fixes for common issues:</strong></p>
+<ul style="margin-left: 1rem;">
+<li><a href="/faq/" style="color: #66bfff;">FAQ</a> - General questions</li>
+<li><a href="/troubleshooting/" style="color: #66bfff;">Troubleshooting</a> - Common issues</li>
+</ul>
+
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> for community support.</p>
+</div>

@@ -50,6 +50,15 @@ excerpt: "Fix common issues with both Junk Store versions - free Decky plugin an
   <div class="search-results-info" id="search-info">Loading troubleshooting...</div>
 </div>
 
+<!-- Badge Legend -->
+<div class="badge-legend">
+  <span class="legend-label">Badges:</span>
+  <span class="legend-item"><span class="product-tag decky">Decky</span> Decky Plugin only</span>
+  <span class="legend-item"><span class="product-tag pro">Pro</span> Pro Version only</span>
+  <span class="legend-item"><span class="product-tag both">Universal</span> Same for both</span>
+  <span class="legend-item"><span class="product-tag version-specific">Version Specific</span> Different solution per version</span>
+</div>
+
 <!-- Troubleshooting Content - Loaded from Firebase -->
 <div id="troubleshooting-content" class="ts-grid">
   <div class="loading-indicator">
@@ -59,9 +68,9 @@ excerpt: "Fix common issues with both Junk Store versions - free Decky plugin an
 
 ---
 
-<h2 style="text-align: center; margin-top: 4rem;">Still Having Issues?</h2>
+<h2 style="text-align: center; margin-top: 4rem;">Quick Links</h2>
 
-<p style="text-align: center; margin-bottom: 2rem; color: #ccc;">Can't find a solution? We've got you covered with multiple support options.</p>
+<p style="text-align: center; margin-bottom: 2rem; color: #ccc;">More resources to help you out.</p>
 
 <div class="help-grid">
 
@@ -90,7 +99,7 @@ excerpt: "Fix common issues with both Junk Store versions - free Decky plugin an
   <div class="help-links">
     <a href="/tested-games/" class="help-link">
       <span class="help-title">Games Tested</span>
-      <span class="help-desc">600+ games checked</span>
+      <span class="help-desc"><span data-games-count>900</span>+ games checked</span>
     </a>
   </div>
 </div>
@@ -257,6 +266,69 @@ excerpt: "Fix common issues with both Junk Store versions - free Decky plugin an
   font-size: 0.9em;
 }
 
+/* Badge Legend */
+.badge-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px 20px;
+  margin: 1rem auto 1.5rem auto;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #aaa;
+  max-width: 800px;
+}
+
+.badge-legend .legend-label {
+  font-weight: 600;
+  color: #ccc;
+}
+
+.badge-legend .legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.badge-legend .product-tag {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.badge-legend .product-tag.decky {
+  background: #2196F3;
+  color: #fff;
+}
+
+.badge-legend .product-tag.pro {
+  background: #e67300;
+  color: #fff;
+}
+
+.badge-legend .product-tag.both {
+  background: #4caf50;
+  color: #fff;
+}
+
+.badge-legend .product-tag.version-specific {
+  background: #9b59b6;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .badge-legend {
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+    align-items: flex-start;
+  }
+}
+
 /* Loading Indicator */
 .loading-indicator {
   text-align: center;
@@ -315,6 +387,11 @@ excerpt: "Fix common issues with both Junk Store versions - free Decky plugin an
   color: white;
 }
 
+.version-specific-badge {
+  background: #9b59b6;
+  color: white;
+}
+
 /* Troubleshooting Content */
 .ts-content {
   margin-top: 0.5em;
@@ -322,6 +399,12 @@ excerpt: "Fix common issues with both Junk Store versions - free Decky plugin an
   border-top: 1px solid #ddd;
   color: #e8e8e8;
   line-height: 1.5;
+  font-weight: normal;
+}
+
+/* Ensure text inside callout divs is normal weight unless explicitly bold */
+.ts-content div {
+  font-weight: normal;
 }
 
 /* Problem and Solution sections */
@@ -390,6 +473,12 @@ excerpt: "Fix common issues with both Junk Store versions - free Decky plugin an
 .ts-item.hidden,
 .ts-category.hidden {
   display: none;
+}
+
+/* Hidden items for search */
+.ts-item.search-hidden,
+.ts-category.search-empty {
+  display: none !important;
 }
 
 /* Help Section Styling */
@@ -590,6 +679,24 @@ excerpt: "Fix common issues with both Junk Store versions - free Decky plugin an
 </style>
 
 <script>
+// Dynamic games count from localStorage cache
+(function() {
+  try {
+    const cache = localStorage.getItem('junkstore_games_cache');
+    if (cache) {
+      const data = JSON.parse(cache);
+      if (data.total_games) {
+        const roundedCount = Math.floor(data.total_games / 100) * 100;
+        document.querySelectorAll('[data-games-count]').forEach(el => {
+          el.textContent = roundedCount;
+        });
+      }
+    }
+  } catch (e) {
+    // Keep default value if cache unavailable
+  }
+})();
+
 // Show/hide mobile FAB based on scroll position
 window.addEventListener('scroll', function() {
   const fab = document.getElementById('mobile-fab');

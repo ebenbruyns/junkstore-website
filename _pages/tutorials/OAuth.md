@@ -13,11 +13,10 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
 ---
-<div class="spacer mt-4"></div>
 
-Looking for an alternative way to log into Epic Games without using your password? OAuth login lets you use your existing accounts from Google, PlayStation, Xbox, and more to securely access Epic Games on your Steam Deck through Junk Store.
+<h2 class="centered-header">How to Login using OAuth</h2>
 
-Follow these steps if you'd like to log into your Epic Games account using third-party authentication via one of the following options:
+<p style="text-align: center;">Use third-party authentication to securely access Epic Games on your Steam Deck.</p>
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
 <table style="margin: 0 auto; border-collapse: separate; border-spacing: 8px; font-size: 1.1rem;">
@@ -36,126 +35,118 @@ Follow these steps if you'd like to log into your Epic Games account using third
 </table>
 </div>
 
+<p style="text-align: center;"><em>This guide uses Google for logging in, but the steps are the same for other third-party methods.</em></p>
 
-## Steps for Logging in to Epic Games
+<div class="install-guide">
+<ol>
 
-This guide uses Google for logging in, but the steps are the same for other third-party methods.
+<li>
+<strong>Switch to Desktop Mode</strong>
+<p>If you don't have an external mouse and keyboard connected, you may want to download <strong>Core Keyboard</strong> from the Discover Store.</p>
+</li>
 
-1. **Switch to Desktop Mode**  
-   If you don't have an external mouse and keyboard connected, you may want to download **Core Keyboard** from the Discover Store.
+<li>
+<strong>Open Steam in Big Picture Mode</strong>
+<p>Press the Steam button and switch to <strong>Big Picture Mode</strong> (the controller-friendly interface).</p>
+</li>
 
-2. **Open Steam in Big Picture Mode**
-   Press the Steam button and switch to **Big Picture Mode** (the controller-friendly interface).
+<li>
+<strong>Navigate to Epic Tab in Junk Store</strong>
+<p>Go to <strong>Junk Store</strong> > <strong>Games</strong> > <strong>Epic Tab</strong> and select <strong>Login</strong>.</p>
+<img src="/assets/images/OAuth/Login%20Epic.jpeg" alt="Login to Epic Games" width="600" height="338" loading="lazy" />
+</li>
 
-3. **Navigate to Epic Tab in Junk Store**  
-   Go to **Junk Store** > **Games** > **Epic Tab** and select **Login**.  
-   ![Login Epic](/assets/images/OAuth/Login%20Epic.jpeg){: loading="lazy"}
+<li>
+<strong>Choose Your Login Method</strong>
+<p>Once the Epic Games Login screen appears, select your login method. A browser will open for you to log in with your chosen method.</p>
+<img src="/assets/images/OAuth/Epic%20Login%20Screen.png" alt="Epic Games login screen with options" width="600" height="338" loading="lazy" />
+</li>
 
-4. **Choose Your Login Method**  
-   Once the Epic Games Login screen appears, select your login method. A browser will open for you to log in with your chosen method.  
-   ![Choose Epic Login Method](/assets/images/OAuth/Epic%20Login%20Screen.png){: loading="lazy"}
+<li>
+<strong>Login via Google</strong>
+<p>In this example, we'll use Google. Select <strong>Continue</strong> when prompted.</p>
+<img src="/assets/images/OAuth/Epic%20login%20via%20google.png" alt="Login via Google option" width="600" height="338" loading="lazy" />
+</li>
 
-5. **Login via Google**  
-   In this example, we’ll use Google. Select **Continue** when prompted.  
-   ![Login via Google](/assets/images/OAuth/Epic%20login%20via%20google.png){: loading="lazy"}
+<li>
+<strong>Sign In with Google</strong>
+<p>Enter your Google credentials on the sign-in screen.</p>
+<img src="/assets/images/OAuth/google%20sign%20in%20screen.png" alt="Google sign in screen" width="600" height="338" loading="lazy" />
+</li>
 
-6. **Sign In with Google**  
-   Enter your Google credentials on the sign-in screen.  
-   ![Google Sign In](/assets/images/OAuth/google%20sign%20in%20screen.png){: loading="lazy"}
+<li>
+<strong>Final Step of Login</strong>
+<p>After logging in, you'll see a prompt to click <strong>Continue</strong>.</p>
+<img src="/assets/images/OAuth/epic%20almost%20done.png" alt="Epic almost done screen" width="600" height="338" loading="lazy" />
+</li>
 
-7. **Final Step of Login**  
-   After logging in, you'll see a prompt to click **Continue**.  
-   ![Epic Almost Done](/assets/images/OAuth/epic%20almost%20done.png){: loading="lazy"}
+<li>
+<strong>Close the Browser Window</strong>
+<p>After completing the login, close the browser window and return to the Epic Games Launcher.</p>
+<img src="/assets/images/OAuth/success%20logged%20in.png" alt="Successfully logged in" width="600" height="338" loading="lazy" />
+</li>
 
-8. **Close the Browser Window**  
-   After completing the login, close the browser window and return to the Epic Games Launcher.  
-   ![Success Logged In](/assets/images/OAuth/success%20logged%20in.png){: loading="lazy"}
+<li>
+<strong>Enter 2FA Code (If Prompted)</strong>
+<p>If you're asked, enter your two-factor authentication (2FA) code. After entering the code, you'll be returned to <strong>Big Picture Mode</strong>.</p>
+<img src="/assets/images/OAuth/2fa%20in%20epic.png" alt="2FA prompt in Epic" width="600" height="338" loading="lazy" />
+</li>
 
-9. **Enter 2FA Code (If Prompted)**  
-   If you’re asked, enter your two-factor authentication (2FA) code. After entering the code, you’ll be returned to **Big Picture Mode**.  
-   ![2FA Prompt](/assets/images/OAuth/2fa%20in%20epic.png){: loading="lazy"}
+<li>
+<strong>Exit Big Picture Mode</strong>
+<p>Press the Steam button, navigate to <strong>Power</strong>, and select <strong>Exit Big Picture Mode</strong> to return to <strong>Game Mode</strong>.</p>
+</li>
 
-10. **Exit Big Picture Mode**  
-    Press the Steam button, navigate to **Power**, and select **Exit Big Picture Mode** to return to **Game Mode**.
+<li>
+<strong>Go Back to Junk Store</strong>
+<p>Once in <strong>Game Mode</strong>, press the three dots, go back to <strong>Junk Store</strong> > <strong>Games</strong>, and you should now be logged into your Epic account.</p>
+</li>
 
-11. **Go Back to Junk Store**  
-    Once in **Game Mode**, press the three dots, go back to **Junk Store** > **Games**, and you should now be logged into your Epic account.
+<li>
+<strong>Check Your Library</strong>
+<p>Your Epic Games library should now populate. If it doesn't, navigate down and press <strong>Y</strong> to select <strong>Show All</strong>.</p>
+<img src="/assets/images/OAuth/Epic%20Library%20v2.jpeg" alt="Epic Games library" width="600" height="338" loading="lazy" />
 
-12. **Check Your Library**  
-    Your Epic Games library should now populate. If it doesn’t, navigate down and press **Y** to select **Show All**.  
-    ![Epic Library](/assets/images/OAuth/Epic%20Library%20v2.jpeg){: loading="lazy"}
+<ul>
+<li>Ensure <strong>Show Installed</strong> is not selected.</li>
+<li>Clear any text from the search box to see all games.</li>
+</ul>
 
-    - Ensure **Show Installed** is not selected.
-    - Clear any text from the search box to see all games.
+<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<strong>Note:</strong> Games requiring the EA app or Origin will not appear in your library as they aren't supported in Junk Store.
+</div>
+</li>
 
-    **Note:** Games requiring the EA app or Origin will not appear in your library due to lack of support from Epic/Legendary.
+<li>
+<strong>Install a Game to Test</strong>
+<p>Choose a game from your library to install. We recommend starting with a game that is known to work well on the Steam Deck.</p>
+<ul>
+<li>Visit our <a href="/tested-games">Games Tested</a> page for a list of games that are known to work.</li>
+<li>Avoid choosing a large or complex game for the first test.</li>
+</ul>
+<p><strong>Doom 64</strong> is a great test game if you have it.</p>
+<img src="/assets/images/OAuth/Doom%2064.jpeg" alt="Doom 64 install screen" width="600" height="338" loading="lazy" />
+</li>
 
-13. **Install a Game to Test**  
-    Choose a game from your library to install. We recommend starting with a game that is known to work well on the Steam Deck.
+<li>
+<strong>You're Ready to Play!</strong>
+<p>Once you've tested a smaller game and it works, you're good to go!</p>
+</li>
 
-    - Visit our <a href="/tested-games">Games Tested</a> page for a list of games that are known to work.
-    - Avoid choosing a large or complex game for the first test.
-
-    **Tip:** Some games may require additional tweaks to run properly on the Steam Deck. **Doom 64** is a great test game if you have it.  
-    ![Doom 64 Install](/assets/images/OAuth/Doom%2064.jpeg){: loading="lazy"}
-
-14. **You're Ready to Play!**  
-    Once you've tested a smaller game and it works, you're good to go!
+</ol>
+</div>
 
 ---
 
-## Need More Help?
+<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
+<h3 style="margin-top: 0; color: #e74c3c;">Stuck or need help?</h3>
+<p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
 
-If you run into trouble, check out:
-- **Universal:** [FAQ Section](/2.0faq/) for common questions
-- **Universal:** [Troubleshooting Guide](/2.0troubleshooting/) for technical issues
-- **Decky Plugin:** [Plugin-specific help](/faq/decky/) and [troubleshooting](/troubleshooting/decky/)
-- **Pro Version:** [Version-specific help](/2.0faq/) and [troubleshooting](/2.0troubleshooting/)
+<p><strong>Quick fixes for common issues:</strong></p>
+<ul style="margin-left: 1rem;">
+<li><a href="/faq/" style="color: #66bfff;">FAQ</a> - General questions</li>
+<li><a href="/troubleshooting/" style="color: #66bfff;">Troubleshooting</a> - Common issues</li>
+</ul>
 
-**Still stuck? Get community help:**
-
-<a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
-  <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
-</a>
-<a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
-  <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
-</a>
-
-
----
-
-
-
-<style>
-.community-btn {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 12px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 13px;
-  transition: all 0.2s ease;
-  border: 2px solid transparent;
-  margin-left: 8px;
-  color: white;
-}
-
-.discord-btn {
-  background: #5865f2;
-  color: white !important;
-}
-
-.reddit-btn {
-  background: #ff4500;
-  color: white !important;
-}
-
-.community-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  color: white;
-  opacity: 0.9;
-}
-</style>
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> for community support.</p>
+</div>

@@ -161,9 +161,9 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 ---
 
-<h2 style="text-align: center; margin-top: 4rem;">Didn't Find Your Answer?</h2>
+<h2 style="text-align: center; margin-top: 4rem;">Quick Links</h2>
 
-<p style="text-align: center; margin-bottom: 2rem; color: #ccc;">Still having trouble after following these guides? We've got you covered with multiple support options.</p>
+<p style="text-align: center; margin-bottom: 2rem; color: #ccc;">More resources to help you out.</p>
 
 <div class="help-grid">
 
@@ -192,7 +192,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <div class="help-links">
     <a href="/tested-games/" class="help-link">
       <span class="help-title">Games Tested</span>
-      <span class="help-desc">600+ games checked</span>
+      <span class="help-desc"><span data-games-count>900</span>+ games checked</span>
     </a>
   </div>
 </div>
@@ -529,6 +529,24 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 </style>
 
 <script>
+// Dynamic games count from localStorage cache
+(function() {
+  try {
+    const cache = localStorage.getItem('junkstore_games_cache');
+    if (cache) {
+      const data = JSON.parse(cache);
+      if (data.total_games) {
+        const roundedCount = Math.floor(data.total_games / 100) * 100;
+        document.querySelectorAll('[data-games-count]').forEach(el => {
+          el.textContent = roundedCount;
+        });
+      }
+    }
+  } catch (e) {
+    // Keep default value if cache unavailable
+  }
+})();
+
 function filterTutorials(filterType) {
   // Remove active class from all filter cards
   document.querySelectorAll('.filter-card').forEach(card => {

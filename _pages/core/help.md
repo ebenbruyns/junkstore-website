@@ -67,7 +67,7 @@ excerpt: "Complete support for both Decky Plugin (free) and Pro Version"
 <div class="content-box-container">
   <div class="content-box tested-games">
     <h3>Game Compatibility</h3>
-    <p>Check which games work with Junk Store. 600+ games tested with compatibility ratings.</p>
+    <p>Check which games work with Junk Store. <span data-games-count>900</span>+ games tested with compatibility ratings.</p>
     <a href="/tested-games/" class="button">View Games</a>
   </div>
 
@@ -265,6 +265,24 @@ excerpt: "Complete support for both Decky Plugin (free) and Pro Version"
 </style>
 
 <script>
+// Dynamic games count from localStorage cache
+(function() {
+  try {
+    const cache = localStorage.getItem('junkstore_games_cache');
+    if (cache) {
+      const data = JSON.parse(cache);
+      if (data.total_games) {
+        const roundedCount = Math.floor(data.total_games / 100) * 100;
+        document.querySelectorAll('[data-games-count]').forEach(el => {
+          el.textContent = roundedCount;
+        });
+      }
+    }
+  } catch (e) {
+    // Keep default value if cache unavailable
+  }
+})();
+
 // Initialize version selection from localStorage
 document.addEventListener('DOMContentLoaded', function() {
   const savedVersion = localStorage.getItem('junkstore-version');
