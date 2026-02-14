@@ -116,6 +116,7 @@ function getProductLabel(product) {
     case 'decky': return 'Decky Plugin';
     case 'pro': return 'Pro Version';
     case 'both': return 'Universal';
+    case 'version-specific': return 'Version Specific';
     default: return 'Universal';
   }
 }
@@ -133,6 +134,17 @@ window.filterFAQ = function(filterType) {
     clickedCard.classList.add('active');
   }
 
+  // Get the FAQ container and apply filter class for hiding version-specific sections
+  const faqContainer = document.getElementById('faq-content');
+  if (faqContainer) {
+    faqContainer.classList.remove('filter-decky', 'filter-pro');
+    if (filterType === 'decky') {
+      faqContainer.classList.add('filter-decky');
+    } else if (filterType === 'pro') {
+      faqContainer.classList.add('filter-pro');
+    }
+  }
+
   // Get all FAQ items and categories
   const faqItems = document.querySelectorAll('.faq-item');
   const categories = document.querySelectorAll('.faq-category');
@@ -144,9 +156,9 @@ window.filterFAQ = function(filterType) {
     if (filterType === 'all') {
       shouldShow = true;
     } else if (filterType === 'decky') {
-      shouldShow = product === 'decky' || product === 'both';
+      shouldShow = product === 'decky' || product === 'both' || product === 'version-specific';
     } else if (filterType === 'pro') {
-      shouldShow = product === 'pro' || product === 'both';
+      shouldShow = product === 'pro' || product === 'both' || product === 'version-specific';
     }
 
     item.classList.toggle('hidden', !shouldShow);

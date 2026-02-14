@@ -1,3 +1,18 @@
+/* Version-specific section filtering */
+/* When filtered by Decky, hide Pro sections */
+.filter-decky [style*="rgba(253, 126, 20"],
+.filter-decky [style*="#fd7e14"],
+.filter-decky .pro-section {
+  display: none !important;
+}
+
+/* When filtered by Pro, hide Decky sections */
+.filter-pro [style*="rgba(13, 110, 253"],
+.filter-pro [style*="#0d6efd"],
+.filter-pro .decky-section {
+  display: none !important;
+}
+
 /* FAQ collapse box styles */
 details.faq-box {
   border: 1px solid #ccc;

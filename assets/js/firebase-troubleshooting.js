@@ -52,6 +52,7 @@
 
     // Define category order (customize as needed)
     const categoryOrder = [
+      'General',
       'Installation',
       'Performance',
       'Games Not Working',
@@ -118,6 +119,7 @@ function getProductLabel(product) {
     case 'decky': return 'Decky Plugin';
     case 'pro': return 'Pro Version';
     case 'both': return 'Universal';
+    case 'version-specific': return 'Version Specific';
     default: return 'Universal';
   }
 }
@@ -135,6 +137,17 @@ window.filterTroubleshooting = function(filterType) {
     clickedCard.classList.add('active');
   }
 
+  // Get the troubleshooting container and apply filter class for hiding version-specific sections
+  const tsContainer = document.getElementById('troubleshooting-content');
+  if (tsContainer) {
+    tsContainer.classList.remove('filter-decky', 'filter-pro');
+    if (filterType === 'decky') {
+      tsContainer.classList.add('filter-decky');
+    } else if (filterType === 'pro') {
+      tsContainer.classList.add('filter-pro');
+    }
+  }
+
   // Get all troubleshooting items and categories
   const tsItems = document.querySelectorAll('.ts-item');
   const categories = document.querySelectorAll('.ts-category');
@@ -146,9 +159,9 @@ window.filterTroubleshooting = function(filterType) {
     if (filterType === 'all') {
       shouldShow = true;
     } else if (filterType === 'decky') {
-      shouldShow = product === 'decky' || product === 'both';
+      shouldShow = product === 'decky' || product === 'both' || product === 'version-specific';
     } else if (filterType === 'pro') {
-      shouldShow = product === 'pro' || product === 'both';
+      shouldShow = product === 'pro' || product === 'both' || product === 'version-specific';
     }
 
     item.classList.toggle('hidden', !shouldShow);
