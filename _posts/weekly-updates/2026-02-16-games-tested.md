@@ -1,29 +1,29 @@
 ---
 layout: post
-title: "Junk Store Tested - February 1, 2026"
-date: 2026-02-01 11:24:00 +1300
+title: "Junk Store Tested - February 17, 2026"
+date: 2026-02-17 15:30:00 +1300
 categories: [Weekly Update, Game Compatibility]
-tags: [junk-store, steam-deck, game-testing, epic-games, gog, amazon-games]
-slug: "games-tested-feb-01"
-excerpt: "Weekly testing update featuring 10 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
-image: /assets/images/blog/260131-hero.jpg
+tags: [junk-store, steam-deck, epic-games, gog]
+slug: "games-tested-feb-17"
+excerpt: "Weekly testing update featuring 9 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
+image: /assets/images/blog/260216-hero.jpg
 header:
-  teaser: /assets/images/blog/260131-hero-thumb.jpg
+  teaser: /assets/images/blog/260216-hero-thumb.jpg
 read_time: "5 min read"
 toc: true
 ---
 
 <div class="weekly-highlights">
-<strong>This week's testing highlights:</strong> 10 games across Epic, GOG, Amazon storefronts, including Arcade Paradise and Cat Quest II, both working great out of the box (and both dangerously addictive).
+<strong>This week's testing highlights:</strong> 9 games across GOG, Epic storefronts; ones I'd like to revisit are Lorelia and the new giveaway Hexguardian if you like tower defence games. They work out of the box on both versions of Junk Store.
 </div>
 
 G'day Everyone!
 
-Slowly getting back into the swing of things, but I need to pick up the pace. There's so much I want to do, and I really need to start knocking things off my to-do lists!
+We've just come through another bout of wind and rain that battered New Zealand. Places that got smashed not that long ago copped the worst of it again this time around. Fingers crossed for some steady weather so everyone can catch their breath, take stock, and figure out their next steps.
 
-This week's Epic giveaway is *Definitely Not Fried Chicken*, and it's an interesting one. If you've ever wondered what it would be like to be Gus Fring from Breaking Bad, this is your chance!
+Thankfully the worst has moved on and we've had some sun today. Hope this keeps up as we could do with some nice summer weather. I feel like I keep saying that a lot lately, but it's true: summer has come in fits and starts and hasn't really stuck around so far this year. We took advantage of the nice weather and managed to tear ourselves away from work and the boat to go for a walk today! We quickly came to the conclusion that we need to do this more 😅
 
-I have a confession so please don't judge, but retesting Arcade Paradise totally has my number this weekend! Between that and revisiting Cat Quest II (a series I love), I knew I was going to get lost in a game at some point. I'd been feeling the pull to actually invest in something recently, and the arcade games within Arcade Paradise have me completely hooked. Looks like this was the one that finally got me.
+In spite of the weather and wifi struggles, I managed to get some testing done and found a couple of gems I'm keen to keep playing.
 
 ## Housekeeping Notes
 
@@ -53,136 +53,124 @@ Let's get to it, here's this week's findings...
 
 ### Epic Games Giveaway
 
-This week featuring Definitely Not Fried Chicken.
+This week featuring Nobody Wants to Die, The Darkside Detective: A Fumble in the Dark.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1036240/library_600x900.jpg" alt="Definitely Not Fried Chicken" class="game-thumbnail">
+  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1939970/library_600x900.jpg" alt="Nobody Wants to Die" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Definitely%20Not%20Fried%20Chicken">Definitely Not Fried Chicken</a></strong> <span class="store-badge epic">Epic</span>
-    <div class="game-description">Definitely Not Fried Chicken is a business management sim with a Twist.</div>
+    <strong><a href="/tested-games/?game=Nobody%20Wants%20to%20Die">Nobody Wants to Die</a></strong> <span class="store-badge epic">Epic</span>
+    <div class="game-description">Lose yourself in the dystopian world of New York, 2329; immortality comes at a price that someone has to pay.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
+    </div>
+  </div>
+</div>
+
+<div class="game-entry">
+  <img src="https://steamcdn-a.akamaihd.net/steam/apps/795420/library_600x900.jpg" alt="The Darkside Detective: A Fumble in the Dark" class="game-thumbnail">
+  <div class="game-details">
+    <strong><a href="/tested-games/?game=The%20Darkside%20Detective%3A%20A%20Fumble%20in%20the%20Dark">The Darkside Detective: A Fumble in the Dark</a></strong> <span class="store-badge epic">Epic</span>
+    <div class="game-description">Delouse your room with sage and pack up your travel-sized ouija board, it's time to re-enter Twin Lakes - America's 34th most haunted city.</div>
+    <div class="compatibility-info">
+      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
 
 ### Amazon Luna Giveaways
 
-This week featuring Technotopia, ELDERBORN.
+This week featuring Hexguardian.
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/2825110/library_600x900.jpg" alt="Technotopia" class="game-thumbnail">
+  <img src="https://steamcdn-a.akamaihd.net/steam/apps/2381740/library_600x900.jpg" alt="Hexguardian" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Technotopia">Technotopia</a></strong> <span class="store-badge amazon">Amazon</span>
-    <div class="game-description">Welcome to Technotopia, a city-builder card game.  Take on the role of an AI designed to build a perfect city.</div>
-    <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
-    </div>
-  </div>
-</div>
-
-<div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/727850/library_600x900.jpg" alt="ELDERBORN" class="game-thumbnail">
-  <div class="game-details">
-    <strong><a href="/tested-games/?game=ELDERBORN">ELDERBORN</a></strong> <span class="store-badge gog">GOG</span>
-    <div class="game-description">ELDERBORN - a Metal AF* Slasher with brutal FPP melee combat and souls-like/RPG character progression.</div>
+    <strong><a href="/tested-games/?game=Hexguardian">Hexguardian</a></strong> <span class="store-badge epic">Epic</span>
+    <div class="game-description">Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
 
 ### Backlog Tested
 
-Catching up on Shadow Tactics: Aiko's Choice, Fall of Porcupine, Gravewood High, Neurodeck : Psychological Deckbuilder, Neverwinter Nights: Enhanced Edition.
+Catching up on Golden Light, Skybound: Only Up, JDM: Rise of the Scorpion, Lorelai.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/61636070654f9116b074496336bcff4bd3c1c387cd104a4b2dd8d7214f0af652.jpg?namespace=gamesdb" alt="Shadow Tactics: Aiko's Choice" class="game-thumbnail">
+  <img src="https://images.gog.com/d68628682068d7873e83237f12e25aaaecac8a737da8e7acffb6bd5578facff8.jpg?namespace=gamesdb" alt="Golden Light" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Shadow%20Tactics%3A%20Aiko's%20Choice">Shadow Tactics: Aiko's Choice</a></strong> <span class="store-badge epic">Epic</span>
-    <div class="game-description">Aiko's Choice is a brand-new standalone addon to the beloved stealth tactics game Shadow Tactics.</div>
+    <strong><a href="/tested-games/?game=Golden%20Light">Golden Light</a></strong> <span class="store-badge epic">Epic</span>
+    <div class="game-description">Golden Light is a first-person survival horror with rogue-like elements and an eerie atmosphere.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/80f132783b0e223657bb24294559fb9cc005ad4739f6b974fc64e6f544f3a811.jpg?namespace=gamesdb" alt="Fall of Porcupine" class="game-thumbnail">
+  <img src="https://cdn1.epicgames.com/spt-assets/b31041ff2f934d19954ee76213cf8266/astralium-2scci.png" alt="Skybound: Only Up" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Fall%20of%20Porcupine">Fall of Porcupine</a></strong> <span class="store-badge gog">GOG</span>
-    <div class="game-description">Guide young Finley through his first weeks at a provincial hospital.</div>
+    <strong><a href="/tested-games/?game=Skybound%3A%20Only%20Up">Skybound: Only Up</a></strong> <span class="store-badge epic">Epic</span>
+    <div class="game-description">Get ready for an epic VR adventure.  Jump, climb, and conquer towering obstacles in a world of thrilling challenges.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/35b5628292f545e7ca27f7a0f02942d7a9f2571f1dc3c98a31cdc5abbb709be8.jpg?namespace=gamesdb" alt="Gravewood High" class="game-thumbnail">
+  <img src="https://images.gog.com/d33bb05d9daa82ec8fdec6bd290b8beed181a6fb20f29359954562f79670eeb8.jpg?namespace=gamesdb" alt="JDM: Rise of the Scorpion" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Gravewood%20High">Gravewood High</a></strong> <span class="store-badge gog">GOG</span>
-    <div class="game-description">An infinitely replayable stealth horror game set in high school - with destructible environments, randomized level layouts and a smart opponent that develops new abilities the more you play.</div>
+    <strong><a href="/tested-games/?game=JDM%3A%20Rise%20of%20the%20Scorpion">JDM: Rise of the Scorpion</a></strong> <span class="store-badge gog">GOG</span>
+    <div class="game-description">Discover the beginning of the story of the titular "Scorpion" through a story guided by manga panels.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
 
 <div class="game-entry">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/1253860/library_600x900.jpg" alt="Neurodeck : Psychological Deckbuilder" class="game-thumbnail">
+  <img src="https://images.gog.com/654b36507052f660e031ee9977dbc099f4a883ac7965eca1fa96037633eb9e1f.jpg?namespace=gamesdb" alt="Lorelai" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Neurodeck%20%3A%20Psychological%20Deckbuilder">Neurodeck : Psychological Deckbuilder</a></strong> <span class="store-badge gog">GOG</span>
-    <div class="game-description">Neurodeck is a psychological deckbuilding card game to challenge your fears.</div>
+    <strong><a href="/tested-games/?game=Lorelai">Lorelai</a></strong> <span class="store-badge gog">GOG</span>
+    <div class="game-description">Lorelai, a brand new emotional horror ride from the maker of The Cat Lady and Downfall, tells a coming of age story of a young girl trying to escape the hell of her toxic family home. But adulthood is like waking up from a long dream.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
-    </div>
-  </div>
-</div>
-
-<div class="game-entry">
-  <img src="https://images.gog.com/7ca8e2974f49daca1f2b037c5af04652f1d224a68b5b9ea042ad27e45dfb931f.jpg?namespace=gamesdb" alt="Neverwinter Nights: Enhanced Edition" class="game-thumbnail">
-  <div class="game-details">
-    <strong><a href="/tested-games/?game=Neverwinter%20Nights%3A%20Enhanced%20Edition">Neverwinter Nights: Enhanced Edition</a></strong> <span class="store-badge gog">GOG</span>
-    <div class="game-description">Neverwinter Nights: Enhanced Edition is an updated version of the 2002 video game Neverwinter Nights.</div>
-    <div class="compatibility-info">
-      <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
 
 ### Retested Games
 
-Updated compatibility for Arcade Paradise, Cat Quest II.
+Updated compatibility for Endless Sky, Eschalon: Book I.
 
 <div class="game-entry">
-  <img src="https://images.gog.com/988294590b4a4f80c1cd747ba8e5bc613fb3b4855fa102c6a000d16de03b5aee.jpg?namespace=gamesdb" alt="Arcade Paradise" class="game-thumbnail">
+  <img src="https://images.gog.com/b847f182016a6127e4391121cf9d97c4c9965da76c720821459fa28e56861438.jpg?namespace=gamesdb" alt="Endless Sky" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Arcade%20Paradise">Arcade Paradise</a></strong> <span class="store-badge epic">Epic</span>
-    <div class="game-description">Welcome to Arcade Paradise, the 90’s retro arcade adventure game.</div>
+    <strong><a href="/tested-games/?game=Endless%20Sky">Endless Sky</a></strong> <span class="store-badge gog">GOG</span>
+    <div class="game-description">Endless Sky is an open source 2D space trading and combat game inspired by the classic Escape Velocity series.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
 
 <div class="game-entry">
-  <img src="https://images.gog.com/3df9be1cc924ce21ff37b57061123297a17af9e66960a964a599a2961326dcaf.jpg?namespace=gamesdb" alt="Cat Quest II" class="game-thumbnail">
+  <img src="https://images.gog.com/855723aa2e49504b7883c0c3384cf0cbb4575b29d8e8c787d6474876f19327b8.jpg?namespace=gamesdb" alt="Eschalon: Book I" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Cat%20Quest%20II">Cat Quest II</a></strong> <span class="store-badge gog">GOG</span>
-    <div class="game-description">Open-world action-RPG in a fantasy realm of cats and dogs. Sequel to the award-winning original, CAT QUEST II lets you play solo or with a friend, as both a cat and dog! Quest in a world filled with magic, defeat monsters and collect loot in a catventure like never before!</div>
+    <strong><a href="/tested-games/?game=Eschalon%3A%20Book%20I">Eschalon: Book I</a></strong> <span class="store-badge gog">GOG</span>
+    <div class="game-description">Classic turn-based role-playing game, played with one customizable character.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
-        <div class="compatibility-line">2.0 Standalone: 🟢 Works out of the box</div>
+        <div class="compatibility-line">Pro Version: 🟢 Works out of the box</div>
     </div>
   </div>
 </div>
@@ -191,7 +179,9 @@ Updated compatibility for Arcade Paradise, Cat Quest II.
 
 ## Looking Forward
 
-Next week's Epic freebies include <a href="https://store.epicgames.com/en-US/p/botany-manor-e7c456" target="_blank" rel="noopener">Botany Manor</a> and <a href="https://store.epicgames.com/en-US/p/pixel-gun-3d-poison-retro-set-55a7dd" target="_blank" rel="noopener">Poison Retro Set</a>. For the Poison Retro Set, you'll need to have the base game <a href="https://store.epicgames.com/en-US/p/pixel-gun-3d-812855" target="_blank" rel="noopener">Pixel Gun 3D</a> (which is free). Next week also brings a new month of freebies from Amazon Gaming. Looking forward to finding out what's in store for us!
+Next week's Epic Games giveaways include <a href="https://store.epicgames.com/en-US/p/return-to-ash-dee3ff" target="_blank" rel="noopener">Return to Ash</a> and <a href="https://store.epicgames.com/en-US/p/stalcraft-x-stalcraft-x-starter-edition-0b06d4" target="_blank" rel="noopener">STALCRAFT: X Starter Edition</a>.
+
+Amazon Prime Gaming is offering GOG codes for <a href="https://www.gog.com/en/game/ambition_a_minuet_in_power" target="_blank" rel="noopener">Ambition: A Minuet in Power</a>, <a href="https://www.gog.com/en/game/captain_blood" target="_blank" rel="noopener">Captain Blood</a>, and <a href="https://www.gog.com/en/game/meganoid" target="_blank" rel="noopener">Meganoid</a>.
 
 **Which of these games are you most excited to try?** Join our community on Discord or reddit and let us know! We love hearing about your Steam Deck gaming experiences and which titles you're planning to add to your library next.
 
@@ -203,7 +193,7 @@ The Junk Store Team
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
   <a href="/buy_now/" class="inline-blog-cta-button">
-    🚀 Try Junk Store 2.0 Free for 7 Days
+    🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
 </div>

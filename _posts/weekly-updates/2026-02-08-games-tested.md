@@ -39,7 +39,7 @@ A few quick updates before we dive into the games:
 
 ## Current System Setup
 * **<a href="/buy_now/">Junk Store 2.0</a>**: v2.5.0.0-beta (for itch.io use **Extension** Channel: beta)
-* **Junk Store Plugin**: v1.1.13 (Testing Store)
+* **Junk Store Plugin**: v1.1.13 (Main Store)
 * **GOG Extension**: v0.1.11 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Prerelease)
 * **Proton**: GE-Proton 10.26
