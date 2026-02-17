@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "a7d28f0e0935490b9d6f92dda1a7a75b",
+  "shortname": "a7d28f0e0935490b9d6f92dda1a7a75b",
   "publisher": "NetEase Games",
   "developer": "Everstone Studio",
   "releasedate": "",
@@ -64,5 +64,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-14T00:53:40.711Z",
-  "updated_at": "2025-12-16T03:29:41.977Z"
+  "updated_at": "2026-02-07T22:06:38.394Z"
 }

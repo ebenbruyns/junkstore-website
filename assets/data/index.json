@@ -1,133 +1,93 @@
 {
-  "last_updated": "2026-02-06T22:26:13.174Z",
-  "total_tested_games": 946,
-  "featured_games": 5,
+  "last_updated": "2026-02-16T21:55:53.046Z",
+  "total_tested_games": 952,
+  "featured_games": 3,
   "storefronts": {
     "Epic": {
-      "total": 446,
+      "total": 451,
       "featured": 3,
       "directory": "epic"
     },
     "GOG": {
-      "total": 360,
-      "featured": 1,
+      "total": 362,
+      "featured": 0,
       "directory": "gog"
     },
     "Amazon": {
       "total": 71,
-      "featured": 1,
+      "featured": 0,
       "directory": "amazon"
     },
     "itch.io": {
-      "total": 69,
+      "total": 68,
       "featured": 0,
       "directory": "itch.io"
     }
   },
   "recent_updates": [
     {
-      "title": "Dread Templar",
-      "storefront": "Amazon",
-      "slug": "dread-templar",
+      "title": "10S",
+      "storefront": "itch.io",
+      "slug": "10s",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2026-02-16T21:25:09.499Z"
+    },
+    {
+      "title": "10 Flights of Ballooning",
+      "storefront": "itch.io",
+      "slug": "10-flights-of-ballooning",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2026-02-16T21:23:57.196Z"
+    },
+    {
+      "title": "Hexguardian",
+      "storefront": "Epic",
+      "slug": "hexguardian",
       "date_tested": "Feb '26",
       "is_featured": true,
-      "updated_at": "2026-02-06T21:01:12.165Z"
+      "updated_at": "2026-02-16T00:21:17.981Z"
     },
     {
-      "title": "The Machines Arena",
+      "title": "Golden Light",
       "storefront": "Epic",
-      "slug": "the-machines-arena",
+      "slug": "golden-light",
       "date_tested": "Feb '26",
       "is_featured": false,
-      "updated_at": "2026-02-06T21:00:10.761Z"
+      "updated_at": "2026-02-15T22:45:15.073Z"
     },
     {
-      "title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
+      "title": "Skybound: Only Up",
       "storefront": "Epic",
-      "slug": "tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure",
+      "slug": "skybound-only-up",
       "date_tested": "Feb '26",
-      "is_featured": true,
-      "updated_at": "2026-02-06T20:35:01.500Z"
+      "is_featured": false,
+      "updated_at": "2026-02-15T22:44:52.251Z"
     },
     {
-      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "title": "Eschalon: Book I",
       "storefront": "GOG",
-      "slug": "the-witcher-2-assassins-of-kings-enhanced-edition",
+      "slug": "eschalon-book-i",
       "date_tested": "Feb '26",
-      "is_featured": true,
-      "updated_at": "2026-02-06T20:25:46.703Z"
+      "is_featured": false,
+      "updated_at": "2026-02-15T22:08:47.101Z"
     },
     {
-      "title": "Botany Manor",
-      "storefront": "Epic",
-      "slug": "botany-manor",
-      "date_tested": "Feb '26",
-      "is_featured": true,
-      "updated_at": "2026-02-06T20:05:08.987Z"
-    },
-    {
-      "title": "NightReaper2",
-      "storefront": "Epic",
-      "slug": "nightreaper2",
-      "date_tested": "Feb '26",
-      "is_featured": true,
-      "updated_at": "2026-02-05T19:58:06.953Z"
-    },
-    {
-      "title": "Deus Ex: Mankind Divided",
+      "title": "Endless Sky",
       "storefront": "GOG",
-      "slug": "deus-ex-mankind-divided",
+      "slug": "endless-sky",
       "date_tested": "Feb '26",
       "is_featured": false,
-      "updated_at": "2026-02-04T04:42:16.981Z"
+      "updated_at": "2026-02-15T22:06:44.410Z"
     },
     {
-      "title": "STAR WARS™ Jedi Knight: Dark Forces II",
-      "storefront": "GOG",
-      "slug": "star-wars-jedi-knight-dark-forces-ii",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-03T02:46:54.651Z"
-    },
-    {
-      "title": "STAR WARS™ Galactic Battlegrounds Saga",
-      "storefront": "GOG",
-      "slug": "star-wars-galactic-battlegrounds-saga",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-03T02:41:12.738Z"
-    },
-    {
-      "title": "BioShock™ Remastered",
+      "title": "F.I.S.T.: Forged In Shadow Torch",
       "storefront": "Epic",
-      "slug": "bioshock-remastered",
-      "date_tested": "Feb '26",
+      "slug": "fist-forged-in-shadow-torch",
+      "date_tested": "July '24",
       "is_featured": false,
-      "updated_at": "2026-02-03T02:32:01.761Z"
-    },
-    {
-      "title": "Bramble: The Mountain King",
-      "storefront": "Epic",
-      "slug": "bramble-the-mountain-king",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-03T01:50:58.193Z"
-    },
-    {
-      "title": "Chuchel",
-      "storefront": "Epic",
-      "slug": "chuchel",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-03T01:03:32.239Z"
-    },
-    {
-      "title": "Deep Sky Derelicts",
-      "storefront": "GOG",
-      "slug": "deep-sky-derelicts",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-03T00:56:48.647Z"
+      "updated_at": "2026-02-15T21:39:31.588Z"
     },
     {
       "title": "Deceive Inc.",
@@ -135,55 +95,95 @@
       "slug": "deceive-inc",
       "date_tested": "July '24",
       "is_featured": false,
-      "updated_at": "2026-02-01T07:47:37.085Z"
+      "updated_at": "2026-02-15T21:39:29.321Z"
     },
     {
-      "title": "Animation Throwdown: The Quest for Cards",
+      "title": "Nobody Wants to Die",
       "storefront": "Epic",
-      "slug": "animation-throwdown-the-quest-for-cards",
-      "date_tested": "July '24",
-      "is_featured": false,
-      "updated_at": "2026-02-01T07:46:37.441Z"
+      "slug": "nobody-wants-to-die",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-15T21:26:06.901Z"
     },
     {
-      "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
-      "storefront": "GOG",
-      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
-      "date_tested": "July '24",
-      "is_featured": false,
-      "updated_at": "2026-01-31T22:37:14.235Z"
+      "title": "The Darkside Detective: A Fumble in the Dark",
+      "storefront": "Epic",
+      "slug": "the-darkside-detective-a-fumble-in-the-dark",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-15T05:54:01.245Z"
     },
     {
-      "title": "ELDERBORN",
+      "title": "The Darkside Detective",
+      "storefront": "Epic",
+      "slug": "the-darkside-detective",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2026-02-14T01:50:46.166Z"
+    },
+    {
+      "title": "JDM: Rise of the Scorpion",
       "storefront": "GOG",
-      "slug": "elderborn",
+      "slug": "jdm-rise-of-the-scorpion",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-09T00:50:30.201Z"
+    },
+    {
+      "title": "Lorelai",
+      "storefront": "GOG",
+      "slug": "lorelai",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-08T23:35:26.237Z"
+    },
+    {
+      "title": "RAWMEN: Food Fighter Arena",
+      "storefront": "Epic",
+      "slug": "rawmen-food-fighter-arena",
+      "date_tested": "Aug '24",
+      "is_featured": false,
+      "updated_at": "2026-02-08T21:54:08.617Z"
+    },
+    {
+      "title": "Gunslugs 3: Rogue Tactics",
+      "storefront": "GOG",
+      "slug": "gunslugs-3-rogue-tactics",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2026-01-31T22:31:00.520Z"
+      "updated_at": "2026-02-08T21:51:58.380Z"
     },
     {
-      "title": "Technotopia",
+      "title": "Tormented Souls",
       "storefront": "Amazon",
-      "slug": "technotopia",
-      "date_tested": "Jan '26",
+      "slug": "tormented-souls",
+      "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2026-01-31T22:30:58.579Z"
+      "updated_at": "2026-02-08T02:00:27.248Z"
     },
     {
-      "title": "Definitely Not Fried Chicken",
-      "storefront": "Epic",
-      "slug": "definitely-not-fried-chicken",
-      "date_tested": "Jan '26",
+      "title": "Werewolf: The Apocalypse — Heart of the Forest",
+      "storefront": "Amazon",
+      "slug": "werewolf-the-apocalypse-heart-of-the-forest",
+      "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2026-01-31T22:30:57.312Z"
+      "updated_at": "2026-02-08T02:00:27.248Z"
     },
     {
-      "title": "Shadow Tactics: Aiko's Choice",
-      "storefront": "Epic",
-      "slug": "shadow-tactics-aikos-choice",
-      "date_tested": "Jan '26",
+      "title": "A Good Snowman Is Hard To Build",
+      "storefront": "itch.io",
+      "slug": "a-good-snowman-is-hard-to-build",
+      "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2026-01-31T22:30:50.152Z"
+      "updated_at": "2026-02-08T02:00:27.248Z"
+    },
+    {
+      "title": "TowerFall Ascension",
+      "storefront": "itch.io",
+      "slug": "towerfall-ascension",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2026-02-08T02:00:27.248Z"
     }
   ]
 }

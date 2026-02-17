@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 446,
+  "total_games": 451,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -31,7 +31,6 @@
     "ancient-enemy.json",
     "animation-throwdown-the-quest-for-cards.json",
     "anodyne-2-return-to-dust.json",
-    "apex-legends.json",
     "arc-raiders.json",
     "arcade-paradise.json",
     "arcadegeddon.json",
@@ -189,6 +188,7 @@
     "godlike-burger.json",
     "gods-will-fall.json",
     "godzilla-voxel-wars.json",
+    "golden-light.json",
     "grand-theft-auto-v-enhanced.json",
     "grand-theft-auto-v.json",
     "gravity-circuit.json",
@@ -200,6 +200,7 @@
     "happy-game.json",
     "hardspace-shipbreaker.json",
     "hell-let-loose.json",
+    "hexguardian.json",
     "hidden-folks.json",
     "hitman-world-of-assassination.json",
     "hogwarts-legacy.json",
@@ -265,6 +266,7 @@
     "new-tales-from-the-borderlands.json",
     "nightreaper2.json",
     "no-straight-roads.json",
+    "nobody-wants-to-die.json",
     "ogu-and-the-secret-forest.json",
     "orcs-must-die-3.json",
     "outliver-tribulation.json",
@@ -325,6 +327,7 @@
     "skul-the-hero-slayer.json",
     "skull-and-bones.json",
     "sky-racket.json",
+    "skybound-only-up.json",
     "skydrift-infinity.json",
     "slain-back-from-hell.json",
     "snakebird-complete.json",
@@ -366,6 +369,7 @@
     "the-callisto-protocol.json",
     "the-captain.json",
     "the-crew-motorfest.json",
+    "the-darkside-detective-a-fumble-in-the-dark.json",
     "the-darkside-detective.json",
     "the-drone-racing-league-simulator.json",
     "the-dungeon-of-naheulbeuk-the-amulet-of-chaos.json",
@@ -409,7 +413,7 @@
     "trib3.json",
     "trine-2-complete-story.json",
     "trine-3-the-artifacts-of-power.json",
-    "trine-4-the-nightmare-prince.json",
+    "trine-4-definitive-edition.json",
     "trine-enchanted-edition.json",
     "troublemaker.json",
     "tunche.json",
@@ -451,48 +455,30 @@
     "zombie-army-4-dead-war.json"
   ],
   "featured_games": 3,
-  "last_updated": "2026-02-06T22:26:13.150Z",
+  "last_updated": "2026-02-16T21:55:53.026Z",
   "latest_games": [
     {
-      "title": "The Machines Arena",
-      "slug": "the-machines-arena",
-      "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure",
-      "slug": "tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure",
+      "title": "Hexguardian",
+      "slug": "hexguardian",
       "date_tested": "Feb '26",
       "is_featured": true
     },
     {
-      "title": "Botany Manor",
-      "slug": "botany-manor",
-      "date_tested": "Feb '26",
-      "is_featured": true
-    },
-    {
-      "title": "NightReaper2",
-      "slug": "nightreaper2",
-      "date_tested": "Feb '26",
-      "is_featured": true
-    },
-    {
-      "title": "BioShock™ Remastered",
-      "slug": "bioshock-remastered",
+      "title": "Golden Light",
+      "slug": "golden-light",
       "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "Bramble: The Mountain King",
-      "slug": "bramble-the-mountain-king",
+      "title": "Skybound: Only Up",
+      "slug": "skybound-only-up",
       "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "Chuchel",
-      "slug": "chuchel",
-      "date_tested": "Feb '26",
+      "title": "F.I.S.T.: Forged In Shadow Torch",
+      "slug": "fist-forged-in-shadow-torch",
+      "date_tested": "July '24",
       "is_featured": false
     },
     {
@@ -502,15 +488,33 @@
       "is_featured": false
     },
     {
-      "title": "Animation Throwdown: The Quest for Cards",
-      "slug": "animation-throwdown-the-quest-for-cards",
-      "date_tested": "July '24",
+      "title": "Nobody Wants to Die",
+      "slug": "nobody-wants-to-die",
+      "date_tested": "Feb '26",
+      "is_featured": true
+    },
+    {
+      "title": "The Darkside Detective: A Fumble in the Dark",
+      "slug": "the-darkside-detective-a-fumble-in-the-dark",
+      "date_tested": "Feb '26",
+      "is_featured": true
+    },
+    {
+      "title": "The Darkside Detective",
+      "slug": "the-darkside-detective",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Definitely Not Fried Chicken",
-      "slug": "definitely-not-fried-chicken",
-      "date_tested": "Jan '26",
+      "title": "RAWMEN: Food Fighter Arena",
+      "slug": "rawmen-food-fighter-arena",
+      "date_tested": "Aug '24",
+      "is_featured": false
+    },
+    {
+      "title": "Overcooked!",
+      "slug": "overcooked",
+      "date_tested": "May '24",
       "is_featured": false
     }
   ]

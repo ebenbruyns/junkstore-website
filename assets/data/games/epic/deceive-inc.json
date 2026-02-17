@@ -4,10 +4,10 @@
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/820520",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/deceive-inc",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
-  "notes": "Native controller support **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**.",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Deceive_Inc.",
+  "notes": "Works out of the box!",
   "date_tested": "July '24",
   "decky_rating": "green",
   "standalone_rating": "green",
@@ -47,7 +47,16 @@
     "Multiplayer"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French*",
+    "German",
+    "Japanese",
+    "Korean",
+    "Russian",
+    "Traditional Chinese",
+    "Spanish - Spain",
+    "Simplified Chinese",
+    "Spanish - Latin America*languages with full audio support"
   ],
   "epic_cloud_saves": false,
   "tested": true,
@@ -55,5 +64,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-02-01T07:47:37.085Z"
+  "updated_at": "2026-02-15T21:39:29.321Z"
 }

@@ -7,7 +7,7 @@
   "epic_url": "",
   "itch_url": "https://owch.itch.io/10s",
   "pc_gaming_wiki_url": "",
-  "notes": "Requires manual controller/key mapping. **Decky Plugin: Not Supported**. **2.0 Standalone: Works out of the box**.",
+  "notes": "Works out of the box but needs some manual contorller mapping.",
   "date_tested": "Aug '25",
   "decky_rating": "not-supported",
   "standalone_rating": "green",
@@ -54,5 +54,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.786Z",
-  "updated_at": "2025-10-01T20:31:13.279Z"
+  "updated_at": "2026-02-16T21:25:09.499Z"
 }
