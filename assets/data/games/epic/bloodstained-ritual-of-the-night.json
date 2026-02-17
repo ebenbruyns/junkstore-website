@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "a2ac59c83b704e40b4ab3a9e963fef52",
+  "shortname": "a2ac59c83b704e40b4ab3a9e963fef52",
   "publisher": "505 Games",
   "developer": "ArtPlay",
   "releasedate": "",
@@ -66,5 +66,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-26T02:41:32.855Z",
-  "updated_at": "2025-12-30T02:34:41.230Z"
+  "updated_at": "2026-02-07T22:06:38.394Z"
 }

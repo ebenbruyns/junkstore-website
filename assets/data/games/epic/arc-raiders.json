@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "20f01ab5e0fa4e798c6d58eeb8d86989",
+  "shortname": "20f01ab5e0fa4e798c6d58eeb8d86989",
   "publisher": "Embark Studios",
   "developer": "Embark Studios",
   "releasedate": "",
@@ -64,5 +64,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-16T02:39:40.402Z",
-  "updated_at": "2026-01-28T22:35:54.213Z"
+  "updated_at": "2026-02-07T23:11:00.198Z"
 }
