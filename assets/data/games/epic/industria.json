@@ -7,7 +7,7 @@
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
-  "notes": "Native controller support. Community controller layout available. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**. You need to either use the mouse or touch screen to get past main menu and into the game. If you want to, you can remap controls in game from the 'Options' menu. Community layout is for the 'Steam Controller'.",
+  "notes": "Native controller support. Community controller layout available. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You need to either use the mouse or touch screen to get past main menu and into the game. If you want to, you can remap controls in game from the 'Options' menu. Community layout is for the 'Steam Controller'.",
   "date_tested": "Aug '25",
   "decky_rating": "green",
   "standalone_rating": "green",

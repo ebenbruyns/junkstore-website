@@ -30,8 +30,8 @@
   "controller_input": "keyboard-mouse",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "3da2975945f34c27b536147685816607",
+  "shortname": "3da2975945f34c27b536147685816607",
   "publisher": "Silver Lining Interactive",
   "developer": "Dope Games",
   "releasedate": "",
@@ -60,5 +60,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-29T19:47:58.291Z",
-  "updated_at": "2026-01-31T22:30:57.312Z"
+  "updated_at": "2026-02-07T22:06:38.395Z"
 }

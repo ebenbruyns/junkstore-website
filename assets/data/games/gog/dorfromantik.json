@@ -7,7 +7,7 @@
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Dorfromantik",
-  "notes": "Native controller support. **Decky Plugin: Not tested**. **2.0 Standalone: Works out of the box**.",
+  "notes": "Native controller support. **Decky Plugin: Not tested**. **Pro Version: Works out of the box**.",
   "date_tested": "Sep '25",
   "decky_rating": "unknown",
   "standalone_rating": "green",
@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "1721001406",
+  "shortname": "1721001406",
   "publisher": "Toukana Interactive",
   "developer": "Toukana Interactive",
   "releasedate": "",
@@ -64,5 +64,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-05T00:35:56.140Z",
-  "updated_at": "2025-11-27T06:15:03.418Z"
+  "updated_at": "2026-02-07T23:04:50.807Z"
 }

@@ -7,7 +7,7 @@
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
-  "notes": "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Works out of the box**. You need to install Microsoft C++ runtime & accept a EULA",
+  "notes": "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. You need to install Microsoft C++ runtime & accept a EULA",
   "date_tested": "March '25",
   "decky_rating": "yellow",
   "standalone_rating": "green",

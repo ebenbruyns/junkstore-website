@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "17979201bdd845f0ab53d1d62d841dbf",
+  "shortname": "17979201bdd845f0ab53d1d62d841dbf",
   "publisher": "Thunderful Publishing",
   "developer": "Sad Owl Studios",
   "releasedate": "",
@@ -63,5 +63,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-30T02:37:01.901Z",
-  "updated_at": "2026-01-08T03:54:00.988Z"
+  "updated_at": "2026-02-07T22:06:38.395Z"
 }

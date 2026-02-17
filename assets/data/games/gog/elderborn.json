@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "1732383191",
+  "shortname": "1732383191",
   "publisher": "Hyperstrange",
   "developer": "Hyperstrange",
   "releasedate": "",
@@ -64,5 +64,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-29T19:51:41.842Z",
-  "updated_at": "2026-01-31T22:31:00.520Z"
+  "updated_at": "2026-02-07T22:06:38.401Z"
 }

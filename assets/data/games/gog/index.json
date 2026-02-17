@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 360,
+  "total_games": 362,
   "games": [
     "60-parsecs.json",
     "9-years-of-shadows.json",
@@ -72,7 +72,6 @@
     "crusader-kings-ii.json",
     "cuphead.json",
     "cursed-to-golf.json",
-    "cyberpunk-2077-ultimate-edition.json",
     "cyberpunk-2077.json",
     "dagon-by-h-p-lovecraft.json",
     "dark-deity.json",
@@ -113,7 +112,7 @@
     "fall-of-porcupine.json",
     "fallout-2-a-post-nuclear-role-playing-game.json",
     "fallout-3-game-of-the-year-edition.json",
-    "fallout-4.json",
+    "fallout-4-game-of-the-year-edition.json",
     "fallout-a-post-nuclear-role-playing-game.json",
     "fallout-new-vegas-ultimate-edition.json",
     "fantasy-empires.json",
@@ -143,7 +142,7 @@
     "greedfall.json",
     "grim-dawn-definitive-edition.json",
     "grip.json",
-    "gunslugs-rogue-tactics.json",
+    "gunslugs-3-rogue-tactics.json",
     "gunslugs.json",
     "hammerting.json",
     "hard-west-2.json",
@@ -173,6 +172,7 @@
     "intravenous.json",
     "iratus-lord-of-the-dead.json",
     "iris-and-the-giant.json",
+    "jdm-rise-of-the-scorpion.json",
     "jupiter-hell.json",
     "kerbal-space-program.json",
     "king-of-seas.json",
@@ -191,6 +191,7 @@
     "little-nightmares.json",
     "loop-hero.json",
     "lords-of-midnight.json",
+    "lorelai.json",
     "lovecrafts-untold-stories.json",
     "lust-theory-season-1.json",
     "mafia-definitive-edition.json",
@@ -274,7 +275,6 @@
     "spells-secrets.json",
     "spelunky-classic.json",
     "star-wars-battlefront-ii-classic-2005.json",
-    "star-wars-battlefront-ii.json",
     "star-wars-bounty-hunter.json",
     "star-wars-galactic-battlegrounds-saga.json",
     "star-wars-jedi-knight-dark-forces-ii-mysteries-of-the-sith.json",
@@ -365,67 +365,67 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2026-02-06T22:26:13.156Z",
+  "featured_games": 0,
+  "last_updated": "2026-02-16T21:55:53.030Z",
   "latest_games": [
     {
-      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
-      "slug": "the-witcher-2-assassins-of-kings-enhanced-edition",
-      "date_tested": "Feb '26",
-      "is_featured": true
-    },
-    {
-      "title": "Deus Ex: Mankind Divided",
-      "slug": "deus-ex-mankind-divided",
+      "title": "Eschalon: Book I",
+      "slug": "eschalon-book-i",
       "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "STAR WARS™ Jedi Knight: Dark Forces II",
-      "slug": "star-wars-jedi-knight-dark-forces-ii",
+      "title": "Endless Sky",
+      "slug": "endless-sky",
       "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "STAR WARS™ Galactic Battlegrounds Saga",
-      "slug": "star-wars-galactic-battlegrounds-saga",
+      "title": "JDM: Rise of the Scorpion",
+      "slug": "jdm-rise-of-the-scorpion",
       "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "Deep Sky Derelicts",
-      "slug": "deep-sky-derelicts",
+      "title": "Lorelai",
+      "slug": "lorelai",
       "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
-      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
-      "date_tested": "July '24",
-      "is_featured": false
-    },
-    {
-      "title": "ELDERBORN",
-      "slug": "elderborn",
+      "title": "Gunslugs 3: Rogue Tactics",
+      "slug": "gunslugs-3-rogue-tactics",
       "date_tested": "Jan '26",
       "is_featured": false
     },
     {
-      "title": "Fall of Porcupine",
-      "slug": "fall-of-porcupine",
-      "date_tested": "Jan '26",
+      "title": "Doom",
+      "slug": "doom",
+      "date_tested": "April '25",
       "is_featured": false
     },
     {
-      "title": "Gravewood High",
-      "slug": "gravewood-high",
-      "date_tested": "Jan '26",
+      "title": "Hard West",
+      "slug": "hard-west",
+      "date_tested": "Aug '24",
       "is_featured": false
     },
     {
-      "title": "Neurodeck : Psychological Deckbuilder",
-      "slug": "neurodeck-psychological-deckbuilder",
-      "date_tested": "Jan '26",
+      "title": "Overcooked!",
+      "slug": "overcooked",
+      "date_tested": "Nov '24",
+      "is_featured": false
+    },
+    {
+      "title": "SteamWorld Heist II",
+      "slug": "steamworld-heist-ii",
+      "date_tested": "Oct '24",
+      "is_featured": false
+    },
+    {
+      "title": "60 Parsecs!",
+      "slug": "60-parsecs",
+      "date_tested": "Oct '25",
       "is_featured": false
     }
   ]

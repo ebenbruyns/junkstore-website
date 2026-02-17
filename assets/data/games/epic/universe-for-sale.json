@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "5bdaa943f48a41598f0614391975242f",
+  "shortname": "5bdaa943f48a41598f0614391975242f",
   "publisher": "Akupara Games",
   "developer": "Tmesis Studio",
   "releasedate": "",
@@ -61,5 +61,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-27T06:08:54.918Z",
-  "updated_at": "2025-12-07T08:10:19.128Z"
+  "updated_at": "2026-02-07T22:06:38.394Z"
 }

@@ -7,7 +7,7 @@
   "epic_url": "https://store.epicgames.com/en-US/p/deliver-at-all-costs-a30c8d",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Deliver_at_All_Costs",
-  "notes": "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **2.0 Standalone: Works out of the box**. If you are having issues, launch it twice or reinstall the dependencies (JS > About).",
+  "notes": "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. If you are having issues, launch it twice or reinstall the dependencies (JS > About).",
   "date_tested": "Jan '26",
   "decky_rating": "green",
   "standalone_rating": "green",

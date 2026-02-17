@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "279295",
+  "shortname": "279295",
   "publisher": "Daniel Linssen",
   "developer": "Daniel Linssen",
   "releasedate": "",
@@ -47,9 +47,9 @@
   ],
   "languages": [],
   "tested": true,
-  "owned": false,
+  "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-24T01:52:38.981Z",
-  "updated_at": "2025-11-27T06:07:08.723Z"
+  "updated_at": "2026-02-08T00:02:32.630Z"
 }

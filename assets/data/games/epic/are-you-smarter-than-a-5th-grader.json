@@ -7,7 +7,7 @@
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
-  "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **2.0 Standalone: Works out of the box**. \nNeeds Microsoft C++ Runtime (installed automatically in Junk Store 2.0).",
+  "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. \nNeeds Microsoft C++ Runtime (installed automatically in Junk Store Pro).",
   "date_tested": "Aug '25",
   "decky_rating": "yellow",
   "standalone_rating": "green",

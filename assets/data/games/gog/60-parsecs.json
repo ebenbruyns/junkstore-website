@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "1135130303",
+  "shortname": "1135130303",
   "publisher": "Robot Gentleman",
   "developer": "Robot Gentleman",
   "releasedate": "",
@@ -64,5 +64,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-27T07:07:02.538Z",
-  "updated_at": "2025-12-01T21:58:02.447Z"
+  "updated_at": "2026-02-07T23:10:07.522Z"
 }

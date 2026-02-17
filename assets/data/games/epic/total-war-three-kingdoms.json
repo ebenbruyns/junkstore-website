@@ -30,8 +30,8 @@
   "controller_input": "requires-mapping",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "769f2fee68e9477180da900ccccbbcf0",
+  "shortname": "769f2fee68e9477180da900ccccbbcf0",
   "publisher": "SEGA",
   "developer": "CREATIVE ASSEMBLY",
   "releasedate": "",
@@ -65,5 +65,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-05T23:48:35.404Z",
-  "updated_at": "2026-01-18T04:17:06.734Z"
+  "updated_at": "2026-02-07T22:06:38.395Z"
 }

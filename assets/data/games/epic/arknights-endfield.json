@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "bcd55b0d87c245dd867f5b1bd496f1df",
+  "shortname": "bcd55b0d87c245dd867f5b1bd496f1df",
   "publisher": "Hypergryph",
   "developer": "Gryphline",
   "releasedate": "",
@@ -68,5 +68,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-21T05:53:14.781Z",
-  "updated_at": "2026-01-29T19:48:06.010Z"
+  "updated_at": "2026-02-07T22:06:38.395Z"
 }
