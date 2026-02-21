@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tip of the Week: Easily Change Proton Versions in Junk Store"
-date: 2026-02-21 12:45:00 +1300
+date: 2026-02-21 17:50:00 +1300
 categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips, proton, compatibility]
 slug: "change-proton-version"
@@ -9,7 +9,7 @@ excerpt: "Change Proton versions directly in Game Mode using Steam's built-in co
 image: /assets/images/blog/proton-tip/proton-tip-hero.webp
 header:
   teaser: /assets/images/blog/proton-tip/proton-tip-thumb.webp
-read_time: "2 min read"
+read_time: "4 min read"
 toc: true
 ---
 
