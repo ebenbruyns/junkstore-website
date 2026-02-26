@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 451,
+  "total_games": 453,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -294,6 +294,7 @@
     "redout-enhanced-edition.json",
     "rennsport.json",
     "republic-of-jungle.json",
+    "return-to-ash.json",
     "rime.json",
     "ring-of-pain.json",
     "rise-of-industry.json",
@@ -338,6 +339,7 @@
     "sorry-were-closed.json",
     "soulstice.json",
     "spirit-of-the-north.json",
+    "stalcraft-x.json",
     "star-stable.json",
     "star-stuff.json",
     "stasis-bone-totem.json",
@@ -454,18 +456,48 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 3,
-  "last_updated": "2026-02-16T21:55:53.026Z",
+  "featured_games": 2,
+  "last_updated": "2026-02-26T03:04:33.180Z",
   "latest_games": [
     {
-      "title": "Hexguardian",
-      "slug": "hexguardian",
+      "title": "Stalcraft: X",
+      "slug": "stalcraft-x",
       "date_tested": "Feb '26",
       "is_featured": true
     },
     {
-      "title": "Golden Light",
-      "slug": "golden-light",
+      "title": "Return to Ash",
+      "slug": "return-to-ash",
+      "date_tested": "Feb '26",
+      "is_featured": true
+    },
+    {
+      "title": "Rogue Legacy 2",
+      "slug": "rogue-legacy-2",
+      "date_tested": "May '24",
+      "is_featured": false
+    },
+    {
+      "title": "Overcooked!",
+      "slug": "overcooked",
+      "date_tested": "May '24",
+      "is_featured": false
+    },
+    {
+      "title": "The Darkside Detective: A Fumble in the Dark",
+      "slug": "the-darkside-detective-a-fumble-in-the-dark",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Nobody Wants to Die",
+      "slug": "nobody-wants-to-die",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Hexguardian",
+      "slug": "hexguardian",
       "date_tested": "Feb '26",
       "is_featured": false
     },
@@ -476,45 +508,15 @@
       "is_featured": false
     },
     {
+      "title": "Golden Light",
+      "slug": "golden-light",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
       "title": "F.I.S.T.: Forged In Shadow Torch",
       "slug": "fist-forged-in-shadow-torch",
       "date_tested": "July '24",
-      "is_featured": false
-    },
-    {
-      "title": "Deceive Inc.",
-      "slug": "deceive-inc",
-      "date_tested": "July '24",
-      "is_featured": false
-    },
-    {
-      "title": "Nobody Wants to Die",
-      "slug": "nobody-wants-to-die",
-      "date_tested": "Feb '26",
-      "is_featured": true
-    },
-    {
-      "title": "The Darkside Detective: A Fumble in the Dark",
-      "slug": "the-darkside-detective-a-fumble-in-the-dark",
-      "date_tested": "Feb '26",
-      "is_featured": true
-    },
-    {
-      "title": "The Darkside Detective",
-      "slug": "the-darkside-detective",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "RAWMEN: Food Fighter Arena",
-      "slug": "rawmen-food-fighter-arena",
-      "date_tested": "Aug '24",
-      "is_featured": false
-    },
-    {
-      "title": "Overcooked!",
-      "slug": "overcooked",
-      "date_tested": "May '24",
       "is_featured": false
     }
   ]
