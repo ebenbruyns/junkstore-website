@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-02-16T21:55:53.046Z",
-  "total_tested_games": 952,
-  "featured_games": 3,
+  "last_updated": "2026-02-26T03:04:33.197Z",
+  "total_tested_games": 956,
+  "featured_games": 4,
   "storefronts": {
     "Epic": {
-      "total": 451,
-      "featured": 3,
+      "total": 453,
+      "featured": 2,
       "directory": "epic"
     },
     "GOG": {
-      "total": 362,
-      "featured": 0,
+      "total": 364,
+      "featured": 2,
       "directory": "gog"
     },
     "Amazon": {
@@ -25,6 +25,142 @@
     }
   },
   "recent_updates": [
+    {
+      "title": "Flashout 3D: Enhanced Edition",
+      "storefront": "GOG",
+      "slug": "flashout-3d-enhanced-edition",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-22T07:18:48.954Z"
+    },
+    {
+      "title": "Figment",
+      "storefront": "GOG",
+      "slug": "figment",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-22T07:18:33.610Z"
+    },
+    {
+      "title": "Stalcraft: X",
+      "storefront": "Epic",
+      "slug": "stalcraft-x",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-22T07:15:40.414Z"
+    },
+    {
+      "title": "Ambition: A Minuet in Power",
+      "storefront": "GOG",
+      "slug": "ambition-a-minuet-in-power",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-22T04:26:40.078Z"
+    },
+    {
+      "title": "Captain Blood",
+      "storefront": "GOG",
+      "slug": "captain-blood",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-22T04:13:32.587Z"
+    },
+    {
+      "title": "Return to Ash",
+      "storefront": "Epic",
+      "slug": "return-to-ash",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-22T03:39:54.877Z"
+    },
+    {
+      "title": "Rogue Legacy 2",
+      "storefront": "Epic",
+      "slug": "rogue-legacy-2",
+      "date_tested": "May '24",
+      "is_featured": false,
+      "updated_at": "2026-02-22T00:51:50.135Z"
+    },
+    {
+      "title": "Overcooked!",
+      "storefront": "Epic",
+      "slug": "overcooked",
+      "date_tested": "May '24",
+      "is_featured": false,
+      "updated_at": "2026-02-22T00:51:47.910Z"
+    },
+    {
+      "title": "The Darkside Detective: A Fumble in the Dark",
+      "storefront": "Epic",
+      "slug": "the-darkside-detective-a-fumble-in-the-dark",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-17T04:03:45.186Z"
+    },
+    {
+      "title": "Nobody Wants to Die",
+      "storefront": "Epic",
+      "slug": "nobody-wants-to-die",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-17T04:03:44.286Z"
+    },
+    {
+      "title": "Hexguardian",
+      "storefront": "Epic",
+      "slug": "hexguardian",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-17T04:03:43.282Z"
+    },
+    {
+      "title": "Skybound: Only Up",
+      "storefront": "Epic",
+      "slug": "skybound-only-up",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-17T04:03:19.432Z"
+    },
+    {
+      "title": "JDM: Rise of the Scorpion",
+      "storefront": "GOG",
+      "slug": "jdm-rise-of-the-scorpion",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-17T04:03:19.432Z"
+    },
+    {
+      "title": "Lorelai",
+      "storefront": "GOG",
+      "slug": "lorelai",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-17T04:03:19.432Z"
+    },
+    {
+      "title": "Golden Light",
+      "storefront": "Epic",
+      "slug": "golden-light",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-17T04:03:19.431Z"
+    },
+    {
+      "title": "Endless Sky",
+      "storefront": "GOG",
+      "slug": "endless-sky",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-17T04:03:05.546Z"
+    },
+    {
+      "title": "Eschalon: Book I",
+      "storefront": "GOG",
+      "slug": "eschalon-book-i",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-17T04:03:05.546Z"
+    },
     {
       "title": "10S",
       "storefront": "itch.io",
@@ -42,148 +178,12 @@
       "updated_at": "2026-02-16T21:23:57.196Z"
     },
     {
-      "title": "Hexguardian",
-      "storefront": "Epic",
-      "slug": "hexguardian",
-      "date_tested": "Feb '26",
-      "is_featured": true,
-      "updated_at": "2026-02-16T00:21:17.981Z"
-    },
-    {
-      "title": "Golden Light",
-      "storefront": "Epic",
-      "slug": "golden-light",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-15T22:45:15.073Z"
-    },
-    {
-      "title": "Skybound: Only Up",
-      "storefront": "Epic",
-      "slug": "skybound-only-up",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-15T22:44:52.251Z"
-    },
-    {
-      "title": "Eschalon: Book I",
-      "storefront": "GOG",
-      "slug": "eschalon-book-i",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-15T22:08:47.101Z"
-    },
-    {
-      "title": "Endless Sky",
-      "storefront": "GOG",
-      "slug": "endless-sky",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-15T22:06:44.410Z"
-    },
-    {
       "title": "F.I.S.T.: Forged In Shadow Torch",
       "storefront": "Epic",
       "slug": "fist-forged-in-shadow-torch",
       "date_tested": "July '24",
       "is_featured": false,
       "updated_at": "2026-02-15T21:39:31.588Z"
-    },
-    {
-      "title": "Deceive Inc.",
-      "storefront": "Epic",
-      "slug": "deceive-inc",
-      "date_tested": "July '24",
-      "is_featured": false,
-      "updated_at": "2026-02-15T21:39:29.321Z"
-    },
-    {
-      "title": "Nobody Wants to Die",
-      "storefront": "Epic",
-      "slug": "nobody-wants-to-die",
-      "date_tested": "Feb '26",
-      "is_featured": true,
-      "updated_at": "2026-02-15T21:26:06.901Z"
-    },
-    {
-      "title": "The Darkside Detective: A Fumble in the Dark",
-      "storefront": "Epic",
-      "slug": "the-darkside-detective-a-fumble-in-the-dark",
-      "date_tested": "Feb '26",
-      "is_featured": true,
-      "updated_at": "2026-02-15T05:54:01.245Z"
-    },
-    {
-      "title": "The Darkside Detective",
-      "storefront": "Epic",
-      "slug": "the-darkside-detective",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-02-14T01:50:46.166Z"
-    },
-    {
-      "title": "JDM: Rise of the Scorpion",
-      "storefront": "GOG",
-      "slug": "jdm-rise-of-the-scorpion",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-09T00:50:30.201Z"
-    },
-    {
-      "title": "Lorelai",
-      "storefront": "GOG",
-      "slug": "lorelai",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-08T23:35:26.237Z"
-    },
-    {
-      "title": "RAWMEN: Food Fighter Arena",
-      "storefront": "Epic",
-      "slug": "rawmen-food-fighter-arena",
-      "date_tested": "Aug '24",
-      "is_featured": false,
-      "updated_at": "2026-02-08T21:54:08.617Z"
-    },
-    {
-      "title": "Gunslugs 3: Rogue Tactics",
-      "storefront": "GOG",
-      "slug": "gunslugs-3-rogue-tactics",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-02-08T21:51:58.380Z"
-    },
-    {
-      "title": "Tormented Souls",
-      "storefront": "Amazon",
-      "slug": "tormented-souls",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2026-02-08T02:00:27.248Z"
-    },
-    {
-      "title": "Werewolf: The Apocalypse — Heart of the Forest",
-      "storefront": "Amazon",
-      "slug": "werewolf-the-apocalypse-heart-of-the-forest",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2026-02-08T02:00:27.248Z"
-    },
-    {
-      "title": "A Good Snowman Is Hard To Build",
-      "storefront": "itch.io",
-      "slug": "a-good-snowman-is-hard-to-build",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2026-02-08T02:00:27.248Z"
-    },
-    {
-      "title": "TowerFall Ascension",
-      "storefront": "itch.io",
-      "slug": "towerfall-ascension",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2026-02-08T02:00:27.248Z"
     }
   ]
 }
