@@ -129,6 +129,13 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 <div class="tips-grid">
 
 <div class="tip-item both">
+  <h4><a href="/blog/epic-offline-mode/">Play Epic Games Offline</a></h4>
+  <p>Enable offline mode for Epic games so you can play without an internet connection</p>
+  <span class="tip-tag">3 min read</span>
+  <span class="tutorial-tag both-tag">Universal</span>
+</div>
+
+<div class="tip-item both">
   <h4><a href="/blog/show-hide-installed-games/">Filter to Show Only Installed Games</a></h4>
   <p>Press X to toggle between showing only installed games and your full library - each store remembers its setting</p>
   <span class="tip-tag">3 min read</span>
