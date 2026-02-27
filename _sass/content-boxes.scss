@@ -15,9 +15,9 @@
 .content-box {
   background-color: #1e2a38; /* Light gray background */
   border: 1px solid #ddd; /* Thin border */
-  padding: 20px;
+  padding: 15px 20px;
   width: 100%; /* Each box uses 30% of the available width */
-  min-height: 400px; /* 🔥 NEW: Minimum height so all boxes match */
+  min-height: 160px; /* Compact height for short content */
   box-sizing: border-box; /* Includes padding/border in width/height */
   border-radius: 8px;
   text-align: center; /* Center the text horizontally */
@@ -31,31 +31,34 @@
   /* Responsive: Stack vertically on smaller screens */
   @media (max-width: 768px) {
     width: 100%;
-    min-height: 250px; /* Reduced height for mobile - less white space */
-    padding: 1rem; /* Reduced padding for tighter mobile layout */
-    margin-bottom: 1rem; /* Consistent spacing between boxes */
+    min-height: 140px; /* Compact height for mobile */
+    padding: 12px 15px;
+    margin-bottom: 0.75rem;
   }
 }
 
 /* Heading inside the content box */
 .content-box h3 {
-  font-size: 1.2rem;
-  margin-bottom: 15px;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  margin-top: 0;
 
   @media (max-width: 768px) {
     font-size: 1rem;
+    margin-bottom: 6px;
   }
 }
 
 /* Paragraph inside the content box */
 .content-box p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-  flex-grow: 1; /* 🔥 NEW: Allows paragraph to grow and push button down if needed */
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+  flex-grow: 1;
+  color: #ccc;
 
   @media (max-width: 768px) {
-    font-size: 0.9rem;
-    margin-bottom: 1rem; /* Reduced spacing between text and button */
-    line-height: 1.4; /* Tighter line height for mobile readability */
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+    line-height: 1.4;
   }
 }
