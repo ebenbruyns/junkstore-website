@@ -107,6 +107,12 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <span class="tutorial-tag both-tag">Universal</span>
 </div>
 
+<div class="tutorial-item both">
+  <h4><a href="/tutorials/lsfg-frame-generation">Enable LSFG Frame Generation</a></h4>
+  <p>Boost frame rates with built-in LSFG-VK support</p>
+  <span class="tutorial-tag both-tag">Universal</span>
+</div>
+
 <div class="tutorial-item standalone">
   <h4><a href="/tutorials/change-game-language/">Change Language Settings</a></h4>
   <p>Change your Epic, GOG, or Amazon game language settings directly in Game Mode</p>
