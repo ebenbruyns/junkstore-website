@@ -41,17 +41,17 @@ a.button {
   }
 }
 
-/* Buy Now button - inherits all base button properties */
+/* Buy Now button - matches button-secondary styling with green color */
 a.button.buy-button {
-  background-color: #1e7e34 !important; /* Darker green for better contrast */
-  font-weight: 700; /* Bolder for primary action */
-  /* All other properties inherited from base .button class */
+  background-color: #1e7e34 !important;
+  color: #fff !important;
+  font-weight: 600; /* Same as button-secondary */
 }
 
 a.button.buy-button:hover,
 a.button.buy-button:visited:hover {
-  background-color: #155724; /* Even darker green on hover for better contrast */
-  color: #fff;
+  background-color: #155724 !important;
+  color: #fff !important;
   box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
 }
 
@@ -98,18 +98,17 @@ a.button:visited {
   transition: all 0.3s ease;
 }
 
-/* Special buy button styling for theme buttons */
+/* Special buy button styling for theme buttons - matches secondary */
 .btn.buy-button {
   background-color: #1e7e34 !important;
   color: #fff !important;
-  font-weight: 700;
+  font-weight: 600; /* Same as secondary */
 }
 
 .btn.buy-button:hover,
 .btn.buy-button:visited:hover {
   background-color: #155724 !important;
   color: #fff !important;
-  transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
 }
 
@@ -210,20 +209,8 @@ a.button.gog-extension-button:hover {
   }
 
   a.button.buy-button {
-    /* Inherits consistent sizing from base .button mobile styles */
-    margin: 1rem auto; /* More spacing for primary action */
-    font-weight: 700;
-    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
-    /* Enhanced visual hierarchy on mobile */
-    background-color: #1e7e34;
-    border: none;
-    /* All other mobile properties inherited from base .button class */
-  }
-
-  a.button.buy-button:active {
-    transform: scale(0.98);
-    box-shadow: 0 2px 8px rgba(40, 167, 69, 0.4);
-    transition: all 0.1s ease;
+    /* Match button-secondary on mobile */
+    background-color: #1e7e34 !important;
   }
 
   /* Stack buttons vertically on mobile with proper spacing */
@@ -269,19 +256,9 @@ a.button.gog-extension-button:hover {
     transition: all 0.1s ease;
   }
 
-  /* Enhanced mobile hero buy button prominence */
+  /* Hero buy button - match secondary styling */
   .page__hero .btn.buy-button {
-    font-weight: 800; /* Extra bold for primary action */
     background-color: #1e7e34 !important;
-    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4); /* Stronger shadow */
-    border: 2px solid rgba(40, 167, 69, 0.3); /* Subtle green border */
-    font-size: 1.2rem; /* Larger text for primary CTA */
-    min-height: 56px; /* Taller for primary action */
-  }
-
-  .page__hero .btn.buy-button:active {
-    transform: scale(0.97);
-    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.5);
   }
 
   /* Ensure mobile .btn buttons have consistent styling */
@@ -296,14 +273,7 @@ a.button.gog-extension-button:hover {
   }
 
   .btn.buy-button {
-    font-weight: 700;
     background-color: #1e7e34 !important;
-    box-shadow: 0 4px 12px rgba(40, 167, 69, 0.3);
-  }
-
-  .btn.buy-button:active {
-    transform: scale(0.98);
-    box-shadow: 0 2px 8px rgba(40, 167, 69, 0.4);
   }
 }
 

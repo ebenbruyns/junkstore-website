@@ -9,30 +9,92 @@
 .layout--splash .page__hero,
 .archive__hero,
 .page__feature {
-  min-height: 35vh !important; /* Significantly reduced for more content space */
-  max-height: 500px !important; /* Cap maximum height on large screens */
+  min-height: auto !important; /* Let content determine height */
+  max-height: none !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem 1rem !important; /* Reduced padding */
+  padding: 1.5rem 1rem !important;
 }
 
-/* Ensure wrapper content is properly centered */
-.page__hero .wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Reduce bottom padding for hero actions */
+/* Buttons under excerpt, left aligned */
 .page__hero-actions {
-  padding-bottom: 0 !important;
-  margin-bottom: 0 !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 0.75rem !important;
+  justify-content: flex-start !important;
+  padding: 0.5rem 0 !important;
+  margin: 0 !important;
+}
+
+/* Hero buttons - solid fill with border, white text */
+.page__hero-actions .button,
+.page__hero-actions .button.buy-button,
+.page__hero-actions .button.button-secondary {
+  background-color: #0056b3 !important;
+  border: 2px solid #004494 !important;
+  color: #fff !important;
+  padding: 0.75rem 1.5rem !important;
+  text-decoration: none !important;
+  border-radius: 5px !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  transition: all 0.3s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+}
+
+.page__hero-actions .button:hover {
+  background-color: #004494 !important;
+  border-color: #003366 !important;
+}
+
+/* Buy button - green solid fill with border */
+.page__hero-actions .button.buy-button {
+  background-color: #1e7e34 !important;
+  border-color: #155724 !important;
+}
+
+.page__hero-actions .button.buy-button:hover {
+  background-color: #155724 !important;
+  border-color: #0d3d17 !important;
+}
+
+/* Global hero title sizing - applies to ALL pages */
+/* Override theme's breakpoint-based sizing */
+.page__hero .page__title,
+.page__hero--overlay .page__title {
+  font-size: 2rem !important;
+  margin-bottom: 0.5rem !important;
+  line-height: 1.2 !important;
+}
+
+/* Override theme's 600px+ breakpoint */
+@media (min-width: 600px) {
+  .page__hero .page__title,
+  .page__hero--overlay .page__title {
+    font-size: 2rem !important;
+  }
+}
+
+/* Global hero excerpt/lead sizing - applies to ALL pages */
+.page__hero .page__lead,
+.page__hero--overlay .page__lead {
+  font-size: 1.1rem !important;
+  margin-bottom: 0.75rem !important;
+  line-height: 1.4 !important;
+}
+
+/* Reduce space after hero section */
+.page__hero,
+.page__hero--overlay {
+  margin-bottom: 0.5rem !important;
 }
 
 /* Mobile adjustments - applies to ALL pages */
@@ -44,10 +106,41 @@
   .layout--splash .page__hero,
   .archive__hero,
   .page__feature {
-    min-height: 45vh !important; /* Increased for mobile content */
-    max-height: 600px !important; /* Higher max for mobile */
-    padding: 2rem 1rem !important; /* More top padding to clear navigation */
-    padding-top: 3rem !important; /* Extra top padding for navigation clearance */
+    min-height: auto !important; /* Let content determine height */
+    max-height: none !important;
+    padding: 2rem 1rem !important;
+    padding-top: 3rem !important;
+  }
+
+  /* Stack layout vertically on mobile */
+  .page__hero .wrapper,
+  .page__hero--overlay .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    gap: 0.75rem;
+  }
+
+  .page__hero .page__title,
+  .page__hero--overlay .page__title {
+    grid-column: 1;
+    grid-row: auto;
+    font-size: 1.75rem !important;
+  }
+
+  .page__hero .page__lead,
+  .page__hero--overlay .page__lead {
+    grid-column: 1;
+    grid-row: auto;
+    font-size: 1rem !important;
+  }
+
+  .page__hero-actions {
+    grid-column: 1;
+    grid-row: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -59,34 +152,42 @@
   .layout--splash .page__hero,
   .archive__hero,
   .page__feature {
-    min-height: 55vh !important; /* Much taller for small screens with buttons */
-    max-height: 700px !important; /* Higher max to prevent overflow */
-    padding: 3rem 0.75rem 2rem 0.75rem !important; /* Extra top/bottom padding */
-    padding-top: 4rem !important; /* Clear navigation completely */
+    padding: 2.5rem 0.75rem 1.5rem !important;
+  }
+
+  .page__hero .page__title,
+  .page__hero--overlay .page__title {
+    font-size: 1.5rem !important;
+  }
+
+  .page__hero .page__lead,
+  .page__hero--overlay .page__lead {
+    font-size: 0.95rem !important;
+  }
+
+  .page__hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page__hero-actions .btn,
+  .page__hero-actions .button {
+    font-size: 0.85rem !important;
+    padding: 0.5rem 1rem !important;
+    width: 100%;
+    max-width: 250px;
   }
 }
 
-/* Special handling for very small screens and homepage */
+/* Very small screens */
 @media (max-width: 375px) {
   .page__hero,
   .page__hero--overlay {
-    min-height: 60vh !important; /* Even more space for tiny screens */
-    max-height: 750px !important;
-    padding: 4rem 0.5rem 2.5rem 0.5rem !important;
-    padding-top: 5rem !important; /* Maximum clearance for old phones */
-  }
-}
-
-/* Ensure buttons don't overflow on small screens */
-@media (max-width: 480px) {
-  .page__hero-actions {
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
+    padding: 2rem 0.5rem 1rem !important;
   }
 
-  .page__hero-actions .button {
-    margin: 0.25rem auto !important;
-    font-size: 0.9rem !important;
-    padding: 0.75rem 1rem !important;
+  .page__hero .page__title,
+  .page__hero--overlay .page__title {
+    font-size: 1.35rem !important;
   }
 }
