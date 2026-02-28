@@ -218,6 +218,7 @@ body {
       max-width: $medium;
     }
 
+    /* Commented out - using hero-height-fix.scss instead
     .page__title {
       font-size: $type-size-2;
 
@@ -225,6 +226,7 @@ body {
         font-size: $type-size-1;
       }
     }
+    */
   }
 }
 

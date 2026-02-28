@@ -79,42 +79,15 @@
   text-transform: uppercase;
 }
 
-/* Homepage h1 alignment */
-.layout--splash h1 {
+/* Homepage h1 alignment - for content h1s only, not hero */
+body.home h1 {
   max-width: 1200px;
   width: 98%;
   margin: 2rem auto;
   text-align: left;
 }
 
-/* Hero section alignment with content boxes - override theme defaults */
-.layout--splash .page__hero--overlay,
-.layout--splash .page__hero {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-.layout--splash .page__hero--overlay .wrapper,
-.layout--splash .page__hero .wrapper {
-  max-width: 1200px !important;
-  width: 98% !important;
-  margin: 0 auto !important;
-  padding: 3em 0 !important;
-  text-align: left !important;
-}
-
-.layout--splash .page__hero--overlay .page__title,
-.layout--splash .page__hero--overlay .page__lead,
-.layout--splash .page__hero--overlay .page__hero-actions,
-.layout--splash .page__hero .page__title,
-.layout--splash .page__hero .page__lead,
-.layout--splash .page__hero .page__hero-actions {
-  text-align: left !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  max-width: none !important;
-  width: 100% !important;
-}
+/* Hero styling now handled globally by hero-height-fix.scss */
 
 /* Major differentiators section */
 .layout--splash .major-differentiators {
@@ -739,7 +712,7 @@
 }
 
 /* Homepage-specific h2 styles - override generic ones */
-.layout--splash h2 {
+body.home h2 {
   max-width: 1200px !important;
   width: 98% !important;
   margin: 0.5rem auto 0.5rem auto !important;
@@ -754,53 +727,7 @@
 
 /* Mobile Responsiveness for Homepage */
 @media (max-width: 768px) {
-  /* Hero section improvements for mobile conversion */
-  .layout--splash .page__hero {
-    text-align: center;
-    /* Height and padding managed by hero-height-fix.scss */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .layout--splash .page__hero .page__title {
-    font-size: 1.9rem !important;
-    line-height: 1.2 !important;
-    margin-bottom: 1.25rem !important;
-    color: #fff;
-    font-weight: 700;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  }
-
-  .layout--splash .page__hero .page__lead {
-    font-size: 1.25rem !important;
-    line-height: 1.35 !important;
-    margin-bottom: 2rem !important;
-    color: #f0f0f0;
-    font-weight: 500;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* Hero action buttons mobile optimization */
-  .layout--splash .page__hero .btn {
-    margin: 0.5rem auto;
-    width: 100%;
-    max-width: 280px;
-    font-size: 1.1rem;
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-    font-weight: 600;
-    min-height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .layout--splash .page__hero .btn:first-of-type {
-    margin-top: 1rem;
-  }
+  /* Hero styling now handled globally by hero-height-fix.scss */
 
   /* Improve SEO intro for mobile */
   .layout--splash .seo-intro {
