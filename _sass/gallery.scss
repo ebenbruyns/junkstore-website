@@ -8,7 +8,48 @@
 .media-item {
   text-align: center;
   max-width: 400px;
-  margin: 0 auto; // center it if there's only one
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Wrapper for play button overlay */
+.gif-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Play button overlay */
+.gif-wrapper::after {
+  content: "▶";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.5);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: all 0.3s ease;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  padding-left: 5px; /* Optical centering for play symbol */
+}
+
+.gif-wrapper:hover::after {
+  background: rgba(0, 0, 0, 0.7);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Hide play button when playing */
+.gif-wrapper.playing::after {
+  opacity: 0;
+  visibility: hidden;
 }
 
 .media-item img,
@@ -24,12 +65,70 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.media-item img.zoomed,
-.media-item video.zoomed {
-  transform: scale(1.5);
-  box-shadow: 0 12px 32px rgba(0,0,0,0.6);
-  z-index: 10500 !important;
-  position: relative;
+/* Dark overlay backdrop for zoomed content (desktop only) */
+.gallery-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 10499;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.gallery-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Desktop: Centered fullscreen zoom */
+@media (min-width: 769px) {
+  .media-item img.zoomed,
+  .media-item video.zoomed {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: auto !important;
+    max-width: 85vw !important;
+    max-height: 85vh !important;
+    height: auto !important;
+    z-index: 10500 !important;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.6);
+    border-radius: 0.5rem;
+  }
+}
+
+/* Mobile: Play in place, no zoom */
+@media (max-width: 768px) {
+  .media-item img.zoomed,
+  .media-item video.zoomed {
+    /* Just play the GIF in place, no zoom or repositioning */
+    position: relative;
+    transform: none;
+    z-index: 1;
+  }
+
+  /* Hide overlay on mobile */
+  .gallery-overlay.active {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  /* Smaller play button on mobile */
+  .gif-wrapper::after {
+    font-size: 2.5rem;
+    width: 60px;
+    height: 60px;
+  }
+
+  /* Hide close button on mobile */
+  .close-btn {
+    display: none;
+  }
 }
 
 .close-btn {

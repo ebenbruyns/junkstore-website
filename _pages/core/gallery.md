@@ -8,8 +8,9 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
-    - label: "Learn More & Start Trial"
-      url: "/buy_now/"
+    - label: "Start Free Trial"
+      url: "https://portal.junkstore.xyz"
+      target: "_blank"
       class: "button buy-button"
 excerpt: "See Epic, GOG, Amazon & itch.io games running seamlessly in Steam Deck Game Mode - GIFs, videos, and live demos"
 classes: wide
@@ -18,61 +19,71 @@ classes: wide
 
 **See the difference: Everything shown here is done in Game Mode with your Steam Deck's controller.** No Desktop Mode switching, no mouse required—just pure handheld gaming as intended.
 
+<!-- Dark overlay for zoomed content -->
+<div class="gallery-overlay" id="galleryOverlay"></div>
+
 <!-- Animated GIFs Section -->
-<h2>Game Mode Features (Click to animate)</h2>
+<h2>Game Mode Features (Tap to play)</h2>
 <div class="media-grid">
 
   <div class="media-item">
-    <img 
-      class="gif-click" 
-      src="/assets/images/jspro/gallery/download-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/download.webm" 
-      alt="Cloud saves" 
-      data-still="/assets/images/jspro/gallery/download-still.jpg"
-      loading="lazy"
-    >
+    <div class="gif-wrapper">
+      <img
+        class="gif-click"
+        src="/assets/images/jspro/gallery/download-still.jpg"
+        data-gif="/assets/images/jspro/gallery/download.webm"
+        alt="Download queue management"
+        data-still="/assets/images/jspro/gallery/download-still.jpg"
+        loading="lazy"
+      >
+    </div>
     <p class="caption-title">Download Queue</p>
     <p class="caption">Manage multiple downloads across stores - change order, pause or cancel individual downloads.</p>
   </div>
 
   <div class="media-item">
-    <img 
-      class="gif-click" 
-      src="/assets/images/jspro/gallery/language-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/languageselection.webm" 
-      alt="Install dependencies" 
-      data-still="/assets/images/jspro/gallery/language-still.jpg"
-      loading="lazy"
-    >
+    <div class="gif-wrapper">
+      <img
+        class="gif-click"
+        src="/assets/images/jspro/gallery/language-still.jpg"
+        data-gif="/assets/images/jspro/gallery/languageselection.webm"
+        alt="Language selection"
+        data-still="/assets/images/jspro/gallery/language-still.jpg"
+        loading="lazy"
+      >
+    </div>
     <p class="caption-title">Select Language for Game</p>
     <p class="caption">One-click install of languages for games that support them.</p>
   </div>
 
-
   <div class="media-item">
-    <img 
-      class="gif-click" 
-      src="/assets/images/jspro/gallery/dependencies-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/dependencies.webm" 
-      alt="Install dependencies" 
-      data-still="/assets/images/jspro/gallery/dependencies-still.jpg"
-      loading="lazy"
-    >
+    <div class="gif-wrapper">
+      <img
+        class="gif-click"
+        src="/assets/images/jspro/gallery/dependencies-still.jpg"
+        data-gif="/assets/images/jspro/gallery/dependencies.webm"
+        alt="Install dependencies"
+        data-still="/assets/images/jspro/gallery/dependencies-still.jpg"
+        loading="lazy"
+      >
+    </div>
     <p class="caption-title">Install Dependencies</p>
     <p class="caption">One-click install for common libraries like VC++ Redist, DirectX, .Net etc.</p>
   </div>
 
   <div class="media-item">
-    <img 
-      class="gif-click" 
-      src="/assets/images/jspro/gallery/changelauncher-still.jpg" 
-      data-gif="/assets/images/jspro/gallery/changelauncher.webm" 
-      alt="Change launcher" 
-      data-still="/assets/images/jspro/gallery/changelauncher-still.jpg"
-      loading="lazy"
-    >
+    <div class="gif-wrapper">
+      <img
+        class="gif-click"
+        src="/assets/images/jspro/gallery/changelauncher-still.jpg"
+        data-gif="/assets/images/jspro/gallery/changelauncher.webm"
+        alt="Change launcher"
+        data-still="/assets/images/jspro/gallery/changelauncher-still.jpg"
+        loading="lazy"
+      >
+    </div>
     <p class="caption-title">Change Launcher</p>
-    <p class="caption">Switch between ScummVm, Dosbox, Dolphin, etc..</p>
+    <p class="caption">Switch between ScummVm, Dosbox, Dolphin, etc.</p>
   </div>
 
 </div>
@@ -119,7 +130,7 @@ classes: wide
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const imgs = document.querySelectorAll(".gif-click");
+  const overlay = document.getElementById('galleryOverlay');
 
   function unzoomAll() {
     // Remove close button if it exists
@@ -127,15 +138,25 @@ document.addEventListener("DOMContentLoaded", function () {
     if (closeBtn) {
       closeBtn.remove();
     }
-    
+
+    // Hide overlay
+    if (overlay) {
+      overlay.classList.remove('active');
+    }
+
+    // Remove playing class from all wrappers
+    document.querySelectorAll('.gif-wrapper.playing').forEach(wrapper => {
+      wrapper.classList.remove('playing');
+    });
+
     // Handle zoomed images - convert back to still images
     document.querySelectorAll('img.gif-click.zoomed').forEach(zoomedImg => {
       const stillSrc = zoomedImg.getAttribute("data-still");
       const gifSrc = zoomedImg.getAttribute("data-gif");
       const altText = zoomedImg.getAttribute("alt");
-      zoomedImg.outerHTML = `<img class="gif-click" src="${stillSrc}" data-gif="${gifSrc}" alt="${altText}" data-still="${stillSrc}">`;
+      zoomedImg.outerHTML = `<img class="gif-click" src="${stillSrc}" data-gif="${gifSrc}" alt="${altText}" data-still="${stillSrc}" loading="lazy">`;
     });
-    
+
     // Handle regular images
     document.querySelectorAll('.gif-click').forEach(img => {
       img.classList.remove("zoomed");
@@ -143,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function () {
         img.src = img.getAttribute("data-still");
       }
     });
-    
+
     // Re-attach event listeners after DOM changes
     attachClickListeners();
   }
@@ -151,7 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function attachClickListeners() {
     const currentImgs = document.querySelectorAll(".gif-click");
     currentImgs.forEach(img => {
-      img.removeEventListener("click", handleClick); // Remove existing listeners
+      img.removeEventListener("click", handleClick);
       img.addEventListener("click", handleClick);
     });
   }
@@ -159,30 +180,40 @@ document.addEventListener("DOMContentLoaded", function () {
   function handleClick(e) {
     e.stopPropagation();
     const img = e.target;
+    const wrapper = img.closest('.gif-wrapper');
     const isZoomed = img.classList.contains("zoomed");
 
     // Unzoom all first
     unzoomAll();
 
     if (!isZoomed) {
+      // Show overlay
+      if (overlay) {
+        overlay.classList.add('active');
+      }
+
+      // Mark wrapper as playing (hides play button)
+      if (wrapper) {
+        wrapper.classList.add('playing');
+      }
+
       // Zoom this one and switch to GIF
       const webmSrc = img.getAttribute("data-gif");
-      const gifSrc = webmSrc.replace('.webm', '.gif'); // Convert WebM to GIF
+      const gifSrc = webmSrc.replace('.webm', '.gif');
       const stillSrc = img.getAttribute("data-still");
       const altText = img.getAttribute("alt");
-      
-      img.outerHTML = `<img class="gif-click zoomed" src="${gifSrc}" alt="${altText}" data-gif="${webmSrc}" data-still="${stillSrc}">`;
-      
-      // Add close button separately, outside the scaled container
+
+      img.outerHTML = `<img class="gif-click zoomed" src="${gifSrc}" alt="${altText}" data-gif="${webmSrc}" data-still="${stillSrc}" loading="lazy">`;
+
+      // Add close button
       const closeBtn = document.createElement('button');
       closeBtn.className = 'close-btn';
       closeBtn.innerHTML = '&times;';
       document.body.appendChild(closeBtn);
-      
-      // Re-attach listeners immediately after creating the video
+
+      // Re-attach listeners
       setTimeout(() => {
         attachClickListeners();
-        // Add close button listener
         closeBtn.addEventListener('click', (e) => {
           e.stopPropagation();
           unzoomAll();
@@ -194,9 +225,14 @@ document.addEventListener("DOMContentLoaded", function () {
   // Initial attachment
   attachClickListeners();
 
-  // Click anywhere else closes all zooms
-  document.addEventListener("click", () => {
-    unzoomAll();
+  // Click overlay or anywhere else closes all zooms
+  if (overlay) {
+    overlay.addEventListener("click", unzoomAll);
+  }
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest('.gif-wrapper') && !e.target.classList.contains('close-btn')) {
+      unzoomAll();
+    }
   });
 });
 </script>
