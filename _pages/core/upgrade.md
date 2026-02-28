@@ -12,7 +12,7 @@ header:
       url: "https://portal.junkstore.xyz/"
       target: "_blank"
       class: "button buy-button"
-    - label: "See Live Demos"
+    - label: "See It In Action"
       url: "/gallery/"
       class: "button"
 excerpt: "Love the free Decky plugin? Discover what the premium experience unlocks for Epic, GOG, Amazon & itch.io games"

@@ -12,7 +12,7 @@ header:
       url: "https://portal.junkstore.xyz"
       target: "_blank"
       class: "button buy-button"
-    - label: "Watch Demo First"
+    - label: "See It In Action"
       url: "/gallery/"
       class: "button button-secondary"
 excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io games in Game Mode. 7-day free trial available"

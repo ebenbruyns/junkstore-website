@@ -12,9 +12,9 @@ header:
       url: "https://portal.junkstore.xyz/"
       target: "_blank"
       class: "button buy-button"
-    - label: "See Live Demos"
+    - label: "See It In Action"
       url: "/gallery/"
-      class: "button"
+      class: "button button-secondary"
 excerpt: "The only launcher that eliminates Desktop Mode switching entirely - discover the Game Mode-native difference"
 ---
 

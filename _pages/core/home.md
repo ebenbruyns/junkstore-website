@@ -3,13 +3,15 @@ layout: splash
 title: "Junk Store Pro - Play Non-Steam Games on Steam Deck"
 description: "The ONLY solution that eliminates Desktop Mode switching entirely. Play Epic, GOG, Amazon & itch.io (beta) games directly in Steam Deck Game Mode. 7-day trial."
 permalink: /
+classes: home
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
-    - label: "Learn More & Start Trial"
-      url: "/buy_now/"
+    - label: "Start Free Trial"
+      url: "https://portal.junkstore.xyz/"
+      target: "_blank"
       class: "button buy-button"
     - label: "See It In Action"
       url: "/gallery/"

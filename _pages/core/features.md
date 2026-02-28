@@ -3,6 +3,7 @@ layout: splash
 title: "Complete Junk Store Pro Feature List"
 description: "Complete breakdown of all Junk Store Pro features organized by category - gaming platforms, management tools, performance features, and advanced capabilities."
 permalink: /features/
+classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -12,16 +13,11 @@ header:
       url: "https://portal.junkstore.xyz/"
       target: "_blank"
       class: "button buy-button"
-    - label: "Why Choose Junk Store"
-      url: "/comparison/"
+    - label: "See It In Action"
+      url: "/gallery/"
       class: "button button-secondary"
 excerpt: "Everything included with Junk Store Pro - organized by category for easy reference"
 ---
-
-<section class="features-hero">
-  <h1>Complete Junk Store Pro Feature Breakdown</h1>
-  <p class="lead-text">Everything you get with your subscription, organized by category</p>
-</section>
 
 <section class="features-section">
   <h2>🎮 Gaming Platforms</h2>
@@ -161,12 +157,12 @@ excerpt: "Everything included with Junk Store Pro - organized by category for ea
 
 <section class="features-cta">
   <div class="cta-box">
-    <h2>Ready to Experience All These Features?</h2>
-    <p>Try everything free for 7 days. No commitment, cancel anytime.</p>
+    <h2>Ready to Try These Features?</h2>
+    <p>Start your free 7-day trial with full access to everything above.</p>
     <div class="cta-buttons">
       <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="features_page">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary large" data-event="click" data-category="engagement" data-action="view_gallery" data-label="features_page">See Live Demos</a>
     </div>
-    <p class="guarantee">Cancel anytime during trial • No commitment • Full feature access</p>
+    <p class="guarantee">No payment required • Cancel anytime • Full feature access</p>
   </div>
 </section>
