@@ -8,17 +8,13 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
-excerpt: "Fix common issues with both Junk Store versions - free Decky plugin and Pro Version"
+excerpt: "Fix common Junk Store issues - setup, installation, games, and compatibility problems solved"
 ---
 <div id="top"></div>
 
-<section class="seo-intro">
-  <p><strong>Troubleshooting guide for both Junk Store versions.</strong> Find solutions to common issues whether you're using the free Decky plugin or Junk Store Pro Version.</p>
-</section>
-
 <!-- Version Filter Section -->
 <section class="ts-welcome">
-  <h2 style="text-align: center;">Choose Your Version</h2>
+  <h2 style="text-align: center;">Filter by Version</h2>
 
   <div class="version-guide">
     <div class="version-card decky filter-card" data-filter="decky" onclick="filterTroubleshooting('decky')">
@@ -131,11 +127,38 @@ excerpt: "Fix common issues with both Junk Store versions - free Decky plugin an
    (Matches FAQ styling)
    ======================================== */
 
-/* Skinny Hero */
+/* Compact Hero */
 .layout--splash .page__hero--overlay {
-  min-height: 300px !important;
-  height: 300px !important;
-  max-height: 300px !important;
+  min-height: 200px !important;
+  max-height: 250px !important;
+  padding: 1rem !important;
+}
+
+.page__hero--overlay .page__title {
+  font-size: 1.9rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.page__hero--overlay .page__lead {
+  font-size: 1.05rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Mobile Hero */
+@media (max-width: 600px) {
+  .layout--splash .page__hero--overlay {
+    min-height: 180px !important;
+    max-height: 220px !important;
+    padding: 1.5rem 0.75rem !important;
+  }
+
+  .page__hero--overlay .page__title {
+    font-size: 1.5rem !important;
+  }
+
+  .page__hero--overlay .page__lead {
+    font-size: 0.95rem !important;
+  }
 }
 
 /* SEO Intro */
@@ -143,6 +166,14 @@ excerpt: "Fix common issues with both Junk Store versions - free Decky plugin an
   text-align: center;
   margin-bottom: 2rem;
   padding: 1rem;
+}
+
+/* Version Filter Section - no box styling */
+.ts-welcome {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Version Guide Cards */

@@ -8,17 +8,13 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
-excerpt: "Frequently asked questions for both Junk Store versions - free Decky plugin and Pro Version"
+excerpt: "Answers about Epic, GOG, Amazon & itch.io on Steam Deck"
 ---
 <div id="top"></div>
 
-<section class="seo-intro">
-  <p><strong>Complete FAQ for both Junk Store versions.</strong> Whether you're using the free Decky plugin or Junk Store Pro Version, find answers to your questions about playing Epic Games and GOG games on Steam Deck.</p>
-</section>
-
 <!-- Version Filter Section -->
 <section class="faq-welcome">
-  <h2 style="text-align: center;">Choose Your Version</h2>
+  <h2 style="text-align: center;">Filter by Version</h2>
 
   <div class="version-guide">
     <div class="version-card decky filter-card" data-filter="decky" onclick="filterFAQ('decky')">
@@ -131,18 +127,46 @@ excerpt: "Frequently asked questions for both Junk Store versions - free Decky p
    (Minimal overrides - uses global faq-box.scss)
    ======================================== */
 
-/* Skinny Hero */
+/* Compact Hero */
 .layout--splash .page__hero--overlay {
-  min-height: 300px !important;
-  height: 300px !important;
-  max-height: 300px !important;
+  min-height: 200px !important;
+  max-height: 250px !important;
+  padding: 1rem !important;
 }
 
-/* SEO Intro */
-.seo-intro {
-  text-align: center;
-  margin-bottom: 2rem;
-  padding: 1rem;
+.page__hero--overlay .page__title {
+  font-size: 1.9rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.page__hero--overlay .page__lead {
+  font-size: 1.05rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Mobile Hero */
+@media (max-width: 600px) {
+  .layout--splash .page__hero--overlay {
+    min-height: 180px !important;
+    max-height: 220px !important;
+    padding: 1.5rem 0.75rem !important;
+  }
+
+  .page__hero--overlay .page__title {
+    font-size: 1.5rem !important;
+  }
+
+  .page__hero--overlay .page__lead {
+    font-size: 0.95rem !important;
+  }
+}
+
+/* Version Filter Section - no box styling */
+.faq-welcome {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Version Guide Cards */

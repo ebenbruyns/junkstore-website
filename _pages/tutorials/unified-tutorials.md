@@ -8,16 +8,12 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.jpg
-excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.io games - both free Decky plugin and Junk Store Pro"
+excerpt: "Setup guides and tutorials for Junk Store - installation, configuration, and tips"
 ---
 
-<section class="seo-intro">
-  <p><strong>Complete tutorials for both Junk Store versions.</strong> Whether you're using the free Decky plugin or Junk Store Pro, find step-by-step guides for Junk Store features — all in Steam Deck Game Mode.</p>
-</section>
-
-<!-- Welcome Message -->
+<!-- Version Filter Section -->
 <section class="tutorials-welcome">
-  <h2 style="text-align: center;">Choose Your Version</h2>
+  <h2 style="text-align: center;">Filter by Version</h2>
 
   <div class="version-guide">
     <div class="version-card decky filter-card" data-filter="decky" onclick="filterTutorials('decky')">
@@ -25,9 +21,9 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
       <p>Game Mode plugin via Decky Loader</p>
       <small>Click to filter</small>
     </div>
-    <div class="version-card standalone filter-card" data-filter="standalone" onclick="filterTutorials('standalone')">
+    <div class="version-card pro filter-card" data-filter="pro" onclick="filterTutorials('pro')">
       <h3>Pro Version</h3>
-      <p>Full-featured standalone application</p>
+      <p>Full-featured pro application</p>
       <small>Click to filter</small>
     </div>
     <div class="version-card both filter-card" data-filter="all" onclick="filterTutorials('all')">
@@ -40,6 +36,14 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 ---
 
+<!-- Badge Legend -->
+<div class="badge-legend">
+  <span class="legend-label">Badges:</span>
+  <span class="legend-item"><span class="product-tag decky">Decky</span> Decky Plugin only</span>
+  <span class="legend-item"><span class="product-tag pro">Pro</span> Pro Version only</span>
+  <span class="legend-item"><span class="product-tag both">Universal</span> Applies to both</span>
+</div>
+
 <h2 style="text-align: center;"> Installation Guides</h2>
 
 <div class="tutorial-grid">
@@ -50,10 +54,10 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <span class="tutorial-tag decky-tag">Decky Plugin</span>
 </div>
 
-<div class="tutorial-item standalone">
+<div class="tutorial-item pro">
   <h4><a href="/tutorials/install-junk-store-2">Install Junk Store Pro</a></h4>
-  <p>Setup guide for the Professional standalone version</p>
-  <span class="tutorial-tag standalone-tag">Pro Version</span>
+  <p>Setup guide for the Professional pro version</p>
+  <span class="tutorial-tag pro-tag">Pro Version</span>
 </div>
 
 <div class="tutorial-item decky">
@@ -100,10 +104,10 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <span class="tutorial-tag both-tag">Universal</span>
 </div>
 
-<div class="tutorial-item standalone">
+<div class="tutorial-item pro">
   <h4><a href="/tutorials/change-game-language/">Change Language Settings</a></h4>
   <p>Change your Epic, GOG, or Amazon game language settings directly in Game Mode</p>
-  <span class="tutorial-tag standalone-tag">Pro Version</span>
+  <span class="tutorial-tag pro-tag">Pro Version</span>
 </div>
 
 </div>
@@ -129,11 +133,11 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <span class="tutorial-tag decky-tag">Decky Plugin</span>
 </div>
 
-<div class="tip-item standalone">
+<div class="tip-item pro">
   <h4><a href="/blog/install-dependencies-junk-store-2/">Install Game Dependencies Without ProtonTricks</a></h4>
   <p>Skip the complex ProtonTricks setup - install Visual C++, .NET Framework, and DirectX with one click</p>
   <span class="tip-tag">4 min read</span>
-  <span class="tutorial-tag standalone-tag">Pro Version</span>
+  <span class="tutorial-tag pro-tag">Pro Version</span>
 </div>
 
 <div class="tip-item both">
@@ -212,11 +216,38 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 
 
 <style>
-/* Skinny Hero */
+/* Compact Hero */
 .layout--splash .page__hero--overlay {
-  min-height: 300px !important;
-  height: 300px !important;
-  max-height: 300px !important;
+  min-height: 200px !important;
+  max-height: 250px !important;
+  padding: 1rem !important;
+}
+
+.page__hero--overlay .page__title {
+  font-size: 1.9rem !important;
+  margin-bottom: 0.4rem !important;
+}
+
+.page__hero--overlay .page__lead {
+  font-size: 1.05rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Mobile Hero */
+@media (max-width: 600px) {
+  .layout--splash .page__hero--overlay {
+    min-height: 180px !important;
+    max-height: 220px !important;
+    padding: 1.5rem 0.75rem !important;
+  }
+
+  .page__hero--overlay .page__title {
+    font-size: 1.5rem !important;
+  }
+
+  .page__hero--overlay .page__lead {
+    font-size: 0.95rem !important;
+  }
 }
 
 /* Tutorial Grid Layout */
@@ -243,6 +274,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   transition: all 0.3s ease;
   position: relative;
   cursor: pointer;
+  overflow: visible; /* Allow badge to overlap edge */
 }
 
 .tutorial-item:hover {
@@ -265,34 +297,40 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 }
 
 .tutorial-item p {
-  margin-bottom: 15px;
+  margin-bottom: 0;
   color: #ccc;
 }
 
-/* Tutorial Tags */
+/* Tutorial Tags - Top Right, overlapping corner */
 .tutorial-tag {
-  display: inline-block;
-  padding: 4px 8px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  padding: 4px 10px;
   border-radius: 4px;
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight: bold;
   text-transform: uppercase;
-}
-
-.decky-tag {
-  background: #2196f3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background: #4caf50; /* Default fallback */
   color: white;
 }
 
-.standalone-tag {
-  background: #e67300;
-  color: white;
+.tutorial-tag.decky-tag {
+  background: #2196f3 !important;
+  color: white !important;
 }
 
-.both-tag {
-  background: #4caf50;
-  color: white;
+.tutorial-tag.pro-tag {
+  background: #e67300 !important;
+  color: white !important;
 }
+
+.tutorial-tag.both-tag {
+  background: #4caf50 !important;
+  color: white !important;
+}
+
 
 /* Tips Items */
 .tip-item {
@@ -332,7 +370,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   font-size: 0.95em;
 }
 
-/* Tip Tags */
+/* Tip Tags - inline at bottom */
 .tip-tag {
   display: inline-block;
   padding: 3px 8px;
@@ -342,6 +380,79 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   background: rgba(255, 215, 0, 0.15);
   color: #ffd700;
   border: 1px solid rgba(255, 215, 0, 0.3);
+  margin-right: 8px;
+}
+
+/* Version badge in tip items - inline at bottom */
+.tip-item .tutorial-tag {
+  position: static;
+  display: inline-block;
+}
+
+/* Version Filter Section - no box styling */
+.tutorials-welcome {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Badge Legend */
+.badge-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px 20px;
+  margin: 1rem auto 1.5rem auto;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #aaa;
+  max-width: 800px;
+}
+
+.badge-legend .legend-label {
+  font-weight: 600;
+  color: #ccc;
+}
+
+.badge-legend .legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.badge-legend .product-tag {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.badge-legend .product-tag.decky {
+  background: #2196F3;
+  color: #fff;
+}
+
+.badge-legend .product-tag.pro {
+  background: #e67300;
+  color: #fff;
+}
+
+.badge-legend .product-tag.both {
+  background: #4caf50;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .badge-legend {
+    flex-direction: column;
+    gap: 8px;
+    text-align: left;
+    align-items: flex-start;
+  }
 }
 
 /* Version Guide Cards */
@@ -357,6 +468,13 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   padding: 15px;
   border-radius: 8px;
   border: 2px solid;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.version-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .version-card.decky {
@@ -364,7 +482,7 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   background: rgba(33, 150, 243, 0.1);
 }
 
-.version-card.standalone {
+.version-card.pro {
   border-color: #e67300;
   background: rgba(230, 115, 0, 0.1);
 }
@@ -383,6 +501,13 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   margin: 0;
   font-size: 0.9em;
   color: #ccc;
+}
+
+.version-card small {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.75em;
+  opacity: 0.7;
 }
 
 /* Community Buttons */
@@ -418,28 +543,22 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   opacity: 0.9;
 }
 
-/* Filter Cards */
-.filter-card {
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.filter-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(156, 39, 176, 0.3);
-}
-
+/* Filter Cards - Active State */
 .filter-card.active {
   border-width: 3px;
-  background: rgba(156, 39, 176, 0.15);
-  border-color: #9c27b0;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
-.filter-card small {
-  display: block;
-  margin-top: 5px;
-  font-size: 0.75em;
-  opacity: 0.7;
+.version-card.decky.active {
+  background: rgba(33, 150, 243, 0.25);
+}
+
+.version-card.pro.active {
+  background: rgba(230, 115, 0, 0.25);
+}
+
+.version-card.both.active {
+  background: rgba(76, 175, 80, 0.25);
 }
 
 /* Hidden tutorial items */
@@ -465,14 +584,14 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 }
 
 .help-section:hover {
-  border-color: #e67300;
+  border-color: #007acc;
   transform: translateY(-2px);
 }
 
 .help-section h3 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #e67300;
+  color: #66bfff;
   font-size: 1.2em;
 }
 
@@ -493,8 +612,8 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 }
 
 .help-link:hover {
-  background: rgba(230, 115, 0, 0.1);
-  border-color: #e67300;
+  background: rgba(0, 122, 204, 0.1);
+  border-color: #007acc;
   transform: translateX(5px);
 }
 
@@ -561,7 +680,7 @@ function filterTutorials(filterType) {
 
   tutorialItems.forEach(item => {
     const isDecky = item.classList.contains('decky');
-    const isStandalone = item.classList.contains('standalone');
+    const isPro = item.classList.contains('pro');
     const isBoth = item.classList.contains('both');
 
     let shouldShow = false;
@@ -570,8 +689,8 @@ function filterTutorials(filterType) {
       shouldShow = true;
     } else if (filterType === 'decky') {
       shouldShow = isDecky || isBoth;
-    } else if (filterType === 'standalone') {
-      shouldShow = isStandalone || isBoth;
+    } else if (filterType === 'pro') {
+      shouldShow = isPro || isBoth;
     }
 
     if (shouldShow) {
@@ -590,9 +709,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (filter === 'decky') {
     filterTutorials('decky');
-  } else if (filter === 'pro' || filter === 'standalone') {
-    // Map 'pro' from help page to 'standalone' used here
-    filterTutorials('standalone');
+  } else if (filter === 'pro') {
+    filterTutorials('pro');
   } else {
     // Set "Show All" as active by default
     document.querySelector('[data-filter="all"]').classList.add('active');
