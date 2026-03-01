@@ -10,8 +10,7 @@ header:
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
     - label: "Start Free Trial"
-      url: "https://portal.junkstore.xyz/"
-      target: "_blank"
+      url: "/portal-redirect/"
       class: "button buy-button"
     - label: "See It In Action"
       url: "/gallery/"
@@ -160,7 +159,7 @@ excerpt: "Everything included with Junk Store Pro - organized by category for ea
     <h2>Ready to Try These Features?</h2>
     <p>Start your free 7-day trial with full access to everything above.</p>
     <div class="cta-buttons">
-      <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="features_page">Start Free Trial</a>
+      <a href="/portal-redirect/" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="features_page">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary large" data-event="click" data-category="engagement" data-action="view_gallery" data-label="features_page">See Live Demos</a>
     </div>
     <p class="guarantee">No payment required • Cancel anytime • Full feature access</p>

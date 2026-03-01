@@ -9,8 +9,7 @@ header:
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
     - label: "Start Free Trial"
-      url: "https://portal.junkstore.xyz/"
-      target: "_blank"
+      url: "/portal-redirect/"
       class: "button buy-button"
     - label: "See It In Action"
       url: "/gallery/"
@@ -74,7 +73,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
     <h3>Test Everything Free for <span data-pricing="trial-days">7</span> Days</h3>
     <p>Try all premium features with your actual game library. Cancel anytime if it's not worth the upgrade.</p>
     <div class="cta-buttons">
-      <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="button buy-button large" data-pricing="portal-url">Start Free Trial</a>
+      <a href="/portal-redirect/" rel="noopener" class="button buy-button large" data-pricing="portal-url">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary">Watch Demos First</a>
     </div>
   </div>
@@ -320,7 +319,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
     <h2>Ready to Upgrade Your Game Mode Experience?</h2>
     <p>Join users who have upgraded from the free plugin to the premium platform.</p>
     <div class="cta-buttons">
-      <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="upgrade_page_bottom">Start Free Trial</a>
+      <a href="/portal-redirect/" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="upgrade_page_bottom">Start Free Trial</a>
       <a href="/gallery/" class="button large" data-event="click" data-category="engagement" data-action="view_gallery" data-label="upgrade_page_bottom">See Live Demos First</a>
     </div>
     <p class="guarantee">Cancel anytime during trial • No commitment • Full feature access</p>

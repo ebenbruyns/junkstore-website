@@ -9,8 +9,7 @@ header:
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
     - label: "Start Free Trial"
-      url: "https://portal.junkstore.xyz"
-      target: "_blank"
+      url: "/portal-redirect/"
       class: "button buy-button"
     - label: "See It In Action"
       url: "/gallery/"
@@ -42,7 +41,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
   <div class="progressive-cta">
     <p class="cta-prompt">Ready to get started, or need more details?</p>
     <div class="cta-buttons">
-      <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_visual_proof">Start Free Trial</a>
+      <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_visual_proof">Start Free Trial</a>
       <a href="/comparison/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_comparison" data-label="buy_now_visual_proof">Compare Features</a>
     </div>
   </div>
@@ -67,7 +66,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 <div class="progressive-cta testimonial-cta">
   <p class="cta-prompt">Stop wasting precious gaming time on setup — start playing in minutes, not hours</p>
   <div class="cta-buttons">
-    <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_testimonials">Start Your Free Trial</a>
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_testimonials">Start Your Free Trial</a>
     <a href="/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_more_demos" data-label="buy_now_testimonials">See More Demos</a>
   </div>
 </div>
@@ -133,7 +132,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
       <div style="font-size: 0.9rem; opacity: 0.8;" data-pricing="coupon-desc"></div>
     </div>
     <div class="pricing-cta">
-      <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-pricing="portal-url" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Start Free Trial</a>
+      <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-pricing="portal-url" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Start Free Trial</a>
     </div>
   </div>
 </section>

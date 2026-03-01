@@ -9,8 +9,7 @@ header:
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
     - label: "Start Free Trial"
-      url: "https://portal.junkstore.xyz/"
-      target: "_blank"
+      url: "/portal-redirect/"
       class: "button buy-button"
     - label: "See It In Action"
       url: "/gallery/"
@@ -80,7 +79,7 @@ excerpt: "The only launcher that eliminates Desktop Mode switching entirely - di
     <h3>Ready to Experience the Difference?</h3>
     <p>Try all these benefits free for <span data-pricing="trial-days">7</span> days. No commitment, cancel anytime.</p>
     <div class="cta-buttons">
-      <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="button buy-button large">Start Free Trial</a>
+      <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary">Watch Demos First</a>
       <a href="/features/" class="button button-secondary">View Complete Feature List</a>
     </div>
@@ -128,7 +127,7 @@ excerpt: "The only launcher that eliminates Desktop Mode switching entirely - di
     <h2>Ready to Stop Comparing and Start Playing?</h2>
     <p>Join the users who stopped settling for "free but frustrating" and upgraded to "just works."</p>
     <div class="cta-buttons">
-      <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="comparison_page_bottom">Start Free Trial</a>
+      <a href="/portal-redirect/" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="comparison_page_bottom">Start Free Trial</a>
       <a href="/gallery/" class="button large" data-event="click" data-category="engagement" data-action="view_gallery" data-label="comparison_page_bottom">See Live Demos First</a>
     </div>
     <p class="guarantee">Cancel anytime during trial • No commitment • Full feature access</p>

@@ -10,8 +10,7 @@ header:
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
     - label: "Start Free Trial"
-      url: "https://portal.junkstore.xyz/"
-      target: "_blank"
+      url: "/portal-redirect/"
       class: "button buy-button"
     - label: "See It In Action"
       url: "/gallery/"
@@ -104,7 +103,7 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
       <span class="promo-code" data-pricing="coupon-code"></span> <span data-pricing="coupon-discount"></span>
     </div>
     <div class="pricing-cta">
-      <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-pricing="portal-url" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>
+      <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-pricing="portal-url" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>
       <a href="/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_gallery" data-label="homepage_pricing">See It In Action</a>
       <a href="/comparison/" class="button button-secondary button-wide" data-event="click" data-category="engagement" data-action="view_comparison" data-label="homepage_pricing">Why Choose Junk Store</a>
     </div>

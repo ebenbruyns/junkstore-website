@@ -9,8 +9,7 @@ header:
   overlay_image: /assets/images/website_image_compressed.webp
   actions:
     - label: "Start Free Trial"
-      url: "https://portal.junkstore.xyz"
-      target: "_blank"
+      url: "/portal-redirect/"
       class: "button buy-button"
 excerpt: "See Epic, GOG, Amazon & itch.io games running seamlessly in Steam Deck Game Mode - GIFs, videos, and live demos"
 classes: wide
