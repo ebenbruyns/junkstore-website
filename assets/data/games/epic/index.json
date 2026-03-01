@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 453,
+  "total_games": 454,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -261,6 +261,7 @@
     "mortal-shell-tech-beta.json",
     "mortal-shell.json",
     "moving-out.json",
+    "my-night-job.json",
     "necromunda-hired-gun.json",
     "neko-ghost-jump.json",
     "new-tales-from-the-borderlands.json",
@@ -457,19 +458,19 @@
     "zombie-army-4-dead-war.json"
   ],
   "featured_games": 2,
-  "last_updated": "2026-02-26T03:04:33.180Z",
+  "last_updated": "2026-03-01T01:36:07.392Z",
   "latest_games": [
     {
-      "title": "Stalcraft: X",
-      "slug": "stalcraft-x",
+      "title": "Death's Gambit: Afterlife",
+      "slug": "deaths-gambit-afterlife",
       "date_tested": "Feb '26",
-      "is_featured": true
+      "is_featured": false
     },
     {
-      "title": "Return to Ash",
-      "slug": "return-to-ash",
-      "date_tested": "Feb '26",
-      "is_featured": true
+      "title": "Overcooked!",
+      "slug": "overcooked",
+      "date_tested": "May '24",
+      "is_featured": false
     },
     {
       "title": "Rogue Legacy 2",
@@ -478,9 +479,27 @@
       "is_featured": false
     },
     {
-      "title": "Overcooked!",
-      "slug": "overcooked",
-      "date_tested": "May '24",
+      "title": "Boxes: Lost Fragments",
+      "slug": "boxes-lost-fragments",
+      "date_tested": "Feb '26",
+      "is_featured": true
+    },
+    {
+      "title": "My Night Job",
+      "slug": "my-night-job",
+      "date_tested": "Feb '26",
+      "is_featured": true
+    },
+    {
+      "title": "Return to Ash",
+      "slug": "return-to-ash",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Stalcraft: X",
+      "slug": "stalcraft-x",
+      "date_tested": "Feb '26",
       "is_featured": false
     },
     {
@@ -499,24 +518,6 @@
       "title": "Hexguardian",
       "slug": "hexguardian",
       "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "Skybound: Only Up",
-      "slug": "skybound-only-up",
-      "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "Golden Light",
-      "slug": "golden-light",
-      "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "F.I.S.T.: Forged In Shadow Torch",
-      "slug": "fist-forged-in-shadow-torch",
-      "date_tested": "July '24",
       "is_featured": false
     }
   ]

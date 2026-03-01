@@ -1,24 +1,24 @@
 {
-  "total_games": 956,
-  "featured_games": 4,
+  "total_games": 958,
+  "featured_games": 3,
   "storefronts": {
     "Epic": {
-      "total": 453,
+      "total": 454,
       "featured": 2,
-      "green_decky": 369,
-      "green_standalone": 351
+      "green_decky": 370,
+      "green_standalone": 352
     },
     "GOG": {
       "total": 364,
-      "featured": 2,
+      "featured": 0,
       "green_decky": 327,
       "green_standalone": 280
     },
     "Amazon": {
-      "total": 71,
-      "featured": 0,
+      "total": 72,
+      "featured": 1,
       "green_decky": 0,
-      "green_standalone": 67
+      "green_standalone": 68
     },
     "itch.io": {
       "total": 68,
@@ -28,11 +28,11 @@
     }
   },
   "ratings_summary": {
-    "green_decky": 696,
-    "green_standalone": 766,
-    "both_green": 593
+    "green_decky": 697,
+    "green_standalone": 768,
+    "both_green": 594
   },
-  "last_updated": "2026-02-26T03:04:33.188Z",
+  "last_updated": "2026-03-01T01:36:07.403Z",
   "games": [
     {
       "id": "aa1a2fc7-85e0-4dc6-a4bf-dd908fe161b8",
@@ -1078,12 +1078,12 @@
       "slug": "boxes-lost-fragments",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "July '25",
-      "is_featured": false,
+      "date_tested": "Feb '26",
+      "is_featured": true,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/2019810",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "2019810"
@@ -1741,14 +1741,14 @@
       "slug": "deaths-gambit-afterlife",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "Aug '24' ",
+      "date_tested": "Feb '26",
       "is_featured": false,
-      "blog_category": "",
+      "blog_category": "retest",
       "protondb": "https://www.protondb.com/app/356650",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/deaths-gambit-afterlife-b5f411",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Death%27s_Gambit",
       "steamId": "356650"
     },
     {
@@ -6197,7 +6197,7 @@
       "standalone_rating": "green",
       "date_tested": "Feb '26",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/493540",
       "gog_url": "https://www.gog.com/en/game/figment",
       "epic_url": "",
@@ -6214,7 +6214,7 @@
       "standalone_rating": "green",
       "date_tested": "Feb '26",
       "is_featured": false,
-      "blog_category": "retest",
+      "blog_category": "",
       "protondb": "https://www.protondb.com/app/2022780",
       "gog_url": "https://www.gog.com/en/game/flashout_3d_enhanced_edition",
       "epic_url": "",
@@ -6229,14 +6229,14 @@
       "slug": "forager",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "Aug '24",
+      "date_tested": "Feb '26",
       "is_featured": false,
-      "blog_category": "",
+      "blog_category": "retest",
       "protondb": "https://www.protondb.com/app/751780",
       "gog_url": "https://www.gog.com/en/game/forager",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Forager",
       "steamId": "751780"
     },
     {
@@ -6416,14 +6416,14 @@
       "slug": "hard-west-2",
       "decky_rating": "green",
       "standalone_rating": "green",
-      "date_tested": "Aug '24",
+      "date_tested": "Feb '26",
       "is_featured": false,
-      "blog_category": "",
+      "blog_category": "retest",
       "protondb": "https://www.protondb.com/app/1282410",
       "gog_url": "https://www.gog.com/en/game/hard_west_2",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Hard_West_2",
       "steamId": "1282410"
     },
     {
@@ -16226,7 +16226,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '26",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/3445830",
       "gog_url": "",
@@ -16243,7 +16243,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '26",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1818450",
       "gog_url": "",
@@ -16260,7 +16260,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '26",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/949200",
       "gog_url": "https://www.gog.com/en/game/ambition_a_minuet_in_power",
@@ -16277,7 +16277,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '26",
-      "is_featured": true,
+      "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/3040220",
       "gog_url": "https://www.gog.com/en/game/captain_blood",
@@ -16285,6 +16285,40 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Captain_Blood",
       "steamId": "3040220"
+    },
+    {
+      "id": "3fb6750e-52d3-423c-b7d9-d602f3b23697",
+      "title": "My Night Job",
+      "storefront": "Epic",
+      "slug": "my-night-job",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/437100",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/my-night-job-a416a6",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/My_Night_Job",
+      "steamId": "437100"
+    },
+    {
+      "id": "98d7789d-70f0-484b-9fed-dffbd7645aa7",
+      "title": "Tavern Talk",
+      "storefront": "Amazon",
+      "slug": "tavern-talk",
+      "decky_rating": "not-supported",
+      "standalone_rating": "green",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/2076140",
+      "gog_url": "",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041",
+      "steamId": "2076140"
     }
   ]
 }
