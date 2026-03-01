@@ -1,173 +1,156 @@
 ---
 layout: splash
-title: "Taking You to the Portal"
+title: "Taking You to the Junk Store Portal"
 description: "You're about to access the Junk Store Portal to start your free trial."
 permalink: /portal-redirect/
 header:
   overlay_color: "#000"
   overlay_filter: "0.7"
   overlay_image: /assets/images/website_image_compressed.webp
+  actions:
+    - label: "Continue to Portal"
+      url: "https://portal.junkstore.xyz"
+      class: "button buy-button"
+      id: "continueBtn"
+excerpt: "You'll be redirected automatically, or click Continue to go now"
 sitemap: false
 ---
 
 <div class="interstitial-container">
-  <h1>Taking you to the Junk Store Portal...</h1>
 
-  <div class="steps-container">
-    <div class="step">
-      <div class="step-icon">1</div>
-      <div class="step-text">
-        <strong>Create your account</strong>
-        <span>Quick signup with email</span>
-      </div>
-    </div>
-
-    <div class="step">
-      <div class="step-icon">2</div>
-      <div class="step-text">
-        <strong>Download the app</strong>
-        <span>Get Junk Store Pro for Steam Deck</span>
-      </div>
-    </div>
-
-    <div class="step">
-      <div class="step-icon">3</div>
-      <div class="step-text">
-        <strong>Start playing</strong>
-        <span>Your games in Game Mode in minutes</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="redirect-section">
-    <p class="countdown-text">Redirecting in <span id="countdown">5</span> seconds...</p>
-
-    <a href="https://portal.junkstore.xyz" id="continueBtn" class="button buy-button large">Continue to Portal</a>
-
+  <div class="skip-section">
+    <span class="countdown-text">Redirecting in <span id="countdown">5</span> seconds...</span>
     <label class="skip-checkbox">
       <input type="checkbox" id="skipNextTime">
       Don't show this again
     </label>
   </div>
+
+  <p class="steps-intro">What happens next:</p>
+
+  <div class="steps-container">
+    <div class="step">
+      <div class="step-icon">1</div>
+      <div class="step-label">Create account</div>
+    </div>
+    <div class="step-arrow">→</div>
+    <div class="step">
+      <div class="step-icon">2</div>
+      <div class="step-label">Download app</div>
+    </div>
+    <div class="step-arrow">→</div>
+    <div class="step">
+      <div class="step-icon">3</div>
+      <div class="step-label">Start playing</div>
+    </div>
+  </div>
+
 </div>
 
 <style>
 .interstitial-container {
   max-width: 600px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 1rem;
   text-align: center;
-}
-
-.interstitial-container h1 {
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-  color: #fff;
 }
 
 .steps-container {
   display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  margin-bottom: 2.5rem;
-  text-align: left;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
 }
 
 .step {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
-  padding: 1rem 1.25rem;
+  gap: 0.5rem;
+  text-align: center;
 }
 
 .step-icon {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   background: #28a745;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.step-label {
+  color: #ccc;
+  font-size: 0.85rem;
+}
+
+.step-arrow {
+  color: #666;
   font-size: 1.25rem;
-  color: #fff;
-  flex-shrink: 0;
+  margin: 0 0.25rem;
 }
 
-.step-text {
+.skip-section {
   display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.step-text strong {
-  color: #fff;
-  font-size: 1.1rem;
-}
-
-.step-text span {
-  color: #aaa;
-  font-size: 0.9rem;
-}
-
-.redirect-section {
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
 }
 
 .countdown-text {
   color: #66bfff;
-  font-size: 1.1rem;
-  margin: 0;
+  font-size: 1rem;
 }
 
 #countdown {
   font-weight: bold;
-  font-size: 1.3rem;
-}
-
-.button.large {
-  padding: 1rem 2.5rem;
-  font-size: 1.1rem;
 }
 
 .skip-checkbox {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.4rem;
   color: #888;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   cursor: pointer;
-  margin-top: 0.5rem;
 }
 
 .skip-checkbox input {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   cursor: pointer;
 }
 
-@media (max-width: 480px) {
-  .interstitial-container h1 {
-    font-size: 1.4rem;
-  }
+.steps-intro {
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
 
-  .step {
-    padding: 0.875rem 1rem;
+@media (max-width: 480px) {
+  .steps-container {
+    gap: 0.5rem;
   }
 
   .step-icon {
-    width: 36px;
-    height: 36px;
-    font-size: 1.1rem;
+    width: 32px;
+    height: 32px;
+    font-size: 0.9rem;
   }
 
-  .step-text strong {
+  .step-label {
+    font-size: 0.75rem;
+  }
+
+  .step-arrow {
     font-size: 1rem;
   }
 }
@@ -186,8 +169,8 @@ sitemap: false
 
   // Countdown logic
   let seconds = 5;
-  const countdownEl = document.getElementById('countdown');
-  const continueBtn = document.getElementById('continueBtn');
+  const countdownEl = document.querySelector('#countdown');
+  const continueBtn = document.querySelector('.page__hero-actions .button');
   const skipCheckbox = document.getElementById('skipNextTime');
 
   const timer = setInterval(function() {
@@ -202,7 +185,7 @@ sitemap: false
     }
   }, 1000);
 
-  // Continue button click
+  // Continue button click (hero button)
   if (continueBtn) {
     continueBtn.addEventListener('click', function(e) {
       e.preventDefault();
