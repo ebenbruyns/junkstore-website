@@ -1,21 +1,21 @@
 {
-  "last_updated": "2026-02-26T03:04:33.197Z",
-  "total_tested_games": 956,
-  "featured_games": 4,
+  "last_updated": "2026-03-01T01:36:07.416Z",
+  "total_tested_games": 958,
+  "featured_games": 3,
   "storefronts": {
     "Epic": {
-      "total": 453,
+      "total": 454,
       "featured": 2,
       "directory": "epic"
     },
     "GOG": {
       "total": 364,
-      "featured": 2,
+      "featured": 0,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 71,
-      "featured": 0,
+      "total": 72,
+      "featured": 1,
       "directory": "amazon"
     },
     "itch.io": {
@@ -26,60 +26,28 @@
   },
   "recent_updates": [
     {
-      "title": "Flashout 3D: Enhanced Edition",
+      "title": "Hard West 2",
       "storefront": "GOG",
-      "slug": "flashout-3d-enhanced-edition",
+      "slug": "hard-west-2",
       "date_tested": "Feb '26",
       "is_featured": false,
-      "updated_at": "2026-02-22T07:18:48.954Z"
+      "updated_at": "2026-02-28T04:21:57.363Z"
     },
     {
-      "title": "Figment",
+      "title": "Forager",
       "storefront": "GOG",
-      "slug": "figment",
+      "slug": "forager",
       "date_tested": "Feb '26",
       "is_featured": false,
-      "updated_at": "2026-02-22T07:18:33.610Z"
+      "updated_at": "2026-02-28T00:30:03.443Z"
     },
     {
-      "title": "Stalcraft: X",
+      "title": "Death's Gambit: Afterlife",
       "storefront": "Epic",
-      "slug": "stalcraft-x",
+      "slug": "deaths-gambit-afterlife",
       "date_tested": "Feb '26",
-      "is_featured": true,
-      "updated_at": "2026-02-22T07:15:40.414Z"
-    },
-    {
-      "title": "Ambition: A Minuet in Power",
-      "storefront": "GOG",
-      "slug": "ambition-a-minuet-in-power",
-      "date_tested": "Feb '26",
-      "is_featured": true,
-      "updated_at": "2026-02-22T04:26:40.078Z"
-    },
-    {
-      "title": "Captain Blood",
-      "storefront": "GOG",
-      "slug": "captain-blood",
-      "date_tested": "Feb '26",
-      "is_featured": true,
-      "updated_at": "2026-02-22T04:13:32.587Z"
-    },
-    {
-      "title": "Return to Ash",
-      "storefront": "Epic",
-      "slug": "return-to-ash",
-      "date_tested": "Feb '26",
-      "is_featured": true,
-      "updated_at": "2026-02-22T03:39:54.877Z"
-    },
-    {
-      "title": "Rogue Legacy 2",
-      "storefront": "Epic",
-      "slug": "rogue-legacy-2",
-      "date_tested": "May '24",
       "is_featured": false,
-      "updated_at": "2026-02-22T00:51:50.135Z"
+      "updated_at": "2026-02-28T00:25:47.378Z"
     },
     {
       "title": "Overcooked!",
@@ -87,7 +55,87 @@
       "slug": "overcooked",
       "date_tested": "May '24",
       "is_featured": false,
-      "updated_at": "2026-02-22T00:51:47.910Z"
+      "updated_at": "2026-02-27T23:45:57.916Z"
+    },
+    {
+      "title": "Rogue Legacy 2",
+      "storefront": "Epic",
+      "slug": "rogue-legacy-2",
+      "date_tested": "May '24",
+      "is_featured": false,
+      "updated_at": "2026-02-27T23:45:54.152Z"
+    },
+    {
+      "title": "Boxes: Lost Fragments",
+      "storefront": "Epic",
+      "slug": "boxes-lost-fragments",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-27T23:30:31.546Z"
+    },
+    {
+      "title": "My Night Job",
+      "storefront": "Epic",
+      "slug": "my-night-job",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-27T23:16:49.948Z"
+    },
+    {
+      "title": "Tavern Talk",
+      "storefront": "Amazon",
+      "slug": "tavern-talk",
+      "date_tested": "Feb '26",
+      "is_featured": true,
+      "updated_at": "2026-02-27T00:53:49.619Z"
+    },
+    {
+      "title": "Figment",
+      "storefront": "GOG",
+      "slug": "figment",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-26T20:20:29.834Z"
+    },
+    {
+      "title": "Flashout 3D: Enhanced Edition",
+      "storefront": "GOG",
+      "slug": "flashout-3d-enhanced-edition",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-26T20:20:29.834Z"
+    },
+    {
+      "title": "Return to Ash",
+      "storefront": "Epic",
+      "slug": "return-to-ash",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-26T20:20:19.616Z"
+    },
+    {
+      "title": "Stalcraft: X",
+      "storefront": "Epic",
+      "slug": "stalcraft-x",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-26T20:20:17.001Z"
+    },
+    {
+      "title": "Captain Blood",
+      "storefront": "GOG",
+      "slug": "captain-blood",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-26T20:20:14.353Z"
+    },
+    {
+      "title": "Ambition: A Minuet in Power",
+      "storefront": "GOG",
+      "slug": "ambition-a-minuet-in-power",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-02-26T20:20:10.341Z"
     },
     {
       "title": "The Darkside Detective: A Fumble in the Dark",
@@ -136,54 +184,6 @@
       "date_tested": "Feb '26",
       "is_featured": false,
       "updated_at": "2026-02-17T04:03:19.432Z"
-    },
-    {
-      "title": "Golden Light",
-      "storefront": "Epic",
-      "slug": "golden-light",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-17T04:03:19.431Z"
-    },
-    {
-      "title": "Endless Sky",
-      "storefront": "GOG",
-      "slug": "endless-sky",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-17T04:03:05.546Z"
-    },
-    {
-      "title": "Eschalon: Book I",
-      "storefront": "GOG",
-      "slug": "eschalon-book-i",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-17T04:03:05.546Z"
-    },
-    {
-      "title": "10S",
-      "storefront": "itch.io",
-      "slug": "10s",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2026-02-16T21:25:09.499Z"
-    },
-    {
-      "title": "10 Flights of Ballooning",
-      "storefront": "itch.io",
-      "slug": "10-flights-of-ballooning",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2026-02-16T21:23:57.196Z"
-    },
-    {
-      "title": "F.I.S.T.: Forged In Shadow Torch",
-      "storefront": "Epic",
-      "slug": "fist-forged-in-shadow-torch",
-      "date_tested": "July '24",
-      "is_featured": false,
-      "updated_at": "2026-02-15T21:39:31.588Z"
     }
   ]
 }
