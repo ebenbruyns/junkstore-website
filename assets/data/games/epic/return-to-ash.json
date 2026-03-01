@@ -40,7 +40,7 @@
   "size": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/3445830/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/3445830/library_hero.jpg",
-  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/3445830/capsule_231x87.jpg",
+  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/3445830/header.jpg",
   "steamId": "3445830",
   "game_modes": [
     "Single-player"
@@ -53,8 +53,8 @@
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "blog_category": "",
   "created_at": "2026-02-19T22:53:40.587Z",
-  "updated_at": "2026-02-22T03:39:54.877Z"
+  "updated_at": "2026-02-26T20:20:19.616Z"
 }

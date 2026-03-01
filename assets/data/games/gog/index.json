@@ -367,12 +367,18 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2026-02-26T03:04:33.184Z",
+  "featured_games": 0,
+  "last_updated": "2026-03-01T01:36:07.397Z",
   "latest_games": [
     {
-      "title": "Flashout 3D: Enhanced Edition",
-      "slug": "flashout-3d-enhanced-edition",
+      "title": "Hard West 2",
+      "slug": "hard-west-2",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Forager",
+      "slug": "forager",
       "date_tested": "Feb '26",
       "is_featured": false
     },
@@ -383,16 +389,22 @@
       "is_featured": false
     },
     {
-      "title": "Ambition: A Minuet in Power",
-      "slug": "ambition-a-minuet-in-power",
+      "title": "Flashout 3D: Enhanced Edition",
+      "slug": "flashout-3d-enhanced-edition",
       "date_tested": "Feb '26",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "Captain Blood",
       "slug": "captain-blood",
       "date_tested": "Feb '26",
-      "is_featured": true
+      "is_featured": false
+    },
+    {
+      "title": "Ambition: A Minuet in Power",
+      "slug": "ambition-a-minuet-in-power",
+      "date_tested": "Feb '26",
+      "is_featured": false
     },
     {
       "title": "JDM: Rise of the Scorpion",
@@ -416,18 +428,6 @@
       "title": "Eschalon: Book I",
       "slug": "eschalon-book-i",
       "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "Gunslugs 3: Rogue Tactics",
-      "slug": "gunslugs-3-rogue-tactics",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Doom",
-      "slug": "doom",
-      "date_tested": "April '25",
       "is_featured": false
     }
   ]
