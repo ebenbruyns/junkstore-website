@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Junk Store Tested - March 01, 2026"
+title: "Junk Store Tested - March 02, 2026"
 date: 2026-03-02 10:45:00 +1300
 categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck, epic-games, gog, amazon-games]
@@ -79,7 +79,7 @@ This week featuring Boxes: Lost Fragments, My Night Job.
 
 ### Amazon Luna Giveaways
 
-This week featuring Tavern Talk.
+This week featuring Tavern Talk. I also had a go at Total War: ATTILA and Rebel Galaxy Outlaw, but ran into some issues getting them running via Junk Store. Still working on figuring those out!
 
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2076140/library_600x900.jpg" alt="Tavern Talk" class="game-thumbnail">
