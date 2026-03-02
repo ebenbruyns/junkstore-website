@@ -8,11 +8,9 @@ main:
     url: /tested-games/
   - title: "What's New"
     url: /blog/
-  - title: "Buy Now"
-    url: /buy_now/
-  - title: "Portal"
-    url: https://portal.junkstore.xyz/
   - title: "Gallery"
     url: /gallery/
   - title: "About"
     url: /about/
+  - title: "Buy Now"
+    url: /buy_now/
