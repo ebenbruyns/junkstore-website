@@ -1,15 +1,13 @@
 # main navigation
 main:
+  - title: "Features"
+    url: /features/
   - title: "Help"
     url: /help/
-  - title: "Compare Versions"
-    url: /comparison/
   - title: "Tested Games"
     url: /tested-games/
   - title: "What's New"
     url: /blog/
-  - title: "Gallery"
-    url: /gallery/
   - title: "About"
     url: /about/
   - title: "Buy Now"
