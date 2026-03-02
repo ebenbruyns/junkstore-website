@@ -1,0 +1,206 @@
+{
+  "features": [
+    {
+      "id": "install-game",
+      "title": "Install a Game",
+      "searchTerms": ["install", "download", "add game", "get game", "install new game"],
+      "category": "getting-started",
+      "description": "Browse your Epic, GOG, Amazon, or itch.io library and click Install on any game. Downloads start automatically and games appear in your Steam library.",
+      "screenshot": "library-view.jpg",
+      "tutorialLink": "/tutorials/",
+      "faqLink": "/2.0faq/#how-to-install-games",
+      "hotspot": {
+        "image": "library-view.jpg",
+        "x": 120,
+        "y": 450,
+        "width": 200,
+        "height": 60
+      }
+    },
+    {
+      "id": "change-proton",
+      "title": "Change Proton Version",
+      "searchTerms": ["proton", "compatibility", "change proton", "proton version", "wine", "compatibility layer"],
+      "category": "compatibility",
+      "description": "Open any game's details page, navigate to Compatibility settings, and select a different Proton version. Useful for fixing game-specific issues.",
+      "screenshot": "game-details-compatibility.jpg",
+      "tutorialLink": "/tutorials/proton-versions/",
+      "faqLink": "/2.0faq/#change-proton-version",
+      "hotspot": {
+        "image": "game-details.jpg",
+        "x": 350,
+        "y": 280,
+        "width": 180,
+        "height": 50
+      }
+    },
+    {
+      "id": "download-queue",
+      "title": "Manage Download Queue",
+      "searchTerms": ["downloads", "download queue", "pause download", "resume download", "cancel download", "download manager"],
+      "category": "downloads",
+      "description": "Access the download queue from the main menu. Pause, resume, reorder, or cancel downloads. Multiple games can download simultaneously.",
+      "screenshot": "download-queue.jpg",
+      "tutorialLink": "/gallery/",
+      "faqLink": "/2.0faq/#download-queue",
+      "hotspot": {
+        "image": "main-menu.jpg",
+        "x": 50,
+        "y": 100,
+        "width": 150,
+        "height": 45
+      }
+    },
+    {
+      "id": "install-dependencies",
+      "title": "Install Game Dependencies",
+      "searchTerms": ["dependencies", "vcredist", "directx", ".net", "visual c++", "runtime", "install dependencies"],
+      "category": "compatibility",
+      "description": "Open a game's details, go to Dependencies tab, and one-click install Visual C++, DirectX, .NET, and other required Windows components.",
+      "screenshot": "dependencies-panel.jpg",
+      "tutorialLink": "/tutorials/game-dependencies/",
+      "faqLink": "/2.0faq/#install-dependencies",
+      "hotspot": {
+        "image": "game-details.jpg",
+        "x": 350,
+        "y": 350,
+        "width": 180,
+        "height": 50
+      }
+    },
+    {
+      "id": "change-language",
+      "title": "Change Game Language",
+      "searchTerms": ["language", "change language", "game language", "localization", "translation"],
+      "category": "customization",
+      "description": "Access game details, navigate to Language tab, and select from available languages. Game will redownload language-specific files if needed.",
+      "screenshot": "language-selection.jpg",
+      "tutorialLink": "/gallery/",
+      "faqLink": "/2.0faq/#change-game-language",
+      "hotspot": {
+        "image": "game-details.jpg",
+        "x": 350,
+        "y": 420,
+        "width": 180,
+        "height": 50
+      }
+    },
+    {
+      "id": "cloud-saves",
+      "title": "Manage Cloud Saves",
+      "searchTerms": ["cloud saves", "save sync", "cloud storage", "backup saves", "sync saves"],
+      "category": "customization",
+      "description": "Cloud saves sync automatically. Access game details to manually trigger sync, view save status, or manage save conflicts.",
+      "screenshot": "cloud-saves.jpg",
+      "tutorialLink": "/2.0faq/",
+      "faqLink": "/2.0faq/#cloud-saves",
+      "hotspot": {
+        "image": "game-details.jpg",
+        "x": 350,
+        "y": 490,
+        "width": 180,
+        "height": 50
+      }
+    },
+    {
+      "id": "game-library",
+      "title": "Browse Your Library",
+      "searchTerms": ["library", "browse games", "game list", "view games", "my games"],
+      "category": "library",
+      "description": "Your Epic, GOG, Amazon, and itch.io games appear in organized libraries. Use filters, search, or browse by store.",
+      "screenshot": "library-view.jpg",
+      "tutorialLink": "/gallery/",
+      "faqLink": "/2.0faq/",
+      "hotspot": {
+        "image": "main-menu.jpg",
+        "x": 50,
+        "y": 50,
+        "width": 150,
+        "height": 45
+      }
+    },
+    {
+      "id": "settings-panel",
+      "title": "Access Settings",
+      "searchTerms": ["settings", "preferences", "options", "configure", "configuration"],
+      "category": "settings",
+      "description": "Open the main menu and select Settings to configure Junk Store preferences, manage accounts, and adjust advanced options.",
+      "screenshot": "settings-panel.jpg",
+      "tutorialLink": "/2.0faq/",
+      "faqLink": "/2.0faq/",
+      "hotspot": {
+        "image": "main-menu.jpg",
+        "x": 50,
+        "y": 200,
+        "width": 150,
+        "height": 45
+      }
+    },
+    {
+      "id": "game-details",
+      "title": "View Game Details",
+      "searchTerms": ["game details", "game info", "game information", "about game"],
+      "category": "library",
+      "description": "Click any game to see detailed information, installation options, compatibility settings, DLC, and more.",
+      "screenshot": "game-details.jpg",
+      "tutorialLink": "/gallery/",
+      "faqLink": "/2.0faq/",
+      "hotspot": {
+        "image": "library-view.jpg",
+        "x": 200,
+        "y": 200,
+        "width": 250,
+        "height": 150
+      }
+    },
+    {
+      "id": "launch-game",
+      "title": "Launch a Game",
+      "searchTerms": ["launch", "play", "start game", "run game", "play game"],
+      "category": "getting-started",
+      "description": "After installation, games appear in your Steam library. Launch them like any Steam game - they integrate seamlessly.",
+      "screenshot": "game-launch.jpg",
+      "tutorialLink": "/gallery/",
+      "faqLink": "/2.0faq/#launch-games",
+      "hotspot": {
+        "image": "library-view.jpg",
+        "x": 120,
+        "y": 520,
+        "width": 200,
+        "height": 60
+      }
+    }
+  ],
+  "categories": {
+    "getting-started": {
+      "title": "Getting Started",
+      "icon": "🚀",
+      "description": "Essential first steps and basic operations"
+    },
+    "library": {
+      "title": "Library Management",
+      "icon": "📚",
+      "description": "Browse, search, and organize your games"
+    },
+    "downloads": {
+      "title": "Downloads & Updates",
+      "icon": "⬇️",
+      "description": "Manage downloads and game updates"
+    },
+    "compatibility": {
+      "title": "Compatibility Settings",
+      "icon": "🔧",
+      "description": "Proton, dependencies, and game fixes"
+    },
+    "customization": {
+      "title": "Game Customization",
+      "icon": "🎨",
+      "description": "Language, DLC, launch options"
+    },
+    "settings": {
+      "title": "Settings & Preferences",
+      "icon": "⚙️",
+      "description": "Configure Junk Store and accounts"
+    }
+  }
+}

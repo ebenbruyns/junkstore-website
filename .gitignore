@@ -33,5 +33,6 @@ _drafts/
 # Performance monitoring and optimization files
 performance-*.json
 lighthouse-*.json
+lighthouse-reports/
 image-analysis-report.txt
 build.log
