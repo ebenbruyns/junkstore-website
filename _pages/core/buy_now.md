@@ -66,7 +66,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 <div class="progressive-cta testimonial-cta">
   <p class="cta-prompt">Stop wasting precious gaming time on setup — start playing in minutes, not hours</p>
   <div class="cta-buttons">
-    <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_testimonials">Start Your Free Trial</a>
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_testimonials">Start Free Trial</a>
     <a href="/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_more_demos" data-label="buy_now_testimonials">See More Demos</a>
   </div>
 </div>
