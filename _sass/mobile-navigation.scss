@@ -15,10 +15,21 @@
   }
 }
 
-/* Force recalculation on larger screens */
+/* Desktop: Center nav items and space evenly */
 @media (min-width: 769px) {
   .greedy-nav .visible-links {
     display: flex !important;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .greedy-nav .visible-links li {
+    flex: none;
+  }
+
+  .greedy-nav .visible-links a {
+    margin: 0 1rem; /* Even spacing on each link */
+    padding: 0.5rem 0.25rem;
   }
 }
 

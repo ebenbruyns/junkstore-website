@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Junk Store Pro - Play Non-Steam Games on Steam Deck"
-description: "The ONLY solution that eliminates Desktop Mode switching entirely. Play Epic, GOG, Amazon & itch.io (beta) games directly in Steam Deck Game Mode. 7-day trial."
+title: "Junk Store - Play Non-Steam Games on Steam Deck"
+description: "The ONLY solution that eliminates Desktop Mode switching entirely. Play Epic, GOG, Amazon & itch games directly in Steam Deck Game Mode. 7-day trial."
 permalink: /
 classes: home
 header:
@@ -13,17 +13,44 @@ header:
       url: "/portal-redirect/"
       class: "button buy-button"
     - label: "See It In Action"
-      url: "/gallery/"
+      url: "/features/#gallery"
       class: "button button-secondary"
-excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazon & itch.io (beta) games install and launch as natively as possible"
+excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazon & itch games install and launch as natively as possible"
 ---
 
 {% include video-demo-player.html %}
 
 <h1>Never Leave Game Mode for Epic, GOG, Amazon & itch.io (beta) Games</h1>
 
-<section class="seo-intro">
-  <p><strong>Junk Store is the ONLY solution that keeps you in Game Mode.</strong> While other launchers require Desktop Mode for game management, Junk Store transforms your <strong>Steam Deck Game Mode</strong> into a unified gaming hub. Install and play games from <strong>Epic, GOG, Amazon & itch.io (beta)</strong> with native-like integration - because your handheld deserves a handheld experience.</p>
+<section class="what-is-junkstore">
+  <h2>What is Junk Store?</h2>
+  <p class="explainer-lead">Junk Store is your all-in-one launcher for non-Steam games on Steam Deck. Instead of juggling multiple launchers or switching to Desktop Mode, Junk Store brings all your game libraries into Steam's Game Mode interface.</p>
+
+  <div class="explainer-features">
+    <div class="explainer-feature">
+      <div class="feature-icon"><i class="fas fa-gamepad"></i></div>
+      <h3>One Hub, All Your Games</h3>
+      <p>Access Epic, GOG, Amazon Prime Gaming, and itch.io libraries from a single, unified interface.</p>
+    </div>
+    <div class="explainer-feature">
+      <div class="feature-icon"><i class="fas fa-tv"></i></div>
+      <h3>Built for Game Mode</h3>
+      <p>Install, manage, and launch games without ever touching Desktop Mode. Your controller is all you need.</p>
+    </div>
+    <div class="explainer-feature">
+      <div class="feature-icon"><i class="fas fa-plug"></i></div>
+      <h3>Extensible Platform</h3>
+      <p>More than a launcher - a growing ecosystem that adapts to new platforms and features over time.</p>
+    </div>
+  </div>
+
+  <p class="supported-storefronts">Storefronts: <strong>Epic</strong> · <strong>GOG</strong> · <strong>Amazon</strong> · <strong>itch.io</strong></p>
+  <p class="supported-extras">Plus emulator & ROM support</p>
+
+  <div class="explainer-cta">
+    <a href="/portal-redirect/" class="button buy-button">Start Free Trial</a>
+    <a href="/features/" class="button button-secondary">See All Features</a>
+  </div>
 </section>
 
 <section class="problem-solution">
@@ -104,8 +131,8 @@ excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazo
     </div>
     <div class="pricing-cta">
       <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-pricing="portal-url" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>
-      <a href="/gallery/" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_gallery" data-label="homepage_pricing">See It In Action</a>
-      <a href="/comparison/" class="button button-secondary button-wide" data-event="click" data-category="engagement" data-action="view_comparison" data-label="homepage_pricing">Why Choose Junk Store</a>
+      <a href="/features/#gallery" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_gallery" data-label="homepage_pricing">See It In Action</a>
+      <a href="/features/#compare" class="button button-secondary button-wide" data-event="click" data-category="engagement" data-action="view_comparison" data-label="homepage_pricing">Why Choose Junk Store</a>
     </div>
   </div>
 </section>

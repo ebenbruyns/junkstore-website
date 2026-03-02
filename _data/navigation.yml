@@ -1,12 +1,12 @@
 # main navigation
 main:
-  - title: "Features"
+  - title: "Explore Junk Store"
     url: /features/
-  - title: "Help"
+  - title: "Support"
     url: /help/
   - title: "Tested Games"
     url: /tested-games/
-  - title: "What's New"
+  - title: "News"
     url: /blog/
   - title: "About"
     url: /about/

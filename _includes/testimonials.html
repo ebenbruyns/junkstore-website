@@ -1,48 +1,11 @@
 <div class="testimonials-section">
   <div id="testimonial-display">
-    {% for testimonial in site.data.testimonials %}
-      <div class="testimonial-item{% if forloop.first %} active{% endif %}" data-index="{{ forloop.index0 }}">
-        <blockquote class="testimonial-quote">"{{ testimonial.text }}"</blockquote>
-        <cite class="testimonial-author">— {{ testimonial.name }}</cite>
-      </div>
-    {% endfor %}
+    <!-- Testimonials loaded dynamically from Firebase -->
+    <div class="testimonial-item active">
+      <p class="testimonial-quote" style="color: #888;">Loading testimonials...</p>
+    </div>
   </div>
-  
 </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const testimonials = document.querySelectorAll(".testimonial-item");
-    let currentIndex = 0;
-    let autoRotate;
-
-    function showTestimonial(index) {
-      // Hide all testimonials
-      testimonials.forEach(t => t.classList.remove("active"));
-
-      // Show selected testimonial
-      testimonials[index].classList.add("active");
-      currentIndex = index;
-    }
-
-    function nextTestimonial() {
-      const next = (currentIndex + 1) % testimonials.length;
-      showTestimonial(next);
-    }
-
-    function startAutoRotate() {
-      autoRotate = setInterval(nextTestimonial, 6000);
-    }
-
-    function stopAutoRotate() {
-      clearInterval(autoRotate);
-    }
-
-
-    // Start auto rotation
-    startAutoRotate();
-  });
-</script>
 
 <style>
   .testimonials-section {
@@ -99,7 +62,6 @@
     font-weight: 500;
   }
 
-
   @media (max-width: 768px) {
     .testimonials-section {
       margin: 1.5rem auto;
@@ -107,7 +69,7 @@
     }
 
     #testimonial-display {
-      height: 220px; /* Fixed height for mobile with extra space */
+      height: 220px;
     }
 
     .testimonial-item {
@@ -115,13 +77,13 @@
     }
 
     .testimonial-quote {
-      font-size: 1.05rem; /* Slightly larger for mobile readability */
+      font-size: 1.05rem;
       line-height: 1.5;
       margin-bottom: 1rem;
     }
 
     .testimonial-author {
-      font-size: 0.95rem; /* Compact author text for mobile */
+      font-size: 0.95rem;
     }
   }
 </style>

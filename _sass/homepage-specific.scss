@@ -83,8 +83,9 @@
 body.home h1 {
   max-width: 1200px;
   width: 98%;
-  margin: 2rem auto;
+  margin: 2rem auto 1rem 1%;
   text-align: left;
+  padding-left: 0;
 }
 
 /* Hero styling now handled globally by hero-height-fix.scss */
@@ -450,6 +451,144 @@ body.home h1 {
 .layout--splash .button-wide {
   min-width: 200px;
   padding: 0.75rem 1.5rem;
+}
+
+/* What is Junk Store? Explainer Section */
+.layout--splash .what-is-junkstore {
+  background: linear-gradient(135deg, #1a252f 0%, #253445 100%);
+  padding: 2.5rem 1.5rem;
+  margin: 2rem auto;
+  border-radius: 12px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 98%;
+  text-align: center;
+}
+
+.layout--splash .what-is-junkstore h2 {
+  color: #66bfff !important;
+  font-size: 2rem !important;
+  margin-bottom: 1rem !important;
+  margin-top: 0 !important;
+}
+
+.layout--splash .what-is-junkstore .explainer-lead {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #e8e8e8;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+}
+
+.layout--splash .explainer-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.layout--splash .explainer-feature {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.layout--splash .explainer-feature:hover {
+  transform: translateY(-3px);
+  border-color: #66bfff;
+}
+
+.layout--splash .explainer-feature .feature-icon {
+  font-size: 2rem;
+  color: #66bfff;
+  margin-bottom: 0.75rem;
+}
+
+.layout--splash .explainer-feature h3 {
+  color: #ffa366;
+  font-size: 1.1rem;
+  margin: 0 0 0.75rem 0;
+  font-weight: 600;
+}
+
+.layout--splash .explainer-feature p {
+  color: #b8b8b8;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.layout--splash .supported-storefronts {
+  font-size: 1.1rem;
+  color: #b8b8b8;
+  margin-bottom: 0.5rem;
+}
+
+.layout--splash .supported-storefronts strong {
+  color: #e8e8e8;
+}
+
+.layout--splash .supported-extras {
+  font-size: 0.95rem;
+  color: #999;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.layout--splash .explainer-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Mobile responsiveness for What is Junk Store section */
+@media (max-width: 900px) {
+  .layout--splash .explainer-features {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .layout--splash .what-is-junkstore {
+    padding: 2rem 1rem;
+    margin: 1.5rem 0.5rem;
+  }
+
+  .layout--splash .what-is-junkstore h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .layout--splash .what-is-junkstore .explainer-lead {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+
+  .layout--splash .explainer-feature {
+    padding: 1.25rem 1rem;
+  }
+
+  .layout--splash .explainer-feature .feature-icon {
+    font-size: 1.75rem;
+  }
+
+  .layout--splash .explainer-feature h3 {
+    font-size: 1.1rem;
+  }
+
+  .layout--splash .explainer-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .layout--splash .explainer-cta .button {
+    width: 100%;
+    max-width: 280px;
+  }
 }
 
 /* SEO Intro section for mobile readability */
