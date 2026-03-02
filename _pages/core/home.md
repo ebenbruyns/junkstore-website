@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Junk Store - Play Non-Steam Games on Steam Deck"
-description: "The ONLY solution that eliminates Desktop Mode switching entirely. Play Epic, GOG, Amazon & itch games directly in Steam Deck Game Mode. 7-day trial."
+title: "Junk Store - Your Non-Steam Gaming Hub"
+description: "All your non-Steam games in one place. Epic, GOG, Amazon & itch.io on Steam Deck - no desktop mode, no multiple launchers. Just gaming."
 permalink: /
 classes: home
 header:
@@ -15,12 +15,10 @@ header:
     - label: "See It In Action"
       url: "/features/#gallery"
       class: "button button-secondary"
-excerpt: "Transform your Steam Deck into a unified gaming hub - Epic, GOG, Amazon & itch games install and launch as natively as possible"
+excerpt: "All your non-Steam games in one place. No desktop mode. No multiple launchers. Just gaming."
 ---
 
 {% include video-demo-player.html %}
-
-<h1>Never Leave Game Mode for Epic, GOG, Amazon & itch.io (beta) Games</h1>
 
 <section class="what-is-junkstore">
   <h2>What is Junk Store?</h2>

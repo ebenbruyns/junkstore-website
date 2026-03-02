@@ -80,7 +80,7 @@
 }
 
 /* Homepage h1 alignment - for content h1s only, not hero */
-body.home h1 {
+body.home h1:not(.page__title) {
   max-width: 1200px;
   width: 98%;
   margin: 2rem auto 1rem 1%;

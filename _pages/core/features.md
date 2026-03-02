@@ -518,40 +518,8 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
 <style>
 /* ========================================
    Unified Features Page Styles
+   Hero styles now in hero-height-fix.scss
    ======================================== */
-
-/* Compact Hero */
-.layout--splash .page__hero--overlay {
-  min-height: 200px !important;
-  max-height: 250px !important;
-  padding: 1rem !important;
-}
-
-.page__hero--overlay .page__title {
-  font-size: 1.9rem !important;
-  margin-bottom: 0.4rem !important;
-}
-
-.page__hero--overlay .page__lead {
-  font-size: 1.05rem !important;
-  margin-bottom: 0.5rem !important;
-}
-
-@media (max-width: 600px) {
-  .layout--splash .page__hero--overlay {
-    min-height: 180px !important;
-    max-height: 220px !important;
-    padding: 1.5rem 0.75rem !important;
-  }
-
-  .page__hero--overlay .page__title {
-    font-size: 1.5rem !important;
-  }
-
-  .page__hero--overlay .page__lead {
-    font-size: 0.95rem !important;
-  }
-}
 
 /* ========== TAB NAVIGATION ========== */
 .features-tabs {
