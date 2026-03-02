@@ -127,7 +127,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
             <td><strong>Download Queue Management</strong></td>
             <td>❌ Not Available</td>
             <td class="hover-popup" onmouseenter="restartGif(this)">
-              ✅ Advanced Queue System <span class="hover-label">👁️ Hover to view</span>
+              ✅ Advanced Queue System <span class="hover-label">👁️ Preview</span>
               <div class="gif-popup">
                 <video autoplay muted loop playsinline preload="none">
                   <source src="/assets/images/jspro/tablegifs/download.webm" type="video/webm">
@@ -176,7 +176,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
             <td><strong>Game Language Selection</strong></td>
             <td>❌ Not Available</td>
             <td class="hover-popup" onmouseenter="restartGif(this)">
-              ✅ Multi-Language Support <span class="hover-label">👁️ Hover to view</span>
+              ✅ Multi-Language Support <span class="hover-label">👁️ Preview</span>
               <div class="gif-popup">
                 <video autoplay muted loop playsinline preload="none">
                   <source src="/assets/images/jspro/tablegifs/languageselection.webm" type="video/webm">
@@ -195,7 +195,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
             <td><strong>Per-Game Launcher Options</strong></td>
             <td>❌ Fixed Configuration</td>
             <td class="hover-popup" onmouseenter="restartGif(this)">
-              ✅ Flexible Launcher System <span class="hover-label">👁️ Hover to view</span>
+              ✅ Flexible Launcher System <span class="hover-label">👁️ Preview</span>
               <div class="gif-popup">
                 <video autoplay muted loop playsinline preload="none">
                   <source src="/assets/images/jspro/tablegifs/changelauncher.webm" type="video/webm">
@@ -244,7 +244,7 @@ excerpt: "Love the free Decky plugin? Discover what the premium experience unloc
             <td><strong>Game Dependency Installation</strong></td>
             <td>🛠️ Manual Process<br>🧪 Requires Proton Tricks</td>
             <td class="hover-popup" onmouseenter="restartGif(this)">
-              ⚙️ Built-in Installer <span class="hover-label">👁️ Hover to view</span>
+              ⚙️ Built-in Installer <span class="hover-label">👁️ Preview</span>
               <div class="gif-popup">
                 <video autoplay muted loop playsinline preload="none">
                   <source src="/assets/images/jspro/tablegifs/dependencies.webm" type="video/webm">
@@ -335,18 +335,44 @@ function restartGif(container) {
   }
 }
 
+// Toggle popup for touch devices
+function togglePopup(element) {
+  const wasActive = element.classList.contains('active');
+  // Close all other popups first
+  document.querySelectorAll('.hover-popup.active').forEach(el => {
+    el.classList.remove('active');
+  });
+  // Toggle this one
+  if (!wasActive) {
+    element.classList.add('active');
+    restartGif(element);
+  }
+}
+
+// Close popup when clicking outside
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.hover-popup')) {
+    document.querySelectorAll('.hover-popup.active').forEach(el => {
+      el.classList.remove('active');
+    });
+  }
+});
+
 // Improve mobile GIF popup positioning
 document.addEventListener('DOMContentLoaded', function() {
   const hoverPopups = document.querySelectorAll('.hover-popup');
 
   hoverPopups.forEach(popup => {
+    // Add click handler for touch accessibility
+    popup.addEventListener('click', function(e) {
+      e.stopPropagation();
+      togglePopup(this);
+    });
+
     popup.addEventListener('mouseenter', function() {
       const gifPopup = this.querySelector('.gif-popup');
       if (gifPopup && window.innerWidth <= 768) {
         // On mobile, position popups more carefully
-        const rect = this.getBoundingClientRect();
-        const scrollY = window.scrollY;
-
         gifPopup.style.position = 'fixed';
         gifPopup.style.top = '10px';
         gifPopup.style.left = '50%';

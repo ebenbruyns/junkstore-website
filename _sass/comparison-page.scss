@@ -203,8 +203,14 @@
   text-align: center;
 }
 
-.hover-popup:hover .gif-popup {
+.hover-popup:hover .gif-popup,
+.hover-popup.active .gif-popup {
   display: block;
+}
+
+/* Touch-friendly: cursor pointer to indicate clickable */
+.hover-popup {
+  cursor: pointer;
 }
 
 .hover-popup img {

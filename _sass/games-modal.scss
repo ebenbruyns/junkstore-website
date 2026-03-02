@@ -74,12 +74,14 @@
     transition: all 0.2s ease;
 }
 
-.external-link:hover {
+.external-link:hover,
+.external-link:focus-visible {
     background: rgba(255, 163, 102, 0.15) !important;
     border-color: rgba(255, 163, 102, 0.4);
     color: #ffb380 !important;
     text-decoration: none !important;
     transform: translateY(-1px);
+    outline: none;
 }
 
 .external-link i {
@@ -91,7 +93,8 @@
     border-color: rgba(102, 187, 106, 0.3);
 }
 
-.external-link.protondb:hover {
+.external-link.protondb:hover,
+.external-link.protondb:focus-visible {
     border-color: rgba(102, 187, 106, 0.5);
 }
 
@@ -99,7 +102,8 @@
     border-color: rgba(156, 163, 175, 0.3);
 }
 
-.external-link.pcgaming:hover {
+.external-link.pcgaming:hover,
+.external-link.pcgaming:focus-visible {
     border-color: rgba(156, 163, 175, 0.5);
 }
 
@@ -270,11 +274,13 @@
     overflow: hidden;
 }
 
-.feature-item:hover {
+.feature-item:hover,
+.feature-item:focus-visible {
     background: #253445;
     transform: translateY(-4px) scale(1.02);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 163, 102, 0.5);
     border-color: #ffa366;
+    outline: none;
 }
 
 .feature-item::before {
@@ -288,7 +294,8 @@
     transition: left 0.5s;
 }
 
-.feature-item:hover::before {
+.feature-item:hover::before,
+.feature-item:focus-visible::before {
     left: 100%;
 }
 
@@ -314,11 +321,13 @@
     transition: transform 0.3s ease;
 }
 
-.feature-item:hover .feature-value {
+.feature-item:hover .feature-value,
+.feature-item:focus-visible .feature-value {
     transform: scale(1.05);
 }
 
-.feature-item:hover .feature-label {
+.feature-item:hover .feature-label,
+.feature-item:focus-visible .feature-label {
     opacity: 1;
     color: #ffa366;
 }
@@ -350,10 +359,12 @@
     overflow: hidden;
 }
 
-.tab-button:hover {
+.tab-button:hover,
+.tab-button:focus-visible {
     color: #ffa366;
     background: rgba(255, 163, 102, 0.08);
     transform: translateY(-1px);
+    outline: none;
 }
 
 .tab-button::before {
@@ -367,7 +378,8 @@
     transition: left 0.6s;
 }
 
-.tab-button:hover::before {
+.tab-button:hover::before,
+.tab-button:focus-visible::before {
     left: 100%;
 }
 
@@ -613,8 +625,11 @@ div.game-modal.show,
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
 }
 
-.modal-close:hover {
+.modal-close:hover,
+.modal-close:focus-visible {
     color: #e2e8f0 !important;
+    outline: 2px solid #ffa366;
+    outline-offset: 2px;
 }
 
 /* Mobile responsiveness */
