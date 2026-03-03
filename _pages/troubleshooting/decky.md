@@ -13,7 +13,10 @@ header:
     - label: "Decky FAQ"
       url: "/faq/decky/"
       class: "button"
+excerpt: "Fix Epic & GOG game issues directly from Game Mode with the Junk Store Decky plugin"
 ---
+<div id="top"></div>
+
 <section class="seo-intro">
   <p><strong>Fix Epic and GOG game issues directly from Game Mode!</strong> This comprehensive troubleshooting guide covers Junk Store Decky plugin installation, compatibility problems, and authentication solutions for Steam Deck users.</p>
 </section>
