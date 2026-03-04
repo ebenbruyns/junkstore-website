@@ -2,7 +2,7 @@
 layout: splash
 title: "Junk Store 2.0 - Getting Started"
 permalink: /get_started/
-excerpt: "Get started with Junk Store 2.0 - complete setup guide for Epic, GOG, Amazon & itch.io games in Steam Deck Game Mode"
+excerpt: "Quick start guide for Junk Store 2.0 on Steam Deck."
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -19,20 +19,29 @@ header:
     &#9888; Using Decky Loader?
   </h3>
   <p style="color: #eee; margin-bottom: 0.5rem;">
-    Download Junk Store 2.0 from the <strong style="color: #ffa366;">"Decky Stable"</strong> channel in the portal to ensure compatibility.
+    Download Junk Store 2.0 from the <strong style="color: #ffa366;">"Stable-Decky"</strong> channel in the portal to ensure compatibility.
   </p>
   <p style="color: #999; font-size: 0.9em; margin-bottom: 0;">
     No Decky? Use the default channel.
   </p>
 </div>
 
-<!-- VIDEO TUTORIAL THUMBNAIL -->
-<div style="margin: 1.5rem 0; text-align: center;">
-  <p style="color: #aaa; margin-bottom: 0.75rem;">Prefer video? Watch the installation walkthrough:</p>
-  <a href="https://www.youtube.com/watch?v=kDKQyL5iLSg" target="_blank" rel="noopener" style="display: inline-block; position: relative;">
-    <img src="https://img.youtube.com/vi/kDKQyL5iLSg/mqdefault.jpg" alt="Junk Store 2.0 Installation Tutorial" style="border-radius: 8px; width: 320px; height: auto; border: 2px solid #333;">
-    <span style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255,0,0,0.85); color: white; width: 50px; height: 35px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.2em;">&#9654;</span>
-  </a>
+<!-- VIDEO & WRITTEN TUTORIAL OPTIONS -->
+<div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0;">
+  <div style="text-align: center;">
+    <p style="color: #aaa; margin-bottom: 0.75rem;">Prefer video?</p>
+    <a href="https://www.youtube.com/watch?v=kDKQyL5iLSg" target="_blank" rel="noopener" style="display: inline-block; position: relative;">
+      <img src="https://img.youtube.com/vi/kDKQyL5iLSg/mqdefault.jpg" alt="Junk Store 2.0 Installation Tutorial" style="border-radius: 8px; width: 280px; height: 158px; object-fit: cover; border: 2px solid #333;">
+      <span style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(255,0,0,0.85); color: white; width: 50px; height: 35px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.2em;">&#9654;</span>
+    </a>
+  </div>
+  <div style="text-align: center;">
+    <p style="color: #aaa; margin-bottom: 0.75rem;">Prefer screenshots?</p>
+    <a href="/tutorials/install-junk-store-2" style="display: inline-block; position: relative;">
+      <img src="/assets/images/jspro/install2.0/downloadjspro.webp" alt="Step-by-Step Installation Guide" style="border-radius: 8px; width: 280px; height: 158px; object-fit: cover; border: 2px solid #007acc;">
+      <span style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,122,204,0.9); color: white; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em;">Step-by-Step Guide</span>
+    </a>
+  </div>
 </div>
 
 <h2>Installation Steps</h2>
@@ -50,7 +59,7 @@ header:
   <li><strong>Download and install Junk Store Pro</strong></li>
   <ul>
     <li>Download the latest <code>js_pro</code> build from the portal</li>
-    <li><strong style="color: #ff6b35;">Decky users:</strong> Make sure you select the "Decky Stable" channel!</li>
+    <li><strong style="color: #ff6b35;">Decky users:</strong> Make sure you select the "Stable-Decky" channel!</li>
     <li>Open Dolphin &#8594; Downloads &#8594; Right-click the file &#8594; Properties &#8594; Permissions</li>
     <li>Mark it as executable and click <strong>OK</strong>, then double-click to install</li>
   </ul>
@@ -60,14 +69,14 @@ header:
   </div>
   <br>
 
-  <li><strong>Return to Game Mode </strong> <span style="color: #00d4aa; font-weight: bold;">(The Magic Begins)</span></li>
+  <li><strong>Return to Game Mode </strong></li>
   <ul>
     <li>Press <strong>🗗 View</strong> (button above the D-pad) to open Junk Store</li>
     <li>Log in using your portal credentials</li>
   </ul>
   <br>
 
-  <li><strong>Generate and migrate your libraries</strong> <span style="color: #888;">(All from Game Mode)</span></li>
+  <li><strong>Generate and migrate your libraries</strong></li>
   <ul>
     <li>Go to Tools &#8594; Generator</li>
     <li>Open the sliders menu and choose <em>Download all presets from server</em></li>
