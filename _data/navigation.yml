@@ -4,11 +4,11 @@ main:
     url: "/2.0-hub/"
   - title: "Decky Plugin"
     url: /deckyhelp/
-  - title: "Why Choose Junk Store"
+  - title: "Why Junk Store"
     url: /comparison/
   - title: "Tested Games"
     url: /tested-games/
-  - title: "What's New"
+  - title: "News"
     url: /blog/
   - title: "Gallery"
     url: /gallery/
