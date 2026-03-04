@@ -230,6 +230,12 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
       <p class="solution">Junk Store Pro: Epic + GOG + Amazon + itch.io + ROMs integrated in Game Mode</p>
     </div>
 
+    <div class="differentiator-item">
+      <h3>Built-in Frame Generation</h3>
+      <p class="problem">Free Alternatives: Requires separate plugin installation or manual launch arguments</p>
+      <p class="solution">Junk Store Pro: One-click LSFG-VK toggles built directly into the app</p>
+    </div>
+
   </div>
 
   <div class="differentiator-conclusion">
