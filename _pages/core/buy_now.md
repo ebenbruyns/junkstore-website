@@ -14,7 +14,7 @@ header:
     - label: "See It In Action"
       url: "/gallery/"
       class: "button button-secondary"
-excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io games in Game Mode. 7-day free trial available"
+excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazon & itch games directly into Steam Deck Game Mode."
 ---
 <div id="top"></div>
 
@@ -28,11 +28,8 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 <!-- ==================== AT A GLANCE TAB ==================== -->
 <div id="tab-glance" class="buy-tab-panel active">
 
-<h1>Transform Your Steam Deck Into a Unified Gaming Hub</h1>
-
-<section class="seo-intro">
-  <p><strong>The ONLY solution that eliminates Desktop Mode switching entirely.</strong> While other launchers require Desktop Mode management, Junk Store Pro delivers the true handheld gaming freedom your Steam Deck was designed for.</p>
-</section>
+<h1 class="page-title">Transform Your Steam Deck Into a Unified Gaming Hub</h1>
+<p class="tagline">The launcher built for handheld gaming.</p>
 
 <section class="visual-proof">
   <div class="screenshot-container">
@@ -445,8 +442,8 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
   </div>
 </section>
 
-<section class="support-and-community" style="text-align: left !important; max-width: 1200px; margin-left: auto; margin-right: auto; margin-top: 2rem; padding: 0.5rem;">
-  <h3 style="margin-top: 0;">💡 Previous Supporter?</h3>
+<section class="support-and-community">
+  <h3>💡 Previous Supporter?</h3>
   <p>All previous supporters have been migrated to the Portal. Simply sign in using your original email address to access your existing benefits.</p>
   <p><strong>First time signing in?</strong> Read our <a href="https://www.junkstore.xyz/blog/gog-extension-portal-only/" target="_blank">step-by-step guide</a> for instructions on activating your Portal account.</p>
   <p><strong>Need help?</strong> Contact us via <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener">Discord</a> and we'll help you get sorted.</p>
@@ -620,6 +617,18 @@ document.addEventListener('DOMContentLoaded', function() {
   display: block;
 }
 
+/* ========== PAGE TITLE & TAGLINE ========== */
+.page-title {
+  text-align: center;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ccc;
+  margin: -0.5rem 0 1.5rem 0;
+}
+
 /* ========== UPGRADE GRID ========== */
 .upgrade-highlights {
   max-width: 1200px;
@@ -631,23 +640,23 @@ document.addEventListener('DOMContentLoaded', function() {
 .upgrade-highlights h2 {
   text-align: center;
   color: #66bfff;
-  font-size: 1.8rem;
-  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
   font-weight: bold;
 }
 
 .upgrade-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
-  margin: 1.5rem 0;
+  gap: 1rem;
+  margin: 1.25rem 0;
 }
 
 .upgrade-item {
   background: #1e2a38;
   border: 1px solid #444;
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 1.25rem;
   transition: all 0.2s ease;
 }
 
@@ -852,9 +861,9 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 .purchase-faq h3 {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   color: #ffa366;
-  margin: 2rem 0 1rem 0;
+  margin: 1.5rem 0 0.75rem 0;
   text-align: left;
 }
 
@@ -869,7 +878,7 @@ document.addEventListener('DOMContentLoaded', function() {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid #444;
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 1.25rem;
   transition: background-color 0.2s ease;
 }
 
@@ -946,7 +955,7 @@ document.addEventListener('DOMContentLoaded', function() {
   background: linear-gradient(135deg, rgba(0, 170, 255, 0.15), rgba(0, 170, 255, 0.05));
   border: 2px solid rgba(0, 170, 255, 0.4);
   border-radius: 12px;
-  padding: 2rem;
+  padding: 1.5rem;
   text-align: center;
 }
 
@@ -971,5 +980,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .faq-pricing {
   margin-top: 2rem;
+}
+
+/* ========== SUPPORT SECTION ========== */
+.support-and-community {
+  max-width: 1200px;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+.support-and-community h3 {
+  margin-top: 0;
 }
 </style>

@@ -182,11 +182,10 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
 
 <section class="comparison-hero">
   <h1>The Game Mode-Native Launcher</h1>
-  <p class="lead-text"><strong>The ONLY launcher that eliminates Desktop Mode switching entirely.</strong></p>
-  <p>While free alternatives require Desktop Mode management, Junk Store delivers the true handheld gaming freedom your Steam Deck was designed for.</p>
+  <p class="lead-text">The only launcher that eliminates Desktop Mode switching entirely.</p>
 
-  <div class="hero-upgrade-link" style="background: rgba(255, 163, 102, 0.1); border: 1px solid rgba(255, 163, 102, 0.3); border-radius: 8px; padding: 1rem; margin-top: 1.5rem;">
-    <p style="margin: 0;"><em>Already using our free Decky plugin?</em> &nbsp;&nbsp;<a href="/upgrade/" style="color: #ffa366; font-weight: 600; text-decoration: underline;">See what upgrading to 2.0 unlocks</a></p>
+  <div class="hero-upgrade-link">
+    <p><em>Already using our free Decky plugin?</em> <a href="/upgrade/">See what upgrading to 2.0 unlocks</a></p>
   </div>
 </section>
 
@@ -351,7 +350,7 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
 
 </div>
 
-<hr style="margin: 2rem 0;">
+<hr class="section-divider">
 
 <!-- Junk Store in Action Section -->
 <h2 style="text-align: center;">Junk Store in Action</h2>
@@ -407,7 +406,7 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
 
 </div>
 
-<hr style="margin: 2rem 0;">
+<hr class="section-divider">
 
 <!-- Video Reviews Section -->
 <h2 style="text-align: center;">Video Reviews</h2>
@@ -455,7 +454,7 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
 
 </div>
 
-<hr style="margin: 2rem 0;">
+<hr class="section-divider">
 
 <!-- Written Articles Section -->
 <h2 style="text-align: center;">Articles & Guides</h2>
@@ -649,8 +648,32 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
 }
 
 .lead-text {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: #ccc;
+}
+
+.hero-upgrade-link {
+  background: rgba(255, 163, 102, 0.1);
+  border: 1px solid rgba(255, 163, 102, 0.3);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-top: 1rem;
+}
+
+.hero-upgrade-link p {
+  margin: 0;
+}
+
+.hero-upgrade-link a {
+  color: #ffa366;
+  font-weight: 600;
+}
+
+.section-divider {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 1px solid #444;
 }
 
 .major-differentiators {
@@ -665,15 +688,15 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
 .differentiator-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin: 1.5rem 0;
+  gap: 1rem;
+  margin: 1.25rem 0;
 }
 
 .differentiator-item {
   background: #1e2a38;
-  border: 1px solid #333;
+  border: 1px solid #444;
   border-radius: 8px;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .differentiator-item h3 {
@@ -756,15 +779,15 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
 .media-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  margin: 1.5rem 0;
+  gap: 1rem;
+  margin: 1.25rem 0;
 }
 
 .media-item {
   background: #1e2a38;
-  border: 1px solid #333;
+  border: 1px solid #444;
   border-radius: 8px;
-  padding: 15px;
+  padding: 1rem;
   text-align: center;
 }
 
