@@ -20,13 +20,13 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 
 <!-- Tab Navigation -->
 <div class="buy-tabs">
-  <button class="buy-tab active" data-tab="start" onclick="switchBuyTab('start')">Get Started</button>
-  <button class="buy-tab" data-tab="compare" onclick="switchBuyTab('compare')">Compare Options</button>
+  <button class="buy-tab active" data-tab="glance" onclick="switchBuyTab('glance')">At a Glance</button>
+  <button class="buy-tab" data-tab="unlock" onclick="switchBuyTab('unlock')">What Pro Unlocks</button>
   <button class="buy-tab" data-tab="faq" onclick="switchBuyTab('faq')">FAQ</button>
 </div>
 
-<!-- ==================== GET STARTED TAB ==================== -->
-<div id="tab-start" class="buy-tab-panel active">
+<!-- ==================== AT A GLANCE TAB ==================== -->
+<div id="tab-glance" class="buy-tab-panel active">
 
 <h1>Transform Your Steam Deck Into a Unified Gaming Hub</h1>
 
@@ -53,7 +53,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
     <p class="cta-prompt">Ready to get started, or need more details?</p>
     <div class="cta-buttons">
       <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_visual_proof">Start Free Trial</a>
-      <a href="#" onclick="switchBuyTab('compare'); return false;" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_comparison" data-label="buy_now_visual_proof">Compare Features</a>
+      <a href="#" onclick="switchBuyTab('unlock'); return false;" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_comparison" data-label="buy_now_visual_proof">Compare Features</a>
     </div>
   </div>
 </section>
@@ -108,8 +108,8 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 
 </div>
 
-<!-- ==================== COMPARE OPTIONS TAB ==================== -->
-<div id="tab-compare" class="buy-tab-panel">
+<!-- ==================== WHAT PRO UNLOCKS TAB ==================== -->
+<div id="tab-unlock" class="buy-tab-panel">
 
 <section class="upgrade-hero">
   <h1>Free Decky Plugin vs Junk Store Pro</h1>
@@ -414,7 +414,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 
     <div class="faq-item">
       <h4>What makes this different from free alternatives?</h4>
-      ✅ <strong>Game Mode-native + zero resource usage.</strong> Others run between Steam and games. <a href="#" onclick="switchBuyTab('compare'); return false;">Full comparison →</a>
+      ✅ <strong>Game Mode-native + zero resource usage.</strong> Others run between Steam and games. <a href="#" onclick="switchBuyTab('unlock'); return false;">Full comparison →</a>
     </div>
 
   </div>
@@ -482,7 +482,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 // Handle URL hash on page load
 document.addEventListener('DOMContentLoaded', function() {
   const hash = window.location.hash.replace('#', '');
-  if (hash && ['start', 'compare', 'faq'].includes(hash)) {
+  if (hash && ['glance', 'unlock', 'faq'].includes(hash)) {
     switchBuyTab(hash, false);
   }
 });
@@ -490,7 +490,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Handle browser back/forward
 window.addEventListener('hashchange', function() {
   const hash = window.location.hash.replace('#', '');
-  if (hash && ['start', 'compare', 'faq'].includes(hash)) {
+  if (hash && ['glance', 'unlock', 'faq'].includes(hash)) {
     switchBuyTab(hash, false);
   }
 });

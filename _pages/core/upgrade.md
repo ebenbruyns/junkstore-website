@@ -1,5 +1,5 @@
 ---
 layout: none
 permalink: /upgrade/
-redirect_to: /buy_now/#compare
+redirect_to: /buy_now/#unlock
 ---

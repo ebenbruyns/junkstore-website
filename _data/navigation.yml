@@ -8,7 +8,7 @@ main:
     url: /tested-games/
   - title: "News"
     url: /blog/
-  - title: "About"
-    url: /about/
   - title: "Buy Now"
     url: /buy_now/
+  - title: "Get Started"
+    url: /get_started/

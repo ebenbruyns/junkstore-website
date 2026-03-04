@@ -19,7 +19,7 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
 <!-- Tab Navigation -->
 <div class="features-tabs">
   <button class="features-tab active" data-tab="features" onclick="switchTab('features')">Features</button>
-  <button class="features-tab" data-tab="compare" onclick="switchTab('compare')">Compare</button>
+  <button class="features-tab" data-tab="difference" onclick="switchTab('difference')">The Pro Difference</button>
   <button class="features-tab" data-tab="gallery" onclick="switchTab('gallery')">Gallery</button>
   <button class="features-tab" data-tab="press" onclick="switchTab('press')">Press</button>
 </div>
@@ -177,8 +177,8 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
 
 </div>
 
-<!-- ==================== COMPARE TAB ==================== -->
-<div id="tab-compare" class="tab-panel">
+<!-- ==================== THE PRO DIFFERENCE TAB ==================== -->
+<div id="tab-difference" class="tab-panel">
 
 <section class="comparison-hero">
   <h1>The Game Mode-Native Launcher</h1>
@@ -941,7 +941,7 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
 document.addEventListener('DOMContentLoaded', function() {
   // Initialize tab from URL hash
   const hash = window.location.hash.substring(1);
-  if (['features', 'compare', 'gallery', 'press'].includes(hash)) {
+  if (['features', 'difference', 'gallery', 'press'].includes(hash)) {
     switchTab(hash, false);
   }
 
@@ -952,7 +952,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Handle hash changes
 window.addEventListener('hashchange', function() {
   const hash = window.location.hash.substring(1);
-  if (['features', 'compare', 'gallery', 'press'].includes(hash)) {
+  if (['features', 'difference', 'gallery', 'press'].includes(hash)) {
     switchTab(hash, false);
   }
 });
