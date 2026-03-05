@@ -1,10 +1,16 @@
 /**
  * Firebase Games Loader
  * Fetches games from Firestore and caches in localStorage
+ *
+ * OPTIMIZED: Initial load fetches only table display fields.
+ * Full game details are loaded on-demand when modal is opened.
  */
 
-const CACHE_KEY = 'junkstore_games_cache';
+const CACHE_KEY = 'junkstore_games_cache_v2'; // v2: optimized - no _fullData in initial load
 const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes in milliseconds
+
+// Cache for individual game details (loaded on-demand)
+const gameDetailsCache = new Map();
 
 /**
  * Load games from Firebase or cache
@@ -64,25 +70,21 @@ async function loadGamesFromFirebase() {
       snapshot.forEach(doc => {
         const game = doc.data();
 
-        // Add to games array with normalized fields
+        // Add to games array with only table display fields (optimized - no _fullData)
         games.push({
           id: game.id || doc.id,
           title: game.title || '',
           storefront: storefrontLabels[storefront],
+          storefrontKey: storefront, // Keep original key for fetching details later
           slug: game.slug || '',
+          databaseId: game.databaseId || game.id || doc.id, // For URL lookups
           decky_rating: game.decky_rating || game.deckyRating || '',
           standalone_rating: game.standalone_rating || game.standaloneRating || '',
           date_tested: game.date_tested || game.dateTested || '',
           is_featured: game.is_featured || game.isFeatured || false,
           blog_category: game.blog_category || game.blogCategory || '',
-          protondb: game.protondb || '',
-          gog_url: game.gog_url || game.gogUrl || '',
-          epic_url: game.epic_url || game.epicUrl || '',
-          itch_url: game.itch_url || game.itchUrl || '',
-          pc_gaming_wiki_url: game.pc_gaming_wiki_url || game.pcGamingWikiUrl || '',
-          steamId: game.steamId || game.steam_id || '',
-          // Store full game data for modal use
-          _fullData: game
+          cant_test_linux: game.cant_test_linux || false // For anti-cheat display
+          // Note: Full game details loaded on-demand via loadGameDetailsFromFirebase()
         });
 
         storeTotal++;
@@ -198,15 +200,79 @@ function clearGamesCache() {
 }
 
 /**
- * Get full game details (for modal)
- * Since we store _fullData, we can return it directly
+ * Load full game details from Firebase on-demand (for modal)
+ * This is called when a user clicks on a game to view details
+ * @param {string} gameId - The game ID
+ * @param {string} storefrontKey - The storefront key (epic, gog, amazon, itch)
+ * @returns {Promise<Object>} Full game data
+ */
+async function loadGameDetailsFromFirebase(gameId, storefrontKey) {
+  // Check in-memory cache first
+  const cacheKey = `${storefrontKey}/${gameId}`;
+  if (gameDetailsCache.has(cacheKey)) {
+    console.log(`📦 Using cached details for: ${gameId}`);
+    return gameDetailsCache.get(cacheKey);
+  }
+
+  console.log(`🔥 Fetching game details from Firebase: ${storefrontKey}/${gameId}`);
+
+  // Wait for Firebase to be ready
+  if (!window.firebaseDb) {
+    console.log('⏳ Waiting for Firebase...');
+    await new Promise(resolve => {
+      const check = () => {
+        if (window.firebaseDb) resolve();
+        else setTimeout(check, 100);
+      };
+      check();
+    });
+  }
+
+  const db = window.firebaseDb;
+  const getDoc = window.firebaseGetDoc;
+  const doc = window.firebaseDoc;
+
+  try {
+    const gameRef = doc(db, 'games', storefrontKey, 'games', gameId);
+    const gameSnap = await getDoc(gameRef);
+
+    if (gameSnap.exists()) {
+      const gameData = gameSnap.data();
+      console.log(`✅ Loaded full details for: ${gameData.title}`);
+
+      // Cache the result
+      gameDetailsCache.set(cacheKey, gameData);
+
+      return gameData;
+    } else {
+      console.warn(`⚠️ Game not found in Firebase: ${storefrontKey}/${gameId}`);
+      return null;
+    }
+  } catch (error) {
+    console.error(`❌ Error loading game details:`, error);
+    return null;
+  }
+}
+
+/**
+ * Get basic game info from loaded games array
+ * For full details, use loadGameDetailsFromFirebase()
  */
 function getGameDetails(gameId, games) {
-  const game = games.find(g => g.id === gameId);
-  return game?._fullData || game;
+  return games.find(g => g.id === gameId);
+}
+
+/**
+ * Clear the in-memory game details cache
+ */
+function clearGameDetailsCache() {
+  gameDetailsCache.clear();
+  console.log('🗑️ Game details cache cleared');
 }
 
 // Export for use
 window.loadGamesFromFirebase = loadGamesFromFirebase;
+window.loadGameDetailsFromFirebase = loadGameDetailsFromFirebase;
 window.clearGamesCache = clearGamesCache;
+window.clearGameDetailsCache = clearGameDetailsCache;
 window.getGameDetails = getGameDetails;

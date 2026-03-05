@@ -782,7 +782,7 @@ function addModalHandlers() {
 async function openGameModal(gameId, modalFile) {
   try {
     console.log(`Opening modal for game: ${gameId}, modal file: ${modalFile}`);
-    
+
     // Show loading state
     const loadingModal = document.createElement('div');
     loadingModal.className = 'game-modal show';
@@ -804,19 +804,29 @@ async function openGameModal(gameId, modalFile) {
       throw new Error('Game not found in table data');
     }
 
-    // Load detailed game data - check for Firebase _fullData first, then fall back to JSON file
+    // Load detailed game data on-demand from Firebase
     let detailedGame = basicGame; // fallback to basic data
 
-    // If we have full data from Firebase, use it directly
-    if (basicGame._fullData) {
-      console.log('✅ Using Firebase full data for:', basicGame.title);
-      detailedGame = { ...basicGame, ...basicGame._fullData };
-      console.log('🖼️ Image URLs from Firebase data:');
-      console.log('  banner_image:', detailedGame.banner_image);
-      console.log('  vertical_artwork:', detailedGame.vertical_artwork);
-      console.log('  icon_image:', detailedGame.icon_image);
-    } else if (modalFile) {
-      // Fall back to fetching individual JSON file
+    // Try to load full details from Firebase (on-demand)
+    if (typeof loadGameDetailsFromFirebase === 'function' && basicGame.storefrontKey) {
+      try {
+        console.log(`🔥 Loading full details from Firebase for: ${basicGame.title}`);
+        const firebaseData = await loadGameDetailsFromFirebase(basicGame.id, basicGame.storefrontKey);
+        if (firebaseData) {
+          detailedGame = { ...basicGame, ...firebaseData };
+          console.log('✅ Loaded Firebase full data for:', basicGame.title);
+          console.log('🖼️ Image URLs from Firebase data:');
+          console.log('  banner_image:', detailedGame.banner_image);
+          console.log('  vertical_artwork:', detailedGame.vertical_artwork);
+          console.log('  icon_image:', detailedGame.icon_image);
+        }
+      } catch (firebaseError) {
+        console.warn('Firebase detail load failed, trying JSON fallback:', firebaseError);
+      }
+    }
+
+    // Fall back to fetching individual JSON file if Firebase didn't work
+    if (detailedGame === basicGame && modalFile) {
       try {
         console.log(`Fetching detailed game data from: /assets/data/${modalFile}`);
         const detailResponse = await fetch(`/assets/data/${modalFile}`);
@@ -824,11 +834,7 @@ async function openGameModal(gameId, modalFile) {
           const detailedData = await detailResponse.json();
           // Merge basic table data with detailed JSON data
           detailedGame = { ...basicGame, ...detailedData };
-          console.log('✅ Loaded detailed game data:', detailedGame.title);
-          console.log('🖼️ Image URLs from detailed data:');
-          console.log('  banner_image:', detailedData.banner_image);
-          console.log('  vertical_artwork:', detailedData.vertical_artwork);
-          console.log('  icon_image:', detailedData.icon_image);
+          console.log('✅ Loaded detailed game data from JSON:', detailedGame.title);
         } else {
           console.warn(`Could not load detailed data from ${modalFile}, using basic data`);
         }
@@ -837,19 +843,19 @@ async function openGameModal(gameId, modalFile) {
         // Continue with basic data
       }
     }
-    
+
     // Remove loading modal
     loadingModal.remove();
-    
+
     // Create actual modal with detailed data
     createGameModal(detailedGame);
-    
+
   } catch (error) {
     console.error('Failed to open game modal:', error);
     // Remove loading modal if it exists
     const loadingModal = document.querySelector('.game-modal');
     if (loadingModal) loadingModal.remove();
-    
+
     // Show error
     alert('Failed to load game details. Please try again.');
   }
