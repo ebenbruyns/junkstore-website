@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Get Junk Store 2.0"
-description: "Download Junk Store 2.0 standalone app for Steam Deck. $40 annual license with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch.io (beta) directly in Game Mode."
+description: "Download Junk Store 2.0 standalone app for Steam Deck. $40 one-time purchase with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch directly in Game Mode."
 permalink: /buy_now/
 header:
   overlay_color: "#000"
@@ -87,8 +87,8 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
     </div>
 
     <div class="faq-item">
-      <h4>What happens if I don't renew my annual license?</h4>
-      ✅ <strong>You keep everything forever.</strong> All games remain playable, just no future updates. <a href="/2.0faq/#what-happens-no-renew">Ownership details →</a>
+      <h4>Is this a subscription?</h4>
+      ✅ <strong>No - you own it permanently.</strong> Your $40 includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update. <a href="/2.0faq/#is-this-a-subscription">Full details →</a>
     </div>
 
     <div class="faq-item">
@@ -108,7 +108,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 
     <div class="faq-item">
       <h4>I've been claiming free Epic and Prime Gaming games. Will this work with those?</h4>
-      ✅ <strong>Absolutely.</strong> Epic has given away $10,000+ worth of games since 2018, and Prime Gaming adds 15-25 games monthly. One $40 annual license unlocks your entire collection in Game Mode - no Desktop Mode required. <a href="/tested-games/">See compatible games →</a>
+      ✅ <strong>Absolutely.</strong> Epic has given away $10,000+ worth of games since 2018, and Prime Gaming adds 15-25 games monthly. One $40 purchase unlocks your entire collection in Game Mode - no Desktop Mode required. <a href="/tested-games/">See compatible games →</a>
     </div>
 
   </div>
@@ -119,15 +119,15 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
     <h3>🎮 Your Free Game Collection Is Worth Thousands</h3>
     <p>Between Epic's weekly giveaways and Prime Gaming's monthly drops, you've likely claimed hundreds—or even thousands—of dollars in free games.</p>
     <p><strong>Epic alone has given away over $10,000 worth of games since 2018.</strong></p>
-    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode with a $40 annual license.</p>
+    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode with a $40 one-time purchase.</p>
   </div>
 </section>
 
 <section class="pricing-highlight" id="pricing-details">
   <div class="pricing-box">
-    <h3>🚀 Get Everything for $40 Annual License</h3>
-    <p class="price-text">Less than $1 per week for unlimited Epic, GOG, Amazon & itch.io gaming without Desktop Mode frustration</p>
-    <p class="trial-text">7-day free trial • Cancel anytime • Keep everything forever after purchase</p>
+    <h3>🚀 $40 One-Time Purchase</h3>
+    <p class="price-text">Includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update.</p>
+    <p class="trial-text">7-day free trial • Yours forever • No subscription required</p>
     <div class="pricing-cta">
       <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Start Free Trial</a>
     </div>
