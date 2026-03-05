@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Junk Store Blog"
-description: "Tips, reviews, and updates for Steam Deck gaming with Epic, GOG, Amazon & itch.io games. Weekly content from the Junk Store team."
+description: "Tips, reviews, and updates for Steam Deck gaming with Epic, GOG, Amazon & itch games. Weekly content from the Junk Store team."
 permalink: /blog/
 header:
   overlay_color: "#000"
@@ -11,13 +11,8 @@ header:
     - label: "Try Junk Store 2.0 Free"
       url: "/buy_now/"
       class: "button buy-button"
-excerpt: "Junk Store tips, game reviews, feature updates, and guides for Epic, GOG, Amazon & itch.io games"
+excerpt: "Junk Store news, feature updates, game compatibility results, and weekly tips"
 ---
-
-<section class="seo-intro">
-  <p><strong>Stay updated with the latest Junk Store news.</strong> Weekly tips, game compatibility updates, and reviews for Epic, GOG, Amazon & itch.io games on Steam Deck.</p>
-</section>
-
 <section class="blog-header">
   <h1 style="text-align: center;">What's New</h1>
   <p class="blog-subtitle">Weekly Junk Store tips, game compatibility updates, and Steam Deck gaming mastery guides.</p>
@@ -134,10 +129,16 @@ excerpt: "Junk Store tips, game reviews, feature updates, and guides for Epic, G
 </button>
 
 <style>
+/* Reduce space between hero and content */
+.seo-intro {
+  margin-top: 0 !important;
+}
+
 /* Streamlined Blog Header */
 .blog-header {
   text-align: center;
-  padding: 20px 20px 15px 20px;
+  padding: 5px 20px 15px 20px;
+  margin-top: -10px;
   margin-bottom: 25px;
 }
 
