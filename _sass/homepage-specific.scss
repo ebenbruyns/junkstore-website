@@ -64,7 +64,7 @@
 
   .layout--splash .whats-new-banner strong {
     font-size: 0.95rem;
-    color: #66bfff !important; /* Force lighter blue for Safari contrast */
+    color: $junkstore-primary !important; /* Force lighter blue for Safari contrast */
   }
 }
 
@@ -99,7 +99,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .major-differentiators h2 {
-  color: #66bfff;
+  color: $junkstore-primary;
   margin-top: 0;
   margin-bottom: 2rem;
 }
@@ -120,7 +120,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .differentiator-item h3 {
-  color: #ffa366;
+  color: $junkstore-accent;
   font-size: 1.1rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -171,7 +171,7 @@ body.home h1:not(.page__title) {
   border-radius: 8px;
   padding: 1.5rem;
   font-size: 1.1rem;
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   margin-bottom: 2rem;
 }
 
@@ -190,7 +190,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .primary-cta p {
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   margin: 0 0 1.5rem 0;
   font-size: 1.1rem;
 }
@@ -279,7 +279,7 @@ body.home h1:not(.page__title) {
 
 .layout--splash .problem-points p,
 .layout--splash .solution-points p {
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   line-height: 1.4;
   margin: 0;
   font-size: 1rem;
@@ -300,7 +300,7 @@ body.home h1:not(.page__title) {
 
 /* Key Features Section */
 .layout--splash .key-features {
-  background-color: #1e2a38;
+  background-color: $junkstore-bg-card;
   padding: 0.5rem 1rem 2rem 1rem;
   margin: 0.5rem auto;
   text-align: center;
@@ -312,7 +312,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .key-features h2 {
-  color: #66bfff;
+  color: $junkstore-primary;
   font-size: 1.8rem;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -332,7 +332,7 @@ body.home h1:not(.page__title) {
   padding: 1.5rem 1rem;
   border-radius: 8px;
   border: 1px solid #444;
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   font-size: 1.1rem;
   font-weight: 500;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -340,7 +340,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .feature h3 {
-  color: #ffa366;
+  color: $junkstore-accent;
   font-size: 1.1rem;
   margin: 0 0 1rem 0;
   text-align: center;
@@ -403,14 +403,14 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .final-cta h2 {
-  color: #66bfff;
+  color: $junkstore-primary;
   font-size: 2rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
 .layout--splash .final-cta p {
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   font-size: 1.2rem;
   margin-bottom: 2rem;
   line-height: 1.4;
@@ -425,8 +425,8 @@ body.home h1:not(.page__title) {
 
 .layout--splash .button-secondary {
   background-color: transparent;
-  border: 2px solid #66bfff;
-  color: #66bfff;
+  border: 2px solid $junkstore-primary;
+  color: $junkstore-primary;
   padding: 0.75rem 2rem;
   text-decoration: none;
   border-radius: 5px;
@@ -435,7 +435,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .button-secondary:hover {
-  background-color: #66bfff;
+  background-color: $junkstore-primary;
   color: #1a252f;
   transform: translateY(-2px);
 }
@@ -466,7 +466,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .what-is-junkstore h2 {
-  color: #66bfff !important;
+  color: $junkstore-primary !important;
   font-size: 2rem !important;
   margin-bottom: 1rem !important;
   margin-top: 0 !important;
@@ -475,7 +475,7 @@ body.home h1:not(.page__title) {
 .layout--splash .what-is-junkstore .explainer-lead {
   font-size: 1.15rem;
   line-height: 1.7;
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   max-width: 800px;
   margin: 0 auto 2rem auto;
 }
@@ -498,17 +498,17 @@ body.home h1:not(.page__title) {
 
 .layout--splash .explainer-feature:hover {
   transform: translateY(-3px);
-  border-color: #66bfff;
+  border-color: $junkstore-primary;
 }
 
 .layout--splash .explainer-feature .feature-icon {
   font-size: 2rem;
-  color: #66bfff;
+  color: $junkstore-primary;
   margin-bottom: 0.75rem;
 }
 
 .layout--splash .explainer-feature h3 {
-  color: #ffa366;
+  color: $junkstore-accent;
   font-size: 1.1rem;
   margin: 0 0 0.75rem 0;
   font-weight: 600;
@@ -528,7 +528,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .supported-storefronts strong {
-  color: #e8e8e8;
+  color: $junkstore-light-text;
 }
 
 .layout--splash .supported-extras {
@@ -596,7 +596,7 @@ body.home h1:not(.page__title) {
   padding: 1.5rem 1rem;
   margin: 1rem auto;
   background-color: rgba(102, 191, 255, 0.1);
-  border-left: 4px solid #66bfff;
+  border-left: 4px solid $junkstore-primary;
   border-radius: 0 6px 6px 0;
   max-width: 1200px;
   width: 98%;
@@ -606,12 +606,12 @@ body.home h1:not(.page__title) {
   font-size: 1.1rem;
   line-height: 1.6;
   margin: 0;
-  color: #e8e8e8;
+  color: $junkstore-light-text;
 }
 
 /* Screenshot sections mobile optimization */
 .layout--splash .screenshot-section {
-  background-color: #1e2a38;
+  background-color: $junkstore-bg-card;
   padding: 0.5rem 1rem 2rem 1rem;
   margin: 2rem auto;
   border-radius: 8px;
@@ -629,7 +629,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .screenshot-text h3 {
-  color: #66bfff;
+  color: $junkstore-primary;
   font-size: 1.5rem;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
@@ -637,7 +637,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .screenshot-text p {
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   font-size: 1.1rem;
   line-height: 1.5;
   margin: 0;
@@ -664,7 +664,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .competitive-comparison h2 {
-  color: #66bfff;
+  color: $junkstore-primary;
   font-size: 1.8rem;
   text-align: center;
   margin-top: 0.5rem;
@@ -680,21 +680,21 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .comparison-item {
-  background-color: #1e2a38;
+  background-color: $junkstore-bg-card;
   padding: 1.5rem;
   border-radius: 6px;
   border: 1px solid #444;
 }
 
 .layout--splash .comparison-item h4 {
-  color: #66bfff;
+  color: $junkstore-primary;
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
 .layout--splash .comparison-item p {
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   font-size: 0.95rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
@@ -704,12 +704,12 @@ body.home h1:not(.page__title) {
   background-color: rgba(102, 191, 255, 0.1);
   padding: 1.5rem;
   border-radius: 6px;
-  border: 1px solid #66bfff;
+  border: 1px solid $junkstore-primary;
   text-align: center;
 }
 
 .layout--splash .comparison-conclusion p {
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0;
@@ -717,7 +717,7 @@ body.home h1:not(.page__title) {
 
 /* Competitive Advantages Section (Support Hub) */
 .layout--splash .competitive-advantages {
-  background-color: #1e2a38;
+  background-color: $junkstore-bg-card;
   padding: 1rem 1rem 2.5rem 1rem;
   margin: 2rem 0;
   text-align: center;
@@ -731,7 +731,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .competitive-advantages h2 {
-  color: #66bfff;
+  color: $junkstore-primary;
   font-size: 1.8rem;
   margin-top: 0;
   margin-bottom: 2rem;
@@ -751,13 +751,13 @@ body.home h1:not(.page__title) {
   padding: 1.5rem 1rem;
   border-radius: 8px;
   border: 1px solid #444;
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   text-align: center;
 }
 
 .layout--splash .advantage-item h4 {
-  color: #66bfff;
+  color: $junkstore-primary;
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -766,7 +766,7 @@ body.home h1:not(.page__title) {
 
 .layout--splash .advantage-item p {
   font-size: 0.95rem;
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   font-weight: 400;
   margin: 0;
   line-height: 1.4;
@@ -777,7 +777,7 @@ body.home h1:not(.page__title) {
   text-align: center;
   margin: 2rem auto;
   padding: 2rem 1rem;
-  background-color: #1e2a38;
+  background-color: $junkstore-bg-card;
   border-radius: 8px;
   border: 1px solid #444;
   max-width: 1200px;
@@ -785,7 +785,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .where-to-find h2 {
-  color: #66bfff;
+  color: $junkstore-primary;
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   font-weight: bold;
@@ -793,7 +793,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .where-to-find p {
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   font-size: 1.1rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
@@ -811,7 +811,7 @@ body.home h1:not(.page__title) {
   text-align: left;
   margin: 2rem auto;
   padding: 2rem 1.5rem;
-  background-color: #1e2a38;
+  background-color: $junkstore-bg-card;
   border-radius: 8px;
   border: 1px solid #444;
   max-width: 1200px;
@@ -819,7 +819,7 @@ body.home h1:not(.page__title) {
 }
 
 .layout--splash .gog-extension h2 {
-  color: #66bfff;
+  color: $junkstore-primary;
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   font-weight: bold;
@@ -829,7 +829,7 @@ body.home h1:not(.page__title) {
 
 .layout--splash .gog-extension p,
 .layout--splash .gog-extension div {
-  color: #e8e8e8;
+  color: $junkstore-light-text;
   font-size: 1.1rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
@@ -856,7 +856,7 @@ body.home h2 {
   width: 98% !important;
   margin: 0.5rem auto 0.5rem auto !important;
   padding: 0 1.5rem !important;
-  color: #66bfff !important;
+  color: $junkstore-primary !important;
   font-size: 2rem !important;
   text-align: center !important;
   font-weight: bold !important;

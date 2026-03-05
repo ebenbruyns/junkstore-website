@@ -72,7 +72,26 @@ excerpt: "FAQ, troubleshooting & tutorials for setup, features, and game compati
 <!-- FAQ Content - Loaded from Firebase -->
 <div id="faq-content" class="faq-grid">
   <div class="loading-indicator">
-    <p>Loading FAQ items...</p>
+    <div class="faq-skeleton">
+      <div class="skeleton skeleton-badge"></div>
+      <div class="skeleton skeleton-question"></div>
+      <div class="skeleton skeleton-answer"></div>
+      <div class="skeleton skeleton-answer"></div>
+      <div class="skeleton skeleton-answer"></div>
+    </div>
+    <div class="faq-skeleton">
+      <div class="skeleton skeleton-badge"></div>
+      <div class="skeleton skeleton-question"></div>
+      <div class="skeleton skeleton-answer"></div>
+      <div class="skeleton skeleton-answer"></div>
+    </div>
+    <div class="faq-skeleton">
+      <div class="skeleton skeleton-badge"></div>
+      <div class="skeleton skeleton-question"></div>
+      <div class="skeleton skeleton-answer"></div>
+      <div class="skeleton skeleton-answer"></div>
+      <div class="skeleton skeleton-answer"></div>
+    </div>
   </div>
 </div>
 

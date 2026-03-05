@@ -120,6 +120,38 @@ $yiq-contrasted-light-default: #fff !default;
 $yiq-contrasted-threshold: 175 !default;
 $yiq-debug: false !default;
 
+/* ==========================================================================
+   JunkStore Custom Colors
+   ========================================================================== */
+
+/* Brand colors */
+$junkstore-primary: #66bfff !default;      /* Light blue - headers, highlights */
+$junkstore-accent: #ffa366 !default;       /* Orange - section headers, CTAs */
+$junkstore-link: #007acc !default;         /* Blue - links, buttons */
+
+/* Semantic colors */
+$junkstore-success: #48bb78 !default;      /* Green - compatible, working */
+$junkstore-warning: #ecc94b !default;      /* Yellow - caution, partial */
+$junkstore-danger: #f56565 !default;       /* Red - error, incompatible */
+
+/* Dark theme backgrounds */
+$junkstore-bg-dark: #252a34 !default;      /* Main background */
+$junkstore-bg-card: #1e2a38 !default;      /* Card/section background */
+$junkstore-bg-elevated: #2d3748 !default;  /* Elevated elements */
+
+/* Loading/skeleton colors */
+$junkstore-skeleton-base: #2a3441 !default;
+$junkstore-skeleton-highlight: #3a4555 !default;
+$junkstore-skeleton-shimmer: rgba(255, 163, 102, 0.1) !default;
+
+/* Utility colors */
+$white: #fff !default;
+$black: #000 !default;
+$junkstore-border: #444 !default;         /* Border color for dark theme */
+$junkstore-gray-text: #ccc !default;      /* Muted body text */
+$junkstore-light-text: #e8e8e8 !default;  /* Light text on dark backgrounds */
+$junkstore-meta-text: #999 !default;      /* Meta info, timestamps */
+
 /* brands */
 $behance-color: #1769ff !default;
 $bitbucket-color: #205081 !default;

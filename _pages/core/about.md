@@ -26,8 +26,8 @@ excerpt: "The only Steam Deck solution that keeps you in Game Mode while playing
   <p>The driving philosophy behind everything we build is simple: your handheld deserves a handheld experience. Unlike desktop-first solutions that treat Steam Deck like a mini-PC, every feature in Junk Store is designed to work seamlessly with your controller in Game Mode. We never force you to switch to Desktop Mode because that breaks the magic of what makes Steam Deck special.</p>
 </section>
 
-<section class="philosophy" style="margin-top: -1rem !important;">
-  <h2 style="text-align: center !important; margin: 0.5rem auto 0.5rem auto !important; max-width: 1200px !important; width: 98% !important; color: #66bfff !important; font-size: 2rem !important; font-weight: bold !important; padding: 0 1.5rem !important;">Our Development Philosophy</h2>
+<section class="philosophy" style="margin-top: -1rem;">
+  <h2 class="section-header">Our Development Philosophy</h2>
   <div class="philosophy-points">
     <p><strong>Quality over Quantity:</strong> We prioritize solving problems properly rather than rushing features.</p>
     <p><strong>Extensible by Design:</strong> Built as an "open and extensible launcher framework" that can grow with community needs.</p>
@@ -37,11 +37,11 @@ excerpt: "The only Steam Deck solution that keeps you in Game Mode while playing
 </section>
 
 
-<h2 style="text-align: center !important; margin: 1rem auto 0.5rem auto !important; max-width: 1200px !important; width: 98% !important; color: #66bfff !important; font-size: 2rem !important; font-weight: bold !important; padding: 0 1.5rem !important;">What Our Users Say</h2>
+<h2 class="section-header">What Our Users Say</h2>
 
 {% include testimonials.html %}
 
-<h2 style="text-align: center !important; margin: 3.5rem auto 0.5rem auto !important; max-width: 1200px !important; width: 98% !important; color: #66bfff !important; font-size: 2rem !important; font-weight: bold !important; padding: 0 1.5rem !important;">Hear from the Developer</h2>
+<h2 class="section-header" style="margin-top: 3.5rem;">Hear from the Developer</h2>
 
 <p>Curious about the story behind Junk Store? Check out these interviews and talks featuring our developer.</p>
 

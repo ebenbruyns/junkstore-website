@@ -8,7 +8,7 @@ timezone: Pacific/Auckland
 
 # Theme Settings
 #theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+#remote_theme: "mmistakes/minimal-mistakes@4.27.1"  # DISABLED - using local files only
 minimal_mistakes_skin: "default" # Default skin (we will set light/dark below)
 locale: "en-US"
 

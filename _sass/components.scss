@@ -1,0 +1,159 @@
+/* ==========================================================================
+   JunkStore Component Classes
+   Reusable CSS classes to replace inline styles across the site
+   Created: March 5, 2026
+   ========================================================================== */
+
+/* ==========================================================================
+   Alert / Notice Boxes
+   Usage: <div class="alert-warning">Warning message</div>
+   ========================================================================== */
+
+.alert-warning,
+.alert-error,
+.alert-success,
+.alert-info {
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.alert-warning {
+  background: linear-gradient(135deg, #2a2a1a 0%, #1e2a38 100%);
+  border: 2px solid #e67300;
+  border-left-width: 4px;
+}
+
+.alert-error {
+  background: rgba(255, 69, 0, 0.15);
+  border: 2px solid #ff4500;
+  border-left-width: 4px;
+}
+
+.alert-success {
+  background: rgba(72, 187, 120, 0.15);
+  border: 2px solid #48bb78;
+  border-left-width: 4px;
+}
+
+.alert-info {
+  background: rgba(102, 191, 255, 0.1);
+  border: 2px solid #66bfff;
+  border-left-width: 4px;
+}
+
+/* Alert icons - optional */
+.alert-warning::before,
+.alert-error::before,
+.alert-success::before,
+.alert-info::before {
+  font-size: 1.1rem;
+  margin-right: 0.5rem;
+}
+
+/* ==========================================================================
+   Grid Layouts
+   Usage: <div class="grid-auto">...</div>
+   ========================================================================== */
+
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.grid-2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-3col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
+   Text Utilities
+   Usage: <span class="text-muted">Secondary text</span>
+   ========================================================================== */
+
+.text-muted {
+  color: #999;
+}
+
+.text-meta {
+  color: #888;
+  font-size: 0.875rem;
+}
+
+.text-primary {
+  color: #66bfff;
+}
+
+.text-accent {
+  color: #ffa366;
+}
+
+.text-success {
+  color: #48bb78;
+}
+
+.text-warning {
+  color: #ecc94b;
+}
+
+.text-danger {
+  color: #f56565;
+}
+
+/* ==========================================================================
+   Section Headers
+   Usage: <h2 class="section-header">Section Title</h2>
+   Replaces the repeated inline h2 styling throughout the site
+   ========================================================================== */
+
+.section-header {
+  text-align: center;
+  margin: 1rem auto 0.5rem auto;
+  max-width: 1200px;
+  width: 98%;
+  color: #66bfff;
+  font-size: 1.5rem;  /* Proper h2 size, not larger than h1 */
+  font-weight: bold;
+  padding: 0 1.5rem;
+}
+
+/* ==========================================================================
+   Card Components
+   Usage: <div class="card">Content</div>
+   ========================================================================== */
+
+.card {
+  background: #1e2a38;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-elevated {
+  background: #2d3748;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}

@@ -8,7 +8,6 @@
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
 @import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
-@import "minimal-mistakes/vendor/susy/susy";
 @import "minimal-mistakes/mixins";
 
 /* Core CSS */
@@ -50,6 +49,8 @@
 @import "features-page";
 @import "hero-height-fix";
 @import "buy-now-screenshot";
+@import "skeleton-loaders";
+@import "components";              // Reusable component classes (alerts, grids, text utilities)
 
 /* New page-specific CSS structure */
 @import "base-styles";           // Site-wide styles (TOC, navigation, code blocks)

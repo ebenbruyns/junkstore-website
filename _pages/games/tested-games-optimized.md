@@ -64,9 +64,45 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
   </div>
 </div>
 
-<!-- Loading indicator -->
-<div id="loadingIndicator" style="text-align: center; padding: 20px;">
-  Loading games...
+<!-- Loading indicator with skeleton -->
+<div id="loadingIndicator">
+  <div class="games-table-skeleton">
+    <div class="skeleton-row">
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+    </div>
+    <div class="skeleton-row">
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+    </div>
+    <div class="skeleton-row">
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+    </div>
+    <div class="skeleton-row">
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+    </div>
+    <div class="skeleton-row">
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+      <div class="skeleton skeleton-cell"></div>
+    </div>
+  </div>
 </div>
 
 <!-- Compatibility Legend -->

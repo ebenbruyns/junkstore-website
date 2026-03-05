@@ -20,7 +20,7 @@
 }
 
 .epic-feature-item span:first-child {
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
     font-weight: 600;
 }
 
@@ -67,7 +67,7 @@
     background: rgba(255, 163, 102, 0.08) !important;
     border: 1px solid rgba(255, 163, 102, 0.2);
     border-radius: 6px;
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
     text-decoration: none !important;
     font-size: 0.85rem;
     font-weight: 500;
@@ -143,7 +143,7 @@
 /* Enhanced Header - Dark Theme */
 .modal-header-enhanced {
     background: linear-gradient(135deg, #334458 0%, #253445 100%) !important;
-    border-bottom: 2px solid #ffa366 !important;
+    border-bottom: 2px solid $junkstore-accent !important;
     padding: 15px !important;
     position: relative !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
@@ -249,7 +249,7 @@
 
 /* Essential Info Strip - Dark Theme */
 .essential-info {
-    background: linear-gradient(135deg, #253445 0%, #1e2a38 100%) !important;
+    background: linear-gradient(135deg, #253445 0%, $junkstore-bg-card 100%) !important;
     padding: 20px !important;
     border-bottom: 1px solid #4a5568 !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
@@ -264,7 +264,7 @@
 .feature-item {
     text-align: center;
     padding: 15px 12px;
-    background: #1e2a38;
+    background: $junkstore-bg-card;
     border: 1px solid #4a5568;
     border-radius: 12px;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -279,7 +279,7 @@
     background: #253445;
     transform: translateY(-4px) scale(1.02);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 163, 102, 0.5);
-    border-color: #ffa366;
+    border-color: $junkstore-accent;
     outline: none;
 }
 
@@ -329,7 +329,7 @@
 .feature-item:hover .feature-label,
 .feature-item:focus-visible .feature-label {
     opacity: 1;
-    color: #ffa366;
+    color: $junkstore-accent;
 }
 
 /* Simple Tabs for Dark Theme */
@@ -361,7 +361,7 @@
 
 .tab-button:hover,
 .tab-button:focus-visible {
-    color: #ffa366;
+    color: $junkstore-accent;
     background: rgba(255, 163, 102, 0.08);
     transform: translateY(-1px);
     outline: none;
@@ -384,9 +384,9 @@
 }
 
 .tab-button.active {
-    background: linear-gradient(135deg, #2d3748 0%, #253445 100%);
-    border-bottom-color: #ffa366;
-    color: #ffa366;
+    background: linear-gradient(135deg, $junkstore-bg-elevated 0%, #253445 100%);
+    border-bottom-color: $junkstore-accent;
+    color: $junkstore-accent;
     border-radius: 12px 12px 0 0;
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px);
@@ -400,7 +400,7 @@
 .tab-content-simple {
     padding: 20px 25px !important;
     min-height: 280px !important;
-    background: #2d3748 !important;
+    background: $junkstore-bg-elevated !important;
     max-height: 450px !important;
     overflow-y: auto !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
@@ -425,7 +425,7 @@
 }
 
 .info-section h6 {
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
     margin-bottom: 6px;
     margin-top: 0;
     font-weight: 600;
@@ -441,7 +441,7 @@
 .modal-content h6,
 .game-modal .info-section h6,
 .modal-content .info-section h6 {
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
 }
 
 /* Section header icons - exact source colors with maximum specificity */
@@ -503,7 +503,7 @@
 
 .info-label {
     font-weight: 600 !important;
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
     font-size: 0.85rem !important;
     display: block !important;
     margin-bottom: 6px !important;
@@ -516,7 +516,7 @@
 
 .notes-content {
     background: #1a202c;
-    border-left: 4px solid #ffa366;
+    border-left: 4px solid $junkstore-accent;
     padding: 10px 12px;
     border-radius: 0 8px 8px 0;
     margin-top: 1px;
@@ -526,7 +526,7 @@
 }
 
 .notes-content.alert-warning {
-    border-left-color: #f56565;
+    border-left-color: $junkstore-danger;
     background: rgba(245, 101, 101, 0.1);
 }
 
@@ -542,9 +542,9 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
 
-.compatibility-good { background: rgba(72, 187, 120, 0.2); color: #48bb78; }
-.compatibility-okay { background: rgba(236, 201, 75, 0.2); color: #ecc94b; }
-.compatibility-bad { background: rgba(245, 101, 101, 0.2); color: #f56565; }
+.compatibility-good { background: rgba(72, 187, 120, 0.2); color: $junkstore-success; }
+.compatibility-okay { background: rgba(236, 201, 75, 0.2); color: $junkstore-warning; }
+.compatibility-bad { background: rgba(245, 101, 101, 0.2); color: $junkstore-danger; }
 .compatibility-unknown { color: #a0aec0; }
 
 /* Modal backdrop and basic styling - Override Bootstrap */
@@ -628,7 +628,7 @@ div.game-modal.show,
 .modal-close:hover,
 .modal-close:focus-visible {
     color: #e2e8f0 !important;
-    outline: 2px solid #ffa366;
+    outline: 2px solid $junkstore-accent;
     outline-offset: 2px;
 }
 
@@ -708,7 +708,7 @@ div.game-modal.show,
 }
 
 .nav-tabs-clean .nav-link:hover {
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
     background: rgba(255, 163, 102, 0.08) !important;
     text-decoration: none !important;
     transform: translateY(-1px) !important;
@@ -730,9 +730,9 @@ div.game-modal.show,
 }
 
 .nav-tabs-clean .nav-link.active {
-    background: linear-gradient(135deg, #2d3748 0%, #253445 100%) !important;
-    border-bottom-color: #ffa366 !important;
-    color: #ffa366 !important;
+    background: linear-gradient(135deg, $junkstore-bg-elevated 0%, #253445 100%) !important;
+    border-bottom-color: $junkstore-accent !important;
+    color: $junkstore-accent !important;
     border-radius: 12px 12px 0 0 !important;
     box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2) !important;
     transform: translateY(-2px) !important;
@@ -745,7 +745,7 @@ div.game-modal.show,
 .tab-content-enhanced {
     padding: 10px 20px 30px 20px !important;
     min-height: 280px !important;
-    background: #2d3748 !important;
+    background: $junkstore-bg-elevated !important;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !important;
     color: #e2e8f0 !important;
     font-size: 0.9rem !important;
@@ -870,12 +870,12 @@ div.game-modal.show,
 }
 
 .feature-status.status-supported {
-    color: #48bb78 !important;
+    color: $junkstore-success !important;
     font-weight: 600 !important;
 }
 
 .feature-status.status-required {
-    color: #f56565 !important;
+    color: $junkstore-danger !important;
     font-weight: 600 !important;
 }
 
@@ -883,25 +883,25 @@ div.game-modal.show,
 .game-modal .text-primary,
 .modal-content .text-primary,
 .game-modal .modal-content .text-primary { 
-    color: #ffa366 !important; 
+    color: $junkstore-accent !important; 
 }
 
 .game-modal .text-success,
 .modal-content .text-success,
 .game-modal .modal-content .text-success { 
-    color: #48bb78 !important; 
+    color: $junkstore-success !important; 
 }
 
 .game-modal .text-warning,
 .modal-content .text-warning,
 .game-modal .modal-content .text-warning { 
-    color: #ecc94b !important; 
+    color: $junkstore-warning !important; 
 }
 
 .game-modal .text-danger,
 .modal-content .text-danger,
 .game-modal .modal-content .text-danger { 
-    color: #f56565 !important; 
+    color: $junkstore-danger !important; 
 }
 
 .game-modal .text-info,
@@ -914,19 +914,19 @@ div.game-modal.show,
 .game-modal .essential-info .feature-value.text-success,
 .modal-content .essential-info .feature-value.text-success,
 .game-modal .modal-content .essential-info .feature-value.text-success {
-    color: #48bb78 !important;
+    color: $junkstore-success !important;
 }
 
 .game-modal .essential-info .feature-value.text-warning,
 .modal-content .essential-info .feature-value.text-warning,
 .game-modal .modal-content .essential-info .feature-value.text-warning {
-    color: #ecc94b !important;
+    color: $junkstore-warning !important;
 }
 
 .game-modal .essential-info .feature-value.text-danger,
 .modal-content .essential-info .feature-value.text-danger,
 .game-modal .modal-content .essential-info .feature-value.text-danger {
-    color: #f56565 !important;
+    color: $junkstore-danger !important;
 }
 
 /* Base feature value styling */
@@ -935,23 +935,23 @@ div.game-modal.show,
     font-weight: 700 !important;
     font-size: 1rem !important;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
 }
 
 /* Status-specific colors - must come AFTER base styling */
 .game-modal .feature-value.text-success,
 .modal-content .feature-value.text-success {
-    color: #48bb78 !important;
+    color: $junkstore-success !important;
 }
 
 .game-modal .feature-value.text-warning,
 .modal-content .feature-value.text-warning {
-    color: #ecc94b !important;
+    color: $junkstore-warning !important;
 }
 
 .game-modal .feature-value.text-danger,
 .modal-content .feature-value.text-danger {
-    color: #f56565 !important;
+    color: $junkstore-danger !important;
 }
 
 .me-2 { margin-right: 0.5rem !important; }

@@ -5,7 +5,7 @@
 
 /* Games table wrapper - isolated container */
 .games-table-wrapper {
-    background: #1e2a38 !important;
+    background: $junkstore-bg-card !important;
     border-radius: 8px !important;
     border: 1px solid #3a4a5c !important;
     overflow: hidden !important;
@@ -29,7 +29,7 @@
     width: 100% !important;
     border-collapse: collapse !important;
     margin: 0 !important;
-    background: #1e2a38 !important;
+    background: $junkstore-bg-card !important;
     color: #ddd !important;
     font-size: 1rem !important;
     table-layout: fixed !important;
@@ -73,7 +73,7 @@
 .games-table-wrapper #gamesTable td {
     padding: 10px 15px !important;
     border-bottom: 1px solid #3a4a5c !important;
-    background: #1e2a38 !important;
+    background: $junkstore-bg-card !important;
     color: #ddd !important;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
     border-top: none !important;
@@ -87,7 +87,7 @@
 /* Featured game highlighting */
 .games-table-wrapper #gamesTable tbody tr.featured-game {
     background: rgba(255, 163, 102, 0.05) !important;
-    border-left: 3px solid #ffa366 !important;
+    border-left: 3px solid $junkstore-accent !important;
 }
 
 .games-table-wrapper #gamesTable tbody tr.featured-game td {
@@ -116,7 +116,7 @@
 .games-table-wrapper #gamesTable tbody tr.retest-game,
 .games-table-wrapper #gamesTable tbody tr.backlog-game {
     background: rgba(102, 191, 255, 0.08) !important;
-    border-left: 3px solid #66bfff !important;
+    border-left: 3px solid $junkstore-primary !important;
 }
 .games-table-wrapper #gamesTable tbody tr.retest-game td,
 .games-table-wrapper #gamesTable tbody tr.backlog-game td {
@@ -135,7 +135,7 @@
 
 /* Game title links - make them more obvious and clickable */
 .games-table-wrapper .game-link {
-    color: #66bfff !important;
+    color: $junkstore-primary !important;
     text-decoration: underline !important;
     cursor: pointer !important;
     font-weight: 600 !important;
@@ -146,7 +146,7 @@
 }
 
 .games-table-wrapper .game-link:hover {
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
     text-decoration: underline !important;
     background: rgba(255, 163, 102, 0.1) !important;
     transform: translateY(-1px) !important;
@@ -266,13 +266,13 @@
 
 .games-table-wrapper .pagination-btn:hover {
     background: #5a6575 !important;
-    border-color: #ffa366 !important;
+    border-color: $junkstore-accent !important;
 }
 
 .games-table-wrapper .pagination-btn.active {
-    background: #ffa366 !important;
+    background: $junkstore-accent !important;
     color: #000 !important;
-    border-color: #ffa366 !important;
+    border-color: $junkstore-accent !important;
     font-weight: 600 !important;
 }
 
@@ -310,7 +310,7 @@
 
 .control-group label {
     font-weight: 600 !important;
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
     font-size: 0.9rem !important;
 }
 
@@ -361,7 +361,7 @@
 
 .search-clear-btn:hover {
     background: rgba(255, 163, 102, 0.2) !important;
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
 }
 
 .search-clear-btn.show {
@@ -372,12 +372,12 @@
 #searchInput:focus,
 #pageSizeSelect:focus {
     outline: none !important;
-    border-color: #ffa366 !important;
+    border-color: $junkstore-accent !important;
 }
 
 /* Featured games section styling */
 .feature-box.games-featured-box {
-    background: linear-gradient(135deg, #2a3442 0%, #1e2a38 100%) !important;
+    background: linear-gradient(135deg, #2a3442 0%, $junkstore-bg-card 100%) !important;
     border: 1px solid #3a4a5c !important;
     border-radius: 12px !important;
     padding: 20px !important;
@@ -386,7 +386,7 @@
 }
 
 .feature-box.games-featured-box h3 {
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
     margin: 0 0 10px 0 !important;
     font-size: 1.2rem !important;
     font-weight: 600 !important;
@@ -456,9 +456,9 @@
     right: 1.5rem !important;
     z-index: 1000 !important;
     display: none !important;
-    background: #1e2a38 !important;
-    color: #ffa366 !important;
-    border: 2px solid #ffa366 !important;
+    background: $junkstore-bg-card !important;
+    color: $junkstore-accent !important;
+    border: 2px solid $junkstore-accent !important;
     border-radius: 8px !important;
     padding: 8px 12px !important;
     font-size: 0.9rem !important;
@@ -472,8 +472,8 @@
 }
 
 #backToTop:hover {
-    background: #ffa366 !important;
-    color: #1e2a38 !important;
+    background: $junkstore-accent !important;
+    color: $junkstore-bg-card !important;
     transform: translateY(-2px) !important;
     box-shadow: 0 6px 16px rgba(0,0,0,0.5) !important;
 }
@@ -498,7 +498,7 @@
   
   .games-table-wrapper #gamesTable tbody tr {
     display: block !important;
-    background: #1e2a38 !important;
+    background: $junkstore-bg-card !important;
     border: 1px solid #3a4a5c !important;
     border-radius: 8px !important;
     margin-bottom: 15px !important;
@@ -508,7 +508,7 @@
   }
   
   .games-table-wrapper #gamesTable tbody tr.featured-game {
-    border-left: 4px solid #ffa366 !important;
+    border-left: 4px solid $junkstore-accent !important;
     background: rgba(255, 163, 102, 0.05) !important;
   }
   
@@ -538,28 +538,28 @@
   .games-table-wrapper #gamesTable tbody tr td:nth-child(2):before {
     content: "Store: ";
     font-weight: 600;
-    color: #ffa366;
+    color: $junkstore-accent;
     margin-right: 8px;
   }
   
   .games-table-wrapper #gamesTable tbody tr td:nth-child(3):before {
     content: "Decky Plugin: ";
     font-weight: 600;
-    color: #ffa366;
+    color: $junkstore-accent;
     margin-right: 8px;
   }
   
   .games-table-wrapper #gamesTable tbody tr td:nth-child(4):before {
     content: "Pro Version: ";
     font-weight: 600;
-    color: #ffa366;
+    color: $junkstore-accent;
     margin-right: 8px;
   }
   
   .games-table-wrapper #gamesTable tbody tr td:nth-child(5):before {
     content: "Date Tested: ";
     font-weight: 600;
-    color: #ffa366;
+    color: $junkstore-accent;
     margin-right: 8px;
   }
   

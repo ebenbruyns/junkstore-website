@@ -1,7 +1,7 @@
 /* Games table wrapper - high specificity */
 .games-table-wrapper,
 div.games-table-wrapper {
-    background: #1e2a38 !important;
+    background: $junkstore-bg-card !important;
     border-radius: 8px !important;
     border: 1px solid #3a4a5c !important;
     overflow: hidden !important;
@@ -16,7 +16,7 @@ body .games-table-wrapper #gamesTable {
   min-width: 600px !important; // ✅ Ensures scroll on small screens if needed
   border-collapse: collapse !important;
   margin-top: 0 !important;
-  background: #1e2a38 !important;
+  background: $junkstore-bg-card !important;
   color: #ddd !important;
   font-size: 1rem !important;
   table-layout: fixed !important;
@@ -52,7 +52,7 @@ body #gamesTable tbody td {
     word-break: break-word !important;
     min-width: 0 !important;
     max-width: 100% !important;
-    background: #1e2a38 !important;
+    background: $junkstore-bg-card !important;
     color: #ddd !important;
     border-top: none !important;
     border-left: none !important;
@@ -110,13 +110,13 @@ table#gamesTable tbody tr:hover td,
 
 #gamesTable .game-link:hover,
 #gamesTable .game-link.clickable:hover {
-    color: #ffa366 !important;
+    color: $junkstore-accent !important;
     text-decoration: underline !important;
 }
 
 /* Other links */
 #gamesTable a {
-  color: #66bfff !important;
+  color: $junkstore-primary !important;
   text-decoration: underline !important;
 }
 #gamesTable a:hover {
@@ -156,7 +156,7 @@ table#gamesTable tbody tr:hover td,
 
 .control-group label {
     font-weight: 600;
-    color: #ffa366;
+    color: $junkstore-accent;
     font-size: 0.9rem;
 }
 
@@ -180,7 +180,7 @@ table#gamesTable tbody tr:hover td,
 .table-controls select:focus,
 .table-controls input:focus {
     outline: none !important;
-    border-color: #ffa366 !important;
+    border-color: $junkstore-accent !important;
 }
 
 #storefrontFilter:hover,
@@ -198,7 +198,7 @@ table#gamesTable tbody tr:hover td,
   gap: 2rem;
   margin-bottom: 1rem;
   padding: 1rem;
-  background-color: #1e2a38;
+  background-color: $junkstore-bg-card;
   border-radius: 8px;
   border: 1px solid #444;
 }
@@ -227,7 +227,7 @@ table#gamesTable tbody tr:hover td,
 }
 
 #searchInput:focus {
-  border-color: #ffa366;
+  border-color: $junkstore-accent;
   outline: none;
   box-shadow: 0 0 5px rgba(255, 163, 102, 0.3);
 }
@@ -255,9 +255,9 @@ table#gamesTable tbody tr:hover td,
   right: 1.5rem;
   z-index: 1000;
   display: none;
-  background: #1e2a38 !important;
-  color: #ffa366 !important;
-  border: 2px solid #ffa366 !important;
+  background: $junkstore-bg-card !important;
+  color: $junkstore-accent !important;
+  border: 2px solid $junkstore-accent !important;
   border-radius: 8px;
   padding: 8px 12px;
   font-size: 0.9rem;
@@ -270,8 +270,8 @@ table#gamesTable tbody tr:hover td,
 }
 
 #backToTop:hover {
-  background: #ffa366 !important;
-  color: #1e2a38 !important;
+  background: $junkstore-accent !important;
+  color: $junkstore-bg-card !important;
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0,0,0,0.5);
 }
@@ -288,9 +288,9 @@ table#gamesTable tbody tr:hover td,
   right: 6px;
   top: 50%;
   transform: translateY(-50%);
-  background: #1e2a38;
-  border: 1px solid #ffa366;
-  color: #ffa366;
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-accent;
+  color: $junkstore-accent;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
@@ -305,8 +305,8 @@ table#gamesTable tbody tr:hover td,
 }
 
 .clear-search-btn:hover {
-  background: #ffa366;
-  color: #1e2a38;
+  background: $junkstore-accent;
+  color: $junkstore-bg-card;
 }
 
 .search-input-container input {
@@ -355,7 +355,7 @@ table#gamesTable tbody tr:hover td,
   
   #gamesTable tbody tr {
     display: block;
-    background-color: #1e2a38;
+    background-color: $junkstore-bg-card;
     border: 1px solid #444;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -384,7 +384,7 @@ table#gamesTable tbody tr:hover td,
   /* Add labels for each field */
   #gamesTable td::before {
     font-weight: bold;
-    color: #66bfff;
+    color: $junkstore-primary;
     display: inline-block;
     min-width: 80px;
     margin-right: 0.5rem;
@@ -444,7 +444,7 @@ table#gamesTable tbody tr:hover td,
 
 /* Recently tested section */
 .feature-box {
-  background: linear-gradient(135deg, #2a3442 0%, #1e2a38 100%);
+  background: linear-gradient(135deg, #2a3442 0%, $junkstore-bg-card 100%);
   border: 1px solid #3a4a5c;
   border-radius: 12px;
   padding: 1.25rem;
@@ -453,7 +453,7 @@ table#gamesTable tbody tr:hover td,
 }
 
 .feature-box h3 {
-  color: #ffa366;
+  color: $junkstore-accent;
   margin: 0 0 0.25rem 0 !important;
   font-size: 1.2rem;
   font-weight: 600;
@@ -530,7 +530,7 @@ table#gamesTable tbody tr:hover td,
   overflow-x: auto;
   border-radius: 8px;
   border: 1px solid #ddd;
-  background-color: #1e2a38;
+  background-color: $junkstore-bg-card;
   min-height: 600px;
 }
 
@@ -553,7 +553,7 @@ table#gamesTable tbody tr:hover td,
 }
 
 .table-scroll-container::-webkit-scrollbar-track {
-  background-color: #1e2a38;
+  background-color: $junkstore-bg-card;
 }
 
 #gamesTable thead {
@@ -596,7 +596,7 @@ table#gamesTable tbody tr:hover td,
 .search-suggestions a {
   display: inline-block;
   background-color: #334458;
-  color: #66bfff;
+  color: $junkstore-primary;
   text-decoration: none;
   padding: 0.4rem 0.8rem;
   border-radius: 6px;
@@ -624,13 +624,13 @@ table#gamesTable tbody tr:hover td,
 
 #gamesTable tr.featured-game td:first-child {
   font-weight: 600;
-  color: #ffa366;
+  color: $junkstore-accent;
 }
 
 /* Game title clickable styling */
 .game-link.clickable {
   cursor: pointer;
-  color: #66bfff !important;
+  color: $junkstore-primary !important;
   transition: all 0.2s ease;
   font-weight: 600;
   text-decoration: underline;
@@ -638,8 +638,8 @@ table#gamesTable tbody tr:hover td,
 }
 
 .game-link.clickable:hover {
-  color: #ffa366 !important;
-  text-decoration-color: #ffa366;
+  color: $junkstore-accent !important;
+  text-decoration-color: $junkstore-accent;
   background-color: rgba(255, 163, 102, 0.1);
   padding: 2px 4px;
   border-radius: 4px;
@@ -648,7 +648,7 @@ table#gamesTable tbody tr:hover td,
 /* Pagination Container */
 .pagination-container {
   margin-top: 1.5rem;
-  background-color: #1e2a38;
+  background-color: $junkstore-bg-card;
   border-radius: 8px;
   padding: 1rem;
   border: 1px solid #444;
@@ -706,9 +706,9 @@ table#gamesTable tbody tr:hover td,
 }
 
 .pagination-btn.active {
-  background-color: #ffa366;
+  background-color: $junkstore-accent;
   color: #1a202c;
-  border-color: #ffa366;
+  border-color: $junkstore-accent;
   font-weight: 600;
   z-index: 2;
   position: relative;

@@ -1,0 +1,185 @@
+/* ==========================================================================
+   Skeleton Loaders
+   Animated placeholder content while Firebase data loads
+   ========================================================================== */
+
+/* Base skeleton animation */
+.skeleton {
+  background: linear-gradient(90deg, #2a3441 25%, #3a4555 50%, #2a3441 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s ease-in-out infinite;
+  border-radius: 4px;
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ==========================================================================
+   Testimonial Skeleton
+   ========================================================================== */
+
+.testimonial-skeleton {
+  padding: 20px;
+  background: #1e2a38;
+  border-radius: 8px;
+  border: 1px solid #4a5568;
+  margin-bottom: 1rem;
+}
+
+.testimonial-skeleton .skeleton-text {
+  height: 16px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.testimonial-skeleton .skeleton-text:nth-child(2) {
+  width: 90%;
+}
+
+.testimonial-skeleton .skeleton-text:nth-child(3) {
+  width: 75%;
+}
+
+.testimonial-skeleton .skeleton-author {
+  height: 14px;
+  width: 120px;
+  margin-top: 15px;
+}
+
+/* ==========================================================================
+   Games Table Skeleton
+   ========================================================================== */
+
+.games-table-skeleton {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 1rem 0;
+}
+
+.skeleton-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 80px 80px 100px;
+  gap: 10px;
+  padding: 12px 15px;
+  background: #1e2a38;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.skeleton-row .skeleton-cell {
+  height: 20px;
+}
+
+.skeleton-row .skeleton-cell:first-child {
+  width: 80%;
+}
+
+.skeleton-row .skeleton-cell:nth-child(2) {
+  width: 60%;
+}
+
+.skeleton-row .skeleton-cell:nth-child(3),
+.skeleton-row .skeleton-cell:nth-child(4) {
+  width: 50px;
+  height: 24px;
+  border-radius: 12px;
+}
+
+.skeleton-row .skeleton-cell:last-child {
+  width: 70%;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .skeleton-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .skeleton-row .skeleton-cell:nth-child(n+3) {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   FAQ Skeleton
+   ========================================================================== */
+
+.faq-skeleton {
+  margin-bottom: 16px;
+  padding: 16px;
+  background: #1e2a38;
+  border-radius: 8px;
+  border: 1px solid #4a5568;
+}
+
+.faq-skeleton .skeleton-question {
+  height: 22px;
+  width: 70%;
+  margin-bottom: 12px;
+}
+
+.faq-skeleton .skeleton-badge {
+  height: 20px;
+  width: 60px;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.faq-skeleton .skeleton-answer {
+  height: 14px;
+  margin-bottom: 8px;
+}
+
+.faq-skeleton .skeleton-answer:nth-child(3) {
+  width: 95%;
+}
+
+.faq-skeleton .skeleton-answer:nth-child(4) {
+  width: 85%;
+}
+
+.faq-skeleton .skeleton-answer:last-child {
+  width: 60%;
+}
+
+/* ==========================================================================
+   Stats Skeleton (for tested-games stats bar)
+   ========================================================================== */
+
+.stats-skeleton {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.stats-skeleton .skeleton-stat {
+  text-align: center;
+}
+
+.stats-skeleton .skeleton-number {
+  height: 32px;
+  width: 60px;
+  margin: 0 auto 8px;
+}
+
+.stats-skeleton .skeleton-label {
+  height: 14px;
+  width: 50px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .stats-skeleton {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .stats-skeleton .skeleton-stat {
+    flex: 0 0 45%;
+  }
+}

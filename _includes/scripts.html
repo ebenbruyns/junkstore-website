@@ -3,7 +3,7 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% else %}
-  <script src="{{ '/assets/js/main.min.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
   <!-- Delay DOM-heavy operations to reduce forced reflows -->
   <script>
     window.addEventListener('load', function() {
