@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Get Junk Store Pro"
-description: "Download Junk Store Pro standalone app for Steam Deck. $40 annual license with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch.io (beta) directly in Game Mode."
+description: "Download Junk Store Pro standalone app for Steam Deck. $40 one-time purchase with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch directly in Game Mode."
 permalink: /buy_now/
 header:
   overlay_color: "#000"
@@ -84,15 +84,15 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
     <h3>🎮 Your Free Game Collection Is Worth Thousands</h3>
     <p>Between Epic's weekly giveaways and Prime Gaming's monthly drops, you've likely claimed hundreds—or even thousands—of dollars in free games.</p>
     <p><strong>Epic alone has given away over $10,000 worth of games since 2018.</strong></p>
-    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode with a <span data-pricing="price">$40</span> annual license.</p>
+    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode with a <span data-pricing="price">$40</span> one-time purchase.</p>
   </div>
 </section>
 
 <section class="pricing-highlight" id="pricing-details">
   <div class="pricing-box">
-    <h3>🚀 Get Everything for <span data-pricing="original-crossed">$40</span> Annual License</h3>
-    <p class="price-text"><span data-pricing="weekly">Less than $1</span> per week for unlimited Epic, GOG, Amazon & itch.io gaming without Desktop Mode frustration</p>
-    <p class="trial-text"><span data-pricing="trial">7-day free trial</span> • Cancel anytime • Keep everything forever after purchase</p>
+    <h3>🚀 <span data-pricing="original-crossed">$40</span> One-Time Purchase</h3>
+    <p class="price-text">Includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update.</p>
+    <p class="trial-text"><span data-pricing="trial">7-day free trial</span> • Yours forever • No subscription required</p>
     <div data-coupon-container style="display: none; margin-bottom: 1rem;">
       <span class="promo-code" data-pricing="coupon-code"></span> <span data-pricing="coupon-discount"></span>
       <div style="font-size: 0.9rem; opacity: 0.8;" data-pricing="coupon-desc"></div>
@@ -405,8 +405,8 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
     </div>
 
     <div class="faq-item">
-      <h4>What happens if I don't renew my annual license?</h4>
-      ✅ <strong>You keep everything forever.</strong> All games remain playable, just no future updates. <a href="/2.0faq/#what-happens-no-renew">Ownership details →</a>
+      <h4>Is this a subscription?</h4>
+      ✅ <strong>No - you own it permanently.</strong> Your $40 includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update. <a href="/2.0faq/#is-this-a-subscription">Full details →</a>
     </div>
 
     <div class="faq-item">
@@ -431,7 +431,7 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
 
     <div class="faq-item">
       <h4>I've been claiming free Epic and Prime Gaming games. Will this work with those?</h4>
-      ✅ <strong>Absolutely.</strong> Epic has given away $10,000+ worth of games since 2018, and Prime Gaming adds 15-25 games monthly. One <span data-pricing="price">$40</span> annual license unlocks your entire collection in Game Mode. <a href="/tested-games/">See compatible games →</a>
+      ✅ <strong>Absolutely.</strong> Epic has given away $10,000+ worth of games since 2018, and Prime Gaming adds 15-25 games monthly. One <span data-pricing="price">$40</span> purchase unlocks your entire collection in Game Mode. <a href="/tested-games/">See compatible games →</a>
     </div>
 
     <div class="faq-item">
@@ -463,9 +463,9 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
 
 <section class="pricing-highlight faq-pricing">
   <div class="pricing-box">
-    <h3>🚀 Get Everything for <span data-pricing="original-crossed">$40</span> Annual License</h3>
-    <p class="price-text"><span data-pricing="weekly">Less than $1</span> per week for unlimited Epic, GOG, Amazon & itch.io gaming</p>
-    <p class="trial-text"><span data-pricing="trial">7-day free trial</span> • Cancel anytime • Keep everything forever</p>
+    <h3>🚀 <span data-pricing="original-crossed">$40</span> One-Time Purchase</h3>
+    <p class="price-text">Includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update.</p>
+    <p class="trial-text"><span data-pricing="trial">7-day free trial</span> • Yours forever • No subscription required</p>
     <div class="pricing-cta">
       <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-pricing="portal-url">Start Free Trial</a>
     </div>

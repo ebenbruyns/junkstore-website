@@ -115,14 +115,14 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
     <h3>🎮 Your Free Game Collection Is Worth Thousands</h3>
     <p>Between Epic's weekly giveaways and Prime Gaming's monthly drops, you've likely claimed hundreds—or even thousands—of dollars in free games.</p>
     <p><strong>Epic alone has given away over $10,000 worth of games since 2018.</strong></p>
-    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode with a <span data-pricing="price">$40</span> annual license.</p>
+    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode with a <span data-pricing="price">$40</span> one-time purchase.</p>
   </div>
 </section>
 
 <section class="pricing-highlight">
   <div class="pricing-box">
     <h3>🚀 The Only Pure Game Mode Solution</h3>
-    <p class="price-text"><strong><span data-pricing="original-crossed">$40</span> annual license • <span data-pricing="trial">7-day free trial</span></strong></p>
+    <p class="price-text"><strong><span data-pricing="original-crossed">$40</span> one-time purchase • <span data-pricing="trial">7-day free trial</span></strong></p>
     <p class="value-text">Never leave Game Mode to play Epic, GOG, Amazon & itch.io games</p>
     <div data-coupon-container style="display: none; margin: 0.5rem 0;">
       <span class="promo-code" data-pricing="coupon-code"></span> <span data-pricing="coupon-discount"></span>
