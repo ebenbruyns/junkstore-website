@@ -2,7 +2,7 @@
 layout: splash
 title: "Junk Store Help"
 description: "Complete help for Junk Store - Decky Plugin and Pro Version. FAQ, troubleshooting, tutorials, and game compatibility."
-permalink: /help/
+permalink: /old-help/
 classes: wide
 header:
   overlay_color: "#000"
