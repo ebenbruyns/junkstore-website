@@ -139,7 +139,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
 <details class="faq-box" id="is-this-a-subscription">
   <summary>Is this a subscription?</summary>
   <p></p>
-    <strong>No - it's a one-time purchase, not a subscription.</strong> Your $40 purchase includes 12 months of updates, new features, and support.
+    <strong>No.</strong> The software is yours to keep. Your $40 includes 12 months of updates, new features, and support.
   <br>
   <br>
     <strong>Here's the reality:</strong> Steam regularly updates, and occasionally Epic, GOG, Amazon, and itch update their clients too. These changes can break compatibility. Your purchase includes 12 months of updates to keep everything working smoothly.
@@ -172,10 +172,10 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
     <strong>Device management:</strong> Each installation counts toward your device limit when you first activate it. If you need to replace a device or reinstall, contact support for assistance with license transfers.
 </details>
 
-<details class="faq-box" id="one-time-purchase">
+<details class="faq-box" id="do-i-need-to-keep-paying">
   <summary>Do I need to keep paying to use the software?</summary>
   <p></p>
-    <strong>No - it's a one-time purchase.</strong> Your $40 gets you Junk Store, plus 12 months of updates and support included.
+    <strong>No.</strong> The software is yours to keep. Your $40 gets you Junk Store plus 12 months of updates and support.
   <br>
   <br>
     <strong>What's included in your purchase:</strong>
@@ -196,7 +196,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
     <strong>Our commitment to stability:</strong>
     <ul>
       <li>🛠️ <strong>We're actively working</strong> to make Junk Store as stable as possible</li>
-      <li>🤝 <strong>Seeking Valve partnership:</strong> This would significantly improve long-term stability</li>
+      <li>🤝 <strong>Pursuing platform partnerships</strong> for better stability</li>
       <li>📦 <strong>Current approach:</strong> Game store changes continue working via updated flatpaks (free and open source)</li>
     </ul>
     <strong>Bottom line:</strong> Your purchase doesn't expire, but the Steam Deck ecosystem evolves constantly. Renewal keeps you compatible as things change.

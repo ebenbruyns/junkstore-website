@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Get Junk Store 2.0"
-description: "Download Junk Store 2.0 standalone app for Steam Deck. $40 one-time purchase with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch directly in Game Mode."
+description: "Download Junk Store 2.0 standalone app for Steam Deck. $40 with 7-day free trial. No Decky required - install Epic, GOG, Amazon & itch directly in Game Mode."
 permalink: /buy_now/
 header:
   overlay_color: "#000"
@@ -51,7 +51,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 {% include video-demo-player.html %}
 
 <section class="key-features">
-  <h2>Why Junk Store 2.0 Is Worth the Investment</h2>
+  <h2>Why It's Worth It</h2>
   <div class="features-grid">
     <div class="feature"><div style="text-align: center;">🚀 <strong>Never Leave Game Mode</strong></div><span class="feature-detail" style="text-align: left; display: block;">No Desktop Mode switching required</span></div>
     <div class="feature"><div style="text-align: center;">⚡ <strong>Just Works</strong></div><span class="feature-detail" style="text-align: left; display: block;">Install once, play immediately</span></div>
@@ -88,7 +88,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 
     <div class="faq-item">
       <h4>Is this a subscription?</h4>
-      ✅ <strong>No - it's a one-time purchase.</strong> Your $40 includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update. <a href="/2.0faq/#is-this-a-subscription">Full details →</a>
+      ✅ <strong>No.</strong> Software is yours to keep. $40 includes 12 months of updates & support. <a href="/2.0faq/#is-this-a-subscription">Full details →</a>
     </div>
 
     <div class="faq-item">
@@ -119,15 +119,18 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
     <h3>🎮 Your Free Game Collection Is Worth Thousands</h3>
     <p>Between Epic's weekly giveaways and Prime Gaming's monthly drops, you've likely claimed hundreds—or even thousands—of dollars in free games.</p>
     <p><strong>Epic alone has given away over $10,000 worth of games since 2018.</strong></p>
-    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode with a $40 one-time purchase.</p>
+    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode for $40.</p>
   </div>
 </section>
 
 <section class="pricing-highlight" id="pricing-details">
   <div class="pricing-box">
-    <h3>🚀 $40 One-Time Purchase</h3>
-    <p class="price-text">Includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update.</p>
-    <p class="trial-text">7-day free trial • Yours to keep • No subscription required</p>
+    <h3>🚀 $40</h3>
+    <ul class="pricing-features">
+      <li>✓ Software is yours to keep</li>
+      <li>✓ 12 months of updates & support</li>
+    </ul>
+    <p class="trial-text">7-day free trial • Cancel anytime</p>
     <div class="pricing-cta">
       <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Start Free Trial</a>
     </div>
