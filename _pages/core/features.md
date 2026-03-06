@@ -20,7 +20,7 @@ excerpt: "Everything included with Junk Store 2.0 - organized by category for ea
 
 <section class="features-hero">
   <h1>Complete Junk Store 2.0 Feature Breakdown</h1>
-  <p class="lead-text">Everything you get with your subscription, organized by category</p>
+  <p class="lead-text">Everything you get with your purchase, organized by category</p>
 </section>
 
 <section class="features-section">

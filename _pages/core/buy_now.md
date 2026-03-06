@@ -88,7 +88,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
 
     <div class="faq-item">
       <h4>Is this a subscription?</h4>
-      ✅ <strong>No - you own it permanently.</strong> Your $40 includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update. <a href="/2.0faq/#is-this-a-subscription">Full details →</a>
+      ✅ <strong>No - it's a one-time purchase.</strong> Your $40 includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update. <a href="/2.0faq/#is-this-a-subscription">Full details →</a>
     </div>
 
     <div class="faq-item">
@@ -127,7 +127,7 @@ excerpt: "Steam Deck's most advanced launcher - Epic, GOG, Amazon & itch.io game
   <div class="pricing-box">
     <h3>🚀 $40 One-Time Purchase</h3>
     <p class="price-text">Includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update.</p>
-    <p class="trial-text">7-day free trial • Yours forever • No subscription required</p>
+    <p class="trial-text">7-day free trial • Yours to keep • No subscription required</p>
     <div class="pricing-cta">
       <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="trial_signup" data-label="buy_now_page_primary">Start Free Trial</a>
     </div>
