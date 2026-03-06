@@ -41,6 +41,36 @@
   font-weight: 400;
 }
 
+/* Pricing features bullet list */
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 0.75rem 0;
+  text-align: center;
+
+  li {
+    color: #cceeff;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+
+    &::before {
+      content: "✓ ";
+      color: #28a745;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-features {
+    margin: 1rem 0;
+
+    li {
+      font-size: 1rem;
+    }
+  }
+}
+
 .discount-text {
   font-size: 0.9rem;
   color: #28a745;

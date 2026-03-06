@@ -84,15 +84,18 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
     <h3>🎮 Your Free Game Collection Is Worth Thousands</h3>
     <p>Between Epic's weekly giveaways and Prime Gaming's monthly drops, you've likely claimed hundreds—or even thousands—of dollars in free games.</p>
     <p><strong>Epic alone has given away over $10,000 worth of games since 2018.</strong></p>
-    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode with a <span data-pricing="price">$40</span> one-time purchase.</p>
+    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode for <span data-pricing="price">$40</span>.</p>
   </div>
 </section>
 
 <section class="pricing-highlight" id="pricing-details">
   <div class="pricing-box">
-    <h3>🚀 <span data-pricing="original-crossed">$40</span> One-Time Purchase</h3>
-    <p class="price-text">Includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update.</p>
-    <p class="trial-text"><span data-pricing="trial">7-day free trial</span> • Yours forever • No subscription required</p>
+    <h3>🚀 <span data-pricing="original-crossed">$40</span></h3>
+    <ul class="pricing-features">
+      <li>Software is yours to keep</li>
+      <li>12 months of updates & support</li>
+    </ul>
+    <p class="trial-text"><span data-pricing="trial">7-day free trial</span></p>
     <div data-coupon-container style="display: none; margin-bottom: 1rem;">
       <span class="promo-code" data-pricing="coupon-code"></span> <span data-pricing="coupon-discount"></span>
       <div style="font-size: 0.9rem; opacity: 0.8;" data-pricing="coupon-desc"></div>
@@ -406,7 +409,7 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
 
     <div class="faq-item">
       <h4>Is this a subscription?</h4>
-      ✅ <strong>No - you own it permanently.</strong> Your $40 includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update. <a href="/2.0faq/#is-this-a-subscription">Full details →</a>
+      ✅ <strong>No.</strong> You pay $40, you keep the software. The 12 months covers updates and support. <a href="/2.0faq/#is-this-a-subscription">Full details →</a>
     </div>
 
     <div class="faq-item">
@@ -463,9 +466,12 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
 
 <section class="pricing-highlight faq-pricing">
   <div class="pricing-box">
-    <h3>🚀 <span data-pricing="original-crossed">$40</span> One-Time Purchase</h3>
-    <p class="price-text">Includes 12 months of updates & support. Renewal keeps you compatible as Steam and store clients update.</p>
-    <p class="trial-text"><span data-pricing="trial">7-day free trial</span> • Yours forever • No subscription required</p>
+    <h3>🚀 <span data-pricing="original-crossed">$40</span></h3>
+    <ul class="pricing-features">
+      <li>Software is yours to keep</li>
+      <li>12 months of updates & support</li>
+    </ul>
+    <p class="trial-text"><span data-pricing="trial">7-day free trial</span></p>
     <div class="pricing-cta">
       <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-pricing="portal-url">Start Free Trial</a>
     </div>
