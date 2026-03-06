@@ -133,7 +133,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
     You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon & itch.io (beta) integration, emulator extension creation, and all premium features.
   <br>
   <br>
-    After 7 days, if you don't subscribe, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
+    After 7 days, if you don't purchase, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
 </details>
 
 <details class="faq-box" id="is-this-a-subscription">
@@ -172,15 +172,15 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
     <strong>Device management:</strong> Each installation counts toward your device limit when you first activate it. If you need to replace a device or reinstall, contact support for assistance with license transfers.
 </details>
 
-<details class="faq-box" id="annual-license-or-perpetual">
+<details class="faq-box" id="one-time-purchase">
   <summary>Do I need to keep paying to use the software?</summary>
   <p></p>
-    <strong>No - it's a one-time purchase.</strong> Your $40 gets you Junk Store permanently, plus 12 months of updates and support included.
+    <strong>No - it's a one-time purchase.</strong> Your $40 gets you Junk Store, plus 12 months of updates and support included.
   <br>
   <br>
     <strong>What's included in your purchase:</strong>
     <ul>
-      <li>✅ Permanent ownership of the software</li>
+      <li>✅ Junk Store software - yours to keep</li>
       <li>✅ 12 months of updates, new features, and bug fixes</li>
       <li>✅ 12 months of technical support</li>
       <li>✅ All games installed remain playable</li>
