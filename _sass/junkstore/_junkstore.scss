@@ -7,14 +7,14 @@
    Current status: Foundation only (Phase 1)
    ========================================================================== */
 
-// Foundation
+// Foundation (Phase 1)
 @import "variables";
 @import "mixins";
 @import "reset";
 
-// Base styles (Phase 2 - to be created)
-// @import "base";
-// @import "utilities";
+// Base styles (Phase 2)
+@import "base";
+@import "utilities";
 
 // Layout (Phase 3 - to be created)
 // @import "layout";

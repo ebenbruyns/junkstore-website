@@ -1,0 +1,444 @@
+/* ==========================================================================
+   Junk Store Theme - Base Styles
+   Core element styling for the site
+   ========================================================================== */
+
+/*
+   Typography
+   ========================================================================== */
+
+body {
+  font-family: $global-font-family;
+  font-size: $doc-font-size;
+  line-height: 1.6;
+  color: $junkstore-light-text;
+  background-color: $junkstore-bg-dark;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+  font-weight: bold;
+  line-height: 1.25;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: $junkstore-light-text;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: $junkstore-primary;
+    }
+  }
+}
+
+h1 { font-size: $type-size-1; }
+h2 { font-size: $type-size-2; color: $junkstore-primary; }
+h3 { font-size: $type-size-3; }
+h4 { font-size: $type-size-4; }
+h5 { font-size: $type-size-5; }
+h6 { font-size: $type-size-6; }
+
+// Section headings (orange accent)
+.section-heading,
+.features-section h2,
+.comparison-section h2 {
+  color: $junkstore-accent;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+// Paragraphs
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  &.lead,
+  &.lead-text {
+    font-size: $type-size-4;
+    color: $junkstore-gray-text;
+  }
+}
+
+// Links
+a {
+  color: $junkstore-link;
+  text-decoration: none;
+  @include transition(color);
+
+  &:hover {
+    color: lighten($junkstore-link, 15%);
+  }
+
+  &:focus {
+    @include focus-ring;
+  }
+}
+
+// Strong/Bold
+strong, b {
+  font-weight: bold;
+  color: $white;
+}
+
+// Emphasis
+em, i {
+  font-style: italic;
+}
+
+// Small text
+small,
+.small {
+  font-size: $type-size-6;
+}
+
+// Muted text
+.muted,
+.text-muted {
+  color: $junkstore-gray-text;
+}
+
+// Meta text (dates, timestamps)
+.meta,
+.page__meta {
+  font-size: $type-size-6;
+  color: $junkstore-meta-text;
+}
+
+/*
+   Lists
+   ========================================================================== */
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+
+  > ul,
+  > ol {
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+  }
+}
+
+// Unstyled list
+ul.unstyled,
+ol.unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+// Inline list
+ul.inline,
+ol.inline {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    margin-right: 1rem;
+  }
+}
+
+// Definition lists
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dt {
+  font-weight: bold;
+  color: $white;
+}
+
+dd {
+  margin-left: 0;
+  margin-bottom: 0.5rem;
+  color: $junkstore-gray-text;
+}
+
+/*
+   Tables (Proper Display)
+   ========================================================================== */
+
+table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  font-size: $type-size-5;
+  background: $junkstore-bg-card;
+  border-radius: $border-radius;
+  overflow: hidden;
+  border: 1px solid $junkstore-border;
+}
+
+thead {
+  display: table-header-group;
+  background: rgba($white, 0.05);
+  border-bottom: 2px solid $junkstore-border;
+}
+
+tbody {
+  display: table-row-group;
+}
+
+tr {
+  display: table-row;
+
+  &:hover {
+    background: rgba($junkstore-primary, 0.05);
+  }
+}
+
+th, td {
+  display: table-cell;
+  padding: 0.75rem 1rem;
+  vertical-align: top;
+  border-bottom: 1px solid rgba($white, 0.1);
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+  color: $junkstore-primary;
+}
+
+td {
+  color: $junkstore-light-text;
+}
+
+// Last row no border
+tr:last-child td {
+  border-bottom: none;
+}
+
+// Fixed layout table
+table.fixed {
+  table-layout: fixed;
+}
+
+/*
+   Code & Preformatted
+   ========================================================================== */
+
+code {
+  font-family: $monospace;
+  font-size: 0.9em;
+  background: rgba($white, 0.08);
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  color: $junkstore-accent;
+}
+
+pre {
+  font-family: $monospace;
+  font-size: $type-size-6;
+  line-height: 1.5;
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: $border-radius;
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+
+  code {
+    background: none;
+    padding: 0;
+    color: inherit;
+  }
+}
+
+// Keyboard input
+kbd {
+  font-family: $monospace;
+  font-size: 0.85em;
+  background: $junkstore-bg-elevated;
+  border: 1px solid $junkstore-border;
+  border-radius: 3px;
+  padding: 0.1em 0.4em;
+  box-shadow: 0 1px 0 $junkstore-border;
+}
+
+/*
+   Blockquotes
+   ========================================================================== */
+
+blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid $junkstore-primary;
+  background: rgba($junkstore-primary, 0.05);
+  font-style: italic;
+  color: $junkstore-gray-text;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: $type-size-6;
+    font-style: normal;
+    color: $junkstore-meta-text;
+
+    &::before {
+      content: "— ";
+    }
+  }
+}
+
+/*
+   Horizontal Rules
+   ========================================================================== */
+
+hr {
+  border: 0;
+  border-top: 1px solid $junkstore-border;
+  margin: 2rem 0;
+}
+
+hr.section-divider {
+  margin: 1.5rem 0;
+}
+
+/*
+   Forms
+   ========================================================================== */
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: $junkstore-light-text;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-family: inherit;
+  font-size: $type-size-5;
+  line-height: 1.5;
+  color: $junkstore-light-text;
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: $border-radius;
+  @include transition(border-color, box-shadow);
+
+  &:focus {
+    border-color: $junkstore-primary;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba($junkstore-primary, 0.2);
+  }
+
+  &::placeholder {
+    color: $junkstore-meta-text;
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23999' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  padding-right: 2.5rem;
+}
+
+// Checkboxes and radios
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+// Form groups
+.form-group {
+  margin-bottom: 1rem;
+}
+
+/*
+   Images
+   ========================================================================== */
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-radius: $border-radius;
+}
+
+figure {
+  margin: 1.5rem 0;
+
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: $type-size-6;
+  color: $junkstore-meta-text;
+  text-align: center;
+}
+
+/*
+   Media
+   ========================================================================== */
+
+video,
+iframe {
+  max-width: 100%;
+  border-radius: $border-radius;
+}
+
+// Responsive embed wrapper
+.embed-responsive {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; // 16:9 aspect ratio
+
+  iframe,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/*
+   Selection
+   ========================================================================== */
+
+::selection {
+  background: rgba($junkstore-primary, 0.3);
+  color: $white;
+}
