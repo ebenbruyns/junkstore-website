@@ -19,7 +19,9 @@
 
 /* Feature Tables */
 .features-table {
+  display: table !important;
   width: 100%;
+  table-layout: fixed;
   border-collapse: collapse;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 8px;
@@ -28,7 +30,16 @@
   margin-bottom: 1rem;
 }
 
+.features-table tbody {
+  display: table-row-group;
+}
+
+.features-table tr {
+  display: table-row;
+}
+
 .features-table td {
+  display: table-cell;
   padding: 0.75rem 1rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   vertical-align: top;

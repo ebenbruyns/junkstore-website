@@ -60,12 +60,12 @@ excerpt: "Stop switching to Desktop Mode. Play your non-Steam games directly in 
 <section class="key-features">
   <h2>Why Junk Store Pro Is Worth the Investment</h2>
   <div class="features-grid">
-    <div class="feature"><div style="text-align: center;">🚀 <strong>Never Leave Game Mode</strong></div><span class="feature-detail" style="text-align: left; display: block;">No Desktop Mode switching required</span></div>
-    <div class="feature"><div style="text-align: center;">⚡ <strong>Just Works</strong></div><span class="feature-detail" style="text-align: left; display: block;">Install once, play immediately</span></div>
-    <div class="feature"><div style="text-align: center;">🎯 <strong>Native-Like Integration</strong></div><span class="feature-detail" style="text-align: left; display: block;">Games appear directly in your library</span></div>
-    <div class="feature"><div style="text-align: center;">🎮 <strong>All Your Stores</strong></div><span class="feature-detail" style="text-align: left; display: block;">Epic, GOG, Amazon & itch unified</span></div>
-    <div class="feature"><div style="text-align: center;">🔧 <strong>Ongoing Support</strong></div><span class="feature-detail" style="text-align: left; display: block;">Regular updates and quick fixes</span></div>
-    <div class="feature"><div style="text-align: center;">💰 <strong>Better Than Free</strong></div><span class="feature-detail" style="text-align: left; display: block;">Professional quality without the hassle</span></div>
+    <div class="feature"><div class="feature-title">🚀 <strong>Never Leave Game Mode</strong></div><span class="feature-detail">No Desktop Mode switching required</span></div>
+    <div class="feature"><div class="feature-title">⚡ <strong>Just Works</strong></div><span class="feature-detail">Install once, play immediately</span></div>
+    <div class="feature"><div class="feature-title">🎯 <strong>Native-Like Integration</strong></div><span class="feature-detail">Games appear directly in your library</span></div>
+    <div class="feature"><div class="feature-title">🎮 <strong>All Your Stores</strong></div><span class="feature-detail">Epic, GOG, Amazon & itch unified</span></div>
+    <div class="feature"><div class="feature-title">🔧 <strong>Ongoing Support</strong></div><span class="feature-detail">Regular updates and quick fixes</span></div>
+    <div class="feature"><div class="feature-title">💰 <strong>Better Than Free</strong></div><span class="feature-detail">Professional quality without the hassle</span></div>
   </div>
 </section>
 
@@ -948,6 +948,62 @@ document.addEventListener('DOMContentLoaded', function() {
   margin-top: 1.5rem;
   padding-top: 1rem;
   border-top: 1px solid #444;
+}
+
+/* ========== KEY FEATURES GRID ========== */
+.key-features {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.key-features h2 {
+  text-align: center;
+  color: #66bfff;
+  margin-bottom: 1.5rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.feature {
+  background: #1e2a38;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: all 0.2s ease;
+}
+
+.feature:hover {
+  border-color: #0af;
+  transform: translateY(-2px);
+}
+
+.feature-title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.feature-detail {
+  text-align: left;
+  display: block;
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ========== CTA SECTIONS ========== */

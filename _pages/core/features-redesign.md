@@ -2,7 +2,7 @@
 layout: splash
 title: "Junk Store Features"
 description: "Play Epic, GOG, Amazon & itch games on Steam Deck without Desktop Mode. Junk Store keeps you in Game Mode - see features, live demos, and why gamers choose it."
-permalink: /features/
+permalink: /features-redesign/
 classes: wide
 header:
   overlay_color: "#000"
@@ -85,7 +85,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
     <tbody>
       <tr>
         <td><strong>Download Queue Management</strong></td>
-        <td>Manage multiple downloads - pause, resume, reorder, and monitor progress</td>
+        <td>Manage multiple downloads across stores - change order, pause or cancel individual downloads.</td>
       </tr>
       <tr>
         <td><strong>High Performance Capacity</strong></td>
@@ -177,7 +177,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 </div>
 
-<!-- ==================== THE PRO DIFFERENCE TAB ==================== -->
+<!-- ==================== THE PRO DIFFERENCE TAB (REDESIGNED - 4 POINTS) ==================== -->
 <div id="tab-difference" class="tab-panel">
 
 <section class="comparison-hero">
@@ -190,55 +190,37 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 </section>
 
 <section class="major-differentiators">
-  <h2>Free Alternatives vs Junk Store Pro - The Key Differences</h2>
+  <h2>Why Gamers Choose Junk Store Pro</h2>
   <div class="differentiator-grid">
 
     <div class="differentiator-item">
-      <h3>Desktop Mode Elimination</h3>
-      <p class="problem">Free Alternatives: Require desktop switching for setup and management</p>
-      <p class="solution">Junk Store Pro: Pure Game Mode - never leave handheld mode</p>
+      <h3>Never Leave Game Mode</h3>
+      <p class="problem">Free Alternatives: Require Desktop Mode for setup, management, and troubleshooting. PC installs can mess with your Deck library.</p>
+      <p class="solution">Junk Store Pro: Pure Game Mode experience. Install, manage, and play without ever switching modes. Your Deck stays separate from your PC.</p>
     </div>
 
     <div class="differentiator-item">
-      <h3>Zero Performance Impact</h3>
-      <p class="problem">Free Alternatives: Run background processes while gaming</p>
-      <p class="solution">Junk Store Pro: Lightweight scripts - zero performance interference</p>
+      <h3>Steam Launches Your Games</h3>
+      <p class="problem">Free Alternatives: Launch a separate app that then launches your game. Extra processes running while you play.</p>
+      <p class="solution">Junk Store Pro: Games launch directly from Steam, just like native titles. No middleman, nothing running in the background.</p>
     </div>
 
     <div class="differentiator-item">
-      <h3>Professional Development Team</h3>
-      <p class="problem">Free Alternatives: Community volunteers with slower GitHub releases</p>
-      <p class="solution">Junk Store Pro: Full-time dev team with instant update channels</p>
+      <h3>Your Whole Gaming Ecosystem</h3>
+      <p class="problem">Free Alternatives: Handle store games only. Emulators need separate setup. Everything dumped into Non-Steam Games.</p>
+      <p class="solution">Junk Store Pro: Epic, GOG, Amazon, itch, plus emulators and ROMs - all organized by store with proper tabs. One place for everything.</p>
     </div>
 
     <div class="differentiator-item">
-      <h3>True Native Steam Integration</h3>
-      <p class="problem">Free Alternatives: Launch separate launcher apps with limited integration</p>
-      <p class="solution">Junk Store Pro: All libraries visible directly in Game Mode</p>
-    </div>
-
-    <div class="differentiator-item">
-      <h3>Handheld-First Experience</h3>
-      <p class="problem">Free Alternatives: Desktop-first with controller as afterthought</p>
-      <p class="solution">Junk Store Pro: Built specifically for Steam Deck workflows</p>
-    </div>
-
-    <div class="differentiator-item">
-      <h3>Complete Gaming Ecosystem</h3>
-      <p class="problem">Free Alternatives: Handle store games only with separate emulator setup</p>
-      <p class="solution">Junk Store Pro: Epic + GOG + Amazon + itch + ROMs integrated in Game Mode</p>
-    </div>
-
-    <div class="differentiator-item">
-      <h3>Built-in Frame Generation</h3>
-      <p class="problem">Free Alternatives: Requires separate plugin installation or manual launch arguments</p>
-      <p class="solution">Junk Store Pro: One-click LSFG-VK toggles built directly into the app</p>
+      <h3>Professional Support, Not a Side Project</h3>
+      <p class="problem">Free Alternatives: Community volunteers working when they have time. Updates depend on GitHub contributors.</p>
+      <p class="solution">Junk Store Pro: Full-time dev team with instant update channels. When something breaks, we fix it fast.</p>
     </div>
 
   </div>
 
   <div class="differentiator-conclusion">
-    <p><strong>The bottom line:</strong> Free alternatives are excellent desktop applications adapted for Steam Deck. Junk Store Pro is purpose-built for handheld gaming - a fundamentally different architectural approach.</p>
+    <p><strong>The bottom line:</strong> Free alternatives are excellent desktop applications adapted for Steam Deck. Junk Store Pro is purpose-built for handheld gaming - a fundamentally different approach.</p>
   </div>
 </section>
 
@@ -247,12 +229,12 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
     <h2>The Choice is Clear</h2>
     <div class="decision-points">
       <div class="decision-point">
-        <h4><strong>Game Mode Native vs Desktop Adapted</strong></h4>
-        <p>Free alternatives are desktop applications trying to work on Steam Deck. Junk Store was built from the ground up for handheld gaming. <strong>Install, Launch, Play.</strong> All in Game Mode.</p>
+        <h4><strong>Built for Handheld, Not Adapted</strong></h4>
+        <p>Free alternatives are desktop apps trying to work on Steam Deck. Junk Store was built from the ground up for handheld gaming. <strong>Install, Launch, Play.</strong> All in Game Mode.</p>
       </div>
       <div class="decision-point">
-        <h4><strong>Professional vs Community Development</strong></h4>
-        <p>Free alternatives rely on community volunteers with slower releases. Junk Store Pro has full-time professional development with instant update channels (stable/testing/beta). No waiting for GitHub builds.</p>
+        <h4><strong>Real Team, Real Support</strong></h4>
+        <p>When SteamOS updates break things, you want a team that can push fixes the same day - not wait for volunteer availability.</p>
       </div>
       <div class="decision-point">
         <h4><strong>Premium Experience for <span data-pricing="weekly">Less than $1</span>/Week</strong></h4>
@@ -282,10 +264,10 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 <!-- Dark overlay for zoomed content -->
 <div class="gallery-overlay" id="galleryOverlay"></div>
 
-<p class="section-intro"><strong>See the difference:</strong> Everything shown here is done in Game Mode with your Steam Deck's controller. No Desktop Mode switching, no mouse required.</p>
+<p style="text-align: center; margin-bottom: 2rem;"><strong>See the difference:</strong> Everything shown here is done in Game Mode with your Steam Deck's controller. No Desktop Mode switching, no mouse required.</p>
 
 <!-- Animated GIFs Section -->
-<h2 class="section-heading">Game Mode Features (Tap to play)</h2>
+<h2 style="text-align: center;">Game Mode Features (Tap to play)</h2>
 <div class="media-grid">
 
   <div class="media-item">
@@ -353,7 +335,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 <hr class="section-divider">
 
 <!-- Junk Store in Action Section -->
-<h2 class="section-heading">Junk Store in Action</h2>
+<h2 style="text-align: center;">Junk Store in Action</h2>
 <div class="media-grid">
 
  <div class="media-item">
@@ -366,7 +348,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 </div>
 
-<section class="trial-cta gallery-cta">
+<section class="trial-cta" style="margin-top: 3rem;">
   <div class="cta-box">
     <h2>Ready to Try It Yourself?</h2>
     <p>Start your free 7-day trial and experience everything you've seen here.</p>
@@ -382,10 +364,10 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 <!-- ==================== PRESS TAB ==================== -->
 <div id="tab-press" class="tab-panel">
 
-<p class="section-intro">Reviews, articles, and interviews from the community and tech press.</p>
+<p style="text-align: center; margin-bottom: 2rem;">Reviews, articles, and interviews from the community and tech press.</p>
 
 <!-- Interviews Section -->
-<h2 class="section-heading">Interviews</h2>
+<h2 style="text-align: center;">Interviews</h2>
 <div class="media-grid">
 
   <div class="media-item">
@@ -409,7 +391,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 <hr class="section-divider">
 
 <!-- Video Reviews Section -->
-<h2 class="section-heading">Video Reviews</h2>
+<h2 style="text-align: center;">Video Reviews</h2>
 <div class="media-grid">
 
   <div class="media-item">
@@ -457,7 +439,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 <hr class="section-divider">
 
 <!-- Written Articles Section -->
-<h2 class="section-heading">Articles & Guides</h2>
+<h2 style="text-align: center;">Articles & Guides</h2>
 <div class="media-grid">
 
   <div class="media-item">
@@ -502,7 +484,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 </div>
 
-<section class="trial-cta gallery-cta">
+<section class="trial-cta" style="margin-top: 3rem;">
   <div class="cta-box">
     <h2>Ready to See What the Buzz is About?</h2>
     <p>Start your free 7-day trial and experience it yourself.</p>
@@ -589,18 +571,13 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 .features-table {
   width: 100%;
-  table-layout: fixed;
   border-collapse: collapse;
   margin: 1rem 0;
-  background: #1e2a38;
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid #444;
 }
 
 .features-table td {
   padding: 12px 16px;
-  border-bottom: 1px solid #444;
+  border-bottom: 1px solid #333;
   vertical-align: top;
 }
 
@@ -610,7 +587,6 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 }
 
 .features-table td:last-child {
-  width: 70%;
   color: #ccc;
 }
 
@@ -636,7 +612,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
   .features-table tr {
     display: block;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #333;
     padding: 8px 0;
   }
 }
@@ -692,10 +668,19 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 }
 
 .differentiator-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 1.5rem !important;
   margin: 1.25rem 0;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .differentiator-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
 
 .differentiator-item {
@@ -739,7 +724,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 .decision-box {
   background: #1e2a38;
-  border: 1px solid #444;
+  border: 1px solid #333;
   border-radius: 8px;
   padding: 2rem;
 }
@@ -942,20 +927,6 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   color: #888;
   font-size: 0.9rem;
   margin-bottom: 0;
-}
-
-/* ========== SECTION HELPERS ========== */
-.section-intro {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.section-heading {
-  text-align: center;
-}
-
-.gallery-cta {
-  margin-top: 3rem;
 }
 
 /* ========== BACK TO TOP ========== */
