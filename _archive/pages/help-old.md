@@ -28,7 +28,7 @@ excerpt: "FAQ, troubleshooting & tutorials for setup, features, and game compati
       <div class="version-check" id="check-pro"></div>
       <h3>Pro Version</h3>
       <p><span data-pricing="price">$40</span>/year standalone app</p>
-      <small>Epic, GOG, Amazon & itch.io</small>
+      <small>Epic, GOG, Amazon & itch</small>
     </div>
     <div class="version-option both filter-card" id="select-all" data-filter="all" onclick="selectVersion('all')">
       <div class="version-check" id="check-all"></div>
