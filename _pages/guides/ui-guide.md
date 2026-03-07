@@ -15,10 +15,6 @@ header:
 excerpt: "Learn the Junk Store interface - click any feature or search for what you want to do. Everything explained visually."
 ---
 
-<section class="seo-intro">
-  <p><strong>Interactive guide to Junk Store's interface.</strong> Click on any part of the Steam Deck interface or search for features to see exactly where things are and how to use them in Game Mode.</p>
-</section>
-
 <!-- Hero Section with Interactive Demo -->
 <div class="ui-guide-hero">
   <h2 style="text-align: center; margin-bottom: 1rem;">Explore the Junk Store Interface</h2>
@@ -140,12 +136,12 @@ excerpt: "Learn the Junk Store interface - click any feature or search for what 
       <p>Step-by-step guides for common tasks</p>
     </a>
 
-    <a href="/2.0faq/" class="resource-card">
+    <a href="/help/#faq" class="resource-card">
       <h4>❓ FAQ</h4>
       <p>Answers to frequently asked questions</p>
     </a>
 
-    <a href="/2.0troubleshooting/" class="resource-card">
+    <a href="/help/#troubleshooting" class="resource-card">
       <h4>🔧 Troubleshooting</h4>
       <p>Fix common issues and problems</p>
     </a>
@@ -160,7 +156,7 @@ excerpt: "Learn the Junk Store interface - click any feature or search for what 
 <!-- CTA -->
 <section class="ui-guide-cta" style="max-width: 800px; margin: 3rem auto; padding: 2rem 1.5rem; background: rgba(255, 163, 102, 0.05); border-radius: 12px; border: 1px solid rgba(255, 163, 102, 0.2); text-align: center;">
   <h2 style="color: #ffa366; margin-bottom: 1rem;">Ready to Try Junk Store?</h2>
-  <p style="color: #e8e8e8; margin-bottom: 2rem;">Experience the Steam Deck-native way to play your Epic, GOG, Amazon & itch.io games.</p>
+  <p style="color: #e8e8e8; margin-bottom: 2rem;">Experience the Steam Deck-native way to play your Epic, GOG, Amazon & itch games.</p>
   <a href="/buy_now/" class="button buy-button">Start Your 7-Day Free Trial</a>
 </section>
 

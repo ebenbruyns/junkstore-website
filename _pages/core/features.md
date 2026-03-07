@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: "Junk Store Pro Features"
-description: "Complete features, comparison with alternatives, and live demos of Junk Store Pro for Steam Deck."
+title: "Junk Store Features"
+description: "Play Epic, GOG, Amazon & itch games on Steam Deck without Desktop Mode. Junk Store keeps you in Game Mode - see features, live demos, and why gamers choose it."
 permalink: /features/
 classes: wide
 header:
@@ -12,7 +12,7 @@ header:
     - label: "Start Free Trial"
       url: "/portal-redirect/"
       class: "button buy-button"
-excerpt: "Features, comparisons & live demos - everything you need to know about Junk Store Pro"
+excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam solution"
 ---
 <div id="top"></div>
 
@@ -44,8 +44,8 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
         <td>Access your Prime Gaming library directly in Game Mode</td>
       </tr>
       <tr>
-        <td><strong>itch.io Gaming</strong></td>
-        <td>Beta support for indie games from itch.io platform</td>
+        <td><strong>itch Gaming</strong></td>
+        <td>Support for indie games from itch platform</td>
       </tr>
     </tbody>
   </table>
@@ -185,7 +185,7 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
   <p class="lead-text">The only launcher that eliminates Desktop Mode switching entirely.</p>
 
   <div class="hero-upgrade-link">
-    <p><em>Already using our free Decky plugin?</em> <a href="/upgrade/">See what upgrading to 2.0 unlocks</a></p>
+    <p><em>Already using our free Decky plugin?</em> <a href="/upgrade/">See what upgrading to Pro unlocks</a></p>
   </div>
 </section>
 
@@ -226,7 +226,7 @@ excerpt: "Features, comparisons & live demos - everything you need to know about
     <div class="differentiator-item">
       <h3>Complete Gaming Ecosystem</h3>
       <p class="problem">Free Alternatives: Handle store games only with separate emulator setup</p>
-      <p class="solution">Junk Store Pro: Epic + GOG + Amazon + itch.io + ROMs integrated in Game Mode</p>
+      <p class="solution">Junk Store Pro: Epic + GOG + Amazon + itch + ROMs integrated in Game Mode</p>
     </div>
 
     <div class="differentiator-item">

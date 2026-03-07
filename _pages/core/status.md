@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "Junk Store Pro Status"
-description: "Current stability status and break history for Junk Store Pro on SteamOS"
+description: "Junk Store Pro service status and uptime history for Steam Deck. Track our stability record, SteamOS update impact, and break history."
+excerpt: "Service status and uptime record for Junk Store Pro on Steam Deck"
 permalink: /status/
 toc: false
 classes: single

@@ -1,13 +1,13 @@
 ---
 layout: splash
 title: "Junk Store Game Compatibility"
-description: "Complete compatibility database of Epic, GOG, Amazon & itch.io (beta) games tested on Steam Deck. Search hundreds of games with working status and setup notes."
+description: "900+ games tested on Steam Deck. Search our compatibility database for Epic, GOG, Amazon & itch games - working status, setup notes, and Proton tips."
 permalink: /tested-games/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/website_image_compressed.webp
-excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta) games tested on Steam Deck."
+excerpt: "Search 900+ tested games for Steam Deck compatibility"
 ---
 
 <!-- Hero styles now in hero-height-fix.scss -->
@@ -42,7 +42,7 @@ excerpt: "Junk Store compatibility database of Epic, GOG, Amazon & itch.io (beta
       <option value="Epic">Epic</option>
       <option value="GOG">GOG</option>
       <option value="Amazon">Amazon</option>
-      <option value="itch.io">itch.io</option>
+      <option value="itch.io">itch</option>
     </select>
   </div>
   
@@ -312,7 +312,7 @@ function populateStats() {
       </div>
       <div class="stat-item">
         <span class="stat-number">${gamesData.storefronts['itch.io'].total}</span>
-        <span class="stat-label">itch.io</span>
+        <span class="stat-label">itch</span>
       </div>
     </div>
   `;
@@ -1378,7 +1378,7 @@ function renderTestingDetailsBootstrap(game) {
           ` : ''}
           ${game.itch_url ? `
             <div class="info-item">
-              <span class="info-label">itch.io</span>
+              <span class="info-label">itch</span>
               <span class="info-value"><a href="${game.itch_url}" target="_blank" rel="noopener noreferrer">View on itch.io <i class="fas fa-external-link-alt ms-1"></i></a></span>
             </div>
           ` : ''}

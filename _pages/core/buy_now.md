@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Get Junk Store Pro"
-description: "Download Junk Store Pro standalone app for Steam Deck. $40 one-time purchase with 7-day trial. No Decky required - install Epic, GOG, Amazon & itch directly in Game Mode."
+description: "Get Junk Store Pro for Steam Deck for $40 with a 7-day free trial. Play Epic, GOG, Amazon & itch games in Game Mode. No Decky required."
 permalink: /buy_now/
 header:
   overlay_color: "#000"
@@ -14,7 +14,7 @@ header:
     - label: "See It In Action"
       url: "/gallery/"
       class: "button button-secondary"
-excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazon & itch games directly into Steam Deck Game Mode."
+excerpt: "Stop switching to Desktop Mode. Play your non-Steam games directly in Game Mode with Junk Store Pro."
 ---
 <div id="top"></div>
 
@@ -34,15 +34,15 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
 <section class="visual-proof">
   <div class="screenshot-container">
     <div class="video-demo-container" onclick="playDemo(this, '/assets/images/landing/LibrariesNew.webm')">
-      <img src="/assets/images/landing/LibrariesNew-poster.jpg" alt="Steam Deck unified gaming library with Epic, GOG, Amazon & itch.io games in Game Mode" class="demo-poster" loading="lazy" />
+      <img src="/assets/images/landing/LibrariesNew-poster.jpg" alt="Steam Deck unified gaming library with Epic, GOG, Amazon & itch games in Game Mode" class="demo-poster" loading="lazy" />
       <div class="demo-play-btn">
         <span class="play-icon">▶️</span>
         <span class="play-text">Play Demo</span>
       </div>
-      <img data-src="/assets/images/landing/LibrariesNew.gif" alt="Steam Deck unified gaming library with Epic, GOG, Amazon & itch.io games in Game Mode" class="demo-gif" style="display: none;" />
+      <img data-src="/assets/images/landing/LibrariesNew.gif" alt="Steam Deck unified gaming library with Epic, GOG, Amazon & itch games in Game Mode" class="demo-gif" style="display: none;" />
     </div>
     <div class="screenshot-caption">
-      <p><strong>See it in action:</strong> All your Epic, GOG, Amazon & itch.io games appearing as natively as possible in your Steam library - no Desktop Mode required</p>
+      <p><strong>See it in action:</strong> All your Epic, GOG, Amazon & itch games appearing as natively as possible in your Steam library - no Desktop Mode required</p>
     </div>
   </div>
 
@@ -63,7 +63,7 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
     <div class="feature"><div style="text-align: center;">🚀 <strong>Never Leave Game Mode</strong></div><span class="feature-detail" style="text-align: left; display: block;">No Desktop Mode switching required</span></div>
     <div class="feature"><div style="text-align: center;">⚡ <strong>Just Works</strong></div><span class="feature-detail" style="text-align: left; display: block;">Install once, play immediately</span></div>
     <div class="feature"><div style="text-align: center;">🎯 <strong>Native-Like Integration</strong></div><span class="feature-detail" style="text-align: left; display: block;">Games appear directly in your library</span></div>
-    <div class="feature"><div style="text-align: center;">🎮 <strong>All Your Stores</strong></div><span class="feature-detail" style="text-align: left; display: block;">Epic, GOG, Amazon & itch.io unified</span></div>
+    <div class="feature"><div style="text-align: center;">🎮 <strong>All Your Stores</strong></div><span class="feature-detail" style="text-align: left; display: block;">Epic, GOG, Amazon & itch unified</span></div>
     <div class="feature"><div style="text-align: center;">🔧 <strong>Ongoing Support</strong></div><span class="feature-detail" style="text-align: left; display: block;">Regular updates and quick fixes</span></div>
     <div class="feature"><div style="text-align: center;">💰 <strong>Better Than Free</strong></div><span class="feature-detail" style="text-align: left; display: block;">Professional quality without the hassle</span></div>
   </div>
@@ -124,7 +124,7 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
     <div class="upgrade-item">
       <h3>🌍 More Gaming Platforms</h3>
       <p class="current">✅ <strong>Free Plugin:</strong> Epic Games support</p>
-      <p class="upgrade">🚀 <strong>Pro:</strong> Amazon Prime Gaming + itch.io (beta) + Enhanced GOG support</p>
+      <p class="upgrade">🚀 <strong>Pro:</strong> Amazon Prime Gaming + itch + Enhanced GOG support</p>
     </div>
 
     <div class="upgrade-item">
@@ -204,7 +204,7 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
           <td>✅ Full Support</td>
         </tr>
         <tr>
-          <td><strong>itch.io Gaming</strong> <span class="new-badge">NEW</span></td>
+          <td><strong>itch Gaming</strong> <span class="new-badge">NEW</span></td>
           <td>❌ Not Available</td>
           <td>✅ Beta Support</td>
         </tr>
@@ -399,17 +399,17 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
 
     <div class="faq-item">
       <h4>Can I try before I buy to see if it's worth it?</h4>
-      ✅ <strong><span data-pricing="trial">7-day free trial</span></strong> with full access to all features. Cancel anytime for zero charges. <a href="/2.0faq/#trial-length-what-happens">Trial details →</a>
+      ✅ <strong><span data-pricing="trial">7-day free trial</span></strong> with full access to all features. Cancel anytime for zero charges. <a href="/help/#faq#trial-length-what-happens">Trial details →</a>
     </div>
 
     <div class="faq-item">
       <h4>Is Junk Store trustworthy with my credentials?</h4>
-      ✅ <strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores. <a href="/2.0faq/#is-junk-store-trustworthy">Security details →</a>
+      ✅ <strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores. <a href="/help/#faq#is-junk-store-trustworthy">Security details →</a>
     </div>
 
     <div class="faq-item">
       <h4>Is this a subscription?</h4>
-      ✅ <strong>No.</strong> You pay $40, you keep the software. The 12 months covers updates and support. <a href="/2.0faq/#is-this-a-subscription">Full details →</a>
+      ✅ <strong>No.</strong> You pay $40, you keep the software. The 12 months covers updates and support. <a href="/help/#faq#is-this-a-subscription">Full details →</a>
     </div>
 
     <div class="faq-item">
@@ -429,7 +429,7 @@ excerpt: "Stop switching to Desktop Mode. Junk Store Pro brings Epic, GOG, Amazo
 
     <div class="faq-item">
       <h4>What if I have problems during setup?</h4>
-      ✅ <strong>Professional support team.</strong> Most issues resolved in minutes. <a href="/2.0troubleshooting/#installation-not-completing">Installation fixes →</a> • <a href="/2.0troubleshooting/#executables-wont-run">Executable fixes →</a>
+      ✅ <strong>Professional support team.</strong> Most issues resolved in minutes. <a href="/help/#troubleshooting#installation-not-completing">Installation fixes →</a> • <a href="/help/#troubleshooting#executables-wont-run">Executable fixes →</a>
     </div>
 
     <div class="faq-item">

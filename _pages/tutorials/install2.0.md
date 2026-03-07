@@ -1,6 +1,7 @@
 ---
 layout: splash
 title: "How to Install Junk Store Pro"
+description: "Install Junk Store Pro on Steam Deck. Step-by-step guide to download and set up the standalone app for Epic, GOG, Amazon & itch games in Game Mode."
 excerpt: "Guide on downloading and installing Junk Store Pro"
 permalink: /tutorials/install-junk-store-2
 classes: wide tutorial-page
@@ -60,7 +61,7 @@ header:
 <img src="/assets/images/jspro/install2.0/generatorsliders.png" alt="Generator sliders menu" width="600" height="338" loading="lazy" />
 <img src="/assets/images/jspro/install2.0/downloadpresets.png" alt="Download presets option" width="600" height="338" loading="lazy" />
 
-<p>Generate the extensions you want (Epic, GOG, Amazon, itch.io) by pressing the download button.</p>
+<p>Generate the extensions you want (Epic, GOG, Amazon, itch) by pressing the download button.</p>
 <img src="/assets/images/jspro/install2.0/generateextensions.png" alt="Generate extensions button" width="600" height="338" loading="lazy" />
 
 <p>You should now see tabs for each extension.</p>

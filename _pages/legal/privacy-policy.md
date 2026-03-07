@@ -1,5 +1,7 @@
 ---
 title: "Privacy Policy"
+description: "Junk Store privacy policy. How we handle your data on our website and in the app. No personal data collection, anonymous analytics only."
+excerpt: "Junk Store privacy policy - how we handle your data"
 layout: splash
 permalink: /privacy-policy/
 header:
