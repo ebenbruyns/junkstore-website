@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Junk Store Theme - Main Import File
+
+   This is the foundation for the independent Junk Store theme.
+   Import this INSTEAD of minimal-mistakes.scss once migration is complete.
+
+   Current status: Foundation only (Phase 1)
+   ========================================================================== */
+
+// Foundation
+@import "variables";
+@import "mixins";
+@import "reset";
+
+// Base styles (Phase 2 - to be created)
+// @import "base";
+// @import "utilities";
+
+// Layout (Phase 3 - to be created)
+// @import "layout";
+
+// Components (Phase 4 - to be created)
+// @import "masthead";
+// @import "footer";
+// @import "sidebar";
+// @import "hero";
+// @import "buttons";

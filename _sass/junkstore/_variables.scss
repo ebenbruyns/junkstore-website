@@ -1,0 +1,124 @@
+/* ==========================================================================
+   Junk Store Theme Variables
+   Independent from Minimal Mistakes
+   ========================================================================== */
+
+/*
+   Brand Colors
+   ========================================================================== */
+
+$junkstore-primary: #66bfff !default;      /* Light blue - headers, highlights */
+$junkstore-accent: #ffa366 !default;       /* Orange - section headers, CTAs */
+$junkstore-link: #007acc !default;         /* Blue - links, buttons */
+
+/* Semantic colors */
+$junkstore-success: #48bb78 !default;      /* Green - compatible, working */
+$junkstore-warning: #ecc94b !default;      /* Yellow - caution, partial */
+$junkstore-danger: #f56565 !default;       /* Red - error, incompatible */
+
+/* Dark theme backgrounds */
+$junkstore-bg-dark: #252a34 !default;      /* Main background */
+$junkstore-bg-card: #1e2a38 !default;      /* Card/section background */
+$junkstore-bg-elevated: #2d3748 !default;  /* Elevated elements */
+
+/* Loading/skeleton colors */
+$junkstore-skeleton-base: #2a3441 !default;
+$junkstore-skeleton-highlight: #3a4555 !default;
+$junkstore-skeleton-shimmer: rgba(255, 163, 102, 0.1) !default;
+
+/* Utility colors */
+$white: #fff !default;
+$black: #000 !default;
+$junkstore-border: #444 !default;          /* Border color for dark theme */
+$junkstore-gray-text: #ccc !default;       /* Muted body text */
+$junkstore-light-text: #e8e8e8 !default;   /* Light text on dark backgrounds */
+$junkstore-meta-text: #999 !default;       /* Meta info, timestamps */
+
+/* Gray scale */
+$gray: #7a8288 !default;
+$dark-gray: mix(#000, $gray, 50%) !default;
+$light-gray: mix(#fff, $gray, 50%) !default;
+$lighter-gray: mix(#fff, $gray, 90%) !default;
+
+/*
+   Typography
+   ========================================================================== */
+
+$doc-font-size: 16px !default;
+
+/* Font stacks */
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$serif: Georgia, Times, serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+
+/* Type scale */
+$type-size-1: 2.441em !default;  /* ~39px */
+$type-size-2: 1.953em !default;  /* ~31px */
+$type-size-3: 1.563em !default;  /* ~25px */
+$type-size-4: 1.25em !default;   /* ~20px */
+$type-size-5: 1em !default;      /* ~16px */
+$type-size-6: 0.75em !default;   /* ~12px */
+$type-size-7: 0.6875em !default; /* ~11px */
+$type-size-8: 0.625em !default;  /* ~10px */
+
+/* Headline scale */
+$h-size-1: 1.563em !default;
+$h-size-2: 1.25em !default;
+$h-size-3: 1.125em !default;
+$h-size-4: 1.0625em !default;
+$h-size-5: 1.03125em !default;
+$h-size-6: 1em !default;
+
+/*
+   Breakpoints
+   ========================================================================== */
+
+$small: 600px !default;
+$medium: 768px !default;
+$medium-wide: 900px !default;
+$large: 1024px !default;
+$x-large: 1280px !default;
+$max-width: $x-large !default;
+
+/*
+   Layout
+   ========================================================================== */
+
+$right-sidebar-width-narrow: 200px !default;
+$right-sidebar-width: 300px !default;
+$right-sidebar-width-wide: 400px !default;
+
+$border-radius: 4px !default;
+$box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !default;
+
+/*
+   Navigation
+   ========================================================================== */
+
+$nav-height: 2em !default;
+$nav-toggle-height: 2rem !default;
+$navicon-width: 1.5rem !default;
+$navicon-height: 0.25rem !default;
+
+/*
+   Transitions
+   ========================================================================== */
+
+$global-transition: all 0.2s ease-in-out !default;
+$intro-transition: intro 0.3s both !default;
+
+/*
+   Legacy/Compatibility (can be removed once migration complete)
+   These map old MM variable names to new junkstore equivalents
+   ========================================================================== */
+
+$background-color: $junkstore-bg-dark !default;
+$text-color: $junkstore-light-text !default;
+$muted-text-color: $junkstore-gray-text !default;
+$border-color: $junkstore-border !default;
+$primary-color: $junkstore-primary !default;
+$link-color: $junkstore-link !default;
+$link-color-hover: lighten($junkstore-link, 10%) !default;
