@@ -185,17 +185,6 @@ header:
 
 ---
 
-<h3 style="margin-top: 2rem;">If This Method Doesn't Work</h3>
-
-<ul>
-<li><strong>Check our <a href="/tested-games/">game compatibility database</a></strong> for specific game status</li>
-<li><strong>Try <a href="https://store.steampowered.com/" target="_blank" rel="noopener">native Steam versions</a></strong> when available</li>
-<li><strong>Consider <a href="/tutorials/gogextension">GOG versions</a></strong> for DRM-free alternatives</li>
-<li><strong>Use <a href="https://heroicgameslauncher.com/" target="_blank" rel="noopener">Heroic Game Launcher</a></strong> in Desktop Mode as fallback</li>
-</ul>
-
----
-
 <div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
 <h3 style="margin-top: 0; color: #e74c3c;">Stuck or need help?</h3>
 <p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
