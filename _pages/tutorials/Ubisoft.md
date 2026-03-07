@@ -114,14 +114,6 @@ The Junk Store Team
 
 ---
 
-### If This Method Doesn't Work
-1. **Check our [game compatibility database](/tested-games/)** for specific game status
-2. **Try [native Steam versions](https://store.steampowered.com/)** when available
-3. **Consider [GOG versions](/tutorials/gog-extension)** for DRM-free alternatives
-4. **Use [Heroic Game Launcher](https://heroicgameslauncher.com/)** in Desktop Mode as fallback
-
----
-
 ## Need More Help?
 
 If you run into trouble, check out:
