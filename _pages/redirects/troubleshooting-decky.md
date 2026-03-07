@@ -7,14 +7,14 @@ permalink: /troubleshooting/decky/
 <head>
   <meta charset="utf-8">
   <title>Redirecting to Troubleshooting...</title>
-  <meta http-equiv="refresh" content="0; url=/troubleshooting/?filter=decky">
-  <link rel="canonical" href="/troubleshooting/?filter=decky">
+  <meta http-equiv="refresh" content="0; url=/help/#troubleshooting">
+  <link rel="canonical" href="/help/">
   <script>
     localStorage.setItem('junkstore-version', 'decky');
-    window.location.replace('/troubleshooting/?filter=decky');
+    window.location.replace('/help/#troubleshooting');
   </script>
 </head>
 <body>
-  <p>Redirecting to <a href="/troubleshooting/?filter=decky">Junk Store Troubleshooting</a>...</p>
+  <p>Redirecting to <a href="/help/#troubleshooting">Junk Store Help</a>...</p>
 </body>
 </html>

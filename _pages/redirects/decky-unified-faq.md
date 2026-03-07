@@ -7,14 +7,14 @@ permalink: /faq/decky/
 <head>
   <meta charset="utf-8">
   <title>Redirecting to FAQ...</title>
-  <meta http-equiv="refresh" content="0; url=/faq/?filter=decky">
-  <link rel="canonical" href="/faq/?filter=decky">
+  <meta http-equiv="refresh" content="0; url=/help/#faq">
+  <link rel="canonical" href="/help/">
   <script>
     localStorage.setItem('junkstore-version', 'decky');
-    window.location.replace('/faq/?filter=decky');
+    window.location.replace('/help/#faq');
   </script>
 </head>
 <body>
-  <p>Redirecting to <a href="/faq/?filter=decky">Junk Store FAQ</a>...</p>
+  <p>Redirecting to <a href="/help/#faq">Junk Store Help</a>...</p>
 </body>
 </html>
