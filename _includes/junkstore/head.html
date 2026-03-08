@@ -1,0 +1,50 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{% include seo.html %}
+
+{% unless site.atom_feed.hide %}
+  <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+{% endunless %}
+
+<!-- Preconnect hints -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- Critical CSS - minimal layout only -->
+<style>
+html{box-sizing:border-box;background-color:#252a34;font-size:16px}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;padding:0;color:#e8e8e8;font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue",Arial,sans-serif;line-height:1.6;background-color:#252a34;-webkit-font-smoothing:antialiased}
+.js-site{display:flex;flex-direction:column;min-height:100vh}
+.js-main{flex:1}
+</style>
+
+<!-- Main stylesheet (includes hero-height-fix.scss with js-* support) -->
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"></noscript>
+
+<!-- Junkstore layout styles -->
+<link rel="stylesheet" href="{{ '/assets/css/junkstore.css' | relative_url }}">
+
+<!-- Hero image preload -->
+{% if page.header.overlay_image %}
+<link rel="preload" as="image" href="{{ page.header.overlay_image | relative_url }}" fetchpriority="high">
+{% endif %}
+
+<!-- Font Awesome -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+{% if site.head_scripts %}
+  {% for script in site.head_scripts %}
+    <script src="{{ script | relative_url }}"></script>
+  {% endfor %}
+{% endif %}
+
+{% include head/custom.html %}

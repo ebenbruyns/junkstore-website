@@ -1,12 +1,14 @@
 /* Unified Hero Styles - Single Source of Truth
-   All splash pages use the same hero styling */
+   All splash pages use the same hero styling
+   Supports both MM classes and Junkstore (js-*) classes */
 
 /* ==========================================================================
    DESKTOP HERO (All Pages)
    ========================================================================== */
 
 /* Fixed height hero with centered content */
-.layout--splash .page__hero--overlay {
+.layout--splash .page__hero--overlay,
+.js-hero--overlay {
   min-height: 300px !important;
   height: 300px !important;
   max-height: 300px !important;
@@ -14,10 +16,14 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 0.5rem !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Wrapper - full width, left-aligned text */
-.layout--splash .page__hero--overlay .wrapper {
+.layout--splash .page__hero--overlay .wrapper,
+.js-hero__wrapper {
   width: 100%;
   max-width: 1200px;
   padding: 0 2rem;
@@ -25,23 +31,30 @@
 }
 
 /* Title styling */
-.layout--splash .page__hero--overlay .page__title {
-  font-size: 2rem !important;
+.layout--splash .page__hero--overlay .page__title,
+.js-hero__title {
+  font-size: 1.5rem !important;
   margin-top: 0 !important;
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0.4rem !important;
   line-height: 1.2 !important;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Excerpt/lead styling */
-.layout--splash .page__hero--overlay .page__lead {
-  font-size: 1.1rem !important;
-  margin-bottom: 0.75rem !important;
-  line-height: 1.4 !important;
-  max-width: 800px;
+.layout--splash .page__hero--overlay .page__lead,
+.js-hero__lead {
+  font-size: 0.95rem !important;
+  margin-bottom: 0.5rem !important;
+  line-height: 1.3 !important;
+  max-width: none;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* Hero action buttons - left aligned */
-.page__hero-actions {
+.page__hero-actions,
+.js-hero__actions {
   display: flex !important;
   flex-direction: row !important;
   flex-wrap: wrap !important;
@@ -54,15 +67,18 @@
 /* Button base styling */
 .page__hero-actions .button,
 .page__hero-actions .button.buy-button,
-.page__hero-actions .button.button-secondary {
+.page__hero-actions .button.button-secondary,
+.js-hero__actions .button,
+.js-hero__actions .button.buy-button,
+.js-hero__actions .button.button-secondary {
   background-color: #0056b3 !important;
-  border: 2px solid #004494 !important;
+  border: none !important;
   color: #fff !important;
-  padding: 0.75rem 1.5rem !important;
+  padding: 0.6rem 1.25rem !important;
   text-decoration: none !important;
-  border-radius: 5px !important;
+  border-radius: 8px !important;
   font-weight: 600 !important;
-  font-size: 0.9rem !important;
+  font-size: 0.85rem !important;
   transition: all 0.3s ease !important;
   display: inline-flex !important;
   align-items: center !important;
@@ -70,18 +86,21 @@
   white-space: nowrap !important;
 }
 
-.page__hero-actions .button:hover {
+.page__hero-actions .button:hover,
+.js-hero__actions .button:hover {
   background-color: #004494 !important;
   border-color: #003366 !important;
 }
 
 /* Buy button - green */
-.page__hero-actions .button.buy-button {
+.page__hero-actions .button.buy-button,
+.js-hero__actions .button.buy-button {
   background-color: #1e7e34 !important;
   border-color: #155724 !important;
 }
 
-.page__hero-actions .button.buy-button:hover {
+.page__hero-actions .button.buy-button:hover,
+.js-hero__actions .button.buy-button:hover {
   background-color: #155724 !important;
   border-color: #0d3d17 !important;
 }
@@ -91,28 +110,33 @@
    ========================================================================== */
 
 @media (max-width: 768px) {
-  .layout--splash .page__hero--overlay {
+  .layout--splash .page__hero--overlay,
+  .js-hero--overlay {
     min-height: 250px !important;
     height: 250px !important;
     max-height: 250px !important;
   }
 
-  .layout--splash .page__hero--overlay .wrapper {
+  .layout--splash .page__hero--overlay .wrapper,
+  .js-hero__wrapper {
     padding: 0 1.5rem;
     text-align: center;
   }
 
-  .layout--splash .page__hero--overlay .page__title {
+  .layout--splash .page__hero--overlay .page__title,
+  .js-hero__title {
     font-size: 1.75rem !important;
   }
 
-  .layout--splash .page__hero--overlay .page__lead {
+  .layout--splash .page__hero--overlay .page__lead,
+  .js-hero__lead {
     font-size: 1rem !important;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .page__hero-actions {
+  .page__hero-actions,
+  .js-hero__actions {
     justify-content: center !important;
   }
 }
@@ -122,31 +146,37 @@
    ========================================================================== */
 
 @media (max-width: 480px) {
-  .layout--splash .page__hero--overlay {
+  .layout--splash .page__hero--overlay,
+  .js-hero--overlay {
     min-height: 220px !important;
     height: auto !important;
     max-height: none !important;
     padding: 2rem 1rem !important;
   }
 
-  .layout--splash .page__hero--overlay .wrapper {
+  .layout--splash .page__hero--overlay .wrapper,
+  .js-hero__wrapper {
     padding: 0 1rem;
   }
 
-  .layout--splash .page__hero--overlay .page__title {
+  .layout--splash .page__hero--overlay .page__title,
+  .js-hero__title {
     font-size: 1.5rem !important;
   }
 
-  .layout--splash .page__hero--overlay .page__lead {
+  .layout--splash .page__hero--overlay .page__lead,
+  .js-hero__lead {
     font-size: 0.95rem !important;
   }
 
-  .page__hero-actions {
+  .page__hero-actions,
+  .js-hero__actions {
     flex-direction: column !important;
     align-items: center !important;
   }
 
-  .page__hero-actions .button {
+  .page__hero-actions .button,
+  .js-hero__actions .button {
     width: 100% !important;
     max-width: 250px !important;
   }
@@ -157,11 +187,13 @@
    ========================================================================== */
 
 @media (max-width: 375px) {
-  .layout--splash .page__hero--overlay .page__title {
+  .layout--splash .page__hero--overlay .page__title,
+  .js-hero__title {
     font-size: 1.35rem !important;
   }
 
-  .layout--splash .page__hero--overlay .page__lead {
+  .layout--splash .page__hero--overlay .page__lead,
+  .js-hero__lead {
     font-size: 0.9rem !important;
   }
 }

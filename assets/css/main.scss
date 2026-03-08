@@ -6,6 +6,7 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials - includes our new page-specific CSS files
+// NOTE: junkstore theme loaded separately via junkstore layouts (parallel development)
 @import "mobile-navigation";
 @import "mobile-performance";
 @import "mobile-optimizations";

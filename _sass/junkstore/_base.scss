@@ -442,3 +442,134 @@ iframe {
   background: rgba($junkstore-primary, 0.3);
   color: $white;
 }
+
+/*
+   Global Content Area Typography
+   ========================================================================== */
+
+// Main content area - consistent sizing
+.js-splash__content,
+.js-page__content,
+.page__content,
+.initial-content {
+  // Body text
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: $junkstore-light-text;
+
+  // Headings - fixed sizes
+  h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: $junkstore-primary;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: $junkstore-accent;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h4, h5, h6 {
+    font-size: 1.1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  // Paragraphs
+  p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  // Lists
+  ul, ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+
+    li {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+  }
+
+  // Section styling
+  section {
+    margin-bottom: 2rem;
+  }
+
+  // Section headers (orange accent)
+  .section-header {
+    color: $junkstore-accent;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+// Mobile content adjustments
+@media (max-width: 768px) {
+  .js-splash__content,
+  .js-page__content,
+  .page__content,
+  .initial-content {
+    font-size: 1rem;
+
+    h1 { font-size: 1.75rem; }
+    h2 { font-size: 1.35rem; }
+    h3 { font-size: 1.15rem; }
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  }
+}
+
+/*
+   Accessibility
+   ========================================================================== */
+
+// Reduced motion preference
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+// Skip link (should be first focusable element)
+.js-skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: $junkstore-accent;
+  color: $black;
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+  font-weight: bold;
+
+  &:focus {
+    top: 0;
+  }
+}
+
+// Screen reader only
+.sr-only {
+  @include visually-hidden;
+}

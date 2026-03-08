@@ -178,8 +178,22 @@
 
 // Focus ring for accessibility
 @mixin focus-ring {
-  outline: 2px solid $junkstore-primary;
-  outline-offset: 2px;
+  outline: $focus-ring-width solid $focus-ring-color;
+  outline-offset: $focus-ring-offset;
+}
+
+// Touch-friendly target size
+@mixin touch-target {
+  min-height: $min-touch-target;
+  min-width: $min-touch-target;
+}
+
+// Reduced motion - respect user preference
+@mixin reduce-motion {
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+    transition: none;
+  }
 }
 
 // Hide scrollbar but allow scrolling

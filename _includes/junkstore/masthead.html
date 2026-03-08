@@ -1,0 +1,58 @@
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+<header class="js-masthead">
+  <div class="js-container">
+    <nav class="js-nav">
+      <div class="js-nav__brand">
+        {% unless logo_path == empty %}
+          <a href="{{ '/' | relative_url }}" class="js-nav__logo">
+            <img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}">
+          </a>
+        {% endunless %}
+        <a href="{{ '/' | relative_url }}" class="js-nav__title">
+          {{ site.masthead_title | default: site.title }}
+          {% if site.subtitle %}<span class="js-nav__subtitle">{{ site.subtitle }}</span>{% endif %}
+        </a>
+      </div>
+
+      <button class="js-nav__toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="js-nav__hamburger"></span>
+      </button>
+
+      <ul class="js-nav__links">
+        {%- for link in site.data.navigation.main -%}
+          <li class="js-nav__item">
+            <a href="{{ link.url | relative_url }}"
+               {% if link.description %} title="{{ link.description }}"{% endif %}
+               {% if link.target %} target="{{ link.target }}"{% endif %}
+               class="js-nav__link{% if page.url == link.url %} js-nav__link--active{% endif %}">
+              {{ link.title }}
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+
+      {% if site.search == true %}
+      <a href="/search/" class="js-nav__search" aria-label="Search">
+        <i class="fas fa-search"></i>
+      </a>
+      {% endif %}
+    </nav>
+  </div>
+</header>
+
+<script>
+(function() {
+  const toggle = document.querySelector('.js-nav__toggle');
+  const links = document.querySelector('.js-nav__links');
+
+  if (toggle && links) {
+    toggle.addEventListener('click', function() {
+      const expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', !expanded);
+      links.classList.toggle('js-nav__links--open');
+      toggle.classList.toggle('js-nav__toggle--active');
+    });
+  }
+})();
+</script>

@@ -1,0 +1,26 @@
+{% if page.header.overlay_color or page.header.overlay_image %}
+{% assign overlay_filter = page.header.overlay_filter | default: "0.5" %}
+<div class="js-hero js-hero--overlay" style="background-color: {{ page.header.overlay_color | default: '#000' }}; background-image: linear-gradient(rgba(0, 0, 0, {{ overlay_filter }}), rgba(0, 0, 0, {{ overlay_filter }})){% if page.header.overlay_image %}, url('{{ page.header.overlay_image | relative_url }}'){% endif %};">
+  <div class="js-hero__wrapper">
+    {% if page.title %}
+    <h1 class="js-hero__title">{{ page.title }}</h1>
+    {% endif %}
+
+    {% if page.excerpt %}
+    <p class="js-hero__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    {% endif %}
+
+    {% if page.header.actions %}
+    <div class="js-hero__actions">
+      {% for action in page.header.actions %}
+      <a href="{{ action.url | relative_url }}" class="{{ action.class | default: 'button' }}">{{ action.label }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% elsif page.header.image %}
+<div class="js-hero">
+  <img src="{{ page.header.image | relative_url }}" alt="{{ page.title }}" class="js-hero__image">
+</div>
+{% endif %}

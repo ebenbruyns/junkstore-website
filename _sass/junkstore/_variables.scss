@@ -30,9 +30,18 @@ $junkstore-skeleton-shimmer: rgba(255, 163, 102, 0.1) !default;
 $white: #fff !default;
 $black: #000 !default;
 $junkstore-border: #444 !default;          /* Border color for dark theme */
-$junkstore-gray-text: #ccc !default;       /* Muted body text */
+$junkstore-gray-text: #b0b0b0 !default;    /* Muted body text - WCAG AA compliant */
 $junkstore-light-text: #e8e8e8 !default;   /* Light text on dark backgrounds */
-$junkstore-meta-text: #999 !default;       /* Meta info, timestamps */
+$junkstore-meta-text: #a0a0a0 !default;    /* Meta info, timestamps - improved contrast */
+
+/*
+   Accessibility
+   ========================================================================== */
+
+$focus-ring-color: $junkstore-primary !default;
+$focus-ring-width: 3px !default;
+$focus-ring-offset: 2px !default;
+$min-touch-target: 44px !default;          /* Minimum touch target size */
 
 /* Gray scale */
 $gray: #7a8288 !default;

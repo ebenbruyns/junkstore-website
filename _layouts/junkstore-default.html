@@ -1,0 +1,24 @@
+---
+---
+<!doctype html>
+<html lang="{{ site.locale | replace: '_', '-' | default: 'en' }}" class="no-js">
+  <head>
+    {% include junkstore/head.html %}
+  </head>
+
+  <body class="js-site{% if page.classes %} {{ page.classes | join: ' ' }}{% endif %}">
+    {% include promo-banner.html %}
+
+    {% include junkstore/masthead.html %}
+
+    <main class="js-main">
+      <div class="js-content">
+        {{ content }}
+      </div>
+    </main>
+
+    {% include junkstore/footer.html %}
+
+    {% include scripts.html %}
+  </body>
+</html>

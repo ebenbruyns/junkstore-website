@@ -1,0 +1,393 @@
+/* ==========================================================================
+   Junk Store Theme - Layout Styles
+   Page structure, navigation, footer, hero
+   ========================================================================== */
+
+/*
+   Site Structure
+   ========================================================================== */
+
+.js-site {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.js-main {
+  flex: 1;
+}
+
+.js-content {
+  // Main content area
+}
+
+.js-container {
+  max-width: $max-width;
+  width: 98%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/*
+   Masthead / Navigation
+   ========================================================================== */
+
+.js-masthead {
+  border-bottom: 1px solid $junkstore-border;
+  background: $junkstore-bg-dark;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.js-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  gap: 1rem;
+}
+
+.js-nav__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.js-nav__logo {
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 40px;
+    width: auto;
+  }
+}
+
+.js-nav__title {
+  font-size: $type-size-4;
+  font-weight: bold;
+  color: $white;
+  text-decoration: none;
+
+  &:hover {
+    color: $junkstore-primary;
+  }
+}
+
+.js-nav__subtitle {
+  display: block;
+  font-size: $type-size-6;
+  font-weight: normal;
+  color: $junkstore-gray-text;
+}
+
+.js-nav__links {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.js-nav__item {
+  margin: 0;
+}
+
+.js-nav__link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: $junkstore-gray-text;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: $border-radius;
+  @include transition;
+
+  &:hover {
+    color: $white;
+    background: rgba($white, 0.05);
+  }
+
+  &.js-nav__link--active {
+    color: $junkstore-primary;
+  }
+}
+
+.js-nav__search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: $junkstore-gray-text;
+  @include transition;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+// Mobile navigation toggle
+.js-nav__toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.js-nav__hamburger {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: $white;
+  position: relative;
+  @include transition;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    background: $white;
+    left: 0;
+    @include transition;
+  }
+
+  &::before {
+    top: -7px;
+  }
+
+  &::after {
+    top: 7px;
+  }
+}
+
+.js-nav__toggle--active .js-nav__hamburger {
+  background: transparent;
+
+  &::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+}
+
+// Mobile navigation
+@include breakpoint-max(large) {
+  .js-nav__toggle {
+    display: block;
+  }
+
+  .js-nav__links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: $junkstore-bg-card;
+    border-bottom: 1px solid $junkstore-border;
+    padding: 1rem;
+    gap: 0;
+    display: none;
+
+    &.js-nav__links--open {
+      display: flex;
+    }
+  }
+
+  .js-nav__item {
+    width: 100%;
+  }
+
+  .js-nav__link {
+    padding: 0.75rem 1rem;
+    border-radius: 0;
+    border-bottom: 1px solid rgba($white, 0.05);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+/*
+   Hero Section
+   Note: Main hero styles are in hero-height-fix.scss
+   This just provides base structure for non-overlay heroes
+   ========================================================================== */
+
+.js-hero {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.js-hero__image {
+  width: 100%;
+  height: auto;
+}
+
+/*
+   Page Layout
+   ========================================================================== */
+
+.js-page {
+  padding: 2rem 0;
+}
+
+.js-page__header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.js-page__title {
+  font-size: $type-size-1;
+  color: $junkstore-primary;
+  margin-bottom: 0.5rem;
+
+  @include breakpoint-max(medium) {
+    font-size: $type-size-2;
+  }
+}
+
+.js-page__excerpt {
+  font-size: $type-size-4;
+  color: $junkstore-gray-text;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.js-page__content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.js-page__footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid $junkstore-border;
+}
+
+.js-page__meta {
+  font-size: $type-size-6;
+  color: $junkstore-meta-text;
+}
+
+/*
+   Splash Layout
+   ========================================================================== */
+
+.js-splash {
+  padding-bottom: 3rem;
+}
+
+.js-splash__content {
+  max-width: 1200px;
+  width: 98%;
+  margin: 0 auto;
+  padding: 0.1rem 1rem 0 1rem;
+}
+
+/*
+   Footer
+   ========================================================================== */
+
+.js-footer {
+  background: $junkstore-bg-card;
+  border-top: 1px solid $junkstore-border;
+  padding: 2rem 0;
+  margin-top: auto;
+}
+
+.js-footer__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  @include breakpoint-max(medium) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.js-footer__copyright {
+  font-size: $type-size-6;
+  color: $junkstore-meta-text;
+
+  span + span::before {
+    content: ' · ';
+  }
+}
+
+.js-footer__links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+
+  @include breakpoint-max(medium) {
+    justify-content: center;
+  }
+}
+
+.js-footer__link {
+  color: $junkstore-gray-text;
+  text-decoration: none;
+  font-size: $type-size-6;
+  @include transition;
+
+  &:hover {
+    color: $junkstore-primary;
+  }
+
+  i {
+    margin-right: 0.25rem;
+  }
+}
+
+.js-footer__social {
+  display: flex;
+  gap: 1rem;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    color: $junkstore-gray-text;
+    background: rgba($white, 0.05);
+    border-radius: 50%;
+    @include transition;
+
+    &:hover {
+      color: $white;
+      background: $junkstore-primary;
+    }
+  }
+}
+
+/*
+   Skip Links (Accessibility)
+   ========================================================================== */
+
+.js-skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: $junkstore-accent;
+  color: $white;
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+
+  &:focus {
+    top: 0;
+  }
+}

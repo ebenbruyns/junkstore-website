@@ -1,0 +1,124 @@
+/* ==========================================================================
+   Junk Store Theme - Typography
+   Consistent text styling across the site
+   ========================================================================== */
+
+/*
+   Page Titles
+   ========================================================================== */
+
+.js-page-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $junkstore-primary;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+/*
+   Section Headers (Orange accent)
+   ========================================================================== */
+
+.js-section-header {
+  font-size: 1.35rem;
+  font-weight: bold;
+  color: $junkstore-accent;
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+// Variant with less top margin (for sections right after other content)
+.js-section-header--compact {
+  margin-top: 1.5rem;
+}
+
+// Variant with more top margin (for separated sections)
+.js-section-header--spaced {
+  margin-top: 3.5rem;
+}
+
+/*
+   CTA Headers (Blue)
+   ========================================================================== */
+
+.js-cta-header {
+  font-size: 1.35rem;
+  font-weight: bold;
+  color: $junkstore-primary;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+/*
+   Body Text
+   ========================================================================== */
+
+.js-body-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: $junkstore-light-text;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.js-body-text--muted {
+  color: $junkstore-gray-text;
+}
+
+.js-body-text--small {
+  font-size: 0.9rem;
+}
+
+/*
+   Captions / Meta
+   ========================================================================== */
+
+.js-caption {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: $junkstore-gray-text;
+  margin-top: 0.5rem;
+}
+
+.js-label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/*
+   Responsive adjustments
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .js-page-title {
+    font-size: 1.35rem;
+  }
+
+  .js-section-header {
+    font-size: 1.2rem;
+  }
+
+  .js-cta-header {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .js-page-title {
+    font-size: 1.25rem;
+  }
+
+  .js-section-header {
+    font-size: 1.1rem;
+  }
+
+  .js-cta-header {
+    font-size: 1.1rem;
+  }
+}
