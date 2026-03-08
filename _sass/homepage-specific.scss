@@ -1,7 +1,7 @@
 /* Homepage-specific styles only - applies to splash layout only */
 
 /* GitHub-Style Professional Notice Banner - Safari Compatible */
-.layout--splash .whats-new-banner {
+.js-splash .whats-new-banner {
   background-color: #0d1117 !important;
   border: 1px solid #30363d !important;
   border-radius: 6px;
@@ -14,7 +14,7 @@
   -webkit-appearance: none; /* Safari fix */
 }
 
-.layout--splash .whats-new-banner::before {
+.js-splash .whats-new-banner::before {
   content: "NEW";
   position: absolute;
   top: -8px;
@@ -27,28 +27,28 @@
   font-weight: 600;
 }
 
-.layout--splash .whats-new-banner p {
+.js-splash .whats-new-banner p {
   margin: 0;
   color: #f0f6fc !important;
   font-size: 1rem;
   font-weight: 500;
 }
 
-.layout--splash .whats-new-banner strong {
+.js-splash .whats-new-banner strong {
   color: #58a6ff !important; /* GitHub blue */
   font-weight: 600;
 }
 
 /* Mobile responsiveness for What's New banner */
 @media (max-width: 768px) {
-  .layout--splash .whats-new-banner {
+  .js-splash .whats-new-banner {
     margin: 1rem auto;
     padding: 14px 12px;
     width: 95%;
     background-color: #000000 !important; /* Force black background for Safari */
   }
 
-  .layout--splash .whats-new-banner::before {
+  .js-splash .whats-new-banner::before {
     left: 16px;
     top: -6px;
     font-size: 0.7rem;
@@ -56,19 +56,19 @@
     background-color: #28a745 !important; /* Force green for Safari */
   }
 
-  .layout--splash .whats-new-banner p {
+  .js-splash .whats-new-banner p {
     font-size: 0.95rem;
     line-height: 1.4;
     color: #ffffff !important; /* Force white text for Safari */
   }
 
-  .layout--splash .whats-new-banner strong {
+  .js-splash .whats-new-banner strong {
     font-size: 0.95rem;
     color: $junkstore-primary !important; /* Force lighter blue for Safari contrast */
   }
 }
 
-.layout--splash .new-badge {
+.js-splash .new-badge {
   background: #28a745;
   color: white;
   font-size: 0.75rem;
@@ -80,10 +80,10 @@
 }
 
 /* Homepage h1 alignment - for content h1s only, not hero */
-body.home h1:not(.page__title) {
+body.home h1:not(.page__title):not(.js-hero__title) {
   max-width: 1200px;
   width: 98%;
-  margin: 2rem auto 1rem 1%;
+  margin: 2rem auto 1rem auto;
   text-align: left;
   padding-left: 0;
 }
@@ -91,27 +91,27 @@ body.home h1:not(.page__title) {
 /* Hero styling now handled globally by hero-height-fix.scss */
 
 /* Major differentiators section */
-.layout--splash .major-differentiators {
+.js-splash .major-differentiators {
   max-width: 1200px;
   width: 98%;
   margin: 1rem auto 3rem auto;
   text-align: center;
 }
 
-.layout--splash .major-differentiators h2 {
+.js-splash .major-differentiators h2 {
   color: $junkstore-primary;
   margin-top: 0;
   margin-bottom: 2rem;
 }
 
-.layout--splash .differentiator-grid {
+.js-splash .differentiator-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   margin-bottom: 2rem;
 }
 
-.layout--splash .differentiator-item {
+.js-splash .differentiator-item {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid #444;
   border-radius: 8px;
@@ -119,7 +119,7 @@ body.home h1:not(.page__title) {
   text-align: left;
 }
 
-.layout--splash .differentiator-item h3 {
+.js-splash .differentiator-item h3 {
   color: $junkstore-accent;
   font-size: 1.1rem;
   margin-bottom: 1rem;
@@ -127,26 +127,26 @@ body.home h1:not(.page__title) {
   margin-top: 0;
 }
 
-.layout--splash .differentiator-item p {
+.js-splash .differentiator-item p {
   margin-bottom: 0.5rem;
   line-height: 1.4;
   font-size: 0.95rem;
 }
 
-.layout--splash .differentiator-item p:last-child {
+.js-splash .differentiator-item p:last-child {
   margin-bottom: 0;
 }
 
-.layout--splash .differentiator-item .problem {
+.js-splash .differentiator-item .problem {
   color: #ff8a80;
 }
 
-.layout--splash .differentiator-item .solution {
+.js-splash .differentiator-item .solution {
   color: #69f0ae;
 }
 
 /* Adjust grid for better balance - 3x2 layout */
-.layout--splash .differentiator-grid {
+.js-splash .differentiator-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
@@ -154,18 +154,18 @@ body.home h1:not(.page__title) {
 }
 
 @media (max-width: 900px) {
-  .layout--splash .differentiator-grid {
+  .js-splash .differentiator-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
-  .layout--splash .differentiator-grid {
+  .js-splash .differentiator-grid {
     grid-template-columns: 1fr;
   }
 }
 
-.layout--splash .differentiator-conclusion {
+.js-splash .differentiator-conclusion {
   background: rgba(102, 191, 255, 0.1);
   border: 1px solid rgba(102, 191, 255, 0.3);
   border-radius: 8px;
@@ -175,7 +175,7 @@ body.home h1:not(.page__title) {
   margin-bottom: 2rem;
 }
 
-.layout--splash .primary-cta {
+.js-splash .primary-cta {
   background: linear-gradient(135deg, rgba(40, 167, 69, 0.15), rgba(40, 167, 69, 0.08));
   border: 2px solid rgba(40, 167, 69, 0.4);
   border-radius: 12px;
@@ -183,19 +183,19 @@ body.home h1:not(.page__title) {
   text-align: center;
 }
 
-.layout--splash .primary-cta h3 {
+.js-splash .primary-cta h3 {
   color: #28a745;
   margin: 0 0 0.5rem 0;
   font-size: 1.4rem;
 }
 
-.layout--splash .primary-cta p {
+.js-splash .primary-cta p {
   color: $junkstore-light-text;
   margin: 0 0 1.5rem 0;
   font-size: 1.1rem;
 }
 
-.layout--splash .primary-cta .cta-buttons {
+.js-splash .primary-cta .cta-buttons {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -203,19 +203,19 @@ body.home h1:not(.page__title) {
 }
 
 @media (max-width: 600px) {
-  .layout--splash .primary-cta .cta-buttons {
+  .js-splash .primary-cta .cta-buttons {
     flex-direction: column;
     gap: 1rem;
   }
 
-  .layout--splash .primary-cta .cta-buttons .button {
+  .js-splash .primary-cta .cta-buttons .button {
     width: 100%;
     max-width: 280px;
   }
 }
 
 /* Problem/Solution Section */
-.layout--splash .problem-solution {
+.js-splash .problem-solution {
   background-color: #253445;
   padding: 2.5rem 1rem;
   margin: 2rem auto;
@@ -229,8 +229,8 @@ body.home h1:not(.page__title) {
   min-height: 300px;
 }
 
-.layout--splash .problem-box,
-.layout--splash .solution-box {
+.js-splash .problem-box,
+.js-splash .solution-box {
   padding: 1.5rem;
   border-radius: 6px;
   text-align: center;
@@ -240,17 +240,17 @@ body.home h1:not(.page__title) {
   min-height: 180px;
 }
 
-.layout--splash .problem-box {
+.js-splash .problem-box {
   background-color: rgba(231, 76, 60, 0.1);
   border: 1px solid rgba(231, 76, 60, 0.3);
 }
 
-.layout--splash .solution-box {
+.js-splash .solution-box {
   background-color: rgba(46, 204, 113, 0.1);
   border: 1px solid rgba(46, 204, 113, 0.3);
 }
 
-.layout--splash .problem-box h2 {
+.js-splash .problem-box h2 {
   color: #e74c3c;
   font-size: 1.4rem;
   margin-top: 0;
@@ -259,7 +259,7 @@ body.home h1:not(.page__title) {
   flex-shrink: 0;
 }
 
-.layout--splash .solution-box h2 {
+.js-splash .solution-box h2 {
   color: #2ecc71;
   font-size: 1.4rem;
   margin-top: 0;
@@ -268,8 +268,8 @@ body.home h1:not(.page__title) {
   flex-shrink: 0;
 }
 
-.layout--splash .problem-points,
-.layout--splash .solution-points {
+.js-splash .problem-points,
+.js-splash .solution-points {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -277,8 +277,8 @@ body.home h1:not(.page__title) {
   gap: 0.75rem;
 }
 
-.layout--splash .problem-points p,
-.layout--splash .solution-points p {
+.js-splash .problem-points p,
+.js-splash .solution-points p {
   color: $junkstore-light-text;
   line-height: 1.4;
   margin: 0;
@@ -290,16 +290,16 @@ body.home h1:not(.page__title) {
   background-color: rgba(255, 255, 255, 0.05);
 }
 
-.layout--splash .problem-points p {
+.js-splash .problem-points p {
   border-left: 3px solid #e74c3c;
 }
 
-.layout--splash .solution-points p {
+.js-splash .solution-points p {
   border-left: 3px solid #2ecc71;
 }
 
 /* Key Features Section */
-.layout--splash .key-features {
+.js-splash .key-features {
   background-color: $junkstore-bg-card;
   padding: 0.5rem 1rem 2rem 1rem;
   margin: 0.5rem auto;
@@ -311,7 +311,7 @@ body.home h1:not(.page__title) {
   min-height: 300px;
 }
 
-.layout--splash .key-features h2 {
+.js-splash .key-features h2 {
   color: $junkstore-primary;
   font-size: 1.8rem;
   margin-top: 0;
@@ -319,7 +319,7 @@ body.home h1:not(.page__title) {
   font-weight: bold;
 }
 
-.layout--splash .features-grid {
+.js-splash .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1.5rem;
@@ -327,7 +327,7 @@ body.home h1:not(.page__title) {
   margin: 0 auto;
 }
 
-.layout--splash .feature {
+.js-splash .feature {
   background-color: #253445;
   padding: 1.5rem 1rem;
   border-radius: 8px;
@@ -339,21 +339,21 @@ body.home h1:not(.page__title) {
   text-align: left;
 }
 
-.layout--splash .feature h3 {
+.js-splash .feature h3 {
   color: $junkstore-accent;
   font-size: 1.1rem;
   margin: 0 0 1rem 0;
   text-align: center;
 }
 
-.layout--splash .feature .problem {
+.js-splash .feature .problem {
   color: #ff8a80;
   margin-bottom: 0.5rem;
   font-size: 0.95rem;
   line-height: 1.4;
 }
 
-.layout--splash .feature .solution {
+.js-splash .feature .solution {
   color: #69f0ae;
   margin-bottom: 0;
   font-size: 0.95rem;
@@ -362,24 +362,24 @@ body.home h1:not(.page__title) {
 
 /* Mobile text contrast improvements */
 @media (max-width: 768px) {
-  .layout--splash .feature .problem {
+  .js-splash .feature .problem {
     color: #ffb3ba !important; /* Lighter red for better mobile contrast */
     font-size: 1rem !important; /* Slightly larger for mobile readability */
     line-height: 1.5 !important;
   }
 
-  .layout--splash .feature .solution {
+  .js-splash .feature .solution {
     color: #90ee90 !important; /* Lighter green for better mobile contrast */
     font-size: 1rem !important; /* Slightly larger for mobile readability */
     line-height: 1.5 !important;
   }
 
-  .layout--splash .feature h3 {
+  .js-splash .feature h3 {
     font-size: 1.2rem !important; /* Larger headers on mobile */
   }
 }
 
-.layout--splash .feature-detail {
+.js-splash .feature-detail {
   display: block;
   font-size: 0.9rem;
   color: #b8b8b8;
@@ -389,7 +389,7 @@ body.home h1:not(.page__title) {
 }
 
 /* Final CTA Section */
-.layout--splash .final-cta {
+.js-splash .final-cta {
   background-color: #1a252f;
   padding: 3rem 1rem;
   margin: 2rem 0 0 0;
@@ -397,33 +397,33 @@ body.home h1:not(.page__title) {
   border-top: 2px solid #444;
 }
 
-.layout--splash .cta-container {
+.js-splash .cta-container {
   max-width: 800px;
   margin: 0 auto;
 }
 
-.layout--splash .final-cta h2 {
+.js-splash .final-cta h2 {
   color: $junkstore-primary;
   font-size: 2rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
-.layout--splash .final-cta p {
+.js-splash .final-cta p {
   color: $junkstore-light-text;
   font-size: 1.2rem;
   margin-bottom: 2rem;
   line-height: 1.4;
 }
 
-.layout--splash .cta-buttons {
+.js-splash .cta-buttons {
   display: flex;
   gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.layout--splash .button-secondary {
+.js-splash .button-secondary {
   background-color: transparent;
   border: 2px solid $junkstore-primary;
   color: $junkstore-primary;
@@ -434,30 +434,30 @@ body.home h1:not(.page__title) {
   transition: all 0.3s ease;
 }
 
-.layout--splash .button-secondary:hover {
+.js-splash .button-secondary:hover {
   background-color: $junkstore-primary;
   color: #1a252f;
   transform: translateY(-2px);
 }
 
 /* Wide button for longer text - higher specificity */
-.layout--splash .pricing-cta .button.button-secondary.button-wide {
+.js-splash .pricing-cta .button.button-secondary.button-wide {
   min-width: 250px !important;
   width: auto !important;
   padding: 0.75rem 2rem !important;
   white-space: nowrap !important;
 }
 
-.layout--splash .button-wide {
+.js-splash .button-wide {
   min-width: 200px;
   padding: 0.75rem 1.5rem;
 }
 
 /* What is Junk Store? Explainer Section */
-.layout--splash .what-is-junkstore {
+.js-splash .what-is-junkstore {
   background: linear-gradient(135deg, #1a252f 0%, #253445 100%);
-  padding: 2.5rem 1.5rem;
-  margin: 2rem auto;
+  padding: 1.75rem 1.5rem;
+  margin: 1.5rem auto;
   border-radius: 12px;
   border: 1px solid #444;
   max-width: 1200px;
@@ -465,80 +465,81 @@ body.home h1:not(.page__title) {
   text-align: center;
 }
 
-.layout--splash .what-is-junkstore h2 {
+.js-splash .what-is-junkstore h2 {
   color: $junkstore-primary !important;
-  font-size: 2rem !important;
-  margin-bottom: 1rem !important;
+  font-size: 1.8rem !important;
+  margin-bottom: 0.75rem !important;
   margin-top: 0 !important;
 }
 
-.layout--splash .what-is-junkstore .explainer-lead {
-  font-size: 1.15rem;
-  line-height: 1.7;
+.js-splash .what-is-junkstore .explainer-lead {
+  font-size: 1.1rem;
+  line-height: 1.6;
   color: $junkstore-light-text;
   max-width: 800px;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 1.25rem auto;
 }
 
-.layout--splash .explainer-features {
+.js-splash .explainer-features {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  margin-bottom: 2rem;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
-.layout--splash .explainer-feature {
+.js-splash .explainer-feature {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid #444;
   border-radius: 8px;
-  padding: 1.5rem 1rem;
+  padding: 1.25rem 1rem;
   text-align: center;
   transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
-.layout--splash .explainer-feature:hover {
+.js-splash .explainer-feature:hover {
   transform: translateY(-3px);
   border-color: $junkstore-primary;
 }
 
-.layout--splash .explainer-feature .feature-icon {
-  font-size: 2rem;
+.js-splash .explainer-feature .feature-icon {
+  font-size: 1.75rem;
   color: $junkstore-primary;
-  margin-bottom: 0.75rem;
-}
-
-.layout--splash .explainer-feature h3 {
-  color: $junkstore-accent;
-  font-size: 1.1rem;
-  margin: 0 0 0.75rem 0;
-  font-weight: 600;
-}
-
-.layout--splash .explainer-feature p {
-  color: #b8b8b8;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  margin: 0;
-}
-
-.layout--splash .supported-storefronts {
-  font-size: 1.1rem;
-  color: #b8b8b8;
   margin-bottom: 0.5rem;
 }
 
-.layout--splash .supported-storefronts strong {
-  color: $junkstore-light-text;
+.js-splash .explainer-feature h3 {
+  color: $junkstore-accent;
+  font-size: 1.05rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
 }
 
-.layout--splash .supported-extras {
-  font-size: 0.95rem;
-  color: #999;
-  margin-bottom: 2rem;
+.js-splash .explainer-feature p {
+  color: #b8b8b8;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.js-splash .supported-storefronts {
+  font-size: 1.1rem;
+  color: #b8b8b8;
+  margin-bottom: 0.5rem;
   text-align: center;
 }
 
-.layout--splash .explainer-cta {
+.js-splash .supported-storefronts strong {
+  color: $junkstore-light-text;
+}
+
+.js-splash .supported-extras {
+  font-size: 0.95rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.js-splash .explainer-cta {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -547,52 +548,114 @@ body.home h1:not(.page__title) {
 
 /* Mobile responsiveness for What is Junk Store section */
 @media (max-width: 900px) {
-  .layout--splash .explainer-features {
+  .js-splash .explainer-features {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
 }
 
 @media (max-width: 768px) {
-  .layout--splash .what-is-junkstore {
+  .js-splash .what-is-junkstore {
     padding: 2rem 1rem;
     margin: 1.5rem 0.5rem;
   }
 
-  .layout--splash .what-is-junkstore h2 {
+  .js-splash .what-is-junkstore h2 {
     font-size: 1.5rem !important;
   }
 
-  .layout--splash .what-is-junkstore .explainer-lead {
+  .js-splash .what-is-junkstore .explainer-lead {
     font-size: 1.05rem;
     line-height: 1.6;
   }
 
-  .layout--splash .explainer-feature {
+  .js-splash .explainer-feature {
     padding: 1.25rem 1rem;
   }
 
-  .layout--splash .explainer-feature .feature-icon {
+  .js-splash .explainer-feature .feature-icon {
     font-size: 1.75rem;
   }
 
-  .layout--splash .explainer-feature h3 {
+  .js-splash .explainer-feature h3 {
     font-size: 1.1rem;
   }
 
-  .layout--splash .explainer-cta {
+  .js-splash .explainer-cta {
     flex-direction: column;
     align-items: center;
   }
 
-  .layout--splash .explainer-cta .button {
+  .js-splash .explainer-cta .button {
     width: 100%;
     max-width: 280px;
   }
 }
 
+/* Demo Section - Side by side layout */
+.js-splash .demo-section {
+  background-color: $junkstore-bg-card;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  border-radius: 8px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 98%;
+}
+
+.js-splash .demo-section__content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.js-splash .demo-section__text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.js-splash .demo-section__text h3 {
+  color: $junkstore-primary;
+  font-size: 1.4rem;
+  margin: 0 0 0.75rem 0;
+  font-weight: bold;
+}
+
+.js-splash .demo-section__text p {
+  color: $junkstore-light-text;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.js-splash .demo-section__video {
+  flex: 1.5;
+  max-width: 550px;
+}
+
+.js-splash .demo-section__video .video-demo-container {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .js-splash .demo-section__content {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .js-splash .demo-section__text {
+    text-align: center;
+  }
+
+  .js-splash .demo-section__video {
+    max-width: 100%;
+  }
+}
+
 /* SEO Intro section for mobile readability */
-.layout--splash .seo-intro {
+.js-splash .seo-intro {
   padding: 1.5rem 1rem;
   margin: 1rem auto;
   background-color: rgba(102, 191, 255, 0.1);
@@ -602,7 +665,7 @@ body.home h1:not(.page__title) {
   width: 98%;
 }
 
-.layout--splash .seo-intro p {
+.js-splash .seo-intro p {
   font-size: 1.1rem;
   line-height: 1.6;
   margin: 0;
@@ -610,7 +673,7 @@ body.home h1:not(.page__title) {
 }
 
 /* Screenshot sections mobile optimization */
-.layout--splash .screenshot-section {
+.js-splash .screenshot-section {
   background-color: $junkstore-bg-card;
   padding: 0.5rem 1rem 2rem 1rem;
   margin: 2rem auto;
@@ -620,7 +683,7 @@ body.home h1:not(.page__title) {
   width: 98%;
 }
 
-.layout--splash .screenshot-box {
+.js-splash .screenshot-box {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -628,7 +691,7 @@ body.home h1:not(.page__title) {
   text-align: center;
 }
 
-.layout--splash .screenshot-text h3 {
+.js-splash .screenshot-text h3 {
   color: $junkstore-primary;
   font-size: 1.5rem;
   margin-top: 0.5rem;
@@ -636,14 +699,14 @@ body.home h1:not(.page__title) {
   font-weight: bold;
 }
 
-.layout--splash .screenshot-text p {
+.js-splash .screenshot-text p {
   color: $junkstore-light-text;
   font-size: 1.1rem;
   line-height: 1.5;
   margin: 0;
 }
 
-.layout--splash .screenshot-box img {
+.js-splash .screenshot-box img {
   max-width: 100%;
   height: auto;
   border-radius: 6px;
@@ -651,7 +714,7 @@ body.home h1:not(.page__title) {
 }
 
 /* Competitive comparison section */
-.layout--splash .competitive-comparison {
+.js-splash .competitive-comparison {
   background-color: #253445;
   padding: 0.5rem 1rem 2.5rem 1rem;
   margin: 2rem 0;
@@ -663,7 +726,7 @@ body.home h1:not(.page__title) {
   margin-right: auto;
 }
 
-.layout--splash .competitive-comparison h2 {
+.js-splash .competitive-comparison h2 {
   color: $junkstore-primary;
   font-size: 1.8rem;
   text-align: center;
@@ -672,35 +735,35 @@ body.home h1:not(.page__title) {
   font-weight: bold;
 }
 
-.layout--splash .comparison-grid {
+.js-splash .comparison-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
 
-.layout--splash .comparison-item {
+.js-splash .comparison-item {
   background-color: $junkstore-bg-card;
   padding: 1.5rem;
   border-radius: 6px;
   border: 1px solid #444;
 }
 
-.layout--splash .comparison-item h4 {
+.js-splash .comparison-item h4 {
   color: $junkstore-primary;
   font-size: 1.2rem;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
-.layout--splash .comparison-item p {
+.js-splash .comparison-item p {
   color: $junkstore-light-text;
   font-size: 0.95rem;
   line-height: 1.4;
   margin-bottom: 0.75rem;
 }
 
-.layout--splash .comparison-conclusion {
+.js-splash .comparison-conclusion {
   background-color: rgba(102, 191, 255, 0.1);
   padding: 1.5rem;
   border-radius: 6px;
@@ -708,7 +771,7 @@ body.home h1:not(.page__title) {
   text-align: center;
 }
 
-.layout--splash .comparison-conclusion p {
+.js-splash .comparison-conclusion p {
   color: $junkstore-light-text;
   font-size: 1.1rem;
   font-weight: 500;
@@ -716,7 +779,7 @@ body.home h1:not(.page__title) {
 }
 
 /* Competitive Advantages Section (Support Hub) */
-.layout--splash .competitive-advantages {
+.js-splash .competitive-advantages {
   background-color: $junkstore-bg-card;
   padding: 1rem 1rem 2.5rem 1rem;
   margin: 2rem 0;
@@ -730,7 +793,7 @@ body.home h1:not(.page__title) {
   min-height: 250px;
 }
 
-.layout--splash .competitive-advantages h2 {
+.js-splash .competitive-advantages h2 {
   color: $junkstore-primary;
   font-size: 1.8rem;
   margin-top: 0;
@@ -738,7 +801,7 @@ body.home h1:not(.page__title) {
   font-weight: bold;
 }
 
-.layout--splash .advantage-grid {
+.js-splash .advantage-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
@@ -746,7 +809,7 @@ body.home h1:not(.page__title) {
   margin: 0 auto;
 }
 
-.layout--splash .advantage-item {
+.js-splash .advantage-item {
   background-color: #253445;
   padding: 1.5rem 1rem;
   border-radius: 8px;
@@ -756,7 +819,7 @@ body.home h1:not(.page__title) {
   text-align: center;
 }
 
-.layout--splash .advantage-item h4 {
+.js-splash .advantage-item h4 {
   color: $junkstore-primary;
   font-size: 1.2rem;
   margin-bottom: 1rem;
@@ -764,7 +827,7 @@ body.home h1:not(.page__title) {
   margin-top: 0;
 }
 
-.layout--splash .advantage-item p {
+.js-splash .advantage-item p {
   font-size: 0.95rem;
   color: $junkstore-light-text;
   font-weight: 400;
@@ -773,7 +836,7 @@ body.home h1:not(.page__title) {
 }
 
 /* Where to Find Section Styling */
-.layout--splash .where-to-find {
+.js-splash .where-to-find {
   text-align: center;
   margin: 2rem auto;
   padding: 2rem 1rem;
@@ -784,7 +847,7 @@ body.home h1:not(.page__title) {
   width: 98%;
 }
 
-.layout--splash .where-to-find h2 {
+.js-splash .where-to-find h2 {
   color: $junkstore-primary;
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
@@ -792,7 +855,7 @@ body.home h1:not(.page__title) {
   margin-top: 0;
 }
 
-.layout--splash .where-to-find p {
+.js-splash .where-to-find p {
   color: $junkstore-light-text;
   font-size: 1.1rem;
   line-height: 1.5;
@@ -802,12 +865,12 @@ body.home h1:not(.page__title) {
   margin-right: auto;
 }
 
-.layout--splash .where-to-find .button {
+.js-splash .where-to-find .button {
   margin-top: 1rem;
 }
 
 /* GOG Extension Section Styling */
-.layout--splash .gog-extension {
+.js-splash .gog-extension {
   text-align: left;
   margin: 2rem auto;
   padding: 2rem 1.5rem;
@@ -818,7 +881,7 @@ body.home h1:not(.page__title) {
   width: 98%;
 }
 
-.layout--splash .gog-extension h2 {
+.js-splash .gog-extension h2 {
   color: $junkstore-primary;
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
@@ -827,22 +890,22 @@ body.home h1:not(.page__title) {
   text-align: center;
 }
 
-.layout--splash .gog-extension p,
-.layout--splash .gog-extension div {
+.js-splash .gog-extension p,
+.js-splash .gog-extension div {
   color: $junkstore-light-text;
   font-size: 1.1rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
 
-.layout--splash .gog-extension .button {
+.js-splash .gog-extension .button {
   display: block;
   margin: 1.5rem auto 0 auto;
   text-align: center;
 }
 
 /* Standalone button alignment */
-.layout--splash .gog-extension + a.button.gog-extension-button {
+.js-splash .gog-extension + a.button.gog-extension-button {
   display: block;
   text-align: center;
   max-width: 1200px;
@@ -869,88 +932,88 @@ body.home h2 {
   /* Hero styling now handled globally by hero-height-fix.scss */
 
   /* Improve SEO intro for mobile */
-  .layout--splash .seo-intro {
+  .js-splash .seo-intro {
     padding: 1.5rem 1rem;
     margin: 1rem 0.5rem;
     border-radius: 8px;
   }
 
-  .layout--splash .seo-intro p {
+  .js-splash .seo-intro p {
     font-size: 1.05rem;
     line-height: 1.5;
     color: #f0f0f0;
   }
 
   /* Screenshot sections mobile */
-  .layout--splash .screenshot-section {
+  .js-splash .screenshot-section {
     padding: 1.5rem 1rem;
     margin: 1.5rem 0;
   }
 
-  .layout--splash .screenshot-text h3 {
+  .js-splash .screenshot-text h3 {
     font-size: 1.3rem;
   }
 
-  .layout--splash .screenshot-text p {
+  .js-splash .screenshot-text p {
     font-size: 1rem;
   }
 
   /* Competitive comparison mobile */
-  .layout--splash .competitive-comparison {
+  .js-splash .competitive-comparison {
     padding: 2rem 1rem;
   }
 
-  .layout--splash .competitive-comparison h2 {
+  .js-splash .competitive-comparison h2 {
     font-size: 1.5rem;
   }
 
-  .layout--splash .comparison-grid {
+  .js-splash .comparison-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
 
-  .layout--splash .comparison-item {
+  .js-splash .comparison-item {
     padding: 1.25rem;
   }
 
-  .layout--splash .comparison-item h4 {
+  .js-splash .comparison-item h4 {
     font-size: 1.1rem;
   }
 
-  .layout--splash .comparison-conclusion {
+  .js-splash .comparison-conclusion {
     padding: 1.25rem;
   }
 
-  .layout--splash .comparison-conclusion p {
+  .js-splash .comparison-conclusion p {
     font-size: 1rem;
   }
 
-  .layout--splash .problem-solution {
+  .js-splash .problem-solution {
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 1.5rem 1rem;
   }
 
-  .layout--splash .problem-box h2,
-  .layout--splash .solution-box h2 {
+  .js-splash .problem-box h2,
+  .js-splash .solution-box h2 {
     font-size: 1.2rem;
   }
 
-  .layout--splash .key-features {
+  .js-splash .key-features {
     padding: 2rem 1rem;
   }
 
-  .layout--splash .key-features h2 {
+  .js-splash .key-features h2 {
     font-size: 1.5rem;
   }
 
-  .layout--splash .features-grid {
+  .js-splash .features-grid {
     grid-template-columns: 1fr;
     gap: 1.25rem;
     padding: 0 0.5rem;
   }
 
-  .layout--splash .feature {
+  .js-splash .feature {
     padding: 1.25rem 1rem;
     font-size: 1.05rem;
     line-height: 1.4;
@@ -958,35 +1021,35 @@ body.home h2 {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }
 
-  .layout--splash .feature:active {
+  .js-splash .feature:active {
     transform: scale(0.98);
   }
 
-  .layout--splash .feature-detail {
+  .js-splash .feature-detail {
     font-size: 0.95rem;
     margin-top: 0.75rem;
     line-height: 1.4;
   }
 
-  .layout--splash .final-cta {
+  .js-splash .final-cta {
     padding: 2rem 1rem;
   }
 
-  .layout--splash .final-cta h2 {
+  .js-splash .final-cta h2 {
     font-size: 1.5rem;
   }
 
-  .layout--splash .final-cta p {
+  .js-splash .final-cta p {
     font-size: 1rem;
   }
 
-  .layout--splash .cta-buttons {
+  .js-splash .cta-buttons {
     flex-direction: column;
     align-items: center;
   }
 
-  .layout--splash .button,
-  .layout--splash .button-secondary {
+  .js-splash .button,
+  .js-splash .button-secondary {
     width: 100%;
     max-width: 280px;
     margin: 0.5rem 0;
@@ -1002,38 +1065,38 @@ body.home h2 {
   }
 
   /* Mobile responsive for new sections */
-  .layout--splash .competitive-advantages {
+  .js-splash .competitive-advantages {
     padding: 2rem 1rem;
     margin: 1.5rem 0;
   }
 
-  .layout--splash .competitive-advantages h2 {
+  .js-splash .competitive-advantages h2 {
     font-size: 1.5rem;
   }
 
-  .layout--splash .advantage-grid {
+  .js-splash .advantage-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
 
-  .layout--splash .advantage-item {
+  .js-splash .advantage-item {
     padding: 1.25rem 1rem;
   }
 
-  .layout--splash .advantage-item h4 {
+  .js-splash .advantage-item h4 {
     font-size: 1.1rem;
   }
 
-  .layout--splash .where-to-find {
+  .js-splash .where-to-find {
     padding: 1.5rem 1rem;
     margin: 1.5rem 0;
   }
 
-  .layout--splash .where-to-find h2 {
+  .js-splash .where-to-find h2 {
     font-size: 1.5rem;
   }
 
-  .layout--splash .where-to-find p {
+  .js-splash .where-to-find p {
     font-size: 1rem;
   }
 }

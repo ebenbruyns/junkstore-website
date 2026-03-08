@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: junkstore-splash
 title: "Junk Store - Your Non-Steam Gaming Hub"
 description: "All your non-Steam games in one place. Epic, GOG, Amazon & itch on Steam Deck - no desktop mode, no multiple launchers. Just gaming."
 permalink: /
@@ -44,11 +44,6 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
 
   <p class="supported-storefronts">Storefronts: <strong>Epic</strong> · <strong>GOG</strong> · <strong>Amazon</strong> · <strong>itch</strong></p>
   <p class="supported-extras">Plus emulator & ROM support</p>
-
-  <div class="explainer-cta">
-    <a href="/portal-redirect/" class="button buy-button">Start Free Trial</a>
-    <a href="/features/" class="button button-secondary">See All Features</a>
-  </div>
 </section>
 
 <section class="problem-solution">
@@ -73,36 +68,21 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
 </section>
 
 
-<section class="screenshot-section">
-  <div class="screenshot-box">
-    <div class="screenshot-text">
-      <h3>Your Handheld Deserves a Handheld Experience</h3>
-      <p>While free alternatives require Desktop Mode switching, Junk Store keeps everything in the comfortable Game Mode interface you bought your Steam Deck for.</p>
+<section class="demo-section">
+  <div class="demo-section__content">
+    <div class="demo-section__text">
+      <h3>See It In Action</h3>
+      <p>Browse all your libraries, install games, and launch - all without leaving Game Mode. No Desktop Mode. No extra steps. It just works.</p>
     </div>
-    <div class="video-demo-container" onclick="playDemo(this, '{{ '/assets/images/landing/LibrariesNew.webm' | relative_url }}')">
-      <img src="{{ '/assets/images/landing/LibrariesNew-poster.jpg' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch" class="demo-poster" loading="lazy">
-      <div class="demo-play-btn">
-        <span class="play-icon">▶️</span>
-        <span class="play-text">Play Demo</span>
+    <div class="demo-section__video">
+      <div class="video-demo-container" onclick="playDemo(this, '{{ '/assets/images/landing/LibrariesNew.webm' | relative_url }}')">
+        <img src="{{ '/assets/images/landing/LibrariesNew-poster.jpg' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch" class="demo-poster" loading="lazy">
+        <div class="demo-play-btn">
+          <span class="play-icon">▶️</span>
+          <span class="play-text">Play Demo</span>
+        </div>
+        <img data-src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch" class="demo-gif" style="display: none;">
       </div>
-      <img data-src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch" class="demo-gif" style="display: none;">
-    </div>
-  </div>
-</section>
-
-<section class="screenshot-section">
-  <div class="screenshot-box">
-   <div class="screenshot-text">
-      <h3>Stay in Your Comfort Zone. Keep Gaming.</h3>
-      <p>One-click installs, instant library access, and streamlined game management - all from the controller-friendly interface you prefer.</p>
-    </div>
-    <div class="video-demo-container" onclick="playDemo(this, '{{ '/assets/images/landing/Install.webm' | relative_url }}')">
-      <img src="{{ '/assets/images/landing/Install-poster.jpg' | relative_url }}" alt="One-click game installation directly in Game Mode" class="demo-poster" loading="lazy">
-      <div class="demo-play-btn">
-        <span class="play-icon">▶️</span>
-        <span class="play-text">Play Demo</span>
-      </div>
-      <img data-src="{{ '/assets/images/landing/Install.gif' | relative_url }}" alt="One-click game installation directly in Game Mode" class="demo-gif" style="display: none;">
     </div>
   </div>
 </section>
@@ -112,23 +92,19 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
 
 <section class="library-value-callout">
   <div class="value-box">
-    <h3>🎮 Your Free Game Collection Is Worth Thousands</h3>
-    <p>Between Epic's weekly giveaways and Prime Gaming's monthly drops, you've likely claimed hundreds—or even thousands—of dollars in free games.</p>
+    <h3>🎮 Your Free Games Are Worth Thousands</h3>
     <p><strong>Epic alone has given away over $10,000 worth of games since 2018.</strong></p>
-    <p class="value-unlock">Stop letting them collect digital dust. Play them all in Game Mode for <span data-pricing="price">$40</span>.</p>
+    <p>Most people let them collect digital dust - or rebuy them on Steam.</p>
+    <p class="value-unlock">Stop rebuying. Start playing.</p>
   </div>
 </section>
 
 <section class="pricing-highlight">
   <div class="pricing-box">
-    <h3>🚀 The Only Pure Game Mode Solution</h3>
+    <h3>🚀 The Only Professional Game Mode Solution</h3>
     <p class="price-text"><strong><span data-pricing="original-crossed">$40</span></strong></p>
-    <ul class="pricing-features">
-      <li>Software is yours to keep</li>
-      <li>12 months of updates & support</li>
-    </ul>
-    <p class="trial-text"><span data-pricing="trial">7-day free trial</span></p>
-    <p class="value-text">Never leave Game Mode to play Epic, GOG, Amazon & itch games</p>
+    <p class="pricing-features-inline">Software is yours to keep · 12 months of updates & support · <span data-pricing="trial">7-day free trial</span></p>
+    <p class="value-text">Install. Play. Configure. All in Game Mode.</p>
     <div data-coupon-container style="display: none; margin: 0.5rem 0;">
       <span class="promo-code" data-pricing="coupon-code"></span> <span data-pricing="coupon-discount"></span>
     </div>

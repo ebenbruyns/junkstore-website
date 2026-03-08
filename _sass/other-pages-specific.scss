@@ -200,7 +200,7 @@
 }
 
 /* Generic h2 styles for other pages - centered but without the nuclear option */
-.page__content h2:not(.layout--splash h2):not(.layout--single h2):not(.layout--blog h2) {
+.page__content h2:not(.js-splash h2):not(.layout--single h2):not(.layout--blog h2) {
   max-width: 1200px;
   width: 98%;
   margin: 0.5rem auto 0.5rem auto;
@@ -246,7 +246,7 @@ h2:nth-of-type(2) {
 /* Mobile responsiveness for other pages */
 @media (max-width: 768px) {
   /* Mobile-first h1 styling for other pages */
-  h1:not(.layout--splash h1):not(.layout--single h1):not(.layout--blog h1) {
+  h1:not(.js-splash h1):not(.layout--single h1):not(.layout--blog h1) {
     font-size: 1.8rem !important;
     line-height: 1.25 !important;
     text-align: center;
@@ -268,7 +268,7 @@ h2:nth-of-type(2) {
     font-size: 1.5rem !important;
   }
 
-  .page__content h2:not(.layout--splash h2):not(.layout--single h2):not(.layout--blog h2) {
+  .page__content h2:not(.js-splash h2):not(.layout--single h2):not(.layout--blog h2) {
     font-size: 1.5rem !important;
     padding: 0 1rem;
   }

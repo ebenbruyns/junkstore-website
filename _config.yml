@@ -109,16 +109,47 @@ author:
 #      icon: "fab fa-fw fa-facebook"
 #      url: "https://facebook.com/junkstore"
 
-# Footer Links (can match author)
+# Footer Links
 footer:
-  links:
-    - label: "Reddit"
-      icon: "fab fa-fw fa-reddit"
-      url: "https://www.reddit.com/r/JunkStore"
+  # Internal site links (row 1)
+  site_links:
+    - label: "About"
+      url: "/about/"
+    - label: "Help"
+      url: "/help/"
+    - label: "Status"
+      url: "/status/"
+    - label: "Privacy Policy"
+      url: "/privacy-policy/"
+    - label: "Portal"
+      url: "https://portal.junkstore.xyz/"
       target: "_blank"
+  # External social links (row 2)
+  social_links:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discord.gg/6mRUhR6Teh"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://www.reddit.com/r/JunkStore"
+    - label: "Mastodon"
+      icon: "fab fa-fw fa-mastodon"
+      url: "https://mastodon.social/@JunkStore"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/junkstore.bsky.social"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/JunkStore4deck"
+  # Keep legacy links for MM theme pages
+  links:
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/6mRUhR6Teh"
+      target: "_blank"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://www.reddit.com/r/JunkStore"
       target: "_blank"
     - label: "Mastodon"
       icon: "fab fa-fw fa-mastodon"
@@ -139,9 +170,6 @@ footer:
       icon: "fas fa-fw fa-external-link-alt"
       url: "https://portal.junkstore.xyz/"
       target: "_blank"
-   # - label: "GitHub Closed Source"
-      #icon: "fab fa-fw fa-github"
-     # url: "https://github.com/your-closed-source-repo"
 
 # SEO/Analytics
 # google_analytics: # Optional
