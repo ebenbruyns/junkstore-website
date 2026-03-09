@@ -2,16 +2,11 @@
 title: "GOG Extension Install Guide"
 description: "Add GOG game library integration to Junk Store Decky plugin on Steam Deck. Access DRM-free gaming directly through Steam's interface."
 excerpt: "Step-by-step guide on downloading and installing the GOG Extension"
-layout: splash
-classes: wide tutorial-page
+layout: junkstore-page
 permalink: /tutorials/gogextension/
 categories: ["Decky Plugin"]
 tags: ["gog", "extension", "decky-plugin", "installation"]
 difficulty: "Intermediate"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.webp
 ---
 
 <h2 class="centered-header">How to Install the GOG Extension</h2>

@@ -1,13 +1,8 @@
 ---
-layout: junkstore-splash
+layout: junkstore-page
 title: "Junk Store Game Compatibility"
 description: "900+ games tested on Steam Deck. Search our compatibility database for Epic, GOG, Amazon & itch games - working status, setup notes, and Proton tips."
 permalink: /tested-games/
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.webp
-excerpt: "Search 900+ tested games for Steam Deck compatibility"
 ---
 
 <!-- Hero styles now in hero-height-fix.scss -->

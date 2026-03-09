@@ -1,14 +1,8 @@
 ---
-layout: splash
+layout: junkstore-page
 title: "Junk Store Help"
 description: "Junk Store help for Steam Deck - FAQ, troubleshooting, tutorials, and game compatibility. Covers both Decky Plugin and Pro Version."
 permalink: /help/
-classes: wide
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.webp
-excerpt: "FAQ, troubleshooting & tutorials for Junk Store on Steam Deck"
 ---
 <div id="top"></div>
 

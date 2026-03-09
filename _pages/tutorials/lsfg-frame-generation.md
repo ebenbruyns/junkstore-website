@@ -2,16 +2,11 @@
 title: "How to Enable LSFG Frame Generation - Junk Store Steam Deck Tutorial"
 description: "Step-by-step guide to enable LSFG-VK (Lossless Scaling Frame Generation) in Junk Store on Steam Deck. No manual launch arguments needed."
 excerpt: "Step-by-step guide on how to enable LSFG frame generation in Junk Store"
-layout: splash
-classes: wide tutorial-page
+layout: junkstore-page
 permalink: /tutorials/lsfg-frame-generation
 categories: ["Universal"]
 tags: ["lsfg", "frame-generation", "performance", "both-versions"]
 difficulty: "Intermediate"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.webp
 ---
 <div class="spacer mt-4"></div>
 

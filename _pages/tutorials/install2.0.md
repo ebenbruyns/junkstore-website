@@ -1,14 +1,9 @@
 ---
-layout: splash
+layout: junkstore-page
 title: "How to Install Junk Store Pro"
 description: "Install Junk Store Pro on Steam Deck. Step-by-step guide to download and set up the standalone app for Epic, GOG, Amazon & itch games in Game Mode."
 excerpt: "Guide on downloading and installing Junk Store Pro"
 permalink: /tutorials/install-junk-store-2
-classes: wide tutorial-page
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.webp
 ---
 
 <h2 class="centered-header">How to Install Junk Store Pro</h2>

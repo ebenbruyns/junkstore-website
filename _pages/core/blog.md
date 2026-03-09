@@ -1,23 +1,10 @@
 ---
-layout: junkstore-splash
+layout: junkstore-page
 title: "Junk Store Blog"
+excerpt: "Junk Store news, feature updates, game compatibility results, and weekly tips"
 description: "Tips, reviews, and updates for Steam Deck gaming with Epic, GOG, Amazon & itch games. Weekly content from the Junk Store team."
 permalink: /blog/
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.webp
-  actions:
-    - label: "Try Junk Store Pro Free"
-      url: "/buy_now/"
-      class: "button buy-button"
-excerpt: "Junk Store tips, game reviews, feature updates, and guides for Epic, GOG, Amazon & itch games"
 ---
-
-<section class="blog-header">
-  <h1 style="text-align: center;">What's New</h1>
-  <p class="blog-subtitle">Weekly Junk Store tips, game compatibility updates, and Steam Deck gaming mastery guides.</p>
-</section>
 
 <!-- Category Filter -->
 <section class="category-filter-section">

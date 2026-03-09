@@ -2,16 +2,11 @@
 title: "How to Install and Use Wine Cellar Plugin"
 description: "Access advanced compatibility tools like GE-Proton and Wine-GE for challenging games in Junk Store. Better than default Steam Proton versions."
 excerpt: "Step-by-step guide on installing WineCellar to manage compatibility tools"
-layout: splash
-classes: wide tutorial-page
+layout: junkstore-page
 permalink: /tutorials/wine-cellar
 categories: ["Universal"]
 tags: ["wine-cellar", "compatibility", "proton", "ge-proton", "both-versions"]
 difficulty: "Advanced"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.webp
 ---
 
 <h2 class="centered-header">How to Install and Use Wine Cellar Plugin</h2>

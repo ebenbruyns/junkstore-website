@@ -2,16 +2,11 @@
 title: "How to Play Ubisoft Games from Epic Games Store in Junk Store"
 description: "Step-by-step guide on installing Ubisoft Connect and launching Ubisoft games through Epic Games Store in Junk Store on Steam Deck."
 excerpt: "Step-by-step guide on installing Ubisoft Connect and launching Ubisoft games through Epic Games Store"
-layout: splash
-classes: wide tutorial-page
+layout: junkstore-page
 permalink: /tutorials/ubisoft-games
 categories: ["Universal"]
 tags: ["ubisoft", "third-party-launchers", "epic-games", "both-versions"]
 difficulty: "Advanced"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.webp
 ---
 
 <h2 class="centered-header">How to Play Ubisoft Games in Junk Store</h2>
