@@ -10,3 +10,5 @@ main:
     url: /blog/
   - title: "Get Started"
     url: /get_started/
+  - title: "Portal"
+    url: /portal-redirect/
