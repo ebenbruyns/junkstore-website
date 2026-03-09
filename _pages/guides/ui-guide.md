@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: junkstore-splash
 title: "Junk Store UI Guide - Interactive Interface Tour"
 description: "Interactive guide to the Junk Store interface on Steam Deck. Click features or search to learn where everything is and how to use it in Game Mode."
 permalink: /ui-guide/

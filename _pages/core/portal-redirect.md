@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: junkstore-splash
 title: "Taking You to the Junk Store Portal"
 description: "You're about to access the Junk Store Portal to start your free trial."
 permalink: /portal-redirect/
@@ -18,15 +18,11 @@ sitemap: false
 
 <div class="interstitial-container">
 
-  <div class="skip-section">
+  <div class="countdown-section">
     <span class="countdown-text">Redirecting in <span id="countdown">5</span> seconds...</span>
-    <label class="skip-checkbox">
-      <input type="checkbox" id="skipNextTime">
-      Don't show this again
-    </label>
   </div>
 
-  <p class="steps-intro">What happens next:</p>
+  <p class="steps-intro" style="text-align: center;">What happens next:</p>
 
   <div class="steps-container">
     <div class="step">
@@ -43,6 +39,13 @@ sitemap: false
       <div class="step-icon">3</div>
       <div class="step-label">Start playing</div>
     </div>
+  </div>
+
+  <div class="skip-section">
+    <label class="skip-checkbox">
+      <input type="checkbox" id="skipNextTime">
+      Don't show this again
+    </label>
   </div>
 
 </div>
@@ -96,13 +99,16 @@ sitemap: false
   margin: 0 0.25rem;
 }
 
+.countdown-section {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .skip-section {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
+  margin-top: 1.5rem;
 }
 
 .countdown-text {
@@ -133,6 +139,7 @@ sitemap: false
   color: #aaa;
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 @media (max-width: 480px) {

@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: junkstore-splash
 title: "Junk Store Blog"
 description: "Tips, reviews, and updates for Steam Deck gaming with Epic, GOG, Amazon & itch games. Weekly content from the Junk Store team."
 permalink: /blog/

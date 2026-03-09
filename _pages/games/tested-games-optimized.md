@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: junkstore-splash
 title: "Junk Store Game Compatibility"
 description: "900+ games tested on Steam Deck. Search our compatibility database for Epic, GOG, Amazon & itch games - working status, setup notes, and Proton tips."
 permalink: /tested-games/
