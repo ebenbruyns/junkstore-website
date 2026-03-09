@@ -82,7 +82,7 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
         <span class="play-icon">▶️</span>
         <span class="play-text">Play Demo</span>
       </div>
-      <img data-src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch" class="demo-gif" style="display: none;">
+      <img data-src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch" class="demo-gif" >
     </div>
   </div>
   <p style="text-align: center; margin-top: 1rem;"><a href="/portal-redirect/" style="color: #ffa366;">Ready to try? Start your free trial →</a></p>
@@ -100,7 +100,7 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
         <span class="play-icon">▶️</span>
         <span class="play-text">Play Demo</span>
       </div>
-      <img data-src="{{ '/assets/images/landing/Install.gif' | relative_url }}" alt="One-click game installation directly in Game Mode" class="demo-gif" style="display: none;">
+      <img data-src="{{ '/assets/images/landing/Install.gif' | relative_url }}" alt="One-click game installation directly in Game Mode" class="demo-gif" >
     </div>
   </div>
   <p style="text-align: center; margin-top: 1rem;"><a href="/portal-redirect/" style="color: #ffa366;">Ready to try? Start your free trial →</a></p>
@@ -135,6 +135,81 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
       <a href="/portal-redirect/" rel="noopener" class="button buy-button" data-pricing="portal-url" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_pricing">Start Free Trial</a>
       <a href="/features/#gallery" class="button button-secondary" data-event="click" data-category="engagement" data-action="view_gallery" data-label="homepage_pricing">See It In Action</a>
       <a href="/features/#difference" class="button button-secondary button-wide" data-event="click" data-category="engagement" data-action="view_comparison" data-label="homepage_pricing">Why Choose Junk Store</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== REFERENCE: Free Alternatives Comparison (removed from features page) ========== -->
+<section class="major-differentiators" >
+  <h2>Free Alternatives vs Junk Store Pro - The Key Differences</h2>
+  <div class="differentiator-grid">
+
+    <div class="differentiator-item">
+      <h3>Desktop Mode Elimination</h3>
+      <p class="problem">Free Alternatives: Require desktop switching for setup and management</p>
+      <p class="solution">Junk Store Pro: Pure Game Mode - never leave handheld mode</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>Zero Performance Impact</h3>
+      <p class="problem">Free Alternatives: Run background processes while gaming</p>
+      <p class="solution">Junk Store Pro: Lightweight scripts - zero performance interference</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>Professional Development Team</h3>
+      <p class="problem">Free Alternatives: Community volunteers with slower GitHub releases</p>
+      <p class="solution">Junk Store Pro: Full-time dev team with instant update channels</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>True Native Steam Integration</h3>
+      <p class="problem">Free Alternatives: Launch separate launcher apps with limited integration</p>
+      <p class="solution">Junk Store Pro: All libraries visible directly in Game Mode</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>Handheld-First Experience</h3>
+      <p class="problem">Free Alternatives: Desktop-first with controller as afterthought</p>
+      <p class="solution">Junk Store Pro: Built specifically for Steam Deck workflows</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>Complete Gaming Ecosystem</h3>
+      <p class="problem">Free Alternatives: Handle store games only with separate emulator setup</p>
+      <p class="solution">Junk Store Pro: Epic + GOG + Amazon + itch + ROMs integrated in Game Mode</p>
+    </div>
+
+    <div class="differentiator-item">
+      <h3>Built-in Frame Generation</h3>
+      <p class="problem">Free Alternatives: Requires separate plugin installation or manual launch arguments</p>
+      <p class="solution">Junk Store Pro: One-click LSFG-VK toggles built directly into the app</p>
+    </div>
+
+  </div>
+
+  <div class="differentiator-conclusion">
+    <p><strong>The bottom line:</strong> Free alternatives are excellent desktop applications adapted for Steam Deck. Junk Store Pro is purpose-built for handheld gaming - a fundamentally different architectural approach.</p>
+  </div>
+</section>
+
+<!-- ========== REFERENCE: Decision Section (removed from features page) ========== -->
+<section class="decision-section" >
+  <div class="decision-box">
+    <h2>The Choice is Clear</h2>
+    <div class="decision-points">
+      <div class="decision-point">
+        <h4><strong>Game Mode Native vs Desktop Adapted</strong></h4>
+        <p>Free alternatives are desktop applications trying to work on Steam Deck. Junk Store was built from the ground up for handheld gaming. <strong>Install, Launch, Play.</strong> All in Game Mode.</p>
+      </div>
+      <div class="decision-point">
+        <h4><strong>Professional vs Community Development</strong></h4>
+        <p>Free alternatives rely on community volunteers with slower releases. Junk Store Pro has full-time professional development with instant update channels (stable/testing/beta). No waiting for GitHub builds.</p>
+      </div>
+      <div class="decision-point">
+        <h4><strong>Premium Experience for <span data-pricing="weekly">Less than $1</span>/Week</strong></h4>
+        <p>Skip the frustration of desktop switching and manual setup. Get the complete Game Mode experience for the price of a coffee.</p>
+      </div>
     </div>
   </div>
 </section>

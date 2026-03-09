@@ -99,6 +99,29 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
   </div>
 </section>
 
+<section class="common-questions">
+  <h2>Common Questions</h2>
+  <div class="questions-grid">
+    <div class="question-item">
+      <h4>What does it cost?</h4>
+      <p><strong>$40</strong> (not a subscription). 7-day free trial, 12 months of updates.<br><a href="/help/">More details →</a></p>
+    </div>
+    <div class="question-item">
+      <h4>Is Junk Store trustworthy?</h4>
+      <p><strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores.<br><a href="/help/#is-junk-store-trustworthy">Learn more →</a></p>
+    </div>
+    <div class="question-item">
+      <h4>Will this slow down my Steam Deck?</h4>
+      <p><strong>Zero performance impact.</strong> Nothing runs in the background while gaming.</p>
+    </div>
+    <div class="question-item">
+      <h4>What if I have problems?</h4>
+      <p><strong>We've got you.</strong> Check our <a href="/help/">help page</a> or reach out - we're always happy to help.</p>
+      <p style="text-align: center; margin-top: 0.5rem;"><a href="https://discord.gg/6mRUhR6Teh"><i class="fab fa-discord"></i> Discord</a> · <a href="https://www.reddit.com/r/JunkStore"><i class="fab fa-reddit"></i> Reddit</a></p>
+    </div>
+  </div>
+</section>
+
 <section class="pricing-highlight">
   <div class="pricing-box">
     <h3>🚀 The Only Professional Game Mode Solution</h3>
