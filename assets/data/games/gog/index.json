@@ -368,17 +368,29 @@
     "ziggurat.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-03-01T01:36:07.397Z",
+  "last_updated": "2026-03-09T05:58:47.020Z",
   "latest_games": [
     {
-      "title": "Hard West 2",
-      "slug": "hard-west-2",
-      "date_tested": "Feb '26",
+      "title": "Intravenous",
+      "slug": "intravenous",
+      "date_tested": "Mar '26",
+      "is_featured": false
+    },
+    {
+      "title": "Haven Park",
+      "slug": "haven-park",
+      "date_tested": "Mar '26",
       "is_featured": false
     },
     {
       "title": "Forager",
       "slug": "forager",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Hard West 2",
+      "slug": "hard-west-2",
       "date_tested": "Feb '26",
       "is_featured": false
     },
@@ -415,18 +427,6 @@
     {
       "title": "Lorelai",
       "slug": "lorelai",
-      "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "Endless Sky",
-      "slug": "endless-sky",
-      "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "Eschalon: Book I",
-      "slug": "eschalon-book-i",
       "date_tested": "Feb '26",
       "is_featured": false
     }

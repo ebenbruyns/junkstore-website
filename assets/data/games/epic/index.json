@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 454,
+  "total_games": 456,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -360,6 +360,7 @@
     "tales-from-the-borderlands.json",
     "tandem-a-tale-of-shadows.json",
     "tannenberg.json",
+    "tattoo-tycoon.json",
     "tchia.json",
     "teenage-mutant-ninja-turtles-shredders-revenge.json",
     "terraforming-mars.json",
@@ -422,6 +423,7 @@
     "tunche.json",
     "turmoil.json",
     "turnip-boy-commits-tax-evasion.json",
+    "turnip-boy-robs-a-bank.json",
     "two-point-hospital.json",
     "undying.json",
     "universe-for-sale.json",
@@ -457,19 +459,49 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2026-03-01T01:36:07.392Z",
+  "featured_games": 4,
+  "last_updated": "2026-03-09T05:58:47.015Z",
   "latest_games": [
     {
-      "title": "Death's Gambit: Afterlife",
-      "slug": "deaths-gambit-afterlife",
-      "date_tested": "Feb '26",
+      "title": "Hidden Folks",
+      "slug": "hidden-folks",
+      "date_tested": "Aug '25",
       "is_featured": false
     },
     {
-      "title": "Overcooked!",
-      "slug": "overcooked",
-      "date_tested": "May '24",
+      "title": "F.I.S.T.: Forged In Shadow Torch",
+      "slug": "fist-forged-in-shadow-torch",
+      "date_tested": "Mar '26",
+      "is_featured": false
+    },
+    {
+      "title": "Tiny Tina's Wonderlands",
+      "slug": "tiny-tinas-wonderlands",
+      "date_tested": "May '25",
+      "is_featured": true
+    },
+    {
+      "title": "Idle Champions of the Forgotten Realms",
+      "slug": "idle-champions-of-the-forgotten-realms",
+      "date_tested": "Mar '26",
+      "is_featured": true
+    },
+    {
+      "title": "Tattoo Tycoon",
+      "slug": "tattoo-tycoon",
+      "date_tested": "Mar '26",
+      "is_featured": true
+    },
+    {
+      "title": "Turnip Boy Robs a Bank",
+      "slug": "turnip-boy-robs-a-bank",
+      "date_tested": "Mar '26",
+      "is_featured": true
+    },
+    {
+      "title": "Deceive Inc.",
+      "slug": "deceive-inc",
+      "date_tested": "Mar '26",
       "is_featured": false
     },
     {
@@ -479,44 +511,14 @@
       "is_featured": false
     },
     {
-      "title": "Boxes: Lost Fragments",
-      "slug": "boxes-lost-fragments",
-      "date_tested": "Feb '26",
-      "is_featured": true
-    },
-    {
-      "title": "My Night Job",
-      "slug": "my-night-job",
-      "date_tested": "Feb '26",
-      "is_featured": true
-    },
-    {
-      "title": "Return to Ash",
-      "slug": "return-to-ash",
-      "date_tested": "Feb '26",
+      "title": "Animation Throwdown: The Quest for Cards",
+      "slug": "animation-throwdown-the-quest-for-cards",
+      "date_tested": "July '24",
       "is_featured": false
     },
     {
-      "title": "Stalcraft: X",
-      "slug": "stalcraft-x",
-      "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "The Darkside Detective: A Fumble in the Dark",
-      "slug": "the-darkside-detective-a-fumble-in-the-dark",
-      "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "Nobody Wants to Die",
-      "slug": "nobody-wants-to-die",
-      "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "Hexguardian",
-      "slug": "hexguardian",
+      "title": "Death's Gambit: Afterlife",
+      "slug": "deaths-gambit-afterlife",
       "date_tested": "Feb '26",
       "is_featured": false
     }
