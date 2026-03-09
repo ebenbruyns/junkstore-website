@@ -7,16 +7,8 @@ url: "https://www.junkstore.xyz" # your real live URL
 timezone: Pacific/Auckland
 
 # Theme Settings
-#theme: minimal-mistakes-jekyll
-#remote_theme: "mmistakes/minimal-mistakes@4.27.1"  # DISABLED - using local files only
-minimal_mistakes_skin: "default" # Default skin (we will set light/dark below)
+# Using custom Junk Store theme (minimal-mistakes removed)
 locale: "en-US"
-
-# Light/Dark Mode
-# Fixed theme - no user toggle to maintain consistent styling
-minimal_mistakes_skin: "dark"
-# Disable skin toggle - site designed for consistent appearance
-skin_toggle: false
 
 # Site-Wide Open Graph Image (for social previews)
 og_image: /assets/images/junkstore-og-banner.png # <--- you need to upload this file!
