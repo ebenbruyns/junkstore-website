@@ -2,8 +2,8 @@
 
 /* GitHub-Style Professional Notice Banner - Safari Compatible */
 .js-splash .whats-new-banner {
-  background-color: #0d1117 !important;
-  border: 1px solid #30363d !important;
+  background-color: #0d1117;
+  border: 1px solid #30363d;
   border-radius: 6px;
   padding: 16px;
   margin: 1.5rem auto;
@@ -19,8 +19,8 @@
   position: absolute;
   top: -8px;
   left: 24px;
-  background-color: #238636 !important;
-  color: #ffffff !important;
+  background-color: #238636;
+  color: #ffffff;
   padding: 2px 8px;
   font-size: 0.75rem;
   border-radius: 3px;
@@ -29,13 +29,13 @@
 
 .js-splash .whats-new-banner p {
   margin: 0;
-  color: #f0f6fc !important;
+  color: #f0f6fc;
   font-size: 1rem;
   font-weight: 500;
 }
 
 .js-splash .whats-new-banner strong {
-  color: #58a6ff !important; /* GitHub blue */
+  color: #58a6ff; /* GitHub blue */
   font-weight: 600;
 }
 
@@ -363,19 +363,19 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 /* Mobile text contrast improvements */
 @media (max-width: 768px) {
   .js-splash .feature .problem {
-    color: #ffb3ba !important; /* Lighter red for better mobile contrast */
-    font-size: 1rem !important; /* Slightly larger for mobile readability */
-    line-height: 1.5 !important;
+    color: #ffb3ba; /* Lighter red for better mobile contrast */
+    font-size: 1rem; /* Slightly larger for mobile readability */
+    line-height: 1.5;
   }
 
   .js-splash .feature .solution {
-    color: #90ee90 !important; /* Lighter green for better mobile contrast */
-    font-size: 1rem !important; /* Slightly larger for mobile readability */
-    line-height: 1.5 !important;
+    color: #90ee90; /* Lighter green for better mobile contrast */
+    font-size: 1rem; /* Slightly larger for mobile readability */
+    line-height: 1.5;
   }
 
   .js-splash .feature h3 {
-    font-size: 1.2rem !important; /* Larger headers on mobile */
+    font-size: 1.2rem; /* Larger headers on mobile */
   }
 }
 
@@ -442,10 +442,10 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 /* Wide button for longer text - higher specificity */
 .js-splash .pricing-cta .button.button-secondary.button-wide {
-  min-width: 250px !important;
-  width: auto !important;
-  padding: 0.75rem 2rem !important;
-  white-space: nowrap !important;
+  min-width: 250px;
+  width: auto;
+  padding: 0.75rem 2rem;
+  white-space: nowrap;
 }
 
 .js-splash .button-wide {
@@ -466,10 +466,10 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 }
 
 .js-splash .what-is-junkstore h2 {
-  color: $junkstore-primary !important;
-  font-size: 1.8rem !important;
-  margin-bottom: 0.75rem !important;
-  margin-top: 0 !important;
+  color: $junkstore-primary;
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+  margin-top: 0;
 }
 
 .js-splash .what-is-junkstore .explainer-lead {
@@ -561,7 +561,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
   }
 
   .js-splash .what-is-junkstore h2 {
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
   }
 
   .js-splash .what-is-junkstore .explainer-lead {
@@ -915,16 +915,16 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 /* Homepage-specific h2 styles - override generic ones */
 body.home h2 {
-  max-width: 1200px !important;
-  width: 98% !important;
-  margin: 0.5rem auto 0.5rem auto !important;
-  padding: 0 1.5rem !important;
-  color: $junkstore-primary !important;
-  font-size: 2rem !important;
-  text-align: center !important;
-  font-weight: bold !important;
-  display: block !important;
-  box-sizing: border-box !important;
+  max-width: 1200px;
+  width: 98%;
+  margin: 0.5rem auto 0.5rem auto;
+  padding: 0 1.5rem;
+  color: $junkstore-primary;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+  box-sizing: border-box;
 }
 
 /* Mobile Responsiveness for Homepage */

@@ -1,5 +1,6 @@
 /* ==========================================================================
    TUTORIAL-SPECIFIC STYLES - Starting with OAuth.md clean style
+   CLEANED: Removed !important (page-scoped selectors are specific enough)
    ========================================================================== */
 
 /* Tutorial pages use: classes: wide tutorial-page */
@@ -11,49 +12,47 @@
 
   /* Bring content in from edges for better readability */
   .page__content {
-    max-width: 900px !important;
-    margin: 0 auto !important;
-    padding: 0 2rem !important;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
   }
 
   /* ==========================================================================
      OAUTH.MD STYLE - CLEAN & SIMPLE
      ========================================================================== */
 
-  /* Let the theme handle most styling - keep it clean like OAuth.md */
-
   /* Headers should be left-aligned and professional sized */
   h1, h2, h3, h4, h5, h6 {
-    text-align: left !important;
+    text-align: left;
   }
 
   /* Allow centered headers when explicitly requested */
   .centered-header {
-    text-align: center !important;
+    text-align: center;
   }
 
   /* Professional header sizing - not too large */
   h1 {
-    font-size: 1.8rem !important;
-    margin-bottom: 1.2rem !important;
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
   }
 
   h2 {
-    font-size: 1.4rem !important;
-    margin-top: 2rem !important;
-    margin-bottom: 1rem !important;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   h3 {
-    font-size: 1.2rem !important;
-    margin-top: 1.5rem !important;
-    margin-bottom: 0.8rem !important;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
   }
 
   h4 {
-    font-size: 1.1rem !important;
-    margin-top: 1.2rem !important;
-    margin-bottom: 0.6rem !important;
+    font-size: 1.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.6rem;
   }
 
   /* ==========================================================================
@@ -64,28 +63,28 @@
   .spacer + p,
   .spacer + blockquote + h2 + p,
   .spacer + blockquote + p {
-    background: rgba(102, 191, 255, 0.08) !important;
-    border-left: 4px solid #66bfff !important;
-    padding: 1.2rem 1.5rem !important;
-    margin: 1.5rem 0 2rem 0 !important;
-    border-radius: 0 8px 8px 0 !important;
-    font-size: 1.05rem !important;
-    line-height: 1.6 !important;
-    color: #e8e8e8 !important;
+    background: rgba(102, 191, 255, 0.08);
+    border-left: 4px solid #66bfff;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0 2rem 0;
+    border-radius: 0 8px 8px 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #e8e8e8;
   }
 
   /* Style blockquote warnings/alerts */
   blockquote {
-    background: rgba(255, 193, 7, 0.1) !important;
-    border-left: 4px solid #ffc107 !important;
-    padding: 1rem 1.5rem !important;
-    margin: 1.5rem 0 !important;
-    border-radius: 0 6px 6px 0 !important;
+    background: rgba(255, 193, 7, 0.1);
+    border-left: 4px solid #ffc107;
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 6px 6px 0;
 
     p {
-      margin-bottom: 0 !important;
-      color: #fff !important;
-      font-weight: 500 !important;
+      margin-bottom: 0;
+      color: #fff;
+      font-weight: 500;
     }
   }
 
@@ -95,7 +94,7 @@
   }
 
   .mt-4 {
-    margin-top: 1.5rem !important;
+    margin-top: 1.5rem;
   }
 
   /* ==========================================================================
@@ -103,35 +102,35 @@
      ========================================================================== */
 
   .community-btn {
-    display: inline-flex !important;
-    align-items: center !important;
-    padding: 6px 12px !important;
-    border-radius: 4px !important;
-    text-decoration: none !important;
-    font-weight: 600 !important;
-    font-size: 13px !important;
-    transition: all 0.2s ease !important;
-    border: 2px solid transparent !important;
-    margin-left: 8px !important;
-    color: white !important;
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+    margin-left: 8px;
+    color: white;
   }
 
   .discord-btn {
-    background: #5865f2 !important;
-    color: white !important;
+    background: #5865f2;
+    color: white;
   }
 
   .reddit-btn {
-    background: #ff4500 !important;
-    color: white !important;
+    background: #ff4500;
+    color: white;
   }
 
   .community-btn:hover {
-    transform: translateY(-1px) !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
-    text-decoration: none !important;
-    color: white !important;
-    opacity: 0.9 !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: white;
+    opacity: 0.9;
   }
 
   /* ==========================================================================
@@ -139,11 +138,11 @@
      ========================================================================== */
 
   img {
-    max-width: 100% !important;
-    height: auto !important;
-    border-radius: 6px !important;
-    margin: 1rem auto !important;
-    display: block !important;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 1rem auto;
+    display: block;
   }
 
   /* ==========================================================================
@@ -169,18 +168,18 @@
 
   @media (max-width: 768px) {
     .page__content {
-      padding: 0 1rem !important;
-      max-width: 100% !important;
+      padding: 0 1rem;
+      max-width: 100%;
     }
 
     .community-btn {
-      margin-left: 4px !important;
-      padding: 4px 8px !important;
-      font-size: 12px !important;
+      margin-left: 4px;
+      padding: 4px 8px;
+      font-size: 12px;
     }
 
     img {
-      margin: 0.5rem 0 !important;
+      margin: 0.5rem 0;
     }
 
     table {

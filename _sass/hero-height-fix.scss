@@ -1,6 +1,7 @@
 /* Unified Hero Styles - Single Source of Truth
    All splash pages use the same hero styling
-   Supports both MM classes and Junkstore (js-*) classes */
+   Supports both MM classes and Junkstore (js-*) classes
+   CLEANED: Removed !important (MM core styles removed) */
 
 /* ==========================================================================
    DESKTOP HERO (All Pages)
@@ -9,13 +10,13 @@
 /* Fixed height hero with centered content */
 .layout--splash .page__hero--overlay,
 .js-hero--overlay {
-  min-height: 300px !important;
-  height: 300px !important;
-  max-height: 300px !important;
+  min-height: 300px;
+  height: 300px;
+  max-height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 0.5rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -33,10 +34,10 @@
 /* Title styling */
 .layout--splash .page__hero--overlay .page__title,
 .js-hero__title {
-  font-size: 1.5rem !important;
-  margin-top: 0 !important;
-  margin-bottom: 0.4rem !important;
-  line-height: 1.2 !important;
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+  line-height: 1.2;
   color: #fff;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
@@ -44,9 +45,9 @@
 /* Excerpt/lead styling */
 .layout--splash .page__hero--overlay .page__lead,
 .js-hero__lead {
-  font-size: 0.95rem !important;
-  margin-bottom: 0.5rem !important;
-  line-height: 1.3 !important;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
   max-width: none;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
@@ -55,13 +56,13 @@
 /* Hero action buttons - left aligned */
 .page__hero-actions,
 .js-hero__actions {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
-  gap: 0.75rem !important;
-  justify-content: flex-start !important;
-  padding: 0.5rem 0 !important;
-  margin: 0 !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: flex-start;
+  padding: 0.5rem 0;
+  margin: 0;
 }
 
 /* Button base styling */
@@ -71,38 +72,38 @@
 .js-hero__actions .button,
 .js-hero__actions .button.buy-button,
 .js-hero__actions .button.button-secondary {
-  background-color: #0056b3 !important;
-  border: none !important;
-  color: #fff !important;
-  padding: 0.6rem 1.25rem !important;
-  text-decoration: none !important;
-  border-radius: 8px !important;
-  font-weight: 600 !important;
-  font-size: 0.85rem !important;
-  transition: all 0.3s ease !important;
-  display: inline-flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  white-space: nowrap !important;
+  background-color: #0056b3;
+  border: none;
+  color: #fff;
+  padding: 0.6rem 1.25rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
 }
 
 .page__hero-actions .button:hover,
 .js-hero__actions .button:hover {
-  background-color: #004494 !important;
-  border-color: #003366 !important;
+  background-color: #004494;
+  border-color: #003366;
 }
 
 /* Buy button - green */
 .page__hero-actions .button.buy-button,
 .js-hero__actions .button.buy-button {
-  background-color: #1e7e34 !important;
-  border-color: #155724 !important;
+  background-color: #1e7e34;
+  border-color: #155724;
 }
 
 .page__hero-actions .button.buy-button:hover,
 .js-hero__actions .button.buy-button:hover {
-  background-color: #155724 !important;
-  border-color: #0d3d17 !important;
+  background-color: #155724;
+  border-color: #0d3d17;
 }
 
 /* ==========================================================================
@@ -112,9 +113,9 @@
 @media (max-width: 768px) {
   .layout--splash .page__hero--overlay,
   .js-hero--overlay {
-    min-height: 250px !important;
-    height: 250px !important;
-    max-height: 250px !important;
+    min-height: 250px;
+    height: 250px;
+    max-height: 250px;
   }
 
   .layout--splash .page__hero--overlay .wrapper,
@@ -125,19 +126,19 @@
 
   .layout--splash .page__hero--overlay .page__title,
   .js-hero__title {
-    font-size: 1.75rem !important;
+    font-size: 1.75rem;
   }
 
   .layout--splash .page__hero--overlay .page__lead,
   .js-hero__lead {
-    font-size: 1rem !important;
+    font-size: 1rem;
     margin-left: auto;
     margin-right: auto;
   }
 
   .page__hero-actions,
   .js-hero__actions {
-    justify-content: center !important;
+    justify-content: center;
   }
 }
 
@@ -148,10 +149,10 @@
 @media (max-width: 480px) {
   .layout--splash .page__hero--overlay,
   .js-hero--overlay {
-    min-height: 220px !important;
-    height: auto !important;
-    max-height: none !important;
-    padding: 2rem 1rem !important;
+    min-height: 220px;
+    height: auto;
+    max-height: none;
+    padding: 2rem 1rem;
   }
 
   .layout--splash .page__hero--overlay .wrapper,
@@ -161,24 +162,24 @@
 
   .layout--splash .page__hero--overlay .page__title,
   .js-hero__title {
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
   }
 
   .layout--splash .page__hero--overlay .page__lead,
   .js-hero__lead {
-    font-size: 0.95rem !important;
+    font-size: 0.95rem;
   }
 
   .page__hero-actions,
   .js-hero__actions {
-    flex-direction: column !important;
-    align-items: center !important;
+    flex-direction: column;
+    align-items: center;
   }
 
   .page__hero-actions .button,
   .js-hero__actions .button {
-    width: 100% !important;
-    max-width: 250px !important;
+    width: 100%;
+    max-width: 250px;
   }
 }
 
@@ -189,11 +190,11 @@
 @media (max-width: 375px) {
   .layout--splash .page__hero--overlay .page__title,
   .js-hero__title {
-    font-size: 1.35rem !important;
+    font-size: 1.35rem;
   }
 
   .layout--splash .page__hero--overlay .page__lead,
   .js-hero__lead {
-    font-size: 0.9rem !important;
+    font-size: 0.9rem;
   }
 }

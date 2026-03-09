@@ -43,29 +43,29 @@ a.button {
 
 /* Buy Now button - matches button-secondary styling with green color */
 a.button.buy-button {
-  background-color: #1e7e34 !important;
-  color: #fff !important;
+  background-color: #1e7e34;
+  color: #fff;
   font-weight: 600; /* Same as button-secondary */
 }
 
 a.button.buy-button:hover,
 a.button.buy-button:visited:hover {
-  background-color: #155724 !important;
-  color: #fff !important;
+  background-color: #155724;
+  color: #fff;
   box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
 }
 
 /* Secondary button - better contrast */
 a.button.button-secondary {
-  background-color: #0056b3 !important; /* Darker blue for better contrast */
-  color: #fff !important;
+  background-color: #0056b3; /* Darker blue for better contrast */
+  color: #fff;
   font-weight: 600;
 }
 
 a.button.button-secondary:hover,
 a.button.button-secondary:visited:hover {
-  background-color: #004494 !important; /* Even darker blue on hover */
-  color: #fff !important;
+  background-color: #004494; /* Even darker blue on hover */
+  color: #fff;
   box-shadow: 0 4px 12px rgba(0, 86, 179, 0.4);
 }
 
@@ -100,15 +100,15 @@ a.button:visited {
 
 /* Special buy button styling for theme buttons - matches secondary */
 .btn.buy-button {
-  background-color: #1e7e34 !important;
-  color: #fff !important;
+  background-color: #1e7e34;
+  color: #fff;
   font-weight: 600; /* Same as secondary */
 }
 
 .btn.buy-button:hover,
 .btn.buy-button:visited:hover {
-  background-color: #155724 !important;
-  color: #fff !important;
+  background-color: #155724;
+  color: #fff;
   box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
 }
 
@@ -171,24 +171,24 @@ a.button.gog-extension-button:hover {
 @media (max-width: 768px) {
   /* Fix header actions button alignment on mobile */
   .page__hero-actions {
-    text-align: center !important; /* Center align on mobile */
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important; /* Center alignment on mobile */
-    align-items: center !important;
-    gap: 0.75rem !important;
-    padding: 0.5rem 0 !important; /* Reduced spacing on mobile too */
-    width: 100% !important;
-    margin-top: 0 !important;
+    text-align: center; /* Center align on mobile */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center alignment on mobile */
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 0; /* Reduced spacing on mobile too */
+    width: 100%;
+    margin-top: 0;
   }
 
   .page__hero-actions a.button,
   .page__hero-actions a.button-secondary,
   .page__hero-actions a.buy-button {
-    flex: 0 1 auto !important;
-    min-width: 180px !important;
-    max-width: 250px !important;
-    margin: 0 !important;
+    flex: 0 1 auto;
+    min-width: 180px;
+    max-width: 250px;
+    margin: 0;
   }
   a.button {
     width: 100%;
@@ -210,7 +210,7 @@ a.button.gog-extension-button:hover {
 
   a.button.buy-button {
     /* Match button-secondary on mobile */
-    background-color: #1e7e34 !important;
+    background-color: #1e7e34;
   }
 
   /* Stack buttons vertically on mobile with proper spacing */
@@ -258,7 +258,7 @@ a.button.gog-extension-button:hover {
 
   /* Hero buy button - match secondary styling */
   .page__hero .btn.buy-button {
-    background-color: #1e7e34 !important;
+    background-color: #1e7e34;
   }
 
   /* Ensure mobile .btn buttons have consistent styling */
@@ -273,7 +273,7 @@ a.button.gog-extension-button:hover {
   }
 
   .btn.buy-button {
-    background-color: #1e7e34 !important;
+    background-color: #1e7e34;
   }
 }
 
