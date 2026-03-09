@@ -66,10 +66,10 @@ jekyll-archives:
   enabled:
     - categories
     - tags
-  layout: category
+  layout: junkstore-archive
   permalinks:
-    category: /:path/:name/
-    tag: /tags/:name/
+    category: /blog/category/:name/
+    tag: /blog/tag/:name/
 
 # Tag archive configuration
 tag_archive:

@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: none
 title: "Page Moved"
 permalink: /deckyhub/
 redirect_to: /deckyhelp/

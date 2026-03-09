@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: none
 title: "Redirecting..."
 permalink: /plugin/
 redirect_to: /deckyhelp/
