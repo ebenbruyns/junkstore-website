@@ -75,14 +75,14 @@
     "youtubers-life-2.json",
     "zombies-ate-my-neighbors-and-ghoul-patrol.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2026-03-01T01:36:07.401Z",
+  "featured_games": 0,
+  "last_updated": "2026-03-09T05:58:47.030Z",
   "latest_games": [
     {
       "title": "Tavern Talk",
       "slug": "tavern-talk",
       "date_tested": "Feb '26",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "Tormented Souls",
