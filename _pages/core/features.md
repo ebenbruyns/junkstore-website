@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: junkstore-splash
 title: "Junk Store Features"
 description: "Play Epic, GOG, Amazon & itch games on Steam Deck without Desktop Mode. Junk Store keeps you in Game Mode - see features, live demos, and why gamers choose it."
 permalink: /features/
@@ -19,7 +19,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 <!-- Tab Navigation -->
 <div class="features-tabs">
   <button class="features-tab active" data-tab="features" onclick="switchTab('features')">Features</button>
-  <button class="features-tab" data-tab="difference" onclick="switchTab('difference')">The Pro Difference</button>
+  <button class="features-tab" data-tab="difference" onclick="switchTab('difference')">Decky vs Pro</button>
   <button class="features-tab" data-tab="gallery" onclick="switchTab('gallery')">Gallery</button>
   <button class="features-tab" data-tab="press" onclick="switchTab('press')">Press</button>
 </div>
@@ -163,114 +163,90 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   </table>
 </section>
 
-<section class="features-cta">
-  <div class="cta-box">
-    <h2>Ready to Try These Features?</h2>
-    <p>Start your free 7-day trial with full access to everything above.</p>
-    <div class="cta-buttons">
-      <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
-      <a href="#" onclick="switchTab('gallery'); return false;" class="button button-secondary large">See Live Demos</a>
-    </div>
-    <p class="guarantee">No payment required | Cancel anytime | Full feature access</p>
+<section class="simple-cta">
+  <h2>Ready to Try These Features?</h2>
+  <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
+  <div class="cta-buttons">
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
+    <a href="#" onclick="switchTab('gallery'); return false;" class="button button-secondary large">See Live Demos</a>
   </div>
 </section>
 
 </div>
 
-<!-- ==================== THE PRO DIFFERENCE TAB ==================== -->
+<!-- ==================== DECKY VS PRO TAB ==================== -->
 <div id="tab-difference" class="tab-panel">
 
 <section class="comparison-hero">
-  <h1>The Game Mode-Native Launcher</h1>
-  <p class="lead-text">The only launcher that eliminates Desktop Mode switching entirely.</p>
+  <h1>Decky Plugin vs Junk Store Pro</h1>
+  <p class="lead-text">Already using our free Decky plugin? Here's what upgrading to Pro unlocks.</p>
+  <p class="reassurance">Keep everything you love: All your current Epic Games functionality remains exactly the same, plus you get all these premium features.</p>
+</section>
 
-  <div class="hero-upgrade-link">
-    <p><em>Already using our free Decky plugin?</em> <a href="/upgrade/">See what upgrading to Pro unlocks</a></p>
+<section class="upgrade-section" id="free-vs-pro">
+
+  <div class="upgrade-grid">
+    <div class="upgrade-item">
+      <h3>🌍 More Gaming Platforms</h3>
+      <p class="current"><strong>Free Plugin:</strong> Epic Games support</p>
+      <p class="upgrade"><strong>Pro:</strong> Amazon Prime Gaming + itch + Enhanced GOG support</p>
+    </div>
+
+    <div class="upgrade-item">
+      <h3>🎯 Per-Game Control</h3>
+      <p class="current"><strong>Free Plugin:</strong> Basic game launching</p>
+      <p class="upgrade"><strong>Pro:</strong> Individual language control, offline mode per game, custom launcher options</p>
+    </div>
+
+    <div class="upgrade-item">
+      <h3>⚡ Professional Performance</h3>
+      <p class="current"><strong>Free Plugin:</strong> 100 games per tab</p>
+      <p class="upgrade"><strong>Pro:</strong> 1,000 games per tab + zero plugin limitations</p>
+    </div>
+
+    <div class="upgrade-item">
+      <h3>🛠️ Advanced Features</h3>
+      <p class="current"><strong>Free Plugin:</strong> Basic game management</p>
+      <p class="upgrade"><strong>Pro:</strong> Download queue, automated dependencies, ROM integration</p>
+    </div>
+
+    <div class="upgrade-item">
+      <h3>🔄 Direct Updates</h3>
+      <p class="current"><strong>Free Plugin:</strong> Wait for Decky store updates</p>
+      <p class="upgrade"><strong>Pro:</strong> Instant updates directly from developer</p>
+    </div>
+
+    <div class="upgrade-item">
+      <h3>🎮 Complete Ecosystem</h3>
+      <p class="current"><strong>Free Plugin:</strong> Epic Games launcher</p>
+      <p class="upgrade"><strong>Pro:</strong> All platforms + emulators + ROMs integrated in Game Mode</p>
+    </div>
+
+    <div class="upgrade-item">
+      <h3>⚡ Frame Generation</h3>
+      <p class="current"><strong>Free Plugin:</strong> Requires separate plugin or manual setup</p>
+      <p class="upgrade"><strong>Pro:</strong> Built-in LSFG-VK with one-click toggles</p>
+    </div>
+
+    <div class="upgrade-item">
+      <h3>🩺 Help & Diagnostics</h3>
+      <p class="current"><strong>Free Plugin:</strong> External docs, manual troubleshooting</p>
+      <p class="upgrade"><strong>Pro:</strong> Built-in help system + automatic problem detection</p>
+    </div>
+  </div>
+
+  <div class="comparison-button">
+    <a href="/decky-vs-pro/" class="button button-secondary">View Full Comparison</a>
   </div>
 </section>
 
-<section class="major-differentiators">
-  <h2>Free Alternatives vs Junk Store Pro - The Key Differences</h2>
-  <div class="differentiator-grid">
-
-    <div class="differentiator-item">
-      <h3>Desktop Mode Elimination</h3>
-      <p class="problem">Free Alternatives: Require desktop switching for setup and management</p>
-      <p class="solution">Junk Store Pro: Pure Game Mode - never leave handheld mode</p>
-    </div>
-
-    <div class="differentiator-item">
-      <h3>Zero Performance Impact</h3>
-      <p class="problem">Free Alternatives: Run background processes while gaming</p>
-      <p class="solution">Junk Store Pro: Lightweight scripts - zero performance interference</p>
-    </div>
-
-    <div class="differentiator-item">
-      <h3>Professional Development Team</h3>
-      <p class="problem">Free Alternatives: Community volunteers with slower GitHub releases</p>
-      <p class="solution">Junk Store Pro: Full-time dev team with instant update channels</p>
-    </div>
-
-    <div class="differentiator-item">
-      <h3>True Native Steam Integration</h3>
-      <p class="problem">Free Alternatives: Launch separate launcher apps with limited integration</p>
-      <p class="solution">Junk Store Pro: All libraries visible directly in Game Mode</p>
-    </div>
-
-    <div class="differentiator-item">
-      <h3>Handheld-First Experience</h3>
-      <p class="problem">Free Alternatives: Desktop-first with controller as afterthought</p>
-      <p class="solution">Junk Store Pro: Built specifically for Steam Deck workflows</p>
-    </div>
-
-    <div class="differentiator-item">
-      <h3>Complete Gaming Ecosystem</h3>
-      <p class="problem">Free Alternatives: Handle store games only with separate emulator setup</p>
-      <p class="solution">Junk Store Pro: Epic + GOG + Amazon + itch + ROMs integrated in Game Mode</p>
-    </div>
-
-    <div class="differentiator-item">
-      <h3>Built-in Frame Generation</h3>
-      <p class="problem">Free Alternatives: Requires separate plugin installation or manual launch arguments</p>
-      <p class="solution">Junk Store Pro: One-click LSFG-VK toggles built directly into the app</p>
-    </div>
-
-  </div>
-
-  <div class="differentiator-conclusion">
-    <p><strong>The bottom line:</strong> Free alternatives are excellent desktop applications adapted for Steam Deck. Junk Store Pro is purpose-built for handheld gaming - a fundamentally different architectural approach.</p>
-  </div>
-</section>
-
-<section class="decision-section" id="decision-time">
-  <div class="decision-box">
-    <h2>The Choice is Clear</h2>
-    <div class="decision-points">
-      <div class="decision-point">
-        <h4><strong>Game Mode Native vs Desktop Adapted</strong></h4>
-        <p>Free alternatives are desktop applications trying to work on Steam Deck. Junk Store was built from the ground up for handheld gaming. <strong>Install, Launch, Play.</strong> All in Game Mode.</p>
-      </div>
-      <div class="decision-point">
-        <h4><strong>Professional vs Community Development</strong></h4>
-        <p>Free alternatives rely on community volunteers with slower releases. Junk Store Pro has full-time professional development with instant update channels (stable/testing/beta). No waiting for GitHub builds.</p>
-      </div>
-      <div class="decision-point">
-        <h4><strong>Premium Experience for <span data-pricing="weekly">Less than $1</span>/Week</strong></h4>
-        <p>Skip the frustration of desktop switching and manual setup. Get the complete Game Mode experience for the price of a coffee.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="trial-cta" id="trial">
-  <div class="cta-box">
-    <h2>Ready to Experience the Difference?</h2>
-    <p>Try all these benefits free for <span data-pricing="trial-days">7</span> days. No commitment, cancel anytime.</p>
-    <div class="cta-buttons">
-      <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
-      <a href="#" onclick="switchTab('gallery'); return false;" class="button button-secondary large">Watch Demos First</a>
-    </div>
-    <p class="guarantee">Cancel anytime during trial | No commitment | Full feature access</p>
+<!-- Table moved to /decky-vs-pro/ page -->
+<section class="simple-cta" id="trial">
+  <h2>Ready to Experience the Difference?</h2>
+  <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
+  <div class="cta-buttons">
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
+    <a href="#" onclick="switchTab('gallery'); return false;" class="button button-secondary large">See Live Demos</a>
   </div>
 </section>
 
@@ -281,8 +257,6 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 <!-- Dark overlay for zoomed content -->
 <div class="gallery-overlay" id="galleryOverlay"></div>
-
-<p class="section-intro"><strong>See the difference:</strong> Everything shown here is done in Game Mode with your Steam Deck's controller. No Desktop Mode switching, no mouse required.</p>
 
 <!-- Animated GIFs Section -->
 <h2 class="section-heading">Game Mode Features (Tap to play)</h2>
@@ -366,14 +340,11 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 </div>
 
-<section class="trial-cta gallery-cta">
-  <div class="cta-box">
-    <h2>Ready to Try It Yourself?</h2>
-    <p>Start your free 7-day trial and experience everything you've seen here.</p>
-    <div class="cta-buttons">
-      <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
-    </div>
-    <p class="guarantee">No payment required | Cancel anytime | Full feature access</p>
+<section class="simple-cta">
+  <h2>Ready to Try It Yourself?</h2>
+  <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
+  <div class="cta-buttons">
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
   </div>
 </section>
 
@@ -381,8 +352,6 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 <!-- ==================== PRESS TAB ==================== -->
 <div id="tab-press" class="tab-panel">
-
-<p class="section-intro">Reviews, articles, and interviews from the community and tech press.</p>
 
 <!-- Interviews Section -->
 <h2 class="section-heading">Interviews</h2>
@@ -502,14 +471,11 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 </div>
 
-<section class="trial-cta gallery-cta">
-  <div class="cta-box">
-    <h2>Ready to See What the Buzz is About?</h2>
-    <p>Start your free 7-day trial and experience it yourself.</p>
-    <div class="cta-buttons">
-      <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
-    </div>
-    <p class="guarantee">No payment required | Cancel anytime | Full feature access</p>
+<section class="simple-cta">
+  <h2>Ready to See What the Buzz is About?</h2>
+  <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
+  <div class="cta-buttons">
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
   </div>
 </section>
 
@@ -531,7 +497,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin: 2rem 0 1.5rem 0;
+  margin: 1rem 0 0.5rem 0;
   flex-wrap: wrap;
 }
 
@@ -574,11 +540,17 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 .tab-panel.active {
   display: block;
+  border-bottom: none;
+  padding-top: 1.5rem;
 }
 
 /* ========== FEATURES TAB STYLES ========== */
 .features-section {
-  margin: 2rem 0;
+  margin: 0 0 2rem 0;
+}
+
+.features-section:first-of-type {
+  margin-top: 0;
 }
 
 .features-section h2 {
@@ -642,9 +614,26 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 }
 
 /* ========== COMPARE TAB STYLES ========== */
-.comparison-hero {
+#tab-difference .comparison-hero {
   text-align: center;
-  margin: 2rem 0;
+  margin: 0;
+}
+
+
+#tab-difference .comparison-hero h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+#tab-difference .comparison-hero .lead-text {
+  margin: 0;
+  text-align: center;
+}
+
+#tab-difference .comparison-hero .reassurance {
+  margin: 1rem 0 0.5rem 0;
+  text-align: center;
+  color: #ccc;
+  font-size: 0.95rem;
 }
 
 .comparison-hero h1 {
@@ -655,7 +644,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 .lead-text {
   font-size: 1.1rem;
-  margin-bottom: 0.75rem;
+  margin: 0;
   color: #ccc;
 }
 
@@ -674,6 +663,207 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 .hero-upgrade-link a {
   color: #ffa366;
   font-weight: 600;
+}
+
+/* ========== UPGRADE GRID ========== */
+.upgrade-section {
+  margin: 0;
+  padding: 0;
+}
+
+.upgrade-section h2 {
+  text-align: center;
+  color: #e67300;
+  margin-bottom: 0.5rem;
+}
+
+.upgrade-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.upgrade-item {
+  background: #1e2a38;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.upgrade-item:hover {
+  border-color: #0af;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 170, 255, 0.15);
+}
+
+.upgrade-item h3 {
+  color: #e67300;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.upgrade-item .current {
+  color: #8bc34a;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.upgrade-item .upgrade {
+  color: #ffa366;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.comparison-button {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.comparison-button .button {
+  padding: 14px 48px;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .upgrade-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ========== COMPARISON TABLE ========== */
+.detailed-comparison-section {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.detailed-comparison-section h2 {
+  text-align: center;
+  color: #66bfff;
+  margin-bottom: 0.5rem;
+}
+
+.table-intro {
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #444;
+}
+
+.comparison-table thead {
+  background: #1e2a38;
+}
+
+.comparison-table th {
+  padding: 1rem;
+  text-align: left;
+  color: #66bfff;
+  font-weight: 600;
+  border-bottom: 2px solid #444;
+}
+
+.comparison-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  vertical-align: top;
+  color: #e8e8e8;
+}
+
+.comparison-table td:first-child {
+  color: #fff;
+  width: 35%;
+}
+
+.comparison-table tr:hover {
+  background: rgba(0, 170, 255, 0.05);
+}
+
+.new-badge {
+  background: #e67300;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+/* ========== HOVER POPUPS ========== */
+.hover-popup {
+  position: relative;
+  cursor: pointer;
+}
+
+.hover-label {
+  color: #0af;
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}
+
+.gif-popup {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin-left: 10px;
+  background: #1e2a38;
+  border: 2px solid #0af;
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 1000;
+  width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.hover-popup:hover .gif-popup,
+.hover-popup.active .gif-popup {
+  display: block;
+}
+
+.gif-popup video,
+.gif-popup img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.gif-popup p {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .gif-popup {
+    position: fixed;
+    left: 50% !important;
+    top: 10px !important;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .comparison-table {
+    font-size: 0.9rem;
+  }
+
+  .comparison-table td,
+  .comparison-table th {
+    padding: 0.5rem;
+  }
 }
 
 .section-divider {
@@ -811,16 +1001,18 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   transform: scale(1.02);
 }
 
-.caption-title {
+.media-item .caption-title {
   font-weight: 600;
   color: #fff;
   margin: 10px 0 5px 0;
+  text-align: center;
 }
 
-.caption {
+.media-item .caption {
   color: #aaa;
   font-size: 0.9rem;
   margin: 0;
+  text-align: center;
 }
 
 .gif-wrapper {
@@ -885,17 +1077,49 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   margin: 2rem 0;
 }
 
+/* Simple CTA without box */
+.simple-cta {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.simple-cta h2 {
+  color: #e67300;
+  margin: 0 0 1rem 0;
+}
+
+.simple-cta .guarantee {
+  color: #888;
+  font-size: 0.9rem;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.simple-cta .cta-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .cta-box {
   background: linear-gradient(135deg, rgba(230, 115, 0, 0.15), rgba(230, 115, 0, 0.05));
   border: 1px solid rgba(230, 115, 0, 0.3);
   border-radius: 12px;
   padding: 2rem;
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .cta-box h2 {
   color: #e67300;
   margin-top: 0;
+  text-align: center;
+}
+
+.cta-box > p {
+  text-align: center;
 }
 
 .cta-buttons {
@@ -920,17 +1144,17 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 }
 
 .button.button-secondary {
-  background: transparent;
-  border: 2px solid #e67300;
-  color: #e67300 !important;
-  padding: 10px 22px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff !important;
+  padding: 12px 24px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
 }
 
 .button.button-secondary:hover {
-  background: rgba(230, 115, 0, 0.1);
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .button.large {
@@ -952,6 +1176,10 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 .section-heading {
   text-align: center;
+  color: #e67300;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .gallery-cta {
@@ -961,7 +1189,18 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 /* ========== BACK TO TOP ========== */
 .section-end {
   text-align: center;
-  margin: 3rem 0 1rem 0;
+  margin: 2rem 0 1rem 0;
+  border-top: none;
+}
+
+/* Remove any line before back to top */
+.trial-cta + .section-end,
+.gallery-cta + .section-end {
+  border-top: none;
+}
+
+.trial-cta {
+  border-bottom: none;
 }
 
 .back-to-top {
@@ -980,6 +1219,34 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 </style>
 
 <script>
+// ========== COMPARISON TABLE HOVER POPUPS ==========
+function restartGif(container) {
+  const gif = container.querySelector("img");
+  if (gif) {
+    const src = gif.getAttribute("src").split("?")[0];
+    gif.setAttribute("src", `${src}?t=${Date.now()}`);
+  }
+}
+
+function togglePopup(element) {
+  const wasActive = element.classList.contains('active');
+  document.querySelectorAll('.hover-popup.active').forEach(el => {
+    el.classList.remove('active');
+  });
+  if (!wasActive) {
+    element.classList.add('active');
+    restartGif(element);
+  }
+}
+
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('.hover-popup')) {
+    document.querySelectorAll('.hover-popup.active').forEach(el => {
+      el.classList.remove('active');
+    });
+  }
+});
+
 // ========== TAB SWITCHING ==========
 document.addEventListener('DOMContentLoaded', function() {
   // Initialize tab from URL hash
