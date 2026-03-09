@@ -1,0 +1,282 @@
+---
+layout: junkstore-default
+---
+
+<article class="js-post" itemscope itemtype="https://schema.org/BlogPosting"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+  {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+  {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+  {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+  {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+  <div class="js-post__container">
+    <!-- Post Header -->
+    <header class="js-post__header">
+      <h1 class="js-post__title" itemprop="headline">{{ page.title }}</h1>
+
+      <div class="js-post__meta">
+        <div class="js-post__date">
+          <i class="fas fa-calendar-alt"></i>
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {{ page.date | date: "%B %d, %Y" }}
+          </time>
+        </div>
+        {% if page.categories %}
+        <div class="js-post__categories">
+          <i class="fas fa-tags"></i>
+          {% for category in page.categories %}
+            <span class="js-post__category">{{ category }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% if page.read_time %}
+        <div class="js-post__read-time">
+          <i class="fas fa-clock"></i>
+          {{ page.read_time }}
+        </div>
+        {% endif %}
+      </div>
+
+      <!-- Share Buttons -->
+      <div class="js-post__share">
+        <span class="js-post__share-label">Share:</span>
+        <div class="js-post__share-buttons">
+          <a href="https://twitter.com/intent/tweet?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}"
+             target="_blank" rel="noopener" class="js-share-btn js-share-btn--twitter" title="Share on Twitter">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+          <a href="https://bsky.app/intent/compose?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
+             target="_blank" rel="noopener" class="js-share-btn js-share-btn--bluesky" title="Share on Bluesky">
+            <i class="fab fa-bluesky"></i>
+          </a>
+          <a href="https://mastodonshare.com/?text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}"
+             target="_blank" rel="noopener" class="js-share-btn js-share-btn--mastodon" title="Share on Mastodon">
+            <i class="fab fa-mastodon"></i>
+          </a>
+          <a href="https://www.reddit.com/submit?url={{ page.url | absolute_url | url_encode }}&title={{ page.title | url_encode }}"
+             target="_blank" rel="noopener" class="js-share-btn js-share-btn--reddit" title="Share on Reddit">
+            <i class="fab fa-reddit-alien"></i>
+          </a>
+          <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}"
+             target="_blank" rel="noopener" class="js-share-btn js-share-btn--facebook" title="Share on Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="mailto:?subject={{ page.title | url_encode }}&body=Check%20out%20this%20post%3A%20{{ page.url | absolute_url | url_encode }}"
+             class="js-share-btn js-share-btn--email" title="Share via Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <button class="js-share-btn js-share-btn--copy" title="Copy link" onclick="copyPostLink()">
+            <i class="fas fa-link"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <section class="js-post__content" itemprop="text">
+      {{ content }}
+    </section>
+
+    <!-- Post Footer (tags hidden for SEO) -->
+    <footer class="js-post__footer">
+      {% if page.tags %}
+      <div class="js-post__tags-seo" style="display: none;">
+        {% for tag in page.tags %}
+          <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </footer>
+
+    <!-- Post Navigation -->
+    {% if page.previous or page.next %}
+    <nav class="js-post__nav">
+      {% if page.previous %}
+      <a href="{{ page.previous.url | relative_url }}" class="js-post__nav-link js-post__nav-link--prev">
+        <span class="js-post__nav-label"><i class="fas fa-chevron-left"></i> Previous</span>
+        <span class="js-post__nav-title">{{ page.previous.title | truncatewords: 8 }}</span>
+      </a>
+      {% else %}
+      <div class="js-post__nav-link js-post__nav-link--empty"></div>
+      {% endif %}
+
+      {% if page.next %}
+      <a href="{{ page.next.url | relative_url }}" class="js-post__nav-link js-post__nav-link--next">
+        <span class="js-post__nav-label">Next <i class="fas fa-chevron-right"></i></span>
+        <span class="js-post__nav-title">{{ page.next.title | truncatewords: 8 }}</span>
+      </a>
+      {% endif %}
+    </nav>
+    {% endif %}
+  </div>
+</article>
+
+<!-- Sticky TOC -->
+<div id="sticky-toc" class="js-toc">
+  <div class="js-toc__header">
+    <i class="fas fa-list-ul"></i>
+    <span>Contents</span>
+    <button id="toc-toggle" class="js-toc__toggle">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+  </div>
+  <nav class="js-toc__nav" id="toc-nav">
+    <!-- TOC populated by JavaScript -->
+  </nav>
+</div>
+
+<!-- Back to Top Button -->
+<button id="back-to-top" class="js-back-to-top" aria-label="Back to top">
+  <i class="fas fa-chevron-up"></i>
+</button>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const stickyToc = document.getElementById('sticky-toc');
+  const tocNav = document.getElementById('toc-nav');
+  const tocToggle = document.getElementById('toc-toggle');
+  const content = document.querySelector('.js-post__content');
+  const backToTopBtn = document.getElementById('back-to-top');
+
+  if (!stickyToc || !tocNav || !content) return;
+
+  // Generate TOC from headings
+  function generateTOC() {
+    const headings = content.querySelectorAll('h2, h3, h4');
+
+    if (headings.length < 2) {
+      stickyToc.style.display = 'none';
+      return;
+    }
+
+    tocNav.innerHTML = '';
+
+    headings.forEach((heading, index) => {
+      if (!heading.id) {
+        heading.id = 'heading-' + index;
+      }
+
+      const tocItem = document.createElement('a');
+      tocItem.href = '#' + heading.id;
+      tocItem.className = 'js-toc__item js-toc__item--' + heading.tagName.toLowerCase();
+      tocItem.textContent = heading.textContent.trim();
+      tocItem.addEventListener('click', function(e) {
+        e.preventDefault();
+        heading.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+        updateActiveTocItem(tocItem);
+      });
+
+      tocNav.appendChild(tocItem);
+    });
+  }
+
+  function updateActiveTocItem(activeItem) {
+    document.querySelectorAll('.js-toc__item').forEach(item => {
+      item.classList.remove('js-toc__item--active');
+    });
+    activeItem.classList.add('js-toc__item--active');
+  }
+
+  function handleTocVisibility() {
+    const headings = content.querySelectorAll('h2, h3, h4');
+    if (headings.length < 2) return;
+
+    const firstHeading = headings[0];
+    const rect = firstHeading.getBoundingClientRect();
+
+    if (rect.bottom < 100) {
+      stickyToc.classList.add('js-toc--visible');
+    } else {
+      stickyToc.classList.remove('js-toc--visible');
+    }
+
+    let activeHeading = null;
+    headings.forEach(heading => {
+      const rect = heading.getBoundingClientRect();
+      if (rect.top <= 150 && rect.bottom > 0) {
+        activeHeading = heading;
+      }
+    });
+
+    if (activeHeading) {
+      const activeLink = tocNav.querySelector(`a[href="#${activeHeading.id}"]`);
+      if (activeLink) {
+        updateActiveTocItem(activeLink);
+      }
+    }
+  }
+
+  function toggleToc() {
+    tocNav.classList.toggle('js-toc__nav--collapsed');
+    tocToggle.classList.toggle('js-toc__toggle--collapsed');
+    stickyToc.classList.toggle('js-toc--collapsed');
+    localStorage.setItem('tocCollapsed', tocNav.classList.contains('js-toc__nav--collapsed'));
+  }
+
+  // Back to Top
+  if (backToTopBtn) {
+    function handleBackToTopVisibility() {
+      if (window.pageYOffset > 300) {
+        backToTopBtn.classList.add('js-back-to-top--visible');
+      } else {
+        backToTopBtn.classList.remove('js-back-to-top--visible');
+      }
+    }
+
+    backToTopBtn.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    window.addEventListener('scroll', handleBackToTopVisibility);
+  }
+
+  // Initialize
+  generateTOC();
+
+  const savedState = localStorage.getItem('tocCollapsed');
+  if (savedState === 'true') {
+    tocNav.classList.add('js-toc__nav--collapsed');
+    tocToggle.classList.add('js-toc__toggle--collapsed');
+    stickyToc.classList.add('js-toc--collapsed');
+  }
+
+  window.addEventListener('scroll', handleTocVisibility);
+  tocToggle.addEventListener('click', toggleToc);
+
+  const tocHeader = document.querySelector('.js-toc__header');
+  if (tocHeader) {
+    tocHeader.addEventListener('click', function(e) {
+      if (e.target !== tocToggle && !tocToggle.contains(e.target)) {
+        toggleToc();
+      }
+    });
+  }
+
+  setTimeout(handleTocVisibility, 100);
+});
+
+// Copy link function
+function copyPostLink() {
+  const url = window.location.href;
+  navigator.clipboard.writeText(url).then(function() {
+    const btn = document.querySelector('.js-share-btn--copy');
+    const icon = btn.querySelector('i');
+    icon.className = 'fas fa-check';
+    btn.classList.add('js-share-btn--copied');
+    setTimeout(function() {
+      icon.className = 'fas fa-link';
+      btn.classList.remove('js-share-btn--copied');
+    }, 2000);
+  }).catch(function() {
+    // Fallback for older browsers
+    const textArea = document.createElement('textarea');
+    textArea.value = url;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textArea);
+  });
+}
+</script>

@@ -1,0 +1,705 @@
+/* ==========================================================================
+   Junk Store Theme - Blog Post Styles
+   Individual blog post layout and components
+   ========================================================================== */
+
+/*
+   Post Layout
+   ========================================================================== */
+
+.js-post {
+  padding: 2rem 0;
+}
+
+.js-post__container {
+  max-width: 900px;
+  width: 98%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/*
+   Post Header
+   ========================================================================== */
+
+.js-post__header {
+  margin-bottom: 2rem;
+}
+
+.js-post__title {
+  font-size: 2.2rem;
+  color: $junkstore-primary;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+
+  @include breakpoint-max(medium) {
+    font-size: 1.8rem;
+  }
+}
+
+.js-post__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 15px 0;
+  border-bottom: 2px solid $junkstore-border;
+  font-size: 0.9rem;
+  color: $junkstore-gray-text;
+}
+
+.js-post__meta > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.js-post__meta i {
+  color: $junkstore-primary;
+  font-size: 0.85rem;
+}
+
+.js-post__date,
+.js-post__read-time {
+  color: $junkstore-gray-text;
+}
+
+.js-post__category {
+  background: $junkstore-primary;
+  color: #000;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+/*
+   Post Content
+   ========================================================================== */
+
+.js-post__content {
+  line-height: 1.7;
+  font-size: 1rem;
+  color: $junkstore-light-text;
+
+  h2,
+  h2[id] {
+    color: $junkstore-primary;
+    border-bottom: 2px solid $junkstore-border;
+    padding-bottom: 8px;
+    margin: 30px 0 20px 0;
+    text-align: left;
+    font-size: 1.6rem;
+  }
+
+  h3,
+  h3[id] {
+    color: $junkstore-accent;
+    margin: 25px 0 15px 0;
+    text-align: left;
+    font-size: 1.3rem;
+  }
+
+  h4,
+  h4[id],
+  h5,
+  h5[id],
+  h6,
+  h6[id] {
+    text-align: left;
+    color: $white;
+  }
+
+  p {
+    margin-bottom: 1.25rem;
+  }
+
+  ul,
+  ol {
+    margin: 15px 0;
+    padding-left: 25px;
+  }
+
+  li {
+    margin-bottom: 8px;
+  }
+
+  blockquote {
+    border-left: 4px solid $junkstore-primary;
+    background: $junkstore-bg-card;
+    padding: 15px 20px;
+    margin: 20px 0;
+    font-style: italic;
+  }
+
+  a {
+    color: $junkstore-primary;
+    text-decoration: none;
+
+    &:hover {
+      color: $junkstore-accent;
+      text-decoration: underline;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+  }
+
+  code {
+    background: rgba($white, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+
+  pre {
+    background: $junkstore-bg-card;
+    padding: 1rem;
+    border-radius: $border-radius;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+
+    code {
+      background: none;
+      padding: 0;
+    }
+  }
+}
+
+/*
+   Post Footer
+   ========================================================================== */
+
+.js-post__footer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid $junkstore-border;
+}
+
+/*
+   Share Buttons
+   ========================================================================== */
+
+.js-post__share {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.js-post__share-label {
+  font-size: 0.85rem;
+  color: $junkstore-gray-text;
+}
+
+.js-post__share-buttons {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.js-share-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: $white;
+  text-decoration: none;
+  @include transition;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  &--twitter {
+    background: #1a8cd8;
+  }
+
+  &--bluesky {
+    background: #0085ff;
+  }
+
+  &--mastodon {
+    background: #563acc;
+  }
+
+  &--reddit {
+    background: #c23a00;
+  }
+
+  &--facebook {
+    background: #1877f2;
+  }
+
+  &--email {
+    background: #666;
+  }
+
+  &--copy {
+    background: $junkstore-border;
+
+    &:hover {
+      background: $junkstore-primary;
+    }
+  }
+
+  &--copied {
+    background: #28a745;
+  }
+}
+
+/*
+   Post Navigation (Prev/Next)
+   ========================================================================== */
+
+.js-post__nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid $junkstore-border;
+}
+
+.js-post__nav-link {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: $border-radius;
+  text-decoration: none;
+  @include transition;
+
+  &:hover {
+    border-color: $junkstore-primary;
+    background: rgba($junkstore-primary, 0.05);
+  }
+
+  &--prev {
+    text-align: left;
+  }
+
+  &--next {
+    text-align: right;
+  }
+
+  &--empty {
+    background: transparent;
+    border: none;
+  }
+}
+
+.js-post__nav-label {
+  font-size: 0.8rem;
+  color: $junkstore-gray-text;
+  margin-bottom: 0.5rem;
+
+  i {
+    font-size: 0.7rem;
+  }
+}
+
+.js-post__nav-title {
+  color: $junkstore-primary;
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1.3;
+}
+
+/*
+   Sticky TOC
+   ========================================================================== */
+
+.js-toc {
+  position: fixed;
+  top: 50%;
+  right: -280px;
+  transform: translateY(-50%);
+  width: 280px;
+  max-height: 70vh;
+  background: linear-gradient(135deg, $junkstore-bg-card 0%, $junkstore-bg-dark 100%);
+  border-radius: 12px 0 0 12px;
+  border: 1px solid $junkstore-border;
+  border-right: none;
+  box-shadow: -4px 0 20px rgba(0, 0, 0, 0.3);
+  transition: right 0.3s ease, width 0.3s ease;
+  z-index: 1000;
+  font-size: 0.9rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  &--visible {
+    right: 0;
+  }
+
+  &--collapsed {
+    width: 45px;
+    right: 0;
+    border-radius: 8px 0 0 8px;
+  }
+}
+
+.js-toc__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 15px;
+  background: linear-gradient(135deg, $junkstore-primary 0%, darken($junkstore-primary, 10%) 100%);
+  color: #000;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border-radius: 12px 0 0 0;
+  cursor: pointer;
+  user-select: none;
+  transition: padding 0.3s ease;
+  white-space: nowrap;
+  overflow: hidden;
+
+  i {
+    font-size: 0.8rem;
+    flex-shrink: 0;
+  }
+
+  .js-toc--collapsed & {
+    padding: 12px 8px;
+    justify-content: center;
+    border-radius: 8px 0 0 0;
+
+    span {
+      display: none;
+    }
+
+    i {
+      margin: 0;
+      font-size: 1rem;
+    }
+  }
+}
+
+.js-toc__toggle {
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 2px;
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+
+  &--collapsed {
+    transform: rotate(180deg);
+  }
+
+  .js-toc--collapsed & {
+    display: none;
+  }
+}
+
+.js-toc__nav {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  box-sizing: border-box;
+  min-height: 0;
+
+  &--collapsed {
+    flex: 0 0 0;
+    max-height: 0;
+    padding: 0 15px;
+    overflow: hidden;
+    min-height: 0;
+  }
+
+  // Custom scrollbar
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba($white, 0.1);
+    border-radius: 2px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $junkstore-primary;
+    border-radius: 2px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: darken($junkstore-primary, 10%);
+  }
+}
+
+.js-toc__item {
+  display: block;
+  padding: 6px 0;
+  color: $junkstore-gray-text;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  padding-left: 12px;
+  transition: all 0.2s ease;
+  font-size: 0.85rem;
+  line-height: 1.3;
+
+  &:hover {
+    color: $junkstore-primary;
+    border-left-color: $junkstore-primary;
+    background: rgba($junkstore-primary, 0.1);
+    padding-left: 16px;
+  }
+
+  &--active {
+    color: $junkstore-primary;
+    border-left-color: $junkstore-primary;
+    background: rgba($junkstore-primary, 0.15);
+    font-weight: 600;
+  }
+
+  &--h3 {
+    padding-left: 24px;
+    font-size: 0.8rem;
+
+    &:hover {
+      padding-left: 28px;
+    }
+  }
+
+  &--h4 {
+    padding-left: 36px;
+    font-size: 0.75rem;
+
+    &:hover {
+      padding-left: 40px;
+    }
+  }
+}
+
+/*
+   Back to Top Button
+   ========================================================================== */
+
+.js-back-to-top {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, $junkstore-primary 0%, darken($junkstore-primary, 10%) 100%);
+  color: $white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 999;
+  box-shadow: 0 4px 15px rgba($junkstore-primary, 0.3);
+
+  &--visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &:hover {
+    background: linear-gradient(135deg, darken($junkstore-primary, 10%) 0%, $junkstore-primary 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba($junkstore-primary, 0.4);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+  }
+}
+
+/*
+   Game Entry (for weekly updates)
+   ========================================================================== */
+
+.game-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 15px 0;
+  padding: 10px 0;
+}
+
+.game-thumbnail {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.game-details {
+  flex: 1;
+  min-width: 0;
+
+  strong {
+    display: block;
+    margin-bottom: 8px;
+    color: $white;
+    font-size: 1.1rem;
+
+    a {
+      color: $junkstore-primary;
+      text-decoration: none;
+
+      &:hover {
+        color: $junkstore-accent;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.compatibility-info {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.compatibility-line {
+  margin: 3px 0;
+}
+
+/*
+   Inline Games CTA Button
+   ========================================================================== */
+
+.inline-games-cta-button {
+  display: inline-block;
+  background: transparent;
+  color: $junkstore-primary;
+  padding: 4px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.7em;
+  transition: all 0.3s ease;
+  border: 1px solid $junkstore-primary;
+  margin-left: 15px;
+  vertical-align: middle;
+
+  &:hover {
+    background: $junkstore-primary;
+    color: $white;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba($junkstore-primary, 0.3);
+    text-decoration: none;
+  }
+}
+
+/*
+   Blog CTA Box
+   ========================================================================== */
+
+.blog-cta {
+  text-align: center;
+  background: $junkstore-bg-card;
+  border-radius: $border-radius;
+  padding: 20px;
+  margin-top: 30px;
+  border: 1px solid $junkstore-border;
+
+  p {
+    margin-bottom: 15px;
+    color: $white;
+    font-size: 1.1rem;
+  }
+}
+
+.blog-cta-button {
+  display: inline-block;
+  background: $junkstore-accent;
+  color: $white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  margin: 10px 0;
+  border: 2px solid $junkstore-accent;
+
+  &:hover {
+    background: darken($junkstore-accent, 10%);
+    border-color: darken($junkstore-accent, 10%);
+    color: $white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba($junkstore-accent, 0.4);
+  }
+}
+
+.cta-subtext {
+  margin-top: 8px;
+  color: $junkstore-accent;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+/*
+   Mobile Responsive
+   ========================================================================== */
+
+@include breakpoint-max(medium) {
+  .js-post__meta {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .game-entry {
+    gap: 10px;
+  }
+
+  .game-thumbnail {
+    width: 50px;
+    height: 50px;
+  }
+
+  .game-details strong {
+    font-size: 1rem;
+  }
+
+  // Hide sticky TOC on mobile
+  .js-toc {
+    display: none;
+  }
+
+  .js-back-to-top {
+    bottom: 20px;
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 1.1rem;
+  }
+
+  .js-post__nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .js-post__nav-link--next {
+    text-align: left;
+  }
+}
