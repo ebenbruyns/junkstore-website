@@ -1,0 +1,156 @@
+---
+layout: junkstore-default
+---
+
+<article class="js-page js-404">
+  <div class="js-container">
+    <div class="js-404__content">
+      <div class="js-404__icon">
+        <i class="fas fa-ghost"></i>
+      </div>
+      <h1 class="js-404__title">404</h1>
+      <p class="js-404__message">{{ page.message | default: "Oops! This page doesn't exist." }}</p>
+      <p class="js-404__submessage">{{ page.submessage | default: "The page you're looking for might have been moved or deleted." }}</p>
+
+      <div class="js-404__actions">
+        <a href="/" class="js-404__btn js-404__btn--primary">
+          <i class="fas fa-home"></i> Go Home
+        </a>
+        <a href="/help/" class="js-404__btn js-404__btn--secondary">
+          <i class="fas fa-question-circle"></i> Get Help
+        </a>
+      </div>
+
+      <div class="js-404__search">
+        <p>Or try searching:</p>
+        <form action="/search/" method="get">
+          <input type="text" name="q" placeholder="Search..." class="js-404__search-input">
+        </form>
+      </div>
+
+      {{ content }}
+    </div>
+  </div>
+</article>
+
+<style>
+.js-404 {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.js-404__content {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.js-404__icon {
+  font-size: 4rem;
+  color: #66bfff;
+  margin-bottom: 1rem;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.js-404__title {
+  font-size: 6rem;
+  font-weight: 800;
+  color: #66bfff;
+  margin: 0 0 1rem 0;
+  line-height: 1;
+}
+
+.js-404__message {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 0 0.5rem 0;
+}
+
+.js-404__submessage {
+  font-size: 1rem;
+  color: #999;
+  margin: 0 0 2rem 0;
+}
+
+.js-404__actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.js-404__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.js-404__btn--primary {
+  background: #66bfff;
+  color: #000;
+}
+
+.js-404__btn--primary:hover {
+  background: #cceeff;
+  transform: translateY(-2px);
+}
+
+.js-404__btn--secondary {
+  background: #1e2a38;
+  color: #ccc;
+  border: 1px solid #3a4a5c;
+}
+
+.js-404__btn--secondary:hover {
+  border-color: #66bfff;
+  color: #66bfff;
+  transform: translateY(-2px);
+}
+
+.js-404__search {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #3a4a5c;
+}
+
+.js-404__search p {
+  color: #888;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.js-404__search-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 16px;
+  background: #1e2a38;
+  border: 1px solid #3a4a5c;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.js-404__search-input:focus {
+  outline: none;
+  border-color: #66bfff;
+}
+
+.js-404__search-input::placeholder {
+  color: #666;
+}
+</style>

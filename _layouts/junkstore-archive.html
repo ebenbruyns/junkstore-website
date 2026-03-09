@@ -1,0 +1,173 @@
+---
+layout: junkstore-default
+---
+
+<article class="js-page js-archive">
+  <div class="js-container">
+    <header class="js-page__header">
+      <h1 class="js-page__title">{{ page.title }}</h1>
+      {% if page.excerpt %}
+        <p class="js-page__excerpt">{{ page.excerpt }}</p>
+      {% endif %}
+    </header>
+
+    <div class="js-archive__content">
+      {{ content }}
+
+      {% assign posts = page.posts | default: site.posts %}
+      {% if posts.size > 0 %}
+      <div class="js-archive__grid">
+        {% for post in posts %}
+        <article class="js-archive__item">
+          {% if post.image %}
+          <a href="{{ post.url | relative_url }}" class="js-archive__image">
+            <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+          </a>
+          {% endif %}
+          <div class="js-archive__item-content">
+            <div class="js-archive__meta">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+              {% if post.categories.first %}
+                <span class="js-archive__category">{{ post.categories.first }}</span>
+              {% endif %}
+            </div>
+            <h2 class="js-archive__item-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+            {% if post.excerpt %}
+            <p class="js-archive__excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+            {% endif %}
+          </div>
+        </article>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="js-archive__empty">
+        <p>No posts found in this category.</p>
+        <a href="/blog/" class="js-btn">View All Posts</a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</article>
+
+<style>
+.js-archive__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.js-archive__item {
+  background: #1e2a38;
+  border: 1px solid #3a4a5c;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.js-archive__item:hover {
+  border-color: #66bfff;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.js-archive__image {
+  display: block;
+  height: 160px;
+  overflow: hidden;
+}
+
+.js-archive__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.js-archive__item:hover .js-archive__image img {
+  transform: scale(1.05);
+}
+
+.js-archive__item-content {
+  padding: 1.25rem;
+}
+
+.js-archive__meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0.75rem;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.js-archive__category {
+  background: #66bfff;
+  color: #000;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.js-archive__item-title {
+  font-size: 1.1rem;
+  line-height: 1.35;
+  margin: 0 0 0.75rem 0;
+}
+
+.js-archive__item-title a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.js-archive__item-title a:hover {
+  color: #66bfff;
+}
+
+.js-archive__excerpt {
+  color: #aaa;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.js-archive__empty {
+  text-align: center;
+  padding: 3rem;
+  background: #1e2a38;
+  border-radius: 10px;
+  border: 1px solid #3a4a5c;
+}
+
+.js-archive__empty p {
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.js-btn {
+  display: inline-block;
+  background: #66bfff;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.js-btn:hover {
+  background: #cceeff;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .js-archive__grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
