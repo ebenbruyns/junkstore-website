@@ -1,14 +1,16 @@
 ---
-layout: single
+layout: junkstore-page
 title: "Junk Store Pro Status"
 description: "Junk Store Pro service status and uptime history for Steam Deck. Track our stability record, SteamOS update impact, and break history."
 excerpt: "Service status and uptime record for Junk Store Pro on Steam Deck"
 permalink: /status/
-toc: false
-classes: single
 ---
 
 <style>
+.page__title {
+  text-align: center;
+}
+
 .status-card {
   background: linear-gradient(135deg, #1a1d24 0%, #252a34 100%);
   border: 2px solid #2ecc71;
@@ -78,8 +80,8 @@ classes: single
 }
 
 .history-section h2 {
-  color: #66bfff;
-  border-bottom: 2px solid #66bfff;
+  color: #e67300;
+  border-bottom: 2px solid #444;
   padding-bottom: 0.5rem;
   margin-bottom: 1.5rem;
 }
@@ -91,10 +93,10 @@ classes: single
 
 #break-history-table th {
   background: #252a34;
-  color: #66bfff;
+  color: #e67300;
   padding: 0.75rem 1rem;
   text-align: left;
-  border-bottom: 2px solid #66bfff;
+  border-bottom: 2px solid #444;
 }
 
 #break-history-table td {
@@ -110,13 +112,13 @@ classes: single
 .info-section {
   margin-top: 3rem;
   padding: 1.5rem;
-  background: rgba(102, 191, 255, 0.1);
-  border-left: 4px solid #66bfff;
+  background: rgba(230, 115, 0, 0.1);
+  border-left: 4px solid #e67300;
   border-radius: 0 8px 8px 0;
 }
 
 .info-section h3 {
-  color: #66bfff;
+  color: #e67300;
   margin-top: 0;
 }
 

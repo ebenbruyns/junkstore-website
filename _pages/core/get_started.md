@@ -1,17 +1,9 @@
 ---
-layout: splash
+layout: junkstore-page
 title: "Junk Store Pro - Getting Started"
 description: "Quick start guide for Junk Store Pro on Steam Deck. Get up and running fast with links to full video and written installation guides."
 permalink: /get_started/
 excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.webp
-  actions:
-    - label: "Support Hub"
-      url: "/help/"
-      class: "button"
 ---
 
 <!-- DECKY COMPATIBILITY NOTE -->
