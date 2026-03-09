@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "New Feature: LSFG Frame Generation Now Built Into Junk Store"
 date: 2026-01-21 17:00:00 +1300
 categories: [Features, Feature Release]

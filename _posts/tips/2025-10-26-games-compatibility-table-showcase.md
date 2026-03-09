@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "🎮 Did You Know About Our Games Compatibility Table?"
 date: 2025-10-27
 categories: [Tip of the Week, Game Testing]

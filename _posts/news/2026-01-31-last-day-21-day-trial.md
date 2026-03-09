@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Last Day: Extended 21-Day Trial Ends Today"
 date: 2026-01-31
 categories: [News]

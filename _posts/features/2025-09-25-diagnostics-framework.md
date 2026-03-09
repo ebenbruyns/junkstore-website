@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Diagnostics Framework - Early R&D Release"
 date: 2025-09-25
 categories: [Feature Release, Beta Features]

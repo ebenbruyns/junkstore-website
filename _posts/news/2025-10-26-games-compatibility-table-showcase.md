@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "🎮 Take a Look at Our New Games Compatibility Table - What Do You Think?"
 date: 2025-10-27
 categories: [News, Game Testing]

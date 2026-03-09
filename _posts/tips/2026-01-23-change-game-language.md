@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Tip of the Week: Change Game Language with Environment Variables"
 date: 2026-01-28
 categories: [Tip of the Week, Decky Plugin]

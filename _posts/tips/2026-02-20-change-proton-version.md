@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Tip of the Week: Easily Change Proton Versions in Junk Store"
 date: 2026-02-21 17:50:00 +1300
 categories: [Tip of the Week, Universal]

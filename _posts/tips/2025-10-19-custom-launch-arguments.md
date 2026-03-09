@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Tip of the Week: Custom Launch Arguments"
 date: 2025-10-19
 categories: [Tip of the Week, Universal]

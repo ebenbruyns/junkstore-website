@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "GOG Extension v0.1.9 Update - Flatpak Update, Umu ID Fix & Portal Migration"
 date: 2025-09-17 12:00:00 +1300
 categories: [News, GOG Extension]

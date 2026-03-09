@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Tip of the Week: Play Epic Games Offline"
 date: 2026-02-28 09:00:00 +1300
 categories: [Tip of the Week, Universal]

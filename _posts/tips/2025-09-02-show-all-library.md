@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Tip of the Week: Missing the 'Press Y to Show All' Prompt"
 date: 2025-09-02
 categories: [Tip of the Week, Decky Plugin]

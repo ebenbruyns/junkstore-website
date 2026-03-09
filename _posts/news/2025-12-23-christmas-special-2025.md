@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Junk Store Pro Holiday Deal: Use Code JUNKMAS25 for 25% Off"
 date: 2025-12-23
 categories: [News, Promotion]

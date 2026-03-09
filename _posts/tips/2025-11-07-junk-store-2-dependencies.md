@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Tip of the Week: Easily Install Game Dependencies with Junk Store Pro"
 date: 2025-11-05
 categories: [Tip of the Week, Pro Version]

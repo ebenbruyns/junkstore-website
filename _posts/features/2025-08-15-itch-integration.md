@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Now You Can Scratch That Itch — Itch.io Comes to Steam via Junk Store"
 date: 2025-08-15
 categories: [Feature Release, Major Update]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "GOG Extension Moving to Portal-Only Sales"
 date: 2025-11-04 12:00:00 +1300
 categories: [News, GOG Extension]

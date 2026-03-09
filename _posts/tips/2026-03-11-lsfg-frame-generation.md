@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Tip of the Week: Enable LSFG Frame Generation in Junk Store"
 date: 2026-03-11 12:00:00 +1300
 published: false
