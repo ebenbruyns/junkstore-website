@@ -22,7 +22,7 @@ sitemap: false
     <span class="countdown-text">Redirecting in <span id="countdown">5</span> seconds...</span>
   </div>
 
-  <p class="steps-intro" style="text-align: center;">What happens next:</p>
+  <p class="steps-intro">What happens next:</p>
 
   <div class="steps-container">
     <div class="step">
@@ -49,119 +49,6 @@ sitemap: false
   </div>
 
 </div>
-
-<style>
-.interstitial-container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 1rem;
-  text-align: center;
-}
-
-.steps-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-}
-
-.step {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.5rem;
-  text-align: center;
-}
-
-.step-icon {
-  width: 36px;
-  height: 36px;
-  background: #28a745;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #fff;
-}
-
-.step-label {
-  color: #ccc;
-  font-size: 0.85rem;
-}
-
-.step-arrow {
-  color: #666;
-  font-size: 1.25rem;
-  margin: 0 0.25rem;
-}
-
-.countdown-section {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.skip-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 1.5rem;
-}
-
-.countdown-text {
-  color: #66bfff;
-  font-size: 1rem;
-}
-
-#countdown {
-  font-weight: bold;
-}
-
-.skip-checkbox {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  color: #888;
-  font-size: 0.85rem;
-  cursor: pointer;
-}
-
-.skip-checkbox input {
-  width: 16px;
-  height: 16px;
-  cursor: pointer;
-}
-
-.steps-intro {
-  color: #aaa;
-  font-size: 0.9rem;
-  margin-bottom: 0.5rem;
-  text-align: center;
-}
-
-@media (max-width: 480px) {
-  .steps-container {
-    gap: 0.5rem;
-  }
-
-  .step-icon {
-    width: 32px;
-    height: 32px;
-    font-size: 0.9rem;
-  }
-
-  .step-label {
-    font-size: 0.75rem;
-  }
-
-  .step-arrow {
-    font-size: 1rem;
-  }
-}
-</style>
 
 <script>
 (function() {

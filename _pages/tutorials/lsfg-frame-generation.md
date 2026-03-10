@@ -103,59 +103,8 @@ If you run into trouble, check out:
 
 Still stuck? Ask for help:
 <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
-  <i class="fab fa-discord" style="margin-right: 6px;"></i> Discord
+  <i class="fab fa-discord"></i> Discord
 </a>
 <a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
-  <i class="fab fa-reddit" style="margin-right: 6px;"></i> Reddit
+  <i class="fab fa-reddit"></i> Reddit
 </a>
-
-
-<style>
-.page__content {
-  text-align: left;
-}
-
-.page__content h2,
-.page__content h3,
-.page__content h4,
-.page__content h5,
-.page__content h6,
-.page__content p,
-.page__content ul,
-.page__content ol,
-.page__content blockquote {
-  text-align: left;
-}
-
-.community-btn {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 12px;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 13px;
-  transition: all 0.2s ease;
-  border: 2px solid transparent;
-  margin-left: 8px;
-  color: white;
-}
-
-.discord-btn {
-  background: #5865f2;
-  color: white !important;
-}
-
-.reddit-btn {
-  background: #ff4500;
-  color: white !important;
-}
-
-.community-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  color: white;
-  opacity: 0.9;
-}
-</style>
