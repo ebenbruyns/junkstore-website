@@ -1,14 +1,16 @@
 ---
-layout: junkstore-post
+layout: post
 title: "Tip of the Week: Download Anti-Cheat Dependencies for EAC and BattlEye"
 date: 2026-03-04 15:10:00 +1300
 categories: [Tip of the Week, Features]
 tags: [junk-store, steam-deck, tips]
 slug: "anticheat-dependencies-tip"
 excerpt: "Easily download Easy Anti-Cheat and BattlEye dependencies with simple toggles in Junk Store. Get games like Fall Guys running on your Steam Deck!"
+image: /assets/images/tips/anticheat/dependencies-not-installed.webp
 read_time: "3 min read"
 toc: true
 header:
+  teaser: /assets/images/tips/anticheat/dependencies-not-installed.webp
   og_image: /assets/images/tips/anticheat/dependencies-not-installed.webp
 ---
 
