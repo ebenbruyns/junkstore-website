@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 71,
+  "total_games": 72,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -51,6 +51,7 @@
     "stunt-kite-party.json",
     "subterrain-mines-of-titan.json",
     "surf-world-series.json",
+    "tavern-talk.json",
     "technotopia.json",
     "the-abandoned-planet.json",
     "the-academy-the-first-riddle.json",
@@ -74,37 +75,25 @@
     "youtubers-life-2.json",
     "zombies-ate-my-neighbors-and-ghoul-patrol.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2026-02-06T22:26:13.160Z",
+  "featured_games": 0,
+  "last_updated": "2026-03-09T05:58:47.030Z",
   "latest_games": [
     {
-      "title": "Dread Templar",
-      "slug": "dread-templar",
+      "title": "Tavern Talk",
+      "slug": "tavern-talk",
       "date_tested": "Feb '26",
-      "is_featured": true
-    },
-    {
-      "title": "Technotopia",
-      "slug": "technotopia",
-      "date_tested": "Jan '26",
       "is_featured": false
     },
     {
-      "title": "The Invisible Hand",
-      "slug": "the-invisible-hand",
-      "date_tested": "Jan '26",
+      "title": "Tormented Souls",
+      "slug": "tormented-souls",
+      "date_tested": "Oct '25",
       "is_featured": false
     },
     {
-      "title": "Giana Sisters: Twisted Dreams",
-      "slug": "giana-sisters-twisted-dreams",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Scarf",
-      "slug": "scarf",
-      "date_tested": "Dec '25",
+      "title": "Werewolf: The Apocalypse — Heart of the Forest",
+      "slug": "werewolf-the-apocalypse-heart-of-the-forest",
+      "date_tested": "Oct '25",
       "is_featured": false
     },
     {
@@ -114,26 +103,38 @@
       "is_featured": false
     },
     {
-      "title": "Everdream Valley",
-      "slug": "everdream-valley",
-      "date_tested": "Dec '25",
+      "title": "Technotopia",
+      "slug": "technotopia",
+      "date_tested": "Jan '26",
       "is_featured": false
     },
     {
-      "title": "Faraway: Director's Cut",
-      "slug": "faraway-directors-cut",
-      "date_tested": "Dec '25",
+      "title": "Afterimage",
+      "slug": "afterimage",
+      "date_tested": "Sep '25",
       "is_featured": false
     },
     {
-      "title": "Gravity Circuit",
-      "slug": "gravity-circuit",
-      "date_tested": "Dec '25",
+      "title": "Subterrain: Mines of Titan",
+      "slug": "subterrain-mines-of-titan",
+      "date_tested": "Sep '25",
       "is_featured": false
     },
     {
-      "title": "Heaven Dust 2",
-      "slug": "heaven-dust-2",
+      "title": "Pixel Cafe",
+      "slug": "pixel-cafe",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "The Academy: The First Riddle",
+      "slug": "the-academy-the-first-riddle",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Surf World Series",
+      "slug": "surf-world-series",
       "date_tested": "Dec '25",
       "is_featured": false
     }

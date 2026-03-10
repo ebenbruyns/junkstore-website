@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "828b2ff07ee548f59b7e172b4b4c9686",
+  "shortname": "828b2ff07ee548f59b7e172b4b4c9686",
   "publisher": "Total Mayhem Games",
   "developer": "Total Mayhem Games",
   "releasedate": "",
@@ -64,5 +64,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-27T20:06:45.079Z",
-  "updated_at": "2025-12-30T02:35:12.817Z"
+  "updated_at": "2026-02-07T22:06:38.394Z"
 }

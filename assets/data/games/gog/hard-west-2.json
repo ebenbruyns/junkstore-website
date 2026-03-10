@@ -6,14 +6,14 @@
   "gog_url": "https://www.gog.com/en/game/hard_west_2",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
-  "notes": "Change controller mapping.",
-  "date_tested": "Aug '24",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Hard_West_2",
+  "notes": "Works out of the box. May need to change controller mapping.",
+  "date_tested": "Feb '26",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -27,7 +27,7 @@
   "required_launcher": "",
   "requires_account_setup": false,
   "account_type": "",
-  "controller_input": "",
+  "controller_input": "keyboard-mouse",
   "community_layout": false,
   "cant_test_linux": false,
   "databaseId": "1345516108",
@@ -46,7 +46,15 @@
     "Single player"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French",
+    "Italian",
+    "German",
+    "Spanish - Spain",
+    "Polish",
+    "Portuguese - Brazil",
+    "Russian",
+    "Simplified Chinese*languages with full audio support"
   ],
   "gog_cloud_saves": false,
   "gog_achievements": false,
@@ -55,5 +63,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-04T06:39:01.869Z"
+  "updated_at": "2026-03-01T22:51:09.337Z"
 }

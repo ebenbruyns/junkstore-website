@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 360,
+  "total_games": 364,
   "games": [
     "60-parsecs.json",
     "9-years-of-shadows.json",
@@ -14,6 +14,7 @@
     "alan-wakes-american-nightmare.json",
     "alders-blood-prologue.json",
     "alwas-awakening.json",
+    "ambition-a-minuet-in-power.json",
     "amerzone-the-explorers-legacy-1999.json",
     "amid-evil.json",
     "amnesia-a-machine-for-pigs.json",
@@ -60,6 +61,7 @@
     "call-of-juarez-bound-in-blood.json",
     "call-of-juarez-gunslinger.json",
     "call-of-juarez.json",
+    "captain-blood.json",
     "cat-quest-ii.json",
     "cayne.json",
     "chained-echoes.json",
@@ -72,7 +74,6 @@
     "crusader-kings-ii.json",
     "cuphead.json",
     "cursed-to-golf.json",
-    "cyberpunk-2077-ultimate-edition.json",
     "cyberpunk-2077.json",
     "dagon-by-h-p-lovecraft.json",
     "dark-deity.json",
@@ -113,7 +114,7 @@
     "fall-of-porcupine.json",
     "fallout-2-a-post-nuclear-role-playing-game.json",
     "fallout-3-game-of-the-year-edition.json",
-    "fallout-4.json",
+    "fallout-4-game-of-the-year-edition.json",
     "fallout-a-post-nuclear-role-playing-game.json",
     "fallout-new-vegas-ultimate-edition.json",
     "fantasy-empires.json",
@@ -143,7 +144,7 @@
     "greedfall.json",
     "grim-dawn-definitive-edition.json",
     "grip.json",
-    "gunslugs-rogue-tactics.json",
+    "gunslugs-3-rogue-tactics.json",
     "gunslugs.json",
     "hammerting.json",
     "hard-west-2.json",
@@ -173,6 +174,7 @@
     "intravenous.json",
     "iratus-lord-of-the-dead.json",
     "iris-and-the-giant.json",
+    "jdm-rise-of-the-scorpion.json",
     "jupiter-hell.json",
     "kerbal-space-program.json",
     "king-of-seas.json",
@@ -191,6 +193,7 @@
     "little-nightmares.json",
     "loop-hero.json",
     "lords-of-midnight.json",
+    "lorelai.json",
     "lovecrafts-untold-stories.json",
     "lust-theory-season-1.json",
     "mafia-definitive-edition.json",
@@ -274,7 +277,6 @@
     "spells-secrets.json",
     "spelunky-classic.json",
     "star-wars-battlefront-ii-classic-2005.json",
-    "star-wars-battlefront-ii.json",
     "star-wars-bounty-hunter.json",
     "star-wars-galactic-battlegrounds-saga.json",
     "star-wars-jedi-knight-dark-forces-ii-mysteries-of-the-sith.json",
@@ -365,67 +367,67 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2026-02-06T22:26:13.156Z",
+  "featured_games": 0,
+  "last_updated": "2026-03-09T05:58:47.020Z",
   "latest_games": [
     {
-      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
-      "slug": "the-witcher-2-assassins-of-kings-enhanced-edition",
-      "date_tested": "Feb '26",
-      "is_featured": true
-    },
-    {
-      "title": "Deus Ex: Mankind Divided",
-      "slug": "deus-ex-mankind-divided",
-      "date_tested": "Feb '26",
+      "title": "Intravenous",
+      "slug": "intravenous",
+      "date_tested": "Mar '26",
       "is_featured": false
     },
     {
-      "title": "STAR WARS™ Jedi Knight: Dark Forces II",
-      "slug": "star-wars-jedi-knight-dark-forces-ii",
-      "date_tested": "Feb '26",
+      "title": "Haven Park",
+      "slug": "haven-park",
+      "date_tested": "Mar '26",
       "is_featured": false
     },
     {
-      "title": "STAR WARS™ Galactic Battlegrounds Saga",
-      "slug": "star-wars-galactic-battlegrounds-saga",
+      "title": "Forager",
+      "slug": "forager",
       "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "Deep Sky Derelicts",
-      "slug": "deep-sky-derelicts",
+      "title": "Hard West 2",
+      "slug": "hard-west-2",
       "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
-      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
-      "date_tested": "July '24",
+      "title": "Figment",
+      "slug": "figment",
+      "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "ELDERBORN",
-      "slug": "elderborn",
-      "date_tested": "Jan '26",
+      "title": "Flashout 3D: Enhanced Edition",
+      "slug": "flashout-3d-enhanced-edition",
+      "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "Fall of Porcupine",
-      "slug": "fall-of-porcupine",
-      "date_tested": "Jan '26",
+      "title": "Captain Blood",
+      "slug": "captain-blood",
+      "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "Gravewood High",
-      "slug": "gravewood-high",
-      "date_tested": "Jan '26",
+      "title": "Ambition: A Minuet in Power",
+      "slug": "ambition-a-minuet-in-power",
+      "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "Neurodeck : Psychological Deckbuilder",
-      "slug": "neurodeck-psychological-deckbuilder",
-      "date_tested": "Jan '26",
+      "title": "JDM: Rise of the Scorpion",
+      "slug": "jdm-rise-of-the-scorpion",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Lorelai",
+      "slug": "lorelai",
+      "date_tested": "Feb '26",
       "is_featured": false
     }
   ]
