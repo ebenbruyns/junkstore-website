@@ -399,12 +399,6 @@ body.home h1:not(.page__title):not(.js-hero__title) {
   border-radius: 8px;
   padding: 1.25rem 1rem;
   text-align: center;
-  transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-.js-splash .explainer-feature:hover {
-  transform: translateY(-3px);
-  border-color: $junkstore-primary;
 }
 
 .js-splash .explainer-feature .feature-icon {

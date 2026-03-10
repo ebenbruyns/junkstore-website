@@ -244,14 +244,7 @@
   border: 1px solid $junkstore-border;
   border-radius: 8px;
   padding: 1.25rem;
-  transition: all 0.2s ease;
   text-align: left;
-
-  &:hover {
-    border-color: $junkstore-primary;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba($junkstore-primary, 0.15);
-  }
 
   h3 {
     color: $junkstore-accent;

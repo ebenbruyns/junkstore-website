@@ -394,13 +394,16 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    transition: all 0.2s ease;
-    cursor: pointer;
     text-decoration: none;
     user-select: none;
 }
 
-.featured-entry:hover {
+.featured-entry.clickable {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.featured-entry.clickable:hover {
     background-color: #3e5068;
     transform: translateY(-1px);
 }
