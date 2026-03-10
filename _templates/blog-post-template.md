@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "[TITLE HERE - Include version numbers, key features, or main benefit]"
 date: 2025-MM-DD 12:00:00 +1300
 categories: [News, GOG Extension] # Options: [News], [Weekly Update, Game Compatibility], [Features], [Tips]
