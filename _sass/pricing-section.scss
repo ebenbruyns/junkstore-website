@@ -49,7 +49,7 @@
 
   li {
     color: #cceeff;
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
     margin-bottom: 0.5rem;
 
     &::before {
@@ -79,7 +79,7 @@
 }
 
 .discount-text {
-  font-size: 0.9rem;
+  font-size: $type-size-body-small;
   color: #28a745;
   background-color: rgba(40, 167, 69, 0.1);
   padding: 0.5rem 1rem;
@@ -187,7 +187,7 @@
   }
   
   .trial-text {
-    font-size: 1.1rem; /* Larger trial text for mobile readability */
+    font-size: $type-size-body-large; /* Larger trial text for mobile readability */
     margin-bottom: 1rem;
     line-height: 1.4;
   }
@@ -208,7 +208,7 @@
   }
   
   .fence-text {
-    font-size: 1.1rem; /* Larger fence text for mobile */
+    font-size: $type-size-body-large; /* Larger fence text for mobile */
     margin-bottom: 1.5rem;
     line-height: 1.4;
     padding: 0 0.5rem;
@@ -227,7 +227,7 @@
     max-width: 280px;
     margin: 0.75rem 0;
     padding: 1.1rem 1.5rem; /* Match base mobile button padding */
-    font-size: 1.1rem; /* Match base mobile button font size */
+    font-size: $type-size-body-large; /* Match base mobile button font size */
     min-height: 50px; /* Match base mobile button min-height */
     border-radius: 8px;
     font-weight: 600;
@@ -277,7 +277,7 @@
   text-align: center;
 
   h3 {
-    font-size: 1.8rem;
+    font-size: $type-size-section;
     margin-top: 0;
     margin-bottom: 1.5rem;
     color: #ffa366;
@@ -287,7 +287,7 @@
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
     color: #e8e8e8;
     margin-bottom: 1rem;
     line-height: 1.6;
@@ -300,7 +300,7 @@
   }
 
   .value-unlock {
-    font-size: 1.2rem;
+    font-size: $type-size-label;
     color: #ffa366;
     font-weight: 600;
     margin-top: 1.5rem;
@@ -333,7 +333,7 @@
     }
 
     .value-unlock {
-      font-size: 1.1rem;
+      font-size: $type-size-body-large;
       padding: 0.875rem;
       margin-top: 1rem;
     }
@@ -348,7 +348,7 @@
   max-width: 800px;
 
   .cta-prompt {
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
     color: #e8e8e8;
     margin-bottom: 1rem;
     font-weight: 500;

@@ -39,7 +39,7 @@
 
   h2 {
     color: $junkstore-primary;
-    font-size: 1.8rem;
+    font-size: $type-size-section;
     margin-top: 0;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -68,7 +68,7 @@
   h4 {
     color: $junkstore-primary;
     margin-bottom: 0.75rem;
-    font-size: 1.2rem;
+    font-size: $type-size-label;
     font-weight: bold;
     margin-top: 0;
   }
@@ -109,7 +109,7 @@
   h3 {
     color: $junkstore-primary;
     margin-bottom: 0.5rem;
-    font-size: 1.2rem;
+    font-size: $type-size-label;
     font-weight: bold;
   }
 }
@@ -123,14 +123,14 @@
 
   h2 {
     color: $junkstore-primary;
-    font-size: 1.8rem;
+    font-size: $type-size-section;
     margin-bottom: 1rem;
     font-weight: bold;
   }
 }
 
 .table-intro {
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   margin-bottom: 2rem;
   color: $junkstore-gray-text;
 }
@@ -154,7 +154,7 @@
     font-weight: 600;
     border-bottom: 2px solid $junkstore-primary;
     color: $white;
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
   }
 
   td {
@@ -222,7 +222,7 @@
 
 .gif-popup p {
   color: $junkstore-gray-text;
-  font-size: 0.9rem;
+  font-size: $type-size-body-small;
   margin: 0;
 }
 
@@ -238,7 +238,7 @@
   h2 {
     text-align: center;
     color: $junkstore-primary;
-    font-size: 1.8rem;
+    font-size: $type-size-section;
     margin-bottom: 1rem;
     font-weight: bold;
     margin-top: 0;
@@ -263,7 +263,7 @@
   h4 {
     color: $junkstore-primary;
     margin-bottom: 0.5rem;
-    font-size: 1.2rem;
+    font-size: $type-size-label;
     font-weight: bold;
     margin-top: 0;
   }
@@ -286,7 +286,7 @@
 
   h2 {
     color: $junkstore-primary;
-    font-size: 1.8rem;
+    font-size: $type-size-section;
     margin-bottom: 2rem;
     font-weight: bold;
   }
@@ -309,7 +309,7 @@
   flex: 1;
   max-width: 600px;
   min-width: 500px;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
 
   &.featured {
     border: 2px solid $junkstore-primary;
@@ -327,7 +327,7 @@
 
   p {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
     margin: 1rem 0;
     color: $junkstore-light-text;
   }
@@ -375,7 +375,7 @@
 
 .cta-box {
   h2 {
-    font-size: 2rem;
+    font-size: $type-size-hero;
     margin-bottom: 1rem;
     margin-top: 0;
     color: $junkstore-primary;
@@ -384,7 +384,7 @@
 
   p {
     color: $junkstore-light-text;
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
     line-height: 1.5;
     margin-bottom: 1rem;
   }
@@ -404,12 +404,12 @@
 
 .button.large {
   padding: 1rem 2rem;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
 }
 
 .guarantee {
   color: $junkstore-gray-text;
-  font-size: 0.9rem;
+  font-size: $type-size-body-small;
   margin-top: 1rem;
 }
 
@@ -419,11 +419,11 @@
 
 @media (max-width: 768px) {
   .comparison-hero h1 {
-    font-size: 2rem;
+    font-size: $type-size-hero;
   }
 
   .lead-text {
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
   }
 
   .comparison-table-section {
@@ -454,7 +454,7 @@
     td {
       display: table-cell;
       padding: 0.75rem 0.5rem;
-      font-size: 0.9rem;
+      font-size: $type-size-body-small;
       vertical-align: top;
       word-wrap: break-word;
     }
@@ -543,12 +543,12 @@
 
 @media (max-width: 480px) {
   .comparison-table {
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
 
     th,
     td {
       padding: 0.75rem 0.5rem;
-      font-size: 0.9rem;
+      font-size: $type-size-body-small;
     }
   }
 

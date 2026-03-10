@@ -42,7 +42,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .differentiator-item h3 {
   color: $junkstore-accent;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   margin-bottom: 1rem;
   text-align: center;
   margin-top: 0;
@@ -91,7 +91,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
   border: 1px solid rgba(102, 191, 255, 0.3);
   border-radius: 8px;
   padding: 1.5rem;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   color: $junkstore-light-text;
   margin-bottom: 2rem;
 }
@@ -113,7 +113,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 .js-splash .primary-cta p {
   color: $junkstore-light-text;
   margin: 0 0 1.5rem 0;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
 }
 
 .js-splash .primary-cta .cta-buttons {
@@ -234,7 +234,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .key-features h2 {
   color: $junkstore-primary;
-  font-size: 1.8rem;
+  font-size: $type-size-section;
   margin-top: 0;
   margin-bottom: 1rem;
   font-weight: bold;
@@ -254,7 +254,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
   border-radius: 8px;
   border: 1px solid #444;
   color: $junkstore-light-text;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   font-weight: 500;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   text-align: left;
@@ -262,7 +262,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .feature h3 {
   color: $junkstore-accent;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   margin: 0 0 1rem 0;
   text-align: center;
 }
@@ -296,13 +296,13 @@ body.home h1:not(.page__title):not(.js-hero__title) {
   }
 
   .js-splash .feature h3 {
-    font-size: 1.2rem; /* Larger headers on mobile */
+    font-size: $type-size-label; /* Larger headers on mobile */
   }
 }
 
 .js-splash .feature-detail {
   display: block;
-  font-size: 0.9rem;
+  font-size: $type-size-body-small;
   color: #b8b8b8;
   font-weight: 400;
   margin-top: 0.5rem;
@@ -325,14 +325,14 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .final-cta h2 {
   color: $junkstore-primary;
-  font-size: 2rem;
+  font-size: $type-size-hero;
   margin-bottom: 1rem;
   font-weight: bold;
 }
 
 .js-splash .final-cta p {
   color: $junkstore-light-text;
-  font-size: 1.2rem;
+  font-size: $type-size-label;
   margin-bottom: 2rem;
   line-height: 1.4;
 }
@@ -373,13 +373,13 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .what-is-junkstore h2 {
   color: $junkstore-primary;
-  font-size: 1.8rem;
+  font-size: $type-size-section;
   margin-bottom: 0.75rem;
   margin-top: 0;
 }
 
 .js-splash .what-is-junkstore .explainer-lead {
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   line-height: 1.6;
   color: $junkstore-light-text;
   max-width: 800px;
@@ -416,13 +416,13 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .explainer-feature p {
   color: #b8b8b8;
-  font-size: 0.9rem;
+  font-size: $type-size-body-small;
   line-height: 1.4;
   margin: 0;
 }
 
 .js-splash .supported-storefronts {
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   color: #b8b8b8;
   margin-bottom: 0.5rem;
   text-align: center;
@@ -478,7 +478,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
   }
 
   .js-splash .explainer-feature h3 {
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
   }
 
   .js-splash .explainer-cta {
@@ -566,7 +566,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 }
 
 .js-splash .seo-intro p {
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   line-height: 1.6;
   margin: 0;
   color: $junkstore-light-text;
@@ -601,7 +601,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .screenshot-text p {
   color: $junkstore-light-text;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   line-height: 1.5;
   margin: 0;
 }
@@ -628,7 +628,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .competitive-comparison h2 {
   color: $junkstore-primary;
-  font-size: 1.8rem;
+  font-size: $type-size-section;
   text-align: center;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
@@ -651,7 +651,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .comparison-item h4 {
   color: $junkstore-primary;
-  font-size: 1.2rem;
+  font-size: $type-size-label;
   margin-bottom: 1rem;
   font-weight: bold;
 }
@@ -673,7 +673,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .comparison-conclusion p {
   color: $junkstore-light-text;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   font-weight: 500;
   margin: 0;
 }
@@ -695,7 +695,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .competitive-advantages h2 {
   color: $junkstore-primary;
-  font-size: 1.8rem;
+  font-size: $type-size-section;
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: bold;
@@ -721,7 +721,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .advantage-item h4 {
   color: $junkstore-primary;
-  font-size: 1.2rem;
+  font-size: $type-size-label;
   margin-bottom: 1rem;
   font-weight: bold;
   margin-top: 0;
@@ -749,7 +749,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .where-to-find h2 {
   color: $junkstore-primary;
-  font-size: 1.8rem;
+  font-size: $type-size-section;
   margin-bottom: 1.5rem;
   font-weight: bold;
   margin-top: 0;
@@ -757,7 +757,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .where-to-find p {
   color: $junkstore-light-text;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   line-height: 1.5;
   margin-bottom: 1.5rem;
   max-width: 800px;
@@ -783,7 +783,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 
 .js-splash .gog-extension h2 {
   color: $junkstore-primary;
-  font-size: 1.8rem;
+  font-size: $type-size-section;
   margin-bottom: 1.5rem;
   font-weight: bold;
   margin-top: 0;
@@ -793,7 +793,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
 .js-splash .gog-extension p,
 .js-splash .gog-extension div {
   color: $junkstore-light-text;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   line-height: 1.5;
   margin-bottom: 1.5rem;
 }
@@ -820,7 +820,7 @@ body.home h2 {
   margin: 0.5rem auto 0.5rem auto;
   padding: 0 1.5rem;
   color: $junkstore-primary;
-  font-size: 2rem;
+  font-size: $type-size-hero;
   text-align: center;
   font-weight: bold;
   display: block;
@@ -877,7 +877,7 @@ body.home h2 {
   }
 
   .js-splash .comparison-item h4 {
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
   }
 
   .js-splash .comparison-conclusion {
@@ -896,7 +896,7 @@ body.home h2 {
 
   .js-splash .problem-box h2,
   .js-splash .solution-box h2 {
-    font-size: 1.2rem;
+    font-size: $type-size-label;
   }
 
   .js-splash .key-features {
@@ -954,7 +954,7 @@ body.home h2 {
     max-width: 280px;
     margin: 0.5rem 0;
     padding: 1rem 1.5rem;
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
     min-height: 50px;
     border-radius: 8px;
     font-weight: 600;
@@ -984,7 +984,7 @@ body.home h2 {
   }
 
   .js-splash .advantage-item h4 {
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
   }
 
   .js-splash .where-to-find {
