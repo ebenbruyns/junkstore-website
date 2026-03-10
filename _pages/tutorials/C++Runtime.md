@@ -11,7 +11,7 @@ difficulty: "Intermediate"
 
 <h2 class="centered-header">How to Install the C++ Runtime</h2>
 
-<p style="text-align: center;">Fix game crashes and missing DLL errors when Protontricks doesn't work.</p>
+<p class="text-center">Fix game crashes and missing DLL errors when Protontricks doesn't work.</p>
 
 <div class="install-guide">
 
@@ -59,7 +59,7 @@ difficulty: "Intermediate"
 
 ---
 
-<h3 style="margin-top: 2rem;">Extra Tips If the Game Still Isn't Working</h3>
+<h3>Extra Tips If the Game Still Isn't Working</h3>
 
 <ul>
 <li><strong>Check <a href="https://www.protondb.com" target="_blank" rel="noopener">ProtonDB.com</a></strong> — Other players often share which Proton version works best or if extra steps are needed.</li>
@@ -70,15 +70,15 @@ difficulty: "Intermediate"
 
 ---
 
-<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
-<h3 style="margin-top: 0; color: #e74c3c;">Stuck or need help?</h3>
+<div class="js-callout js-callout--help">
+<h3>Stuck or need help?</h3>
 <p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
 
 <p><strong>Quick fixes for common issues:</strong></p>
-<ul style="margin-left: 1rem;">
-<li><a href="/faq/" style="color: #66bfff;">FAQ</a> - General questions</li>
-<li><a href="/troubleshooting/" style="color: #66bfff;">Troubleshooting</a> - Common issues</li>
+<ul>
+<li><a href="/faq/">FAQ</a> - General questions</li>
+<li><a href="/troubleshooting/">Troubleshooting</a> - Common issues</li>
 </ul>
 
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> for community support.</p>
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>
 </div>

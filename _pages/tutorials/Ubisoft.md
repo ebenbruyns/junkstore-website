@@ -11,9 +11,9 @@ difficulty: "Advanced"
 
 <h2 class="centered-header">How to Play Ubisoft Games in Junk Store</h2>
 
-<p style="text-align: center;">Install Ubisoft Connect and launch Ubisoft games through Epic Games Store.</p>
+<p class="text-center">Install Ubisoft Connect and launch Ubisoft games through Epic Games Store.</p>
 
-<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<div class="js-callout js-callout--warning">
 <strong>Note:</strong> Junk Store relies on Legendary to pick these games up and show them in your Epic Games libraries. Not all Ubisoft titles currently work through Junk Store. If you are planning to purchase any, do so at your own risk or with the understanding that you may need to play these games using another method.
 </div>
 
@@ -33,9 +33,9 @@ difficulty: "Advanced"
 
 ---
 
-<h3 style="margin-top: 2rem;">Installing Ubisoft Connect Launcher</h3>
+<h3>Installing Ubisoft Connect Launcher</h3>
 
-<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<div class="js-callout js-callout--warning">
 <strong>Important:</strong> If you keep getting pushed back to the game screen and nothing happens, check that <em>Proton Compatibility</em> is <strong>enabled</strong>. If this isn't toggled on, you won't be able to install the Ubisoft Connect launcher. See the <a href="/tutorials/proton-versions">How to Check/Change Proton Version</a> guide.
 </div>
 
@@ -90,7 +90,7 @@ difficulty: "Advanced"
 
 ---
 
-<h3 style="margin-top: 2rem;">Ubisoft Connect Login</h3>
+<h3>Ubisoft Connect Login</h3>
 
 <p>You will be asked to log in to Ubisoft Connect. You'll need an account - if you don't have one, you can create one at this time.</p>
 
@@ -131,7 +131,7 @@ difficulty: "Advanced"
 
 ---
 
-<h3 style="margin-top: 2rem;">Launch and Install the Game</h3>
+<h3>Launch and Install the Game</h3>
 
 <div class="install-guide">
 <ol>
@@ -180,15 +180,15 @@ difficulty: "Advanced"
 
 ---
 
-<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
-<h3 style="margin-top: 0; color: #e74c3c;">Stuck or need help?</h3>
+<div class="js-callout js-callout--help">
+<h3>Stuck or need help?</h3>
 <p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
 
 <p><strong>Quick fixes for common issues:</strong></p>
-<ul style="margin-left: 1rem;">
-<li><a href="/faq/" style="color: #66bfff;">FAQ</a> - General questions</li>
-<li><a href="/troubleshooting/" style="color: #66bfff;">Troubleshooting</a> - Common issues</li>
+<ul>
+<li><a href="/faq/">FAQ</a> - General questions</li>
+<li><a href="/troubleshooting/">Troubleshooting</a> - Common issues</li>
 </ul>
 
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> for community support.</p>
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>
 </div>

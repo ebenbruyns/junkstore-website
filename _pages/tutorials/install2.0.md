@@ -8,7 +8,7 @@ permalink: /tutorials/install-junk-store-2
 
 <h2 class="centered-header">How to Install Junk Store Pro</h2>
 
-<p style="text-align: center;">Prefer a video tutorial? <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener">Watch on YouTube</a></p>
+<p class="text-center">Prefer a video tutorial? <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener">Watch on YouTube</a></p>
 
 <div class="install-guide">
 <ol>
@@ -86,17 +86,17 @@ Your saves and settings will carry over automatically.
 
 ---
 
-<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
-<h3 style="margin-top: 0; color: #e74c3c;">🆘 Stuck or need help?</h3>
+<div class="js-callout js-callout--help">
+<h3>🆘 Stuck or need help?</h3>
 <p><strong>Need setup help? We're here for you!</strong> Most installation issues are quick fixes we can resolve in minutes.</p>
 
 <p><strong>Quick fixes for common issues:</strong></p>
-<ul style="margin-left: 1rem;">
-<li><a href="/troubleshooting/?filter=pro#3b04c412-e7be-4e3a-9322-b4adc4f8ad3f" style="color: #66bfff;">Installation not completing</a> - If the installer seems stuck</li>
-<li><a href="/troubleshooting/?filter=pro#e0849426-5126-41b8-bad7-45d61b3da1f1" style="color: #66bfff;">Executable won't run</a> - If Junk Store won't start</li>
-<li><a href="/faq/?filter=pro" style="color: #66bfff;">FAQ</a> - General usage questions</li>
-<li><a href="/troubleshooting/?filter=pro" style="color: #66bfff;">Troubleshooting</a> - All Pro version issues</li>
+<ul>
+<li><a href="/troubleshooting/?filter=pro#3b04c412-e7be-4e3a-9322-b4adc4f8ad3f">Installation not completing</a> - If the installer seems stuck</li>
+<li><a href="/troubleshooting/?filter=pro#e0849426-5126-41b8-bad7-45d61b3da1f1">Executable won't run</a> - If Junk Store won't start</li>
+<li><a href="/faq/?filter=pro">FAQ</a> - General usage questions</li>
+<li><a href="/troubleshooting/?filter=pro">Troubleshooting</a> - All Pro version issues</li>
 </ul>
 
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> and post in <strong>v2-support</strong> channel.</p>
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> and post in <strong>v2-support</strong> channel.</p>
 </div>

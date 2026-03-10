@@ -11,9 +11,9 @@ difficulty: "Beginner"
 
 <h2 class="centered-header">How to Install Junk Store Decky Plugin</h2>
 
-<p style="text-align: center;">Prefer a video tutorial? <a href="https://www.youtube.com/watch?v=tgc7yiKtpW0" target="_blank" rel="noopener">Watch on YouTube</a></p>
+<p class="text-center">Prefer a video tutorial? <a href="https://www.youtube.com/watch?v=tgc7yiKtpW0" target="_blank" rel="noopener">Watch on YouTube</a></p>
 
-<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 6px 6px 0;">
+<div class="js-callout js-callout--warning">
 <strong>Note:</strong> This guide assumes you already have <strong>Decky Loader</strong> installed.
 </div>
 
@@ -37,7 +37,7 @@ difficulty: "Beginner"
 <p>After installing, open <strong>Junk Store</strong>, go to the <strong>About</strong> section, and select <strong>Dependencies</strong> > <strong>Install Dependencies</strong>.</p>
 <img src="/assets/images/JSInstall/Dependencies.jpeg" alt="Install Junk Store dependencies" width="600" height="338" loading="lazy" />
 
-<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<div class="js-callout js-callout--warning">
 This might take around 30 seconds or longer. Just wait — it's normal.
 </div>
 </li>
@@ -48,7 +48,7 @@ This might take around 30 seconds or longer. Just wait — it's normal.
 <img src="/assets/images/JSInstall/Login%20Epic.jpeg" alt="Epic Games login prompt" width="600" height="338" loading="lazy" />
 <img src="/assets/images/JSInstall/Epic%20Login%20Dialogue.jpg" alt="Epic Games login dialogue" width="600" height="338" loading="lazy" />
 
-<div style="background: rgba(76, 175, 80, 0.1); border-left: 4px solid #4caf50; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<div class="js-callout js-callout--tip">
 Make sure the Epic account you log in with has games in its library, or nothing will show up.
 </div>
 </li>
@@ -63,7 +63,7 @@ Make sure the Epic account you log in with has games in its library, or nothing 
 <p>After logging in, your Epic library should load automatically. If it doesn't, scroll down and press <strong>Y</strong> on <strong>Show All</strong>, make sure <strong>Show Installed</strong> is not selected, and clear the search box if needed.</p>
 <img src="/assets/images/JSInstall/Epic%20Library%20v2.jpeg" alt="Epic Games library in Junk Store" width="600" height="338" loading="lazy" />
 
-<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<div class="js-callout js-callout--warning">
 Games that need <strong>EA App</strong> or <strong>Origin</strong> won't show up — they aren't supported.
 </div>
 </li>
@@ -100,15 +100,15 @@ Noah from SteamDeckHQ wrote an awesome step-by-step article:
 
 ---
 
-<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
-<h3 style="margin-top: 0; color: #e74c3c;">🆘 Stuck or need help?</h3>
+<div class="js-callout js-callout--help">
+<h3>🆘 Stuck or need help?</h3>
 <p><strong>Need setup help? We're here for you!</strong> Most installation issues are quick fixes.</p>
 
 <p><strong>Quick fixes for common issues:</strong></p>
-<ul style="margin-left: 1rem;">
-<li><a href="/faq/?filter=decky" style="color: #66bfff;">Decky Plugin FAQ</a> - General questions</li>
-<li><a href="/troubleshooting/?filter=decky" style="color: #66bfff;">Troubleshooting</a> - All Decky issues</li>
+<ul>
+<li><a href="/faq/?filter=decky">Decky Plugin FAQ</a> - General questions</li>
+<li><a href="/troubleshooting/?filter=decky">Troubleshooting</a> - All Decky issues</li>
 </ul>
 
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> and post in <strong>#decky-support</strong> channel.</p>
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> and post in <strong>#decky-support</strong> channel.</p>
 </div>

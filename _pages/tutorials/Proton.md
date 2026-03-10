@@ -11,15 +11,15 @@ difficulty: "Intermediate"
 
 <h2 class="centered-header">How to Check/Change Proton Version</h2>
 
-<p style="text-align: center;">Fix black screens and compatibility issues by switching to a different Proton version.</p>
+<p class="text-center">Fix black screens and compatibility issues by switching to a different Proton version.</p>
 
-<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<div class="js-callout js-callout--warning">
 <strong>Prerequisites:</strong> You need <strong>Junk Store</strong> installed, plus a way to install different Proton versions (Wine Cellar, ProtonUp-Qt, etc.) and some Proton versions already installed.
 </div>
 
 ---
 
-<h3 style="margin-top: 2rem;">When Do You Need to Change Proton Versions?</h3>
+<h3>When Do You Need to Change Proton Versions?</h3>
 
 <p>If you experience any of these issues, try a different Proton version:</p>
 <ul>
@@ -36,13 +36,13 @@ difficulty: "Intermediate"
 <li><strong>Keep 2-3 versions</strong> installed so you can switch if one doesn't work</li>
 </ul>
 
-<div style="background: rgba(76, 175, 80, 0.1); border-left: 4px solid #4caf50; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<div class="js-callout js-callout--tip">
 <strong>Pro Tip:</strong> Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB.com</a> or our <a href="/tested-games/">Games Tested</a> page to see what works best for your specific game.
 </div>
 
 ---
 
-<h3 style="margin-top: 2rem;">Prerequisites: Install a Proton Manager</h3>
+<h3>Prerequisites: Install a Proton Manager</h3>
 
 <p>You'll need a tool to download and manage different Proton versions. You have two good options:</p>
 
@@ -66,7 +66,7 @@ difficulty: "Intermediate"
 
 ---
 
-<h3 style="margin-top: 2rem;">Method 1: Change Proton Version in Junk Store</h3>
+<h3>Method 1: Change Proton Version in Junk Store</h3>
 
 <div class="install-guide">
 <ol>
@@ -106,7 +106,7 @@ difficulty: "Intermediate"
 <p>Select the <strong>Proton version</strong> you want to try and press <strong>A</strong> to confirm. The setting is <strong>automatically saved</strong> per game.</p>
 <img src="/assets/images/Proton/FM'24%20Changing%20Proton%20Version.webp" alt="Changing Proton version" width="600" height="338" loading="lazy" />
 
-<div style="background: rgba(76, 175, 80, 0.1); border-left: 4px solid #4caf50; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<div class="js-callout js-callout--tip">
 <strong>Saved Settings:</strong> Your Proton choice is remembered for this specific game, even after rebooting.
 </div>
 </li>
@@ -116,7 +116,7 @@ difficulty: "Intermediate"
 
 ---
 
-<h3 style="margin-top: 2rem;">Method 2: Change via Steam Library</h3>
+<h3>Method 2: Change via Steam Library</h3>
 
 <p>You can also change Proton versions directly from Steam's library:</p>
 
@@ -145,7 +145,7 @@ difficulty: "Intermediate"
 
 ---
 
-<h3 style="margin-top: 2rem;">Ready to Play!</h3>
+<h3>Ready to Play!</h3>
 
 <p>Once you've selected your Proton version:</p>
 <ul>
@@ -157,7 +157,7 @@ difficulty: "Intermediate"
 
 ---
 
-<h3 style="margin-top: 2rem;">Troubleshooting Tips</h3>
+<h3>Troubleshooting Tips</h3>
 
 <ul>
 <li><strong>Game still won't work?</strong> Try a different GE-Proton version</li>
@@ -167,15 +167,15 @@ difficulty: "Intermediate"
 
 ---
 
-<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
-<h3 style="margin-top: 0; color: #e74c3c;">Stuck or need help?</h3>
+<div class="js-callout js-callout--help">
+<h3>Stuck or need help?</h3>
 <p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
 
 <p><strong>Quick fixes for common issues:</strong></p>
-<ul style="margin-left: 1rem;">
-<li><a href="/faq/" style="color: #66bfff;">FAQ</a> - General questions</li>
-<li><a href="/troubleshooting/" style="color: #66bfff;">Troubleshooting</a> - Common issues</li>
+<ul>
+<li><a href="/faq/">FAQ</a> - General questions</li>
+<li><a href="/troubleshooting/">Troubleshooting</a> - Common issues</li>
 </ul>
 
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> for community support.</p>
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>
 </div>

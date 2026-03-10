@@ -921,8 +921,8 @@ function createGameModal(game) {
       <div class="modal-content">
         <!-- Game Banner -->
         <div id="gameBanner-${game.id}" class="game-banner">
-          ${game.banner_image && !game.banner_image.startsWith('./artwork/') ? 
-            `<img src="${game.banner_image}" alt="Game Banner" style="width: 100%; max-height: 120px; object-fit: scale-down; border-radius: 8px;" onerror="this.parentElement.style.display='none';">` : ''}
+          ${game.banner_image && !game.banner_image.startsWith('./artwork/') ?
+            `<img src="${game.banner_image}" alt="Game Banner" class="game-banner-img" onerror="this.parentElement.style.display='none';">` : ''}
         </div>
         
         <!-- Enhanced Header -->

@@ -11,7 +11,7 @@ difficulty: "Intermediate"
 
 <h2 class="centered-header">How to Install the GOG Extension</h2>
 
-<p style="text-align: center;">Add GOG library integration to your Junk Store Decky plugin for DRM-free gaming access.</p>
+<p class="text-center">Add GOG library integration to your Junk Store Decky plugin for DRM-free gaming access.</p>
 
 <div class="install-guide">
 <ol>
@@ -43,7 +43,7 @@ difficulty: "Intermediate"
 <strong>Return to Game Mode</strong>
 <p>Once installed, switch back to Game Mode.</p>
 
-<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<div class="js-callout js-callout--warning">
 <strong>Note:</strong> You will need to reinstall the dependencies after installation.
 </div>
 
@@ -66,15 +66,15 @@ difficulty: "Intermediate"
 
 ---
 
-<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
-<h3 style="margin-top: 0; color: #e74c3c;">Stuck or need help?</h3>
+<div class="js-callout js-callout--help">
+<h3>Stuck or need help?</h3>
 <p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
 
 <p><strong>Quick fixes for common issues:</strong></p>
-<ul style="margin-left: 1rem;">
-<li><a href="/faq/?filter=decky" style="color: #66bfff;">Decky Plugin FAQ</a> - General questions</li>
-<li><a href="/troubleshooting/?filter=decky" style="color: #66bfff;">Troubleshooting</a> - All Decky issues</li>
+<ul>
+<li><a href="/faq/?filter=decky">Decky Plugin FAQ</a> - General questions</li>
+<li><a href="/troubleshooting/?filter=decky">Troubleshooting</a> - All Decky issues</li>
 </ul>
 
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> and post in <strong>#decky-support</strong> channel.</p>
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> and post in <strong>#decky-support</strong> channel.</p>
 </div>

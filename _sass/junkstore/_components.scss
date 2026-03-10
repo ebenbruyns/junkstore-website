@@ -177,6 +177,331 @@ p.js-media-card__caption {
 }
 
 /*
+   Callout Boxes
+   Replaces inline styles for help, warning, tip, and info boxes
+   ========================================================================== */
+
+// Base callout
+.js-callout {
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+
+  h3, .js-callout__title {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  ul {
+    margin: 0.5rem 0 0.5rem 1rem;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+
+  a {
+    color: $junkstore-primary;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Help/Support box (red) - "Stuck or need help?"
+.js-callout--help {
+  background-color: #2d1b1b;
+  border: 2px solid #e74c3c;
+
+  h3, .js-callout__title {
+    color: #e74c3c;
+  }
+}
+
+// Warning box (yellow) - notes, cautions
+.js-callout--warning {
+  background: rgba(255, 193, 7, 0.1);
+  border-left: 4px solid #ffc107;
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 1.5rem;
+
+  h3, .js-callout__title {
+    color: #ffc107;
+  }
+
+  p {
+    color: $white;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+}
+
+// Tip/Success box (green) - tips, success messages
+.js-callout--tip {
+  background: rgba(76, 175, 80, 0.1);
+  border-left: 4px solid #4caf50;
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 1.5rem;
+
+  h3, .js-callout__title {
+    color: #4caf50;
+  }
+}
+
+// Info box (blue) - informational callouts
+.js-callout--info {
+  background: rgba(102, 191, 255, 0.08);
+  border-left: 4px solid $junkstore-primary;
+  border-radius: 0 8px 8px 0;
+  padding: 1.2rem 1.5rem;
+
+  h3, .js-callout__title {
+    color: $junkstore-primary;
+  }
+}
+
+// Orange accent box (for tested games disclaimer, etc.)
+.js-callout--accent {
+  background: rgba(230, 115, 0, 0.1);
+  border-left: 4px solid $junkstore-accent;
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 1.5rem;
+
+  h3, .js-callout__title {
+    color: $junkstore-accent;
+  }
+}
+
+/*
+   Link Cards (for get_started, tutorials grid)
+   Replaces inline card grid styles
+   ========================================================================== */
+
+// Card grid container
+.js-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+// Wider cards variant
+.js-card-grid--wide {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+// Base card
+.js-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 140px;
+  transition: transform 0.2s, border-color 0.2s;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+// Card as link
+a.js-card {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    border-color: $junkstore-primary;
+  }
+}
+
+// Card title
+.js-card__title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+// Card text
+.js-card__text {
+  color: #ccc;
+  font-size: 0.95em;
+  flex-grow: 1;
+  text-align: left;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+// Card link/action
+.js-card__link {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+// Success/green variant
+.js-card--success {
+  background: rgba(34, 197, 94, 0.1);
+  border-color: #22c55e;
+
+  .js-card__title {
+    color: #4ade80;
+  }
+
+  .js-card__link a,
+  &.js-card a {
+    color: #4ade80;
+  }
+}
+
+// Accent/orange variant
+.js-card--accent {
+  background: rgba(230, 115, 0, 0.1);
+  border-color: #e67300;
+
+  .js-card__title {
+    color: #e67300;
+  }
+
+  .js-card__link a,
+  &.js-card a {
+    color: #ffa366;
+  }
+}
+
+// Primary/blue variant
+.js-card--primary {
+  background: rgba(0, 122, 204, 0.1);
+  border-color: #007acc;
+
+  .js-card__title {
+    color: #007acc;
+  }
+
+  .js-card__link a,
+  &.js-card a {
+    color: #66bfff;
+  }
+}
+
+// Danger/red variant
+.js-card--danger {
+  background: rgba(231, 76, 60, 0.1);
+  border-color: #e74c3c;
+
+  .js-card__title {
+    color: #e74c3c;
+  }
+
+  .js-card__link a,
+  &.js-card a {
+    color: #e74c3c;
+  }
+}
+
+/*
+   Video/Image Thumbnails
+   ========================================================================== */
+
+.js-video-thumb {
+  display: inline-block;
+  position: relative;
+
+  &:hover .js-thumb-img {
+    border-color: $junkstore-primary;
+  }
+}
+
+.js-thumb-img {
+  border-radius: 8px;
+  width: 280px;
+  height: 158px;
+  object-fit: cover;
+  border: 2px solid #333;
+  transition: border-color 0.2s;
+}
+
+.js-thumb-img--video {
+  border-color: #333;
+}
+
+.js-thumb-img--guide {
+  border-color: #007acc;
+}
+
+// Play button overlay
+.js-video-thumb::after {
+  content: '▶';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 0, 0, 0.85);
+  color: white;
+  width: 50px;
+  height: 35px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+// Guide button overlay (no play icon)
+a[href^="/tutorials"] .js-thumb-img--guide + .js-video-thumb::after,
+.js-video-thumb:has(.js-thumb-img--guide)::after {
+  content: 'Step-by-Step Guide';
+  background: rgba(0, 122, 204, 0.9);
+  width: auto;
+  padding: 8px 16px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+/*
+   Provider Badges (for OAuth login options)
+   ========================================================================== */
+
+.js-provider-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 2rem 0;
+}
+
+.js-provider-badge {
+  text-align: center;
+  padding: 12px 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  border: 1px solid #444;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.1rem;
+
+  i {
+    font-size: 1.2em;
+  }
+}
+
+/*
    Responsive
    ========================================================================== */
 
@@ -189,4 +514,16 @@ p.js-media-card__caption {
     max-width: 280px;
   }
 
+  .js-callout {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .js-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .js-card {
+    min-height: auto;
+  }
 }

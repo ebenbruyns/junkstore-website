@@ -11,7 +11,7 @@ difficulty: "Beginner"
 
 <h2 class="centered-header">How to Login using OAuth</h2>
 
-<p style="text-align: center;">Use third-party authentication to securely access Epic Games on your Steam Deck.</p>
+<p class="text-center">Use third-party authentication to securely access Epic Games on your Steam Deck.</p>
 
 <div style="display: flex; justify-content: center; margin: 2rem 0;">
 <table style="margin: 0 auto; border-collapse: separate; border-spacing: 8px; font-size: 1.1rem;">
@@ -30,7 +30,7 @@ difficulty: "Beginner"
 </table>
 </div>
 
-<p style="text-align: center;"><em>This guide uses Google for logging in, but the steps are the same for other third-party methods.</em></p>
+<p class="text-center"><em>This guide uses Google for logging in, but the steps are the same for other third-party methods.</em></p>
 
 <div class="install-guide">
 <ol>
@@ -107,7 +107,7 @@ difficulty: "Beginner"
 <li>Clear any text from the search box to see all games.</li>
 </ul>
 
-<div style="background: rgba(255, 193, 7, 0.1); border-left: 4px solid #ffc107; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;">
+<div class="js-callout js-callout--warning">
 <strong>Note:</strong> Games requiring the EA app or Origin will not appear in your library as they aren't supported in Junk Store.
 </div>
 </li>
@@ -133,15 +133,15 @@ difficulty: "Beginner"
 
 ---
 
-<div style="background-color: #2d1b1b; border: 2px solid #e74c3c; border-radius: 12px; padding: 2rem; margin: 2rem 0;">
-<h3 style="margin-top: 0; color: #e74c3c;">Stuck or need help?</h3>
+<div class="js-callout js-callout--help">
+<h3>Stuck or need help?</h3>
 <p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
 
 <p><strong>Quick fixes for common issues:</strong></p>
-<ul style="margin-left: 1rem;">
-<li><a href="/faq/" style="color: #66bfff;">FAQ</a> - General questions</li>
-<li><a href="/troubleshooting/" style="color: #66bfff;">Troubleshooting</a> - Common issues</li>
+<ul>
+<li><a href="/faq/">FAQ</a> - General questions</li>
+<li><a href="/troubleshooting/">Troubleshooting</a> - Common issues</li>
 </ul>
 
-<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh" style="color: #66bfff;">Discord</a> for community support.</p>
+<p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>
 </div>
