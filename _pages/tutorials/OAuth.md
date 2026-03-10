@@ -13,21 +13,15 @@ difficulty: "Beginner"
 
 <p class="text-center">Use third-party authentication to securely access Epic Games on your Steam Deck.</p>
 
-<div style="display: flex; justify-content: center; margin: 2rem 0;">
-<table style="margin: 0 auto; border-collapse: separate; border-spacing: 8px; font-size: 1.1rem;">
-  <tr>
-    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-google" style="color: #4285f4; margin-right: 8px;"></i>Google</td>
-    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-playstation" style="color: #006fcd; margin-right: 8px;"></i>PlayStation</td>
-    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fas fa-cube" style="color: #ffcf00; margin-right: 8px;"></i>Lego</td>
-    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fas fa-gamepad" style="color: #e60012; margin-right: 8px;"></i>Nintendo</td>
-  </tr>
-  <tr>
-    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-xbox" style="color: #107c10; margin-right: 8px;"></i>Xbox</td>
-    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-facebook" style="color: #1877f2; margin-right: 8px;"></i>Facebook</td>
-    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-steam" style="color: #1b2838; margin-right: 8px;"></i>Steam</td>
-    <td style="text-align: center; padding: 12px 20px; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid #444;"><i class="fab fa-apple" style="color: #007aff; margin-right: 8px;"></i>Apple</td>
-  </tr>
-</table>
+<div class="js-provider-grid">
+  <span class="js-provider-badge"><i class="fab fa-google" style="color: #4285f4;"></i>Google</span>
+  <span class="js-provider-badge"><i class="fab fa-playstation" style="color: #006fcd;"></i>PlayStation</span>
+  <span class="js-provider-badge"><i class="fas fa-cube" style="color: #ffcf00;"></i>Lego</span>
+  <span class="js-provider-badge"><i class="fas fa-gamepad" style="color: #e60012;"></i>Nintendo</span>
+  <span class="js-provider-badge"><i class="fab fa-xbox" style="color: #107c10;"></i>Xbox</span>
+  <span class="js-provider-badge"><i class="fab fa-facebook" style="color: #1877f2;"></i>Facebook</span>
+  <span class="js-provider-badge"><i class="fab fa-steam" style="color: #66c0f4;"></i>Steam</span>
+  <span class="js-provider-badge"><i class="fab fa-apple" style="color: #007aff;"></i>Apple</span>
 </div>
 
 <p class="text-center"><em>This guide uses Google for logging in, but the steps are the same for other third-party methods.</em></p>

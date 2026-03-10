@@ -209,17 +209,17 @@ excerpt: "Full feature comparison between Free Decky Plugin and Junk Store Pro"
         <tr>
           <td><strong>Offline Mode Per Game</strong> <span class="new-badge">NEW</span></td>
           <td>🔧 Requires Global Setting Under Each Tab</td>
-          <td>✅ Per-Game Configuration<br><span style="font-size: 0.9em; color: #ccc;">Set offline mode individually for each game across all storefronts</span></td>
+          <td>✅ Per-Game Configuration<br><span class="js-text-muted-sm">Set offline mode individually for each game across all storefronts</span></td>
         </tr>
         <tr>
           <td><strong>System Language Detection Per Game</strong> <span class="new-badge">NEW</span></td>
-          <td>🔧 Requires Manual File Editing<br><span style="font-size: 0.9em; color: #ccc;">Must alter files to add language codes</span></td>
-          <td>✅ Per Game Language Setting<br><span style="font-size: 0.9em; color: #ccc;">Individual language control for games that use system language detection</span></td>
+          <td>🔧 Requires Manual File Editing<br><span class="js-text-muted-sm">Must alter files to add language codes</span></td>
+          <td>✅ Per Game Language Setting<br><span class="js-text-muted-sm">Individual language control for games that use system language detection</span></td>
         </tr>
         <tr>
           <td><strong>Diagnostics Framework</strong> <span class="new-badge">NEW</span></td>
-          <td>❌ Not Available<br><span style="font-size: 0.9em; color: #ccc;">Manual troubleshooting required</span></td>
-          <td>✅ Automated Detection<br><span style="font-size: 0.9em; color: #ccc;">Automatically detects Junk Store configurations that are broken</span></td>
+          <td>❌ Not Available<br><span class="js-text-muted-sm">Manual troubleshooting required</span></td>
+          <td>✅ Automated Detection<br><span class="js-text-muted-sm">Automatically detects Junk Store configurations that are broken</span></td>
         </tr>
       </tbody>
   </table>

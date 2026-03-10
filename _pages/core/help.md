@@ -49,8 +49,10 @@ permalink: /help/
 
 <!-- FAQ Content - Collapsible Categories -->
 <div id="faq-content-redesign" class="faq-collapsible">
-  <div class="loading-indicator">
-    <p>Loading FAQ...</p>
+  <div class="faq-skeleton">
+    <div class="skeleton-category"></div>
+    <div class="skeleton-category"></div>
+    <div class="skeleton-category"></div>
   </div>
 </div>
 
@@ -60,8 +62,9 @@ permalink: /help/
 <div id="tab-quicktips" class="tab-panel">
 
 <div id="quicktips-content" class="faq-collapsible">
-  <div class="loading-indicator">
-    <p>Loading quick tips...</p>
+  <div class="faq-skeleton">
+    <div class="skeleton-category"></div>
+    <div class="skeleton-category"></div>
   </div>
 </div>
 
@@ -71,8 +74,10 @@ permalink: /help/
 <div id="tab-troubleshooting" class="tab-panel">
 
 <div id="troubleshooting-content" class="ts-collapsible">
-  <div class="loading-indicator">
-    <p>Loading troubleshooting...</p>
+  <div class="faq-skeleton">
+    <div class="skeleton-category"></div>
+    <div class="skeleton-category"></div>
+    <div class="skeleton-category"></div>
   </div>
 </div>
 
@@ -90,7 +95,7 @@ permalink: /help/
       <div class="skeleton-tutorial-card"></div>
       <div class="skeleton-tutorial-card"></div>
     </div>
-    <div class="skeleton-section-header" style="margin-top: 2rem;"></div>
+    <div class="skeleton-section-header mt-4"></div>
     <div class="tutorial-grid">
       <div class="skeleton-tutorial-card"></div>
       <div class="skeleton-tutorial-card"></div>
@@ -102,7 +107,7 @@ permalink: /help/
 </div>
 
 <!-- ==================== MORE RESOURCES ==================== -->
-<hr style="margin: 2rem 0;">
+<hr class="my-4">
 
 <div class="resources-row">
   <a href="/tested-games/" class="resource-card">
@@ -686,9 +691,19 @@ details.faq-item-compact[open] {
   margin-top: 0;
 }
 
-/* Tutorial Skeleton Loaders */
+/* Skeleton Loaders */
+.faq-skeleton,
 .tutorials-skeleton {
   padding: 1rem 0;
+}
+
+.skeleton-category {
+  height: 56px;
+  margin-bottom: 16px;
+  background: linear-gradient(90deg, #1e2a38 25%, #2d3748 50%, #1e2a38 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 12px;
 }
 
 .skeleton-section-header {
@@ -1435,10 +1450,10 @@ window.filterQuickTips = function(version) {
       const sectionTitle = sectionNames[section] || section.charAt(0).toUpperCase() + section.slice(1);
 
       if (idx > 0) {
-        html += '<hr style="margin: 2rem 0;">';
+        html += '<hr class="my-4">';
       }
 
-      html += `<h2 style="text-align: center;">${sectionTitle}</h2>`;
+      html += `<h2 class="text-center">${sectionTitle}</h2>`;
       html += '<div class="tutorial-grid">';
 
       sections[section].forEach(t => {
@@ -1464,8 +1479,8 @@ window.filterQuickTips = function(version) {
 
     // Render Quick Tips section (if we have tips)
     if (quickTips.length > 0) {
-      html += '<hr style="margin: 2rem 0;">';
-      html += '<h2 style="text-align: center;">Quick Tips & Tricks</h2>';
+      html += '<hr class="my-4">';
+      html += '<h2 class="text-center">Quick Tips & Tricks</h2>';
       html += '<div class="tips-grid">';
 
       quickTips.forEach(tip => {
