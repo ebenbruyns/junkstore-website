@@ -41,7 +41,7 @@
 @media (max-width: 480px) {
   .features-tab {
     padding: 10px 16px;
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
     flex: 1;
     text-align: center;
   }
@@ -166,7 +166,7 @@
 
   h1 {
     color: $junkstore-accent;
-    font-size: 2rem;
+    font-size: $type-size-hero;
     margin-bottom: 0.5rem;
     margin-top: 0;
     font-weight: bold;
@@ -195,7 +195,7 @@
 }
 
 .lead-text {
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   margin: 0;
   color: $junkstore-gray-text;
 }
@@ -248,7 +248,7 @@
 
   h3 {
     color: $junkstore-accent;
-    font-size: 1.2rem;
+    font-size: $type-size-label;
     margin-top: 0;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -411,7 +411,7 @@
   }
 
   .comparison-table {
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
 
     td,
     th {
@@ -456,19 +456,19 @@
     color: $junkstore-accent;
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 1.1rem;
+    font-size: $type-size-body-large;
   }
 
   .problem {
     color: #ff6b6b;
     margin-bottom: 0.5rem;
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
   }
 
   .solution {
     color: #4caf50;
     margin-bottom: 0;
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
   }
 }
 
@@ -576,7 +576,7 @@
 
   .caption {
     color: $junkstore-meta-text;
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
     margin: 0;
     text-align: center;
   }
@@ -658,7 +658,7 @@
 
   .guarantee {
     color: $junkstore-meta-text;
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
     margin: 0 0 1rem 0;
     text-align: center;
   }
@@ -701,7 +701,7 @@
 
 .guarantee {
   color: $junkstore-meta-text;
-  font-size: 0.9rem;
+  font-size: $type-size-body-small;
   margin-bottom: 0;
 }
 
