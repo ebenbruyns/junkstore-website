@@ -22,7 +22,7 @@ permalink: /status/
 
 <div class="history-section">
   <h2>Break History</h2>
-  <p style="color: #888; margin-bottom: 1rem;">
+  <p class="text-muted mb-2">
     A record of times when SteamOS updates caused compatibility issues with Junk Store Pro.
   </p>
 
@@ -38,7 +38,7 @@ permalink: /status/
     </thead>
     <tbody>
       <tr>
-        <td colspan="4" class="text-center" style="color: #888;">Loading...</td>
+        <td colspan="4" class="text-center text-muted">Loading...</td>
       </tr>
     </tbody>
   </table>

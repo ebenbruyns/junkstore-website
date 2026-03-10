@@ -36,8 +36,8 @@ permalink: /tutorials/install-junk-store-2
 <img src="/assets/images/jspro/install2.0/install1.png" alt="Double-click to run installer" width="600" height="338" loading="lazy" />
 <img src="/assets/images/jspro/install2.0/jsinstaller.png" alt="Junk Store installer progress" width="600" height="338" loading="lazy" />
 
-<div style="background: rgba(255, 69, 0, 0.2); border: 2px solid #ff4500; border-radius: 8px; padding: 15px; margin: 1rem 0;">
-  <strong style="color: #ff6b35; font-size: 1.1em;">⚠️ CRITICAL:</strong> You <strong style="color: #ff6b35;">MUST wait until the dialogue box says "Installation Complete"</strong> before clicking OK. <strong style="color: #ff6b35;">Clicking OK too early cancels the installation.</strong>
+<div class="critical-warning">
+  <strong>⚠️ CRITICAL:</strong> You <strong>MUST wait until the dialogue box says "Installation Complete"</strong> before clicking OK. <strong>Clicking OK too early cancels the installation.</strong>
 </div>
 </li>
 

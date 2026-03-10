@@ -1,3 +1,16 @@
+/* Critical warning box - used for important alerts */
+.critical-warning {
+  background: rgba($junkstore-danger, 0.2);
+  border: 2px solid $junkstore-danger;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 1rem 0;
+
+  strong {
+    color: $junkstore-accent;
+  }
+}
+
 /* Container for all content boxes */
 .content-box-container {
   display: grid; /* Layout children in a row */

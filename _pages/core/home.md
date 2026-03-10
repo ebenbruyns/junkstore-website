@@ -117,7 +117,7 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
     <div class="question-item">
       <h4>What if I have problems?</h4>
       <p><strong>We've got you.</strong> Check our <a href="/help/">help page</a> or reach out - we're always happy to help.</p>
-      <p style="text-align: center; margin-top: 0.5rem;"><a href="https://discord.gg/6mRUhR6Teh"><i class="fab fa-discord"></i> Discord</a> · <a href="https://www.reddit.com/r/JunkStore"><i class="fab fa-reddit"></i> Reddit</a></p>
+      <p class="text-center mt-1"><a href="https://discord.gg/6mRUhR6Teh"><i class="fab fa-discord"></i> Discord</a> · <a href="https://www.reddit.com/r/JunkStore"><i class="fab fa-reddit"></i> Reddit</a></p>
     </div>
   </div>
 </section>
