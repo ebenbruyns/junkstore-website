@@ -423,22 +423,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
   flex-wrap: wrap;
 }
 
-.js-splash .button-secondary {
-  background-color: transparent;
-  border: 2px solid $junkstore-primary;
-  color: $junkstore-primary;
-  padding: 0.75rem 2rem;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.js-splash .button-secondary:hover {
-  background-color: $junkstore-primary;
-  color: #1a252f;
-  transform: translateY(-2px);
-}
+/* Button styles now use global buttons.scss */
 
 /* Wide button for longer text - higher specificity */
 .js-splash .pricing-cta .button.button-secondary.button-wide {

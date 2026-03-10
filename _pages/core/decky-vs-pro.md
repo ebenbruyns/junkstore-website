@@ -406,37 +406,7 @@ excerpt: "Full feature comparison between Free Decky Plugin and Junk Store Pro"
   margin: 1.5rem 0;
 }
 
-.button.buy-button {
-  background: #e67300;
-  color: white !important;
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.button.buy-button:hover {
-  background: #ff8c1a;
-}
-
-.button.button-secondary {
-  background: transparent;
-  border: 2px solid #e67300;
-  color: #e67300 !important;
-  padding: 10px 22px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.button.button-secondary:hover {
-  background: rgba(230, 115, 0, 0.1);
-}
-
-.button.large {
-  padding: 14px 28px;
-  font-size: 1.1rem;
-}
+/* Button styles now use global buttons.scss */
 
 .guarantee {
   color: #888;

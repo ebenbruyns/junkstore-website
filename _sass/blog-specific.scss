@@ -191,12 +191,13 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
   font-size: 1.1rem;
 }
 
+/* Blog CTA buttons - matches global button-secondary style */
 .layout--single .inline-blog-cta-button,
 .layout--blog .inline-blog-cta-button,
 .layout--post .inline-blog-cta-button {
   display: inline-block;
   background: #0056b3;
-  color: #fff !important;
+  color: #fff;
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
@@ -204,7 +205,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
   font-size: 1rem;
   transition: all 0.3s ease;
   margin: 10px 0;
-  border: 2px solid #0056b3;
+  border: 1px solid #004494; /* Subtle darker border for depth */
 }
 
 .layout--single .inline-blog-cta-button:hover,
@@ -217,8 +218,8 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
 .layout--post .inline-blog-cta-button:visited,
 .layout--post .inline-blog-cta-button:visited:hover {
   background: #004494;
-  border-color: #004494;
-  color: #fff !important;
+  border-color: #003366;
+  color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(0, 86, 179, 0.4);
   text-decoration: none;

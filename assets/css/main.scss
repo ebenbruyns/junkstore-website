@@ -9,8 +9,16 @@
 // Junkstore theme now handles layouts - these are legacy custom components
 // ==========================================================================
 
-// Junkstore variables (includes legacy compatibility mappings)
+// Junkstore theme core
 @import "junkstore/variables";
+@import "junkstore/mixins";
+@import "junkstore/reset";
+@import "junkstore/base";
+@import "junkstore/typography";
+@import "junkstore/utilities";
+@import "junkstore/layout";
+@import "junkstore/components";
+@import "junkstore/post";
 
 // Breakpoint vendor - used by custom files for responsive design
 @import "vendor/breakpoint/breakpoint";

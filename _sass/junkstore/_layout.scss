@@ -32,12 +32,78 @@
    Masthead / Navigation
    ========================================================================== */
 
-.js-masthead {
+/* Support both JS and MM masthead classes */
+.js-masthead,
+.masthead {
   border-bottom: 1px solid $junkstore-border;
   background: $junkstore-bg-dark;
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+/* MM masthead inner wrap */
+.masthead__inner-wrap {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* MM masthead menu */
+.masthead__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+/* MM greedy nav styling */
+.greedy-nav {
+  display: flex;
+  align-items: center;
+  min-height: 2em;
+  background: transparent;
+
+  a {
+    color: $junkstore-primary; /* Light blue nav links */
+    text-decoration: none;
+
+    &:hover {
+      color: lighten($junkstore-primary, 15%);
+    }
+  }
+
+  .visible-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 0.25rem;
+
+    li {
+      margin: 0;
+    }
+
+    a {
+      display: block;
+      padding: 0.5rem 1rem;
+      font-weight: 500;
+    }
+  }
+
+  .site-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: $white;
+    margin-right: 1rem;
+  }
+
+  .site-logo img {
+    height: 40px;
+    width: auto;
+    margin-right: 0.5rem;
+  }
 }
 
 .js-nav {
@@ -99,19 +165,19 @@
   display: block;
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  color: $junkstore-light-text;
+  color: $junkstore-primary; /* Light blue nav links */
   text-decoration: none;
   font-weight: 500;
   border-radius: $border-radius;
   @include transition;
 
   &:hover {
-    color: $junkstore-primary;
+    color: lighten($junkstore-primary, 15%);
     background: rgba($white, 0.05);
   }
 
   &.js-nav__link--active {
-    color: $junkstore-primary;
+    color: lighten($junkstore-primary, 10%);
   }
 }
 
@@ -299,11 +365,50 @@
    Footer
    ========================================================================== */
 
-.js-footer {
+/* Support both JS and MM footer classes */
+.js-footer,
+.page__footer {
   background: $junkstore-bg-card;
   border-top: 1px solid $junkstore-border;
   padding: 1.5rem 0;
   margin-top: auto;
+}
+
+/* MM footer follow section */
+.page__footer-follow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: $junkstore-primary; /* Light blue footer links */
+    text-decoration: none;
+
+    &:hover {
+      color: lighten($junkstore-primary, 15%);
+    }
+  }
+}
+
+/* MM footer copyright */
+.page__footer-copyright {
+  text-align: center;
+  font-size: 0.85rem;
+  color: $junkstore-gray-text;
+  padding: 0.5rem 1rem;
 }
 
 .js-footer__content {
@@ -330,13 +435,13 @@
 }
 
 .js-footer__link {
-  color: $junkstore-light-text;
+  color: $junkstore-primary; /* Light blue footer links */
   text-decoration: none;
   font-size: 0.9rem;
   @include transition;
 
   &:hover {
-    color: $junkstore-primary;
+    color: lighten($junkstore-primary, 15%);
   }
 
   i {

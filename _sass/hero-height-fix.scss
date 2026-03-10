@@ -65,45 +65,15 @@
   margin: 0;
 }
 
-/* Button base styling */
+/* Hero button sizing - colors come from global buttons.scss */
 .page__hero-actions .button,
-.page__hero-actions .button.buy-button,
-.page__hero-actions .button.button-secondary,
-.js-hero__actions .button,
-.js-hero__actions .button.buy-button,
-.js-hero__actions .button.button-secondary {
-  background-color: #0056b3;
-  border: none;
-  color: #fff;
+.js-hero__actions .button {
   padding: 0.6rem 1.25rem;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 600;
   font-size: 0.85rem;
-  transition: all 0.3s ease;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   white-space: nowrap;
-}
-
-.page__hero-actions .button:hover,
-.js-hero__actions .button:hover {
-  background-color: #004494;
-  border-color: #003366;
-}
-
-/* Buy button - green */
-.page__hero-actions .button.buy-button,
-.js-hero__actions .button.buy-button {
-  background-color: #1e7e34;
-  border-color: #155724;
-}
-
-.page__hero-actions .button.buy-button:hover,
-.js-hero__actions .button.buy-button:hover {
-  background-color: #155724;
-  border-color: #0d3d17;
 }
 
 /* ==========================================================================

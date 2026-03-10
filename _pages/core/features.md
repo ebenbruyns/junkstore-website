@@ -236,7 +236,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   </div>
 
   <div class="comparison-button">
-    <a href="/decky-vs-pro/" class="button button-secondary">View Full Comparison</a>
+    <a href="/decky-vs-pro/" class="button button-accent">View Full Comparison</a>
   </div>
 </section>
 
@@ -1130,37 +1130,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   margin: 1.5rem 0;
 }
 
-.button.buy-button {
-  background: #e67300;
-  color: white !important;
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.button.buy-button:hover {
-  background: #ff8c1a;
-}
-
-.button.button-secondary {
-  background: rgba(255, 255, 255, 0.1);
-  border: none;
-  color: #fff !important;
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.button.button-secondary:hover {
-  background: rgba(255, 255, 255, 0.2);
-}
-
-.button.large {
-  padding: 14px 28px;
-  font-size: 1.1rem;
-}
+/* Button styles now use global buttons.scss */
 
 .guarantee {
   color: #888;

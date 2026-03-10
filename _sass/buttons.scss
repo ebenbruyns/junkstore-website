@@ -1,72 +1,173 @@
-/* Style for the buttons - consistent base styling */
-a.button {
+/* ==========================================================================
+   GLOBAL BUTTON STYLES - Single Source of Truth
+
+   Button Types:
+   - buy-button: Green - Start Free Trial, Buy Now (primary CTA)
+   - button-secondary: Blue - Watch Demo, See It In Action
+   - button-accent: Orange - View Full Comparison, brand accent
+   - gog-extension-button: Purple - GOG-specific
+   ========================================================================== */
+
+/* ==========================================================================
+   BASE BUTTON STYLING
+   ========================================================================== */
+
+a.button,
+.button {
   color: #fff;
-  background-color: #0056b3; /* Darker blue background for better contrast */
-  padding: 0.875rem 1.75rem; /* Consistent padding for all buttons */
+  background-color: #0056b3;
+  border: none;
+  padding: 0.875rem 1.75rem;
   border-radius: 8px;
   text-decoration: none;
-  display: inline-flex; /* Use flexbox for consistent alignment */
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
   transition: all 0.3s ease;
-  min-width: 200px; /* Minimum width so buttons don't shrink too much */
-  max-width: 280px; /* Max width to prevent text wrapping */
-  min-height: 44px; /* Consistent minimum height for all buttons */
-  white-space: nowrap; /* Prevent text wrapping in buttons */
-  overflow: hidden; /* Handle any overflow gracefully */
-  font-size: 1rem; /* Consistent font size */
-  line-height: 1.4; /* Consistent line height */
-  margin: 0.5rem 0; /* Added vertical margin for better spacing */
-  box-sizing: border-box; /* Ensure consistent sizing calculation */
+  min-width: 200px;
+  max-width: 280px;
+  min-height: 44px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 0.5rem 0;
+  box-sizing: border-box;
+  cursor: pointer;
 
-  /* Hover Effects */
-  &:hover, &:visited:hover {
-    background-color: #004494; /* Even darker blue on hover */
+  &:hover,
+  &:visited:hover {
+    background-color: #004494;
     color: #fff;
-    transform: translateY(-1px); /* Subtle lift effect */
-    box-shadow: 0 4px 8px rgba(0, 122, 204, 0.3);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 86, 179, 0.3);
   }
 
-  /* Active/Focus states for better mobile feedback */
   &:active {
     transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(0, 122, 204, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 86, 179, 0.2);
   }
 
   &:focus {
     outline: 2px solid #66bfff;
     outline-offset: 2px;
   }
+
+  &:visited {
+    color: #fff;
+  }
 }
 
-/* Buy Now button - matches button-secondary styling with green color */
-a.button.buy-button {
+/* ==========================================================================
+   PRIMARY CTA - Green (Start Free Trial, Buy Now)
+   ========================================================================== */
+
+a.button.buy-button,
+.button.buy-button,
+.btn.buy-button {
   background-color: #1e7e34;
   color: #fff;
-  font-weight: 600; /* Same as button-secondary */
+  border: 1px solid #186429; /* Subtle darker border for depth */
 }
 
 a.button.buy-button:hover,
-a.button.buy-button:visited:hover {
+a.button.buy-button:visited:hover,
+.button.buy-button:hover,
+.btn.buy-button:hover,
+.btn.buy-button:visited:hover {
   background-color: #155724;
+  border-color: #0d3d17;
   color: #fff;
   box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
 }
 
-/* Secondary button - better contrast */
-a.button.button-secondary {
-  background-color: #0056b3; /* Darker blue for better contrast */
+/* ==========================================================================
+   SECONDARY - Blue (Watch Demo, See It In Action)
+   ========================================================================== */
+
+a.button.button-secondary,
+.button.button-secondary,
+.btn.button-secondary {
+  background-color: #0056b3;
   color: #fff;
-  font-weight: 600;
+  border: 1px solid #004494; /* Subtle darker border for depth */
 }
 
 a.button.button-secondary:hover,
-a.button.button-secondary:visited:hover {
-  background-color: #004494; /* Even darker blue on hover */
+a.button.button-secondary:visited:hover,
+.button.button-secondary:hover,
+.btn.button-secondary:hover,
+.btn.button-secondary:visited:hover {
+  background-color: #004494;
+  border-color: #003366;
   color: #fff;
   box-shadow: 0 4px 12px rgba(0, 86, 179, 0.4);
+}
+
+/* ==========================================================================
+   ACCENT - Orange (View Full Comparison, brand accent)
+   ========================================================================== */
+
+a.button.button-accent,
+.button.button-accent,
+.btn.button-accent {
+  background-color: #e67300;
+  color: #fff;
+  border: 1px solid #cc6600; /* Subtle darker border for depth */
+}
+
+a.button.button-accent:hover,
+a.button.button-accent:visited:hover,
+.button.button-accent:hover,
+.btn.button-accent:hover,
+.btn.button-accent:visited:hover {
+  background-color: #cc6600;
+  border-color: #b35900;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(230, 115, 0, 0.4);
+}
+
+/* ==========================================================================
+   SIZE MODIFIERS
+   ========================================================================== */
+
+.button.large,
+.btn.large {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  min-height: 50px;
+}
+
+.button.button-wide,
+.btn.button-wide {
+  min-width: 250px;
+  width: auto;
+  max-width: none;
+}
+
+/* ==========================================================================
+   SPECIAL BUTTONS
+   ========================================================================== */
+
+/* GOG Extension Button - Purple */
+a.button.gog-extension-button,
+.button.gog-extension-button {
+  background-color: #993cb3;
+  border: 1px solid #7a309f;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 1rem 2.5rem;
+  width: fit-content;
+  max-width: 100%;
+}
+
+a.button.gog-extension-button:hover,
+.button.gog-extension-button:hover {
+  background-color: #7a309f;
+  border-color: #612080;
+  box-shadow: 0 4px 12px rgba(153, 60, 179, 0.4);
 }
 
 /* Favicon inside button */
@@ -77,88 +178,25 @@ a.button.button-secondary:visited:hover {
   vertical-align: middle;
 }
 
-/* Visited button link */
-a.button:visited {
-  color: #fff;
-  background-color: #0056b3; /* Same as normal to keep consistent */
-}
+/* ==========================================================================
+   BUTTON LAYOUT & SPACING
+   ========================================================================== */
 
-/* Ensure theme .btn class inherits consistent styling */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 44px; /* Consistent with .button class */
-  font-size: 1rem; /* Consistent font size */
-  line-height: 1.4; /* Consistent line height */
-  padding: 0.875rem 1.75rem; /* Consistent padding */
-  box-sizing: border-box;
-  font-weight: bold;
-  white-space: nowrap;
-  transition: all 0.3s ease;
-}
-
-/* Special buy button styling for theme buttons - matches secondary */
-.btn.buy-button {
-  background-color: #1e7e34;
-  color: #fff;
-  font-weight: 600; /* Same as secondary */
-}
-
-.btn.buy-button:hover,
-.btn.buy-button:visited:hover {
-  background-color: #155724;
-  color: #fff;
-  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.4);
-}
-
-// .buy-now-button {
-//   font-size: 1.25rem;     /* bigger text */
-//   padding: 1rem 2rem;     /* bigger button */
-//   background-color: #28a745; /* example: green */
-//   color: white;
-//   border-radius: 8px;
-//   text-decoration: none;
-//   display: inline-block;
-//   transition: background-color 0.2s ease;
-// }
-
-// .buy-now-button:hover {
-//   background-color: #218838;
-// }
-
-/* Gog Extension Button */
-a.button.gog-extension-button,
-a.button.gog-extension-button:hover {
-  font-size: 1.25rem;
-  line-height: 1.4;
-  padding: 1rem 2.5rem;           /* wider padding */
-  background-color: #993cb3;
-  color: white;
-  border-radius: 8px;
-  text-decoration: none;
-  display: inline-block;
-  white-space: nowrap;           /* prevent text from wrapping */
-  width: fit-content;
-  max-width: 100%;              /* allow button to expand */
-  transition: background-color 0.2s ease;
-}
-
-/* Button spacing in front matter */
+/* Button spacing when adjacent */
 .button + .button {
   margin-left: 0.75rem;
 }
 
-/* Header actions container - fix front matter button centering */
+/* Header actions container */
 .page__hero-actions {
-  text-align: left; /* Left align for desktop */
+  text-align: left;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; /* Start alignment for desktop */
+  justify-content: flex-start;
   align-items: center;
   gap: 0.75rem;
-  padding: 0.5rem 0; /* Reduced from 1rem to bring closer to excerpt */
-  margin-top: 0; /* Remove any top margin */
+  padding: 0.5rem 0;
+  margin-top: 0;
 }
 
 .page__hero-actions a.button {
@@ -167,113 +205,103 @@ a.button.gog-extension-button:hover {
   justify-content: center;
 }
 
-/* Mobile button optimizations */
+/* ==========================================================================
+   .btn CLASS SUPPORT (theme compatibility)
+   ========================================================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  font-size: 1rem;
+  line-height: 1.4;
+  padding: 0.875rem 1.75rem;
+  box-sizing: border-box;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   MOBILE OPTIMIZATIONS
+   ========================================================================== */
+
 @media (max-width: 768px) {
-  /* Fix header actions button alignment on mobile */
+  /* Hero actions centering */
   .page__hero-actions {
-    text-align: center; /* Center align on mobile */
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center alignment on mobile */
+    justify-content: center;
     align-items: center;
     gap: 0.75rem;
-    padding: 0.5rem 0; /* Reduced spacing on mobile too */
+    padding: 0.5rem 0;
     width: 100%;
     margin-top: 0;
   }
 
   .page__hero-actions a.button,
-  .page__hero-actions a.button-secondary,
-  .page__hero-actions a.buy-button {
+  .page__hero-actions .button {
     flex: 0 1 auto;
     min-width: 180px;
     max-width: 250px;
     margin: 0;
   }
-  a.button {
+
+  /* Mobile button sizing */
+  a.button,
+  .button {
     width: 100%;
-    max-width: 300px; /* Optimized max width for mobile */
-    margin: 0.75rem auto; /* Center buttons with more spacing */
-    padding: 1.1rem 1.5rem; /* Larger touch areas on mobile */
-    font-size: 1.1rem; /* Larger text for better readability */
-    min-height: 50px; /* Larger minimum touch target - consistent across all buttons */
-    /* Enhanced mobile interactions */
+    max-width: 300px;
+    margin: 0.75rem auto;
+    padding: 1.1rem 1.5rem;
+    font-size: 1.1rem;
+    min-height: 50px;
     -webkit-tap-highlight-color: rgba(0, 122, 204, 0.2);
     touch-action: manipulation;
-    transition: all 0.2s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    box-sizing: border-box;
   }
 
-  a.button.buy-button {
-    /* Match button-secondary on mobile */
-    background-color: #1e7e34;
-  }
-
-  /* Stack buttons vertically on mobile with proper spacing */
+  /* Stack buttons vertically */
   .button + .button {
     margin-left: 0;
     margin-top: 0.75rem;
   }
 
-  /* Special handling for pricing CTA buttons */
+  /* Pricing CTA buttons */
   .pricing-cta {
-    .button, .button-secondary {
+    .button {
       width: 100%;
       max-width: 280px;
       margin: 0.5rem 0;
     }
   }
 
-  /* Header action buttons - enhanced mobile prominence */
+  /* Hero buttons - enhanced prominence */
   .page__hero .btn {
     width: 100%;
     max-width: 280px;
-    margin: 1rem auto; /* Increased spacing for prominence */
-    padding: 1.2rem 1.75rem; /* Larger padding for better touch */
-    font-size: 1.15rem; /* Slightly larger text */
-    min-height: 52px; /* Slightly taller for prominence */
-    border-radius: 8px;
-    font-weight: 700; /* Bolder text for prominence */
-    /* Enhanced mobile accessibility */
+    margin: 1rem auto;
+    padding: 1.2rem 1.75rem;
+    font-size: 1.15rem;
+    min-height: 52px;
+    font-weight: 700;
     -webkit-tap-highlight-color: rgba(0, 122, 204, 0.2);
     touch-action: manipulation;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease;
-    box-sizing: border-box;
-    /* Enhanced mobile CTA styling */
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
-    border: 2px solid transparent;
   }
 
   .page__hero .btn:active {
     transform: scale(0.98);
-    transition: all 0.1s ease;
   }
 
-  /* Hero buy button - match secondary styling */
-  .page__hero .btn.buy-button {
-    background-color: #1e7e34;
-  }
-
-  /* Ensure mobile .btn buttons have consistent styling */
+  /* Mobile .btn sizing */
   .btn {
-    min-height: 50px; /* Consistent mobile height */
-    font-size: 1.1rem; /* Consistent mobile font size */
-    padding: 1.1rem 1.5rem; /* Consistent mobile padding */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-  }
-
-  .btn.buy-button {
-    background-color: #1e7e34;
+    min-height: 50px;
+    font-size: 1.1rem;
+    padding: 1.1rem 1.5rem;
   }
 }
-
