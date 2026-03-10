@@ -87,7 +87,7 @@
 }
 
 .external-link i {
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
     opacity: 0.8;
 }
 
@@ -179,7 +179,7 @@
     margin: 0;
     color: #ffffff;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: $type-size-label;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     letter-spacing: -0.02em;
@@ -223,7 +223,7 @@
 /* Store badges in modals */
 .game-modal .store-badge,
 .modal-content .store-badge {
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
     margin-left: 0.5rem;
     padding: 0.1rem 0.5rem;
     border-radius: 6px;
@@ -285,7 +285,7 @@
 .feature-value {
     font-weight: 700;
     color: #ffffff;
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -362,7 +362,7 @@
     overflow-y: auto;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     color: #e2e8f0;
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
 }
 
 .tab-panel {
@@ -613,7 +613,7 @@ div.game-modal.show,
 
     .tab-button {
         padding: 12px 15px;
-        font-size: 0.9rem;
+        font-size: $type-size-body-small;
     }
 
     .tab-content-simple {
@@ -704,7 +704,7 @@ div.game-modal.show,
     background: $junkstore-bg-elevated;
     font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     color: #e2e8f0;
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
 }
 
 .tab-pane {
@@ -990,7 +990,7 @@ div.game-modal.show,
 .placeholder-content p {
     color: #a0aec0;
     margin: 4px 0;
-    font-size: 0.9rem;
+    font-size: $type-size-body-small;
     font-weight: 500;
 }
 

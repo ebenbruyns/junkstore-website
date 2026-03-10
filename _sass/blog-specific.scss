@@ -50,7 +50,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
 .layout--blog .page__meta,
 .layout--post .page__meta {
   color: #999;
-  font-size: 0.9rem;
+  font-size: $type-size-body-small;
   margin-bottom: 2rem;
 }
 
@@ -58,7 +58,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
 .layout--single .page__content p,
 .layout--blog .page__content p,
 .layout--post .page__content p {
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   line-height: 1.6;
   margin-bottom: 1.5rem;
   color: #e8e8e8;
@@ -83,7 +83,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
   color: #f8f8f2;
-  font-size: 0.9rem;
+  font-size: $type-size-body-small;
 }
 
 /* Blog game entries styling */
@@ -120,7 +120,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
 .layout--blog .game-details strong,
 .layout--post .game-details strong {
   color: #ffa366;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
   display: block;
   margin-bottom: 0.5rem;
 }
@@ -136,7 +136,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
 .layout--single .compatibility-line,
 .layout--blog .compatibility-line,
 .layout--post .compatibility-line {
-  font-size: 0.9rem;
+  font-size: $type-size-body-small;
   color: #ccc;
 }
 
@@ -188,7 +188,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
 .layout--post .inline-blog-cta p {
   margin-bottom: 15px;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: $type-size-body-large;
 }
 
 /* Blog CTA buttons - matches global button-secondary style */
@@ -230,7 +230,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
 .layout--post .inline-cta-subtext {
   margin-top: 8px;
   color: #cceeff;
-  font-size: 0.9rem;
+  font-size: $type-size-body-small;
   font-style: italic;
 }
 
@@ -347,7 +347,7 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
   border-radius: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: 0.9rem;
+  font-size: $type-size-body-small;
 }
 
 .layout--archive .filter-button:hover,
