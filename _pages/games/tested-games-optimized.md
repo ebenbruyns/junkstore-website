@@ -1546,10 +1546,14 @@ document.addEventListener('DOMContentLoaded', loadGamesData);
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.featured-entry.clickable {
+  cursor: pointer;
   transition: all 0.2s ease;
 }
 
-.featured-entry:hover {
+.featured-entry.clickable:hover {
   background-color: #3e5068;
   transform: translateY(-1px);
 }
