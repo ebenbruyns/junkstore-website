@@ -1038,7 +1038,7 @@ body.home h2 {
 }
 
 .question-item h4 {
-  color: #ffa366;
+  color: $junkstore-accent;
   font-size: 1rem;
   margin: 0 0 0.5rem 0;
   font-weight: 600;
@@ -1052,5 +1052,5 @@ body.home h2 {
 }
 
 .question-item a {
-  color: #66bfff;
+  color: $junkstore-primary;
 }
