@@ -41,13 +41,27 @@ h4 { font-size: $type-size-4; }
 h5 { font-size: $type-size-5; }
 h6 { font-size: $type-size-6; }
 
-// Section headings (orange accent)
+// Section headings - centered with accent color (orange)
 .section-heading,
+.js-section-heading,
 .features-section h2,
 .comparison-section h2 {
   color: $junkstore-accent;
-  text-align: center;
+  text-align: center !important;
   margin-bottom: 1.5rem;
+}
+
+// Page title headings - centered with primary color (blue)
+.js-page-heading {
+  color: $junkstore-primary;
+  text-align: center !important;
+  margin-bottom: 1.5rem;
+}
+
+// Centered headers - inherits color, just centers
+.centered-header,
+.js-centered-header {
+  text-align: center !important;
 }
 
 // Paragraphs

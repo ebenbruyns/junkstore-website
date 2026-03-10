@@ -18,7 +18,7 @@ excerpt: "Full feature comparison between Free Decky Plugin and Junk Store Pro"
 ---
 
 <section class="comparison-hero">
-  <h1>Complete Feature Comparison</h1>
+  <h1 class="js-section-heading">Complete Feature Comparison</h1>
   <p class="lead-text">Every feature, side by side. See exactly what Junk Store Pro adds to your experience.</p>
 </section>
 
@@ -225,195 +225,15 @@ excerpt: "Full feature comparison between Free Decky Plugin and Junk Store Pro"
   </table>
 </section>
 
-<section class="trial-cta" id="trial">
-  <div class="cta-box">
-    <h2>Ready to Upgrade?</h2>
-    <p>Try all Pro features free for <span data-pricing="trial-days">7</span> days. Your current setup keeps working.</p>
-    <div class="cta-buttons">
-      <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
-      <a href="/features/#gallery" class="button button-secondary large">Watch Demos First</a>
-    </div>
-    <p class="guarantee">Cancel anytime during trial | No commitment | Full feature access</p>
+<section class="simple-cta" id="trial">
+  <h2>Ready to Experience the Difference?</h2>
+  <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
+  <div class="cta-buttons">
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
   </div>
 </section>
 
-<style>
-/* ========== COMPARISON HERO ========== */
-.comparison-hero {
-  text-align: center;
-  margin: 2rem 0;
-}
-
-.comparison-hero h1 {
-  color: #e67300;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.lead-text {
-  font-size: 1.1rem;
-  color: #ccc;
-}
-
-/* ========== COMPARISON TABLE ========== */
-.detailed-comparison-section {
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-.table-intro {
-  text-align: center;
-  color: #ccc;
-  margin-bottom: 1.5rem;
-}
-
-.comparison-table {
-  width: 100%;
-  border-collapse: collapse;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid #444;
-}
-
-.comparison-table thead {
-  background: #1e2a38;
-}
-
-.comparison-table th {
-  padding: 1rem;
-  text-align: left;
-  color: #66bfff;
-  font-weight: 600;
-  border-bottom: 2px solid #444;
-}
-
-.comparison-table td {
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  vertical-align: top;
-  color: #e8e8e8;
-}
-
-.comparison-table td:first-child {
-  color: #fff;
-  width: 35%;
-}
-
-.comparison-table tr:hover {
-  background: rgba(0, 170, 255, 0.05);
-}
-
-.new-badge {
-  background: #e67300;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 0.7rem;
-  font-weight: bold;
-  margin-left: 0.5rem;
-  vertical-align: middle;
-}
-
-/* ========== HOVER POPUPS ========== */
-.hover-popup {
-  position: relative;
-  cursor: pointer;
-}
-
-.hover-label {
-  color: #0af;
-  font-size: 0.85rem;
-  margin-left: 0.5rem;
-}
-
-.gif-popup {
-  display: none;
-  position: absolute;
-  left: 100%;
-  top: 0;
-  margin-left: 10px;
-  background: #1e2a38;
-  border: 2px solid #0af;
-  border-radius: 8px;
-  padding: 10px;
-  z-index: 1000;
-  width: 300px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-}
-
-.hover-popup:hover .gif-popup,
-.hover-popup.active .gif-popup {
-  display: block;
-}
-
-.gif-popup video,
-.gif-popup img {
-  width: 100%;
-  border-radius: 4px;
-}
-
-.gif-popup p {
-  margin: 0.5rem 0 0 0;
-  font-size: 0.85rem;
-  color: #ccc;
-}
-
-@media (max-width: 768px) {
-  .gif-popup {
-    position: fixed;
-    left: 50% !important;
-    top: 10px !important;
-    transform: translateX(-50%);
-    width: 90%;
-    max-width: 350px;
-  }
-
-  .comparison-table {
-    font-size: 0.9rem;
-  }
-
-  .comparison-table td,
-  .comparison-table th {
-    padding: 0.5rem;
-  }
-}
-
-/* ========== CTA BOX ========== */
-.trial-cta {
-  margin: 2rem 0;
-}
-
-.cta-box {
-  background: linear-gradient(135deg, rgba(230, 115, 0, 0.15), rgba(230, 115, 0, 0.05));
-  border: 1px solid rgba(230, 115, 0, 0.3);
-  border-radius: 12px;
-  padding: 2rem;
-  text-align: center;
-}
-
-.cta-box h2 {
-  color: #e67300;
-  margin-top: 0;
-}
-
-.cta-buttons {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 1.5rem 0;
-}
-
-/* Button styles now use global buttons.scss */
-
-.guarantee {
-  color: #888;
-  font-size: 0.9rem;
-  margin-bottom: 0;
-}
-</style>
+<!-- Styles consolidated in _sass/features-page.scss -->
 
 <script>
 function restartGif(container) {

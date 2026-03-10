@@ -535,7 +535,7 @@ a[href^="/tutorials"] .js-thumb-img--guide + .js-video-thumb::after,
 
 .js-cta-box {
   max-width: 800px;
-  margin: 3rem auto;
+  margin: 2rem auto;
   padding: 2rem 1.5rem;
   background: rgba(255, 163, 102, 0.05);
   border-radius: 12px;
@@ -543,13 +543,28 @@ a[href^="/tutorials"] .js-thumb-img--guide + .js-video-thumb::after,
   text-align: center;
 
   h2 {
-    color: #ffa366;
+    color: $junkstore-accent;
+    margin-top: 0;
     margin-bottom: 1rem;
   }
 
   p {
-    color: #e8e8e8;
-    margin-bottom: 2rem;
+    color: $junkstore-light-text;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+  }
+
+  .guarantee {
+    color: $junkstore-meta-text;
+    font-size: 0.9rem;
+    margin-bottom: 0;
   }
 }
 

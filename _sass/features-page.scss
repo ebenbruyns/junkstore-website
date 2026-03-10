@@ -1,216 +1,767 @@
-/* Features Page Styles */
+/* ==========================================================================
+   Features Page Styles
+   Consolidated from embedded styles - uses SCSS variables for consistency
+   ========================================================================== */
 
-/* Feature Sections */
+/* ==========================================================================
+   TAB NAVIGATION
+   ========================================================================== */
+
+.features-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 1rem 0 0.5rem 0;
+  flex-wrap: wrap;
+}
+
+.features-tab {
+  padding: 12px 24px;
+  border: 2px solid $junkstore-border;
+  border-radius: 8px;
+  background: $junkstore-bg-card;
+  color: $junkstore-gray-text;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: $junkstore-accent;
+    color: $white;
+  }
+
+  &.active {
+    background: #e67300; // CTA orange for active state
+    border-color: #e67300;
+    color: $white;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-tab {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    flex: 1;
+    text-align: center;
+  }
+}
+
+/* ==========================================================================
+   TAB PANELS
+   ========================================================================== */
+
+.tab-panel {
+  display: none;
+
+  &.active {
+    display: block;
+    border-bottom: none;
+    padding-top: 1.5rem;
+  }
+}
+
+/* ==========================================================================
+   FEATURES TAB - Section & Tables
+   ========================================================================== */
+
 .features-section {
-  margin: 1.25rem auto;
-  max-width: 1200px;
-  width: 98%;
-  padding: 0 1rem;
+  margin: 0 0 2rem 0;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: $junkstore-accent;
+  }
 }
 
-.features-section h2 {
-  color: #66bfff;
-  font-size: 1.6rem;
-  margin-bottom: 0.75rem;
-  font-weight: bold;
-  text-align: left;
-  padding-left: 0.5rem;
-}
-
-/* Feature Tables */
 .features-table {
   display: table !important;
   width: 100%;
   table-layout: fixed;
   border-collapse: collapse;
-  background: rgba(255, 255, 255, 0.05);
+  margin: 1rem 0;
+  background: $junkstore-bg-card;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #444;
-  margin-bottom: 1rem;
+  border: 1px solid $junkstore-border;
+
+  tbody {
+    display: table-row-group;
+  }
+
+  tr {
+    display: table-row;
+
+    &:hover {
+      background: rgba($junkstore-accent, 0.1);
+    }
+  }
+
+  td {
+    display: table-cell;
+    padding: 12px 16px;
+    border-bottom: 1px solid $junkstore-border;
+    vertical-align: top;
+
+    &:first-child {
+      width: 30%;
+      color: $white;
+    }
+
+    &:last-child {
+      width: 70%;
+      color: $junkstore-gray-text;
+    }
+  }
 }
 
-.features-table tbody {
-  display: table-row-group;
-}
-
-.features-table tr {
-  display: table-row;
-}
-
-.features-table td {
-  display: table-cell;
-  padding: 0.75rem 1rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  vertical-align: top;
-  font-size: 0.95rem;
-  line-height: 1.4;
-}
-
-.features-table td:first-child {
-  color: #ffa366;
-  font-weight: 600;
-  width: 35%;
-  white-space: nowrap;
-}
-
-.features-table td:last-child {
-  color: #e8e8e8;
-  width: 65%;
-}
-
-.features-table tr:nth-child(even) {
-  background: rgba(255, 255, 255, 0.02);
-}
-
-.features-table tr:hover {
-  background: rgba(0, 170, 255, 0.05);
-}
-
-.features-table tr:last-child td {
-  border-bottom: none;
-}
-
-/* CTA Section */
-.features-cta {
-  background: rgba(0, 170, 255, 0.1);
-  padding: 1.5rem 1rem;
-  text-align: center;
-  margin: 1.5rem auto 1rem auto;
-  border-radius: 8px;
-  max-width: 1200px;
-  width: 98%;
-  border: 1px solid rgba(0, 170, 255, 0.2);
-}
-
-.features-cta .cta-box h2 {
-  font-size: 1.75rem;
-  margin-bottom: 0.75rem;
-  margin-top: 0;
-  color: #66bfff;
-  font-weight: bold;
-}
-
-.features-cta .cta-box p {
-  color: #e8e8e8;
-  font-size: 1.05rem;
-  line-height: 1.4;
-  margin-bottom: 0.75rem;
-}
-
-.features-cta .cta-buttons {
-  margin: 1.25rem 0;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.features-cta .cta-buttons .button {
-  margin: 0.5rem;
-}
-
-.features-cta .button.large {
-  padding: 1rem 2rem;
-  font-size: 1.1rem;
-}
-
-.features-cta .guarantee {
-  color: #ccc;
-  font-size: 0.9rem;
-  margin-top: 1rem;
-}
-
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
-  .features-section {
-    width: 100%;
-    padding: 0 0.5rem;
-  }
-
-  .features-section h2 {
-    font-size: 1.5rem;
-    padding-left: 0.25rem;
-  }
-
-  /* Convert tables to stacked cards on mobile */
   .features-table {
     display: block;
     border: none;
     background: transparent;
-  }
 
-  .features-table tbody {
-    display: block;
-  }
+    tbody {
+      display: block;
+    }
 
-  .features-table tr {
-    display: block;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
-    margin-bottom: 0.75rem;
-    padding: 1rem;
-    border: 1px solid #444;
-  }
+    tr {
+      display: block;
+      border-bottom: 1px solid $junkstore-border;
+      padding: 8px 0;
+    }
 
-  .features-table tr:hover {
-    background: rgba(0, 170, 255, 0.08);
-  }
+    td {
+      display: block;
+      padding: 8px 12px;
 
-  .features-table td {
-    display: block;
-    width: 100%;
-    padding: 0;
-    border: none;
-  }
+      &:first-child {
+        width: 100%;
+        border-bottom: none;
+        padding-bottom: 4px;
+      }
 
-  .features-table td:first-child {
-    width: 100%;
-    font-size: 1.05rem;
-    margin-bottom: 0.5rem;
-    white-space: normal;
-  }
-
-  .features-table td:last-child {
-    width: 100%;
-    font-size: 0.95rem;
-    color: #ccc;
-  }
-
-  .features-cta {
-    padding: 1.5rem 1rem;
-  }
-
-  .features-cta .cta-box h2 {
-    font-size: 1.5rem;
-  }
-
-  .features-cta .cta-buttons {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .features-cta .cta-buttons .button {
-    width: 100%;
-    max-width: 280px;
-    margin: 0.5rem 0;
+      &:last-child {
+        padding-top: 0;
+      }
+    }
   }
 }
 
-@media (max-width: 480px) {
-  .features-table tr {
-    padding: 0.75rem;
+/* ==========================================================================
+   COMPARE TAB - Comparison Hero
+   ========================================================================== */
+
+.comparison-hero {
+  text-align: center;
+  padding: 1rem 1.5rem;
+  max-width: 1200px;
+  width: 98%;
+  margin: 0 auto 1rem auto;
+
+  h1 {
+    color: $junkstore-accent;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+#tab-difference .comparison-hero {
+  margin: 0;
+
+  h1 {
+    margin: 0 0 0.5rem 0;
   }
 
-  .features-table td:first-child {
-    font-size: 1rem;
+  .lead-text {
+    margin: 0;
+    text-align: center;
   }
 
-  .features-table td:last-child {
+  .reassurance {
+    margin: 1rem 0 0.5rem 0;
+    text-align: center;
+    color: $junkstore-gray-text;
+    font-size: 0.95rem;
+  }
+}
+
+.lead-text {
+  font-size: 1.1rem;
+  margin: 0;
+  color: $junkstore-gray-text;
+}
+
+.hero-upgrade-link {
+  background: rgba($junkstore-accent, 0.1);
+  border: 1px solid rgba($junkstore-accent, 0.3);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-top: 1rem;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: $junkstore-accent;
+    font-weight: 600;
+  }
+}
+
+/* ==========================================================================
+   UPGRADE GRID
+   ========================================================================== */
+
+.upgrade-section {
+  margin: 0;
+  padding: 0;
+
+  h2 {
+    text-align: center;
+    color: $junkstore-accent;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.upgrade-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.upgrade-item {
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: all 0.2s ease;
+  text-align: left;
+
+  &:hover {
+    border-color: $junkstore-primary;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba($junkstore-primary, 0.15);
+  }
+
+  h3 {
+    color: $junkstore-accent;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+
+  .current {
+    color: #8bc34a;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .upgrade {
+    color: $junkstore-accent;
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+}
+
+.comparison-button {
+  text-align: center;
+  margin: 1rem 0;
+
+  .button {
+    padding: 14px 48px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .upgrade-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ==========================================================================
+   COMPARISON TABLE
+   ========================================================================== */
+
+.detailed-comparison-section {
+  max-width: 1200px;
+  margin: 0 auto 2rem auto;
+  padding: 0 1rem;
+
+  h2 {
+    text-align: center;
+    color: $junkstore-primary;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.table-intro {
+  text-align: center;
+  color: $junkstore-gray-text;
+  margin-bottom: 1.5rem;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba($white, 0.03);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid $junkstore-border;
+
+  thead {
+    background: $junkstore-bg-card;
+  }
+
+  th {
+    padding: 1rem;
+    text-align: left;
+    color: $junkstore-primary;
+    font-weight: 600;
+    border-bottom: 2px solid $junkstore-border;
+  }
+
+  td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgba($white, 0.1);
+    vertical-align: top;
+    color: $junkstore-light-text;
+
+    &:first-child {
+      color: $white;
+      width: 35%;
+    }
+  }
+
+  tr:hover {
+    background: rgba($junkstore-primary, 0.05);
+  }
+}
+
+.new-badge {
+  background: #e67300; // CTA orange for badges
+  color: $white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+/* ==========================================================================
+   HOVER POPUPS (for comparison table)
+   ========================================================================== */
+
+.hover-popup {
+  position: relative;
+  cursor: pointer;
+}
+
+.hover-label {
+  color: $junkstore-primary;
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}
+
+.gif-popup {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin-left: 10px;
+  background: $junkstore-bg-card;
+  border: 2px solid $junkstore-primary;
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 1000;
+  width: 300px;
+  box-shadow: 0 4px 20px rgba($black, 0.5);
+
+  video,
+  img {
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  p {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.85rem;
+    color: $junkstore-gray-text;
+  }
+}
+
+.hover-popup:hover .gif-popup,
+.hover-popup.active .gif-popup {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .gif-popup {
+    position: fixed;
+    left: 50% !important;
+    top: 10px !important;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .comparison-table {
+    font-size: 0.9rem;
+
+    td,
+    th {
+      padding: 0.5rem;
+    }
+  }
+}
+
+/* ==========================================================================
+   DIFFERENTIATORS SECTION
+   ========================================================================== */
+
+.section-divider {
+  margin: 1.5rem 0;
+  border: none;
+  border-top: 1px solid $junkstore-border;
+}
+
+.major-differentiators {
+  margin: 2rem 0;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.differentiator-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.differentiator-item {
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: 8px;
+  padding: 1.25rem;
+
+  h3 {
+    color: $junkstore-accent;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .problem {
+    color: #ff6b6b;
+    margin-bottom: 0.5rem;
     font-size: 0.9rem;
   }
 
-  .features-cta .cta-box h2 {
-    font-size: 1.3rem;
+  .solution {
+    color: #4caf50;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+}
+
+.differentiator-conclusion {
+  text-align: center;
+  background: rgba($junkstore-accent, 0.1);
+  border: 1px solid rgba($junkstore-accent, 0.3);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* ==========================================================================
+   DECISION SECTION
+   ========================================================================== */
+
+.decision-section {
+  margin: 2rem 0;
+}
+
+.decision-box {
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: 8px;
+  padding: 2rem;
+
+  h2 {
+    text-align: center;
+    color: $junkstore-accent;
+    margin-top: 0;
+  }
+}
+
+.decision-points {
+  display: grid;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.decision-point {
+  h4 {
+    color: $white;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    color: $junkstore-gray-text;
+    margin: 0;
+  }
+}
+
+/* ==========================================================================
+   GALLERY TAB
+   ========================================================================== */
+
+.gallery-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba($black, 0.85);
+  z-index: 999;
+
+  &.active {
+    display: block;
+  }
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.media-item {
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  a img {
+    transition: transform 0.2s;
+  }
+
+  a:hover img {
+    transform: scale(1.02);
+  }
+
+  .caption-title {
+    font-weight: 600;
+    color: $white;
+    margin: 10px 0 5px 0;
+    text-align: center;
+  }
+
+  .caption {
+    color: $junkstore-meta-text;
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.gif-wrapper {
+  position: relative;
+  cursor: pointer;
+
+  &::after {
+    content: '\25B6';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: rgba($white, 0.8);
+    text-shadow: 0 2px 10px rgba($black, 0.5);
+    pointer-events: none;
+    transition: opacity 0.2s;
+  }
+
+  &.playing::after {
+    opacity: 0;
+  }
+}
+
+.gif-click.zoomed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90vw;
+  max-height: 90vh;
+  z-index: 1000;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba($black, 0.8);
+}
+
+.close-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: #e67300; // CTA orange for button
+  color: $white;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background: lighten(#e67300, 10%);
+  }
+}
+
+/* ==========================================================================
+   CTA BOXES
+   ========================================================================== */
+
+.features-cta,
+.trial-cta {
+  margin: 2rem 0;
+}
+
+.simple-cta {
+  text-align: center;
+  margin: 1.5rem 0;
+
+  h2 {
+    color: $junkstore-accent;
+    margin: 0 0 1rem 0;
+  }
+
+  .guarantee {
+    color: $junkstore-meta-text;
+    font-size: 0.9rem;
+    margin: 0 0 1rem 0;
+    text-align: center;
+  }
+
+  .cta-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.cta-box {
+  background: linear-gradient(135deg, rgba($junkstore-accent, 0.15), rgba($junkstore-accent, 0.05));
+  border: 1px solid rgba($junkstore-accent, 0.3);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+
+  h2 {
+    color: $junkstore-accent;
+    margin-top: 0;
+    text-align: center;
+  }
+
+  > p {
+    text-align: center;
+  }
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+
+.guarantee {
+  color: $junkstore-meta-text;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   SECTION HELPERS
+   ========================================================================== */
+
+.section-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-heading {
+  text-align: center;
+  color: $junkstore-accent;
+  border-bottom: 1px solid $junkstore-border;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.gallery-cta {
+  margin-top: 3rem;
+}
+
+/* ==========================================================================
+   BACK TO TOP
+   ========================================================================== */
+
+.section-end {
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  border-top: none;
+}
+
+.trial-cta + .section-end,
+.gallery-cta + .section-end {
+  border-top: none;
+}
+
+.trial-cta {
+  border-bottom: none;
+}
+
+.back-to-top {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: $white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.2s;
+
+  &:hover {
+    background: #e67300; // CTA orange for hover
   }
 }
