@@ -594,3 +594,144 @@ a[href^="/tutorials"] .js-thumb-img--guide + .js-video-thumb::after,
     min-height: auto;
   }
 }
+
+/*
+   ==========================================================================
+   LEGACY ALERT CLASSES (merged from components.scss - March 2026)
+   Usage: <div class="alert-warning">Warning message</div>
+   ========================================================================== */
+
+.alert-warning,
+.alert-error,
+.alert-success,
+.alert-info {
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.alert-warning {
+  background: linear-gradient(135deg, #2a2a1a 0%, #1e2a38 100%);
+  border: 2px solid $junkstore-accent;
+  border-left-width: 4px;
+}
+
+.alert-error {
+  background: rgba(255, 69, 0, 0.15);
+  border: 2px solid #ff4500;
+  border-left-width: 4px;
+}
+
+.alert-success {
+  background: rgba(72, 187, 120, 0.15);
+  border: 2px solid #48bb78;
+  border-left-width: 4px;
+}
+
+.alert-info {
+  background: rgba($junkstore-primary, 0.1);
+  border: 2px solid $junkstore-primary;
+  border-left-width: 4px;
+}
+
+/*
+   Grid Layouts
+   ========================================================================== */
+
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.grid-2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-3col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*
+   Text Utilities
+   ========================================================================== */
+
+.text-muted {
+  color: #999;
+}
+
+.text-meta {
+  color: #888;
+  font-size: 0.875rem;
+}
+
+.text-primary {
+  color: $junkstore-primary;
+}
+
+.text-accent {
+  color: $junkstore-accent;
+}
+
+.text-success {
+  color: #48bb78;
+}
+
+.text-warning {
+  color: #ecc94b;
+}
+
+.text-danger {
+  color: #f56565;
+}
+
+/*
+   Section Headers
+   ========================================================================== */
+
+.section-header {
+  text-align: center;
+  margin: 1rem auto 0.5rem auto;
+  max-width: 1200px;
+  width: 98%;
+  color: $junkstore-primary;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0 1.5rem;
+}
+
+/*
+   Simple Card Components
+   ========================================================================== */
+
+.card {
+  background: $junkstore-bg-card;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-elevated {
+  background: #2d3748;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}

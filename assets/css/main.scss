@@ -25,14 +25,13 @@
 @include breakpoint-set("to ems", true);
 
 // ==========================================================================
-// Custom components (were imported through minimal-mistakes.scss)
+// Custom components
 // ==========================================================================
 @import "buttons";
 @import "content-boxes";
 @import "faq-box";
 @import "gallery";
 @import "games-table-optimized";
-@import "troubleshooting-box";
 @import "faq-navigation";
 @import "pricing-section";
 @import "compatibility-table";
@@ -41,7 +40,6 @@
 @import "hero-height-fix";
 @import "buy-now-screenshot";
 @import "skeleton-loaders";
-@import "components";
 
 // Page-specific styles
 @import "base-styles";
@@ -55,12 +53,9 @@
 @import "help-page";
 @import "blog-landing";
 
-// Mobile & performance
-@import "mobile-navigation";
-@import "mobile-performance";
-@import "mobile-optimizations";
+// Mobile & performance (consolidated March 2026)
+@import "mobile";
 @import "games-modal";
-@import "tutorials";
 
 /* Page-specific intro styles */
 .page-intro {
