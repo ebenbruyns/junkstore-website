@@ -44,34 +44,30 @@ function normalizeSlug(slug, title) {
 const gameDetailsCache = new Map();
 
 /**
- * Load games from Firebase or cache
+ * Load games from Firebase via Cloudflare Worker cache
  * @returns {Promise<Object>} Games data in same format as games-table.json
  */
 async function loadGamesFromFirebase() {
-  // Check cache first
+  // Check localStorage cache first
   const cached = getCachedGames();
   if (cached) {
     console.log('📦 Using cached games data');
     return cached;
   }
 
-  console.log('🔥 Fetching games from Firebase...');
+  console.log('🔥 Fetching games via cache worker...');
 
-  // Wait for Firebase to be ready
-  if (!window.firebaseDb) {
-    console.log('⏳ Waiting for Firebase...');
+  // Wait for cache client to be ready
+  if (!window.fetchCachedCollection) {
+    console.log('⏳ Waiting for cache client...');
     await new Promise(resolve => {
       const check = () => {
-        if (window.firebaseDb) resolve();
+        if (window.fetchCachedCollection) resolve();
         else setTimeout(check, 100);
       };
       check();
     });
   }
-
-  const db = window.firebaseDb;
-  const getDocs = window.firebaseGetDocs;
-  const collection = window.firebaseCollection;
 
   const storefronts = ['epic', 'gog', 'amazon', 'itch'];
   const storefrontLabels = {
@@ -90,25 +86,24 @@ async function loadGamesFromFirebase() {
 
   for (const storefront of storefronts) {
     try {
-      const gamesRef = collection(db, 'games', storefront, 'games');
-      const snapshot = await getDocs(gamesRef);
+      // Fetch from Cloudflare Worker cache instead of direct Firebase
+      const storeGames = await window.fetchCachedCollection(`games/${storefront}/games`);
 
       let storeTotal = 0;
       let storeFeatured = 0;
       let storeGreenDecky = 0;
       let storeGreenStandalone = 0;
 
-      snapshot.forEach(doc => {
-        const game = doc.data();
+      (storeGames || []).forEach(game => {
 
         // Add to games array with only table display fields (optimized - no _fullData)
         games.push({
-          id: game.id || doc.id,
+          id: game.id || game._id,
           title: game.title || '',
           storefront: storefrontLabels[storefront],
           storefrontKey: storefront, // Keep original key for fetching details later
           slug: normalizeSlug(game.slug, game.title),
-          databaseId: game.databaseId || game.id || doc.id, // For URL lookups
+          databaseId: game.databaseId || game.id || game._id, // For URL lookups
           decky_rating: game.decky_rating || game.deckyRating || '',
           standalone_rating: game.standalone_rating || game.standaloneRating || '',
           date_tested: game.date_tested || game.dateTested || '',
@@ -231,7 +226,7 @@ function clearGamesCache() {
 }
 
 /**
- * Load full game details from Firebase on-demand (for modal)
+ * Load full game details from Firebase via cache on-demand (for modal)
  * This is called when a user clicks on a game to view details
  * @param {string} gameId - The game ID
  * @param {string} storefrontKey - The storefront key (epic, gog, amazon, itch)
@@ -245,38 +240,33 @@ async function loadGameDetailsFromFirebase(gameId, storefrontKey) {
     return gameDetailsCache.get(cacheKey);
   }
 
-  console.log(`🔥 Fetching game details from Firebase: ${storefrontKey}/${gameId}`);
+  console.log(`🔥 Fetching game details via cache: ${storefrontKey}/${gameId}`);
 
-  // Wait for Firebase to be ready
-  if (!window.firebaseDb) {
-    console.log('⏳ Waiting for Firebase...');
+  // Wait for cache client to be ready
+  if (!window.fetchCachedDocument) {
+    console.log('⏳ Waiting for cache client...');
     await new Promise(resolve => {
       const check = () => {
-        if (window.firebaseDb) resolve();
+        if (window.fetchCachedDocument) resolve();
         else setTimeout(check, 100);
       };
       check();
     });
   }
 
-  const db = window.firebaseDb;
-  const getDoc = window.firebaseGetDoc;
-  const doc = window.firebaseDoc;
-
   try {
-    const gameRef = doc(db, 'games', storefrontKey, 'games', gameId);
-    const gameSnap = await getDoc(gameRef);
+    // Fetch from Cloudflare Worker cache instead of direct Firebase
+    const gameData = await window.fetchCachedDocument(`games/${storefrontKey}/games/${gameId}`);
 
-    if (gameSnap.exists()) {
-      const gameData = gameSnap.data();
+    if (gameData) {
       console.log(`✅ Loaded full details for: ${gameData.title}`);
 
-      // Cache the result
+      // Cache the result in memory
       gameDetailsCache.set(cacheKey, gameData);
 
       return gameData;
     } else {
-      console.warn(`⚠️ Game not found in Firebase: ${storefrontKey}/${gameId}`);
+      console.warn(`⚠️ Game not found: ${storefrontKey}/${gameId}`);
       return null;
     }
   } catch (error) {

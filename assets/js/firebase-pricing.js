@@ -23,23 +23,20 @@
  */
 
 (async function loadPricing() {
-  // Wait for Firebase to be ready
-  if (!window.firebaseDb || !window.firebaseDoc || !window.firebaseGetDoc) {
+  // Wait for cache client to be ready
+  if (!window.fetchCachedDocument) {
     setTimeout(loadPricing, 100);
     return;
   }
 
   try {
-    const db = window.firebaseDb;
-    const pricingRef = window.firebaseDoc(db, 'pricing', 'config');
-    const snapshot = await window.firebaseGetDoc(pricingRef);
+    // Fetch from Cloudflare Worker cache instead of direct Firebase
+    const pricing = await window.fetchCachedDocument('pricing/config');
 
-    if (!snapshot.exists()) {
-      console.warn('Pricing config not found in Firebase');
+    if (!pricing) {
+      console.warn('Pricing config not found');
       return;
     }
-
-    const pricing = snapshot.data();
     const symbol = pricing.currency_symbol || '$';
     let price = pricing.annual_price || 40;
     let trialDays = pricing.trial_days || 7;

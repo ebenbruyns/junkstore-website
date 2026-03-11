@@ -1,12 +1,12 @@
 /**
  * Firebase Testimonials Loader
- * Fetches testimonials from Firestore and renders them with rotation
+ * Fetches testimonials from Firestore via Cloudflare Worker cache
  */
 
 (async function loadTestimonials() {
-  // Wait for Firebase to be ready
-  if (!window.firebaseDb) {
-    console.log('Firebase not ready for testimonials, retrying...');
+  // Wait for cache client to be ready
+  if (!window.fetchCachedCollection) {
+    console.log('Cache client not ready for testimonials, retrying...');
     setTimeout(loadTestimonials, 100);
     return;
   }
@@ -17,29 +17,21 @@
     return;
   }
 
-  console.log('Loading testimonials from Firebase...');
+  console.log('Loading testimonials from cache...');
 
   try {
-    const db = window.firebaseDb;
-    const testimonialRef = window.firebaseCollection(db, 'testimonials');
-    const snapshot = await window.firebaseGetDocs(testimonialRef);
+    // Fetch from Cloudflare Worker cache instead of direct Firebase
+    const allItems = await window.fetchCachedCollection('testimonials');
 
-    console.log('Firebase testimonials snapshot:', snapshot.empty ? 'empty' : `${snapshot.size} items`);
+    console.log('Testimonials loaded:', allItems ? allItems.length : 0);
 
-    if (snapshot.empty) {
+    if (!allItems || allItems.length === 0) {
       testimonialContainer.innerHTML = '<div class="testimonial-item active"><p class="testimonial-quote">No testimonials available.</p></div>';
       return;
     }
 
-    // Get all testimonials
-    const testimonials = [];
-    snapshot.forEach(doc => {
-      const item = doc.data();
-      // Only include active testimonials (or all if no isActive field)
-      if (item.isActive !== false) {
-        testimonials.push(item);
-      }
-    });
+    // Filter to active testimonials
+    const testimonials = allItems.filter(item => item.isActive !== false);
 
     // Sort by order if available
     testimonials.sort((a, b) => (a.order || 0) - (b.order || 0));

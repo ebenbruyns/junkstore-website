@@ -1,26 +1,23 @@
 /**
  * Firebase Uptime Tracker
- * Fetches uptime data from Firestore and displays days since last reset
+ * Fetches uptime data from Firestore via Cloudflare Worker cache
  * Works in footer (all pages) and on the status page
  */
 (async function loadUptime() {
-  // Wait for Firebase to be initialized
-  if (!window.firebaseDb || !window.firebaseDoc || !window.firebaseGetDoc) {
+  // Wait for cache client to be ready
+  if (!window.fetchCachedDocument) {
     setTimeout(loadUptime, 100);
     return;
   }
 
   try {
-    const db = window.firebaseDb;
-    const docRef = window.firebaseDoc(db, 'metadata', 'uptime');
-    const docSnap = await window.firebaseGetDoc(docRef);
+    // Fetch from Cloudflare Worker cache instead of direct Firebase
+    const data = await window.fetchCachedDocument('metadata/uptime');
 
-    if (!docSnap.exists()) {
+    if (!data) {
       console.log('Uptime document not found');
       return;
     }
-
-    const data = docSnap.data();
 
     // Handle both Firestore Timestamp and string formats
     let resetDate;

@@ -1,12 +1,12 @@
 /**
  * Firebase FAQ Loader
- * Fetches FAQ items from Firestore and renders them with product filtering
+ * Fetches FAQ items from Firestore via Cloudflare Worker cache
  */
 
 (async function loadFAQ() {
-  // Wait for Firebase to be ready
-  if (!window.firebaseDb) {
-    console.log('Firebase not ready, retrying...');
+  // Wait for cache client to be ready
+  if (!window.fetchCachedCollection) {
+    console.log('Cache client not ready, retrying...');
     setTimeout(loadFAQ, 100);
     return;
   }
@@ -17,28 +17,21 @@
     return;
   }
 
-  console.log('Loading FAQ from Firebase...');
+  console.log('Loading FAQ from cache...');
 
   try {
-    const db = window.firebaseDb;
-    const faqRef = window.firebaseCollection(db, 'faq');
-    const snapshot = await window.firebaseGetDocs(faqRef);
+    // Fetch from Cloudflare Worker cache instead of direct Firebase
+    const allItems = await window.fetchCachedCollection('faq');
 
-    console.log('Firebase FAQ snapshot:', snapshot.empty ? 'empty' : `${snapshot.size} items`);
+    console.log('FAQ items loaded:', allItems.length);
 
-    if (snapshot.empty) {
+    if (!allItems || allItems.length === 0) {
       faqContainer.innerHTML = '<p class="no-content">No FAQ items available. Please sync FAQ data from the admin panel.</p>';
       return;
     }
 
-    // Get all FAQ items
-    const faqItems = [];
-    snapshot.forEach(doc => {
-      const item = doc.data();
-      if (item.isActive) {
-        faqItems.push(item);
-      }
-    });
+    // Filter to active items only
+    const faqItems = allItems.filter(item => item.isActive);
 
     // Group by category and sort
     const grouped = {};

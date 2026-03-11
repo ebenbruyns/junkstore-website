@@ -1,11 +1,11 @@
 /**
  * Firebase Troubleshooting Loader
- * Fetches troubleshooting items from Firestore and renders them with product filtering
+ * Fetches troubleshooting items from Firestore via Cloudflare Worker cache
  */
 
 (async function loadTroubleshooting() {
-  // Wait for Firebase to be ready
-  if (!window.firebaseDb) {
+  // Wait for cache client to be ready
+  if (!window.fetchCachedCollection) {
     setTimeout(loadTroubleshooting, 100);
     return;
   }
@@ -14,23 +14,16 @@
   if (!tsContainer) return;
 
   try {
-    const db = window.firebaseDb;
-    const tsRef = window.firebaseCollection(db, 'troubleshooting');
-    const snapshot = await window.firebaseGetDocs(tsRef);
+    // Fetch from Cloudflare Worker cache instead of direct Firebase
+    const allItems = await window.fetchCachedCollection('troubleshooting');
 
-    if (snapshot.empty) {
+    if (!allItems || allItems.length === 0) {
       tsContainer.innerHTML = '<p class="no-content">No troubleshooting items available.</p>';
       return;
     }
 
-    // Get all troubleshooting items
-    const tsItems = [];
-    snapshot.forEach(doc => {
-      const item = doc.data();
-      if (item.isActive) {
-        tsItems.push(item);
-      }
-    });
+    // Filter to active items only
+    const tsItems = allItems.filter(item => item.isActive);
 
     // Group by category and sort
     const grouped = {};

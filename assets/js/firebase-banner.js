@@ -1,11 +1,11 @@
 /**
  * Firebase Banner Loader
- * Fetches banners from Firestore and displays the active one
+ * Fetches banners from Firestore via Cloudflare Worker cache
  */
 
 (async function loadBanner() {
-  // Wait for Firebase to be ready
-  if (!window.firebaseDb) {
+  // Wait for cache client to be ready
+  if (!window.fetchCachedCollection) {
     setTimeout(loadBanner, 100);
     return;
   }
@@ -14,11 +14,10 @@
   if (!bannerContainer) return;
 
   try {
-    const db = window.firebaseDb;
-    const bannersRef = window.firebaseCollection(db, 'banners');
-    const snapshot = await window.firebaseGetDocs(bannersRef);
+    // Fetch from Cloudflare Worker cache instead of direct Firebase
+    const allBanners = await window.fetchCachedCollection('banners');
 
-    if (snapshot.empty) {
+    if (!allBanners || allBanners.length === 0) {
       bannerContainer.style.display = 'none';
       return;
     }
@@ -26,22 +25,19 @@
     const now = new Date();
     const currentPath = window.location.pathname;
 
-    // Get all banners and filter
-    const banners = [];
-    snapshot.forEach(doc => {
-      const banner = doc.data();
-
+    // Filter banners
+    const banners = allBanners.filter(banner => {
       // Must be active
-      if (!banner.isActive) return;
+      if (!banner.isActive) return false;
 
       // Check date range
       if (banner.startDate) {
         const startDate = new Date(banner.startDate);
-        if (now < startDate) return;
+        if (now < startDate) return false;
       }
       if (banner.endDate) {
         const endDate = new Date(banner.endDate);
-        if (now > endDate) return;
+        if (now > endDate) return false;
       }
 
       // Check page targeting
@@ -63,10 +59,10 @@
           // Exact match (ignoring trailing slash)
           return normalizePath(target) === normalizedCurrent;
         });
-        if (!matches) return;
+        if (!matches) return false;
       }
 
-      banners.push(banner);
+      return true;
     });
 
     if (banners.length === 0) {
