@@ -6,8 +6,39 @@
  * Full game details are loaded on-demand when modal is opened.
  */
 
-const CACHE_KEY = 'junkstore_games_cache_v2'; // v2: optimized - no _fullData in initial load
+const CACHE_KEY = 'junkstore_games_cache_v5'; // v5: known slug fixes map
 const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes in milliseconds
+
+/**
+ * Known slug fixes for games where Firebase has malformed slugs
+ * Maps incorrect Firebase slugs to correct static JSON filenames
+ */
+const SLUG_FIXES = {
+  'f-i-s-t-forged-in-shadow-torch': 'fist-forged-in-shadow-torch',
+  'tiny-tina-s-assault-on-dragon-keep-a-wonderlands-one-shot-adventure': 'tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure',
+  'tiny-tina-s-wonderlands': 'tiny-tinas-wonderlands'
+};
+
+/**
+ * Normalize slug to match static JSON file naming convention
+ * Uses a known-fixes map for specific problematic slugs
+ * @param {string} slug - The slug to normalize
+ * @param {string} title - The game title (unused, kept for compatibility)
+ * @returns {string} Normalized slug
+ */
+function normalizeSlug(slug, title) {
+  if (!slug) return '';
+
+  const normalized = slug.toLowerCase();
+
+  // Check if this slug has a known fix
+  if (SLUG_FIXES[normalized]) {
+    console.log(`🔧 Fixed slug: ${normalized} -> ${SLUG_FIXES[normalized]}`);
+    return SLUG_FIXES[normalized];
+  }
+
+  return normalized;
+}
 
 // Cache for individual game details (loaded on-demand)
 const gameDetailsCache = new Map();
@@ -76,7 +107,7 @@ async function loadGamesFromFirebase() {
           title: game.title || '',
           storefront: storefrontLabels[storefront],
           storefrontKey: storefront, // Keep original key for fetching details later
-          slug: game.slug || '',
+          slug: normalizeSlug(game.slug, game.title),
           databaseId: game.databaseId || game.id || doc.id, // For URL lookups
           decky_rating: game.decky_rating || game.deckyRating || '',
           standalone_rating: game.standalone_rating || game.standaloneRating || '',
