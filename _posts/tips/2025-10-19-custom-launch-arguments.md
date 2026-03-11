@@ -6,9 +6,9 @@ categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips, epic-games, gog]
 slug: "custom-launch-arguments"
 excerpt: "Add advanced launch parameters for Epic and GOG games using Junk Store's Advanced settings. Pro Version includes a built-in text editor for easier configuration."
-image: /assets/images/blog/251015-launch-args-hero.webp
+image: /assets/images/blog/tips/launch-args/251015-launch-args-hero.webp
 header:
-  teaser: /assets/images/blog/251015-launch-args-thumb.webp
+  teaser: /assets/images/blog/tips/launch-args/251015-launch-args-thumb.webp
 read_time: "3 min read"
 toc: true
 ---
@@ -46,7 +46,7 @@ Easily add or edit launch arguments and variables directly in Junk Store. The co
 
 5. Navigate to **Additional Variables** or **Additional Arguments** field, then press **Y** to open the built-in text editor
 
-   ![Additional Variables or Arguments field](/assets/images/blog/addargs.webp){: .align-center}
+   ![Additional Variables or Arguments field](/assets/images/blog/tips/launch-args/addargs.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Find the Additional Variables or Additional Arguments field</p>
 
 6. Press **A** to open keyboard and type your arguments
@@ -79,7 +79,7 @@ All custom arguments are applied automatically when launching games - no manual 
 
 5. Navigate to **Additional Variables** or **Additional Arguments** field
 
-   ![Decky Plugin Additional Variables](/assets/images/blog/deckyargsvars.webp){: .align-center}
+   ![Decky Plugin Additional Variables](/assets/images/blog/tips/launch-args/deckyargsvars.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Locate the Additional Variables or Additional Arguments field</p>
 
 6. Press **A** to open keyboard and type your arguments

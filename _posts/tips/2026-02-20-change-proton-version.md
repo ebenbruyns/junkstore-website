@@ -6,9 +6,9 @@ categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips, proton, compatibility]
 slug: "change-proton-version"
 excerpt: "Change Proton versions directly in Game Mode using Steam's built-in compatibility menu."
-image: /assets/images/blog/proton-tip/proton-tip-hero.webp
+image: /assets/images/blog/tips/proton-tip/proton-tip-hero.webp
 header:
-  teaser: /assets/images/blog/proton-tip/proton-tip-thumb.webp
+  teaser: /assets/images/blog/tips/proton-tip/proton-tip-thumb.webp
 read_time: "4 min read"
 toc: true
 ---
@@ -34,14 +34,14 @@ You'll still need to download your Proton versions using a tool like ProtonUp-Qt
 <li>Choose <strong>Properties</strong></li>
 </ol>
 
-![Select Properties from the gear menu](/assets/images/blog/proton-tip/propertiesY.webp){: .align-center loading="lazy"}
+![Select Properties from the gear menu](/assets/images/blog/tips/proton-tip/propertiesY.webp){: .align-center loading="lazy"}
 
 <ol start="5" style="padding-left: 1.2em; margin-left: 0; text-align: left;">
 <li>Go to <strong>Compatibility</strong> tab</li>
 <li>Select a different <strong>Proton version</strong> from the dropdown</li>
 </ol>
 
-![Select your Proton version from the dropdown](/assets/images/blog/proton-tip/protonversions.webp){: .align-center loading="lazy"}
+![Select your Proton version from the dropdown](/assets/images/blog/tips/proton-tip/protonversions.webp){: .align-center loading="lazy"}
 
 That's it. The setting saves automatically for that game.
 
@@ -55,7 +55,7 @@ You can also change Proton directly from the Non-Steam tab in your Steam Library
 <li>Select <strong>Properties</strong></li>
 </ol>
 
-![Access Properties from Steam Library](/assets/images/blog/proton-tip/steamlibproperties.webp){: .align-center loading="lazy"}
+![Access Properties from Steam Library](/assets/images/blog/tips/proton-tip/steamlibproperties.webp){: .align-center loading="lazy"}
 
 <ol start="4" style="padding-left: 1.2em; margin-left: 0; text-align: left;">
 <li>Go to <strong>Compatibility</strong> tab</li>

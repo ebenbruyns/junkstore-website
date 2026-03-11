@@ -6,9 +6,9 @@ categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck, epic-games, gog]
 slug: "games-tested-feb-27"
 excerpt: "Weekly testing update featuring 6 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
-image: /assets/images/blog/260226-hero.jpg
+image: /assets/images/blog/weekly-updates/260226-hero.jpg
 header:
-  teaser: /assets/images/blog/260226-hero-thumb.jpg
+  teaser: /assets/images/blog/weekly-updates/260226-hero-thumb.jpg
 read_time: "5 min read"
 toc: true
 ---

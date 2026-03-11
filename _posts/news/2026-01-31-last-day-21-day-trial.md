@@ -6,9 +6,9 @@ categories: [News]
 tags: [junk-store, steam-deck, news]
 slug: "last-day-21-day-trial"
 excerpt: "Today is your last chance to get the extended 21-day trial for Junk Store Pro. Don't miss out!"
-image: /assets/images/blog/last-day-trial-hero.jpg
+image: /assets/images/blog/news/last-day-trial-hero.jpg
 header:
-  teaser: /assets/images/blog/last-day-trial-hero-thumb.jpg
+  teaser: /assets/images/blog/news/last-day-trial-hero-thumb.jpg
 read_time: "1 min read"
 ---
 

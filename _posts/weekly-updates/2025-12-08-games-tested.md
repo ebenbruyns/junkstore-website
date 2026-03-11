@@ -6,9 +6,9 @@ categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck, game-testing, epic-games, amazon-games]
 slug: "games-tested-dec-11"
 excerpt: "Weekly testing update featuring 23 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
-image: /assets/images/blog/251208-hero.jpg
+image: /assets/images/blog/weekly-updates/251208-hero.jpg
 header:
-  teaser: /assets/images/blog/251208-hero-thumb.jpg
+  teaser: /assets/images/blog/weekly-updates/251208-hero-thumb.jpg
 read_time: "5 min read"
 toc: true
 ---

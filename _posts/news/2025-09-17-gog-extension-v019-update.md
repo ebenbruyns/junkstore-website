@@ -6,9 +6,9 @@ categories: [News, GOG Extension]
 tags: [junk-store, steam-deck, news, gog]
 slug: "gog-extension-v019-update"
 excerpt: "GOG Extension v0.1.9 brings critical bug fixes, updated Flatpak runtime dependencies, and streamlined Portal distribution for Steam Deck users."
-image: /assets/images/blog/gog-extension-update-hero.png
+image: /assets/images/blog/features/gog-extension/gog-extension-update-hero.png
 header:
-  teaser: /assets/images/blog/gog-extension-update-thumb.png
+  teaser: /assets/images/blog/features/gog-extension/gog-extension-update-thumb.png
 read_time: "3 min read"
 toc: true
 ---

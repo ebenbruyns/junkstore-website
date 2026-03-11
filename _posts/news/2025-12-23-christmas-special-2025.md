@@ -6,9 +6,9 @@ categories: [News, Promotion]
 tags: [junk-store, steam-deck, news]
 slug: "christmas-holiday-special-2025"
 excerpt: "Holiday promotion for new users. 21-day trial and 25% off your first year through January 6th, 2026."
-image: /assets/images/blog/christmas-special-2025.jpg
+image: /assets/images/blog/news/christmas-special-2025.jpg
 header:
-  teaser: /assets/images/blog/christmas-special-2025-thumb.jpg
+  teaser: /assets/images/blog/news/christmas-special-2025-thumb.jpg
 read_time: "1 min read"
 toc: true
 ---

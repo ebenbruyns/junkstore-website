@@ -10,14 +10,14 @@ author: "Junk Store Team"
 
 Our games compatibility table has been quietly helping Steam Deck users find compatible games for a few months now, and I wanted to highlight it for those who might not know about it yet.
 
-![Complete games table overview showing recently tested games and full interface](/assets/images/blog/games-table-showcase/overview-new.webp)
+![Complete games table overview showing recently tested games and full interface](/assets/images/blog/features/games-table/overview-new.webp)
 *Complete overview of our games compatibility table with all key features visible*
 
 ## Live Statistics Dashboard
 
 First thing you'll see is our real-time breakdown of tested games across all supported platforms. No guessing - you know exactly what's been verified.
 
-![Games compatibility statistics showing breakdown across Epic, GOG, Amazon Prime Gaming and itch.io platforms](/assets/images/blog/games-table-showcase/statsbar-new.webp)
+![Games compatibility statistics showing breakdown across Epic, GOG, Amazon Prime Gaming and itch.io platforms](/assets/images/blog/features/games-table/statsbar-new.webp)
 *Real-time statistics showing our growing database of tested games*
 
 The numbers update automatically as we test more games each week, so you're always seeing the latest compatibility data.
@@ -26,14 +26,14 @@ The numbers update automatically as we test more games each week, so you're alwa
 
 We highlight recently tested games right at the top, plus you can filter by any storefront to focus on your preferred platform. Here's the table filtered to show just GOG games:
 
-![Games table filtered to show GOG games with recently tested section](/assets/images/blog/games-table-showcase/filtergog.webp)
+![Games table filtered to show GOG games with recently tested section](/assets/images/blog/features/games-table/filtergog.webp)
 *Filtering by GOG games - notice the clean store badges and organization*
 
 ## Comprehensive Game Details
 
 This is where it gets really useful. Click any game and you get a detailed modal with actual testing information from our Steam Deck sessions:
 
-![Cat Quest II game modal showing detailed compatibility information and testing details](/assets/images/blog/games-table-showcase/GamesTableCatQuestII4.webp)
+![Cat Quest II game modal showing detailed compatibility information and testing details](/assets/images/blog/features/games-table/GamesTableCatQuestII4.webp)
 *Game modal showing Cat Quest II with compatibility rating and detailed metadata*
 
 Each modal includes:
@@ -42,7 +42,7 @@ Each modal includes:
 - **Testing notes** from actual Steam Deck sessions
 - **Special requirements** and configuration notes
 
-![Cat Quest II testing details tab showing specific compatibility information](/assets/images/blog/games-table-showcase/GamesTableCatQuestII5.webp)
+![Cat Quest II testing details tab showing specific compatibility information](/assets/images/blog/features/games-table/GamesTableCatQuestII5.webp)
 *Testing details tab with specific compatibility notes and configuration information*
 
 ## What Makes This Different

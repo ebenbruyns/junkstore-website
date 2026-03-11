@@ -6,9 +6,9 @@ categories: [Tip of the Week, Decky Plugin]
 tags: [junk-store, steam-deck, tips]
 slug: "change-game-language-environment-variables"
 excerpt: "Decky Plugin users: change game language using environment variables in the Additional Variables field for Epic games that support multiple languages."
-image: /assets/images/blog/langvar-hero.webp
+image: /assets/images/blog/tips/langvar/langvar-hero.webp
 header:
-  teaser: /assets/images/blog/langvar-thumb.webp
+  teaser: /assets/images/blog/tips/langvar/langvar-thumb.webp
 read_time: "3 min read"
 toc: true
 ---
@@ -31,17 +31,17 @@ Use environment variables in Junk Store's **Additional Variables** field to set 
 
 1. From the game page in Junk Store, click the ⚙️ **Settings** menu
 
-   ![Click the settings cog icon](/assets/images/blog/langvar-cog.webp){: .align-center}
+   ![Click the settings cog icon](/assets/images/blog/tips/langvar/langvar-cog.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Click the ⚙️ Settings menu on the game page</p>
 
 2. Select **PROTON**
 
-   ![Select Proton from settings](/assets/images/blog/langvar-proton-config.webp){: .align-center}
+   ![Select Proton from settings](/assets/images/blog/tips/langvar/langvar-proton-config.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Navigate to PROTON settings</p>
 
 3. Set dropdown to **All**
 
-   ![Set dropdown to All](/assets/images/blog/langvar-proton-all.webp){: .align-center}
+   ![Set dropdown to All](/assets/images/blog/tips/langvar/langvar-proton-all.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Change the dropdown to All to reveal Advanced options</p>
 
 4. Click **ADVANCED**, navigate to the **Additional Variables** field, and enter your language variables:
@@ -51,7 +51,7 @@ Use environment variables in Junk Store's **Additional Variables** field to set 
    export LANG=es_ES.UTF-8
    ```
 
-   ![Enter language variables in Additional Variables field](/assets/images/blog/langvar-addvars.webp){: .align-center}
+   ![Enter language variables in Additional Variables field](/assets/images/blog/tips/langvar/langvar-addvars.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Enter both language environment variables in the Additional Variables field</p>
 
 5. Press **X** to save changes
@@ -62,13 +62,13 @@ The game will now launch in your specified language automatically.
 
 Here's what it looks like when you set Spanish (`es_ES`) for Hogwarts Legacy:
 
-![Hogwarts Legacy title screen in Spanish](/assets/images/blog/langvar-hogwarts-title.webp){: .align-center}
+![Hogwarts Legacy title screen in Spanish](/assets/images/blog/tips/langvar/langvar-hogwarts-title.webp){: .align-center}
 <p style="text-align: center; font-style: italic;">Title screen now displays in Spanish</p>
 
-![Hogwarts Legacy menu in Spanish](/assets/images/blog/langvar-hogwarts-menu.webp){: .align-center}
+![Hogwarts Legacy menu in Spanish](/assets/images/blog/tips/langvar/langvar-hogwarts-menu.webp){: .align-center}
 <p style="text-align: center; font-style: italic;">Main menu with Spanish text</p>
 
-![Hogwarts Legacy new game screen in Spanish](/assets/images/blog/langvar-hogwarts-newgame.webp){: .align-center}
+![Hogwarts Legacy new game screen in Spanish](/assets/images/blog/tips/langvar/langvar-hogwarts-newgame.webp){: .align-center}
 <p style="text-align: center; font-style: italic;">Hogwarts Letter fully translated to Spanish</p>
 
 <h2 style="text-align: left !important; margin-left: 0;">Common Language Codes</h2>

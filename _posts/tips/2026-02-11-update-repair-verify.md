@@ -8,9 +8,9 @@ slug: "update-repair-verify"
 excerpt: "Keep your games up to date, add new DLC, and fix corrupted files - all from Game Mode without ever touching Desktop Mode."
 read_time: "3 min read"
 toc: true
-image: /assets/images/blog/VerifyRepairUpdate/update-repair-verify-card.webp
+image: /assets/images/blog/tips/verify-repair/update-repair-verify-card.webp
 header:
-  og_image: /assets/images/blog/VerifyRepairUpdate/update-repair-verify-teaser.webp
+  og_image: /assets/images/blog/tips/verify-repair/update-repair-verify-teaser.webp
 ---
 
 **This Week's Pro Tip:** Use the sliders menu on any installed game to update, repair, or verify your game files - all without leaving Game Mode!
@@ -35,13 +35,13 @@ Every now and then we get questions about how to update games due to new patches
 <li><strong>Select the sliders menu</strong> (three lines icon)</li>
 </ol>
 
-![Sliders menu on game screen](/assets/images/blog/VerifyRepairUpdate/gamescreensliders.webp)
+![Sliders menu on game screen](/assets/images/blog/tips/verify-repair/gamescreensliders.webp)
 
 <ol start="4" style="padding-left: 1.2em; margin-left: 0; text-align: justify;">
 <li>Pick <strong>Update</strong>, <strong>Repair</strong>, or <strong>Verify</strong></li>
 </ol>
 
-![Update, Repair and Verify options](/assets/images/blog/VerifyRepairUpdate/verifyrepairupdate.webp)
+![Update, Repair and Verify options](/assets/images/blog/tips/verify-repair/verifyrepairupdate.webp)
 
 <h2 style="text-align: left !important; margin-left: 0;">What each function does:</h2>
 

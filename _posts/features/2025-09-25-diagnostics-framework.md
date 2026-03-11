@@ -6,7 +6,7 @@ categories: [Feature Release, Beta Features]
 tags: [junk-store, steam-deck, features]
 slug: "diagnostics-framework-release"
 excerpt: "R&D release - our diagnostics framework for detecting issues and suggesting remedies on Steam Deck."
-image: /assets/images/blog/JunkStoreDiagnostics-1.webp
+image: /assets/images/blog/features/diagnostics/JunkStoreDiagnostics-1.webp
 read_time: "3 min read"
 toc: true
 ---
@@ -19,7 +19,7 @@ The diagnostics framework will attempt to detect issues and suggest remedies on 
 
 This means that if a SteamOS update affects Junk Store Pro functionality, this diagnostic tool will automatically pop up.
 
-![Diagnostics tool integrated with Steam UI](/assets/images/blog/JunkStoreDiagnostics-1.webp)
+![Diagnostics tool integrated with Steam UI](/assets/images/blog/features/diagnostics/JunkStoreDiagnostics-1.webp)
 
 Over time, we'd like to extend this to include more checks and more fixes. It's limited, but already useful. 
 
@@ -27,7 +27,7 @@ Over time, we'd like to extend this to include more checks and more fixes. It's 
 
 You can enable it by activating developer mode from the **About → System** menu (scroll down to find the toggle at the bottom). Then, in the developer menu, you can toggle it on. This will give you a magnifying glass button that floats above the Steam UI.
 
-![Developer mode settings showing diagnostics toggle](/assets/images/blog/diagnostics-enable.webp)
+![Developer mode settings showing diagnostics toggle](/assets/images/blog/features/diagnostics/diagnostics-enable.webp)
 
 
 This is not controller-enabled, so you will have to use the touch screen or hold down the Steam button and use the trackpad to click on it.
@@ -62,11 +62,11 @@ The diagnostics tool currently does the following:
 </div>
 </div>
 
-![Diagnostic results and system health checks](/assets/images/blog/JunkStoreDiagnostics-3.webp)
+![Diagnostic results and system health checks](/assets/images/blog/features/diagnostics/JunkStoreDiagnostics-3.webp)
 
 Here's an example showing a connection issue with Epic Games:
 
-![Epic Games diagnostics showing connection issue](/assets/images/blog/epic-diagnostics-issue.webp)
+![Epic Games diagnostics showing connection issue](/assets/images/blog/features/diagnostics/epic-diagnostics-issue.webp)
 
 <h2 style="text-align: left !important; margin-left: 0;">Need Help?</h2>
 

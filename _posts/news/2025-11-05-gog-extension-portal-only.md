@@ -6,9 +6,9 @@ categories: [News, GOG Extension]
 tags: [junk-store, steam-deck, news, gog]
 slug: "gog-extension-portal-only"
 excerpt: "The Junk Store GOG Extension is now exclusively available through our Portal. We're no longer selling it on Patreon or Ko-fi."
-image: /assets/images/blog/gog-extension-portal-hero.png
+image: /assets/images/blog/features/gog-extension/gog-extension-portal-hero.png
 header:
-  teaser: /assets/images/blog/gog-extension-portal-thumb.png
+  teaser: /assets/images/blog/features/gog-extension/gog-extension-portal-thumb.png
 read_time: "3 min read"
 toc: true
 ---

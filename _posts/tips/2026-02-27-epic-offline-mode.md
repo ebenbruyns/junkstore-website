@@ -6,9 +6,9 @@ categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips, epic-games, offline-mode]
 slug: "epic-offline-mode"
 excerpt: "Enable offline mode for your Epic games so you can play without an internet connection."
-image: /assets/images/blog/offline-tip/globalofflineon.webp
+image: /assets/images/blog/tips/offline-tip/globalofflineon.webp
 header:
-  teaser: /assets/images/blog/offline-tip/globalofflineon.webp
+  teaser: /assets/images/blog/tips/offline-tip/globalofflineon.webp
 read_time: "3 min read"
 toc: true
 ---
@@ -30,13 +30,13 @@ On the free Decky plugin, offline mode is a **global setting** that applies to a
 <li>Press the <strong>cog icon</strong> (settings)</li>
 </ol>
 
-![Epic tab cog settings](/assets/images/blog/offline-tip/epictabcog.webp){: .align-center loading="lazy"}
+![Epic tab cog settings](/assets/images/blog/tips/offline-tip/epictabcog.webp){: .align-center loading="lazy"}
 
 <ol start="3" style="padding-left: 1.2em; margin-left: 0; text-align: left;">
 <li>Toggle <strong>Offline Mode</strong> on and remember to <strong>Push X to Save</strong></li>
 </ol>
 
-![Global offline mode setting](/assets/images/blog/offline-tip/globalofflineon.webp){: .align-center loading="lazy"}
+![Global offline mode setting](/assets/images/blog/tips/offline-tip/globalofflineon.webp){: .align-center loading="lazy"}
 
 That's it. Your Epic games that support it will now launch in offline mode.
 
@@ -54,13 +54,13 @@ Junk Store 2.0 also has the global setting like the Decky plugin, but if you wan
 <li>Select <strong>Game Configs</strong></li>
 </ol>
 
-![Game Configs menu](/assets/images/blog/offline-tip/2.0gameconfig.webp){: .align-center loading="lazy"}
+![Game Configs menu](/assets/images/blog/tips/offline-tip/2.0gameconfig.webp){: .align-center loading="lazy"}
 
 <ol start="4" style="padding-left: 1.2em; margin-left: 0; text-align: left;">
 <li>Toggle <strong>Offline Mode</strong> on and remember to <strong>Push X to Save</strong></li>
 </ol>
 
-![Offline Mode toggle](/assets/images/blog/offline-tip/2.0offline.webp){: .align-center loading="lazy"}
+![Offline Mode toggle](/assets/images/blog/tips/offline-tip/2.0offline.webp){: .align-center loading="lazy"}
 
 The setting saves automatically for that game. Repeat for any other games you want to play offline.
 

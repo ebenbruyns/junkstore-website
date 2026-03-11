@@ -6,9 +6,9 @@ categories: [Tip of the Week, Pro Version]
 tags: [junk-store, steam-deck, tips]
 slug: "install-dependencies-junk-store-2"
 excerpt: "Skip the complex ProtonTricks setup! Junk Store Pro makes installing Visual C++, .NET Framework, and other Windows dependencies as simple as clicking a button."
-image: /assets/images/blog/251017-deps-hero.webp
+image: /assets/images/blog/tips/dependencies/251017-deps-hero.webp
 header:
-  teaser: /assets/images/blog/251017-deps-thumb.webp
+  teaser: /assets/images/blog/tips/dependencies/251017-deps-thumb.webp
 read_time: "3 min read"
 toc: true
 ---
@@ -30,22 +30,22 @@ Most games work out of the box thanks to Visual C++ Redistributable 2022 (x64), 
 
 1. **Navigate to the game** inside Junk Store and click the **⚙️ Settings menu**
 
-   ![Click the settings cog icon](/assets/images/blog/251017-deps-step1.webp){: .align-center}
+   ![Click the settings cog icon](/assets/images/blog/tips/dependencies/251017-deps-step1.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Click the ⚙️ Settings menu on the game page</p>
 
 2. **Select "Installation"** from the dropdown menu
 
-   ![Select Installation tab](/assets/images/blog/251017-deps-step2.webp){: .align-center}
+   ![Select Installation tab](/assets/images/blog/tips/dependencies/251017-deps-step2.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Choose Installation from the settings menu</p>
 
 3. **Set dropdown to "Expert" mode or higher (if needed) and click "Dependencies"**
 
-   ![Click Dependencies section](/assets/images/blog/251017-deps-step3.webp){: .align-center}
+   ![Click Dependencies section](/assets/images/blog/tips/dependencies/251017-deps-step3.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Set to Expert mode or higher and open the Dependencies section</p>
 
 4. **Toggle needed dependencies on** (blue = will install) and **Press X to save changes**
 
-   ![Toggle dependencies on](/assets/images/blog/251017-deps-step4.webp){: .align-center}
+   ![Toggle dependencies on](/assets/images/blog/tips/dependencies/251017-deps-step4.webp){: .align-center}
    <p style="text-align: center; font-style: italic;">Toggle the dependencies you need - blue means it will install</p>
 
 5. **Launch the game** - Dependencies will automatically install on first launch

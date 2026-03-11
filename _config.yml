@@ -196,6 +196,7 @@ exclude:
   - vendor
   - docs/
   - "*.backup"
+  - "*.sh"
   - test
   - assets/lib/
   - assets/images/backups/

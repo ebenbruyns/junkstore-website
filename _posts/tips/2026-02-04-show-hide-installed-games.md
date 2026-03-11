@@ -8,9 +8,9 @@ slug: "show-hide-installed-games"
 excerpt: "Large game library cluttering your view? Press X to toggle between showing only installed games and showing your full library - works separately for each store!"
 read_time: "3 min read"
 toc: true
-image: /assets/images/blog/PushX/show-hide-installed-card.webp
+image: /assets/images/blog/tips/show-hide/show-hide-installed-card.webp
 header:
-  og_image: /assets/images/blog/PushX/show-hide-installed-card.jpg
+  og_image: /assets/images/blog/tips/show-hide/show-hide-installed-card.jpg
 ---
 
 **This Week's Pro Tip:** Press X in any Junk Store library to toggle between showing only installed games and showing your complete library - perfect for decluttering large collections!
@@ -31,14 +31,14 @@ You've got hundreds of Epic, GOG, itch.io or Amazon games in your library, but y
 <li>Open your Epic, GOG, itch.io or Amazon library in Junk Store</li>
 </ol>
 
-![All games showing in library](/assets/images/blog/PushX/itchliball.jpg)
+![All games showing in library](/assets/images/blog/tips/show-hide/itchliball.jpg)
 
 <ol start="2" style="padding-left: 1.2em; margin-left: 0; text-align: justify;">
 <li><strong>Press the X button</strong> on your Steam Deck</li>
 <li>Your library instantly filters to show <strong>only installed games</strong></li>
 </ol>
 
-![Only installed games showing](/assets/images/blog/PushX/itchlibinstalled.jpg)
+![Only installed games showing](/assets/images/blog/tips/show-hide/itchlibinstalled.jpg)
 
 <ol start="4" style="padding-left: 1.2em; margin-left: 0; text-align: justify;">
 <li>Press X again to toggle back to showing <strong>all games</strong> (installed + not installed)</li>
