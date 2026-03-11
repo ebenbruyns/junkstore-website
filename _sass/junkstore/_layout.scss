@@ -458,6 +458,15 @@
   font-size: 0.8rem;
   color: $junkstore-gray-text;
   margin-top: 0.25rem;
+  text-align: center;
+}
+
+.js-footer__license {
+  font-size: 0.7rem;
+  color: darken($junkstore-gray-text, 15%);
+  display: block;
+  margin-top: 0.15rem;
+  text-align: center;
 }
 
 @include breakpoint-max(small) {

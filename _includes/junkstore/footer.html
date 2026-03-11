@@ -31,7 +31,8 @@
       {% include uptime-tracker.html %}
 
       <div class="js-footer__row js-footer__copyright">
-        &copy; {{ site.time | date: '%Y' }} {{ site.copyright | default: site.title }}
+        &copy; 2024-{{ site.time | date: '%Y' }} {{ site.copyright | default: site.title }}. All rights reserved.
+        <span class="js-footer__license">Content may not be reproduced without attribution.</span>
       </div>
 
     </div>

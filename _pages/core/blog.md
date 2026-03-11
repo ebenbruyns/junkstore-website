@@ -112,7 +112,7 @@ permalink: /blog/
 <section class="blog-cta">
   <div class="blog-cta__box">
     <h3>Never Miss an Update</h3>
-    <p>Join our community for the latest game testing results and Steam Deck tips:</p>
+    <p>Join our community for the latest game testing results and Steam Deck tips</p>
     <div class="blog-cta__links">
       <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="blog-cta__link blog-cta__link--reddit">
         <i class="fab fa-reddit"></i> Reddit

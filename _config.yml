@@ -111,6 +111,8 @@ footer:
       url: "/help/"
     - label: "Status"
       url: "/status/"
+    - label: "Terms of Use"
+      url: "/terms/"
     - label: "Privacy Policy"
       url: "/privacy-policy/"
     - label: "Portal"
