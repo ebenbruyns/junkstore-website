@@ -42,43 +42,43 @@ difficulty: "Beginner"
 <li>
 <strong>Navigate to Epic Tab in Junk Store</strong>
 <p>Go to <strong>Junk Store</strong> > <strong>Games</strong> > <strong>Epic Tab</strong> and select <strong>Login</strong>.</p>
-<img src="/assets/images/OAuth/Login%20Epic.jpeg" alt="Login to Epic Games" width="600" height="338" loading="lazy" />
+<img src="/assets/images/oauth-tutorial/Login%20Epic.jpeg" alt="Login to Epic Games" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Choose Your Login Method</strong>
 <p>Once the Epic Games Login screen appears, select your login method. A browser will open for you to log in with your chosen method.</p>
-<img src="/assets/images/OAuth/Epic%20Login%20Screen.png" alt="Epic Games login screen with options" width="600" height="338" loading="lazy" />
+<img src="/assets/images/oauth-tutorial/Epic%20Login%20Screen.png" alt="Epic Games login screen with options" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Login via Google</strong>
 <p>In this example, we'll use Google. Select <strong>Continue</strong> when prompted.</p>
-<img src="/assets/images/OAuth/Epic%20login%20via%20google.png" alt="Login via Google option" width="600" height="338" loading="lazy" />
+<img src="/assets/images/oauth-tutorial/Epic%20login%20via%20google.png" alt="Login via Google option" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Sign In with Google</strong>
 <p>Enter your Google credentials on the sign-in screen.</p>
-<img src="/assets/images/OAuth/google%20sign%20in%20screen.png" alt="Google sign in screen" width="600" height="338" loading="lazy" />
+<img src="/assets/images/oauth-tutorial/google%20sign%20in%20screen.png" alt="Google sign in screen" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Final Step of Login</strong>
 <p>After logging in, you'll see a prompt to click <strong>Continue</strong>.</p>
-<img src="/assets/images/OAuth/epic%20almost%20done.png" alt="Epic almost done screen" width="600" height="338" loading="lazy" />
+<img src="/assets/images/oauth-tutorial/epic%20almost%20done.png" alt="Epic almost done screen" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Close the Browser Window</strong>
 <p>After completing the login, close the browser window and return to the Epic Games Launcher.</p>
-<img src="/assets/images/OAuth/success%20logged%20in.png" alt="Successfully logged in" width="600" height="338" loading="lazy" />
+<img src="/assets/images/oauth-tutorial/success%20logged%20in.png" alt="Successfully logged in" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Enter 2FA Code (If Prompted)</strong>
 <p>If you're asked, enter your two-factor authentication (2FA) code. After entering the code, you'll be returned to <strong>Big Picture Mode</strong>.</p>
-<img src="/assets/images/OAuth/2fa%20in%20epic.png" alt="2FA prompt in Epic" width="600" height="338" loading="lazy" />
+<img src="/assets/images/oauth-tutorial/2fa%20in%20epic.png" alt="2FA prompt in Epic" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
@@ -94,7 +94,7 @@ difficulty: "Beginner"
 <li>
 <strong>Check Your Library</strong>
 <p>Your Epic Games library should now populate. If it doesn't, navigate down and press <strong>Y</strong> to select <strong>Show All</strong>.</p>
-<img src="/assets/images/OAuth/Epic%20Library%20v2.jpeg" alt="Epic Games library" width="600" height="338" loading="lazy" />
+<img src="/assets/images/oauth-tutorial/Epic%20Library%20v2.jpeg" alt="Epic Games library" width="600" height="338" loading="lazy" />
 
 <ul>
 <li>Ensure <strong>Show Installed</strong> is not selected.</li>
@@ -114,7 +114,7 @@ difficulty: "Beginner"
 <li>Avoid choosing a large or complex game for the first test.</li>
 </ul>
 <p><strong>Doom 64</strong> is a great test game if you have it.</p>
-<img src="/assets/images/OAuth/Doom%2064.jpeg" alt="Doom 64 install screen" width="600" height="338" loading="lazy" />
+<img src="/assets/images/oauth-tutorial/Doom%2064.jpeg" alt="Doom 64 install screen" width="600" height="338" loading="lazy" />
 </li>
 
 <li>

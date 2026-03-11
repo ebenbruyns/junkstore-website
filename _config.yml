@@ -11,7 +11,7 @@ timezone: Pacific/Auckland
 locale: "en-US"
 
 # Site-Wide Open Graph Image (for social previews)
-og_image: /assets/images/junkstore-og-banner.png # <--- you need to upload this file!
+og_image: /assets/images/site/website_image_compressed.webp
 
 # Plugins
 plugins:
@@ -25,7 +25,7 @@ plugins:
 # Feed configuration
 feed:
   excerpt_only: true
-  logo: https://www.junkstore.xyz/assets/images/JSAvatar-48.webp
+  logo: https://www.junkstore.xyz/assets/images/site/JSAvatar-48.webp
 
 # Markdown and Kramdown
 markdown: kramdown
@@ -211,7 +211,7 @@ navigation:
   main: main
   sidebar: sidebar-sample
 
-logo: "/assets/images/JSAvatar-48.webp"
+logo: "/assets/images/site/JSAvatar-48.webp"
 
 # Site search functionality
 search: true

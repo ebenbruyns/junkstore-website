@@ -6,9 +6,9 @@ categories: [Features, Feature Release]
 tags: [junk-store, steam-deck, features]
 slug: "lsfg-frame-generation-built-in"
 excerpt: "LSFG-VK (Lossless Scaling Frame Generation) is now built into Junk Store with easy toggles - no manual launch arguments needed."
-image: /assets/images/LSFG-VK/lsfg-blog-card.webp
+image: /assets/images/lsfg-vk/lsfg-blog-card.webp
 header:
-  teaser: /assets/images/LSFG-VK/lsfg-blog-card.webp
+  teaser: /assets/images/lsfg-vk/lsfg-blog-card.webp
 read_time: "4 min read"
 toc: true
 ---

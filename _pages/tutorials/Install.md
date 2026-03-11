@@ -23,19 +23,19 @@ difficulty: "Beginner"
 <li>
 <strong>Check your Store Channel</strong>
 <p>Make sure you're using the correct Store Channel in Decky. Press the <strong>three dots</strong> (...) button, go to the <strong>gear icon</strong> in the top-left, and set your Store Channel to <em>Default</em> for the main store or <em>Testing</em> for the test version.</p>
-<img src="/assets/images/JSInstall/Decky%20Store%20Change.jpeg" alt="Decky Store Channel settings" width="600" height="338" loading="lazy" />
+<img src="/assets/images/install-decky/Decky%20Store%20Change.jpeg" alt="Decky Store Channel settings" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Install Junk Store</strong>
 <p>Go back to the Decky Loader main screen, open the <strong>Decky Plugin Store</strong>, search for or scroll to <strong>Junk Store Plugin</strong>, and click <strong>Install</strong>.</p>
-<img src="/assets/images/JSInstall/Junk-Store%20Install.jpeg" alt="Install Junk Store from Decky store" width="600" height="338" loading="lazy" />
+<img src="/assets/images/install-decky/Junk-Store%20Install.jpeg" alt="Install Junk Store from Decky store" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Install Dependencies</strong>
 <p>After installing, open <strong>Junk Store</strong>, go to the <strong>About</strong> section, and select <strong>Dependencies</strong> > <strong>Install Dependencies</strong>.</p>
-<img src="/assets/images/JSInstall/Dependencies.jpeg" alt="Install Junk Store dependencies" width="600" height="338" loading="lazy" />
+<img src="/assets/images/install-decky/Dependencies.jpeg" alt="Install Junk Store dependencies" width="600" height="338" loading="lazy" />
 
 <div class="js-callout js-callout--warning">
 This might take around 30 seconds or longer. Just wait — it's normal.
@@ -45,8 +45,8 @@ This might take around 30 seconds or longer. Just wait — it's normal.
 <li>
 <strong>Log in to Epic Games</strong>
 <p>From the Junk Store menu, select <strong>Games</strong>. You'll be prompted to log in to your Epic Games account.</p>
-<img src="/assets/images/JSInstall/Login%20Epic.jpeg" alt="Epic Games login prompt" width="600" height="338" loading="lazy" />
-<img src="/assets/images/JSInstall/Epic%20Login%20Dialogue.jpg" alt="Epic Games login dialogue" width="600" height="338" loading="lazy" />
+<img src="/assets/images/install-decky/Login%20Epic.jpeg" alt="Epic Games login prompt" width="600" height="338" loading="lazy" />
+<img src="/assets/images/install-decky/Epic%20Login%20Dialogue.jpg" alt="Epic Games login dialogue" width="600" height="338" loading="lazy" />
 
 <div class="js-callout js-callout--tip">
 Make sure the Epic account you log in with has games in its library, or nothing will show up.
@@ -61,7 +61,7 @@ Make sure the Epic account you log in with has games in its library, or nothing 
 <li>
 <strong>View Your Library</strong>
 <p>After logging in, your Epic library should load automatically. If it doesn't, scroll down and press <strong>Y</strong> on <strong>Show All</strong>, make sure <strong>Show Installed</strong> is not selected, and clear the search box if needed.</p>
-<img src="/assets/images/JSInstall/Epic%20Library%20v2.jpeg" alt="Epic Games library in Junk Store" width="600" height="338" loading="lazy" />
+<img src="/assets/images/install-decky/Epic%20Library%20v2.jpeg" alt="Epic Games library in Junk Store" width="600" height="338" loading="lazy" />
 
 <div class="js-callout js-callout--warning">
 Games that need <strong>EA App</strong> or <strong>Origin</strong> won't show up — they aren't supported.
@@ -71,7 +71,7 @@ Games that need <strong>EA App</strong> or <strong>Origin</strong> won't show up
 <li>
 <strong>Test with a Small Game</strong>
 <p>To make sure everything works, try installing a smaller game. We recommend something simple like <strong>DOOM 64</strong>. Avoid huge or complex games right away — some need extra setup to work properly on Steam Deck.</p>
-<img src="/assets/images/JSInstall/Doom64%20install.jpeg" alt="Installing DOOM 64 as test game" width="600" height="338" loading="lazy" />
+<img src="/assets/images/install-decky/Doom64%20install.jpeg" alt="Installing DOOM 64 as test game" width="600" height="338" loading="lazy" />
 </li>
 
 <li>

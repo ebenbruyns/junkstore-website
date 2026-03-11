@@ -36,22 +36,22 @@ Before you start, you'll need:
 <ol>
 <li>From the game page in Junk Store, click the <strong>Settings</strong> menu (cog icon)
 
-<img src="/assets/images/LSFG-VK/Cog.webp" alt="Settings cog icon">
+<img src="/assets/images/lsfg-vk/Cog.webp" alt="Settings cog icon">
 <em>Click the cog icon to access game settings</em></li>
 
 <li>Select <strong>Proton config</strong>
 
-<img src="/assets/images/LSFG-VK/ProtonConfig.webp" alt="Proton config screen">
+<img src="/assets/images/lsfg-vk/ProtonConfig.webp" alt="Proton config screen">
 <em>Select PROTON from the settings menu</em></li>
 
 <li>Set dropdown to <strong>All</strong>
 
-<img src="/assets/images/LSFG-VK/ProtonAll.webp" alt="Proton dropdown set to All">
+<img src="/assets/images/lsfg-vk/ProtonAll.webp" alt="Proton dropdown set to All">
 <em>Set the dropdown to "All" to see advanced options</em></li>
 
 <li>Find the <strong>LSFG</strong> section
 
-<img src="/assets/images/LSFG-VK/LSFG-VKConfigs.webp" alt="LSFG configuration options">
+<img src="/assets/images/lsfg-vk/LSFG-VKConfigs.webp" alt="LSFG configuration options">
 <em>The LSFG settings panel with all available options</em></li>
 </ol>
 

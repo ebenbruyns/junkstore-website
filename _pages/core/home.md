@@ -7,7 +7,7 @@ classes: home
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.webp
+  overlay_image: /assets/images/site/website_image_compressed.webp
   actions:
     - label: "Start Free Trial"
       url: "/portal-redirect/"

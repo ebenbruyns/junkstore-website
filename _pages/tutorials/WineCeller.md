@@ -63,27 +63,27 @@ difficulty: "Advanced"
 <li>
 <strong>Search in Decky Store</strong>
 <p>Open the <strong>Decky Plugin Store</strong>, use the search bar to find <strong>Wine Cellar</strong>, and click <strong>Install</strong>.</p>
-<img src="/assets/images/Wine/Wine%20Cellar%20in%20Decky%20Store.jpg" alt="Wine Cellar in Decky Store" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Wine%20Cellar%20in%20Decky%20Store.jpg" alt="Wine Cellar in Decky Store" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Confirm Installation</strong>
 <p>When asked, press <strong>A</strong> to confirm and begin the install.</p>
-<img src="/assets/images/Wine/Install%20Wine%20Cellar%20Screen.jpg" alt="Install Wine Cellar confirmation" width="600" height="338" loading="lazy" />
-<img src="/assets/images/Wine/Installing%20Wine%20Cellar.jpg" alt="Installing Wine Cellar" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Install%20Wine%20Cellar%20Screen.jpg" alt="Install Wine Cellar confirmation" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Installing%20Wine%20Cellar.jpg" alt="Installing Wine Cellar" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Open Wine Cellar</strong>
 <p>Press the <strong>three dots (QAM button)</strong> on your Steam Deck, select <strong>Wine Cellar</strong>, and press <strong>A</strong> to open it. Then press <strong>A</strong> again on <strong>Manage</strong>.</p>
-<img src="/assets/images/Wine/Wine%20Cellar%20Plugin%20Button.jpg" alt="Wine Cellar plugin button" width="600" height="338" loading="lazy" />
-<img src="/assets/images/Wine/Wine%20Cellar%20Manage.jpg" alt="Wine Cellar manage menu" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Wine%20Cellar%20Plugin%20Button.jpg" alt="Wine Cellar plugin button" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Wine%20Cellar%20Manage.jpg" alt="Wine Cellar manage menu" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>View Installed Proton Versions</strong>
 <p>The <strong>Wine Cellar Dashboard</strong> will show all Proton versions currently installed. From here you can install, remove, or update versions.</p>
-<img src="/assets/images/Wine/Proton%20Installed.jpg" alt="Proton versions installed" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Proton%20Installed.jpg" alt="Proton versions installed" width="600" height="338" loading="lazy" />
 </li>
 
 </ol>
@@ -101,16 +101,16 @@ difficulty: "Advanced"
 <li>
 <strong>Find Your Version</strong>
 <p>Scroll to the <strong>GE-Proton</strong> version you want, move to the <strong>three dots</strong>, then press <strong>A</strong>.</p>
-<img src="/assets/images/Wine/Proton%20Not%20Installed.jpg" alt="Proton version not installed" width="600" height="338" loading="lazy" />
-<img src="/assets/images/Wine/Install%20selection%20PV.jpg" alt="Install selection for Proton version" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Proton%20Not%20Installed.jpg" alt="Proton version not installed" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Install%20selection%20PV.jpg" alt="Install selection for Proton version" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Install and Reboot</strong>
 <p>It will now install (e.g., <strong>GEProton 9-12</strong>). Once finished, restart your Steam Deck to apply it.</p>
-<img src="/assets/images/Wine/Installing%20PV.jpg" alt="Installing Proton version" width="600" height="338" loading="lazy" />
-<img src="/assets/images/Wine/Extracting%20PV.jpg" alt="Extracting Proton version files" width="600" height="338" loading="lazy" />
-<img src="/assets/images/Wine/Restart%20to%20use%20PV.jpg" alt="Restart prompt to use new version" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Installing%20PV.jpg" alt="Installing Proton version" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Extracting%20PV.jpg" alt="Extracting Proton version files" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Restart%20to%20use%20PV.jpg" alt="Restart prompt to use new version" width="600" height="338" loading="lazy" />
 </li>
 
 </ol>
@@ -118,8 +118,8 @@ difficulty: "Advanced"
 
 <p>After restarting, go back to the game you want to run and hit <strong>Play</strong>.</p>
 
-<img src="/assets/images/Wine/TMNT%20PV%20Selection.jpg" alt="Game Proton version selection" width="600" height="338" loading="lazy" />
-<img src="/assets/images/Wine/TMNT%20Start%20Screen.jpg" alt="Game start screen" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/TMNT%20PV%20Selection.jpg" alt="Game Proton version selection" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/TMNT%20Start%20Screen.jpg" alt="Game start screen" width="600" height="338" loading="lazy" />
 
 ---
 
@@ -133,13 +133,13 @@ difficulty: "Advanced"
 <li>
 <strong>Select Version to Uninstall</strong>
 <p>In the <strong>Wine Cellar Dashboard</strong>, scroll to the installed version, move to the <strong>three dots</strong> and press <strong>A</strong>.</p>
-<img src="/assets/images/Wine/PV%20to%20uninstall.jpg" alt="Select Proton version to uninstall" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/PV%20to%20uninstall.jpg" alt="Select Proton version to uninstall" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Confirm Uninstall</strong>
 <p>Confirm the uninstall. The version will be removed from your system.</p>
-<img src="/assets/images/Wine/Uninstall%20PV.jpg" alt="Confirm uninstall Proton version" width="600" height="338" loading="lazy" />
+<img src="/assets/images/wine-tutorial/Uninstall%20PV.jpg" alt="Confirm uninstall Proton version" width="600" height="338" loading="lazy" />
 </li>
 
 </ol>

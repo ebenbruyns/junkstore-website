@@ -6,7 +6,7 @@ permalink: /about/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/website_image_compressed.webp
+  overlay_image: /assets/images/site/website_image_compressed.webp
   actions:
     - label: "Buy Now"
       url: "/buy_now/"
@@ -55,7 +55,7 @@ excerpt: "The only professional Steam Deck solution for your non-Steam games in 
 
   <div class="js-media-card">
     <a href="https://gardinerbryant.com/an-interview-with-the-dev-behind-junk-store/" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/JSInstall/Doom 64.webp" alt="Interview with Gardiner Bryant (Article)" class="js-media-card__image">
+      <img src="/assets/images/install-decky/Doom 64.webp" alt="Interview with Gardiner Bryant (Article)" class="js-media-card__image">
     </a>
     <p class="js-media-card__title">Interview with dash - July 2024</p>
     <p class="js-media-card__caption">Click to read the article</p>

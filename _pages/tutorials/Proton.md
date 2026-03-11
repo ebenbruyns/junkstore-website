@@ -74,37 +74,37 @@ difficulty: "Intermediate"
 <li>
 <strong>Open Your Game in Junk Store</strong>
 <p>Start from the game screen <strong>inside Junk Store</strong> (not Steam library).</p>
-<img src="/assets/images/Proton/FM'24%20JS%20Game%20Page.webp" alt="Game page in Junk Store" width="600" height="338" loading="lazy" />
+<img src="/assets/images/proton-tutorial/FM'24%20JS%20Game%20Page.webp" alt="Game page in Junk Store" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Access Steam Game Properties</strong>
 <p>Press <strong>Y</strong> to go to Steam's game page, then navigate to the <strong>gear/cog icon</strong> and press <strong>A</strong> to select.</p>
-<img src="/assets/images/Proton/FM'24%20Steam%20App%20Page.webp" alt="Steam app page with cog icon" width="600" height="338" loading="lazy" />
+<img src="/assets/images/proton-tutorial/FM'24%20Steam%20App%20Page.webp" alt="Steam app page with cog icon" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Open Properties Menu</strong>
 <p>Select <strong>Properties</strong> from the menu and press <strong>A</strong> to confirm.</p>
-<img src="/assets/images/Proton/FM'24%20Properties%20Option%20Selection.webp" alt="Properties option in menu" width="600" height="338" loading="lazy" />
+<img src="/assets/images/proton-tutorial/FM'24%20Properties%20Option%20Selection.webp" alt="Properties option in menu" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Navigate to Compatibility</strong>
 <p>Go to the <strong>Compatibility</strong> tab. This is where you'll find Proton settings.</p>
-<img src="/assets/images/Proton/FM'24%20Proton%20Version%20Screen.webp" alt="Compatibility tab with Proton settings" width="600" height="338" loading="lazy" />
+<img src="/assets/images/proton-tutorial/FM'24%20Proton%20Version%20Screen.webp" alt="Compatibility tab with Proton settings" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Select Proton Version</strong>
 <p>Navigate to the <strong>Proton dropdown menu</strong> and press <strong>A</strong> to open the list of available versions.</p>
-<img src="/assets/images/Proton/FM%20Current%20Proton%20Version.webp" alt="Current Proton version dropdown" width="600" height="338" loading="lazy" />
+<img src="/assets/images/proton-tutorial/FM%20Current%20Proton%20Version.webp" alt="Current Proton version dropdown" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Choose Your Version</strong>
 <p>Select the <strong>Proton version</strong> you want to try and press <strong>A</strong> to confirm. The setting is <strong>automatically saved</strong> per game.</p>
-<img src="/assets/images/Proton/FM'24%20Changing%20Proton%20Version.webp" alt="Changing Proton version" width="600" height="338" loading="lazy" />
+<img src="/assets/images/proton-tutorial/FM'24%20Changing%20Proton%20Version.webp" alt="Changing Proton version" width="600" height="338" loading="lazy" />
 
 <div class="js-callout js-callout--tip">
 <strong>Saved Settings:</strong> Your Proton choice is remembered for this specific game, even after rebooting.
@@ -126,13 +126,13 @@ difficulty: "Intermediate"
 <li>
 <strong>Find Your Game in Steam Library</strong>
 <p>Locate your game in the <strong>Steam Library</strong>.</p>
-<img src="/assets/images/Proton/Game%20Art%20Steam%20Library.webp" alt="Game in Steam Library" width="600" height="338" loading="lazy" />
+<img src="/assets/images/proton-tutorial/Game%20Art%20Steam%20Library.webp" alt="Game in Steam Library" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
 <strong>Open Properties</strong>
 <p>Press the <strong>Start/Options button</strong> (hamburger menu) and select <strong>Properties</strong>.</p>
-<img src="/assets/images/Proton/Properties%20Menu%20from%20Steam%20Library.webp" alt="Properties menu from Steam Library" width="600" height="338" loading="lazy" />
+<img src="/assets/images/proton-tutorial/Properties%20Menu%20from%20Steam%20Library.webp" alt="Properties menu from Steam Library" width="600" height="338" loading="lazy" />
 </li>
 
 <li>
@@ -153,7 +153,7 @@ difficulty: "Intermediate"
 <li>Press <strong>Play</strong> to launch with the new settings</li>
 </ul>
 
-<img src="/assets/images/Proton/FM'24%20Load%20Screen.webp" alt="Game loading screen" width="600" height="338" loading="lazy" />
+<img src="/assets/images/proton-tutorial/FM'24%20Load%20Screen.webp" alt="Game loading screen" width="600" height="338" loading="lazy" />
 
 ---
 
