@@ -469,6 +469,208 @@
     box-shadow: 0 6px 16px rgba(0,0,0,0.5);
 }
 
+/* ==========================================================================
+   UNIQUE STYLES FROM TESTED-GAMES-OPTIMIZED.MD (March 2026)
+   ========================================================================== */
+
+/* Games Statistics Section */
+.games-stats {
+    margin: 20px 0;
+    padding: 20px;
+    background: #1f1f1f;
+    border-radius: 8px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-number {
+    font-size: 2em;
+    font-weight: bold;
+    color: $junkstore-accent;
+}
+
+.stat-label {
+    font-size: $type-size-body-small;
+    color: #ccc;
+}
+
+/* Compatibility Legend */
+.compatibility-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    background: rgba(30, 42, 56, 0.5);
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: $type-size-body-small;
+    border: 1px solid rgba(58, 74, 92, 0.5);
+}
+
+.legend-title {
+    color: $junkstore-accent;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.legend-item {
+    color: #ddd;
+    white-space: nowrap;
+}
+
+/* Modal storefront badges (different from table .store-badge) */
+.storefront-badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.storefront-epic {
+    background: #000;
+    color: white;
+}
+
+.storefront-gog {
+    background: #86328a;
+    color: white;
+}
+
+.storefront-amazon {
+    background: #00a14f;
+    color: white;
+}
+
+.storefront-itch\.io {
+    background: #fa5c5c;
+    color: white;
+}
+
+/* Game meta row styling for modal header */
+.game-meta-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.game-meta {
+    color: #aaa;
+    font-size: $type-size-body-small;
+}
+
+/* Compatibility counts row styling */
+.compatibility-counts th {
+    background: rgba(255, 255, 255, 0.02);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 15px;
+}
+
+.works-count {
+    font-size: $type-size-caption;
+    font-weight: 500;
+    color: #28a745;
+    text-align: center;
+}
+
+/* Copy game link button */
+.copy-game-link-btn {
+    background: rgba(255, 163, 102, 0.1);
+    border: 1px solid rgba(255, 163, 102, 0.3);
+    color: $junkstore-accent;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    margin-left: 8px;
+}
+
+.copy-game-link-btn:hover {
+    background: rgba(255, 163, 102, 0.2);
+    border-color: $junkstore-accent;
+    transform: scale(1.05);
+}
+
+.copy-game-link-btn:active {
+    transform: scale(0.95);
+}
+
+/* Pagination ellipsis */
+.pagination-ellipsis {
+    color: #ccc;
+    padding: 8px 4px;
+}
+
+/* Compatibility N/A styling */
+.compatibility-na {
+    color: #888;
+    font-style: italic;
+}
+
+/* Weekly tested game highlighting */
+.games-table-wrapper #gamesTable tbody tr.weekly-tested-game {
+    background: rgba(102, 191, 255, 0.05);
+    border-left: 3px solid $junkstore-primary;
+}
+
+.games-table-wrapper #gamesTable tbody tr.weekly-tested-game td {
+    background: rgba(102, 191, 255, 0.05);
+}
+
+/* Anti-cheat warning styling (table cells) */
+.games-table-wrapper #gamesTable tbody tr td.anticheat-warning {
+    text-align: center;
+    color: #ffa500;
+    font-weight: bold;
+    background: rgba(255, 165, 0, 0.1);
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+/* Info row (non-hoverable) */
+.games-table-wrapper #gamesTable tbody tr.info-row {
+    pointer-events: none;
+}
+
+.games-table-wrapper #gamesTable tbody tr.info-row:hover {
+    background: inherit;
+    cursor: default;
+}
+
+/* Copy notification animations */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
 /* Mobile responsive card layout */
 @media (max-width: 768px) {
   /* Mobile card layout for games table */
@@ -612,5 +814,30 @@
   .pagination-container {
     flex-direction: column;
     gap: 10px;
+  }
+
+  /* Stats grid mobile */
+  .stats-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+  }
+
+  /* Compatibility legend mobile */
+  .compatibility-legend {
+    gap: 10px;
+    font-size: $type-size-caption;
+  }
+
+  .legend-item {
+    font-size: 0.8rem;
+  }
+
+  /* Game meta mobile */
+  .game-meta-row {
+    gap: 15px;
+  }
+
+  .game-meta {
+    font-size: $type-size-caption;
   }
 }
