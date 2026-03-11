@@ -1,0 +1,714 @@
+/* ==================== HELP PAGE STYLES ==================== */
+/* Extracted from help.md - March 2026 */
+
+/* ========== COMPACT HEADER ========== */
+.help-header-compact {
+  max-width: 800px;
+  margin: 0 auto 1rem auto;
+  padding: 0 1rem;
+}
+
+/* Large Search Box */
+.search-primary {
+  margin-bottom: 1rem;
+}
+
+.search-box-large {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-box-large input {
+  width: 100%;
+  padding: 18px 50px 18px 24px;
+  font-size: $type-size-body-large;
+  border: 2px solid #444;
+  border-radius: 12px;
+  background: #1a1a2e;
+  color: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.search-box-large input:focus {
+  outline: none;
+  border-color: #007acc;
+  box-shadow: 0 0 0 3px rgba(0, 122, 204, 0.2);
+}
+
+.search-box-large input::placeholder {
+  color: #888;
+}
+
+.clear-btn {
+  position: absolute;
+  right: 50px;
+  background: none;
+  border: none;
+  color: #666;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  padding: 0;
+  line-height: 1;
+}
+
+.clear-btn:hover {
+  color: #fff;
+}
+
+/* Search info line */
+.search-info-line {
+  text-align: center;
+  color: #888;
+  font-size: $type-size-caption;
+  margin-top: 8px;
+}
+
+/* Centered Version Buttons */
+.version-buttons-centered {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.version-btn {
+  padding: 8px 16px;
+  border: 2px solid #444;
+  border-radius: 6px;
+  background: transparent;
+  color: #aaa;
+  font-size: $type-size-body-small;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.version-btn:hover {
+  border-color: #666;
+  color: #fff;
+}
+
+.version-btn.decky.selected {
+  background: rgba(33, 150, 243, 0.2);
+  border-color: #2196f3;
+  color: #2196f3;
+}
+
+.version-btn.pro.selected {
+  background: rgba(230, 115, 0, 0.2);
+  border-color: #e67300;
+  color: #e67300;
+}
+
+.version-btn.all.selected {
+  background: rgba(76, 175, 80, 0.2);
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+/* Badge Help Button - inside search box */
+.badge-help-btn {
+  position: absolute;
+  right: 14px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid #555;
+  background: #1a1a2e;
+  color: #888;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.badge-help-btn:hover {
+  border-color: #007acc;
+  color: #007acc;
+  background: $junkstore-bg-card;
+}
+
+/* Badge Tooltip */
+.badge-tooltip {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: $junkstore-bg-card;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 12px 16px;
+  min-width: 280px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+  display: none;
+}
+
+.badge-tooltip.visible {
+  display: block;
+}
+
+.tooltip-content strong {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.tooltip-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+  color: #ccc;
+  font-size: $type-size-caption;
+}
+
+.badge-sample {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  min-width: 80px;
+  text-align: center;
+}
+
+.badge-sample.decky { background: #2196f3; color: #fff; }
+.badge-sample.pro { background: #e67300; color: #fff; }
+.badge-sample.both { background: #4caf50; color: #fff; }
+.badge-sample.version-specific { background: #9b59b6; color: #fff; }
+
+/* ========== COMPACT TABS ========== */
+.help-tabs-compact {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 1.5rem 0 1rem 0;
+  padding: 0 1rem;
+}
+
+.help-tab {
+  padding: 10px 20px;
+  border: 2px solid #444;
+  border-radius: 6px;
+  background: $junkstore-bg-card;
+  color: #ccc;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.help-tab:hover {
+  border-color: #007acc;
+  color: #fff;
+}
+
+.help-tab.active {
+  background: #007acc;
+  border-color: #007acc;
+  color: #fff;
+}
+
+/* ========== TAB PANELS ========== */
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+/* ========== COLLAPSIBLE FAQ ========== */
+.faq-collapsible,
+.ts-collapsible {
+  margin: 2rem 0;
+}
+
+/* Category Accordion - Clean rounded style */
+.category-accordion {
+  margin-bottom: 16px;
+  border: 1px solid #444;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #1a1a2e;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: linear-gradient(135deg, $junkstore-bg-card 0%, #1a1a2e 100%);
+  cursor: pointer;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.category-header:hover {
+  background: linear-gradient(135deg, #252a3a 0%, #1e2030 100%);
+}
+
+.category-header h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.category-header .expand-icon {
+  transition: transform 0.25s ease;
+  color: #007acc;
+  font-size: $type-size-body-small;
+}
+
+.category-accordion.expanded .category-header .expand-icon {
+  transform: rotate(90deg);
+}
+
+.category-count {
+  background: rgba(0, 122, 204, 0.2);
+  color: $junkstore-primary;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.category-content {
+  display: none;
+}
+
+.category-accordion.expanded .category-content {
+  display: block;
+}
+
+/* Ensure consistent spacing - reset any paragraph margins in answers */
+.faq-item-compact .faq-answer p:first-child {
+  margin-top: 0;
+}
+
+.faq-item-compact .faq-answer p:last-child {
+  margin-bottom: 0;
+}
+
+/* FAQ Items - Boxed rounded style */
+details.faq-item-compact {
+  margin: 8px;
+  border: 1px solid #444;
+  border-radius: 10px;
+  background: $junkstore-bg-card;
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+details.faq-item-compact:hover {
+  border-color: #555;
+}
+
+details.faq-item-compact[open] {
+  border-color: #007acc;
+  box-shadow: 0 2px 12px rgba(0, 122, 204, 0.15);
+}
+
+.faq-item-compact summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 600;
+  transition: background 0.15s;
+}
+
+.faq-item-compact summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq-item-compact summary:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.faq-item-compact summary .question-text {
+  flex: 1;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.faq-item-compact summary .product-badge {
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  min-width: 70px;
+  text-align: center;
+}
+
+.faq-item-compact .faq-answer {
+  padding: 0 18px 18px 18px;
+  color: #ccc;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  border-top: 1px solid #333;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+.faq-item-compact .faq-answer div {
+  font-weight: normal;
+}
+
+.faq-item-compact .faq-answer a {
+  color: $junkstore-primary;
+}
+
+.faq-item-compact .faq-answer a:hover {
+  text-decoration: underline;
+}
+
+.faq-item-compact .faq-answer ul,
+.faq-item-compact .faq-answer ol {
+  margin: 0.75rem 0;
+  padding-left: 1.5rem;
+}
+
+.faq-item-compact .faq-answer li {
+  margin-bottom: 0.4rem;
+}
+
+/* Normalize Firebase content styling */
+.faq-item-compact .faq-answer > div:first-child {
+  margin-top: 0.5rem;
+}
+
+.faq-item-compact .faq-answer > div:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Reset any text-center CTA styling that might affect spacing */
+.faq-item-compact .faq-answer .text-center {
+  margin: 1rem 0 0 0 !important;
+  padding: 0 !important;
+}
+
+/* Product badges */
+.decky-badge { background: #2196f3; color: white; }
+.pro-badge { background: #e67300; color: white; }
+.both-badge { background: #4caf50; color: white; }
+.version-specific-badge { background: #9b59b6; color: white; }
+
+/* Hidden items */
+.faq-item-compact.hidden,
+.ts-item.hidden,
+.qt-item.hidden,
+.category-accordion.hidden {
+  display: none !important;
+}
+
+/* No results message */
+.no-results {
+  text-align: center;
+  padding: 3rem;
+  color: #888;
+}
+
+/* ========== TUTORIALS ========== */
+.tutorial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.tutorial-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 28px 20px 20px 20px;
+  background-color: $junkstore-bg-card;
+  transition: all 0.3s ease;
+  position: relative;
+  cursor: pointer;
+  overflow: visible;
+}
+
+.tutorial-item:hover {
+  border-color: #e67300;
+  transform: translateY(-2px);
+}
+
+.tutorial-item h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.tutorial-item h4 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tutorial-item h4 a:hover {
+  color: #e67300;
+}
+
+.tutorial-item p {
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+/* Tutorial Tags - positioned badge */
+.tutorial-tag {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.tutorial-tag.decky-tag { background: #2196f3; color: white; }
+.tutorial-tag.pro-tag { background: #e67300; color: white; }
+.tutorial-tag.both-tag { background: #4caf50; color: white; }
+
+.tutorial-item.hidden {
+  display: none;
+}
+
+/* ========== TIPS GRID (Quick Tips & Tricks) ========== */
+.tips-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.tip-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 18px;
+  background-color: $junkstore-bg-card;
+  transition: all 0.3s ease;
+  position: relative;
+  border-left: 4px solid #ffd700;
+  cursor: pointer;
+}
+
+.tip-item:hover {
+  border-color: #ffd700;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.2);
+}
+
+.tip-item h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: $type-size-body-large;
+}
+
+.tip-item h4 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tip-item h4 a:hover {
+  color: #ffd700;
+}
+
+.tip-item p {
+  margin-bottom: 12px;
+  color: #ccc;
+  font-size: 0.95em;
+}
+
+.tip-tag {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.75em;
+  font-weight: 600;
+  background: rgba(255, 215, 0, 0.15);
+  color: #ffd700;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  margin-right: 8px;
+}
+
+.tip-item .tutorial-tag {
+  position: static;
+  display: inline-block;
+  box-shadow: none;
+}
+
+.tip-item.hidden {
+  display: none;
+}
+
+/* Tutorial Section Headers */
+.tutorial-section-header {
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.tutorial-section-header:first-child {
+  margin-top: 0;
+}
+
+/* Skeleton Loaders */
+.faq-skeleton,
+.tutorials-skeleton {
+  padding: 1rem 0;
+}
+
+.skeleton-category {
+  height: 56px;
+  margin-bottom: 16px;
+  background: linear-gradient(90deg, $junkstore-bg-card 25%, #2d3748 50%, $junkstore-bg-card 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 12px;
+}
+
+.skeleton-section-header {
+  height: 28px;
+  width: 200px;
+  margin: 0 auto 1rem auto;
+  background: linear-gradient(90deg, $junkstore-bg-card 25%, #2d3748 50%, $junkstore-bg-card 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 4px;
+}
+
+.skeleton-tutorial-card {
+  height: 100px;
+  background: linear-gradient(90deg, $junkstore-bg-card 25%, #2d3748 50%, $junkstore-bg-card 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 8px;
+}
+
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* ========== RESOURCES ROW ========== */
+.resources-row {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: nowrap;
+  margin: 2rem auto;
+}
+
+.resource-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: $junkstore-bg-card;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.resource-card:hover {
+  border-color: #007acc;
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+.resource-card.discord:hover { border-color: #5865f2; }
+.resource-card.reddit:hover { border-color: #ff4500; }
+
+.resource-icon {
+  font-size: $type-size-label;
+}
+
+/* ========== MOBILE FAB ========== */
+.mobile-fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: #007acc;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  z-index: 100;
+}
+
+.mobile-fab.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ========== LOADING ========== */
+.loading-indicator {
+  text-align: center;
+  padding: 3rem;
+  color: #888;
+}
+
+/* ========== MOBILE RESPONSIVE ========== */
+@media (max-width: 600px) {
+  .filter-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .version-buttons {
+    justify-content: center;
+  }
+
+  .version-btn {
+    padding: 8px 12px;
+    font-size: 0.8rem;
+  }
+
+  .filter-info {
+    justify-content: center;
+  }
+
+  .help-tabs-compact {
+    gap: 6px;
+  }
+
+  .help-tab {
+    padding: 8px 14px;
+    font-size: $type-size-caption;
+  }
+
+  .search-box-large input {
+    padding: 14px 45px 14px 16px;
+    font-size: 1rem;
+  }
+
+  .resources-row {
+    gap: 8px;
+  }
+
+  .resource-card {
+    padding: 10px 12px;
+    font-size: $type-size-body-small;
+  }
+}
