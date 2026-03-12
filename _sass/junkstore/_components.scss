@@ -339,7 +339,7 @@ a.js-card {
 }
 
 // Card text
-.js-card__text {
+.js-card .js-card__text {
   color: #ccc;
   font-size: 0.95em;
   flex-grow: 1;

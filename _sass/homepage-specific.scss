@@ -419,6 +419,7 @@ body.home h1:not(.page__title):not(.js-hero__title) {
   font-size: $type-size-body-small;
   line-height: 1.4;
   margin: 0;
+  text-align: left;
 }
 
 .js-splash .supported-storefronts {
@@ -1026,31 +1027,40 @@ body.home h2 {
 
 .questions-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
 
-.question-item {
+.common-questions .question-item {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid #444;
   border-radius: 8px;
   padding: 1.25rem;
 }
 
-.question-item h4 {
+.common-questions .question-item h4 {
   color: $junkstore-accent;
   font-size: 1rem;
   margin: 0 0 0.5rem 0;
   font-weight: 600;
+  min-height: 2.5rem;
 }
 
-.question-item p {
+.common-questions .question-item p {
   color: #ccc;
   font-size: 0.95rem;
   margin: 0;
   line-height: 1.5;
+  text-align: left;
 }
 
-.question-item a {
+.common-questions .question-item a {
   color: $junkstore-primary;
+}
+
+/* Tablet breakpoint for questions grid */
+@media (max-width: 1024px) {
+  .questions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

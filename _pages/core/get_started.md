@@ -133,32 +133,30 @@ excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
 
 <div class="js-card-grid">
   <a href="/tutorials/install-junk-store-2" class="js-card js-card--primary">
-    <h4 class="js-card__title">🎬 Written Tutorial</h4>
+    <h4 class="js-card__title">Written Tutorial</h4>
     <p class="js-card__text">Step-by-step with screenshots</p>
   </a>
 
   <a href="https://www.youtube.com/watch?v=kDKQyL5iLSg" target="_blank" class="js-card js-card--danger">
-    <h4 class="js-card__title">▶ Video Tutorial</h4>
+    <h4 class="js-card__title">Video Tutorial</h4>
     <p class="js-card__text">Watch the full setup on YouTube</p>
   </a>
 
   <a href="/help/#troubleshooting" class="js-card js-card--success">
-    <h4 class="js-card__title">🔧 Troubleshooting</h4>
+    <h4 class="js-card__title">Troubleshooting</h4>
     <p class="js-card__text">Full list of fixes and solutions</p>
   </a>
 
   <a href="/help/#faq" class="js-card js-card--accent">
-    <h4 class="js-card__title">❓ FAQ</h4>
+    <h4 class="js-card__title">FAQ</h4>
     <p class="js-card__text">Common questions answered</p>
   </a>
 </div>
 
-<h3>Found a bug?</h3>
-<p>Report issues here: <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues" target="_blank" rel="noopener">github.com/SDK-Innovation/JunkStoreBugs</a></p>
-
 <div class="js-callout js-callout--help">
-  <h3>🎊 Stuck or need help?</h3>
+  <h3>Stuck or need help?</h3>
   <p>Most issues are quick fixes. Join us on <a href="https://discord.gg/6mRUhR6Teh" target="_blank">Discord</a> and post a ticket in <strong>v2-support</strong>.</p>
+  <p>Found a bug? <a href="https://github.com/SDK-Innovation/JunkStoreBugs/issues" target="_blank" rel="noopener">Report it here</a>.</p>
 </div>
 
 <div class="text-center" style="margin-top: 2rem;">

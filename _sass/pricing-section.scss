@@ -270,7 +270,7 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-.value-box {
+.library-value-callout .value-box {
   max-width: 800px;
   margin: 0 auto;
   color: #fff;
@@ -300,6 +300,7 @@
   }
 
   .value-unlock {
+    display: block;
     font-size: $type-size-label;
     color: $junkstore-accent;
     font-weight: 600;
@@ -310,6 +311,20 @@
     border-radius: 8px;
     border: 1px solid rgba(255, 163, 102, 0.4);
     text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: rgba(255, 163, 102, 0.2);
+      border-color: $junkstore-accent;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(255, 163, 102, 0.3);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
   }
 }
 
@@ -321,7 +336,7 @@
     border-width: 2px;
   }
 
-  .value-box {
+  .library-value-callout .value-box {
     h3 {
       font-size: 1.5rem;
       margin-bottom: 1rem;
@@ -330,6 +345,7 @@
     p {
       font-size: 1rem;
       margin-bottom: 0.75rem;
+      text-align: center;
     }
 
     .value-unlock {

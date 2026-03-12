@@ -95,7 +95,7 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
     <h3>🎮 Your Free Games Are Worth Thousands</h3>
     <p><strong>Epic alone has given away over $10,000 worth of games since 2018.</strong></p>
     <p>Most people let them collect digital dust - or rebuy them on Steam.</p>
-    <p class="value-unlock">Stop rebuying. Start playing.</p>
+    <a href="/portal-redirect/" class="value-unlock">Stop rebuying. Start playing.</a>
   </div>
 </section>
 
@@ -103,7 +103,7 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
   <h2>Common Questions</h2>
   <div class="questions-grid">
     <div class="question-item">
-      <h4>What does it cost?</h4>
+      <h4>How much does it cost?</h4>
       <p><strong>$40</strong> (not a subscription). 7-day free trial, 12 months of updates.<br><a href="/help/">More details →</a></p>
     </div>
     <div class="question-item">
@@ -111,7 +111,7 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
       <p><strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores.<br><a href="/help/#is-junk-store-trustworthy">Learn more →</a></p>
     </div>
     <div class="question-item">
-      <h4>Will this slow down my Steam Deck?</h4>
+      <h4>Will this impact performance?</h4>
       <p><strong>Zero performance impact.</strong> Nothing runs in the background while gaming.</p>
     </div>
     <div class="question-item">
