@@ -103,7 +103,7 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
 <details class="faq-box" id="can-i-try-before-buy">
   <summary>Can I try before I buy to see if it's worth $40?</summary>
   <p></p>
-    <strong>Absolutely.</strong> Every Junk Store annual license includes a <strong>7-day free trial</strong> with full access to all features:
+    <strong>Absolutely.</strong> Every Junk Store purchase includes a <strong>7-day free trial</strong> with full access to all features:
   <br>
   <br>
     <strong>Trial includes:</strong>
@@ -133,32 +133,31 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
     You get <strong>7 days free</strong> to try all features. During the trial, you have full access to Epic, GOG, Amazon & itch.io (beta) integration, emulator extension creation, and all premium features.
   <br>
   <br>
-    After 7 days, if you don't subscribe, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
+    After 7 days, if you don't purchase, you'll lose access to the Junk Store 2.0 interface and games installed in the new version. You can reactivate anytime to restore full functionality.
 </details>
 
-<details class="faq-box" id="what-happens-no-renew">
-  <summary>What happens if I don't renew my annual license?</summary>
+<details class="faq-box" id="is-this-a-subscription">
+  <summary>Is this a subscription?</summary>
   <p></p>
-    <strong>You keep access to the version of Junk Store 2.0 you paid for.</strong> Everything continues working as normal, but you won't receive future updates.
+    <strong>No.</strong> The software is yours to keep. Your $40 includes 12 months of updates, new features, and support.
   <br>
   <br>
-    <strong>What continues working:</strong>
+    <strong>Here's the reality:</strong> Steam regularly updates, and occasionally Epic, GOG, Amazon, and itch update their clients too. These changes can break compatibility. Your purchase includes 12 months of updates to keep everything working smoothly.
+  <br>
+  <br>
+    <strong>After 12 months:</strong>
     <ul>
-      <li>✅ All games installed through Junk Store 2.0 remain playable</li>
-      <li>✅ Full Junk Store 2.0 functionality you paid for</li>
-      <li>✅ Installing and managing games</li>
+      <li>✅ Your software keeps working</li>
+      <li>✅ All installed games remain playable</li>
+      <li>✅ Full functionality you paid for continues</li>
+      <li>❌ No new updates until you renew</li>
+      <li>❌ No compatibility fixes for Steam/store client changes</li>
+      <li>❌ No technical support</li>
     </ul>
-    <strong>What you won't get going forward:</strong>
-    <ul>
-      <li>❌ New software updates and features</li>
-      <li>❌ Bug fixes and compatibility improvements</li>
-      <li>❌ New game store integrations</li>
-      <li>❌ Technical support</li>
-    </ul>
-    <strong>Important:</strong> Steam Deck/Valve updates may break functionality over time. Active license holders receive compatibility fixes to address these issues.
+    <strong>Important:</strong> If a Steam or store client update breaks something, you'll need to renew to get the fix. This is common with software that integrates deeply with other platforms.
   <br>
   <br>
-    <strong>Note:</strong> You can reactivate anytime to resume receiving updates and support.
+    <strong>Note:</strong> You can renew anytime to resume receiving updates and support.
 </details>
 
 <h2 id="licensing-account-management" style="text-align: center; margin-top: 2rem;">Licensing & Account Management</h2>
@@ -173,34 +172,34 @@ excerpt: "Complete FAQ for Junk Store 2.0 - Epic, GOG, Amazon & itch.io games on
     <strong>Device management:</strong> Each installation counts toward your device limit when you first activate it. If you need to replace a device or reinstall, contact support for assistance with license transfers.
 </details>
 
-<details class="faq-box" id="annual-license-or-perpetual">
+<details class="faq-box" id="do-i-need-to-keep-paying">
   <summary>Do I need to keep paying to use the software?</summary>
   <p></p>
-    Junk Store uses a perpetual license model with optional annual updates. You own your software version forever, but updates require an active annual license.
+    <strong>No.</strong> The software is yours to keep. Your $40 gets you Junk Store plus 12 months of updates and support.
   <br>
   <br>
-    <strong>Junk Store uses perpetual licensing with annual update support.</strong> This is different from both traditional annual license software and one-time purchase models.
-  <br>
-  <br>
-    <strong>What requires active annual license:</strong>
+    <strong>What's included in your purchase:</strong>
     <ul>
-      <li>🔄 Software updates and new features</li>
-      <li>🛠️ Bug fixes and compatibility improvements</li>
-      <li>🆕 New game store integrations</li>
-      <li>💬 Technical support and troubleshooting</li>
+      <li>✅ Junk Store software - yours to keep</li>
+      <li>✅ 12 months of updates, new features, and bug fixes</li>
+      <li>✅ 12 months of technical support</li>
+      <li>✅ All games installed remain playable</li>
     </ul>
-    <strong>The reality of "permanent" ownership:</strong>
+    <strong>The reality of Steam Deck software:</strong>
     <ul>
-      <li>⚠️ <strong>Steam Deck OS updates</strong> may break functionality over time</li>
-      <li>⚠️ <strong>Third-party dependencies</strong> may become outdated or incompatible</li>
+      <li>⚠️ <strong>Steam regularly updates</strong> - these changes can break compatibility</li>
+      <li>⚠️ <strong>Store clients update too</strong> - Epic, GOG, Amazon, and itch occasionally change their systems</li>
     </ul>
-    <strong>Our commitment to long-term stability:</strong>
+    <strong>After 12 months:</strong> If a Steam or store client update breaks something, you'll need to renew to get the fix. Renewal is optional but recommended to stay compatible.
+  <br>
+  <br>
+    <strong>Our commitment to stability:</strong>
     <ul>
-      <li>🛠️ <strong>We're actively working</strong> to make Junk Store as stable as possible even after annual license expiration</li>
-      <li>🤝 <strong>Seeking Valve partnership:</strong> This complex task would be significantly easier with Valve's blessing and cooperation</li>
-      <li>📦 <strong>Current approach:</strong> Game store changes continue working via updated flatpaks (free and open source) with publicly available manifests</li>
+      <li>🛠️ <strong>We're actively working</strong> to make Junk Store as stable as possible</li>
+      <li>🤝 <strong>Pursuing platform partnerships</strong> for better stability</li>
+      <li>📦 <strong>Current approach:</strong> Game store changes continue working via updated flatpaks (free and open source)</li>
     </ul>
-    <strong>Bottom line:</strong> While you technically "own" your version forever, the Steam Deck ecosystem evolves constantly. We're endeavoring to minimize breakage over time, but this is a big and complicated technical challenge that would benefit greatly from official Steam platform support.
+    <strong>Bottom line:</strong> Your purchase doesn't expire, but the Steam Deck ecosystem evolves constantly. Renewal keeps you compatible as things change.
 </details>
 
 <details class="faq-box" id="free-decky-available">

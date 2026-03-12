@@ -30,8 +30,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "",
-  "shortname": "",
+  "databaseId": "1490213242",
+  "shortname": "1490213242",
   "publisher": "Slow Bros.",
   "developer": "Slow Bros.",
   "releasedate": "",
@@ -64,5 +64,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-24T23:30:19.789Z",
-  "updated_at": "2026-01-29T19:48:20.875Z"
+  "updated_at": "2026-02-07T22:06:38.401Z"
 }

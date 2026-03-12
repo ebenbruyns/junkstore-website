@@ -34,6 +34,19 @@
   margin-bottom: 0.25rem;
 }
 
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  text-align: center;
+
+  li {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    color: #e8e8e8;
+  }
+}
+
 .trial-text {
   font-size: 1rem;
   color: #cceeff;
@@ -153,7 +166,16 @@
     margin-bottom: 1rem;
     line-height: 1.4;
   }
-  
+
+  .pricing-features {
+    margin: 1.5rem 0;
+
+    li {
+      font-size: 1.15rem;
+      padding: 0.6rem 0;
+    }
+  }
+
   .value-text {
     font-size: 1rem;
     padding: 1rem;

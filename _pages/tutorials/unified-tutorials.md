@@ -107,6 +107,12 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
   <span class="tutorial-tag both-tag">Universal</span>
 </div>
 
+<div class="tutorial-item both">
+  <h4><a href="/tutorials/lsfg-frame-generation">Enable LSFG Frame Generation</a></h4>
+  <p>Boost frame rates with built-in LSFG-VK support</p>
+  <span class="tutorial-tag both-tag">Universal</span>
+</div>
+
 <div class="tutorial-item standalone">
   <h4><a href="/tutorials/change-game-language/">Change Language Settings</a></h4>
   <p>Change your Epic, GOG, or Amazon game language settings directly in Game Mode</p>
@@ -121,6 +127,20 @@ excerpt: "Step-by-step tutorials and setup guides for Epic, GOG, Amazon & itch.i
 <h2 style="text-align: center;">Quick Tips & Tricks</h2>
 
 <div class="tips-grid">
+
+<div class="tip-item both">
+  <h4><a href="/blog/anticheat-dependencies-tip/">Download Anti-Cheat Dependencies</a></h4>
+  <p>Easily download EAC and BattlEye dependencies for games like Fall Guys with simple toggles</p>
+  <span class="tip-tag">3 min read</span>
+  <span class="tutorial-tag both-tag">Universal</span>
+</div>
+
+<div class="tip-item both">
+  <h4><a href="/blog/epic-offline-mode/">Play Epic Games Offline</a></h4>
+  <p>Enable offline mode for Epic games so you can play without an internet connection</p>
+  <span class="tip-tag">3 min read</span>
+  <span class="tutorial-tag both-tag">Universal</span>
+</div>
 
 <div class="tip-item both">
   <h4><a href="/blog/show-hide-installed-games/">Filter to Show Only Installed Games</a></h4>

@@ -22,46 +22,46 @@ excerpt: "Complete help hub for the free Junk Store Decky plugin - installation,
   <p><em>Looking for more platforms and advanced features?</em> <a href="/upgrade/">See what upgrading to Junk Store 2.0 unlocks →</a></p>
 </section>
 
- <!-- Help Content Boxes - MOVED TO TOP -->
+<!-- Help Content Boxes -->
 <div class="content-box-container">
   <!-- FAQ -->
   <div class="content-box faq">
-    <h3>Complete Decky Plugin FAQ</h3>
-    <p>Comprehensive FAQ covering Epic Games, GOG extension, installation, troubleshooting, and compatibility for the Junk Store Decky plugin.</p>
-    <a href="{{ '/faq/decky/' | relative_url }}" class="button">Complete Plugin FAQ</a>
+    <h3>FAQ</h3>
+    <p>Common plugin questions</p>
+    <a href="{{ '/faq/decky/' | relative_url }}" class="button">Read FAQ</a>
   </div>
 
   <!-- Troubleshooting -->
   <div class="content-box troubleshooting">
-    <h3>Complete Decky Plugin Troubleshooting</h3>
-    <p>Complete troubleshooting guide covering general plugin issues, Epic Games integration, and GOG extension problems all in one place.</p>
-    <a href="{{ '/troubleshooting/decky/' | relative_url }}" class="button">Troubleshooting Guide</a>
+    <h3>Troubleshooting</h3>
+    <p>Fix plugin & game issues</p>
+    <a href="{{ '/troubleshooting/decky/' | relative_url }}" class="button">Get Help</a>
   </div>
 
   <!-- Tutorials -->
   <div class="content-box tutorials">
-    <h3>Decky Plugin Tutorials</h3>
-    <p>Step-by-step instructions for installing, configuring, and using Junk Store on Decky.</p>
-    <a href="{{ '/tutorials/' | relative_url }}" class="button">View All Tutorials</a>
+    <h3>Tutorials</h3>
+    <p>Setup & configuration guides</p>
+    <a href="{{ '/tutorials/' | relative_url }}" class="button">View Guides</a>
   </div>
 
   <!-- Tested Games -->
   <div class="content-box tested-games">
-    <h3>Games Tested</h3>
-    <p>View Epic & Gog games known to work with Junk Store.</p>
-    <a href="/tested-games/" class="button">Games Tested</a>
+    <h3>Tested Games</h3>
+    <p>Check game compatibility</p>
+    <a href="/tested-games/" class="button">View List</a>
   </div>
 
   <div class="content-box">
-    <h3>Explore the Code</h3>
-    <p>Browse the Junk Store plugin source code, contribute, or report an issue on GitHub.</p>
-    <a href="https://github.com/ebenbruyns/junkstore" class="button" target="_blank" rel="noopener noreferrer">Visit GitHub</a>
+    <h3>Source Code</h3>
+    <p>Browse or contribute on GitHub</p>
+    <a href="https://github.com/ebenbruyns/junkstore" class="button" target="_blank" rel="noopener noreferrer">View GitHub</a>
   </div>
 
   <div class="content-box">
     <h3>Decky Loader</h3>
-    <p>Need help with Decky Loader or want to learn more about how it works? Find detailed info, setup instructions, and plugin guidance here.</p>
-    <a href="https://decky.xyz/" class="button" target="_blank" rel="noopener noreferrer">Decky Loader</a>
+    <p>Learn about Decky Loader</p>
+    <a href="https://decky.xyz/" class="button" target="_blank" rel="noopener noreferrer">Visit Site</a>
   </div>
 </div>
 
