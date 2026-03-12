@@ -4,21 +4,97 @@
  *
  * This worker caches Firestore read requests at the edge,
  * dramatically reducing Firebase costs for high-traffic sites.
+ *
+ * ============================================================
+ * SETUP INSTRUCTIONS
+ * ============================================================
+ *
+ * 1. DEPLOY THE WORKER
+ *    ─────────────────
+ *    Option A: Using Wrangler CLI
+ *      $ npm install -g wrangler
+ *      $ wrangler login
+ *      $ wrangler deploy firebase-cache.js --name junkstore-firebase-cache
+ *
+ *    Option B: Cloudflare Dashboard
+ *      - Go to: Workers & Pages → Create Worker
+ *      - Paste this code and deploy
+ *
+ * 2. SET ENVIRONMENT VARIABLE (Required for cache purging)
+ *    ─────────────────────────────────────────────────────
+ *    In Cloudflare Dashboard:
+ *      Workers & Pages → your-worker → Settings → Variables
+ *      Add: PURGE_KEY = <your-secret-key>
+ *
+ *    Generate a secure key: openssl rand -hex 32
+ *
+ * 3. UPDATE CLIENT-SIDE URL
+ *    ──────────────────────
+ *    Edit: assets/js/firebase-cache-client.js (line 10)
+ *    Change: const WORKER_URL = 'https://junkstore-firebase-cache.YOUR-SUBDOMAIN.workers.dev';
+ *    To:     const WORKER_URL = 'https://<your-actual-worker-url>.workers.dev';
+ *
+ * 4. UPDATE DASHBOARD SERVER URL
+ *    ───────────────────────────
+ *    In junkstore-games-tested project, either:
+ *      - Set env: export CACHE_WORKER_URL="https://your-worker.workers.dev"
+ *      - Or edit server.js and update the CACHE_WORKER_URL constant
+ *
+ * 5. UPDATE HELP PAGE TO USE CACHE CLIENT
+ *    ─────────────────────────────────────
+ *    The help page (_pages/core/help.md) currently uses direct Firebase SDK.
+ *    To reduce costs, update its inline scripts to use window.fetchCachedCollection()
+ *    instead of window.firebaseGetDocs().
+ *
+ *    Affected sections in help.md:
+ *      - Line ~330: FAQ loader
+ *      - Line ~450: Troubleshooting loader
+ *      - Line ~554: Quick Tips loader
+ *      - Line ~677: Tutorials loader
+ *
+ * ============================================================
+ * API ENDPOINTS
+ * ============================================================
+ *
+ * GET /health
+ *   → Health check, returns { status: 'ok' }
+ *
+ * GET /collection/:name
+ *   → Fetch all docs from a collection (cached 24h)
+ *   → Example: /collection/faq
+ *
+ * GET /collection/:name/:docId
+ *   → Fetch single document (cached 24h)
+ *   → Example: /collection/pricing/config
+ *
+ * POST /purge/:collection?key=PURGE_KEY
+ *   → Clear cache for a collection (requires PURGE_KEY)
+ *   → Collections: games, faq, troubleshooting, pricing, banners, testimonials, metadata, all
+ *   → Example: POST /purge/faq?key=your-secret
+ *
+ * ============================================================
+ * CACHE STRATEGY
+ * ============================================================
+ *
+ * TTL: 24 hours for all collections
+ *
+ * To publish changes immediately:
+ *   1. Update data in Firebase (via admin dashboard)
+ *   2. Click "Publish Changes" in dashboard
+ *   3. Enter purge key
+ *   4. Cache clears → next visitor gets fresh data
+ *
+ * ============================================================
  */
 
 const FIREBASE_PROJECT = 'junkstore-website';
 const FIREBASE_API_KEY = 'AIzaSyDnUIisCanLOxvTWiHMAnZimg7CBnqKQp8';
 
-// Cache TTLs in seconds
-const CACHE_TTLS = {
-  'games': 300,           // 5 minutes
-  'faq': 3600,            // 1 hour
-  'troubleshooting': 3600, // 1 hour
-  'pricing': 900,         // 15 minutes
-  'banners': 900,         // 15 minutes
-  'testimonials': 3600,   // 1 hour
-  'metadata': 1800        // 30 minutes (uptime)
-};
+// Cache TTLs in seconds (24 hours for all - use /purge endpoint to force refresh)
+const CACHE_TTL = 86400; // 24 hours
+
+// Valid collections for purging
+const VALID_COLLECTIONS = ['games', 'faq', 'troubleshooting', 'pricing', 'banners', 'testimonials', 'metadata', 'tutorials', 'blog'];
 
 // Allowed origins for CORS
 const ALLOWED_ORIGINS = [
@@ -44,6 +120,58 @@ export default {
     // Health check endpoint
     if (path === '/health') {
       return new Response(JSON.stringify({ status: 'ok', timestamp: new Date().toISOString() }), {
+        headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': corsOrigin }
+      });
+    }
+
+    // Purge cache endpoint: POST /purge/:collection?key=SECRET
+    if (path.startsWith('/purge/') && request.method === 'POST') {
+      const collection = path.replace('/purge/', '');
+      const purgeKey = url.searchParams.get('key');
+
+      // Verify secret key (set PURGE_KEY in Cloudflare Worker environment variables)
+      if (!env.PURGE_KEY || purgeKey !== env.PURGE_KEY) {
+        return new Response(JSON.stringify({ error: 'Unauthorized' }), {
+          status: 401,
+          headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': corsOrigin }
+        });
+      }
+
+      // Validate collection name
+      if (!VALID_COLLECTIONS.includes(collection) && collection !== 'all') {
+        return new Response(JSON.stringify({
+          error: 'Invalid collection',
+          valid: VALID_COLLECTIONS
+        }), {
+          status: 400,
+          headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': corsOrigin }
+        });
+      }
+
+      const cache = caches.default;
+      const purged = [];
+
+      if (collection === 'all') {
+        // Purge all collections
+        for (const col of VALID_COLLECTIONS) {
+          const cacheKey = `firebase:${col}`;
+          const cacheRequest = new Request(`https://cache.internal/${cacheKey}`);
+          await cache.delete(cacheRequest);
+          purged.push(col);
+        }
+      } else {
+        // Purge specific collection
+        const cacheKey = `firebase:${collection}`;
+        const cacheRequest = new Request(`https://cache.internal/${cacheKey}`);
+        await cache.delete(cacheRequest);
+        purged.push(collection);
+      }
+
+      return new Response(JSON.stringify({
+        success: true,
+        purged: purged,
+        message: `Cache cleared for: ${purged.join(', ')}`
+      }), {
         headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': corsOrigin }
       });
     }
@@ -85,9 +213,8 @@ export default {
     try {
       const data = await fetchFromFirestore(collectionPath);
 
-      // Determine TTL based on root collection
-      const rootCollection = parts[1];
-      const ttl = CACHE_TTLS[rootCollection] || 300;
+      // Use 24-hour TTL for all collections
+      const ttl = CACHE_TTL;
 
       // Create response
       const responseBody = JSON.stringify(data);

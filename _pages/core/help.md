@@ -315,10 +315,11 @@ function toggleCategory(el) {
 }
 </script>
 
-<!-- Firebase FAQ Loader (Modified for collapsible layout) -->
+<!-- FAQ Loader (Uses Cloudflare Worker cache) -->
 <script>
 (async function loadFAQCollapsible() {
-  if (!window.firebaseDb) {
+  // Wait for cache client to be ready
+  if (!window.fetchCachedCollection) {
     setTimeout(loadFAQCollapsible, 100);
     return;
   }
@@ -327,20 +328,16 @@ function toggleCategory(el) {
   if (!container) return;
 
   try {
-    const db = window.firebaseDb;
-    const snapshot = await window.firebaseGetDocs(window.firebaseCollection(db, 'faq'));
+    // Fetch from Cloudflare Worker cache instead of direct Firebase
+    const allItems = await window.fetchCachedCollection('faq');
 
-    if (snapshot.empty) {
+    if (!allItems || allItems.length === 0) {
       container.innerHTML = '<p class="no-results">No FAQ items available.</p>';
       return;
     }
 
-    // Collect and group items (exclude quicktips - they go in Quick Tips tab)
-    const items = [];
-    snapshot.forEach(doc => {
-      const data = doc.data();
-      if (data.isActive && data.contentType !== 'quicktip') items.push(data);
-    });
+    // Filter to active items (exclude quicktips - they go in Quick Tips tab)
+    const items = allItems.filter(item => item.isActive && item.contentType !== 'quicktip');
 
     const grouped = {};
     items.forEach(item => {
@@ -434,10 +431,11 @@ window.filterFAQRedesign = function(version) {
 };
 </script>
 
-<!-- Firebase Troubleshooting Loader -->
+<!-- Troubleshooting Loader (Uses Cloudflare Worker cache) -->
 <script>
 (async function loadTSCollapsible() {
-  if (!window.firebaseDb) {
+  // Wait for cache client to be ready
+  if (!window.fetchCachedCollection) {
     setTimeout(loadTSCollapsible, 100);
     return;
   }
@@ -446,19 +444,16 @@ window.filterFAQRedesign = function(version) {
   if (!container) return;
 
   try {
-    const db = window.firebaseDb;
-    const snapshot = await window.firebaseGetDocs(window.firebaseCollection(db, 'troubleshooting'));
+    // Fetch from Cloudflare Worker cache instead of direct Firebase
+    const allItems = await window.fetchCachedCollection('troubleshooting');
 
-    if (snapshot.empty) {
+    if (!allItems || allItems.length === 0) {
       container.innerHTML = '<p class="no-results">No troubleshooting items available.</p>';
       return;
     }
 
-    const items = [];
-    snapshot.forEach(doc => {
-      const data = doc.data();
-      if (data.isActive) items.push(data);
-    });
+    // Filter to active items only
+    const items = allItems.filter(item => item.isActive);
 
     const grouped = {};
     items.forEach(item => {
@@ -538,10 +533,11 @@ window.filterTroubleshooting = function(version) {
 };
 </script>
 
-<!-- Quick Tips Loader (filters "How to" questions from FAQ) -->
+<!-- Quick Tips Loader (Uses Cloudflare Worker cache) -->
 <script>
 (async function loadQuickTips() {
-  if (!window.firebaseDb) {
+  // Wait for cache client to be ready
+  if (!window.fetchCachedCollection) {
     setTimeout(loadQuickTips, 100);
     return;
   }
@@ -550,22 +546,16 @@ window.filterTroubleshooting = function(version) {
   if (!container) return;
 
   try {
-    const db = window.firebaseDb;
-    const snapshot = await window.firebaseGetDocs(window.firebaseCollection(db, 'faq'));
+    // Fetch from Cloudflare Worker cache instead of direct Firebase
+    const allItems = await window.fetchCachedCollection('faq');
 
-    if (snapshot.empty) {
+    if (!allItems || allItems.length === 0) {
       container.innerHTML = '<p class="no-results">No quick tips available.</p>';
       return;
     }
 
-    // Filter for items marked as quicktip
-    const items = [];
-    snapshot.forEach(doc => {
-      const data = doc.data();
-      if (data.isActive && data.contentType === 'quicktip') {
-        items.push(data);
-      }
-    });
+    // Filter for active items marked as quicktip
+    const items = allItems.filter(item => item.isActive && item.contentType === 'quicktip');
 
     if (items.length === 0) {
       container.innerHTML = '<p class="no-results">No quick tips available.</p>';
@@ -658,10 +648,11 @@ window.filterQuickTips = function(version) {
 };
 </script>
 
-<!-- Firebase Tutorials Loader (includes Quick Tips from blog/tips/posts) -->
+<!-- Tutorials Loader (Uses Cloudflare Worker cache) -->
 <script>
 (async function loadTutorials() {
-  if (!window.firebaseDb) {
+  // Wait for cache client to be ready
+  if (!window.fetchCachedCollection) {
     setTimeout(loadTutorials, 100);
     return;
   }
@@ -670,31 +661,17 @@ window.filterQuickTips = function(version) {
   if (!container) return;
 
   try {
-    const db = window.firebaseDb;
-
-    // Fetch tutorials and quick tips in parallel
-    const [tutorialsSnapshot, tipsSnapshot] = await Promise.all([
-      window.firebaseGetDocs(window.firebaseCollection(db, 'tutorials')),
-      window.firebaseGetDocs(window.firebaseCollection(db, 'blog', 'tips', 'posts'))
+    // Fetch tutorials and quick tips in parallel from cache
+    const [tutorialsData, tipsData] = await Promise.all([
+      window.fetchCachedCollection('tutorials'),
+      window.fetchCachedCollection('blog/tips/posts').catch(() => []) // Fallback to empty if not available
     ]);
 
-    // Collect tutorials
-    const tutorials = [];
-    tutorialsSnapshot.forEach(doc => {
-      const data = doc.data();
-      if (data.isActive !== false) {
-        tutorials.push({ id: doc.id, ...data });
-      }
-    });
+    // Filter tutorials (active only)
+    const tutorials = (tutorialsData || []).filter(item => item.isActive !== false);
 
-    // Collect quick tips
-    const quickTips = [];
-    tipsSnapshot.forEach(doc => {
-      const data = doc.data();
-      if (data.isPublished !== false) {
-        quickTips.push({ id: doc.id, ...data });
-      }
-    });
+    // Filter quick tips (published only)
+    const quickTips = (tipsData || []).filter(item => item.isPublished !== false);
 
     // Sort tutorials by order
     tutorials.sort((a, b) => (a.order || 0) - (b.order || 0));
