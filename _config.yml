@@ -4,6 +4,7 @@ email: "junkstore@sdk.co.nz"
 description: "Play non-Steam games on your Steam Deck with ease."
 baseurl: "" # root
 url: "https://www.junkstore.xyz" # your real live URL
+repository: "mrsjunkrunner/mrsjunkrunner.github.io"
 timezone: Pacific/Auckland
 
 # Theme Settings
