@@ -215,7 +215,7 @@ navigation:
   main: main
   sidebar: sidebar-sample
 
-logo: "/assets/images/site/JSAvatar-48.webp"
+logo: "/assets/images/js-logo-layers.svg"
 
 # Site search functionality
 search: true

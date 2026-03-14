@@ -1,0 +1,127 @@
+<svg width="302" height="226" viewBox="0 0 302 226" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="3" dy="3" stdDeviation="2" flood-color="#000000" flood-opacity="0.4"/>
+  </filter>
+</defs>
+<!-- Cartridge body -->
+<path d="M0 15C0 6.71572 6.71573 0 15 0H287C295.284 0 302 6.71573 302 15V123C302 131.284 295.274 138 286.99 138C199.84 138 124.673 138 15.026 138C6.7417 138 0 131.284 0 123V15Z" fill="#264653"/>
+<!-- SD Card -->
+<path d="M300.25 125.415C303.649 125.415 301.18 157.924 300.441 184.796C300.255 191.533 293.629 196.99 285.474 196.99H199.465L199.64 197.706C200.387 200.773 199.468 203.967 197.147 206.373L191.366 212.364L181.038 222.528C178.795 224.735 175.564 226 172.169 226H152.586C146.062 226 140.774 221.421 140.773 215.773V211.512H111.24V215.773C111.24 221.421 105.951 226 99.4268 226H11.8135C5.28948 226 0.000276244 221.421 0 215.773V189.353C3.82801e-05 188.596 0.0972491 187.859 0.277344 187.149C0.0956542 186.386 3.60091e-06 185.597 0 184.79V125H7.46191L300.25 125.415Z" fill="#718096"/>
+
+<g filter="url(#dropShadow)">
+<!-- Orange blocks with bevel (30x30, no gaps) -->
+<!-- Block 1: (168,88) to (198,118) -->
+<rect x="168" y="88" width="30" height="30" fill="#FFA366"/>
+<polygon points="168,88 198,88 195,91 171,91" fill="#FFD4AA"/>
+<polygon points="168,88 171,91 171,115 168,118" fill="#FFD4AA"/>
+<polygon points="168,118 171,115 195,115 198,118" fill="#CC5500"/>
+<polygon points="198,88 198,118 195,115 195,91" fill="#CC5500"/>
+
+<!-- Block 2: (168,58) to (198,88) -->
+<rect x="168" y="58" width="30" height="30" fill="#FFA366"/>
+<polygon points="168,58 198,58 195,61 171,61" fill="#FFD4AA"/>
+<polygon points="168,58 171,61 171,85 168,88" fill="#FFD4AA"/>
+<polygon points="168,88 171,85 195,85 198,88" fill="#CC5500"/>
+<polygon points="198,58 198,88 195,85 195,61" fill="#CC5500"/>
+
+<!-- Block 3: (168,28) to (198,58) -->
+<rect x="168" y="28" width="30" height="30" fill="#FFA366"/>
+<polygon points="168,28 198,28 195,31 171,31" fill="#FFD4AA"/>
+<polygon points="168,28 171,31 171,55 168,58" fill="#FFD4AA"/>
+<polygon points="168,58 171,55 195,55 198,58" fill="#CC5500"/>
+<polygon points="198,28 198,58 195,55 195,31" fill="#CC5500"/>
+
+<!-- Block 4: (198,28) to (228,58) -->
+<rect x="198" y="28" width="30" height="30" fill="#FFA366"/>
+<polygon points="198,28 228,28 225,31 201,31" fill="#FFD4AA"/>
+<polygon points="198,28 201,31 201,55 198,58" fill="#FFD4AA"/>
+<polygon points="198,58 201,55 225,55 228,58" fill="#CC5500"/>
+<polygon points="228,28 228,58 225,55 225,31" fill="#CC5500"/>
+
+<!-- Block 5: (108,88) to (138,118) -->
+<rect x="108" y="88" width="30" height="30" fill="#FFA366"/>
+<polygon points="108,88 138,88 135,91 111,91" fill="#FFD4AA"/>
+<polygon points="108,88 111,91 111,115 108,118" fill="#FFD4AA"/>
+<polygon points="108,118 111,115 135,115 138,118" fill="#CC5500"/>
+<polygon points="138,88 138,118 135,115 135,91" fill="#CC5500"/>
+
+<!-- Block 6: (108,118) to (138,148) -->
+<rect x="108" y="118" width="30" height="30" fill="#FFA366"/>
+<polygon points="108,118 138,118 135,121 111,121" fill="#FFD4AA"/>
+<polygon points="108,118 111,121 111,145 108,148" fill="#FFD4AA"/>
+<polygon points="108,148 111,145 135,145 138,148" fill="#CC5500"/>
+<polygon points="138,118 138,148 135,145 135,121" fill="#CC5500"/>
+
+<!-- Block 7: (108,148) to (138,178) -->
+<rect x="108" y="148" width="30" height="30" fill="#FFA366"/>
+<polygon points="108,148 138,148 135,151 111,151" fill="#FFD4AA"/>
+<polygon points="108,148 111,151 111,175 108,178" fill="#FFD4AA"/>
+<polygon points="108,178 111,175 135,175 138,178" fill="#CC5500"/>
+<polygon points="138,148 138,178 135,175 135,151" fill="#CC5500"/>
+
+<!-- Block 8: (78,148) to (108,178) -->
+<rect x="78" y="148" width="30" height="30" fill="#FFA366"/>
+<polygon points="78,148 108,148 105,151 81,151" fill="#FFD4AA"/>
+<polygon points="78,148 81,151 81,175 78,178" fill="#FFD4AA"/>
+<polygon points="78,178 81,175 105,175 108,178" fill="#CC5500"/>
+<polygon points="108,148 108,178 105,175 105,151" fill="#CC5500"/>
+
+<!-- Blue blocks with bevel (30x30, no gaps) -->
+<!-- Block 9: (198,88) to (228,118) -->
+<rect x="198" y="88" width="30" height="30" fill="#66BFFF"/>
+<polygon points="198,88 228,88 225,91 201,91" fill="#AAE0FF"/>
+<polygon points="198,88 201,91 201,115 198,118" fill="#AAE0FF"/>
+<polygon points="198,118 201,115 225,115 228,118" fill="#0066AA"/>
+<polygon points="228,88 228,118 225,115 225,91" fill="#0066AA"/>
+
+<!-- Block 10: (198,118) to (228,148) -->
+<rect x="198" y="118" width="30" height="30" fill="#66BFFF"/>
+<polygon points="198,118 228,118 225,121 201,121" fill="#AAE0FF"/>
+<polygon points="198,118 201,121 201,145 198,148" fill="#AAE0FF"/>
+<polygon points="198,148 201,145 225,145 228,148" fill="#0066AA"/>
+<polygon points="228,118 228,148 225,145 225,121" fill="#0066AA"/>
+
+<!-- Block 11: (198,148) to (228,178) -->
+<rect x="198" y="148" width="30" height="30" fill="#66BFFF"/>
+<polygon points="198,148 228,148 225,151 201,151" fill="#AAE0FF"/>
+<polygon points="198,148 201,151 201,175 198,178" fill="#AAE0FF"/>
+<polygon points="198,178 201,175 225,175 228,178" fill="#0066AA"/>
+<polygon points="228,148 228,178 225,175 225,151" fill="#0066AA"/>
+
+<!-- Block 12: (168,148) to (198,178) -->
+<rect x="168" y="148" width="30" height="30" fill="#66BFFF"/>
+<polygon points="168,148 198,148 195,151 171,151" fill="#AAE0FF"/>
+<polygon points="168,148 171,151 171,175 168,178" fill="#AAE0FF"/>
+<polygon points="168,178 171,175 195,175 198,178" fill="#0066AA"/>
+<polygon points="198,148 198,178 195,175 195,151" fill="#0066AA"/>
+
+<!-- Block 13: (108,58) to (138,88) -->
+<rect x="108" y="58" width="30" height="30" fill="#66BFFF"/>
+<polygon points="108,58 138,58 135,61 111,61" fill="#AAE0FF"/>
+<polygon points="108,58 111,61 111,85 108,88" fill="#AAE0FF"/>
+<polygon points="108,88 111,85 135,85 138,88" fill="#0066AA"/>
+<polygon points="138,58 138,88 135,85 135,61" fill="#0066AA"/>
+
+<!-- Block 14: (138,28) to (168,58) -->
+<rect x="138" y="28" width="30" height="30" fill="#66BFFF"/>
+<polygon points="138,28 168,28 165,31 141,31" fill="#AAE0FF"/>
+<polygon points="138,28 141,31 141,55 138,58" fill="#AAE0FF"/>
+<polygon points="138,58 141,55 165,55 168,58" fill="#0066AA"/>
+<polygon points="168,28 168,58 165,55 165,31" fill="#0066AA"/>
+
+<!-- Block 15: (108,28) to (138,58) -->
+<rect x="108" y="28" width="30" height="30" fill="#66BFFF"/>
+<polygon points="108,28 138,28 135,31 111,31" fill="#AAE0FF"/>
+<polygon points="108,28 111,31 111,55 108,58" fill="#AAE0FF"/>
+<polygon points="108,58 111,55 135,55 138,58" fill="#0066AA"/>
+<polygon points="138,28 138,58 135,55 135,31" fill="#0066AA"/>
+
+<!-- Block 16: (78,28) to (108,58) -->
+<rect x="78" y="28" width="30" height="30" fill="#66BFFF"/>
+<polygon points="78,28 108,28 105,31 81,31" fill="#AAE0FF"/>
+<polygon points="78,28 81,31 81,55 78,58" fill="#AAE0FF"/>
+<polygon points="78,58 81,55 105,55 108,58" fill="#0066AA"/>
+<polygon points="108,28 108,58 105,55 105,31" fill="#0066AA"/>
+</g>
+</svg>
