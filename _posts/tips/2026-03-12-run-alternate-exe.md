@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tip of the Week: Run Alternate Executables in Game Mode"
-date: 2026-03-13 09:00:00 +1300
+date: 2026-03-17 11:20:00 +1300
 categories: [Tip of the Week, Features]
 tags: [junk-store, steam-deck, tips]
 slug: "run-alternate-exe"
@@ -37,10 +37,15 @@ Previously you'd need Desktop Mode to manually navigate and run the other exe. N
 ![Actions menu with Run exe option](/assets/images/blog/tips/run-exe/runexe.webp){: .align-center loading="lazy"}
 
 <ol start="4" style="padding-left: 1.2em; margin-left: 0; text-align: left;">
-<li>Choose the executable you want to run from the list and remember to <strong>Push X to Save</strong> the change.</li>
+<li>Choose the executable you want to run from the list.
+  <ul> 
+   <li><strong>Push A</strong> if you only want to launch it once via that executable.</li>
+   <li><strong>Push X to Save</strong> and use that executable for every launch.</li>
+  </ul>
+</li>
 </ol>
 
-That's it! The selected executable launches immediately. Here's what it looks like in action:
+That's it! Here's what it looks like in action:
 
 <div class="exe-comparison">
   <div class="exe-pair">
@@ -70,11 +75,30 @@ That's it! The selected executable launches immediately. Here's what it looks li
 This isn't just for expansion packs. Here are some other use cases:
 
 - **Installing dependencies** like Visual C++ Redistributables (`vcredist_x64.exe`, `vc_redist.x64.exe`) or DirectX (`DXSETUP.exe`) that some older games require
-- **Setting an external launcher** if a game needs to run through a separate launcher exe
+- **Bypassing a game launcher** to run the game directly (see example below)
 - **Trying an alternate exe** if the default one doesn't work for your game
 
+### Example: Zenless Zone Zero
+
+Games like *Zenless Zone Zero* use their own launcher (HoYoPlay). If you want to skip the launcher and run the game directly, use **Run exe in Game folder** and select the actual game executable.
+
+<div class="exe-comparison">
+  <div class="exe-pair">
+    <div class="exe-item">
+      <img src="/assets/images/blog/tips/run-exe/zzzlauncherexe.webp" alt="Selecting ZenlessZoneZero.exe from the list" loading="lazy">
+      <p class="exe-caption">Select the game exe (not the launcher files)</p>
+    </div>
+    <div class="exe-item">
+      <img src="/assets/images/blog/tips/run-exe/zzzgamepage.webp" alt="Zenless Zone Zero running" loading="lazy">
+      <p class="exe-caption">...launches directly into the game</p>
+    </div>
+  </div>
+</div>
+
+In this case, you'd select `./games/ZenlessZoneZero Game/ZenlessZoneZero.exe` instead of `HYP.exe` (the launcher) to run the game directly.
+
 <div class="tip-callout">
-  <strong>Tip:</strong> Remember to push X to save your selection for future launches. If you don't save, it will revert back to the default exe next time you launch.
+  <strong>Tip:</strong> Remember you can either use the executalbe once (<em>Push A launch once</em>) or you can set it to use an executable for every launch (<em>Push X to save</em>).
 </div>
 
 <div class="note-callout">
