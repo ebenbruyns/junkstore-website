@@ -19,7 +19,7 @@ toc: true
 
 We sometimes get asked how to launch a specific executable for games that ship with multiple, like expansion packs or config tools. *Star Wars: Galactic Battlegrounds Saga* on GOG is a good example. It includes both the base game (`Battlegrounds.exe`) and the *Clone Campaigns* expansion (`CloneCampaigns.exe`). By default, Junk Store launches the main exe, but what if you want to play the expansion?
 
-Previously you'd need Desktop Mode to manually navigate and run the other exe. Not anymore.
+You can easily select a game executable in game mode via Junk Store. No need to switch to desktop mode, hunt through folders, or dig through game files to find them.
 
 <h2 style="text-align: left !important; margin-left: 0;">How to Run an Alternate Executable</h2>
 
