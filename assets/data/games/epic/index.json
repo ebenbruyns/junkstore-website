@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 456,
+  "total_games": 457,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -98,6 +98,7 @@
     "control.json",
     "cook-serve-delicious-3.json",
     "costume-quest-2.json",
+    "cozy-grove.json",
     "creature-in-the-well.json",
     "crime-boss-rockay-city.json",
     "cris-tales.json",
@@ -459,13 +460,43 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 4,
-  "last_updated": "2026-03-09T05:58:47.015Z",
+  "featured_games": 2,
+  "last_updated": "2026-03-17T21:45:19.832Z",
   "latest_games": [
     {
-      "title": "Hidden Folks",
-      "slug": "hidden-folks",
-      "date_tested": "Aug '25",
+      "title": "Turmoil",
+      "slug": "turmoil",
+      "date_tested": "Mar '26",
+      "is_featured": true
+    },
+    {
+      "title": "Zenless Zone Zero",
+      "slug": "zenless-zone-zero",
+      "date_tested": "Mar '26",
+      "is_featured": false
+    },
+    {
+      "title": "Cozy Grove",
+      "slug": "cozy-grove",
+      "date_tested": "Mar '26",
+      "is_featured": true
+    },
+    {
+      "title": "Freshly Frosted",
+      "slug": "freshly-frosted",
+      "date_tested": "Mar '26",
+      "is_featured": false
+    },
+    {
+      "title": "Floppy Knights",
+      "slug": "floppy-knights",
+      "date_tested": "Mar '26",
+      "is_featured": false
+    },
+    {
+      "title": "Deceive Inc.",
+      "slug": "deceive-inc",
+      "date_tested": "Mar '26",
       "is_featured": false
     },
     {
@@ -477,49 +508,19 @@
     {
       "title": "Tiny Tina's Wonderlands",
       "slug": "tiny-tinas-wonderlands",
-      "date_tested": "May '25",
-      "is_featured": true
-    },
-    {
-      "title": "Idle Champions of the Forgotten Realms",
-      "slug": "idle-champions-of-the-forgotten-realms",
       "date_tested": "Mar '26",
-      "is_featured": true
-    },
-    {
-      "title": "Tattoo Tycoon",
-      "slug": "tattoo-tycoon",
-      "date_tested": "Mar '26",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "Turnip Boy Robs a Bank",
       "slug": "turnip-boy-robs-a-bank",
       "date_tested": "Mar '26",
-      "is_featured": true
+      "is_featured": false
     },
     {
-      "title": "Deceive Inc.",
-      "slug": "deceive-inc",
+      "title": "Tattoo Tycoon",
+      "slug": "tattoo-tycoon",
       "date_tested": "Mar '26",
-      "is_featured": false
-    },
-    {
-      "title": "Rogue Legacy 2",
-      "slug": "rogue-legacy-2",
-      "date_tested": "May '24",
-      "is_featured": false
-    },
-    {
-      "title": "Animation Throwdown: The Quest for Cards",
-      "slug": "animation-throwdown-the-quest-for-cards",
-      "date_tested": "July '24",
-      "is_featured": false
-    },
-    {
-      "title": "Death's Gambit: Afterlife",
-      "slug": "deaths-gambit-afterlife",
-      "date_tested": "Feb '26",
       "is_featured": false
     }
   ]
