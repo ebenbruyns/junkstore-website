@@ -5,6 +5,7 @@ date: 2026-03-17 11:20:00 +1300
 categories: [Tip of the Week, Features]
 tags: [junk-store, steam-deck, tips]
 slug: "run-alternate-exe"
+description: "Run alternate executables on Steam Deck with Junk Store. Launch expansion packs, bypass game launchers, or select different exes without leaving Game Mode."
 excerpt: "Some games include multiple executables - like expansion packs or alternate launchers. Here's how to switch between them without leaving Game Mode."
 image: /assets/images/blog/tips/run-exe/runexeblogcard.webp
 header:

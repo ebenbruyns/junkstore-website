@@ -5,6 +5,7 @@ date: 2026-02-28 09:00:00 +1300
 categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips, epic-games, offline-mode]
 slug: "epic-offline-mode"
+description: "Play Epic games offline on Steam Deck with Junk Store. Enable offline mode so your games launch without an internet connection."
 excerpt: "Enable offline mode for your Epic games so you can play without an internet connection."
 image: /assets/images/blog/offline-tip/globalofflineon.webp
 header:

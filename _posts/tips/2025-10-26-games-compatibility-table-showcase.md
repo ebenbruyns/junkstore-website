@@ -5,6 +5,7 @@ date: 2025-10-27
 categories: [Tip of the Week, Game Testing]
 tags: [junk-store, steam-deck, tips]
 excerpt: "Our game compatibility table has been helping Steam Deck users for months. If you haven't discovered it yet, here's what you've been missing."
+description: "See which games work on Steam Deck with Junk Store. Our tested games table covers Epic, GOG, Amazon, and itch.io with notes for tricky setups."
 image: /assets/images/blog/games-table-showcase/games-table-hero-card.webp
 header:
   teaser: /assets/images/blog/251027-hero-thumb.webp 

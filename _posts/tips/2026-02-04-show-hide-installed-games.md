@@ -5,6 +5,7 @@ date: 2026-02-04 14:59:00 +1300
 categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips]
 slug: "show-hide-installed-games"
+description: "Filter your Steam Deck game library in Junk Store. Press X to show only installed games or view your full Epic, GOG, Amazon, and itch.io collection."
 excerpt: "Large game library cluttering your view? Press X to toggle between showing only installed games and showing your full library - works separately for each store!"
 read_time: "3 min read"
 toc: true

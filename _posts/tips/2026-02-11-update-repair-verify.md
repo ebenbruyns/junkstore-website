@@ -5,6 +5,7 @@ date: 2026-02-11 09:00:00 +1300
 categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips, game-management]
 slug: "update-repair-verify"
+description: "Update, repair, and verify Epic, GOG, Amazon, and itch.io games on Steam Deck with Junk Store - all without leaving Game Mode."
 excerpt: "Keep your games up to date, add new DLC, and fix corrupted files - all from Game Mode without ever touching Desktop Mode."
 read_time: "3 min read"
 toc: true

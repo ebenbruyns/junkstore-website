@@ -5,6 +5,7 @@ date: 2025-09-02
 categories: [Tip of the Week, Decky Plugin]
 tags: [junk-store, steam-deck, tips, epic-games, gog]
 slug: "press-y-show-all-games"
+description: "Missing games in Junk Store on Steam Deck? If you only see A-L titles, use 'Press Y to Show All' to load your full Epic/GOG library."
 excerpt: "Only seeing A-L games in your Epic/GOG library? Look for the 'Press Y to Show All' prompt at the bottom - or check if your CSS theme is hiding it!"
 image: /assets/images/blog/pushY-cropped.png
 read_time: "3 min read"
