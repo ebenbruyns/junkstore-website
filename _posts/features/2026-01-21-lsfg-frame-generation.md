@@ -5,6 +5,7 @@ date: 2026-01-21 17:00:00 +1300
 categories: [Features, Feature Release]
 tags: [junk-store, steam-deck, features]
 slug: "lsfg-frame-generation-built-in"
+description: "Enable LSFG frame generation on Steam Deck with Junk Store. Built-in toggles for Lossless Scaling - no manual launch arguments needed."
 excerpt: "LSFG-VK (Lossless Scaling Frame Generation) is now built into Junk Store with easy toggles - no manual launch arguments needed."
 image: /assets/images/LSFG-VK/lsfg-blog-card.webp
 header:

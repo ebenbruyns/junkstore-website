@@ -6,6 +6,7 @@ categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck, game-testing, epic-games, gog, amazon-games]
 slug: "games-tested-oct-22"
 excerpt: "Weekly testing update featuring 12 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
+description: "Junk Store weekly game testing for October 21, 2025. See which Epic, GOG, Amazon, and itch games work on Steam Deck."
 image: /assets/images/blog/251018-hero.jpg
 header:
   teaser: /assets/images/blog/251018-hero-thumb.jpg

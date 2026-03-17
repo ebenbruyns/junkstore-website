@@ -5,6 +5,7 @@ date: 2025-11-04 12:00:00 +1300
 categories: [News, GOG Extension]
 tags: [junk-store, steam-deck, news, gog]
 slug: "gog-extension-portal-only"
+description: "Junk Store's GOG Extension is now exclusively available through the Portal. Play GOG games on Steam Deck in Game Mode."
 excerpt: "The Junk Store GOG Extension is now exclusively available through our Portal. We're no longer selling it on Patreon or Ko-fi."
 image: /assets/images/blog/gog-extension-portal-hero.png
 header:

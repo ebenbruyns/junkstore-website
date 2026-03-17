@@ -6,6 +6,7 @@ categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck, epic-games, gog]
 slug: "games-tested-feb-27"
 excerpt: "Weekly testing update featuring 6 games across multiple storefronts. Testing compatibility with Steam Deck and Junk Store."
+description: "Junk Store weekly game testing for February 26, 2026. See which Epic, GOG, Amazon, and itch games work on Steam Deck."
 image: /assets/images/blog/260226-hero.jpg
 header:
   teaser: /assets/images/blog/260226-hero-thumb.jpg

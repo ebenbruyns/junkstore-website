@@ -6,6 +6,7 @@ categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck, game-testing, epic-games, gog, amazon-games]
 slug: "games-tested-aug-31"
 excerpt: "Back on the boat after 3 months away! Showcasing our 11 featured games that work brilliantly on Steam Deck - from Epic's indie gems to GOG classics and Amazon surprises."
+description: "Junk Store weekly game testing for August 31, 2025. See which Epic, GOG, Amazon, and itch games work on Steam Deck."
 image: /assets/images/blog/aug31-hero.jpg
 read_time: "5 min read"
 toc: true

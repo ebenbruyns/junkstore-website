@@ -5,6 +5,7 @@ date: 2025-10-27
 categories: [News, Game Testing]
 tags: [junk-store, steam-deck, news]
 excerpt: "We've been working hard on making it easier for you to find compatible games for your Steam Deck. Check out our updated compatibility table and let us know what you think!"
+description: "Find compatible games for Steam Deck with Junk Store's tested games table. See what works across Epic, GOG, Amazon, and itch with testing notes."
 author: "Junk Store Team"
 ---
 

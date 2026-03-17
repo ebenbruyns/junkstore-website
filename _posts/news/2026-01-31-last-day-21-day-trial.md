@@ -5,6 +5,7 @@ date: 2026-01-31
 categories: [News]
 tags: [junk-store, steam-deck, news]
 slug: "last-day-21-day-trial"
+description: "Junk Store 2.0 extended 21-day trial promotion (ended January 2026). Play Epic, GOG, Amazon, and itch games on Steam Deck."
 excerpt: "Today is your last chance to get the extended 21-day trial for Junk Store 2.0. Don't miss out!"
 image: /assets/images/blog/last-day-trial-hero.jpg
 header:

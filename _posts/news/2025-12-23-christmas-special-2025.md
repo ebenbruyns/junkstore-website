@@ -5,6 +5,7 @@ date: 2025-12-23
 categories: [News, Promotion]
 tags: [junk-store, steam-deck, news]
 slug: "christmas-holiday-special-2025"
+description: "Junk Store 2.0 2025 holiday deal - 21-day trial and 25% off your first year. Play Epic, GOG, Amazon, and itch games on Steam Deck."
 excerpt: "Holiday promotion for new users. 21-day trial and 25% off your first year through January 6th, 2026."
 image: /assets/images/blog/christmas-special-2025.jpg
 header:
