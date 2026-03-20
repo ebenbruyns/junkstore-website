@@ -1,5 +1,126 @@
 /* Homepage-specific styles only - applies to splash layout only */
 
+/* Homepage hero - custom background positioning for shelf artwork */
+body.home .js-hero--overlay {
+  background-size: cover;
+  background-position: center 70%;
+  position: relative;
+}
+
+/* Floating CTA box - positioned over hero on right side */
+.hero-cta-box {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 10;
+}
+
+.hero-cta-box .button {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+  text-align: center;
+  min-width: 160px;
+}
+
+/* Hero CTA button colors */
+.hero-cta-box .button.buy-button {
+  background-color: #D97030;
+  border-color: #D97030;
+  color: #fff;
+}
+
+.hero-cta-box .button.buy-button:hover {
+  background-color: #c56328;
+  border-color: #c56328;
+}
+
+.hero-cta-box .button.button-secondary {
+  background-color: #1a3a5c;
+  border-color: #1a3a5c;
+  color: #fff;
+}
+
+.hero-cta-box .button.button-secondary:hover {
+  background-color: #254a70;
+  border-color: #254a70;
+}
+
+@media (max-width: 1024px) {
+  .hero-cta-box {
+    display: none;
+  }
+}
+
+/* Show CTA bar below hero on smaller screens */
+.cta-bar-mobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .cta-bar-mobile {
+    display: flex;
+    justify-content: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: transparent;
+  }
+
+  .cta-bar-mobile .button {
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .cta-bar-mobile .button.buy-button {
+    background-color: #D97030;
+    border-color: #D97030;
+    color: #fff;
+  }
+
+  .cta-bar-mobile .button.button-secondary {
+    background-color: #1a3a5c;
+    border-color: #1a3a5c;
+    color: #fff;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-bar-mobile {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+/* CTA Bar - slim action bar below hero */
+.cta-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 1rem;
+  background: transparent;
+}
+
+.cta-bar .button {
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 480px) {
+  .cta-bar {
+    gap: 0.5rem;
+  }
+
+  .cta-bar .button {
+    padding: 0.35rem 0.75rem;
+    font-size: 0.8rem;
+  }
+}
+
 /* Homepage h1 alignment - for content h1s only, not hero */
 body.home h1:not(.page__title):not(.js-hero__title) {
   max-width: 1200px;

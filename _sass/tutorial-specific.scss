@@ -193,6 +193,85 @@
 }
 
 /* ==========================================================================
+   INSTALL-GUIDE STYLING (used across all tutorials)
+   Ensures proper spacing for step-by-step guides with images
+   ========================================================================== */
+
+.install-guide {
+  ol {
+    padding-left: 1.5rem;
+  }
+
+  /* Only style direct children of the main ol, not nested lists */
+  > ol > li {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    /* Only style the step title (first strong), not inline strong text */
+    > strong:first-child {
+      display: block;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    > p {
+      margin-bottom: 1rem;
+      color: #ccc;
+    }
+  }
+
+  /* Nested lists should have normal styling */
+  ul, ol ol {
+    margin: 0.75rem 0;
+    padding-left: 1.5rem;
+
+    li {
+      margin-bottom: 0.5rem;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+  }
+
+  /* Ensure proper spacing between consecutive images */
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* Add extra spacing between consecutive images */
+  img + img {
+    margin-top: 1.5rem;
+  }
+
+  /* Callouts within install-guide */
+  .js-callout,
+  .critical-warning {
+    margin: 1.5rem 0;
+  }
+}
+
+/* Critical warning box styling */
+.critical-warning {
+  background: rgba(220, 53, 69, 0.15);
+  border: 1px solid rgba(220, 53, 69, 0.5);
+  border-left: 4px solid #dc3545;
+  padding: 1rem 1.25rem;
+  border-radius: 0 8px 8px 0;
+  margin: 1.5rem 0;
+  color: #fff;
+}
+
+/* ==========================================================================
    TUTORIAL INDEX STYLING (for /tutorials/ page)
    NOTE: Most tutorial page styling is now inline in unified-tutorials.md
    to match FAQ and Troubleshooting page patterns

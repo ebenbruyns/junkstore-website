@@ -111,6 +111,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
   padding: 0.75rem 0;
   gap: 1rem;
 }
@@ -179,6 +180,50 @@
 
   &.js-nav__link--active {
     color: lighten($junkstore-primary, 10%);
+  }
+}
+
+/* Standalone CTA button - always visible, even on mobile */
+.nav-cta-button {
+  display: inline-flex !important;
+  align-items: center;
+  flex-shrink: 0;
+  background: darken($junkstore-accent, 15%) !important;
+  color: $white !important;
+  padding: 0.35rem 0.9rem;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-weight: 600;
+  text-decoration: none !important;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: 0.5rem;
+  @include transition;
+
+  &:hover {
+    background: darken($junkstore-accent, 25%) !important;
+    color: $white !important;
+  }
+}
+
+/* Mobile: smaller CTA and hide site title text */
+@include breakpoint-max(large) {
+  .js-nav {
+    gap: 0.5rem;
+  }
+
+  .nav-cta-button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75em;
+    margin-right: 0.5rem;
+  }
+
+  .js-nav__title {
+    display: none;
+  }
+
+  .js-nav__brand {
+    flex-shrink: 0;
   }
 }
 
@@ -487,7 +532,7 @@
   position: absolute;
   top: -100%;
   left: 0;
-  background: $junkstore-accent;
+  background: darken($junkstore-accent, 15%);
   color: $white;
   padding: 0.5rem 1rem;
   z-index: 1000;
