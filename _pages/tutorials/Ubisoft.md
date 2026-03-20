@@ -1,15 +1,13 @@
 ---
-title: "How to Play Ubisoft Games from Epic Games Store in Junk Store"
+title: "How to Play Ubisoft Connect Games via Junk Store"
 description: "Step-by-step guide on installing Ubisoft Connect and launching Ubisoft games through Epic Games Store in Junk Store on Steam Deck."
-excerpt: "Step-by-step guide on installing Ubisoft Connect and launching Ubisoft games through Epic Games Store"
+excerpt: "Play Ubisoft Connect games from your Epic library including Assassin's Creed and Far Cry"
 layout: junkstore-page
 permalink: /tutorials/ubisoft-games
 categories: ["Universal"]
 tags: ["ubisoft", "third-party-launchers", "epic-games", "both-versions"]
 difficulty: "Advanced"
 ---
-
-<h2 class="centered-header">How to Play Ubisoft Games in Junk Store</h2>
 
 <p class="text-center">Install Ubisoft Connect and launch Ubisoft games through Epic Games Store.</p>
 
@@ -31,7 +29,7 @@ difficulty: "Advanced"
 <li>AC Mirage (community reports)</li>
 </ul>
 
----
+<hr>
 
 <h3>Installing Ubisoft Connect Launcher</h3>
 
@@ -88,7 +86,7 @@ difficulty: "Advanced"
 </ol>
 </div>
 
----
+<hr>
 
 <h3>Ubisoft Connect Login</h3>
 
@@ -129,7 +127,7 @@ difficulty: "Advanced"
 </ol>
 </div>
 
----
+<hr>
 
 <h3>Launch and Install the Game</h3>
 
@@ -178,7 +176,7 @@ difficulty: "Advanced"
 
 <p><strong>Have fun gaming everyone,<br>The Junk Store Team</strong></p>
 
----
+<hr>
 
 <div class="js-callout js-callout--help">
 <h3>Stuck or need help?</h3>

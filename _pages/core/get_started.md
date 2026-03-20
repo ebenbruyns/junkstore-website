@@ -14,67 +14,137 @@ excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
 </div>
 
 <!-- VIDEO & WRITTEN TUTORIAL OPTIONS -->
-<div class="js-card-grid js-card-grid--wide" style="margin: 1.5rem 0;">
-  <div class="text-center">
-    <p class="text-muted">Prefer video?</p>
-    <a href="https://www.youtube.com/watch?v=kDKQyL5iLSg" target="_blank" rel="noopener" class="js-video-thumb">
-      <img src="https://img.youtube.com/vi/kDKQyL5iLSg/mqdefault.jpg" alt="Junk Store Pro Installation Tutorial" class="js-thumb-img js-thumb-img--video">
-    </a>
-  </div>
-  <div class="text-center">
-    <p class="text-muted">Prefer screenshots?</p>
-    <a href="/tutorials/install-junk-store-2" class="js-video-thumb">
-      <img src="/assets/images/jspro/install2.0/downloadjspro.webp" alt="Step-by-Step Installation Guide" class="js-thumb-img js-thumb-img--guide">
-    </a>
-  </div>
+<div class="community-guides-grid" style="margin: 1.5rem 0;">
+  <a href="https://www.youtube.com/watch?v=kDKQyL5iLSg" target="_blank" rel="noopener" class="guide-card">
+    <img src="https://img.youtube.com/vi/kDKQyL5iLSg/mqdefault.jpg" alt="Junk Store Pro Installation Tutorial" loading="lazy" />
+    <div class="guide-card-content">
+      <span class="guide-type">Video Guide</span>
+      <h4>Watch on YouTube</h4>
+      <p>Full installation walkthrough with commentary</p>
+    </div>
+  </a>
+  <a href="/tutorials/install-junk-store-2" class="guide-card">
+    <img src="/assets/images/jspro/install2.0/downloadjspro.webp" alt="Step-by-Step Installation Guide" loading="lazy" />
+    <div class="guide-card-content">
+      <span class="guide-type">Written Guide</span>
+      <h4>Step-by-Step Tutorial</h4>
+      <p>Detailed instructions with screenshots</p>
+    </div>
+  </a>
 </div>
+
+<style>
+.community-guides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.guide-card {
+  display: block;
+  background: rgba(255,255,255,0.03);
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.guide-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  text-decoration: none;
+  color: inherit;
+}
+
+.guide-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  object-fit: contain;
+  background: #000;
+}
+
+.guide-card-content {
+  padding: 1rem;
+}
+
+.guide-card .guide-type {
+  display: inline-block;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.5rem;
+  background: rgba(0,150,255,0.2);
+  color: #6cb4ff;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.guide-card h4 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.guide-card p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+</style>
 
 <h2>Installation Steps</h2>
 
+<div class="install-guide">
 <ol>
-  <li><strong>Go to Desktop Mode</strong></li>
-</ol>
 
-<ol start="2">
-  <li><strong>Log into the portal</strong></li>
-</ol>
+<li>
+<strong>Go to Desktop Mode</strong>
+<p>Press the Steam button → Power → Switch to Desktop.</p>
+</li>
+
+<li>
+<strong>Log into the portal</strong>
+<p>Go to the <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener">portal</a> and log in with your account credentials.</p>
 <ul>
-  <li>Go to the <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener">portal</a> and log in with your account credentials.</li>
   <li>If you can't remember your password, use the reset option on the login page.</li>
 </ul>
+</li>
 
-<ol start="3">
-  <li><strong>Download and install Junk Store Pro</strong></li>
-</ol>
+<li>
+<strong>Download and install Junk Store Pro</strong>
+<p>Download the latest <code>js_pro</code> build from the portal.</p>
 <ul>
-  <li>Download the latest <code>js_pro</code> build from the portal</li>
-  <li><strong class="text-accent">Decky users:</strong> Make sure you select the "Stable-Decky" channel!</li>
+  <li><strong>Decky users:</strong> Make sure you select the "Stable-Decky" channel!</li>
   <li>Open Dolphin → Downloads → Right-click the file → Properties → Permissions</li>
   <li>Mark it as executable and click <strong>OK</strong>, then double-click to install</li>
 </ul>
 
-<div class="js-callout js-callout--warning">
-  <strong>⚠ CRITICAL:</strong> When installing Junk Store Pro, you <strong>MUST wait until the dialogue box says "Installation Complete"</strong> before clicking OK. <strong>Clicking the OK button too early cancels the installation process.</strong>
+<div class="critical-warning">
+  <strong>⚠️ CRITICAL:</strong> You <strong>MUST wait until the dialogue box says "Installation Complete"</strong> before clicking OK. <strong>Clicking OK too early cancels the installation.</strong>
 </div>
+</li>
 
-<ol start="4">
-  <li><strong>Return to Game Mode</strong></li>
-</ol>
-<ul>
-  <li>Press <strong>🗗 View</strong> (button above the D-pad) to open Junk Store</li>
-  <li>Log in using your portal credentials</li>
-</ul>
+<li>
+<strong>Return to Game Mode</strong>
+<p>Press <strong>🗗 View</strong> (button above the D-pad) to open Junk Store, then log in with your portal credentials.</p>
+</li>
 
-<ol start="5">
-  <li><strong>Generate and migrate your libraries</strong></li>
-</ol>
+<li>
+<strong>Generate and migrate your libraries</strong>
+<p>Go to Tools → Generator.</p>
 <ul>
-  <li>Go to Tools → Generator</li>
   <li>Open the sliders menu and choose <em>Download all presets from server</em></li>
   <li>Generate the extensions you want (Epic, GOG, etc.)</li>
   <li><strong>Reset launch options for each game once</strong> — this completes the migration</li>
   <li>Your saves and settings will carry over automatically</li>
 </ul>
+</li>
+
+</ol>
+</div>
 
 <!-- NEXT STEPS SECTION -->
 <h2 id="next-steps">Next Steps</h2>

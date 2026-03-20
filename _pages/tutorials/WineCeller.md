@@ -1,7 +1,7 @@
 ---
-title: "How to Install and Use Wine Cellar Plugin"
+title: "How to Install Wine Cellar Plugin"
 description: "Access advanced compatibility tools like GE-Proton and Wine-GE for challenging games in Junk Store. Better than default Steam Proton versions."
-excerpt: "Step-by-step guide on installing WineCellar to manage compatibility tools"
+excerpt: "Install Wine Cellar to download GE-Proton and Wine-GE compatibility tools in Game Mode"
 layout: junkstore-page
 permalink: /tutorials/wine-cellar
 categories: ["Universal"]
@@ -9,13 +9,11 @@ tags: ["wine-cellar", "compatibility", "proton", "ge-proton", "both-versions"]
 difficulty: "Advanced"
 ---
 
-<h2 class="centered-header">How to Install and Use Wine Cellar Plugin</h2>
-
 <p class="text-center">Access GE-Proton and other advanced compatibility tools directly in Game Mode.</p>
 
 <p>Need advanced compatibility tools for challenging games in Junk Store? Wine Cellar gives you access to GE-Proton, Wine-GE, and other compatibility tools beyond Steam's default Proton versions. Perfect for games that need special Windows component configurations.</p>
 
----
+<hr>
 
 <h3>Prerequisites</h3>
 
@@ -23,7 +21,7 @@ difficulty: "Advanced"
 
 <p>If you're not sure how to change the <strong>Proton version</strong> used for a game, refer to: <a href="/tutorials/proton-versions">How to Check/Change Proton Version</a></p>
 
----
+<hr>
 
 <h3>What is Wine Cellar?</h3>
 
@@ -33,7 +31,7 @@ difficulty: "Advanced"
 <strong>Alternative Tools:</strong> Wine Cellar is one of several options for managing Proton versions. Other popular tools include <strong>ProtonUp-Qt</strong> (desktop app from Discover Store) and <strong>ProtonPlus</strong>. Wine Cellar is our preferred way to manage Proton versions since it works directly in Game Mode via the Decky interface.
 </div>
 
----
+<hr>
 
 <h3>When Should I Use a Different Proton Version?</h3>
 
@@ -51,7 +49,7 @@ difficulty: "Advanced"
 <li>Or visit our <a href="/tested-games">Games Tested</a> page for known-working configurations</li>
 </ul>
 
----
+<hr>
 
 <h3>How to Install Wine Cellar</h3>
 
@@ -89,7 +87,7 @@ difficulty: "Advanced"
 </ol>
 </div>
 
----
+<hr>
 
 <h3>How to Install New Proton Versions</h3>
 
@@ -121,7 +119,7 @@ difficulty: "Advanced"
 <img src="/assets/images/wine-tutorial/TMNT%20PV%20Selection.jpg" alt="Game Proton version selection" width="600" height="338" loading="lazy" />
 <img src="/assets/images/wine-tutorial/TMNT%20Start%20Screen.jpg" alt="Game start screen" width="600" height="338" loading="lazy" />
 
----
+<hr>
 
 <h3>How to Uninstall Old Proton Versions</h3>
 
@@ -145,7 +143,7 @@ difficulty: "Advanced"
 </ol>
 </div>
 
----
+<hr>
 
 <h3>Final Tips</h3>
 
@@ -156,7 +154,7 @@ difficulty: "Advanced"
 <li>Use <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> for up-to-date community tips</li>
 </ul>
 
----
+<hr>
 
 <div class="js-callout js-callout--help">
 <h3>Stuck or need help?</h3>

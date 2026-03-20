@@ -1,7 +1,7 @@
 ---
-title: "How to Check/Change Proton Version - Junk Store Steam Deck Tutorial"
+title: "How to Change Proton Version in Junk Store"
 description: "Step-by-step guide to check and change Proton versions for Epic/GOG games in Junk Store on Steam Deck. Fix black screen issues and optimize game compatibility."
-excerpt: "Step-by-step guide on how to check and change your Proton version in Junk Store"
+excerpt: "Check and change which Proton version a game uses directly in Game Mode"
 layout: junkstore-page
 permalink: /tutorials/proton-versions
 categories: ["Universal"]
@@ -9,15 +9,13 @@ tags: ["proton", "compatibility", "both-versions"]
 difficulty: "Intermediate"
 ---
 
-<h2 class="centered-header">How to Check/Change Proton Version</h2>
-
 <p class="text-center">Fix black screens and compatibility issues by switching to a different Proton version.</p>
 
 <div class="js-callout js-callout--warning">
 <strong>Prerequisites:</strong> You need <strong>Junk Store</strong> installed, plus a way to install different Proton versions (Wine Cellar, ProtonUp-Qt, etc.) and some Proton versions already installed.
 </div>
 
----
+<hr>
 
 <h3>When Do You Need to Change Proton Versions?</h3>
 
@@ -40,7 +38,7 @@ difficulty: "Intermediate"
 <strong>Pro Tip:</strong> Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB.com</a> or our <a href="/tested-games/">Games Tested</a> page to see what works best for your specific game.
 </div>
 
----
+<hr>
 
 <h3>Prerequisites: Install a Proton Manager</h3>
 
@@ -64,7 +62,7 @@ difficulty: "Intermediate"
 
 <p><strong>Quick Links:</strong> <a href="/tutorials/install-decky-plugin">How to Install Junk Store</a></p>
 
----
+<hr>
 
 <h3>Method 1: Change Proton Version in Junk Store</h3>
 
@@ -114,7 +112,7 @@ difficulty: "Intermediate"
 </ol>
 </div>
 
----
+<hr>
 
 <h3>Method 2: Change via Steam Library</h3>
 
@@ -143,7 +141,7 @@ difficulty: "Intermediate"
 </ol>
 </div>
 
----
+<hr>
 
 <h3>Ready to Play!</h3>
 
@@ -155,7 +153,7 @@ difficulty: "Intermediate"
 
 <img src="/assets/images/proton-tutorial/FM'24%20Load%20Screen.webp" alt="Game loading screen" width="600" height="338" loading="lazy" />
 
----
+<hr>
 
 <h3>Troubleshooting Tips</h3>
 
@@ -165,7 +163,7 @@ difficulty: "Intermediate"
 <li><strong>Unsure which version to use?</strong> Check our <a href="/tested-games/">compatibility database</a></li>
 </ul>
 
----
+<hr>
 
 <div class="js-callout js-callout--help">
 <h3>Stuck or need help?</h3>

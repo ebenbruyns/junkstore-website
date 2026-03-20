@@ -1,110 +1,115 @@
 ---
-title: "How to Enable LSFG Frame Generation - Junk Store Steam Deck Tutorial"
+title: "How to Enable LSFG Frame Generation"
 description: "Step-by-step guide to enable LSFG-VK (Lossless Scaling Frame Generation) in Junk Store on Steam Deck. No manual launch arguments needed."
-excerpt: "Step-by-step guide on how to enable LSFG frame generation in Junk Store"
+excerpt: "Boost frame rates with LSFG-VK (Lossless Scaling Frame Generation) using built-in Junk Store toggles"
 layout: junkstore-page
 permalink: /tutorials/lsfg-frame-generation
 categories: ["Universal"]
 tags: ["lsfg", "frame-generation", "performance", "both-versions"]
 difficulty: "Intermediate"
 ---
-<div class="spacer mt-4"></div>
 
-Want to boost your frame rates with LSFG-VK (Lossless Scaling Frame Generation)? Junk Store has it built in with simple toggles. No manual launch arguments needed.
+<p class="text-center">Boost your frame rates with LSFG-VK (Lossless Scaling Frame Generation) - built into Junk Store with simple toggles.</p>
 
-> **Prerequisites:** You need **Lossless Scaling** from Steam (paid) and the **lsfg-vk** dependency installed.
+<div class="js-callout js-callout--warning">
+  <strong>Prerequisites:</strong> You need <strong>Lossless Scaling</strong> from Steam (paid) and the <strong>lsfg-vk</strong> dependency installed.
+</div>
 
-> **Note:** LSFG doesn't work with all games and may actually make some games perform worse. Your mileage may vary.
+<div class="js-callout js-callout--tip">
+  <strong>Note:</strong> LSFG doesn't work with all games and may actually make some games perform worse. Your mileage may vary.
+</div>
 
----
+<hr>
 
-## Requirements
+<h3>Requirements</h3>
 
-Before you start, you'll need two things:
+<p>Before you start, you'll need two things:</p>
 
-### 1. Lossless Scaling (Steam)
+<h4>1. Lossless Scaling (Steam)</h4>
 
-Purchase and install **Lossless Scaling** from Steam. Once installed:
-- Right-click the app in Steam
-- Select **Properties**
-- Go to **Betas**
-- Select **Linux Beta** from the dropdown
+<p>Purchase and install <strong>Lossless Scaling</strong> from Steam. Once installed:</p>
+<ul>
+  <li>Right-click the app in Steam</li>
+  <li>Select <strong>Properties</strong></li>
+  <li>Go to <strong>Betas</strong></li>
+  <li>Select <strong>Linux Beta</strong> from the dropdown</li>
+</ul>
 
-### 2. Install lsfg-vk
+<h4>2. Install lsfg-vk</h4>
 
-Run this command in Desktop Mode (Konsole):
+<p>Run this command in Desktop Mode (Konsole):</p>
 
-```
-curl -fsSL https://raw.githubusercontent.com/ebenbruyns/lsfg-vk-deck-installer/refs/heads/main/install.sh | bash
-```
+<pre><code>curl -fsSL https://raw.githubusercontent.com/ebenbruyns/lsfg-vk-deck-installer/refs/heads/main/install.sh | bash</code></pre>
 
-Once installed, Junk Store will automatically detect and use it.
+<p>Once installed, Junk Store will automatically detect and use it.</p>
 
-> **Pro Tip:** You don't need the separate Decky LSFG-VK plugin if you're using Junk Store. Our built-in integration handles everything.
+<div class="js-callout js-callout--tip">
+  <strong>Pro Tip:</strong> You don't need the separate Decky LSFG-VK plugin if you're using Junk Store. Our built-in integration handles everything.
+</div>
 
----
+<hr>
 
-## How to Enable LSFG in Junk Store
+<h3>How to Enable LSFG in Junk Store</h3>
 
-### Step 1: Open Settings Menu
+<div class="install-guide">
+<ol>
 
-From the game page in Junk Store, click the **Settings** menu (cog icon).
+<li>
+  <strong>Open Settings Menu</strong>
+  <p>From the game page in Junk Store, click the <strong>Settings</strong> menu (cog icon).</p>
+  <img src="/assets/images/tutorials/lsfg/cp2077cog.webp" alt="Settings menu cog icon" width="600" height="338" loading="lazy" />
+</li>
 
-![Settings menu cog icon](/assets/images/tutorials/lsfg/cp2077cog.webp)
+<li>
+  <strong>Select Proton Configs</strong>
+  <p>Select <strong>Proton Configs</strong> from the menu.</p>
+  <img src="/assets/images/tutorials/lsfg/protonconfig.webp" alt="Proton Configs option" width="600" height="338" loading="lazy" />
+</li>
 
----
+<li>
+  <strong>Show All Options</strong>
+  <p>Set the dropdown to <strong>All</strong> to reveal advanced options.</p>
+  <img src="/assets/images/tutorials/lsfg/alldropdown.webp" alt="Dropdown set to All" width="600" height="338" loading="lazy" />
+</li>
 
-### Step 2: Select Proton Configs
+<li>
+  <strong>Enable LSFG</strong>
+  <p>Find the <strong>LSFG</strong> section and enable LSFG-VK. Tweak the settings if needed.</p>
+  <img src="/assets/images/tutorials/lsfg/lsfgvksettings.webp" alt="LSFG-VK settings" width="600" height="338" loading="lazy" />
 
-Select **Proton Configs** from the menu.
+  <div class="js-callout js-callout--warning">
+    <strong>Important:</strong> Both LSFG settings need to say <strong>Enable</strong> for LSFG-VK to work.
+  </div>
+</li>
 
-![Proton Configs option](/assets/images/tutorials/lsfg/protonconfig.webp)
+<li>
+  <strong>Save Changes</strong>
+  <p>Press <strong>X</strong> to save your changes!</p>
+</li>
 
----
+</ol>
+</div>
 
-### Step 3: Show All Options
+<hr>
 
-Set the dropdown to **All** to reveal advanced options.
+<h3>Troubleshooting</h3>
 
-![Dropdown set to All](/assets/images/tutorials/lsfg/alldropdown.webp)
+<ul>
+  <li><strong>LSFG not working?</strong> Try a different Proton version. Some games work better with specific GE-Proton releases.</li>
+  <li><strong>Settings not saving?</strong> Make sure you press X to save before exiting.</li>
+</ul>
 
----
+<hr>
 
-### Step 4: Enable LSFG
+<div class="js-callout js-callout--help">
+  <h3>Stuck or need help?</h3>
+  <p><strong>Need setup help? We're here for you!</strong> Most issues are quick fixes.</p>
 
-Find the **LSFG** section and enable LSFG-VK. Tweak the settings if needed.
+  <p><strong>Quick fixes for common issues:</strong></p>
+  <ul>
+    <li><a href="/help/#faq">FAQ</a> - General questions</li>
+    <li><a href="/help/#troubleshooting">Troubleshooting</a> - Common issues</li>
+  </ul>
 
-> **Important:** Both LSFG settings need to say **Enable** for LSFG-VK to work.
-
-![LSFG-VK settings](/assets/images/tutorials/lsfg/lsfgvksettings.webp)
-
----
-
-### Step 5: Save Changes
-
-**Important:** Press **X** to save your changes!
-
----
-
-## Troubleshooting
-
-- **LSFG not working?** Try a different Proton version. Some games work better with specific GE-Proton releases.
-- **Settings not saving?** Make sure you press X to save before exiting.
-
----
-
-## Need More Help?
-
-If you run into trouble, check out:
-- **Universal:** [FAQ Section](/2.0faq/) for common questions
-- **Universal:** [Troubleshooting Guide](/2.0troubleshooting/) for technical issues
-- **Decky Plugin:** [Plugin-specific help](/faq/decky/) and [troubleshooting](/troubleshooting/decky/)
-- **2.0 Standalone:** [Version-specific help](/2.0faq/) and [troubleshooting](/2.0troubleshooting/)
-
-Still stuck? Ask for help:
-<a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn">
-  <i class="fab fa-discord"></i> Discord
-</a>
-<a href="https://www.reddit.com/r/JunkStore/" target="_blank" rel="noopener" class="community-btn reddit-btn">
-  <i class="fab fa-reddit"></i> Reddit
-</a>
+  <p><strong>Still stuck?</strong> Join us on <a href="https://discord.gg/6mRUhR6Teh">Discord</a> for community support.</p>
+</div>

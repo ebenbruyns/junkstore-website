@@ -87,21 +87,94 @@ permalink: /help/
 <div id="tab-tutorials" class="tab-panel">
 
 <div id="tutorials-content">
-  <!-- Skeleton loader while Firebase loads -->
-  <div class="tutorials-skeleton">
-    <div class="skeleton-section-header"></div>
-    <div class="tutorial-grid">
-      <div class="skeleton-tutorial-card"></div>
-      <div class="skeleton-tutorial-card"></div>
-      <div class="skeleton-tutorial-card"></div>
-    </div>
-    <div class="skeleton-section-header mt-4"></div>
-    <div class="tutorial-grid">
-      <div class="skeleton-tutorial-card"></div>
-      <div class="skeleton-tutorial-card"></div>
-      <div class="skeleton-tutorial-card"></div>
-    </div>
+
+<!-- Installation Guides Section -->
+<h2 class="text-center">Installation Guides</h2>
+<div class="tutorial-grid">
+  <div class="tutorial-item decky" data-category="decky">
+    <h4><a href="/tutorials/install-decky-plugin">Install Junk Store Decky Plugin</a></h4>
+    <p>Step-by-step guide to install Junk Store on your Steam Deck</p>
+    <span class="tutorial-tag decky-tag">Decky Plugin</span>
   </div>
+  <div class="tutorial-item pro" data-category="pro">
+    <h4><a href="/get_started/">Getting Started with Junk Store Pro</a></h4>
+    <p>Quick start guide for Junk Store Pro - get up and running fast</p>
+    <span class="tutorial-tag pro-tag">Pro Version</span>
+  </div>
+  <div class="tutorial-item pro" data-category="pro">
+    <h4><a href="/tutorials/install-junk-store-2">Install Junk Store Pro</a></h4>
+    <p>Guide on downloading and installing Junk Store Pro</p>
+    <span class="tutorial-tag pro-tag">Pro Version</span>
+  </div>
+  <div class="tutorial-item decky" data-category="decky">
+    <h4><a href="/tutorials/gogextension/">GOG Extension Install Guide</a></h4>
+    <p>Step-by-step guide on downloading and installing the GOG Extension</p>
+    <span class="tutorial-tag decky-tag">Decky Plugin</span>
+  </div>
+</div>
+
+<hr class="my-4">
+
+<!-- Configuration & Setup Section -->
+<h2 class="text-center">Configuration & Setup</h2>
+<div class="tutorial-grid">
+  <div class="tutorial-item both" data-category="both">
+    <h4><a href="/tutorials/oauth-login">How to Login using OAuth</a></h4>
+    <p>Step-by-step guide on logging in via third party logins</p>
+    <span class="tutorial-tag both-tag">Universal</span>
+  </div>
+  <div class="tutorial-item both" data-category="both">
+    <h4><a href="/tutorials/proton-versions">How to Check/Change Proton Version</a></h4>
+    <p>Step-by-step guide on how to check and change your Proton version</p>
+    <span class="tutorial-tag both-tag">Universal</span>
+  </div>
+  <div class="tutorial-item both" data-category="both">
+    <h4><a href="/tutorials/wine-cellar">How to Install Wine Cellar Plugin</a></h4>
+    <p>Step-by-step guide on installing WineCellar to manage compatibility tools</p>
+    <span class="tutorial-tag both-tag">Universal</span>
+  </div>
+  <div class="tutorial-item both" data-category="both">
+    <h4><a href="/tutorials/change-game-language/">Change Game Language Settings</a></h4>
+    <p>Change your Epic, GOG, or Amazon game language settings directly in Game Mode</p>
+    <span class="tutorial-tag both-tag">Universal</span>
+  </div>
+  <div class="tutorial-item both" data-category="both">
+    <h4><a href="/tutorials/lsfg-frame-generation">Enable LSFG Frame Generation</a></h4>
+    <p>Step-by-step guide on how to enable LSFG frame generation</p>
+    <span class="tutorial-tag both-tag">Universal</span>
+  </div>
+</div>
+
+<hr class="my-4">
+
+<!-- Quick Tips & Tricks Section -->
+<h2 class="text-center">Quick Tips & Tricks</h2>
+<div class="tips-grid">
+{% assign tips = site.posts | where_exp: "post", "post.path contains '_posts/tips/'" | sort: "date" | reverse %}
+{% for tip in tips limit: 12 %}
+  {% assign product = tip.categories | join: " " | downcase %}
+  {% if product contains "decky" %}
+    {% assign item_class = "decky" %}
+    {% assign tag_class = "decky-tag" %}
+    {% assign tag_label = "Decky Plugin" %}
+  {% elsif product contains "pro" %}
+    {% assign item_class = "pro" %}
+    {% assign tag_class = "pro-tag" %}
+    {% assign tag_label = "Pro Version" %}
+  {% else %}
+    {% assign item_class = "both" %}
+    {% assign tag_class = "both-tag" %}
+    {% assign tag_label = "Universal" %}
+  {% endif %}
+  <div class="tip-item {{ item_class }}" data-product="{{ item_class }}">
+    <h4><a href="{{ tip.url }}">{{ tip.title | remove: "Tip of the Week: " }}</a></h4>
+    <p>{{ tip.excerpt | strip_html | truncate: 100 }}</p>
+    <span class="tip-tag">{{ tip.read_time | default: "3 min read" }}</span>
+    <span class="tutorial-tag {{ tag_class }}">{{ tag_label }}</span>
+  </div>
+{% endfor %}
+</div>
+
 </div>
 
 </div>
@@ -648,147 +721,22 @@ window.filterQuickTips = function(version) {
 };
 </script>
 
-<!-- Tutorials Loader (Uses Cloudflare Worker cache) -->
+<!-- Tutorials Init (Static Jekyll content) -->
 <script>
-(async function loadTutorials() {
-  // Wait for cache client to be ready
-  if (!window.fetchCachedCollection) {
-    setTimeout(loadTutorials, 100);
-    return;
-  }
-
-  const container = document.getElementById('tutorials-content');
-  if (!container) return;
-
-  try {
-    // Fetch tutorials and quick tips in parallel from cache
-    const [tutorialsData, tipsData] = await Promise.all([
-      window.fetchCachedCollection('tutorials'),
-      window.fetchCachedCollection('blog/tips/posts').catch(() => []) // Fallback to empty if not available
-    ]);
-
-    // Filter tutorials (active only)
-    const tutorials = (tutorialsData || []).filter(item => item.isActive !== false);
-
-    // Filter quick tips (published only)
-    const quickTips = (tipsData || []).filter(item => item.isPublished !== false);
-
-    // Sort tutorials by order
-    tutorials.sort((a, b) => (a.order || 0) - (b.order || 0));
-
-    // Sort quick tips by order or date
-    quickTips.sort((a, b) => {
-      if (a.order !== undefined && b.order !== undefined) return a.order - b.order;
-      return new Date(b.date || b.createdAt || 0) - new Date(a.date || a.createdAt || 0);
-    });
-
-    // Group tutorials by section
-    const sections = {};
-    tutorials.forEach(t => {
-      const section = t.section || 'other';
-      if (!sections[section]) sections[section] = [];
-      sections[section].push(t);
-    });
-
-    // Section display names
-    const sectionNames = {
-      'installation': 'Installation Guides',
-      'configuration': 'Configuration & Setup',
-      'other': 'Other Tutorials'
-    };
-
-    // Section order
-    const sectionOrder = ['installation', 'configuration', 'other'];
-    const sortedSections = Object.keys(sections).sort((a, b) => {
-      const iA = sectionOrder.indexOf(a), iB = sectionOrder.indexOf(b);
-      if (iA === -1 && iB === -1) return a.localeCompare(b);
-      if (iA === -1) return 1;
-      if (iB === -1) return -1;
-      return iA - iB;
-    });
-
-    // Render tutorials
-    let html = '';
-    sortedSections.forEach((section, idx) => {
-      const sectionTitle = sectionNames[section] || section.charAt(0).toUpperCase() + section.slice(1);
-
-      if (idx > 0) {
-        html += '<hr class="my-4">';
+document.addEventListener('DOMContentLoaded', function() {
+  // Make tutorial and tip boxes clickable
+  document.querySelectorAll('#tutorials-content .tutorial-item, #tutorials-content .tip-item').forEach(item => {
+    item.style.cursor = 'pointer';
+    item.addEventListener('click', function(e) {
+      if (e.button === 0 && e.target.tagName !== 'A') {
+        const link = this.querySelector('h4 a');
+        if (link) window.location.href = link.href;
       }
-
-      html += `<h2 class="text-center">${sectionTitle}</h2>`;
-      html += '<div class="tutorial-grid">';
-
-      sections[section].forEach(t => {
-        const category = t.category || 'both';
-        const tagClass = category === 'decky' ? 'decky-tag' :
-                        category === 'pro' ? 'pro-tag' : 'both-tag';
-        const tagLabel = category === 'decky' ? 'Decky Plugin' :
-                        category === 'pro' ? 'Pro Version' : 'Universal';
-        const itemClass = category === 'decky' ? 'decky' :
-                         category === 'pro' ? 'pro' : 'both';
-
-        html += `
-          <div class="tutorial-item ${itemClass}" data-category="${category}">
-            <h4><a href="${t.permalink || '/tutorials/' + t.slug}">${t.title}</a></h4>
-            <p>${t.excerpt || t.description || ''}</p>
-            <span class="tutorial-tag ${tagClass}">${tagLabel}</span>
-          </div>
-        `;
-      });
-
-      html += '</div>';
     });
+  });
 
-    // Render Quick Tips section (if we have tips)
-    if (quickTips.length > 0) {
-      html += '<hr class="my-4">';
-      html += '<h2 class="text-center">Quick Tips & Tricks</h2>';
-      html += '<div class="tips-grid">';
-
-      quickTips.forEach(tip => {
-        const product = tip.product || 'both';
-        const tagClass = product === 'decky' ? 'decky-tag' :
-                        product === 'pro' ? 'pro-tag' : 'both-tag';
-        const tagLabel = product === 'decky' ? 'Decky Plugin' :
-                        product === 'pro' ? 'Pro Version' : 'Universal';
-        const itemClass = product === 'decky' ? 'decky' :
-                         product === 'pro' ? 'pro' : 'both';
-        const readTime = tip.readTime || '3 min read';
-        const permalink = tip.permalink || `/blog/${tip.slug || tip.id}/`;
-
-        html += `
-          <div class="tip-item ${itemClass}" data-product="${product}">
-            <h4><a href="${permalink}">${tip.title}</a></h4>
-            <p>${tip.excerpt || tip.description || ''}</p>
-            <span class="tip-tag">${readTime}</span>
-            <span class="tutorial-tag ${tagClass}">${tagLabel}</span>
-          </div>
-        `;
-      });
-
-      html += '</div>';
-    }
-
-    container.innerHTML = html;
-
-    // Make tutorial and tip boxes clickable
-    document.querySelectorAll('#tutorials-content .tutorial-item, #tutorials-content .tip-item').forEach(item => {
-      item.addEventListener('click', function(e) {
-        if (e.button === 0 && e.target.tagName !== 'A') {
-          const link = this.querySelector('h4 a');
-          if (link) window.location.href = link.href;
-        }
-      });
-    });
-
-    // Apply current filter
-    const version = localStorage.getItem('junkstore-version') || 'all';
-    filterTutorials(version);
-
-  } catch (err) {
-    console.error('Tutorials load error:', err);
-    container.innerHTML = '<p class="no-results">Failed to load tutorials.</p>';
-  }
-})();
+  // Apply current version filter to tutorials on load
+  const version = localStorage.getItem('junkstore-version') || 'all';
+  filterTutorials(version);
+});
 </script>

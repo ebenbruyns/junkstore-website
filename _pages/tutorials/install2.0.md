@@ -2,13 +2,11 @@
 layout: junkstore-page
 title: "How to Install Junk Store Pro"
 description: "Install Junk Store Pro on Steam Deck. Step-by-step guide to download and set up the standalone app for Epic, GOG, Amazon & itch games in Game Mode."
-excerpt: "Guide on downloading and installing Junk Store Pro"
+excerpt: "Download and install Junk Store Pro standalone app for Epic, GOG, Amazon and itch games"
 permalink: /tutorials/install-junk-store-2
 ---
 
-<h2 class="centered-header">How to Install Junk Store Pro</h2>
-
-<p class="text-center">Prefer a video tutorial? <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener">Watch on YouTube</a></p>
+<p class="text-center">Prefer video? <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener">Watch on YouTube</a></p>
 
 <div class="install-guide">
 <ol>
@@ -71,20 +69,20 @@ permalink: /tutorials/install-junk-store-2
 </ol>
 </div>
 
----
+<hr>
 
-### Upgrading from the Decky plugin?
+<h3>Upgrading from the Decky plugin?</h3>
 
-Your library and installed games will be ported across. To play already installed games, **reset launch options for each game once** — this completes the migration.
+<p>Your library and installed games will be ported across. To play already installed games, <strong>reset launch options for each game once</strong> — this completes the migration.</p>
 
 <div class="install-guide">
 <img src="/assets/images/jspro/install2.0/slidersgamepage.png" alt="Game page sliders menu" width="600" height="338" loading="lazy" />
 <img src="/assets/images/jspro/install2.0/resetlaunch.png" alt="Reset launch options" width="600" height="338" loading="lazy" />
 </div>
 
-Your saves and settings will carry over automatically.
+<p>Your saves and settings will carry over automatically.</p>
 
----
+<hr>
 
 <div class="js-callout js-callout--help">
 <h3>🆘 Stuck or need help?</h3>

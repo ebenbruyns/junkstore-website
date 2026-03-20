@@ -1,17 +1,13 @@
 ---
 title: "How to Login using OAuth"
 description: "Use third-party authentication with Google, PlayStation, Xbox, Nintendo and more to securely login to Epic Games through Junk Store on Steam Deck."
-excerpt: "Step-by-step guide on logging in via third party logins"
+excerpt: "Log in to Epic Games using Google, PlayStation, Xbox, Nintendo or other third-party accounts"
 layout: junkstore-page
 permalink: /tutorials/oauth-login
 categories: ["Universal"]
 tags: ["oauth", "authentication", "epic-games", "login", "both-versions"]
 difficulty: "Beginner"
 ---
-
-<h2 class="centered-header">How to Login using OAuth</h2>
-
-<p class="text-center">Use third-party authentication to securely access Epic Games on your Steam Deck.</p>
 
 <div class="js-provider-grid">
   <span class="js-provider-badge"><i class="fab fa-google" style="color: #4285f4;"></i>Google</span>
@@ -125,7 +121,7 @@ difficulty: "Beginner"
 </ol>
 </div>
 
----
+<hr>
 
 <div class="js-callout js-callout--help">
 <h3>Stuck or need help?</h3>

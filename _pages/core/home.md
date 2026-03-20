@@ -1,27 +1,20 @@
 ---
 layout: junkstore-splash
-title: "Junk Store - Your Non-Steam Gaming Hub"
+title: "Your Non-Steam Gaming Hub"
 description: "All your non-Steam games in one place. Epic, GOG, Amazon & itch on Steam Deck - no desktop mode, no multiple launchers. Just gaming."
 permalink: /
 classes: home
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/site/website_image_compressed.webp
-  actions:
-    - label: "Start Free Trial"
-      url: "/portal-redirect/"
-      class: "button buy-button"
-    - label: "See It In Action"
-      url: "/features/#gallery"
-      class: "button button-secondary"
+  overlay_color: "#1A1A1A"
+  overlay_filter: "0.25"
+  overlay_image: /js-hero-v2b.svg
 excerpt: "All your non-Steam games in one place. No desktop mode. No multiple launchers. Just gaming."
 ---
 
 {% include video-demo-player.html %}
 
 <section class="what-is-junkstore">
-  <h2>What is Junk Store?</h2>
+  <h2>One Launcher. All Your Games</h2>
   <p class="explainer-lead">Junk Store is your all-in-one launcher for non-Steam games on Steam Deck. Instead of juggling multiple launchers or switching to Desktop Mode, Junk Store brings all your game libraries into Steam's Game Mode interface.</p>
 
   <div class="explainer-features">
