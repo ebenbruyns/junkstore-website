@@ -15,10 +15,6 @@
         </a>
       </div>
 
-      <button class="js-nav__toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
-        <span class="js-nav__hamburger"></span>
-      </button>
-
       <ul class="js-nav__links">
         {%- for link in site.data.navigation.main -%}
           <li class="js-nav__item">
@@ -32,11 +28,17 @@
         {%- endfor -%}
       </ul>
 
+      <a href="/portal-redirect/" class="nav-cta-button">Start Free Trial</a>
+
       {% if site.search == true %}
       <a href="/search/" class="js-nav__search" aria-label="Search">
         <i class="fas fa-search"></i>
       </a>
       {% endif %}
+
+      <button class="js-nav__toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span class="js-nav__hamburger"></span>
+      </button>
     </nav>
   </div>
 </header>

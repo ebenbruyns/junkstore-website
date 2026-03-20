@@ -8,7 +8,5 @@ main:
     url: /tested-games/
   - title: "News"
     url: /blog/
-  - title: "Get Started"
-    url: /get_started/
-  - title: "Portal"
+  - title: "My Account"
     url: /portal-redirect/

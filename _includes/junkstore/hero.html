@@ -10,7 +10,7 @@
     <p class="js-hero__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
     {% endif %}
 
-    {% if page.header.actions %}
+    {% if page.header.actions and page.header.cta_float != true %}
     <div class="js-hero__actions">
       {% for action in page.header.actions %}
       <a href="{{ action.url | relative_url }}" class="{{ action.class | default: 'button' }}">{{ action.label }}</a>
@@ -18,6 +18,14 @@
     </div>
     {% endif %}
   </div>
+
+  {% if page.header.actions and page.header.cta_float == true %}
+  <div class="hero-cta-box">
+    {% for action in page.header.actions %}
+    <a href="{{ action.url | relative_url }}" class="{{ action.class | default: 'button' }}">{{ action.label }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
 </div>
 {% elsif page.header.image %}
 <div class="js-hero">
