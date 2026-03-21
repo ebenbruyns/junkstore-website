@@ -10,7 +10,6 @@ This system tracks all modifications to the Jekyll website, providing an audit t
 ### Entry Template:
 ```
 ## Change #[ID] - [Date] [Time]
-**Agent/Session**: [Who made the change]
 **Type**: [Optimization/Fix/Feature/Cleanup/Documentation]
 **Risk Level**: [LOW/MEDIUM/HIGH/CRITICAL]
 **Files Modified**: [List of files]
@@ -41,7 +40,6 @@ This system tracks all modifications to the Jekyll website, providing an audit t
 ## 🗓️ Complete Change History
 
 ### Change #001 - 2025-07-28 09:00
-**Agent/Session**: Games Table Optimization Agent
 **Type**: Fix/Feature  
 **Risk Level**: MEDIUM
 **Files Modified**: 
@@ -76,7 +74,6 @@ Converted problematic Jekyll template-based games table to JavaScript implementa
 ---
 
 ### Change #002 - 2025-07-28 10:30
-**Agent/Session**: Performance Optimization Agent  
 **Type**: Optimization
 **Risk Level**: LOW
 **Files Modified**:
@@ -108,7 +105,6 @@ Optimized large GIF files on homepage using conservative compression (10-22% red
 ---
 
 ### Change #003 - 2025-07-28 11:15
-**Agent/Session**: Automated Image Cleanup Agent
 **Type**: Cleanup/Optimization
 **Risk Level**: LOW
 **Files Modified**: 
@@ -140,7 +136,6 @@ Automated cleanup of unused images identified through systematic audit. Removed 
 ---
 
 ### Change #004 - 2025-07-28 12:00
-**Agent/Session**: Manual Directory Cleanup
 **Type**: Cleanup
 **Risk Level**: MEDIUM
 **Files Modified**:
@@ -172,7 +167,6 @@ Manual removal of tutorial image directories after confirming they were no longe
 ---
 
 ### Change #005 - 2025-07-28 13:30
-**Agent/Session**: CSS Cleanup Agent
 **Type**: Cleanup/Code Quality
 **Risk Level**: LOW
 **Files Modified**:
@@ -205,7 +199,6 @@ Removed 140+ lines of commented-out dead code from SCSS files to improve maintai
 ---
 
 ### Change #006 - 2025-07-28 14:00
-**Agent/Session**: QA Agent
 **Type**: Documentation/Safety
 **Risk Level**: LOW
 **Files Modified**:
@@ -238,7 +231,6 @@ Created comprehensive QA procedures and safety documentation to prevent incident
 ---
 
 ### Change #007 - 2025-07-28 15:30
-**Agent/Session**: State Tracking Agent
 **Type**: Documentation/System Setup  
 **Risk Level**: LOW
 **Files Modified**:

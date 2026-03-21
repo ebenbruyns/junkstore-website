@@ -200,7 +200,6 @@ The Decky troubleshooting content is currently scattered across **4 separate pag
 
 ### 🔥 **Immediate Actions**
 1. **Create merged troubleshooting document** using analysis above
-2. **Review content with quality-assurance agent** for technical accuracy
 3. **Test navigation and search functionality** on development site
 4. **Set up redirect mappings** for old URLs
 

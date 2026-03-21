@@ -37,3 +37,5 @@ lighthouse-reports/
 image-analysis-report.txt
 build.log
 
+
+.playwright-mcp/

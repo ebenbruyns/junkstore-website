@@ -34,7 +34,6 @@ Decision Context = Problem + Options + Constraints + User Input + Technical Anal
 **Date:** [Current Date]  
 **Type:** [Architecture|Performance|UX|Process|Safety]
 **Trigger:** [What prompted this decision]
-**Agent/Session:** [Source of decision]
 
 **Decision:** [What was decided - auto-extracted]
 
@@ -333,7 +332,6 @@ CREATE TABLE decisions (
 **Date:** 2025-07-28  
 **Type:** Process  
 **Trigger:** User request for automatic documentation to prevent manual overhead
-**Agent/Session:** Decision Documentation Agent
 
 **Decision:** Implement comprehensive documentation automation system
 

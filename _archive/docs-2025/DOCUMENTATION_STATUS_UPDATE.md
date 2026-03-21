@@ -25,14 +25,7 @@ Successfully audited and organized all `/docs` directory content. Updated curren
 - `RISK_ASSESSMENT.md` - Risk management
 - `DEPENDENCY_MAP.md` - Technical dependencies
 
-#### Agents (Active - 7 files)
-- `task-master.md` - Primary coordination agent
 - `task-master-coordination.md` - Coordination protocols
-- `qa-safety.md` - Build safety agent
-- `proofreader-copywriter.md` - Content strategy agent
-- `competitive-intelligence.md` - Market intelligence agent  
-- `conversion-optimizer.md` - Business optimization agent
-- `performance-optimizer.md` - Technical performance agent
 
 #### Operations (Essential)
 - `POST_CHANGE_COORDINATION_PROTOCOL.md` - Critical coordination process

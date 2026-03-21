@@ -62,7 +62,6 @@ All SCSS files verified and functional:
 ## MANDATORY FILE READING PROTOCOL ⚠️
 
 ### CRITICAL RULE - ALWAYS READ FILES FIRST
-**This rule applies to ALL agents, AI assistants, and future work:**
 
 #### BEFORE ANY file edit or write operation:
 1. **ALWAYS use Read tool first** to examine current file contents
@@ -81,7 +80,6 @@ All SCSS files verified and functional:
 #### Implementation:
 - **Edit tool will FAIL** if file not read first in the session
 - **Write tool requires** prior Read tool usage for existing files
-- **All agents MUST** follow this protocol without exception
 - **QA checklist includes** verification of file reading compliance
 
 #### Enforcement:
