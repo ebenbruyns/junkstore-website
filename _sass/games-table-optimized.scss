@@ -159,7 +159,6 @@
     padding: 2px 6px;
     border-radius: 4px;
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 .games-table-wrapper .store-badge.epic {
@@ -219,49 +218,61 @@
 
 /* Pagination styling */
 .games-table-wrapper .pagination-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    background: #2a2a2a;
-    border-radius: 8px;
-    margin-top: 20px;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 15px !important;
+    background: #2a2a2a !important;
+    border-radius: 8px !important;
+    margin-top: 20px !important;
 }
 
 .games-table-wrapper .pagination-info {
-    color: #ccc;
-    font-size: 0.9rem;
+    color: #ccc !important;
+    font-size: 0.9rem !important;
 }
 
 .games-table-wrapper .pagination-controls {
-    display: flex;
-    gap: 5px;
-    align-items: center;
+    display: flex !important;
+    gap: 5px !important;
+    align-items: center !important;
 }
 
 .games-table-wrapper .pagination-btn {
-    background: #445465;
-    color: #ddd;
-    border: 1px solid #666;
-    padding: 8px 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-size: 0.9rem;
-    text-decoration: none;
+    background: #445465 !important;
+    color: #ddd !important;
+    border: 1px solid #666 !important;
+    padding: 8px 12px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: all 0.2s !important;
+    font-size: 0.9rem !important;
+    text-decoration: none !important;
 }
 
 .games-table-wrapper .pagination-btn:hover {
-    background: #5a6575;
-    border-color: $junkstore-accent;
+    background: #5a6575 !important;
+    border-color: $junkstore-accent !important;
 }
 
 .games-table-wrapper .pagination-btn.active {
-    background: $junkstore-accent;
-    color: #000;
-    border-color: $junkstore-accent;
-    font-weight: 600;
+    background: $junkstore-accent !important;
+    color: #000 !important;
+    border-color: $junkstore-accent !important;
+    font-weight: 600 !important;
 }
+
+/* Column widths */
+.games-table-wrapper #gamesTable th:nth-child(1),
+.games-table-wrapper #gamesTable td:nth-child(1) { width: 40%; }
+.games-table-wrapper #gamesTable th:nth-child(2),
+.games-table-wrapper #gamesTable td:nth-child(2) { width: 15%; }
+.games-table-wrapper #gamesTable th:nth-child(3),
+.games-table-wrapper #gamesTable td:nth-child(3) { width: 15%; }
+.games-table-wrapper #gamesTable th:nth-child(4),
+.games-table-wrapper #gamesTable td:nth-child(4) { width: 15%; }
+.games-table-wrapper #gamesTable th:nth-child(5),
+.games-table-wrapper #gamesTable td:nth-child(5) { width: 15%; }
 
 /* Column alignments */
 .games-table-wrapper #gamesTable th:nth-child(1) { text-align: center; }
@@ -421,7 +432,6 @@
     padding: 2px 6px;
     border-radius: 4px;
     font-weight: 600;
-    text-transform: uppercase;
     margin-left: 0.5rem;
 }
 
@@ -535,7 +545,6 @@
     border-radius: 4px;
     font-size: 0.8em;
     font-weight: bold;
-    text-transform: uppercase;
 }
 
 .storefront-epic {

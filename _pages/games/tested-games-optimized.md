@@ -37,7 +37,7 @@ permalink: /tested-games/
       <option value="Epic">Epic</option>
       <option value="GOG">GOG</option>
       <option value="Amazon">Amazon</option>
-      <option value="itch.io">itch</option>
+      <option value="itch">itch</option>
     </select>
   </div>
   
@@ -136,15 +136,15 @@ permalink: /tested-games/
       <!-- Table rows will be populated by JavaScript -->
     </tbody>
   </table>
-</div>
 
-<!-- Pagination -->
-<div class="pagination-container" id="paginationContainer">
-  <div class="pagination-info" id="paginationInfo">
-    <!-- Will show "Showing X-Y of Z games" -->
-  </div>
-  <div class="pagination-controls" id="paginationControls">
-    <!-- Page buttons will be added here -->
+  <!-- Pagination -->
+  <div class="pagination-container" id="paginationContainer">
+    <div class="pagination-info" id="paginationInfo">
+      <!-- Will show "Showing X-Y of Z games" -->
+    </div>
+    <div class="pagination-controls" id="paginationControls">
+      <!-- Page buttons will be added here -->
+    </div>
   </div>
 </div>
 

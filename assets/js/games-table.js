@@ -112,13 +112,13 @@ function populateFeaturedGames() {
   const sortedGames = sortGamesByWidth(featuredGames);
   
   container.innerHTML = sortedGames.map(game => {
-    const storefrontDir = game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase();
+    const storefrontDir = game.storefront === 'itch' ? 'itch.io' : game.storefront.toLowerCase();
     return `
     <div class="featured-entry clickable" data-game-id="${game.id}" data-modal-file="games/${storefrontDir}/${game.slug}.json">
       <span class="featured-game-link">
         ${game.title}
       </span>
-      <span class="store-badge ${game.storefront === 'itch.io' ? 'itch' : game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
+      <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
     </div>
     `;
   }).join('');
@@ -149,7 +149,7 @@ function populateStats() {
         <span class="stat-label">Amazon</span>
       </div>
       <div class="stat-item">
-        <span class="stat-number">${gamesData.storefronts['itch.io'].total}</span>
+        <span class="stat-number">${gamesData.storefronts.itch.total}</span>
         <span class="stat-label">itch</span>
       </div>
     </div>
@@ -273,11 +273,11 @@ function updateTable() {
       <td title="${game.title}">
         ${isAntiCheat ?
           `<span class="game-title-static">${game.title}</span>` :
-          `<span class="game-link clickable" data-game-id="${game.id}" data-modal-file="games/${game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase()}/${game.slug}.json">${game.title}</span>`
+          `<span class="game-link clickable" data-game-id="${game.id}" data-modal-file="games/${game.storefront === 'itch' ? 'itch.io' : game.storefront.toLowerCase()}/${game.slug}.json">${game.title}</span>`
         }
       </td>
       <td>
-        <span class="store-badge ${game.storefront === 'itch.io' ? 'itch' : game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
+        <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
       </td>
       ${isAntiCheat ?
         `<td colspan="2" class="anticheat-warning">⚠️ Incompatible - Anti Cheat</td>` :
@@ -442,8 +442,8 @@ function checkForGameParameter() {
         'epic': 'Epic',
         'gog': 'GOG',
         'amazon': 'Amazon',
-        'itch': 'itch.io',
-        'itch.io': 'itch.io'
+        'itch': 'itch',
+        'itch.io': 'itch'
       };
       const normalizedStore = storeMap[store.toLowerCase()];
 
@@ -532,7 +532,7 @@ function openGameFromSearch(game) {
 
     // Open the modal after a brief delay to allow scroll
     setTimeout(() => {
-      const storefrontDir = game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase();
+      const storefrontDir = game.storefront === 'itch' ? 'itch.io' : game.storefront.toLowerCase();
       const modalFile = `games/${storefrontDir}/${game.slug}.json`;
       openGameModal(game.id, modalFile);
     }, 500);
@@ -616,7 +616,7 @@ function checkForGameHash() {
 
       // Open the modal after a brief delay to allow scroll
       setTimeout(() => {
-        const storefrontDir = game.storefront === 'itch.io' ? 'itch.io' : game.storefront.toLowerCase();
+        const storefrontDir = game.storefront === 'itch' ? 'itch.io' : game.storefront.toLowerCase();
         const modalFile = `games/${storefrontDir}/${game.slug}.json`;
         openGameModal(game.id, modalFile);
       }, 500);

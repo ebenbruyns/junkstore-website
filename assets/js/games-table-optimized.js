@@ -513,7 +513,7 @@ class StaticOptimizedGamesTable {
 
     try {
       // Load full game data from individual JSON file
-      const storefront = gameTableData.storefront === 'itch.io' ? 'itch.io' : gameTableData.storefront.toLowerCase();
+      const storefront = gameTableData.storefront === 'itch' ? 'itch.io' : gameTableData.storefront.toLowerCase();
       const slug = gameTableData.slug || gameTableData.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
       const gameUrl = `/assets/data/games/${storefront}/${slug}.json`;
       
