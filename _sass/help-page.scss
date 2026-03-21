@@ -10,7 +10,8 @@
 
 /* Large Search Box */
 .search-primary {
-  margin-bottom: 1rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0;
 }
 
 .search-box-large {
@@ -69,8 +70,10 @@
 .version-buttons-centered {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 8px;
   margin-top: 1rem;
+  position: relative;
 }
 
 .version-btn {
@@ -108,12 +111,10 @@
   color: #4caf50;
 }
 
-/* Badge Help Button - inside search box */
+/* Badge Help Button - next to version filters */
 .badge-help-btn {
-  position: absolute;
-  right: 14px;
-  width: 26px;
-  height: 26px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   border: 2px solid #555;
   background: #1a1a2e;
@@ -122,6 +123,7 @@
   font-weight: bold;
   cursor: pointer;
   transition: all 0.2s;
+  margin-left: 8px;
 }
 
 .badge-help-btn:hover {
@@ -220,10 +222,15 @@
   display: block;
 }
 
-/* ========== COLLAPSIBLE FAQ ========== */
+/* ========== CONTENT SECTIONS ========== */
 .faq-collapsible,
-.ts-collapsible {
-  margin: 2rem 0;
+.ts-collapsible,
+#tutorials-content {
+  margin: 0.75rem 0 2rem 0;
+}
+
+#tutorials-content > h2:first-child {
+  margin-top: 0;
 }
 
 /* Category Accordion - Clean rounded style */

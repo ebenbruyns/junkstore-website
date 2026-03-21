@@ -8,41 +8,41 @@ permalink: /help/
 
 <!-- ==================== COMPACT HEADER ==================== -->
 <section class="help-header-compact">
-  <!-- Search First with tooltip inline -->
-  <div class="search-primary">
-    <div class="search-box-large">
-      <input type="text" id="faq-search" placeholder="Search for answers..." aria-label="Search FAQ">
-      <button type="button" id="faq-clear-search" class="clear-btn" title="Clear search">×</button>
-      <button class="badge-help-btn" id="badge-help-trigger" title="What do the badges mean?">?</button>
-      <!-- Tooltip -->
-      <div class="badge-tooltip" id="badge-tooltip">
-        <div class="tooltip-content">
-          <strong>Badge Guide:</strong>
-          <div class="tooltip-item"><span class="badge-sample decky">Decky</span> Decky Plugin only</div>
-          <div class="tooltip-item"><span class="badge-sample pro">Pro</span> Pro Version only</div>
-          <div class="tooltip-item"><span class="badge-sample both">Universal</span> Same for both versions</div>
-          <div class="tooltip-item"><span class="badge-sample version-specific">Version Specific</span> Different answer per version</div>
-        </div>
-      </div>
-    </div>
-    <div class="search-info-line" id="search-info">Loading...</div>
+  <!-- Tab Navigation (First - pick what type of help) -->
+  <div class="help-tabs-compact">
+    <button class="help-tab active" data-tab="faq" onclick="switchTab('faq')">FAQ</button>
+    <button class="help-tab" data-tab="quicktips" onclick="switchTab('quicktips')">Quick Tips</button>
+    <button class="help-tab" data-tab="troubleshooting" onclick="switchTab('troubleshooting')">Troubleshooting</button>
+    <button class="help-tab" data-tab="tutorials" onclick="switchTab('tutorials')">Tutorials</button>
   </div>
 
-  <!-- Centered Version Buttons -->
+  <!-- Version Buttons (Second - filter by product) -->
   <div class="version-buttons-centered">
     <button class="version-btn decky" data-filter="decky" onclick="selectVersion('decky')">Decky Plugin</button>
     <button class="version-btn pro" data-filter="pro" onclick="selectVersion('pro')">Pro Version</button>
     <button class="version-btn all selected" data-filter="all" onclick="selectVersion('all')">Show All</button>
+    <button class="badge-help-btn" id="badge-help-trigger" title="What do the badges mean?">?</button>
+    <!-- Tooltip -->
+    <div class="badge-tooltip" id="badge-tooltip">
+      <div class="tooltip-content">
+        <strong>Badge Guide:</strong>
+        <div class="tooltip-item"><span class="badge-sample decky">Decky</span> Decky Plugin only</div>
+        <div class="tooltip-item"><span class="badge-sample pro">Pro</span> Pro Version only</div>
+        <div class="tooltip-item"><span class="badge-sample both">Universal</span> Same for both versions</div>
+        <div class="tooltip-item"><span class="badge-sample version-specific">Version Specific</span> Different answer per version</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Box (Third - search within context) -->
+  <div class="search-primary">
+    <div class="search-box-large">
+      <input type="text" id="faq-search" placeholder="Search help content..." aria-label="Search help">
+      <button type="button" id="faq-clear-search" class="clear-btn" title="Clear search">×</button>
+    </div>
+    <div class="search-info-line" id="search-info">Loading...</div>
   </div>
 </section>
-
-<!-- Tab Navigation -->
-<div class="help-tabs-compact">
-  <button class="help-tab active" data-tab="faq" onclick="switchTab('faq')">FAQ</button>
-  <button class="help-tab" data-tab="quicktips" onclick="switchTab('quicktips')">Quick Tips</button>
-  <button class="help-tab" data-tab="troubleshooting" onclick="switchTab('troubleshooting')">Troubleshooting</button>
-  <button class="help-tab" data-tab="tutorials" onclick="switchTab('tutorials')">Tutorials</button>
-</div>
 
 <!-- ==================== FAQ TAB ==================== -->
 <div id="tab-faq" class="tab-panel active">
@@ -141,6 +141,16 @@ permalink: /help/
   <div class="tutorial-item both" data-category="both">
     <h4><a href="/tutorials/lsfg-frame-generation">Enable LSFG Frame Generation</a></h4>
     <p>Step-by-step guide on how to enable LSFG frame generation</p>
+    <span class="tutorial-tag both-tag">Universal</span>
+  </div>
+  <div class="tutorial-item both" data-category="both">
+    <h4><a href="/tutorials/cpp-runtime">Install C++ Runtime</a></h4>
+    <p>Fix game crashes and missing DLL errors by installing Visual C++ redistributables</p>
+    <span class="tutorial-tag both-tag">Universal</span>
+  </div>
+  <div class="tutorial-item both" data-category="both">
+    <h4><a href="/tutorials/ubisoft-games">Play Ubisoft Connect Games</a></h4>
+    <p>Install Ubisoft Connect and launch Ubisoft games through Epic Games Store</p>
     <span class="tutorial-tag both-tag">Universal</span>
   </div>
 </div>
@@ -274,11 +284,37 @@ function updateCategoryVisibility() {
 
 function updateSearchInfo() {
   const searchInfo = document.getElementById('search-info');
-  // Only count FAQ items in the FAQ tab
-  const visibleItems = document.querySelectorAll('#faq-content-redesign .faq-item-compact:not(.hidden)');
-  const totalItems = document.querySelectorAll('#faq-content-redesign .faq-item-compact');
-  if (searchInfo && totalItems.length > 0) {
-    searchInfo.textContent = `${visibleItems.length} of ${totalItems.length} questions`;
+  if (!searchInfo) return;
+
+  const activeTab = document.querySelector('.help-tab.active')?.dataset.tab || 'faq';
+  let visibleCount = 0;
+  let totalCount = 0;
+  let label = 'items';
+
+  if (activeTab === 'faq') {
+    visibleCount = document.querySelectorAll('#faq-content-redesign .faq-item-compact:not(.hidden)').length;
+    totalCount = document.querySelectorAll('#faq-content-redesign .faq-item-compact').length;
+    label = 'questions';
+  } else if (activeTab === 'quicktips') {
+    visibleCount = document.querySelectorAll('#quicktips-content .qt-item:not(.hidden)').length;
+    totalCount = document.querySelectorAll('#quicktips-content .qt-item').length;
+    label = 'tips';
+  } else if (activeTab === 'troubleshooting') {
+    visibleCount = document.querySelectorAll('#troubleshooting-content .ts-item:not(.hidden)').length;
+    totalCount = document.querySelectorAll('#troubleshooting-content .ts-item').length;
+    label = 'issues';
+  } else if (activeTab === 'tutorials') {
+    const tutorials = document.querySelectorAll('#tutorials-content .tutorial-item:not(.hidden)').length;
+    const tips = document.querySelectorAll('#tutorials-content .tip-item:not(.hidden)').length;
+    const totalTutorials = document.querySelectorAll('#tutorials-content .tutorial-item').length;
+    const totalTips = document.querySelectorAll('#tutorials-content .tip-item').length;
+    visibleCount = tutorials + tips;
+    totalCount = totalTutorials + totalTips;
+    label = 'tutorials';
+  }
+
+  if (totalCount > 0) {
+    searchInfo.textContent = `${visibleCount} of ${totalCount} ${label}`;
   }
 }
 
@@ -296,6 +332,15 @@ function switchTab(tabName, updateUrl = true) {
   if (updateUrl) {
     history.replaceState(null, '', '#' + tabName);
   }
+
+  // Re-apply search to new tab
+  const searchInput = document.getElementById('faq-search');
+  if (searchInput && searchInput.value.trim()) {
+    searchInput.dispatchEvent(new Event('input'));
+  }
+
+  // Update search info for the new tab
+  updateSearchInfo();
 }
 
 // ==================== TUTORIAL FILTERING ====================
@@ -334,33 +379,22 @@ document.addEventListener('faqLoaded', function() {
 
   searchInput.addEventListener('input', function() {
     const term = this.value.trim().toLowerCase();
-
     clearBtn.style.display = term ? 'block' : 'none';
 
-    // Only search FAQ items in the FAQ tab
-    document.querySelectorAll('#faq-content-redesign .faq-item-compact').forEach(item => {
-      const text = item.textContent.toLowerCase();
-      const matchesSearch = !term || text.includes(term);
-      const isVersionHidden = item.classList.contains('version-hidden');
+    // Get current active tab
+    const activeTab = document.querySelector('.help-tab.active')?.dataset.tab || 'faq';
 
-      item.classList.toggle('hidden', !matchesSearch || isVersionHidden);
-    });
-
-    // Auto-expand categories with matches when searching
-    if (term) {
-      document.querySelectorAll('#faq-content-redesign .category-accordion').forEach(cat => {
-        const hasVisible = cat.querySelectorAll('.faq-item-compact:not(.hidden)').length > 0;
-        if (hasVisible) cat.classList.add('expanded');
-      });
+    // Search based on active tab
+    if (activeTab === 'faq') {
+      searchFAQ(term);
+    } else if (activeTab === 'quicktips') {
+      searchQuickTips(term);
+    } else if (activeTab === 'troubleshooting') {
+      searchTroubleshooting(term);
+    } else if (activeTab === 'tutorials') {
+      searchTutorials(term);
     }
 
-    // Update FAQ category visibility and counts
-    document.querySelectorAll('#faq-content-redesign .category-accordion').forEach(cat => {
-      const visible = cat.querySelectorAll('.faq-item-compact:not(.hidden)').length;
-      const countEl = cat.querySelector('.category-count');
-      if (countEl) countEl.textContent = visible;
-      cat.classList.toggle('hidden', visible === 0);
-    });
     updateSearchInfo();
   });
 
@@ -377,6 +411,127 @@ document.addEventListener('faqLoaded', function() {
     }
   });
 });
+
+// Search FAQ items
+function searchFAQ(term) {
+  document.querySelectorAll('#faq-content-redesign .faq-item-compact').forEach(item => {
+    const text = item.textContent.toLowerCase();
+    const matchesSearch = !term || text.includes(term);
+    const isVersionHidden = item.classList.contains('version-hidden');
+    item.classList.toggle('hidden', !matchesSearch || isVersionHidden);
+  });
+
+  // Auto-expand categories with matches when searching
+  if (term) {
+    document.querySelectorAll('#faq-content-redesign .category-accordion').forEach(cat => {
+      const hasVisible = cat.querySelectorAll('.faq-item-compact:not(.hidden)').length > 0;
+      if (hasVisible) cat.classList.add('expanded');
+    });
+  }
+
+  // Update category visibility and counts
+  document.querySelectorAll('#faq-content-redesign .category-accordion').forEach(cat => {
+    const visible = cat.querySelectorAll('.faq-item-compact:not(.hidden)').length;
+    const countEl = cat.querySelector('.category-count');
+    if (countEl) countEl.textContent = visible;
+    cat.classList.toggle('hidden', visible === 0);
+  });
+}
+
+// Search Quick Tips items
+function searchQuickTips(term) {
+  document.querySelectorAll('#quicktips-content .qt-item').forEach(item => {
+    const text = item.textContent.toLowerCase();
+    const matchesSearch = !term || text.includes(term);
+    const isVersionHidden = item.classList.contains('version-hidden');
+    item.classList.toggle('hidden', !matchesSearch || isVersionHidden);
+  });
+
+  if (term) {
+    document.querySelectorAll('#quicktips-content .category-accordion').forEach(cat => {
+      const hasVisible = cat.querySelectorAll('.qt-item:not(.hidden)').length > 0;
+      if (hasVisible) cat.classList.add('expanded');
+    });
+  }
+
+  document.querySelectorAll('#quicktips-content .category-accordion').forEach(cat => {
+    const visible = cat.querySelectorAll('.qt-item:not(.hidden)').length;
+    const countEl = cat.querySelector('.category-count');
+    if (countEl) countEl.textContent = visible;
+    cat.classList.toggle('hidden', visible === 0);
+  });
+}
+
+// Search Troubleshooting items
+function searchTroubleshooting(term) {
+  document.querySelectorAll('#troubleshooting-content .ts-item').forEach(item => {
+    const text = item.textContent.toLowerCase();
+    const matchesSearch = !term || text.includes(term);
+    const isVersionHidden = item.classList.contains('version-hidden');
+    item.classList.toggle('hidden', !matchesSearch || isVersionHidden);
+  });
+
+  if (term) {
+    document.querySelectorAll('#troubleshooting-content .category-accordion').forEach(cat => {
+      const hasVisible = cat.querySelectorAll('.ts-item:not(.hidden)').length > 0;
+      if (hasVisible) cat.classList.add('expanded');
+    });
+  }
+
+  document.querySelectorAll('#troubleshooting-content .category-accordion').forEach(cat => {
+    const visible = cat.querySelectorAll('.ts-item:not(.hidden)').length;
+    const countEl = cat.querySelector('.category-count');
+    if (countEl) countEl.textContent = visible;
+    cat.classList.toggle('hidden', visible === 0);
+  });
+}
+
+// Search Tutorials and Tips
+function searchTutorials(term) {
+  const version = localStorage.getItem('junkstore-version') || 'all';
+
+  // Search tutorial items
+  document.querySelectorAll('#tutorials-content .tutorial-item').forEach(item => {
+    const title = item.querySelector('h4')?.textContent.toLowerCase() || '';
+    const desc = item.querySelector('p')?.textContent.toLowerCase() || '';
+    const matchesSearch = !term || title.includes(term) || desc.includes(term);
+
+    const isDecky = item.classList.contains('decky');
+    const isPro = item.classList.contains('pro');
+    const isBoth = item.classList.contains('both');
+    const matchesVersion = version === 'all' ||
+                          (version === 'decky' && (isDecky || isBoth)) ||
+                          (version === 'pro' && (isPro || isBoth));
+
+    item.classList.toggle('hidden', !matchesSearch || !matchesVersion);
+  });
+
+  // Search tip items in tutorials tab
+  document.querySelectorAll('#tutorials-content .tip-item').forEach(item => {
+    const title = item.querySelector('h4')?.textContent.toLowerCase() || '';
+    const desc = item.querySelector('p')?.textContent.toLowerCase() || '';
+    const matchesSearch = !term || title.includes(term) || desc.includes(term);
+
+    const isDecky = item.classList.contains('decky');
+    const isPro = item.classList.contains('pro');
+    const isBoth = item.classList.contains('both');
+    const matchesVersion = version === 'all' ||
+                          (version === 'decky' && (isDecky || isBoth)) ||
+                          (version === 'pro' && (isPro || isBoth));
+
+    item.classList.toggle('hidden', !matchesSearch || !matchesVersion);
+  });
+
+  // Hide empty sections
+  document.querySelectorAll('#tutorials-content h2').forEach(heading => {
+    const nextGrid = heading.nextElementSibling;
+    if (nextGrid && (nextGrid.classList.contains('tutorial-grid') || nextGrid.classList.contains('tips-grid'))) {
+      const visibleItems = nextGrid.querySelectorAll('.tutorial-item:not(.hidden), .tip-item:not(.hidden)');
+      heading.classList.toggle('hidden', visibleItems.length === 0);
+      nextGrid.classList.toggle('hidden', visibleItems.length === 0);
+    }
+  });
+}
 
 // ==================== CATEGORY TOGGLE ====================
 function toggleCategory(el) {
