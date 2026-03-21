@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Tip of the Week: Download Anti-Cheat Dependencies for EAC and BattlEye"
 date: 2026-03-04 15:10:00 +1300
 categories: [Tip of the Week, Features]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Junk Store Tested - February 17, 2026"
 date: 2026-02-17 15:30:00 +1300
 categories: [Weekly Update, Game Compatibility]
