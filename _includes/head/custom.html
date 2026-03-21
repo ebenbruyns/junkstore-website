@@ -1,7 +1,11 @@
 <!-- start custom head snippets -->
+{% include performance-optimizations.html %}
 
-
-<!-- Preconnect handled in main head.html to avoid duplicates -->
+<!-- Preconnect hints for external domains -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
 <!-- GOG Font with optimized loading - deferred for performance -->
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -11,6 +15,21 @@
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"></noscript>
 
+<!-- Font Awesome - deferred for performance -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+<!-- Highlight.js CSS for syntax highlighting - deferred -->
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css"></noscript>
+
+<!-- Font display optimization to prevent layout shifts -->
+<style>
+@font-face { font-family: 'Font Awesome 6 Free'; font-display: swap; }
+@font-face { font-family: 'Font Awesome 6 Brands'; font-display: swap; }
+@font-face { font-family: 'Lato'; font-display: swap; }
+@font-face { font-family: 'Roboto'; font-display: swap; }
+</style>
 
 <!-- Mobile performance optimizations -->
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -34,6 +53,74 @@
   window.firebaseCollection = collection;
   window.firebaseDoc = doc;
   window.firebaseGetDoc = getDoc;
+</script>
+
+<!-- Cookie Consent with Accept/Decline -->
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"></noscript>
+<style>
+  /* Cookie banner styling */
+  .cc-window {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    visibility: visible !important;
+    min-width: 300px !important;
+    max-width: 350px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
+    border-radius: 8px !important;
+    z-index: 9999 !important;
+    padding: 1.5rem !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+  }
+  .cc-message { margin-bottom: 1rem !important; display: block !important; }
+  .cc-compliance { display: flex !important; gap: 0.5rem !important; flex-wrap: wrap !important; }
+  .cc-btn { padding: 0.5rem 1rem !important; border-radius: 4px !important; font-weight: bold !important; border: none !important; cursor: pointer !important; font-size: 13px !important; }
+  .cc-allow { background: #f1d600 !important; color: #000 !important; }
+  .cc-deny { background: #666 !important; color: #fff !important; }
+  .cc-link { color: #f1d600 !important; text-decoration: underline !important; }
+</style>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" defer></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      palette: {
+        popup: { background: "#222" },
+        button: { background: "#f1d600" }
+      },
+      theme: "classic",
+      position: "bottom-right",
+      type: "opt-in",
+      content: {
+        message: "We use cookies for analytics to improve your experience. You can accept or decline non-essential cookies.",
+        allow: "Accept",
+        deny: "Decline",
+        link: "Privacy Policy",
+        href: "/privacy-policy"
+      },
+      onStatusChange: function(status, chosenBefore) {
+        var didConsent = this.hasConsented();
+        if (didConsent) {
+          loadAnalytics();
+        } else {
+          console.log('Analytics declined by user');
+        }
+      }
+    });
+    // Fix privacy policy link target
+    var learnMoreLink = document.querySelector(".cc-window .cc-link");
+    if (learnMoreLink) {
+      learnMoreLink.setAttribute("target", "_self");
+    }
+  });
+
+  // Load analytics only when user consents
+  function loadAnalytics() {
+    // Reddit Pixel
+    !function(w,d){if(!w.rdt){var p=w.rdt=function(){p.sendEvent?p.sendEvent.apply(p,arguments):p.callQueue.push(arguments)};p.callQueue=[];var t=d.createElement("script");t.src="https://www.redditstatic.com/ads/pixel.js",t.async=!0;var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}}(window,document);rdt('init','a2_he1ee07fnmdm');rdt('track', 'PageVisit');
+    // Google Tag Manager
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5QM6MSX6');
+  }
 </script>
 
 <!-- end custom head snippets -->

@@ -170,10 +170,10 @@ footer:
 # google_analytics: # Optional
 # bing_site_verification:   # Optional
 analytics:
-  provider: "google-gtag"
+  provider: false  # Disabled - cookie consent handles analytics loading
   google:
-    tracking_id: "G-E2Y00GCMSG"   # Replace with your GA4 measurement ID
-    anonymize_ip: true            # Optional
+    tracking_id: "G-E2Y00GCMSG"   # GA4 ID kept for reference
+    anonymize_ip: true
 
 # Permalinks
 permalink: /:categories/:title/
@@ -205,6 +205,7 @@ exclude:
   - assets/images/backups/
   - tested-games-new/
   - _archive/
+  - cloudflare-worker/
 keep_files:
   - .git
 
