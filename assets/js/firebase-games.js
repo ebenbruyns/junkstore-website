@@ -6,7 +6,7 @@
  * Full game details are loaded on-demand when modal is opened.
  */
 
-const CACHE_KEY = 'junkstore_games_cache_v5'; // v5: known slug fixes map
+const CACHE_KEY = 'junkstore_games_cache_v6'; // v6: pagination support for all games
 const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes in milliseconds
 
 /**
@@ -21,7 +21,8 @@ const SLUG_FIXES = {
 
 /**
  * Normalize slug to match static JSON file naming convention
- * Uses a known-fixes map for specific problematic slugs
+ * Handles apostrophe issues (e.g., "baldur-s-gate" -> "baldurs-gate")
+ * Uses a known-fixes map for specific edge cases
  * @param {string} slug - The slug to normalize
  * @param {string} title - The game title (unused, kept for compatibility)
  * @returns {string} Normalized slug
@@ -29,12 +30,24 @@ const SLUG_FIXES = {
 function normalizeSlug(slug, title) {
   if (!slug) return '';
 
-  const normalized = slug.toLowerCase();
+  let normalized = slug.toLowerCase();
 
-  // Check if this slug has a known fix
+  // Check if this slug has a known fix first (for edge cases)
   if (SLUG_FIXES[normalized]) {
-    console.log(`🔧 Fixed slug: ${normalized} -> ${SLUG_FIXES[normalized]}`);
+    console.log(`🔧 Fixed slug (known): ${normalized} -> ${SLUG_FIXES[normalized]}`);
     return SLUG_FIXES[normalized];
+  }
+
+  // Fix apostrophe-s patterns: "-s-" -> "s-" (e.g., "baldur-s-gate" -> "baldurs-gate")
+  // This handles possessives like "Baldur's", "Tiny Tina's", etc.
+  const originalSlug = normalized;
+  normalized = normalized.replace(/-s-/g, 's-');
+
+  // Also fix trailing "-s" that should be "s" (e.g., "assassin-s-creed" -> "assassins-creed")
+  // But be careful not to break words that legitimately end in "-s"
+
+  if (normalized !== originalSlug) {
+    console.log(`🔧 Fixed slug (apostrophe): ${originalSlug} -> ${normalized}`);
   }
 
   return normalized;
@@ -74,7 +87,7 @@ async function loadGamesFromFirebase() {
     'epic': 'Epic',
     'gog': 'GOG',
     'amazon': 'Amazon',
-    'itch': 'itch.io'
+    'itch': 'itch'
   };
 
   const games = [];
@@ -86,8 +99,8 @@ async function loadGamesFromFirebase() {
 
   for (const storefront of storefronts) {
     try {
-      // Fetch from Cloudflare Worker cache instead of direct Firebase
-      const storeGames = await window.fetchCachedCollection(`games/${storefront}/games`);
+      // Fetch all pages from Cloudflare Worker cache (handles pagination automatically)
+      const storeGames = await window.fetchAllPages(`games/${storefront}/games`, 500);
 
       let storeTotal = 0;
       let storeFeatured = 0;

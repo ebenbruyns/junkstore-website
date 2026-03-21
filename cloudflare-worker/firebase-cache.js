@@ -179,6 +179,7 @@ export default {
     // Route: /collection/:name (get all docs)
     // Route: /collection/:name/:docId (get single doc)
     // Route: /collection/:name/:subcol/:subname (nested collection)
+    // Query params: ?pageSize=N&pageToken=TOKEN for pagination
     const parts = path.split('/').filter(Boolean);
     if (parts[0] !== 'collection' || parts.length < 2) {
       return new Response(JSON.stringify({ error: 'Invalid path. Use /collection/{name}' }), {
@@ -188,7 +189,22 @@ export default {
     }
 
     const collectionPath = parts.slice(1).join('/');
-    const cacheKey = `firebase:${collectionPath}`;
+
+    // Extract pagination parameters from query string
+    const pageSize = url.searchParams.get('pageSize');
+    const pageToken = url.searchParams.get('pageToken');
+
+    // Build cache key including pagination params for unique caching per page
+    let cacheKey = `firebase:${collectionPath}`;
+    if (pageSize) {
+      cacheKey += `:ps${pageSize}`;
+    }
+    if (pageToken) {
+      // Use a hash of pageToken to keep cache key reasonable length
+      const tokenHash = await hashString(pageToken);
+      cacheKey += `:pt${tokenHash}`;
+    }
+
     const cache = caches.default;
 
     // Check cache first
@@ -211,7 +227,7 @@ export default {
 
     // Cache miss - fetch from Firebase
     try {
-      const data = await fetchFromFirestore(collectionPath);
+      const data = await fetchFromFirestore(collectionPath, pageSize ? parseInt(pageSize, 10) : null, pageToken);
 
       // Use 24-hour TTL for all collections
       const ttl = CACHE_TTL;
@@ -253,9 +269,18 @@ export default {
   }
 };
 
-async function fetchFromFirestore(collectionPath) {
+async function fetchFromFirestore(collectionPath, pageSize = null, pageToken = null) {
   const baseUrl = `https://firestore.googleapis.com/v1/projects/${FIREBASE_PROJECT}/databases/(default)/documents`;
-  const firestoreUrl = `${baseUrl}/${collectionPath}?key=${FIREBASE_API_KEY}`;
+
+  let firestoreUrl = `${baseUrl}/${collectionPath}?key=${FIREBASE_API_KEY}`;
+
+  // Add pagination parameters if provided
+  if (pageSize) {
+    firestoreUrl += `&pageSize=${pageSize}`;
+  }
+  if (pageToken) {
+    firestoreUrl += `&pageToken=${encodeURIComponent(pageToken)}`;
+  }
 
   const response = await fetch(firestoreUrl);
 
@@ -268,8 +293,11 @@ async function fetchFromFirestore(collectionPath) {
 
   // Transform Firestore format to simple JSON
   if (result.documents) {
-    // Collection query - return array of documents
-    return result.documents.map(doc => transformDocument(doc));
+    // Collection query - return array of documents with pagination info
+    return {
+      documents: result.documents.map(doc => transformDocument(doc)),
+      nextPageToken: result.nextPageToken || null
+    };
   } else if (result.fields) {
     // Single document query
     return transformDocument(result);
@@ -277,7 +305,7 @@ async function fetchFromFirestore(collectionPath) {
     throw new Error(result.error.message);
   } else {
     // Empty collection
-    return [];
+    return { documents: [], nextPageToken: null };
   }
 }
 
@@ -338,4 +366,18 @@ function handleCORS(origin) {
       'Access-Control-Max-Age': '86400'
     }
   });
+}
+
+/**
+ * Hash a string to a short hex string for cache keys
+ * @param {string} str - String to hash
+ * @returns {Promise<string>} Short hash
+ */
+async function hashString(str) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(str);
+  const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+  const hashArray = Array.from(new Uint8Array(hashBuffer));
+  // Return first 8 chars of hex hash (enough for uniqueness in cache keys)
+  return hashArray.slice(0, 4).map(b => b.toString(16).padStart(2, '0')).join('');
 }
