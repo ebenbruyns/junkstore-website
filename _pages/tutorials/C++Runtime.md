@@ -3,7 +3,7 @@ title: "How to Install the C++ Runtime"
 description: "Fix game crashes and missing DLL errors by manually installing Microsoft Visual C++ redistributables when Protontricks fails on Steam Deck."
 excerpt: "Fix games that crash due to missing Visual C++ redistributables using Junk Store's built-in tool"
 layout: junkstore-page
-permalink: /tutorials/cpp-runtime
+permalink: /tutorials/cpp-runtime/
 categories: ["Universal"]
 tags: ["c++", "runtime", "dependencies", "troubleshooting", "both-versions"]
 difficulty: "Intermediate"

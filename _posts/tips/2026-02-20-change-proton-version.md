@@ -64,7 +64,7 @@ You can also change Proton directly from the Non-Steam tab in your Steam Library
 
 Same result, just a different way to get there.
 
-<a href="/tutorials/proton-versions" class="inline-games-cta-button" style="display: inline-block; margin: 20px 0;">Full Step-by-Step Guide with Screenshots →</a>
+<a href="/tutorials/proton-versions/" class="inline-games-cta-button" style="display: inline-block; margin: 20px 0;">Full Step-by-Step Guide with Screenshots →</a>
 
 <h2 style="text-align: left !important; margin-left: 0;">Which Proton Version?</h2>
 

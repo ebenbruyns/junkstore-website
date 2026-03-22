@@ -3,7 +3,7 @@ title: "How to Install Junk Store Decky Plugin"
 description: "Install Junk Store Decky plugin on Steam Deck. Open-source plugin for Epic Games in Game Mode via Decky Loader. GOG extension available separately."
 excerpt: "Install Junk Store via Decky Loader to play Epic Games in Steam Deck Game Mode"
 layout: junkstore-page
-permalink: /tutorials/install-decky-plugin
+permalink: /tutorials/install-decky-plugin/
 categories: ["Decky Plugin"]
 tags: ["installation", "decky-loader", "epic-games", "setup"]
 difficulty: "Beginner"
@@ -53,7 +53,7 @@ Make sure the Epic account you log in with has games in its library, or nothing 
 
 <li>
 <strong>Use Desktop Mode for Third-Party Logins</strong>
-<p>If you want to log in using <strong>Xbox</strong>, <strong>PlayStation</strong>, <strong>Nintendo</strong>, or another method, switch to <strong>Desktop Mode</strong> and follow our guide: <a href="/tutorials/oauth-login">Login with OAuth / Third-Party</a></p>
+<p>If you want to log in using <strong>Xbox</strong>, <strong>PlayStation</strong>, <strong>Nintendo</strong>, or another method, switch to <strong>Desktop Mode</strong> and follow our guide: <a href="/tutorials/oauth-login/">Login with OAuth / Third-Party</a></p>
 </li>
 
 <li>

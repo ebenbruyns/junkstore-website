@@ -3,7 +3,7 @@ title: "How to Play Ubisoft Connect Games via Junk Store"
 description: "Step-by-step guide on installing Ubisoft Connect and launching Ubisoft games through Epic Games Store in Junk Store on Steam Deck."
 excerpt: "Play Ubisoft Connect games from your Epic library including Assassin's Creed and Far Cry"
 layout: junkstore-page
-permalink: /tutorials/ubisoft-games
+permalink: /tutorials/ubisoft-games/
 categories: ["Universal"]
 tags: ["ubisoft", "third-party-launchers", "epic-games", "both-versions"]
 difficulty: "Advanced"
@@ -34,7 +34,7 @@ difficulty: "Advanced"
 <h3>Installing Ubisoft Connect Launcher</h3>
 
 <div class="js-callout js-callout--warning">
-<strong>Important:</strong> If you keep getting pushed back to the game screen and nothing happens, check that <em>Proton Compatibility</em> is <strong>enabled</strong>. If this isn't toggled on, you won't be able to install the Ubisoft Connect launcher. See the <a href="/tutorials/proton-versions">How to Check/Change Proton Version</a> guide.
+<strong>Important:</strong> If you keep getting pushed back to the game screen and nothing happens, check that <em>Proton Compatibility</em> is <strong>enabled</strong>. If this isn't toggled on, you won't be able to install the Ubisoft Connect launcher. See the <a href="/tutorials/proton-versions/">How to Check/Change Proton Version</a> guide.
 </div>
 
 <div class="install-guide">

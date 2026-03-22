@@ -3,7 +3,7 @@ title: "How to Install Wine Cellar Plugin"
 description: "Access advanced compatibility tools like GE-Proton and Wine-GE for challenging games in Junk Store. Better than default Steam Proton versions."
 excerpt: "Install Wine Cellar to download GE-Proton and Wine-GE compatibility tools in Game Mode"
 layout: junkstore-page
-permalink: /tutorials/wine-cellar
+permalink: /tutorials/wine-cellar/
 categories: ["Universal"]
 tags: ["wine-cellar", "compatibility", "proton", "ge-proton", "both-versions"]
 difficulty: "Advanced"
@@ -17,9 +17,9 @@ difficulty: "Advanced"
 
 <h3>Prerequisites</h3>
 
-<p>This guide assumes you've already installed <strong>Junk Store via Decky Loader</strong>. If you haven't, check out our tutorial: <a href="/tutorials/install-decky-plugin">How to Install Junk Store</a></p>
+<p>This guide assumes you've already installed <strong>Junk Store via Decky Loader</strong>. If you haven't, check out our tutorial: <a href="/tutorials/install-decky-plugin/">How to Install Junk Store</a></p>
 
-<p>If you're not sure how to change the <strong>Proton version</strong> used for a game, refer to: <a href="/tutorials/proton-versions">How to Check/Change Proton Version</a></p>
+<p>If you're not sure how to change the <strong>Proton version</strong> used for a game, refer to: <a href="/tutorials/proton-versions/">How to Check/Change Proton Version</a></p>
 
 <hr>
 

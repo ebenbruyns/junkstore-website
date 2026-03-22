@@ -16,11 +16,11 @@
   </script>
 {% endif %}
 
-{% if site.search == true or page.layout == "search" %}
+{% if site.search == true or page.layout == "search" or page.layout == "junkstore-search" %}
   {%- assign search_provider = site.search_provider | default: "lunr" -%}
   {%- case search_provider -%}
     {%- when "lunr" -%}
-      {% if page.layout == "search" %}
+      {% if page.layout == "search" or page.layout == "junkstore-search" %}
         {% include_cached search/lunr-search-scripts.html %}
       {% else %}
         {% include_cached search/lunr-search-scripts-deferred.html %}

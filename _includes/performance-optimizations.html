@@ -1,5 +1,7 @@
 <!-- Critical Performance Optimizations for Mobile -->
-<link rel="preload" href="/assets/images/site/website_image_compressed.webp" as="image" type="image/webp">
+{% if page.header.overlay_image %}
+<link rel="preload" href="{{ page.header.overlay_image }}" as="image" type="image/webp">
+{% endif %}
 <link rel="preload" href="/assets/css/main.css" as="style">
 
 <!-- Font Display Optimization -->

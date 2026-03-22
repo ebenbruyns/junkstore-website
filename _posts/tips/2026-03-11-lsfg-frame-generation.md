@@ -61,7 +61,7 @@ That's it! No manual launch arguments needed. Junk Store handles everything for 
 
 **Note:** If LSFG doesn't work on the first try, you may need to experiment with different Proton versions. Some games work better with specific GE-Proton releases.
 
-**Want more detail?** Check out our [full LSFG tutorial](/tutorials/lsfg-frame-generation) for step-by-step screenshots and troubleshooting tips.
+**Want more detail?** Check out our [full LSFG tutorial](/tutorials/lsfg-frame-generation/) for step-by-step screenshots and troubleshooting tips.
 
 <h2 style="text-align: left !important; margin-left: 0;">We Need Your Feedback</h2>
 

@@ -92,7 +92,7 @@ permalink: /help/
 <h2 class="text-center">Installation Guides</h2>
 <div class="tutorial-grid">
   <div class="tutorial-item decky" data-category="decky">
-    <h4><a href="/tutorials/install-decky-plugin">Install Junk Store Decky Plugin</a></h4>
+    <h4><a href="/tutorials/install-decky-plugin/">Install Junk Store Decky Plugin</a></h4>
     <p>Step-by-step guide to install Junk Store on your Steam Deck</p>
     <span class="tutorial-tag decky-tag">Decky Plugin</span>
   </div>
@@ -102,12 +102,12 @@ permalink: /help/
     <span class="tutorial-tag pro-tag">Pro Version</span>
   </div>
   <div class="tutorial-item pro" data-category="pro">
-    <h4><a href="/tutorials/install-junk-store-2">Install Junk Store Pro</a></h4>
+    <h4><a href="/tutorials/install-junk-store-2/">Install Junk Store Pro</a></h4>
     <p>Guide on downloading and installing Junk Store Pro</p>
     <span class="tutorial-tag pro-tag">Pro Version</span>
   </div>
   <div class="tutorial-item decky" data-category="decky">
-    <h4><a href="/tutorials/gogextension/">GOG Extension Install Guide</a></h4>
+    <h4><a href="/tutorials/gog-extension/">GOG Extension Install Guide</a></h4>
     <p>Step-by-step guide on downloading and installing the GOG Extension</p>
     <span class="tutorial-tag decky-tag">Decky Plugin</span>
   </div>
@@ -119,17 +119,17 @@ permalink: /help/
 <h2 class="text-center">Configuration & Setup</h2>
 <div class="tutorial-grid">
   <div class="tutorial-item both" data-category="both">
-    <h4><a href="/tutorials/oauth-login">How to Login using OAuth</a></h4>
+    <h4><a href="/tutorials/oauth-login/">How to Login using OAuth</a></h4>
     <p>Step-by-step guide on logging in via third party logins</p>
     <span class="tutorial-tag both-tag">Universal</span>
   </div>
   <div class="tutorial-item both" data-category="both">
-    <h4><a href="/tutorials/proton-versions">How to Check/Change Proton Version</a></h4>
+    <h4><a href="/tutorials/proton-versions/">How to Check/Change Proton Version</a></h4>
     <p>Step-by-step guide on how to check and change your Proton version</p>
     <span class="tutorial-tag both-tag">Universal</span>
   </div>
   <div class="tutorial-item both" data-category="both">
-    <h4><a href="/tutorials/wine-cellar">How to Install Wine Cellar Plugin</a></h4>
+    <h4><a href="/tutorials/wine-cellar/">How to Install Wine Cellar Plugin</a></h4>
     <p>Step-by-step guide on installing WineCellar to manage compatibility tools</p>
     <span class="tutorial-tag both-tag">Universal</span>
   </div>
@@ -139,17 +139,17 @@ permalink: /help/
     <span class="tutorial-tag both-tag">Universal</span>
   </div>
   <div class="tutorial-item both" data-category="both">
-    <h4><a href="/tutorials/lsfg-frame-generation">Enable LSFG Frame Generation</a></h4>
+    <h4><a href="/tutorials/lsfg-frame-generation/">Enable LSFG Frame Generation</a></h4>
     <p>Step-by-step guide on how to enable LSFG frame generation</p>
     <span class="tutorial-tag both-tag">Universal</span>
   </div>
   <div class="tutorial-item both" data-category="both">
-    <h4><a href="/tutorials/cpp-runtime">Install C++ Runtime</a></h4>
+    <h4><a href="/tutorials/cpp-runtime/">Install C++ Runtime</a></h4>
     <p>Fix game crashes and missing DLL errors by installing Visual C++ redistributables</p>
     <span class="tutorial-tag both-tag">Universal</span>
   </div>
   <div class="tutorial-item both" data-category="both">
-    <h4><a href="/tutorials/ubisoft-games">Play Ubisoft Connect Games</a></h4>
+    <h4><a href="/tutorials/ubisoft-games/">Play Ubisoft Connect Games</a></h4>
     <p>Install Ubisoft Connect and launch Ubisoft games through Epic Games Store</p>
     <span class="tutorial-tag both-tag">Universal</span>
   </div>
