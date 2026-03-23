@@ -28,10 +28,10 @@
       </div>
       {% endif %}
 
-      {% include uptime-tracker.html %}
+      {% comment %}{% include uptime-tracker.html %}{% endcomment %}
 
       <div class="js-footer__row js-footer__copyright">
-        &copy; 2024-{{ site.time | date: '%Y' }} {{ site.copyright | default: site.title }}. All rights reserved.
+        &copy; 2023-{{ site.time | date: '%Y' }} {{ site.copyright | default: site.title }}. All rights reserved.
       </div>
 
     </div>

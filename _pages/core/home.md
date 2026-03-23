@@ -15,7 +15,7 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
 
 <section class="what-is-junkstore">
   <h2>One Launcher. All Your Games</h2>
-  <p class="explainer-lead">Junk Store is your all-in-one launcher for non-Steam games on Steam Deck. Instead of juggling multiple launchers or switching to Desktop Mode, Junk Store brings all your game libraries into Steam's Game Mode interface.</p>
+  <p class="explainer-lead">Junk Store is your all-in-one launcher platform for non-Steam games on Steam Deck. Instead of juggling multiple launchers or switching to Desktop Mode, Junk Store brings all your game libraries into Steam's Game Mode interface.</p>
 
   <div class="explainer-features">
     <div class="explainer-feature">

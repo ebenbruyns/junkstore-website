@@ -267,6 +267,9 @@ function selectVersion(version, updateUrl = true) {
   if (window.filterQuickTips) window.filterQuickTips(version);
   if (window.filterTroubleshooting) window.filterTroubleshooting(version);
   filterTutorials(version);
+
+  // Update the search info count
+  updateSearchInfo();
 }
 
 function updateCategoryVisibility() {

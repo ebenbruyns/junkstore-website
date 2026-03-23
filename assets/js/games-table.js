@@ -685,7 +685,7 @@ async function openGameModal(gameId, modalFile) {
     if (typeof loadGameDetailsFromFirebase === 'function' && basicGame.storefrontKey) {
       try {
         console.log(`🔥 Loading full details from Firebase for: ${basicGame.title}`);
-        const firebaseData = await loadGameDetailsFromFirebase(basicGame.id, basicGame.storefrontKey);
+        const firebaseData = await loadGameDetailsFromFirebase(basicGame.databaseId || basicGame.id, basicGame.storefrontKey);
         if (firebaseData) {
           detailedGame = { ...basicGame, ...firebaseData };
           console.log('✅ Loaded Firebase full data for:', basicGame.title);
