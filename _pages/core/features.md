@@ -1,8 +1,8 @@
 ---
 layout: junkstore-splash
-title: "Junk Store Features"
+title: "Junk Store Features (Reference)"
 description: "Play Epic, GOG, Amazon & itch games on Steam Deck without Desktop Mode. Junk Store keeps you in Game Mode - see features, live demos, and why gamers choose it."
-permalink: /features/
+permalink: /features-reference/
 classes: wide
 header:
   overlay_color: "#000"

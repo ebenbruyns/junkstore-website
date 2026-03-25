@@ -752,6 +752,7 @@ window.filterTroubleshooting = function(version) {
                (version === 'pro' && (product === 'pro' || product === 'both' || product === 'version-specific'));
 
     item.classList.toggle('hidden', !show);
+    item.classList.toggle('version-hidden', !show);
   });
 
   // Update TS category visibility
@@ -867,6 +868,7 @@ window.filterQuickTips = function(version) {
                (version === 'pro' && (product === 'pro' || product === 'both' || product === 'version-specific'));
 
     item.classList.toggle('hidden', !show);
+    item.classList.toggle('version-hidden', !show);
   });
 
   // Update category visibility
