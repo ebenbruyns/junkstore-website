@@ -1,6 +1,8 @@
-{% if page.header.overlay_color or page.header.overlay_image %}
-{% assign overlay_filter = page.header.overlay_filter | default: "0.5" %}
-<div class="js-hero js-hero--overlay" style="background-color: {{ page.header.overlay_color | default: '#000' }}; background-image: linear-gradient(rgba(0, 0, 0, {{ overlay_filter }}), rgba(0, 0, 0, {{ overlay_filter }})){% if page.header.overlay_image %}, url('{{ page.header.overlay_image | relative_url }}'){% endif %};">
+{% assign default_hero = "/js-steamdeck-hero-lighter.webp" %}
+{% assign hero_image = page.header.overlay_image | default: default_hero %}
+{% assign overlay_color = page.header.overlay_color | default: "#1A1A1A" %}
+{% assign overlay_filter = page.header.overlay_filter | default: "0.45" %}
+<div class="js-hero js-hero--overlay" style="background-color: {{ overlay_color }}; background-image: radial-gradient(ellipse at 75% 50%, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.4) 60%), url('{{ hero_image | relative_url }}');">
   <div class="js-hero__wrapper">
     {% if page.title %}
     <h1 class="js-hero__title">{{ page.title }}</h1>
@@ -27,8 +29,3 @@
   </div>
   {% endif %}
 </div>
-{% elsif page.header.image %}
-<div class="js-hero">
-  <img src="{{ page.header.image | relative_url }}" alt="{{ page.title }}" class="js-hero__image">
-</div>
-{% endif %}

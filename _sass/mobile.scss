@@ -20,19 +20,6 @@
   user-select: none;
 }
 
-/* Greedy Navigation base optimizations */
-.greedy-nav {
-  .visible-links {
-    flex-wrap: nowrap;
-    overflow: hidden;
-  }
-
-  .masthead__menu-item {
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
-}
-
 /* Fade-in animation for critical content */
 @keyframes fadeInUp {
   from {
@@ -45,26 +32,6 @@
   }
 }
 
-/* ==========================================================================
-   DESKTOP NAVIGATION (min-width: 769px)
-   ========================================================================== */
-
-@media (min-width: 769px) {
-  .greedy-nav .visible-links {
-    display: flex !important;
-    justify-content: center;
-    flex: 1;
-  }
-
-  .greedy-nav .visible-links li {
-    flex: none;
-  }
-
-  .greedy-nav .visible-links a {
-    margin: 0 1rem;
-    padding: 0.5rem 0.25rem;
-  }
-}
 
 /* ==========================================================================
    MOBILE BASE (max-width: 768px)

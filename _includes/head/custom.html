@@ -34,7 +34,14 @@
 <!-- Mobile performance optimizations -->
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="{{ '/favicon-steamdeck.ico' | relative_url }}">
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon-steamdeck.svg' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
+<link rel="mask-icon" href="{{ '/safari-pinned-tab.svg' | relative_url }}" color="#FF6600">
+<link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
 
 <!-- Firebase SDK for dynamic banners -->
 <script type="module">
@@ -61,9 +68,6 @@
 <style>
   /* Cookie banner styling */
   .cc-window {
-    opacity: 1 !important;
-    transform: translateY(0) !important;
-    visibility: visible !important;
     min-width: 300px !important;
     max-width: 350px !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;

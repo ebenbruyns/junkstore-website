@@ -53,12 +53,45 @@
     color: #fc8181;
 }
 
+/* Technical Config Row - Inline Layout */
+.config-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.config-item {
+    padding: 6px 10px;
+    background: rgba(45, 55, 72, 0.4);
+    border-radius: 6px;
+    border: 1px solid rgba(74, 85, 104, 0.3);
+}
+
+.config-item .info-label {
+    font-weight: 600;
+    color: $junkstore-accent;
+    font-size: 0.85rem;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.config-item .info-value {
+    color: #e2e8f0;
+    font-weight: 500;
+}
+
+.config-item-links {
+    flex: 1;
+    min-width: 200px;
+}
+
 /* External Links Section */
 .external-links {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    margin-top: 10px;
+    margin-top: 4px;
 }
 
 .external-link {
@@ -66,47 +99,62 @@
     align-items: center;
     gap: 6px;
     padding: 6px 12px;
-    background: rgba(255, 163, 102, 0.08);
-    border: 1px solid rgba(255, 163, 102, 0.2);
     border-radius: 6px;
-    color: $junkstore-accent;
     text-decoration: none;
     font-size: 0.85rem;
-    font-weight: 500;
+    font-weight: 600;
     transition: all 0.2s ease;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .external-link:hover,
 .external-link:focus-visible {
-    background: rgba(255, 163, 102, 0.15);
-    border-color: rgba(255, 163, 102, 0.4);
-    color: #ffb380;
     text-decoration: none;
-    transform: translateY(-1px);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     outline: none;
+    filter: brightness(1.1);
 }
 
 .external-link i {
     font-size: $type-size-body-small;
-    opacity: 0.8;
 }
 
+/* ProtonDB - Magenta/Pink */
 .external-link.protondb {
-    border-color: rgba(102, 187, 106, 0.3);
+    background: linear-gradient(135deg, #f50057 0%, #c51162 100%);
+    color: white;
 }
 
-.external-link.protondb:hover,
-.external-link.protondb:focus-visible {
-    border-color: rgba(102, 187, 106, 0.5);
-}
-
+/* PCGamingWiki - Blue */
 .external-link.pcgaming {
-    border-color: rgba(156, 163, 175, 0.3);
+    background: linear-gradient(135deg, #3366cc 0%, #2952a3 100%);
+    color: white;
 }
 
-.external-link.pcgaming:hover,
-.external-link.pcgaming:focus-visible {
-    border-color: rgba(156, 163, 175, 0.5);
+/* Epic - Dark Gray/Black */
+.external-link.epic {
+    background: linear-gradient(135deg, #444 0%, #333 100%);
+    color: white;
+}
+
+/* GOG - Purple */
+.external-link.gog {
+    background: linear-gradient(135deg, #8b4dbd 0%, #7a3fa3 100%);
+    color: white;
+}
+
+/* Amazon - Green */
+.external-link.amazon {
+    background: linear-gradient(135deg, #00a14f 0%, #008a42 100%);
+    color: white;
+}
+
+/* itch.io - Red/Coral */
+.external-link.itch {
+    background: linear-gradient(135deg, #fa5c5c 0%, #d94848 100%);
+    color: white;
 }
 
 /* Compatibility Status Styling - Keep !important for utility-like behavior */
@@ -1010,5 +1058,13 @@ div.game-modal.show,
 
     .info-grid {
         grid-template-columns: 1fr;
+    }
+
+    .config-row {
+        flex-direction: column;
+    }
+
+    .config-item-links {
+        width: 100%;
     }
 }

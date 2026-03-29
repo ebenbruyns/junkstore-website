@@ -10,9 +10,9 @@
 /* Fixed height hero with centered content */
 .layout--splash .page__hero--overlay,
 .js-hero--overlay {
-  min-height: 300px;
-  height: 300px;
-  max-height: 300px;
+  min-height: 220px;
+  height: 220px;
+  max-height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,8 +38,12 @@
   margin-top: 0;
   margin-bottom: 0.4rem;
   line-height: 1.2;
-  color: #fff;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.6);
+  color: #FFFEF8;
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    0 0 20px rgba(0, 0, 0, 0.7),
+    0 0 40px rgba(0, 0, 0, 0.4);
+  -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.15);
 }
 
 /* Excerpt/lead styling */
@@ -49,8 +53,10 @@
   margin-bottom: 0.5rem;
   line-height: 1.3;
   max-width: none;
-  color: rgba(255, 255, 255, 0.95);
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 0, 0, 0.5);
+  color: rgba(255, 254, 248, 0.95);
+  text-shadow:
+    2px 2px 4px rgba(0, 0, 0, 0.9),
+    0 0 15px rgba(0, 0, 0, 0.6);
 }
 
 /* Hero action buttons - left aligned */
