@@ -1174,16 +1174,18 @@ function renderEpicFeatures(game) {
 // Render testing details (Bootstrap version)
 function renderTestingDetailsBootstrap(game) {
   let content = '';
-  
-  // Technical Configuration
-  const hasConfig = game.dependencies || game.controller_config || game.controller_input || game.proton_version || game.protondb || game.epic_url || game.gog_url || game.itch_url || game.pc_gaming_wiki_url;
-  if (hasConfig) {
+
+  // Technical Configuration + External Links
+  const hasConfig = game.dependencies || game.controller_config || game.controller_input;
+  const hasExternalLinks = game.protondb || game.epic_url || game.gog_url || game.itch_url || game.amazon_url || game.pc_gaming_wiki_url;
+
+  if (hasConfig || hasExternalLinks) {
     content += `
       <div class="info-section">
         <h6><i class="fas fa-tools text-success"></i> Technical Configuration</h6>
-        <div class="info-grid">
+        <div class="config-row">
           ${game.controller_config || game.controller_input ? `
-            <div class="info-item">
+            <div class="config-item">
               <span class="info-label">Controller Config</span>
               <span class="info-value">
                 ${formatControllerInput(game.controller_config || game.controller_input)}
@@ -1191,46 +1193,53 @@ function renderTestingDetailsBootstrap(game) {
             </div>
           ` : ''}
           ${game.dependencies ? `
-            <div class="info-item">
+            <div class="config-item">
               <span class="info-label">Dependencies</span>
               <span class="info-value">${game.dependencies}</span>
             </div>
           ` : ''}
-          ${game.protondb ? `
-            <div class="info-item">
-              <span class="info-label">ProtonDB</span>
-              <span class="info-value"><a href="${game.protondb}" target="_blank" rel="noopener noreferrer">View on ProtonDB <i class="fas fa-external-link-alt ms-1"></i></a></span>
-            </div>
-          ` : ''}
-          ${game.epic_url ? `
-            <div class="info-item">
-              <span class="info-label">Epic Store</span>
-              <span class="info-value"><a href="${game.epic_url}" target="_blank" rel="noopener noreferrer">View on Epic <i class="fas fa-external-link-alt ms-1"></i></a></span>
-            </div>
-          ` : ''}
-          ${game.gog_url ? `
-            <div class="info-item">
-              <span class="info-label">GOG Store</span>
-              <span class="info-value"><a href="${game.gog_url}" target="_blank" rel="noopener noreferrer">View on GOG <i class="fas fa-external-link-alt ms-1"></i></a></span>
-            </div>
-          ` : ''}
-          ${game.itch_url ? `
-            <div class="info-item">
-              <span class="info-label">itch</span>
-              <span class="info-value"><a href="${game.itch_url}" target="_blank" rel="noopener noreferrer">View on itch.io <i class="fas fa-external-link-alt ms-1"></i></a></span>
-            </div>
-          ` : ''}
-          ${game.pc_gaming_wiki_url ? `
-            <div class="info-item">
-              <span class="info-label">PCGaming Wiki</span>
-              <span class="info-value"><a href="${game.pc_gaming_wiki_url}" target="_blank" rel="noopener noreferrer">View on PCGaming Wiki <i class="fas fa-external-link-alt ms-1"></i></a></span>
+          ${hasExternalLinks ? `
+            <div class="config-item config-item-links">
+              <span class="info-label">External Links</span>
+              <div class="external-links">
+                ${game.protondb ? `
+                  <a href="${game.protondb}" target="_blank" rel="noopener noreferrer" class="external-link protondb">
+                    <i class="fas fa-atom"></i> ProtonDB
+                  </a>
+                ` : ''}
+                ${game.pc_gaming_wiki_url ? `
+                  <a href="${game.pc_gaming_wiki_url}" target="_blank" rel="noopener noreferrer" class="external-link pcgaming">
+                    <i class="fas fa-book"></i> PCGamingWiki
+                  </a>
+                ` : ''}
+                ${game.epic_url ? `
+                  <a href="${game.epic_url}" target="_blank" rel="noopener noreferrer" class="external-link epic">
+                    <i class="fas fa-store"></i> Epic Store
+                  </a>
+                ` : ''}
+                ${game.gog_url ? `
+                  <a href="${game.gog_url}" target="_blank" rel="noopener noreferrer" class="external-link gog">
+                    <i class="fas fa-store"></i> GOG Store
+                  </a>
+                ` : ''}
+                ${game.amazon_url ? `
+                  <a href="${game.amazon_url}" target="_blank" rel="noopener noreferrer" class="external-link amazon">
+                    <i class="fas fa-store"></i> Amazon
+                  </a>
+                ` : ''}
+                ${game.itch_url ? `
+                  <a href="${game.itch_url}" target="_blank" rel="noopener noreferrer" class="external-link itch">
+                    <i class="fas fa-gamepad"></i> itch.io
+                  </a>
+                ` : ''}
+              </div>
             </div>
           ` : ''}
         </div>
       </div>
     `;
   }
-  
+
   // Testing Notes
   if (game.notes) {
     content += `
@@ -1240,7 +1249,7 @@ function renderTestingDetailsBootstrap(game) {
       </div>
     `;
   }
-  
+
   return content || '<p style="color: #ccc; text-align: center; padding: 40px;">No additional testing details available.</p>';
 }
 
