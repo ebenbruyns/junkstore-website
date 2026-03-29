@@ -1,17 +1,13 @@
 ---
 layout: junkstore-splash
-title: "Junk Store Features (Reference)"
+title: "Junk Store Features"
 description: "Play Epic, GOG, Amazon & itch games on Steam Deck without Desktop Mode. Junk Store keeps you in Game Mode - see features, live demos, and why gamers choose it."
-permalink: /features-reference/
+permalink: /features/
 classes: wide
 header:
   overlay_color: "#1A1A1A"
   overlay_filter: "0.45"
   overlay_image: /js-steamdeck-hero-lighter.webp
-  actions:
-    - label: "Start Free Trial"
-      url: "/portal-redirect/"
-      class: "button buy-button"
 excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam solution"
 ---
 <div id="top"></div>
@@ -27,140 +23,283 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 <!-- ==================== FEATURES TAB ==================== -->
 <div id="tab-features" class="tab-panel active">
 
-<section class="features-section">
-  <h2>Gaming Platforms</h2>
-  <table class="features-table">
-    <tbody>
-      <tr>
-        <td><strong>Epic Games</strong></td>
-        <td>Full platform support with native Game Mode integration</td>
-      </tr>
-      <tr>
-        <td><strong>GOG Games</strong></td>
-        <td>Complete GOG library access including DOS and ScummVM games</td>
-      </tr>
-      <tr>
-        <td><strong>Amazon Prime Gaming</strong></td>
-        <td>Access your Prime Gaming library directly in Game Mode</td>
-      </tr>
-      <tr>
-        <td><strong>itch Gaming</strong></td>
-        <td>Support for indie games from itch platform</td>
-      </tr>
-    </tbody>
-  </table>
+<style>
+/* Features Tab Header */
+#tab-features .comparison-hero {
+  margin: 0;
+  padding: 1.5rem 1rem 0.5rem;
+}
+
+#tab-features .comparison-hero h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+#tab-features .comparison-hero .lead-text {
+  margin: 0;
+  text-align: center;
+}
+
+/* Reduce top padding on first hero feature */
+#tab-features .hero-feature:first-of-type {
+  padding-top: 20px;
+}
+
+/* Hero Feature Sections */
+.hero-feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 40px;
+  align-items: center;
+  padding: 25px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #333;
+}
+
+.hero-feature:last-of-type {
+  border-bottom: none;
+}
+
+.hero-feature > h2 {
+  grid-column: 1 / -1;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  color: #fff;
+  text-align: center;
+}
+
+/* Alternate layout: swap content and visual positions on even items */
+.hero-feature:nth-of-type(even) .hero-feature-content {
+  order: 2;
+}
+
+.hero-feature:nth-of-type(even) .hero-feature-visual {
+  order: 1;
+}
+
+.hero-feature-content .benefit-headline {
+  font-size: 1.1rem;
+  color: #ff8839;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.hero-feature-content p {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.hero-feature-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-feature-content li {
+  padding: 4px 0;
+  padding-left: 24px;
+  position: relative;
+  color: #ccc;
+}
+
+.hero-feature-content li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.hero-feature-visual {
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.hero-feature-visual img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-feature-visual .placeholder {
+  aspect-ratio: 16/10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* CTA Section */
+.features-cta {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(180deg, transparent 0%, rgba(255,102,0,0.1) 100%);
+  margin-top: 40px;
+}
+
+.features-cta h2 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.features-cta .guarantee {
+  color: #999;
+  margin-bottom: 24px;
+}
+
+.features-cta .cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.features-cta .button {
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.features-cta .buy-button {
+  background: #ff6600;
+  color: #fff;
+}
+
+.features-cta .buy-button:hover {
+  background: #ff8839;
+  transform: translateY(-2px);
+}
+
+.features-cta .button-secondary {
+  background: transparent;
+  border: 2px solid #ff6600;
+  color: #ff6600;
+}
+
+.features-cta .button-secondary:hover {
+  background: rgba(255,102,0,0.1);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .hero-feature {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 30px 20px;
+  }
+
+  .hero-feature > h2 {
+    font-size: 1.4rem;
+  }
+}
+</style>
+
+<!-- Features Tab Header -->
+<section class="comparison-hero">
+  <h1>Junk Store Pro Features</h1>
+  <p class="lead-text">Everything you need for non-Steam gaming on Steam Deck. No desktop. No hassle.</p>
 </section>
 
-<section class="features-section">
-  <h2>Game Management</h2>
-  <table class="features-table">
-    <tbody>
-      <tr>
-        <td><strong>Game Mode Native</strong></td>
-        <td>Never leave Game Mode - complete management with your controller</td>
-      </tr>
-      <tr>
-        <td><strong>Game Language Selection</strong></td>
-        <td>Choose preferred language for games that support multiple languages</td>
-      </tr>
-      <tr>
-        <td><strong>Offline Mode Per Game</strong></td>
-        <td>Set individual offline settings for each game across all platforms</td>
-      </tr>
-      <tr>
-        <td><strong>Selective DLC Installation</strong></td>
-        <td>Choose which DLC packs to install instead of all-or-nothing</td>
-      </tr>
-      <tr>
-        <td><strong>Per-Game Launcher Options</strong></td>
-        <td>Customize launcher behavior for individual games (ScummVM, DOSBox, etc.)</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+<!-- Hero Feature 1: Game Mode Native -->
+<div class="hero-feature">
+  <h2>Never Leave Game Mode</h2>
+  <div class="hero-feature-content">
+    <p class="benefit-headline">Your Steam Deck, the way it's meant to be used</p>
+    <p>Install, download, configure and troubleshoot with your controller. No Desktop Mode needed.</p>
+    <ul>
+      <li>Full controller navigation</li>
+      <li>Native Steam Deck UI</li>
+      <li>Browse and install from your couch</li>
+    </ul>
+  </div>
+  <div class="hero-feature-visual">
+    <div class="placeholder">[Screenshot: Junk Store running in Game Mode]</div>
+  </div>
+</div>
 
-<section class="features-section">
-  <h2>Performance & Downloads</h2>
-  <table class="features-table">
-    <tbody>
-      <tr>
-        <td><strong>Download Queue Management</strong></td>
-        <td>Manage multiple downloads - pause, resume, reorder, and monitor progress</td>
-      </tr>
-      <tr>
-        <td><strong>High Performance Capacity</strong></td>
-        <td>Handle 1,000+ games per tab without plugin limitations</td>
-      </tr>
-      <tr>
-        <td><strong>Offline Artwork Cache</strong></td>
-        <td>Per-extension artwork caching for offline browsing</td>
-      </tr>
-      <tr>
-        <td><strong>Zero Performance Impact</strong></td>
-        <td>Lightweight scripts with no background processes while gaming</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+<!-- Hero Feature 2: All Your Stores -->
+<div class="hero-feature">
+  <h2>All Your Games, One Place</h2>
+  <div class="hero-feature-content">
+    <p class="benefit-headline">Epic, GOG, Amazon Prime Gaming, itch.io</p>
+    <p>Stop juggling multiple launchers. Connect all your accounts and browse your entire library in one place.</p>
+    <ul>
+      <li>Epic Games Store</li>
+      <li>GOG Galaxy</li>
+      <li>Amazon Prime Gaming</li>
+      <li>itch.io</li>
+    </ul>
+  </div>
+  <div class="hero-feature-visual">
+    <div class="placeholder">[Screenshot: Multiple storefront tabs]</div>
+  </div>
+</div>
 
-<section class="features-section">
-  <h2>Advanced Features</h2>
-  <table class="features-table">
-    <tbody>
-      <tr>
-        <td><strong>ROM & Emulator Integration</strong></td>
-        <td>Classic game ROMs and emulators integrated directly in Game Mode</td>
-      </tr>
-      <tr>
-        <td><strong>One-Click Dependencies</strong></td>
-        <td>Automated dependency installation (VC++ Redist, DirectX, .NET) without Proton Tricks</td>
-      </tr>
-      <tr>
-        <td><strong>Custom Script Hooks</strong></td>
-        <td>Advanced scripting capabilities for power users</td>
-      </tr>
-      <tr>
-        <td><strong>Extension Creation Wizard</strong></td>
-        <td>Guided wizard for creating custom extensions without coding</td>
-      </tr>
-      <tr>
-        <td><strong>Built-in Help System</strong></td>
-        <td>Contextual help and documentation accessible in Game Mode</td>
-      </tr>
-      <tr>
-        <td><strong>Cloud Saves (Experimental)</strong></td>
-        <td>Per-game cloud save synchronization (beta feature)</td>
-      </tr>
-      <tr>
-        <td><strong>Diagnostics Framework</strong></td>
-        <td>Automatically detects Junk Store configurations that are broken</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+<!-- Hero Feature 3: Download Queue -->
+<div class="hero-feature">
+  <h2>Download Queue That Actually Works</h2>
+  <div class="hero-feature-content">
+    <p class="benefit-headline">Queue up your library and let it run</p>
+    <p>Queue multiple games, reorder priorities, pause individual downloads. Perfect for batch-downloading your Epic freebies.</p>
+    <ul>
+      <li>Cross-store download queue</li>
+      <li>Pause, resume, reorder anytime</li>
+      <li>Background downloads while you play</li>
+    </ul>
+  </div>
+  <div class="hero-feature-visual">
+    <div class="placeholder">[GIF: Download queue in action]</div>
+  </div>
+</div>
 
-<section class="features-section">
-  <h2>Professional Development</h2>
-  <table class="features-table">
-    <tbody>
-      <tr>
-        <td><strong>Instant Developer Updates</strong></td>
-        <td>Direct updates from developer with multiple release channels (stable/testing/beta)</td>
-      </tr>
-      <tr>
-        <td><strong>Built-in Extension Updates</strong></td>
-        <td>Automated extension updates without manual intervention</td>
-      </tr>
-      <tr>
-        <td><strong>Professional Support</strong></td>
-        <td>Full-time development team with dedicated customer support</td>
-      </tr>
-      <tr>
-        <td><strong>Regular Feature Updates</strong></td>
-        <td>Continuous feature development based on user feedback</td>
-      </tr>
-    </tbody>
-  </table>
+<!-- Hero Feature 4: One-Click Fixes -->
+<div class="hero-feature">
+  <h2>Fix Problems Without the Headache</h2>
+  <div class="hero-feature-content">
+    <p class="benefit-headline">One-click solutions for common issues</p>
+    <p>Game needs VC++ runtime, DirectX, or .NET? Tap a button instead of hunting through Proton Tricks.</p>
+    <ul>
+      <li>One-click dependency installation</li>
+      <li>Automatic problem detection</li>
+      <li>Built-in diagnostics</li>
+    </ul>
+  </div>
+  <div class="hero-feature-visual">
+    <div class="placeholder">[GIF: Installing dependencies]</div>
+  </div>
+</div>
+
+<!-- Hero Feature 5: Frame Generation -->
+<div class="hero-feature">
+  <h2>Boost Your Frame Rates</h2>
+  <div class="hero-feature-content">
+    <p class="benefit-headline">Built-in LSFG frame generation</p>
+    <p>Smoother gameplay with LSFG-VK built right in. No separate plugins or launch arguments.</p>
+    <ul>
+      <li>Simple per-game toggle</li>
+      <li>No manual configuration</li>
+      <li>Works with supported games</li>
+    </ul>
+  </div>
+  <div class="hero-feature-visual">
+    <div class="placeholder">[Screenshot: LSFG toggle in settings]</div>
+  </div>
+</div>
+
+<!-- More Features Link -->
+<section class="library-value-callout">
+  <div class="value-box">
+    <h3>And That's Just the Start</h3>
+    <p>Language selection, offline mode, ROM integration, selective DLC, cloud saves, and more.</p>
+    <a href="/features-reference/#tab-features" class="value-unlock">View Full Feature List</a>
+  </div>
 </section>
 
 <section class="simple-cta">
@@ -240,7 +379,6 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   </div>
 </section>
 
-<!-- Table moved to /decky-vs-pro/ page -->
 <section class="simple-cta" id="trial">
   <h2>Ready to Experience the Difference?</h2>
   <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
@@ -486,37 +624,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   <a href="#top" class="back-to-top">Back to Top</a>
 </div>
 
-<!-- Styles moved to _sass/features-page.scss -->
-
 <script>
-// ========== COMPARISON TABLE HOVER POPUPS ==========
-function restartGif(container) {
-  const gif = container.querySelector("img");
-  if (gif) {
-    const src = gif.getAttribute("src").split("?")[0];
-    gif.setAttribute("src", `${src}?t=${Date.now()}`);
-  }
-}
-
-function togglePopup(element) {
-  const wasActive = element.classList.contains('active');
-  document.querySelectorAll('.hover-popup.active').forEach(el => {
-    el.classList.remove('active');
-  });
-  if (!wasActive) {
-    element.classList.add('active');
-    restartGif(element);
-  }
-}
-
-document.addEventListener('click', function(e) {
-  if (!e.target.closest('.hover-popup')) {
-    document.querySelectorAll('.hover-popup.active').forEach(el => {
-      el.classList.remove('active');
-    });
-  }
-});
-
 // ========== TAB SWITCHING ==========
 document.addEventListener('DOMContentLoaded', function() {
   // Initialize tab from URL hash

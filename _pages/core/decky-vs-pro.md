@@ -1,6 +1,6 @@
 ---
 layout: junkstore-splash
-title: "Decky Plugin vs Junk Store Pro - Full Comparison"
+title: "Decky Plugin vs Junk Store Pro"
 description: "Complete feature-by-feature comparison between the free Junk Store Decky plugin and Junk Store Pro. See exactly what you get when you upgrade."
 permalink: /decky-vs-pro/
 header:
@@ -12,254 +12,791 @@ header:
       url: "/portal-redirect/"
       class: "button buy-button"
     - label: "Back to Features"
-      url: "/features/#difference"
+      url: "/features/"
       class: "button button-secondary"
-excerpt: "Full feature comparison between Free Decky Plugin and Junk Store Pro"
+excerpt: "Every feature, side by side"
 ---
 
+<style>
+/* Hero Section */
+.comparison-hero {
+  text-align: center;
+  padding: 1.5rem 1rem 0.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.comparison-hero h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+.comparison-hero .lead-text {
+  margin: 0;
+  text-align: center;
+}
+
+/* Two-Tier Comparison Cards */
+.tier-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 20px;
+}
+
+.tier-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tier-card h3 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  color: #fff;
+}
+
+.tier-card .tier-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #66bfff;
+  margin: 0.5rem 0;
+}
+
+.tier-card .tier-price span {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #999;
+}
+
+.tier-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.tier-card li {
+  padding: 8px 0;
+  padding-left: 28px;
+  position: relative;
+  color: #ccc;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.tier-card li:last-child {
+  border-bottom: none;
+}
+
+.tier-card li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.tier-card.featured {
+  border: 2px solid #ff6600;
+  background: rgba(255, 102, 0, 0.05);
+  position: relative;
+}
+
+.tier-card .tier-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #ff6600;
+  color: #fff;
+  padding: 4px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.tier-card .tier-trial {
+  font-size: 0.9rem;
+  color: #4CAF50;
+  margin-top: 0.5rem;
+}
+
+/* Feature Groups */
+.feature-groups {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 0 20px;
+}
+
+.feature-groups > h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.feature-group {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid #333;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.feature-group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+  user-select: none;
+}
+
+.feature-group-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #ff8839;
+}
+
+.feature-group-header .toggle-icon {
+  font-size: 1.5rem;
+  color: #666;
+  transition: transform 0.3s;
+}
+
+.feature-group.expanded .toggle-icon {
+  transform: rotate(180deg);
+}
+
+.feature-group-content {
+  display: none;
+  padding: 0;
+}
+
+.feature-group.expanded .feature-group-content {
+  display: block;
+}
+
+/* Feature Items within groups */
+.feature-item {
+  display: grid;
+  grid-template-columns: 1fr 150px 150px;
+  gap: 16px;
+  padding: 12px 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  align-items: center;
+  text-align: left;
+}
+
+.feature-item:last-child {
+  border-bottom: none;
+}
+
+.feature-item .feature-name {
+  color: #fff;
+  font-weight: 500;
+}
+
+.feature-item .feature-name .new-badge {
+  background: #ff6600;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+.feature-item .feature-name .feature-note {
+  display: block;
+  font-size: 0.85rem;
+  color: #888;
+  font-weight: normal;
+  margin-top: 4px;
+}
+
+.feature-item .free-status,
+.feature-item .pro-status {
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.feature-item .status-yes {
+  color: #4CAF50;
+}
+
+.feature-item .status-no {
+  color: #ff6b6b;
+}
+
+.feature-item .status-limited {
+  color: #ffc107;
+}
+
+/* Feature Group Table Header */
+.feature-group-content .feature-header {
+  display: grid;
+  grid-template-columns: 1fr 150px 150px;
+  gap: 16px;
+  padding: 10px 1.5rem;
+  background: rgba(102, 191, 255, 0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  font-weight: 600;
+  color: #66bfff;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+/* Demo Section */
+.demo-section {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 0 20px;
+}
+
+.demo-section > h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.demo-section > p {
+  text-align: center;
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.demo-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid #333;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.demo-card:hover {
+  border-color: #ff6600;
+  transform: translateY(-4px);
+}
+
+.demo-card .demo-thumbnail {
+  aspect-ratio: 16/10;
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.demo-card .demo-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.demo-card .demo-thumbnail video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.demo-card.playing .demo-thumbnail img {
+  display: none;
+}
+
+.demo-card.playing .demo-thumbnail video {
+  display: block;
+}
+
+.demo-card .play-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.demo-card:hover .play-overlay {
+  opacity: 1;
+}
+
+.demo-card.playing .play-overlay {
+  display: none;
+}
+
+.demo-card .demo-info {
+  padding: 1rem;
+}
+
+.demo-card .demo-info h4 {
+  margin: 0 0 0.5rem 0;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.demo-card .demo-info p {
+  margin: 0;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.demo-more {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.demo-more a {
+  color: #66bfff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.demo-more a:hover {
+  text-decoration: underline;
+}
+
+/* CTA Section */
+.simple-cta {
+  text-align: center;
+  padding: 3rem 20px;
+  background: linear-gradient(180deg, transparent 0%, rgba(255,102,0,0.1) 100%);
+  margin-top: 2rem;
+}
+
+.simple-cta h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.simple-cta .guarantee {
+  color: #999;
+  margin-bottom: 1.5rem;
+}
+
+.simple-cta .cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .tier-comparison {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .tier-card {
+    padding: 1.5rem;
+  }
+
+  .feature-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .feature-item .free-status,
+  .feature-item .pro-status {
+    text-align: left;
+    padding-left: 28px;
+  }
+
+  .feature-item .free-status::before {
+    content: "Free: ";
+    color: #888;
+  }
+
+  .feature-item .pro-status::before {
+    content: "Pro: ";
+    color: #888;
+  }
+
+  .feature-group-content .feature-header {
+    display: none;
+  }
+
+  .demo-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<!-- Hero Section -->
 <section class="comparison-hero">
-  <h1 class="js-section-heading">Complete Feature Comparison</h1>
-  <p class="lead-text">Every feature, side by side. See exactly what Junk Store Pro adds to your experience.</p>
+  <h1>Free Decky Plugin vs Junk Store Pro</h1>
+  <p class="lead-text">Every feature, side by side. See exactly what Pro unlocks for your Steam Deck.</p>
 </section>
 
-<section class="detailed-comparison-section" id="feature-comparison">
-  <p class="table-intro">Selected features include live demonstrations. Hover over "👁️ Preview" to see the functionality in action.</p>
-
-  <table class="comparison-table">
-      <thead>
-        <tr>
-          <th>Feature</th>
-          <th>Free Decky Plugin</th>
-          <th>Junk Store Pro</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Epic Games</strong></td>
-          <td>✅ Yes</td>
-          <td>✅ Yes</td>
-        </tr>
-        <tr>
-          <td><strong>UMU Compatibility Fixes</strong></td>
-          <td>✅ Yes</td>
-          <td>✅ Yes</td>
-        </tr>
-        <tr>
-          <td><strong>GOG Games</strong></td>
-          <td>💰 Paid Extension Required</td>
-          <td>✅ Included</td>
-        </tr>
-        <tr>
-          <td><strong>Amazon Prime Gaming</strong></td>
-          <td>❌ Not Available</td>
-          <td>✅ Full Support</td>
-        </tr>
-        <tr>
-          <td><strong>itch Gaming</strong> <span class="new-badge">NEW</span></td>
-          <td>❌ Not Available</td>
-          <td>✅ Beta Support</td>
-        </tr>
-        <tr>
-          <td><strong>LSFG-VK Frame Generation</strong> <span class="new-badge">NEW</span></td>
-          <td>❌ Requires Separate Plugin or Manual Setup</td>
-          <td>✅ Built-in One-Click Toggle</td>
-        </tr>
-        <tr>
-          <td><strong>Download Queue Management</strong></td>
-          <td>❌ Not Available</td>
-          <td class="hover-popup" onmouseenter="restartGif(this)">
-            ✅ Advanced Queue System <span class="hover-label">👁️ Preview</span>
-            <div class="gif-popup">
-              <video autoplay muted loop playsinline preload="none">
-                <source src="/assets/images/jspro/tablegifs/download.webm" type="video/webm">
-                <img src="/assets/images/jspro/tablegifs/download.gif" alt="Download queue management demo">
-              </video>
-              <p>Manage multiple downloads, pause/resume, and monitor progress</p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td><strong>Emulator Integration</strong></td>
-          <td>❌ Not Available</td>
-          <td>✅ Full ROM Support</td>
-        </tr>
-        <tr>
-          <td><strong>ROM Download Support</strong></td>
-          <td>❌ Not Available</td>
-          <td>✅ Direct ROM Management</td>
-        </tr>
-        <tr>
-          <td><strong>GOG DOS Games</strong></td>
-          <td>❌ Not Available</td>
-          <td>✅ Native Support</td>
-        </tr>
-        <tr>
-          <td><strong>GOG ScummVM Games</strong></td>
-          <td>❌ Not Available</td>
-          <td>✅ Automatic Integration</td>
-        </tr>
-        <tr>
-          <td><strong>Built-in Extension Updates</strong></td>
-          <td>❌ Manual Process</td>
-          <td>✅ Automated Updates</td>
-        </tr>
-        <tr>
-          <td><strong>Built-in Help System</strong></td>
-          <td>❌ External Documentation</td>
-          <td>✅ Contextual Help</td>
-        </tr>
-        <tr>
-          <td><strong>Offline Artwork Cache</strong></td>
-          <td>❌ Requires Online</td>
-          <td>✅ Per-Extension Caching</td>
-        </tr>
-        <tr>
-          <td><strong>Game Language Selection</strong></td>
-          <td>❌ Not Available</td>
-          <td class="hover-popup" onmouseenter="restartGif(this)">
-            ✅ Multi-Language Support <span class="hover-label">👁️ Preview</span>
-            <div class="gif-popup">
-              <video autoplay muted loop playsinline preload="none">
-                <source src="/assets/images/jspro/tablegifs/languageselection.webm" type="video/webm">
-                <img src="/assets/images/jspro/tablegifs/languageselection.gif" alt="Language selection demo">
-              </video>
-              <p>Choose your preferred language for supported games</p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td><strong>Selective DLC Installation</strong></td>
-          <td>❌ All or Nothing</td>
-          <td>✅ Choose DLC Packs</td>
-        </tr>
-        <tr>
-          <td><strong>Per-Game Launcher Options</strong></td>
-          <td>❌ Fixed Configuration</td>
-          <td class="hover-popup" onmouseenter="restartGif(this)">
-            ✅ Flexible Launcher System <span class="hover-label">👁️ Preview</span>
-            <div class="gif-popup">
-              <video autoplay muted loop playsinline preload="none">
-                <source src="/assets/images/jspro/tablegifs/changelauncher.webm" type="video/webm">
-                <img src="/assets/images/jspro/tablegifs/changelauncher.gif" alt="Per-game launcher configuration demo">
-              </video>
-              <p>Customize launcher behavior for each individual game</p>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <td><strong>Custom Script Hooks</strong></td>
-          <td>❌ Limited Customization</td>
-          <td>✅ Advanced Scripting</td>
-        </tr>
-        <tr>
-          <td><strong>Cloud Saves</strong></td>
-          <td>❌ Not Available</td>
-          <td>⚠️ Experimental (Enable Per Game)</td>
-        </tr>
-        <tr>
-          <td><strong>Access Method</strong></td>
-          <td>📥 Through Decky Menu</td>
-          <td>🎮 Ctrl+3 or Select Button</td>
-        </tr>
-        <tr>
-          <td><strong>Release Distribution</strong></td>
-          <td>🔧 Through Decky Store</td>
-          <td>🚀 Direct from Developer</td>
-        </tr>
-        <tr>
-          <td><strong>Performance Capacity</strong></td>
-          <td>💯 100 Games Per Tab</td>
-          <td>🔢 1,000 Games Per Tab</td>
-        </tr>
-        <tr>
-          <td><strong>System Customization</strong></td>
-          <td>🔒 Plugin Limitations</td>
-          <td>🔧 Extensive Configuration</td>
-        </tr>
-        <tr>
-          <td><strong>Extension Development</strong></td>
-          <td>🧩 Full Code Required</td>
-          <td>🪄 Wizard + Manual Coding</td>
-        </tr>
-        <tr>
-          <td><strong>Game Dependency Installation</strong></td>
-          <td>🛠️ Manual Process<br>🧪 Requires Proton Tricks</td>
-          <td class="hover-popup" onmouseenter="restartGif(this)">
-            ⚙️ Built-in Installer <span class="hover-label">👁️ Preview</span>
-            <div class="gif-popup">
-              <video autoplay muted loop playsinline preload="none">
-                <source src="/assets/images/jspro/tablegifs/dependencies.webm" type="video/webm">
-                <img src="/assets/images/jspro/tablegifs/dependencies.gif" alt="Automated dependency installation demo">
-              </video>
-              <p>Automatic dependency detection and one-click installation</p>
-            </div>
-            <br>🛠️ Manual Available<br>🧪 Proton Tricks Compatible
-          </td>
-        </tr>
-        <tr>
-          <td><strong>Custom Extension Creation</strong></td>
-          <td>👨‍💻 Manual Coding Only</td>
-          <td>🧙 Wizard-Guided Creation</td>
-        </tr>
-        <tr>
-          <td><strong>Extension Customization</strong></td>
-          <td>💻 Code-Heavy Modifications</td>
-          <td>🧠 Generated Templates + Hooks</td>
-        </tr>
-        <tr>
-          <td><strong>Offline Mode Per Game</strong> <span class="new-badge">NEW</span></td>
-          <td>🔧 Requires Global Setting Under Each Tab</td>
-          <td>✅ Per-Game Configuration<br><span class="js-text-muted-sm">Set offline mode individually for each game across all storefronts</span></td>
-        </tr>
-        <tr>
-          <td><strong>System Language Detection Per Game</strong> <span class="new-badge">NEW</span></td>
-          <td>🔧 Requires Manual File Editing<br><span class="js-text-muted-sm">Must alter files to add language codes</span></td>
-          <td>✅ Per Game Language Setting<br><span class="js-text-muted-sm">Individual language control for games that use system language detection</span></td>
-        </tr>
-        <tr>
-          <td><strong>Diagnostics Framework</strong> <span class="new-badge">NEW</span></td>
-          <td>❌ Not Available<br><span class="js-text-muted-sm">Manual troubleshooting required</span></td>
-          <td>✅ Automated Detection<br><span class="js-text-muted-sm">Automatically detects Junk Store configurations that are broken</span></td>
-        </tr>
-      </tbody>
-  </table>
-</section>
-
-<section class="simple-cta" id="trial">
-  <h2>Ready to Experience the Difference?</h2>
-  <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
-  <div class="cta-buttons">
-    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
+<!-- Two-Tier Quick Comparison -->
+<section class="tier-comparison">
+  <div class="tier-card">
+    <h3>Free Decky Plugin</h3>
+    <p class="tier-price">Free</p>
+    <ul>
+      <li>Epic Games support</li>
+      <li>UMU compatibility fixes</li>
+      <li>Basic game launching</li>
+      <li>100 games per tab</li>
+      <li>Access through Decky menu</li>
+    </ul>
+  </div>
+  <div class="tier-card featured">
+    <span class="tier-badge">Recommended</span>
+    <h3>Junk Store Pro</h3>
+    <p class="tier-price">$40 <span>one-time</span></p>
+    <p class="tier-trial">7-day free trial included</p>
+    <ul>
+      <li>All storefronts: Epic, GOG, Amazon, itch</li>
+      <li>Emulator &amp; ROM integration</li>
+      <li>Download queue management</li>
+      <li>1,000 games per tab</li>
+      <li>Direct launch (Ctrl+3 or Select)</li>
+      <li>Built-in diagnostics &amp; help</li>
+    </ul>
+    <a href="/portal-redirect/" class="button buy-button">Start Free Trial</a>
   </div>
 </section>
 
-<!-- Styles consolidated in _sass/features-page.scss -->
+<!-- Full Feature Comparison -->
+<section class="feature-groups">
+  <h2>Complete Feature Breakdown</h2>
+
+  <!-- Group 1: Platforms & Storefronts -->
+  <div class="feature-group expanded">
+    <div class="feature-group-header" onclick="toggleGroup(this)">
+      <h3>Platforms &amp; Storefronts</h3>
+      <span class="toggle-icon">▼</span>
+    </div>
+    <div class="feature-group-content">
+      <div class="feature-header">
+        <span>Feature</span>
+        <span>Free Plugin</span>
+        <span>Pro</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Epic Games</span>
+        <span class="free-status status-yes">✅ Yes</span>
+        <span class="pro-status status-yes">✅ Yes</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">GOG Games</span>
+        <span class="free-status status-limited">Paid Extension</span>
+        <span class="pro-status status-yes">✅ Included</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Amazon Prime Gaming</span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">itch.io <span class="new-badge">NEW</span></span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Beta</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Emulator Integration</span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">ROM Download Support</span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">GOG DOS Games</span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Native</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">GOG ScummVM Games</span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Auto</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Group 2: Game Management -->
+  <div class="feature-group">
+    <div class="feature-group-header" onclick="toggleGroup(this)">
+      <h3>Game Management</h3>
+      <span class="toggle-icon">▼</span>
+    </div>
+    <div class="feature-group-content">
+      <div class="feature-header">
+        <span>Feature</span>
+        <span>Free Plugin</span>
+        <span>Pro</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Download Queue Management</span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Advanced</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Game Language Selection</span>
+        <span class="free-status status-limited">Manual config</span>
+        <span class="pro-status status-yes">✅ Yes</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Selective DLC Installation</span>
+        <span class="free-status status-no">❌ All or nothing</span>
+        <span class="pro-status status-yes">✅ Choose DLC</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Per-Game Launcher Options</span>
+        <span class="free-status status-no">❌ Fixed</span>
+        <span class="pro-status status-yes">✅ Flexible</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Offline Mode Per Game <span class="new-badge">NEW</span>
+          <span class="feature-note">Set offline mode individually for each game</span>
+        </span>
+        <span class="free-status status-limited">Global only</span>
+        <span class="pro-status status-yes">✅ Per-game</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Cloud Saves
+          <span class="feature-note">Experimental - enable per game</span>
+        </span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-limited">Experimental</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Offline Artwork Cache</span>
+        <span class="free-status status-no">❌ Online required</span>
+        <span class="pro-status status-yes">✅ Cached</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Group 3: Performance & Access -->
+  <div class="feature-group">
+    <div class="feature-group-header" onclick="toggleGroup(this)">
+      <h3>Performance &amp; Access</h3>
+      <span class="toggle-icon">▼</span>
+    </div>
+    <div class="feature-group-content">
+      <div class="feature-header">
+        <span>Feature</span>
+        <span>Free Plugin</span>
+        <span>Pro</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">UMU Compatibility Fixes</span>
+        <span class="free-status status-yes">✅ Yes</span>
+        <span class="pro-status status-yes">✅ Yes</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">LSFG-VK Frame Generation <span class="new-badge">NEW</span></span>
+        <span class="free-status status-yes">✅ Built-in</span>
+        <span class="pro-status status-yes">✅ Built-in</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Games Per Tab</span>
+        <span class="free-status">100 games</span>
+        <span class="pro-status status-yes">1,000 games</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Access Method</span>
+        <span class="free-status">Decky menu</span>
+        <span class="pro-status">Ctrl+3 or Select</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Release Distribution</span>
+        <span class="free-status">Decky Store</span>
+        <span class="pro-status">Direct from dev</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">System Language Detection <span class="new-badge">NEW</span>
+          <span class="feature-note">Per-game language for system detection</span>
+        </span>
+        <span class="free-status status-no">❌ Manual editing</span>
+        <span class="pro-status status-yes">✅ Per-game</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Diagnostics Framework <span class="new-badge">NEW</span>
+          <span class="feature-note">Automatic problem detection</span>
+        </span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Auto-detect</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Group 4: Advanced & Developer -->
+  <div class="feature-group">
+    <div class="feature-group-header" onclick="toggleGroup(this)">
+      <h3>Advanced &amp; Developer</h3>
+      <span class="toggle-icon">▼</span>
+    </div>
+    <div class="feature-group-content">
+      <div class="feature-header">
+        <span>Feature</span>
+        <span>Free Plugin</span>
+        <span>Pro</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Game Dependency Installation
+          <span class="feature-note">VC++, DirectX, .NET, etc.</span>
+        </span>
+        <span class="free-status status-no">❌ Manual/Proton Tricks</span>
+        <span class="pro-status status-yes">✅ One-click</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Built-in Extension Updates</span>
+        <span class="free-status status-no">❌ Manual</span>
+        <span class="pro-status status-yes">✅ Automated</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Built-in Help System</span>
+        <span class="free-status status-no">❌ External docs</span>
+        <span class="pro-status status-yes">✅ Contextual</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Custom Script Hooks</span>
+        <span class="free-status status-no">❌ Limited</span>
+        <span class="pro-status status-yes">✅ Advanced</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Extension Development</span>
+        <span class="free-status">Full code required</span>
+        <span class="pro-status">Wizard + manual</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Custom Extension Creation</span>
+        <span class="free-status status-no">❌ Manual coding</span>
+        <span class="pro-status status-yes">✅ Wizard-guided</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Extension Customization</span>
+        <span class="free-status">Code-heavy</span>
+        <span class="pro-status">Templates + hooks</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">System Customization</span>
+        <span class="free-status status-limited">Plugin limits</span>
+        <span class="pro-status status-yes">✅ Extensive</span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Demo Section -->
+<section class="demo-section">
+  <h2>See It In Action</h2>
+  <p>Click to preview Pro features</p>
+
+  <div class="demo-grid">
+    <div class="demo-card" onclick="toggleDemo(this)">
+      <div class="demo-thumbnail">
+        <img src="/assets/images/jspro/gallery/download-still.jpg" alt="Download Queue" onerror="this.style.display='none'">
+        <video muted loop playsinline preload="none">
+          <source src="/assets/images/jspro/gallery/download.webm" type="video/webm">
+        </video>
+        <span class="play-overlay">▶</span>
+      </div>
+      <div class="demo-info">
+        <h4>Download Queue</h4>
+        <p>Manage multiple downloads across stores - pause, resume, reorder</p>
+      </div>
+    </div>
+
+    <div class="demo-card" onclick="toggleDemo(this)">
+      <div class="demo-thumbnail">
+        <img src="/assets/images/jspro/gallery/dependencies-still.jpg" alt="Install Dependencies" onerror="this.style.display='none'">
+        <video muted loop playsinline preload="none">
+          <source src="/assets/images/jspro/gallery/dependencies.webm" type="video/webm">
+        </video>
+        <span class="play-overlay">▶</span>
+      </div>
+      <div class="demo-info">
+        <h4>Install Dependencies</h4>
+        <p>One-click install for VC++ Redist, DirectX, .NET and more</p>
+      </div>
+    </div>
+
+    <div class="demo-card" onclick="toggleDemo(this)">
+      <div class="demo-thumbnail">
+        <img src="/assets/images/jspro/gallery/language-still.jpg" alt="Language Selection" onerror="this.style.display='none'">
+        <video muted loop playsinline preload="none">
+          <source src="/assets/images/jspro/gallery/languageselection.webm" type="video/webm">
+        </video>
+        <span class="play-overlay">▶</span>
+      </div>
+      <div class="demo-info">
+        <h4>Language Selection</h4>
+        <p>Choose your preferred language for supported games</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="demo-more">
+    <a href="/features/#gallery">View all demos in Gallery →</a>
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section class="simple-cta" id="trial">
+  <h2>Ready to Upgrade?</h2>
+  <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
+  <div class="cta-buttons">
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
+    <a href="/features/" class="button button-secondary large">Back to Features</a>
+  </div>
+</section>
 
 <script>
-function restartGif(container) {
-  const gif = container.querySelector("img");
-  if (gif) {
-    const src = gif.getAttribute("src").split("?")[0];
-    gif.setAttribute("src", `${src}?t=${Date.now()}`);
-  }
+// Toggle feature groups
+function toggleGroup(header) {
+  const group = header.closest('.feature-group');
+  group.classList.toggle('expanded');
 }
 
-function togglePopup(element) {
-  const wasActive = element.classList.contains('active');
-  document.querySelectorAll('.hover-popup.active').forEach(el => {
-    el.classList.remove('active');
+// Toggle demo videos
+function toggleDemo(card) {
+  const wasPlaying = card.classList.contains('playing');
+
+  // Stop all other demos
+  document.querySelectorAll('.demo-card.playing').forEach(c => {
+    c.classList.remove('playing');
+    const video = c.querySelector('video');
+    if (video) {
+      video.pause();
+      video.currentTime = 0;
+    }
   });
-  if (!wasActive) {
-    element.classList.add('active');
-    restartGif(element);
+
+  // Toggle this demo
+  if (!wasPlaying) {
+    card.classList.add('playing');
+    const video = card.querySelector('video');
+    if (video) {
+      video.play();
+    }
   }
 }
 
-document.addEventListener('click', function(e) {
-  if (!e.target.closest('.hover-popup')) {
-    document.querySelectorAll('.hover-popup.active').forEach(el => {
-      el.classList.remove('active');
-    });
-  }
+// Expand first group by default (already set in HTML)
+document.addEventListener('DOMContentLoaded', function() {
+  // Groups are already expanded/collapsed via HTML classes
 });
 </script>

@@ -6,8 +6,8 @@ permalink: /
 classes: home
 header:
   overlay_color: "#1A1A1A"
-  overlay_filter: "0.25"
-  overlay_image: /js-hero-v2b.svg
+  overlay_filter: "0.45"
+  overlay_image: /js-steamdeck-hero-lighter.webp
 excerpt: "All your non-Steam games in one place. No desktop mode. No multiple launchers. Just gaming."
 ---
 
