@@ -6,15 +6,8 @@ permalink: /get_started/
 excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
 ---
 
-<!-- DECKY COMPATIBILITY NOTE -->
-<div class="js-callout js-callout--accent">
-  <h3>⚠ Using Decky Loader?</h3>
-  <p>Download Junk Store Pro from the <strong>"Stable-Decky"</strong> channel in the portal to ensure compatibility.</p>
-  <p class="text-muted">No Decky? Use the default channel.</p>
-</div>
-
 <!-- VIDEO & WRITTEN TUTORIAL OPTIONS -->
-<div class="community-guides-grid" style="margin: 1.5rem 0;">
+<div class="community-guides-grid">
   <a href="https://www.youtube.com/watch?v=kDKQyL5iLSg" target="_blank" rel="noopener" class="guide-card">
     <img src="https://img.youtube.com/vi/kDKQyL5iLSg/mqdefault.jpg" alt="Junk Store Pro Installation Tutorial" loading="lazy" />
     <div class="guide-card-content">
@@ -36,14 +29,16 @@ excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
 <style>
 .community-guides-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  max-width: 650px;
+  margin: 1.5rem auto;
 }
 
 .guide-card {
   display: block;
   background: rgba(255,255,255,0.03);
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
@@ -52,8 +47,8 @@ excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
 }
 
 .guide-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
   text-decoration: none;
   color: inherit;
 }
@@ -67,30 +62,31 @@ excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
 }
 
 .guide-card-content {
-  padding: 1rem;
+  padding: 0.85rem;
+  text-align: left;
 }
 
 .guide-card .guide-type {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  padding: 0.25rem 0.5rem;
+  padding: 0.2rem 0.45rem;
   background: rgba(0,150,255,0.2);
   color: #6cb4ff;
   border-radius: 4px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .guide-card h4 {
-  margin: 0.5rem 0 0.25rem;
-  font-size: 1.1rem;
+  margin: 0.4rem 0 0.2rem;
+  font-size: 1rem;
   color: #fff;
 }
 
 .guide-card p {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #aaa;
 }
 </style>
@@ -117,7 +113,6 @@ excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
 <strong>Download and install Junk Store Pro</strong>
 <p>Download the latest <code>js_pro</code> build from the portal.</p>
 <ul>
-  <li><strong>Decky users:</strong> Make sure you select the "Stable-Decky" channel!</li>
   <li>Open Dolphin → Downloads → Right-click the file → Properties → Permissions</li>
   <li>Mark it as executable and click <strong>OK</strong>, then double-click to install</li>
 </ul>
