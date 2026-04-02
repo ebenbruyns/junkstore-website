@@ -1,9 +1,7 @@
-<!-- Important Notice Banner -->
-<div class="promo-banner">
+<!-- Dynamic Banner (loaded from Firebase) -->
+<div id="promo-banner" class="promo-banner" style="display: none;">
   <div class="promo-banner__content">
-    <span class="promo-banner__main">
-      <strong>⚠️ Decky Loader Users:</strong> Make sure to use the <strong style="color: #ffa366;">"Decky Stable"</strong> channel. Read the <a href="/get_started/" style="color: #00adb5; text-decoration: underline;">Getting Started guide</a> before installing.
-    </span>
+    <span class="promo-banner__main">Loading...</span>
   </div>
   <button class="promo-banner__close" aria-label="Close banner" onclick="this.parentElement.style.display='none';">&times;</button>
 </div>
@@ -11,11 +9,12 @@
 <style>
 .promo-banner {
   background: linear-gradient(135deg, #1a1d24 0%, #252a34 50%, #1a1d24 100%);
-  border-bottom: 2px solid #00adb5;
+  border-bottom: 3px solid #00adb5;
+  box-shadow: 0 2px 12px rgba(0, 173, 181, 0.2);
   color: #eaeaea;
-  padding: 0.75rem 1rem;
+  padding: 1.1rem 1.5rem;
   text-align: center;
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -67,8 +66,8 @@
 
 @media (max-width: 600px) {
   .promo-banner {
-    font-size: 0.85rem;
-    padding: 0.6rem 2.5rem 0.6rem 0.75rem;
+    font-size: 1rem;
+    padding: 0.9rem 2.5rem 0.9rem 1rem;
   }
 
   .promo-banner__note {
