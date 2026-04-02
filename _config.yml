@@ -9,6 +9,7 @@ timezone: Pacific/Auckland
 
 # Theme Settings
 # Using custom Junk Store theme (minimal-mistakes removed)
+theme: null
 locale: "en-US"
 
 # Site-Wide Open Graph Image (for social previews)
