@@ -1,5 +1,6 @@
 
 vendor/
+!_sass/vendor/
 _site/
 assets/lib
 
