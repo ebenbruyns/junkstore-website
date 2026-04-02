@@ -1,8 +1,6 @@
 {% assign default_hero = "/js-steamdeck-hero-lighter.webp" %}
 {% assign hero_image = page.header.overlay_image | default: default_hero %}
-{% assign overlay_color = page.header.overlay_color | default: "#1A1A1A" %}
-{% assign overlay_filter = page.header.overlay_filter | default: "0.45" %}
-<div class="js-hero js-hero--overlay" style="background-color: {{ overlay_color }}; background-image: radial-gradient(ellipse at 75% 50%, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.4) 60%), url('{{ hero_image | relative_url }}');">
+<div class="js-hero js-hero--overlay" style="background-image: url('{{ hero_image | relative_url }}');">
   <div class="js-hero__wrapper">
     {% if page.title %}
     <h1 class="js-hero__title">{{ page.title }}</h1>

@@ -17,9 +17,36 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 0.5rem;
+  background-color: #1A1A1A;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Gradient overlay for all junkstore-splash heroes */
+.js-hero--overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to right,
+    rgba(26, 26, 26, 0.5) 0%,
+    rgba(26, 26, 26, 0.35) 25%,
+    rgba(26, 26, 26, 0) 45%,
+    rgba(26, 26, 26, 0) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Ensure hero content appears above the gradient */
+.js-hero--overlay .js-hero__wrapper {
+  position: relative;
+  z-index: 2;
 }
 
 /* Wrapper - full width, left-aligned text */
@@ -103,11 +130,13 @@
   .layout--splash .page__hero--overlay .page__title,
   .js-hero__title {
     font-size: 2rem;
+    color: #FFFEF8;
   }
 
   .layout--splash .page__hero--overlay .page__lead,
   .js-hero__lead {
     font-size: 1.1rem;
+    color: rgba(255, 254, 248, 0.95);
     margin-left: auto;
     margin-right: auto;
   }
@@ -139,11 +168,13 @@
   .layout--splash .page__hero--overlay .page__title,
   .js-hero__title {
     font-size: 1.75rem;
+    color: #FFFEF8;
   }
 
   .layout--splash .page__hero--overlay .page__lead,
   .js-hero__lead {
     font-size: 1.05rem;
+    color: rgba(255, 254, 248, 0.95);
   }
 
   .page__hero-actions,
@@ -167,10 +198,12 @@
   .layout--splash .page__hero--overlay .page__title,
   .js-hero__title {
     font-size: 1.5rem;
+    color: #FFFEF8;
   }
 
   .layout--splash .page__hero--overlay .page__lead,
   .js-hero__lead {
     font-size: 1rem;
+    color: rgba(255, 254, 248, 0.95);
   }
 }

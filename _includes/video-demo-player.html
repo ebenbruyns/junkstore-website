@@ -93,31 +93,43 @@
 </style>
 
 <script>
-function playDemo(container, webmSrc) {
-  console.log('playDemo called with:', webmSrc);
-  
+function playDemo(container, webmSrc, mp4Src) {
   // Hide poster and button
   const poster = container.querySelector('.demo-poster');
   const button = container.querySelector('.demo-play-btn');
-  let gif = container.querySelector('.demo-gif');
-  
+
   if (poster) poster.style.display = 'none';
   if (button) button.style.display = 'none';
-  
-  // Lazy load the GIF only when clicked (CRITICAL PERFORMANCE FIX)
-  if (gif && !gif.src) {
-    // Get the GIF src from data attribute
-    const gifSrc = gif.getAttribute('data-src');
-    if (gifSrc) {
-      gif.src = gifSrc; // This triggers the actual download
-      console.log('Lazy loading GIF:', gifSrc);
+
+  // Check if video already exists
+  let video = container.querySelector('.demo-video');
+  if (!video) {
+    // Create video element with both sources for browser compatibility
+    video = document.createElement('video');
+    video.className = 'demo-video';
+    video.autoplay = true;
+    video.loop = true;
+    video.muted = true;
+    video.playsInline = true;
+
+    if (webmSrc) {
+      const webmSource = document.createElement('source');
+      webmSource.src = webmSrc;
+      webmSource.type = 'video/webm';
+      video.appendChild(webmSource);
     }
+
+    if (mp4Src) {
+      const mp4Source = document.createElement('source');
+      mp4Source.src = mp4Src;
+      mp4Source.type = 'video/mp4';
+      video.appendChild(mp4Source);
+    }
+
+    container.appendChild(video);
   }
-  
-  // Show the GIF
-  if (gif) {
-    gif.style.display = 'block';
-    console.log('Showing GIF');
-  }
+
+  video.style.display = 'block';
+  video.play();
 }
 </script>
