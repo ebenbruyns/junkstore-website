@@ -4,10 +4,6 @@ title: "Your Non-Steam Gaming Hub"
 description: "All your non-Steam games in one place. Epic, GOG, Amazon & itch on Steam Deck - no desktop mode, no multiple launchers. Just gaming."
 permalink: /
 classes: home
-header:
-  overlay_color: "#1A1A1A"
-  overlay_filter: "0.45"
-  overlay_image: /js-steamdeck-hero-lighter.webp
 excerpt: "All your non-Steam games in one place. No desktop mode. No multiple launchers. Just gaming."
 ---
 
@@ -68,14 +64,10 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
       <p>Browse all your libraries, install games, and launch - all without leaving Game Mode. No Desktop Mode. No extra steps. It just works.</p>
     </div>
     <div class="demo-section__video">
-      <div class="video-demo-container" onclick="playDemo(this, '{{ '/assets/images/landing/LibrariesNew.webm' | relative_url }}')">
-        <img src="{{ '/assets/images/landing/LibrariesNew-poster.jpg' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch" class="demo-poster" loading="lazy">
-        <div class="demo-play-btn">
-          <span class="play-icon">▶️</span>
-          <span class="play-text">Play Demo</span>
-        </div>
-        <img data-src="{{ '/assets/images/landing/LibrariesNew.gif' | relative_url }}" alt="Pure Game Mode library access across Epic, GOG, Amazon & itch" class="demo-gif" style="display: none;">
-      </div>
+      <video autoplay loop muted playsinline class="demo-video" style="width: 100%; border-radius: 8px;">
+        <source src="{{ '/assets/images/jspro/features/homepage.webm' | relative_url }}" type="video/webm">
+        <source src="{{ '/assets/images/jspro/features/homepage.mp4' | relative_url }}" type="video/mp4">
+      </video>
     </div>
   </div>
 </section>

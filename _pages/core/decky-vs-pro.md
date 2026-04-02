@@ -3,38 +3,10 @@ layout: junkstore-splash
 title: "Decky Plugin vs Junk Store Pro"
 description: "Complete feature-by-feature comparison between the free Junk Store Decky plugin and Junk Store Pro. See exactly what you get when you upgrade."
 permalink: /decky-vs-pro/
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/site/website_image_compressed.webp
-  actions:
-    - label: "Start Free Trial"
-      url: "/portal-redirect/"
-      class: "button buy-button"
-    - label: "Back to Features"
-      url: "/features/"
-      class: "button button-secondary"
-excerpt: "Every feature, side by side"
+excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Steam Deck."
 ---
 
 <style>
-/* Hero Section */
-.comparison-hero {
-  text-align: center;
-  padding: 1.5rem 1rem 0.5rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.comparison-hero h1 {
-  margin: 0 0 0.5rem 0;
-}
-
-.comparison-hero .lead-text {
-  margin: 0;
-  text-align: center;
-}
-
 /* Two-Tier Comparison Cards */
 .tier-comparison {
   display: grid;
@@ -127,7 +99,7 @@ excerpt: "Every feature, side by side"
 /* Feature Groups */
 .feature-groups {
   max-width: 1100px;
-  margin: 3rem auto;
+  margin: 1rem auto 3rem;
   padding: 0 20px;
 }
 
@@ -438,42 +410,6 @@ excerpt: "Every feature, side by side"
 }
 </style>
 
-<!-- Hero Section -->
-<section class="comparison-hero">
-  <h1>Free Decky Plugin vs Junk Store Pro</h1>
-  <p class="lead-text">Every feature, side by side. See exactly what Pro unlocks for your Steam Deck.</p>
-</section>
-
-<!-- Two-Tier Quick Comparison -->
-<section class="tier-comparison">
-  <div class="tier-card">
-    <h3>Free Decky Plugin</h3>
-    <p class="tier-price">Free</p>
-    <ul>
-      <li>Epic Games support</li>
-      <li>UMU compatibility fixes</li>
-      <li>Basic game launching</li>
-      <li>100 games per tab</li>
-      <li>Access through Decky menu</li>
-    </ul>
-  </div>
-  <div class="tier-card featured">
-    <span class="tier-badge">Recommended</span>
-    <h3>Junk Store Pro</h3>
-    <p class="tier-price">$40 <span>one-time</span></p>
-    <p class="tier-trial">7-day free trial included</p>
-    <ul>
-      <li>All storefronts: Epic, GOG, Amazon, itch</li>
-      <li>Emulator &amp; ROM integration</li>
-      <li>Download queue management</li>
-      <li>1,000 games per tab</li>
-      <li>Direct launch (Ctrl+3 or Select)</li>
-      <li>Built-in diagnostics &amp; help</li>
-    </ul>
-    <a href="/portal-redirect/" class="button buy-button">Start Free Trial</a>
-  </div>
-</section>
-
 <!-- Full Feature Comparison -->
 <section class="feature-groups">
   <h2>Complete Feature Breakdown</h2>
@@ -498,7 +434,7 @@ excerpt: "Every feature, side by side"
       <div class="feature-item">
         <span class="feature-name">GOG Games</span>
         <span class="free-status status-limited">Paid Extension</span>
-        <span class="pro-status status-yes">✅ Included</span>
+        <span class="pro-status status-yes">✅ Yes</span>
       </div>
       <div class="feature-item">
         <span class="feature-name">Amazon Prime Gaming</span>
@@ -506,9 +442,9 @@ excerpt: "Every feature, side by side"
         <span class="pro-status status-yes">✅ Yes</span>
       </div>
       <div class="feature-item">
-        <span class="feature-name">itch.io <span class="new-badge">NEW</span></span>
+        <span class="feature-name">itch</span>
         <span class="free-status status-no">❌ No</span>
-        <span class="pro-status status-yes">✅ Beta</span>
+        <span class="pro-status status-yes">✅ Yes</span>
       </div>
       <div class="feature-item">
         <span class="feature-name">Emulator Integration</span>
@@ -521,14 +457,9 @@ excerpt: "Every feature, side by side"
         <span class="pro-status status-yes">✅ Yes</span>
       </div>
       <div class="feature-item">
-        <span class="feature-name">GOG DOS Games</span>
+        <span class="feature-name">GOG DOS, ScummVM & Linux Games <span class="new-badge">NEW & Improved</span></span>
         <span class="free-status status-no">❌ No</span>
-        <span class="pro-status status-yes">✅ Native</span>
-      </div>
-      <div class="feature-item">
-        <span class="feature-name">GOG ScummVM Games</span>
-        <span class="free-status status-no">❌ No</span>
-        <span class="pro-status status-yes">✅ Auto</span>
+        <span class="pro-status status-yes">✅ Yes</span>
       </div>
     </div>
   </div>
@@ -548,27 +479,25 @@ excerpt: "Every feature, side by side"
       <div class="feature-item">
         <span class="feature-name">Download Queue Management</span>
         <span class="free-status status-no">❌ No</span>
-        <span class="pro-status status-yes">✅ Advanced</span>
+        <span class="pro-status status-yes">✅ Yes</span>
       </div>
       <div class="feature-item">
         <span class="feature-name">Game Language Selection</span>
-        <span class="free-status status-limited">Manual config</span>
+        <span class="free-status status-limited">✅ Manual config</span>
         <span class="pro-status status-yes">✅ Yes</span>
       </div>
       <div class="feature-item">
         <span class="feature-name">Selective DLC Installation</span>
-        <span class="free-status status-no">❌ All or nothing</span>
-        <span class="pro-status status-yes">✅ Choose DLC</span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
       </div>
       <div class="feature-item">
         <span class="feature-name">Per-Game Launcher Options</span>
-        <span class="free-status status-no">❌ Fixed</span>
-        <span class="pro-status status-yes">✅ Flexible</span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
       </div>
       <div class="feature-item">
-        <span class="feature-name">Offline Mode Per Game <span class="new-badge">NEW</span>
-          <span class="feature-note">Set offline mode individually for each game</span>
-        </span>
+        <span class="feature-name">Epic Offline Mode</span>
         <span class="free-status status-limited">Global only</span>
         <span class="pro-status status-yes">✅ Per-game</span>
       </div>
@@ -581,8 +510,18 @@ excerpt: "Every feature, side by side"
       </div>
       <div class="feature-item">
         <span class="feature-name">Offline Artwork Cache</span>
-        <span class="free-status status-no">❌ Online required</span>
-        <span class="pro-status status-yes">✅ Cached</span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
+      </div>
+      div class="feature-item">
+        <span class="feature-name">Database Management</span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
+      </div>
+      div class="feature-item">
+        <span class="feature-name">SteamGridDB Built In</span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
       </div>
     </div>
   </div>
@@ -605,7 +544,7 @@ excerpt: "Every feature, side by side"
         <span class="pro-status status-yes">✅ Yes</span>
       </div>
       <div class="feature-item">
-        <span class="feature-name">LSFG-VK Frame Generation <span class="new-badge">NEW</span></span>
+        <span class="feature-name">LSFG-VK Frame Generation</span>
         <span class="free-status status-yes">✅ Built-in</span>
         <span class="pro-status status-yes">✅ Built-in</span>
       </div>
@@ -625,14 +564,7 @@ excerpt: "Every feature, side by side"
         <span class="pro-status">Direct from dev</span>
       </div>
       <div class="feature-item">
-        <span class="feature-name">System Language Detection <span class="new-badge">NEW</span>
-          <span class="feature-note">Per-game language for system detection</span>
-        </span>
-        <span class="free-status status-no">❌ Manual editing</span>
-        <span class="pro-status status-yes">✅ Per-game</span>
-      </div>
-      <div class="feature-item">
-        <span class="feature-name">Diagnostics Framework <span class="new-badge">NEW</span>
+        <span class="feature-name">Diagnostics Framework
           <span class="feature-note">Automatic problem detection</span>
         </span>
         <span class="free-status status-no">❌ No</span>
@@ -661,39 +593,31 @@ excerpt: "Every feature, side by side"
         <span class="pro-status status-yes">✅ One-click</span>
       </div>
       <div class="feature-item">
-        <span class="feature-name">Built-in Extension Updates</span>
-        <span class="free-status status-no">❌ Manual</span>
-        <span class="pro-status status-yes">✅ Automated</span>
-      </div>
-      <div class="feature-item">
-        <span class="feature-name">Built-in Help System</span>
-        <span class="free-status status-no">❌ External docs</span>
-        <span class="pro-status status-yes">✅ Contextual</span>
-      </div>
-      <div class="feature-item">
         <span class="feature-name">Custom Script Hooks</span>
         <span class="free-status status-no">❌ Limited</span>
         <span class="pro-status status-yes">✅ Advanced</span>
       </div>
-      <div class="feature-item">
-        <span class="feature-name">Extension Development</span>
-        <span class="free-status">Full code required</span>
-        <span class="pro-status">Wizard + manual</span>
-      </div>
-      <div class="feature-item">
+        <div class="feature-item">
         <span class="feature-name">Custom Extension Creation</span>
         <span class="free-status status-no">❌ Manual coding</span>
         <span class="pro-status status-yes">✅ Wizard-guided</span>
       </div>
-      <div class="feature-item">
-        <span class="feature-name">Extension Customization</span>
-        <span class="free-status">Code-heavy</span>
-        <span class="pro-status">Templates + hooks</span>
+       <div class="feature-item">
+        <span class="feature-name">File Manager <span class="new-badge">NEW</span>
+        <span class="feature-note">Add anything to Steam</span>
+        </span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
       </div>
       <div class="feature-item">
-        <span class="feature-name">System Customization</span>
-        <span class="free-status status-limited">Plugin limits</span>
-        <span class="pro-status status-yes">✅ Extensive</span>
+        <span class="feature-name">Process Manager <span class="new-badge">NEW</span></span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-name">Disk Analyser <span class="new-badge">NEW</span></span>
+        <span class="free-status status-no">❌ No</span>
+        <span class="pro-status status-yes">✅ Yes</span>
       </div>
     </div>
   </div>

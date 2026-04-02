@@ -4,7 +4,7 @@ title: "Junk Store Pro Status"
 description: "Junk Store Pro service status and uptime history for Steam Deck. Track our stability record, SteamOS update impact, and break history."
 excerpt: "Service status and uptime record for Junk Store Pro on Steam Deck"
 permalink: /status/
-published: false
+published: true
 ---
 
 <div class="status-page">

@@ -697,7 +697,15 @@ window.filterFAQRedesign = function(version) {
       grouped[cat].sort((a, b) => (a.order || 0) - (b.order || 0));
     });
 
-    const sortedCats = Object.keys(grouped).sort();
+    // Category order for troubleshooting
+    const tsCatOrder = ['Installation', 'General', 'Game Issues', 'Epic Games', 'Advanced'];
+    const sortedCats = Object.keys(grouped).sort((a, b) => {
+      const iA = tsCatOrder.indexOf(a), iB = tsCatOrder.indexOf(b);
+      if (iA === -1 && iB === -1) return a.localeCompare(b);
+      if (iA === -1) return 1;
+      if (iB === -1) return -1;
+      return iA - iB;
+    });
 
     let html = '';
     sortedCats.forEach((cat, idx) => {
