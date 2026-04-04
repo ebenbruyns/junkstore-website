@@ -13,7 +13,7 @@ theme: null
 locale: "en-US"
 
 # Site-Wide Open Graph Image (for social previews)
-og_image: /assets/images/site/website_image_compressed.webp
+og_image: /assets/images/site/junkstore-og-1200x630.png
 
 # Plugins
 plugins:

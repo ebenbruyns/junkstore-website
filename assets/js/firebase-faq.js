@@ -55,12 +55,10 @@
     const categoryOrder = [
       'Overview',
       'Getting Started',
-      'Licensing',
-      'Using JunkStore',
-      'GOG Extension',
-      'Game Management',
+      'Pricing and Trial',
       'Game Compatibility',
-      'Technical'
+      'GOG Extension',
+      'Help and Support'
     ];
 
     // Sort categories
