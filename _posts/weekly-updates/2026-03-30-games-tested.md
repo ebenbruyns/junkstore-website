@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Junk Store Tested: Total War: THREE KINGDOMS, Havendock, Deep Sky Derelicts + 3 More"
 date: 2026-03-30 12:00:00 +1300
 categories: [Weekly Update, Game Compatibility]

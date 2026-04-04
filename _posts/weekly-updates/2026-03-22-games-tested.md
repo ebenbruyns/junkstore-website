@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: junkstore-post
 title: "Junk Store Tested: World of Warships, Rebel Galaxy, MultiVersus + 7 More"
 date: 2026-03-23 11:55:00 +1300
 categories: [Weekly Update, Game Compatibility]
