@@ -3,15 +3,6 @@ layout: junkstore-splash
 title: "Taking You to the Junk Store Portal"
 description: "You're about to access the Junk Store Portal to start your free trial."
 permalink: /portal-redirect/
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.7"
-  overlay_image: /assets/images/site/website_image_compressed.webp
-  actions:
-    - label: "Continue to Portal"
-      url: "https://portal.junkstore.xyz"
-      class: "button buy-button"
-      id: "continueBtn"
 excerpt: "You'll be redirected automatically, or click Continue to go now"
 sitemap: false
 ---

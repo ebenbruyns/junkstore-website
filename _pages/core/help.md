@@ -611,7 +611,7 @@ function toggleCategory(el) {
                           product === 'version-specific' ? 'Version Specific' : 'Universal';
 
         html += `
-          <details class="faq-item-compact" id="${item.id}" data-product="${product}">
+          <details class="faq-item-compact" id="${item.originalId || item.id}" data-product="${product}">
             <summary>
               <span class="question-text">${item.question}</span>
               <span class="product-badge ${product}-badge">${badgeLabel}</span>
@@ -724,7 +724,7 @@ window.filterFAQRedesign = function(version) {
                           product === 'version-specific' ? 'Version Specific' : 'Universal';
 
         html += `
-          <details class="faq-item-compact ts-item" id="${item.id}" data-product="${product}">
+          <details class="faq-item-compact ts-item" id="${item.originalId || item.id}" data-product="${product}">
             <summary>
               <span class="question-text">${item.title || item.problem}</span>
               <span class="product-badge ${product}-badge">${badgeLabel}</span>
@@ -843,7 +843,7 @@ window.filterTroubleshooting = function(version) {
                           product === 'version-specific' ? 'Version Specific' : 'Universal';
 
         html += `
-          <details class="faq-item-compact qt-item" id="qt-${item.id}" data-product="${product}">
+          <details class="faq-item-compact qt-item" id="qt-${item.originalId || item.id}" data-product="${product}">
             <summary>
               <span class="question-text">${item.question}</span>
               <span class="product-badge ${product}-badge">${badgeLabel}</span>

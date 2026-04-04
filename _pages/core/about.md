@@ -1,16 +1,8 @@
 ---
-layout: junkstore-splash
+layout: junkstore-page
 title: "About Junk Store - Our Story & Mission"
 description: "Junk Store brings non-Steam games from Epic, GOG, Amazon & itch to Steam Deck Game Mode. Available as standalone app or Decky plugin."
 permalink: /about/
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/site/website_image_compressed.webp
-  actions:
-    - label: "Buy Now"
-      url: "/buy_now/"
-      class: "button buy-button"
 excerpt: "The only professional Steam Deck solution for your non-Steam games in Game Mode"
 ---
 
@@ -62,11 +54,11 @@ excerpt: "The only professional Steam Deck solution for your non-Steam games in 
   </div>
 </div>
 
-<div class="js-cta-section">
-  <h2 class="js-cta-header">Ready to Try Junk Store?</h2>
-  <p class="js-cta-text">See how Junk Store compares to other solutions, or get started today.</p>
-  <div class="js-button-group">
-    <a href="/comparison/" class="btn btn--primary">Compare Versions</a>
-    <a href="/buy_now/" class="btn btn--success">Get Started</a>
+<section class="simple-cta">
+  <h2>Ready to Try Junk Store?</h2>
+  <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
+  <div class="cta-buttons">
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
+    <a href="/features/#gallery" class="button button-secondary large">See Live Demos</a>
   </div>
-</div>
+</section>

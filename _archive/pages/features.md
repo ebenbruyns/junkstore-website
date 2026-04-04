@@ -4,14 +4,6 @@ title: "Junk Store Features (Reference)"
 description: "Play Epic, GOG, Amazon & itch games on Steam Deck without Desktop Mode. Junk Store keeps you in Game Mode - see features, live demos, and why gamers choose it."
 permalink: /features-reference/
 classes: wide
-header:
-  overlay_color: "#1A1A1A"
-  overlay_filter: "0.45"
-  overlay_image: /js-steamdeck-hero-lighter.webp
-  actions:
-    - label: "Start Free Trial"
-      url: "/portal-redirect/"
-      class: "button buy-button"
 excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam solution"
 ---
 <div id="top"></div>
