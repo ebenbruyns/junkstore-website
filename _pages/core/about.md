@@ -31,8 +31,6 @@ excerpt: ""
   </div>
 </div>
 
-<p style="text-align: center; margin-top: 1rem;">When you're a team of two, you wear a lot of hats!</p>
-
 <h2 class="js-section-header">Our Office</h2>
 
 <p>Yep, we really do build Junk Store from a sailboat. Our home is Taleisin, a wooden Bristol Channel Cutter we've been living aboard since February 2017. We're currently on a mooring in North Cove, Kawau Island - north of Auckland.</p>
