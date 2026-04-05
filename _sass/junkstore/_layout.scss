@@ -246,8 +246,20 @@
   }
 }
 
-// Mobile navigation
+// Tablet navigation - shrink links to fit more
 @include breakpoint-max(large) {
+  .js-nav__links {
+    gap: 0.25rem;
+  }
+
+  .js-nav__link {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.85rem;
+  }
+}
+
+// Mobile navigation - hamburger menu
+@include breakpoint-max(medium) {
   .js-nav__toggle {
     display: block;
   }
@@ -275,6 +287,7 @@
 
   .js-nav__link {
     padding: 0.75rem 1rem;
+    font-size: 0.95rem;
     border-radius: 0;
     border-bottom: 1px solid rgba($white, 0.05);
 
