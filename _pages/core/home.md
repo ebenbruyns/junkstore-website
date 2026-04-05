@@ -36,7 +36,7 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
 </section>
 
 <section class="latest-release">
-  <h2>🎬 Junk Store Pro v3 - The Biggest Update Yet</h2>
+  <h2>Junk Store Pro v3 - The Biggest Update Yet</h2>
   <div class="latest-release__video">
     <iframe
       width="560"
