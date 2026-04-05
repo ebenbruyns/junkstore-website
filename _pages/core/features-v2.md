@@ -985,6 +985,14 @@ function toggleDemo(card) {
 <div class="media-grid">
 
  <div class="media-item">
+  <a href="https://youtu.be/DI-5Wdvu7Kw" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.youtube.com/vi/DI-5Wdvu7Kw/hqdefault.jpg" alt="Junk Store Pro v3 - The Biggest Update Yet" loading="lazy" width="320" height="180">
+  </a>
+  <p class="caption-title">Junk Store Pro v3 - The Biggest Update Yet</p>
+  <p class="caption">Version 3 just dropped and it's pretty choice. Faster, cleaner, and packed with goodies.</p>
+</div>
+
+ <div class="media-item">
   <a href="https://youtu.be/kDKQyL5iLSg" target="_blank" rel="noopener noreferrer">
     <img src="https://img.youtube.com/vi/kDKQyL5iLSg/hqdefault.jpg" alt="How to Install Junk Store Pro on Steam Deck" loading="lazy" width="320" height="180">
   </a>

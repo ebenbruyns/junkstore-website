@@ -617,6 +617,59 @@ body.home h1:not(.page__title):not(.js-hero__title) {
   }
 }
 
+/* Latest Release Video Section */
+.js-splash .latest-release {
+  background: linear-gradient(135deg, #1a252f 0%, #253445 100%);
+  padding: 2rem 1.5rem;
+  margin: 1.5rem auto;
+  border-radius: 12px;
+  border: 1px solid #444;
+  max-width: 1200px;
+  width: 98%;
+  text-align: center;
+}
+
+.js-splash .latest-release h2 {
+  color: $junkstore-primary;
+  font-size: 1.5rem;
+  margin: 0 0 1.5rem 0;
+  font-weight: bold;
+}
+
+.js-splash .latest-release__video {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.js-splash .latest-release__video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .js-splash .latest-release {
+    padding: 1.5rem 1rem;
+    margin: 1rem 0.5rem;
+  }
+
+  .js-splash .latest-release h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+}
+
 /* Demo Section - Side by side layout */
 .js-splash .demo-section {
   background-color: $junkstore-bg-card;

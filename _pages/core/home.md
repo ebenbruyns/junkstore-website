@@ -35,6 +35,21 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
   <p class="supported-extras">Plus emulator & ROM support</p>
 </section>
 
+<section class="latest-release">
+  <h2>🎬 Junk Store Pro v3 - The Biggest Update Yet</h2>
+  <div class="latest-release__video">
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/DI-5Wdvu7Kw"
+      title="Junk Store Pro v3 - The Biggest Update Yet"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
 <section class="problem-solution">
   <div class="problem-box">
     <h2>Other Launchers: Desktop Mode Required</h2>
@@ -55,7 +70,6 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
     </div>
   </div>
 </section>
-
 
 <section class="demo-section">
   <div class="demo-section__content">
