@@ -55,10 +55,10 @@
     const categoryOrder = [
       'Overview',
       'Getting Started',
-      'Pricing and Trial',
+      'Pricing & Trial',
       'Game Compatibility',
       'GOG Extension',
-      'Help and Support'
+      'Help & Support'
     ];
 
     // Sort categories
