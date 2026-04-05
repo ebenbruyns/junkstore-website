@@ -615,6 +615,7 @@ function toggleCategory(el) {
             <summary>
               <span class="question-text">${item.question}</span>
               <span class="product-badge ${product}-badge">${badgeLabel}</span>
+              <button class="permalink-btn" data-id="${item.originalId || item.id}" title="Copy link to this item">🔗</button>
             </summary>
             <div class="faq-answer">${item.answer}</div>
           </details>
@@ -728,6 +729,7 @@ window.filterFAQRedesign = function(version) {
             <summary>
               <span class="question-text">${item.title || item.problem}</span>
               <span class="product-badge ${product}-badge">${badgeLabel}</span>
+              <button class="permalink-btn" data-id="${item.originalId || item.id}" title="Copy link to this item">🔗</button>
             </summary>
             <div class="faq-answer">
               ${item.problem ? `<div class="ts-problem"><h4>Problem</h4><p>${item.problem}</p></div>` : ''}
@@ -847,6 +849,7 @@ window.filterTroubleshooting = function(version) {
             <summary>
               <span class="question-text">${item.question}</span>
               <span class="product-badge ${product}-badge">${badgeLabel}</span>
+              <button class="permalink-btn" data-id="qt-${item.originalId || item.id}" title="Copy link to this item">🔗</button>
             </summary>
             <div class="faq-answer">${item.answer}</div>
           </details>
@@ -908,3 +911,68 @@ document.addEventListener('DOMContentLoaded', function() {
   filterTutorials(version);
 });
 </script>
+
+<!-- Permalink functionality for FAQ/Troubleshooting/QuickTips -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Update URL hash when item is expanded
+  document.addEventListener('toggle', function(e) {
+    if (e.target.tagName === 'DETAILS' && e.target.open && e.target.id) {
+      history.replaceState(null, '', '#' + e.target.id);
+    }
+  }, true);
+
+  // Copy permalink on link button click
+  document.addEventListener('click', function(e) {
+    const btn = e.target.closest('.permalink-btn');
+    if (btn) {
+      e.preventDefault();
+      e.stopPropagation();
+
+      const itemId = btn.dataset.id;
+      const url = window.location.origin + window.location.pathname + '#' + itemId;
+
+      navigator.clipboard.writeText(url).then(function() {
+        // Show copied feedback
+        const originalText = btn.textContent;
+        btn.textContent = '✓';
+        btn.classList.add('copied');
+        setTimeout(function() {
+          btn.textContent = originalText;
+          btn.classList.remove('copied');
+        }, 1500);
+      }).catch(function() {
+        // Fallback: select the URL in prompt
+        prompt('Copy this link:', url);
+      });
+    }
+  });
+});
+</script>
+
+<style>
+.permalink-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.4;
+  font-size: 0.85em;
+  padding: 2px 6px;
+  margin-left: auto;
+  transition: opacity 0.2s, transform 0.2s;
+  flex-shrink: 0;
+}
+.permalink-btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+.permalink-btn.copied {
+  opacity: 1;
+  color: #198754;
+}
+.faq-item-compact summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+</style>
