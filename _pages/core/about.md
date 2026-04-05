@@ -88,11 +88,3 @@ excerpt: ""
   </div>
 </div>
 
-<section class="simple-cta">
-  <h2>Ready to Try Junk Store?</h2>
-  <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
-  <div class="cta-buttons">
-    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
-    <a href="/features/#gallery" class="button button-secondary large">See Live Demos</a>
-  </div>
-</section>

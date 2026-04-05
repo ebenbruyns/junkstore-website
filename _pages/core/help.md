@@ -583,7 +583,7 @@ function toggleCategory(el) {
     });
 
     // Category order
-    const catOrder = ['Overview', 'Pricing & Trial', 'Setup & Access', 'Managing Games', 'Game Settings', 'Game Compatibility', 'GOG Extension', 'Help & Support'];
+    const catOrder = ['Overview', 'Getting Started', 'Pricing and Trial', 'Game Compatibility', 'GOG Extension', 'Help and Support'];
     const sortedCats = Object.keys(grouped).sort((a, b) => {
       const iA = catOrder.indexOf(a), iB = catOrder.indexOf(b);
       if (iA === -1 && iB === -1) return a.localeCompare(b);
