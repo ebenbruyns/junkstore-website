@@ -319,8 +319,8 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   <h2>Ready to Try These Features?</h2>
   <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
   <div class="cta-buttons">
-    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
-    <a href="#" onclick="switchTab('gallery'); return false;" class="button button-secondary large">See Live Demos</a>
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="features_tab_cta">Start Free Trial</a>
+    <a href="#" onclick="switchTab('gallery'); return false;" class="button button-secondary large" data-event="click" data-category="engagement" data-action="view_gallery" data-label="features_tab_cta">See Live Demos</a>
   </div>
 </section>
 
@@ -869,8 +869,8 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   <h2>Ready to Experience the Difference?</h2>
   <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
   <div class="cta-buttons">
-    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
-    <a href="#" onclick="switchTab('gallery'); return false;" class="button button-secondary large">See Live Demos</a>
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="comparison_tab_cta">Start Free Trial</a>
+    <a href="#" onclick="switchTab('gallery'); return false;" class="button button-secondary large" data-event="click" data-category="engagement" data-action="view_gallery" data-label="comparison_tab_cta">See Live Demos</a>
   </div>
 </section>
 
@@ -1006,7 +1006,7 @@ function toggleDemo(card) {
   <h2>Ready to Try It Yourself?</h2>
   <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
   <div class="cta-buttons">
-    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="gallery_tab_cta">Start Free Trial</a>
   </div>
 </section>
 
@@ -1137,7 +1137,7 @@ function toggleDemo(card) {
   <h2>Ready to See What the Buzz is About?</h2>
   <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
   <div class="cta-buttons">
-    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="press_tab_cta">Start Free Trial</a>
   </div>
 </section>
 

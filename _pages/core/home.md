@@ -35,6 +35,16 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
   <p class="supported-extras">Plus emulator & ROM support</p>
 </section>
 
+<section class="library-value-callout">
+  <div class="value-box">
+    <h3>Your Free Games Are Worth Thousands</h3>
+    <p><strong>Epic gave away $2,200+ worth of games per player in 2024 alone.</strong></p>
+    <p>Add GOG and Amazon Prime giveaways, and you're sitting on a massive library.</p>
+    <p>Most people let them collect digital dust - or rebuy them on Steam.</p>
+    <a href="/portal-redirect/" class="value-unlock" data-event="click" data-category="conversion" data-action="trial_signup" data-label="homepage_value_callout">Unlock your library. Try free for 7 days.</a>
+  </div>
+</section>
+
 <section class="latest-release">
   <h2>Junk Store Pro v3 - The Biggest Update Yet</h2>
   <div class="latest-release__video">
@@ -88,15 +98,6 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
 
 
 {% include testimonials.html %}
-
-<section class="library-value-callout">
-  <div class="value-box">
-    <h3>🎮 Your Free Games Are Worth Thousands</h3>
-    <p><strong>Epic alone has given away over $10,000 worth of games since 2018.</strong></p>
-    <p>Most people let them collect digital dust - or rebuy them on Steam.</p>
-    <a href="/portal-redirect/" class="value-unlock">Stop rebuying. Start playing.</a>
-  </div>
-</section>
 
 <section class="common-questions">
   <h2>Common Questions</h2>

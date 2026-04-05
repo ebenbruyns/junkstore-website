@@ -683,8 +683,8 @@ excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Ste
   <h2>Ready to Upgrade?</h2>
   <p class="guarantee">7-day free trial · No commitment · Cancel anytime</p>
   <div class="cta-buttons">
-    <a href="/portal-redirect/" rel="noopener" class="button buy-button large">Start Free Trial</a>
-    <a href="/features/" class="button button-secondary large">Back to Features</a>
+    <a href="/portal-redirect/" rel="noopener" class="button buy-button large" data-event="click" data-category="conversion" data-action="trial_signup" data-label="decky_vs_pro_cta">Start Free Trial</a>
+    <a href="/features/" class="button button-secondary large" data-event="click" data-category="engagement" data-action="view_features" data-label="decky_vs_pro_cta">Back to Features</a>
   </div>
 </section>
 

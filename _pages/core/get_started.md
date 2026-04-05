@@ -225,5 +225,5 @@ excerpt: "Quick start guide for Junk Store Pro - get up and running fast"
 </div>
 
 <div class="text-center" style="margin-top: 2rem;">
-  <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button">Go to Portal</a>
+  <a href="https://portal.junkstore.xyz" target="_blank" rel="noopener" class="button buy-button" data-event="click" data-category="conversion" data-action="portal_visit" data-label="get_started_page">Go to Portal</a>
 </div>

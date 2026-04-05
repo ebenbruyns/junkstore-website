@@ -23,12 +23,29 @@ function initTracking() {
  * Track all paths to trial signup
  */
 function trackTrialButtons() {
-  // Primary CTA buttons - "Try Free" / "Get Started" / "Buy Now"
+  // Track elements with data-event attributes (preferred method)
+  document.querySelectorAll('[data-event="click"]').forEach(function(el) {
+    el.addEventListener('click', function() {
+      var category = this.getAttribute('data-category') || 'engagement';
+      var action = this.getAttribute('data-action') || 'click';
+      var label = this.getAttribute('data-label') || getButtonLocation(this);
+
+      pushEvent(action, {
+        'event_category': category,
+        'event_label': label,
+        'cta_text': this.textContent.trim().substring(0, 50),
+        'page_path': window.location.pathname
+      });
+    });
+  });
+
+  // Fallback: Track buttons without data attributes
   var ctaSelectors = [
-    { selector: '.buy-button', location: 'unknown' },
-    { selector: 'a[href*="/buy_now"]', location: 'unknown' },
-    { selector: 'a[href*="/get_started"]', location: 'unknown' },
-    { selector: '.inline-blog-cta-button', location: 'blog_cta' }
+    { selector: '.buy-button:not([data-event])', location: 'unknown' },
+    { selector: 'a[href*="/buy_now"]:not([data-event])', location: 'unknown' },
+    { selector: 'a[href*="/get_started"]:not([data-event])', location: 'unknown' },
+    { selector: '.inline-blog-cta-button:not([data-event])', location: 'blog_cta' },
+    { selector: '.value-unlock:not([data-event])', location: 'value_callout' }
   ];
 
   ctaSelectors.forEach(function(cta) {
@@ -37,8 +54,9 @@ function trackTrialButtons() {
         var location = getButtonLocation(this) || cta.location;
 
         pushEvent('cta_click', {
+          'event_category': 'conversion',
+          'event_label': location,
           'cta_text': this.textContent.trim().substring(0, 50),
-          'cta_location': location,
           'page_path': window.location.pathname
         });
       });
