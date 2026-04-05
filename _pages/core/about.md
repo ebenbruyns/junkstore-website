@@ -1,40 +1,74 @@
 ---
 layout: junkstore-page
-title: "About Junk Store - Our Story & Mission"
-description: "Junk Store brings non-Steam games from Epic, GOG, Amazon & itch to Steam Deck Game Mode. Available as standalone app or Decky plugin."
+title: "About Junk Store"
+description: "Meet the two-person team behind Junk Store. Learn how a DOS gaming project on a sailboat evolved into a full launcher platform for Steam Deck."
 permalink: /about/
-excerpt: "The only professional Steam Deck solution for your non-Steam games in Game Mode"
+excerpt: ""
 ---
 
-<section class="js-section">
-  <h1 class="js-page-title">The Story Behind Junk Store</h1>
+<p>G'day! We're Eben & Annie - a Kiwi couple living on a sailboat, and yep - that's where Junk Store gets built. No fancy office, just a floating home, heaps of coffee, and a shared love of gaming.</p>
 
-  <p>Junk Store began in October 2023 as a personal project born out of frustration. Eben wanted to play his beloved DOS games on Steam Deck with proper Steam Input controller mapping, but no existing solution worked the way he envisioned. As he puts it, "I took matters into my own hands when nothing else worked the way I wanted it to."</p>
+<p>Junk Store started back in October 2023 when Eben got frustrated trying to play his beloved DOS games on the Steam Deck. Nothing out there worked the way he wanted, so he did what any stubborn developer would do - built his own solution. As he puts it: "I took matters into my own hands when nothing else worked the way I wanted it to."</p>
 
-  <p>We live on a sailboat, and we're just a team of two. Eben brings decades of software development and cybersecurity experience to the project, while Annie handles everything else - marketing, support, content, you name it. Annie had no background in tech when we started, but she's learning as she goes so Eben can focus entirely on development. When there are only two people, you wear a lot of hats!</p>
+<p>What began as a simple DOS launcher has grown into something much bigger. These days, Junk Store handles Epic, GOG, Amazon, and itch games - all without ever leaving Game Mode. We've poured over 8,000 hours into this thing, and we're still going strong.</p>
 
-  <p>What started as a simple DOS game launcher has evolved into our vision for a unified launcher for all non-Steam games, fully integrated into Game Mode for a native gaming experience on Steam Deck. We work full-time on Junk Store and have invested over 8,000 hours and counting into making this vision a reality.</p>
+<h2 class="js-section-header">The Team (All Two of Us)</h2>
 
-  <p>The driving philosophy behind everything we build is simple: your handheld deserves a handheld experience. Unlike desktop-first solutions that treat Steam Deck like a mini-PC, every feature in Junk Store is designed to work seamlessly with your controller in Game Mode. We never force you to switch to Desktop Mode because that breaks the magic of what makes Steam Deck special.</p>
-</section>
-
-<section class="js-section">
-  <h2 class="js-section-header">Our Development Philosophy</h2>
-  <div class="js-points">
-    <p><strong>Quality over Quantity:</strong> We prioritize solving problems properly rather than rushing features.</p>
-    <p><strong>Extensible by Design:</strong> Built as an "open and extensible launcher framework" that can grow with community needs.</p>
-    <p><strong>Community-Driven:</strong> Every feature comes from real user feedback and actual gaming challenges.</p>
-    <p><strong>No Compromises:</strong> If it requires Desktop Mode, we find a better way.</p>
+<div class="team-grid">
+  <div class="team-member">
+    <img src="/assets/images/site/eben-300.jpg" alt="Eben" class="team-photo">
+    <div class="team-member-info">
+      <h3>Eben</h3>
+      <p>The brains behind the code. He's got decades of software development and cybersecurity experience, and he's pretty much glued to his keyboard making Junk Store better every day.</p>
+    </div>
   </div>
-</section>
+  <div class="team-member">
+    <img src="/assets/images/site/annie-300.jpg" alt="Annie" class="team-photo">
+    <div class="team-member-info">
+      <h3>Annie</h3>
+      <p>Handles... well, everything else. Support, content, community - you name it. She had zero tech background when this started, but she's learned heaps along the way so Eben can focus on what he does best.</p>
+    </div>
+  </div>
+</div>
 
-<h2 class="js-section-header">What Our Users Say</h2>
+<p style="text-align: center; margin-top: 1rem;">When you're a team of two, you wear a lot of hats!</p>
 
-{% include testimonials.html %}
+<h2 class="js-section-header">Our Office</h2>
+
+<p>Yep, we really do build Junk Store from a sailboat. Our home is Taleisin, a wooden Bristol Channel Cutter we've been living aboard since February 2017. We're currently on a mooring in North Cove, Kawau Island - north of Auckland.</p>
+
+<div class="office-gallery">
+  <div class="office-image">
+    <img src="/assets/images/site/taleisin-sailing.jpg" alt="Taleisin under sail" loading="lazy">
+    <p class="office-caption">Taleisin under sail - snapped from the Spirit of New Zealand as she sailed past</p>
+  </div>
+  <div class="office-image">
+    <img src="/assets/images/site/taleisin-reflection.jpg" alt="Taleisin in the marina" loading="lazy">
+    <p class="office-caption">Taleisin in the marina</p>
+  </div>
+  <div class="office-image">
+    <img src="/assets/images/site/cheeky-dinghy.jpg" alt="Cheeky the dinghy" loading="lazy">
+    <p class="office-caption">Cheeky - our trusty transport around the cove</p>
+  </div>
+</div>
+
+<p>No commute (unless you count rowing to shore to visit friends, go walkabout, or pick up deliveries), no office politics, and dolphins, orca, and seals swimming past the window. It's not a bad way to work.</p>
+
+<h2 class="js-section-header">Why We Do This</h2>
+
+<p>Our philosophy is pretty simple: your handheld should feel like a handheld. The Steam Deck isn't a mini-PC you tolerate - it's a proper gaming device that deserves proper gaming experiences.</p>
+
+<p>That means everything in Junk Store is designed to work with your controller, in Game Mode, without faffing about in Desktop Mode. If a feature would break that flow, we find a better way. No compromises.</p>
+
+<div class="js-points">
+  <p><strong>Quality over Quantity:</strong> We'd rather get something right than rush it out the door.</p>
+  <p><strong>Friction-Free Focus:</strong> Every feature is built to remove friction and eliminate the need for Desktop Mode.</p>
+  <p><strong>No Desktop Mode:</strong> If it needs Desktop Mode, we're not interested. Simple as that.</p>
+</div>
 
 <h2 class="js-section-header">Hear from the Developer</h2>
 
-<p>Curious about the story behind Junk Store? Check out these interviews and talks featuring our developer.</p>
+<p>Want to know more about the story behind Junk Store? Check out these interviews with Eben.</p>
 
 <div class="js-media-grid">
   <div class="js-media-card">

@@ -735,3 +735,87 @@ a[href^="/tutorials"] .js-thumb-img--guide + .js-video-thumb::after,
   padding: 1.5rem;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
+
+/*
+   Team Section (About page)
+   ========================================================================== */
+
+.team-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.team-member {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.team-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid $junkstore-accent;
+}
+
+.team-member-info {
+  flex: 1;
+  text-align: left;
+}
+
+.team-member h3 {
+  color: $junkstore-accent;
+  margin: 0 0 0.25rem 0;
+  font-size: 1.1rem;
+}
+
+.team-member p {
+  font-size: 1.1rem;
+  color: $junkstore-light-text;
+  margin: 0;
+  line-height: 1.7;
+}
+
+@media (max-width: 500px) {
+  .team-photo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+// Office gallery
+.office-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.office-image {
+  text-align: center;
+}
+
+.office-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid $junkstore-border;
+}
+
+.office-caption {
+  font-size: 0.85rem;
+  color: $junkstore-gray-text;
+  margin-top: 0.5rem;
+  font-style: italic;
+  text-align: center !important;
+}
+
+@media (max-width: 768px) {
+  .office-gallery {
+    grid-template-columns: 1fr;
+  }
+}
