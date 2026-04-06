@@ -1,10 +1,11 @@
 ---
 layout: junkstore-post
-title: "Tip of the Week: Easily Install Game Dependencies with Junk Store Pro"
+title: "How to Install VC++, DirectX & .NET on Steam Deck (One-Click)"
 date: 2025-11-05
 categories: [Tip of the Week, Pro Version]
 tags: [junk-store, steam-deck, tips]
 slug: "install-dependencies-junk-store-2"
+description: "Install game dependencies (VC++, DirectX, .NET) on Steam Deck with one click. Junk Store Pro does it in Game Mode - no Protontricks or Desktop Mode."
 excerpt: "Skip the complex ProtonTricks setup! Junk Store Pro makes installing Visual C++, .NET Framework, and other Windows dependencies as simple as clicking a button."
 image: /assets/images/blog/tips/dependencies/251017-deps-hero.webp
 header:

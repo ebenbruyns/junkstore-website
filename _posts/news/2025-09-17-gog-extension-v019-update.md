@@ -1,10 +1,11 @@
 ---
 layout: junkstore-post
-title: "GOG Extension v0.1.9 Update - Flatpak Update, Umu ID Fix & Portal Migration"
+title: "GOG on Steam Deck: Extension v0.1.9 - Better Compatibility & Bug Fixes"
 date: 2025-09-17 12:00:00 +1300
 categories: [News, GOG Extension]
 tags: [junk-store, steam-deck, news, gog]
 slug: "gog-extension-v019-update"
+description: "GOG Extension v0.1.9 improves Steam Deck compatibility. Updated Flatpak dependencies and bug fixes for playing GOG games in Game Mode."
 excerpt: "GOG Extension v0.1.9 brings critical bug fixes, updated Flatpak runtime dependencies, and streamlined Portal distribution for Steam Deck users."
 image: /assets/images/blog/features/gog-extension/gog-extension-update-hero.png
 header:

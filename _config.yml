@@ -74,6 +74,21 @@ tag_archive:
 # Author/Social Links
 author:
   name: "Junk Store Team"
+
+# Social links for schema.org markup (used by _includes/schema.html)
+social:
+  type: Organization
+  name: Junk Store
+  links:
+    - https://discord.gg/6mRUhR6Teh
+    - https://www.reddit.com/r/JunkStore
+    - https://www.youtube.com/@Junk-Store
+    - https://www.facebook.com/JunkStore4deck
+    - https://mastodon.social/@JunkStore
+    - https://bsky.app/profile/junkstore.bsky.social
+    - https://x.com/JunkStore4deck
+    - https://ko-fi.com/junkstore
+    - https://www.patreon.com/c/junkstore
 #  links:
 #    - label: "Email"
 #      icon: "fas fa-fw fa-envelope"

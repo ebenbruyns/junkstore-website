@@ -1,10 +1,11 @@
 ---
 layout: junkstore-post
-title: "Tip of the Week: Missing the 'Press Y to Show All' Prompt"
+title: "Fix: Games Missing on Steam Deck - Show All Library (Epic, GOG, Amazon & itch)"
 date: 2025-09-02
 categories: [Tip of the Week, Decky Plugin]
 tags: [junk-store, steam-deck, tips, epic-games, gog]
 slug: "press-y-show-all-games"
+description: "Can't see all your Epic, GOG, Amazon or itch games on Steam Deck? Fix missing games in Junk Store by loading your complete library."
 excerpt: "Only seeing A-L games in your Epic/GOG library? Look for the 'Press Y to Show All' prompt at the bottom - or check if your CSS theme is hiding it!"
 image: /assets/images/blog/pushY.webp
 read_time: "3 min read"

@@ -1,7 +1,7 @@
 ---
 layout: junkstore-splash
 title: "Your Non-Steam Gaming Hub"
-description: "All your non-Steam games in one place. Epic, GOG, Amazon & itch on Steam Deck - no desktop mode, no multiple launchers. Just gaming."
+description: "Junk Store - the original 100% Game Mode launcher for Steam Deck. Play Epic, GOG, Amazon & itch games without Desktop Mode. Zero background processes, full controller support."
 permalink: /
 classes: home
 excerpt: "All your non-Steam games in one place. No desktop mode. No multiple launchers. Just gaming."

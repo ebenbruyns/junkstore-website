@@ -1,10 +1,11 @@
 ---
 layout: junkstore-post
-title: "Tip of the Week: Download Anti-Cheat Dependencies for EAC and BattlEye"
+title: "How to Install EasyAntiCheat & BattlEye on Steam Deck for Epic Games"
 date: 2026-03-04 15:10:00 +1300
 categories: [Tip of the Week, Features]
 tags: [junk-store, steam-deck, tips]
 slug: "anticheat-dependencies-tip"
+description: "Install EasyAntiCheat, BattlEye, and game dependencies on Steam Deck in Game Mode. One-click setup with Junk Store."
 excerpt: "Easily download Easy Anti-Cheat and BattlEye dependencies with simple toggles in Junk Store. Get games like Fall Guys running on your Steam Deck!"
 image: /assets/images/tips/anticheat/dependencies-not-installed.webp
 read_time: "3 min read"

@@ -1,10 +1,11 @@
 ---
 layout: junkstore-post
-title: "GOG Extension Moving to Portal-Only Sales"
+title: "GOG Extension for Steam Deck Now Portal-Only (No Longer on Patreon/Ko-fi)"
 date: 2025-11-04 12:00:00 +1300
 categories: [News, GOG Extension]
 tags: [junk-store, steam-deck, news, gog]
 slug: "gog-extension-portal-only"
+description: "Junk Store's GOG Extension for Steam Deck is now sold exclusively through the Portal. Migrated from Patreon and Ko-fi for easier access."
 excerpt: "The Junk Store GOG Extension is now exclusively available through our Portal. We're no longer selling it on Patreon or Ko-fi."
 image: /assets/images/blog/features/gog-extension/gog-extension-portal-hero.png
 header:

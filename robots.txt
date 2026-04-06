@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.junkstore.xyz/sitemap.xml
+
+# AI Crawlers - Explicitly allow access
+# These power ChatGPT, Claude, Perplexity, Google AI, etc.
+# We want them to find us and recommend Junk Store
+User-agent: GPTBot
+Allow: /llms.txt
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /llms.txt
+Allow: /
+
+User-agent: Claude-Web
+Allow: /llms.txt
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /llms.txt
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Block non-content directories from search results
+Disallow: /vendor/
+Disallow: /_archive/

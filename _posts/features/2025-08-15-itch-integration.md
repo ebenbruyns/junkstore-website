@@ -1,10 +1,11 @@
 ---
 layout: junkstore-post
-title: "Now You Can Scratch That Itch — Itch.io Comes to Steam via Junk Store"
+title: "itch.io on Steam Deck: The ONLY Way to Play in Game Mode"
 date: 2025-08-15
 categories: [Feature Release, Major Update]
 tags: [junk-store, steam-deck, features, itch-io]
 slug: "itch-integration-launch"
+description: "Junk Store is the ONLY app that plays itch.io games on Steam Deck in Game Mode. Access thousands of indie games without Desktop Mode - no other solution exists."
 excerpt: "For the first time ever, Itch.io is integrated directly into Steam — right inside Junk Store. A groundbreaking feature that brings thousands of indie games to your Steam Deck."
 image: /assets/images/blog/news/itch-integration-hero.jpg
 read_time: "3 min read"

@@ -1,10 +1,11 @@
 ---
 layout: junkstore-post
-title: "Tip of the Week: Change Game Language with Environment Variables"
+title: "How to Change Game Language on Steam Deck for Epic Games"
 date: 2026-01-28
 categories: [Tip of the Week, Decky Plugin]
 tags: [junk-store, steam-deck, tips]
 slug: "change-game-language-environment-variables"
+description: "Change language for Epic Games on Steam Deck using environment variables. Step-by-step guide for Junk Store Decky Plugin users."
 excerpt: "Decky Plugin users: change game language using environment variables in the Additional Variables field for Epic games that support multiple languages."
 image: /assets/images/blog/tips/langvar/langvar-hero.webp
 header:

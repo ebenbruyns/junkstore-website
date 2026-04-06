@@ -1,12 +1,12 @@
 ---
 layout: junkstore-post
-title: "Tip of the Week: Run Alternate Executables in Game Mode"
+title: "How to Run Expansion Packs & Alternate EXEs on Steam Deck (Epic, GOG, Amazon & itch)"
 date: 2026-03-17 11:20:00 +1300
 categories: [Tip of the Week, Features]
 tags: [junk-store, steam-deck, tips]
 slug: "run-alternate-exe"
-description: "Run alternate executables on Steam Deck with Junk Store. Launch expansion packs, bypass game launchers, or select different exes without leaving Game Mode."
-excerpt: "Some games include multiple executables - like expansion packs or alternate launchers. Here's how to switch between them without leaving Game Mode."
+description: "Run alternate executables, expansion packs, and DLC for Epic & GOG games on Steam Deck. Junk Store does it in Game Mode - no Desktop Mode needed."
+excerpt: "Run expansion packs, bypass game launchers, or select different executables for Epic and GOG games on Steam Deck - all in Game Mode with Junk Store."
 image: /assets/images/blog/tips/run-exe/runexeblogcard.webp
 header:
   teaser: /assets/images/blog/tips/run-exe/runexeblogcard.webp

@@ -1,10 +1,11 @@
 ---
 layout: junkstore-post
-title: "Tip of the Week: Easily Change Proton Versions in Junk Store"
+title: "How to Change Proton Version on Steam Deck (Epic, GOG, Amazon & itch)"
 date: 2026-02-21 17:50:00 +1300
 categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips, proton, compatibility]
 slug: "change-proton-version"
+description: "Fix game crashes and black screens by changing Proton on Steam Deck. Works for Epic, GOG, Amazon & itch games in Game Mode with Junk Store."
 excerpt: "Change Proton versions directly in Game Mode using Steam's built-in compatibility menu."
 image: /assets/images/blog/tips/proton-tip/proton-tip-hero.webp
 header:

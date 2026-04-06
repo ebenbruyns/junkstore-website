@@ -1,9 +1,10 @@
 ---
 layout: junkstore-post
-title: "🎮 Take a Look at Our New Games Compatibility Table - What Do You Think?"
+title: "Steam Deck Game Database: 900+ Epic, GOG, Amazon & itch Games Tested"
 date: 2025-10-27
 categories: [News, Game Testing]
 tags: [junk-store, steam-deck, news]
+description: "Search 900+ Steam Deck compatible games. Epic, GOG, Amazon Prime Gaming & itch titles tested with Junk Store."
 excerpt: "We've been working hard on making it easier for you to find compatible games for your Steam Deck. Check out our updated compatibility table and let us know what you think!"
 author: "Junk Store Team"
 ---

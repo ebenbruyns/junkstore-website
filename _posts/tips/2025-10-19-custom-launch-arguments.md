@@ -1,10 +1,11 @@
 ---
 layout: junkstore-post
-title: "Tip of the Week: Custom Launch Arguments"
+title: "How to Add Launch Arguments on Steam Deck (Epic, GOG, Amazon & itch)"
 date: 2025-10-19
 categories: [Tip of the Week, Universal]
 tags: [junk-store, steam-deck, tips, epic-games, gog]
 slug: "custom-launch-arguments"
+description: "Add custom launch arguments for Epic, GOG, Amazon & itch games on Steam Deck in Game Mode. Junk Store guide for environment variables and arguments."
 excerpt: "Add advanced launch parameters for Epic and GOG games using Junk Store's Advanced settings. Pro Version includes a built-in text editor for easier configuration."
 image: /assets/images/blog/tips/launch-args/251015-launch-args-hero.webp
 header:

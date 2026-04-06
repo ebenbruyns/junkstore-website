@@ -1,6 +1,6 @@
 ---
 layout: junkstore-post
-title: "Junk Store Pro 3.0 is Here"
+title: "Junk Store Pro 3.0: The Only Steam Deck App with File Manager, Disk Analyzer & Process Manager"
 date: 2026-04-03 09:00:00 +1300
 categories: [Major Release]
 tags: [junk-store, steam-deck, features, news]

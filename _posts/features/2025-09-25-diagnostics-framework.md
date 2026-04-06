@@ -1,10 +1,11 @@
 ---
 layout: junkstore-post
-title: "Diagnostics Framework - Early R&D Release"
+title: "Auto-Detect Steam Deck Issues: Junk Store Diagnostics Framework"
 date: 2025-09-25
 categories: [Feature Release, Beta Features]
 tags: [junk-store, steam-deck, features]
 slug: "diagnostics-framework-release"
+description: "Automatic problem detection for Steam Deck gaming. Junk Store's diagnostics framework identifies issues and suggests fixes - all in Game Mode."
 excerpt: "R&D release - our diagnostics framework for detecting issues and suggesting remedies on Steam Deck."
 image: /assets/images/blog/features/diagnostics/JunkStoreDiagnostics-1.webp
 read_time: "3 min read"

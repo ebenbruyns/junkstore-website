@@ -1,11 +1,12 @@
 ---
 layout: junkstore-post
-title: "Tip of the Week: Enable LSFG Frame Generation in Junk Store"
+title: "How to Enable Frame Generation on Steam Deck (Epic, GOG, Amazon & itch)"
 date: 2026-03-11 12:00:00 +1300
 published: false
 categories: [Tip of the Week, Features]
 tags: [junk-store, steam-deck, tips]
 slug: "lsfg-frame-generation-tip"
+description: "Double your FPS with LSFG frame generation on Steam Deck. Built into Junk Store - enable in Game Mode for Epic, GOG & itch games."
 excerpt: "Double your FPS with LSFG frame generation - now built directly into Junk Store with simple toggles. No manual launch arguments needed!"
 read_time: "3 min read"
 toc: true
