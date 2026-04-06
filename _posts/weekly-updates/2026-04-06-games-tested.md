@@ -1,12 +1,12 @@
 ---
 layout: junkstore-post
-title: "Easter Gaming: XCOM, Total War, Clone Drone & Vornyca on Steam Deck"
+title: "Easter Gaming: XCOM: Enemy Unknown, Total War, Clone Drone & Vornyca on Steam Deck"
 date: 2026-04-06 16:30:00 +1200
 categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck, epic-games, gog]
 slug: "games-tested-apr-06"
-excerpt: "From strategy classics to horror co-op, we tested 6 Epic and GOG games on Steam Deck. Total War: Pharaoh Dynasties, XCOM, Vornyca and more - all running in Game Mode."
-description: "Steam Deck compatibility for XCOM, Total War: Pharaoh Dynasties, Clone Drone, Vornyca, Together After Dark & Tomak. All 6 tested and working with Junk Store."
+excerpt: "From strategy classics to horror co-op, we tested 6 Epic and GOG games on Steam Deck. Total War: Pharaoh Dynasties, XCOM: Enemy Unknown, Vornyca and more - all running in Game Mode."
+description: "Steam Deck compatibility for XCOM: Enemy Unknown, Total War: Pharaoh Dynasties, Clone Drone, Vornyca, Together After Dark & Tomak. All 6 tested and working with Junk Store."
 image: /assets/images/blog/260406-hero.webp
 header:
   teaser: /assets/images/blog/260406-hero-thumb.webp
@@ -20,9 +20,15 @@ toc: true
 
 Happy Easter Everyone!
 
-Hope you're having a great time if you're visiting family this weekend. Hopefully the long weekend's been good for a bit of rest, relaxation, and gaming. Down under we're officially heading out of summer and into winter. Daylight savings kicked in over the weekend so we lost an hour, and there's some wet and rough weather on the way later this week. We're a bit bummed about daylight savings, we had so many jobs we needed to do on the boat over summer but never got the right weather or enough free time. Fingers crossed things can hang in there over winter or until we get some free time to work on them.
+Hope you're having a great time if you're visiting family this weekend. Hopefully the long weekend's been good for a bit of rest, relaxation, and gaming.
 
-Quick heads up, in case you missed the <a href="/blog/junk-store-3-0-release/" target="_blank" rel="noopener">announcement</a>, Junk Store Pro 3.0 is out with heaps of new goodies: built-in SteamGridDB, a File Manager, Disk Analyser, and Process Manager. Check out the <a href="https://youtu.be/DI-5Wdvu7Kw" target="_blank" rel="noopener">YouTube video</a> for a full rundown. If you've got a license, update now. If you haven't tried it yet, give it a go with our 7 day free trial. Features like these aren't available anywhere else, and yes they all run right in Game Mode. Junk Store is all about reducing friction and keeping you in Game Mode.
+Down under we're officially heading out of summer and into winter. Daylight savings kicked in over the weekend so we lost an hour, and there's some wet and rough weather on the way later this week.
+
+We're a bit bummed about daylight savings, we had so many jobs we needed to do on the boat over summer but never got the right weather or enough free time. Fingers crossed things can hang in there over winter or until we get some free time to work on them.
+
+<div class="update-callout">
+<strong>🚀 Junk Store Pro 3.0 is here!</strong> In case you missed the <a href="/blog/junk-store-3-0-release/" target="_blank" rel="noopener">announcement</a>, we've added heaps of new goodies: built-in SteamGridDB, a File Manager, Disk Analyser, and Process Manager. Check out the <a href="https://youtu.be/DI-5Wdvu7Kw" target="_blank" rel="noopener">YouTube video</a> for a full rundown. If you've got a license, update now. If you haven't tried it yet, give it a go with our 7 day free trial. Features like these aren't available anywhere else, and yes they all run right in Game Mode.
+</div>
 
 ## Housekeeping Notes
 
@@ -128,9 +134,9 @@ This week featuring Total War: Pharaoh Dynasties, XCOM: Enemy Unknown Complete P
 
 ## Looking Forward
 
-This weekend's Epic giveaways include <a href="https://store.epicgames.com/en-US/p/propsumo-ca8bd7" target="_blank" rel="noopener">Prop Sumo</a>.
+Next up on the free games front, Epic's got <a href="https://store.epicgames.com/en-US/p/propsumo-ca8bd7" target="_blank" rel="noopener">Prop Sumo</a> coming this week.
 
-Amazon Prime Gaming is offering a GOG code for <a href="https://www.gog.com/en/game/king_of_retail" target="_blank" rel="noopener">King of Retail</a>, and an Epic code for <a href="https://store.epicgames.com/en-US/p/a-rats-quest-f610d5" target="_blank" rel="noopener">A Rat's Quest: The Way Back Home</a>.
+Amazon Prime Gaming has a couple worth grabbing too: a GOG code for <a href="https://www.gog.com/en/game/king_of_retail" target="_blank" rel="noopener">King of Retail</a> and an Epic code for <a href="https://store.epicgames.com/en-US/p/a-rats-quest-f610d5" target="_blank" rel="noopener">A Rat's Quest: The Way Back Home</a>. We'll get these tested once they're live.
 
 **Which of these games are you most excited to try?** Join our community on Discord or reddit and let us know! We love hearing about your Steam Deck gaming experiences and which titles you're planning to add to your library next.
 
@@ -154,6 +160,15 @@ The Junk Store Team
 *Have questions about any of these featured games? Join our community on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>!*
 
 <style>
+.update-callout {
+  background: rgba(76, 175, 80, 0.1);
+  border-left: 4px solid #4caf50;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 4px;
+  line-height: 1.6;
+}
+
 .weekly-highlights {
   background: rgba(0, 86, 179, 0.15);
   border-left: 4px solid #0056b3;
