@@ -80,6 +80,7 @@
 
     // Populate notes table
     const notesTable = document.getElementById('notes-table');
+    const NOTES_LIMIT = 5;
     try {
       if (notesTable && data.notes && data.notes.length > 0) {
         const tbody = notesTable.querySelector('tbody');
@@ -93,7 +94,11 @@
             return dateB - dateA;
           });
 
-          sortedNotes.forEach(note => {
+          // Show only first 5 notes initially
+          const notesToShow = sortedNotes.slice(0, NOTES_LIMIT);
+          const hiddenNotes = sortedNotes.slice(NOTES_LIMIT);
+
+          notesToShow.forEach(note => {
             const noteDate = note.date && note.date.toDate ? note.date.toDate() : new Date(note.date);
             const typeBadge = getNoteBadge(note.type);
             const row = document.createElement('tr');
@@ -104,6 +109,43 @@
             `;
             tbody.appendChild(row);
           });
+
+          // Add hidden rows if there are more than 5 notes
+          hiddenNotes.forEach(note => {
+            const noteDate = note.date && note.date.toDate ? note.date.toDate() : new Date(note.date);
+            const typeBadge = getNoteBadge(note.type);
+            const row = document.createElement('tr');
+            row.classList.add('hidden-note');
+            row.style.display = 'none';
+            row.innerHTML = `
+              <td>${noteDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'short', day: 'numeric' })}</td>
+              <td>${typeBadge}</td>
+              <td>${note.text}</td>
+            `;
+            tbody.appendChild(row);
+          });
+
+          // Add "Show all" button if there are hidden notes
+          if (hiddenNotes.length > 0) {
+            const showAllRow = document.createElement('tr');
+            showAllRow.id = 'show-all-notes-row';
+            showAllRow.innerHTML = `
+              <td colspan="3" class="text-center">
+                <button type="button" class="show-all-notes-btn" id="show-all-notes-btn">
+                  Show all ${sortedNotes.length} notes
+                </button>
+              </td>
+            `;
+            tbody.appendChild(showAllRow);
+
+            // Add click handler
+            document.getElementById('show-all-notes-btn').addEventListener('click', function() {
+              document.querySelectorAll('.hidden-note').forEach(row => {
+                row.style.display = '';
+              });
+              document.getElementById('show-all-notes-row').remove();
+            });
+          }
         }
       } else if (notesTable) {
         const tbody = notesTable.querySelector('tbody');
