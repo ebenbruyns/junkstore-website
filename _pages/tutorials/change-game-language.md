@@ -5,6 +5,7 @@ description: "Change game language settings on Steam Deck without Desktop Mode. 
 excerpt: "Set your preferred language for Epic, GOG, or Amazon games directly in Game Mode"
 permalink: /tutorials/change-game-language/
 ---
+{% include content-schema.html type="tutorial" id="change-game-language" %}
 
 <p class="text-center">Change your Epic, GOG, or Amazon game language settings directly in Game Mode - no desktop switching required.</p>
 

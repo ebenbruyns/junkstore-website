@@ -8,6 +8,7 @@ categories: ["Universal"]
 tags: ["c++", "runtime", "dependencies", "troubleshooting", "both-versions"]
 difficulty: "Intermediate"
 ---
+{% include content-schema.html type="tutorial" id="cpp-runtime" %}
 
 <p class="text-center">Fix game crashes and missing DLL errors when Protontricks doesn't work.</p>
 

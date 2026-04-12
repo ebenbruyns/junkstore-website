@@ -8,6 +8,7 @@ categories: ["Universal"]
 tags: ["wine-cellar", "compatibility", "proton", "ge-proton", "both-versions"]
 difficulty: "Advanced"
 ---
+{% include content-schema.html type="tutorial" id="wine-cellar" %}
 
 <p class="text-center">Access GE-Proton and other advanced compatibility tools directly in Game Mode.</p>
 

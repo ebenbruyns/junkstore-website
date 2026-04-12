@@ -8,6 +8,7 @@ categories: ["Decky Plugin"]
 tags: ["installation", "decky-loader", "epic-games", "setup"]
 difficulty: "Beginner"
 ---
+{% include content-schema.html type="tutorial" id="install-decky-plugin" %}
 
 <p class="text-center">Prefer video? <a href="https://www.youtube.com/watch?v=tgc7yiKtpW0" target="_blank" rel="noopener">Watch on YouTube</a></p>
 

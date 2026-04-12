@@ -8,6 +8,7 @@ categories: ["Decky Plugin"]
 tags: ["gog", "extension", "decky-plugin", "installation"]
 difficulty: "Intermediate"
 ---
+{% include content-schema.html type="tutorial" id="gogextension" %}
 
 <div class="install-guide">
 <ol>

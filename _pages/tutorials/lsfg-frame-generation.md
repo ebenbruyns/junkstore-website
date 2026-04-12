@@ -8,6 +8,7 @@ categories: ["Universal"]
 tags: ["lsfg", "frame-generation", "performance", "both-versions"]
 difficulty: "Intermediate"
 ---
+{% include content-schema.html type="tutorial" id="lsfg-frame-generation" %}
 
 <p class="text-center">Boost your frame rates with LSFG-VK (Lossless Scaling Frame Generation) - built into Junk Store with simple toggles.</p>
 

@@ -8,6 +8,7 @@ categories: ["Universal"]
 tags: ["oauth", "authentication", "epic-games", "login", "both-versions"]
 difficulty: "Beginner"
 ---
+{% include content-schema.html type="tutorial" id="oauth-login" %}
 
 <div class="js-provider-grid">
   <span class="js-provider-badge"><i class="fab fa-google" style="color: #4285f4;"></i>Google</span>

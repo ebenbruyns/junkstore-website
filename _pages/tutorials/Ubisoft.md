@@ -8,6 +8,7 @@ categories: ["Universal"]
 tags: ["ubisoft", "third-party-launchers", "epic-games", "both-versions"]
 difficulty: "Advanced"
 ---
+{% include content-schema.html type="tutorial" id="ubisoft-games" %}
 
 <p class="text-center">Install Ubisoft Connect and launch Ubisoft games through Epic Games Store.</p>
 

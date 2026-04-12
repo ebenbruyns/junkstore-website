@@ -4,6 +4,8 @@ title: "Junk Store Help"
 description: "Junk Store help for Steam Deck - FAQ, troubleshooting, tutorials, and game compatibility. Covers both Decky Plugin and Pro Version."
 permalink: /help/
 ---
+{% include content-schema.html type="faq" %}
+{% include content-schema.html type="troubleshooting" %}
 <div id="top"></div>
 
 <!-- ==================== COMPACT HEADER ==================== -->

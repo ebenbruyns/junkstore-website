@@ -8,6 +8,7 @@ categories: ["Universal"]
 tags: ["proton", "compatibility", "both-versions"]
 difficulty: "Intermediate"
 ---
+{% include content-schema.html type="tutorial" id="proton-versions" %}
 
 <p class="text-center">Fix black screens and compatibility issues by switching to a different Proton version.</p>
 
