@@ -80,45 +80,58 @@
 
     // Populate notes table
     const notesTable = document.getElementById('notes-table');
-    if (notesTable && data.notes && data.notes.length > 0) {
-      const tbody = notesTable.querySelector('tbody');
-      if (tbody) {
-        tbody.innerHTML = '';
+    try {
+      if (notesTable && data.notes && data.notes.length > 0) {
+        const tbody = notesTable.querySelector('tbody');
+        if (tbody) {
+          tbody.innerHTML = '';
 
-        // Sort by date descending (most recent first)
-        const sortedNotes = [...data.notes].sort((a, b) => {
-          const dateA = a.date && a.date.toDate ? a.date.toDate() : new Date(a.date);
-          const dateB = b.date && b.date.toDate ? b.date.toDate() : new Date(b.date);
-          return dateB - dateA;
-        });
+          // Sort by date descending (most recent first)
+          const sortedNotes = [...data.notes].sort((a, b) => {
+            const dateA = a.date && a.date.toDate ? a.date.toDate() : new Date(a.date);
+            const dateB = b.date && b.date.toDate ? b.date.toDate() : new Date(b.date);
+            return dateB - dateA;
+          });
 
-        sortedNotes.forEach(note => {
-          const noteDate = note.date && note.date.toDate ? note.date.toDate() : new Date(note.date);
-          const typeBadge = getNoteBadge(note.type);
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${noteDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'short', day: 'numeric' })}</td>
-            <td>${typeBadge}</td>
-            <td>${note.text}</td>
-          `;
-          tbody.appendChild(row);
-        });
+          sortedNotes.forEach(note => {
+            const noteDate = note.date && note.date.toDate ? note.date.toDate() : new Date(note.date);
+            const typeBadge = getNoteBadge(note.type);
+            const row = document.createElement('tr');
+            row.innerHTML = `
+              <td>${noteDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'short', day: 'numeric' })}</td>
+              <td>${typeBadge}</td>
+              <td>${note.text}</td>
+            `;
+            tbody.appendChild(row);
+          });
+        }
+      } else if (notesTable) {
+        const tbody = notesTable.querySelector('tbody');
+        if (tbody) {
+          tbody.innerHTML = '<tr><td colspan="3" class="text-center text-muted">No notes yet</td></tr>';
+        }
       }
-    } else if (notesTable) {
-      const tbody = notesTable.querySelector('tbody');
-      if (tbody) {
-        tbody.innerHTML = '<tr><td colspan="3" class="text-center text-muted">No notes yet</td></tr>';
+    } catch (notesError) {
+      console.error('Error loading notes:', notesError);
+      if (notesTable) {
+        const tbody = notesTable.querySelector('tbody');
+        if (tbody) {
+          tbody.innerHTML = '<tr><td colspan="3" class="text-center text-muted">Error loading notes</td></tr>';
+        }
       }
     }
 
     // Populate break history table
-    if (historyTable && data.breakHistory && data.breakHistory.length > 0) {
+    // Filter out invalid entries (empty strings, nulls, entries without dates)
+    const validHistory = (data.breakHistory || []).filter(entry => entry && typeof entry === 'object' && entry.date);
+
+    if (historyTable && validHistory.length > 0) {
       const tbody = historyTable.querySelector('tbody');
       if (tbody) {
         tbody.innerHTML = '';
 
         // Sort by date descending (most recent first)
-        const sortedHistory = [...data.breakHistory].sort((a, b) => {
+        const sortedHistory = [...validHistory].sort((a, b) => {
           const dateA = a.date.toDate ? a.date.toDate() : new Date(a.date);
           const dateB = b.date.toDate ? b.date.toDate() : new Date(b.date);
           return dateB - dateA;
