@@ -78,6 +78,39 @@
       statusSteamOS.textContent = data.steamosVersion || 'N/A';
     }
 
+    // Populate notes table
+    const notesTable = document.getElementById('notes-table');
+    if (notesTable && data.notes && data.notes.length > 0) {
+      const tbody = notesTable.querySelector('tbody');
+      if (tbody) {
+        tbody.innerHTML = '';
+
+        // Sort by date descending (most recent first)
+        const sortedNotes = [...data.notes].sort((a, b) => {
+          const dateA = a.date && a.date.toDate ? a.date.toDate() : new Date(a.date);
+          const dateB = b.date && b.date.toDate ? b.date.toDate() : new Date(b.date);
+          return dateB - dateA;
+        });
+
+        sortedNotes.forEach(note => {
+          const noteDate = note.date && note.date.toDate ? note.date.toDate() : new Date(note.date);
+          const typeBadge = getNoteBadge(note.type);
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${noteDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'short', day: 'numeric' })}</td>
+            <td>${typeBadge}</td>
+            <td>${note.text}</td>
+          `;
+          tbody.appendChild(row);
+        });
+      }
+    } else if (notesTable) {
+      const tbody = notesTable.querySelector('tbody');
+      if (tbody) {
+        tbody.innerHTML = '<tr><td colspan="3" class="text-center text-muted">No notes yet</td></tr>';
+      }
+    }
+
     // Populate break history table
     if (historyTable && data.breakHistory && data.breakHistory.length > 0) {
       const tbody = historyTable.querySelector('tbody');
@@ -116,5 +149,14 @@
 
   } catch (error) {
     console.error('Error loading uptime:', error);
+  }
+
+  function getNoteBadge(type) {
+    const badges = {
+      'beta': '<span class="note-badge beta">SteamOS Beta</span>',
+      'stable': '<span class="note-badge stable">SteamOS Stable</span>',
+      'release': '<span class="note-badge release">Junk Store</span>'
+    };
+    return badges[type] || '<span class="note-badge info">Info</span>';
   }
 })();

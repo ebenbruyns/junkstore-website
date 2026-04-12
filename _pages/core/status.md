@@ -21,6 +21,28 @@ published: true
   </div>
 </div>
 
+<div class="notes-section">
+  <h2>Updates & Notes</h2>
+  <p class="text-muted mb-2">
+    Recent SteamOS and Junk Store updates that maintained compatibility.
+  </p>
+
+  <table id="notes-table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Type</th>
+        <th>Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="3" class="text-center text-muted">Loading...</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
 <div class="history-section">
   <h2>Break History</h2>
   <p class="text-muted mb-2">
@@ -39,7 +61,7 @@ published: true
     </thead>
     <tbody>
       <tr>
-        <td colspan="4" class="text-center text-muted">Loading...</td>
+        <td colspan="5" class="text-center text-muted">Loading...</td>
       </tr>
     </tbody>
   </table>
