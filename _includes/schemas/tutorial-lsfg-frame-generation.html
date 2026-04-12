@@ -1,0 +1,14 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Enable LSFG Frame Generation",
+  "description": "Step-by-step guide to enable LSFG-VK (Lossless Scaling Frame Generation) in Junk Store on Steam Deck. No manual launch arguments needed.",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "text": "Want to boost your frame rates with LSFG-VK (Lossless Scaling Frame Generation)? Junk Store has it built in with simple toggles. No manual launch arguments needed. > **Prerequisites:** You need **Lossless Scaling** from Steam (paid) and the **lsfg-vk** dependency installed. > **Note:** LSFG doesn't work with all games and may actually make some games perform worse. Your mileage may vary. --- ## Requirements Before you start, you'll need two things: ### 1. Lossless Scaling (Steam) Purchase and install **Lossless Scaling** from Steam. Once installed: - Right-click the app in Steam - Select **Properties** - Go to **Betas** - Select **Linux Beta** from the dropdown ### 2. Install lsfg-vk Run this command in Desktop Mode (Konsole): curl -fsSL https://raw.githubusercontent.com/ebenbruyns/lsfg-vk-deck-installer/refs/heads/main/install.sh | bash Once installed, Junk Store will automatically detect and use it. > **Pro Tip:** You don't need the separate Decky LSFG-VK plugin if you're using Junk Store. Our built-in integration handles everything. --- ## How to Enable LSFG in Junk Store ### Step 1: Open Settings Menu From the game page in Junk Store, click the **Settings** menu (cog icon). --- ### Step 2: Select Proton Configs Select **Proton Configs** from the menu. --- ### Step 3: Show All Options Set the dropdown to **All** to reveal advanced options. --- ### Step 4: Enable LSFG Find the **LSFG** section and enable LSFG-VK. Tweak the settings if needed. > **Important:** Both LSFG settings need to say **Enable** for LSFG-VK to work. --- ### Step 5: Save Changes **Important:** Press **X** to save your changes! --- ## Troubleshooting - **LSFG not working?** Try a different Proton version. Some games work better with specific GE-Proton releases. - **Settings not saving?** Make sure you press X to save before exiting. --- ## Need More Help? If you run into trouble, check out: - **Universal:** FAQ Section for common questions - **Universal:** Troubleshooting Guide for technical issues Still stuck? Ask for help: Discord Reddit .community-btn { display: inline-flex; align-items: center; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-weight: 600; font-size: 13px; transition: all 0.2s ease; border: 2px solid transparent; margin-left: 8px; color: white; } .discord-btn { background: #5865f2; color: white !important; } .reddit-btn { background: #ff4500; color: white !important; } .community-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); text-decoration: none; color: white; opacity: 0.9; }"
+    }
+  ]
+}
+</script>
