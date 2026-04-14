@@ -140,6 +140,37 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
   color: #ccc;
 }
 
+/* Game blurb - editorial placeholder for manual editing */
+.layout--single .game-blurb,
+.layout--blog .game-blurb,
+.layout--post .game-blurb {
+  color: #e0e0e0;
+  font-size: $type-size-body-large;
+  line-height: 1.5;
+  margin: 0.5rem 0;
+  font-style: italic;
+}
+
+/* View details link for game entries */
+.layout--single .view-details,
+.layout--blog .view-details,
+.layout--post .view-details {
+  display: inline-block;
+  color: $junkstore-primary;
+  font-size: $type-size-body-small;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  transition: color 0.2s ease;
+}
+
+.layout--single .view-details:hover,
+.layout--blog .view-details:hover,
+.layout--post .view-details:hover {
+  color: #5aa3e6;
+  text-decoration: underline;
+}
+
 /* Blog post blockquotes */
 .layout--single .page__content blockquote,
 .layout--blog .page__content blockquote,
