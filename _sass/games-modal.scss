@@ -127,6 +127,16 @@
     color: white;
 }
 
+/* ProtonDB with report submitted - add checkmark styling */
+.external-link.protondb.reported {
+    background: linear-gradient(135deg, #00c853 0%, #009624 100%);
+
+    .fa-check-circle {
+        margin-left: 4px;
+        color: #b9f6ca;
+    }
+}
+
 /* PCGamingWiki - Blue */
 .external-link.pcgaming {
     background: linear-gradient(135deg, #3366cc 0%, #2952a3 100%);

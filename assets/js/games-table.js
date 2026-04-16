@@ -1202,9 +1202,9 @@ function renderTestingDetailsBootstrap(game) {
             <div class="config-item config-item-links">
               <span class="info-label">External Links</span>
               <div class="external-links">
-                ${game.protondb ? `
-                  <a href="${game.protondb}" target="_blank" rel="noopener noreferrer" class="external-link protondb">
-                    <i class="fas fa-atom"></i> ProtonDB
+                ${game.protondb || game.protondb_report_url ? `
+                  <a href="${game.protondb_report_url || game.protondb}" target="_blank" rel="noopener noreferrer" class="external-link protondb${game.protondb_report_url ? ' reported' : ''}">
+                    <i class="fas fa-atom"></i> ProtonDB${game.protondb_report_url ? ' <i class="fas fa-check-circle" title="We submitted a report"></i>' : ''}
                   </a>
                 ` : ''}
                 ${game.pc_gaming_wiki_url ? `
