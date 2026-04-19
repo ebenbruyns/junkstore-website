@@ -1,0 +1,64 @@
+---
+layout: game-page
+title: "Thief II: The Metal Age - Steam Deck Compatibility"
+game_title: "Thief II: The Metal Age"
+slug: "thief-ii-the-metal-age"
+storefront: "GOG"
+storefront_key: "gog"
+permalink: /games/gog/thief-ii-the-metal-age/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "green"
+date_tested: "May '25"
+proton_version: ""
+
+# Game Info
+publisher: Square Enix, Eidos Interactive, Eidos Montréal
+developer: Looking Glass Studios
+genre: Adventure, Shooter, Simulator
+release_date: "March 21, 2000"
+game_modes: ["Single player"]
+languages: ["English"]
+
+# Images
+banner_image: "https://images.gog.com/c5f3a16f83ccec201b506cc5261a3d36f3b5f6f274785ad7850b68cd4c1cfaac.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/5cb91ca20bf25bd1f1aa1e6982d27207ce931f1f73895e2243e298371688f4ab.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/2230e78e9a25221d729db2607644704a1891e924324332375c1e43a03fa3462a.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "requires-mapping"
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://www.gog.com/en/game/thief_2_the_metal_age"
+protondb_url: "https://www.protondb.com/app/211740"
+pcgamingwiki_url: ""
+
+# Notes
+notes: "Works out of the box!"
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "1207659001"
+is_featured: false
+---
+
+The ultimate thief is back! Tread softly as you make your way through 15 new complex, non-linear levels full of loot to steal and guards to outsmart. Improved enemy AI, new gadgets and a riveting story will draw you into the world of Thief II: The Metal Age, a place of powerful new technologies, fanatical religions and corruption.

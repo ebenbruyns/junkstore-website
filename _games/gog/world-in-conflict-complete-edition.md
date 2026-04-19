@@ -1,0 +1,64 @@
+---
+layout: game-page
+title: "World in Conflict: Complete Edition - Steam Deck Compatibility"
+game_title: "World in Conflict: Complete Edition"
+slug: "world-in-conflict-complete-edition"
+storefront: "GOG"
+storefront_key: "gog"
+permalink: /games/gog/world-in-conflict-complete-edition/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "unknown"
+date_tested: "May '25"
+proton_version: ""
+
+# Game Info
+publisher: Sierra Entertainment
+developer: Massive Entertainment
+genre: strategy
+release_date: ""
+game_modes: ["Single player","Multiplayer"]
+languages: ["English","French","German","Italian","Spanish"]
+
+# Images
+banner_image: "https://images.gog.com/a13286653aca5db4ba3360eb84ce99f409b61804b1fddb13611d6edb83452e78.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/1fbc687346c2ff17d809cc797bd4eaa30befadcd44f6d960329a2b6883a5271f.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/1fbc687346c2ff17d809cc797bd4eaa30befadcd44f6d960329a2b6883a5271f.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "keyboard-mouse"
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://www.gog.com/en/game/world_in_conflict_complete_edition"
+protondb_url: ""
+pcgamingwiki_url: ""
+
+# Notes
+notes: Works out of the box on the Decky plugin version.
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "1438332414"
+is_featured: false
+---
+
+World in Conflict focuses on real-time tactics (RTT) gameplay, in a similar manner to Ground Control, a game developed by Massive Entertainment...

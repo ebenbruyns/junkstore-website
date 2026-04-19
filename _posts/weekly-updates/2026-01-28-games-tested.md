@@ -44,7 +44,7 @@ A few quick updates before we dive into the games:
 
 Let's get to it, here's this week's findings...
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 > **💡 Tip:** Click any game title below to view full compatibility details, testing notes, and system requirements in our games database!
 
@@ -55,7 +55,7 @@ This week featuring Rustler (Grand Theft Horse).
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/844260/library_600x900.jpg" alt="Rustler (Grand Theft Horse)" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Rustler%20(Grand%20Theft%20Horse)">Rustler (Grand Theft Horse)</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Rustler%20(Grand%20Theft%20Horse)">Rustler (Grand Theft Horse)</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Become a medieval thug in a crazy open-world action game, full of pop-culture references.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -71,7 +71,7 @@ This week featuring Harold Halibut.
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/924750/library_600x900.jpg" alt="Harold Halibut" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Harold%20Halibut">Harold Halibut</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Harold%20Halibut">Harold Halibut</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Harold Halibut is a handmade narrative game about friendship and life on a city-sized spaceship submerged in an alien oc...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -87,7 +87,7 @@ This week highlighting Cyberpunk 2077, Arknights: Endfield.
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1091500/library_600x900.jpg" alt="Cyberpunk 2077" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Cyberpunk%202077">Cyberpunk 2077</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Cyberpunk%202077">Cyberpunk 2077</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -99,7 +99,7 @@ This week highlighting Cyberpunk 2077, Arknights: Endfield.
 <div class="game-entry">
   <img loading="lazy" src="https://cdn2.steamgriddb.com/thumb/83d54de90c45accd18b3eb06e959f4c8.jpg" alt="Arknights: Endfield" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Arknights%3A%20Endfield">Arknights: Endfield</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Arknights%3A%20Endfield">Arknights: Endfield</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Arknights: Endfield is a 3D real-time strategy RPG developed by HYPERGRYPH.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -115,7 +115,7 @@ Catching up on Lords of Midnight.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/708580ed8418ada64ea16e4f223cbdc9c86abb510ac2e1fd992a9fe25b24c4d7.jpg?namespace=gamesdb" alt="Lords of Midnight" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Lords%20of%20Midnight">Lords of Midnight</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Lords%20of%20Midnight">Lords of Midnight</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Mike Singleton's '84 classic Adventure Strategy game, brought to and updated for Windows.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: ❌ Doesn't work</div>
@@ -131,7 +131,7 @@ Updated compatibility for Ancient Enemy, Arcade Paradise.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/160a8b89ce30e123bb2022a8f54983a73a02f728fc0a85c3b9ff661eb9fc527f.jpg?namespace=gamesdb" alt="Ancient Enemy" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Ancient%20Enemy">Ancient Enemy</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Ancient%20Enemy">Ancient Enemy</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Ancient Enemy is an RPG card battler set in a crumbling world where the forces of evil have already won.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -143,7 +143,7 @@ Updated compatibility for Ancient Enemy, Arcade Paradise.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/988294590b4a4f80c1cd747ba8e5bc613fb3b4855fa102c6a000d16de03b5aee.jpg?namespace=gamesdb" alt="Arcade Paradise" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Arcade%20Paradise">Arcade Paradise</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Arcade%20Paradise">Arcade Paradise</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Welcome to Arcade Paradise, the 90’s retro arcade adventure game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>

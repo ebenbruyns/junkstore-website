@@ -1,0 +1,64 @@
+---
+layout: game-page
+title: "Star Stuff - Steam Deck Compatibility"
+game_title: "Star Stuff"
+slug: "star-stuff"
+storefront: "Epic"
+storefront_key: "epic"
+permalink: /games/epic/star-stuff/
+
+# Compatibility
+decky_rating: "Perfect"
+standalone_rating: "Perfect"
+date_tested: "Jan '25"
+proton_version: ""
+
+# Game Info
+publisher: Astra Logical
+developer: Ánimo Games Studio
+genre: Adventure, Strategy, Indie, Puzzle
+release_date: "June 7, 2024"
+game_modes: ["Single player"]
+languages: ["English"]
+
+# Images
+banner_image: "https://images.gog.com/cc0abf3784598a9214785a3afb8ef0a461adc51ce63fe5083d6ab3bedfec3970.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/859a41cb4c414518865fc2e07d10cb3ce4db4988ced011204ba90d68adab5573.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/0ea35cee69fa93abbc99c5f15eda0ac508632e4dd33066fd71ebdbcfe3c1991e.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: ""
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://store.epicgames.com/en-US/p/star-stuff"
+protondb_url: "https://www.protondb.com/app/1955110"
+pcgamingwiki_url: ""
+
+# Notes
+notes: "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."
+controller_config: Native Steam Deck Controls
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "c331118f7ded4050ba0a1182677e3b97"
+is_featured: false
+---
+
+Star Stuff is a puzzle automation game that mixes bot programming with real time shenanigans. Play as Mija (me-ha), a cosmic employee on their first day at a star factory. Automate bots, interact in real time with bot actions to solve mind-bending puzzles, and save the ever-expanding universe while you're at it!

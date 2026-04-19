@@ -1,0 +1,508 @@
+---
+layout: null
+title: "Genshin Impact - Steam Deck Compatibility | Junk Store"
+permalink: /mockups/genshin-impact/
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genshin Impact - Steam Deck Compatibility | Junk Store</title>
+  <meta name="description" content="Play Genshin Impact on Steam Deck with Junk Store. Compatibility tested, setup notes, and Proton tips for Epic Games version.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      line-height: 1.6;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      height: 400px;
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: brightness(0.4);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-bottom: 40px;
+    }
+
+    .breadcrumb {
+      font-size: 14px;
+      color: #8b949e;
+      margin-bottom: 16px;
+    }
+
+    .breadcrumb a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    .hero-title {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      text-shadow: 0 2px 20px rgba(0,0,0,0.5);
+    }
+
+    .hero-meta {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .store-badge {
+      background: #238636;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .store-badge.epic {
+      background: #444;
+    }
+
+    .hero-detail {
+      color: #8b949e;
+      font-size: 14px;
+    }
+
+    /* Main Content */
+    .main-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 24px;
+      display: grid;
+      grid-template-columns: 1fr 360px;
+      gap: 40px;
+    }
+
+    @media (max-width: 900px) {
+      .main-content {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Compatibility Card */
+    .compat-card {
+      background: linear-gradient(135deg, #1a2332 0%, #161b22 100%);
+      border: 1px solid #30363d;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+
+    .compat-card h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      color: #fff;
+    }
+
+    .compat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .compat-item {
+      background: #0d1117;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .compat-label {
+      font-size: 13px;
+      color: #8b949e;
+      margin-bottom: 8px;
+    }
+
+    .compat-status {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    .compat-text {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .compat-text.yellow {
+      color: #d29922;
+    }
+
+    .compat-text.green {
+      color: #3fb950;
+    }
+
+    .compat-text.red {
+      color: #f85149;
+    }
+
+    /* Info Sections */
+    .info-section {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+
+    .info-section h2 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .info-section h2 .icon {
+      font-size: 20px;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .info-item {
+      padding: 12px 0;
+      border-bottom: 1px solid #21262d;
+    }
+
+    .info-item:last-child,
+    .info-item:nth-last-child(2) {
+      border-bottom: none;
+    }
+
+    .info-label {
+      font-size: 12px;
+      color: #8b949e;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .info-value {
+      font-size: 15px;
+      color: #e6edf3;
+    }
+
+    /* Notes Section */
+    .notes-box {
+      background: #1c1f26;
+      border-left: 4px solid #d29922;
+      border-radius: 0 12px 12px 0;
+      padding: 20px 24px;
+      margin-top: 16px;
+    }
+
+    .notes-box h3 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #d29922;
+      margin-bottom: 8px;
+    }
+
+    .notes-box p {
+      font-size: 14px;
+      color: #c9d1d9;
+      line-height: 1.7;
+    }
+
+    /* Description */
+    .description {
+      font-size: 15px;
+      color: #8b949e;
+      line-height: 1.8;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .sidebar-card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 16px;
+      padding: 24px;
+    }
+
+    .sidebar-card h3 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #8b949e;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 16px;
+    }
+
+    .game-cover {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    /* CTA */
+    .cta-box {
+      background: linear-gradient(135deg, #1a3a5c 0%, #0d2137 100%);
+      border: 1px solid #1f4a6e;
+      border-radius: 16px;
+      padding: 28px;
+      text-align: center;
+    }
+
+    .cta-box h3 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 12px;
+    }
+
+    .cta-box p {
+      font-size: 14px;
+      color: #8b949e;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background: #238636;
+      color: white;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      transition: all 0.2s;
+    }
+
+    .cta-button:hover {
+      background: #2ea043;
+      transform: translateY(-2px);
+    }
+
+    /* Links */
+    .link-list {
+      list-style: none;
+    }
+
+    .link-list li {
+      margin-bottom: 12px;
+    }
+
+    .link-list a {
+      color: #58a6ff;
+      text-decoration: none;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .link-list a:hover {
+      text-decoration: underline;
+    }
+
+    /* Tags */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      background: #21262d;
+      color: #8b949e;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+    }
+
+    /* Back link */
+    .back-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px 60px;
+    }
+
+    .back-link {
+      color: #58a6ff;
+      text-decoration: none;
+      font-size: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Hero -->
+<div class="hero">
+  <img src="https://images.gog.com/2ac58c2b95e848060bfb5d94b62c8a392d18f9a1083702c502e37c771b2a7201.jpg?namespace=gamesdb" alt="Genshin Impact" class="hero-bg">
+  <div class="hero-content">
+    <div class="breadcrumb">
+      <a href="/games/tested/">Game Database</a> / Epic Games
+    </div>
+    <h1 class="hero-title">Genshin Impact</h1>
+    <div class="hero-meta">
+      <span class="store-badge epic">Epic Games</span>
+      <span class="hero-detail">miHoYo, HoYoverse</span>
+      <span class="hero-detail">•</span>
+      <span class="hero-detail">Tested July 2025</span>
+    </div>
+  </div>
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+  <div class="content-left">
+
+    <!-- Compatibility -->
+    <div class="compat-card">
+      <h2>Steam Deck Compatibility</h2>
+      <div class="compat-grid">
+        <div class="compat-item">
+          <div class="compat-label">Decky Plugin</div>
+          <div class="compat-status">🟡</div>
+          <div class="compat-text yellow">Some Setup Required</div>
+        </div>
+        <div class="compat-item">
+          <div class="compat-label">Junk Store Pro</div>
+          <div class="compat-status">🟡</div>
+          <div class="compat-text yellow">Some Setup Required</div>
+        </div>
+      </div>
+
+      <div class="notes-box">
+        <h3>Setup Notes</h3>
+        <p>Requires HoyoPlay launcher and HoyoPlay Account setup. Native controller support available. You need to set the exe manually.</p>
+      </div>
+    </div>
+
+    <!-- Technical Details -->
+    <div class="info-section">
+      <h2><span class="icon">⚙️</span> Technical Details</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="info-label">Controller Support</div>
+          <div class="info-value">Native</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Required Launcher</div>
+          <div class="info-value">HoyoPlay</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Account Required</div>
+          <div class="info-value">Yes (HoyoPlay)</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Anti-Cheat</div>
+          <div class="info-value">None required</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="info-section">
+      <h2><span class="icon">📖</span> About This Game</h2>
+      <p class="description">Genshin Impact is an open-world action RPG, where you embark on a journey across Teyvat to find your lost sibling and seek answers from The Seven, the gods of each element. Explore this wondrous world, join forces with a diverse range of characters, and unravel the countless mysteries that Teyvat holds...</p>
+    </div>
+
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+
+    <div class="sidebar-card">
+      <img src="https://images.gog.com/b89bfab3457391749dde48eb6957d1b3e5ee08252ae652ceea50e88586204c5a.jpg?namespace=gamesdb" alt="Genshin Impact Cover" class="game-cover">
+
+      <h3>Game Info</h3>
+      <div class="info-item">
+        <div class="info-label">Genre</div>
+        <div class="info-value">RPG, Adventure</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Release Date</div>
+        <div class="info-value">September 28, 2020</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Game Modes</div>
+        <div class="info-value">Single player, Co-op, Multiplayer</div>
+      </div>
+    </div>
+
+    <div class="sidebar-card">
+      <h3>Links</h3>
+      <ul class="link-list">
+        <li><a href="https://store.epicgames.com/en-US/p/genshin-impact">→ View on Epic Games Store</a></li>
+        <li><a href="https://www.pcgamingwiki.com/wiki/Genshin_Impact">→ PC Gaming Wiki</a></li>
+      </ul>
+    </div>
+
+    <div class="cta-box">
+      <h3>Play with Junk Store</h3>
+      <p>Install and launch Epic games directly in Steam Deck's Game Mode.</p>
+      <a href="/portal-redirect/" class="cta-button">Try Free for 7 Days</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Back -->
+<div class="back-section">
+  <a href="/games/tested/" class="back-link">← Back to Game Database</a>
+</div>
+
+</body>
+</html>

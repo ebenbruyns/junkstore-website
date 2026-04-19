@@ -1,0 +1,64 @@
+---
+layout: game-page
+title: "A Light Long Gone - Steam Deck Compatibility"
+game_title: "A Light Long Gone"
+slug: "a-light-long-gone"
+storefront: "itch.io"
+storefront_key: "itch"
+permalink: /games/itch/a-light-long-gone/
+
+# Compatibility
+decky_rating: "not-supported"
+standalone_rating: "green"
+date_tested: "Dec '25"
+proton_version: ""
+
+# Game Info
+publisher: muddasheep
+developer: muddasheep
+genre: Music
+release_date: ""
+game_modes: ["Single player"]
+languages: ["English"]
+
+# Images
+banner_image: ""
+cover_image: "https://images.gog.com/cf27debc1d6e4c34b814a962b08ead2422befe881af6b86cfe8c78e0ed0eb95c.jpg?namespace=gamesdb"
+icon_image: ""
+
+# Technical Details
+controller_input: "mouse-only"
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://muddasheep.itch.io/a-light-long-gone"
+protondb_url: ""
+pcgamingwiki_url: ""
+
+# Notes
+notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "645160"
+is_featured: false
+---
+
+Interactive music album release.

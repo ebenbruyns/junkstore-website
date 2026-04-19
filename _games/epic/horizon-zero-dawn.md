@@ -1,0 +1,64 @@
+---
+layout: game-page
+title: "Horizon Zero Dawn - Steam Deck Compatibility"
+game_title: "Horizon Zero Dawn"
+slug: "horizon-zero-dawn"
+storefront: "Epic"
+storefront_key: "epic"
+permalink: /games/epic/horizon-zero-dawn/
+
+# Compatibility
+decky_rating: "yellow"
+standalone_rating: "unknown"
+date_tested: "Aug '24"
+proton_version: ""
+
+# Game Info
+publisher: Sony Interactive Entertainment
+developer: Guerrilla Games
+genre: Role-playing (RPG), Adventure, Shooter
+release_date: ""
+game_modes: []
+languages: []
+
+# Images
+banner_image: "https://images.gog.com/9c8daac10e9bd131c330d26f3509c4c9bfb0b425d9298203aaa36a5acf1ee846.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/de7ae011caa64c7de49710c9cc378bc65ede644a83e3f75af0c852c6d3ed94cf.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/16c3b731536c7aeb61749001e3b3e6e6c44e77c4bb1da330d984d2a95bd348b3.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "native"
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://store.epicgames.com/en-US/p/horizon-zero-dawn"
+protondb_url: "https://www.protondb.com/app/2561580"
+pcgamingwiki_url: ""
+
+# Notes
+notes: "Native controller support. **Decky Plugin: Some tinkering required**. Install C++ Runtime Dependency"
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "1151640"
+is_featured: false
+---
+
+Welcome to a vibrant world rich with the beauty of nature – but inhabited by awe-inspiring, highly advanced machines.

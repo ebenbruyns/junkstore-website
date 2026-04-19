@@ -1,0 +1,68 @@
+---
+layout: game-page
+title: "Warhammer 40,000: Gladius - Relics of War - Steam Deck Compatibility"
+game_title: "Warhammer 40,000: Gladius - Relics of War"
+slug: "warhammer-40000-gladius-relics-of-war"
+storefront: "Epic"
+storefront_key: "epic"
+permalink: /games/epic/warhammer-40000-gladius-relics-of-war/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "green"
+date_tested: "April '25"
+proton_version: ""
+
+# Game Info
+publisher: Slitherine Ltd.
+developer: Proxy Studios
+genre: Strategy
+release_date: "July 12, 2018"
+game_modes: ["Single player","Co-operative","Multiplayer"]
+languages: ["English"]
+
+# Images
+banner_image: "https://images.gog.com/6b9d27761210c58edbb34b740941443813805b591fa51342f26fd73d1832c99c.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/38728a6e8d6c8aedb136763e6fad95de857b811e3fe2f3bd802d2e3067b0d7dc.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/1ff1bbb70da794dbafbbdd1b5e30e107085a46260ebabac5e6335a8040e015f0.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "mouse-only"
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://store.epicgames.com/en-US/p/warhammer-40-000-gladius-relics-of-war"
+protondb_url: "https://www.protondb.com/app/489630"
+pcgamingwiki_url: ""
+
+# Notes
+notes: "Works out of the box!"
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "da5b18cb1e7a452196c3142f2c1d7dd3"
+is_featured: false
+---
+
+Warhammer 40,000: Gladius - Relics of War brings you to a world of terror and violence. Four factions will engage in a brutal war for dominance over the planet's resources.
+
+In the first 4X turn-based strategy game set in Warhammer 40,000 you will lead one of four factions: Astra Militarum, Space Marines, Orks and Necrons, each with their own unique gameplay, technological tree, units and heroes.
+
+Face a challenging AI or cooperate or compete with friends and strangers across the globe.

@@ -47,7 +47,7 @@ A few quick updates before we dive into the games:
 
 Let's get to it, here's this week's findings...
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 > **💡 Tip:** Click any game title below to view full compatibility details, testing notes, and system requirements in our games database!
 
@@ -58,7 +58,7 @@ This week featuring Nobody Wants to Die, The Darkside Detective: A Fumble in the
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1939970/library_600x900.jpg" alt="Nobody Wants to Die" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Nobody%20Wants%20to%20Die">Nobody Wants to Die</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Nobody%20Wants%20to%20Die">Nobody Wants to Die</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Lose yourself in the dystopian world of New York, 2329; immortality comes at a price that someone has to pay.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -70,7 +70,7 @@ This week featuring Nobody Wants to Die, The Darkside Detective: A Fumble in the
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/795420/library_600x900.jpg" alt="The Darkside Detective: A Fumble in the Dark" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=The%20Darkside%20Detective%3A%20A%20Fumble%20in%20the%20Dark">The Darkside Detective: A Fumble in the Dark</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=The%20Darkside%20Detective%3A%20A%20Fumble%20in%20the%20Dark">The Darkside Detective: A Fumble in the Dark</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Delouse your room with sage and pack up your travel-sized ouija board, it's time to re-enter Twin Lakes - America's 34th most haunted city.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -86,7 +86,7 @@ This week featuring Hexguardian.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2381740/library_600x900.jpg" alt="Hexguardian" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Hexguardian">Hexguardian</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Hexguardian">Hexguardian</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -102,7 +102,7 @@ Catching up on Golden Light, Skybound: Only Up, JDM: Rise of the Scorpion, Lorel
 <div class="game-entry">
   <img src="https://images.gog.com/d68628682068d7873e83237f12e25aaaecac8a737da8e7acffb6bd5578facff8.jpg?namespace=gamesdb" alt="Golden Light" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Golden%20Light">Golden Light</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Golden%20Light">Golden Light</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Golden Light is a first-person survival horror with rogue-like elements and an eerie atmosphere.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -114,7 +114,7 @@ Catching up on Golden Light, Skybound: Only Up, JDM: Rise of the Scorpion, Lorel
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/b31041ff2f934d19954ee76213cf8266/astralium-2scci.png" alt="Skybound: Only Up" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Skybound%3A%20Only%20Up">Skybound: Only Up</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Skybound%3A%20Only%20Up">Skybound: Only Up</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Get ready for an epic VR adventure.  Jump, climb, and conquer towering obstacles in a world of thrilling challenges.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -126,7 +126,7 @@ Catching up on Golden Light, Skybound: Only Up, JDM: Rise of the Scorpion, Lorel
 <div class="game-entry">
   <img src="https://images.gog.com/d33bb05d9daa82ec8fdec6bd290b8beed181a6fb20f29359954562f79670eeb8.jpg?namespace=gamesdb" alt="JDM: Rise of the Scorpion" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=JDM%3A%20Rise%20of%20the%20Scorpion">JDM: Rise of the Scorpion</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=JDM%3A%20Rise%20of%20the%20Scorpion">JDM: Rise of the Scorpion</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Discover the beginning of the story of the titular "Scorpion" through a story guided by manga panels.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -138,7 +138,7 @@ Catching up on Golden Light, Skybound: Only Up, JDM: Rise of the Scorpion, Lorel
 <div class="game-entry">
   <img src="https://images.gog.com/654b36507052f660e031ee9977dbc099f4a883ac7965eca1fa96037633eb9e1f.jpg?namespace=gamesdb" alt="Lorelai" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Lorelai">Lorelai</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Lorelai">Lorelai</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Lorelai, a brand new emotional horror ride from the maker of The Cat Lady and Downfall, tells a coming of age story of a young girl trying to escape the hell of her toxic family home. But adulthood is like waking up from a long dream.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -154,7 +154,7 @@ Updated compatibility for Endless Sky, Eschalon: Book I.
 <div class="game-entry">
   <img src="https://images.gog.com/b847f182016a6127e4391121cf9d97c4c9965da76c720821459fa28e56861438.jpg?namespace=gamesdb" alt="Endless Sky" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Endless%20Sky">Endless Sky</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Endless%20Sky">Endless Sky</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Endless Sky is an open source 2D space trading and combat game inspired by the classic Escape Velocity series.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -166,7 +166,7 @@ Updated compatibility for Endless Sky, Eschalon: Book I.
 <div class="game-entry">
   <img src="https://images.gog.com/855723aa2e49504b7883c0c3384cf0cbb4575b29d8e8c787d6474876f19327b8.jpg?namespace=gamesdb" alt="Eschalon: Book I" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Eschalon%3A%20Book%20I">Eschalon: Book I</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Eschalon%3A%20Book%20I">Eschalon: Book I</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Classic turn-based role-playing game, played with one customizable character.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>

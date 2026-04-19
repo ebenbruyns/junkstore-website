@@ -195,7 +195,7 @@ permalink: /help/
 <hr class="my-4">
 
 <div class="resources-row">
-  <a href="/tested-games/" class="resource-card">
+  <a href="/games/tested/" class="resource-card">
     <span class="resource-icon">🎮</span>
     <span class="resource-text"><strong><span data-games-count>900</span>+ Games Tested</strong></span>
   </a>

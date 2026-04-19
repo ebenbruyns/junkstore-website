@@ -1,0 +1,34 @@
+<!-- Community Reports Section -->
+<section class="games-hub-section">
+  <div class="games-hub-section__header">
+    <h2>Community Reports</h2>
+  </div>
+
+  <p class="games-hub-section__intro">
+    Help fellow Steam Deck users by sharing your game compatibility findings. <a href="https://forms.gle/YOUR_FORM_ID_HERE" target="_blank" rel="noopener" class="games-hub-section__link">Submit a report →</a>
+  </p>
+
+  <!-- Recent Reports Preview (shown when data exists) -->
+  {% assign reports = site.data.community-reports | limit: 3 %}
+  {% if reports.size > 0 %}
+  <div class="recent-reports">
+    <h3 class="recent-reports__title">Recent Reports</h3>
+    {% for report in reports %}
+    <div class="report-preview">
+      <blockquote class="report-preview__quote">"{{ report.quote }}"</blockquote>
+      <div class="report-preview__meta">
+        <span class="report-preview__rating">
+          {% for i in (1..5) %}{% if i <= report.rating %}★{% else %}☆{% endif %}{% endfor %}
+        </span>
+        <span>by {{ report.author }} • {{ report.date }}</span>
+      </div>
+      {% if report.game %}
+      <a href="/games/{{ report.store }}/{{ report.game_slug }}/" class="report-preview__game">
+        {{ report.game }} ({{ report.store | capitalize }})
+      </a>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+</section>

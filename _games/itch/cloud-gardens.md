@@ -1,0 +1,66 @@
+---
+layout: game-page
+title: "Cloud Gardens - Steam Deck Compatibility"
+game_title: "Cloud Gardens"
+slug: "cloud-gardens"
+storefront: "itch.io"
+storefront_key: "itch"
+permalink: /games/itch/cloud-gardens/
+
+# Compatibility
+decky_rating: "not-supported"
+standalone_rating: "green"
+date_tested: "Oct '25"
+proton_version: ""
+
+# Game Info
+publisher: Noio
+developer: Noio
+genre: Strategy, Indie, Puzzle, Simulator
+release_date: ""
+game_modes: ["Single player"]
+languages: ["English"]
+
+# Images
+banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1372320/library_hero.jpg"
+cover_image: "https://images.gog.com/5746e1e4b29716cce704ea03f7756d76135866652deae21ccd37fedc542cc73a.jpg?namespace=gamesdb"
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1372320/capsule_231x87.jpg"
+
+# Technical Details
+controller_input: "native"
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://noio.itch.io/cloud-gardens"
+protondb_url: "https://www.protondb.com/app/1372320"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cloud_Gardens"
+
+# Notes
+notes: "Works out of the box!"
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "381236"
+is_featured: false
+---
+
+A chill game about using plants to overgrow abandoned wasteland dioramas.
+
+In Cloud Gardens players must harness the power of nature to overgrow lo-fi scenes of urban decay and manufactured landscapes. By planting seeds in the right places, they’re able to create small overgrown dioramas of brutalism and beauty, salvaging and repurposing hundreds of discarded objects to create unique structures for nature to reclaim.

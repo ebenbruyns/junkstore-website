@@ -4,8 +4,8 @@ main:
     url: /features/
   - title: "Support"
     url: /help/
-  - title: "Tested Games"
-    url: /tested-games/
+  - title: "Games"
+    url: /games/
   - title: "News"
     url: /blog/
   - title: "About"

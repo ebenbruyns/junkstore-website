@@ -36,7 +36,7 @@ difficulty: "Intermediate"
 </ul>
 
 <div class="js-callout js-callout--tip">
-<strong>Pro Tip:</strong> Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB.com</a> or our <a href="/tested-games/">Games Tested</a> page to see what works best for your specific game.
+<strong>Pro Tip:</strong> Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB.com</a> or our <a href="/games/tested/">Games Tested</a> page to see what works best for your specific game.
 </div>
 
 <hr>
@@ -161,7 +161,7 @@ difficulty: "Intermediate"
 <ul>
 <li><strong>Game still won't work?</strong> Try a different GE-Proton version</li>
 <li><strong>Need more versions?</strong> Use Wine Cellar to download additional options</li>
-<li><strong>Unsure which version to use?</strong> Check our <a href="/tested-games/">compatibility database</a></li>
+<li><strong>Unsure which version to use?</strong> Check our <a href="/games/tested/">compatibility database</a></li>
 </ul>
 
 <hr>

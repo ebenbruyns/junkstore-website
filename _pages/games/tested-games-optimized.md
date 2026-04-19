@@ -2,7 +2,7 @@
 layout: junkstore-page
 title: "Junk Store Game Compatibility"
 description: "900+ games tested on Steam Deck. Search our compatibility database for Epic, GOG, Amazon & itch games - working status, setup notes, and Proton tips."
-permalink: /tested-games/
+permalink: /games/tested/
 image: /assets/images/blog/features/games-table/games-table-hero-card.webp
 ---
 

@@ -1,0 +1,266 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.game_title }} - Steam Deck Compatibility | Junk Store</title>
+  <meta name="description" content="Play {{ page.game_title }} on Steam Deck with Junk Store. Compatibility tested, setup notes, and Proton tips for {{ page.storefront }} version.">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.game_title }} - Steam Deck Compatibility">
+  <meta property="og:description" content="Play {{ page.game_title }} on Steam Deck with Junk Store. Compatibility: {{ page.standalone_rating | default: 'Unknown' }}">
+  <meta property="og:image" content="{{ page.banner_image }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.game_title }} - Steam Deck Compatibility">
+  <meta name="twitter:description" content="Play {{ page.game_title }} on Steam Deck with Junk Store.">
+  <meta name="twitter:image" content="{{ page.banner_image }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    {% include game-page-styles.css %}
+  </style>
+
+  <!-- VideoGame Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "{{ page.game_title }}",
+    "description": "{{ content | strip_html | truncate: 200 | escape }}",
+    {% if page.cover_image %}"image": "{{ page.cover_image }}",{% endif %}
+    {% if page.genre %}"genre": "{{ page.genre }}",{% endif %}
+    {% if page.publisher %}"publisher": { "@type": "Organization", "name": "{{ page.publisher }}" },{% endif %}
+    {% if page.developer %}"author": { "@type": "Organization", "name": "{{ page.developer }}" },{% endif %}
+    {% if page.release_date %}"datePublished": "{{ page.release_date }}",{% endif %}
+    "gamePlatform": ["PC", "Steam Deck"],
+    "applicationCategory": "Game"
+  }
+  </script>
+</head>
+<body>
+
+<!-- Hero -->
+<div class="hero">
+  {% if page.banner_image %}
+  <img src="{{ page.banner_image }}" alt="{{ page.game_title }}" class="hero-bg">
+  {% endif %}
+  <div class="hero-content">
+    <div class="breadcrumb">
+      <a href="/">Home</a> / <a href="/games/tested/">Game Database</a> / {{ page.storefront }}
+    </div>
+    <h1 class="hero-title">{{ page.game_title }}</h1>
+    <div class="hero-meta">
+      <span class="store-badge {{ page.storefront_key }}">{{ page.storefront }}</span>
+      {% if page.publisher %}<span class="hero-detail">{{ page.publisher }}</span>{% endif %}
+      {% if page.date_tested %}
+      <span class="hero-detail">•</span>
+      <span class="hero-detail">Tested {{ page.date_tested }}</span>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+  <div class="content-left">
+
+    <!-- Compatibility -->
+    <div class="compat-card">
+      <h2>Steam Deck Compatibility</h2>
+      <div class="compat-grid">
+        <div class="compat-item">
+          <div class="compat-label">Decky Plugin</div>
+          <div class="compat-status">{% include game-page-status-icon.html rating=page.decky_rating %}</div>
+          <div class="compat-text {% include game-page-status-class.html rating=page.decky_rating %}">{% include game-page-status-text.html rating=page.decky_rating %}</div>
+        </div>
+        <div class="compat-item">
+          <div class="compat-label">Junk Store Pro</div>
+          <div class="compat-status">{% include game-page-status-icon.html rating=page.standalone_rating %}</div>
+          <div class="compat-text {% include game-page-status-class.html rating=page.standalone_rating %}">{% include game-page-status-text.html rating=page.standalone_rating %}</div>
+        </div>
+      </div>
+
+      {% if page.notes %}
+      <div class="notes-box">
+        <h3>Setup Notes</h3>
+        <p>{{ page.notes | markdownify | strip_html }}</p>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Technical Details -->
+    <div class="info-section">
+      <h2><span class="icon">⚙️</span> Technical Details</h2>
+      <div class="info-grid">
+        {% if page.controller_input %}
+        <div class="info-item">
+          <div class="info-label">Controller Support</div>
+          <div class="info-value">{% include game-page-controller-text.html input=page.controller_input %}</div>
+        </div>
+        {% endif %}
+        {% if page.required_launcher %}
+        <div class="info-item">
+          <div class="info-label">Required Launcher</div>
+          <div class="info-value">{{ page.required_launcher | capitalize }}</div>
+        </div>
+        {% endif %}
+        {% if page.requires_account_setup %}
+        <div class="info-item">
+          <div class="info-label">Account Required</div>
+          <div class="info-value">Yes{% if page.account_type %} ({{ page.account_type }}){% endif %}</div>
+        </div>
+        {% endif %}
+        {% if page.proton_version %}
+        <div class="info-item">
+          <div class="info-label">Proton Version</div>
+          <div class="info-value">{{ page.proton_version }}</div>
+        </div>
+        {% endif %}
+        <div class="info-item">
+          <div class="info-label">Anti-Cheat</div>
+          <div class="info-value">
+            {% if page.requires_eac_runtime %}EasyAntiCheat
+            {% elsif page.requires_battleye_runtime %}BattlEye
+            {% elsif page.cant_test_linux %}Requires Windows
+            {% else %}None required
+            {% endif %}
+          </div>
+        </div>
+        {% if page.must_be_online %}
+        <div class="info-item">
+          <div class="info-label">Online Requirement</div>
+          <div class="info-value">Always Online</div>
+        </div>
+        {% endif %}
+      </div>
+
+      {% if page.controller_config or page.performance_notes or page.known_issues %}
+      <div class="tech-notes">
+        {% if page.controller_config %}
+        <div class="tech-note">
+          <strong>Controller Config:</strong> {{ page.controller_config }}
+        </div>
+        {% endif %}
+        {% if page.performance_notes %}
+        <div class="tech-note">
+          <strong>Performance:</strong> {{ page.performance_notes }}
+        </div>
+        {% endif %}
+        {% if page.known_issues %}
+        <div class="tech-note">
+          <strong>Known Issues:</strong> {{ page.known_issues }}
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+
+    {% if page.storefront_key == 'epic' %}
+    <!-- Epic Features -->
+    <div class="info-section">
+      <h2><span class="icon">🎮</span> Epic Games Features</h2>
+      <div class="feature-grid">
+        <div class="feature-item {% if page.epic_achievements %}active{% endif %}">
+          <span class="feature-icon">{% if page.epic_achievements %}✓{% else %}✗{% endif %}</span>
+          Achievements
+        </div>
+        <div class="feature-item {% if page.epic_cloud_saves %}active{% endif %}">
+          <span class="feature-icon">{% if page.epic_cloud_saves %}✓{% else %}✗{% endif %}</span>
+          Cloud Saves
+        </div>
+        <div class="feature-item {% if page.epic_offline_mode %}active{% endif %}">
+          <span class="feature-icon">{% if page.epic_offline_mode %}✓{% else %}✗{% endif %}</span>
+          Offline Mode
+        </div>
+        <div class="feature-item {% if page.supports_eos %}active{% endif %}">
+          <span class="feature-icon">{% if page.supports_eos %}✓{% else %}✗{% endif %}</span>
+          Epic Online Services
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <!-- About -->
+    <div class="info-section">
+      <h2><span class="icon">📖</span> About This Game</h2>
+      <p class="description">{{ content }}</p>
+    </div>
+
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+
+    <div class="sidebar-card">
+      {% if page.cover_image %}
+      <img src="{{ page.cover_image }}" alt="{{ page.game_title }} Cover" class="game-cover">
+      {% endif %}
+
+      <h3>Game Info</h3>
+      {% if page.genre %}
+      <div class="info-item">
+        <div class="info-label">Genre</div>
+        <div class="info-value">{{ page.genre }}</div>
+      </div>
+      {% endif %}
+      {% if page.release_date %}
+      <div class="info-item">
+        <div class="info-label">Release Date</div>
+        <div class="info-value">{{ page.release_date }}</div>
+      </div>
+      {% endif %}
+      {% if page.game_modes.size > 0 %}
+      <div class="info-item">
+        <div class="info-label">Game Modes</div>
+        <div class="info-value">{{ page.game_modes | join: ", " }}</div>
+      </div>
+      {% endif %}
+      {% if page.languages.size > 0 %}
+      <div class="info-item">
+        <div class="info-label">Languages</div>
+        <div class="info-value">{{ page.languages | join: ", " }}</div>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="sidebar-card">
+      <h3>Links</h3>
+      <ul class="link-list">
+        {% if page.store_url %}
+        <li><a href="{{ page.store_url }}" target="_blank" rel="noopener">→ View on {{ page.storefront }} Store</a></li>
+        {% endif %}
+        {% if page.protondb_url %}
+        <li><a href="{{ page.protondb_url }}" target="_blank" rel="noopener">→ ProtonDB Reports</a></li>
+        {% endif %}
+        {% if page.pcgamingwiki_url %}
+        <li><a href="{{ page.pcgamingwiki_url }}" target="_blank" rel="noopener">→ PC Gaming Wiki</a></li>
+        {% endif %}
+      </ul>
+    </div>
+
+    <div class="cta-box">
+      <h3>Play with Junk Store</h3>
+      <p>Install and launch {{ page.storefront }} games directly in Steam Deck's Game Mode.</p>
+      <a href="/portal-redirect/" class="cta-button">Try Free for 7 Days</a>
+    </div>
+
+  </div>
+</div>
+
+<!-- Back -->
+<div class="back-section">
+  <a href="/games/tested/" class="back-link">← Back to Game Database</a>
+</div>
+
+</body>
+</html>

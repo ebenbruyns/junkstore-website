@@ -64,7 +64,7 @@ All dependency configurations are saved to your game's settings and persist betw
 </div>
 
 <div class="tip-callout">
-  <strong>💡 Pro Tip:</strong> Not sure which dependency is needed? Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> or our <a href="/tested-games/">tested games database</a> - we list required dependencies for each tested title so you can install them proactively.
+  <strong>💡 Pro Tip:</strong> Not sure which dependency is needed? Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> or our <a href="/games/tested/">tested games database</a> - we list required dependencies for each tested title so you can install them proactively.
 </div>
 
 <h2 style="text-align: left !important; margin-left: 0;">Next Week Preview</h2>

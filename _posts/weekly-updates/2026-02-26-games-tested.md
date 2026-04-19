@@ -43,7 +43,7 @@ A few quick updates before we dive into the games:
 
 Let's get to it, here's this week's findings...
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 > **💡 Tip:** Click any game title below to view full compatibility details, testing notes, and system requirements in our games database!
 
@@ -54,7 +54,7 @@ This week featuring Return to Ash, Stalcraft: X.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/3445830/library_600x900.jpg" alt="Return to Ash" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Return%20to%20Ash">Return to Ash</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Return%20to%20Ash">Return to Ash</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">The hospital was empty. Quiet, and brighter than usual... like waking up on a snow day. But I didn't feel cold. I didn't feel much of anything.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -66,7 +66,7 @@ This week featuring Return to Ash, Stalcraft: X.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1818450/library_600x900.jpg" alt="Stalcraft: X" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Stalcraft%3A%20X">Stalcraft: X</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Stalcraft%3A%20X">Stalcraft: X</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">STALCRAFT: X is the largest online game set in the open world of the Chernobyl Exclusion Zone.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -82,7 +82,7 @@ This week featuring Ambition: A Minuet in Power, Captain Blood.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/949200/library_600x900.jpg" alt="Ambition: A Minuet in Power" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Ambition%3A%20A%20Minuet%20in%20Power">Ambition: A Minuet in Power</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Ambition%3A%20A%20Minuet%20in%20Power">Ambition: A Minuet in Power</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">A young woman finds herself alone in the streets of Paris, far from home and abandoned by the love of her life.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -94,7 +94,7 @@ This week featuring Ambition: A Minuet in Power, Captain Blood.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/3040220/library_600x900.jpg" alt="Captain Blood" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Captain%20Blood">Captain Blood</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Captain%20Blood">Captain Blood</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Captain Blood is a pirate-themed action game where you play as a fearsome pirate seeking gold and glory.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -110,7 +110,7 @@ Updated compatibility for Figment, Flashout 3D: Enhanced Edition.
 <div class="game-entry">
   <img src="https://images.gog.com/1286900fea4fb4f154987f15bb5e11396670b1c174ca31e0eaf96835442890ff.jpg?namespace=gamesdb" alt="Figment" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Figment">Figment</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Figment">Figment</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">A musical action-adventure set in the recesses of the human mind.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -122,7 +122,7 @@ Updated compatibility for Figment, Flashout 3D: Enhanced Edition.
 <div class="game-entry">
   <img src="https://images.gog.com/237161d745a564f62edad01fd73fe243a64e2f89db5573212ec0cf5624c1528f.jpg?namespace=gamesdb" alt="Flashout 3D: Enhanced Edition" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Flashout%203D%3A%20Enhanced%20Edition">Flashout 3D: Enhanced Edition</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Flashout%203D%3A%20Enhanced%20Edition">Flashout 3D: Enhanced Edition</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Flashout 3D is the best racing experience for your mobile device.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>

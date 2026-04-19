@@ -966,8 +966,8 @@ function createGameModal(game) {
       };
       const store = storeMap[storefront] || storefront.toLowerCase();
 
-      // Use new format: /tested-games/?store=epic&id=abc123
-      const gameUrl = `${window.location.origin}/tested-games/?store=${store}&id=${databaseId}`;
+      // Use new format: /games/tested/?store=epic&id=abc123
+      const gameUrl = `${window.location.origin}/games/tested/?store=${store}&id=${databaseId}`;
 
       // Copy to clipboard with multiple fallback methods
       if (navigator.clipboard && navigator.clipboard.writeText) {

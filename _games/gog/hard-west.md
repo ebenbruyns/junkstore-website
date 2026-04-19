@@ -1,0 +1,64 @@
+---
+layout: game-page
+title: "Hard West - Steam Deck Compatibility"
+game_title: "Hard West"
+slug: "hard-west"
+storefront: "GOG"
+storefront_key: "gog"
+permalink: /games/gog/hard-west/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "unknown"
+date_tested: "Aug '24"
+proton_version: ""
+
+# Game Info
+publisher: Gambitious Digital Entertainment
+developer: CreativeForge Games
+genre: role-playing, strategy, turn-based, western
+release_date: ""
+game_modes: ["Single player"]
+languages: ["English"]
+
+# Images
+banner_image: "https://images.gog.com/944e694d9f83b6dd1a966ddaf61055e5c5fdad587895971361fadbbd057ab1e7.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/4f3cad12e039976d6e8cb3323100339b110859f0e82a49c17000d3030b67bc91.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/29cc4827c6302ccb7d7565b49d9f4db8eff8039725b9ec47f7380153cf998e5d.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "requires-mapping"
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://www.gog.com/en/game/hard_west"
+protondb_url: "https://www.protondb.com/app/307670"
+pcgamingwiki_url: ""
+
+# Notes
+notes: Requires manual controller/key mapping.
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "1442827661"
+is_featured: false
+---
+
+A supernatural turn-based strategy game in the Wild West. Lead an unlikely posse of heroes across multiple challenging scenarios. Recruit new members and unlock new abilities. Collect upgradeable gear and grow in power to make your story truly legendary.

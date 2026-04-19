@@ -46,7 +46,7 @@ A few quick updates before we dive into the games:
 * **Proton**: GE-Proton 10.26
 * **SteamOS**: v3.7.20 (Stable)
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 > **Tip:** Click any game title below to view full compatibility details, testing notes, and system requirements in our games database!
 
@@ -57,7 +57,7 @@ This week featuring Tomak: Save the Earth Regeneration, Clone Drone in the Dange
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-myh89.png" alt="Tomak: Save the Earth Regeneration" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Tomak%3A%20Save%20the%20Earth%20Regeneration">Tomak: Save the Earth Regeneration</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Tomak%3A%20Save%20the%20Earth%20Regeneration">Tomak: Save the Earth Regeneration</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">The legendary cult hit "Tomak: Save the Earth" arrives on the Epic Games Store.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -69,7 +69,7 @@ This week featuring Tomak: Save the Earth Regeneration, Clone Drone in the Dange
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/597170/library_600x900.jpg" alt="Clone Drone in the Danger Zone" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Clone%20Drone%20in%20the%20Danger%20Zone">Clone Drone in the Danger Zone</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Clone%20Drone%20in%20the%20Danger%20Zone">Clone Drone in the Danger Zone</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Clone Drone in the Danger Zone is a third person sword fighter where any part of your body can be sliced off.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -81,7 +81,7 @@ This week featuring Tomak: Save the Earth Regeneration, Clone Drone in the Dange
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-t6xk9.jpg?resize=1&w=480&h=270&quality=medium" alt="Vornyca" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Vornyca">Vornyca</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Vornyca">Vornyca</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Set in a world where humanity has defeated its own creations, Vornyca follows the journey of a lone surviving AI struggling to find purpose, freedom, and identity in the ruins of a fallen civilization.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -93,7 +93,7 @@ This week featuring Tomak: Save the Earth Regeneration, Clone Drone in the Dange
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2708790/library_600x900.jpg" alt="Together After Dark" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Together%20After%20Dark">Together After Dark</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Together%20After%20Dark">Together After Dark</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Together After Dark is a co-op horror psychological game with a survival touch for 1-4 players.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -109,7 +109,7 @@ This week featuring Total War: Pharaoh Dynasties, XCOM: Enemy Unknown Complete P
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2951630/library_600x900.jpg" alt="Total War: Pharaoh Dynasties" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Total%20War%3A%20Pharaoh%20Dynasties">Total War: Pharaoh Dynasties</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Total%20War%3A%20Pharaoh%20Dynasties">Total War: Pharaoh Dynasties</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Wage total war across the ancient world from the Aegean to Mesopotamia in this free addition to Total War: PHARAOH.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -121,7 +121,7 @@ This week featuring Total War: Pharaoh Dynasties, XCOM: Enemy Unknown Complete P
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/200510/library_600x900.jpg" alt="XCOM: Enemy Unknown Complete Pack" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=XCOM%3A%20Enemy%20Unknown%20Complete%20Pack">XCOM: Enemy Unknown Complete Pack</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=XCOM%3A%20Enemy%20Unknown%20Complete%20Pack">XCOM: Enemy Unknown Complete Pack</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">From the makers of Sid Meier’s Civilization comes a game about civilization’s last stand.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>

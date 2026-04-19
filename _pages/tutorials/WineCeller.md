@@ -151,7 +151,7 @@ difficulty: "Advanced"
 <ul>
 <li>You can set different Proton versions <strong>per game</strong></li>
 <li>Once you set it, it <strong>stays saved</strong> (even after reboot)</li>
-<li>If unsure which Proton to use, check what's recommended on our <a href="/tested-games/">compatibility table</a> unless ProtonDB suggests a specific version</li>
+<li>If unsure which Proton to use, check what's recommended on our <a href="/games/tested/">compatibility table</a> unless ProtonDB suggests a specific version</li>
 <li>Use <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> for up-to-date community tips</li>
 </ul>
 

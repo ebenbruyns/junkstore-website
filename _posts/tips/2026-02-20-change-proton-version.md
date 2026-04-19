@@ -83,7 +83,7 @@ Same result, just a different way to get there.
 
 <h2 style="text-align: left !important; margin-left: 0;">Not Sure Which Version Works?</h2>
 
-Check our [Games Tested](/tested-games/) page or [ProtonDB.com](https://www.protondb.com/) to see what others are using for your specific game.
+Check our [Games Tested](/games/tested/) page or [ProtonDB.com](https://www.protondb.com/) to see what others are using for your specific game.
 
 Hope this helps get your games running! Questions? Our team is always ready to help.
 

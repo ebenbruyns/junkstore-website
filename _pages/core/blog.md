@@ -103,7 +103,7 @@ permalink: /blog/
     <i class="fas fa-blog"></i>
     <h3>Coming Soon!</h3>
     <p>We're preparing weekly game testing updates and Steam Deck insights.</p>
-    <p>In the meantime, check out our <a href="/tested-games/">game compatibility database</a> with 600+ tested games.</p>
+    <p>In the meantime, check out our <a href="/games/tested/">game compatibility database</a> with 600+ tested games.</p>
   </div>
 </section>
 {% endif %}

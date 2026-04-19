@@ -33,7 +33,7 @@ Some great games in this week's batch too — Jorel's Brother and The Most Impor
 
 > **📋 GOG Extension Note:** The GOG Extension is exclusively available through the [Junk Store Portal](https://portal.junkstore.xyz/). All previous supporters have been migrated - sign in with your original email to access. [Read more about portal-only sales](https://www.junkstore.xyz/blog/gog-extension-portal-only/).
 
-<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a></h2>
+<h2 style="text-align: left !important; margin-left: 0;">This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a></h2>
 
 ### Epic Games Giveaway
 
@@ -42,7 +42,7 @@ This week featuring Eastern Exorcist, Jorel’s Brother and The Most Important G
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/d45b0bc1c72dc9faa30ebfe7290b35508b777dcd121f9185828ba0fa5ecd9cb2.jpg?namespace=gamesdb" alt="Eastern Exorcist" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Eastern+Exorcist">Eastern Exorcist</a></strong>
+    <strong><a href="/games/tested/?game=Eastern+Exorcist">Eastern Exorcist</a></strong>
     <div class="game-description">The Eastern Exorcist is a stunning 2D side-scrolling action RPG set in a fictitious oriental world with the infestation of vicious demon monsters.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -54,7 +54,7 @@ This week featuring Eastern Exorcist, Jorel’s Brother and The Most Important G
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1398910/capsule_231x87.jpg" alt="Jorel’s Brother and The Most Important Game of the Galaxy" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Jorel%E2%80%99s+Brother+and+The+Most+Important+Game+of+the+Galaxy">Jorel's Brother and The Most Important Game of the Galaxy</a></strong>
+    <strong><a href="/games/tested/?game=Jorel%E2%80%99s+Brother+and+The+Most+Important+Game+of+the+Galaxy">Jorel's Brother and The Most Important Game of the Galaxy</a></strong>
     <div class="game-description">“Jorel’s Brother and The Most Important Game of the Galaxy” is a point-and-click adventure about an eight-year-old boy who lives with his eccentric family in the shadow of Jorel, his handsome and popular brother.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -70,7 +70,7 @@ This week featuring Pixel Cafe.
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/2409360/capsule_231x87.jpg" alt="Pixel Cafe" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Pixel+Cafe">Pixel Cafe</a></strong> <span style="color: #999;">(Prime Gaming)</span>
+    <strong><a href="/games/tested/?game=Pixel+Cafe">Pixel Cafe</a></strong> <span style="color: #999;">(Prime Gaming)</span>
     <div class="game-description">Step into Pixel's shoes in this one-of-a-kind journey that bridges time, memories, and the aroma of fresh coffee.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -86,7 +86,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/56c4ebc8cdf0d7f0f75c5de899bff9888bf53a40b635226b3f64d2caf8b5f7b5.jpg?namespace=gamesdb" alt="Auto Chess" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Auto+Chess">Auto Chess</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/tested/?game=Auto+Chess">Auto Chess</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Auto Chess is the original auto battler game that had a significant worldwide influence with its brand new gameplay mode and strategic competitive features.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -98,7 +98,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/0617f704f5fcdaea9d1460b9ca7d993d7a50730590bb519f9b2126cad2239ae7.jpg?namespace=gamesdb" alt="Rise of Industry" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Rise+of+Industry">Rise of Industry</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/tested/?game=Rise+of+Industry">Rise of Industry</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Rise of Industry is a strategic tycoon game that puts you in the shoes of an early 20th-century industrialist.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -110,7 +110,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/321800/capsule_231x87.jpg" alt="Icewind Dale: Enhanced Edition" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Icewind+Dale%3A+Enhanced+Edition">Icewind Dale: Enhanced Edition</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/tested/?game=Icewind+Dale%3A+Enhanced+Edition">Icewind Dale: Enhanced Edition</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Icewind Dale: Enhanced Edition revives the classic RPG with fresh updates for modern players.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -122,7 +122,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/398e33ba5bab11dcb7b636a4976d321d180c8809134fa588c9f150cdf53d52f8.jpg?namespace=gamesdb" alt="Ziggurat" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Ziggurat">Ziggurat</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/tested/?game=Ziggurat">Ziggurat</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Dungeon-Crawling First Person Shooting at its finest.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -134,7 +134,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1579020/capsule_231x87.jpg" alt="Golfie" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Golfie">Golfie</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/games/tested/?game=Golfie">Golfie</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">Golfie is a run-based, roguelike minigolf deck builder.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -146,7 +146,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1015920/capsule_231x87.jpg" alt="Ynglet" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Ynglet">Ynglet</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/games/tested/?game=Ynglet">Ynglet</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">Swim, launch and bounce through this meditative floating platformer.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -158,7 +158,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1128180/capsule_231x87.jpg" alt="Crossniq" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Crossniq">Crossniq</a></strong> <span style="color: #999;">(itch.io)</span>
+    <strong><a href="/games/tested/?game=Crossniq">Crossniq</a></strong> <span style="color: #999;">(itch.io)</span>
     <div class="game-description">Crossniq is a new tile-sliding puzzle game to be played with your mouse or your fingers.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -170,7 +170,7 @@ Catching up on Auto Chess, Rise of Industry, Icewind Dale: Enhanced Edition, Zig
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/510240/capsule_231x87.jpg" alt="Forma.8" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Forma.8">Forma.8</a></strong> <span style="color: #999;">(itch.io)</span>
+    <strong><a href="/games/tested/?game=Forma.8">Forma.8</a></strong> <span style="color: #999;">(itch.io)</span>
     <div class="game-description">Explore, fight and solve puzzles.  Uncover the secrets of a mysterious alien planet in this open world metroidvania adventure, where nothing is what it seems.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -186,7 +186,7 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/b3655e1313d943a10476113504bfcd2931b24bf4a5bae800152eafde572e4f21.jpg?namespace=gamesdb" alt="Darkwood" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Darkwood">Darkwood</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/tested/?game=Darkwood">Darkwood</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Darkwood is a unforgiving survival horror with a procedurally generated, open world.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -198,7 +198,7 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/92fb13c36a32f3e7eb8bc400d8b427b6fead1fedd33352359b72bc2281de49c4.jpg?namespace=gamesdb" alt="Islets" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Islets">Islets</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/tested/?game=Islets">Islets</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Take to the sky and reunite a fragmented world in this surprisingly wholesome metroidvania.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -210,7 +210,7 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/89b2ba393a0c5bde92dae05f0c23f2d50f17bfb0720244c105516c1d84ac673c.jpg?namespace=gamesdb" alt="Hitman: Absolution" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Hitman%3A+Absolution">Hitman: Absolution</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/tested/?game=Hitman%3A+Absolution">Hitman: Absolution</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Hitman: Absolution follows the Original Assassin undertaking his most personal contract to date.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -222,7 +222,7 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/b2b45e1d1a00ebbab92f0ba3b80cf02bf8967dc3a3eb71474a03b851f326076a.jpg?namespace=gamesdb" alt="King of Seas" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=King+of+Seas">King of Seas</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/tested/?game=King+of+Seas">King of Seas</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">King of Seas is an Action Role playing game set in a procedural pirate world.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
@@ -235,9 +235,9 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
 
 <h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
-Next week's Epic giveaways look exciting! **<a href="/tested-games/?game=Nightingale">Nightingale</a>** is a first-person, PVE, open-world survival crafting game that can be played solo or cooperatively with friends. Build, craft, fight and explore as you venture through mystical portals into amazing and fantastical realms. This one looks really interesting — like something the two of us could get completely lost in. Really looking forward to testing that one!
+Next week's Epic giveaways look exciting! **<a href="/games/tested/?game=Nightingale">Nightingale</a>** is a first-person, PVE, open-world survival crafting game that can be played solo or cooperatively with friends. Build, craft, fight and explore as you venture through mystical portals into amazing and fantastical realms. This one looks really interesting — like something the two of us could get completely lost in. Really looking forward to testing that one!
 
-The other Epic game is **<a href="/tested-games/?game=Firestone%3A+Online+Idle+RPG">Firestone: Online Idle RPG</a>**, which we previously tested back in April and works perfectly out of the box on both versions of Junk Store, so that'll be a nice easy addition to next week's batch.
+The other Epic game is **<a href="/games/tested/?game=Firestone%3A+Online+Idle+RPG">Firestone: Online Idle RPG</a>**, which we previously tested back in April and works perfectly out of the box on both versions of Junk Store, so that'll be a nice easy addition to next week's batch.
 
 Wonder what we'll be getting from Amazon Prime Gaming next week — fingers crossed for some goodies!
 

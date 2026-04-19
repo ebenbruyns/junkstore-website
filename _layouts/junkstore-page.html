@@ -4,6 +4,7 @@ layout: junkstore-default
 
 <article class="js-page">
   <div class="js-container">
+    {% unless page.hide_title %}
     {% if page.title %}
     <header class="js-page__header">
       <h1 class="js-page__title">{{ page.title }}</h1>
@@ -12,6 +13,7 @@ layout: junkstore-default
       {% endif %}
     </header>
     {% endif %}
+    {% endunless %}
 
     <div class="js-page__content">
       {{ content }}

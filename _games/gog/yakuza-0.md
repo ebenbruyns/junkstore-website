@@ -1,0 +1,64 @@
+---
+layout: game-page
+title: "Yakuza 0 - Steam Deck Compatibility"
+game_title: "Yakuza 0"
+slug: "yakuza-0"
+storefront: "GOG"
+storefront_key: "gog"
+permalink: /games/gog/yakuza-0/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "unknown"
+date_tested: "Oct '24"
+proton_version: ""
+
+# Game Info
+publisher: Sega, Sega Corporation, Sega Games
+developer: Ryu Ga Gotoku Studios, Sega Games
+genre: role-playing-rpg, adventure, simulator, hack-and-slash-beat-em-up
+release_date: ""
+game_modes: ["Single player","Multiplayer"]
+languages: ["English"]
+
+# Images
+banner_image: "https://images.gog.com/1b57f4bb3a0ce35f0d1652bb81fa64f0054c424007223396e8993e9ff46beb9e.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/4febbe661331154c99c2be816b3512e88cec9562c417da0e74fa30852d2f67c8.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/4febbe661331154c99c2be816b3512e88cec9562c417da0e74fa30852d2f67c8.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "native"
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://www.gog.com/en/game/yakuza_0"
+protondb_url: "https://www.protondb.com/app/638970"
+pcgamingwiki_url: ""
+
+# Notes
+notes: Works out of the box on the Decky plugin version.
+controller_config: Native Steam Deck Controls
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "1103602225"
+is_featured: false
+---
+
+The glitz, glamour, and unbridled decadence of the 80s are back! Yakuza 0 is a prequel set in 1988 to the Yakuza series, taking place before the first game.

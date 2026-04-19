@@ -82,7 +82,7 @@ Each modal includes:
 - How's the overall usability when you're browsing?
 - Any features from other compatibility sites that you find useful?
 
-You can check it out at: [junkstore.xyz/tested-games](/tested-games/)
+You can check it out at: [junkstore.xyz/tested-games](/games/tested/)
 
 The goal is to make this a useful Steam Deck compatibility resource that supplements what's already out there, so honest feedback (positive or negative) is super appreciated!
 

@@ -1,0 +1,35 @@
+# Community game compatibility reports
+# Curate these from Google Form submissions
+# To add a new report:
+#   - quote: Brief excerpt from their report
+#   - rating: 1-5 stars
+#   - author: Display name
+#   - date: When submitted
+#   - game: Game title (optional)
+#   - game_slug: URL slug for game page (optional)
+#   - store: epic, gog, amazon, or itch (optional)
+
+# Example reports (replace with real submissions)
+- quote: "Hades runs perfectly with GE-Proton. Smooth 60fps, controller works out of the box."
+  rating: 5
+  author: DeckUser42
+  date: "2 days ago"
+  game: "Hades"
+  game_slug: "hades"
+  store: "epic"
+
+- quote: "Needed to tweak controller settings for The Witcher 3, but runs great after that."
+  rating: 4
+  author: SteamDeckFan
+  date: "3 days ago"
+  game: "The Witcher 3"
+  game_slug: "the-witcher-3-wild-hunt-game-of-the-year-edition"
+  store: "gog"
+
+- quote: "Celeste from itch.io works flawlessly. Native Linux build, no setup needed!"
+  rating: 5
+  author: IndieGamer
+  date: "5 days ago"
+  game: "Celeste"
+  game_slug: "celeste"
+  store: "itch"

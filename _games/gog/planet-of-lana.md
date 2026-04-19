@@ -1,0 +1,64 @@
+---
+layout: game-page
+title: "Planet of Lana - Steam Deck Compatibility"
+game_title: "Planet of Lana"
+slug: "planet-of-lana"
+storefront: "GOG"
+storefront_key: "gog"
+permalink: /games/gog/planet-of-lana/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "green"
+date_tested: "Dec '24"
+proton_version: ""
+
+# Game Info
+publisher: Thunderful
+developer: Wishfully
+genre: Adventure, Indie, Platform, Puzzle
+release_date: "May 23, 2023"
+game_modes: ["Single player"]
+languages: ["English"]
+
+# Images
+banner_image: "https://images.gog.com/95ca7de25c6ecd4e689a2909435cdd9c35d89b2ed6bbafdd4d7cdcbff1e460ec.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/f54fbdd9b52507f4a56d2119fdb2e94e842253acd081b2f237f1072d71e17af4.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/7e807626f4bf9ca28fc3fd57b35f0ddec542f0644a35f77a1d60272a9d535960.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "native"
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://www.gog.com/en/game/planet_of_lana"
+protondb_url: "https://www.protondb.com/app/1608230"
+pcgamingwiki_url: ""
+
+# Notes
+notes: "Works out of the box!"
+controller_config: Native Steam Deck Controls
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "1812138501"
+is_featured: false
+---
+
+A young girl and her loyal friend embark on a rescue mission through a colorful world full of cold machines and unfamiliar creatures. Planet of Lana is a cinematic puzzle adventure framed by an epic sci-fi saga that stretches across centuries and galaxies.

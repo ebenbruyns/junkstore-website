@@ -1,0 +1,64 @@
+---
+layout: game-page
+title: "Borderlands 3 - Steam Deck Compatibility"
+game_title: "Borderlands 3"
+slug: "borderlands-3"
+storefront: "Epic"
+storefront_key: "epic"
+permalink: /games/epic/borderlands-3/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "green"
+date_tested: "Dec '25"
+proton_version: ""
+
+# Game Info
+publisher: 2K Games
+developer: Gearbox Software
+genre: Role-playing (RPG), Adventure, Shooter
+release_date: "September 13, 2019"
+game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
+languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Korean*","Portuguese - Brazil","Russian","Simplified Chinese*"]
+
+# Images
+banner_image: "https://images.gog.com/1b0b3c7ef6b527c726b0d9caaf13bdf9f86027a0b51dbac7d7fba7c0a2f8ebfb.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/a06a169bf17d0f29dec52113f09ff0a3800a11a77ede9969ce5fa4510af86e41.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/4cb1416932fb5b02420992dbbb0783aa339662ef3f813aa863a28acfe1bed9f9.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "native"
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: true
+epic_cloud_saves: true
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://store.epicgames.com/en-US/p/borderlands-3"
+protondb_url: "https://www.protondb.com/app/397540"
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Borderlands_3"
+
+# Notes
+notes: "Works out of the box!"
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "Catnip"
+is_featured: false
+---
+
+The original shooter-looter returns, packing bazillions of guns and a mayhem-fueled adventure! Blast through new worlds and enemies as one of four new Vault Hunters. Play solo or with friends to take on insane enemies, score loads of loot and save your home from the most ruthless cult leaders in the galaxy.

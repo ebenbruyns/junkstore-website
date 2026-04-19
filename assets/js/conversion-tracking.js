@@ -78,7 +78,7 @@ function trackNavigationIntent() {
     '/tutorials/': 'learning',
     '/help/': 'needs_help',
     '/faq/': 'has_questions',
-    '/tested-games/': 'checking_compatibility'
+    '/games/tested/': 'checking_compatibility'
   };
 
   var path = window.location.pathname;

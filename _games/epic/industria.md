@@ -1,0 +1,64 @@
+---
+layout: game-page
+title: "Industria - Steam Deck Compatibility"
+game_title: "Industria"
+slug: "industria"
+storefront: "Epic"
+storefront_key: "epic"
+permalink: /games/epic/industria/
+
+# Compatibility
+decky_rating: "green"
+standalone_rating: "green"
+date_tested: "Aug '25"
+proton_version: ""
+
+# Game Info
+publisher: Headup Games
+developer: Bleakmill
+genre: Adventure, Indie, Puzzle, Shooter
+release_date: "September 30, 2021"
+game_modes: ["Single player"]
+languages: ["English"]
+
+# Images
+banner_image: "https://images.gog.com/ac75ef435d8514fef4a822c65a95e8ba37156b02e6926714e5d837b1d7b13e54.jpg?namespace=gamesdb"
+cover_image: "https://images.gog.com/0424514c2d6089337d143b2ca11a543dbb9cc4af075b89335a4de9bec56f0927.jpg?namespace=gamesdb"
+icon_image: "https://images.gog.com/ddfffeee5940a9b246ea06607f96bafdd8b0452891b72603b1083d204c8f842f.jpg?namespace=gamesdb"
+
+# Technical Details
+controller_input: "native"
+required_launcher: ""
+requires_account_setup: false
+account_type: ""
+
+# Epic Features
+requires_eos: false
+supports_eos: false
+epic_achievements: false
+epic_offline_mode: false
+epic_cloud_saves: false
+must_be_online: false
+
+# Anti-Cheat
+requires_eac_runtime: false
+requires_battleye_runtime: false
+cant_test_linux: false
+
+# Links
+store_url: "https://store.epicgames.com/en-US/p/industria"
+protondb_url: "https://www.protondb.com/app/1172650"
+pcgamingwiki_url: ""
+
+# Notes
+notes: "Native controller support. Community controller layout available. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You need to either use the mouse or touch screen to get past main menu and into the game. If you want to, you can remap controls in game from the 'Options' menu. Community layout is for the 'Steam Controller'."
+controller_config: 
+performance_notes: 
+known_issues: 
+
+# Meta
+database_id: "78903903b1f1419bae248467f27ff470"
+is_featured: false
+---
+
+Industria is a first-person shooter that takes you from East Berlin into a parallel reality, shortly before the end of the Cold War. On the search for a missing work colleague, you decipher a dark past in a mysterious and surreal steampunk world.

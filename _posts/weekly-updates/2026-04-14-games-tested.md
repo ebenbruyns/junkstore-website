@@ -42,7 +42,7 @@ A few quick updates before we dive into the games:
 * **Proton**: GE-Proton 10.26
 * **SteamOS**: v3.7.20 (Stable)
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 > **Tip:** Click any game title below to view full compatibility details, testing notes, and system requirements in our games database!
 
@@ -53,9 +53,9 @@ This week featuring Prop Sumo.
 <div class="game-entry">
   <img src="https://cdn2.steamgriddb.com/thumb/eb6617a04e3a3b22bc0306e55333c766.jpg" alt="Prop Sumo" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Prop%20Sumo">Prop Sumo</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Prop%20Sumo">Prop Sumo</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">If you like Fall Guys, Faaast Penguin or Stumble Upon Rumble - this party fighting game pits ordinary props against each other in chaotic online battles. I got my butt kicked and may need a few more rounds of the tutorial before I'm ready to face others again!</p>
-    <a href="/tested-games/?game=Prop%20Sumo" class="view-details">View compatibility details →</a>
+    <a href="/games/tested/?game=Prop%20Sumo" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
@@ -66,18 +66,18 @@ This week featuring A Rat's Quest: The Way Back Home - Season 1, King of Retail.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1124420/library_600x900.jpg" alt="A Rat's Quest: The Way Back Home - Season 1" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=A%20Rat's%20Quest%3A%20The%20Way%20Back%20Home%20-%20Season%201">A Rat's Quest: The Way Back Home - Season 1</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=A%20Rat's%20Quest%3A%20The%20Way%20Back%20Home%20-%20Season%201">A Rat's Quest: The Way Back Home - Season 1</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">This one reminded me of The Spirit & the Mouse - beautiful artwork and it's kinda cute playing as a mouse, gives you a different perspective on things. You may need to tone down the graphics for cutscenes as they can get a bit laggy. Definitely one for the backlog - I'll get to it someday!</p>
-    <a href="/tested-games/?game=A%20Rat's%20Quest%3A%20The%20Way%20Back%20Home%20-%20Season%201" class="view-details">View compatibility details →</a>
+    <a href="/games/tested/?game=A%20Rat's%20Quest%3A%20The%20Way%20Back%20Home%20-%20Season%201" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/968250/library_600x900.jpg" alt="King of Retail" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=King%20of%20Retail">King of Retail</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=King%20of%20Retail">King of Retail</a></strong> <span class="store-badge gog">GOG</span>
     <p class="game-blurb">A retail sim where you can sell whatever you want and try out some wild business ideas. I didn't get far into this one - I'd rather leave my retail experience in the past as part of my uni days working part-time!</p>
-    <a href="/tested-games/?game=King%20of%20Retail" class="view-details">View compatibility details →</a>
+    <a href="/games/tested/?game=King%20of%20Retail" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
@@ -88,9 +88,9 @@ This week featuring Evergreen Valley: The Parkour Game.
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/7ceb18d65aee4c36b5be5c745921b2f8/evergreen-valley-the-parkour-game-logo-2f5fw.png?resize=1&w=480&h=270&quality=medium" alt="Evergreen Valley: The Parkour Game" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Evergreen%20Valley%3A%20The%20Parkour%20Game">Evergreen Valley: The Parkour Game</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Evergreen%20Valley%3A%20The%20Parkour%20Game">Evergreen Valley: The Parkour Game</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">This one gave me Getting Over It vibes - I couldn't get past the first 4 obstacles! Controls take a bit of getting used to, and one fall sends you back to the start. I'll give it another nudge, but fair warning: this one could get frustrating.</p>
-    <a href="/tested-games/?game=Evergreen%20Valley%3A%20The%20Parkour%20Game" class="view-details">View compatibility details →</a>
+    <a href="/games/tested/?game=Evergreen%20Valley%3A%20The%20Parkour%20Game" class="view-details">View compatibility details →</a>
   </div>
 </div>
 

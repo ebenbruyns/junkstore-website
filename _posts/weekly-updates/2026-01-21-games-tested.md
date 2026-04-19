@@ -45,7 +45,7 @@ A few quick updates before we dive into the games:
 
 Let's get to it, here's this week's findings...
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 > **💡 Tip:** Click any game title below to view full compatibility details, testing notes, and system requirements in our games database!
 
@@ -56,7 +56,7 @@ This week featuring Styx: Master of Shadows, Styx: Shards of Darkness - Deluxe E
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/242640/library_600x900.jpg" alt="Styx: Master of Shadows" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Styx%3A%20Master%20of%20Shadows">Styx: Master of Shadows</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Styx%3A%20Master%20of%20Shadows">Styx: Master of Shadows</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -68,7 +68,7 @@ This week featuring Styx: Master of Shadows, Styx: Shards of Darkness - Deluxe E
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/355790/library_600x900.jpg" alt="Styx: Shards of Darkness - Deluxe Edition" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Styx%3A%20Shards%20of%20Darkness%20-%20Deluxe%20Edition">Styx: Shards of Darkness - Deluxe Edition</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Styx%3A%20Shards%20of%20Darkness%20-%20Deluxe%20Edition">Styx: Shards of Darkness - Deluxe Edition</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Styx returns in a new stealth adventure! Explore and master huge open environments, sneak past or assassinate new enemies and bosses, and experiment with the new array of lethal abilities and weapons in our goblin assassin's arsenal.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -84,7 +84,7 @@ This week featuring Brigador: Up-Armored Edition, Gunslugs : Rogue Tactics, Deat
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/274500/library_600x900.jpg" alt="Brigador: Up-Armored Edition" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Brigador%3A%20Up-Armored%20Edition">Brigador: Up-Armored Edition</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Brigador%3A%20Up-Armored%20Edition">Brigador: Up-Armored Edition</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Pilot a mech to hunt down and destroy the oppressive government of a cyberpunk autocracy.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -96,7 +96,7 @@ This week featuring Brigador: Up-Armored Edition, Gunslugs : Rogue Tactics, Deat
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1012360/library_600x900.jpg" alt="Gunslugs : Rogue Tactics" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Gunslugs%20%3A%20Rogue%20Tactics">Gunslugs : Rogue Tactics</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Gunslugs%20%3A%20Rogue%20Tactics">Gunslugs : Rogue Tactics</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Grab your bandana and get ready for Gunslugs : Rogue Tactics.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -108,7 +108,7 @@ This week featuring Brigador: Up-Armored Edition, Gunslugs : Rogue Tactics, Deat
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/2350540/library_600x900.jpg" alt="DeathKeep" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=DeathKeep">DeathKeep</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=DeathKeep">DeathKeep</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">DeathKeep is a D&amp;D dungeon delving the way you like it - fast, furious and fun.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -124,7 +124,7 @@ Catching up on Sid Meier's Civilization VI, Deus Ex: Mankind Divided, Total War:
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/ddae044b3dc291e15f4d4b06286da6057514cfdc61a958afbb33bab04a805fd5.jpg?namespace=gamesdb" alt="Sid Meier's Civilization VI" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Sid%20Meier's%20Civilization%20VI">Sid Meier's Civilization VI</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Sid%20Meier's%20Civilization%20VI">Sid Meier's Civilization VI</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Civilization is a turn-based strategy game in which you attempt to build an empire to stand the test of time.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -136,7 +136,7 @@ Catching up on Sid Meier's Civilization VI, Deus Ex: Mankind Divided, Total War:
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/8a612a80a3113cfba87f451255ec70e6f7dfb89ce5e6cb53e83b8fb91e840393.jpg?namespace=gamesdb" alt="Deus Ex: Mankind Divided" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Deus%20Ex%3A%20Mankind%20Divided">Deus Ex: Mankind Divided</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Deus%20Ex%3A%20Mankind%20Divided">Deus Ex: Mankind Divided</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Deus Ex: Mankind Divided directly follows the aftermath of the Aug Incident, a day when mechanically augmented citizens all over the world were stripped of control over their minds and bodies, resulting in the deaths of millions of innocents. The year is now 2029, and the golden era of augmentations is over. </div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -148,7 +148,7 @@ Catching up on Sid Meier's Civilization VI, Deus Ex: Mankind Divided, Total War:
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/779340/library_600x900.jpg" alt="Total War: THREE KINGDOMS" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Total%20War%3A%20THREE%20KINGDOMS">Total War: THREE KINGDOMS</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Total%20War%3A%20THREE%20KINGDOMS">Total War: THREE KINGDOMS</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Total War: THREE KINGDOMS is the first in the award-winning series to recreate epic conflict across ancient China.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -164,7 +164,7 @@ Updated compatibility for Alex Kidd in Miracle World DX, Among the Sleep: Enhanc
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/5c36563fb4746df00c50ffbec4d137e4b7ee0e0d5cf31d1a65e1e69b0ec9bf94.jpg?namespace=gamesdb" alt="Alex Kidd in Miracle World DX" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Alex%20Kidd%20in%20Miracle%20World%20DX">Alex Kidd in Miracle World DX</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Alex%20Kidd%20in%20Miracle%20World%20DX">Alex Kidd in Miracle World DX</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">The legendary Alex Kidd returns with Alex Kidd in Miracle World DX.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -176,7 +176,7 @@ Updated compatibility for Alex Kidd in Miracle World DX, Among the Sleep: Enhanc
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/310730529d8b87c0bf4c049eda965c933ec6796ef573b7d1e1a999d3567138aa.jpg?namespace=gamesdb" alt="Among the Sleep: Enhanced Edition" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Among%20the%20Sleep%3A%20Enhanced%20Edition">Among the Sleep: Enhanced Edition</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Among%20the%20Sleep%3A%20Enhanced%20Edition">Among the Sleep: Enhanced Edition</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Among the Sleep: Enhanced Edition is a new and improved version of the award winning first person horror adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -188,7 +188,7 @@ Updated compatibility for Alex Kidd in Miracle World DX, Among the Sleep: Enhanc
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/f67d34b0404a4ac115d5047b3425eb3d88b4b30de00fb96be9b99b4bddcb5d17.jpg?namespace=gamesdb" alt="Bloons TD 6" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Bloons%20TD%206">Bloons TD 6</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Bloons%20TD%206">Bloons TD 6</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">The Bloons are back and better than ever! Craft your perfect defense from a combination of awesome monkey towers, upgrades, Heroes, and activated abilities, then pop every last Bloon that comes your way!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -200,7 +200,7 @@ Updated compatibility for Alex Kidd in Miracle World DX, Among the Sleep: Enhanc
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/9c3ea358df6ad3547ea57247b96a65daaedc3a735e2bbce826bd3dabf4d59095.jpg?namespace=gamesdb" alt="STAR WARS™ Battlefront II (Classic, 2005)" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=STAR%20WARS%E2%84%A2%20Battlefront%20II%20(Classic%2C%202005)">STAR WARS™ Battlefront II (Classic, 2005)</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=STAR%20WARS%E2%84%A2%20Battlefront%20II%20(Classic%2C%202005)">STAR WARS™ Battlefront II (Classic, 2005)</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Star Wars: Battlefront II is the sequel to Star Wars: Battlefront.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -212,7 +212,7 @@ Updated compatibility for Alex Kidd in Miracle World DX, Among the Sleep: Enhanc
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/55474b4bf927cacd3c225c2c50a186c18783794e8ce18de26773c49766bb87f4.jpg?namespace=gamesdb" alt="The First Templar" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=The%20First%20Templar">The First Templar</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=The%20First%20Templar">The First Templar</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">The First Templar follows the story of two main characters – a French Templar, and his companion, a noble lady who has been proclaimed a heretic. Taking control over these two unlikely allies, the player must uncover the mysteries behind the Templar Order, play a role in a grand conspiracy, and discover the secret of the Holy Grail.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -228,7 +228,7 @@ Big thanks to Anatharias for letting us know about this game!
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1808500/library_600x900.jpg" alt="ARC Raiders" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=ARC%20Raiders">ARC Raiders</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=ARC%20Raiders">ARC Raiders</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -244,7 +244,7 @@ This week highlighting Fallout 4, got this as a Christmas presnet to myself as w
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/377160/library_600x900.jpg" alt="Fallout 4" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Fallout%204">Fallout 4</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Fallout%204">Fallout 4</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">From Bethesda Game Studios, the award-winning creators of Starfield and The Elder Scrolls V: Skyrim, comes Fallout 4.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>

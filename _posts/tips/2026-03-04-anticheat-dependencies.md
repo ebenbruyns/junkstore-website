@@ -87,7 +87,7 @@ No restart required. If the options are greyed out, they're already installed.
 <ul style="padding-left: 1.2em; margin-left: 0;">
 <li>Make sure you're using a compatible Proton version (GE-Proton often works best)</li>
 <li>Some Epic games also require the EOS overlay to be installed and enabled for the game</li>
-<li>Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> or our <a href="/tested-games/">tested games list</a> to see if the game is known to work</li>
+<li>Check <a href="https://www.protondb.com/" target="_blank" rel="noopener">ProtonDB</a> or our <a href="/games/tested/">tested games list</a> to see if the game is known to work</li>
 </ul>
 
 

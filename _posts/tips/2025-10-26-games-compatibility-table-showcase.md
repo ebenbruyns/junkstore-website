@@ -61,7 +61,7 @@ Instead of just reading about a game in our weekly update, you can click through
 
 This isn't just a static list - it's a living database that gets updated weekly as we test new games and retest existing ones to verify compatibility hasn't changed. Each entry includes real testing notes from actual Steam Deck sessions.
 
-Check it out at: [junkstore.xyz/tested-games](/tested-games/)
+Check it out at: [junkstore.xyz/tested-games](/games/tested/)
 
 ## Share Your Feedback
 

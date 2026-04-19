@@ -47,7 +47,7 @@ A few quick updates before we dive into the games:
 
 Let's get to it, here's this week's findings...
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 > **💡 Tip:** Click any game title below to view full compatibility details, testing notes, and system requirements in our games database!
 
@@ -58,7 +58,7 @@ This week featuring Definitely Not Fried Chicken.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1036240/library_600x900.jpg" alt="Definitely Not Fried Chicken" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Definitely%20Not%20Fried%20Chicken">Definitely Not Fried Chicken</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Definitely%20Not%20Fried%20Chicken">Definitely Not Fried Chicken</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Definitely Not Fried Chicken is a business management sim with a Twist.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -74,7 +74,7 @@ This week featuring Technotopia, ELDERBORN.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2825110/library_600x900.jpg" alt="Technotopia" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Technotopia">Technotopia</a></strong> <span class="store-badge amazon">Amazon</span>
+    <strong><a href="/games/tested/?game=Technotopia">Technotopia</a></strong> <span class="store-badge amazon">Amazon</span>
     <div class="game-description">Welcome to Technotopia, a city-builder card game.  Take on the role of an AI designed to build a perfect city.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -86,7 +86,7 @@ This week featuring Technotopia, ELDERBORN.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/727850/library_600x900.jpg" alt="ELDERBORN" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=ELDERBORN">ELDERBORN</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=ELDERBORN">ELDERBORN</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">ELDERBORN - a Metal AF* Slasher with brutal FPP melee combat and souls-like/RPG character progression.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -102,7 +102,7 @@ Catching up on Shadow Tactics: Aiko's Choice, Fall of Porcupine, Gravewood High,
 <div class="game-entry">
   <img src="https://images.gog.com/61636070654f9116b074496336bcff4bd3c1c387cd104a4b2dd8d7214f0af652.jpg?namespace=gamesdb" alt="Shadow Tactics: Aiko's Choice" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Shadow%20Tactics%3A%20Aiko's%20Choice">Shadow Tactics: Aiko's Choice</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Shadow%20Tactics%3A%20Aiko's%20Choice">Shadow Tactics: Aiko's Choice</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Aiko's Choice is a brand-new standalone addon to the beloved stealth tactics game Shadow Tactics.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -114,7 +114,7 @@ Catching up on Shadow Tactics: Aiko's Choice, Fall of Porcupine, Gravewood High,
 <div class="game-entry">
   <img src="https://images.gog.com/80f132783b0e223657bb24294559fb9cc005ad4739f6b974fc64e6f544f3a811.jpg?namespace=gamesdb" alt="Fall of Porcupine" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Fall%20of%20Porcupine">Fall of Porcupine</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Fall%20of%20Porcupine">Fall of Porcupine</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Guide young Finley through his first weeks at a provincial hospital.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -126,7 +126,7 @@ Catching up on Shadow Tactics: Aiko's Choice, Fall of Porcupine, Gravewood High,
 <div class="game-entry">
   <img src="https://images.gog.com/35b5628292f545e7ca27f7a0f02942d7a9f2571f1dc3c98a31cdc5abbb709be8.jpg?namespace=gamesdb" alt="Gravewood High" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Gravewood%20High">Gravewood High</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Gravewood%20High">Gravewood High</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">An infinitely replayable stealth horror game set in high school - with destructible environments, randomized level layouts and a smart opponent that develops new abilities the more you play.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -138,7 +138,7 @@ Catching up on Shadow Tactics: Aiko's Choice, Fall of Porcupine, Gravewood High,
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1253860/library_600x900.jpg" alt="Neurodeck : Psychological Deckbuilder" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Neurodeck%20%3A%20Psychological%20Deckbuilder">Neurodeck : Psychological Deckbuilder</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Neurodeck%20%3A%20Psychological%20Deckbuilder">Neurodeck : Psychological Deckbuilder</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Neurodeck is a psychological deckbuilding card game to challenge your fears.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -150,7 +150,7 @@ Catching up on Shadow Tactics: Aiko's Choice, Fall of Porcupine, Gravewood High,
 <div class="game-entry">
   <img src="https://images.gog.com/7ca8e2974f49daca1f2b037c5af04652f1d224a68b5b9ea042ad27e45dfb931f.jpg?namespace=gamesdb" alt="Neverwinter Nights: Enhanced Edition" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Neverwinter%20Nights%3A%20Enhanced%20Edition">Neverwinter Nights: Enhanced Edition</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Neverwinter%20Nights%3A%20Enhanced%20Edition">Neverwinter Nights: Enhanced Edition</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Neverwinter Nights: Enhanced Edition is an updated version of the 2002 video game Neverwinter Nights.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -166,7 +166,7 @@ Updated compatibility for Arcade Paradise, Cat Quest II.
 <div class="game-entry">
   <img src="https://images.gog.com/988294590b4a4f80c1cd747ba8e5bc613fb3b4855fa102c6a000d16de03b5aee.jpg?namespace=gamesdb" alt="Arcade Paradise" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Arcade%20Paradise">Arcade Paradise</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/tested/?game=Arcade%20Paradise">Arcade Paradise</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Welcome to Arcade Paradise, the 90’s retro arcade adventure game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -178,7 +178,7 @@ Updated compatibility for Arcade Paradise, Cat Quest II.
 <div class="game-entry">
   <img src="https://images.gog.com/3df9be1cc924ce21ff37b57061123297a17af9e66960a964a599a2961326dcaf.jpg?namespace=gamesdb" alt="Cat Quest II" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Cat%20Quest%20II">Cat Quest II</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/tested/?game=Cat%20Quest%20II">Cat Quest II</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Open-world action-RPG in a fantasy realm of cats and dogs. Sequel to the award-winning original, CAT QUEST II lets you play solo or with a friend, as both a cat and dog! Quest in a world filled with magic, defeat monsters and collect loot in a catventure like never before!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
