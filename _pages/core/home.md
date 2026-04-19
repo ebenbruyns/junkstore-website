@@ -6,6 +6,7 @@ permalink: /
 classes: home
 excerpt: "All your non-Steam games in one place. No desktop mode. No multiple launchers. Just gaming."
 ---
+{% include content-schema.html type="software" %}
 
 {% include video-demo-player.html %}
 

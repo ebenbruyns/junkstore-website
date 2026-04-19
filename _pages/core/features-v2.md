@@ -6,6 +6,7 @@ permalink: /features/
 classes: wide
 excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam solution"
 ---
+{% include content-schema.html type="software" %}
 <div id="top"></div>
 
 <!-- Tab Navigation -->

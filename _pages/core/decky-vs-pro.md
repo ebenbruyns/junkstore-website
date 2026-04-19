@@ -5,6 +5,7 @@ description: "Complete feature-by-feature comparison between the free Junk Store
 permalink: /decky-vs-pro/
 excerpt: "Every feature, side by side. See exactly what Pro unlocks for your Steam Deck."
 ---
+{% include content-schema.html type="software" %}
 
 <style>
 /* Two-Tier Comparison Cards */

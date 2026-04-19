@@ -1,11 +1,12 @@
 {% comment %}
   Content Schema Markup Include
-  Embeds JSON-LD structured data for FAQ, Troubleshooting, and Tutorial pages.
+  Embeds JSON-LD structured data for FAQ, Troubleshooting, Tutorial, and Software pages.
 
   Usage:
     {% include content-schema.html type="faq" %}
     {% include content-schema.html type="troubleshooting" %}
     {% include content-schema.html type="tutorial" id="gogextension" %}
+    {% include content-schema.html type="software" %}
 {% endcomment %}
 
 {% if include.type == "faq" %}
@@ -15,4 +16,6 @@
 {% elsif include.type == "tutorial" and include.id %}
 {% capture tutorial_file %}schemas/tutorial-{{ include.id }}.html{% endcapture %}
 {% include {{ tutorial_file }} %}
+{% elsif include.type == "software" %}
+{% include schemas/software-application.html %}
 {% endif %}
