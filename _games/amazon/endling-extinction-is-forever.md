@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/898890/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/898890"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Endling:_Extinction_Is_Forever"
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/pc/endling---extinction-is-forever?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

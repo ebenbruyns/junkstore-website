@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/4ed9401a6de2b8dbc33eb0fe73865992b943541ad441
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/toejam-and-earl-back-in-the-groove-cddc16"
 protondb_url: "https://www.protondb.com/app/516110"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ToeJam_%26_Earl:_Back_in_the_Groove!"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/pc/toejam-earl-back-in-the-groove?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

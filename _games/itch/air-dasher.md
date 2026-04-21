@@ -17,7 +17,7 @@ proton_version: ""
 publisher: AntonMakesGames
 developer: AntonMakesGames
 genre: Platform
-release_date: ""
+release_date: "December 19, 2016"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "touch-screen"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://antonmakesgames.itch.io/dasher"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

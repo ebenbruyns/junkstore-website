@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Focus Entertainment
 developer: Deck13 Interactive
 genre: Role-playing (RPG), Adventure
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0afa02626b8d4911a1b58e2dce90211a1049d62fc29e
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/atlas-fallen"
 protondb_url: "https://www.protondb.com/app/1230530"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

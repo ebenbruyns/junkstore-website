@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a5e10b14e984a435c12b6f1493b7f579accd93797144
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/trberbrook"
 protondb_url: "https://www.protondb.com/app/757300"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Change to keyboard and mouse.

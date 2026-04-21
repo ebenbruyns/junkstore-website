@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1d874d81094927287e0d08c09dbaa439b1e5f5f0874f
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/star_wars_bounty_hunter"
 protondb_url: "https://www.protondb.com/app/2419090"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

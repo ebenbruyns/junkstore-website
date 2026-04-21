@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/235071564b8f0e6795dad4433dadc1c38d5789f865a8
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/showgunners"
 protondb_url: "https://www.protondb.com/app/1155330"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/pc/showgunners?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. Set executable: ./ArtificerOne/Binaries/Win64/Showgunner-Win64-Shippng.exe"

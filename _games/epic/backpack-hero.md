@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/4474622eef651e3ec95156b4732f7c7037c4d1045fce
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/backpack-hero"
 protondb_url: "https://www.protondb.com/app/1970580"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/pc/backpack-hero?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box after you verify with Epic account.

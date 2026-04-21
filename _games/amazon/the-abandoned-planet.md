@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/2014470"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Mouse-only controls. **Decky Plugin: Not Supported**. **Pro Version: Works out of the box**."

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Sierra Entertainment
 developer: Massive Entertainment
 genre: strategy
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Italian","Spanish"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1fbc687346c2ff17d809cc797bd4eaa30befadcd44f6
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/world_in_conflict_complete_edition"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/world-in-conflict-complete-edition/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

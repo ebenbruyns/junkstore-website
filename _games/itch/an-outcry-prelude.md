@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Quinn K.
 developer: Jack King-Spooner, Quinn K.
 genre: Indie, Visual Novel
-release_date: ""
+release_date: "April 9, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1817470/capsule_231x87.j
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://quinnk.itch.io/an-outcry"
 protondb_url: "https://www.protondb.com/app/1817470"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first time."

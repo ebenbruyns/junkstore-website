@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/105d0042f39dcc112b4fc7b09daf2a06c11dc1846a33
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/prince_of_persia_the_sands_of_time"
 protondb_url: "https://www.protondb.com/app/13600"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 89
+metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia-the-sands-of-time?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Turn off fog & increase resolution in graphics settings."

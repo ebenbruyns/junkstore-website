@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Wadjet Eye Games
 developer: Wormwood Studios
 genre: role-playing, adventure, indie, puzzle, point-and-click
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6922c6b28802cf24148c0b3769b5298384f0513f4168
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/primordia"
 protondb_url: "https://www.protondb.com/app/227000"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Blumhouse Games
 developer: Cozy Game Pals
 genre: Action, Adventure, Indie
-release_date: ""
+release_date: "October 22, 2024"
 game_modes: ["Single-player"]
 languages: ["English*","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","French","Italian","Spanish - Spain","Japanese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1959390/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fear-the-spotlight-97656f"
 protondb_url: "https://www.protondb.com/app/1959390"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fear_the_Spotlight"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

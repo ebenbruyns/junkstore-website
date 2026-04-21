@@ -17,7 +17,7 @@ proton_version: "Proton 7.0-6"
 publisher: Microsoft Game Studios, Nordic Games Publishing, E-Frontier, Remedy Entertainment, Namco Bandai Partners, Legacy Interactive
 developer: Remedy Entertainment
 genre: adventure, shooter
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English*","German*","French*","Italian*","Korean","Spanish - Spain*","Russian","Japanese*","Polish","Traditional Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/33aa9867f8b843e23f35837c44e73524c6fba0aef81c
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/alan_wake"
 protondb_url: "https://www.protondb.com/app/108710"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alan_Wake"
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/pc/alan-wake?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "You need to download and run the exe for the following: Install DirectX & Install VC_redist.x64 (the C++ runtime is automatically installed in verision 2.0). You also need to use an older version of Proton. I successfullly tested with Proton 7.0-6."

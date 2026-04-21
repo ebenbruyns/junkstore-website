@@ -17,17 +17,18 @@ proton_version: ""
 publisher: Wired Productions
 developer: Rogue Sun
 genre: Adventure, Strategy, Indie, Platform, Puzzle
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["Portuguese (Brazil)","zh-Hans","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","zh-Hans"]
 
 # Images
-banner_image: ""
+banner_image: "https://images.gog.com/c08321e7a2e93df6fcf0b4890573c59f93b614bbd898464a3bac09b76a715be7.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/a4e2232bc9851277b1e493979cce0698e879332f35bc24d4b46d203be8079b85.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://images.gog.com/7e8f0bcae720306bfafc14eea320dd3bec5058c739813e39fa3be9f48d373837.jpg?namespace=gamesdb"
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/tin_hearts"
 protondb_url: "https://www.protondb.com/app/1831700"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

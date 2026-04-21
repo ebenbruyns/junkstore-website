@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6e82bd9137d15e74ac088dbdbcdeab3a6e14b7398c8f
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/terraforming-mars"
 protondb_url: "https://www.protondb.com/app/800270"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box, but need to map the controller.

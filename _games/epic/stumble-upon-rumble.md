@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/74b2e6f92c0c1fb86d26b4c8063692b7d51ca75f3ea7
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: "Stumble Upon Rumble Account"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/stumble-upon-rumble"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/stumble-upon-rumble/"
 
 # Notes
 notes: "Requires Stumble Upon Rumble Account setup. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**."

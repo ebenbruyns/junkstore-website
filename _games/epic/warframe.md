@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/5fa66450b28c496fd943d199ea45842f923ee1f0d9ff
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: "Epic Account or New Account for Game"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.pcgamingwiki.com/wiki/Warframe"
 protondb_url: "https://www.protondb.com/app/230410"
+protondb_report_url: ""
 pcgamingwiki_url: "https://store.epicgames.com/en-US/p/warframe"
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/pc/warframe?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

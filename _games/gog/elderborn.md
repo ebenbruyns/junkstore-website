@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Hyperstrange
 developer: Hyperstrange
 genre: Action, Indie
-release_date: ""
+release_date: "January 30, 2020"
 game_modes: ["Single-player"]
 languages: ["English*","Polish","French","Italian","German","Spanish - Spain","Hungarian","Russian","Spanish - Latin America","Simplified Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/727850/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/elderborn"
 protondb_url: "https://www.protondb.com/app/727850"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Elderborn"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

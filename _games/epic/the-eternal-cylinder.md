@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/69802e68eb958d9153b6ce43b6ebb743a9dec32cf406
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-eternal-cylinder"
 protondb_url: "https://www.protondb.com/app/865680"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/pc/the-eternal-cylinder?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency."

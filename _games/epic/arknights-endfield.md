@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Hypergryph
 developer: Gryphline
 genre: RPG, Action, Adventure, Open world
-release_date: ""
+release_date: "January 22, 2026"
 game_modes: ["Singleplayer","Multiplayer"]
 languages: ["Chinese (Simplified)","Chinese (Traditional)","English","Japanese","Korean","French","German","Indonesian","Italian","Portuguese (Brazil)","Russian","Spanish (Latin America)","Thai","Vietnamese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://cdn2.steamgriddb.com/icon_thumb/1e8517f2a11988b48f5e7f0e124
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: "Gryphline"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/arknightsendfield-f0f167"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Arknights:_Endfield"
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/arknights-endfield/"
 
 # Notes
 notes: "Works out of the box!"

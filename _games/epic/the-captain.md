@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0b10086468b44f6d9be6802afd0594f5faf53fe59db9
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-captain"
 protondb_url: "https://www.protondb.com/app/1721530"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

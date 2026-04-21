@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ac1002791a41acfddcf45da87ebdf861d0e57bbd6f63
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/saints_row_2"
 protondb_url: "https://www.protondb.com/app/9480"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/saints-row-2?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "You need to set the game to run using the ./SR2_pc.exe from the sliders menu (remember to Push X to Save). I also changed the ctroller settings to Keyboard & Mouse. You may want to change the resolution/scaling in game via Options."

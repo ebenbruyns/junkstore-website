@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Ubisoft Entertainment, Feral Interactive
 developer: Ubisoft Paris
 genre: puzzle, shooter
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c2bc02847ddc05851b2959faa22723543dc001d99722
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/xiii"
 protondb_url: "https://www.protondb.com/app/1154790"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

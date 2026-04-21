@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/5a94dc856bdbff6320e458394a2fc104b2a658937fad
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/paquerette-down-the-bunburrows"
 protondb_url: "https://www.protondb.com/app/1628610"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: You need to verify it with your Epic account.

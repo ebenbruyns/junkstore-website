@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f40ff0211e465aaf814aff67b3fd040b56281f866f48
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/liberated"
 protondb_url: "https://www.protondb.com/app/875310"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Liberated"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

@@ -17,9 +17,9 @@ proton_version: ""
 publisher: Ubisoft
 developer: Ubisoft Bordeaux
 genre: Action, Adventure
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English*","Italian*","German*","Spanish - Spain*","Arabic*","Simplified Chinese","Traditional Chinese","Korean","Spanish - Latin America","Japanese*"]
 
 # Images
 banner_image: "https://images.gog.com/f14c3615f3f9e6730febeaca5bfd44050325b9eb408b5c28761b88f89c7eb374.jpg?namespace=gamesdb"
@@ -28,12 +28,13 @@ icon_image: "https://images.gog.com/11942b5d4b4e3b838312a9477b5037d3899eaf59c3a2
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: "ubisoft-connect"
 requires_account_setup: true
 account_type: "Ubisoft Connect"
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,8 +48,11 @@ cant_test_linux: false
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/assassin-s-creed-mirage"
-protondb_url: "https://www.protondb.com/app/assassins-creed-mirage"
+protondb_url: "https://www.protondb.com/app/3035570"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/assassins-creed-mirage/"
 
 # Notes
 notes: Requires Ubisoft Connect launcher.

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Baltoro Games
 developer: Baltoro Games
 genre: Casual, Indie, Simulation, Strategy
-release_date: ""
+release_date: "November 30, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Traditional Chinese","Japanese","Polish","Spanish - Spain"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2409360/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/2409360"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

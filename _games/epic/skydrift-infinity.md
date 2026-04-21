@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/7ac7f54f204b38f8d7f23f7c8aa1f946258299ce0a49
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/skydrift-infinity"
 protondb_url: "https://www.protondb.com/app/827330"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "You need to verify this game with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."

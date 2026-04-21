@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/8b29aad4f524cd501c3c60472249fa0ab122676434bc
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/doomsday-last-survivors"
 protondb_url: "https://www.protondb.com/app/2439510"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

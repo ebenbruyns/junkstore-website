@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Digerati Distribution, Headup Games, Devespresso Games
 developer: Devespresso Games
 genre: adventure, strategy, indie, visual novel
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f88b684794ee5c82719569741ec5c859bd58b5788f19
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/the_coma_2_vicious_sisters"
 protondb_url: "https://www.protondb.com/app/1045720"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/pc/the-coma-2-vicious-sisters?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

@@ -17,17 +17,18 @@ proton_version: ""
 publisher: Txori
 developer: Txori
 genre: Shooter, Arcade
-release_date: ""
+release_date: "May 2, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 
 # Images
-banner_image: ""
+banner_image: "https://images.gog.com/8f2eb8f459c2c5ca0ab8171e3a240477b90ddae630ef27ca3a25e8746bedc7ec.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/b1d9a60da36ccb327169a62b20c712e17b792e5611503544cc9c25bd513d6b26.jpg?namespace=gamesdb"
 icon_image: ""
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://txori.itch.io/omeganaut"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

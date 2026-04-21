@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Paradox Interactive
 developer: 
 genre: role-playing-rpg, adventure, strategy, indie
-release_date: ""
+release_date: "November 15, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6db04304b8e3c2e97582076ccc2f7045876ae5a94015
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/pillars_of_eternity_definitive_edition"
 protondb_url: "https://www.protondb.com/app/291650"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 89
+metacritic_url: "https://www.metacritic.com/game/pc/pillars-of-eternity?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

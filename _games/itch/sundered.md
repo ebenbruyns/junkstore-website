@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Thunder Lotus
 developer: Thunder Lotus
 genre: Adventure, Indie, Platform
-release_date: ""
+release_date: "July 28, 2017"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Japanese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/535480/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://thunderlotus.itch.io/sundered"
 protondb_url: "https://www.protondb.com/app/535480"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sundered"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

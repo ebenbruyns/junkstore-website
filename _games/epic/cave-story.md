@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6c8dccc99783fc8b1a68b598dc3a0f8ed92bf66e4d61
 
 # Technical Details
 controller_input: ""
+community_layout: true
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/cave-story"
 protondb_url: "https://www.protondb.com/app/200900"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/pc/cave-story-plus?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

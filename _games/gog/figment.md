@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/aa02ba2f4562187f000799fb33e60c9c582c85fed5c7
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/figment"
 protondb_url: "https://www.protondb.com/app/493540"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment"
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/pc/figment?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/67721c23a710de1b4ca68520d622154075dc881b0ef2
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/toem"
 protondb_url: "https://www.protondb.com/app/1307580"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/pc/toem?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

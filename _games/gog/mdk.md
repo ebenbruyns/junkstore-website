@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Playmates Interactive Entertainment, Interplay Entertainment
 developer: Shiny Entertainment
 genre: platform, shooter
-release_date: ""
+release_date: "April 30, 1997"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/e8d1afb04a57c22b675c24e811040f46a7e6a0fae661
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/mdk"
 protondb_url: "https://www.protondb.com/app/38450"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

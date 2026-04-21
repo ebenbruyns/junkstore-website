@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f2ae01f7853c6aebc16cc34392d23705547133c84734
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/whisperer"
 protondb_url: "https://www.protondb.com/app/2329580"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a89b29d344a036ecfa38d0136b5ef7f57d3ebf748256
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/maid-of-sker"
 protondb_url: "https://www.protondb.com/app/826940"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/pc/maid-of-sker?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

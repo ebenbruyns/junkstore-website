@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/9e1dcac5fb9134ab022538999940ddf703333e85b106
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/f1-manager-2024"
 protondb_url: "https://www.protondb.com/app/2591280"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/f1-manager-2024?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Requires EOS Overlay to be enabled. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Need to install C++ Runtime (can be done from Run exe menu)"

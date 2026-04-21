@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0cf063c8d36640df637982c3d7f9c9eb838e347cbc55
 
 # Technical Details
 controller_input: "touch-screen"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lords-mobile-014f32"
 protondb_url: "https://www.protondb.com/app/1041320"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lords_Mobile"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

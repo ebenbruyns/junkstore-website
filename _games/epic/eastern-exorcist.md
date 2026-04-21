@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d45b0bc1c72dc9faa30ebfe7290b35508b777dcd121f
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/eastern-exorcist-d49923"
 protondb_url: "https://www.protondb.com/app/1120810"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eastern_Exorcist"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

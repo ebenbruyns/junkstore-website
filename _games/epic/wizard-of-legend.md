@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Humble Games
 developer: Contingent99
 genre: Action, Indie, Rogue-like
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/dcf6b87f86074aee3e449e4c802d9a1b727507eed6fa
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/wizard-of-legend"
 protondb_url: "https://www.protondb.com/app/445980"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/pc/wizard-of-legend?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: May need to verify with Epic account before launch. Works out of the box on the Decky plugin version.

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a5862997711a7e2313331a05f638b20e2db3117f8f4e
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tunche"
 protondb_url: "https://www.protondb.com/app/887450"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Make sure you enable the EOS overlay."

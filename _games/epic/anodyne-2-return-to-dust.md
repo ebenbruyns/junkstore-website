@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Ratalaika Games
 developer: Analgesic Productions, Melos Han-Tani, Marina Kittaka
 genre: Role-playing (RPG), Adventure, Indie, Platform
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/183e9faf440f689e45b076acb9423b26ff3081f3db6b
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/anodyne-2-return-to-dust"
 protondb_url: "https://www.protondb.com/app/877810"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

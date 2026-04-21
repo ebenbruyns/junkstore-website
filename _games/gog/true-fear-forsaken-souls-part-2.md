@@ -17,7 +17,7 @@ proton_version: ""
 publisher: The Digital Lounge
 developer: Goblinz Enterprises Ltd
 genre: Adventure, Casual
-release_date: ""
+release_date: "November 2, 2018"
 game_modes: ["Single-player"]
 languages: ["English*","Russian","French","German","Spanish - Spain","Dutch","Ukrainian","Portuguese - Brazil","Italian","Romanian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/935580/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/true_fear_forsaken_souls_part_2"
 protondb_url: "https://www.protondb.com/app/935580"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/True_Fear:_Forsaken_Souls_Part_2"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

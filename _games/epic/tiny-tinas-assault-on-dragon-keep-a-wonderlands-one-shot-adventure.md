@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/34e144ed6ede8269bc272c7a9256304a972179f3a99f
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure"
 protondb_url: "https://www.protondb.com/app/1712840"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tiny_Tina%27s_Assault_on_Dragon_Keep:_A_Wonderlands_One-Shot_Adventure"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

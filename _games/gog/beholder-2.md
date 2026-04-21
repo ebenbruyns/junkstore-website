@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/3e9245a192e59e212439e2a55ae99ed13798ba415b5d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/beholder_2"
 protondb_url: "https://www.protondb.com/app/761620"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beholder_2"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/pc/beholder-2?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

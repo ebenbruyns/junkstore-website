@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/9d11d39af4802139228003be3f2d6bba128b2df8bad3
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/horizon-chase-turbo"
 protondb_url: "https://www.protondb.com/app/389140"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/pc/horizon-chase-turbo?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

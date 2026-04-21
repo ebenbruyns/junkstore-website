@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/fd11272cf69bc5aa4f3be9e5f0588cef129369dc9353
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/call_of_juarez"
 protondb_url: "https://www.protondb.com/app/3020"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_Juarez"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/call-of-juarez?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

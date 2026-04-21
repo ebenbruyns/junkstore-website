@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Iceberg Interactive
 developer: Shadow Tor Studios
 genre: adventure, indie, point-and-click
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/90c6ece32bce181f071271de7f29e60412b3a4ef83e0
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/barrow_hill_the_dark_path"
 protondb_url: "https://www.protondb.com/app/520990"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

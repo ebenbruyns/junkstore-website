@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f5d4c750155f5ed637ed1b3c207b01d32429ded62d66
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/control"
 protondb_url: "https://www.protondb.com/app/870780"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/pc/control?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

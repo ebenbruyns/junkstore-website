@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Draw Distance
 developer: Draw Distance
 genre: role-playing, adventure, indie, visual novel
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/80ef8b0f9f3c15900fa58e41b21377c1ca36d8dac4ba
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/vampire_the_masquerade_-_coteries_of_new_york"
 protondb_url: "https://www.protondb.com/app/1096410"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 70
+metacritic_url: "https://www.metacritic.com/game/pc/vampire-the-masquerade---coteries-of-new-york?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version. Tested with Proton Experimental

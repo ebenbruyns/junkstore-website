@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c7186a5b12707b76214189da86ba135c7ec8e3cd3149
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/prison_architect"
 protondb_url: "https://www.protondb.com/app/233450"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/pc/prison-architect?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to change the controller mapping to keyboard & mouse."

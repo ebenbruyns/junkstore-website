@@ -17,7 +17,7 @@ proton_version: ""
 publisher: BancyCo
 developer: BancyCo
 genre: Adventure, Indie
-release_date: ""
+release_date: "February 9, 2017"
 game_modes: ["Single-player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/564940/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://bancyco.itch.io/alonewithyou"
 protondb_url: "https://www.protondb.com/app/564940"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alone_With_You"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/pc/alone-with-you?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box. You may need to reset launch options if it doesn't launch first go."

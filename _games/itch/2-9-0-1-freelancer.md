@@ -22,12 +22,13 @@ game_modes: ["Single player"]
 languages: ["English"]
 
 # Images
-banner_image: ""
+banner_image: "https://images.gog.com/9d1a1de5460001f3f35646344cffc276cd60295eeda89db4e8ef467c72aa9b23.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/811871b37c363270ec3218912aa84fdcd85aa3fce5cb7a3f043632dba4ab7107.jpg?namespace=gamesdb"
 icon_image: ""
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://notsleeping.itch.io/2901"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

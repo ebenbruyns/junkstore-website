@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/945710/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/945710"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/DreadOut_2"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: You need to install DirectX (do this from the dependency menu in game mode). May want to adjust key bindings.

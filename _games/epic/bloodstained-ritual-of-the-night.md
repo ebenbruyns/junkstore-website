@@ -17,7 +17,7 @@ proton_version: ""
 publisher: 505 Games
 developer: ArtPlay
 genre: Action, Adventure, RPG
-release_date: ""
+release_date: "June 18, 2019"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["Japanese*","English*","French","Italian","German","Korean","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/692850/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bloodstained-f3f575"
 protondb_url: "https://www.protondb.com/app/692850"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bloodstained:_Ritual_of_the_Night"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

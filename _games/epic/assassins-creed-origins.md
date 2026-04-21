@@ -17,9 +17,9 @@ proton_version: ""
 publisher: Ubisoft Entertainment
 developer: Ubisoft Montreal
 genre: Role-playing (RPG), Adventure
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Czech","Dutch","Japanese*","Korean","Polish"]
 
 # Images
 banner_image: "https://images.gog.com/b0d8f487bffd9b84f7bbd87f833a1da60906c8c6390885ef1150c3609d0d4d44.jpg?namespace=gamesdb"
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/09ad599a05ab9f696f431db58248b60c4aaaf7562ecd
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: "ubisoft-connect"
 requires_account_setup: true
 account_type: "Ubisoft Connect"
@@ -47,8 +48,11 @@ cant_test_linux: false
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/assassin-s-creed-origins"
-protondb_url: "https://www.protondb.com/app/assassins-creed-origins"
+protondb_url: "https://www.protondb.com/app/582160"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/assassins-creed-origins/"
 
 # Notes
 notes: Requires Ubisoft Connect launcher.

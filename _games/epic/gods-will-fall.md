@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1c57c2e1950c52b69cbc3e357487278e029b66ffb4d7
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gods-will-fall"
 protondb_url: "https://www.protondb.com/app/1243690"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

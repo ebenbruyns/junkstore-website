@@ -17,7 +17,7 @@ proton_version: ""
 publisher: indienova, 7th Beat Games
 developer: 7th Beat Games
 genre: Indie, Arcade, Music
-release_date: ""
+release_date: "October 4, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/977950/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://fizzd.itch.io/a-dance-of-fire-and-ice"
 protondb_url: "https://www.protondb.com/app/977950"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Dance_of_Fire_and_Ice"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

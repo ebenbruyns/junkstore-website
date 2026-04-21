@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2e70c112f297d86e1dd98254933e7fdb719242e1ba7e
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/republic-of-jungle"
 protondb_url: "https://www.protondb.com/app/1413250"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "You need to verify with your Epic account after that <strong>Works out of the box</strong> — no extra setup needed."

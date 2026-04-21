@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Crystal Game Works
 developer: Crystal Game Works
 genre: Role-playing (RPG), Adventure, Indie, Visual Novel
-release_date: ""
+release_date: "December 31, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2187450/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://crystalgameworks.itch.io/asterism"
 protondb_url: "https://www.protondb.com/app/2187450"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Asterism"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/7fbe97aaaf054d6993c6de3936be7e5b142132c302aa
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/godlike-burger"
 protondb_url: "https://www.protondb.com/app/1432910"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

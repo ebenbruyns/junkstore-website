@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Microids
 developer: Tower Five
 genre: adventure, strategy, indie, real-time-strategy-rts
-release_date: ""
+release_date: "November 7, 2024"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f4f570ab0f5e5da11a8cd3d4418688490d8dbecc8451
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/empire_of_the_ants"
 protondb_url: "https://www.protondb.com/app/2287330"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

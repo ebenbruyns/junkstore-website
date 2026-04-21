@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Nacon
 developer: Cyanide Studio
 genre: Action, Adventure
-release_date: ""
+release_date: "March 14, 2017"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Polish","Korean","Japanese*languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/355790/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/styx-shards-of-darkness-77c030"
 protondb_url: "https://www.protondb.com/app/355790"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Styx:_Shards_of_Darkness"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/styx-shards-of-darkness?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

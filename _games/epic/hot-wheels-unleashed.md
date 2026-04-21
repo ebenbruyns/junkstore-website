@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ac6e0fd44705acf9b6dd412ed127b50a2389049a3cfc
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hot-wheels-unleashed"
 protondb_url: "https://www.protondb.com/app/1271700"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency."

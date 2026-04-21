@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b2b45e1d1a00ebbab92f0ba3b80cf02bf8967dc3a3eb
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/king_of_seas"
 protondb_url: "https://www.protondb.com/app/1209410"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/King_of_Seas"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

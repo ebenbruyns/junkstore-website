@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Siactro, Diplodocus Games
 developer: Siactro
 genre: Adventure, Indie, Platform, Puzzle, Arcade
-release_date: ""
+release_date: "March 17, 2017"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/568040/capsule_231x87.jp
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://siactro.itch.io/macbat64"
 protondb_url: "https://www.protondb.com/app/568040"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Macbat_64"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "You will need to map controller keys for this game. Also if it doesn't launch first time you may need to repair the games files."

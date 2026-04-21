@@ -17,7 +17,7 @@ proton_version: ""
 publisher: DarkGoose4
 developer: DarkGoose4
 genre: Indie
-release_date: ""
+release_date: "January 26, 2026"
 game_modes: ["Single-player"]
 languages: ["English**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/nightreaper2-bc3b86"
 protondb_url: "https://www.protondb.com/app/4282590"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/628200/capsule_231x87.jp
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/628200"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Invisible_Hand"
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/pc/the-invisible-hand?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

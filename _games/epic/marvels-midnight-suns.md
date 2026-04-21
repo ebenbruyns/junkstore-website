@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/638ed24d11e913236fc587251669e1c0d0d31f8c222f
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/marvel-s-midnight-suns"
 protondb_url: "https://www.protondb.com/app/368260"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

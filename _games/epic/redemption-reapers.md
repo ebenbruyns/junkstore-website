@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2f1f17433a5c23c81a4e003a5270af281e428ca191f3
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/redemption-reapers"
 protondb_url: "https://www.protondb.com/app/2139300"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Need to use GE-Proton 9.7 for cutscenes to play correctly. <strong>Works out of the box</strong> — no extra setup needed."

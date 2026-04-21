@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Other Ocean Group
 developer: Other Ocean Interactive
 genre: Action, Adventure, Casual, Indie, Strategy
-release_date: ""
+release_date: "May 23, 2019"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English","Simplified Chinese","Spanish - Latin America","French","Italian","German","Japanese","Korean","Russian","Portuguese - Brazil"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/774861/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/project-winter-3b9e84"
 protondb_url: "https://www.protondb.com/app/774861"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Project_Winter"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

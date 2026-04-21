@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/78bcd768595b2f7b38a90f621fb5faf1871420f04694
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/tomb_raider_anniversary"
 protondb_url: "https://www.protondb.com/app/8000"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/pc/tomb-raider-anniversary?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

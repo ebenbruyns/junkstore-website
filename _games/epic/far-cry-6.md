@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1d6eba93e376f15cfd957101efbb3a15fde8cc542d74
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: "ubisoft-connect"
 requires_account_setup: true
 account_type: "Ubisoft Connect"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/far-cry-6"
 protondb_url: "https://www.protondb.com/app/2369390"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Need to download & log in to Uplay"

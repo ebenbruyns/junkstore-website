@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/bd21f1ab319e0c8f5b04cb7e0a524cac4dca8a386f86
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/styx_shards_of_darkness"
 protondb_url: "https://www.protondb.com/app/355790"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Styx:_Shards_of_Darkness"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/styx-shards-of-darkness?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: The Digital Lounge
 developer: Eric Chahi
 genre: Action, Adventure
-release_date: ""
+release_date: "April 4, 2013"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Italian","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Korean","Polish","Portuguese - Portugal"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/233550/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/another_world_20th_anniversary_edition"
 protondb_url: "https://www.protondb.com/app/233550"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Another_World"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

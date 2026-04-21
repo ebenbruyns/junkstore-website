@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/34a13eeb03ee8c3d7ffb8e4d9b25cc9f3662e303e026
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: true
 # Links
 store_url: "https://store.epicgames.com/en-US/p/destiny-2"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Imported from library - not yet tested

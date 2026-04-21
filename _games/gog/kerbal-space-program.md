@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/700ec1ea496cef400cba7c2b7cc701e4ae77448e0961
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/kerbal_space_program"
 protondb_url: "https://www.protondb.com/app/220200"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 88
+metacritic_url: "https://www.metacritic.com/game/pc/kerbal-space-program?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Requires manual controller/key mapping.

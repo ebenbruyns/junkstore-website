@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2230e78e9a25221d729db2607644704a1891e9243243
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/thief_2_the_metal_age"
 protondb_url: "https://www.protondb.com/app/211740"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 87
+metacritic_url: "https://www.metacritic.com/game/pc/thief-ii-the-metal-age?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

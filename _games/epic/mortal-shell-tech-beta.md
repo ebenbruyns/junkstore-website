@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1110910/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/mortal-shell"
 protondb_url: "https://www.protondb.com/app/1110910"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mortal_Shell"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/208820963b27073461f2df3b5c1b55c82b5d93cfd0cf
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tomb-raider-game-of-the-year-edition"
 protondb_url: "https://www.protondb.com/app/750920"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/pc/shadow-of-the-tomb-raider?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account."

@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: "dosbox"
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/fantasy_empires"
 protondb_url: "https://www.protondb.com/app/2350530"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fantasy_Empires"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "You need to set the platform to DOSBox from the cog menu on the game screen: Game Configs > ADVANCED > platform > Dosbox. Save the config change and launch the game."

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Capcom
 developer: Capcom
 genre: Action, Horror, Survival
-release_date: ""
+release_date: "Invalid Date"
 game_modes: []
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://items.gog.com/dino_crisis_bundle/1.png"
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/dino_crisis_1_2_gog"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. Set launch command: WINEDLLOVERRIDES=\"ddraw=n,b\" %command%"

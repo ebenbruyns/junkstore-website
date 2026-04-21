@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Ohsat Games
 developer: Ohsat Games
 genre: Indie, Platform, Puzzle
-release_date: ""
+release_date: "June 26, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1945800/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://ohsat-andrej.itch.io/speer"
 protondb_url: "https://www.protondb.com/app/1945800"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

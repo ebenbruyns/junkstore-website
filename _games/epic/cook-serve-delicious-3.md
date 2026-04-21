@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0359388bda4f455d457814b7df411ddfb38af3092e07
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/cook-serve-delicious-3"
 protondb_url: "https://www.protondb.com/app/1000030"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/pc/cook-serve-delicious!-3!?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

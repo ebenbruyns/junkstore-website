@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/e144e6635ffafeb4ba97a45a64d2e20b9515f8f14c90
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/fate"
 protondb_url: "https://www.protondb.com/app/246840"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/fate?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

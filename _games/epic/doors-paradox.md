@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b7d02fddbd48f656fd28be8034a7188401f43c218e31
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/doors-paradox"
 protondb_url: "https://www.protondb.com/app/1622770"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box, change controller layout to Keyboard & mouse."

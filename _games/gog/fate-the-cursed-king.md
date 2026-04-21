@@ -17,7 +17,7 @@ proton_version: ""
 publisher: WildTangent
 developer: WildTangent
 genre: Action, Adventure, RPG
-release_date: ""
+release_date: "November 19, 2014"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/303690/capsule_231x87.jp
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/fate_the_cursed_king"
 protondb_url: "https://www.protondb.com/app/303690"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FATE:_The_Cursed_King"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: There are some extra buttons you may want to map for quick shortcuts in game.  Ctrl - Sprinting, Weapon 1 - 2 swap, etc.

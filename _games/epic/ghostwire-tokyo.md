@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c4f2a2aa89f1102f1176f1e7d465a77de0da6db5aa14
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ghostwire-tokyo"
 protondb_url: "https://www.protondb.com/app/1475810"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghostwire:_Tokyo"
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/pc/ghostwire-tokyo?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

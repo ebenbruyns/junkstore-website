@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Freedom Games
 developer: Microwave Games
 genre: Action, Indie, Sports
-release_date: ""
+release_date: "May 19, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese*languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1465560/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/against-all-odds-409105"
 protondb_url: "https://www.protondb.com/app/1465560"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Against_All_Odds"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

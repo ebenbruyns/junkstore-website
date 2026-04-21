@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/42f94d4069fdbf68e107710bea9cf15c2e0af0796096
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ghostbusters-spirits-unleashed"
 protondb_url: "https://www.protondb.com/app/2383990"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Needs C++ runtime."

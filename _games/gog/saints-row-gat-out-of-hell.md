@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/588a1b4eef0c2d44b5b15a5042e1860a776c79f2034e
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/saints_row_gat_out_of_hell"
 protondb_url: "https://www.protondb.com/app/301910"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 66
+metacritic_url: "https://www.metacritic.com/game/pc/saints-row-gat-out-of-hell?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Sony Computer Entertainment, Annapurna Interactive
 developer: ThatGameCompany
 genre: Adventure, Platform
-release_date: ""
+release_date: "March 13, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/adfb8be311b898831689cd3dc2ac0df1cec9c467b7f5
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/journey"
 protondb_url: "https://www.protondb.com/app/638230"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

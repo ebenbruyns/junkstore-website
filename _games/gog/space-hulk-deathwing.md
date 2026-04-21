@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ab624c010bcf769aff8770e2d2ab29f008f23e6f53f9
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/space_hulk_deathwing_enhanced_edition"
 protondb_url: "https://www.protondb.com/app/816090"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

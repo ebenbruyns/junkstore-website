@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Plug In Digital, TyGAMES
 developer: Pixelnest Studio, Damien Mayance
 genre: adventure, indie, puzzle, arcade
-release_date: ""
+release_date: "Invalid Date"
 game_modes: []
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/84ddee8db51e10ae78898e4d4a0e517d3cbd4724aa46
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/flipon"
 protondb_url: "https://www.protondb.com/app/1285020"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

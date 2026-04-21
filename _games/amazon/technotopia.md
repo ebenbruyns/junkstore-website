@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Alawar
 developer: Yustas
 genre: Casual, Indie, Strategy
-release_date: ""
+release_date: "October 23, 2024"
 game_modes: ["Single-player"]
 languages: ["English","Russian","Simplified Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2825110/capsule_231x87.j
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/2825110"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

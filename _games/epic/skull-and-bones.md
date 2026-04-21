@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/788c179a3b60fbddb828b10086f807e3e770cb2f5617
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: "ubisoft-connect"
 requires_account_setup: true
 account_type: "Ubisoft Connect"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/skull-and-bones"
 protondb_url: "https://www.protondb.com/app/2853730"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Need to log in to download & login to Uplay. Toggle on BattlEye"

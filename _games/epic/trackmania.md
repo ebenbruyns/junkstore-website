@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a35069cf7423462df97f501498a5a3c26e65783bb925
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: "ubisoft-connect"
 requires_account_setup: true
 account_type: "Ubisoft Connect"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/trackmania"
 protondb_url: "https://www.protondb.com/app/2225070"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Need to download & log in to Uplay"

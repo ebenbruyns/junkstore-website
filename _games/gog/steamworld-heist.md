@@ -10,7 +10,7 @@ permalink: /games/gog/steamworld-heist/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "Aug '24"
+date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
@@ -19,7 +19,7 @@ developer: "Image & Form"
 genre: Role-playing (RPG), Adventure, Strategy
 release_date: "December 9, 2015"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Russian"]
 
 # Images
 banner_image: "https://images.gog.com/f70de6d797242bfd2f5075848be2da8af5e99697ad4e311e9059ede0ad713e47.jpg?namespace=gamesdb"
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d02707fb67d5ca82d965cd38a2976ad13aa19614219f
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,11 +49,14 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/steamworld_heist"
 protondb_url: "https://www.protondb.com/app/322190"
-pcgamingwiki_url: ""
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SteamWorld_Heist"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/steamworld-heist?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

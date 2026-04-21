@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/070a7edc127818a46d9d5cad64ef97c5bfce6e13162d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/lorelai"
 protondb_url: "https://www.protondb.com/app/593960"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lorelai"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

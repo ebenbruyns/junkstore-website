@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Curve Digital
 developer: IronOak Games
 genre: "Role-playing (RPG), Adventure, Strategy, Turn-based strategy, Indie, Card & Board Game"
-release_date: ""
+release_date: "April 19, 2018"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/8dcfb481a8344e107bdb6dec5aadaa77c43dca094c82
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/for-the-king"
 protondb_url: "https://www.protondb.com/app/527230"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/pc/for-the-king?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

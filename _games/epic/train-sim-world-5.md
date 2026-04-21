@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2ba8c46427d8cc30edefddb4e02b2ab244bb04a3e1a5
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/train-sim-world-5"
 protondb_url: "https://www.protondb.com/app/2967990"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime"

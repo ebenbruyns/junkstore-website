@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Yogscast Games
 developer: "It's happening"
 genre: Action, Casual, Indie, Strategy
-release_date: ""
+release_date: "August 4, 2022"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1599600/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/plateup-a99631"
 protondb_url: "https://www.protondb.com/app/1599600"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/PlateUp!"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

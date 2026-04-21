@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d7721a07aa3640c8d02101fe48876a915935cc36d2eb
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/lacuna_a_scifi_noir_adventure"
 protondb_url: "https://www.protondb.com/app/1364100"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 86
+metacritic_url: "https://www.metacritic.com/game/pc/lacuna---a-sci-fi-noir-adventure?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

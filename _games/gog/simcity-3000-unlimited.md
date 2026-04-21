@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Electronic Arts
 developer: Maxis
 genre: strategy, simulator
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/77a20fa258d58dbf62491684210538677456b746d8d6
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/simcity_3000_unlimited"
 protondb_url: "https://www.protondb.com/app/2741560"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Tested with Proton Experimental

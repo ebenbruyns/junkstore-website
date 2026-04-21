@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Screenwave Media Games
 developer: FreakZone Games
 genre: Adventure, Arcade
-release_date: ""
+release_date: "October 29, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Portugal","Russian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1162960/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://jhm28mario.itch.io/avgn-the-game"
 protondb_url: "https://www.protondb.com/app/1162960"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Angry_Video_Game_Nerd_I_%26_II_Deluxe"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

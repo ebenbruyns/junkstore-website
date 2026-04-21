@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/295ec0f95fd727a20937ffdf3b85bcd2d74dc2b24ee9
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/call_of_juarez_gunslinger"
 protondb_url: "https://www.protondb.com/app/204450"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_Juarez:_Gunslinger"
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/pc/call-of-juarez-gunslinger?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

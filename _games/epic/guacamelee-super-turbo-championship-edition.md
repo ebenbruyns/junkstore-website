@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/guacamelee-super-turbo-championship-edition"
 protondb_url: "https://www.protondb.com/app/275390"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account, may need to be done in desktop/BPM."

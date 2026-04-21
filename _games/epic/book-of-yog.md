@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/4aada9ca03334feca7097354d1ef0fb3622309ad5ee0
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/book-of-yog"
 protondb_url: "https://www.protondb.com/app/1097430"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box, but need to map the controller.

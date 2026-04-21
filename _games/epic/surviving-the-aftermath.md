@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/4afb23aa68cbe1d19d22133bac5d10717a1effa11778
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/surviving-the-aftermath"
 protondb_url: "https://www.protondb.com/app/684450"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You do need to create an account with Paradox."

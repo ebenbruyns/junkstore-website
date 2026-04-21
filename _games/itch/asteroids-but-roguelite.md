@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Ghost Goats Games
 developer: Ghost Goats Games
 genre: Arcade
-release_date: ""
+release_date: "September 22, 2020"
 game_modes: ["Single-player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1392790/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://ghostgoats.itch.io/asteroids-but-roguelite"
 protondb_url: "https://www.protondb.com/app/1392790"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

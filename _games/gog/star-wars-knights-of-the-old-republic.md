@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Activision, LucasArts, Aspyr Media
 developer: BioWare
 genre: role-playing, adventure
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/830040ae731c46773ca9be6b918487763f3aa4e94296
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/star_wars_knights_of_the_old_republic"
 protondb_url: "https://www.protondb.com/app/32370"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

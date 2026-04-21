@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1c970a07c9e8bf3c6782c7334c72eee647a89730aa9c
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/riot_civil_unrest"
 protondb_url: "https://www.protondb.com/app/342310"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

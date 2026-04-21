@@ -10,7 +10,7 @@ permalink: /games/epic/floppy-knights/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "July '24"
+date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
@@ -19,7 +19,7 @@ developer: Rose City Games
 genre: "Adventure, Strategy, Turn-based strategy (TBS), Indie, Tactical, Card & Board Game"
 release_date: "May 24, 2022"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
 
 # Images
 banner_image: "https://images.gog.com/4b1d18288e72f0a3adce82bba9db8c0b7071a70a037316b48268b3eec877f9b2.jpg?namespace=gamesdb"
@@ -28,15 +28,16 @@ icon_image: "https://images.gog.com/2319066743a0e33bdef380a37a9480c54e8b28bb8b29
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
 
 # Epic Features
 requires_eos: false
-supports_eos: false
-epic_achievements: false
-epic_offline_mode: false
+supports_eos: true
+epic_achievements: true
+epic_offline_mode: true
 epic_cloud_saves: false
 must_be_online: false
 
@@ -46,13 +47,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/floppy-knights"
+store_url: "https://store.epicgames.com/en-US/p/floppy-knights-6a735a"
 protondb_url: "https://www.protondb.com/app/1057800"
-pcgamingwiki_url: ""
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Floppy_Knights"
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/pc/floppy-knights?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

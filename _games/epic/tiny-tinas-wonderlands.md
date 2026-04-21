@@ -10,7 +10,7 @@ permalink: /games/epic/tiny-tinas-wonderlands/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "May '25"
+date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/774d9e0410bf21f36ede2f8525f61c0bbf460e268e4d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tiny-tinas-wonderlands"
 protondb_url: "https://www.protondb.com/app/1286680"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tiny_Tina%27s_Wonderlands"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -58,7 +62,7 @@ known_issues:
 
 # Meta
 database_id: "eb6ddfb245f647e2bb6902f52f38a535"
-is_featured: true
+is_featured: false
 ---
 
 Embark on an epic adventure full of whimsy, wonder, and high-powered weaponry! Bullets, magic, and broadswords collide across this chaotic fantasy world brought to life by the unpredictable Tiny Tina.

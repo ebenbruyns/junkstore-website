@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/e3ca37e993690dbe0cdf0d6a86d0b07841be88e9af51
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/q-u-b-e-10th-anniversary"
 protondb_url: "https://www.protondb.com/app/1564220"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime"

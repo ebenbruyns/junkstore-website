@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Raw Fury
 developer: High North Studios AS
 genre: Indie, RPG
-release_date: ""
+release_date: "May 30, 2024"
 game_modes: ["Single-player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1069160/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/skald-against-the-black-priory-cffcc0"
 protondb_url: "https://www.protondb.com/app/1069160"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Skald:_Against_the_Black_Priory"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! Decky plugin - may need to adjust the scaling."

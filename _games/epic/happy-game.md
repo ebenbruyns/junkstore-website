@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/50628ced8ff86b4fe2ab427b9af32d9f9339e01fa6d7
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/happy-game-35a105"
 protondb_url: "https://www.protondb.com/app/1206060"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Happy_Game"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/happy-game?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

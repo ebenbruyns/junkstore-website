@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1fc1070dfa421c453f79610750cfc6bec81f44ccd5fd
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/formula-evolution-2024-085f66"
 protondb_url: "https://www.protondb.com/app/2456080"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

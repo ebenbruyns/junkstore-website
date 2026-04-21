@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ce0c2a7bd9518ec87293b2505d0047f0e576904328e6
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/amerzone_the_explorers_legacy"
 protondb_url: "https://www.protondb.com/app/302190"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box, but need to map the controller.

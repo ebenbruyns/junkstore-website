@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/df6f34e3368e9bbcd97f203228a9711394849499ca05
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/outliver-tribulation"
 protondb_url: "https://www.protondb.com/app/1236930"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "May need to verify with Epic account before launch. Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ runtime."

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f8981a8d45ada3097eecf4f5823564e605c9710fdaaf
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deus-ex-mankind-divided-4c6370"
 protondb_url: "https://www.protondb.com/app/337000"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex:_Mankind_Divided"
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/pc/deus-ex-mankind-divided?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

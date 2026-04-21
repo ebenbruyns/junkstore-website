@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/e9d176ce18d73e4b98e4d7a76c65c02236af16e4df4b
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bus-simulator-21-next-stop"
 protondb_url: "https://www.protondb.com/app/976590"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency, no extra setup required."

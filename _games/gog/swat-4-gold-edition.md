@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Activision, Sierra Entertainment, Vivendi Universal
 developer: Irrational Games
 genre: strategy, shooter, tactical
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/17ab59811da3619889b9f01724f58d77909bbd94aa05
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/swat_4"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/swat-4/"
 
 # Notes
 notes: Requires manual controller/key mapping.

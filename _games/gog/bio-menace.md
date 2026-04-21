@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6e9cfdab547bbe7f9931f13f0ff47a91a7e91aa0df38
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: true
 required_launcher: "scummvm"
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/bio_menace"
 protondb_url: "https://www.protondb.com/app/358180"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Requires ScummVM. Community controller layout available. **Decky Plugin: Not Supported**. **Pro Version: Works out of the box**."

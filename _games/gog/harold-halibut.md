@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Slow Bros.
 developer: Slow Bros.
 genre: Adventure, Casual, Indie
-release_date: ""
+release_date: "April 16, 2024"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Japanese","Korean","Russian","Turkish"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/924750/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/harold_halibut"
 protondb_url: "https://www.protondb.com/app/924750"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Harold_Halibut"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

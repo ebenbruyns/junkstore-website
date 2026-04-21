@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a5f81632f3526dcf4f1ad1c4dc9dac72ddd26f1456b3
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jurassic-world-evolution"
 protondb_url: "https://www.protondb.com/app/648350"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/pc/jurassic-world-evolution?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

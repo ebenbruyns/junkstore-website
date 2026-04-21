@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c7deec3469436f9ecf524f5c2138ad0296d0fd01d910
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/lust_theory_season_1"
 protondb_url: "https://www.protondb.com/app/1607130"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

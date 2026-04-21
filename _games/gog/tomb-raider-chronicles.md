@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/32b4d8adc22c81e34db06f6c011769e3b4878587ad07
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/tomb_raider_chronicles"
 protondb_url: "https://www.protondb.com/app/225000"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping and scaling tweaks via QAM.

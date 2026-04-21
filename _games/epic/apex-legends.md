@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ce4152a0cda762c0e67a02a1f30e7db489950c5a22ec
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: true
 # Links
 store_url: "https://store.epicgames.com/en-US/p/apex-legends"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: EA games are not yet supported through Junk Store.

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/883eb5100d49ff1cb1e63efbcb574cd1aeadfa4cfbcf
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/the_knights_of_the_old_republic_ii_the_sith_lords"
 protondb_url: "https://www.protondb.com/app/208580"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

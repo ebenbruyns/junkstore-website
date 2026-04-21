@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/267edb798f59e49175189e0095553aeeeb33cfbbb1e4
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga"
 protondb_url: "https://www.protondb.com/app/920210"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/pc/lego-star-wars-the-skywalker-saga?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

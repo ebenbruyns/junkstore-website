@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b594407dd97769761b05457e93457ccc05d8357dc396
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/life_and_suffering_of_sir_brante_chapter_1_and_2"
 protondb_url: "https://www.protondb.com/app/1460090"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

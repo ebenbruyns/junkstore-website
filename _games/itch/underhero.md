@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Digerati Distribution
 developer: Paper Castle Media
 genre: Role-playing (RPG), Adventure, Indie, Platform
-release_date: ""
+release_date: "September 19, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/573320/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://papercastlegames.itch.io/underhero"
 protondb_url: "https://www.protondb.com/app/573320"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Underhero"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

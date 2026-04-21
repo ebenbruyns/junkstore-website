@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/98a6e91037000e251d37935a5a79721c35466a4e7294
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/colt_canyon"
 protondb_url: "https://www.protondb.com/app/940710"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

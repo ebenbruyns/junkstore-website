@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Grey Box, Six Foot
 developer: Tequila Works
 genre: Adventure, Indie, Platform, Puzzle
-release_date: ""
+release_date: "May 26, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/41715442a974c69af88cbffbae8d7c0385fd3be8554c
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rime"
 protondb_url: "https://www.protondb.com/app/493200"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/pc/rime?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

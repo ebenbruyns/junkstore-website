@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/7a5f1145a10c357c48a26bd8a80b30530e7c45a2abae
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/mail_time"
 protondb_url: "https://www.protondb.com/app/1607240"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

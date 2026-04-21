@@ -17,7 +17,7 @@ proton_version: ""
 publisher: bighandinsky
 developer: bighandinsky
 genre: Indie
-release_date: ""
+release_date: "November 6, 2020"
 game_modes: ["Single-player"]
 languages: ["English**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1399540/capsule_231x87.j
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://bighandinsky.itch.io/forgetful-loop"
 protondb_url: "https://www.protondb.com/app/1399540"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Requires manual mapping of key bindings.

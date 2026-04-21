@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/21ed0b06ca3bf5e4ccc8efafa6f1a9079580c362ada4
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/greak_memories_of_azur"
 protondb_url: "https://www.protondb.com/app/1311070"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Greak:_Memories_of_Azur"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

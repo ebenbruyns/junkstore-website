@@ -17,7 +17,7 @@ proton_version: ""
 publisher: m12y
 developer: m12y
 genre: Indie, Puzzle
-release_date: ""
+release_date: "July 6, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/654810/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://m12y.itch.io/a-snakes-tale"
 protondb_url: "https://www.protondb.com/app/654810"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Snake%27s_Tale"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

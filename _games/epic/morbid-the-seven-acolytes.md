@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/3f63b0257bc7ba6253d1e143fd76d9ed54ab9732af27
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/morbid-the-seven-acolytes"
 protondb_url: "https://www.protondb.com/app/1140890"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

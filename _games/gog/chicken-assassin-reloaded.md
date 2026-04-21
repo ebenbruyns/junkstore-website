@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a5494ee5ff41abc855281aa9c40297b02ef02195d400
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/chicken_assassin_reloaded"
 protondb_url: "https://www.protondb.com/app/489610"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

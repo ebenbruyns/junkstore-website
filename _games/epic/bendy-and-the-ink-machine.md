@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Joey Drew Studios
 developer: Joey Drew Studios
 genre: Action, Adventure, Indie, Strategy
-release_date: ""
+release_date: "April 27, 2017"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese*languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/622650/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bendy-and-the-ink-machine-60cf5a"
 protondb_url: "https://www.protondb.com/app/622650"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bendy_and_the_Ink_Machine"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

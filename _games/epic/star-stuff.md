@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0ea35cee69fa93abbc99c5f15eda0ac508632e4dd330
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/star-stuff"
 protondb_url: "https://www.protondb.com/app/1955110"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."

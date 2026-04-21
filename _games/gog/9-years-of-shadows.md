@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/4ee6b7492cb030a07b2f647aecf85d190efdf2e35c50
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/9_years_of_shadows"
 protondb_url: "https://www.protondb.com/app/1402120"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

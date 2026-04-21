@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6ce5d21c29eb567ffa77c4f8edf1c9eadc6612158a76
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/redout-enhanced-edition"
 protondb_url: "https://www.protondb.com/app/517710"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/redout-2016?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Install."

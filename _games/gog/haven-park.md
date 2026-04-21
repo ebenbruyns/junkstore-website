@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1b0d706c51f2218852c48d2b3bfe2a427a7d98a9cb56
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/haven_park"
 protondb_url: "https://www.protondb.com/app/1549550"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Haven_Park"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

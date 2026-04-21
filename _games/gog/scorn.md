@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/65cb67ae368291bcde67d2d307ace678d53c993a68bc
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/scorn"
 protondb_url: "https://www.protondb.com/app/698670"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. May need C++ Runtime. Resolution wrong on launch but automatically set to correct one after opening settings menu."

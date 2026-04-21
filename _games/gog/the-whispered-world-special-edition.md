@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/3f9e6fda5b0095cd431049898c38ad4319d75d5b42e7
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/whispered_world_special_edition"
 protondb_url: "https://www.protondb.com/app/268540"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

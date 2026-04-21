@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Jackbox Games, Inc.
 developer: Jackbox Games, Inc.
 genre: Casual, Indie, Strategy
-release_date: ""
+release_date: "October 18, 2017"
 game_modes: ["Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/610180/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jackbox-party-pack-4"
 protondb_url: "https://www.protondb.com/app/610180"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Jackbox_Party_Pack_4"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/738c359506944e06a664a4c97d342f714389ecce6a0d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/moonscars"
 protondb_url: "https://www.protondb.com/app/1374970"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

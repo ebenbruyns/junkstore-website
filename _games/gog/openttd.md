@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/9531038872dde85dbed650b592b7ff9d843cf7aec522
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/openttd"
 protondb_url: "https://www.protondb.com/app/1536610"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/OpenTTD"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box you just need to change controller mapping!"

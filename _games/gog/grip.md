@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/523cd421768ed38d6a4ec49d91256a1de044b7a32d9b
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/grip"
 protondb_url: "https://www.protondb.com/app/396900"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/grip?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

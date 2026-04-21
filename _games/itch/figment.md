@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Bedtime Digital Games
 developer: Bedtime Digital Games
 genre: Adventure, Indie, Platform, Puzzle, Music
-release_date: ""
+release_date: "September 22, 2017"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/493540/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://bedtimedigitalgames.itch.io/figment"
 protondb_url: "https://www.protondb.com/app/493540"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment"
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/pc/figment?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

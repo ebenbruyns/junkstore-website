@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/55150/capsule_231x87.jpg
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/55150"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40,000:_Space_Marine"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/pc/warhammer-40000-space-marine?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Imported from library - not yet tested

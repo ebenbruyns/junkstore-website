@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d73158d14cde3bd8a629208384066ebc0b7305edf226
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jennifer-wilde-unlikely-revolutionaries"
 protondb_url: "https://www.protondb.com/app/1466350"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

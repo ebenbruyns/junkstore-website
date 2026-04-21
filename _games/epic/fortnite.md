@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ce5b19ecd837e3a4ba9313a1a9857aa46b95c629e05b
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: true
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fortnite"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Imported from library - not yet tested

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/98451d0056af5a656fddd568b2f10b06a76681c8e158
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/endless_sky"
 protondb_url: "https://www.protondb.com/app/404410"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Endless_Sky"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Goblinz Publishing
 developer: TavroxGames
 genre: Indie, RPG, Strategy
-release_date: ""
+release_date: "March 18, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Russian","Simplified Chinese","Korean","Traditional Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1253860/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/https://www.gog.com/en/game/neurodeck_psychological_deckbuilder"
 protondb_url: "https://www.protondb.com/app/1253860"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neurodeck"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/658f0d15d02e2680112c85c4df1db4b27e00dcb34f5f
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/game/postal-2"
 protondb_url: "https://www.protondb.com/app/223470"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 59
+metacritic_url: "https://www.metacritic.com/game/pc/postal-2-share-the-pain?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Need to set an exe for Decky version."

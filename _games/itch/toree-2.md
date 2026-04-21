@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Siactro, Diplodocus Games
 developer: Siactro
 genre: Adventure, Indie, Platform, Arcade
-release_date: ""
+release_date: "September 30, 2021"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1722620/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://siactro.itch.io/toree-2"
 protondb_url: "https://www.protondb.com/app/1722620"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Toree_2"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

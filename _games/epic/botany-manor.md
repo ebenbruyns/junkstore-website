@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Whitethorn Games
 developer: Balloon Studios
 genre: Adventure
-release_date: ""
+release_date: "April 9, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Japanese","Spanish - Latin America","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1425350/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/botany-manor-e7c456"
 protondb_url: "https://www.protondb.com/app/1425350"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Botany_Manor"
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/pc/botany-manor?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

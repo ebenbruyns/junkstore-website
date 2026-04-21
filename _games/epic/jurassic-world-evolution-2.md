@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/e830ce00665938d6b93e14113058537be2e6b5269a07
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jurassic-world-evolution-2"
 protondb_url: "https://www.protondb.com/app/1244460"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/pc/jurassic-world-evolution-2?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "You do need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."

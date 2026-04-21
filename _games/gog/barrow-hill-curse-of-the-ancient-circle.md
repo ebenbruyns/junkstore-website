@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Shadow Tor Studios
 developer: Shadow Tor Studios
 genre: adventure, indie, point-and-click
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/3d62d7f2b717e1ce382ee931d8a199e5182709426852
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/barrow_hill_curse_of_the_ancient_circle"
 protondb_url: "https://www.protondb.com/app/494360"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

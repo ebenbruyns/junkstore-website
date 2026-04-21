@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2d27d25c79c329f186d1301d1eed4802614fe34607e4
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: "dosbox"
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/akalabeth_world_of_doom"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Akalabeth:_World_of_Doom"
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/akalabeth-world-of-doom/"
 
 # Notes
 notes: You need to change the platform to Dosbox under Game Configs from the cog icon on the game page.

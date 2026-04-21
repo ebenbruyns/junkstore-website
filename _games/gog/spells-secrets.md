@@ -10,7 +10,7 @@ permalink: /games/gog/spells-secrets/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "Aug '24"
+date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
@@ -19,7 +19,7 @@ developer: Alchemist Interactive
 genre: Adventure, Indie, Puzzle
 release_date: "November 9, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English","German","French","Italian","Spanish - Spain","Japanese","Simplified Chinese"]
 
 # Images
 banner_image: "https://images.gog.com/a9c611f1e7e9411fa4fd31700c7b8c8162185d2dc0bfae394303c013f93937c8.jpg?namespace=gamesdb"
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c47d236003a2f4a60e1278606ec8a504036e5c0a50a8
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -46,13 +47,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # Links
-store_url: "https://www.gog.com/en/game/spells_and_secrets"
+store_url: "https://www.gog.com/en/game/spells_secrets"
 protondb_url: "https://www.protondb.com/app/1518220"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

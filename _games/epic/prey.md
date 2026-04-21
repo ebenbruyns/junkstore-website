@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ed02806fcf5dab299f8244192dd2fcc335319ee2aa93
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/prey"
 protondb_url: "https://www.protondb.com/app/480490"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

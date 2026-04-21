@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ebe949262a7ba7309c9f3e27b35c7cfe0ef7cf1f1d4d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/darq"
 protondb_url: "https://www.protondb.com/app/433550"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6ed62e43c21be5382dde5617aa07a98fe0fba758dfa4
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/humankind"
 protondb_url: "https://www.protondb.com/app/1124300"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

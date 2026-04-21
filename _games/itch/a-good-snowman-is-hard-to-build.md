@@ -17,7 +17,7 @@ proton_version: ""
 publisher: "Draknek & Friends"
 developer: Alan Hazelden
 genre: Indie
-release_date: ""
+release_date: "February 25, 2015"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Russian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/316610/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://draknek.itch.io/a-good-snowman"
 protondb_url: "https://www.protondb.com/app/316610"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Good_Snowman_Is_Hard_to_Build"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

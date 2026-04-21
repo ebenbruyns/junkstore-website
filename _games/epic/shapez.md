@@ -19,7 +19,7 @@ developer: Tobias Springer
 genre: Strategy, Indie, Puzzle, Simulator
 release_date: "June 7, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Czech","German","Korean","Spanish - Spain","Dutch","Polish","Portuguese - Portugal","Russian"]
 
 # Images
 banner_image: "https://images.gog.com/d7feb650e03ad7a4dfd763f15eee81ce30217057ba2d7538ef483426ffa9a7a2.jpg?namespace=gamesdb"
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f18865fae589ec95a9add8a2aa090939dc344b86f365
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -46,9 +47,12 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/shapez"
+store_url: "https://store.epicgames.com/en-US/p/shapez-0929c9"
 protondb_url: "https://www.protondb.com/app/1318690"
-pcgamingwiki_url: ""
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shapez"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

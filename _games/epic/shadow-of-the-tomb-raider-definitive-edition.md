@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/5f92d2cce24964df36d3fb0894562d3c6fe9de55fe60
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/shadow-of-the-tomb-raider-definitive-edition"
 protondb_url: "https://www.protondb.com/app/750920"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/pc/shadow-of-the-tomb-raider?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Set the graphics to medium, enable Exclusive full screen, turn on AMD FidelityFX, HDR and set refresh rate to 45.

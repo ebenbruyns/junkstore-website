@@ -28,6 +28,7 @@ icon_image: "https://cdn1.epicgames.com/spt-assets/b31041ff2f934d19954ee76213cf8
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/astralium-ee19a6"
 protondb_url: "https://www.protondb.com/app/3258470"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

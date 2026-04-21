@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Humble Games
 developer: Squid Shock Studios
 genre: Action, Adventure, Indie
-release_date: ""
+release_date: "July 17, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America","Korean","Traditional Chinese","Ukrainian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1614440/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/bo_path_of_the_teal_lotus"
 protondb_url: "https://www.protondb.com/app/1614440"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/B%C5%8D:_Path_of_the_Teal_Lotus"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

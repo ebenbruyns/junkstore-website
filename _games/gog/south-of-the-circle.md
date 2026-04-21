@@ -10,7 +10,7 @@ permalink: /games/gog/south-of-the-circle/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "Aug '24"
+date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
@@ -19,15 +19,16 @@ developer: State of Play Games
 genre: Adventure, Point-and-click
 release_date: "October 30, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English*","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Korean","Portuguese - Portugal"]
 
 # Images
-banner_image: "https://images.gog.com/86366db4f52cc9b8a760fb2974c337340bfa36e7c02b940422feb7f6c4ff95b8.jpg?namespace=gamesdb"
-cover_image: "https://images.gog.com/b99906adf5770060e251a3eb87d7eb93301280341912a5edf90e9b136a11e5bb.jpg?namespace=gamesdb"
-icon_image: "https://images.gog.com/ac21a6d32bd49675565ca5e080eb4446fff1c74dddd378b4ae51d5e918a5912b.jpg?namespace=gamesdb"
+banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1811040/library_hero.jpg"
+cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/1811040/library_600x900.jpg"
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1811040/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,11 +49,14 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/south_of_the_circle"
 protondb_url: "https://www.protondb.com/app/1811040"
-pcgamingwiki_url: ""
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/South_of_the_Circle"
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/pc/south-of-the-circle?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

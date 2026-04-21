@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/698ae66ee45c34b46c79f5b985349b3d4b1eab367bc1
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/amnesia-the-dark-descent"
 protondb_url: "https://www.protondb.com/app/57300"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/pc/amnesia-the-dark-descent?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

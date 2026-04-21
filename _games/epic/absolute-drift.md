@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Funselektor Labs
 developer: Funselektor Labs
 genre: Indie, Sport, Arcade, Simulator, Racing
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/8d3ae65ad3eeb135c284838f109c5988e27253315419
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/absolute-drift"
 protondb_url: "https://www.protondb.com/app/320140"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Absolute_Drift"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

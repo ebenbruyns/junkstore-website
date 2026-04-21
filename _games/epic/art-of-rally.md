@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b489b17adecb4e813fe37f8501373c52d233e259ce4c
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/art-of-rally"
 protondb_url: "https://www.protondb.com/app/550320"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Art_of_Rally"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

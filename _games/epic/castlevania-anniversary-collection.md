@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2920263403abac29c17415a8581a48a41b778d82ac6f
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/castlevania-anniversary-collection"
 protondb_url: "https://www.protondb.com/app/1018010"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You may want to adjust resolution/scaling."

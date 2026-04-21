@@ -17,7 +17,7 @@ proton_version: ""
 publisher: "Basically, Games!"
 developer: "Basically, Games!"
 genre: Strategy, Indie
-release_date: ""
+release_date: "June 11, 2020"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1275890/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://basically-games.itch.io/baldis-basics-plus"
 protondb_url: "https://www.protondb.com/app/1275890"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Baldi%27s_Basics_Plus"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

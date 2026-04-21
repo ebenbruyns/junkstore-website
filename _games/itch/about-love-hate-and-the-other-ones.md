@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Black Pants Game Studio
 developer: Black Pants Game Studio
 genre: Adventure, Indie, Puzzle
-release_date: ""
+release_date: "October 23, 2012"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/277680/capsule_231x87.jp
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://blackpants.itch.io/about-love-hate-and-the-other-ones"
 protondb_url: "https://www.protondb.com/app/277680"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/About_Love,_Hate_and_the_other_ones"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

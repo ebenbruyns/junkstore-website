@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/92f6c693dccaf7845187ab7682a41d40df4b76c12eda
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/deep_sky_derelicts"
 protondb_url: "https://www.protondb.com/app/698640"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deep_Sky_Derelicts"
+metacritic_score: 70
+metacritic_url: "https://www.metacritic.com/game/pc/deep-sky-derelicts?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

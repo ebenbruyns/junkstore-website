@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2052f7ddc8cf0565c78ab2dc05ba023422f83537ad62
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,11 +49,14 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/blood_omen_legacy_of_kain"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/blood-omen-legacy-of-kain/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

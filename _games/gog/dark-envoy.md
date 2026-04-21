@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c084714047ad0d8cd5bd1625640b0ef721c2d92b7a4f
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/dark_envoy"
 protondb_url: "https://www.protondb.com/app/945770"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box

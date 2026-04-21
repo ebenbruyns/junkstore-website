@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/169db8a7bfc21152b9ab74b8a0d119cbdd3846d3a804
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/heads_will_roll_downfall"
 protondb_url: "https://www.protondb.com/app/1903060"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Plug In Digital
 developer: Snoozy Kazoo
 genre: Action, Adventure, Indie
-release_date: ""
+release_date: "January 18, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Latin America","Korean","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2097230/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/turnip-boy-robs-a-bank-3fae0e"
 protondb_url: "https://www.protondb.com/app/2097230"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Turnip_Boy_Robs_a_Bank"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -58,7 +62,7 @@ known_issues:
 
 # Meta
 database_id: "5a957b485bc148f3959acc964fab9da3"
-is_featured: true
+is_featured: false
 ---
 
 Turnip Boy is back! This time he’s teaming up with the fearsome Pickled Gang to plan and execute the weirdest heist of all time. Shake down hostages, steal precious valuables, battle the fuzz, and use wacky tools bought off the dark web to move further into the vaults of the Botanical Bank.

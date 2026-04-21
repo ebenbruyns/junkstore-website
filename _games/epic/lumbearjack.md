@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/35aab8d2df1c7849dd303b3da363ead39d5e4533e56d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lumbearjack"
 protondb_url: "https://www.protondb.com/app/1582290"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

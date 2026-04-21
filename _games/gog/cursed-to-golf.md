@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/fabe3a4788a2434e8408c93e1acdb445224c54def3c0
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/cursed_to_golf"
 protondb_url: "https://www.protondb.com/app/1726120"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/cursed-to-golf?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

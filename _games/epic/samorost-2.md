@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Amanita Design
 developer: Amanita Design
 genre: Adventure, Casual, Indie
-release_date: ""
+release_date: "December 10, 2009"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Arabic*","Portuguese - Brazil*","Bulgarian*","Danish*","Finnish*"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/40720/capsule_231x87.jpg
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/samorost-2-1b9bb1"
 protondb_url: "https://www.protondb.com/app/40720"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Samorost_2"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "You need to toggle off a config, follow this path and toggle off: Game screen > Cog > Proton > Set Steam Compatibility Library Paths (toggle off for this game)."

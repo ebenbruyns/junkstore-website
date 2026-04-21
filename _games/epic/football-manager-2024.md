@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/61c108f33def83d631ec67f2c2f8194c45b9393d0d17
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/football-manager-2024"
 protondb_url: "https://www.protondb.com/app/2252570"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

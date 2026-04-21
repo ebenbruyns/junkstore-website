@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Midjiwan AB
 developer: Midjiwan AB
 genre: Action, Adventure, Casual, Indie, Simulation, Strategy
-release_date: ""
+release_date: "August 4, 2020"
 game_modes: ["Single-player","Multi-player"]
 languages: ["English","French","Italian","German","Portuguese - Brazil","Russian","Spanish - Latin America","Spanish - Spain","Portuguese - Portugal","Japanese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/874390/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-battle-of-polytopia-12fed6"
 protondb_url: "https://www.protondb.com/app/874390"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Battle_of_Polytopia"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/the-battle-of-polytopia?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: 

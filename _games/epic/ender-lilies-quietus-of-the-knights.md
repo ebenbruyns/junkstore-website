@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/02fcebba3615fd7c851c685adbc2b52831d3036aa416
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ender-lilies-quietus-of-the-knights"
 protondb_url: "https://www.protondb.com/app/1369630"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 86
+metacritic_url: "https://www.metacritic.com/game/pc/ender-lilies-quietus-of-the-knights?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

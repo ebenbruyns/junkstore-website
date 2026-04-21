@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Turning Wheel LLC
 developer: Turning Wheel LLC
 genre: Role-playing (RPG), Adventure
-release_date: ""
+release_date: "June 23, 2015"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ceb4c869081cb452d9135943e1491f3d3124865b88b1
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/barony"
 protondb_url: "https://www.protondb.com/app/371970"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

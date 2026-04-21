@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b3c22193572fe28be836080813fdf2149930bbcb05df
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/kill-knight"
 protondb_url: "https://www.protondb.com/app/2694420"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 88
+metacritic_url: "https://www.metacritic.com/game/pc/kill-knight?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

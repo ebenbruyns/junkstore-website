@@ -17,7 +17,7 @@ proton_version: ""
 publisher: New Blood Interactive
 developer: Indefatigable
 genre: indie, shooter
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a733a63dd76b0f7aac89321d634b8af67a3320978a9d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/amid_evil"
 protondb_url: "https://www.protondb.com/app/673130"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/pc/amid-evil?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

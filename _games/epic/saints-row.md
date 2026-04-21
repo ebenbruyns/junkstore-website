@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/28f799911089622923228e7617ffd338a7565d7f6d0e
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/saints-row"
 protondb_url: "https://www.protondb.com/app/742420"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

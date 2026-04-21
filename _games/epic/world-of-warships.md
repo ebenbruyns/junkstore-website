@@ -10,7 +10,7 @@ permalink: /games/epic/world-of-warships/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "Aug '24"
+date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
@@ -19,7 +19,7 @@ developer: Wargaming.net
 genre: Shooter, Simulator, Real Time Strategy (RTS), Tactical
 release_date: "September 17, 2015"
 game_modes: ["Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
-languages: ["English"]
+languages: ["English*","French*","German*","Czech","Japanese*","Polish*","Russian*","Thai","Turkish","Spanish - Spain*"]
 
 # Images
 banner_image: "https://images.gog.com/0098df493a3e99bc194a998c96ad389b13a336e08cce90abba6a2570242e41a5.jpg?namespace=gamesdb"
@@ -27,10 +27,11 @@ cover_image: "https://images.gog.com/0ef85e7b82cd47577eabe77fdf784dfbb6d40dadd3a
 icon_image: "https://images.gog.com/1ed29c344de258ee89aa6bb07e9baf9022ca103534c7637effa57e2d1bb744cc.jpg?namespace=gamesdb"
 
 # Technical Details
-controller_input: "requires-mapping"
+controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
-requires_account_setup: false
-account_type: ""
+requires_account_setup: true
+account_type: "Wargaming Account"
 
 # Epic Features
 requires_eos: false
@@ -38,7 +39,7 @@ supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
-must_be_online: false
+must_be_online: true
 
 # Anti-Cheat
 requires_eac_runtime: false
@@ -48,10 +49,13 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/world-of-warships"
 protondb_url: "https://www.protondb.com/app/552990"
-pcgamingwiki_url: ""
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/World_of_Warships"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/world-of-warships?ftag=MCD-06-10aaa1f"
 
 # Notes
-notes: Requires manual controller/key mapping.
+notes: "Works out of the box!<br>\nSet the exe to bypass the launcher. Requires manual controller/key mapping."
 controller_config: 
 performance_notes: 
 known_issues: 

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d89db042fff057a843c1f5ea0221cf376e91ff752e24
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/blazing-sails"
 protondb_url: "https://www.protondb.com/app/1158940"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

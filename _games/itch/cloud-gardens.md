@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Noio
 developer: Noio
 genre: Strategy, Indie, Puzzle, Simulator
-release_date: ""
+release_date: "September 1, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1372320/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://noio.itch.io/cloud-gardens"
 protondb_url: "https://www.protondb.com/app/1372320"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cloud_Gardens"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

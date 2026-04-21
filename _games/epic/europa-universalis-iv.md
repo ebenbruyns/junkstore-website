@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/4549f2e85bd14d7a8f2009fa1dc773c8dc7a6a64ccea
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: "Paradox Interactive"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/europa-universalis-iv"
 protondb_url: "https://www.protondb.com/app/236850"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Europa_Universalis_IV"
+metacritic_score: 87
+metacritic_url: "https://www.metacritic.com/game/pc/europa-universalis-iv?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box! You will need a Paradox Interactive account to play this game. You also need to either use the touch screen or change controller setting to use the mouse."

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d5b0d87e86c535f8b4d2cadcd2d8674e629acd348709
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/saints_row_the_third_remastered"
 protondb_url: "https://www.protondb.com/app/978300"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f829e08fcf0d716c957cf2720fe3afe5a961b5312e0d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rise-of-the-tomb-raider-20-year-celebration"
 protondb_url: "https://www.protondb.com/app/391220"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 86
+metacritic_url: "https://www.metacritic.com/game/pc/rise-of-the-tomb-raider?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

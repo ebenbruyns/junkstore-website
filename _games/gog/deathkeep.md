@@ -17,7 +17,7 @@ proton_version: ""
 publisher: SNEG
 developer: Lion Entertainment
 genre: Action, Adventure, RPG
-release_date: ""
+release_date: "March 27, 2023"
 game_modes: ["Single-player"]
 languages: ["English**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2350540/capsule_231x87.j
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/deathkeep"
 protondb_url: "https://www.protondb.com/app/2350540"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/DeathKeep"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! You may need to adjust the scaling for this game via the QAM."

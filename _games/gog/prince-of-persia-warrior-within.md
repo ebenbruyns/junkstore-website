@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c04e17ed6a338947d7908efa92c7ad2c042146980016
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/prince_of_persia_warrior_within"
 protondb_url: "https://www.protondb.com/app/13500"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia-warrior-within?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

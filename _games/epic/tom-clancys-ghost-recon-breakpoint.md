@@ -19,7 +19,7 @@ developer: Ubisoft Paris
 genre: Adventure, Shooter, Tactical
 release_date: "October 4, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Arabic","Czech","Dutch","Japanese*","Korean"]
 
 # Images
 banner_image: "https://images.gog.com/5e6ba7885094f879d710a68c598d90bb3aa0cb7135d38e1229decde10a77b2c8.jpg?namespace=gamesdb"
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/de6bc00087302ccfd1fd14e76c0a95f7fb519c91419a
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -47,8 +48,11 @@ cant_test_linux: true
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tom-clancy-s-ghost-recon-breakpoint"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2231380"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 56
+metacritic_url: "https://www.metacritic.com/game/tom-clancys-ghost-recon-breakpoint/"
 
 # Notes
 notes: 

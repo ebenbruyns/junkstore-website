@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Daniel Linssen
 developer: Daniel Linssen
 genre: Platformer
-release_date: ""
+release_date: "August 11, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://cdn2.steamgriddb.com/thumb/420f64a4fd57fd93e1fc45a0c9c5aa85
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://managore.itch.io/roguelight"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/roguelight/"
 
 # Notes
 notes: "Works out of the box!"

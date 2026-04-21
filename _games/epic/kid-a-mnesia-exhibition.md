@@ -8,8 +8,8 @@ storefront_key: "epic"
 permalink: /games/epic/kid-a-mnesia-exhibition/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: ""
+standalone_rating: ""
 date_tested: "July '25"
 proton_version: ""
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/be9bb7f551108652d07a78019438f8426e3d6d46a48f
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,11 +49,14 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/kid-a-mnesia-exhibition"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/kid-a-mnesia-exhibition/"
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Prompted to install C++ runtime, ships with game."
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

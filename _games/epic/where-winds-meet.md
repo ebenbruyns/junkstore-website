@@ -17,7 +17,7 @@ proton_version: ""
 publisher: NetEase Games
 developer: Everstone Studio
 genre: Action, Adventure, RPG, Free To Play
-release_date: ""
+release_date: "November 14, 2025"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","Japanese","Simplified Chinese*","Traditional Chinese*","Korean","French","German","Spanish - Latin America","Portuguese - Brazil*languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/3564740/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/where-winds-meet-58a176"
 protondb_url: "https://www.protondb.com/app/3564740"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Where_Winds_Meet"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!<br> Make sure you launch first time in **Desktop/Big Picture Mode** to accept the EULA otherwise game will crash in gamemode."

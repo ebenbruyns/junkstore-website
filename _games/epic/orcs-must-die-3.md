@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/73fca4c3891a5e93438da0eb88dcebc5eee523734b7e
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/orcs-must-die-3"
 protondb_url: "https://www.protondb.com/app/1522820"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Needs C++ runtime but it ships with it."

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a20be7c068dd85dc3bd4f41e2b7a49a191c7096c5226
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/dagon_by_h_p_lovecraft"
 protondb_url: "https://www.protondb.com/app/1481400"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dagon:_by_H._P._Lovecraft"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

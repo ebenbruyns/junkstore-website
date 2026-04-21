@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Tequila Works
 developer: Tequila Works
 genre: Action, Adventure
-release_date: ""
+release_date: "July 6, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Korean","Danish","Finnish","Japanese","Norwegian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2206210/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/2206210"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gylt"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

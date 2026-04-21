@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a7a09b3ac646a6cb2ff952df4c6ff40d5ffe2e073db8
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/tower_of_time"
 protondb_url: "https://www.protondb.com/app/617480"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tower_of_Time"
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/pc/tower-of-time?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: May need to map additional keys for actions in game.

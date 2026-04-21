@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/88997a2d772663ac27e56625089b0479256bec094086
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/blacksad_under_the_skin"
 protondb_url: "https://www.protondb.com/app/1003890"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blacksad:_Under_the_Skin"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

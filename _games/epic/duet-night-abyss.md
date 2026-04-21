@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Hero Games
 developer: Pan Studio
 genre: Action, Massively Multiplayer, RPG, Free To Play
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","Japanese*","Simplified Chinese*","Traditional Chinese*","Korean**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: "other"
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/duetnightabyss-016366"
 protondb_url: "https://www.protondb.com/app/3950020"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Once everything is installed and downloaded it works out of the box!\n\n**Note:** You need to make sure you have the correct account selected in order to successfully login. I had a few login failed until I saw the account icon on the right side of the screen and made sure I had an account selected. You may only have this issue if you have logged on from a different device previously."

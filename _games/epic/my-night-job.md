@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Webcore Games
 developer: Webcore Games
 genre: Action, Adventure, Indie
-release_date: ""
+release_date: "April 21, 2016"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Polish","Russian","Portuguese - Portugal"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/437100/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/my-night-job-a416a6"
 protondb_url: "https://www.protondb.com/app/437100"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/My_Night_Job"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

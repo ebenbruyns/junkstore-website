@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Activision
 developer: Vicarious Visions
 genre: Sport, Simulator
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/aff4e8c96e8b076411ea110064119dc9d4e5780ce0b3
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tony-hawk-s-pro-skater-1-2"
 protondb_url: "https://www.protondb.com/app/2395210"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

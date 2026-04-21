@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/458c67cd5e4139e7f58d2e4a69c0ec6c6a5f3913f099
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/alan-wake-2--deluxe-edition"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alan_Wake_II"
+metacritic_score: 89
+metacritic_url: "https://www.metacritic.com/game/alan-wake-ii/"
 
 # Notes
 notes: "Works out of the box! Tested with Delux Upgrade and works without issue."

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/285497372a4bce446748cdceb7aa0dde8cc034112824
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/sigma_theory_global_cold_war"
 protondb_url: "https://www.protondb.com/app/716640"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/594e0fe635de32014e2c9abd0160b767b26e6750f02a
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/mafia_ii"
 protondb_url: "https://www.protondb.com/app/50130"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia_II"
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/pc/mafia-ii?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: 

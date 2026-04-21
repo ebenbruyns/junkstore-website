@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6ff5aa21eeaaf0812fcae7664310d81e5883b43063cf
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/marvel-rivals"
 protondb_url: "https://www.protondb.com/app/2767030"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. Install C++ runtime from sliders menu - ./dependency/VC_resist.x64.exe & set ./MarvelRivals_Launcher.exe from then sliders menue."

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Pixmain
 developer: Darjeeling
 genre: Adventure, Puzzle
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1421790"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Labyrinth_City:_Pierre_the_Maze_Detective"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/labyrinth-city-pierre-the-maze-detective?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

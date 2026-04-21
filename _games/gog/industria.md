@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ddfffeee5940a9b246ea06607f96bafdd8b0452891b7
 
 # Technical Details
 controller_input: "native"
+community_layout: true
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/industria"
 protondb_url: "https://www.protondb.com/app/1172650"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 67
+metacritic_url: "https://www.metacritic.com/game/pc/industria?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. Community controller layout available. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You need to either use the mouse or touch screen to get past main menu and into the game. If you want to, you can remap controls in game from the 'Options' menu. Community layout is for the 'Steam Controller'."

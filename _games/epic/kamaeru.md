@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Armor Games Studios
 developer: Armor Games Studios
 genre: Casual, Indie, Simulation
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["Korean","Japanese","Spanish (Spain)","Portuguese (Brazil)","English","Chinese (Simplified)","German","French"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1978150/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/kamaeru-0c301e"
 protondb_url: "https://www.protondb.com/app/1978150"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/aa1700b28782f43da1d61c33bd01eb4b677a3a5c46a1
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bloons-td-6-bf95a0"
 protondb_url: "https://www.protondb.com/app/960090"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bloons_TD_6"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

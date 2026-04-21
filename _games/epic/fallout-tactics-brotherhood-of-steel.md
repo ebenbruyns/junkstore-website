@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d0c8aeb40f65c8e036dd476e19995e96a6ebcf605fcd
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fallout-tactics-brotherhood-of-steel"
 protondb_url: "https://www.protondb.com/app/38420"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/pc/fallout-tactics-brotherhood-of-steel?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Use Proton-7.0rc3-GE-1 to help with stuttering of cutscenes"

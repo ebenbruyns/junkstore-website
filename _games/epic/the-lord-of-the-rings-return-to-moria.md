@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/301803cbc1d5632a2454fb44e8a4f3057a043317e9f1
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-lord-of-the-rings-return-to-moria-f01344"
 protondb_url: "https://www.protondb.com/app/2933130"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings:_Return_to_Moria"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! You may need to install C++ Runtime for the Decky version."

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: AttritoM7 Productions
 developer: AttritoM7 Productions
 genre: Action, Simulation, Strategy
-release_date: ""
+release_date: "September 9, 2024"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","French*","Spanish - Spain","Japanese","Russian","Simplified Chinese*languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1359090/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/zero-hour-8449a0"
 protondb_url: "https://www.protondb.com/app/1359090"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Zero_Hour"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! While it does have some native controls you do need to map more actions in game."

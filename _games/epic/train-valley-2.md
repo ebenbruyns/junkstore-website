@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d097b61dd3102fb48014b6f770d7b0f7604725e5e399
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/train-valley-2"
 protondb_url: "https://www.protondb.com/app/602320"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box, but need to map the controller.

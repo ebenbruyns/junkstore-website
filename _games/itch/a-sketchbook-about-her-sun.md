@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Team SolEtude
 developer: Team SolEtude
 genre: Adventure, Visual Novel
-release_date: ""
+release_date: "June 11, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1611760/capsule_231x87.j
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://team-soletude.itch.io/a-sketchbook-about"
 protondb_url: "https://www.protondb.com/app/1611760"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

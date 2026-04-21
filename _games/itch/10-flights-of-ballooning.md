@@ -17,17 +17,18 @@ proton_version: ""
 publisher: 
 developer: 
 genre: Arcade
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
 # Images
-banner_image: ""
+banner_image: "https://images.gog.com/905bea3aaf803e06104b6a351be3e7c99754978366483f5e1883cb9dd6160625.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/f6e075ded3a56ac2fcf4ccc4e8430f0b36b4810376f6fa82b59f1b04a2c7fc2c.jpg?namespace=gamesdb"
 icon_image: ""
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://eeease.itch.io/10-flights-of-ballooning"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

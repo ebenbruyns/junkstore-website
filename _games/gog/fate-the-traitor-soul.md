@@ -17,17 +17,18 @@ proton_version: ""
 publisher: WildTangent
 developer: NIL, NIL
 genre: Role-playing (RPG), Adventure
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
 # Images
-banner_image: ""
+banner_image: "https://images.gog.com/2c1df3c3e4fa2e486216f3b0ed25ac7e98334aa87e59b5be69e40890e7139a51.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/1147ce75c8b6fd6e1902a65d329df9db9d98931bf24083c10034ed9db4afabfb.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://images.gog.com/55c2209170fd599ccaee046ee89371014493d124e6369170d840385284572827.jpg?namespace=gamesdb"
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/fate_the_traitor_soul"
 protondb_url: "https://www.protondb.com/app/303680"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

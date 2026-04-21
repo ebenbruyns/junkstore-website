@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0fa9935044a4934cce427aa4ee54a913ab989f9da8d8
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,10 +49,13 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/medal_of_honor_allied_assault_war_chest"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/medal-of-honor-allied-assault-war-chest/"
 
 # Notes
-notes: "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. In desktop mode you will get the intro video, but in Game Mode you need to map buttons to Alt+Enter in order to skip this and get to the game menu."
+notes: "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. In desktop mode you will get the intro video, but in Game Mode you need to map buttons to Alt+Enter in order to skip this and get to the game menu.\n\nIn the proton settings in the Environment section set Mesa Extension Max Year to 2002"
 controller_config: 
 performance_notes: 
 known_issues: 

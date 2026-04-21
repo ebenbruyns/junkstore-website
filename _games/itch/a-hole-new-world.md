@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Dolores Entertainment, MadGearGames
 developer: MadGearGames
 genre: Adventure, Indie, Platform, Arcade
-release_date: ""
+release_date: "May 19, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/434160/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://madgeargames.itch.io/a-hole-new-world"
 protondb_url: "https://www.protondb.com/app/434160"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Hole_New_World"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

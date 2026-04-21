@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/5a5fe104b2f85afd504fd5c240ada06e58b326723f19
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/leap_of_faith_official_walkthrough"
 protondb_url: "https://www.protondb.com/app/1768640"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

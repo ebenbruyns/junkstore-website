@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Embark Studios
 developer: Embark Studios
 genre: Action
-release_date: ""
+release_date: "October 30, 2025"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1808500/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/arc-raiders"
 protondb_url: "https://www.protondb.com/app/1808500"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ARC_Raiders"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Feedback from user who tested this game, also used built in LSFG configs in v1.1.13 on Decky Testing Store.<br> \n\n**Tested with Proton**: 10.0-3<br>\n\n\"Frame generation in the build that I tested worked awesomely .. get easy 85-90 fps medium settings 1920x1200 in FSR3 performance mode (50%).\""

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0617f704f5fcdaea9d1460b9ca7d993d7a50730590bb
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rise-of-industry-0af838"
 protondb_url: "https://www.protondb.com/app/671440"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rise_of_Industry"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Will need to map additional key bindings.

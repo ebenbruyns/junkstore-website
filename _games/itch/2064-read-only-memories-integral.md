@@ -17,7 +17,7 @@ proton_version: ""
 publisher: MidBoss
 developer: MidBoss, LLC.
 genre: Adventure, Point-and-click
-release_date: ""
+release_date: "August 14, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/330820/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/330820"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/2064:_Read_Only_Memories"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/2064-read-only-memories?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box. You may need to reset launch options if it doesn't launch first go."

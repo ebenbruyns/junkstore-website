@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a44d45c7630571d1614ef8a3789c29d0ec450a5cd2bd
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deliver-at-all-costs-a30c8d"
 protondb_url: "https://www.protondb.com/app/1880610"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deliver_at_All_Costs"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. If you are having issues, launch it twice or reinstall the dependencies (JS > About)."

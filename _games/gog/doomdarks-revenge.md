@@ -14,8 +14,8 @@ date_tested: "April '25"
 proton_version: ""
 
 # Game Info
-publisher: Beyond
-developer: NIL, NIL
+publisher: Chilli Hugger Software
+developer: Mike Singleton and Chris Wild
 genre: Role-playing (RPG), Strategy, Tactical
 release_date: "December 1, 1984"
 game_modes: ["Single player"]
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/e4070437d8e0f58ba22fe1ca5a699d7c97acb4778fe1
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/doomdarks_revenge"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/doomdarks-revenge/"
 
 # Notes
 notes: "Works out of the box!"

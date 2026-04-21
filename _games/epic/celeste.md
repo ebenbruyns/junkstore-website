@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Maddy Makes Games
 developer: Extremely OK Games
 genre: Adventure, Indie, Platform
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/dd671b444f966deadc2d9902b3e8f71f5ab0b159545b
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/celeste"
 protondb_url: "https://www.protondb.com/app/504230"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 88
+metacritic_url: "https://www.metacritic.com/game/pc/celeste?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Native controller support. Install dxvk to fix the red colour issue.

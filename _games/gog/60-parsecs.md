@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Robot Gentleman
 developer: Robot Gentleman
 genre: Adventure, Casual, Indie, RPG, Simulation, Strategy
-release_date: ""
+release_date: "September 18, 2018"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Russian","Simplified Chinese","Polish","Korean","Japanese","Italian","Spanish - Spain"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/646270/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/game/60-parsecs"
 protondb_url: "https://www.protondb.com/app/646270"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/60_Parsecs!"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

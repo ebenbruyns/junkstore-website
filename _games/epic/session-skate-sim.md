@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/dcb8213359aed5675d17d7cb596485b5cf310d4403b7
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/session-skate-sim"
 protondb_url: "https://www.protondb.com/app/861650"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

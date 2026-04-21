@@ -17,7 +17,7 @@ proton_version: ""
 publisher: ScaniX
 developer: ScaniX
 genre: Indie, Arcade
-release_date: ""
+release_date: "December 21, 2019"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1206770/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://scanix.itch.io/spasstaxi"
 protondb_url: "https://www.protondb.com/app/1206770"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spa%C3%9F_Taxi"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! May want to adjust scaling which you can do in game."

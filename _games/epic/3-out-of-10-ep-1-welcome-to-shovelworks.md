@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/3-out-of-10-ep-1"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/3_out_of_10"
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/3-out-of-10-season-one/"
 
 # Notes
 notes: "Works out of the box!"

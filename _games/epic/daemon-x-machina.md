@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/69cd587edb9a33532d0c52876685a0dfd4fa14d9fab5
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/daemon-x-machina"
 protondb_url: "https://www.protondb.com/app/1167450"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/daemon-x-machina?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

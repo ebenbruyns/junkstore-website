@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Coffee Stain Publishing
 developer: Coffee Stain North
 genre: Adventure, Casual, Simulation
-release_date: ""
+release_date: "February 15, 2024"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/850190/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/goat-simulator-3"
 protondb_url: "https://www.protondb.com/app/850190"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Goat_Simulator_3"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

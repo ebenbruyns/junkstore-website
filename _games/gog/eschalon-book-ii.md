@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/9d601e0bb5e1f872d7be08d10c28749245a62d0625f3
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/eschalon_book_ii"
 protondb_url: "https://www.protondb.com/app/25620"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eschalon:_Book_II"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: You may want to map extra key bindings.

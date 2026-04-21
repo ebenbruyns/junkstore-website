@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/18d95bbd1690461bd3820e0064a23db72dce383a4fcb
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi"
 protondb_url: "https://www.protondb.com/app/289070"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sid_Meier%27s_Civilization_VI"
+metacritic_score: 88
+metacritic_url: "https://www.metacritic.com/game/pc/sid-meiers-civilization-vi?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: SNEG
 developer: General Arcade
 genre: Action, Adventure
-release_date: ""
+release_date: "May 6, 2025"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian*"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/3040220/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/captain_blood"
 protondb_url: "https://www.protondb.com/app/3040220"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Captain_Blood"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

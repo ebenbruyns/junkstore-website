@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/35ffab31602c9257c5284e67ea0ccf51788f0b09ff33
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-drone-racing-league-simulator"
 protondb_url: "https://www.protondb.com/app/641780"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box, but need to map controller.

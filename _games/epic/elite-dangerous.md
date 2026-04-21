@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/db32e7159351eae41b8f3406ec0bde9ac150373911d5
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: "Frontier Account"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/elite-dangerous"
 protondb_url: "https://www.protondb.com/app/359320"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Elite_Dangerous"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/elite-dangerous?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Requires Frontier Account setup. Native controller support. **Decky Plugin: Not working (Paid version only)**. **Pro Version: Works out of the box**."

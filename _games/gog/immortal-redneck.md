@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/982665b023691515b60115bc8acf0d04e18747586ba2
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/immortal_redneck"
 protondb_url: "https://www.protondb.com/app/595140"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 70
+metacritic_url: "https://www.metacritic.com/game/pc/immortal-redneck?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

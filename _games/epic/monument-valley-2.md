@@ -17,7 +17,7 @@ proton_version: ""
 publisher: ustwo games
 developer: ustwo games
 genre: Adventure, Casual, Indie, Strategy
-release_date: ""
+release_date: "July 12, 2022"
 game_modes: ["Single-player"]
 languages: ["English*","French*","German*","Dutch*","Japanese*","Korean*","Portuguese - Portugal*","Russian*","Simplified Chinese*","Swedish*"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1927740/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/monument-valley-2-addd02"
 protondb_url: "https://www.protondb.com/app/1927740"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Monument_Valley_2:_Panoramic_Edition"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

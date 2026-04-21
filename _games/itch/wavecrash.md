@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Flyover Games
 developer: Flyover Games
 genre: Action, Casual, Indie
-release_date: ""
+release_date: "May 18, 2021"
 game_modes: ["Single-player","Multi-player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/751490/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://flyover-games.itch.io/wavecrash"
 protondb_url: "https://www.protondb.com/app/751490"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

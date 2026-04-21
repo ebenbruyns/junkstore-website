@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0ca44670c29969c6af5eb72df14b1a21ccb8842e03bc
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/mafia_ii_definitive_edition"
 protondb_url: "https://www.protondb.com/app/1030830"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

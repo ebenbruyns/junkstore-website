@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Telltale Games
 developer: Telltale Games
 genre: Adventure, Point-and-click
-release_date: ""
+release_date: "October 11, 2013"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/49f976b81be54ae20dd5d49235e6a349e991532f1611
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-wolf-among-us"
 protondb_url: "https://www.protondb.com/app/250320"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/pc/the-wolf-among-us-episode-1---faith?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

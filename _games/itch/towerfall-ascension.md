@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Maddy Makes Games Inc.
 developer: Maddy Makes Games Inc.
 genre: Action, Indie
-release_date: ""
+release_date: "March 11, 2014"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/251470/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://maddymakesgamesinc.itch.io/towerfall"
 protondb_url: "https://www.protondb.com/app/251470"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 87
+metacritic_url: "https://www.metacritic.com/game/pc/towerfall-ascension?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box! Installing the Dark World DLC obviously requires manual tinkering"

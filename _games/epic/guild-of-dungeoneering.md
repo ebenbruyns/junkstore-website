@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/3919bf804726119ed01fa5c414bf5db6c36513abcb77
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/guild-of-dungeoneering-ultimate-edition"
 protondb_url: "https://www.protondb.com/app/317820"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Guild_of_Dungeoneering"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/guild-of-dungeoneering?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box! If you are having issues though and get an error then from the game page in Junk Store: <br>\nCog > Proton (set to All or advanced) > Set Steam Compat Library Path (toggle this off - grey)."

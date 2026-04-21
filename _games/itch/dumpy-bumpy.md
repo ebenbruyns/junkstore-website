@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Retroware
 developer: Programancer
 genre: Adventure, Indie, Puzzle, Arcade
-release_date: ""
+release_date: "May 27, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Dutch","Finnish","Japanese","Korean"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1631500/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://programancer.itch.io/dumpy"
 protondb_url: "https://www.protondb.com/app/1631500"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dumpy_%26_Bumpy"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -17,17 +17,18 @@ proton_version: ""
 publisher: Green Man Gaming Publishing
 developer: Pewter Games Studios, LoPoly Games
 genre: "Adventure, Indie, Hack and slash/Beat 'em up"
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English"]
 
 # Images
-banner_image: ""
+banner_image: "https://images.gog.com/aa85be33107f5f711548ea49a13355181519f5b1b4e5fb30ab8b09b61d0549f1.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/3411622cd93d0657d7395462ed605c121eafe0ec7947bdf0f741ea78fcc26816.jpg?namespace=gamesdb"
 icon_image: ""
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/achievements/filthy-animals-f6c65c"
 protondb_url: "https://www.protondb.com/app/1195420"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

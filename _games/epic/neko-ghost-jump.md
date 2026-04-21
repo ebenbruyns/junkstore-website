@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/591d179b15a312cc70ecf685dcbaf3117c5d1361c27a
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/neko-ghost-jump"
 protondb_url: "https://www.protondb.com/app/1194750"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

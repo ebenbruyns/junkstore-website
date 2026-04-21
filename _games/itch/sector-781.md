@@ -17,17 +17,18 @@ proton_version: ""
 publisher: Ben James
 developer: Ben James
 genre: Platform, Shooter
-release_date: ""
+release_date: "May 7, 2021"
 game_modes: []
 languages: ["English"]
 
 # Images
-banner_image: ""
+banner_image: "https://images.gog.com/25110dc398372e2e3e524e2ea9554cc32088cdafa2f88555696f2b7096a6fdcb.jpg?namespace=gamesdb"
 cover_image: "https://cdn2.steamgriddb.com/thumb/5b843ce3b917354244838d29dd8e2395.jpg"
 icon_image: ""
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://benjames171.itch.io/sector-781"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/sector-781/"
 
 # Notes
 notes: Works out of the box, but you will need to map the controller.

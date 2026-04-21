@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f61d8d1bf0eaf5e6170132c2801c25af811b4bc61b51
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/builders_of_egypt_prologue"
 protondb_url: "https://www.protondb.com/app/1207590"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

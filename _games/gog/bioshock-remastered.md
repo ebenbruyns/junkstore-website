@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/bioshock_remastered"
 protondb_url: "https://www.protondb.com/app/409710"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/bioshock-the-collection?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. \nTurn on Esync and Fsync toggles under Proton config to fix the low-res textures and long saving/loading."

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0af2f06ebc42de210bee76da5cad43595d25098156ea
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/doom-64"
 protondb_url: "https://www.protondb.com/app/1148590"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doom_64"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

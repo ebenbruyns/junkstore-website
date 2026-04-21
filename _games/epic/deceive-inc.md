@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f8ab659438a6d2d0077e088bddf8a168b747f22349af
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deceive-inc"
 protondb_url: "https://www.protondb.com/app/820520"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deceive_Inc."
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

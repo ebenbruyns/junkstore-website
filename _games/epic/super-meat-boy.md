@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2267fa3832a721177a5b3dcc4f76a3f67d3f4d4eb2a5
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/super-meat-boy"
 protondb_url: "https://www.protondb.com/app/40800"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 87
+metacritic_url: "https://www.metacritic.com/game/pc/super-meat-boy?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. Does have an audio issue that you need to install xact and d3dx9.27 to fix."

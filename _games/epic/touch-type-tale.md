@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f42cde13de166a61f55a5a10c15333224f2a093edc3b
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/touch-type-tale"
 protondb_url: "https://www.protondb.com/app/909470"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box but you need to change controller layout to Keyboard & Mouse. While it works on the Steam Deck you'll be better off playing with an external keyboard, was a pain testing using the on screen keyboard."

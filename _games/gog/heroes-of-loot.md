@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0a099c26b2b056c950ac2bc4b6466dee3ff363982e19
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/heroes_of_loot"
 protondb_url: "https://www.protondb.com/app/359280"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

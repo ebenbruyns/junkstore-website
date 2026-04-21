@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ae3bfbc3931e80570f1d47b795b3cfa68be8dd9de233
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-callisto-protocol"
 protondb_url: "https://www.protondb.com/app/1544020"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Callisto_Protocol"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

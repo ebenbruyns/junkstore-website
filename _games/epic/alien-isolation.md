@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Sega, Feral Interactive
 developer: The Creative Assembly
 genre: Adventure, Action, Horror, Science Fiction, Stealth, Survival
-release_date: ""
+release_date: "October 6, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6f9e84b42a9f06f9d5555eb632635376cde5a845ab3d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/alien-isolation"
 protondb_url: "https://www.protondb.com/app/214490"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/alien-isolation?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

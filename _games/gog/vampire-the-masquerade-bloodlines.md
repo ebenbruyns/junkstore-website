@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Activision, Electronic Arts
 developer: Troika Games
 genre: role-playing
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/3fc25c7ebf7ff6a122fb4a7578f6bd82b39b0cd70ce5
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/vampire_the_masquerade_-_bloodlines"
 protondb_url: "https://www.protondb.com/app/2600"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/vampire-the-masquerade---bloodlines?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

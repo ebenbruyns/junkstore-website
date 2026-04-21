@@ -17,7 +17,7 @@ proton_version: ""
 publisher: TOHO CO., LTD.
 developer: TOHO CO., LTD.
 genre: Indie, Simulation, Strategy
-release_date: ""
+release_date: "October 31, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Japanese","Traditional Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2439780/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/godzillawars-2c30e4"
 protondb_url: "https://www.protondb.com/app/2439780"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Godzilla_Voxel_Wars"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

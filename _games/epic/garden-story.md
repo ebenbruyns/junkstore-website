@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/88107dbc65b6b0c77c4f4c8be417f8b7ead669bfcc63
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/garden-story"
 protondb_url: "https://www.protondb.com/app/1062140"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 70
+metacritic_url: "https://www.metacritic.com/game/pc/garden-story?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

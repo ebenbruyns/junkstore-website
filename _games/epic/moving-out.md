@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/60b5084975995b78d6da28a533fa36520ddfc26e1a66
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/moving-out"
 protondb_url: "https://www.protondb.com/app/996770"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/pc/moving-out?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

@@ -17,7 +17,7 @@ proton_version: "Proton 7.0-6"
 publisher: Remedy Entertainment
 developer: Remedy Entertainment
 genre: Action, Adventure
-release_date: ""
+release_date: "May 22, 2012"
 game_modes: ["Single-player"]
 languages: ["English*","German","French","Italian","Spanish - Spain","Japanese","Czech","Hungarian","Polish","Russian*languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/202750/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/alan_wakes_american_nightmare"
 protondb_url: "https://www.protondb.com/app/202750"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alan_Wake%27s_American_Nightmare"
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/pc/alan-wakes-american-nightmare?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box with **Proton 7.0-6**!"

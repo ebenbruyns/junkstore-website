@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6dd436603c9f02c4ef0a56ad0107756da89c4941b252
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/adios"
 protondb_url: "https://www.protondb.com/app/1271400"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Needs Microsoft C++ runtime dependency but ships with it, so just install it."

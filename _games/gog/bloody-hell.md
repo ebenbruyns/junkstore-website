@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/459e484079ab7cfe0ce39e06ec311564544735631493
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/bloody_hell"
 protondb_url: "https://www.protondb.com/app/2056220"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

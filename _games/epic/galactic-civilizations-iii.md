@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/76cc0bbd1babe91bced57d69b84e0436256631333791
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/galactic-civilizations-iii"
 protondb_url: "https://www.protondb.com/app/226860"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Galactic_Civilizations_III"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/galactic-civilizations-iii?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

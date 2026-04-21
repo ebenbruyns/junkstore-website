@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/89b2ba393a0c5bde92dae05f0c23f2d50f17bfb07202
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/hitman_absolution"
 protondb_url: "https://www.protondb.com/app/203140"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hitman:_Absolution"
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/pc/hitman-absolution?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

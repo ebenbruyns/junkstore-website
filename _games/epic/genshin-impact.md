@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/26e0bf394bdbc14bd4bed5cf719832c880b7c9f0de26
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: "hoyoplay"
 requires_account_setup: true
 account_type: "HoyoPlay Account"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/genshin-impact"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/genshin-impact/"
 
 # Notes
 notes: "Requires HoyoPlay launcher. Requires HoyoPlay Account setup. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. You need to set the exe."

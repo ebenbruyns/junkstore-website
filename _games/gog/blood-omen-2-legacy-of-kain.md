@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/bade7ae5bd972805ec4e65df9ce1544a7477b4ebc5cb
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/blood_omen_2_legacy_of_kain"
 protondb_url: "https://www.protondb.com/app/242960"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

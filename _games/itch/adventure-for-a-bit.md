@@ -17,7 +17,7 @@ proton_version: ""
 publisher: SEEP
 developer: SEEP
 genre: Adventure, Interactive Fiction, Visual Novel
-release_date: ""
+release_date: "January 11, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://cdn2.steamgriddb.com/thumb/3de750c225122dcb86973b69dfa8023d
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://justcamh.itch.io/adventure-for-a-bit"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

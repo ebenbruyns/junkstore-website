@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/fc07cdba1efb42a90e2ac7e3bb3b60c1606e5e41f063
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-outer-worlds-spacer-s-choice-edition"
 protondb_url: "https://www.protondb.com/app/1920490"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

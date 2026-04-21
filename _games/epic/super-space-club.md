@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/42c910373effb6e483bf46ee3653c08802277e737746
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/super-space-club"
 protondb_url: "https://www.protondb.com/app/1100290"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: 10mg
 developer: Clovelt, Jok
 genre: Adventure, Indie
-release_date: ""
+release_date: "October 15, 2020"
 game_modes: ["Single player"]
 languages: ["English","Spanish - Spain"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1428840/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://clov.itch.io/snaaak"
 protondb_url: "https://www.protondb.com/app/1428840"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch on first attempt."

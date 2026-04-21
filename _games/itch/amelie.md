@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Two and a Half Studios
 developer: Two and a Half Studios
 genre: Indie, Simulator, Visual Novel
-release_date: ""
+release_date: "December 16, 2021"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1835810/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://twoandahalfstudios.itch.io/amelie"
 protondb_url: "https://www.protondb.com/app/1835810"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amelie"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box. You may need to reset launch options if it doesn't launch first go."

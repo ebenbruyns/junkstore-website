@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Team17
 developer: Ghost Town Games
 genre: Strategy, Indie, Arcade, Simulator, Tactical
-release_date: ""
+release_date: "August 7, 2018"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1ca013c6b7d94bccb5739ac1648bdfca7e489467f76e
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/overcooked-2"
 protondb_url: "https://www.protondb.com/app/728880"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/overcooked!-2?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

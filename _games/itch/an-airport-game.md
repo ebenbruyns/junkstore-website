@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Konig Games
 developer: Konig Games
 genre: Role-playing (RPG), Adventure, Puzzle
-release_date: ""
+release_date: "December 29, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://akonig513.itch.io/an-airport-game"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box. You may need to reset launch options if it doesn't launch first go."

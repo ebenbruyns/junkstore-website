@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b704dceb7856f4d36b1f1b71a281d4a5411b11e5463b
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/just-die-already"
 protondb_url: "https://www.protondb.com/app/979070"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

@@ -27,7 +27,8 @@ cover_image: "https://images.gog.com/30cfd064a36dd90f81aa24f5aa36e3e65f5fd6f9fe4
 icon_image: "https://images.gog.com/619cc935bbbd09ee6faf681e62b8f7310421f4d517175737f200805d991b4b7c.jpg?namespace=gamesdb"
 
 # Technical Details
-controller_input: "keyboard-mouse"
+controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/bioshock_remastered"
 protondb_url: "https://www.protondb.com/app/7670"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock"
+metacritic_score: 96
+metacritic_url: "https://www.metacritic.com/game/pc/bioshock?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

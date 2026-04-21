@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Stellar Jockeys
 developer: Stellar Jockeys
 genre: Action, Indie
-release_date: ""
+release_date: "June 2, 2016"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Italian","Simplified Chinese","Traditional Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/274500/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/brigador"
 protondb_url: "https://www.protondb.com/app/274500"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Brigador:_Up-Armored_Edition"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

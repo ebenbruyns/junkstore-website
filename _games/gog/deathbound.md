@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Trialforge Studio
 developer: Trialforge Studio
 genre: role-playing-rpg, adventure, indie
-release_date: ""
+release_date: "August 8, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/994b735c745d57053e4a2b02624f9aa42d5914a5d232
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/deathbound"
 protondb_url: "https://www.protondb.com/app/1277130"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

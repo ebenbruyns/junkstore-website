@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Sega Games
 developer: Headcannon, PagodaWest Games, Sega Games, Christian Whitehead
 genre: Adventure, Platform
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/aa778d9ec37a68882ff3a4dfc10e402a5badf5e4d95a
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sonic-mania"
 protondb_url: "https://www.protondb.com/app/584400"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/pc/sonic-mania?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box on the Decky plugin version. Need to update the .ini file: Set windowed mode from Y to N & set resolution to 1280x800. Save settings."

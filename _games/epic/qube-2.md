@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/8d365d5a57e9c3d3c1ff7c1f79a390cae78d9468badd
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/q-u-b-e-2"
 protondb_url: "https://www.protondb.com/app/359100"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Q.U.B.E._2"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/pc/qube-2?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: For the Decky version you will need to install C++ runtime then run the exe to install it. It is automatically downloaded in Junk Store Pro.

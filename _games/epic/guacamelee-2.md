@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/4e0572e965090c50c663829431970a2db1796839b809
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/guacamelee-2"
 protondb_url: "https://www.protondb.com/app/534550"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/pc/guacamelee!-2?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account."

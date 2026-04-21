@@ -17,7 +17,7 @@ proton_version: ""
 publisher: NIL, NIL
 developer: Totalitarian
 genre: Role-playing (RPG), Adventure, Shooter
-release_date: ""
+release_date: "January 1, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/gmdx"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: You might want to adjust the graphics settings in game as the text is small and difficult to read on default settings.

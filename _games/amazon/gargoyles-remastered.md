@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Disney
 developer: Empty Clip Studios
 genre: Action, Adventure
-release_date: ""
+release_date: "October 19, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1928020/capsule_231x87.j
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1928020"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gargoyles_Remastered"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

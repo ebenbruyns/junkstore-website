@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0adec07af689fafafb371861de900d6c7f1ecce7c859
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: "Directive Games - The Machines Arean"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-machines-arena-74e0f1"
 protondb_url: "https://www.protondb.com/app/1539860"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

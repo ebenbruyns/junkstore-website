@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/34a0106583eb37c6d1ae152520f080b2d46265aa25ce
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/amnesia_a_machine_for_pigs"
 protondb_url: "https://www.protondb.com/app/239200"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/amnesia-a-machine-for-pigs?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. \nShips with required dependencies, just need to install."

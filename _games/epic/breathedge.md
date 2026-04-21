@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/267992ec9bfbae142508d66ddd8fe41730af15733772
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/breathedge"
 protondb_url: "https://www.protondb.com/app/738520"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/pc/breathedge?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

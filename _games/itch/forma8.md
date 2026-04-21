@@ -17,7 +17,7 @@ proton_version: ""
 publisher: MixedBag
 developer: MixedBag
 genre: Adventure, Indie, Arcade
-release_date: ""
+release_date: "February 23, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/510240/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://mixedbaggames.itch.io/forma8"
 protondb_url: "https://www.protondb.com/app/510240"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Forma.8"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

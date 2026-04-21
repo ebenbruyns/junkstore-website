@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Bethesda Softworks
 developer: Bethesda Game Studios
 genre: RPG
-release_date: ""
+release_date: "November 9, 2015"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese**languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/377160/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/fallout_4_game_of_the_year_edition"
 protondb_url: "https://www.protondb.com/app/377160"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_4"
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/pc/fallout-4?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

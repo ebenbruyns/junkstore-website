@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Hooded Horse
 developer: Edgeflow Studio
 genre: strategy, indie, simulator
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/50bcd4c72cbbc4ffd75d794663bc0ba3f441f3850fcd
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/breachway"
 protondb_url: "https://www.protondb.com/app/2118810"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

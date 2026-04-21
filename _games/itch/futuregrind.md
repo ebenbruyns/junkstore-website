@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Milkbag Games
 developer: Milkbag Games
 genre: Indie, Platform, Sport, Arcade, Racing
-release_date: ""
+release_date: "January 22, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/355820/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://milkbaggames.itch.io/futuregrind"
 protondb_url: "https://www.protondb.com/app/355820"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FutureGrind"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

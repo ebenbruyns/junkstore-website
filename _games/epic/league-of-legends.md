@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1642a42e55ae8e3215adacf491409ed328c375ffcb2b
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: true
 # Links
 store_url: "https://store.epicgames.com/en-US/p/league-of-legends"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Imported from library - not yet tested

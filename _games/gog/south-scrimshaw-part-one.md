@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/cbcf8356e0c6fbcda1e5c3bc71d14d128fa3bb73b427
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/south_scrimshaw_part_one"
 protondb_url: "https://www.protondb.com/app/2443110"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

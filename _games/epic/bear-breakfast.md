@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6b4e1250fe973dabb3ab765bc87e731114e30d206bcc
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bear-breakfast"
 protondb_url: "https://www.protondb.com/app/1136370"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

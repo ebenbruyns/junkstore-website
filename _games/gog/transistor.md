@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Supergiant Games
 developer: Supergiant Games
 genre: role-playing-rpg, strategy
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/fc51e64084e42ca3bfd43c8c9740d167581104474421
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/transistor"
 protondb_url: "https://www.protondb.com/app/237930"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/pc/transistor?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. VC 2010/2012 Redists, DirectX Jun 2010 Redist"

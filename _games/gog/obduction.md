@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ba51e32d908eb778a0ccba3802555e32acd66706919e
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/obduction"
 protondb_url: "https://www.protondb.com/app/306760"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Obduction"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/pc/obduction?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

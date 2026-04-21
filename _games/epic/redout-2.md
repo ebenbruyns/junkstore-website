@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/9a7941b98ae094bb3ad2bb2a02e6280ac0b618b86661
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/redout-2"
 protondb_url: "https://www.protondb.com/app/1799930"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Redout_2"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

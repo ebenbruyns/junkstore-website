@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/8e7b471f2d14a590b5686e0b3be95f43ced55f5887c6
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/smurfs_2_the_prisoner_of_the_green_stone"
 protondb_url: "https://www.protondb.com/app/2397500"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

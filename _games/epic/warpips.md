@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6962aff9e641f3f76dafcaadc19e19f9db4f7b1a23b7
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/warpips"
 protondb_url: "https://www.protondb.com/app/1291010"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

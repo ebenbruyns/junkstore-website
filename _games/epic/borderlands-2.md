@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/af08b3f6b955ea233bdbc6161849e74f8f8b678fea75
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/borderlands-2"
 protondb_url: "https://www.protondb.com/app/49520"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 89
+metacritic_url: "https://www.metacritic.com/game/pc/borderlands-2?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. UHD DLC not yet working in Junk-Store"

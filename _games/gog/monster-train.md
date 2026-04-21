@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/5acdb2b509be4eee2facf0452ef0671ad4d6db1ad91b
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/monster_train"
 protondb_url: "https://www.protondb.com/app/1102190"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 86
+metacritic_url: "https://www.metacritic.com/game/pc/monster-train?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

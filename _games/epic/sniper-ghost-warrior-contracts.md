@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/25a868a34b73aba4a0ab0ca2381f33ff6868a7974f47
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sniper-ghost-warrior-contracts"
 protondb_url: "https://www.protondb.com/app/973580"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/pc/sniper-ghost-warrior-contracts?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

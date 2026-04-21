@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Raw Fury
 developer: Bytten Studio
 genre: Indie, RPG
-release_date: ""
+release_date: "April 26, 2023"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil*languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1321440/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/cassette-beasts-32c8e0"
 protondb_url: "https://www.protondb.com/app/1321440"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cassette_Beasts"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

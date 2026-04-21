@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1275c63def5e8450c7d2dbfa12dc520183643e0390c2
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: true
 # Links
 store_url: "https://store.epicgames.com/en-US/p/wuthering-waves"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Imported from library - not yet tested

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b2ebfa474c7f7fdb174a84130c204003c8a48965b080
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/el-hijo-a-wild-west-tale"
 protondb_url: "https://www.protondb.com/app/853050"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/pc/el-hijo-a-wild-west-tale?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

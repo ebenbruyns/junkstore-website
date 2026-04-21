@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/3eec69dea83e56cf05e0285839ed3a512e05873e1c06
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/car-mechanic-simulator-2018"
 protondb_url: "https://www.protondb.com/app/645630"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

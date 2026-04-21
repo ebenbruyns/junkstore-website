@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Merge Games, ION LANDS
 developer: ION LANDS
 genre: Role-playing (RPG), Adventure, Indie, Simulator
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/eb2c2298dbc957c4b5a39e4a1bb345752e6fe919ca23
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/cloudpunk"
 protondb_url: "https://www.protondb.com/app/746850"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/pc/cloudpunk?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Team17
 developer: Ghost Town Games
 genre: Strategy, Indie, Arcade, Simulator
-release_date: ""
+release_date: "August 3, 2016"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/65fc76fa247b52e02df95cd2c12556f463fa2854ccbf
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/overcooked_gourmet_edition"
 protondb_url: "https://www.protondb.com/app/448510"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 81
+metacritic_url: "http://www.metacritic.com/game/pc/overcooked?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

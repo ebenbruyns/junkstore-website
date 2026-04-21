@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/e56106f4c682377d7f59d65c15dd8f29f865f01b4819
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/supper"
 protondb_url: "https://www.protondb.com/app/1171370"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

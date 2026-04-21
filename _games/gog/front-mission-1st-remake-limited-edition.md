@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Square Enix
 developer: SQUARE ENIX
 genre: role-playing, strategy, tactical
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Japanese","Polish","Portuguese","Spanish","zh-Hans"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2bed78df795a532e3bd61d9a9f586111f3a707ac1e42
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/front_mission_1st_remake_limited_edition"
 protondb_url: "https://www.protondb.com/app/2399730"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

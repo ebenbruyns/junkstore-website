@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Gentle Troll Entertainment
 developer: Gentle Troll Entertainment
 genre: Adventure, Casual, Indie, Simulation
-release_date: ""
+release_date: "June 20, 2024"
 game_modes: ["Single-player"]
 languages: ["English","German","Japanese","Simplified Chinese","Korean"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2076140/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/2076140"
+protondb_report_url: ""
 pcgamingwiki_url: "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/tavern-talk?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

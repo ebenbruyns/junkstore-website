@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Electronic Arts, Aspyr Media
 developer: Maxis
 genre: strategy, simulator
-release_date: ""
+release_date: "September 22, 2003"
 game_modes: ["Single player","Multiplayer"]
 languages: ["Danish","Dutch","English","French","German","Italian","Spanish - Spain","Swedish"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b6eaa43d6485e869a4e2bfc1d166e4b7958bda962b45
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/simcity_4_deluxe"
 protondb_url: "https://www.protondb.com/app/24780"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SimCity_4"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Does not work straight out the box! You need to do this small trick after download:<br><br>\n\nGo to Desktop Mode:<br>\n1. Head to /home/deck/Games/gog/SimCity 4 Deluxe Editon/Apps <br>\n2. Copy SimCity 4.exe to /home/deck/Games/gog/SimCity 4 Deluxe Editon/ <br>\n3. Head back to Game Mode, open Junk Store <br>\n4. From Simcity 4 Deluxe in Junk store, choose slidermenu and open exe in folder > choose SimCity4.exe and press X <br>\n5. Press Play!"

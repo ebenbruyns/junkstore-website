@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d5fb3cb3502b5f8496d6d2838b42e6c7453c2b3733ac
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/shogun_showdown"
 protondb_url: "https://www.protondb.com/app/2084000"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

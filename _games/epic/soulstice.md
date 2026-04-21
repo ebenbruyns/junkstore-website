@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/793ad3e1a924cae4e253f34ec560393533e1d1a7c744
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/soulstice"
 protondb_url: "https://www.protondb.com/app/1602080"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

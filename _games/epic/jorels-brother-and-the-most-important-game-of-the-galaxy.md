@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Double Dash Studios
 developer: Double Dash Studios
 genre: Adventure, Indie
-release_date: ""
+release_date: "June 14, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Portuguese - Brazil","Spanish - Latin America"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1398910/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jorels-brother-and-the-most-important-game-of-the-galaxy-47435f"
 protondb_url: "https://www.protondb.com/app/1398910"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

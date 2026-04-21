@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1ae7e08a37a1f0d360dd1ade9df815b1ea7aea6cf5a4
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gloomhaven"
 protondb_url: "https://www.protondb.com/app/780290"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/pc/gloomhaven?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "You need to link with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."

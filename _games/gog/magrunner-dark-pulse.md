@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Focus Entertainment
 developer: Frogwares
 genre: adventure, indie, puzzle, shooter
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6de7956da28624077f1c815d59f87d241212d7b1f50c
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/magrunner_dark_pulse"
 protondb_url: "https://www.protondb.com/app/209630"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 70
+metacritic_url: "https://www.metacritic.com/game/pc/magrunner-dark-pulse?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

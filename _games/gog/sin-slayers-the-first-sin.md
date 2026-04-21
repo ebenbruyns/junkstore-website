@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c329c0a550ce41f1277d7f5a2f9e70883847c76fa757
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -47,12 +48,15 @@ cant_test_linux: false
 
 # Links
 store_url: "https://www.gog.com/game/sin-slayers-the-first-sin"
-protondb_url: "https://www.protondb.com/app/1057690"
+protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/sin-slayers-the-first-sin/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

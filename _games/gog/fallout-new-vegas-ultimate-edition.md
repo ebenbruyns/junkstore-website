@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Bethesda Softworks
 developer: Obsidian Entertainment
 genre: Action, RPG
-release_date: ""
+release_date: "October 19, 2010"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Italian","Spanish - Spain"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/22380/capsule_231x87.jpg
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/fallout_new_vegas_ultimate_edition"
 protondb_url: "https://www.protondb.com/app/22380"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout:_New_Vegas"
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/pc/fallout-new-vegas?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

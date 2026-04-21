@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/45e6d550ca36012f168e0719908bd2be742021bc03f6
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,11 +49,14 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/illuvium"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/illuvium/"
 
 # Notes
 notes: "Follow extra steps [here](https://wiki.junkstore.xyz/wiki/Help:Epic_Games/Working/Illuvium)"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/broken_sword_shadow_of_the_templars_reforged"
 protondb_url: "https://www.protondb.com/app/57640"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Broken_Sword:_Shadow_of_the_Templars:_Director%27s_Cut"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

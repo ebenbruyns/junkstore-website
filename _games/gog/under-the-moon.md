@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/45367b215bdf87b0e035654d9e71e2cd329d3354b09e
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/under_the_moon"
 protondb_url: "https://www.protondb.com/app/1945780"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping and Microsoft C++ runtime.

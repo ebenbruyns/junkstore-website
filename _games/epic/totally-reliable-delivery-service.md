@@ -17,7 +17,7 @@ proton_version: ""
 publisher: tinyBuild
 developer: "We're Five Games"
 genre: Adventure, Indie, Simulator, Racing
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/dfa740f6e9cac4eab3cc88f05057b6d3a876fd401706
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/totally-reliable-delivery-service"
 protondb_url: "https://www.protondb.com/app/1011670"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 64
+metacritic_url: "https://www.metacritic.com/game/pc/totally-reliable-delivery-service?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

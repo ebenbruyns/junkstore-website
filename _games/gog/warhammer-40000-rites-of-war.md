@@ -24,10 +24,11 @@ languages: ["English","German"]
 # Images
 banner_image: "https://images.gog.com/1145482a73da7c910297ae4ecd8eaa01c9f1ebdeaf95a020b4de24aa1df079bd.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/c5e745857a368e028db804f4848c3dd0337b0fb8ff704401942a3e7364489c67.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/4280900/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -47,8 +48,11 @@ cant_test_linux: false
 
 # Links
 store_url: "https://www.gog.com/en/game/warhammer_40000_rites_of_war"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/4280900"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

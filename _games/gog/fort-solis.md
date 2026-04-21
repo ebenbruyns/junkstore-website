@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Dear Villagers
 developer: Fallen Leaf
 genre: Adventure
-release_date: ""
+release_date: "August 22, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Japanese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1931730/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/fort_solis"
 protondb_url: "https://www.protondb.com/app/1931730"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fort_Solis"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

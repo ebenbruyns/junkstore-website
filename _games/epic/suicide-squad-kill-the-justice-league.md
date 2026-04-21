@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/fb5437d5878429a9fe5de2c72520dcaa9756aa276c41
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/suicide-squad-kill-the-justice-league"
 protondb_url: "https://www.protondb.com/app/315210"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

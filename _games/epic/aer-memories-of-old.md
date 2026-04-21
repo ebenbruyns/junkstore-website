@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6ad3bc45c8101ce7f8a854bd7d6b3066a069c79cdfdb
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.pcgamingwiki.com/wiki/Aer:_Memories_of_Old"
 protondb_url: "https://www.protondb.com/app/331870"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aer:_Memories_of_Old"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

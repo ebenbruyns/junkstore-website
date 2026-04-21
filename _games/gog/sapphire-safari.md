@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/4f4524daa352652317c7d6cfc6193eb71a438e4a0d42
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/game/sapphire-safari"
 protondb_url: "https://www.protondb.com/app/1526900"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

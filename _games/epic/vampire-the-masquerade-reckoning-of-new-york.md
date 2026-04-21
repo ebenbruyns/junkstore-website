@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Dear Villagers
 developer: Draw Distance
 genre: Indie, RPG
-release_date: ""
+release_date: "September 10, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2658720/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/vampire-the-masquerade-reckoning-of-new-york-5a391e"
 protondb_url: "https://www.protondb.com/app/2658720"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire:_The_Masquerade_-_Reckoning_of_New_York"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

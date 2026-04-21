@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Warner Bros. Interactive Entertainment
 developer: Midway Games
 genre: arcade
-release_date: ""
+release_date: "October 10, 1996"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1c0b99f6103821f5bc15ef6f9bfa9a91d61b09ff46a2
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,11 +49,14 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/mortal_kombat_trilogy"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/mortal-kombat-trilogy/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

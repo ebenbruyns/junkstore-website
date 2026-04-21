@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Dreamhaven
 developer: Moonshot Games
 genre: Action, Adventure, Casual, Massively Multiplayer, Racing, RPG, Strategy
-release_date: ""
+release_date: "July 22, 2025"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Korean*","Portuguese - Brazil*","Simplified Chinese*","Spanish - Latin America*"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/3504780/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/wildgate-standard-edition-b886b5"
 protondb_url: "https://www.protondb.com/app/3504780"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wildgate"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! Game can take a while to load, so just be patient."

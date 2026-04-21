@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/the_lords_of_midnight"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Lords_of_Midnight"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/the-lords-of-midnight/"
 
 # Notes
 notes: "Works out of the box on Junk Store Pro!"

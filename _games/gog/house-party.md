@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/5ea7c3dcbb0718c3d608e7b9895765896fb6446c6a8d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/house_party"
 protondb_url: "https://www.protondb.com/app/611790"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

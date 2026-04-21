@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Paradox Interactive
 developer: Frictional Games
 genre: Adventure, Indie, Puzzle
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/da27dea872d227978b698e6ba96fd6f0f18c259d7e98
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/the_penumbra_collection"
 protondb_url: "https://www.protondb.com/app/22180"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/pc/penumbra-overture?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Gameplay will be a black screen unless you disable Post Effects in the settings menu.

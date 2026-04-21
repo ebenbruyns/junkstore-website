@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Fractal Phase
 developer: Fractal Phase
 genre: Indie, Shooter, Arcade, Simulator
-release_date: ""
+release_date: "August 24, 2017"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Japanese","Simplified Chinese","Italian","German","Korean","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/381020/capsule_231x87.jp
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://fractal-phase.itch.io/sky-rogue"
 protondb_url: "https://www.protondb.com/app/381020"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sky_Rogue"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

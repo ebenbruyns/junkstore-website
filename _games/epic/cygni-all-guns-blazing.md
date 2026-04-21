@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/74977800473cf7d3b14ede29f9ec819e95698ef74bd7
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/cygni-all-guns-blazing"
 protondb_url: "https://www.protondb.com/app/1248080"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. additional arguments > -epicdeploymentid=78a046d4ac1b42d7aaba9fe80f88a5d8"

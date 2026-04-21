@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/67197b4cba13d33761717c7bd3eaa4eed244ace6026b
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/pumpkin_jack"
 protondb_url: "https://www.protondb.com/app/1186640"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/pc/pumpkin-jack?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Add -dx11 to the target line after the executable.

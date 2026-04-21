@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/3bd8ccf3443a5b0466f01d614b0660987736c7787a20
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/heros_hour"
 protondb_url: "https://www.protondb.com/app/1656780"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/pc/heros-hour?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

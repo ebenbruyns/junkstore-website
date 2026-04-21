@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Pixel Perfect Dude
 developer: Pixel Perfect Dude
 genre: indie, sport, arcade, racing
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/91a6815d2cbd4e3a01f0e47e3f709866b9927f565ea7
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/drive_rally"
 protondb_url: "https://www.protondb.com/app/2494780"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Drive_Rally"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

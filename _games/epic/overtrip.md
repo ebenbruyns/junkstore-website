@@ -17,7 +17,7 @@ proton_version: ""
 publisher: GGXYZ
 developer: GGXYZ
 genre: Shooter
-release_date: ""
+release_date: "July 11, 2024"
 game_modes: ["Battle Royale"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6e54ba3aff21f6a87474ee13ad1a37e42fa047e1b9db
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/overtrip-79b8b0"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/overtrip/"
 
 # Notes
 notes: "Works out of the box!"

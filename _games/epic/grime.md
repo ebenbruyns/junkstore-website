@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d0b33f08761eafa3e350d1af711ce84fbe610c11c0a1
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/grime"
 protondb_url: "https://www.protondb.com/app/1123050"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/grime?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

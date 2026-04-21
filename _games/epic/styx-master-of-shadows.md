@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Cyanide Studio
 developer: Cyanide Studio
 genre: Action
-release_date: ""
+release_date: "October 7, 2014"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Russian*languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/242640/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/styx-master-of-shadows-4d9ab3"
 protondb_url: "https://www.protondb.com/app/242640"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Styx:_Master_of_Shadows"
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/pc/styx-master-of-shadows?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

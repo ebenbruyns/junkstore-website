@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d40b8d03c5f2948947ccef1a160fcd4b57f39d0d1f3c
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tandem-a-tale-of-shadows"
 protondb_url: "https://www.protondb.com/app/1436920"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/pc/tandem-a-tale-of-shadows?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

@@ -17,17 +17,18 @@ proton_version: ""
 publisher: Secret Mode
 developer: Ice BEAM
 genre: Action Party Racing
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Italian","Spanish (Spain)","Japanese","Korean","Chinese (Simplified)","Chinese (Traditional)"]
 
 # Images
 banner_image: "https://images.gog.com/f2a33c7ad40ef06ea260e93f7ffa36df0f337773f66b2f691f8a585d2076401f.jpg?namespace=gamesdb"
-cover_image: ""
+cover_image: "https://images.gog.com/1e68c542d43427da6716a2cfc530a97024c9582ce11853f5fd67c617f028f140.jpg?namespace=gamesdb"
 icon_image: "https://images.gog.com/1e68c542d43427da6716a2cfc530a97024c9582ce11853f5fd67c617f028f140.jpg?namespace=gamesdb"
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/make-way-bddf5f"
 protondb_url: "https://www.protondb.com/app/1445790"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Make_Way"
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/pc/make-way?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

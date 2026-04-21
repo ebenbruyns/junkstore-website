@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/169e498499665dd40496ed5fbdad06f2b50052eeab4e
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/trek-to-yomi"
 protondb_url: "https://www.protondb.com/app/1370050"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Tested with GE-Proton 9.2. Text is a little hard to read."

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f860d68fc5ac5ade4d38102551cd9692a91d26a220e8
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/iris_and_the_giant"
 protondb_url: "https://www.protondb.com/app/1127610"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

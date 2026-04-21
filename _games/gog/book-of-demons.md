@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/111298d88895f7832f74e4a37a2d27e9ffebbcaf6f02
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/book_of_demons"
 protondb_url: "https://www.protondb.com/app/449960"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Book_of_Demons"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/book-of-demons?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

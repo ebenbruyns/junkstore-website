@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c9321c4d60d1be05b886a789091fd6ac94e5719fc200
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ogu-and-the-secret-forest"
 protondb_url: "https://www.protondb.com/app/1985960"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

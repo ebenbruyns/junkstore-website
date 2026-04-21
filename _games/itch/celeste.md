@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Maddy Makes Games
 developer: Extremely OK Games
 genre: Adventure, Indie, Platform
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/504230/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://maddymakesgamesinc.itch.io/celeste"
 protondb_url: "https://www.protondb.com/app/504230"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Celeste"
+metacritic_score: 88
+metacritic_url: "https://www.metacritic.com/game/pc/celeste?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a473a87ef8760118b45d36dc42cdca5ca2fa913b87c3
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/alwas_awakening"
 protondb_url: "https://www.protondb.com/app/549260"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alwa%27s_Awakening"
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/pc/alwas-awakening?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

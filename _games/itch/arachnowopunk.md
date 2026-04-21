@@ -17,7 +17,7 @@ proton_version: ""
 publisher: 
 developer: Benjamin Heller
 genre: Adventure, Platform
-release_date: ""
+release_date: "September 29, 2019"
 game_modes: []
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://e1sif.itch.io/arachnowopunk"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

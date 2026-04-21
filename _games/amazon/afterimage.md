@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Maximum Entertainment
 developer: Aurogon Shanghai
 genre: Action, Adventure, Indie
-release_date: ""
+release_date: "April 24, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Russian","Japanese*","Simplified Chinese*","Traditional Chinese*","Korean"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1701520/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1701520"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Afterimage"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: This game can take a while to load on first launch.

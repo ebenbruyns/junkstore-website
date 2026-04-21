@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Bethesda Softworks
 developer: id Software
 genre: puzzle, shooter
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/24d33ed620ca4d94cdd4024b1f017a25c27ee0d5c600
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/doom_2016"
 protondb_url: "https://www.protondb.com/app/379720"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/pc/doom?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: You need to download and install X64 redistributable for Visual Studio 2015-2022.

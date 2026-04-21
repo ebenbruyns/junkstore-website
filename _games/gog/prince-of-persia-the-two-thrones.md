@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/7eec8394935c9f06e577c84d9b6eb283192aa81ab409
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/prince_of_persia_the_two_thrones"
 protondb_url: "https://www.protondb.com/app/13530"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia-the-two-thrones?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

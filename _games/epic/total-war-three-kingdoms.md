@@ -17,7 +17,7 @@ proton_version: ""
 publisher: SEGA
 developer: CREATIVE ASSEMBLY
 genre: Action, Strategy
-release_date: ""
+release_date: "May 23, 2019"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","French*","Italian","German*","Spanish - Spain","Czech","Korean*","Polish","Portuguese - Brazil","Russian*"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/779340/capsule_231x87.jp
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/total-war-three-kingdoms-d3bb7a"
 protondb_url: "https://www.protondb.com/app/779340"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Total_War:_Three_Kingdoms"
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/pc/total-war-three-kingdoms?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on Decky plugin version.

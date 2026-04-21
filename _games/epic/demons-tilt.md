@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/9fa7ee6320734b45901e3db59bf492c9d20753f3b9b5
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/demon-s-tilt"
 protondb_url: "https://www.protondb.com/app/422510"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

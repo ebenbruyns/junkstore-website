@@ -10,7 +10,7 @@ permalink: /games/gog/lego-the-lord-of-the-rings/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "Aug '24"
+date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
@@ -19,7 +19,7 @@ developer: "Traveller's Tales"
 genre: Adventure
 release_date: "November 13, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["Danish","Dutch","English*","French*","German*","Italian","Polish","Russian","Spanish - Spain*languages with full audio support"]
 
 # Images
 banner_image: "https://images.gog.com/9f6f03d2208f3585a9ea49017fb4fd4be18c114ff74a944192ccd11d8901fc90.jpg?namespace=gamesdb"
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b3606ccd54a1c8231264d281fc617f2a6f17ff98c0a6
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,11 +49,14 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/lego_the_lord_of_the_rings"
 protondb_url: "https://www.protondb.com/app/214510"
-pcgamingwiki_url: ""
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_The_Lord_of_the_Rings"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/lego-the-lord-of-the-rings?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Yogscast Games
 developer: Split Second Games
 genre: Strategy
-release_date: ""
+release_date: "May 2, 2024"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2381740/capsule_231x87.j
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hexguardian-2b0cbe"
 protondb_url: "https://www.protondb.com/app/2381740"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

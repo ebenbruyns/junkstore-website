@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/7463a767fea5fcd33ffbf1bd7eadd841c43834925a34
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/fall_of_porcupine"
 protondb_url: "https://www.protondb.com/app/1710540"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fall_of_Porcupine"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/fall-of-porcupine?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

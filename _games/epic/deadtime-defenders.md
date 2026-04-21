@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f77e81a399b5cd121f1e57e03cf3fef009dffec50db9
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deadtime-defenders"
 protondb_url: "https://www.protondb.com/app/1148700"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

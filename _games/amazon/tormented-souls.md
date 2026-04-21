@@ -17,7 +17,7 @@ proton_version: ""
 publisher: PQube
 developer: Dual Effect
 genre: Action, Adventure
-release_date: ""
+release_date: "August 26, 2021"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Russian","Spanish - Latin America","Portuguese - Brazil","Italian","Japanese","Korean"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1367590/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1367590"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tormented_Souls"
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/pc/tormented-souls?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: 

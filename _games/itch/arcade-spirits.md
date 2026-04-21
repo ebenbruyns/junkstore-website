@@ -17,7 +17,7 @@ proton_version: ""
 publisher: PQube
 developer: Fiction Factory Games
 genre: Adventure, Indie, Arcade, Visual Novel
-release_date: ""
+release_date: "February 12, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/910630/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://fictionfactorygames.itch.io/arcade-spirits"
 protondb_url: "https://www.protondb.com/app/910630"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Arcade_Spirits"
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/pc/arcade-spirits?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

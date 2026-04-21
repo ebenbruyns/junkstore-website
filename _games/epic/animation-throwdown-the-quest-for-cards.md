@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f85dc43aa60a63446c6c526ec9f03f25b8f0f5cf6dbc
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/animation-throwdown-the-quest-for-cards"
 protondb_url: "https://www.protondb.com/app/591960"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Animation_Throwdown:_The_Quest_for_Cards"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

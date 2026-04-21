@@ -19,7 +19,7 @@ developer: Ivory Tower
 genre: Adventure, Racing
 release_date: "September 14, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English*","French*","Italian","German*","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Japanese"]
 
 # Images
 banner_image: "https://images.gog.com/daa0c8023c36e16b1259ef9da75796f39f6f675c45dfd80bbb3438c6ececd5df.jpg?namespace=gamesdb"
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/5760a3ee36c38f0ab73bcfe707121c11799c807ba2d0
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -47,8 +48,11 @@ cant_test_linux: true
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-crew-motorfest"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2698940"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/the-crew-motorfest/"
 
 # Notes
 notes: 
@@ -61,4 +65,4 @@ database_id: "cf697ad9dd8f4b6b8af979dd021ecbf8"
 is_featured: false
 ---
 
-Welcome to Motorfest! Join a one-of-a-kind festival and enjoy the best experiences car culture has to offer in a beautiful Hawaiian open world.
+Welcome to Motorfest, the ultimate open-world driving experience. Explore the Hawaiian islands of O'ahu and Maui. Celebrate the best of car culture through 20+ themed campaigns (street racing, offroad, drift...) and collect hundreds of iconic vehicles. Enjoy the game free for five hours!

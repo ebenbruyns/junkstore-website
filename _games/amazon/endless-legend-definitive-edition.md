@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f74b1ce2d56b7324420579d59878d70be5734017df5a
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -47,8 +48,11 @@ cant_test_linux: false
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/289130"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Endless_Legend"
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/pc/endless-legend?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

@@ -24,10 +24,11 @@ languages: ["English"]
 # Images
 banner_image: "https://images.gog.com/6d095b63fa5691f9ec1f108a3450eb991938d5bb5664c39690a330829d573de0.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/5fd5022e93a82fcc50e08fc6cf060b34255ba6bc053be0836d0063cf66371479.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/439800/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -47,8 +48,11 @@ cant_test_linux: false
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/439800"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

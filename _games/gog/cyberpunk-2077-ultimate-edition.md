@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/3cb55d98c43bf074b05f141eb80c00391c2a138c1a2a
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/cyberpunk_2077_ultimate_edition"
 protondb_url: "https://www.protondb.com/app/1091500"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cyberpunk_2077"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

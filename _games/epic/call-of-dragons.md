@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/10f1ff3d91cefac8c37f7dfb0ca8bcf94a809786e23b
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: "Farlight Login"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/call-of-dragons-d85ee6"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/call-of-dragons/"
 
 # Notes
 notes: "Works out of the box!<br> You may need to launch in Desktop/Big Picture Mode to be able to accept EULA."

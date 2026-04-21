@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1149620/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gas-station-simulator-ee93c7"
 protondb_url: "https://www.protondb.com/app/1149620"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gas_Station_Simulator"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/gas-station-simulator?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

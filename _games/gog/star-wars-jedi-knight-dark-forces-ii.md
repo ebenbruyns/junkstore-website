@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/32380/capsule_231x87.jpg
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/star_wars_jedi_knight_dark_forces_ii"
 protondb_url: "https://www.protondb.com/app/32380"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars:_Jedi_Knight_-_Dark_Forces_II"
+metacritic_score: 91
+metacritic_url: "https://www.metacritic.com/game/pc/star-wars-jedi-knight-dark-forces-ii?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "You'll want to adjust the scaling; this can be done in game."

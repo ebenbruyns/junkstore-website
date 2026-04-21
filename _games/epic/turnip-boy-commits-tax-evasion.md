@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/8b1a122b3035dc4f9d2a436918bb0c4e18a4be42b585
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/turnip-boy-commits-tax-evasion"
 protondb_url: "https://www.protondb.com/app/1205450"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/turnip-boy-commits-tax-evasion?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

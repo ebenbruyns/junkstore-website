@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/048679d4dc6ea2eb2d417bbf0180885afb1fa017a0e6
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: true
 # Links
 store_url: "https://store.epicgames.com/en-US/p/valorant"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/valorant/"
 
 # Notes
 notes: 

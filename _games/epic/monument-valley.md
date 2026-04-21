@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Ustwo Games
 developer: Ustwo Games
 genre: Adventure, Casual, Puzzle
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["Chinese (Simplified)","Chinese (Traditional)","Dutch","Portuguese","Korean","Japanese","Italian","Spanish (Spain)","Turkish","Swedish","Russian","English","German","French","Hindi","Malay","Thai"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1927720/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/monument-valley-1d99d3"
 protondb_url: "https://www.protondb.com/app/1927720"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Monument_Valley:_Panoramic_Edition"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

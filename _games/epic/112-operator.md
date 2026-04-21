@@ -24,10 +24,11 @@ languages: ["English"]
 # Images
 banner_image: "https://images.gog.com/3389d8098c4710422f5ec78e00e2bc009e8f7520e49035ce808fc366ea0174ce.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/40a4395b6755b5bcb39000298da3ca4120a703318cfb28aef3f4f8b67d1e040a.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/793460/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/112-operator"
 protondb_url: "https://www.protondb.com/app/793460"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/pc/112-operator?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

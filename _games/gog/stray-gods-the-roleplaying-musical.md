@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a95684d8bdc1db679d17932899b78e754a0ddd69bf18
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/stray_gods_the_roleplaying_musical"
 protondb_url: "https://www.protondb.com/app/1920780"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. If game doesn't launch try setting the .exe from sliders menu."

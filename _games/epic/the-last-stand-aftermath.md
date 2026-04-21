@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/32ef0b3f3a6da97a84c77c5b8e18c5c585ecfdd3e7a5
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-last-stand-aftermath"
 protondb_url: "https://www.protondb.com/app/1266840"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

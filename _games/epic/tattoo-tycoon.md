@@ -17,7 +17,7 @@ proton_version: ""
 publisher: HandyGames
 developer: Crazy Bunch
 genre: Indie, Simulation, Strategy
-release_date: ""
+release_date: "October 24, 2025"
 game_modes: ["Single-player"]
 languages: ["English*","German","French","Spanish - Spain","Simplified Chinese*languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2375260/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tattoo-tycoon-b4352c"
 protondb_url: "https://www.protondb.com/app/2375260"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tattoo_Tycoon"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -58,7 +62,7 @@ known_issues:
 
 # Meta
 database_id: "e75733d7dbb0463f9942ed6a2cd4acfb"
-is_featured: true
+is_featured: false
 ---
 
 Become a tattoo artist and manage your own tattoo parlor. Find the perfect designs for your curious customers and turn their vague wishes into amazing skin art. Grow from a small personal studio to a multi-parlor business throughout the different districts of Tattuga Bay.

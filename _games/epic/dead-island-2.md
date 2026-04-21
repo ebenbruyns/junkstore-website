@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/06109b5e7557199216eb0118a6fd67eb9cdc5b97065c
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dead-island-2"
 protondb_url: "https://www.protondb.com/app/934700"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

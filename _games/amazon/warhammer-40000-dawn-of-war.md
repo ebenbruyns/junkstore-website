@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/55b80ca46bb790650561ed878aa0423f1326e0b096d6
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/4570"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40,000:_Dawn_of_War"
+metacritic_score: 86
+metacritic_url: "https://www.metacritic.com/game/pc/warhammer-40000-dawn-of-war?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Imported from library - not yet tested

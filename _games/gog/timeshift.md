@@ -17,7 +17,7 @@ proton_version: "Proton 9.0-4"
 publisher: Activision, Sierra Entertainment
 developer: Saber Interactive
 genre: puzzle, shooter
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/5cdebd6ad1110e1e4e102bf07347c61081f5144bc605
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/timeshift"
 protondb_url: "https://www.protondb.com/app/10130"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/pc/timeshift?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. Use alternate executable: `./bin/TimeShift.exe`. Tested with Proton 9.0-4"

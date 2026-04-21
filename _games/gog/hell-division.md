@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d25654e803294836abb0f87257e69f787ebabecfce3e
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/hell_division"
 protondb_url: "https://www.protondb.com/app/2004360"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

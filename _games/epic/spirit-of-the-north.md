@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/107ba27852543b3e2bae4622993b2711159ba11fea78
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/spirit-of-the-north"
 protondb_url: "https://www.protondb.com/app/1213700"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/fd7d74970949648fd606bd5100b3ff299d3d3118412c
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ancient-enemy"
 protondb_url: "https://www.protondb.com/app/993790"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ancient_Enemy"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

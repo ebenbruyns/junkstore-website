@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/24154cd1f8bc5aa3793be7ba97a72810407b6dbdb784
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/midnight_fight_express"
 protondb_url: "https://www.protondb.com/app/1390410"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Midnight_Fight_Express"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/pc/midnight-fight-express?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

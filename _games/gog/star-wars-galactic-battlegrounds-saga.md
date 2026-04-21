@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/356500/capsule_231x87.jp
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/star_wars_galactic_battlegrounds_saga"
 protondb_url: "https://www.protondb.com/app/356500"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars:_Galactic_Battlegrounds"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "You may need to set an exe from: Cog > Run exe in Game Folder > *set whichever one you are wanting to play*<br>\nRemember to **Push X** to save and set the exe change (if you don't you'll have to do this before each launch)."

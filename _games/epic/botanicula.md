@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b67f44301fb08c60154c97bd5c8bf01d294d6c4f1210
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/botanicula"
 protondb_url: "https://www.protondb.com/app/207690"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/pc/botanicula?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

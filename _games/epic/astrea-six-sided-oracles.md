@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a53f7c4a099523b0403c253d9ae9db51531f6b7b547a
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/astrea-six-sided-oracles"
 protondb_url: "https://www.protondb.com/app/1755830"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/pc/astrea-six-sided-oracles?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

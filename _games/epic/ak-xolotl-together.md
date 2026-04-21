@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Playstack
 developer: 2Awesome Studio
 genre: Adventure, Indie, Shooter, Arcade
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/7b9afea5d4a5adc41d1bcae4f56c3a13243980287aa2
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ak-xolotl-together"
 protondb_url: "https://www.protondb.com/app/1479140"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

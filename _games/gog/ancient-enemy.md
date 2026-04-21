@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/fd7d74970949648fd606bd5100b3ff299d3d3118412c
 
 # Technical Details
 controller_input: "touch-screen"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/ancient_enemy"
 protondb_url: "https://www.protondb.com/app/993790"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ancient_Enemy"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! You can change controller maping to use the touch screen or mouse."

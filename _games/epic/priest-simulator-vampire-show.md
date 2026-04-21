@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/feda366a4259a2a08ebc0724a6bafdd2fb57306cef1c
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/priest-simulator-vampire-show"
 protondb_url: "https://www.protondb.com/app/950620"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

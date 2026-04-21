@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Aspyr Media
 developer: Crystal Dynamics
 genre: adventure, platform, puzzle
-release_date: ""
+release_date: "December 10, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/e14f64ea9c7386d37bcb88360b3f69dd01425db99b0d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/legacy_of_kain_soul_reaver_1_2_remastered"
 protondb_url: "https://www.protondb.com/app/2521380"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

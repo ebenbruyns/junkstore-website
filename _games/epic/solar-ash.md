@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Annapurna Interactive
 developer: Heart Machine
 genre: Adventure, Indie, Platform
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/4c1eb26a369a2871c1d3b6a3eda9329d1b4fddb91a89
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/solar-ash"
 protondb_url: "https://www.protondb.com/app/1867530"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

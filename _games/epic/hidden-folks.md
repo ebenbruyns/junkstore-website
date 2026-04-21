@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Adriaan de Jongh
 developer: Adriaan de Jongh
 genre: Adventure, Indie, Puzzle, Point-and-click
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Polish","Portuguese - Brazil"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/435400/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hidden-folks-239d16"
 protondb_url: "https://www.protondb.com/app/435400"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

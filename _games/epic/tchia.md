@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Awaceb, Kepler Interactive
 developer: Awaceb
 genre: Adventure, Indie
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/78ab7d449845157bf348ba29eeeb5a1b7ddac257f7cf
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tchia"
 protondb_url: "https://www.protondb.com/app/1496590"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. Need to install C++ runtime."

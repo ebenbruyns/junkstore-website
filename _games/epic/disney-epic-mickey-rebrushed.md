@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Disney
 developer: Purple Lamp
 genre: Adventure, Platform
-release_date: ""
+release_date: "Invalid Date"
 game_modes: []
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6c650a178319d99173d62bfaa9bb57ce4ff7f9279a93
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/disney-epic-mickey-rebrushed"
 protondb_url: "https://www.protondb.com/app/1522160"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/pc/disney-epic-mickey-rebrushed?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. Install C++ runtime."

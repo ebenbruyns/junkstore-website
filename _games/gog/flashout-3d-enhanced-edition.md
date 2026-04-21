@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f71cb61ec7328ccd27804184f8000d16f7967708fedc
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/flashout_3d_enhanced_edition"
 protondb_url: "https://www.protondb.com/app/2022780"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Flashout_3D:_Enhanced_Edition"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

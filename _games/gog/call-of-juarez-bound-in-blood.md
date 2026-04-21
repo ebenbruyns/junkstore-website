@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/e5e7d02a3a5870e741727888817b363417130c6a8a26
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/call_of_juarez_bound_in_blood"
 protondb_url: "https://www.protondb.com/app/21980"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.protondb.com/app/21980"
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/pc/call-of-juarez-bound-in-blood?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Requires manual controller/key mapping.

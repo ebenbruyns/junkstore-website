@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c423c1bdcb80c5dfde652a435b0a9dd90b46d61e7413
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/eternal-threads-197169"
 protondb_url: "https://www.protondb.com/app/1046790"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eternal_Threads"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

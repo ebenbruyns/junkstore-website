@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Thunderful Publishing
 developer: Thunderful
 genre: role-playing, adventure, strategy, indie
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/8472d6de63977bce0c171e35dc0bf534b1ce0f4c8ef6
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/steamworld_heist_ii"
 protondb_url: "https://www.protondb.com/app/2396240"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/steamworld-heist-ii?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

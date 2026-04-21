@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/83da31aabec972e8c0b85ad91744b13c23e9cb4856b0
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/them-s-fightin-herds"
 protondb_url: "https://www.protondb.com/app/574980"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. You need to install DirectX components."

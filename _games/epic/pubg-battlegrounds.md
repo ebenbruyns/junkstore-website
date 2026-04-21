@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0655fe07703ce786f5cdc30fcde29fd4308456fe1b78
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: true
 # Links
 store_url: "https://store.epicgames.com/en-US/p/pubg-battlegrounds"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Imported from library - not yet tested

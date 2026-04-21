@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Snowman
 developer: Team Alto
 genre: Adventure, Indie, Sport, Arcade
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/477a01b7c077e1583e7666a408a285f216b079a8580b
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-alto-collection"
 protondb_url: "https://www.protondb.com/app/2837600"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

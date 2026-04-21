@@ -19,7 +19,7 @@ developer: Ubisoft Montreal
 genre: Strategy, Shooter
 release_date: "January 20, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Arabic","Simplified Chinese","Traditional Chinese","Korean","Spanish - Latin America*"]
 
 # Images
 banner_image: "https://images.gog.com/fcb7b8f1bd784c7a9b86b1796925487ab4f75cebf5ff007bfb7eadd5b2f5a78b.jpg?namespace=gamesdb"
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/7ba3b58b9d061884c4885b234d45fdcd50b2da774a7c
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -47,8 +48,11 @@ cant_test_linux: true
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tom-clancy-s-rainbow-six-extraction"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2379390"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/tom-clancys-rainbow-six-extraction/"
 
 # Notes
 notes: 

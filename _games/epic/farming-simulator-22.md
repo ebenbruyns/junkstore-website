@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d6b1fd9a690ec89b8b18af1bea34ad4599eb9a2fca4e
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/farming-simulator-22"
 protondb_url: "https://www.protondb.com/app/1248130"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

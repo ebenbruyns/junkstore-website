@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ce9989399318173e86b4b57040b2cff11a0fa2c6a0aa
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/diggles_the_myth_of_fenris"
 protondb_url: "https://www.protondb.com/app/1478650"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Requires manual controller/key mapping.

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Humble Games
 developer: Blue Manchu
 genre: Strategy, Shooter, Arcade
-release_date: ""
+release_date: "May 28, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2a876f13309e471905a9008050d93b567851a26915ca
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/void-bastards"
 protondb_url: "https://www.protondb.com/app/857980"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/void-bastards?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

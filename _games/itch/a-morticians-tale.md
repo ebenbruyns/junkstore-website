@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Laundry Bear Games
 developer: Laundry Bear Games
 genre: Role-playing (RPG), Adventure, Indie, Simulator, Visual Novel
-release_date: ""
+release_date: "October 18, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/578720/capsule_231x87.jp
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://laundrybear.itch.io/morticians-tale"
 protondb_url: "https://www.protondb.com/app/578720"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Mortician%27s_Tale"
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/pc/a-morticians-tale?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch on first attempt."

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/e431b982dcd1fb9918dcbc78067b79f4e988c5764d29
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/blast_brigade_vs_the_evil_legion_of_dr_cread"
 protondb_url: "https://www.protondb.com/app/1550760"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blast_Brigade_vs._the_Evil_Legion_of_Dr._Cread"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

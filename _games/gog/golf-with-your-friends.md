@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d9d3429de518b4b80d47ba2dd6df31b3c974c4202c01
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/golf_with_your_friends"
 protondb_url: "https://www.protondb.com/app/431240"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

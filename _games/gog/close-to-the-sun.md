@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ba3153ec408e008658e7a9ee94a3cd313f0692e95a52
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/close_to_the_sun"
 protondb_url: "https://www.protondb.com/app/968870"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 66
+metacritic_url: "https://www.metacritic.com/game/pc/close-to-the-sun?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. May want to adjust scaling — text and menus get clipped."

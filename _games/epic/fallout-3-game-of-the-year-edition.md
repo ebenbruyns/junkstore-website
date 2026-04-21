@@ -28,16 +28,17 @@ icon_image: "https://images.gog.com/d3123954242241ddcd5137cc93c9f6c555fd29679839
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,12 +48,15 @@ cant_test_linux: false
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fallout-3-game-of-the-year-edition"
-protondb_url: "https://www.protondb.com/app/fallout-3"
+protondb_url: "https://www.protondb.com/app/22370"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 91
+metacritic_url: "https://www.metacritic.com/game/fallout-3-game-of-the-year-edition/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

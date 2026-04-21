@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Games Operators
 developer: Jutsu Games
 genre: Action, Adventure, Indie, Racing, RPG
-release_date: ""
+release_date: "August 31, 2021"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Portuguese - Brazil","Korean"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/844260/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rustler-grand-theft-horse-21a7ca"
 protondb_url: "https://www.protondb.com/app/844260"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rustler"
+metacritic_score: 65
+metacritic_url: "https://www.metacritic.com/game/pc/rustler?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Work out of the box on Decky!"

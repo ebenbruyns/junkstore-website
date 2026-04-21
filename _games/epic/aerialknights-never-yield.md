@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/adca3d1fd74240d7694c0adf4464d8f7c278ad522382
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/aerial-knight-s-never-yield"
 protondb_url: "https://www.protondb.com/app/1323540"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

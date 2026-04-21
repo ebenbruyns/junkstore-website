@@ -17,7 +17,7 @@ proton_version: ""
 publisher: historia Inc.
 developer: historia Inc.
 genre: Action, Casual, Racing, Sports, Free To Play
-release_date: ""
+release_date: "September 19, 2024"
 game_modes: ["Single-player","Multi-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Spanish - Latin America*","Portuguese - Brazil*","Russian*","Simplified Chinese*","Traditional Chinese*"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2590150/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/achievements/faaast-penguin-4319d6"
 protondb_url: "https://www.protondb.com/app/2590150"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Faaast_Penguin"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

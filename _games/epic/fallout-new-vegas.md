@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6d431fe490d54f2906d087b17135adf6c6cab52dda33
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fallout-new-vegas"
 protondb_url: "https://www.protondb.com/app/22380"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/pc/fallout-new-vegas?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

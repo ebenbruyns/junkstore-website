@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Ash K
 developer: Ash K
 genre: Role-playing (RPG)
-release_date: ""
+release_date: "February 10, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://ash-k.itch.io/6pack"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "To run each separate game you will need to select the exe from the sliders menu > Run exe."

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c3e6935dc4458af95b259c876e5be9393664f9602685
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: "Star Stable Account"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/star-stable"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Stable"
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/star-stable-online/"
 
 # Notes
 notes: Works without issue once successfully logged in and you have changed the controller layout.

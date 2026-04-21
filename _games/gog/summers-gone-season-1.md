@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/7b5a17e98cb02454ff47e650c8c1243b0ff27e167451
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/summers_gone_season_1"
 protondb_url: "https://www.protondb.com/app/2240150"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

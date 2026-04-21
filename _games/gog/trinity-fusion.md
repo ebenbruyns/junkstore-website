@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Angry Mob Games
 developer: Angry Mob Games
 genre: role-playing, indie, platform, fighting
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/52ec683b43f7607a6311a782c1ee0cd62ebf2168d839
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/trinity_fusion"
 protondb_url: "https://www.protondb.com/app/1911360"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/trinity-fusion?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

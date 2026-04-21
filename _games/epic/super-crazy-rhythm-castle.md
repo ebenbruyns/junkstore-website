@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ee835ec53a0632d9f2aaae8b19b8dff652f7a56fa666
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/super-crazy-rhythm-castle"
 protondb_url: "https://www.protondb.com/app/1812560"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

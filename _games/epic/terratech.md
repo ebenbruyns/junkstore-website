@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/d98526cc6611a0f68c8ee5c3350abac9304534e5fddb
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/terratech"
 protondb_url: "https://www.protondb.com/app/285920"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/7f714760191c391c62aaa456c378a6908fdc84828c65
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/kings_bounty_the_legend"
 protondb_url: "https://www.protondb.com/app/25900"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/pc/kings-bounty-the-legend?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

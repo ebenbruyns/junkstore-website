@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/761890/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: true
 account_type: "Albion Online Account"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/albion-online-7eb24d"
 protondb_url: "https://www.protondb.com/app/761890"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Albion_Online"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box once you create an account. Don't forget to enble/toggle the anti-cheat for this game."

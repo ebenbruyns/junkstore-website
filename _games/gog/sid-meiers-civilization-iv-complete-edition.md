@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f1fd32be26fb7a06039c97e6e45a5d2f41bfeea58147
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/sid_meiers_civilization_iv_the_complete_edition"
 protondb_url: "https://www.protondb.com/app/3900"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sid_Meier%27s_Civilization_IV"
+metacritic_score: 94
+metacritic_url: "https://www.metacritic.com/game/pc/sid-meiers-civilization-iv?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

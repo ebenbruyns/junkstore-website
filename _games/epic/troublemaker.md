@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6ca838ee8cc82ffbe1d6901bcba101a63452ff39aa39
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/troublemaker"
 protondb_url: "https://www.protondb.com/app/1498740"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box with native controller support.

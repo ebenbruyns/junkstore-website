@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f63384198923c8106187afb4b258ddaf911eba32b38b
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/symphonia_student_project_2020"
 protondb_url: "https://www.protondb.com/app/1865960"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Student Project, 2020."

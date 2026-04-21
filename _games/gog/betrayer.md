@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/bac980ce776e792a409b68d4a5c5edd9cfe47999ebb9
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/betrayer"
 protondb_url: "https://www.protondb.com/app/243120"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Betrayer"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

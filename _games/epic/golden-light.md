@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/73b79d1f3d51d9ecad2555c2250544d1afe43cb21e93
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/golden-light"
 protondb_url: "https://www.protondb.com/app/1245430"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Golden_Light"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "May need to launch in desktop/big picture mode first time. After that it works out of the box!"

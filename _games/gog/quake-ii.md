@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c5c504f49427b9182fff3f0d3796c5db38bac9a9c902
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/quake_ii"
 protondb_url: "https://www.protondb.com/app/2320"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

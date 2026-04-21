@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2ebdc8b79594b38999e281e85d4d8fc3ecfbe5695e70
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/iratus_lord_of_the_dead"
 protondb_url: "https://www.protondb.com/app/807120"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Iratus:_Lord_of_the_Dead"
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/pc/iratus-lord-of-the-dead?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1b1c73afa17d7caa37c757dba3a6bac58a9713d4a986
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dnf-duel"
 protondb_url: "https://www.protondb.com/app/1216060"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

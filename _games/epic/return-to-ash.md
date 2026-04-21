@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Serenity Forge
 developer: Serenity Forge
 genre: Adventure
-release_date: ""
+release_date: "July 10, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/3445830/header.jpg"
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/return-to-ash-dee3ff"
 protondb_url: "https://www.protondb.com/app/3445830"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

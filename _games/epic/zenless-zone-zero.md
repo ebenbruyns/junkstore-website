@@ -8,9 +8,9 @@ storefront_key: "epic"
 permalink: /games/epic/zenless-zone-zero/
 
 # Compatibility
-decky_rating: "yellow"
-standalone_rating: "yellow"
-date_tested: "July '25"
+decky_rating: "green"
+standalone_rating: "green"
+date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
@@ -19,7 +19,7 @@ developer: miHoYo
 genre: Role-playing (RPG), Adventure
 release_date: "June 20, 2024"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["Chinese (Simplified)","Chinese (Traditional)","English","Indonesian","Japanese","Korean","Spanish (Latin America)","Thai","French","German","Portuguese (Brazil)","Vietnamese","Russian"]
 
 # Images
 banner_image: "https://images.gog.com/511592cf8c85893f75ac49d453ce959d015b5c60a3fa3447f52a436677de78af.jpg?namespace=gamesdb"
@@ -28,9 +28,10 @@ icon_image: "https://images.gog.com/a06a6b054a714930af14422e727380d93f1d544b6c8b
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: "hoyoplay"
 requires_account_setup: true
-account_type: "H"
+account_type: "HoyoPlay Account"
 
 # Epic Features
 requires_eos: false
@@ -38,7 +39,7 @@ supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
 epic_cloud_saves: false
-must_be_online: false
+must_be_online: true
 
 # Anti-Cheat
 requires_eac_runtime: false
@@ -46,12 +47,15 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/zenless-zone-zero"
+store_url: "https://store.epicgames.com/en-US/p/zenless-zone-zero-c7c151"
 protondb_url: ""
-pcgamingwiki_url: ""
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Zenless_Zone_Zero"
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/zenless-zone-zero/"
 
 # Notes
-notes: "Requires HoyoPlay launcher. Requires H setup. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. May need to set teh exe."
+notes: "Works out of the box!<br>\nSet the game exe to bypass the Hoyoplay launcher - you still need to log into the game."
 controller_config: 
 performance_notes: 
 known_issues: 

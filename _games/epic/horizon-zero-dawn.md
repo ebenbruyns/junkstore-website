@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Sony Interactive Entertainment
 developer: Guerrilla Games
 genre: Role-playing (RPG), Adventure, Shooter
-release_date: ""
+release_date: "Invalid Date"
 game_modes: []
 languages: []
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/16c3b731536c7aeb61749001e3b3e6e6c44e77c4bb1d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/horizon-zero-dawn"
 protondb_url: "https://www.protondb.com/app/2561580"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. Install C++ Runtime Dependency"

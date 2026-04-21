@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/1eb6898b9a7225cb0781f4e5018a44a6bc7c92a743a4
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/century-age-of-ashes"
 protondb_url: "https://www.protondb.com/app/918570"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Century:_Age_of_Ashes"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

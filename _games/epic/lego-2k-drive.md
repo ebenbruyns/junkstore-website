@@ -17,7 +17,7 @@ proton_version: ""
 publisher: 2K
 developer: Visual Concepts
 genre: Racing
-release_date: ""
+release_date: "May 18, 2023"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Danish","Dutch","Japanese*","Korean*","Polish*"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1451810/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lego-2k-drive"
 protondb_url: "https://www.protondb.com/app/1451810"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_2K_Drive"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

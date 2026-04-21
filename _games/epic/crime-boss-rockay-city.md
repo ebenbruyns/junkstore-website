@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/e91dfedd0c4a4242c80088864018756571dc3909d4a3
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/crime-boss-rockay-city"
 protondb_url: "https://www.protondb.com/app/2933080"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. You need to install Microsoft C++ runtime & accept a EULA"

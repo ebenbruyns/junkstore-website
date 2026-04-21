@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/9596be4f76e23ca041d6588c3fed52c56c58bd88d947
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deathloop"
 protondb_url: "https://www.protondb.com/app/1252330"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 87
+metacritic_url: "https://www.metacritic.com/game/pc/deathloop?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. May need to login to Bethesda to change visual settings to windowed"

@@ -17,17 +17,18 @@ proton_version: ""
 publisher: muddasheep
 developer: muddasheep
 genre: Music
-release_date: ""
+release_date: "May 15, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 
 # Images
-banner_image: ""
+banner_image: "https://images.gog.com/1ede27c77cde52b3291739b39dc39729b3bc5a5048ddda302af58ba1b675c2ef.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/cf27debc1d6e4c34b814a962b08ead2422befe881af6b86cfe8c78e0ed0eb95c.jpg?namespace=gamesdb"
 icon_image: ""
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://muddasheep.itch.io/a-light-long-gone"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! May need to reset launch options if it doesn't launch first go."

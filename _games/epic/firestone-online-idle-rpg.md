@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b2449c5b44e83b74a6d21e9b1cc7a3eb6da588b16674
 
 # Technical Details
 controller_input: "touch-screen"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b"
 protondb_url: "https://www.protondb.com/app/1013320"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Firestone_Idle_RPG"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

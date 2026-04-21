@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Thunderful Publishing
 developer: Sad Owl Studios
 genre: Adventure, Indie
-release_date: ""
+release_date: "July 18, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Portuguese - Brazil"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1382070/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/viewfinder-61691c"
 protondb_url: "https://www.protondb.com/app/1382070"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Viewfinder"
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/pc/viewfinder?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

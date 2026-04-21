@@ -17,7 +17,7 @@ proton_version: ""
 publisher: indie.io
 developer: Pixellore Inc
 genre: Indie, RPG
-release_date: ""
+release_date: "March 12, 2024"
 game_modes: ["Single-player"]
 languages: ["English","Korean","Simplified Chinese","Russian","Hungarian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1573100/capsule_231x87.j
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1573100"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "**Decky Plugin: Not Supported**."

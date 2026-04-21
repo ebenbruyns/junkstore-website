@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/919410/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/felix-the-reaper-3f7e62"
 protondb_url: "https://www.protondb.com/app/919410"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Felix_the_Reaper"
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/pc/felix-the-reaper?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

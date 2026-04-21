@@ -28,6 +28,7 @@ icon_image: ""
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: "dosbox"
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/silver_box_classics"
 protondb_url: "https://www.protondb.com/app/2344020"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/War_of_the_Lance"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "You need to set the platform to DOSBox from the cog menu on the game screen: Game Configs > ADVANCED > platform > Dosbox. Save the config change and launch the game."

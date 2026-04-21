@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/dda0fb6579d93db41f3652a4b5e215bcafeaf1a5091e
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/legion-td-2"
 protondb_url: "https://www.protondb.com/app/469600"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Need to verify this game with your account and enable the EOS overlay.

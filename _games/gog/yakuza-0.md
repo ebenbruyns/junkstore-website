@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Sega, Sega Corporation, Sega Games
 developer: Ryu Ga Gotoku Studios, Sega Games
 genre: role-playing-rpg, adventure, simulator, hack-and-slash-beat-em-up
-release_date: ""
+release_date: "March 12, 2015"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/4febbe661331154c99c2be816b3512e88cec9562c417
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/yakuza_0"
 protondb_url: "https://www.protondb.com/app/638970"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 86
+metacritic_url: "https://www.metacritic.com/game/pc/yakuza-0?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

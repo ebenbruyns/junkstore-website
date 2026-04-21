@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Akupara Games
 developer: Spooky Doorway
 genre: Adventure, Casual, Indie
-release_date: ""
+release_date: "April 14, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","Spanish - Spain","German","Simplified Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/795420/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-darkside-detective-a-fumble-in-the-dark-174fcf"
 protondb_url: "https://www.protondb.com/app/795420"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Darkside_Detective:_A_Fumble_in_the_Dark"
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/pc/the-darkside-detective-a-fumble-in-the-dark?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

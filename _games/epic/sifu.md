@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b370e0b6776f35303272ce3c95c78cb14aefc47131ad
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sifu"
 protondb_url: "https://www.protondb.com/app/2138710"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/sifu?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

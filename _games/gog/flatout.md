@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Empire Interactive, Strategy First, Konami
 developer: Bugbear Entertainment
 genre: sport, simulator
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2571f13646fa266dfe3a27f19f34b4baeee022cece2a
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/flatout"
 protondb_url: "https://www.protondb.com/app/6220"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/pc/flatout?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

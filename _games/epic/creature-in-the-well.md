@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Flight School Studio, MWM Interactive
 developer: Flight School Studio
 genre: "Adventure, Indie, Puzzle, Arcade, Pinball, Hack and slash/Beat 'em up, Fighting"
-release_date: ""
+release_date: "September 6, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/20174d0922b387dc3000d5751275f8581cf1c748eaa4
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/creature-in-the-well"
 protondb_url: "https://www.protondb.com/app/852300"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/pc/creature-in-the-well?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

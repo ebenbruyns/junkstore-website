@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Orangepixel
 developer: Orangepixel
 genre: Action, Indie, Strategy
-release_date: ""
+release_date: "August 6, 2019"
 game_modes: ["Single-player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1012360/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/gunslugs_3_rogue_tactics"
 protondb_url: "https://www.protondb.com/app/1012360"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gunslugs:_Rogue_Tactics"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

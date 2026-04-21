@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/cfb6cebdc7d940f02b14fcce50ad76cc6d9804746f5c
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fall-guys"
 protondb_url: "https://www.protondb.com/app/1097150"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/fall-guys-ultimate-knockout?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. \nInstall the easy anti cheat runtime from the 'About' section- (make sure you are installing it to the SSD not the micro SD card)"

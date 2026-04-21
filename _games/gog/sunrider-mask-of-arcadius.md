@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/2cfa08eebf08e3940261bfb8a0233c7641b3e4335ea2
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/sunrider_mask_of_arcadius"
 protondb_url: "https://www.protondb.com/app/313730"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

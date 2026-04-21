@@ -19,7 +19,7 @@ developer: Rockstar North
 genre: Adventure, Racing
 release_date: "March 4, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
 
 # Images
 banner_image: "https://images.gog.com/a92599550b25b80ceda85a443cb36f26cfd78fe1c8e94381768a4b0a47af90d4.jpg?namespace=gamesdb"
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/116df05769af156ae5d2b025d327bcb24258ddf083d2
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -47,12 +48,15 @@ cant_test_linux: false
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/grand-theft-auto-v-enhanced"
-protondb_url: "https://www.protondb.com/app/gta-v-enhanced"
+protondb_url: "https://www.protondb.com/app/3240220"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: "https://www.metacritic.com/game/grand-theft-auto-v-enhanced/"
 
 # Notes
 notes: "Read this [tutorial](https://www.reddit.com/r/JunkStore/comments/1j5d1f8/running_gtav_enhanced_edition_on_steam_deck_from/)"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/56c4ebc8cdf0d7f0f75c5de899bff9888bf53a40b635
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: "other"
 requires_account_setup: true
 account_type: "Dragonest Account"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/auto-chess"
 protondb_url: "https://www.protondb.com/app/1530300"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Auto_Chess"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

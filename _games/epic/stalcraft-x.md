@@ -17,7 +17,7 @@ proton_version: ""
 publisher: EXBO
 developer: EXBO
 genre: Action, Adventure, Massively Multiplayer, RPG, Free To Play
-release_date: ""
+release_date: "December 9, 2022"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English","Russian*","Spanish - Spain","French","Korean*languages with full audio support"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1818450/capsule_231x87.j
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/stalcraft-x-stalcraft-x-starter-edition-0b06d4"
 protondb_url: "https://www.protondb.com/app/1818450"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stalcraft:_X"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box! <br> You will need to map the controller."

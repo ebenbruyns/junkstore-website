@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Different Tales
 developer: Different Tales
 genre: Adventure, Indie, RPG
-release_date: ""
+release_date: "October 13, 2020"
 game_modes: ["Single-player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1342620/capsule_231x87.j
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1342620"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/pc/werewolf-the-apocalypse---heart-of-the-forest?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!<br><br>You can use the touchscreen or mouse only controlls for this point and click game."

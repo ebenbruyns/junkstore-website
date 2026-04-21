@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/6bec0b9ef8b9825a6c8d29024506496a4de72f182732
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/eternights-c2fbca"
 protondb_url: "https://www.protondb.com/app/1402110"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eternights"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Spiral Bound Interactive LLC
 developer: Spiral Bound Interactive LLC
 genre: Action, Adventure, Indie, RPG
-release_date: ""
+release_date: "October 31, 2023"
 game_modes: ["Single-player"]
 languages: ["English","German","Spanish - Spain","Simplified Chinese","Hungarian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1446350/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/you_will_die_here_tonight"
 protondb_url: "https://www.protondb.com/app/1446350"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/You_Will_Die_Here_Tonight"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

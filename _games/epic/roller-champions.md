@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a45d6f223a3b9ba78b371e66cae4e62ad30199070699
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: "ubisoft-connect"
 requires_account_setup: true
 account_type: "Ubisoft Connect"
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/roller-champions"
 protondb_url: "https://www.protondb.com/app/2211280"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Need to download & log in to Uplay"

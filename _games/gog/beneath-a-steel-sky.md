@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/69140ff481409e4f6d553c5bb43ae63d28c3b44a8266
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: "dosbox"
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/beneath_a_steel_sky"
 protondb_url: "https://www.protondb.com/app/1368340"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "You need to set the platform to DOSBox from the cog menu on the game screen: Game Configs > ADVANCED > platform > Dosbox. Save the config change and launch the game."

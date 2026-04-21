@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/94c22e5075a71d997cd6531228eeff63fe002d3906d4
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deliver-us-mars"
 protondb_url: "https://www.protondb.com/app/1345890"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Needs C++ Runtime, otherwise no extra setup required."

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Mega Cat Studios
 developer: Mega Cat Studios
 genre: Action, Adventure, Indie
-release_date: ""
+release_date: "August 7, 2024"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2638370/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/five-nights-at-freddys-into-the-pit-99c563"
 protondb_url: "https://www.protondb.com/app/2638370"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

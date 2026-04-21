@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/7881c8c78ad998fd39c2d9d6170d0c7e15eaca56cacb
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/achievements/idle-champions-of-the-forgotten-realms"
 protondb_url: "https://www.protondb.com/app/627690"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Idle_Champions_of_the_Forgotten_Realms"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"
@@ -58,7 +62,7 @@ known_issues:
 
 # Meta
 database_id: "40cb42e38c0b4a14a1bb133eb3291572"
-is_featured: true
+is_featured: false
 ---
 
 Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.

@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Bethesda Softworks
 developer: Bethesda Game Studios
 genre: role-playing-rpg, adventure, shooter
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Spanish - Spain"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/b5803bcb5d14b2f1477c3b4d6be9dfea70d3e6047af0
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/fallout_3_game_of_the_year_edition"
 protondb_url: "https://www.protondb.com/app/22370"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_3"
+metacritic_score: 91
+metacritic_url: "https://www.metacritic.com/game/pc/fallout-3?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

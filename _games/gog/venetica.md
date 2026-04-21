@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/63c10a759dfa710c3f952a930b0b6b7e99b59221012f
 
 # Technical Details
 controller_input: "requires-mapping"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/venetica_gold_edition"
 protondb_url: "https://www.protondb.com/app/338140"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 61
+metacritic_url: "https://www.metacritic.com/game/pc/venetica?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Requires manual controller/key mapping.

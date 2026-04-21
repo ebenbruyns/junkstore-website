@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Frozenbyte
 developer: Frozenbyte
 genre: Action, Adventure, Indie
-release_date: ""
+release_date: "October 8, 2019"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Simplified Chinese","Japanese","Polish","Portuguese - Brazil","Russian"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/690640/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/bundles/trine-classic-collection"
 protondb_url: "https://www.protondb.com/app/690640"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trine_4:_The_Nightmare_Prince"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/trine-4-the-nightmare-prince?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

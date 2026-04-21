@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/9185c0e9189a6fa034e874de14c5af562d9e1f8ec5dd
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/submerged-hidden-depths-6065a1"
 protondb_url: "https://www.protondb.com/app/1614270"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Submerged:_Hidden_Depths"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

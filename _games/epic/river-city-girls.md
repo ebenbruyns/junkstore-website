@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c2a668be03cc2f8297e54fd3f347add6c22e66c9608d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/river-city-girls"
 protondb_url: "https://www.protondb.com/app/1049320"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

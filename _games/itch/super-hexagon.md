@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Distractionware, Terry Cavanagh
 developer: Distractionware, Terry Cavanagh
 genre: Arcade
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/221640/capsule_231x87.jp
 
 # Technical Details
 controller_input: "native"
+community_layout: true
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://terrycavanagh.itch.io/super-hexagon"
 protondb_url: "https://www.protondb.com/app/221640"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Super_Hexagon"
+metacritic_score: 88
+metacritic_url: "https://www.metacritic.com/game/pc/super-hexagon?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Native controller support. Community controller layout available. **Decky Plugin: Not Supported**. **Pro Version: Works out of the box**."

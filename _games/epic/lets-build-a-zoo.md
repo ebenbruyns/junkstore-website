@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/7a7f1abc7ef4191be8825620d100b3e014824abd396d
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/let-s-build-a-zoo"
 protondb_url: "https://www.protondb.com/app/1547890"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/pc/lets-build-a-zoo?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "You need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."

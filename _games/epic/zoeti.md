@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Akupara Games
 developer: Dusklight CO., LTD.
 genre: Adventure, Indie, Strategy
-release_date: ""
+release_date: "April 20, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Traditional Chinese","French","Spanish - Spain","Simplified Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1434540/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/zoeti-3ccef9"
 protondb_url: "https://www.protondb.com/app/1434540"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Zoeti"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

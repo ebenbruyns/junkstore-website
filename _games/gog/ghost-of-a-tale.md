@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/118ed75c7edf136a86e800b0f12d1171c21f9a68ca8d
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/ghost_of_a_tale"
 protondb_url: "https://www.protondb.com/app/417290"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghost_of_a_Tale"
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/pc/ghost-of-a-tale?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

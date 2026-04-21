@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/a3ab314cc9e311017e4ef1d56247a05cba74fea08b58
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/behind-the-frame-the-finest-scenery"
 protondb_url: "https://www.protondb.com/app/1634150"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/pc/behind-the-frame-the-finest-scenery?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Need to verify with your Epic account. <strong>Works out of the box</strong> — no extra setup needed."

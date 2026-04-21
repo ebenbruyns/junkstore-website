@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/09ca0a7f94f3429cfffcbe64c862c24efeaedcb642b7
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/whispering_willows"
 protondb_url: "https://www.protondb.com/app/288060"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 64
+metacritic_url: "https://www.metacritic.com/game/pc/whispering-willows?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

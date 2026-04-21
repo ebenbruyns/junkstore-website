@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/66d06e4137e4f37d5aae79b0106b902a21d608adb24c
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/blood_west"
 protondb_url: "https://www.protondb.com/app/1587130"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/blood-west?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

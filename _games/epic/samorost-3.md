@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Amanita Design
 developer: Amanita Design
 genre: Adventure, Casual, Indie
-release_date: ""
+release_date: "March 24, 2016"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Arabic*","Portuguese - Brazil*","Bulgarian*","Danish*","Finnish*"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/421120/capsule_231x87.jp
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/samorost-3-0c4489"
 protondb_url: "https://www.protondb.com/app/421120"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Samorost_3"
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/pc/samorost-3?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "You need to toggle off a config, follow this path and toggle off: Game screen > Cog > Proton > Set Steam Compatibility Library Paths (toggle off for this game)."

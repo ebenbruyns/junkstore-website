@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/f2ff9d959a5e66e1799f77409ae2e6868210c3d5ede8
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/terraformers_first_steps_on_mars"
 protondb_url: "https://www.protondb.com/app/1557040"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

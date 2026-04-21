@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/0e02b1eda5c0b787bc6ccc86298b79309b14faf236e3
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/salt-and-sanctuary"
 protondb_url: "https://www.protondb.com/app/283640"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Salt_and_Sanctuary"
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/pc/salt-and-sanctuary?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: You have to verify with your Epic account in order for achievements to be tracked. You may also need to have the EOS overlay enabled.

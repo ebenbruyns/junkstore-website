@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Silver Lining Interactive
 developer: Dope Games
 genre: Simulation, Strategy
-release_date: ""
+release_date: "September 29, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Spanish - Latin America","Simplified Chinese","Traditional Chinese"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1036240/capsule_231x87.j
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/definitely-not-fried-chicken-a30160"
 protondb_url: "https://www.protondb.com/app/1036240"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!<br>\nAchievements don't appear to be working; unfortunately this appears to be a 'known' issue with the game. Guess we will have to wait for a patch from the devs to fix this issue."

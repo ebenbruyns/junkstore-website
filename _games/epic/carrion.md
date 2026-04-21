@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Devolver Digital
 developer: Phobia Game Studio
 genre: Adventure, Indie, Platform
-release_date: ""
+release_date: "July 23, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/365bdb3364b3e18189ac2527f3f254b48514d644eeee
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/carrion"
 protondb_url: "https://www.protondb.com/app/953490"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 75
+metacritic_url: "https://www.metacritic.com/game/pc/carrion?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

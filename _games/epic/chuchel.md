@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/ddc0477e778a147480b925e9d952952e84e18924e5ec
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/chuchel-203808"
 protondb_url: "https://www.protondb.com/app/711660"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Chuchel"
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/pc/chuchel?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!<br>\nMay need to toggle off *Set Steam Compatibility Library Paths* - Cog > Set Dropdown to **All**"

@@ -17,7 +17,7 @@ proton_version: "Proton 9.0-4"
 publisher: Orangepixel
 developer: Orangepixel
 genre: Action, Adventure, Indie
-release_date: ""
+release_date: "September 9, 2021"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Danish","Japanese","Dutch","Polish","Portuguese - Portugal"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1290780/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/residual"
 protondb_url: "https://www.protondb.com/app/1290780"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Residual"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: 

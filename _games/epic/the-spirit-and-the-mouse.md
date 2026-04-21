@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/969856a117a34c5fd71dc55081374910498bf703697c
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-spirit-and-the-mouse"
 protondb_url: "https://www.protondb.com/app/1679210"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

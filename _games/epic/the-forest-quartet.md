@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/61c8876721088c28296c5e7929955e88e79f1764f2f4
 
 # Technical Details
 controller_input: ""
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-forest-quartet"
 protondb_url: "https://www.protondb.com/app/1620720"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"

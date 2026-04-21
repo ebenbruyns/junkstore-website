@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Toukana Interactive
 developer: Toukana Interactive
 genre: Casual, Indie, Simulation, Strategy
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Italian","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Polish"]
 
@@ -28,6 +28,7 @@ icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1455840/capsule_231x87.j
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/dorfromantik"
 protondb_url: "https://www.protondb.com/app/1455840"
+protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dorfromantik"
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Not tested**. **Pro Version: Works out of the box**."

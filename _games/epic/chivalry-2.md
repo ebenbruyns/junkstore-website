@@ -19,7 +19,7 @@ developer: Torn Banner Studios
 genre: "Indie, Hack and slash/Beat 'em up, Fighting, Tactical"
 release_date: "June 8, 2021"
 game_modes: ["Multiplayer"]
-languages: ["English"]
+languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
 
 # Images
 banner_image: "https://images.gog.com/d463f92ac891cc4ac32b33c3a2f7ef3838022fe87e30812bc352987ecbc0904b.jpg?namespace=gamesdb"
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/c59064c38d2d3ecbf6d15ae76ec2c110113f8375ea66
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: true
 # Links
 store_url: "https://store.epicgames.com/en-US/p/chivalry-2"
 protondb_url: "https://www.protondb.com/app/1824220"
-pcgamingwiki_url: ""
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Chivalry_2"
+metacritic_score: 82
+metacritic_url: "https://www.metacritic.com/game/pc/chivalry-2?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

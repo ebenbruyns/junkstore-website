@@ -17,17 +17,18 @@ proton_version: ""
 publisher: Extrone
 developer: Extrone
 genre: Arcade, Racing
-release_date: ""
+release_date: "April 26, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 
 # Images
-banner_image: ""
+banner_image: "https://images.gog.com/98f4df60921fe573c374798051cb4a808d05a79ae3139a2bf7165dcef87df55c.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/0b1e91bb95a69147a86f9d79123c53b82c03050b1bd0171c965d41a800767a46.jpg?namespace=gamesdb"
 icon_image: "https://cdn2.steamgriddb.com/thumb/83181836fe54753c41d104ffd521c6ed.jpg"
 
 # Technical Details
 controller_input: "mouse-only"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://extrone.itch.io/derpy-deep-drive"
 protondb_url: ""
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: "Works out of the box and I just set controller to mouse, but you could probably re-map to joystick. If it doesn't launch first try, reset launch options from the sliders menu."

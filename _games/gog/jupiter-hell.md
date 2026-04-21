@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/80a5ec18f073e992bec86170a554b333f295ccaa95ee
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/jupiter_hell"
 protondb_url: "https://www.protondb.com/app/811320"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/pc/jupiter-hell?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**.\nNo issue if you select Yes or No at the Vulkan prompt."

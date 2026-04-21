@@ -10,7 +10,7 @@ permalink: /games/epic/turmoil/
 # Compatibility
 decky_rating: "green"
 standalone_rating: "green"
-date_tested: "Jan '25"
+date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
@@ -19,26 +19,27 @@ developer: Gamious
 genre: Strategy, Indie, Simulator
 release_date: "June 2, 2016"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
 
 # Images
-banner_image: "https://images.gog.com/911e85413761d44635b2773e99065a09ff62fba5312e9b34c797323e1a5d4563.jpg?namespace=gamesdb"
-cover_image: "https://images.gog.com/2b75bc3cadbf7118e7dd23fe9fa17f8dd0b2237ec71d9926c2f51ae9da36178a.jpg?namespace=gamesdb"
-icon_image: ""
+banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/361280/library_hero.jpg"
+cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/361280/library_600x900.jpg"
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/361280/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
 
 # Epic Features
 requires_eos: false
-supports_eos: false
-epic_achievements: false
+supports_eos: true
+epic_achievements: true
 epic_offline_mode: false
 epic_cloud_saves: false
-must_be_online: false
+must_be_online: true
 
 # Anti-Cheat
 requires_eac_runtime: false
@@ -46,9 +47,12 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/turmoil"
+store_url: "https://store.epicgames.com/en-US/p/turmoil-26318a"
 protondb_url: "https://www.protondb.com/app/361280"
-pcgamingwiki_url: ""
+protondb_report_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Turmoil"
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/pc/turmoil?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"

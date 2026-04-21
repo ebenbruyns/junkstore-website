@@ -17,7 +17,7 @@ proton_version: ""
 publisher: Owlcat Games
 developer: Owlcat Games
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS)
-release_date: ""
+release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 
@@ -28,6 +28,7 @@ icon_image: "https://images.gog.com/9624bb79d2778462bf1f8ea096f3a5ef476bca7badfa
 
 # Technical Details
 controller_input: "native"
+community_layout: false
 required_launcher: ""
 requires_account_setup: false
 account_type: ""
@@ -48,7 +49,10 @@ cant_test_linux: false
 # Links
 store_url: "https://www.gog.com/en/game/warhammer_40000_rogue_trader"
 protondb_url: "https://www.protondb.com/app/2186680"
+protondb_report_url: ""
 pcgamingwiki_url: ""
+metacritic_score: 
+metacritic_url: ""
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
