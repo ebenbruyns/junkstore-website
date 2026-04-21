@@ -62,13 +62,16 @@ layout: null
       {% if page.date_tested %}
       <span class="hero-detail">Tested {{ page.date_tested }}</span>
       {% endif %}
+      {% if page.metacritic_score or page.metacritic_url %}
+      <span class="hero-detail metacritic-hero">Metacritic: <strong class="mc-score {% if page.metacritic_score %}mc-score--{% if page.metacritic_score >= 75 %}green{% elsif page.metacritic_score >= 50 %}yellow{% else %}red{% endif %}{% else %}mc-score--tbd{% endif %}">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</strong></span>
+      {% endif %}
     </div>
   </div>
 </div>
 
 <!-- Breadcrumb -->
 <div class="breadcrumb-bar">
-  <a href="/">Home</a> / <a href="/games/tested/">Game Database</a> / {{ page.storefront }}
+  <a href="/">Home</a> / <a href="/games/">Games</a> / <a href="/games/tested/?store={{ page.storefront }}">{{ page.storefront }}</a> / {{ page.game_title }}
 </div>
 
 <!-- Main Content -->
@@ -91,7 +94,12 @@ layout: null
         </div>
       </div>
 
-      {% if page.notes %}
+      {% assign notes_lower = page.notes | downcase | strip %}
+      {% assign is_generic = false %}
+      {% if notes_lower == "works out of the box!" or notes_lower == "works out of the box" or notes_lower == "works great!" or notes_lower == "works great" or notes_lower == "" %}
+        {% assign is_generic = true %}
+      {% endif %}
+      {% if page.notes and is_generic == false %}
       <div class="notes-box">
         <h3>Setup Notes</h3>
         <p>{{ page.notes | markdownify | strip_html }}</p>
@@ -101,7 +109,7 @@ layout: null
 
     <!-- Technical Details -->
     <div class="info-section">
-      <h2><span class="icon">⚙️</span> Technical Details</h2>
+      <h2>Technical Details</h2>
       <div class="info-grid">
         {% if page.controller_input %}
         <div class="info-item">
@@ -109,30 +117,39 @@ layout: null
           <div class="info-value">{% include game-page-controller-text.html input=page.controller_input %}</div>
         </div>
         {% endif %}
+        {% if page.community_layout %}
         <div class="info-item">
-          <div class="info-label">Required Launcher</div>
-          <div class="info-value">{{ page.required_launcher | default: "None" | capitalize }}</div>
-        </div>
-        {% if page.requires_account_setup %}
-        <div class="info-item">
-          <div class="info-label">Account Required</div>
-          <div class="info-value">Yes{% if page.account_type %} ({{ page.account_type }}){% endif %}</div>
+          <div class="info-label">Community Layout</div>
+          <div class="info-value community-layout-badge">🎮 Available</div>
         </div>
         {% endif %}
         <div class="info-item">
           <div class="info-label">Recommended Proton</div>
           <div class="info-value">{{ page.proton_version | default: "GE-Proton" }}</div>
         </div>
+        {% if page.required_launcher and page.required_launcher != "" %}
+        <div class="info-item">
+          <div class="info-label">Required Launcher</div>
+          <div class="info-value">{{ page.required_launcher | capitalize }}</div>
+        </div>
+        {% endif %}
+        {% if page.requires_account_setup %}
+        <div class="info-item">
+          <div class="info-label">Account Required</div>
+          <div class="info-value">Yes{% if page.account_type %} ({{ page.account_type }}){% endif %}</div>
+        </div>
+        {% endif %}
+        {% if page.requires_eac_runtime or page.requires_battleye_runtime or page.cant_test_linux %}
         <div class="info-item">
           <div class="info-label">Anti-Cheat</div>
           <div class="info-value">
             {% if page.requires_eac_runtime %}EasyAntiCheat
             {% elsif page.requires_battleye_runtime %}BattlEye
             {% elsif page.cant_test_linux %}Requires Windows
-            {% else %}None required
             {% endif %}
           </div>
         </div>
+        {% endif %}
         {% if page.must_be_online %}
         <div class="info-item">
           <div class="info-label">Online Requirement</div>
@@ -165,7 +182,7 @@ layout: null
     {% if page.storefront_key == 'epic' %}
     <!-- Epic Features -->
     <div class="info-section">
-      <h2><span class="icon">🎮</span> Epic Games Features</h2>
+      <h2>Epic Games Features</h2>
       <div class="feature-grid">
         <div class="feature-item {% if page.epic_achievements %}active{% endif %}">
           <span class="feature-icon">{% if page.epic_achievements %}✓{% else %}✗{% endif %}</span>
@@ -189,7 +206,7 @@ layout: null
 
     <!-- About -->
     <div class="info-section">
-      <h2><span class="icon">📖</span> About This Game</h2>
+      <h2>About This Game</h2>
       <p class="description">{{ content }}</p>
     </div>
 
@@ -223,9 +240,39 @@ layout: null
       </div>
       {% endif %}
       {% if page.languages.size > 0 %}
-      <div class="info-item">
-        <div class="info-label">Languages</div>
-        <div class="info-value">{{ page.languages | join: ", " }}</div>
+      {% assign has_audio_lang = false %}
+      {% assign lang_count = 0 %}
+      {% for lang in page.languages %}
+        {% unless lang == "*languages with full audio support" or lang contains "*languages with full audio support" %}
+          {% assign lang_count = lang_count | plus: 1 %}
+          {% if lang contains "*" %}
+            {% assign has_audio_lang = true %}
+          {% endif %}
+        {% endunless %}
+        {% if lang contains "*languages with full audio support" and lang != "*languages with full audio support" %}
+          {% assign lang_count = lang_count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      <div class="info-item info-item--languages">
+        <div class="info-label">Languages ({{ lang_count }})</div>
+        <div class="language-tags">
+          {% for lang in page.languages %}
+            {% unless lang == "*languages with full audio support" %}
+              {% assign clean_lang = lang | replace: "*languages with full audio support", "" %}
+              {% assign has_audio = false %}
+              {% unless lang contains "*languages with full audio support" %}
+                {% if clean_lang contains "*" %}
+                  {% assign has_audio = true %}
+                  {% assign clean_lang = clean_lang | replace: "*", "" %}
+                {% endif %}
+              {% endunless %}
+              <span class="language-tag{% if has_audio %} language-tag--audio{% endif %}">{{ clean_lang }}{% if has_audio %}*{% endif %}</span>
+            {% endunless %}
+          {% endfor %}
+        </div>
+        {% if has_audio_lang %}
+        <div class="language-legend">* Full audio support</div>
+        {% endif %}
       </div>
       {% endif %}
     </div>
@@ -236,20 +283,20 @@ layout: null
         {% if page.store_url %}
         <a href="{{ page.store_url }}" target="_blank" rel="noopener" class="external-link {{ page.storefront_key }}">{{ page.storefront }} Store</a>
         {% endif %}
+        {% if page.pcgamingwiki_url %}
+        <a href="{{ page.pcgamingwiki_url }}" target="_blank" rel="noopener" class="external-link pcgaming">PCGamingWiki</a>
+        {% endif %}
         {% if page.protondb_url %}
         <a href="{{ page.protondb_url }}" target="_blank" rel="noopener" class="external-link protondb">ProtonDB</a>
         {% endif %}
         {% if page.protondb_report_url %}
         <a href="{{ page.protondb_report_url }}" target="_blank" rel="noopener" class="external-link our-report">Our Report</a>
         {% endif %}
-        {% if page.pcgamingwiki_url %}
-        <a href="{{ page.pcgamingwiki_url }}" target="_blank" rel="noopener" class="external-link pcgaming">PCGamingWiki</a>
-        {% endif %}
         {% if page.areweanticheat_url %}
         <a href="{{ page.areweanticheat_url }}" target="_blank" rel="noopener" class="external-link anticheat">AreWeAntiCheat</a>
         {% endif %}
         {% if page.metacritic_url %}
-        <a href="{{ page.metacritic_url }}" target="_blank" rel="noopener" class="external-link metacritic">Metacritic</a>
+        <a href="{{ page.metacritic_url }}" target="_blank" rel="noopener" class="external-link metacritic">Metacritic <span class="badge-score">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</span></a>
         {% endif %}
         {% if page.hltb_url %}
         <a href="{{ page.hltb_url }}" target="_blank" rel="noopener" class="external-link hltb">HowLongToBeat</a>
