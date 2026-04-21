@@ -1,189 +1,189 @@
 {
-  "last_updated": "2026-03-09T05:58:47.057Z",
-  "total_tested_games": 960,
-  "featured_games": 4,
+  "last_updated": "2026-04-20T23:17:38.798Z",
+  "total_tested_games": 989,
+  "featured_games": 3,
   "storefronts": {
     "Epic": {
-      "total": 456,
-      "featured": 4,
+      "total": 472,
+      "featured": 2,
       "directory": "epic"
     },
     "GOG": {
-      "total": 364,
-      "featured": 0,
+      "total": 372,
+      "featured": 1,
       "directory": "gog"
     },
     "Amazon": {
-      "total": 72,
+      "total": 73,
       "featured": 0,
       "directory": "amazon"
     },
     "itch.io": {
-      "total": 68,
+      "total": 72,
       "featured": 0,
       "directory": "itch.io"
     }
   },
   "recent_updates": [
     {
-      "title": "Hidden Folks",
+      "title": "Snake Core",
+      "storefront": "GOG",
+      "slug": "snake-core",
+      "date_tested": "April '26",
+      "is_featured": true,
+      "updated_at": "2026-04-20T23:14:53.686Z"
+    },
+    {
+      "title": "The Stone of Madness",
       "storefront": "Epic",
-      "slug": "hidden-folks",
+      "slug": "the-stone-of-madness",
+      "date_tested": "April '26",
+      "is_featured": true,
+      "updated_at": "2026-04-20T03:46:59.761Z"
+    },
+    {
+      "title": "Monster Harvest",
+      "storefront": "Epic",
+      "slug": "monster-harvest",
+      "date_tested": "April '26",
+      "is_featured": true,
+      "updated_at": "2026-04-20T03:46:27.113Z"
+    },
+    {
+      "title": "Sin Slayers: The First Sin",
+      "storefront": "GOG",
+      "slug": "sin-slayers-the-first-sin",
+      "date_tested": "April '25",
+      "is_featured": false,
+      "updated_at": "2026-04-20T01:32:01.428Z"
+    },
+    {
+      "title": "Vornyca",
+      "storefront": "Epic",
+      "slug": "vornyca",
+      "date_tested": "April '26",
+      "is_featured": false,
+      "updated_at": "2026-04-20T00:57:50.179Z"
+    },
+    {
+      "title": "OverTrip",
+      "storefront": "Epic",
+      "slug": "overtrip",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2026-04-20T00:56:14.575Z"
+    },
+    {
+      "title": "Illuvium",
+      "storefront": "Epic",
+      "slug": "illuvium",
+      "date_tested": "Aug '24",
+      "is_featured": false,
+      "updated_at": "2026-04-20T00:55:36.861Z"
+    },
+    {
+      "title": "Evergreen Valley: The Parkour Game",
+      "storefront": "Epic",
+      "slug": "evergreen-valley-the-parkour-game",
+      "date_tested": "April '26",
+      "is_featured": false,
+      "updated_at": "2026-04-20T00:54:27.552Z"
+    },
+    {
+      "title": "Valorant",
+      "storefront": "Epic",
+      "slug": "valorant",
+      "date_tested": "N/A",
+      "is_featured": false,
+      "updated_at": "2026-04-20T00:52:12.127Z"
+    },
+    {
+      "title": "The Crew: Motorfest",
+      "storefront": "Epic",
+      "slug": "the-crew-motorfest",
+      "date_tested": "N/A",
+      "is_featured": false,
+      "updated_at": "2026-04-20T00:51:30.560Z"
+    },
+    {
+      "title": "Tomak: Save the Earth Regeneration",
+      "storefront": "Epic",
+      "slug": "tomak-save-the-earth-regeneration",
+      "date_tested": "April '26",
+      "is_featured": false,
+      "updated_at": "2026-04-20T00:50:30.178Z"
+    },
+    {
+      "title": "Tom Clancy's Ghost Recon: Breakpoint",
+      "storefront": "Epic",
+      "slug": "tom-clancys-ghost-recon-breakpoint",
+      "date_tested": "N/A",
+      "is_featured": false,
+      "updated_at": "2026-04-20T00:49:39.663Z"
+    },
+    {
+      "title": "Tom Clancy's Rainbow Six Extraction",
+      "storefront": "Epic",
+      "slug": "tom-clancys-rainbow-six-extraction",
+      "date_tested": "N/A",
+      "is_featured": false,
+      "updated_at": "2026-04-20T00:49:20.220Z"
+    },
+    {
+      "title": "Sector 781",
+      "storefront": "itch.io",
+      "slug": "sector-781",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2026-04-20T00:45:16.441Z"
+    },
+    {
+      "title": "Roguelight",
+      "storefront": "itch.io",
+      "slug": "roguelight",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2026-04-20T00:44:22.102Z"
+    },
+    {
+      "title": "10S",
+      "storefront": "itch.io",
+      "slug": "10s",
       "date_tested": "Aug '25",
       "is_featured": false,
-      "updated_at": "2026-03-09T05:58:42.929Z"
+      "updated_at": "2026-04-20T00:36:23.386Z"
     },
     {
-      "title": "F.I.S.T.: Forged In Shadow Torch",
-      "storefront": "Epic",
-      "slug": "fist-forged-in-shadow-torch",
-      "date_tested": "Mar '26",
-      "is_featured": false,
-      "updated_at": "2026-03-08T21:03:17.045Z"
-    },
-    {
-      "title": "Tiny Tina's Wonderlands",
-      "storefront": "Epic",
-      "slug": "tiny-tinas-wonderlands",
+      "title": "World in Conflict: Complete Edition",
+      "storefront": "GOG",
+      "slug": "world-in-conflict-complete-edition",
       "date_tested": "May '25",
-      "is_featured": true,
-      "updated_at": "2026-03-08T19:18:48.685Z"
-    },
-    {
-      "title": "Idle Champions of the Forgotten Realms",
-      "storefront": "Epic",
-      "slug": "idle-champions-of-the-forgotten-realms",
-      "date_tested": "Mar '26",
-      "is_featured": true,
-      "updated_at": "2026-03-06T21:38:45.697Z"
-    },
-    {
-      "title": "Tattoo Tycoon",
-      "storefront": "Epic",
-      "slug": "tattoo-tycoon",
-      "date_tested": "Mar '26",
-      "is_featured": true,
-      "updated_at": "2026-03-06T21:27:31.400Z"
-    },
-    {
-      "title": "Turnip Boy Robs a Bank",
-      "storefront": "Epic",
-      "slug": "turnip-boy-robs-a-bank",
-      "date_tested": "Mar '26",
-      "is_featured": true,
-      "updated_at": "2026-03-06T21:25:26.259Z"
-    },
-    {
-      "title": "Deceive Inc.",
-      "storefront": "Epic",
-      "slug": "deceive-inc",
-      "date_tested": "Mar '26",
       "is_featured": false,
-      "updated_at": "2026-03-04T08:33:37.001Z"
+      "updated_at": "2026-04-20T00:34:02.535Z"
     },
     {
-      "title": "Intravenous",
+      "title": "Warhammer 40,000: Rites of War",
       "storefront": "GOG",
-      "slug": "intravenous",
-      "date_tested": "Mar '26",
+      "slug": "warhammer-40000-rites-of-war",
+      "date_tested": "May '25",
       "is_featured": false,
-      "updated_at": "2026-03-04T08:02:40.177Z"
+      "updated_at": "2026-04-20T00:33:05.374Z"
     },
     {
-      "title": "Haven Park",
+      "title": "Silent Hill 4: The Room",
       "storefront": "GOG",
-      "slug": "haven-park",
-      "date_tested": "Mar '26",
+      "slug": "silent-hill-4-the-room",
+      "date_tested": "March '25",
       "is_featured": false,
-      "updated_at": "2026-03-04T08:02:19.352Z"
+      "updated_at": "2026-04-20T00:29:58.300Z"
     },
     {
-      "title": "Rogue Legacy 2",
-      "storefront": "Epic",
-      "slug": "rogue-legacy-2",
-      "date_tested": "May '24",
-      "is_featured": false,
-      "updated_at": "2026-03-03T21:16:52.241Z"
-    },
-    {
-      "title": "Animation Throwdown: The Quest for Cards",
-      "storefront": "Epic",
-      "slug": "animation-throwdown-the-quest-for-cards",
-      "date_tested": "July '24",
-      "is_featured": false,
-      "updated_at": "2026-03-03T21:16:48.254Z"
-    },
-    {
-      "title": "Death's Gambit: Afterlife",
-      "storefront": "Epic",
-      "slug": "deaths-gambit-afterlife",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-03-01T22:51:09.337Z"
-    },
-    {
-      "title": "Forager",
+      "title": "SWAT 4: Gold Edition",
       "storefront": "GOG",
-      "slug": "forager",
-      "date_tested": "Feb '26",
+      "slug": "swat-4-gold-edition",
+      "date_tested": "Oct '24",
       "is_featured": false,
-      "updated_at": "2026-03-01T22:51:09.337Z"
-    },
-    {
-      "title": "Hard West 2",
-      "storefront": "GOG",
-      "slug": "hard-west-2",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-03-01T22:51:09.337Z"
-    },
-    {
-      "title": "Tavern Talk",
-      "storefront": "Amazon",
-      "slug": "tavern-talk",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-03-01T22:51:05.223Z"
-    },
-    {
-      "title": "My Night Job",
-      "storefront": "Epic",
-      "slug": "my-night-job",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-03-01T22:51:03.908Z"
-    },
-    {
-      "title": "Boxes: Lost Fragments",
-      "storefront": "Epic",
-      "slug": "boxes-lost-fragments",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-03-01T22:51:02.169Z"
-    },
-    {
-      "title": "Overcooked!",
-      "storefront": "Epic",
-      "slug": "overcooked",
-      "date_tested": "May '24",
-      "is_featured": false,
-      "updated_at": "2026-02-27T23:45:57.916Z"
-    },
-    {
-      "title": "Figment",
-      "storefront": "GOG",
-      "slug": "figment",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-26T20:20:29.834Z"
-    },
-    {
-      "title": "Flashout 3D: Enhanced Edition",
-      "storefront": "GOG",
-      "slug": "flashout-3d-enhanced-edition",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-02-26T20:20:29.834Z"
+      "updated_at": "2026-04-20T00:28:33.476Z"
     }
   ]
 }
