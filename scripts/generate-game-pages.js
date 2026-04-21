@@ -133,6 +133,7 @@ icon_image: "${game.icon_image || ''}"
 
 # Technical Details
 controller_input: "${game.controller_input || ''}"
+community_layout: ${game.community_layout || false}
 required_launcher: "${game.required_launcher || ''}"
 requires_account_setup: ${game.requires_account_setup || false}
 account_type: "${game.account_type || ''}"
@@ -153,7 +154,10 @@ cant_test_linux: ${game.cant_test_linux || false}
 # Links
 store_url: "${getStoreUrl(game)}"
 protondb_url: "${game.protondb || ''}"
+protondb_report_url: "${game.protondb_report_url || ''}"
 pcgamingwiki_url: "${game.pc_gaming_wiki_url || ''}"
+metacritic_score: ${game.metacritic_score || ''}
+metacritic_url: "${game.metacritic_url || ''}"
 
 # Notes
 notes: ${escapeYaml(game.notes || '')}
