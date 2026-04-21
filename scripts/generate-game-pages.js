@@ -2,7 +2,9 @@
 /**
  * Generate Jekyll game pages from JSON data files
  *
- * Usage: node scripts/generate-game-pages.js
+ * Usage:
+ *   node scripts/generate-game-pages.js           # Incremental (changed only)
+ *   node scripts/generate-game-pages.js --force   # Regenerate ALL pages
  *
  * This script reads game JSON files from /assets/data/games/{storefront}/
  * and generates Jekyll markdown files in /_games/{storefront}/
@@ -16,6 +18,27 @@ const DATA_DIR = path.join(ROOT_DIR, 'assets/data/games');
 const OUTPUT_DIR = path.join(ROOT_DIR, '_games');
 
 const STOREFRONTS = ['epic', 'gog', 'amazon', 'itch.io'];
+
+// Parse command line args
+const args = process.argv.slice(2);
+const FORCE_ALL = args.includes('--force') || args.includes('-f');
+
+// Check if file needs updating
+function needsUpdate(jsonPath, mdPath) {
+  if (FORCE_ALL) return true;
+
+  try {
+    if (!fs.existsSync(mdPath)) return true;
+
+    const jsonStats = fs.statSync(jsonPath);
+    const mdStats = fs.statSync(mdPath);
+
+    // Update if JSON is newer than MD
+    return jsonStats.mtime > mdStats.mtime;
+  } catch {
+    return true;
+  }
+}
 
 // Mapping for readable status text
 const STATUS_TEXT = {
@@ -181,7 +204,7 @@ function processStorefront(storefrontKey) {
 
   if (!fs.existsSync(inputDir)) {
     console.log(`  Skipping ${storefrontKey} - directory not found`);
-    return 0;
+    return { updated: 0, skipped: 0 };
   }
 
   // Create output directory
@@ -190,50 +213,70 @@ function processStorefront(storefrontKey) {
   }
 
   const files = fs.readdirSync(inputDir).filter(f => f.endsWith('.json') && f !== 'index.json');
-  let count = 0;
+  let updated = 0;
+  let skipped = 0;
 
   for (const file of files) {
     try {
       const jsonPath = path.join(inputDir, file);
+      const mdPath = path.join(outputDir, file.replace('.json', '.md'));
+
+      // Check if update is needed (incremental mode)
+      if (!needsUpdate(jsonPath, mdPath)) {
+        skipped++;
+        continue;
+      }
+
       const game = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
       game._sourceFile = file;
 
       const mdContent = generateFrontMatter(game, storefrontKey);
-      const mdPath = path.join(outputDir, file.replace('.json', '.md'));
 
       fs.writeFileSync(mdPath, mdContent);
-      count++;
+      updated++;
     } catch (err) {
       console.error(`  Error processing ${file}: ${err.message}`);
     }
   }
 
-  return count;
+  return { updated, skipped };
 }
 
 // Main execution
 function main() {
-  console.log('Generating game pages from JSON data...\n');
+  console.log('Generating game pages from JSON data...');
+  if (FORCE_ALL) {
+    console.log('Mode: FORCE (regenerating all pages)\n');
+  } else {
+    console.log('Mode: INCREMENTAL (only changed files)\n');
+  }
 
   // Create output directory
   if (!fs.existsSync(OUTPUT_DIR)) {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }
 
-  let totalCount = 0;
+  let totalUpdated = 0;
+  let totalSkipped = 0;
 
   for (const storefront of STOREFRONTS) {
     console.log(`Processing ${storefront}...`);
-    const count = processStorefront(storefront);
-    console.log(`  Generated ${count} pages`);
-    totalCount += count;
+    const { updated, skipped } = processStorefront(storefront);
+    if (updated > 0 || skipped > 0) {
+      console.log(`  Updated: ${updated}, Skipped: ${skipped}`);
+    }
+    totalUpdated += updated;
+    totalSkipped += skipped;
   }
 
-  console.log(`\nTotal: ${totalCount} game pages generated in ${OUTPUT_DIR}`);
-  console.log('\nNext steps:');
-  console.log('1. Add the games collection to _config.yml');
-  console.log('2. Create _layouts/game-page.html template');
-  console.log('3. Run: bundle exec jekyll serve');
+  console.log(`\nSummary:`);
+  console.log(`  Updated: ${totalUpdated} pages`);
+  console.log(`  Skipped: ${totalSkipped} pages (unchanged)`);
+  console.log(`  Total:   ${totalUpdated + totalSkipped} pages`);
+
+  if (totalUpdated === 0 && totalSkipped > 0) {
+    console.log('\nNo changes detected. Use --force to regenerate all pages.');
+  }
 }
 
 main();
