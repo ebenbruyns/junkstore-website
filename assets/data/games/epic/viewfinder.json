@@ -34,7 +34,7 @@
   "shortname": "17979201bdd845f0ab53d1d62d841dbf",
   "publisher": "Thunderful Publishing",
   "developer": "Sad Owl Studios",
-  "releasedate": "",
+  "releasedate": "18 Jul, 2023",
   "genre": "Adventure, Indie",
   "description": "Challenge perception, redefine reality, and reshape the world around you with an instant camera. Viewfinder is a new single player game offering gamers hours of interesting and fun experiences while uncovering the mysteries left behind.",
   "size": "",
@@ -57,6 +57,8 @@
     "Simplified Chinese",
     "Portuguese - Brazil"
   ],
+  "metacritic_score": 84,
+  "metacritic_url": "https://www.metacritic.com/game/pc/viewfinder?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

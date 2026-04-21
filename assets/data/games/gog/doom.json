@@ -34,7 +34,7 @@
   "shortname": "1390579243",
   "publisher": "Bethesda Softworks",
   "developer": "id Software",
-  "releasedate": "",
+  "releasedate": "05-2016",
   "genre": "puzzle, shooter",
   "description": "Developed by id software, the studio that pioneered the first-person shooter genre and created multiplayer Deathmatch, Doom returns as a brutally fun and challenging modern-day shooter experience.",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 85,
+  "metacritic_url": "https://www.metacritic.com/game/pc/doom?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

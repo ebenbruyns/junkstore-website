@@ -34,7 +34,7 @@
   "shortname": "1699513994",
   "publisher": "Epopeia Games, HAMMER95",
   "developer": "HAMMER95",
-  "releasedate": "",
+  "releasedate": "05-2024",
   "genre": "Indie, Shooter",
   "description": "Mullet Madjack is a single-player fast-paced FPS that brings you directly inside a classic anime.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 88,
+  "metacritic_url": "https://www.metacritic.com/game/pc/mullet-madjack?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

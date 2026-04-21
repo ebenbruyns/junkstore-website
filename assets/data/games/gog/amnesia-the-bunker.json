@@ -34,7 +34,7 @@
   "shortname": "1186009992",
   "publisher": "Frictional Games",
   "developer": "Frictional Games",
-  "releasedate": "",
+  "releasedate": "06-2023",
   "genre": "adventure, indie, puzzle, shooter",
   "description": "Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker. Face the oppressing terrors stalking the dark corridors.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

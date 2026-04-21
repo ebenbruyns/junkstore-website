@@ -34,7 +34,7 @@
   "shortname": "1207659154",
   "publisher": "1C Company, Fulqrum Publishing",
   "developer": "Katauri Interactive",
-  "releasedate": "",
+  "releasedate": "2009-11-19",
   "genre": "role-playing, strategy",
   "description": "King's Bounty: Crossworlds is the expansion for the famous King's Bounty: Armored Princess role-playing game.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 78,
+  "metacritic_url": "https://www.metacritic.com/game/pc/kings-bounty-crossworlds?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": false,

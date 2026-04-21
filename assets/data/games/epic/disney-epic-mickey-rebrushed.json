@@ -34,7 +34,7 @@
   "shortname": "1522160",
   "publisher": "Disney",
   "developer": "Purple Lamp",
-  "releasedate": "",
+  "releasedate": "09-2024",
   "genre": "Adventure, Platform",
   "description": "Embark on a magical journey in Disney Epic Mickey: Rebrushed! Shape your adventure with the stroke of a brush and transform Wasteland as Mickey Mouse",
   "size": "",
@@ -46,6 +46,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 75,
+  "metacritic_url": "https://www.metacritic.com/game/pc/disney-epic-mickey-rebrushed?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

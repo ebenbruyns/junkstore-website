@@ -34,7 +34,7 @@
   "shortname": "1882554410",
   "publisher": "Humble Games",
   "developer": "Squid Shock Studios",
-  "releasedate": "",
+  "releasedate": "17 Jul, 2024",
   "genre": "Action, Adventure, Indie",
   "description": "Flow gracefully through a colorful, hand-drawn 2.5D action platformer inspired by Japanese folklore. Engage in acrobatic aerial combat, unlock powerful mystical abilities, and explore an interconnected world of myth as you seek to unravel the mysteries of your origin.",
   "size": "",
@@ -56,6 +56,8 @@
     "Traditional Chinese",
     "Ukrainian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

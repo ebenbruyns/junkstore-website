@@ -34,7 +34,7 @@
   "shortname": "amzn1.adg.product.366e1c6d-2eb3-4773-b818-e7237e617d89",
   "publisher": "Baltoro Games",
   "developer": "Baltoro Games",
-  "releasedate": "",
+  "releasedate": "30 Nov, 2023",
   "genre": "Casual, Indie, Simulation, Strategy",
   "description": "Step into Pixel's shoes in this one-of-a-kind journey that bridges time, memories, and the aroma of fresh coffee. Dive deep into a city balancing its past and future. Engage in intense arcade challenges, immerse yourself in heartfelt stories, and navigate a world crafted in pixel art.",
   "size": "1273918639\n",
@@ -54,6 +54,8 @@
     "Polish",
     "Spanish - Spain"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

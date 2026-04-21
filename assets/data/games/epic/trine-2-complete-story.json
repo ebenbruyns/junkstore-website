@@ -34,7 +34,7 @@
   "shortname": "bb9fca58dae446b8af86c668dd7a7234",
   "publisher": "Frozenbyte",
   "developer": "Frozenbyte",
-  "releasedate": "",
+  "releasedate": "Jun 6, 2013",
   "genre": "Action, Adventure, Indie",
   "description": "Three Heroes make their way through dangers untold in a fairytale world, featuring physics-based puzzles, beautiful sights and online co-op.",
   "size": "",
@@ -60,6 +60,8 @@
     "Korean",
     "Portuguese - Brazil"
   ],
+  "metacritic_score": 84,
+  "metacritic_url": "https://www.metacritic.com/game/pc/trine-2?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

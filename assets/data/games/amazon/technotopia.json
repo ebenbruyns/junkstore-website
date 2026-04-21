@@ -34,7 +34,7 @@
   "shortname": "amzn1.adg.product.16eaa398-e6f6-479b-86bd-468f02d493b2",
   "publisher": "Alawar",
   "developer": "Yustas",
-  "releasedate": "",
+  "releasedate": "Oct 23, 2024",
   "genre": "Casual, Indie, Strategy",
   "description": "Welcome to Technotopia, a city-builder card game. Take on the role of an AI designed to build a perfect city. Build districts, meet the needs of diverse communities and maintain the delicate balance between factions vying for control over you!",
   "size": "",
@@ -50,6 +50,8 @@
     "Russian",
     "Simplified Chinese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

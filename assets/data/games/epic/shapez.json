@@ -4,9 +4,9 @@
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/1318690",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/shapez-0929c9",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Shapez",
   "notes": "Works out of the box!",
   "date_tested": "Nov '24",
   "decky_rating": "green",
@@ -46,13 +46,24 @@
     "Single player"
   ],
   "languages": [
-    "English"
+    "English",
+    "French",
+    "Czech",
+    "German",
+    "Korean",
+    "Spanish - Spain",
+    "Dutch",
+    "Polish",
+    "Portuguese - Portugal",
+    "Russian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:32:15.348Z"
+  "updated_at": "2026-03-23T01:20:29.219Z"
 }

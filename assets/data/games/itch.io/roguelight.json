@@ -34,7 +34,7 @@
   "shortname": "10349",
   "publisher": "Daniel Linssen",
   "developer": "Daniel Linssen",
-  "releasedate": "",
+  "releasedate": "August 11, 2014",
   "genre": "Platformer",
   "description": "The deeper you travel the darker it gets, and you only have your arrows to light the way.",
   "size": "",
@@ -48,10 +48,12 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "https://www.metacritic.com/game/roguelight/",
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-27T06:24:30.613Z",
-  "updated_at": "2026-02-08T00:03:39.871Z"
+  "updated_at": "2026-04-20T00:44:22.102Z"
 }

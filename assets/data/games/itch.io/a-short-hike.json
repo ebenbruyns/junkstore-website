@@ -34,7 +34,7 @@
   "shortname": "424895",
   "publisher": "Whippoorwill, Adam Gryu",
   "developer": "Adam Gryu",
-  "releasedate": "",
+  "releasedate": "07-2019",
   "genre": "Adventure, Indie",
   "description": "Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak Provincial Park as you make your way to the summit.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 82,
+  "metacritic_url": "https://www.metacritic.com/game/pc/a-short-hike?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

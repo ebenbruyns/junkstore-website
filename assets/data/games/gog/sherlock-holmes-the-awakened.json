@@ -34,7 +34,7 @@
   "shortname": "1430061181",
   "publisher": "Frogwares",
   "developer": "Frogwares",
-  "releasedate": "",
+  "releasedate": "02-2007",
   "genre": "adventure",
   "description": "Experience a nerve-racking Lovecraftian adventure, rebuilt from the ground up with modern graphics and gameplay. Become Sherlock Holmes...",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

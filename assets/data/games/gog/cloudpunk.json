@@ -34,7 +34,7 @@
   "shortname": "2048907635",
   "publisher": "Merge Games, ION LANDS",
   "developer": "ION LANDS",
-  "releasedate": "",
+  "releasedate": "04-2020",
   "genre": "Role-playing (RPG), Adventure, Indie, Simulator",
   "description": "A neon-noir story in a rain-drenched cyberpunk metropolis. It's your first night on the job working for the Cloudpunk delivery service.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 73,
+  "metacritic_url": "https://www.metacritic.com/game/pc/cloudpunk?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

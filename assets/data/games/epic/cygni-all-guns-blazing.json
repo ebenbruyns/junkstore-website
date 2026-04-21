@@ -37,7 +37,7 @@
   "releasedate": "2024-08-06T00:00:00+0000",
   "genre": "Indie, Shooter, Arcade",
   "description": "It's a twin-stick vertical scrolling Shooter hybrid with a cinematic flare:\n\nAn unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes Cygni the vanguard for the next generation of shoot-em ups.",
-  "size": "21774660886\n",
+  "size": "20.3 GB",
   "vertical_artwork": "https://images.gog.com/8a5026460e0c138e9c021186e64c9a86ea0854e42f42cc9d4a14cdf5c2cc43ed.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2effcc69bb445f55bae7907fbbf76daabfe64523a2ed5edaf5ff4a0aa25a8a74.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/74977800473cf7d3b14ede29f9ec819e95698ef74bd79da4247ed701f7e4a13c.jpg?namespace=gamesdb",
@@ -50,11 +50,13 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T06:53:58.722Z"
+  "updated_at": "2026-04-16T01:55:43.880Z"
 }

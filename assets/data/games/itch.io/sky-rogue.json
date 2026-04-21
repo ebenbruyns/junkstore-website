@@ -34,7 +34,7 @@
   "shortname": "647",
   "publisher": "Fractal Phase",
   "developer": "Fractal Phase",
-  "releasedate": "",
+  "releasedate": "2017-08-24T00:00:00+0000",
   "genre": "Indie, Shooter, Arcade, Simulator",
   "description": "Sky Rogue is a fwooshy rogue-lite action flight simulator! Blow things up over land, sea, and air, on an infinite number of procedurally-generated islands. Go toe-to-toe with enemy aces or assault giant flying aircraft carriers, but watch out for volleys of missiles; when you die, you're dead.",
   "size": "",
@@ -59,6 +59,8 @@
     "Portuguese - Portugal",
     "Portuguese - Brazil"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

@@ -34,7 +34,7 @@
   "shortname": "1719675091",
   "publisher": "The Digital Lounge",
   "developer": "Goblinz Enterprises Ltd",
-  "releasedate": "",
+  "releasedate": "19 Oct, 2016",
   "genre": "Adventure, Casual",
   "description": "True Fear: Forsaken Souls takes the best of the psychological thriller, blending in fun and intuitive gameplay mechanics. Episode 1, the first in a trilogy, will long be remembered.",
   "size": "476564186\n",
@@ -57,6 +57,8 @@
     "Romanian",
     "Czech"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

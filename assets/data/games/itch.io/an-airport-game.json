@@ -34,7 +34,7 @@
   "shortname": "541456",
   "publisher": "Konig Games",
   "developer": "Konig Games",
-  "releasedate": "",
+  "releasedate": "2019-12-29T00:00:00+0000",
   "genre": "Role-playing (RPG), Adventure, Puzzle",
   "description": "You've got one hour to make your flight and you're about to hit every conceivable airport related obstacle imaginable!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

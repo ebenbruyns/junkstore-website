@@ -34,7 +34,7 @@
   "shortname": "1854689188",
   "publisher": "Digerati Distribution, Headup Games, Devespresso Games",
   "developer": "Devespresso Games",
-  "releasedate": "",
+  "releasedate": "01-2020",
   "genre": "adventure, strategy, indie, visual novel",
   "description": "The Coma 2: Vicious Sisters is a Korean survival horror-adventure. As Mina Park, you must venture from your deserted school to survive.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 77,
+  "metacritic_url": "https://www.metacritic.com/game/pc/the-coma-2-vicious-sisters?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

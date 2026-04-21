@@ -34,7 +34,7 @@
   "shortname": "73c3ffec37e3451a811d9cbad460e106",
   "publisher": "Armor Games Studios",
   "developer": "Armor Games Studios",
-  "releasedate": "",
+  "releasedate": "12-2024",
   "genre": "Casual, Indie, Simulation",
   "description": "Foster a sanctuary for frogs and restore the biodiversity of the wetlands in Kamaeru, a cozy frog collecting game, where you take pictures of frogs, play mini-games and decorate your habitat. Hop right to it!",
   "size": "",
@@ -55,6 +55,8 @@
     "German",
     "French"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

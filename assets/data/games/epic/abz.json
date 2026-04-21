@@ -34,7 +34,7 @@
   "shortname": "Curry",
   "publisher": "505 Games",
   "developer": "Giant Squid",
-  "releasedate": "",
+  "releasedate": "08-2016",
   "genre": "Adventure, Indie, Puzzle",
   "description": "Abzu is an exploration game where you are a lone diver in a lush ocean world. The diver descends deeper and deeper into the depths...",
   "size": "",
@@ -55,6 +55,8 @@
     "Russian",
     "Simplified Chinese"
   ],
+  "metacritic_score": 83,
+  "metacritic_url": "https://www.metacritic.com/game/pc/abzu?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

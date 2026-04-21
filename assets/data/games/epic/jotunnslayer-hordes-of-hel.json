@@ -34,7 +34,7 @@
   "shortname": "05cc03868360490aa4d7138723f4d99e",
   "publisher": "Grindstone",
   "developer": "Games Farm",
-  "releasedate": "",
+  "releasedate": "Sep 3, 2025",
   "genre": "Action, Indie, RPG",
   "description": "Hordes of Hel is a gripping roguelike horde-survivor game set in the dark realms of Norse Mythology. Fight waves of enemies to earn divine blessings of ancient Viking Deities, explore hostile worlds and face powerful bosses. Become a god-like warrior in this ultimate showdown.",
   "size": "",
@@ -57,6 +57,8 @@
     "Korean",
     "Slovak"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

@@ -34,7 +34,7 @@
   "shortname": "311021f116f243a0b3e8d2dc2b6b90f9",
   "publisher": "New Blood Interactive",
   "developer": "Hyperstrange",
-  "releasedate": "",
+  "releasedate": "5 Dec, 2023",
   "genre": "Action, Indie, RPG",
   "description": "Weird west legends meet eldritch horror in BLOOD WEST, an immersive stealth FPS. Become the Undead Gunslinger, doomed to roam the barren lands until he manages to purge their curse, freeing his soul. 3 varied scenarios, perk-based character progression, and 20+ hours of gameplay await you!",
   "size": "",
@@ -53,6 +53,8 @@
     "Hungarian",
     "Portuguese - Brazil*languages with full audio support"
   ],
+  "metacritic_score": 80,
+  "metacritic_url": "https://www.metacritic.com/game/pc/blood-west?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

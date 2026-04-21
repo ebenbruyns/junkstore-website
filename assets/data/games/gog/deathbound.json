@@ -34,7 +34,7 @@
   "shortname": "1326221139",
   "publisher": "Trialforge Studio",
   "developer": "Trialforge Studio",
-  "releasedate": "",
+  "releasedate": "2024-08-08",
   "genre": "role-playing-rpg, adventure, indie",
   "description": "Deathbound is a one-of-a-kind party-based soulslike set in a callous world where Faith and Science clash.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": false,

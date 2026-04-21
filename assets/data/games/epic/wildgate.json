@@ -34,7 +34,7 @@
   "shortname": "0ad0ed7b851c46378f9fcac07b72b548",
   "publisher": "Dreamhaven",
   "developer": "Moonshot Games",
-  "releasedate": "",
+  "releasedate": "22 Jul, 2025",
   "genre": "Action, Adventure, Casual, Massively Multiplayer, Racing, RPG, Strategy",
   "description": "Wildgate is a PvPvE multiplayer shooter that blends tactical ship-to-ship combat with fast-paced first-person action. Evade deadly environmental hazards, search for powerful weapons and ship upgrades, and be the first crew to escape with the Artifact... or the last crew left flying.",
   "size": "",
@@ -58,6 +58,8 @@
     "Simplified Chinese*",
     "Spanish - Latin America*"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

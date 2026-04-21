@@ -34,7 +34,7 @@
   "shortname": "1965670180",
   "publisher": "Thunderful Publishing",
   "developer": "Thunderful",
-  "releasedate": "",
+  "releasedate": "08-2024",
   "genre": "role-playing, adventure, strategy, indie",
   "description": "Join Captain Leeway and his ragtag crew as they uncover the enigmatic menace threatening the Great Sea. Equip and upgrade your crew...",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 81,
+  "metacritic_url": "https://www.metacritic.com/game/pc/steamworld-heist-ii?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

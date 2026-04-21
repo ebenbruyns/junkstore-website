@@ -34,7 +34,7 @@
   "shortname": "dec246c71964468f94ef4d686f0802c3",
   "publisher": "Playdigious, Neowiz",
   "developer": "SouthPaw Games",
-  "releasedate": "",
+  "releasedate": "2021-01-20",
   "genre": "Indie, Platform, Action",
   "description": "An action-platformer with rogue-like features, challenging maps. Guide 'Skul' to take on the Imperial Army and rescue his King.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 80,
+  "metacritic_url": "https://www.metacritic.com/game/pc/skul-the-hero-slayer?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

@@ -2,7 +2,7 @@
   "id": "554a3d0c-faed-4197-a307-d227d2249054",
   "title": "Assassin's Creed Mirage",
   "storefront": "Epic",
-  "protondb": "https://www.protondb.com/app/assassins-creed-mirage",
+  "protondb": "https://www.protondb.com/app/3035570",
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
@@ -16,7 +16,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -34,25 +34,36 @@
   "shortname": "9cd229b0323f485bafca042ef00b14af",
   "publisher": "Ubisoft",
   "developer": "Ubisoft Bordeaux",
-  "releasedate": "",
+  "releasedate": "10-2023",
   "genre": "Action, Adventure",
   "description": "Experience the story of Basim, a cunning street thief with nightmarish visions seeking answers and justice. Join an ancient organization and come to understand a new creed – one that will change Basim's fate in ways he never could have imagined.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/11942b5d4b4e3b838312a9477b5037d3899eaf59c3a27a9e13c868c97835f52b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f14c3615f3f9e6730febeaca5bfd44050325b9eb408b5c28761b88f89c7eb374.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/11942b5d4b4e3b838312a9477b5037d3899eaf59c3a27a9e13c868c97835f52b.jpg?namespace=gamesdb",
-  "steamId": "",
+  "steamId": "3035570",
   "game_modes": [
     "Single player"
   ],
   "languages": [
-    "English"
+    "English*",
+    "Italian*",
+    "German*",
+    "Spanish - Spain*",
+    "Arabic*",
+    "Simplified Chinese",
+    "Traditional Chinese",
+    "Korean",
+    "Spanish - Latin America",
+    "Japanese*"
   ],
+  "metacritic_score": 76,
+  "metacritic_url": "https://www.metacritic.com/game/assassins-creed-mirage/",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-11-25T23:42:51.290Z"
+  "updated_at": "2026-04-19T23:42:51.682Z"
 }

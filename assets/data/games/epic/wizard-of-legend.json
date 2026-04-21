@@ -34,7 +34,7 @@
   "shortname": "2061814323",
   "publisher": "Humble Games",
   "developer": "Contingent99",
-  "releasedate": "",
+  "releasedate": "05-2018",
   "genre": "Action, Indie, Rogue-like",
   "description": "Wizard of Legend is a no-nonsense, action-packed take on wizardry that emphasizes precise movements and smart comboing of spells in a rogue-like dungeon crawler that features over a hundred unique spells and relics!",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 79,
+  "metacritic_url": "https://www.metacritic.com/game/pc/wizard-of-legend?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

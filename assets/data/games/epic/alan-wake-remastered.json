@@ -34,7 +34,7 @@
   "shortname": "1207659037",
   "publisher": "Microsoft Game Studios",
   "developer": "Remedy Entertainment",
-  "releasedate": "",
+  "releasedate": "May 14, 2010",
   "genre": "Adventure, Shooter",
   "description": "A psychological horror action-adventure game about a novelist searching for his wife in Bright Falls, encountering supernatural 'Taken' entities",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 83,
+  "metacritic_url": "https://www.metacritic.com/game/pc/alan-wake?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

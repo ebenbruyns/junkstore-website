@@ -34,7 +34,7 @@
   "shortname": "10812",
   "publisher": "indienova, 7th Beat Games",
   "developer": "7th Beat Games",
-  "releasedate": "",
+  "releasedate": "2014-10-04T00:00:00+0000",
   "genre": "Indie, Arcade, Music",
   "description": "A Dance of Fire and Ice is a strict rhythm game. Keep your focus as you guide two orbiting planets along a winding path without breaking their perfect equilibrium.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

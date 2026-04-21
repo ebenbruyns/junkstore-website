@@ -34,7 +34,7 @@
   "shortname": "1440148836",
   "publisher": "Bethesda Softworks",
   "developer": "Interplay Inc.",
-  "releasedate": "",
+  "releasedate": "Nov 1, 2015",
   "genre": "RPG",
   "description": "You've just unearthed the classic post-apocalyptic role-playing game that revitalized the entire CRPG genre. The Fallout® SPECIAL system allows drastically different types of characters, meaningful decisions and development that puts you in complete control. Explore the devastated ruins of a golden age civilization.",
   "size": "",
@@ -51,6 +51,8 @@
     "German",
     "Spanish - Spain"
   ],
+  "metacritic_score": 89,
+  "metacritic_url": "https://www.metacritic.com/game/pc/fallout?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

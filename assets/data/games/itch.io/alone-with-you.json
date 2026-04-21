@@ -34,7 +34,7 @@
   "shortname": "244674",
   "publisher": "BancyCo",
   "developer": "BancyCo",
-  "releasedate": "",
+  "releasedate": "9 Feb, 2017",
   "genre": "Adventure, Indie",
   "description": "Alone With You is a bittersweet sci-fi adventure game that goes right for the heart. Escape a doomed space colony with the help of your troubled AI companion and four chatty holograms in this unique blend of adventure &amp; visual novel storytelling.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 74,
+  "metacritic_url": "https://www.metacritic.com/game/pc/alone-with-you?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

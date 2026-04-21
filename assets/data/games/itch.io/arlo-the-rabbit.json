@@ -34,7 +34,7 @@
   "shortname": "340583",
   "publisher": "Good Friend Studios",
   "developer": "Joshimations",
-  "releasedate": "",
+  "releasedate": "2018-05-23T00:00:00+0000",
   "genre": "Adventure, Indie, Platform",
   "description": "Welcome to Arlo's first adventure, in an old-school platformer fashion! Complete with amazing chiptune tracks!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

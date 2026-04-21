@@ -34,7 +34,7 @@
   "shortname": "1867530",
   "publisher": "Annapurna Interactive",
   "developer": "Heart Machine",
-  "releasedate": "",
+  "releasedate": "12-2021",
   "genre": "Adventure, Indie, Platform",
   "description": "Journey through a surreal, vivid and highly stylized world filled with mystery, wild high-speed traversal...",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

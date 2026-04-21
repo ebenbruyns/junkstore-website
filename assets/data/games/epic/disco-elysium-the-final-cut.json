@@ -34,7 +34,7 @@
   "shortname": "7334aba246154b63857435cb9c7eecd5",
   "publisher": "ZA/UM",
   "developer": "ZA/UM",
-  "releasedate": "",
+  "releasedate": "15 Oct, 2019",
   "genre": "RPG",
   "description": "Disco Elysium - The Final Cut is a groundbreaking role playing game. You’re a detective with a unique skill system at your disposal and a whole city to carve your path across. Interrogate unforgettable characters, crack murders or take bribes. Become a hero or an absolute disaster of a human being.",
   "size": "",
@@ -57,6 +57,8 @@
     "Russian",
     "Polish"
   ],
+  "metacritic_score": 97,
+  "metacritic_url": "https://www.metacritic.com/game/pc/disco-elysium-the-final-cut?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

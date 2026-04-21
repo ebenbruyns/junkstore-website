@@ -34,7 +34,7 @@
   "shortname": "1214553287",
   "publisher": "Aspyr Media",
   "developer": "Crystal Dynamics",
-  "releasedate": "",
+  "releasedate": "2024-12-10",
   "genre": "adventure, platform, puzzle",
   "description": "Experience the epic conflict of Kain and Raziel in original form or with remastered graphics.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": false,

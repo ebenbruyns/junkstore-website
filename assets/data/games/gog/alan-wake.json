@@ -34,7 +34,7 @@
   "shortname": "1207659037",
   "publisher": "Microsoft Game Studios, Nordic Games Publishing, E-Frontier, Remedy Entertainment, Namco Bandai Partners, Legacy Interactive",
   "developer": "Remedy Entertainment",
-  "releasedate": "",
+  "releasedate": "05-2010",
   "genre": "adventure, shooter",
   "description": "Presented in the style of a TV series, Alan Wake features the trademark Remedy storytelling and pulse-pounding action sequences. As players dive deeper into the mystery, they'll face overwhelming odds, plot twists, and cliffhangers.",
   "size": "",
@@ -57,6 +57,8 @@
     "Polish",
     "Traditional Chinese"
   ],
+  "metacritic_score": 83,
+  "metacritic_url": "https://www.metacritic.com/game/pc/alan-wake?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

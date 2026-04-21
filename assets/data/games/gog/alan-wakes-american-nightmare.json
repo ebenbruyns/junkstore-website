@@ -34,7 +34,7 @@
   "shortname": "1207659038",
   "publisher": "Remedy Entertainment",
   "developer": "Remedy Entertainment",
-  "releasedate": "",
+  "releasedate": "22 May, 2012",
   "genre": "Action, Adventure",
   "description": "A thrilling new storyline, hordes of creepy enemies, serious firepower and beautiful Arizona locations, combined with a fun and challenging new game mode!",
   "size": "2381264613\n",
@@ -57,6 +57,8 @@
     "Polish",
     "Russian*languages with full audio support"
   ],
+  "metacritic_score": 73,
+  "metacritic_url": "https://www.metacritic.com/game/pc/alan-wakes-american-nightmare?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

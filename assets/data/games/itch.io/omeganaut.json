@@ -34,12 +34,12 @@
   "shortname": "415463",
   "publisher": "Txori",
   "developer": "Txori",
-  "releasedate": "",
+  "releasedate": "2019-05-02T00:00:00+0000",
   "genre": "Shooter, Arcade",
   "description": "When Starfox meets roguelike!",
   "size": "",
   "vertical_artwork": "https://images.gog.com/b1d9a60da36ccb327169a62b20c712e17b792e5611503544cc9c25bd513d6b26.jpg?namespace=gamesdb",
-  "banner_image": "",
+  "banner_image": "https://images.gog.com/8f2eb8f459c2c5ca0ab8171e3a240477b90ddae630ef27ca3a25e8746bedc7ec.jpg?namespace=gamesdb",
   "icon_image": "",
   "steamId": "",
   "game_modes": [
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

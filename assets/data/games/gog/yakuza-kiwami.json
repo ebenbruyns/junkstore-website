@@ -34,7 +34,7 @@
   "shortname": "1951443960",
   "publisher": "Sega, Deep Silver",
   "developer": "Ryū Ga Gotoku Studios",
-  "releasedate": "",
+  "releasedate": "2016-01-21",
   "genre": "role-playing-rpg, adventure, hack-and-slash-beat-em-up",
   "description": "Yakuza Kiwami is a remake of the 2005 open world action-adventure game Yakuza.",
   "size": "",
@@ -49,6 +49,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 80,
+  "metacritic_url": "https://www.metacritic.com/game/pc/yakuza-kiwami?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": false,

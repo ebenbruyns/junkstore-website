@@ -34,7 +34,7 @@
   "shortname": "6",
   "publisher": "Playmates Interactive Entertainment, Interplay Entertainment",
   "developer": "Shiny Entertainment",
-  "releasedate": "",
+  "releasedate": "1997-04-30",
   "genre": "platform, shooter",
   "description": "The game tells the story of Kurt Hectic, a janitor who reluctantly must attempt to save Earth from an alien invasion of gigantic strip mining city-size vehicles named \"Minecrawlers\".",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": false,

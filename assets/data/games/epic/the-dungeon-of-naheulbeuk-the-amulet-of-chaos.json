@@ -2,7 +2,7 @@
   "id": "d2c580ce-b23c-4a01-869b-ddc0ddf0a7e8",
   "title": "The Dungeon of Naheulbeuk: The Amulet of Chaos",
   "storefront": "Epic",
-  "protondb": "https://www.protondb.com/app/the-dungeon-of-naheulbeuk",
+  "protondb": "https://www.protondb.com/app/970830",
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
@@ -41,18 +41,20 @@
   "vertical_artwork": "https://images.gog.com/89a2922654c226b350ef940b728d6606e698d0b880d26d9a0581e5d657a18020.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b64dc1d8c4775f4a05a8e5eb756ef7a25050a1de8ebc647fdb911e6ae874ed9d.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/e23dbbce5b4898944c602adf2b667bb2e81862b85a401b6e73a151cee8e0421b.jpg?namespace=gamesdb",
-  "steamId": "",
+  "steamId": "970830",
   "game_modes": [
     "Single player"
   ],
   "languages": [
     "English"
   ],
+  "metacritic_score": 72,
+  "metacritic_url": "https://www.metacritic.com/game/pc/the-dungeon-of-naheulbeuk-the-amulet-of-chaos?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T07:37:09.405Z"
+  "updated_at": "2026-04-19T23:37:46.202Z"
 }

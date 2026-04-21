@@ -34,7 +34,7 @@
   "shortname": "9faa3b0871e44b639d49a209f9405aab",
   "publisher": "Devolver Digital",
   "developer": "Phobia Game Studio",
-  "releasedate": "",
+  "releasedate": "2020-07-23",
   "genre": "Adventure, Indie, Platform",
   "description": "Carrion is a reverse horror game in which you assume the role of an amorphous alien being. Use your unique otherworldly abilities to hunt down your prey!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 75,
+  "metacritic_url": "https://www.metacritic.com/game/pc/carrion?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

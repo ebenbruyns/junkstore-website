@@ -34,7 +34,7 @@
   "shortname": "1511212118",
   "publisher": "Pixel Perfect Dude",
   "developer": "Pixel Perfect Dude",
-  "releasedate": "",
+  "releasedate": "04-2025",
   "genre": "indie, sport, arcade, racing",
   "description": "Drive Rally lets you relive the 90s in the most exciting era in motorsport history, where dust, mud, and snow are badges of honor.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

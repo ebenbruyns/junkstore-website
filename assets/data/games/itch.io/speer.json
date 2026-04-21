@@ -34,7 +34,7 @@
   "shortname": "153813",
   "publisher": "Ohsat Games",
   "developer": "Ohsat Games",
-  "releasedate": "",
+  "releasedate": "2017-06-26T00:00:00+0000",
   "genre": "Indie, Platform, Puzzle",
   "description": "Grab your Speer and use it to make your way through this puzzle-platformer! Throw your Speer into walls and use it as a platform, hurl it at switches, hit enemies in the face with it, power it up with unique abilities...the possibilities are endless!* \n \n*The possibilities are not endless",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

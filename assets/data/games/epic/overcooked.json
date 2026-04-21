@@ -34,7 +34,7 @@
   "shortname": "Sage",
   "publisher": "Team17",
   "developer": "Ghost Town Games",
-  "releasedate": "",
+  "releasedate": "08-2016",
   "genre": "Strategy, Indie, Arcade, Simulator",
   "description": "Overcooked! is a co-op cooking game for 1-4 players. Working as a team, you and your fellow chefs must prepare, cook and serve up a variety of tasty orders before the baying customers storm out. Take part in an epic journey across the Onion Kingdom and tackle an increasingly challenging and bizarre gauntlet of kitchens which will push your skills of co-operation and co-ordination to the very limits.",
   "size": "",
@@ -56,11 +56,13 @@
     "Simplified Chinese",
     "Japanese"
   ],
+  "metacritic_score": 81,
+  "metacritic_url": "http://www.metacritic.com/game/pc/overcooked?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
-  "owned": true,
+  "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-02-27T23:45:57.916Z"
+  "updated_at": "2026-03-22T00:40:57.349Z"
 }

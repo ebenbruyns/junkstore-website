@@ -34,7 +34,7 @@
   "shortname": "381236",
   "publisher": "Noio",
   "developer": "Noio",
-  "releasedate": "",
+  "releasedate": "2021-09-01T00:00:00+0000",
   "genre": "Strategy, Indie, Puzzle, Simulator",
   "description": "A chill game about using plants to overgrow abandoned wasteland dioramas.\n\nIn Cloud Gardens players must harness the power of nature to overgrow lo-fi scenes of urban decay and manufactured landscapes. By planting seeds in the right places, they’re able to create small overgrown dioramas of brutalism and beauty, salvaging and repurposing hundreds of discarded objects to create unique structures for nature to reclaim.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

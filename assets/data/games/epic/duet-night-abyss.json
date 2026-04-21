@@ -34,7 +34,7 @@
   "shortname": "58c7aa4f48be44f3b40f5f78f62c84b7",
   "publisher": "Hero Games",
   "developer": "Pan Studio",
-  "releasedate": "",
+  "releasedate": "To be announced",
   "genre": "Action, Massively Multiplayer, RPG, Free To Play",
   "description": "Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom developed by Hero Games' Pan Studio. The game features \"Multiple Weapon Loadouts x 3D Combat\" at its core, and tells the story of \"Demons\" from dual perspectives.",
   "size": "331 MB",
@@ -54,6 +54,8 @@
     "Traditional Chinese*",
     "Korean**languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

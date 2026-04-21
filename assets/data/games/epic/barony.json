@@ -34,7 +34,7 @@
   "shortname": "c98c4cd6d83a4524b4b22f13af95a104",
   "publisher": "Turning Wheel LLC",
   "developer": "Turning Wheel LLC",
-  "releasedate": "",
+  "releasedate": "2015-06-23",
   "genre": "Role-playing (RPG), Adventure",
   "description": "Barony is a 3D, first-person roguelike that brings back the cryptic and intricate designs of classic roguelikes such as Nethack",
   "size": "",
@@ -51,6 +51,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

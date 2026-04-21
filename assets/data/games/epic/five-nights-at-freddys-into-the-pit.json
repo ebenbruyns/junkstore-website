@@ -34,7 +34,7 @@
   "shortname": "a0fbc3eb950341e290ae20a7d02cc501",
   "publisher": "Mega Cat Studios",
   "developer": "Mega Cat Studios",
-  "releasedate": "",
+  "releasedate": "7 Aug, 2024",
   "genre": "Action, Adventure, Indie",
   "description": "Survive five nights of terror in this chilling adventure game. Travel between time periods to solve puzzles, gather clues, and outrun the threat relentlessly pursuing you. Move swiftly and stay hidden, and you may just survive. But be careful—it's not just your own life that’s on the line this time.",
   "size": "1066862446\n",
@@ -57,6 +57,8 @@
     "Portuguese - Brazil",
     "Russian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

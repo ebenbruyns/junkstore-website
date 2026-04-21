@@ -34,7 +34,7 @@
   "shortname": "1207659144",
   "publisher": "Wadjet Eye Games",
   "developer": "Wormwood Studios",
-  "releasedate": "",
+  "releasedate": "12-2012",
   "genre": "role-playing, adventure, indie, puzzle, point-and-click",
   "description": "Life has ceased. Man is but a myth. And now, even the machines have begun to fail. Lead Horatio Nullbuilt and his sarcastic sidekick Crispin on a journey through the crumbling world of Primordia...",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

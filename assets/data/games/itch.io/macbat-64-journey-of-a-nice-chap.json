@@ -34,7 +34,7 @@
   "shortname": "29872",
   "publisher": "Siactro, Diplodocus Games",
   "developer": "Siactro",
-  "releasedate": "",
+  "releasedate": "2017-03-17T00:00:00+0000",
   "genre": "Adventure, Indie, Platform, Puzzle, Arcade",
   "description": "Macbat 64 is a low poly 3D Platformer and 4:3 loveletter to the late 90s. All the 3D platforming goodness from the late 90s is back! Search, Collect and Jump (multiple times in a row even!) like it's 1998!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

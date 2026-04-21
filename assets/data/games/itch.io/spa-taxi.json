@@ -34,7 +34,7 @@
   "shortname": "363735",
   "publisher": "ScaniX",
   "developer": "ScaniX",
-  "releasedate": "",
+  "releasedate": "2019-12-21T00:00:00+0000",
   "genre": "Indie, Arcade",
   "description": "Spaß Taxi is a clone of the original Space Taxi, where you need to bring passengers from one pad to another in weird environments with unexpected obstacles.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

@@ -34,7 +34,7 @@
   "shortname": "32275",
   "publisher": "Flyover Games",
   "developer": "Flyover Games",
-  "releasedate": "",
+  "releasedate": "18 May, 2021",
   "genre": "Action, Casual, Indie",
   "description": "Head-to-head puzzle brawling action! Match blocks to send waves at your opponent! Dodge their waves or crash them head-on to survive. Unleash unique super attacks and explosive Hype Mode to tip the scales. It's a back-and-forth struggle for arcade puzzling dominance!",
   "size": "",
@@ -49,6 +49,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": false,
   "is_featured": false,

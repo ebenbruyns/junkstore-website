@@ -34,7 +34,7 @@
   "shortname": "a922e114727142e8b24d1499c274f223",
   "publisher": "indie.io",
   "developer": "Afterburner Studios",
-  "releasedate": "",
+  "releasedate": "5 Aug, 2021",
   "genre": "Action, Adventure, Indie, RPG",
   "description": "By night, delve deep into your subconscious and discover powerful artifacts to conquer your nightmares. By day, explore the city of Redhaven and build relationships to unlock the power of your dreams. DREAM. DIE. WAKE. REPEAT.",
   "size": "",
@@ -55,6 +55,8 @@
     "Japanese",
     "Korean"
   ],
+  "metacritic_score": 80,
+  "metacritic_url": "https://www.metacritic.com/game/pc/dreamscaper?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

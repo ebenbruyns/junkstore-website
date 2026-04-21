@@ -9,11 +9,11 @@
   "pc_gaming_wiki_url": "",
   "notes": "<strong>Works out of the box</strong> — no extra setup needed. Prompted to install C++ runtime, ships with game.",
   "date_tested": "July '25",
-  "decky_rating": "Perfect",
-  "standalone_rating": "Perfect",
+  "decky_rating": "",
+  "standalone_rating": "",
   "proton_version": "",
   "dependencies": "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -48,10 +48,13 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "https://www.metacritic.com/game/kid-a-mnesia-exhibition/",
   "epic_cloud_saves": false,
+  "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:18:41.628Z"
+  "updated_at": "2026-04-19T23:39:44.133Z"
 }

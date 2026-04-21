@@ -34,7 +34,7 @@
   "shortname": "5bdaa943f48a41598f0614391975242f",
   "publisher": "Akupara Games",
   "developer": "Tmesis Studio",
-  "releasedate": "",
+  "releasedate": "16 Nov, 2023",
   "genre": "Adventure, Casual, Indie",
   "description": "A space station nestled in the clouds of Jupiter. A bizarre bazaar where a young, worried woman crafts entire universes in the palm of her hand. A mysterious cultist who's stripped the flesh from his bones in order to reach enlightenment. Here, there's a universe for sale. You buying?",
   "size": "",
@@ -55,6 +55,8 @@
     "Korean",
     "Traditional Chinese"
   ],
+  "metacritic_score": 80,
+  "metacritic_url": "https://www.metacritic.com/game/pc/universe-for-sale?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

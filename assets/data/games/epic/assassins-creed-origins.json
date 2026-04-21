@@ -2,7 +2,7 @@
   "id": "d0432a48-1205-4619-aea5-055b5ba7f976",
   "title": "Assassin's Creed Origins",
   "storefront": "Epic",
-  "protondb": "https://www.protondb.com/app/assassins-creed-origins",
+  "protondb": "https://www.protondb.com/app/582160",
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
@@ -34,25 +34,36 @@
   "shortname": "Camellia",
   "publisher": "Ubisoft Entertainment",
   "developer": "Ubisoft Montreal",
-  "releasedate": "",
+  "releasedate": "10-2017",
   "genre": "Role-playing (RPG), Adventure",
   "description": "Set in Ancient Egypt, players will journey to the most mysterious place in history, during a crucial period that will shape the world and give rise to the Assassin's Brotherhood.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/b735b37fda3194ed28dcebf670f119f3cf170ba3e218227affe841f2e949e0c4.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b0d8f487bffd9b84f7bbd87f833a1da60906c8c6390885ef1150c3609d0d4d44.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/09ad599a05ab9f696f431db58248b60c4aaaf7562ecd2ebd011c596b8f6e9890.jpg?namespace=gamesdb",
-  "steamId": "",
+  "steamId": "582160",
   "game_modes": [
     "Single player"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French*",
+    "Italian*",
+    "German*",
+    "Spanish - Spain*",
+    "Czech",
+    "Dutch",
+    "Japanese*",
+    "Korean",
+    "Polish"
   ],
+  "metacritic_score": 81,
+  "metacritic_url": "https://www.metacritic.com/game/assassins-creed-origins/",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-11-25T23:43:09.575Z"
+  "updated_at": "2026-04-19T23:45:36.719Z"
 }

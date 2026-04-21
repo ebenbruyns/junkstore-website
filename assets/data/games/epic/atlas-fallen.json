@@ -34,7 +34,7 @@
   "shortname": "886d19a2d3194eb8890f0068b91926ae",
   "publisher": "Focus Entertainment",
   "developer": "Deck13 Interactive",
-  "releasedate": "",
+  "releasedate": "08-2023",
   "genre": "Role-playing (RPG), Adventure",
   "description": "Rise from the dust and glide the sands of a timeless land, filled with ancient dangers, mysteries and fragments of the past.",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

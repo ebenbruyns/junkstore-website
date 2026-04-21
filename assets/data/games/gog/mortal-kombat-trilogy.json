@@ -13,7 +13,7 @@
   "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -34,7 +34,7 @@
   "shortname": "1403485498",
   "publisher": "Warner Bros. Interactive Entertainment",
   "developer": "Midway Games",
-  "releasedate": "",
+  "releasedate": "1996-10-10",
   "genre": "arcade",
   "description": "This successor to the arcade megahits features the meanest of the mean and the baddest of the bad. If you think you've mastered the moves and out-bossed the bosses, think again!",
   "size": "",
@@ -49,11 +49,14 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "https://www.metacritic.com/game/mortal-kombat-trilogy/",
   "gog_cloud_saves": false,
   "gog_achievements": false,
+  "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-01T04:08:36.968Z"
+  "updated_at": "2026-04-20T00:12:41.810Z"
 }

@@ -34,7 +34,7 @@
   "shortname": "6dfbeb5a6f2e42b5a6a5dcf7a8269e9c",
   "publisher": "Games Operators",
   "developer": "Jutsu Games",
-  "releasedate": "",
+  "releasedate": "Aug 31, 2021",
   "genre": "Action, Adventure, Indie, Racing, RPG",
   "description": "Become a medieval thug in a crazy open-world action game, full of pop-culture references. Complete insane quests, kill heroes, steal horses, fight guards, rob peasants, listen to some bard music, and much more! All packed in old-school gameplay style!",
   "size": "",
@@ -57,6 +57,8 @@
     "Portuguese - Brazil",
     "Korean"
   ],
+  "metacritic_score": 65,
+  "metacritic_url": "https://www.metacritic.com/game/pc/rustler?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

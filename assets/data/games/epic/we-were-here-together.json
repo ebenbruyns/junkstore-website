@@ -34,7 +34,7 @@
   "shortname": "828b2ff07ee548f59b7e172b4b4c9686",
   "publisher": "Total Mayhem Games",
   "developer": "Total Mayhem Games",
-  "releasedate": "",
+  "releasedate": "10 Oct, 2019",
   "genre": "Adventure, Casual, Indie",
   "description": "As we explore these frozen wastes, misfortune strikes once again. Through the fierce blizzard, a flare lights the sky, followed by a cry for help over the radio - broken, dying... No one else can come to their rescue. Can we make it back - together?",
   "size": "",
@@ -58,6 +58,8 @@
     "Simplified Chinese",
     "Traditional Chinese"
   ],
+  "metacritic_score": 77,
+  "metacritic_url": "https://www.metacritic.com/game/pc/we-were-here-together?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

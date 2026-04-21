@@ -34,7 +34,7 @@
   "shortname": "20f01ab5e0fa4e798c6d58eeb8d86989",
   "publisher": "Embark Studios",
   "developer": "Embark Studios",
-  "releasedate": "",
+  "releasedate": "30 Oct, 2025",
   "genre": "Action",
   "description": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
   "size": "",
@@ -58,6 +58,8 @@
     "Portuguese - Brazil",
     "Russian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

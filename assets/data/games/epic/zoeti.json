@@ -34,7 +34,7 @@
   "shortname": "71d86610f6d4447086528778da3c384e",
   "publisher": "Akupara Games",
   "developer": "Dusklight CO., LTD.",
-  "releasedate": "",
+  "releasedate": "20 Apr, 2023",
   "genre": "Adventure, Indie, Strategy",
   "description": "Zoeti is a turn-based roguelite that features a deck of playing cards used to create card combos and activate skills in the heat of battle. Bolster your arsenal of skills through battles, discoverable upgrades, or aid from the locals which enhance your plays to overcome the evil plaguing your land.",
   "size": "",
@@ -52,6 +52,8 @@
     "Spanish - Spain",
     "Simplified Chinese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

@@ -34,7 +34,7 @@
   "shortname": "b45e42c457304fd8bb077cd9bd70291d",
   "publisher": "Blumhouse Games",
   "developer": "Cozy Game Pals",
-  "releasedate": "",
+  "releasedate": "22 Oct, 2024",
   "genre": "Action, Adventure, Indie",
   "description": "Fear the Spotlight is an atmospheric third-person horror adventure with a disturbing mystery to unravel. Sneak into school after hours with Vivian and Amy, survive a séance gone wrong, solve tactile puzzles, and, whatever you do, stay out of the spotlight…",
   "size": "449400419\n",
@@ -57,6 +57,8 @@
     "Spanish - Spain",
     "Japanese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

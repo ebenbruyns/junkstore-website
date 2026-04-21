@@ -34,7 +34,7 @@
   "shortname": "1103602225",
   "publisher": "Sega, Sega Corporation, Sega Games",
   "developer": "Ryu Ga Gotoku Studios, Sega Games",
-  "releasedate": "",
+  "releasedate": "2015-03-12",
   "genre": "role-playing-rpg, adventure, simulator, hack-and-slash-beat-em-up",
   "description": "The glitz, glamour, and unbridled decadence of the 80s are back! Yakuza 0 is a prequel set in 1988 to the Yakuza series, taking place before the first game.",
   "size": "",
@@ -49,6 +49,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 86,
+  "metacritic_url": "https://www.metacritic.com/game/pc/yakuza-0?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": false,

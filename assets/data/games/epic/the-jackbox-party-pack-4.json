@@ -34,7 +34,7 @@
   "shortname": "Snowdrop",
   "publisher": "Jackbox Games, Inc.",
   "developer": "Jackbox Games, Inc.",
-  "releasedate": "",
+  "releasedate": "18 Oct, 2017",
   "genre": "Casual, Indie, Strategy",
   "description": "The fourth pack in this storied party game franchise features Fibbage 3 and its new game mode, Fibbage: Enough About You; the twisted web game Survive the Internet; the dating contest Monster Seeking Monster; the deranged debate match Bracketeering; and the one-up art game Civic Doodle.",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

@@ -34,7 +34,7 @@
   "shortname": "1207662733",
   "publisher": "Paradox Interactive",
   "developer": "Frictional Games",
-  "releasedate": "",
+  "releasedate": "03-2007",
   "genre": "Adventure, Indie, Puzzle",
   "description": "First person survival horror game, emphasizing survival and problem solving instead of mindless violence and gore",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 73,
+  "metacritic_url": "https://www.metacritic.com/game/pc/penumbra-overture?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

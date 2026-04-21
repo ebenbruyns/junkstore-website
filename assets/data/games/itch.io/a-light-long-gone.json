@@ -34,12 +34,12 @@
   "shortname": "645160",
   "publisher": "muddasheep",
   "developer": "muddasheep",
-  "releasedate": "",
+  "releasedate": "2020-05-15T00:00:00+0000",
   "genre": "Music",
   "description": "Interactive music album release.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/cf27debc1d6e4c34b814a962b08ead2422befe881af6b86cfe8c78e0ed0eb95c.jpg?namespace=gamesdb",
-  "banner_image": "",
+  "banner_image": "https://images.gog.com/1ede27c77cde52b3291739b39dc39729b3bc5a5048ddda302af58ba1b675c2ef.jpg?namespace=gamesdb",
   "icon_image": "",
   "steamId": "",
   "game_modes": [
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

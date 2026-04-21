@@ -34,7 +34,7 @@
   "shortname": "1112715616",
   "publisher": "Maple Whispering Limited, Humble Games",
   "developer": "Thomas Moon Kang",
-  "releasedate": "",
+  "releasedate": "03-2020",
   "genre": "role-playing, adventure, strategy, indie, shooter, real time strategy",
   "description": "One Step From Eden combines strategic deckbuilding and realtime action with roguelike elements. Cast powerful spells on the fly, battle evolving enemies, collect game-changing artifacts, make friends or make enemies. Make it one step from Eden, the last shining beacon of hope in a bleak post-war world. Fight alone (or with a friend in co-op) and lead your character down a path of mercy or destruction.",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 82,
+  "metacritic_url": "https://www.metacritic.com/game/pc/one-step-from-eden?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

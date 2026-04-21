@@ -34,7 +34,7 @@
   "shortname": "529963",
   "publisher": "RNG Party Games",
   "developer": "RNG Party Games",
-  "releasedate": "",
+  "releasedate": "2019-12-13T00:00:00+0000",
   "genre": "Role-playing (RPG), Adventure, Turn-based strategy (TBS), Indie",
   "description": "Type your way through absurd encounters and mysterious puzzles in this old-school typing dungeon crawler.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

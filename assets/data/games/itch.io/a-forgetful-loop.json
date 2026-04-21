@@ -34,7 +34,7 @@
   "shortname": "708083",
   "publisher": "bighandinsky",
   "developer": "bighandinsky",
-  "releasedate": "",
+  "releasedate": "2020-11-06T00:00:00+0000",
   "genre": "Indie",
   "description": "A Forgetful Loop is a time-based worker-placement puzzle game, where you need to weigh up which nodes are more important at a given moment; To get closer to the core, closer to the finish line!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

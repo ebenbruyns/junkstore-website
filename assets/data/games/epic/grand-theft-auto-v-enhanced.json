@@ -2,7 +2,7 @@
   "id": "a73fb27f-2fd2-415d-bbcc-b60b3eccbd04",
   "title": "Grand Theft Auto V Enhanced",
   "storefront": "Epic",
-  "protondb": "https://www.protondb.com/app/gta-v-enhanced",
+  "protondb": "https://www.protondb.com/app/3240220",
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
@@ -13,7 +13,7 @@
   "standalone_rating": "red",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -41,20 +41,31 @@
   "vertical_artwork": "https://images.gog.com/ddd320b268268def9d675e8bd44a20648a2e38f4fb1486be5c17e60b1de98e34.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a92599550b25b80ceda85a443cb36f26cfd78fe1c8e94381768a4b0a47af90d4.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/116df05769af156ae5d2b025d327bcb24258ddf083d2013eb1f35381724618b8.jpg?namespace=gamesdb",
-  "steamId": "",
+  "steamId": "3240220",
   "game_modes": [
     "Single player",
     "Co-operative",
     "Multiplayer"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French",
+    "Italian",
+    "German",
+    "Spanish - Spain",
+    "Japanese",
+    "Korean",
+    "Polish",
+    "Portuguese - Brazil",
+    "Russian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "https://www.metacritic.com/game/grand-theft-auto-v-enhanced/",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T04:03:57.465Z"
+  "updated_at": "2026-04-19T23:47:25.093Z"
 }

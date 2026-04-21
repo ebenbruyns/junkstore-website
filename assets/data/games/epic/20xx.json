@@ -34,7 +34,7 @@
   "shortname": "Quail",
   "publisher": "Batterystaple Games",
   "developer": "Batterystaple Games, Fire Hose Games",
-  "releasedate": "",
+  "releasedate": "08-2017",
   "genre": "Adventure, Indie, Platform, Shooter, Arcade",
   "description": "20XX is a co-op-friendly action platformer roguelite. Explore procedurally generated levels, collect new weapons and abilities, and defeat massive bosses in the sequel to roguelike hit Risk of Rain.",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

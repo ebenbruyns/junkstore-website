@@ -34,7 +34,7 @@
   "shortname": "7ba101a6119b460b9f272a0d02197ee0",
   "publisher": "PLAION",
   "developer": "Critical Hit Games",
-  "releasedate": "",
+  "releasedate": "17 Jul, 2024",
   "genre": "Adventure",
   "description": "Lose yourself in the dystopian world of New York, 2329; immortality comes at a price that someone has to pay. In this interactive noir story, lead the investigation using advanced technology, as Detective James Karra who risks it all in pursuit of a serial killer targeting the city’s elite.",
   "size": "",
@@ -57,6 +57,8 @@
     "Portuguese - Brazil",
     "Russian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

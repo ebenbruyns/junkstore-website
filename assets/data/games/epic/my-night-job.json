@@ -34,7 +34,7 @@
   "shortname": "631fa0c612e84328a41fa58a2a45e61e",
   "publisher": "Webcore Games",
   "developer": "Webcore Games",
-  "releasedate": "",
+  "releasedate": "2016-04-21T00:00:00+0000",
   "genre": "Action, Adventure, Indie",
   "description": "My Night Job sends players into an abandoned building and sicks hordes of monsters on them. They can use more than 60 weapons to defend themselves and save as many survivors as possible. But beware – if too many rooms are thrashed, the end may be nigh-er than you originally thought.",
   "size": "",
@@ -57,6 +57,8 @@
     "Russian",
     "Portuguese - Portugal"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

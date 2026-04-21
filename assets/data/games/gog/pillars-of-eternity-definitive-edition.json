@@ -34,7 +34,7 @@
   "shortname": "1344895033",
   "publisher": "Paradox Interactive",
   "developer": "",
-  "releasedate": "",
+  "releasedate": "2017-11-15",
   "genre": "role-playing-rpg, adventure, strategy, indie",
   "description": "Experience the game that revitalized the classic RPG genre in a complete and definitive package that includes every expansion, bonus, and update, presenting Pillars of Eternity at its best.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 89,
+  "metacritic_url": "https://www.metacritic.com/game/pc/pillars-of-eternity?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": false,

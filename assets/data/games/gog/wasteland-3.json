@@ -34,7 +34,7 @@
   "shortname": "1136650022",
   "publisher": "inXile Entertainment",
   "developer": "inXile Entertainment",
-  "releasedate": "",
+  "releasedate": "08-2020",
   "genre": "Role-playing (RPG)",
   "description": "As the sole survivor of Team November, a Ranger squad dispatched to the icy Colorado wastes, you find this is a land of buried secrets, lost technology, fearsome lunatics, and deadly factions. No one here has ever heard of the Desert Rangers. Your reputation is yours to build from scratch, and your choices may save this land or doom it. With a renewed focus on macro-reactivity, you'll be picking between warring factions, deciding whether locations are destroyed or saved, and making other far reaching decisions that have a marked impact on the shape of your world.",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 85,
+  "metacritic_url": "https://www.metacritic.com/game/pc/wasteland-3?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

@@ -34,7 +34,7 @@
   "shortname": "78847ec04bb348ba83d00a44896b80a3",
   "publisher": "PID Games",
   "developer": "Domesticated Ant Games",
-  "releasedate": "",
+  "releasedate": "13 Jul, 2023",
   "genre": "Action, Indie",
   "description": "Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics. Follow Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit, on an adventure in a futuristic world inhabited by sentient robots.",
   "size": "327151133\n",
@@ -55,6 +55,8 @@
     "Traditional Chinese",
     "Dutch"
   ],
+  "metacritic_score": 89,
+  "metacritic_url": "https://www.metacritic.com/game/pc/gravity-circuit?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

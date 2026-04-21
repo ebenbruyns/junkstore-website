@@ -34,7 +34,7 @@
   "shortname": "1732383191",
   "publisher": "Hyperstrange",
   "developer": "Hyperstrange",
-  "releasedate": "",
+  "releasedate": "30 Jan, 2020",
   "genre": "Action, Indie",
   "description": "ELDERBORN - a Metal AF* Slasher with brutal FPP melee combat and souls-like/RPG character progression. In the times of legend, barbarian tribes need a new dark messiah. Be that merciless slayer. Uncover ancient secrets in the city of doom. Forge your own destiny! *Action Fantasy.",
   "size": "",
@@ -57,6 +57,8 @@
     "Spanish - Latin America",
     "Simplified Chinese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

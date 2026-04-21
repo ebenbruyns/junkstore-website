@@ -34,7 +34,7 @@
   "shortname": "1309239762",
   "publisher": "Spiral Bound Interactive LLC",
   "developer": "Spiral Bound Interactive LLC",
-  "releasedate": "",
+  "releasedate": "31 Oct, 2023",
   "genre": "Action, Adventure, Indie, RPG",
   "description": "Immerse yourself in retro top-down visuals as you face the horrors of Breckenridge Hall through intense first-person combat. Scavenge, solve puzzles, and upgrade your gear. Do whatever it takes to survive—but remember: You Will Die Here Tonight.",
   "size": "963630083\n",
@@ -52,6 +52,8 @@
     "Simplified Chinese",
     "Hungarian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

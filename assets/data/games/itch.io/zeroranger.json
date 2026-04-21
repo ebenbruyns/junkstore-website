@@ -34,7 +34,7 @@
   "shortname": "309919",
   "publisher": "System Erasure",
   "developer": "System Erasure",
-  "releasedate": "",
+  "releasedate": "2018-09-28T00:00:00+0000",
   "genre": "Indie, Shooter, Arcade",
   "description": "ZeroRanger is a vertically scrolling 2D shoot'em up with heavy emphasis on shooting, dodging and... mystery?\n\nA menacing alien threat, GREEN ORANGE, has begun its invasion. Only two secondary fighters remain against complete annihilation.\n\nBlast your way through enemy forces in order to unleash your fighter's latent potential, unlocking new weapons and abilities.\n\nBut as you grow stronger, so does your understanding of the true nature of your adversary...",
   "size": "",
@@ -49,6 +49,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

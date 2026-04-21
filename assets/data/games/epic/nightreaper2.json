@@ -34,7 +34,7 @@
   "shortname": "62eb295b3ee3482893ed9dd8b3c69841",
   "publisher": "DarkGoose4",
   "developer": "DarkGoose4",
-  "releasedate": "",
+  "releasedate": "26 Jan, 2026",
   "genre": "Indie",
   "description": "NightReaper2 is a dark fantasy action game where you become the Reaper, harvesting souls and fighting cursed enemies in a haunted world. Explore eerie environments, face relentless threats, and survive intense combat in a grim, atmospheric experience.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

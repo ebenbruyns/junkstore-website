@@ -34,7 +34,7 @@
   "shortname": "amzn1.adg.product.8b79052d-8c1d-46c1-8da9-c48b929865c6",
   "publisher": "Maximum Entertainment",
   "developer": "Aurogon Shanghai",
-  "releasedate": "",
+  "releasedate": "Apr 24, 2023",
   "genre": "Action, Adventure, Indie",
   "description": "Afterimage is a hand-drawn 2D action adventure that emphasizes fast-paced combat with diversified character builds, non-linear levels, and a gripping story set in the ruins of a fantasy world.",
   "size": "4919953438\n",
@@ -57,6 +57,8 @@
     "Traditional Chinese*",
     "Korean"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

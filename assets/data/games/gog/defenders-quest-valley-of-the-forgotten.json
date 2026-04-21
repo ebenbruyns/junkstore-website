@@ -34,7 +34,7 @@
   "shortname": "1207659129",
   "publisher": "Level Up Labs",
   "developer": "Level Up Labs",
-  "releasedate": "",
+  "releasedate": "10-2012",
   "genre": "role-playing-rpg, strategy, indie",
   "description": "Defender's Quest is a tower defense and RPG hybrid that features classic tower defense gameplay intermingled with RPG mechanics.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

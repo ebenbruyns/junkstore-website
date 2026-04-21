@@ -34,7 +34,7 @@
   "shortname": "2061161309",
   "publisher": "Phodex Games",
   "developer": "Phodex Games",
-  "releasedate": "",
+  "releasedate": "03-2023",
   "genre": "role-playing, adventure, indie",
   "description": "Enough of wasting precious time by walking eternal distances and engaging in endless dialogue? Want to get to the fun part quickly?",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

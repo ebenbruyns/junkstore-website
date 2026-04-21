@@ -34,7 +34,7 @@
   "shortname": "81fbec1949fb4458bbe5c2711d0d64f6",
   "publisher": "Frozenbyte",
   "developer": "Frozenbyte",
-  "releasedate": "",
+  "releasedate": "Aug 20, 2015",
   "genre": "Action, Adventure, Indie",
   "description": "Trine 3: The Artifacts of Power is a platforming game of action, puzzles and adventure, and the sequel to the award winning Trine and Trine 2. Reunite with the three heroes in an all-new adventure, now for the first time in full 3D!",
   "size": "",
@@ -60,6 +60,8 @@
     "Swedish",
     "Portuguese - Brazil*"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

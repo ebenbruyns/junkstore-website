@@ -34,7 +34,7 @@
   "shortname": "935614",
   "publisher": "SEEP",
   "developer": "SEEP",
-  "releasedate": "",
+  "releasedate": "2021-01-11T00:00:00+0000",
   "genre": "Adventure, Interactive Fiction, Visual Novel",
   "description": "Jump, run, steal, fight, catch, and solve puzzles in this minimal-style adventure inspired by the golden age of the Japanese computer MSX!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

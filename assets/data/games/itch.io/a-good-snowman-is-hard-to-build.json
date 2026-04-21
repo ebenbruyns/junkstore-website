@@ -34,7 +34,7 @@
   "shortname": "18387",
   "publisher": "Draknek & Friends",
   "developer": "Alan Hazelden",
-  "releasedate": "",
+  "releasedate": "25 Feb, 2015",
   "genre": "Indie",
   "description": "An adorable puzzle game about being a monster and making snowmen.",
   "size": "",
@@ -57,6 +57,8 @@
     "Portuguese - Brazil",
     "Russian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

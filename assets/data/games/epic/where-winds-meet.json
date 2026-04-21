@@ -34,7 +34,7 @@
   "shortname": "a7d28f0e0935490b9d6f92dda1a7a75b",
   "publisher": "NetEase Games",
   "developer": "Everstone Studio",
-  "releasedate": "",
+  "releasedate": "14 Nov, 2025",
   "genre": "Action, Adventure, RPG, Free To Play",
   "description": "Where Winds Meet is an epic Wuxia open-world action-adventure RPG set in ancient China at the tenth century. Players will assume the role of a young sword master as they embark on a journey to uncover the mysteries of their own identity. Let the wind carry your legend on an epic journey to the East!",
   "size": "",
@@ -58,6 +58,8 @@
     "Spanish - Latin America",
     "Portuguese - Brazil*languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

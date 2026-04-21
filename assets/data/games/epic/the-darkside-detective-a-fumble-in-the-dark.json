@@ -34,7 +34,7 @@
   "shortname": "be0f81a12c8c462b98ffae5813f2dcc8",
   "publisher": "Akupara Games",
   "developer": "Spooky Doorway",
-  "releasedate": "",
+  "releasedate": "2021-04-14T00:00:00+0000",
   "genre": "Adventure, Casual, Indie",
   "description": "Delouse your room with sage and pack up your travel-sized ouija board, it's time to re-enter Twin Lakes - America's 34th most haunted city. Join Detective McQueen as he puzzles his way through 6 chilling cases, risking life and pixelated limb to solve the macabre mysteries that plague the poor town.",
   "size": "",
@@ -52,6 +52,8 @@
     "German",
     "Simplified Chinese"
   ],
+  "metacritic_score": 84,
+  "metacritic_url": "https://www.metacritic.com/game/pc/the-darkside-detective-a-fumble-in-the-dark?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

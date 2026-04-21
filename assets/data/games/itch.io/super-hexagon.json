@@ -34,7 +34,7 @@
   "shortname": "29655",
   "publisher": "Distractionware, Terry Cavanagh",
   "developer": "Distractionware, Terry Cavanagh",
-  "releasedate": "",
+  "releasedate": "08-2012",
   "genre": "Arcade",
   "description": "Super Hexagon is a minimal action game by Terry Cavanagh, with music by Chipzel.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 88,
+  "metacritic_url": "https://www.metacritic.com/game/pc/super-hexagon?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

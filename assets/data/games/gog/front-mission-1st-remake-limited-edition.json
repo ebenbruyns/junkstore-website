@@ -34,7 +34,7 @@
   "shortname": "1111530020",
   "publisher": "Square Enix",
   "developer": "SQUARE ENIX",
-  "releasedate": "",
+  "releasedate": "11-2023",
   "genre": "role-playing, strategy, tactical",
   "description": "Experience all the memorable battles and heart wrenching drama of Front Mission with improved visuals, an updated interface, and English voiceovers!",
   "size": "",
@@ -56,6 +56,8 @@
     "Spanish",
     "zh-Hans"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

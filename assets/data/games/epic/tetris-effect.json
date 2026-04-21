@@ -34,7 +34,7 @@
   "shortname": "06c89b64de954c6fbcab914f8837fd4b",
   "publisher": "Enhance",
   "developer": "Resonair, Monstars",
-  "releasedate": "",
+  "releasedate": "2020-11-10",
   "genre": "Casual, Indie",
   "description": "TETRIS® EFFECT: CONNECTED adds an all-new robust multiplayer expansion to the huge variety of addictive and innovative single-player modes",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 93,
+  "metacritic_url": "https://www.metacritic.com/game/pc/tetris-effect-connected?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

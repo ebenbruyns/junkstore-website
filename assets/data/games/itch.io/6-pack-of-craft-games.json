@@ -34,7 +34,7 @@
   "shortname": "1325277",
   "publisher": "Ash K",
   "developer": "Ash K",
-  "releasedate": "",
+  "releasedate": "Feb 10, 2022",
   "genre": "Role-playing (RPG)",
   "description": "Here are 6 things that are too small to be posted or sold on their own:\n- Chat Stashers\n- Bubble Herder\n- Planet Maker\n- Ladybug Window\n- Games Fast\n- Desktop Incense Burner",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

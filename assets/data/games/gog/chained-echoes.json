@@ -34,7 +34,7 @@
   "shortname": "2067731250",
   "publisher": "Ark Heiral, Deck13 Spotlight",
   "developer": "Ark Heiral",
-  "releasedate": "",
+  "releasedate": "2022-12-08",
   "genre": "role-playing-rpg, adventure, strategy, turn-based-strategy-tbs, indie",
   "description": "Take up your sword, channel your magic or board your Mech. Chained Echoes is a 16-bit SNES style RPG set in a fantasy world where dragons are as common as piloted mechanical suits.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 91,
+  "metacritic_url": "https://www.metacritic.com/game/pc/chained-echoes?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": false,

@@ -34,7 +34,7 @@
   "shortname": "Tanzanite",
   "publisher": "Ratalaika Games",
   "developer": "Analgesic Productions, Melos Han-Tani, Marina Kittaka",
-  "releasedate": "",
+  "releasedate": "08-2019",
   "genre": "Role-playing (RPG), Adventure, Indie, Platform",
   "description": "Traverse a moody, 3D world and surreal 2D spaces, with PSX and 16-bit-influenced art styles. Play as Nova, the Nano Cleaner...",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

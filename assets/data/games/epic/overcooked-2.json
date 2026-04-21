@@ -34,7 +34,7 @@
   "shortname": "Potoo",
   "publisher": "Team17",
   "developer": "Ghost Town Games",
-  "releasedate": "",
+  "releasedate": "2018-08-07",
   "genre": "Strategy, Indie, Arcade, Simulator, Tactical",
   "description": "Overcooked returns with a brand-new helping of chaotic cooking action! Journey back to the Onion Kingdom and assemble your team of chefs...",
   "size": "",
@@ -51,6 +51,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 81,
+  "metacritic_url": "https://www.metacritic.com/game/pc/overcooked!-2?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

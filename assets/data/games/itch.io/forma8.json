@@ -34,7 +34,7 @@
   "shortname": "665814",
   "publisher": "MixedBag",
   "developer": "MixedBag",
-  "releasedate": "",
+  "releasedate": "2017-02-23T00:00:00+0000",
   "genre": "Adventure, Indie, Arcade",
   "description": "Explore, fight and solve puzzles. Uncover the secrets of a mysterious alien planet in this open world metroidvania adventure, where nothing is what it seems…\n\nAccidentally stranded during a crucial mission, the forma.8 probe will need to survive and accomplish the unthinkable. What really happened on this planet? Who, or what lived here? And when? What’s the secret behind its history? These are only but a handful of the questions in need of answers. Or else…everything will be lost.\n\nThe peculiar visual style, coupled with a deep lore and classic action-adventure mechanics makes forma.8 a unique experience, worth savoring and enjoy to the fullest.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

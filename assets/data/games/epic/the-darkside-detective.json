@@ -34,7 +34,7 @@
   "shortname": "7e3ea8e6a15542399541beda050c629c",
   "publisher": "Akupara Games",
   "developer": "Spooky Doorway",
-  "releasedate": "",
+  "releasedate": "Jul 27, 2017",
   "genre": "Adventure, Casual, Indie",
   "description": "Grab your trench coat, tune your sixth sense and join the Darkside Division as they investigate the outright bizarre, the downright dangerous and the confusing cases of Twin Lakes. Flesh-hungry tentacles, mafian zombies, and the occasional missing sock are no match for The Darkside Detective.",
   "size": "",
@@ -52,6 +52,8 @@
     "Spanish - Spain",
     "Simplified Chinese"
   ],
+  "metacritic_score": 77,
+  "metacritic_url": "https://www.metacritic.com/game/pc/the-darkside-detective?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

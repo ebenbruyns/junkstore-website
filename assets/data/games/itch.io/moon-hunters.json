@@ -34,7 +34,7 @@
   "shortname": "54706",
   "publisher": "Kitfox Games",
   "developer": "Kitfox Games",
-  "releasedate": "",
+  "releasedate": "2016-03-10T00:00:00+0000",
   "genre": "Role-playing (RPG), Adventure, Indie",
   "description": "Moon Hunters is a procedural world to explore, populated with hand-crafted stories and memorable characters. From howling mountains to lapping ocean waves, the world of Moon Hunters is brimming with ancient stories and myths.",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 62,
+  "metacritic_url": "https://www.metacritic.com/game/pc/moon-hunters?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

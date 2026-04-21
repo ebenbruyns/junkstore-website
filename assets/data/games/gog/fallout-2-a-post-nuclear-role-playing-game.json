@@ -34,7 +34,7 @@
   "shortname": "1440151285",
   "publisher": "Bethesda Softworks",
   "developer": "Black Isle Studios",
-  "releasedate": "",
+  "releasedate": "19 Aug, 2009",
   "genre": "RPG",
   "description": "Fallout® 2 is the sequel to the critically acclaimed game that took RPG'ing out of the dungeons and into a dynamic, apocalyptic retro-future. It's been 80 long years since your ancestors trod across the wastelands.",
   "size": "",
@@ -50,6 +50,8 @@
     "French",
     "German"
   ],
+  "metacritic_score": 86,
+  "metacritic_url": "https://www.metacritic.com/game/pc/fallout-2?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

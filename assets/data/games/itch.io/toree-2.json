@@ -34,7 +34,7 @@
   "shortname": "1212937",
   "publisher": "Siactro, Diplodocus Games",
   "developer": "Siactro",
-  "releasedate": "",
+  "releasedate": "2021-09-30T00:00:00+0000",
   "genre": "Adventure, Indie, Platform, Arcade",
   "description": "Toree 2 is the sequel to Toree 3D. A bite-sized 3D Platformer sequel with more focus on the things people enjoyed in the first game like fast gameplay, flow focused levels and cute costumes (two this time).",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

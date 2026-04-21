@@ -34,7 +34,7 @@
   "shortname": "1896497767",
   "publisher": "Devolver Digital, Playdigious",
   "developer": "Four Quarters",
-  "releasedate": "",
+  "releasedate": "03-2021",
   "genre": "role-playing, adventure, strategy, indie, card & board game",
   "description": "The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos. Wield an expanding deck of mystical cards to place enemies, buildings, and terrain along each unique expedition loop for the brave hero.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 82,
+  "metacritic_url": "https://www.metacritic.com/game/pc/loop-hero?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

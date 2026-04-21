@@ -34,7 +34,7 @@
   "shortname": "amzn1.adg.product.8d4d80fa-3d41-49dc-a3e7-1106b3cf003f",
   "publisher": "Gentle Troll Entertainment",
   "developer": "Gentle Troll Entertainment",
-  "releasedate": "",
+  "releasedate": "2024-06-20T00:00:00+0000",
   "genre": "Adventure, Casual, Indie, Simulation",
   "description": "A cozy visual novel about running a tavern in a D&D-inspired fantasy! Gather rumors, serve magical drinks, and meet adventurers on a life-changing quest.\n\nBefriend a colourful cast of adventurers as they brag about their latest triumph – or commiserate an utter failure. Whether it’s relaxation or a fresh thrill, you’re on hand to give each patron what they need.\n\nBeyond the walls of this cosy tavern, a world-threatening danger is brewing. Every quest, rumor and conversation is intertwined with the ultimate fate of the land.\n\nThe Wayfarer's Inn is a safe haven to a colourful cast of characters inspired by TTRPGs. Get to know their unique personalities, and help them find a place that feels like home.\n\nServe an ever-growing menu of magical drinks to your patrons, but choose carefully, as your choice will alter their fates. Gather rumors from the tavern-goers and use them to create quests for your adventurous guests.\n\nPiece together the fragments in your little study and uncover the secrets of an ancient evil threatening the land. As adventurers return from their mighty quests, they’ll bring back trinkets you can use to decorate your tavern. Your choices shape the snug interior of the Wayfarer’s Inn!",
   "size": "",
@@ -52,6 +52,8 @@
     "Simplified Chinese",
     "Korean"
   ],
+  "metacritic_score": 80,
+  "metacritic_url": "https://www.metacritic.com/game/pc/tavern-talk?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

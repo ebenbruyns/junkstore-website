@@ -34,7 +34,7 @@
   "shortname": "1739122581",
   "publisher": "Goblinz Publishing",
   "developer": "TavroxGames",
-  "releasedate": "",
+  "releasedate": "18 Mar, 2021",
   "genre": "Indie, RPG, Strategy",
   "description": "Neurodeck is a psychological deckbuilding card game to challenge your fears. Build your deck &amp; capacities by answering personality tests, visiting rooms or meditating. Face your phobia and defeat them through the power of life-inspired cards.",
   "size": "",
@@ -55,6 +55,8 @@
     "Korean",
     "Traditional Chinese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

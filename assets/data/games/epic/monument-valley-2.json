@@ -34,7 +34,7 @@
   "shortname": "a327fdb31e934dc2984c3b7b45b1ef0b",
   "publisher": "ustwo games",
   "developer": "ustwo games",
-  "releasedate": "",
+  "releasedate": "12 Jul, 2022",
   "genre": "Adventure, Casual, Indie, Strategy",
   "description": "Discover illusionary pathways and delightful puzzles as you learn the secrets of The Sacred Geometry. Follow the heart warming story of Ro in her journey through motherhood. Rediscover independence through manipulating monuments and evolving paths to explore new, surreal, and mysterious worlds.",
   "size": "304981776\n",
@@ -57,6 +57,8 @@
     "Simplified Chinese*",
     "Swedish*"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

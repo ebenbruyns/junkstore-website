@@ -34,7 +34,7 @@
   "shortname": "920869",
   "publisher": "Siactro, Diplodocus Games",
   "developer": "Siactro",
-  "releasedate": "",
+  "releasedate": "2021-04-09T00:00:00+0000",
   "genre": "Adventure, Indie, Platform, Arcade",
   "description": "A bite-sized 3D Platformer with a few weird elements.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

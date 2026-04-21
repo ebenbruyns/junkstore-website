@@ -34,7 +34,7 @@
   "shortname": "366363",
   "publisher": "hempuli",
   "developer": "hempuli",
-  "releasedate": "",
+  "releasedate": "03-2019",
   "genre": "Strategy, Indie, Puzzle",
   "description": "Baba Is You is a puzzle game where you can change the rules by which you play. In every level, the rules themselves are present as blocks you can interact with; by manipulating them, you can change how the level works and cause surprising, unexpected interactions! With some simple block-pushing you can turn yourself into a rock, turn patches of grass into dangerously hot obstacles, and even change the goal you need to reach to something entirely different.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 87,
+  "metacritic_url": "https://www.metacritic.com/game/pc/baba-is-you?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

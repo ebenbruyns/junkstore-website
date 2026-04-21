@@ -34,7 +34,7 @@
   "shortname": "1721001406",
   "publisher": "Toukana Interactive",
   "developer": "Toukana Interactive",
-  "releasedate": "",
+  "releasedate": "03-2021",
   "genre": "Casual, Indie, Simulation, Strategy",
   "description": "Dorfromantik is a peaceful building strategy and puzzle game where you create a beautiful and ever-growing village landscape by placing tiles. Explore a variety of colorful biomes, discover and unlock new tiles and complete quests to fill your world with life!",
   "size": "",
@@ -57,6 +57,8 @@
     "Traditional Chinese",
     "Polish"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

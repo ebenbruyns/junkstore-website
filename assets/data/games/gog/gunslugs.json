@@ -34,7 +34,7 @@
   "shortname": "1709371377",
   "publisher": "Orangepixel",
   "developer": "Orangepixel",
-  "releasedate": "",
+  "releasedate": "2 Jun, 2015",
   "genre": "Action, Indie",
   "description": "Lock and load for chaotic, fast-paced action in Gunslugs! Battle the evil Black Duck Army across wild, procedurally generated levels packed with explosions, jetpacks, chicken guns, and rogue-like permadeath. Unlock heroes, conquer bizarre worlds, and fight your way to the gates of Hell!",
   "size": "",
@@ -51,6 +51,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

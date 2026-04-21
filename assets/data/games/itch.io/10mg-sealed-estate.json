@@ -34,7 +34,7 @@
   "shortname": "773883",
   "publisher": "10mg",
   "developer": "Gesinimo Games",
-  "releasedate": "",
+  "releasedate": "10-2020",
   "genre": "Adventure, Indie",
   "description": "A psychological horror game in which you are locked inside by a creature ready to hunt you down, whilst you figure out how to escape from the estate you have been locked inside. Who lived here? Who are the voices haunting your every step?",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

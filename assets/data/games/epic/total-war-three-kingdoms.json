@@ -34,7 +34,7 @@
   "shortname": "769f2fee68e9477180da900ccccbbcf0",
   "publisher": "SEGA",
   "developer": "CREATIVE ASSEMBLY",
-  "releasedate": "",
+  "releasedate": "23 May, 2019",
   "genre": "Action, Strategy",
   "description": "Total War: THREE KINGDOMS is the first in the award-winning series to recreate epic conflict across ancient China. Combining a gripping turn-based campaign of empire-building &amp; conquest with stunning real-time battles, THREE KINGDOMS redefines the series in an age of heroes &amp; legends.",
   "size": "",
@@ -59,11 +59,13 @@
     "Portuguese - Brazil",
     "Russian*"
   ],
+  "metacritic_score": 85,
+  "metacritic_url": "https://www.metacritic.com/game/pc/total-war-three-kingdoms?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-05T23:48:35.404Z",
-  "updated_at": "2026-02-07T22:06:38.395Z"
+  "updated_at": "2026-04-03T22:02:32.152Z"
 }

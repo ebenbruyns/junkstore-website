@@ -34,7 +34,7 @@
   "shortname": "0074f9a4082041f1869d9d6f26b99521",
   "publisher": "AttritoM7 Productions",
   "developer": "AttritoM7 Productions",
-  "releasedate": "",
+  "releasedate": "9 Sep, 2024",
   "genre": "Action, Simulation, Strategy",
   "description": "Zero Hour is a tactical FPS with online team-based game play that takes place in a variety of fictional locations interpreted in Bangladesh with Real-life scale &amp; resource management. It brings a grounded, close quarter combat experience to the game.",
   "size": "",
@@ -55,6 +55,8 @@
     "Russian",
     "Simplified Chinese*languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

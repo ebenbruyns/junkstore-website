@@ -34,7 +34,7 @@
   "shortname": "1310457090",
   "publisher": "Nolla Games",
   "developer": "Nolla Games",
-  "releasedate": "",
+  "releasedate": "09-2019",
   "genre": "role-playing, adventure, indie, shooter, arcade, simulator",
   "description": "Noita is a magical action roguelite set in a world where every pixel is physically simulated. Fight, explore, melt, burn, freeze and evaporate your way through the procedurally generated world using spells you've created yourself. Explore a variety of environments ranging from coal mines to freezing wastelands while delving deeper in search for unknown mysteries.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

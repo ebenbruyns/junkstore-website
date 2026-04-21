@@ -34,7 +34,7 @@
   "shortname": "1403000599",
   "publisher": "Electronic Arts",
   "developer": "Pandemic Studios",
-  "releasedate": "",
+  "releasedate": "11-2009",
   "genre": "role-playing, adventure, shooter, tactical",
   "description": "Experience the ultimate open-world action/adventure as The Saboteur. Fight, climb, and race your way through a uniquely stylized version of Nazi-occupied France...",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

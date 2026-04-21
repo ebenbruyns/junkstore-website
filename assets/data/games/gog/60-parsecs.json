@@ -34,7 +34,7 @@
   "shortname": "1135130303",
   "publisher": "Robot Gentleman",
   "developer": "Robot Gentleman",
-  "releasedate": "",
+  "releasedate": "18 Sep, 2018",
   "genre": "Adventure, Casual, Indie, RPG, Simulation, Strategy",
   "description": "60 Parsecs! is an Atomic Space Age adventure of scavenge and survival. Keep your crew alive and ready for action. Make difficult choices, face soup shortages and other horrors of outer space. And maybe reach your destination. Or not.",
   "size": "",
@@ -57,6 +57,8 @@
     "Italian",
     "Spanish - Spain"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

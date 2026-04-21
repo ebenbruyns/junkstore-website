@@ -34,7 +34,7 @@
   "shortname": "Hornbill",
   "publisher": "Snowman",
   "developer": "Team Alto",
-  "releasedate": "",
+  "releasedate": "08-2020",
   "genre": "Adventure, Indie, Sport, Arcade",
   "description": "Across the endless desert and atop an alpine expanse two journeys full of wonder await. Choose your path and set off on a thrilling snowboarding...",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

@@ -34,7 +34,7 @@
   "shortname": "107078",
   "publisher": "AntonMakesGames",
   "developer": "AntonMakesGames",
-  "releasedate": "",
+  "releasedate": "2016-12-19T00:00:00+0000",
   "genre": "Platform",
   "description": "Air Dasher is Fast! Air Dasher is Fluid! Air Dasher is Platformer!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

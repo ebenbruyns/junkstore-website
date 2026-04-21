@@ -34,7 +34,7 @@
   "shortname": "639c5116ad7d4f31856c34aacda45f2d",
   "publisher": "Cyanide Studio",
   "developer": "Cyanide Studio",
-  "releasedate": "",
+  "releasedate": "7 Oct, 2014",
   "genre": "Action",
   "description": "Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.",
   "size": "",
@@ -53,6 +53,8 @@
     "Spanish - Spain",
     "Russian*languages with full audio support"
   ],
+  "metacritic_score": 71,
+  "metacritic_url": "https://www.metacritic.com/game/pc/styx-master-of-shadows?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

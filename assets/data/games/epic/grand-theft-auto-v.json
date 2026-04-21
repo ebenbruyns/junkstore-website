@@ -2,7 +2,7 @@
   "id": "2042402d-a4e6-4e18-9e9c-7abf82ee7987",
   "title": "Grand Theft Auto V",
   "storefront": "Epic",
-  "protondb": "https://www.protondb.com/app/gta-v",
+  "protondb": "https://www.protondb.com/app/271590",
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
@@ -13,7 +13,7 @@
   "standalone_rating": "",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -41,20 +41,31 @@
   "vertical_artwork": "https://images.gog.com/2d5277bd1949774a1b79e18157c84817968c4d6893ccda316a6e503e84799eab.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/79b33f20eeb88783a4bdcafd659e07f0cb8f21ad7fe075c609c00bb1f0c0a7d2.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d60b6efc6e687d66821c52d8b31c3b60cfb30d83d3e32f5c2c94ab108a65f13f.jpg?namespace=gamesdb",
-  "steamId": "",
+  "steamId": "271590",
   "game_modes": [
     "Single player",
     "Co-operative",
     "Multiplayer"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French",
+    "Italian",
+    "German",
+    "Spanish - Spain",
+    "Korean",
+    "Polish",
+    "Portuguese - Brazil",
+    "Russian",
+    "Traditional Chinese"
   ],
+  "metacritic_score": 97,
+  "metacritic_url": "https://www.metacritic.com/game/pc/grand-theft-auto-v?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T04:03:53.005Z"
+  "updated_at": "2026-04-19T23:46:43.866Z"
 }

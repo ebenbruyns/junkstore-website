@@ -34,7 +34,7 @@
   "shortname": "1460032883",
   "publisher": "Activision, Sierra Entertainment",
   "developer": "Saber Interactive",
-  "releasedate": "",
+  "releasedate": "10-2007",
   "genre": "puzzle, shooter",
   "description": "Master time to become the ultimate weapon! Dr. Aiden Krone has made a Time Jump across the space-time continuum - a reckless act with frightening consequences.",
   "size": "",
@@ -49,6 +49,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 71,
+  "metacritic_url": "https://www.metacritic.com/game/pc/timeshift?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

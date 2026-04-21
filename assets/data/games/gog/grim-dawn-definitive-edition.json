@@ -34,7 +34,7 @@
   "shortname": "2023885455",
   "publisher": "Crate Entertainment",
   "developer": "Crate Entertainment",
-  "releasedate": "",
+  "releasedate": "02-2016",
   "genre": "action, role-playing",
   "description": "Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice & consequence.",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 83,
+  "metacritic_url": "https://www.metacritic.com/game/pc/grim-dawn?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

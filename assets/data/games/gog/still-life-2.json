@@ -34,7 +34,7 @@
   "shortname": "120765007",
   "publisher": "Meridian4, cdv Software Entertainment, Iceberg Interactive",
   "developer": "Gameco Studios",
-  "releasedate": "",
+  "releasedate": "03-2009",
   "genre": "Adventure, Puzzle, Point-and-click",
   "description": "Who is hiding behind Mr. X? Still Life 2 reveals the long-awaited ending of Still Life and spells a new investigation for Agent Victoria McPherson.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 67,
+  "metacritic_url": "https://www.metacritic.com/game/pc/still-life-2?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

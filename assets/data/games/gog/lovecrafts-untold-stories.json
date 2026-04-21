@@ -2,7 +2,7 @@
   "id": "1165e6e8-153a-4936-84e9-0aba381685cf",
   "title": "Lovecraft's Untold Stories",
   "storefront": "GOG",
-  "protondb": "",
+  "protondb": "https://www.protondb.com/app/871420",
   "gog_url": "https://www.gog.com/en/game/lovecrafts_untold_stories",
   "epic_url": "",
   "itch_url": "",
@@ -41,7 +41,7 @@
   "vertical_artwork": "https://images.gog.com/01518a0327601a53b419a60e7f4ff5580f1b0e62377b76cdfa9a6d54c14b91de.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6b34f034a5f7b0932806ddd7fefdef48ea773be395f13763a8cf30e10b8d154f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6c7dd8c1b3faed031a3963bf2354c6ce125cccc61b7ec037486bb120cc189245.jpg?namespace=gamesdb",
-  "steamId": "",
+  "steamId": "871420",
   "game_modes": [
     "Single player"
   ],
@@ -53,6 +53,8 @@
     "Russian",
     "Spanish"
   ],
+  "metacritic_score": 77,
+  "metacritic_url": "https://www.metacritic.com/game/pc/lovecrafts-untold-stories?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -60,5 +62,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2025-11-23T21:48:46.320Z"
+  "updated_at": "2026-04-20T00:09:43.596Z"
 }

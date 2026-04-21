@@ -34,7 +34,7 @@
   "shortname": "1207658693",
   "publisher": "Empire Interactive, Strategy First, Konami",
   "developer": "Bugbear Entertainment",
-  "releasedate": "",
+  "releasedate": "11-2004",
   "genre": "sport, simulator",
   "description": "FlatOut is adrenaline-filled muscle car racing game packed with explosive physics, spectacular effects and graphics, innovative game play mechanics and good old fun!",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 72,
+  "metacritic_url": "https://www.metacritic.com/game/pc/flatout?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

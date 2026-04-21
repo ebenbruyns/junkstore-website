@@ -34,7 +34,7 @@
   "shortname": "Eider",
   "publisher": "IO Interactive",
   "developer": "IO Interactive",
-  "releasedate": "",
+  "releasedate": "01-2021",
   "genre": "Adventure, Shooter, Tactical",
   "description": "Hitman 3 is the dramatic conclusion to the World of Assassination trilogy. Become Agent 47, a legendary assassin and use creativity and improvisation to execute the most ingenious and spectacular eliminations",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 87,
+  "metacritic_url": "https://www.metacritic.com/game/pc/hitman-3?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

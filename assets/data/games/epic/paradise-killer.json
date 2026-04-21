@@ -34,7 +34,7 @@
   "shortname": "8de015f17084454f96fbff7bd6465aec",
   "publisher": "Fellow Traveller",
   "developer": "Kaizen Game Works",
-  "releasedate": "",
+  "releasedate": "4 Sep, 2020",
   "genre": "Adventure, Indie, RPG",
   "description": "Paradise Island, a world outside reality. There’s been a murder that only &quot;investigation freak&quot; Lady Love Dies can solve. Gather evidence and interrogate suspects in this open world adventure. You can accuse anyone, but you’ll have to prove your case in trial. It’s up to you to decide who’s guilty.",
   "size": "",
@@ -51,6 +51,8 @@
     "Simplified Chinese",
     "Traditional Chinese*languages with full audio support"
   ],
+  "metacritic_score": 81,
+  "metacritic_url": "https://www.metacritic.com/game/pc/paradise-killer?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

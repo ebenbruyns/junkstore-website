@@ -34,7 +34,7 @@
   "shortname": "4a38247847824b729d5509dc0474596c",
   "publisher": "Yogscast Games",
   "developer": "Split Second Games",
-  "releasedate": "",
+  "releasedate": "2 May, 2024",
   "genre": "Strategy",
   "description": "Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles! Build and upgrade towers, recruit armies, learn spells, construct wonders and place hexagonal tiles to create a path to enhance your defenses. With plenty of game modes and talents to unlock!",
   "size": "",
@@ -57,6 +57,8 @@
     "Portuguese - Brazil",
     "Russian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

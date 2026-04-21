@@ -34,7 +34,7 @@
   "shortname": "Cobbler",
   "publisher": "Telltale Games",
   "developer": "Telltale Games",
-  "releasedate": "",
+  "releasedate": "2013-10-11",
   "genre": "Adventure, Point-and-click",
   "description": "A five-episode series based on Fables comic, a violent thriller where myth and legend characters exist in our world.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 85,
+  "metacritic_url": "https://www.metacritic.com/game/pc/the-wolf-among-us-episode-1---faith?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

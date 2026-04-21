@@ -34,7 +34,7 @@
   "shortname": "1184941116",
   "publisher": "qureate, MediBang",
   "developer": "qureate",
-  "releasedate": "",
+  "releasedate": "2024-04-18",
   "genre": "adventure, indie, simulator, visual-novel",
   "description": "Enjoy a conversation with the cast while having a drink! This is a dating sim adventure game that takes place in a gentlemen's haven called \"Bunny Garden\".",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": false,

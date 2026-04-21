@@ -34,7 +34,7 @@
   "shortname": "1654564600",
   "publisher": "Dear Villagers",
   "developer": "Fallen Leaf",
-  "releasedate": "",
+  "releasedate": "22 Aug, 2023",
   "genre": "Adventure",
   "description": "Answer the call from a mining base on Mars as engineer Jack Leary and search for the missing crew. Fort Solis will immerse you with cinematic visuals powered by UE 5 and voice acting of Roger Clark and Troy Baker. Explore the mining complex and reach climax of this narrative thriller experience.",
   "size": "",
@@ -57,6 +57,8 @@
     "Portuguese - Brazil",
     "Japanese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

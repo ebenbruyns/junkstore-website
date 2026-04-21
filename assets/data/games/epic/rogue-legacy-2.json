@@ -34,7 +34,7 @@
   "shortname": "bd35425c9548494082d002f36601ff45",
   "publisher": "Cellar Door Games",
   "developer": "Cellar Door Games",
-  "releasedate": "",
+  "releasedate": "2022-04-28",
   "genre": "Role-playing (RPG), Adventure, Indie, Platform",
   "description": "Rogue Legacy 2 is a genealogical rogue-lite. That means it has all the trappings of a typical rogue-like (randomized runs, changing characters, and more)...",
   "size": "",
@@ -57,11 +57,13 @@
     "Simplified Chinese",
     "Traditional Chinese"
   ],
+  "metacritic_score": 88,
+  "metacritic_url": "https://www.metacritic.com/game/pc/rogue-legacy-2?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
-  "owned": true,
+  "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-03-03T21:16:52.241Z"
+  "updated_at": "2026-03-22T00:40:59.277Z"
 }

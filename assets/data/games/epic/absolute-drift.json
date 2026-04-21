@@ -34,7 +34,7 @@
   "shortname": "19927295d6e3467887d4e830d8c85963",
   "publisher": "Funselektor Labs",
   "developer": "Funselektor Labs",
-  "releasedate": "",
+  "releasedate": "07-2015",
   "genre": "Indie, Sport, Arcade, Simulator, Racing",
   "description": "Master the art of drifting. Practice your skills in Free-Roam and compete in drift events such as Driftkhana and Mountain Drifting.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

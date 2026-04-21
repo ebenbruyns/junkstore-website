@@ -34,7 +34,7 @@
   "shortname": "664936",
   "publisher": "Thunder Lotus",
   "developer": "Thunder Lotus",
-  "releasedate": "",
+  "releasedate": "2017-07-28T00:00:00+0000",
   "genre": "Adventure, Indie, Platform",
   "description": "Sundered is a horrifying fight for survival and sanity, a hand­-drawn epic from the ​creators of ​Jotun. You play Eshe, a wanderer in a ruined world, trapped in ever­-changing caverns teeming with eldritch horrors. Harness the power of corrupted relics to defeat gigantic bosses, at the cost of your humanity.",
   "size": "",
@@ -57,6 +57,8 @@
     "Simplified Chinese",
     "Japanese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

@@ -34,7 +34,7 @@
   "shortname": "1381541022",
   "publisher": "indie.io",
   "developer": "Spectra Entertainment Inc.",
-  "releasedate": "",
+  "releasedate": "15 Apr, 2024",
   "genre": "Adventure, Indie, RPG, Strategy",
   "description": "Dream Tactics is a GBA-styled strategy RPG with cunning card combos and deep character customization. Pick your party, manage cards to create unique playstyles, and outsmart hordes of pillows in turn-based combat to save the Dream World from its inevitable collapse.",
   "size": "",
@@ -50,6 +50,8 @@
     "Japanese",
     "Simplified Chinese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

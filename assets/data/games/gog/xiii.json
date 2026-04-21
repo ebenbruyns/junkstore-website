@@ -34,7 +34,7 @@
   "shortname": "1207658920",
   "publisher": "Ubisoft Entertainment, Feral Interactive",
   "developer": "Ubisoft Paris",
-  "releasedate": "",
+  "releasedate": "10-2003",
   "genre": "puzzle, shooter",
   "description": "XIII is a cel-shaded first-person shooter based on the popular Belgian cult comic created by Jean Van Hamme and illustrated by William Vance.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

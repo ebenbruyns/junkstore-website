@@ -34,7 +34,7 @@
   "shortname": "1433377508",
   "publisher": "Bandai Namco Entertainment",
   "developer": "Tarsier Studios",
-  "releasedate": "",
+  "releasedate": "04-2017",
   "genre": "adventure, strategy, indie, platform, puzzle",
   "description": "Little Nightmares is a puzzle-platform horror adventure game developed by Tarsier Studios and published by Bandai Namco Entertainment. Set in a mysterious world, Little Nightmares follows the journey of Six, a hungry little girl who must escape the Maw, an iron vessel inhabited by monstrous, twisted beings.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 81,
+  "metacritic_url": "https://www.metacritic.com/game/pc/little-nightmares?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

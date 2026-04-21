@@ -7,7 +7,7 @@
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
-  "notes": "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. In desktop mode you will get the intro video, but in Game Mode you need to map buttons to Alt+Enter in order to skip this and get to the game menu.",
+  "notes": "Keyboard & mouse controls. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. In desktop mode you will get the intro video, but in Game Mode you need to map buttons to Alt+Enter in order to skip this and get to the game menu.\n\nIn the proton settings in the Environment section set Mesa Extension Max Year to 2002",
   "date_tested": "March '25",
   "decky_rating": "green",
   "standalone_rating": "green",
@@ -49,6 +49,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "https://www.metacritic.com/game/medal-of-honor-allied-assault-war-chest/",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -56,5 +58,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-08-11T07:55:51.823Z"
+  "updated_at": "2026-04-20T00:11:14.724Z"
 }

@@ -34,7 +34,7 @@
   "shortname": "5a957b485bc148f3959acc964fab9da3",
   "publisher": "Plug In Digital",
   "developer": "Snoozy Kazoo",
-  "releasedate": "",
+  "releasedate": "2024-01-18T00:00:00+0000",
   "genre": "Action, Adventure, Indie",
   "description": "Turnip Boy is back! This time he’s teaming up with the fearsome Pickled Gang to plan and execute the weirdest heist of all time. Shake down hostages, steal precious valuables, battle the fuzz, and use wacky tools bought off the dark web to move further into the vaults of the Botanical Bank.",
   "size": "",
@@ -57,11 +57,13 @@
     "Russian",
     "Simplified Chinese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "blog_category": "",
   "created_at": "2026-03-06T04:58:23.512Z",
-  "updated_at": "2026-03-06T21:25:26.259Z"
+  "updated_at": "2026-03-10T04:23:23.504Z"
 }

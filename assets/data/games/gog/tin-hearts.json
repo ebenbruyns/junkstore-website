@@ -34,13 +34,13 @@
   "shortname": "1318552817",
   "publisher": "Wired Productions",
   "developer": "Rogue Sun",
-  "releasedate": "",
+  "releasedate": "04-2023",
   "genre": "Adventure, Strategy, Indie, Platform, Puzzle",
   "description": "Guide squads of tin soldiers to safety through this magical toy filled world. A beautiful VR puzzle game with a heartfelt story. Are you guiding the soldiers or are they guiding you?",
   "size": "",
   "vertical_artwork": "https://images.gog.com/a4e2232bc9851277b1e493979cce0698e879332f35bc24d4b46d203be8079b85.jpg?namespace=gamesdb",
-  "banner_image": "",
-  "icon_image": "",
+  "banner_image": "https://images.gog.com/c08321e7a2e93df6fcf0b4890573c59f93b614bbd898464a3bac09b76a715be7.jpg?namespace=gamesdb",
+  "icon_image": "https://images.gog.com/7e8f0bcae720306bfafc14eea320dd3bec5058c739813e39fa3be9f48d373837.jpg?namespace=gamesdb",
   "steamId": "1831700",
   "game_modes": [
     "Single player"
@@ -59,6 +59,8 @@
     "Russian",
     "zh-Hans"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

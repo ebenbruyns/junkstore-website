@@ -34,7 +34,7 @@
   "shortname": "3b586acd98e146ee9a92549c158d870f",
   "publisher": "Supergiant Games, Netflix",
   "developer": "Supergiant Games",
-  "releasedate": "",
+  "releasedate": "2020-09-17",
   "genre": "Role-playing (RPG), Adventure, Indie, Hack and slash/Beat 'em up",
   "description": "A rogue-lite hack and slash dungeon crawler in which Zagreus, son of Hades the Greek god of the dead, attempts to escape his home...",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 93,
+  "metacritic_url": "https://www.metacritic.com/game/pc/hades?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

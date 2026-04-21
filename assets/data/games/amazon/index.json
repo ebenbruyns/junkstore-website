@@ -1,6 +1,6 @@
 {
   "storefront": "Amazon",
-  "total_games": 72,
+  "total_games": 73,
   "games": [
     "aces-of-the-luftwaffe-squadron-extended-edition.json",
     "afterimage.json",
@@ -9,6 +9,7 @@
     "bang-bang-racing.json",
     "beholder-3.json",
     "clouds-sheep-2.json",
+    "deep-sky-derelicts.json",
     "dexter-stardust-adventures-in-outer-space.json",
     "dread-templar.json",
     "dreadout-2.json",
@@ -76,8 +77,32 @@
     "zombies-ate-my-neighbors-and-ghoul-patrol.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-03-09T05:58:47.030Z",
+  "last_updated": "2026-04-20T23:17:38.784Z",
   "latest_games": [
+    {
+      "title": "Endless Legend: Definitive Edition",
+      "slug": "endless-legend-definitive-edition",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Clouds & Sheep 2",
+      "slug": "clouds-sheep-2",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Deep Sky Derelicts",
+      "slug": "deep-sky-derelicts",
+      "date_tested": "Mar '26",
+      "is_featured": false
+    },
+    {
+      "title": "Aces of the Luftwaffe - Squadron Extended Edition",
+      "slug": "aces-of-the-luftwaffe-squadron-extended-edition",
+      "date_tested": "July '25",
+      "is_featured": false
+    },
     {
       "title": "Tavern Talk",
       "slug": "tavern-talk",
@@ -112,30 +137,6 @@
       "title": "Afterimage",
       "slug": "afterimage",
       "date_tested": "Sep '25",
-      "is_featured": false
-    },
-    {
-      "title": "Subterrain: Mines of Titan",
-      "slug": "subterrain-mines-of-titan",
-      "date_tested": "Sep '25",
-      "is_featured": false
-    },
-    {
-      "title": "Pixel Cafe",
-      "slug": "pixel-cafe",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "The Academy: The First Riddle",
-      "slug": "the-academy-the-first-riddle",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "Surf World Series",
-      "slug": "surf-world-series",
-      "date_tested": "Dec '25",
       "is_featured": false
     }
   ]

@@ -34,7 +34,7 @@
   "shortname": "ab9bdfa5a0c945f69b9e7d651990cb14",
   "publisher": "EXBO",
   "developer": "EXBO",
-  "releasedate": "",
+  "releasedate": "2022-12-09T00:00:00+0000",
   "genre": "Action, Adventure, Massively Multiplayer, RPG, Free To Play",
   "description": "STALCRAFT: X is the largest online game set in the open world of the Chernobyl Exclusion Zone.\n\nDive into this universe, filled with mutants and anomalies alone or with friends — unforgettable experiences are guaranteed!",
   "size": "",
@@ -53,6 +53,8 @@
     "French",
     "Korean*languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

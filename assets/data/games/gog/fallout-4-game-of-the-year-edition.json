@@ -34,7 +34,7 @@
   "shortname": "1998527297",
   "publisher": "Bethesda Softworks",
   "developer": "Bethesda Game Studios",
-  "releasedate": "",
+  "releasedate": "Nov 9, 2015",
   "genre": "RPG",
   "description": "From Bethesda Game Studios, the award-winning creators of Starfield and The Elder Scrolls V: Skyrim, comes Fallout 4. A landmark in open-world RPG design and winner of over 200 ‘Best Of’ honors, including the DICE and BAFTA Game of the Year.",
   "size": "",
@@ -57,6 +57,8 @@
     "Traditional Chinese",
     "Japanese**languages with full audio support"
   ],
+  "metacritic_score": 84,
+  "metacritic_url": "https://www.metacritic.com/game/pc/fallout-4?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

@@ -34,7 +34,7 @@
   "shortname": "124280",
   "publisher": "m12y",
   "developer": "m12y",
-  "releasedate": "",
+  "releasedate": "2017-07-06T00:00:00+0000",
   "genre": "Indie, Puzzle",
   "description": "A Snake's Tale is a puzzle game about snakes in cramped places. Clear a path to get to the hole, eat some eggs along the way, and make sure to press all the buttons.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

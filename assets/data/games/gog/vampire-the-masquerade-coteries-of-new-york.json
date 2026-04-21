@@ -34,7 +34,7 @@
   "shortname": "1636588470",
   "publisher": "Draw Distance",
   "developer": "Draw Distance",
-  "releasedate": "",
+  "releasedate": "12-2019",
   "genre": "role-playing, adventure, indie, visual novel",
   "description": "Coteries of New York presents the struggle for power between two vampiric factions: Camarilla and Anarchs among the iconic buildings and night lights of Big Apple.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 70,
+  "metacritic_url": "https://www.metacritic.com/game/pc/vampire-the-masquerade---coteries-of-new-york?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

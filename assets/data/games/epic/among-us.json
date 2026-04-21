@@ -34,7 +34,7 @@
   "shortname": "963137e4c29d4c79a81323b8fab03a40",
   "publisher": "Innersloth",
   "developer": "Innersloth",
-  "releasedate": "",
+  "releasedate": "06-2018",
   "genre": "Strategy, Indie",
   "description": "Play with 4-15 player online or via local WiFi as you attempt to prepare your spaceship for departure, but beware as one or more random players among the Crew are Impostors bent on killing everyone!",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 85,
+  "metacritic_url": "https://www.metacritic.com/game/pc/among-us?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

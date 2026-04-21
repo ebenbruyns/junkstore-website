@@ -34,12 +34,12 @@
   "shortname": "1425368",
   "publisher": "Limit Break",
   "developer": "Limit Break",
-  "releasedate": "",
+  "releasedate": "03-2016",
   "genre": "Indie, Shooter",
   "description": "Space shooters never die. 1993 is a testament to that. 1993 is a classic shoot em up celebrating games like Gradius, R-Type and Life Force.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/da84f2b24b2b424a15a05b37bda025bc734690e658c35bd3fa9df24cb9ca5443.jpg?namespace=gamesdb",
-  "banner_image": "",
+  "banner_image": "https://images.gog.com/f7cbdec636bda1742fa075111553bee11514f59b5f2d7ca83cccb9a9426f3434.jpg?namespace=gamesdb",
   "icon_image": "",
   "steamId": "373480",
   "game_modes": [
@@ -51,6 +51,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

@@ -34,7 +34,7 @@
   "shortname": "1365195229",
   "publisher": "The Digital Lounge",
   "developer": "Goblinz Enterprises Ltd",
-  "releasedate": "",
+  "releasedate": "2 Nov, 2018",
   "genre": "Adventure, Casual",
   "description": "True Fear: Forsaken Souls Part 2 is the sequel to one of the best rated horror escape games, acclaimed for its story and the atmosphere of horror mystery.",
   "size": "649773427\n",
@@ -57,6 +57,8 @@
     "Italian",
     "Romanian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

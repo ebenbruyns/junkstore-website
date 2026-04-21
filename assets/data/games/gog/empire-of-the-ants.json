@@ -34,7 +34,7 @@
   "shortname": "2108847100",
   "publisher": "Microids",
   "developer": "Tower Five",
-  "releasedate": "",
+  "releasedate": "2024-11-07",
   "genre": "adventure, strategy, indie, real-time-strategy-rts",
   "description": "Embark on an epic journey into the infinitesimal in this photorealistic strategy game. Play as a fearless ant and guide your colony through the dangers of the forest.",
   "size": "",
@@ -49,6 +49,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": false,

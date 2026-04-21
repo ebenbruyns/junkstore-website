@@ -34,7 +34,7 @@
   "shortname": "cd03160de3bf4f2789d32a3798501564",
   "publisher": "Ustwo Games",
   "developer": "Ustwo Games",
-  "releasedate": "",
+  "releasedate": "12-2022",
   "genre": "Adventure, Casual, Puzzle",
   "description": "Monument Valley+ is a re-release of the original Monument Valley, including the Forgotten Shores and Ida's Dream DLCs, made exclusively for Apple Arcade",
   "size": "",
@@ -64,6 +64,8 @@
     "Malay",
     "Thai"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

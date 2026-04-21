@@ -34,7 +34,7 @@
   "shortname": "131126",
   "publisher": "DeNA Co., Ltd., Broken Rules",
   "developer": "Broken Rules",
-  "releasedate": "",
+  "releasedate": "2009-04-02T00:00:00+0000",
   "genre": "Indie, Platform, Puzzle",
   "description": "And Yet It Moves is a puzzle-platformer, set in a unique world, made of ripped paper. Within the paper-collage you can jump, run and last but certainly not least: rotate the world. Learn how to apply the physical consequences of rotation to master the many tricky situations you may encounter.",
   "size": "",
@@ -53,6 +53,8 @@
     "Japanese",
     "Spanish - Spain"
   ],
+  "metacritic_score": 75,
+  "metacritic_url": "https://www.metacritic.com/game/pc/and-yet-it-moves?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

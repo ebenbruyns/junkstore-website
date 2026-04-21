@@ -34,7 +34,7 @@
   "shortname": "e75733d7dbb0463f9942ed6a2cd4acfb",
   "publisher": "HandyGames",
   "developer": "Crazy Bunch",
-  "releasedate": "",
+  "releasedate": "2025-10-24T00:00:00+0000",
   "genre": "Indie, Simulation, Strategy",
   "description": "Become a tattoo artist and manage your own tattoo parlor. Find the perfect designs for your curious customers and turn their vague wishes into amazing skin art. Grow from a small personal studio to a multi-parlor business throughout the different districts of Tattuga Bay.",
   "size": "",
@@ -52,11 +52,13 @@
     "Spanish - Spain",
     "Simplified Chinese*languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "blog_category": "",
   "created_at": "2026-03-06T04:55:01.196Z",
-  "updated_at": "2026-03-06T21:27:31.400Z"
+  "updated_at": "2026-03-10T04:23:22.421Z"
 }

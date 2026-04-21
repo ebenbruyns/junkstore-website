@@ -34,7 +34,7 @@
   "shortname": "118243",
   "publisher": "Laundry Bear Games",
   "developer": "Laundry Bear Games",
-  "releasedate": "",
+  "releasedate": "2017-10-18T00:00:00+0000",
   "genre": "Role-playing (RPG), Adventure, Indie, Simulator, Visual Novel",
   "description": "A Mortician's Tale is a narrative-driven death positive video game where you play as a mortician tasked with running a funeral home—preparing the cadavers of the deceased (via embalming or cremation), attending their funerals and listening to their loved ones' stories, and running the business.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 78,
+  "metacritic_url": "https://www.metacritic.com/game/pc/a-morticians-tale?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

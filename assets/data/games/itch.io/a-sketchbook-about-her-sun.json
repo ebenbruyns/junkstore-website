@@ -34,7 +34,7 @@
   "shortname": "1055631",
   "publisher": "Team SolEtude",
   "developer": "Team SolEtude",
-  "releasedate": "",
+  "releasedate": "2021-06-11T00:00:00+0000",
   "genre": "Adventure, Visual Novel",
   "description": "Through a narrative based on Red Ribbon’s new album “Planet X”, experience a broken-heart girl’s journey through thoughts, daydreams and music.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

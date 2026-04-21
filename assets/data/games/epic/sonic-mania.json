@@ -34,7 +34,7 @@
   "shortname": "818447bb519b46d48d365d5753362796",
   "publisher": "Sega Games",
   "developer": "Headcannon, PagodaWest Games, Sega Games, Christian Whitehead",
-  "releasedate": "",
+  "releasedate": "08-2017",
   "genre": "Adventure, Platform",
   "description": "Experience the ultimate celebration of past and future in Sonic Mania! Re-live the Sonic of the past with an exciting new twist on classic zones",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 84,
+  "metacritic_url": "https://www.metacritic.com/game/pc/sonic-mania?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

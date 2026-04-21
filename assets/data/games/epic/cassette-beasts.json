@@ -34,7 +34,7 @@
   "shortname": "b661716774d74debab93ab82f683fc98",
   "publisher": "Raw Fury",
   "developer": "Bytten Studio",
-  "releasedate": "",
+  "releasedate": "26 Apr, 2023",
   "genre": "Indie, RPG",
   "description": "Collect awesome monsters to use during turn-based battles in this open-world RPG, now with online multiplayer mode. Combine any two monster forms using Cassette Beasts’ Fusion System to create unique and powerful new ones!",
   "size": "",
@@ -60,6 +60,8 @@
     "Spanish - Latin America",
     "Portuguese - Brazil*languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

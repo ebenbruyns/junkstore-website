@@ -34,7 +34,7 @@
   "shortname": "2023945788",
   "publisher": "New Blood Interactive",
   "developer": "Indefatigable",
-  "releasedate": "",
+  "releasedate": "06-2019",
   "genre": "indie, shooter",
   "description": "Once branded a heretic. Now you have been chosen. Reclaim our sacred weapons. Take back our ancestral lands. If you can stand... Amid Evil.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 85,
+  "metacritic_url": "https://www.metacritic.com/game/pc/amid-evil?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

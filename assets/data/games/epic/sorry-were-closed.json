@@ -34,7 +34,7 @@
   "shortname": "4f90885c77ce4658998dc66634591635",
   "publisher": "Akupara Games",
   "developer": "à la mode games",
-  "releasedate": "",
+  "releasedate": "14 Nov, 2024",
   "genre": "Action, Adventure, Indie",
   "description": "Sorry We're Closed is an eccentric story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of classic fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
   "size": "",
@@ -53,6 +53,8 @@
     "Simplified Chinese",
     "Traditional Chinese"
   ],
+  "metacritic_score": 83,
+  "metacritic_url": "https://www.metacritic.com/game/pc/sorry-were-closed?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

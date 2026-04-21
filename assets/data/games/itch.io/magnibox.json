@@ -34,7 +34,7 @@
   "shortname": "344215",
   "publisher": "Joseph Gribbin",
   "developer": "Joseph Gribbin",
-  "releasedate": "",
+  "releasedate": "2019-03-26T00:00:00+0000",
   "genre": "Indie, Puzzle",
   "description": "Magnibox is a colorful and challenging puzzle game about a magnet that's also a box. Hand-crafted for your brain to enjoy!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

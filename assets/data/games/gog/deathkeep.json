@@ -34,7 +34,7 @@
   "shortname": "1263855454",
   "publisher": "SNEG",
   "developer": "Lion Entertainment",
-  "releasedate": "",
+  "releasedate": "27 Mar, 2023",
   "genre": "Action, Adventure, RPG",
   "description": "DeathKeep is a D&amp;D dungeon delving the way you like it - fast, furious and fun! An evil Necromancer has escaped from his icy prison and is wreaking havoc upon the surrounding lands. Journey to this frozen wasteland and destroy the forces of evil - if you dare.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

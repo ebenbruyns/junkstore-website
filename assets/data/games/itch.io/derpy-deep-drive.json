@@ -34,12 +34,12 @@
   "shortname": "1015698",
   "publisher": "Extrone",
   "developer": "Extrone",
-  "releasedate": "",
+  "releasedate": "2021-04-26T00:00:00+0000",
   "genre": "Arcade, Racing",
   "description": "An Endless Bus Driving Game, created for Ludam Dare 48 created in Unrea Engine 4.",
   "size": "",
   "vertical_artwork": "https://images.gog.com/0b1e91bb95a69147a86f9d79123c53b82c03050b1bd0171c965d41a800767a46.jpg?namespace=gamesdb",
-  "banner_image": "",
+  "banner_image": "https://images.gog.com/98f4df60921fe573c374798051cb4a808d05a79ae3139a2bf7165dcef87df55c.jpg?namespace=gamesdb",
   "icon_image": "https://cdn2.steamgriddb.com/thumb/83181836fe54753c41d104ffd521c6ed.jpg",
   "steamId": "",
   "game_modes": [
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

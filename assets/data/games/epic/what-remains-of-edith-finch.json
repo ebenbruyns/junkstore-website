@@ -34,7 +34,7 @@
   "shortname": "Badger",
   "publisher": "Annapurna Interactive",
   "developer": "Giant Sparrow",
-  "releasedate": "",
+  "releasedate": "2017-04-24",
   "genre": "Adventure, Indie, Puzzle",
   "description": "A collection of short stories about a cursed family in Washington State. Each story ends with a family member's death.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 89,
+  "metacritic_url": "https://www.metacritic.com/game/pc/what-remains-of-edith-finch?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

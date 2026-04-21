@@ -34,7 +34,7 @@
   "shortname": "Hoatzin",
   "publisher": "tinyBuild",
   "developer": "We're Five Games",
-  "releasedate": "",
+  "releasedate": "04-2020",
   "genre": "Adventure, Indie, Simulator, Racing",
   "description": "Delivery Attempted. T.R.D.S. is a ragdoll physics simulation about terrible package delivery couriers.",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 64,
+  "metacritic_url": "https://www.metacritic.com/game/pc/totally-reliable-delivery-service?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

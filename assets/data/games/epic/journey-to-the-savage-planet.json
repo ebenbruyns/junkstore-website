@@ -34,7 +34,7 @@
   "shortname": "Oleander",
   "publisher": "505 Games",
   "developer": "Typhoon Studios",
-  "releasedate": "",
+  "releasedate": "2020-01-28",
   "genre": "Adventure, Action",
   "description": "Onward To Adventure. In this colorful, co-op adventure game you play as the newest recruit to Kindred Aerospace...",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 76,
+  "metacritic_url": "https://www.metacritic.com/game/pc/journey-to-the-savage-planet?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

@@ -34,7 +34,7 @@
   "shortname": "1490213242",
   "publisher": "Slow Bros.",
   "developer": "Slow Bros.",
-  "releasedate": "",
+  "releasedate": "16 Apr, 2024",
   "genre": "Adventure, Casual, Indie",
   "description": "Harold Halibut is a handmade narrative game about friendship and life on a city-sized spaceship submerged in an alien ocean. Join Harold as he explores a vibrant retro-future world in his quest to find the true meaning of ‘home’.",
   "size": "",
@@ -57,6 +57,8 @@
     "Russian",
     "Turkish"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

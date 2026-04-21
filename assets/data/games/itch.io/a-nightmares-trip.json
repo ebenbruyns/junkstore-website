@@ -34,7 +34,7 @@
   "shortname": "413325",
   "publisher": "SKY HOUR WORKS",
   "developer": "SKY HOUR WORKS",
-  "releasedate": "",
+  "releasedate": "2019-10-07T00:00:00+0000",
   "genre": "Indie, Visual Novel",
   "description": "Adrien, a creature born of a young boy’s nightmares, takes a little summer vacation.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

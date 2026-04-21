@@ -34,7 +34,7 @@
   "shortname": "amzn1.adg.product.97b53157-8867-4e2b-9936-e1425b8b5dea",
   "publisher": "PQube",
   "developer": "Dual Effect",
-  "releasedate": "",
+  "releasedate": "26 Aug, 2021",
   "genre": "Action, Adventure",
   "description": "Classic survival horror is back! Inspired by the original Resident Evil and Alone in the Dark series, Tormented Souls modernises with a fresh twist on the fixed perspective adventure - as Caroline Walker investigates the mysterious disappearance of twin girls in a terrifying mansion-turned-hospital.",
   "size": "15875517284\n",
@@ -57,6 +57,8 @@
     "Japanese",
     "Korean"
   ],
+  "metacritic_score": 75,
+  "metacritic_url": "https://www.metacritic.com/game/pc/tormented-souls?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

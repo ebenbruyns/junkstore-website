@@ -34,7 +34,7 @@
   "shortname": "714041",
   "publisher": "Ghost Goats Games",
   "developer": "Ghost Goats Games",
-  "releasedate": "",
+  "releasedate": "2020-09-22T00:00:00+0000",
   "genre": "Arcade",
   "description": "Start off as a weak ship with a simple attack and fight through waves of enemies, earning currency in order to purchase upgrades for your ship. The never ending waves of enemies grow in number, power, and variety as you progress. Purchase upgrades to keep pace with them.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

@@ -34,7 +34,7 @@
   "shortname": "e132ad8053a14165b881a16124fdd844",
   "publisher": "Double Dash Studios",
   "developer": "Double Dash Studios",
-  "releasedate": "",
+  "releasedate": "14 Jun, 2023",
   "genre": "Adventure, Indie",
   "description": "Jorel’s Brother and The Most Important Game of the Galaxy is a point-and-click adventure about an eight-year-old boy who lives with his eccentric family in the shadow of Jorel, his handsome and popular brother. Based on the award-winning Brazilian animation Jorel’s Brother.",
   "size": "",
@@ -50,6 +50,8 @@
     "Portuguese - Brazil",
     "Spanish - Latin America"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

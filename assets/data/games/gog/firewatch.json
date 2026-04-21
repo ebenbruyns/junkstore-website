@@ -34,7 +34,7 @@
   "shortname": "1459256379",
   "publisher": "Panic",
   "developer": "Campo Santo",
-  "releasedate": "",
+  "releasedate": "02-2016",
   "genre": "adventure, indie",
   "description": "Firewatch is a single-player first-person video game where you, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 81,
+  "metacritic_url": "https://www.metacritic.com/game/pc/firewatch?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

@@ -34,7 +34,7 @@
   "shortname": "amzn1.adg.product.78bcc9f5-4880-40e9-8635-0908a207e752",
   "publisher": "Disney",
   "developer": "Empty Clip Studios",
-  "releasedate": "",
+  "releasedate": "19 Oct, 2023",
   "genre": "Action, Adventure",
   "description": "Relive the legend of Goliath and save the world from destruction.",
   "size": "1.77 GB",
@@ -55,6 +55,8 @@
     "Simplified Chinese",
     "Traditional Chinese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

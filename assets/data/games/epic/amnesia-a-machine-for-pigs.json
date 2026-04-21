@@ -34,7 +34,7 @@
   "shortname": "d7db33dfe7634d6b8a188c708f2caa3c",
   "publisher": "Frictional Games",
   "developer": "The Chinese Room",
-  "releasedate": "",
+  "releasedate": "09-2013",
   "genre": "Adventure, Horror",
   "description": "From the creators of Amnesia: The Dark Descent comes a new story, a new environment, and a fresh horror experience. A machine for pigs is a machine for meat – and all of us are meat. The year is 1899. Wealthy industrialist Oswald Mandus awakes in his bed, wracked with fever and haunted by dreams of a dark and hellish engine. Tortured by visions of a disastrous expedition to Mexico, broken by grief and tropical disease, he is slowly rebuilding his life and his industrial empire. When his children are mysteriously abducted however, he finds himself descending into the hellish depths of his own machine.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 72,
+  "metacritic_url": "https://www.metacritic.com/game/pc/amnesia-a-machine-for-pigs?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

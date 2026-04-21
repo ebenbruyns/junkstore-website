@@ -34,7 +34,7 @@
   "shortname": "1223053864",
   "publisher": "Team17",
   "developer": "Ghost Town Games",
-  "releasedate": "",
+  "releasedate": "August 3, 2016",
   "genre": "Strategy, Indie, Arcade, Simulator",
   "description": "Co-op cooking game for 1-4 players. Working as a team, you and your fellow chefs must prepare, cook and serve up a variety of tasty orders",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 81,
+  "metacritic_url": "http://www.metacritic.com/game/pc/overcooked?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

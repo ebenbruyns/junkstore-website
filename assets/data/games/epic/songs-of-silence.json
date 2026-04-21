@@ -34,7 +34,7 @@
   "shortname": "f3a0b50da2dd4226b8308c7e5fa1fbb6",
   "publisher": "Chimera Entertainment",
   "developer": "Chimera Entertainment",
-  "releasedate": "",
+  "releasedate": "13 Nov, 2024",
   "genre": "Adventure, Indie, RPG, Simulation, Strategy",
   "description": "Lead armies, rebuild fallen kingdoms, and rise to greatness! Embark on an epic journey of strategy in an Art Nouveau-inspired fantasy world. Fight intense battles and uncover a captivating story.",
   "size": "",
@@ -59,6 +59,8 @@
     "Russian",
     "Korean"
   ],
+  "metacritic_score": 81,
+  "metacritic_url": "https://www.metacritic.com/game/pc/songs-of-silence?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

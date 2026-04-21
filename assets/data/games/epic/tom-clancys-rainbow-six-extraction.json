@@ -2,7 +2,7 @@
   "id": "d0ccdba7-8df6-4460-8d4d-1986e8a2c74b",
   "title": "Tom Clancy's Rainbow Six Extraction",
   "storefront": "Epic",
-  "protondb": "",
+  "protondb": "https://www.protondb.com/app/2379390",
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
@@ -41,20 +41,31 @@
   "vertical_artwork": "https://images.gog.com/1d893f7f9c1426b4d01858dec9249792f4441cfa6c4452166c55f68be1ba1d7c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fcb7b8f1bd784c7a9b86b1796925487ab4f75cebf5ff007bfb7eadd5b2f5a78b.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7ba3b58b9d061884c4885b234d45fdcd50b2da774a7c0cef81fec22c7ca0ff73.jpg?namespace=gamesdb",
-  "steamId": "",
+  "steamId": "2379390",
   "game_modes": [
     "Single player",
     "Co-operative",
     "Multiplayer"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French*",
+    "Italian*",
+    "German*",
+    "Spanish - Spain*",
+    "Arabic",
+    "Simplified Chinese",
+    "Traditional Chinese",
+    "Korean",
+    "Spanish - Latin America*"
   ],
+  "metacritic_score": 73,
+  "metacritic_url": "https://www.metacritic.com/game/tom-clancys-rainbow-six-extraction/",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-12-11T20:13:29.450Z"
+  "updated_at": "2026-04-20T00:49:20.220Z"
 }

@@ -34,7 +34,7 @@
   "shortname": "e7d7c393d6f7499596e7d268a58b1970",
   "publisher": "Serenity Forge",
   "developer": "Serenity Forge",
-  "releasedate": "",
+  "releasedate": "2025-07-10T00:00:00+0000",
   "genre": "Adventure",
   "description": "“The hospital was empty. Quiet, and brighter than usual... like waking up on a snow day. But I didn't feel cold. I didn't feel much of anything.”",
   "size": "",
@@ -50,6 +50,8 @@
     "Simplified Chinese",
     "Traditional Chinese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

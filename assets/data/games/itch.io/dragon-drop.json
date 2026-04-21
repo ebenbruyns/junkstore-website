@@ -34,7 +34,7 @@
   "shortname": "814781",
   "publisher": "Cloudy Games LLC",
   "developer": "Cloudy Games LLC",
-  "releasedate": "",
+  "releasedate": "2021-09-27T00:00:00+0000",
   "genre": "Indie, Arcade",
   "description": "Dragon Drop is a frantic couch-multiplayer game where lovable dragons try to drop the blocks out from below their opponents. Drop the dragons! Don't get dropped! In this groundbreaking game of timing, tactics and quick twists of luck, your fire breath temporarily wipes a line of cuboid platforms away. Try to stay on while dropping your rivals, but don't delay your next step, it could be your last! Hatch into Dragon Drop, and may the last (and best) dragon win!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

@@ -34,7 +34,7 @@
   "shortname": "a73d06279eb649328c867d5352fc7c72",
   "publisher": "Amanita Design",
   "developer": "Amanita Design",
-  "releasedate": "",
+  "releasedate": "24 Mar, 2016",
   "genre": "Adventure, Casual, Indie",
   "description": "Samorost 3 is an exploration adventure and puzzle game from the award-winning creators of Machinarium and Botanicula. Travel across space to nine unique worlds teeming with colorful challenges, creatures and surprises to discover, brought to life with beautiful artwork, sound and music.",
   "size": "957 MB",
@@ -57,6 +57,8 @@
     "Danish*",
     "Finnish*"
   ],
+  "metacritic_score": 80,
+  "metacritic_url": "https://www.metacritic.com/game/pc/samorost-3?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

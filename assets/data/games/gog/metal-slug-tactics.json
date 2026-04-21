@@ -34,7 +34,7 @@
   "shortname": "1366624267",
   "publisher": "DotEmu",
   "developer": "Leikir Studio",
-  "releasedate": "",
+  "releasedate": "11-2024",
   "genre": "role-playing, strategy, indie",
   "description": "METAL SLUG is back with a brand new entry in the METAL SLUG universe. Discover a new side of the emblematic run'n'gun and jump into a dynamic tactical RPG with roguelike elements!",
   "size": "",
@@ -46,6 +46,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

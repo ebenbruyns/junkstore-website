@@ -34,7 +34,7 @@
   "shortname": "1207664593",
   "publisher": "Electronic Arts, Aspyr Media",
   "developer": "Maxis",
-  "releasedate": "",
+  "releasedate": "2003-09-22",
   "genre": "strategy, simulator",
   "description": "SimCity 4 Deluxe Edition includes the bestselling SimCity 4 and the all-new SimCity 4 Rush Hour Expansion Pack. Create the most massive region of cities ever, with a farming town, bedroom community, high-tech commercial center, and industrial backbone.",
   "size": "",
@@ -56,6 +56,8 @@
     "Spanish - Spain",
     "Swedish"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

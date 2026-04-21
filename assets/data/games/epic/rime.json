@@ -34,7 +34,7 @@
   "shortname": "Hydrangea",
   "publisher": "Grey Box, Six Foot",
   "developer": "Tequila Works",
-  "releasedate": "",
+  "releasedate": "2017-05-26",
   "genre": "Adventure, Indie, Platform, Puzzle",
   "description": "A third-person exploratory action/adventure title in which a boy ends up on a mysterious island and makes his way through its highly stylized environments",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 78,
+  "metacritic_url": "https://www.metacritic.com/game/pc/rime?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

@@ -34,7 +34,7 @@
   "shortname": "86982262b877446db74928dce458c3e7",
   "publisher": "2K",
   "developer": "Visual Concepts",
-  "releasedate": "",
+  "releasedate": "18 May, 2023",
   "genre": "Racing",
   "description": "Welcome to Bricklandia, home of a massive open-world LEGO® driving adventure. Race anywhere, play with anyone, build your dream rides, and defeat a cast of wild racing rivals for the coveted Sky Trophy!",
   "size": "",
@@ -60,6 +60,8 @@
     "Korean*",
     "Polish*"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

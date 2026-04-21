@@ -34,7 +34,7 @@
   "shortname": "1840673966",
   "publisher": "Iceberg Interactive",
   "developer": "Shadow Tor Studios",
-  "releasedate": "",
+  "releasedate": "09-2016",
   "genre": "adventure, indie, point-and-click",
   "description": "Follow the Dark Path into a world of Druidic lore and Celtic myths. It is the Autumn Equinox on Barrow Hill, a time of great power, when the ancient standing stones are at their most powerful and dangerous.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

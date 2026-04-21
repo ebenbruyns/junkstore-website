@@ -34,7 +34,7 @@
   "shortname": "51308",
   "publisher": "Black Pants Game Studio",
   "developer": "Black Pants Game Studio",
-  "releasedate": "",
+  "releasedate": "2012-10-23T00:00:00+0000",
   "genre": "Adventure, Indie, Puzzle",
   "description": "About Love, Hate and the other ones“ is a mindbending puzzle game in which you take control of the two main characters Love and Hate. Guide them through 60 levels to take them back home to their beloved hill. You will encounter different Other Ones with unique behaviours, depending on whether Love or Hate interacts with them.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

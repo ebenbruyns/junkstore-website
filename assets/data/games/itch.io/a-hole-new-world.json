@@ -34,7 +34,7 @@
   "shortname": "13021",
   "publisher": "Dolores Entertainment, MadGearGames",
   "developer": "MadGearGames",
-  "releasedate": "",
+  "releasedate": "2017-05-19T00:00:00+0000",
   "genre": "Adventure, Indie, Platform, Arcade",
   "description": "The city is being invaded by monsters from the Upside Down World! You, the Potion Master, must defeat evil all alone, with no tutorials or \"Easy Mode\" to assist you. You'll have to rely on the help of Fäy, your companion fairy, and your potions!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

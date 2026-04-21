@@ -34,7 +34,7 @@
   "shortname": "amzn1.adg.product.ad2df02e-142e-48ac-95ce-51b7e75b065e",
   "publisher": "Fulqrum Publishing",
   "developer": "T19 Games",
-  "releasedate": "",
+  "releasedate": "26 Jan, 2023",
   "genre": "Action, Indie",
   "description": "Dread Templar is a fast-paced hardcore old-school FPS, combining classic 90s shooter and modern FPS elements. Unlock and combine dozens of weapon upgrades and skills, embrace the Dread Force and obliterate hordes of fiendish enemies. Become the scariest thing in hell and get your revenge!",
   "size": "",
@@ -56,6 +56,8 @@
     "Simplified Chinese",
     "Traditional Chinese*languages with full audio support"
   ],
+  "metacritic_score": 72,
+  "metacritic_url": "https://www.metacritic.com/game/pc/dread-templar?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

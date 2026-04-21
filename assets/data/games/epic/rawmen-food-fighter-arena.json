@@ -31,10 +31,10 @@
   "community_layout": false,
   "cant_test_linux": false,
   "databaseId": "",
-  "shortname": "",
+  "shortname": "93228a1a7b2b4205811d8edf930a0c18",
   "publisher": "tinyBuild",
   "developer": "ANIMAL",
-  "releasedate": "",
+  "releasedate": "To be announced",
   "genre": "Action, Casual, Indie",
   "description": "RAWMEN is a radical multiplayer arena shooter that pits you against 2-8 of your closest taste buds or foes. Channel your inner souperiority and unleash culinary devastation for good. Join our Discord and Playtest today!",
   "size": "",
@@ -51,6 +51,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

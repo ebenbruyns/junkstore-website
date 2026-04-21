@@ -34,7 +34,7 @@
   "shortname": "1709371377",
   "publisher": "Orangepixel",
   "developer": "Orangepixel",
-  "releasedate": "",
+  "releasedate": "6 Aug, 2019",
   "genre": "Action, Indie, Strategy",
   "description": "Grab your bandana and get ready for Gunslugs : Rogue Tactics! Sneak, shoot, and explode your way through ever-changing enemy strongholds in this rogue-lite stealth-action mashup. Go full-on Commando or channel your inner Snake—just make it out alive. No mission ever plays the same twice!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

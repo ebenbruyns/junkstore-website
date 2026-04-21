@@ -34,7 +34,7 @@
   "shortname": "1856724519",
   "publisher": "Dear Villagers",
   "developer": "Ars Goetia",
-  "releasedate": "",
+  "releasedate": "26 May, 2022",
   "genre": "Adventure, Indie, RPG, Strategy",
   "description": "Hellslave is a dark fantasy dungeon crawler where you make a pact with the Devil to fight back a demon invasion. Customize your character with powerful demonic abilities, explore a cursed world, and battle nightmarish enemies to save humanity if you can resist the darkness.",
   "size": "642445889\n",
@@ -52,6 +52,8 @@
     "Simplified Chinese",
     "Polish"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

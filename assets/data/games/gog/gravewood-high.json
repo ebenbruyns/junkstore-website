@@ -34,7 +34,7 @@
   "shortname": "1526229423",
   "publisher": "HeroCraft PC",
   "developer": "EvilCoGames",
-  "releasedate": "",
+  "releasedate": "3 May, 2023",
   "genre": "Adventure, Indie",
   "description": "An infinitely replayable stealth horror game set in high school - with destructible environments, randomized level layouts and a smart opponent that develops new abilities the more you play.",
   "size": "",
@@ -58,6 +58,8 @@
     "zh-Hans",
     "zh-Hans"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

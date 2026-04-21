@@ -34,7 +34,7 @@
   "shortname": "832801",
   "publisher": "Retroware",
   "developer": "Programancer",
-  "releasedate": "",
+  "releasedate": "2021-05-27T00:00:00+0000",
   "genre": "Adventure, Indie, Puzzle, Arcade",
   "description": "A retro styled character puzzle game with couch co-op and 80 puzzles to solve!",
   "size": "",
@@ -59,6 +59,8 @@
     "Japanese",
     "Korean"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

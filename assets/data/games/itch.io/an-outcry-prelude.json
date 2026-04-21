@@ -34,7 +34,7 @@
   "shortname": "607041",
   "publisher": "Quinn K.",
   "developer": "Jack King-Spooner, Quinn K.",
-  "releasedate": "",
+  "releasedate": "2020-04-09T00:00:00+0000",
   "genre": "Indie, Visual Novel",
   "description": "A branching-path narrative horror RPG set in Vienna, Austria. Guide the Unnamed through the worst night of their life: Harass your neighbours. Debate with birds. Smoke to survive.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

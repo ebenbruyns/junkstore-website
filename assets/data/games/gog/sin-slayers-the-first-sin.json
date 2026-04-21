@@ -2,7 +2,7 @@
   "id": "a0b1a613-5bd2-4462-a6be-47859dfaa80b",
   "title": "Sin Slayers: The First Sin",
   "storefront": "GOG",
-  "protondb": "https://www.protondb.com/app/1057690",
+  "protondb": "",
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
@@ -13,7 +13,7 @@
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -41,18 +41,21 @@
   "vertical_artwork": "https://images.gog.com/fbb5045f22b300740e2757e75fa1b07cb4bcfcc7496a421a135551f54b38abaa.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c76b45d19227d9be59622b64999cf0d0591e3589cc7a10fd5570f3cd75fae267.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/c329c0a550ce41f1277d7f5a2f9e70883847c76fa757225bccfe34159bc70de6.jpg?namespace=gamesdb",
-  "steamId": "1057690",
+  "steamId": "",
   "game_modes": [
     "Single player"
   ],
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "https://www.metacritic.com/game/sin-slayers-the-first-sin/",
   "gog_cloud_saves": false,
   "gog_achievements": false,
+  "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-08-01T04:08:36.969Z"
+  "updated_at": "2026-04-20T01:32:01.428Z"
 }

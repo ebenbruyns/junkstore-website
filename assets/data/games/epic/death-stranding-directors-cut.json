@@ -34,7 +34,7 @@
   "shortname": "c38f51843fdf4db0b24fc907b8d78221",
   "publisher": "505 Games, Sony Interactive Entertainment",
   "developer": "Kojima Productions",
-  "releasedate": "",
+  "releasedate": "2022-03-30",
   "genre": "Adventure, Shooter",
   "description": "From legendary game creator Hideo Kojima comes a genre-defying experience... As Sam Bridges, your mission is to deliver hope to humanity",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 85,
+  "metacritic_url": "https://www.metacritic.com/game/pc/death-stranding-directors-cut?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

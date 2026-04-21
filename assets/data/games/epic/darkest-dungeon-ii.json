@@ -34,7 +34,7 @@
   "shortname": "Suka",
   "publisher": "Red Hook Studios",
   "developer": "Red Hook Studios",
-  "releasedate": "",
+  "releasedate": "2023-05-08",
   "genre": "Role-playing (RPG), Adventure, Strategy, Turn-based strategy, Indie, Tactical",
   "description": "The eagerly awaited follow-up to Red Hook's smash hit gothic horror RPG! DDII will test your mettle and drive you to the brink of madness.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 84,
+  "metacritic_url": "https://www.metacritic.com/game/pc/darkest-dungeon?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

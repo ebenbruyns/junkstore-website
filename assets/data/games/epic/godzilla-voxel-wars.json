@@ -34,7 +34,7 @@
   "shortname": "1fb35ad93dd64570a1a8b08525ea83de",
   "publisher": "TOHO CO., LTD.",
   "developer": "TOHO CO., LTD.",
-  "releasedate": "",
+  "releasedate": "31 Oct, 2023",
   "genre": "Indie, Simulation, Strategy",
   "description": "Get ready to battle using your brain! A full-fledged turn-based strategy game with a difficulty level: GODZILLA! Godzilla, Mothra, King Ghidorah, and more are here to rampage across an 8x8 grid! Control Toho monsters and save the world from the Fungoid mushroom invasion!",
   "size": "",
@@ -51,6 +51,8 @@
     "Japanese",
     "Traditional Chinese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,

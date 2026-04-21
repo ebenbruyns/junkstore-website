@@ -34,7 +34,7 @@
   "shortname": "22755",
   "publisher": "Maddy Makes Games Inc.",
   "developer": "Maddy Makes Games Inc.",
-  "releasedate": "",
+  "releasedate": "11 Mar, 2014",
   "genre": "Action, Indie",
   "description": "TowerFall Ascension is the definitive version of the hit archery combat game. Inspired by classics from the golden age of couch multiplayer, it's a 4-player local party game centering around hilarious, intense versus matches. The core mechanics are simple and accessible, but hard to master and combat is fierce.",
   "size": "",
@@ -51,6 +51,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": 87,
+  "metacritic_url": "https://www.metacritic.com/game/pc/towerfall-ascension?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

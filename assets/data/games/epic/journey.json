@@ -34,7 +34,7 @@
   "shortname": "Lemur",
   "publisher": "Sony Computer Entertainment, Annapurna Interactive",
   "developer": "ThatGameCompany",
-  "releasedate": "",
+  "releasedate": "2012-03-13",
   "genre": "Adventure, Platform",
   "description": "A third-person adventure game in which the player, controlling a robed figure, makes a pilgrimage through a desert landscape to a rugged mountain",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

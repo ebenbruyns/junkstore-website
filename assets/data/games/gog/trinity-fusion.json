@@ -34,7 +34,7 @@
   "shortname": "2090070295",
   "publisher": "Angry Mob Games",
   "developer": "Angry Mob Games",
-  "releasedate": "",
+  "releasedate": "12-2023",
   "genre": "role-playing, indie, platform, fighting",
   "description": "Take control of your parallel selves on a mission to save the dying multiverse in this rogue-lite action platformer!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 80,
+  "metacritic_url": "https://www.metacritic.com/game/pc/trinity-fusion?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

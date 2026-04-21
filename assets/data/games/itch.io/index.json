@@ -1,6 +1,6 @@
 {
   "storefront": "itch.io",
-  "total_games": 68,
+  "total_games": 72,
   "games": [
     "10-flights-of-ballooning.json",
     "10mg-sealed-estate.json",
@@ -55,9 +55,12 @@
     "help-hurt-hopp.json",
     "macbat-64-journey-of-a-nice-chap.json",
     "magnibox.json",
+    "mitos.json",
     "moon-hunters.json",
+    "mutiny-island.json",
     "omeganaut.json",
     "roguelight.json",
+    "sausage-sports-club.json",
     "sector-781.json",
     "sky-rogue.json",
     "spa-taxi.json",
@@ -68,16 +71,53 @@
     "toree-3d.json",
     "towerfall-ascension.json",
     "underhero.json",
+    "viral-reload.json",
     "wavecrash.json",
     "zeroranger.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-03-09T05:58:47.031Z",
+  "last_updated": "2026-04-20T23:17:38.786Z",
   "latest_games": [
+    {
+      "title": "Sector 781",
+      "slug": "sector-781",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Roguelight",
+      "slug": "roguelight",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
     {
       "title": "10S",
       "slug": "10s",
       "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Mutiny Island",
+      "slug": "mutiny-island",
+      "date_tested": "Mar '26",
+      "is_featured": false
+    },
+    {
+      "title": "Sausage Sports Club",
+      "slug": "sausage-sports-club",
+      "date_tested": "Mar '26",
+      "is_featured": false
+    },
+    {
+      "title": "Mitos",
+      "slug": "mitos",
+      "date_tested": "Mar '26",
+      "is_featured": false
+    },
+    {
+      "title": "Viral Reload",
+      "slug": "viral-reload",
+      "date_tested": "Mar '26",
       "is_featured": false
     },
     {
@@ -96,42 +136,6 @@
       "title": "TowerFall Ascension",
       "slug": "towerfall-ascension",
       "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Alone With You",
-      "slug": "alone-with-you",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Roguelight",
-      "slug": "roguelight",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Help Hurt Hopp",
-      "slug": "help-hurt-hopp",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "WaveCrash!!",
-      "slug": "wavecrash",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Arcade Spirits",
-      "slug": "arcade-spirits",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Arlo the Rabbit",
-      "slug": "arlo-the-rabbit",
-      "date_tested": "Dec '25",
       "is_featured": false
     }
   ]

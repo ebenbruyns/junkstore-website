@@ -34,7 +34,7 @@
   "shortname": "GuppyDummy",
   "publisher": "Activision",
   "developer": "Vicarious Visions",
-  "releasedate": "",
+  "releasedate": "09-2020",
   "genre": "Sport, Simulator",
   "description": "Play the fully-remastered Tony Hawk's Pro Skater & Tony Hawk's Pro Skater 2 games in one epic collection, rebuilt from the ground up in incredible HD.",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

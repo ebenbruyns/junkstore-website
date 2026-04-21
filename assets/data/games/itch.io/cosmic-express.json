@@ -34,7 +34,7 @@
   "shortname": "121614",
   "publisher": "Draknek & Friends",
   "developer": "Cosmic Engineers",
-  "releasedate": "",
+  "releasedate": "2017-03-16T00:00:00+0000",
   "genre": "Indie, Puzzle",
   "description": "Plan the train route for the universe's most awkward space colony!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

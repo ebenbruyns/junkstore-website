@@ -2,7 +2,7 @@
   "id": "405fcc16-2209-4930-931d-6e4415735f87",
   "title": "The Crew: Motorfest",
   "storefront": "Epic",
-  "protondb": "",
+  "protondb": "https://www.protondb.com/app/2698940",
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
@@ -36,25 +36,36 @@
   "developer": "Ivory Tower",
   "releasedate": "2023-09-14T00:00:00+0000",
   "genre": "Adventure, Racing",
-  "description": "Welcome to Motorfest! Join a one-of-a-kind festival and enjoy the best experiences car culture has to offer in a beautiful Hawaiian open world.",
+  "description": "Welcome to Motorfest, the ultimate open-world driving experience. Explore the Hawaiian islands of O'ahu and Maui. Celebrate the best of car culture through 20+ themed campaigns (street racing, offroad, drift...) and collect hundreds of iconic vehicles. Enjoy the game free for five hours!",
   "size": "",
   "vertical_artwork": "https://images.gog.com/176c7c4e8e6637bbe57004d673f0cafa7e6d29ae615f34e4d230c8380660b666.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/daa0c8023c36e16b1259ef9da75796f39f6f675c45dfd80bbb3438c6ececd5df.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/5760a3ee36c38f0ab73bcfe707121c11799c807ba2d0f2fd8a5ec24ec4bede5a.jpg?namespace=gamesdb",
-  "steamId": "",
+  "steamId": "2698940",
   "game_modes": [
     "Single player",
     "Co-operative",
     "Multiplayer"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French*",
+    "Italian",
+    "German*",
+    "Spanish - Spain",
+    "Arabic",
+    "Simplified Chinese",
+    "Traditional Chinese",
+    "Korean",
+    "Japanese"
   ],
+  "metacritic_score": 76,
+  "metacritic_url": "https://www.metacritic.com/game/the-crew-motorfest/",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-12-16T09:54:39.750Z"
+  "updated_at": "2026-04-20T00:51:30.560Z"
 }

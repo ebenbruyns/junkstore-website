@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 456,
+  "total_games": 472,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -8,6 +8,7 @@
     "3-out-of-10-ep-1-welcome-to-shovelworks.json",
     "911-operator.json",
     "a-plague-tale-innocence.json",
+    "a-rats-quest-the-way-back-home-season-1.json",
     "a-short-hike.json",
     "absolute-drift.json",
     "abz.json",
@@ -95,9 +96,11 @@
     "chuchel.json",
     "circus-electrique.json",
     "city-of-brass.json",
+    "clone-drone-in-the-danger-zone.json",
     "control.json",
     "cook-serve-delicious-3.json",
     "costume-quest-2.json",
+    "cozy-grove.json",
     "creature-in-the-well.json",
     "crime-boss-rockay-city.json",
     "cris-tales.json",
@@ -146,6 +149,7 @@
     "eternal-threads.json",
     "eternights.json",
     "europa-universalis-iv.json",
+    "evergreen-valley-the-parkour-game.json",
     "f1-manager-2024.json",
     "faaast-penguin.json",
     "fall-guys.json",
@@ -199,6 +203,7 @@
     "hades.json",
     "happy-game.json",
     "hardspace-shipbreaker.json",
+    "havendock.json",
     "hell-let-loose.json",
     "hexguardian.json",
     "hidden-folks.json",
@@ -209,6 +214,7 @@
     "hot-wheels-unleashed.json",
     "house-of-golf-2.json",
     "humankind.json",
+    "hyper-echelon.json",
     "idle-champions-of-the-forgotten-realms.json",
     "illuvium.json",
     "industria.json",
@@ -243,6 +249,7 @@
     "loop-hero.json",
     "lords-mobile.json",
     "lovecrafts-untold-stories.json",
+    "lucky-goal.json",
     "lumbearjack.json",
     "lysfanga-the-time-shift-warrior.json",
     "machinarium.json",
@@ -255,12 +262,14 @@
     "marvels-midnight-suns.json",
     "metro-last-light-redux.json",
     "monopoly-madness.json",
+    "monster-harvest.json",
     "monument-valley-2.json",
     "monument-valley.json",
     "morbid-the-seven-acolytes.json",
     "mortal-shell-tech-beta.json",
     "mortal-shell.json",
     "moving-out.json",
+    "multiversus.json",
     "my-night-job.json",
     "necromunda-hired-gun.json",
     "neko-ghost-jump.json",
@@ -285,6 +294,7 @@
     "priest-simulator-vampire-show.json",
     "prison-architect.json",
     "project-winter.json",
+    "prop-sumo.json",
     "pubg-battlegrounds.json",
     "qube-10th-anniversary.json",
     "qube-2.json",
@@ -357,6 +367,7 @@
     "super-meat-boy.json",
     "super-space-club.json",
     "surviving-the-aftermath.json",
+    "symmetry.json",
     "tales-from-the-borderlands.json",
     "tandem-a-tale-of-shadows.json",
     "tannenberg.json",
@@ -392,6 +403,7 @@
     "the-outer-worlds-spacers-choice-edition.json",
     "the-silent-age.json",
     "the-spirit-and-the-mouse.json",
+    "the-stone-of-madness.json",
     "the-vanishing-of-ethan-carter.json",
     "the-walking-dead-no-mans-land.json",
     "the-wolf-among-us.json",
@@ -402,10 +414,13 @@
     "to-the-rescue.json",
     "toejam-earl-back-in-the-groove.json",
     "toem.json",
+    "together-after-dark.json",
     "tom-clancys-ghost-recon-breakpoint.json",
     "tom-clancys-rainbow-six-extraction.json",
+    "tomak-save-the-earth-regeneration.json",
     "tomb-raider-game-of-the-year-edition.json",
     "tony-hawks-pro-skater-12.json",
+    "total-war-pharaoh-dynasties.json",
     "total-war-three-kingdoms.json",
     "totally-reliable-delivery-service.json",
     "touch-type-tale.json",
@@ -425,6 +440,7 @@
     "turnip-boy-commits-tax-evasion.json",
     "turnip-boy-robs-a-bank.json",
     "two-point-hospital.json",
+    "undead-rise-of-the-betrayed-king.json",
     "undying.json",
     "universe-for-sale.json",
     "unrailed.json",
@@ -433,6 +449,7 @@
     "vampire-the-masquerade-reckoning-of-new-york.json",
     "viewfinder.json",
     "void-bastards.json",
+    "vornyca.json",
     "war-tanks.json",
     "warframe.json",
     "warhammer-40000-gladius-relics-of-war.json",
@@ -459,67 +476,67 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 4,
-  "last_updated": "2026-03-09T05:58:47.015Z",
+  "featured_games": 2,
+  "last_updated": "2026-04-20T23:17:38.777Z",
   "latest_games": [
     {
-      "title": "Hidden Folks",
-      "slug": "hidden-folks",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "F.I.S.T.: Forged In Shadow Torch",
-      "slug": "fist-forged-in-shadow-torch",
-      "date_tested": "Mar '26",
-      "is_featured": false
-    },
-    {
-      "title": "Tiny Tina's Wonderlands",
-      "slug": "tiny-tinas-wonderlands",
-      "date_tested": "May '25",
+      "title": "The Stone of Madness",
+      "slug": "the-stone-of-madness",
+      "date_tested": "April '26",
       "is_featured": true
     },
     {
-      "title": "Idle Champions of the Forgotten Realms",
-      "slug": "idle-champions-of-the-forgotten-realms",
-      "date_tested": "Mar '26",
+      "title": "Monster Harvest",
+      "slug": "monster-harvest",
+      "date_tested": "April '26",
       "is_featured": true
     },
     {
-      "title": "Tattoo Tycoon",
-      "slug": "tattoo-tycoon",
-      "date_tested": "Mar '26",
-      "is_featured": true
-    },
-    {
-      "title": "Turnip Boy Robs a Bank",
-      "slug": "turnip-boy-robs-a-bank",
-      "date_tested": "Mar '26",
-      "is_featured": true
-    },
-    {
-      "title": "Deceive Inc.",
-      "slug": "deceive-inc",
-      "date_tested": "Mar '26",
+      "title": "Vornyca",
+      "slug": "vornyca",
+      "date_tested": "April '26",
       "is_featured": false
     },
     {
-      "title": "Rogue Legacy 2",
-      "slug": "rogue-legacy-2",
-      "date_tested": "May '24",
+      "title": "OverTrip",
+      "slug": "overtrip",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Animation Throwdown: The Quest for Cards",
-      "slug": "animation-throwdown-the-quest-for-cards",
-      "date_tested": "July '24",
+      "title": "Illuvium",
+      "slug": "illuvium",
+      "date_tested": "Aug '24",
       "is_featured": false
     },
     {
-      "title": "Death's Gambit: Afterlife",
-      "slug": "deaths-gambit-afterlife",
-      "date_tested": "Feb '26",
+      "title": "Evergreen Valley: The Parkour Game",
+      "slug": "evergreen-valley-the-parkour-game",
+      "date_tested": "April '26",
+      "is_featured": false
+    },
+    {
+      "title": "Valorant",
+      "slug": "valorant",
+      "date_tested": "N/A",
+      "is_featured": false
+    },
+    {
+      "title": "The Crew: Motorfest",
+      "slug": "the-crew-motorfest",
+      "date_tested": "N/A",
+      "is_featured": false
+    },
+    {
+      "title": "Tomak: Save the Earth Regeneration",
+      "slug": "tomak-save-the-earth-regeneration",
+      "date_tested": "April '26",
+      "is_featured": false
+    },
+    {
+      "title": "Tom Clancy's Ghost Recon: Breakpoint",
+      "slug": "tom-clancys-ghost-recon-breakpoint",
+      "date_tested": "N/A",
       "is_featured": false
     }
   ]

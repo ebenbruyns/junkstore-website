@@ -34,7 +34,7 @@
   "shortname": "1748947415",
   "publisher": "Iceberg Interactive",
   "developer": "Joy Manufacturing Co.",
-  "releasedate": "",
+  "releasedate": "2021-08-18T00:00:00+0000",
   "genre": "Adventure, Indie, RPG, Simulation",
   "description": "A young woman finds herself alone in the streets of Paris, far from home and abandoned by the love of her life. In that moment, she decides to live for herself and seek her own passions, as France marches towards a violent uprising that will change history forever. Navigate the twisting social politics of pre-revolutionary Paris in a game world that’s different every time you play. Court, snub and seduce your way to the top of society. Extend your influence, uncover the intrigue of the coming revolution, and ensure that you end up on the winning side of history.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": 75,
+  "metacritic_url": "https://www.metacritic.com/game/pc/ambition-a-minuet-in-power?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

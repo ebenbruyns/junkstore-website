@@ -34,7 +34,7 @@
   "shortname": "305627",
   "publisher": "Glanderco, RedDeerGames",
   "developer": "Julian Glander",
-  "releasedate": "",
+  "releasedate": "2019-02-05T00:00:00+0000",
   "genre": "Adventure, Indie, Platform, Simulator",
   "description": "🖼make art🖼 ✨achieve creative fulfillment✨ 🖌that's ART SQOOL babie!🖌",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

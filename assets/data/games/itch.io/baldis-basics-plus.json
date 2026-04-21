@@ -34,7 +34,7 @@
   "shortname": "598772",
   "publisher": "Basically, Games!",
   "developer": "Basically, Games!",
-  "releasedate": "",
+  "releasedate": "2020-06-11T00:00:00+0000",
   "genre": "Strategy, Indie",
   "description": "Baldi's Basics Plus is like the original game, but PLUS! The same cruddy edutainment horror type parody theme is back, but with hugely expanded gameplay features, including procedurally generated levels, field trip minigames, crazy random events, PLUS more characters, more items, and more chaos!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English**languages with full audio support"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

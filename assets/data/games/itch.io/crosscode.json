@@ -34,7 +34,7 @@
   "shortname": "19953",
   "publisher": "Deck13 Interactive, WhisperGames, DANGEN Entertainment, Mayflower Entertainment",
   "developer": "Radical Fish Games",
-  "releasedate": "",
+  "releasedate": "09-2018",
   "genre": "Role-playing (RPG), Adventure, Indie, Puzzle, Shooter",
   "description": "A retro-inspired 2D Action RPG set in the distant future. CrossCode combines 16-bit SNES-style graphics with butter-smooth physics, a fast-paced combat system, and engaging puzzle mechanics, served with a gripping sci-fi story.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 86,
+  "metacritic_url": "https://www.metacritic.com/game/pc/crosscode?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

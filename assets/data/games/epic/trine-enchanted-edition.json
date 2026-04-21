@@ -34,7 +34,7 @@
   "shortname": "91eac4ac00304bcc9d7d4a55a95894b3",
   "publisher": "Frozenbyte",
   "developer": "Frozenbyte",
-  "releasedate": "",
+  "releasedate": "2 Jul, 2009",
   "genre": "Action, Adventure, Indie",
   "description": "Three Heroes make their way through dangers untold in a fairytale world of great castles and strange machinery, featuring physics-based puzzles, beautiful sights and online co-op.",
   "size": "",
@@ -55,6 +55,8 @@
     "Italian*",
     "Spanish - Spain**languages with full audio support"
   ],
+  "metacritic_score": 80,
+  "metacritic_url": "https://www.metacritic.com/game/pc/trine?ftag=MCD-06-10aaa1f",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

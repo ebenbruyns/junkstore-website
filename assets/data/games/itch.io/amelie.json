@@ -34,7 +34,7 @@
   "shortname": "1269964",
   "publisher": "Two and a Half Studios",
   "developer": "Two and a Half Studios",
-  "releasedate": "",
+  "releasedate": "2021-12-16T00:00:00+0000",
   "genre": "Indie, Simulator, Visual Novel",
   "description": "A psychological mystery yuri visual novel about a girl named Amelie. Forbidden from leaving the house, Amelie awaits the arrival of her long time penpal, Sofia, to her dear friend Lilika’s dismay. What secrets will Sofia unravel that were best kept buried?",
   "size": "",
@@ -49,6 +49,8 @@
     "English",
     "Simplified Chinese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

@@ -34,7 +34,7 @@
   "shortname": "1293807013",
   "publisher": "SNEG",
   "developer": "General Arcade",
-  "releasedate": "",
+  "releasedate": "2025-05-06T00:00:00+0000",
   "genre": "Action, Adventure",
   "description": "Captain Blood is a pirate-themed action game where you play as a fearsome pirate seeking gold and glory. Expect adventures with cannon firing, pistol shooting, swashbuckling sword fights, and plenty of pirate shenanigans. This hack'n'slash features fierce combat, hordes of enemies and flashy combos.",
   "size": "",
@@ -57,6 +57,8 @@
     "Portuguese - Brazil",
     "Russian*"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

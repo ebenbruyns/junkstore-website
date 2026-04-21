@@ -34,7 +34,7 @@
   "shortname": "1139940",
   "publisher": "AtomTeam",
   "developer": "AtomTeam",
-  "releasedate": "",
+  "releasedate": "05-2020",
   "genre": "Role-playing (RPG), Turn-based strategy",
   "description": "ATOM RPG: Trudograd is a turn-based post-apocalyptic roleplaying game, which continues the story of ATOM RPG",
   "size": "",
@@ -46,6 +46,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 80,
+  "metacritic_url": "https://www.metacritic.com/game/pc/atom-rpg-trudograd?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": false,

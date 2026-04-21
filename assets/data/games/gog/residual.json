@@ -34,7 +34,7 @@
   "shortname": "1688702977",
   "publisher": "Orangepixel",
   "developer": "Orangepixel",
-  "releasedate": "",
+  "releasedate": "9 Sep, 2021",
   "genre": "Action, Adventure, Indie",
   "description": "Explore a forgotten galaxy full of different planets, venture deeper into the planet to mine for rare resources, craft items to fix your ship, and discover ancient secrets and life forms. An exploration (survival) game like no other.. Adventure awaits!",
   "size": "105832707\n",
@@ -57,6 +57,8 @@
     "Polish",
     "Portuguese - Portugal"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

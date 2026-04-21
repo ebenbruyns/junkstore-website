@@ -34,7 +34,7 @@
   "shortname": "2094849865",
   "publisher": "Frogwares",
   "developer": "Frogwares",
-  "releasedate": "",
+  "releasedate": "11-2021",
   "genre": "Adventure, Indie",
   "description": "In this story-driven detective thriller, a young Sherlock Holmes struggles to prove himself as he navigates an exotic, dangerous island in the Mediterranean to investigate the mystery of his mother's death.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 77,
+  "metacritic_url": "https://www.metacritic.com/game/pc/sherlock-holmes-chapter-one?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

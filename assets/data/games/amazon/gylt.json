@@ -34,7 +34,7 @@
   "shortname": "amzn1.adg.product.35054121-1014-4c44-a19e-4ab829f8ea86",
   "publisher": "Tequila Works",
   "developer": "Tequila Works",
-  "releasedate": "",
+  "releasedate": "Jul 6, 2023",
   "genre": "Action, Adventure",
   "description": "Shape your fears… Fear the shapes. Embark on a journey where you face your worst fears and are confronted with the emotional impact of your actions in this narrative adventure game with puzzles, stealth and action.",
   "size": "",
@@ -57,6 +57,8 @@
     "Japanese",
     "Norwegian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

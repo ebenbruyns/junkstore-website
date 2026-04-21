@@ -34,7 +34,7 @@
   "shortname": "1207659240",
   "publisher": "Activision, Electronic Arts",
   "developer": "Troika Games",
-  "releasedate": "",
+  "releasedate": "11-2004",
   "genre": "role-playing",
   "description": "A first- and third-person Western RPG based on the Vampire: The Masquerade tabletop RPG with a heavy emphasis on character building and role-playing",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 80,
+  "metacritic_url": "https://www.metacritic.com/game/pc/vampire-the-masquerade---bloodlines?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

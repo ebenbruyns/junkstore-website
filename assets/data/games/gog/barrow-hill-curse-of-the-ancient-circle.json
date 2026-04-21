@@ -34,7 +34,7 @@
   "shortname": "2133405352",
   "publisher": "Shadow Tor Studios",
   "developer": "Shadow Tor Studios",
-  "releasedate": "",
+  "releasedate": "10-2006",
   "genre": "adventure, indie, point-and-click",
   "description": "Somewhere deep within the woods a timeless force is stirring. Beneath the ancient burial mound, known locally as Barrow Hill, a forgotten myth awakes...",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

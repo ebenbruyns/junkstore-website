@@ -34,7 +34,7 @@
   "shortname": "1479140",
   "publisher": "Playstack",
   "developer": "2Awesome Studio",
-  "releasedate": "",
+  "releasedate": "09-2023",
   "genre": "Adventure, Indie, Shooter, Arcade",
   "description": "The cutest, deadliest and only top-down roguelike shooter featuring AK-wielding axolotls. Blast your way through the animal kingdom...",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

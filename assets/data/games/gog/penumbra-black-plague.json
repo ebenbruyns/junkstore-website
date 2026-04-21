@@ -34,7 +34,7 @@
   "shortname": "1207662743",
   "publisher": "Paradox Interactive",
   "developer": "Frictional Games",
-  "releasedate": "",
+  "releasedate": "02-2008",
   "genre": "Adventure, Indie, Puzzle",
   "description": "Surrounded by enemies and assaulted by terror from all sides, Philip must collect clues and solve vexing puzzles while combating the gnawing psychological terrors that assail his mind",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 78,
+  "metacritic_url": "https://www.metacritic.com/game/pc/penumbra-black-plague?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

@@ -34,7 +34,7 @@
   "shortname": "69f916aead6e4947aa3587ea234268be",
   "publisher": "Coffee Stain Publishing",
   "developer": "Coffee Stain North",
-  "releasedate": "",
+  "releasedate": "15 Feb, 2024",
   "genre": "Adventure, Casual, Simulation",
   "description": "Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
   "size": "",
@@ -60,6 +60,8 @@
     "Portuguese - Brazil",
     "Russian"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

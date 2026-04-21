@@ -34,7 +34,7 @@
   "shortname": "amzn1.adg.product.79330d47-859b-4578-a519-0717bd0c44ea",
   "publisher": "Pixmain",
   "developer": "Darjeeling",
-  "releasedate": "",
+  "releasedate": "06-2021",
   "genre": "Adventure, Puzzle",
   "description": "Based on the bestseller, Pierre The Maze Detective, Labyrinth City is an adventure puzzle game in which you play Pierre, a detective, to retrieve a lost stone. Journey through 10 visually-stunning locations, you will explore universes while discovering Easter eggs and sublayers of the story.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": 81,
+  "metacritic_url": "https://www.metacritic.com/game/pc/labyrinth-city-pierre-the-maze-detective?ftag=MCD-06-10aaa1f",
   "tested": true,
   "owned": true,
   "is_featured": false,

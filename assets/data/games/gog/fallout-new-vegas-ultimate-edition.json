@@ -34,7 +34,7 @@
   "shortname": "1454587428",
   "publisher": "Bethesda Softworks",
   "developer": "Obsidian Entertainment",
-  "releasedate": "",
+  "releasedate": "19 Oct, 2010",
   "genre": "Action, RPG",
   "description": "Welcome to Vegas. New Vegas. Enjoy your stay!",
   "size": "3174401438\n",
@@ -52,6 +52,8 @@
     "Italian",
     "Spanish - Spain"
   ],
+  "metacritic_score": 84,
+  "metacritic_url": "https://www.metacritic.com/game/pc/fallout-new-vegas?ftag=MCD-06-10aaa1f",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

@@ -34,7 +34,7 @@
   "shortname": "1496590",
   "publisher": "Awaceb, Kepler Interactive",
   "developer": "Awaceb",
-  "releasedate": "",
+  "releasedate": "03-2023",
   "genre": "Adventure, Indie",
   "description": "A tropical open-world adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,

@@ -34,7 +34,7 @@
   "shortname": "513385",
   "publisher": "PlayMedusa",
   "developer": "PlayMedusa",
-  "releasedate": "",
+  "releasedate": "2019-11-15T00:00:00+0000",
   "genre": "Indie, Arcade, Hack and slash/Beat 'em up, Fighting",
   "description": "You are a Werewolf. But there are worse monsters in Hell's Creek!",
   "size": "",
@@ -50,6 +50,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

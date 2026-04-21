@@ -34,7 +34,7 @@
   "shortname": "2086050016",
   "publisher": "Electronic Arts",
   "developer": "Maxis",
-  "releasedate": "",
+  "releasedate": "03-2000",
   "genre": "strategy, simulator",
   "description": "In 2000, SimCity 3000 was re-released under different names in different regions, adding East Asian and European building sets, terrain colors, and other features.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

@@ -34,7 +34,7 @@
   "shortname": "411443",
   "publisher": "",
   "developer": "Benjamin Heller",
-  "releasedate": "",
+  "releasedate": "2019-09-29T00:00:00+0000",
   "genre": "Adventure, Platform",
   "description": "A Single button infinite runner metriodvania about a friendly spider!",
   "size": "",
@@ -46,6 +46,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

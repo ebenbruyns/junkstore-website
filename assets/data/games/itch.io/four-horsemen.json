@@ -34,7 +34,7 @@
   "shortname": "139949",
   "publisher": "Nuclear Fishin’ Software",
   "developer": "Nuclear Fishin’ Software",
-  "releasedate": "",
+  "releasedate": "2017-09-01T00:00:00+0000",
   "genre": "Adventure, Indie, Simulator, Visual Novel",
   "description": "An ambitious life sim about the parts of the immigrant experience everyone pretends to forget.\n\nPlay as a group of four contemporary immigrant teenagers squatting in a World War II era machine gun bunker, trying to find a place for themselves in a pre-apocalyptic, present-dystopian country that has no place for them. Will you go native, turning against your own people to bury the past your parents fled to escape? Will you cling to your parents' identity at any cost, at the price of being a permanent stranger in your home country? Or will you strike out on your own, turning against both your homelands to shape a destiny for yourself? Love is all you need...and also improvised firearms.",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,

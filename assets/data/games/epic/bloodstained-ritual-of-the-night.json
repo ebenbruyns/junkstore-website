@@ -34,7 +34,7 @@
   "shortname": "a2ac59c83b704e40b4ab3a9e963fef52",
   "publisher": "505 Games",
   "developer": "ArtPlay",
-  "releasedate": "",
+  "releasedate": "18 Jun, 2019",
   "genre": "Action, Adventure, RPG",
   "description": "Bloodstained: Ritual of the Night is an exploration-focused, side-scroller action RPG by Koji Igarashi. Play as Miriam, an orphan scarred by an alchemist's curse that slowly crystallizes her body. Battle through a demon-infested castle and defeat its master to save yourself, and all of humanity!",
   "size": "",
@@ -60,6 +60,8 @@
     "Simplified Chinese",
     "Traditional Chinese"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,

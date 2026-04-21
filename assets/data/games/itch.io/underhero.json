@@ -34,7 +34,7 @@
   "shortname": "36029",
   "publisher": "Digerati Distribution",
   "developer": "Paper Castle Media",
-  "releasedate": "",
+  "releasedate": "2018-09-19T00:00:00+0000",
   "genre": "Role-playing (RPG), Adventure, Indie, Platform",
   "description": "Underhero is a 2D side-scroller RPG adventure game with timing-based combat. It tells an intriguing and mysterious story, full of silly characters brimming with personality, quirky dialogue, and lots of weird humor.\n\nInspired by Paper Mario games and RPGs in general, it tells the story of a world where the chosen hero has failed and an underling of the main villain takes his place as the new “hero”. Join the magical hilt Elizabeth the IV and the little Masked Kid, as they travel the world to restore Elizabeth’s long lost power, so they can defeat the tyrannical Mr. Stitches and save the world once and for all!",
   "size": "",
@@ -48,6 +48,8 @@
   "languages": [
     "English"
   ],
+  "metacritic_score": null,
+  "metacritic_url": "",
   "tested": true,
   "owned": true,
   "is_featured": false,
