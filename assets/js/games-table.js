@@ -433,6 +433,26 @@ function checkForGameParameter() {
     // Check for store + id parameters first (for JunkStore plugin)
     const store = urlParams.get('store');
     const databaseId = urlParams.get('id');
+    const gameName = urlParams.get('game');
+
+    // If only store parameter (no id or game), filter table by storefront
+    if (store && !databaseId && !gameName) {
+      const storeMap = {
+        'epic': 'Epic',
+        'gog': 'GOG',
+        'amazon': 'Amazon',
+        'itch': 'itch',
+        'itch.io': 'itch'
+      };
+      const normalizedStore = storeMap[store.toLowerCase()];
+
+      if (normalizedStore) {
+        console.log(`🏪 Filtering table by store: ${normalizedStore}`);
+        document.getElementById('storefrontFilter').value = normalizedStore;
+        filterTable();
+      }
+      return;
+    }
 
     if (store && databaseId) {
       console.log(`🎯 Auto-opening modal for store: ${store}, databaseId: ${databaseId}`);
@@ -467,9 +487,7 @@ function checkForGameParameter() {
       return;
     }
 
-    // Fall back to game title parameter
-    const gameName = urlParams.get('game');
-
+    // Fall back to game title parameter (gameName already declared above)
     if (!gameName) {
       return; // No game parameter found
     }
@@ -627,27 +645,31 @@ function checkForGameHash() {
   }
 }
 
-// Add modal click handlers
+// Add click handlers for game links - navigate to individual game pages
 function addModalHandlers() {
   // Handle clickable game links in table
   const gameLinks = document.querySelectorAll('.game-link.clickable');
   gameLinks.forEach(link => {
-    link.addEventListener('click', async (e) => {
+    link.addEventListener('click', (e) => {
       e.preventDefault();
-      const gameId = e.target.dataset.gameId;
       const modalFile = e.target.dataset.modalFile;
-      await openGameModal(gameId, modalFile);
+      // Convert modalFile path to game page URL: games/{storefront}/{slug}.json -> /games/{storefront}/{slug}/
+      // Note: itch.io in JSON becomes itch in page URLs
+      const pagePath = '/' + modalFile.replace('.json', '/').replace('itch.io', 'itch');
+      window.location.href = pagePath;
     });
   });
 
   // Handle clickable featured game entries (entire div is clickable)
   const featuredEntries = document.querySelectorAll('.featured-entry.clickable');
   featuredEntries.forEach(entry => {
-    entry.addEventListener('click', async (e) => {
+    entry.addEventListener('click', (e) => {
       e.preventDefault();
-      const gameId = entry.dataset.gameId;
       const modalFile = entry.dataset.modalFile;
-      await openGameModal(gameId, modalFile);
+      // Convert modalFile path to game page URL: games/{storefront}/{slug}.json -> /games/{storefront}/{slug}/
+      // Note: itch.io in JSON becomes itch in page URLs
+      const pagePath = '/' + modalFile.replace('.json', '/').replace('itch.io', 'itch');
+      window.location.href = pagePath;
     });
   });
 }

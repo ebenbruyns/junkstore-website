@@ -256,13 +256,13 @@ class StaticOptimizedGamesTable {
           `;
         }).join('');
         
-      // Add click handlers for featured games - same as main table
+      // Add click handlers for featured games - navigate to game page
       this.featuredRow.querySelectorAll('.featured-game-link').forEach(link => {
         link.addEventListener('click', (e) => {
           e.preventDefault();
           const gameId = e.target.dataset.gameId;
           if (gameId) {
-            this.openGameModal(gameId);
+            this.navigateToGamePage(gameId);
           }
         });
       });
@@ -445,12 +445,26 @@ class StaticOptimizedGamesTable {
   addModalHandlers() {
     const gameLinks = document.querySelectorAll('.game-link.clickable');
     gameLinks.forEach(link => {
-      link.addEventListener('click', async (e) => {
+      link.addEventListener('click', (e) => {
         e.preventDefault();
         const gameId = e.target.dataset.gameId;
-        await this.openGameModal(gameId);
+        this.navigateToGamePage(gameId);
       });
     });
+  }
+
+  navigateToGamePage(gameId) {
+    const game = this.allGames.find(g => g.id === gameId);
+    if (!game) {
+      console.error('Game not found:', gameId);
+      return;
+    }
+
+    // Construct page URL - itch.io becomes 'itch' in URL
+    const store = game.storefront === 'itch.io' ? 'itch' : game.storefront.toLowerCase();
+    const slug = game.slug || game.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+
+    window.location.href = `/games/${store}/${slug}/`;
   }
 
   async openGameModal(gameId) {
