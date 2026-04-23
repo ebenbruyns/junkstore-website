@@ -1,0 +1,279 @@
+// Free Games — count banner, pill badge, dedicated listing page
+
+// ==========================================================================
+// Count banner (used at the top of /games/ and /games/tested/)
+// Dark background + white text + gold accent on the count → WCAG AA contrast.
+// ==========================================================================
+.free-games-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  max-width: 1200px;
+  margin: 0 auto 1.5rem;
+  padding: 0.9rem 1.25rem;
+  background: #1a1d24;
+  color: #ffffff !important;
+  border: 1px solid #2a2f38;
+  border-left: 4px solid #f5c542;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+  transition: border-color 0.15s ease, transform 0.15s ease;
+
+  &:hover,
+  &:focus {
+    border-left-color: #ffd560;
+    transform: translateY(-1px);
+    color: #ffffff !important;
+    text-decoration: none;
+  }
+
+  &__text {
+    flex: 1;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+
+  &__count {
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #f5c542;
+    margin-right: 0.15rem;
+  }
+
+  &__label {
+    color: #ffffff;
+  }
+
+  &__cta {
+    margin-left: auto;
+    padding-left: 0.85rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    color: #f5c542;
+  }
+
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+    gap: 0.4rem;
+
+    &__cta { margin-left: 0; padding-left: 0; }
+  }
+}
+
+
+.free-now-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  background: linear-gradient(135deg, #f5c542, #e09f3e);
+  color: #1a1a1a;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  box-shadow: 0 2px 8px rgba(245, 197, 66, 0.4);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, color 0.15s ease;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(245, 197, 66, 0.55);
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+// In the games table, badges appear inside the storefront cell — give them their own line for clarity
+table .free-now-badge {
+  margin-left: 0;
+  margin-top: 0.35rem;
+  display: inline-flex;
+}
+
+// Carousel cards already have a flex container of badges — sit inline with them
+.game-card .free-now-badge {
+  margin: 0.4rem 0 0 0;
+  align-self: flex-start;
+}
+
+// ==========================================================================
+// /free-games/ page
+// ==========================================================================
+// Increase specificity (.js-page__content .free-games-page) so the global
+// .js-page__content p { text-align: justify } and h1 { margin-top: 2rem }
+// rules in _base.scss don't override our header styling.
+.js-page__content .free-games-page,
+.free-games-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem 4rem;
+  color: #e0e0e0;
+
+  .free-games-page__header {
+    text-align: center;
+    margin-bottom: 1rem;
+
+    h1 {
+      font-size: 2.25rem;
+      margin: 0 auto 0.5rem;
+      text-align: center;
+      // colour intentionally inherits from .js-page__content h1 ($junkstore-primary brand colour)
+    }
+
+    p {
+      color: #aaa;
+      font-size: 1.05rem;
+      max-width: 640px;
+      margin: 0 auto;
+      text-align: center;  // override .js-page__content p { text-align: justify }
+    }
+  }
+
+  &__updated {
+    display: block;
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    color: #777;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  &__empty,
+  &__error {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #888;
+    background: #1e1e1e;
+    border-radius: 12px;
+    border: 1px dashed #333;
+  }
+}
+
+.free-games-card {
+  display: flex;
+  flex-direction: column;
+  background: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+    border-color: #f5c542;
+  }
+
+  &__image {
+    aspect-ratio: 16 / 9;
+    background: #111 center/cover no-repeat;
+    position: relative;
+
+    // Reuses the visual language of .store-badge from the table / game-page hero
+    // (those rules are scoped to their containers, so we restate the colours here).
+    .store-badge {
+      position: absolute;
+      top: 0.75rem;
+      left: 0.75rem;
+      padding: 0.3rem 0.75rem;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      border-radius: 1rem;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.55);
+
+      &.epic   { background: #444; }
+      &.gog    { background: #86328a; }
+      &.amazon { background: #00a14f; }
+      &.itch   { background: #fa5c5c; }
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1rem 1.1rem 1.2rem;
+    gap: 0.6rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    color: #fff;
+  }
+
+  &__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    font-size: 0.85rem;
+    color: #aaa;
+
+    .strike {
+      text-decoration: line-through;
+      opacity: 0.65;
+    }
+
+    .ends {
+      color: #f5c542;
+      font-weight: 600;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    margin-top: auto;
+    padding-top: 0.5rem;
+  }
+
+  &__cta {
+    text-align: center;
+    padding: 0.65rem 0.9rem;
+    background: linear-gradient(135deg, #f5c542, #e09f3e);
+    color: #1a1a1a !important;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.03em;
+
+    &:hover { filter: brightness(1.05); }
+  }
+
+  &__tested-link {
+    align-self: center;
+    color: #9ad0ff !important;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+
+    &:hover {
+      color: #c5e2ff !important;
+      text-decoration: underline;
+    }
+  }
+}

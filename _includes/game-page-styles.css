@@ -106,6 +106,31 @@ button:focus,
   background: #fa5c5c;
 }
 
+.free-now-badge {
+  background: linear-gradient(135deg, #f5c542, #e09f3e);
+  color: #1a1a1a;
+  padding: 0.375rem 0.875rem;
+  border-radius: 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 2px 10px rgba(245, 197, 66, 0.45);
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.free-now-badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(245, 197, 66, 0.6);
+  color: #000;
+  text-decoration: none;
+}
+
 .hero-detail {
   color: #fff;
   font-size: 0.875rem;
@@ -563,6 +588,15 @@ button:focus,
 .mc-score--red { color: #f87171; }
 .mc-score--tbd { color: #b1bac4; }
 
+/* HLTB Hero Pill */
+.hltb-hero {
+  background: linear-gradient(135deg, #5865f2, #7c3aed);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
 /* Badge with inline score */
 .badge-score {
   display: inline-flex;
@@ -612,4 +646,43 @@ button:focus,
   font-size: 0.75rem;
   color: #9ca3af;
   font-style: italic;
+}
+
+/* HowLongToBeat */
+.info-item--hltb {
+  grid-column: 1 / -1;
+  margin-top: 0.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #3a4555;
+}
+
+.hltb-times {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  margin-top: 0.25rem;
+}
+
+.hltb-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.375rem 0.5rem;
+  background: #2d3748;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.hltb-type {
+  color: #9ca3af;
+}
+
+.hltb-time {
+  color: #58a6ff;
+  font-weight: 600;
+}
+
+.external-link.hltb {
+  background: linear-gradient(135deg, #5865f2, #7c3aed);
+  border-color: #7c3aed;
 }

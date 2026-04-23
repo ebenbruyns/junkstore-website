@@ -10,6 +10,11 @@ image: /assets/images/blog/features/games-table/games-table-hero-card.webp
 
 <div class="spacer mt-4"></div>
 
+<a class="free-games-banner" href="/free-games/" data-free-games-banner hidden>
+  <span class="free-games-banner__text"><strong class="free-games-banner__count">…</strong> <span class="free-games-banner__label">free games right now</span> — claim before they expire</span>
+  <span class="free-games-banner__cta">See all →</span>
+</a>
+
 <!-- Featured Games Section -->
 <div class="feature-box games-featured-box">
   <h3>This Week's Giveaways and Featured Games</h3>
@@ -156,6 +161,7 @@ image: /assets/images/blog/features/games-table/games-table-hero-card.webp
 </button>
 
 
+<script src="/assets/js/free-games-overlay.js" defer></script>
 <script src="/assets/js/games-table.js"></script>
 
 

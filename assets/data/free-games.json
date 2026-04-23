@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-04-23T03:45:31.248Z",
+  "games": [
+    {
+      "id": "epic_3d11f228c8a442318bc17abf13f7db3b",
+      "title": "The Stone of Madness",
+      "storefront": "epic",
+      "website_slug": "the-stone-of-madness",
+      "store_url": "https://store.epicgames.com/en-US/p/the-stone-of-madness-7b22f3",
+      "image": "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-hvdla.jpg",
+      "end_date": "2026-04-23T15:00:00.000Z",
+      "end_date_formatted": "Friday, Apr 24",
+      "original_price": "$29.99"
+    },
+    {
+      "id": "gp_3600",
+      "title": "Flowerdrops",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://www.gamerpower.com/open/flowerdrops-itchio-giveaway",
+      "image": "https://www.gamerpower.com/offers/1b/69e9062ec928b.jpg",
+      "end_date": "2026-04-24 23:59:00",
+      "end_date_formatted": "Friday, Apr 24",
+      "original_price": "$9.99"
+    },
+    {
+      "id": "gp_3577",
+      "title": "Lihiman",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://www.gamerpower.com/open/lihiman-itchio-giveaway",
+      "image": "https://www.gamerpower.com/offers/1b/69de855c94b1e.jpg",
+      "end_date": "2026-04-25 23:59:00",
+      "end_date_formatted": "Saturday, Apr 25",
+      "original_price": "$4.99"
+    },
+    {
+      "id": "gp_3596",
+      "title": "Emily_",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://www.gamerpower.com/open/emily-itchio-giveaway",
+      "image": "https://www.gamerpower.com/offers/1b/69e769fac1a28.jpg",
+      "end_date": "2026-04-27 23:59:00",
+      "end_date_formatted": "Monday, Apr 27",
+      "original_price": "$3.99"
+    },
+    {
+      "id": "gp_3594",
+      "title": "The Saint",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://www.gamerpower.com/open/the-saint-itchio-giveaway",
+      "image": "https://www.gamerpower.com/offers/1b/69e7677c90b06.jpg",
+      "end_date": "2026-04-27 23:59:00",
+      "end_date_formatted": "Monday, Apr 27",
+      "original_price": "$4.99"
+    },
+    {
+      "id": "gp_3597",
+      "title": "The Whispering Valley",
+      "storefront": "gog",
+      "website_slug": null,
+      "store_url": "https://www.gamerpower.com/open/the-whispering-valley-gog-giveaway",
+      "image": "https://www.gamerpower.com/offers/1b/69e778037bd0b.jpg",
+      "end_date": "2026-04-28 23:59:00",
+      "end_date_formatted": "Tuesday, Apr 28",
+      "original_price": "$11.99"
+    },
+    {
+      "id": "gp_3595",
+      "title": "The Lost Painter",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://www.gamerpower.com/open/the-lost-painter-itchio-giveaway",
+      "image": "https://www.gamerpower.com/offers/1b/69e7686e9561b.jpg",
+      "end_date": "2026-05-01 23:59:00",
+      "end_date_formatted": "Friday, May 1",
+      "original_price": "$2.99"
+    },
+    {
+      "id": "gp_3394",
+      "title": "Rose and Cross",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://www.gamerpower.com/open/rose-and-cross-itch-io-giveaway",
+      "image": "https://www.gamerpower.com/offers/1b/6930a11f989ac.jpg",
+      "end_date": "2026-05-31 23:59:53",
+      "end_date_formatted": "Sunday, May 31",
+      "original_price": "$6.99"
+    },
+    {
+      "id": "gp_3096",
+      "title": "Madness Inside",
+      "storefront": "itchio",
+      "website_slug": null,
+      "store_url": "https://www.gamerpower.com/open/madness-inside-itch-io-giveaway",
+      "image": "https://www.gamerpower.com/offers/1b/67c76007697b3.jpg",
+      "end_date": "2026-08-01 23:59:59",
+      "end_date_formatted": "Saturday, Aug 1",
+      "original_price": "$6.99"
+    }
+  ]
+}

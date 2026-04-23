@@ -10,6 +10,11 @@ hide_title: true
 
 {% include games-hub/hero.html %}
 
+<a class="free-games-banner" href="/free-games/" data-free-games-banner hidden>
+  <span class="free-games-banner__text"><strong class="free-games-banner__count">…</strong> <span class="free-games-banner__label">free games right now</span> — claim before they expire</span>
+  <span class="free-games-banner__cta">See all →</span>
+</a>
+
 {% include games-hub/recently-tested.html %}
 
 {% include games-hub/browse-stores.html %}
@@ -27,4 +32,5 @@ hide_title: true
   </div>
 </section>
 
+<script src="/assets/js/free-games-overlay.js" defer></script>
 <script src="/assets/js/games-hub.js"></script>

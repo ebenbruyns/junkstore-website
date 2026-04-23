@@ -6,6 +6,8 @@ main:
     url: /help/
   - title: "Games"
     url: /games/
+  - title: "Free Now"
+    url: /free-games/
   - title: "News"
     url: /blog/
   - title: "About"

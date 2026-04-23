@@ -56,7 +56,7 @@ layout: null
   {% endif %}
   <div class="hero-content">
     <h1 class="hero-title">{{ page.game_title }}</h1>
-    <div class="hero-meta">
+    <div class="hero-meta" data-game-slug="{{ page.slug }}" data-game-storefront="{{ page.storefront_key }}">
       <span class="store-badge {{ page.storefront_key }}">{{ page.storefront }}</span>
       {% if page.publisher %}<span class="hero-detail">{{ page.publisher }}</span>{% endif %}
       {% if page.date_tested %}
@@ -64,6 +64,9 @@ layout: null
       {% endif %}
       {% if page.metacritic_score or page.metacritic_url %}
       <span class="hero-detail metacritic-hero">Metacritic: <strong class="mc-score {% if page.metacritic_score %}mc-score--{% if page.metacritic_score >= 75 %}green{% elsif page.metacritic_score >= 50 %}yellow{% else %}red{% endif %}{% else %}mc-score--tbd{% endif %}">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</strong></span>
+      {% endif %}
+      {% if page.hltb_main and page.hltb_main != "" %}
+      <span class="hero-detail hltb-hero">🕐 {{ page.hltb_main }}</span>
       {% endif %}
     </div>
   </div>
@@ -275,30 +278,59 @@ layout: null
         {% endif %}
       </div>
       {% endif %}
+      {% assign has_hltb = false %}
+      {% if page.hltb_main and page.hltb_main != "" %}{% assign has_hltb = true %}{% endif %}
+      {% if page.hltb_main_extra and page.hltb_main_extra != "" %}{% assign has_hltb = true %}{% endif %}
+      {% if page.hltb_completionist and page.hltb_completionist != "" %}{% assign has_hltb = true %}{% endif %}
+      {% if has_hltb %}
+      <div class="info-item info-item--hltb">
+        <div class="info-label">How Long to Beat</div>
+        <div class="hltb-times">
+          {% if page.hltb_main and page.hltb_main != "" %}
+          <div class="hltb-row">
+            <span class="hltb-type">Main Story</span>
+            <span class="hltb-time">{{ page.hltb_main }}</span>
+          </div>
+          {% endif %}
+          {% if page.hltb_main_extra and page.hltb_main_extra != "" %}
+          <div class="hltb-row">
+            <span class="hltb-type">Main + Extras</span>
+            <span class="hltb-time">{{ page.hltb_main_extra }}</span>
+          </div>
+          {% endif %}
+          {% if page.hltb_completionist and page.hltb_completionist != "" %}
+          <div class="hltb-row">
+            <span class="hltb-type">Completionist</span>
+            <span class="hltb-time">{{ page.hltb_completionist }}</span>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
     </div>
 
     <div class="sidebar-card">
       <h3>Links</h3>
       <div class="external-links">
-        {% if page.store_url %}
+        {% if page.store_url and page.store_url != "" %}
         <a href="{{ page.store_url }}" target="_blank" rel="noopener" class="external-link {{ page.storefront_key }}">{{ page.storefront }} Store</a>
         {% endif %}
-        {% if page.pcgamingwiki_url %}
+        {% if page.pcgamingwiki_url and page.pcgamingwiki_url != "" %}
         <a href="{{ page.pcgamingwiki_url }}" target="_blank" rel="noopener" class="external-link pcgaming">PCGamingWiki</a>
         {% endif %}
-        {% if page.protondb_url %}
+        {% if page.protondb_url and page.protondb_url != "" %}
         <a href="{{ page.protondb_url }}" target="_blank" rel="noopener" class="external-link protondb">ProtonDB</a>
         {% endif %}
-        {% if page.protondb_report_url %}
+        {% if page.protondb_report_url and page.protondb_report_url != "" %}
         <a href="{{ page.protondb_report_url }}" target="_blank" rel="noopener" class="external-link our-report">Our Report</a>
         {% endif %}
-        {% if page.areweanticheat_url %}
+        {% if page.areweanticheat_url and page.areweanticheat_url != "" %}
         <a href="{{ page.areweanticheat_url }}" target="_blank" rel="noopener" class="external-link anticheat">AreWeAntiCheat</a>
         {% endif %}
-        {% if page.metacritic_url %}
+        {% if page.metacritic_url and page.metacritic_url != "" %}
         <a href="{{ page.metacritic_url }}" target="_blank" rel="noopener" class="external-link metacritic">Metacritic <span class="badge-score">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</span></a>
         {% endif %}
-        {% if page.hltb_url %}
+        {% if page.hltb_url and page.hltb_url != "" %}
         <a href="{{ page.hltb_url }}" target="_blank" rel="noopener" class="external-link hltb">HowLongToBeat</a>
         {% endif %}
       </div>
@@ -317,6 +349,8 @@ layout: null
 <div class="back-section">
   <a href="/games/tested/" class="back-link">← Back to Game Database</a>
 </div>
+
+<script src="/assets/js/free-games-overlay.js" defer></script>
 
 </body>
 </html>

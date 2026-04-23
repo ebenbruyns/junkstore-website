@@ -113,8 +113,9 @@ function populateFeaturedGames() {
   
   container.innerHTML = sortedGames.map(game => {
     const storefrontDir = game.storefront === 'itch' ? 'itch.io' : game.storefront.toLowerCase();
+    const storefrontKey = game.storefront === 'itch' ? 'itchio' : game.storefront.toLowerCase();
     return `
-    <div class="featured-entry clickable" data-game-id="${game.id}" data-modal-file="games/${storefrontDir}/${game.slug}.json">
+    <div class="featured-entry clickable" data-game-id="${game.id}" data-modal-file="games/${storefrontDir}/${game.slug}.json" data-game-slug="${game.slug}" data-game-storefront="${storefrontKey}">
       <span class="featured-game-link">
         ${game.title}
       </span>
@@ -122,9 +123,14 @@ function populateFeaturedGames() {
     </div>
     `;
   }).join('');
-  
+
   // Re-add modal handlers for featured games
   addModalHandlers();
+
+  // Stamp Free-Now pills on any featured game currently being given away.
+  if (window.FreeGames && window.FreeGames.applyBadges) {
+    window.FreeGames.ready().then(() => window.FreeGames.applyBadges(container));
+  }
 }
 
 // Populate statistics
@@ -268,8 +274,9 @@ function updateTable() {
     // Generate unique ID for this game entry (slug + storefront)
     const gameEntryId = `game-${game.slug}-${game.storefront.toLowerCase().replace(/\./g, '-')}`;
 
+    const storefrontKey = game.storefront === 'itch' ? 'itchio' : game.storefront.toLowerCase();
     return `
-    <tr id="${gameEntryId}" class="${rowClasses.trim()}" data-storefront="${game.storefront}" data-status="${game.overall_status}">
+    <tr id="${gameEntryId}" class="${rowClasses.trim()}" data-storefront="${game.storefront}" data-status="${game.overall_status}" data-game-slug="${game.slug}" data-game-storefront="${storefrontKey}">
       <td title="${game.title}">
         ${isAntiCheat ?
           `<span class="game-title-static">${game.title}</span>` :
@@ -301,6 +308,11 @@ function updateTable() {
 
   // Re-add modal handlers after table update
   addModalHandlers();
+
+  // Stamp Free-Now pills on rows whose game is currently being given away.
+  if (window.FreeGames && window.FreeGames.applyBadges) {
+    window.FreeGames.ready().then(() => window.FreeGames.applyBadges(tbody));
+  }
 }
 
 // Update compatibility counts in column headers
