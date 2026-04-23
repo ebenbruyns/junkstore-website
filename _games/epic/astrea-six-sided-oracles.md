@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "12.4 hrs"
+hltb_main_extra: "21.5 hrs"
+hltb_completionist: "42.1 hrs"
+hltb_url: "https://howlongtobeat.com/game/121206"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/astrea-six-sided-oracles"
 protondb_url: "https://www.protondb.com/app/1755830"

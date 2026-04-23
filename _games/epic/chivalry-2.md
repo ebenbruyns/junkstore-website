@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: true
 
+# HowLongToBeat
+hltb_main: "13.6 hrs"
+hltb_main_extra: "43.3 hrs"
+hltb_completionist: "70.6 hrs"
+hltb_url: "https://howlongtobeat.com/game/69351"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/chivalry-2"
 protondb_url: "https://www.protondb.com/app/1824220"

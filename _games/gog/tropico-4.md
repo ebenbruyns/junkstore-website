@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "40 hrs"
+hltb_main_extra: "61.5 hrs"
+hltb_completionist: "106.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/10674"
+
 # Links
 store_url: "https://www.gog.com/en/game/tropico_4"
 protondb_url: "https://www.protondb.com/app/57690"

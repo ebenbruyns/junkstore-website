@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "7.5 hrs"
+hltb_main_extra: "14.5 hrs"
+hltb_completionist: "15.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/100044"
+
 # Links
 store_url: "https://www.gog.com/en/game/lust_theory_season_1"
 protondb_url: "https://www.protondb.com/app/1607130"

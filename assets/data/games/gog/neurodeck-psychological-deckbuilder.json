@@ -3,7 +3,8 @@
   "title": "Neurodeck : Psychological Deckbuilder",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/1253860",
-  "gog_url": "https://www.gog.com/en/game/https://www.gog.com/en/game/neurodeck_psychological_deckbuilder",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/neurodeck_psychological_deckbuilder",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Neurodeck",
@@ -57,6 +58,10 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_main": "1.5 hrs",
+  "hltb_main_extra": "7 hrs",
+  "hltb_completionist": "12.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/99485",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -64,5 +69,6 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-01-31T22:30:50.152Z"
+  "updated_at": "2026-01-31T22:30:50.152Z",
+  "hltb_id": 99485
 }

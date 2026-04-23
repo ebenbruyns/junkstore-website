@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "17.5 hrs"
+hltb_main_extra: "33 hrs"
+hltb_completionist: "84.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/39484"
+
 # Links
-store_url: "https://www.gog.com/en/game/yakuza_kiwami_yakuza_1"
+store_url: "https://www.gog.com/en/game/yakuza_kiwami"
 protondb_url: "https://www.protondb.com/app/834530"
 protondb_report_url: ""
 pcgamingwiki_url: ""

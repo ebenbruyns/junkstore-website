@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "6.1 hrs"
+hltb_main_extra: "10.5 hrs"
+hltb_completionist: "21.4 hrs"
+hltb_url: "https://howlongtobeat.com/game/41878"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/beholder"
 protondb_url: "https://www.protondb.com/app/475550"

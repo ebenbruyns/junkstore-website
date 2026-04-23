@@ -3,7 +3,8 @@
   "title": "Shores Unknown",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/899460",
-  "gog_url": "https://www.gog.com/en/game/shores_unknown_arrival",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/shores_unknown_demo",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
@@ -50,11 +51,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_main": "1 hrs",
+  "hltb_main_extra": "2.5 hrs",
+  "hltb_completionist": "3 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/90471",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-01T04:08:36.969Z"
+  "updated_at": "2025-08-01T04:08:36.969Z",
+  "hltb_id": 90471
 }

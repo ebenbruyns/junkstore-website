@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "11.5 hrs"
+hltb_main_extra: "14 hrs"
+hltb_completionist: "17.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/8367"
+
 # Links
 store_url: "https://www.gog.com/en/game/shadowrun_returns"
 protondb_url: "https://www.protondb.com/app/234650"

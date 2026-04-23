@@ -3,6 +3,7 @@
   "title": "Monster Harvest",
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/1363350",
+  "protondb_report_url": "https://www.protondb.com/app/1363350#hsoq7Rj16L",
   "gog_url": "",
   "epic_url": "https://store.epicgames.com/en-US/p/monster-harvest-75f018",
   "itch_url": "",
@@ -40,7 +41,7 @@
   "size": "",
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/5f1eb1585c6049199a499059c2326087/download-monster-harvest-offer-idy8y.jpg",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/5f1eb1585c6049199a499059c2326087/monster-harvest-offer-19f8k.jpg",
-  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1363350/capsule_231x87.jpg",
+  "icon_image": "https://images.gog.com/a619548509f7106478975e16c80ac62c9b641e19f64d61382976358a113aaf89.jpg?namespace=gamesdb",
   "steamId": "1363350",
   "game_modes": [
     "Single-player"
@@ -58,11 +59,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_main": "",
+  "hltb_main_extra": "",
+  "hltb_completionist": "",
+  "hltb_url": "",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
-  "is_featured": true,
+  "is_featured": false,
   "blog_category": "",
   "created_at": "2026-04-16T20:10:46.066Z",
-  "updated_at": "2026-04-20T03:46:27.113Z"
+  "updated_at": "2026-04-21T00:38:49.280Z"
 }

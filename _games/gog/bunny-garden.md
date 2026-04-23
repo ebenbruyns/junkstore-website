@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "3.5 hrs"
+hltb_main_extra: "8.5 hrs"
+hltb_completionist: "25 hrs"
+hltb_url: "https://howlongtobeat.com/game/147423"
+
 # Links
 store_url: "https://www.gog.com/en/game/bunny_garden"
 protondb_url: "https://www.protondb.com/app/2654470"

@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "34.5 hrs"
+hltb_main_extra: "110 hrs"
+hltb_completionist: "207 hrs"
+hltb_url: "https://howlongtobeat.com/game/49483"
+
 # Links
 store_url: "https://www.gog.com/en/game/fallout_4_game_of_the_year_edition"
 protondb_url: "https://www.protondb.com/app/377160"

@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "6 hrs"
+hltb_main_extra: "8 hrs"
+hltb_completionist: "11.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/71500"
+
 # Links
 store_url: "https://www.gog.com/en/game/yes_your_grace"
 protondb_url: "https://www.protondb.com/app/1115690"

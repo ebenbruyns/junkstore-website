@@ -24,7 +24,7 @@ languages: ["English"]
 # Images
 banner_image: "https://images.gog.com/fb479b4f352dbd5e537fbf08bb5e299dd18b855a96f0d1e0a34a82f12bcf99e3.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/b1cc07ce74fbb022e41ab2828edd3258bb033d7e051ec33ba9f3906ca8537df3.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/494360/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "requires-mapping"
@@ -46,13 +46,19 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "46 hrs"
+hltb_main_extra: "80.5 hrs"
+hltb_completionist: "151 hrs"
+hltb_url: "https://howlongtobeat.com/game/809"
+
 # Links
-store_url: "https://www.gog.com/en/game/baldurs_gate_ii_enhanced_edition"
+store_url: "https://www.gog.com/en/game/baldurs_gate_2_enhanced_edition"
 protondb_url: "https://www.protondb.com/app/494360"
 protondb_report_url: ""
 pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/pc/baldurs-gate-ii-enhanced-edition?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**."

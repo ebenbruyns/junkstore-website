@@ -174,6 +174,12 @@ requires_eac_runtime: ${game.requires_eac_runtime || false}
 requires_battleye_runtime: ${game.requires_battleye_runtime || false}
 cant_test_linux: ${game.cant_test_linux || false}
 
+# HowLongToBeat
+hltb_main: "${game.hltb_main || ''}"
+hltb_main_extra: "${game.hltb_main_extra || ''}"
+hltb_completionist: "${game.hltb_completionist || ''}"
+hltb_url: "${game.hltb_url || ''}"
+
 # Links
 store_url: "${getStoreUrl(game)}"
 protondb_url: "${game.protondb || ''}"

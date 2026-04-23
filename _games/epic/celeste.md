@@ -46,11 +46,17 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "8.3 hrs"
+hltb_main_extra: "14.6 hrs"
+hltb_completionist: "39.2 hrs"
+hltb_url: "https://howlongtobeat.com/game/42818"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/celeste"
 protondb_url: "https://www.protondb.com/app/504230"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Celeste"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/celeste?ftag=MCD-06-10aaa1f"
 

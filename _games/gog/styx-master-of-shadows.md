@@ -46,11 +46,17 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "17 hrs"
+hltb_main_extra: "22 hrs"
+hltb_completionist: "41.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/21586"
+
 # Links
 store_url: "https://www.gog.com/en/game/styx_master_of_shadows"
 protondb_url: "https://www.protondb.com/app/242640"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Styx:_Master_of_Shadows"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/styx-master-of-shadows?ftag=MCD-06-10aaa1f"
 

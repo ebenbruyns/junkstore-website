@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "17.5 hrs"
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: "https://howlongtobeat.com/game/14633"
+
 # Links
 store_url: "https://www.gog.com/en/game/fate_the_traitor_soul"
 protondb_url: "https://www.protondb.com/app/303680"

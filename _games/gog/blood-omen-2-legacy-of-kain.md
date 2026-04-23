@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "13 hrs"
+hltb_main_extra: "14 hrs"
+hltb_completionist: "14.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/1183"
+
 # Links
-store_url: "https://www.gog.com/en/game/blood_omen_2_legacy_of_kain"
+store_url: "https://www.gog.com/en/game/legacy_of_kain_blood_omen_2"
 protondb_url: "https://www.protondb.com/app/242960"
 protondb_report_url: ""
 pcgamingwiki_url: ""

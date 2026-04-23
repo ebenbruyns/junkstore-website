@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "2 hrs"
+hltb_main_extra: "9.5 hrs"
+hltb_completionist: "62 hrs"
+hltb_url: "https://howlongtobeat.com/game/17600"
+
 # Links
-store_url: "https://www.gog.com/en/game/talisman_digital_classic_edition"
+store_url: "https://www.gog.com/en/game/talisman_digital_edition"
 protondb_url: "https://www.protondb.com/app/247000"
 protondb_report_url: ""
 pcgamingwiki_url: ""

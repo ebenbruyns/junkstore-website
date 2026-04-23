@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "10.3 hrs"
+hltb_main_extra: "14.2 hrs"
+hltb_completionist: "25.4 hrs"
+hltb_url: "https://howlongtobeat.com/game/97692"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/alan-wake-remastered"
 protondb_url: "https://www.protondb.com/app/108710"

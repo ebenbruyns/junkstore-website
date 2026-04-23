@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "26.6 hrs"
+hltb_main_extra: "35.4 hrs"
+hltb_completionist: "37.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/45626"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/aven-colony"
 protondb_url: "https://www.protondb.com/app/484900"

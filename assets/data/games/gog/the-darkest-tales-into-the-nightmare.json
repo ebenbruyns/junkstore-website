@@ -3,7 +3,8 @@
   "title": "The Darkest Tales: Into the Nightmare",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/1307690",
-  "gog_url": "https://www.gog.com/en/game/darkest_tales_into_the_nightmare",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/the_darkest_tales_into_the_nightmare",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
@@ -50,11 +51,16 @@
   ],
   "metacritic_score": 74,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-darkest-tales?ftag=MCD-06-10aaa1f",
+  "hltb_main": "1 hrs",
+  "hltb_main_extra": "1 hrs",
+  "hltb_completionist": "1.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/99189",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "hltb_id": 99189
 }

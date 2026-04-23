@@ -22,9 +22,9 @@ game_modes: []
 languages: ["Korean","English","Japanese"]
 
 # Images
-banner_image: "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-1cvou.png?resize=1&w=480&h=270&quality=medium"
-cover_image: "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-myh89.png"
-icon_image: "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-logo-k9ad9.png?resize=1&w=480&h=270&quality=medium"
+banner_image: "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-trf5s.png"
+cover_image: "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-820du.png"
+icon_image: "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-logo-k9ad9.png"
 
 # Technical Details
 controller_input: "keyboard-mouse"
@@ -45,6 +45,12 @@ must_be_online: true
 requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tomak-save-the-earth-regeneration-c1207c"

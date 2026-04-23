@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "23 hrs"
+hltb_main_extra: "41 hrs"
+hltb_completionist: "51.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/62519"
+
 # Links
 store_url: "https://www.gog.com/en/game/greedfall"
 protondb_url: "https://www.protondb.com/app/606880"

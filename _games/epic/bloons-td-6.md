@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "36.4 hrs"
+hltb_main_extra: "117.2 hrs"
+hltb_completionist: "591.2 hrs"
+hltb_url: "https://howlongtobeat.com/game/57650"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bloons-td-6-bf95a0"
 protondb_url: "https://www.protondb.com/app/960090"

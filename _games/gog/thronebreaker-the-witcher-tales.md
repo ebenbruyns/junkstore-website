@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "27.5 hrs"
+hltb_main_extra: "36.5 hrs"
+hltb_completionist: "42 hrs"
+hltb_url: "https://howlongtobeat.com/game/61381"
+
 # Links
 store_url: "https://www.gog.com/en/game/thronebreaker_the_witcher_tales"
 protondb_url: "https://www.protondb.com/app/973760"

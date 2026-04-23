@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "10.5 hrs"
+hltb_main_extra: "13 hrs"
+hltb_completionist: "24.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/78135"
+
 # Links
 store_url: "https://www.gog.com/en/game/mafia_definitive_edition"
 protondb_url: "https://www.protondb.com/app/1030840"

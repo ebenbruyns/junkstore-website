@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "24 hrs"
+hltb_main_extra: "34.5 hrs"
+hltb_completionist: "56.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/10268"
+
 # Links
-store_url: "https://www.gog.com/en/game/witcher_2_assassins_of_kings_enhanced_edition"
+store_url: "https://www.gog.com/en/game/the_witcher_2"
 protondb_url: "https://www.protondb.com/app/20920"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Witcher_2:_Assassins_of_Kings"

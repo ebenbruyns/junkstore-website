@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "8.3 hrs"
+hltb_main_extra: "14.6 hrs"
+hltb_completionist: "39.2 hrs"
+hltb_url: "https://howlongtobeat.com/game/42818"
+
 # Links
 store_url: "https://maddymakesgamesinc.itch.io/celeste"
 protondb_url: "https://www.protondb.com/app/504230"

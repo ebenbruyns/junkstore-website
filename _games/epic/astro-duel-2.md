@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "1.4 hrs"
+hltb_main_extra: "2.3 hrs"
+hltb_completionist: "3 hrs"
+hltb_url: "https://howlongtobeat.com/game/146740"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/astro-duel-2"
 protondb_url: "https://www.protondb.com/app/655350"

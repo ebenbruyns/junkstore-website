@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/overtrip-79b8b0"
 protondb_url: ""

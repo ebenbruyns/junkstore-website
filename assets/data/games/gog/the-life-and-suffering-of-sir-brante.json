@@ -3,7 +3,8 @@
   "title": "The Life and Suffering of Sir Brante",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/1460090",
-  "gog_url": "https://www.gog.com/en/game/life_and_suffering_of_sir_brante_chapter_1_and_2",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/the_life_and_suffering_of_sir_brante_chapter_12",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
@@ -48,6 +49,10 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_main": "2.5 hrs",
+  "hltb_main_extra": "",
+  "hltb_completionist": "",
+  "hltb_url": "https://howlongtobeat.com/game/91090",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -55,5 +60,6 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-11T07:23:46.880Z"
+  "updated_at": "2025-08-11T07:23:46.880Z",
+  "hltb_id": 91090
 }

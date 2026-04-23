@@ -3,7 +3,8 @@
   "title": "Amerzone: The Explorer's Legacy (1999)",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/302190",
-  "gog_url": "https://www.gog.com/en/game/amerzone_the_explorers_legacy",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/amerzone_the_explorer_legacy",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
@@ -50,6 +51,10 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_main": "4 hrs",
+  "hltb_main_extra": "4 hrs",
+  "hltb_completionist": "4.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/434",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -57,5 +62,6 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-12-11T20:44:40.243Z"
+  "updated_at": "2025-12-11T20:44:40.243Z",
+  "hltb_id": 434
 }

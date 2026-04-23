@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "38.5 hrs"
+hltb_main_extra: "68 hrs"
+hltb_completionist: "92.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/137867"
+
 # Links
-store_url: "https://www.gog.com/en/game/tomb_raider_13_remastered_starring_lara_croft"
+store_url: "https://www.gog.com/en/game/tomb_raider_i_to_iii_remastered"
 protondb_url: "https://www.protondb.com/app/2478970"
 protondb_report_url: ""
 pcgamingwiki_url: ""

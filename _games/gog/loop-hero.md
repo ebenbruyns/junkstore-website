@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "28.5 hrs"
+hltb_main_extra: "37 hrs"
+hltb_completionist: "55 hrs"
+hltb_url: "https://howlongtobeat.com/game/86112"
+
 # Links
 store_url: "https://www.gog.com/en/game/loop_hero"
 protondb_url: "https://www.protondb.com/app/1282730"

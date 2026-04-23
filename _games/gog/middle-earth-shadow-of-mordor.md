@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "17 hrs"
+hltb_main_extra: "27 hrs"
+hltb_completionist: "38 hrs"
+hltb_url: "https://howlongtobeat.com/game/31384"
+
 # Links
 store_url: "https://www.gog.com/en/game/middleearth_shadow_of_mordor"
 protondb_url: "https://www.protondb.com/app/241930"

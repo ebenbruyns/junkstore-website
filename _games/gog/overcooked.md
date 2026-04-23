@@ -46,11 +46,17 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "7 hrs"
+hltb_main_extra: "12 hrs"
+hltb_completionist: "12.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/83776"
+
 # Links
 store_url: "https://www.gog.com/en/game/overcooked_gourmet_edition"
 protondb_url: "https://www.protondb.com/app/448510"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Overcooked!"
 metacritic_score: 81
 metacritic_url: "http://www.metacritic.com/game/pc/overcooked?ftag=MCD-06-10aaa1f"
 

@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "15.5 hrs"
+hltb_main_extra: "16.5 hrs"
+hltb_completionist: "84.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/27210"
+
 # Links
-store_url: "https://www.gog.com/en/game/simcity_4_deluxe"
+store_url: "https://www.gog.com/en/game/simcity_4_deluxe_edition"
 protondb_url: "https://www.protondb.com/app/24780"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SimCity_4"

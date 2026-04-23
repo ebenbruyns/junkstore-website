@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "29 hrs"
+hltb_main_extra: "36.5 hrs"
+hltb_completionist: "48.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/9111"
+
 # Links
 store_url: "https://www.gog.com/en/game/star_wars_knights_of_the_old_republic"
 protondb_url: "https://www.protondb.com/app/32370"

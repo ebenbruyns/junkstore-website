@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "10.9 hrs"
+hltb_main_extra: "12.6 hrs"
+hltb_completionist: "15.9 hrs"
+hltb_url: "https://howlongtobeat.com/game/65080"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/a-plague-tale-innocence"
 protondb_url: "https://www.protondb.com/app/752590"

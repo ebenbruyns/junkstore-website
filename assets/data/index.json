@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-04-20T23:17:38.798Z",
+  "last_updated": "2026-04-23T06:45:53.583Z",
   "total_tested_games": 989,
-  "featured_games": 3,
+  "featured_games": 0,
   "storefronts": {
     "Epic": {
       "total": 472,
-      "featured": 2,
+      "featured": 0,
       "directory": "epic"
     },
     "GOG": {
       "total": 372,
-      "featured": 1,
+      "featured": 0,
       "directory": "gog"
     },
     "Amazon": {
@@ -26,28 +26,60 @@
   },
   "recent_updates": [
     {
+      "title": "Symphonia",
+      "storefront": "GOG",
+      "slug": "symphonia",
+      "date_tested": "Dec '24",
+      "is_featured": false,
+      "updated_at": "2026-04-23T06:32:25.457Z"
+    },
+    {
+      "title": "Baldur's Gate II: Enhanced Edition",
+      "storefront": "GOG",
+      "slug": "baldurs-gate-ii-enhanced-edition",
+      "date_tested": "Dec '24",
+      "is_featured": false,
+      "updated_at": "2026-04-23T05:51:01.715Z"
+    },
+    {
+      "title": "Afterimage",
+      "storefront": "Amazon",
+      "slug": "afterimage",
+      "date_tested": "Sep '25",
+      "is_featured": false,
+      "updated_at": "2026-04-23T05:32:26.137Z"
+    },
+    {
+      "title": "Aces of the Luftwaffe - Squadron Extended Edition",
+      "storefront": "Amazon",
+      "slug": "aces-of-the-luftwaffe-squadron-extended-edition",
+      "date_tested": "July '25",
+      "is_featured": false,
+      "updated_at": "2026-04-23T05:30:32.414Z"
+    },
+    {
       "title": "Snake Core",
       "storefront": "GOG",
       "slug": "snake-core",
       "date_tested": "April '26",
-      "is_featured": true,
-      "updated_at": "2026-04-20T23:14:53.686Z"
+      "is_featured": false,
+      "updated_at": "2026-04-23T02:28:11.010Z"
     },
     {
       "title": "The Stone of Madness",
       "storefront": "Epic",
       "slug": "the-stone-of-madness",
       "date_tested": "April '26",
-      "is_featured": true,
-      "updated_at": "2026-04-20T03:46:59.761Z"
+      "is_featured": false,
+      "updated_at": "2026-04-21T00:38:52.290Z"
     },
     {
       "title": "Monster Harvest",
       "storefront": "Epic",
       "slug": "monster-harvest",
       "date_tested": "April '26",
-      "is_featured": true,
-      "updated_at": "2026-04-20T03:46:27.113Z"
+      "is_featured": false,
+      "updated_at": "2026-04-21T00:38:49.280Z"
     },
     {
       "title": "Sin Slayers: The First Sin",
@@ -152,38 +184,6 @@
       "date_tested": "Aug '25",
       "is_featured": false,
       "updated_at": "2026-04-20T00:36:23.386Z"
-    },
-    {
-      "title": "World in Conflict: Complete Edition",
-      "storefront": "GOG",
-      "slug": "world-in-conflict-complete-edition",
-      "date_tested": "May '25",
-      "is_featured": false,
-      "updated_at": "2026-04-20T00:34:02.535Z"
-    },
-    {
-      "title": "Warhammer 40,000: Rites of War",
-      "storefront": "GOG",
-      "slug": "warhammer-40000-rites-of-war",
-      "date_tested": "May '25",
-      "is_featured": false,
-      "updated_at": "2026-04-20T00:33:05.374Z"
-    },
-    {
-      "title": "Silent Hill 4: The Room",
-      "storefront": "GOG",
-      "slug": "silent-hill-4-the-room",
-      "date_tested": "March '25",
-      "is_featured": false,
-      "updated_at": "2026-04-20T00:29:58.300Z"
-    },
-    {
-      "title": "SWAT 4: Gold Edition",
-      "storefront": "GOG",
-      "slug": "swat-4-gold-edition",
-      "date_tested": "Oct '24",
-      "is_featured": false,
-      "updated_at": "2026-04-20T00:28:33.476Z"
     }
   ]
 }

@@ -46,11 +46,17 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "25 hrs"
+hltb_main_extra: "28.3 hrs"
+hltb_completionist: "46.8 hrs"
+hltb_url: "https://howlongtobeat.com/game/112251"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/arcade-paradise"
 protondb_url: "https://www.protondb.com/app/1388870"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Arcade_Paradise"
 metacritic_score: 
 metacritic_url: ""
 

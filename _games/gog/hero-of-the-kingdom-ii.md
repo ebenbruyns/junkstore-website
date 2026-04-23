@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "4.5 hrs"
+hltb_main_extra: "5.5 hrs"
+hltb_completionist: "6 hrs"
+hltb_url: "https://howlongtobeat.com/game/26317"
+
 # Links
 store_url: "https://www.gog.com/en/game/hero_of_the_kingdom_ii"
 protondb_url: "https://www.protondb.com/app/346560"

@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "12 hrs"
+hltb_main_extra: "21 hrs"
+hltb_completionist: "32.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/25775"
+
 # Links
 store_url: "https://www.gog.com/en/game/medal_of_honor_allied_assault_war_chest"
 protondb_url: ""

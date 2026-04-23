@@ -22,9 +22,9 @@ game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","Czech*","Slovak*","French*","German*","Spanish - Spain*","Portuguese - Brazil*","Portuguese - Portugal*","Spanish - Latin America*","Russian*"]
 
 # Images
-banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2174420/library_hero.jpg"
-cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2174420/library_600x900.jpg"
-icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2174420/capsule_231x87.jpg"
+banner_image: "https://cdn1.epicgames.com/spt-assets/6666791b9d354f288ae95f6c243d45ff/lucky-goal-om9ft.png"
+cover_image: "https://cdn1.epicgames.com/spt-assets/6666791b9d354f288ae95f6c243d45ff/lucky-goal-5ehm1.png"
+icon_image: "https://images.gog.com/581990700dea20340af4dd657d5de89da53e7ecf3f3ca2d3300e47b73b6d8e49.jpg?namespace=gamesdb"
 
 # Technical Details
 controller_input: "keyboard-mouse"
@@ -45,6 +45,12 @@ must_be_online: false
 requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/luckygoal-201ee6"

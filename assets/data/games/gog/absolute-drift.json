@@ -3,6 +3,7 @@
   "title": "Absolute Drift",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/320140",
+  "protondb_report_url": "",
   "gog_url": "https://www.gog.com/en/game/absolute_drift",
   "epic_url": "",
   "itch_url": "",
@@ -45,9 +46,15 @@
   "game_modes": [
     "Single player"
   ],
-  "languages": [],
+  "languages": [
+    "English"
+  ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_main": "2.5 hrs",
+  "hltb_main_extra": "4.5 hrs",
+  "hltb_completionist": "9 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/28913",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,

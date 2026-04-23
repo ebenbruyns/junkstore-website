@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "16.1 hrs"
+hltb_main_extra: "22.9 hrs"
+hltb_completionist: "30.8 hrs"
+hltb_url: "https://howlongtobeat.com/game/112983"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/assassin-s-creed-mirage"
 protondb_url: "https://www.protondb.com/app/3035570"

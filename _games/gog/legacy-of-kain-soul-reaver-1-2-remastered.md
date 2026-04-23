@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
+
 # Links
-store_url: "https://www.gog.com/en/game/legacy_of_kain_soul_reaver_1_2_remastered"
+store_url: "https://www.gog.com/en/game/legacy_of_kain_soul_reaver_12_remastered"
 protondb_url: "https://www.protondb.com/app/2521380"
 protondb_report_url: ""
 pcgamingwiki_url: ""

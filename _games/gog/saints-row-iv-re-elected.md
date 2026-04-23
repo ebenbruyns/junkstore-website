@@ -46,11 +46,17 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "15 hrs"
+hltb_main_extra: "26 hrs"
+hltb_completionist: "43 hrs"
+hltb_url: "https://howlongtobeat.com/game/39397"
+
 # Links
-store_url: "https://www.gog.com/en/game/saints_row_iv_re_elected"
+store_url: "https://www.gog.com/en/game/saints_row_iv_reelected"
 protondb_url: "https://www.protondb.com/app/206420"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row_IV"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/saints-row-iv?ftag=MCD-06-10aaa1f"
 

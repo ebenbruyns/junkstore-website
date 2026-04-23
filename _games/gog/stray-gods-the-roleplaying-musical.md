@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "6 hrs"
+hltb_main_extra: "7.5 hrs"
+hltb_completionist: "18.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/105790"
+
 # Links
 store_url: "https://www.gog.com/en/game/stray_gods_the_roleplaying_musical"
 protondb_url: "https://www.protondb.com/app/1920780"

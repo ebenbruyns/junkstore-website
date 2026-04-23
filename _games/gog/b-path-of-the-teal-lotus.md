@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "10 hrs"
+hltb_main_extra: "13.5 hrs"
+hltb_completionist: "17.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/111259"
+
 # Links
 store_url: "https://www.gog.com/en/game/bo_path_of_the_teal_lotus"
 protondb_url: "https://www.protondb.com/app/1614440"

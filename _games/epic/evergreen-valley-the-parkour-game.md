@@ -22,9 +22,9 @@ game_modes: ["Single player"]
 languages: ["English","Turkish","Welsh","Vietnamese","Ukrainian","Swedish","Spanish (Latin America)","Slovak","Russian","Romanian","Portuguese (Brazil)","Portuguese","Polish","Serbian","Spanish (Spain)","Tagalog","Thai","Malay","Lithuanian","Korean","Japanese","Italian","Indonesian","Hungarian","Hindi","Hebrew","Greek","German","French","Finnish","Dutch","Croatian","Chinese (Traditional)","Chinese (Simplified)","Catalan","Arabic","Bulgarian","Danish","Czech","Norwegian"]
 
 # Images
-banner_image: "https://cdn1.epicgames.com/spt-assets/7ceb18d65aee4c36b5be5c745921b2f8/evergreen-valley-the-parkour-game-842b8.png"
-cover_image: "https://cdn1.epicgames.com/spt-assets/7ceb18d65aee4c36b5be5c745921b2f8/evergreen-valley-the-parkour-game-logo-2f5fw.png?resize=1&w=480&h=270&quality=medium"
-icon_image: "https://cdn1.epicgames.com/spt-assets/7ceb18d65aee4c36b5be5c745921b2f8/evergreen-valley-the-parkour-game-logo-2f5fw.png?resize=1&w=480&h=270&quality=medium"
+banner_image: "https://cdn1.epicgames.com/spt-assets/7ceb18d65aee4c36b5be5c745921b2f8/evergreen-valley-the-parkour-game-21pj0.png"
+cover_image: "https://cdn1.epicgames.com/spt-assets/7ceb18d65aee4c36b5be5c745921b2f8/evergreen-valley-the-parkour-game-ww91n.png"
+icon_image: "https://images.gog.com/38439e0e37b44d4073955e385ceb71c36ee45f563df0ab1566aefb2c2f0fc366.jpg?namespace=gamesdb"
 
 # Technical Details
 controller_input: "keyboard-mouse"
@@ -45,6 +45,12 @@ must_be_online: false
 requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/evergreen-valley-the-parkour-game-761e7b"

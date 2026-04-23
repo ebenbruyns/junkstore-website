@@ -22,9 +22,9 @@ game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","French*","Italian","German*","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Japanese*"]
 
 # Images
-banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/597170/library_hero.jpg"
-cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/597170/library_600x900.jpg"
-icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/597170/capsule_231x87.jpg"
+banner_image: "https://cdn1.epicgames.com/spt-assets/2300be8843b24d9a8abaa663a2b544f8/clone-drone-in-the-danger-zone-9l989.png"
+cover_image: "https://cdn1.epicgames.com/spt-assets/2300be8843b24d9a8abaa663a2b544f8/clone-drone-in-the-danger-zone-1qmrz.png"
+icon_image: "https://images.gog.com/e31d560c774b632e1bfa2a277f5c4f64b8d28bc4aa45ac612ec6566a371eeeb6.jpg?namespace=gamesdb"
 
 # Technical Details
 controller_input: "native"
@@ -45,6 +45,12 @@ must_be_online: false
 requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: "2.1 hrs"
+hltb_main_extra: "15.5 hrs"
+hltb_completionist: "37.9 hrs"
+hltb_url: "https://howlongtobeat.com/game/46204"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/clone-drone-in-the-danger-zone-4daf6e"

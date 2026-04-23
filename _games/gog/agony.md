@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "7.5 hrs"
+hltb_main_extra: "10 hrs"
+hltb_completionist: "13.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/56879"
+
 # Links
 store_url: "https://www.gog.com/en/game/agony"
 protondb_url: "https://www.protondb.com/app/487720"

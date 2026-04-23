@@ -46,11 +46,17 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fallout-3-game-of-the-year-edition"
 protondb_url: "https://www.protondb.com/app/22370"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_3"
 metacritic_score: 91
 metacritic_url: "https://www.metacritic.com/game/fallout-3-game-of-the-year-edition/"
 

@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "16.2 hrs"
+hltb_main_extra: "19.5 hrs"
+hltb_completionist: "31.4 hrs"
+hltb_url: "https://howlongtobeat.com/game/83381"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/art-of-rally"
 protondb_url: "https://www.protondb.com/app/550320"

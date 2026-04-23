@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "7.5 hrs"
+hltb_main_extra: "10.5 hrs"
+hltb_completionist: "16 hrs"
+hltb_url: "https://howlongtobeat.com/game/9099"
+
 # Links
 store_url: "https://www.gog.com/en/game/star_wars_bounty_hunter"
 protondb_url: "https://www.protondb.com/app/2419090"

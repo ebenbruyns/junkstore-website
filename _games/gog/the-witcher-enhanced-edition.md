@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "35 hrs"
+hltb_main_extra: "46 hrs"
+hltb_completionist: "63.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/10267"
+
 # Links
-store_url: "https://www.gog.com/en/game/witcher_enhanced_edition"
+store_url: "https://www.gog.com/en/game/the_witcher"
 protondb_url: "https://www.protondb.com/app/20900"
 protondb_report_url: ""
 pcgamingwiki_url: ""

@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "18.5 hrs"
+hltb_main_extra: "27.5 hrs"
+hltb_completionist: "67.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/78046"
+
 # Links
-store_url: "https://www.gog.com/en/game/legend_of_keepers_career_of_a_dungeon_manager"
+store_url: "https://www.gog.com/en/game/legend_of_keepers_career_of_a_dungeon_master"
 protondb_url: "https://www.protondb.com/app/978520"
 protondb_report_url: ""
 pcgamingwiki_url: ""

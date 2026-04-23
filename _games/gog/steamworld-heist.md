@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "12 hrs"
+hltb_main_extra: "16.5 hrs"
+hltb_completionist: "21 hrs"
+hltb_url: "https://howlongtobeat.com/game/24012"
+
 # Links
 store_url: "https://www.gog.com/en/game/steamworld_heist"
 protondb_url: "https://www.protondb.com/app/322190"

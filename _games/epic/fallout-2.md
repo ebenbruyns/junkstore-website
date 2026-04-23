@@ -46,11 +46,17 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "30 hrs"
+hltb_main_extra: "47 hrs"
+hltb_completionist: "82.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/3339"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fallout-2"
 protondb_url: "https://www.protondb.com/app/38410"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_2"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/fallout-2?ftag=MCD-06-10aaa1f"
 

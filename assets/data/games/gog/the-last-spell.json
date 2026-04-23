@@ -3,7 +3,8 @@
   "title": "The Last Spell",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/1105670",
-  "gog_url": "https://www.gog.com/en/game/last_spell",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/the_last_spell",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
@@ -50,11 +51,16 @@
   ],
   "metacritic_score": 82,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-last-spell?ftag=MCD-06-10aaa1f",
+  "hltb_main": "39 hrs",
+  "hltb_main_extra": "66 hrs",
+  "hltb_completionist": "95 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/93160",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "hltb_id": 93160
 }

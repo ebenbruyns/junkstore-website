@@ -46,10 +46,16 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-stone-of-madness-7b22f3"
 protondb_url: "https://www.protondb.com/app/1309710"
-protondb_report_url: ""
+protondb_report_url: "https://www.protondb.com/app/1309710#5Pr0WIj8A8"
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Stone_of_Madness"
 metacritic_score: 
 metacritic_url: ""
@@ -62,7 +68,7 @@ known_issues:
 
 # Meta
 database_id: "ee9aba2358a7484da67fef34106bb13a"
-is_featured: true
+is_featured: false
 ---
 
 The Stone of Madness is a real-time tactical stealth game set in an 18th-century Spanish Monastery. Five prisoners pool their skills and resources to face their phobias, stave off insanity, uncover the mysteries of the Monastery, and find a way to escape.

@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "1.5 hrs"
+hltb_main_extra: ""
+hltb_completionist: "4 hrs"
+hltb_url: "https://howlongtobeat.com/game/13899"
+
 # Links
 store_url: "https://www.gog.com/en/game/heroes_of_loot"
 protondb_url: "https://www.protondb.com/app/359280"

@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "4.7 hrs"
+hltb_main_extra: "5.2 hrs"
+hltb_completionist: "7 hrs"
+hltb_url: "https://howlongtobeat.com/game/93683"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bramble-the-mountain-king-c0d1c6"
 protondb_url: "https://www.protondb.com/app/1623940"

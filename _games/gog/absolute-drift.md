@@ -19,7 +19,7 @@ developer: Funselektor Labs
 genre: Indie, Indie, Indie, Indie, Indie
 release_date: "July 29, 2015"
 game_modes: ["Single player"]
-languages: []
+languages: ["English"]
 
 # Images
 banner_image: "https://images.gog.com/f9875e4f9f2125007f6a7969b5c101850e9c4d1c8fe069dc82c4bb60ebc413ad.jpg?namespace=gamesdb"
@@ -45,6 +45,12 @@ must_be_online: false
 requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: "2.5 hrs"
+hltb_main_extra: "4.5 hrs"
+hltb_completionist: "9 hrs"
+hltb_url: "https://howlongtobeat.com/game/28913"
 
 # Links
 store_url: "https://www.gog.com/en/game/absolute_drift"

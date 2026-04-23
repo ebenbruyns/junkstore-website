@@ -3,7 +3,8 @@
   "title": "The Falconeer",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/1135260",
-  "gog_url": "https://www.gog.com/en/game/falconeer",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/the_falconeer",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
@@ -50,11 +51,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_main": "9 hrs",
+  "hltb_main_extra": "11.5 hrs",
+  "hltb_completionist": "14.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/83463",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "hltb_id": 83463
 }

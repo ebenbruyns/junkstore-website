@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "9 hrs"
+hltb_main_extra: "13 hrs"
+hltb_completionist: "16.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/9498"
+
 # Links
-store_url: "https://www.gog.com/en/game/swat_4"
+store_url: "https://www.gog.com/en/game/swat_4_gold_edition"
 protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""

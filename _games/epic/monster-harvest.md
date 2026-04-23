@@ -24,7 +24,7 @@ languages: ["English","French","German","Spanish - Spain","Simplified Chinese","
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/5f1eb1585c6049199a499059c2326087/monster-harvest-offer-19f8k.jpg"
 cover_image: "https://cdn1.epicgames.com/spt-assets/5f1eb1585c6049199a499059c2326087/download-monster-harvest-offer-idy8y.jpg"
-icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1363350/capsule_231x87.jpg"
+icon_image: "https://images.gog.com/a619548509f7106478975e16c80ac62c9b641e19f64d61382976358a113aaf89.jpg?namespace=gamesdb"
 
 # Technical Details
 controller_input: "native"
@@ -46,10 +46,16 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/monster-harvest-75f018"
 protondb_url: "https://www.protondb.com/app/1363350"
-protondb_report_url: ""
+protondb_report_url: "https://www.protondb.com/app/1363350#hsoq7Rj16L"
 pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
@@ -62,7 +68,7 @@ known_issues:
 
 # Meta
 database_id: "f0c0868c860f4eb7a150d980e037e1c6"
-is_featured: true
+is_featured: false
 ---
 
 Monster Harvest is a monster collecting and farming action RPG with a twist! Grow, collect and mutate your crops then take them into battle! Filled with places to discover and multiple ways to build your farm, get ready to craft, explore and battle across the vibrant world of Planimal Point.

@@ -46,11 +46,17 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/grime"
 protondb_url: "https://www.protondb.com/app/1123050"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Grime"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/grime?ftag=MCD-06-10aaa1f"
 

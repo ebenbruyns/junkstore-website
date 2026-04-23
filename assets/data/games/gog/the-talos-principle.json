@@ -3,7 +3,8 @@
   "title": "The Talos Principle",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/257510",
-  "gog_url": "https://www.gog.com/en/game/talos_principle_gold_edition",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/the_talos_principle_gold_edition",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
@@ -50,11 +51,16 @@
   ],
   "metacritic_score": 85,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-talos-principle?ftag=MCD-06-10aaa1f",
+  "hltb_main": "15.5 hrs",
+  "hltb_main_extra": "21 hrs",
+  "hltb_completionist": "29 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/22530",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "hltb_id": 22530
 }

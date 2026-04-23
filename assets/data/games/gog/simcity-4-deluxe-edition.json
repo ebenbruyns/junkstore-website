@@ -3,7 +3,8 @@
   "title": "SimCity 4: Deluxe Edition",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/24780",
-  "gog_url": "https://www.gog.com/en/game/simcity_4_deluxe",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/simcity_4_deluxe_edition",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/SimCity_4",
@@ -58,6 +59,10 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_main": "15.5 hrs",
+  "hltb_main_extra": "16.5 hrs",
+  "hltb_completionist": "84.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/27210",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -65,5 +70,6 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-10-25T19:25:50.704Z"
+  "updated_at": "2025-10-25T19:25:50.704Z",
+  "hltb_id": 27210
 }

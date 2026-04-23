@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "13 hrs"
+hltb_main_extra: "45.5 hrs"
+hltb_completionist: "133.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/8505"
+
 # Links
 store_url: "https://www.gog.com/en/game/sid_meiers_civilization_iv_the_complete_edition"
 protondb_url: "https://www.protondb.com/app/3900"

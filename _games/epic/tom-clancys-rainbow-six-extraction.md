@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: true
 cant_test_linux: true
 
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tom-clancy-s-rainbow-six-extraction"
 protondb_url: "https://www.protondb.com/app/2379390"

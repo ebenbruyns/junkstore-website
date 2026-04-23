@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "4 hrs"
+hltb_main_extra: "4.5 hrs"
+hltb_completionist: "5 hrs"
+hltb_url: "https://howlongtobeat.com/game/26806"
+
 # Links
 store_url: "https://www.gog.com/en/game/firewatch"
 protondb_url: "https://www.protondb.com/app/383870"

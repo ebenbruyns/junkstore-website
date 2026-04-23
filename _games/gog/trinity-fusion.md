@@ -46,11 +46,17 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "5 hrs"
+hltb_main_extra: "13.5 hrs"
+hltb_completionist: ""
+hltb_url: "https://howlongtobeat.com/game/123801"
+
 # Links
 store_url: "https://www.gog.com/en/game/trinity_fusion"
 protondb_url: "https://www.protondb.com/app/1911360"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trinity_Fusion"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/trinity-fusion?ftag=MCD-06-10aaa1f"
 

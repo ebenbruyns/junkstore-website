@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "15.5 hrs"
+hltb_main_extra: "56.5 hrs"
+hltb_completionist: "94 hrs"
+hltb_url: "https://howlongtobeat.com/game/25231"
+
 # Links
 store_url: "https://www.gog.com/en/game/mordheim_city_of_the_damned"
 protondb_url: "https://www.protondb.com/app/276810"

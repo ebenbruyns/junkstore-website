@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "1 hrs"
+hltb_main_extra: "5 hrs"
+hltb_completionist: "17.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/6209"
+
 # Links
 store_url: "https://www.gog.com/en/game/mortal_kombat_trilogy"
 protondb_url: ""

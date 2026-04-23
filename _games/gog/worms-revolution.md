@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "18.5 hrs"
+hltb_main_extra: "32.5 hrs"
+hltb_completionist: "49.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/11315"
+
 # Links
-store_url: "https://www.gog.com/en/game/worms_revolution_gold_edition"
+store_url: "https://www.gog.com/en/game/worms_revolution"
 protondb_url: "https://www.protondb.com/app/200170"
 protondb_report_url: ""
 pcgamingwiki_url: ""

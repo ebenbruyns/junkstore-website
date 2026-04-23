@@ -3,7 +3,8 @@
   "title": "Tomb Raider I•II•III Remastered",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/2478970",
-  "gog_url": "https://www.gog.com/en/game/tomb_raider_13_remastered_starring_lara_croft",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/tomb_raider_i_to_iii_remastered",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
@@ -50,11 +51,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_main": "38.5 hrs",
+  "hltb_main_extra": "68 hrs",
+  "hltb_completionist": "92.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/137867",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "updated_at": "2025-08-01T04:08:36.970Z",
+  "hltb_id": 137867
 }

@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "1.2 hrs"
+hltb_main_extra: "1.6 hrs"
+hltb_completionist: "1.9 hrs"
+hltb_url: "https://howlongtobeat.com/game/93531"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/behind-the-frame-the-finest-scenery"
 protondb_url: "https://www.protondb.com/app/1634150"

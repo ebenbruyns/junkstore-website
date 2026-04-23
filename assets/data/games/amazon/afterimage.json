@@ -3,6 +3,7 @@
   "title": "Afterimage",
   "storefront": "Amazon",
   "protondb": "https://www.protondb.com/app/1701520",
+  "protondb_report_url": "",
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
@@ -37,7 +38,7 @@
   "releasedate": "Apr 24, 2023",
   "genre": "Action, Adventure, Indie",
   "description": "Afterimage is a hand-drawn 2D action adventure that emphasizes fast-paced combat with diversified character builds, non-linear levels, and a gripping story set in the ruins of a fantasy world.",
-  "size": "4919953438\n",
+  "size": "4.58 GB",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1701520/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1701520/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1701520/capsule_231x87.jpg",
@@ -57,12 +58,16 @@
     "Traditional Chinese*",
     "Korean"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 79,
+  "metacritic_url": "https://www.metacritic.com/game/afterimage/",
+  "hltb_main": "",
+  "hltb_main_extra": "",
+  "hltb_completionist": "",
+  "hltb_url": "https://howlongtobeat.com/game/106113",
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-11T20:18:45.505Z",
-  "updated_at": "2026-02-08T02:00:27.247Z"
+  "updated_at": "2026-04-23T05:32:26.137Z"
 }

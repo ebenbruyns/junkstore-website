@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "1.3 hrs"
+hltb_main_extra: "1.5 hrs"
+hltb_completionist: "2 hrs"
+hltb_url: "https://howlongtobeat.com/game/86459"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/adios"
 protondb_url: "https://www.protondb.com/app/1271400"

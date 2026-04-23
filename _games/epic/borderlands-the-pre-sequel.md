@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "18.1 hrs"
+hltb_main_extra: "29.4 hrs"
+hltb_completionist: "60.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/21248"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/borderlands-the-pre-sequel"
 protondb_url: "https://www.protondb.com/app/261640"

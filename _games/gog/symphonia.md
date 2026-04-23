@@ -8,8 +8,8 @@ storefront_key: "gog"
 permalink: /games/gog/symphonia/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: ""
+standalone_rating: ""
 date_tested: "Dec '24"
 proton_version: ""
 
@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
+
 # Links
-store_url: "https://www.gog.com/en/game/symphonia_student_project_2020"
+store_url: "https://www.gog.com/game/symphonia"
 protondb_url: "https://www.protondb.com/app/1865960"
 protondb_report_url: ""
 pcgamingwiki_url: ""
@@ -56,7 +62,7 @@ metacritic_url: ""
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Student Project, 2020."
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

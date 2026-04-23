@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "6.2 hrs"
+hltb_main_extra: "16.5 hrs"
+hltb_completionist: "60.4 hrs"
+hltb_url: "https://howlongtobeat.com/game/127248"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/call-of-dragons-d85ee6"
 protondb_url: ""

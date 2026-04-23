@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: true
 
+# HowLongToBeat
+hltb_main: "32.6 hrs"
+hltb_main_extra: "85.1 hrs"
+hltb_completionist: "146.3 hrs"
+hltb_url: "https://howlongtobeat.com/game/64753"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/apex-legends"
 protondb_url: ""

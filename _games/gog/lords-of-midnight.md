@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "3.5 hrs"
+hltb_main_extra: "7 hrs"
+hltb_completionist: ""
+hltb_url: "https://howlongtobeat.com/game/17960"
+
 # Links
 store_url: "https://www.gog.com/en/game/the_lords_of_midnight"
 protondb_url: ""

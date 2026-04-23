@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "7.5 hrs"
+hltb_main_extra: "8 hrs"
+hltb_completionist: "9 hrs"
+hltb_url: "https://howlongtobeat.com/game/41638"
+
 # Links
-store_url: "https://www.gog.com/en/game/hellblade_senuas_sacrifice"
+store_url: "https://www.gog.com/en/game/hellblade_senuas_sacrifice_pack"
 protondb_url: "https://www.protondb.com/app/414340"
 protondb_report_url: ""
 pcgamingwiki_url: ""

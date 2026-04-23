@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "3 hrs"
+hltb_main_extra: "5 hrs"
+hltb_completionist: "9.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/149747"
+
 # Links
 store_url: "https://www.gog.com/en/game/mullet_madjack"
 protondb_url: "https://www.protondb.com/app/2111190"

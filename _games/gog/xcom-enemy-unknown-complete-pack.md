@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "26.5 hrs"
+hltb_main_extra: "37.5 hrs"
+hltb_completionist: "69.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/11397"
+
 # Links
 store_url: "https://www.gog.com/en/game/xcom_enemy_unknown_complete_pack"
 protondb_url: "https://www.protondb.com/app/200510"

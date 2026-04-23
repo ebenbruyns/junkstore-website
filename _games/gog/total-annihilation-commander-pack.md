@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "22.5 hrs"
+hltb_main_extra: "32 hrs"
+hltb_completionist: "55 hrs"
+hltb_url: "https://howlongtobeat.com/game/10539"
+
 # Links
-store_url: "https://www.gog.com/en/game/total_annihilation_commander_pack"
+store_url: "https://www.gog.com/en/game/total_anihilation_commander_pack"
 protondb_url: "https://www.protondb.com/app/298030"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Total_Annihilation"

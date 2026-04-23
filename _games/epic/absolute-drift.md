@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "2.7 hrs"
+hltb_main_extra: "4.5 hrs"
+hltb_completionist: "9.1 hrs"
+hltb_url: "https://howlongtobeat.com/game/28913"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/absolute-drift"
 protondb_url: "https://www.protondb.com/app/320140"

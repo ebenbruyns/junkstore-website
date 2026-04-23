@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
+
 # Links
-store_url: "https://www.gog.com/en/game/time_loader_first_memories"
+store_url: "https://www.gog.com/en/game/time_loader_prologue"
 protondb_url: "https://www.protondb.com/app/1421970"
 protondb_report_url: ""
 pcgamingwiki_url: ""

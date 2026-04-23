@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "34.5 hrs"
+hltb_main_extra: "45 hrs"
+hltb_completionist: "55.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/82601"
+
 # Links
 store_url: "https://www.gog.com/en/game/chained_echoes"
 protondb_url: "https://www.protondb.com/app/1229240"

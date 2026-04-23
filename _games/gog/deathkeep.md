@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "15 hrs"
+hltb_main_extra: "16 hrs"
+hltb_completionist: ""
+hltb_url: "https://howlongtobeat.com/game/2372"
+
 # Links
 store_url: "https://www.gog.com/en/game/deathkeep"
 protondb_url: "https://www.protondb.com/app/2350540"

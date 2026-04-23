@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "20 hrs"
+hltb_main_extra: "26 hrs"
+hltb_completionist: "35 hrs"
+hltb_url: "https://howlongtobeat.com/game/10298"
+
 # Links
 store_url: "https://www.gog.com/en/game/thief_2_the_metal_age"
 protondb_url: "https://www.protondb.com/app/211740"

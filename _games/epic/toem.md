@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "3 hrs"
+hltb_main_extra: "4 hrs"
+hltb_completionist: "6 hrs"
+hltb_url: "https://howlongtobeat.com/game/86977"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/toem"
 protondb_url: "https://www.protondb.com/app/1307580"

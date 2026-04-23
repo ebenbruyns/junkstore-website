@@ -3,7 +3,8 @@
   "title": "Vampire: The Masquerade - Bloodlines",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/2600",
-  "gog_url": "https://www.gog.com/en/game/vampire_the_masquerade_-_bloodlines",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/vampire_the_masquerade_bloodlines",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
@@ -50,6 +51,10 @@
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/pc/vampire-the-masquerade---bloodlines?ftag=MCD-06-10aaa1f",
+  "hltb_main": "22.5 hrs",
+  "hltb_main_extra": "28.5 hrs",
+  "hltb_completionist": "39 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/10890",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -57,5 +62,6 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-08-11T04:57:01.930Z"
+  "updated_at": "2025-08-11T04:57:01.930Z",
+  "hltb_id": 10890
 }

@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "15.5 hrs"
+hltb_main_extra: "17.5 hrs"
+hltb_completionist: "30 hrs"
+hltb_url: "https://howlongtobeat.com/game/73035"
+
 # Links
 store_url: "https://www.gog.com/en/game/tin_hearts"
 protondb_url: "https://www.protondb.com/app/1831700"

@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "20 hrs"
+hltb_main_extra: ""
+hltb_completionist: "22 hrs"
+hltb_url: "https://howlongtobeat.com/game/31462"
+
 # Links
 store_url: "https://www.gog.com/en/game/warhammer_40000_rites_of_war"
 protondb_url: "https://www.protondb.com/app/4280900"

@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "11.6 hrs"
+hltb_main_extra: "20 hrs"
+hltb_completionist: "40 hrs"
+hltb_url: "https://howlongtobeat.com/game/109596"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/call-of-the-wild-the-angler"
 protondb_url: "https://www.protondb.com/app/1408610"

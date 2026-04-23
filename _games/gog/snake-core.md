@@ -46,23 +46,29 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
+
 # Links
 store_url: "https://www.gog.com/en/game/snake_core"
 protondb_url: "https://www.protondb.com/app/1262770"
-protondb_report_url: ""
+protondb_report_url: "https://www.protondb.com/app/1262770"
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Snake_Core"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/snake-core/"
 
 # Notes
-notes: "Works out of the box!<br>\nYou'll need to set D-pad to arrow keys, assign ESC, X and O to keys as well."
+notes: "Works out of the box!<br>"
 controller_config: 
 performance_notes: 
 known_issues: 
 
 # Meta
 database_id: "1276268370"
-is_featured: true
+is_featured: false
 ---
 
 Are you ready to command a range of different units as they battle aliens in a mission-based take on the classic Snake? Select your path to victory!

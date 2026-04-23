@@ -3,7 +3,8 @@
   "title": "Front Mission: 1st Remake - Limited Edition",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/2399730",
-  "gog_url": "https://www.gog.com/en/game/front_mission_1st_remake_limited_edition",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/front_mission_1st_remake",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
@@ -58,6 +59,10 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_main": "24.5 hrs",
+  "hltb_main_extra": "40.5 hrs",
+  "hltb_completionist": "56.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/117885",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -65,5 +70,6 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-11T05:03:50.171Z"
+  "updated_at": "2025-08-11T05:03:50.171Z",
+  "hltb_id": 117885
 }

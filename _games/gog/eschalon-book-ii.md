@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "18.5 hrs"
+hltb_main_extra: "39 hrs"
+hltb_completionist: "67.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/3160"
+
 # Links
 store_url: "https://www.gog.com/en/game/eschalon_book_ii"
 protondb_url: "https://www.protondb.com/app/25620"

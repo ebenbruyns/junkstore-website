@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "30.2 hrs"
+hltb_main_extra: "52.5 hrs"
+hltb_completionist: "85.3 hrs"
+hltb_url: "https://howlongtobeat.com/game/46402"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/assassin-s-creed-origins"
 protondb_url: "https://www.protondb.com/app/582160"

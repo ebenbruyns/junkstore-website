@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "16.5 hrs"
+hltb_main_extra: "31.5 hrs"
+hltb_completionist: "61 hrs"
+hltb_url: "https://howlongtobeat.com/game/78978"
+
 # Links
-store_url: "https://www.gog.com/en/game/atom_rpg_trudograd_i"
+store_url: "https://www.gog.com/en/game/atom_rpg_trudograd"
 protondb_url: "https://www.protondb.com/app/1139940"
 protondb_report_url: ""
 pcgamingwiki_url: ""

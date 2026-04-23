@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "30 hrs"
+hltb_main_extra: "40.5 hrs"
+hltb_completionist: "53.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/9112"
+
 # Links
-store_url: "https://www.gog.com/en/game/the_knights_of_the_old_republic_ii_the_sith_lords"
+store_url: "https://www.gog.com/en/game/star_wars_knights_of_the_old_republic_ii_the_sith_lords"
 protondb_url: "https://www.protondb.com/app/208580"
 protondb_report_url: ""
 pcgamingwiki_url: ""

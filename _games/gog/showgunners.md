@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "13.5 hrs"
+hltb_main_extra: "17.5 hrs"
+hltb_completionist: "23 hrs"
+hltb_url: "https://howlongtobeat.com/game/127831"
+
 # Links
 store_url: "https://www.gog.com/en/game/showgunners"
 protondb_url: "https://www.protondb.com/app/1155330"

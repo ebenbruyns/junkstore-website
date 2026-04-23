@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "33 hrs"
+hltb_main_extra: "41.5 hrs"
+hltb_completionist: "57 hrs"
+hltb_url: "https://howlongtobeat.com/game/48039"
+
 # Links
 store_url: "https://www.gog.com/en/game/tower_of_time"
 protondb_url: "https://www.protondb.com/app/617480"

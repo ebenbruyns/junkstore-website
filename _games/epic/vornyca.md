@@ -22,9 +22,9 @@ game_modes: ["Single player"]
 languages: ["English"]
 
 # Images
-banner_image: "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-tnwih.png"
-cover_image: "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-t6xk9.jpg?resize=1&w=480&h=270&quality=medium"
-icon_image: "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-logo-mqm8i.png?resize=1&w=480&h=270&quality=medium"
+banner_image: "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-13ens.jpg"
+cover_image: "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-1irxk.jpg"
+icon_image: "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-logo-mqm8i.png"
 
 # Technical Details
 controller_input: "keyboard-mouse"
@@ -45,6 +45,12 @@ must_be_online: false
 requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/vornyca-987482"

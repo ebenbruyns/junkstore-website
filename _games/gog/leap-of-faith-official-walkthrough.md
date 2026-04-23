@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "11 hrs"
+hltb_main_extra: "16.5 hrs"
+hltb_completionist: "22.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/99487"
+
 # Links
-store_url: "https://www.gog.com/en/game/leap_of_faith_official_walkthrough"
+store_url: "https://www.gog.com/en/game/leap_of_faith"
 protondb_url: "https://www.protondb.com/app/1768640"
 protondb_report_url: ""
 pcgamingwiki_url: ""

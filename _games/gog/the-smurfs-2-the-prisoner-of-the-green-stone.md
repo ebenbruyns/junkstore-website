@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "7 hrs"
+hltb_main_extra: "8 hrs"
+hltb_completionist: "10.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/128830"
+
 # Links
-store_url: "https://www.gog.com/en/game/smurfs_2_the_prisoner_of_the_green_stone"
+store_url: "https://www.gog.com/en/game/the_smurfs_2_the_prisoner_of_the_green_stone"
 protondb_url: "https://www.protondb.com/app/2397500"
 protondb_report_url: ""
 pcgamingwiki_url: ""

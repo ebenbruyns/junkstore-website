@@ -46,11 +46,17 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "7.9 hrs"
+hltb_main_extra: "9.1 hrs"
+hltb_completionist: "11.7 hrs"
+hltb_url: "https://howlongtobeat.com/game/440"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/amnesia-the-dark-descent"
 protondb_url: "https://www.protondb.com/app/57300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia:_The_Dark_Descent"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/amnesia-the-dark-descent?ftag=MCD-06-10aaa1f"
 

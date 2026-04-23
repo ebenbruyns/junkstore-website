@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "5.5 hrs"
+hltb_main_extra: "9.5 hrs"
+hltb_completionist: "15.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/65593"
+
 # Links
 store_url: "https://www.gog.com/en/game/hypnospace_outlaw"
 protondb_url: "https://www.protondb.com/app/844590"

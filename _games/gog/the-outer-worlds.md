@@ -46,8 +46,14 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "13 hrs"
+hltb_main_extra: "26.5 hrs"
+hltb_completionist: "40.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/62935"
+
 # Links
-store_url: "https://www.gog.com/en/game/outer_worlds"
+store_url: "https://www.gog.com/en/game/the_outer_worlds"
 protondb_url: "https://www.protondb.com/app/578650"
 protondb_report_url: ""
 pcgamingwiki_url: ""

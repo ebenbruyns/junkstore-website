@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "1 hrs"
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: "https://howlongtobeat.com/game/128172"
+
 # Links
 store_url: "https://store.epicgames.com/en-US/p/against-all-odds-409105"
 protondb_url: "https://www.protondb.com/app/1465560"

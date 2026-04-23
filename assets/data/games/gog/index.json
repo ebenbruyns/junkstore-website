@@ -375,14 +375,26 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 1,
-  "last_updated": "2026-04-20T23:17:38.781Z",
+  "featured_games": 0,
+  "last_updated": "2026-04-23T06:45:53.566Z",
   "latest_games": [
+    {
+      "title": "Symphonia",
+      "slug": "symphonia",
+      "date_tested": "Dec '24",
+      "is_featured": false
+    },
+    {
+      "title": "Baldur's Gate II: Enhanced Edition",
+      "slug": "baldurs-gate-ii-enhanced-edition",
+      "date_tested": "Dec '24",
+      "is_featured": false
+    },
     {
       "title": "Snake Core",
       "slug": "snake-core",
       "date_tested": "April '26",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "Sin Slayers: The First Sin",
@@ -424,18 +436,6 @@
       "title": "Mortal Kombat Trilogy",
       "slug": "mortal-kombat-trilogy",
       "date_tested": "Oct '24",
-      "is_featured": false
-    },
-    {
-      "title": "Medal of Honor: Allied Assault War Chest",
-      "slug": "medal-of-honor-allied-assault-war-chest",
-      "date_tested": "March '25",
-      "is_featured": false
-    },
-    {
-      "title": "Lovecraft's Untold Stories",
-      "slug": "lovecrafts-untold-stories",
-      "date_tested": "Nov '25",
       "is_featured": false
     }
   ]

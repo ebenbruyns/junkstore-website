@@ -476,20 +476,20 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 2,
-  "last_updated": "2026-04-20T23:17:38.777Z",
+  "featured_games": 0,
+  "last_updated": "2026-04-23T06:45:53.561Z",
   "latest_games": [
     {
       "title": "The Stone of Madness",
       "slug": "the-stone-of-madness",
       "date_tested": "April '26",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "Monster Harvest",
       "slug": "monster-harvest",
       "date_tested": "April '26",
-      "is_featured": true
+      "is_featured": false
     },
     {
       "title": "Vornyca",

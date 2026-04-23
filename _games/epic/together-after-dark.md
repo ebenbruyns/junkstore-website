@@ -22,9 +22,9 @@ game_modes: ["Multi-player","Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Portuguese - Portugal","Russian"]
 
 # Images
-banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2708790/library_hero.jpg"
-cover_image: "https://steamcdn-a.akamaihd.net/steam/apps/2708790/library_600x900.jpg"
-icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/2708790/capsule_231x87.jpg"
+banner_image: "https://cdn1.epicgames.com/spt-assets/42a9aa9f7d7f40d1a0c1aa5c69565757/together-after-dark-1kn6v.png"
+cover_image: "https://cdn1.epicgames.com/spt-assets/42a9aa9f7d7f40d1a0c1aa5c69565757/together-after-dark-1ubcf.png"
+icon_image: "https://images.gog.com/539db339693c35973cbe076517f578bce146bdb160102664d831f0ad88becc1e.jpg?namespace=gamesdb"
 
 # Technical Details
 controller_input: "keyboard-mouse"
@@ -45,6 +45,12 @@ must_be_online: true
 requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
+
+# HowLongToBeat
+hltb_main: ""
+hltb_main_extra: ""
+hltb_completionist: ""
+hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/together-after-dark-fa0ce0"

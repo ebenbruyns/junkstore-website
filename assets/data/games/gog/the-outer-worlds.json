@@ -3,7 +3,8 @@
   "title": "The Outer Worlds",
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/578650",
-  "gog_url": "https://www.gog.com/en/game/outer_worlds",
+  "protondb_report_url": "",
+  "gog_url": "https://www.gog.com/en/game/the_outer_worlds",
   "epic_url": "",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
@@ -50,6 +51,10 @@
   ],
   "metacritic_score": 82,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-outer-worlds?ftag=MCD-06-10aaa1f",
+  "hltb_main": "13 hrs",
+  "hltb_main_extra": "26.5 hrs",
+  "hltb_completionist": "40.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/62935",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -57,5 +62,6 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-05T22:22:58.133Z"
+  "updated_at": "2025-08-05T22:22:58.133Z",
+  "hltb_id": 62935
 }

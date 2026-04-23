@@ -46,6 +46,12 @@ requires_eac_runtime: false
 requires_battleye_runtime: false
 cant_test_linux: false
 
+# HowLongToBeat
+hltb_main: "12 hrs"
+hltb_main_extra: "19.5 hrs"
+hltb_completionist: "37 hrs"
+hltb_url: "https://howlongtobeat.com/game/4475"
+
 # Links
 store_url: "https://www.gog.com/en/game/hitman_absolution"
 protondb_url: "https://www.protondb.com/app/203140"
