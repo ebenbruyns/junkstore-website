@@ -1,6 +1,7 @@
 ---
 layout: junkstore-splash
-title: "Junk Store Features"
+title: "Junk Store Pro Features: Play Non-Steam Games on Steam Deck"
+hero_title: "Junk Store Pro Features"
 description: "Junk Store Pro features for Steam Deck: built-in file manager, disk analyzer, process manager - all in Game Mode. Play Epic, GOG, Amazon & itch without Desktop Mode."
 permalink: /features/
 classes: wide

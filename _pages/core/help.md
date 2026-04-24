@@ -1,6 +1,7 @@
 ---
 layout: junkstore-page
-title: "Junk Store Help"
+title: "Junk Store Help — Steam Deck Troubleshooting & FAQs"
+hero_title: "Junk Store Help"
 description: "Junk Store help for Steam Deck - FAQ, troubleshooting, tutorials, and game compatibility. Covers both Decky Plugin and Pro Version."
 permalink: /help/
 ---
