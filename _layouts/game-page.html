@@ -7,12 +7,22 @@ layout: null
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.game_title }} - Steam Deck Compatibility | Junk Store</title>
-  <meta name="description" content="Play {{ page.game_title }} on Steam Deck with Junk Store. Compatibility tested, setup notes, and Proton tips for {{ page.storefront }} version.">
+
+  {%- assign compat = page.standalone_rating | default: page.decky_rating -%}
+  {%- assign tool_name = "Junk Store" -%}
+  {%- if page.storefront_key == "amazon" or page.storefront_key == "itch" -%}{%- assign tool_name = "Junk Store Pro" -%}{%- endif -%}
+  {%- if compat == "green" -%}{%- assign compat_text = "works out of the box" -%}
+  {%- elsif compat == "yellow" -%}{%- assign compat_text = "runs with some setup" -%}
+  {%- elsif compat == "red" -%}{%- assign compat_text = "runs with advanced setup" -%}
+  {%- elsif compat == "broken" -%}{%- assign compat_text = "not currently playable" -%}
+  {%- else -%}{%- assign compat_text = "compatibility tested" -%}{%- endif -%}
+
+  <meta name="description" content="Play {{ page.game_title }} ({{ page.storefront }}) on Steam Deck via {{ tool_name }} — {{ compat_text }}. Get Proton version, setup notes, and compatibility details.">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ page.game_title }} - Steam Deck Compatibility">
-  <meta property="og:description" content="Play {{ page.game_title }} on Steam Deck with Junk Store. Compatibility: {{ page.standalone_rating | default: 'Unknown' }}">
+  <meta property="og:description" content="Play {{ page.game_title }} ({{ page.storefront }}) on Steam Deck via {{ tool_name }} — {{ compat_text }}. Proton version, setup notes, and compatibility details.">
   <meta property="og:image" content="{{ page.banner_image }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="website">
@@ -20,7 +30,7 @@ layout: null
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page.game_title }} - Steam Deck Compatibility">
-  <meta name="twitter:description" content="Play {{ page.game_title }} on Steam Deck with Junk Store.">
+  <meta name="twitter:description" content="{{ page.game_title }} ({{ page.storefront }}) on Steam Deck via {{ tool_name }} — {{ compat_text }}.">
   <meta name="twitter:image" content="{{ page.banner_image }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,9 +51,23 @@ layout: null
     {% if page.genre %}"genre": "{{ page.genre }}",{% endif %}
     {% if page.publisher %}"publisher": { "@type": "Organization", "name": "{{ page.publisher }}" },{% endif %}
     {% if page.developer %}"author": { "@type": "Organization", "name": "{{ page.developer }}" },{% endif %}
-    {% if page.release_date %}"datePublished": "{{ page.release_date }}",{% endif %}
+    {% if page.release_date and page.release_date != "" and page.release_date != "Invalid Date" %}"datePublished": "{{ page.release_date | date: '%Y-%m-%d' }}",{% endif %}
     "gamePlatform": ["PC", "Steam Deck"],
     "applicationCategory": "Game"
+  }
+  </script>
+
+  <!-- BreadcrumbList Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ '/' | absolute_url }}" },
+      { "@type": "ListItem", "position": 2, "name": "Games", "item": "{{ '/games/' | absolute_url }}" },
+      { "@type": "ListItem", "position": 3, "name": "{{ page.storefront }}", "item": "{{ '/games/tested/' | absolute_url }}?store={{ page.storefront }}" },
+      { "@type": "ListItem", "position": 4, "name": "{{ page.game_title | escape }}", "item": "{{ page.url | absolute_url }}" }
+    ]
   }
   </script>
 </head>
