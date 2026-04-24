@@ -27,7 +27,8 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   padding: 1.5rem 1rem 0.5rem;
 }
 
-#tab-features .comparison-hero h1 {
+#tab-features .comparison-hero h1,
+#tab-features .comparison-hero h2 {
   margin: 0 0 0.5rem 0;
 }
 
@@ -201,7 +202,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 
 <!-- Features Tab Header -->
 <section class="comparison-hero">
-  <h1>Junk Store Pro Features</h1>
+  <h2>Junk Store Pro Features</h2>
   <p class="lead-text">Everything you need for non-Steam gaming on Steam Deck. No desktop. No hassle.</p>
 </section>
 
