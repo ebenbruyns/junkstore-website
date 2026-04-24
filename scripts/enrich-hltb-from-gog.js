@@ -160,8 +160,9 @@ function parseHltbFromGog(html) {
         if (idMatch) found.hltb_id = parseInt(idMatch[1], 10);
     }
 
-    // Need at least main story to count this as a hit
-    return found.hltb_main ? found : null;
+    // Accept if any of the three core times is present (some sandbox/casual
+    // games on HLTB only have a Completionist time, no Main Story).
+    return (found.hltb_main || found.hltb_main_extra || found.hltb_completionist) ? found : null;
 }
 
 async function main() {

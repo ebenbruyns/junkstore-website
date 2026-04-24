@@ -65,8 +65,15 @@ layout: null
       {% if page.metacritic_score or page.metacritic_url %}
       <span class="hero-detail metacritic-hero">Metacritic: <strong class="mc-score {% if page.metacritic_score %}mc-score--{% if page.metacritic_score >= 75 %}green{% elsif page.metacritic_score >= 50 %}yellow{% else %}red{% endif %}{% else %}mc-score--tbd{% endif %}">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</strong></span>
       {% endif %}
-      {% if page.hltb_main and page.hltb_main != "" %}
-      <span class="hero-detail hltb-hero">🕐 {{ page.hltb_main }}</span>
+      {% comment %}
+        Show the hero HLTB pill if any of main / extras / completionist is populated.
+        Some games (sandbox/casual) only have a Completionist time on HLTB.
+      {% endcomment %}
+      {% assign hltb_hero_time = page.hltb_main %}
+      {% if hltb_hero_time == nil or hltb_hero_time == "" %}{% assign hltb_hero_time = page.hltb_main_extra %}{% endif %}
+      {% if hltb_hero_time == nil or hltb_hero_time == "" %}{% assign hltb_hero_time = page.hltb_completionist %}{% endif %}
+      {% if hltb_hero_time and hltb_hero_time != "" %}
+      <span class="hero-detail hltb-hero">🕐 {{ hltb_hero_time }}</span>
       {% endif %}
     </div>
   </div>

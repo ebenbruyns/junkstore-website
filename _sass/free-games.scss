@@ -146,6 +146,24 @@ table .free-now-badge {
     color: #777;
   }
 
+  &__section-title {
+    margin: 1.5rem 0 0.75rem;
+    font-size: 1.25rem;
+    color: #f5c542;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  &__new-section {
+    margin-bottom: 1.25rem;
+  }
+
+  &__new-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 0.6rem;
+  }
+
   &__grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -160,6 +178,92 @@ table .free-now-badge {
     background: #1e1e1e;
     border-radius: 12px;
     border: 1px dashed #333;
+  }
+}
+
+// Compact horizontal card for the "Newly Added" strip at the top of /free-games/
+.free-games-new-card {
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  background: #1e1e1e;
+  border: 1px solid #2a2a2a;
+  border-left: 3px solid #f5c542;
+  border-radius: 8px;
+  color: #e0e0e0 !important;
+  text-decoration: none;
+  transition: transform 0.12s ease, border-color 0.12s ease, background 0.12s ease;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-1px);
+    border-color: #f5c542;
+    background: #232323;
+    text-decoration: none;
+  }
+
+  &__thumb {
+    width: 60px;
+    height: 34px;
+    object-fit: cover;
+    border-radius: 4px;
+    background: #111;
+  }
+
+  &__thumb--placeholder { background: #111; }
+
+  &__body {
+    min-width: 0;  // allow title ellipsis
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 0;
+
+    .store-badge {
+      flex: 0 0 auto;
+      padding: 0.15rem 0.5rem;
+      font-size: 0.65rem;
+      min-height: 0;
+      line-height: 1.2;
+      border-radius: 0.75rem;
+    }
+  }
+
+  &__title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__ends {
+    margin-top: 0.15rem;
+    font-size: 0.75rem;
+    color: #f5c542;
+  }
+
+  &__arrow {
+    flex: 0 0 auto;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #f5c542;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 500px) {
+    grid-template-columns: 48px 1fr auto;
+    &__thumb { width: 48px; height: 28px; }
+    &__title { font-size: 0.88rem; }
+    &__arrow { font-size: 0.7rem; }
   }
 }
 

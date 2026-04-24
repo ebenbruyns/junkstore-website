@@ -13,6 +13,12 @@ hide_title: true
     <span class="free-games-page__updated" id="freeGamesUpdated"></span>
   </header>
 
+  <section id="freeGamesNewSection" class="free-games-page__new-section" hidden>
+    <h2 class="free-games-page__section-title">Newly Added</h2>
+    <div id="freeGamesNewStrip" class="free-games-page__new-strip"></div>
+  </section>
+
+  <h2 id="freeGamesAllTitle" class="free-games-page__section-title" hidden>All Current Giveaways</h2>
   <div id="freeGamesGrid" class="free-games-page__grid" hidden></div>
 
   <div id="freeGamesEmpty" class="free-games-page__empty" hidden>
@@ -74,7 +80,42 @@ hide_title: true
       + '</article>';
   }
 
+  // Compact horizontal card for the "Newly Added" strip
+  function renderNewCard(entry) {
+    var meta = storeMeta(entry.storefront);
+    var ends = entry.end_date_formatted ? 'Ends ' + entry.end_date_formatted : '';
+    return ''
+      + '<a class="free-games-new-card" href="' + escapeHtml(entry.store_url) + '" target="_blank" rel="noopener" title="Claim on ' + escapeHtml(meta.ctaLabel) + '">'
+      +   (entry.image
+          ? '<img class="free-games-new-card__thumb" src="' + escapeHtml(entry.image) + '" alt="" loading="lazy">'
+          : '<span class="free-games-new-card__thumb free-games-new-card__thumb--placeholder"></span>')
+      +   '<div class="free-games-new-card__body">'
+      +     '<div class="free-games-new-card__row">'
+      +       '<span class="store-badge ' + meta.cls + '">' + escapeHtml(meta.label) + '</span>'
+      +       '<span class="free-games-new-card__title">' + escapeHtml(entry.title) + '</span>'
+      +     '</div>'
+      +     (ends ? '<div class="free-games-new-card__ends">' + escapeHtml(ends) + '</div>' : '')
+      +   '</div>'
+      +   '<span class="free-games-new-card__arrow">Claim →</span>'
+      + '</a>';
+  }
+
+  // Games first_seen within this window show in the "Newly Added" strip.
+  var NEW_WINDOW_MS = 3 * 24 * 60 * 60 * 1000;  // 3 days
+  var NEW_MAX = 6;  // cap so a big batch import doesn't flood the strip
+
+  function isNewlyAdded(entry) {
+    if (!entry.first_seen) return false;
+    // first_seen comes from SQLite as "YYYY-MM-DD HH:MM:SS" (UTC); normalise.
+    var t = Date.parse(String(entry.first_seen).replace(' ', 'T') + 'Z');
+    if (isNaN(t)) return false;
+    return (Date.now() - t) < NEW_WINDOW_MS;
+  }
+
   function render(list, generatedAt) {
+    var newSection = document.getElementById('freeGamesNewSection');
+    var newStrip = document.getElementById('freeGamesNewStrip');
+    var allTitle = document.getElementById('freeGamesAllTitle');
     var grid = document.getElementById('freeGamesGrid');
     var empty = document.getElementById('freeGamesEmpty');
     var stamp = document.getElementById('freeGamesUpdated');
@@ -84,7 +125,23 @@ hide_title: true
       return;
     }
 
-    grid.innerHTML = list.map(renderCard).join('');
+    var newlyAdded = list.filter(isNewlyAdded)
+      .slice()
+      .sort(function (a, b) { return Date.parse(b.first_seen) - Date.parse(a.first_seen); })
+      .slice(0, NEW_MAX);
+
+    if (newlyAdded.length) {
+      newStrip.innerHTML = newlyAdded.map(renderNewCard).join('');
+      newSection.hidden = false;
+      allTitle.hidden = false;
+    }
+
+    // Main grid is sorted by end_date ascending (soonest-expiring first).
+    // Order is already that way from the exporter, but re-sort defensively.
+    var byEnd = list.slice().sort(function (a, b) {
+      return Date.parse(a.end_date) - Date.parse(b.end_date);
+    });
+    grid.innerHTML = byEnd.map(renderCard).join('');
     grid.hidden = false;
 
     if (generatedAt) {
