@@ -70,7 +70,7 @@ All the features that made Pro great are still here and better than ever:
 
 <div class="inline-blog-cta">
   <p><strong>Ready to try Junk Store Pro v3.0?</strong></p>
-  <a href="https://portal.junkstore.xyz/" class="inline-blog-cta-button" target="_blank" rel="noopener">
+  <a href="/portal-redirect/" class="inline-blog-cta-button" target="_blank" rel="noopener">
     Go to Portal
   </a>
   <p class="inline-cta-subtext">7-day free trial · No commitment · Cancel anytime</p>

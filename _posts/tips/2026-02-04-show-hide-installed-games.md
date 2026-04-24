@@ -71,7 +71,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Want seamless library management across all your stores?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Your Steam Deck, simplified and supercharged</p>

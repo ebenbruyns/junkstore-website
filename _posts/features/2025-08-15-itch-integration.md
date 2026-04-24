@@ -92,7 +92,7 @@ This is bleeding edge stuff - you're getting access to something that's never ex
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Your Steam Deck, simplified and supercharged</p>

@@ -20,7 +20,7 @@ We love being back on board our boat after winter - we really missed the calming
 Anyway, on to what you came for - let's see how last week's giveaways fared.
 
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
-* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9  
 * **GOG Extension**: v0.1.8 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.10 (Stable)
@@ -160,7 +160,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>

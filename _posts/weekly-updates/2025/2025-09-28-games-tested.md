@@ -24,7 +24,7 @@ Finally feels like summer is on its way down under! Just had daylight savings, s
 Some great games in this week's batch too — Jorel's Brother and The Most Important Game of the Galaxy looks like it could be a bit of fun, and Forma.8 from itch.io looks promising as well! Let's dive into this week's testing results.
 
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
-* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.11 (Pre-release)
@@ -250,7 +250,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">See why users are ditching multiple launchers for Pro</p>

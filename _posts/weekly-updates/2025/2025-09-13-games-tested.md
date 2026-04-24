@@ -20,7 +20,7 @@ We're currently battening down the hatches here as Mother Nature serves up our t
 Fortunately, I managed to get some solid testing done earlier in the week before the weather turned. I'm particularly excited to dive into the Monument Valley games (they seem perfect for shorter, seasickness-friendly gaming sessions), and I'm absolutely stoked about Samorost 2 coming to Epic next week – Amanita Design's atmospheric puzzle adventures are exactly the type of games I love!
 
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
-* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.8 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.10 (Stable)
@@ -206,7 +206,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Game Mode native — the way handheld gaming should be</p>

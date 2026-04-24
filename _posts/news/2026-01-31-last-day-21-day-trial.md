@@ -37,7 +37,7 @@ The extended trial gives you plenty of time to:
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 21 Days
   </a>
   <p class="inline-cta-subtext">Today only: Extended trial ends at midnight</p>

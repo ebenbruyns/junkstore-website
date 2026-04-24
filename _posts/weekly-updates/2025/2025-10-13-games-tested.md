@@ -24,7 +24,7 @@ What a week for wildlife here in North Cove, Kawau Island! We've had a pod of do
 Unfortunately, our internet has been playing up this week, which meant I could only download and test a handful of games. I'll do my best to catch up next week with the ones I missed, that is, if our internet decides to cooperate! Anyway, here's what I managed to get through this week.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.11 (Pre-release)
@@ -120,7 +120,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>

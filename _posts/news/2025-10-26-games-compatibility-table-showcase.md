@@ -97,7 +97,7 @@ Have thoughts on the compatibility table? We'd love to hear from you! Since we d
 
 <div class="inline-blog-cta">
   <p><strong>Ready to try these tested games on your Steam Deck?</strong></p>
-  <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" target="_blank" rel="noopener" class="inline-blog-cta-button">
     🎮 Start Free Trial - Junk Store Pro
   </a>
   <p class="inline-cta-subtext">Get instant access to Epic, GOG, Amazon & itch.io games in Game Mode</p>

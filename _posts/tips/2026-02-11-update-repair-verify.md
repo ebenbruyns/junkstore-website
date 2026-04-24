@@ -83,7 +83,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready to manage all your non-Steam games from Game Mode?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store 2.0 Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Update, repair, and play - all without Desktop Mode</p>

@@ -27,10 +27,10 @@ A few quick updates before we dive into the games:
 
 * **Decky Loader + Pro Conflict:** If running both together, use the TEST channel build. It's the same stable build, just packaged without a component that conflicts with Decky (since Decky already includes it). We're using the TEST channel to keep it separate and easy to distinguish.
 * **Extended Trials:** Trials for Junk Store Pro have been extended to 21 days for the rest of the month. Plenty of time to test everything out and see if it works for your setup.
-* **GOG Extension:** Exclusively available through the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a>. All Patreon/Ko-fi supporters have been migrated — sign in with your original email to access.
+* **GOG Extension:** Exclusively available through the <a href="/portal-redirect/" target="_blank" rel="noopener">Junk Store Portal</a>. All Patreon/Ko-fi supporters have been migrated — sign in with your original email to access.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store Pro</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.12 (Test Store - should be merged to Main soon)
 * **GOG Extension**: v0.1.10 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Prerelease)
@@ -164,7 +164,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>

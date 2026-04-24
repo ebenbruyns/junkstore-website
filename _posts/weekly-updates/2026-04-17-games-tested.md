@@ -26,10 +26,10 @@ A few quick updates before we dive into the games:
 
 * **Junk Store Pro 3.0 Released:** The big update is here! Highlights include built-in SteamGridDB support, a File Manager, Disk Analyser, and Process Manager. <a href="/blog/junk-store-3-0-release/" target="_blank" rel="noopener">Read the full announcement →</a>
 * **Decky Loader Conflict Resolved:** The conflict has been resolved in version 3.0. You can now download from Stable without issue.
-* **GOG Extension:** Exclusively available through the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a>.
+* **GOG Extension:** Exclusively available through the <a href="/portal-redirect/" target="_blank" rel="noopener">Junk Store Portal</a>.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store Pro</a>**: v3.0.1.0 (Stable Channel)
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: v3.0.1.0 (Stable Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)
 * **GOG Extension**: v0.1.11 (can be purchased from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.3 (Prerelease)
@@ -105,7 +105,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>

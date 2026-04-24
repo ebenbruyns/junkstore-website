@@ -24,7 +24,7 @@ It's Labour Weekend here in New Zealand and we're keeping our fingers crossed th
 This week's testing session was particularly fun. I couldn't pass up the amazing deals GOG had on the Alan Wake games. Both were on sale and have been on my wishlist forever, so I finally pulled the pin and added them to my collection. Can't wait to dive in! Here's what I've been testing this week.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9
 * **GOG Extension**: v0.1.9 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.0-pre1 (Pre-release)
@@ -252,7 +252,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>

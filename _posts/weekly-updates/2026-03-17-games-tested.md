@@ -27,7 +27,7 @@ Needless to say, this is yet another week where more games have been added to my
 Let's get to it! You can find this week's compatibility findings below.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.5.0.0 (Channel: Stable Decky)
+* **<a href="/portal-redirect/">Junk Store 2.0</a>**: v2.5.0.0 (Channel: Stable Decky)
 * **Junk Store Plugin**: v1.1.13 (Main Store)
 * **GOG Extension**: v0.1.11 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Prerelease)
@@ -202,7 +202,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>

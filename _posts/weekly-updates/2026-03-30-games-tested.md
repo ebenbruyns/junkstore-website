@@ -33,7 +33,7 @@ Anyways, all of the other games tested work out of the box on both versions of J
 * **Decky Loader Update:** If you're running the Steam beta, grab the latest Decky pre-release update (v3.2.2-pre3). The recent Steam beta broke something in Decky Loader that's now been fixed.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store 2.0</a>**: v2.5.0.0 (Channel: Stable Decky)
+* **<a href="/portal-redirect/">Junk Store 2.0</a>**: v2.5.0.0 (Channel: Stable Decky)
 * **Junk Store Plugin**: v1.1.13 (Main Store)
 * **GOG Extension**: v0.1.11 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.2-pre3
@@ -145,7 +145,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools. Upgrade to the all-in-one solution.</p>

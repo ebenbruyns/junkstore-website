@@ -27,12 +27,12 @@ Quick reminders before we jump into the games:
 
 - Running Decky Loader alongside Junk Store Pro? Make sure you're using the build from the **TEST channel**
 
-- Legacy Discounts expire December 31st, 2025. If you supported us before the Pro release, check the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> and don't miss out!
+- Legacy Discounts expire December 31st, 2025. If you supported us before the Pro release, check the <a href="/portal-redirect/" target="_blank" rel="noopener">Junk Store Portal</a> and don't miss out!
 
 Fair warning: this week's testing list is absolutely massive. But we found some incredible games in there, so hopefully you will too!
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store Pro</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.10 (Main Store)
 * **GOG Extension**: v0.1.10 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Pre-release)
@@ -438,7 +438,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>

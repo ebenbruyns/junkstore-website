@@ -84,7 +84,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Want per-game offline control?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store 2.0 Free for 7 Days
   </a>
   <p class="inline-cta-subtext">More control, same Game Mode experience</p>

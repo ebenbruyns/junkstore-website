@@ -26,7 +26,7 @@ I tested as many games as I could this week, though I missed a few and ran out o
 We hope you all have a fantastic Christmas wherever you are and whatever you're doing! Now, let's get into this week's testing results:
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store Pro</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: v2.3.1.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.11 (Main Store)
 * **GOG Extension**: v0.1.10 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.1 (Prerelease)
@@ -40,7 +40,7 @@ We hope you all have a fantastic Christmas wherever you are and whatever you're 
 A few quick updates before we dive into the games:
 
 * **Decky Loader Users**: Running Decky Loader alongside Junk Store Pro? Make sure you're using the build from the **TEST channel**
-* **Legacy Discounts**: Legacy Discounts expire December 31st, 2025. If you supported us before the Pro release, check the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a> and don't miss out!
+* **Legacy Discounts**: Legacy Discounts expire December 31st, 2025. If you supported us before the Pro release, check the <a href="/portal-redirect/" target="_blank" rel="noopener">Junk Store Portal</a> and don't miss out!
 * **Epic Games EULA**: Having trouble launching Epic games? You may need to log in via a web browser to accept Epic's new EULA before games will launch.
 
 ## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
@@ -354,7 +354,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>

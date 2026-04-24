@@ -78,7 +78,7 @@ If you get stuck or encounter any issues with the diagnostic tool, don't hesitat
 
 <div class="inline-blog-cta">
   <p><strong>Ready to experience premium Steam Deck gaming?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🛠️ Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Give your Steam Deck the launcher it was meant to have</p>

@@ -16,7 +16,7 @@ Kia ora Everyone!
 We are back on the boat after being away for almost 3 months (basically all of winter here in NZ). Over the weekend we had 50kt winds and rain - proper rough conditions - today it's a beautiful sunny day and calm. Perfect weather catch up on some computer work without the fear getting seasick!
 
 <h2 style="text-align: left !important; margin-left: 0;">Current System Setup</h2>
-* **<a href="/buy_now/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: Latest version with **itch.io integration (beta)**
 * **Junk Store Plugin**: Latest Decky version 1.1.9  
 * **GOG Extension**: v0.1.8 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.1.10 (Stable)
@@ -174,7 +174,7 @@ Cheers from a much calmer Kawau Island!
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Experience what premium Steam Deck gaming feels like</p>

@@ -26,7 +26,7 @@ We're currently on the mainland house-sitting for my sister, which gives us a ch
 Alright, let's dive into this week's testing results.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store Pro</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: v2.2.0.0 (for itch.io use **Extension** Channel: beta)
 * **Junk Store Plugin**: v1.1.10 (Testing Store)
 * **GOG Extension**: v0.1.10 (can be purchased & downloaded from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.0-pre1 (Pre-release)
@@ -347,7 +347,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store Pro Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>

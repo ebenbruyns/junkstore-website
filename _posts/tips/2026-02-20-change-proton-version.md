@@ -92,7 +92,7 @@ The Junk Store Team
 
 <div class="inline-blog-cta">
   <p><strong>Want hassle-free Steam Deck gaming?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
+  <a href="/portal-redirect/" class="inline-blog-cta-button">
     🚀 Try Junk Store 2.0 Free for 7 Days
   </a>
   <p class="inline-cta-subtext">Game Mode native — no Desktop Mode switching</p>
