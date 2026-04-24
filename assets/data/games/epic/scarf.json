@@ -49,16 +49,16 @@
   "languages": [
     "English"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "metacritic_score": 69,
+  "metacritic_url": "https://www.metacritic.com/game/scarf-2021/",
+  "hltb_main": "4 hrs",
+  "hltb_main_extra": "5 hrs",
+  "hltb_completionist": "7 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/101772",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.968Z"
+  "updated_at": "2026-04-24T02:42:59.211Z"
 }

@@ -19,7 +19,7 @@ developer: Thing Trunk, SONKA
 genre: Role-playing (RPG), Adventure, Indie
 release_date: "December 13, 2018"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English*","Polish","French","Italian","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","German","Turkish"]
 
 # Images
 banner_image: "https://images.gog.com/bc782bab7c6089b16374c80fae734a9b68bd66f8babed86375df7e758926f3f1.jpg?namespace=gamesdb"
@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "10 hrs"
+hltb_main_extra: "15.5 hrs"
+hltb_completionist: "36 hrs"
+hltb_url: "https://howlongtobeat.com/game/41486"
 
 # Links
 store_url: "https://www.gog.com/en/game/book_of_demons"

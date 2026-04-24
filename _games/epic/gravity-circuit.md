@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "5 hrs"
+hltb_main_extra: "6 hrs"
+hltb_completionist: "13.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/94203"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gravity-circuit-489baa"
@@ -58,7 +58,7 @@ protondb_url: "https://www.protondb.com/app/858710"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gravity_Circuit"
 metacritic_score: 89
-metacritic_url: "https://www.metacritic.com/game/pc/gravity-circuit?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/gravity-circuit/"
 
 # Notes
 notes: 

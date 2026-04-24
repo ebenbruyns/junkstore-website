@@ -51,10 +51,10 @@
   ],
   "metacritic_score": 77,
   "metacritic_url": "https://www.metacritic.com/game/pc/shadows-awakening?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_main": "21.5 hrs",
+  "hltb_main_extra": "29.5 hrs",
+  "hltb_completionist": "36.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/55396",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -62,5 +62,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-12-30T02:35:36.764Z"
+  "updated_at": "2026-04-23T21:07:12.981Z"
 }

@@ -53,16 +53,16 @@ hltb_completionist: "16.2 hrs"
 hltb_url: "https://howlongtobeat.com/game/143762"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/chessarama"
+store_url: "https://store.epicgames.com/en-US/p/chessarama-03026f"
 protondb_url: "https://www.protondb.com/app/1831830"
 protondb_report_url: ""
 pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/chessarama/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

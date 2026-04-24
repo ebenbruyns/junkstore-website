@@ -50,15 +50,15 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/95169"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1137970"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Zombies_Ate_My_Neighbors_and_Ghoul_Patrol"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 59
+metacritic_url: "https://www.metacritic.com/game/zombies-ate-my-neighbors-and-ghoul-patrol/"
 
 # Notes
 notes: "Works out of the box!"

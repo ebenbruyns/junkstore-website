@@ -74,6 +74,7 @@
     "crusader-kings-ii.json",
     "cuphead.json",
     "cursed-to-golf.json",
+    "cyberpunk-2077-ultimate-edition.json",
     "cyberpunk-2077.json",
     "dagon-by-h-p-lovecraft.json",
     "dark-deity.json",
@@ -288,6 +289,7 @@
     "star-wars-galactic-battlegrounds-saga.json",
     "star-wars-jedi-knight-dark-forces-ii-mysteries-of-the-sith.json",
     "star-wars-jedi-knight-dark-forces-ii.json",
+    "star-wars-jedi-knight-mysteries-of-the-sith.json",
     "star-wars-knights-of-the-old-republic-ii-the-sith-lords.json",
     "star-wars-knights-of-the-old-republic.json",
     "star-wars-rebellion.json",
@@ -376,65 +378,65 @@
     "ziggurat.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-04-23T06:45:53.566Z",
+  "last_updated": "2026-04-24T02:44:08.997Z",
   "latest_games": [
     {
-      "title": "Symphonia",
-      "slug": "symphonia",
+      "title": "Gunslugs",
+      "slug": "gunslugs",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Sapphire Safari",
+      "slug": "sapphire-safari",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "JDM: Rise of the Scorpion",
+      "slug": "jdm-rise-of-the-scorpion",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Raidborn",
+      "slug": "raidborn",
+      "date_tested": "Nov '24",
+      "is_featured": false
+    },
+    {
+      "title": "Flipon",
+      "slug": "flipon",
       "date_tested": "Dec '24",
       "is_featured": false
     },
     {
-      "title": "Baldur's Gate II: Enhanced Edition",
-      "slug": "baldurs-gate-ii-enhanced-edition",
-      "date_tested": "Dec '24",
+      "title": "Hell Division",
+      "slug": "hell-division",
+      "date_tested": "Sept '24",
       "is_featured": false
     },
     {
-      "title": "Snake Core",
-      "slug": "snake-core",
-      "date_tested": "April '26",
+      "title": "Diggles: The Myth of Fenris",
+      "slug": "diggles-the-myth-of-fenris",
+      "date_tested": "Nov '24",
       "is_featured": false
     },
     {
-      "title": "Sin Slayers: The First Sin",
-      "slug": "sin-slayers-the-first-sin",
-      "date_tested": "April '25",
+      "title": "Ascendant",
+      "slug": "ascendant",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "World in Conflict: Complete Edition",
-      "slug": "world-in-conflict-complete-edition",
-      "date_tested": "May '25",
+      "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
+      "date_tested": "July '24",
       "is_featured": false
     },
     {
-      "title": "Warhammer 40,000: Rites of War",
-      "slug": "warhammer-40000-rites-of-war",
-      "date_tested": "May '25",
-      "is_featured": false
-    },
-    {
-      "title": "Silent Hill 4: The Room",
-      "slug": "silent-hill-4-the-room",
-      "date_tested": "March '25",
-      "is_featured": false
-    },
-    {
-      "title": "SWAT 4: Gold Edition",
-      "slug": "swat-4-gold-edition",
-      "date_tested": "Oct '24",
-      "is_featured": false
-    },
-    {
-      "title": "Neverwinter Nights: Diamond",
-      "slug": "neverwinter-nights-diamond",
-      "date_tested": "Dec '24",
-      "is_featured": false
-    },
-    {
-      "title": "Mortal Kombat Trilogy",
-      "slug": "mortal-kombat-trilogy",
+      "title": "Amnesia: The Bunker",
+      "slug": "amnesia-the-bunker",
       "date_tested": "Oct '24",
       "is_featured": false
     }

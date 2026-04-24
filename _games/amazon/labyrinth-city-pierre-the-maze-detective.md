@@ -19,12 +19,12 @@ developer: Darjeeling
 genre: Adventure, Puzzle
 release_date: "Invalid Date"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian"]
 
 # Images
-banner_image: ""
+banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1421790/library_hero.jpg"
 cover_image: "https://images.gog.com/853bbad6662bbed0349318fc0ca9c0cef274427d989de9d6fea55ce1758b1dee.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1421790/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "native"
@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "4.5 hrs"
+hltb_main_extra: "5 hrs"
+hltb_completionist: "6.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/91093"
 
 # Links
 store_url: ""

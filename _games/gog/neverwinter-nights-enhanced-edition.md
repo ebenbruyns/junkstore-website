@@ -47,18 +47,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "43 hrs"
+hltb_main_extra: "71.5 hrs"
+hltb_completionist: "114 hrs"
+hltb_url: "https://howlongtobeat.com/game/54495"
 
 # Links
 store_url: "https://www.gog.com/en/game/neverwinter_nights_enhanced_edition_pack"
 protondb_url: "https://www.protondb.com/app/704450"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neverwinter_Nights:_Enhanced_Edition"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 63
+metacritic_url: "https://www.metacritic.com/game/neverwinter-nights-enhanced-edition/"
 
 # Notes
 notes: "Works out of the box!"

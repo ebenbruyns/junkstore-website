@@ -56,9 +56,9 @@ hltb_url: "https://howlongtobeat.com/game/83463"
 store_url: "https://www.gog.com/en/game/the_falconeer"
 protondb_url: "https://www.protondb.com/app/1135260"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Falconeer"
+metacritic_score: 65
+metacritic_url: "https://www.metacritic.com/game/the-falconeer/"
 
 # Notes
 notes: "Works out of the box!"

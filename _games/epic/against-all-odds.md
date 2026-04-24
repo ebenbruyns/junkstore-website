@@ -58,7 +58,7 @@ protondb_url: "https://www.protondb.com/app/1465560"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Against_All_Odds"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/against-all-odds/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

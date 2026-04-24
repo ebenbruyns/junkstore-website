@@ -53,12 +53,12 @@ hltb_completionist: "51.5 hrs"
 hltb_url: "https://howlongtobeat.com/game/97879"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/bus-simulator-21-next-stop"
+store_url: "https://store.epicgames.com/en-US/p/bus-simulator-21"
 protondb_url: "https://www.protondb.com/app/976590"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bus_Simulator_21"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/bus-simulator-21-next-stop/"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency, no extra setup required."

@@ -48,9 +48,9 @@ cant_test_linux: false
 
 # HowLongToBeat
 hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main_extra: "1.5 hrs"
+hltb_completionist: "2 hrs"
+hltb_url: "https://howlongtobeat.com/game/154666"
 
 # Links
 store_url: "https://www.gog.com/game/jdm-rise-of-the-scorpion"
@@ -58,7 +58,7 @@ protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/jdm-rise-of-the-scorpion/"
 
 # Notes
 notes: "Works out of the box!"

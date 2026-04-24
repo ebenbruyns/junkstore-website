@@ -47,16 +47,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "12 hrs"
+hltb_main_extra: "15 hrs"
+hltb_completionist: "17 hrs"
+hltb_url: "https://howlongtobeat.com/game/7299"
 
 # Links
 store_url: "https://www.gog.com/en/game/prince_of_persia_warrior_within"
 protondb_url: "https://www.protondb.com/app/13500"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia:_Warrior_Within"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia-warrior-within?ftag=MCD-06-10aaa1f"
 

@@ -57,8 +57,8 @@ store_url: "https://store.epicgames.com/en-US/p/bloodstained-f3f575"
 protondb_url: "https://www.protondb.com/app/692850"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bloodstained:_Ritual_of_the_Night"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 83
+metacritic_url: "https://www.metacritic.com/game/bloodstained-ritual-of-the-night/"
 
 # Notes
 notes: "Works out of the box!"

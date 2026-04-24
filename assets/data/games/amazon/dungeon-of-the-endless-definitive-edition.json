@@ -41,7 +41,7 @@
   "size": "",
   "vertical_artwork": "https://images.gog.com/532c5d953dce14ea2623833bf97ecdda3e63599cb3103694753c3f3abb85e65b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/62567cb03b930fcc01784ef299ab1dc174671bfce46195c80069504f0aa7a738.jpg?namespace=gamesdb",
-  "icon_image": "",
+  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1485590/capsule_231x87.jpg",
   "steamId": "1485590",
   "game_modes": [
     "Single player",
@@ -49,18 +49,27 @@
     "Multiplayer"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French",
+    "German",
+    "Spanish - Spain",
+    "Japanese*",
+    "Korean",
+    "Polish",
+    "Simplified Chinese",
+    "Traditional Chinese",
+    "Portuguese - Brazil"
   ],
   "metacritic_score": 75,
   "metacritic_url": "https://www.metacritic.com/game/pc/endless-dungeon?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_main": "7.5 hrs",
+  "hltb_main_extra": "25 hrs",
+  "hltb_completionist": "110 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/17454",
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2025-09-04T23:47:26.313Z"
+  "updated_at": "2026-04-23T09:10:16.695Z"
 }

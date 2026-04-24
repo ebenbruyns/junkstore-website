@@ -47,18 +47,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "4.5 hrs"
+hltb_main_extra: "5.5 hrs"
+hltb_completionist: "9 hrs"
+hltb_url: "https://howlongtobeat.com/game/134813"
 
 # Links
 store_url: "https://www.gog.com/game/symphonia"
 protondb_url: "https://www.protondb.com/app/1865960"
 protondb_report_url: ""
 pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 85
+metacritic_url: "https://www.metacritic.com/game/symphonia/"
 
 # Notes
 notes: "<strong>Works out of the box</strong> — no extra setup needed. Student Project, 2020."

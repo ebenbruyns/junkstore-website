@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/976590",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/bus-simulator-21",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Bus_Simulator_21",
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency, no extra setup required.",
   "date_tested": "Dec '24",
   "decky_rating": "yellow",
@@ -52,7 +52,7 @@
     "English"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/bus-simulator-21-next-stop/",
   "hltb_main": "25.2 hrs",
   "hltb_main_extra": "26 hrs",
   "hltb_completionist": "51.5 hrs",
@@ -63,5 +63,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T07:01:20.917Z"
+  "updated_at": "2026-04-24T02:27:04.015Z"
 }

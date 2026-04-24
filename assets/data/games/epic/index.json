@@ -477,66 +477,66 @@
     "zombie-army-4-dead-war.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-04-23T06:45:53.561Z",
+  "last_updated": "2026-04-24T02:44:08.990Z",
   "latest_games": [
     {
-      "title": "The Stone of Madness",
-      "slug": "the-stone-of-madness",
-      "date_tested": "April '26",
+      "title": "Grime",
+      "slug": "grime",
+      "date_tested": "Sept '24",
       "is_featured": false
     },
     {
-      "title": "Monster Harvest",
-      "slug": "monster-harvest",
-      "date_tested": "April '26",
+      "title": "Scarf",
+      "slug": "scarf",
+      "date_tested": "Oct '24",
       "is_featured": false
     },
     {
-      "title": "Vornyca",
-      "slug": "vornyca",
-      "date_tested": "April '26",
+      "title": "BioShock™ Remastered",
+      "slug": "bioshock-remastered",
+      "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "OverTrip",
-      "slug": "overtrip",
-      "date_tested": "Dec '25",
+      "title": "Ak-xolotl: Together",
+      "slug": "ak-xolotl-together",
+      "date_tested": "July '24",
       "is_featured": false
     },
     {
-      "title": "Illuvium",
-      "slug": "illuvium",
+      "title": "The Falconeer",
+      "slug": "the-falconeer",
+      "date_tested": "July '24",
+      "is_featured": false
+    },
+    {
+      "title": "Dredge",
+      "slug": "dredge",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Dead Island 2",
+      "slug": "dead-island-2",
+      "date_tested": "May '25",
+      "is_featured": false
+    },
+    {
+      "title": "Cygni: All Guns Blazing",
+      "slug": "cygni-all-guns-blazing",
       "date_tested": "Aug '24",
       "is_featured": false
     },
     {
-      "title": "Evergreen Valley: The Parkour Game",
-      "slug": "evergreen-valley-the-parkour-game",
-      "date_tested": "April '26",
+      "title": "Crystal of Atlan",
+      "slug": "crystal-of-atlan",
+      "date_tested": "July '25",
       "is_featured": false
     },
     {
-      "title": "Valorant",
-      "slug": "valorant",
-      "date_tested": "N/A",
-      "is_featured": false
-    },
-    {
-      "title": "The Crew: Motorfest",
-      "slug": "the-crew-motorfest",
-      "date_tested": "N/A",
-      "is_featured": false
-    },
-    {
-      "title": "Tomak: Save the Earth Regeneration",
-      "slug": "tomak-save-the-earth-regeneration",
-      "date_tested": "April '26",
-      "is_featured": false
-    },
-    {
-      "title": "Tom Clancy's Ghost Recon: Breakpoint",
-      "slug": "tom-clancys-ghost-recon-breakpoint",
-      "date_tested": "N/A",
+      "title": "Crime Boss: Rockay City",
+      "slug": "crime-boss-rockay-city",
+      "date_tested": "March '25",
       "is_featured": false
     }
   ]

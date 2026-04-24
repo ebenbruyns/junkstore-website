@@ -58,7 +58,7 @@ protondb_url: "https://www.protondb.com/app/960090"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bloons_TD_6"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/bloons-td-6/"
 
 # Notes
 notes: "Works out of the box!"

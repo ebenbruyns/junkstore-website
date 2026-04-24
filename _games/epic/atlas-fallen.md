@@ -56,9 +56,9 @@ hltb_url: "https://howlongtobeat.com/game/112665"
 store_url: "https://store.epicgames.com/en-US/p/atlas-fallen"
 protondb_url: "https://www.protondb.com/app/1230530"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Atlas_Fallen"
+metacritic_score: 64
+metacritic_url: "https://www.metacritic.com/game/atlas-fallen/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

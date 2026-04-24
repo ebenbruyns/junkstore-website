@@ -76,14 +76,8 @@
     "zeroranger.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-04-23T06:45:53.569Z",
+  "last_updated": "2026-04-24T02:44:09.006Z",
   "latest_games": [
-    {
-      "title": "Sector 781",
-      "slug": "sector-781",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
     {
       "title": "Roguelight",
       "slug": "roguelight",
@@ -91,50 +85,56 @@
       "is_featured": false
     },
     {
-      "title": "10S",
-      "slug": "10s",
-      "date_tested": "Aug '25",
+      "title": "Sector 781",
+      "slug": "sector-781",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Mutiny Island",
-      "slug": "mutiny-island",
-      "date_tested": "Mar '26",
+      "title": "2064: Read Only Memories INTEGRAL",
+      "slug": "2064-read-only-memories-integral",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Sausage Sports Club",
-      "slug": "sausage-sports-club",
-      "date_tested": "Mar '26",
-      "is_featured": false
-    },
-    {
-      "title": "Mitos",
-      "slug": "mitos",
-      "date_tested": "Mar '26",
-      "is_featured": false
-    },
-    {
-      "title": "Viral Reload",
-      "slug": "viral-reload",
-      "date_tested": "Mar '26",
-      "is_featured": false
-    },
-    {
-      "title": "10 Flights of Ballooning",
-      "slug": "10-flights-of-ballooning",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "A Good Snowman Is Hard To Build",
-      "slug": "a-good-snowman-is-hard-to-build",
+      "title": "A Mortician's Tale",
+      "slug": "a-morticians-tale",
       "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "TowerFall Ascension",
-      "slug": "towerfall-ascension",
+      "title": "And Yet It Moves",
+      "slug": "and-yet-it-moves",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Alone With You",
+      "slug": "alone-with-you",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Arcade Spirits",
+      "slug": "arcade-spirits",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Baba Is You",
+      "slug": "baba-is-you",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "CrossCode",
+      "slug": "crosscode",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Moon Hunters",
+      "slug": "moon-hunters",
       "date_tested": "Nov '25",
       "is_featured": false
     }

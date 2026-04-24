@@ -7,7 +7,7 @@
   "gog_url": "https://www.gog.com/en/game/bioshock_remastered",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/BioShock_Remastered",
   "notes": "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. \nTurn on Esync and Fsync toggles under Proton config to fix the low-res textures and long saving/loading.",
   "date_tested": "Oct '24",
   "decky_rating": "green",
@@ -62,5 +62,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-08-11T02:16:11.868Z"
+  "updated_at": "2026-04-24T02:42:59.210Z"
 }

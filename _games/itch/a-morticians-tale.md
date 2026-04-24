@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "57 mins"
+hltb_main_extra: "1 hrs"
+hltb_completionist: "1 hrs"
+hltb_url: "https://howlongtobeat.com/game/50016"
 
 # Links
 store_url: "https://laundrybear.itch.io/morticians-tale"

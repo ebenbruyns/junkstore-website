@@ -56,13 +56,13 @@ hltb_url: "https://howlongtobeat.com/game/109596"
 store_url: "https://store.epicgames.com/en-US/p/call-of-the-wild-the-angler"
 protondb_url: "https://www.protondb.com/app/1408610"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_the_Wild:_The_Angler"
+metacritic_score: 63
+metacritic_url: "https://www.metacritic.com/game/call-of-the-wild-the-angler/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

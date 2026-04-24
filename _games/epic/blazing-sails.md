@@ -56,13 +56,13 @@ hltb_url: "https://howlongtobeat.com/game/87723"
 store_url: "https://store.epicgames.com/en-US/p/blazing-sails"
 protondb_url: "https://www.protondb.com/app/1158940"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blazing_Sails:_Pirate_Battle_Royale"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/blazing-sails/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

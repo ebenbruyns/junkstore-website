@@ -7,14 +7,14 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/20_Minutes_till_Dawn",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -38,7 +38,7 @@
   "releasedate": "2022-09-05T00:00:00+0000",
   "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Shooter, Arcade",
   "description": "Shoot down an ever growing horde of Lovecraftian monsters to survive the night. Choose from a variety of upgrades to create unique and game-breaking builds. Unlock a diverse cast of characters and weapons with unique powers.",
-  "size": "57166307\n",
+  "size": "54.5 MB",
   "vertical_artwork": "https://images.gog.com/dc6e09d21833f3696ca9d9ff3f9b9758e71d669ef1f912c084a99d5f078c13dc.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a9496a68e60138bc54514978d4255d1bb41ccd69639cf6846fb8b52f2538ee6f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7a7a9f1aad41de777cd56d5d7ac272c2ed1983ec5ce8bce2c373f815dd12e6b3.jpg?namespace=gamesdb",
@@ -50,7 +50,7 @@
     "English"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/20-minutes-till-dawn/",
   "hltb_main": "3.7 hrs",
   "hltb_main_extra": "12.4 hrs",
   "hltb_completionist": "30.1 hrs",
@@ -61,5 +61,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-05T21:08:32.493Z"
+  "updated_at": "2026-04-24T01:52:22.955Z"
 }

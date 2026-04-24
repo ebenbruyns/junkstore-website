@@ -47,18 +47,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "1.5 hrs"
+hltb_main_extra: "5.5 hrs"
+hltb_completionist: "21 hrs"
+hltb_url: "https://howlongtobeat.com/game/65900"
 
 # Links
-store_url: "https://www.gog.com/game/60-parsecs"
+store_url: "https://www.gog.com/dreamlist/game/60-parsecs-2018"
 protondb_url: "https://www.protondb.com/app/646270"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/60_Parsecs!"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 68
+metacritic_url: "https://www.metacritic.com/game/60-parsecs/"
 
 # Notes
 notes: "Works out of the box!"

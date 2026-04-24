@@ -47,8 +47,8 @@
     "Single player"
   ],
   "languages": [],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 65,
+  "metacritic_url": "https://www.metacritic.com/game/alex-kidd-in-miracle-world-dx/",
   "hltb_main": "3.1 hrs",
   "hltb_main_extra": "3.6 hrs",
   "hltb_completionist": "5.5 hrs",
@@ -59,5 +59,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-01-18T04:17:25.218Z"
+  "updated_at": "2026-04-24T02:04:51.728Z"
 }

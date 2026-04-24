@@ -54,11 +54,11 @@
     "Spanish - Spain"
   ],
   "metacritic_score": 91,
-  "metacritic_url": "https://www.metacritic.com/game/pc/fallout-3?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/fallout-3-game-of-the-year-edition/",
+  "hltb_main": "26.5 hrs",
+  "hltb_main_extra": "58 hrs",
+  "hltb_completionist": "106 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/3342",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -66,5 +66,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-10-25T04:29:14.089Z"
+  "updated_at": "2026-04-23T07:05:23.300Z"
 }

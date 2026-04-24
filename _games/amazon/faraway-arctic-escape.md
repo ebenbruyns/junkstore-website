@@ -47,22 +47,22 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "2 hrs"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "4 hrs"
+hltb_url: "https://howlongtobeat.com/game/63992"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1747690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Faraway:_Arctic_Escape"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/faraway-arctic-escape/"
 
 # Notes
 notes: "Keyboard & mouse controls. **Decky Plugin: Not Supported**. **Pro Version: Works out of the box**."
-controller_config: "Keyboard & Mouse"
+controller_config: 
 performance_notes: 
 known_issues: 
 

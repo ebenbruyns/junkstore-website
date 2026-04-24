@@ -22,6 +22,7 @@
     "faraway-2-jungle-escape.json",
     "faraway-arctic-escape.json",
     "faraway-directors-cut.json",
+    "faraway-jungle-escape.json",
     "figment-2-creed-valley.json",
     "gargoyles-remastered.json",
     "genesis-noir.json",
@@ -77,66 +78,66 @@
     "zombies-ate-my-neighbors-and-ghoul-patrol.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-04-23T06:45:53.568Z",
+  "last_updated": "2026-04-24T02:44:09.002Z",
   "latest_games": [
     {
-      "title": "Afterimage",
-      "slug": "afterimage",
+      "title": "Subterrain: Mines of Titan",
+      "slug": "subterrain-mines-of-titan",
       "date_tested": "Sep '25",
       "is_featured": false
     },
     {
-      "title": "Aces of the Luftwaffe - Squadron Extended Edition",
-      "slug": "aces-of-the-luftwaffe-squadron-extended-edition",
-      "date_tested": "July '25",
-      "is_featured": false
-    },
-    {
-      "title": "Endless Legend: Definitive Edition",
-      "slug": "endless-legend-definitive-edition",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Clouds & Sheep 2",
-      "slug": "clouds-sheep-2",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "Deep Sky Derelicts",
-      "slug": "deep-sky-derelicts",
-      "date_tested": "Mar '26",
-      "is_featured": false
-    },
-    {
-      "title": "Tavern Talk",
-      "slug": "tavern-talk",
-      "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "Tormented Souls",
-      "slug": "tormented-souls",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Werewolf: The Apocalypse — Heart of the Forest",
-      "slug": "werewolf-the-apocalypse-heart-of-the-forest",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "GYLT",
-      "slug": "gylt",
+      "title": "Minabo: A Walk Through Life",
+      "slug": "minabo-a-walk-through-life",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Technotopia",
-      "slug": "technotopia",
-      "date_tested": "Jan '26",
+      "title": "Zombies Ate My Neighbors and Ghoul Patrol",
+      "slug": "zombies-ate-my-neighbors-and-ghoul-patrol",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Youtubers Life 2",
+      "slug": "youtubers-life-2",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Wall World",
+      "slug": "wall-world",
+      "date_tested": "Dec '25",
+      "is_featured": false
+    },
+    {
+      "title": "Vlad Circus: Descend Into Madness",
+      "slug": "vlad-circus-descend-into-madness",
+      "date_tested": "July '25",
+      "is_featured": false
+    },
+    {
+      "title": "Tiny Robots Recharged",
+      "slug": "tiny-robots-recharged",
+      "date_tested": "July '25",
+      "is_featured": false
+    },
+    {
+      "title": "Through the Darkest of Times",
+      "slug": "through-the-darkest-of-times",
+      "date_tested": "July '25",
+      "is_featured": false
+    },
+    {
+      "title": "The Gap",
+      "slug": "the-gap",
+      "date_tested": "July '25",
+      "is_featured": false
+    },
+    {
+      "title": "The Collage Atlas",
+      "slug": "the-collage-atlas",
+      "date_tested": "July '25",
       "is_featured": false
     }
   ]

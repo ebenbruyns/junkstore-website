@@ -38,7 +38,7 @@
   "releasedate": "6 Jun, 2023",
   "genre": "Action, Adventure, Indie",
   "description": "Amnesia: The Bunker is a first-person horror game set in a WW1 bunker. A relentless, AI-driven monster stalks you. Survival depends on finding tools, crafting items, and keeping the lights on.",
-  "size": "9301215561\n",
+  "size": "8.66 GB",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1944430/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1944430/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1944430/capsule_231x87.jpg",
@@ -56,8 +56,8 @@
     "Russian",
     "Simplified Chinese*languages with full audio support"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 77,
+  "metacritic_url": "https://www.metacritic.com/game/amnesia-the-bunker/",
   "hltb_main": "5.4 hrs",
   "hltb_main_extra": "7.4 hrs",
   "hltb_completionist": "13.5 hrs",
@@ -68,5 +68,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-14T02:53:42.561Z",
-  "updated_at": "2025-10-20T06:39:38.837Z"
+  "updated_at": "2026-04-24T02:05:24.060Z"
 }

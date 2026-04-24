@@ -19,7 +19,7 @@ developer: MidBoss, LLC.
 genre: Adventure, Point-and-click
 release_date: "August 14, 2018"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English*","Japanese*languages with full audio support"]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/330820/library_hero.jpg"
@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "9 hrs"
+hltb_main_extra: "11.5 hrs"
+hltb_completionist: "19 hrs"
+hltb_url: "https://howlongtobeat.com/game/29142"
 
 # Links
 store_url: ""

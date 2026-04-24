@@ -53,16 +53,16 @@ hltb_completionist: ""
 hltb_url: "https://howlongtobeat.com/game/142382"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/crystal-of-atlan"
+store_url: "https://store.epicgames.com/en-US/p/crystal-of-atlan-c5f8b3"
 protondb_url: "https://www.protondb.com/app/3839850"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/crystal-of-atlan/"
 
 # Notes
 notes: "There are a few steps to get this working in game mode. Best is to do this all in desktop/Big Picure mode through Junk Store before hopping back into Game mode. Tested with Proton Experimental.<br> - First download the game in Junk Store then launch the game once to set a prefix<br> - You then need to install  the pdh dependency, I used Protontricks from desktop mode<br> - Once the depedency is installed, go back into Big Picture mode and before launching the game set the exe to <strong>./Crystal of Atlan.exe</strong> (remember to push X to save) then launch the game.<br> - This next part took me a few goes. The game may load to a black screen and seem stuck, just be patient as it's loading and you'll see the game splash screen eventually.<br> - Once the game loads and says <em>Click anywhere to proceed</em> do that and then you need to wait for an age verification box to open. This is what didn't always load properly, you get a white screen and may need to move the mouse around for it to show. Once you click confirm for age verification the game should load and you can play.<br> - Once you get to playing the game in desktop/big picture mode it should now load without issue in game mode. It seems to have full controller support too."
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

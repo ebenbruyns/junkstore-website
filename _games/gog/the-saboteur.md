@@ -47,22 +47,22 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "11 hrs"
+hltb_main_extra: "19.5 hrs"
+hltb_completionist: "41.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/10157"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_saboteur"
 protondb_url: "https://www.protondb.com/app/24880"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Saboteur"
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/the-saboteur/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

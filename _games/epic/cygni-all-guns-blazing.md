@@ -53,12 +53,12 @@ hltb_completionist: "6.3 hrs"
 hltb_url: "https://howlongtobeat.com/game/79899"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/cygni-all-guns-blazing"
+store_url: "https://store.epicgames.com/en-US/p/cygni-all-guns-blazing-98f872"
 protondb_url: "https://www.protondb.com/app/1248080"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cygni:_All_Guns_Blazing"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/cygni-all-guns-blazing/"
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. additional arguments > -epicdeploymentid=78a046d4ac1b42d7aaba9fe80f88a5d8"

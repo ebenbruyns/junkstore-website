@@ -5,7 +5,7 @@
   "protondb": "https://www.protondb.com/app/1831830",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/chessarama-03026f",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
   "notes": "Works out of the box!",
@@ -14,7 +14,7 @@
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -38,7 +38,7 @@
   "releasedate": "2023-12-05T00:00:00+0000",
   "genre": "Strategy, Turn-based strategy (TBS), Indie, Puzzle, Tactical, Card & Board Game",
   "description": "Chessarama is a collection of chess-inspired puzzle and strategy games that use chess pieces and their established move sets, then reimagines their goals and themes. Solve challenges, unlock collectibles, and compete against each other on the leaderboards. Welcome to Chessarama!",
-  "size": "1454345111\n",
+  "size": "1.35 GB",
   "vertical_artwork": "https://images.gog.com/bfaf07881e620e8ae4cf2b13870437be1f768156317a2b90fa9a9a63bd8490af.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f3570f05a8d4e63f4176657a722585c907bf63af8f365849bb29997eab4230fa.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/11463421424a3d372973e0dd32eacd439d3be8fa0bbe0d52f8cc35dfe5c7a1b1.jpg?namespace=gamesdb",
@@ -49,8 +49,8 @@
   "languages": [
     "English"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 73,
+  "metacritic_url": "https://www.metacritic.com/game/chessarama/",
   "hltb_main": "10 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "16.2 hrs",
@@ -61,5 +61,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-05T21:44:08.551Z"
+  "updated_at": "2026-04-24T02:28:54.452Z"
 }

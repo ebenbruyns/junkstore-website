@@ -19,12 +19,12 @@ developer: Amplitude Studios
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Platform, Real Time Strategy (RTS)
 release_date: "October 27, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English*","French","German","Spanish - Spain","Japanese*","Korean","Polish","Simplified Chinese","Traditional Chinese","Portuguese - Brazil"]
 
 # Images
 banner_image: "https://images.gog.com/62567cb03b930fcc01784ef299ab1dc174671bfce46195c80069504f0aa7a738.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/532c5d953dce14ea2623833bf97ecdda3e63599cb3103694753c3f3abb85e65b.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1485590/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "native"
@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "7.5 hrs"
+hltb_main_extra: "25 hrs"
+hltb_completionist: "110 hrs"
+hltb_url: "https://howlongtobeat.com/game/17454"
 
 # Links
 store_url: ""

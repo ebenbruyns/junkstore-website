@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Bang_Bang_Racing",
   "notes": "Native controller support. **Decky Plugin: Not working**. **Pro Version: Works out of the box**.",
   "date_tested": "July '25",
   "decky_rating": "not-supported",
@@ -51,16 +51,16 @@
   "languages": [
     "English"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "metacritic_score": 58,
+  "metacritic_url": "https://www.metacritic.com/game/bang-bang-racing/",
+  "hltb_main": "3 hrs",
+  "hltb_main_extra": "3.5 hrs",
+  "hltb_completionist": "6.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/830",
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2025-08-11T09:32:33.051Z"
+  "updated_at": "2026-04-23T21:34:05.378Z"
 }

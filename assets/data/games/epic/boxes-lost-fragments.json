@@ -58,8 +58,8 @@
     "Polish",
     "Portuguese - Portugal"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 84,
+  "metacritic_url": "https://www.metacritic.com/game/boxes-lost-fragments/",
   "hltb_main": "3.8 hrs",
   "hltb_main_extra": "3.8 hrs",
   "hltb_completionist": "4 hrs",
@@ -70,5 +70,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-03-01T22:51:02.169Z"
+  "updated_at": "2026-04-24T02:25:34.058Z"
 }

@@ -19,12 +19,12 @@ developer: Sweaty Chair, Shadowplay Studios
 genre: Adventure, Indie, Platform, Puzzle
 release_date: "September 19, 2019"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Portuguese - Brazil","Russian"]
 
 # Images
 banner_image: "https://images.gog.com/fb1f2a0d250c3db864ab1150c144804b06ae039586fc0e6ada47d5b43c224a19.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/1a9f1afb3f1762974cd618771be0fffd6233774e007d0e7ae41e5c14aea814c8.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/726490/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "native"
@@ -47,22 +47,22 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "6.5 hrs"
+hltb_main_extra: "7 hrs"
+hltb_completionist: "7.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/71191"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/726490"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Projection:_First_Light"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/projection-first-light?ftag=MCD-06-10aaa1f"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

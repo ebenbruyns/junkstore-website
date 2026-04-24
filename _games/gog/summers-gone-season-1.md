@@ -14,12 +14,12 @@ date_tested: "Aug '25"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
-developer: NIL, NIL
-genre: NIL, NIL
-release_date: ""
-game_modes: []
-languages: ["English"]
+publisher: OceanAVN
+developer: OceanAVN
+genre: Adventure, Indie, RPG, Simulation, Strategy
+release_date: "May 10, 2024"
+game_modes: ["Single-player"]
+languages: ["English","Spanish - Spain","Russian"]
 
 # Images
 banner_image: "https://images.gog.com/c92cebc8ee0eb653588c92ee3389e2b7080472291c689485b403c8e7b970eb09.jpg?namespace=gamesdb"
@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "8 hrs"
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "17 hrs"
+hltb_url: "https://howlongtobeat.com/game/116605"
 
 # Links
 store_url: "https://www.gog.com/en/game/summers_gone_season_1"

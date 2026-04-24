@@ -7,7 +7,7 @@
   "gog_url": "https://www.gog.com/en/game/diggles_the_myth_of_fenris",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Diggles:_The_Myth_of_Fenris",
   "notes": "Requires manual controller/key mapping.",
   "date_tested": "Nov '24",
   "decky_rating": "green",
@@ -51,11 +51,11 @@
     "English"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/diggles-the-myth-of-fenris/",
   "hltb_main": "",
-  "hltb_main_extra": "",
+  "hltb_main_extra": "32 hrs",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/69368",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -63,5 +63,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-12-11T21:15:59.780Z"
+  "updated_at": "2026-04-24T02:43:44.380Z"
 }

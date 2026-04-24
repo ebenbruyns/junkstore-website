@@ -57,8 +57,8 @@ store_url: "https://www.pcgamingwiki.com/wiki/Aer:_Memories_of_Old"
 protondb_url: "https://www.protondb.com/app/331870"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aer:_Memories_of_Old"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/aer-memories-of-old/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

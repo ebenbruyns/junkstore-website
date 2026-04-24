@@ -50,7 +50,7 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/14632"
 
 # Links
 store_url: "https://www.gog.com/en/game/fate_the_cursed_king"
@@ -58,7 +58,7 @@ protondb_url: "https://www.protondb.com/app/303690"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FATE:_The_Cursed_King"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/fate-the-cursed-king/"
 
 # Notes
 notes: There are some extra buttons you may want to map for quick shortcuts in game.  Ctrl - Sprinting, Weapon 1 - 2 swap, etc.

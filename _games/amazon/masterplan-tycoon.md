@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "10.5 hrs"
+hltb_main_extra: "12 hrs"
+hltb_completionist: "14.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/114221"
 
 # Links
 store_url: ""
@@ -58,7 +58,7 @@ protondb_url: "https://www.protondb.com/app/3008050"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/masterplan-tycoon/"
 
 # Notes
 notes: "Works out of the box!"

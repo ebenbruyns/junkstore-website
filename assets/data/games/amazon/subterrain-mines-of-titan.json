@@ -38,7 +38,7 @@
   "releasedate": "Mar 12, 2024",
   "genre": "Indie, RPG",
   "description": "Awaken from an abandoned stasis pod and discover a doomed mining camp on Titan in an uncompromising turn-based survival RPG. Survive the evolving horrors that lurk below and craft equipment, research new gear, fight against overwhelming odds, or even discover your true fate.",
-  "size": "703488939\n",
+  "size": "671 MB",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1573100/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1573100/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1573100/capsule_231x87.jpg",
@@ -54,15 +54,15 @@
     "Hungarian"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/subterrain-mines-of-titan/",
   "hltb_main": "",
-  "hltb_main_extra": "",
+  "hltb_main_extra": "28 hrs",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/146471",
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-11T20:20:29.668Z",
-  "updated_at": "2026-02-08T02:00:27.247Z"
+  "updated_at": "2026-04-24T02:44:02.302Z"
 }

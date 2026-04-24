@@ -7,7 +7,7 @@
   "gog_url": "https://www.gog.com/en/game/the_falconeer",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Falconeer",
   "notes": "Works out of the box!",
   "date_tested": "Sept '24",
   "decky_rating": "green",
@@ -49,8 +49,8 @@
   "languages": [
     "English"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 65,
+  "metacritic_url": "https://www.metacritic.com/game/the-falconeer/",
   "hltb_main": "9 hrs",
   "hltb_main_extra": "11.5 hrs",
   "hltb_completionist": "14.5 hrs",
@@ -61,6 +61,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-01T04:08:36.970Z",
-  "hltb_id": 83463
+  "updated_at": "2026-04-24T02:42:59.211Z"
 }

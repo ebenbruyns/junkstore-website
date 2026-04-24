@@ -57,8 +57,8 @@ store_url: "https://store.epicgames.com/en-US/p/bendy-and-the-ink-machine-60cf5a
 protondb_url: "https://www.protondb.com/app/622650"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bendy_and_the_Ink_Machine"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/bendy-and-the-ink-machine/"
 
 # Notes
 notes: "Works out of the box!"

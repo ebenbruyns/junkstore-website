@@ -19,7 +19,7 @@ developer: Radical Fish Games
 genre: Role-playing (RPG), Adventure, Indie, Puzzle, Shooter
 release_date: "Invalid Date"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","German","Simplified Chinese","Japanese","Korean"]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/368340/library_hero.jpg"
@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "35.5 hrs"
+hltb_main_extra: "54.5 hrs"
+hltb_completionist: "79 hrs"
+hltb_url: "https://howlongtobeat.com/game/24970"
 
 # Links
 store_url: "https://radicalfishgames.itch.io/crosscode"

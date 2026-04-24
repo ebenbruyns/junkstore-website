@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Postal_2",
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Need to set an exe for Decky version.",
   "date_tested": "Aug '25",
   "decky_rating": "yellow",
@@ -51,10 +51,10 @@
   ],
   "metacritic_score": 59,
   "metacritic_url": "https://www.metacritic.com/game/pc/postal-2-share-the-pain?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_main": "7 hrs",
+  "hltb_main_extra": "12.5 hrs",
+  "hltb_completionist": "33 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/7240",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -62,5 +62,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2025-08-17T21:04:20.107Z"
+  "updated_at": "2026-04-23T21:05:01.205Z"
 }

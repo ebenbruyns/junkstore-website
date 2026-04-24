@@ -56,12 +56,12 @@
     "Polish",
     "Spanish"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "metacritic_score": 63,
+  "metacritic_url": "https://www.metacritic.com/game/neverwinter-nights-enhanced-edition/",
+  "hltb_main": "43 hrs",
+  "hltb_main_extra": "71.5 hrs",
+  "hltb_completionist": "114 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/54495",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -69,5 +69,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-01-31T22:30:50.152Z"
+  "updated_at": "2026-04-24T01:31:32.804Z"
 }

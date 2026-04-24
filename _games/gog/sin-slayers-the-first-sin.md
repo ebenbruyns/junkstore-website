@@ -47,16 +47,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "12 hrs"
+hltb_main_extra: "14 hrs"
+hltb_completionist: "20 hrs"
+hltb_url: "https://howlongtobeat.com/game/76439"
 
 # Links
-store_url: "https://www.gog.com/game/sin-slayers-the-first-sin"
+store_url: "https://www.gog.com/dreamlist/game/sin-slayers-the-first-sin-2019"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sin_Slayers"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/sin-slayers-the-first-sin/"
 

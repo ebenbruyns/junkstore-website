@@ -57,8 +57,8 @@ store_url: "https://www.gog.com/en/game/absolute_drift"
 protondb_url: "https://www.protondb.com/app/320140"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Absolute_Drift"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 70
+metacritic_url: "https://www.metacritic.com/game/absolute-drift/"
 
 # Notes
 notes: "Works out of the box!"

@@ -19,7 +19,7 @@ developer: Kitfox Games
 genre: Role-playing (RPG), Adventure, Indie
 release_date: "March 10, 2016"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English*","French*","German","Spanish - Spain","Portuguese - Brazil","Russian","Italian","Japanese","Simplified Chinese*languages with full audio support"]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/320040/library_hero.jpg"
@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "1.5 hrs"
+hltb_main_extra: "7.5 hrs"
+hltb_completionist: "25 hrs"
+hltb_url: "https://howlongtobeat.com/game/33004"
 
 # Links
 store_url: "https://kitfoxgames.itch.io/moon-hunters"

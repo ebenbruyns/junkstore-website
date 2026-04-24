@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "15 hrs"
+hltb_main_extra: "26 hrs"
+hltb_completionist: "43 hrs"
+hltb_url: "https://howlongtobeat.com/game/39397"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/saints-row-iv-re-elected"

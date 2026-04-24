@@ -7,7 +7,7 @@
   "gog_url": "https://www.gog.com/en/game/the_witcher_3_wild_hunt_game_of_the_year_edition",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Witcher_3:_Wild_Hunt",
   "notes": "Works out of the box!",
   "date_tested": "Aug '24",
   "decky_rating": "green",
@@ -66,10 +66,10 @@
   ],
   "metacritic_score": 93,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-witcher-3-wild-hunt?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_main": "57 hrs",
+  "hltb_main_extra": "124 hrs",
+  "hltb_completionist": "188 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/40171",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -77,5 +77,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-12-31T06:01:40.242Z"
+  "updated_at": "2026-04-23T21:14:46.599Z"
 }

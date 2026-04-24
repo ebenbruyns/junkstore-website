@@ -47,22 +47,22 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "4.5 hrs"
+hltb_main_extra: "5.5 hrs"
+hltb_completionist: "6.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/139322"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1702430"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vlad_Circus:_Descend_Into_Madness"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/vlad-circus-descend-into-madness/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

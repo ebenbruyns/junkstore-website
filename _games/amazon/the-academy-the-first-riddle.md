@@ -47,18 +47,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "9.5 hrs"
+hltb_main_extra: "11 hrs"
+hltb_completionist: "18 hrs"
+hltb_url: "https://howlongtobeat.com/game/88842"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1155460"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Academy:_The_First_Riddle"
+metacritic_score: 59
+metacritic_url: "https://www.metacritic.com/game/the-academy-the-first-riddle/"
 
 # Notes
 notes: "Works out of the box!"

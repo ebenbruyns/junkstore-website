@@ -57,8 +57,8 @@ store_url: "https://store.epicgames.com/en-US/p/albion-online-7eb24d"
 protondb_url: "https://www.protondb.com/app/761890"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Albion_Online"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/albion-online/"
 
 # Notes
 notes: "Works out of the box once you create an account. Don't forget to enble/toggle the anti-cheat for this game."

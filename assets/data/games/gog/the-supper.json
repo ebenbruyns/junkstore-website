@@ -7,7 +7,7 @@
   "gog_url": "https://www.gog.com/en/game/the_supper",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Supper",
   "notes": "Works out of the box!",
   "date_tested": "Nov '24",
   "decky_rating": "green",
@@ -50,11 +50,11 @@
     "English"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/the-supper/",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/74738",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -62,5 +62,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-03-26T19:36:21.691Z"
+  "updated_at": "2026-04-24T01:13:22.663Z"
 }

@@ -49,16 +49,16 @@ cant_test_linux: false
 # HowLongToBeat
 hltb_main: ""
 hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_completionist: "1 hrs"
+hltb_url: "https://howlongtobeat.com/game/127370"
 
 # Links
 store_url: "https://www.gog.com/en/game/hell_division"
 protondb_url: "https://www.protondb.com/app/2004360"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hell_Division"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/hell-division/"
 
 # Notes
 notes: "Works out of the box!"

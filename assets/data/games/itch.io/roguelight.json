@@ -51,14 +51,14 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/roguelight/",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_main": "1.5 hrs",
+  "hltb_main_extra": "2.5 hrs",
+  "hltb_completionist": "3 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/30130",
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-27T06:24:30.613Z",
-  "updated_at": "2026-04-20T00:44:22.102Z"
+  "updated_at": "2026-04-23T23:32:25.843Z"
 }

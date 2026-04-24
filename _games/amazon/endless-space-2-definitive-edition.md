@@ -19,12 +19,12 @@ developer: Amplitude Studios
 genre: Strategy, Turn-based strategy (TBS)
 release_date: "January 21, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English*","French","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese*languages with full audio support"]
 
 # Images
 banner_image: "https://images.gog.com/3afd55dc3f68e709e341c64189eb0c0edd10e893fdae25e177ecf450ec2deea5.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/5c8dbc1812e6550ccec321562221a67351283694fad5ac164b55fb88c03531be.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/392110/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "native"
@@ -47,16 +47,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "19 hrs"
+hltb_main_extra: "48 hrs"
+hltb_completionist: "153 hrs"
+hltb_url: "https://howlongtobeat.com/game/41360"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/392110"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Endless_Space_2"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/endless-space-2?ftag=MCD-06-10aaa1f"
 

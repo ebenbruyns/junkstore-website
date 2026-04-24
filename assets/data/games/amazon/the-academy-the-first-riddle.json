@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Academy:_The_First_Riddle",
   "notes": "Works out of the box!",
   "date_tested": "Aug '25",
   "decky_rating": "not-supported",
@@ -58,16 +58,16 @@
     "Simplified Chinese",
     "Traditional Chinese"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "metacritic_score": 59,
+  "metacritic_url": "https://www.metacritic.com/game/the-academy-the-first-riddle/",
+  "hltb_main": "9.5 hrs",
+  "hltb_main_extra": "11 hrs",
+  "hltb_completionist": "18 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/88842",
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-11T10:15:53.036Z",
-  "updated_at": "2026-02-08T00:29:49.608Z"
+  "updated_at": "2026-04-23T22:13:18.770Z"
 }

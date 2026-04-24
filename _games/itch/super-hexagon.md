@@ -19,7 +19,7 @@ developer: Distractionware, Terry Cavanagh
 genre: Arcade
 release_date: "Invalid Date"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English**languages with full audio support"]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/221640/library_hero.jpg"
@@ -50,7 +50,7 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/9353"
 
 # Links
 store_url: "https://terrycavanagh.itch.io/super-hexagon"

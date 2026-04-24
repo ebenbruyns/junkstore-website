@@ -58,7 +58,7 @@ protondb_url: "https://www.protondb.com/app/409720"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock_2_Remastered"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/bioshock-2-remastered/"
 
 # Notes
 notes: "Works out of the box!"

@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Endless_Space_2",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "not-supported",
@@ -38,10 +38,10 @@
   "releasedate": "2021-01-21T00:00:00+0000",
   "genre": "Strategy, Turn-based strategy (TBS)",
   "description": "Endless Space 2 is Amplitude Studios’ third title in the acclaimed Endless Universe. This Strategic Space Opera is set in the mysterious universe of the “Endless”, God-like beings now long gone… though the secrets of their time still echo throughout the galaxy.\n\nBecome the leader of one of twelve unique factions as the benevolent guide your people need, or as a charismatic tyrant serving your own interests and building the influence of your empire.\n\nExplore the galaxy and encounter new life forms. Whether to befriend or to conquer them is up to you, regardless, you’ll need to build a strong fleet and adapt quickly to overcome those who cause a threat to your rule.\n\nWhichever route you choose, delve into this adventure in its most complete form with the Definitive Edition which, along with the base game, includes:\n\nEndless Space 2 – Vaulters\nThe resilient and stubborn Vaulters left the dying planet of Auriga for a new chance at finding a place they can finally call home.\n\nEndless Space 2 – Supremacy\nMeet the Hissho, a militaristic faction focused on expanding their empire and subjugating those who stand in their way.\n\nEndless Space 2 - Untold Tales\nEven if they are not the leading forces of the galaxy, minor factions still have their own heroes and their own stories: hear them out.\n\nEndless Space 2 - Lost Symphony\nThe Harmony are back. The travelers of this minor faction are experts at exploiting resources and will be invaluable allies. Also includes seven exclusive music tracks.\n\nEndless Space 2 - Harmonic Memories\nEnjoy nine remastered tracks from the original Endless Space as well as a new Harmony Hero: FES2 Reflects.\n\nEndless Space 2 - Celestial Worlds\nThe Leader of the Academy’s influence is wavering, and Restless Heroes start to rise… this epic multiple ending questline will make each of your decisions count.\n\nEndless Space 2 – Penumbra\nThe Umbral Choir faction does not usually meddle with the rest of the denizens of the galaxy, but even they cannot ignore its death cry.\n\nEndless Space 2 – Awakening\nThe Nakalim faction was once a vast galactic empire under the guidance of their gods, the Lost. When the Lost were slain, the Nakalim fell from grace. They now seek to reclaim their ancient territories.\n\nEndless Space 2 - Dark Matter\nWith twelve new story quests, investigate ancient mysteries and… less ancient problems caused by unruly subjects of your empire.",
-  "size": "14538576699\n",
+  "size": "13.5 GB",
   "vertical_artwork": "https://images.gog.com/5c8dbc1812e6550ccec321562221a67351283694fad5ac164b55fb88c03531be.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/3afd55dc3f68e709e341c64189eb0c0edd10e893fdae25e177ecf450ec2deea5.jpg?namespace=gamesdb",
-  "icon_image": "",
+  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/392110/capsule_231x87.jpg",
   "steamId": "392110",
   "game_modes": [
     "Single player",
@@ -49,18 +49,27 @@
     "Multiplayer"
   ],
   "languages": [
-    "English"
+    "English*",
+    "French",
+    "German",
+    "Spanish - Spain",
+    "Korean",
+    "Polish",
+    "Portuguese - Brazil",
+    "Russian",
+    "Simplified Chinese",
+    "Traditional Chinese*languages with full audio support"
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/pc/endless-space-2?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_main": "19 hrs",
+  "hltb_main_extra": "48 hrs",
+  "hltb_completionist": "153 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/41360",
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2025-08-11T19:59:03.541Z"
+  "updated_at": "2026-04-23T09:21:25.165Z"
 }

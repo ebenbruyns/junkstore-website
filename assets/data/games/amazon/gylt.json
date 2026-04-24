@@ -58,16 +58,16 @@
     "Japanese",
     "Norwegian"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "metacritic_score": 72,
+  "metacritic_url": "https://www.metacritic.com/game/gylt/",
+  "hltb_main": "6 hrs",
+  "hltb_main_extra": "7 hrs",
+  "hltb_completionist": "8 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/67988",
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-07T08:11:39.995Z",
-  "updated_at": "2026-02-08T02:00:27.248Z"
+  "updated_at": "2026-04-23T21:48:16.761Z"
 }

@@ -57,8 +57,8 @@ store_url: "https://store.epicgames.com/en-US/p/arcade-paradise"
 protondb_url: "https://www.protondb.com/app/1388870"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Arcade_Paradise"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/arcade-paradise/"
 
 # Notes
 notes: "Works out of the box!"

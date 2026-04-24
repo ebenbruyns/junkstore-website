@@ -47,18 +47,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "4 hrs"
+hltb_main_extra: "5 hrs"
+hltb_completionist: "7 hrs"
+hltb_url: "https://howlongtobeat.com/game/101772"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/scarf"
 protondb_url: "https://www.protondb.com/app/645320"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Scarf"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 69
+metacritic_url: "https://www.metacritic.com/game/scarf-2021/"
 
 # Notes
 notes: "Works out of the box!"

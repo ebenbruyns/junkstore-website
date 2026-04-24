@@ -19,7 +19,7 @@ developer: Clover Bite
 genre: Role-playing (RPG), Adventure, Indie, Platform
 release_date: "August 2, 2021"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Korean","Portuguese - Brazil","Russian"]
 
 # Images
 banner_image: "https://images.gog.com/6755f39d7c413e430baa78d775d543e228e58b75775fc71c993cb0a5ebdbff8c.jpg?namespace=gamesdb"
@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "12.5 hrs"
+hltb_main_extra: "18.5 hrs"
+hltb_completionist: "30 hrs"
+hltb_url: "https://howlongtobeat.com/game/85927"
 
 # Links
 store_url: ""

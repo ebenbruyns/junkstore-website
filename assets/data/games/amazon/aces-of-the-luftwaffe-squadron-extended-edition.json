@@ -56,8 +56,8 @@
     "Spanish - Spain",
     "Japanese*languages with full audio support"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "https://www.metacritic.com/game/aces-of-the-luftwaffe-squadron-extended-edition/",
+  "metacritic_score": 71,
+  "metacritic_url": "https://www.metacritic.com/game/aces-of-the-luftwaffe-squadron/",
   "hltb_main": "4 hrs",
   "hltb_main_extra": "7 hrs",
   "hltb_completionist": "32 hrs",
@@ -67,5 +67,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2026-04-23T05:30:32.414Z"
+  "updated_at": "2026-04-23T08:50:07.730Z"
 }

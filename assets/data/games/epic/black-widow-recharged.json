@@ -5,16 +5,16 @@
   "protondb": "https://www.protondb.com/app/1714180",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/black-widow-recharged",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Black_Widow:_Recharged",
   "notes": "Works out of the box!",
   "date_tested": "Aug '24",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -48,7 +48,7 @@
     "English"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/black-widow-recharged/",
   "hltb_main": "1.5 hrs",
   "hltb_main_extra": "2.8 hrs",
   "hltb_completionist": "5.1 hrs",
@@ -59,5 +59,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-05T21:54:35.240Z"
+  "updated_at": "2026-04-24T02:20:47.364Z"
 }

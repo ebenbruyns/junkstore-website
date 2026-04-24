@@ -57,8 +57,8 @@ store_url: "https://store.epicgames.com/en-US/p/amnesia-the-bunker-9d5799"
 protondb_url: "https://www.protondb.com/app/1944430"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia:_The_Bunker"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/amnesia-the-bunker/"
 
 # Notes
 notes: "Works out of the box!"

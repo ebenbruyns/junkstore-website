@@ -32,7 +32,7 @@
     "green_standalone": 801,
     "both_green": 622
   },
-  "last_updated": "2026-04-23T06:45:53.571Z",
+  "last_updated": "2026-04-24T02:44:09.011Z",
   "games": [
     {
       "id": "aa1a2fc7-85e0-4dc6-a4bf-dd908fe161b8",
@@ -48,10 +48,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/20_Minutes_till_Dawn",
       "steamId": "1966900",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/20-minutes-till-dawn/"
     },
     {
       "id": "f1d56fa3-be57-45cd-878f-809b096da946",
@@ -162,10 +162,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Adios",
       "steamId": "1271400",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 78,
+      "metacritic_url": "https://www.metacritic.com/game/adios/"
     },
     {
       "id": "aa8d7db2-163d-49f5-9b82-0037cdb9ac50",
@@ -240,8 +240,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Aces_of_the_Luftwaffe_-_Squadron",
       "steamId": "859350",
-      "metacritic_score": null,
-      "metacritic_url": "https://www.metacritic.com/game/aces-of-the-luftwaffe-squadron-extended-edition/"
+      "metacritic_score": 71,
+      "metacritic_url": "https://www.metacritic.com/game/aces-of-the-luftwaffe-squadron/"
     },
     {
       "id": "325a32b0-dfce-4f7e-8282-2ab78de99f34",
@@ -278,8 +278,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Albion_Online",
       "steamId": "761890",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 72,
+      "metacritic_url": "https://www.metacritic.com/game/albion-online/"
     },
     {
       "id": "9bca419f-d67e-4699-aea4-fb62dc816b82",
@@ -297,8 +297,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Alex_Kidd_in_Miracle_World_DX",
       "steamId": "1333470",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 65,
+      "metacritic_url": "https://www.metacritic.com/game/alex-kidd-in-miracle-world-dx/"
     },
     {
       "id": "790e593b-7c41-44f9-a931-eba01432f2a1",
@@ -352,10 +352,10 @@
       "gog_url": "https://www.gog.com/en/game/alders_blood_prologue",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Alder%27s_Blood",
       "steamId": "1227260",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/alders-blood-prologue/"
     },
     {
       "id": "224b6c6e-f125-46dc-a66b-17839a03b656",
@@ -468,8 +468,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ancient_Enemy",
       "steamId": "993790",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 73,
+      "metacritic_url": "https://www.metacritic.com/game/ancient-enemy/"
     },
     {
       "id": "fbb5a3f6-e77e-4064-bc98-5e1f84666cfa",
@@ -488,7 +488,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Animation_Throwdown:_The_Quest_for_Cards",
       "steamId": "591960",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/animation-throwdown-the-quest-for-cards/"
     },
     {
       "id": "77faef9b-12e2-4856-9d8e-7f5ff636b87a",
@@ -502,12 +502,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1388870",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/arcade-paradise",
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Arcade_Paradise",
       "steamId": "1388870",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 73,
+      "metacritic_url": "https://www.metacritic.com/game/arcade-paradise/"
     },
     {
       "id": "eececd6b-ff3b-40c3-8806-48fe44638d7f",
@@ -521,12 +521,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1515640",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/arcadegeddon",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Arcadegeddon",
       "steamId": "1515640",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 73,
+      "metacritic_url": "https://www.metacritic.com/game/arcadegeddon/"
     },
     {
       "id": "2f43feac-50dc-4b61-a72d-0d5900409231",
@@ -559,12 +559,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/443110",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/armored-warfare",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Armored_Warfare",
       "steamId": "443110",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/armored-warfare/"
     },
     {
       "id": "d560f4b4-1ae1-41bb-8d57-addbf407eb77",
@@ -582,8 +582,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Art_of_Rally",
       "steamId": "550320",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 79,
+      "metacritic_url": "https://www.metacritic.com/game/art-of-rally/"
     },
     {
       "id": "0e083eba-5e16-4e8c-a5c6-0471dd9eacc2",
@@ -658,8 +658,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ancient_Enemy",
       "steamId": "993790",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 73,
+      "metacritic_url": "https://www.metacritic.com/game/ancient-enemy/"
     },
     {
       "id": "3a98ec11-71b1-4864-9522-6e8cfef5e8db",
@@ -677,8 +677,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Arcade_Paradise",
       "steamId": "1388870",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 73,
+      "metacritic_url": "https://www.metacritic.com/game/arcade-paradise/"
     },
     {
       "id": "bc67f1e2-2560-4f23-93fb-04ffa6eca8ae",
@@ -808,10 +808,10 @@
       "gog_url": "https://www.gog.com/en/game/ascendant",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ascendant",
       "steamId": "296930",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 80,
+      "metacritic_url": "https://www.metacritic.com/game/another-world-20th-anniversary/"
     },
     {
       "id": "bfcd1b74-2497-40e2-a7b4-1efff7929c8c",
@@ -827,10 +827,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Bang_Bang_Racing",
       "steamId": "207020",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 58,
+      "metacritic_url": "https://www.metacritic.com/game/bang-bang-racing/"
     },
     {
       "id": "4e783403-62b5-436a-8374-017798fe2e61",
@@ -903,10 +903,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Beholder_3",
       "steamId": "1570070",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 67,
+      "metacritic_url": "https://www.metacritic.com/game/beholder-3/"
     },
     {
       "id": "40318f0e-90d1-4e53-91ca-8db0d664dc76",
@@ -963,7 +963,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/BioShock_2_Remastered",
       "steamId": "409720",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/bioshock-2-remastered/"
     },
     {
       "id": "a696cd53-f5d7-479e-aef5-0947b2cb0ea6",
@@ -1034,12 +1034,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1714180",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/black-widow-recharged",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Black_Widow:_Recharged",
       "steamId": "1714180",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/black-widow-recharged/"
     },
     {
       "id": "f8457636-873e-4dfc-9766-0c5b5bbaae6b",
@@ -1053,12 +1053,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1158940",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/blazing-sails",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Blazing_Sails:_Pirate_Battle_Royale",
       "steamId": "1158940",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/blazing-sails/"
     },
     {
       "id": "39d752ff-e368-4109-bd76-81d477fc7627",
@@ -1096,7 +1096,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Bloons_TD_6",
       "steamId": "960090",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/bloons-td-6/"
     },
     {
       "id": "4f6bfa5b-4ab4-42c5-8a89-c1b2047b9845",
@@ -1209,8 +1209,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "2019810",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 84,
+      "metacritic_url": "https://www.metacritic.com/game/boxes-lost-fragments/"
     },
     {
       "id": "5bad7bdd-c772-4a66-ace7-261b35f99697",
@@ -1228,8 +1228,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Bramble:_The_Mountain_King",
       "steamId": "1623940",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 80,
+      "metacritic_url": "https://www.metacritic.com/game/bramble-the-mountain-king/"
     },
     {
       "id": "a3ef83fe-138d-4f77-9d55-8243031187f9",
@@ -1300,12 +1300,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/976590",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/bus-simulator-21",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Bus_Simulator_21",
       "steamId": "976590",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/bus-simulator-21-next-stop/"
     },
     {
       "id": "43dbeeae-af75-4ba8-8ee1-4ae981916ff2",
@@ -1338,12 +1338,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1408610",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/call-of-the-wild-the-angler",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Call_of_the_Wild:_The_Angler",
       "steamId": "1408610",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 63,
+      "metacritic_url": "https://www.metacritic.com/game/call-of-the-wild-the-angler/"
     },
     {
       "id": "0dc6c250-b027-4b37-8485-cdd092c72c41",
@@ -1509,12 +1509,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1831830",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/chessarama-03026f",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "1831830",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 73,
+      "metacritic_url": "https://www.metacritic.com/game/chessarama/"
     },
     {
       "id": "d72dafbf-09d2-4486-9205-9aed487f1751",
@@ -1699,12 +1699,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/2933080",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/crime-boss",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Crime_Boss:_Rockay_City",
       "steamId": "2933080",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 52,
+      "metacritic_url": "https://www.metacritic.com/game/crime-boss-rockay-city/"
     },
     {
       "id": "bdcd7cd8-4739-42b6-8ddb-b5e18580df89",
@@ -1737,12 +1737,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/3839850",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/crystal-of-atlan-c5f8b3",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "3839850",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/crystal-of-atlan/"
     },
     {
       "id": "cc19ac53-5579-4564-97b8-eb85eb714bb7",
@@ -1775,12 +1775,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1248080",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/cygni-all-guns-blazing-98f872",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Cygni:_All_Guns_Blazing",
       "steamId": "1248080",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 74,
+      "metacritic_url": "https://www.metacritic.com/game/cygni-all-guns-blazing/"
     },
     {
       "id": "8d39e6db-5aea-466e-8518-807d0454d772",
@@ -1851,12 +1851,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/934700",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/dead-island-2",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Dead_Island_2",
       "steamId": "934700",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 73,
+      "metacritic_url": "https://www.metacritic.com/game/dead-island-2/"
     },
     {
       "id": "01a999b1-ff7c-4471-be99-e43388481d30",
@@ -2155,12 +2155,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1562430",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/dredge-3e3a5f",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Dredge",
       "steamId": "1562430",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 80,
+      "metacritic_url": "https://www.metacritic.com/game/dredge/"
     },
     {
       "id": "a82e17ff-12bc-4953-8e02-412ef04af2a0",
@@ -2596,8 +2596,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "1085220",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 76,
+      "metacritic_url": "https://www.metacritic.com/game/figment-2-creed-valley/"
     },
     {
       "id": "7b8cae99-edf1-47f7-98a6-57891860ec8b",
@@ -4344,8 +4344,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Scarf",
       "steamId": "645320",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 69,
+      "metacritic_url": "https://www.metacritic.com/game/scarf-2021/"
     },
     {
       "id": "9314f5d0-518b-4344-95cc-ac0dd7f3df5e",
@@ -5062,12 +5062,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1135260",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/the-falconeer",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Falconeer",
       "steamId": "1135260",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 65,
+      "metacritic_url": "https://www.metacritic.com/game/the-falconeer/"
     },
     {
       "id": "a0ab09a2-e4b9-4e79-94b7-f8b39b26ca2d",
@@ -5941,7 +5941,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/BioShock_2_Remastered",
       "steamId": "409720",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/bioshock-2-remastered/"
     },
     {
       "id": "e99a5fbd-de5d-4b02-b49c-1e04c2fa4f31",
@@ -5976,7 +5976,7 @@
       "gog_url": "https://www.gog.com/en/game/bioshock_remastered",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/BioShock_Remastered",
       "steamId": "409710",
       "metacritic_score": 80,
       "metacritic_url": "https://www.metacritic.com/game/pc/bioshock-the-collection?ftag=MCD-06-10aaa1f"
@@ -6168,8 +6168,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Broken_Sword:_Shadow_of_the_Templars:_Director%27s_Cut",
       "steamId": "57640",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 74,
+      "metacritic_url": "https://www.metacritic.com/game/broken-sword-shadow-of-the-templars/"
     },
     {
       "id": "ef022636-72b4-422f-baae-d3ded811a006",
@@ -6698,10 +6698,10 @@
       "gog_url": "https://www.gog.com/en/game/diggles_the_myth_of_fenris",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Diggles:_The_Myth_of_Fenris",
       "steamId": "1478650",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/diggles-the-myth-of-fenris/"
     },
     {
       "id": "f3483bb1-b52b-4b50-9f2e-540f01dd2b33",
@@ -6774,10 +6774,10 @@
       "gog_url": "https://www.gog.com/en/game/dredge",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Dredge",
       "steamId": "1562430",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 80,
+      "metacritic_url": "https://www.metacritic.com/game/dredge/"
     },
     {
       "id": "658bea4c-a7f7-42e8-a270-5a8ee1f92ff6",
@@ -7214,7 +7214,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "1903060",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/heads-will-roll-downfall/"
     },
     {
       "id": "748a2da7-3777-44c2-a515-6e68deaece65",
@@ -7230,10 +7230,10 @@
       "gog_url": "https://www.gog.com/en/game/hell_division",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Hell_Division",
       "steamId": "2004360",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/hell-division/"
     },
     {
       "id": "9a0be178-742f-4fbe-aa77-db94ea51d699",
@@ -7496,7 +7496,7 @@
       "gog_url": "https://www.gog.com/en/game/kerbal_space_program",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Kerbal_Space_Program",
       "steamId": "220200",
       "metacritic_score": 88,
       "metacritic_url": "https://www.metacritic.com/game/pc/kerbal-space-program?ftag=MCD-06-10aaa1f"
@@ -7895,7 +7895,7 @@
       "gog_url": "https://www.gog.com/en/game/neverwinter_nights_enhanced_edition_pack",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Neverwinter_Nights",
       "steamId": "",
       "metacritic_score": null,
       "metacritic_url": "https://www.metacritic.com/game/neverwinter-nights-diamond/"
@@ -8047,7 +8047,7 @@
       "gog_url": "https://www.gog.com/en/game/prince_of_persia_warrior_within",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Prince_of_Persia:_Warrior_Within",
       "steamId": "13500",
       "metacritic_score": 83,
       "metacritic_url": "https://www.metacritic.com/game/pc/prince-of-persia-warrior-within?ftag=MCD-06-10aaa1f"
@@ -8187,22 +8187,22 @@
     },
     {
       "id": "438b3189-2dfc-4a11-8d3c-00da411ceddc",
-      "title": "STAR WARS™ Jedi Knight: Dark Forces II - Mysteries of the Sith",
+      "title": "STAR WARS™ Jedi Knight: Mysteries of the Sith",
       "storefront": "GOG",
-      "slug": "star-wars-jedi-knight-dark-forces-ii-mysteries-of-the-sith",
+      "slug": "star-wars-jedi-knight-mysteries-of-the-sith",
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
       "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/32380",
-      "gog_url": "",
+      "gog_url": "https://www.gog.com/en/game/star_wars_jedi_knight_dark_forces_ii",
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "32380",
-      "metacritic_score": 91,
-      "metacritic_url": "https://www.metacritic.com/game/pc/star-wars-jedi-knight-dark-forces-ii?ftag=MCD-06-10aaa1f"
+      "metacritic_score": null,
+      "metacritic_url": "https://www.metacritic.com/game/star-wars-jedi-knight-mysteries-of-the-sith/"
     },
     {
       "id": "7763ed16-c50f-4f6f-88f0-41e48f8bc0ae",
@@ -8367,10 +8367,10 @@
       "is_featured": false,
       "blog_category": "",
       "protondb": "",
-      "gog_url": "",
+      "gog_url": "https://www.gog.com/dreamlist/game/sin-slayers-the-first-sin-2019",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Sin_Slayers",
       "steamId": "",
       "metacritic_score": null,
       "metacritic_url": "https://www.metacritic.com/game/sin-slayers-the-first-sin/"
@@ -8541,10 +8541,10 @@
       "gog_url": "https://www.gog.com/en/game/star_wars_rebellion",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Star_Wars:_Rebellion",
       "steamId": "441550",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/star-wars-rebellion/"
     },
     {
       "id": "e79c1434-316f-4e46-8a4a-24fb7fe00618",
@@ -8676,8 +8676,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "1865960",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 85,
+      "metacritic_url": "https://www.metacritic.com/game/symphonia/"
     },
     {
       "id": "dbcfe165-0e8b-4897-9833-8d3688447ce3",
@@ -8826,10 +8826,10 @@
       "gog_url": "https://www.gog.com/en/game/the_falconeer",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Falconeer",
       "steamId": "1135260",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 65,
+      "metacritic_url": "https://www.metacritic.com/game/the-falconeer/"
     },
     {
       "id": "0f0dd602-43c6-4347-92d1-23ff6ae89aec",
@@ -8978,10 +8978,10 @@
       "gog_url": "https://www.gog.com/en/game/the_supper",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Supper",
       "steamId": "1171370",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/the-supper/"
     },
     {
       "id": "6e9497d8-ebf7-4c28-addf-982db7b7e1ef",
@@ -9187,10 +9187,10 @@
       "gog_url": "https://www.gog.com/en/game/tomb_raider_chronicles",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Tomb_Raider_Chronicles",
       "steamId": "225000",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 63,
+      "metacritic_url": "https://www.metacritic.com/game/tomb-raider-chronicles/"
     },
     {
       "id": "c3e6be6d-2112-44d8-9763-54394582cec5",
@@ -9225,10 +9225,10 @@
       "gog_url": "https://www.gog.com/en/game/tomb_raider_the_last_revelation",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Tomb_Raider:_The_Last_Revelation",
       "steamId": "224980",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/tomb-raider-the-last-revelation/"
     },
     {
       "id": "e383bb86-8ff2-4249-a755-9d406fcda52d",
@@ -9510,10 +9510,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Collage_Atlas",
       "steamId": "2581960",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/the-collage-atlas/"
     },
     {
       "id": "664da477-0874-41a3-bbb4-200e69168717",
@@ -9532,7 +9532,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "2972040",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/the-gap-kosmik-games/"
     },
     {
       "id": "2c2bbba6-282c-48dc-bfb1-c6a5a2d15d4e",
@@ -9551,7 +9551,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "1709580",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/tiny-robots-recharged/"
     },
     {
       "id": "1f1426d6-413d-4b36-b96e-8b2deb639c43",
@@ -9567,10 +9567,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Through_the_Darkest_of_Times",
       "steamId": "1003090",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 71,
+      "metacritic_url": "https://www.metacritic.com/game/through-the-darkest-of-times/"
     },
     {
       "id": "e3161545-78f1-4042-87af-1fc9f25ff0f6",
@@ -9605,10 +9605,10 @@
       "gog_url": "https://www.gog.com/en/game/star_wars_knights_of_the_old_republic_ii_the_sith_lords",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_II_-_The_Sith_Lords",
       "steamId": "208580",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 86,
+      "metacritic_url": "https://www.metacritic.com/game/star-wars-knights-of-the-old-republic-ii-the-sit/"
     },
     {
       "id": "3333c313-ac89-4094-b5e4-b63407604253",
@@ -9624,10 +9624,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Vlad_Circus:_Descend_Into_Madness",
       "steamId": "1702430",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/vlad-circus-descend-into-madness/"
     },
     {
       "id": "9211a1c7-e2ca-4572-84f6-304f324662ba",
@@ -9643,10 +9643,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Abandoned_Planet",
       "steamId": "2014470",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/the-abandoned-planet/"
     },
     {
       "id": "97c684a1-b1fb-441d-ba1e-420c84923279",
@@ -9664,8 +9664,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "2172580",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 71,
+      "metacritic_url": "https://www.metacritic.com/game/spirit-mancer/"
     },
     {
       "id": "9bcc1fea-4771-41b8-b8b7-16055c663ebd",
@@ -9684,7 +9684,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "1647390",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/dexter-stardust-adventures-in-outer-space/"
     },
     {
       "id": "8afc587b-e630-4708-96e7-641b4e2c03cc",
@@ -9700,16 +9700,16 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Endless_Space_2",
       "steamId": "392110",
       "metacritic_score": 80,
       "metacritic_url": "https://www.metacritic.com/game/pc/endless-space-2?ftag=MCD-06-10aaa1f"
     },
     {
       "id": "965c39fd-87fa-41b3-a719-ba8ffe902736",
-      "title": "Faraway 2: Jungle Escape",
+      "title": "Faraway: Jungle Escape",
       "storefront": "Amazon",
-      "slug": "faraway-2-jungle-escape",
+      "slug": "faraway-jungle-escape",
       "decky_rating": "not-supported",
       "standalone_rating": "green",
       "date_tested": "July '25",
@@ -9719,10 +9719,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Faraway:_Jungle_Escape",
       "steamId": "1747680",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/faraway-jungle-escape/"
     },
     {
       "id": "4c01cdb1-1a01-42b2-977a-46a535aae7a5",
@@ -9738,10 +9738,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Faraway:_Arctic_Escape",
       "steamId": "1747690",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/faraway-arctic-escape/"
     },
     {
       "id": "f73ada7b-1fa5-47aa-88b8-5a135d3f8376",
@@ -9757,10 +9757,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Nine_Witches:_Family_Disruption",
       "steamId": "1034930",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/nine-witches-family-disruption/"
     },
     {
       "id": "1c4d956b-d06e-4aa1-a7b1-26901fdec228",
@@ -9776,10 +9776,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Max:_The_Curse_of_Brotherhood",
       "steamId": "255390",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 72,
+      "metacritic_url": "https://www.metacritic.com/game/max-the-curse-of-brotherhood/"
     },
     {
       "id": "17689f3f-39ea-4b85-9f14-6a95ce77cab6",
@@ -9795,7 +9795,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Projection:_First_Light",
       "steamId": "726490",
       "metacritic_score": 75,
       "metacritic_url": "https://www.metacritic.com/game/pc/projection-first-light?ftag=MCD-06-10aaa1f"
@@ -9852,10 +9852,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_II_-_The_Sith_Lords",
       "steamId": "208580",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 86,
+      "metacritic_url": "https://www.metacritic.com/game/star-wars-knights-of-the-old-republic-ii-the-sit/"
     },
     {
       "id": "df864656-e264-4e51-93a3-be790e4fe3ab",
@@ -9911,8 +9911,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/20XX",
       "steamId": "322110",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 77,
+      "metacritic_url": "https://www.metacritic.com/game/20xx/"
     },
     {
       "id": "a1374723-d8f6-4f0a-8cd6-130505f43a88",
@@ -9931,7 +9931,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/A_Short_Hike",
       "steamId": "1055540",
       "metacritic_score": 82,
-      "metacritic_url": "https://www.metacritic.com/game/pc/a-short-hike?ftag=MCD-06-10aaa1f"
+      "metacritic_url": "https://www.metacritic.com/game/a-short-hike/"
     },
     {
       "id": "22a82fff-b3e5-42b8-8932-686abbbeb3a6",
@@ -9949,8 +9949,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Aer:_Memories_of_Old",
       "steamId": "331870",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 69,
+      "metacritic_url": "https://www.metacritic.com/game/aer-memories-of-old/"
     },
     {
       "id": "f9bf35d9-cb6b-4cf6-8dc0-f965957d8ebb",
@@ -9968,8 +9968,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Absolute_Drift",
       "steamId": "320140",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 70,
+      "metacritic_url": "https://www.metacritic.com/game/absolute-drift/"
     },
     {
       "id": "a774dbbb-c9c7-4726-adbc-ea808c6ce114",
@@ -10007,7 +10007,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Against_All_Odds",
       "steamId": "1465560",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/against-all-odds/"
     },
     {
       "id": "34772e95-535b-432c-95e2-69112b3e9a0f",
@@ -10082,8 +10082,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Amnesia:_The_Bunker",
       "steamId": "1944430",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 77,
+      "metacritic_url": "https://www.metacritic.com/game/amnesia-the-bunker/"
     },
     {
       "id": "554a3d0c-faed-4197-a307-d227d2249054",
@@ -10192,12 +10192,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/877810",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/anodyne-2-return-to-dust",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Anodyne_2:_Return_to_Dust",
       "steamId": "877810",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 77,
+      "metacritic_url": "https://www.metacritic.com/game/anodyne-2-return-to-dust/"
     },
     {
       "id": "f0974842-f60a-4f4e-8af1-364d6b32100f",
@@ -10268,12 +10268,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1230530",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/atlas-fallen",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Atlas_Fallen",
       "steamId": "1230530",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 64,
+      "metacritic_url": "https://www.metacritic.com/game/atlas-fallen/"
     },
     {
       "id": "0c3916c7-9d05-49f3-8e36-3f6c1b9d2083",
@@ -10306,12 +10306,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/371970",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/barony",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Barony",
       "steamId": "371970",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/barony-2015/"
     },
     {
       "id": "a99b8ba6-f0e6-47de-ba1b-408acb90f8e7",
@@ -10840,7 +10840,7 @@
       "gog_url": "https://www.gog.com/en/game/the_penumbra_collection",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Penumbra:_Black_Plague",
       "steamId": "22120",
       "metacritic_score": 78,
       "metacritic_url": "https://www.metacritic.com/game/pc/penumbra-black-plague?ftag=MCD-06-10aaa1f"
@@ -10859,7 +10859,7 @@
       "gog_url": "https://www.gog.com/en/game/the_penumbra_collection",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Penumbra:_Overture",
       "steamId": "22180",
       "metacritic_score": 73,
       "metacritic_url": "https://www.metacritic.com/game/pc/penumbra-overture?ftag=MCD-06-10aaa1f"
@@ -11011,7 +11011,7 @@
       "gog_url": "https://www.gog.com/en/game/world_in_conflict_complete_edition",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/World_in_Conflict",
       "steamId": "",
       "metacritic_score": null,
       "metacritic_url": "https://www.metacritic.com/game/world-in-conflict-complete-edition/"
@@ -11049,7 +11049,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/AK-xolotl:_Together",
       "steamId": "1479140",
       "metacritic_score": null,
       "metacritic_url": ""
@@ -11109,7 +11109,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "2118810",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/breachway/"
     },
     {
       "id": "7c61cedd-40a1-45e1-9588-0c66a091da38",
@@ -11280,7 +11280,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Fallout_3",
       "steamId": "22370",
       "metacritic_score": 91,
-      "metacritic_url": "https://www.metacritic.com/game/pc/fallout-3?ftag=MCD-06-10aaa1f"
+      "metacritic_url": "https://www.metacritic.com/game/fallout-3-game-of-the-year-edition/"
     },
     {
       "id": "fe9fb4ea-5dc6-477b-b5b2-115dd8f10a52",
@@ -11334,10 +11334,10 @@
       "gog_url": "https://www.gog.com/en/game/flipon",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Flipon",
       "steamId": "1285020",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/flipon/"
     },
     {
       "id": "aa727381-ce5f-4051-9c80-3b33d2be7a2f",
@@ -11372,7 +11372,7 @@
       "gog_url": "https://www.gog.com/en/game/grim_dawn_definitive_edition",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Grim_Dawn",
       "steamId": "219990",
       "metacritic_score": 83,
       "metacritic_url": "https://www.metacritic.com/game/pc/grim-dawn?ftag=MCD-06-10aaa1f"
@@ -11622,7 +11622,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "1546090",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/raidborn/"
     },
     {
       "id": "96ed4698-3490-4652-9098-58cac918df8d",
@@ -11657,10 +11657,10 @@
       "gog_url": "https://www.gog.com/en/game/sherlock_holmes_the_awakened",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes:_The_Awakened",
       "steamId": "1949030",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 72,
+      "metacritic_url": "https://www.metacritic.com/game/sherlock-holmes-the-awakened-2007/"
     },
     {
       "id": "841aec79-b576-4591-813e-c9d6d37b30ed",
@@ -11866,10 +11866,10 @@
       "gog_url": "https://www.gog.com/en/game/the_saboteur",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Saboteur",
       "steamId": "24880",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 73,
+      "metacritic_url": "https://www.metacritic.com/game/the-saboteur/"
     },
     {
       "id": "ab34ddca-082c-43d1-9131-0e0495b39eec",
@@ -11885,7 +11885,7 @@
       "gog_url": "https://www.gog.com/en/game/the_witcher_3_wild_hunt_game_of_the_year_edition",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Witcher_3:_Wild_Hunt",
       "steamId": "292030",
       "metacritic_score": 93,
       "metacritic_url": "https://www.metacritic.com/game/pc/the-witcher-3-wild-hunt?ftag=MCD-06-10aaa1f"
@@ -11980,7 +11980,7 @@
       "gog_url": "https://www.gog.com/en/game/voidbound",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/VoidBound",
       "steamId": "2500710",
       "metacritic_score": null,
       "metacritic_url": ""
@@ -12059,7 +12059,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Auto_Chess",
       "steamId": "1530300",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/auto-chess/"
     },
     {
       "id": "201575dd-69ac-4bb8-8893-1ceecf79b56b",
@@ -12894,8 +12894,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Absolute_Drift",
       "steamId": "320140",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 70,
+      "metacritic_url": "https://www.metacritic.com/game/absolute-drift/"
     },
     {
       "id": "4d116fc8-66e9-4fc4-b3ea-290c3e0add44",
@@ -13070,9 +13070,9 @@
     },
     {
       "id": "80fdf3f3-07e0-4f5f-8089-b264ce3ecda8",
-      "title": "Cyberpunk 2077",
+      "title": "Cyberpunk 2077: Ultimate Edition",
       "storefront": "GOG",
-      "slug": "cyberpunk-2077",
+      "slug": "cyberpunk-2077-ultimate-edition",
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '26",
@@ -13084,8 +13084,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Cyberpunk_2077",
       "steamId": "1091500",
-      "metacritic_score": 86,
-      "metacritic_url": "https://www.metacritic.com/game/pc/cyberpunk-2077?ftag=MCD-06-10aaa1f"
+      "metacritic_score": 85,
+      "metacritic_url": "https://www.metacritic.com/game/cyberpunk-2077-ultimate-edition/"
     },
     {
       "id": "0b249aa8-95cb-43dc-abbf-69a39df56a67",
@@ -13161,7 +13161,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gravewood_High",
       "steamId": "1239300",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/gravewood-high/"
     },
     {
       "id": "ac3f1576-638d-4a14-975d-37a10b0f1c9d",
@@ -13275,7 +13275,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/jdm-rise-of-the-scorpion/"
     },
     {
       "id": "d04cbd8b-74b3-48b9-a5c7-ca933c952f48",
@@ -13502,8 +13502,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Neverwinter_Nights:_Enhanced_Edition",
       "steamId": "704450",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 63,
+      "metacritic_url": "https://www.metacritic.com/game/neverwinter-nights-enhanced-edition/"
     },
     {
       "id": "96f95386-5316-42cf-844a-05dfccbf0818",
@@ -13557,7 +13557,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Postal_2",
       "steamId": "223470",
       "metacritic_score": 59,
       "metacritic_url": "https://www.metacritic.com/game/pc/postal-2-share-the-pain?ftag=MCD-06-10aaa1f"
@@ -13611,10 +13611,10 @@
       "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/1526900",
-      "gog_url": "",
+      "gog_url": "https://www.gog.com/en/game/sapphire_safari",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Sapphire_Safari",
       "steamId": "1526900",
       "metacritic_score": null,
       "metacritic_url": ""
@@ -13804,10 +13804,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Clouds_%26_Sheep_2",
       "steamId": "439800",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/clouds-and-sheep-2/"
     },
     {
       "id": "9bf1f141-6da3-4031-9572-a54ccd506371",
@@ -13826,7 +13826,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/DreadOut_2",
       "steamId": "945710",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/dreadout-2/"
     },
     {
       "id": "951d8c9f-45cf-4f8f-a971-e60cbc153efa",
@@ -13920,8 +13920,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Everdream_Valley",
       "steamId": "1403650",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 68,
+      "metacritic_url": "https://www.metacritic.com/game/everdream-valley/"
     },
     {
       "id": "98852aa7-543e-4aaf-b947-2b93a4f1b5cc",
@@ -13940,7 +13940,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Faraway:_Director%27s_Cut",
       "steamId": "883880",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/faraway-directors-cut/"
     },
     {
       "id": "6730ccf8-7f7b-45c4-9fab-f950eca78c7b",
@@ -13958,8 +13958,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "1085220",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 76,
+      "metacritic_url": "https://www.metacritic.com/game/figment-2-creed-valley/"
     },
     {
       "id": "600e4216-a61f-4070-894b-93a5442c86de",
@@ -13977,8 +13977,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gargoyles_Remastered",
       "steamId": "1928020",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 58,
+      "metacritic_url": "https://www.metacritic.com/game/gargoyles-remastered/"
     },
     {
       "id": "8232d9e3-55f1-4733-9dd2-c9f83b0285ea",
@@ -14035,7 +14035,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "1579020",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/golfie/"
     },
     {
       "id": "51e35838-cdbe-4b78-9bb2-997dcd57d03e",
@@ -14054,7 +14054,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gravity_Circuit",
       "steamId": "858710",
       "metacritic_score": 89,
-      "metacritic_url": "https://www.metacritic.com/game/pc/gravity-circuit?ftag=MCD-06-10aaa1f"
+      "metacritic_url": "https://www.metacritic.com/game/gravity-circuit/"
     },
     {
       "id": "f2e5340c-698c-48e8-bc32-15f18e94ddbd",
@@ -14091,8 +14091,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Heaven_Dust_2",
       "steamId": "1515900",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 83,
+      "metacritic_url": "https://www.metacritic.com/game/heaven-dust-2/"
     },
     {
       "id": "a645188e-5a82-42b1-a3fd-35476f7fd197",
@@ -14111,7 +14111,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Kraken_Academy!!",
       "steamId": "1158220",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/kraken-academy/"
     },
     {
       "id": "906f6511-9907-490a-8346-8e1b0691223e",
@@ -14149,7 +14149,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "3008050",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/masterplan-tycoon/"
     },
     {
       "id": "fbf10707-e247-4dfd-bd25-23df30ef4928",
@@ -14167,8 +14167,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "1822560",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 65,
+      "metacritic_url": "https://www.metacritic.com/game/minabo-a-walk-through-life/"
     },
     {
       "id": "3752501f-83ad-4df5-8600-56e3b0923a94",
@@ -14187,7 +14187,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "2005160",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/naheulbeuks-dungeon-master/"
     },
     {
       "id": "7b4e70d4-4fb1-40f2-ab26-b17b77a1c522",
@@ -14206,7 +14206,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "1254670",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/night-reverie/"
     },
     {
       "id": "64a9285e-59b2-465d-9019-58acb03749c7",
@@ -14224,8 +14224,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Paleo_Pines",
       "steamId": "1202200",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 65,
+      "metacritic_url": "https://www.metacritic.com/game/paleo-pines/"
     },
     {
       "id": "5ef7444f-f198-4f3d-9d67-cf13ba80609e",
@@ -14244,7 +14244,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "1851280",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/samurai-bringer/"
     },
     {
       "id": "0b4ef12f-4cc3-4146-a4a8-db296e52dfe3",
@@ -14262,8 +14262,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Scarf",
       "steamId": "645320",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 69,
+      "metacritic_url": "https://www.metacritic.com/game/scarf-2021/"
     },
     {
       "id": "4b9d6426-bdb8-438a-86c3-0f12e2abc11c",
@@ -14281,8 +14281,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Sine_Mora_EX",
       "steamId": "606730",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 81,
+      "metacritic_url": "https://www.metacritic.com/game/sine-mora-ex/"
     },
     {
       "id": "629d6264-b3f6-4a12-baa1-2b5edd034447",
@@ -14320,7 +14320,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Stunt_Kite_Party",
       "steamId": "960240",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/stunt-kite-party/"
     },
     {
       "id": "e0148919-76d2-4a51-9a55-b821914ab28f",
@@ -14338,8 +14338,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Surf_World_Series",
       "steamId": "462640",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 65,
+      "metacritic_url": "https://www.metacritic.com/game/surf-world-series/"
     },
     {
       "id": "3a3c724a-d0d5-48c2-8c18-58f9ef2a266a",
@@ -14433,8 +14433,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Wall_World",
       "steamId": "2187290",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 74,
+      "metacritic_url": "https://www.metacritic.com/game/wall-world/"
     },
     {
       "id": "4e3defcf-cea2-4576-bb1c-9e58e452d056",
@@ -14450,7 +14450,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Warhammer_40,000:_Dawn_of_War_II",
       "steamId": "15620",
       "metacritic_score": 85,
       "metacritic_url": "https://www.metacritic.com/game/pc/warhammer-40000-dawn-of-war-ii?ftag=MCD-06-10aaa1f"
@@ -14528,8 +14528,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Youtubers_Life_2",
       "steamId": "1493760",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 63,
+      "metacritic_url": "https://www.metacritic.com/game/youtubers-life-2/"
     },
     {
       "id": "35a086ce-f235-4812-ace7-2a750f01629b",
@@ -14547,8 +14547,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Zombies_Ate_My_Neighbors_and_Ghoul_Patrol",
       "steamId": "1137970",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 59,
+      "metacritic_url": "https://www.metacritic.com/game/zombies-ate-my-neighbors-and-ghoul-patrol/"
     },
     {
       "id": "72214a5a-ac74-4df8-b61a-22599350dd52",
@@ -14659,10 +14659,10 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Academy:_The_First_Riddle",
       "steamId": "1155460",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 59,
+      "metacritic_url": "https://www.metacritic.com/game/the-academy-the-first-riddle/"
     },
     {
       "id": "10f31c87-2111-42ed-a129-e97963d5fb3a",
@@ -14947,7 +14947,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/A_Short_Hike",
       "steamId": "1055540",
       "metacritic_score": 82,
-      "metacritic_url": "https://www.metacritic.com/game/pc/a-short-hike?ftag=MCD-06-10aaa1f"
+      "metacritic_url": "https://www.metacritic.com/game/a-short-hike/"
     },
     {
       "id": "a3c16da4-5749-4f80-b908-fb1ba78bfec9",
@@ -16106,7 +16106,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Heroes_of_the_Lance",
       "steamId": "2344020",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/advanced-dungeons-and-dragons-heroes-of-the-lance/"
     },
     {
       "id": "9c6b3cbe-82cb-4140-a70c-de3b43d4b468",
@@ -16163,7 +16163,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Shadow_Sorcerer",
       "steamId": "2344020",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/advanced-dungeons-and-dragons-shadow-sorcerer/"
     },
     {
       "id": "0168a17e-04e5-44b5-8cae-e1ac47318ad2",
@@ -16182,7 +16182,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/War_of_the_Lance",
       "steamId": "2344020",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/war-of-the-lance/"
     },
     {
       "id": "522b0513-ad2f-490d-a650-4eff14a1c130",
@@ -16315,7 +16315,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ravenloft:_Stone_Prophet",
       "steamId": "1904560",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/ravenloft-stone-prophet/"
     },
     {
       "id": "4d92290e-290b-41d3-9aa3-abd6e69878cf",
@@ -16334,7 +16334,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ravenloft:_Strahd%27s_Possession",
       "steamId": "1904560",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/ravenloft-strahds-possession/"
     },
     {
       "id": "82ac89db-ecdd-44c0-93e6-bb34317892b3",
@@ -16448,7 +16448,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "1573100",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/subterrain-mines-of-titan/"
     },
     {
       "id": "041240c1-d0c3-40d2-a952-2d73eb58d7dc",
@@ -16486,7 +16486,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/FATE:_The_Cursed_King",
       "steamId": "303690",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/fate-the-cursed-king/"
     },
     {
       "id": "44cb8a75-63bd-41cc-90e3-a1ab49b9a47d",
@@ -16562,7 +16562,7 @@
       "pc_gaming_wiki_url": "",
       "steamId": "2409360",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/pixel-cafe/"
     },
     {
       "id": "14965c9d-eca5-4c2c-bbca-aa3637b24ae2",
@@ -16638,7 +16638,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gravity_Circuit",
       "steamId": "858710",
       "metacritic_score": 89,
-      "metacritic_url": "https://www.metacritic.com/game/pc/gravity-circuit?ftag=MCD-06-10aaa1f"
+      "metacritic_url": "https://www.metacritic.com/game/gravity-circuit/"
     },
     {
       "id": "70ede6ea-99db-4ab4-bb57-4157e0a8fdc3",
@@ -16656,8 +16656,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Amnesia:_The_Bunker",
       "steamId": "1944430",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 77,
+      "metacritic_url": "https://www.metacritic.com/game/amnesia-the-bunker/"
     },
     {
       "id": "b1f71ef9-26b9-4abe-a596-8e0051f996f4",
@@ -16827,8 +16827,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Bendy_and_the_Ink_Machine",
       "steamId": "622650",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 71,
+      "metacritic_url": "https://www.metacritic.com/game/bendy-and-the-ink-machine/"
     },
     {
       "id": "c3728b33-ca68-413b-914d-17f1988faaa0",
@@ -16882,7 +16882,7 @@
       "gog_url": "",
       "epic_url": "",
       "itch_url": "",
-      "pc_gaming_wiki_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Werewolf:_The_Apocalypse_-_Heart_of_the_Forest",
       "steamId": "1342620",
       "metacritic_score": 78,
       "metacritic_url": "https://www.metacritic.com/game/pc/werewolf-the-apocalypse---heart-of-the-forest?ftag=MCD-06-10aaa1f"
@@ -17074,8 +17074,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Another_World",
       "steamId": "233550",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 80,
+      "metacritic_url": "https://www.metacritic.com/game/another-world-20th-anniversary/"
     },
     {
       "id": "8962411e-bde0-4022-ae69-7dca324097d2",
@@ -17226,8 +17226,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gunslugs",
       "steamId": "371890",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 81,
+      "metacritic_url": "https://www.metacritic.com/game/gunslugs/"
     },
     {
       "id": "8d739897-a07d-4c06-bb35-4247e9e70fe3",
@@ -17316,13 +17316,13 @@
       "is_featured": false,
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/646270",
-      "gog_url": "",
+      "gog_url": "https://www.gog.com/dreamlist/game/60-parsecs-2018",
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/60_Parsecs!",
       "steamId": "646270",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 68,
+      "metacritic_url": "https://www.metacritic.com/game/60-parsecs/"
     },
     {
       "id": "536d27c0-31aa-4131-b847-0889d8fe0e80",
@@ -17340,8 +17340,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gylt",
       "steamId": "2206210",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 72,
+      "metacritic_url": "https://www.metacritic.com/game/gylt/"
     },
     {
       "id": "30fa24d3-af66-47b3-bad9-c9d56b04c86c",
@@ -17493,7 +17493,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ashworld",
       "steamId": "580320",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/ashworld/"
     },
     {
       "id": "b60b4356-4ced-4344-82d7-d2bbe6bdf409",
@@ -17644,8 +17644,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Bloodstained:_Ritual_of_the_Night",
       "steamId": "692850",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 83,
+      "metacritic_url": "https://www.metacritic.com/game/bloodstained-ritual-of-the-night/"
     },
     {
       "id": "d41ff1f6-bcf6-4f81-8185-0f7cf05fc112",
@@ -17911,7 +17911,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gunslugs:_Rogue_Tactics",
       "steamId": "1012360",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/gunslugsrogue-tactics/"
     },
     {
       "id": "9066c262-d335-46df-b60c-ce55cc888e85",
@@ -17986,8 +17986,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/ARC_Raiders",
       "steamId": "1808500",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 86,
+      "metacritic_url": "https://www.metacritic.com/game/arc-raiders/"
     },
     {
       "id": "605702f4-93e2-489a-891c-1e362a62312c",
@@ -18081,8 +18081,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "",
       "steamId": "2825110",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 85,
+      "metacritic_url": "https://www.metacritic.com/game/technotopia/"
     },
     {
       "id": "2d9e02a9-c522-431b-bc5b-3f2762753f6b",
@@ -18461,8 +18461,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Sir_Questionnaire",
       "steamId": "2124790",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 71,
+      "metacritic_url": "https://www.metacritic.com/game/sir-questionnaire/"
     },
     {
       "id": "f9ab1e43-4897-433e-b524-5dd5aa2662db",

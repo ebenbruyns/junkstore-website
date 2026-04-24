@@ -7,14 +7,14 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Adios",
   "notes": "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Needs Microsoft C++ runtime dependency but ships with it, so just install it.",
   "date_tested": "Aug '25",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "<a href=\"https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170\" target=\"_blank\" rel=\"noopener noreferrer\">Visual C++ Redistributable</a>",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -49,8 +49,8 @@
   "languages": [
     "English"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 78,
+  "metacritic_url": "https://www.metacritic.com/game/adios/",
   "hltb_main": "1.3 hrs",
   "hltb_main_extra": "1.5 hrs",
   "hltb_completionist": "2 hrs",
@@ -61,5 +61,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-06T03:18:46.904Z"
+  "updated_at": "2026-04-24T01:54:04.372Z"
 }

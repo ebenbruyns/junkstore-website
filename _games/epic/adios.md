@@ -56,13 +56,13 @@ hltb_url: "https://howlongtobeat.com/game/86459"
 store_url: "https://store.epicgames.com/en-US/p/adios"
 protondb_url: "https://www.protondb.com/app/1271400"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Adios"
+metacritic_score: 78
+metacritic_url: "https://www.metacritic.com/game/adios/"
 
 # Notes
 notes: "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Needs Microsoft C++ runtime dependency but ships with it, so just install it."
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

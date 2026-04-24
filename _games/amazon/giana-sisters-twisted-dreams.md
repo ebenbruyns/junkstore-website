@@ -19,7 +19,7 @@ developer: Black Forest Games
 genre: Adventure, Indie, Platform, Puzzle
 release_date: "October 22, 2012"
 game_modes: ["Single player","Multiplayer"]
-languages: ["English"]
+languages: ["English","German","French","Italian","Spanish - Spain","Japanese","Russian"]
 
 # Images
 banner_image: "https://images.gog.com/c841c264579dae5daf855d975611441c548007449bb11f2a1fc8fa31b89be96f.jpg?namespace=gamesdb"
@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "7.5 hrs"
+hltb_main_extra: "13.5 hrs"
+hltb_completionist: "23 hrs"
+hltb_url: "https://howlongtobeat.com/game/3930"
 
 # Links
 store_url: ""

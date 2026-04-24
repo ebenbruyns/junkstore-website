@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "1.5 hrs"
+hltb_main_extra: "2.5 hrs"
+hltb_completionist: "3 hrs"
+hltb_url: "https://howlongtobeat.com/game/30130"
 
 # Links
 store_url: "https://managore.itch.io/roguelight"

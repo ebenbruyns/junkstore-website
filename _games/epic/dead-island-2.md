@@ -56,13 +56,13 @@ hltb_url: "https://howlongtobeat.com/game/21273"
 store_url: "https://store.epicgames.com/en-US/p/dead-island-2"
 protondb_url: "https://www.protondb.com/app/934700"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dead_Island_2"
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/dead-island-2/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

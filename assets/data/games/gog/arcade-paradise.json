@@ -60,8 +60,8 @@
     "Russian",
     "Simplified Chinese"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 73,
+  "metacritic_url": "https://www.metacritic.com/game/arcade-paradise/",
   "hltb_main": "25 hrs",
   "hltb_main_extra": "28 hrs",
   "hltb_completionist": "46.5 hrs",
@@ -73,5 +73,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-01-29T04:00:24.764Z"
+  "updated_at": "2026-04-24T02:42:59.210Z"
 }

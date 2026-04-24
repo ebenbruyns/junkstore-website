@@ -47,18 +47,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "21 hrs"
+hltb_main_extra: "36.5 hrs"
+hltb_completionist: "105 hrs"
+hltb_url: "https://howlongtobeat.com/game/111986"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1202200"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Paleo_Pines"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 65
+metacritic_url: "https://www.metacritic.com/game/paleo-pines/"
 
 # Notes
 notes: "Works out of the box!"

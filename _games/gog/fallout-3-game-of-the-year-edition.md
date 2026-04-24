@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "26.5 hrs"
+hltb_main_extra: "58 hrs"
+hltb_completionist: "106 hrs"
+hltb_url: "https://howlongtobeat.com/game/3342"
 
 # Links
 store_url: "https://www.gog.com/en/game/fallout_3_game_of_the_year_edition"
@@ -58,7 +58,7 @@ protondb_url: "https://www.protondb.com/app/22370"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_3"
 metacritic_score: 91
-metacritic_url: "https://www.metacritic.com/game/pc/fallout-3?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/fallout-3-game-of-the-year-edition/"
 
 # Notes
 notes: "Works out of the box!"

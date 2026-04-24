@@ -53,12 +53,12 @@ hltb_completionist: "53.7 hrs"
 hltb_url: "https://howlongtobeat.com/game/118228"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/crime-boss-rockay-city"
+store_url: "https://store.epicgames.com/en-US/p/crime-boss"
 protondb_url: "https://www.protondb.com/app/2933080"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Crime_Boss:_Rockay_City"
+metacritic_score: 52
+metacritic_url: "https://www.metacritic.com/game/crime-boss-rockay-city/"
 
 # Notes
 notes: "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. You need to install Microsoft C++ runtime & accept a EULA"

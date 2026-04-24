@@ -57,8 +57,8 @@ store_url: ""
 protondb_url: "https://www.protondb.com/app/859350"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aces_of_the_Luftwaffe_-_Squadron"
-metacritic_score: 
-metacritic_url: "https://www.metacritic.com/game/aces-of-the-luftwaffe-squadron-extended-edition/"
+metacritic_score: 71
+metacritic_url: "https://www.metacritic.com/game/aces-of-the-luftwaffe-squadron/"
 
 # Notes
 notes: "Works out of the box!"

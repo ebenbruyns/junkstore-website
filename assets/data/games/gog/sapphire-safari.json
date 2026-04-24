@@ -4,10 +4,10 @@
   "storefront": "GOG",
   "protondb": "https://www.protondb.com/app/1526900",
   "protondb_report_url": "",
-  "gog_url": "",
+  "gog_url": "https://www.gog.com/en/game/sapphire_safari",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Sapphire_Safari",
   "notes": "Works out of the box!",
   "date_tested": "Aug '25",
   "decky_rating": "green",
@@ -53,8 +53,8 @@
   "metacritic_url": "",
   "hltb_main": "",
   "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_completionist": "22.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/127378",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -62,5 +62,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2025-08-11T07:39:25.950Z"
+  "updated_at": "2026-04-24T02:43:58.090Z"
 }

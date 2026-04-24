@@ -50,15 +50,15 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/57690"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/462640"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Surf_World_Series"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 65
+metacritic_url: "https://www.metacritic.com/game/surf-world-series/"
 
 # Notes
 notes: "Works out of the box!"

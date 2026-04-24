@@ -38,7 +38,7 @@
   "releasedate": "19 Nov, 2014",
   "genre": "Action, Adventure, RPG",
   "description": "Are you ready for the FATE-IEST of the FATE games? Welcome to the final chapter in the classic, action RPG series! FATE: The Cursed King has new weapons, spells, armor and AI-controlled allies! Wait, what?! Allies?? That’s right. This FATE game IS A PARTY. Woo! Party system!",
-  "size": "416545577\n",
+  "size": "397 MB",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/303690/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/303690/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/303690/capsule_231x87.jpg",
@@ -50,11 +50,11 @@
     "English**languages with full audio support"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/fate-the-cursed-king/",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/14632",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -62,5 +62,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-18T23:41:29.002Z",
-  "updated_at": "2025-09-23T23:48:48.473Z"
+  "updated_at": "2026-04-24T00:22:26.119Z"
 }

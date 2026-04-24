@@ -47,18 +47,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "9 hrs"
+hltb_main_extra: "10.5 hrs"
+hltb_completionist: "10.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/8407"
 
 # Links
 store_url: "https://www.gog.com/en/game/sherlock_holmes_the_awakened"
 protondb_url: "https://www.protondb.com/app/1949030"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes:_The_Awakened"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/sherlock-holmes-the-awakened-2007/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.

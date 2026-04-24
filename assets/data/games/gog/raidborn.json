@@ -50,11 +50,11 @@
     "English"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/raidborn/",
   "hltb_main": "",
-  "hltb_main_extra": "",
+  "hltb_main_extra": "16.5 hrs",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/126805",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -62,5 +62,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-11T08:06:40.783Z"
+  "updated_at": "2026-04-24T02:43:53.942Z"
 }

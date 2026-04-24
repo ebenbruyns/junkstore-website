@@ -47,18 +47,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "2.5 hrs"
+hltb_main_extra: "5 hrs"
+hltb_completionist: "15.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/48048"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/606730"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sine_Mora_EX"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/sine-mora-ex/"
 
 # Notes
 notes: "Works out of the box!"

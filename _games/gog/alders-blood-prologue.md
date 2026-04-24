@@ -47,22 +47,22 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "25 mins"
+hltb_main_extra: "29 mins"
+hltb_completionist: "41 mins"
+hltb_url: "https://howlongtobeat.com/game/74995"
 
 # Links
 store_url: "https://www.gog.com/en/game/alders_blood_prologue"
 protondb_url: "https://www.protondb.com/app/1227260"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alder%27s_Blood"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/alders-blood-prologue/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

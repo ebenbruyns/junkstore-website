@@ -56,9 +56,9 @@ hltb_url: "https://howlongtobeat.com/game/95455"
 store_url: "https://store.epicgames.com/en-US/p/arcadegeddon"
 protondb_url: "https://www.protondb.com/app/1515640"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Arcadegeddon"
+metacritic_score: 73
+metacritic_url: "https://www.metacritic.com/game/arcadegeddon/"
 
 # Notes
 notes: "Works out of the box!"

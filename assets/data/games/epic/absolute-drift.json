@@ -49,8 +49,8 @@
   "languages": [
     "English"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 70,
+  "metacritic_url": "https://www.metacritic.com/game/absolute-drift/",
   "hltb_main": "2.7 hrs",
   "hltb_main_extra": "4.5 hrs",
   "hltb_completionist": "9.1 hrs",
@@ -61,5 +61,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-11-25T23:40:41.513Z"
+  "updated_at": "2026-04-24T01:53:26.993Z"
 }

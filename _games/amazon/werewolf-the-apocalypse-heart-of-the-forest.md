@@ -47,16 +47,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "3 hrs"
+hltb_main_extra: "3 hrs"
+hltb_completionist: "9 hrs"
+hltb_url: "https://howlongtobeat.com/game/84435"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1342620"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Werewolf:_The_Apocalypse_-_Heart_of_the_Forest"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/werewolf-the-apocalypse---heart-of-the-forest?ftag=MCD-06-10aaa1f"
 

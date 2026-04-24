@@ -19,12 +19,12 @@ developer: Relic Entertainment
 genre: Strategy, Real Time Strategy (RTS)
 release_date: "February 19, 2009"
 game_modes: ["Single player","Co-operative","Multiplayer"]
-languages: ["English"]
+languages: ["English*","French","German","Italian","Spanish - Spain*languages with full audio support"]
 
 # Images
 banner_image: "https://images.gog.com/62b6c82216ed06c1597e39697d8ba948fabdd09a807159d449bd77a3ad72d6e7.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/caa6bccda1d6fcd5664619808c57a6dc839cd307cfa49a0cb119f102ceabc0f9.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/15620/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"
@@ -47,16 +47,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "15 hrs"
+hltb_main_extra: "22 hrs"
+hltb_completionist: "49.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/11043"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/15620"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40,000:_Dawn_of_War_II"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/warhammer-40000-dawn-of-war-ii?ftag=MCD-06-10aaa1f"
 

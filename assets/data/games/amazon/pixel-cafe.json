@@ -38,7 +38,7 @@
   "releasedate": "30 Nov, 2023",
   "genre": "Casual, Indie, Simulation, Strategy",
   "description": "Step into Pixel's shoes in this one-of-a-kind journey that bridges time, memories, and the aroma of fresh coffee. Dive deep into a city balancing its past and future. Engage in intense arcade challenges, immerse yourself in heartfelt stories, and navigate a world crafted in pixel art.",
-  "size": "1273918639\n",
+  "size": "1.19 GB",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2409360/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2409360/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2409360/capsule_231x87.jpg",
@@ -56,15 +56,15 @@
     "Spanish - Spain"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/pixel-cafe/",
+  "hltb_main": "5.5 hrs",
+  "hltb_main_extra": "13 hrs",
+  "hltb_completionist": "19.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/132519",
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-25T22:37:51.461Z",
-  "updated_at": "2026-02-08T02:00:27.247Z"
+  "updated_at": "2026-04-23T22:01:30.273Z"
 }

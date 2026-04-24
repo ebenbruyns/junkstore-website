@@ -47,18 +47,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "11 hrs"
+hltb_main_extra: "12 hrs"
+hltb_completionist: "12.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/10470"
 
 # Links
 store_url: "https://www.gog.com/en/game/tomb_raider_chronicles"
 protondb_url: "https://www.protondb.com/app/225000"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider_Chronicles"
+metacritic_score: 63
+metacritic_url: "https://www.metacritic.com/game/tomb-raider-chronicles/"
 
 # Notes
 notes: Requires manual controller/key mapping and scaling tweaks via QAM.

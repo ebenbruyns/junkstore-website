@@ -56,13 +56,13 @@ hltb_url: "https://howlongtobeat.com/game/26050"
 store_url: "https://store.epicgames.com/en-US/p/barony"
 protondb_url: "https://www.protondb.com/app/371970"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barony"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/barony-2015/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

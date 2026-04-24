@@ -47,18 +47,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "20 hrs"
+hltb_main_extra: "22 hrs"
+hltb_completionist: "27 hrs"
+hltb_url: "https://howlongtobeat.com/game/127927"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1403650"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Everdream_Valley"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 68
+metacritic_url: "https://www.metacritic.com/game/everdream-valley/"
 
 # Notes
 notes: "Works out of the box!"

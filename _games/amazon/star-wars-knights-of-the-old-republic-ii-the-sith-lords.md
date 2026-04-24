@@ -24,7 +24,7 @@ languages: ["English"]
 # Images
 banner_image: "https://images.gog.com/9447bd735d304984ce1dbc2bc0d0ea11c3de86029c0368f7726882dce7bfca67.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/883eb5100d49ff1cb1e63efbcb574cd1aeadfa4cfbcff38c91ef4e999116d9cf.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/208580/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "native"
@@ -47,22 +47,22 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "30 hrs"
+hltb_main_extra: "40.5 hrs"
+hltb_completionist: "53.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/9112"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/208580"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars:_Knights_of_the_Old_Republic_II_-_The_Sith_Lords"
+metacritic_score: 86
+metacritic_url: "https://www.metacritic.com/game/star-wars-knights-of-the-old-republic-ii-the-sit/"
 
 # Notes
 notes: 
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

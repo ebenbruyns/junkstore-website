@@ -57,8 +57,8 @@ store_url: "https://store.epicgames.com/en-US/p/bramble-the-mountain-king-c0d1c6
 protondb_url: "https://www.protondb.com/app/1623940"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bramble:_The_Mountain_King"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 80
+metacritic_url: "https://www.metacritic.com/game/bramble-the-mountain-king/"
 
 # Notes
 notes: "Works out of the box!<br>\nAchievements don't seem to be unlocking."

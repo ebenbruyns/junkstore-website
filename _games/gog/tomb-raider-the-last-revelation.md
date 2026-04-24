@@ -47,18 +47,18 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "18.5 hrs"
+hltb_main_extra: "23 hrs"
+hltb_completionist: "23.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/10480"
 
 # Links
 store_url: "https://www.gog.com/en/game/tomb_raider_the_last_revelation"
 protondb_url: "https://www.protondb.com/app/224980"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider:_The_Last_Revelation"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/tomb-raider-the-last-revelation/"
 
 # Notes
 notes: "Requires manual controller/key mapping. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**."

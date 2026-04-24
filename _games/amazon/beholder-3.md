@@ -17,8 +17,8 @@ proton_version: ""
 publisher: Alawar Premium
 developer: Paintbucket Games
 genre: NIL, NIL
-release_date: ""
-game_modes: []
+release_date: "March 3, 2022"
+game_modes: ["Single-player"]
 languages: ["English"]
 
 # Images
@@ -47,22 +47,22 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "7 hrs"
+hltb_main_extra: "10.5 hrs"
+hltb_completionist: "16 hrs"
+hltb_url: "https://howlongtobeat.com/game/106735"
 
 # Links
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1570070"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beholder_3"
+metacritic_score: 67
+metacritic_url: "https://www.metacritic.com/game/beholder-3/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

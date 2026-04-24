@@ -56,13 +56,13 @@ hltb_url: "https://howlongtobeat.com/game/126315"
 store_url: "https://store.epicgames.com/en-US/p/ak-xolotl-together"
 protondb_url: "https://www.protondb.com/app/1479140"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/AK-xolotl:_Together"
 metacritic_score: 
 metacritic_url: ""
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

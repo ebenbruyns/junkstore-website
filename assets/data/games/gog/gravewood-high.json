@@ -60,11 +60,11 @@
     "zh-Hans"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
-  "hltb_main": "",
+  "metacritic_url": "https://www.metacritic.com/game/gravewood-high/",
+  "hltb_main": "3 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/75810",
   "gog_cloud_saves": false,
   "gog_achievements": false,
   "tested": true,
@@ -72,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-01-31T22:30:50.152Z"
+  "updated_at": "2026-04-24T01:31:28.192Z"
 }

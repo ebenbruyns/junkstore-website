@@ -5,16 +5,16 @@
   "protondb": "https://www.protondb.com/app/1408610",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/call-of-the-wild-the-angler",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Call_of_the_Wild:_The_Angler",
   "notes": "Works out of the box!",
   "date_tested": "Sept '24",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -51,8 +51,8 @@
   "languages": [
     "English"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 63,
+  "metacritic_url": "https://www.metacritic.com/game/call-of-the-wild-the-angler/",
   "hltb_main": "11.6 hrs",
   "hltb_main_extra": "20 hrs",
   "hltb_completionist": "40 hrs",
@@ -63,5 +63,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-05T21:58:31.967Z"
+  "updated_at": "2026-04-24T02:27:58.115Z"
 }

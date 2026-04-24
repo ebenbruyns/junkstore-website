@@ -57,8 +57,8 @@ store_url: "https://store.epicgames.com/en-US/p/arc-raiders"
 protondb_url: "https://www.protondb.com/app/1808500"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ARC_Raiders"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 86
+metacritic_url: "https://www.metacritic.com/game/arc-raiders/"
 
 # Notes
 notes: "Feedback from user who tested this game, also used built in LSFG configs in v1.1.13 on Decky Testing Store.<br> \n\n**Tested with Proton**: 10.0-3<br>\n\n\"Frame generation in the build that I tested worked awesomely .. get easy 85-90 fps medium settings 1920x1200 in FSR3 performance mode (50%).\""

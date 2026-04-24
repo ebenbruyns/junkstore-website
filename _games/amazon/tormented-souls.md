@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "9.5 hrs"
+hltb_main_extra: "10.5 hrs"
+hltb_completionist: "13.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/89133"
 
 # Links
 store_url: ""

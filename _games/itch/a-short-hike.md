@@ -47,10 +47,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "1.5 hrs"
+hltb_main_extra: "2 hrs"
+hltb_completionist: "4.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/66152"
 
 # Links
 store_url: "https://adamgryu.itch.io/a-short-hike"
@@ -58,7 +58,7 @@ protondb_url: "https://www.protondb.com/app/1055540"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Short_Hike"
 metacritic_score: 82
-metacritic_url: "https://www.metacritic.com/game/pc/a-short-hike?ftag=MCD-06-10aaa1f"
+metacritic_url: "https://www.metacritic.com/game/a-short-hike/"
 
 # Notes
 notes: "Works out of the box!"

@@ -51,16 +51,16 @@
     "Russian",
     "Simplified Chinese"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "metacritic_score": 85,
+  "metacritic_url": "https://www.metacritic.com/game/technotopia/",
+  "hltb_main": "3 hrs",
+  "hltb_main_extra": "6.5 hrs",
+  "hltb_completionist": "6.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/158551",
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-29T19:49:30.134Z",
-  "updated_at": "2026-02-08T02:00:27.248Z"
+  "updated_at": "2026-04-23T22:09:56.116Z"
 }
