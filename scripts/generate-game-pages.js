@@ -145,9 +145,15 @@ proton_version: "${game.proton_version || ''}"
 publisher: ${escapeYaml(game.publisher || '')}
 developer: ${escapeYaml(game.developer || '')}
 genre: ${escapeYaml(game.genre || '')}
+franchise: ${escapeYaml(game.franchise || '')}
+age_rating_summary: ${escapeYaml(game.age_rating_summary || '')}
 release_date: "${formatDate(game.releasedate)}"
 game_modes: ${JSON.stringify(game.game_modes || [])}
 languages: ${JSON.stringify(game.languages || [])}
+tags_structured: ${JSON.stringify(game.tags_structured || [])}
+igdb_url: "${game.igdb_url || ''}"
+was_free_before: ${game.was_free_before === true}
+giveaway_events: ${JSON.stringify(game.giveaway_events || [])}
 
 # Images
 banner_image: "${game.banner_image || ''}"
@@ -197,6 +203,7 @@ known_issues: ${escapeYaml(game.known_issues || '')}
 # Meta
 database_id: "${game.databaseId || ''}"
 is_featured: ${game.is_featured || false}
+owned: ${game.owned === false ? 'false' : 'true'}
 ---
 
 ${game.description || ''}
