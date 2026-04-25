@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Stardock
 developer: Stardock
-genre: Strategy, Simulator
-release_date: "March 27, 2014"
+genre: Strategy
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "January 22, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1166","name":"4X"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2022-01-12T15:00:00.000Z","end":"2022-01-19T15:00:00.000Z","type":null,"id":"5d63b78c08184c10933a47874117db8c"},{"start":"2021-01-20T15:00:00.000Z","end":"2021-01-27T15:00:00.000Z","type":null,"id":"5d63b78c08184c10933a47874117db8c"}]
 
 # Images
 banner_image: "https://images.gog.com/7be764c980273f76b4dcfe833f4f38529a3c6eab5086974426b91cd7ec7d981b.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: true
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "27.2 hrs"
+hltb_main_extra: "37.1 hrs"
+hltb_completionist: "54.9 hrs"
+hltb_url: "https://howlongtobeat.com/game/25173"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/galactic-civilizations-iii"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "5f1c66366b2c4a6496d535d88c56e6cf"
 is_featured: false
+owned: true
 ---
 
-Galactic Civilizations III is the largest strategy sandbox ever made. Start with a single world and expand across the galaxy through diplomacy, trade, cultural hegemony or military conquest in this single-player or multiplayer 4X strategy game.
+Build a civilization that will stand the test of time! Choose from dozens of unique races and make a name for yourself across the galaxy through diplomacy, espionage, technological advances, and more.

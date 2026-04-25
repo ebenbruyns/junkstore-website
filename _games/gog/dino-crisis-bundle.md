@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Capcom
 developer: Capcom
 genre: Action, Horror, Survival
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://items.gog.com/dino_crisis_bundle/2.png"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1630229434"
 is_featured: false
+owned: false
 ---
 
 Three years ago, a scientist died during an experiment on 'Third Energy', a clean energy source. Government funding was cut, and the incident was considered insignificant. Until now.

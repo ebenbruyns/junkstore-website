@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 2K Games
 developer: 2K Marin, 2K Australia
 genre: Role-playing (RPG)
+franchise: 
+age_rating_summary: ESRB Mature 17+
 release_date: "September 15, 2016"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/21"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f96b1900ca6b38158276669e0179e9c346c01956f5a49667341fae15beced11a.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1482265668"
 is_featured: false
+owned: true
 ---
 
-In BioShock 2, you step into the boots of the most iconic denizen of Rapture, the Big Daddy, as you explore through the decrepit and beautiful fallen city, chasing an unseen foe in search of answers and your own survival.
+See Rapture through the eyes of Subject Delta, a fearsome Big Daddy prototype on a life-or-death mission to rescue his missing Little Sister. Includes Minerva’s Den and Protector Trials.

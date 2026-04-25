@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: Abiding Bridge
-developer: Abiding Bridge, Bunstack
-genre: Adventure, Indie, Puzzle
-release_date: "August 2, 2023"
+developer: Bunstack
+genre: Exploration
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "August 3, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+igdb_url: "https://www.igdb.com/games/193565"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/ca2ad68ed78a2d2a6215ff717e558b49bfca478e05317b0b4f0b33500ec22d81.jpg?namespace=gamesdb"
@@ -47,13 +53,13 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "4.5 hrs"
+hltb_main_extra: "17 hrs"
+hltb_completionist: "25.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/132419"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/paquerette-down-the-bunburrows"
+store_url: "https://store.epicgames.com/en-US/p/paquerette-down-the-bunburrows-2fd777"
 protondb_url: "https://www.protondb.com/app/1628610"
 protondb_report_url: ""
 pcgamingwiki_url: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "280b22dbb7e24f7bada5520e9d38d3a2"
 is_featured: false
+owned: true
 ---
 
-Pâquerette Down the Bunburrows is a pathfinding-based bunny-catching puzzle game. The bunnies flee when Pâquerette gets too close: they dash through tunnels carefully avoiding dead ends. Will you let the lil buns outsmart you? Each level is carefully crafted to teach you new, surprising and tricky ways of catching bunnies~
+The buns... you HAVE to capture them!! Think outside the bunburrow or get outsmarted by bunnies in this cute pathfinding-based puzzle game!

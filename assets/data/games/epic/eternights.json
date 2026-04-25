@@ -33,12 +33,92 @@
   "cant_test_linux": false,
   "databaseId": "6ee8fe4d83fe49e49cbb79741616ec3b",
   "shortname": "6ee8fe4d83fe49e49cbb79741616ec3b",
-  "publisher": "Studio Sai, Kowloon Nights",
+  "publisher": "Studio Sai",
   "developer": "Studio Sai",
-  "releasedate": "2023-09-12T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Indie, Hack and slash/Beat 'em up",
+  "releasedate": "2023-09-12T07:00:00.000Z",
+  "genre": "Action, RPG, Indie",
   "description": "Eternights is a dating action game where you try to make the most out of life during the apocalypse. Monday: Go on a date. Tuesday: Clear dungeon. Friday: Freak out! The clock is ticking!!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 203367,
+  "igdb_url": "https://www.igdb.com/games/203367",
+  "giveaway_events": [
+    {
+      "start": "2025-12-19T16:00:00.000Z",
+      "end": "2025-12-20T16:00:00.000Z",
+      "type": null,
+      "id": "6b96a838963c457c823099eb9e929334"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Eternights is a dating action game where you try to make the most out of life during the apocalypse. Monday: Go on a date. Tuesday: Clear dungeon. Friday: Freak out! The clock is ticking!!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/9df19abab215477c9a840e39b91e6ee13e8fc56e25abecebb4d163e015640dcc.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a1a099bd9e2af6310c2b0ec42a9c7426c163471cfee78381493b796a92885c85.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6bec0b9ef8b9825a6c8d29024506496a4de72f182732a29d8d1d87e4d8d1bc3b.jpg?namespace=gamesdb",
@@ -51,15 +131,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 108858,
+  "hltb_main": "11.5 hrs",
+  "hltb_main_extra": "13 hrs",
+  "hltb_completionist": "17 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/108858",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-12-22T04:55:05.066Z"
+  "updated_at": "2026-04-25T05:41:22.587Z"
 }

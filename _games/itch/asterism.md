@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Crystal Game Works
 developer: Crystal Game Works
 genre: Role-playing (RPG), Adventure, Indie, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "December 31, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2187450/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "446239"
 is_featured: false
+owned: true
 ---
 
 Kotachi Asterio wants to help people that can’t fight for themselves. But, he isn't some sort of superhero- he can just see things other people can't. During the day, he goes to high school- but at night, he fights off specters, monsters that lurk in shadows and can harm people.

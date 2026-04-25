@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Dear Villagers
 developer: Artefacts Studio
 genre: Strategy, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "November 15, 2023"
 game_modes: ["Single player"]
 languages: ["English*","French*","German*","Spanish - Spain","Polish","Russian","Simplified Chinese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/123fa7d37d19b40e37015312895e61a0db1333a7fae95cf722f4e2088f72c1bf.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.09d91dff-0b7d-4aa8-b2e6-c4477254e8ca"
 is_featured: false
+owned: true
 ---
 
 A dungeon in danger ! Build, manage, and defend your tower in the satirical heroic fantasy universe of Dungeon of Naheulbeuk. From a shaky establishment to an infamous lair!

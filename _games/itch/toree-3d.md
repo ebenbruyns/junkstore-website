@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Siactro, Diplodocus Games
 developer: Siactro
 genre: Adventure, Indie, Platform, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "April 9, 2021"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1554840/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "920869"
 is_featured: false
+owned: true
 ---
 
 A bite-sized 3D Platformer with a few weird elements.

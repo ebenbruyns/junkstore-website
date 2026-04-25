@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Flazm
 developer: Flazm
 genre: NIL, NIL
+franchise: 
+age_rating_summary: 
 release_date: ""
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/17baa2e0e603fa3e94c39d14015927997d7c6a355d724dd4c5f0e690499d153f.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://www.gog.com/en/game/time_loader_prologue"
 protondb_url: "https://www.protondb.com/app/1421970"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Time_Loader"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1429223464"
 is_featured: false
+owned: true
 ---
 
 In Time Loader, you play as a small, time-traveling robot sent on a mission by its inventor to alter past events in order to undo a tragic childhood accident. But meddling with time has serious consequences. You can change the past but will you be able to deal with the repercussions in the present?

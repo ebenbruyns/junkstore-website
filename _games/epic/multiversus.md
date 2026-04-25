@@ -17,9 +17,15 @@ proton_version: ""
 publisher: WB Games
 developer: Player First Games
 genre: Fighting
+franchise: 
+age_rating_summary: 
 release_date: "May 28, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Polish","Portuguese - Brazil*","Russian","Simplified Chinese","Spanish - Latin America*"]
+tags_structured: [{"id":"1344","name":"Fighting"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8911efde21f0ea432e0e48ba914cf490e002e251dd3d1c575aa991401b6fa709.jpg?namespace=gamesdb"
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "6.1 hrs"
+hltb_main_extra: "58.2 hrs"
+hltb_completionist: "90.8 hrs"
+hltb_url: "https://howlongtobeat.com/game/100706"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/multiversus"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "711c5e95dc094ca58e5f16bd48e751d6"
 is_featured: false
+owned: true
 ---
 
 MultiVersus is a free-to-play platform fighter that brings the depth of iconic WB stars to life across the nearly endless possibilities of play.

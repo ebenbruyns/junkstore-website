@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Dreamhaven
 developer: Moonshot Games
 genre: Action, Adventure, Casual, Massively Multiplayer, Racing, RPG, Strategy
-release_date: "July 22, 2025"
+franchise: 
+age_rating_summary: 
+release_date: "January 2, 2099"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Korean*","Portuguese - Brazil*","Simplified Chinese*","Spanish - Latin America*"]
+tags_structured: []
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2026-01-01T16:00:00.000Z","end":"2026-01-08T16:00:00.000Z","type":null,"id":"acd0b5048a0d43ec80909788a388964a"}]
 
 # Images
 banner_image: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "0ad0ed7b851c46378f9fcac07b72b548"
 is_featured: false
+owned: true
 ---
 
-Wildgate is a PvPvE multiplayer shooter that blends tactical ship-to-ship combat with fast-paced first-person action. Evade deadly environmental hazards, search for powerful weapons and ship upgrades, and be the first crew to escape with the Artifact... or the last crew left flying.
+Wildgate is a crew-based PVP multiplayer shooter that blends tactical ship-to-ship combat with fast-paced first-person action. Evade deadly environmental hazards, search for powerful weapons and ship upgrades, and be the first crew to escape with the Artifact.

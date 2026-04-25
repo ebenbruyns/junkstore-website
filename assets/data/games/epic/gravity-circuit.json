@@ -35,10 +35,90 @@
   "shortname": "78847ec04bb348ba83d00a44896b80a3",
   "publisher": "PID Games",
   "developer": "Domesticated Ant Games",
-  "releasedate": "13 Jul, 2023",
-  "genre": "Action, Indie",
-  "description": "Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics. Follow Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit, on an adventure in a futuristic world inhabited by sentient robots.",
+  "releasedate": "2023-07-13T18:00:00.000Z",
+  "genre": "Action, Platformer, Indie",
+  "description": "Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics. Follow Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit, on an adventure in a post-apocalyptic world inhabited by sentient robots.",
   "size": "327151133\n",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 106534,
+  "igdb_url": "https://www.igdb.com/games/106534",
+  "giveaway_events": [
+    {
+      "start": "2025-10-09T15:00:00.000Z",
+      "end": "2025-10-16T15:00:00.000Z",
+      "type": null,
+      "id": "ca6648eabced4312bd29c543307ecd29"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics. Follow Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit, on an adventure in a post-apocalyptic world inhabited by sentient robots.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/858710/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/858710/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/858710/capsule_231x87.jpg",
@@ -58,6 +138,7 @@
   ],
   "metacritic_score": 89,
   "metacritic_url": "https://www.metacritic.com/game/gravity-circuit/",
+  "hltb_id": 94203,
   "hltb_main": "5 hrs",
   "hltb_main_extra": "6 hrs",
   "hltb_completionist": "13.5 hrs",
@@ -68,5 +149,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-11T20:06:18.935Z",
-  "updated_at": "2026-04-23T07:06:35.127Z"
+  "updated_at": "2026-04-25T02:15:48.038Z"
 }

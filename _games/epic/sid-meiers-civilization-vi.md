@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 2K Games, Aspyr Media
 developer: Firaxis Games
 genre: Strategy, Simulator
-release_date: "October 20, 2016"
+franchise: 
+age_rating_summary: 
+release_date: "January 1, 2099"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/e46fae0485ced9ad33cfdea0531f59313a786793f2c85dd1978b10af1ee6fa08.jpg?namespace=gamesdb"
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "23.4 hrs"
+hltb_main_extra: "98.6 hrs"
+hltb_completionist: "387.6 hrs"
+hltb_url: "https://howlongtobeat.com/game/37867"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sid-meiers-civilization-vi"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Kinglet"
 is_featured: false
+owned: true
 ---
 
 Civilization is a turn-based strategy game in which you attempt to build an empire to stand the test of time. Become Ruler of the World by establishing and leading a civilization from the Stone Age to the Information Age. Wage war, conduct diplomacy, advance your culture, and go head-to-head with history’s greatest leaders as you attempt to build the greatest civilization the world has ever known.

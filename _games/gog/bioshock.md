@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 2K Games
 developer: 2K Boston, 2K Australia
 genre: Role-playing (RPG), Adventure, Puzzle, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "August 21, 2007"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Spanish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/cca07f661b51e7a6493f63313c513e51a268ef5d43ac3cb73d68ed36e80490e9.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2022341186"
 is_featured: false
+owned: true
 ---
 
 BioShock is a horror-themed first-person shooter set in a steampunk underwater dystopia. The player is urged to turn everything into a weapon: biologically modifying their own body with Plasmids, hacking devices and systems, upgrading their weapons, crafting new ammo variants, and experimenting with different battle techniques are all possible. The game is described by the developers as a spiritual successor to their previous PC title System Shock 2. BioShock received high praise in critical reviews for its atmospheric audio and visual quality, absorbing and original plot and its unique gaming experience.

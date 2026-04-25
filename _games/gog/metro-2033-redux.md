@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Deep Silver, Koch Media
 developer: 4A Games
 genre: Role-playing (RPG), Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "August 25, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/e755f671c9b43a2a4ff738a4118c2be5322542336c11b75db6a180eae0d0161c.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/20737"
 store_url: "https://www.gog.com/en/game/metro_2033_redux"
 protondb_url: "https://www.protondb.com/app/286690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Metro_2033_Redux"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1436434037"
 is_featured: false
+owned: true
 ---
 
 Metro 2033 Redux is the definitive version of the cult classic ‘Metro 2033’, rebuilt in the latest and greatest iteration of the 4A Engine for Next Gen. Fans of the original game will find the unique world of Metro transformed with incredible lighting, physics and dynamic weather effects. Newcomers will get the chance to experience one of the finest story-driven shooters of all time; an epic adventure combining gripping survival horror, exploration and tactical combat and stealth.

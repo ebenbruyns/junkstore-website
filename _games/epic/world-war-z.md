@@ -14,12 +14,18 @@ date_tested: "March '25"
 proton_version: ""
 
 # Game Info
-publisher: Paramount Digital Entertainment, Focus Entertainment
+publisher: Saber Interactive
 developer: Saber Interactive
-genre: Adventure, Shooter
-release_date: "April 16, 2019"
-game_modes: []
+genre: Action, Shooter
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "April 17, 2019"
+game_modes: ["Co-op","Multiplayer","Single Player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1279","name":"Vampire"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/084634797ec3bd8a1aaaf7de443fc811c36f0ad20530b706d227ed41dcb778b9.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -53,10 +59,10 @@ hltb_completionist: ""
 hltb_url: ""
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/world-war-z"
+store_url: "https://store.epicgames.com/en-US/p/world-war-z--base-game"
 protondb_url: "https://www.protondb.com/app/699130"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/World_War_Z"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Wombat"
 is_featured: false
+owned: true
 ---
 
 Humanity is on the brink of extinction. From New York to Moscow and Jerusalem, the undead apocalypse continues to spread. As the end looms, a hardened few bands together to defeat the horde and outlive the dead.

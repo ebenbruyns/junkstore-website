@@ -39,6 +39,17 @@
   "genre": "Arcade",
   "description": "Super Hexagon is a minimal action game by Terry Cavanagh, with music by Chipzel.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/887c91f1a734305b1e183a9e78badf01be5845afce0ba2014ad202d8176c10bf.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/221640/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/221640/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 88,
   "metacritic_url": "https://www.metacritic.com/game/pc/super-hexagon?ftag=MCD-06-10aaa1f",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:17.291Z",
-  "updated_at": "2026-04-23T08:55:17.565Z"
+  "updated_at": "2026-04-25T00:55:36.019Z"
 }

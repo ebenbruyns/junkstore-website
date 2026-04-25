@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,94 @@
   "shortname": "Quail",
   "publisher": "Batterystaple Games",
   "developer": "Batterystaple Games, Fire Hose Games",
-  "releasedate": "08-2017",
-  "genre": "Adventure, Indie, Platform, Shooter, Arcade",
-  "description": "20XX is a co-op-friendly action platformer roguelite. Explore procedurally generated levels, collect new weapons and abilities, and defeat massive bosses in the sequel to roguelike hit Risk of Rain.",
+  "releasedate": "2020-07-30T15:00:00.000Z",
+  "genre": "Rogue-Lite, Platformer",
+  "description": "20XX is a roguelike action platformer that you can play with a friend. Jump and shoot your way through ever-changing levels, collect awesome new powers, and battle mighty bosses in the name of saving the human race maybe!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2020-07-29T15:00:00.000Z",
+      "end": "2020-08-05T15:00:00.000Z",
+      "type": null,
+      "id": "14f073a7a4204943b830717c32e2c710"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "20XX is a roguelike action platformer that you can play with a friend. Jump and shoot your way through ever-changing levels, collect awesome new powers, and battle mighty bosses in the name of saving the human race maybe!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/4c4cc7022c36f2bfbc7b8fe89284506d2ef01998f0d139e7b16f0e97279d32c8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fa93fa634ab3b9ea798267dced057e114ddbfc28e4f9b487e16f7dcd19d3b07f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7363a91a9da27d1741c71f2062892d5e5ff3c6565172540d7142b86632bde188.jpg?namespace=gamesdb",
@@ -53,15 +137,16 @@
   ],
   "metacritic_score": 77,
   "metacritic_url": "https://www.metacritic.com/game/20xx/",
+  "hltb_id": 25226,
   "hltb_main": "6 hrs",
   "hltb_main_extra": "14.4 hrs",
   "hltb_completionist": "40.5 hrs",
   "hltb_url": "https://howlongtobeat.com/game/25226",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-24T01:52:52.508Z"
+  "updated_at": "2026-04-25T01:17:53.190Z"
 }

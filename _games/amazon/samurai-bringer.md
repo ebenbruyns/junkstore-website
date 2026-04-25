@@ -17,9 +17,15 @@ proton_version: ""
 publisher: PLAYISM
 developer: Alphawing
 genre: "Role-playing (RPG), Adventure, Indie, Puzzle, Arcade, Hack and slash/Beat 'em up"
+franchise: 
+age_rating_summary: 
 release_date: "April 20, 2022"
 game_modes: ["Single player"]
 languages: ["English","Japanese","Simplified Chinese","Traditional Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/271e91de7c629ae046be702318700b1db766a611c1930afcfb27d20bfbedb723.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.bcb2c9bd-b7ef-4d2b-acb0-f6b544269f69"
 is_featured: false
+owned: true
 ---
 
 Samurai Bringer is a roguelite action game with levels which change with every playthrough, where you cut down hordes of Samurai and Demons to collect combat techniques and polish your fighting style in order to defeat Yamata-no-Orochi, the eight-headed dragon of Japanese mythology.

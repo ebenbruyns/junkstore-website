@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Wired Productions, LKA
 developer: LKA
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "February 26, 2016"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/46702506e033775fbc1cbdaee01f60dcae59cfa571d36c38a76ed66c4791786d.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/34947"
 store_url: "https://www.gog.com/en/game/the_town_of_light"
 protondb_url: "https://www.protondb.com/app/433100"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Town_of_Light"
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/pc/the-town-of-light?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1655492231"
 is_featured: false
+owned: true
 ---
 
 The Town of Light is a psychological adventure told in the first person. The story is set in Italy in the first half of the 20th Century in a place which really existed and has been meticulously reconstructed. Exploring and interacting with the environment you will relive the history of the main character through her confused viewpoint and on the basis of your choices, the story will develop in different ways.

@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Illfonic
 developer: Illfonic
-genre: Shooter
-release_date: "April 24, 2020"
+genre: Action, Shooter
+franchise: 
+age_rating_summary: 
+release_date: "January 1, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1090","name":"Tactical"},{"id":"1203","name":"Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/eb3f891e8e290eb90570ed81a23a0de4afee01c965449f5125abc4e0d9b6a700.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://store.epicgames.com/en-US/p/predator-hunting-grounds"
 protondb_url: "https://www.protondb.com/app/1556200"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Predator%3A_Hunting_Grounds"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Boxfish"
 is_featured: false
+owned: true
 ---
 
 Drop into the Predator universe through a new competitive online multiplayer experience.

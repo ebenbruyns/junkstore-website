@@ -39,6 +39,17 @@
   "genre": "Sport, Arcade",
   "description": "Grab your board and take on legendary waves in Surf World Series\nSet across 5 of the world’s most iconic shorelines, from the infamous Bell’s Beach, AUS to the extreme waves at Waimea Bay, HI, you can dominate the leaderboard arcade style with 45 single player challenges, or rinse the competition in online tournaments against up to 15 other surfers.\nPerform some of surfing’s most intense and original tricks, including the Superman and Sushi Roll, against a backdrop of stunning horizons, golden coastlines and surging waves. With 6 playable characters, and millions of ways to customise, create your own unique style and rise to notoriety using only your sick skills and slick looks.\nRide out the toughest waves or wreak havoc on the competition as you battle for the high score, on PC, Xbox One and PS4. In Surf World Series, ramp up the challenge surfing day or night across 3 different multiplayer modes designed to crank your skills to the limit.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/7896d490f3ff59bf8b96f8fb955180aeb78c51e5fc56205765b156d5968126f1.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6cd4c3188fff01db442fb624cf93825aea159047eac4137b2a068e53f82b5458.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/462640/capsule_231x87.jpg",
@@ -56,6 +67,7 @@
   ],
   "metacritic_score": 65,
   "metacritic_url": "https://www.metacritic.com/game/surf-world-series/",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -65,5 +77,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T22:09:09.004Z"
+  "updated_at": "2026-04-25T00:54:03.931Z"
 }

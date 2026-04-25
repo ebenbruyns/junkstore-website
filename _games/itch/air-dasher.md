@@ -17,9 +17,15 @@ proton_version: ""
 publisher: AntonMakesGames
 developer: AntonMakesGames
 genre: Platform
+franchise: 
+age_rating_summary: 
 release_date: "December 19, 2016"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn2.steamgriddb.com/thumb/1cc27a2a5e7bda9a185761ea00c4164c.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "107078"
 is_featured: false
+owned: true
 ---
 
 Air Dasher is Fast! Air Dasher is Fluid! Air Dasher is Platformer!

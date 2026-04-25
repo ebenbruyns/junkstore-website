@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Team SolEtude
 developer: Team SolEtude
 genre: Adventure, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "June 11, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1611760/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1055631"
 is_featured: false
+owned: true
 ---
 
 Through a narrative based on Red Ribbon’s new album “Planet X”, experience a broken-heart girl’s journey through thoughts, daydreams and music.

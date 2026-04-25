@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/40800",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/super-meat-boy",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Super_Meat_Boy",
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. Does have an audio issue that you need to install xact and d3dx9.27 to fix.",
   "date_tested": "Nov '24",
   "decky_rating": "yellow",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,90 @@
   "shortname": "Buffalo",
   "publisher": "BlitWorks, Team Meat",
   "developer": "Team Meat",
-  "releasedate": "2010-10-20T00:00:00+0000",
-  "genre": "Adventure, Indie, Platform",
-  "description": "Super Meat Boy is a tough-as-nails platformer where you play as an animated cube of meat who's trying to save his girlfriend (who happens to be made of bandages) from an evil fetus in a jar wearing a tux.",
+  "releasedate": "2010-10-20T15:00:00.000Z",
+  "genre": "Action, Platformer",
+  "description": "Super Meat Boy is a tough as nails platformer where you play as a boy without skin who needs to save his girlfriend made of bandages from an evil fetus in a jar wearing a top hat and a monocle.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2018-12-27T15:00:00.000Z",
+      "end": "2019-01-09T15:00:00.000Z",
+      "type": null,
+      "id": "58f2e8dff4a84c5796ebcbdd5d10fe34"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Super Meat Boy is a tough as nails platformer where you play as a boy without skin who needs to save his girlfriend made of bandages from an evil fetus in a jar wearing a top hat and a monocle.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/baff8ed608bfbc86e590f3cef35ba3dd838a0e9ddaf4ffd2fa5b74076f9295f4.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f5c3d428238480af0f36aabb18d0e5353c865151e7de6856575750dac1690b04.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/2267fa3832a721177a5b3dcc4f76a3f67d3f4d4eb2a52e287c055113d4244d4d.jpg?namespace=gamesdb",
@@ -51,15 +131,16 @@
   ],
   "metacritic_score": 87,
   "metacritic_url": "https://www.metacritic.com/game/pc/super-meat-boy?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 9389,
+  "hltb_main": "9 hrs",
+  "hltb_main_extra": "18.5 hrs",
+  "hltb_completionist": "46 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/9389",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:33:18.627Z"
+  "updated_at": "2026-04-25T05:44:43.159Z"
 }

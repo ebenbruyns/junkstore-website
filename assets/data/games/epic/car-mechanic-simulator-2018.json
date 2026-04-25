@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/645630",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/car-mechanic-simulator-2018",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Car_Mechanic_Simulator_2018",
   "notes": "Works out of the box!",
   "date_tested": "Sept '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -33,12 +33,84 @@
   "cant_test_linux": false,
   "databaseId": "8032b75cf0914afa87c78d6914adc165",
   "shortname": "8032b75cf0914afa87c78d6914adc165",
-  "publisher": "PlayWay S.A.",
+  "publisher": "PlayWay",
   "developer": "Red Dot Games",
-  "releasedate": "2017-07-28T00:00:00+0000",
-  "genre": "Simulator, Racing",
-  "description": "Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. Find classic, unique cars in the new Barn Find module and Junkyard module. You can even add your self-made car in the Car Editor.",
+  "releasedate": "2022-06-23T15:00:00.000Z",
+  "genre": "Simulation",
+  "description": "Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. Find classic, unique cars in the new Barn Find module and Junkyard module.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1393",
+      "name": "Simulation"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 40470,
+  "igdb_url": "https://www.igdb.com/games/40470",
+  "giveaway_events": [
+    {
+      "start": "2022-06-22T15:00:00.000Z",
+      "end": "2022-06-29T15:00:00.000Z",
+      "type": null,
+      "id": "5eb27cf1747c40b5a0d4f5492774678d"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. Find classic, unique cars in the new Barn Find module and Junkyard module.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/6628c486e95fbcd473bc89b3021aba42325e5d2a198c8721a99502510709e566.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d211fdb7009fd246d1846981e8c6acd685dea6dd2c56c6d3856b6cc00aab7d31.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/3eec69dea83e56cf05e0285839ed3a512e05873e1c068e84245af3783c2dd514.jpg?namespace=gamesdb",
@@ -51,14 +123,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 48426,
+  "hltb_main": "28 hrs",
+  "hltb_main_extra": "82 hrs",
+  "hltb_completionist": "90 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/48426",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.964Z"
+  "updated_at": "2026-04-25T05:40:28.699Z"
 }

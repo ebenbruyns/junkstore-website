@@ -14,12 +14,18 @@ date_tested: "Oct '25"
 proton_version: ""
 
 # Game Info
-publisher: Joey Drew Studios
-developer: Joey Drew Studios
-genre: Action, Adventure, Indie, Strategy
-release_date: "April 27, 2017"
+publisher: Joey Drew Studio
+developer: Joey Drew Studio
+genre: Horror, First Person, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "September 10, 2025"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese*languages with full audio support"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2025-10-30T15:00:00.000Z","end":"2025-11-06T16:00:00.000Z","type":null,"id":"fb722544c8314c45bf9a42c66b2a5a73"}]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/622650/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "39700e23ec114d7581aedea23779ce2d"
 is_featured: false
+owned: true
 ---
 
 Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons.

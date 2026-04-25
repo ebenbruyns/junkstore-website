@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/2698940",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/the-crew-motorfest",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Crew_Motorfest",
   "notes": "",
   "date_tested": "N/A",
   "decky_rating": "",
@@ -33,12 +33,77 @@
   "cant_test_linux": true,
   "databaseId": "cf697ad9dd8f4b6b8af979dd021ecbf8",
   "shortname": "cf697ad9dd8f4b6b8af979dd021ecbf8",
-  "publisher": "Ubisoft Entertainment",
-  "developer": "Ivory Tower",
-  "releasedate": "2023-09-14T00:00:00+0000",
-  "genre": "Adventure, Racing",
+  "publisher": "Ubisoft",
+  "developer": "Ubisoft Ivory Tower",
+  "releasedate": "2024-07-04T15:00:00.000Z",
+  "genre": "Action, Racing",
   "description": "Welcome to Motorfest, the ultimate open-world driving experience. Explore the Hawaiian islands of O'ahu and Maui. Celebrate the best of car culture through 20+ themed campaigns (street racing, offroad, drift...) and collect hundreds of iconic vehicles. Enjoy the game free for five hours!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "The Crew Motorfest Free Weekend",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/176c7c4e8e6637bbe57004d673f0cafa7e6d29ae615f34e4d230c8380660b666.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/daa0c8023c36e16b1259ef9da75796f39f6f675c45dfd80bbb3438c6ececd5df.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/5760a3ee36c38f0ab73bcfe707121c11799c807ba2d0f2fd8a5ec24ec4bede5a.jpg?namespace=gamesdb",
@@ -62,15 +127,16 @@
   ],
   "metacritic_score": 76,
   "metacritic_url": "https://www.metacritic.com/game/the-crew-motorfest/",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 130044,
+  "hltb_main": "21.5 hrs",
+  "hltb_main_extra": "35 hrs",
+  "hltb_completionist": "40 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/130044",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-20T00:51:30.560Z"
+  "updated_at": "2026-04-25T05:51:38.610Z"
 }

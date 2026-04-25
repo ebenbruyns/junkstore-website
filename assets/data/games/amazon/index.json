@@ -78,7 +78,7 @@
     "zombies-ate-my-neighbors-and-ghoul-patrol.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-04-24T02:44:09.002Z",
+  "last_updated": "2026-04-25T05:55:40.963Z",
   "latest_games": [
     {
       "title": "Subterrain: Mines of Titan",
@@ -93,51 +93,51 @@
       "is_featured": false
     },
     {
-      "title": "Zombies Ate My Neighbors and Ghoul Patrol",
-      "slug": "zombies-ate-my-neighbors-and-ghoul-patrol",
+      "title": "Gravity Circuit",
+      "slug": "gravity-circuit",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Youtubers Life 2",
-      "slug": "youtubers-life-2",
-      "date_tested": "Oct '25",
+      "title": "Deep Sky Derelicts",
+      "slug": "deep-sky-derelicts",
+      "date_tested": "Mar '26",
       "is_featured": false
     },
     {
-      "title": "Wall World",
-      "slug": "wall-world",
+      "title": "Scarf",
+      "slug": "scarf",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Vlad Circus: Descend Into Madness",
-      "slug": "vlad-circus-descend-into-madness",
-      "date_tested": "July '25",
+      "title": "Figment 2: Creed Valley",
+      "slug": "figment-2-creed-valley",
+      "date_tested": "Sept '25",
       "is_featured": false
     },
     {
-      "title": "Tiny Robots Recharged",
-      "slug": "tiny-robots-recharged",
-      "date_tested": "July '25",
+      "title": "Grime",
+      "slug": "grime",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Through the Darkest of Times",
-      "slug": "through-the-darkest-of-times",
-      "date_tested": "July '25",
+      "title": "Tavern Talk",
+      "slug": "tavern-talk",
+      "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "The Gap",
-      "slug": "the-gap",
-      "date_tested": "July '25",
+      "title": "Dread Templar",
+      "slug": "dread-templar",
+      "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "The Collage Atlas",
-      "slug": "the-collage-atlas",
-      "date_tested": "July '25",
+      "title": "Technotopia",
+      "slug": "technotopia",
+      "date_tested": "Jan '26",
       "is_featured": false
     }
   ]

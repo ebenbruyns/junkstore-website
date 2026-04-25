@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/252950",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/rocket-league",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Rocket_League",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": true,
   "requires_verification": false,
   "epic_achievements": true,
@@ -35,10 +35,103 @@
   "shortname": "Sugar",
   "publisher": "Psyonix",
   "developer": "Psyonix",
-  "releasedate": "2015-07-06T00:00:00+0000",
-  "genre": "Indie, Sport, Racing",
-  "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and basketball-inspired Extra Modes, and more than 500 trillion possible cosmetic customization combinations.",
+  "releasedate": "2020-09-23T15:00:00.000Z",
+  "genre": "Racing",
+  "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "1141",
+      "name": "Free to Play"
+    },
+    {
+      "id": "1205",
+      "name": "DRIVING"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1212",
+      "name": "Racing"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 11198,
+  "igdb_url": "https://www.igdb.com/games/11198",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a51c4c8d790bd4f71a9746d5c02aa6974600310d7030a555cf2c368f047410bb.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ca8df85fb30e736ecb20f757e33255f6b5eaae65fa1fbf24237e6297decf2c97.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6c3492f74e8098466f1fcf23365c50dc40262b2cfc7ebb4e8e22e11c031963af.jpg?namespace=gamesdb",
@@ -54,15 +147,16 @@
   ],
   "metacritic_score": 86,
   "metacritic_url": "https://www.metacritic.com/game/pc/rocket-league?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 27113,
+  "hltb_main": "4.6 hrs",
+  "hltb_main_extra": "26.5 hrs",
+  "hltb_completionist": "104.2 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/27113",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-05T21:47:37.951Z"
+  "updated_at": "2026-04-25T02:43:33.802Z"
 }

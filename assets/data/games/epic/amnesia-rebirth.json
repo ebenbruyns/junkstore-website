@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Amnesia%3A_Rebirth",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,20 +35,72 @@
   "shortname": "f59de18db4dc445f88ffeff24d081234",
   "publisher": "Frictional Games",
   "developer": "Frictional Games",
-  "releasedate": "",
-  "genre": "Adventure, Indie",
+  "releasedate": "2099-01-01T00:00:00.000Z",
+  "genre": "Horror, Stealth, Adventure",
   "description": "Amnesia: Rebirth, a new descent into darkness from the creators of the iconic Amnesia series. A harrowing journey through desolation and despair, exploring the limits of human resilience.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Amnesia: Rebirth",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/6f73fd9c8a94ce6619496d8f46f88c4677fde9a1e93ca498aa8dd93bbb7a7580.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/584db6f4c45c4a08d46424df82e27e97a1f3b52f250038675d123e00f51018b9.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/544472b08c0abe121371af77659a4baed81ecf0dfe9e5177c9bcaf7600121171.jpg?namespace=gamesdb",
   "steamId": "999220",
-  "game_modes": [],
+  "game_modes": [
+    "Single Player"
+  ],
   "languages": [
     "English"
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/pc/amnesia-rebirth?ftag=MCD-06-10aaa1f",
+  "hltb_id": 80121,
   "hltb_main": "8.7 hrs",
   "hltb_main_extra": "10.7 hrs",
   "hltb_completionist": "14.5 hrs",
@@ -59,5 +111,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T04:45:56.865Z"
+  "updated_at": "2026-04-25T05:18:50.619Z"
 }

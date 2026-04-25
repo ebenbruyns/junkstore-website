@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Playwing
 developer: Playwing
-genre: Adventure
-release_date: "December 2, 2021"
+genre: Action
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "February 24, 2022"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English*","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Russian","French","Japanese*languages with full audio support"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/141536"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f987188b001f4277c695f5fdce82a0aad9788b19489863c16d6eec5f0e96d92a.jpg?namespace=gamesdb"
@@ -50,7 +56,7 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/85958"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/century-age-of-ashes"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "c40939566ad44585bde9302bdbe82734"
 is_featured: false
+owned: true
 ---
 
 Century: Age of Ashes is a free-to-play multiplayer dragon battle game. Master a growing roster of classes and dragons, compete in intense arena battles and rule the skies in fast-paced aerial combats.

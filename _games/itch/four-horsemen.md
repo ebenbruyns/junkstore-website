@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Nuclear Fishin’ Software
 developer: Nuclear Fishin’ Software
 genre: Adventure, Indie, Simulator, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "September 1, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/668200/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "139949"
 is_featured: false
+owned: true
 ---
 
 An ambitious life sim about the parts of the immigrant experience everyone pretends to forget.

@@ -39,6 +39,17 @@
   "genre": "Casual, Indie, Simulation, Strategy",
   "description": "Step into Pixel's shoes in this one-of-a-kind journey that bridges time, memories, and the aroma of fresh coffee. Dive deep into a city balancing its past and future. Engage in intense arcade challenges, immerse yourself in heartfelt stories, and navigate a world crafted in pixel art.",
   "size": "1.19 GB",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2409360/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2409360/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2409360/capsule_231x87.jpg",
@@ -57,6 +68,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/pixel-cafe/",
+  "hltb_id": 132519,
   "hltb_main": "5.5 hrs",
   "hltb_main_extra": "13 hrs",
   "hltb_completionist": "19.5 hrs",
@@ -66,5 +78,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-25T22:37:51.461Z",
-  "updated_at": "2026-04-23T22:01:30.273Z"
+  "updated_at": "2026-04-25T00:56:26.216Z"
 }

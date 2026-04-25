@@ -17,9 +17,15 @@ proton_version: ""
 publisher: SEEP
 developer: SEEP
 genre: Adventure, Interactive Fiction, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "January 11, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn2.steamgriddb.com/thumb/c0de4e45de9e9654ddf8fb2a76257580.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "935614"
 is_featured: false
+owned: true
 ---
 
 Jump, run, steal, fight, catch, and solve puzzles in this minimal-style adventure inspired by the golden age of the Japanese computer MSX!

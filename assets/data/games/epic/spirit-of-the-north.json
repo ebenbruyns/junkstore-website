@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1213700",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/spirit-of-the-north-f58a66",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Spirit_of_the_North",
   "notes": "Works out of the box!",
   "date_tested": "Oct '24",
   "decky_rating": "green",
@@ -33,12 +33,84 @@
   "cant_test_linux": false,
   "databaseId": "d2d941e5c1ec44ae9e87e9e7cdddf1dd",
   "shortname": "d2d941e5c1ec44ae9e87e9e7cdddf1dd",
-  "publisher": "Merge Games",
+  "publisher": "Silver Lining Interactive",
   "developer": "Infuse Studio",
-  "releasedate": "2019-11-13T00:00:00+0000",
-  "genre": "Adventure, Indie, Puzzle",
-  "description": "\"Spirit of the North is a single player, 3rd-person adventure game inspired by the breathtaking and mysterious landscapes of Iceland. The story takes root from various pieces of Nordic folklore. The game is unique in that it purposefully has no dialog or narrative. Players must breathe in their surroundings to solve various puzzles and speculate the meaning of a lost ancient civilization. Play as an ordinary red fox who’s story becomes entwined with the guardian of the Northern Lights, a female spirit fox. As you journey over the mountains and under red stained skies you’ll discover more about your companion and a land left in ruin.\"",
+  "releasedate": "2022-04-19T12:00:00.000Z",
+  "genre": "Adventure",
+  "description": "Spirit of the North is a single-player 3rd-person adventure game inspired by the breathtaking and mysterious landscapes of Iceland. The story takes root from various pieces of Nordic folklore.",
   "size": "",
+  "franchise": "Spirit of the North",
+  "tags_structured": [
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21134",
+      "name": "Beautiful Visuals"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 107141,
+  "igdb_url": "https://www.igdb.com/games/107141",
+  "giveaway_events": [
+    {
+      "start": "2022-09-14T15:00:00.000Z",
+      "end": "2022-09-21T15:00:00.000Z",
+      "type": null,
+      "id": "4460a8fcdc3e4f48a11f3174656f8a96"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Spirit of the North is a single-player 3rd-person adventure game inspired by the breathtaking and mysterious landscapes of Iceland. The story takes root from various pieces of Nordic folklore.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/61a0537600583e65afe8c6fa4905a767878a6fb5db4f7dbde720b3748c45373a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/dff17a7e5242b5c3fc8948f0548f152ed08c7e9987783d5c0c1c75b803af23dc.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/107ba27852543b3e2bae4622993b2711159ba11fea786aa48dfd64a1d5c980c0.jpg?namespace=gamesdb",
@@ -51,14 +123,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 70825,
+  "hltb_main": "5 hrs",
+  "hltb_main_extra": "6 hrs",
+  "hltb_completionist": "8 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/70825",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.969Z"
+  "updated_at": "2026-04-25T05:44:28.335Z"
 }

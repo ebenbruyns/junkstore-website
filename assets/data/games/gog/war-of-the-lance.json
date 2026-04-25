@@ -39,6 +39,17 @@
   "genre": "Adventure, Strategy",
   "description": "War of the Lance is presented in a top-down view. In single player mode, the player plays the Whitestone side to fight the evil forces of the Highlord (controlled by the computer). In a two-player game, the second player will play the Highlord forces.\nThis game is a turn-based strategy game. The player controls various units and heroes of an army against enemy forces. The game can be won in two ways. The player can win by controlling the enemy capitals (Highlord capital is Neraka and the Whitestone capitals are the four Knight countries (Solanthus, Caergoth, Gunthar, and Northern Ergoth) plus the Clerist Tower near Palanthus. If neither side can capture the enemy capitals by the end of the game (which is Mar/Apr 354), the side with more points (calculated from the size of their forces) wins. Each game year has 5 turns.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/e19028763428c3d77c888b735937b724f7800ab6fb696e607a06a92537a51eaf.jpg?namespace=gamesdb",
   "banner_image": "",
   "icon_image": "",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/war-of-the-lance/",
+  "hltb_id": 20649,
   "hltb_main": "3 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-29T00:10:09.107Z",
-  "updated_at": "2026-04-24T01:31:50.510Z"
+  "updated_at": "2026-04-25T00:55:59.171Z"
 }

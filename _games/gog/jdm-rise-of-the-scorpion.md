@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Gaming Factory, Gaming Factory
 developer: Gaming Factory
 genre: Sport
+franchise: 
+age_rating_summary: 
 release_date: "August 8, 2024"
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0bd57eb8b67b28a291c2c7a7ea31699ae8615b5376cc6dae56c27bcd3ce7f250.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1597953210"
 is_featured: false
+owned: true
 ---
 
 Discover the beginning of the story of the titular "Scorpion" through a story guided by manga panels. Take on the role of Hatori ‘Scorpion’ Hasashi - an offspring of a traditional Japanese family who became one of the best racers in the area. Strict parents and high school expectations couldn’t stop him from becoming a part of the drifting revolution!

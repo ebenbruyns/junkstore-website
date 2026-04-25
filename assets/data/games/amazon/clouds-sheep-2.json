@@ -39,6 +39,17 @@
   "genre": "Adventure, Simulator",
   "description": "In this eagerly anticipated sequel of the game “Clouds & Sheep”, the cute sheep are finally on the loose again! Solve countless quests and fulfill your wooly friends’ needs.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/5fd5022e93a82fcc50e08fc6cf060b34255ba6bc053be0836d0063cf66371479.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6d095b63fa5691f9ec1f108a3450eb991938d5bb5664c39690a330829d573de0.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/439800/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/clouds-and-sheep-2/",
+  "hltb_id": 44498,
   "hltb_main": "6 hrs",
   "hltb_main_extra": "6 hrs",
   "hltb_completionist": "11.5 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T21:37:59.661Z"
+  "updated_at": "2026-04-25T00:53:14.073Z"
 }

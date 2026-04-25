@@ -8,8 +8,8 @@ storefront_key: "gog"
 permalink: /games/gog/toem/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
 
@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Something We Made, Popagenda
 developer: Something We Made
 genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: ESRB Everyone
 release_date: "September 17, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/118193"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b1207278fcde3385962e8b2009a468aa86c0eda59d8f5614971a3e03b790eceb.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/86977"
 store_url: "https://www.gog.com/en/game/toem"
 protondb_url: "https://www.protondb.com/app/1307580"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/TOEM"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/toem?ftag=MCD-06-10aaa1f"
 
@@ -69,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1436499377"
 is_featured: false
+owned: true
 ---
 
-An aesthetic adventure with the premise of enjoying the little things!
-Toem is an adventure game, it aims to capture the curiosity of a child! Should I go left, right, who cares I'm on an adventure! Your smile, that's what's important to us.
+Set off on a delightful expedition and use your photographic eye to uncover the mysteries of the magical TOEM in this hand-drawn adventure game. Chat with quirky characters and solve their problems by snapping neat photos!

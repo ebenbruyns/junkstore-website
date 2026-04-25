@@ -35,10 +35,28 @@
   "shortname": "0ad0ed7b851c46378f9fcac07b72b548",
   "publisher": "Dreamhaven",
   "developer": "Moonshot Games",
-  "releasedate": "22 Jul, 2025",
+  "releasedate": "2099-01-01T16:00:00.000Z",
   "genre": "Action, Adventure, Casual, Massively Multiplayer, Racing, RPG, Strategy",
-  "description": "Wildgate is a PvPvE multiplayer shooter that blends tactical ship-to-ship combat with fast-paced first-person action. Evade deadly environmental hazards, search for powerful weapons and ship upgrades, and be the first crew to escape with the Artifact... or the last crew left flying.",
+  "description": "Wildgate is a crew-based PVP multiplayer shooter that blends tactical ship-to-ship combat with fast-paced first-person action. Evade deadly environmental hazards, search for powerful weapons and ship upgrades, and be the first crew to escape with the Artifact.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2026-01-01T16:00:00.000Z",
+      "end": "2026-01-08T16:00:00.000Z",
+      "type": null,
+      "id": "acd0b5048a0d43ec80909788a388964a"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Wildgate is a crew-based PVP multiplayer shooter that blends tactical ship-to-ship combat with fast-paced first-person action. Evade deadly environmental hazards, search for powerful weapons and ship upgrades, and be the first crew to escape with the Artifact.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/3504780/library_600x900.jpg",
   "banner_image": "",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/3504780/capsule_231x87.jpg",
@@ -61,6 +79,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -71,5 +90,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-05T23:47:39.439Z",
-  "updated_at": "2026-02-07T22:06:38.395Z"
+  "updated_at": "2026-04-25T02:17:49.907Z"
 }

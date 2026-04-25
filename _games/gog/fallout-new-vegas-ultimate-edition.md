@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Bethesda Softworks
 developer: Obsidian Entertainment
 genre: Action, RPG
+franchise: 
+age_rating_summary: 
 release_date: "October 19, 2010"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Italian","Spanish - Spain"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/22380/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1454587428"
 is_featured: false
+owned: true
 ---
 
 Welcome to Vegas. New Vegas. Enjoy your stay!

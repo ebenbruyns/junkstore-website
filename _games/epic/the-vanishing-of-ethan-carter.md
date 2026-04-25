@@ -14,12 +14,18 @@ date_tested: "April '25"
 proton_version: ""
 
 # Game Info
-publisher: Nordic Games Publishing, The Astronauts
+publisher: The Astronauts
 developer: The Astronauts
-genre: Adventure, Strategy
-release_date: "September 25, 2014"
+genre: Exploration
+franchise: 
+age_rating_summary: 
+release_date: "December 20, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1127","name":"Investigation"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+igdb_url: "https://www.igdb.com/games/2939"
+was_free_before: true
+giveaway_events: [{"start":"2022-04-06T15:00:00.000Z","end":"2022-04-13T15:00:00.000Z","type":null,"id":"bdea68145b61462f9cd17068e835aadf"},{"start":"2021-12-18T15:00:00.000Z","end":"2021-12-19T15:00:00.000Z","type":null,"id":"bdea68145b61462f9cd17068e835aadf"}]
 
 # Images
 banner_image: "https://images.gog.com/84daca4b918390739f3e7a6cce8b66d1095f1040649d92cf31edd4f47916879c.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "4 hrs"
+hltb_main_extra: "4 hrs"
+hltb_completionist: "4.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/21142"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-vanishing-of-ethan-carter"
 protondb_url: "https://www.protondb.com/app/258520"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Vanishing_of_Ethan_Carter"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/the-vanishing-of-ethan-carter?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "9447b19ffb6a47e1a654b75178779a28"
 is_featured: false
+owned: true
 ---
 
-In The Vanishing of Ethan Carter, you play as Paul Prospero, an occult detective who receives a disturbing letter from Ethan Carter and realizes that the boy is in grave danger. When Paul arrives in Ethan's home of Red Creek Valley, he realizes things are even worse than he imagined. Ethan has vanished in the wake of a brutal murder, which Paul comes to see might not be the only murder to investigate. Using both regular and supernatural detective skills, Paul must figure out what happened to the missing boy.
+The Vanishing of Ethan Carter is a first-person mystery focused on exploration and discovery. As an occult-minded detective Paul Prospero, piece together the truth behind Ethan’s disappearance — and the fate of his family.

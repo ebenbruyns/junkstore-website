@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1630960",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/centipede-recharged",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Centipede%3A_Recharged",
   "notes": "Works out of the box!",
   "date_tested": "Sept '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,70 @@
   "shortname": "8727e9d0693542bda60769dc2ce33c20",
   "publisher": "Atari",
   "developer": "Nickervision Studios",
-  "releasedate": "2021-09-29T00:00:00+0000",
-  "genre": "Shooter, Arcade",
-  "description": "The original bug-blasting arcade game is back! Centipede: Recharged has been reimagined for modern gameplay, with vibrant visuals designed for modern screens, a 16:9 field of play, and an original soundtrack from award-winning video game composer Megan McDuffee. Aim for a high score in the old school arcade mode and earn bragging rights with your name at the top of the leaderboard. Or test your skills and rank on the boards in one of 30 intensely creative challenges, which twist the gameplay in new and exciting ways. A dozen new power-ups can give you an edge by introducing abilities like screen-clearing explosions, rail guns, and even slowing down time. Every mode and level is playable in local co-op mode with a friend.",
+  "releasedate": "2021-09-29T04:00:00.000Z",
+  "genre": "Action, Shooter",
+  "description": "Blast bugs and chase high scores in this glorious revival of an old-school classic, all while jamming to a heart-pounding original score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 unique challenges or the endless arcade mode.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 2235,
+  "igdb_url": "https://www.igdb.com/games/2235",
+  "giveaway_events": [
+    {
+      "start": "2022-03-02T15:00:00.000Z",
+      "end": "2022-03-09T15:00:00.000Z",
+      "type": null,
+      "id": "b44a2808223f4cd0a8ca1376410b5460"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Blast bugs and chase high scores in this glorious revival of an old-school classic, all while jamming to a heart-pounding original score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 unique challenges or the endless arcade mode.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/9ddb19cc379f903092f2bfffb5d51bd08a0a91d9ff26c83d66ed2b457492ce02.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/5016c8fff727023dec0317d4c27b03a76887e983168d7683ba41fcb205814bb0.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/44afc285371adb637740856b9ae5214e86b1fb4482169a3637df29b639583566.jpg?namespace=gamesdb",
@@ -53,14 +113,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 98572,
   "hltb_main": "2.1 hrs",
   "hltb_main_extra": "3 hrs",
   "hltb_completionist": "3.8 hrs",
   "hltb_url": "https://howlongtobeat.com/game/98572",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.965Z"
+  "updated_at": "2026-04-25T02:42:18.596Z"
 }

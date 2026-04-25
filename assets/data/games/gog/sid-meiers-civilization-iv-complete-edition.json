@@ -39,6 +39,17 @@
   "genre": "Strategy, Simulator",
   "description": "Sid Meier’s Civilization is widely recognized as one the greatest PC game franchises of all-time. Heralded as one of the top ten games of 2005, Civilization IV is a must-have for gamers around the globe. Sid Meier’s Civilization IV: The Complete Edition includes Civilization IV, plus all three expansions: Warlords, Beyond the Sword and Colonization.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/16183278025dc84b93bb3392d326e108ac006122d73ec8fc98ebf64731072d01.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f14746763e92637c6a31aa3e1db36c499bea98a91a0f38e36790b5d8443677f1.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f1fd32be26fb7a06039c97e6e45a5d2f41bfeea58147e3ecec4a15e0e19beaa3.jpg?namespace=gamesdb",
@@ -55,6 +66,7 @@
   ],
   "metacritic_score": 94,
   "metacritic_url": "https://www.metacritic.com/game/pc/sid-meiers-civilization-iv?ftag=MCD-06-10aaa1f",
+  "hltb_id": 8505,
   "hltb_main": "13 hrs",
   "hltb_main_extra": "45.5 hrs",
   "hltb_completionist": "133.5 hrs",
@@ -66,5 +78,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-04T23:12:06.976Z",
-  "updated_at": "2025-09-11T20:02:25.673Z"
+  "updated_at": "2026-04-25T00:56:11.445Z"
 }

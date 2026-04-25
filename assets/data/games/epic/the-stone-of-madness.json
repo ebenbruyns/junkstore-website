@@ -34,11 +34,68 @@
   "databaseId": "ee9aba2358a7484da67fef34106bb13a",
   "shortname": "ee9aba2358a7484da67fef34106bb13a",
   "publisher": "Tripwire Presents",
-  "developer": "Tripwire Interactive",
-  "releasedate": "2023-08-07T18:51:50.545Z",
-  "genre": "Adventure, RPG, Strategy",
+  "developer": "The Game Kitchen",
+  "releasedate": "2025-01-28T16:00:00.000Z",
+  "genre": "Puzzle, Strategy, Stealth",
   "description": "The Stone of Madness is a real-time tactical stealth game set in an 18th-century Spanish Monastery. Five prisoners pool their skills and resources to face their phobias, stave off insanity, uncover the mysteries of the Monastery, and find a way to escape.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 138097,
+  "igdb_url": "https://www.igdb.com/games/138097",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "The Stone of Madness is a real-time tactical stealth game set in an 18th-century Spanish Monastery. Five prisoners pool their skills and resources to face their phobias, stave off insanity, uncover the mysteries of the Monastery, and find a way to escape.",
+  "use_rich_description": true,
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-680ls.jpg",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-11a59.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1309710/capsule_231x87.jpg",
@@ -59,6 +116,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -69,5 +127,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-04-16T20:10:46.067Z",
-  "updated_at": "2026-04-21T00:38:52.290Z"
+  "updated_at": "2026-04-25T02:22:12.358Z"
 }

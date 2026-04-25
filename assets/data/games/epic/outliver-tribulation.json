@@ -5,7 +5,7 @@
   "protondb": "https://www.protondb.com/app/1236930",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/outliver-tribulations-679884",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
   "notes": "May need to verify with Epic account before launch. Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ runtime.",
@@ -35,10 +35,70 @@
   "shortname": "f5b2bda11e0f4e22b552f03be3f15f62",
   "publisher": "GBROSSOFT",
   "developer": "GBROSSOFT",
-  "releasedate": "2023-07-18T00:00:00+0000",
-  "genre": "Adventure, Indie, Shooter",
-  "description": "Outliver: Tribulation is an atmospheric, story-driven survival horror action game where you play as Bolanle Gboyega a soldier who mysteriously finds herself in the Realm of Tribulations, a supernatural realm of African mythology where she soon discovers she has to undergo an ancient ritual in order to regain passage back to her realm… or so she thinks.",
+  "releasedate": "2023-07-18T15:00:00.000Z",
+  "genre": "Horror, Action-Adventure, Shooter",
+  "description": "A dark history comes calling in this \"African Mythology meets Survival-Horror and Souls-like\" experience! You play as the soldier who mysteriously ends up in a supernatural realm, of which her only way out is to partake in an ancient ritual... or so she believes.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 129234,
+  "igdb_url": "https://www.igdb.com/games/129234",
+  "giveaway_events": [
+    {
+      "start": "2024-10-10T15:00:00.000Z",
+      "end": "2024-10-17T15:00:00.000Z",
+      "type": null,
+      "id": "a4d3ae371e674ce3b2892d63c8bb4041"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "A dark history comes calling in this \"African Mythology meets Survival-Horror and Souls-like\" experience! You play as the soldier who mysteriously ends up in a supernatural realm, of which her only way out is to partake in an ancient ritual... or so she believes.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/4fbe5ecc316020145aa1997a4b126f02ba529b190e85652fd376a48516b76014.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2881d09920792f3f9aff2070ea96589a6d38abc7d90cf097ccee4fc9ff871737.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/df6f34e3368e9bbcd97f203228a9711394849499ca055ea7783c300f93ba17e7.jpg?namespace=gamesdb",
@@ -51,15 +111,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 111433,
+  "hltb_main": "2.5 hrs",
+  "hltb_main_extra": "3.5 hrs",
+  "hltb_completionist": "3.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/111433",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:29:46.461Z"
+  "updated_at": "2026-04-25T05:43:20.122Z"
 }

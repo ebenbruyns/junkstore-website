@@ -39,6 +39,17 @@
   "genre": "Shooter",
   "description": "Whatever path Kyle Katarn chooses will change the face of the galaxy forever.\nStar Wars Jedi Knight: Dark Forces II continues the story of Kyle Katarn, a young mercenary that successfully infiltrated the Empire, as he embarks on a quest to discover his past and learn the ways of the Jedi.\n\nIn order to protect the galaxy Katarn must confront his father's murderers, led by the Dark Jedi Jerec, and stop them from obtaining the mysterious powers of a \"Valley of the Jedi\", a focal point for Jedi power and a Jedi burial ground. As Katarn embarks on his journey to defeat the Dark Jedi he must also shape his destiny, by choosing to follow either the light side, or the dark side.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/ef2e953d8330a4af2bea0c947e660e2b857aef0e1e453e5b62e544d4aa798b6b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ed43aa8e85a4656b770a6a758e3cc0be5812b4f1e5d8e75c1f7c85d970af12fb.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/32380/capsule_231x87.jpg",
@@ -55,6 +66,7 @@
   ],
   "metacritic_score": 91,
   "metacritic_url": "https://www.metacritic.com/game/pc/star-wars-jedi-knight-dark-forces-ii?ftag=MCD-06-10aaa1f",
+  "hltb_id": 9086,
   "hltb_main": "9 hrs",
   "hltb_main_extra": "10 hrs",
   "hltb_completionist": "12 hrs",
@@ -66,5 +78,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-02-07T04:13:19.944Z"
+  "updated_at": "2026-04-25T00:52:46.110Z"
 }

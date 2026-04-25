@@ -39,6 +39,17 @@
   "genre": "Adventure, Platform",
   "description": "Prince of Persia: Warrior Within is a video game and sequel to Prince of Persia: The Sands of Time. It picks up where The Sands of Time left off, adding new features, specifically, options in combat. The Prince now has the ability to wield two weapons at a time as well as the ability to steal his enemies' weapons and throw them. The Prince's repertoire of combat moves has been expanded into varying strings that allow players to attack enemies with more complexity than was possible in the previous game. Warrior Within has a darker tone than its predecessor adding in the ability for the Prince to dispatch his enemies with various finishing moves. In addition to the rewind, slow-down, and speed-up powers from The Sands of Time, the Prince also has a new sand power: a circular \"wave\" of sand that knocks down all surrounding enemies as well as damaging them.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/1f7d5a5b011be0daffcead42840dfe927644870f91fed4a8f1522b397b01c885.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/50fc917b8082b4f27400442acaad41d3a3b8fb402c25c89311a379269c49af27.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/c04e17ed6a338947d7908efa92c7ad2c0421469800163064a66e9c09fd90de16.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 83,
   "metacritic_url": "https://www.metacritic.com/game/pc/prince-of-persia-warrior-within?ftag=MCD-06-10aaa1f",
+  "hltb_id": 7299,
   "hltb_main": "12 hrs",
   "hltb_main_extra": "15 hrs",
   "hltb_completionist": "17 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-23T21:05:47.606Z"
+  "updated_at": "2026-04-25T00:43:05.515Z"
 }

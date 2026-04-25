@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ring_of_Pain",
   "notes": "Works out of the box!",
   "date_tested": "July '24",
   "decky_rating": "green",
@@ -34,11 +34,103 @@
   "databaseId": "130285de16cc429abc603eaf95b8787b",
   "shortname": "130285de16cc429abc603eaf95b8787b",
   "publisher": "Humble Games",
-  "developer": "Twice Different, Simon Boxer",
-  "releasedate": "2020-10-14T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Card & Board Game",
-  "description": "Ring of Pain is a roguelike card game in a world distorted by your mind... - Frail and fragile bear the curse, through the shadow you traverse - Darkness favours cunning few, stare too long and be consumed...",
+  "developer": "Simon Boxer, Twice Different",
+  "releasedate": "2022-08-25T15:00:00.000Z",
+  "genre": "Indie, Strategy",
+  "description": "Enter the Ring of Pain, a roguelike card crawler where encounters come to you. Each step around the ring a dire decision. Go for the loot or backstab a creeping horror? Choose your gear wisely to survive and discover the secrets of the Ring of Pain.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2022-08-24T15:00:00.000Z",
+      "end": "2022-08-31T15:00:00.000Z",
+      "type": null,
+      "id": "4b5ba08363b5472f8c061d92c9a849db"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Enter the Ring of Pain, a roguelike card crawler where encounters come to you. Each step around the ring a dire decision. Go for the loot or backstab a creeping horror? Choose your gear wisely to survive and discover the secrets of the Ring of Pain.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/01a64c441b9948197746afcac32ba56c9837d70340c3e4e541e7ee2a7bc2ec23.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6da5d39f23e324e00db207860dbd0e92b029af6b1b6f44d862d56f51eaa17dfa.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0d619c0fc34aa9d48ac71a258da6e9758c04cfa5941559ba17018f4f2ba50f38.jpg?namespace=gamesdb",
@@ -51,15 +143,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 77798,
+  "hltb_main": "8 hrs",
+  "hltb_main_extra": "21 hrs",
+  "hltb_completionist": "89.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/77798",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-05T22:07:27.739Z"
+  "updated_at": "2026-04-25T05:43:44.353Z"
 }

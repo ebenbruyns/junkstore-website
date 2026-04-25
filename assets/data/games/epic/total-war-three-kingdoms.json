@@ -34,11 +34,92 @@
   "databaseId": "769f2fee68e9477180da900ccccbbcf0",
   "shortname": "769f2fee68e9477180da900ccccbbcf0",
   "publisher": "SEGA",
-  "developer": "CREATIVE ASSEMBLY",
-  "releasedate": "23 May, 2019",
+  "developer": "Creative Assembly",
+  "releasedate": "2025-12-18T10:00:00.000Z",
   "genre": "Action, Strategy",
-  "description": "Total War: THREE KINGDOMS is the first in the award-winning series to recreate epic conflict across ancient China. Combining a gripping turn-based campaign of empire-building &amp; conquest with stunning real-time battles, THREE KINGDOMS redefines the series in an age of heroes &amp; legends.",
+  "description": "Total War: THREE KINGDOMS recreates epic conflict across ancient China in an age of heroes and legends, combining gripping empire-building, statecraft and conquest with stunning real-time battles.",
   "size": "",
+  "franchise": "Total War",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Total War: THREE KINGDOMS recreates epic conflict across ancient China in an age of heroes and legends, combining gripping empire-building, statecraft and conquest with stunning real-time battles.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/779340/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/779340/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/779340/capsule_231x87.jpg",
@@ -62,6 +143,7 @@
   ],
   "metacritic_score": 85,
   "metacritic_url": "https://www.metacritic.com/game/pc/total-war-three-kingdoms?ftag=MCD-06-10aaa1f",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -72,5 +154,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-05T23:48:35.404Z",
-  "updated_at": "2026-04-03T22:02:32.152Z"
+  "updated_at": "2026-04-25T02:17:52.560Z"
 }

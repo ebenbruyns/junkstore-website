@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1721530",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/the-captain",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Captain",
   "notes": "Works out of the box!",
   "date_tested": "Dec '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -33,12 +33,96 @@
   "cant_test_linux": false,
   "databaseId": "f00b5acabb0f49a7b49e8350d1cd0de0",
   "shortname": "f00b5acabb0f49a7b49e8350d1cd0de0",
-  "publisher": "Tomorrow Corporation, Flyhigh Works",
-  "developer": "Sysiac Games",
-  "releasedate": "2021-12-03T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Indie, Simulator",
-  "description": "Race back home across the galaxy. Collect new friends. Make new enemies. You won't be able to save everyone. Who will you leave behind? Which civilizations will you save - or destroy - along the way? The decisions are up to you.",
+  "publisher": "Tomorrow Corporation",
+  "developer": "Sysiac games",
+  "releasedate": "2021-12-03T17:00:00.000Z",
+  "genre": "Indie, Adventure",
+  "description": "Race back home across the galaxy.  Collect new friends.  Make new enemies.  You won't be able to save everyone.  Who will you leave behind?  Which civilizations will you save - or destroy - along the way?  The decisions are up to you.  You are... The Captain!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 114666,
+  "igdb_url": "https://www.igdb.com/games/114666",
+  "giveaway_events": [
+    {
+      "start": "2022-09-14T15:00:00.000Z",
+      "end": "2022-09-21T15:00:00.000Z",
+      "type": null,
+      "id": "80fb2028e27b489988bcd2c242b8caf0"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Race back home across the galaxy.  Collect new friends.  Make new enemies.  You won't be able to save everyone.  Who will you leave behind?  Which civilizations will you save - or destroy - along the way?  The decisions are up to you.  You are... The Captain!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/2bb34483dde3881ee828c62f227a4173aa7f7d5ebfaf12bd4b1ef6a0c6f9a6f7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/8ae113852f4422e1abd832db7b19094f80e08389b7c5de9b8d1e844e8996f168.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0b10086468b44f6d9be6802afd0594f5faf53fe59db9695f0403ddc241a967d0.jpg?namespace=gamesdb",
@@ -51,15 +135,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 101186,
+  "hltb_main": "10 hrs",
+  "hltb_main_extra": "17.5 hrs",
+  "hltb_completionist": "31.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/101186",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T07:34:45.605Z"
+  "updated_at": "2026-04-25T05:45:06.104Z"
 }

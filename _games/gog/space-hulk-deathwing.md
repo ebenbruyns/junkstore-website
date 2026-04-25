@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Focus Entertainment
 developer: Cyanide Studio, Streum On Studio
 genre: "Adventure, Shooter, Hack and slash/Beat 'em up"
+franchise: 
+age_rating_summary: 
 release_date: "December 14, 2016"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/08086b0642fa0517a2248d058053788cd30de9857751be9de7f407d517390015.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/56967"
 store_url: "https://www.gog.com/en/game/space_hulk_deathwing_enhanced_edition"
 protondb_url: "https://www.protondb.com/app/816090"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Space_Hulk%3A_Deathwing_-_Enhanced_Edition"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1896039326"
 is_featured: false
+owned: true
 ---
 
 Space Hulk: Deathwing is a First-Person Shooter experience of Games Workshop's classic Space Hulk boardgame set in the universe of Warhammer 40,000, developed on Unreal Engine 4 by Streum On Studio, the team behind E.Y.E: Divine Cybermancy. Published by Focus Home Interactive and co-produced by Cyanide Studio, Space Hulk: Deathwing offers players the chance to experience a desperate battle against Genestealers in the claustrophobic tunnels of a Space Hulk, as they will gain skills, new abilities and new equipment thanks to experience earned during perilous missions.

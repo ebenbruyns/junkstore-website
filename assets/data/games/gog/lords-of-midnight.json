@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Strategy",
   "description": "Mike Singleton's '84 classic Adventure Strategy game, brought to and updated for Windows.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/708580ed8418ada64ea16e4f223cbdc9c86abb510ac2e1fd992a9fe25b24c4d7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f70512f84fb86670e18530489dee27e6a937317310dd9d86b50b8c74f40ddd55.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/the-lords-of-midnight/",
+  "hltb_id": 17960,
   "hltb_main": "3.5 hrs",
   "hltb_main_extra": "7 hrs",
   "hltb_completionist": "",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-04-20T00:08:30.183Z"
+  "updated_at": "2026-04-25T00:51:52.272Z"
 }

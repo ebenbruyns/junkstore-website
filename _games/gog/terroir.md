@@ -17,9 +17,15 @@ proton_version: ""
 publisher: General Interactive
 developer: General Interactive
 genre: Strategy, Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "May 17, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0d4716fee921e72a8fa6c934228b9231cd6af47ddc3a152ceb3adb9df5fd79ac.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/47455"
 store_url: "https://www.gog.com/en/game/terroir"
 protondb_url: "https://www.protondb.com/app/559910"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Terroir"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1990946201"
 is_featured: false
+owned: true
 ---
 
 Terroir is a 3D tile-based tycoon game where you manage your very own vineyard. In Terroir, you grow a variety of different grape varietals, craft your wine, and expand and manage your Chateau, all the while dealing with the weather and events that can either make or break your business.

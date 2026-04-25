@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Daedalic Entertainment
 developer: Unfrozen
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie
+franchise: 
+age_rating_summary: ESRB Teen
 release_date: "April 23, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/93694"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f14a1365fc20e175a451c24173372c9a746a8fc8934cdf4537c7e4f5df81d09e.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1447412730"
 is_featured: false
+owned: true
 ---
 
-Iratus: Lord of the Dead is a dark, challenging turn-based roguelike RPG where you play as an evil necromancer escaping from your dungeon prison to once again embark on the domination of the world.
+Iratus: Lord of the Dead is a turn-based tactical roguelike RPG set in a dark fantasy universe. Lead an army of undead to help an angry necromancer in his quest to reach the surface world and bring death to the mortal realms!

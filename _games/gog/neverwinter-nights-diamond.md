@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Atari, Inc.
 developer: BioWare
 genre: Role-playing (RPG), Adventure
+franchise: 
+age_rating_summary: 
 release_date: "December 12, 2005"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Italian","Polish","Spanish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/fd4c34c4059a37cf2a27f749ddcf0227be3af162771289f255fe2db4f6e0a4b9.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658890"
 is_featured: false
+owned: true
 ---
 
 Experience one of the most popular role-playing adventures of our time, a journey that has thrilled millions. Inhabit dreamlike worlds of myth and mystery. Boundless lands of deadly creatures, foreboding omens and bold heroism.

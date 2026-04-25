@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Sega
 developer: Amplitude Studios
 genre: Strategy, Turn-based strategy (TBS)
+franchise: 
+age_rating_summary: 
 release_date: "January 21, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3afd55dc3f68e709e341c64189eb0c0edd10e893fdae25e177ecf450ec2deea5.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.7799093d-36ad-4766-9eba-bb3fce5a1ba5"
 is_featured: false
+owned: true
 ---
 
 Endless Space 2 is Amplitude Studios’ third title in the acclaimed Endless Universe. This Strategic Space Opera is set in the mysterious universe of the “Endless”, God-like beings now long gone… though the secrets of their time still echo throughout the galaxy.

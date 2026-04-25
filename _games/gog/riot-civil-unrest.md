@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Merge Games
 developer: IV Productions, Leonard Menchiari
 genre: Strategy, Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "February 6, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/ab2a31178c1ad29c5c2cc5b1f69952ab10a363df7d133515cca3551bd613e04a.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/34405"
 store_url: "https://www.gog.com/en/game/riot_civil_unrest"
 protondb_url: "https://www.protondb.com/app/342310"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Riot%3A_Civil_Unrest"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1989052770"
 is_featured: false
+owned: true
 ---
 
 As civil crisis deepens and inequality tears the very fabric of society the discontentment of the masses manifests itself in violent public disturbances and civil disorder. Play as the police or the angry horde as Riot – Civil Unrest places you in some of the world's most fractious disputes.

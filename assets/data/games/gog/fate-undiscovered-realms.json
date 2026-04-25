@@ -7,7 +7,7 @@
   "gog_url": "https://www.gog.com/en/game/fate_undiscovered_realms",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/FATE:_Undiscovered_Realms",
   "notes": "Requires manual controller/key mapping. There are also a few lighting glitches when you enter the dungeons. To avoid these make the game look make sure your game options are set as follows: Light Blur: Off; Shadow Detail: High; VSYNC: Off; Shadow: All; ParticlesL High; Antialiasing: On; Fog: Animated",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure",
   "description": "An all new adventure temps your Fate Product Information Your valor has won freedom for the people of Grove and the manxome scourge has retreated into the shadows. In the midst of celebration a stranger appears warning of new evil that will ensnare your peaceful town. He speaks of ancient secrets locked within a temple and of gateways to mysterious yet Undiscovered Realms. Typhon an outpost built around cold snowy dungeons and Druantia a land of lush forests and endless beauty. Of the temple's secrets he divulges only the greatest: hidden within is an ancient tome - the Book of Fate which maintains the balance between all realms. The townsfolk look to you their new champion to take up this perilous quest and guide the stranger through the dungeon in search of the ancient temple. You will encounter new dungeons pet transformations weapons monsters and five completely new quests to test your mettle. New features include Hardcore mode (cheats disabled more difficult monsters) and a level cap of 199 - import characters from the original FATE and continue your quest. It is time once again to determine Explore two new realms with all new art and music. Transform your pets into new ally creatures! Fight an onslaught of monsters while protecting sacred places.Imprison evil foes and bring them to justice. Use your powers to lead allies to safety. Import your original Fate hero into the Undiscovered Realms.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/7865c2f4abfedaecdf3d1f72e0c6701b31aef30f26100f9fa96fde555efd2dc5.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/40bd3d075739c343b575665482a590d2e8731294a3705a089620902eaeee25e1.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/649ed8edd3cfce63defe122dea9813c7fdbbd65e42a7544c637a0f767969234e.jpg?namespace=gamesdb",
@@ -50,7 +61,8 @@
     "English"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/fate-undiscovered-realms/",
+  "hltb_id": 3419,
   "hltb_main": "12.5 hrs",
   "hltb_main_extra": "18.5 hrs",
   "hltb_completionist": "38.5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-12-11T21:16:33.230Z"
+  "updated_at": "2026-04-25T00:41:58.128Z"
 }

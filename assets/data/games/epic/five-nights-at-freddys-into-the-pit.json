@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "https://store.epicgames.com/en-US/p/five-nights-at-freddys-into-the-pit-99c563",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Five_Nights_at_Freddy%27s%3A_Into_the_Pit",
   "notes": "Works out of the box!",
   "date_tested": "Oct '25",
   "decky_rating": "green",
@@ -33,12 +33,104 @@
   "cant_test_linux": false,
   "databaseId": "a0fbc3eb950341e290ae20a7d02cc501",
   "shortname": "a0fbc3eb950341e290ae20a7d02cc501",
-  "publisher": "Mega Cat Studios",
+  "publisher": "ScottGames",
   "developer": "Mega Cat Studios",
-  "releasedate": "7 Aug, 2024",
-  "genre": "Action, Adventure, Indie",
-  "description": "Survive five nights of terror in this chilling adventure game. Travel between time periods to solve puzzles, gather clues, and outrun the threat relentlessly pursuing you. Move swiftly and stay hidden, and you may just survive. But be careful—it's not just your own life that’s on the line this time.",
+  "releasedate": "2025-10-30T15:00:00.000Z",
+  "genre": "Horror, Retro, Survival",
+  "description": "Survive five nights of terror in this chilling adventure game. Travel between time periods to solve puzzles, gather clues, and outrun the threat pursuing you. Move swiftly and stay hidden, and you may just survive. But be careful—it's not just your own life that’s on the line.",
   "size": "1066862446\n",
+  "franchise": "Five Nights at Freddy's",
+  "tags_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1198",
+      "name": "Retro"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1080",
+      "name": "Survival"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1198",
+      "name": "Retro"
+    },
+    {
+      "id": "1080",
+      "name": "Survival"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 283679,
+  "igdb_url": "https://www.igdb.com/games/283679",
+  "giveaway_events": [
+    {
+      "start": "2025-10-30T15:00:00.000Z",
+      "end": "2025-11-06T16:00:00.000Z",
+      "type": null,
+      "id": "4f870cf44ac24a64a44225045d4aaa96"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Survive five nights of terror in this chilling adventure game. Travel between time periods to solve puzzles, gather clues, and outrun the threat pursuing you. Move swiftly and stay hidden, and you may just survive. But be careful—it's not just your own life that’s on the line.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2638370/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2638370/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2638370/capsule_231x87.jpg",
@@ -60,6 +152,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -70,5 +163,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-25T04:38:52.207Z",
-  "updated_at": "2025-11-04T23:26:49.610Z"
+  "updated_at": "2026-04-25T02:16:01.780Z"
 }

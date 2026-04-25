@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie",
   "description": "The Collage Atlas invites you on a journey through an entirely hand-drawn picture-book dream-world. From the grass beneath your fee, to the butterflies dancing in the air, to the floating islands drifting overhead - every little detail has been lovingly-crafted with pen & ink on paper.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/40f27c1a4b9b4041dddc1ac245aeb1e648070c62054ef91f2c9bab4c0a885adf.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/5ac8c58d9c54a960b36c1d609f329df67bdb9eb7b5ae3d787007aa30e6ea0b04.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/the-collage-atlas/",
+  "hltb_id": 86266,
   "hltb_main": "1.5 hrs",
   "hltb_main_extra": "2 hrs",
   "hltb_completionist": "2.5 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2026-04-23T22:14:06.380Z"
+  "updated_at": "2026-04-25T00:44:33.690Z"
 }

@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: tinyBuild
 developer: "We're Five Games"
-genre: Adventure, Indie, Simulator, Racing
-release_date: "Invalid Date"
+genre: Indie
+franchise: 
+age_rating_summary: 
+release_date: "April 2, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2020-03-31T15:00:00.000Z","end":"2020-04-07T15:00:00.000Z","type":null,"id":"4f480f675a6c4947b1bbfbc73a7d3a93"}]
 
 # Images
 banner_image: "https://images.gog.com/db19dcbdfd80232cf538d1aa4e00bd23f4664941f70a07315fa2ff03863885fe.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "2.9 hrs"
+hltb_main_extra: "9.1 hrs"
+hltb_completionist: "11.2 hrs"
+hltb_url: "https://howlongtobeat.com/game/69333"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/totally-reliable-delivery-service"
 protondb_url: "https://www.protondb.com/app/1011670"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Totally_Reliable_Delivery_Service"
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/pc/totally-reliable-delivery-service?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Hoatzin"
 is_featured: false
+owned: true
 ---
 
 Delivery Attempted. T.R.D.S. is a ragdoll physics simulation about terrible package delivery couriers.

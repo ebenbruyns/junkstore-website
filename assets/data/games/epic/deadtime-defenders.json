@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1148700",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/deadtime-defenders-3e9fc8",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Deadtime_Defenders",
   "notes": "Works out of the box!",
   "date_tested": "May '25",
   "decky_rating": "green",
@@ -33,12 +33,96 @@
   "cant_test_linux": false,
   "databaseId": "23cbdd44de914e9caec216acefc51f9b",
   "shortname": "23cbdd44de914e9caec216acefc51f9b",
-  "publisher": "Ravenous Games Inc.",
-  "developer": "Ravenous Games Inc.",
-  "releasedate": "2025-05-08T00:00:00+0000",
-  "genre": "Role-playing (RPG), Indie, Shooter",
-  "description": "Deadtime Defenders is a hectic, side-scrolling looter shooter where you battle your way through monster-filled alternate dimensions all while collecting lots of randomly rolled glorious loot! Unlock the end-game to complete Void Runs chasing after Legendary items!",
+  "publisher": "Arcane Embers",
+  "developer": "Arcane Embers",
+  "releasedate": "2025-05-08T15:00:00.000Z",
+  "genre": "Indie, Action-Adventure, Shooter",
+  "description": "Complete bounties, acquire legendary loot, upgrade your gear, and level up as you fight back against invading monsters in this side-scrolling looter shooter RPG.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21130",
+      "name": "Easy Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 123520,
+  "igdb_url": "https://www.igdb.com/games/123520",
+  "giveaway_events": [
+    {
+      "start": "2025-05-08T15:00:00.000Z",
+      "end": "2025-05-15T15:00:00.000Z",
+      "type": null,
+      "id": "cff516f0708444ee8ee06a96e6986b34"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Complete bounties, acquire legendary loot, upgrade your gear, and level up as you fight back against invading monsters in this side-scrolling looter shooter RPG.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/4404d48fc316ecad61c2ce3266e9ca00f96c0a7f19c5a7fa1eb834fe11943864.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6ac842af6c826128ef41b503f0707c399d489fb24cf7c2b4bb9ba183030d22fc.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f77e81a399b5cd121f1e57e03cf3fef009dffec50db9748e4390249c1b60d257.jpg?namespace=gamesdb",
@@ -51,15 +135,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
+  "hltb_id": 167626,
+  "hltb_main": "1.5 hrs",
+  "hltb_main_extra": "4.5 hrs",
   "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_url": "https://howlongtobeat.com/game/167626",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T06:40:02.324Z"
+  "updated_at": "2026-04-25T05:40:43.247Z"
 }

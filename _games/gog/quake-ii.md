@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Activision, TecToy, Hyperion Entertainment, Macmillan Digital Publishing
 developer: Hammerhead, id Software
 genre: Shooter
+franchise: 
+age_rating_summary: 
 release_date: "December 9, 1997"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a4561c191b7a733c446ca1a18a41622428cf64efaec95ef5e8f13d423d6dfd8e.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://www.gog.com/en/game/quake_ii"
 protondb_url: "https://www.protondb.com/app/2320"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Quake_II"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1947927225"
 is_featured: false
+owned: true
 ---
 
 Quake II is a first-person shooter video game developed by id Software and published by Activision. It is not a direct sequel to Quake, id decided to revert to an existing trademark when they were unable to agree on a new name that did not violate another company's trademark.

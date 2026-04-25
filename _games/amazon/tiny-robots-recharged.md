@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Snapbreak
 developer: Big Loop Studios
 genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "November 10, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/706ea5bf04faef24777d4f7b3ff74c9f562187ef5dd4c3fb62d36174664e1961.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.20b87aa4-24b1-444b-80d0-8a5cbc277c56"
 is_featured: false
+owned: true
 ---
 
 It was all fun and games until the bad guy took your friends. It's not their fault he built his super-secret laboratory next to the park.

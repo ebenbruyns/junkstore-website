@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Puzzle, Arcade",
   "description": "A retro styled character puzzle game with couch co-op and 80 puzzles to solve!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/24b36ae2e07c11b187eeb149f0ba6aadd75be7b498e5e82368a3fcb317273dfa.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1631500/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1631500/capsule_231x87.jpg",
@@ -62,6 +73,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.959Z",
-  "updated_at": "2025-11-04T23:26:32.759Z"
+  "updated_at": "2026-04-25T00:55:23.536Z"
 }

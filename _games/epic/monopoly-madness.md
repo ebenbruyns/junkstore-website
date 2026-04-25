@@ -14,12 +14,18 @@ date_tested: "Sep '24"
 proton_version: ""
 
 # Game Info
-publisher: Ubisoft Entertainment
-developer: Engine Software
-genre: "Strategy, Simulator, Card & Board Game"
-release_date: "December 8, 2021"
+publisher: Ubisoft
+developer: Ubisoft
+genre: Casual, Party
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "December 10, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1203","name":"Multiplayer"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+igdb_url: "https://www.igdb.com/games/178279"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/23a9129548cbba90f5e444bde93417281ea49a522e80609556f7ad5fd50e5e96.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: true
 account_type: "Ubisoft Connect"
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "6 hrs"
+hltb_main_extra: "6 hrs"
+hltb_completionist: "6.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/101422"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/monopoly-madness"
 protondb_url: "https://www.protondb.com/app/2383760"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Monopoly_Madness"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "f016b92b99e644fe80a40c8c21bddf69"
 is_featured: false
+owned: true
 ---
 
-Would you like to become the new Mr. Monopoly? It’s your lucky day! Our favorite Real-Estate Mogul is going on a well-earned vacation and he’s looking for a temporary stand-in. The method of selection? A race for fame and fortune. This time the rules have slightly changed. Monopoly Madness brings the Monopoly experience into the arena for the first time ever. Roam the chaotic streets of Monopoly City, collect resources, buy and upgrade properties, mess with your opponents, and avoid their tricks to win the race for riches. This is madness!
+Rediscover the MONOPOLY you love in a way you’ve never seen before. This is Madness!

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Good Shepherd Entertainment
 developer: Shiny Shoe
 genre: Strategy
+franchise: 
+age_rating_summary: 
 release_date: ""
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1f2ed303807e54f4d814d603f5e6998f35cb92795fb5086aea4fdb8a5b589ed1.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/78633"
 store_url: "https://www.gog.com/en/game/monster_train"
 protondb_url: "https://www.protondb.com/app/1102190"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Monster_Train"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/monster-train?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1304291300"
 is_featured: false
+owned: true
 ---
 
 Monster Train is a strategic roguelike deck building game with a twist. Set on a train to hell, you’ll use tactical decision making to defend multiple vertical battlegrounds. With real time competitive multiplayer and endless replayability, Monster Train is always on time.

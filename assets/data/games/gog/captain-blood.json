@@ -39,6 +39,17 @@
   "genre": "Action, Adventure",
   "description": "Captain Blood is a pirate-themed action game where you play as a fearsome pirate seeking gold and glory. Expect adventures with cannon firing, pistol shooting, swashbuckling sword fights, and plenty of pirate shenanigans. This hack'n'slash features fierce combat, hordes of enemies and flashy combos.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/3040220/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/3040220/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/3040220/capsule_231x87.jpg",
@@ -58,8 +69,9 @@
     "Portuguese - Brazil",
     "Russian*"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 50,
+  "metacritic_url": "https://www.metacritic.com/game/captain-blood/",
+  "hltb_id": 167849,
   "hltb_main": "6.5 hrs",
   "hltb_main_extra": "10.5 hrs",
   "hltb_completionist": "",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-02-19T22:53:40.714Z",
-  "updated_at": "2026-02-26T20:20:14.353Z"
+  "updated_at": "2026-04-25T00:59:45.615Z"
 }

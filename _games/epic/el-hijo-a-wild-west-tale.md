@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "El Hijo: A Wild West Tale - Steam Deck Compatibility"
-game_title: "El Hijo: A Wild West Tale"
+title: "El Hijo – A Wild West Tale - Steam Deck Compatibility"
+game_title: "El Hijo – A Wild West Tale"
 slug: "el-hijo-a-wild-west-tale"
 storefront: "Epic"
 storefront_key: "epic"
@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: HandyGames
-developer: Honig Studios
-genre: Adventure, Strategy, Indie, Puzzle
-release_date: "December 3, 2020"
+developer: Honig Studios, Quantumfrog
+genre: Casual, Exploration, Stealth
+franchise: 
+age_rating_summary: 
+release_date: "March 12, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"}]
+igdb_url: "https://www.igdb.com/games/25227"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/047f2337a6803765a0f0fd3a3e907022bbc3de6cd5424717a7a4aeb8e8e76298.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "5.5 hrs"
+hltb_main_extra: "7.5 hrs"
+hltb_completionist: "15 hrs"
+hltb_url: "https://howlongtobeat.com/game/68274"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/el-hijo-a-wild-west-tale"
+store_url: "https://store.epicgames.com/en-US/p/el-hijo-6b63c5"
 protondb_url: "https://www.protondb.com/app/853050"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/El_Hijo_-_A_Wild_West_Tale"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/el-hijo-a-wild-west-tale?ftag=MCD-06-10aaa1f"
 
@@ -69,9 +75,7 @@ known_issues:
 # Meta
 database_id: "feb56be2152940029af3bc193970799d"
 is_featured: false
+owned: true
 ---
 
-El Hijo is a spaghetti western, indie stealth game.
-The game is set in a mythical place of the 19th century that very much resembles the American west, as we know it from Sergio Leone‘s westerns, taking some of its most popular characteristics of outlaw gangs, saloons, cunning, sarcasm, irony, etc. There is no indication of a specific time, or place. It could be everywhere and anywhere.
-
-You guide 6-year old boy El Hijo on his quest to find his father, by escaping a monastery, fighting his way through the desert and avoiding monstrous creatures, and outsmarting horrible gangsters in the saloon of a villain town.
+"El Hijo - A Wild West Tale" is an exciting spaghetti-western stealth game, in which you guide a 6-year-old boy on his quest to find his mother.

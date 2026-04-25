@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Hyperstrange
 developer: Hyperstrange
 genre: Action, Indie
+franchise: 
+age_rating_summary: 
 release_date: "January 30, 2020"
 game_modes: ["Single-player"]
 languages: ["English*","Polish","French","Italian","German","Spanish - Spain","Hungarian","Russian","Spanish - Latin America","Simplified Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/727850/library_hero.jpg"
@@ -58,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/727850"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Elderborn"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/elderborn/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1732383191"
 is_featured: false
+owned: true
 ---
 
 ELDERBORN - a Metal AF* Slasher with brutal FPP melee combat and souls-like/RPG character progression. In the times of legend, barbarian tribes need a new dark messiah. Be that merciless slayer. Uncover ancient secrets in the city of doom. Forge your own destiny! *Action Fantasy.

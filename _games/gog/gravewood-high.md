@@ -17,9 +17,15 @@ proton_version: ""
 publisher: HeroCraft PC
 developer: EvilCoGames
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "May 3, 2023"
 game_modes: ["Multi-player"]
 languages: ["English","French","German","Japanese","Polish","Portuguese (Brazil)","Russian","Spanish","Turkish","zh-Hans","zh-Hans"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/77f62db3cf133587357795800cb117d8e6ac9c790f4940586b4287dd1644539a.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1526229423"
 is_featured: false
+owned: true
 ---
 
 An infinitely replayable stealth horror game set in high school - with destructible environments, randomized level layouts and a smart opponent that develops new abilities the more you play.

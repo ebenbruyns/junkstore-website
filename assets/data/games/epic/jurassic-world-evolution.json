@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/648350",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/jurassic-world-evolution",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Jurassic_World_Evolution",
   "notes": "Works out of the box!",
   "date_tested": "Nov '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,98 @@
   "shortname": "373a4372c20540aca7fdd880d27fa49a",
   "publisher": "Frontier Developments, Universal Pictures",
   "developer": "Frontier Developments",
-  "releasedate": "2018-06-11T00:00:00+0000",
-  "genre": "Strategy, Simulator",
-  "description": "Take charge of operations on the legendary islands of the Muertes archipelago and bring the wonder, majesty and danger of dinosaurs to life. Build for Science, Entertainment or Security interests in an uncertain world where life always finds a way.\n\nJurassic World Evolution is a new chapter in the official Jurassic mythology that puts you in charge of cinema’s most famous tourist destination.\n\nBioengineer dinosaurs that think, feel and react intelligently to the world around them. Play with life itself to give your dinosaurs unique behaviors, traits and appearances, then contain and profit from them to fund your global search for lost dinosaur DNA.\n\nControl the big picture with deep management tools or go hands-on to confront challenges on the ground or in the air. Expand your islands and choose your own journey in an all-new narrative featuring iconic characters from across the franchise and decades of Jurassic lore at your fingertips.",
+  "releasedate": "2020-12-31T16:00:00.000Z",
+  "genre": "Simulation, Strategy",
+  "description": "Take charge of operations on the legendary islands of the Muertes archipelago and bring the wonder, majesty and danger of dinosaurs to life. Build for Science, Entertainment or Security interests in an uncertain world where life always finds a way.",
   "size": "",
+  "franchise": "Jurassic World Evolution",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2020-12-30T15:00:00.000Z",
+      "end": "2021-01-06T15:00:00.000Z",
+      "type": null,
+      "id": "d5a8d607058f4accb71aa406dc8cece0"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Take charge of operations on the legendary islands of the Muertes archipelago and bring the wonder, majesty and danger of dinosaurs to life. Build for Science, Entertainment or Security interests in an uncertain world where life always finds a way.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/019098600d2d6ef550d3692365b2906d1b69e93b11bf621af878ed4d552d0608.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/25bdfb52b92a1e2d5898f8b190ca3a71016aa1b1165fa6982886573945721fec.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/a5f81632f3526dcf4f1ad1c4dc9dac72ddd26f1456b35fc20183287683124d89.jpg?namespace=gamesdb",
@@ -51,14 +139,15 @@
   ],
   "metacritic_score": 69,
   "metacritic_url": "https://www.metacritic.com/game/pc/jurassic-world-evolution?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 57068,
+  "hltb_main": "25.5 hrs",
+  "hltb_main_extra": "41.5 hrs",
+  "hltb_completionist": "70 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/57068",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "updated_at": "2026-04-25T05:42:19.843Z"
 }

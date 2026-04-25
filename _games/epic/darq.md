@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Unfold Games
 developer: Unfold Games
-genre: Adventure, Indie
-release_date: "August 15, 2019"
+genre: Horror, Puzzle, Adventure
+franchise: 
+age_rating_summary: 
+release_date: "October 29, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"}]
+igdb_url: "https://www.igdb.com/games/138785"
+was_free_before: true
+giveaway_events: [{"start":"2021-10-27T15:00:00.000Z","end":"2021-11-03T15:00:00.000Z","type":null,"id":"0af5da05c76943f8a7da7cc65949ffd4"}]
 
 # Images
 banner_image: "https://images.gog.com/b77c85adcb94654d3ebb77af55cb252013b67e089baf6c05d7d16752f2c6507f.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -53,10 +59,10 @@ hltb_completionist: "4.5 hrs"
 hltb_url: "https://howlongtobeat.com/game/69726"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/darq"
+store_url: "https://store.epicgames.com/en-US/p/darq-complete-edition"
 protondb_url: "https://www.protondb.com/app/433550"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/DARQ"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "ee96375fac2f47de978170a24398e581"
 is_featured: false
+owned: true
 ---
 
-Darq tells the story of Lloyd, a boy who becomes aware of the fact that he is dreaming. To Lloyd's misfortune, the dream quickly turns into a nightmare and all attempts to wake up end in failure. While exploring the darkest corners of his subconscious, Lloyd learns how to survive the nightmare by bending the laws of physics and manipulating the fluid fabric of the dream world.
+DARQ tells the story of Lloyd, a boy who finds himself in the middle of a lucid nightmare. Unable to wake up, Lloyd has to face his fears and decipher the meaning of the dream.

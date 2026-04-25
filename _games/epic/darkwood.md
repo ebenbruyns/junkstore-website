@@ -14,12 +14,18 @@ date_tested: "Sept '25"
 proton_version: ""
 
 # Game Info
-publisher: Crunching Koalas
+publisher: Hooded Horse Inc.
 developer: Acid Wizard Studio
-genre: Role-playing (RPG), Adventure, Indie
-release_date: "August 17, 2017"
+genre: Horror, Indie, Survival
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "October 14, 2022"
 game_modes: ["Single player"]
 languages: ["English","Polish","Russian","German","Spanish - Spain","Portuguese - Brazil","Italian","Simplified Chinese","Turkish","Hungarian"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/17032"
+was_free_before: true
+giveaway_events: [{"start":"2022-10-12T15:00:00.000Z","end":"2022-10-19T15:00:00.000Z","type":null,"id":"d00f7e0293ef44b8ab453294cc380a4d"}]
 
 # Images
 banner_image: "https://images.gog.com/afcbccf62e6ef2c56b8fcdddffcce3b7b16e14d9c47c1601f83ab253185b7103.jpg?namespace=gamesdb"
@@ -69,10 +75,7 @@ known_issues:
 # Meta
 database_id: "923130ebb546417b9d3115507f752d34"
 is_featured: false
+owned: true
 ---
 
-Darkwood is a unforgiving survival horror with a procedurally generated, open world. By blending RPG, roguelike and adventure elements together with a challenging difficulty, Darkwood aims to please players craving for a deep and rewarding experience.
-
-The fear of unknown is powerful. Your senses will be deceived by Darkwood's surreal terrors. No answer will be given to you for free, yet somewhere in the woods lies the truth, an explanation to what has happened in this godforsaken place.
-
-By day, explore the randomly generated woods, scavenge for materials and weapons, discover secrets, solve mysteries and talk, trade with or kill the various inhabitants of Darkwood. By night, return to your hideout, barricade, set up traps and hide or defend yourself from the horrors that lurk in the dark.
+Darkwood - a new perspective on survival horror. Scavenge and explore a rich, ever-changing free-roam world by day, then hunker down in your hideout and pray for the morning light.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Digerati Distribution
 developer: Paper Castle Media
 genre: Role-playing (RPG), Adventure, Indie, Platform
+franchise: 
+age_rating_summary: 
 release_date: "September 19, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/573320/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "36029"
 is_featured: false
+owned: true
 ---
 
 Underhero is a 2D side-scroller RPG adventure game with timing-based combat. It tells an intriguing and mysterious story, full of silly characters brimming with personality, quirky dialogue, and lots of weird humor.

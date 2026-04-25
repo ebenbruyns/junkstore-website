@@ -17,9 +17,15 @@ proton_version: ""
 publisher: ScaniX
 developer: ScaniX
 genre: Indie, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "December 21, 2019"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1206770/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "363735"
 is_featured: false
+owned: true
 ---
 
 Spaß Taxi is a clone of the original Space Taxi, where you need to bring passengers from one pad to another in weird environments with unexpected obstacles.

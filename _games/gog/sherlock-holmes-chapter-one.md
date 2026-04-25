@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Frogwares
 developer: Frogwares
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/e1f5900921de222aee97305e10a2e2faf4783afe51630b515cb99290116d0c70.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/82678"
 store_url: "https://www.gog.com/en/game/sherlock_holmes_chapter_one"
 protondb_url: "https://www.protondb.com/app/1137300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes%3A_Chapter_One"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/sherlock-holmes-chapter-one?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2094849865"
 is_featured: false
+owned: false
 ---
 
 In this story-driven detective thriller, a young Sherlock Holmes struggles to prove himself as he navigates an exotic, dangerous island in the Mediterranean to investigate the mystery of his mother's death.

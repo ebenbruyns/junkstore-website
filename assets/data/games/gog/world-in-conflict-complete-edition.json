@@ -39,6 +39,17 @@
   "genre": "strategy",
   "description": "World in Conflict focuses on real-time tactics (RTT) gameplay, in a similar manner to Ground Control, a game developed by Massive Entertainment...",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/1fbc687346c2ff17d809cc797bd4eaa30befadcd44f6d960329a2b6883a5271f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a13286653aca5db4ba3360eb84ce99f409b61804b1fddb13611d6edb83452e78.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1fbc687346c2ff17d809cc797bd4eaa30befadcd44f6d960329a2b6883a5271f.jpg?namespace=gamesdb",
@@ -56,6 +67,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/world-in-conflict-complete-edition/",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -67,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-23T23:26:00.688Z"
+  "updated_at": "2026-04-25T00:46:30.577Z"
 }

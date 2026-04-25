@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Headup Games
 developer: Bleakmill
 genre: Adventure, Indie, Puzzle, Shooter
+franchise: INDUSTRIA
+age_rating_summary: ESRB Teen
 release_date: "September 30, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: "https://www.igdb.com/games/128948"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/ac75ef435d8514fef4a822c65a95e8ba37156b02e6926714e5d837b1d7b13e54.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/97560"
 store_url: "https://www.gog.com/en/game/industria"
 protondb_url: "https://www.protondb.com/app/1172650"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Industria"
 metacritic_score: 67
 metacritic_url: "https://www.metacritic.com/game/pc/industria?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1804122723"
 is_featured: false
+owned: true
 ---
 
-Industria is a first-person shooter that takes you from East Berlin into a parallel reality, shortly before the end of the Cold War. On the search for a missing work colleague, you decipher a dark past in a mysterious and surreal steampunk world.
+INDUSTRIA is a first-person shooter that takes you from East Berlin into a parallel reality, shortly before the end of the Cold War. On the search for a missing work colleague, you decypher a dark past in a mysterious parallel dimension.

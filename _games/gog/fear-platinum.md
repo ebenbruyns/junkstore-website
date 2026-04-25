@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Sierra Entertainment, Sierra Entertainment
 developer: Monolith Productions
 genre: Shooter
+franchise: 
+age_rating_summary: 
 release_date: "October 17, 2005"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/672d9eeab9a684e1570fd5dced620abac127f75744b1c61101c1c64a7abfbf88.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/3293"
 store_url: "https://www.gog.com/en/game/fear_platinum"
 protondb_url: "https://www.protondb.com/app/21090"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/F.E.A.R."
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/fear?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1423058413"
 is_featured: false
+owned: true
 ---
 
 You are an elite soldier trained to deal with unusual situations others can't even imagine. Called in to confront a murderous force with paranormal abilities, you must contain a crisis spiraling quickly out of control. Discover the true meaning of F.E.A.R. in this unique fusion of stylized combat and supernatural suspense. 

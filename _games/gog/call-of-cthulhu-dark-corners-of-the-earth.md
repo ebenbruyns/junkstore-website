@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Bethesda Softworks
 developer: Headfirst Productions
 genre: Horror, Adventure, Action
+franchise: 
+age_rating_summary: 
 release_date: "April 26, 2006"
 game_modes: ["Single player"]
 languages: ["German","English (United States)","French"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/1463"
 store_url: "https://www.gog.com/en/game/call_of_cthulhu_dark_corners_of_the_earth"
 protondb_url: "https://www.protondb.com/app/22340"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_Cthulhu%3A_Dark_Corners_of_the_Earth"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/call-of-cthulhu-dark-corners-of-the-earth?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1557265213"
 is_featured: false
+owned: false
 ---
 
 Call of Cthulhu: Dark Corners of the Earth is a first-person horror game that combines intense action and adventure elements. You will draw upon your skills in exploration, investigation, and combat while faced with the seemingly impossible task of battling evil incarnate. Features a dynamic sanity system resulting in hallucinations, panic attacks, vertigo, paranoia, and more! Includes 1920s weaponry and vehicles as well as evil artifacts and alien technology, with Lovecraft's famous monsters and locations.

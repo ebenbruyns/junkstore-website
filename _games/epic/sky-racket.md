@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Double Dash Studios
 developer: Double Dash Studios
-genre: Adventure, Indie, Sport, Shooter, Arcade
-release_date: "October 22, 2019"
+genre: Casual, Sports, Indie
+franchise: 
+age_rating_summary: 
+release_date: "September 21, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"1283","name":"Sports"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/115006"
+was_free_before: true
+giveaway_events: [{"start":"2025-07-10T15:00:00.000Z","end":"2025-07-17T15:00:00.000Z","type":null,"id":"4d83f5e4aa8d42bdb2bdda9081a13ef3"}]
 
 # Images
 banner_image: "https://images.gog.com/64a105ef4251912497f860f72c75fec4fa1adb28840035b34ae737507402527b.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "2.5 hrs"
+hltb_main_extra: "6 hrs"
+hltb_completionist: "10 hrs"
+hltb_url: "https://howlongtobeat.com/game/68011"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/sky-racket"
+store_url: "https://store.epicgames.com/en-US/p/sky-racket-4cf23a"
 protondb_url: "https://www.protondb.com/app/994500"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sky_Racket"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "dbc90aa36f124c63b3a804ea0ced6af9"
 is_featured: false
+owned: true
 ---
 
-The universe is in peril! Two kids are chosen to hold the powerful artifact "Sky Racket" and put a stop to an evil tyrant. Play as Racket Boy or Racket Girl, and with the help of cute and strong buddies, save this nonsense dystopian pixel art universe.
+Sky Racket is a game that mixes two classic genres from the Arcade era: Shoot’em up and Brick Breakers. In a world where you are unable to attack, using your racket to strike enemy bullets back at them is your only option! Bounce bullets back at your foes and save the galaxy!

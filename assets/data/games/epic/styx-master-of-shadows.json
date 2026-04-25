@@ -33,12 +33,92 @@
   "cant_test_linux": false,
   "databaseId": "639c5116ad7d4f31856c34aacda45f2d",
   "shortname": "639c5116ad7d4f31856c34aacda45f2d",
-  "publisher": "Cyanide Studio",
+  "publisher": "Nacon",
   "developer": "Cyanide Studio",
-  "releasedate": "7 Oct, 2014",
-  "genre": "Action",
+  "releasedate": "2026-01-15T16:00:00.000Z",
+  "genre": "Fantasy, Action-Adventure, Stealth",
   "description": "Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.",
   "size": "",
+  "franchise": "Styx",
+  "tags_structured": [
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1287",
+      "name": "Fantasy"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1287",
+      "name": "Fantasy"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 6072,
+  "igdb_url": "https://www.igdb.com/games/6072",
+  "giveaway_events": [
+    {
+      "start": "2026-01-15T16:00:00.000Z",
+      "end": "2026-01-22T16:00:00.000Z",
+      "type": null,
+      "id": "ed109adce3c042f792f48d629221ac8b"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/242640/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/242640/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/242640/capsule_231x87.jpg",
@@ -56,6 +136,7 @@
   ],
   "metacritic_score": 71,
   "metacritic_url": "https://www.metacritic.com/game/pc/styx-master-of-shadows?ftag=MCD-06-10aaa1f",
+  "hltb_id": 21586,
   "hltb_main": "17 hrs",
   "hltb_main_extra": "22 hrs",
   "hltb_completionist": "41.5 hrs",
@@ -66,5 +147,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-16T00:08:29.278Z",
-  "updated_at": "2026-02-07T22:06:38.395Z"
+  "updated_at": "2026-04-25T02:17:55.257Z"
 }

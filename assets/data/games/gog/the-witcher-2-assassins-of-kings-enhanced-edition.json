@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Role-playing (RPG)",
   "description": "A time of untold chaos has come. Mighty forces clash behind the scenes in a struggle for power and influence. The Northern Kingdoms mobilize for war. But armies on the march are not enough to stop a bloody conspiracy...",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/37fa9409b8756108e64eacba4345b5380e59e93e99d2b4fa377f921bf4dd1fbf.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a75bf0ef0609e5ab5d729e2809bb0eadec0a1bfece4912f98472aaafd3c6c6bc.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/20920/capsule_231x87.jpg",
@@ -60,6 +71,7 @@
   ],
   "metacritic_score": 88,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-witcher-2-assassins-of-kings?ftag=MCD-06-10aaa1f",
+  "hltb_id": 10268,
   "hltb_main": "24 hrs",
   "hltb_main_extra": "34.5 hrs",
   "hltb_completionist": "56.5 hrs",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-02-07T04:13:24.385Z"
+  "updated_at": "2026-04-25T00:52:58.380Z"
 }

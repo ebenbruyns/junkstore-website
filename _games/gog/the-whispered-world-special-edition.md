@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Daedalic Entertainment
 developer: Daedalic Entertainment
 genre: Adventure, Indie, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "May 6, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4c9d8274d4b6ca396955b6498b69e0ccd494ae11ee6069d8ad9b269967ebb50d.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/10263"
 store_url: "https://www.gog.com/en/game/the_whispered_world_special_edition"
 protondb_url: "https://www.protondb.com/app/268540"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Whispered_World"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659019"
 is_featured: false
+owned: true
 ---
 
 When the fate of a world hangs in the balance, an unusual hero arises!

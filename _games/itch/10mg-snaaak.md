@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 10mg
 developer: Clovelt, Jok
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "October 15, 2020"
 game_modes: ["Single player"]
 languages: ["English","Spanish - Spain"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1428840/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "782961"
 is_featured: false
+owned: true
 ---
 
 A short Snakevania about encarnating a formless critter delving into the bowels of a bleak complex.

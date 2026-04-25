@@ -8,8 +8,8 @@ storefront_key: "gog"
 permalink: /games/gog/tomb-raider-iiiiii-remastered/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
 
@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Aspyr Media
 developer: Aspyr Media
 genre: Adventure, Strategy, Puzzle, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "February 14, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/deaea876cba95928aab77b3c5571979b7e3009284227321165e71a7e7b5abc9e.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/137867"
 store_url: "https://www.gog.com/en/game/tomb_raider_i_to_iii_remastered"
 protondb_url: "https://www.protondb.com/app/2478970"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider_I-III_Remastered"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1407750955"
 is_featured: false
+owned: true
 ---
 
 Discover Lara Croft’s Original Adventures, Lovingly Restored

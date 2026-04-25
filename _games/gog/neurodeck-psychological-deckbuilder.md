@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Goblinz Publishing
 developer: TavroxGames
 genre: Indie, RPG, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "March 18, 2021"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Russian","Simplified Chinese","Korean","Traditional Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1253860/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1739122581"
 is_featured: false
+owned: true
 ---
 
 Neurodeck is a psychological deckbuilding card game to challenge your fears. Build your deck &amp; capacities by answering personality tests, visiting rooms or meditating. Face your phobia and defeat them through the power of life-inspired cards.

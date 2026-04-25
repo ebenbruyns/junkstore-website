@@ -14,12 +14,18 @@ date_tested: "Feb '25"
 proton_version: ""
 
 # Game Info
-publisher: Team Meat, Thunderful
+publisher: Team Meat
 developer: Team Meat
-genre: Adventure, Indie, Platform, Puzzle
+genre: Action, Platformer
+franchise: 
+age_rating_summary: ESRB Teen
 release_date: "December 23, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2024-02-21T15:00:00.000Z","end":"2024-02-28T15:00:00.000Z","type":null,"id":"9ab78d8a6fe84c3f82b31215390f3c51"}]
 
 # Images
 banner_image: "https://images.gog.com/9ab1e2e242d0c8eb5a7c9061047cd145942cb3e108b2de0302869a607a619ba1.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "4.4 hrs"
+hltb_main_extra: "7.5 hrs"
+hltb_completionist: "12.8 hrs"
+hltb_url: "https://howlongtobeat.com/game/68001"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/super-meat-boy-forever"
 protondb_url: "https://www.protondb.com/app/581660"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Super_Meat_Boy_Forever"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/super-meat-boy-forever?ftag=MCD-06-10aaa1f"
 
@@ -69,16 +75,7 @@ known_issues:
 # Meta
 database_id: "Moose"
 is_featured: false
+owned: true
 ---
 
-Meat Boy and Bandage Girl have grown as a couple since 2010. It seems like only yesterday the two love birds were escaping from an exploding laboratory in the sky. Now it’s the current year, and they’ve welcomed their daughter Nugget into the world. Their peaceful days enjoying life as a family came to an abrupt end when Dr. Fetus beat the snot out of them with a rusty shovel, and kidnapped Nugget! Now it’s up to Meat Boy and Bandage Girl to rescue their daughter from a lunatic fetus in a jar that can only be described as an incel version of Tony Stark.
-
-- Super Meat Boy Forever is the sequel to Super Meat Boy! This is a new experience that eclipses the original. Don’t stare directly at it unless you still have your eclipse glasses.
-- 7200 individually handcrafted levels combine dynamically to give you a new challenge every single time you play. Seven thousand two hundred levels. They said we couldn’t do it, but we did. Who’s they? Don’t ask. They don’t like it when you ask.
-- It’s hard, but fair. Nothing in life worth having comes easy. Just ask Dark Soulman.
-- Meat Boy and Bandage Girl can fight back. It’s time to unleash the raw fury of parenthood on their foes just like Liam Neeson in that documentary about his family vacation in Paris.
-- Bigger boss battles than before. Your mind will be blown. Your socks will be blown off. Team Meat is not liable for any of this.
-- Brand new art with stunning detail and resolution. There are a lot of pixels in here. Grab the biggest display you have and watch those dots change color rapidly with gumption. Don’t sit too close though. (If your parents aren’t home you can sit as close as you want we won’t tell, but Team Meat is still not liable for any of this.)
-- A soundtrack composed by Ridiculon so intense that the state of Wyoming has issued a ban on all audio devices capable of playing it out of fear that just a single note will cause the dormant super volcano beneath Yellowstone to erupt ushering in a new age of darkness.
-- Frame by frame artisan crafted in game animations, and animated cutscenes that will make you experience procedurally generated emotions.
-- A story so rich and moving that it makes Citizen Kane look like an unboxing video for a dehumidifier.
+The challenge of Super Meat Boy returns in Super Meat Boy Forever! Levels are brutal and death is inevitable. Players will run, jump, punch and kick their way through familiar places and new worlds all while enjoying a story truly meant for the big screen.

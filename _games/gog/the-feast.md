@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Prismatika
 developer: NIL, NIL
 genre: Adventure, Indie, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "December 15, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/399d960d04e1f244b56ec4f6eee250bc019deba7b7e1e9061582b94bc5522d18.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://www.gog.com/game/the-feast"
 protondb_url: "https://www.protondb.com/app/2221940"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Feast"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1690611606"
 is_featured: false
+owned: true
 ---
 
 The Feast is a short and intensely dramatic experience designed to be completed in one sitting (20-30 minutes).

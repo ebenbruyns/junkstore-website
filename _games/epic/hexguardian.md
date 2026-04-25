@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Yogscast Games
 developer: Split Second Games
-genre: Strategy
-release_date: "May 2, 2024"
+genre: Tower Defense, Rogue-Lite, Strategy
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "February 5, 2026"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian"]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2381740/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "4a38247847824b729d5509dc0474596c"
 is_featured: false
+owned: true
 ---
 
-Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles! Build and upgrade towers, recruit armies, learn spells, construct wonders and place hexagonal tiles to create a path to enhance your defenses. With plenty of game modes and talents to unlock!
+Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles! Build and upgrade towers, recruit armies, learn spells, construct wonders and place hexagonal tiles to create a path to enhance your defenses

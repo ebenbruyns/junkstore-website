@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Paradox Interactive
 developer: Frictional Games
 genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8441d4ade3a79b8e66260b4df73993652451f031ef93d8ce1d3ba2c35863d71a.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207662743"
 is_featured: false
+owned: false
 ---
 
 Surrounded by enemies and assaulted by terror from all sides, Philip must collect clues and solve vexing puzzles while combating the gnawing psychological terrors that assail his mind

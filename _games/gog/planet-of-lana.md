@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Thunderful
 developer: Wishfully
 genre: Adventure, Indie, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "May 23, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/95ca7de25c6ecd4e689a2909435cdd9c35d89b2ed6bbafdd4d7cdcbff1e460ec.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/93459"
 store_url: "https://www.gog.com/en/game/planet_of_lana"
 protondb_url: "https://www.protondb.com/app/1608230"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Planet_of_Lana"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/planet-of-lana?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1812138501"
 is_featured: false
+owned: true
 ---
 
 A young girl and her loyal friend embark on a rescue mission through a colorful world full of cold machines and unfamiliar creatures. Planet of Lana is a cinematic puzzle adventure framed by an epic sci-fi saga that stretches across centuries and galaxies.

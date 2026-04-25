@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: Focus Entertainment
-developer: Deck13 Interactive
-genre: Role-playing (RPG), Adventure
-release_date: "Invalid Date"
+developer: Deck13
+genre: Action, Adventure
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "November 1, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/9e6b77bcadfd7f3239908ded31b1b90a826eb9b1af8f700ab096e9a48faab0d3.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "886d19a2d3194eb8890f0068b91926ae"
 is_featured: false
+owned: false
 ---
 
-Rise from the dust and glide the sands of a timeless land, filled with ancient dangers, mysteries and fragments of the past.
+Rise from the dust and glide the sands of a timeless land, filled with ancient dangers, mysteries and fragments of the past. Hunt legendary monsters with powerful sand-infused weapons and abilities in spectacular, super-powered combat.

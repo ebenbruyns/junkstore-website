@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Microids
 developer: Tower Five
 genre: adventure, strategy, indie, real-time-strategy-rts
+franchise: 
+age_rating_summary: 
 release_date: "November 7, 2024"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d237f9a6130f3546a61b19fdd59a0fc67a71f10f3b21c565d75dea13055ebff7.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/147067"
 store_url: "https://www.gog.com/en/game/empire_of_the_ants"
 protondb_url: "https://www.protondb.com/app/2287330"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Empire_of_the_Ants_%282024%29"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2108847100"
 is_featured: false
+owned: false
 ---
 
 Embark on an epic journey into the infinitesimal in this photorealistic strategy game. Play as a fearless ant and guide your colony through the dangers of the forest.

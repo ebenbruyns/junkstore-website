@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Assassin%27s_Creed_Mirage",
   "notes": "Requires Ubisoft Connect launcher.",
   "date_tested": "Aug '24",
   "decky_rating": "yellow",
@@ -34,11 +34,48 @@
   "databaseId": "9cd229b0323f485bafca042ef00b14af",
   "shortname": "9cd229b0323f485bafca042ef00b14af",
   "publisher": "Ubisoft",
-  "developer": "Ubisoft Bordeaux",
-  "releasedate": "10-2023",
+  "developer": "Ubisoft",
+  "releasedate": "2023-10-05T16:00:00.000Z",
   "genre": "Action, Adventure",
-  "description": "Experience the story of Basim, a cunning street thief with nightmarish visions seeking answers and justice. Join an ancient organization and come to understand a new creed – one that will change Basim's fate in ways he never could have imagined.",
+  "description": "Experience the story of Basim, a cunning street thief with nightmarish visions, seeking answers and justice as he navigates the bustling streets of ninth-century Baghdad. Through a mysterious, ancient organization known as the Hidden Ones, he will become a deadly Master Assassin and change his fate in ways he never could have imagined.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Experience the story of Basim, a cunning street thief with nightmarish visions, seeking answers and justice as he navigates the bustling streets of ninth-century Baghdad. Through a mysterious, ancient organization known as the Hidden Ones, he will become a deadly Master Assassin and change his fate in ways he never could have imagined.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/11942b5d4b4e3b838312a9477b5037d3899eaf59c3a27a9e13c868c97835f52b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f14c3615f3f9e6730febeaca5bfd44050325b9eb408b5c28761b88f89c7eb374.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/11942b5d4b4e3b838312a9477b5037d3899eaf59c3a27a9e13c868c97835f52b.jpg?namespace=gamesdb",
@@ -60,6 +97,7 @@
   ],
   "metacritic_score": 76,
   "metacritic_url": "https://www.metacritic.com/game/assassins-creed-mirage/",
+  "hltb_id": 112983,
   "hltb_main": "16.1 hrs",
   "hltb_main_extra": "22.9 hrs",
   "hltb_completionist": "30.8 hrs",
@@ -70,5 +108,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-19T23:42:51.682Z"
+  "updated_at": "2026-04-25T03:32:51.897Z"
 }

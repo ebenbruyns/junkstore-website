@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Puzzle",
   "description": "About Love, Hate and the other ones“ is a mindbending puzzle game in which you take control of the two main characters Love and Hate. Guide them through 60 levels to take them back home to their beloved hill. You will encounter different Other Ones with unique behaviours, depending on whether Love or Hate interacts with them.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/3c445d86306f8f874bb5106a7c1413c61d899a6b698a99985ceb6f2adbd3fa7e.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/277680/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/277680/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.810Z",
-  "updated_at": "2025-12-16T03:29:09.909Z"
+  "updated_at": "2026-04-25T00:55:03.599Z"
 }

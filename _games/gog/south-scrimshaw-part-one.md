@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Nathan O. Marsh
 developer: Nathan O. Marsh
 genre: Adventure, Indie, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "June 9, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/846fce2bc3d639629d04b3c2e8b90de4988c2b5e7f195335c9ceed444a648580.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1501803768"
 is_featured: false
+owned: true
 ---
 
 A science-fiction visual novel in the style of a nature documentary.

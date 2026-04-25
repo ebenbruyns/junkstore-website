@@ -39,6 +39,17 @@
   "genre": "Strategy, Real Time Strategy (RTS)",
   "description": "With a focus on fast-action RTS gameplay, Dawn of War II brings to life the science fiction universe of Warhammer 40,000 like never before. Experience the intimate brutality of battle as you play through your chosen race's epic campaign.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/caa6bccda1d6fcd5664619808c57a6dc839cd307cfa49a0cb119f102ceabc0f9.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/62b6c82216ed06c1597e39697d8ba948fabdd09a807159d449bd77a3ad72d6e7.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/15620/capsule_231x87.jpg",
@@ -57,6 +68,7 @@
   ],
   "metacritic_score": 85,
   "metacritic_url": "https://www.metacritic.com/game/pc/warhammer-40000-dawn-of-war-ii?ftag=MCD-06-10aaa1f",
+  "hltb_id": 11043,
   "hltb_main": "15 hrs",
   "hltb_main_extra": "22 hrs",
   "hltb_completionist": "49.5 hrs",
@@ -66,5 +78,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T09:12:57.971Z"
+  "updated_at": "2026-04-25T00:54:14.512Z"
 }

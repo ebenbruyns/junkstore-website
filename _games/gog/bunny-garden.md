@@ -17,9 +17,15 @@ proton_version: ""
 publisher: qureate, MediBang
 developer: qureate
 genre: adventure, indie, simulator, visual-novel
+franchise: 
+age_rating_summary: 
 release_date: "April 18, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7a7b93e3a2cc8720fbf3d20d7c04f2e18088c0359af21a5a198f51bbcf805d5c.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/147423"
 store_url: "https://www.gog.com/en/game/bunny_garden"
 protondb_url: "https://www.protondb.com/app/2654470"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bunny_Garden"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1184941116"
 is_featured: false
+owned: false
 ---
 
 Enjoy a conversation with the cast while having a drink! This is a dating sim adventure game that takes place in a gentlemen's haven called "Bunny Garden".

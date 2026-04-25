@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Visai Games
 developer: Visai Games
 genre: Adventure, Indie, Puzzle, Simulator, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "July 31, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/db2a7b2f8851710500392ddb9055dec5f1dd57c82e5ace15fdab64f3cbab2a90.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/112959"
 store_url: "https://www.gog.com/en/game/venba"
 protondb_url: "https://www.protondb.com/app/1491670"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Venba"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1925770843"
 is_featured: false
+owned: true
 ---
 
 Venba is a narrative cooking game, where you play as an Indian mom, who immigrates to Canada with her family in the 1980s. Players will cook various dishes and restore lost recipes, hold branching conversations and explore in this story about family, love, loss and more.

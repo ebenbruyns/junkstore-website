@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Ravenage Games
 developer: Doyoyo Games, Bureau Bravin
 genre: Strategy, Indie
+franchise: 
+age_rating_summary: 
 release_date: "March 9, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Polish","Russian","Simplified Chinese","Traditional Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/ea1d6407c8880a524305d052e46e195d109082f804535323198a73bfdd8f6451.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.90a0091c-8db1-4188-9f27-ed6046379aec"
 is_featured: false
+owned: true
 ---
 
 Masterplan Tycoon is a real-time strategy game about building interconnected chains of resources in a minimalist visual style. The nodes are buildings. The pins are contact points between them. The links are supply lines. Create the largest logistics system possible.

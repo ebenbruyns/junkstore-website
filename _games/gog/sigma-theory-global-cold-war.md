@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Mi-Clos Studio
 developer: Mi-Clos Studio
 genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "April 18, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8329b7b3bfff362030cce96a61628f0687e834aaff7f5b543de7998902a9a124.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/67690"
 store_url: "https://www.gog.com/en/game/sigma_theory_global_cold_war"
 protondb_url: "https://www.protondb.com/app/716640"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sigma_Theory%3A_Global_Cold_War"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1986246769"
 is_featured: false
+owned: true
 ---
 
 A Turn-based Strategy game in a futuristic global cold war from the award-winning creators of Out There. Recruit a squad of special agents and run your intel agency to secure the control of the singularity.

@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Visual Novel",
   "description": "A science-fiction visual novel in the style of a nature documentary.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/22c7ec16c7ce5d00d075b2328947f6c4bf1983597acb205a81f514b84c7e7612.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/846fce2bc3d639629d04b3c2e8b90de4988c2b5e7f195335c9ceed444a648580.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/cbcf8356e0c6fbcda1e5c3bc71d14d128fa3bb73b427448255103a4c7f3e7ebc.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 131141,
   "hltb_main": "1 hrs",
   "hltb_main_extra": "1 hrs",
   "hltb_completionist": "1 hrs",
@@ -61,5 +73,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-08-01T04:08:36.969Z"
+  "updated_at": "2026-04-25T00:43:31.473Z"
 }

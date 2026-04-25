@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Platform",
   "description": "Welcome to Arlo's first adventure, in an old-school platformer fashion! Complete with amazing chiptune tracks!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/d795687da7338bfe02a40243f5bc87fefb4452a38662f4dc9a122771ba23800f.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/854450/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/854450/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.832Z",
-  "updated_at": "2025-12-30T02:35:32.888Z"
+  "updated_at": "2026-04-25T00:55:14.755Z"
 }

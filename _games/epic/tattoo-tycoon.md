@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: HandyGames
-developer: Crazy Bunch
-genre: Indie, Simulation, Strategy
-release_date: "October 24, 2025"
+developer: CrazyBunch
+genre: Simulation, Strategy, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "October 25, 2025"
 game_modes: ["Single-player"]
 languages: ["English*","German","French","Spanish - Spain","Simplified Chinese*languages with full audio support"]
+tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"35244","name":"Epic Savings"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2375260/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "e75733d7dbb0463f9942ed6a2cd4acfb"
 is_featured: false
+owned: true
 ---
 
-Become a tattoo artist and manage your own tattoo parlor. Find the perfect designs for your curious customers and turn their vague wishes into amazing skin art. Grow from a small personal studio to a multi-parlor business throughout the different districts of Tattuga Bay.
+Become a tattoo artist and manage your very own tattoo parlor. Find the best designs for your clients, turning their vague ideas into stunning works of body art. Expand from a cozy personal studio into a thriving multi-parlor business across the diverse districts of Tattuga Bay.

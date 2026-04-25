@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Bonus Stage Publishing
 developer: Games From Earth
 genre: Adventure, Indie, Platform, Puzzle, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "June 2, 2021"
 game_modes: ["Single player"]
 languages: ["Dutch","English","Finnish","German","Portuguese (Brazil)","Russian","Spanish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c58847415b5bba64e50926f21e50bb4e00adacfba2930b1a0c23c16b2f21c22e.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1763369377"
 is_featured: false
+owned: true
 ---
 
 Lead Josie, aka. Sunblaze into a superhero training simulator built by her dad, a retired protagonist fighting the evils of our universe. Sunblaze is a brain-twisting precision platformer with hundreds of challenging levels, an awesome story, a superb soundtrack, and a beautiful game design.

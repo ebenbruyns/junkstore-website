@@ -17,9 +17,15 @@ proton_version: ""
 publisher: MY.GAMES, Knights Peak
 developer: Allods Team Arcade
 genre: Adventure, Indie, Platform, Shooter, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "October 14, 2021"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Portuguese - Brazil*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/04f6b09255490588dfb8b1db0e8f5554ebcc072aee6097d40da37c6fefda12cb.jpg?namespace=gamesdb"
@@ -57,8 +63,8 @@ store_url: "https://www.gog.com/en/game/blast_brigade_vs_the_evil_legion_of_dr_c
 protondb_url: "https://www.protondb.com/app/1550760"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blast_Brigade_vs._the_Evil_Legion_of_Dr._Cread"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/blast-brigade-vs-the-evil-legion-of-dr-cread/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1504894622"
 is_featured: false
+owned: true
 ---
 
 Blast Brigade is a colorful 2D action-adventure that combines intense platformer gameplay with metroidvania exploration. Assemble the team of superspies and run’n’gun through a tainted paradise island to take down the evil genius Dr. Cread and his army of monsters.

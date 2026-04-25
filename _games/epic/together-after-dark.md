@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: RedForge
 developer: RedForge
-genre: Action, Adventure, Casual
-release_date: "January 19, 2025"
+genre: Action, Horror, Exploration
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "May 27, 2025"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Portuguese - Portugal","Russian"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1218","name":"Horror"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"}]
+igdb_url: "https://www.igdb.com/games/286654"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/42a9aa9f7d7f40d1a0c1aa5c69565757/together-after-dark-1kn6v.png"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "a2ffb8fba4894fc8b4ce37db61c96e96"
 is_featured: false
+owned: true
 ---
 
 Together After Dark is a co-op horror psychological game with a survival touch for 1-4 players. 4 Teens are stuck in the forest and need to find a way out but they are not alone

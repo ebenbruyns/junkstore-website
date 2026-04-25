@@ -5,16 +5,16 @@
   "protondb": "https://www.protondb.com/app/1016920",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/unrailed-e19729",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Unrailed!",
   "notes": "Works out of the box!",
   "date_tested": "Nov '24",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -35,10 +35,118 @@
   "shortname": "76233c0af0a441c7bd541e7d7ab3cde1",
   "publisher": "Daedalic Entertainment",
   "developer": "Indoor Astronaut",
-  "releasedate": "2019-09-09T00:00:00+0000",
-  "genre": "Indie, Arcade",
-  "description": "Unrailed! is all about getting an unstoppable train safely to the station through a variety of procedurally generated maps, both weird and wonderful in online multiplayer, local multiplayer or versus mode.",
+  "releasedate": "2022-04-25T16:00:00.000Z",
+  "genre": "Action, Indie, Party",
+  "description": "Unrailed! is a co-op multiplayer game where you have to work together with your friends to build a train track across endless procedurally generated worlds. Master random encounters with its inhabitants, upgrade your train and keep it from derailing!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "39940",
+      "name": "Gift A Game"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1110",
+      "name": "Party"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1110",
+      "name": "Party"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 115201,
+  "igdb_url": "https://www.igdb.com/games/115201",
+  "giveaway_events": [
+    {
+      "start": "2022-08-03T15:00:00.000Z",
+      "end": "2022-08-10T15:00:00.000Z",
+      "type": null,
+      "id": "38ad328025584a26bab9ca92c5f5b842"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Unrailed! is a co-op multiplayer game where you have to work together with your friends to build a train track across endless procedurally generated worlds. Master random encounters with its inhabitants, upgrade your train and keep it from derailing!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/b30d7650c5e0406aac19fb8ecb0ef486877ec329756e71ec955ccc8354a9cc4a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/65ed57a046aee44dbb35ff73ce8e4866a5603018f46ec42a8448ff7572d4e2a9.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/173496952263f8b731dad7c80e566e7f24e7f7efa911a737534e35ff229a388d.jpg?namespace=gamesdb",
@@ -53,15 +161,16 @@
   ],
   "metacritic_score": 77,
   "metacritic_url": "https://www.metacritic.com/game/pc/unrailed!?ftag=MCD-06-10aaa1f",
+  "hltb_id": "73803",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/73803",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-05T22:12:18.571Z"
+  "updated_at": "2026-04-25T01:17:07.171Z"
 }

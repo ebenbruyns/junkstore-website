@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/574980",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/thems-fightin-herds",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Them%27s_Fightin%27_Herds",
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Some tinkering required**. You need to install DirectX components.",
   "date_tested": "March '25",
   "decky_rating": "yellow",
@@ -33,12 +33,114 @@
   "cant_test_linux": false,
   "databaseId": "2d9d7555ccdd4ceaa1b60e501ba0bacd",
   "shortname": "2d9d7555ccdd4ceaa1b60e501ba0bacd",
-  "publisher": "Modus Games, Humble Games, Maximum Entertainment",
+  "publisher": "Gameplay Group International Inc.",
   "developer": "Mane6",
-  "releasedate": "2018-02-22T00:00:00+0000",
-  "genre": "Indie, Arcade, Fighting",
+  "releasedate": "2022-12-19T16:00:00.000Z",
+  "genre": "Fighting, Indie",
   "description": "Them's Fightin' Herds is an indie fighting game featuring a cast of adorable animals designed by acclaimed cartoon producer Lauren Faust. Beneath the cute and cuddly surface, a mechanically-deep GGPO-powered fighter awaits!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1344",
+      "name": "Fighting"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1344",
+      "name": "Fighting"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 203089,
+  "igdb_url": "https://www.igdb.com/games/203089",
+  "giveaway_events": [
+    {
+      "start": "2025-03-06T16:00:00.000Z",
+      "end": "2025-03-13T15:00:00.000Z",
+      "type": null,
+      "id": "1f723b00df58467998c4984ca39915ad"
+    },
+    {
+      "start": "2022-12-18T15:00:00.000Z",
+      "end": "2022-12-19T15:00:00.000Z",
+      "type": null,
+      "id": "1f723b00df58467998c4984ca39915ad"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Them's Fightin' Herds",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/29f7efee478bef53e84af821b8d525b4a4b701788131297ca862d038e0f80a17.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e8a51309356bb56ecb3ddc06210308a5cb155675d547f419be2ba0f44b38b9d3.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/83da31aabec972e8c0b85ad91744b13c23e9cb4856b0e2fbc654a96111a95230.jpg?namespace=gamesdb",
@@ -52,15 +154,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
+  "hltb_id": 53474,
+  "hltb_main": "4 hrs",
+  "hltb_main_extra": "5 hrs",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/53474",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:38:11.953Z"
+  "updated_at": "2026-04-25T05:45:30.757Z"
 }

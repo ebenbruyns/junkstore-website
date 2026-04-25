@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Daedalic Entertainment, Kalypso
 developer: Mimimi Games
 genre: Strategy, Tactical
+franchise: 
+age_rating_summary: ESRB Mature 17+
 release_date: "December 6, 2016"
 game_modes: ["Single player"]
 languages: ["English*","French","German","Spanish - Spain","Japanese*","Polish","Russian","Korean","Simplified Chinese","Portuguese - Brazil"]
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1120","name":"RTS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/316714fc01d0c9678d119d2a9c096967483d22d5adfb593cb56fe5c45a28b8bd.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1601442230"
 is_featured: false
+owned: true
 ---
 
-Shadow Tactics is a hardcore tactical stealth game set in Japan around the Edo period. A new Shogun seizes power over Japan and enforces nationwide peace. In his battle against conspiracy and rebellion, he recruits five specialists with extraordinary skills for assassination, sabotage and espionage.
+Shadow Tactics is a hardcore tactical stealth game set in Japan around the Edo period. A new Shogun seizes power over Japan and enforces nationwide peace. He recruits five specialists with extraordinary skills for assassination, sabotage and espionage.

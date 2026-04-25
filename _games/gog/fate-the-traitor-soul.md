@@ -17,9 +17,15 @@ proton_version: ""
 publisher: WildTangent
 developer: NIL, NIL
 genre: Role-playing (RPG), Adventure
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/2c1df3c3e4fa2e486216f3b0ed25ac7e98334aa87e59b5be69e40890e7139a51.jpg?namespace=gamesdb"
@@ -56,9 +62,9 @@ hltb_url: "https://howlongtobeat.com/game/14633"
 store_url: "https://www.gog.com/en/game/fate_the_traitor_soul"
 protondb_url: "https://www.protondb.com/app/303680"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FATE:_The_Traitor_Soul"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/fate-the-traitor-soul/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1595490147"
 is_featured: false
+owned: true
 ---
 
 When the Traveler speaks of a test within the Temple of Fate, presented to only the most dedicated of champions, you stand confident that the spoils beyond the portal will be yours. The challenge of FATE - The Traitor Soul is your destiny...will you accept it?

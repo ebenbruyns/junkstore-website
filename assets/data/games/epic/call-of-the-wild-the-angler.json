@@ -35,10 +35,102 @@
   "shortname": "fe4168b810314c2fb93f1803e2fe431e",
   "publisher": "Expansive Worlds",
   "developer": "Expansive Worlds",
-  "releasedate": "2022-08-31T00:00:00+0000",
-  "genre": "Adventure, Sport, Simulator",
-  "description": "From the creators of theHunter: Call of the Wild comes a genre-defying fishing experience! Explore a vast and atmospheric open world in search of the perfect fishing spot. Ride the open waters alone or with friends and embark on your journey to become a master angler.",
+  "releasedate": "2022-08-31T13:00:00.000Z",
+  "genre": "Casual, Simulation, Open World",
+  "description": "From the creators of theHunter: Call of the Wild comes a genre-defying fishing experience! Explore a vast open world in search of the perfect fishing spot. Ride the open waters alone or with friends and embark on your journey to become a master angler.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "1124",
+      "name": "FISHING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 205775,
+  "igdb_url": "https://www.igdb.com/games/205775",
+  "giveaway_events": [
+    {
+      "start": "2024-03-20T15:00:00.000Z",
+      "end": "2024-03-27T15:00:00.000Z",
+      "type": null,
+      "id": "e5cfeb2ef72e4cae8a237317fed902ee"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "From the creators of theHunter: Call of the Wild comes a genre-defying fishing experience! Explore a vast open world in search of the perfect fishing spot. Ride the open waters alone or with friends and embark on your journey to become a master angler.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/f6753951a5baf5cb11ac061595fec4d9ce3ac02d4881b43e31336a8325cf7171.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/928182a0fe6a162ad81b52114e6b8d3ad6f6f191ebf2108066303d694257b3f8.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0b0e8a2d90f32bb2db7eb256cc7f40788d5a585de6737b343b3e564af37268ad.jpg?namespace=gamesdb",
@@ -53,15 +145,16 @@
   ],
   "metacritic_score": 63,
   "metacritic_url": "https://www.metacritic.com/game/call-of-the-wild-the-angler/",
+  "hltb_id": 109596,
   "hltb_main": "11.6 hrs",
   "hltb_main_extra": "20 hrs",
   "hltb_completionist": "40 hrs",
   "hltb_url": "https://howlongtobeat.com/game/109596",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-24T02:27:58.115Z"
+  "updated_at": "2026-04-25T01:06:52.333Z"
 }

@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Daedalic Entertainment
 developer: Daedalic Entertainment, Forgotten Key
-genre: Adventure, Indie, Puzzle
-release_date: ""
+genre: Exploration, Open World, Adventure
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "June 26, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2020-06-24T15:00:00.000Z","end":"2020-07-01T15:00:00.000Z","type":null,"id":"ddbac5b8afd64e36a63d6904e0ef7e41"}]
 
 # Images
 banner_image: "https://images.gog.com/d301a4613ccfd29484848ce062b1ec65114e5f302f680ed16639560760cb43e5.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "26b63c46de9e4dcc856b3c6b106b6777"
 is_featured: false
+owned: false
 ---
 
-Transform into a bird and fly to explore and experience a vibrant world of floating islands in the sky.
+Transform into a bird and fly to explore and experience a vibrant world of floating islands in the sky. Venture down into lost ancient ruins where each step leads you closer to the end of the world.

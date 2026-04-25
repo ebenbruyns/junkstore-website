@@ -17,9 +17,15 @@ proton_version: ""
 publisher: The Irregular Corporation, Maximum Entertainment
 developer: Italic Pig
 genre: Role-playing (RPG), Adventure, Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "September 26, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Italian","Korean","Simplified Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/64d4a8b86a955d85ea84841ab71547a8f013d7f52d0aeef4fa9ea70694ddea29.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.94dbc467-ec5f-47c4-bba0-15fc05f6106f"
 is_featured: false
+owned: true
 ---
 
 Escape to an island populated with welcoming townsfolk and dozens of friendly dinosaurs. Tame them, care for them, run your ranch, and saddle up your trusted steeds for adventures into the wild countryside!

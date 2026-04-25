@@ -17,9 +17,15 @@ proton_version: ""
 publisher: ChaosForge
 developer: ChaosForge
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie, Shooter, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "August 5, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a486dd1769f413e7e9909d579ccaf0f598265cc87120909a83e4c507398e2bf5.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/74479"
 store_url: "https://www.gog.com/en/game/jupiter_hell"
 protondb_url: "https://www.protondb.com/app/811320"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Jupiter_Hell"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/jupiter-hell?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1603513052"
 is_featured: false
+owned: true
 ---
 
 Jupiter Hell is a classic turn-based roguelike set in a 90's flavored sci-fi universe. Rip and tear zombies, demons and unmentionable monstrosities, using shotguns, chainguns and the trusty chainsaw, to the shine of CRT monitors and the tune of heavy metal!

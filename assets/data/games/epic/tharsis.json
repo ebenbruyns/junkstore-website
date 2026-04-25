@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Tharsis",
   "notes": "Works out of the box!",
   "date_tested": "Dec '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": true,
   "epic_achievements": false,
@@ -35,10 +35,50 @@
   "shortname": "266d978cc221471787b597695cbb9a75",
   "publisher": "QubicGames S.A.",
   "developer": "Choice Provisions",
-  "releasedate": "2016-01-11T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Strategy, Simulator",
-  "description": "Tharsis is a turn-based space strategy game. With dice and cannibalism. It puts you in control of humanity's first manned mission to Mars, just as it's struck by a micrometeoroid storm. You must guide your crew through disasters, food shortages, and the unforgiving nature of space - all while maintaining your sanity amidst cryptic signals and warnings from Mars.\nDefy the odds, make the difficult decisions, and embark on the most important mission in human history.",
+  "releasedate": "2021-09-16T15:00:00.000Z",
+  "genre": "Strategy",
+  "description": "Tharsis is a turn-based space strategy game. With dice. And cannibalism. It puts you in control of humanity’s first mission to Mars, just as it’s struck by a micrometeorite storm. ",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2021-09-15T15:00:00.000Z",
+      "end": "2021-09-22T15:00:00.000Z",
+      "type": null,
+      "id": "0c7924b21589422581c7cbe8d5a336c5"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Tharsis is a turn-based space strategy game. With dice. And cannibalism. It puts you in control of humanity’s first mission to Mars, just as it’s struck by a micrometeorite storm. ",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/fb593d37b155ec000b9c39f54266f3f5b61420970ec2bfe76e3001f4c199b619.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4c8d33807cf3f2aab31d051e4d76ec3261555720491f0618b73ec9fd9c1330ba.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d9c3b48254a9cb72ac7d0f3d61b79ff365f601fff6e41f2f8c56d264aadb61dd.jpg?namespace=gamesdb",
@@ -51,15 +91,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 33590,
+  "hltb_main": "2 hrs",
+  "hltb_main_extra": "4.5 hrs",
+  "hltb_completionist": "13.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/33590",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:34:25.302Z"
+  "updated_at": "2026-04-25T05:45:00.307Z"
 }

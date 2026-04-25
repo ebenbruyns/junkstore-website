@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: GGXYZ
 developer: GGXYZ
-genre: Shooter
+genre: Action, Shooter
+franchise: 
+age_rating_summary: ESRB Mature 17+
 release_date: "July 11, 2024"
 game_modes: ["Battle Royale"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1299","name":"Competitive"},{"id":"21109","name":"Great Boss Battles"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9547","name":"Windows"},{"id":"1310","name":"EARLY ACCESS"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/307818"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f91d69b21d5cc87454b5f8c2553a592e34a760f67e3316389926b7ac6a7a7014.jpg?namespace=gamesdb"
@@ -50,7 +56,7 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/153473"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/overtrip-79b8b0"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "651c5218f4e948b084be86277e0b5630"
 is_featured: false
+owned: true
 ---
 
-A skill-based third-person shooter, where the thrill of competition meets the world of skill-based token betting and the captivating integration of diverse NFT collections.
+The ultimate skill-based third-person shooter, where the thrill of competition meets the world of skill-based token betting and the captivating integration of diverse NFT collections.

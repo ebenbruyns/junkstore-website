@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,29 +35,72 @@
   "shortname": "Flounder",
   "publisher": "",
   "developer": "Terrible Posture Games LLC",
-  "releasedate": "2020-08-06T00:00:00+0000",
-  "genre": "Adventure",
-  "description": "Join the ongoing adventures of developers at the world's worst video game studio as they endure antics both absurd and topical. This week Midge joins Shovelworks Studios as a new animator, but not all is as it seems at the studio.",
+  "releasedate": "2020-08-06T15:00:00.000Z",
+  "genre": "Action",
+  "description": "Midge joins Shovelworks Studios as a new animator, but not all is as it seems at the studio.",
   "size": "574 MB",
+  "franchise": "3 out of 10, EP",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1141",
+      "name": "Free to Play"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2020-08-05T15:00:00.000Z",
+      "end": "2020-08-12T15:00:00.000Z",
+      "type": null,
+      "id": "eb38399025864ffb88a7e027d02502a8"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Midge joins Shovelworks Studios as a new animator, but not all is as it seems at the studio.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/8b9de4f9c215ffe205af92cf7c6c1b0b5c6f96ad57b466b341c05812ba8e4d55.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/77861f38eb0bdc97b5fd50a0d539cf888b19c61a828532e78259d89f67521e55.jpg?namespace=gamesdb",
   "icon_image": "",
   "steamId": "",
-  "game_modes": [],
+  "game_modes": [
+    "Single Player"
+  ],
   "languages": [
     "English"
   ],
   "metacritic_score": 73,
   "metacritic_url": "https://www.metacritic.com/game/3-out-of-10-season-one/",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 81609,
+  "hltb_main": "38 mins",
+  "hltb_main_extra": "42 mins",
+  "hltb_completionist": "52 mins",
+  "hltb_url": "https://howlongtobeat.com/game/81609",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-19T23:38:52.182Z"
+  "updated_at": "2026-04-25T01:04:42.737Z"
 }

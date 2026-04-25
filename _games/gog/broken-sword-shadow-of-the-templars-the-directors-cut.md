@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Kalypso Media, Ubisoft, Revolution Software
 developer: Revolution Software
 genre: Adventure, Puzzle, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "March 19, 2009"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0c64187be18821a9785d618d854a277788a931d9a3613489dc46f190970920a3.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658900"
 is_featured: false
+owned: true
 ---
 
 One of the all-time classic adventures, multi BAFTA-nominated "Broken Sword: Director's Cut" pitches sassy journalist Nico Collard, and intrepid American George Stobbart into a mysterious journey of intrigue and jeopardy. Guide George and Nico on their globe-spanning adventure, exploring exotic locations, solving ancient mysteries, and thwarting a dark conspiracy to reveal the secret truths of the Knights Templar.

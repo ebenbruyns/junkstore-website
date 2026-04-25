@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1085220",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/figment2-creed-valley",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Figment_2%3A_Creed_Valley",
   "notes": "Works out of the box!",
   "date_tested": "Aug '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": true,
   "requires_verification": false,
   "epic_achievements": true,
@@ -35,10 +35,70 @@
   "shortname": "37f5a526914b4eaaa86d32820e162aa0",
   "publisher": "Bedtime Digital Games",
   "developer": "Bedtime Digital Games",
-  "releasedate": "2023-03-09T00:00:00+0000",
-  "genre": "Adventure, Indie, Puzzle, Music",
-  "description": "Figment 2: Creed Valley is an encore to Figment. Dusty and Piper have restored peace in The Mind, however, a new adversary is threatening its balance. Our two heroes must travel to Creed Valley, where The Mind’s beliefs and ideals are formed, to face their most menacing and theatrical foe so far.",
+  "releasedate": "2023-03-09T17:00:00.000Z",
+  "genre": "Action, Puzzle, Adventure",
+  "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.",
   "size": "",
+  "franchise": "Figment",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 119801,
+  "igdb_url": "https://www.igdb.com/games/119801",
+  "giveaway_events": [
+    {
+      "start": "2025-07-10T15:00:00.000Z",
+      "end": "2025-07-17T15:00:00.000Z",
+      "type": null,
+      "id": "1fb78130d9804fc6801fb2d6ab642721"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/6e95b06a3677554d075686c6701fc3fd144d7737a4b61e0de6aaccdbf88353a0.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c75ba15ba99f35ed031f0c7ae85a63b0eff03f625e7aa2d5c9cbdf6114275a44.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/28d05da6efd35f025a56bd789acabd8bfaf352862657e5f8aa1fb717a85a7905.jpg?namespace=gamesdb",
@@ -53,6 +113,7 @@
   ],
   "metacritic_score": 76,
   "metacritic_url": "https://www.metacritic.com/game/figment-2-creed-valley/",
+  "hltb_id": 99345,
   "hltb_main": "4 hrs",
   "hltb_main_extra": "4.5 hrs",
   "hltb_completionist": "6 hrs",
@@ -63,5 +124,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-23T08:45:48.288Z"
+  "updated_at": "2026-04-25T02:42:46.697Z"
 }

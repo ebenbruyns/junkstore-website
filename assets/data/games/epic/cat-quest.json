@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/593280",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/cat-quest-8373e0",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Cat_Quest",
   "notes": "Works out of the box!",
   "date_tested": "Aug '25",
   "decky_rating": "green",
@@ -33,12 +33,122 @@
   "cant_test_linux": false,
   "databaseId": "051eaac0842c46d7a5a62858ad534d5a",
   "shortname": "051eaac0842c46d7a5a62858ad534d5a",
-  "publisher": "PQube, Kepler Interactive, The Gentlebros",
+  "publisher": "Kepler Interactive",
   "developer": "The Gentlebros",
-  "releasedate": "2017-08-08T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Indie",
-  "description": "Cat Quest is a 2D open world RPG with the exploration of Skyrim, but set in the visual style of an overworld. This is a fantasy world that asks the question of how different it would be if cats lived in it instead of humans!\nGo to places like the Catpital where the Lion King rules, or experience delicacies like the catnip pie! Talk to the locals, some already on their 7th or 8th lives(what? not all cats have nine lives y'know), and go on a catventure through a world you've never seen before!",
+  "releasedate": "2023-12-28T16:00:00.000Z",
+  "genre": "Casual, RPG, Action-Adventure",
+  "description": "The multi award-winning Action RPG. Cat Quest's loot-fuelled cat-venture is as beautifully crafted, as its combat and magic are ultra-satisfying. Universally adored by critics - it'll have you purring for joy!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "35244",
+      "name": "Epic Savings"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 36597,
+  "igdb_url": "https://www.igdb.com/games/36597",
+  "giveaway_events": [
+    {
+      "start": "2025-03-27T15:00:00.000Z",
+      "end": "2025-04-03T15:00:00.000Z",
+      "type": null,
+      "id": "2da36fbed1b34d1997e5ffb1f8efdeb6"
+    },
+    {
+      "start": "2023-12-27T15:00:00.000Z",
+      "end": "2023-12-28T15:00:00.000Z",
+      "type": null,
+      "id": "2da36fbed1b34d1997e5ffb1f8efdeb6"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "The multi award-winning Action RPG. Cat Quest's loot-fuelled cat-venture is as beautifully crafted, as its combat and magic are ultra-satisfying. Universally adored by critics - it'll have you purring for joy!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/8c3b2a62c9f48896ff5157c8a6906e284f63dead1be7f6d70beeccada06f9ab9.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e194b0fe734ecb33551d07edb91983a5140460241f12a8d4a37e8c278b0664e4.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9e392b4095bfb0fb23ce89fccb1d97985497fc82ef005f888458802194497835.jpg?namespace=gamesdb",
@@ -51,15 +161,16 @@
   ],
   "metacritic_score": 79,
   "metacritic_url": "https://www.metacritic.com/game/pc/cat-quest?ftag=MCD-06-10aaa1f",
+  "hltb_id": 48142,
   "hltb_main": "5.6 hrs",
   "hltb_main_extra": "8 hrs",
   "hltb_completionist": "10.7 hrs",
   "hltb_url": "https://howlongtobeat.com/game/48142",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-06T03:41:03.026Z"
+  "updated_at": "2026-04-25T02:42:16.754Z"
 }

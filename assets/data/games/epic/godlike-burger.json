@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1432910",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/godlike-burger-4150a0",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Godlike_Burger",
   "notes": "Works out of the box!",
   "date_tested": "July '24",
   "decky_rating": "green",
@@ -34,11 +34,115 @@
   "databaseId": "f7c6294c948b47378659c9a963f449be",
   "shortname": "f7c6294c948b47378659c9a963f449be",
   "publisher": "Daedalic Entertainment",
-  "developer": "Liquid Pug LLC",
-  "releasedate": "2022-04-21T00:00:00+0000",
-  "genre": "Strategy, Indie",
-  "description": "Godlike Burger puts you in the shoes of a crazy chef who makes the best burgers in the universe. Secret ingredient? The clients themselves! Run the restaurant, create new recipes and kill delicious aliens! But be careful – leave no witnesses uncooked!",
+  "developer": "Liquid Pug",
+  "releasedate": "2022-04-21T17:00:00.000Z",
+  "genre": "Action, Indie, Rogue-Lite",
+  "description": "In Godlike Burger you run the craziest restaurant of the galaxy! Stun, poison and kill customers in many devious ways… and turn them into burger meat! And don’t worry: Alien customers will keep coming if you are smart about it, because cannibalism is just too damn tasty.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21126",
+      "name": "Silly Community"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 143010,
+  "igdb_url": "https://www.igdb.com/games/143010",
+  "giveaway_events": [
+    {
+      "start": "2023-10-04T15:00:00.000Z",
+      "end": "2023-10-11T15:00:00.000Z",
+      "type": null,
+      "id": "d9300ace164b41ac90a7b54e59d47953"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "In Godlike Burger you run the craziest restaurant of the galaxy! Stun, poison and kill customers in many devious ways… and turn them into burger meat! And don’t worry: Alien customers will keep coming if you are smart about it, because cannibalism is just too damn tasty.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/cf55fcddb3a30909c65516221b64410abc3c77fc92a40e15dd47bb2e3d408537.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e413fe17d3922efe72b03dd6305c9fd400a559a572e3ed7925337a56344f5972.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7fbe97aaaf054d6993c6de3936be7e5b142132c302aae6f3dd1533a9c686c807.jpg?namespace=gamesdb",
@@ -51,14 +155,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
+  "hltb_id": 109801,
+  "hltb_main": "30 hrs",
   "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_completionist": "38 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/109801",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "updated_at": "2026-04-25T05:41:49.998Z"
 }

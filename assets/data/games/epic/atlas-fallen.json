@@ -34,11 +34,60 @@
   "databaseId": "886d19a2d3194eb8890f0068b91926ae",
   "shortname": "886d19a2d3194eb8890f0068b91926ae",
   "publisher": "Focus Entertainment",
-  "developer": "Deck13 Interactive",
-  "releasedate": "08-2023",
-  "genre": "Role-playing (RPG), Adventure",
-  "description": "Rise from the dust and glide the sands of a timeless land, filled with ancient dangers, mysteries and fragments of the past.",
+  "developer": "Deck13",
+  "releasedate": "2023-10-31T16:00:00.000Z",
+  "genre": "Action, Adventure",
+  "description": "Rise from the dust and glide the sands of a timeless land, filled with ancient dangers, mysteries and fragments of the past. Hunt legendary monsters with powerful sand-infused weapons and abilities in spectacular, super-powered combat.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Rise from the dust and glide the sands of a timeless land, filled with ancient dangers, mysteries and fragments of the past. Hunt legendary monsters with powerful sand-infused weapons and abilities in spectacular, super-powered combat.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/485c10b83a49abb179c5adad1e9a78d4483f87b9cccbf3320062c04ab948ad24.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9e6b77bcadfd7f3239908ded31b1b90a826eb9b1af8f700ab096e9a48faab0d3.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0afa02626b8d4911a1b58e2dce90211a1049d62fc29edb45407a3315f8c071b8.jpg?namespace=gamesdb",
@@ -53,6 +102,7 @@
   ],
   "metacritic_score": 64,
   "metacritic_url": "https://www.metacritic.com/game/atlas-fallen/",
+  "hltb_id": 112665,
   "hltb_main": "11 hrs",
   "hltb_main_extra": "19 hrs",
   "hltb_completionist": "28.5 hrs",
@@ -63,5 +113,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-24T02:14:06.117Z"
+  "updated_at": "2026-04-25T01:18:31.462Z"
 }

@@ -378,7 +378,7 @@
     "ziggurat.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-04-24T02:44:08.997Z",
+  "last_updated": "2026-04-25T05:55:40.960Z",
   "latest_games": [
     {
       "title": "Gunslugs",
@@ -429,15 +429,15 @@
       "is_featured": false
     },
     {
-      "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
-      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
-      "date_tested": "July '24",
+      "title": "Cursed to Golf",
+      "slug": "cursed-to-golf",
+      "date_tested": "Sept '24",
       "is_featured": false
     },
     {
-      "title": "Amnesia: The Bunker",
-      "slug": "amnesia-the-bunker",
-      "date_tested": "Oct '24",
+      "title": "Metro: Last Light Redux",
+      "slug": "metro-last-light-redux",
+      "date_tested": "Oct '25",
       "is_featured": false
     }
   ]

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Maximum Entertainment
 developer: Aurogon Shanghai
 genre: Action, Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "April 24, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Russian","Japanese*","Simplified Chinese*","Traditional Chinese*","Korean"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1701520/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.8b79052d-8c1d-46c1-8da9-c48b929865c6"
 is_featured: false
+owned: true
 ---
 
 Afterimage is a hand-drawn 2D action adventure that emphasizes fast-paced combat with diversified character builds, non-linear levels, and a gripping story set in the ruins of a fantasy world.

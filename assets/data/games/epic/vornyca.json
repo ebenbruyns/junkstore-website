@@ -35,10 +35,55 @@
   "shortname": "46f5370341aa44308a2b2433ee59fdfb",
   "publisher": "Horizon Studios",
   "developer": "Horizon Studios",
-  "releasedate": "2025-06-30T17:20:56.432Z",
-  "genre": "Action-Adventure Indie Platformer",
+  "releasedate": "2025-11-11T00:00:00.000Z",
+  "genre": "Action-Adventure, Platformer, Indie",
   "description": "Set in a world where humanity has defeated its own creations, Vornyca follows the journey of a lone surviving AI struggling to find purpose, freedom, and identity in the ruins of a fallen civilization.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 397320,
+  "igdb_url": "https://www.igdb.com/games/397320",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Set in a world where humanity has defeated its own creations, Vornyca follows the journey of a lone surviving AI struggling to find purpose, freedom, and identity in the ruins of a fallen civilization.",
+  "use_rich_description": true,
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-1irxk.jpg",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-13ens.jpg",
   "icon_image": "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-logo-mqm8i.png",
@@ -51,6 +96,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/vornyca/",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -61,5 +107,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-04-03T21:10:31.170Z",
-  "updated_at": "2026-04-20T00:57:50.179Z"
+  "updated_at": "2026-04-25T02:21:49.367Z"
 }

@@ -8,8 +8,8 @@ storefront_key: "gog"
 permalink: /games/gog/death-squared/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
 
@@ -17,9 +17,15 @@ proton_version: ""
 publisher: CIRCLE Entertainment, SMG Studio
 developer: SMG Studio
 genre: Strategy, Indie, Platform, Puzzle, Tactical
+franchise: 
+age_rating_summary: 
 release_date: "March 13, 2017"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/80f83667bc3d0aed168fbefefefaece36daa38ed48071adf3f9cd60d38238e79.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/47424"
 store_url: "https://www.gog.com/en/game/death_squared"
 protondb_url: "https://www.protondb.com/app/471810"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death_Squared"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1566969207"
 is_featured: false
+owned: true
 ---
 
 Death Squared is a co-op puzzle game about cooperation, communication, and robot explosions.

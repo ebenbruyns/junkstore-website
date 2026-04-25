@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1252330",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/deathloop",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Deathloop",
   "notes": "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. May need to login to Bethesda to change visual settings to windowed",
   "date_tested": "June '25",
   "decky_rating": "green",
@@ -35,10 +35,102 @@
   "shortname": "3206dba3f9b14fd3b01c18f9dcbc864a",
   "publisher": "Bethesda Softworks",
   "developer": "Arkane Studios",
-  "releasedate": "2021-09-14T00:00:00+0000",
-  "genre": "Adventure, Shooter",
-  "description": "Deathloop transports players to the lawless island of Blackreef in an eternal struggle between two extraordinary assassins. Explore stunning environments and meticulously designed levels in an immersive gameplay experience that lets you approach every situation any way you like. Hunt down targets all over the island in an effort to put an end to the cycle once and for all, and remember, if at first you don’t succeed… die, die again.",
+  "releasedate": "2022-03-24T15:00:00.000Z",
+  "genre": "Action, Stealth, Adventure",
+  "description": "DEATHLOOP is a next-gen first person shooter from Arkane Lyon, the award-winning studio behind Dishonored. In DEATHLOOP, two rival assassins are trapped in a mysterious timeloop on the island of Blackreef, doomed to repeat the same day for eternity.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 113598,
+  "igdb_url": "https://www.igdb.com/games/113598",
+  "giveaway_events": [
+    {
+      "start": "2025-06-05T15:00:00.000Z",
+      "end": "2025-06-12T15:00:00.000Z",
+      "type": null,
+      "id": "b1f88c2f7d114879838a3e79d1d6f163"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "DEATHLOOP is a next-gen first person shooter from Arkane Lyon, the award-winning studio behind Dishonored. In DEATHLOOP, two rival assassins are trapped in a mysterious timeloop on the island of Blackreef, doomed to repeat the same day for eternity.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/6deabd4cec8430e32e6013d50fad19063571491a93ea94c47349778ae7de3c1f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a44340913a269b0dd41cbdebf1eb608c11354cebfc779db7a09625f8aa892d68.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9596be4f76e23ca041d6588c3fed52c56c58bd88d9470226eea3b0a816d71200.jpg?namespace=gamesdb",
@@ -52,15 +144,16 @@
   ],
   "metacritic_score": 87,
   "metacritic_url": "https://www.metacritic.com/game/pc/deathloop?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 68258,
+  "hltb_main": "16.5 hrs",
+  "hltb_main_extra": "24.5 hrs",
+  "hltb_completionist": "36 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/68258",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T06:39:45.005Z"
+  "updated_at": "2026-04-25T02:42:27.861Z"
 }

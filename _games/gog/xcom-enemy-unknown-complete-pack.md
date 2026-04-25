@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 2K Games
 developer: Firaxis Games
 genre: Strategy
+franchise: 
+age_rating_summary: 
 release_date: "October 11, 2012"
 game_modes: ["Single-player","Multi-player"]
 languages: ["English*","German*","French*","Italian*","Korean","Spanish - Spain*","Russian*","Japanese","Polish*","Traditional Chinese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/200510/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1558688142"
 is_featured: false
+owned: true
 ---
 
 From the makers of Sid Meier’s Civilization comes a game about civilization’s last stand. As the commander of an elite paramilitary organization known as XCOM, you control Earth’s defences against a terrifying alien invasion. This package includes the award-winning XCOM: Enemy Unknown and XCOM: Enemy Within expansion, plus all of the released add-on content.

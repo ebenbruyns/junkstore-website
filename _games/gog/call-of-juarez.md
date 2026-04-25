@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Ubisoft Entertainment, Ascaron Entertainment, Techland, Focus Entertainment
 developer: Techland
 genre: Shooter
+franchise: 
+age_rating_summary: 
 release_date: "September 5, 2006"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4e4033af40398ac8f46244c8656d1272db4f020e0be319d72869d29ac47b6126.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1909524379"
 is_featured: false
+owned: true
 ---
 
 Call of Juarez is an epic adventure western themed FPS game. The player alternately assumes the roles of two distinct, antagonistic characters: a sneaking fugitive Billy and his hunter the reverend Ray. Apart from the highly interesting, emotional and psychological aspect of the link between the two

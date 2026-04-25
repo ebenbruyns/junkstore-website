@@ -17,9 +17,15 @@ proton_version: ""
 publisher: ViNovella Games
 developer: ViNovella Games
 genre: Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "July 27, 2020"
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d8704ec386468a5d6cc74c3ff38906678831760ceaae7fbdbf802b4a215c2be8.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/82686"
 store_url: "https://www.gog.com/en/game/fetish_locator_week_one"
 protondb_url: "https://www.protondb.com/app/1360980"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fetish_Locator:_Week_One"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1654462894"
 is_featured: false
+owned: true
 ---
 
 Play as a young college student exploring love, lust, and sexual fetishes with the hottest women in town. Score points in the Fetish Locator app, which has taken the campus by storm. Make choices and decide the fate of the story in Fetish Locator!

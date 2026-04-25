@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": true,
@@ -33,12 +33,113 @@
   "cant_test_linux": false,
   "databaseId": "69f916aead6e4947aa3587ea234268be",
   "shortname": "69f916aead6e4947aa3587ea234268be",
-  "publisher": "Coffee Stain Publishing",
-  "developer": "Coffee Stain North",
-  "releasedate": "15 Feb, 2024",
-  "genre": "Adventure, Casual, Simulation",
-  "description": "Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.",
+  "publisher": "Coffee Stain Publishing AB",
+  "developer": "Coffee Stain North AB",
+  "releasedate": "2022-11-17T15:00:00.000Z",
+  "genre": "Comedy, Adventure",
+  "description": "Pilgor’s baaack! Gather your herd and venture forth into Goat Simulator 3; a totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage together, or compete in mini-games and then not be friends.",
   "size": "",
+  "franchise": "Goat Simulator",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "39940",
+      "name": "Gift A Game"
+    },
+    {
+      "id": "21126",
+      "name": "Silly Community"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21130",
+      "name": "Easy Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1400",
+      "name": "Physics"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1116",
+      "name": "Comedy"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1116",
+      "name": "Comedy"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Pilgor’s baaack! Gather your herd and venture forth into Goat Simulator 3; a totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage together, or compete in mini-games and then not be friends.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/850190/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/850190/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/850190/capsule_231x87.jpg",
@@ -63,15 +164,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 109125,
+  "hltb_main": "7.5 hrs",
+  "hltb_main_extra": "12 hrs",
+  "hltb_completionist": "22.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/109125",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-27T07:03:05.008Z",
-  "updated_at": "2026-02-07T23:10:25.443Z"
+  "updated_at": "2026-04-25T05:53:42.133Z"
 }

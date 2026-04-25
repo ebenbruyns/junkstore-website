@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: Iceberg Interactive
-developer: Iceberg Interactive, Get Up Games
-genre: Adventure, Indie, Shooter, Tactical
-release_date: "November 13, 2023"
+developer: Get Up Games
+genre: Action
+franchise: 
+age_rating_summary: 
+release_date: "October 13, 2023"
 game_modes: ["Co-operative","Multiplayer","Battle Royale"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/114776"
+was_free_before: true
+giveaway_events: [{"start":"2023-10-11T15:00:00.000Z","end":"2023-10-18T15:00:00.000Z","type":null,"id":"363d0be3b57d4741a046d38da0e6355e"}]
 
 # Images
 banner_image: "https://images.gog.com/20fc1cd38767aa55473f32f6dbbaa74901820fc2e8a575e5f4581bb1a0136472.jpg?namespace=gamesdb"
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "ed5f5b7f2e1f43c89ea8bafd15591bda"
 is_featured: false
+owned: true
 ---
 
-In Blazing Sails you, your ship and crew have to battle other teams on a huge map of land and sea until one team survives.
-
-As a battle hardened pirate you have to fulfill different tasks on your ship like steering the ship, deploying the sails, repairing ship damage and firing the cannons to crush your enemy’s. You’ll also be forced to go on land to gather different resources, weapons and ammo. But be careful to not abandon ship completely! If your ship goes down, your team goes down with it.
+Fight for survival in Blazing Sails, a fast-paced pirate PvP game! Create your own unique pirate and ship. Band together with other players to command your mighty vessel! Explore different game-modes, maps, weapons, ship types and more while eliminating other crews in epic bat...

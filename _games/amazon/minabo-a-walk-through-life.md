@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Selecta Play
 developer: DevilishGames
 genre: Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "April 28, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Portuguese - Portugal","Russian","Simplified Chinese","Catalan","Italian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0059fae12fba0c1dc6cd54847e8ee5dd1c3fe8602d8de97fb3c9aac4b2b3be86.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/128123"
 store_url: ""
 protondb_url: "https://www.protondb.com/app/1822560"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Minabo"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/minabo-a-walk-through-life/"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.57a56b9b-210d-4346-aa9a-3985b3d9a982"
 is_featured: false
+owned: true
 ---
 
 Minabo - A walk through life is a social simulation game where you walk the path of life while your turnip grows and thrives (or not) in its social relationships.

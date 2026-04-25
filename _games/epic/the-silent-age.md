@@ -14,12 +14,18 @@ date_tested: "April '25"
 proton_version: ""
 
 # Game Info
-publisher: Meridian4, House on Fire
-developer: House on Fire
-genre: Role-playing (RPG), Adventure, Indie, Puzzle, Point-and-click
-release_date: "February 21, 2013"
+publisher: House on Fire
+developer: House On Fire
+genre: Puzzle, Adventure, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "May 3, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/11444"
+was_free_before: true
+giveaway_events: [{"start":"2023-03-29T15:00:00.000Z","end":"2023-04-05T15:00:00.000Z","type":null,"id":"9f476effdb174d789a6d7894d7c39dbb"}]
 
 # Images
 banner_image: "https://images.gog.com/f59825b5613d4980bd4aefa1059cf68a8b7ffacaf6cd4a10dd646a1ba3dd945d.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "3.5 hrs"
+hltb_main_extra: "3.5 hrs"
+hltb_completionist: "3.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/14354"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/the-silent-age"
+store_url: "https://store.epicgames.com/en-US/p/the-silent-age-eb6972"
 protondb_url: "https://www.protondb.com/app/352520"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Silent_Age"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,7 +75,7 @@ known_issues:
 # Meta
 database_id: "19a750a7d7974f9291c0584feedb94b0"
 is_featured: false
+owned: true
 ---
 
-Lose yourself in The Silent Age, the thrilling point-and-click adventure with over seven million mobile downloads, completely revamped and updated for PC.
-The Silent Age is an unforgettable experience. Can you, a simple janitor and literally, “the average Joe,” save humankind?
+Experience a post-apocalyptic world like never before in The Silent Age, a thrilling point-and-click adventure game. Use time travel to unravel the mystery behind humanity's disappearance and save the world from extinction. Start your journey now!

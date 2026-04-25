@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Electronic Arts
 developer: Maxis
 genre: strategy, simulator
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/31edf89b9a219552f97428508d58bc4f28d528165e3640aeb4ac80692df91c99.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/8559"
 store_url: "https://www.gog.com/en/game/simcity_3000"
 protondb_url: "https://www.protondb.com/app/2741560"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SimCity_3000"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2086050016"
 is_featured: false
+owned: false
 ---
 
 In 2000, SimCity 3000 was re-released under different names in different regions, adding East Asian and European building sets, terrain colors, and other features.

@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/484900",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/aven-colony",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Aven_Colony",
   "notes": "Works out of the box!",
   "date_tested": "Aug '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Keyboard & Mouse",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -34,11 +34,91 @@
   "databaseId": "dc07b9ead8214591b8df6d2546d2a0e3",
   "shortname": "dc07b9ead8214591b8df6d2546d2a0e3",
   "publisher": "Team17",
-  "developer": "Mothership Entertainment",
-  "releasedate": "2017-07-25T00:00:00+0000",
-  "genre": "Strategy, Indie, Simulator",
-  "description": "Aven Colony is a city-building and management sim that tells the story of humanity’s first settlement of an extrasolar world. Land on exotic Aven Prime, where you must construct and maintain the infrastructure and ensure the well-being of your citizens, all while dealing with the often harsh realities of an exotic alien world.\n\nOn top of this, you’ll face the greatest challenge of all — keeping your people happy. How will you feed your people? Will you be able to provide them with enough jobs, entertainment, retail outlets, and other services while protecting them from the planet’s many dangers? What social policies will you enact to influence your people? The future of the colony rests on your decisions.",
+  "developer": " Mothership Entertainment LLC",
+  "releasedate": "2021-11-04T15:00:00.000Z",
+  "genre": "Simulation, City Builder, Strategy",
+  "description": "Build a new home for humanity in Aven Colony. Discover Aven Prime - an alien planet of deserts, tundras, and wetlands light years from earth. Build your colonies into massive, sprawling cities whilst dealing with the threats faced when settling on a new world.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "1146",
+      "name": "City Builder"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1146",
+      "name": "City Builder"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 23212,
+  "igdb_url": "https://www.igdb.com/games/23212",
+  "giveaway_events": [
+    {
+      "start": "2021-11-03T15:00:00.000Z",
+      "end": "2021-11-10T15:00:00.000Z",
+      "type": null,
+      "id": "408e1dacff9c4ddabecb93b1e6183db9"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Build a new home for humanity in Aven Colony. Discover Aven Prime - an alien planet of deserts, tundras, and wetlands light years from earth. Build your colonies into massive, sprawling cities whilst dealing with the threats faced when settling on a new world.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/0691ae0fc6a367dbab499a0bf07680f98e6faeccc336fd3f00d6f845948cacfe.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d6aef5b0ae89cd976e6697deb70bec0f6d6eae27994f7c6dd4540128440b2187.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/5e3d01f14212ea1a5d722a10bad6fe7ca0b138a7fb7a0e3f7dfc163761b4c2f2.jpg?namespace=gamesdb",
@@ -51,6 +131,7 @@
   ],
   "metacritic_score": 65,
   "metacritic_url": "https://www.metacritic.com/game/pc/aven-colony?ftag=MCD-06-10aaa1f",
+  "hltb_id": 45626,
   "hltb_main": "26.6 hrs",
   "hltb_main_extra": "35.4 hrs",
   "hltb_completionist": "37.5 hrs",
@@ -61,5 +142,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T02:32:03.997Z"
+  "updated_at": "2026-04-25T02:42:02.012Z"
 }

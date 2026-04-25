@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Thunderful Publishing
 developer: Sad Owl Studios
 genre: Adventure, Indie
-release_date: "July 18, 2023"
+franchise: 
+age_rating_summary: 
+release_date: "January 2, 2099"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Portuguese - Brazil"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1382070/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "17979201bdd845f0ab53d1d62d841dbf"
 is_featured: false
+owned: true
 ---
 
 Challenge perception, redefine reality, and reshape the world around you with an instant camera. Viewfinder is a new single player game offering gamers hours of interesting and fun experiences while uncovering the mysteries left behind.

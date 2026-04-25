@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Linux Game Publishing, Whiptail Interactive, Running With Scissors
 developer: Running With Scissors
 genre: Adventure, Indie, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "April 14, 2003"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d13f803f3f806b8fe6513fa5a246cdeb015e3f5d96ed2bb8d97be168538ae1f0.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658755"
 is_featured: false
+owned: true
 ---
 
 Try to live a week as The Postal Dude doing everyday chores on your to-do list, such as picking up milk at the grocery store. In a world where cats can be used as assault rifle silencers, it's not surprising that a milk carton costs 5 bucks. Stealing said carton might be relatively easy in your basic corner shop, but when the shop is owned by a bunch of trigger happy jihadists, you might want to think twice about trying to leave without paying for your overpriced groceries. Little mistakes like that might just flip the switch and make you go postal.

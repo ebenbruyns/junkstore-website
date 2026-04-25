@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "ToeJam & Earl: Back in the Groove - Steam Deck Compatibility"
-game_title: "ToeJam & Earl: Back in the Groove"
+title: "ToeJam & Earl: Back in the Groove! - Steam Deck Compatibility"
+game_title: "ToeJam & Earl: Back in the Groove!"
 slug: "toejam-earl-back-in-the-groove"
 storefront: "Epic"
 storefront_key: "epic"
@@ -14,12 +14,18 @@ date_tested: "Dec '25"
 proton_version: ""
 
 # Game Info
-publisher: Adult Swim Games, HumaNature Studios
+publisher: HumaNature Studios
 developer: HumaNature Studios
-genre: Adventure, Indie, Music
-release_date: "March 1, 2019"
+genre: Casual
+franchise: 
+age_rating_summary: 
+release_date: "October 14, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/11122"
+was_free_before: true
+giveaway_events: [{"start":"2022-10-12T15:00:00.000Z","end":"2022-10-19T15:00:00.000Z","type":null,"id":"db9725548f40419cac7d1c10f94c0736"}]
 
 # Images
 banner_image: "https://images.gog.com/e26f8426ccecd58d27019f42e694e777f62e50d684badf9823d82264054f03d8.jpg?namespace=gamesdb"
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "2.2 hrs"
+hltb_main_extra: "4.5 hrs"
+hltb_completionist: "15.9 hrs"
+hltb_url: "https://howlongtobeat.com/game/65277"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/toejam-and-earl-back-in-the-groove-cddc16"
@@ -69,7 +75,9 @@ known_issues:
 # Meta
 database_id: "37d84dd0b65a40e9b0719141b987a216"
 is_featured: false
+owned: true
 ---
 
-ToeJam and Earl have crash-landed back on Earth in ToeJam and Earl: Back in the Groove!, a funky fresh rogue-like adventure infused with old skool hip-hop and jam packed with awesome throwbacks to the 1991 classic.
-The iconic '90s duo is back in the groove with all-new presents to help them navigate this wack planet "Earth" and retrieve all the lost pieces to the Rapmaster Rocket. Team up for co-op play to discover secret locations, hidden presents and new friends as you make your way through a constantly changing and unpredictable world!
+ToeJam & Earl: Back in the Groove is a mash-up of the best features from the classic console games with a ton of funky fresh improvements.
+
+Relive the original roguelike game with new 4 player online and local co-op, crazy Earthlings, weird presents and aliens from Funkotron!

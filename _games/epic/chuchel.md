@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Amanita Design
 developer: Amanita Design
-genre: Adventure, Indie, Puzzle, Point-and-click
-release_date: "March 7, 2018"
+genre: Puzzle, Adventure, Indie
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "March 26, 2025"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Arabic*","Bulgarian*","Czech*","Danish*","Dutch*"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3fae0d003e508e5b78207a2d0bdd1f3993db3977f0855854f96a32cade078ec7.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "0a127baea2204bad8824602568fd2206"
 is_featured: false
+owned: true
 ---
 
-CHUCHEL is a comedy adventure game from the creators of Machinarium, Botanicula and Samorost. Help Chuchel to chase down the mysterious villain and retrieve his cherished cherry! The reward? A hearty situational humor, wild music and hilarious animations that warm up even the coldest of souls
+CHUCHEL is a comedy adventure game from the creators of Machinarium, Botanicula and Samorost. Join the hairy hero Chuchel and his rival Kekel as they will be facing numerous puzzles and challenges in their quest to retrieve the precious cherry!

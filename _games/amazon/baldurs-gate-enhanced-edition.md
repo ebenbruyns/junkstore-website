@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Atari, Beamdog
 developer: Overhaul Games
 genre: Role-playing (RPG), Strategy
+franchise: 
+age_rating_summary: 
 release_date: "November 27, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/13cc27fddc2e0d72b1d46da3e8620762a5a062e494a2282cc1d35d63a8a90ab4.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/814"
 store_url: ""
 protondb_url: "https://www.protondb.com/app/228280"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Baldur%27s_Gate%3A_Enhanced_Edition"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/baldurs-gate-enhanced-edition?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.5d35cae7-39d1-4e53-ba92-36004c4a5211"
 is_featured: false
+owned: true
 ---
 
 Running on an upgraded and improved version of the Infinity Engine, Baldur's Gate: Enhanced Edition™ includes the entire Baldur's Gate adventure, the Tales of the Sword Coast expansion pack, and never-before-seen content including a new adventure and three new party members: the Calishite monk Rasaad yn Bashir, Neera the wild mage, and Dorn Il-Khan, the evil blackguard.

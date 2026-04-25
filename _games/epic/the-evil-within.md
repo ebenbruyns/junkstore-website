@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Bethesda Softworks
 developer: Tango Gameworks
-genre: Adventure, Puzzle, Shooter
-release_date: "October 14, 2014"
+genre: Horror, Survival, Shooter
+franchise: The Evil Within
+age_rating_summary: ESRB Mature 17+
+release_date: "August 3, 2023"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Polish","Russian*languages with full audio support"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/4786"
+was_free_before: true
+giveaway_events: [{"start":"2023-10-18T15:00:00.000Z","end":"2023-10-25T15:00:00.000Z","type":null,"id":"087155540ecc47239c98c1265b40ba99"}]
 
 # Images
 banner_image: "https://images.gog.com/1253933a15469bc398c946f090f9fca187ee1cdd3a06f795c972df441b49d539.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: true
 epic_achievements: true
 epic_offline_mode: false
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "15.3 hrs"
+hltb_main_extra: "20 hrs"
+hltb_completionist: "40.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/9866"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-evil-within"
@@ -69,6 +75,9 @@ known_issues:
 # Meta
 database_id: "591e049d72b349daa64784a171379357"
 is_featured: false
+owned: true
 ---
 
-The Evil Within is an action survival horror game that draws inspiration from the Resident Evil series with a grimy look with exaggerated gore. The game was directed by Shinji Mikami, the creator of Resident Evil & a former Resident Evil 4 director. You must navigate through the hostile game world with limited resources, this requires to use your wits to survive and correctly manage your resources as you encounters various terrors and dangers throughout the game. The environments may also change without warning in real-time based on your actions, adding more variables to the game.
+Developed by Tango Gameworks and directed by Resident Evil series creator Shinji Mikami, The Evil Within embodies pure survival horror. 
+
+As Detective Sebastian Castellanos, fight for survival with limited resources in a twisted world of nightmares.

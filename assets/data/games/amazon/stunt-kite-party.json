@@ -39,6 +39,17 @@
   "genre": "Indie, Sport",
   "description": "Stunt Kite Party is a family-friendly single player and couch-coop multiplayer game with an exciting storyline and endless fun in numerous game modes.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/013017cf46f228ab34a601c7d20612493d34cd180abe8053692ea70f4f356504.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/275e5e4476ca970cc266e0619bcc7d51c9e00c1d4fb1662632387a71534e0d96.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/960240/capsule_231x87.jpg",
@@ -55,6 +66,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/stunt-kite-party/",
+  "hltb_id": 77250,
   "hltb_main": "1.5 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -64,5 +76,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T22:05:09.046Z"
+  "updated_at": "2026-04-25T00:54:03.281Z"
 }

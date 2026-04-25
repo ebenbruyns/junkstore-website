@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Kalypso Media Digital
 developer: Games Farm
 genre: "Role-playing (RPG), Hack and slash/Beat 'em up"
+franchise: 
+age_rating_summary: 
 release_date: "August 30, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8166a2c8c245e483d7741d084e6904bf815db79e6c4997333e321f0de38fcf58.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1442285576"
 is_featured: false
+owned: true
 ---
 
 Shadows: Awakening is a unique, isometric single-player RPG with real-time tactical combat. You embark on an epic adventure with challenging gameplay, a gripping storyline and enchanting graphics.

@@ -39,6 +39,17 @@
   "genre": "Indie",
   "description": "An adorable puzzle game about being a monster and making snowmen.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/316610/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/316610/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/316610/capsule_231x87.jpg",
@@ -60,6 +71,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -69,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-24T02:01:51.840Z",
-  "updated_at": "2026-02-08T02:00:27.248Z"
+  "updated_at": "2026-04-25T00:57:28.305Z"
 }

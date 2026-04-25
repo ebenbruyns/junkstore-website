@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Retrocade Media
 developer: Retrocade Media
 genre: Shooter, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "September 14, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn2.steamgriddb.com/logo_thumb/1c6ea3cdbb4eb6ec13bd3f42d635a140.png"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1195751"
 is_featured: false
+owned: true
 ---
 
 Viral Reload is an Infinite Wave based shoot-em-up with a unique dash mechanic. Blast away at deadly viruses and mechanical hybrids, as well as 2 unique bosses. Dash through bullets, lasers, and enemies to say alive and score!

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: PlayMedusa
 developer: PlayMedusa
 genre: "Indie, Arcade, Hack and slash/Beat 'em up, Fighting"
+franchise: 
+age_rating_summary: 
 release_date: "November 15, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2614640/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "513385"
 is_featured: false
+owned: true
 ---
 
 You are a Werewolf. But there are worse monsters in Hell's Creek!

@@ -14,12 +14,18 @@ date_tested: "Oct '24"
 proton_version: ""
 
 # Game Info
-publisher: Illfonic
-developer: Illfonic
-genre: Adventure, Shooter
-release_date: "October 18, 2022"
+publisher: IllFonic
+developer: IllFonic
+genre: Horror, Shooter
+franchise: Ghostbusters
+age_rating_summary: ESRB Everyone 10+
+release_date: "October 19, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"1203","name":"Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/123ad9b540cbe6dc28ea5e7ea039b8bc189b74d90cf6bddec8cd5d6ac46704e6.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://store.epicgames.com/en-US/p/ghostbusters-spirits-unleashed"
 protondb_url: "https://www.protondb.com/app/2383990"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghostbusters%3A_Spirits_Unleashed"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,8 @@ known_issues:
 # Meta
 database_id: "ab374ffb0bab4b399a5d5cbdfde77a37"
 is_featured: false
+owned: true
 ---
 
-An all-ages take on its brand of four-versus-one asymmetric multiplayer games, where you play as your own original Ghostbusters team — or take on the role of a ghost hellbent on wreaking haunted havoc.
+Hunting or haunting! The choice is yours in the upcoming asymmetrical Ghostbusters game from IllFonic, Ghostbusters: Spirits Unleashed. Play with up to four friends or solo on multiple platforms.
+

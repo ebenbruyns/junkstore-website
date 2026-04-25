@@ -14,12 +14,18 @@ date_tested: "April '26"
 proton_version: ""
 
 # Game Info
-publisher: Artak Avetisyan
+publisher: Artak Avetisyan IE
 developer: Artak Avetisyan IE
-genre: RPG, Early Access
-release_date: "February 18, 2026"
+genre: Fantasy, RPG, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "February 20, 2026"
 game_modes: ["Single-player"]
 languages: ["English*","Russian*languages with full audio support"]
+tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/e0b2ef75c4ca470eae076d9d54087eb4/undead-rise-of-the-betrayed-king-1qh79.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "5bb7e08d83814392971d666696080aa0"
 is_featured: false
+owned: true
 ---
 
 An action RPG with realistic visuals where you play as a dragon hiding in the form of a barbarian, fighting the undead using magic, combat companions, and a deep progression system.

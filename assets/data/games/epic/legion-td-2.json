@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/469600",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/legion-td-2-a244b9",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Legion_TD_2",
   "notes": "Need to verify this game with your account and enable the EOS overlay.",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -33,12 +33,128 @@
   "cant_test_linux": false,
   "databaseId": "d50bfa4d5a8c4b0885f846d826df16b8",
   "shortname": "d50bfa4d5a8c4b0885f846d826df16b8",
-  "publisher": "AutoAttack Games",
+  "publisher": "Ninja Kiwi",
   "developer": "AutoAttack Games",
-  "releasedate": "2021-10-01T00:00:00+0000",
-  "genre": "Strategy, Indie, Real Time Strategy (RTS)",
+  "releasedate": "2024-10-22T12:00:00.000Z",
+  "genre": "Indie, Tower Defense, Strategy",
   "description": "An infinitely replayable multiplayer and single-player tower defense. Defend against waves of enemies and destroy the enemy's king before they destroy yours. Legion TD 2 is a one-of-a-kind game of tactics, teamwork, and prediction. Party as 1-8 players.",
   "size": "1665442693\n",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "33639",
+      "name": "Promotional Content"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "1170",
+      "name": "Tower Defense"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1170",
+      "name": "Tower Defense"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 32680,
+  "igdb_url": "https://www.igdb.com/games/32680",
+  "giveaway_events": [
+    {
+      "start": "2025-07-24T15:00:00.000Z",
+      "end": "2025-07-31T15:00:00.000Z",
+      "type": null,
+      "id": "71f1c64e7e41477ca09228c1253c9ce7"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "An infinitely replayable multiplayer and single-player tower defense. Defend against waves of enemies and destroy the enemy's king before they destroy yours. Legion TD 2 is a one-of-a-kind game of tactics, teamwork, and prediction. Party as 1-8 players.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/3f074b3852fc6119d415f77c4911b9971184354e2ab7f2162ed4e4a5ba9ab9b1.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ef28e1d69d5f26e766eb6681d4109fe93b02581999d9bde9ce4a1f93200cac97.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/dda0fb6579d93db41f3652a4b5e215bcafeaf1a5091e45ae5d857ad4ac15a4af.jpg?namespace=gamesdb",
@@ -53,15 +169,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "43450",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/43450",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:54:01.628Z",
-  "updated_at": "2025-08-11T10:21:29.033Z"
+  "updated_at": "2026-04-25T02:44:21.745Z"
 }

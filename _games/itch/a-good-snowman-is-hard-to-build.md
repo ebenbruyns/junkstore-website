@@ -17,9 +17,15 @@ proton_version: ""
 publisher: "Draknek & Friends"
 developer: Alan Hazelden
 genre: Indie
+franchise: 
+age_rating_summary: 
 release_date: "February 25, 2015"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/316610/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "18387"
 is_featured: false
+owned: true
 ---
 
 An adorable puzzle game about being a monster and making snowmen.

@@ -37,8 +37,89 @@
   "developer": "Hyperstrange",
   "releasedate": "2023-12-05T00:00:00+0000",
   "genre": "Role-playing (RPG), Shooter",
-  "description": "Blood West is an immersive stealth shooter taking place in a nightmare version of a classic wild west setting. The player takes on the role of an outlawed gunslinger brought back to live by strange native spirits to find the root of a curse that has befallen the land. They will explore the dangerous frontier, gather supplies, expand their arsenal, and gain experience to unlock special traits, to best the many monsters and face off with challenging bosses.",
+  "description": "Weird west legends meet eldritch horror in BLOOD WEST, an immersive stealth FPS. Become the Undead Gunslinger, doomed to roam the barren lands until he manages to purge their curse, freeing his soul. 3 varied scenarios, perk-based progression, and 20+ hours of gameplay await you!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1294",
+      "name": "First Person"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 188555,
+  "igdb_url": "https://www.igdb.com/games/188555",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Weird west legends meet eldritch horror in BLOOD WEST, an immersive stealth FPS. Become the Undead Gunslinger, doomed to roam the barren lands until he manages to purge their curse, freeing his soul. 3 varied scenarios, perk-based progression, and 20+ hours of gameplay await you!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/85d9df6e80afdd8245dda20445a9484766ba4f316196c613cdc22ac157b9369c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2dc96210c629498a2b278954d6dd0f48ec7a7b5c3b99a7d8ce290fec90f311c2.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/66d06e4137e4f37d5aae79b0106b902a21d608adb24c1c320f6d9e4ab98060a9.jpg?namespace=gamesdb",
@@ -51,6 +132,7 @@
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/pc/blood-west?ftag=MCD-06-10aaa1f",
+  "hltb_id": 103900,
   "hltb_main": "13.6 hrs",
   "hltb_main_extra": "22 hrs",
   "hltb_completionist": "34.7 hrs",
@@ -62,5 +144,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-08-11T02:17:13.605Z"
+  "updated_at": "2026-04-25T02:24:30.412Z"
 }

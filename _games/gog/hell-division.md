@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Whale Rock Games
 developer: Whale Rock Games
 genre: Indie, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "June 3, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/10bb0ee2e1778ca1ba6ce2cfef3e72eb3a156fdee136d786c2ccd1e62d73381e.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1321737474"
 is_featured: false
+owned: true
 ---
 
 Hell Division is a game from the 3rd person, which is a battle of combat drones.

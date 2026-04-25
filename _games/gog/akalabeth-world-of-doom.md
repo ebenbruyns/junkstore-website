@@ -17,9 +17,15 @@ proton_version: ""
 publisher: California Pacific Computer, Quantum Toast
 developer: Richard Garriott
 genre: Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "June 30, 1979"
 game_modes: ["Single player"]
 languages: []
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/91146cec4a57fd6bbd3411d4348fb56b704cd6354ceb951760d54907cfe5b820.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207666073"
 is_featured: false
+owned: true
 ---
 
 In the game, the player character visits Lord British and is instructed by him to kill certain monsters. The final mission is to kill a balrog, and after this has been accomplished, Lord British proclaims that "thou hast proven thyself worthy of knighthood".

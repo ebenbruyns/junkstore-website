@@ -14,12 +14,18 @@ date_tested: "Sept '25"
 proton_version: ""
 
 # Game Info
-publisher: Thunderful
+publisher: Thunderful Publishing
 developer: Chuhai Labs
 genre: "Adventure, Indie, Puzzle, Sport, Arcade, Card & Board Game"
-release_date: "August 18, 2022"
+franchise: 
+age_rating_summary: 
+release_date: "January 1, 2099"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Portuguese - Brazil","Russian*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7fa0effed4c6443571844a5c045e088c1b0fa21c8954a963760a35a76ae46453.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "077d2507a5fe4073bf0dd69485f425f5"
 is_featured: false
+owned: true
 ---
 
 Cursed to Golf is a golf-like adventure where every shot counts. Players are tasked with making it out of Golf Purgatory to become a Golfing Legend. With insane hazards, otherworldly power-ups and tons of replayability, will you make it back alive or will you forever be… Cursed to Golf!?

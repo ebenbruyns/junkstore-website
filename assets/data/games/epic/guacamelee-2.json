@@ -5,13 +5,13 @@
   "protondb": "https://www.protondb.com/app/534550",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/guacamelee-2-ac4977",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Guacamelee%21_2",
   "notes": "<strong>Works out of the box</strong> — no extra setup needed. You need to verify it with your Epic account.",
   "date_tested": "July '25",
-  "decky_rating": "Perfect",
-  "standalone_rating": "Perfect",
+  "decky_rating": "green",
+  "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "Native Steam Deck Controls",
@@ -28,17 +28,117 @@
   "required_launcher": "",
   "requires_account_setup": false,
   "account_type": "",
-  "controller_input": "",
+  "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
   "databaseId": "fab83c3bf3d449718e042d44369e7fb6",
   "shortname": "fab83c3bf3d449718e042d44369e7fb6",
-  "publisher": "Drinkbox Studios",
-  "developer": "Drinkbox Studios",
-  "releasedate": "2018-08-21T00:00:00+0000",
-  "genre": "Adventure, Indie, Platform, Hack and slash/Beat 'em up, Fighting",
-  "description": "Seven years after defeating Carlos Calaca, Juan Aguacate is forced to don his luchador mask again to face a new threat - this time to the very fabric of space and time. Punch your way through a whole new Metroid-vania style world and try to save the Mexiverse!",
+  "publisher": "DrinkBox Studios",
+  "developer": "DrinkBox Studios",
+  "releasedate": "2023-06-15T15:00:00.000Z",
+  "genre": "Fighting, Action-Adventure, Platformer",
+  "description": "Head back to the Mexiverse in this long-awaited sequel to the smash hit Guacamelee! Uppercut your way to victory across stunning new hand-crafted levels. Featuring a dense and colorful world, new luchador moves, sassy new bosses, twice the enemies, and 300% more chickens!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1344",
+      "name": "Fighting"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1344",
+      "name": "Fighting"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 75234,
+  "igdb_url": "https://www.igdb.com/games/75234",
+  "giveaway_events": [
+    {
+      "start": "2023-06-14T15:00:00.000Z",
+      "end": "2023-06-21T15:00:00.000Z",
+      "type": null,
+      "id": "f7aa0e57c2b94acd97a28a7ec99a7ded"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Head back to the Mexiverse in this long-awaited sequel to the smash hit Guacamelee! Uppercut your way to victory across stunning new hand-crafted levels. Featuring a dense and colorful world, new luchador moves, sassy new bosses, twice the enemies, and 300% more chickens!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/8561945308f873619b5572fbec0b955425512d99d4db395b138c323c0542dded.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fdfc6a644abac671396e662aaa54ce6ff1b65ca1ed8785745e53a4eefa3f05a7.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/4e0572e965090c50c663829431970a2db1796839b809d884c6641273e6fa4fb3.jpg?namespace=gamesdb",
@@ -53,14 +153,15 @@
   ],
   "metacritic_score": 84,
   "metacritic_url": "https://www.metacritic.com/game/pc/guacamelee!-2?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 59509,
+  "hltb_main": "9 hrs",
+  "hltb_main_extra": "11.5 hrs",
+  "hltb_completionist": "15.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/59509",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "updated_at": "2026-04-25T05:41:55.229Z"
 }

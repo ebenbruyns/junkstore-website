@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Activision, LucasArts, Aspyr Media
 developer: BioWare
 genre: role-playing, adventure
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d721c6891571fac1a8d618c7ba34ffdc138a27c3291896e79f92f81fb0d3dca0.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/9111"
 store_url: "https://www.gog.com/en/game/star_wars_knights_of_the_old_republic"
 protondb_url: "https://www.protondb.com/app/32370"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars%3A_Knights_of_the_Old_Republic"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207666283"
 is_featured: false
+owned: false
 ---
 
 Choose Your Path! Set 4,000 years before the Galactic Empire, you are the last hope for the Jedi Order and the Republic...

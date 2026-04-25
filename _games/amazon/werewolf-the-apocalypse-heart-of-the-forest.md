@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Different Tales
 developer: Different Tales
 genre: Adventure, Indie, RPG
+franchise: 
+age_rating_summary: 
 release_date: "October 13, 2020"
 game_modes: ["Single-player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1342620/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.827fa625-e3c0-4671-9557-71bbcf7c7115"
 is_featured: false
+owned: true
 ---
 
 Explore the myths and monsters of Europe’s last primeval wilderness. Play as Maia, who arrives at the ancient Białowieża Forest looking to explore her family history. Discover Rage in an adventure game inspired by the experience of the legendary tabletop roleplaying game Werewolf: The Apocalypse.

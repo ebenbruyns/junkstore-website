@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Iceberg Interactive
 developer: Freaking Games
 genre: Casual, Indie, Simulation
+franchise: 
+age_rating_summary: 
 release_date: "September 14, 2022"
 game_modes: ["Single-player"]
 languages: ["English*","German","Danish","French","Dutch","Russian","Simplified Chinese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/968250/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1863909997"
 is_featured: false
+owned: true
 ---
 
 The store is your kingdom! Expand your humble boutique into a thriving business: hire the right staff, decorate your displays, and lure in customers. Even your wildest ideas can turn a profit. Why not start a business that sells only white T-shirts and ketchup? PCs and beans? Your rule, your rules!

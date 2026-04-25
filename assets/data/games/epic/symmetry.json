@@ -33,12 +33,45 @@
   "cant_test_linux": false,
   "databaseId": "f140a7ed4f8141298cb024b12f70feb3",
   "shortname": "f140a7ed4f8141298cb024b12f70feb3",
-  "publisher": "Sleepless Clinic",
-  "developer": "IMGN.PRO",
-  "releasedate": "2018-02-20T00:00:00+0000",
-  "genre": "Adventure, Indie, Simulation, Strategy",
+  "publisher": "IMGN.PRO",
+  "developer": "Sleepless Clinic",
+  "releasedate": "2022-05-26T14:00:00.000Z",
+  "genre": "Indie",
   "description": "A research spaceship reaches an abandoned planet. Nothing is what it seems here and the situation quickly slips out of control. Can the crew manage to survive and get back home?",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 30988,
+  "igdb_url": "https://www.igdb.com/games/30988",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "A research spaceship reaches an abandoned planet. Nothing is what it seems here and the situation quickly slips out of control. Can the crew manage to survive and get back home?",
+  "use_rich_description": true,
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/12979c6c16ec4c6a8d7735b4a821c443/download-symmetry-offer-sdp46.png",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/12979c6c16ec4c6a8d7735b4a821c443/symmetry-offer-1tgcn.png",
   "icon_image": "https://images.gog.com/eb4d3a82d9d0ced16a43c3b37dcbdee91639c9b77d71c76a239eba055d832d5a.jpg?namespace=gamesdb",
@@ -60,15 +93,16 @@
   ],
   "metacritic_score": 60,
   "metacritic_url": "https://www.metacritic.com/game/pc/symmetry?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 63310,
+  "hltb_main": "2.5 hrs",
+  "hltb_main_extra": "3 hrs",
+  "hltb_completionist": "4.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/63310",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-03-27T23:17:05.229Z",
-  "updated_at": "2026-04-03T22:02:28.707Z"
+  "updated_at": "2026-04-25T05:55:35.366Z"
 }

@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Puzzle",
   "description": "Vlad Circus: Descend into Madness puts your sanity to the test, challenging you to escape a labyrinth of nightmares and torment. Test your mind against a slow burn of puzzles, light survival mechanics, and methodical action.",
   "size": "927 MB",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/cb1873e2360c09229454802e48cf3e0cc367a7cf3c0d3220346c470d1932833e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9675422b74b529a1e8091160add1f6f1139d95bf1b5903b625ba8f5c22b2a8a4.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/vlad-circus-descend-into-madness/",
+  "hltb_id": 139322,
   "hltb_main": "4.5 hrs",
   "hltb_main_extra": "5.5 hrs",
   "hltb_completionist": "6.5 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2026-04-23T22:17:37.438Z"
+  "updated_at": "2026-04-25T00:44:44.712Z"
 }

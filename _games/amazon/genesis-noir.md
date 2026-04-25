@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Fellow Traveller
 developer: Feral Cat Den
 genre: Adventure, Indie, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "March 11, 2021"
 game_modes: ["Single player"]
 languages: ["English*","French","German","Japanese","Portuguese - Brazil","Russian","Italian","Korean","Simplified Chinese","Spanish - Latin America"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a771450f277c5f0b0458465558ad6aa295cc92c403c1c0c1681195d44c2649dd.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.35fd4aba-910f-4f83-b4b8-5ef898a20ae1"
 is_featured: false
+owned: true
 ---
 
 A noir adventure spanning time and space.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Goblinz Publishing, Gamera Games
 developer: Roboatino
 genre: "Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie, Card & Board Game"
+franchise: 
+age_rating_summary: 
 release_date: "September 5, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/de66ba28e79c8ab421efd727dc446d0e05318a4308562aff26186266fe361448.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/132657"
 store_url: "https://www.gog.com/en/game/shogun_showdown"
 protondb_url: "https://www.protondb.com/app/2084000"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shogun_Showdown"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1104084973"
 is_featured: false
+owned: true
 ---
 
 Shogun Showdown is a turn-based combat game with rogue-like and deck-building elements. Position yourself and attack at the right time, upgrade your tiles and combo them to get ready to face the Shogun!

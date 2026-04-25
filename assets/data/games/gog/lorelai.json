@@ -39,6 +39,17 @@
   "genre": "Adventure, Point-and-click",
   "description": "Lorelai, a brand new emotional horror ride from the maker of The Cat Lady and Downfall, tells a coming of age story of a young girl trying to escape the hell of her toxic family home. But adulthood is like waking up from a long dream. There will be times you will wish you were asleep again... But you can never go back to the same dream.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/654b36507052f660e031ee9977dbc099f4a883ac7965eca1fa96037633eb9e1f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/52079ea29b96aad0ac197666e8ce32106c0d75ab506311b01ce037d4478d3857.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/070a7edc127818a46d9d5cad64ef97c5bfce6e13162d205932e1be329c640e2c.jpg?namespace=gamesdb",
@@ -61,6 +72,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 66713,
   "hltb_main": "5.5 hrs",
   "hltb_main_extra": "6 hrs",
   "hltb_completionist": "8 hrs",
@@ -72,5 +84,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-02-17T04:03:19.432Z"
+  "updated_at": "2026-04-25T00:51:52.914Z"
 }

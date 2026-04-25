@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Maple Whispering Limited, Humble Games
 developer: Thomas Moon Kang
 genre: role-playing, adventure, strategy, indie, shooter, real time strategy
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0b941e3afe78e370347c8609d7dbb16d298ecf565b215955cb8ce5a20bb4c19c.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/64665"
 store_url: "https://www.gog.com/en/game/one_step_from_eden"
 protondb_url: "https://www.protondb.com/app/960690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/One_Step_from_Eden"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/one-step-from-eden?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1112715616"
 is_featured: false
+owned: false
 ---
 
 One Step From Eden combines strategic deckbuilding and realtime action with roguelike elements. Cast powerful spells on the fly, battle evolving enemies, collect game-changing artifacts, make friends or make enemies. Make it one step from Eden, the last shining beacon of hope in a bleak post-war world. Fight alone (or with a friend in co-op) and lead your character down a path of mercy or destruction.

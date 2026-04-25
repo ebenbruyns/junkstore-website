@@ -14,12 +14,18 @@ date_tested: "April '25"
 proton_version: ""
 
 # Game Info
-publisher: Avalanche Studios
+publisher: Expansive Worlds
 developer: Expansive Worlds
-genre: Adventure, Strategy, Sport, Shooter, Simulator
-release_date: "February 16, 2017"
+genre: First Person, Simulation, Open World
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "November 26, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/26381"
+was_free_before: true
+giveaway_events: [{"start":"2023-06-21T15:00:00.000Z","end":"2023-06-28T15:00:00.000Z","type":null,"id":"7b0d120a875547e9bec70192ddcc96e2"},{"start":"2021-11-24T15:00:00.000Z","end":"2021-12-01T15:00:00.000Z","type":null,"id":"7b0d120a875547e9bec70192ddcc96e2"}]
 
 # Images
 banner_image: "https://images.gog.com/7866c86d9e58b7528603f8b83c6b99f02a53898a78415db982803424299eae7a.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "26 hrs"
+hltb_main_extra: "83 hrs"
+hltb_completionist: "219 hrs"
+hltb_url: "https://howlongtobeat.com/game/43633"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/thehunter-call-of-the-wild"
 protondb_url: "https://www.protondb.com/app/518790"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Hunter%3A_Call_of_the_Wild"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "4f0c34d469bb47b2bcf5b377f47ccfe3"
 is_featured: false
+owned: true
 ---
 
-Never before have you experienced a hunting game like theHunter: Call of the Wild. Plunge into an atmospheric open world, teeming with life: from the majestic true-to-life animals to the rustling of leaves above you as you stalk your prey. You can decide to hunt on your own or join up and hunt together with friends. Just remember, you are not just a visitor in this world, you are a living and breathing part of it. As you finally spot the majestic crown of your first red deer through the brush, the feeling is indescribable.
+Experience an atmospheric hunting game like no other in this realistic and visually breathtaking open world. Immerse yourself in the atmospheric single player campaign, or share the ultimate hunting experience with friends.

@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Indie, Platform, Fighting",
   "description": "Take control of your parallel selves on a mission to save the dying multiverse in this rogue-lite action platformer! Explore dark, sci-fi worlds and engage in fast-paced, smooth and precise combat.\n\nThe various branches of the multiverse are always changing. Fight through a combination of procedurally-generated levels as well as hand-crafted challenges and arenas that will put your skills to the test. Levels with 3D graphics are seamlessly constructed out of hundreds of hand-made rooms.\n\nWith weapons and attack systems that leverage our previous experience working on fighting games. You’ll slide, dash and dodge between enemy attacks and strike back with an arsenal of satisfying special weapons and abilities.\n\nEach of your parallel selves has their own world with multiple biomes to explore, as well as their own sets of unique abilities and weapons. Travel through a universe of desolate wastes and caverns roamed by mutant creatures, escape the endless forges and labs of a world ruled by machines, and survive the dangerous sky cities of a post-human society.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/09f5d9c109f2c9a2afdecfa395ba1aca495a98ef95f786b85df7a0478cd24c7d.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/011b93ef012f91d073113ed67d3dcbdf295d605cee4d470cb778cce710819b02.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1911360/capsule_231x87.jpg",
@@ -59,6 +70,7 @@
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/pc/trinity-fusion?ftag=MCD-06-10aaa1f",
+  "hltb_id": 123801,
   "hltb_main": "5 hrs",
   "hltb_main_extra": "13.5 hrs",
   "hltb_completionist": "",
@@ -68,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2025-12-11T20:07:57.429Z"
+  "updated_at": "2026-04-25T00:54:09.761Z"
 }

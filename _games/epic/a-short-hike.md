@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Whippoorwill, Adam Gryu
 developer: Adam Gryu
-genre: adventure, indie
-release_date: "Invalid Date"
+genre: Casual, Platformer, Indie
+franchise: 
+age_rating_summary: 
+release_date: "March 5, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2020-03-11T15:00:00.000Z","end":"2020-03-18T15:00:00.000Z","type":null,"id":"e97596b69a334eb896d3567ffad85093"}]
 
 # Images
 banner_image: "https://images.gog.com/6cd02e02bc691cb846b8f6bea011ac7330cd34bc2076fd92f520aab08c5508d6.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "d6407c9e6fd54cb492b8c6635480d792"
 is_featured: false
+owned: false
 ---
 
-Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak Provincial Park as you make your way to the summit.
+Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak. Follow the trails or explore the backcountry as you make your way to the summit. Along the way, meet other hikers, discover hidden treasures, and take in the world around you

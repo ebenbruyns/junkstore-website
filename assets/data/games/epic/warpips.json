@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1291010",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/warpips-57e2c4",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Warpips",
   "notes": "Works out of the box!",
   "date_tested": "Nov '24",
   "decky_rating": "green",
@@ -35,10 +35,98 @@
   "shortname": "1f695dfd76d8438d8dd4046fe75daab0",
   "publisher": "Daedalic Entertainment",
   "developer": "Skirmish Mode Games",
-  "releasedate": "2021-04-29T00:00:00+0000",
-  "genre": "Strategy, Indie, Real Time Strategy (RTS), Tactical",
+  "releasedate": "2022-04-21T17:00:00.000Z",
+  "genre": "Rogue-Lite, Strategy",
   "description": "Warpips is the ultimate quick to learn but amazingly deep tug-of-war strategy game. Deploy the right composition of soldiers, tanks, helicopters and planes in this tight, streamlined strategy-focused war game. Compose the best army, research the right tech; overwhelm your enemy!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 146438,
+  "igdb_url": "https://www.igdb.com/games/146438",
+  "giveaway_events": [
+    {
+      "start": "2023-02-15T15:00:00.000Z",
+      "end": "2023-02-22T15:00:00.000Z",
+      "type": null,
+      "id": "f6e75092c08045afa343fb5c5aa817ae"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Warpips is the ultimate quick to learn but amazingly deep tug-of-war strategy game. Deploy the right composition of soldiers, tanks, helicopters and planes in this tight, streamlined strategy-focused war game. Compose the best army, research the right tech; overwhelm your enemy!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/189376e0849ed603351725c115baed3b6758fd0076d92d69953db13eb2dfe533.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d3fc470055cce4a9baf9b4b42d682220f0fc0866a759b31be737c7b24ff874ea.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6962aff9e641f3f76dafcaadc19e19f9db4f7b1a23b7ec9926e35593ff7ac439.jpg?namespace=gamesdb",
@@ -51,14 +139,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 84001,
+  "hltb_main": "7 hrs",
+  "hltb_main_extra": "10.5 hrs",
+  "hltb_completionist": "12.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/84001",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "updated_at": "2026-04-25T05:46:02.677Z"
 }

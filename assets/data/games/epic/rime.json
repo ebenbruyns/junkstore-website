@@ -35,10 +35,74 @@
   "shortname": "Hydrangea",
   "publisher": "Grey Box, Six Foot",
   "developer": "Tequila Works",
-  "releasedate": "2017-05-26",
-  "genre": "Adventure, Indie, Platform, Puzzle",
-  "description": "A third-person exploratory action/adventure title in which a boy ends up on a mysterious island and makes his way through its highly stylized environments",
+  "releasedate": "2017-05-26T15:00:00.000Z",
+  "genre": "Puzzle, Exploration, Adventure",
+  "description": "Play as a young boy who has awakened on a mysterious island after a torrential storm. You see wild animals, long-forgotten ruins and a massive tower that beckons you to come closer. Armed with your wits and a will to overcome—and the guidance of a helpful fox—you must explore ...",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21151",
+      "name": "Easy Puzzles"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2019-05-22T15:00:00.000Z",
+      "end": "2019-05-29T15:00:00.000Z",
+      "type": null,
+      "id": "afaa5744cbcd46caa500e342f9f47d84"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Play as a young boy who has awakened on a mysterious island after a torrential storm. You see wild animals, long-forgotten ruins and a massive tower that beckons you to come closer. Armed with your wits and a will to overcome—and the guidance of a helpful fox—you must explore ...",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/18ae5ab62998a324fc92b7b0b54c9bfbc48c440e1f43c479ba2655b8a433103d.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d365f1bd60edfb60e37b292890715e057b9a9ce5e3ec521020b3e353d674d698.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/41715442a974c69af88cbffbae8d7c0385fd3be8554c70a4fe853ac2412bdf8e.jpg?namespace=gamesdb",
@@ -51,15 +115,16 @@
   ],
   "metacritic_score": 78,
   "metacritic_url": "https://www.metacritic.com/game/pc/rime?ftag=MCD-06-10aaa1f",
+  "hltb_id": 20064,
   "hltb_main": "5.5 hrs",
   "hltb_main_extra": "6.5 hrs",
   "hltb_completionist": "10 hrs",
   "hltb_url": "https://howlongtobeat.com/game/20064",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-12-28T20:15:51.014Z"
+  "updated_at": "2026-04-25T03:32:51.897Z"
 }

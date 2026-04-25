@@ -17,9 +17,15 @@ proton_version: "Proton 9.0-4"
 publisher: Orangepixel
 developer: Orangepixel
 genre: Action, Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "September 9, 2021"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Danish","Japanese","Dutch","Polish","Portuguese - Portugal"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1290780/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1688702977"
 is_featured: false
+owned: true
 ---
 
 Explore a forgotten galaxy full of different planets, venture deeper into the planet to mine for rare resources, craft items to fix your ship, and discover ancient secrets and life forms. An exploration (survival) game like no other.. Adventure awaits!

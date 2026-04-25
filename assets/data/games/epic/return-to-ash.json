@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "https://store.epicgames.com/en-US/p/return-to-ash-dee3ff",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Return_to_Ash",
   "notes": "Works out of the box!",
   "date_tested": "Feb '26",
   "decky_rating": "green",
@@ -35,10 +35,46 @@
   "shortname": "e7d7c393d6f7499596e7d268a58b1970",
   "publisher": "Serenity Forge",
   "developer": "Serenity Forge",
-  "releasedate": "2025-07-10T00:00:00+0000",
+  "releasedate": "2026-02-19T16:00:00.000Z",
   "genre": "Adventure",
   "description": "“The hospital was empty. Quiet, and brighter than usual... like waking up on a snow day. But I didn't feel cold. I didn't feel much of anything.”",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 347245,
+  "igdb_url": "https://www.igdb.com/games/347245",
+  "giveaway_events": [
+    {
+      "start": "2026-02-19T16:00:00.000Z",
+      "end": "2026-02-26T16:00:00.000Z",
+      "type": null,
+      "id": "06cd7ef2079646dcb6c5b04e04e1d676"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "“The hospital was empty. Quiet, and brighter than usual... like waking up on a snow day. But I didn't feel cold. I didn't feel much of anything.”",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/3445830/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/3445830/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/3445830/header.jpg",
@@ -53,6 +89,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -63,5 +100,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-02-19T22:53:40.587Z",
-  "updated_at": "2026-02-26T20:20:19.616Z"
+  "updated_at": "2026-04-25T02:21:03.865Z"
 }

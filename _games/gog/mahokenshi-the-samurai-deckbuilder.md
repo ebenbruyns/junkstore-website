@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Iceberg Interactive
 developer: Game Source Studio
 genre: RPG
+franchise: 
+age_rating_summary: 
 release_date: "January 24, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Portuguese - Portugal"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1717640/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1409800471"
 is_featured: false
+owned: true
 ---
 
 Mahokenshi is a turn-based blend of adventure, deck-building and deep hex-grid strategy. Create your deck, out-smart your enemy, battle challenging demons and adventure through the Celestial Islands to protect your home from the forces of corruption.

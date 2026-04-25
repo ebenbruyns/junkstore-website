@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Platform, Simulator",
   "description": "🖼make art🖼 ✨achieve creative fulfillment✨ 🖌that's ART SQOOL babie!🖌",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/8086cdad0fbec2db9fa5c78ed18ec43b70a0b5fc0782955be2106f1499777af9.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/953300/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/953300/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.833Z",
-  "updated_at": "2025-12-30T02:35:32.888Z"
+  "updated_at": "2026-04-25T00:55:15.394Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: THQ
 developer: Relic Entertainment
 genre: Strategy, Real Time Strategy (RTS)
+franchise: 
+age_rating_summary: 
 release_date: "September 20, 2004"
 game_modes: ["Single-player","Multi-player"]
 languages: ["English","French","German","Italian","Spanish - Spain"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/2ab54bb37788db58246d6f6137d0b747848c3e00eec0371667e79a5d5d0a1715.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.86ca16ee-c209-4dab-8ded-9971d3ac6fad"
 is_featured: false
+owned: true
 ---
 
 Warhammer 40,000: Dawn of War is a revolutionary science fiction real-time strategy (RTS) game set in the violent, post-apocalyptic universe of the 41st Millennium. Utilizing the exceptional game design skills of Relic Entertainment, Dawn of War provides an immersive entertainment experience of epic proportions. Command hardened troops, deadly vehicles and high-tech weaponry with one goal in mind, the complete extermination of the opposition.

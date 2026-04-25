@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Wired Productions
 developer: Caged Element
 genre: Indie, Shooter, Racing
+franchise: 
+age_rating_summary: 
 release_date: "November 6, 2018"
 game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/5f53af01428315783fb7c5c8c6e24e5dcc0e4eef83349ff14fea1be7dbdcd596.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/34553"
 store_url: "https://www.gog.com/en/game/grip"
 protondb_url: "https://www.protondb.com/app/396900"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/GRIP%3A_Combat_Racing"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/grip?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1342466874"
 is_featured: false
+owned: true
 ---
 
 Inspired by the Rollcage games of 1999 and 2000, Grip is a new IP for a new generation. A return to the hardcore combat racer, bristling with heavy weapons and packing ferocious speed, the game is an intense, sensory feast.

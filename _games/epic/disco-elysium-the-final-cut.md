@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: ZA/UM
 developer: ZA/UM
-genre: RPG
-release_date: "October 15, 2019"
+genre: RPG, Adventure
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "June 7, 2020"
 game_modes: ["Single-player"]
 languages: ["English*","Simplified Chinese","Spanish - Spain","Korean","Portuguese - Brazil","French","German","Traditional Chinese","Russian","Polish"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1127","name":"Investigation"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"21146","name":"Educational"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/26472"
+was_free_before: true
+giveaway_events: [{"start":"2025-12-25T16:00:00.000Z","end":"2025-12-26T16:00:00.000Z","type":null,"id":"1112adb4b6af47238cbc563ae2b1c6ab"}]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/632470/library_hero.jpg"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: true
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "7334aba246154b63857435cb9c7eecd5"
 is_featured: false
+owned: true
 ---
 
-Disco Elysium - The Final Cut is a groundbreaking role playing game. You’re a detective with a unique skill system at your disposal and a whole city to carve your path across. Interrogate unforgettable characters, crack murders or take bribes. Become a hero or an absolute disaster of a human being.
+Disco Elysium - The Final Cut is a groundbreaking role playing game. You’re a detective with a unique skill system at your disposal. Interrogate unforgettable characters, crack murders or take bribes. Become a hero or an absolute disaster of a human being.

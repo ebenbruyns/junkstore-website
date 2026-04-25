@@ -14,12 +14,18 @@ date_tested: "April '26"
 proton_version: ""
 
 # Game Info
-publisher: Sega
-developer: CREATIVE ASSEMBLY
+publisher: SEGA
+developer: Creative Assembly
 genre: Action, Strategy
-release_date: "July 25, 2024"
+franchise: Total War
+age_rating_summary: ESRB Teen
+release_date: "February 11, 2026"
 game_modes: ["Single-player","Multi-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Portuguese - Brazil","Simplified Chinese"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"}]
+igdb_url: "https://www.igdb.com/games/250531"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2951630/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "c90f02864e054feba10b315af7592fa3"
 is_featured: false
+owned: true
 ---
 
-Wage total war across the ancient world from the Aegean to Mesopotamia in this free addition to Total War: PHARAOH. Challenge the Bronze Age Collapse by building your own dynasty and leading your faction to victory with new cultures, new units and dramatic new battle mechanics.
+Wage total war across the ancient world from the Aegean to Mesopotamia in Total War: PHARAOH DYNASTIES. Challenge the Bronze Age Collapse, build your dynasty and lead your faction to victory with new cultures, units and battle mechanics.

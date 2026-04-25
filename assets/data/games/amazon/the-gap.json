@@ -39,6 +39,17 @@
   "genre": "Indie",
   "description": "An abstract interactive experience about a Gap",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/f6fd4bb2abc1f56c5d3fdf56425bcddbae9a58133f6fd94828364db0b2564269.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b18c6decf036281811a4bf437ba49b286fe6eecb59b32690a5a14b9297b0f373.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/the-gap-kosmik-games/",
+  "hltb_id": 152588,
   "hltb_main": "5 mins",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2026-04-23T22:15:04.574Z"
+  "updated_at": "2026-04-25T00:44:34.339Z"
 }

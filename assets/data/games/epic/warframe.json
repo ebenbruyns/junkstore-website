@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": true,
   "requires_verification": true,
   "epic_achievements": false,
@@ -35,10 +35,107 @@
   "shortname": "398965b67f314d31b0683b8ea11c93a4",
   "publisher": "Digital Extremes",
   "developer": "Digital Extremes",
-  "releasedate": "2013-03-25T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Shooter",
-  "description": "Warframe situates players as members of the Tenno race, newly awoken after years of cryo-sleep into a solar system at war. Reborn into a corrupt era, the Tenno are sought by the oppressive Grineer Empire for annihilation. Warframe armor is the key to overthrowing the Grineer by providing players with unique offensive and defensive powers to explore, upgrade and master during purpose-driven radical raids.",
+  "releasedate": "2020-12-11T00:55:00.000Z",
+  "genre": "Action, RPG, Shooter",
+  "description": "Warring factions have brought the Origin System to the brink of destruction. Join the Tenno and defend an ever-expanding universe. Master your Warframe, build your Arsenal and become an unstoppable force in this genre-defining looter-shooter.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "1141",
+      "name": "Free to Play"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 2903,
+  "igdb_url": "https://www.igdb.com/games/2903",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Warring factions have brought the Origin System to the brink of destruction. Join the Tenno and defend an ever-expanding universe. Master your Warframe, build your Arsenal and become an unstoppable force in this genre-defining looter-shooter.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/72ae76bfab07dcd4e60087a14899ae4237cfc0676af611a5bc7322348fc2f4ff.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4f5e5257eebc08425dff3c93a6927c9f2dc8ccee70bd3ff246c609f51e636968.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/5fa66450b28c496fd943d199ea45842f923ee1f0d9fff65573845e3f6d785efb.jpg?namespace=gamesdb",
@@ -62,15 +159,16 @@
   ],
   "metacritic_score": 69,
   "metacritic_url": "https://www.metacritic.com/game/pc/warframe?ftag=MCD-06-10aaa1f",
+  "hltb_id": "11037",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/11037",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-12-16T03:29:09.909Z"
+  "updated_at": "2026-04-25T02:14:30.474Z"
 }

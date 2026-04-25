@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure, Indie, Simulator",
   "description": "Escape to an island populated with welcoming townsfolk and dozens of friendly dinosaurs. Tame them, care for them, run your ranch, and saddle up your trusted steeds for adventures into the wild countryside!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/991d068c17f56fb94868882a6ec189b2fdfca2b5f607e5745aae8382bbce321c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/64d4a8b86a955d85ea84841ab71547a8f013d7f52d0aeef4fa9ea70694ddea29.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1202200/capsule_231x87.jpg",
@@ -60,6 +71,7 @@
   ],
   "metacritic_score": 65,
   "metacritic_url": "https://www.metacritic.com/game/paleo-pines/",
+  "hltb_id": 111986,
   "hltb_main": "21 hrs",
   "hltb_main_extra": "36.5 hrs",
   "hltb_completionist": "105 hrs",
@@ -69,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T22:00:33.350Z"
+  "updated_at": "2026-04-25T00:53:52.676Z"
 }

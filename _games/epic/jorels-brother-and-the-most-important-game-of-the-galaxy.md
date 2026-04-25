@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Double Dash Studios
 developer: Double Dash Studios
 genre: Adventure, Indie
-release_date: "June 14, 2023"
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "August 5, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Portuguese - Brazil","Spanish - Latin America"]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/207334"
+was_free_before: true
+giveaway_events: [{"start":"2025-09-25T15:00:00.000Z","end":"2025-10-02T15:00:00.000Z","type":null,"id":"70d56e56409e4a0384282d9bea1b4e20"}]
 
 # Images
 banner_image: "https://images.gog.com/94ffa3d94bcdc861a48e506b9df1c9f11df2dcbfb1e47917c015d342b8d3045e.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: true
 epic_achievements: true
 epic_offline_mode: true
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "e132ad8053a14165b881a16124fdd844"
 is_featured: false
+owned: true
 ---
 
-Jorel’s Brother and The Most Important Game of the Galaxy is a point-and-click adventure about an eight-year-old boy who lives with his eccentric family in the shadow of Jorel, his handsome and popular brother. Based on the award-winning Brazilian animation Jorel’s Brother.
+“Jorel’s Brother and The Most Important Game of the Galaxy” is a point-and-click adventure about an eight-year-old boy who lives with his eccentric family in the shadow of Jorel, his handsome and popular brother. Based on the award-winning Brazilian animation “Jorel’s Brother”.

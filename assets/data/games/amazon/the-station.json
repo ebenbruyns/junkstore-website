@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Puzzle, Simulator",
   "description": "The Station is a first-person exploration game set on a space station sent to study a sentient alien civilization. Assuming the role of a recon specialist, players must unravel a mystery which will decide the fate of two civilizations.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/0ff3b6e1a436786219db97fc6c15e4365abfb6fae28eac29a594cdcab5f8059a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/27dc51bee171fd6e452d34cee7472425e4f8817f69a5908db57c84331a085973.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/565120/capsule_231x87.jpg",
@@ -56,6 +67,7 @@
   ],
   "metacritic_score": 72,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-station?ftag=MCD-06-10aaa1f",
+  "hltb_id": 53453,
   "hltb_main": "2 hrs",
   "hltb_main_extra": "2 hrs",
   "hltb_completionist": "2 hrs",
@@ -65,5 +77,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T09:15:16.749Z"
+  "updated_at": "2026-04-25T00:54:05.796Z"
 }

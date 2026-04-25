@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Eidos Interactive
 developer: Crystal Dynamics, Buzz Monkey Software
 genre: Adventure, Platform, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "June 1, 2007"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3482f5bff4573830a016486b43a6bc9852216b1e71eae4f920ac6da980f295fb.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/10476"
 store_url: "https://www.gog.com/en/game/tomb_raider_anniversary"
 protondb_url: "https://www.protondb.com/app/8000"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider%3A_Anniversary"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/tomb-raider-anniversary?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1202885143"
 is_featured: false
+owned: true
 ---
 
 Tomb Raider: Anniversary retraces Lara Croft's original genre-defining adventure — globe-trotting 3rd person action-adventure in pursuit of the legendary Scion artifact. Using an enhanced 'Tomb Raider: Legend' game engine, the graphics, technology and physics bring Lara's adventure and pursuit of a mystical artifact known only as the Scion right up to today's technology standards and offers gamers a completely new gameplay experience. Re-imagined, Anniversary delivers a dynamic fluidly and fast Lara Croft, massive environments of stunning visuals, intense combat and game pacing, and an enhanced and clarified original story.

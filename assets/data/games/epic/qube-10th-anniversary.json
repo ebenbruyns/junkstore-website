@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1564220",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/qube-10th-anniversary-59e999",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Q.U.B.E._10th_Anniversary",
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime",
   "date_tested": "May '25",
   "decky_rating": "yellow",
@@ -33,12 +33,65 @@
   "cant_test_linux": false,
   "databaseId": "440abc2d035f494a9bf172ed29f9fa2f",
   "shortname": "440abc2d035f494a9bf172ed29f9fa2f",
-  "publisher": "NIL, NIL",
+  "publisher": "Toxic Games",
   "developer": "Toxic Games",
-  "releasedate": "2022-09-14T00:00:00+0000",
-  "genre": "Adventure, Indie, Platform, Puzzle, Simulator",
-  "description": "Entirely rebuilt from the ground up, Q.U.B.E. 10th Anniversary is the ultimate celebration of the decade-old original, bringing refined visuals, completely redesigned and revised gameplay sections, and a whole new chapter to the award-winning, brain-twisting first-person puzzler.",
+  "releasedate": "2022-09-29T11:00:00.000Z",
+  "genre": "Puzzle, Action-Adventure, First Person",
+  "description": "Entirely rebuilt from the ground up, Q.U.B.E. 10th Anniversary is the ultimate celebration of the decade-old original, bringing refined visuals, completely redesigned and revised gameplay sections, and a whole new chapter to the award-winning, brain-twisting first-person puzzler",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    },
+    {
+      "id": "21150",
+      "name": "Challenging Puzzles"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 5445,
+  "igdb_url": "https://www.igdb.com/games/5445",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Entirely rebuilt from the ground up, Q.U.B.E. 10th Anniversary is the ultimate celebration of the decade-old original, bringing refined visuals, completely redesigned and revised gameplay sections, and a whole new chapter to the award-winning, brain-twisting first-person puzzler",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/9d2fbdfbc619fbde9767dbf233470454b275a44c5a3bc34b1a922f21b313c850.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/bc784d699fd495b8058d7a818266d3f9007bc93d0b0c7fc9aac3d9935ad7ee29.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/e3ca37e993690dbe0cdf0d6a86d0b07841be88e9af516fce9c67b7e2cb7e25e5.jpg?namespace=gamesdb",
@@ -51,15 +104,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 113711,
+  "hltb_main": "5 hrs",
+  "hltb_main_extra": "8 hrs",
+  "hltb_completionist": "10 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/113711",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:16:35.198Z"
+  "updated_at": "2026-04-25T05:43:31.923Z"
 }

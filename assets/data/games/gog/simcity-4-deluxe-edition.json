@@ -39,6 +39,17 @@
   "genre": "strategy, simulator",
   "description": "SimCity 4 Deluxe Edition includes the bestselling SimCity 4 and the all-new SimCity 4 Rush Hour Expansion Pack. Create the most massive region of cities ever, with a farming town, bedroom community, high-tech commercial center, and industrial backbone.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/b6eaa43d6485e869a4e2bfc1d166e4b7958bda962b451bc111a75d2028efac30.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d17a8f5a5c7022e84f6151c8f653497094160c1a8a206dbf17777728e52fb4cf.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b6eaa43d6485e869a4e2bfc1d166e4b7958bda962b451bc111a75d2028efac30.jpg?namespace=gamesdb",
@@ -59,6 +70,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 27210,
   "hltb_main": "15.5 hrs",
   "hltb_main_extra": "16.5 hrs",
   "hltb_completionist": "84.5 hrs",
@@ -70,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-10-25T19:25:50.704Z"
+  "updated_at": "2026-04-25T00:46:23.859Z"
 }

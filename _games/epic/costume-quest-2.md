@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Midnight City, Majesco Entertainment
 developer: Double Fine Productions
-genre: Role-playing (RPG), Adventure, Turn-based strategy (TBS)
-release_date: "October 7, 2014"
+genre: Action, Action-Adventure, Turn-Based, Adventure
+franchise: Costume Quest
+age_rating_summary: 
+release_date: "October 23, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1386","name":"Turn-Based"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2022-12-16T15:00:00.000Z","end":"2022-12-17T15:00:00.000Z","type":null,"id":"62488ccca67b455891967a4cfc6dea24"},{"start":"2020-10-21T15:00:00.000Z","end":"2020-10-28T15:00:00.000Z","type":null,"id":"62488ccca67b455891967a4cfc6dea24"}]
 
 # Images
 banner_image: "https://images.gog.com/bebe3fb2341408a1aef4a65b19527cae6dfc6fe9da60e1758ded011bbfd772ad.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/21537"
 store_url: "https://store.epicgames.com/en-US/p/costume-quest-2"
 protondb_url: "https://www.protondb.com/app/275180"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Costume_Quest_2"
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/pc/costume-quest-2?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "82a78a4dd6ef4eaa892707791b705073"
 is_featured: false
+owned: true
 ---
 
-In developer Double Fine’s triumphant return to Auburn Pines, our candy-crazed crusaders Wren and Reynold must once again protect Halloween from untold horrors, and grown-ups! Your favorite trick-or-treaters will come armed with a new batch of costumes they wear to transform into giant super powered fantasy Hallowarriors. Fans of the original can look forward to a sweet upgraded battle system and a story that is unmistakably Double Fine.
+Explore spooky time-traversing landscapes, don adorable new costumes that transform into powerful Hallo-warriors, and collect even Creepier Treat Cards to wield in combat against a legion of hygiene obsessed baddies.

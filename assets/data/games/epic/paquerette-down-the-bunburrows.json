@@ -5,7 +5,7 @@
   "protondb": "https://www.protondb.com/app/1628610",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/paquerette-down-the-bunburrows-2fd777",
   "itch_url": "",
   "pc_gaming_wiki_url": "",
   "notes": "You need to verify it with your Epic account.",
@@ -34,11 +34,48 @@
   "databaseId": "280b22dbb7e24f7bada5520e9d38d3a2",
   "shortname": "280b22dbb7e24f7bada5520e9d38d3a2",
   "publisher": "Abiding Bridge",
-  "developer": "Abiding Bridge, Bunstack",
-  "releasedate": "2023-08-02T00:00:00+0000",
-  "genre": "Adventure, Indie, Puzzle",
-  "description": "Pâquerette Down the Bunburrows is a pathfinding-based bunny-catching puzzle game. The bunnies flee when Pâquerette gets too close: they dash through tunnels carefully avoiding dead ends. Will you let the lil buns outsmart you? Each level is carefully crafted to teach you new, surprising and tricky ways of catching bunnies~",
+  "developer": "Bunstack",
+  "releasedate": "2023-08-02T15:00:00.000Z",
+  "genre": "Exploration",
+  "description": "The buns... you HAVE to capture them!! Think outside the bunburrow or get outsmarted by bunnies in this cute pathfinding-based puzzle game!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 193565,
+  "igdb_url": "https://www.igdb.com/games/193565",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "The buns... you HAVE to capture them!! Think outside the bunburrow or get outsmarted by bunnies in this cute pathfinding-based puzzle game!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/37e247e92d2f8715671922bb94798e3cc417b032f9986c193523a780ba10da36.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ca2ad68ed78a2d2a6215ff717e558b49bfca478e05317b0b4f0b33500ec22d81.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/5a94dc856bdbff6320e458394a2fc104b2a658937fadb38808c1f2d3f8b29518.jpg?namespace=gamesdb",
@@ -51,15 +88,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 132419,
+  "hltb_main": "4.5 hrs",
+  "hltb_main_extra": "17 hrs",
+  "hltb_completionist": "25.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/132419",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-06T04:29:29.984Z"
+  "updated_at": "2026-04-25T05:43:24.775Z"
 }

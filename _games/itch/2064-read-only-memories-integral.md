@@ -17,9 +17,15 @@ proton_version: ""
 publisher: MidBoss
 developer: MidBoss, LLC.
 genre: Adventure, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "August 14, 2018"
 game_modes: ["Single player"]
 languages: ["English*","Japanese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/330820/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "16726"
 is_featured: false
+owned: true
 ---
 
 Neo-San Francisco, 2064 AD. Your life as a struggling journalist is interrupted by the world’s first sapient machine, a ROM (Relationship and Organizational Manager) named Turing. Together, you and the quirky robot will encounter a colorful cast of locals and overcome challenges as you uncover the city’s secrets behind the overlapping futures of technology and humanity. 2064: Read Only Memories is a new cyberpunk adventure that will take you on a journey of puzzle-solving and exploring as you investigate the mysterious world and characters of Neo-San Francisco.

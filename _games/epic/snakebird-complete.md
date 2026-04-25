@@ -14,12 +14,18 @@ date_tested: "Nov '24"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
+publisher: Astra Logical
 developer: Noumenon Games
-genre: Indie, Puzzle, Arcade
-release_date: "November 24, 2023"
+genre: Puzzle
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "December 30, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/239519"
+was_free_before: true
+giveaway_events: [{"start":"2024-11-14T16:00:00.000Z","end":"2024-11-21T16:00:00.000Z","type":null,"id":"fddca2297b9a4354b59f8f83d4975c90"},{"start":"2023-12-28T15:00:00.000Z","end":"2023-12-29T15:00:00.000Z","type":null,"id":"fddca2297b9a4354b59f8f83d4975c90"}]
 
 # Images
 banner_image: "https://images.gog.com/9ce1b788995cec5e86df4c68b648cf741b1934c7ea02b108a821bdb76006ae03.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "4 hrs"
+hltb_main_extra: "6.5 hrs"
+hltb_completionist: "10 hrs"
+hltb_url: "https://howlongtobeat.com/game/143272"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/snakebird-complete"
+store_url: "https://store.epicgames.com/en-US/p/snakebird-complete-e6f0ae"
 protondb_url: "https://www.protondb.com/app/357300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Snakebird"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "8337d1f975514d35ad0c1176e8a29f26"
 is_featured: false
+owned: true
 ---
 
-A console version of Snakebird that contains both Snakebird and Snakebird Primer and some minor adjustments.
+Experience hit puzzle classic Snakebird and Snakebird Primer in Snakebird Complete, a brand new package that reunites both beloved titles into one seamless experience. Now with a hint system!

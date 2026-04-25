@@ -35,10 +35,67 @@
   "shortname": "ce3fb6fe8fdf4c9ba649abc3e407debf",
   "publisher": "Amanita Design",
   "developer": "Amanita Design",
-  "releasedate": "2009-10-16T00:00:00+0000",
-  "genre": "Adventure, Indie, Puzzle, Point-and-click",
-  "description": "Machinarium is award-winning independent adventure game developed by the makers of Samorost and Botanicula. A little robot who’s been thrown out to the scrap yard behind the city must return and confront the Black Cap Brotherhood and save his robot-girl friend.",
+  "releasedate": "2025-02-18T18:00:00.000Z",
+  "genre": "Puzzle, Adventure, Indie",
+  "description": "Machinarium is the award-winning independent adventure game developed by the makers of Samorost series, Botanicula and CHUCHEL. Help Josef the robot save his girlfriend Berta kidnapped by the Black Cap Brotherhood gang!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "39071",
+      "name": "Android"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 2990,
+  "igdb_url": "https://www.igdb.com/games/2990",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Machinarium is the award-winning independent adventure game developed by the makers of Samorost series, Botanicula and CHUCHEL. Help Josef the robot save his girlfriend Berta kidnapped by the Black Cap Brotherhood gang!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a00d7e17f7009f9b8a6ea02afd9892d49a5dd4764cc34c60eedfd29141026728.jpg?namespace=gamesdb",
   "banner_image": "",
   "icon_image": "",
@@ -51,15 +108,16 @@
   ],
   "metacritic_score": 85,
   "metacritic_url": "https://www.metacritic.com/game/pc/machinarium?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 5478,
+  "hltb_main": "5 hrs",
+  "hltb_main_extra": "5.5 hrs",
+  "hltb_completionist": "6 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/5478",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-29T00:10:09.093Z",
-  "updated_at": "2025-09-04T23:47:30.860Z"
+  "updated_at": "2026-04-25T05:52:47.807Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: bighandinsky
 developer: bighandinsky
 genre: Indie
+franchise: 
+age_rating_summary: 
 release_date: "November 6, 2020"
 game_modes: ["Single-player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1399540/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "708083"
 is_featured: false
+owned: true
 ---
 
 A Forgetful Loop is a time-based worker-placement puzzle game, where you need to weigh up which nodes are more important at a given moment; To get closer to the core, closer to the finish line!

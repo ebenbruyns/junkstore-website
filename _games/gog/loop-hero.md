@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Devolver Digital, Playdigious
 developer: Four Quarters
 genre: "role-playing, adventure, strategy, indie, card & board game"
-release_date: "Invalid Date"
+franchise: Loop Hero
+age_rating_summary: ESRB Teen
+release_date: "March 5, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/141533"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c6600bc7e19e367f36734acc5fe74f7fbaf097a0bb14079db123e19ec2c2ac6c.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/86112"
 store_url: "https://www.gog.com/en/game/loop_hero"
 protondb_url: "https://www.protondb.com/app/1282730"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Loop_Hero"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/loop-hero?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1896497767"
 is_featured: false
+owned: false
 ---
 
 The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos. Wield an expanding deck of mystical cards to place enemies, buildings, and terrain along each unique expedition loop for the brave hero.

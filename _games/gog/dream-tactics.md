@@ -17,9 +17,15 @@ proton_version: ""
 publisher: indie.io
 developer: Spectra Entertainment Inc.
 genre: Adventure, Indie, RPG, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "April 15, 2024"
 game_modes: ["Single-player"]
 languages: ["English","Japanese","Simplified Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1897650/library_hero.jpg"
@@ -58,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1897650"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dream_Tactics"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/dream-tactics/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1381541022"
 is_featured: false
+owned: true
 ---
 
 Dream Tactics is a GBA-styled strategy RPG with cunning card combos and deep character customization. Pick your party, manage cards to create unique playstyles, and outsmart hordes of pillows in turn-based combat to save the Dream World from its inevitable collapse.

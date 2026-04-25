@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": true,
   "requires_verification": true,
   "epic_achievements": true,
@@ -35,10 +35,90 @@
   "shortname": "499f085e442048aa854d6250b21c42fb",
   "publisher": "Ska Studios",
   "developer": "Ska Studios",
-  "releasedate": "2016-03-15T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Indie, Platform",
+  "releasedate": "2021-12-29T16:00:00.000Z",
+  "genre": "Action",
   "description": "Explore a haunting, punishing island in this stylized 2D action RPG. Salt and Sanctuary combines fast and brutal 2D combat with richly developed RPG mechanics in a cursed realm of forgotten cities, blood-soaked dungeons, and desecrated monuments.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "1333",
+      "name": "Action RPG"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 7709,
+  "igdb_url": "https://www.igdb.com/games/7709",
+  "giveaway_events": [
+    {
+      "start": "2021-12-28T15:00:00.000Z",
+      "end": "2021-12-29T15:00:00.000Z",
+      "type": null,
+      "id": "b69fb17fe548401297c61f0e88807031"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Explore a haunting, punishing island in this stylized 2D action RPG. Salt and Sanctuary combines fast and brutal 2D combat with richly developed RPG mechanics in a cursed realm of forgotten cities, blood-soaked dungeons, and desecrated monuments.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/c5717ca20a817e3b17b770c34326749e1b64215e1f393f8b0de9e44c66f9b1af.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/69cd47e809a4c6a239243e6c8819411b7c7aee452fa687d2240dec0ed45be85a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0e02b1eda5c0b787bc6ccc86298b79309b14faf236e35e0f89b4a50c0b240552.jpg?namespace=gamesdb",
@@ -62,15 +142,16 @@
   ],
   "metacritic_score": 84,
   "metacritic_url": "https://www.metacritic.com/game/pc/salt-and-sanctuary?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 25107,
+  "hltb_main": "16.5 hrs",
+  "hltb_main_extra": "21.5 hrs",
+  "hltb_completionist": "32.1 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/25107",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-10-07T23:44:38.582Z"
+  "updated_at": "2026-04-25T02:43:38.034Z"
 }

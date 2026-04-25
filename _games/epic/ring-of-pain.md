@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: Humble Games
-developer: Twice Different, Simon Boxer
-genre: "Role-playing (RPG), Adventure, Strategy, Indie, Card & Board Game"
-release_date: "October 14, 2020"
+developer: Simon Boxer, Twice Different
+genre: Indie, Strategy
+franchise: 
+age_rating_summary: 
+release_date: "August 26, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2022-08-24T15:00:00.000Z","end":"2022-08-31T15:00:00.000Z","type":null,"id":"4b5ba08363b5472f8c061d92c9a849db"}]
 
 # Images
 banner_image: "https://images.gog.com/6da5d39f23e324e00db207860dbd0e92b029af6b1b6f44d862d56f51eaa17dfa.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "8 hrs"
+hltb_main_extra: "21 hrs"
+hltb_completionist: "89.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/77798"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ring-of-pain"
 protondb_url: "https://www.protondb.com/app/998740"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ring_of_Pain"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "130285de16cc429abc603eaf95b8787b"
 is_featured: false
+owned: true
 ---
 
-Ring of Pain is a roguelike card game in a world distorted by your mind... - Frail and fragile bear the curse, through the shadow you traverse - Darkness favours cunning few, stare too long and be consumed...
+Enter the Ring of Pain, a roguelike card crawler where encounters come to you. Each step around the ring a dire decision. Go for the loot or backstab a creeping horror? Choose your gear wisely to survive and discover the secrets of the Ring of Pain.

@@ -14,12 +14,18 @@ date_tested: "Jan '26"
 proton_version: ""
 
 # Game Info
-publisher: Merge Games
+publisher: Silver Lining Interactive
 developer: Merge Games, Janken Team
-genre: Adventure, Platform
-release_date: "December 31, 2021"
+genre: Action, Adventure, Platformer
+franchise: 
+age_rating_summary: 
+release_date: "June 23, 2021"
 game_modes: ["Single player"]
 languages: []
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
+igdb_url: "https://www.igdb.com/games/26778"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1333470/library_hero.jpg"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: true
 epic_achievements: true
 epic_offline_mode: true
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,10 +75,7 @@ known_issues:
 # Meta
 database_id: "90a9dbcace12452ebd9cab6d8d750490"
 is_featured: false
+owned: true
 ---
 
-The legendary Alex Kidd returns with Alex Kidd in Miracle World DX! 
-Since his first appearance in 1986 with Alex Kidd in Miracle World. The iconic Alex Kidd makes his return to smash rocks, collect coins and tackle bosses once again in Alex Kidd in Miracle World DX! 
- 
-Return The Kingdom of Radaxian to its former glory and destroy the evil Janken the Great! 
-Comprising of all levels from the original title as well as brand new levels which expand the lore of Alex Kidd, experience Miracle World like you’ve never seen it before with new animations, graphical detail and gameplay improvements.
+A legend returns in stunning new detail with Alex Kidd in Miracle World DX! Fire up your power bracelet and relive a platforming classic alongside new modes, levels and features!

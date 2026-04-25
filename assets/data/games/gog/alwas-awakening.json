@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Platform",
   "description": "Use your magic staff and progress through a large interconnected world where you'll solve puzzles, fight enemies and defeat bosses in order to help free the land of Alwa. Explore and uncover the secrets by using your platforming skills in this challenging and charming 8-bit adventure game.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/8c0834b7d6a1f0ca654ba565eca7a999edc7d4fdfe0b4617830a46d9dbc3670c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c5860c0dbaabb986bba6cb7f2479c9aa02666f20ceb75948df716505ea782f5c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/a473a87ef8760118b45d36dc42cdca5ca2fa913b87c3329a3b55ef9230f067f7.jpg?namespace=gamesdb",
@@ -58,6 +69,7 @@
   ],
   "metacritic_score": 71,
   "metacritic_url": "https://www.metacritic.com/game/pc/alwas-awakening?ftag=MCD-06-10aaa1f",
+  "hltb_id": 43500,
   "hltb_main": "7 hrs",
   "hltb_main_extra": "9.5 hrs",
   "hltb_completionist": "10 hrs",
@@ -69,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-10-25T04:29:22.344Z"
+  "updated_at": "2026-04-25T00:35:31.127Z"
 }

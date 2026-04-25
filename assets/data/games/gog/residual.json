@@ -39,6 +39,17 @@
   "genre": "Action, Adventure, Indie",
   "description": "Explore a forgotten galaxy full of different planets, venture deeper into the planet to mine for rare resources, craft items to fix your ship, and discover ancient secrets and life forms. An exploration (survival) game like no other.. Adventure awaits!",
   "size": "105832707\n",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1290780/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1290780/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1290780/capsule_231x87.jpg",
@@ -60,6 +71,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 123438,
   "hltb_main": "3 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-18T23:40:36.518Z",
-  "updated_at": "2025-09-23T23:48:58.236Z"
+  "updated_at": "2026-04-25T00:56:19.631Z"
 }

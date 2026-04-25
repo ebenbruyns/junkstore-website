@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Nintendo, Marvelous, XSEED Games
 developer: Marvelous First Studio
-genre: "Adventure, Shooter, Hack and slash/Beat 'em up"
-release_date: "September 12, 2019"
+genre: Action
+franchise: 
+age_rating_summary: 
+release_date: "January 28, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/103338"
+was_free_before: true
+giveaway_events: [{"start":"2022-01-26T15:00:00.000Z","end":"2022-02-02T15:00:00.000Z","type":null,"id":"f6d665930cc34c34ac69cfe52906a723"}]
 
 # Images
 banner_image: "https://images.gog.com/51a78aff25a7e1cb493d51606938f6aa86c38e2d7646f634af936f888d36b02e.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/57532"
 store_url: "https://store.epicgames.com/en-US/p/daemon-x-machina"
 protondb_url: "https://www.protondb.com/app/1167450"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Daemon_X_Machina"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/daemon-x-machina?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "f4f0d39fbb4640e0be62aa91d9eca87d"
 is_featured: false
+owned: true
 ---
 
-Daemon X Machina is a third-person action-shooter game in which players; represented by their avatars called Outers, pilot highly customizable mechs known as Arsenals on missions to suppress various mechanized foes. Choose and equip your Arsenal with a multitude of weapons, obtain more from downed enemy Arsenals, and swap them on the fly to suit your strategy in the face of ever-changing threats.
+Pilot your fully customizable Arsenal mech and join your fellow mercenaries in defending humanity from the corrupted machines and gigantic robots in this post-apocalyptic action game!

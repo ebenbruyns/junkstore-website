@@ -8,8 +8,8 @@ storefront_key: "gog"
 permalink: /games/gog/dark-envoy/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
 
@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Event Horizon
 developer: Event Horizon
 genre: Role-playing (RPG), Adventure, Strategy, Tactical
+franchise: 
+age_rating_summary: 
 release_date: "October 24, 2023"
 game_modes: ["Single player","Co-operative"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/aa3992294d7f2c24e613d31a809980b42f40216911f14cea23eff672f31e0884.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/69572"
 store_url: "https://www.gog.com/en/game/dark_envoy"
 protondb_url: "https://www.protondb.com/app/945770"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Envoy"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1459769749"
 is_featured: false
+owned: true
 ---
 
 Dark Envoy is a non-linear RPG inspired by the likes of the Divinity series, XCOM and Dragon Age to offer free world exploration with an emphasis on tactical combat layered with lore and strategy.

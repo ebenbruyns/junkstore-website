@@ -8,18 +8,24 @@ storefront_key: "epic"
 permalink: /games/epic/behind-the-frame-the-finest-scenery/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
 
 # Game Info
 publisher: Akupara Games, Akatsuki Taiwan
 developer: Silver Lining Studio
-genre: Adventure, Indie, Puzzle, Point-and-click
-release_date: "August 25, 2021"
+genre: Puzzle, Adventure, First Person
+franchise: 
+age_rating_summary: 
+release_date: "August 26, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"21151","name":"Easy Puzzles"}]
+igdb_url: "https://www.igdb.com/games/148499"
+was_free_before: true
+giveaway_events: [{"start":"2025-01-23T16:00:00.000Z","end":"2025-01-30T16:00:00.000Z","type":null,"id":"ade0eed6f17a412b97d29a992b35754c"}]
 
 # Images
 banner_image: "https://images.gog.com/d57bf01a920499c0d001aaa2848117618d12420fad32216ac685162d91acd88b.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/93531"
 store_url: "https://store.epicgames.com/en-US/p/behind-the-frame-the-finest-scenery"
 protondb_url: "https://www.protondb.com/app/1634150"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Behind_the_Frame%3A_The_Finest_Scenery"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/behind-the-frame-the-finest-scenery?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "ba94c39030df477180e5141aadcc8b13"
 is_featured: false
+owned: true
 ---
 
-A narrative-driven puzzle game about collecting, fixing and painting. Enjoy the scenery en route in the world of Behind the Frame, and search for the secrets within. Recollect memories in the time corridor, and savor some beautiful little moments. Combining escape rooms and narrative games, Behind the Frame: The Finest Scenery presents a profoundly interactive storytelling of characters' emotions and plot development. With 360° panorama techniques and an exquisite hand-painted art style, the game takes you into the world of Behind the Frame.
+Guide brush strokes and solve a variety of puzzles to help an aspiring artist complete her masterpiece. As her painting starts to take shape, uncover an emotional tale of chance and artistry revealed behind unrelated yet familiar moments.

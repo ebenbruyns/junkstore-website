@@ -37,8 +37,73 @@
   "developer": "Squad",
   "releasedate": "2015-04-27T00:00:00+0000",
   "genre": "Indie, Simulator",
-  "description": "In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics. Launch your Kerbal crew into orbit and beyond (while keeping them alive) to explore moons and planets in the Kerbol solar system, constructing bases and space stations to expand the reach of your expedition.",
+  "description": "In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.",
   "size": "",
+  "franchise": "Kerbal Space Program",
+  "tags_structured": [
+    {
+      "id": "1281",
+      "name": "Space Sim"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "1400",
+      "name": "Physics"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1393",
+      "name": "Simulation"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 3102,
+  "igdb_url": "https://www.igdb.com/games/3102",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/dc68da69d6306d79c23bdddd69290ad585721579107cfb35779bc2219d3a5480.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4d2680caf0bda7eeb4f90e3d9bccba500629cb0ec267dd1ec15bd38c9edcfec0.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/700ec1ea496cef400cba7c2b7cc701e4ae77448e0961be297320fbcb61c7a7b4.jpg?namespace=gamesdb",
@@ -51,6 +116,7 @@
   ],
   "metacritic_score": 88,
   "metacritic_url": "https://www.metacritic.com/game/pc/kerbal-space-program?ftag=MCD-06-10aaa1f",
+  "hltb_id": 12079,
   "hltb_main": "113 hrs",
   "hltb_main_extra": "233 hrs",
   "hltb_completionist": "601 hrs",
@@ -62,5 +128,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-23T20:59:55.748Z"
+  "updated_at": "2026-04-25T02:24:30.413Z"
 }

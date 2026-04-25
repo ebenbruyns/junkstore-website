@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Lonely Troops
 developer: Lonely Troops
 genre: Role-playing (RPG), Adventure, Indie, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "February 20, 2015"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/11666434ca63e41a1bc7d07a91d0aa50c2a014dcf89d24d95614b0d2ae9aedea.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/26317"
 store_url: "https://www.gog.com/en/game/hero_of_the_kingdom_ii"
 protondb_url: "https://www.protondb.com/app/346560"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hero_of_the_Kingdom_II"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1666688320"
 is_featured: false
+owned: true
 ---
 
 You and your sister had finally found a safe haven in a small fishing village. But more troubles came soon after that. The threat of an unstoppable crew of pirates spread its shadow over the entire kingdom. Your beloved sister was kidnapped by the pirates and taken far away to lands unknown. You have no choice but to embark on a journey to save her. You must be brave. You will travel to the end of the world, helping people, fulfilling quests, learning valuable skills, and finding hundreds of useful items.

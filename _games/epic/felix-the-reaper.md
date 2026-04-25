@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Daedalic Entertainment
 developer: Kong Orange
-genre: Adventure
-release_date: "October 16, 2019"
+genre: Puzzle, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "November 7, 2099"
 game_modes: ["Single-player"]
 languages: ["English*","German","French","Italian","Spanish - Spain","Portuguese - Brazil","Japanese","Korean","Polish","Russian"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d5e568fc99e2cdea358fa2104dfb975cd0a29a0d25db279f77e553f255ea1999.jpg?namespace=gamesdb"
@@ -69,18 +75,7 @@ known_issues:
 # Meta
 database_id: "7ec86711ef70447fbfd4370ba9f185c6"
 is_featured: false
+owned: true
 ---
 
-Felix The Reaper - A romantic comedy game about the life of death.
-
-Felix The Reaper is a romantic comedy about the life of Death. It's brought to you on PC as a 3D shadow manipulation puzzle adventure game of dance, dying people and dangerous love.
-
-Felix has set out to conquer the heart of Betty The Maiden. He's fallen in love watching her from the train window commuting to work everyday for ages. He works at The Ministry of Death, she works at The Ministry of Life. Hence they don't meet.
-
-He's taught himself to dance, because he's convinced, that will win Betty over. And he's gotten really good at it too.
-
-Finally Felix has come to realise, that it's not enough, that he can dance, if they never meet. And one day he decides to become a Field Reaper and go to work in the human world. That's where life and death collides. Hence he might finally get to ask Betty out for a dance.
-
-Excel at making sure people die, the way they are destined to, because that's what Field Reapers do, and Felix might finally get to meet Betty here in the human world.
-
-Felix The Reaper is produced by Kong Orange with support from The Danish Film Institute and The West Danish Film Fund, and the production has been invested in by CapNova.
+Felix The Reaper is a challenging and strict 3D puzzle game about bringing humans into deadly situations. You are Felix, the ever-dancing bringer of death, who just so happens to be dangerously in love with Life.

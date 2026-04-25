@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Square Enix, Eidos Interactive, Feral Interactive, Warner Bros. Interactive Entertainment
 developer: Crystal Dynamics
 genre: Adventure, Platform, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "November 18, 2008"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/429e15491fbd6cac76624d32fd3a7e7d2902c8ed0de9906fb954fd3835b84130.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/10482"
 store_url: "https://www.gog.com/en/game/tomb_raider_underworld"
 protondb_url: "https://www.protondb.com/app/8140"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider%3A_Underworld"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/tomb-raider-underworld?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1900745791"
 is_featured: false
+owned: true
 ---
 
 Tomb Raider: Underworld represents a new advancement in exploration-based gameplay. As fearless adventurer Lara Croft explore exotic locations around the world, each designed with an incredible attention to detail resulting in breathtaking high-definition visual fidelity that creates a truly believable world and delivers a new level of challenge and choice.

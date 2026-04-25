@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Square Enix, Square Enix, Square Enix, Square Enix, Square Enix
 developer: Crystal Dynamics, Crystal Dynamics
 genre: Adventure, Adventure
+franchise: 
+age_rating_summary: 
 release_date: "November 16, 1994"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d6febc78cd4e945ea89c8c14ef69f59bdfe5973dd31f871cc8768dcd373eb920.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/3902"
 store_url: "https://www.gog.com/en/game/gex"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gex"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/gex/"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207666113"
 is_featured: false
+owned: true
 ---
 
 Enter your television to defeat the evil Rez by collecting remotes to open worlds inside your tv. You are a gecko with all the usual platform hero skills such as jump, fire and close range attack, but also suction cups to help you scale walls, a tongue to pick up those tricky to get power-ups and plenty of wise-cracks to keep you amused. Use them all to make your way through TV land searching for the remotes, collecting pickups, power-ups and killing TVs.

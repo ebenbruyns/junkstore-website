@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Electronic Arts, Aspyr Media
 developer: Maxis
 genre: strategy, simulator
+franchise: 
+age_rating_summary: 
 release_date: "September 22, 2003"
 game_modes: ["Single player","Multiplayer"]
 languages: ["Danish","Dutch","English","French","German","Italian","Spanish - Spain","Swedish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d17a8f5a5c7022e84f6151c8f653497094160c1a8a206dbf17777728e52fb4cf.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207664593"
 is_featured: false
+owned: true
 ---
 
 SimCity 4 Deluxe Edition includes the bestselling SimCity 4 and the all-new SimCity 4 Rush Hour Expansion Pack. Create the most massive region of cities ever, with a farming town, bedroom community, high-tech commercial center, and industrial backbone.

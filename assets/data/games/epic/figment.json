@@ -5,7 +5,7 @@
   "protondb": "https://www.protondb.com/app/493540",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/figment",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Figment",
   "notes": "Works out of the box!",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,72 @@
   "shortname": "ed5e8d42b2ac461eb6f9176d163b9515",
   "publisher": "Bedtime Digital Games",
   "developer": "Bedtime Digital Games",
-  "releasedate": "2017-09-22T00:00:00+0000",
-  "genre": "Adventure, Indie, Platform, Puzzle, Music",
-  "description": "A musical action-adventure set in the recesses of the human mind... Welcome to the world of Figment. A strange and surreal world; a place filled with our deepest thoughts, urges and memories, populated by the many voices we hear in our heads.\n\nThis mind has been quiet and calm for many years. But something has changed. New thoughts have started to emerge - taking the shape of nightmarish creatures who spread fear wherever they go. The only hope is for the grumpy Dusty, the mind's former voice of courage, to get back to his old self and help the mind to face its fears.\n\nJoin Dusty and his ever-optimistic friend, Piper, on an adventure through the different sides of the mind, solving puzzles to set things straight, beating back the nightmares and seeking to restore the courage that's been lost.",
+  "releasedate": "2020-03-26T15:00:00.000Z",
+  "genre": "Action, Adventure, Indie",
+  "description": "Figment is an action-adventure game that invites you to explore a unique surreal universe filled with music, humor and multi layered narrative.",
   "size": "",
+  "franchise": "Figment",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 20329,
+  "igdb_url": "https://www.igdb.com/games/20329",
+  "giveaway_events": [
+    {
+      "start": "2025-07-03T15:00:00.000Z",
+      "end": "2025-07-10T15:00:00.000Z",
+      "type": null,
+      "id": "addd4e86c4d746ab86f21606bdadce7d"
+    },
+    {
+      "start": "2020-03-25T15:00:00.000Z",
+      "end": "2020-04-01T15:00:00.000Z",
+      "type": null,
+      "id": "addd4e86c4d746ab86f21606bdadce7d"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Figment is an action-adventure game that invites you to explore a unique surreal universe filled with music, humor and multi layered narrative.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/1286900fea4fb4f154987f15bb5e11396670b1c174ca31e0eaf96835442890ff.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fae02216d95ec1ff3c204a25f3354e0af65196eebbe485a47c1dfb0d77a1f849.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/aa02ba2f4562187f000799fb33e60c9c582c85fed5c76f24bf1c4f1e5ce84e15.jpg?namespace=gamesdb",
@@ -51,6 +113,7 @@
   ],
   "metacritic_score": 77,
   "metacritic_url": "https://www.metacritic.com/game/pc/figment?ftag=MCD-06-10aaa1f",
+  "hltb_id": 48177,
   "hltb_main": "5 hrs",
   "hltb_main_extra": "5.5 hrs",
   "hltb_completionist": "6.5 hrs",
@@ -60,5 +123,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "updated_at": "2026-04-25T02:42:46.109Z"
 }

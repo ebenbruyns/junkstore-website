@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Wired Productions
 developer: Nosebleed Interactive
 genre: Adventure, Strategy, Indie, Puzzle, Arcade, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "August 11, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French*","Italian","German*","Spanish - Spain","Japanese","Korean","Polish","Russian","Simplified Chinese"]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/145319"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/576cc9415566d07ab66a9e52bd0c9db21425dbd67bff2952d7a276e9cc9c52e9.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1645177204"
 is_featured: false
+owned: true
 ---
 
 Welcome to Arcade Paradise, the 90’s retro arcade adventure game. With the keys to the family laundromat, Ashley decides to transform the business and give the sleepy town of Grindstone something to get excited about! Stay one step ahead of your father, manage and invest profits, and build your very own Arcade Paradise!

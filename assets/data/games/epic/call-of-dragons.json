@@ -35,10 +35,95 @@
   "shortname": "19d251f59bbb42e29abc42405f7c9c99",
   "publisher": "Farlight Games",
   "developer": "Legou Games",
-  "releasedate": "2023-10-23T00:00:00+0000",
-  "genre": "Role-playing (RPG), Strategy, Real Time Strategy (RTS), MOBA",
-  "description": "Call of Dragons is an MMO fantasy conquest game from the creators of Rise of Kingdoms, offering an incredible strategic combat experience.",
+  "releasedate": "2023-10-26T07:00:00.000Z",
+  "genre": "RTS, Strategy, MOBA",
+  "description": "An MMO Fantasy Conquest Game by the RoK Team! Capture behemoths to fight. Use hero skills with allies. Deploy flying units over 3D terrain. Huge wars. Huge choices. Your journey starts here!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1120",
+      "name": "RTS"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22775",
+      "name": "MMO"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "1275",
+      "name": "MOBA"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1120",
+      "name": "RTS"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "1275",
+      "name": "MOBA"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 230103,
+  "igdb_url": "https://www.igdb.com/games/230103",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "An MMO Fantasy Conquest Game by the RoK Team! Capture behemoths to fight. Use hero skills with allies. Deploy flying units over 3D terrain. Huge wars. Huge choices. Your journey starts here!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a1a27a0f5c40a3ae73b9a939a216dde67fe84d4a066d5eb53cb13d290b013af6.jpg?namespace=gamesdb",
   "banner_image": "",
   "icon_image": "https://images.gog.com/10f1ff3d91cefac8c37f7dfb0ca8bcf94a809786e23b274032c4432a980fba58.jpg?namespace=gamesdb",
@@ -51,6 +136,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/call-of-dragons/",
+  "hltb_id": 127248,
   "hltb_main": "6.2 hrs",
   "hltb_main_extra": "16.5 hrs",
   "hltb_completionist": "60.4 hrs",
@@ -61,5 +147,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-19T23:41:12.953Z"
+  "updated_at": "2026-04-25T01:20:27.698Z"
 }

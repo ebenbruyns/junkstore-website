@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Platform, Puzzle",
   "description": "Projection: First Light follows Greta on a puzzle-platforming adventure through a mythological shadow puppet world, as she embarks on a journey across cultures meeting legendary heroes.",
   "size": "1.28 GB",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/1a9f1afb3f1762974cd618771be0fffd6233774e007d0e7ae41e5c14aea814c8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fb1f2a0d250c3db864ab1150c144804b06ae039586fc0e6ada47d5b43c224a19.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/726490/capsule_231x87.jpg",
@@ -60,6 +71,7 @@
   ],
   "metacritic_score": 75,
   "metacritic_url": "https://www.metacritic.com/game/pc/projection-first-light?ftag=MCD-06-10aaa1f",
+  "hltb_id": 71191,
   "hltb_main": "6.5 hrs",
   "hltb_main_extra": "7 hrs",
   "hltb_completionist": "7.5 hrs",
@@ -69,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2026-04-23T09:18:48.788Z"
+  "updated_at": "2026-04-25T00:44:54.081Z"
 }

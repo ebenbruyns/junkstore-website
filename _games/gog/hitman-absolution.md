@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Square Enix, Feral Interactive
 developer: IO Interactive
 genre: Adventure, Shooter, Tactical
+franchise: 
+age_rating_summary: 
 release_date: "November 19, 2012"
 game_modes: ["Single player"]
 languages: ["English*","French*","German*","Italian*","Spanish - Spain*","Polish*","Russian*","Turkish*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f9e4f7d922eb174aadaa7c55804c139b27d938bf19021a41248ffa99c827dc53.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1757179626"
 is_featured: false
+owned: true
 ---
 
 Hitman: Absolution follows the Original Assassin undertaking his most personal contract to date. Betrayed by the Agency and hunted by the police, Agent 47 finds himself pursuing redemption in a corrupt and twisted world.

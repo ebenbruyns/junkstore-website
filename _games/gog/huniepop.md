@@ -17,9 +17,15 @@ proton_version: ""
 publisher: HuniePot
 developer: HuniePot
 genre: Role-playing (RPG), Strategy, Indie, Puzzle, Simulator, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "January 19, 2015"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/fa2288afb27ad0eca4649f958c31ce6c05753d3345ffb566fd1dadd3c99c0b72.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/23645"
 store_url: "https://www.gog.com/en/game/huniepop"
 protondb_url: "https://www.protondb.com/app/339800"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/HuniePop"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1443428641"
 is_featured: false
+owned: true
 ---
 
 HuniePop is a 2015 adult dating sim/match-3 puzzle game published and developed by HuniePot. Funding for the game was raised via Kickstarter. It is available in two versions, one censored and one uncensored, although the censored one can easily be patched. The game follows a player (can be male/female) trying to woo a variety of women by going on dates with them, giving them gifts and talking to them.

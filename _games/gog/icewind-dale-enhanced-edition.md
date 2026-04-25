@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Beamdog
 developer: Overhaul Games
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "October 30, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["Czech","English","French","German","Italian","Korean","Polish","Portuguese (Brazil)","Russian","Spanish","Turkish","zh-Hans"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b18034ce5cff70163c1134cba1edd00f204264c3610868486c3d1ce27ee59bf0.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207666683"
 is_featured: false
+owned: true
 ---
 
 Icewind Dale: Enhanced Edition revives the classic RPG with fresh updates for modern players. Build a party of Dungeons &amp; Dragons heroes and explore the frozen tundra in this retro fantasy adventure.

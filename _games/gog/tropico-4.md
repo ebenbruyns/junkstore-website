@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Kalypso Media, Feral Interactive, Zoo Corporation, FX Interactive
 developer: Haemimont Games
 genre: Strategy, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "August 26, 2011"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d28f6079ffde1ec6142b82ed1388f793d76c485de10d65d68e033fcb6268d23a.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/10674"
 store_url: "https://www.gog.com/en/game/tropico_4"
 protondb_url: "https://www.protondb.com/app/57690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tropico_4"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/tropico-4?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1435068351"
 is_featured: false
+owned: true
 ---
 
 Fancy being a dictator? Well this is the ideal time! Build a Tropico and control who and what happens in it. Juggle foreign relations and run a nuclear program! Apply Edicts to make your people happier, or to scare them to obey the rules. Recruit soldiers and have them carry out your will. just make sure to watch out for rebel attacks and even international invasion!

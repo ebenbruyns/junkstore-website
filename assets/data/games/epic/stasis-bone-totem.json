@@ -1,13 +1,13 @@
 {
   "id": "6fe99c37-340f-49e9-a03a-97854c8216e3",
-  "title": "Stasis: Bone Totem",
+  "title": "STASIS : BONE TOTEM",
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/1426010",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/stasis-bone-totem-ca8320",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Stasis%3A_Bone_Totem",
   "notes": "Requires manual controller/key mapping.",
   "date_tested": "Oct '24",
   "decky_rating": "green",
@@ -33,12 +33,69 @@
   "cant_test_linux": false,
   "databaseId": "4e4e5473a79b40a1a4aee3bb0f612718",
   "shortname": "4e4e5473a79b40a1a4aee3bb0f612718",
-  "publisher": "The Brotherhood Games, Feardemic",
-  "developer": "The Brotherhood Games",
-  "releasedate": "2023-05-31T00:00:00+0000",
-  "genre": "Adventure, Indie, Puzzle, Point-and-click",
-  "description": "Stasis: Bone Totem is a thrilling and spine-tingling journey into the unknown fathoms of the icy ocean and the terrors that await a family. They will uncover a threat far beyond their wildest dreams.",
+  "publisher": "THE BROTHERHOOD",
+  "developer": "THE BROTHERHOOD",
+  "releasedate": "2023-06-20T20:00:00.000Z",
+  "genre": "Puzzle, Horror, Adventure",
+  "description": "Get ready for a thrilling underwater adventure with classic point-and-click gameplay. Sci-fi & horror, we have it here! Explore with three characters simultaneously. Featuring atmospheric isometric graphics, rendered video, and a soundtrack by Mark Morgan.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21150",
+      "name": "Challenging Puzzles"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 140866,
+  "igdb_url": "https://www.igdb.com/games/140866",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Get ready for a thrilling underwater adventure with classic point-and-click gameplay. Sci-fi & horror, we have it here! Explore with three characters simultaneously. Featuring atmospheric isometric graphics, rendered video, and a soundtrack by Mark Morgan.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a8294fdf3dc0005daa3b18b9f668bdb4c6367be26991d323419fe160ba7b4971.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c8f7df52a4e25ca144e408aa1dea2d31993801068a36d0e07cd9a5a0f37b02c9.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/2a19d9bb8cda6fb07b01bbf28f0719abc6cb977bc55de989e65e318fa1745f98.jpg?namespace=gamesdb",
@@ -51,15 +108,16 @@
   ],
   "metacritic_score": 85,
   "metacritic_url": "https://www.metacritic.com/game/pc/stasis-bone-totem?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 86843,
+  "hltb_main": "11.6 hrs",
+  "hltb_main_extra": "14.7 hrs",
+  "hltb_completionist": "16.3 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/86843",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-03-26T19:36:21.691Z"
+  "updated_at": "2026-04-25T02:43:46.544Z"
 }

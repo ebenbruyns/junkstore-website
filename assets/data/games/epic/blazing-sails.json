@@ -34,11 +34,91 @@
   "databaseId": "ed5f5b7f2e1f43c89ea8bafd15591bda",
   "shortname": "ed5f5b7f2e1f43c89ea8bafd15591bda",
   "publisher": "Iceberg Interactive",
-  "developer": "Iceberg Interactive, Get Up Games",
-  "releasedate": "2023-11-13T00:00:00+0000",
-  "genre": "Adventure, Indie, Shooter, Tactical",
-  "description": "In Blazing Sails you, your ship and crew have to battle other teams on a huge map of land and sea until one team survives.\n\nAs a battle hardened pirate you have to fulfill different tasks on your ship like steering the ship, deploying the sails, repairing ship damage and firing the cannons to crush your enemy’s. You’ll also be forced to go on land to gather different resources, weapons and ammo. But be careful to not abandon ship completely! If your ship goes down, your team goes down with it.",
+  "developer": "Get Up Games",
+  "releasedate": "2023-10-12T15:00:00.000Z",
+  "genre": "Action",
+  "description": "Fight for survival in Blazing Sails, a fast-paced pirate PvP game! Create your own unique pirate and ship. Band together with other players to command your mighty vessel! Explore different game-modes, maps, weapons, ship types and more while eliminating other crews in epic bat...",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "39940",
+      "name": "Gift A Game"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 114776,
+  "igdb_url": "https://www.igdb.com/games/114776",
+  "giveaway_events": [
+    {
+      "start": "2023-10-11T15:00:00.000Z",
+      "end": "2023-10-18T15:00:00.000Z",
+      "type": null,
+      "id": "363d0be3b57d4741a046d38da0e6355e"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Fight for survival in Blazing Sails, a fast-paced pirate PvP game! Create your own unique pirate and ship. Band together with other players to command your mighty vessel! Explore different game-modes, maps, weapons, ship types and more while eliminating other crews in epic bat...",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/d3984eee910093d5f009238409d6528dd1c0b177bfca4067ed893509db6a58c0.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/20fc1cd38767aa55473f32f6dbbaa74901820fc2e8a575e5f4581bb1a0136472.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d89db042fff057a843c1f5ea0221cf376e91ff752e247074eb792c3bda4fe1df.jpg?namespace=gamesdb",
@@ -53,6 +133,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/blazing-sails/",
+  "hltb_id": 87723,
   "hltb_main": "1.5 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -63,5 +144,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-24T02:22:51.841Z"
+  "updated_at": "2026-04-25T02:42:08.142Z"
 }

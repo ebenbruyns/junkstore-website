@@ -17,9 +17,15 @@ proton_version: ""
 publisher: The Iterative Collective, Lost Native Games
 developer: Lost Native Games
 genre: "Adventure, Strategy, Turn-based strategy (TBS), Indie, Card & Board Game"
+franchise: 
+age_rating_summary: 
 release_date: "November 25, 2024"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/ff0abc28d9168d129bfa0da7f873a90cd8c586fb93a920ef06c5456463e374a8.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://www.gog.com/en/game/wild_country"
 protondb_url: "https://www.protondb.com/app/1515000"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wild_Country"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1929718166"
 is_featured: false
+owned: true
 ---
 
 Welcome to Wild Country, the cozy-competitive card game with city-building elements. Compete against quirky animals in a competition to become the next Mayor of Sun City. Collect cards, challenge friends and furry foes in the single-player campaign, and play online in ranked and unranked matches.

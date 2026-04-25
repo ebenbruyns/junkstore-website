@@ -5,16 +5,16 @@
   "protondb": "https://www.protondb.com/app/1147560",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/skul-the-hero-slayer",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Skul:_The_Hero_Slayer",
   "notes": "Works out of the box on the Decky plugin version.",
   "date_tested": "June '24",
   "decky_rating": "green",
   "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -33,12 +33,61 @@
   "cant_test_linux": false,
   "databaseId": "dec246c71964468f94ef4d686f0802c3",
   "shortname": "dec246c71964468f94ef4d686f0802c3",
-  "publisher": "Playdigious, Neowiz",
-  "developer": "SouthPaw Games",
-  "releasedate": "2021-01-20",
-  "genre": "Indie, Platform, Action",
+  "publisher": "Playdigious",
+  "developer": "NEOWIZ",
+  "releasedate": "2026-01-01T16:00:00.000Z",
+  "genre": "Action, Action-Adventure, Adventure",
   "description": "An action-platformer with rogue-like features, challenging maps. Guide 'Skul' to take on the Imperial Army and rescue his King.",
   "size": "",
+  "franchise": "Skul",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "39070",
+      "name": "iOS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "A roguelike hack'n'slash game",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/b6f5f632bad0ea16b0c6ae2f4b398c26f29a477ec702ff38b8e6e55e91886629.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fc0e33cec6d0501d478ac00b56a21797ddc71210324f86583e01bdbd5405e120.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b6f5f632bad0ea16b0c6ae2f4b398c26f29a477ec702ff38b8e6e55e91886629.jpg?namespace=gamesdb",
@@ -51,15 +100,16 @@
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/pc/skul-the-hero-slayer?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 73152,
+  "hltb_main": "20.5 hrs",
+  "hltb_main_extra": "40.5 hrs",
+  "hltb_completionist": "62 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/73152",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-10T08:19:19.004Z"
+  "updated_at": "2026-04-25T05:46:27.249Z"
 }

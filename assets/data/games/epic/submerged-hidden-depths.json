@@ -33,12 +33,100 @@
   "cant_test_linux": false,
   "databaseId": "2fb0eae795104757977dfe8f93b5e593",
   "shortname": "2fb0eae795104757977dfe8f93b5e593",
-  "publisher": "Uppercut Games, Stadia Games and Entertainment",
-  "developer": "Uppercut Games",
-  "releasedate": "2020-12-03T00:00:00+0000",
-  "genre": "Adventure, Indie",
-  "description": "A drowned city, crumbling tips of skyscrapers stubbornly standing above the waves. Deserted villages, now inhabited by enigmatic creatures. And beneath the surging ocean waits an anguished, angry presence. Submerged: Hidden Depths is a non-combat third-person “relaxploration” adventure, set in the sunken ruins of a beautiful world. Take on the role of Miku and Taku – one cursed with a mysterious power that she wants to use for good, the other determined not to let it tear them apart. Boat across tranquil waters and storm-driven white-caps, explore and climb what remains of a once-towering city, and scour the buildings for the seeds of its salvation.",
+  "publisher": "Uppercut Games Pty Ltd",
+  "developer": "Uppercut Games Pty Ltd",
+  "releasedate": "2022-03-10T00:00:00.000Z",
+  "genre": "Exploration, Adventure",
+  "description": "Boat, climb, interact and explore in the beautiful ruins of a sunken world.",
   "size": "",
+  "franchise": "Submerged",
+  "tags_structured": [
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21124",
+      "name": "Kind Community"
+    },
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21130",
+      "name": "Easy Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21134",
+      "name": "Beautiful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 141373,
+  "igdb_url": "https://www.igdb.com/games/141373",
+  "giveaway_events": [
+    {
+      "start": "2022-08-31T15:00:00.000Z",
+      "end": "2022-09-07T15:00:00.000Z",
+      "type": null,
+      "id": "befad00f8b354f52a4f10e927025e9f8"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Boat, climb, interact and explore in the beautiful ruins of a sunken world.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/225eec7c689f1e473f3b416c73b25a38a84cfbbc407f1feab56fbbdc94f381e7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/20ecdb47322b4e831b91ab2e65642786056d8f8517c6fb73c3ef0659978ba540.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9185c0e9189a6fa034e874de14c5af562d9e1f8ec5dd35adaf33516a7267ab55.jpg?namespace=gamesdb",
@@ -60,15 +148,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 85736,
+  "hltb_main": "4 hrs",
+  "hltb_main_extra": "6.5 hrs",
+  "hltb_completionist": "8.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/85736",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-10-20T06:37:36.753Z"
+  "updated_at": "2026-04-25T05:51:28.890Z"
 }

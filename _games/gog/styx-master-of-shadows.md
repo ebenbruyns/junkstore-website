@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Focus Entertainment
 developer: Cyanide Studio
 genre: Role-playing (RPG), Adventure, Strategy
+franchise: Styx
+age_rating_summary: ESRB Mature 17+
 release_date: "October 7, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1287","name":"Fantasy"},{"id":"1336","name":"Action-Adventure"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/6072"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1917d1c5f6fbba554789d5ff1348560903de2f8a6a6698b2d719d3f04f3e1151.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2038001955"
 is_featured: false
+owned: true
 ---
 
-Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age. Deep inside the vertiginous and multi-layered forsaken Tower of Akenash, where Humans and Elves protect the World-Tree, source of the Amber – a powerful and magical golden sap – is hidden Styx’ chance to understand his true origin... and to make a fortune at the same time.
+Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.

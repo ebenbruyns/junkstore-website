@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Digerati Distribution
 developer: Devespresso Games
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "September 19, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/76fcc9b779f14e6da5656178754f7377747c7a2b8a760daa897614942f9aa658.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/49417"
 store_url: "https://www.gog.com/en/game/the_coma_recut"
 protondb_url: "https://www.protondb.com/app/600090"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Coma%3A_Recut"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1163487128"
 is_featured: false
+owned: true
 ---
 
 "In this creepy Korean survival-horror you take the role of Youngho, a hapless student who finds himself trapped in the nightmarish halls of his high school. After drifting asleep during his final exam, he awakes in the school at night. The only problem is...he’s not alone. Relentlessly pursued by a psychotic killer, he must now muster the courage to solve the mystery of why he is here and how to escape."

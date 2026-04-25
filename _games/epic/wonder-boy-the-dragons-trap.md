@@ -14,12 +14,18 @@ date_tested: "Nov '24"
 proton_version: ""
 
 # Game Info
-publisher: DotEmu
-developer: Lizardcube
-genre: Adventure, Indie, Platform
-release_date: "April 18, 2017"
+publisher: StoreRider
+developer: Dotemu
+genre: Action, Casual, Platformer
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "March 13, 2026"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"39070","name":"iOS"},{"id":"1151","name":"Platformer"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/e2d1c8359f9d40e49880dc820ecbf05ea122a097c9de760e27f96d3c2729be48.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://store.epicgames.com/en-US/p/wonder-boy-the-dragon-s-trap"
 protondb_url: "https://www.protondb.com/app/543260"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wonder_Boy%3A_The_Dragon%27s_Trap"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "4c30fe9841264abfb120b581d061a8fd"
 is_featured: false
+owned: true
 ---
 
-"A modern version of cult classic Wonder Boy: The Dragon's Trap! A close collaboration between Lizardcube, DotEmu and legendary series creator Ryuichi Nishizawa, based on Westone Bit Entertainment's original masterpiece. 
- 
-How many more transformations can one hopeful body survive as it turns into a Lizard, a Mouse, a Piranha, a Lion, and a Hawk... The six different forms of our shape-shifting hero make up the cast of this non-stop action-adventure platformer!"
+The cult classic returns with hand-drawn animation and re-orchestrated music! Battle dragons, transform into unique animal forms, and explore vast lands in search of a cure. Switch anytime between modern visuals or retro 8-bit style!

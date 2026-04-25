@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Armor Games Studios
 developer: FinalBoss Games
-genre: Adventure, Indie, Puzzle, Arcade, Simulator
-release_date: "June 11, 2022"
+genre: Casual, Puzzle
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "June 12, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21151","name":"Easy Puzzles"}]
+igdb_url: "https://www.igdb.com/games/163629"
+was_free_before: true
+giveaway_events: [{"start":"2024-08-01T15:00:00.000Z","end":"2024-08-08T15:00:00.000Z","type":null,"id":"ed744042986f41f791d295459d75725f"}]
 
 # Images
 banner_image: "https://images.gog.com/42e3879965fc9cdba1cc95e81f98458b15dbc2a5da9a968bad13690ea598d8a4.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "1.5 hrs"
+hltb_main_extra: "2 hrs"
+hltb_completionist: "2 hrs"
+hltb_url: "https://howlongtobeat.com/game/96765"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/lumbearjack"
+store_url: "https://store.epicgames.com/en-US/p/lumbearjack-b5bedf"
 protondb_url: "https://www.protondb.com/app/1582290"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/LumbearJack"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "5ff96008f7314df4bb188cd085b1cdf4"
 is_featured: false
+owned: true
 ---
 
 Grab your axe and save the environment by chopping and recycling every man-made thing in your path and solving puzzles with your charming animal friends!

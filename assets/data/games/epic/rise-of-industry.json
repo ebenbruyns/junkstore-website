@@ -35,10 +35,90 @@
   "shortname": "cf6c487e39a14113b75d1f625fed1da7",
   "publisher": "Kasedo Games",
   "developer": "Dapper Penguin Studios",
-  "releasedate": "2019-05-02T00:00:00+0000",
-  "genre": "Strategy, Indie, Simulator",
-  "description": "Rise of Industry is a strategic tycoon game that puts you in the shoes of an early 20th-century industrialist. Build and manage your growing empire in a living, breathing, and procedurally generated world that is constantly evolving and adapting to your playstyle.",
+  "releasedate": "2022-08-11T11:00:00.000Z",
+  "genre": "Strategy",
+  "description": "Test your entrepreneurial skills in the first title in the ROI series as you create & optimise production lines. As an early 20th Century industrialist, grow your empire & adapt to an ever-changing business landscape with unexpected events that could lead to boom…or bust.",
   "size": "",
+  "franchise": "Rise of Industry",
+  "tags_structured": [
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 51577,
+  "igdb_url": "https://www.igdb.com/games/51577",
+  "giveaway_events": [
+    {
+      "start": "2023-03-01T15:00:00.000Z",
+      "end": "2023-03-08T15:00:00.000Z",
+      "type": null,
+      "id": "c04a2ab8ff4442cba0a41fb83453e701"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Test your entrepreneurial skills in the first title in the ROI series as you create & optimise production lines. As an early 20th Century industrialist, grow your empire & adapt to an ever-changing business landscape with unexpected events that could lead to boom…or bust.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/c2f74f7719891b4f7639cd94f7851ec37a96e6f98e0d8a7fbef8eb3a0e618d0f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6161708f7319def77f5f1a207e17512cc420b9345b6d4216988111bd68e6ada0.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0617f704f5fcdaea9d1460b9ca7d993d7a50730590bb519f9b2126cad2239ae7.jpg?namespace=gamesdb",
@@ -58,15 +138,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 54536,
+  "hltb_main": "19 hrs",
+  "hltb_main_extra": "48 hrs",
+  "hltb_completionist": "54.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/54536",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-09-30T00:30:43.278Z"
+  "updated_at": "2026-04-25T05:50:46.769Z"
 }

@@ -1,6 +1,6 @@
 {
   "id": "90a69c10-245f-428e-924b-cbac46ef097c",
-  "title": "Overcooked!",
+  "title": "Overcooked",
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/448510",
   "protondb_report_url": "",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -33,12 +33,90 @@
   "cant_test_linux": false,
   "databaseId": "Sage",
   "shortname": "Sage",
-  "publisher": "Team17",
-  "developer": "Ghost Town Games",
-  "releasedate": "08-2016",
-  "genre": "Strategy, Indie, Arcade, Simulator",
+  "publisher": "team17",
+  "developer": "Ghost Town Games Ltd.",
+  "releasedate": "2018-08-07T15:00:00.000Z",
+  "genre": "Action, Simulation, Indie",
   "description": "Overcooked! is a co-op cooking game for 1-4 players. Working as a team, you and your fellow chefs must prepare, cook and serve up a variety of tasty orders before the baying customers storm out. Take part in an epic journey across the Onion Kingdom and tackle an increasingly challenging and bizarre gauntlet of kitchens which will push your skills of co-operation and co-ordination to the very limits.",
   "size": "",
+  "franchise": "Overcooked!",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "39940",
+      "name": "Gift A Game"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2020-06-03T15:00:00.000Z",
+      "end": "2020-06-10T15:00:00.000Z",
+      "type": null,
+      "id": "e9428ad618aa45f4b3371b8c8c4f9de9"
+    },
+    {
+      "start": "2019-07-03T15:00:00.000Z",
+      "end": "2019-07-10T15:00:00.000Z",
+      "type": null,
+      "id": "e9428ad618aa45f4b3371b8c8c4f9de9"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Crazy Co-op Cooking Action!",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/19441380864bec00af6229738cdf68660138e7cb9ab681031978636ee0311b14.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/22c16a18a67905b71b0c86d864d70968a8f8f2754ab902b52211491db8c54172.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0e48f0398155beb6cdeff128e09c608d94ecf3e27b48fef30bd387a580bc56fd.jpg?namespace=gamesdb",
@@ -59,15 +137,16 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "http://www.metacritic.com/game/pc/overcooked?ftag=MCD-06-10aaa1f",
+  "hltb_id": 83776,
   "hltb_main": "7 hrs",
   "hltb_main_extra": "12 hrs",
   "hltb_completionist": "12.5 hrs",
   "hltb_url": "https://howlongtobeat.com/game/83776",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-03-22T00:40:57.349Z"
+  "updated_at": "2026-04-25T05:18:50.619Z"
 }

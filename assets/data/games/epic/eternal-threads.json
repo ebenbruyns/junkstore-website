@@ -35,10 +35,66 @@
   "shortname": "ff1d9bf6b1304cb9a12b8754afa78ae5",
   "publisher": "Secret Mode",
   "developer": "Cosmonaut Studios",
-  "releasedate": "2022-05-19T00:00:00+0000",
-  "genre": "Adventure, Indie, Puzzle",
+  "releasedate": "2023-10-19T15:00:00.000Z",
+  "genre": "Puzzle, Adventure, Indie",
   "description": "Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 116400,
+  "igdb_url": "https://www.igdb.com/games/116400",
+  "giveaway_events": [
+    {
+      "start": "2023-10-18T15:00:00.000Z",
+      "end": "2023-10-25T15:00:00.000Z",
+      "type": null,
+      "id": "921e40c4c69f4d728914ca2a4f0aa407"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/8ddcff9507659b075262e8949c45ba35dbda9a411e1f40ee6ca14d7c3fc69454.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a318293fce1feec960c8d749e0daa3d3fdb4384b70ad24dd9814e95348c05456.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/c423c1bdcb80c5dfde652a435b0a9dd90b46d61e7413aaca7a90a7b77e218dfe.jpg?namespace=gamesdb",
@@ -58,15 +114,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 107312,
+  "hltb_main": "7 hrs",
+  "hltb_main_extra": "8.5 hrs",
+  "hltb_completionist": "9.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/107312",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-12-22T04:54:49.094Z"
+  "updated_at": "2026-04-25T05:47:41.987Z"
 }

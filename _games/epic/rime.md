@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Grey Box, Six Foot
 developer: Tequila Works
-genre: Adventure, Indie, Platform, Puzzle
-release_date: "May 26, 2017"
+genre: Puzzle, Exploration, Adventure
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "May 27, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21151","name":"Easy Puzzles"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2019-05-22T15:00:00.000Z","end":"2019-05-29T15:00:00.000Z","type":null,"id":"afaa5744cbcd46caa500e342f9f47d84"}]
 
 # Images
 banner_image: "https://images.gog.com/d365f1bd60edfb60e37b292890715e057b9a9ce5e3ec521020b3e353d674d698.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Hydrangea"
 is_featured: false
+owned: false
 ---
 
-A third-person exploratory action/adventure title in which a boy ends up on a mysterious island and makes his way through its highly stylized environments
+Play as a young boy who has awakened on a mysterious island after a torrential storm. You see wild animals, long-forgotten ruins and a massive tower that beckons you to come closer. Armed with your wits and a will to overcome—and the guidance of a helpful fox—you must explore ...

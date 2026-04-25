@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure, Indie, Simulator, Visual Novel",
   "description": "A Mortician's Tale is a narrative-driven death positive video game where you play as a mortician tasked with running a funeral home—preparing the cadavers of the deceased (via embalming or cremation), attending their funerals and listening to their loved ones' stories, and running the business.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/a23d3add54b291f1672a64e872c7d051aceb4684db48051d5458869d15ef78be.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/578720/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/578720/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 78,
   "metacritic_url": "https://www.metacritic.com/game/pc/a-morticians-tale?ftag=MCD-06-10aaa1f",
+  "hltb_id": 50016,
   "hltb_main": "57 mins",
   "hltb_main_extra": "1 hrs",
   "hltb_completionist": "1 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.802Z",
-  "updated_at": "2026-04-23T09:01:27.493Z"
+  "updated_at": "2026-04-25T00:54:53.662Z"
 }

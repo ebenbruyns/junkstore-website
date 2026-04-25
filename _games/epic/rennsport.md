@@ -14,12 +14,18 @@ date_tested: "July '24"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
-developer: NIL, NIL
-genre: Sport, Simulator, Racing
-release_date: "December 16, 2024"
+publisher: Competition Company
+developer: Competition Company
+genre: Sports, Simulation, Racing
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "July 11, 2024"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1283","name":"Sports"},{"id":"21125","name":"Competitive Community"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1179","name":"VR"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/230191"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/39423770eef0dbf54790d4d5dcd4bfbca285002fa2e6b600a4355bf91c1ae2a7.jpg?namespace=gamesdb"
@@ -50,13 +56,13 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/153472"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/rennsport"
+store_url: "https://store.epicgames.com/en-US/p/rennsport-3776b8"
 protondb_url: "https://www.protondb.com/app/2077750"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rennsport"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "086fe0e0dc97479da235fc9562895da5"
 is_featured: false
+owned: true
 ---
 
-A racing simulation developed in Unreal Engine 5, making use of feedback from professional real world drivers to simulate car physics and behavior in a realistic way.
+RENNSPORT is the playground that car enthusiasts have been waiting for. It is a photo-realistic racing simulation offering the highest levels of competition and a space for drivers, modders, and car lovers to come together to drive, and share their passion for racing and cars.

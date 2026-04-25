@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Dolores Entertainment, MadGearGames
 developer: MadGearGames
 genre: Adventure, Indie, Platform, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "May 19, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/434160/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "13021"
 is_featured: false
+owned: true
 ---
 
 The city is being invaded by monsters from the Upside Down World! You, the Potion Master, must defeat evil all alone, with no tutorials or "Easy Mode" to assist you. You'll have to rely on the help of Fäy, your companion fairy, and your potions!

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Microids
 developer: Koalabs Games, Microids Studio Paris
 genre: Adventure, Puzzle, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "March 18, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/39c27c75643694aee313f1d53b588d9b221040f5ab1f1214a10ff3b0577e12c4.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/83890"
 store_url: "https://www.gog.com/en/game/syberia_the_world_before"
 protondb_url: "https://www.protondb.com/app/1410640"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Syberia%3A_The_World_Before"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/syberia-the-world-before?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1731334260"
 is_featured: false
+owned: true
 ---
 
 Embark on a journey across continents and through time, as you piece together the puzzle of a life.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Dear Villagers
 developer: Fallen Leaf
 genre: Adventure
+franchise: 
+age_rating_summary: 
 release_date: "August 22, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Traditional Chinese","Portuguese - Brazil","Japanese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1931730/library_hero.jpg"
@@ -57,8 +63,8 @@ store_url: "https://www.gog.com/en/game/fort_solis"
 protondb_url: "https://www.protondb.com/app/1931730"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fort_Solis"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 60
+metacritic_url: "https://www.metacritic.com/game/fort-solis/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1654564600"
 is_featured: false
+owned: true
 ---
 
 Answer the call from a mining base on Mars as engineer Jack Leary and search for the missing crew. Fort Solis will immerse you with cinematic visuals powered by UE 5 and voice acting of Roger Clark and Troy Baker. Explore the mining complex and reach climax of this narrative thriller experience.

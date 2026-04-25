@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Amanita Design
 developer: Amanita Design
-genre: Adventure, Indie, Puzzle, Point-and-click
-release_date: "October 5, 2019"
+genre: Adventure, Card Game, Indie
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "June 16, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1181","name":"Card Game"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/122766"
+was_free_before: true
+giveaway_events: [{"start":"2025-07-31T15:00:00.000Z","end":"2025-08-07T15:00:00.000Z","type":null,"id":"605ced56db424539ba3ac26f904a83f2"}]
 
 # Images
 banner_image: "https://images.gog.com/f6026ca5614250c2138ca7b8ae0640424db340a31e0419120b438192719fc681.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: true
 epic_achievements: true
 epic_offline_mode: true
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "54 mins"
+hltb_main_extra: "1.2 hrs"
+hltb_completionist: "2 hrs"
+hltb_url: "https://howlongtobeat.com/game/71090"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/pilgrims"
+store_url: "https://store.epicgames.com/en-US/p/pilgrims-6d250f"
 protondb_url: "https://www.protondb.com/app/1049280"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Pilgrims"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/pilgrims?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "956ee1dc4d5846648dc0666d7994284f"
 is_featured: false
+owned: true
 ---
 
-Roam the land as you please and make new friends, share a laugh with your fellow travellers and help them complete their little stories, your way. How many different solutions can you find?
+Roam the land as you please and make new friends, share a laugh with your fellow travelers and help them complete their little stories, your way. How many different solutions can you find?

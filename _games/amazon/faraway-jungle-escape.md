@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Snapbreak
 developer: Pine Studio
 genre: Adventure, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "May 1, 2018"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Danish","Dutch","Finnish","Greek"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/2f84136aeca66a729ec005e59744fc5c9ff3a803471907ec617c7d9ad39e0b51.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.a1ff60e3-ad99-4f3e-a284-2ca407c3f35a"
 is_featured: false
+owned: true
 ---
 
 Escape all new temples in Faraway 2: Jungle Escape that are full of new challenges and mysterious puzzles. This room escape game will surely challenge your puzzle escaping ability. Sequel to one of the best escape games ever with over a million players! A room escape puzzle game that will completely challenge your mind, captivate you & offer hours of amazing mobile gaming entertainment.

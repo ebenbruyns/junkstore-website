@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Alawar
 developer: Yustas
 genre: Casual, Indie, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "October 23, 2024"
 game_modes: ["Single-player"]
 languages: ["English","Russian","Simplified Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2825110/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.16eaa398-e6f6-479b-86bd-468f02d493b2"
 is_featured: false
+owned: true
 ---
 
 Welcome to Technotopia, a city-builder card game. Take on the role of an AI designed to build a perfect city. Build districts, meet the needs of diverse communities and maintain the delicate balance between factions vying for control over you!

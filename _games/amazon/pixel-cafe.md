@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Baltoro Games
 developer: Baltoro Games
 genre: Casual, Indie, Simulation, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "November 30, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Traditional Chinese","Japanese","Polish","Spanish - Spain"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2409360/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.366e1c6d-2eb3-4773-b818-e7237e617d89"
 is_featured: false
+owned: true
 ---
 
 Step into Pixel's shoes in this one-of-a-kind journey that bridges time, memories, and the aroma of fresh coffee. Dive deep into a city balancing its past and future. Engage in intense arcade challenges, immerse yourself in heartfelt stories, and navigate a world crafted in pixel art.

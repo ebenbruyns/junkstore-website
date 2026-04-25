@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Eidos Interactive
 developer: Crystal Dynamics
 genre: "Adventure, Hack and slash/Beat 'em up"
+franchise: 
+age_rating_summary: 
 release_date: "November 11, 2003"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/cb5d7d867e42ee43387b96cb649f95b39c555627fb2a60292d4c66ef2c74587d.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/5214"
 store_url: "https://www.gog.com/en/game/legacy_of_kain_defiance"
 protondb_url: "https://www.protondb.com/app/224300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legacy_of_Kain%3A_Defiance"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/legacy-of-kain-defiance?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659088"
 is_featured: false
+owned: true
 ---
 
 Swords, sorcery, souls, and buckets of blood await you in Legacy of Kain: Defiance. Return to the corrupt world of Nosgoth, where the disfigured wraith Raziel pursues his creator, the vampire overlord Kain. Separated by their common enemies and time itself, the two anti-heroes must wage their own personal battles to discover what lies behind their destinies and defeat the vicious forces that seek to condemn their world to eternal damnation. While their foes plot and scheme, Kain and Raziel embark on a dark and twisted odyssey. In the end, only one of them may be left standing. 

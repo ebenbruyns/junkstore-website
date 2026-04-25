@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Txori
 developer: Txori
 genre: Shooter, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "May 2, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8f2eb8f459c2c5ca0ab8171e3a240477b90ddae630ef27ca3a25e8746bedc7ec.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "415463"
 is_featured: false
+owned: true
 ---
 
 When Starfox meets roguelike!

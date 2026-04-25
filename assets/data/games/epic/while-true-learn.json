@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/619150",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/while-true-learn",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/While_True%3A_learn%28%29",
   "notes": "Works out of the box!",
   "date_tested": "Nov '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": true,
   "epic_achievements": true,
@@ -35,10 +35,74 @@
   "shortname": "4f272a49a39742b795d63e1f483a7c7d",
   "publisher": "Nival",
   "developer": "Luden.io",
-  "releasedate": "2019-01-17T00:00:00+0000",
-  "genre": "Indie, Puzzle, Simulator",
-  "description": "You're a machine learning specialist who makes neural networks but your cat seems to be better at it. Now you must solve puzzles to build a cat-to-human translation system (who knows what else this cat is capable of!). Earn a fortune, buy kickass cat outfits and learn how machine learning really works!",
+  "releasedate": "2021-12-02T16:00:00.000Z",
+  "genre": "Simulation, Puzzle",
+  "description": "You’re a machine learning specialist who makes neural networks but your cat seems to be better at it. Now you must solve puzzles to build a cat-to-human translation system. Earn a fortune, buy kickass cat outfits and learn how machine learning really works!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1102",
+      "name": "Programming"
+    },
+    {
+      "id": "21150",
+      "name": "Challenging Puzzles"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 76840,
+  "igdb_url": "https://www.igdb.com/games/76840",
+  "giveaway_events": [
+    {
+      "start": "2021-12-01T15:00:00.000Z",
+      "end": "2021-12-08T15:00:00.000Z",
+      "type": null,
+      "id": "154108003e4e4f099634188deb9a01b8"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "You’re a machine learning specialist who makes neural networks but your cat seems to be better at it. Now you must solve puzzles to build a cat-to-human translation system. Earn a fortune, buy kickass cat outfits and learn how machine learning really works!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/9c3a91b6fbf7e05009dadb8e38cb02f82694547707f6ee938cb1ce078907bf28.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/df55f7d291e1b1c4885f77611e7e02cbe5518c97e65fbc46ed201b66ff126348.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/25fc593dfe2b9d96bb89e0b279b6c4cad73590514e7a8f5170ebdb9d17ca31db.jpg?namespace=gamesdb",
@@ -51,15 +115,16 @@
   ],
   "metacritic_score": 73,
   "metacritic_url": "https://www.metacritic.com/game/pc/while-true-learn()?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 56591,
+  "hltb_main": "6.7 hrs",
+  "hltb_main_extra": "9 hrs",
+  "hltb_completionist": "14.1 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/56591",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:44:01.011Z"
+  "updated_at": "2026-04-25T02:44:16.329Z"
 }

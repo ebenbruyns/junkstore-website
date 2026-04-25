@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Akupara Games, Triple Topping
 developer: Nifflas Games
 genre: Adventure, Indie, Platform, Puzzle, Arcade, Music
+franchise: 
+age_rating_summary: 
 release_date: "June 5, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1b4e48c7e242ca89ba21f096e955886c1f6fb59e5aac7d46adbe65c73ce5dd86.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.f148257f-8cd4-4608-8671-265ff2bfaaaf"
 is_featured: false
+owned: true
 ---
 
 Swim, launch and bounce through this meditative floating platformer. A reactive soundscape creates the soundtrack to your exploration through the playful puzzles of Ynglet's hand drawn levels.

@@ -39,6 +39,17 @@
   "genre": "Adventure",
   "description": "Answer the call from a mining base on Mars as engineer Jack Leary and search for the missing crew. Fort Solis will immerse you with cinematic visuals powered by UE 5 and voice acting of Roger Clark and Troy Baker. Explore the mining complex and reach climax of this narrative thriller experience.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1931730/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1931730/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1931730/capsule_231x87.jpg",
@@ -58,8 +69,9 @@
     "Portuguese - Brazil",
     "Japanese"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 60,
+  "metacritic_url": "https://www.metacritic.com/game/fort-solis/",
+  "hltb_id": 109103,
   "hltb_main": "3.5 hrs",
   "hltb_main_extra": "4.5 hrs",
   "hltb_completionist": "5.5 hrs",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-14T00:06:39.697Z",
-  "updated_at": "2026-02-07T22:06:38.401Z"
+  "updated_at": "2026-04-25T00:57:16.107Z"
 }

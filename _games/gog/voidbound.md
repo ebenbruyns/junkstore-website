@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Shady Corner Games
 developer: CursedAtelier
 genre: RPG, Tactics
+franchise: 
+age_rating_summary: 
 release_date: ""
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8d6c27b0b2119525ac7b1aa4fee080316d1fc7e4bdb6b681d0c8c605f2b6c016.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1282078853"
 is_featured: false
+owned: false
 ---
 
 A sci-fi ero tactics RPG where you play as an engineer on a mission to free the Earth after it's caught in the crossfire of an intergalactic alien war.

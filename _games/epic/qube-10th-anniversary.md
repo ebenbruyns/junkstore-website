@@ -14,12 +14,18 @@ date_tested: "May '25"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
+publisher: Toxic Games
 developer: Toxic Games
-genre: Adventure, Indie, Platform, Puzzle, Simulator
-release_date: "September 14, 2022"
+genre: Puzzle, Action-Adventure, First Person
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "September 30, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21150","name":"Challenging Puzzles"}]
+igdb_url: "https://www.igdb.com/games/5445"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/bc784d699fd495b8058d7a818266d3f9007bc93d0b0c7fc9aac3d9935ad7ee29.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "5 hrs"
+hltb_main_extra: "8 hrs"
+hltb_completionist: "10 hrs"
+hltb_url: "https://howlongtobeat.com/game/113711"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/q-u-b-e-10th-anniversary"
+store_url: "https://store.epicgames.com/en-US/p/qube-10th-anniversary-59e999"
 protondb_url: "https://www.protondb.com/app/1564220"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Q.U.B.E._10th_Anniversary"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "440abc2d035f494a9bf172ed29f9fa2f"
 is_featured: false
+owned: true
 ---
 
-Entirely rebuilt from the ground up, Q.U.B.E. 10th Anniversary is the ultimate celebration of the decade-old original, bringing refined visuals, completely redesigned and revised gameplay sections, and a whole new chapter to the award-winning, brain-twisting first-person puzzler.
+Entirely rebuilt from the ground up, Q.U.B.E. 10th Anniversary is the ultimate celebration of the decade-old original, bringing refined visuals, completely redesigned and revised gameplay sections, and a whole new chapter to the award-winning, brain-twisting first-person puzzler

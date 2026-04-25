@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Cygni: All Guns Blazing - Steam Deck Compatibility"
-game_title: "Cygni: All Guns Blazing"
+title: "CYGNI - All Guns Blazing - Steam Deck Compatibility"
+game_title: "CYGNI - All Guns Blazing"
 slug: "cygni-all-guns-blazing"
 storefront: "Epic"
 storefront_key: "epic"
@@ -14,12 +14,18 @@ date_tested: "Aug '24"
 proton_version: ""
 
 # Game Info
-publisher: Konami
+publisher: KONAMI
 developer: KeelWorks
-genre: Indie, Shooter, Arcade
+genre: Action, Shooter
+franchise: 
+age_rating_summary: ESRB Everyone 10+
 release_date: "August 6, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+igdb_url: "https://www.igdb.com/games/133904"
+was_free_before: true
+giveaway_events: [{"start":"2024-08-08T15:00:00.000Z","end":"2024-08-15T15:00:00.000Z","type":null,"id":"ce86ed5a3c0d48eaa5326dda50105a9b"}]
 
 # Images
 banner_image: "https://images.gog.com/2effcc69bb445f55bae7907fbbf76daabfe64523a2ed5edaf5ff4a0aa25a8a74.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "25ad72f164b948ab9e05eb18fab2cda8"
 is_featured: false
+owned: true
 ---
 
-It's a twin-stick vertical scrolling Shooter hybrid with a cinematic flare:
-
-An unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes Cygni the vanguard for the next generation of shoot-em ups.
+An unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes CYGNI the vanguard for the next generation of shoot-em ups. Outgunned, outmanned and out on your own, plunge into a sky full of hell in a last-ditch battle for survival.

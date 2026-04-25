@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Fractal Phase
 developer: Fractal Phase
 genre: Indie, Shooter, Arcade, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "August 24, 2017"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Japanese","Simplified Chinese","Italian","German","Korean","Spanish - Spain","Portuguese - Portugal","Portuguese - Brazil"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/381020/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "647"
 is_featured: false
+owned: true
 ---
 
 Sky Rogue is a fwooshy rogue-lite action flight simulator! Blow things up over land, sea, and air, on an infinite number of procedurally-generated islands. Go toe-to-toe with enemy aces or assault giant flying aircraft carriers, but watch out for volleys of missiles; when you die, you're dead.

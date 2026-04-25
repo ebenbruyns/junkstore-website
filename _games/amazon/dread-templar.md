@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Fulqrum Publishing
 developer: T19 Games
 genre: Action, Indie
+franchise: 
+age_rating_summary: 
 release_date: "January 26, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1334730/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.ad2df02e-142e-48ac-95ce-51b7e75b065e"
 is_featured: false
+owned: true
 ---
 
 Dread Templar is a fast-paced hardcore old-school FPS, combining classic 90s shooter and modern FPS elements. Unlock and combine dozens of weapon upgrades and skills, embrace the Dread Force and obliterate hordes of fiendish enemies. Become the scariest thing in hell and get your revenge!

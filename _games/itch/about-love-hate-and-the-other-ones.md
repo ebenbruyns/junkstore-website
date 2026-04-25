@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Black Pants Game Studio
 developer: Black Pants Game Studio
 genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "October 23, 2012"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/277680/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "51308"
 is_featured: false
+owned: true
 ---
 
 About Love, Hate and the other ones“ is a mindbending puzzle game in which you take control of the two main characters Love and Hate. Guide them through 60 levels to take them back home to their beloved hill. You will encounter different Other Ones with unique behaviours, depending on whether Love or Hate interacts with them.

@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "https://store.epicgames.com/en-US/p/hidden-folks-239d16",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Hidden_Folks",
   "notes": "Works out of the box!",
   "date_tested": "Aug '25",
   "decky_rating": "green",
@@ -35,10 +35,110 @@
   "shortname": "886e934842de46bc8a65644e7d4fb75b",
   "publisher": "Adriaan de Jongh",
   "developer": "Adriaan de Jongh",
-  "releasedate": "02-2017",
-  "genre": "Adventure, Indie, Puzzle, Point-and-click",
-  "description": "Search for hidden folks in hand-drawn, interactive, miniature landscapes. Unfurl tent flaps, cut through bushes, slam doors, and poke some crocodiles!",
+  "releasedate": "2025-08-14T15:00:00.000Z",
+  "genre": "Indie, Casual, Comedy",
+  "description": "Search for hidden folks in hand-drawn, interactive, miniature landscapes. Unfurl tent flaps, cut through bushes, slam doors, and poke some crocodiles! Rooooaaaarrrr!!!!!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1116",
+      "name": "Comedy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1116",
+      "name": "Comedy"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2025-08-14T15:00:00.000Z",
+      "end": "2025-08-21T15:00:00.000Z",
+      "type": null,
+      "id": "8ea3500dc38e4f429702bf889c172d3d"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Search for hidden folks in hand-drawn, interactive, miniature landscapes. Unfurl tent flaps, cut through bushes, slam doors, and poke some crocodiles! Rooooaaaarrrr!!!!!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/21590071a3becb3c941e217f0a1793453c8bf1c394f9788c2edd7bb4a0f51dab.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/435400/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/435400/capsule_231x87.jpg",
@@ -60,6 +160,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -70,5 +171,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T09:02:06.255Z",
-  "updated_at": "2026-03-09T05:58:42.929Z"
+  "updated_at": "2026-04-25T02:15:00.424Z"
 }

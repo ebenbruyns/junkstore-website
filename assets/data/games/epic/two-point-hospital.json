@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/535930",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/two-point-hospital",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Two_Point_Hospital",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": true,
   "epic_achievements": true,
@@ -33,12 +33,100 @@
   "cant_test_linux": false,
   "databaseId": "4ad17ed617f44a4dbf7e8a960484c619",
   "shortname": "4ad17ed617f44a4dbf7e8a960484c619",
-  "publisher": "Sega",
+  "publisher": "SEGA",
   "developer": "Two Point Studios",
-  "releasedate": "2018-08-29T00:00:00+0000",
-  "genre": "Strategy, Indie, Simulator",
-  "description": "Design stunning hospitals, cure peculiar illnesses and manage troublesome staff as you spread your budding healthcare organisation across Two Point County.\nBuild and customise your hospital - it is yours after all - with specialist diagnosis and treatment facilities, as well as the very latest in ornamental technology!",
+  "releasedate": "2025-02-13T16:00:00.000Z",
+  "genre": "Casual, Simulation, Strategy",
+  "description": "Design stunning hospitals, cure peculiar illnesses and manage troublesome staff as you spread your budding healthcare organisation across Two Point County.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 82117,
+  "igdb_url": "https://www.igdb.com/games/82117",
+  "giveaway_events": [
+    {
+      "start": "2025-06-12T15:00:00.000Z",
+      "end": "2025-06-19T15:00:00.000Z",
+      "type": null,
+      "id": "1078bc6439ab4b92b8786695e5f7f37d"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Design stunning hospitals, cure peculiar illnesses and manage troublesome staff as you spread your budding healthcare organisation across Two Point County.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/9e9d090973a43b0cbb69c5f49a57086a051047f0549ee3b286f763919f655e6d.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/de8d34e084799165a8b2156990d02884ef93d66bd694c0d0bd8b1731fb5a8ccb.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/e2442af4ebc2e005933d85fe5ef12d25a497b6568ac0584438fbd4292b2ac2c2.jpg?namespace=gamesdb",
@@ -51,15 +139,16 @@
   ],
   "metacritic_score": 83,
   "metacritic_url": "https://www.metacritic.com/game/pc/two-point-hospital?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 60043,
+  "hltb_main": "38 hrs",
+  "hltb_main_extra": "73.5 hrs",
+  "hltb_completionist": "127 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/60043",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:38:55.151Z"
+  "updated_at": "2026-04-25T05:45:55.579Z"
 }

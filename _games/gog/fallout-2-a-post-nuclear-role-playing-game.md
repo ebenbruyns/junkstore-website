@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Bethesda Softworks
 developer: Black Isle Studios
 genre: RPG
+franchise: 
+age_rating_summary: 
 release_date: "August 19, 2009"
 game_modes: ["Single-player"]
 languages: ["English","French","German"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/38410/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1440151285"
 is_featured: false
+owned: true
 ---
 
 Fallout® 2 is the sequel to the critically acclaimed game that took RPG'ing out of the dungeons and into a dynamic, apocalyptic retro-future. It's been 80 long years since your ancestors trod across the wastelands.

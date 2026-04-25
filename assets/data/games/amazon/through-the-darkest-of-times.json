@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Simulator",
   "description": "Through the Darkest of Times is a strategy game, that let's you play a resistance group in Third Reich Berlin. The game covers the entire time from Hitler's seizure of power 1933 to Germany's unconditional surrender 1945.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/5e1ae178554be0aed43e7bcd11e7314aad151dece75c91d5a40aa3f23b8929a0.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/66b1aa5d839e3dca95b2c9ed792b787103b164b0091d49992f6db66d7c3f39c6.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 71,
   "metacritic_url": "https://www.metacritic.com/game/through-the-darkest-of-times/",
+  "hltb_id": 68637,
   "hltb_main": "7 hrs",
   "hltb_main_extra": "9.5 hrs",
   "hltb_completionist": "14 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2026-04-23T22:16:05.462Z"
+  "updated_at": "2026-04-25T00:44:35.581Z"
 }

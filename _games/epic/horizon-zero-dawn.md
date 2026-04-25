@@ -14,12 +14,18 @@ date_tested: "Aug '24"
 proton_version: ""
 
 # Game Info
-publisher: Sony Interactive Entertainment
+publisher: PlayStation Publishing LLC
 developer: Guerrilla Games
-genre: Role-playing (RPG), Adventure, Shooter
-release_date: "Invalid Date"
-game_modes: []
+genre: Action, RPG, Action-Adventure, Adventure
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "January 1, 2099"
+game_modes: ["Single Player"]
 languages: []
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/9c8daac10e9bd131c330d26f3509c4c9bfb0b425d9298203aaa36a5acf1ee846.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://store.epicgames.com/en-US/p/horizon-zero-dawn"
 protondb_url: "https://www.protondb.com/app/2561580"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Horizon_Zero_Dawn_Remastered"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1151640"
 is_featured: false
+owned: false
 ---
 
 Welcome to a vibrant world rich with the beauty of nature – but inhabited by awe-inspiring, highly advanced machines.

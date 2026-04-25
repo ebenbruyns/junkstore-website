@@ -35,10 +35,78 @@
   "shortname": "b45e42c457304fd8bb077cd9bd70291d",
   "publisher": "Blumhouse Games",
   "developer": "Cozy Game Pals",
-  "releasedate": "22 Oct, 2024",
-  "genre": "Action, Adventure, Indie",
+  "releasedate": "2025-10-23T15:00:00.000Z",
+  "genre": "Horror, Puzzle, Adventure",
   "description": "Fear the Spotlight is an atmospheric third-person horror adventure with a disturbing mystery to unravel. Sneak into school after hours with Vivian and Amy, survive a séance gone wrong, solve tactile puzzles, and, whatever you do, stay out of the spotlight…",
   "size": "449400419\n",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 199130,
+  "igdb_url": "https://www.igdb.com/games/199130",
+  "giveaway_events": [
+    {
+      "start": "2025-10-23T15:00:00.000Z",
+      "end": "2025-10-30T15:00:00.000Z",
+      "type": null,
+      "id": "1f1bb7fd09a94d8f9d9219210ffacf95"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Fear the Spotlight is an atmospheric third-person horror adventure with a disturbing mystery to unravel. Sneak into school after hours with Vivian and Amy, survive a séance gone wrong, solve tactile puzzles, and, whatever you do, stay out of the spotlight…",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1959390/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1959390/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1959390/capsule_231x87.jpg",
@@ -60,15 +128,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
   "hltb_url": "",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-22T00:43:49.154Z",
-  "updated_at": "2025-10-25T04:29:34.803Z"
+  "updated_at": "2026-04-25T02:15:56.381Z"
 }

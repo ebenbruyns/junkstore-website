@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure, Strategy",
   "description": "Shadow Sorcerer is a tie-in with the Dragonlance series of novels. The player controls a party of four adventurers that have just rescued 800 slaves and must shepherd them through the wilderness before the evil Dragon army catches up with them. There are three levels to the game:\n\n-Strategic, where the player must move the refugees safely through the wilderness.\n- Tactical, where the party explores dungeons and other areas of interest, searching for information and treasure to assist the escape.\n- Political, where the players must deal with the refugee leaders and convince them to continue following the party.\n\nAll three take place in real-time with the evil dragons constantly on the adventurers' heels slowly picking off the escapees.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/d751b8210cc043bf1fa09946c3af573c35ef1a1c8bc65efb8bb5496526950f11.jpg?namespace=gamesdb",
   "banner_image": "",
   "icon_image": "",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/advanced-dungeons-and-dragons-shadow-sorcerer/",
+  "hltb_id": 23495,
   "hltb_main": "3 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-29T00:10:09.106Z",
-  "updated_at": "2026-04-24T01:31:48.221Z"
+  "updated_at": "2026-04-25T00:55:58.868Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: DriftyGames
 developer: DriftyGames
 genre: Indie, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "February 11, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8e8b0940e3f24d44f005e37276e17815b670dcc20886feebda25409a55be6d50.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1787109378"
 is_featured: false
+owned: true
 ---
 
 Leap of Faith is a Visual Novel story about bonding through friendship and romance, and the journey through life in early adulthood. It keeps a comedic tone, while still at times addressing serious issues that arise along the way.

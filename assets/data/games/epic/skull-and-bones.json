@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/2853730",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/skull-and-bones",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Skull_and_Bones",
   "notes": "Need to log in to download & login to Uplay. Toggle on BattlEye",
   "date_tested": "Sep '24",
   "decky_rating": "red",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -33,12 +33,85 @@
   "cant_test_linux": false,
   "databaseId": "2dd699910d5a4542994868a716be537f",
   "shortname": "2dd699910d5a4542994868a716be537f",
-  "publisher": "Ubisoft Entertainment",
+  "publisher": "Ubisoft",
   "developer": "Ubisoft Singapore",
-  "releasedate": "2024-02-16T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure",
-  "description": "Set sail into the vibrant open world of Skull and Bones, a naval online action RPG where you rise to become the most fearsome pirate kingpin.\n\nCustomize your fleet, craft unique ships, and forge formidable weapons to dominate in exhilarating sea battles against your foes, all while expanding your pirate empire. Join a dynamic and ever-evolving world that brings fresh challenges, features, and stories with each season, immersing you in a continuously unfolding pirate saga.",
+  "releasedate": "2024-02-16T05:00:00.000Z",
+  "genre": "Action, Adventure",
+  "description": "Enter the perilous world of Skull and Bones, a co-op pirate open world action-RPG experience, to become the most infamous pirate kingpin! Engage in thrilling naval battles, craft a variety of unique ships, forge unlikely alliances as you overcome the odds, and bring mayhem on the seas. Be part of an immersive world that introduces new challenges and features every season.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 37062,
+  "igdb_url": "https://www.igdb.com/games/37062",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Enter the perilous world of Skull and Bones, a co-op pirate open world action-RPG experience, to become the most infamous pirate kingpin! Engage in thrilling naval battles, craft a variety of unique ships, forge unlikely alliances as you overcome the odds, and bring mayhem on the seas. Be part of an immersive world that introduces new challenges and features every season.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/7ffb812153b2c8f95fbc0f9921e2898a327e6121a9b38852f43c626b78529bec.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/0c3b2bb5365fb5166204c19808e84fe377d4dd3ca6f2b00dc833ebdd3feab6e9.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/788c179a3b60fbddb828b10086f807e3e770cb2f5617fe82d297a722eabbe713.jpg?namespace=gamesdb",
@@ -53,15 +126,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 57531,
+  "hltb_main": "31 hrs",
+  "hltb_main_extra": "45 hrs",
+  "hltb_completionist": "62.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/57531",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-04T21:17:13.651Z"
+  "updated_at": "2026-04-25T05:44:11.687Z"
 }

@@ -8,18 +8,24 @@ storefront_key: "epic"
 permalink: /games/epic/trek-to-yomi/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "Aug '24"
 proton_version: "GE-Proton 9.2"
 
 # Game Info
 publisher: Devolver Digital
-developer: Leonard Menchiari
-genre: "Adventure, Indie, Hack and slash/Beat 'em up"
-release_date: "May 5, 2022"
+developer: Leonard Menchiari, Flying Wild Hog
+genre: Action, Action-Adventure, Adventure
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "May 6, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: "https://www.igdb.com/games/152203"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0880fdf579863e831cfbb2a240bf3ce0b5ffeeeb3ec853a67d17bfaf3a80c033.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "5 hrs"
+hltb_main_extra: "6 hrs"
+hltb_completionist: "12.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/93913"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/trek-to-yomi"
+store_url: "https://store.epicgames.com/en-US/p/trek-to-yomi-70d134"
 protondb_url: "https://www.protondb.com/app/1370050"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trek_to_Yomi"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "4dfe86c3ca4541edb53d47f6e2e47d30"
 is_featured: false
+owned: true
 ---
 
 As a vow to his dying Master, the young swordsman Hiroki is sworn to protect his town and the people he loves against all threats. Faced with tragedy and bound to duty, the lone samurai must voyage beyond life and death to confront himself and decide his path forward.

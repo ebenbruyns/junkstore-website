@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Good Friend Studios
 developer: Joshimations
 genre: Adventure, Indie, Platform
+franchise: 
+age_rating_summary: 
 release_date: "May 23, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/854450/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "340583"
 is_featured: false
+owned: true
 ---
 
 Welcome to Arlo's first adventure, in an old-school platformer fashion! Complete with amazing chiptune tracks!

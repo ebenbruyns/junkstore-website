@@ -8,18 +8,24 @@ storefront_key: "epic"
 permalink: /games/epic/star-stuff/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "Jan '25"
 proton_version: ""
 
 # Game Info
-publisher: Astra Logical
+publisher: Animo Games Studio LLC
 developer: Ánimo Games Studio
-genre: Adventure, Strategy, Indie, Puzzle
-release_date: "June 7, 2024"
+genre: Casual, Puzzle, Platformer
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "January 18, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"},{"id":"1151","name":"Platformer"}]
+igdb_url: "https://www.igdb.com/games/198629"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/cc0abf3784598a9214785a3afb8ef0a461adc51ce63fe5083d6ab3bedfec3970.jpg?namespace=gamesdb"
@@ -27,7 +33,7 @@ cover_image: "https://images.gog.com/859a41cb4c414518865fc2e07d10cb3ce4db4988ced
 icon_image: "https://images.gog.com/0ea35cee69fa93abbc99c5f15eda0ac508632e4dd33066fd71ebdbcfe3c1991e.jpg?namespace=gamesdb"
 
 # Technical Details
-controller_input: ""
+controller_input: "native"
 community_layout: false
 required_launcher: ""
 requires_account_setup: false
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "6 hrs"
+hltb_main_extra: "6 hrs"
+hltb_completionist: "14.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/151903"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/star-stuff"
+store_url: "https://store.epicgames.com/en-US/p/star-stuff-9ea201"
 protondb_url: "https://www.protondb.com/app/1955110"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Stuff"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "c331118f7ded4050ba0a1182677e3b97"
 is_featured: false
+owned: true
 ---
 
-Star Stuff is a puzzle automation game that mixes bot programming with real time shenanigans. Play as Mija (me-ha), a cosmic employee on their first day at a star factory. Automate bots, interact in real time with bot actions to solve mind-bending puzzles, and save the ever-expanding universe while you're at it!
+Star Stuff is a deceptively cute programming puzzle game. Program and work alongside bots to tackle the most important (and undoubtedly safest) task in the galaxy: fixing a star factory. Ready for your first day on the job?

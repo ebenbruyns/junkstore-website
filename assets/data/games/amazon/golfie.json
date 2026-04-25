@@ -39,6 +39,17 @@
   "genre": "Indie, Platform, Puzzle, Sport, Card & Board Game",
   "description": "Golfie is a run-based, roguelike minigolf deck builder. Play through procedurally-generated levels, build a deck of crazy card abilities, and try to beat all 18 holes. Pick your route carefully because no two runs – or shots – are the same!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/46c1a2cc594a342615c9d21e3636e5679be7520d664daec714c2df3f8ecca4bb.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/8368aa968d0ca1931f2abbb3503b7b7c722076e6a12f134155d73a687b2d39c8.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1579020/capsule_231x87.jpg",
@@ -61,6 +72,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/golfie/",
+  "hltb_id": 108144,
   "hltb_main": "3.5 hrs",
   "hltb_main_extra": "5.5 hrs",
   "hltb_completionist": "",
@@ -70,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T21:47:28.556Z"
+  "updated_at": "2026-04-25T00:53:42.723Z"
 }

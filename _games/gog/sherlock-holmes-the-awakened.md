@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Frogwares
 developer: Frogwares
 genre: adventure
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b09df46a13d7d8f09272f633da0435d8d1837f2a50fd01345a508767a73cc16c.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1430061181"
 is_featured: false
+owned: false
 ---
 
 Experience a nerve-racking Lovecraftian adventure, rebuilt from the ground up with modern graphics and gameplay. Become Sherlock Holmes...

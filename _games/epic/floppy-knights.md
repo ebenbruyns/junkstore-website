@@ -14,12 +14,18 @@ date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
-publisher: Rose City Games
+publisher: Rose City Games, wiip, PlayEveryWare
 developer: Rose City Games
-genre: "Adventure, Strategy, Turn-based strategy (TBS), Indie, Tactical, Card & Board Game"
-release_date: "May 24, 2022"
+genre: Turn-Based Strategy, Indie, Card Game
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "July 12, 2024"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian","Simplified Chinese"]
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/130182"
+was_free_before: true
+giveaway_events: [{"start":"2024-07-10T15:00:00.000Z","end":"2024-07-17T15:00:00.000Z","type":null,"id":"2e84cea730144ac79c3b7f34a2e20d3f"}]
 
 # Images
 banner_image: "https://images.gog.com/4b1d18288e72f0a3adce82bba9db8c0b7071a70a037316b48268b3eec877f9b2.jpg?namespace=gamesdb"
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "9.7 hrs"
+hltb_main_extra: "18.4 hrs"
+hltb_completionist: "23.7 hrs"
+hltb_url: "https://howlongtobeat.com/game/77703"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/floppy-knights-6a735a"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "ef041e69837d410ea851934ef879ba7b"
 is_featured: false
+owned: true
 ---
 
-Meet the Floppy Knights: tangible projections summoned from floppy disks! Tactics fuse with card game mechanics as Phoebe and Carlton - a brilliant young inventor & her robot-arm bestie - square off in turn-based battles. Select your Knights, hone your deck, and execute your strategy for victory!
+Tactics fuse with card game mechanics as Phoebe and Carlton, a brilliant young inventor & her robot-arm bestie, square off in turn-based battles. Select your Knights, hone your deck, and execute your strategy for victory!

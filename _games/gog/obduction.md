@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Cyan Worlds
 developer: Cyan Worlds
 genre: Adventure, Adventure, Adventure, Adventure, Adventure
+franchise: 
+age_rating_summary: ESRB Everyone 10+
 release_date: "August 24, 2016"
 game_modes: ["Single player"]
 languages: ["Dutch","English","French","German","Italian","Polish","Portuguese","Russian","Spanish","Turkish","zh-Hans"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0ae9bcc5e56fbcb9b8aacd93891b596bf7b7ed8bca5872ad77170ade2f3eb412.jpg?namespace=gamesdb"
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "2003665371"
 is_featured: false
+owned: true
 ---
 
-From Cyan, the indie studio that brought you Myst and Riven comes a whole new adventure that will become your world.
-
-The new worlds of Obduction reveal their secrets only as you explore, coax, and consider them. And as you bask in the otherworldly beauty and explore through the enigmatic landscapes, remember that the choices you make will have substantial consequences. This is your story now.
+A sci-fi adventure from Cyan, the creators of Myst. Abducted far across the universe, you find yourself on a broken alien landscape with odd pieces of Earth. Explore, uncover, solve, and find a way to make it home.

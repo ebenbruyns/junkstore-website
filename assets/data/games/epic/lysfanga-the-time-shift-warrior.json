@@ -5,13 +5,13 @@
   "protondb": "https://www.protondb.com/app/2161620",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/lysfanga-9608f2",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Lysfanga%3A_The_Time_Shift_Warrior",
   "notes": "You need to verify this with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
   "date_tested": "Feb '25",
-  "decky_rating": "Perfect",
-  "standalone_rating": "Perfect",
+  "decky_rating": "green",
+  "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "Native Steam Deck Controls",
@@ -28,17 +28,70 @@
   "required_launcher": "",
   "requires_account_setup": false,
   "account_type": "",
-  "controller_input": "",
+  "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
   "databaseId": "f3208566bd004bbfb1a7a4d40fbf8ea4",
   "shortname": "f3208566bd004bbfb1a7a4d40fbf8ea4",
-  "publisher": "Quantic Dream, Fabloo Games",
+  "publisher": "Quantic Dream",
   "developer": "Sand Door Studio",
-  "releasedate": "2024-02-13T00:00:00+0000",
-  "genre": "Strategy, Indie, Puzzle, Hack and slash/Beat 'em up",
+  "releasedate": "2024-02-13T15:00:00.000Z",
+  "genre": "Action, Strategy, Indie",
   "description": "Your Kingdom’s fate relies on you… you… and you. Rewind time to create clones of your past-selves, and fight with an army of your own. Become legion and triumph over hordes of monsters to rescue Antala in this Hack'N'Slash game with a tactical twist.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 252491,
+  "igdb_url": "https://www.igdb.com/games/252491",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Your Kingdom’s fate relies on you… you… and you. Rewind time to create clones of your past-selves, and fight with an army of your own. Become legion and triumph over hordes of monsters to rescue Antala in this Hack'N'Slash game with a tactical twist.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/99af3d1e713a06e796db6bce41599f21057ad72998fe3a593c0426e1f609da0c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/497d92a1a2fb32f1d395f241da3585c4ffdf69016e2594eacdb1e222abfcd54d.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f48fe6a2790bdd5187f9e8ce7d2d3494e069aeef5067d6c917d78fe3ece4833b.jpg?namespace=gamesdb",
@@ -51,14 +104,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 129790,
+  "hltb_main": "8.5 hrs",
+  "hltb_main_extra": "14 hrs",
+  "hltb_completionist": "22.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/129790",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-09-08T06:55:24.663Z"
+  "updated_at": "2026-04-25T05:42:44.370Z"
 }

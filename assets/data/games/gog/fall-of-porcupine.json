@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Platform, Puzzle",
   "description": "Guide young Finley through his first weeks at a provincial hospital. He is on fire for his apprenticeship as an internist. But a lot of pressure makes Finley's life difficult and our gameplay challenging.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/80f132783b0e223657bb24294559fb9cc005ad4739f6b974fc64e6f544f3a811.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/40d3c553243f2e979059f3a295eb7135b017c126fa1a4a17b10eb399b8a8d811.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7463a767fea5fcd33ffbf1bd7eadd841c43834925a348d75a850c3709b3ef571.jpg?namespace=gamesdb",
@@ -56,6 +67,7 @@
   ],
   "metacritic_score": 72,
   "metacritic_url": "https://www.metacritic.com/game/pc/fall-of-porcupine?ftag=MCD-06-10aaa1f",
+  "hltb_id": 112995,
   "hltb_main": "8 hrs",
   "hltb_main_extra": "11 hrs",
   "hltb_completionist": "15.5 hrs",
@@ -67,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-01-31T22:30:50.152Z"
+  "updated_at": "2026-04-25T00:51:24.209Z"
 }

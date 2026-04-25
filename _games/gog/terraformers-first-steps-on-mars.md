@@ -17,9 +17,15 @@ proton_version: ""
 publisher: NIL, NIL
 developer: NIL, NIL
 genre: Strategy, Turn-based strategy (TBS), Simulator
+franchise: 
+age_rating_summary: 
 release_date: "October 23, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d681c36f47bd73577fdaf4312b786cb9279486dde2d4a5d2c02a7afa2ef9e754.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/99695"
 store_url: "https://www.gog.com/en/game/terraformers_first_steps_on_mars"
 protondb_url: "https://www.protondb.com/app/1557040"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Terraformers"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1132435802"
 is_featured: false
+owned: true
 ---
 
 Terraformers: First Steps on Mars is a free standalone version of Terraformers, featuring an exclusive mission taking place before the main game.

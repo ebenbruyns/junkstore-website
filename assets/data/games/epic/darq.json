@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/433550",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/darq-complete-edition",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/DARQ",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,66 @@
   "shortname": "ee96375fac2f47de978170a24398e581",
   "publisher": "Unfold Games",
   "developer": "Unfold Games",
-  "releasedate": "2019-08-15T00:00:00+0000",
-  "genre": "Adventure, Indie",
-  "description": "Darq tells the story of Lloyd, a boy who becomes aware of the fact that he is dreaming. To Lloyd's misfortune, the dream quickly turns into a nightmare and all attempts to wake up end in failure. While exploring the darkest corners of his subconscious, Lloyd learns how to survive the nightmare by bending the laws of physics and manipulating the fluid fabric of the dream world.",
+  "releasedate": "2021-10-28T15:00:00.000Z",
+  "genre": "Horror, Puzzle, Adventure",
+  "description": "DARQ tells the story of Lloyd, a boy who finds himself in the middle of a lucid nightmare. Unable to wake up, Lloyd has to face his fears and decipher the meaning of the dream.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21150",
+      "name": "Challenging Puzzles"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 138785,
+  "igdb_url": "https://www.igdb.com/games/138785",
+  "giveaway_events": [
+    {
+      "start": "2021-10-27T15:00:00.000Z",
+      "end": "2021-11-03T15:00:00.000Z",
+      "type": null,
+      "id": "0af5da05c76943f8a7da7cc65949ffd4"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "DARQ tells the story of Lloyd, a boy who finds himself in the middle of a lucid nightmare. Unable to wake up, Lloyd has to face his fears and decipher the meaning of the dream.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/6d6901c0b6b1a303e26b9a2679276457a3d835f358fb8f9882694c61691a48d2.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b77c85adcb94654d3ebb77af55cb252013b67e089baf6c05d7d16752f2c6507f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ebe949262a7ba7309c9f3e27b35c7cfe0ef7cf1f1d4d7564336d6e29b2b54b9c.jpg?namespace=gamesdb",
@@ -51,6 +107,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 69726,
   "hltb_main": "2.1 hrs",
   "hltb_main_extra": "3.5 hrs",
   "hltb_completionist": "4.5 hrs",
@@ -60,5 +117,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "updated_at": "2026-04-25T02:42:26.667Z"
 }

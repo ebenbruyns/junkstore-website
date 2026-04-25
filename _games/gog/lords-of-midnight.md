@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Chilli Hugger Software
 developer: Mike Singleton, Chris Wild
 genre: Role-playing (RPG), Strategy
+franchise: 
+age_rating_summary: 
 release_date: "December 31, 1995"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f70512f84fb86670e18530489dee27e6a937317310dd9d86b50b8c74f40ddd55.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659333"
 is_featured: false
+owned: true
 ---
 
 Mike Singleton's '84 classic Adventure Strategy game, brought to and updated for Windows.

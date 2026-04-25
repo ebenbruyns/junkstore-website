@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Gambitious Digital Entertainment
 developer: CreativeForge Games
 genre: role-playing, strategy, turn-based, western
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/944e694d9f83b6dd1a966ddaf61055e5c5fdad587895971361fadbbd057ab1e7.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/28907"
 store_url: "https://www.gog.com/en/game/hard_west"
 protondb_url: "https://www.protondb.com/app/307670"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hard_West"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/hard-west?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1442827661"
 is_featured: false
+owned: true
 ---
 
 A supernatural turn-based strategy game in the Wild West. Lead an unlikely posse of heroes across multiple challenging scenarios. Recruit new members and unlock new abilities. Collect upgradeable gear and grow in power to make your story truly legendary.

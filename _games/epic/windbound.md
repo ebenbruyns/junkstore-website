@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Deep Silver, Koch Media
 developer: 5 Lives Studios
-genre: Role-playing (RPG), Adventure, Indie
-release_date: "August 21, 2020"
+genre: Action, RPG, Survival, Action-Adventure, Adventure, Indie
+franchise: 
+age_rating_summary: 
+release_date: "August 29, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese","Traditional Chinese"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1367","name":"RPG"},{"id":"1080","name":"Survival"},{"id":"1336","name":"Action-Adventure"},{"id":"1289","name":"CRAFTING"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8539298f57cebc591fa3d736bf9be48d5cd5589cbb1177cf32af5f8924eafafa.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "a95bf4df6627431ca5baff8173c59635"
 is_featured: false
+owned: true
 ---
 
 The Forbidden Islands are Calling, Unlock their Secrets. Shipwrecked on an island, explore, adapt and navigate the land and perilous seas to stay alive.

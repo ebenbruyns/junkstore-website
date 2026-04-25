@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Amanita Design
 developer: Amanita Design
-genre: Adventure, Indie, Puzzle, Point-and-click
-release_date: "October 16, 2009"
+genre: Puzzle, Adventure, Indie
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "February 19, 2025"
 game_modes: ["Single player"]
 languages: ["Too many to list"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
+igdb_url: "https://www.igdb.com/games/2990"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "5 hrs"
+hltb_main_extra: "5.5 hrs"
+hltb_completionist: "6 hrs"
+hltb_url: "https://howlongtobeat.com/game/5478"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/machinarium-5e6c71"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "ce3fb6fe8fdf4c9ba649abc3e407debf"
 is_featured: false
+owned: true
 ---
 
-Machinarium is award-winning independent adventure game developed by the makers of Samorost and Botanicula. A little robot who’s been thrown out to the scrap yard behind the city must return and confront the Black Cap Brotherhood and save his robot-girl friend.
+Machinarium is the award-winning independent adventure game developed by the makers of Samorost series, Botanicula and CHUCHEL. Help Josef the robot save his girlfriend Berta kidnapped by the Black Cap Brotherhood gang!

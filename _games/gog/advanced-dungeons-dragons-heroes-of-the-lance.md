@@ -17,9 +17,15 @@ proton_version: ""
 publisher: U.S. Gold, Strategic Simulations, Pony Canyon, FCI
 developer: U.S. Gold
 genre: Role-playing (RPG), Adventure
+franchise: 
+age_rating_summary: 
 release_date: "December 31, 1988"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2125877931"
 is_featured: false
+owned: true
 ---
 
 Heroes of the Lance is a side-scrolling action game. The game used actual Dungeons & Dragons statistics, with statistics for the characters exactly as they were in the rule books. Eight heroes from the Dragonlance novels series must be assembled for the quest, and only one is visible on the screen at a time; when one on-screen hero dies, the next in line appears.

@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Puzzle",
   "description": "Surrounded by enemies and assaulted by terror from all sides, Philip must collect clues and solve vexing puzzles while combating the gnawing psychological terrors that assail his mind",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/e58671a0c19fbe675548b711d666697172cf90fe20b5cbf85ab77d34e6b81a4e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/8441d4ade3a79b8e66260b4df73993652451f031ef93d8ce1d3ba2c35863d71a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/e58671a0c19fbe675548b711d666697172cf90fe20b5cbf85ab77d34e6b81a4e.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 78,
   "metacritic_url": "https://www.metacritic.com/game/pc/penumbra-black-plague?ftag=MCD-06-10aaa1f",
+  "hltb_id": 6962,
   "hltb_main": "5 hrs",
   "hltb_main_extra": "5 hrs",
   "hltb_completionist": "6 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-23T21:01:37.844Z"
+  "updated_at": "2026-04-25T00:46:17.655Z"
 }

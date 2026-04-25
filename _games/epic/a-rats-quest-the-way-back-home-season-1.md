@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: HandyGames
-developer: Handy Games
-genre: Action, Adventure, Indie
-release_date: "July 26, 2023"
+developer: The Dreamerians
+genre: Casual, Action-Adventure, Indie
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "April 4, 2026"
 game_modes: ["Single-player"]
 languages: ["English*","German","Spanish - Latin America*languages with full audio support"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/122733"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1124420/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2e0e91d701c34abf851de5b535a2617a"
 is_featured: false
+owned: true
 ---
 
 Mat, a young rat, risks everything for love. Determined to reunite with Nat, a pet mouse, he secretly ventures to the upper floors of the Giant's house. Longing for a new life on the Outside, Mat's actions and the dark secrets harbored by his commune put their lives in danger.

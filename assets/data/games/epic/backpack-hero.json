@@ -5,13 +5,13 @@
   "protondb": "https://www.protondb.com/app/1970580",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/backpack-hero-449c5e",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Backpack_Hero",
   "notes": "Works out of the box after you verify with Epic account.",
   "date_tested": "July '25",
-  "decky_rating": "Perfect",
-  "standalone_rating": "Perfect",
+  "decky_rating": "green",
+  "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "Native Steam Deck Controls",
@@ -28,17 +28,117 @@
   "required_launcher": "",
   "requires_account_setup": false,
   "account_type": "",
-  "controller_input": "",
+  "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
   "databaseId": "c2568782280f414aa8476c9fba8bfd60",
   "shortname": "c2568782280f414aa8476c9fba8bfd60",
-  "publisher": "Different Tales, IndieArk, TheJaspel",
-  "developer": "TheJaspel",
-  "releasedate": "2023-11-14T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Puzzle, Fighting, Card & Board Game",
-  "description": "Backpack Hero is the inventory management roguelike! Collect rare items, organize your bag, and vanquish your foes!",
+  "publisher": "Different Tales",
+  "developer": "Jaspel",
+  "releasedate": "2023-11-14T18:00:00.000Z",
+  "genre": "Turn-Based, Dungeon Crawler, Rogue-Lite",
+  "description": "The inventory management roguelike! Collect rare items, organize your backpack, and vanquish your foes!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1386",
+      "name": "Turn-Based"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "1265",
+      "name": "Dungeon Crawler"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1386",
+      "name": "Turn-Based"
+    },
+    {
+      "id": "1265",
+      "name": "Dungeon Crawler"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 194504,
+  "igdb_url": "https://www.igdb.com/games/194504",
+  "giveaway_events": [
+    {
+      "start": "2025-07-03T15:00:00.000Z",
+      "end": "2025-07-10T15:00:00.000Z",
+      "type": null,
+      "id": "d95cc849f45e406e88c1c371c7af309f"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "The inventory management roguelike! Collect rare items, organize your backpack, and vanquish your foes!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/b9b85c4a09ca47c6a48d8652d30db31cf938aaa678945fadb66f2f6ea0e34f03.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a0e6c7abe58cc4da7c99d42a30bef3f17fc40a667d1ac7439d1d5f0f5747943e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/4474622eef651e3ec95156b4732f7c7037c4d1045fceb218884029eae2c7c5c3.jpg?namespace=gamesdb",
@@ -51,6 +151,7 @@
   ],
   "metacritic_score": 76,
   "metacritic_url": "https://www.metacritic.com/game/pc/backpack-hero?ftag=MCD-06-10aaa1f",
+  "hltb_id": 107522,
   "hltb_main": "11.5 hrs",
   "hltb_main_extra": "46.4 hrs",
   "hltb_completionist": "57.9 hrs",
@@ -60,5 +161,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.964Z"
+  "updated_at": "2026-04-25T04:31:34.603Z"
 }

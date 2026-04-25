@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Qubic Games, Badland Indie
 developer: Dreadlocks Ltd.
 genre: Role-playing (RPG), Adventure, Indie, Platform
+franchise: 
+age_rating_summary: 
 release_date: "May 7, 2015"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/57c3e20f8c94edfb993f401e38990aa4c26f4979a9eb4d97c675896498b7b0a2.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/21172"
 store_url: "https://www.gog.com/en/game/dex"
 protondb_url: "https://www.protondb.com/app/269650"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dex"
 metacritic_score: 62
 metacritic_url: "https://www.metacritic.com/game/pc/dex?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1929434313"
 is_featured: false
+owned: true
 ---
 
 Discover the truth behind an enigmatic AI striving to reach the Singularity, a theoretical “event horizon” in which artificial intelligence will surpass human intelligence and all bets about the future will be off. How will you play your part in the story?

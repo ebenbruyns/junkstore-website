@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Anodyne 2 - Return to Dust - Steam Deck Compatibility"
-game_title: "Anodyne 2 - Return to Dust"
+title: "Anodyne 2: Return To Dust - Steam Deck Compatibility"
+game_title: "Anodyne 2: Return To Dust"
 slug: "anodyne-2-return-to-dust"
 storefront: "Epic"
 storefront_key: "epic"
@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Ratalaika Games
 developer: Analgesic Productions, Melos Han-Tani, Marina Kittaka
-genre: Role-playing (RPG), Adventure, Indie, Platform
-release_date: "Invalid Date"
+genre: Exploration, Adventure, Indie
+franchise: 
+age_rating_summary: 
+release_date: "February 29, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3bab557db954dcee893d33f23f79f6b50ba32e9f2774e496e31f65ea319bcfb2.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Tanzanite"
 is_featured: false
+owned: false
 ---
 
-Traverse a moody, 3D world and surreal 2D spaces, with PSX and 16-bit-influenced art styles. Play as Nova, the Nano Cleaner...
+Run, jump, and drive across vast, dreamy 3D landscapes. Shrink into surreal, 2D dungeons inside of characters' bodies. Travel the world, meet strange people, and save the world from the dangerous Nano Dust.

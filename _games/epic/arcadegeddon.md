@@ -14,12 +14,18 @@ date_tested: "April '25"
 proton_version: ""
 
 # Game Info
-publisher: Illfonic
-developer: Illfonic
-genre: Adventure, Indie, Shooter
-release_date: "July 5, 2022"
+publisher: IllFonic Publishing
+developer: IllFonic
+genre: Shooter
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "July 6, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/154814"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8ef55bee2f966ba48d9d75d8954d770ec49c124a4fa8c5de8380b67b6517ed85.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "b0b94ccc68564c729568cd07f9cfb812"
 is_featured: false
+owned: true
 ---
 
-Rise up and play with up to three friends in this ever-evolving cooperative multiplayer, roguelite shooter. Explore multiple biomes, mini games, find hidden chests, and defeat numerous enemies and bosses.
+Rise up and play with up to three friends in this ever-evolving cooperative multiplayer shooter. Explore multiple biomes, mini games, find hidden chests, and defeat numerous enemies and bosses.

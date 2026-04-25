@@ -17,9 +17,15 @@ proton_version: ""
 publisher: SNEG
 developer: General Arcade
 genre: Action, Adventure
+franchise: 
+age_rating_summary: 
 release_date: "May 6, 2025"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian*"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/3040220/library_hero.jpg"
@@ -57,8 +63,8 @@ store_url: "https://www.gog.com/en/game/captain_blood"
 protondb_url: "https://www.protondb.com/app/3040220"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Captain_Blood"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 50
+metacritic_url: "https://www.metacritic.com/game/captain-blood/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1293807013"
 is_featured: false
+owned: true
 ---
 
 Captain Blood is a pirate-themed action game where you play as a fearsome pirate seeking gold and glory. Expect adventures with cannon firing, pistol shooting, swashbuckling sword fights, and plenty of pirate shenanigans. This hack'n'slash features fierce combat, hordes of enemies and flashy combos.

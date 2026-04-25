@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Octavi Navarro
 developer: Octavi Navarro
 genre: Adventure, Indie, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "January 28, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/98a651797e150479b705bd11769bfa88cbcc52e89d9f62c07b7e5518808e5482.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1481527544"
 is_featured: false
+owned: true
 ---
 
 The Supper is a short adventure game about the darkest side of the human soul. Ms. Appleton was always a wellspring of kindness, until The Voice started talking to her.

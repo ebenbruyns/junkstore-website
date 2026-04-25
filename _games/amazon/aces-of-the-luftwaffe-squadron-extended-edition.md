@@ -17,9 +17,15 @@ proton_version: ""
 publisher: HandyGames
 developer: HandyGames
 genre: Shooter
+franchise: 
+age_rating_summary: 
 release_date: "February 26, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/859350/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.42611da8-7064-4bf0-83a7-9147add5b6d9"
 is_featured: false
+owned: true
 ---
 
 Aces of the Luftwaffe - Squadron is an action-packed, vertically scrolling shoot ‘em up. 

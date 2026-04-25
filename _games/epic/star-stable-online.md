@@ -1,11 +1,11 @@
 ---
 layout: game-page
-title: "Star Stable - Steam Deck Compatibility"
-game_title: "Star Stable"
-slug: "star-stable"
+title: "Star Stable Online - Steam Deck Compatibility"
+game_title: "Star Stable Online"
+slug: "star-stable-online"
 storefront: "Epic"
 storefront_key: "epic"
-permalink: /games/epic/star-stable/
+permalink: /games/epic/star-stable-online/
 
 # Compatibility
 decky_rating: "green"
@@ -14,12 +14,18 @@ date_tested: "Oct '25"
 proton_version: ""
 
 # Game Info
-publisher: Star Stable Entertainment
-developer: Star Stable Entertainment
-genre: Adventure
-release_date: "December 31, 2012"
+publisher: Star Stable Entertainment AB
+developer: Star Stable Entertainment AB
+genre: Open World, Adventure
+franchise: 
+age_rating_summary: 
+release_date: "June 23, 2022"
 game_modes: ["Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/60338"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/2a10fb29129b6ecc6816cd0ac3482e5826fa9e8ce21c0f8946297770a14dfcb3.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: true
 account_type: "Star Stable Account"
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "32.5 hrs"
+hltb_main_extra: "75 hrs"
+hltb_completionist: "1622 hrs"
+hltb_url: "https://howlongtobeat.com/game/105432"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/star-stable"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "31634fed8f464d7db5268199355944de"
 is_featured: false
+owned: true
 ---
 
-Star Stable is a MMORPG built especially for those with a passion for horses and games. Players will ride their own horse through the huge 3D world, customise their character and horse, compete in different races and competitions, chat and help each other through challenges, mysteries, and horse adventures the game has to offer.
+Star Stable is an exciting online game where adventures are waiting to be explored from horseback. With over 6000 quests and 300 unique horses, Star Stable gathers a global community of millions of players with one thing in common: horses.

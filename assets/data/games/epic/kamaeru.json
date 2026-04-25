@@ -34,11 +34,115 @@
   "databaseId": "73c3ffec37e3451a811d9cbad460e106",
   "shortname": "73c3ffec37e3451a811d9cbad460e106",
   "publisher": "Armor Games Studios",
-  "developer": "Armor Games Studios",
-  "releasedate": "12-2024",
-  "genre": "Casual, Indie, Simulation",
+  "developer": "Humble Reeds",
+  "releasedate": "2024-12-04T13:30:00.000Z",
+  "genre": "Indie, Casual, Simulation",
   "description": "Foster a sanctuary for frogs and restore the biodiversity of the wetlands in Kamaeru, a cozy frog collecting game, where you take pictures of frogs, play mini-games and decorate your habitat. Hop right to it!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21124",
+      "name": "Kind Community"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21130",
+      "name": "Easy Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21134",
+      "name": "Beautiful Visuals"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 252773,
+  "igdb_url": "https://www.igdb.com/games/252773",
+  "giveaway_events": [
+    {
+      "start": "2025-08-21T15:00:00.000Z",
+      "end": "2025-08-28T15:00:00.000Z",
+      "type": null,
+      "id": "4cbb6c3704d240f19c3dd5f5cb2b0cb4"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Foster a sanctuary for frogs and restore the biodiversity of the wetlands in Kamaeru, a cozy frog collecting game, where you take pictures of frogs, play mini-games and decorate your habitat. Hop right to it!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/19a50bf51b1bbd5dc88499ecc8c54b894dcbf51f1a8adb9f0ad889f97a47c788.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a28d5c30b92eee9b91694840b6f55cfa2f500f2dac3ea1d5d8801969d7f06df9.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1978150/capsule_231x87.jpg",
@@ -58,15 +162,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 129902,
+  "hltb_main": "5 hrs",
+  "hltb_main_extra": "8.5 hrs",
+  "hltb_completionist": "14 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/129902",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-30T23:53:40.670Z",
-  "updated_at": "2025-10-26T01:08:02.686Z"
+  "updated_at": "2026-04-25T05:52:50.293Z"
 }

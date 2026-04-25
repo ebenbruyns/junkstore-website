@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Ubisoft Entertainment
 developer: Ubisoft Montreal, Ubisoft Casablanca
 genre: "Adventure, Platform, Hack and slash/Beat 'em up"
+franchise: 
+age_rating_summary: 
 release_date: "December 1, 2005"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a762ee88b7e9df5774215d0345b996bb22e92ba6b85823c34ec3ae9de25f2341.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/7298"
 store_url: "https://www.gog.com/en/game/prince_of_persia_the_two_thrones"
 protondb_url: "https://www.protondb.com/app/13530"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia%3A_The_Two_Thrones"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia-the-two-thrones?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659091"
 is_featured: false
+owned: true
 ---
 
 Prince of Persia: The Two Thrones is an action-adventure video game developed and published by Ubisoft Montreal. It was released in December, 2005 in North America for the Xbox, Microsoft Windows, PlayStation 2, and the Nintendo GameCube. It was ported to the PlayStation Portable and Wii, under the title Prince of Persia: Rival Swords with the Wii version utilizing the motion-sensing functionality of its controller, while the PSP version added exclusive content. A remastered, high-definition, version of The Two Thrones was released on the PlayStation Network for the PlayStation 3 on December 21, 2010.

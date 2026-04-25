@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: EXBO
 developer: EXBO
-genre: Action, Adventure, Massively Multiplayer, RPG, Free To Play
-release_date: "December 9, 2022"
+genre: Shooter, Open World, First Person
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "February 20, 2026"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English","Russian*","Spanish - Spain","French","Korean*languages with full audio support"]
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21125","name":"Competitive Community"},{"id":"22775","name":"MMO"},{"id":"21129","name":"Challenging Combat"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"}]
+igdb_url: "https://www.igdb.com/games/133748"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1818450/library_hero.jpg"
@@ -69,8 +75,9 @@ known_issues:
 # Meta
 database_id: "ab9bdfa5a0c945f69b9e7d651990cb14"
 is_featured: false
+owned: true
 ---
 
-STALCRAFT: X is the largest online game set in the open world of the Chernobyl Exclusion Zone.
+STALCRAFT: X is a free-to-play MMOFPS with RPG elements.
 
-Dive into this universe, filled with mutants and anomalies alone or with friends — unforgettable experiences are guaranteed!
+Explore an open world, engage in PvPvE activities, participate in events, and choose from a variety of weapons — all set in the post-Soviet Chernobyl Exclusion Zone!

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Pine Studio
 developer: Pine Studio
 genre: Adventure, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "September 22, 2020"
 game_modes: []
 languages: []
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a467a8e5b752559519e22222992aa3d2a748e1e4420530f3d5c55189e4d89f9b.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1b494f5d-78b9-4c9e-a38a-e23c9a29649a"
 is_featured: false
+owned: true
 ---
 
 Faraway is an adventure game, a modern tribute to Myst. In Faraway you're an adventurer exploring ruins of ancient temples full of challenges and mysterious riddles.

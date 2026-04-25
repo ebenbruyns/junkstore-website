@@ -14,12 +14,18 @@ date_tested: "Sept '25"
 proton_version: ""
 
 # Game Info
-publisher: Funselektor Labs, Noodlecake Studios
-developer: Funselektor Labs
-genre: Sport, Simulator
-release_date: "September 23, 2020"
+publisher: Funselektor Labs Inc.
+developer: Funselektor Labs Inc.
+genre: Racing
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "September 24, 2020"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Portuguese - Brazil","Russian"]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/118607"
+was_free_before: true
+giveaway_events: [{"start":"2023-12-21T15:00:00.000Z","end":"2023-12-22T15:00:00.000Z","type":null,"id":"8a2dd95a9fe04bdebde02b46a8f41aed"}]
 
 # Images
 banner_image: "https://images.gog.com/e074eaee92d9d4561a00a784e75f1d42783e2720bc148742121fb2b923329266.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: true
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: true
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "01805192c8074820b1257fcfd97f2648"
 is_featured: false
+owned: true
 ---
 
-Race in the golden era of rally. Drive iconic cars from the 60s to Group B on challenging stages through stylized environments. Will you master the art of rally?
+art of rally is a stylized experience inspired by the golden era of rally from the creator of Absolute Drift  Race across the world through colorful and stylized environments in top-down view.  Will you master the art of rally?

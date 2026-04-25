@@ -33,12 +33,94 @@
   "cant_test_linux": false,
   "databaseId": "5a957b485bc148f3959acc964fab9da3",
   "shortname": "5a957b485bc148f3959acc964fab9da3",
-  "publisher": "Plug In Digital",
+  "publisher": "Graffiti Games",
   "developer": "Snoozy Kazoo",
-  "releasedate": "2024-01-18T00:00:00+0000",
-  "genre": "Action, Adventure, Indie",
-  "description": "Turnip Boy is back! This time he’s teaming up with the fearsome Pickled Gang to plan and execute the weirdest heist of all time. Shake down hostages, steal precious valuables, battle the fuzz, and use wacky tools bought off the dark web to move further into the vaults of the Botanical Bank.",
+  "releasedate": "2024-01-18T15:00:00.000Z",
+  "genre": "Shooter, Rogue-Lite, Indie",
+  "description": "Turnip Boy is back! This time he’s teaming up with the fearsome Pickled Gang to plan and execute the weirdest heist of all time.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 217645,
+  "igdb_url": "https://www.igdb.com/games/217645",
+  "giveaway_events": [
+    {
+      "start": "2026-03-05T16:00:00.000Z",
+      "end": "2026-03-12T16:00:00.000Z",
+      "type": null,
+      "id": "68d9f0e261464ba284e10418d98532ea"
+    },
+    {
+      "start": "2026-03-05T16:00:00.000Z",
+      "end": "2026-03-12T15:00:00.000Z",
+      "type": null,
+      "id": "68d9f0e261464ba284e10418d98532ea"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Turnip Boy is back! This time he’s teaming up with the fearsome Pickled Gang to plan and execute the weirdest heist of all time.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2097230/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2097230/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2097230/capsule_231x87.jpg",
@@ -60,15 +142,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 113622,
+  "hltb_main": "4 hrs",
+  "hltb_main_extra": "5 hrs",
+  "hltb_completionist": "6 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/113622",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-03-06T04:58:23.512Z",
-  "updated_at": "2026-03-10T04:23:23.504Z"
+  "updated_at": "2026-04-25T05:55:28.763Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Cloudy Games LLC
 developer: Cloudy Games LLC
 genre: Indie, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "September 27, 2021"
 game_modes: ["Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1581500/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "814781"
 is_featured: false
+owned: true
 ---
 
 Dragon Drop is a frantic couch-multiplayer game where lovable dragons try to drop the blocks out from below their opponents. Drop the dragons! Don't get dropped! In this groundbreaking game of timing, tactics and quick twists of luck, your fire breath temporarily wipes a line of cuboid platforms away. Try to stay on while dropping your rivals, but don't delay your next step, it could be your last! Hatch into Dragon Drop, and may the last (and best) dragon win!

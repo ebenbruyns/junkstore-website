@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 2K Games
 developer: Hangar 13
 genre: Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "September 25, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/e000b24716341e81f705e4201a42b0d99d421297e92ef559182c598995387d8c.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/78135"
 store_url: "https://www.gog.com/en/game/mafia_definitive_edition"
 protondb_url: "https://www.protondb.com/app/1030840"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia%3A_Definitive_Edition"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/mafia-definitive-edition?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1993581340"
 is_featured: false
+owned: true
 ---
 
 Re-made from the ground up, rise through the ranks of the Mafia during the Prohibition era of organized crime. After a run-in with the mob, cab driver Tommy Angelo is thrust into a deadly underworld. Initially uneasy about falling in with the Salieri crime family, Tommy soon finds that the rewards are too big to ignore.

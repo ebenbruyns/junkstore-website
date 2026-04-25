@@ -17,9 +17,15 @@ proton_version: ""
 publisher: PQube
 developer: Dual Effect
 genre: Action, Adventure
+franchise: 
+age_rating_summary: 
 release_date: "August 26, 2021"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Russian","Spanish - Latin America","Portuguese - Brazil","Italian","Japanese","Korean"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1367590/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.97b53157-8867-4e2b-9936-e1425b8b5dea"
 is_featured: false
+owned: true
 ---
 
 Classic survival horror is back! Inspired by the original Resident Evil and Alone in the Dark series, Tormented Souls modernises with a fresh twist on the fixed perspective adventure - as Caroline Walker investigates the mysterious disappearance of twin girls in a terrifying mansion-turned-hospital.

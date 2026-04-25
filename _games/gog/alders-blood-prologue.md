@@ -17,9 +17,15 @@ proton_version: ""
 publisher: No Gravity Games
 developer: Shockwork Games
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "March 13, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/305750925718087df59b1cc778e53b8614e70f929425a5928899a3aa7130820d.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2018305509"
 is_featured: false
+owned: true
 ---
 
 Alder's Blood is a grim, dark and damp turn-based, tactical, strategic, 2D game. Lead a group of Hunters in a world, where nature have lost her mind and repelled the civilisation. Use cold steel and trustworthy rifles or guns to fight back.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: CD PROJEKT RED
 developer: CD PROJEKT RED
 genre: Role-playing (RPG), Adventure, Action
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["Arabic","Portuguese (Brazil)","Chinese (Simplified)","Czech","German","English (United States)","Spanish (Spain)","Spanish (Mexico)","French","Hungarian","Italian","Japanese","Korean","Polish","Russian","Turkish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/fc1c44b2252e3200db66872630f7e21687bba217b6eabb188451556b5941cf63.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1640424747"
 is_featured: false
+owned: true
 ---
 
 Become a professional monster slayer and embark on an adventure of epic proportions! Upon its release, The Witcher 3: Wild Hunt became an instant classic, claiming over 250 Game of the Year awards. Now you can enjoy this huge, over 100-hour long, open-world adventure along with both its story-driven expansions worth an extra 50 hours of gameplay. This edition includes all additional content - new weapons, armor, companion outfits, new game mode and side quests.

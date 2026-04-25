@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 2K
 developer: NIL, NIL
 genre: Adventure
+franchise: 
+age_rating_summary: 
 release_date: "May 19, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/95ba65daeb5487d635a49ea90ad82c7b973b9c33e547649072272c0dc7238ed9.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://www.gog.com/en/game/mafia_ii_definitive_edition"
 protondb_url: "https://www.protondb.com/app/1030830"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia_II%3A_Definitive_Edition"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1449710114"
 is_featured: false
+owned: true
 ---
 
 Remastered in stunning HD detail, live the life of a gangster during the Golden-era of organized crime. War hero Vito Scaletta becomes entangled with the mob in hopes of paying his father’s debts. Alongside his buddy Joe, Vito works to prove himself, climbing the family ladder with crimes of larger reward, status and consequence.

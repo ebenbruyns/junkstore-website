@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Platform, Arcade",
   "description": "A bite-sized 3D Platformer with a few weird elements.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/b390233b9a7608f21434c00c477dfd9b292451818eeb28b16b5adfdd00380674.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1554840/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1554840/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:17.343Z",
-  "updated_at": "2025-11-27T06:07:08.723Z"
+  "updated_at": "2026-04-25T00:55:37.282Z"
 }

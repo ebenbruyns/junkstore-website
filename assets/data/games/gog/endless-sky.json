@@ -39,6 +39,17 @@
   "genre": "Action, Adventure, Indie, RPG, Simulation, Free To Play",
   "description": "Endless Sky is an open source 2D space trading and combat game inspired by the classic Escape Velocity series. Work your way up from a relatively wimpy shuttle, cargo ship, or fighter, to a highly upgraded and customized flagship or to a massive fleet of warships or freighters.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/b847f182016a6127e4391121cf9d97c4c9965da76c720821459fa28e56861438.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/443fa45e5a21747ce70d69c7cfec0576dd3f735385561531abd4e3f9dfecc012.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/98451d0056af5a656fddd568b2f10b06a76681c8e1587a01038ffd34009583ea.jpg?namespace=gamesdb",
@@ -50,7 +61,8 @@
     "English"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/endless-sky/",
+  "hltb_id": 31637,
   "hltb_main": "8.5 hrs",
   "hltb_main_extra": "57.5 hrs",
   "hltb_completionist": "98.5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-02-17T04:03:05.546Z"
+  "updated_at": "2026-04-25T00:41:55.627Z"
 }

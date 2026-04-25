@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)",
   "description": "Icewind Dale: Enhanced Edition revives the classic RPG with fresh updates for modern players. Build a party of Dungeons &amp; Dragons heroes and explore the frozen tundra in this retro fantasy adventure.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/1eea311f044b0eda759528d7444c63bf2ac9e331c5c713133ccc9b6283225304.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b18034ce5cff70163c1134cba1edd00f204264c3610868486c3d1ce27ee59bf0.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/321800/capsule_231x87.jpg",
@@ -64,6 +75,7 @@
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/pc/icewind-dale-enhanced-edition?ftag=MCD-06-10aaa1f",
+  "hltb_id": 21060,
   "hltb_main": "30.5 hrs",
   "hltb_main_extra": "41 hrs",
   "hltb_completionist": "62 hrs",
@@ -75,5 +87,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2025-09-30T00:30:43.278Z"
+  "updated_at": "2026-04-25T00:51:37.157Z"
 }

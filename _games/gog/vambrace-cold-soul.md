@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Headup Games
 developer: Devespresso Games
 genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie
+franchise: 
+age_rating_summary: 
 release_date: "May 28, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1f0acd9d2aef93e05b664515bda091adee9d2605689be76d8ffd463b0c398b0e.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/67877"
 store_url: "https://www.gog.com/en/game/vambrace_cold_soul"
 protondb_url: "https://www.protondb.com/app/904380"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vambrace%3A_Cold_Soul"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1075740587"
 is_featured: false
+owned: true
 ---
 
 Vambrace: Cold Soul is a roguelike fantasy-adventure set amidst a frozen landscape. Plan your expeditions underground, then journey to the cursed city surface with your team of heroes. Wield unique powers, avoid dangerous traps, brave strange encounters, and survive deadly combat!

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Midwest Games
 developer: Graphite Lab, Sonamu Games, Joystick
 genre: Role-playing (RPG), Indie
+franchise: 
+age_rating_summary: 
 release_date: "September 10, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/446857b0fb7e0b5d5ba2e600f8c3a2f1080e8a487dec7c90c3d5185776729853.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://www.gog.com/en/game/hive_jump_2_survivors"
 protondb_url: "https://www.protondb.com/app/2545740"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hive_Jump_2%3A_Survivors"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/hive-jump-2-survivors?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1577460220"
 is_featured: false
+owned: true
 ---
 
 Become an agent of vengeance in this bullet-heaven action roguelite! You are the lone survivor of your squad, on an alien planet with just your weapon, a jetpack, and the courage to keep fighting. Kill off alien swarms and transform their valuable guts into explosive upgrades and vital utilities.

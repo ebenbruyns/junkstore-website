@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Blowfish Studios
 developer: Indiesruption
 genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "October 17, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/9675422b74b529a1e8091160add1f6f1139d95bf1b5903b625ba8f5c22b2a8a4.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.f31fa950-6fe4-4121-858d-e6f0074ded23"
 is_featured: false
+owned: true
 ---
 
 Vlad Circus: Descend into Madness puts your sanity to the test, challenging you to escape a labyrinth of nightmares and torment. Test your mind against a slow burn of puzzles, light survival mechanics, and methodical action.

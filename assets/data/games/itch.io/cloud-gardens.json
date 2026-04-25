@@ -39,6 +39,17 @@
   "genre": "Strategy, Indie, Puzzle, Simulator",
   "description": "A chill game about using plants to overgrow abandoned wasteland dioramas.\n\nIn Cloud Gardens players must harness the power of nature to overgrow lo-fi scenes of urban decay and manufactured landscapes. By planting seeds in the right places, they’re able to create small overgrown dioramas of brutalism and beauty, salvaging and repurposing hundreds of discarded objects to create unique structures for nature to reclaim.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/5746e1e4b29716cce704ea03f7756d76135866652deae21ccd37fedc542cc73a.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1372320/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1372320/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.909Z",
-  "updated_at": "2025-11-04T23:26:32.759Z"
+  "updated_at": "2026-04-25T00:55:19.651Z"
 }

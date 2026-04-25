@@ -37,8 +37,105 @@
   "developer": "Mimimi Games",
   "releasedate": "2016-12-06T00:00:00+0000",
   "genre": "Strategy, Tactical",
-  "description": "Shadow Tactics is a hardcore tactical stealth game set in Japan around the Edo period. A new Shogun seizes power over Japan and enforces nationwide peace. In his battle against conspiracy and rebellion, he recruits five specialists with extraordinary skills for assassination, sabotage and espionage.",
+  "description": "Shadow Tactics is a hardcore tactical stealth game set in Japan around the Edo period. A new Shogun seizes power over Japan and enforces nationwide peace. He recruits five specialists with extraordinary skills for assassination, sabotage and espionage.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1088",
+      "name": "Turn-Based Strategy"
+    },
+    {
+      "id": "1120",
+      "name": "RTS"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1088",
+      "name": "Turn-Based Strategy"
+    },
+    {
+      "id": "1120",
+      "name": "RTS"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Shadow Tactics is a hardcore tactical stealth game set in Japan around the Edo period. A new Shogun seizes power over Japan and enforces nationwide peace. He recruits five specialists with extraordinary skills for assassination, sabotage and espionage.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/09efa51f1ca073ff78161875e5626804b4ffa354f4e43821f5feb16552d183e6.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/316714fc01d0c9678d119d2a9c096967483d22d5adfb593cb56fe5c45a28b8bd.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9fdc43f379fa9725b9aa8eb48001a549b0fa4aa6329269fd3706a6438ad4f183.jpg?namespace=gamesdb",
@@ -60,6 +157,7 @@
   ],
   "metacritic_score": 85,
   "metacritic_url": "https://www.metacritic.com/game/pc/shadow-tactics-blades-of-the-shogun?ftag=MCD-06-10aaa1f",
+  "hltb_id": 38300,
   "hltb_main": "24.5 hrs",
   "hltb_main_extra": "30.5 hrs",
   "hltb_completionist": "57 hrs",
@@ -71,5 +169,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-10-07T23:44:38.582Z"
+  "updated_at": "2026-04-25T02:24:30.414Z"
 }

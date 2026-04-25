@@ -39,6 +39,17 @@
   "genre": "Casual, Indie, Simulation, Strategy",
   "description": "Dorfromantik is a peaceful building strategy and puzzle game where you create a beautiful and ever-growing village landscape by placing tiles. Explore a variety of colorful biomes, discover and unlock new tiles and complete quests to fill your world with life!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1455840/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1455840/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1455840/capsule_231x87.jpg",
@@ -58,8 +69,9 @@
     "Traditional Chinese",
     "Polish"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 84,
+  "metacritic_url": "https://www.metacritic.com/game/dorfromantik/",
+  "hltb_id": 79440,
   "hltb_main": "5 hrs",
   "hltb_main_extra": "18 hrs",
   "hltb_completionist": "60.5 hrs",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-05T00:35:56.140Z",
-  "updated_at": "2026-02-07T23:04:50.807Z"
+  "updated_at": "2026-04-25T00:56:12.292Z"
 }

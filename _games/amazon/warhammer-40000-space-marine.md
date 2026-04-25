@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Sega, THQ
 developer: Relic Entertainment
 genre: Role-playing (RPG), Shooter
+franchise: 
+age_rating_summary: 
 release_date: "September 6, 2011"
 game_modes: ["Single player","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English","French","German","Italian","Spanish - Spain","Russian**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b686f6b5f8b81666672d7219b4c76a5e62404d0101e4fea53f1a3b9e1c9bd6dd.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.b85653d9-fcab-4fdd-a6f7-4829e235be2a"
 is_featured: false
+owned: true
 ---
 
 In Warhammer 40,000 Space Marine you are Captain Titus, a Space Marine of the Ultramarines chapter and a seasoned veteran of countless battles.

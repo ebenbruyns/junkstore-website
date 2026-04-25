@@ -17,9 +17,15 @@ proton_version: ""
 publisher: m12y
 developer: m12y
 genre: Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "July 6, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/654810/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "124280"
 is_featured: false
+owned: true
 ---
 
 A Snake's Tale is a puzzle game about snakes in cramped places. Clear a path to get to the hole, eat some eggs along the way, and make sure to press all the buttons.

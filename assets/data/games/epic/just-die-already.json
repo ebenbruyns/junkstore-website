@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Just_Die_Already",
   "notes": "Requires manual controller/key mapping.",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,114 @@
   "shortname": "06621054d7d24f44bf13e3c31c9ec05d",
   "publisher": "Curve Digital, DoubleMoose Games",
   "developer": "DoubleMoose Games",
-  "releasedate": "2021-05-20T00:00:00+0000",
-  "genre": "Adventure, Indie, Platform, Simulator",
+  "releasedate": "2021-05-20T17:00:00.000Z",
+  "genre": "Open World, Comedy, Adventure",
   "description": "Just Die Already is an old people mayhem sandbox game created by the designers of Goat Simulator. You are old and angry and you've just been kicked out of your retirement home. How will you survive in a world that wants you to Just Die Already?",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21126",
+      "name": "Silly Community"
+    },
+    {
+      "id": "21130",
+      "name": "Easy Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1116",
+      "name": "Comedy"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1116",
+      "name": "Comedy"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2022-04-27T15:00:00.000Z",
+      "end": "2022-05-04T15:00:00.000Z",
+      "type": null,
+      "id": "fd05ded73f7944798434bd7ee7b39e9c"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Just Die Already is an old people mayhem sandbox game created by the designers of Goat Simulator. You are old and angry and you've just been kicked out of your retirement home. How will you survive in a world that wants you to Just Die Already?",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/dcfc9a8fc07912874bd9cd329760619f49881367daafbbbba9b407f14c42caac.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/56d0b7e66187906b17f7028e46abceacb88da3f9cbf0c88dba1257b6d9938c9a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b704dceb7856f4d36b1f1b71a281d4a5411b11e5463bc7d817e78f62ce5c2e8f.jpg?namespace=gamesdb",
@@ -53,15 +157,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 91442,
+  "hltb_main": "3.5 hrs",
+  "hltb_main_extra": "7.5 hrs",
+  "hltb_completionist": "12.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/91442",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-12-11T21:10:14.676Z"
+  "updated_at": "2026-04-25T05:42:25.039Z"
 }

@@ -5,13 +5,13 @@
   "protondb": "https://www.protondb.com/app/780290",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/gloomhaven-92f741",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gloomhaven",
   "notes": "You need to link with your Epic account. <strong>Works out of the box</strong> — no extra setup needed.",
   "date_tested": "April '25",
-  "decky_rating": "Perfect",
-  "standalone_rating": "Perfect",
+  "decky_rating": "green",
+  "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "Native Steam Deck Controls",
@@ -28,17 +28,133 @@
   "required_launcher": "",
   "requires_account_setup": false,
   "account_type": "",
-  "controller_input": "",
+  "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
   "databaseId": "1bcd791d54684eb29ed32ad1c0593d12",
   "shortname": "1bcd791d54684eb29ed32ad1c0593d12",
-  "publisher": "Asmodee Digital",
-  "developer": "Flaming Fowl Studios",
-  "releasedate": "2019-07-17T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Tactical",
-  "description": "\"In Gloomhaven, you play as a team of mercenaries on their own personal quests to go conquer a world of gloomy and wicked decadence. Choose your group members wisely, because in the turmoil of battle you can only rely on your wits, skills and spells to fight your way through the putrid dungeons and forgotten ruins. In this rogue-like dungeon-crawling adaptation of the famous board game, you will journey through terrifying randomly generated dungeons, fight against increasingly horrific and powerful foes…or die trying. \"",
+  "publisher": "Twin Sails Interactive",
+  "developer": "Flaming Fowl Studios, and Saber Interactive Minsk",
+  "releasedate": "2022-09-22T15:00:00.000Z",
+  "genre": "Turn-Based, RPG, Strategy",
+  "description": "Whether you are drawn to Gloomhaven by the call of adventure or by an avid desire for gold glimmering in the dark, your fate will surely be the same. Gloomhaven, the digital adaptation of the acclaimed board game, mixes Tactical-RPG and dungeon-crawling.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "1386",
+      "name": "Turn-Based"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1386",
+      "name": "Turn-Based"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 106803,
+  "igdb_url": "https://www.igdb.com/games/106803",
+  "giveaway_events": [
+    {
+      "start": "2022-09-21T15:00:00.000Z",
+      "end": "2022-09-28T15:00:00.000Z",
+      "type": null,
+      "id": "9232fdbc352445cc820a54bdc97ed2bb"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Whether you are drawn to Gloomhaven by the call of adventure or by an avid desire for gold glimmering in the dark, your fate will surely be the same. Gloomhaven, the digital adaptation of the acclaimed board game, mixes Tactical-RPG and dungeon-crawling.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a102d30f0eaafe51d70e0e4cef000c92918b0f5f044899eb3bc6ab249f288aaf.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9fc13cf403170af60068e0116075487cb6defce979fa5857a367d03771974e81.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1ae7e08a37a1f0d360dd1ade9df815b1ea7aea6cf5a42c09e64715be1c318a39.jpg?namespace=gamesdb",
@@ -53,14 +169,15 @@
   ],
   "metacritic_score": 82,
   "metacritic_url": "https://www.metacritic.com/game/pc/gloomhaven?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 69273,
+  "hltb_main": "96 hrs",
+  "hltb_main_extra": "142 hrs",
+  "hltb_completionist": "181 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/69273",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "updated_at": "2026-04-25T05:41:47.790Z"
 }

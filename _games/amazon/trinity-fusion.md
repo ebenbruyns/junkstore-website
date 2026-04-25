@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Angry Mob Games
 developer: Angry Mob Games
 genre: Role-playing (RPG), Indie, Platform, Fighting
+franchise: 
+age_rating_summary: 
 release_date: "December 15, 2023"
 game_modes: ["Single player"]
 languages: ["English*","French","German","Spanish - Spain","Japanese","Simplified Chinese","Portuguese - Brazil","Portuguese - Portugal","Spanish - Latin America*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/011b93ef012f91d073113ed67d3dcbdf295d605cee4d470cb778cce710819b02.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.49c149a1-6efb-4c80-9bd0-20f49518da23"
 is_featured: false
+owned: true
 ---
 
 Take control of your parallel selves on a mission to save the dying multiverse in this rogue-lite action platformer! Explore dark, sci-fi worlds and engage in fast-paced, smooth and precise combat.

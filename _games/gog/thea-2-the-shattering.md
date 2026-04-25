@@ -17,9 +17,15 @@ proton_version: ""
 publisher: MuHa Games, RockGame
 developer: MuHa Games
 genre: Role-playing (RPG), Strategy
+franchise: 
+age_rating_summary: 
 release_date: "May 13, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4c18c50d766dabd2e699bbfba63aeb9b259c724fdb7b09647b8b6ae6b82146f7.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/64270"
 store_url: "https://www.gog.com/en/game/thea_2_the_shattering"
 protondb_url: "https://www.protondb.com/app/606230"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thea_2%3A_The_Shattering"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1582025844"
 is_featured: false
+owned: true
 ---
 
 In the dark lands inspired by Slavic myth, life is a struggle for survival against ever increasing odds, be it natural or malevolent. Can you lead your flock to prosperity in this innovative blend of 4X strategy, RPG and card game?

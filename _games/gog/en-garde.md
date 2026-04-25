@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Fireplace Games
 developer: Fireplace Games
 genre: Adventure, Indie, Fighting
+franchise: 
+age_rating_summary: 
 release_date: "June 26, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/aea6b53bf93707d577a24491a60b062a234a55787ca3ed1848f213332526b0a0.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/129877"
 store_url: "https://www.gog.com/en/game/en_garde"
 protondb_url: "https://www.protondb.com/app/1654660"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/En_Garde%21"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1589319779"
 is_featured: false
+owned: true
 ---
 
 A swashbuckling adventure!

@@ -39,6 +39,17 @@
   "genre": "Adventure, Platform, Shooter, Arcade",
   "description": "The cult classic Zombies Ate My Neighbors and its sequel make their long awaited return in Zombies Ate My Neighbors and Ghoul Patrol! Play these classics from the golden age of 16-bit gaming with new enhancements and never before seen museum features.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/3070d3b7d3b49ecc7bf9f021dc8e733cd7ff1fded7714f2e0d5f0a84b1ac431e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b8452258aa523796a1b9b431a65baf5ab15a88a680f278e34a0cd254ea249876.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1137970/capsule_231x87.jpg",
@@ -57,6 +68,7 @@
   ],
   "metacritic_score": 59,
   "metacritic_url": "https://www.metacritic.com/game/zombies-ate-my-neighbors-and-ghoul-patrol/",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -66,5 +78,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T22:19:47.845Z"
+  "updated_at": "2026-04-25T00:54:26.906Z"
 }

@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Tony_Hawk%27s_Pro_Skater_1_%2B_2",
   "notes": "",
   "date_tested": "May '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,103 @@
   "shortname": "GuppyDummy",
   "publisher": "Activision",
   "developer": "Vicarious Visions",
-  "releasedate": "09-2020",
-  "genre": "Sport, Simulator",
-  "description": "Play the fully-remastered Tony Hawk's Pro Skater & Tony Hawk's Pro Skater 2 games in one epic collection, rebuilt from the ground up in incredible HD.",
+  "releasedate": "2020-09-04T01:00:00.000Z",
+  "genre": "Action, Sports",
+  "description": "Play the fully-remastered Tony Hawk’s™ Pro Skater™ & Tony Hawk’s™ Pro Skater™ 2 games in one epic collection, rebuilt from the ground up in incredible HD.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1283",
+      "name": "Sports"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1160",
+      "name": "SKATEBOARDING"
+    },
+    {
+      "id": "1321",
+      "name": "GREAT SOUNDTRACK"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1283",
+      "name": "Sports"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Play the fully-remastered Tony Hawk’s™ Pro Skater™ & Tony Hawk’s™ Pro Skater™ 2 games in one epic collection, rebuilt from the ground up in incredible HD.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/aff4e8c96e8b076411ea110064119dc9d4e5780ce0b36066e957558cc1cfca03.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9fffc06e830ca42dda12997f6c82644668e01a655f46e6a640aba76d21fedd2e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/aff4e8c96e8b076411ea110064119dc9d4e5780ce0b36066e957558cc1cfca03.jpg?namespace=gamesdb",
@@ -53,15 +146,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 78213,
+  "hltb_main": "7 hrs",
+  "hltb_main_extra": "12 hrs",
+  "hltb_completionist": "34.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/78213",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T05:22:43.813Z"
+  "updated_at": "2026-04-25T05:46:33.233Z"
 }

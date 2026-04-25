@@ -39,6 +39,17 @@
   "genre": "Adventure, Casual",
   "description": "True Fear: Forsaken Souls Part 2 is the sequel to one of the best rated horror escape games, acclaimed for its story and the atmosphere of horror mystery.",
   "size": "649773427\n",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/935580/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/935580/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/935580/capsule_231x87.jpg",
@@ -60,6 +71,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 67867,
   "hltb_main": "8 hrs",
   "hltb_main_extra": "8 hrs",
   "hltb_completionist": "9 hrs",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-22T00:47:45.156Z",
-  "updated_at": "2025-10-25T04:29:38.934Z"
+  "updated_at": "2026-04-25T00:56:50.544Z"
 }

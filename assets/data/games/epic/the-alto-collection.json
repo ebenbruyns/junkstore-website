@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Alto_Collection",
   "notes": "Works out of the box on the Decky plugin version.",
   "date_tested": "May '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,102 @@
   "shortname": "Hornbill",
   "publisher": "Snowman",
   "developer": "Team Alto",
-  "releasedate": "08-2020",
-  "genre": "Adventure, Indie, Sport, Arcade",
-  "description": "Across the endless desert and atop an alpine expanse two journeys full of wonder await. Choose your path and set off on a thrilling snowboarding...",
+  "releasedate": "2020-08-13T15:00:00.000Z",
+  "genre": "Indie, Adventure",
+  "description": "Across the endless desert and atop an alpine expanse two journeys full of wonder await. Choose your path and set off on a thrilling snowboarding or sandboarding adventure with Alto & friends.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21124",
+      "name": "Kind Community"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21134",
+      "name": "Beautiful Visuals"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2020-08-12T15:00:00.000Z",
+      "end": "2020-08-19T15:00:00.000Z",
+      "type": null,
+      "id": "754412e3df444c0c84653ea7aa047fe6"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Across the endless desert and atop an alpine expanse two journeys full of wonder await. Choose your path and set off on a thrilling snowboarding or sandboarding adventure with Alto & friends.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/059239dce0358c9d827fb533f88585afea8d855bd1b8c3397e5397b5221584b6.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2aea139b9de69eba22da14882e80b796761993742426a8531bc275fb6d255845.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/477a01b7c077e1583e7666a408a285f216b079a8580b6db8452471d17d5245b5.jpg?namespace=gamesdb",
@@ -51,15 +143,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 81774,
+  "hltb_main": "6 hrs",
+  "hltb_main_extra": "19.5 hrs",
+  "hltb_completionist": "33.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/81774",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T06:21:00.631Z"
+  "updated_at": "2026-04-25T05:46:44.849Z"
 }

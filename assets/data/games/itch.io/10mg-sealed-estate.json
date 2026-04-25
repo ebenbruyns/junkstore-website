@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie",
   "description": "A psychological horror game in which you are locked inside by a creature ready to hunt you down, whilst you figure out how to escape from the estate you have been locked inside. Who lived here? Who are the voices haunting your every step?",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/29adcf722a8e7506fdf6196332fb60fd9ef76eb355b6f6ef42f3dac8521b6bd3.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1435480/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1435480/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.789Z",
-  "updated_at": "2025-11-27T06:07:22.863Z"
+  "updated_at": "2026-04-25T00:54:38.638Z"
 }

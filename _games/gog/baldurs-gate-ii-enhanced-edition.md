@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Atari, Beamdog
 developer: Overhaul Games
 genre: Role-playing (RPG), Strategy
+franchise: 
+age_rating_summary: 
 release_date: "November 15, 2013"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/fb479b4f352dbd5e537fbf08bb5e299dd18b855a96f0d1e0a34a82f12bcf99e3.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/809"
 store_url: "https://www.gog.com/en/game/baldurs_gate_2_enhanced_edition"
 protondb_url: "https://www.protondb.com/app/494360"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_Curse_of_the_Ancient_Circle"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/baldurs-gate-ii-enhanced-edition?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207666373"
 is_featured: false
+owned: true
 ---
 
 Kidnapped. Imprisoned. Tortured. The wizard Irenicus holds you captive in his stronghold, attempting to strip you of the powers that are your birthright. 

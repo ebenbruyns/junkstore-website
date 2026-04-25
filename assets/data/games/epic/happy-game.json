@@ -35,10 +35,75 @@
   "shortname": "ad57f5278b2f4a3b94b18d450f7736ae",
   "publisher": "Amanita Design",
   "developer": "Amanita Design",
-  "releasedate": "2021-10-28T00:00:00+0000",
-  "genre": "Adventure, Indie, Puzzle, Point-and-click",
+  "releasedate": "2025-05-06T13:00:00.000Z",
+  "genre": "Horror, Puzzle, Adventure",
   "description": "A little boy falls asleep to a horrible nightmare. Can you make him happy again?",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": {
+    "total": 1,
+    "average": 0,
+    "recommended_pct": 1,
+    "not_recommended_pct": 0
+  },
+  "igdb_id": 141681,
+  "igdb_url": "https://www.igdb.com/games/141681",
+  "giveaway_events": [
+    {
+      "start": "2025-05-15T15:00:00.000Z",
+      "end": "2025-05-22T15:00:00.000Z",
+      "type": null,
+      "id": "431ef6a0c3fd4aaab390ceb2f1904bc3"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "A little boy falls asleep to a horrible nightmare. Can you make him happy again?",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/4114b275a2ae97abdcb9e9b7d9d0675afe2988469b389faa3461ad89ad22e6f7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/afeb721e4b3d56411915cd9f31ddf28c1b458123e1d01d1798b87e9b01038dcf.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/50628ced8ff86b4fe2ab427b9af32d9f9339e01fa6d74c4c629786a3614723a7.jpg?namespace=gamesdb",
@@ -51,15 +116,16 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/pc/happy-game?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 88814,
+  "hltb_main": "2.1 hrs",
+  "hltb_main_extra": "2.2 hrs",
+  "hltb_completionist": "2.4 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/88814",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-11-04T23:25:49.505Z"
+  "updated_at": "2026-04-25T01:10:56.315Z"
 }

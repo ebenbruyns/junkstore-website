@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Kikimora Games
 developer: Kikimora Games
 genre: Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "December 31, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/36f72fd7a6c8f18c5bb058998a1386a9fb02a5a336cf52ed82bba9139e51139f.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "974992"
 is_featured: false
+owned: true
 ---
 
 Solve the puzzle of decomposition

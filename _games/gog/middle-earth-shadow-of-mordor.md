@@ -17,9 +17,15 @@ proton_version: ""
 publisher: WB Games
 developer: Monolith Productions
 genre: "Role-playing (RPG), Adventure, Hack and slash/Beat 'em up"
+franchise: 
+age_rating_summary: 
 release_date: "September 30, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/9700138fd9eb99dee4e8a7936362fd01b1b645430328434c96f366d8ff0c5d0e.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/31384"
 store_url: "https://www.gog.com/en/game/middleearth_shadow_of_mordor"
 protondb_url: "https://www.protondb.com/app/241930"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Middle-earth%3A_Shadow_of_Mordor"
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/middle-earth-shadow-of-mordor?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1213504814"
 is_featured: false
+owned: true
 ---
 
 Middle-earth: Shadow of Mordor is a open world third-person action role-playing video game developed by Monolith Productions and published by Warner Bros. Interactive Entertainment, which takes place in the world of J.R.R. Tolkien's Legendarium.

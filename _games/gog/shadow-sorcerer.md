@@ -17,9 +17,15 @@ proton_version: ""
 publisher: U.S. Gold, SSI (Strategic Simulations, Inc.)
 developer: Strategic Simulations, Inc
 genre: Role-playing (RPG), Adventure, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "December 31, 1991"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1779703219"
 is_featured: false
+owned: true
 ---
 
 Shadow Sorcerer is a tie-in with the Dragonlance series of novels. The player controls a party of four adventurers that have just rescued 800 slaves and must shepherd them through the wilderness before the evil Dragon army catches up with them. There are three levels to the game:

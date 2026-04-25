@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Platform, Puzzle, Arcade, Music",
   "description": "Swim, launch and bounce through this meditative floating platformer. A reactive soundscape creates the soundtrack to your exploration through the playful puzzles of Ynglet's hand drawn levels.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/39014067da83a53dfe71310098b8d1e1f6e1ba11ce40060923c913ae3b3ced41.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/1b4e48c7e242ca89ba21f096e955886c1f6fb59e5aac7d46adbe65c73ce5dd86.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1015920/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/pc/ynglet?ftag=MCD-06-10aaa1f",
+  "hltb_id": 82389,
   "hltb_main": "1 hrs",
   "hltb_main_extra": "2 hrs",
   "hltb_completionist": "2.5 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T09:06:26.673Z"
+  "updated_at": "2026-04-25T00:54:24.995Z"
 }

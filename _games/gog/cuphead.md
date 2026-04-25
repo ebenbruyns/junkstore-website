@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Studio MDHR
 developer: Studio MDHR
 genre: platform
+franchise: 
+age_rating_summary: 
 release_date: "September 29, 2017"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/eb9a2926866d526ea39695e603ce585f3e6c63d01bf610d630f225377a648be4.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/21680"
 store_url: "https://www.gog.com/en/game/cuphead"
 protondb_url: "https://www.protondb.com/app/268910"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cuphead"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/cuphead?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1963513391"
 is_featured: false
+owned: false
 ---
 
 Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era...

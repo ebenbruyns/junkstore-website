@@ -17,9 +17,15 @@ proton_version: ""
 publisher: "Flynn's Arcade, Dexter Team Games"
 developer: Sea Monster Media, Dexter Team Games
 genre: Adventure, Indie, Puzzle, Point-and-click, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "March 3, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a9cea15dc5690a6f6f5b2cd027a6f502d923b006480635580650c467ccf331b8.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.0d9fd292-f386-406f-895b-a9385d3dfcb5"
 is_featured: false
+owned: true
 ---
 
 A spacey classic adventure for all! Dexter Stardust: Adventures in Outer Space is a classic point and click adventure; you can walk, talk, and interact with everything in your surroundings. Use and pick up inventory items to solve puzzles in over 100 unique scenes. Playing Dexter Stardust is like watching back to back episodes of a Saturday morning cartoon! With 5 total episodes, feel free to jump to or replay any episode you’d like, at any time.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Square Enix, Feral Interactive
 developer: Eidos Montréal, GRIP Entertainment
 genre: Role-playing (RPG), Shooter
+franchise: 
+age_rating_summary: 
 release_date: "October 22, 2013"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b5dc9e47b941a489e11d7961a64515e9e0104f0e794034e504cffe5edb948ff8.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/14286"
 store_url: "https://www.gog.com/en/game/deus_ex_human_revolution_directors_cut"
 protondb_url: "https://www.protondb.com/app/238010"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex%3A_Human_Revolution_-_Director%27s_Cut"
 metacritic_score: 91
 metacritic_url: "https://www.metacritic.com/game/pc/deus-ex-human-revolution---directors-cut?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1370227705"
 is_featured: false
+owned: true
 ---
 
 Deus Ex: Human Revolution - Director's Cut was released on October 22, 2013 for Xbox 360, PS3, PC and Wii U. It features approximately 8 hours of director's commentaries and a 45 minute “Making Of” video. It also features an improved visual engine and a complete overhaul of the boss battles.

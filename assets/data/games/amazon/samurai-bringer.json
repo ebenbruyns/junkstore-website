@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure, Indie, Puzzle, Arcade, Hack and slash/Beat 'em up",
   "description": "Samurai Bringer is a roguelite action game with levels which change with every playthrough, where you cut down hordes of Samurai and Demons to collect combat techniques and polish your fighting style in order to defeat Yamata-no-Orochi, the eight-headed dragon of Japanese mythology.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/9b2cee92b7870f1f06f35339a0c3a15c758ed17b9e75ac4722f23a0f7200925f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/271e91de7c629ae046be702318700b1db766a611c1930afcfb27d20bfbedb723.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1851280/capsule_231x87.jpg",
@@ -54,6 +65,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/samurai-bringer/",
+  "hltb_id": 106990,
   "hltb_main": "9.5 hrs",
   "hltb_main_extra": "10 hrs",
   "hltb_completionist": "20 hrs",
@@ -63,5 +75,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T22:02:17.480Z"
+  "updated_at": "2026-04-25T00:53:53.279Z"
 }

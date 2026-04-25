@@ -1,6 +1,6 @@
 {
   "id": "027bb567-c0f1-4ecb-8005-9c417e3c5ece",
-  "title": "Death's Gambit: Afterlife",
+  "title": "Death's Gambit - Afterlife",
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/356650",
   "protondb_report_url": "",
@@ -33,12 +33,88 @@
   "cant_test_linux": false,
   "databaseId": "29d12cc907b148dd957a709f1414843e",
   "shortname": "29d12cc907b148dd957a709f1414843e",
-  "publisher": "Adult Swim Games, Skybound Games",
+  "publisher": "Serenity Forge",
   "developer": "White Rabbit",
-  "releasedate": "2018-08-13T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Indie",
-  "description": "Death's Gambit is a challenging Action-RPG where you explore an alien medieval planet filled with beasts, knights, and horrors.\n\nClimb big creatures that will test your resolve. Fight dangerous monsters that will make you think outside the box.",
+  "releasedate": "2024-07-25T16:00:00.000Z",
+  "genre": "RPG",
+  "description": "Death's Gambit: Afterlife is a challenging 2D action platformer with deep RPG elements. As an agent of Death bound to his service, unravel the mystery of Siradon and discover the true price of immortality.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1367",
+      "name": "RPG"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 14760,
+  "igdb_url": "https://www.igdb.com/games/14760",
+  "giveaway_events": [
+    {
+      "start": "2024-08-15T15:00:00.000Z",
+      "end": "2024-08-22T15:00:00.000Z",
+      "type": null,
+      "id": "15ffd983174241ae8a00033f5f23f060"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Death's Gambit: Afterlife is a challenging 2D action platformer with deep RPG elements. As an agent of Death bound to his service, unravel the mystery of Siradon and discover the true price of immortality.",
+  "use_rich_description": true,
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/58c8925d94e440c7b0b4206635272579/deaths-gambit--afterlife-1uq5i.jpg",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/58c8925d94e440c7b0b4206635272579/deaths-gambit--afterlife-1v244.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/356650/capsule_231x87.jpg",
@@ -60,15 +136,16 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/pc/deaths-gambit-afterlife?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 98455,
+  "hltb_main": "14.5 hrs",
+  "hltb_main_extra": "20 hrs",
+  "hltb_completionist": "42.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/98455",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-03-01T22:51:09.337Z"
+  "updated_at": "2026-04-25T01:08:20.780Z"
 }

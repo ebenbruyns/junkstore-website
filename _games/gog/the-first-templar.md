@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Kalypso Media, FX Interactive
 developer: Haemimont Games
 genre: Role-playing (RPG), Adventure, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "May 6, 2011"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","German"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d3385d04ddae9feb061e2f9bb8765f65f7fdc9b9e30fd3e40931b1383b637a19.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1669367757"
 is_featured: false
+owned: true
 ---
 
 The First Templar follows the story of two main characters – a French Templar, and his companion, a noble lady who has been proclaimed a heretic. Taking control over these two unlikely allies, the player must uncover the mysteries behind the Templar Order, play a role in a grand conspiracy, and discover the secret of the Holy Grail. The heroes face powerful opponents at every turn, including Sacracen, King Philip the IV of France and the Inquisition.

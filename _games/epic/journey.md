@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Sony Computer Entertainment, Annapurna Interactive
 developer: ThatGameCompany
-genre: Adventure, Platform
-release_date: "March 13, 2012"
+genre: Adventure, Indie
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "June 7, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1c6403ae4d239ef3c838fbf9073f4ba5735e3f042a2a1d84d8991721e784e34d.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "2 hrs"
+hltb_main_extra: "2.5 hrs"
+hltb_completionist: "5.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/4867"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/journey"
 protondb_url: "https://www.protondb.com/app/638230"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Journey"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Lemur"
 is_featured: false
+owned: false
 ---
 
-A third-person adventure game in which the player, controlling a robed figure, makes a pilgrimage through a desert landscape to a rugged mountain
+Explore the ancient, mysterious world of Journey as you soar above ruins and glide across sands to discover its secrets. Play alone or in the company of a fellow traveler and explore its vast world together. Featuring stunning visuals and a Grammy-nominated musical score, Jour...

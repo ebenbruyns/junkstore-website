@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Shadow Tactics: Aiko's Choice - Steam Deck Compatibility"
-game_title: "Shadow Tactics: Aiko's Choice"
+title: "Shadow Tactics - Aiko's Choice - Steam Deck Compatibility"
+game_title: "Shadow Tactics - Aiko's Choice"
 slug: "shadow-tactics-aikos-choice"
 storefront: "Epic"
 storefront_key: "epic"
@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Daedalic Entertainment
 developer: Mimimi Games
-genre: Adventure, Strategy, Indie, Puzzle, Real Time Strategy (RTS), Tactical
-release_date: "December 6, 2021"
+genre: Action, Strategy, Stealth
+franchise: 
+age_rating_summary: 
+release_date: "December 7, 2021"
 game_modes: ["Single player"]
 languages: ["English*","German","Japanese*","French","Italian","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"9549","name":"Controller Support"}]
+igdb_url: "https://www.igdb.com/games/19085"
+was_free_before: true
+giveaway_events: [{"start":"2023-01-04T15:00:00.000Z","end":"2023-01-11T15:00:00.000Z","type":null,"id":"ef6a61163419450ba4dcf2eacb6b88e7"}]
 
 # Images
 banner_image: "https://images.gog.com/fa49e73712e53283e9173072df2e63fc14b0381a97c95b6b0bbf6b1daf973870.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: true
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "7.3 hrs"
+hltb_main_extra: "10.3 hrs"
+hltb_completionist: "13.9 hrs"
+hltb_url: "https://howlongtobeat.com/game/101222"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/shadow-tactics-aikos-choice-5678c1"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "a334978574a840d594c31521592925f3"
 is_featured: false
+owned: true
 ---
 
 Aiko's Choice is a brand-new standalone addon to the beloved stealth tactics game Shadow Tactics. Set in Japan around the Edo period, you take control of kunoichi adept Aiko and her deadly assassin friends to hunt down the ghosts of her past.

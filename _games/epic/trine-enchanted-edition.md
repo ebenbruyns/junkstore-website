@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Frozenbyte
 developer: Frozenbyte
-genre: Action, Adventure, Indie
-release_date: "July 2, 2009"
+genre: Puzzle, Action-Adventure, Platformer
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "January 1, 2026"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","French*","German*","Italian*","Spanish - Spain**languages with full audio support"]
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/6247"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/35700/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "91eac4ac00304bcc9d7d4a55a95894b3"
 is_featured: false
+owned: true
 ---
 
-Three Heroes make their way through dangers untold in a fairytale world of great castles and strange machinery, featuring physics-based puzzles, beautiful sights and online co-op.
+Spellbound by the magical object Trine, three heroes must join forces to overcome obstacles and puzzles in a fully interactive physics-based world, battle the undead and their minions, and restore balance to the kingdom!

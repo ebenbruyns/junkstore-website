@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)",
   "description": "Tower of Time is an incredible adventure packed with over 50 hours of gameplay, hand-crafted levels, and a rich story told through cinematics. Taking classic RPG gameplay to the next level, Tower of Time features flexible character development, thousands of pieces of loot and equipment and the complex and tactical Arrow-Time real-time combat system.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/85dfe1e38ca66f736eaacf0b88995cc3b18a904a00df5035738048f04e9e1feb.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/780130586ec53a743abed9b57cb0a3e7eb3a6bae08cef6c1310156c3e565a4f8.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/a7a09b3ac646a6cb2ff952df4c6ff40d5ffe2e073db809b1bae25584736d94a9.jpg?namespace=gamesdb",
@@ -59,6 +70,7 @@
   ],
   "metacritic_score": 77,
   "metacritic_url": "https://www.metacritic.com/game/pc/tower-of-time?ftag=MCD-06-10aaa1f",
+  "hltb_id": 48039,
   "hltb_main": "33 hrs",
   "hltb_main_extra": "41.5 hrs",
   "hltb_completionist": "57 hrs",
@@ -70,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2025-09-18T23:42:19.648Z"
+  "updated_at": "2026-04-25T00:53:02.198Z"
 }

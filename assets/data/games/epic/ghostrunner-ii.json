@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": true,
   "requires_verification": false,
   "epic_achievements": true,
@@ -35,10 +35,92 @@
   "shortname": "cc3213f280df4b428e85b771c09d1891",
   "publisher": "505 Games",
   "developer": "One More Level",
-  "releasedate": "2023-10-26T00:00:00+0000",
-  "genre": "Adventure, Strategy, Platform, Hack and slash/Beat 'em up",
-  "description": "Ghostrunner II is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action.",
+  "releasedate": "2023-10-26T15:00:00.000Z",
+  "genre": "Action, Adventure",
+  "description": "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
   "size": "",
+  "franchise": "Ghostrunner",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 250617,
+  "igdb_url": "https://www.igdb.com/games/250617",
+  "giveaway_events": [
+    {
+      "start": "2025-09-11T15:00:00.000Z",
+      "end": "2025-09-18T15:00:00.000Z",
+      "type": null,
+      "id": "be5600439b434624802764f704755cde"
+    },
+    {
+      "start": "2024-12-26T16:00:00.000Z",
+      "end": "2024-12-27T16:00:00.000Z",
+      "type": null,
+      "id": "be5600439b434624802764f704755cde"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Ghostrunner 2 is a hardcore FPP slasher set in a post-apocalyptic, cyberpunk world. Featuring everything fans loved about Ghostrunner plus incredible boss fights, new interactive story, thrilling motorbike levels, improved skills, and more cyber ninja action. ",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a969a5dced891995149845576f5c814e2f60c57146a50aa6bf795aefd5a2a73a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/92a57ab47ef2534d85be17e501f20ec17abbef1c4de0c90dc39b66737e16d9e3.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/916054a7da196bb23e1c50bd29511ada7c87ea1db08de1d26339b829f25dc66b.jpg?namespace=gamesdb",
@@ -51,15 +133,16 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/pc/ghostrunner-2?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 97766,
+  "hltb_main": "8.4 hrs",
+  "hltb_main_extra": "11.2 hrs",
+  "hltb_completionist": "17 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/97766",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-09-18T23:42:08.865Z"
+  "updated_at": "2026-04-25T02:42:51.571Z"
 }

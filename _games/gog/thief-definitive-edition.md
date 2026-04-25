@@ -17,9 +17,15 @@ proton_version: ""
 publisher: NIL, NIL
 developer: NIL, NIL
 genre: Adventure, Shooter, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "February 28, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/59214636c8f1919dc14cbf47eb14e2b380332d34d467f10ffc74e50e3465f17a.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/16232"
 store_url: "https://www.gog.com/en/game/thief_definitive_edition"
 protondb_url: "https://www.protondb.com/app/239160"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thief"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/thief?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1446830366"
 is_featured: false
+owned: true
 ---
 
 There is a rising tide of fear in The City. Hatred saturates every stone and whilst the rich prosper, the less fortunate face misery and repression. Ravaged with sickness and famine, they wait for something to change.

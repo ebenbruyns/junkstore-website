@@ -17,9 +17,15 @@ proton_version: ""
 publisher: HandyGames
 developer: Herobeat Studios
 genre: Adventure, Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "July 19, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Korean","Japanese","Polish","Portuguese - Brazil"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/44a92f239677f199a3b43602e61429e18cc9197e194c5cf20c3f21dd044756c6.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.21965245-d668-4a8f-818a-38133698587b"
 is_featured: false
+owned: true
 ---
 
 As the last mother fox on Earth, your cubs need all your care to survive in a merciless world that slowly destroys itself. You have to help them, teach them and save them. And you should never forget that extinction is forever.

@@ -34,11 +34,68 @@
   "databaseId": "2e0e91d701c34abf851de5b535a2617a",
   "shortname": "2e0e91d701c34abf851de5b535a2617a",
   "publisher": "HandyGames",
-  "developer": "Handy Games",
-  "releasedate": "2023-07-26T08:39:34.946Z",
-  "genre": "Action, Adventure, Indie",
+  "developer": "The Dreamerians",
+  "releasedate": "2026-04-03T13:00:00.000Z",
+  "genre": "Casual, Action-Adventure, Indie",
   "description": "Mat, a young rat, risks everything for love. Determined to reunite with Nat, a pet mouse, he secretly ventures to the upper floors of the Giant's house. Longing for a new life on the Outside, Mat's actions and the dark secrets harbored by his commune put their lives in danger.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 122733,
+  "igdb_url": "https://www.igdb.com/games/122733",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Mat, a young rat, risks everything for love. Determined to reunite with Nat, a pet mouse, he secretly ventures to the upper floors of the Giant's house. Longing for a new life on the Outside, Mat's actions and the dark secrets harbored by his commune put their lives in danger.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1124420/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1124420/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1124420/capsule_231x87.jpg",
@@ -53,6 +110,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -63,5 +121,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-04-10T21:07:10.579Z",
-  "updated_at": "2026-04-15T22:31:35.523Z"
+  "updated_at": "2026-04-25T02:21:57.378Z"
 }

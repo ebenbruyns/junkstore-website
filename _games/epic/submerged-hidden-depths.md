@@ -14,12 +14,18 @@ date_tested: "Oct '25"
 proton_version: ""
 
 # Game Info
-publisher: Uppercut Games, Stadia Games and Entertainment
-developer: Uppercut Games
-genre: Adventure, Indie
-release_date: "December 3, 2020"
+publisher: Uppercut Games Pty Ltd
+developer: Uppercut Games Pty Ltd
+genre: Exploration, Adventure
+franchise: Submerged
+age_rating_summary: 
+release_date: "March 10, 2022"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Portugal","Danish","Finnish","Korean"]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/141373"
+was_free_before: true
+giveaway_events: [{"start":"2022-08-31T15:00:00.000Z","end":"2022-09-07T15:00:00.000Z","type":null,"id":"befad00f8b354f52a4f10e927025e9f8"}]
 
 # Images
 banner_image: "https://images.gog.com/20ecdb47322b4e831b91ab2e65642786056d8f8517c6fb73c3ef0659978ba540.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: true
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "4 hrs"
+hltb_main_extra: "6.5 hrs"
+hltb_completionist: "8.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/85736"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/submerged-hidden-depths-6065a1"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2fb0eae795104757977dfe8f93b5e593"
 is_featured: false
+owned: true
 ---
 
-A drowned city, crumbling tips of skyscrapers stubbornly standing above the waves. Deserted villages, now inhabited by enigmatic creatures. And beneath the surging ocean waits an anguished, angry presence. Submerged: Hidden Depths is a non-combat third-person “relaxploration” adventure, set in the sunken ruins of a beautiful world. Take on the role of Miku and Taku – one cursed with a mysterious power that she wants to use for good, the other determined not to let it tear them apart. Boat across tranquil waters and storm-driven white-caps, explore and climb what remains of a once-towering city, and scour the buildings for the seeds of its salvation.
+Boat, climb, interact and explore in the beautiful ruins of a sunken world.

@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Botanicula",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -35,10 +35,59 @@
   "shortname": "d26da9e047e4440a80781f13a8b7c062",
   "publisher": "Amanita Design",
   "developer": "Amanita Design",
-  "releasedate": "2012-04-19T00:00:00+0000",
-  "genre": "Adventure, Indie, Puzzle, Point-and-click",
-  "description": "Humor-filled indie adventure game created by the makers of Machinarium.\n\nLike the previous games from Amanita Design, in Botanicula the player controls a protagonist (or multiple protagonists) while exploring the environment, solving puzzles and collecting items that are required for the obstacles that come in their way. The player is able to interact with other creatures and find easter eggs that are present in the lush environment. Like Machinarium, the game has no spoken or written dialogue.",
+  "releasedate": "2025-03-25T14:00:00.000Z",
+  "genre": "Puzzle, Adventure, Indie",
+  "description": "Five friends, little tree creatures, set out on a journey to save the last seed from their home tree which is infested by evil parasites.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "39070",
+      "name": "iOS"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Five friends, little tree creatures, set out on a journey to save the last seed from their home tree which is infested by evil parasites.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/59ffec1fbe40505c524fa12f7d294c5e52d8f4943cc6e3176488dc49e08f24e4.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/dd2dde09986808a6886c3753cf85e77e1c6554d89f18a2c5ca6326dc0c951405.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b67f44301fb08c60154c97bd5c8bf01d294d6c4f1210a2aa26a49a5c42af43da.jpg?namespace=gamesdb",
@@ -51,6 +100,7 @@
   ],
   "metacritic_score": 82,
   "metacritic_url": "https://www.metacritic.com/game/pc/botanicula?ftag=MCD-06-10aaa1f",
+  "hltb_id": 1285,
   "hltb_main": "3.4 hrs",
   "hltb_main_extra": "3.8 hrs",
   "hltb_completionist": "4.9 hrs",
@@ -61,5 +111,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T06:38:07.200Z"
+  "updated_at": "2026-04-25T03:33:37.768Z"
 }

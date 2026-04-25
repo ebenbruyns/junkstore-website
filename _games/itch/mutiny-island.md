@@ -17,9 +17,15 @@ proton_version: ""
 publisher: "Elushis Music & Gaming"
 developer: Elushis
 genre: Role-playing (RPG), Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "October 18, 2019"
 game_modes: ["Single-player"]
 languages: ["English","Russian","Simplified Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/709490/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "504636"
 is_featured: false
+owned: true
 ---
 
 A 2D Pirate themed Survival RPG. Mutiny Island follows a young pirate's journey in reclaiming their ship and lost dignity. The primary objective is to defeat your mutinous first mate and reclaim your ship, The Red Dawn, by any means necessary.

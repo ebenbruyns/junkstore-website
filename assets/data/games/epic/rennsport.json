@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/2077750",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/rennsport-3776b8",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Rennsport",
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Install",
   "date_tested": "July '24",
   "decky_rating": "yellow",
@@ -33,12 +33,121 @@
   "cant_test_linux": false,
   "databaseId": "086fe0e0dc97479da235fc9562895da5",
   "shortname": "086fe0e0dc97479da235fc9562895da5",
-  "publisher": "NIL, NIL",
-  "developer": "NIL, NIL",
-  "releasedate": "2024-12-16T00:00:00+0000",
-  "genre": "Sport, Simulator, Racing",
-  "description": "A racing simulation developed in Unreal Engine 5, making use of feedback from professional real world drivers to simulate car physics and behavior in a realistic way.",
+  "publisher": "Competition Company",
+  "developer": "Competition Company",
+  "releasedate": "2024-07-10T12:00:00.000Z",
+  "genre": "Sports, Simulation, Racing",
+  "description": "RENNSPORT is the playground that car enthusiasts have been waiting for. It is a photo-realistic racing simulation offering the highest levels of competition and a space for drivers, modders, and car lovers to come together to drive, and share their passion for racing and cars.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "1283",
+      "name": "Sports"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "33639",
+      "name": "Promotional Content"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21135",
+      "name": "Realistic Visuals"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "1179",
+      "name": "VR"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1283",
+      "name": "Sports"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 230191,
+  "igdb_url": "https://www.igdb.com/games/230191",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "RENNSPORT is the playground that car enthusiasts have been waiting for. It is a photo-realistic racing simulation offering the highest levels of competition and a space for drivers, modders, and car lovers to come together to drive, and share their passion for racing and cars.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/509fcdda9a125b2573ed9172278e68560b92902e596997a24ff5fe4fe7db79dc.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/39423770eef0dbf54790d4d5dcd4bfbca285002fa2e6b600a4355bf91c1ae2a7.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b5831f0d9cfc95576aa1a66e3f363a64c55768ebb94240198c6e84b4ea4db265.jpg?namespace=gamesdb",
@@ -52,15 +161,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "153472",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/153472",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:32:51.752Z"
+  "updated_at": "2026-04-25T02:43:30.796Z"
 }

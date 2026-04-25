@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Harebrained Schemes
 developer: Harebrained Schemes
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "July 25, 2013"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","Spanish - Spain","German","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/96fce3b78782f41e780c8dd98295fcdf6df63823b842467d3dd84882bd57c173.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207660413"
 is_featured: false
+owned: true
 ---
 
 The unique cyberpunk-meets-fantasy world of Shadowrun has gained a huge cult following since its creation nearly 25 years ago. Now, creator Jordan Weisman returns to the world of Shadowrun, modernizing this classic game setting as a single player, turn-based tactical RPG.

@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1920490",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/the-outer-worlds-spacers-choice-edition",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Outer_Worlds%3A_Spacer's_Choice_Edition",
   "notes": "Works out of the box!",
   "date_tested": "Aug '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "May have stability issues.",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": true,
   "epic_achievements": false,
@@ -33,12 +33,118 @@
   "cant_test_linux": false,
   "databaseId": "cb3bf7ba89574a66ae3b795e039d4dbc",
   "shortname": "cb3bf7ba89574a66ae3b795e039d4dbc",
-  "publisher": "NIL, NIL",
-  "developer": "NIL, NIL",
-  "releasedate": "",
-  "genre": "Role-playing (RPG), Adventure, Shooter",
-  "description": "The Outer Worlds: Spacer's Choice Edition is the ultimate way to play the award-winning RPG from Obsidian Entertainment and Private Division. Including the base game and all DLC, this remastered masterpiece is the absolute best version of The Outer Worlds.",
+  "publisher": "Microsoft",
+  "developer": "Obsidian Entertainment",
+  "releasedate": "2023-03-07T16:00:00.000Z",
+  "genre": "Action, RPG, Shooter",
+  "description": "The Outer Worlds: Spacer’s Choice Edition is the ultimate way to play the award-winning RPG from Obsidian Entertainment and Private Division. Including the base game and all DLC, this remastered masterpiece is the absolute best version of The Outer Worlds.",
   "size": "",
+  "franchise": "The Outer Worlds",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 113114,
+  "igdb_url": "https://www.igdb.com/games/113114",
+  "giveaway_events": [
+    {
+      "start": "2024-04-03T15:00:00.000Z",
+      "end": "2024-04-10T15:00:00.000Z",
+      "type": null,
+      "id": "0769596f15a445b7a5ad3f8d7c7730e2"
+    },
+    {
+      "start": "2023-12-24T15:00:00.000Z",
+      "end": "2023-12-25T15:00:00.000Z",
+      "type": null,
+      "id": "0769596f15a445b7a5ad3f8d7c7730e2"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "The Outer Worlds: Spacer’s Choice Edition is the ultimate way to play the award-winning RPG from Obsidian Entertainment and Private Division. Including the base game and all DLC, this remastered masterpiece is the absolute best version of The Outer Worlds.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a2b00e5a570d6c7609c321f1700a9fe1be2a7d7dddb74579c501962c90f2edde.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c97a17e97a6264ac3658a7321c67a17ed941aa2eac209450b13a0ac1f14f248e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/fc07cdba1efb42a90e2ac7e3bb3b60c1606e5e41f0636cda898987a7d1ee0ed0.jpg?namespace=gamesdb",
@@ -51,15 +157,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 125175,
+  "hltb_main": "17.5 hrs",
+  "hltb_main_extra": "37 hrs",
+  "hltb_completionist": "61 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/125175",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-06T04:30:23.511Z"
+  "updated_at": "2026-04-25T05:45:19.931Z"
 }

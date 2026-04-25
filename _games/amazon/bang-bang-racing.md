@@ -17,9 +17,15 @@ proton_version: ""
 publisher: "Digital Reality Software & Playbox"
 developer: Kalypso Media Digital
 genre: Arcade, Racing
+franchise: 
+age_rating_summary: 
 release_date: "May 13, 2011"
 game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d3cfc9f592a0f7a5fb690d1bb931e67e73544245332b2e2283e566e9f9869f5e.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.e13c50c9-d548-4e6f-a85a-7f70308279e8"
 is_featured: false
+owned: true
 ---
 
 Bang Bang Racing is a distinct arcade game focusing not only on the speed but also on the technical driving skills. The very intuitive control system and the exciting tracks provide endless fun for everyone in the family.

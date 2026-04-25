@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Focus Entertainment
 developer: Rogue Factor
 genre: Role-playing (RPG), Strategy, Tactical
+franchise: 
+age_rating_summary: 
 release_date: "November 19, 2015"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b45df63e2a7d0a8f98a81242b706a3bcc1e09881633824e4d7660ffb938e3c5f.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/25231"
 store_url: "https://www.gog.com/en/game/mordheim_city_of_the_damned"
 protondb_url: "https://www.protondb.com/app/276810"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mordheim%3A_City_of_the_Damned"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/pc/mordheim-city-of-the-damned?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1848744423"
 is_featured: false
+owned: true
 ---
 
 Mordheim: City of the Damned is the first video game adaptation of Games Workshop's cult classic tabletop game Mordheim. Set in the Warhammer World's decimated Empire city, Mordheim: City of the Damned is a turn-based tactical game where you lead warbands into bloody and lethal skirmishes. The game blends RPG elements, fast-paced tactical combat and intricate unit customization in a time wrought by chaos and rivalry where only the strongest survive.

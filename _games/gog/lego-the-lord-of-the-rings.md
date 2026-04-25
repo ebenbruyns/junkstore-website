@@ -17,9 +17,15 @@ proton_version: ""
 publisher: WB Games, Feral Interactive
 developer: "Traveller's Tales"
 genre: Adventure
+franchise: 
+age_rating_summary: 
 release_date: "November 13, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["Danish","Dutch","English*","French*","German*","Italian","Polish","Russian","Spanish - Spain*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/9f6f03d2208f3585a9ea49017fb4fd4be18c114ff74a944192ccd11d8901fc90.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2095741221"
 is_featured: false
+owned: true
 ---
 
 Based on The Lord of the Rings motion picture trilogy, LEGO The Lord of the Rings follows the original storylines of The Lord of the Rings: The Fellowship of the Ring, The Lord of the Rings: The Two Towers, and The Lord of the Rings: The Return of the King, taking players through the epic story events reimagined with the humor and endless variety of LEGO play.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 1C Entertainment
 developer: Snowhound Games
 genre: "Role-playing (RPG), Adventure, Strategy, Indie, Card & Board Game"
+franchise: 
+age_rating_summary: 
 release_date: "September 26, 2018"
 game_modes: ["Single player"]
 languages: ["English","Russian","French","German","Spanish - Spain","Polish","Simplified Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/21cd60fb9287e3e5ebf58798cce3c7ee1daf9e8f8ddb7ed5972bc18274a5bc55.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1629258827"
 is_featured: false
+owned: true
 ---
 
 Deep Sky Derelicts will bring the players into the burdensome life of a society outcast, a scavenger trying to make a living, while aspiring for a better life of a full-fledged citizen. Players will be exploring derelict alien ships, fight, loot, hire mercenaries into their team, buy new weapons and upgrade their gear. The game’s retro-futuristic comic book aesthetic style creates a distinctive dark atmosphere of deep space, unknown locations and lost dystopian society. Rogue-like elements featuring such popular mechanics as procedurally-generated dungeons, turn-based combat with card-based actions and lethal threat lurking around every corner, are here to draw the players into an unforgiving, yet fascinating world with its own unique lore.

@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, RPG, Simulation",
   "description": "A young woman finds herself alone in the streets of Paris, far from home and abandoned by the love of her life. In that moment, she decides to live for herself and seek her own passions, as France marches towards a violent uprising that will change history forever. Navigate the twisting social politics of pre-revolutionary Paris in a game world that’s different every time you play. Court, snub and seduce your way to the top of society. Extend your influence, uncover the intrigue of the coming revolution, and ensure that you end up on the winning side of history.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/949200/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/949200/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/949200/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 75,
   "metacritic_url": "https://www.metacritic.com/game/pc/ambition-a-minuet-in-power?ftag=MCD-06-10aaa1f",
+  "hltb_id": 96677,
   "hltb_main": "4.5 hrs",
   "hltb_main_extra": "10 hrs",
   "hltb_completionist": "19 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-02-19T22:53:40.714Z",
-  "updated_at": "2026-02-26T20:20:10.341Z"
+  "updated_at": "2026-04-25T00:59:44.948Z"
 }

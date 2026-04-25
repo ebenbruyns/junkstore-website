@@ -37,8 +37,57 @@
   "developer": "Bedtime Digital Games",
   "releasedate": "2017-09-22T00:00:00+0000",
   "genre": "Adventure, Indie, Platform, Puzzle, Music",
-  "description": "A musical action-adventure set in the recesses of the human mind... Welcome to the world of Figment. A strange and surreal world; a place filled with our deepest thoughts, urges and memories, populated by the many voices we hear in our heads.\n\nThis mind has been quiet and calm for many years. But something has changed. New thoughts have started to emerge - taking the shape of nightmarish creatures who spread fear wherever they go. The only hope is for the grumpy Dusty, the mind's former voice of courage, to get back to his old self and help the mind to face its fears.\n\nJoin Dusty and his ever-optimistic friend, Piper, on an adventure through the different sides of the mind, solving puzzles to set things straight, beating back the nightmares and seeking to restore the courage that's been lost.",
+  "description": "Figment is an action-adventure game that invites you to explore a unique surreal universe filled with music, humor and multi layered narrative.",
   "size": "",
+  "franchise": "Figment",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 20329,
+  "igdb_url": "https://www.igdb.com/games/20329",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Figment is an action-adventure game that invites you to explore a unique surreal universe filled with music, humor and multi layered narrative.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/1286900fea4fb4f154987f15bb5e11396670b1c174ca31e0eaf96835442890ff.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/493540/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/493540/capsule_231x87.jpg",
@@ -60,6 +109,7 @@
   ],
   "metacritic_score": 77,
   "metacritic_url": "https://www.metacritic.com/game/pc/figment?ftag=MCD-06-10aaa1f",
+  "hltb_id": 48177,
   "hltb_main": "5 hrs",
   "hltb_main_extra": "5.5 hrs",
   "hltb_completionist": "6.5 hrs",
@@ -69,5 +119,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.985Z",
-  "updated_at": "2025-11-27T06:07:08.723Z"
+  "updated_at": "2026-04-25T02:24:30.410Z"
 }

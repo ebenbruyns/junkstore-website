@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Horizon Studios
 developer: Horizon Studios
-genre: Action-Adventure Indie Platformer
-release_date: "July 1, 2025"
+genre: Action-Adventure, Platformer, Indie
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "November 11, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/397320"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/52ac54ca754c42baa0c793dc8201ca07/vornyca-13ens.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "46f5370341aa44308a2b2433ee59fdfb"
 is_featured: false
+owned: true
 ---
 
 Set in a world where humanity has defeated its own creations, Vornyca follows the journey of a lone surviving AI struggling to find purpose, freedom, and identity in the ruins of a fallen civilization.

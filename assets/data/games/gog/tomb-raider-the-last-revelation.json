@@ -39,6 +39,17 @@
   "genre": "Adventure, Puzzle, Shooter",
   "description": "Tomb Raider IV: The Last Revelation is the fourth game of the Tomb Raider games series, it plays very similar to the previous games in the series but some new things have been added to the game. The biggest addition is that now rather large parts of the game consist of several interconnected levels sometimes explored in any order, with puzzles in one level often requiring that some actions are done in other levels. The new additions to Lara's arsenal are a revolver and a bow with several sets of arrows including exploding and poisonous ones.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/60aae2aea735dfa14c052585ce49449f4637c25e8ad659a5407be7ecf47a3cbc.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e96661feb409d66599e8b3c426580da51b40bb11436dabbbfa68337117547a01.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0c27a1be751e7387eec88dd3b8cb1dabce45e56a8c141ea140bcc8a40856ad57.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/tomb-raider-the-last-revelation/",
+  "hltb_id": 10480,
   "hltb_main": "18.5 hrs",
   "hltb_main_extra": "23 hrs",
   "hltb_completionist": "23.5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-24T01:31:10.235Z"
+  "updated_at": "2026-04-25T00:44:18.548Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Devolver Digital
 developer: Croteam
 genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "December 11, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d507cf9447626ffcd925d2d808a39146f9543f15552ce6aec2915a4ec0870f75.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/22530"
 store_url: "https://www.gog.com/en/game/the_talos_principle_gold_edition"
 protondb_url: "https://www.protondb.com/app/257510"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Talos_Principle"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/the-talos-principle?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1577265251"
 is_featured: false
+owned: true
 ---
 
 The Talos Principle is a philosophical first-person puzzle game from Croteam, the creators of the legendary Serious Sam series, written by Tom Jubert (FTL, The Swapper) and Jonas Kyratzes (The Sea Will Claim Everything).

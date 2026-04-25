@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Orangepixel
 developer: Orangepixel
 genre: Action, Indie
+franchise: 
+age_rating_summary: 
 release_date: "June 2, 2015"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/371890/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1709371377"
 is_featured: false
+owned: true
 ---
 
 Lock and load for chaotic, fast-paced action in Gunslugs! Battle the evil Black Duck Army across wild, procedurally generated levels packed with explosions, jetpacks, chicken guns, and rogue-like permadeath. Unlock heroes, conquer bizarre worlds, and fight your way to the gates of Hell!

@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Alba: A Wildlife Adventure - Steam Deck Compatibility"
-game_title: "Alba: A Wildlife Adventure"
+title: "Alba - A Wildlife Adventure - Steam Deck Compatibility"
+game_title: "Alba - A Wildlife Adventure"
 slug: "alba-a-wildlife-adventure"
 storefront: "Epic"
 storefront_key: "epic"
@@ -14,12 +14,18 @@ date_tested: "Sept '25"
 proton_version: ""
 
 # Game Info
-publisher: Plug In Digital, Ustwo Games
-developer: Ustwo Games
-genre: Adventure, Indie
-release_date: "December 11, 2020"
+publisher: PID Games
+developer: ustwo games
+genre: Casual
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "November 11, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Portuguese - Portugal","Russian","Simplified Chinese"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/135919"
+was_free_before: true
+giveaway_events: [{"start":"2022-11-09T15:00:00.000Z","end":"2022-11-16T15:00:00.000Z","type":null,"id":"44a89fd06011419d9df5fe412ab305e1"}]
 
 # Images
 banner_image: "https://images.gog.com/0dc6a1a878062b98b44e00d4fd0e3ee504feb11bd1fa3fae6e6519995e875d40.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "8a0173bbe3ac48ac903f5bc7277e7b4e"
 is_featured: false
+owned: true
 ---
 
 Even the smallest person can make a big difference. Join Alba, as she sets out to save her beautiful island and its wildlife. And possibly start a revolution.

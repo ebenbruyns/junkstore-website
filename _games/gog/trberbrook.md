@@ -17,9 +17,15 @@ proton_version: ""
 publisher: WhisperGames, Headup Games
 developer: btf
 genre: Adventure, Indie, Puzzle, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "March 12, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b55d72321e04a03d6b8c5594910e334df043785036429d4805ad33f631792d80.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/65656"
 store_url: "https://www.gog.com/en/game/truberbrook"
 protondb_url: "https://www.protondb.com/app/757300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tr%C3%BCberbrook"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1289701346"
 is_featured: false
+owned: true
 ---
 
 Enjoy an adventurous vacation to a 1960's parallel universe! A Sci-Fi-Mystery Adventure Game with handmade scenery.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Team17
 developer: Navegante Entertainment
 genre: Role-playing (RPG), Adventure, Indie, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "August 16, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a2017103a60519125b7c03fd315b6f80feb4cb21553827d55b88b983c60b4c5f.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2142923325"
 is_featured: false
+owned: true
 ---
 
 Greak: Memories of Azur is a beautiful single-player puzzle platformer adventure. You will take the role of three siblings: Greak, Adara and Raydel to guide them through the lands of Azur. Alternate control between them and use their unique abilities to escape from the Urlag invasion.

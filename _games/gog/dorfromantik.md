@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Toukana Interactive
 developer: Toukana Interactive
 genre: Casual, Indie, Simulation, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Italian","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Polish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1455840/library_hero.jpg"
@@ -57,8 +63,8 @@ store_url: "https://www.gog.com/en/game/dorfromantik"
 protondb_url: "https://www.protondb.com/app/1455840"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dorfromantik"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 84
+metacritic_url: "https://www.metacritic.com/game/dorfromantik/"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Not tested**. **Pro Version: Works out of the box**."
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1721001406"
 is_featured: false
+owned: false
 ---
 
 Dorfromantik is a peaceful building strategy and puzzle game where you create a beautiful and ever-growing village landscape by placing tiles. Explore a variety of colorful biomes, discover and unlock new tiles and complete quests to fill your world with life!

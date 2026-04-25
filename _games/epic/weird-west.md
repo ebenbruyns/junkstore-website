@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Devolver Digital
 developer: Wolfeye Studios
-genre: Role-playing (RPG), Adventure, Indie, Simulator
-release_date: "March 31, 2022"
+genre: Narration, RPG, Action-Adventure
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "April 1, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"21139","name":"Amazing Characters"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+igdb_url: "https://www.igdb.com/games/127350"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/09bb30e47a0d9bba6031d4597b6b4bc003c62450061e5dd55d0ace0c081bb0e5.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "17.1 hrs"
+hltb_main_extra: "24.4 hrs"
+hltb_completionist: "35.7 hrs"
+hltb_url: "https://howlongtobeat.com/game/80053"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/weird-west"
+store_url: "https://store.epicgames.com/en-US/p/weird-west-906661"
 protondb_url: "https://www.protondb.com/app/1097350"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Weird_West"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/weird-west?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "5ab7c9b39f81481c88dce1e4f106a594"
 is_featured: false
+owned: true
 ---
 
-Discover a dark fantasy reimagining of the Wild West where lawmen and gunslingers share the frontier with fantastical creatures. Journey through the origin stories of a group of atypical heroes, written into legend by the decisions you make in an unforgiving land. Each journey is unique and tailored to the actions taken - a series of high stakes stories where everything counts and the world reacts to the choices you make. Form a posse or venture forth alone into an otherworldly confines of the Weird West and make each legend your own.
+Survive and unveil the mysteries of the Weird West through the intertwined destinies of its unusual heroes in an Action RPG from the co-creators of Dishonored and Prey.

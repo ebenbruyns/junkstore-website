@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Square Enix, Eidos Interactive, Eidos Montréal
 developer: Ion Storm
 genre: Role-playing (RPG), Shooter
+franchise: 
+age_rating_summary: 
 release_date: "December 2, 2003"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/482d5f3bfd82414b93b6b5ebc479ed25c38b5081e586b774a01041f87b0b8ddf.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/2491"
 store_url: "https://www.gog.com/en/game/deus_ex_invisible_war"
 protondb_url: "https://www.protondb.com/app/6920"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex%3A_Invisible_War"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/deus-ex-invisible-war?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659068"
 is_featured: false
+owned: true
 ---
 
 Several religious and political factions see an opportunity to re-shape a worldwide government to their agendas. In this techno-nightmare, take part in the dark struggle to raise the world from its own ashes.

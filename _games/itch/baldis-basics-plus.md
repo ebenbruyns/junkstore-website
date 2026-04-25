@@ -17,9 +17,15 @@ proton_version: ""
 publisher: "Basically, Games!"
 developer: "Basically, Games!"
 genre: Strategy, Indie
+franchise: 
+age_rating_summary: 
 release_date: "June 11, 2020"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1275890/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "598772"
 is_featured: false
+owned: true
 ---
 
 Baldi's Basics Plus is like the original game, but PLUS! The same cruddy edutainment horror type parody theme is back, but with hugely expanded gameplay features, including procedurally generated levels, field trip minigames, crazy random events, PLUS more characters, more items, and more chaos!

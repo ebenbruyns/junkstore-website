@@ -17,9 +17,15 @@ proton_version: ""
 publisher: John Evelyn
 developer: John Evelyn
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "October 16, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/5ac8c58d9c54a960b36c1d609f329df67bdb9eb7b5ae3d787007aa30e6ea0b04.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.56b2a764-f318-479c-9554-55b17e565bd1"
 is_featured: false
+owned: true
 ---
 
 The Collage Atlas invites you on a journey through an entirely hand-drawn picture-book dream-world. From the grass beneath your fee, to the butterflies dancing in the air, to the floating islands drifting overhead - every little detail has been lovingly-crafted with pen & ink on paper.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Distractionware, Terry Cavanagh
 developer: Distractionware, Terry Cavanagh
 genre: Arcade
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/221640/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "29655"
 is_featured: false
+owned: true
 ---
 
 Super Hexagon is a minimal action game by Terry Cavanagh, with music by Chipzel.

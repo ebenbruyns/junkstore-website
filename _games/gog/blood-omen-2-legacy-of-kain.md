@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Eidos Interactive
 developer: Crystal Dynamics
 genre: Adventure
+franchise: 
+age_rating_summary: 
 release_date: "March 21, 2002"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/53d93e803b756abdac9c912ed6006dd50b1b41efcf003a025f0851e4d0e53a49.jpg?namespace=gamesdb"
@@ -56,9 +62,9 @@ hltb_url: "https://howlongtobeat.com/game/1183"
 store_url: "https://www.gog.com/en/game/legacy_of_kain_blood_omen_2"
 protondb_url: "https://www.protondb.com/app/242960"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legacy_of_Kain%3A_Blood_Omen_2"
+metacritic_score: 76
+metacritic_url: "https://www.metacritic.com/game/blood-omen-2/"
 
 # Notes
 notes: Requires manual controller/key mapping.
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659101"
 is_featured: false
+owned: true
 ---
 
 Blood Omen 2, the second instalment in the Legacy of Kain Series, is a 3rd person 3D action/combat game in which you assume the role of the vampire Kain. A compelling story takes you through huge, lushly detailed 3D environments and challenges your skills in combat, puzzle solving, stealth and exploration. With each success, you’ll gain new dark gifts that will grant Kain the ability to access treacherous new areas to explore and the power to face stronger, more aggressive enemies. As you develop a stronger, more skilled vampire, you’ll be rewarded with dozens of dazzling in-game cinematic sequences that unfold the continuing epic of Nosgoth, and Kain’s attempts to ultimately rule over it.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Laundry Bear Games
 developer: Laundry Bear Games
 genre: Role-playing (RPG), Adventure, Indie, Simulator, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "October 18, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/578720/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "118243"
 is_featured: false
+owned: true
 ---
 
 A Mortician's Tale is a narrative-driven death positive video game where you play as a mortician tasked with running a funeral home—preparing the cadavers of the deceased (via embalming or cremation), attending their funerals and listening to their loved ones' stories, and running the business.

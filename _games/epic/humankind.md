@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Sega
 developer: Amplitude Studios
 genre: Strategy, Turn-based strategy (TBS), Simulator
-release_date: "August 17, 2021"
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "November 19, 2021"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7a909f1134eaee90d4756c48706e9682e8eff34bf4f13474f0d85a57626c31ee.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://store.epicgames.com/en-US/p/humankind"
 protondb_url: "https://www.protondb.com/app/1124300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Humankind"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "5fc579fbef6a4bf99171861b68b8fcb2"
 is_featured: false
+owned: true
 ---
 
 Humankind is a historical strategy game where you will re-write the entire narrative of humankind, a convergence of culture, history, and values that allows you to create a civilization that is as unique as you are. How far will you push humankind?

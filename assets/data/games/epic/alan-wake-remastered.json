@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/108710",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/alan-wake-remastered",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Alan_Wake",
   "notes": "Works out of the box on the Decky plugin version.",
   "date_tested": "July '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -33,12 +33,97 @@
   "cant_test_linux": false,
   "databaseId": "1207659037",
   "shortname": "1207659037",
-  "publisher": "Microsoft Game Studios",
+  "publisher": "Epic Games Publishing",
   "developer": "Remedy Entertainment",
-  "releasedate": "May 14, 2010",
-  "genre": "Adventure, Shooter",
-  "description": "A psychological horror action-adventure game about a novelist searching for his wife in Bright Falls, encountering supernatural 'Taken' entities",
+  "releasedate": "2021-10-05T04:00:00.000Z",
+  "genre": "Action, Horror, Shooter",
+  "description": "In this award-winning cinematic action-thriller, troubled author Alan Wake embarks on a desperate search for his missing wife, Alice. Alan Wake Remastered offers the complete experience, with the main game and its two story expansions - The Signal and The Writer - with stunning new 4K visuals.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1187",
+      "name": "THIRD-PERSON SHOOTER"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 1062,
+  "igdb_url": "https://www.igdb.com/games/1062",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "In this award-winning cinematic action-thriller, troubled author Alan Wake embarks on a desperate search for his missing wife, Alice. Alan Wake Remastered offers the complete experience, with the main game and its two story expansions - The Signal and The Writer - with stunning new 4K visuals.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/33aa9867f8b843e23f35837c44e73524c6fba0aef81c40f2d0f9e02117356550.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b3fd290f242f68df4c765b2f8482a5053dbeb67100805adf56934fa3a0b53029.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/c40158eac6028f217d6c376732378b5c0efad4f182c951f110b2f454e46dcfe6.jpg?namespace=gamesdb",
@@ -51,15 +136,16 @@
   ],
   "metacritic_score": 83,
   "metacritic_url": "https://www.metacritic.com/game/pc/alan-wake?ftag=MCD-06-10aaa1f",
+  "hltb_id": 97692,
   "hltb_main": "10.3 hrs",
   "hltb_main_extra": "14.2 hrs",
   "hltb_completionist": "25.4 hrs",
   "hltb_url": "https://howlongtobeat.com/game/97692",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-11-25T23:41:23.680Z"
+  "updated_at": "2026-04-25T02:44:22.964Z"
 }

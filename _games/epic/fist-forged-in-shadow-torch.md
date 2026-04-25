@@ -14,12 +14,18 @@ date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
-publisher: bilibili
+publisher: Shanghai Xingqi Network Technology Co.,Ltd
 developer: TiGames
-genre: Role-playing (RPG), Adventure, Indie, Platform, Simulator
-release_date: "September 7, 2021"
+genre: Action, Platformer
+franchise: 
+age_rating_summary: 
+release_date: "December 14, 2021"
 game_modes: ["Single player"]
 languages: ["English*","Simplified Chinese*","Japanese","Traditional Chinese","French","German","Spanish - Spain","Russian","Portuguese - Brazil*languages with full audio support"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/115851"
+was_free_before: true
+giveaway_events: [{"start":"2024-07-24T15:00:00.000Z","end":"2024-07-31T15:00:00.000Z","type":null,"id":"6e708b1e608f446eaa80488d26b7444b"},{"start":"2022-12-25T15:00:00.000Z","end":"2022-12-26T15:00:00.000Z","type":null,"id":"6e708b1e608f446eaa80488d26b7444b"}]
 
 # Images
 banner_image: "https://images.gog.com/cef636c15fe822617f9b08df5112b7b5915766346b2c99e9958127ba8f2b87ed.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "12.5 hrs"
+hltb_main_extra: "16.5 hrs"
+hltb_completionist: "20.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/83127"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fist-forged-in-shadow-torch"
@@ -69,6 +75,8 @@ known_issues:
 # Meta
 database_id: "bf4808b3395b43fb80afbe6773e1661f"
 is_featured: false
+owned: true
 ---
 
-It is a metroidvania game that the player will play as a rabbit who can manipulate the big mech-arm on his back, exploring in a vivid diesel punk world and fighting against the evil robot army. There will be a vast world map for the player to explore to meet with friend NPCs and encounter enemies, discover items and weapons and seek for the answers for the secrets hidden behind.
+Explore more than a dozen unique areas in a Metroidvania style map. 
+The Fist, Drill, and Whip are three weapons with completely different fighting styles that offer seamless switching between high combo, high damage, and long range attacks. 

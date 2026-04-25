@@ -17,9 +17,15 @@ proton_version: ""
 publisher: "Image & Form"
 developer: "Image & Form"
 genre: Role-playing (RPG), Adventure, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "December 9, 2015"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f70de6d797242bfd2f5075848be2da8af5e99697ad4e311e9059ede0ad713e47.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1668986402"
 is_featured: false
+owned: true
 ---
 
 Join Captain Piper Faraday, smuggler and occasional pirate, as she recruits a rag-tag team of steam-driven robots and sets out on a daring adventure. With your hearty crew you’ll board, loot and shoot your way through enemy spaceships. Overcome the challenges of the vast frontier by upgrading your robots with unique abilities, weapons – and even stylish hats!

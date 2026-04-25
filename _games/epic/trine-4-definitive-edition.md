@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Frozenbyte
 developer: Frozenbyte
-genre: Action, Adventure, Indie
-release_date: "October 8, 2019"
+genre: Puzzle, Action-Adventure, Platformer
+franchise: Trine
+age_rating_summary: ESRB Everyone 10+
+release_date: "January 1, 2026"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Simplified Chinese","Japanese","Polish","Portuguese - Brazil","Russian"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/110846"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/690640/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "80510c874abe43149f3db85756351da6"
 is_featured: false
+owned: true
 ---
 
-The best-selling Trine series returns to the magic of 2.5D! Join three iconic heroes as they set off on a quest through fantastical fairytale landscapes to save the world from the Nightmare Prince’s shadows.
+Join three iconic heroes as they set off on a quest through fantastical fairytale landscapes to save the world from the Nightmare Prince’s shadows. Trine 4: Definitive Edition includes Trine 4: The Nightmare Prince and the Trine 4: Melody of Mystery DLC campaign.

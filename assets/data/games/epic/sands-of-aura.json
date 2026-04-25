@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1119840",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/sands-of-aura",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Sands_of_Aura",
   "notes": "Works out of the box!",
   "date_tested": "Feb '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": true,
   "epic_achievements": true,
@@ -33,31 +33,99 @@
   "cant_test_linux": false,
   "databaseId": "dbee85010fa34bef9f3611faee19220e",
   "shortname": "dbee85010fa34bef9f3611faee19220e",
-  "publisher": "Chashu Entertainment",
+  "publisher": "Freedom Games",
   "developer": "Chashu Entertainment",
-  "releasedate": "",
-  "genre": "Role-playing (RPG), Indie",
-  "description": "A powerful spell has turned a lush world into a sea of liquid sand. You must navigate between the ruins – delving deep into dungeons, fighting off the evil that lurks within them, acquiring powerful equipment, and uncovering the history beneath the sand.",
+  "releasedate": "2021-10-21T13:00:00.000Z",
+  "genre": "Action, RPG, Adventure",
+  "description": "Sands of Aura is an open-world adventure set in a world buried beneath a sea of sand. Sail across the sandseas to return life to a dying world in an unforgettable experience that is equal parts engaging story and unrelenting, souls-like combat.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 143129,
+  "igdb_url": "https://www.igdb.com/games/143129",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Sands of Aura is an open-world adventure set in a world buried beneath a sea of sand. Sail across the sandseas to return life to a dying world in an unforgettable experience that is equal parts engaging story and unrelenting, souls-like combat.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/6a06c459c2b6bcbfd52d9c5d041720535b0ede1d75064ca5f9d51c6d8cf5fd7a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/69b71cc1d9f5a832465843236b35f4fd07e7f8058b1753fd7d529c8d372afb4e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ac1320b176b2d91b00bcf6df605930018f1624f886d76ce899eadfccee504968.jpg?namespace=gamesdb",
   "steamId": "1119840",
-  "game_modes": [],
+  "game_modes": [
+    "Single Player"
+  ],
   "languages": [
     "English"
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 99489,
+  "hltb_main": "25 hrs",
+  "hltb_main_extra": "39 hrs",
+  "hltb_completionist": "58.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/99489",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-09-08T06:55:24.663Z"
+  "updated_at": "2026-04-25T05:44:04.089Z"
 }

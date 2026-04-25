@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/2914390",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/house-of-golf-2-f346a4",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/House_of_Golf_2",
   "notes": "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Needs C++ runtime.",
   "date_tested": "Nov '24",
   "decky_rating": "yellow",
@@ -35,10 +35,71 @@
   "shortname": "48cfbcf29a4441a894d05a203e03dc74",
   "publisher": "Starlight Games",
   "developer": "Starlight Games",
-  "releasedate": "2024-08-16T00:00:00+0000",
-  "genre": "Indie, Puzzle, Sport, Arcade",
-  "description": "House of Golf 2 delivers an engaging multiplayer golf experience with over 100 unique holes to conquer. Gather up to 4 players for lively couch play sessions, showcasing your skills with jaw-dropping shots. Compete in live tournaments for exciting rewards and leave your mark on the world of golf!",
+  "releasedate": "2024-08-16T11:00:00.000Z",
+  "genre": "Casual, Sports, Indie",
+  "description": "Embark on an unforgettable golfing adventure with House of Golf 2 – not just a game, but an invitation to create lasting memories with family and friends. Whether you're a seasoned pro or a newcomer to the virtual greens, dive into a world brimming with challenges and excitement.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1283",
+      "name": "Sports"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1283",
+      "name": "Sports"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 303573,
+  "igdb_url": "https://www.igdb.com/games/303573",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Embark on an unforgettable golfing adventure with House of Golf 2 – not just a game, but an invitation to create lasting memories with family and friends. Whether you're a seasoned pro or a newcomer to the virtual greens, dive into a world brimming with challenges and excitement.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/f7475138083a5225e4924b4ed72473ad23e49ba92f9e4075e998434f66145996.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/97de8b376516994e74d3aeae47a948017e1bcd43d1e040c80f7d1b88e20f17bd.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/4d57daa4bcf301b782ce06afa8b443ba7841880502c4eac632e9d7037c4d18c7.jpg?namespace=gamesdb",
@@ -53,15 +114,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
+  "hltb_id": 151285,
+  "hltb_main": "7.5 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/151285",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:03:37.007Z"
+  "updated_at": "2026-04-25T05:42:07.289Z"
 }

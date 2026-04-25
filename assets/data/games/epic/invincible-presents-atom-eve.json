@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/2060870",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/atom-eve-ff090d",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Invincible_Presents%3A_Atom_Eve",
   "notes": "Works out of the box!",
   "date_tested": "Oct '24",
   "decky_rating": "green",
@@ -35,10 +35,68 @@
   "shortname": "ef50503adc284a8ba65d4dea1ecce91a",
   "publisher": "Skybound Games",
   "developer": "Terrible Posture Games",
-  "releasedate": "2023-11-14T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Visual Novel",
-  "description": "Become Atom Eve and take control of your own path as one of the most powerful superheroes in the Invincible universe! Unravel a mystery and balance the dangers and responsibilities of being a superhero with the relatable challenges of everyday life.\n\nExperience an original story with striking art directed by Rossi Gifford and creative direction by award-winning writer Jill Murray, and explore the life of Atom Eve in a world filled with beloved characters. Based on the comic book by Robert Kirkman, Cory Walker, and Ryan Ottley.",
+  "releasedate": "2023-11-14T17:00:00.000Z",
+  "genre": "Narration, Adventure",
+  "description": "Become Atom Eve and take control of your own path as one of the most powerful superheroes in the Invincible universe! Unravel a mystery and balance the dangers and responsibilities of being a superhero with the relatable challenges of everyday life.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "21123",
+      "name": "Impact the Story"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 260366,
+  "igdb_url": "https://www.igdb.com/games/260366",
+  "giveaway_events": [
+    {
+      "start": "2024-10-17T15:00:00.000Z",
+      "end": "2024-10-24T15:00:00.000Z",
+      "type": null,
+      "id": "d8abd7984d034e21acafbce5ba0cca9b"
+    },
+    {
+      "start": "2024-03-20T15:00:00.000Z",
+      "end": "2024-03-27T15:00:00.000Z",
+      "type": null,
+      "id": "d8abd7984d034e21acafbce5ba0cca9b"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Become Atom Eve and take control of your own path as one of the most powerful superheroes in the Invincible universe! Unravel a mystery and balance the dangers and responsibilities of being a superhero with the relatable challenges of everyday life.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/ca10a8aa3d9ceae42253d2d78fa11209beda9b27737e357dff2a322299439a12.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d34da6255e83be15c0c524330e80ce35995f30d82d0335d95852f9cc4dab5e30.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/e08f26cd043c9379934090ca7baad0dee88a521e5b18055e055ca01de9267faf.jpg?namespace=gamesdb",
@@ -51,15 +109,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 132002,
+  "hltb_main": "4.5 hrs",
+  "hltb_main_extra": "6 hrs",
+  "hltb_completionist": "9.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/132002",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-05T22:01:03.077Z"
+  "updated_at": "2026-04-25T05:42:12.325Z"
 }

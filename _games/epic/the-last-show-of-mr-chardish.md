@@ -14,12 +14,18 @@ date_tested: "April '25"
 proton_version: ""
 
 # Game Info
-publisher: Hydra Games, Anshar Publishing
+publisher: Anshar Publishing
 developer: Punk Notion
-genre: Adventure, Indie, Platform, Puzzle
-release_date: "November 5, 2020"
+genre: Adventure, Indie
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "August 13, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/138389"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8164547a78a64c22b3822eb3a1171079d5dd25c8f3527223e3a12f5c5d17f612.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "2 hrs"
+hltb_main_extra: "2.5 hrs"
+hltb_completionist: "3 hrs"
+hltb_url: "https://howlongtobeat.com/game/82702"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-last-show-of-mr-chardish"
 protondb_url: "https://www.protondb.com/app/1164060"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Last_Show_of_Mr._Chardish"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/the-last-show-of-mr-chardish?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "5b8398d00cb445b3b819e2317b2b2b71"
 is_featured: false
+owned: true
 ---
 
 Decades have passed and the Actress, Ella, returns to the abandoned theatre to uncover a preserved collection of extraordinary performances. Explore a variety of magical, hand-painted worlds as you collect the lost pieces of the past.

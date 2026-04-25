@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Tales_from_the_Borderlands",
   "notes": "Works out of the box!",
   "date_tested": "Sept '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,59 @@
   "shortname": "178c9c2b209a409e88a729ddb9aba7d2",
   "publisher": "Telltale Games, Take-Two Interactive",
   "developer": "Telltale Games",
-  "releasedate": "2022-10-20T00:00:00+0000",
-  "genre": "Adventure, Puzzle, Point-and-click",
-  "description": "Tales from the Borderlands is a five part episodic game series. Set on the unforgiving world of Pandora after the events seen in Borderlands 2, this is a story full of Borderlands' trademark humor, following two adventurers on their quest for greatness.",
+  "releasedate": "2021-02-17T01:00:00.000Z",
+  "genre": "Narration, Exploration, Adventure",
+  "description": "Tales from the Borderlands is a five-part episodic game set on the unforgiving world of Pandora between the events of Borderlands 2 and Borderlands 3. This is a story full of Borderlands' trademark humor, following two adventurers on their quest for greatness.",
   "size": "30410048519\n",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "21123",
+      "name": "Impact the Story"
+    },
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Tales from the Borderlands is a five-part episodic game set on the unforgiving world of Pandora between the events of Borderlands 2 and Borderlands 3. This is a story full of Borderlands' trademark humor, following two adventurers on their quest for greatness.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/ac2d73c7f480687730f04eb640cb6b0f3910c440a7887f10bf5dc24cdf3f7ec1.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4d0facf5344f10594b2a04a50c7accfbefdb1a7f0a8af56c0c5a2c42d408dc94.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b1a2cbaefd25d5bc4473de82cc070bffbf7ad861d84ae0bbab0a38483736115d.jpg?namespace=gamesdb",
@@ -51,14 +100,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 22804,
+  "hltb_main": "10.5 hrs",
+  "hltb_main_extra": "11 hrs",
+  "hltb_completionist": "11.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/22804",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-03-26T19:36:21.691Z"
+  "updated_at": "2026-04-25T05:44:50.903Z"
 }

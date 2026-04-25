@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,110 @@
   "shortname": "c98c4cd6d83a4524b4b22f13af95a104",
   "publisher": "Turning Wheel LLC",
   "developer": "Turning Wheel LLC",
-  "releasedate": "2015-06-23",
-  "genre": "Role-playing (RPG), Adventure",
-  "description": "Barony is a 3D, first-person roguelike that brings back the cryptic and intricate designs of classic roguelikes such as Nethack",
+  "releasedate": "2020-07-30T15:00:00.000Z",
+  "genre": "First Person, Dungeon Crawler",
+  "description": "Barony is the premier first-person roguelike with co-op. Cryptic items, brutal traps and devious monsters, like those found in classic roguelikes and CRPGs, await you. Conquer the dungeons alone, or gather a party in co-op with iconic and exotic RPG classes.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "1258",
+      "name": "Rogue-Like"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "1265",
+      "name": "Dungeon Crawler"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1294",
+      "name": "First Person"
+    },
+    {
+      "id": "1265",
+      "name": "Dungeon Crawler"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 35189,
+  "igdb_url": "https://www.igdb.com/games/35189",
+  "giveaway_events": [
+    {
+      "start": "2020-07-29T15:00:00.000Z",
+      "end": "2020-08-05T15:00:00.000Z",
+      "type": null,
+      "id": "3fb9665744a5404d95de612ddc445f35"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Barony is the premier first-person roguelike with co-op. Cryptic items, brutal traps and devious monsters, like those found in classic roguelikes and CRPGs, await you. Conquer the dungeons alone, or gather a party in co-op with iconic and exotic RPG classes.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/08b7fa342d3f93bbdffda1233afbcfb1aac253fba97893595b5d41e170e6dad5.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4f5577fda002f04c4dbf9ea8c2514e512f16a97d98fce6e3565d414518e4067c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ceb4c869081cb452d9135943e1491f3d3124865b88b104728dbf6c7ef4a9ed69.jpg?namespace=gamesdb",
@@ -54,15 +154,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/barony-2015/",
+  "hltb_id": 26050,
   "hltb_main": "11.6 hrs",
   "hltb_main_extra": "28.5 hrs",
   "hltb_completionist": "68.4 hrs",
   "hltb_url": "https://howlongtobeat.com/game/26050",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-24T02:18:41.391Z"
+  "updated_at": "2026-04-25T01:18:34.350Z"
 }

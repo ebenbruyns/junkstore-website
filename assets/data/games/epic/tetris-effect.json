@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1003590",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/tetris-effect",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Tetris_Effect%3A_Connected",
   "notes": "Works out of the box on the Decky plugin version.",
   "date_tested": "May '24",
   "decky_rating": "green",
@@ -35,10 +35,47 @@
   "shortname": "06c89b64de954c6fbcab914f8837fd4b",
   "publisher": "Enhance",
   "developer": "Resonair, Monstars",
-  "releasedate": "2020-11-10",
-  "genre": "Casual, Indie",
+  "releasedate": "2019-07-23T15:00:00.000Z",
+  "genre": "Puzzle",
   "description": "TETRIS® EFFECT: CONNECTED adds an all-new robust multiplayer expansion to the huge variety of addictive and innovative single-player modes",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1159",
+      "name": "Arcade"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1179",
+      "name": "VR"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Tetris® Effect",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1003590/library_600x900.jpg",
   "banner_image": "https://images.gog.com/72a8338c4bd59b96b661db3a120810f87b3ccb26da05f414610db3fac750a25d.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f26f06bb4dc49bc8ebcb08565dd811402d75ae41733f822cdefff895885a9224.jpg?namespace=gamesdb",
@@ -53,15 +90,16 @@
   ],
   "metacritic_score": 93,
   "metacritic_url": "https://www.metacritic.com/game/pc/tetris-effect-connected?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 57523,
+  "hltb_main": "2.8 hrs",
+  "hltb_main_extra": "9.8 hrs",
+  "hltb_completionist": "52.2 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/57523",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-09-07T02:17:41.373Z"
+  "updated_at": "2026-04-25T05:18:50.619Z"
 }

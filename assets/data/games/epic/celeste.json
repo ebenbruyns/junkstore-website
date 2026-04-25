@@ -5,7 +5,7 @@
   "protondb": "https://www.protondb.com/app/504230",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/celeste",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Celeste",
   "notes": "Native controller support. Install dxvk to fix the red colour issue.",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -34,11 +34,117 @@
   "databaseId": "Salt",
   "shortname": "Salt",
   "publisher": "Maddy Makes Games",
-  "developer": "Extremely OK Games",
-  "releasedate": "01-2018",
-  "genre": "Adventure, Indie, Platform",
-  "description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer",
+  "developer": "Maddy Makes Games",
+  "releasedate": "2018-01-05T15:00:00.000Z",
+  "genre": "Action, Indie, Platformer",
+  "description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21134",
+      "name": "Beautiful Visuals"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2019-12-23T15:00:00.000Z",
+      "end": "2019-12-24T15:00:00.000Z",
+      "type": null,
+      "id": "544c18ccadf8466691d8f2a335721b14"
+    },
+    {
+      "start": "2019-08-28T15:00:00.000Z",
+      "end": "2019-09-04T15:00:00.000Z",
+      "type": null,
+      "id": "544c18ccadf8466691d8f2a335721b14"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/dd671b444f966deadc2d9902b3e8f71f5ab0b159545b3dcbd05cbe5d9c313798.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a7cb8cce9f9530fd08bbb81271d776c6b0685bda00a801b77acd3fe23573b247.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/dd671b444f966deadc2d9902b3e8f71f5ab0b159545b3dcbd05cbe5d9c313798.jpg?namespace=gamesdb",
@@ -51,15 +157,16 @@
   ],
   "metacritic_score": 88,
   "metacritic_url": "https://www.metacritic.com/game/pc/celeste?ftag=MCD-06-10aaa1f",
+  "hltb_id": 42818,
   "hltb_main": "8.3 hrs",
   "hltb_main_extra": "14.6 hrs",
   "hltb_completionist": "39.2 hrs",
   "hltb_url": "https://howlongtobeat.com/game/42818",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-12-11T21:26:59.993Z"
+  "updated_at": "2026-04-25T02:44:27.260Z"
 }

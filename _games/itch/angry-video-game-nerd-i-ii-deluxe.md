@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Screenwave Media Games
 developer: FreakZone Games
 genre: Adventure, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "October 29, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Portugal","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1162960/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1092676"
 is_featured: false
+owned: true
 ---
 
 Control &quot;The Nerd&quot; in a retro-inspired action platformer! It's two games in one, remixed and rebalanced to bring you the ultimate experience of Nerd Rage. Featuring stylized pixel art inspired by classic games, a highly energetic soundtrack, and challenging levels -- plus a special NEW chapter!

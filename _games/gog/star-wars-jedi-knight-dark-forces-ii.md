@@ -17,9 +17,15 @@ proton_version: ""
 publisher: LucasArts
 developer: LucasArts
 genre: Shooter
+franchise: 
+age_rating_summary: 
 release_date: "September 30, 1997"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English*","French*","Italian*","Spanish - Spain**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/ed43aa8e85a4656b770a6a758e3cc0be5812b4f1e5d8e75c1f7c85d970af12fb.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1422286819"
 is_featured: false
+owned: true
 ---
 
 Whatever path Kyle Katarn chooses will change the face of the galaxy forever.

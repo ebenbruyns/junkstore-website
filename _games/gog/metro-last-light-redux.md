@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Deep Silver, Deep Silver
 developer: 4A Games
 genre: Role-playing (RPG), Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "August 26, 2014"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Czech","Dutch","Polish","Russian*","Ukrainian**languages with full audio support"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/80496b9540e10004637cada016191f5f78235c8f5a98c2aae17dcb7193df76b2.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1430740172"
 is_featured: false
+owned: true
 ---
 
 It is the year 2034. Beneath the ruins of post-apocalyptic Moscow, in the tunnels of the Metro, the remnants of mankind are besieged by deadly threats from outside – and within. Mutants stalk the catacombs beneath the desolate surface, and hunt amidst the poisoned skies above.

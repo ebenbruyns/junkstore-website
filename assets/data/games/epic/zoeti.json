@@ -35,10 +35,94 @@
   "shortname": "71d86610f6d4447086528778da3c384e",
   "publisher": "Akupara Games",
   "developer": "Dusklight CO., LTD.",
-  "releasedate": "20 Apr, 2023",
-  "genre": "Adventure, Indie, Strategy",
-  "description": "Zoeti is a turn-based roguelite that features a deck of playing cards used to create card combos and activate skills in the heat of battle. Bolster your arsenal of skills through battles, discoverable upgrades, or aid from the locals which enhance your plays to overcome the evil plaguing your land.",
+  "releasedate": "2023-05-16T22:30:00.000Z",
+  "genre": "Turn-Based Strategy, Rogue-Lite, Card Game",
+  "description": "Zoeti is a turn-based roguelike that features a deck of playing cards used to create card combos and activate skills in the heat of battle. Bolster your arsenal of skills through battles and discoverable upgrades, or aid from locals to overcome the evil plaguing your land.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1088",
+      "name": "Turn-Based Strategy"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "1181",
+      "name": "Card Game"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1088",
+      "name": "Turn-Based Strategy"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "1181",
+      "name": "Card Game"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 151780,
+  "igdb_url": "https://www.igdb.com/games/151780",
+  "giveaway_events": [
+    {
+      "start": "2025-11-20T16:00:00.000Z",
+      "end": "2025-11-27T16:00:00.000Z",
+      "type": null,
+      "id": "257195bad91744b1803c616135332bdb"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Zoeti is a turn-based roguelike that features a deck of playing cards used to create card combos and activate skills in the heat of battle. Bolster your arsenal of skills through battles and discoverable upgrades, or aid from locals to overcome the evil plaguing your land.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1434540/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1434540/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1434540/capsule_231x87.jpg",
@@ -55,15 +139,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
+  "hltb_id": 127217,
+  "hltb_main": "7.5 hrs",
+  "hltb_main_extra": "9 hrs",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/127217",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-23T21:51:43.435Z",
-  "updated_at": "2026-02-07T22:06:38.394Z"
+  "updated_at": "2026-04-25T05:53:32.603Z"
 }

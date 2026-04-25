@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Wired Productions
 developer: Rogue Sun
 genre: Adventure, Strategy, Indie, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["Portuguese (Brazil)","zh-Hans","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","zh-Hans"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c08321e7a2e93df6fcf0b4890573c59f93b614bbd898464a3bac09b76a715be7.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/73035"
 store_url: "https://www.gog.com/en/game/tin_hearts"
 protondb_url: "https://www.protondb.com/app/1831700"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tin_Hearts"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1318552817"
 is_featured: false
+owned: true
 ---
 
 Guide squads of tin soldiers to safety through this magical toy filled world. A beautiful VR puzzle game with a heartfelt story. Are you guiding the soldiers or are they guiding you?

@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Cave_Story%2B",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -28,17 +28,91 @@
   "required_launcher": "",
   "requires_account_setup": false,
   "account_type": "",
-  "controller_input": "",
+  "controller_input": "native",
   "community_layout": true,
   "cant_test_linux": false,
   "databaseId": "1dea8a6ddb544842a58e4b5c8675ff58",
   "shortname": "1dea8a6ddb544842a58e4b5c8675ff58",
   "publisher": "Nicalis, Inc.",
   "developer": "Nicalis, Inc.",
-  "releasedate": "2011-11-22T00:00:00+0000",
-  "genre": "Adventure, Indie, Platform, Shooter",
-  "description": "A fun epic 2D platformer side scroller that brings a refreshing look to not only retro games, but this is what a \"Remastered Edition\" looks like.  Now with multiple endings.",
+  "releasedate": "2020-12-03T16:00:00.000Z",
+  "genre": "Action, Adventure, Platformer",
+  "description": "Arguably the most well-known indie game of all time, Cave Story+ features an original story brimming with personality, mystery and fast-paced fun. Run, jump, shoot, fly and explore your way through a massive adventure reminiscent of classic 8 and 16-bit games!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2023-08-30T15:00:00.000Z",
+      "end": "2023-09-06T15:00:00.000Z",
+      "type": null,
+      "id": "be3de140fc3749b28215da1626cce8bc"
+    },
+    {
+      "start": "2020-12-02T15:00:00.000Z",
+      "end": "2020-12-09T15:00:00.000Z",
+      "type": null,
+      "id": "be3de140fc3749b28215da1626cce8bc"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Arguably the most well-known indie game of all time, Cave Story+ features an original story brimming with personality, mystery and fast-paced fun. Run, jump, shoot, fly and explore your way through a massive adventure reminiscent of classic 8 and 16-bit games!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/b0dbdcdc72459a88dae9172bb12ebbfdd49fa67ff3f95e23412b8ab1e37f0faf.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d3e5428cedaa88c9cff00b2d86919b1b3d50373797f2a3da6eca352b36853761.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6c8dccc99783fc8b1a68b598dc3a0f8ed92bf66e4d6170a8d8517ffd0d4dd37a.jpg?namespace=gamesdb",
@@ -51,15 +125,16 @@
   ],
   "metacritic_score": 83,
   "metacritic_url": "https://www.metacritic.com/game/pc/cave-story-plus?ftag=MCD-06-10aaa1f",
+  "hltb_id": 1618,
   "hltb_main": "6.3 hrs",
   "hltb_main_extra": "8.6 hrs",
   "hltb_completionist": "11.2 hrs",
   "hltb_url": "https://howlongtobeat.com/game/1618",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T06:39:14.569Z"
+  "updated_at": "2026-04-25T04:31:34.603Z"
 }

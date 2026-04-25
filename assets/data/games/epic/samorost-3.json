@@ -35,10 +35,63 @@
   "shortname": "a73d06279eb649328c867d5352fc7c72",
   "publisher": "Amanita Design",
   "developer": "Amanita Design",
-  "releasedate": "24 Mar, 2016",
-  "genre": "Adventure, Casual, Indie",
-  "description": "Samorost 3 is an exploration adventure and puzzle game from the award-winning creators of Machinarium and Botanicula. Travel across space to nine unique worlds teeming with colorful challenges, creatures and surprises to discover, brought to life with beautiful artwork, sound and music.",
+  "releasedate": "2025-01-23T16:30:00.000Z",
+  "genre": "Puzzle, Adventure, Indie",
+  "description": "Samorost 3 follows a curious space gnome who uses the powers of a magic flute to travel across the cosmos in search of its mysterious origins. Visit nine unique and alien worlds teeming with colorful challenges, creatures and surprises to discover.",
   "size": "957 MB",
+  "franchise": "Samorost",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "39070",
+      "name": "iOS"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Samorost 3 follows a curious space gnome who uses the powers of a magic flute to travel across the cosmos in search of its mysterious origins. Visit nine unique and alien worlds teeming with colorful challenges, creatures and surprises to discover.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/421120/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/421120/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/421120/capsule_231x87.jpg",
@@ -60,15 +113,16 @@
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/pc/samorost-3?ftag=MCD-06-10aaa1f",
+  "hltb_id": "25807",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_url": "https://howlongtobeat.com/game/25807",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-14T02:55:30.997Z",
-  "updated_at": "2025-11-27T06:07:11.034Z"
+  "updated_at": "2026-04-25T02:15:53.583Z"
 }

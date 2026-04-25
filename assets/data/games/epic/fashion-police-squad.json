@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Fashion_Police_Squad",
   "notes": "Works out of the box!",
   "date_tested": "April '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,51 @@
   "shortname": "34207deee7704cae912ff861937af7ed",
   "publisher": "No More Robots, Mopeful Games",
   "developer": "Mopeful Games",
-  "releasedate": "2022-08-15T00:00:00+0000",
-  "genre": "Adventure, Indie, Platform, Shooter",
-  "description": "Fashion Police Squad is a humorous retro FPS where you fight against fashion crime using attire enhancing weaponry. Clean the streets off of socks in sandals as Sergeant Des, and experience a single player story full of fabulous characters, dazzling encounters and fierce runway shows!",
+  "releasedate": "2022-08-15T15:00:00.000Z",
+  "genre": "Shooter, First Person",
+  "description": "Even at this moment, our fashionable city is under assault. Baggy pants, dull suits, sightings of socks with sandals. A message needs to be sent, and it needs to be sent in style... Time to serve some good ol' Fashion Justice!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1185",
+      "name": "FPS"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Even at this moment, our fashionable city is under assault. Baggy pants, dull suits, sightings of socks with sandals. A message needs to be sent, and it needs to be sent in style... Time to serve some good ol' Fashion Justice!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/3055ae3a82170a8eddcb6ff89a14950d5c5dcc4934f3abbbe4f4d24eb57a1bd7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a7580bccff1c65035436a9b0ba644663c2844b72780e44eb65b685036c8b27fc.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/cf3faa95205f1a06bbd064bffe141bd25cdfe468192aa0d9345d8214233197a7.jpg?namespace=gamesdb",
@@ -51,14 +92,15 @@
   ],
   "metacritic_score": 71,
   "metacritic_url": "https://www.metacritic.com/game/pc/fashion-police-squad?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 96587,
+  "hltb_main": "4.5 hrs",
+  "hltb_main_extra": "6 hrs",
+  "hltb_completionist": "9.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/96587",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "updated_at": "2026-04-25T05:41:30.551Z"
 }

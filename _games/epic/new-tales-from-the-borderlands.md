@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: 2K
 developer: Gearbox Software
-genre: Adventure
-release_date: "October 20, 2022"
+genre: Action, Adventure
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "October 21, 2022"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian","German","Spanish - Spain","Portuguese - Brazil*languages with full audio support"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: "https://www.igdb.com/games/214139"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4aa4e4da8bebe9366bbd8d2b949658739ee1dd7b73d5d36957d22909569a734f.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: true
 epic_achievements: true
 epic_offline_mode: true
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "9.5 hrs"
+hltb_main_extra: "11 hrs"
+hltb_completionist: "21.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/112461"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/new-tales-from-the-borderlands"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "9598a70268124b108d80af9d873917b5"
 is_featured: false
+owned: true
 ---
 
 Decide the fates of altruistic scientist Anu, her ambitious, "streetwise" brother Octavio, and the fierce, frogurt-slinging Fran. Claw and con your way through five thrilling chapters!

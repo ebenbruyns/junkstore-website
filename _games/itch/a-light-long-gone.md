@@ -17,9 +17,15 @@ proton_version: ""
 publisher: muddasheep
 developer: muddasheep
 genre: Music
+franchise: 
+age_rating_summary: 
 release_date: "May 15, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1ede27c77cde52b3291739b39dc39729b3bc5a5048ddda302af58ba1b675c2ef.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "645160"
 is_featured: false
+owned: true
 ---
 
 Interactive music album release.

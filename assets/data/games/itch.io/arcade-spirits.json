@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Arcade, Visual Novel",
   "description": "\"Set in 20XX, Arcade Spirits follows an alternative timeline where the 1983 video game crash never occurred - after a turbulant work history you are granted employment at the Funplex, a popular arcade, home to a host of unique personalities and customers. Where will this new found employment take you? Who will you meet along the way? Will you find the romance you're seeking?\"",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/910630/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/910630/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/910630/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 78,
   "metacritic_url": "https://www.metacritic.com/game/pc/arcade-spirits?ftag=MCD-06-10aaa1f",
+  "hltb_id": 65086,
   "hltb_main": "8 hrs",
   "hltb_main_extra": "10.5 hrs",
   "hltb_completionist": "17 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.830Z",
-  "updated_at": "2026-04-23T08:58:36.070Z"
+  "updated_at": "2026-04-25T00:55:14.088Z"
 }

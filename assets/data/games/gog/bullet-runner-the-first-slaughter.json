@@ -14,7 +14,7 @@
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Shooter",
   "description": "Big fucking guns + twin-stick action = Bullet Runner! Combine crazy movement and combat mechanics to dodge, slide, swing and shoot your way to victory! Brutal attacks, adrenaline, speed, power; you get them all. Free to play 4-hour single player campaign and an endless arena mode.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/8d42b3af216cd035c5e45f9c6da8564996071e36a48f661b668f6ea0cc3d4a30.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b7150a388fa89f71aae621196a792cca4338e4d01b4490269216829221834116.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/417ad99dc9673a36701f95942a2d839209d4254aaaa04d012bc37a41b55062ff.jpg?namespace=gamesdb",
@@ -50,7 +61,8 @@
     "English"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/bullet-runner-the-first-slaughter/",
+  "hltb_id": 126020,
   "hltb_main": "30 mins",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-08-11T04:50:33.135Z"
+  "updated_at": "2026-04-25T00:41:25.028Z"
 }

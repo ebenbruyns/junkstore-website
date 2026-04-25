@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Deep Silver, Koch Media
 developer: 4A Games
-genre: Role-playing (RPG), Shooter
-release_date: "August 26, 2014"
+genre: Action, Shooter, First Person
+franchise: 
+age_rating_summary: 
+release_date: "August 15, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/80496b9540e10004637cada016191f5f78235c8f5a98c2aae17dcb7193df76b2.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Speedwell"
 is_featured: false
+owned: true
 ---
 
 Metro: Last Light Redux is the definitive version of the critically acclaimed ‘Metro: Last Light’, rebuilt in the latest and greatest iteration of the 4A Engine for Next Gen. Newcomers will get the chance to experience one of the finest story-driven shooters of all time; an epic adventure combining gripping survival horror, exploration and tactical combat and stealth. 

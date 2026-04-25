@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Super_Space_Club",
   "notes": "Works out of the box!",
   "date_tested": "May '25",
   "decky_rating": "green",
@@ -35,10 +35,59 @@
   "shortname": "eccf14e21df84712a54d2b89b20d15f9",
   "publisher": "GrahamOfLegend",
   "developer": "GrahamOfLegend",
-  "releasedate": "2024-03-27T00:00:00+0000",
-  "genre": "Indie, Shooter, Arcade",
-  "description": "In Super Space Club, journey alongside a group of anthropomorphic heroes as they set out to be the top-ranked defenders of the galaxy. You'll take on various missions, partake in several space dogfights, and jam out to lo-fi beats in this chill, arcade-style shooter.",
+  "releasedate": "2025-01-23T16:30:00.000Z",
+  "genre": "Action, Space, Indie",
+  "description": "Super Space Club is a lo-fi arcade space shooter to chill to. Defend a vibrant galaxy as a club of misfit heroes and battle endless waves of spacecrafts to the tune of atmospheric beats. Outlast your enemies and vibe to the rhythm of the stars.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1121",
+      "name": "Space"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "39071",
+      "name": "Android"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1121",
+      "name": "Space"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Super Space Club is a lo-fi arcade space shooter to chill to. Defend a vibrant galaxy as a club of misfit heroes and battle endless waves of spacecrafts to the tune of atmospheric beats. Outlast your enemies and vibe to the rhythm of the stars.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/31649461f108ba54ae15fe41dab468641f087a3d692e5af4966a4e7cc81fcc6a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c1d54691091d30e63951c2d052457d743f8f1c4120efaae2a0c4e28b9bdd0ca6.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/42c910373effb6e483bf46ee3653c08802277e7377466e4b4ec98ab6534bf1d2.jpg?namespace=gamesdb",
@@ -51,15 +100,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
+  "hltb_id": 126714,
+  "hltb_main": "1.5 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/126714",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:16:52.158Z"
+  "updated_at": "2026-04-25T05:44:45.623Z"
 }

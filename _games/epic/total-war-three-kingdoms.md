@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: SEGA
-developer: CREATIVE ASSEMBLY
+developer: Creative Assembly
 genre: Action, Strategy
-release_date: "May 23, 2019"
+franchise: Total War
+age_rating_summary: ESRB Teen
+release_date: "December 18, 2025"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","French*","Italian","German*","Spanish - Spain","Czech","Korean*","Polish","Portuguese - Brazil","Russian*"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/779340/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "769f2fee68e9477180da900ccccbbcf0"
 is_featured: false
+owned: true
 ---
 
-Total War: THREE KINGDOMS is the first in the award-winning series to recreate epic conflict across ancient China. Combining a gripping turn-based campaign of empire-building &amp; conquest with stunning real-time battles, THREE KINGDOMS redefines the series in an age of heroes &amp; legends.
+Total War: THREE KINGDOMS recreates epic conflict across ancient China in an age of heroes and legends, combining gripping empire-building, statecraft and conquest with stunning real-time battles.

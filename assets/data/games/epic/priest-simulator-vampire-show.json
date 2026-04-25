@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/950620",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/priest-simulator-vampire-show-71f336",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Priest_Simulator",
   "notes": "Works out of the box!",
   "date_tested": "Oct '24",
   "decky_rating": "green",
@@ -35,10 +35,55 @@
   "shortname": "5ffb49b9c01c44c6adb03fd5430e9b03",
   "publisher": "Ultimate Games",
   "developer": "Asmodev",
-  "releasedate": "2024-12-05T00:00:00+0000",
-  "genre": "Indie, Shooter, Simulator",
-  "description": "Imagine that you have divine powers. What do you do? Help people or take the piss out of them? That's a priest's life.",
+  "releasedate": "2024-09-26T00:00:00.000Z",
+  "genre": "Shooter, Open World, Comedy",
+  "description": "A mockumental action game. Go forth and rock in the absolute weirdest and most messed up simulator in the history of sandbox shooters. Fully unprofessional English language version. This dub will have you in stitches.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1116",
+      "name": "Comedy"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1116",
+      "name": "Comedy"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 110993,
+  "igdb_url": "https://www.igdb.com/games/110993",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "A mockumental action game. Go forth and rock in the absolute weirdest and most messed up simulator in the history of sandbox shooters. Fully unprofessional English language version. This dub will have you in stitches.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a356f7578607c149bce92215259e6ce8cc3454f4805e084d3437fa07239ecb8c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/8ee5bb2ad9feda38e479d2c90653040cf75eaef0f4e9fe7ca57872820dc98efd.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/feda366a4259a2a08ebc0724a6bafdd2fb57306cef1c7213b6f34616e5dbf32d.jpg?namespace=gamesdb",
@@ -51,14 +96,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 157940,
+  "hltb_main": "8 hrs",
+  "hltb_main_extra": "10 hrs",
+  "hltb_completionist": "15 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/157940",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.968Z"
+  "updated_at": "2026-04-25T05:43:29.859Z"
 }

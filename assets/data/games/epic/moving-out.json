@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/996770",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/moving-out",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Moving_Out",
   "notes": "Works out of the box!",
   "date_tested": "Oct '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -34,11 +34,109 @@
   "databaseId": "8e29583ae4b44a21883038668f7e301e",
   "shortname": "8e29583ae4b44a21883038668f7e301e",
   "publisher": "Team17",
-  "developer": "SMG Studio, DEVM Games",
-  "releasedate": "2020-04-27T00:00:00+0000",
-  "genre": "Adventure, Strategy, Indie, Simulator",
-  "description": "Moving Out is a cooperative moving simulation game. In a local cooperative experience, players move objects from houses into a moving van while coping with exaggerated physics.\n\nIt was followed by Moving Out 2.",
+  "developer": "SMG Studio & Devm Games",
+  "releasedate": "2021-12-28T16:00:00.000Z",
+  "genre": "Casual, Party",
+  "description": "Moving Out is a ridiculous physics-based moving simulator that brings new meaning to \"couch co-op\"! As a newly certified Furniture Arrangement & Relocation Technician, you’ll take on moving jobs all across the busy town of Packmore.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1110",
+      "name": "Party"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1110",
+      "name": "Party"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 113866,
+  "igdb_url": "https://www.igdb.com/games/113866",
+  "giveaway_events": [
+    {
+      "start": "2024-10-24T15:00:00.000Z",
+      "end": "2024-10-31T15:00:00.000Z",
+      "type": null,
+      "id": "0a8b32256f374cf4998c3ecf44c31db9"
+    },
+    {
+      "start": "2021-12-27T15:00:00.000Z",
+      "end": "2021-12-28T15:00:00.000Z",
+      "type": null,
+      "id": "0a8b32256f374cf4998c3ecf44c31db9"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Moving Out is a ridiculous physics-based moving simulator that brings new meaning to \"couch co-op\"! As a newly certified Furniture Arrangement & Relocation Technician, you’ll take on moving jobs all across the busy town of Packmore.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/f1474c475ae2f9391bccc7d30ae0e02563d70adb622a41d4d6b9ca500ee248f8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/454d8ffade126333e5c67d53b3be9f2b711e92cfe1adbb73d092af41a486aa79.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/60b5084975995b78d6da28a533fa36520ddfc26e1a668fdf28cc56ca8188468c.jpg?namespace=gamesdb",
@@ -53,14 +151,15 @@
   ],
   "metacritic_score": 79,
   "metacritic_url": "https://www.metacritic.com/game/pc/moving-out?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 75031,
+  "hltb_main": "5 hrs",
+  "hltb_main_extra": "10 hrs",
+  "hltb_completionist": "18.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/75031",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.968Z"
+  "updated_at": "2026-04-25T05:43:08.001Z"
 }

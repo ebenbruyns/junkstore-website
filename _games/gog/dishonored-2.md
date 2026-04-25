@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Bethesda Softworks
 developer: Arkane Studios
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "November 11, 2016"
 game_modes: ["Single player"]
 languages: []
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/758323c46a96995469cd6a7018e7044fa4b9b48ed171317b86e528fae97de103.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1431426311"
 is_featured: false
+owned: true
 ---
 
 Dishonored 2 is a first-person action video game and the sequel to Dishonored. It borrows many of the gameplay elements from the first opus: players define their own play style by blending action, assassination, stealth, mobility and combat. Combining tools at their disposal, players are allowed options to eliminate enemies, whether they choose to pursue them unseen or ruthlessly attack head on. Dishonored 2 features the same campaign style as its predecessor in which the protagonist must advance through a series of missions.

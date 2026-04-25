@@ -14,12 +14,18 @@ date_tested: "Dec '25"
 proton_version: ""
 
 # Game Info
-publisher: Thunder Lotus
-developer: Thunder Lotus
-genre: Adventure, Indie
-release_date: "September 29, 2015"
+publisher: Thunder Lotus Games
+developer: Thunder Lotus Games
+genre: Action, Adventure, Indie
+franchise: 
+age_rating_summary: 
+release_date: "December 7, 2019"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Russian","Simplified Chinese"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2022-05-11T15:00:00.000Z","end":"2022-05-18T15:00:00.000Z","type":null,"id":"cbbde99547d54f41b8f7bd5fc46726c5"},{"start":"2019-12-05T15:00:00.000Z","end":"2019-12-11T15:00:00.000Z","type":null,"id":"cbbde99547d54f41b8f7bd5fc46726c5"}]
 
 # Images
 banner_image: "https://images.gog.com/10013a47186d76c3b39f7396d1dc979b082aa04b645a938bc8b11e53e12af535.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: true
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "5 hrs"
+hltb_main_extra: "5.5 hrs"
+hltb_completionist: "7.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/30623"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jotun"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Grouse"
 is_featured: false
+owned: true
 ---
 
-Jotun is a hand-drawn action-exploration game set in Norse mythology. In Jotun, you play Thora, a Norse warrior who has died an inglorious death and must prove herself to the Gods to enter Valhalla.
+Jotun is a hand-drawn action-exploration game set in Norse mythology. In Jotun, you play Thora, a Viking warrior who died an inglorious death and must prove herself to the Gods to enter Valhalla. Impress the Gods!

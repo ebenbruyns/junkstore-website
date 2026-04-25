@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: Tripwire Presents
-developer: Tripwire Interactive
-genre: Adventure, RPG, Strategy
-release_date: "August 8, 2023"
+developer: The Game Kitchen
+genre: Puzzle, Strategy, Stealth
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "January 29, 2025"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain*","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese*languages with full audio support"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"9549","name":"Controller Support"}]
+igdb_url: "https://www.igdb.com/games/138097"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-11a59.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "ee9aba2358a7484da67fef34106bb13a"
 is_featured: false
+owned: true
 ---
 
 The Stone of Madness is a real-time tactical stealth game set in an 18th-century Spanish Monastery. Five prisoners pool their skills and resources to face their phobias, stave off insanity, uncover the mysteries of the Monastery, and find a way to escape.

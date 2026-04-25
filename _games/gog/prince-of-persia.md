@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Ubisoft Entertainment
 developer: Ubisoft Montreal
 genre: Adventure, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "December 2, 2008"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c5b37d2b720c5f053c85ab7ba338298c1f7055b6db26621c732bbbce4bf53760.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/7288"
 store_url: "https://www.gog.com/en/game/prince_of_persia"
 protondb_url: "https://www.protondb.com/app/19980"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia_%282008%29"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659109"
 is_featured: false
+owned: true
 ---
 
 Prince of Persia is an action-adventure and platforming video game developed by Ubisoft Montreal and published by Ubisoft. It is part of the Prince of Persia franchise.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: SOEDESCO Publishing, SOEDESCO Publishing
 developer: Milkstone Studios
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "October 23, 2014"
 game_modes: ["Single player"]
 languages: ["English","French","German","Hungarian","Italian","Portuguese (Brazil)","Russian","Spanish","Swedish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/ffc092094f5230f81fe93b6d71171aac0214fb6fd0c3e423fffc395d6d2c5266.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1437564865"
 is_featured: false
+owned: true
 ---
 
 Dungeon-Crawling First Person Shooting at its finest! Fast-paced combat! Dozens of perks, spells and enemies! Level ups! Random Dungeons! Traps! Badass bosses! Carrots!

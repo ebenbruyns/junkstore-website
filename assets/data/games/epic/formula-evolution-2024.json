@@ -35,10 +35,83 @@
   "shortname": "84939992ff804046959c7ae7818a2fdc",
   "publisher": "Petr Šimůnek",
   "developer": "Petr Šimůnek",
-  "releasedate": "2024-06-03T00:00:00+0000",
-  "genre": "Indie, Sport, Simulator, Racing",
+  "releasedate": "2024-06-03T12:00:00.000Z",
+  "genre": "Action, Racing, Indie",
   "description": "The first ever true MMO formula racing game is here! Play with up to 39 friends!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "22775",
+      "name": "MMO"
+    },
+    {
+      "id": "33639",
+      "name": "Promotional Content"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1310",
+      "name": "EARLY ACCESS"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 254904,
+  "igdb_url": "https://www.igdb.com/games/254904",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "The first ever true MMO formula racing game is here! Play with up to 39 friends!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/d9ba1943274776a111cd525f05c25d285db9834c6da6d17ea69d103ae029076b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/156198c93f6de0321637da93054c10e87f2d1afbea1b032c6d16c25b9661e137.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1fc1070dfa421c453f79610750cfc6bec81f44ccd5fd4c8b39aa96f963d82ed8.jpg?namespace=gamesdb",
@@ -53,6 +126,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -63,5 +137,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-12-11T20:07:57.429Z"
+  "updated_at": "2026-04-25T01:22:08.540Z"
 }

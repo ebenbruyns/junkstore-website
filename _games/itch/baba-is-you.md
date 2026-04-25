@@ -17,9 +17,15 @@ proton_version: ""
 publisher: hempuli
 developer: hempuli
 genre: Strategy, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English","Spanish - Spain","Korean","Norwegian","Polish","Thai","French","Italian","Dutch","Japanese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/736260/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "366363"
 is_featured: false
+owned: true
 ---
 
 Baba Is You is a puzzle game where you can change the rules by which you play. In every level, the rules themselves are present as blocks you can interact with; by manipulating them, you can change how the level works and cause surprising, unexpected interactions! With some simple block-pushing you can turn yourself into a rock, turn patches of grass into dangerously hot obstacles, and even change the goal you need to reach to something entirely different.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Elden Pixels, Mega Cat Studios
 developer: Elden Pixels
 genre: Adventure, Indie, Platform
+franchise: 
+age_rating_summary: 
 release_date: "February 2, 2017"
 game_modes: ["Single player"]
 languages: ["English","Swedish","German","Spanish - Spain","Portuguese - Brazil","French","Italian","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c5860c0dbaabb986bba6cb7f2479c9aa02666f20ceb75948df716505ea782f5c.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1396087560"
 is_featured: false
+owned: true
 ---
 
 Use your magic staff and progress through a large interconnected world where you'll solve puzzles, fight enemies and defeat bosses in order to help free the land of Alwa. Explore and uncover the secrets by using your platforming skills in this challenging and charming 8-bit adventure game.

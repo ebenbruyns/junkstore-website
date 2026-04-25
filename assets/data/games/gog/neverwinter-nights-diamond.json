@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure",
   "description": "Experience one of the most popular role-playing adventures of our time, a journey that has thrilled millions. Inhabit dreamlike worlds of myth and mystery. Boundless lands of deadly creatures, foreboding omens and bold heroism.\n\nThis game puts you at the center of an epic tale of faith, war and betrayal, all the while staying true to the pen-and-paper role-playing tradition.\nNeverwinter Nights - A world without limits!\n\nThe Diamond Edition includes the original Neverwinter Nights and three official expansion packs: Shadows of Undrentide, Hordes of the Underdark and Kingmaker.\n\nA fast-paced RPG with an intuitive interface, suitable for new players and RPG veterans alike.\n\nA classic RPG experience that will keep you entertained for over one hundred hours!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/8e8df168c2bbf4b34a804d671041643eea1d6e6a05c9c42c80128f9d88b6e07e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fd4c34c4059a37cf2a27f749ddcf0227be3af162771289f255fe2db4f6e0a4b9.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -57,6 +68,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/neverwinter-nights-diamond/",
+  "hltb_id": 6521,
   "hltb_main": "71 hrs",
   "hltb_main_extra": "100 hrs",
   "hltb_completionist": "105 hrs",
@@ -68,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-23T23:32:07.970Z"
+  "updated_at": "2026-04-25T00:42:56.492Z"
 }

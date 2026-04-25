@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Activision, Electronic Arts, LucasArts
 developer: Pandemic Studios, Savage Entertainment
 genre: Shooter
+franchise: 
+age_rating_summary: 
 release_date: "October 31, 2005"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8baf583bf9e8b070e0ef2a1cdc39892637f008ce4e2795999ebce5144d1ed6a5.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1421404701"
 is_featured: false
+owned: true
 ---
 
 Star Wars: Battlefront II is the sequel to Star Wars: Battlefront. It is a high-selling Star Wars video game following the many adventures of several characters. The two games are very similar, as both revolve around troopers from various factions fighting in different locales. Battlefront II, however, includes elements and missions from Star Wars: Episode III Revenge of the Sith, as well as enhanced aspects of gameplay including space combat and the ability to play as Jedi characters or other heroes.

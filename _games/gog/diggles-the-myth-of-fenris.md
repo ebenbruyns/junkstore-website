@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Innonics, CD Projekt
 developer: SEK
 genre: Adventure, Strategy, Real Time Strategy (RTS)
+franchise: 
+age_rating_summary: 
 release_date: "September 27, 2001"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/bc3b23034e7c7486bc394f19ed471633e8a2df98c38a05d4d8d4c84e3042d8fc.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2095461205"
 is_featured: false
+owned: true
 ---
 
 Godfather Odin has chosen the Diggles to set out on a long and burdensome expedition to the center of the earth where the hound of hell, Fenris, spreads terror. Fenris was once Odin's watchdog and ran away. Ever since he became aware of his growing power and strength he has been terrifying the underground world. Fenris must be disarmed and put on a chain. This task requires a very special chain, a chain that can only be forged by the Diggles...

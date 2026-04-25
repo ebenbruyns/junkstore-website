@@ -17,9 +17,15 @@ proton_version: ""
 publisher: System Erasure
 developer: System Erasure
 genre: Indie, Shooter, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "September 28, 2018"
 game_modes: ["Single player","Co-operative"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/809020/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "309919"
 is_featured: false
+owned: true
 ---
 
 ZeroRanger is a vertically scrolling 2D shoot'em up with heavy emphasis on shooting, dodging and... mystery?

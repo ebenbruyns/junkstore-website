@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Elite: Dangerous - Steam Deck Compatibility"
-game_title: "Elite: Dangerous"
+title: "Elite Dangerous - Steam Deck Compatibility"
+game_title: "Elite Dangerous"
 slug: "elite-dangerous"
 storefront: "Epic"
 storefront_key: "epic"
@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Frontier Developments
 developer: Frontier Developments
-genre: Adventure, Shooter, Simulator
-release_date: "December 16, 2014"
+genre: Action, Space
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "November 20, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1121","name":"Space"},{"id":"1281","name":"Space Sim"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"217","name":"SPACE SIMULATION"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1279","name":"Vampire"}]
+igdb_url: "https://www.igdb.com/games/2955"
+was_free_before: true
+giveaway_events: [{"start":"2020-11-18T15:00:00.000Z","end":"2020-11-25T15:00:00.000Z","type":null,"id":"7b002177046841a69da1adc0e1d0c98f"}]
 
 # Images
 banner_image: "https://images.gog.com/a91d3e790a39ea918723598e6c95c0816486af70442f3de028f548336c10e2c4.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: true
 account_type: "Frontier Account"
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "113.6 hrs"
+hltb_main_extra: "270.3 hrs"
+hltb_completionist: "676.8 hrs"
+hltb_url: "https://howlongtobeat.com/game/3088"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/elite-dangerous"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "9c203b6ed35846e8a4a9ff1e314f6593"
 is_featured: false
+owned: true
 ---
 
-The next game in the Elite series - an amazing space epic with stunning visuals, incredible gameplay, breath-taking scope and award-winning sound. All content can be enjoyed in game any mode: solo, personal invite-only group or open/MMO. Carve your own path through the richest, largest gaming sandbox ever created, a 1:1 scale representation of the Milky Way galaxy, set against a backdrop of raw anarchy, galactic powerplays and political intrigue.
+Take control of your own starship and blaze your trail in an ever-changing galaxy. Master the arts of combat, mining and trade or venture out into the unknown across a 1:1 scale universe.

@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)",
   "description": "Alder's Blood is a grim, dark and damp turn-based, tactical, strategic, 2D game. Lead a group of Hunters in a world, where nature have lost her mind and repelled the civilisation. Use cold steel and trustworthy rifles or guns to fight back.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/e29061683a15383e38bdf2895b0b8b0aee284980272dcb991f202547fdf20c8a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/305750925718087df59b1cc778e53b8614e70f929425a5928899a3aa7130820d.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d73bd92d00156ad1e8333d957545562958370349f621da55cf00e65f8c49f830.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/alders-blood-prologue/",
+  "hltb_id": 74995,
   "hltb_main": "25 mins",
   "hltb_main_extra": "29 mins",
   "hltb_completionist": "41 mins",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-23T23:32:05.519Z"
+  "updated_at": "2026-04-25T00:35:21.108Z"
 }

@@ -39,6 +39,17 @@
   "genre": "Action, Indie",
   "description": "Pilot a mech to hunt down and destroy the oppressive government of a cyberpunk autocracy. In this fast-paced, top-down shooter, use overwhelming firepower to destroy columns of tanks and level buildings. Unlock up to 56 unique vehicles and 40 weapons.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/274500/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/274500/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/274500/capsule_231x87.jpg",
@@ -59,7 +70,8 @@
     "Traditional Chinese"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/brigador-up-armored-edition/",
+  "hltb_id": 47826,
   "hltb_main": "9 hrs",
   "hltb_main_extra": "15 hrs",
   "hltb_completionist": "25.5 hrs",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-08T04:00:08.939Z",
-  "updated_at": "2026-01-18T04:18:11.425Z"
+  "updated_at": "2026-04-25T00:58:30.028Z"
 }

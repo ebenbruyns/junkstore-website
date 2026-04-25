@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Frictional Games
 developer: Frictional Games
 genre: Adventure, Adventure, Adventure
+franchise: Amnesia
+age_rating_summary: ESRB Mature 17+
 release_date: "September 8, 2010"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Russian","Spanish","zh-Hans"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"11631","name":"Requires 2FA"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/111"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/26960cb6d47a6a0709e2644c1626a780fabccf5c65741fd033abfd50f1024657.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659259"
 is_featured: false
+owned: true
 ---
 
-Amnesia: The Dark Descent is a survival horror video game by Frictional Games. The game features a protagonist named Daniel exploring a dark and foreboding castle, while trying to maintain his sanity by avoiding monsters and other terrifying obstructions. The game was critically well received.
+Amnesia: The Dark Descent, a first person survival horror. A game about immersion, discovery and living through a nightmare. An experience that will chill you to the core.

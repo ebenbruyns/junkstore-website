@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": true,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,91 @@
   "shortname": "86982262b877446db74928dce458c3e7",
   "publisher": "2K",
   "developer": "Visual Concepts",
-  "releasedate": "18 May, 2023",
+  "releasedate": "2023-05-19T04:00:00.000Z",
   "genre": "Racing",
   "description": "Welcome to Bricklandia, home of a massive open-world LEGO® driving adventure. Race anywhere, play with anyone, build your dream rides, and defeat a cast of wild racing rivals for the coveted Sky Trophy!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1212",
+      "name": "Racing"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 242493,
+  "igdb_url": "https://www.igdb.com/games/242493",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Welcome to Bricklandia, home of a massive open-world LEGO® driving adventure. Race anywhere, play with anyone, build your dream rides, and defeat a cast of wild racing rivals for the coveted Sky Trophy!",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1451810/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1451810/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1451810/capsule_231x87.jpg",
@@ -63,15 +144,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 125974,
+  "hltb_main": "7 hrs",
+  "hltb_main_extra": "15 hrs",
+  "hltb_completionist": "78 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/125974",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-07T08:12:14.448Z",
-  "updated_at": "2026-02-07T22:06:38.394Z"
+  "updated_at": "2026-04-25T05:53:44.904Z"
 }

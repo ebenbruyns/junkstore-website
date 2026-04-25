@@ -17,9 +17,15 @@ proton_version: "Proton 7.0-6"
 publisher: Ubisoft Entertainment
 developer: Ubisoft Montreal
 genre: Adventure, Platform
+franchise: 
+age_rating_summary: 
 release_date: "November 30, 2004"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/50fc917b8082b4f27400442acaad41d3a3b8fb402c25c89311a379269c49af27.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659082"
 is_featured: false
+owned: true
 ---
 
 Prince of Persia: Warrior Within is a video game and sequel to Prince of Persia: The Sands of Time. It picks up where The Sands of Time left off, adding new features, specifically, options in combat. The Prince now has the ability to wield two weapons at a time as well as the ability to steal his enemies' weapons and throw them. The Prince's repertoire of combat moves has been expanded into varying strings that allow players to attack enemies with more complexity than was possible in the previous game. Warrior Within has a darker tone than its predecessor adding in the ability for the Prince to dispatch his enemies with various finishing moves. In addition to the rewind, slow-down, and speed-up powers from The Sands of Time, the Prince also has a new sand power: a circular "wave" of sand that knocks down all surrounding enemies as well as damaging them.

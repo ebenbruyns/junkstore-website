@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Slow Bros.
 developer: Slow Bros.
 genre: Adventure, Casual, Indie
+franchise: 
+age_rating_summary: 
 release_date: "April 16, 2024"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Japanese","Korean","Russian","Turkish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/924750/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1490213242"
 is_featured: false
+owned: true
 ---
 
 Harold Halibut is a handmade narrative game about friendship and life on a city-sized spaceship submerged in an alien ocean. Join Harold as he explores a vibrant retro-future world in his quest to find the true meaning of ‘home’.

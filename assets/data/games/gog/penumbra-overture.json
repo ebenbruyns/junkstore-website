@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Puzzle",
   "description": "First person survival horror game, emphasizing survival and problem solving instead of mindless violence and gore",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/3baefc58b4fb5bad1a7f484bd8953555fbd0fc17e7753ca5f500dab9dac1b37d.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/8a0b418b19a06924d3539ccb0963b25b19ee810a26842c5916d3f2dc5ff2b05e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/da27dea872d227978b698e6ba96fd6f0f18c259d7e9853695dbddec2a9653be5.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 73,
   "metacritic_url": "https://www.metacritic.com/game/pc/penumbra-overture?ftag=MCD-06-10aaa1f",
+  "hltb_id": 6963,
   "hltb_main": "5.5 hrs",
   "hltb_main_extra": "6 hrs",
   "hltb_completionist": "7.5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-23T21:02:37.265Z"
+  "updated_at": "2026-04-25T00:46:21.998Z"
 }

@@ -14,12 +14,18 @@ date_tested: "Aug '24"
 proton_version: ""
 
 # Game Info
-publisher: Headup Games, Headup
+publisher: Headup
 developer: Aerial_Knight
-genre: Adventure, Indie, Platform, Arcade, Music
-release_date: "May 19, 2021"
+genre: Action, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "May 20, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/138206"
+was_free_before: true
+giveaway_events: [{"start":"2024-02-28T15:00:00.000Z","end":"2024-03-06T15:00:00.000Z","type":null,"id":"2fecb1793ce446408cd869611400a797"}]
 
 # Images
 banner_image: "https://images.gog.com/570e3b3b8514b27a2ebe5135be3de7a4db46abbda7673528a9f3403d70332cce.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -53,10 +59,10 @@ hltb_completionist: "2.6 hrs"
 hltb_url: "https://howlongtobeat.com/game/91068"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/aerial-knight-s-never-yield"
+store_url: "https://store.epicgames.com/en-US/p/aerial-knights-never-yield"
 protondb_url: "https://www.protondb.com/app/1323540"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aerial_Knight%27s_Never_Yield"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "9b2c200d7dec4825a83664d8888adad8"
 is_featured: false
+owned: true
 ---
 
-Survive a futuristic Tokyo style Detroit in this 3D runner that tells the story of Wally who has uncovered the evidence that can change his city forever. Explore a game world with a dope-tastic soundtrack featuring the authentic sounds of Detroit Artist.
+Take the role of Wally. A mysterious character that has recovered what was taken from him. Hopefully, you're fast enough to outrun your enemies.   Run, Jump, Slide or Dash for acrobatic variants leading to dope combinations and avoid the challenges that await.

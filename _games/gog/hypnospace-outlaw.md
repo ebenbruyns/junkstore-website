@@ -17,9 +17,15 @@ proton_version: ""
 publisher: No More Robots
 developer: Tendershoot, Michael Lasch, ThatWhichIs Media
 genre: Role-playing (RPG), Adventure, Indie, Puzzle, Simulator, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "March 12, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/cba1be9225184f5e4faeced1d02cfbf9ae2b51606c0c635172a2140be279f970.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/65593"
 store_url: "https://www.gog.com/en/game/hypnospace_outlaw"
 protondb_url: "https://www.protondb.com/app/844590"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hypnospace_Outlaw"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/hypnospace-outlaw?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1939715083"
 is_featured: false
+owned: true
 ---
 
 Hypnospace Outlaw is a '90s internet simulator in which players act as Enforcers, volunteer moderators who scour Hypnospace's surreal network of weird and wonderful websites to hunt down wrongdoers while also keeping an eye on their inbox, avoiding viruses and adware, and downloading a plethora of apps that may or may not be useful.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Focus Entertainment
 developer: Spiders
 genre: Role-playing (RPG), Adventure, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "September 9, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3f4c1de3439c1f2eb2e1cdcce031b0f5463a0529de4cd649e96744a3c5c75d06.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/62519"
 store_url: "https://www.gog.com/en/game/greedfall"
 protondb_url: "https://www.protondb.com/app/606880"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/GreedFall"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/greedfall?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1635210189"
 is_featured: false
+owned: true
 ---
 
 Explore a fresh new world as you set foot - alongside many other settlers, mercenaries and treasure hunters - on a remote island seeping with magic, rumored to be filled with riches and lost secrets.

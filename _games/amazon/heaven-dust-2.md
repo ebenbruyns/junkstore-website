@@ -17,9 +17,15 @@ proton_version: ""
 publisher: indienova
 developer: One Gruel Studio
 genre: Adventure, Indie, Puzzle, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "January 5, 2022"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Japanese","Traditional Chinese","Russian","Korean","Hungarian","Portuguese - Brazil"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/630bd333a3c8608219665d42d62a4c7a56e0774dac8230d903037866bc59686e.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.625256c0-9e82-47e3-9bcb-7d1154a7d4a8"
 is_featured: false
+owned: true
 ---
 
 Deep inside a research base, waking up from a cryogenic pod, you find yourself trapped in a living hell, surrounded by zombies. Heaven Dust 2 is a love letter to classic survival horror games featuring exploration, action, puzzles, and resource management.

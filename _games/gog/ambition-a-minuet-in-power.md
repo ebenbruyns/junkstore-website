@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Iceberg Interactive
 developer: Joy Manufacturing Co.
 genre: Adventure, Indie, RPG, Simulation
+franchise: 
+age_rating_summary: 
 release_date: "August 18, 2021"
 game_modes: ["Single-player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/949200/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1748947415"
 is_featured: false
+owned: true
 ---
 
 A young woman finds herself alone in the streets of Paris, far from home and abandoned by the love of her life. In that moment, she decides to live for herself and seek her own passions, as France marches towards a violent uprising that will change history forever. Navigate the twisting social politics of pre-revolutionary Paris in a game world that’s different every time you play. Court, snub and seduce your way to the top of society. Extend your influence, uncover the intrigue of the coming revolution, and ensure that you end up on the winning side of history.

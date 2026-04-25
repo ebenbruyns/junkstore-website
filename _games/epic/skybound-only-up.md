@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Skybound: Only Up - Steam Deck Compatibility"
-game_title: "Skybound: Only Up"
+title: "Skybound Only Up - Steam Deck Compatibility"
+game_title: "Skybound Only Up"
 slug: "skybound-only-up"
 storefront: "Epic"
 storefront_key: "epic"
@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Astralium Games
 developer: Astralium Games
-genre: Action, Adventure, Casual, Indie, Sports
-release_date: "December 12, 2023"
+genre: Platformer
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "July 2, 2024"
 game_modes: ["Single-player"]
 languages: ["English"]
+tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/b31041ff2f934d19954ee76213cf8266/astralium-1dgfs.png"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "cd393ea1bb0145e58442acaf8ac70820"
 is_featured: false
+owned: true
 ---
 
-Get ready for an epic VR adventure! Jump, climb, and conquer towering obstacles in a world of thrilling challenges. Master movement, reach new heights, and feel the rush. Your goal: overcome the challenge. Your reward: unforgettable thrills. A one-of-a-kind VR experience awaits—dive in!
+Climb, jump, and parkour your way through Skybound Only Up. Choose safer or riskier routes, navigate obstacles, and reach new heights in this straightforward but challenging adventure. How far—and how fast—can you climb without falling?

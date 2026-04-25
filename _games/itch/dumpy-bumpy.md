@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Retroware
 developer: Programancer
 genre: Adventure, Indie, Puzzle, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "May 27, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Danish","Dutch","Finnish","Japanese","Korean"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1631500/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "832801"
 is_featured: false
+owned: true
 ---
 
 A retro styled character puzzle game with couch co-op and 80 puzzles to solve!

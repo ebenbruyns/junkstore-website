@@ -14,12 +14,18 @@ date_tested: "Dec '25"
 proton_version: ""
 
 # Game Info
-publisher: New Blood Interactive
+publisher: Hyperstrange
 developer: Hyperstrange
-genre: Action, Indie, RPG
-release_date: "December 5, 2023"
+genre: First Person, Shooter, Stealth
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "July 9, 2024"
 game_modes: ["Single-player"]
 languages: ["English*","German","Polish","Russian","Hungarian","Portuguese - Brazil*languages with full audio support"]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/188555"
+was_free_before: true
+giveaway_events: [{"start":"2025-12-20T16:00:00.000Z","end":"2025-12-21T16:00:00.000Z","type":null,"id":"b5c0decff4f24c0892a63d8704f677f0"}]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1587130/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "311021f116f243a0b3e8d2dc2b6b90f9"
 is_featured: false
+owned: true
 ---
 
-Weird west legends meet eldritch horror in BLOOD WEST, an immersive stealth FPS. Become the Undead Gunslinger, doomed to roam the barren lands until he manages to purge their curse, freeing his soul. 3 varied scenarios, perk-based character progression, and 20+ hours of gameplay await you!
+Weird west legends meet eldritch horror in BLOOD WEST, an immersive stealth FPS. Become the Undead Gunslinger, doomed to roam the barren lands until he manages to purge their curse, freeing his soul. 3 varied scenarios, perk-based progression, and 20+ hours of gameplay await you!

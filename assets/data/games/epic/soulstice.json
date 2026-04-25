@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Soulstice",
   "notes": "Works out of the box!",
   "date_tested": "July '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": true,
@@ -33,12 +33,104 @@
   "cant_test_linux": false,
   "databaseId": "d366ae16e31b41869cf26c6ee309e7f3",
   "shortname": "d366ae16e31b41869cf26c6ee309e7f3",
-  "publisher": "Modus Games",
-  "developer": "Reply Game Studio",
-  "releasedate": "2022-09-20T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Hack and slash/Beat 'em up",
-  "description": "Explore a dark world brimming with hidden mysteries, master a diverse combat system, and inhabit the dual forces of two sisters in a coming-of-age fantasy story with fast-paced action, vicious enemies and breathtaking boss fights.",
+  "publisher": "Maximum Entertainment LLC",
+  "developer": "Reply Game Studios",
+  "releasedate": "2023-09-28T15:00:00.000Z",
+  "genre": "Action, RPG",
+  "description": "Explore a dark world brimming with hidden mysteries, master a diverse combat system, and inhabit the dual forces of two sisters in a coming-of-age dark fantasy story with fast-paced action, vicious enemies, and spectacular boss fights.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "20151",
+      "name": "Adjustable Text"
+    },
+    {
+      "id": "20152",
+      "name": "Brightness Adjustments"
+    },
+    {
+      "id": "20155",
+      "name": "Adjustable Color Options"
+    },
+    {
+      "id": "20156",
+      "name": "Subtitles"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2023-09-27T15:00:00.000Z",
+      "end": "2023-10-04T15:00:00.000Z",
+      "type": null,
+      "id": "4b19305fb8ec4640b4fa8d6ea5e5e3c4"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Explore a dark world brimming with hidden mysteries, master a diverse combat system, and inhabit the dual forces of two sisters in a coming-of-age dark fantasy story with fast-paced action, vicious enemies, and spectacular boss fights.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/bb3d2f7ea3dd7aa019d974486b872208060073349f1cd1958b328752fa4cd085.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/05c0d88135fc3e1f8579d8ad88c01374775c2988cfa94756ace1b72dd4102840.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/793ad3e1a924cae4e253f34ec560393533e1d1a7c744d2ff8234241cd8aa7556.jpg?namespace=gamesdb",
@@ -51,15 +143,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 93959,
+  "hltb_main": "16.5 hrs",
+  "hltb_main_extra": "20 hrs",
+  "hltb_completionist": "33.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/93959",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-05T22:11:41.701Z"
+  "updated_at": "2026-04-25T05:44:25.839Z"
 }

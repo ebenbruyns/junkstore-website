@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Assassin%27s_Creed_Origins",
   "notes": "Requires Ubisoft Connect launcher.",
   "date_tested": "Aug '24",
   "decky_rating": "yellow",
@@ -35,10 +35,67 @@
   "shortname": "Camellia",
   "publisher": "Ubisoft Entertainment",
   "developer": "Ubisoft Montreal",
-  "releasedate": "10-2017",
-  "genre": "Role-playing (RPG), Adventure",
+  "releasedate": "2017-10-27T12:00:00.000Z",
+  "genre": "Action, Action-Adventure, Open World, Adventure",
   "description": "Set in Ancient Egypt, players will journey to the most mysterious place in history, during a crucial period that will shape the world and give rise to the Assassin's Brotherhood.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Assassin's Creed Origins AC Assassins Origin",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/b735b37fda3194ed28dcebf670f119f3cf170ba3e218227affe841f2e949e0c4.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b0d8f487bffd9b84f7bbd87f833a1da60906c8c6390885ef1150c3609d0d4d44.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/09ad599a05ab9f696f431db58248b60c4aaaf7562ecd2ebd011c596b8f6e9890.jpg?namespace=gamesdb",
@@ -60,6 +117,7 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/assassins-creed-origins/",
+  "hltb_id": 46402,
   "hltb_main": "30.2 hrs",
   "hltb_main_extra": "52.5 hrs",
   "hltb_completionist": "85.3 hrs",
@@ -70,5 +128,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-19T23:45:36.719Z"
+  "updated_at": "2026-04-25T05:18:50.619Z"
 }

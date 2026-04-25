@@ -39,6 +39,17 @@
   "genre": "role-playing-rpg, adventure, strategy",
   "description": "Star Wars Knights of the Old Republic II: The Sith Lords is a sequel to the blockbuster RPG Star Wars Knights of the Old Republic. Players continue to enjoy the title's emotionally compelling and story-driven theme...",
   "size": "4909059061\n",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/883eb5100d49ff1cb1e63efbcb574cd1aeadfa4cfbcff38c91ef4e999116d9cf.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b72dfc5471dd7c8a1205f887498f20b658dbd0f4197589f36352dfab0cb7b612.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/883eb5100d49ff1cb1e63efbcb574cd1aeadfa4cfbcff38c91ef4e999116d9cf.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 86,
   "metacritic_url": "https://www.metacritic.com/game/star-wars-knights-of-the-old-republic-ii-the-sit/",
+  "hltb_id": 9112,
   "hltb_main": "30 hrs",
   "hltb_main_extra": "40.5 hrs",
   "hltb_completionist": "53.5 hrs",
@@ -61,5 +73,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-24T02:42:59.212Z"
+  "updated_at": "2026-04-25T00:44:40.463Z"
 }

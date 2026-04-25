@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Iceberg Interactive
 developer: Shadow Tor Studios
 genre: adventure, indie, point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d6843d315904f42d615234122aec558923b3dfd75453e5a1d3ac78972127c92c.jpg?namespace=gamesdb"
@@ -56,9 +62,9 @@ hltb_url: "https://howlongtobeat.com/game/45207"
 store_url: "https://www.gog.com/en/game/barrow_hill_the_dark_path"
 protondb_url: "https://www.protondb.com/app/520990"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_The_Dark_Path"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/barrow-hill-the-dark-path/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1840673966"
 is_featured: false
+owned: false
 ---
 
 Follow the Dark Path into a world of Druidic lore and Celtic myths. It is the Autumn Equinox on Barrow Hill, a time of great power, when the ancient standing stones are at their most powerful and dangerous.

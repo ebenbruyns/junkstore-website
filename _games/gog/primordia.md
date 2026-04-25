@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Wadjet Eye Games
 developer: Wormwood Studios
 genre: role-playing, adventure, indie, puzzle, point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/ade45b0507e40543590b16c1429bbb56b4c0b8e00b012fac975b3c38bc7f358a.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/7285"
 store_url: "https://www.gog.com/en/game/primordia"
 protondb_url: "https://www.protondb.com/app/227000"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Primordia"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659144"
 is_featured: false
+owned: false
 ---
 
 Life has ceased. Man is but a myth. And now, even the machines have begun to fail. Lead Horatio Nullbuilt and his sarcastic sidekick Crispin on a journey through the crumbling world of Primordia...

@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure, Puzzle, Shooter",
   "description": "BioShock 2 is the second game of the BioShock series and the sequel to BioShock. It continues the grand storyline of the underwater metropolis Rapture. BioShock 2 capitalizes and improves upon the high-quality effects, unique gameplay elements, and immersive atmosphere that defined the first game. It explores more brutal gameplay than its predecessor, with new enemies, weapons, Plasmids, and Gene Tonics.",
   "size": "6.99 GB",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/7fd010b23d36a8bb086ff4f2b6a321308efc2914628a01b2ced3e5309458612e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b1ba7d737245c994a6b50cb2a1d140e7642d3089006d7b8102f055136b3615a6.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/3fc9c005e1c43424451055bd78e571b7dcbd90c0a8f771009bd6f40de274f735.jpg?namespace=gamesdb",
@@ -56,6 +67,7 @@
   ],
   "metacritic_score": 88,
   "metacritic_url": "https://www.metacritic.com/game/pc/bioshock-2?ftag=MCD-06-10aaa1f",
+  "hltb_id": 1066,
   "hltb_main": "10.5 hrs",
   "hltb_main_extra": "14 hrs",
   "hltb_completionist": "23.5 hrs",
@@ -67,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2025-12-22T04:54:49.094Z"
+  "updated_at": "2026-04-25T00:51:03.035Z"
 }

@@ -5,9 +5,9 @@
   "protondb": "",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/pubg-59c1d9",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/PUBG%3A_Battlegrounds",
   "notes": "Imported from library - not yet tested",
   "date_tested": "",
   "decky_rating": "",
@@ -33,12 +33,61 @@
   "cant_test_linux": true,
   "databaseId": "9361c8c6d2f34b42b5f2f61093eedf48",
   "shortname": "9361c8c6d2f34b42b5f2f61093eedf48",
-  "publisher": "Microsoft Studios, Bluehole Studio",
-  "developer": "PUBG Corp",
-  "releasedate": "2017-12-20T00:00:00+0000",
+  "publisher": "KRAFTON, Inc.",
+  "developer": "KRAFTON, Inc.",
+  "releasedate": "2022-12-06T05:00:00.000Z",
   "genre": "Shooter",
-  "description": "PUBG: Battlegrounds is a battle royale shooter that pits 100 players against each other in a struggle for survival. Gather supplies and outwit your opponents to become the last person standing.",
+  "description": "Play PUBG: BATTLEGROUNDS for free! \nLand on strategic locations, loot weapons and supplies, and survive to become the last team standing across various, diverse Battlegrounds.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 27789,
+  "igdb_url": "https://www.igdb.com/games/27789",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Play PUBG: BATTLEGROUNDS for free! \nLand on strategic locations, loot weapons and supplies, and survive to become the last team standing across various, diverse Battlegrounds.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/e43534843207cc1b19514ffd5953cfac383e8ecee46b2e5d821864af36febf8f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4c9c8800ba351ae7300756ef2f1e27588e40ce7cd29c1bc00b084dcdca18b0c9.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0655fe07703ce786f5cdc30fcde29fd4308456fe1b78160971cf956a2627c526.jpg?namespace=gamesdb",
@@ -54,15 +103,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "44704",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/44704",
   "epic_cloud_saves": false,
   "tested": "",
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-08-11T09:27:54.625Z"
+  "updated_at": "2026-04-25T02:45:42.030Z"
 }

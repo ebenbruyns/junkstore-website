@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/501300",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/what-remains-of-edith-finch",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/What_Remains_of_Edith_Finch",
   "notes": "Works out of the box on the Decky plugin version.",
   "date_tested": "May '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,66 @@
   "shortname": "Badger",
   "publisher": "Annapurna Interactive",
   "developer": "Giant Sparrow",
-  "releasedate": "2017-04-24",
-  "genre": "Adventure, Indie, Puzzle",
-  "description": "A collection of short stories about a cursed family in Washington State. Each story ends with a family member's death.",
+  "releasedate": "2017-04-25T15:00:00.000Z",
+  "genre": "Puzzle, Narration, First Person",
+  "description": "What Remains of Edith Finch is a collection of strange tales about a family in Washington state. As Edith, you’ll explore the colossal Finch house, searching for stories as she explores her family history and tries to figure out why she's the last one in her family left alive....",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2019-01-10T15:00:00.000Z",
+      "end": "2019-01-23T15:00:00.000Z",
+      "type": null,
+      "id": "b1f4888a7c9b4449b6bfbace4de24a9c"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "What Remains of Edith Finch is a collection of strange tales about a family in Washington state. As Edith, you’ll explore the colossal Finch house, searching for stories as she explores her family history and tries to figure out why she's the last one in her family left alive....",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/e241085afeba7422d6ab3e26a0d1c122ed064f65bfd32298e099e8ffbfd66339.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/014efe0206ccc4357c6f7999b05708c3a400b513beb778abece17f2d876f7a05.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/321ecaaf42fa92eacb0299a788343b0bb2fa98b4f265a6e5255cd7abda9ce5d3.jpg?namespace=gamesdb",
@@ -51,15 +107,16 @@
   ],
   "metacritic_score": 89,
   "metacritic_url": "https://www.metacritic.com/game/pc/what-remains-of-edith-finch?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 45392,
+  "hltb_main": "2.1 hrs",
+  "hltb_main_extra": "2.5 hrs",
+  "hltb_completionist": "2.9 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/45392",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-10T08:31:30.306Z"
+  "updated_at": "2026-04-25T02:44:37.014Z"
 }

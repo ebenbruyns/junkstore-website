@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Critical Bliss
 developer: Kinky Fridays
 genre: Adventure, Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "March 21, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0b2802cf003b89fa73a4025c079390ca23079188897f2219c757034a3ff49a41.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1804860967"
 is_featured: false
+owned: true
 ---
 
 Answer the call of the wild with Sapphire Safari, an open-world Photography Adventure Game! Capture the beauty of real-life Monster Girls in their natural habitats, use tools to lure them into more erotic poses, and become intimate with them if you are brave enough...

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Microïds, Anuman Interactive
 developer: Virtual Studio
 genre: Adventure, Puzzle, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "March 18, 1999"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a9d1997860c90251dc167fe017674e7d169a8e608b7d6e51f9379320b4fb2c45.jpg?namespace=gamesdb"
@@ -56,9 +62,9 @@ hltb_url: "https://howlongtobeat.com/game/434"
 store_url: "https://www.gog.com/en/game/amerzone_the_explorer_legacy"
 protondb_url: "https://www.protondb.com/app/302190"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amerzone%3A_The_Explorer%27s_Legacy"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/amerzone-the-explorers-legacy-1999/"
 
 # Notes
 notes: Works out of the box, but need to map the controller.
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658847"
 is_featured: false
+owned: true
 ---
 
 Amerzone is a first person adventure, similar to Myst, using 360º vision, movement and point & click interface. It's the first adventure game from the author of Syberia and Syberia 2, Benoît Sokal, presenting very rich scenarios and more than 50 puzzles to solve and 200 locations to visit.

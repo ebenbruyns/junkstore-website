@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Thunder Lotus
 developer: Thunder Lotus
 genre: Adventure, Indie, Platform
+franchise: 
+age_rating_summary: 
 release_date: "July 28, 2017"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese","Japanese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/535480/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "664936"
 is_featured: false
+owned: true
 ---
 
 Sundered is a horrifying fight for survival and sanity, a hand­-drawn epic from the ​creators of ​Jotun. You play Eshe, a wanderer in a ruined world, trapped in ever­-changing caverns teeming with eldritch horrors. Harness the power of corrupted relics to defeat gigantic bosses, at the cost of your humanity.

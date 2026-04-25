@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Screen 7
 developer: Harvester Games
 genre: Adventure, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "April 26, 2019"
 game_modes: ["Single player"]
 languages: ["Czech","English","French","German","Hungarian","Italian","Polish","Portuguese (Brazil)","Russian","Spanish","Turkish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/52079ea29b96aad0ac197666e8ce32106c0d75ab506311b01ce037d4478d3857.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1128886553"
 is_featured: false
+owned: true
 ---
 
 Lorelai, a brand new emotional horror ride from the maker of The Cat Lady and Downfall, tells a coming of age story of a young girl trying to escape the hell of her toxic family home. But adulthood is like waking up from a long dream. There will be times you will wish you were asleep again... But you can never go back to the same dream.

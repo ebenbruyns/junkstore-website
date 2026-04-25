@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Dr PinkCake
 developer: Dr PinkCake
 genre: Role-playing (RPG), Indie, Point-and-click, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "February 14, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/442772e774cc8e907f9f55c7df4da01b6e02cee879cafb843a2e30b94bd47826.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/75370"
 store_url: "https://www.gog.com/en/game/being_a_dik"
 protondb_url: "https://www.protondb.com/app/1126320"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Being_a_DIK"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1181224050"
 is_featured: false
+owned: true
 ---
 
 Being a DIK is a choice driven adult Visual Novel focusing on the fun parts of college life. The game is packed with humor, sex, romance, drama and a rich story. Play as a young male attending college at B&R and guide him through the experience.

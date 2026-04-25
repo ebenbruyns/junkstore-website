@@ -39,6 +39,17 @@
   "genre": "Action, Indie, Strategy",
   "description": "Grab your bandana and get ready for Gunslugs : Rogue Tactics! Sneak, shoot, and explode your way through ever-changing enemy strongholds in this rogue-lite stealth-action mashup. Go full-on Commando or channel your inner Snake—just make it out alive. No mission ever plays the same twice!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1012360/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1012360/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1012360/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/gunslugsrogue-tactics/",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-08T04:03:08.795Z",
-  "updated_at": "2026-04-24T00:28:34.669Z"
+  "updated_at": "2026-04-25T00:58:30.645Z"
 }

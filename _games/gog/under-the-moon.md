@@ -17,9 +17,15 @@ proton_version: ""
 publisher: The Pack Studios
 developer: Bamya Games
 genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "August 5, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/5faf0090fee453b76849dedc8e91d0fa2d381a4c92ac69d7fb0ffc0edb27dd10.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/43223"
 store_url: "https://www.gog.com/en/game/under_the_moon"
 protondb_url: "https://www.protondb.com/app/1945780"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Under_The_Moon"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1386468605"
 is_featured: false
+owned: true
 ---
 
 Under the Moon is an indie, platformer - riddle game which adorned with great stylized graphics and atmosphere. Join Ali Kemal on his fantastic world-wide journey on the path of true love!

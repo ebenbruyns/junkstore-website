@@ -14,12 +14,18 @@ date_tested: "Oct '25"
 proton_version: ""
 
 # Game Info
-publisher: Hero Games
+publisher: Hong Kong Spiral Rising Technology Co., Limited
 developer: Pan Studio
-genre: Action, Massively Multiplayer, RPG, Free To Play
-release_date: "Invalid Date"
+genre: RPG, Action-Adventure, Open World
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "October 26, 2025"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","Japanese*","Simplified Chinese*","Traditional Chinese*","Korean**languages with full audio support"]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/273120"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4f97f79606a9ac9267fb8c5344a3dc2d021c56bc8ed1b8523bd0c236cb2c570e.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://store.epicgames.com/en-US/p/duetnightabyss-016366"
 protondb_url: "https://www.protondb.com/app/3950020"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Duet_Night_Abyss"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "58c7aa4f48be44f3b40f5f78f62c84b7"
 is_featured: false
+owned: true
 ---
 
-Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom developed by Hero Games' Pan Studio. The game features "Multiple Weapon Loadouts x 3D Combat" at its core, and tells the story of "Demons" from dual perspectives.
+Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom. The game features "Multiple Weapon Loadouts x 3D Combat" at its core, and tells the story of "Demons" from dual perspectives.

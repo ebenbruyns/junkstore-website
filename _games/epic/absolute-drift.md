@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Funselektor Labs
 developer: Funselektor Labs
-genre: Indie, Sport, Arcade, Simulator, Racing
-release_date: "Invalid Date"
+genre: Racing, Indie
+franchise: 
+age_rating_summary: 
+release_date: "February 19, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2021-02-17T15:00:00.000Z","end":"2021-02-24T15:00:00.000Z","type":null,"id":"0c90d229f27a4251beee8b4776a8fb44"}]
 
 # Images
 banner_image: "https://images.gog.com/f9875e4f9f2125007f6a7969b5c101850e9c4d1c8fe069dc82c4bb60ebc413ad.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "19927295d6e3467887d4e830d8c85963"
 is_featured: false
+owned: false
 ---
 
-Master the art of drifting. Practice your skills in Free-Roam and compete in drift events such as Driftkhana and Mountain Drifting.
+This is a drifting experience like no other. Journey from apprentice to master as you hone your skill in a gorgeous minimalist world. Push yourself to the limit on drifting tracks and wild mountain roads until you finally master the art of drifting.

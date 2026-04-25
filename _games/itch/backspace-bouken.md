@@ -17,9 +17,15 @@ proton_version: ""
 publisher: RNG Party Games
 developer: RNG Party Games
 genre: Role-playing (RPG), Adventure, Turn-based strategy (TBS), Indie
+franchise: 
+age_rating_summary: 
 release_date: "December 13, 2019"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1097170/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "529963"
 is_featured: false
+owned: true
 ---
 
 Type your way through absurd encounters and mysterious puzzles in this old-school typing dungeon crawler.

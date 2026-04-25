@@ -14,12 +14,18 @@ date_tested: "Aug '25"
 proton_version: ""
 
 # Game Info
-publisher: Team17
+publisher: Team17 Digital
 developer: Black Salt Games
-genre: Role-playing (RPG), Adventure, Simulator
-release_date: "March 30, 2023"
+genre: Horror, Exploration, Open World
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "December 25, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/164867"
+was_free_before: true
+giveaway_events: [{"start":"2024-12-24T16:00:00.000Z","end":"2024-12-25T16:00:00.000Z","type":null,"id":"c52eda250c0043358ee825b870d49fcd"}]
 
 # Images
 banner_image: "https://images.gog.com/28ee273dabe02b6f455b2f95168bf002d9e97ad37e934178250833e85d4db3cc.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: true
 epic_achievements: true
 epic_offline_mode: true
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "65c25644a2e0444d8766967a008b1d69"
 is_featured: false
+owned: true
 ---
 
-Dredge is a fishing adventure with a sinister undercurrent. Sell your catch, upgrade your vessel and dredge the depths for long-buried relics. Explore the stories of the strange locals and discover why some things are best left forgotten.
+DREDGE is a single-player fishing adventure with a sinister undercurrent. Sell your catch, upgrade your boat, and dredge the depths for long-buried secrets. Explore a mysterious archipelago and discover why some things are best left forgotten.

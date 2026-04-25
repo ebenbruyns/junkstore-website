@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Far_Cry_6",
   "notes": "Need to download & log in to Uplay",
   "date_tested": "Sep '24",
   "decky_rating": "red",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,107 @@
   "shortname": "498b2e4f755545f6a42c4fef20841512",
   "publisher": "Ubisoft Entertainment",
   "developer": "Ubisoft Toronto",
-  "releasedate": "2021-10-07T00:00:00+0000",
-  "genre": "Adventure, Shooter",
-  "description": "Dive into the gritty world of a modern-day guerrilla revolution to liberate a nation from its oppressive dictators. Welcome to Yara, a tropical paradise frozen in time. Far Cry 6 thrusts players into a modern-day guerrilla revolution. As dictator of Yara, Anton Castillo is intent on restoring his nation back to its former glory by any means, with his son, Diego, following in his bloody footsteps. Become a guerrilla fighter and liberate Yara.",
+  "releasedate": "2022-11-29T15:00:00.000Z",
+  "genre": "Action, Shooter, Open World, Adventure",
+  "description": "Enter the adrenaline-filled world of a modern-day guerrilla revolution. With stunning vistas, visceral gunplay, and a huge variety of gameplay experiences, there's never been a better time to join the fight. \n\nPlay the Far Cry® 6 FREE TRIAL and discover why GAME INFORMER calls it \"A nonstop thrill ride from start to finish.\" And, when you buy the full game, all of your progression will be saved.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1185",
+      "name": "FPS"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Enter the adrenaline-filled world of a modern-day guerrilla revolution. With stunning vistas, visceral gunplay, and a huge variety of gameplay experiences, there's never been a better time to join the fight. \n\nPlay the Far Cry® 6 FREE TRIAL and discover why GAME INFORMER calls it \"A nonstop thrill ride from start to finish.\" And, when you buy the full game, all of your progression will be saved.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/41d02ab644ba5a7a9a7b44013e9549e560975f5b26a6a5ba7b40d742a2ddefc8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/044da901b31c1cd6cab98b5ad5d740dd37a564096e0362a39197dfa1167ebccc.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1d6eba93e376f15cfd957101efbb3a15fde8cc542d74240b212fc0575352d0e5.jpg?namespace=gamesdb",
@@ -53,15 +150,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 80870,
+  "hltb_main": "24.5 hrs",
+  "hltb_main_extra": "41.5 hrs",
+  "hltb_completionist": "65 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/80870",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T06:33:42.802Z"
+  "updated_at": "2026-04-25T05:41:25.573Z"
 }

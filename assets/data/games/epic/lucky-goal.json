@@ -35,10 +35,71 @@
   "shortname": "1203dd46538a4abd8cd12d715528e2c2",
   "publisher": "LuckyVerse",
   "developer": "Woondas",
-  "releasedate": "2025-01-01T00:00:00+0000",
-  "genre": "Action, Adventure, Casual, Indie, Sports",
+  "releasedate": "2023-10-04T16:00:00.000Z",
+  "genre": "Sports, Indie",
   "description": "Lucky goal offers an experience of a soccer game through a third-person view. Create or participate in an online match and show who is a better soccer player. A singleplayer adventure is waiting for you to improve your gaming skills.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "1283",
+      "name": "Sports"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1283",
+      "name": "Sports"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 230347,
+  "igdb_url": "https://www.igdb.com/games/230347",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Lucky goal offers an experience of a soccer game through a third-person view. Create or participate in an online match and show who is a better soccer player. A singleplayer adventure is waiting for you to improve your gaming skills.",
+  "use_rich_description": true,
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/6666791b9d354f288ae95f6c243d45ff/lucky-goal-5ehm1.png",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/6666791b9d354f288ae95f6c243d45ff/lucky-goal-om9ft.png",
   "icon_image": "https://images.gog.com/581990700dea20340af4dd657d5de89da53e7ecf3f3ca2d3300e47b73b6d8e49.jpg?namespace=gamesdb",
@@ -62,6 +123,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -72,5 +134,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-03-28T21:35:02.160Z",
-  "updated_at": "2026-04-03T22:02:26.007Z"
+  "updated_at": "2026-04-25T02:21:36.007Z"
 }

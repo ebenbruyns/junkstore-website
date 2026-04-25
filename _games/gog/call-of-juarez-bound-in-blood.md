@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Ubisoft Entertainment, Techland
 developer: Techland
 genre: Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "June 30, 2009"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/2afe3c072092fbd0adb7b58838bd2adcb20060376bed48309c28d4fd0400c89f.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1770556474"
 is_featured: false
+owned: true
 ---
 
 In the remote and deadly Wild West, the outlaw McCall brothers are on a quest for the legendary Gold of Juarez. In their journey across a vast landscape, these lawless gunslingers will stop at nothing to achieve their goal. Arm yourself with pistols, cannons, machine guns and more as you strike out on a mission with two fearless compatriots whose bonds of blood are only strengthened by the blood they spill together.

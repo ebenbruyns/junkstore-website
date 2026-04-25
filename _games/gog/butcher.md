@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Transhuman Design, Transhuman Design
 developer: Transhuman Design
 genre: Indie, Indie, Indie, Indie
+franchise: 
+age_rating_summary: 
 release_date: "October 5, 2016"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/498362c090775d1650712c91576e2c5ff4a6849748ed5f8ca2dbcef5c2304bfc.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/40350"
 store_url: "https://www.gog.com/en/game/butcher"
 protondb_url: "https://www.protondb.com/app/474210"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Butcher"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/butcher?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1689871374"
 is_featured: false
+owned: true
 ---
 
 Butcher is a fast-paced 2D shooter game and a blood-soaked love letter to the early 90s. As a cyborg programmed to eradicate the last remains of humanity, your sole purpose is to well... annihilate anything that moves.

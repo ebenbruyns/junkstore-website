@@ -17,9 +17,15 @@ proton_version: ""
 publisher: The Digital Lounge
 developer: Goblinz Enterprises Ltd
 genre: Adventure, Casual
+franchise: 
+age_rating_summary: 
 release_date: "October 19, 2016"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Dutch","Russian","Ukrainian","Romanian","Czech"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/440420/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1719675091"
 is_featured: false
+owned: true
 ---
 
 True Fear: Forsaken Souls takes the best of the psychological thriller, blending in fun and intuitive gameplay mechanics. Episode 1, the first in a trilogy, will long be remembered.

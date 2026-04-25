@@ -17,9 +17,15 @@ proton_version: ""
 publisher: inXile Entertainment
 developer: inXile Entertainment
 genre: Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/dba4016c62b1fbca6b661cacb43178f282162f93f37bd451b544a66d217c8092.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/42532"
 store_url: "https://www.gog.com/en/game/wasteland_3"
 protondb_url: "https://www.protondb.com/app/719040"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wasteland_3"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/wasteland-3?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2057748185"
 is_featured: false
+owned: false
 ---
 
 As the sole survivor of Team November, a Ranger squad dispatched to the icy Colorado wastes, you find this is a land of buried secrets, lost technology, fearsome lunatics, and deadly factions. No one here has ever heard of the Desert Rangers. Your reputation is yours to build from scratch, and your choices may save this land or doom it. With a renewed focus on macro-reactivity, you'll be picking between warring factions, deciding whether locations are destroyed or saved, and making other far reaching decisions that have a marked impact on the shape of your world.

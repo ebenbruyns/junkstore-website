@@ -14,12 +14,18 @@ date_tested: "Dec '24"
 proton_version: ""
 
 # Game Info
-publisher: 505 Games
-developer: Remedy Entertainment
-genre: Adventure, Shooter
-release_date: "August 27, 2019"
+publisher: Remedy Entertainment
+developer: Remedy Entertainment Plc
+genre: Action, Adventure
+franchise: Control
+age_rating_summary: ESRB Mature 17+
+release_date: "August 28, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"1341","name":"Supernatural"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2024-12-25T16:00:00.000Z","end":"2024-12-26T16:00:00.000Z","type":null,"id":"8a97a7d4d0e44523b9aa064f457627da"},{"start":"2021-12-25T15:00:00.000Z","end":"2021-12-26T15:00:00.000Z","type":null,"id":"8a97a7d4d0e44523b9aa064f457627da"},{"start":"2021-06-09T15:00:00.000Z","end":"2021-06-16T15:00:00.000Z","type":null,"id":"8a97a7d4d0e44523b9aa064f457627da"}]
 
 # Images
 banner_image: "https://images.gog.com/d76cff73fe6d26607f202fe6abc314e7b113f36dea7c89c3d568d2b183701ef7.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/57507"
 store_url: "https://store.epicgames.com/en-US/p/control"
 protondb_url: "https://www.protondb.com/app/870780"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Control"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/control?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Calluna"
 is_featured: false
+owned: true
 ---
 
-Control is a supernatural 3rd person action-adventure will challenge you to master the combination of supernatural abilities, modifiable loadouts and reactive environments while fighting through a deep and unpredictable world.
+After a secretive agency in New York is invaded by an otherworldly threat, you become the new Director struggling to regain Control.

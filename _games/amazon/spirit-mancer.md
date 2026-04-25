@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Dear Villagers
 developer: Sunny Syrup Studio
 genre: "Adventure, Indie, Hack and slash/Beat 'em up, Card & Board Game"
+franchise: 
+age_rating_summary: 
 release_date: "November 22, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/550aba657e5fb5f3ef2480ad8c0bb0c48a0641bddb1faf860a89bd1707761739.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.ca0cc97f-575b-45b7-8eee-8463026b3028"
 is_featured: false
+owned: true
 ---
 
 Slash, Shoot and Break demons, Capture their spirits and summon them out into your battle in the beautiful yet dangerous world of Inferno, Fight against hordes of demons from Ars Goetia and stop the evil queen with the power of the Spirit Mancer.

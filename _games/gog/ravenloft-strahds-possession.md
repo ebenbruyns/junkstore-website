@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Softgold Computerspiele GmbH
 developer: DreamForge Intertainment
 genre: Role-playing (RPG), Adventure, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "December 31, 1994"
 game_modes: ["Single player"]
 languages: ["English","German"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/67f0709d1c2f2b91704a6cae880b2c13c9e9aac64ac45f751b23f2943100f474.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1432905053"
 is_featured: false
+owned: true
 ---
 
 Lord Dhelt of Elturel was attacked in his own castle. The mysterious assassin stole the Hole Symbol of Helm, a precious amulet with magical powers. Lord Dhelt asks you to bring the amulet back. But when you kill the assassin and retrieve the amulet, you are suddenly teleported into an unknown area. The way back is blocked by poisonous mist, and there is nothing you can do but explore the hostile surroundings and to solve the mystery of the amulet.

@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Figment_2%3A_Creed_Valley",
   "notes": "",
   "date_tested": "Sept '25",
   "decky_rating": "not-supported",
@@ -37,8 +37,61 @@
   "developer": "Bedtime Digital Games",
   "releasedate": "2023-03-09T00:00:00+0000",
   "genre": "Adventure, Indie, Puzzle, Music",
-  "description": "Figment 2: Creed Valley is an encore to Figment. Dusty and Piper have restored peace in The Mind, however, a new adversary is threatening its balance. Our two heroes must travel to Creed Valley, where The Mind’s beliefs and ideals are formed, to face their most menacing and theatrical foe so far.",
+  "description": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.",
   "size": "",
+  "franchise": "Figment",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 119801,
+  "igdb_url": "https://www.igdb.com/games/119801",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/6e95b06a3677554d075686c6701fc3fd144d7737a4b61e0de6aaccdbf88353a0.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2881699980de4faef0bcd8b9223201a036badbec59e6f809905e05654e266f9a.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1085220/capsule_231x87.jpg",
@@ -62,6 +115,7 @@
   ],
   "metacritic_score": 76,
   "metacritic_url": "https://www.metacritic.com/game/figment-2-creed-valley/",
+  "hltb_id": 99345,
   "hltb_main": "4 hrs",
   "hltb_main_extra": "4.5 hrs",
   "hltb_completionist": "6 hrs",
@@ -71,5 +125,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T08:45:48.288Z"
+  "updated_at": "2026-04-25T02:24:30.411Z"
 }

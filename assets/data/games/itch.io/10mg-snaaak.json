@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie",
   "description": "A short Snakevania about encarnating a formless critter delving into the bowels of a bleak complex.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/eebb9ecac7c1b9ae80cfebf6cc3ea097f295c40ccd3bbd53e2cb8309d2f9231c.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1428840/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1428840/capsule_231x87.jpg",
@@ -52,6 +63,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -61,5 +73,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.790Z",
-  "updated_at": "2025-11-27T06:07:22.863Z"
+  "updated_at": "2026-04-25T00:54:39.284Z"
 }

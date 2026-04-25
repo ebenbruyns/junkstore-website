@@ -39,6 +39,17 @@
   "genre": "role-playing, adventure, indie",
   "description": "Enough of wasting precious time by walking eternal distances and engaging in endless dialogue? Want to get to the fun part quickly?",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/a39bfb5c64224405cc42c70daa0f851b7101d8377d05cb41adc7d0d1ccbeb989.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b0e310d6d8559a64417851fc9d78023fae0cfa58fbecd68fe02ad529116dc4f4.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d35c975da5b438f044bd13aabd690189981ecb3dd415624e8f4bf4d024148791.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/raidborn/",
+  "hltb_id": 126805,
   "hltb_main": "",
   "hltb_main_extra": "16.5 hrs",
   "hltb_completionist": "",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-24T02:43:53.942Z"
+  "updated_at": "2026-04-25T05:46:37.561Z"
 }

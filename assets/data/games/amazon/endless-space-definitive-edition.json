@@ -39,6 +39,17 @@
   "genre": "Strategy, Turn-based strategy (TBS)",
   "description": "Endless Space - Definitive Edition includes all the expansions and updates released for the game (including Endless Space Disharmony).",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/e0e47b38f25c947cd02f0333123fbefbc46181437bf6685497100ded00595810.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/574b7c11c710f1c78b08050dddc31e3237c5d92242b161fadc7b5303917d157b.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/208140/capsule_231x87.jpg",
@@ -58,6 +69,7 @@
   ],
   "metacritic_score": 77,
   "metacritic_url": "https://www.metacritic.com/game/pc/endless-space?ftag=MCD-06-10aaa1f",
+  "hltb_id": 3117,
   "hltb_main": "16 hrs",
   "hltb_main_extra": "41 hrs",
   "hltb_completionist": "110 hrs",
@@ -67,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T09:22:11.665Z"
+  "updated_at": "2026-04-25T00:53:23.775Z"
 }

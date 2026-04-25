@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Atari, Inc., DTP Entertainment
 developer: Deck13 Interactive
 genre: Role-playing (RPG), Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "September 4, 2009"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3d5851ad3902bf7c1bae2ada0ad90f5c3db3fab8944ba2bedcff7b23f09c55c4.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/10911"
 store_url: "https://www.gog.com/en/game/venetica"
 protondb_url: "https://www.protondb.com/app/338140"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Venetica"
 metacritic_score: 61
 metacritic_url: "https://www.metacritic.com/game/pc/venetica?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1345182195"
 is_featured: false
+owned: true
 ---
 
 In a fantastical Venice, The Corpus are deceived by a cunning necromancer. Transformed into an undead fiend, the conniving imposter is hell-bent on destroying the reinstated Death and the council of Corpus. Only Scarlett, the daughter of Death, can stand in his way.

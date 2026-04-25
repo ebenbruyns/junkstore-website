@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Brothers: A Tale of Two Sons - Steam Deck Compatibility"
-game_title: "Brothers: A Tale of Two Sons"
+title: "Brothers - A Tale of Two Sons - Steam Deck Compatibility"
+game_title: "Brothers - A Tale of Two Sons"
 slug: "brothers-a-tale-of-two-sons"
 storefront: "Epic"
 storefront_key: "epic"
@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: 505 Games
-developer: Starbreeze Studios
-genre: Adventure, Indie, Puzzle
-release_date: "August 7, 2013"
+developer: Starbreeze Studios AB
+genre: Adventure
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "February 18, 2022"
 game_modes: ["Single player","Co-operative"]
 languages: ["English"]
+tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: "https://www.igdb.com/games/1334"
+was_free_before: true
+giveaway_events: [{"start":"2022-02-16T15:00:00.000Z","end":"2022-02-23T15:00:00.000Z","type":null,"id":"751c3ae311cf48e1926233fdddae9cb8"}]
 
 # Images
 banner_image: "https://images.gog.com/6584ff191a6504bd115342446aeaf5368ca9c5d893bb8e16244bcba6f5a5a043.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/12660"
 store_url: "https://store.epicgames.com/en-US/p/brothers-a-tale-of-two-sons"
 protondb_url: "https://www.protondb.com/app/225080"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Brothers%3A_A_Tale_of_Two_Sons"
 metacritic_score: 90
 metacritic_url: "https://www.metacritic.com/game/pc/brothers-a-tale-of-two-sons?ftag=MCD-06-10aaa1f"
 
@@ -69,10 +75,9 @@ known_issues:
 # Meta
 database_id: "Tamarind"
 is_featured: false
+owned: true
 ---
 
-Brothers is presented from a third-person view overlooking the two brothers. The brothers are moved individually by two thumbsticks on the controller. The controller triggers also cause the respective brother to interact with the game world, such as talking to a non-player character or grabbing onto a ledge or object.
+Guide two brothers on an epic fairy tale journey from visionary Swedish film director, Josef Fares and top-tier developer Starbreeze Studios.
 
-The older brother is the stronger of the two and can pull levers or boost his younger brother to higher spaces, while the younger one can pass between narrow bars. The player progresses by manipulating the two brothers at the same time to complete various puzzles, often requiring the player to manipulate both brothers to perform differing functions (such as one distracting a hostile non-player character while the other makes their way around).
-
-Should either brother fall from a great height or get injured, the game restarts at a recent checkpoint. All of the in-game dialogue is spoken in a fictional language, thus the story is conveyed through actions, gestures and expressions.
+This is one journey you will never forget.

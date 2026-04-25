@@ -34,11 +34,92 @@
   "databaseId": "feb451892b70438899408915c1fd96df",
   "shortname": "feb451892b70438899408915c1fd96df",
   "publisher": "Kongregate",
-  "developer": "Synapse Games",
-  "releasedate": "2016-05-27T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Strategy, Card & Board Game",
-  "description": "Family Guy, Bob's Burgers, Futurama, American Dad, and King of the Hill join forces in Animation Throwdown, your favorite new collectible card game. Collect your favorite characters, combine cards to make hilarious combos, and battle your way through an adventure of animated proportions.",
+  "developer": "Kongregate",
+  "releasedate": "2021-10-04T17:00:00.000Z",
+  "genre": "Strategy, Adventure, Card Game",
+  "description": "Family Guy, Bob's Burgers, Futurama, American Dad, and King of the Hill join forces in Animation Throwdown, your favorite new collectible card game.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1181",
+      "name": "Card Game"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1181",
+      "name": "Card Game"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 29491,
+  "igdb_url": "https://www.igdb.com/games/29491",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Family Guy, Bob's Burgers, Futurama, American Dad, and King of the Hill join forces in Animation Throwdown, your favorite new collectible card game.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a9a8e51ca4ca5fe823d65619335d3bcaa141caf52acf5256bd3f1b102d038c5e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/3fdf49eb30d5f711aad9be103ae37adb1ed4d6b27dc769649a4e48dbe1e16af8.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f85dc43aa60a63446c6c526ec9f03f25b8f0f5cf6dbc5869b78617ed110e5875.jpg?namespace=gamesdb",
@@ -58,6 +139,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/animation-throwdown-the-quest-for-cards/",
+  "hltb_id": 45615,
   "hltb_main": "42.3 hrs",
   "hltb_main_extra": "74.5 hrs",
   "hltb_completionist": "85.8 hrs",
@@ -68,5 +150,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-24T02:06:18.810Z"
+  "updated_at": "2026-04-25T01:05:18.116Z"
 }

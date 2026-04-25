@@ -7,7 +7,7 @@
   "gog_url": "https://www.gog.com/en/game/loop_hero",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Loop_Hero",
   "notes": "Works out of the box on the Decky plugin version.",
   "date_tested": "July '24",
   "decky_rating": "green",
@@ -35,10 +35,95 @@
   "shortname": "1896497767",
   "publisher": "Devolver Digital, Playdigious",
   "developer": "Four Quarters",
-  "releasedate": "03-2021",
+  "releasedate": "2021-03-04T18:00:00.000Z",
   "genre": "role-playing, adventure, strategy, indie, card & board game",
   "description": "The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos. Wield an expanding deck of mystical cards to place enemies, buildings, and terrain along each unique expedition loop for the brave hero.",
   "size": "",
+  "franchise": "Loop Hero",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1181",
+      "name": "Card Game"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1181",
+      "name": "Card Game"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 141533,
+  "igdb_url": "https://www.igdb.com/games/141533",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos. Wield an expanding deck of mystical cards to place enemies, buildings, and terrain along each unique expedition loop for the brave hero.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/8ef3980678c5a1a96bc924663def96362a91fdcf362958ad880a23135e8282ad.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c6600bc7e19e367f36734acc5fe74f7fbaf097a0bb14079db123e19ec2c2ac6c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ac3176e5003d832a90127e0308dbb069fe634566c16aeb1b2282adf016c945ab.jpg?namespace=gamesdb",
@@ -51,6 +136,7 @@
   ],
   "metacritic_score": 82,
   "metacritic_url": "https://www.metacritic.com/game/pc/loop-hero?ftag=MCD-06-10aaa1f",
+  "hltb_id": 86112,
   "hltb_main": "28.5 hrs",
   "hltb_main_extra": "37 hrs",
   "hltb_completionist": "55 hrs",
@@ -62,5 +148,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-11T05:22:13.548Z"
+  "updated_at": "2026-04-25T02:24:30.411Z"
 }

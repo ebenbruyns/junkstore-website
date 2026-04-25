@@ -17,9 +17,15 @@ proton_version: ""
 publisher: No More Robots
 developer: Brave At Night
 genre: Role-playing (RPG), Adventure, Strategy, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "March 6, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/cb6f5f5acaa94f87667c1f6b582271b1f8180ef2cfa0a63e10552c55255be840.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/71500"
 store_url: "https://www.gog.com/en/game/yes_your_grace"
 protondb_url: "https://www.protondb.com/app/1115690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Yes%2C_Your_Grace"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1482195316"
 is_featured: false
+owned: true
 ---
 
 In this kingdom management RPG, petitioners will arrive in the throne room each turn to ask for your advice and assistance. Decide whether to help them with their problems, or to conserve resources for more important matters. Remember: supplies are limited, and not everyone has the kingdom’s best interests at heart...

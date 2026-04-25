@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Maddy Makes Games Inc.
 developer: Maddy Makes Games Inc.
 genre: Action, Indie
+franchise: 
+age_rating_summary: 
 release_date: "March 11, 2014"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/251470/library_hero.jpg"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/17299"
 store_url: "https://maddymakesgamesinc.itch.io/towerfall"
 protondb_url: "https://www.protondb.com/app/251470"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/TowerFall_Ascension"
 metacritic_score: 87
 metacritic_url: "https://www.metacritic.com/game/pc/towerfall-ascension?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "22755"
 is_featured: false
+owned: true
 ---
 
 TowerFall Ascension is the definitive version of the hit archery combat game. Inspired by classics from the golden age of couch multiplayer, it's a 4-player local party game centering around hilarious, intense versus matches. The core mechanics are simple and accessible, but hard to master and combat is fierce.

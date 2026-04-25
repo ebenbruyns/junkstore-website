@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Sega
 developer: Amplitude Studios
 genre: Strategy, Turn-based strategy (TBS)
+franchise: 
+age_rating_summary: 
 release_date: "July 4, 2012"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English*","French","German","Polish","Italian","Russian","Spanish - Spain*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/574b7c11c710f1c78b08050dddc31e3237c5d92242b161fadc7b5303917d157b.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.e07cb84b-ff12-4c09-b1f8-867147135357"
 is_featured: false
+owned: true
 ---
 
 Endless Space - Definitive Edition includes all the expansions and updates released for the game (including Endless Space Disharmony).

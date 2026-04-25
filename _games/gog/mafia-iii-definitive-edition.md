@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 2K
 developer: Hangar 13
 genre: Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "May 19, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a2e97aa46dcf268f9b7ef3d25cafb2d7357b89e51f7f9c8ecd43289b0cb5f931.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/78629"
 store_url: "https://www.gog.com/en/game/mafia_iii_definitive_edition"
 protondb_url: "https://www.protondb.com/app/360430"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia_III"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1578751750"
 is_featured: false
+owned: true
 ---
 
 Mafia III: Definitive Edition includes the main game, all Story DLC (Faster, Baby!, Stones Unturned, Sign of the Times) and Bonus Packs (Family Kick-Back Pack and Judge, Jury & Executioner Weapons Pack) bundled in one place for the first time.

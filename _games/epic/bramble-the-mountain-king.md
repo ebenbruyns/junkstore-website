@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Bramble: The Mountain King - Steam Deck Compatibility"
-game_title: "Bramble: The Mountain King"
+title: "Bramble The Mountain King - Steam Deck Compatibility"
+game_title: "Bramble The Mountain King"
 slug: "bramble-the-mountain-king"
 storefront: "Epic"
 storefront_key: "epic"
@@ -14,12 +14,18 @@ date_tested: "Feb '26"
 proton_version: ""
 
 # Game Info
-publisher: Dimfrost Studio
+publisher: Merge Games
 developer: Dimfrost Studio
-genre: Adventure, Indie, Platform, Puzzle
-release_date: "April 27, 2023"
+genre: Adventure, Indie
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "April 28, 2023"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Portuguese - Portugal","Russian","Simplified Chinese"]
+tags_structured: [{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/152124"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/971135f1a5cf4a82b857aee6685b9e23ecfae4163cedaeeff5d22ffd353a9441.jpg?namespace=gamesdb"
@@ -69,10 +75,7 @@ known_issues:
 # Meta
 database_id: "206d048847f1491282cec0593065a2c2"
 is_featured: false
+owned: true
 ---
 
-Bramble: The Mountain King is a grim adventure set in a world inspired by dark, Nordic fables.
-
-Explore the beautiful yet dangerous and twisted land of Bramble in your endeavour to rescue your sister. Traverse a wondrous landscape and survive deadly encounters with Bramble's many hideous creatures.
-
-Not everything in Bramble is exactly how it seems - in this strange land with creatures big and small, you must be careful when to approach and when to hide. Many hungry and spiteful beasts lurk in these forests and caves. Watch your step....
+Bramble The Mountain King is a grim adventure set in a world inspired by dark, Nordic fables. Explore the beautiful yet dangerous and twisted land of Bramble, traverse a wondrous landscape and survive deadly encounters with Bramble's many hideous creatures.

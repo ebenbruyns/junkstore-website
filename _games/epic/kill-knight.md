@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: PlaySide
 developer: PlaySide
-genre: Indie, Shooter, Arcade
-release_date: "October 2, 2024"
+genre: Action, Fantasy, Shooter
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "December 29, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"1287","name":"Fantasy"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/296832"
+was_free_before: true
+giveaway_events: [{"start":"2024-12-28T16:00:00.000Z","end":"2024-12-29T16:00:00.000Z","type":null,"id":"094d562fdbf143e896ffeaee8592db58"}]
 
 # Images
 banner_image: "https://images.gog.com/ef71f12810de3bc1e0b7722d4af2d9ebaa42868d663fc77d7bdc8bc55e527470.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "6 hrs"
+hltb_main_extra: "14.3 hrs"
+hltb_completionist: "38.1 hrs"
+hltb_url: "https://howlongtobeat.com/game/148487"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/kill-knight"
+store_url: "https://store.epicgames.com/en-US/p/kill-knight-e981b3"
 protondb_url: "https://www.protondb.com/app/2694420"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Kill_Knight"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/kill-knight?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "c7cb232d49d347aabfa73d583660d7ee"
 is_featured: false
+owned: true
 ---
 
 KILL KNIGHT is an ultra-responsive arcade-inspired isometric action shooter. Condemned to eternal sufferance, deep within the voids of an eldritch arena, you must wield an arsenal of devastating weaponry to obliterate swarms of otherworldly horrors - and MASTER THE DEMON WITHIN.

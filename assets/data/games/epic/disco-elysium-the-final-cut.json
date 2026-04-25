@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": true,
@@ -35,10 +35,114 @@
   "shortname": "7334aba246154b63857435cb9c7eecd5",
   "publisher": "ZA/UM",
   "developer": "ZA/UM",
-  "releasedate": "15 Oct, 2019",
-  "genre": "RPG",
-  "description": "Disco Elysium - The Final Cut is a groundbreaking role playing game. You’re a detective with a unique skill system at your disposal and a whole city to carve your path across. Interrogate unforgettable characters, crack murders or take bribes. Become a hero or an absolute disaster of a human being.",
+  "releasedate": "2020-06-06T18:00:00.000Z",
+  "genre": "RPG, Adventure",
+  "description": "Disco Elysium - The Final Cut is a groundbreaking role playing game. You’re a detective with a unique skill system at your disposal. Interrogate unforgettable characters, crack murders or take bribes. Become a hero or an absolute disaster of a human being.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1127",
+      "name": "Investigation"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 26472,
+  "igdb_url": "https://www.igdb.com/games/26472",
+  "giveaway_events": [
+    {
+      "start": "2025-12-25T16:00:00.000Z",
+      "end": "2025-12-26T16:00:00.000Z",
+      "type": null,
+      "id": "1112adb4b6af47238cbc563ae2b1c6ab"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Disco Elysium - The Final Cut is a groundbreaking role playing game. You’re a detective with a unique skill system at your disposal. Interrogate unforgettable characters, crack murders or take bribes. Become a hero or an absolute disaster of a human being.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/632470/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/632470/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/632470/capsule_231x87.jpg",
@@ -60,6 +164,7 @@
   ],
   "metacritic_score": 97,
   "metacritic_url": "https://www.metacritic.com/game/pc/disco-elysium-the-final-cut?ftag=MCD-06-10aaa1f",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -70,5 +175,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-26T02:39:20.853Z",
-  "updated_at": "2026-02-07T22:48:08.122Z"
+  "updated_at": "2026-04-25T02:17:20.487Z"
 }

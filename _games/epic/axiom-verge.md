@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Thomas Happ Games
 developer: Thomas Happ Games
-genre: Adventure, Indie, Platform
-release_date: "March 31, 2015"
+genre: Action, Platformer
+franchise: Axiom Verge
+age_rating_summary: ESRB Mature 17+
+release_date: "May 15, 2015"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/89e5474473ffd7f1dbf55915ea180a37f80cce63dd29d2985b3b0c4ac94fb3c3.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/25024"
 store_url: "https://store.epicgames.com/en-US/p/axiom-verge"
 protondb_url: "https://www.protondb.com/app/332200"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Axiom_Verge"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/axiom-verge?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Puffin"
 is_featured: false
+owned: false
 ---
 
-After a lab accident, a scientist awakens in a mysterious, alien world. Is this a distant planet? The far future? Or a complex virtual-reality computer simulation?
+“You think you know how Axiom Verge will play out. But you don't.” 5/5 Stars – Giant Bomb  “...simply one of the best games I've played in years.” 5/5 Stars – US Gamer  After a lab accident, a scientist awakens in a mysterious, alien world. Is this a distant planet? The far fu...

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Daedalic Entertainment, Deep Silver, Merge Games
 developer: Daedalic Entertainment
 genre: Role-playing (RPG), Adventure, Indie, Puzzle, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "June 22, 2012"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d1e09be2b914be344425140151ec28de7f54db6b5cc4a31ec63c97e3cc294418.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/9826"
 store_url: "https://www.gog.com/en/game/the_dark_eye_chains_of_satinav"
 protondb_url: "https://www.protondb.com/app/203830"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Dark_Eye%3A_Chains_of_Satinav"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/the-dark-eye-chains-of-satinav?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659133"
 is_featured: false
+owned: true
 ---
 
 With a history of more than 25 years, The Dark Eye is one of Europe's best-known role-playing brands. In addition to the popular pen & paper adventures, TDE has also inspired a series of successful computer games. The Dark Eye: Chains of Satinav immerses players deep in the world of Aventuria, where they experience an amazing story and explore lands never before featured in a TDE computer game.

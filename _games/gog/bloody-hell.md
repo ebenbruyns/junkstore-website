@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Pun Intended
 developer: Pun Intended
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "January 27, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b48f1485bd06d669cd1eb74dd7624f16dcb1f8c84f061cfd98b3a841c1982a61.jpg?namespace=gamesdb"
@@ -56,19 +62,20 @@ hltb_url: "https://howlongtobeat.com/game/123273"
 store_url: "https://www.gog.com/en/game/bloody_hell"
 protondb_url: "https://www.protondb.com/app/2056220"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bloody_Hell"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/bloody-hell-2023/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 
 # Meta
 database_id: "1542190742"
 is_featured: false
+owned: true
 ---
 
 Bloody Hell is a Bullet-Hell Metroidvania about using the blood of demons to your advantage. Fight Epic Bosses, and take revenge on the terrorising demons.

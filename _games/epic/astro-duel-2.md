@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Wild Rooster
 developer: Wild Rooster
-genre: Indie, Platform, Shooter, Arcade, Fighting
-release_date: "March 7, 2024"
+genre: Action, Party, Platformer
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "March 8, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"1299","name":"Competitive"},{"id":"21109","name":"Great Boss Battles"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/217131"
+was_free_before: true
+giveaway_events: [{"start":"2024-03-06T15:00:00.000Z","end":"2024-03-13T15:00:00.000Z","type":null,"id":"bc38eac0277d41ec955690e25779cb53"}]
 
 # Images
 banner_image: "https://images.gog.com/af92eed71736be35f5d7d9b20b1bf57bd55635297321e9f36aad4452a6ae2e0d.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -53,10 +59,10 @@ hltb_completionist: "3 hrs"
 hltb_url: "https://howlongtobeat.com/game/146740"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/astro-duel-2"
+store_url: "https://store.epicgames.com/en-US/p/astro-duel-2-e1261d"
 protondb_url: "https://www.protondb.com/app/655350"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Astro_Duel_II"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "e3c0d11648554383b33da58d075fd101"
 is_featured: false
+owned: true
 ---
 
 Astro Duel 2 is a sci-fi combat game combining top-down space dog fights with up-close platforming action. Whether versus or co-op, battle through space and on foot at the same time! Strike within the fully-destructible arenas or just nuke ‘em from orbit.

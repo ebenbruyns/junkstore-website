@@ -17,9 +17,15 @@ proton_version: ""
 publisher: The Arcade Crew
 developer: 1P2P Studio
 genre: "Role-playing (RPG), Adventure, Indie, Hack and slash/Beat 'em up, Fighting"
+franchise: 
+age_rating_summary: 
 release_date: "August 17, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese","Traditional Chinese","Korean","Japanese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d38aead37277a62e50c7060493905dc431d2127a721573088fb5a6f324dfbe60.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.42b0b23e-bf02-4cd4-b449-8ba071bb997d"
 is_featured: false
+owned: true
 ---
 
 Young Souls combines the beat'em up and RPG genres in a world created with stunning art direction. Explore the world of humans and that of the goblins, both teeming with enemies but also full of unexpected and friendly encounters waiting to be discovered.

@@ -14,12 +14,18 @@ date_tested: "Oct '24"
 proton_version: ""
 
 # Game Info
-publisher: Merge Games
+publisher: Silver Lining Interactive
 developer: Still Running
-genre: Role-playing (RPG), Adventure, Indie
-release_date: "December 3, 2020"
-game_modes: []
+genre: Fantasy, Action-Adventure, Indie
+franchise: Morbid
+age_rating_summary: ESRB Mature 17+
+release_date: "September 19, 2024"
+game_modes: ["Single Player"]
 languages: ["English"]
+tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/134817"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/9177601a3f6e9bdad2d87f0f48f1444895dc683a308dab0c95697d94a5bf95b5.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "7 hrs"
+hltb_main_extra: "9 hrs"
+hltb_completionist: "10 hrs"
+hltb_url: "https://howlongtobeat.com/game/83854"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/morbid-the-seven-acolytes"
+store_url: "https://store.epicgames.com/en-US/p/morbid-the-seven-acolytes-7c5303"
 protondb_url: "https://www.protondb.com/app/1140890"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Morbid%3A_The_Seven_Acolytes"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "339aea309f8249d998659728790f149e"
 is_featured: false
+owned: true
 ---
 
-Morbid: The Seven Acolytes is a Horrorpunk Action RPG filled with Lovecraftian horrors and Cronenbergian gore, making it the most gruesome take on the isometric Souls-like genre yet!
+Morbid: The Seven Acolytes is a Horrorpunk Action RPG filled with Lovecraftian horrors and Cronenbergian gore, making it the most gruesome take on the isometric Souls-like genre yet!n is not set

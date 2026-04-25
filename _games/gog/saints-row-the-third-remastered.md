@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Deep Silver
 developer: Deep Silver Volition
 genre: NIL, NIL
+franchise: 
+age_rating_summary: 
 release_date: "May 22, 2020"
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1fff3b68987b8929a06688cc6c9676f74b845d0c69def1e91259f4726de61e75.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/66591"
 store_url: "https://www.gog.com/en/game/saints_row_the_third_remastered"
 protondb_url: "https://www.protondb.com/app/978300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_The_Third_Remastered"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1435738629"
 is_featured: false
+owned: true
 ---
 
 Saints Row®: The Third™ Remastered gives you control of the Saints at the height of their power, and you live the life to show for it. This is your City. These are your rules. 

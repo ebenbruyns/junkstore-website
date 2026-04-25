@@ -14,12 +14,18 @@ date_tested: "Nov '24"
 proton_version: ""
 
 # Game Info
-publisher: Devolver Digital, Netflix
+publisher: Devolver Digital
 developer: Acid Nerve
-genre: "Role-playing (RPG), Adventure, Indie, Hack and slash/Beat 'em up"
-release_date: "July 20, 2021"
+genre: Action, RPG, Adventure
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "July 22, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: "https://www.igdb.com/games/145099"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b350e24d97c6f999beb860e008d39f1195ce4f0a1a579878feef0f5fa81ce6f3.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "9 hrs"
+hltb_main_extra: "12 hrs"
+hltb_completionist: "16 hrs"
+hltb_url: "https://howlongtobeat.com/game/90590"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/death-s-door"
+store_url: "https://store.epicgames.com/en-US/p/deaths-door"
 protondb_url: "https://www.protondb.com/app/894020"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death%27s_Door"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/deaths-door?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "65d73e3be8824829b5b788bd849b6559"
 is_featured: false
+owned: true
 ---
 
-Reaping souls of the dead and punching a clock might get monotonous but it's honest work for a Crow. The job gets lively when your assigned soul is stolen and you must track down a desperate thief to a realm untouched by death - where creatures grow far past their expiry and overflow with greed and power.
+Reaping souls of the dead and punching a clock might get monotonous but it's honest work for a Crow. The job gets lively when your assigned soul is stolen and you must track down a desperate thief to a realm untouched by death...

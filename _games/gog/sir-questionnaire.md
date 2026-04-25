@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Orangepixel
 developer: Orangepixel
 genre: Adventure, Indie, RPG
+franchise: 
+age_rating_summary: 
 release_date: "May 24, 2018"
 game_modes: ["Single-player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2124790/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1900796646"
 is_featured: false
+owned: true
 ---
 
 "Sir Questionnaire is a turn-based hack’n’slash game, where you enter a dungeon and each room gives you two options: leave the room, or interact with what ever is in the room. This can be monsters, but also debris, treasure chests, pools of water, or just another door!

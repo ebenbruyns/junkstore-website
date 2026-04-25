@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie",
   "description": "An infinitely replayable stealth horror game set in high school - with destructible environments, randomized level layouts and a smart opponent that develops new abilities the more you play.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/35b5628292f545e7ca27f7a0f02942d7a9f2571f1dc3c98a31cdc5abbb709be8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/77f62db3cf133587357795800cb117d8e6ac9c790f4940586b4287dd1644539a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/884befe44d11613cd1200c4128f60d1ecd8fd121a3624f629a3adf8eb6ddde5e.jpg?namespace=gamesdb",
@@ -61,6 +72,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/gravewood-high/",
+  "hltb_id": 75810,
   "hltb_main": "3 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -72,5 +84,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-04-24T01:31:28.192Z"
+  "updated_at": "2026-04-25T00:51:31.482Z"
 }

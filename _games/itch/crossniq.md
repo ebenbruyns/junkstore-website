@@ -17,9 +17,15 @@ proton_version: ""
 publisher: MaxKriegerVG
 developer: MaxKriegerVG
 genre: Indie, Puzzle, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "November 21, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1128180/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "454004"
 is_featured: false
+owned: true
 ---
 
 Crossniq is a new tile-sliding puzzle game to be played with your mouse or your fingers! The goal of the game is to create a "cross" of same-colored tiles to clear them from the screen, which gives you points and refills your time meter. Keep on swiping and race against the clock!

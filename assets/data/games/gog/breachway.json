@@ -39,6 +39,17 @@
   "genre": "strategy, indie, simulator",
   "description": "Assemble your crew, load out your ship, and explore the galaxy in this deck-building space roguelike. Your deck is determined by your spaceship's loadout, mix and match equipment to discover different powerful card synergies, and obliterate your enemies in tactical space battles",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/50bcd4c72cbbc4ffd75d794663bc0ba3f441f3850fcd595fc4b8644edda8a790.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/258118bbc5a69849723b25a3f1c7fa672df5a0d6bfa300492bfaba0c4cfeb839.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/50bcd4c72cbbc4ffd75d794663bc0ba3f441f3850fcd595fc4b8644edda8a790.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/breachway/",
+  "hltb_id": 148225,
   "hltb_main": "15 hrs",
   "hltb_main_extra": "40.5 hrs",
   "hltb_completionist": "",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-24T01:31:12.802Z"
+  "updated_at": "2026-04-25T00:46:33.698Z"
 }

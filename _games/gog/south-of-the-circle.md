@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 11 bit studios
 developer: State of Play Games
 genre: Adventure, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "October 30, 2020"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Arabic","Dutch","Japanese","Korean","Portuguese - Portugal"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1811040/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1787058795"
 is_featured: false
+owned: true
 ---
 
 South of the Circle is an emotional narrative experience exploring the relationship between Peter and Clara, Cambridge academics caught up in the political conflict of the Cold War. The story focuses on the weight of life choices - between career, true love and the desire to keep our promises.

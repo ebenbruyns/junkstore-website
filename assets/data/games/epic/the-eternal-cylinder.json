@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/865680",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/the-eternal-cylinder",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Eternal_Cylinder",
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency.",
   "date_tested": "Oct '24",
   "decky_rating": "yellow",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,107 @@
   "shortname": "Oriole",
   "publisher": "Good Shepherd Entertainment",
   "developer": "ACE Team",
-  "releasedate": "2021-09-30T00:00:00+0000",
-  "genre": "Adventure",
-  "description": "In The Eternal Cylinder, players control a herd of adorable creatures called Trebhums and must explore a strange alien world filled with exotic lifeforms, surreal environments, and the constant threat of the Cylinder, a gargantuan rolling structure of ancient origin which crushes everything in its path. This unique ecosystem is a massive, procedurally generated land with unique animal AI, real-time world destruction, and organic exploration and puzzle design to create emergent gameplay that ensures no two playthroughs are ever the same.",
+  "releasedate": "2021-09-30T17:00:00.000Z",
+  "genre": "Exploration, Survival, Open World, Adventure",
+  "description": "Control a herd of strange creatures called Trebhums and explore an unforgettable alien world filled with exotic lifeforms and surreal environments. Discover dozens of mutations and evolve to reach new areas, overcome puzzles and survive a dangerous world. ",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1080",
+      "name": "Survival"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1080",
+      "name": "Survival"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 121715,
+  "igdb_url": "https://www.igdb.com/games/121715",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Control a herd of strange creatures called Trebhums and explore an unforgettable alien world filled with exotic lifeforms and surreal environments. Discover dozens of mutations and evolve to reach new areas, overcome puzzles and survive a dangerous world. ",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/1ce4ca887d3edd20e5cb28d0fb98c8b40a46c0cb4a36cd4c91d4253ba28b0ac3.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/873b513e0502b668a16e6f104e2fd78934414569b989649be7e2843ec131b648.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/69802e68eb958d9153b6ce43b6ebb743a9dec32cf4065adc21e1be31bfb87928.jpg?namespace=gamesdb",
@@ -51,15 +148,16 @@
   ],
   "metacritic_score": 79,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-eternal-cylinder?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 80034,
+  "hltb_main": "12.3 hrs",
+  "hltb_main_extra": "17.5 hrs",
+  "hltb_completionist": "26 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/80034",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T07:37:27.176Z"
+  "updated_at": "2026-04-25T02:43:58.684Z"
 }

@@ -14,12 +14,18 @@ date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
-publisher: Ultimate Games S.A., Gaming Factory S.A.
+publisher: Gaming Factory, Ultimate Games S.A.
 developer: "Take IT Studio!"
-genre: Adventure, Indie, Puzzle, Simulator
-release_date: "September 21, 2022"
+genre: First Person, Indie, Simulation
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "August 5, 2023"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Japanese"]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1263","name":"Indie"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/118473"
+was_free_before: true
+giveaway_events: [{"start":"2026-03-19T15:00:00.000Z","end":"2026-03-26T15:00:00.000Z","type":null,"id":"b3d56c3e27fc4816bf6cc0cefecd4948"}]
 
 # Images
 banner_image: "https://images.gog.com/b67a8ba93168c79871ee5c303c415e1f7a0cca58f96e2a031732aee1060a58c0.jpg?namespace=gamesdb"
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "7 hrs"
+hltb_main_extra: "9 hrs"
+hltb_completionist: "10 hrs"
+hltb_url: "https://howlongtobeat.com/game/113859"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/electrician-simulator-164e9f"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "019b8e62a48c4278ac5ca98d7986cd75"
 is_featured: false
+owned: true
 ---
 
-Take over the family business from your Dad and become an electrician. Learn the basics and test your skills in the Electrician Simulator. Repair and assemble sockets, panels, strips, plugs, chandeliers and even change light bulbs. Oh... and don't mix up the wires! Results might be shocking.
+Take on the electrician role and learn the profession's basics! Install sockets, repair worn-out equipment, assemble broken appliances, replace light bulbs, and lay wires at your customers' homes. Be sure to check everything twice, with electricity there are no jokes!

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Bethesda Softworks
 developer: Bethesda Game Studios
 genre: RPG
+franchise: 
+age_rating_summary: 
 release_date: "November 9, 2015"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/377160/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1998527297"
 is_featured: false
+owned: true
 ---
 
 From Bethesda Game Studios, the award-winning creators of Starfield and The Elder Scrolls V: Skyrim, comes Fallout 4. A landmark in open-world RPG design and winner of over 200 ‘Best Of’ honors, including the DICE and BAFTA Game of the Year.

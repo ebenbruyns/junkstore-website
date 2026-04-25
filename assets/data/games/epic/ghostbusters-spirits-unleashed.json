@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ghostbusters%3A_Spirits_Unleashed",
   "notes": "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Needs C++ runtime.",
   "date_tested": "Oct '24",
   "decky_rating": "yellow",
@@ -33,12 +33,53 @@
   "cant_test_linux": false,
   "databaseId": "ab374ffb0bab4b399a5d5cbdfde77a37",
   "shortname": "ab374ffb0bab4b399a5d5cbdfde77a37",
-  "publisher": "Illfonic",
-  "developer": "Illfonic",
-  "releasedate": "2022-10-18T00:00:00+0000",
-  "genre": "Adventure, Shooter",
-  "description": "An all-ages take on its brand of four-versus-one asymmetric multiplayer games, where you play as your own original Ghostbusters team — or take on the role of a ghost hellbent on wreaking haunted havoc.",
+  "publisher": "IllFonic",
+  "developer": "IllFonic",
+  "releasedate": "2022-10-18T15:00:00.000Z",
+  "genre": "Horror, Shooter",
+  "description": "Hunting or haunting! The choice is yours in the upcoming asymmetrical Ghostbusters game from IllFonic, Ghostbusters: Spirits Unleashed. Play with up to four friends or solo on multiple platforms.\n",
   "size": "",
+  "franchise": "Ghostbusters",
+  "tags_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Hunting or haunting! The choice is yours in the upcoming asymmetrical Ghostbusters game from IllFonic, Ghostbusters: Spirits Unleashed. Play with up to four friends or solo on multiple platforms.\n",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/b19055765610b6bb7aede59ab71f40ff70af22c1aed4022f406618f0123dbba7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/123ad9b540cbe6dc28ea5e7ea039b8bc189b74d90cf6bddec8cd5d6ac46704e6.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/42f94d4069fdbf68e107710bea9cf15c2e0af0796096dc2f0e936b2c3308af5c.jpg?namespace=gamesdb",
@@ -53,6 +94,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -63,5 +105,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:05:05.098Z"
+  "updated_at": "2026-04-25T03:32:51.897Z"
 }

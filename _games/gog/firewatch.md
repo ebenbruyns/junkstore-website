@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Panic
 developer: Campo Santo
 genre: adventure, indie
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/2c8c5e36211b0b1ddca109da49c18988d60d623085b776c0881d313532a1f84b.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/26806"
 store_url: "https://www.gog.com/en/game/firewatch"
 protondb_url: "https://www.protondb.com/app/383870"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Firewatch"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/firewatch?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1459256379"
 is_featured: false
+owned: false
 ---
 
 Firewatch is a single-player first-person video game where you, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout.

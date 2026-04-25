@@ -7,7 +7,7 @@
   "gog_url": "https://www.gog.com/en/game/barrow_hill_curse_of_the_ancient_circle",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_Curse_of_the_Ancient_Circle",
   "notes": "Works out of the box on the Decky plugin version.",
   "date_tested": "Oct '24",
   "decky_rating": "green",
@@ -39,6 +39,17 @@
   "genre": "adventure, indie, point-and-click",
   "description": "Somewhere deep within the woods a timeless force is stirring. Beneath the ancient burial mound, known locally as Barrow Hill, a forgotten myth awakes...",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/3d62d7f2b717e1ce382ee931d8a199e518270942685249e9e81469bef847f392.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/7ff3fe2295cbd79a984d984985af95c25866846ec5585c1048337fc3bbe8e660.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/3d62d7f2b717e1ce382ee931d8a199e518270942685249e9e81469bef847f392.jpg?namespace=gamesdb",
@@ -49,8 +60,9 @@
   "languages": [
     "English"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 65,
+  "metacritic_url": "https://www.metacritic.com/game/barrow-hill-curse-of-the-ancient-circle/",
+  "hltb_id": 849,
   "hltb_main": "4.5 hrs",
   "hltb_main_extra": "5 hrs",
   "hltb_completionist": "5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-11-25T23:44:50.870Z"
+  "updated_at": "2026-04-25T00:45:46.381Z"
 }

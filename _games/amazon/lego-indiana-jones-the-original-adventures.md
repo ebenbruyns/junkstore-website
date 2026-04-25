@@ -17,9 +17,15 @@ proton_version: ""
 publisher: LucasArts, Feral Interactive
 developer: "Traveller's Tales, Robosoft Technologies"
 genre: Adventure, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "June 2, 2008"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7eef27df98190923e855f0710ccbe4e7be5b725768d1eec76f91ec8396e9e72c.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.8a584db6-f8e5-4bfa-87a8-256a9d3506c4"
 is_featured: false
+owned: true
 ---
 
 Build, Battle and Brawl your way out of trouble! Play through all three classic Indiana Jones movies and relive your favorite Indy adventures in the tongue-in-cheek worlds of LEGO. Explore and Discover - Battle enemies, solve puzzles, and seek out the world's greatest treasures.

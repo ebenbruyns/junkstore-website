@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Siactro, Diplodocus Games
 developer: Siactro
 genre: Adventure, Indie, Platform, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "September 30, 2021"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1722620/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1212937"
 is_featured: false
+owned: true
 ---
 
 Toree 2 is the sequel to Toree 3D. A bite-sized 3D Platformer sequel with more focus on the things people enjoyed in the first game like fast gameplay, flow focused levels and cute costumes (two this time).

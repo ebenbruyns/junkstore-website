@@ -1,6 +1,6 @@
 {
   "id": "8b074b41-127d-42d7-9176-b7f6a7ebc101",
-  "title": "ToeJam & Earl: Back in the Groove",
+  "title": "ToeJam & Earl: Back in the Groove!",
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/516110",
   "protondb_report_url": "",
@@ -33,12 +33,56 @@
   "cant_test_linux": false,
   "databaseId": "37d84dd0b65a40e9b0719141b987a216",
   "shortname": "37d84dd0b65a40e9b0719141b987a216",
-  "publisher": "Adult Swim Games, HumaNature Studios",
+  "publisher": "HumaNature Studios",
   "developer": "HumaNature Studios",
-  "releasedate": "2019-03-01T00:00:00+0000",
-  "genre": "Adventure, Indie, Music",
-  "description": "ToeJam and Earl have crash-landed back on Earth in ToeJam and Earl: Back in the Groove!, a funky fresh rogue-like adventure infused with old skool hip-hop and jam packed with awesome throwbacks to the 1991 classic.\nThe iconic '90s duo is back in the groove with all-new presents to help them navigate this wack planet \"Earth\" and retrieve all the lost pieces to the Rapmaster Rocket. Team up for co-op play to discover secret locations, hidden presents and new friends as you make your way through a constantly changing and unpredictable world!",
+  "releasedate": "2022-10-13T15:00:00.000Z",
+  "genre": "Casual",
+  "description": "ToeJam & Earl: Back in the Groove is a mash-up of the best features from the classic console games with a ton of funky fresh improvements.\n\nRelive the original roguelike game with new 4 player online and local co-op, crazy Earthlings, weird presents and aliens from Funkotron!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 11122,
+  "igdb_url": "https://www.igdb.com/games/11122",
+  "giveaway_events": [
+    {
+      "start": "2022-10-12T15:00:00.000Z",
+      "end": "2022-10-19T15:00:00.000Z",
+      "type": null,
+      "id": "db9725548f40419cac7d1c10f94c0736"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "ToeJam & Earl: Back in the Groove is a mash-up of the best features from the classic console games with a ton of funky fresh improvements.\n\nRelive the original roguelike game with new 4 player online and local co-op, crazy Earthlings, weird presents and aliens from Funkotron!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/3adec9e4677e7902d4adddf16824641e67a50785471a8f9be6fbe9501a2f3cfb.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e26f8426ccecd58d27019f42e694e777f62e50d684badf9823d82264054f03d8.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/4ed9401a6de2b8dbc33eb0fe73865992b943541ad441d77301c1522972cb277b.jpg?namespace=gamesdb",
@@ -54,15 +98,16 @@
   ],
   "metacritic_score": 76,
   "metacritic_url": "https://www.metacritic.com/game/pc/toejam-earl-back-in-the-groove?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 65277,
+  "hltb_main": "2.2 hrs",
+  "hltb_main_extra": "4.5 hrs",
+  "hltb_completionist": "15.9 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/65277",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-12-16T03:29:19.185Z"
+  "updated_at": "2026-04-25T01:16:32.212Z"
 }

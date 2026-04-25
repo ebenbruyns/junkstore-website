@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: indie.io
 developer: Afterburner Studios
-genre: Action, Adventure, Indie, RPG
-release_date: "August 5, 2021"
+genre: Action, Rogue-Lite, Adventure
+franchise: 
+age_rating_summary: 
+release_date: "August 6, 2021"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+igdb_url: "https://www.igdb.com/games/116166"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1040420/library_hero.jpg"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "15 hrs"
+hltb_main_extra: "28 hrs"
+hltb_completionist: "42.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/78530"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dreamscaper"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "a922e114727142e8b24d1499c274f223"
 is_featured: false
+owned: true
 ---
 
-By night, delve deep into your subconscious and discover powerful artifacts to conquer your nightmares. By day, explore the city of Redhaven and build relationships to unlock the power of your dreams. DREAM. DIE. WAKE. REPEAT.
+By night, delve deep into your subconscious and discover powerful artifacts to conquer your nightmares. By day, explore the city of Red Haven and build relationships to unlock the power of your dreams. DREAM. DIE. WAKE. REPEAT.

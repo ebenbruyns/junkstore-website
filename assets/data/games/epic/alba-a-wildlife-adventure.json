@@ -1,6 +1,6 @@
 {
   "id": "325a32b0-dfce-4f7e-8282-2ab78de99f34",
-  "title": "Alba: A Wildlife Adventure",
+  "title": "Alba - A Wildlife Adventure",
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/1337010",
   "protondb_report_url": "",
@@ -33,12 +33,80 @@
   "cant_test_linux": false,
   "databaseId": "8a0173bbe3ac48ac903f5bc7277e7b4e",
   "shortname": "8a0173bbe3ac48ac903f5bc7277e7b4e",
-  "publisher": "Plug In Digital, Ustwo Games",
-  "developer": "Ustwo Games",
-  "releasedate": "2020-12-11T00:00:00+0000",
-  "genre": "Adventure, Indie",
+  "publisher": "PID Games",
+  "developer": "ustwo games",
+  "releasedate": "2022-11-10T16:00:00.000Z",
+  "genre": "Casual",
   "description": "Even the smallest person can make a big difference. Join Alba, as she sets out to save her beautiful island and its wildlife. And possibly start a revolution.",
   "size": "1.02 GB",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 135919,
+  "igdb_url": "https://www.igdb.com/games/135919",
+  "giveaway_events": [
+    {
+      "start": "2022-11-09T15:00:00.000Z",
+      "end": "2022-11-16T15:00:00.000Z",
+      "type": null,
+      "id": "44a89fd06011419d9df5fe412ab305e1"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Even the smallest person can make a big difference. Join Alba, as she sets out to save her beautiful island and its wildlife. And possibly start a revolution.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/2d9324e53a20d32682d037209342b0558a93abdc09bae530747f3734d1e5116e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/0dc6a1a878062b98b44e00d4fd0e3ee504feb11bd1fa3fae6e6519995e875d40.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/a835897e14e64edb71d9c48e8da22e047304b6266586569f7ffcb49696c9f51b.jpg?namespace=gamesdb",
@@ -60,6 +128,7 @@
   ],
   "metacritic_score": 79,
   "metacritic_url": "https://www.metacritic.com/game/pc/alba-a-wildlife-adventure?ftag=MCD-06-10aaa1f",
+  "hltb_id": 86015,
   "hltb_main": "2.6 hrs",
   "hltb_main_extra": "3.3 hrs",
   "hltb_completionist": "3.8 hrs",
@@ -70,5 +139,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-09-14T03:37:29.844Z"
+  "updated_at": "2026-04-25T01:04:56.282Z"
 }

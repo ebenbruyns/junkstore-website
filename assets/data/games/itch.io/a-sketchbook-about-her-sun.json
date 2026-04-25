@@ -39,6 +39,17 @@
   "genre": "Adventure, Visual Novel",
   "description": "Through a narrative based on Red Ribbon’s new album “Planet X”, experience a broken-heart girl’s journey through thoughts, daydreams and music.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/bf78c474ff64f0b0ab32a0c2c5e9a16f616c7fbd7ffc755d9947d56692fc180b.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1611760/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1611760/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.805Z",
-  "updated_at": "2025-12-16T03:29:09.909Z"
+  "updated_at": "2026-04-25T00:54:55.226Z"
 }

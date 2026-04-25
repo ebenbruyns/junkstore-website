@@ -14,12 +14,18 @@ date_tested: "July '25"
 proton_version: ""
 
 # Game Info
-publisher: 2K Games
-developer: Irrational Games
-genre: Adventure, Shooter
-release_date: "February 26, 2013"
+publisher: 2K
+developer: Mass Media Games
+genre: Action, Horror
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "June 3, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/538"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1712b2e8feb95e9e8237299d08168c2ad9aa1c7620b3463367260b0403faab6a.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -53,10 +59,10 @@ hltb_completionist: "28.5 hrs"
 hltb_url: "https://howlongtobeat.com/game/1068"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/bioshock-infinite"
+store_url: "https://store.epicgames.com/en-US/p/bioshock-infinite-complete-edition"
 protondb_url: "https://www.protondb.com/app/8870"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock_Infinite"
 metacritic_score: 94
 metacritic_url: "https://www.metacritic.com/game/pc/bioshock-infinite?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "f9d6f0530ea140909f8e8a997a7532d7"
 is_featured: false
+owned: true
 ---
 
-BioShock Infinite is the third game in the BioShock series. It is not a direct sequel/prequel to any of the previous BioShock games but takes place in an entirely different setting, although it shares similar features, gameplay and concepts with the previous games. BioShock Infinite features a range of environments that force the player to adapt, with different weapons and strategies for each situation. Interior spaces feature close combat with enemies, but unlike previous games set in Rapture, the setting of Infinite contains open spaces with emphasis on sniping and ranged combat against as many as fifteen enemies at once.
+Indebted to the wrong people, private investigator Booker DeWitt must take on an impossible task: travel to Columbia, a flying city above the clouds, and rescue a mysterious woman named Elizabeth. Includes Burial at Sea Episodes 1/2 and Clash in the Clouds.

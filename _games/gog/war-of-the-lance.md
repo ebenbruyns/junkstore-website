@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Strategic Simulations, Inc., SNEG
 developer: Strategic Simulations, Inc.
 genre: Adventure, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "February 1, 1990"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1485235422"
 is_featured: false
+owned: true
 ---
 
 War of the Lance is presented in a top-down view. In single player mode, the player plays the Whitestone side to fight the evil forces of the Highlord (controlled by the computer). In a two-player game, the second player will play the Highlord forces.

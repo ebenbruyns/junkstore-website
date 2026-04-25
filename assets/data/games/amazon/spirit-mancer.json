@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Hack and slash/Beat 'em up, Card & Board Game",
   "description": "Slash, Shoot and Break demons, Capture their spirits and summon them out into your battle in the beautiful yet dangerous world of Inferno, Fight against hordes of demons from Ars Goetia and stop the evil queen with the power of the Spirit Mancer.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/5ebb16c8a001e2d57c96f1dee7661f4bf4d3e24bbfa762553e29f54e63e5c923.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/550aba657e5fb5f3ef2480ad8c0bb0c48a0641bddb1faf860a89bd1707761739.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -53,6 +64,7 @@
   ],
   "metacritic_score": 71,
   "metacritic_url": "https://www.metacritic.com/game/spirit-mancer/",
+  "hltb_id": 155063,
   "hltb_main": "39 mins",
   "hltb_main_extra": "",
   "hltb_completionist": "8.5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2026-04-23T22:04:29.683Z"
+  "updated_at": "2026-04-25T00:44:45.999Z"
 }

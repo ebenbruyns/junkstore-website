@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1496590",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/tchia",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Tchia",
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. Need to install C++ runtime.",
   "date_tested": "Sept '24",
   "decky_rating": "yellow",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -33,12 +33,61 @@
   "cant_test_linux": false,
   "databaseId": "1496590",
   "shortname": "1496590",
-  "publisher": "Awaceb, Kepler Interactive",
+  "publisher": "Kepler Interactive",
   "developer": "Awaceb",
-  "releasedate": "03-2023",
-  "genre": "Adventure, Indie",
-  "description": "A tropical open-world adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox.",
+  "releasedate": "2023-03-21T09:00:00.000Z",
+  "genre": "Exploration, Open World, Adventure",
+  "description": "A Tropical Open-World adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox. Take control of any animal or object you can find, and Jam on your fully playable Ukulele. A game inspired by New Caledonia.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 134324,
+  "igdb_url": "https://www.igdb.com/games/134324",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "A Tropical Open-World adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox. Take control of any animal or object you can find, and Jam on your fully playable Ukulele. A game inspired by New Caledonia.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/78ab7d449845157bf348ba29eeeb5a1b7ddac257f7cfb284e4b1dddaca8aa4a2.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/425448b18315084765d0933ba78ddc231c5bd4690fd907bf0a75c5e967f8f300.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/78ab7d449845157bf348ba29eeeb5a1b7ddac257f7cfb284e4b1dddaca8aa4a2.jpg?namespace=gamesdb",
@@ -51,15 +100,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 85999,
+  "hltb_main": "7.5 hrs",
+  "hltb_main_extra": "14 hrs",
+  "hltb_completionist": "22.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/85999",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T06:22:23.763Z"
+  "updated_at": "2026-04-25T05:46:42.389Z"
 }

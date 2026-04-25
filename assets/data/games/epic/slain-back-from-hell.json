@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/369070",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/slain-aea303",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Slain%3A_Back_from_Hell",
   "notes": "Works out of the box!",
   "date_tested": "March '25",
   "decky_rating": "green",
@@ -33,12 +33,72 @@
   "cant_test_linux": false,
   "databaseId": "d8a4c98b5020483881eb7f0c3fc4cea3",
   "shortname": "d8a4c98b5020483881eb7f0c3fc4cea3",
-  "publisher": "Digerati Distribution",
-  "developer": "Wolf Brew Games",
-  "releasedate": "2016-03-24T00:00:00+0000",
-  "genre": "Adventure, Indie, Platform, Arcade, Fighting",
-  "description": "Slain: Back from Hell. A heavy metal inspired arcade combat with puzzle elements and gore galore. Stunning visuals and true old school gameplay accompanied by the most metal soundtrack you've ever heard.",
+  "publisher": "Digerati",
+  "developer": "Steel Mantis",
+  "releasedate": "2022-10-06T15:00:00.000Z",
+  "genre": "Action, Platformer, Indie",
+  "description": "A heavy metal inspired arcade combat with puzzle elements and gore galore. Stunning visuals and true old school gameplay accompanied by the most metal soundtrack you've ever heard.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 18509,
+  "igdb_url": "https://www.igdb.com/games/18509",
+  "giveaway_events": [
+    {
+      "start": "2022-10-05T15:00:00.000Z",
+      "end": "2022-10-12T15:00:00.000Z",
+      "type": null,
+      "id": "e5267e621ed14b84829c82a69e289c8e"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "A heavy metal inspired arcade combat with puzzle elements and gore galore. Stunning visuals and true old school gameplay accompanied by the most metal soundtrack you've ever heard.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/07fb597cdc7723ebdae42cfc91cd20a99700ad82e1a7ea5cdcf2f74db12df252.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/878ccf1f170e0ba4f62bbb835e61ae00767cbdcf6960647060e5bef7efe00152.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -51,14 +111,15 @@
   ],
   "metacritic_score": 74,
   "metacritic_url": "https://www.metacritic.com/game/pc/slain-back-from-hell?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 40103,
+  "hltb_main": "6 hrs",
+  "hltb_main_extra": "8.5 hrs",
+  "hltb_completionist": "11.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/40103",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.969Z"
+  "updated_at": "2026-04-25T05:44:18.807Z"
 }

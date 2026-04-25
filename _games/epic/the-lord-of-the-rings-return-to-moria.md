@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "The Lord of the Rings: Return to Moria - Steam Deck Compatibility"
-game_title: "The Lord of the Rings: Return to Moria"
+title: "The Lord of The Rings Return to Moria - Steam Deck Compatibility"
+game_title: "The Lord of The Rings Return to Moria"
 slug: "the-lord-of-the-rings-return-to-moria"
 storefront: "Epic"
 storefront_key: "epic"
@@ -17,9 +17,15 @@ proton_version: ""
 publisher: North Beach Games
 developer: Free Range Games
 genre: Role-playing (RPG), Adventure
-release_date: "October 24, 2023"
+franchise: 
+age_rating_summary: 
+release_date: "January 1, 2099"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/49963c07d0f457026d00f4531de453f92865d91c175308641c33d615699cf840.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "8e4f8dc250364e30aef276555bba1734"
 is_featured: false
+owned: true
 ---
 
 The only survival crafting game set in the Fourth Age of Middle-earth, the iconic fantasy world created by J.R.R. Tolkien.

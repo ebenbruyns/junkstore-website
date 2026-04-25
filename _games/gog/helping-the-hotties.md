@@ -17,9 +17,15 @@ proton_version: ""
 publisher: NIL, NIL
 developer: NIL, NIL
 genre: NIL, NIL
+franchise: 
+age_rating_summary: 
 release_date: ""
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3847d0c7fc37d7909292bef4e963e774d48cbb3ce23730bdd21a9d333154e01e.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1237982317"
 is_featured: false
+owned: true
 ---
 
 Helping the Hotties - a unique visual novel harem game filled with girls, humour, exciting secrets, and spicy romance!

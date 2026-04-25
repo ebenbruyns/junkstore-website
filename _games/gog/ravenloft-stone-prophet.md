@@ -17,9 +17,15 @@ proton_version: ""
 publisher: SSI (Strategic Simulations, Inc.)
 developer: DreamForge Intertainment
 genre: Role-playing (RPG), Adventure, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "December 31, 1995"
 game_modes: ["Single player"]
 languages: ["English","German"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/6237438e13191fbf20e51bb938bda5baeddbdb451b0af62c3c2333625c429655.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1432906190"
 is_featured: false
+owned: true
 ---
 
 A space-time portal has suddenly appeared, and two brave adventures entered it. It led to Har'Akir, a scorched desert populated by vicious creatures who hold the few peaceful settlements in fear. The only way to escape this wretched place is to find the Stone Prophet, a wall of a obelisk with mysterious hieroglyphs written on it. The adventurers must find the path that leads to the Stone Prophet, but the cursed mummy of the ancient pharaoh Anhktepot is watching every step they make...

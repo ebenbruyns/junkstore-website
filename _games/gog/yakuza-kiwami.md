@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Sega, Deep Silver
 developer: Ryū Ga Gotoku Studios
 genre: role-playing-rpg, adventure, hack-and-slash-beat-em-up
+franchise: 
+age_rating_summary: 
 release_date: "January 21, 2016"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1de10c293238351862a0da95aabf84ca8552d2ebfb6f09f4d66900cc2e07135a.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/39484"
 store_url: "https://www.gog.com/en/game/yakuza_kiwami"
 protondb_url: "https://www.protondb.com/app/834530"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Yakuza_Kiwami"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/yakuza-kiwami?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1951443960"
 is_featured: false
+owned: false
 ---
 
 Yakuza Kiwami is a remake of the 2005 open world action-adventure game Yakuza.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Ash K
 developer: Ash K
 genre: Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "February 10, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1325277"
 is_featured: false
+owned: true
 ---
 
 Here are 6 things that are too small to be posted or sold on their own:

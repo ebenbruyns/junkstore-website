@@ -33,12 +33,112 @@
   "cant_test_linux": false,
   "databaseId": "cadfdca223174573b3d4bbbfc0e3ddd1",
   "shortname": "cadfdca223174573b3d4bbbfc0e3ddd1",
-  "publisher": "IndieArk",
-  "developer": "YYZ",
-  "releasedate": "2025-04-22T00:00:00+0000",
-  "genre": "Casual, Indie, Simulation, Strategy",
-  "description": "A simulation game where you build a town in the middle of the sea. Reach self-sufficiency, invite travelers to join you, then manage their needs and research new facilities to keep them happy. Build a submarine and discover islands to produce increasingly complex resources.",
+  "publisher": "Pretty Soon",
+  "developer": "YYZ Studio",
+  "releasedate": "2026-03-19T11:56:03.000Z",
+  "genre": "Indie, Casual, Simulation",
+  "description": "Breathe easy and thrive in this cozy colony sim. Build a haven for castaways, manage resources, live your best life on the ocean. Lead your humble settlement into a high-tech society.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21130",
+      "name": "Easy Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 208652,
+  "igdb_url": "https://www.igdb.com/games/208652",
+  "giveaway_events": [
+    {
+      "start": "2026-03-26T15:00:00.000Z",
+      "end": "2026-04-02T15:00:00.000Z",
+      "type": null,
+      "id": "d7b336a5c49f4a14b16359193caeb296"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Breathe easy and thrive in this cozy colony sim. Build a haven for castaways, manage resources, live your best life on the ocean. Lead your humble settlement into a high-tech society.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2020710/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2020710/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2020710/capsule_231x87.jpg",
@@ -60,6 +160,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -70,5 +171,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-03-27T23:17:05.229Z",
-  "updated_at": "2026-04-03T22:02:21.445Z"
+  "updated_at": "2026-04-25T02:21:33.337Z"
 }

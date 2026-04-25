@@ -14,12 +14,18 @@ date_tested: "Sep '25"
 proton_version: ""
 
 # Game Info
-publisher: Ustwo Games
-developer: Ustwo Games
-genre: Adventure, Casual, Puzzle
-release_date: "Invalid Date"
+publisher: ustwo games
+developer: ustwo games
+genre: Casual, Puzzle, Adventure
+franchise: Monument Valley
+age_rating_summary: ESRB Everyone
+release_date: "September 5, 2025"
 game_modes: ["Single player"]
 languages: ["Chinese (Simplified)","Chinese (Traditional)","Dutch","Portuguese","Korean","Japanese","Italian","Spanish (Spain)","Turkish","Swedish","Russian","English","German","French","Hindi","Malay","Thai"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: "https://www.igdb.com/games/8900"
+was_free_before: true
+giveaway_events: [{"start":"2025-09-04T15:00:00.000Z","end":"2025-09-11T15:00:00.000Z","type":null,"id":"f967cff9761c4198b4e972cfd71e40d7"}]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1927720/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "cd03160de3bf4f2789d32a3798501564"
 is_featured: false
+owned: true
 ---
 
-Monument Valley+ is a re-release of the original Monument Valley, including the Forgotten Shores and Ida's Dream DLCs, made exclusively for Apple Arcade
+Embark on a journey of forgiveness through impossible environments and illusionary puzzles. Experience this meditative and calming puzzle game by manipulating monuments and creating evolving paths to explore new, surreal, and mysterious worlds.

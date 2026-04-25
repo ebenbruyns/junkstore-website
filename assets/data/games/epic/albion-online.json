@@ -33,12 +33,117 @@
   "cant_test_linux": false,
   "databaseId": "f088388ef3f545179243e7d104c5deaf",
   "shortname": "f088388ef3f545179243e7d104c5deaf",
-  "publisher": "Sandbox Interactive",
-  "developer": "Sandbox Interactive",
-  "releasedate": "2017-07-17T00:00:00+0000",
-  "genre": "Role-playing (RPG)",
-  "description": "Albion Online is a sandbox MMORPG set in an open medieval fantasy world. The game features a player-driven economy where nearly every item is player-crafted. Combine armor pieces and weapons suited to your playstyle in a unique, classless \"you are what you wear\" system. Explore the world, take on other adventurers in thrilling battles, conquer territories, and build a home.",
+  "publisher": "Sandbox Interactive GmbH",
+  "developer": "Sandbox Interactive GmbH",
+  "releasedate": "2025-04-16T11:00:00.000Z",
+  "genre": "Fantasy, RPG, Open World",
+  "description": "Albion Online is a sandbox MMORPG in which you write your own story. Explore a vast open world, grow your wealth, forge alliances, and leave your mark on the world of Albion!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "1287",
+      "name": "Fantasy"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "22775",
+      "name": "MMO"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1287",
+      "name": "Fantasy"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 19698,
+  "igdb_url": "https://www.igdb.com/games/19698",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Albion Online is a sandbox MMORPG in which you write your own story. Explore a vast open world, grow your wealth, forge alliances, and leave your mark on the world of Albion!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/53171d5eebad6e1ca2946f83b63e3c57fac561d1a5395486feaee953cf8f7b7a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c79d1fd451e3ffeb6ee47a0c1ee18f32b3d1d453cc132e1a4d439b0b67fde113.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/761890/capsule_231x87.jpg",
@@ -61,6 +166,7 @@
   ],
   "metacritic_score": 72,
   "metacritic_url": "https://www.metacritic.com/game/albion-online/",
+  "hltb_id": 57052,
   "hltb_main": "33 hrs",
   "hltb_main_extra": "37.3 hrs",
   "hltb_completionist": "199.2 hrs",
@@ -71,5 +177,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-24T02:04:08.111Z"
+  "updated_at": "2026-04-25T01:04:59.070Z"
 }

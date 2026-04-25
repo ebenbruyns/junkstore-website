@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Walkabout Games
 developer: Atomic Wolf
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "June 2, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","German","Polish","Portuguese","Portuguese (Brazil)","Russian","Spanish","zh-Hans"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/ceba3e71aea33c047031057c95dce76b7d32b2a05c42caf3b19cb3f593edd522.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1780442795"
 is_featured: false
+owned: true
 ---
 
 Players will experience a story about a world where government authorities use advanced technology to manipulate the population. Civil rights are a thing of the past, with the government engaging in complete surveillance of every citizen in the world. Social media activity, online payments, and GPS location tracking from mobile devices are just some of the ways every single person is being monitored. In this world, there are insurgents resisting this oppression, fighting for their freedom, while government agents try to maintain order and control. In Liberated, players will experience both sides of this conflict, with every choice they make changing the course of the story.

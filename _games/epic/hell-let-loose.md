@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Team17
 developer: Team17
-genre: Strategy, Indie, Shooter, Simulator
-release_date: "June 6, 2019"
+genre: First Person, Shooter
+franchise: Hell Let Loose
+age_rating_summary: ESRB Mature 17+
+release_date: "January 3, 2025"
 game_modes: ["Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/32365"
+was_free_before: true
+giveaway_events: [{"start":"2025-01-02T16:00:00.000Z","end":"2025-01-09T16:00:00.000Z","type":null,"id":"5cee37b551534963887a11f6744f6951"}]
 
 # Images
 banner_image: "https://images.gog.com/d25cfe798397ae55c9831952b8c01ebee30c678c718476eff9b2280b12e6f3c3.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "35.9 hrs"
+hltb_main_extra: "1200 hrs"
+hltb_completionist: "2610 hrs"
+hltb_url: "https://howlongtobeat.com/game/64501"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/hell-let-loose"
+store_url: "https://store.epicgames.com/en-US/p/hell-let-loose-03f036"
 protondb_url: "https://www.protondb.com/app/686810"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hell_Let_Loose"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/hell-let-loose?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "3e02273b543f4ff0a1c24d3b534a9ac3"
 is_featured: false
+owned: true
 ---
 
-Fight in the most iconic battles of the Second World War, including El Alamein, Stalingrad, Omaha Beach, and Foy! This is combat at a whole new scale.. with lumbering tanks dominating the battlefield, and crucial supply chains fuelling the frontlines, you are a cog in the machine of colossal combined arms warfare. Hell Let Loose puts you in the chaos of war, complete with deep player-controlled vehicles, a dynamically evolving front line, and crucial unit-focused gameplay that commands the tide of battle.
+Join the ever expanding experience of Hell Let Loose - a hardcore World War Two first person shooter with epic battles of 100 players with infantry, tanks, artillery, a dynamically shifting front line and a unique resource based RTS-inspired meta-game.

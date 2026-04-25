@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Raiser Games
 developer: U-Play online
 genre: Adventure, Strategy, Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "October 19, 2021"
 game_modes: ["Single player"]
 languages: ["English","Spanish - Spain","French","Italian","German","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0f6c0868e87ee149dfe7444702f7436b36439ea2235e408e1baada25da6ac92f.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.fc36e6d2-9ee9-4ff8-a5f5-1600eb62bb9d"
 is_featured: false
+owned: true
 ---
 
 Become the trendiest youtuber in the world and live your dream. Make friends, deal with rivals, attend events, film and edit videos, and share it all !! Fame, Fortune and Fans are waiting for you.

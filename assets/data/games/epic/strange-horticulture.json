@@ -35,10 +35,106 @@
   "shortname": "fe5d52fb67b949ec9ea8b5ea70824059",
   "publisher": "Iceberg Interactive",
   "developer": "Bad Viking",
-  "releasedate": "2022-01-21T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Puzzle, Simulator",
+  "releasedate": "2022-01-21T14:00:00.000Z",
+  "genre": "Exploration, Simulation, Puzzle",
   "description": "An occult puzzle game in which you play as the proprietor of a local plant store. Find and identify new plants, pet your cat, speak to a coven, or join a cult. Use your collection of powerful plants to influence the story and unravel Undermere’s dark mysteries.",
   "size": "283214202\n",
+  "franchise": "Strange Horticulture",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 186597,
+  "igdb_url": "https://www.igdb.com/games/186597",
+  "giveaway_events": [
+    {
+      "start": "2025-08-21T15:00:00.000Z",
+      "end": "2025-08-28T15:00:00.000Z",
+      "type": null,
+      "id": "0d9a533f0e684cc18620a8f408e8e72c"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "An occult puzzle game in which you play as the proprietor of a local plant store. Find and identify new plants, pet your cat, speak to a coven, or join a cult. Use your collection of powerful plants to influence the story and unravel Undermere’s dark mysteries.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/e7c78884cac0d381fb0bea9a567e19b5287c7d50898d568ee8bd12a3a16a755b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6e4b731f73ba7e7bd2a4bdfa0856f1e2b0ff544f7d4da96267b2e37b03d0fa47.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9ef214fd189fdcd12ec9707ec516e21b896c3e039e0c6399091da8c4246c9506.jpg?namespace=gamesdb",
@@ -54,15 +150,16 @@
   ],
   "metacritic_score": 83,
   "metacritic_url": "https://www.metacritic.com/game/pc/strange-horticulture?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 103015,
+  "hltb_main": "5.5 hrs",
+  "hltb_main_extra": "6.5 hrs",
+  "hltb_completionist": "9 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/103015",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-23T03:13:13.159Z",
-  "updated_at": "2025-09-04T23:47:35.950Z"
+  "updated_at": "2026-04-25T05:52:44.912Z"
 }

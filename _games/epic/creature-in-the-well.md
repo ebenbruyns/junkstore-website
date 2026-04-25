@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Flight School Studio, MWM Interactive
 developer: Flight School Studio
-genre: "Adventure, Indie, Puzzle, Arcade, Pinball, Hack and slash/Beat 'em up, Fighting"
-release_date: "September 6, 2019"
+genre: Action, Indie
+franchise: 
+age_rating_summary: 
+release_date: "March 26, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2021-03-24T15:00:00.000Z","end":"2021-03-31T15:00:00.000Z","type":null,"id":"000f9a594ed44b3981272946d330d968"}]
 
 # Images
 banner_image: "https://images.gog.com/d3cb527298a645dae23380c0d7ecdc84ad6c8e8eacd8abdc12b16f3e6f0f1ff2.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/68145"
 store_url: "https://store.epicgames.com/en-US/p/creature-in-the-well"
 protondb_url: "https://www.protondb.com/app/852300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Creature_in_the_Well"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/creature-in-the-well?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "a579a08e71b341e6af106dbd170e2ab2"
 is_featured: false
+owned: false
 ---
 
-A top-down, pinball-inspired hack and slash dungeon crawler. Venture deep into a desert mountain to restore power to an ancient facility.
+As the last remaining BOT-C unit, venture deep into a desert mountain to restore power to an ancient facility, haunted by a desperate Creature. Uncover and upgrade powerful gear in order to free the city of Mirage from a deadly sandstorm.

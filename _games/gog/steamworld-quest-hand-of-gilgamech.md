@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Thunderful
 developer: "Image & Form"
 genre: Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "April 25, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b25f24d9aa1458db8de89a8fc3777b88a7aca7c5377006ccd0b950b1292befd8.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/66603"
 store_url: "https://www.gog.com/en/game/steamworld_quest_hand_of_gilgamech"
 protondb_url: "https://www.protondb.com/app/804010"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SteamWorld_Quest%3A_Hand_of_Gilgamech"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1941294775"
 is_featured: false
+owned: true
 ---
 
 SteamWorld Quest is the roleplaying card game you’ve been waiting for! Lead a party of aspiring heroes through a hand-drawn world and build, craft and upgrade your party’s decks in order to stop an ancient menace…

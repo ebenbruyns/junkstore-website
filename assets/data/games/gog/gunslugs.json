@@ -39,6 +39,17 @@
   "genre": "Action, Indie",
   "description": "Lock and load for chaotic, fast-paced action in Gunslugs! Battle the evil Black Duck Army across wild, procedurally generated levels packed with explosions, jetpacks, chicken guns, and rogue-like permadeath. Unlock heroes, conquer bizarre worlds, and fight your way to the gates of Hell!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/371890/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/371890/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/371890/capsule_231x87.jpg",
@@ -54,6 +65,7 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/gunslugs/",
+  "hltb_id": 16882,
   "hltb_main": "",
   "hltb_main_extra": "5 hrs",
   "hltb_completionist": "",
@@ -65,5 +77,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-27T06:10:33.566Z",
-  "updated_at": "2026-04-24T02:44:06.939Z"
+  "updated_at": "2026-04-25T05:53:39.751Z"
 }

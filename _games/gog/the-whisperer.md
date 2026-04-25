@@ -17,9 +17,15 @@ proton_version: ""
 publisher: "Studio Chien d'Or"
 developer: "Studio Chien d'Or"
 genre: Adventure, Indie, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "December 16, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/bcc03b16afe808c7cc7a114891a4de281668204b9acf6c58b48db45a1d087126.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/101553"
 store_url: "https://www.gog.com/en/game/the_whisperer"
 protondb_url: "https://www.protondb.com/app/2329580"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Whisperer"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1426240474"
 is_featured: false
+owned: true
 ---
 
 Explore an abandoned trading post and solve a complex puzzle to investigate the terrible secret it holds. The Whisperer is a short story-driven point & click game set in Lower Canada at the beginning of the 19th century.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Abstraction Games, LOOT Interactive, Akupara Games, Night Light Interactive
 developer: Night Light Interactive
 genre: Role-playing (RPG), Adventure, Indie, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "May 17, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/77cc298fc9435d0eeac5d5aad24988b87012655dbaf794b5285e7081972802ab.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/19502"
 store_url: "https://www.gog.com/en/game/whispering_willows"
 protondb_url: "https://www.protondb.com/app/288060"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Whispering_Willows"
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/pc/whispering-willows?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1340051324"
 is_featured: false
+owned: true
 ---
 
 Young Elena Elkhorn embarks on a harrowing journey to find her missing father and discover the secrets of the Willows Mansion. Aiding her journey is a unique amulet, she received from her father, which allows her to astral project her spirit into a ghostly-realm and communicate with the dead. Play as Elena to find her missing father, use your astral projection to solves the mansion's tricks and puzzles, help the lingering souls and discover so much more in Whispering Willows.

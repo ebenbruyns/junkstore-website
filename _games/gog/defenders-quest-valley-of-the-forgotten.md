@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Level Up Labs
 developer: Level Up Labs
 genre: role-playing-rpg, strategy, indie
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/587b853226fc19d32a44c6eefdf82ffdede50368d4aef2b101c5b5938ff82cd8.jpg?namespace=gamesdb"
@@ -56,9 +62,9 @@ hltb_url: "https://howlongtobeat.com/game/2409"
 store_url: "https://www.gog.com/en/game/defenders_quest"
 protondb_url: "https://www.protondb.com/app/218410"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Defender%27s_Quest%3A_Valley_of_the_Forgotten"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/defenders-quest/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version. It does require touch screen for some input.
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659129"
 is_featured: false
+owned: false
 ---
 
 Defender's Quest is a tower defense and RPG hybrid that features classic tower defense gameplay intermingled with RPG mechanics.

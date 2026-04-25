@@ -14,12 +14,18 @@ date_tested: "Aug '24"
 proton_version: ""
 
 # Game Info
-publisher: MacPlay, Interplay Entertainment, Bethesda Softworks
-developer: Black Isle Studios
-genre: Role-playing (RPG), Turn-based strategy (TBS), Puzzle
-release_date: "October 29, 1998"
+publisher: Bethesda Softworks
+developer: Bethesda Game Studios
+genre: RPG, Open World
+franchise: Fallout
+age_rating_summary: ESRB Mature 17+
+release_date: "October 21, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/14"
+was_free_before: true
+giveaway_events: [{"start":"2022-12-21T15:00:00.000Z","end":"2022-12-22T15:00:00.000Z","type":null,"id":"f7eb422464774537915ee423ca84a59a"}]
 
 # Images
 banner_image: "https://images.gog.com/4c90ad70de415389c3456a5c75c94386aac94546c0be48ff964113ef8dbe04c1.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "74034e8449f2470d9f45115f3a49f9aa"
 is_featured: false
+owned: true
 ---
 
-A turn-based tactical Western RPG in which the Chosen One is tasked with exploring post-nuclear California to locate and retrieve the fabled Garden of Eden Creation Kit for their famine-stricken tribe, while coming into contact through branching dialogue trees with numerous tribes, factions and micro-civilizations, each with their own virtues, vices, socioeconomic situations and political agendas.
+Fallout® 2 is the sequel to the critically acclaimed game that took RPG'ing out of the dungeons and into a dynamic, apocalyptic retro-future. Mastering your character's skills and traits for survival, Fallout® 2 challenges you to endure in a post-nuclear world

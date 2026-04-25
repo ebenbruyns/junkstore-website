@@ -39,6 +39,83 @@
   "genre": "Role-playing (RPG), Adventure, Puzzle, Shooter",
   "description": "Deus Ex: Mankind Divided directly follows the aftermath of the Aug Incident, a day when mechanically augmented citizens all over the world were stripped of control over their minds and bodies, resulting in the deaths of millions of innocents. The year is now 2029, and the golden era of augmentations is over. Mechanically augmented humans have been deemed outcasts and segregated from the rest of society. Crime and acts of terror serve as a thin veil to cover up an overarching conspiracy aimed at controlling the future of mankind…",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 9498,
+  "igdb_url": "https://www.igdb.com/games/9498",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Now an experienced covert operative, Adam Jensen is forced to operate in a world that has grown to despise his kind. Armed with new state-of-the-art weapons and augmentations, he must choose the right approach, along with who to trust, to unravel a vast worldwide conspiracy.",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/8a612a80a3113cfba87f451255ec70e6f7dfb89ce5e6cb53e83b8fb91e840393.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/21ec85441cb163bf77f5b5934854b35d50df833d6233a702f3b5d995f4bd65fd.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f8981a8d45ada3097eecf4f5823564e605c9710fdaafb1a67e4431a1e6d990e1.jpg?namespace=gamesdb",
@@ -58,6 +135,7 @@
   ],
   "metacritic_score": 83,
   "metacritic_url": "https://www.metacritic.com/game/pc/deus-ex-mankind-divided?ftag=MCD-06-10aaa1f",
+  "hltb_id": 25434,
   "hltb_main": "15.5 hrs",
   "hltb_main_extra": "31 hrs",
   "hltb_completionist": "52.5 hrs",
@@ -69,5 +147,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-02-07T04:13:17.318Z"
+  "updated_at": "2026-04-25T00:41:45.742Z"
 }

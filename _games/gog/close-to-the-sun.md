@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Wired Productions
 developer: Storm in a Teacup
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "May 2, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1845a1df807126a4cd2f0c981f7f4a5cd3774cca2ab764826ad082930e60d530.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/66966"
 store_url: "https://www.gog.com/en/game/close_to_the_sun"
 protondb_url: "https://www.protondb.com/app/968870"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Close_to_the_Sun"
 metacritic_score: 66
 metacritic_url: "https://www.metacritic.com/game/pc/close-to-the-sun?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1785804341"
 is_featured: false
+owned: true
 ---
 
 Close to the Sun is a story-driven horror game that takes place at the turn of the 20th century on a mysterious ship complex created by Nikola Tesla for the sake of knowledge. In this alternative version of history, his scientific breakthroughs have already had a major impact on the world. You’re a young journalist looking for your sister and, as you approach this enormous and glorious complex for the first time, you quickly realize that something there has gone horribly wrong..."

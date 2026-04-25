@@ -17,9 +17,15 @@ proton_version: ""
 publisher: CD Projekt
 developer: CD Projekt RED
 genre: Role-playing (RPG), Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "April 17, 2012"
 game_modes: ["Single player"]
 languages: ["English*","German*","French*","Spanish - Spain","Russian*","Czech","Hungarian","Japanese","Polish*","Turkish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a75bf0ef0609e5ab5d729e2809bb0eadec0a1bfece4912f98472aaafd3c6c6bc.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658930"
 is_featured: false
+owned: true
 ---
 
 A time of untold chaos has come. Mighty forces clash behind the scenes in a struggle for power and influence. The Northern Kingdoms mobilize for war. But armies on the march are not enough to stop a bloody conspiracy...

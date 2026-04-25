@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Quinn K.
 developer: Jack King-Spooner, Quinn K.
 genre: Indie, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "April 9, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1817470/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "607041"
 is_featured: false
+owned: true
 ---
 
 A branching-path narrative horror RPG set in Vienna, Austria. Guide the Unnamed through the worst night of their life: Harass your neighbours. Debate with birds. Smoke to survive.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Empire Interactive, Strategy First, Konami
 developer: Bugbear Entertainment
 genre: sport, simulator
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/95b6235b1dfad1c1cc09f5075929debce5b19e935f19c081b93d448d20969cd0.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/3586"
 store_url: "https://www.gog.com/en/game/flatout"
 protondb_url: "https://www.protondb.com/app/6220"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FlatOut"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/flatout?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658693"
 is_featured: false
+owned: false
 ---
 
 FlatOut is adrenaline-filled muscle car racing game packed with explosive physics, spectacular effects and graphics, innovative game play mechanics and good old fun!

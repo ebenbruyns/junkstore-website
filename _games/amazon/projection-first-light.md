@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Blowfish Studios
 developer: Sweaty Chair, Shadowplay Studios
 genre: Adventure, Indie, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "September 19, 2019"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Portuguese - Brazil","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/fb1f2a0d250c3db864ab1150c144804b06ae039586fc0e6ada47d5b43c224a19.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.6eaf9ea8-c5ea-4628-bb56-e37c96e01347"
 is_featured: false
+owned: true
 ---
 
 Projection: First Light follows Greta on a puzzle-platforming adventure through a mythological shadow puppet world, as she embarks on a journey across cultures meeting legendary heroes.

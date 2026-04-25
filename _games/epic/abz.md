@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: 505 Games
 developer: Giant Squid
-genre: Adventure, Indie, Puzzle
-release_date: "Invalid Date"
+genre: Exploration, Adventure
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "August 3, 2016"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
+tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2020-10-07T15:00:00.000Z","end":"2020-10-14T15:00:00.000Z","type":null,"id":"dedd448c38d947ab90291540f183378b"},{"start":"2019-09-04T15:00:00.000Z","end":"2019-09-11T15:00:00.000Z","type":null,"id":"dedd448c38d947ab90291540f183378b"}]
 
 # Images
 banner_image: "https://images.gog.com/5472edaf333ac08030cc159aee1a9e3f81074890913bf7204fa45b2d7752a3a4.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Curry"
 is_featured: false
+owned: false
 ---
 
-Abzu is an exploration game where you are a lone diver in a lush ocean world. The diver descends deeper and deeper into the depths...
+From the art director of Journey® and Flower®, ABZÛ is a beautiful underwater adventure that evokes the dream of diving.

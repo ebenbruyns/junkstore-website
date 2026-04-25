@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Akupara Games
 developer: Clover Bite
 genre: Role-playing (RPG), Adventure, Indie, Platform
+franchise: 
+age_rating_summary: ESRB Teen
 release_date: "August 2, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Simplified Chinese","Korean","Portuguese - Brazil","Russian"]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
+igdb_url: "https://www.igdb.com/games/121295"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/6755f39d7c413e430baa78d775d543e228e58b75775fc71c993cb0a5ebdbff8c.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.a533b569-f163-4ad9-b0dc-e6c069695a72"
 is_featured: false
+owned: true
 ---
 
-Explore a surreal world obsessed with proportions and anatomy, in this 2.5D Metroidvania action RPG, where you will find out what you're made of... and break everything else apart.
+GRIME is a fast, unforgiving Action-Adventure RPG in which you crush your foes with living weapons that mutate form and function, and then consume their remains with a black hole to strengthen your vessel as you break apart a world of anatomical intrigue.

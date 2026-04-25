@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 101XP
 developer: Trinity Team
 genre: Adventure, Indie, Platform, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "October 14, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/ad016e3fb80d69d0e84ab69ef01e4337839b020d07a5ee8749db4e12420bed6d.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/99189"
 store_url: "https://www.gog.com/en/game/the_darkest_tales_into_the_nightmare"
 protondb_url: "https://www.protondb.com/app/1307690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Darkest_Tales"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/pc/the-darkest-tales?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1358213898"
 is_featured: false
+owned: true
 ---
 
 When a nightmare creeps into reality, the only ones that can help are those whose magical powers we’ve believed in since childhood. A brave teddy bear and his fairy sidekick head to the darker side of “happily ever after” to rescue his owner, Alicia.

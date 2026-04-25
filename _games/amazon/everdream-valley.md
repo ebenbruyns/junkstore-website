@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Varsav Game Studios, Untold Tales
 developer: Mooneaters
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Arcade, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "May 30, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Polish","Korean","Portuguese - Brazil","Simplified Chinese","Spanish - Latin America","Japanese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/47a2d5f2acff19aba74f7436a0a00cf150c5a4d3fc0571147fd70dbf85da30a7.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.65f323b0-349c-4273-83be-8ac8456173a0"
 is_featured: false
+owned: true
 ---
 
 A farming adventure with a dash of magic. By day, restore your quaint homestead into a summer paradise. Raise crops, care for animals and rebuild to your heart's content. At night inhabit the various farmland creatures through your dreams and bring enchantment to the valley.

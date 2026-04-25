@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Blacklight Interactive, Team17
 developer: Blacklight Interactive
 genre: Strategy, Indie, Sport, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "January 29, 2016"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/5e108e41584351b1d7a2a8c90eae1b198ab0cec7698e402c4001e8409fa283f5.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/34956"
 store_url: "https://www.gog.com/en/game/golf_with_your_friends"
 protondb_url: "https://www.protondb.com/app/431240"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Golf_with_Your_Friends"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1265338731"
 is_featured: false
+owned: true
 ---
 
 Why have friends if not to play golf... with your friends! Nothing is out of bounds as you take on courses filled with fast paced, exciting, simultaneous mini golf for up to 12 players!

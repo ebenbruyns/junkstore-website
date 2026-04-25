@@ -35,10 +35,75 @@
   "shortname": "81fbec1949fb4458bbe5c2711d0d64f6",
   "publisher": "Frozenbyte",
   "developer": "Frozenbyte",
-  "releasedate": "Aug 20, 2015",
-  "genre": "Action, Adventure, Indie",
-  "description": "Trine 3: The Artifacts of Power is a platforming game of action, puzzles and adventure, and the sequel to the award winning Trine and Trine 2. Reunite with the three heroes in an all-new adventure, now for the first time in full 3D!",
+  "releasedate": "2025-12-31T16:00:00.000Z",
+  "genre": "Puzzle, Action-Adventure, Platformer",
+  "description": "Trine 3: The Artifacts of Power is a 3D platforming game of action, puzzles and adventure. \n\nThe heroes return their extraordinary gifts to the Artifact called Trine, and so they meddle with powers beyond their understanding: Trine shatters, and an ancient sorcerer escapes!",
   "size": "",
+  "franchise": "Trine",
+  "tags_structured": [
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 8255,
+  "igdb_url": "https://www.igdb.com/games/8255",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Trine 3: The Artifacts of Power is a 3D platforming game of action, puzzles and adventure. \n\nThe heroes return their extraordinary gifts to the Artifact called Trine, and so they meddle with powers beyond their understanding: Trine shatters, and an ancient sorcerer escapes!",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/319910/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/319910/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/319910/capsule_231x87.jpg",
@@ -63,6 +128,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -73,5 +139,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-31T07:29:19.128Z",
-  "updated_at": "2026-02-07T22:06:38.395Z"
+  "updated_at": "2026-04-25T02:17:41.899Z"
 }

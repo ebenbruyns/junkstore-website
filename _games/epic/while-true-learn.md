@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Nival
 developer: Luden.io
-genre: Indie, Puzzle, Simulator
-release_date: "January 17, 2019"
+genre: Simulation, Puzzle
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "December 3, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1102","name":"Programming"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/76840"
+was_free_before: true
+giveaway_events: [{"start":"2021-12-01T15:00:00.000Z","end":"2021-12-08T15:00:00.000Z","type":null,"id":"154108003e4e4f099634188deb9a01b8"}]
 
 # Images
 banner_image: "https://images.gog.com/df55f7d291e1b1c4885f77611e7e02cbe5518c97e65fbc46ed201b66ff126348.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "6.7 hrs"
+hltb_main_extra: "9 hrs"
+hltb_completionist: "14.1 hrs"
+hltb_url: "https://howlongtobeat.com/game/56591"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/while-true-learn"
 protondb_url: "https://www.protondb.com/app/619150"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/While_True%3A_learn%28%29"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/while-true-learn()?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "4f272a49a39742b795d63e1f483a7c7d"
 is_featured: false
+owned: true
 ---
 
-You're a machine learning specialist who makes neural networks but your cat seems to be better at it. Now you must solve puzzles to build a cat-to-human translation system (who knows what else this cat is capable of!). Earn a fortune, buy kickass cat outfits and learn how machine learning really works!
+You’re a machine learning specialist who makes neural networks but your cat seems to be better at it. Now you must solve puzzles to build a cat-to-human translation system. Earn a fortune, buy kickass cat outfits and learn how machine learning really works!

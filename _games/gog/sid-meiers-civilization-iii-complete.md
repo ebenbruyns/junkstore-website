@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 2K Games
 developer: Firaxis Games
 genre: Strategy, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "September 14, 2004"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/dd06cc7ab1cb3fb3e0ac1da277eed322af404818017e1079b99a5c6c381719b2.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/8502"
 store_url: "https://www.gog.com/en/game/sid_meiers_civilization_iii_complete"
 protondb_url: "https://www.protondb.com/app/3910"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sid_Meier%27s_Civilization_III"
 metacritic_score: 90
 metacritic_url: "https://www.metacritic.com/game/pc/sid-meiers-civilization-iii?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1471405734"
 is_featured: false
+owned: true
 ---
 
 Sid Meier's Civilization III: Complete, the latest offering in the Sid Meier's Civilization III franchise, provides gaming fans with Sid Meier's Civilization III, the highly-addictive journey of discovery, combined with the updated and enhanced multiplayer expansion pack Sid Meier's Civilization III: Play the World*, as well as all of the great new civilizations, scenarios, and features from Sid Meier's Civilization III: Conquests! Sid Meier's Civilization III: Complete provides more ways to explore, more strategies to employ, more modes of play, and more ways to win, all in one box!

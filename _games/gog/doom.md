@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Bethesda Softworks
 developer: id Software
 genre: puzzle, shooter
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7de6eafaab82033d8fc39f4a201f385fc00bd2410bcede1cb0cbb337e65308c5.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/2708"
 store_url: "https://www.gog.com/en/game/doom_2016"
 protondb_url: "https://www.protondb.com/app/379720"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doom_%282016%29"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/doom?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1390579243"
 is_featured: false
+owned: true
 ---
 
 Developed by id software, the studio that pioneered the first-person shooter genre and created multiplayer Deathmatch, Doom returns as a brutally fun and challenging modern-day shooter experience.

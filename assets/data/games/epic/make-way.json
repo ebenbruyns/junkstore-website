@@ -33,12 +33,132 @@
   "cant_test_linux": false,
   "databaseId": "4ff6e3e8e29a4c94a177af77baba1fde",
   "shortname": "4ff6e3e8e29a4c94a177af77baba1fde",
-  "publisher": "Secret Mode",
-  "developer": "Ice BEAM",
-  "releasedate": "08-2025",
-  "genre": "Action Party Racing",
+  "publisher": "Ice BEAM",
+  "developer": "Secret Mode",
+  "releasedate": "2025-08-28T15:00:00.000Z",
+  "genre": "Action, Party, Racing",
   "description": "Speed around loops, dart through train crossings, drift around helter skelters, and unleash wacky weaponry in this modern take on classic top-down multiplayer racing games. The twist? You build the track.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "39940",
+      "name": "Gift A Game"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1110",
+      "name": "Party"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1110",
+      "name": "Party"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2025-08-28T15:00:00.000Z",
+      "end": "2025-09-04T15:00:00.000Z",
+      "type": null,
+      "id": "5e416c7c1444483e828899b0c30ce2cd"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Speed around loops, dart through train crossings, drift around helter skelters, and unleash wacky weaponry in this modern take on classic top-down multiplayer racing games. The twist? You build the track.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/1e68c542d43427da6716a2cfc530a97024c9582ce11853f5fd67c617f028f140.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f2a33c7ad40ef06ea260e93f7ffa36df0f337773f66b2f691f8a585d2076401f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1e68c542d43427da6716a2cfc530a97024c9582ce11853f5fd67c617f028f140.jpg?namespace=gamesdb",
@@ -60,15 +180,16 @@
   ],
   "metacritic_score": 83,
   "metacritic_url": "https://www.metacritic.com/game/pc/make-way?ftag=MCD-06-10aaa1f",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
   "hltb_url": "",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-30T23:49:56.130Z",
-  "updated_at": "2025-09-07T03:46:17.032Z"
+  "updated_at": "2026-04-25T02:15:12.229Z"
 }

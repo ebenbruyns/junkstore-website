@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Among the Sleep: Enhanced Edition - Steam Deck Compatibility"
-game_title: "Among the Sleep: Enhanced Edition"
+title: "Among the Sleep - Enhanced Edition - Steam Deck Compatibility"
+game_title: "Among the Sleep - Enhanced Edition"
 slug: "among-the-sleep-enhanced-edition"
 storefront: "Epic"
 storefront_key: "epic"
@@ -14,12 +14,18 @@ date_tested: "Jan '26"
 proton_version: ""
 
 # Game Info
-publisher: SOEDESCO Publishing, Krillbite Studio
-developer: Krillbite Studio
-genre: Adventure, Puzzle
-release_date: "November 2, 2017"
+publisher: Krillbite Studio AS
+developer: Krillbite Studio AS
+genre: Horror, Adventure, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "October 22, 2021"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Norwegian","Russian","Czech","Hungarian","Turkish"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/7642"
+was_free_before: true
+giveaway_events: [{"start":"2021-10-20T15:00:00.000Z","end":"2021-10-27T15:00:00.000Z","type":null,"id":"2a112cd37b774426990583a259e25ef9"}]
 
 # Images
 banner_image: "https://images.gog.com/3ece1b173d341483a625f3c2be6837ddcd887bc3eac75e8c125e1b62e45bc5b4.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: true
 epic_achievements: true
 epic_offline_mode: true
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "aa78f7be2ee64193b6b6444c5fc50157"
 is_featured: false
+owned: true
 ---
 
 Among the Sleep: Enhanced Edition is a new and improved version of the award winning first person horror adventure. In the game you play as a small child trapped in a weird nightmare where you go looking for your mom.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Milkbag Games
 developer: Milkbag Games
 genre: Indie, Platform, Sport, Arcade, Racing
+franchise: 
+age_rating_summary: 
 release_date: "January 22, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/355820/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "356260"
 is_featured: false
+owned: true
 ---
 
 Grab your bike and hit the rails in FutureGrind, a stylish stunt-racer all about tricks, skill, and speed. Use your futuristic motorcycle to do crazy combos on tracks made of floating rails, but be careful: If you touch the wrong rail you'll explode! Only skilled players will earn endorsements from The Sponsors and make a name for themselves.

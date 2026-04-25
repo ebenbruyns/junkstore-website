@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Puzzle, Simulator",
   "description": "The highly popular and quirky, idle game that you want to actively keep playing. Explore, craft, gather & manage resources, find secrets and build your base out of nothing! Buy land to explore and expand!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/2c9c372e2469b81b23d2732c5d8c41cf32a2c1d538a836cb5d97834ff33d8fab.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2b29c682e62499dd223e658d7f8bb0f44fec12778762d007097f3c230904c0d2.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/66410f37e13b3b3544cf74557e1a88d044f95d0ee62ea1d480d0541d0fb9d5d2.jpg?namespace=gamesdb",
@@ -60,6 +71,7 @@
   ],
   "metacritic_score": 78,
   "metacritic_url": "https://www.metacritic.com/game/pc/forager?ftag=MCD-06-10aaa1f",
+  "hltb_id": 62412,
   "hltb_main": "15 hrs",
   "hltb_main_extra": "24.5 hrs",
   "hltb_completionist": "42.5 hrs",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-03-01T22:51:09.337Z"
+  "updated_at": "2026-04-25T00:41:59.694Z"
 }

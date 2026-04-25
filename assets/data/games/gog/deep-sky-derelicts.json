@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Card & Board Game",
   "description": "Deep Sky Derelicts will bring the players into the burdensome life of a society outcast, a scavenger trying to make a living, while aspiring for a better life of a full-fledged citizen. Players will be exploring derelict alien ships, fight, loot, hire mercenaries into their team, buy new weapons and upgrade their gear. The game’s retro-futuristic comic book aesthetic style creates a distinctive dark atmosphere of deep space, unknown locations and lost dystopian society. Rogue-like elements featuring such popular mechanics as procedurally-generated dungeons, turn-based combat with card-based actions and lethal threat lurking around every corner, are here to draw the players into an unforgiving, yet fascinating world with its own unique lore.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/c2945e0e1fa4f9690b485744d30e27331ec2f8acd6b3695438c77c2583119295.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/21cd60fb9287e3e5ebf58798cce3c7ee1daf9e8f8ddb7ed5972bc18274a5bc55.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/92f6c693dccaf7845187ab7682a41d40df4b76c12edad62e8774723db907010c.jpg?namespace=gamesdb",
@@ -57,6 +68,7 @@
   ],
   "metacritic_score": 70,
   "metacritic_url": "https://www.metacritic.com/game/pc/deep-sky-derelicts?ftag=MCD-06-10aaa1f",
+  "hltb_id": 53937,
   "hltb_main": "18.5 hrs",
   "hltb_main_extra": "24.5 hrs",
   "hltb_completionist": "27 hrs",
@@ -68,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-02-07T04:13:17.318Z"
+  "updated_at": "2026-04-25T00:41:42.734Z"
 }

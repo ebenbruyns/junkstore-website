@@ -17,9 +17,15 @@ proton_version: ""
 publisher: THQ
 developer: Volition
 genre: Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "October 14, 2008"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7c145ebbab453860f0ea02d907f4d964e8fdba5915af074238c6db9f18ddd2a8.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/8072"
 store_url: "https://www.gog.com/en/game/saints_row_2"
 protondb_url: "https://www.protondb.com/app/9480"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row_2"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/saints-row-2?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1430740458"
 is_featured: false
+owned: true
 ---
 
 After the events of the first game, the protagonist awakens from a coma to find that the Third Street Saints have all but disappeared. Much like Saints Row, you are charged with retaking the city from three rival gangs, only this time as the leader of the saints. While fighting the Sons of Samedi, The Brotherhood, and The Ronin, the Saints also antagonize the Ultor Corporation, which seeks to eradicate gang violence in Stilwater once and for all.

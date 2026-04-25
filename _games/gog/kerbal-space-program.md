@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Private Division
 developer: Squad
 genre: Indie, Simulator
+franchise: Kerbal Space Program
+age_rating_summary: 
 release_date: "April 27, 2015"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1281","name":"Space Sim"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1400","name":"Physics"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/3102"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4d2680caf0bda7eeb4f90e3d9bccba500629cb0ec267dd1ec15bd38c9edcfec0.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1429864849"
 is_featured: false
+owned: true
 ---
 
-In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics. Launch your Kerbal crew into orbit and beyond (while keeping them alive) to explore moons and planets in the Kerbol solar system, constructing bases and space stations to expand the reach of your expedition.
+In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.

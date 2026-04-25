@@ -35,10 +35,98 @@
   "shortname": "0074f9a4082041f1869d9d6f26b99521",
   "publisher": "AttritoM7 Productions",
   "developer": "AttritoM7 Productions",
-  "releasedate": "9 Sep, 2024",
-  "genre": "Action, Simulation, Strategy",
-  "description": "Zero Hour is a tactical FPS with online team-based game play that takes place in a variety of fictional locations interpreted in Bangladesh with Real-life scale &amp; resource management. It brings a grounded, close quarter combat experience to the game.",
+  "releasedate": "2025-11-13T16:00:00.000Z",
+  "genre": "First Person, Shooter",
+  "description": "Zero Hour is a tactical FPS with online team-based game play that takes place in a variety of fictional locations interpreted in Bangladesh with Real-life scale & resource management. It brings a grounded, close quarter combat experience to the game.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    },
+    {
+      "id": "21135",
+      "name": "Realistic Visuals"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1294",
+      "name": "First Person"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 146042,
+  "igdb_url": "https://www.igdb.com/games/146042",
+  "giveaway_events": [
+    {
+      "start": "2025-11-13T16:00:00.000Z",
+      "end": "2025-11-20T16:00:00.000Z",
+      "type": null,
+      "id": "639547f643c4440db499878634c22dd1"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Zero Hour is a tactical FPS with online team-based game play that takes place in a variety of fictional locations interpreted in Bangladesh with Real-life scale & resource management. It brings a grounded, close quarter combat experience to the game.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1359090/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1359090/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1359090/capsule_231x87.jpg",
@@ -58,6 +146,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -68,5 +157,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-13T23:34:09.087Z",
-  "updated_at": "2026-02-07T22:06:38.394Z"
+  "updated_at": "2026-04-25T02:16:39.762Z"
 }

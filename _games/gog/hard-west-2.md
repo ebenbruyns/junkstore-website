@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Good Shepherd Entertainment
 developer: Ice Code Games
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS), Tactical
+franchise: 
+age_rating_summary: 
 release_date: "August 4, 2022"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Russian","Simplified Chinese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/516cc9ae3a7516ab3cc055bb176e823d15622c43ea7a5df3a0e254afe1edd228.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1345516108"
 is_featured: false
+owned: true
 ---
 
 Hard West 2 is a supernatural journey to the dark heart of the West. With a gun full of lead and a fistful of witchcraft, raise an outlaw posse and chase down the devil to take back what’s yours.

@@ -39,6 +39,17 @@
   "genre": "Adventure, Shooter",
   "description": "In the remote and deadly Wild West, the outlaw McCall brothers are on a quest for the legendary Gold of Juarez. In their journey across a vast landscape, these lawless gunslingers will stop at nothing to achieve their goal. Arm yourself with pistols, cannons, machine guns and more as you strike out on a mission with two fearless compatriots whose bonds of blood are only strengthened by the blood they spill together.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/1d6300652495d557ffc4fcaa8c31b39f6bcbf1fff831419712a0708785c2f3e9.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2afe3c072092fbd0adb7b58838bd2adcb20060376bed48309c28d4fd0400c89f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/e5e7d02a3a5870e741727888817b363417130c6a8a26e7dcabba6b052a17aeae.jpg?namespace=gamesdb",
@@ -52,6 +63,7 @@
   ],
   "metacritic_score": 78,
   "metacritic_url": "https://www.metacritic.com/game/pc/call-of-juarez-bound-in-blood?ftag=MCD-06-10aaa1f",
+  "hltb_id": 1486,
   "hltb_main": "7.5 hrs",
   "hltb_main_extra": "8 hrs",
   "hltb_completionist": "12.5 hrs",
@@ -63,5 +75,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-12-16T03:29:19.185Z"
+  "updated_at": "2026-04-25T00:41:32.545Z"
 }

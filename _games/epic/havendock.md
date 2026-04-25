@@ -14,12 +14,18 @@ date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
-publisher: IndieArk
-developer: YYZ
-genre: Casual, Indie, Simulation, Strategy
-release_date: "April 22, 2025"
+publisher: Pretty Soon
+developer: YYZ Studio
+genre: Indie, Casual, Simulation
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "March 20, 2026"
 game_modes: ["Single-player"]
 languages: ["English","Japanese","Simplified Chinese","Traditional Chinese","Spanish - Spain","Thai","Ukrainian","French","German","Korean"]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/208652"
+was_free_before: true
+giveaway_events: [{"start":"2026-03-26T15:00:00.000Z","end":"2026-04-02T15:00:00.000Z","type":null,"id":"d7b336a5c49f4a14b16359193caeb296"}]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2020710/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "cadfdca223174573b3d4bbbfc0e3ddd1"
 is_featured: false
+owned: true
 ---
 
-A simulation game where you build a town in the middle of the sea. Reach self-sufficiency, invite travelers to join you, then manage their needs and research new facilities to keep them happy. Build a submarine and discover islands to produce increasingly complex resources.
+Breathe easy and thrive in this cozy colony sim. Build a haven for castaways, manage resources, live your best life on the ocean. Lead your humble settlement into a high-tech society.

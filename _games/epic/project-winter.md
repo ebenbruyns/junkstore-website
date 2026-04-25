@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Other Ocean Group
 developer: Other Ocean Interactive
-genre: Action, Adventure, Casual, Indie, Strategy
-release_date: "May 23, 2019"
+genre: Indie, Casual, Action-Adventure
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "September 19, 2025"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English","Simplified Chinese","Spanish - Latin America","French","Italian","German","Japanese","Korean","Russian","Portuguese - Brazil"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1296","name":"Casual"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"22776","name":"Cross Platform"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/111033"
+was_free_before: true
+giveaway_events: [{"start":"2025-09-18T15:00:00.000Z","end":"2025-09-25T15:00:00.000Z","type":null,"id":"185405ac2556457883827885b44e0e69"}]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/774861/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "31d26cc98fcd4aa9920315f03b55ad0b"
 is_featured: false
+owned: true
 ---
 
-Project Winter 2.0: Cabin Fever is an 8-player survival and social deception game where teamwork is vital, but betrayal is inevitable. Face the wilderness, uncover traitors, and survive paranoia in this streamlined yet chaotic multiplayer experience.
+In Project Winter, survival is just the beginning. Work with your friends to escape the icy wilderness, but don’t get too comfortable. Traitors lurk among you, ready to lie, sabotage, and turn even the closest of friends against each other. Who will you trust?

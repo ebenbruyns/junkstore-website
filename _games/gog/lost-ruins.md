@@ -17,9 +17,15 @@ proton_version: ""
 publisher: DANGEN Entertainment
 developer: Altari Games
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "May 13, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Japanese","Korean","Portuguese (Brazil)","Russian","Spanish","zh-Hans","zh-Hans"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/40d112a44ea3ed806a19cf1ab3a00ed7cfefd736b7541e87c5c9fb1c47ed04e3.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1166021990"
 is_featured: false
+owned: true
 ---
 
 Lost Ruins is a 2D side-scrolling survival action game, where you play as a young girl that has awoken in a strange and foreign place without her memories. With the aid of weapons, spells and tonics, and the guidance of the magical and mysterious Beatrice, you will explore a dark and dangerous world, battle hideous monsters, and topple incredible bosses.

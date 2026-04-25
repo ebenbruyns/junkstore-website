@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Disney
 developer: Lucasfilm
 genre: Shooter
+franchise: 
+age_rating_summary: 
 release_date: "February 24, 1998"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/26b1f2f4eb622fb14ca161bf54ce57597fbc93a4d58730944fcbcd3b9a696dde.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/9088"
 store_url: "https://www.gog.com/en/game/star_wars_jedi_knight_dark_forces_ii"
 protondb_url: "https://www.protondb.com/app/32380"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars%3A_Jedi_Knight_-_Dark_Forces_II"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/star-wars-jedi-knight-mysteries-of-the-sith/"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1422285784"
 is_featured: false
+owned: true
 ---
 
 Jedi Knight: Dark Forces II includes  Jedi Knight: Dark Forces II and  Jedi Knight - Mysteries of the Sith.

@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Farlight Games
 developer: Legou Games
-genre: Role-playing (RPG), Strategy, Real Time Strategy (RTS), MOBA
-release_date: "October 23, 2023"
+genre: RTS, Strategy, MOBA
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "October 26, 2023"
 game_modes: ["Massively Multiplayer Online (MMO)"]
 languages: ["English"]
+tags_structured: [{"id":"1120","name":"RTS"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"1275","name":"MOBA"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/230103"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "19d251f59bbb42e29abc42405f7c9c99"
 is_featured: false
+owned: true
 ---
 
-Call of Dragons is an MMO fantasy conquest game from the creators of Rise of Kingdoms, offering an incredible strategic combat experience.
+An MMO Fantasy Conquest Game by the RoK Team! Capture behemoths to fight. Use hero skills with allies. Deploy flying units over 3D terrain. Huge wars. Huge choices. Your journey starts here!

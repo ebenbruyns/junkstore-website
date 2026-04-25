@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Creative Forge Games
 developer: Strategy Labs
 genre: Strategy, Strategy, Strategy
+franchise: 
+age_rating_summary: 
 release_date: ""
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/e728c24a7e74db2f4db0f4d61538f3780f6c7bf853b21450122da5649d99aece.jpg?namespace=gamesdb"
@@ -56,19 +62,20 @@ hltb_url: "https://howlongtobeat.com/game/75946"
 store_url: "https://www.gog.com/en/game/builders_of_egypt_prologue"
 protondb_url: "https://www.protondb.com/app/1207590"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Builders_of_Egypt"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/search/builders%20of%20egypt%20prologue/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 
 # Meta
 database_id: "1212177362"
 is_featured: false
+owned: true
 ---
 
 Builders Of Egypt: Prologue is a city-building economic strategy taking place in the Nile Valley. Immerse yourself in a world full of pyramids, where you will become a part of the ancient world. Create history, be history!

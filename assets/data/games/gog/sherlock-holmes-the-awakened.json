@@ -39,6 +39,17 @@
   "genre": "adventure",
   "description": "Experience a nerve-racking Lovecraftian adventure, rebuilt from the ground up with modern graphics and gameplay. Become Sherlock Holmes...",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/761d502520e756d30ced2403c0e79b4b62a3a4492d9a9beb5c7324cd01f0bc28.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b09df46a13d7d8f09272f633da0435d8d1837f2a50fd01345a508767a73cc16c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6001eeb31a976342ab8c82a4ce42b9e5ecc58968e53e244b1a568ca3140bf810.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 72,
   "metacritic_url": "https://www.metacritic.com/game/sherlock-holmes-the-awakened-2007/",
+  "hltb_id": 8407,
   "hltb_main": "9 hrs",
   "hltb_main_extra": "10.5 hrs",
   "hltb_completionist": "10.5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-24T01:31:20.796Z"
+  "updated_at": "2026-04-25T00:47:07.457Z"
 }

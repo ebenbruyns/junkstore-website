@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Ben James
 developer: Ben James
 genre: Platform, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "May 7, 2021"
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/25110dc398372e2e3e524e2ea9554cc32088cdafa2f88555696f2b7096a6fdcb.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "758991"
 is_featured: false
+owned: true
 ---
 
 Battle your way through 3 realms of 'Sector 781', a pixel art platformer. Upgrade your character and weapons; collect shards to increase your energy supply. Use teleports to navigate around the realms. Shoot things that move and some that don't move. Activate checkpoints to save your position.

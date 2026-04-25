@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Microsoft Studios, Wired Productions, Flashbulb Games, Stage Clear Studios
 developer: Press Play, Flashbulb Games, Stage Clear Studios
 genre: Adventure, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "December 20, 2013"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0ec264971e7d788995e6a80ea04dedba9ccd3a8f12b0f05efcd3fb8640fc5031.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.bbdb2fca-2ca5-4589-ab85-857993089b4e"
 is_featured: false
+owned: true
 ---
 
 In its core Max: The Curse of Brotherhood is a physics-based puzzle/platformer and set in a 2.5D environment with a free and cinematic camera. The game has 7 chapters and 20 levels in total All levels are connected so the game feels like one long journey. Besides platforming, the gameplay twist is the magic marker which introduces a creative and open approach to how puzzles can be solved. Throughout the game the magic marker will gain different powers.

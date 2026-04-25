@@ -35,10 +35,98 @@
   "shortname": "7e3ea8e6a15542399541beda050c629c",
   "publisher": "Akupara Games",
   "developer": "Spooky Doorway",
-  "releasedate": "Jul 27, 2017",
-  "genre": "Adventure, Casual, Indie",
-  "description": "Grab your trench coat, tune your sixth sense and join the Darkside Division as they investigate the outright bizarre, the downright dangerous and the confusing cases of Twin Lakes. Flesh-hungry tentacles, mafian zombies, and the occasional missing sock are no match for The Darkside Detective.",
+  "releasedate": "2021-12-07T08:00:00.000Z",
+  "genre": "Exploration, Comedy, Adventure",
+  "description": "Grab your trench coat, tune your sixth sense and join the Darkside Division as they investigate the bizarre, the downright dangerous and the mildly confusing cases of Twin Lakes.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1116",
+      "name": "Comedy"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1116",
+      "name": "Comedy"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 35283,
+  "igdb_url": "https://www.igdb.com/games/35283",
+  "giveaway_events": [
+    {
+      "start": "2025-12-04T16:00:00.000Z",
+      "end": "2025-12-11T16:00:00.000Z",
+      "type": null,
+      "id": "537f9c03801d45c293b2a75eecd7170c"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Grab your trench coat, tune your sixth sense and join the Darkside Division as they investigate the bizarre, the downright dangerous and the mildly confusing cases of Twin Lakes.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/368390/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/368390/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/368390/capsule_231x87.jpg",
@@ -55,15 +143,16 @@
   ],
   "metacritic_score": 77,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-darkside-detective?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 47682,
+  "hltb_main": "3.5 hrs",
+  "hltb_main_extra": "5.5 hrs",
+  "hltb_completionist": "6.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/47682",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-07T08:12:51.814Z",
-  "updated_at": "2026-02-14T01:50:46.166Z"
+  "updated_at": "2026-04-25T05:53:47.522Z"
 }

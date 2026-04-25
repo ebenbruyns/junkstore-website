@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Orangepixel, HandyGames
 developer: Orangepixel
 genre: Shooter, Arcade, Roguelike
+franchise: 
+age_rating_summary: 
 release_date: "February 23, 2015"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1310521702"
 is_featured: false
+owned: true
 ---
 
 Control multiple heroes at once in this dungeon-crawling action adventure RPG, a mix of classic 80's Gauntlet-action and quests.

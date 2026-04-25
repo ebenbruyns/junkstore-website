@@ -17,9 +17,15 @@ proton_version: "Proton 9.0-4"
 publisher: Activision, Sierra Entertainment
 developer: Saber Interactive
 genre: puzzle, shooter
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4c1d0022dbb1f9d708bd5f297f444914c7bf287c2bbbaf55f8eba9194ba05146.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/10361"
 store_url: "https://www.gog.com/en/game/timeshift"
 protondb_url: "https://www.protondb.com/app/10130"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/TimeShift"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/timeshift?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1460032883"
 is_featured: false
+owned: false
 ---
 
 Master time to become the ultimate weapon! Dr. Aiden Krone has made a Time Jump across the space-time continuum - a reckless act with frightening consequences.

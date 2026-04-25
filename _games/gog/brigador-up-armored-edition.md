@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Stellar Jockeys
 developer: Stellar Jockeys
 genre: Action, Indie
+franchise: 
+age_rating_summary: 
 release_date: "June 2, 2016"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Italian","Simplified Chinese","Traditional Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/274500/library_hero.jpg"
@@ -58,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/274500"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Brigador:_Up-Armored_Edition"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/brigador-up-armored-edition/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1356485086"
 is_featured: false
+owned: true
 ---
 
 Pilot a mech to hunt down and destroy the oppressive government of a cyberpunk autocracy. In this fast-paced, top-down shooter, use overwhelming firepower to destroy columns of tanks and level buildings. Unlock up to 56 unique vehicles and 40 weapons.

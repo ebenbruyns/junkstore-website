@@ -5,13 +5,13 @@
   "protondb": "https://www.protondb.com/app/887450",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/tunche",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Tunche",
   "notes": "<strong>Works out of the box</strong> — no extra setup needed. Make sure you enable the EOS overlay.",
   "date_tested": "Nov '24",
-  "decky_rating": "Perfect",
-  "standalone_rating": "Perfect",
+  "decky_rating": "green",
+  "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "Native Steam Deck Controls",
@@ -33,12 +33,60 @@
   "cant_test_linux": false,
   "databaseId": "fd51551d919847beb178985f6daf0306",
   "shortname": "7e9ca4940ed0427699f687f538d8f72d",
-  "publisher": "HypeTrain Digital",
-  "developer": "LEAP Game Studios",
-  "releasedate": "2021-11-02T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Indie, Arcade, Hack and slash/Beat 'em up, Fighting",
-  "description": "Tunche is a charming, hand-drawn adventure that blends classic beat'em up brawler gameplay with roguelike elements, 4-player co-op and a pinch of shaman witchcraft. Master the ancient magical arts, defeat epic bosses and unravel the secrets of the mysterious Amazonian jungle!",
+  "publisher": "Hypetrain Digital LTD",
+  "developer": "Leap Game Studios",
+  "releasedate": "2021-11-02T17:00:00.000Z",
+  "genre": "Action",
+  "description": "Tunche is a charming hand-drawn action game with roguelike elements. Team up with your friends or play solo. Choose from 5 unique characters and restore peace in the Amazon rainforest!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 96092,
+  "igdb_url": "https://www.igdb.com/games/96092",
+  "giveaway_events": [
+    {
+      "start": "2023-03-29T15:00:00.000Z",
+      "end": "2023-04-05T15:00:00.000Z",
+      "type": null,
+      "id": "1cfc3e68b14940719bbc0bce58fae8a4"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Tunche is a charming hand-drawn action game with roguelike elements. Team up with your friends or play solo. Choose from 5 unique characters and restore peace in the Amazon rainforest!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a7d891b393f24ed69f690da8b7bcaee3473968328ce236d0b7989bb344ce16ee.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ecd4a6fef7c24663e12de51b5d82279411d55d394bdd6a3af9a12aed5b97f15c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/a5862997711a7e2313331a05f638b20e2db3117f8f4e61a0744f709c50857be0.jpg?namespace=gamesdb",
@@ -52,14 +100,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 76004,
+  "hltb_main": "8 hrs",
+  "hltb_main_extra": "11 hrs",
+  "hltb_completionist": "15 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/76004",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.970Z"
+  "updated_at": "2026-04-25T05:45:50.311Z"
 }

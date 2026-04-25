@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure",
   "description": "Heroes of the Lance is a side-scrolling action game. The game used actual Dungeons & Dragons statistics, with statistics for the characters exactly as they were in the rule books. Eight heroes from the Dragonlance novels series must be assembled for the quest, and only one is visible on the screen at a time; when one on-screen hero dies, the next in line appears.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/b2e3f613ffe1dc45eb5df02925a92915f515fab0fc35081313cc0b5ec46d7645.jpg?namespace=gamesdb",
   "banner_image": "",
   "icon_image": "",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/advanced-dungeons-and-dragons-heroes-of-the-lance/",
+  "hltb_id": 208,
   "hltb_main": "2 hrs",
   "hltb_main_extra": "2.5 hrs",
   "hltb_completionist": "3.5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-29T00:10:09.102Z",
-  "updated_at": "2026-04-23T23:32:21.257Z"
+  "updated_at": "2026-04-25T00:55:56.746Z"
 }

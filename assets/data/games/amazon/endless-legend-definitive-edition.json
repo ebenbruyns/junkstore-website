@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie",
   "description": "Endless Legend is the turn-based 4X fantasy strategy game from Amplitude Studios. Your home planet of Auriga is an inhospitable planet. As the leader of your people, it is your duty to protect and guide them... but you are not the only one trying to survive and thrive on this planet. Will you be remembered as the explorer who unlocked the secrets of Auriga, the magnate who mastered the subtle arts of diplomacy and trade, or the warmonger whose legacy was written in blood? The choice is yours.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/f74b1ce2d56b7324420579d59878d70be5734017df5a04aca69795f62e3306f3.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/261a9077e27c55e7a882bfbaca8e2f17a89cdfaaf254c7b8f159ab45791bcbf4.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f74b1ce2d56b7324420579d59878d70be5734017df5a04aca69795f62e3306f3.jpg?namespace=gamesdb",
@@ -58,6 +69,7 @@
   ],
   "metacritic_score": 82,
   "metacritic_url": "https://www.metacritic.com/game/pc/endless-legend?ftag=MCD-06-10aaa1f",
+  "hltb_id": 18226,
   "hltb_main": "15.5 hrs",
   "hltb_main_extra": "33.5 hrs",
   "hltb_completionist": "267 hrs",
@@ -67,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T09:19:58.301Z"
+  "updated_at": "2026-04-25T00:53:19.594Z"
 }

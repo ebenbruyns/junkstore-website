@@ -39,6 +39,17 @@
   "genre": "Indie, Shooter, Arcade",
   "description": "ZeroRanger is a vertically scrolling 2D shoot'em up with heavy emphasis on shooting, dodging and... mystery?\n\nA menacing alien threat, GREEN ORANGE, has begun its invasion. Only two secondary fighters remain against complete annihilation.\n\nBlast your way through enemy forces in order to unleash your fighter's latent potential, unlocking new weapons and abilities.\n\nBut as you grow stronger, so does your understanding of the true nature of your adversary...",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/f6bf9ce1246d7dd0ef12567e36f752fc63d34ef2ad36b8529dcc001ae1129eaf.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/809020/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/809020/capsule_231x87.jpg",
@@ -52,6 +63,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -61,5 +73,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:17.392Z",
-  "updated_at": "2025-11-24T01:59:23.615Z"
+  "updated_at": "2026-04-25T00:55:39.215Z"
 }

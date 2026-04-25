@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Pixmain
 developer: Darjeeling
 genre: Adventure, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1421790/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.79330d47-859b-4578-a519-0717bd0c44ea"
 is_featured: false
+owned: true
 ---
 
 Based on the bestseller, Pierre The Maze Detective, Labyrinth City is an adventure puzzle game in which you play Pierre, a detective, to retrieve a lost stone. Journey through 10 visually-stunning locations, you will explore universes while discovering Easter eggs and sublayers of the story.

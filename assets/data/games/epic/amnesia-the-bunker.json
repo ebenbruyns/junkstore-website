@@ -35,10 +35,90 @@
   "shortname": "44950011e7b544fc82c0a2e464b1afcd",
   "publisher": "Frictional Games",
   "developer": "Frictional Games",
-  "releasedate": "6 Jun, 2023",
-  "genre": "Action, Adventure, Indie",
-  "description": "Amnesia: The Bunker is a first-person horror game set in a WW1 bunker. A relentless, AI-driven monster stalks you. Survival depends on finding tools, crafting items, and keeping the lights on.",
+  "releasedate": "2023-06-06T07:00:00.000Z",
+  "genre": "Horror, Action-Adventure, First Person",
+  "description": "Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker.\n\nFace the oppressing terrors stalking in the dark. Search for and use the tools and weapons at your disposal. Keep the lights on at all costs and make your way out alive.",
   "size": "8.66 GB",
+  "franchise": "Amnesia",
+  "tags_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 228258,
+  "igdb_url": "https://www.igdb.com/games/228258",
+  "giveaway_events": [
+    {
+      "start": "2025-10-16T15:00:00.000Z",
+      "end": "2025-10-23T15:00:00.000Z",
+      "type": null,
+      "id": "7ae41233a8ad4fd4a2d5a415abd77d24"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker.\n\nFace the oppressing terrors stalking in the dark. Search for and use the tools and weapons at your disposal. Keep the lights on at all costs and make your way out alive.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1944430/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1944430/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1944430/capsule_231x87.jpg",
@@ -58,6 +138,7 @@
   ],
   "metacritic_score": 77,
   "metacritic_url": "https://www.metacritic.com/game/amnesia-the-bunker/",
+  "hltb_id": 117559,
   "hltb_main": "5.4 hrs",
   "hltb_main_extra": "7.4 hrs",
   "hltb_completionist": "13.5 hrs",
@@ -68,5 +149,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-14T02:53:42.561Z",
-  "updated_at": "2026-04-24T02:05:24.060Z"
+  "updated_at": "2026-04-25T02:15:50.731Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: GT Interactive Software
 developer: Cavedog Entertainment
 genre: Strategy
+franchise: 
+age_rating_summary: 
 release_date: "September 30, 1997"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b2f47feca825af0a81735b9a32403fc0373a8fb71baad9761bf41bbe624cd7ce.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658880"
 is_featured: false
+owned: true
 ---
 
 What began as a conflict over the transfer of consciousness from flesh to machines escalated into a war which has decimated a million worlds. The Core and the Arm have all but exhausted the resources of a galaxy in their struggle for domination. Both sides now crippled beyond repair, the remnants of their armies continue to battle on ravaged planets, their hatred fuelled by over four thousand years of total war. This is a fight to the death. For each side, the only acceptable outcome is the complete elimination of the other.

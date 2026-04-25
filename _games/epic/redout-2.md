@@ -14,12 +14,18 @@ date_tested: "Dec '25"
 proton_version: ""
 
 # Game Info
-publisher: Saber Interactive
-developer: 34BigThings srl
-genre: Arcade, Racing
-release_date: "June 16, 2022"
+publisher: 34BigThings SRL
+developer: 34BigThings
+genre: Racing
+franchise: Redout
+age_rating_summary: 
+release_date: "June 17, 2022"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/186059"
+was_free_before: true
+giveaway_events: [{"start":"2024-06-12T15:00:00.000Z","end":"2024-06-19T15:00:00.000Z","type":null,"id":"b77095c5a9224fbe8a7222db84675873"}]
 
 # Images
 banner_image: "https://images.gog.com/8ba5419da64d12275e2db9aae05631e9672a4e5fea588a4030154b08c8536b54.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
+hltb_main: "32.5 hrs"
+hltb_main_extra: "50 hrs"
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/105621"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/redout-2"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "16a37a0080e3414aafb30f1cc8390f6c"
 is_featured: false
+owned: true
 ---
 
-The fastest racing game in the universe. Redout 2 is a tribute to classic arcade racing games and the sequel to the critically acclaimed Redout. Reach impossible speeds in exhilarating futuristic races across an extensive single-player campaign and competitive multiplayer.
+The fastest racing game in the universe. Redout 2 is a tribute to classic arcade racing games and the sequel to the critically acclaimed Redout, where racing through the dystopian wastelands of a semi-abandoned Earth is one of the galaxy’s most popular sports.

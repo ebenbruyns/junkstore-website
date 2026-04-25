@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Square Enix
 developer: Ion Storm
 genre: Role-playing (RPG), Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "June 22, 2000"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4ac381235d5f48870fc757d99e3d5ad6c629f38e6c18f36e733413de007919d1.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/2486"
 store_url: "https://www.gog.com/en/game/deus_ex"
 protondb_url: "https://www.protondb.com/app/6910"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex"
 metacritic_score: 90
 metacritic_url: "https://www.metacritic.com/game/pc/deus-ex?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658995"
 is_featured: false
+owned: true
 ---
 
 The year is 2052 and the world is a dangerous and chaotic place. Terrorists operate openly - killing thousands; drugs, disease and pollution kill even more. The world's economies are close to collapse and the gap between the insanely wealthy and the desperately poor grows ever wider.

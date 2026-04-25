@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Frictional Games
 developer: The Chinese Room
 genre: Adventure, Indie, Puzzle
+franchise: Amnesia
+age_rating_summary: ESRB Teen
 release_date: "September 10, 2013"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/1882"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4ea58fc585d9489c56c49c30df97b44982af79c2af8a2664fd89a231607007cb.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/438"
 store_url: "https://www.gog.com/en/game/amnesia_a_machine_for_pigs"
 protondb_url: "https://www.protondb.com/app/239200"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia%3A_A_Machine_for_Pigs"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/amnesia-a-machine-for-pigs?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659443"
 is_featured: false
+owned: true
 ---
 
-From the creators of Amnesia: The Dark Descent and Dear Esther comes a new first-person horrorgame that will drag you to the depths of greed power and madness. It will bury its snout into your ribs and it will eat your heart.
+First-person horror that will drag you to the depths of greed, power and madness. Developed by The Chinese Room, the creators of Dear Esther, and published Frictional Games, the studio behind Amnesia: The Dark Descent.

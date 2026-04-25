@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Playmates Interactive Entertainment, Interplay Entertainment
 developer: Shiny Entertainment
 genre: platform, shooter
+franchise: 
+age_rating_summary: 
 release_date: "April 30, 1997"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c65d0f6c97ff8f1fcb1a22efb0547a55c40960a0b25cad310d1a91ec069dbe48.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/5750"
 store_url: "https://www.gog.com/en/game/mdk"
 protondb_url: "https://www.protondb.com/app/38450"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/MDK"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "6"
 is_featured: false
+owned: false
 ---
 
 The game tells the story of Kurt Hectic, a janitor who reluctantly must attempt to save Earth from an alien invasion of gigantic strip mining city-size vehicles named "Minecrawlers".

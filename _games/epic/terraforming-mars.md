@@ -14,12 +14,18 @@ date_tested: "Dec '24"
 proton_version: ""
 
 # Game Info
-publisher: Asmodee Digital
-developer: LUCKYHAMMERS Entertainment Inc.
-genre: Strategy, Simulator
-release_date: "October 17, 2018"
+publisher: Twin Sails Interactive
+developer: Artefacts Studio
+genre: Turn-Based, Strategy
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "May 6, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/86558"
+was_free_before: true
+giveaway_events: [{"start":"2022-05-04T15:00:00.000Z","end":"2022-05-11T15:00:00.000Z","type":null,"id":"f2496286331e405793d69807755b7b23"}]
 
 # Images
 banner_image: "https://images.gog.com/0221c50d07018c1013b13fe8ef4185ed548e673ad339fd9b94027e988ecf6693.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "2 hrs"
+hltb_main_extra: "8.5 hrs"
+hltb_completionist: "33.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/63476"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/terraforming-mars"
+store_url: "https://store.epicgames.com/en-US/p/terraforming-mars-18c3ad"
 protondb_url: "https://www.protondb.com/app/800270"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Terraforming_Mars"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,11 @@ known_issues:
 # Meta
 database_id: "582c8940f499450d9033840efe5937a6"
 is_featured: false
+owned: true
 ---
 
-The taming of the Red Planet has begun! Corporations are competing to transform Mars into a habitable planet by spending vast resources and using innovative technology to raise temperature, create a breathable atmosphere, and make oceans of water. As terraforming progresses, more and more people will immigrate from Earth to live on the Red Planet.
+The taming of the Red Planet has begun!
+
+Control your corporation, play project cards, build up production, place your cities and green areas on the map, and race for milestones and awards!
+
+Will your corporation lead the way into humanity's new era?

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Sierra Entertainment
 developer: Massive Entertainment
 genre: strategy
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Italian","Spanish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a13286653aca5db4ba3360eb84ce99f409b61804b1fddb13611d6edb83452e78.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1438332414"
 is_featured: false
+owned: false
 ---
 
 World in Conflict focuses on real-time tactics (RTT) gameplay, in a similar manner to Ground Control, a game developed by Massive Entertainment...

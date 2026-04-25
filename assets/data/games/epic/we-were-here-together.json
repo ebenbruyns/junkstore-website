@@ -35,10 +35,82 @@
   "shortname": "828b2ff07ee548f59b7e172b4b4c9686",
   "publisher": "Total Mayhem Games",
   "developer": "Total Mayhem Games",
-  "releasedate": "10 Oct, 2019",
-  "genre": "Adventure, Casual, Indie",
+  "releasedate": "2025-12-04T09:00:00.000Z",
+  "genre": "Puzzle, Adventure, Indie",
   "description": "As we explore these frozen wastes, misfortune strikes once again. Through the fierce blizzard, a flare lights the sky, followed by a cry for help over the radio - broken, dying... No one else can come to their rescue. Can we make it back - together?",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "39940",
+      "name": "Gift A Game"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21150",
+      "name": "Challenging Puzzles"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 109535,
+  "igdb_url": "https://www.igdb.com/games/109535",
+  "giveaway_events": [
+    {
+      "start": "2025-12-26T16:00:00.000Z",
+      "end": "2025-12-27T16:00:00.000Z",
+      "type": null,
+      "id": "231e8f6d250a453f9c44c0adf3a34656"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "As we explore these frozen wastes, misfortune strikes once again. Through the fierce blizzard, a flare lights the sky, followed by a cry for help over the radio - broken, dying... No one else can come to their rescue. Can we make it back - together?",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/865360/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/865360/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/865360/capsule_231x87.jpg",
@@ -61,6 +133,7 @@
   ],
   "metacritic_score": 77,
   "metacritic_url": "https://www.metacritic.com/game/pc/we-were-here-together?ftag=MCD-06-10aaa1f",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -71,5 +144,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-27T20:06:45.079Z",
-  "updated_at": "2026-02-07T22:06:38.394Z"
+  "updated_at": "2026-04-25T02:17:25.865Z"
 }

@@ -34,16 +34,74 @@
   "databaseId": "e08b5e314de7420aa1c05ac942c874ba",
   "shortname": "e08b5e314de7420aa1c05ac942c874ba",
   "publisher": "Netmarble Monster",
-  "developer": "Seed9",
-  "releasedate": "2026-04-02T00:00:00+0000",
-  "genre": "Casual Retro Simulation",
-  "description": "The legendary cult hit \"Tomak: Save the Earth\" arrives on the Epic Games Store! Nurture Evian, the Goddess of Love—trapped in a flowerpot—and save humanity from destruction. From divine ascension to total annihilation, every choice you make leads to a different destiny.",
+  "developer": "Netmarble Monster",
+  "releasedate": "2026-04-02T00:00:00.000Z",
+  "genre": "Casual, Simulation, Retro",
+  "description": "The legendary cult hit \"Tomak: Save the Earth\" arrives on the Epic Games Store!\nNurture Evian, the Goddess of Love—trapped in a flowerpot—and save humanity from destruction. From divine ascension to total annihilation, every choice you make leads to a different destiny.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "33639",
+      "name": "Promotional Content"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1198",
+      "name": "Retro"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1198",
+      "name": "Retro"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2026-04-02T00:00:00.000Z",
+      "end": "2026-04-16T15:00:00.000Z",
+      "type": null,
+      "id": "9f67865fcf0749a58f4d35827473266f"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "The legendary cult hit \"Tomak: Save the Earth\" arrives on the Epic Games Store!\nNurture Evian, the Goddess of Love—trapped in a flowerpot—and save humanity from destruction. From divine ascension to total annihilation, every choice you make leads to a different destiny.",
+  "use_rich_description": true,
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-820du.png",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-trf5s.png",
   "icon_image": "https://cdn1.epicgames.com/spt-assets/603c0097f96047c38bc199331b5cf95b/tomak--save-the-earth-regeneration-logo-k9ad9.png",
   "steamId": "",
-  "game_modes": [],
+  "game_modes": [
+    "Single Player"
+  ],
   "languages": [
     "Korean",
     "English",
@@ -51,6 +109,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/tomak-save-the-earth-regeneration/",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -61,5 +120,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-04-03T21:10:31.170Z",
-  "updated_at": "2026-04-20T00:50:30.178Z"
+  "updated_at": "2026-04-25T02:21:41.371Z"
 }

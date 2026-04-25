@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Frictional Games
 developer: Frictional Games
-genre: Adventure, Indie
-release_date: ""
-game_modes: []
+genre: Horror, Stealth, Adventure
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "January 1, 2099"
+game_modes: ["Single Player"]
 languages: ["English"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/584db6f4c45c4a08d46424df82e27e97a1f3b52f250038675d123e00f51018b9.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/80121"
 store_url: "https://store.epicgames.com/en-US/p/amnesia-rebirth"
 protondb_url: "https://www.protondb.com/app/999220"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia%3A_Rebirth"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/amnesia-rebirth?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "f59de18db4dc445f88ffeff24d081234"
 is_featured: false
+owned: true
 ---
 
 Amnesia: Rebirth, a new descent into darkness from the creators of the iconic Amnesia series. A harrowing journey through desolation and despair, exploring the limits of human resilience.

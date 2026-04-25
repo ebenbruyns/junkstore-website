@@ -17,9 +17,15 @@ proton_version: ""
 publisher: rokaplay
 developer: Alchemist Interactive
 genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "November 9, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","German","French","Italian","Spanish - Spain","Japanese","Simplified Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a9c611f1e7e9411fa4fd31700c7b8c8162185d2dc0bfae394303c013f93937c8.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1377413834"
 is_featured: false
+owned: true
 ---
 
 Spells & Secrets is a modern-day fantasy roguelike set in a procedurally generated wizarding school. Players can craft their own wizard using in-depth character creation, team up with a friend via local co-op, and get creative with an arsenal of physics-based magic, using clever combinations of spells to get the upper hand against puzzles and enemies alike.

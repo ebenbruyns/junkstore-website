@@ -17,9 +17,15 @@ proton_version: ""
 publisher: OceanAVN
 developer: OceanAVN
 genre: Adventure, Indie, RPG, Simulation, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "May 10, 2024"
 game_modes: ["Single-player"]
 languages: ["English","Spanish - Spain","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c92cebc8ee0eb653588c92ee3389e2b7080472291c689485b403c8e7b970eb09.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1384091612"
 is_featured: false
+owned: true
 ---
 
 Summer's Gone is a high-quality, Interactive Visual Novel. This game is about healing, hope, and love. Overcome obstacles together, face demons of the past, and eventually... be happy.

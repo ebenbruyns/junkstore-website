@@ -17,9 +17,15 @@ proton_version: ""
 publisher: THQ Nordic
 developer: Digital Reality
 genre: Action
+franchise: 
+age_rating_summary: 
 release_date: "July 31, 2017"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Portugal","Portuguese - Brazil","Simplified Chinese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/42800e8d721ae658713d496bca6af849c770a30f832a0d6d7f7bb50a4fc23107.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "22c10eeb-6b68-4b49-a025-e36af43f0bbf"
 is_featured: false
+owned: true
 ---
 
 Sine Mora EX is a side-scrolling shoot'em up that provides a unique challenge, where time is the ultimate factor. Mixing classic shooter sensibilities with contemporary presentation, Sine Mora is a gorgeous shoot'em up offering both a Story Mode that weaves an over-the-top tale and an Arcade Mode that provides deep, satisfying gameplay to challenge fans of the genre. The story mode can be also played in local co-op mode.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Deck13 Interactive, WhisperGames, DANGEN Entertainment, Mayflower Entertainment
 developer: Radical Fish Games
 genre: Role-playing (RPG), Adventure, Indie, Puzzle, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English","German","Simplified Chinese","Japanese","Korean"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/368340/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "19953"
 is_featured: false
+owned: true
 ---
 
 A retro-inspired 2D Action RPG set in the distant future. CrossCode combines 16-bit SNES-style graphics with butter-smooth physics, a fast-paced combat system, and engaging puzzle mechanics, served with a gripping sci-fi story.

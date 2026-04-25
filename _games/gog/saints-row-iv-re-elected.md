@@ -8,8 +8,8 @@ storefront_key: "gog"
 permalink: /games/gog/saints-row-iv-re-elected/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
 
@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Koch Media
 developer: Deep Silver
 genre: Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "May 9, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/1981"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/94a0d6b3fedfaa6d9e1a02e27dc334f35bc30c13455520a1a394d7ac6b3a50fd.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2037689757"
 is_featured: false
+owned: true
 ---
 
 The US President must save the Earth from alien overlord Zinyak using superpowers and strange weapons in the wildest open world game ever. Includes all available DLC!

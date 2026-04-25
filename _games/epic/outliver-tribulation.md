@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: GBROSSOFT
 developer: GBROSSOFT
-genre: Adventure, Indie, Shooter
-release_date: "July 18, 2023"
+genre: Horror, Action-Adventure, Shooter
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "July 19, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+igdb_url: "https://www.igdb.com/games/129234"
+was_free_before: true
+giveaway_events: [{"start":"2024-10-10T15:00:00.000Z","end":"2024-10-17T15:00:00.000Z","type":null,"id":"a4d3ae371e674ce3b2892d63c8bb4041"}]
 
 # Images
 banner_image: "https://images.gog.com/2881d09920792f3f9aff2070ea96589a6d38abc7d90cf097ccee4fc9ff871737.jpg?namespace=gamesdb"
@@ -47,13 +53,13 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "2.5 hrs"
+hltb_main_extra: "3.5 hrs"
+hltb_completionist: "3.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/111433"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/outliver-tribulation"
+store_url: "https://store.epicgames.com/en-US/p/outliver-tribulations-679884"
 protondb_url: "https://www.protondb.com/app/1236930"
 protondb_report_url: ""
 pcgamingwiki_url: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "f5b2bda11e0f4e22b552f03be3f15f62"
 is_featured: false
+owned: true
 ---
 
-Outliver: Tribulation is an atmospheric, story-driven survival horror action game where you play as Bolanle Gboyega a soldier who mysteriously finds herself in the Realm of Tribulations, a supernatural realm of African mythology where she soon discovers she has to undergo an ancient ritual in order to regain passage back to her realm… or so she thinks.
+A dark history comes calling in this "African Mythology meets Survival-Horror and Souls-like" experience! You play as the soldier who mysteriously ends up in a supernatural realm, of which her only way out is to partake in an ancient ritual... or so she believes.

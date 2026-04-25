@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Humble Games
 developer: Squid Shock Studios
 genre: Action, Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "July 17, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America","Korean","Traditional Chinese","Ukrainian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1614440/library_hero.jpg"
@@ -57,8 +63,8 @@ store_url: "https://www.gog.com/en/game/bo_path_of_the_teal_lotus"
 protondb_url: "https://www.protondb.com/app/1614440"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/B%C5%8D:_Path_of_the_Teal_Lotus"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 77
+metacritic_url: "https://www.metacritic.com/game/bo-path-of-the-teal-lotus/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1882554410"
 is_featured: false
+owned: true
 ---
 
 Flow gracefully through a colorful, hand-drawn 2.5D action platformer inspired by Japanese folklore. Engage in acrobatic aerial combat, unlock powerful mystical abilities, and explore an interconnected world of myth as you seek to unravel the mysteries of your origin.

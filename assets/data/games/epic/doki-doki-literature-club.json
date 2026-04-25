@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Doki_Doki_Literature_Club_Plus%21",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,102 @@
   "shortname": "c5109bdceb3a453bb38c2fdc964ddee8",
   "publisher": "Team Salvato",
   "developer": "Team Salvato",
-  "releasedate": "2017-09-22T00:00:00+0000",
-  "genre": "Adventure, Indie, Visual Novel",
-  "description": "The Literature Club is full of cute girls! Will you write the way into their heart? This game is not suitable for children or those who are easily disturbed.",
+  "releasedate": "2021-06-30T16:00:00.000Z",
+  "genre": "Horror, RPG",
+  "description": "Welcome to the club! Write poems for your crush and experience the terror of school romance in this critically-acclaimed psychological horror story.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 55935,
+  "igdb_url": "https://www.igdb.com/games/55935",
+  "giveaway_events": [
+    {
+      "start": "2024-02-07T15:00:00.000Z",
+      "end": "2024-02-14T15:00:00.000Z",
+      "type": null,
+      "id": "76cd108ce4354545bd825e181262dbad"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Welcome to the club! Write poems for your crush and experience the terror of school romance in this critically-acclaimed psychological horror story.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/2d07b27fbfb6007903d5b662933ce501e4b90c3ce8fc15753429f6e899dc78dc.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/389a2bce9d3aa944ea74d8c68c311352443788074fba3ffe5636bfff3c85a1bf.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7cd115a4191a350ecbc3f1be7686aa21457904ececedb9e4021a5c1ec0c8f9d0.jpg?namespace=gamesdb",
@@ -51,14 +143,15 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/pc/doki-doki-literature-club-plus!?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 93892,
+  "hltb_main": "4.5 hrs",
+  "hltb_main_extra": "8 hrs",
+  "hltb_completionist": "14.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/93892",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "updated_at": "2026-04-25T05:40:58.113Z"
 }

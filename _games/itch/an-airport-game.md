@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Konig Games
 developer: Konig Games
 genre: Role-playing (RPG), Adventure, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "December 29, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn2.steamgriddb.com/logo_thumb/85db553d33449400ad49117cfd638a08.png"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "541456"
 is_featured: false
+owned: true
 ---
 
 You've got one hour to make your flight and you're about to hit every conceivable airport related obstacle imaginable!

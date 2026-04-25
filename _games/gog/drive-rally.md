@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Pixel Perfect Dude
 developer: Pixel Perfect Dude
 genre: indie, sport, arcade, racing
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0b139a60510a2ac685b2cdb28875fbe6dc9faaafc08abe3a6c90f2df62e2c838.jpg?namespace=gamesdb"
@@ -57,8 +63,8 @@ store_url: "https://www.gog.com/en/game/drive_rally"
 protondb_url: "https://www.protondb.com/app/2494780"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Drive_Rally"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 63
+metacritic_url: "https://www.metacritic.com/game/drive-rally/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1511212118"
 is_featured: false
+owned: false
 ---
 
 Drive Rally lets you relive the 90s in the most exciting era in motorsport history, where dust, mud, and snow are badges of honor.

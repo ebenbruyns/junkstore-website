@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Activision, Sierra Entertainment, Vivendi Universal
 developer: Irrational Games
 genre: strategy, shooter, tactical
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0b41683ad50e7edea6c0f2407fa394952e7db90ad771066c195c5794183eac38.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/9498"
 store_url: "https://www.gog.com/en/game/swat_4_gold_edition"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SWAT_4"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/swat-4/"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1409964317"
 is_featured: false
+owned: false
 ---
 
 SWAT 4 Gold Edition includes the critically acclaimed SWAT 4 and its exciting new expansion pack, SWAT 4: The Stetchkov Syndicate.

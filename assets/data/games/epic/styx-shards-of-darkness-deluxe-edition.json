@@ -35,10 +35,98 @@
   "shortname": "e68e9229fd4a4a6c9a76038705ba6ae3",
   "publisher": "Nacon",
   "developer": "Cyanide Studio",
-  "releasedate": "14 Mar, 2017",
-  "genre": "Action, Adventure",
+  "releasedate": "2026-01-15T16:00:00.000Z",
+  "genre": "Fantasy, Action-Adventure, Stealth",
   "description": "Styx returns in a new stealth adventure! Explore and master huge open environments, sneak past or assassinate new enemies and bosses, and experiment with the new array of lethal abilities and weapons in our goblin assassin's arsenal.",
   "size": "",
+  "franchise": "Styx",
+  "tags_structured": [
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "1287",
+      "name": "Fantasy"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "19764",
+      "name": "Nacon Publisher Sale"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1287",
+      "name": "Fantasy"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 13554,
+  "igdb_url": "https://www.igdb.com/games/13554",
+  "giveaway_events": [
+    {
+      "start": "2026-01-15T16:00:00.000Z",
+      "end": "2026-01-22T16:00:00.000Z",
+      "type": null,
+      "id": "9b99ffa5a53e4317824f4ccb2b6e68d2"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Styx returns in a new stealth adventure! Explore and master huge open environments, sneak past or assassinate new enemies and bosses, and experiment with the new array of lethal abilities and weapons in our goblin assassin's arsenal.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/355790/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/355790/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/355790/capsule_231x87.jpg",
@@ -60,6 +148,7 @@
   ],
   "metacritic_score": 72,
   "metacritic_url": "https://www.metacritic.com/game/pc/styx-shards-of-darkness?ftag=MCD-06-10aaa1f",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -70,5 +159,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-16T01:54:04.067Z",
-  "updated_at": "2026-02-07T22:48:08.122Z"
+  "updated_at": "2026-04-25T02:17:57.886Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Kitfox Games
 developer: Kitfox Games
 genre: Role-playing (RPG), Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "March 10, 2016"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French*","German","Spanish - Spain","Portuguese - Brazil","Russian","Italian","Japanese","Simplified Chinese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/320040/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "54706"
 is_featured: false
+owned: true
 ---
 
 Moon Hunters is a procedural world to explore, populated with hand-crafted stories and memorable characters. From howling mountains to lapping ocean waves, the world of Moon Hunters is brimming with ancient stories and myths.

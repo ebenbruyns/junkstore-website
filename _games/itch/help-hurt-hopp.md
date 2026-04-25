@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Daniel Linssen
 developer: Daniel Linssen
 genre: Platformer
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Local multiplayer"]
 languages: []
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "279295"
 is_featured: false
+owned: true
 ---
 
 HOPP, HELP and HURT each have a different goal.

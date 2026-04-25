@@ -7,14 +7,14 @@
   "gog_url": "https://www.gog.com/en/game/gamedec",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gamedec",
   "notes": "Works out of the box!",
   "date_tested": "March '25",
   "decky_rating": "green",
   "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
   "requires_eos": false,
@@ -37,8 +37,49 @@
   "developer": "Anshar Studios",
   "releasedate": "2021-09-16T00:00:00+0000",
   "genre": "Role-playing (RPG), Adventure, Indie, Puzzle, Point-and-click",
-  "description": "Gamedec is an adaptive cyberpunk RPG. As a private detective, it’s your job to solve crimes inside virtual worlds. What decisions will you make in a world where child slavery is a F2P game, where murder over a game-clan dispute is an every-day reality? Who will you become in the XXII century?",
+  "description": "Gamedec is a single-player cyberpunk isometric RPG. You are a game detective, who solves crimes inside virtual worlds. Use your wits to gather info from your witnesses and suspects, getting to the bottom of deceptive schemes. You are the sum of your choices.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Gamedec is a single-player cyberpunk isometric RPG. You are a game detective, who solves crimes inside virtual worlds. Use your wits to gather info from your witnesses and suspects, getting to the bottom of deceptive schemes. You are the sum of your choices.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/3aee41efec12f662c7adc05eda61e6570f05628e8e0711c30ff556fee14936ea.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/3f954ec469c255477be0b59d751ff2f41f47399c83f787e748f01b5aaa2fdd66.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/34bac5ad8bd5fb7675c91c4b78aab0239f1c68e9a8db2d5e1715d39859081392.jpg?namespace=gamesdb",
@@ -51,15 +92,17 @@
   ],
   "metacritic_score": 72,
   "metacritic_url": "https://www.metacritic.com/game/pc/gamedec?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 70865,
+  "hltb_main": "10.5 hrs",
+  "hltb_main_extra": "15 hrs",
+  "hltb_completionist": "20 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/70865",
   "gog_cloud_saves": false,
   "gog_achievements": false,
+  "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "updated_at": "2026-04-25T02:24:30.411Z"
 }

@@ -14,12 +14,18 @@ date_tested: "Feb '26"
 proton_version: ""
 
 # Game Info
-publisher: Snapbreak
+publisher: Snapbreak Games
 developer: Big Loop Studios
-genre: Adventure, Indie, Puzzle
-release_date: "February 1, 2024"
+genre: Casual, Puzzle, Adventure
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "February 27, 2026"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Indonesian","Japanese","Korean","Polish","Portuguese - Portugal"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2019810/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "cbb53ad616af4e93973aa73ea2b15733"
 is_featured: false
+owned: true
 ---
 
 As a legendary thief, your next assignment lures you into a grand and lavish mansion. There you find a series of puzzle boxes, designed for an unknown purpose. What should have been a quick in-and-out, gradually turns into your own harrowing struggle for freedom and answers.

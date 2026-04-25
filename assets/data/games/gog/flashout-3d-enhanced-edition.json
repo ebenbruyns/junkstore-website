@@ -39,6 +39,17 @@
   "genre": "Racing",
   "description": "Flashout 3D is the best racing experience for your mobile device! Get into one of your ultra fast ships and join the competition! Use rockets and guns to fight your way to victory in all events and become the best racer in the whole galaxy!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/237161d745a564f62edad01fd73fe243a64e2f89db5573212ec0cf5624c1528f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/40cc702b0a2574359273d37ff40da0ace005be686c0d048941283572a183399a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f71cb61ec7328ccd27804184f8000d16f7967708fedc1dbf24b632bb12150fcf.jpg?namespace=gamesdb",
@@ -50,7 +61,8 @@
     "English**languages with full audio support"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/flashout-3d-enhanced-edition/",
+  "hltb_id": 113035,
   "hltb_main": "2 hrs",
   "hltb_main_extra": "2.5 hrs",
   "hltb_completionist": "4 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-02-26T20:20:29.834Z"
+  "updated_at": "2026-04-25T00:41:59.081Z"
 }

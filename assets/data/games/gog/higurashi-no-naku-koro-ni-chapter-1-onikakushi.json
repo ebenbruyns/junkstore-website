@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Visual Novel",
   "description": "Higurashi When They Cry is a sound novel. The music, backgrounds and characters work together to create a world that is the stage of a novel for the user to read. They laugh and cry and get angry. The user takes the point of view of the protagonist to experience the story.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/fe2e176197761740269db41f9b39948e7461dfc261470ce67bd38266e3844f70.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/de19fa848303b75bd354e5b7a65b35bc41cdcb6005027ac78dda23a1796d000f.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/310360/capsule_231x87.jpg",
@@ -52,6 +63,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 26829,
   "hltb_main": "10 hrs",
   "hltb_main_extra": "12 hrs",
   "hltb_completionist": "13 hrs",
@@ -63,5 +75,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2025-12-01T21:58:56.147Z"
+  "updated_at": "2026-04-25T00:51:34.668Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Alawar
 developer: Alawar
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Platform, Shooter, Arcade, Fighting
+franchise: 
+age_rating_summary: 
 release_date: "April 5, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Korean","Polish","Russian","Traditional Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f2e3c8e39783477ec0b6a39c0707858fc6b27302cbf1f74f8cb526eb05744dd9.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.c25c2ac3-b318-4192-96b7-bafef73060b9"
 is_featured: false
+owned: true
 ---
 
 Explore the mysterious Wall World on your giant robospider: mine for valuable resources, upgrade your equipment to fight off hordes of monsters, and discover exotic biomes in-between attacks. Will you be able to survive and learn the secrets of the Wall World?

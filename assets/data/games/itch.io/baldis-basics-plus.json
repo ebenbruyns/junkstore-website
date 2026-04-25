@@ -39,6 +39,17 @@
   "genre": "Strategy, Indie",
   "description": "Baldi's Basics Plus is like the original game, but PLUS! The same cruddy edutainment horror type parody theme is back, but with hugely expanded gameplay features, including procedurally generated levels, field trip minigames, crazy random events, PLUS more characters, more items, and more chaos!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/02d30a3fbf5ad607dd10381bb680f0ddabab38b162d016d0d28982c818ec4b31.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1275890/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1275890/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.845Z",
-  "updated_at": "2025-11-27T06:07:08.723Z"
+  "updated_at": "2026-04-25T00:55:18.612Z"
 }

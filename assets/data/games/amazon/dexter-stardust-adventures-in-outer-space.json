@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Puzzle, Point-and-click, Visual Novel",
   "description": "A spacey classic adventure for all! Dexter Stardust: Adventures in Outer Space is a classic point and click adventure; you can walk, talk, and interact with everything in your surroundings. Use and pick up inventory items to solve puzzles in over 100 unique scenes. Playing Dexter Stardust is like watching back to back episodes of a Saturday morning cartoon! With 5 total episodes, feel free to jump to or replay any episode you’d like, at any time.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/88be3293b3fcaa36cdd8e5f83c084178c4c01ea424314fdd90c717c8641a799e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a9cea15dc5690a6f6f5b2cd027a6f502d923b006480635580650c467ccf331b8.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/dexter-stardust-adventures-in-outer-space/",
+  "hltb_id": 110341,
   "hltb_main": "5 hrs",
   "hltb_main_extra": "6 hrs",
   "hltb_completionist": "6 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2026-04-23T21:39:25.539Z"
+  "updated_at": "2026-04-25T00:44:46.645Z"
 }

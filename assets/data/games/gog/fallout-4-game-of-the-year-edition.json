@@ -39,6 +39,17 @@
   "genre": "RPG",
   "description": "From Bethesda Game Studios, the award-winning creators of Starfield and The Elder Scrolls V: Skyrim, comes Fallout 4. A landmark in open-world RPG design and winner of over 200 ‘Best Of’ honors, including the DICE and BAFTA Game of the Year.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/377160/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/377160/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/377160/capsule_231x87.jpg",
@@ -60,6 +71,7 @@
   ],
   "metacritic_score": 84,
   "metacritic_url": "https://www.metacritic.com/game/pc/fallout-4?ftag=MCD-06-10aaa1f",
+  "hltb_id": 49483,
   "hltb_main": "34.5 hrs",
   "hltb_main_extra": "110 hrs",
   "hltb_completionist": "207 hrs",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-31T07:16:18.340Z",
-  "updated_at": "2026-02-07T22:47:39.534Z"
+  "updated_at": "2026-04-25T00:58:07.609Z"
 }

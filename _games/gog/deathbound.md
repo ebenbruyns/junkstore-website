@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Trialforge Studio
 developer: Trialforge Studio
 genre: role-playing-rpg, adventure, indie
+franchise: 
+age_rating_summary: 
 release_date: "August 8, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a9e051d145b09705b1552af234fe51e955653681d185a64885f8282b86448ee5.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/132639"
 store_url: "https://www.gog.com/en/game/deathbound"
 protondb_url: "https://www.protondb.com/app/1277130"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deathbound"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1326221139"
 is_featured: false
+owned: false
 ---
 
 Deathbound is a one-of-a-kind party-based soulslike set in a callous world where Faith and Science clash.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Humble Games
 developer: Old Moon Games
 genre: Role-playing (RPG), Adventure, Indie, Platform
+franchise: 
+age_rating_summary: 
 release_date: "November 3, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a64dbefdf9b53c93676f5764e14b5ec7d8e1725983acf7a0ce6240133437473a.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/37065"
 store_url: "https://www.gog.com/en/game/ghost_song"
 protondb_url: "https://www.protondb.com/app/347800"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghost_Song"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/ghost-song?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1305299338"
 is_featured: false
+owned: true
 ---
 
 On the desolate moon of Lorian V, a long-dormant Deadsuit awakens from slumber. Journey beneath the surface on an atmospheric 2D adventure of self-discovery, ancient mysteries, and cosmic terror. Explore winding caverns and acquire new abilities to unearth this alien world’s long-buried secrets.

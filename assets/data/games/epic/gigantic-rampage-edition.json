@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1924490",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/gigantic-rampage-edition-03f532",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gigantic%3A_Rampage_Edition",
   "notes": "Works out of the box!",
   "date_tested": "Aug '24",
   "decky_rating": "green",
@@ -33,30 +33,85 @@
   "cant_test_linux": false,
   "databaseId": "d4d31e492ea24c0fbcc239c0bb29aed8",
   "shortname": "d4d31e492ea24c0fbcc239c0bb29aed8",
-  "publisher": "NIL, NIL",
-  "developer": "NIL, NIL",
-  "releasedate": "",
-  "genre": "NIL, NIL",
-  "description": "GO GIGANTIC! THE UNIQUE MOBA HERO SHOOTER RETURNS!",
+  "publisher": "Arc Games",
+  "developer": "Abstraction Games",
+  "releasedate": "2024-04-09T13:00:00.000Z",
+  "genre": "Action",
+  "description": "GIGANTIC: RAMPAGE EDITION is a premium and definitive release of the original 5v5 MOBA Hero Shooter, GIGANTIC. Choose a unique hero and team up with other players to control objectives. GIGANTIC: RAMPAGE EDITION includes a new game mode, cross platform play, new heroes, new maps.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "39940",
+      "name": "Gift A Game"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 11134,
+  "igdb_url": "https://www.igdb.com/games/11134",
+  "giveaway_events": [
+    {
+      "start": "2024-08-22T15:00:00.000Z",
+      "end": "2024-08-29T15:00:00.000Z",
+      "type": null,
+      "id": "5a387d243a05401b926575736262a929"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "GIGANTIC: RAMPAGE EDITION is a premium and definitive release of the original 5v5 MOBA Hero Shooter, GIGANTIC. Choose a unique hero and team up with other players to control objectives. GIGANTIC: RAMPAGE EDITION includes a new game mode, cross platform play, new heroes, new maps.",
+  "use_rich_description": true,
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/6630e3dcc72a4e2285e91ca48aa0eb4b/gigantic-rampage-edition-121wb.jpg",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/6630e3dcc72a4e2285e91ca48aa0eb4b/gigantic-rampage-edition-1nkcs.jpg",
   "icon_image": "",
   "steamId": "1924490",
-  "game_modes": [],
+  "game_modes": [
+    "Online Multiplayer"
+  ],
   "languages": [
     "English"
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "41986",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/41986",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "updated_at": "2026-04-25T02:42:52.791Z"
 }

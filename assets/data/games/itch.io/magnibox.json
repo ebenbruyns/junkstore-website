@@ -39,6 +39,17 @@
   "genre": "Indie, Puzzle",
   "description": "Magnibox is a colorful and challenging puzzle game about a magnet that's also a box. Hand-crafted for your brain to enjoy!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/e99dd0cffc181d54fc5cb6d37a218639a038e1d01670934be5a2a6bbca9ec26f.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/999410/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/999410/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:17.114Z",
-  "updated_at": "2025-11-04T23:25:53.830Z"
+  "updated_at": "2026-04-25T00:55:29.013Z"
 }

@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Shooter, Hack and slash/Beat 'em up, Fighting",
   "description": "Fight your way across the city in a brutal romp that mixes old school brawlers and fast-paced motion-captured combat. You’re Babyface, a former member of the criminal underworld lured back into “the life” by a mysterious AI drone. Your mission against impossible odds: Fight your way across the city before sunrise, and prevent a citywide criminal takeover together.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/75f7c3cbe2cb2a18619d866e6618848d7ab0cc0c8d7e01deb878d1a7f82c3b65.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/7b61195ce8c1e958f04e8de1d93aa1547ad2b6de1d1fbdfa169ed33d83b8b1d4.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/24154cd1f8bc5aa3793be7ba97a72810407b6dbdb784bb2a7ff7dff21c32e92b.jpg?namespace=gamesdb",
@@ -59,6 +70,7 @@
   ],
   "metacritic_score": 76,
   "metacritic_url": "https://www.metacritic.com/game/pc/midnight-fight-express?ftag=MCD-06-10aaa1f",
+  "hltb_id": 82543,
   "hltb_main": "6 hrs",
   "hltb_main_extra": "8.5 hrs",
   "hltb_completionist": "33.5 hrs",
@@ -70,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2025-12-30T02:35:36.764Z"
+  "updated_at": "2026-04-25T00:42:52.767Z"
 }

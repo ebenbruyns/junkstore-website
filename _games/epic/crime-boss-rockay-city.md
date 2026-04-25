@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: 505 Games
 developer: INGAME STUDIOS
-genre: Shooter
-release_date: "March 28, 2023"
+genre: Action, First Person, Shooter, Rogue-Lite
+franchise: 
+age_rating_summary: 
+release_date: "March 29, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/228541"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/eab302c6b29a02b8363b2f30d2bf44eb7b280dadaaa807c64459fa97cc55d6d8.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "f46cc053068146bdbc8a591f4c410616"
 is_featured: false
+owned: true
 ---
 
-Crime Boss: Rockay City is an organized crime game combining first-person shooter action and turf wars, playable solo or with friends. Take on the role of Travis Baker – a man with his sights set on becoming the new King of Rockay City, one crime at a time…
+Crime Boss: Rockay City is a 1-4 player co-op FPS heist game with enjoyable stealth and epic killing spree combat. Featuring a solo roguelike campaign that combines FPS and strategy elements with the most hilariously cheesy voice acting that make you laugh. 

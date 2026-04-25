@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Square Enix, Eidos Interactive, Eidos Montréal
 developer: Looking Glass Studios
 genre: Adventure, Shooter, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "March 21, 2000"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c5f3a16f83ccec201b506cc5261a3d36f3b5f6f274785ad7850b68cd4c1cfaac.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/10298"
 store_url: "https://www.gog.com/en/game/thief_2_the_metal_age"
 protondb_url: "https://www.protondb.com/app/211740"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thief_II%3A_The_Metal_Age"
 metacritic_score: 87
 metacritic_url: "https://www.metacritic.com/game/pc/thief-ii-the-metal-age?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659001"
 is_featured: false
+owned: true
 ---
 
 The ultimate thief is back! Tread softly as you make your way through 15 new complex, non-linear levels full of loot to steal and guards to outsmart. Improved enemy AI, new gadgets and a riveting story will draw you into the world of Thief II: The Metal Age, a place of powerful new technologies, fanatical religions and corruption.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: MangaGamer
 developer: 07th Expansion
 genre: Adventure, Indie, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "August 10, 2002"
 game_modes: ["Single player"]
 languages: ["English","Japanese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/de19fa848303b75bd354e5b7a65b35bc41cdcb6005027ac78dda23a1796d000f.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1532671653"
 is_featured: false
+owned: true
 ---
 
 Higurashi When They Cry is a sound novel. The music, backgrounds and characters work together to create a world that is the stage of a novel for the user to read. They laugh and cry and get angry. The user takes the point of view of the protagonist to experience the story.

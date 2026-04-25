@@ -35,10 +35,62 @@
   "shortname": "5bdaa943f48a41598f0614391975242f",
   "publisher": "Akupara Games",
   "developer": "Tmesis Studio",
-  "releasedate": "16 Nov, 2023",
-  "genre": "Adventure, Casual, Indie",
-  "description": "A space station nestled in the clouds of Jupiter. A bizarre bazaar where a young, worried woman crafts entire universes in the palm of her hand. A mysterious cultist who's stripped the flesh from his bones in order to reach enlightenment. Here, there's a universe for sale. You buying?",
+  "releasedate": "2023-11-16T17:00:00.000Z",
+  "genre": "Exploration, Adventure, Indie",
+  "description": "A space station nestled in the clouds of Jupiter. A bizarre bazaar where a young, worried woman crafts entire universes in the palm of her hand. A mysterious cultist who's stripped the flesh from his bones in order to reach enlightenment. There's a universe for sale. You buying?",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 151593,
+  "igdb_url": "https://www.igdb.com/games/151593",
+  "giveaway_events": [
+    {
+      "start": "2025-11-27T16:00:00.000Z",
+      "end": "2025-12-04T16:00:00.000Z",
+      "type": null,
+      "id": "b2b995e52f7a413099e2b1421b9fb2d8"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "A space station nestled in the clouds of Jupiter. A bizarre bazaar where a young, worried woman crafts entire universes in the palm of her hand. A mysterious cultist who's stripped the flesh from his bones in order to reach enlightenment. There's a universe for sale. You buying?",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1627840/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1627840/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1627840/capsule_231x87.jpg",
@@ -58,15 +110,16 @@
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/pc/universe-for-sale?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 106304,
+  "hltb_main": "5.5 hrs",
+  "hltb_main_extra": "5.5 hrs",
+  "hltb_completionist": "6 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/106304",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-27T06:08:54.918Z",
-  "updated_at": "2026-02-07T22:06:38.394Z"
+  "updated_at": "2026-04-25T05:53:37.525Z"
 }

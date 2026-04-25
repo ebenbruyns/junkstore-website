@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 
 developer: Benjamin Heller
 genre: Adventure, Platform
+franchise: 
+age_rating_summary: 
 release_date: "September 29, 2019"
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "411443"
 is_featured: false
+owned: true
 ---
 
 A Single button infinite runner metriodvania about a friendly spider!

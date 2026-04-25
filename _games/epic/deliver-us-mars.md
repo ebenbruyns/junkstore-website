@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Frontier Foundry
 developer: KeokeN Interactive
-genre: Adventure, Indie, Platform
-release_date: "February 2, 2023"
+genre: Action, Indie, Adventure
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "February 3, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2023-11-22T15:00:00.000Z","end":"2023-11-29T15:00:00.000Z","type":null,"id":"34c8b5efd29f48209928d74752584426"}]
 
 # Images
 banner_image: "https://images.gog.com/bd7e9762c48f6d711f8bf254dabc2c108fd435b0a66d63254b4ccfe7cc6965e1.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "8 hrs"
+hltb_main_extra: "9 hrs"
+hltb_completionist: "11 hrs"
+hltb_url: "https://howlongtobeat.com/game/106075"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deliver-us-mars"
 protondb_url: "https://www.protondb.com/app/1345890"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deliver_Us_Mars"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "9d943a160fa841859ac5c1f233789fcb"
 is_featured: false
+owned: true
 ---
 
-Deliver Us Mars is a sci-fi adventure game developed by KeokeN Interactive and released in 2023. It is a sequel to Deliver Us the Moon and follows the story of astronaut Kathy Johanson as she embarks on a mission to Mars to recover powerful colony ships known as the ARKs, which were stolen by a group called the Outward. The game combines exploration, puzzle-solving, and platforming elements as players navigate the harsh Martian environment and uncover the mysteries surrounding the disappearance of the ARKs.
+Deliver Us Mars is an atmospheric sci-fi adventure taking you on a suspense-fuelled, high-stakes mission to recover the ARK colony ships stolen by the mysterious Outward.

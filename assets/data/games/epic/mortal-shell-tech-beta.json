@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Indie",
   "description": "Awakening as an empty vessel, you will enter into a shattered and twisted world where the remains of humanity wither and rot. Implored to do the bidding of the mysterious “Dark Father”, you must traverse this tattered landscape and track down hidden sanctums of devout followers. There, in Mortal Shell’s most hallowed grounds, you must overcome formidable foes and harvest the sacred glands. You won’t be truly alone when the dead litter your path: Scattered across this land are the remnant anima of lost warriors who can be inhabited to gain their unique abilities and knowledge of weapons. The Dark Father is desperate for you to complete your task — but to what end?",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/c5ba8aca686f0e168bb35a3bad3a2b1b48a4051421a53ff12c5fd6bcc348c920.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1110910/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1110910/capsule_231x87.jpg",
@@ -60,6 +71,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -70,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-04T21:44:43.881Z",
-  "updated_at": "2025-09-14T03:36:24.762Z"
+  "updated_at": "2026-04-25T00:56:00.792Z"
 }

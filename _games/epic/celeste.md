@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: Maddy Makes Games
-developer: Extremely OK Games
-genre: Adventure, Indie, Platform
-release_date: "Invalid Date"
+developer: Maddy Makes Games
+genre: Action, Indie, Platformer
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "January 6, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"1151","name":"Platformer"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2019-12-23T15:00:00.000Z","end":"2019-12-24T15:00:00.000Z","type":null,"id":"544c18ccadf8466691d8f2a335721b14"},{"start":"2019-08-28T15:00:00.000Z","end":"2019-09-04T15:00:00.000Z","type":null,"id":"544c18ccadf8466691d8f2a335721b14"}]
 
 # Images
 banner_image: "https://images.gog.com/a7cb8cce9f9530fd08bbb81271d776c6b0685bda00a801b77acd3fe23573b247.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Salt"
 is_featured: false
+owned: false
 ---
 
-Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer
+Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.

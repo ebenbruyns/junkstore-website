@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/3240220",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/grand-theft-auto-v",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V_Enhanced",
   "notes": "Read this [tutorial](https://www.reddit.com/r/JunkStore/comments/1j5d1f8/running_gtav_enhanced_edition_on_steam_deck_from/)",
   "date_tested": "March '25",
   "decky_rating": "red",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -33,12 +33,101 @@
   "cant_test_linux": false,
   "databaseId": "8769e24080ea413b8ebca3f1b8c50951",
   "shortname": "8769e24080ea413b8ebca3f1b8c50951",
-  "publisher": "Rockstar Games",
+  "publisher": "Rockstar Games  ",
   "developer": "Rockstar North",
-  "releasedate": "2025-03-04T00:00:00+0000",
-  "genre": "Adventure, Racing",
-  "description": "Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.\n\nCurrent PC players can transfer both GTAV Story Mode progress and GTA Online characters and progression with a one-time migration from the legacy version of GTAV to GTAV Enhanced.",
+  "releasedate": "2025-03-04T12:00:00.000Z",
+  "genre": "Action, Open World, Adventure",
+  "description": "Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 239064,
+  "igdb_url": "https://www.igdb.com/games/239064",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/ddd320b268268def9d675e8bd44a20648a2e38f4fb1486be5c17e60b1de98e34.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a92599550b25b80ceda85a443cb36f26cfd78fe1c8e94381768a4b0a47af90d4.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/116df05769af156ae5d2b025d327bcb24258ddf083d2013eb1f35381724618b8.jpg?namespace=gamesdb",
@@ -62,15 +151,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/grand-theft-auto-v-enhanced/",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 4064,
+  "hltb_main": "32 hrs",
+  "hltb_main_extra": "51.5 hrs",
+  "hltb_completionist": "88.4 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/4064",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-19T23:47:25.093Z"
+  "updated_at": "2026-04-25T02:42:55.929Z"
 }

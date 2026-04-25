@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Dear Villagers
 developer: Ars Goetia
 genre: Adventure, Indie, RPG, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "May 26, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Simplified Chinese","Polish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1608450/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1856724519"
 is_featured: false
+owned: true
 ---
 
 Hellslave is a dark fantasy dungeon crawler where you make a pact with the Devil to fight back a demon invasion. Customize your character with powerful demonic abilities, explore a cursed world, and battle nightmarish enemies to save humanity if you can resist the darkness.

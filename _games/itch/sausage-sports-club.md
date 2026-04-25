@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Chris Wade
 developer: Chris Wade
 genre: Adventure, Indie, Platform, Sport
+franchise: 
+age_rating_summary: 
 release_date: "July 19, 2018"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/574120/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "67597"
 is_featured: false
+owned: true
 ---
 
 Sausage Sports Club is a physics game about floppy animals playing sports!

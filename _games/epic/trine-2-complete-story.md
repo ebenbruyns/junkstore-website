@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Frozenbyte
 developer: Frozenbyte
-genre: Action, Adventure, Indie
-release_date: "June 6, 2013"
+genre: Puzzle, Action-Adventure, Platformer
+franchise: Trine
+age_rating_summary: ESRB Everyone 10+
+release_date: "January 1, 2026"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","Finnish","French*","German*","Italian","Spanish - Spain*","Czech","Hungarian","Korean","Portuguese - Brazil"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/6250"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/35720/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "bb9fca58dae446b8af86c668dd7a7234"
 is_featured: false
+owned: true
 ---
 
 Three Heroes make their way through dangers untold in a fairytale world, featuring physics-based puzzles, beautiful sights and online co-op.

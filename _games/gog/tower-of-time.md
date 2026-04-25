@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Digerati Distribution, Digerati Distribution
 developer: Event Horizon
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "April 12, 2018"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Polish","Russian","Turkish","zh-Hans","zh-Hans"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/780130586ec53a743abed9b57cb0a3e7eb3a6bae08cef6c1310156c3e565a4f8.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1411626324"
 is_featured: false
+owned: true
 ---
 
 Tower of Time is an incredible adventure packed with over 50 hours of gameplay, hand-crafted levels, and a rich story told through cinematics. Taking classic RPG gameplay to the next level, Tower of Time features flexible character development, thousands of pieces of loot and equipment and the complex and tactical Arrow-Time real-time combat system.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Midwest Games
 developer: Ganymede Games
 genre: "Role-playing (RPG), Adventure, Strategy, Indie, Tactical, Card & Board Game"
+franchise: 
+age_rating_summary: 
 release_date: "September 24, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/68caa08f55dda829a391ff403d0a0530f347a03c8d9ca295a63d0c9864d540e4.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/154142"
 store_url: "https://www.gog.com/en/game/dark_sky"
 protondb_url: "https://www.protondb.com/app/1454960"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Sky"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2033569195"
 is_featured: false
+owned: true
 ---
 
 Lead a party of unlikely heroes as they uncover the truth behind a planetary catastrophe in this immersive turn-based RPG. Craft and upgrade character cards into powerful combos while you battle your way through this beautifully hand-drawn alien world!

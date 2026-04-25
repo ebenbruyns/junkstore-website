@@ -14,12 +14,18 @@ date_tested: "Nov '25"
 proton_version: ""
 
 # Game Info
-publisher: BadLand Publishing
-developer: Blini Games
-genre: Role-playing (RPG)
-release_date: "January 31, 2019"
+publisher: Fulqrum Publishing
+developer: LLC Blini Games
+genre: Action, Shooter, Indie
+franchise: "Lovecraft's Untold Stories"
+age_rating_summary: ESRB Teen
+release_date: "July 21, 2021"
 game_modes: ["Single-player"]
 languages: ["English*","Spanish - Spain","Russian","German","Italian","Portuguese - Brazil*languages with full audio support"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/102995"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/6b34f034a5f7b0932806ddd7fefdef48ea773be395f13763a8cf30e10b8d154f.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: true
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "0ad263edbcdb4980a28759a8ac1229de"
 is_featured: false
+owned: true
 ---
 
-Lovecraft’s Untold Stories is an action RPG with rogue-like elements. Explore, improve your skills and gear, and fight cultists and creatures from the Mythos to stop the Old Ones’ plans in randomly generated levels based on Lovecraft stories. Madness and death await you—but maybe you can delay the inevitable…
+Lovecraft’s Untold Stories is an action rogue-lite with RPG elements. Explore randomly generated levels based on Lovecraft's stories, fight cultists and monsters from the Mythos, improve your gear, solve puzzles, and find how to defeat the Great Old Ones.

@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Ninja Kiwi
 developer: Ninja Kiwi
-genre: Strategy, Tactical
-release_date: "June 14, 2018"
+genre: Strategy
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "January 24, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Danish","Finnish","Japanese","Korean","Norwegian","Portuguese - Brazil"]
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"39070","name":"iOS"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/73863367281f838d6da960e0c19d7662ea1e2c84512ff8bd82c822ba2dc05c12.jpg?namespace=gamesdb"
@@ -69,6 +75,9 @@ known_issues:
 # Meta
 database_id: "7786b355a13b47a6b3915335117cd0b2"
 is_featured: false
+owned: true
 ---
 
-The Bloons are back and better than ever! Craft your perfect defense from a combination of awesome monkey towers, upgrades, Heroes, and activated abilities, then pop every last Bloon that comes your way!
+Mega Popular Tower Defense
+
+Craft your perfect defense from a combination of powerful Monkey Towers and awesome Heroes, then pop every last invading Bloon!

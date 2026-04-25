@@ -35,10 +35,87 @@
   "shortname": "1435582019",
   "publisher": "Double Damage Games",
   "developer": "Double Damage Games",
-  "releasedate": "2015-10-20T00:00:00+0000",
+  "releasedate": "2015-10-20T15:00:00.000Z",
   "genre": "Action, Adventure, Indie, RPG, Simulation",
-  "description": "Rebel Galaxy is an action-packed, swashbuckling space opera. You'll battle pirates, explore anomalies, befriend aliens, scavenge battle wreckage, mine asteroids, and discover artifacts. Choose your path as a roguish do-gooder, crafty space-trader or power-hungry privateer - or maybe a little of each! Buy larger and more powerful craft with your hard-earned credits, and outfit them with a variety of wicked weapons and defenses. Set in a galaxy of fantastic sights, and secrets to be found, Rebel Galaxy is above all a space epic of adventure, exploration, and combat.",
+  "description": "Rebel Galaxy is a game of action-packed combat, exploration, discovery, trade, and “negotiation” with the outlandish denizens at the edge of the known universe.  You’ll battle pirates, explore anomalies, befriend aliens, scavenge battle wreckage, mine asteroids, and discover a...",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1281",
+      "name": "Space Sim"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Rebel Galaxy is a game of action-packed combat, exploration, discovery, trade, and “negotiation” with the outlandish denizens at the edge of the known universe.  You’ll battle pirates, explore anomalies, befriend aliens, scavenge battle wreckage, mine asteroids, and discover a...",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/290300/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/290300/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/290300/capsule_231x87.jpg",
@@ -57,6 +134,7 @@
   ],
   "metacritic_score": 75,
   "metacritic_url": "https://www.metacritic.com/game/pc/rebel-galaxy?ftag=MCD-06-10aaa1f",
+  "hltb_id": 30944,
   "hltb_main": "22 hrs",
   "hltb_main_extra": "31 hrs",
   "hltb_completionist": "53 hrs",
@@ -68,5 +146,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-03-20T03:07:32.415Z",
-  "updated_at": "2026-03-24T22:21:19.381Z"
+  "updated_at": "2026-04-25T02:24:30.416Z"
 }

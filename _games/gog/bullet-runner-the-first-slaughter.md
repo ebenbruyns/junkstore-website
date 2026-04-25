@@ -17,9 +17,15 @@ proton_version: ""
 publisher: NIL, NIL
 developer: NIL, NIL
 genre: Adventure, Indie, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "March 24, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b7150a388fa89f71aae621196a792cca4338e4d01b4490269216829221834116.jpg?namespace=gamesdb"
@@ -58,17 +64,18 @@ protondb_url: "https://www.protondb.com/app/2343570"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/bullet-runner-the-first-slaughter/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 
 # Meta
 database_id: "1619245923"
 is_featured: false
+owned: true
 ---
 
 Big fucking guns + twin-stick action = Bullet Runner! Combine crazy movement and combat mechanics to dodge, slide, swing and shoot your way to victory! Brutal attacks, adrenaline, speed, power; you get them all. Free to play 4-hour single player campaign and an endless arena mode.

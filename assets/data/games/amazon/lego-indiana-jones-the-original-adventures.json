@@ -39,6 +39,17 @@
   "genre": "Adventure, Platform, Puzzle",
   "description": "Build, Battle and Brawl your way out of trouble! Play through all three classic Indiana Jones movies and relive your favorite Indy adventures in the tongue-in-cheek worlds of LEGO. Explore and Discover - Battle enemies, solve puzzles, and seek out the world's greatest treasures.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/91aa47d1429f38112ceaccdd358d7bac5e42a6c522b056557b0a1259df87c761.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/7eef27df98190923e855f0710ccbe4e7be5b725768d1eec76f91ec8396e9e72c.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/32330/capsule_231x87.jpg",
@@ -54,6 +65,7 @@
   ],
   "metacritic_score": 78,
   "metacritic_url": "https://www.metacritic.com/game/pc/lego-indiana-jones-the-original-adventures?ftag=MCD-06-10aaa1f",
+  "hltb_id": 5253,
   "hltb_main": "9 hrs",
   "hltb_main_extra": "14 hrs",
   "hltb_completionist": "19.5 hrs",
@@ -63,5 +75,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T09:26:51.203Z"
+  "updated_at": "2026-04-25T00:53:45.678Z"
 }

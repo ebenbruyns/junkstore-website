@@ -17,9 +17,15 @@ proton_version: ""
 publisher: indienova, 7th Beat Games
 developer: 7th Beat Games
 genre: Indie, Arcade, Music
+franchise: 
+age_rating_summary: 
 release_date: "October 4, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/977950/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "10812"
 is_featured: false
+owned: true
 ---
 
 A Dance of Fire and Ice is a strict rhythm game. Keep your focus as you guide two orbiting planets along a winding path without breaking their perfect equilibrium.

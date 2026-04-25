@@ -39,6 +39,17 @@
   "genre": "Indie",
   "description": "Are you ready to command a range of different units as they battle aliens in a mission-based take on the classic Snake? Select your path to victory!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/e49ab3e1b405234acceab90b90ea9cf7a22aa3a31f81dd86e527abd67ff5b622.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/97ba184cb31f9971c70f96b9b1cf33fde9ea91b2395d6714e87f960dd8a0e087.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/45d5c4f8647030f4f26e257104848e579875346cdfbe8a7b0df0064f79ef35bc.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/snake-core/",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-04-16T22:56:15.365Z",
-  "updated_at": "2026-04-23T23:26:47.732Z"
+  "updated_at": "2026-04-25T01:00:23.060Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Joseph Gribbin
 developer: Joseph Gribbin
 genre: Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "March 26, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/999410/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "344215"
 is_featured: false
+owned: true
 ---
 
 Magnibox is a colorful and challenging puzzle game about a magnet that's also a box. Hand-crafted for your brain to enjoy!

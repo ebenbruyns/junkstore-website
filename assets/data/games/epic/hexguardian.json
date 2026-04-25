@@ -35,10 +35,75 @@
   "shortname": "4a38247847824b729d5509dc0474596c",
   "publisher": "Yogscast Games",
   "developer": "Split Second Games",
-  "releasedate": "2 May, 2024",
-  "genre": "Strategy",
-  "description": "Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles! Build and upgrade towers, recruit armies, learn spells, construct wonders and place hexagonal tiles to create a path to enhance your defenses. With plenty of game modes and talents to unlock!",
+  "releasedate": "2026-02-04T18:00:00.000Z",
+  "genre": "Tower Defense, Rogue-Lite, Strategy",
+  "description": "Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles! Build and upgrade towers, recruit armies, learn spells, construct wonders and place hexagonal tiles to create a path to enhance your defenses",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "1170",
+      "name": "Tower Defense"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1170",
+      "name": "Tower Defense"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles! Build and upgrade towers, recruit armies, learn spells, construct wonders and place hexagonal tiles to create a path to enhance your defenses",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2381740/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2381740/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2381740/capsule_231x87.jpg",
@@ -60,6 +125,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -70,5 +136,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-02-07T04:31:29.737Z",
-  "updated_at": "2026-02-17T04:03:43.282Z"
+  "updated_at": "2026-04-25T02:18:24.786Z"
 }

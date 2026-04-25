@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Indie",
   "description": "Classic turn-based role-playing game, played with one customizable character. The player travels between towns, does quests and explores dungeons.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/855723aa2e49504b7883c0c3384cf0cbb4575b29d8e8c787d6474876f19327b8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/83762dbbd7ac18d02cb40ff275cc8ef6760e8a3e9a4d22b7cba543474fe08f7a.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/25600/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 75,
   "metacritic_url": "https://www.metacritic.com/game/pc/eschalon-book-i?ftag=MCD-06-10aaa1f",
+  "hltb_id": 3159,
   "hltb_main": "18.5 hrs",
   "hltb_main_extra": "24.5 hrs",
   "hltb_completionist": "30.5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-02-17T04:03:05.546Z"
+  "updated_at": "2026-04-25T00:41:56.279Z"
 }

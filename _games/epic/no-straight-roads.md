@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: H2 Interactive Co., Ltd., Sold Out, Fireshine Games
 developer: Metronomik
-genre: "Role-playing (RPG), Adventure, Hack and slash/Beat 'em up, Music"
-release_date: "August 24, 2020"
+genre: Action, Open World
+franchise: 
+age_rating_summary: 
+release_date: "January 1, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7c42300038c215d58db240fe6258d051318cb739072d23eef6b1d1674b7d49e5.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://store.epicgames.com/en-US/p/no-straight-roads"
 protondb_url: "https://www.protondb.com/app/1726190"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/No_Straight_Roads"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Raven"
 is_featured: false
+owned: true
 ---
 
 Welcome to Vinyl City! Play with Mayday and Zuke for the Musical Revolution in this action adventure game created by Wan Hazmer, one of the lead game designer of FF XV and Daim Dziauddin, SFV's concept artist.

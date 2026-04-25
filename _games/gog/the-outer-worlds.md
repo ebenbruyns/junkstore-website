@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Private Division
 developer: Obsidian Entertainment
 genre: Role-playing (RPG), Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "October 25, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b9c7a3b16f80b1954075f97b1a0cf780ba03d7437f69e85068846cbb7759810a.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/62935"
 store_url: "https://www.gog.com/en/game/the_outer_worlds"
 protondb_url: "https://www.protondb.com/app/578650"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Outer_Worlds"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/the-outer-worlds?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1242541569"
 is_featured: false
+owned: true
 ---
 
 The Outer Worlds is a new single-player sci-fi RPG from Obsidian Entertainment and Private Division. As you explore the furthest reaches of space and encounter a host of factions all vying for power, who you decide to become will determine the fate of everyone in Halcyon. In the corporate equation for the colony, you are the unplanned variable.

@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/2229940",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/redacted-d9d21e",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Redacted",
   "notes": "Must verify with Epic account before launch. Native controller support.",
   "date_tested": "Dec '24",
   "decky_rating": "yellow",
@@ -33,12 +33,104 @@
   "cant_test_linux": false,
   "databaseId": "98614687b212444c9ff0d42095f56cb3",
   "shortname": "98614687b212444c9ff0d42095f56cb3",
-  "publisher": "NIL, NIL",
-  "developer": "NIL, NIL",
-  "releasedate": "",
-  "genre": "NIL, NIL",
+  "publisher": "Krafton",
+  "developer": "Striking Distance Studios",
+  "releasedate": "2024-10-31T00:00:00.000Z",
+  "genre": "Action, Dungeon Crawler, Rogue-Lite",
   "description": "In [REDACTED], a fast-action isometric roguelike, a shadowy agent watches Black Iron Prison spiral into chaos. As one of the last guards, fight through monsters, rivals, and reanimated corpses of your fellow guards to escape the penitentiary alive.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1265",
+      "name": "Dungeon Crawler"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1265",
+      "name": "Dungeon Crawler"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 292844,
+  "igdb_url": "https://www.igdb.com/games/292844",
+  "giveaway_events": [
+    {
+      "start": "2024-12-30T16:00:00.000Z",
+      "end": "2024-12-31T16:00:00.000Z",
+      "type": null,
+      "id": "611a4122fc9940b19e26094099034c56"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "In [REDACTED], a fast-action isometric roguelike, a shadowy agent watches Black Iron Prison spiral into chaos. As one of the last guards, fight through monsters, rivals, and reanimated corpses of your fellow guards to escape the penitentiary alive.",
+  "use_rich_description": true,
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/38d7f3e2a3854e9fa4c31456b87c899f/redacted-13ajm.jpg",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/38d7f3e2a3854e9fa4c31456b87c899f/redacted-1ouju.jpg",
   "icon_image": "",
@@ -51,15 +143,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 155773,
+  "hltb_main": "10.5 hrs",
+  "hltb_main_extra": "17 hrs",
+  "hltb_completionist": "25.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/155773",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-04T20:25:31.634Z"
+  "updated_at": "2026-04-25T05:40:13.887Z"
 }

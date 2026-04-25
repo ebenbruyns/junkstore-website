@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Freedom Games
 developer: Halberd Studios
 genre: Role-playing (RPG), Adventure, Indie, Platform
+franchise: 
+age_rating_summary: 
 release_date: "March 27, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/5a81fcaf2a7d39f552a9e9576e94ffe023c8ee6c87492fc13124b526a2b5d936.jpg?namespace=gamesdb"
@@ -56,19 +62,20 @@ hltb_url: "https://howlongtobeat.com/game/100574"
 store_url: "https://www.gog.com/en/game/9_years_of_shadows"
 protondb_url: "https://www.protondb.com/app/1402120"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/9_Years_of_Shadows"
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/9-years-of-shadows/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 
 # Meta
 database_id: "2099051765"
 is_featured: false
+owned: true
 ---
 
 9 Years of Shadows is an emotionally-driven Metroidvania, enhanced by healing music that tells the story of Europa, a young woman of noble birth tasked with ending the curse that plagues her people and restoring color to all lands.

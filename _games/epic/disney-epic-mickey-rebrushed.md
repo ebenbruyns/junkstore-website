@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Disney
 developer: Purple Lamp
 genre: Adventure, Platform
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/79cc0746eb87f1c54136bfb4e38824efc8ad1be08bede5fc1fd975cb2e544573.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "10.2 hrs"
+hltb_main_extra: "14.7 hrs"
+hltb_completionist: "25.1 hrs"
+hltb_url: "https://howlongtobeat.com/game/145872"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/disney-epic-mickey-rebrushed"
 protondb_url: "https://www.protondb.com/app/1522160"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Epic_Mickey%3A_Rebrushed"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/disney-epic-mickey-rebrushed?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1522160"
 is_featured: false
+owned: false
 ---
 
 Embark on a magical journey in Disney Epic Mickey: Rebrushed! Shape your adventure with the stroke of a brush and transform Wasteland as Mickey Mouse

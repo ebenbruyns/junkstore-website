@@ -17,9 +17,15 @@ proton_version: ""
 publisher: indie.io
 developer: Pixellore Inc
 genre: Indie, RPG
+franchise: 
+age_rating_summary: 
 release_date: "March 12, 2024"
 game_modes: ["Single-player"]
 languages: ["English","Korean","Simplified Chinese","Russian","Hungarian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1573100/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.2f7d3d00-ac01-47c4-900d-233a334845eb"
 is_featured: false
+owned: true
 ---
 
 Awaken from an abandoned stasis pod and discover a doomed mining camp on Titan in an uncompromising turn-based survival RPG. Survive the evolving horrors that lurk below and craft equipment, research new gear, fight against overwhelming odds, or even discover your true fate.

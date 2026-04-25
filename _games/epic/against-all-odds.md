@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Freedom Games
 developer: Microwave Games
-genre: Action, Indie, Sports
-release_date: "May 19, 2023"
+genre: Action, Sports, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "May 5, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese*languages with full audio support"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1283","name":"Sports"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/144690"
+was_free_before: true
+giveaway_events: [{"start":"2023-05-03T15:00:00.000Z","end":"2023-05-10T15:00:00.000Z","type":null,"id":"5b99274688e9465aa9d5ca5cea176cfd"}]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1465560/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1465560"
 is_featured: false
+owned: false
 ---
 
-Are you willing to risk it all in order to be the world’s greatest? Outrun and survive against an onslaught of twisted obstacles in the brutalist game show on the planet. Get dressed up and compete in a diverse lineup of lethal multiplayer modes online or with friends!
+Water's cut. Rent's due. Jobs, scarce. Time to get rich. Enter the Slaughter League & win against all odds in supremely lethal races. Platforming meets slaughter in this casual racing game designed for players looking for a new experience - or wind down with blood & guts galore!

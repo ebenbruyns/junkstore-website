@@ -14,12 +14,18 @@ date_tested: "May '25"
 proton_version: ""
 
 # Game Info
-publisher: Microsoft Game Studios, Playdead
+publisher: Playdead
 developer: Playdead
-genre: Adventure, Indie, Platform, Puzzle
-release_date: "July 21, 2010"
+genre: Puzzle, Platformer, Indie
+franchise: Limbo
+age_rating_summary: ESRB Teen
+release_date: "July 19, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2025-05-29T15:00:00.000Z","end":"2025-06-05T15:00:00.000Z","type":null,"id":"49bdb24baa564f8c92848abe14112436"},{"start":"2019-07-16T15:00:00.000Z","end":"2019-07-24T15:00:00.000Z","type":null,"id":"49bdb24baa564f8c92848abe14112436"}]
 
 # Images
 banner_image: "https://images.gog.com/9dcb9e88e569817107dfdf42ae1e9b9d847fdcce888faf1e4b0808fce8f98bb0.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "3.5 hrs"
+hltb_main_extra: "4 hrs"
+hltb_completionist: "6.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/5304"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/limbo"
 protondb_url: "https://www.protondb.com/app/48000"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Limbo"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/limbo?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Hazelnut"
 is_featured: false
+owned: true
 ---
 
-Limbo is a black and white puzzle-platforming adventure. Players take the role of a young boy traveling through an eerie and treacherous world in an attempt to discover the fate of his sister.
+Limbo is an award-winning indie adventure, critically acclaimed for its captivating puzzle design and immersive sound and visuals. Its dark, misty spaces and haunting narrative will stay with you forever.

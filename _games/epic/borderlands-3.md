@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: 2K Games
 developer: Gearbox Software
-genre: Role-playing (RPG), Adventure, Shooter
-release_date: "September 13, 2019"
+genre: First Person, RPG, Shooter
+franchise: Borderlands
+age_rating_summary: ESRB Mature 17+
+release_date: "September 14, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Korean*","Portuguese - Brazil","Russian","Simplified Chinese*"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2022-05-18T15:00:00.000Z","end":"2022-05-25T15:00:00.000Z","type":null,"id":"dd845909e1504c048c14499eab60ec62"}]
 
 # Images
 banner_image: "https://images.gog.com/1b0b3c7ef6b527c726b0d9caaf13bdf9f86027a0b51dbac7d7fba7c0a2f8ebfb.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Catnip"
 is_featured: false
+owned: true
 ---
 
-The original shooter-looter returns, packing bazillions of guns and a mayhem-fueled adventure! Blast through new worlds and enemies as one of four new Vault Hunters. Play solo or with friends to take on insane enemies, score loads of loot and save your home from the most ruthless cult leaders in the galaxy.
+The original shooter-looter returns, packing bazillions of guns and a mayhem-fueled adventure! Blast through new worlds & enemies and save your home from the most ruthless cult leaders in the galaxy.

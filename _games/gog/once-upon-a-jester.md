@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Crunching Koalas
 developer: Bonte Avond
 genre: Adventure, Indie, Platform, Puzzle, Arcade, Music
+franchise: 
+age_rating_summary: 
 release_date: "November 9, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c167b9ca8db3e0c244c78f31db444b42d2ee48f288b2580ac43146bc158bf801.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/116753"
 store_url: "https://www.gog.com/en/game/once_upon_a_jester"
 protondb_url: "https://www.protondb.com/app/1668190"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Once_upon_a_Jester"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/once-upon-a-jester?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1974801979"
 is_featured: false
+owned: true
 ---
 
 Travel the kingdom as Jester with his best friend Sok to improvise theatre shows and perform on stages far and wide. Sing your hearts out, crack jokes and impress audiences to become the stars of the famous Royal Theatrical Spectacle!

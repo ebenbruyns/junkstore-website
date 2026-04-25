@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Tripwire Interactive
 developer: Torn Banner Studios
-genre: "Indie, Hack and slash/Beat 'em up, Fighting, Tactical"
-release_date: "June 8, 2021"
+genre: Action, First Person
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "June 9, 2021"
 game_modes: ["Multiplayer"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/119342"
+was_free_before: true
+giveaway_events: [{"start":"2025-12-31T16:00:00.000Z","end":"2026-01-01T16:00:00.000Z","type":null,"id":"79e93c9a70b14b1cba2c8c9b45a1c36b"},{"start":"2024-05-29T15:00:00.000Z","end":"2024-06-05T15:00:00.000Z","type":null,"id":"79e93c9a70b14b1cba2c8c9b45a1c36b"}]
 
 # Images
 banner_image: "https://images.gog.com/d463f92ac891cc4ac32b33c3a2f7ef3838022fe87e30812bc352987ecbc0904b.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Peppermint"
 is_featured: false
+owned: true
 ---
 
 Chivalry 2 is a multiplayer first person slasher inspired by epic medieval movie battles. Players are thrust into the action of every iconic moment of the era - from clashing swords, to storms of flaming arrows, to sprawling castle sieges and more.

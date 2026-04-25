@@ -35,10 +35,66 @@
   "shortname": "e132ad8053a14165b881a16124fdd844",
   "publisher": "Double Dash Studios",
   "developer": "Double Dash Studios",
-  "releasedate": "14 Jun, 2023",
+  "releasedate": "2025-08-04T12:00:00.000Z",
   "genre": "Adventure, Indie",
-  "description": "Jorel’s Brother and The Most Important Game of the Galaxy is a point-and-click adventure about an eight-year-old boy who lives with his eccentric family in the shadow of Jorel, his handsome and popular brother. Based on the award-winning Brazilian animation Jorel’s Brother.",
+  "description": "“Jorel’s Brother and The Most Important Game of the Galaxy” is a point-and-click adventure about an eight-year-old boy who lives with his eccentric family in the shadow of Jorel, his handsome and popular brother. Based on the award-winning Brazilian animation “Jorel’s Brother”.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 207334,
+  "igdb_url": "https://www.igdb.com/games/207334",
+  "giveaway_events": [
+    {
+      "start": "2025-09-25T15:00:00.000Z",
+      "end": "2025-10-02T15:00:00.000Z",
+      "type": null,
+      "id": "70d56e56409e4a0384282d9bea1b4e20"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "“Jorel’s Brother and The Most Important Game of the Galaxy” is a point-and-click adventure about an eight-year-old boy who lives with his eccentric family in the shadow of Jorel, his handsome and popular brother. Based on the award-winning Brazilian animation “Jorel’s Brother”.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/bcbd418ccc1109122286cd97eb0015a32797545da11bf09a221554f7e1a167d7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/94ffa3d94bcdc861a48e506b9df1c9f11df2dcbfb1e47917c015d342b8d3045e.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1398910/capsule_231x87.jpg",
@@ -53,15 +109,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
   "hltb_url": "",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-25T02:26:43.546Z",
-  "updated_at": "2025-10-31T00:18:22.241Z"
+  "updated_at": "2026-04-25T02:15:37.360Z"
 }

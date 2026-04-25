@@ -39,6 +39,17 @@
   "genre": "Indie, Platform, Sport, Arcade, Racing",
   "description": "Grab your bike and hit the rails in FutureGrind, a stylish stunt-racer all about tricks, skill, and speed. Use your futuristic motorcycle to do crazy combos on tracks made of floating rails, but be careful: If you touch the wrong rail you'll explode! Only skilled players will earn endorsements from The Sponsors and make a name for themselves.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/d168f52fe3dd1199694e9f3e9a237d7f784a75e61cd3553f462d432eeaa28990.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/355820/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/355820/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:17.002Z",
-  "updated_at": "2025-11-27T06:07:08.723Z"
+  "updated_at": "2026-04-25T00:55:26.402Z"
 }

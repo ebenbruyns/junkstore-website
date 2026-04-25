@@ -5,19 +5,19 @@
   "protondb": "https://www.protondb.com/app/250320",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/the-wolf-among-us",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Wolf_Among_Us",
   "notes": "Works out of the box on the Decky plugin version.",
   "date_tested": "June '24",
   "decky_rating": "green",
   "standalone_rating": "unknown",
   "proton_version": "",
   "dependencies": "",
-  "controller_config": "Native Steam Deck Controls",
+  "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,54 @@
   "shortname": "Cobbler",
   "publisher": "Telltale Games",
   "developer": "Telltale Games",
-  "releasedate": "2013-10-11",
-  "genre": "Adventure, Point-and-click",
-  "description": "A five-episode series based on Fables comic, a violent thriller where myth and legend characters exist in our world.",
+  "releasedate": "2019-12-01T17:00:00.000Z",
+  "genre": "Action, Adventure",
+  "description": "Based on the award-winning Fables comic books (DC Comics/Vertigo). As Bigby Wolf - THE big bad wolf - discover that a brutal, bloody murder is just a taste of things to come in a game series where your every decision can have enormous consequences.",
   "size": "",
+  "franchise": "The Wolf Among Us",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2019-12-11T15:00:00.000Z",
+      "end": "2019-12-18T15:00:00.000Z",
+      "type": null,
+      "id": "ea40bbb5451649e38472912b11f338b8"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Based on the award-winning Fables comic books (DC Comics/Vertigo). As Bigby Wolf - THE big bad wolf - discover that a brutal, bloody murder is just a taste of things to come in a game series where your every decision can have enormous consequences.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/45fe32d8cdb9c7fda468eff071d6fb7f736560da19dbcbc967347b8ab9901969.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/69063ca937da983e467d6c5e035942e19067b3a01be968b93b7fdeead33c051e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/49f976b81be54ae20dd5d49235e6a349e991532f1611236d62dc5ee4a017f1e1.jpg?namespace=gamesdb",
@@ -51,15 +95,16 @@
   ],
   "metacritic_score": 85,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-wolf-among-us-episode-1---faith?ftag=MCD-06-10aaa1f",
+  "hltb_id": "14013",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/14013",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-10T08:23:40.084Z"
+  "updated_at": "2026-04-25T02:44:34.572Z"
 }

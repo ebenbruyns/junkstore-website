@@ -17,9 +17,15 @@ proton_version: ""
 publisher: NIL, NIL
 developer: Blackpowder Games
 genre: Adventure, Indie, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "March 24, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/01be8d3973d1db6d6a80d467825f063b2f7579a77e2fd9f59338873ea894ab7a.jpg?namespace=gamesdb"
@@ -57,8 +63,8 @@ store_url: "https://www.gog.com/en/game/betrayer"
 protondb_url: "https://www.protondb.com/app/243120"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Betrayer"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 62
+metacritic_url: "https://www.metacritic.com/game/betrayer/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1090734724"
 is_featured: false
+owned: true
 ---
 
 Betrayer is a first person action adventure game that takes you to the New World at the turn of the 17th century. The year is 1604. You sailed from England expecting to join a struggling colony on the coast of Virginia. Instead, you find only ghosts and mysteries. What catastrophe blighted the land and drained it of color and life?

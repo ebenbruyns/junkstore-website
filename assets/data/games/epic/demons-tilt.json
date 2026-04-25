@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/422510",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/demons-tilt",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Demon%27s_Tilt",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": true,
@@ -33,12 +33,92 @@
   "cant_test_linux": false,
   "databaseId": "b8b37813c5634dbdac61d88ff411135c",
   "shortname": "b8b37813c5634dbdac61d88ff411135c",
-  "publisher": "FLARB",
-  "developer": "Wiznwar, FLARB",
-  "releasedate": "2019-12-06T00:00:00+0000",
-  "genre": "Role-playing (RPG), Indie, Shooter, Arcade, Simulator, Pinball",
-  "description": "Turbo charged pinball returns! Now with bigger sprites, more baddies, more secrets & more bullets! Demon's Tilt pushes the limits of the Video Pinball genre with Shump & Hack N' Slash elements.",
+  "publisher": "FLARB LLC",
+  "developer": "WIZNWAR",
+  "releasedate": "2021-05-10T15:00:00.000Z",
+  "genre": "Action, Horror",
+  "description": "TURBO CHARGED PINBALL RETURNS! Now with bigger sprites, more baddies, more secrets & MORE BULLETS! Demon's Tilt pushes the limits of the Video Pinball genre with SHMUP & Hack N' Slash elements.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 106363,
+  "igdb_url": "https://www.igdb.com/games/106363",
+  "giveaway_events": [
+    {
+      "start": "2022-03-23T15:00:00.000Z",
+      "end": "2022-03-30T15:00:00.000Z",
+      "type": null,
+      "id": "08f2539567df4d43a1b0f8a5196f43cc"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "TURBO CHARGED PINBALL RETURNS! Now with bigger sprites, more baddies, more secrets & MORE BULLETS! Demon's Tilt pushes the limits of the Video Pinball genre with SHMUP & Hack N' Slash elements.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/17225b367b8831a84cf12fb1cfeec10e0353dc5352b52f56b3e22ca8379c670e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/dbe7e2b3d51ccf17b22686e9dbf2ad37be4286224523159a143a41394efc7531.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9fa7ee6320734b45901e3db59bf492c9d20753f3b9b59a4b396efd6965832500.jpg?namespace=gamesdb",
@@ -51,15 +131,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 64628,
+  "hltb_main": "5.5 hrs",
+  "hltb_main_extra": "12.5 hrs",
+  "hltb_completionist": "14.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/64628",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-05T22:00:05.388Z"
+  "updated_at": "2026-04-25T05:40:55.764Z"
 }

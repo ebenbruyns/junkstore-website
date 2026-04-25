@@ -17,9 +17,15 @@ proton_version: ""
 publisher: WildTangent
 developer: WildTangent
 genre: Role-playing (RPG), Adventure
+franchise: 
+age_rating_summary: 
 release_date: "May 18, 2005"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/10dc8f2e5da707cb629f6729878c59f106ef41e446aff591fb6380c706ccf259.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/3413"
 store_url: "https://www.gog.com/en/game/fate"
 protondb_url: "https://www.protondb.com/app/246840"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FATE"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/fate?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2050639399"
 is_featured: false
+owned: true
 ---
 
 Live the adventurer’s life in this character-based fantasy game. Choose your character and pet companion as you journey through limitless caverns, dungeons, and tunnels and determine your destiny.

@@ -35,10 +35,55 @@
   "shortname": "19903497b6bf4b4fb601e96680333173",
   "publisher": "Whitethorn Games",
   "developer": "Balloon Studios",
-  "releasedate": "9 Apr, 2024",
-  "genre": "Adventure",
-  "description": "Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora. Grow each plant to discover the mysterious qualities they hold…",
+  "releasedate": "2026-02-05T16:00:00.000Z",
+  "genre": "Puzzle, Adventure, Indie",
+  "description": "Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "39071",
+      "name": "Android"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1425350/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1425350/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1425350/capsule_231x87.jpg",
@@ -59,6 +104,7 @@
   ],
   "metacritic_score": 82,
   "metacritic_url": "https://www.metacritic.com/game/pc/botany-manor?ftag=MCD-06-10aaa1f",
+  "hltb_id": 116071,
   "hltb_main": "3.4 hrs",
   "hltb_main_extra": "3.9 hrs",
   "hltb_completionist": "4.1 hrs",
@@ -69,5 +115,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-31T23:38:31.112Z",
-  "updated_at": "2026-02-07T22:56:10.719Z"
+  "updated_at": "2026-04-25T02:18:16.780Z"
 }

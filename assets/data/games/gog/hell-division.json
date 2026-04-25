@@ -39,6 +39,17 @@
   "genre": "Indie, Shooter",
   "description": "Hell Division is a game from the 3rd person, which is a battle of combat drones.\n\nBecome a pilot of an armed military drone and plunge into adrenaline-fueled action set in a cyberpunk city divided between two ruthless corporations. The confrontation is inevitable, the question is – will you prevail?",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/02be5a277aa7148c6a02523efb270a5fb5e33f6f9786ce3f2cc289dbc7f3e29c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/10bb0ee2e1778ca1ba6ce2cfef3e72eb3a156fdee136d786c2ccd1e62d73381e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d25654e803294836abb0f87257e69f787ebabecfce3ee7438370b94f5bd8110b.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/hell-division/",
+  "hltb_id": 127370,
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "1 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-24T02:43:49.829Z"
+  "updated_at": "2026-04-25T05:46:21.973Z"
 }

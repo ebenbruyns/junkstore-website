@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Jujubee S.A.
 developer: Jujubee S.A.
 genre: Racing
+franchise: 
+age_rating_summary: 
 release_date: "February 27, 2013"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/40cc702b0a2574359273d37ff40da0ace005be686c0d048941283572a183399a.jpg?namespace=gamesdb"
@@ -58,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/2022780"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Flashout_3D:_Enhanced_Edition"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/flashout-3d-enhanced-edition/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2121564020"
 is_featured: false
+owned: true
 ---
 
 Flashout 3D is the best racing experience for your mobile device! Get into one of your ultra fast ships and join the competition! Use rockets and guns to fight your way to victory in all events and become the best racer in the whole galaxy!

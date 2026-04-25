@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 101XP
 developer: Sever
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: ""
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/fc5069d9a9c84764014737233adf605970a6217f66b7e07003a2271cad22a9be.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/91090"
 store_url: "https://www.gog.com/en/game/the_life_and_suffering_of_sir_brante_chapter_12"
 protondb_url: "https://www.protondb.com/app/1460090"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Life_and_Suffering_of_Sir_Brante"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1656945959"
 is_featured: false
+owned: true
 ---
 
 A narrative-driven RPG set in a gritty world where a person's Lot is determined at birth, while the gods are real and preside over the fates of men. Set out on a lifelong journey and carve out your own destiny. Will you become a judge, an inquisitor, or conspire against the old order? You decide!

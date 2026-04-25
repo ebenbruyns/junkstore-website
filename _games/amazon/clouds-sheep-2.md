@@ -17,9 +17,15 @@ proton_version: ""
 publisher: HandyGames
 developer: HandyGames
 genre: Adventure, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "August 26, 2015"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/6d095b63fa5691f9ec1f108a3450eb991938d5bb5664c39690a330829d573de0.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.2cbd524e-6778-4f53-b367-b3255aca792c"
 is_featured: false
+owned: true
 ---
 
 In this eagerly anticipated sequel of the game “Clouds & Sheep”, the cute sheep are finally on the loose again! Solve countless quests and fulfill your wooly friends’ needs.

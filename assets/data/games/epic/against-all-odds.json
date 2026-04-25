@@ -35,10 +35,66 @@
   "shortname": "1465560",
   "publisher": "Freedom Games",
   "developer": "Microwave Games",
-  "releasedate": "19 May, 2023",
-  "genre": "Action, Indie, Sports",
-  "description": "Are you willing to risk it all in order to be the world’s greatest? Outrun and survive against an onslaught of twisted obstacles in the brutalist game show on the planet. Get dressed up and compete in a diverse lineup of lethal multiplayer modes online or with friends!",
+  "releasedate": "2023-05-04T15:00:00.000Z",
+  "genre": "Action, Sports, Indie",
+  "description": "Water's cut. Rent's due. Jobs, scarce. Time to get rich. Enter the Slaughter League & win against all odds in supremely lethal races. Platforming meets slaughter in this casual racing game designed for players looking for a new experience - or wind down with blood & guts galore!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1283",
+      "name": "Sports"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1283",
+      "name": "Sports"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 144690,
+  "igdb_url": "https://www.igdb.com/games/144690",
+  "giveaway_events": [
+    {
+      "start": "2023-05-03T15:00:00.000Z",
+      "end": "2023-05-10T15:00:00.000Z",
+      "type": null,
+      "id": "5b99274688e9465aa9d5ca5cea176cfd"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Water's cut. Rent's due. Jobs, scarce. Time to get rich. Enter the Slaughter League & win against all odds in supremely lethal races. Platforming meets slaughter in this casual racing game designed for players looking for a new experience - or wind down with blood & guts galore!",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1465560/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1465560/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1465560/capsule_231x87.jpg",
@@ -59,6 +115,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/against-all-odds/",
+  "hltb_id": 128172,
   "hltb_main": "1 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -69,5 +126,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-24T01:55:33.488Z"
+  "updated_at": "2026-04-25T01:18:06.883Z"
 }

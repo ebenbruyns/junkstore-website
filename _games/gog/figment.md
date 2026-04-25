@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Bedtime Digital Games
 developer: Bedtime Digital Games
 genre: Adventure, Indie, Platform, Puzzle, Music
+franchise: Figment
+age_rating_summary: ESRB Everyone 10+
 release_date: "September 22, 2017"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/20329"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/fae02216d95ec1ff3c204a25f3354e0af65196eebbe485a47c1dfb0d77a1f849.jpg?namespace=gamesdb"
@@ -69,10 +75,7 @@ known_issues:
 # Meta
 database_id: "1090728382"
 is_featured: false
+owned: true
 ---
 
-A musical action-adventure set in the recesses of the human mind... Welcome to the world of Figment. A strange and surreal world; a place filled with our deepest thoughts, urges and memories, populated by the many voices we hear in our heads.
-
-This mind has been quiet and calm for many years. But something has changed. New thoughts have started to emerge - taking the shape of nightmarish creatures who spread fear wherever they go. The only hope is for the grumpy Dusty, the mind's former voice of courage, to get back to his old self and help the mind to face its fears.
-
-Join Dusty and his ever-optimistic friend, Piper, on an adventure through the different sides of the mind, solving puzzles to set things straight, beating back the nightmares and seeking to restore the courage that's been lost.
+Figment is an action-adventure game that invites you to explore a unique surreal universe filled with music, humor and multi layered narrative.

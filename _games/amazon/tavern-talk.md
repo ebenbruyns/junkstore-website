@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Gentle Troll Entertainment
 developer: Gentle Troll Entertainment
 genre: Adventure, Casual, Indie, Simulation
+franchise: 
+age_rating_summary: 
 release_date: "June 20, 2024"
 game_modes: ["Single-player"]
 languages: ["English","German","Japanese","Simplified Chinese","Korean"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2076140/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.8d4d80fa-3d41-49dc-a3e7-1106b3cf003f"
 is_featured: false
+owned: true
 ---
 
 A cozy visual novel about running a tavern in a D&D-inspired fantasy! Gather rumors, serve magical drinks, and meet adventurers on a life-changing quest.

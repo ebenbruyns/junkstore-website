@@ -39,6 +39,17 @@
   "genre": "Adventure, Shooter, Arcade",
   "description": "From the dust of a gold mine to the dirt of a saloon, Call of Juarez: Gunslinger is a real homage to the Wild West tales. Live the epic and violent journey of a ruthless bounty hunter on the trail of the West’s most notorious outlaws. Blurring the lines between man and myth, this adventure made of memorable encounters unveils the untold truth behind some of the greatest legends of the Old West.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/483824fe0627f13a84b802b6dbda093440de79b28f453bc01b049486d421d716.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/3a9fccbeba52db60fd9bbe32e7b72b2ea3258fc2b45703d84bf2c3b607cf1383.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/295ec0f95fd727a20937ffdf3b85bcd2d74dc2b24ee9c9870cef63f1e7349bfb.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 79,
   "metacritic_url": "https://www.metacritic.com/game/pc/call-of-juarez-gunslinger?ftag=MCD-06-10aaa1f",
+  "hltb_id": 1487,
   "hltb_main": "5 hrs",
   "hltb_main_extra": "7 hrs",
   "hltb_completionist": "14 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-12-01T21:58:09.290Z"
+  "updated_at": "2026-04-25T00:41:33.169Z"
 }

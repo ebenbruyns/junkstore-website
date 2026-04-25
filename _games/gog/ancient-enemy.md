@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Grey Alien Games
 developer: Grey Alien Games
 genre: "Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Card & Board Game"
+franchise: 
+age_rating_summary: ESRB Teen
 release_date: "April 9, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/111842"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f290d7e9d766d4dc6f5548953a44903020bacd26810c9d6da5e8c2972d207e55.jpg?namespace=gamesdb"
@@ -69,10 +75,7 @@ known_issues:
 # Meta
 database_id: "1751965389"
 is_featured: false
+owned: true
 ---
 
-An unusual, strategic RPG card game from the makers of Shadowhand and Regency Solitaire.
-
-"Awakening from centuries of slumber, a fallen mage returns to battle twisted folkloric foe across sprawling, ghostly landscapes. His ultimate destination: the nameless antagonist, a dread nemesis waiting patiently in the dark fastness of monstrous citadel, his Ancient Enemy.
-
-You'll embark upon a quest inspired by British mythology and Mabinogion, so expect card battling, visceral fights, mixed with bleak and evocative folklore! Loot the fallen to fill your hero's RPG-style inventory with collectible cards, capture strongholds and gather talented henchmen. Only powerful magic and iron determination will enable revenge upon your ultimate foe."
+Ancient Enemy is an RPG card battler set in a crumbling world where the forces of evil have already won. Blast distorted enemies with a satisfying range of spells and abilities. Journey into a scarred wilderness and defeat the deadliest foe of all!

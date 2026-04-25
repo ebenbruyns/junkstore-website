@@ -17,9 +17,15 @@ proton_version: ""
 publisher: BerserkBoy Games
 developer: BerserkBoy Games
 genre: Adventure, Indie, Platform, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "March 6, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/2b12ff7571dcb4c1d81361b867590f1d08f2aa773038dea3e143db0be8877393.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/106973"
 store_url: "https://www.gog.com/en/game/berserk_boy"
 protondb_url: "https://www.protondb.com/app/1561340"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Berserk_Boy"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/berserk-boy?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1372090895"
 is_featured: false
+owned: true
 ---
 
 Berserk Boy is a vibrant, retro-inspired 2D action platformer that lets you… GO BERSERK! Change into different forms and use the power of Lightning, Fire, Earth, Air, and Ice as you race through stylish stages in a heroic battle to save the planet from the evil Dr. Genos!

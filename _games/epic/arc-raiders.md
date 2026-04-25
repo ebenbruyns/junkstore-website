@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Embark Studios
 developer: Embark Studios
-genre: Action
+genre: Action, Shooter
+franchise: 
+age_rating_summary: ESRB Teen
 release_date: "October 30, 2025"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/185258"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1808500/library_hero.jpg"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "20f01ab5e0fa4e798c6d58eeb8d86989"
 is_featured: false
+owned: false
 ---
 
-ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.
+ARC Raiders is an upcoming multiplayer, extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.

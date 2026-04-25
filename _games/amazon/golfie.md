@@ -17,9 +17,15 @@ proton_version: ""
 publisher: NIL, NIL
 developer: Triheart Studio
 genre: "Indie, Platform, Puzzle, Sport, Card & Board Game"
+franchise: 
+age_rating_summary: 
 release_date: "January 19, 2023"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Danish","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8368aa968d0ca1931f2abbb3503b7b7c722076e6a12f134155d73a687b2d39c8.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.9274ae27-f99c-4594-a917-9cc01e3f65ad"
 is_featured: false
+owned: true
 ---
 
 Golfie is a run-based, roguelike minigolf deck builder. Play through procedurally-generated levels, build a deck of crazy card abilities, and try to beat all 18 holes. Pick your route carefully because no two runs – or shots – are the same!

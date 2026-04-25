@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Goblinz Publishing
 developer: Laki Studio
 genre: "Adventure, Strategy, Turn-based strategy (TBS), Indie, Puzzle, Card & Board Game"
+franchise: 
+age_rating_summary: 
 release_date: "May 3, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/e8b71c57f681036d180a4b887b99b5f93018b4250df073666d7339e287f97d7a.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/106986"
 store_url: "https://www.gog.com/en/game/oaken"
 protondb_url: "https://www.protondb.com/app/1348690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Oaken"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1669882559"
 is_featured: false
+owned: true
 ---
 
 Oaken is a tactical turn-based roguelike with deck management and 3D figurines. Explore the world of the Great Oak, gather allies and enhancements, learn to use the positioning and rotation for your advantage, choose how to upgrade your cards - all in order to restore the Oak's Song.

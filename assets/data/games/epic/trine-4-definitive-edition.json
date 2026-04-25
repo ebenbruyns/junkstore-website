@@ -35,10 +35,115 @@
   "shortname": "80510c874abe43149f3db85756351da6",
   "publisher": "Frozenbyte",
   "developer": "Frozenbyte",
-  "releasedate": "8 Oct, 2019",
-  "genre": "Action, Adventure, Indie",
-  "description": "The best-selling Trine series returns to the magic of 2.5D! Join three iconic heroes as they set off on a quest through fantastical fairytale landscapes to save the world from the Nightmare Prince’s shadows.",
+  "releasedate": "2025-12-31T16:00:00.000Z",
+  "genre": "Puzzle, Action-Adventure, Platformer",
+  "description": "Join three iconic heroes as they set off on a quest through fantastical fairytale landscapes to save the world from the Nightmare Prince’s shadows. Trine 4: Definitive Edition includes Trine 4: The Nightmare Prince and the Trine 4: Melody of Mystery DLC campaign.",
   "size": "",
+  "franchise": "Trine",
+  "tags_structured": [
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21134",
+      "name": "Beautiful Visuals"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 110846,
+  "igdb_url": "https://www.igdb.com/games/110846",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Join three iconic heroes as they set off on a quest through fantastical fairytale landscapes to save the world from the Nightmare Prince’s shadows. Trine 4: Definitive Edition includes Trine 4: The Nightmare Prince and the Trine 4: Melody of Mystery DLC campaign.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/690640/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/690640/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/690640/capsule_231x87.jpg",
@@ -63,6 +168,7 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/pc/trine-4-the-nightmare-prince?ftag=MCD-06-10aaa1f",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -73,5 +179,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-31T07:30:20.410Z",
-  "updated_at": "2026-02-07T22:51:45.777Z"
+  "updated_at": "2026-04-25T02:17:44.577Z"
 }

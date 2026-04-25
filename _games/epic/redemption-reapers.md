@@ -8,18 +8,24 @@ storefront_key: "epic"
 permalink: /games/epic/redemption-reapers/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "March '25"
 proton_version: "GE-Proton 9.7"
 
 # Game Info
-publisher: Binary Haze Interactive
-developer: adglobe
-genre: Role-playing (RPG), Turn-based strategy (TBS), Simulator, Tactical
-release_date: "February 22, 2023"
+publisher: Binary Haze Ineractive
+developer: Adglobe
+genre: Simulation
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "February 20, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21122","name":"Diverse Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/228744"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/bafbe0ca628e33750726b720327aab30773ab79bcb77ce364dc91f3a68caed99.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "18 hrs"
+hltb_main_extra: "25 hrs"
+hltb_completionist: "31.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/118740"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/redemption-reapers"
+store_url: "https://store.epicgames.com/en-US/p/redemption-reapers-54dabd"
 protondb_url: "https://www.protondb.com/app/2139300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Redemption_Reapers"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,8 @@ known_issues:
 # Meta
 database_id: "0a0841c5f62f4c59bdb78ee9b5a7d58b"
 is_featured: false
+owned: true
 ---
 
-Descending suddenly on the world, the macabre Mort armies destroy nation after nation, leaving humanity decimated in their wake. Among the forces resisting the Mort is a small band of mercenaries known as the Ashen Hawk Brigade.
+Descending suddenly on the world, the macabre Mort armies destroy nation after nation, leaving humanity decimated in their wake.
+Among the forces resisting the Mort is a small band of mercenaries known as the Ashen Hawk Brigade.

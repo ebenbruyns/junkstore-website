@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Beamdog
 developer: BioWare, Beamdog
 genre: Role-playing (RPG), Adventure
+franchise: 
+age_rating_summary: 
 release_date: "March 27, 2018"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","German","Italian","Polish","Spanish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/fbbfef6da3721c646de8859e8fd6748016fa1d897a06a061c00ded562409bd8f.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1097893768"
 is_featured: false
+owned: true
 ---
 
 Neverwinter Nights: Enhanced Edition is an updated version of the 2002 video game Neverwinter Nights. The Enhanced Edition is based on Neverwinter Nights: Diamond Edition and it comes with the base game as well as the Shadows of Undrentide, Hordes of the Underdark, Kingmaker, Witch's Wake and ShadowGuard expansions. Remastered version brings numerous technological improvements to the game, including an updated graphics engine and revitalized multiplayer support.

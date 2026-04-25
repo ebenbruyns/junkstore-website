@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Team17, 3DClouds
 developer: 3DClouds
 genre: "Role-playing (RPG), Adventure, Strategy, Indie, Hack and slash/Beat 'em up, Fighting"
+franchise: 
+age_rating_summary: 
 release_date: "May 24, 2021"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","Italian","French","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/294c3e887d734d8726d0bebbc4a753d115e080dacf6022b353b74893d68be002.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1105915912"
 is_featured: false
+owned: true
 ---
 
 King of Seas is an Action Role playing game set in a procedural pirate world. An epic adventure awaits you in a fantastic world, dotted with fights, lost islands and treasures. A universe that will keep you anchored as you struggle to become the king of all pirates.

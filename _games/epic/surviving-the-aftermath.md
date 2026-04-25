@@ -8,18 +8,24 @@ storefront_key: "epic"
 permalink: /games/epic/surviving-the-aftermath/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
 
 # Game Info
 publisher: Paradox Interactive
 developer: Iceflake Studios
-genre: Strategy, Simulator
-release_date: "November 16, 2021"
+genre: Simulation, City Builder, Strategy
+franchise: 
+age_rating_summary: 
+release_date: "November 17, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1146","name":"City Builder"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/188054"
+was_free_before: true
+giveaway_events: [{"start":"2023-11-15T15:00:00.000Z","end":"2023-11-22T15:00:00.000Z","type":null,"id":"b9fc967981994ee2a546152e62634076"}]
 
 # Images
 banner_image: "https://images.gog.com/c6422ccf55df186abe790289fc86cce36b9e7b732951159bb258537fbfdfb5c2.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "18 hrs"
+hltb_main_extra: "31 hrs"
+hltb_completionist: "34 hrs"
+hltb_url: "https://howlongtobeat.com/game/71494"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/surviving-the-aftermath"
 protondb_url: "https://www.protondb.com/app/684450"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Surviving_the_Aftermath"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Muscovy"
 is_featured: false
+owned: true
 ---
 
-Survive and thrive in a post-apocalyptic future - resources are scarce but opportunity calls. Build the ultimate disaster proof colony, protect your colonists and restore civilization to a devastated world. Remember: The end of the world is just the beginning.
-Build and manage a colony of survivors after a world-ending event. Construct more than 50 unique buildings to handle everything from resource collection and farming to exploration and security. Don’t forget to construct the Gate to venture into the savage world beyond your colony.
+Survive and thrive in a post-apocalyptic future — resources are scarce, but opportunity calls! Build the ultimate disaster proof colony, protect your colonists, and restore civilization to a devastated world.

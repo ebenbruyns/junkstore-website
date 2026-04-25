@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Ghost Goats Games
 developer: Ghost Goats Games
 genre: Arcade
+franchise: 
+age_rating_summary: 
 release_date: "September 22, 2020"
 game_modes: ["Single-player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1392790/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "714041"
 is_featured: false
+owned: true
 ---
 
 Start off as a weak ship with a simple attack and fight through waves of enemies, earning currency in order to purchase upgrades for your ship. The never ending waves of enemies grow in number, power, and variety as you progress. Purchase upgrades to keep pace with them.

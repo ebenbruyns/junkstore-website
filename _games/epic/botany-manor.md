@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Whitethorn Games
 developer: Balloon Studios
-genre: Adventure
-release_date: "April 9, 2024"
+genre: Puzzle, Adventure, Indie
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "February 6, 2026"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Japanese","Spanish - Latin America","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1425350/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "19903497b6bf4b4fb601e96680333173"
 is_featured: false
+owned: true
 ---
 
-Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora. Grow each plant to discover the mysterious qualities they hold…
+Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora.

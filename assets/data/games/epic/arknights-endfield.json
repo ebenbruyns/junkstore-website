@@ -33,12 +33,97 @@
   "cant_test_linux": false,
   "databaseId": "bcd55b0d87c245dd867f5b1bd496f1df",
   "shortname": "bcd55b0d87c245dd867f5b1bd496f1df",
-  "publisher": "Hypergryph",
-  "developer": "Gryphline",
-  "releasedate": "January 22, 2026",
-  "genre": "RPG, Action, Adventure, Open world",
+  "publisher": "GRYPHLINE",
+  "developer": "Hypergryph",
+  "releasedate": "2026-01-22T03:00:00.000Z",
+  "genre": "Exploration, RPG, Action-Adventure",
   "description": "Arknights: Endfield is a 3D real-time strategy RPG developed by HYPERGRYPH. You will take on the role of the Endministrator of Endfield Industries, set out across Talos-II to uncover its secrets, and defend and expand the frontiers of human civilization.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21134",
+      "name": "Beautiful Visuals"
+    },
+    {
+      "id": "31313",
+      "name": "First Run"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 194558,
+  "igdb_url": "https://www.igdb.com/games/194558",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Arknights: Endfield is a 3D real-time strategy RPG developed by HYPERGRYPH. You will take on the role of the Endministrator of Endfield Industries, set out across Talos-II to uncover its secrets, and defend and expand the frontiers of human civilization.",
+  "use_rich_description": true,
   "vertical_artwork": "https://cdn2.steamgriddb.com/thumb/83d54de90c45accd18b3eb06e959f4c8.jpg",
   "banner_image": "",
   "icon_image": "https://cdn2.steamgriddb.com/icon_thumb/1e8517f2a11988b48f5e7f0e12401d93.png",
@@ -65,6 +150,7 @@
   ],
   "metacritic_score": 78,
   "metacritic_url": "https://www.metacritic.com/game/arknights-endfield/",
+  "hltb_id": 138074,
   "hltb_main": "33.3 hrs",
   "hltb_main_extra": "62.9 hrs",
   "hltb_completionist": "140.9 hrs",
@@ -75,5 +161,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-21T05:53:14.781Z",
-  "updated_at": "2026-04-19T23:31:37.878Z"
+  "updated_at": "2026-04-25T02:18:03.237Z"
 }

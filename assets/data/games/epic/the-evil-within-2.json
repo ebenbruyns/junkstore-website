@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": true,
   "requires_verification": false,
   "epic_achievements": true,
@@ -35,10 +35,102 @@
   "shortname": "74977fee80de4e5e9f663e62560a0f2f",
   "publisher": "Bethesda Softworks",
   "developer": "Tango Gameworks",
-  "releasedate": "2017-10-12T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Shooter",
-  "description": "The Evil Within 2 is the latest evolution of survival horror. Detective Sebastian Castellanos has lost it all. But when given a chance to save his daughter, he must descend once more into the nightmarish world of STEM.\n\nHorrifying threats emerge from every corner as the world twists and warps around him. Will Sebastian face adversity head on with weapons and traps, or sneak through the shadows to survive.",
+  "releasedate": "2023-08-02T15:00:00.000Z",
+  "genre": "Horror, Survival, Shooter",
+  "description": "To save his daughter, Detective Sebastian Castellanos returns to a world of nightmares in The Evil Within 2. \n \nFight for your life inside a terrifying reality using weapons, traps and stealth in this survival horror follow-up from Tango Gameworks.",
   "size": "",
+  "franchise": "The Evil Within",
+  "tags_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1080",
+      "name": "Survival"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1080",
+      "name": "Survival"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 36813,
+  "igdb_url": "https://www.igdb.com/games/36813",
+  "giveaway_events": [
+    {
+      "start": "2023-10-25T15:00:00.000Z",
+      "end": "2023-11-01T15:00:00.000Z",
+      "type": null,
+      "id": "77693e5298d94911a0edd2492203d9ea"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "To save his daughter, Detective Sebastian Castellanos returns to a world of nightmares in The Evil Within 2. \n \nFight for your life inside a terrifying reality using weapons, traps and stealth in this survival horror follow-up from Tango Gameworks.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/97606b5bbebbf3af64f2ef870b32aed20e87e3c8b769e219452a0783f7743b8b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2a9ca6560a433d3c0afcb102deb94f444dc74b429151ac2d13f0922a53e8f622.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/c9e46d2ab4d164dd468ae160c7a074b5e95c88ec9d2611bbedc6436422092fd1.jpg?namespace=gamesdb",
@@ -60,15 +152,16 @@
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-evil-within-2?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 46568,
+  "hltb_main": "13.4 hrs",
+  "hltb_main_extra": "18.5 hrs",
+  "hltb_completionist": "28.4 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/46568",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-11-27T06:07:22.863Z"
+  "updated_at": "2026-04-25T02:46:11.475Z"
 }

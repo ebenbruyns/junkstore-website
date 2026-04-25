@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Garden_Story",
   "notes": "Works out of the box!",
   "date_tested": "March '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,94 @@
   "shortname": "08c5c041aa2c4fe08fbd87c08fb37c36",
   "publisher": "Rose City Games",
   "developer": "Picogram",
-  "releasedate": "2021-08-11T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Indie, Simulator",
+  "releasedate": "2021-08-11T17:00:00.000Z",
+  "genre": "Action, Indie, RPG",
   "description": "Unify a broken community as the newly-appointed Guardian of The Grove. Traverse a vibrant island to combat invasive Rot, inspire its inhabitants, and rebuild your home. You won't have to do this alone: fruity friends await, ready to lend a hand!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21130",
+      "name": "Easy Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2025-02-20T16:00:00.000Z",
+      "end": "2025-02-27T16:00:00.000Z",
+      "type": null,
+      "id": "794bbf45d5fe451d9f805d99d30bbbd0"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Unify a broken community as the newly-appointed Guardian of The Grove. Traverse a vibrant island to combat invasive Rot, inspire its inhabitants, and rebuild your home. You won't have to do this alone: fruity friends await, ready to lend a hand!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/0cd098f59a34b974802fcb95c18010f33328b07ec3769fe9ac124d8f41c1d623.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/93537aadeaf82cc8c9a4e4434920081f0ebb3f67fab864679fb356f29dd842ff.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/88107dbc65b6b0c77c4f4c8be417f8b7ead669bfcc638e8b8c4a0efbe6bcb289.jpg?namespace=gamesdb",
@@ -51,14 +135,15 @@
   ],
   "metacritic_score": 70,
   "metacritic_url": "https://www.metacritic.com/game/pc/garden-story?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 77541,
+  "hltb_main": "10.5 hrs",
+  "hltb_main_extra": "14.5 hrs",
+  "hltb_completionist": "19.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/77541",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.967Z"
+  "updated_at": "2026-04-25T05:41:40.249Z"
 }

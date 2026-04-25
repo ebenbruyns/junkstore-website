@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Team17
 developer: Team17
 genre: Strategy, Turn-based strategy (TBS)
+franchise: 
+age_rating_summary: 
 release_date: "October 9, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7026f5ad399e601ae8cc53f67d18bf32ccdf04cc0ec6de7f33a84d3ad561ea16.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/11315"
 store_url: "https://www.gog.com/en/game/worms_revolution"
 protondb_url: "https://www.protondb.com/app/200170"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Worms_Revolution"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/worms-revolution?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1421309312"
 is_featured: false
+owned: true
 ---
 
 Worms Revolution is the latest game in the classic turn-based strategy series to come to the PC, featuring exciting new features and beautiful 3D graphics whilst retaining the classic 2D gameplay that fans love. Choose to play the extensive single player mode which features both campaign and puzzle missions or dive straight into multiplayer warfare via online or local play. For the first time ever see the inclusion of dynamic water, physics objects and worm classes! Customize your experience by choosing what classes you play with, what they look like and even how they speak!

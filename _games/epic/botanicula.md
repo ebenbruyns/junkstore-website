@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Amanita Design
 developer: Amanita Design
-genre: Adventure, Indie, Puzzle, Point-and-click
-release_date: "April 19, 2012"
+genre: Puzzle, Adventure, Indie
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "March 26, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/dd2dde09986808a6886c3753cf85e77e1c6554d89f18a2c5ca6326dc0c951405.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/1285"
 store_url: "https://store.epicgames.com/en-US/p/botanicula"
 protondb_url: "https://www.protondb.com/app/207690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Botanicula"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/botanicula?ftag=MCD-06-10aaa1f"
 
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "d26da9e047e4440a80781f13a8b7c062"
 is_featured: false
+owned: true
 ---
 
-Humor-filled indie adventure game created by the makers of Machinarium.
-
-Like the previous games from Amanita Design, in Botanicula the player controls a protagonist (or multiple protagonists) while exploring the environment, solving puzzles and collecting items that are required for the obstacles that come in their way. The player is able to interact with other creatures and find easter eggs that are present in the lush environment. Like Machinarium, the game has no spoken or written dialogue.
+Five friends, little tree creatures, set out on a journey to save the last seed from their home tree which is infested by evil parasites.

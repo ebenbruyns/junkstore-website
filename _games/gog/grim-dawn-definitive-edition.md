@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Crate Entertainment
 developer: Crate Entertainment
 genre: action, role-playing
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/219990/header.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2023885455"
 is_featured: false
+owned: false
 ---
 
 Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice & consequence.

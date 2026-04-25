@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Alawar
 developer: KORO.GAMES
 genre: "Adventure, Strategy, Indie, Tactical, Card & Board Game"
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["Portuguese (Brazil)","zh-Hans","German","English","Spanish","French","Japanese","Korean","Polish","Russian","zh-Hans"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/957af989720a3e6982271b79e406566b55b6a88a8cf65ea23aaff23905f7b9b5.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1547541023"
 is_featured: false
+owned: true
 ---
 
 Necroking is a turn-based tactics roguelite with pixel art graphics. You play as a Master of Necromancy. Build your sculls deck, rise skeletons and other scum to defeat settlements desecrated by life.

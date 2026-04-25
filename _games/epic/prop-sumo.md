@@ -14,12 +14,18 @@ date_tested: "April '26"
 proton_version: ""
 
 # Game Info
-publisher: Barrel Roll Games
-developer: Barrel Roll Games
-genre: Action, Casual, Indie
-release_date: "April 9, 2026"
+publisher: "Barrel Roll Games GmbH & Co. KG"
+developer: "Barrel Roll Games GmbH & Co. KG"
+genre: Action, Casual, Fighting
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "April 10, 2026"
 game_modes: ["Multi-player"]
 languages: ["English*","German*languages with full audio support"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1296","name":"Casual"},{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+igdb_url: "https://www.igdb.com/games/355620"
+was_free_before: true
+giveaway_events: [{"start":"2026-04-09T15:00:00.000Z","end":"2026-04-16T15:00:00.000Z","type":null,"id":"bc9b3091841840ad974ff525873d48c1"}]
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/a965174568cb492ca3ebbe7a95886261/propsumo-b47fs.png"
@@ -69,6 +75,9 @@ known_issues:
 # Meta
 database_id: "f8e2163786ea463d81e1374df329fe5b"
 is_featured: false
+owned: true
 ---
 
-Prop Sumo is a physics-driven fighting game that pits ordinary props together in extraordinary battles!
+Prop Sumo is a party fighting game that pits ordinary props together in extraordinary battles!
+
+Beat up your friends and dominate the scoreboard!

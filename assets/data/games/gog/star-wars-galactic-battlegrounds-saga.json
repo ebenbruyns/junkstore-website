@@ -39,6 +39,17 @@
   "genre": "Strategy",
   "description": "Lead the great armies of the Star Wars Episode II: Attack of the Clones saga in intense real-time strategy clashes. Enter the fray as the Galactic Empire, Rebel Alliance, Wookies, Trade Federation, Gungans or Royal Naboo to determine the course of the Galactic Civil War.\n\nExpand the battlefield with the Clone Campaigns addon. Choose to play as the breakaway Confederacy of Independent Systems or the Galactic Republic in 14 missions based on characters, vehicles and locations from Star Wars Episode II: Attack of the Clones.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/ced2e9013b1128ab890dc72d0dcc7a96c82442e0c8260aef3c5b828f68fa600e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c5c93eba44b9e5ed56104d1944df5aedfdd2dfc476e50c4fa55db2b98c65bb84.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/356500/capsule_231x87.jpg",
@@ -55,6 +66,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 35550,
   "hltb_main": "42 hrs",
   "hltb_main_extra": "43.5 hrs",
   "hltb_completionist": "45.5 hrs",
@@ -66,5 +78,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-02-07T04:13:19.944Z"
+  "updated_at": "2026-04-25T00:52:45.797Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Mooneye Studios, Fabien Weibel, Bubblebird Studio
 developer: Fabien Weibel, Bubblebird Studio
 genre: Role-playing (RPG), Adventure, Indie, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "August 4, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/57e2fd16d796345e8d9a48a4cf16d875ea65cd130c6b861bdf6ea8aeb7b9816e.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1906330252"
 is_featured: false
+owned: true
 ---
 
 Be Flint, who is doing his best to keep his grandma's park up and running and make it a place for the campers to enjoy. Learn the camper's wishes and build whatever their hearts desire to attract even more quirky characters and look forward to whimsical conversations and quests.

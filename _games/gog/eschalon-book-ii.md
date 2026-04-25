@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Basilisk Games
 developer: Basilisk Games
 genre: Role-playing (RPG), Indie
+franchise: 
+age_rating_summary: 
 release_date: "May 12, 2010"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d15e067cbef6961b6a812bd9c4f01aa460c4aeccfea08cee6272789d7620c583.jpg?namespace=gamesdb"
@@ -58,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/25620"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eschalon:_Book_II"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/eschalon-book-ii/"
 
 # Notes
 notes: You may want to map extra key bindings.
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659220"
 is_featured: false
+owned: true
 ---
 
 A new chapter unfolds in the grand role playing saga!

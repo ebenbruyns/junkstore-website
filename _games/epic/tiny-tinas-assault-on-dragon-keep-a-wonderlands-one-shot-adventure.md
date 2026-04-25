@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: 2K
 developer: Gearbox Software
-genre: Role-playing (RPG), Adventure, Shooter
-release_date: "November 9, 2021"
+genre: RPG, Action-Adventure, Adventure
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "November 10, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French*","Italian*","German","Spanish - Spain*","Japanese","Korean","Traditional Chinese*languages with full audio support"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/13923"
+was_free_before: true
+giveaway_events: [{"start":"2021-11-10T15:00:00.000Z","end":"2021-11-17T15:00:00.000Z","type":null,"id":"e73c6b914a394bbface8847d75879492"}]
 
 # Images
 banner_image: "https://images.gog.com/df84f412beeea15e6b3161365af7ccd74027c949ae339a7c6ba2ae3c0a4cc879.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: true
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "6 hrs"
+hltb_main_extra: "11 hrs"
+hltb_completionist: "35.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/100017"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure"
@@ -69,6 +75,8 @@ known_issues:
 # Meta
 database_id: "9e296d276ad447108f12c654c3341d59"
 is_featured: false
+owned: true
 ---
 
 Smash skeletons, defeat dragons, and battle giant golems in Tiny Tina's Assault on Dragon Keep: A Wonderlands One-Shot Adventure. Experience the acclaimed 2013 quest jam-packed with fantasy, fun, and mountains of magical loot!
+

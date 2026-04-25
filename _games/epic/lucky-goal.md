@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: LuckyVerse
 developer: Woondas
-genre: Action, Adventure, Casual, Indie, Sports
-release_date: "January 1, 2025"
+genre: Sports, Indie
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "October 5, 2023"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","Czech*","Slovak*","French*","German*","Spanish - Spain*","Portuguese - Brazil*","Portuguese - Portugal*","Spanish - Latin America*","Russian*"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1264","name":"Co-op"},{"id":"1283","name":"Sports"},{"id":"1299","name":"Competitive"},{"id":"19847","name":"Achievements"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
+igdb_url: "https://www.igdb.com/games/230347"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/6666791b9d354f288ae95f6c243d45ff/lucky-goal-om9ft.png"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1203dd46538a4abd8cd12d715528e2c2"
 is_featured: false
+owned: true
 ---
 
 Lucky goal offers an experience of a soccer game through a third-person view. Create or participate in an online match and show who is a better soccer player. A singleplayer adventure is waiting for you to improve your gaming skills.

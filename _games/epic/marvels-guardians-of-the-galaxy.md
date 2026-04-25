@@ -14,12 +14,18 @@ date_tested: "Nov '24"
 proton_version: ""
 
 # Game Info
-publisher: Square Enix
+publisher: Eidos-Montréal
 developer: Eidos Montréal
-genre: Role-playing (RPG), Adventure, Shooter
-release_date: "October 26, 2021"
-game_modes: []
+genre: Action, Action-Adventure, Adventure
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "October 27, 2021"
+game_modes: ["Single Player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/152249"
+was_free_before: true
+giveaway_events: [{"start":"2024-01-03T15:00:00.000Z","end":"2024-01-10T15:00:00.000Z","type":null,"id":"a2fc9e21ab4e416680c2b9597b7f6eaf"}]
 
 # Images
 banner_image: "https://images.gog.com/9c334fd86853fd31774cd91771a404a5200f956d19b40a3b27435825a08945a6.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "17.6 hrs"
+hltb_main_extra: "20.4 hrs"
+hltb_completionist: "26 hrs"
+hltb_url: "https://howlongtobeat.com/game/72584"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/marvel-s-guardians-of-the-galaxy"
+store_url: "https://store.epicgames.com/en-US/p/marvels-guardians-of-the-galaxy"
 protondb_url: "https://www.protondb.com/app/1088850"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Marvel%27s_Guardians_of_the_Galaxy"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/marvels-guardians-of-the-galaxy?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "63a665088eb1480298f1e57943b225d8"
 is_featured: false
+owned: true
 ---
 
-Fire up a wild ride across the cosmos with a fresh take on Marvel’s Guardians of the Galaxy. In this action-adventure game, you are Star-Lord leading the unpredictable Guardians from one explosion of chaos to the next. You got this. Probably.
+You are Star-Lord. The fate of the galaxy and the Guardians is in your hands. Time to show the universe what you’re made of. You got this. Probably.

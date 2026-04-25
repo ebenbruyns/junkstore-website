@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Virgin Interactive Entertainment (Europe) Ltd., Virgin Interactive Entertainment, Inc., Revolution Software
 developer: Revolution Software
 genre: Adventure, Indie, Puzzle, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "March 1, 1994"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/2ddb74da4bb18466ea716abfa56674d48858483f6a07e94f16792b4304e16b0c.jpg?namespace=gamesdb"
@@ -56,9 +62,9 @@ hltb_url: "https://howlongtobeat.com/game/1005"
 store_url: "https://www.gog.com/en/game/beneath_a_steel_sky"
 protondb_url: "https://www.protondb.com/app/1368340"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beneath_a_Steel_Sky"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/beneath-a-steel-sky/"
 
 # Notes
 notes: "You need to set the platform to DOSBox from the cog menu on the game screen: Game Configs > ADVANCED > platform > Dosbox. Save the config change and launch the game."
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658695"
 is_featured: false
+owned: true
 ---
 
 Beneath a Steel Sky is a cyberpunk, point and click, adventure game. You assume the role of Robert Foster and embark on a quest to make the world a better place, along with your robot companion Joey.

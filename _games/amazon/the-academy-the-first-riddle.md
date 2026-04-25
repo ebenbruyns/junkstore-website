@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Snapbreak
 developer: Pine Studio
 genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "June 19, 2020"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian","Simplified Chinese","Traditional Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/33614b4760df1260d9033b39dbda62d5df988a069d12036538bdd46457f5aadc.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "7f279a69-296c-4ab4-b82f-e4c0129c1b70"
 is_featured: false
+owned: true
 ---
 
 The Academy is a puzzle-packed adventure set in a school filled with mystery. Leave your mark on Arbor's Academy and find out why it only welcomes the best and the brightest.

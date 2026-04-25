@@ -5,7 +5,7 @@
   "protondb": "https://www.protondb.com/app/1271400",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/adios-b378b4",
   "itch_url": "",
   "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Adios",
   "notes": "May need to verify with Epic account before launch. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Needs Microsoft C++ runtime dependency but ships with it, so just install it.",
@@ -35,10 +35,70 @@
   "shortname": "73c56a1f38a548b2852ce8608c5e436e",
   "publisher": "Mischief",
   "developer": "Mischief",
-  "releasedate": "2021-03-17T00:00:00+0000",
-  "genre": "Adventure, Indie, Simulator",
+  "releasedate": "2021-06-29T04:00:00.000Z",
+  "genre": "Narration, Adventure, First Person",
   "description": "A pig farmer decides he no longer wants to dispose of bodies for the mob. What follows is a discussion between him and his would-be killer.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 138270,
+  "igdb_url": "https://www.igdb.com/games/138270",
+  "giveaway_events": [
+    {
+      "start": "2023-01-25T15:00:00.000Z",
+      "end": "2023-02-01T15:00:00.000Z",
+      "type": null,
+      "id": "7334a6f04f5b47218e691f805891bc5d"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "A pig farmer decides he no longer wants to dispose of bodies for the mob. What follows is a discussion between him and his would-be killer.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/e2d61f63e21a57daa74e6e4873f508d653c86a316024cce836c9952f034c9f1a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e6030f1211af2baa459fe5a8c7ae04f1e1e16f9b1b9c8a692e0788901eba6af8.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6dd436603c9f02c4ef0a56ad0107756da89c4941b252bf9ce359acad679426df.jpg?namespace=gamesdb",
@@ -51,15 +111,16 @@
   ],
   "metacritic_score": 78,
   "metacritic_url": "https://www.metacritic.com/game/adios/",
+  "hltb_id": 86459,
   "hltb_main": "1.3 hrs",
   "hltb_main_extra": "1.5 hrs",
   "hltb_completionist": "2 hrs",
   "hltb_url": "https://howlongtobeat.com/game/86459",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-24T01:54:04.372Z"
+  "updated_at": "2026-04-25T02:41:54.492Z"
 }

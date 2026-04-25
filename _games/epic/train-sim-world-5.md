@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Dovetail Games
 developer: Dovetail Games
 genre: Simulator
-release_date: "September 17, 2024"
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "September 18, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"9547","name":"Windows"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3abeddf2a60e1a3f54c6a1554d74b197b1124620df309fc7995a85d0f59588f0.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://store.epicgames.com/en-US/p/train-sim-world-5"
 protondb_url: "https://www.protondb.com/app/2967990"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Train_Sim_World_5"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "f914e05a4fe94b8f9c10d799a6cd9a7f"
 is_featured: false
+owned: true
 ---
 
-The Rails are Yours in Train Sim World 5! Take on new challenges and new roles as you master the tracks and trains of iconic cities across 3 new routes. Immerse yourself in the ultimate rail hobby and embark on your next journey.
+Experience the hustle and bustle of packed-in commuters, trains every few minutes, the echo of screeching rails in tunnels with the classic Bakerloo Line, rendered in its entirety within Train Sim World!

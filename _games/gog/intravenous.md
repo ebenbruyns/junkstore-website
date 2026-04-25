@@ -17,9 +17,15 @@ proton_version: ""
 publisher: HypeTrain Digital, Roman Glebenkov
 developer: Roman Glebenkov, Explosive Squat Games
 genre: Indie, Shooter, Tactical
+franchise: 
+age_rating_summary: 
 release_date: "July 26, 2021"
 game_modes: ["Single player"]
 languages: ["English","Russian","Spanish - Spain","German","Turkish","Spanish - Latin America","Portuguese - Brazil","Korean"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a9fccfeaebbafd6a3232b5e36de72ed5e6939b45773363c6edc986da5849d254.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1355225376"
 is_featured: false
+owned: true
 ---
 
 Teeth-clenching stealth, followed by hardcore gunplay for those not looking for a quiet way in. Intravenous will keep you at the edge of your seat regardless of how you play!

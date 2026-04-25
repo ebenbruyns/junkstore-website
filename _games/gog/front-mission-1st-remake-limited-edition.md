@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Square Enix
 developer: SQUARE ENIX
 genre: role-playing, strategy, tactical
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Japanese","Polish","Portuguese","Spanish","zh-Hans"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1e09a2f90a49c559dab3eac3badcba8ff84eb4feb147ed5a12554fcf86428795.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/117885"
 store_url: "https://www.gog.com/en/game/front_mission_1st_remake"
 protondb_url: "https://www.protondb.com/app/2399730"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Front_Mission_1st%3A_Remake"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1111530020"
 is_featured: false
+owned: false
 ---
 
 Experience all the memorable battles and heart wrenching drama of Front Mission with improved visuals, an updated interface, and English voiceovers!

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: NIL, NIL
 developer: Totalitarian
 genre: Role-playing (RPG), Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "January 1, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/aa0965523261e8f0d36096172512047bbbb95a6f3b5835a290fb25ef63c65b2e.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1553376539"
 is_featured: false
+owned: true
 ---
 
 Dubbed the "Definitive Deus Ex Experience" web-wide, GMDX is a one-of-a-kind all-encompassing modification of the classic video game Deus Ex, currently half a decade into rigorous development. Intended to be the best looking and playing version of Deus Ex available all the while remaining true to the original identity of the game, GMDX is the greatest thinking man's Shooter/Sneaker/RPG hybrid on another level. Prepare to be blown away by Deus Ex once more.

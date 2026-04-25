@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Humble Bundle, Humble Games
 developer: Hop Frog, HopFrog
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Puzzle, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "April 18, 2019"
 game_modes: ["Single player"]
 languages: ["English","German","Spanish - Spain","Simplified Chinese","Portuguese - Brazil","Japanese","Korean","Russian","Thai","Turkish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/2b29c682e62499dd223e658d7f8bb0f44fec12778762d007097f3c230904c0d2.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2106942030"
 is_featured: false
+owned: true
 ---
 
 The highly popular and quirky, idle game that you want to actively keep playing. Explore, craft, gather & manage resources, find secrets and build your base out of nothing! Buy land to explore and expand!

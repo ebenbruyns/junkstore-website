@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Akupara Games
 developer: OneShark
 genre: Role-playing (RPG), Indie, Arcade, Fighting
+franchise: 
+age_rating_summary: 
 release_date: "June 27, 2016"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/6de07b1ba8163cebdd1f15959b4f4984e6dd51bee7b4a76b9b632458c9893039.jpg?namespace=gamesdb"
@@ -56,9 +62,9 @@ hltb_url: "https://howlongtobeat.com/game/69440"
 store_url: "https://www.gog.com/en/game/chicken_assassin_reloaded"
 protondb_url: "https://www.protondb.com/app/489610"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Chicken_Assassin_-_Master_of_Humiliation"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/chicken-assassin-reloaded/"
 
 # Notes
 notes: Requires manual controller/key mapping.
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1316203883"
 is_featured: false
+owned: true
 ---
 
 Chicken Assassin is a fast paced action-RPG with an outrageous storyline filled with over-the-top humor that boasts a myriad of colorful enemies and visually stunning levels and environments.

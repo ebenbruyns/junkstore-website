@@ -39,6 +39,17 @@
   "genre": "Indie, Arcade",
   "description": "Spaß Taxi is a clone of the original Space Taxi, where you need to bring passengers from one pad to another in weird environments with unexpected obstacles.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/a528e1f24d17767211ad87a9e2717f48ffcb8242c3d053443e784454fe691bab.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1206770/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1206770/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:17.264Z",
-  "updated_at": "2025-10-25T04:29:26.634Z"
+  "updated_at": "2026-04-25T00:55:34.689Z"
 }

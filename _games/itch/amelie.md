@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Two and a Half Studios
 developer: Two and a Half Studios
 genre: Indie, Simulator, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "December 16, 2021"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1835810/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1269964"
 is_featured: false
+owned: true
 ---
 
 A psychological mystery yuri visual novel about a girl named Amelie. Forbidden from leaving the house, Amelie awaits the arrival of her long time penpal, Sofia, to her dear friend Lilika’s dismay. What secrets will Sofia unravel that were best kept buried?

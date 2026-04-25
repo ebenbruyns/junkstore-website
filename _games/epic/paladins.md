@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Hi-Rez Studios
 developer: Hi-Rez Studios, Evil Mojo Games
-genre: Strategy, Shooter
-release_date: "May 2, 2017"
+genre: Shooter
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "March 25, 2020"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English*","French","German","Spanish - Spain","Polish","Russian","Turkish","Portuguese - Brazil","Japanese*languages with full audio support"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21125","name":"Competitive Community"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/6896e0d0d9ff16a05b44263f0810687d53931cd0493326c9dc6db5a11f5c8dcf.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -50,7 +56,7 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/33021"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/paladins"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Antbird"
 is_featured: false
+owned: true
 ---
 
-Paladins is the ultimate fantasy team-based shooter experience, with over 50 customizable Champions fighting in 5v5 action across a diverse Realm of modes and maps!
+Join 30+ million players in Paladins, the free-to-play fantasy team-based shooter sensation. Wield guns and magic as a legendary Champion of the Realm, customizing your core set of abilities to play exactly how you want to play.

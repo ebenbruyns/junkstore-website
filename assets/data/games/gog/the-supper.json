@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Point-and-click",
   "description": "The Supper is a short adventure game about the darkest side of the human soul. Ms. Appleton was always a wellspring of kindness, until The Voice started talking to her.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/3bba4d20532863c3c51c63249d2ac821f3a743962d76d1cb2f92800049b4d430.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/98a651797e150479b705bd11769bfa88cbcc52e89d9f62c07b7e5518808e5482.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/e56106f4c682377d7f59d65c15dd8f29f865f01b48197a289d183e1580b46e85.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/the-supper/",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-24T01:13:22.663Z"
+  "updated_at": "2026-04-25T00:44:03.639Z"
 }

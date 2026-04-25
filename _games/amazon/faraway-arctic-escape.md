@@ -17,9 +17,15 @@ proton_version: ""
 publisher: NIL, NIL
 developer: NIL, NIL
 genre: Adventure
+franchise: 
+age_rating_summary: 
 release_date: ""
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f3ab37f64378a185c17851fcc856df448ec6846be3ab60d9a32165a2f75138a5.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.2acb36df-2414-4f0d-8fa4-cdfe9fe604fe"
 is_featured: false
+owned: true
 ---
 
 Faraway: Arctic Escape is a relaxing adventure escape game full of new puzzles to solve. The final sequel of the Faraway trilogy.

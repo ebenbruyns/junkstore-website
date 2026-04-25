@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Tallbeard Studios
 developer: Tallbeard Studios
 genre: Strategy, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "June 14, 2020"
 game_modes: ["Single player"]
 languages: []
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1400210/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "671654"
 is_featured: false
+owned: true
 ---
 
 The Grim Reaper, the dark collector of lost souls. Unfortunately, your horse has fallen ill so you need to drive a bus instead.

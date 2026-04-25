@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Farming_Simulator_22",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,98 @@
   "shortname": "f452ea20ae1b43698209998b56c2cc1c",
   "publisher": "Giants Software",
   "developer": "Giants Software",
-  "releasedate": "2021-11-22T00:00:00+0000",
-  "genre": "Simulator",
+  "releasedate": "2021-11-22T08:00:00.000Z",
+  "genre": "Simulation",
   "description": "Take on the role of a modern farmer! Agriculture, animal husbandry and forestry offer a huge variety of farming activities while you face the challenges of the four seasons, especially when winter sets in. Creatively build your own farm and extend your farming operations with production chains, forming an agricultural empire! Even run your farm together with friends and enjoy crossplatform multiplayer together.",
   "size": "",
+  "franchise": "Farming Simulator",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1393",
+      "name": "Simulation"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2024-05-22T15:00:00.000Z",
+      "end": "2024-05-29T15:00:00.000Z",
+      "type": null,
+      "id": "91468918931c44148b837e76d34bf75a"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "The new Farming Simulator is incoming!",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/7aab80b4f2e181a1233f5eb0ea31f73c19f696b8cc1caf4d1a94f781917b2eaf.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9267539bb51e117b5365b99763608d34daf2d596926eca8027135cbdaea77af9.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d6b1fd9a690ec89b8b18af1bea34ad4599eb9a2fca4e76148379aacefd34b1e7.jpg?namespace=gamesdb",
@@ -53,14 +141,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 100591,
+  "hltb_main": "163 hrs",
+  "hltb_main_extra": "216 hrs",
+  "hltb_completionist": "269 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/100591",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "updated_at": "2026-04-25T05:41:28.055Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: HandyGames
 developer: Paintbucket Games
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "January 30, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/66b1aa5d839e3dca95b2c9ed792b787103b164b0091d49992f6db66d7c3f39c6.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.d306715a-5b83-467f-9795-ffb3e0b9575b"
 is_featured: false
+owned: true
 ---
 
 Through the Darkest of Times is a strategy game, that let's you play a resistance group in Third Reich Berlin. The game covers the entire time from Hitler's seizure of power 1933 to Germany's unconditional surrender 1945.

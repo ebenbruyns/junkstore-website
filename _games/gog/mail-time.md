@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Freedom Games
 developer: Kela van der Deijl
 genre: Adventure, Indie, Platform
+franchise: 
+age_rating_summary: 
 release_date: "April 27, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d316688134a426195f3433a80907de5689ced4d16477483472f8e31b5b3d59a7.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/95986"
 store_url: "https://www.gog.com/en/game/mail_time"
 protondb_url: "https://www.protondb.com/app/1607240"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mail_Time"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1937407919"
 is_featured: false
+owned: true
 ---
 
 Cottagecore cozy adventure game about delivering mail to forest animals! take on the role of a fresh-on-the-job Mail Scout given her very first letter to deliver. All you have to do is find out exactly where the recipient Greg lives and deliver the letter, no biggie!

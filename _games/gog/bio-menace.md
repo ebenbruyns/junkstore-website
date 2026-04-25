@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Apogee Software, Wiz Technology
 developer: Apogee Software
 genre: Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "August 3, 1993"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1268f8fcd673cc911a83597e7583adf6deaae6dd6e477386b2fc54d6e8d51cfc.jpg?namespace=gamesdb"
@@ -56,9 +62,9 @@ hltb_url: "https://howlongtobeat.com/game/1052"
 store_url: "https://www.gog.com/en/game/bio_menace"
 protondb_url: "https://www.protondb.com/app/358180"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bio_Menace"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/bio-menace/"
 
 # Notes
 notes: "Requires ScummVM. Community controller layout available. **Decky Plugin: Not Supported**. **Pro Version: Works out of the box**."
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1449569170"
 is_featured: false
+owned: true
 ---
 
 Intelligence reports indicate that a man calling himself Dr. Mangle is responsible for the mutants and the destruction of Metro. You will have to battle your way through levels packed with evil mutants and robotic guards to finally infiltrate Mangle's fortress and defeat him. You think to yourself that this will be the most dangerous mission of your life.

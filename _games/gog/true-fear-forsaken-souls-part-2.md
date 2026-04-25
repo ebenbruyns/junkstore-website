@@ -17,9 +17,15 @@ proton_version: ""
 publisher: The Digital Lounge
 developer: Goblinz Enterprises Ltd
 genre: Adventure, Casual
+franchise: 
+age_rating_summary: 
 release_date: "November 2, 2018"
 game_modes: ["Single-player"]
 languages: ["English*","Russian","French","German","Spanish - Spain","Dutch","Ukrainian","Portuguese - Brazil","Italian","Romanian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/935580/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1365195229"
 is_featured: false
+owned: true
 ---
 
 True Fear: Forsaken Souls Part 2 is the sequel to one of the best rated horror escape games, acclaimed for its story and the atmosphere of horror mystery.

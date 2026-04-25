@@ -39,6 +39,17 @@
   "genre": "Action, Casual, Indie",
   "description": "Head-to-head puzzle brawling action! Match blocks to send waves at your opponent! Dodge their waves or crash them head-on to survive. Unleash unique super attacks and explosive Hype Mode to tip the scales. It's a back-and-forth struggle for arcade puzzling dominance!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/751490/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/751490/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/751490/capsule_231x87.jpg",
@@ -52,6 +63,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -61,5 +73,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-27T06:23:45.094Z",
-  "updated_at": "2026-02-07T23:11:38.226Z"
+  "updated_at": "2026-04-25T00:57:33.750Z"
 }

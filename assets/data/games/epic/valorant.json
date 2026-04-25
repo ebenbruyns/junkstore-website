@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Valorant",
   "notes": "",
   "date_tested": "N/A",
   "decky_rating": "",
@@ -33,12 +33,89 @@
   "cant_test_linux": true,
   "databaseId": "602eb4abc8764c87b7f2607a1ef8c18e",
   "shortname": "602eb4abc8764c87b7f2607a1ef8c18e",
-  "publisher": "Riot Games",
-  "developer": "Riot Games",
-  "releasedate": "2020-06-02T00:00:00+0000",
-  "genre": "Shooter, Tactical",
-  "description": "Valorant is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork.",
+  "publisher": "Riot Games, Inc.  ",
+  "developer": "Riot Games, Inc.  ",
+  "releasedate": "2021-11-04T16:30:00.000Z",
+  "genre": "Action, Shooter",
+  "description": "VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1185",
+      "name": "FPS"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/ae2f5c501deed14ff64d9f64d8ab2b34de2d6566ac30aefa184ea367c7aa1fb3.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/1ac28414673b01bf70ca3e1942855fe7c7513e1888b32bf381460cfc7212dfba.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/048679d4dc6ea2eb2d417bbf0180885afb1fa017a0e6311d8b15cb5bf6861d75.jpg?namespace=gamesdb",
@@ -51,15 +128,16 @@
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/valorant/",
+  "hltb_id": "76906",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/76906",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-20T00:52:12.127Z"
+  "updated_at": "2026-04-25T03:32:51.897Z"
 }

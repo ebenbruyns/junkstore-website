@@ -5,19 +5,19 @@
   "protondb": "https://www.protondb.com/app/909470",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/touch-type-tale",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Touch_Type_Tale",
   "notes": "Works out of the box but you need to change controller layout to Keyboard & Mouse. While it works on the Steam Deck you'll be better off playing with an external keyboard, was a pain testing using the on screen keyboard.",
   "date_tested": "May '25",
-  "decky_rating": "Perfect",
-  "standalone_rating": "Perfect",
+  "decky_rating": "green",
+  "standalone_rating": "green",
   "proton_version": "",
   "dependencies": "",
   "controller_config": "Keyboard & Mouse",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,94 @@
   "shortname": "fe118ed0362040c994b510da064876ca",
   "publisher": "Mythwright",
   "developer": "Pumpernickel Studio",
-  "releasedate": "2023-03-28T00:00:00+0000",
-  "genre": "Strategy, Indie, Real Time Strategy (RTS)",
-  "description": "A boy is wanted for his nimble fingers by four rivaling dukes and duchesses of a kingdom in turmoil.\n\nTouch Type Tale is a real-time strategy typing game featuring a story rich campaign and online competitive play.\nChallenge your friends in a battle of tactics and typing skills!",
+  "releasedate": "2023-03-28T13:00:00.000Z",
+  "genre": "Strategy",
+  "description": "Touch Type Tale is a real-time strategy game with a typing twist, featuring a story rich campaign and online competitive play that will delight even the most hardened RTS veterans.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 107986,
+  "igdb_url": "https://www.igdb.com/games/107986",
+  "giveaway_events": [
+    {
+      "start": "2025-05-08T15:00:00.000Z",
+      "end": "2025-05-15T15:00:00.000Z",
+      "type": null,
+      "id": "ac63bc06c6d44a5d8c423675bd7208d9"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Touch Type Tale is a real-time strategy game with a typing twist, featuring a story rich campaign and online competitive play that will delight even the most hardened RTS veterans.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/26334d747a6f76b5245adbffc54bec0817a44c03c404dee587e6d0cfcce4c1d9.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ece2157005bd5984cb2ac89badeb94119de8bc9cf65f754e7de9f73f1dce3bee.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f42cde13de166a61f55a5a10c15333224f2a093edc3b517c744235041ec63511.jpg?namespace=gamesdb",
@@ -52,14 +136,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
+  "hltb_id": 71765,
+  "hltb_main": "11 hrs",
+  "hltb_main_extra": "27.5 hrs",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/71765",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:07:05.223Z"
+  "updated_at": "2026-04-25T05:45:40.331Z"
 }

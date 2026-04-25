@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Take-Two Interactive, Rockstar Games
 developer: Rockstar North
 genre: Adventure, Shooter, Racing
-release_date: "September 17, 2013"
+franchise: 
+age_rating_summary: 
+release_date: "January 1, 2099"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian","Traditional Chinese"]
+tags_structured: [{"id":"11631","name":"Requires 2FA"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/79b33f20eeb88783a4bdcafd659e07f0cb8f21ad7fe075c609c00bb1f0c0a7d2.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: true
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "32 hrs"
+hltb_main_extra: "51.5 hrs"
+hltb_completionist: "88.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/4064"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/grand-theft-auto-v"
 protondb_url: "https://www.protondb.com/app/271590"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V"
 metacritic_score: 97
 metacritic_url: "https://www.metacritic.com/game/pc/grand-theft-auto-v?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "9d2d0eb64d5c44529cece33fe2a46482"
 is_featured: false
+owned: true
 ---
 
 Grand Theft Auto V is a vast open world game set in Los Santos, a sprawling sun-soaked metropolis struggling to stay afloat in an era of economic uncertainty and cheap reality TV. The game blends storytelling and gameplay in new ways as players repeatedly jump in and out of the lives of the game’s three lead characters, playing all sides of the game’s interwoven story.

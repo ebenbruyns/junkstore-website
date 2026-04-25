@@ -37,8 +37,41 @@
   "developer": "Uprising Studios",
   "releasedate": "2021-12-23T00:00:00+0000",
   "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Platform",
-  "description": "Scarf is a 3D Adventure game, where protagonist Hyke must use his polymorphic scarf to explore a magical environment, solve mysterious puzzles and overcome difficult challenges. Hyke’s scarf morphs into different objects which will help to progress the adventure. Hyke was born in an unknown place, surrounded by other souls. All of them will start a path through the World with the main goal being to meld with it and become part of nature.\n\n\"Mixing walking simulator and 3D platformers, Scarf is an atmospheric and emotional journey about what it means to be a hero. Travel to three beautiful crafted worlds and discover your true destiny.\"",
+  "description": "Scarf is an atmospheric and emotional journey about what it means to be a hero. An adventure game mixing puzzles and 3D platforms. Explore beautifully crafted worlds and discover your true destiny with the help of a dragon-shaped scarf.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 106836,
+  "igdb_url": "https://www.igdb.com/games/106836",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Scarf is an atmospheric and emotional journey about what it means to be a hero. An adventure game mixing puzzles and 3D platforms. Explore beautifully crafted worlds and discover your true destiny with the help of a dragon-shaped scarf.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/b2208d8f434f1aac38247e49d43ef6d42d86d481a8e34b5dd44b3575d060eacd.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d391af5ad4509a520c54e65117d57180fc33f65dd7c90ef569bf597cefc79f10.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/645320/capsule_231x87.jpg",
@@ -60,6 +93,7 @@
   ],
   "metacritic_score": 69,
   "metacritic_url": "https://www.metacritic.com/game/scarf-2021/",
+  "hltb_id": 101772,
   "hltb_main": "4 hrs",
   "hltb_main_extra": "5 hrs",
   "hltb_completionist": "7 hrs",
@@ -69,5 +103,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T22:08:15.388Z"
+  "updated_at": "2026-04-25T02:24:30.412Z"
 }

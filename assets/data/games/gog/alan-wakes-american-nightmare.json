@@ -39,6 +39,17 @@
   "genre": "Action, Adventure",
   "description": "A thrilling new storyline, hordes of creepy enemies, serious firepower and beautiful Arizona locations, combined with a fun and challenging new game mode!",
   "size": "2381264613\n",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/202750/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/202750/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/202750/capsule_231x87.jpg",
@@ -60,6 +71,7 @@
   ],
   "metacritic_score": 73,
   "metacritic_url": "https://www.metacritic.com/game/pc/alan-wakes-american-nightmare?ftag=MCD-06-10aaa1f",
+  "hltb_id": 320,
   "hltb_main": "3.5 hrs",
   "hltb_main_extra": "4.5 hrs",
   "hltb_completionist": "8.5 hrs",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-22T00:30:36.819Z",
-  "updated_at": "2025-10-25T04:29:12.975Z"
+  "updated_at": "2026-04-25T00:56:45.728Z"
 }

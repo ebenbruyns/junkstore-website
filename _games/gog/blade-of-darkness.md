@@ -17,9 +17,15 @@ proton_version: ""
 publisher: SNEG
 developer: General Arcade, Rebel Act Studios, Fire Falcom
 genre: "Role-playing (RPG), Hack and slash/Beat 'em up"
+franchise: 
+age_rating_summary: 
 release_date: "October 7, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/86a1f35d260dc96e6557dca7b69723e364691f0fe37682f3d2f327c615d0671f.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/99229"
 store_url: "https://www.gog.com/en/game/blade_of_darkness"
 protondb_url: "https://www.protondb.com/app/1710170"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blade_of_Darkness"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/blade-of-darkness?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1176525525"
 is_featured: false
+owned: true
 ---
 
 Blade of Darkness is a hardcore fantasy action-adventure with unique combat mechanics and role-playing elements that pioneered the “soulsborne” genre. Pick one of four characters to hack and slash through a gory quest to save the world from the forces of Chaos.

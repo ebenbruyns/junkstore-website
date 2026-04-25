@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Akupara Games
 developer: Clover Bite
-genre: Role-playing (RPG), Adventure, Indie, Platform
-release_date: "August 2, 2021"
+genre: Platformer
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "August 3, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]
+igdb_url: "https://www.igdb.com/games/121295"
+was_free_before: true
+giveaway_events: [{"start":"2023-07-05T15:00:00.000Z","end":"2023-07-12T15:00:00.000Z","type":null,"id":"3f468b7977d0416a9a36af16f384c516"}]
 
 # Images
 banner_image: "https://images.gog.com/1d682707cc48aa3b5316b42e97b9893fb00212bb6398a98ef96b2d4df283eb28.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "028263f54a874e35800d142275254d2c"
 is_featured: false
+owned: true
 ---
 
-Explore a surreal world obsessed with proportions and anatomy, in this 2.5D Metroidvania action RPG, where you will find out what you're made of... and break everything else apart.
+GRIME is a fast, unforgiving Action-Adventure RPG in which you crush your foes with living weapons that mutate form and function, and then consume their remains with a black hole to strengthen your vessel as you break apart a world of anatomical intrigue.

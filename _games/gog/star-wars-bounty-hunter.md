@@ -17,9 +17,15 @@ proton_version: ""
 publisher: LucasArts
 developer: LucasArts
 genre: Adventure, Platform, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "November 19, 2002"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/47e64dc540de0dbe73915e8bed77bf213fddc20e08a7e8908537fb2ca4bdf31f.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/9099"
 store_url: "https://www.gog.com/en/game/star_wars_bounty_hunter"
 protondb_url: "https://www.protondb.com/app/2419090"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars%3A_Bounty_Hunter"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1158717618"
 is_featured: false
+owned: true
 ---
 
 Star Wars: Bounty Hunter (released in Japan as Star Wars: Jango Fett) is a Star Wars video game developed and published by LucasArts for the GameCube and Sony PlayStation 2, released in 2002. In the game, players play as the bounty hunter Jango Fett, featured in the 2002 film Star Wars Episode II: Attack of the Clones, to which this game serves as a prequel. Both Temuera Morrison and Leeanna Walsman reprise their roles from the film as Jango Fett and Zam Wesell, respectively.

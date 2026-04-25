@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 2K Games
 developer: Firaxis Games
 genre: Strategy, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "May 12, 2009"
 game_modes: ["Single player"]
 languages: ["English","Deutsch","Español","Français","Italiano"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f14746763e92637c6a31aa3e1db36c499bea98a91a0f38e36790b5d8443677f1.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1760534591"
 is_featured: false
+owned: true
 ---
 
 Sid Meier’s Civilization is widely recognized as one the greatest PC game franchises of all-time. Heralded as one of the top ten games of 2005, Civilization IV is a must-have for gamers around the globe. Sid Meier’s Civilization IV: The Complete Edition includes Civilization IV, plus all three expansions: Warlords, Beyond the Sword and Colonization.

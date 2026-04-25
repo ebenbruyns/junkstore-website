@@ -17,9 +17,15 @@ proton_version: ""
 publisher: WB Games, MGM Interactive
 developer: "Traveller's Tales"
 genre: Role-playing (RPG), Adventure, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "April 8, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/e00b8bc67fd9edc4e1cbb6f3dfa88e8c59f8c204efd0fff5f371a559f49c1653.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/16635"
 store_url: "https://www.gog.com/en/game/lego_the_hobbit"
 protondb_url: "https://www.protondb.com/app/285160"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_The_Hobbit"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1753068551"
 is_featured: false
+owned: true
 ---
 
 Reclaim the Lost Kingdom brick by brick! Join Bilbo Baggins, Gandalf, Thorin and his company of Dwarves in an epic adventure across Middle-earth to recapture the Lonely Mountain in the most expansive LEGO game to date. Battle ravenous Trolls, dangerous Orcs and many more. Combine the Dwarves' unique abilities to solve puzzles - often with hilarious results! Explore iconic locations in Middle-earth, from the Shire to Goblin-town and beyond.

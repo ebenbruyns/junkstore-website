@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Glanderco, RedDeerGames
 developer: Julian Glander
 genre: Adventure, Indie, Platform, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "February 5, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/953300/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "305627"
 is_featured: false
+owned: true
 ---
 
 🖼make art🖼 ✨achieve creative fulfillment✨ 🖌that's ART SQOOL babie!🖌

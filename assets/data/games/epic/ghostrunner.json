@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1139900",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/ghostrunner",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Ghostrunner",
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime Dependency",
   "date_tested": "Dec '24",
   "decky_rating": "yellow",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,104 @@
   "shortname": "ea8df71f923649a193ab1c1fded7e1b3",
   "publisher": "505 Games, All In! Games",
   "developer": "3D Realms, One More Level, Slipgate Ironworks",
-  "releasedate": "2020-10-27T00:00:00+0000",
-  "genre": "Adventure, Platform, Shooter",
-  "description": "Ascend humanity’s last remaining shelter, a great tower-city. The tower is torn by violence, poverty and chaos. Conquer your enemies, discover the secrets of the superstructure and your own origin and obtain the power to challenge The Keymaster.",
+  "releasedate": "2020-10-27T15:00:00.000Z",
+  "genre": "Action, Shooter",
+  "description": "Ghostrunner offers a unique single-player experience: fast-paced, violent combat, and an original setting that blends science fiction with post-apocalyptic themes. It tells the story of a world that has already ended and its inhabitants who fight to survive.",
   "size": "",
+  "franchise": "Ghostrunner",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1132",
+      "name": "SCI-FI"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2024-04-10T15:00:00.000Z",
+      "end": "2024-04-17T15:00:00.000Z",
+      "type": null,
+      "id": "19b650f9a98a45b0bfe07674b51fa7a0"
+    },
+    {
+      "start": "2023-12-30T15:00:00.000Z",
+      "end": "2023-12-31T15:00:00.000Z",
+      "type": null,
+      "id": "19b650f9a98a45b0bfe07674b51fa7a0"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Ghostrunner offers a unique single-player experience: fast-paced, violent combat, and an original setting that blends science fiction with post-apocalyptic themes. It tells the story of a world that has already ended and its inhabitants who fight to survive.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/c22ac0283f670cbb8ba887ae220f0dc8df9356a91aaa7a3b8d2c40b2cfa7088d.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4189cb24cffd014efe01df71d3cb6bade85455df83736686eed94893986d42b0.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/28e94b1ca9af63c08c0d68b0241ec13cd9ea9f1dcd9b3b0acbf5ab5eee48a4b5.jpg?namespace=gamesdb",
@@ -51,15 +145,16 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/pc/ghostrunner?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 69898,
+  "hltb_main": "7.1 hrs",
+  "hltb_main_extra": "9.3 hrs",
+  "hltb_completionist": "14.4 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/69898",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:28:02.302Z"
+  "updated_at": "2026-04-25T02:42:50.950Z"
 }

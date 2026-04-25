@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Are You Smarter Than A 5th Grader? - Steam Deck Compatibility"
-game_title: "Are You Smarter Than A 5th Grader?"
+title: "Are You Smarter Than A 5th Grader - Steam Deck Compatibility"
+game_title: "Are You Smarter Than A 5th Grader"
 slug: "are-you-smarter-than-a-5th-grader"
 storefront: "Epic"
 storefront_key: "epic"
@@ -14,12 +14,18 @@ date_tested: "Aug '25"
 proton_version: ""
 
 # Game Info
-publisher: Jakks Pacific
-developer: Jakks Pacific
-genre: Quiz/Trivia
-release_date: "December 31, 2006"
+publisher: HandyGames
+developer: Massive Miniteam
+genre: Casual, Trivia
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "August 24, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"}]
+igdb_url: "https://www.igdb.com/games/199325"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1521160/library_hero.jpg"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "52 mins"
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/118851"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/are-you-smarter-than-a-5th-grader"
+store_url: "https://store.epicgames.com/en-US/p/are-you-smarter-than-a-5th-grader-bc328a"
 protondb_url: "https://www.protondb.com/app/1521160"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Are_You_Smarter_Than_a_5th_Grader%3F_%282022%29"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "8052968859fb46aea7cbc381c19188d2"
 is_featured: false
+owned: true
 ---
 
-The Are You Smarter Than A 5th Grader? Plug-and-Play game is is based off the game show of the same name. It was released in 2006 by Jakks Pacific.
+Based on the popular TV franchise, this charming couch co-op quiz game for 1-8 players will have you face more than 6800 fully English-voiced questions. Prove how much you still know from school and that you are, in fact, smarter than a 5th grader.

@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Sega, Feral Interactive
 developer: The Creative Assembly
-genre: Adventure, Action, Horror, Science Fiction, Stealth, Survival
-release_date: "October 6, 2014"
+genre: Action
+franchise: Alien
+age_rating_summary: ESRB Mature 17+
+release_date: "December 22, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"29899","name":"Deals of the Week"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2021-04-21T15:00:00.000Z","end":"2021-04-28T15:00:00.000Z","type":null,"id":"d37f3694e7a04edb8347f3cb6320f9d3"},{"start":"2020-12-20T15:00:00.000Z","end":"2020-12-21T15:00:00.000Z","type":null,"id":"d37f3694e7a04edb8347f3cb6320f9d3"}]
 
 # Images
 banner_image: "https://images.gog.com/2a279020ae560b75e393e0fb185c1e037b35c8ee12f27ae04e606ee3952f5137.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/16638"
 store_url: "https://store.epicgames.com/en-US/p/alien-isolation"
 protondb_url: "https://www.protondb.com/app/214490"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alien%3A_Isolation"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/alien-isolation?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "8935bb3e1420443a9789fe01758039a5"
 is_featured: false
+owned: false
 ---
 
-Discover the true meaning of fear in Alien: Isolation, a survival horror set in an atmosphere of constant dread and mortal danger.
+Discover the true meaning of fear in Alien: Isolation, a survival horror set in an atmosphere of constant dread and mortal danger...   Created using the CATHODE™ engine.

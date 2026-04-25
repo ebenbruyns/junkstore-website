@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1172650",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/industria",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Industria",
   "notes": "Native controller support. Community controller layout available. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You need to either use the mouse or touch screen to get past main menu and into the game. If you want to, you can remap controls in game from the 'Options' menu. Community layout is for the 'Steam Controller'.",
   "date_tested": "Aug '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -33,12 +33,68 @@
   "cant_test_linux": false,
   "databaseId": "78903903b1f1419bae248467f27ff470",
   "shortname": "78903903b1f1419bae248467f27ff470",
-  "publisher": "Headup Games",
+  "publisher": "Headup",
   "developer": "Bleakmill",
-  "releasedate": "2021-09-30T00:00:00+0000",
-  "genre": "Adventure, Indie, Puzzle, Shooter",
-  "description": "Industria is a first-person shooter that takes you from East Berlin into a parallel reality, shortly before the end of the Cold War. On the search for a missing work colleague, you decipher a dark past in a mysterious and surreal steampunk world.",
+  "releasedate": "2021-09-30T16:00:00.000Z",
+  "genre": "Action, Shooter, Adventure",
+  "description": "INDUSTRIA is a first-person shooter that takes you from East Berlin into a parallel reality, shortly before the end of the Cold War. On the search for a missing work colleague, you decypher a dark past in a mysterious parallel dimension.",
   "size": "",
+  "franchise": "INDUSTRIA",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 128948,
+  "igdb_url": "https://www.igdb.com/games/128948",
+  "giveaway_events": [
+    {
+      "start": "2024-04-24T15:00:00.000Z",
+      "end": "2024-05-01T15:00:00.000Z",
+      "type": null,
+      "id": "2dbb1debe54f4555805896caf7844470"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "INDUSTRIA is a first-person shooter that takes you from East Berlin into a parallel reality, shortly before the end of the Cold War. On the search for a missing work colleague, you decypher a dark past in a mysterious parallel dimension.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/0424514c2d6089337d143b2ca11a543dbb9cc4af075b89335a4de9bec56f0927.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ac75ef435d8514fef4a822c65a95e8ba37156b02e6926714e5d837b1d7b13e54.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ddfffeee5940a9b246ea06607f96bafdd8b0452891b72603b1083d204c8f842f.jpg?namespace=gamesdb",
@@ -51,15 +107,16 @@
   ],
   "metacritic_score": 67,
   "metacritic_url": "https://www.metacritic.com/game/pc/industria?ftag=MCD-06-10aaa1f",
+  "hltb_id": 97560,
   "hltb_main": "3 hrs",
   "hltb_main_extra": "3.5 hrs",
   "hltb_completionist": "5.5 hrs",
   "hltb_url": "https://howlongtobeat.com/game/97560",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-12T08:38:12.567Z"
+  "updated_at": "2026-04-25T02:43:02.864Z"
 }

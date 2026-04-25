@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Puzzle",
   "description": "It was all fun and games until the bad guy took your friends. It's not their fault he built his super-secret laboratory next to the park.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/2b3771214aa0133bd27d95e9885de4744d6cfdcc086ca81eefa93db7be913fb9.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/706ea5bf04faef24777d4f7b3ff74c9f562187ef5dd4c3fb62d36174664e1961.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/tiny-robots-recharged/",
+  "hltb_id": 97921,
   "hltb_main": "3 hrs",
   "hltb_main_extra": "3 hrs",
   "hltb_completionist": "3.5 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2026-04-23T22:16:47.717Z"
+  "updated_at": "2026-04-25T00:44:34.949Z"
 }

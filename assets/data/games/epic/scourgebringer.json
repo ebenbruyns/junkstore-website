@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": true,
   "epic_achievements": false,
@@ -35,10 +35,98 @@
   "shortname": "bf363d9625a5406f904d925f3e613327",
   "publisher": "Dear Villagers",
   "developer": "Flying Oak Games",
-  "releasedate": "21 Oct, 2020",
-  "genre": "Action, Adventure, Indie",
-  "description": "ScourgeBringer is a fast-paced free-moving roguelite platformer. Help Kyhra to explore the unknown and slash her way through ancient machines guarding the seal of her past, and maybe the redemption of humanity.",
+  "releasedate": "2020-10-21T14:00:00.000Z",
+  "genre": "Action, Indie",
+  "description": "ScourgeBringer is a fast-paced free-moving rogue-lite platformer. Help Kyhra to explore the unknown and slash her way through ancient machines guarding the seal of her past, and maybe the redemption of humanity.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "1258",
+      "name": "Rogue-Like"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2025-11-13T16:00:00.000Z",
+      "end": "2025-11-20T16:00:00.000Z",
+      "type": null,
+      "id": "786eacc66b8b4075bf7c8684930127d3"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "ScourgeBringer is a fast-paced free-moving rogue-lite platformer. Help Kyhra to explore the unknown and slash her way through ancient machines guarding the seal of her past, and maybe the redemption of humanity.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1037020/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1037020/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1037020/capsule_231x87.jpg",
@@ -60,15 +148,16 @@
   ],
   "metacritic_score": 76,
   "metacritic_url": "https://www.metacritic.com/game/pc/scourgebringer?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 68579,
+  "hltb_main": "8 hrs",
+  "hltb_main_extra": "11 hrs",
+  "hltb_completionist": "13.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/68579",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-13T23:26:25.331Z",
-  "updated_at": "2026-02-07T22:06:38.394Z"
+  "updated_at": "2026-04-25T05:53:30.115Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: PQube
 developer: Fiction Factory Games
 genre: Adventure, Indie, Arcade, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "February 12, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/910630/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "147395"
 is_featured: false
+owned: true
 ---
 
 "Set in 20XX, Arcade Spirits follows an alternative timeline where the 1983 video game crash never occurred - after a turbulant work history you are granted employment at the Funplex, a popular arcade, home to a host of unique personalities and customers. Where will this new found employment take you? Who will you meet along the way? Will you find the romance you're seeking?"

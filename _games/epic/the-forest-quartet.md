@@ -14,12 +14,18 @@ date_tested: "Dec '24"
 proton_version: ""
 
 # Game Info
-publisher: "Bedtime Digital Games, Mads & Friends"
-developer: "Bedtime Digital Games, Mads & Friends"
-genre: Adventure, Indie, Puzzle, Music
-release_date: "December 8, 2022"
+publisher: Bedtime Digital Games
+developer: "Mads & Friends"
+genre: Puzzle, Music, Adventure
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "February 26, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1129","name":"Music"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"39070","name":"iOS"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/5c9d5274dfd855ce705190d0c6372f85f1e6aa0015a96899d14b7ddc39453111.jpg?namespace=gamesdb"
@@ -27,7 +33,7 @@ cover_image: "https://images.gog.com/6dfd80e006772e9e643e885375d52f51ab36a9bf8d2
 icon_image: "https://images.gog.com/61c8876721088c28296c5e7929955e88e79f1764f2f43746cea454d4ff193323.jpg?namespace=gamesdb"
 
 # Technical Details
-controller_input: ""
+controller_input: "native"
 community_layout: false
 required_launcher: ""
 requires_account_setup: false
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "1.5 hrs"
+hltb_main_extra: "1.5 hrs"
+hltb_completionist: "1.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/118257"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-forest-quartet"
 protondb_url: "https://www.protondb.com/app/1620720"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Forest_Quartet"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "dbb0b84f31244c7584490d205b74010c"
 is_featured: false
+owned: true
 ---
 
 The Forest Quartet is a 3D narrative puzzler about a gone, but not forgotten, lead singer. Play her spirit and travel through 3 acts unique to the members of her band for a final farewell concert. Face their emotions, solve puzzles and fight the corruption plaguing their souls.

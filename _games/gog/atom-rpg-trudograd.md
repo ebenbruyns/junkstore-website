@@ -17,9 +17,15 @@ proton_version: ""
 publisher: AtomTeam
 developer: AtomTeam
 genre: Role-playing (RPG), Turn-based strategy
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4f920e65828b7b79809d74e9045b18144dd1dcc8b401844f923a2977db98d5d5.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/78978"
 store_url: "https://www.gog.com/en/game/atom_rpg_trudograd"
 protondb_url: "https://www.protondb.com/app/1139940"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ATOM_RPG_Trudograd"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/atom-rpg-trudograd?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1139940"
 is_featured: false
+owned: false
 ---
 
 ATOM RPG: Trudograd is a turn-based post-apocalyptic roleplaying game, which continues the story of ATOM RPG

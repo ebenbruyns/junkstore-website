@@ -35,10 +35,83 @@
   "shortname": "ab9bdfa5a0c945f69b9e7d651990cb14",
   "publisher": "EXBO",
   "developer": "EXBO",
-  "releasedate": "2022-12-09T00:00:00+0000",
-  "genre": "Action, Adventure, Massively Multiplayer, RPG, Free To Play",
-  "description": "STALCRAFT: X is the largest online game set in the open world of the Chernobyl Exclusion Zone.\n\nDive into this universe, filled with mutants and anomalies alone or with friends — unforgettable experiences are guaranteed!",
+  "releasedate": "2026-02-19T15:00:00.000Z",
+  "genre": "Shooter, Open World, First Person",
+  "description": "STALCRAFT: X is a free-to-play MMOFPS with RPG elements.\n\nExplore an open world, engage in PvPvE activities, participate in events, and choose from a variety of weapons — all set in the post-Soviet Chernobyl Exclusion Zone!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "22775",
+      "name": "MMO"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 133748,
+  "igdb_url": "https://www.igdb.com/games/133748",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "STALCRAFT: X is a free-to-play MMOFPS with RPG elements.\n\nExplore an open world, engage in PvPvE activities, participate in events, and choose from a variety of weapons — all set in the post-Soviet Chernobyl Exclusion Zone!",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1818450/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1818450/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1818450/capsule_231x87.jpg",
@@ -56,6 +129,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -66,5 +140,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-02-19T22:53:40.587Z",
-  "updated_at": "2026-02-26T20:20:17.001Z"
+  "updated_at": "2026-04-25T02:21:06.523Z"
 }

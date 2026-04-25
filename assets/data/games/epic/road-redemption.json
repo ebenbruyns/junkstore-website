@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/300380",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/road-redemption-ce16fb",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Road_Redemption",
   "notes": "Works out of the box!",
   "date_tested": "Aug '25",
   "decky_rating": "green",
@@ -33,12 +33,96 @@
   "cant_test_linux": false,
   "databaseId": "39b13b169e1d4e798543f931bc3a95b4",
   "shortname": "39b13b169e1d4e798543f931bc3a95b4",
-  "publisher": "Tripwire Interactive",
-  "developer": "Saber Interactive, EQ-Games, Pixel Dash Studios, Dark Seas Interactive",
-  "releasedate": "2017-10-04T00:00:00+0000",
-  "genre": "Adventure, Indie, Arcade, Simulator, Racing",
-  "description": "Lead your motorcycle gang on an epic journey across the country in this brutal driving combat adventure. Earn money by completing races, assassinations, robberies, and other challenges in your path. As you collect loot, you'll upgrade your character, your bike, and your weapons.",
+  "publisher": "Pixel Dash Studios",
+  "developer": "Pixel Dash Studios",
+  "releasedate": "2025-08-07T15:00:00.000Z",
+  "genre": "Action, Racing",
+  "description": "Road Redemption lets you lead a biker gang on an epic journey across the country in this driving combat road rage adventure.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2025-08-07T15:00:00.000Z",
+      "end": "2025-08-14T15:00:00.000Z",
+      "type": null,
+      "id": "91a0b419d5b741c39cc35ce3a35138c0"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Road Redemption lets you lead a biker gang on an epic journey across the country in this driving combat road rage adventure.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/0c3d986eaab24223ec0b3e59a1b199cbbf46d42cc0e1ca2fb207517b06f4e599.jpg?namespace=gamesdb.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/95c29bc14adf89c953c23d3ffd84b864903ea6dc7416dd63d9bd09dc58fd65e8.jpg?namespace=gamesdb.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -54,6 +138,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -64,5 +149,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-11T10:15:53.029Z",
-  "updated_at": "2025-08-17T21:04:11.995Z"
+  "updated_at": "2026-04-25T02:46:22.940Z"
 }

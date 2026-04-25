@@ -17,9 +17,15 @@ proton_version: ""
 publisher: MixedBag
 developer: MixedBag
 genre: Adventure, Indie, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "February 23, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/510240/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "665814"
 is_featured: false
+owned: true
 ---
 
 Explore, fight and solve puzzles. Uncover the secrets of a mysterious alien planet in this open world metroidvania adventure, where nothing is what it seems…

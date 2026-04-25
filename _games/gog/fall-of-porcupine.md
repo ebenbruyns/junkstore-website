@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Assemble Entertainment
 developer: Buntspecht Games, Critical Rabbit
 genre: Adventure, Indie, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "June 15, 2023"
 game_modes: ["Single player"]
 languages: ["English","German","French","Japanese","Korean","Simplified Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/40d3c553243f2e979059f3a295eb7135b017c126fa1a4a17b10eb399b8a8d811.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1876546888"
 is_featured: false
+owned: true
 ---
 
 Guide young Finley through his first weeks at a provincial hospital. He is on fire for his apprenticeship as an internist. But a lot of pressure makes Finley's life difficult and our gameplay challenging.

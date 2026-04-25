@@ -17,9 +17,15 @@ proton_version: ""
 publisher: AtomicElbow AB
 developer: AtomicElbow AB
 genre: "Role-playing (RPG), Adventure, Indie, Hack and slash/Beat 'em up, Fighting"
+franchise: 
+age_rating_summary: 
 release_date: "August 19, 2022"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a73632186d5bb21613b1b7826b391587d876a25de82059c0da70366bd3924b60.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/117040"
 store_url: "https://www.gog.com/en/game/sir_whoopass_immortal_death"
 protondb_url: "https://www.protondb.com/app/1240590"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sir_Whoopass"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1542885660"
 is_featured: false
+owned: true
 ---
 
 Meet Sir Whoopass, the hero who due to a series of hilarious and poor life choices manages to bring chaos and disarray to an utopian world. He must find The Villain-Beating Artifact to vanquish The Immortal and stop him from spawning all manner of evil monsters and creatures. Also cheese.

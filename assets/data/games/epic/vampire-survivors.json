@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1794680",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/vampire-survivors-f699a1",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Vampire_Survivors",
   "notes": "Works out of the box!",
   "date_tested": "Dec '24",
   "decky_rating": "green",
@@ -28,17 +28,125 @@
   "required_launcher": "",
   "requires_account_setup": false,
   "account_type": "",
-  "controller_input": "",
+  "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
   "databaseId": "1136763135c0482cbbb4b2d45e978156",
   "shortname": "1136763135c0482cbbb4b2d45e978156",
   "publisher": "Poncle",
   "developer": "Poncle",
-  "releasedate": "2022-02-01T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Indie, Arcade",
+  "releasedate": "2024-12-19T16:00:00.000Z",
+  "genre": "Indie, Action-Adventure, Rogue-Lite",
   "description": "Mow thousands of night creatures and survive until dawn! Vampire Survivors is a gothic horror casual game with rogue-lite elements, where your choices can allow you to quickly snowball against the hundreds of monsters that get thrown at you.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 186725,
+  "igdb_url": "https://www.igdb.com/games/186725",
+  "giveaway_events": [
+    {
+      "start": "2024-12-19T16:00:00.000Z",
+      "end": "2024-12-20T16:00:00.000Z",
+      "type": null,
+      "id": "9b6d6cc0e10a42a3a0aa4fe02f5dbee5"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Be the bullet hell",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/45ba8e3a8a126acfc22c344b24e99423522e6c7bc4113dfb8eda3c76f83f4ca5.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fa4e1713fdba621d767680a2d6103823cf419a8e173c97ca28192c6ccae5ae77.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/cc40e792418ec465f72c1cd668fb2bf54012970996524d9cbb66f8527b29aff4.jpg?namespace=gamesdb",
@@ -54,15 +162,16 @@
   ],
   "metacritic_score": 86,
   "metacritic_url": "https://www.metacritic.com/game/pc/vampire-survivors?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 102750,
+  "hltb_main": "14.9 hrs",
+  "hltb_main_extra": "28 hrs",
+  "hltb_completionist": "52.7 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/102750",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:50:10.384Z"
+  "updated_at": "2026-04-25T05:18:50.619Z"
 }

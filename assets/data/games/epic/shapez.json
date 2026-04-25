@@ -33,12 +33,88 @@
   "cant_test_linux": false,
   "databaseId": "e87a43f695bc409ca8858206678ac7e7",
   "shortname": "e87a43f695bc409ca8858206678ac7e7",
-  "publisher": "Playdigious, Tobias Springer",
-  "developer": "Tobias Springer",
-  "releasedate": "2020-06-07T00:00:00+0000",
-  "genre": "Strategy, Indie, Puzzle, Simulator",
-  "description": "Shapez is a game about building factories to automate the creation and combination of increasingly complex shapes within an infinite map.",
+  "publisher": "tobspr IT Solutions UG (haftungsbeschränkt) & Co. KG (German partnership)",
+  "developer": "tobspr Games",
+  "releasedate": "2022-10-31T12:00:00.000Z",
+  "genre": "Puzzle",
+  "description": "shapez is a game about building factories to automate the creation and processing of increasingly complex shapes across an infinitely expanding map.",
   "size": "",
+  "franchise": "shapez",
+  "tags_structured": [
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 134826,
+  "igdb_url": "https://www.igdb.com/games/134826",
+  "giveaway_events": [
+    {
+      "start": "2023-04-05T15:00:00.000Z",
+      "end": "2023-04-12T15:00:00.000Z",
+      "type": null,
+      "id": "35f8d25247154fca9b900c13d2be04f6"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "shapez is a game about building factories to automate the creation and processing of increasingly complex shapes across an infinitely expanding map.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/b96a30ed8ca818439bb9b83ea6daeed2fba0565ec8be174d3160c7f85d6096a7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d7feb650e03ad7a4dfd763f15eee81ce30217057ba2d7538ef483426ffa9a7a2.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f18865fae589ec95a9add8a2aa090939dc344b86f365fd3373c1595d980341c5.jpg?namespace=gamesdb",
@@ -60,15 +136,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 80051,
+  "hltb_main": "26.5 hrs",
+  "hltb_main_extra": "41 hrs",
+  "hltb_completionist": "45 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/80051",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-03-23T01:20:29.219Z"
+  "updated_at": "2026-04-25T05:44:08.793Z"
 }

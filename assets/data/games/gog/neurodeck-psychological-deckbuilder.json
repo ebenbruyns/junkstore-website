@@ -39,6 +39,17 @@
   "genre": "Indie, RPG, Strategy",
   "description": "Neurodeck is a psychological deckbuilding card game to challenge your fears. Build your deck &amp; capacities by answering personality tests, visiting rooms or meditating. Face your phobia and defeat them through the power of life-inspired cards.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1253860/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1253860/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1253860/capsule_231x87.jpg",
@@ -58,6 +69,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 99485,
   "hltb_main": "1.5 hrs",
   "hltb_main_extra": "7 hrs",
   "hltb_completionist": "12.5 hrs",
@@ -69,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-01-31T22:30:50.152Z"
+  "updated_at": "2026-04-25T00:52:17.457Z"
 }

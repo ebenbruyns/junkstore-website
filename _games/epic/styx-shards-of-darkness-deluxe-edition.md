@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Nacon
 developer: Cyanide Studio
-genre: Action, Adventure
-release_date: "March 14, 2017"
+genre: Fantasy, Action-Adventure, Stealth
+franchise: Styx
+age_rating_summary: ESRB Mature 17+
+release_date: "January 16, 2026"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Polish","Korean","Japanese*languages with full audio support"]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"19764","name":"Nacon Publisher Sale"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/13554"
+was_free_before: true
+giveaway_events: [{"start":"2026-01-15T16:00:00.000Z","end":"2026-01-22T16:00:00.000Z","type":null,"id":"9b99ffa5a53e4317824f4ccb2b6e68d2"}]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/355790/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "e68e9229fd4a4a6c9a76038705ba6ae3"
 is_featured: false
+owned: true
 ---
 
 Styx returns in a new stealth adventure! Explore and master huge open environments, sneak past or assassinate new enemies and bosses, and experiment with the new array of lethal abilities and weapons in our goblin assassin's arsenal.

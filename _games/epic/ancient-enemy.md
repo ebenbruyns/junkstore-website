@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Grey Alien Games
 developer: Grey Alien Games
-genre: "Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Card & Board Game"
-release_date: "April 9, 2020"
+genre: Card Game, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "March 19, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/111842"
+was_free_before: true
+giveaway_events: [{"start":"2022-07-06T15:00:00.000Z","end":"2022-07-13T15:00:00.000Z","type":null,"id":"07c6a2e544274070b9e9ee78316c5774"}]
 
 # Images
 banner_image: "https://images.gog.com/f290d7e9d766d4dc6f5548953a44903020bacd26810c9d6da5e8c2972d207e55.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: true
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "a96de508ac71471fa05e7c1c695e3b5d"
 is_featured: false
+owned: true
 ---
 
-Ancient Enemy is an RPG card battler set in a crumbling world where the forces of evil have already won. Blast distorted enemies with a satisfying range of spells and abilities. Journey into a scarred wilderness and draw power and hope from the landscape to defeat the deadliest foe of all!
+Ancient Enemy is an RPG card battler set in a crumbling world where the forces of evil have already won. Blast distorted enemies with a satisfying range of spells and abilities. Journey into a scarred wilderness and defeat the deadliest foe of all!

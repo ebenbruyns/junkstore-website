@@ -35,10 +35,114 @@
   "shortname": "4c94a9ec733d40ccb0da37f43f0f9592",
   "publisher": "GangoGames LLC",
   "developer": "GangoGames LLC",
-  "releasedate": "2021-11-11T00:00:00+0000",
-  "genre": "Action, Indie",
-  "description": "The Cyan galaxy is in peril! Your trusty little star fighter and rag tag squad of wingmen are the only hope against the evil EXODON! Level up from a pea shooter to an offensive powerhouse as you engage in frantic combat across many wondrous locales.",
+  "releasedate": "2025-12-11T00:00:00.000Z",
+  "genre": "Space, Retro, Shooter",
+  "description": "The Cyan Galaxy is in peril! Your trusty little star fighter and rag tag squad of wingmen are the only hope against the evil EXODON! Level up from a pea shooter to an offensive powerhouse as you engage in frantic combat across many wondrous locales.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1121",
+      "name": "Space"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1198",
+      "name": "Retro"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1121",
+      "name": "Space"
+    },
+    {
+      "id": "1198",
+      "name": "Retro"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2026-03-26T15:00:00.000Z",
+      "end": "2026-04-02T15:00:00.000Z",
+      "type": null,
+      "id": "5d15c054641543c9a535b3b4ac29e843"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "The Cyan Galaxy is in peril! Your trusty little star fighter and rag tag squad of wingmen are the only hope against the evil EXODON! Level up from a pea shooter to an offensive powerhouse as you engage in frantic combat across many wondrous locales.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/953330/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/953330/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/953330/capsule_231x87.jpg",
@@ -56,6 +160,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -66,5 +171,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-03-27T23:17:05.229Z",
-  "updated_at": "2026-04-03T22:02:22.901Z"
+  "updated_at": "2026-04-25T02:21:30.683Z"
 }

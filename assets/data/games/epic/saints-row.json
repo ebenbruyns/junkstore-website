@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": true,
   "requires_verification": false,
   "epic_achievements": true,
@@ -34,11 +34,127 @@
   "databaseId": "Cormorant",
   "shortname": "Cormorant",
   "publisher": "Deep Silver",
-  "developer": "Volition",
-  "releasedate": "2022-08-23T00:00:00+0000",
-  "genre": "Adventure, Shooter",
+  "developer": "Deep Silver Volition",
+  "releasedate": "2022-08-23T07:00:00.000Z",
+  "genre": "Action, Action-Adventure, Shooter, Open World, Adventure",
   "description": "Welcome to Santo Ileso, a vibrant fictional city in the American Southwest. In a world rife with crime, a group of young friends embark on their own criminal venture, as they rise to the top in their bid to become Self Made.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21126",
+      "name": "Silly Community"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 165346,
+  "igdb_url": "https://www.igdb.com/games/165346",
+  "giveaway_events": [
+    {
+      "start": "2023-12-29T15:00:00.000Z",
+      "end": "2023-12-30T15:00:00.000Z",
+      "type": null,
+      "id": "c8ae275e995940b0868d9f44e75d05d9"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Welcome to Santo Ileso, a vibrant fictional city in the American Southwest. In a world rife with crime, a group of young friends embark on their own criminal venture, as they rise to the top in their bid to become Self Made.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a4ae7740d3c9ece528a4ee041ef9a3d81a3436cfaad6fe113816d06786a87f15.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e612a40471c349f9465d0b546f575de3798705036f67f6022ed4b62a7d795bbd.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/28f799911089622923228e7617ffd338a7565d7f6d0eeb467efeeee447f7291f.jpg?namespace=gamesdb",
@@ -62,15 +178,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 97314,
+  "hltb_main": "12.5 hrs",
+  "hltb_main_extra": "27 hrs",
+  "hltb_completionist": "52.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/97314",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-12-01T21:58:09.290Z"
+  "updated_at": "2026-04-25T05:51:03.690Z"
 }

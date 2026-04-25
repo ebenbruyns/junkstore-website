@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: DarkGoose4
 developer: DarkGoose4
-genre: Indie
-release_date: "January 26, 2026"
+genre: Horror, Indie
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "December 19, 2025"
 game_modes: ["Single-player"]
 languages: ["English**languages with full audio support"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://shared.steamstatic.com/store_item_assets/steam/apps/4282590/c8052054406fce79ff1134ea7224eef5ac74d50a/library_hero_2x.jpg?t=1768233869"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "62eb295b3ee3482893ed9dd8b3c69841"
 is_featured: false
+owned: true
 ---
 
-NightReaper2 is a dark fantasy action game where you become the Reaper, harvesting souls and fighting cursed enemies in a haunted world. Explore eerie environments, face relentless threats, and survive intense combat in a grim, atmospheric experience.
+A dark stylized action game where you hunt villagers, escape the police, and battle four powerful kings in a fast-paced chaotic world.

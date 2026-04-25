@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: Kongregate
-developer: Synapse Games
-genre: "Role-playing (RPG), Adventure, Strategy, Card & Board Game"
-release_date: "May 27, 2016"
+developer: Kongregate
+genre: Strategy, Adventure, Card Game
+franchise: 
+age_rating_summary: 
+release_date: "October 5, 2021"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian"]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"1117","name":"Adventure"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/29491"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3fdf49eb30d5f711aad9be103ae37adb1ed4d6b27dc769649a4e48dbe1e16af8.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "feb451892b70438899408915c1fd96df"
 is_featured: false
+owned: true
 ---
 
-Family Guy, Bob's Burgers, Futurama, American Dad, and King of the Hill join forces in Animation Throwdown, your favorite new collectible card game. Collect your favorite characters, combine cards to make hilarious combos, and battle your way through an adventure of animated proportions.
+Family Guy, Bob's Burgers, Futurama, American Dad, and King of the Hill join forces in Animation Throwdown, your favorite new collectible card game.

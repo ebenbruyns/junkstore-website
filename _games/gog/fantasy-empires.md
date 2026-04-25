@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Strategic Simulations, SNEG
 developer: Silicon Knights
 genre: Role-playing (RPG), Adventure, Strategy, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "December 31, 1993"
 game_modes: ["Single player","Co-op"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -58,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/2350530"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fantasy_Empires"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/fantasy-empires/"
 
 # Notes
 notes: "You need to set the platform to DOSBox from the cog menu on the game screen: Game Configs > ADVANCED > platform > Dosbox. Save the config change and launch the game."
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2037198195"
 is_featured: false
+owned: true
 ---
 
 Create alliances, defeat enemy kingdoms and forge an empire in this Dungeons & Dragons game world! Under the computer Dungeon Master, you'll interact with fantastic races, command dozens of troop types, send your heroes on quests and construct a variety of buildings and fortifications.

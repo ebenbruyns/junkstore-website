@@ -17,9 +17,15 @@ proton_version: ""
 publisher: THQ Nordic, HandyGames, Handy Games
 developer: Uprising Studios
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Platform
+franchise: 
+age_rating_summary: ESRB Everyone 10+
 release_date: "December 23, 2021"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German*","Spanish - Spain*","Simplified Chinese","Japanese","Polish","Russian","Arabic"]
+tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+igdb_url: "https://www.igdb.com/games/106836"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d391af5ad4509a520c54e65117d57180fc33f65dd7c90ef569bf597cefc79f10.jpg?namespace=gamesdb"
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.bcce181d-9bb0-4feb-8cac-1aad48afb56b"
 is_featured: false
+owned: true
 ---
 
-Scarf is a 3D Adventure game, where protagonist Hyke must use his polymorphic scarf to explore a magical environment, solve mysterious puzzles and overcome difficult challenges. Hyke’s scarf morphs into different objects which will help to progress the adventure. Hyke was born in an unknown place, surrounded by other souls. All of them will start a path through the World with the main goal being to meld with it and become part of nature.
-
-"Mixing walking simulator and 3D platformers, Scarf is an atmospheric and emotional journey about what it means to be a hero. Travel to three beautiful crafted worlds and discover your true destiny."
+Scarf is an atmospheric and emotional journey about what it means to be a hero. An adventure game mixing puzzles and 3D platforms. Explore beautifully crafted worlds and discover your true destiny with the help of a dragon-shaped scarf.

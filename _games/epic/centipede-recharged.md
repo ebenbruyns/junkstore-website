@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Atari
 developer: Nickervision Studios
-genre: Shooter, Arcade
+genre: Action, Shooter
+franchise: 
+age_rating_summary: ESRB Everyone
 release_date: "September 29, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/2235"
+was_free_before: true
+giveaway_events: [{"start":"2022-03-02T15:00:00.000Z","end":"2022-03-09T15:00:00.000Z","type":null,"id":"b44a2808223f4cd0a8ca1376410b5460"}]
 
 # Images
 banner_image: "https://images.gog.com/5016c8fff727023dec0317d4c27b03a76887e983168d7683ba41fcb205814bb0.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/98572"
 store_url: "https://store.epicgames.com/en-US/p/centipede-recharged"
 protondb_url: "https://www.protondb.com/app/1630960"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Centipede%3A_Recharged"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "8727e9d0693542bda60769dc2ce33c20"
 is_featured: false
+owned: true
 ---
 
-The original bug-blasting arcade game is back! Centipede: Recharged has been reimagined for modern gameplay, with vibrant visuals designed for modern screens, a 16:9 field of play, and an original soundtrack from award-winning video game composer Megan McDuffee. Aim for a high score in the old school arcade mode and earn bragging rights with your name at the top of the leaderboard. Or test your skills and rank on the boards in one of 30 intensely creative challenges, which twist the gameplay in new and exciting ways. A dozen new power-ups can give you an edge by introducing abilities like screen-clearing explosions, rail guns, and even slowing down time. Every mode and level is playable in local co-op mode with a friend.
+Blast bugs and chase high scores in this glorious revival of an old-school classic, all while jamming to a heart-pounding original score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 unique challenges or the endless arcade mode.

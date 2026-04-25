@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Aspyr Media
 developer: Crystal Dynamics
 genre: adventure, platform, puzzle
+franchise: 
+age_rating_summary: 
 release_date: "December 10, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/82ee19bed38fd484b42815a921779bce61c81fe1245147cf239170a6daef995b.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://www.gog.com/en/game/legacy_of_kain_soul_reaver_12_remastered"
 protondb_url: "https://www.protondb.com/app/2521380"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legacy_of_Kain%3A_Soul_Reaver_1_%26_2_Remastered"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1214553287"
 is_featured: false
+owned: false
 ---
 
 Experience the epic conflict of Kain and Raziel in original form or with remastered graphics.

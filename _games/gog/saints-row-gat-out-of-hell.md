@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Deep Silver
 developer: High Voltage Software, Volition
 genre: Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "January 20, 2015"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/6fd7f2f842a96c5be506444d83bfd0c3c5175bf67e9b9f86941d8783181f37a4.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/21260"
 store_url: "https://www.gog.com/en/game/saints_row_gat_out_of_hell"
 protondb_url: "https://www.protondb.com/app/301910"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_Gat_out_of_Hell"
 metacritic_score: 66
 metacritic_url: "https://www.metacritic.com/game/pc/saints-row-gat-out-of-hell?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1978178686"
 is_featured: false
+owned: true
 ---
 
 After the space faring antics of Saints Row IV, many fans asked what we could do next… the answer? Shoot The Devil in the face. Play as either Johnny Gat or Kinzie Kensington as you tear apart Hell in a quest to save the leader of the Saints’ soul. Historical icons, old friends, older enemies, a talking gun, a full length musical number, and a whole lot of other shenanigans all await you in the open world standalone expansion playground that is Saints Row: Gat Out Of Hell.

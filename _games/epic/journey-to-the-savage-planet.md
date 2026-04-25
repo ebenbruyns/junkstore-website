@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: 505 Games
 developer: Typhoon Studios
-genre: Adventure, Action
-release_date: "January 28, 2020"
+genre: Action, Exploration
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "January 29, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1381","name":"Exploration"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
+igdb_url: "https://www.igdb.com/games/113108"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/fa0962f17ce6d095cf17181117574b7851b3313912a93a4ba71443193d268da7.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "7.1 hrs"
+hltb_main_extra: "11 hrs"
+hltb_completionist: "17.1 hrs"
+hltb_url: "https://howlongtobeat.com/game/68368"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/journey-to-the-savage-planet"
 protondb_url: "https://www.protondb.com/app/973810"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Journey_to_the_Savage_Planet"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/journey-to-the-savage-planet?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Oleander"
 is_featured: false
+owned: false
 ---
 
-Onward To Adventure. In this colorful, co-op adventure game you play as the newest recruit to Kindred Aerospace...
+WELCOME TO THE PIONEER PROGRAM! As the newest recruit of Kindred Aerospace - The 4th best interstellar space exploration company - Your job is to determine if the planet ARY-26 planet is fit for humans. You may be short on equipment and experience, but you'll figure it out!

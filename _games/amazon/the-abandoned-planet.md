@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Snapbreak
 developer: Dexter Team Games
 genre: Adventure, Indie, Puzzle, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "August 29, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a81092a0ec18358faada59322d8a795e37b0ace69feabf7caa8e98399b0c897b.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.03e49736-1880-4850-a59f-012b70e7dc96"
 is_featured: false
+owned: true
 ---
 
 When a wormhole tears open in space, an astronaut is hurled down and crashes on a distant planet. But where is she? Where are all the inhabitants of the planet? And how is she going to get back home? Solve the puzzle and piece together the mystery in this 2D, pixel art, first person, point and click adventure.

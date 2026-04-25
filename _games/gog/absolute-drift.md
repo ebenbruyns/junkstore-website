@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Funselektor Labs
 developer: Funselektor Labs
 genre: Indie, Indie, Indie, Indie, Indie
+franchise: 
+age_rating_summary: 
 release_date: "July 29, 2015"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f9875e4f9f2125007f6a7969b5c101850e9c4d1c8fe069dc82c4bb60ebc413ad.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1136126792"
 is_featured: false
+owned: true
 ---
 
-In Absolute Drift, you will master the art of drifting. Practice your skills in Free-Roam and compete in drift events such as Driftkhana and Mountain Drifting.
+This is a drifting experience like no other. Journey from apprentice to master as you hone your skill in a gorgeous minimalist world. Push yourself to the limit on drifting tracks and wild mountain roads until you finally master the art of drifting.

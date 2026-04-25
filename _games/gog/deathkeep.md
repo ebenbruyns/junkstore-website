@@ -17,9 +17,15 @@ proton_version: ""
 publisher: SNEG
 developer: Lion Entertainment
 genre: Action, Adventure, RPG
+franchise: 
+age_rating_summary: 
 release_date: "March 27, 2023"
 game_modes: ["Single-player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2350540/library_hero.jpg"
@@ -58,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/2350540"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/DeathKeep"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/advanced-dungeons-and-dragons-deathkeep/"
 
 # Notes
 notes: "Works out of the box! You may need to adjust the scaling for this game via the QAM."
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1263855454"
 is_featured: false
+owned: true
 ---
 
-DeathKeep is a D&amp;D dungeon delving the way you like it - fast, furious and fun! An evil Necromancer has escaped from his icy prison and is wreaking havoc upon the surrounding lands. Journey to this frozen wasteland and destroy the forces of evil - if you dare.
+DeathKeep is a D&D dungeon delving the way you like it - fast, furious and fun! An evil Necromancer has escaped from his icy prison and is wreaking havoc upon the surrounding lands. Journey to this frozen wasteland and destroy the forces of evil - if you dare.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Fellow Traveller
 developer: Happy Broccoli Games
 genre: Role-playing (RPG), Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "September 10, 2021"
 game_modes: ["Single player"]
 languages: ["English*","French","German","Simplified Chinese","Japanese","Russian*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/766dabd60e950ad477d6468526205ac220f219e558e954883dde53886c9a1457.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.3779e9cb-56b9-4f31-937c-16d18ddc8610"
 is_featured: false
+owned: true
 ---
 
 Make friends, free spirits and make sure that the world doesn’t end! Welcome to Kraken Academy, a technicolor fever dream that for legal reasons can only be described as "technically a school." Join forces with a magical kraken to manipulate a time loop and save the world.

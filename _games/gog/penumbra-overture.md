@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Paradox Interactive
 developer: Frictional Games
 genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8a0b418b19a06924d3539ccb0963b25b19ee810a26842c5916d3f2dc5ff2b05e.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207662733"
 is_featured: false
+owned: false
 ---
 
 First person survival horror game, emphasizing survival and problem solving instead of mindless violence and gore

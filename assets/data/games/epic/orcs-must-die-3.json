@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1522820",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/orcs-must-die-3-a7e03a",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Orcs_Must_Die%21_3",
   "notes": "Epic achievements working. Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. Needs C++ runtime but it ships with it.",
   "date_tested": "Dec '24",
   "decky_rating": "green",
@@ -33,12 +33,138 @@
   "cant_test_linux": false,
   "databaseId": "3047a2d268da49588bbd22c806cde4de",
   "shortname": "3047a2d268da49588bbd22c806cde4de",
-  "publisher": "Robot Entertainment, Stadia Games and Entertainment",
+  "publisher": "Robot Entertainment",
   "developer": "Robot Entertainment",
-  "releasedate": "2020-07-14T00:00:00+0000",
-  "genre": "Adventure, Strategy, Indie, Puzzle, Shooter",
-  "description": "Orc Must Die! 3 ushers orc-slaying mayhem to a previously unimaginable scale. All new War Scenarios pit players and their friends against the largest orc armies ever assembled. Mountable War Machines give players the essential firepower to heave, stab, carbonize, and disarticulate the abominable intruders. Orcs Must Die! 3 is the long-awaited successor to the award-winning series.",
+  "releasedate": "2024-05-02T15:00:00.000Z",
+  "genre": "Action, Tower Defense, Strategy",
+  "description": "Slice, burn, toss, zap, grind and gib massive hordes of repugnant orcs in this long-awaited successor to the award-winning Orcs Must Die! series.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "39940",
+      "name": "Gift A Game"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "1170",
+      "name": "Tower Defense"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1170",
+      "name": "Tower Defense"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 121754,
+  "igdb_url": "https://www.igdb.com/games/121754",
+  "giveaway_events": [
+    {
+      "start": "2024-12-29T16:00:00.000Z",
+      "end": "2024-12-30T16:00:00.000Z",
+      "type": null,
+      "id": "144edd0ee90645cb9c31ae6d97fcfcaf"
+    },
+    {
+      "start": "2024-05-01T15:00:00.000Z",
+      "end": "2024-05-08T15:00:00.000Z",
+      "type": null,
+      "id": "144edd0ee90645cb9c31ae6d97fcfcaf"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Slice, burn, toss, zap, grind and gib massive hordes of repugnant orcs in this long-awaited successor to the award-winning Orcs Must Die! series.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/c4cffd7457dfb04880af65dc12390d72cdcc31939de139cc25a75e9da78d62f1.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c9b7feda60ac1110b77c3dfebf45eba55de83e22e0ffc2b3005dfacadba57dc3.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/73fca4c3891a5e93438da0eb88dcebc5eee523734b7ecdc46199a72e6219a2e0.jpg?namespace=gamesdb",
@@ -53,15 +179,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 80923,
+  "hltb_main": "10 hrs",
+  "hltb_main_extra": "16 hrs",
+  "hltb_completionist": "49.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/80923",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:03:57.612Z"
+  "updated_at": "2026-04-25T05:43:17.635Z"
 }

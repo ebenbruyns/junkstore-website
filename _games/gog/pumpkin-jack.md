@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Headup Games, Thunderful, Beep Japan
 developer: Nicolas Meyssonnier
 genre: Adventure, Indie, Platform
+franchise: 
+age_rating_summary: 
 release_date: "October 23, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/29bf3e36e5180f4ebe89a74f42807fad43a16f30b7c81a928a104e13f18a080e.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/75302"
 store_url: "https://www.gog.com/en/game/pumpkin_jack"
 protondb_url: "https://www.protondb.com/app/1186640"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Pumpkin_Jack"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/pumpkin-jack?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1097498205"
 is_featured: false
+owned: true
 ---
 
 Pumpkin Jack is a Spooky Scary 3D platformer in which you embody Jack, the Mythical Pumpkin Lord! Dive into an Epic Adventure through otherworldly landscapes and help the Evil annihilate the Good!

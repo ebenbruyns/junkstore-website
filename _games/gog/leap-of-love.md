@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Andrealphus Games
 developer: Andrealphus Games
 genre: NIL, NIL
+franchise: 
+age_rating_summary: 
 release_date: ""
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/93e8a964ed0a9a27489564b18b3f2d667de4424ad249019b1cb9be0c4a721cc9.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1111421371"
 is_featured: false
+owned: true
 ---
 
 Leap of Love is a fantasy game where you play as Kaheroux a frog turned prince by a shady wizard. The catch of that spell is that he needs to find and marry a princess within a month or go back to being a frog.

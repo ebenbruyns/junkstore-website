@@ -8,8 +8,8 @@ storefront_key: "gog"
 permalink: /games/gog/the-witcher-enhanced-edition/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "July '25"
 proton_version: ""
 
@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Atari, CD Projekt
 developer: CD Projekt RED
 genre: Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "September 16, 2008"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/fc1c44b2252e3200db66872630f7e21687bba217b6eabb188451556b5941cf63.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/10267"
 store_url: "https://www.gog.com/en/game/the_witcher"
 protondb_url: "https://www.protondb.com/app/20900"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Witcher"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/the-witcher-enhanced-edition?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658924"
 is_featured: false
+owned: true
 ---
 
 Based on the novels by a popular Polish writer Andrzej Sapkowski, The Witcher is an action-oriented, epic fantasy RPG that takes players on a journey through a world which in many ways mirrors our own. Take on the role of Geralt of Rivia, a professional monster hunter, as he embarks on a quest of self-discovery and revenge. 

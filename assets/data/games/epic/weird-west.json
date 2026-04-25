@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1097350",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/weird-west-906661",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Weird_West",
   "notes": "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Install C++ Runtime.",
   "date_tested": "July '24",
   "decky_rating": "yellow",
@@ -35,10 +35,72 @@
   "shortname": "5ab7c9b39f81481c88dce1e4f106a594",
   "publisher": "Devolver Digital",
   "developer": "Wolfeye Studios",
-  "releasedate": "2022-03-31T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Indie, Simulator",
-  "description": "Discover a dark fantasy reimagining of the Wild West where lawmen and gunslingers share the frontier with fantastical creatures. Journey through the origin stories of a group of atypical heroes, written into legend by the decisions you make in an unforgiving land. Each journey is unique and tailored to the actions taken - a series of high stakes stories where everything counts and the world reacts to the choices you make. Form a posse or venture forth alone into an otherworldly confines of the Weird West and make each legend your own.",
+  "releasedate": "2022-03-31T15:00:00.000Z",
+  "genre": "Narration, RPG, Action-Adventure",
+  "description": "Survive and unveil the mysteries of the Weird West through the intertwined destinies of its unusual heroes in an Action RPG from the co-creators of Dishonored and Prey.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "21123",
+      "name": "Impact the Story"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": {
+    "total": 1,
+    "average": 0,
+    "recommended_pct": 1,
+    "not_recommended_pct": 0
+  },
+  "igdb_id": 127350,
+  "igdb_url": "https://www.igdb.com/games/127350",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Survive and unveil the mysteries of the Weird West through the intertwined destinies of its unusual heroes in an Action RPG from the co-creators of Dishonored and Prey.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/9731637da397edd662030d563c33d46c0737e8769c6e695f7c2b1eb32c309774.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/09bb30e47a0d9bba6031d4597b6b4bc003c62450061e5dd55d0ace0c081bb0e5.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6b39a8ecbd1722c4694d6fcbb170950fe2699c33cd952224b379f512bb5340cb.jpg?namespace=gamesdb",
@@ -51,15 +113,16 @@
   ],
   "metacritic_score": 76,
   "metacritic_url": "https://www.metacritic.com/game/pc/weird-west?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 80053,
+  "hltb_main": "17.1 hrs",
+  "hltb_main_extra": "24.4 hrs",
+  "hltb_completionist": "35.7 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/80053",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:50:55.592Z"
+  "updated_at": "2026-04-25T02:44:15.724Z"
 }

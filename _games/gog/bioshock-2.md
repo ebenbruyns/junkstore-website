@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 2K Games, Take-Two Interactive, D3 Publisher, Feral Interactive
 developer: 2K Marin
 genre: Role-playing (RPG), Adventure, Puzzle, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "February 9, 2010"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Italian","Spanish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b1ba7d737245c994a6b50cb2a1d140e7642d3089006d7b8102f055136b3615a6.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1806891286"
 is_featured: false
+owned: true
 ---
 
 BioShock 2 is the second game of the BioShock series and the sequel to BioShock. It continues the grand storyline of the underwater metropolis Rapture. BioShock 2 capitalizes and improves upon the high-quality effects, unique gameplay elements, and immersive atmosphere that defined the first game. It explores more brutal gameplay than its predecessor, with new enemies, weapons, Plasmids, and Gene Tonics.

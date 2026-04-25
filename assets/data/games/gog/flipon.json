@@ -39,6 +39,17 @@
   "genre": "adventure, indie, puzzle, arcade",
   "description": "Join Kat and her crew in an epic quest in Flipon, a juicy, fun and fast-paced arcade puzzle game!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/84ddee8db51e10ae78898e4d4a0e517d3cbd4724aa4638040f28882c5b379ec2.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c36bdcadaaee869ebb7684271972e3ae2d3eb6df06e6e0baed71912426887fe5.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/84ddee8db51e10ae78898e4d4a0e517d3cbd4724aa4638040f28882c5b379ec2.jpg?namespace=gamesdb",
@@ -49,6 +60,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/flipon/",
+  "hltb_id": 86657,
   "hltb_main": "",
   "hltb_main_extra": "3.5 hrs",
   "hltb_completionist": "4.5 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-24T02:43:51.879Z"
+  "updated_at": "2026-04-25T05:46:35.517Z"
 }

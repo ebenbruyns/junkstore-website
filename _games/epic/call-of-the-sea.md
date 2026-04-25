@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: Raw Fury
-developer: Out of the Blue Games
-genre: Adventure, Indie, Puzzle
-release_date: "December 8, 2020"
+developer: Out of the Blue
+genre: Casual, Puzzle, Adventure
+franchise: 
+age_rating_summary: 
+release_date: "February 18, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: "https://www.igdb.com/games/133306"
+was_free_before: true
+giveaway_events: [{"start":"2023-03-08T15:00:00.000Z","end":"2023-03-15T15:00:00.000Z","type":null,"id":"92da5d8d918543b6b408e36d9af81765"}]
 
 # Images
 banner_image: "https://images.gog.com/fd2cccd4f07f2203097905cd0849a86d68575605f5bdaaa22c8b6ea57a0ee437.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/77918"
 store_url: "https://store.epicgames.com/en-US/p/call-of-the-sea"
 protondb_url: "https://www.protondb.com/app/1042490"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_the_Sea"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/call-of-the-sea?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "6278dd278d714aeb88239a423fa0f8be"
 is_featured: false
+owned: true
 ---
 
-Call of the Sea is a first-person adventure puzzle game set in the 1930's that tells the story of Norah, a woman on the trail of her missing husband's expedition. The search takes place on a strange but beautiful island in the South Pacific, filled with secrets waiting to be unearthed. It’s an otherworldly tale of mystery, adventure, and self-discovery.
+Call of the Sea is an otherworldly tale of mystery and love set in the 1930s South Pacific. Explore a lush island paradise, solve puzzles and unlock secrets in the hunt for your husband’s missing expedition.

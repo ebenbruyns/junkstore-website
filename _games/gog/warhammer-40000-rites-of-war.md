@@ -17,9 +17,15 @@ proton_version: ""
 publisher: SSI (Strategic Simulations, Inc.), Games Workshop, GOG.com
 developer: DreamForge Intertainment
 genre: Strategy
+franchise: 
+age_rating_summary: 
 release_date: "July 23, 1999"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","German"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1145482a73da7c910297ae4ecd8eaa01c9f1ebdeaf95a020b4de24aa1df079bd.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/31462"
 store_url: "https://www.gog.com/en/game/warhammer_40000_rites_of_war"
 protondb_url: "https://www.protondb.com/app/4280900"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40%2C000%3A_Rites_of_War"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1443606025"
 is_featured: false
+owned: true
 ---
 
 Inspired by the board and figurine games made popular by Games Workshop, the universe of Warhammer 40,000 is a vast and violent one, rife with strange, alien races, including the Eldar.

@@ -8,18 +8,24 @@ storefront_key: "epic"
 permalink: /games/epic/republic-of-jungle/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "March '25"
 proton_version: ""
 
 # Game Info
 publisher: Gerdoo Games
 developer: Gerdoo Games
-genre: "Strategy, Indie, Card & Board Game"
-release_date: "February 8, 2024"
+genre: Party, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "January 22, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1299","name":"Competitive"},{"id":"1110","name":"Party"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
+igdb_url: "https://www.igdb.com/games/138655"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a93d1a208bf317744b68cd0f4b6c51d43cd86aa112103867973b68e9f6b6720c.jpg?namespace=gamesdb"
@@ -47,13 +53,13 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "30 mins"
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/145348"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/republic-of-jungle"
+store_url: "https://store.epicgames.com/en-US/p/republic-of-jungle-fab3f9"
 protondb_url: "https://www.protondb.com/app/1413250"
 protondb_report_url: ""
 pcgamingwiki_url: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "3bb6343f56bd47e095610348c8fabdba"
 is_featured: false
+owned: true
 ---
 
-Who do you trust? In a party game for 5 to 10 players, a secret group of Leakers undermine President Puma and his Loyalists by earning their trust and leaking their confidential affairs to media. Bluff, betray, confide and conspire in a crossover between Jackbox and social deduction games.
+Gather your friends (5 to 10 players) and play as advisors to President Puma. In a social deduction party game, Leakers try to sneak into missions to leak Puma's secrets- Loyalists try to suss them out. Read the room and bluff your way to a political victory.

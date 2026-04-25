@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Disney Interactive, LucasArts
 developer: LucasArts
 genre: Strategy
+franchise: 
+age_rating_summary: 
 release_date: "February 28, 1998"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7f24df5037946f8b43817d11d9c78c4b96fcf5a1b803197a8fc36b98c5914c66.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1421404828"
 is_featured: false
+owned: true
 ---
 
 Subvert the Empire. Crush the Alliance. Your Choice. Your Destiny.

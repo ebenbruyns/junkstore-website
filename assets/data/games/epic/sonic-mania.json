@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Sonic_Mania",
   "notes": "Works out of the box on the Decky plugin version. Need to update the .ini file: Set windowed mode from Y to N & set resolution to 1280x800. Save settings.",
   "date_tested": "May '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,106 @@
   "shortname": "818447bb519b46d48d365d5753362796",
   "publisher": "Sega Games",
   "developer": "Headcannon, PagodaWest Games, Sega Games, Christian Whitehead",
-  "releasedate": "08-2017",
-  "genre": "Adventure, Platform",
-  "description": "Experience the ultimate celebration of past and future in Sonic Mania! Re-live the Sonic of the past with an exciting new twist on classic zones",
+  "releasedate": "2021-06-24T15:00:00.000Z",
+  "genre": "Action, Platformer",
+  "description": "The ultimate celebration of past and future. An all-new adventure full of unique bosses, rolling 2D landscapes, and fun classic gameplay. Sonic Mania brings retro fast-paced platforming into the future through pixel perfect 2D graphics running at 60FPS.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2021-06-23T15:00:00.000Z",
+      "end": "2021-06-30T15:00:00.000Z",
+      "type": null,
+      "id": "8d50972d297f448cb3718d6e8094327a"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "The ultimate celebration of past and future. An all-new adventure full of unique bosses, rolling 2D landscapes, and fun classic gameplay. Sonic Mania brings retro fast-paced platforming into the future through pixel perfect 2D graphics running at 60FPS.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/12c4c548279e50732b075b58e4e8dcb3b397a584ec2efa3ec6e6932b3fb00cf8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f28271ad3d31f948173676d07ea644195eada5c57978f353868bdaf412175a3c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/aa778d9ec37a68882ff3a4dfc10e402a5badf5e4d95a69b12784a59b443b64bc.jpg?namespace=gamesdb",
@@ -53,15 +149,16 @@
   ],
   "metacritic_score": 84,
   "metacritic_url": "https://www.metacritic.com/game/pc/sonic-mania?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 38916,
+  "hltb_main": "5.7 hrs",
+  "hltb_main_extra": "9.5 hrs",
+  "hltb_completionist": "19 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/38916",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T06:23:08.260Z"
+  "updated_at": "2026-04-25T02:29:11.378Z"
 }

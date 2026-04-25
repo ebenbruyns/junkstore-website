@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Bethesda Softworks
 developer: Arkane Studios
-genre: Role-playing (RPG), Adventure, Puzzle
-release_date: "September 14, 2017"
+genre: Action, Stealth, Adventure
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "December 16, 2022"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Polish*","Russian*","Portuguese - Brazil*","Traditional Chinese*languages with full audio support"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/11118"
+was_free_before: true
+giveaway_events: [{"start":"2023-02-01T15:00:00.000Z","end":"2023-02-08T15:00:00.000Z","type":null,"id":"faf518d367de4306a911ce211c8e47e4"}]
 
 # Images
 banner_image: "https://images.gog.com/e8539eb87b7c14dc694588a01f679470139c2b1063aa26ed9ef513c5eac4d445.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: true
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "6.6 hrs"
+hltb_main_extra: "11.6 hrs"
+hltb_completionist: "18 hrs"
+hltb_url: "https://howlongtobeat.com/game/46419"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dishonored-death-of-the-outsider"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2fb8273dcf6f41e4899c0c881e047053"
 is_featured: false
+owned: true
 ---
 
-Dishonored: Death of the Outsider is a standalone expansion pack and a sequel to Dishonored 2. The game features all the series hallmarks, including brutal combat systems, unique level design and immersive storytelling that responds to your every choice. With compelling characters and exhilarating action, Death of the Outsider is the perfect entry point for those new to the Dishonored series, while delivering a significant expansion of the gameplay and world for longtime fans.
+Take on the role of Billie Lurk as she reunites with her old mentor, Daud, to undertake the greatest assassination ever conceived: killing the Outsider, a god-like figure whom they both see as instrumental to some of the Empire's most dishonorable moments. 

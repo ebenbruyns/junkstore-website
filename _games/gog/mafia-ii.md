@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 2K Games, Take-Two Interactive
 developer: 2K Czech, Massive Bear Studios
 genre: Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "August 24, 2010"
 game_modes: ["Single player"]
 languages: ["Czech","English","French","German","Italian","Polish","Russian","Spanish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f777929622b771a44cdc4a3b119f81f013497bdd597665ebc6f835a1163abe89.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1816059595"
 is_featured: false
+owned: true
 ---
 
 The storyline for Mafia II is a gritty drama and chronicles the rise of Vito Scaletta, the son of Sicilian immigrants. As the game progresses, Vito joins the Falcone crime family and becomes "a made man" along with his best friend Joe Barbaro.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Humble Games
 developer: Jacob Dzwinel
 genre: "Adventure, Indie, Shooter, Hack and slash/Beat 'em up, Fighting"
+franchise: 
+age_rating_summary: 
 release_date: "August 23, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","German","Japanese","Simplified Chinese","Spanish - Latin America","Polish","Russian","Portuguese - Brazil"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7b61195ce8c1e958f04e8de1d93aa1547ad2b6de1d1fbdfa169ed33d83b8b1d4.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2024445598"
 is_featured: false
+owned: true
 ---
 
 Fight your way across the city in a brutal romp that mixes old school brawlers and fast-paced motion-captured combat. You’re Babyface, a former member of the criminal underworld lured back into “the life” by a mysterious AI drone. Your mission against impossible odds: Fight your way across the city before sunrise, and prevent a citywide criminal takeover together.

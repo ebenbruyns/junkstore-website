@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Ubisoft Entertainment
 developer: Ubisoft Montreal
-genre: Role-playing (RPG), Adventure
-release_date: "Invalid Date"
+genre: Action, Action-Adventure, Open World, Adventure
+franchise: 
+age_rating_summary: 
+release_date: "October 28, 2017"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Czech","Dutch","Japanese*","Korean","Polish"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b0d8f487bffd9b84f7bbd87f833a1da60906c8c6390885ef1150c3609d0d4d44.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/46402"
 store_url: "https://store.epicgames.com/en-US/p/assassin-s-creed-origins"
 protondb_url: "https://www.protondb.com/app/582160"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Assassin%27s_Creed_Origins"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/assassins-creed-origins/"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Camellia"
 is_featured: false
+owned: false
 ---
 
 Set in Ancient Egypt, players will journey to the most mysterious place in history, during a crucial period that will shape the world and give rise to the Assassin's Brotherhood.

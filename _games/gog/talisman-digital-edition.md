@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Asmodee Digital, Nomad Games
 developer: Nomad Games
 genre: Role-playing (RPG), Strategy, Indie
+franchise: 
+age_rating_summary: 
 release_date: "March 9, 2011"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/63e7d15136e453a16b1a6eee6b2b05a435beb92a62f09826161cea31c5c3b850.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/17600"
 store_url: "https://www.gog.com/en/game/talisman_digital_edition"
 protondb_url: "https://www.protondb.com/app/247000"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Talisman%3A_Digital_Edition"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1557744677"
 is_featured: false
+owned: true
 ---
 
 Talisman Digital Edition - The Magical Quest Game for 1 to 4 players.

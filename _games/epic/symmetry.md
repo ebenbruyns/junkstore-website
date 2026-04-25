@@ -14,12 +14,18 @@ date_tested: "Mar '26"
 proton_version: ""
 
 # Game Info
-publisher: Sleepless Clinic
-developer: IMGN.PRO
-genre: Adventure, Indie, Simulation, Strategy
-release_date: "February 20, 2018"
+publisher: IMGN.PRO
+developer: Sleepless Clinic
+genre: Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "May 27, 2022"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Polish","Portuguese - Portugal","Russian","Czech","Japanese","Simplified Chinese"]
+tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/30988"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/12979c6c16ec4c6a8d7735b4a821c443/symmetry-offer-1tgcn.png"
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "2.5 hrs"
+hltb_main_extra: "3 hrs"
+hltb_completionist: "4.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/63310"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/symmetry-44cf24"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "f140a7ed4f8141298cb024b12f70feb3"
 is_featured: false
+owned: true
 ---
 
 A research spaceship reaches an abandoned planet. Nothing is what it seems here and the situation quickly slips out of control. Can the crew manage to survive and get back home?

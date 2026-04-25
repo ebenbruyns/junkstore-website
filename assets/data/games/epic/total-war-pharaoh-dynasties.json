@@ -33,12 +33,57 @@
   "cant_test_linux": false,
   "databaseId": "c90f02864e054feba10b315af7592fa3",
   "shortname": "c90f02864e054feba10b315af7592fa3",
-  "publisher": "Sega",
-  "developer": "CREATIVE ASSEMBLY",
-  "releasedate": "2024-07-25T00:00:00+0000",
+  "publisher": "SEGA",
+  "developer": "Creative Assembly",
+  "releasedate": "2026-02-11T10:00:00.000Z",
   "genre": "Action, Strategy",
-  "description": "Wage total war across the ancient world from the Aegean to Mesopotamia in this free addition to Total War: PHARAOH. Challenge the Bronze Age Collapse by building your own dynasty and leading your faction to victory with new cultures, new units and dramatic new battle mechanics.",
+  "description": "Wage total war across the ancient world from the Aegean to Mesopotamia in Total War: PHARAOH DYNASTIES. Challenge the Bronze Age Collapse, build your dynasty and lead your faction to victory with new cultures, units and battle mechanics.",
   "size": "",
+  "franchise": "Total War",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 250531,
+  "igdb_url": "https://www.igdb.com/games/250531",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Wage total war across the ancient world from the Aegean to Mesopotamia in Total War: PHARAOH DYNASTIES. Challenge the Bronze Age Collapse, build your dynasty and lead your faction to victory with new cultures, units and battle mechanics.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2951630/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2951630/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2951630/capsule_231x87.jpg",
@@ -61,6 +106,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -71,5 +117,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-04-03T21:10:31.170Z",
-  "updated_at": "2026-04-10T20:59:15.638Z"
+  "updated_at": "2026-04-25T02:21:44.042Z"
 }

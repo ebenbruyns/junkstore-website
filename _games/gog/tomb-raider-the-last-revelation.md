@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Eidos Interactive, Aspyr Media
 developer: Core Design
 genre: Adventure, Puzzle, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "November 24, 1999"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/e96661feb409d66599e8b3c426580da51b40bb11436dabbbfa68337117547a01.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207663513"
 is_featured: false
+owned: true
 ---
 
 Tomb Raider IV: The Last Revelation is the fourth game of the Tomb Raider games series, it plays very similar to the previous games in the series but some new things have been added to the game. The biggest addition is that now rather large parts of the game consist of several interconnected levels sometimes explored in any order, with puzzles in one level often requiring that some actions are done in other levels. The new additions to Lara's arsenal are a revolver and a bow with several sets of arrows including exploding and poisonous ones.

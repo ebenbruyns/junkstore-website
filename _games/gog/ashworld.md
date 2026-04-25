@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Orangepixel
 developer: Orangepixel
 genre: Action, Adventure
+franchise: 
+age_rating_summary: 
 release_date: "September 19, 2017"
 game_modes: ["Single-player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/580320/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1485834662"
 is_featured: false
+owned: true
 ---
 
 Fight, scavenge, and survive in Ashworld, a post-apocalyptic open world filled with danger. Explore the desolate Ragelands, battle ruthless Ragers, and fend off night-stalking Skellies. Drive, craft, and strategize to endure this unforgiving wasteland where every resource matters.

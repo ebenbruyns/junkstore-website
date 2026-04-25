@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Love in Space
 developer: Sekai Project
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "June 3, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a0bc7e93a7ac4c99f102c36d90a1a0cda22736164bbf3031ead6267e93bf3b7d.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/23246"
 store_url: "https://www.gog.com/en/game/sunrider_mask_of_arcadius"
 protondb_url: "https://www.protondb.com/app/313730"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sunrider%3A_Mask_of_Arcadius"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1748855533"
 is_featured: false
+owned: true
 ---
 
 As Captain Kayto Shields, embark on a galactic voyage of heroism and survival. With his home world destroyed and his nation conquered, the inexperienced Captain Shields, and his newly minted vessel, the Sunrider, are left as the only hope against a galactic evil intent on subjugating all sentient life.

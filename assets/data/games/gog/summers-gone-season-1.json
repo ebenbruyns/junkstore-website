@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, RPG, Simulation, Strategy",
   "description": "Summer's Gone is a high-quality, Interactive Visual Novel. This game is about healing, hope, and love. Overcome obstacles together, face demons of the past, and eventually... be happy.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/eef1d1f92b622c382a80cc53e7c9b2f70c802510af07e07643c586bd634777d3.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c92cebc8ee0eb653588c92ee3389e2b7080472291c689485b403c8e7b970eb09.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7b5a17e98cb02454ff47e650c8c1243b0ff27e1674514dbcd7d90ecd57532816.jpg?namespace=gamesdb",
@@ -53,6 +64,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 116605,
   "hltb_main": "8 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "17 hrs",
@@ -64,5 +76,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-04-24T01:31:41.722Z"
+  "updated_at": "2026-04-25T00:52:47.355Z"
 }

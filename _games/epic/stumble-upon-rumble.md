@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Play to Win Studios
 developer: Play to Win Studios
-genre: Fighting
-release_date: "July 31, 2024"
+genre: Action, Casual, Fighting
+franchise: 
+age_rating_summary: ESRB Adults Only 18+
+release_date: "August 1, 2024"
 game_modes: ["Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1296","name":"Casual"},{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"1310","name":"EARLY ACCESS"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/255466"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1bf852caba7d6a98e4f0da0f8cf444abfd60219a10f1ab0100e0493aa390386b.jpg?namespace=gamesdb"
@@ -50,10 +56,10 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/154582"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/stumble-upon-rumble"
+store_url: "https://store.epicgames.com/en-US/p/stumble-upon-rumble-52275d"
 protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "f521b09c6495418790ff54cfa9ba619b"
 is_featured: false
+owned: true
 ---
 
 Retro Zelda meets Punch Out. Players use their movement to deceive their opponents and use the attacks to strike at the right time. The winner keeps on fighting while the others watch and chat. It's a real-time multiplayer game with servers of up to 30 players.

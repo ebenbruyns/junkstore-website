@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure",
   "description": "Heads Will Roll: Downfall is a combination of a tactical role-playing game and visual novel, in which you will assume the role of a medieval soldier.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/6d9bd6d91c7bdfb1089961f88dd70fcf79305d963b8e7cc6e1946189bc5bbf09.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/1c704e4637b288254a91b88587ca77ba4a312f8bb8a3919434591e14773f7e1b.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/169db8a7bfc21152b9ab74b8a0d119cbdd3846d3a804d4d3d158f4b7b1beea6a.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/heads-will-roll-downfall/",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-24T00:29:22.588Z"
+  "updated_at": "2026-04-25T00:42:11.152Z"
 }

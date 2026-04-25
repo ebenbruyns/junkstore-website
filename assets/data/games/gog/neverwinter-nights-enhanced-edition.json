@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure",
   "description": "Neverwinter Nights: Enhanced Edition is an updated version of the 2002 video game Neverwinter Nights. The Enhanced Edition is based on Neverwinter Nights: Diamond Edition and it comes with the base game as well as the Shadows of Undrentide, Hordes of the Underdark, Kingmaker, Witch's Wake and ShadowGuard expansions. Remastered version brings numerous technological improvements to the game, including an updated graphics engine and revitalized multiplayer support.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/7ca8e2974f49daca1f2b037c5af04652f1d224a68b5b9ea042ad27e45dfb931f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fbbfef6da3721c646de8859e8fd6748016fa1d897a06a061c00ded562409bd8f.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/704450/capsule_231x87.jpg",
@@ -58,6 +69,7 @@
   ],
   "metacritic_score": 63,
   "metacritic_url": "https://www.metacritic.com/game/neverwinter-nights-enhanced-edition/",
+  "hltb_id": 54495,
   "hltb_main": "43 hrs",
   "hltb_main_extra": "71.5 hrs",
   "hltb_completionist": "114 hrs",
@@ -69,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-04-24T01:31:32.804Z"
+  "updated_at": "2026-04-25T00:52:18.105Z"
 }

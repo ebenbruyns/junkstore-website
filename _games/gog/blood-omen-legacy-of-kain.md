@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Activision, Crystal Dynamics, Sony Computer Entertainment, Square Enix Europe
 developer: Silicon Knights
 genre: Adventure
+franchise: 
+age_rating_summary: 
 release_date: "November 1, 1996"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3cfa18143141a03d4d3f95971462cd1bde39966e5815286d02cebc2acc7725af.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/1184"
 store_url: "https://www.gog.com/en/game/blood_omen_legacy_of_kain"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blood_Omen%3A_Legacy_of_Kain"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/blood-omen-legacy-of-kain/"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1837805079"
 is_featured: false
+owned: true
 ---
 
 Blood Omen: Legacy of Kain is a top-down action-adventure video game with role-playing game elements. It is the first game in the Legacy of Kain series, and the only one developed by Silicon Knights and published by Crystal Dynamics. The game was first released in 1996 for the PlayStation, and later ported to Microsoft Windows. A Sega Saturn version was announced during production but later cancelled before release. It was followed by four sequels, which were all developed by Crystal Dynamics and published by Eidos Interactive.

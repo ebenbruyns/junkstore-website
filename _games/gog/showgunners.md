@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Good Shepherd Entertainment
 developer: Artificer
 genre: Strategy, Turn-based strategy (TBS), Tactical
+franchise: 
+age_rating_summary: 
 release_date: "May 2, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b5056ec30873866bc72cc074ed04958afc1865d57c4b183e48e40631902cecd8.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/127831"
 store_url: "https://www.gog.com/en/game/showgunners"
 protondb_url: "https://www.protondb.com/app/1155330"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Showgunners"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/showgunners?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1511366207"
 is_featured: false
+owned: true
 ---
 
 As a contestant on a brutal reality game show of the future, you must survive a deadly urban environment packed with lethal traps, confounding puzzles, and murderous, heavily armed psychopaths. Turn-based combat in hand crafted levels, built for entertainment.

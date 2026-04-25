@@ -17,9 +17,15 @@ proton_version: ""
 publisher: "Draknek & Friends"
 developer: Cosmic Engineers
 genre: Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "March 16, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/583270/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "121614"
 is_featured: false
+owned: true
 ---
 
 Plan the train route for the universe's most awkward space colony!

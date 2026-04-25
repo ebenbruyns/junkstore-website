@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Bethesda Softworks
 developer: Interplay Inc.
 genre: RPG
-release_date: "November 1, 2015"
+franchise: Fallout
+age_rating_summary: ESRB Mature 17+
+release_date: "October 21, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"}]
+igdb_url: "https://www.igdb.com/games/13"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/38400/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1440148836"
 is_featured: false
+owned: true
 ---
 
-You've just unearthed the classic post-apocalyptic role-playing game that revitalized the entire CRPG genre. The Fallout® SPECIAL system allows drastically different types of characters, meaningful decisions and development that puts you in complete control. Explore the devastated ruins of a golden age civilization.
+You've just unearthed the classic post-apocalyptic role-playing game that revitalized the entire CRPG genre. Make the right decisions or you could end up as another fallen hero in the wastelands…

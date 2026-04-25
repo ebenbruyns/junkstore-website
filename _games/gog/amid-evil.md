@@ -17,9 +17,15 @@ proton_version: ""
 publisher: New Blood Interactive
 developer: Indefatigable
 genre: indie, shooter
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/2d6284cd6ee6d2d8d31b1757f9f850fba308c0d90b6097586e8b9e651aefe1e8.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/58082"
 store_url: "https://www.gog.com/en/game/amid_evil"
 protondb_url: "https://www.protondb.com/app/673130"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amid_Evil"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/amid-evil?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2023945788"
 is_featured: false
+owned: false
 ---
 
 Once branded a heretic. Now you have been chosen. Reclaim our sacred weapons. Take back our ancestral lands. If you can stand... Amid Evil.

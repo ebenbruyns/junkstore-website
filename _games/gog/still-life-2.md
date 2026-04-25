@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Meridian4, cdv Software Entertainment, Iceberg Interactive
 developer: Gameco Studios
 genre: Adventure, Puzzle, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/65492e8125f9bade2765e637aefcaac04c04203685116f9270e094607f3930f2.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/9212"
 store_url: "https://www.gog.com/en/game/still_life_2"
 protondb_url: "https://www.protondb.com/app/46490"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Still_Life_2"
 metacritic_score: 67
 metacritic_url: "https://www.metacritic.com/game/pc/still-life-2?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659007"
 is_featured: false
+owned: false
 ---
 
 Who is hiding behind Mr. X? Still Life 2 reveals the long-awaited ending of Still Life and spells a new investigation for Agent Victoria McPherson.

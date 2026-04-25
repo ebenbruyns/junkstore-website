@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Zombie_Army_4%3A_Dead_War",
   "notes": "Works out of the box!",
   "date_tested": "Jan '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,107 @@
   "shortname": "Sparrow",
   "publisher": "Rebellion Developments",
   "developer": "Rebellion Developments",
-  "releasedate": "2020-02-04T00:00:00+0000",
-  "genre": "Shooter, Arcade",
-  "description": "Hitler's hordes are back for more in this spine-chilling shooter from the makers of Sniper Elite 4! Abominable occult enemies, epic weapons and a harrowing new campaign for 1-4 players await in 1940's Europe, as you fight to save humankind from undead armageddon.",
+  "releasedate": "2020-02-04T15:00:00.000Z",
+  "genre": "Action, Horror, Shooter",
+  "description": "Hitler’s hordes are back for more in this spine-chilling shooter from the makers of Sniper Elite 4! Abominable occult enemies, epic weapons and a harrowing new campaign for 1-4 players await in 1940s Europe, as you fight to save humankind from undead Armageddon!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "39940",
+      "name": "Gift A Game"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1279",
+      "name": "Vampire"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Hitler’s hordes are back for more in this spine-chilling shooter from the makers of Sniper Elite 4! Abominable occult enemies, epic weapons and a harrowing new campaign for 1-4 players await in 1940s Europe, as you fight to save humankind from undead Armageddon!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/d11c04b4626d288e76089bee4f6eef0dcf1b6165ac694cbced111484f32ed7de.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4b6591138642ad74b68cdc994909523f0f9a2814ce111ae358c22aa5a92c392f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/19926efbd45156f703838fdfb1069e78d3c5480e428e6eb08d533c6a55dbdd69.jpg?namespace=gamesdb",
@@ -53,14 +150,15 @@
   ],
   "metacritic_score": 74,
   "metacritic_url": "https://www.metacritic.com/game/pc/zombie-army-4-dead-war?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 74558,
+  "hltb_main": "11.5 hrs",
+  "hltb_main_extra": "18.5 hrs",
+  "hltb_completionist": "55.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/74558",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-09-08T06:55:24.663Z"
+  "updated_at": "2026-04-25T05:46:15.051Z"
 }

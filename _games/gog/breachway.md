@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Hooded Horse
 developer: Edgeflow Studio
 genre: strategy, indie, simulator
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/258118bbc5a69849723b25a3f1c7fa672df5a0d6bfa300492bfaba0c4cfeb839.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1263094765"
 is_featured: false
+owned: false
 ---
 
 Assemble your crew, load out your ship, and explore the galaxy in this deck-building space roguelike. Your deck is determined by your spaceship's loadout, mix and match equipment to discover different powerful card synergies, and obliterate your enemies in tactical space battles

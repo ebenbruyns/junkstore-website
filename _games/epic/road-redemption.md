@@ -14,12 +14,18 @@ date_tested: "Aug '25"
 proton_version: ""
 
 # Game Info
-publisher: Tripwire Interactive
-developer: Saber Interactive, EQ-Games, Pixel Dash Studios, Dark Seas Interactive
-genre: Adventure, Indie, Arcade, Simulator, Racing
-release_date: "October 4, 2017"
+publisher: Pixel Dash Studios
+developer: Pixel Dash Studios
+genre: Action, Racing
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "August 8, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: true
+giveaway_events: [{"start":"2025-08-07T15:00:00.000Z","end":"2025-08-14T15:00:00.000Z","type":null,"id":"91a0b419d5b741c39cc35ce3a35138c0"}]
 
 # Images
 banner_image: "https://images.gog.com/95c29bc14adf89c953c23d3ffd84b864903ea6dc7416dd63d9bd09dc58fd65e8.jpg?namespace=gamesdb.jpg?namespace=gamesdb"
@@ -53,10 +59,10 @@ hltb_completionist: ""
 hltb_url: ""
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/road-redemption"
+store_url: "https://store.epicgames.com/en-US/p/road-redemption-ce16fb"
 protondb_url: "https://www.protondb.com/app/300380"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Road_Redemption"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "39b13b169e1d4e798543f931bc3a95b4"
 is_featured: false
+owned: true
 ---
 
-Lead your motorcycle gang on an epic journey across the country in this brutal driving combat adventure. Earn money by completing races, assassinations, robberies, and other challenges in your path. As you collect loot, you'll upgrade your character, your bike, and your weapons.
+Road Redemption lets you lead a biker gang on an epic journey across the country in this driving combat road rage adventure.

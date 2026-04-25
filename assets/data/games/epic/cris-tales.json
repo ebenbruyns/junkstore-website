@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Cris_Tales",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -33,12 +33,76 @@
   "cant_test_linux": false,
   "databaseId": "e7d92786abe54fae9319c1ddb94ae271",
   "shortname": "e7d92786abe54fae9319c1ddb94ae271",
-  "publisher": "Modus Games, Maximum Entertainment",
-  "developer": "SYCK, Dreams Uncorporated",
-  "releasedate": "2021-07-19T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Indie",
-  "description": "Discover a unique combination of branching stories, innovative combat, and classic RPG gameplay in Cris Tales’ exciting and unforgettable exploration of how our actions echo through time. Join the newly awakened Time Mage, Crisbell, and her fantastical companions in a fantasy world facing a grim future. The powerful Time Empress and her forces threaten to bring about a cataclysm tearing apart Crystallis and the other four Kingdoms of the region.",
+  "publisher": "Maximum Entertainment LLC",
+  "developer": "Dreams Uncorporated, SYCK",
+  "releasedate": "2021-07-20T13:00:00.000Z",
+  "genre": "RPG, Turn-Based, Indie",
+  "description": "Experience Past, Present, and Future simultaneously in this gorgeous, indie love letter to classic JRPGs",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1386",
+      "name": "Turn-Based"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1386",
+      "name": "Turn-Based"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2022-02-23T15:00:00.000Z",
+      "end": "2022-03-02T15:00:00.000Z",
+      "type": null,
+      "id": "132a0780b11d4cdf8932a239ce86aa4b"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Experience Past, Present, and Future simultaneously in this gorgeous, indie love letter to classic JRPGs",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/791b972c7b79ecf7010bd180ced8bea4505642e4325be36e59f7a8b19b952d0f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/1e6f3a954d4261e4e427053bc286b668646ff7ab58a738721505674d32946e90.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9418a69fa74cae8dd24799a503daeb5dad6dfad43b00e0325ce9784af3cd324f.jpg?namespace=gamesdb",
@@ -51,14 +115,15 @@
   ],
   "metacritic_score": 74,
   "metacritic_url": "https://www.metacritic.com/game/pc/cris-tales?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 68209,
+  "hltb_main": "22 hrs",
+  "hltb_main_extra": "25.5 hrs",
+  "hltb_completionist": "31 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/68209",
   "epic_cloud_saves": false,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.966Z"
+  "updated_at": "2026-04-25T05:40:40.769Z"
 }

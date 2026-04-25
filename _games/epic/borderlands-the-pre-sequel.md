@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: 2K Games, Take-Two Interactive, Aspyr Media
 developer: Gearbox Software, 2K Australia
-genre: Role-playing (RPG), Shooter
-release_date: "October 14, 2014"
+genre: Shooter
+franchise: Borderlands
+age_rating_summary: ESRB Mature 17+
+release_date: "October 15, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/e9342572d8a2d3f62cb1cc3ded2ebe23f91a222a665cedfc481990ee3683960a.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/21248"
 store_url: "https://store.epicgames.com/en-US/p/borderlands-the-pre-sequel"
 protondb_url: "https://www.protondb.com/app/261640"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Borderlands%3A_The_Pre-Sequel"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/borderlands-the-pre-sequel?ftag=MCD-06-10aaa1f"
 
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "Turkey"
 is_featured: false
+owned: true
 ---
 
-Shoot 'n' loot your way through a brand new adventure that rockets you onto Pandora's moon in Borderlands: The Pre-Sequel. Discover the story behind Borderlands 2’s villain, Handsome Jack, and his rise to power in this brand new game in the Borderlands series. Taking place between the original Borderlands and Borderlands 2, the Pre-Sequel gives you a whole lotta new gameplay featuring the genre fusion of shooter and RPG gameplay that players can’t get enough of.
-
-Get high in low gravity and launch across the moonscape to take enemies down from above using new ice and laser weapons. Catch-a-ride on the lunar landscape with new vehicles equipped with deadly weapons allowing for more levels of destructive mayhem. So grab a friend (or two, or three), strap on a rocket, and take off on a brand new Borderlands adventure
+LAUNCH INTO THE BORDERLANDS UNIVERSE AND SHOOT ‘N’ LOOT YOUR WAY THROUGH A BRAND NEW ADVENTURE THAT ROCKETS YOU ONTO PANDORA’S MOON IN BORDERLANDS: THE PRE-SEQUEL!

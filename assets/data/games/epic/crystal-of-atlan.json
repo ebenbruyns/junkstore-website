@@ -33,12 +33,93 @@
   "cant_test_linux": false,
   "databaseId": "ab339d07d8c44305ad346f23b1af93e0",
   "shortname": "ab339d07d8c44305ad346f23b1af93e0",
-  "publisher": "Skystone Games, Nuverse Games",
-  "developer": "Nuverse Games",
-  "releasedate": "2023-07-14T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Hack and slash/Beat 'em up",
-  "description": "Crystal of Atlan is a Magipunk MMO Action RPG! As a member of the Adventurer's Guild, you'll be missioned to explore the world of Atlan and gradually unveil the mysteries around the Crystals of Atlan, the source of all energy in the world!",
+  "publisher": "Skystone Games",
+  "developer": "Nuverse Pte.Ltd.",
+  "releasedate": "2025-05-27T00:00:00.000Z",
+  "genre": "Action, RPG, Adventure",
+  "description": "Crystal of Atlan is a Magicpunk MMO Action RPG where you can immerse yourself in a Magicpunk world. Build your skills, fight and uncover the secrets of this world with your allies! Time to embark on a wondrous journey of Magic and Machinery!",
   "size": "",
+  "franchise": "Crystal of Atlan",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "22775",
+      "name": "MMO"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 174674,
+  "igdb_url": "https://www.igdb.com/games/174674",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Crystal of Atlan is a Magicpunk MMO Action RPG where you can immerse yourself in a Magicpunk world. Build your skills, fight and uncover the secrets of this world with your allies! Time to embark on a wondrous journey of Magic and Machinery!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/15bbd01cc39c6fe8e0316b05aa7410338b87e4a1e902d1813685061854d7835b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9237b6da59b85253592f2475683766baa7ff7de3b93180116adf9226936c89f8.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/903062439bffee948d5febf507c46a36bc4bdb5d3781edb8dae3dd0bca11f756.jpg?namespace=gamesdb",
@@ -54,6 +135,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/crystal-of-atlan/",
+  "hltb_id": 142382,
   "hltb_main": "7.1 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -64,5 +146,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-24T02:30:29.081Z"
+  "updated_at": "2026-04-25T01:07:49.561Z"
 }

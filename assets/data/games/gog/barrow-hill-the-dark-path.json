@@ -7,7 +7,7 @@
   "gog_url": "https://www.gog.com/en/game/barrow_hill_the_dark_path",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_The_Dark_Path",
   "notes": "Works out of the box on the Decky plugin version.",
   "date_tested": "Oct '24",
   "decky_rating": "green",
@@ -39,6 +39,17 @@
   "genre": "adventure, indie, point-and-click",
   "description": "Follow the Dark Path into a world of Druidic lore and Celtic myths. It is the Autumn Equinox on Barrow Hill, a time of great power, when the ancient standing stones are at their most powerful and dangerous.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/90c6ece32bce181f071271de7f29e60412b3a4ef83e05fe7cd371064b81ec31d.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d6843d315904f42d615234122aec558923b3dfd75453e5a1d3ac78972127c92c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/90c6ece32bce181f071271de7f29e60412b3a4ef83e05fe7cd371064b81ec31d.jpg?namespace=gamesdb",
@@ -50,7 +61,8 @@
     "English"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/barrow-hill-the-dark-path/",
+  "hltb_id": 45207,
   "hltb_main": "4.5 hrs",
   "hltb_main_extra": "5 hrs",
   "hltb_completionist": "6 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2025-11-25T23:45:02.350Z"
+  "updated_at": "2026-04-25T00:45:47.051Z"
 }

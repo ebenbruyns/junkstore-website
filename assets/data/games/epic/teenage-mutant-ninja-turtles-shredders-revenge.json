@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1361510",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/teenage-mutant-ninja-turtles-shredders-revenge",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Teenage_Mutant_Ninja_Turtles%3A_Shredder%27s_Revenge",
   "notes": "Epic achievements working. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. May need to install C++ Runtime",
   "date_tested": "July '24",
   "decky_rating": "yellow",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": true,
@@ -33,12 +33,49 @@
   "cant_test_linux": false,
   "databaseId": "16a7b366b94c4cf2843dd0dfda4bbd19",
   "shortname": "16a7b366b94c4cf2843dd0dfda4bbd19",
-  "publisher": "DotEmu, Netflix",
-  "developer": "Tribute Games",
-  "releasedate": "2022-06-16T00:00:00+0000",
-  "genre": "Indie, Arcade, Hack and slash/Beat 'em up",
-  "description": "Teenage Mutant Ninja Turtles: Shredder's Revenge is a side-scrolling beat 'em up developed by Tribute Games and published by DotEmu. Inspired by the 1987 Teenage Mutant Ninja Turtles animated series, the game pays homage to classic TMNT titles like Turtles in Time, featuring retro-inspired pixel art and dynamic combat. Players control Leonardo, Michelangelo, Donatello, Raphael, or other allies, each with unique abilities, as they battle through various levels to thwart Shredder and Krang's plans to conquer New York City. The game supports solo play or co-op for up to six players, blending nostalgic design with modern gameplay mechanics.",
+  "publisher": "Dotemu",
+  "developer": "Tribute Games Inc.",
+  "releasedate": "2024-07-02T11:00:00.000Z",
+  "genre": "Action",
+  "description": "Teenage Mutant Ninja Turtles: Shredder’s Revenge reunites Leonardo, Michelangelo, Donatello and Raphael as they kick shell in a beautifully realized beat ’em up.",
   "size": "",
+  "franchise": "Teenage Mutant Ninja Turtles",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 144465,
+  "igdb_url": "https://www.igdb.com/games/144465",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Teenage Mutant Ninja Turtles: Shredder’s Revenge reunites Leonardo, Michelangelo, Donatello and Raphael as they kick shell in a beautifully realized beat ’em up.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/03b2592487e1cbea20277350e9a75f514af9d7711384a9eff105a6288583b7a0.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c6ea136d6424e8de7e62a956faed18987bacabe2c98853be9248343b4f036385.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f7324150d8a713a4d370c83461a89669c4928dcc2bb8ec77c0b6cd726e64146b.jpg?namespace=gamesdb",
@@ -53,15 +90,16 @@
   ],
   "metacritic_score": 84,
   "metacritic_url": "https://www.metacritic.com/game/pc/teenage-mutant-ninja-turtles-shredders-revenge?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 89573,
+  "hltb_main": "2.9 hrs",
+  "hltb_main_extra": "4.1 hrs",
+  "hltb_completionist": "20.2 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/89573",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-01-05T23:50:10.195Z"
+  "updated_at": "2026-04-25T02:43:55.647Z"
 }

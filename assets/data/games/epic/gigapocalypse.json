@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1543240",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/gigapocalypse-fdc53b",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Gigapocalypse",
   "notes": "Works out of the box!",
   "date_tested": "May '25",
   "decky_rating": "green",
@@ -33,12 +33,120 @@
   "cant_test_linux": false,
   "databaseId": "a7270bff1bad44298091dd61c6c7bc00",
   "shortname": "a7270bff1bad44298091dd61c6c7bc00",
-  "publisher": "Headup",
+  "publisher": "Headup GmbH",
   "developer": "Goody Gameworks",
-  "releasedate": "2021-11-12T00:00:00+0000",
-  "genre": "Arcade, Fighting",
+  "releasedate": "2023-03-22T16:00:00.000Z",
+  "genre": "Action, Retro, Indie",
   "description": "Become a customizable giant monster with manifold skills in Gigapocalypse, inspired by classical Kaijū movies such as “Godzilla” and “King Kong” and the game classic “Rampage”.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21130",
+      "name": "Easy Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1198",
+      "name": "Retro"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1198",
+      "name": "Retro"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 158921,
+  "igdb_url": "https://www.igdb.com/games/158921",
+  "giveaway_events": [
+    {
+      "start": "2025-05-22T15:00:00.000Z",
+      "end": "2025-05-29T15:00:00.000Z",
+      "type": null,
+      "id": "529a003e742f425b865c08a2f0040097"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Become a customizable giant monster with manifold skills in Gigapocalypse, inspired by classical Kaijū movies such as “Godzilla” and “King Kong” and the game classic “Rampage”.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/fbfe6bb1a00b417e8954e439abf096ad93f37be8da9806415b4992a00e47dcfa.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fb5edb845f340a69ed689ed5e76f116852770f92dba099fdb0d70c5d811ed40c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ff03b577350c025724ff562f4c04631a18ab376a0fb2fc2e08d496076600d4c5.jpg?namespace=gamesdb",
@@ -51,15 +159,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 107363,
+  "hltb_main": "3 hrs",
+  "hltb_main_extra": "4 hrs",
+  "hltb_completionist": "35 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/107363",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-11T07:16:13.166Z"
+  "updated_at": "2026-04-25T05:41:45.275Z"
 }

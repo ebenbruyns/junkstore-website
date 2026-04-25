@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Megamedia, WizardWorks Group, Inc., SNEG, GT Interactive Software
 developer: Action Forms Ltd.
 genre: Shooter
+franchise: 
+age_rating_summary: 
 release_date: "September 30, 1997"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/64238debb69b316c57658654f4c63ffe57de04013fadf8dda76839c0e355e184.jpg?namespace=gamesdb"
@@ -56,19 +62,20 @@ hltb_url: "https://howlongtobeat.com/game/1658"
 store_url: "https://www.gog.com/en/game/chasmtherift"
 protondb_url: "https://www.protondb.com/app/2061230"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Chasm%3A_The_Rift"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/chasm-the-rift/"
 
 # Notes
 notes: 
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 
 # Meta
 database_id: "1302753134"
 is_featured: false
+owned: true
 ---
 
 Humankind, in the process of evolution, has encountered a mysterious phenomenon - the destruction of the normal flow of time. From the past to the future, time rifts are forming in Earth's atmosphere. These rifts lead to different periods of history. Through them the most aggressive creatures from the past, present, and the future, have begun to infiltrate our time. These mutants, known as Timestrikers, have begun a complete and systemic eradication of all human life. You are a specially trained commando who has been volunteered to investigate a recent attack by the Timestrikers.

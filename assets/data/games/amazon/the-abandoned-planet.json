@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Puzzle, Point-and-click",
   "description": "When a wormhole tears open in space, an astronaut is hurled down and crashes on a distant planet. But where is she? Where are all the inhabitants of the planet? And how is she going to get back home? Solve the puzzle and piece together the mystery in this 2D, pixel art, first person, point and click adventure.",
   "size": "555 MB",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/5fca3f9d170163e65c6345e71dc90d207869424e50330e5eb6dd823b30ba1428.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a81092a0ec18358faada59322d8a795e37b0ace69feabf7caa8e98399b0c897b.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/the-abandoned-planet/",
+  "hltb_id": 155911,
   "hltb_main": "4.5 hrs",
   "hltb_main_extra": "4.5 hrs",
   "hltb_completionist": "5.5 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2026-04-23T22:12:19.387Z"
+  "updated_at": "2026-04-25T00:44:45.339Z"
 }

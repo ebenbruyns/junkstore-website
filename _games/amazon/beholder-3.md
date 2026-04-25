@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Alawar Premium
 developer: Paintbucket Games
 genre: NIL, NIL
+franchise: 
+age_rating_summary: 
 release_date: "March 3, 2022"
 game_modes: ["Single-player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/48f6cdd4640f73d1a1f195e0c758f7695d1648b9a84e35c4b482515f6a5d0d24.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.8cac5ece-23c0-41c4-8045-81fa6905f9f0"
 is_featured: false
+owned: true
 ---
 
 When a high-ranking security officer saves you from prison, you end up a pawn in her schemes. Now you must eliminate anyone standing in the way of her secret plans and try to get your life back while working two jobs. No tenant, employee or superior is safe from your spying.

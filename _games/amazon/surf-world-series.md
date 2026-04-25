@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Vision Games Publishing
 developer: Climax Studios
 genre: Sport, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "August 29, 2017"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/6cd4c3188fff01db442fb624cf93825aea159047eac4137b2a068e53f82b5458.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amazon_935097f4-3cea-4e41-b22e-b20edb41e0dd"
 is_featured: false
+owned: true
 ---
 
 Grab your board and take on legendary waves in Surf World Series

@@ -14,12 +14,18 @@ date_tested: "Nov '24"
 proton_version: ""
 
 # Game Info
-publisher: Alawar Entertainment
-developer: Warm Lamp Games
-genre: Role-playing (RPG), Adventure, Strategy, Indie, Simulator
-release_date: "November 9, 2016"
+publisher: Alawar
+developer: Alawar Stargaze (Warm Lamp Games)
+genre: Narration, Strategy, Adventure
+franchise: Beholder
+age_rating_summary: ESRB Mature 17+
+release_date: "November 2, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: "https://www.igdb.com/games/24905"
+was_free_before: true
+giveaway_events: [{"start":"2024-11-21T16:00:00.000Z","end":"2024-11-28T16:00:00.000Z","type":null,"id":"5ef8a7dc06384428a3effed5cefd0ee1"}]
 
 # Images
 banner_image: "https://images.gog.com/d40b2ee525c1afb08917eda6fa38ed1815a8939c265400b875c11fe3811a6b61.jpg?namespace=gamesdb"
@@ -53,10 +59,10 @@ hltb_completionist: "21.4 hrs"
 hltb_url: "https://howlongtobeat.com/game/41878"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/beholder"
+store_url: "https://store.epicgames.com/en-US/p/beholder-8c3b4c"
 protondb_url: "https://www.protondb.com/app/475550"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beholder"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/beholder?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "6fa12837a99e4b16bc21d7719b3c401e"
 is_featured: false
+owned: true
 ---
 
-A totalitarian State controls every aspect of private and social life. Laws are oppressive. Surveillance is total. Privacy is dead. You are a State-installed manager of an apartment house. The State requires you to spy on your tenants, and report any illegal or subversive activity. However, you can also choose to keep the information to yourself, or use it to blackmail the residents, resulting in a multitude of choices and endings.
+You’re a state-installed landlord in a totalitarian country. Place listening devices, steal and sneak into your tenants’ apartments. Use what you uncovered to report anyone capable of plotting against the state. You MUST! But WILL you?

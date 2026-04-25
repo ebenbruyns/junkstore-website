@@ -14,12 +14,18 @@ date_tested: "Aug '24"
 proton_version: ""
 
 # Game Info
-publisher: Sold Out, Fireshine Games
+publisher: Fireshine Games
 developer: "Stonewheat & Sons"
-genre: Indie, Platform, Puzzle
-release_date: "August 30, 2021"
+genre: Casual, Puzzle, Indie
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "April 28, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"1203","name":"Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
+igdb_url: "https://www.igdb.com/games/117422"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1f1306c5385423af5529a4b8f99f1f85ac40979ceac128daa3f4e8c27ec0ec13.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "6.1 hrs"
+hltb_main_extra: "8.5 hrs"
+hltb_completionist: "16.9 hrs"
+hltb_url: "https://howlongtobeat.com/game/82661"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/keywe"
+store_url: "https://store.epicgames.com/en-US/p/keywe-c3a70e"
 protondb_url: "https://www.protondb.com/app/1242980"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/KeyWe"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/keywe?ftag=MCD-06-10aaa1f"
 
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "8e13887ce02a4b5eb1a0ba17aa5405f3"
 is_featured: false
+owned: true
 ---
 
-KeyWe is a cute, co-operative postal puzzler starring Jeff and Debra, two small kiwi birds working in a whimsical post office. They must jump, flap, peck and butt-slam their way across an interactive landscape of levers, bells and buttons to get those messages delivered on time!
-
-Encounter perilous postal environments and navigate seasonal hazards while waddling through the Telepost’s various mail rooms, and partner up with a pal to help these adorable kiwis complete their tasks, whatever the weather. Unlock new accessories to customise your kiwi and become the best-dressed mail bird in Bungalow Basin.
+KeyWe is a cute, co-operative postal puzzler starring Jeff and Debra, two small kiwi birds working in a whimsical post office.

@@ -39,6 +39,17 @@
   "genre": "Indie, Visual Novel",
   "description": "Leap of Faith is a Visual Novel story about bonding through friendship and romance, and the journey through life in early adulthood. It keeps a comedic tone, while still at times addressing serious issues that arise along the way.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/f3bdd0af70cec0ba354dc4bfddb3c5f3a0342378e3255ec8ce01e431c3331849.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/8e8b0940e3f24d44f005e37276e17815b670dcc20886feebda25409a55be6d50.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/5a5fe104b2f85afd504fd5c240ada06e58b326723f197e7468dcd60a86c06c74.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 99487,
   "hltb_main": "11 hrs",
   "hltb_main_extra": "16.5 hrs",
   "hltb_completionist": "22.5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2025-08-11T04:55:08.244Z"
+  "updated_at": "2026-04-25T00:51:42.041Z"
 }

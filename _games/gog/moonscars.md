@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Humble Games
 developer: Black Mermaid
 genre: "Adventure, Indie, Platform, Hack and slash/Beat 'em up"
+franchise: 
+age_rating_summary: 
 release_date: "September 27, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/657e8876fd343efa67f39264c86387f7daf51739be3fdde3e6a494b06bf898f3.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/105765"
 store_url: "https://www.gog.com/en/game/moonscars"
 protondb_url: "https://www.protondb.com/app/1374970"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Moonscars"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2106173825"
 is_featured: false
+owned: true
 ---
 
 Push the limits of your combat skills, and master new abilities to progress through an unforgiving nonlinear 2D world. Face off against the relentless darkness that seeks to destroy you. In Moonscars, every death is a lesson learnt—and as you overcome each challenge, new truths will be revealed.

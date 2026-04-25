@@ -33,12 +33,104 @@
   "cant_test_linux": false,
   "databaseId": "39700e23ec114d7581aedea23779ce2d",
   "shortname": "39700e23ec114d7581aedea23779ce2d",
-  "publisher": "Joey Drew Studios",
-  "developer": "Joey Drew Studios",
-  "releasedate": "27 Apr, 2017",
-  "genre": "Action, Adventure, Indie, Strategy",
+  "publisher": "Joey Drew Studio",
+  "developer": "Joey Drew Studio",
+  "releasedate": "2025-09-09T17:00:00.000Z",
+  "genre": "Horror, First Person, Indie",
   "description": "Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons.",
   "size": "1.18 GB",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2025-10-30T15:00:00.000Z",
+      "end": "2025-11-06T16:00:00.000Z",
+      "type": null,
+      "id": "fb722544c8314c45bf9a42c66b2a5a73"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/622650/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/622650/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/622650/capsule_231x87.jpg",
@@ -59,6 +151,7 @@
   ],
   "metacritic_score": 71,
   "metacritic_url": "https://www.metacritic.com/game/bendy-and-the-ink-machine/",
+  "hltb_id": 45434,
   "hltb_main": "4.6 hrs",
   "hltb_main_extra": "7 hrs",
   "hltb_completionist": "11.9 hrs",
@@ -69,5 +162,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-25T04:36:14.775Z",
-  "updated_at": "2026-04-24T02:19:16.335Z"
+  "updated_at": "2026-04-25T02:15:59.055Z"
 }

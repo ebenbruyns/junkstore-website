@@ -14,12 +14,18 @@ date_tested: "Nov '25"
 proton_version: ""
 
 # Game Info
-publisher: Coffee Stain Publishing
-developer: Coffee Stain North
-genre: Adventure, Casual, Simulation
-release_date: "February 15, 2024"
+publisher: Coffee Stain Publishing AB
+developer: Coffee Stain North AB
+genre: Comedy, Adventure
+franchise: Goat Simulator
+age_rating_summary: ESRB Teen
+release_date: "November 18, 2022"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21126","name":"Silly Community"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"1116","name":"Comedy"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/850190/library_hero.jpg"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "7.5 hrs"
+hltb_main_extra: "12 hrs"
+hltb_completionist: "22.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/109125"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/goat-simulator-3"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "69f916aead6e4947aa3587ea234268be"
 is_featured: false
+owned: false
 ---
 
-Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.
+Pilgor’s baaack! Gather your herd and venture forth into Goat Simulator 3; a totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage together, or compete in mini-games and then not be friends.

@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "The Walking Dead: No Man's Land - Steam Deck Compatibility"
-game_title: "The Walking Dead: No Man's Land"
+title: "The Walking Dead No Man's Land - Steam Deck Compatibility"
+game_title: "The Walking Dead No Man's Land"
 slug: "the-walking-dead-no-mans-land"
 storefront: "Epic"
 storefront_key: "epic"
@@ -14,12 +14,18 @@ date_tested: "July '24"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
-developer: Next Games
-genre: Role-playing (RPG), Strategy
-release_date: "October 1, 2015"
+publisher: Deca Live Operations GmbH
+developer: Deca Live Operations GmbH
+genre: RPG, Strategy
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "January 10, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/11670"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/178219f867fc1af18c44ef28c4eb134903a0dffc55c226822f19bc09e433edec.jpg?namespace=gamesdb"
@@ -47,13 +53,13 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
+hltb_main: "4 hrs"
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/30904"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/the-walking-dead-no-man-s-land"
+store_url: "https://store.epicgames.com/en-US/p/the-walking-dead-no-mans-land-d3b769"
 protondb_url: "https://www.protondb.com/app/2936310"
 protondb_report_url: ""
 pcgamingwiki_url: ""
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "b5271de997b44ef993d7a84196717452"
 is_featured: false
+owned: true
 ---
 
-Join Rick, Daryl, Michonne and other iconic characters from AMC's The Walking Dead in the official mobile game of the show. Do you have what it takes to stay alive?
-
-The Walking Dead: No Man's Land is a thrilling, action-packed RPG where tactical choices make the difference between life and death. Only the strongest will survive so choose your team wisely: bring Michonne and dominate in close-quarter combat or send Rick to dispatch enemies from afar. Or perhaps you'll choose to snipe from a distance with Daryl's crossbow, or mow the herd down with Abraham's assault rifle.
+The Walking Dead: No Man’s Land is a turn-based tactical RPG based on AMC’s massive hit show “The Walking Dead”. In this action-packed strategy game you attempt to survive in a post-apocalyptic world.

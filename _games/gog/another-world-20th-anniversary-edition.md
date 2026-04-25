@@ -17,9 +17,15 @@ proton_version: ""
 publisher: The Digital Lounge
 developer: Eric Chahi
 genre: Action, Adventure
+franchise: 
+age_rating_summary: 
 release_date: "April 4, 2013"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Italian","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Korean","Polish","Portuguese - Portugal"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/233550/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658845"
 is_featured: false
+owned: true
 ---
 
 Also known as Out Of This World™, Another World is a pioneer action/platformer that released across more than a dozen platforms since its debut in 1991. Along the years, Another World™ has attained cult status among critics and sophisticated gamers alike.

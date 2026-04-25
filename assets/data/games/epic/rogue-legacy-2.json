@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,95 @@
   "shortname": "bd35425c9548494082d002f36601ff45",
   "publisher": "Cellar Door Games",
   "developer": "Cellar Door Games",
-  "releasedate": "2022-04-28",
-  "genre": "Role-playing (RPG), Adventure, Indie, Platform",
-  "description": "Rogue Legacy 2 is a genealogical rogue-lite. That means it has all the trappings of a typical rogue-like (randomized runs, changing characters, and more)...",
+  "releasedate": "2020-08-18T17:00:00.000Z",
+  "genre": "Indie, Rogue-Lite",
+  "description": "Rogue Legacy 2 is an Action Platforming RPG Rogue-LITE, where every time you die, your children succeed you. Each child is unique. Your daughter might be a Colourblind Archer, and your son could be a Pacifistic Chef.",
   "size": "",
+  "franchise": "Rogue Legacy",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Rogue Legacy 2 is an Action Platforming RPG Rogue-LITE, where every time you die, your children succeed you. Each child is unique. Your daughter might be a Colourblind Archer, and your son could be a Pacifistic Chef.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/961ea1f3240d791026b5d0a851fb7efa3ddfd7ff47d3c366308d40593f3f39ee.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/468e7bc66134ea02801f45ce090439bbbb052e16d34451c1d2c65a578db56412.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/961ea1f3240d791026b5d0a851fb7efa3ddfd7ff47d3c366308d40593f3f39ee.jpg?namespace=gamesdb",
@@ -60,15 +145,16 @@
   ],
   "metacritic_score": 88,
   "metacritic_url": "https://www.metacritic.com/game/pc/rogue-legacy-2?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 80560,
+  "hltb_main": "26.2 hrs",
+  "hltb_main_extra": "46.1 hrs",
+  "hltb_completionist": "112.7 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/80560",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-03-22T00:40:59.277Z"
+  "updated_at": "2026-04-25T02:44:33.367Z"
 }

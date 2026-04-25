@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Enhance
 developer: Resonair, Monstars
-genre: Casual, Indie
-release_date: "November 10, 2020"
+genre: Puzzle
+franchise: 
+age_rating_summary: 
+release_date: "July 24, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1159","name":"Arcade"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1179","name":"VR"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/72a8338c4bd59b96b661db3a120810f87b3ccb26da05f414610db3fac750a25d.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "2.8 hrs"
+hltb_main_extra: "9.8 hrs"
+hltb_completionist: "52.2 hrs"
+hltb_url: "https://howlongtobeat.com/game/57523"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tetris-effect"
 protondb_url: "https://www.protondb.com/app/1003590"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tetris_Effect%3A_Connected"
 metacritic_score: 93
 metacritic_url: "https://www.metacritic.com/game/pc/tetris-effect-connected?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "06c89b64de954c6fbcab914f8837fd4b"
 is_featured: false
+owned: false
 ---
 
 TETRIS® EFFECT: CONNECTED adds an all-new robust multiplayer expansion to the huge variety of addictive and innovative single-player modes

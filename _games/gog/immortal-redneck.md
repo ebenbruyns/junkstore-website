@@ -17,9 +17,15 @@ proton_version: ""
 publisher: CremaGames
 developer: CremaGames
 genre: Indie, Shooter, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "April 25, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b15dbf73a2de6300ea9ab7d2796bc7d23629255a5cfbd3b2f0b1176f85fcba47.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/45547"
 store_url: "https://www.gog.com/en/game/immortal_redneck"
 protondb_url: "https://www.protondb.com/app/595140"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Immortal_Redneck"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/immortal-redneck?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2089001920"
 is_featured: false
+owned: true
 ---
 
 "Lost.

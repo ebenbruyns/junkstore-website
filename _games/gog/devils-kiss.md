@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Size Five Games
 developer: Size Five Games
 genre: Adventure, Indie, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "February 21, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8b6910d94aa5a6d4cfecbe5fb3d7501a20c53f7d6ee02acbd2fcf4dffce4ed41.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://www.gog.com/en/game/devils_kiss"
 protondb_url: "https://www.protondb.com/app/1213550"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Devil%27s_Kiss"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1807052519"
 is_featured: false
+owned: true
 ---
 
 Find out how it all started in this enticing Visual Novel prequel for "Lair of the Clockwork God". Join heroes Dan and Ben as they navigate a rough first school day stuffed with flirting, demons, a vast conspiracy and all manner of compromising personal information.

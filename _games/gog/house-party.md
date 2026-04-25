@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Eek Games
 developer: Eek Games
 genre: Role-playing (RPG), Adventure, Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "July 15, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a5d39b6683a746876ca0a6100fd0b3ce448013933dd360499d0819e14bfb385f.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/46996"
 store_url: "https://www.gog.com/en/game/house_party"
 protondb_url: "https://www.protondb.com/app/611790"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/House_Party"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2056019722"
 is_featured: false
+owned: true
 ---
 
 House Party, in its concept and sense of humor, is inspired by the adventure style games of the 80s and 90s like Leisure Suit Larry and Monkey Island, but it is rendered in a beautiful full-3D first-person context.

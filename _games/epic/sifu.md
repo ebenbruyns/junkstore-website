@@ -14,12 +14,18 @@ date_tested: "May '25"
 proton_version: ""
 
 # Game Info
-publisher: Sloclap, Kepler Interactive
+publisher: Sloclap
 developer: Sloclap
 genre: "Indie, Hack and slash/Beat 'em up, Fighting"
-release_date: "February 8, 2022"
+franchise: 
+age_rating_summary: 
+release_date: "January 1, 2099"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4a1f2e9a76ee0923999cc94849b991610fd58635e7ee6fd40ca193b335b100dc.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "7.8 hrs"
+hltb_main_extra: "14.1 hrs"
+hltb_completionist: "22.3 hrs"
+hltb_url: "https://howlongtobeat.com/game/89091"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sifu"
 protondb_url: "https://www.protondb.com/app/2138710"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sifu"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/sifu?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "d36336f190094951873ed6138ac208d8"
 is_featured: false
+owned: true
 ---
 
 A third person action game featuring intense hand-to-hand combat, it puts you in control of a young Kung-Fu student on his path of revenge throughout the city.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Phodex Games
 developer: Phodex Games
 genre: role-playing, adventure, indie
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b0e310d6d8559a64417851fc9d78023fae0cfa58fbecd68fe02ad529116dc4f4.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2061161309"
 is_featured: false
+owned: false
 ---
 
 Enough of wasting precious time by walking eternal distances and engaging in endless dialogue? Want to get to the fun part quickly?

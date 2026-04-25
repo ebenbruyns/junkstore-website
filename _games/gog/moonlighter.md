@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 11 bit studios
 developer: Digital Sun Games
 genre: "Role-playing (RPG), Adventure, Indie, Simulator, Hack and slash/Beat 'em up"
+franchise: 
+age_rating_summary: 
 release_date: "May 29, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4a9cc8c7720bda3079c303ad0da5149d862509cb9a1e0ada5ddcf9ce89e30bb9.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/56787"
 store_url: "https://www.gog.com/en/game/moonlighter"
 protondb_url: "https://www.protondb.com/app/606150"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Moonlighter"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2147483047"
 is_featured: false
+owned: true
 ---
 
 Moonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will, an adventurous shopkeeper that secretly dreams of becoming a hero.

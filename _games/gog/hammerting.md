@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Warpzone Studios
 developer: Warpzone Studios
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "November 16, 2021"
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/214c5db887d358e4d2ce3fff0dd50c0272fe0fdac3303ae5a1c181ab4956006f.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/71496"
 store_url: "https://www.gog.com/en/game/hammerting"
 protondb_url: "https://www.protondb.com/app/760650"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hammerting"
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/pc/hammerting?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1444308510"
 is_featured: false
+owned: true
 ---
 
 Hammerting is a vertical dwarven mining colony sim with RPG elements.

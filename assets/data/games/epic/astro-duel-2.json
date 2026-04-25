@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/655350",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/astro-duel-2-e1261d",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Astro_Duel_II",
   "notes": "Works out of the box!",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -35,10 +35,102 @@
   "shortname": "e3c0d11648554383b33da58d075fd101",
   "publisher": "Wild Rooster",
   "developer": "Wild Rooster",
-  "releasedate": "2024-03-07T00:00:00+0000",
-  "genre": "Indie, Platform, Shooter, Arcade, Fighting",
+  "releasedate": "2024-03-07T16:00:00.000Z",
+  "genre": "Action, Party, Platformer",
   "description": "Astro Duel 2 is a sci-fi combat game combining top-down space dog fights with up-close platforming action. Whether versus or co-op, battle through space and on foot at the same time! Strike within the fully-destructible arenas or just nuke ‘em from orbit.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "1110",
+      "name": "Party"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1110",
+      "name": "Party"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 217131,
+  "igdb_url": "https://www.igdb.com/games/217131",
+  "giveaway_events": [
+    {
+      "start": "2024-03-06T15:00:00.000Z",
+      "end": "2024-03-13T15:00:00.000Z",
+      "type": null,
+      "id": "bc38eac0277d41ec955690e25779cb53"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Astro Duel 2 is a sci-fi combat game combining top-down space dog fights with up-close platforming action. Whether versus or co-op, battle through space and on foot at the same time! Strike within the fully-destructible arenas or just nuke ‘em from orbit.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/d7f198d3447104ad3b8e86b94805180b7dc6a13445e83c5d993fb96a156e3723.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/af92eed71736be35f5d7d9b20b1bf57bd55635297321e9f36aad4452a6ae2e0d.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/4e395a1a8742b226f39ad584eec9053be160c637f196670805e2a25a07805484.jpg?namespace=gamesdb",
@@ -53,14 +145,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 146740,
   "hltb_main": "1.4 hrs",
   "hltb_main_extra": "2.3 hrs",
   "hltb_completionist": "3 hrs",
   "hltb_url": "https://howlongtobeat.com/game/146740",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-01T04:08:36.964Z"
+  "updated_at": "2026-04-25T02:42:01.408Z"
 }

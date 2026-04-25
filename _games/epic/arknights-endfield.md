@@ -14,12 +14,18 @@ date_tested: "Jan '26"
 proton_version: ""
 
 # Game Info
-publisher: Hypergryph
-developer: Gryphline
-genre: RPG, Action, Adventure, Open world
+publisher: GRYPHLINE
+developer: Hypergryph
+genre: Exploration, RPG, Action-Adventure
+franchise: 
+age_rating_summary: ESRB Teen
 release_date: "January 22, 2026"
 game_modes: ["Singleplayer","Multiplayer"]
 languages: ["Chinese (Simplified)","Chinese (Traditional)","English","Japanese","Korean","French","German","Indonesian","Italian","Portuguese (Brazil)","Russian","Spanish (Latin America)","Thai","Vietnamese"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"31313","name":"First Run"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/194558"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: ""
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "bcd55b0d87c245dd867f5b1bd496f1df"
 is_featured: false
+owned: true
 ---
 
 Arknights: Endfield is a 3D real-time strategy RPG developed by HYPERGRYPH. You will take on the role of the Endministrator of Endfield Industries, set out across Talos-II to uncover its secrets, and defend and expand the frontiers of human civilization.

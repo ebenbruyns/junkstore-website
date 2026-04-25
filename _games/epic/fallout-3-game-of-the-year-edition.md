@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Bethesda Softworks
 developer: Bethesda Game Studios
-genre: Role-playing (RPG), Adventure, Shooter
-release_date: "October 13, 2009"
-game_modes: ["Single player"]
+genre: RPG, Open World, Adventure
+franchise: Fallout
+age_rating_summary: ESRB Mature 17+
+release_date: "October 21, 2022"
+game_modes: ["Single Player"]
 languages: ["English"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/15"
+was_free_before: true
+giveaway_events: [{"start":"2023-12-22T15:00:00.000Z","end":"2023-12-23T15:00:00.000Z","type":null,"id":"d6f01b1827c64ed388191ae507fe7c1b"},{"start":"2022-10-19T15:00:00.000Z","end":"2022-10-26T15:00:00.000Z","type":null,"id":"d6f01b1827c64ed388191ae507fe7c1b"}]
 
 # Images
 banner_image: "https://images.gog.com/11b5d020144f3ef465bc36c4d375e579fa65e2858b4f58cdd5540a049b9a6982.jpg?namespace=gamesdb"
@@ -69,6 +75,8 @@ known_issues:
 # Meta
 database_id: "adeae8bbfc94427db57c7dfecce3f1d4"
 is_featured: false
+owned: true
 ---
 
-Prepare for the Future with Fallout 3: Game of the Year Edition, experience the most acclaimed game of 2008 like never before. Create a character of your choosing and descend into an awe-inspiring, post-apocalyptic world where every minute is a fight for survival.
+Prepare for the Future™
+Experience the most acclaimed game of 2008 like never before with Fallout 3: Game of the Year Edition. Create a character of your choosing and descend into a post-apocalyptic world where every minute is a fight for survival

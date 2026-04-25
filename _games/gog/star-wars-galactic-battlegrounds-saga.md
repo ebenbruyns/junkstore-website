@@ -17,9 +17,15 @@ proton_version: ""
 publisher: LucasArts
 developer: LucasArts
 genre: Strategy
+franchise: 
+age_rating_summary: 
 release_date: "November 9, 2001"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English*","French*","German*","Spanish - Spain**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c5c93eba44b9e5ed56104d1944df5aedfdd2dfc476e50c4fa55db2b98c65bb84.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1421404646"
 is_featured: false
+owned: true
 ---
 
 Lead the great armies of the Star Wars Episode II: Attack of the Clones saga in intense real-time strategy clashes. Enter the fray as the Galactic Empire, Rebel Alliance, Wookies, Trade Federation, Gungans or Royal Naboo to determine the course of the Galactic Civil War.

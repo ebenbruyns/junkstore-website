@@ -39,6 +39,17 @@
   "genre": "Action",
   "description": "Sine Mora EX is a side-scrolling shoot'em up that provides a unique challenge, where time is the ultimate factor. Mixing classic shooter sensibilities with contemporary presentation, Sine Mora is a gorgeous shoot'em up offering both a Story Mode that weaves an over-the-top tale and an Arcade Mode that provides deep, satisfying gameplay to challenge fans of the genre. The story mode can be also played in local co-op mode.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/3acc616c613ae9c6c2484e824c92792daf5db61047967685148a02cee6c5fb91.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/42800e8d721ae658713d496bca6af849c770a30f832a0d6d7f7bb50a4fc23107.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/606730/capsule_231x87.jpg",
@@ -61,6 +72,7 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/sine-mora-ex/",
+  "hltb_id": 48048,
   "hltb_main": "2.5 hrs",
   "hltb_main_extra": "5 hrs",
   "hltb_completionist": "15.5 hrs",
@@ -70,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-23T22:03:41.482Z"
+  "updated_at": "2026-04-25T00:54:01.986Z"
 }

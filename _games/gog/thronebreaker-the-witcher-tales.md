@@ -17,9 +17,15 @@ proton_version: ""
 publisher: CD Projekt RED
 developer: CD Projekt RED
 genre: Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "October 23, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/16843844477c8ea9959094f012dd7fd9c4610735debe447b840a094812223d82.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/61381"
 store_url: "https://www.gog.com/en/game/thronebreaker_the_witcher_tales"
 protondb_url: "https://www.protondb.com/app/973760"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thronebreaker%3A_The_Witcher_Tales"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/thronebreaker-the-witcher-tales?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1297352383"
 is_featured: false
+owned: true
 ---
 
 Thronebreaker is a single player role-playing game set in the world of The Witcher that combines narrative-driven exploration with unique puzzles and card battle mechanics.

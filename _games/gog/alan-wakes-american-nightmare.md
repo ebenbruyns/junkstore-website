@@ -17,9 +17,15 @@ proton_version: "Proton 7.0-6"
 publisher: Remedy Entertainment
 developer: Remedy Entertainment
 genre: Action, Adventure
+franchise: 
+age_rating_summary: 
 release_date: "May 22, 2012"
 game_modes: ["Single-player"]
 languages: ["English*","German","French","Italian","Spanish - Spain","Japanese","Czech","Hungarian","Polish","Russian*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/202750/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659038"
 is_featured: false
+owned: true
 ---
 
 A thrilling new storyline, hordes of creepy enemies, serious firepower and beautiful Arizona locations, combined with a fun and challenging new game mode!

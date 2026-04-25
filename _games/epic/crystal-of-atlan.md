@@ -14,12 +14,18 @@ date_tested: "July '25"
 proton_version: ""
 
 # Game Info
-publisher: Skystone Games, Nuverse Games
-developer: Nuverse Games
-genre: "Role-playing (RPG), Adventure, Hack and slash/Beat 'em up"
-release_date: "July 14, 2023"
+publisher: Skystone Games
+developer: Nuverse Pte.Ltd.
+genre: Action, RPG, Adventure
+franchise: Crystal of Atlan
+age_rating_summary: ESRB Teen
+release_date: "May 27, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/174674"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/9237b6da59b85253592f2475683766baa7ff7de3b93180116adf9226936c89f8.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "ab339d07d8c44305ad346f23b1af93e0"
 is_featured: false
+owned: true
 ---
 
-Crystal of Atlan is a Magipunk MMO Action RPG! As a member of the Adventurer's Guild, you'll be missioned to explore the world of Atlan and gradually unveil the mysteries around the Crystals of Atlan, the source of all energy in the world!
+Crystal of Atlan is a Magicpunk MMO Action RPG where you can immerse yourself in a Magicpunk world. Build your skills, fight and uncover the secrets of this world with your allies! Time to embark on a wondrous journey of Magic and Machinery!

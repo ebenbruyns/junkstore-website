@@ -33,12 +33,116 @@
   "cant_test_linux": false,
   "databaseId": "9b1148db19dc457aa1adf9f21ac6f0ff",
   "shortname": "9b1148db19dc457aa1adf9f21ac6f0ff",
-  "publisher": "Playdigious, LTGames Global",
+  "publisher": "Gamious",
   "developer": "Gamious",
-  "releasedate": "2016-06-02T00:00:00+0000",
-  "genre": "Strategy, Indie, Simulator",
-  "description": "Turmoil is a simulation game set during the 19th century oil rush in North America. Get a taste of the rush and rivalry of the time as you earn your way to become a successful oil entrepreneur. As you make money digging up and selling oil, the town will grow along with you. Acquire more town shares than your competitors in a bid to become the new mayor.",
+  "releasedate": "2025-01-09T16:00:00.000Z",
+  "genre": "Turn-Based, Simulation, Strategy",
+  "description": "Drill for oil like it's 1899! Turmoil offers players a visually charming, tongue-in-cheek take on the simulation genre inspired by the 19th century oil rush in North America.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1386",
+      "name": "Turn-Based"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1386",
+      "name": "Turn-Based"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 19438,
+  "igdb_url": "https://www.igdb.com/games/19438",
+  "giveaway_events": [
+    {
+      "start": "2025-01-09T16:00:00.000Z",
+      "end": "2025-01-16T16:00:00.000Z",
+      "type": null,
+      "id": "92acefe8e4e845169ea160bb92e3e4e0"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Drill for oil like it's 1899! Turmoil offers players a visually charming, tongue-in-cheek take on the simulation genre inspired by the 19th century oil rush in North America.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/361280/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/361280/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/361280/capsule_231x87.jpg",
@@ -60,15 +164,16 @@
   ],
   "metacritic_score": 73,
   "metacritic_url": "https://www.metacritic.com/game/pc/turmoil?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 10700,
+  "hltb_main": "7.8 hrs",
+  "hltb_main_extra": "10.8 hrs",
+  "hltb_completionist": "26 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/10700",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-03-17T23:24:48.141Z"
+  "updated_at": "2026-04-25T01:16:56.303Z"
 }

@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,64 @@
   "shortname": "Curry",
   "publisher": "505 Games",
   "developer": "Giant Squid",
-  "releasedate": "08-2016",
-  "genre": "Adventure, Indie, Puzzle",
-  "description": "Abzu is an exploration game where you are a lone diver in a lush ocean world. The diver descends deeper and deeper into the depths...",
+  "releasedate": "2016-08-02T15:00:00.000Z",
+  "genre": "Exploration, Adventure",
+  "description": "From the art director of Journey® and Flower®, ABZÛ is a beautiful underwater adventure that evokes the dream of diving.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2020-10-07T15:00:00.000Z",
+      "end": "2020-10-14T15:00:00.000Z",
+      "type": null,
+      "id": "dedd448c38d947ab90291540f183378b"
+    },
+    {
+      "start": "2019-09-04T15:00:00.000Z",
+      "end": "2019-09-11T15:00:00.000Z",
+      "type": null,
+      "id": "dedd448c38d947ab90291540f183378b"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "From the art director of Journey® and Flower®, ABZÛ is a beautiful underwater adventure that evokes the dream of diving.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/f84c80d3b1956dc40fe2398a86e8b901d4a1e4e2821e3c8efceba674eb7c8857.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/5472edaf333ac08030cc159aee1a9e3f81074890913bf7204fa45b2d7752a3a4.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b5357de8bd82c95db4da2d6058ae13ea7332edc4bdeac04f2b78dc61af1a2483.jpg?namespace=gamesdb",
@@ -58,6 +112,7 @@
   ],
   "metacritic_score": 83,
   "metacritic_url": "https://www.metacritic.com/game/pc/abzu?ftag=MCD-06-10aaa1f",
+  "hltb_id": 20076,
   "hltb_main": "1.9 hrs",
   "hltb_main_extra": "2.5 hrs",
   "hltb_completionist": "4 hrs",
@@ -68,5 +123,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-11-25T23:40:51.905Z"
+  "updated_at": "2026-04-25T02:44:22.362Z"
 }

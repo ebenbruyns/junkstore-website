@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "SKALD: Against the Black Priory - Steam Deck Compatibility"
-game_title: "SKALD: Against the Black Priory"
+title: "SKALD Against the Black Priory - Steam Deck Compatibility"
+game_title: "SKALD Against the Black Priory"
 slug: "skald-against-the-black-priory"
 storefront: "Epic"
 storefront_key: "epic"
@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Raw Fury
 developer: High North Studios AS
 genre: Indie, RPG
-release_date: "May 30, 2024"
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "November 5, 2025"
 game_modes: ["Single-player"]
 languages: ["English"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/125250"
+was_free_before: true
+giveaway_events: [{"start":"2025-12-28T16:00:00.000Z","end":"2025-12-29T16:00:00.000Z","type":null,"id":"ad8e81ea170542c5a802c2337878712d"}]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1069160/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1cac0c3169fa4c018f98e517cd0717bb"
 is_featured: false
+owned: true
 ---
 
-SKALD:Against the Black Priory is a retro-style party-based RPG set in a grim-dark fantasy world of tragic heroes, violent deaths and Lovecraftian horror. Take a chance and roll the dice as you embark on a compelling story filled with deadly creatures, branching story and tactical, turn-based combat
+SKALD is a retro-style party-based RPG set in a grim-dark fantasy world of tragic heroes, violent deaths and Lovecraftian horror. Take a chance and roll the dice as you embark on a compelling story filled with deadly creatures, branching story and tactical, turn-based combat

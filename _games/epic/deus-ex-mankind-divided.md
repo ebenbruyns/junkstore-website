@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Deus Ex: Mankind Divided - Steam Deck Compatibility"
-game_title: "Deus Ex: Mankind Divided"
+title: "Deus Ex - Mankind Divided - Steam Deck Compatibility"
+game_title: "Deus Ex - Mankind Divided"
 slug: "deus-ex-mankind-divided"
 storefront: "Epic"
 storefront_key: "epic"
@@ -14,12 +14,18 @@ date_tested: "Jan '26"
 proton_version: ""
 
 # Game Info
-publisher: Square Enix, Feral Interactive, Eidos Montréal
-developer: Eidos Montréal
-genre: Role-playing (RPG), Adventure, Puzzle, Shooter
-release_date: "August 23, 2016"
+publisher: Eidos Interactive Corporation
+developer: Eidos-Montréal
+genre: Action-Adventure, Stealth
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "December 14, 2023"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Polish","Portuguese - Brazil*","Russian**languages with full audio support"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/9498"
+was_free_before: true
+giveaway_events: [{"start":"2024-03-13T15:00:00.000Z","end":"2024-03-20T15:00:00.000Z","type":null,"id":"6e41bd515f5e4c93bc7888b582e88865"}]
 
 # Images
 banner_image: "https://images.gog.com/21ec85441cb163bf77f5b5934854b35d50df833d6233a702f3b5d995f4bd65fd.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2eaba703e63e4ed8bd2919ed552021d6"
 is_featured: false
+owned: true
 ---
 
-Deus Ex: Mankind Divided directly follows the aftermath of the Aug Incident, a day when mechanically augmented citizens all over the world were stripped of control over their minds and bodies, resulting in the deaths of millions of innocents. The year is now 2029, and the golden era of augmentations is over. Mechanically augmented humans have been deemed outcasts and segregated from the rest of society. Crime and acts of terror serve as a thin veil to cover up an overarching conspiracy aimed at controlling the future of mankind…
+Now an experienced covert operative, Adam Jensen is forced to operate in a world that has grown to despise his kind. Armed with new state-of-the-art weapons and augmentations, he must choose the right approach, along with who to trust, to unravel a vast worldwide conspiracy.

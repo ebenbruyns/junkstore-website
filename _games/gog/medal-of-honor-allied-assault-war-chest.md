@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Electronic Arts, Inc.
 developer: 
 genre: Shooter
+franchise: 
+age_rating_summary: 
 release_date: "March 2, 2004"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3fdb818845e1c0cda67284f8d82c78bd24c8c559b03f0c3a2e9c8e94c9cd6bbf.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/25775"
 store_url: "https://www.gog.com/en/game/medal_of_honor_allied_assault_war_chest"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Medal_of_Honor%3A_Allied_Assault"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/medal-of-honor-allied-assault-war-chest/"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659126"
 is_featured: false
+owned: true
 ---
 
 Compilation pack including the Medal of Honor: Allied Assault main game and the Medal of Honor: Allied Assault Spearhead and Medal of Honor: Allied Assault Breakthrough expansion packs.

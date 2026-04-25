@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Deep Silver
 developer: Deep Silver Dambuster Studios
-genre: "Role-playing (RPG), Adventure, Shooter, Hack and slash/Beat 'em up"
-release_date: "April 21, 2023"
+genre: Action, Horror
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "April 22, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/7329"
+was_free_before: true
+giveaway_events: [{"start":"2025-05-15T15:00:00.000Z","end":"2025-05-22T15:00:00.000Z","type":null,"id":"29cfc63ad4074333bc6e3f7efb6fab3a"}]
 
 # Images
 banner_image: "https://images.gog.com/7d985a4d912572bc5daa8401a84a87207eb4b2814af951b2c53427219479da60.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: true
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "Crow"
 is_featured: false
+owned: true
 ---
 
 The much-loved zombie saga is back with a unique formula of horror, dark humor and over the top zombie-slaying, spanning an epic pulp adventure.

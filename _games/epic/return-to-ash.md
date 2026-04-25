@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Serenity Forge
 developer: Serenity Forge
 genre: Adventure
-release_date: "July 10, 2025"
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "February 20, 2026"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese"]
+tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: "https://www.igdb.com/games/347245"
+was_free_before: true
+giveaway_events: [{"start":"2026-02-19T16:00:00.000Z","end":"2026-02-26T16:00:00.000Z","type":null,"id":"06cd7ef2079646dcb6c5b04e04e1d676"}]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/3445830/library_hero.jpg"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://store.epicgames.com/en-US/p/return-to-ash-dee3ff"
 protondb_url: "https://www.protondb.com/app/3445830"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Return_to_Ash"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "e7d7c393d6f7499596e7d268a58b1970"
 is_featured: false
+owned: true
 ---
 
 “The hospital was empty. Quiet, and brighter than usual... like waking up on a snow day. But I didn't feel cold. I didn't feel much of anything.”

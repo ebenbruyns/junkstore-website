@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Bethesda Softworks
 developer: Tango Gameworks
-genre: Role-playing (RPG), Adventure, Shooter
-release_date: "October 12, 2017"
+genre: Horror, Survival, Shooter
+franchise: The Evil Within
+age_rating_summary: ESRB Mature 17+
+release_date: "August 3, 2023"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Russian*","Korean","Polish","Portuguese - Brazil*"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/36813"
+was_free_before: true
+giveaway_events: [{"start":"2023-10-25T15:00:00.000Z","end":"2023-11-01T15:00:00.000Z","type":null,"id":"77693e5298d94911a0edd2492203d9ea"}]
 
 # Images
 banner_image: "https://images.gog.com/2a9ca6560a433d3c0afcb102deb94f444dc74b429151ac2d13f0922a53e8f622.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: true
 epic_achievements: true
 epic_offline_mode: true
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "13.4 hrs"
+hltb_main_extra: "18.5 hrs"
+hltb_completionist: "28.4 hrs"
+hltb_url: "https://howlongtobeat.com/game/46568"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-evil-within-2"
@@ -69,8 +75,9 @@ known_issues:
 # Meta
 database_id: "74977fee80de4e5e9f663e62560a0f2f"
 is_featured: false
+owned: true
 ---
 
-The Evil Within 2 is the latest evolution of survival horror. Detective Sebastian Castellanos has lost it all. But when given a chance to save his daughter, he must descend once more into the nightmarish world of STEM.
-
-Horrifying threats emerge from every corner as the world twists and warps around him. Will Sebastian face adversity head on with weapons and traps, or sneak through the shadows to survive.
+To save his daughter, Detective Sebastian Castellanos returns to a world of nightmares in The Evil Within 2. 
+ 
+Fight for your life inside a terrifying reality using weapons, traps and stealth in this survival horror follow-up from Tango Gameworks.

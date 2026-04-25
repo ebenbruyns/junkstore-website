@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Epopeia Games, HAMMER95
 developer: HAMMER95
 genre: Indie, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/5b5466310e3f3ac16a6e22b54f48787accf7d550985128d589cfd886d4aaedce.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/149747"
 store_url: "https://www.gog.com/en/game/mullet_madjack"
 protondb_url: "https://www.protondb.com/app/2111190"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mullet_MadJack"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/mullet-madjack?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1699513994"
 is_featured: false
+owned: false
 ---
 
 Mullet Madjack is a single-player fast-paced FPS that brings you directly inside a classic anime.

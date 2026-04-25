@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Atari, Inc., E-Frontier, Nobilis, Focus Multimedia
 developer: Katauri Interactive
 genre: Role-playing (RPG), Strategy, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "September 23, 2008"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/964e2d93d0afbf2e4c4687b11a0c1bc7d8f3210a3ff1b8b2a70fc8a1b84baf0c.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/5020"
 store_url: "https://www.gog.com/en/game/kings_bounty_the_legend"
 protondb_url: "https://www.protondb.com/app/25900"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/King%27s_Bounty%3A_The_Legend"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/kings-bounty-the-legend?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658867"
 is_featured: false
+owned: true
 ---
 
 King's Bounty: The Legend is a Real-time / Turn-based Strategy with RPG elements. In a fairy tale fantasy world of fearless knights, evil mages, wise kings and beautiful princesses the player controls a hero. Leading their character through the game world, exploring it, commanding armies in battle and accomplishing various quests can mean great reward or huge defeats.

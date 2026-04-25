@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Digital Bandidos
 developer: BlankMediaGames
-genre: Role-playing (RPG), Strategy, Indie
-release_date: "August 25, 2023"
+genre: Casual, Party, Strategy
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "April 19, 2024"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Portuguese - Portugal"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/247531"
+was_free_before: true
+giveaway_events: [{"start":"2024-04-17T15:00:00.000Z","end":"2024-04-24T15:00:00.000Z","type":null,"id":"f4c04d050f8c459ab1261ecbeeb5720a"}]
 
 # Images
 banner_image: "https://images.gog.com/ed86f4499544d91fc140024019d4d9a3695959fdddd5986ce15b2d19289db51d.jpg?namespace=gamesdb"
@@ -50,7 +56,7 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/130128"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/town-of-salem-2-ab6497"
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "fec1a1199e624a79b6293cef4e1d3505"
 is_featured: false
+owned: true
 ---
 
-Town of Salem 2 is the sequel to BlankMediaGames' hit Murder Mystery game, Town of Salem. With a revitalized 3d world, new and reworked roles, improved chat features and much more you can't help but join the Witch Hunt!
-
-Town of Salem 2 pits the Town vs the Coven, Serial Killers, Arsonist, Werewolves, and even the Horsemen of the Apocalypse themselves. Can you survive the Town of Salem again? Use your wits, abilities of deduction, and your role's special abilities to help, or hurt, the Town and lead your side to victory!
+Step into the Town of Salem, a realm of Mystery and Deceit awaits! Join us in this thrilling online strategy game. Experience paranoia, taste triumph, and confront Murder in every move!

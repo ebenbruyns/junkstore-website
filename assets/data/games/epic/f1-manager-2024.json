@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/2591280",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/f1-manager-2024-fe51bd",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/F1_Manager_2024",
   "notes": "Requires EOS Overlay to be enabled. Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. Need to install C++ Runtime (can be done from Run exe menu)",
   "date_tested": "March '25",
   "decky_rating": "yellow",
@@ -33,12 +33,112 @@
   "cant_test_linux": false,
   "databaseId": "03c9fe3b2869452ba8433ee7708a3e93",
   "shortname": "03c9fe3b2869452ba8433ee7708a3e93",
-  "publisher": "Frontier Developments",
-  "developer": "Frontier Developments",
-  "releasedate": "2024-07-23T00:00:00+0000",
-  "genre": "Strategy, Sport, Simulator, Racing",
-  "description": "Lead your team to glory in F1 Manager 2024. A new Formula 1 season has arrived, packed with 24 races, new cars, new Team Principals and an updated F1 Sprint race format. Start your career at one of 10 official F1 teams or create your own for the very first time.",
+  "publisher": "FrontierDevelopments",
+  "developer": "FrontierDevelopments",
+  "releasedate": "2024-07-23T14:00:00.000Z",
+  "genre": "Simulation, Strategy",
+  "description": "Lead your team to glory in F1® Manager 2024. A new Formula 1® season has arrived, and with it, the most comprehensive F1® management experience to date. Build a legacy with one of 10 official F1® constructors or create your own team for the very first time.",
   "size": "",
+  "franchise": "F1® Manager",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "33639",
+      "name": "Promotional Content"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21135",
+      "name": "Realistic Visuals"
+    },
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21146",
+      "name": "Educational"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1393",
+      "name": "Simulation"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 290808,
+  "igdb_url": "https://www.igdb.com/games/290808",
+  "giveaway_events": [
+    {
+      "start": "2025-02-13T16:00:00.000Z",
+      "end": "2025-02-20T16:00:00.000Z",
+      "type": null,
+      "id": "80480c4dce974e03a009beeffc625b21"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Lead your team to glory in F1® Manager 2024. A new Formula 1® season has arrived, and with it, the most comprehensive F1® management experience to date. Build a legacy with one of 10 official F1® constructors or create your own team for the very first time.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/2dacfe82f029a709027f3e77b026aed5051a16d8abe2c22b2066ca5a4b2cbf02.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/0afeb69bf98580cf5935225fb4d1ba18367417e91d5b8c20f89ebe40395ce271.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9e1dcac5fb9134ab022538999940ddf703333e85b10697ef592cb1623db23fea.jpg?namespace=gamesdb",
@@ -51,15 +151,16 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/pc/f1-manager-2024?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 146988,
+  "hltb_main": "21.1 hrs",
+  "hltb_main_extra": "56.5 hrs",
+  "hltb_completionist": "92.4 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/146988",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-11T07:25:26.615Z"
+  "updated_at": "2026-04-25T02:42:39.996Z"
 }

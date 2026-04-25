@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Wired Productions
 developer: Tomas Sala
-genre: Role-playing (RPG), Adventure, Indie, Shooter, Simulator
-release_date: "November 10, 2020"
+genre: Action, Open World, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "August 6, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c5dba929c2c1d4e9cafb1e8aa999c6b1243a4b3118142d92f4dc7f76cb952e16.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "32dbb6444ce14e9198129b746c0d056f"
 is_featured: false
+owned: true
 ---
 
-The Falconeer is an open-world air combat game, featuring frenetic aerial dogfights and deep exploration of the mysterious open-world of The Great Ursee. Generations of poisonous decisions and treason swirl in the deep, as factions clash in a fight to preserve the past or flee its terrible consequences.
+Take to the skies aboard a feathered serpent and unleash fiery vengeance from above with The Hunter content pack. Includes a new ‘Mongres Hunter’ player Class.

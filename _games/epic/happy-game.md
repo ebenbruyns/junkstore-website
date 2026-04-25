@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Amanita Design
 developer: Amanita Design
-genre: Adventure, Indie, Puzzle, Point-and-click
-release_date: "October 28, 2021"
+genre: Horror, Puzzle, Adventure
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "May 7, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
+igdb_url: "https://www.igdb.com/games/141681"
+was_free_before: true
+giveaway_events: [{"start":"2025-05-15T15:00:00.000Z","end":"2025-05-22T15:00:00.000Z","type":null,"id":"431ef6a0c3fd4aaab390ceb2f1904bc3"}]
 
 # Images
 banner_image: "https://images.gog.com/afeb721e4b3d56411915cd9f31ddf28c1b458123e1d01d1798b87e9b01038dcf.jpg?namespace=gamesdb"
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "2.1 hrs"
+hltb_main_extra: "2.2 hrs"
+hltb_completionist: "2.4 hrs"
+hltb_url: "https://howlongtobeat.com/game/88814"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/happy-game-35a105"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "ad57f5278b2f4a3b94b18d450f7736ae"
 is_featured: false
+owned: true
 ---
 
 A little boy falls asleep to a horrible nightmare. Can you make him happy again?

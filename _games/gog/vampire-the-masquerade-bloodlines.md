@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Activision, Electronic Arts
 developer: Troika Games
 genre: role-playing
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/eb098ba22805bd2f557d219cb2ec8e95615dfec5f28d4c311fc56dabfae080d4.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/10890"
 store_url: "https://www.gog.com/en/game/vampire_the_masquerade_bloodlines"
 protondb_url: "https://www.protondb.com/app/2600"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire%3A_The_Masquerade_-_Bloodlines"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/vampire-the-masquerade---bloodlines?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659240"
 is_featured: false
+owned: false
 ---
 
 A first- and third-person Western RPG based on the Vampire: The Masquerade tabletop RPG with a heavy emphasis on character building and role-playing

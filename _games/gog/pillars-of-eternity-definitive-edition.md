@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Paradox Interactive
 developer: 
 genre: role-playing-rpg, adventure, strategy, indie
+franchise: 
+age_rating_summary: 
 release_date: "November 15, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/804d24c4e365fbb9c4f1ee7d1f87ba70d356b462c0665ad01a1bf4d49258a8a9.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://www.gog.com/en/game/pillars_of_eternity_definitive_edition"
 protondb_url: "https://www.protondb.com/app/291650"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Pillars_of_Eternity"
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/pc/pillars-of-eternity?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1344895033"
 is_featured: false
+owned: false
 ---
 
 Experience the game that revitalized the classic RPG genre in a complete and definitive package that includes every expansion, bonus, and update, presenting Pillars of Eternity at its best.

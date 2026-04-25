@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Activision, LucasArts, Aspyr Media
 developer: Obsidian Entertainment
 genre: role-playing-rpg, adventure, strategy
+franchise: 
+age_rating_summary: 
 release_date: "December 6, 2004"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b72dfc5471dd7c8a1205f887498f20b658dbd0f4197589f36352dfab0cb7b612.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1421404581"
 is_featured: false
+owned: false
 ---
 
 Star Wars Knights of the Old Republic II: The Sith Lords is a sequel to the blockbuster RPG Star Wars Knights of the Old Republic. Players continue to enjoy the title's emotionally compelling and story-driven theme...

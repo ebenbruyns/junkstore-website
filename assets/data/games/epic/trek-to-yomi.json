@@ -5,13 +5,13 @@
   "protondb": "https://www.protondb.com/app/1370050",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/trek-to-yomi-70d134",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Trek_to_Yomi",
   "notes": "<strong>Works out of the box</strong> — no extra setup needed. Tested with GE-Proton 9.2. Text is a little hard to read.",
   "date_tested": "Aug '24",
-  "decky_rating": "Perfect",
-  "standalone_rating": "Perfect",
+  "decky_rating": "green",
+  "standalone_rating": "green",
   "proton_version": "GE-Proton 9.2",
   "dependencies": "",
   "controller_config": "Native Steam Deck Controls",
@@ -34,11 +34,64 @@
   "databaseId": "4dfe86c3ca4541edb53d47f6e2e47d30",
   "shortname": "4dfe86c3ca4541edb53d47f6e2e47d30",
   "publisher": "Devolver Digital",
-  "developer": "Leonard Menchiari",
-  "releasedate": "2022-05-05T00:00:00+0000",
-  "genre": "Adventure, Indie, Hack and slash/Beat 'em up",
+  "developer": "Leonard Menchiari, Flying Wild Hog",
+  "releasedate": "2022-05-05T15:00:00.000Z",
+  "genre": "Action, Action-Adventure, Adventure",
   "description": "As a vow to his dying Master, the young swordsman Hiroki is sworn to protect his town and the people he loves against all threats. Faced with tragedy and bound to duty, the lone samurai must voyage beyond life and death to confront himself and decide his path forward.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 152203,
+  "igdb_url": "https://www.igdb.com/games/152203",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "As a vow to his dying Master, the young swordsman Hiroki is sworn to protect his town and the people he loves against all threats. Faced with tragedy and bound to duty, the lone samurai must voyage beyond life and death to confront himself and decide his path forward.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/f42ebb72d23df7cc0b48ef59f8e1400b4788bf64ac89750dd70f5702e319da26.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/0880fdf579863e831cfbb2a240bf3ce0b5ffeeeb3ec853a67d17bfaf3a80c033.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/169e498499665dd40496ed5fbdad06f2b50052eeab4ee1e9277aa1b0ba4d7697.jpg?namespace=gamesdb",
@@ -51,14 +104,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 93913,
+  "hltb_main": "5 hrs",
+  "hltb_main_extra": "6 hrs",
+  "hltb_completionist": "12.5 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/93913",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T07:48:54.986Z"
+  "updated_at": "2026-04-25T05:45:45.343Z"
 }

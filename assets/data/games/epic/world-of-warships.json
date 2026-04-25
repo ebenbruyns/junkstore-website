@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": true,
   "epic_achievements": true,
@@ -33,12 +33,109 @@
   "cant_test_linux": false,
   "databaseId": "a79746038c6948558274065d24f3faa3",
   "shortname": "a79746038c6948558274065d24f3faa3",
-  "publisher": "Wargaming.net",
-  "developer": "Wargaming.net",
-  "releasedate": "2015-09-17T00:00:00+0000",
-  "genre": "Shooter, Simulator, Real Time Strategy (RTS), Tactical",
-  "description": "World of Warships is a free to play online naval combat game by Wargaming.net. Players compete in a variety of historic warships from numerous national origins. Take control of Destroyers, Cruisers, Battleships, Submarines and Aircraft Carriers in competitive game modes, or cooperatively sail into historic operations.",
+  "publisher": "Wargaming",
+  "developer": "Wargaming",
+  "releasedate": "2021-03-18T13:00:00.000Z",
+  "genre": "Action, Turn-Based Strategy, Shooter",
+  "description": "Experience epic, free-to-play naval combat when you helm one of over 350 historic vessels in the exciting balance of strategy and real-time combat that World of Warships offers.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1088",
+      "name": "Turn-Based Strategy"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21135",
+      "name": "Realistic Visuals"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1088",
+      "name": "Turn-Based Strategy"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 5587,
+  "igdb_url": "https://www.igdb.com/games/5587",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Experience epic, free-to-play naval combat when you helm one of over 350 historic vessels in the exciting balance of strategy and real-time combat that World of Warships offers.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/0ef85e7b82cd47577eabe77fdf784dfbb6d40dadd3ac13b4589ed66b10eb0613.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/0098df493a3e99bc194a998c96ad389b13a336e08cce90abba6a2570242e41a5.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1ed29c344de258ee89aa6bb07e9baf9022ca103534c7637effa57e2d1bb744cc.jpg?namespace=gamesdb",
@@ -62,15 +159,16 @@
   ],
   "metacritic_score": 81,
   "metacritic_url": "https://www.metacritic.com/game/pc/world-of-warships?ftag=MCD-06-10aaa1f",
+  "hltb_id": 27125,
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_url": "https://howlongtobeat.com/game/27125",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-03-24T22:21:24.039Z"
+  "updated_at": "2026-04-25T02:44:19.336Z"
 }

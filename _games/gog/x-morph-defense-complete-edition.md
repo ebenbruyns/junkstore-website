@@ -17,9 +17,15 @@ proton_version: ""
 publisher: NIL, NIL
 developer: Exor Studios
 genre: Strategy, Indie, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "August 30, 2017"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/56ffb224aacd2bdf0c9a4920ec7d4e03ddd8cd2b887c9b2e693efeaef0167385.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/52418"
 store_url: "https://www.gog.com/en/game/xmorph_defense_complete_edition"
 protondb_url: "https://www.protondb.com/app/408410"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/X-Morph%3A_Defense"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1135975449"
 is_featured: false
+owned: true
 ---
 
 X-Morph: Defense Complete Edition includes: X-Morph: Defense core game, European Assault DLC, Survival Of The Fittest DLC, Last Bastion DLC.

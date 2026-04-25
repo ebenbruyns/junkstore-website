@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Digerati Distribution, Digital Happiness
 developer: Digital Happiness
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "February 21, 2020"
 game_modes: ["Single player"]
 languages: ["English*","Russian","Simplified Chinese","Spanish - Spain","Hungarian","Indonesian*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/34a779fd18f8cf8a9f86a4447b76a9adf244baea2ab851d73542b8ea5ca8c030.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.c2f04483-a8a8-496d-88df-80831dd2bbb6"
 is_featured: false
+owned: true
 ---
 
 Second installment of a third person action adventure survival horror with Indonesian supernatural in veins. Mixed gameplay of city exploring, “DreadOut” style smartphone ghost hunting and new action packed battle within DreadOut supernatural world.

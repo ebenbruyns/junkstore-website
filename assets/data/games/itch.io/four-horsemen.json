@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Simulator, Visual Novel",
   "description": "An ambitious life sim about the parts of the immigrant experience everyone pretends to forget.\n\nPlay as a group of four contemporary immigrant teenagers squatting in a World War II era machine gun bunker, trying to find a place for themselves in a pre-apocalyptic, present-dystopian country that has no place for them. Will you go native, turning against your own people to bury the past your parents fled to escape? Will you cling to your parents' identity at any cost, at the price of being a permanent stranger in your home country? Or will you strike out on your own, turning against both your homelands to shape a destiny for yourself? Love is all you need...and also improvised firearms.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/dfe1c201adcedb60c882dbcc54d5de986cefe453185fb135cecd474824bdfbfa.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/668200/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/668200/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.998Z",
-  "updated_at": "2025-12-01T21:58:56.147Z"
+  "updated_at": "2026-04-25T00:55:25.793Z"
 }

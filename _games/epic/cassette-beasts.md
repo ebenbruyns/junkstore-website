@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Raw Fury
 developer: Bytten Studio
 genre: Indie, RPG
-release_date: "April 26, 2023"
+franchise: 
+age_rating_summary: 
+release_date: "January 2, 2099"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1321440/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "b661716774d74debab93ab82f683fc98"
 is_featured: false
+owned: true
 ---
 
 Collect awesome monsters to use during turn-based battles in this open-world RPG, now with online multiplayer mode. Combine any two monster forms using Cassette Beasts’ Fusion System to create unique and powerful new ones!

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Siactro, Diplodocus Games
 developer: Siactro
 genre: Adventure, Indie, Platform, Puzzle, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "March 17, 2017"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/568040/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "29872"
 is_featured: false
+owned: true
 ---
 
 Macbat 64 is a low poly 3D Platformer and 4:3 loveletter to the late 90s. All the 3D platforming goodness from the late 90s is back! Search, Collect and Jump (multiple times in a row even!) like it's 1998!

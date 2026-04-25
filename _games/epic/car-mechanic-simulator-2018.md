@@ -14,12 +14,18 @@ date_tested: "Sept '24"
 proton_version: ""
 
 # Game Info
-publisher: PlayWay S.A.
+publisher: PlayWay
 developer: Red Dot Games
-genre: Simulator, Racing
-release_date: "July 28, 2017"
+genre: Simulation
+franchise: 
+age_rating_summary: 
+release_date: "June 24, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/40470"
+was_free_before: true
+giveaway_events: [{"start":"2022-06-22T15:00:00.000Z","end":"2022-06-29T15:00:00.000Z","type":null,"id":"5eb27cf1747c40b5a0d4f5492774678d"}]
 
 # Images
 banner_image: "https://images.gog.com/d211fdb7009fd246d1846981e8c6acd685dea6dd2c56c6d3856b6cc00aab7d31.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "28 hrs"
+hltb_main_extra: "82 hrs"
+hltb_completionist: "90 hrs"
+hltb_url: "https://howlongtobeat.com/game/48426"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/car-mechanic-simulator-2018"
 protondb_url: "https://www.protondb.com/app/645630"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Car_Mechanic_Simulator_2018"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "8032b75cf0914afa87c78d6914adc165"
 is_featured: false
+owned: true
 ---
 
-Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. Find classic, unique cars in the new Barn Find module and Junkyard module. You can even add your self-made car in the Car Editor.
+Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. Find classic, unique cars in the new Barn Find module and Junkyard module.

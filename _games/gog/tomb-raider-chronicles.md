@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Square Enix, Eidos Interactive, Aspyr Media
 developer: Core Design
 genre: Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "November 17, 2000"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/982e2127ca094c5b67b0b1c8e01a246a7935fe5b87717cc154a230bfb4b2debd.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207663523"
 is_featured: false
+owned: true
 ---
 
 Tomb Raider: Chronicles is the fifth game in the Tomb Raider series and the sequel to Tomb Raider: The Last Revelation. It was developed by Core Design and published by Eidos Interactive. Like its predecessors, Tomb Raider: Chronicles is an action game with puzzle-solving and platforming elements. The gameplay is very similar to that of the previous games, with the addition of a few new skills. Lara can now walk on tightropes, swing on horizontal bars, and somersault forwards from a ledge while crouching. A grappling hook has been added to her inventory. The game also includes a level editor, allowing the player to create new stages for Lara to explore.

@@ -39,6 +39,17 @@
   "genre": "Casual, Indie, Strategy",
   "description": "Welcome to Technotopia, a city-builder card game. Take on the role of an AI designed to build a perfect city. Build districts, meet the needs of diverse communities and maintain the delicate balance between factions vying for control over you!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2825110/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2825110/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2825110/capsule_231x87.jpg",
@@ -53,6 +64,7 @@
   ],
   "metacritic_score": 85,
   "metacritic_url": "https://www.metacritic.com/game/technotopia/",
+  "hltb_id": 158551,
   "hltb_main": "3 hrs",
   "hltb_main_extra": "6.5 hrs",
   "hltb_completionist": "6.5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-29T19:49:30.134Z",
-  "updated_at": "2026-04-23T22:09:56.116Z"
+  "updated_at": "2026-04-25T00:58:39.983Z"
 }

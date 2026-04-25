@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Double Damage Games
 developer: Double Damage Games
 genre: Action, Adventure, Indie, RPG, Simulation
-release_date: "October 20, 2015"
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "October 21, 2015"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Japanese","Russian","Simplified Chinese*languages with full audio support"]
+tags_structured: [{"id":"1281","name":"Space Sim"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/290300/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1435582019"
 is_featured: false
+owned: true
 ---
 
-Rebel Galaxy is an action-packed, swashbuckling space opera. You'll battle pirates, explore anomalies, befriend aliens, scavenge battle wreckage, mine asteroids, and discover artifacts. Choose your path as a roguish do-gooder, crafty space-trader or power-hungry privateer - or maybe a little of each! Buy larger and more powerful craft with your hard-earned credits, and outfit them with a variety of wicked weapons and defenses. Set in a galaxy of fantastic sights, and secrets to be found, Rebel Galaxy is above all a space epic of adventure, exploration, and combat.
+Rebel Galaxy is a game of action-packed combat, exploration, discovery, trade, and “negotiation” with the outlandish denizens at the edge of the known universe.  You’ll battle pirates, explore anomalies, befriend aliens, scavenge battle wreckage, mine asteroids, and discover a...

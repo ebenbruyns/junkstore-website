@@ -35,10 +35,63 @@
   "shortname": "a2ffb8fba4894fc8b4ce37db61c96e96",
   "publisher": "RedForge",
   "developer": "RedForge",
-  "releasedate": "2025-01-19T00:00:00+0000",
-  "genre": "Action, Adventure, Casual",
+  "releasedate": "2025-05-27T00:00:00.000Z",
+  "genre": "Action, Horror, Exploration",
   "description": "Together After Dark is a co-op horror psychological game with a survival touch for 1-4 players. 4 Teens are stuck in the forest and need to find a way out but they are not alone",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1381",
+      "name": "Exploration"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "1381",
+      "name": "Exploration"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 286654,
+  "igdb_url": "https://www.igdb.com/games/286654",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Together After Dark is a co-op horror psychological game with a survival touch for 1-4 players. 4 Teens are stuck in the forest and need to find a way out but they are not alone",
+  "use_rich_description": true,
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/42a9aa9f7d7f40d1a0c1aa5c69565757/together-after-dark-1ubcf.png",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/42a9aa9f7d7f40d1a0c1aa5c69565757/together-after-dark-1kn6v.png",
   "icon_image": "https://images.gog.com/539db339693c35973cbe076517f578bce146bdb160102664d831f0ad88becc1e.jpg?namespace=gamesdb",
@@ -61,6 +114,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -71,5 +125,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-04-03T21:10:31.170Z",
-  "updated_at": "2026-04-10T20:58:55.922Z"
+  "updated_at": "2026-04-25T02:21:38.691Z"
 }

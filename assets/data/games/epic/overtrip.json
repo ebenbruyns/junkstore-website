@@ -35,10 +35,75 @@
   "shortname": "651c5218f4e948b084be86277e0b5630",
   "publisher": "GGXYZ",
   "developer": "GGXYZ",
-  "releasedate": "07/11/24",
-  "genre": "Shooter",
-  "description": "A skill-based third-person shooter, where the thrill of competition meets the world of skill-based token betting and the captivating integration of diverse NFT collections.",
+  "releasedate": "2024-07-10T14:00:00.000Z",
+  "genre": "Action, Shooter",
+  "description": "The ultimate skill-based third-person shooter, where the thrill of competition meets the world of skill-based token betting and the captivating integration of diverse NFT collections.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "21739",
+      "name": "NFT BLOCKCHAIN"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1310",
+      "name": "EARLY ACCESS"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 307818,
+  "igdb_url": "https://www.igdb.com/games/307818",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "The ultimate skill-based third-person shooter, where the thrill of competition meets the world of skill-based token betting and the captivating integration of diverse NFT collections.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/09a39241893d2f2314f0ebdce18d3d4bfb3c73921429231b76b6f7e44f09f811.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f91d69b21d5cc87454b5f8c2553a592e34a760f67e3316389926b7ac6a7a7014.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6e54ba3aff21f6a87474ee13ad1a37e42fa047e1b9dbd786be0ec08e15feb9f3.jpg?namespace=gamesdb",
@@ -51,15 +116,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/overtrip/",
+  "hltb_id": 153473,
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/153473",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-20T00:56:14.575Z"
+  "updated_at": "2026-04-25T02:11:10.446Z"
 }

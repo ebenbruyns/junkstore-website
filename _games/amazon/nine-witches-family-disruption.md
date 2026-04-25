@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Blowfish Studios
 developer: Indiesruption
 genre: Adventure, Indie, Puzzle, Point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "December 3, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/22ef50b9bb659c874278feae4e884d1cf80c8811afb86889e79b0c196d7ee550.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.da5419c8-9fba-477b-ad20-cf0143331aa8"
 is_featured: false
+owned: true
 ---
 
 When an occult German WW2 division releases an ancient curse upon the world, a supernatural problem is going to require a supernatural solution. Take control of two playable heroes as they embark on a comedic, alternate-history adventure with a truly original story (99.9999% guaranteed).

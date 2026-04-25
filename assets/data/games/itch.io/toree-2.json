@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Platform, Arcade",
   "description": "Toree 2 is the sequel to Toree 3D. A bite-sized 3D Platformer sequel with more focus on the things people enjoyed in the first game like fast gameplay, flow focused levels and cute costumes (two this time).",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/6cca132c08608b412dfacc3c645a21e3d5632c52677ddd37d9ccafb65676ddb9.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1722620/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1722620/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:17.342Z",
-  "updated_at": "2025-11-27T06:07:08.723Z"
+  "updated_at": "2026-04-25T00:55:36.674Z"
 }

@@ -14,12 +14,18 @@ date_tested: "Oct '25"
 proton_version: ""
 
 # Game Info
-publisher: Sandbox Interactive
-developer: Sandbox Interactive
-genre: Role-playing (RPG)
-release_date: "July 17, 2017"
+publisher: Sandbox Interactive GmbH
+developer: Sandbox Interactive GmbH
+genre: Fantasy, RPG, Open World
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "April 16, 2025"
 game_modes: ["Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English*","French","German","Spanish - Spain","Portuguese - Brazil","Polish","Russian","Portuguese - Portugal","Spanish - Latin America","Korean"]
+tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
+igdb_url: "https://www.igdb.com/games/19698"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c79d1fd451e3ffeb6ee47a0c1ee18f32b3d1d453cc132e1a4d439b0b67fde113.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "f088388ef3f545179243e7d104c5deaf"
 is_featured: false
+owned: true
 ---
 
-Albion Online is a sandbox MMORPG set in an open medieval fantasy world. The game features a player-driven economy where nearly every item is player-crafted. Combine armor pieces and weapons suited to your playstyle in a unique, classless "you are what you wear" system. Explore the world, take on other adventurers in thrilling battles, conquer territories, and build a home.
+Albion Online is a sandbox MMORPG in which you write your own story. Explore a vast open world, grow your wealth, forge alliances, and leave your mark on the world of Albion!

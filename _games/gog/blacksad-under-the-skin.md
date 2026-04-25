@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Maximum Games, Microids
 developer: Pendulo Studios, Ys Interactive
 genre: Adventure, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "November 5, 2019"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian","German*","Spanish - Spain*","Russian*","Dutch","Simplified Chinese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/5da598b8d741d8dce9b71cbf9bf62cea893e1276460f840892541fe04d11fcae.jpg?namespace=gamesdb"
@@ -57,8 +63,8 @@ store_url: "https://www.gog.com/en/game/blacksad_under_the_skin"
 protondb_url: "https://www.protondb.com/app/1003890"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blacksad:_Under_the_Skin"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 65
+metacritic_url: "https://www.metacritic.com/game/blacksad-under-the-skin/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1772238447"
 is_featured: false
+owned: true
 ---
 
 Based on the noir comic series by the same name. The game features a noir detective story about a PI by the name of Blacksad that gets dragged into the case of a murdered boxing club. The game feature an interactive system much reminiscent of Grim Fandango where you have direct control of the character and only things that catch his gaze is interactable.

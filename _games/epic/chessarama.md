@@ -14,12 +14,18 @@ date_tested: "May '25"
 proton_version: ""
 
 # Game Info
-publisher: Minimol Games, Hawthorn Games
+publisher: Minimol Games
 developer: Minimol Games
-genre: "Strategy, Turn-based strategy (TBS), Indie, Puzzle, Tactical, Card & Board Game"
-release_date: "December 5, 2023"
+genre: Turn-Based Strategy, Puzzle, Strategy
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "April 18, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21150","name":"Challenging Puzzles"}]
+igdb_url: "https://www.igdb.com/games/202691"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/f3570f05a8d4e63f4176657a722585c907bf63af8f365849bb29997eab4230fa.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "a1292bca78514801bc03571e9247909d"
 is_featured: false
+owned: true
 ---
 
 Chessarama is a collection of chess-inspired puzzle and strategy games that use chess pieces and their established move sets, then reimagines their goals and themes. Solve challenges, unlock collectibles, and compete against each other on the leaderboards. Welcome to Chessarama!

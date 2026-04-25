@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Telltale Games, Take-Two Interactive
 developer: Telltale Games
-genre: Adventure, Puzzle, Point-and-click
-release_date: "October 20, 2022"
+genre: Narration, Exploration, Adventure
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "February 17, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4d0facf5344f10594b2a04a50c7accfbefdb1a7f0a8af56c0c5a2c42d408dc94.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "10.5 hrs"
+hltb_main_extra: "11 hrs"
+hltb_completionist: "11.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/22804"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tales-from-the-borderlands"
 protondb_url: "https://www.protondb.com/app/330830"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tales_from_the_Borderlands"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "178c9c2b209a409e88a729ddb9aba7d2"
 is_featured: false
+owned: true
 ---
 
-Tales from the Borderlands is a five part episodic game series. Set on the unforgiving world of Pandora after the events seen in Borderlands 2, this is a story full of Borderlands' trademark humor, following two adventurers on their quest for greatness.
+Tales from the Borderlands is a five-part episodic game set on the unforgiving world of Pandora between the events of Borderlands 2 and Borderlands 3. This is a story full of Borderlands' trademark humor, following two adventurers on their quest for greatness.

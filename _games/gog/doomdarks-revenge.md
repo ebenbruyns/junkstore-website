@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Chilli Hugger Software
 developer: Mike Singleton and Chris Wild
 genre: Role-playing (RPG), Strategy, Tactical
+franchise: 
+age_rating_summary: 
 release_date: "December 1, 1984"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/1c7f4816a1ef1a0e4a718da2d39720aa6d9a1d73fac1df4efcc5946761950bea.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/18399"
 store_url: "https://www.gog.com/en/game/doomdarks_revenge"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doomdark%27s_Revenge"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/doomdarks-revenge/"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207660693"
 is_featured: false
+owned: true
 ---
 
 The follow-up to the original Lords of Midnight game uses a similar game system to its predecessor, but the story is now much more complex. Luxor the Moonprince's son Morkin has been kidnapped by Shareth, daughter of Doomdark, the evil ruler deposed in the first game. The player initially takes control of Luxor, Rothron the Wise, and Morkin's lover Tarithel the Fey, although many more characters can be recruited as the game progresses, as they aim to banish Shareth and rescue Morkin. Shareth has brainwashed him, so he must also be turned back to Luxor's side.

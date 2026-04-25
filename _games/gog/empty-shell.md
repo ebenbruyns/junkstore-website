@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Hyperstrange
 developer: CC ARTS
 genre: Action, Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "October 16, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Italian","German","Russian","French","Spanish - Spain","Japanese","Simplified Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2243110/library_hero.jpg"
@@ -58,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/2243110"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Empty_Shell"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/empty-shell/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1832934376"
 is_featured: false
+owned: true
 ---
 
 EMPTY SHELL will throw you in a dark industrial environment, a secret facility on a Japanese island. Each volunteer has signed a contract for a &quot;recovery operation&quot; without being privy to too many details. A tense roguelite survival horror with a top down perspective.

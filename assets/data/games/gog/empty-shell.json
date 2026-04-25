@@ -38,7 +38,18 @@
   "releasedate": "Oct 16, 2023",
   "genre": "Action, Adventure, Indie",
   "description": "EMPTY SHELL will throw you in a dark industrial environment, a secret facility on a Japanese island. Each volunteer has signed a contract for a &quot;recovery operation&quot; without being privy to too many details. A tense roguelite survival horror with a top down perspective.",
-  "size": "133424004\n",
+  "size": "127 MB",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2243110/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2243110/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2243110/capsule_231x87.jpg",
@@ -57,7 +68,8 @@
     "Simplified Chinese"
   ],
   "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_url": "https://www.metacritic.com/game/empty-shell/",
+  "hltb_id": 127061,
   "hltb_main": "4 hrs",
   "hltb_main_extra": "8.5 hrs",
   "hltb_completionist": "",
@@ -69,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-16T20:09:05.715Z",
-  "updated_at": "2025-10-20T06:39:40.064Z"
+  "updated_at": "2026-04-25T00:56:34.887Z"
 }

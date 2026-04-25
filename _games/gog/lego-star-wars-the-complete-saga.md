@@ -17,9 +17,15 @@ proton_version: ""
 publisher: WB Games, LucasArts, Feral Interactive
 developer: "Traveller's Tales, Robosoft Technologies"
 genre: Adventure, Platform
+franchise: 
+age_rating_summary: 
 release_date: "November 6, 2007"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/dc35ab6cee58915b1ff06d41013b03d118861be906767abd50468a5e436ceb64.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/5263"
 store_url: "https://www.gog.com/en/game/lego_star_wars_the_complete_saga"
 protondb_url: "https://www.protondb.com/app/32440"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Star_Wars%3A_The_Complete_Saga"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/lego-star-wars?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1731318270"
 is_featured: false
+owned: true
 ---
 
 Play through a fun Star Wars galaxy that combines the endless customization of LEGO with the epic story from all six episodes of Star Wars. This is the definitive LEGO Star Wars comprising the first two games and expanding them with new characters, enhanced visuals, and more bonus levels than you can shake a lightsaber at.

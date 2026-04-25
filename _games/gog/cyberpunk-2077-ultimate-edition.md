@@ -17,9 +17,15 @@ proton_version: ""
 publisher: CD Projekt
 developer: CD Projekt RED
 genre: Role-playing (RPG), Adventure, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "December 10, 2020"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Arabic","Czech","Hungarian","Japanese*","Korean*"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1091500/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1423049311"
 is_featured: false
+owned: true
 ---
 
 Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.

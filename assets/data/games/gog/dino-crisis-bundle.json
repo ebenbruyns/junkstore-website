@@ -39,6 +39,17 @@
   "genre": "Action, Horror, Survival",
   "description": "Three years ago, a scientist died during an experiment on 'Third Energy', a clean energy source. Government funding was cut, and the incident was considered insignificant. Until now.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://items.gog.com/dino_crisis_bundle/1.png",
   "banner_image": "https://items.gog.com/dino_crisis_bundle/2.png",
   "icon_image": "https://items.gog.com/dino_crisis_bundle/1.png",
@@ -49,6 +60,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-24T01:27:44.429Z"
+  "updated_at": "2026-04-25T00:46:14.009Z"
 }

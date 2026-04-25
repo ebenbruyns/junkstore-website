@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 505 Games, Thing Trunk
 developer: Thing Trunk, SONKA
 genre: Role-playing (RPG), Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "December 13, 2018"
 game_modes: ["Single player"]
 languages: ["English*","Polish","French","Italian","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","German","Turkish"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/bc782bab7c6089b16374c80fae734a9b68bd66f8babed86375df7e758926f3f1.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1580300418"
 is_featured: false
+owned: true
 ---
 
 Book of Demons is a deck-building hack and slash adventure, with a dark theme reminiscent of classics of the PC ARPG genre.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Fellow Traveller
 developer: Kaizen Game Works
 genre: Adventure, Indie, RPG
-release_date: "September 4, 2020"
+franchise: 
+age_rating_summary: 
+release_date: "January 2, 2099"
 game_modes: ["Single-player"]
 languages: ["English*","Japanese","Simplified Chinese","Traditional Chinese*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1160220/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "8de015f17084454f96fbff7bd6465aec"
 is_featured: false
+owned: true
 ---
 
-Paradise Island, a world outside reality. There’s been a murder that only &quot;investigation freak&quot; Lady Love Dies can solve. Gather evidence and interrogate suspects in this open world adventure. You can accuse anyone, but you’ll have to prove your case in trial. It’s up to you to decide who’s guilty.
+Paradise Island, a world outside reality. There’s been a murder that only "investigation freak" Lady Love Dies can solve. Gather evidence and interrogate suspects in this open world adventure. You can accuse anyone, but you’ll have to prove your case in trial to convict.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: tinyBuild
 developer: Cradle Games
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
+franchise: 
+age_rating_summary: 
 release_date: "July 30, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c42c124612fc50c359283eaa24a875139f9159d907300b43610daabc67e2b736.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/68974"
 store_url: "https://www.gog.com/en/game/hellpoint"
 protondb_url: "https://www.protondb.com/app/628670"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hellpoint"
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/pc/hellpoint?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1503950763"
 is_featured: false
+owned: true
 ---
 
 Hellpoint is a dark sci fi action RPG set in the aftermath of a massive quantum cataclysm. Every living being quickly lost their mind as their memories and bodies were merged with alternate versions of themselves from parallel universes. The accident also attracted entities of immense power that should have been left alone, in the depth of other dimensions.

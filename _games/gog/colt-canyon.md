@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Headup Games
 developer: Retrific
 genre: Role-playing (RPG), Adventure, Indie, Shooter, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "June 16, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d019c24dcf16e17c0afbc06d933e91edfa969adc8c7e2a4040c1584409b6d075.jpg?namespace=gamesdb"
@@ -56,19 +62,20 @@ hltb_url: "https://howlongtobeat.com/game/80457"
 store_url: "https://www.gog.com/en/game/colt_canyon"
 protondb_url: "https://www.protondb.com/app/940710"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Colt_Canyon"
+metacritic_score: 72
+metacritic_url: "https://www.metacritic.com/game/colt-canyon/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 
 # Meta
 database_id: "1964712512"
 is_featured: false
+owned: true
 ---
 
 Colt Canyon is a pixel art rogue-lite shooter where you have to save your kidnapped partner from the ruthless bandits. Shoot your way through a hostile canyon full of hidden treasures, weapons, obstacles and all kinds of bloodthirsty scum.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Bit Golem
 developer: Bit Golem
 genre: Adventure, Indie, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "August 24, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/ac45079ac2c97d5523c8c31df1126d35c622e5144ca9709e4e3b72374fee354c.jpg?namespace=gamesdb"
@@ -58,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1481400"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dagon:_by_H._P._Lovecraft"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/dagon-by-h-p-lovecraft/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1132748633"
 is_featured: false
+owned: true
 ---
 
 Face unspeakable horrors. Succumb to madness. Welcome to a truly daemonic narrative experience inspired by H. P. Lovecraft.

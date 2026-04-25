@@ -39,6 +39,17 @@
   "genre": "RPG, Tactics",
   "description": "A sci-fi ero tactics RPG where you play as an engineer on a mission to free the Earth after it's caught in the crossfire of an intergalactic alien war.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/3ebd26cdf3c92c38c37eb31ddbbe4019ec528d8eb8d28045b046517f1323706d.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/8d6c27b0b2119525ac7b1aa4fee080316d1fc7e4bdb6b681d0c8c605f2b6c016.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/3ebd26cdf3c92c38c37eb31ddbbe4019ec528d8eb8d28045b046517f1323706d.jpg?namespace=gamesdb",
@@ -49,6 +60,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-24T01:27:44.429Z"
+  "updated_at": "2026-04-25T00:47:31.461Z"
 }

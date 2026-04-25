@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1049320",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/river-city-girls-e6f608",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/River_City_Girls",
   "notes": "Works out of the box!",
   "date_tested": "April '25",
   "decky_rating": "green",
@@ -33,12 +33,104 @@
   "cant_test_linux": false,
   "databaseId": "588cec64448242d8b61188205d97f887",
   "shortname": "588cec64448242d8b61188205d97f887",
-  "publisher": "WayForward",
-  "developer": "Arc System Works, WayForward",
-  "releasedate": "2019-09-04T00:00:00+0000",
-  "genre": "Adventure, Arcade, Hack and slash/Beat 'em up, Fighting",
-  "description": "River City Girls stars Kyoko and Misako, two street-tough high-schoolers who must fight their way through the six regions of River City to rescue their kidnapped boyfriends, series mainstays Kunio and Riki. Along the way, they'll utilize an arsenal of combos, counters, throws, and special attacks; battle an assortment of enemies; accept numerous side quests; level up with experience points; interact with NPCs (including guest stars from past River City games); and shop for a variety of items, food, and gear to boost stats and unlock new abilities. The girls can even wield weapons and recruit defeated foes to join them in combat!",
+  "publisher": "WayForward / Arc System Works",
+  "developer": "WayForward",
+  "releasedate": "2024-01-10T01:45:51.000Z",
+  "genre": "Action-Adventure",
+  "description": "There's trouble again in River City, and this time only the girls can save the day! Using a variety of attacks, weapons, and items, these hot-blooded heroines are ready to teach the city’s lowlifes a lesson - solo or 2-player co-op! An old-school rumble for a new generation!",
   "size": "",
+  "franchise": "River City Girls",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 117533,
+  "igdb_url": "https://www.igdb.com/games/117533",
+  "giveaway_events": [
+    {
+      "start": "2025-04-10T15:00:00.000Z",
+      "end": "2025-04-17T15:00:00.000Z",
+      "type": null,
+      "id": "ceea8c3f2f0b48dfbd5c658c3cb6d1b0"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "There's trouble again in River City, and this time only the girls can save the day! Using a variety of attacks, weapons, and items, these hot-blooded heroines are ready to teach the city’s lowlifes a lesson - solo or 2-player co-op! An old-school rumble for a new generation!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/fa2277045fa8f20c267f7aac1559e290cf9d8b15b3167ccb34ea69a9283e3136.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4524b8a36adac57aae5680b6a95d8296b9ed2a94a8085bde857a2ce5983b2c44.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/c2a668be03cc2f8297e54fd3f347add6c22e66c9608d48bda9af949ad2a79a1b.jpg?namespace=gamesdb",
@@ -53,14 +145,15 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 69993,
+  "hltb_main": "7 hrs",
+  "hltb_main_extra": "8.5 hrs",
+  "hltb_completionist": "16 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/69993",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.968Z"
+  "updated_at": "2026-04-25T05:43:49.355Z"
 }

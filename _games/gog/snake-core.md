@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Orangepixel
 developer: Orangepixel
 genre: Indie
+franchise: 
+age_rating_summary: 
 release_date: "April 21, 2020"
 game_modes: ["Single-player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/97ba184cb31f9971c70f96b9b1cf33fde9ea91b2395d6714e87f960dd8a0e087.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1276268370"
 is_featured: false
+owned: true
 ---
 
 Are you ready to command a range of different units as they battle aliens in a mission-based take on the classic Snake? Select your path to victory!

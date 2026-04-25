@@ -17,9 +17,15 @@ proton_version: ""
 publisher: notsleeping
 developer: notsleeping
 genre: Simulator
+franchise: 
+age_rating_summary: 
 release_date: ""
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/9d1a1de5460001f3f35646344cffc276cd60295eeda89db4e8ef467c72aa9b23.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "428434"
 is_featured: false
+owned: true
 ---
 
 trashy cyberpunk sim -- time/mood mgmt!

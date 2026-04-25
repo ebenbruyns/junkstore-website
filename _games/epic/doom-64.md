@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Bethesda Softworks LLC
 developer: id Software, Nightdive Studios
-genre: Shooter
-release_date: "April 4, 1997"
+genre: Action, Retro
+franchise: DOOM
+age_rating_summary: ESRB Mature 17+
+release_date: "August 19, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1198","name":"Retro"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/3471"
+was_free_before: true
+giveaway_events: [{"start":"2022-08-17T15:00:00.000Z","end":"2022-08-24T15:00:00.000Z","type":null,"id":"4d14124e8e9c484381db3be1e2118e8a"}]
 
 # Images
 banner_image: "https://images.gog.com/18ec6024b64845034fac0fd1366740da096322c4eea93d4d98fcf8f8bc2ea7b8.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: true
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "7 hrs"
+hltb_main_extra: "9 hrs"
+hltb_completionist: "10.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/2709"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/doom-64"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "5b60142e120c4f2d88027595c21d4a04"
 is_featured: false
+owned: true
 ---
 
-You killed the Demons once, they were all dead. Or so you thought... A single Demon Entity escaped detection. Systematically it altered decaying, dead carnage back into grotesque living tissue. The Demons have returned - stronger and more vicious than ever before. You mission is clear, there are no options: kill or be killed!
+Fight against demons in your crusade to hunt down the Mother of Demons and stop Hell's invasion. As you battle through more than 30 action-packed levels, be on the lookout for enhanced weapons and secrets to help you put an end to the demonic threat.

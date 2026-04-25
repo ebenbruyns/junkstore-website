@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Ubisoft Entertainment
 developer: Ubisoft Montreal
 genre: Adventure, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "November 11, 2003"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d730809f928f1c3a3faca792921660dea689b14f19e3e0c080db46c663acc3c5.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/7297"
 store_url: "https://www.gog.com/en/game/prince_of_persia_the_sands_of_time"
 protondb_url: "https://www.protondb.com/app/13600"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia%3A_The_Sands_of_Time"
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia-the-sands-of-time?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658747"
 is_featured: false
+owned: true
 ---
 
 Prince of Persia: The Sands of Time is a third-person puzzle-platformer and action-adventure computer and video game published by Ubisoft. It is a reboot of the landmark video game series Prince of Persia created by Jordan Mechner, who served as creative consultant, designer, and scenario writer for The Sands of Time.

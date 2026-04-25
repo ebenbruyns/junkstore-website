@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Stasis: Bone Totem - Steam Deck Compatibility"
-game_title: "Stasis: Bone Totem"
+title: "STASIS : BONE TOTEM - Steam Deck Compatibility"
+game_title: "STASIS : BONE TOTEM"
 slug: "stasis-bone-totem"
 storefront: "Epic"
 storefront_key: "epic"
@@ -14,12 +14,18 @@ date_tested: "Oct '24"
 proton_version: ""
 
 # Game Info
-publisher: The Brotherhood Games, Feardemic
-developer: The Brotherhood Games
-genre: Adventure, Indie, Puzzle, Point-and-click
-release_date: "May 31, 2023"
+publisher: THE BROTHERHOOD
+developer: THE BROTHERHOOD
+genre: Puzzle, Horror, Adventure
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "June 21, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"}]
+igdb_url: "https://www.igdb.com/games/140866"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c8f7df52a4e25ca144e408aa1dea2d31993801068a36d0e07cd9a5a0f37b02c9.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "11.6 hrs"
+hltb_main_extra: "14.7 hrs"
+hltb_completionist: "16.3 hrs"
+hltb_url: "https://howlongtobeat.com/game/86843"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/stasis-bone-totem"
+store_url: "https://store.epicgames.com/en-US/p/stasis-bone-totem-ca8320"
 protondb_url: "https://www.protondb.com/app/1426010"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stasis%3A_Bone_Totem"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/stasis-bone-totem?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "4e4e5473a79b40a1a4aee3bb0f612718"
 is_featured: false
+owned: true
 ---
 
-Stasis: Bone Totem is a thrilling and spine-tingling journey into the unknown fathoms of the icy ocean and the terrors that await a family. They will uncover a threat far beyond their wildest dreams.
+Get ready for a thrilling underwater adventure with classic point-and-click gameplay. Sci-fi & horror, we have it here! Explore with three characters simultaneously. Featuring atmospheric isometric graphics, rendered video, and a soundtrack by Mark Morgan.

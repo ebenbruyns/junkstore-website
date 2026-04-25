@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Ultimate Games
 developer: Asmodev
-genre: Indie, Shooter, Simulator
-release_date: "December 5, 2024"
+genre: Shooter, Open World, Comedy
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "September 26, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1116","name":"Comedy"}]
+igdb_url: "https://www.igdb.com/games/110993"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8ee5bb2ad9feda38e479d2c90653040cf75eaef0f4e9fe7ca57872820dc98efd.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "8 hrs"
+hltb_main_extra: "10 hrs"
+hltb_completionist: "15 hrs"
+hltb_url: "https://howlongtobeat.com/game/157940"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/priest-simulator-vampire-show"
+store_url: "https://store.epicgames.com/en-US/p/priest-simulator-vampire-show-71f336"
 protondb_url: "https://www.protondb.com/app/950620"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Priest_Simulator"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "5ffb49b9c01c44c6adb03fd5430e9b03"
 is_featured: false
+owned: true
 ---
 
-Imagine that you have divine powers. What do you do? Help people or take the piss out of them? That's a priest's life.
+A mockumental action game. Go forth and rock in the absolute weirdest and most messed up simulator in the history of sandbox shooters. Fully unprofessional English language version. This dub will have you in stitches.

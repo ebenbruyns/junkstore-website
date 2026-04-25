@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Deep Silver, Koch Media
 developer: Clever Beans
-genre: "Adventure, Hack and slash/Beat 'em up, Fighting"
-release_date: "January 28, 2021"
+genre: Action-Adventure
+franchise: 
+age_rating_summary: 
+release_date: "January 29, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"}]
+igdb_url: "https://www.igdb.com/games/141207"
+was_free_before: true
+giveaway_events: [{"start":"2022-01-05T15:00:00.000Z","end":"2022-01-12T15:00:00.000Z","type":null,"id":"5207cdd79e9145d0bbb947c6bd3699a3"}]
 
 # Images
 banner_image: "https://images.gog.com/8cc5b4be27fd5e9aeb6948af76eabb03693254d98e8827f4e7ca2db39f3a1d3a.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "5 hrs"
+hltb_main_extra: "7 hrs"
+hltb_completionist: "10 hrs"
+hltb_url: "https://howlongtobeat.com/game/87797"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gods-will-fall"
 protondb_url: "https://www.protondb.com/app/1243690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gods_Will_Fall"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "69911638c74449d2a2651241be1b3ad4"
 is_featured: false
+owned: true
 ---
 
-The gods’ torturous rule over humanity has lasted for millennia. Bent on cruelty and suffering, they demand to be served with blind worship through an oath of fealty pledged from every man, woman and child. To those who don't submit to the gods’ will; a slow and merciless death awaits.
+Experience the trials of 8 warriors in their plight to sever the gods’ grip on humanity as you take on legions of beasts in each of the gods’ realms.

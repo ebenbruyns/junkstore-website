@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Freedom Games
 developer: "Sword & Axe LLC"
 genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Tactical
+franchise: 
+age_rating_summary: ESRB Everyone 10+
 release_date: "June 15, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/147215"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/204a6316e672cac3d9e9fc5d1aa7498120c3afd710604103cb002deb5dc8dde8.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/94190"
 store_url: "https://www.gog.com/en/game/dark_deity_complete_edition"
 protondb_url: "https://www.protondb.com/app/1374840"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Deity"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/dark-deity?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1084829247"
 is_featured: false
+owned: true
 ---
 
-Command legendary heroes to reshape a land fractured by broken oaths, reckless war, and a secret search for arcane power. The ancient artifacts and powerful weapons you discover will empower your cast of 30 playable characters as they form bonds and battle their way into legend.
+Command legendary heroes to reshape a land fractured by broken oaths, reckless wars, and secret arcane powers. Claim ancient artifacts and powerful weapons to empower your cast of 30 voiced, playable characters as they form bonds and battle their way to become legends.

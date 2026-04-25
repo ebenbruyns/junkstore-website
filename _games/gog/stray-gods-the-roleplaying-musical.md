@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Humble Games
 developer: Summerfall Studios
 genre: Role-playing (RPG), Adventure, Music
+franchise: 
+age_rating_summary: 
 release_date: "August 10, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/461d685e1bbb49c40f86e17f723749de14003c2371e94f53a6468df8830ffae6.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/105790"
 store_url: "https://www.gog.com/en/game/stray_gods_the_roleplaying_musical"
 protondb_url: "https://www.protondb.com/app/1920780"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stray_Gods%3A_The_Roleplaying_Musical"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1624007757"
 is_featured: false
+owned: true
 ---
 
 Murder. Gods. Romance. Band practice? Unravel the mystery of the Last Muse’s death in an interactive roleplaying musical where Greek gods live hidden among us. Use your newfound powers of musical persuasion to choose how this wry and moving saga will unfold. How will the curtain fall?

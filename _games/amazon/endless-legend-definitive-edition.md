@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Sega
 developer: Amplitude Studios
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie
+franchise: 
+age_rating_summary: 
 release_date: "September 18, 2014"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English*","French","German","Polish","Italian","Russian","Spanish - Spain*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/261a9077e27c55e7a882bfbaca8e2f17a89cdfaaf254c7b8f159ab45791bcbf4.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.6d93b0e4-54dd-4046-9363-d72d877ef6fd"
 is_featured: false
+owned: true
 ---
 
 Endless Legend is the turn-based 4X fantasy strategy game from Amplitude Studios. Your home planet of Auriga is an inhospitable planet. As the leader of your people, it is your duty to protect and guide them... but you are not the only one trying to survive and thrive on this planet. Will you be remembered as the explorer who unlocked the secrets of Auriga, the magnate who mastered the subtle arts of diplomacy and trade, or the warmonger whose legacy was written in blood? The choice is yours.

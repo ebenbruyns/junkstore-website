@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Inceton games
 developer: Inceton games
 genre: Role-playing (RPG), Adventure, Point-and-click, Visual Novel
+franchise: 
+age_rating_summary: 
 release_date: "March 19, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/e443fc9bab4cfba79434c6648976aed0a64f377a5f2686311c9117c95b06f395.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/100044"
 store_url: "https://www.gog.com/en/game/lust_theory_season_1"
 protondb_url: "https://www.protondb.com/app/1607130"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lust_Theory_-_Season_1"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1582333296"
 is_featured: false
+owned: true
 ---
 
 Lust Theory is an adult Visual Novel in which you take control of a 20 year old guy whose life is turned up side down when he finds out that the same day is repeating. The game is packed with sex, humor, romance, drama and mystery.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Daniel Linssen
 developer: Daniel Linssen
 genre: Platformer
+franchise: 
+age_rating_summary: 
 release_date: "August 11, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn2.steamgriddb.com/thumb/13962f26b05bdcb92c542be519a32320.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "10349"
 is_featured: false
+owned: true
 ---
 
 The deeper you travel the darker it gets, and you only have your arrows to light the way.

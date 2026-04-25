@@ -39,6 +39,17 @@
   "genre": "Indie",
   "description": "A Forgetful Loop is a time-based worker-placement puzzle game, where you need to weigh up which nodes are more important at a given moment; To get closer to the core, closer to the finish line!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/d0c936ad9b6847c5589dd505e743c73daca5ac7ebb9a6855ef7e2d061ffdec95.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1399540/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1399540/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.797Z",
-  "updated_at": "2025-11-27T06:07:22.863Z"
+  "updated_at": "2026-04-25T00:54:45.325Z"
 }

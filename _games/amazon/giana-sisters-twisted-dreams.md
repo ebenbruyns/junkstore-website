@@ -17,9 +17,15 @@ proton_version: "Proton Experimental"
 publisher: Black Forest Games
 developer: Black Forest Games
 genre: Adventure, Indie, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "October 22, 2012"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","German","French","Italian","Spanish - Spain","Japanese","Russian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c841c264579dae5daf855d975611441c548007449bb11f2a1fc8fa31b89be96f.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.0a76e83e-1ecc-43eb-84bd-93e6675ec697"
 is_featured: false
+owned: true
 ---
 
 Giana Sisters: Twisted Dreams is a blistering hardcore platformer with contrasting worlds. Warp Giana’s vivid dreams to alter your abilities and destroy the twisted creatures lurking within. Giana Sisters: Twisted Dreams combines the challenge of retro era platforming with graphics that pack a visual punch and tight controls.

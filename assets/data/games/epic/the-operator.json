@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1771980",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/the-operator-b835e9",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Operator",
   "notes": "Works out of the box",
   "date_tested": "July '25",
   "decky_rating": "green",
@@ -33,12 +33,72 @@
   "cant_test_linux": false,
   "databaseId": "5919f2a03ba34e36b8e7de60acc26736",
   "shortname": "5919f2a03ba34e36b8e7de60acc26736",
-  "publisher": "Bureau 81",
+  "publisher": "Bureau 81, indienova",
   "developer": "Bureau 81",
-  "releasedate": "2024-07-22T00:00:00+0000",
-  "genre": "Adventure, Indie, Puzzle, Simulator, Point-and-click",
-  "description": "As an Operator, you will assist FDI's field agents by analyzing evidence on your computer and making deductions. Help them solve impossible cases in this immersive interface game, full of plot twists and mysteries. Everything will be explained, you just have to ████ ██ ██████.",
+  "releasedate": "2025-06-19T15:00:00.000Z",
+  "genre": "Puzzle, Narration, Indie",
+  "description": "Welcome to the FDI. As our newest Operator, your role is to use your detective skills to assist our field agents and investigate mysterious crimes. Use cutting-edge FDI software to dig for clues, solve puzzles, and uncover the truth.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1395",
+      "name": "Narration"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 216958,
+  "igdb_url": "https://www.igdb.com/games/216958",
+  "giveaway_events": [
+    {
+      "start": "2025-06-19T15:00:00.000Z",
+      "end": "2025-06-26T15:00:00.000Z",
+      "type": null,
+      "id": "e462627d3a864052a6b5fe2c0eaf0ba8"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Welcome to the FDI. As our newest Operator, your role is to use your detective skills to assist our field agents and investigate mysterious crimes. Use cutting-edge FDI software to dig for clues, solve puzzles, and uncover the truth.",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1771980/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1771980/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1771980/capsule_231x87.jpg",
@@ -51,15 +111,16 @@
   ],
   "metacritic_score": 78,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-operator?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 151159,
+  "hltb_main": "3.6 hrs",
+  "hltb_main_extra": "4.2 hrs",
+  "hltb_completionist": "4.3 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/151159",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-09-07T02:18:39.528Z"
+  "updated_at": "2026-04-25T02:44:01.104Z"
 }

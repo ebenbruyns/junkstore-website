@@ -14,12 +14,18 @@ date_tested: "Jan '26"
 proton_version: ""
 
 # Game Info
-publisher: Cyanide Studio
+publisher: Nacon
 developer: Cyanide Studio
-genre: Action
-release_date: "October 7, 2014"
+genre: Fantasy, Action-Adventure, Stealth
+franchise: Styx
+age_rating_summary: ESRB Mature 17+
+release_date: "January 16, 2026"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Russian*languages with full audio support"]
+tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1287","name":"Fantasy"},{"id":"1336","name":"Action-Adventure"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/6072"
+was_free_before: true
+giveaway_events: [{"start":"2026-01-15T16:00:00.000Z","end":"2026-01-22T16:00:00.000Z","type":null,"id":"ed109adce3c042f792f48d629221ac8b"}]
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/242640/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "639c5116ad7d4f31856c34aacda45f2d"
 is_featured: false
+owned: true
 ---
 
 Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.

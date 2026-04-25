@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Disney Interactive
 developer: Disney Interactive, DotEmu
 genre: Adventure, Platform, Shooter, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "June 29, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Latin America"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b8452258aa523796a1b9b431a65baf5ab15a88a680f278e34a0cd254ea249876.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.6a9ea1e3-a5b6-4798-b708-2206da9999ef"
 is_featured: false
+owned: true
 ---
 
 The cult classic Zombies Ate My Neighbors and its sequel make their long awaited return in Zombies Ate My Neighbors and Ghoul Patrol! Play these classics from the golden age of 16-bit gaming with new enhancements and never before seen museum features.

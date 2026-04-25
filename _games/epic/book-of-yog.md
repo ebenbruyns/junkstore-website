@@ -14,12 +14,18 @@ date_tested: "Aug '24"
 proton_version: ""
 
 # Game Info
-publisher: 
-developer: 
-genre: Role-playing (RPG), Adventure, Strategy, Indie, Simulator
-release_date: "July 30, 2022"
+publisher: YuanQi Studio
+developer: YuanQi Studio
+genre: Action, RPG
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "May 22, 2023"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","Simplified Chinese"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21139","name":"Amazing Characters"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1310","name":"EARLY ACCESS"},{"id":"21134","name":"Beautiful Visuals"}]
+igdb_url: "https://www.igdb.com/games/128478"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/340b50bbbaa82ffd027fc041472f6970296c9eec742c3748cfa7a2e0da967071.jpg?namespace=gamesdb"
@@ -50,13 +56,13 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/119211"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/book-of-yog"
+store_url: "https://store.epicgames.com/en-US/p/book-of-yog-idle-rpg-74cebc"
 protondb_url: "https://www.protondb.com/app/1097430"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Book_of_Yog_Idle_RPG"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "ede98630ab1c4e40b76bd2894d4a7b89"
 is_featured: false
+owned: true
 ---
 
-The Book of Yog is a 3D idle RPG game presenting with Cel-Shading skills. You can call heroes, develop the kingdom and explore secrets of the lost world. Dozens of heroes, hundreds of skills, thousands of equipment, free combinations, come and form the most powerful team that belongs to you!
+The Book of Yog is a 3D idle RPG game. You can rally heroes, develop the kingdom and explore the secrets of a lost world. Dozens of heroes, hundreds of skills, thousands of loot for you to combine freely. Come to embark on a journey to build the strongest team!

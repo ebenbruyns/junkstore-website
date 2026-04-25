@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T02:44:09.043Z",
+  "last_updated": "2026-04-25T05:55:40.979Z",
   "total_tested_games": 989,
   "featured_games": 0,
   "storefronts": {
@@ -26,164 +26,164 @@
   },
   "recent_updates": [
     {
+      "title": "Monster Harvest",
+      "storefront": "Epic",
+      "slug": "monster-harvest",
+      "date_tested": "April '26",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:55:38.007Z"
+    },
+    {
+      "title": "Symmetry",
+      "storefront": "Epic",
+      "slug": "symmetry",
+      "date_tested": "Mar '26",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:55:35.366Z"
+    },
+    {
+      "title": "Cozy Grove",
+      "storefront": "Epic",
+      "slug": "cozy-grove",
+      "date_tested": "Mar '26",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:55:31.028Z"
+    },
+    {
+      "title": "Turnip Boy Robs a Bank",
+      "storefront": "Epic",
+      "slug": "turnip-boy-robs-a-bank",
+      "date_tested": "Mar '26",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:55:28.763Z"
+    },
+    {
+      "title": "The Darkside Detective A Fumble in the Dark",
+      "storefront": "Epic",
+      "slug": "the-darkside-detective-a-fumble-in-the-dark",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:55:23.768Z"
+    },
+    {
+      "title": "Dreamscaper",
+      "storefront": "Epic",
+      "slug": "dreamscaper",
+      "date_tested": "Jan '26",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:53:59.906Z"
+    },
+    {
+      "title": "Sorry We're Closed",
+      "storefront": "Epic",
+      "slug": "sorry-were-closed",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:53:57.387Z"
+    },
+    {
+      "title": "Jotunnslayer: Hordes of Hel",
+      "storefront": "Epic",
+      "slug": "jotunnslayer-hordes-of-hel",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:53:55.166Z"
+    },
+    {
+      "title": "Hogwarts Legacy",
+      "storefront": "Epic",
+      "slug": "hogwarts-legacy",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:53:52.663Z"
+    },
+    {
+      "title": "The Darkside Detective",
+      "storefront": "Epic",
+      "slug": "the-darkside-detective",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:53:47.522Z"
+    },
+    {
+      "title": "LEGO® 2K Drive",
+      "storefront": "Epic",
+      "slug": "lego-2k-drive",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:53:44.904Z"
+    },
+    {
+      "title": "Goat Simulator 3",
+      "storefront": "Epic",
+      "slug": "goat-simulator-3",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:53:42.133Z"
+    },
+    {
       "title": "Gunslugs",
       "storefront": "GOG",
       "slug": "gunslugs",
       "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2026-04-24T02:44:06.939Z"
+      "updated_at": "2026-04-25T05:53:39.751Z"
     },
     {
-      "title": "Subterrain: Mines of Titan",
-      "storefront": "Amazon",
-      "slug": "subterrain-mines-of-titan",
-      "date_tested": "Sep '25",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:44:02.302Z"
-    },
-    {
-      "title": "Minabo: A Walk Through Life",
-      "storefront": "Amazon",
-      "slug": "minabo-a-walk-through-life",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:44:00.161Z"
-    },
-    {
-      "title": "Sapphire Safari",
-      "storefront": "GOG",
-      "slug": "sapphire-safari",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:43:58.090Z"
-    },
-    {
-      "title": "JDM: Rise of the Scorpion",
-      "storefront": "GOG",
-      "slug": "jdm-rise-of-the-scorpion",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:43:56.025Z"
-    },
-    {
-      "title": "Raidborn",
-      "storefront": "GOG",
-      "slug": "raidborn",
-      "date_tested": "Nov '24",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:43:53.942Z"
-    },
-    {
-      "title": "Flipon",
-      "storefront": "GOG",
-      "slug": "flipon",
-      "date_tested": "Dec '24",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:43:51.879Z"
-    },
-    {
-      "title": "Hell Division",
-      "storefront": "GOG",
-      "slug": "hell-division",
-      "date_tested": "Sept '24",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:43:49.829Z"
-    },
-    {
-      "title": "Diggles: The Myth of Fenris",
-      "storefront": "GOG",
-      "slug": "diggles-the-myth-of-fenris",
-      "date_tested": "Nov '24",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:43:44.380Z"
-    },
-    {
-      "title": "Ascendant",
-      "storefront": "GOG",
-      "slug": "ascendant",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:43:42.245Z"
-    },
-    {
-      "title": "Star Wars: Knights of the Old Republic II - The Sith Lords",
-      "storefront": "GOG",
-      "slug": "star-wars-knights-of-the-old-republic-ii-the-sith-lords",
-      "date_tested": "July '24",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:42:59.212Z"
-    },
-    {
-      "title": "Amnesia: The Bunker",
-      "storefront": "GOG",
-      "slug": "amnesia-the-bunker",
-      "date_tested": "Oct '24",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:42:59.212Z"
-    },
-    {
-      "title": "Absolute Drift",
-      "storefront": "GOG",
-      "slug": "absolute-drift",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:42:59.212Z"
-    },
-    {
-      "title": "Grime",
+      "title": "Universe For Sale",
       "storefront": "Epic",
-      "slug": "grime",
-      "date_tested": "Sept '24",
+      "slug": "universe-for-sale",
+      "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2026-04-24T02:42:59.211Z"
+      "updated_at": "2026-04-25T05:53:37.525Z"
     },
     {
-      "title": "Scarf",
+      "title": "Godzilla Voxel Wars",
       "storefront": "Epic",
-      "slug": "scarf",
-      "date_tested": "Oct '24",
+      "slug": "godzilla-voxel-wars",
+      "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2026-04-24T02:42:59.211Z"
+      "updated_at": "2026-04-25T05:53:35.125Z"
     },
     {
-      "title": "The Falconeer",
-      "storefront": "GOG",
-      "slug": "the-falconeer",
-      "date_tested": "Sept '24",
+      "title": "Zoeti",
+      "storefront": "Epic",
+      "slug": "zoeti",
+      "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2026-04-24T02:42:59.211Z"
+      "updated_at": "2026-04-25T05:53:32.603Z"
     },
     {
-      "title": "Ancient Enemy",
-      "storefront": "GOG",
-      "slug": "ancient-enemy",
+      "title": "ScourgeBringer",
+      "storefront": "Epic",
+      "slug": "scourgebringer",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:53:30.115Z"
+    },
+    {
+      "title": "New Tales from the Borderlands",
+      "storefront": "Epic",
+      "slug": "new-tales-from-the-borderlands",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:53:27.569Z"
+    },
+    {
+      "title": "Gas Station Simulator",
+      "storefront": "Epic",
+      "slug": "gas-station-simulator",
+      "date_tested": "Nov '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T05:53:24.687Z"
+    },
+    {
+      "title": "Vampire: The Masquerade - Reckoning of New York",
+      "storefront": "Epic",
+      "slug": "vampire-the-masquerade-reckoning-of-new-york",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2026-04-24T02:42:59.210Z"
-    },
-    {
-      "title": "Arcade Paradise",
-      "storefront": "GOG",
-      "slug": "arcade-paradise",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:42:59.210Z"
-    },
-    {
-      "title": "BioShock™ Remastered",
-      "storefront": "Epic",
-      "slug": "bioshock-remastered",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:42:59.210Z"
-    },
-    {
-      "title": "BioShock 2 Remastered",
-      "storefront": "GOG",
-      "slug": "bioshock-2-remastered",
-      "date_tested": "Jan '25",
-      "is_featured": false,
-      "updated_at": "2026-04-24T02:42:59.210Z"
+      "updated_at": "2026-04-25T05:53:07.791Z"
     }
   ]
 }

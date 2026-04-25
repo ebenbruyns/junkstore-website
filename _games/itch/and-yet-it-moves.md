@@ -17,9 +17,15 @@ proton_version: ""
 publisher: DeNA Co., Ltd., Broken Rules
 developer: Broken Rules
 genre: Indie, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "April 2, 2009"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Japanese","Spanish - Spain"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/18700/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "131126"
 is_featured: false
+owned: true
 ---
 
 And Yet It Moves is a puzzle-platformer, set in a unique world, made of ripped paper. Within the paper-collage you can jump, run and last but certainly not least: rotate the world. Learn how to apply the physical consequences of rotation to master the many tricky situations you may encounter.

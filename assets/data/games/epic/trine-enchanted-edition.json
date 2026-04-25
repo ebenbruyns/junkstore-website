@@ -35,10 +35,83 @@
   "shortname": "91eac4ac00304bcc9d7d4a55a95894b3",
   "publisher": "Frozenbyte",
   "developer": "Frozenbyte",
-  "releasedate": "2 Jul, 2009",
-  "genre": "Action, Adventure, Indie",
-  "description": "Three Heroes make their way through dangers untold in a fairytale world of great castles and strange machinery, featuring physics-based puzzles, beautiful sights and online co-op.",
+  "releasedate": "2025-12-31T16:00:00.000Z",
+  "genre": "Puzzle, Action-Adventure, Platformer",
+  "description": "Spellbound by the magical object Trine, three heroes must join forces to overcome obstacles and puzzles in a fully interactive physics-based world, battle the undead and their minions, and restore balance to the kingdom!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1336",
+      "name": "Action-Adventure"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 6247,
+  "igdb_url": "https://www.igdb.com/games/6247",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Spellbound by the magical object Trine, three heroes must join forces to overcome obstacles and puzzles in a fully interactive physics-based world, battle the undead and their minions, and restore balance to the kingdom!",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/35700/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/35700/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/35700/capsule_231x87.jpg",
@@ -58,6 +131,7 @@
   ],
   "metacritic_score": 80,
   "metacritic_url": "https://www.metacritic.com/game/pc/trine?ftag=MCD-06-10aaa1f",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -68,5 +142,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-31T07:27:11.846Z",
-  "updated_at": "2026-02-07T22:06:38.395Z"
+  "updated_at": "2026-04-25T02:17:36.483Z"
 }

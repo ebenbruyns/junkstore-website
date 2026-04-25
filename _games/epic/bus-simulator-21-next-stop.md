@@ -14,12 +14,18 @@ date_tested: "Dec '24"
 proton_version: ""
 
 # Game Info
-publisher: astragon Entertainment GmbH
-developer: stillalive studios
-genre: Strategy, Simulator
-release_date: "September 7, 2021"
+publisher: Astragon Entertainment GmbH
+developer: Stillalive Studios
+genre: Simulation
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "May 17, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/146828"
+was_free_before: true
+giveaway_events: [{"start":"2024-12-05T16:00:00.000Z","end":"2024-12-12T16:00:00.000Z","type":null,"id":"10adac482d1647e1afc237b66dc45066"}]
 
 # Images
 banner_image: "https://images.gog.com/ec43d7b7929a83417fb2730120ab9970b8ff9d9a584ddaae7ef52219d9fc4e75.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "0fcb6881984f4e9ab91f5e22e4bf844c"
 is_featured: false
+owned: true
 ---
 
-Experience the daily life of a bus driver in two open world cities either in the USA or Europe. Drive up to 30 licensed buses by international manufacturers, including a double-decker and e-buses. Take your passengers to their destinations safely and on time - either in single- or multiplayer mode.
+It's your stop! Bus Simulator 21 Next Stop is here! Enjoy many game improvements and a brand-new game mode with this comprehensive update.

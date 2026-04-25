@@ -7,7 +7,7 @@
   "gog_url": "https://www.gog.com/en/game/bioshock_infinite",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/BioShock_Infinite",
   "notes": "Works out of the box!",
   "date_tested": "Feb '25",
   "decky_rating": "green",
@@ -37,8 +37,93 @@
   "developer": "Irrational Games",
   "releasedate": "2013-02-26T00:00:00+0000",
   "genre": "Adventure, Shooter",
-  "description": "BioShock Infinite is the third game in the BioShock series. It is not a direct sequel/prequel to any of the previous BioShock games but takes place in an entirely different setting, although it shares similar features, gameplay and concepts with the previous games. BioShock Infinite features a range of environments that force the player to adapt, with different weapons and strategies for each situation. Interior spaces feature close combat with enemies, but unlike previous games set in Rapture, the setting of Infinite contains open spaces with emphasis on sniping and ranged combat against as many as fifteen enemies at once.",
+  "description": "Indebted to the wrong people, private investigator Booker DeWitt must take on an impossible task: travel to Columbia, a flying city above the clouds, and rescue a mysterious woman named Elizabeth. Includes Burial at Sea Episodes 1/2 and Clash in the Clouds.",
   "size": "42067504191\n",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1185",
+      "name": "FPS"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1218",
+      "name": "Horror"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 538,
+  "igdb_url": "https://www.igdb.com/games/538",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Indebted to the wrong people, private investigator Booker DeWitt must take on an impossible task: travel to Columbia, a flying city above the clouds, and rescue a mysterious woman named Elizabeth. Includes Burial at Sea Episodes 1/2 and Clash in the Clouds.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/7f5f0b28a2d93580010dec745b655bbfa4185ac90049895baa4fce7fc12f2fdd.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/1712b2e8feb95e9e8237299d08168c2ad9aa1c7620b3463367260b0403faab6a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/774616f1d941ceb13b598657f1641caa2891b9c90f06ad5953ec9a688382bf87.jpg?namespace=gamesdb",
@@ -51,6 +136,7 @@
   ],
   "metacritic_score": 94,
   "metacritic_url": "https://www.metacritic.com/game/pc/bioshock-infinite?ftag=MCD-06-10aaa1f",
+  "hltb_id": 1068,
   "hltb_main": "11.5 hrs",
   "hltb_main_extra": "16 hrs",
   "hltb_completionist": "28.5 hrs",
@@ -62,5 +148,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2025-08-11T02:15:52.674Z"
+  "updated_at": "2026-04-25T02:24:30.409Z"
 }

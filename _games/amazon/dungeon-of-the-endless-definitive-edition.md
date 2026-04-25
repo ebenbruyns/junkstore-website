@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Sega, Amplitude Studios
 developer: Amplitude Studios
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Platform, Real Time Strategy (RTS)
+franchise: 
+age_rating_summary: 
 release_date: "October 27, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French","German","Spanish - Spain","Japanese*","Korean","Polish","Simplified Chinese","Traditional Chinese","Portuguese - Brazil"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/62567cb03b930fcc01784ef299ab1dc174671bfce46195c80069504f0aa7a738.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.e9b762cd-e130-4c5b-aaf5-070d785d1cd2"
 is_featured: false
+owned: true
 ---
 
 Dungeon of the Endless - Definitive Edition

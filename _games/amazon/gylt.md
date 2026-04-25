@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Tequila Works
 developer: Tequila Works
 genre: Action, Adventure
+franchise: 
+age_rating_summary: 
 release_date: "July 6, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Korean","Danish","Finnish","Japanese","Norwegian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/2206210/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.35054121-1014-4c44-a19e-4ab829f8ea86"
 is_featured: false
+owned: true
 ---
 
 Shape your fears… Fear the shapes. Embark on a journey where you face your worst fears and are confronted with the emotional impact of your actions in this narrative adventure game with puzzles, stealth and action.

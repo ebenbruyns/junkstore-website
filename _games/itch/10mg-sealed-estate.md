@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 10mg
 developer: Gesinimo Games
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1435480/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "773883"
 is_featured: false
+owned: true
 ---
 
 A psychological horror game in which you are locked inside by a creature ready to hunt you down, whilst you figure out how to escape from the estate you have been locked inside. Who lived here? Who are the voices haunting your every step?

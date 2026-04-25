@@ -17,9 +17,15 @@ proton_version: ""
 publisher: DotEmu
 developer: Leikir Studio
 genre: role-playing, strategy, indie
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/4d390717f3253d98e8a5deb4d90543c696ab806a4428208270aab80778436b0b.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/93937"
 store_url: "https://www.gog.com/en/game/metal_slug_tactics"
 protondb_url: "https://www.protondb.com/app/1590760"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Metal_Slug_Tactics"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1366624267"
 is_featured: false
+owned: false
 ---
 
 METAL SLUG is back with a brand new entry in the METAL SLUG universe. Discover a new side of the emblematic run'n'gun and jump into a dynamic tactical RPG with roguelike elements!

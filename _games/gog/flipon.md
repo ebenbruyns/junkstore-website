@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Plug In Digital, TyGAMES
 developer: Pixelnest Studio, Damien Mayance
 genre: adventure, indie, puzzle, arcade
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: []
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c36bdcadaaee869ebb7684271972e3ae2d3eb6df06e6e0baed71912426887fe5.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1897057118"
 is_featured: false
+owned: false
 ---
 
 Join Kat and her crew in an epic quest in Flipon, a juicy, fun and fast-paced arcade puzzle game!

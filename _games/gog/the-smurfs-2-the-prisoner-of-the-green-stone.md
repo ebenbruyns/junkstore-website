@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Microïds
 developer: OSome Studio
 genre: Role-playing (RPG), Adventure, Platform, Shooter
+franchise: 
+age_rating_summary: 
 release_date: "November 2, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b7b75ee3133c6c0e1d34b2c98e38f2f5fb131d29f1655d1220a69de1325c8900.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/128830"
 store_url: "https://www.gog.com/en/game/the_smurfs_2_the_prisoner_of_the_green_stone"
 protondb_url: "https://www.protondb.com/app/2397500"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Smurfs_2%3A_The_Prisoner_of_the_Green_Stone"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1906012961"
 is_featured: false
+owned: true
 ---
 
 With your crack team and the help of the SmurfoMix, liberate the village of the Smurfs from the grip of the Green Stone!

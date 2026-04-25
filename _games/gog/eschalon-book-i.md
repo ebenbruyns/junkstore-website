@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Basilisk Games
 developer: Basilisk Games
 genre: Role-playing (RPG), Indie
+franchise: 
+age_rating_summary: 
 release_date: "November 19, 2007"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/83762dbbd7ac18d02cb40ff275cc8ef6760e8a3e9a4d22b7cba543474fe08f7a.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659221"
 is_featured: false
+owned: true
 ---
 
 Classic turn-based role-playing game, played with one customizable character. The player travels between towns, does quests and explores dungeons.

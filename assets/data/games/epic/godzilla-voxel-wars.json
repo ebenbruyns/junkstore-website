@@ -33,12 +33,128 @@
   "cant_test_linux": false,
   "databaseId": "1fb35ad93dd64570a1a8b08525ea83de",
   "shortname": "1fb35ad93dd64570a1a8b08525ea83de",
-  "publisher": "TOHO CO., LTD.",
-  "developer": "TOHO CO., LTD.",
-  "releasedate": "31 Oct, 2023",
-  "genre": "Indie, Simulation, Strategy",
-  "description": "Get ready to battle using your brain! A full-fledged turn-based strategy game with a difficulty level: GODZILLA! Godzilla, Mothra, King Ghidorah, and more are here to rampage across an 8x8 grid! Control Toho monsters and save the world from the Fungoid mushroom invasion!",
+  "publisher": "TOHO Games",
+  "developer": "TOHO Games, Nukenin",
+  "releasedate": "2023-11-08T03:00:00.000Z",
+  "genre": "Turn-Based Strategy, Indie, Puzzle",
+  "description": "Godzilla, Mothra, King Ghidorah, and more are here to rampage across an 8x8 grid! Control Toho monsters and save the world from the Fungoid mushroom invasion! Relish the sense of accomplishment earned from clearing each stage of this all-new strategy puzzle game!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1088",
+      "name": "Turn-Based Strategy"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21150",
+      "name": "Challenging Puzzles"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1088",
+      "name": "Turn-Based Strategy"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 264341,
+  "igdb_url": "https://www.igdb.com/games/264341",
+  "giveaway_events": [
+    {
+      "start": "2025-11-20T16:00:00.000Z",
+      "end": "2025-11-27T16:00:00.000Z",
+      "type": null,
+      "id": "88a37c5ab8db412380708a2b9933d626"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Godzilla, Mothra, King Ghidorah, and more are here to rampage across an 8x8 grid! Control Toho monsters and save the world from the Fungoid mushroom invasion! Relish the sense of accomplishment earned from clearing each stage of this all-new strategy puzzle game!",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2439780/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2439780/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2439780/capsule_231x87.jpg",
@@ -54,15 +170,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
+  "hltb_id": 139800,
+  "hltb_main": "18.5 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/139800",
   "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-23T21:52:55.979Z",
-  "updated_at": "2026-02-07T22:06:38.394Z"
+  "updated_at": "2026-04-25T05:53:35.125Z"
 }

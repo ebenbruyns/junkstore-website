@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Akupara Games
 developer: Die Gute Fabrik
 genre: Role-playing (RPG), Adventure, Indie, Point-and-click, Music
+franchise: 
+age_rating_summary: 
 release_date: "September 19, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/9c81279da9d22a71d274dba03fdc4aac75770f2e853aa83e4f89a5eed2a8930e.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/70711"
 store_url: "https://www.gog.com/en/game/mutazione"
 protondb_url: "https://www.protondb.com/app/1080750"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mutazione"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/mutazione?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1621558174"
 is_featured: false
+owned: true
 ---
 
 Mutazione is a adventure exploration video game set on an island where the player tends to the local gardens and learns more about the town's people. The game takes place over different days, each with unique events. While gardening the player can grow different types of plants, from bushes to trees. Seeds can be found all over the island from other plants. The player needs to give the plant the required space in order for it to grow and different ones require other types of soil. Each plant also creates different sounds, which when combined with other greenery can create music.

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Fellow Traveller
 developer: Power Struggle Games
 genre: Adventure, Strategy, Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "May 7, 2021"
 game_modes: ["Single player"]
 languages: ["English*","Simplified Chinese","French*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a9b464c1d2458d281bbb60eb71a4457ebc4ad44ae87e0d7eb5395af942ac33a7.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.1509ede6-ce29-4066-89cb-addbe88ed5e9"
 is_featured: false
+owned: true
 ---
 
 Experience the obsessive life of a mid-level stockbroker, pursuing wealth and success at the cost of everything else... possibly even your freedom.

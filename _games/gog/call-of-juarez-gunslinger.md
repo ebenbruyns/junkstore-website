@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Ubisoft Entertainment, Techland
 developer: Techland
 genre: Adventure, Shooter, Arcade
+franchise: 
+age_rating_summary: 
 release_date: "May 22, 2013"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/3a9fccbeba52db60fd9bbe32e7b72b2ea3258fc2b45703d84bf2c3b607cf1383.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2015389384"
 is_featured: false
+owned: true
 ---
 
 From the dust of a gold mine to the dirt of a saloon, Call of Juarez: Gunslinger is a real homage to the Wild West tales. Live the epic and violent journey of a ruthless bounty hunter on the trail of the West’s most notorious outlaws. Blurring the lines between man and myth, this adventure made of memorable encounters unveils the untold truth behind some of the greatest legends of the Old West.

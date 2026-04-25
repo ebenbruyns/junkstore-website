@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": true,
@@ -35,10 +35,110 @@
   "shortname": "cccdbadd66124f609ba706a9c4c73756",
   "publisher": "Tripwire Interactive",
   "developer": "Sweet Bandits Studios",
-  "releasedate": "2023-03-21T00:00:00+0000",
-  "genre": "Indie, Shooter, Tactical",
-  "description": "Go undercover as the world’s greatest spies in this tense multiplayer game of subterfuge. Disguise as anyone, deploy an arsenal of high-tech gadgets or neutralize the competition. As long as you extract with the objective, no trick is too dirty when you work for Deceive Inc.",
+  "releasedate": "2023-03-21T15:00:00.000Z",
+  "genre": "Shooter, Strategy",
+  "description": "Go undercover as the world’s greatest spies in this multiplayer game of subterfuge. Disguise as anyone, deploy high-tech gadgets or neutralize the competition. As long as you extract with the objective, no trick is too dirty when you work for DECEIVE INC.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1115",
+      "name": "Strategy"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 123192,
+  "igdb_url": "https://www.igdb.com/games/123192",
+  "giveaway_events": [
+    {
+      "start": "2024-11-07T16:00:00.000Z",
+      "end": "2024-11-14T16:00:00.000Z",
+      "type": null,
+      "id": "327e2f6dbe2b4859b3e1ba4f69dff5c2"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Go undercover as the world’s greatest spies in this multiplayer game of subterfuge. Disguise as anyone, deploy high-tech gadgets or neutralize the competition. As long as you extract with the objective, no trick is too dirty when you work for DECEIVE INC.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/65b1eaeda7d1a54fd85ba5bfdf50a443b10d8ff9634aa708453e12d8b4f3106b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/adad0744921476ba3e9a65eed9eef7e39dfdff19de770df47a28c622051f2a0d.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f8ab659438a6d2d0077e088bddf8a168b747f22349afe5e289e5b14a17d3fad7.jpg?namespace=gamesdb",
@@ -61,15 +161,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "109371",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/109371",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-03-10T04:23:31.077Z"
+  "updated_at": "2026-04-25T02:42:30.290Z"
 }

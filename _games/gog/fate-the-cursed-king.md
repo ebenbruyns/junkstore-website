@@ -17,9 +17,15 @@ proton_version: ""
 publisher: WildTangent
 developer: WildTangent
 genre: Action, Adventure, RPG
+franchise: 
+age_rating_summary: 
 release_date: "November 19, 2014"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/303690/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1971113392"
 is_featured: false
+owned: true
 ---
 
 Are you ready for the FATE-IEST of the FATE games? Welcome to the final chapter in the classic, action RPG series! FATE: The Cursed King has new weapons, spells, armor and AI-controlled allies! Wait, what?! Allies?? That’s right. This FATE game IS A PARTY. Woo! Party system!

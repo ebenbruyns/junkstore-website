@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie, Arcade",
   "description": "Explore, fight and solve puzzles. Uncover the secrets of a mysterious alien planet in this open world metroidvania adventure, where nothing is what it seems…\n\nAccidentally stranded during a crucial mission, the forma.8 probe will need to survive and accomplish the unthinkable. What really happened on this planet? Who, or what lived here? And when? What’s the secret behind its history? These are only but a handful of the questions in need of answers. Or else…everything will be lost.\n\nThe peculiar visual style, coupled with a deep lore and classic action-adventure mechanics makes forma.8 a unique experience, worth savoring and enjoy to the fullest.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/264596cde05b387c14fb208b70c4622b5c7097221354eaff2eed981cf95f9ae9.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/510240/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/510240/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.994Z",
-  "updated_at": "2025-09-30T00:30:43.278Z"
+  "updated_at": "2026-04-25T00:55:25.121Z"
 }

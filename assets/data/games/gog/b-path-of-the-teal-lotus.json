@@ -39,6 +39,17 @@
   "genre": "Action, Adventure, Indie",
   "description": "Flow gracefully through a colorful, hand-drawn 2.5D action platformer inspired by Japanese folklore. Engage in acrobatic aerial combat, unlock powerful mystical abilities, and explore an interconnected world of myth as you seek to unravel the mysteries of your origin.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1614440/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1614440/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1614440/capsule_231x87.jpg",
@@ -57,8 +68,9 @@
     "Traditional Chinese",
     "Ukrainian"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 77,
+  "metacritic_url": "https://www.metacritic.com/game/bo-path-of-the-teal-lotus/",
+  "hltb_id": 111259,
   "hltb_main": "10 hrs",
   "hltb_main_extra": "13.5 hrs",
   "hltb_completionist": "17.5 hrs",
@@ -70,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-18T19:50:06.448Z",
-  "updated_at": "2026-02-07T22:06:38.401Z"
+  "updated_at": "2026-04-25T00:57:47.751Z"
 }

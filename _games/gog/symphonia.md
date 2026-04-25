@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Headup, Sunny Peak
 developer: Headup, Sunny Peak
 genre: Adventure, Indie, Platform, Music
+franchise: 
+age_rating_summary: 
 release_date: "June 23, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/6e6ec4ef194b95f52022d122785c0c70e5464e41e2d0e331e39cc746acf5da3a.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/134813"
 store_url: "https://www.gog.com/game/symphonia"
 protondb_url: "https://www.protondb.com/app/1865960"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Symphonia_%282024%29"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/symphonia/"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2069516170"
 is_featured: false
+owned: true
 ---
 
 Embody a violinist and awaken a gigantic, forsaken world in this highly poetic platformer! Using your violin and bow, move towards the core of the realm to understand your role in this universe and play the best Concerto!

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Plug In Digital, Dear Villagers
 developer: Modern Storyteller
 genre: Role-playing (RPG), Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "July 28, 2021"
 game_modes: ["Single player"]
 languages: ["English*","German","French","Spanish - Spain","Simplified Chinese","Russian","Japanese","Korean*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/5ef9bb244635d784c999df8b94ae955202347102ec55e1cee7f02e329c3cc236.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.e31e4571-b8d9-444e-852f-93846749eb40"
 is_featured: false
+owned: true
 ---
 
 The Forgotten City is a mystery adventure game of exploration and deduction, and a re-imagining of the critically acclaimed mod of the same name. Combat is an option, but violence will only get you so far. Only by questioning an intertwined community of colorful characters, cleverly exploiting the time loop, and making difficult moral choices can you hope to solve this epic mystery. Here, your decisions matter. The fate of the city is in your hands.

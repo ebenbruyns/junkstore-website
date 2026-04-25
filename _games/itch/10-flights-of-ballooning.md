@@ -17,9 +17,15 @@ proton_version: ""
 publisher: 
 developer: 
 genre: Arcade
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/905bea3aaf803e06104b6a351be3e7c99754978366483f5e1883cb9dd6160625.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "135677"
 is_featured: false
+owned: true
 ---
 
 10 Flights of Ballooning is 10 mini-games based on the Balloon Trip mode in the original game Balloon Fight for NES.

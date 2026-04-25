@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Electronic Arts
 developer: Pandemic Studios
 genre: role-playing, adventure, shooter, tactical
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/14ca8f18e415dc7491f3721c20dba94b04fca72d5ce76e5f6fb525e8027ee0da.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1403000599"
 is_featured: false
+owned: false
 ---
 
 Experience the ultimate open-world action/adventure as The Saboteur. Fight, climb, and race your way through a uniquely stylized version of Nazi-occupied France...

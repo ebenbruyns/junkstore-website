@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure, Indie, Platform, Puzzle",
   "description": "Be Flint, who is doing his best to keep his grandma's park up and running and make it a place for the campers to enjoy. Learn the camper's wishes and build whatever their hearts desire to attract even more quirky characters and look forward to whimsical conversations and quests.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/07f92c3c3b4f1918f297906f7f9f6c7a570346d17f27f81e580727dc6a0be3a3.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/57e2fd16d796345e8d9a48a4cf16d875ea65cd130c6b861bdf6ea8aeb7b9816e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1b0d706c51f2218852c48d2b3bfe2a427a7d98a9cb56e8ea0db4dd43a156a526.jpg?namespace=gamesdb",
@@ -60,6 +71,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": 90011,
   "hltb_main": "3 hrs",
   "hltb_main_extra": "3.5 hrs",
   "hltb_completionist": "5 hrs",
@@ -71,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-03-10T04:23:31.077Z"
+  "updated_at": "2026-04-25T00:42:10.504Z"
 }

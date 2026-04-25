@@ -14,12 +14,18 @@ date_tested: "Sept '25"
 proton_version: ""
 
 # Game Info
-publisher: IGG.COM
-developer: IGG.COM
-genre: Role-playing (RPG), Strategy, Real Time Strategy (RTS)
-release_date: "March 1, 2016"
+publisher: IGG SINGAPORE PTE. LTD.
+developer: IGG SINGAPORE PTE. LTD.
+genre: RPG, Strategy
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "July 17, 2023"
 game_modes: ["Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English","French","Italian","German","Spanish - Spain","Ukrainian","Russian","Turkish","Japanese","Polish"]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21125","name":"Competitive Community"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"33639","name":"Promotional Content"},{"id":"22776","name":"Cross Platform"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
+igdb_url: "https://www.igdb.com/games/29009"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c3d689d869bcc7ce653343ac67cdf5efa45eeed441cf4dfe751b3d7395036fe1.jpg?namespace=gamesdb"
@@ -50,7 +56,7 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/61832"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lords-mobile-014f32"
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "827f7c9f19de4ad89537be44d819a238"
 is_featured: false
+owned: true
 ---
 
-Want to clash with 50 million global players? Dive into LORDS MOBILE, the real-time-strategy mobile MMO game.
-
-Explore exotic magical lands thrown into chaos by terrifying monsters and powerful enemies. Choose your favorite heroes, make new friends, and charge fearlessly into war! Strike down your foes and build an empire!
+Clash with global players in this epic real-time strategy game!

@@ -14,12 +14,18 @@ date_tested: "Oct '24"
 proton_version: ""
 
 # Game Info
-publisher: Merge Games
+publisher: Silver Lining Interactive
 developer: Infuse Studio
-genre: Adventure, Indie, Puzzle
-release_date: "November 13, 2019"
+genre: Adventure
+franchise: Spirit of the North
+age_rating_summary: ESRB Everyone
+release_date: "April 20, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/107141"
+was_free_before: true
+giveaway_events: [{"start":"2022-09-14T15:00:00.000Z","end":"2022-09-21T15:00:00.000Z","type":null,"id":"4460a8fcdc3e4f48a11f3174656f8a96"}]
 
 # Images
 banner_image: "https://images.gog.com/dff17a7e5242b5c3fc8948f0548f152ed08c7e9987783d5c0c1c75b803af23dc.jpg?namespace=gamesdb"
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "5 hrs"
+hltb_main_extra: "6 hrs"
+hltb_completionist: "8 hrs"
+hltb_url: "https://howlongtobeat.com/game/70825"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/spirit-of-the-north"
+store_url: "https://store.epicgames.com/en-US/p/spirit-of-the-north-f58a66"
 protondb_url: "https://www.protondb.com/app/1213700"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spirit_of_the_North"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "d2d941e5c1ec44ae9e87e9e7cdddf1dd"
 is_featured: false
+owned: true
 ---
 
-"Spirit of the North is a single player, 3rd-person adventure game inspired by the breathtaking and mysterious landscapes of Iceland. The story takes root from various pieces of Nordic folklore. The game is unique in that it purposefully has no dialog or narrative. Players must breathe in their surroundings to solve various puzzles and speculate the meaning of a lost ancient civilization. Play as an ordinary red fox who’s story becomes entwined with the guardian of the Northern Lights, a female spirit fox. As you journey over the mountains and under red stained skies you’ll discover more about your companion and a land left in ruin."
+Spirit of the North is a single-player 3rd-person adventure game inspired by the breathtaking and mysterious landscapes of Iceland. The story takes root from various pieces of Nordic folklore.

@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Frictional Games
 developer: Frictional Games
-genre: Adventure, Indie, Puzzle
-release_date: "September 8, 2010"
+genre: Horror, First Person
+franchise: Amnesia
+age_rating_summary: ESRB Mature 17+
+release_date: "May 1, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"11631","name":"Requires 2FA"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/111"
+was_free_before: true
+giveaway_events: [{"start":"2020-04-29T15:00:00.000Z","end":"2020-05-06T15:00:00.000Z","type":null,"id":"785b37a897c14ad589d2d5f79aaf372e"}]
 
 # Images
 banner_image: "https://images.gog.com/26960cb6d47a6a0709e2644c1626a780fabccf5c65741fd033abfd50f1024657.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "93228a1a7b2b4205811d8edf930a0c18"
 is_featured: false
+owned: true
 ---
 
-Amnesia: The Dark Descent is a survival horror video game by Frictional Games. The game features a protagonist named Daniel exploring a dark and foreboding castle, while trying to maintain his sanity by avoiding monsters and other terrifying obstructions. The game was critically well received.
+Amnesia: The Dark Descent, a first person survival horror. A game about immersion, discovery and living through a nightmare. An experience that will chill you to the core.

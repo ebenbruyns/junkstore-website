@@ -39,6 +39,87 @@
   "genre": "Fighting",
   "description": "MultiVersus is a free-to-play platform fighter that brings the depth of iconic WB stars to life across the nearly endless possibilities of play.\n\nMultiVersus was taken offline permanently and delisted from storefronts on May 30, 2025, while remaining playable through its offline modes.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1344",
+      "name": "Fighting"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1203",
+      "name": "Multiplayer"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1344",
+      "name": "Fighting"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "MultiVersus is a free-to-play platform fighter that brings the depth of iconic WB stars to life across the nearly endless possibilities of play. ",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/9349f585260c2edf1fa4e2b58919294180e4d4424d0f8d264a637cb40d810776.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/8911efde21f0ea432e0e48ba914cf490e002e251dd3d1c575aa991401b6fa709.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/4fda50311c1fc36b01ee45ca91ebf48ec16067c1a716b43bae6a947bc03c9c27.jpg?namespace=gamesdb",
@@ -62,15 +143,16 @@
   ],
   "metacritic_score": 75,
   "metacritic_url": "https://www.metacritic.com/game/pc/multiversus?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 100706,
+  "hltb_main": "6.1 hrs",
+  "hltb_main_extra": "58.2 hrs",
+  "hltb_completionist": "90.8 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/100706",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-03-24T22:21:36.029Z"
+  "updated_at": "2026-04-25T00:49:00.315Z"
 }

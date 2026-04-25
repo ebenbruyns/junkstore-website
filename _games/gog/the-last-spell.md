@@ -17,9 +17,15 @@ proton_version: ""
 publisher: NIL, NIL
 developer: NIL, NIL
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie, Tactical
+franchise: 
+age_rating_summary: 
 release_date: "March 9, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/9f8813bf0b7e467f0c32e5d76ede9248cbd6e3826955072eea6920b9018eff0e.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/93160"
 store_url: "https://www.gog.com/en/game/the_last_spell"
 protondb_url: "https://www.protondb.com/app/1105670"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Last_Spell"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/the-last-spell?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2081410845"
 is_featured: false
+owned: true
 ---
 
 Defend the last bastion of humanity with your squad of heroes! Exterminate fiendish monsters with magic and brute force by night and re-build your battered city defenses by day in this tactical RPG with rogue-lite mechanics.

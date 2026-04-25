@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/2845610",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/dodo-peak-159276",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Dodo_Peak",
   "notes": "Works out of the box!",
   "date_tested": "April '25",
   "decky_rating": "green",
@@ -33,12 +33,76 @@
   "cant_test_linux": false,
   "databaseId": "30647199e65341c2be84d81fa6964ff0",
   "shortname": "30647199e65341c2be84d81fa6964ff0",
-  "publisher": "Screenwave Media",
-  "developer": "Moving Pieces",
-  "releasedate": "2019-09-12T00:00:00+0000",
-  "genre": "Platform, Puzzle, Arcade",
-  "description": "Play as a dodo bird to find and rescue your lost babies from a series of dangerous peaks. Maneuver them home while avoiding obstacles and enemies!\n\nDodo Peak is a throwback to the classic arcade platformers of the past with a modern twist. Collect coins, dodge sneaky snakes, avoid malevolent monkeys, grab power-ups for extra speed or super strength, and strive for the best time across a stunning variety of handcrafted islands.\n\nAs your pack grows, so does the challenge in bringing them home!",
+  "publisher": "Moving Pieces Interactive",
+  "developer": "Moving Pieces Interactive",
+  "releasedate": "2023-08-03T05:00:00.000Z",
+  "genre": "Puzzle, Retro, Platformer",
+  "description": "A throwback to the classic arcade platformers of the past with a modern twist! Play as a dodo bird to find and rescue your lost babies from a series of dangerous island peaks.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1198",
+      "name": "Retro"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1198",
+      "name": "Retro"
+    },
+    {
+      "id": "1151",
+      "name": "Platformer"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 124397,
+  "igdb_url": "https://www.igdb.com/games/124397",
+  "giveaway_events": [
+    {
+      "start": "2023-08-16T15:00:00.000Z",
+      "end": "2023-08-23T15:00:00.000Z",
+      "type": null,
+      "id": "97576d7026ab4e4181fdf9b8711a95d9"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "A throwback to the classic arcade platformers of the past with a modern twist! Play as a dodo bird to find and rescue your lost babies from a series of dangerous island peaks.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/31558c539aff9c9ad4d5e895cf2fced52f521b2e1fd2d6421bb284e315ec8579.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/abe22218bfc2c3d4466e6c23b4a4bedaed77b76f3e0ea01f220cdbd7c7a042b3.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d0493aaa8cc36e77ef303703f8b8239acea71e698ce35e94ae891d755a605778.jpg?namespace=gamesdb",
@@ -51,15 +115,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 70697,
+  "hltb_main": "2.5 hrs",
+  "hltb_main_extra": "3 hrs",
+  "hltb_completionist": "4 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/70697",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-06T23:02:37.666Z"
+  "updated_at": "2026-04-25T05:41:00.565Z"
 }

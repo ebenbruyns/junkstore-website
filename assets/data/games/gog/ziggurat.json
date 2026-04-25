@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)",
   "description": "Dungeon-Crawling First Person Shooting at its finest! Fast-paced combat! Dozens of perks, spells and enemies! Level ups! Random Dungeons! Traps! Badass bosses! Carrots!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/1fb8861137377afc1af32ffa46c64ff2498336a99d20a5c8cea5ac2929464da8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ffc092094f5230f81fe93b6d71171aac0214fb6fd0c3e423fffc395d6d2c5266.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/398e33ba5bab11dcb7b636a4976d321d180c8809134fa588c9f150cdf53d52f8.jpg?namespace=gamesdb",
@@ -59,6 +70,7 @@
   ],
   "metacritic_score": 75,
   "metacritic_url": "https://www.metacritic.com/game/pc/ziggurat?ftag=MCD-06-10aaa1f",
+  "hltb_id": 21840,
   "hltb_main": "4 hrs",
   "hltb_main_extra": "13.5 hrs",
   "hltb_completionist": "42 hrs",
@@ -70,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2025-09-30T00:30:43.278Z"
+  "updated_at": "2026-04-25T00:53:13.401Z"
 }

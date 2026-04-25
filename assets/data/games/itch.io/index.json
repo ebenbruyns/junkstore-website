@@ -76,36 +76,24 @@
     "zeroranger.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-04-24T02:44:09.006Z",
+  "last_updated": "2026-04-25T05:55:40.963Z",
   "latest_games": [
     {
-      "title": "Roguelight",
-      "slug": "roguelight",
+      "title": "A Short Hike",
+      "slug": "a-short-hike",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Celeste",
+      "slug": "celeste",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Figment",
+      "slug": "figment",
       "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Sector 781",
-      "slug": "sector-781",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "2064: Read Only Memories INTEGRAL",
-      "slug": "2064-read-only-memories-integral",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "A Mortician's Tale",
-      "slug": "a-morticians-tale",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "And Yet It Moves",
-      "slug": "and-yet-it-moves",
-      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
@@ -115,27 +103,39 @@
       "is_featured": false
     },
     {
-      "title": "Arcade Spirits",
-      "slug": "arcade-spirits",
+      "title": "TowerFall Ascension",
+      "slug": "towerfall-ascension",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "WaveCrash!!",
+      "slug": "wavecrash",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "A Good Snowman Is Hard To Build",
+      "slug": "a-good-snowman-is-hard-to-build",
+      "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "[Speer]",
+      "slug": "speer",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Baba Is You",
-      "slug": "baba-is-you",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "CrossCode",
-      "slug": "crosscode",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "Moon Hunters",
-      "slug": "moon-hunters",
+      "title": "ZeroRanger",
+      "slug": "zeroranger",
       "date_tested": "Nov '25",
+      "is_featured": false
+    },
+    {
+      "title": "Underhero",
+      "slug": "underhero",
+      "date_tested": "Oct '25",
       "is_featured": false
     }
   ]

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Spiral Bound Interactive LLC
 developer: Spiral Bound Interactive LLC
 genre: Action, Adventure, Indie, RPG
+franchise: 
+age_rating_summary: 
 release_date: "October 31, 2023"
 game_modes: ["Single-player"]
 languages: ["English","German","Spanish - Spain","Simplified Chinese","Hungarian"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1446350/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1309239762"
 is_featured: false
+owned: true
 ---
 
 Immerse yourself in retro top-down visuals as you face the horrors of Breckenridge Hall through intense first-person combat. Scavenge, solve puzzles, and upgrade your gear. Do whatever it takes to survive—but remember: You Will Die Here Tonight.

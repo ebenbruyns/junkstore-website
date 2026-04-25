@@ -17,6 +17,7 @@
     "aerialknights-never-yield.json",
     "against-all-odds.json",
     "ak-xolotl-together.json",
+    "alan-wake-2.json",
     "alan-wake-ii.json",
     "alan-wake-remastered.json",
     "alba-a-wildlife-adventure.json",
@@ -49,6 +50,7 @@
     "axiom-verge.json",
     "backpack-hero.json",
     "barony.json",
+    "bear-and-breakfast.json",
     "bear-breakfast.json",
     "behind-the-frame-the-finest-scenery.json",
     "beholder.json",
@@ -232,6 +234,7 @@
     "just-die-already.json",
     "kamaeru.json",
     "kardboard-kings-card-shop-simulator.json",
+    "kardboard-kings.json",
     "keylocker-turn-based-cyberpunk-action.json",
     "keywe.json",
     "kid-a-mnesia-exhibition.json",
@@ -351,6 +354,7 @@
     "soulstice.json",
     "spirit-of-the-north.json",
     "stalcraft-x.json",
+    "star-stable-online.json",
     "star-stable.json",
     "star-stuff.json",
     "stasis-bone-totem.json",
@@ -477,66 +481,66 @@
     "zombie-army-4-dead-war.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-04-24T02:44:08.990Z",
+  "last_updated": "2026-04-25T05:55:40.938Z",
   "latest_games": [
     {
-      "title": "Grime",
-      "slug": "grime",
-      "date_tested": "Sept '24",
+      "title": "Monster Harvest",
+      "slug": "monster-harvest",
+      "date_tested": "April '26",
       "is_featured": false
     },
     {
-      "title": "Scarf",
-      "slug": "scarf",
-      "date_tested": "Oct '24",
+      "title": "Symmetry",
+      "slug": "symmetry",
+      "date_tested": "Mar '26",
       "is_featured": false
     },
     {
-      "title": "BioShock™ Remastered",
-      "slug": "bioshock-remastered",
+      "title": "Cozy Grove",
+      "slug": "cozy-grove",
+      "date_tested": "Mar '26",
+      "is_featured": false
+    },
+    {
+      "title": "Turnip Boy Robs a Bank",
+      "slug": "turnip-boy-robs-a-bank",
+      "date_tested": "Mar '26",
+      "is_featured": false
+    },
+    {
+      "title": "The Darkside Detective A Fumble in the Dark",
+      "slug": "the-darkside-detective-a-fumble-in-the-dark",
       "date_tested": "Feb '26",
       "is_featured": false
     },
     {
-      "title": "Ak-xolotl: Together",
-      "slug": "ak-xolotl-together",
-      "date_tested": "July '24",
+      "title": "Dreamscaper",
+      "slug": "dreamscaper",
+      "date_tested": "Jan '26",
       "is_featured": false
     },
     {
-      "title": "The Falconeer",
-      "slug": "the-falconeer",
-      "date_tested": "July '24",
+      "title": "Sorry We're Closed",
+      "slug": "sorry-were-closed",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Dredge",
-      "slug": "dredge",
-      "date_tested": "Aug '25",
+      "title": "Jotunnslayer: Hordes of Hel",
+      "slug": "jotunnslayer-hordes-of-hel",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Dead Island 2",
-      "slug": "dead-island-2",
-      "date_tested": "May '25",
+      "title": "Hogwarts Legacy",
+      "slug": "hogwarts-legacy",
+      "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Cygni: All Guns Blazing",
-      "slug": "cygni-all-guns-blazing",
-      "date_tested": "Aug '24",
-      "is_featured": false
-    },
-    {
-      "title": "Crystal of Atlan",
-      "slug": "crystal-of-atlan",
-      "date_tested": "July '25",
-      "is_featured": false
-    },
-    {
-      "title": "Crime Boss: Rockay City",
-      "slug": "crime-boss-rockay-city",
-      "date_tested": "March '25",
+      "title": "The Darkside Detective",
+      "slug": "the-darkside-detective",
+      "date_tested": "Dec '25",
       "is_featured": false
     }
   ]

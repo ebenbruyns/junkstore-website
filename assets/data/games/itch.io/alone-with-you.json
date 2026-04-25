@@ -39,6 +39,17 @@
   "genre": "Adventure, Indie",
   "description": "Alone With You is a bittersweet sci-fi adventure game that goes right for the heart. Escape a doomed space colony with the help of your troubled AI companion and four chatty holograms in this unique blend of adventure &amp; visual novel storytelling.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/564940/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/564940/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/564940/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 74,
   "metacritic_url": "https://www.metacritic.com/game/pc/alone-with-you?ftag=MCD-06-10aaa1f",
+  "hltb_id": 25032,
   "hltb_main": "6.5 hrs",
   "hltb_main_extra": "7 hrs",
   "hltb_completionist": "11.5 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-14T04:33:07.968Z",
-  "updated_at": "2026-04-23T09:00:12.594Z"
+  "updated_at": "2026-04-25T00:57:47.144Z"
 }

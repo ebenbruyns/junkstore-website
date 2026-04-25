@@ -7,7 +7,7 @@
   "gog_url": "",
   "epic_url": "",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Dungeon_of_Naheulbeuk:_The_Amulet_of_Chaos",
   "notes": "Works out of the box!",
   "date_tested": "Dec '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -35,10 +35,59 @@
   "shortname": "02fac38ee2614c8ba276b1ea7c1acd7c",
   "publisher": "Dear Villagers",
   "developer": "Artefacts Studio",
-  "releasedate": "2020-09-17T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Tactical",
-  "description": "Step into the wacky heroic fantasy universe of the Dungeon of Naheulbeuk. Lead a team of unlikely and clumsy heroes in an epic and challenging tactical RPG. Live an adventure filled with humor, surprises and silly encounters.",
+  "releasedate": "2021-05-25T13:00:00.000Z",
+  "genre": "RPG, Adventure",
+  "description": "The ULTIMATE EDITION includes the base game THE DUNGEON OF NAHEULBEUK: THE AMULET OF CHAOS, the Season Pass of 3 DLC, a Goodies Pack and the game Soundtrack.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "The ULTIMATE EDITION includes the base game THE DUNGEON OF NAHEULBEUK: THE AMULET OF CHAOS, the Season Pass of 3 DLC, a Goodies Pack and the game Soundtrack.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/89a2922654c226b350ef940b728d6606e698d0b880d26d9a0581e5d657a18020.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b64dc1d8c4775f4a05a8e5eb756ef7a25050a1de8ebc647fdb911e6ae874ed9d.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/e23dbbce5b4898944c602adf2b667bb2e81862b85a401b6e73a151cee8e0421b.jpg?namespace=gamesdb",
@@ -51,15 +100,16 @@
   ],
   "metacritic_score": 72,
   "metacritic_url": "https://www.metacritic.com/game/pc/the-dungeon-of-naheulbeuk-the-amulet-of-chaos?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 83359,
+  "hltb_main": "32 hrs",
+  "hltb_main_extra": "37 hrs",
+  "hltb_completionist": "47 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/83359",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-19T23:37:46.202Z"
+  "updated_at": "2026-04-25T05:45:10.733Z"
 }

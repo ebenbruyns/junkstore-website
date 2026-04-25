@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1042490",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/call-of-the-sea",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Call_of_the_Sea",
   "notes": "Works out of the box!",
   "date_tested": "Sept '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "Native Steam Deck Controls",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": true,
   "epic_achievements": true,
@@ -34,11 +34,67 @@
   "databaseId": "6278dd278d714aeb88239a423fa0f8be",
   "shortname": "6278dd278d714aeb88239a423fa0f8be",
   "publisher": "Raw Fury",
-  "developer": "Out of the Blue Games",
-  "releasedate": "2020-12-08T00:00:00+0000",
-  "genre": "Adventure, Indie, Puzzle",
-  "description": "Call of the Sea is a first-person adventure puzzle game set in the 1930's that tells the story of Norah, a woman on the trail of her missing husband's expedition. The search takes place on a strange but beautiful island in the South Pacific, filled with secrets waiting to be unearthed. It’s an otherworldly tale of mystery, adventure, and self-discovery.",
+  "developer": "Out of the Blue",
+  "releasedate": "2022-02-17T15:00:00.000Z",
+  "genre": "Casual, Puzzle, Adventure",
+  "description": "Call of the Sea is an otherworldly tale of mystery and love set in the 1930s South Pacific. Explore a lush island paradise, solve puzzles and unlock secrets in the hunt for your husband’s missing expedition.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1298",
+      "name": "Puzzle"
+    },
+    {
+      "id": "1117",
+      "name": "Adventure"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": 133306,
+  "igdb_url": "https://www.igdb.com/games/133306",
+  "giveaway_events": [
+    {
+      "start": "2023-03-08T15:00:00.000Z",
+      "end": "2023-03-15T15:00:00.000Z",
+      "type": null,
+      "id": "92da5d8d918543b6b408e36d9af81765"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Call of the Sea is an otherworldly tale of mystery and love set in the 1930s South Pacific. Explore a lush island paradise, solve puzzles and unlock secrets in the hunt for your husband’s missing expedition.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/5e4472ad66f6234e17db6c3ce4d854d0235af8b29801fa8ef3700f38f4be1988.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fd2cccd4f07f2203097905cd0849a86d68575605f5bdaaa22c8b6ea57a0ee437.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/c5976299afe1c4767ba39658163f7bcb12769008ad9c8ca94ec353ea6a5a7407.jpg?namespace=gamesdb",
@@ -51,6 +107,7 @@
   ],
   "metacritic_score": 78,
   "metacritic_url": "https://www.metacritic.com/game/pc/call-of-the-sea?ftag=MCD-06-10aaa1f",
+  "hltb_id": 77918,
   "hltb_main": "5.6 hrs",
   "hltb_main_extra": "6.2 hrs",
   "hltb_completionist": "7.4 hrs",
@@ -61,5 +118,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2025-08-05T21:41:18.872Z"
+  "updated_at": "2026-04-25T02:42:14.230Z"
 }

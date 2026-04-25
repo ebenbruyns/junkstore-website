@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Robot Gentleman
 developer: Robot Gentleman
 genre: Adventure, Casual, Indie, RPG, Simulation, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "September 18, 2018"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Russian","Simplified Chinese","Polish","Korean","Japanese","Italian","Spanish - Spain"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/646270/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1135130303"
 is_featured: false
+owned: false
 ---
 
 60 Parsecs! is an Atomic Space Age adventure of scavenge and survival. Keep your crew alive and ready for action. Make difficult choices, face soup shortages and other horrors of outer space. And maybe reach your destination. Or not.

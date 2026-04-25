@@ -8,18 +8,24 @@ storefront_key: "epic"
 permalink: /games/epic/warhammer-40000-mechanicus/
 
 # Compatibility
-decky_rating: "Perfect"
-standalone_rating: "Perfect"
+decky_rating: "green"
+standalone_rating: "green"
 date_tested: "April '25"
 proton_version: ""
 
 # Game Info
-publisher: Kasedo Games, KalypsoMediaGroup
+publisher: Kasedo Games
 developer: Bulwark Studios
-genre: Strategy, Tactical
-release_date: "November 15, 2018"
+genre: Turn-Based, Strategy
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "August 11, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7e7bb4fffb96ed4573bbeb829a4461f1f55121929e716544fd980f217fa5ab71.jpg?namespace=gamesdb"
@@ -27,7 +33,7 @@ cover_image: "https://images.gog.com/abd6a7f013ac52395b0ec0a7f5e3f078a014298782c
 icon_image: "https://images.gog.com/ab2d48e1ab27a2ce64392a4667de7d2efe42b0bd3a74e34c15b058c28b982aca.jpg?namespace=gamesdb"
 
 # Technical Details
-controller_input: ""
+controller_input: "native"
 community_layout: false
 required_launcher: ""
 requires_account_setup: false
@@ -56,7 +62,7 @@ hltb_url: ""
 store_url: "https://store.epicgames.com/en-US/p/warhammer-40-000-mechanicus"
 protondb_url: "https://www.protondb.com/app/673880"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40%2C000%3A_Mechanicus"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/warhammer-40000-mechanicus?ftag=MCD-06-10aaa1f"
 
@@ -69,8 +75,7 @@ known_issues:
 # Meta
 database_id: "dd95e8c01b4b456f8ecbf18376a49c94"
 is_featured: false
+owned: true
 ---
 
-Take control of one of the most technologically advanced armies in the Imperium - The Adeptus Mechanicus. As Magos Dominus Faustinius, you'll lead the expedition on the newly rediscovered planet of Silva Tenebris. Manage resources, discover long-forgotten tech, plan tactical operations using the Noosphere technology and control your Tech-Priests every move.
-
-Your every decision will shape the missions ahead and ultimately decide the fate of the troops under your command. However, choose your path carefully - the Imperium depends on it.
+Heretek is the expansion to the critically acclaimed tactical turn-based Warhammer 40,000: Mechanicus. Opening a whole new plot line, Heretek exposes the dark underbelly of the Adeptus Mechanicus faction like never before.

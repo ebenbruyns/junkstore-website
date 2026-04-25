@@ -17,9 +17,15 @@ proton_version: "Proton 7.0-6"
 publisher: Microsoft Game Studios, Nordic Games Publishing, E-Frontier, Remedy Entertainment, Namco Bandai Partners, Legacy Interactive
 developer: Remedy Entertainment
 genre: adventure, shooter
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English*","German*","French*","Italian*","Korean","Spanish - Spain*","Russian","Japanese*","Polish","Traditional Chinese"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b3fd290f242f68df4c765b2f8482a5053dbeb67100805adf56934fa3a0b53029.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659037"
 is_featured: false
+owned: true
 ---
 
 Presented in the style of a TV series, Alan Wake features the trademark Remedy storytelling and pulse-pounding action sequences. As players dive deeper into the mystery, they'll face overwhelming odds, plot twists, and cliffhangers.

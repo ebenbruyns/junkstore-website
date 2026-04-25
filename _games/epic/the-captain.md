@@ -14,12 +14,18 @@ date_tested: "Dec '24"
 proton_version: ""
 
 # Game Info
-publisher: Tomorrow Corporation, Flyhigh Works
-developer: Sysiac Games
-genre: Role-playing (RPG), Adventure, Indie, Simulator
-release_date: "December 3, 2021"
+publisher: Tomorrow Corporation
+developer: Sysiac games
+genre: Indie, Adventure
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "December 4, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/114666"
+was_free_before: true
+giveaway_events: [{"start":"2022-09-14T15:00:00.000Z","end":"2022-09-21T15:00:00.000Z","type":null,"id":"80fb2028e27b489988bcd2c242b8caf0"}]
 
 # Images
 banner_image: "https://images.gog.com/8ae113852f4422e1abd832db7b19094f80e08389b7c5de9b8d1e844e8996f168.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "10 hrs"
+hltb_main_extra: "17.5 hrs"
+hltb_completionist: "31.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/101186"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-captain"
 protondb_url: "https://www.protondb.com/app/1721530"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Captain"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "f00b5acabb0f49a7b49e8350d1cd0de0"
 is_featured: false
+owned: true
 ---
 
-Race back home across the galaxy. Collect new friends. Make new enemies. You won't be able to save everyone. Who will you leave behind? Which civilizations will you save - or destroy - along the way? The decisions are up to you.
+Race back home across the galaxy.  Collect new friends.  Make new enemies.  You won't be able to save everyone.  Who will you leave behind?  Which civilizations will you save - or destroy - along the way?  The decisions are up to you.  You are... The Captain!

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Black Tower Entertainment
 developer: goonswarm
 genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie
+franchise: 
+age_rating_summary: 
 release_date: "April 11, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/c76b45d19227d9be59622b64999cf0d0591e3589cc7a10fd5570f3cd75fae267.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1603656118"
 is_featured: false
+owned: true
 ---
 
 Sin Slayers is an RPG with roguelike elements set in a dark fantasy world, where your choices determine how challenging the fights and enemies will be. You have arrived in an unfamiliar place, where demons are kings. Find a way to get out of here or wander these lands endlessly.

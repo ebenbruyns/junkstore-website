@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Alawar Entertainment, Alawar Premium
 developer: Warm Lamp Games
 genre: Adventure, Strategy, Indie, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "October 22, 2018"
 game_modes: ["Single player"]
 languages: ["English*","Simplified Chinese*","Russian*","German","Korean","Polish","Spanish - Spain","Turkish*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d0f1f5ce9018bc9bcb9d3c74a4f4e3cead64a6bd69e2d8f84cd020cd50ee5713.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1451215361"
 is_featured: false
+owned: true
 ---
 
 Every citizen of our great State dreams of working at the Prime Ministry! You are lucky, intern – your dream has come true! While you are at the bottom of the career ladder, that is more than many of your fellow citizens will ever achieve! Have you already decided what you're going to become? Will you become a diligent and responsible officer decorated by the Wise Leader himself? Or will you become a hardline careerist capable of destroying anyone who stands between you and the Prime Minister's seat? Or maybe you are just a whistle-blower? If so, who sent you? And why? Whatever the case, you are now part of the Ministry! From this moment on, no one beyond these walls has ascendance over you! You are free to shape your own future! So, what are you going to become?

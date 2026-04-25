@@ -14,12 +14,18 @@ date_tested: "Dec '25"
 proton_version: ""
 
 # Game Info
-publisher: Skybound Games, Krafton
+publisher: KRAFTON, Inc.
 developer: Striking Distance Studios
 genre: Adventure, Shooter
-release_date: "December 2, 2022"
+franchise: 
+age_rating_summary: 
+release_date: "January 2, 2099"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Korean*","Polish","Portuguese - Brazil","Simplified Chinese*"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/705aa940d4a47145fd5d216a8b555bb68dffa58b49f50e2ad179b1a492243b1b.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "256ba8bdd1ff4c26a0b2d3776d1a1bf6"
 is_featured: false
+owned: true
 ---
 
-In this narrative-driven, third-person survival horror game set 300 years in the future, the player will take on the role of Jacob Lee – a victim of fate thrown into Black Iron Prison, a maximum-security penitentiary located on Jupiter's moon, Callisto. When inmates begin to transform into monstrous creatures, the prison is thrown into chaos.
+Survive to escape the horrors of Callisto. Using a unique blend of shooting and close-quarters combat, players will need to combat rapidly evolving creatures while scavenging to unlock new weapons and gear to outrun the growing threat of Jupiter's Dead Moon.

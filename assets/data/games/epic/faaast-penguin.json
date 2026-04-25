@@ -35,10 +35,111 @@
   "shortname": "6d5d18e8b5154788aceafa956d82ab13",
   "publisher": "historia Inc.",
   "developer": "historia Inc.",
-  "releasedate": "19 Sep, 2024",
-  "genre": "Action, Casual, Racing, Sports, Free To Play",
-  "description": "&quot;Faaast Penguin&quot; is a wild and thrilling knockout action racing game where up to 40 penguins collide in a chaotic race to the finish! It's free with cross-platform support! Unleash attacks! Hop on ULTIMATE RIDES! Use shortcuts! Pass your rivals and reach the finish line first!",
+  "releasedate": "2024-09-20T03:00:00.000Z",
+  "genre": "Action, Casual, Racing",
+  "description": "\"Faaast Penguin\" is a wild and thrilling knockout action racing game where up to 40 penguins collide in a chaotic race. It's free with cross-platform support!\nUnleash attacks! Hop on ULTIMATE RIDES! Use shortcuts! Pass your rivals and reach the finish line first!",
   "size": "4997240248\n",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "21136",
+      "name": "Playful Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1212",
+      "name": "Racing"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone",
+  "reviews_summary": null,
+  "igdb_id": 314424,
+  "igdb_url": "https://www.igdb.com/games/314424",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "\"Faaast Penguin\" is a wild and thrilling knockout action racing game where up to 40 penguins collide in a chaotic race. It's free with cross-platform support!\nUnleash attacks! Hop on ULTIMATE RIDES! Use shortcuts! Pass your rivals and reach the finish line first!",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2590150/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2590150/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2590150/capsule_231x87.jpg",
@@ -61,15 +162,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_main": "",
+  "hltb_id": 155715,
+  "hltb_main": "31 mins",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/155715",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-10T23:20:13.936Z",
-  "updated_at": "2025-10-14T02:52:21.827Z"
+  "updated_at": "2026-04-25T05:53:05.267Z"
 }

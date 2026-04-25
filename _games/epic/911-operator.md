@@ -14,12 +14,18 @@ date_tested: "July '25"
 proton_version: ""
 
 # Game Info
-publisher: SONKA, Code Horizon, PlayWay
+publisher: Games Operators
 developer: Jutsu Games
-genre: Strategy, Indie, Simulator
-release_date: "February 24, 2017"
+genre: Simulation, Strategy, Indie
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "April 24, 2026"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1393","name":"Simulation"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/806d406fd0a97632e748a221ff6216900bd1abf56147b5e27c9fc2eede018c0a.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/41512"
 store_url: "https://store.epicgames.com/en-US/p/911-operator"
 protondb_url: "https://www.protondb.com/app/503560"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/911_Operator"
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/pc/911-operator?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "a7594e61a4f24e6d9495ea959749598e"
 is_featured: false
+owned: true
 ---
 
-911 Operator is a game about the difficult work of people that manage emergency lines and services. Main task is to answer incoming calls and to react properly - give first aid instructions, advise, dispatch correct number of firemen / police / ambulances, or sometimes just ignore the call.
+A game about the difficult work of people that manage emergency services. Answer incoming calls and react properly - give first aid instructions, advise, dispatch the correct number of firemen/police/ambulances, or sometimes - just ignore the call. Play on ANY CITY in the world!

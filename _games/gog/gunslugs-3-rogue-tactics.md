@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Orangepixel
 developer: Orangepixel
 genre: Action, Indie, Strategy
+franchise: 
+age_rating_summary: 
 release_date: "August 6, 2019"
 game_modes: ["Single-player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/1012360/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1299228602"
 is_featured: false
+owned: true
 ---
 
 Grab your bandana and get ready for Gunslugs : Rogue Tactics! Sneak, shoot, and explode your way through ever-changing enemy strongholds in this rogue-lite stealth-action mashup. Go full-on Commando or channel your inner Snake—just make it out alive. No mission ever plays the same twice!

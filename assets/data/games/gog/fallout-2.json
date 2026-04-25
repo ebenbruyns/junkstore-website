@@ -35,10 +35,95 @@
   "shortname": "1440151285",
   "publisher": "MacPlay",
   "developer": "Black Isle Studios",
-  "releasedate": "1998-10-29T00:00:00+0000",
+  "releasedate": "2022-10-20T15:00:00.000Z",
   "genre": "RPG",
-  "description": "A turn-based tactical Western RPG in which the Chosen One is tasked with exploring post-nuclear California to locate and retrieve the fabled Garden of Eden Creation Kit for their famine-stricken tribe, while coming into contact through branching dialogue trees with numerous tribes, factions and micro-civilizations, each with their own virtues, vices, socioeconomic situations and political agendas.",
+  "description": "Fallout® 2 is the sequel to the critically acclaimed game that took RPG'ing out of the dungeons and into a dynamic, apocalyptic retro-future. Mastering your character's skills and traits for survival, Fallout® 2 challenges you to endure in a post-nuclear world",
   "size": "",
+  "franchise": "Fallout",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1307",
+      "name": "Open World"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 14,
+  "igdb_url": "https://www.igdb.com/games/14",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Fallout® 2 is the sequel to the critically acclaimed game that took RPG'ing out of the dungeons and into a dynamic, apocalyptic retro-future. Mastering your character's skills and traits for survival, Fallout® 2 challenges you to endure in a post-nuclear world",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/38410/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/38410/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/38410/capsule_231x87.jpg",
@@ -53,6 +138,7 @@
   ],
   "metacritic_score": 86,
   "metacritic_url": "https://www.metacritic.com/game/pc/fallout-2?ftag=MCD-06-10aaa1f",
+  "hltb_id": 3339,
   "hltb_main": "30 hrs",
   "hltb_main_extra": "47 hrs",
   "hltb_completionist": "82.5 hrs",
@@ -64,5 +150,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-02-07T22:06:47.442Z",
-  "updated_at": "2026-03-17T23:24:27.521Z"
+  "updated_at": "2026-04-25T02:24:30.410Z"
 }

@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Hack and slash/Beat 'em up",
   "description": "Shadows: Awakening is a unique, isometric single-player RPG with real-time tactical combat. You embark on an epic adventure with challenging gameplay, a gripping storyline and enchanting graphics.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/585450/library_600x900.jpg",
   "banner_image": "https://images.gog.com/8166a2c8c245e483d7741d084e6904bf815db79e6c4997333e321f0de38fcf58.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/15bb49e36d7ef79b10c885b8626d0dca1755c9da9be36c4ab5831ab236d09ceb.jpg?namespace=gamesdb",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": 77,
   "metacritic_url": "https://www.metacritic.com/game/pc/shadows-awakening?ftag=MCD-06-10aaa1f",
+  "hltb_id": 55396,
   "hltb_main": "21.5 hrs",
   "hltb_main_extra": "29.5 hrs",
   "hltb_completionist": "36.5 hrs",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-23T21:07:12.981Z"
+  "updated_at": "2026-04-25T00:43:26.274Z"
 }

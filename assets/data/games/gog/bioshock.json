@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG), Adventure, Puzzle, Shooter",
   "description": "BioShock is a horror-themed first-person shooter set in a steampunk underwater dystopia. The player is urged to turn everything into a weapon: biologically modifying their own body with Plasmids, hacking devices and systems, upgrading their weapons, crafting new ammo variants, and experimenting with different battle techniques are all possible. The game is described by the developers as a spiritual successor to their previous PC title System Shock 2. BioShock received high praise in critical reviews for its atmospheric audio and visual quality, absorbing and original plot and its unique gaming experience.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/30cfd064a36dd90f81aa24f5aa36e3e65f5fd6f9fe4fc3860718ac142f2105d4.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/cca07f661b51e7a6493f63313c513e51a268ef5d43ac3cb73d68ed36e80490e9.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/619cc935bbbd09ee6faf681e62b8f7310421f4d517175737f200805d991b4b7c.jpg?namespace=gamesdb",
@@ -55,6 +66,7 @@
   ],
   "metacritic_score": 96,
   "metacritic_url": "https://www.metacritic.com/game/pc/bioshock?ftag=MCD-06-10aaa1f",
+  "hltb_id": 1065,
   "hltb_main": "12 hrs",
   "hltb_main_extra": "15.5 hrs",
   "hltb_completionist": "23 hrs",
@@ -66,5 +78,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-03-20T06:07:41.350Z"
+  "updated_at": "2026-04-25T00:50:58.984Z"
 }

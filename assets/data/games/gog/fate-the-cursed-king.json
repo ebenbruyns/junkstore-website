@@ -39,6 +39,17 @@
   "genre": "Action, Adventure, RPG",
   "description": "Are you ready for the FATE-IEST of the FATE games? Welcome to the final chapter in the classic, action RPG series! FATE: The Cursed King has new weapons, spells, armor and AI-controlled allies! Wait, what?! Allies?? That’s right. This FATE game IS A PARTY. Woo! Party system!",
   "size": "397 MB",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/303690/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/303690/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/303690/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/fate-the-cursed-king/",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -62,5 +74,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-18T23:41:29.002Z",
-  "updated_at": "2026-04-24T00:22:26.119Z"
+  "updated_at": "2026-04-25T00:56:20.286Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Assemble Entertainment
 developer: DigiTales Interactive
 genre: Adventure, Indie, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "May 20, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/41fb34a418c13d27c9ae4a503ab1c504eaacda4d1e8ba0bfedd310424ba7fa7a.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/92555"
 store_url: "https://www.gog.com/en/game/lacuna_a_scifi_noir_adventure"
 protondb_url: "https://www.protondb.com/app/1364100"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lacuna"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/lacuna---a-sci-fi-noir-adventure?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1139279216"
 is_featured: false
+owned: true
 ---
 
 A murder. A hack. A bombing. All it takes to plunge the solar system into war – unless you do something about it. Help CDI agent Neil Conrad make a string of increasingly difficult decisions in this modern dialog-driven adventure set in a gorgeous 2D sci-fi noir universe.

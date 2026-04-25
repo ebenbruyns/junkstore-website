@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Ark Heiral, Deck13 Spotlight
 developer: Ark Heiral
 genre: role-playing-rpg, adventure, strategy, turn-based-strategy-tbs, indie
+franchise: 
+age_rating_summary: 
 release_date: "December 8, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/8865e3fa16f38501662caa8d1ccb15ac7e607c2b904f0e4d37a567be345fc45b.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/82601"
 store_url: "https://www.gog.com/en/game/chained_echoes"
 protondb_url: "https://www.protondb.com/app/1229240"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Chained_Echoes"
 metacritic_score: 91
 metacritic_url: "https://www.metacritic.com/game/pc/chained-echoes?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2067731250"
 is_featured: false
+owned: false
 ---
 
 Take up your sword, channel your magic or board your Mech. Chained Echoes is a 16-bit SNES style RPG set in a fantasy world where dragons are as common as piloted mechanical suits.

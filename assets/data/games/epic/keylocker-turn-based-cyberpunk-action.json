@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1325040",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/keylocker-622bcc",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Keylocker",
   "notes": "Works out of the box!",
   "date_tested": "Aug '25",
   "decky_rating": "green",
@@ -34,11 +34,99 @@
   "databaseId": "f976812fbda048fab62b072c44ff2521",
   "shortname": "f976812fbda048fab62b072c44ff2521",
   "publisher": "Serenity Forge",
-  "developer": "Moonana",
-  "releasedate": "2024-09-18T00:00:00+0000",
-  "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Music",
-  "description": "Keylocker is a Cyberpunk turn based rhythm JRPG inspired by the Mario&Luigi RPG series and Chrono Trigger, in which you play as the singer and songwriter, BOBO. Fuel your moves with the electric power of music in this unforgiving planet by using real-time execution of moves in rhythm game style! Battle the authorities, unlock the secrets of Saturn, play on your own bands' concerts and hack into the network to bring an end to this corrupt system, for better or worse.",
+  "developer": "Moonana Games",
+  "releasedate": "2025-07-31T15:01:00.000Z",
+  "genre": "Turn-Based, Indie, RPG",
+  "description": "Keylocker is a Cyberpunk turn-based rhythm JRPG. As the electric singer, B0B0, you’ll choose your class, master a challenging combat system, and shake the foundations of Saturnite society in rhythm-game style!",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "1386",
+      "name": "Turn-Based"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1386",
+      "name": "Turn-Based"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [
+    {
+      "start": "2025-07-31T15:00:00.000Z",
+      "end": "2025-08-07T15:00:00.000Z",
+      "type": null,
+      "id": "3de25d0eaa7f4b9dbb3fa3f08fd55746"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Keylocker is a Cyberpunk turn-based rhythm JRPG. As the electric singer, B0B0, you’ll choose your class, master a challenging combat system, and shake the foundations of Saturnite society in rhythm-game style!",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/ad1ce0856f1e62bc533d61b65834c18350925555663ac37292026f65bc12f3d8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/57b2189d556d7032b5a6f6930fe958aee17f09488b8e62d45a08f960b750fb1c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/236491c86ca323c1c0d2fdb8fec88a64ed0603813a5eca9fb8ef0153dfabe557.jpg?namespace=gamesdb",
@@ -51,6 +139,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -61,5 +150,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T06:00:42.846Z",
-  "updated_at": "2025-09-07T03:46:14.423Z"
+  "updated_at": "2026-04-25T02:46:21.736Z"
 }

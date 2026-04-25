@@ -14,12 +14,18 @@ date_tested: "Nov '24"
 proton_version: ""
 
 # Game Info
-publisher: Playdigious, Tobias Springer
-developer: Tobias Springer
-genre: Strategy, Indie, Puzzle, Simulator
-release_date: "June 7, 2020"
+publisher: "tobspr IT Solutions UG (haftungsbeschränkt) & Co. KG (German partnership)"
+developer: tobspr Games
+genre: Puzzle
+franchise: shapez
+age_rating_summary: 
+release_date: "November 1, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Czech","German","Korean","Spanish - Spain","Dutch","Polish","Portuguese - Portugal","Russian"]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/134826"
+was_free_before: true
+giveaway_events: [{"start":"2023-04-05T15:00:00.000Z","end":"2023-04-12T15:00:00.000Z","type":null,"id":"35f8d25247154fca9b900c13d2be04f6"}]
 
 # Images
 banner_image: "https://images.gog.com/d7feb650e03ad7a4dfd763f15eee81ce30217057ba2d7538ef483426ffa9a7a2.jpg?namespace=gamesdb"
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "26.5 hrs"
+hltb_main_extra: "41 hrs"
+hltb_completionist: "45 hrs"
+hltb_url: "https://howlongtobeat.com/game/80051"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/shapez-0929c9"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "e87a43f695bc409ca8858206678ac7e7"
 is_featured: false
+owned: true
 ---
 
-Shapez is a game about building factories to automate the creation and combination of increasingly complex shapes within an infinite map.
+shapez is a game about building factories to automate the creation and processing of increasingly complex shapes across an infinitely expanding map.

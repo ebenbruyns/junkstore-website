@@ -14,12 +14,18 @@ date_tested: "July '25"
 proton_version: ""
 
 # Game Info
-publisher: 2K Games
+publisher: 2K
 developer: Firaxis Games
-genre: Role-playing (RPG), Strategy, Tactical
+genre: Turn-Based Strategy, RPG, Strategy
+franchise: 
+age_rating_summary: ESRB Teen
 release_date: "December 2, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1254","name":"TACTICAL RPG"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1228","name":"STRATEGY RPG"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/165347"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b89dba24cea868264073aeebb544df7a9ca20b33afe49626b4bad37a9f2f9ac6.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -47,16 +53,16 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "40.5 hrs"
+hltb_main_extra: "65.5 hrs"
+hltb_completionist: "97 hrs"
+hltb_url: "https://howlongtobeat.com/game/97298"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/marvel-s-midnight-suns"
+store_url: "https://store.epicgames.com/en-US/p/marvels-midnight-suns"
 protondb_url: "https://www.protondb.com/app/368260"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Marvel%27s_Midnight_Suns"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,10 +75,7 @@ known_issues:
 # Meta
 database_id: "49550aa9fcd74552ae07c4e9f2c262fe"
 is_featured: false
+owned: true
 ---
 
-Marvel's Midnight Suns is a tactical role-playing game developed by Firaxis Games and published by 2K Games. The game is set in the Marvel Universe and features a blend of strategy, role-playing, and card-based combat mechanics.
-
-In the game, players take on the role of "The Hunter," a customisable original character, and lead a team of Marvel superheroes. The story revolves around battling the demonic forces of Lilith, the Mother of Demons, who has been resurrected by the nefarious group Hydra.
-
-The gameplay involves strategic, turn-based combat, where players use a deck of ability cards to perform attacks, skills, and buffs. Between missions, players can explore the Abbey, the game's hub area, where they can interact with other heroes, upgrade abilities, and make decisions that affect the story and character relationships.
+Confront the darker side of the Marvel universe in an all-new Tactical RPG featuring Iron Man, Wolverine, Captain America, Ghost Rider, Blade, and more. 

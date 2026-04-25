@@ -14,12 +14,18 @@ date_tested: "Sept '25"
 proton_version: ""
 
 # Game Info
-publisher: bilibili, Wildfire Game
+publisher: Wildfire Game
 developer: Wildfire Game
-genre: "Role-playing (RPG), Adventure, Strategy, Indie, Platform, Hack and slash/Beat 'em up"
-release_date: "July 8, 2021"
+genre: RPG, Action-Adventure
+franchise: 
+age_rating_summary: ESRB Mature 17+
+release_date: "November 20, 2023"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese*","Japanese","Traditional Chinese","Turkish","Russian*languages with full audio support"]
+tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/121235"
+was_free_before: true
+giveaway_events: [{"start":"2025-09-25T15:00:00.000Z","end":"2025-10-02T15:00:00.000Z","type":null,"id":"aa2e42dde7b64a3183855ac1803a829c"}]
 
 # Images
 banner_image: "https://images.gog.com/7d747506e4487ac0dcc43e5d803e9eb59852e9b1f87efd4ae2adc485ba5a5125.jpg?namespace=gamesdb"
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "5 hrs"
+hltb_main_extra: "8.5 hrs"
+hltb_completionist: "15.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/81868"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/eastern-exorcist-d49923"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "15b19b0c4791459f8e60942b328ee460"
 is_featured: false
+owned: true
 ---
 
-The Eastern Exorcist is a stunning 2D side-scrolling action RPG set in a fictitious oriental world with the infestation of vicious demon monsters. Play as a skilled exorcist against chaotic evil to fight your way through the brutal world, and experience unforeseen entanglements of complex beings.
+Eastern Exorcist is a stunning 2D side-scrolling action RPG set in a fantasy eastern world with vicious spirits and monsters. Play as a skilled exorcist against chaotic evil to fight your way through the brutal world, and experience different stories of joy and sorrow.

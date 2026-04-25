@@ -16,10 +16,16 @@ proton_version: ""
 # Game Info
 publisher: Playstack
 developer: 2Awesome Studio
-genre: Adventure, Indie, Shooter, Arcade
-release_date: "Invalid Date"
+genre: Action, Shooter, Rogue-Lite
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "February 1, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/143004"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/aa146a692ba2edc7f637f698091752f1685178e42b6ad8f9c7a16e6d0a18a657.jpg?namespace=gamesdb"
@@ -38,7 +44,7 @@ requires_eos: false
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -53,7 +59,7 @@ hltb_completionist: "29.5 hrs"
 hltb_url: "https://howlongtobeat.com/game/126315"
 
 # Links
-store_url: "https://store.epicgames.com/en-US/p/ak-xolotl-together"
+store_url: "https://store.epicgames.com/en-US/p/akxolotl-114f77"
 protondb_url: "https://www.protondb.com/app/1479140"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/AK-xolotl:_Together"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1479140"
 is_featured: false
+owned: true
 ---
 
-The cutest, deadliest and only top-down roguelike shooter featuring AK-wielding axolotls. Blast your way through the animal kingdom...
+The cutest, deadliest top-down roguelike shooter featuring AK-wielding Axolotls. Blast your way through the animal kingdom with an arsenal of kick-ass guns, mighty power-ups and even raise an army of trigger-happy baby axolotls. Double the firepower! Local co-op update now live!

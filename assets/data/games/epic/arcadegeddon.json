@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": true,
   "epic_achievements": true,
@@ -33,12 +33,93 @@
   "cant_test_linux": false,
   "databaseId": "b0b94ccc68564c729568cd07f9cfb812",
   "shortname": "b0b94ccc68564c729568cd07f9cfb812",
-  "publisher": "Illfonic",
-  "developer": "Illfonic",
-  "releasedate": "2022-07-05T00:00:00+0000",
-  "genre": "Adventure, Indie, Shooter",
-  "description": "Rise up and play with up to three friends in this ever-evolving cooperative multiplayer, roguelite shooter. Explore multiple biomes, mini games, find hidden chests, and defeat numerous enemies and bosses.",
+  "publisher": "IllFonic Publishing",
+  "developer": "IllFonic",
+  "releasedate": "2022-07-05T16:00:00.000Z",
+  "genre": "Shooter",
+  "description": "Rise up and play with up to three friends in this ever-evolving cooperative multiplayer shooter. Explore multiple biomes, mini games, find hidden chests, and defeat numerous enemies and bosses.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 154814,
+  "igdb_url": "https://www.igdb.com/games/154814",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Rise up and play with up to three friends in this ever-evolving cooperative multiplayer shooter. Explore multiple biomes, mini games, find hidden chests, and defeat numerous enemies and bosses.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/a4bb7464d34a4542ea46a55c168f58cb7386d2004196b5d064b60d99743fc1c5.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/8ef55bee2f966ba48d9d75d8954d770ec49c124a4fa8c5de8380b67b6517ed85.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/924fbbd2ffe703a0dfb53847e87f778190fcb9693104f75cc8e5bfdaf083ab5e.jpg?namespace=gamesdb",
@@ -53,15 +134,16 @@
   ],
   "metacritic_score": 73,
   "metacritic_url": "https://www.metacritic.com/game/arcadegeddon/",
+  "hltb_id": 95455,
   "hltb_main": "5.9 hrs",
   "hltb_main_extra": "18 hrs",
   "hltb_completionist": "62.9 hrs",
   "hltb_url": "https://howlongtobeat.com/game/95455",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-24T02:10:34.903Z"
+  "updated_at": "2026-04-25T02:41:58.988Z"
 }

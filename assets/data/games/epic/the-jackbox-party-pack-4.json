@@ -33,12 +33,76 @@
   "cant_test_linux": false,
   "databaseId": "Snowdrop",
   "shortname": "Snowdrop",
-  "publisher": "Jackbox Games, Inc.",
-  "developer": "Jackbox Games, Inc.",
-  "releasedate": "18 Oct, 2017",
-  "genre": "Casual, Indie, Strategy",
-  "description": "The fourth pack in this storied party game franchise features Fibbage 3 and its new game mode, Fibbage: Enough About You; the twisted web game Survive the Internet; the dating contest Monster Seeking Monster; the deranged debate match Bracketeering; and the one-up art game Civic Doodle.",
+  "publisher": "Jackbox Games",
+  "developer": "Jackbox Games",
+  "releasedate": "2017-10-19T15:00:00.000Z",
+  "genre": "Casual, Party, Trivia",
+  "description": "The biggest and fourthiest addition to this storied party game franchise features not five but FIVE AND A HALF crowd-slaying games!",
   "size": "",
+  "franchise": "The Jackbox Party Pack",
+  "tags_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "1110",
+      "name": "Party"
+    },
+    {
+      "id": "1318",
+      "name": "Trivia"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1183",
+      "name": "Local Multiplayer"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1296",
+      "name": "Casual"
+    },
+    {
+      "id": "1110",
+      "name": "Party"
+    },
+    {
+      "id": "1318",
+      "name": "Trivia"
+    }
+  ],
+  "age_rating_summary": "ESRB Teen",
+  "reviews_summary": null,
+  "igdb_id": 28213,
+  "igdb_url": "https://www.igdb.com/games/28213",
+  "giveaway_events": [
+    {
+      "start": "2025-12-04T16:00:00.000Z",
+      "end": "2025-12-11T16:00:00.000Z",
+      "type": null,
+      "id": "da763a33956745888bea060de7ecf059"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "The biggest and fourthiest addition to this storied party game franchise features not five but FIVE AND A HALF crowd-slaying games!",
+  "use_rich_description": true,
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/610180/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/610180/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/610180/capsule_231x87.jpg",
@@ -53,15 +117,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "50275",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_url": "https://howlongtobeat.com/game/50275",
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-07T08:13:20.370Z",
-  "updated_at": "2026-02-07T22:06:38.394Z"
+  "updated_at": "2026-04-25T02:46:28.994Z"
 }

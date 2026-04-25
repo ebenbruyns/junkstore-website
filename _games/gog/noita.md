@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Nolla Games
 developer: Nolla Games
 genre: role-playing, adventure, indie, shooter, arcade, simulator
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/70b4c17fe152f443e61c997de349aefe9de0a4e302a59d2ecaacb37ca752abab.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/67295"
 store_url: "https://www.gog.com/en/game/noita"
 protondb_url: "https://www.protondb.com/app/881100"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Noita"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1310457090"
 is_featured: false
+owned: false
 ---
 
 Noita is a magical action roguelite set in a world where every pixel is physically simulated. Fight, explore, melt, burn, freeze and evaporate your way through the procedurally generated world using spells you've created yourself. Explore a variety of environments ranging from coal mines to freezing wastelands while delving deeper in search for unknown mysteries.

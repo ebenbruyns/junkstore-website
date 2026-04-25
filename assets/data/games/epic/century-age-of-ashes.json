@@ -35,10 +35,87 @@
   "shortname": "c40939566ad44585bde9302bdbe82734",
   "publisher": "Playwing",
   "developer": "Playwing",
-  "releasedate": "2021-12-02T00:00:00+0000",
-  "genre": "Adventure",
+  "releasedate": "2022-02-23T16:00:00.000Z",
+  "genre": "Action",
   "description": "Century: Age of Ashes is a free-to-play multiplayer dragon battle game. Master a growing roster of classes and dragons, compete in intense arena battles and rule the skies in fast-paced aerial combats.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 141536,
+  "igdb_url": "https://www.igdb.com/games/141536",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Century: Age of Ashes is a free-to-play multiplayer dragon battle game. Master a growing roster of classes and dragons, compete in intense arena battles and rule the skies in fast-paced aerial combats.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/51e16ae6f0862a762324a853f7dffcb6799e7822e7dd402b7e255b4ab0d68e21.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f987188b001f4277c695f5fdce82a0aad9788b19489863c16d6eec5f0e96d92a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1eb6898b9a7225cb0781f4e5018a44a6bc7c92a743a41206339bbdcd2eb72ba9.jpg?namespace=gamesdb",
@@ -59,15 +136,16 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "85958",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_url": "https://howlongtobeat.com/game/85958",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2025-12-16T03:29:09.908Z"
+  "updated_at": "2026-04-25T02:44:46.950Z"
 }

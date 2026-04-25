@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Michael Zahniser
 developer: Michael Zahniser
 genre: Action, Adventure, Indie, RPG, Simulation, Free To Play
+franchise: 
+age_rating_summary: 
 release_date: "October 30, 2015"
 game_modes: ["Single-player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/443fa45e5a21747ce70d69c7cfec0576dd3f735385561531abd4e3f9dfecc012.jpg?namespace=gamesdb"
@@ -58,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/404410"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Endless_Sky"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/endless-sky/"
 
 # Notes
 notes: "Works out of the box!"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1829678475"
 is_featured: false
+owned: true
 ---
 
 Endless Sky is an open source 2D space trading and combat game inspired by the classic Escape Velocity series. Work your way up from a relatively wimpy shuttle, cargo ship, or fighter, to a highly upgraded and customized flagship or to a massive fleet of warships or freighters.

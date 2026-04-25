@@ -14,12 +14,18 @@ date_tested: "July '24"
 proton_version: ""
 
 # Game Info
-publisher: Microsoft Game Studios
+publisher: Epic Games Publishing
 developer: Remedy Entertainment
-genre: Adventure, Shooter
-release_date: "May 14, 2010"
+genre: Action, Horror, Shooter
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "October 5, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"1187","name":"THIRD-PERSON SHOOTER"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/1062"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/b3fd290f242f68df4c765b2f8482a5053dbeb67100805adf56934fa3a0b53029.jpg?namespace=gamesdb"
@@ -34,11 +40,11 @@ requires_account_setup: false
 account_type: ""
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
-epic_cloud_saves: false
+epic_cloud_saves: true
 must_be_online: false
 
 # Anti-Cheat
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/97692"
 store_url: "https://store.epicgames.com/en-US/p/alan-wake-remastered"
 protondb_url: "https://www.protondb.com/app/108710"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alan_Wake"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/alan-wake?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659037"
 is_featured: false
+owned: false
 ---
 
-A psychological horror action-adventure game about a novelist searching for his wife in Bright Falls, encountering supernatural 'Taken' entities
+In this award-winning cinematic action-thriller, troubled author Alan Wake embarks on a desperate search for his missing wife, Alice. Alan Wake Remastered offers the complete experience, with the main game and its two story expansions - The Signal and The Writer - with stunning new 4K visuals.

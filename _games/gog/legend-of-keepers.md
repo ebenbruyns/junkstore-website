@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Goblinz Studio
 developer: Goblinz Studio
 genre: Role-playing (RPG), Adventure, Strategy, Indie, Simulator, Fighting
+franchise: 
+age_rating_summary: 
 release_date: "March 19, 2020"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/6b2875de0ac2c982ff99fff4c69fc6c376c6714c9ad8929b9d92ea3142e63930.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/78046"
 store_url: "https://www.gog.com/en/game/legend_of_keepers_career_of_a_dungeon_master"
 protondb_url: "https://www.protondb.com/app/978520"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legend_of_Keepers"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/legend-of-keepers-career-of-a-dungeon-manager?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1208434383"
 is_featured: false
+owned: true
 ---
 
 Legend of Keepers is the perfect mix between a Dungeon Defender and a Roguelite. You have been hired as a dungeon guardian by the Dungeons Company. Your job is simple: Protect their dungeons!

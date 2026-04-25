@@ -15,11 +15,17 @@ proton_version: ""
 
 # Game Info
 publisher: Green Man Gaming Publishing
-developer: Pewter Games Studios, LoPoly Games
-genre: "Adventure, Indie, Hack and slash/Beat 'em up"
-release_date: "Invalid Date"
+developer: Pewter Games Studios
+genre: Action, Adventure
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "April 5, 2023"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
+igdb_url: "https://www.igdb.com/games/193203"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/aa85be33107f5f711548ea49a13355181519f5b1b4e5fb30ab8b09b61d0549f1.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "c9bc73b3ec5e4cd6bce44b77783a58c8"
 is_featured: false
+owned: true
 ---
 
-Join a gang of mutant animals and embark on a series of hilarious heists under the guidance of Tony, the mad scientist and getaway driver as he tries to pull off his master plan!
+Filthy Animals is a chaotic multiplayer heist game for 1-4 players. Become a mutant animal working for criminal mastermind Tony as you steal, fight, fall over, and eat tacos while trying to make off with the loot. Solve puzzles, avoid enemies, and bumble your way to victory.

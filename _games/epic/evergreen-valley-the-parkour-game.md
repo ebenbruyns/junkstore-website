@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Vault Games
 developer: Vault Games
 genre: Casual, Open World, Platformer
-release_date: "August 25, 2025"
+franchise: 
+age_rating_summary: ESRB Everyone
+release_date: "September 5, 2025"
 game_modes: ["Single player"]
 languages: ["English","Turkish","Welsh","Vietnamese","Ukrainian","Swedish","Spanish (Latin America)","Slovak","Russian","Romanian","Portuguese (Brazil)","Portuguese","Polish","Serbian","Spanish (Spain)","Tagalog","Thai","Malay","Lithuanian","Korean","Japanese","Italian","Indonesian","Hungarian","Hindi","Hebrew","Greek","German","French","Finnish","Dutch","Croatian","Chinese (Traditional)","Chinese (Simplified)","Catalan","Arabic","Bulgarian","Danish","Czech","Norwegian"]
+tags_structured: [{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]
+igdb_url: "https://www.igdb.com/games/398292"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://cdn1.epicgames.com/spt-assets/7ceb18d65aee4c36b5be5c745921b2f8/evergreen-valley-the-parkour-game-21pj0.png"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "6706b62c1c184f1ebea7121eaeeade9a"
 is_featured: false
+owned: true
 ---
 
 Evergreen Valley is a parkour adventure set in a stylized town. Jump, climb, and conquer every obstacle to reach the top! But beware! One fall, and it’s back to the very beginning!

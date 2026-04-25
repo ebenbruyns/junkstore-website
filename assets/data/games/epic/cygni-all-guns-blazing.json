@@ -1,6 +1,6 @@
 {
   "id": "5f5aa21d-3abc-498f-b06b-68a272bf295b",
-  "title": "Cygni: All Guns Blazing",
+  "title": "CYGNI - All Guns Blazing",
   "storefront": "Epic",
   "protondb": "https://www.protondb.com/app/1248080",
   "protondb_report_url": "",
@@ -33,12 +33,72 @@
   "cant_test_linux": false,
   "databaseId": "25ad72f164b948ab9e05eb18fab2cda8",
   "shortname": "25ad72f164b948ab9e05eb18fab2cda8",
-  "publisher": "Konami",
+  "publisher": "KONAMI",
   "developer": "KeelWorks",
-  "releasedate": "2024-08-06T00:00:00+0000",
-  "genre": "Indie, Shooter, Arcade",
-  "description": "It's a twin-stick vertical scrolling Shooter hybrid with a cinematic flare:\n\nAn unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes Cygni the vanguard for the next generation of shoot-em ups.",
+  "releasedate": "2024-08-05T23:00:00.000Z",
+  "genre": "Action, Shooter",
+  "description": "An unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes CYGNI the vanguard for the next generation of shoot-em ups. Outgunned, outmanned and out on your own, plunge into a sky full of hell in a last-ditch battle for survival.",
   "size": "20.3 GB",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 133904,
+  "igdb_url": "https://www.igdb.com/games/133904",
+  "giveaway_events": [
+    {
+      "start": "2024-08-08T15:00:00.000Z",
+      "end": "2024-08-15T15:00:00.000Z",
+      "type": null,
+      "id": "ce86ed5a3c0d48eaa5326dda50105a9b"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "An unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes CYGNI the vanguard for the next generation of shoot-em ups. Outgunned, outmanned and out on your own, plunge into a sky full of hell in a last-ditch battle for survival.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/8a5026460e0c138e9c021186e64c9a86ea0854e42f42cc9d4a14cdf5c2cc43ed.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2effcc69bb445f55bae7907fbbf76daabfe64523a2ed5edaf5ff4a0aa25a8a74.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/74977800473cf7d3b14ede29f9ec819e95698ef74bd79da4247ed701f7e4a13c.jpg?namespace=gamesdb",
@@ -53,15 +113,16 @@
   ],
   "metacritic_score": 74,
   "metacritic_url": "https://www.metacritic.com/game/cygni-all-guns-blazing/",
+  "hltb_id": 79899,
   "hltb_main": "2.5 hrs",
   "hltb_main_extra": "4 hrs",
   "hltb_completionist": "6.3 hrs",
   "hltb_url": "https://howlongtobeat.com/game/79899",
-  "epic_cloud_saves": false,
+  "epic_cloud_saves": true,
   "tested": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-24T02:31:19.539Z"
+  "updated_at": "2026-04-25T01:07:55.612Z"
 }

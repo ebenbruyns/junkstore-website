@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Thunderful
 developer: "Image & Form"
 genre: Adventure
+franchise: 
+age_rating_summary: 
 release_date: "December 16, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/a40702379cf3a1e21dffce391a8fe9e4fcdb7a163092f3ef8a5dbc4531c2f23e.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/81125"
 store_url: "https://www.gog.com/en/game/the_gunk"
 protondb_url: "https://www.protondb.com/app/1087760"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Gunk"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1198537397"
 is_featured: false
+owned: true
 ---
 
 The Gunk is an adventure game that stars Rani, one part of our duo of gritty space haulers, struggling to make a buck as they chance upon an untouched planet brimming with life. They came in search of valuable resources, and it looks like they've hit the jackpot...

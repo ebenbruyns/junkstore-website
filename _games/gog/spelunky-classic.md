@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Derek Yu
 developer: Derek Yu
 genre: Indie, Platform, Puzzle
+franchise: 
+age_rating_summary: 
 release_date: "December 21, 2008"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/219a5aa29523249d3361af07426a4f348553d59ed9c0685cab10d158a2d00b58.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/8932"
 store_url: "https://www.gog.com/en/game/spelunky"
 protondb_url: "https://www.protondb.com/app/239350"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spelunky"
 metacritic_score: 90
 metacritic_url: "https://www.metacritic.com/game/pc/spelunky?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659257"
 is_featured: false
+owned: true
 ---
 
 Spelunky is a cave exploration / treasure-hunting game inspired by classic platform games and roguelikes, where the goal is to grab as much treasure from the cave as possible. Every time you play the cave's layout will be different. Use your wits, your reflexes, and the items available to you to survive and go ever deeper! Perhaps at the end you may find what you're looking for...

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: The Station Game ltd
 developer: The Station Game
 genre: Adventure, Indie, Puzzle, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "February 19, 2018"
 game_modes: ["Single player"]
 languages: ["English*","French","Spanish - Spain","Russian","Italian","German*languages with full audio support"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/27dc51bee171fd6e452d34cee7472425e4f8817f69a5908db57c84331a085973.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "amzn1.adg.product.eba30613-6e47-4fda-bd66-1a35d1624df7"
 is_featured: false
+owned: true
 ---
 
 The Station is a first-person exploration game set on a space station sent to study a sentient alien civilization. Assuming the role of a recon specialist, players must unravel a mystery which will decide the fate of two civilizations.

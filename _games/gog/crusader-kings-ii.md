@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Paradox Interactive
 developer: Paradox Development Studio
 genre: Role-playing (RPG), Strategy, Simulator
+franchise: 
+age_rating_summary: 
 release_date: "February 3, 2012"
 game_modes: ["Single player","Multiplayer"]
 languages: []
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d4ff1f39b3a36585cbd23b0c01a7083403f783cc7b3fd46224eb771113b40433.jpg?namespace=gamesdb"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1137712636"
 is_featured: false
+owned: true
 ---
 
 The Dark Ages might be drawing to a close, but Europe is still in turmoil. Petty lords vie against beleaguered kings who struggle to assert control over their fragmented realms. The Pope calls for a Crusade to protect the Christians in the Holy Land even as he refuses to relinquish control over the investiture of bishops - and their riches. Now is the time for greatness. Expand your demesne and secure the future of your dynasty. Fill your coffers, appoint vassals, root out traitors and heretics, introduce laws and interact with hundreds of nobles, each with their own agenda.

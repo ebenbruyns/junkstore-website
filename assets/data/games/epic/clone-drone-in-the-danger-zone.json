@@ -35,10 +35,130 @@
   "shortname": "c83b3a3d5d3e4658a87724f0bbf32e27",
   "publisher": "Doborog Games",
   "developer": "Doborog Games",
-  "releasedate": "2021-07-27T00:00:00+0000",
-  "genre": "Action, Indie",
-  "description": "Clone Drone in the Danger Zone is a third person sword fighter where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.",
+  "releasedate": "2026-03-26T15:00:00.000Z",
+  "genre": "Action, Fighting, Indie",
+  "description": "Clone Drone in the Danger Zone is a robot voxel slice-em-up where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1344",
+      "name": "Fighting"
+    },
+    {
+      "id": "29088",
+      "name": "Online Multiplayer"
+    },
+    {
+      "id": "21121",
+      "name": "Great for Quick Sessions"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "33639",
+      "name": "Promotional Content"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    },
+    {
+      "id": "1264",
+      "name": "Co-op"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "1299",
+      "name": "Competitive"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "22776",
+      "name": "Cross Platform"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1344",
+      "name": "Fighting"
+    },
+    {
+      "id": "1263",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "ESRB Everyone 10+",
+  "reviews_summary": null,
+  "igdb_id": 29411,
+  "igdb_url": "https://www.igdb.com/games/29411",
+  "giveaway_events": [
+    {
+      "start": "2026-04-02T15:00:00.000Z",
+      "end": "2026-04-09T15:00:00.000Z",
+      "type": null,
+      "id": "c6479f31043943d0b1710cc5983f53c6"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Clone Drone in the Danger Zone is a robot voxel slice-em-up where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.",
+  "use_rich_description": true,
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/2300be8843b24d9a8abaa663a2b544f8/clone-drone-in-the-danger-zone-1qmrz.png",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/2300be8843b24d9a8abaa663a2b544f8/clone-drone-in-the-danger-zone-9l989.png",
   "icon_image": "https://images.gog.com/e31d560c774b632e1bfa2a277f5c4f64b8d28bc4aa45ac612ec6566a371eeeb6.jpg?namespace=gamesdb",
@@ -62,6 +182,7 @@
   ],
   "metacritic_score": 82,
   "metacritic_url": "https://www.metacritic.com/game/pc/clone-drone-in-the-danger-zone?ftag=MCD-06-10aaa1f",
+  "hltb_id": 46204,
   "hltb_main": "2.1 hrs",
   "hltb_main_extra": "15.5 hrs",
   "hltb_completionist": "37.9 hrs",
@@ -72,5 +193,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-04-03T21:10:31.170Z",
-  "updated_at": "2026-04-10T20:59:13.279Z"
+  "updated_at": "2026-04-25T02:21:46.715Z"
 }

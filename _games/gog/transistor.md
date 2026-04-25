@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Supergiant Games
 developer: Supergiant Games
 genre: role-playing-rpg, strategy
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d70c02f6be0edd48f93d4b36007e3f927845023cdea27f630507efce8f64511b.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/17617"
 store_url: "https://www.gog.com/en/game/transistor"
 protondb_url: "https://www.protondb.com/app/237930"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Transistor"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/transistor?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1429612159"
 is_featured: false
+owned: false
 ---
 
 An unconventional tactical action RPG in which after a powerful group called the Camerata cause measureless destruction through the ambiguous settlement of Cloudbank, Red, a famous singer in the city, goes on a journey along with her lover who is trapped inside the Transistor...

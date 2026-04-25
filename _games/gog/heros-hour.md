@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Goblinz Publishing
 developer: ThingOnItsOwn
 genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Tactical
+franchise: 
+age_rating_summary: 
 release_date: "June 12, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/aaee0a7c24481b7c34a4339e8c79986e5dc958f2ac4a8792965d504d740e3bde.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/105664"
 store_url: "https://www.gog.com/en/game/heros_hour"
 protondb_url: "https://www.protondb.com/app/1656780"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hero%27s_Hour"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/heros-hour?ftag=MCD-06-10aaa1f"
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1547269859"
 is_featured: false
+owned: true
 ---
 
 Hero's Hour is a game inspired by the Heroes of Might and Magic turnbased strategy games. "Hour" refers to the more fast-paced gameplay, with combat taking place on a real-time simulated battlefield. You may just watch the battle as a casual player, or take control of your units as desired.

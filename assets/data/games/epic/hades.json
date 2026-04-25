@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/1145360",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/hades",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Hades",
   "notes": "Works out of the box!",
   "date_tested": "May '24",
   "decky_rating": "green",
@@ -17,7 +17,7 @@
   "controller_config": "",
   "performance_notes": "",
   "known_issues": "",
-  "requires_eos": false,
+  "requires_eos": true,
   "supports_eos": false,
   "requires_verification": false,
   "epic_achievements": false,
@@ -33,12 +33,125 @@
   "cant_test_linux": false,
   "databaseId": "3b586acd98e146ee9a92549c158d870f",
   "shortname": "3b586acd98e146ee9a92549c158d870f",
-  "publisher": "Supergiant Games, Netflix",
+  "publisher": "Supergiant Games",
   "developer": "Supergiant Games",
-  "releasedate": "2020-09-17",
-  "genre": "Role-playing (RPG), Adventure, Indie, Hack and slash/Beat 'em up",
-  "description": "A rogue-lite hack and slash dungeon crawler in which Zagreus, son of Hades the Greek god of the dead, attempts to escape his home...",
+  "releasedate": "2019-12-10T11:00:00.000Z",
+  "genre": "Action, RPG, Rogue-Lite",
+  "description": "Defy the god of the dead as you hack and slash your way out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion and Transistor.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "21122",
+      "name": "Diverse Characters"
+    },
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "1258",
+      "name": "Rogue-Like"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "9549",
+      "name": "Controller Support"
+    },
+    {
+      "id": "21137",
+      "name": "Unique Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21109",
+      "name": "Great Boss Battles"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    },
+    {
+      "id": "21147",
+      "name": "Inclusive Character Customization"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "10719",
+      "name": "Mac OS"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1216",
+      "name": "Action"
+    },
+    {
+      "id": "1367",
+      "name": "RPG"
+    },
+    {
+      "id": "1083",
+      "name": "Rogue-Lite"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Defy the god of the dead as you hack and slash your way out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion and Transistor.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/36d18a0f28be767c64ccdaa47afd1722d4befea5e1b13e5a409154de7c3b0741.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/346c602497b536d3efb98d84c43e48d9265db2aade0f4fd741c51a35f659dfb1.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/36d18a0f28be767c64ccdaa47afd1722d4befea5e1b13e5a409154de7c3b0741.jpg?namespace=gamesdb",
@@ -51,15 +164,16 @@
   ],
   "metacritic_score": 93,
   "metacritic_url": "https://www.metacritic.com/game/pc/hades?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
+  "hltb_id": 62941,
+  "hltb_main": "23.5 hrs",
+  "hltb_main_extra": "48.5 hrs",
+  "hltb_completionist": "95 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/62941",
   "epic_cloud_saves": false,
   "tested": true,
   "owned": false,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-10-03T23:58:22.463Z"
+  "updated_at": "2026-04-25T02:44:30.305Z"
 }

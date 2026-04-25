@@ -39,6 +39,17 @@
   "genre": "Indie, Visual Novel",
   "description": "A branching-path narrative horror RPG set in Vienna, Austria. Guide the Unnamed through the worst night of their life: Harass your neighbours. Debate with birds. Smoke to survive.",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/aa920f53b851c948f1f33e4f9ae06e3d825a48e8b6c89fe8eca5d3bae64c9944.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1817470/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1817470/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:16.825Z",
-  "updated_at": "2025-12-22T04:54:49.095Z"
+  "updated_at": "2026-04-25T00:55:11.492Z"
 }

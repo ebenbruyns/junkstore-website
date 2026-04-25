@@ -5,9 +5,9 @@
   "protondb": "https://www.protondb.com/app/973580",
   "protondb_report_url": "",
   "gog_url": "",
-  "epic_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/sniper-ghost-warrior-contracts-c772b9",
   "itch_url": "",
-  "pc_gaming_wiki_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Sniper%3A_Ghost_Warrior_Contracts",
   "notes": "Works out of the box!",
   "date_tested": "Sept '24",
   "decky_rating": "green",
@@ -33,12 +33,116 @@
   "cant_test_linux": false,
   "databaseId": "f8b6cc851ab34f5f9f07654426dc2429",
   "shortname": "f8b6cc851ab34f5f9f07654426dc2429",
-  "publisher": "CI Games",
-  "developer": "CI Games",
-  "releasedate": "2019-11-22T00:00:00+0000",
-  "genre": "Shooter",
-  "description": "Experience the ultimate sniper gameplay, set against the rough terrain of the Siberian wilderness and featuring a brand new contracts system that encourages strategic thinking across engaging, replayable missions.",
+  "publisher": "CI Games SE",
+  "developer": "CI Games SE",
+  "releasedate": "2024-09-05T15:00:00.000Z",
+  "genre": "First Person, Shooter, Stealth",
+  "description": "Become the ultimate assassin in the most realistic modern warfare sniping game available. Engage in an immersive single-player campaign across large, open-ended maps. Tactical thinking, stealth approach and precision in execution of long shots required.",
   "size": "",
+  "franchise": "Sniper Ghost Warrior Contracts",
+  "tags_structured": [
+    {
+      "id": "1188",
+      "name": "RELAXING"
+    },
+    {
+      "id": "21125",
+      "name": "Competitive Community"
+    },
+    {
+      "id": "21894",
+      "name": "Cloud Saves"
+    },
+    {
+      "id": "19847",
+      "name": "Achievements"
+    },
+    {
+      "id": "21127",
+      "name": "Creative Community"
+    },
+    {
+      "id": "21129",
+      "name": "Challenging Combat"
+    },
+    {
+      "id": "9547",
+      "name": "Windows"
+    },
+    {
+      "id": "1294",
+      "name": "First Person"
+    },
+    {
+      "id": "21135",
+      "name": "Realistic Visuals"
+    },
+    {
+      "id": "21138",
+      "name": "Recommend this Game"
+    },
+    {
+      "id": "21139",
+      "name": "Amazing Characters"
+    },
+    {
+      "id": "21140",
+      "name": "Amazing Storytelling"
+    },
+    {
+      "id": "21141",
+      "name": "Extremely Fun"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1370",
+      "name": "Single Player"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    },
+    {
+      "id": "21149",
+      "name": "Quickly Understand the Controls"
+    },
+    {
+      "id": "21119",
+      "name": "Great for Beginners"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1294",
+      "name": "First Person"
+    },
+    {
+      "id": "1210",
+      "name": "Shooter"
+    },
+    {
+      "id": "1084",
+      "name": "Stealth"
+    }
+  ],
+  "age_rating_summary": "ESRB Mature 17+",
+  "reviews_summary": null,
+  "igdb_id": 199639,
+  "igdb_url": "https://www.igdb.com/games/199639",
+  "giveaway_events": [
+    {
+      "start": "2024-09-05T15:00:00.000Z",
+      "end": "2024-09-12T15:00:00.000Z",
+      "type": null,
+      "id": "20f88d53af6e4e59876ed82749db4ee5"
+    }
+  ],
+  "was_free_before": true,
+  "description_rich": "Become the ultimate assassin in the most realistic modern warfare sniping game available. Engage in an immersive single-player campaign across large, open-ended maps. Tactical thinking, stealth approach and precision in execution of long shots required.",
+  "use_rich_description": true,
   "vertical_artwork": "https://images.gog.com/44c519c637b49201c0c2753307e765de2acf49d5a4e24027ee38b96d716626bf.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d160eb6336812c4dea57b2aa21f6dd70c8709a5e1f4aff60058d9e1f312fe7dd.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/25a868a34b73aba4a0ab0ca2381f33ff6868a7974f47c50363513d70e1f17193.jpg?namespace=gamesdb",
@@ -52,14 +156,15 @@
   ],
   "metacritic_score": 71,
   "metacritic_url": "https://www.metacritic.com/game/pc/sniper-ghost-warrior-contracts?ftag=MCD-06-10aaa1f",
-  "hltb_main": "",
-  "hltb_main_extra": "",
-  "hltb_completionist": "",
-  "hltb_url": "",
-  "epic_cloud_saves": false,
+  "hltb_id": 68384,
+  "hltb_main": "12 hrs",
+  "hltb_main_extra": "15.5 hrs",
+  "hltb_completionist": "27 hrs",
+  "hltb_url": "https://howlongtobeat.com/game/68384",
+  "epic_cloud_saves": true,
   "owned": true,
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2025-08-01T04:08:36.969Z"
+  "updated_at": "2026-04-25T05:44:23.429Z"
 }

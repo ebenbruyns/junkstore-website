@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Goblinz Studio, Klabater, Maple Whispering Limited, Mugen Creations
 developer: Goblinz Studio, Louis Rigaud
 genre: "Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie, Puzzle, Tactical, Card & Board Game"
+franchise: 
+age_rating_summary: 
 release_date: "February 27, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/d65aea7d7fa4cb586cb9a39134ac84440c3f9227963687f39bc9c3535ff5e552.jpg?namespace=gamesdb"
@@ -56,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/75608"
 store_url: "https://www.gog.com/en/game/iris_and_the_giant_deckbuilding_roguelike"
 protondb_url: "https://www.protondb.com/app/1127610"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Iris_and_the_Giant"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "1297646450"
 is_featured: false
+owned: true
 ---
 
 Iris and The Giant is a fusion of the CCG, RPG and roguelike genres. You play as Iris, who must brave her fears in her imaginary world. Dive into a melancholic and gripping adventure, filled with cute monsters and buried memories. Ready to face your inner demons?

@@ -39,6 +39,17 @@
   "genre": "Indie, Platform, Puzzle",
   "description": "Grab your Speer and use it to make your way through this puzzle-platformer! Throw your Speer into walls and use it as a platform, hurl it at switches, hit enemies in the face with it, power it up with unique abilities...the possibilities are endless!* \n \n*The possibilities are not endless",
   "size": "",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/50f909f0bae4acdfab6aabe50b66288f84b76c02e898ccaaeaffa740689fab80.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1945800/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1945800/capsule_231x87.jpg",
@@ -51,6 +62,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "",
+  "hltb_id": "",
   "hltb_main": "",
   "hltb_main_extra": "",
   "hltb_completionist": "",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T05:54:17.396Z",
-  "updated_at": "2025-12-16T03:29:32.995Z"
+  "updated_at": "2026-04-25T00:55:39.880Z"
 }

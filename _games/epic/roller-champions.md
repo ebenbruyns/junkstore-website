@@ -14,12 +14,18 @@ date_tested: "Sep '24"
 proton_version: ""
 
 # Game Info
-publisher: Ubisoft Entertainment
-developer: Ubisoft Montreal
+publisher: UBISOFT
+developer: UBISOFT MONTREAL
 genre: Sport, Simulator, Racing
-release_date: "May 25, 2022"
+franchise: 
+age_rating_summary: ESRB Everyone 10+
+release_date: "June 24, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
+tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21125","name":"Competitive Community"},{"id":"21141","name":"Extremely Fun"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/119158"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/5cc9699539b5eaa1cde3630d4409df473be9a11a668d83c85e0f4cb73e082c86.jpg?namespace=gamesdb"
@@ -34,7 +40,7 @@ requires_account_setup: true
 account_type: "Ubisoft Connect"
 
 # Epic Features
-requires_eos: false
+requires_eos: true
 supports_eos: false
 epic_achievements: false
 epic_offline_mode: false
@@ -50,13 +56,13 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/68264"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/roller-champions"
 protondb_url: "https://www.protondb.com/app/2211280"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Roller_Champions"
 metacritic_score: 
 metacritic_url: ""
 
@@ -69,7 +75,7 @@ known_issues:
 # Meta
 database_id: "540f935fa0ad4bd498177ee5ad3b54e4"
 is_featured: false
+owned: true
 ---
 
-Skate your way to victory!
-Advance through the ranks as you rise from street to stadium, winning matches and gaining fans on your way to Roller Champion fame. Feel the thrill of rushing down the track, weaving between opponents, and slamming goals in this electrifying derby-inspired game. The arena awaits you!
+Skate and roll your way up to glory in Roller Champions™. Discover a free-to-play, team PvP sports game like no other!

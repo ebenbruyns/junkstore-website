@@ -14,12 +14,18 @@ date_tested: "Nov '25"
 proton_version: ""
 
 # Game Info
-publisher: Movie Games S.A.
-developer: Drago Entertainment
-genre: Indie
-release_date: "September 15, 2021"
+publisher: DRAGO entertainment
+developer: DRAGO entertainment
+genre: Casual, Simulation
+franchise: 
+age_rating_summary: ESRB Teen
+release_date: "September 25, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Turkish","Czech","Portuguese - Brazil"]
+tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
+igdb_url: "https://www.igdb.com/games/122522"
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/0b22c808f80f1ae3d56159157254d08efc08228a771f8a07d7e95088ecb99c41.jpg?namespace=gamesdb"
@@ -47,10 +53,10 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "12 hrs"
+hltb_main_extra: "16.5 hrs"
+hltb_completionist: "29.5 hrs"
+hltb_url: "https://howlongtobeat.com/game/89898"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gas-station-simulator-ee93c7"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "ba0ad8b38e5642fc8de85d2017a3d70b"
 is_featured: false
+owned: true
 ---
 
-Gas Station Simulator is all about renovating, expanding and running a gas station along a highway in the middle of a desert. Freedom of choice and multiple approaches to run your business and deal with pressure are key ingredients in this game.
+Buy an abandoned gas station and restore it to its full glory. Renovate, upgrade and expand upon the offered services to keep up with your clients demands.

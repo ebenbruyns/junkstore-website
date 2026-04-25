@@ -39,6 +39,17 @@
   "genre": "Role-playing (RPG)",
   "description": "In the game, the player character visits Lord British and is instructed by him to kill certain monsters. The final mission is to kill a balrog, and after this has been accomplished, Lord British proclaims that \"thou hast proven thyself worthy of knighthood\".",
   "size": "2.90 MB",
+  "franchise": "",
+  "tags_structured": [],
+  "genres_structured": [],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "igdb_id": "",
+  "igdb_url": "",
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "",
+  "use_rich_description": false,
   "vertical_artwork": "https://images.gog.com/511cf474562bdaf2c8b9eec1a0c94e1eb5cf4e3900a618516adff2ebd89118e0.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/91146cec4a57fd6bbd3411d4348fb56b704cd6354ceb951760d54907cfe5b820.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/2d27d25c79c329f186d1301d1eed4802614fe34607e4b90abb6929b3a174aecf.jpg?namespace=gamesdb",
@@ -49,6 +60,7 @@
   "languages": [],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/akalabeth-world-of-doom/",
+  "hltb_id": 309,
   "hltb_main": "2 hrs",
   "hltb_main_extra": "3 hrs",
   "hltb_completionist": "6 hrs",
@@ -60,5 +72,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.038Z",
-  "updated_at": "2026-04-19T23:48:25.817Z"
+  "updated_at": "2026-04-25T00:50:33.974Z"
 }

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: Shadow Tor Studios
 developer: Shadow Tor Studios
 genre: adventure, indie, point-and-click
+franchise: 
+age_rating_summary: 
 release_date: "Invalid Date"
 game_modes: ["Single player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://images.gog.com/7ff3fe2295cbd79a984d984985af95c25866846ec5585c1048337fc3bbe8e660.jpg?namespace=gamesdb"
@@ -56,9 +62,9 @@ hltb_url: "https://howlongtobeat.com/game/849"
 store_url: "https://www.gog.com/en/game/barrow_hill_curse_of_the_ancient_circle"
 protondb_url: "https://www.protondb.com/app/494360"
 protondb_report_url: ""
-pcgamingwiki_url: ""
-metacritic_score: 
-metacritic_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_Curse_of_the_Ancient_Circle"
+metacritic_score: 65
+metacritic_url: "https://www.metacritic.com/game/barrow-hill-curse-of-the-ancient-circle/"
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "2133405352"
 is_featured: false
+owned: false
 ---
 
 Somewhere deep within the woods a timeless force is stirring. Beneath the ancient burial mound, known locally as Barrow Hill, a forgotten myth awakes...

@@ -17,9 +17,15 @@ proton_version: ""
 publisher: BancyCo
 developer: BancyCo
 genre: Adventure, Indie
+franchise: 
+age_rating_summary: 
 release_date: "February 9, 2017"
 game_modes: ["Single-player"]
 languages: ["English"]
+tags_structured: []
+igdb_url: ""
+was_free_before: false
+giveaway_events: []
 
 # Images
 banner_image: "https://steamcdn-a.akamaihd.net/steam/apps/564940/library_hero.jpg"
@@ -69,6 +75,7 @@ known_issues:
 # Meta
 database_id: "244674"
 is_featured: false
+owned: true
 ---
 
 Alone With You is a bittersweet sci-fi adventure game that goes right for the heart. Escape a doomed space colony with the help of your troubled AI companion and four chatty holograms in this unique blend of adventure &amp; visual novel storytelling.
