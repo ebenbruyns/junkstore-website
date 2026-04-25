@@ -82,7 +82,6 @@ layout: null
     <h1 class="hero-title">{{ page.game_title }}</h1>
     <div class="hero-meta" data-game-slug="{{ page.slug }}" data-game-storefront="{{ page.storefront_key }}">
       <span class="store-badge {{ page.storefront_key }}">{{ page.storefront }}</span>
-      {% if page.publisher %}<span class="hero-detail">{{ page.publisher }}</span>{% endif %}
       {% if page.date_tested %}
       <span class="hero-detail">Tested {{ page.date_tested }}</span>
       {% endif %}
@@ -99,13 +98,27 @@ layout: null
       {% if hltb_hero_time and hltb_hero_time != "" %}
       <span class="hero-detail hltb-hero">🕐 {{ hltb_hero_time }}</span>
       {% endif %}
+      {% if page.age_rating_summary and page.age_rating_summary != "" %}
+      <span class="hero-detail age-rating-hero" title="Age rating">{{ page.age_rating_summary }}</span>
+      {% endif %}
+      {% if page.was_free_before %}
+        {% comment %} Build the tooltip from giveaway_events dates {% endcomment %}
+        {% capture giveaway_tooltip %}{% if page.giveaway_events.size > 0 %}Previously free:{% for ev in page.giveaway_events %} {{ ev.start | date: "%b %-d" }} – {{ ev.end | date: "%b %-d, %Y" }}{% unless forloop.last %};{% endunless %}{% endfor %}{% else %}This game has been given away free in the past{% endif %}{% endcapture %}
+      <span class="hero-detail previously-free" title="{{ giveaway_tooltip | strip }}">Previously Free</span>
+      {% endif %}
+      {% if page.owned == false %}
+      <span class="hero-detail community-tested" title="Tested by the community, not in the Junk Store team's library">Community Tested</span>
+      {% endif %}
     </div>
   </div>
 </div>
 
-<!-- Breadcrumb -->
+<!-- Breadcrumb + inline CTA -->
 <div class="breadcrumb-bar">
-  <a href="/">Home</a> / <a href="/games/">Games</a> / <a href="/games/tested/?store={{ page.storefront }}">{{ page.storefront }}</a> / {{ page.game_title }}
+  <span class="breadcrumb-trail">
+    <a href="/">Home</a> / <a href="/games/">Games</a> / <a href="/games/tested/?store={{ page.storefront }}">{{ page.storefront }}</a> / {{ page.game_title }}
+  </span>
+  <a href="/portal-redirect/" class="breadcrumb-cta">Play with Junk Store — Try Free for 7 Days →</a>
 </div>
 
 <!-- Main Content -->
@@ -142,9 +155,20 @@ layout: null
     </div>
 
     <!-- Technical Details -->
+    {% comment %}
+      Pre-count populated grid items so we can pick a column layout that
+      balances rows: 1→1col, 2→2col, 3→3col, 4→2col(2x2), 5+→3col.
+    {% endcomment %}
+    {% assign tech_count = 1 %}{% comment %} Recommended Proton always shows {% endcomment %}
+    {% if page.controller_input %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.community_layout %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.required_launcher and page.required_launcher != "" %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.requires_account_setup %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.requires_eac_runtime or page.requires_battleye_runtime or page.cant_test_linux %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
+    {% if page.must_be_online %}{% assign tech_count = tech_count | plus: 1 %}{% endif %}
     <div class="info-section">
       <h2>Technical Details</h2>
-      <div class="info-grid">
+      <div class="info-grid info-grid--{{ tech_count }}">
         {% if page.controller_input %}
         <div class="info-item">
           <div class="info-label">Controller Support</div>
@@ -213,29 +237,26 @@ layout: null
       {% endif %}
     </div>
 
+    {% comment %}
+      Epic Features: only render rows that are actually enabled, as compact
+      chips so the section stays small. Hides entirely if nothing is enabled.
+    {% endcomment %}
     {% if page.storefront_key == 'epic' %}
-    <!-- Epic Features -->
-    <div class="info-section">
-      <h2>Epic Games Features</h2>
-      <div class="feature-grid">
-        <div class="feature-item {% if page.epic_achievements %}active{% endif %}">
-          <span class="feature-icon">{% if page.epic_achievements %}✓{% else %}✗{% endif %}</span>
-          Achievements
-        </div>
-        <div class="feature-item {% if page.epic_cloud_saves %}active{% endif %}">
-          <span class="feature-icon">{% if page.epic_cloud_saves %}✓{% else %}✗{% endif %}</span>
-          Cloud Saves
-        </div>
-        <div class="feature-item {% if page.epic_offline_mode %}active{% endif %}">
-          <span class="feature-icon">{% if page.epic_offline_mode %}✓{% else %}✗{% endif %}</span>
-          Offline Mode
-        </div>
-        <div class="feature-item {% if page.supports_eos %}active{% endif %}">
-          <span class="feature-icon">{% if page.supports_eos %}✓{% else %}✗{% endif %}</span>
-          Epic Online Services
+      {% assign any_epic_feature = false %}
+      {% if page.epic_achievements or page.epic_cloud_saves or page.epic_offline_mode or page.supports_eos %}
+        {% assign any_epic_feature = true %}
+      {% endif %}
+      {% if any_epic_feature %}
+      <div class="info-section info-section--compact">
+        <h2>Epic Features</h2>
+        <div class="feature-chips">
+          {% if page.epic_achievements %}<span class="feature-chip">✓ Achievements</span>{% endif %}
+          {% if page.epic_cloud_saves %}<span class="feature-chip">✓ Cloud Saves</span>{% endif %}
+          {% if page.epic_offline_mode %}<span class="feature-chip">✓ Offline Mode</span>{% endif %}
+          {% if page.supports_eos %}<span class="feature-chip">✓ Epic Online Services</span>{% endif %}
         </div>
       </div>
-    </div>
+      {% endif %}
     {% endif %}
 
     <!-- About -->
@@ -243,6 +264,38 @@ layout: null
       <h2>About This Game</h2>
       <p class="description">{{ content }}</p>
     </div>
+
+    {% comment %} External resource links — moved here from sidebar so they sit
+       naturally after the description, where users are in "learn more" mode. {% endcomment %}
+    {% if page.store_url or page.pcgamingwiki_url or page.protondb_url or page.protondb_report_url or page.areweanticheat_url or page.metacritic_url or page.hltb_url %}
+    <div class="info-section info-section--compact">
+      <h2>External Resources</h2>
+      <div class="external-links">
+        {% if page.store_url and page.store_url != "" %}
+        <a href="{{ page.store_url }}" target="_blank" rel="noopener" class="external-link {{ page.storefront_key }}">{{ page.storefront }} Store</a>
+        {% endif %}
+        {% if page.pcgamingwiki_url and page.pcgamingwiki_url != "" %}
+        <a href="{{ page.pcgamingwiki_url }}" target="_blank" rel="noopener" class="external-link pcgaming">PCGamingWiki</a>
+        {% endif %}
+        {% if page.protondb_url and page.protondb_url != "" %}
+        <a href="{{ page.protondb_url }}" target="_blank" rel="noopener" class="external-link protondb">ProtonDB</a>
+        {% endif %}
+        {% if page.protondb_report_url and page.protondb_report_url != "" %}
+        <a href="{{ page.protondb_report_url }}" target="_blank" rel="noopener" class="external-link our-report">Our Report</a>
+        {% endif %}
+        {% if page.areweanticheat_url and page.areweanticheat_url != "" %}
+        <a href="{{ page.areweanticheat_url }}" target="_blank" rel="noopener" class="external-link anticheat">AreWeAntiCheat</a>
+        {% endif %}
+        {% if page.metacritic_url and page.metacritic_url != "" %}
+        <a href="{{ page.metacritic_url }}" target="_blank" rel="noopener" class="external-link metacritic">Metacritic <span class="badge-score">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</span></a>
+        {% endif %}
+        {% if page.hltb_url and page.hltb_url != "" %}
+        <a href="{{ page.hltb_url }}" target="_blank" rel="noopener" class="external-link hltb">HowLongToBeat</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+
 
   </div>
 
@@ -255,10 +308,39 @@ layout: null
       {% endif %}
 
       <h3>Game Info</h3>
-      {% if page.genre %}
+      {% if page.publisher %}
       <div class="info-item">
+        <div class="info-label">Publisher</div>
+        <div class="info-value">{{ page.publisher }}</div>
+      </div>
+      {% endif %}
+      {% if page.developer %}
+      <div class="info-item">
+        <div class="info-label">Developer</div>
+        <div class="info-value">{{ page.developer }}</div>
+      </div>
+      {% endif %}
+      {% if page.genres_structured.size > 0 or page.genre %}
+      <div class="info-item info-item--tags">
         <div class="info-label">Genre</div>
-        <div class="info-value">{{ page.genre }}</div>
+        <div class="tag-chips">
+          {% if page.genres_structured.size > 0 %}
+            {% for g in page.genres_structured %}
+              <span class="tag-chip tag-chip--genre">{{ g.name }}</span>
+            {% endfor %}
+          {% else %}
+            {% assign legacy_genres = page.genre | split: "," %}
+            {% for g in legacy_genres %}
+              <span class="tag-chip tag-chip--genre">{{ g | strip }}</span>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+      {% if page.franchise and page.franchise != "" %}
+      <div class="info-item">
+        <div class="info-label">Franchise</div>
+        <div class="info-value">{{ page.franchise }}</div>
       </div>
       {% endif %}
       {% if page.release_date %}
@@ -268,9 +350,13 @@ layout: null
       </div>
       {% endif %}
       {% if page.game_modes.size > 0 %}
-      <div class="info-item">
+      <div class="info-item info-item--tags">
         <div class="info-label">Game Modes</div>
-        <div class="info-value">{{ page.game_modes | join: ", " }}</div>
+        <div class="tag-chips">
+          {% for m in page.game_modes %}
+            <span class="tag-chip tag-chip--mode">{{ m }}</span>
+          {% endfor %}
+        </div>
       </div>
       {% endif %}
       {% if page.languages.size > 0 %}
@@ -340,38 +426,7 @@ layout: null
       {% endif %}
     </div>
 
-    <div class="sidebar-card">
-      <h3>Links</h3>
-      <div class="external-links">
-        {% if page.store_url and page.store_url != "" %}
-        <a href="{{ page.store_url }}" target="_blank" rel="noopener" class="external-link {{ page.storefront_key }}">{{ page.storefront }} Store</a>
-        {% endif %}
-        {% if page.pcgamingwiki_url and page.pcgamingwiki_url != "" %}
-        <a href="{{ page.pcgamingwiki_url }}" target="_blank" rel="noopener" class="external-link pcgaming">PCGamingWiki</a>
-        {% endif %}
-        {% if page.protondb_url and page.protondb_url != "" %}
-        <a href="{{ page.protondb_url }}" target="_blank" rel="noopener" class="external-link protondb">ProtonDB</a>
-        {% endif %}
-        {% if page.protondb_report_url and page.protondb_report_url != "" %}
-        <a href="{{ page.protondb_report_url }}" target="_blank" rel="noopener" class="external-link our-report">Our Report</a>
-        {% endif %}
-        {% if page.areweanticheat_url and page.areweanticheat_url != "" %}
-        <a href="{{ page.areweanticheat_url }}" target="_blank" rel="noopener" class="external-link anticheat">AreWeAntiCheat</a>
-        {% endif %}
-        {% if page.metacritic_url and page.metacritic_url != "" %}
-        <a href="{{ page.metacritic_url }}" target="_blank" rel="noopener" class="external-link metacritic">Metacritic <span class="badge-score">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</span></a>
-        {% endif %}
-        {% if page.hltb_url and page.hltb_url != "" %}
-        <a href="{{ page.hltb_url }}" target="_blank" rel="noopener" class="external-link hltb">HowLongToBeat</a>
-        {% endif %}
-      </div>
-    </div>
 
-    <div class="cta-box">
-      <h3>Play with Junk Store</h3>
-      <p>Install and launch {{ page.storefront }} games directly in Steam Deck's Game Mode.</p>
-      <a href="/portal-redirect/" class="cta-button">Try Free for 7 Days</a>
-    </div>
 
   </div>
 </div>
