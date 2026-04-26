@@ -22,6 +22,8 @@ async function loadGamesData() {
 
     document.getElementById('loadingIndicator').style.display = 'none';
 
+    checkForGameParameter();
+
   } catch (error) {
     console.error('❌ Error loading games data:', error);
     document.getElementById('loadingIndicator').innerHTML = `
@@ -247,174 +249,58 @@ function changePageSize() {
   updateTable();
 }
 
-// Check for URL parameter and auto-open game modal
+// Honour URL parameters on /games/tested/.
+//   ?store=epic               → filter the table to Epic only
+//   ?store=epic&id=ABC        → redirect to the matching static game page
+//   ?game=Game%20Title        → redirect to the matching static game page
 function checkForGameParameter() {
   try {
-    const urlParams = new URLSearchParams(window.location.search);
+    const params = new URLSearchParams(window.location.search);
+    const store = params.get('store');
+    const databaseId = params.get('id');
+    const gameName = params.get('game');
 
-    // Check for store + id parameters first (for JunkStore plugin)
-    const store = urlParams.get('store');
-    const databaseId = urlParams.get('id');
-    const gameName = urlParams.get('game');
+    const STORE_MAP = {
+      'epic': 'Epic',
+      'gog': 'GOG',
+      'amazon': 'Amazon',
+      'itch': 'itch',
+      'itch.io': 'itch'
+    };
 
-    // If only store parameter (no id or game), filter table by storefront
-    if (store && !databaseId && !gameName) {
-      const storeMap = {
-        'epic': 'Epic',
-        'gog': 'GOG',
-        'amazon': 'Amazon',
-        'itch': 'itch',
-        'itch.io': 'itch'
-      };
-      const normalizedStore = storeMap[store.toLowerCase()];
+    // Game-deep-link by store + databaseId → redirect to static page
+    if (store && databaseId) {
+      const normalized = STORE_MAP[store.toLowerCase()];
+      if (!normalized) return;
+      const game = gamesData.games.find(g =>
+        g.storefront === normalized && g.databaseId === databaseId
+      );
+      if (game) {
+        window.location.replace(`/games/${normalized.toLowerCase()}/${game.slug}/`);
+      }
+      return;
+    }
 
-      if (normalizedStore) {
-        console.log(`🏪 Filtering table by store: ${normalizedStore}`);
-        document.getElementById('storefrontFilter').value = normalizedStore;
+    // Game-deep-link by exact title → redirect to static page
+    if (gameName) {
+      const decoded = decodeURIComponent(gameName.replace(/\+/g, ' '));
+      const game = gamesData.games.find(g => g.title === decoded);
+      if (game) {
+        window.location.replace(`/games/${game.storefront.toLowerCase()}/${game.slug}/`);
+      }
+      return;
+    }
+
+    // Store-only filter
+    if (store) {
+      const normalized = STORE_MAP[store.toLowerCase()];
+      if (normalized) {
+        document.getElementById('storefrontFilter').value = normalized;
         filterTable();
       }
-      return;
     }
-
-    if (store && databaseId) {
-      console.log(`🎯 Auto-opening modal for store: ${store}, databaseId: ${databaseId}`);
-
-      // Normalize storefront name for matching
-      const storeMap = {
-        'epic': 'Epic',
-        'gog': 'GOG',
-        'amazon': 'Amazon',
-        'itch': 'itch',
-        'itch.io': 'itch'
-      };
-      const normalizedStore = storeMap[store.toLowerCase()];
-
-      if (!normalizedStore) {
-        console.warn(`⚠️ Unknown store: ${store}`);
-        return;
-      }
-
-      // Find game by storefront + databaseId
-      const game = gamesData.games.find(g =>
-        g.storefront === normalizedStore &&
-        (g.databaseId === databaseId || (g._fullData && g._fullData.databaseId === databaseId))
-      );
-
-      if (game) {
-        console.log(`✅ Found game by databaseId:`, game.title);
-        // TODO Task 5: navigate to static game page
-      } else {
-        console.warn(`⚠️ Game not found for store: ${normalizedStore}, id: ${databaseId}`);
-      }
-      return;
-    }
-
-    // Fall back to game title parameter (gameName already declared above)
-    if (!gameName) {
-      return; // No game parameter found
-    }
-
-    console.log(`🎯 Auto-opening modal for game: ${gameName}`);
-
-    // Decode URL parameter (handles spaces and special characters)
-    const decodedGameName = decodeURIComponent(gameName.replace(/\+/g, ' '));
-
-    // Find the game in the loaded data (exact title match)
-    const game = gamesData.games.find(g => g.title === decodedGameName);
-
-    if (!game) {
-      console.warn(`⚠️ Game not found: ${decodedGameName}`);
-      return;
-    }
-
-    console.log(`✅ Found game:`, game);
-    // TODO Task 5: navigate to static game page
-
-  } catch (error) {
-    console.error('❌ Error processing game parameter:', error);
-  }
-}
-
-// Check for URL hash and auto-open game modal
-function checkForGameHash() {
-  try {
-    const hash = window.location.hash;
-
-    if (!hash || !hash.startsWith('#game-')) {
-      return; // No game hash found
-    }
-
-    console.log(`🎯 Auto-opening modal for hash: ${hash}`);
-
-    // Extract game entry ID from hash (e.g., #game-hades-epic)
-    const gameEntryId = hash.substring(1); // Remove the #
-
-    // Parse the hash to extract slug and storefront
-    // Format: game-{slug}-{storefront}
-    const hashParts = gameEntryId.split('-');
-    if (hashParts.length < 3) {
-      console.warn(`⚠️ Invalid hash format: ${hash}`);
-      return;
-    }
-
-    // Remove 'game' prefix and extract storefront from the end
-    hashParts.shift(); // Remove 'game'
-    const storefront = hashParts.pop().replace(/-/g, '.'); // Last part is storefront, restore dots
-    const slug = hashParts.join('-'); // Remaining parts form the slug
-
-    console.log(`📋 Parsed hash: slug="${slug}", storefront="${storefront}"`);
-
-    // Find the game in the full dataset by slug and storefront
-    const game = gamesData.games.find(g => {
-      const gameStorefront = g.storefront.toLowerCase().replace(/\./g, '-');
-      const targetStorefront = storefront.toLowerCase();
-      return g.slug === slug && gameStorefront === targetStorefront;
-    });
-
-    if (!game) {
-      console.warn(`⚠️ Game not found in dataset for hash: ${hash}`);
-      return;
-    }
-
-    console.log(`✅ Found game via hash:`, game.title);
-
-    // Calculate which page this game is on in the filtered list
-    const gameIndex = filteredGames.findIndex(g => g.id === game.id);
-    if (gameIndex === -1) {
-      console.warn(`⚠️ Game not in filtered list: ${game.title}`);
-      return;
-    }
-
-    // Switch to the correct page if needed
-    const targetPage = Math.floor(gameIndex / pageSize) + 1;
-    if (targetPage !== currentPage) {
-      console.log(`📄 Switching to page ${targetPage} (game index: ${gameIndex})`);
-      currentPage = targetPage;
-      updateTable();
-    }
-
-    // Wait for table to render, then scroll and open modal
-    setTimeout(() => {
-      const gameRow = document.getElementById(gameEntryId);
-      if (!gameRow) {
-        console.warn(`⚠️ Game row not found after page switch: ${hash}`);
-        return;
-      }
-
-      // Highlight the row temporarily
-      gameRow.style.backgroundColor = 'rgba(255, 163, 102, 0.3)';
-      setTimeout(() => {
-        gameRow.style.backgroundColor = '';
-      }, 2000);
-
-      // Scroll to the game in the table first for context
-      gameRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
-      // TODO Task 5: navigate to static game page
-    }, 300);
-
-  } catch (error) {
-    console.error('❌ Error processing game hash:', error);
+  } catch (err) {
+    console.error('Error processing URL parameters:', err);
   }
 }
 
