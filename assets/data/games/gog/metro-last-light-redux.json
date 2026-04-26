@@ -76,14 +76,20 @@
       "name": "First Person"
     }
   ],
-  "age_rating_summary": "",
+  "age_rating_summary": "ESRB 17 · PEGI 18",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "Metro: Last Light Redux",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/d1bca392cb9e83d537c68dc3f3ac464ae67e85aca0e9694aca29b04736b6199f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/80496b9540e10004637cada016191f5f78235c8f5a98c2aae17dcb7193df76b2.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/287390/capsule_231x87.jpg",
@@ -117,5 +123,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T05:18:50.619Z"
+  "updated_at": "2026-04-25T22:37:08.649Z"
 }

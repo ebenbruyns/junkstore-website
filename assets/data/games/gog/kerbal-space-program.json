@@ -96,14 +96,20 @@
       "name": "Simulation"
     }
   ],
-  "age_rating_summary": "",
+  "age_rating_summary": "PEGI 3",
   "reviews_summary": null,
-  "igdb_id": 3102,
-  "igdb_url": "https://www.igdb.com/games/3102",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/dc68da69d6306d79c23bdddd69290ad585721579107cfb35779bc2219d3a5480.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4d2680caf0bda7eeb4f90e3d9bccba500629cb0ec267dd1ec15bd38c9edcfec0.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/700ec1ea496cef400cba7c2b7cc701e4ae77448e0961be297320fbcb61c7a7b4.jpg?namespace=gamesdb",
@@ -128,5 +134,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T02:24:30.413Z"
+  "updated_at": "2026-04-25T22:36:57.794Z"
 }

@@ -44,17 +44,25 @@
   "genres_structured": [],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/64d3e9f5301b8bdc754bcffb50cc1200a584e5867fe6fa1debdda5cba3cf9e3f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e1ffe379f5ee4b64eb0ee2775c97ba8a7196bd0a17bb535281913b04052f36f1.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/859bd78e07e0ecc5a0716d43fb290e3eea61946a2b3596f7886f22a85604dfe1.jpg?namespace=gamesdb",
   "steamId": "1305720",
-  "game_modes": [],
+  "game_modes": [
+    "Single player"
+  ],
   "languages": [
     "English"
   ],
@@ -72,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T00:35:16.878Z"
+  "updated_at": "2026-04-25T22:35:41.918Z"
 }

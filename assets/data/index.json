@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-25T05:55:40.979Z",
+  "last_updated": "2026-04-25T22:55:56.294Z",
   "total_tested_games": 989,
   "featured_games": 0,
   "storefronts": {
@@ -26,164 +26,164 @@
   },
   "recent_updates": [
     {
-      "title": "Monster Harvest",
-      "storefront": "Epic",
-      "slug": "monster-harvest",
-      "date_tested": "April '26",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:55:38.007Z"
-    },
-    {
-      "title": "Symmetry",
-      "storefront": "Epic",
-      "slug": "symmetry",
-      "date_tested": "Mar '26",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:55:35.366Z"
-    },
-    {
-      "title": "Cozy Grove",
-      "storefront": "Epic",
-      "slug": "cozy-grove",
-      "date_tested": "Mar '26",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:55:31.028Z"
-    },
-    {
-      "title": "Turnip Boy Robs a Bank",
-      "storefront": "Epic",
-      "slug": "turnip-boy-robs-a-bank",
-      "date_tested": "Mar '26",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:55:28.763Z"
-    },
-    {
-      "title": "The Darkside Detective A Fumble in the Dark",
-      "storefront": "Epic",
-      "slug": "the-darkside-detective-a-fumble-in-the-dark",
+      "title": "JDM: Rise of the Scorpion",
+      "storefront": "GOG",
+      "slug": "jdm-rise-of-the-scorpion",
       "date_tested": "Feb '26",
       "is_featured": false,
-      "updated_at": "2026-04-25T05:55:23.768Z"
+      "updated_at": "2026-04-25T22:49:22.966Z"
     },
     {
-      "title": "Dreamscaper",
-      "storefront": "Epic",
-      "slug": "dreamscaper",
+      "title": "ATOM RPG: Trudograd",
+      "storefront": "GOG",
+      "slug": "atom-rpg-trudograd",
+      "date_tested": "Oct '24",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:45:22.408Z"
+    },
+    {
+      "title": "XCOM: Enemy Unknown Complete Pack",
+      "storefront": "GOG",
+      "slug": "xcom-enemy-unknown-complete-pack",
+      "date_tested": "April '26",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:42:36.222Z"
+    },
+    {
+      "title": "Fallout 4: Game of the Year Edition",
+      "storefront": "GOG",
+      "slug": "fallout-4-game-of-the-year-edition",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2026-04-25T05:53:59.906Z"
+      "updated_at": "2026-04-25T22:42:06.693Z"
     },
     {
-      "title": "Sorry We're Closed",
-      "storefront": "Epic",
-      "slug": "sorry-were-closed",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:57.387Z"
-    },
-    {
-      "title": "Jotunnslayer: Hordes of Hel",
-      "storefront": "Epic",
-      "slug": "jotunnslayer-hordes-of-hel",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:55.166Z"
-    },
-    {
-      "title": "Hogwarts Legacy",
-      "storefront": "Epic",
-      "slug": "hogwarts-legacy",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:52.663Z"
-    },
-    {
-      "title": "The Darkside Detective",
-      "storefront": "Epic",
-      "slug": "the-darkside-detective",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:47.522Z"
-    },
-    {
-      "title": "LEGO® 2K Drive",
-      "storefront": "Epic",
-      "slug": "lego-2k-drive",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:44.904Z"
-    },
-    {
-      "title": "Goat Simulator 3",
-      "storefront": "Epic",
-      "slug": "goat-simulator-3",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:42.133Z"
-    },
-    {
-      "title": "Gunslugs",
+      "title": "Another World – 20th Anniversary Edition",
       "storefront": "GOG",
-      "slug": "gunslugs",
+      "slug": "another-world-20th-anniversary-edition",
       "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2026-04-25T05:53:39.751Z"
+      "updated_at": "2026-04-25T22:41:56.902Z"
     },
     {
-      "title": "Universe For Sale",
-      "storefront": "Epic",
-      "slug": "universe-for-sale",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:37.525Z"
-    },
-    {
-      "title": "Godzilla Voxel Wars",
-      "storefront": "Epic",
-      "slug": "godzilla-voxel-wars",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:35.125Z"
-    },
-    {
-      "title": "Zoeti",
-      "storefront": "Epic",
-      "slug": "zoeti",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:32.603Z"
-    },
-    {
-      "title": "ScourgeBringer",
-      "storefront": "Epic",
-      "slug": "scourgebringer",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:30.115Z"
-    },
-    {
-      "title": "New Tales from the Borderlands",
-      "storefront": "Epic",
-      "slug": "new-tales-from-the-borderlands",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:27.569Z"
-    },
-    {
-      "title": "Gas Station Simulator",
-      "storefront": "Epic",
-      "slug": "gas-station-simulator",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T05:53:24.687Z"
-    },
-    {
-      "title": "Vampire: The Masquerade - Reckoning of New York",
-      "storefront": "Epic",
-      "slug": "vampire-the-masquerade-reckoning-of-new-york",
+      "title": "True Fear: Forsaken Souls Part 2",
+      "storefront": "GOG",
+      "slug": "true-fear-forsaken-souls-part-2",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2026-04-25T05:53:07.791Z"
+      "updated_at": "2026-04-25T22:41:49.846Z"
+    },
+    {
+      "title": "Alan Wake's American Nightmare",
+      "storefront": "GOG",
+      "slug": "alan-wakes-american-nightmare",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:49.009Z"
+    },
+    {
+      "title": "Fallout: New Vegas Ultimate Edition",
+      "storefront": "GOG",
+      "slug": "fallout-new-vegas-ultimate-edition",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:48.302Z"
+    },
+    {
+      "title": "True Fear: Forsaken Souls Part 1",
+      "storefront": "GOG",
+      "slug": "true-fear-forsaken-souls-part-1",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:47.583Z"
+    },
+    {
+      "title": "Sid Meier's Civilization IV: Complete Edition",
+      "storefront": "GOG",
+      "slug": "sid-meiers-civilization-iv-complete-edition",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:41.336Z"
+    },
+    {
+      "title": "GMDX",
+      "storefront": "GOG",
+      "slug": "gmdx",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:38.859Z"
+    },
+    {
+      "title": "Necroking",
+      "storefront": "GOG",
+      "slug": "necroking",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:32.269Z"
+    },
+    {
+      "title": "Fate: The Traitor Soul",
+      "storefront": "GOG",
+      "slug": "fate-the-traitor-soul",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:31.608Z"
+    },
+    {
+      "title": "Thief: Definitive Edition",
+      "storefront": "GOG",
+      "slug": "thief-definitive-edition",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:30.892Z"
+    },
+    {
+      "title": "Sid Meier's Civilization III: Complete",
+      "storefront": "GOG",
+      "slug": "sid-meiers-civilization-iii-complete",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:29.945Z"
+    },
+    {
+      "title": "Ziggurat",
+      "storefront": "GOG",
+      "slug": "ziggurat",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:29.253Z"
+    },
+    {
+      "title": "Total Annihilation: Commander Pack",
+      "storefront": "GOG",
+      "slug": "total-annihilation-commander-pack",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:13.417Z"
+    },
+    {
+      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
+      "storefront": "GOG",
+      "slug": "the-witcher-2-assassins-of-kings-enhanced-edition",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:41:09.493Z"
+    },
+    {
+      "title": "STAR WARS™ Galactic Battlegrounds Saga",
+      "storefront": "GOG",
+      "slug": "star-wars-galactic-battlegrounds-saga",
+      "date_tested": "Feb '26",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:40:57.840Z"
+    },
+    {
+      "title": "Pumpkin Jack",
+      "storefront": "GOG",
+      "slug": "pumpkin-jack",
+      "date_tested": "Oct '24",
+      "is_featured": false,
+      "updated_at": "2026-04-25T22:40:43.112Z"
     }
   ]
 }

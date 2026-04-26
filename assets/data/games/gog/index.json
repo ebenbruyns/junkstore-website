@@ -75,7 +75,6 @@
     "cuphead.json",
     "cursed-to-golf.json",
     "cyberpunk-2077-ultimate-edition.json",
-    "cyberpunk-2077.json",
     "dagon-by-h-p-lovecraft.json",
     "dark-deity.json",
     "dark-envoy.json",
@@ -287,7 +286,6 @@
     "star-wars-battlefront-ii-classic-2005.json",
     "star-wars-bounty-hunter.json",
     "star-wars-galactic-battlegrounds-saga.json",
-    "star-wars-jedi-knight-dark-forces-ii-mysteries-of-the-sith.json",
     "star-wars-jedi-knight-dark-forces-ii.json",
     "star-wars-jedi-knight-mysteries-of-the-sith.json",
     "star-wars-knights-of-the-old-republic-ii-the-sith-lords.json",
@@ -378,20 +376,8 @@
     "ziggurat.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-04-25T05:55:40.960Z",
+  "last_updated": "2026-04-25T22:55:56.273Z",
   "latest_games": [
-    {
-      "title": "Gunslugs",
-      "slug": "gunslugs",
-      "date_tested": "Nov '25",
-      "is_featured": false
-    },
-    {
-      "title": "Sapphire Safari",
-      "slug": "sapphire-safari",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
     {
       "title": "JDM: Rise of the Scorpion",
       "slug": "jdm-rise-of-the-scorpion",
@@ -399,45 +385,57 @@
       "is_featured": false
     },
     {
-      "title": "Raidborn",
-      "slug": "raidborn",
-      "date_tested": "Nov '24",
+      "title": "ATOM RPG: Trudograd",
+      "slug": "atom-rpg-trudograd",
+      "date_tested": "Oct '24",
       "is_featured": false
     },
     {
-      "title": "Flipon",
-      "slug": "flipon",
-      "date_tested": "Dec '24",
+      "title": "XCOM: Enemy Unknown Complete Pack",
+      "slug": "xcom-enemy-unknown-complete-pack",
+      "date_tested": "April '26",
       "is_featured": false
     },
     {
-      "title": "Hell Division",
-      "slug": "hell-division",
-      "date_tested": "Sept '24",
+      "title": "Fallout 4: Game of the Year Edition",
+      "slug": "fallout-4-game-of-the-year-edition",
+      "date_tested": "Jan '26",
       "is_featured": false
     },
     {
-      "title": "Diggles: The Myth of Fenris",
-      "slug": "diggles-the-myth-of-fenris",
-      "date_tested": "Nov '24",
+      "title": "Another World – 20th Anniversary Edition",
+      "slug": "another-world-20th-anniversary-edition",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "Ascendant",
-      "slug": "ascendant",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Cursed to Golf",
-      "slug": "cursed-to-golf",
-      "date_tested": "Sept '24",
-      "is_featured": false
-    },
-    {
-      "title": "Metro: Last Light Redux",
-      "slug": "metro-last-light-redux",
+      "title": "True Fear: Forsaken Souls Part 2",
+      "slug": "true-fear-forsaken-souls-part-2",
       "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Alan Wake's American Nightmare",
+      "slug": "alan-wakes-american-nightmare",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Fallout: New Vegas Ultimate Edition",
+      "slug": "fallout-new-vegas-ultimate-edition",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "True Fear: Forsaken Souls Part 1",
+      "slug": "true-fear-forsaken-souls-part-1",
+      "date_tested": "Oct '25",
+      "is_featured": false
+    },
+    {
+      "title": "Sid Meier's Civilization IV: Complete Edition",
+      "slug": "sid-meiers-civilization-iv-complete-edition",
+      "date_tested": "Sept '25",
       "is_featured": false
     }
   ]

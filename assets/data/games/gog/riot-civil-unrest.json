@@ -44,12 +44,18 @@
   "genres_structured": [],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/fb8ab84b330e34292993422d473e536ffc156eb2f8f03715f24eae5b5c1fbf98.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ab2a31178c1ad29c5c2cc5b1f69952ab10a363df7d133515cca3551bd613e04a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1c970a07c9e8bf3c6782c7334c72eee647a89730aa9c9ff988f2aa6203b39eea.jpg?namespace=gamesdb",
@@ -62,8 +68,8 @@
   "languages": [
     "English"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 54,
+  "metacritic_url": "https://www.metacritic.com/game/riot-civil-unrest/",
   "hltb_id": 34405,
   "hltb_main": "5 hrs",
   "hltb_main_extra": "",
@@ -76,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T00:43:07.713Z"
+  "updated_at": "2026-04-25T21:09:29.289Z"
 }

@@ -44,12 +44,18 @@
   "genres_structured": [],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/bff4404211ce8dc42e483d1ee4cfbd96472fc86714ce7bf1ff33f6287ec50565.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d4ff1f39b3a36585cbd23b0c01a7083403f783cc7b3fd46224eb771113b40433.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/04c12a073469380354311ba403a71d65f335945ff34274dfd093bd8168aaf5f3.jpg?namespace=gamesdb",
@@ -58,7 +64,12 @@
     "Single player",
     "Multiplayer"
   ],
-  "languages": [],
+  "languages": [
+    "English",
+    "French",
+    "German",
+    "Spanish"
+  ],
   "metacritic_score": 82,
   "metacritic_url": "https://www.metacritic.com/game/pc/crusader-kings-ii?ftag=MCD-06-10aaa1f",
   "hltb_id": 2058,
@@ -73,5 +84,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T00:41:37.965Z"
+  "updated_at": "2026-04-25T22:36:12.907Z"
 }

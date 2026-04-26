@@ -42,19 +42,27 @@
   "franchise": "",
   "tags_structured": [],
   "genres_structured": [],
-  "age_rating_summary": "",
+  "age_rating_summary": "PEGI 12",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/5a12160636bc2aad5f98aef8a2bc17ff686167b0126db2d440481f18d1ae726c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4d390717f3253d98e8a5deb4d90543c696ab806a4428208270aab80778436b0b.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/2fb58e7779fd5afd39f04159e01367531455ac18efe1909f0ce238e11018734c.jpg?namespace=gamesdb",
   "steamId": "1590760",
-  "game_modes": [],
+  "game_modes": [
+    "Single player"
+  ],
   "languages": [
     "English"
   ],
@@ -72,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T00:46:56.092Z"
+  "updated_at": "2026-04-25T22:39:08.046Z"
 }

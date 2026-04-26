@@ -42,14 +42,20 @@
   "franchise": "",
   "tags_structured": [],
   "genres_structured": [],
-  "age_rating_summary": "",
+  "age_rating_summary": "PEGI 18",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/40f9492db6bdc2f0ffa7fc0225dd4cd90b592331d944a4ae22d7f16440bd74d8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/bcddaa6e380e540ff2a9273e83dba16eaccd95490d8481e18a66d9124525a956.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/65cb67ae368291bcde67d2d307ace678d53c993a68bcce1f90ce862c13e6c8cd.jpg?namespace=gamesdb",
@@ -60,8 +66,8 @@
   "languages": [
     "English"
   ],
-  "metacritic_score": null,
-  "metacritic_url": "",
+  "metacritic_score": 70,
+  "metacritic_url": "https://www.metacritic.com/game/scorn/",
   "hltb_id": 77760,
   "hltb_main": "5 hrs",
   "hltb_main_extra": "6 hrs",
@@ -74,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T00:43:20.871Z"
+  "updated_at": "2026-04-25T22:37:29.845Z"
 }

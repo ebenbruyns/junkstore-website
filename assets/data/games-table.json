@@ -32,7 +32,7 @@
     "green_standalone": 835,
     "both_green": 656
   },
-  "last_updated": "2026-04-25T05:55:40.965Z",
+  "last_updated": "2026-04-25T22:55:56.279Z",
   "games": [
     {
       "id": "aa1a2fc7-85e0-4dc6-a4bf-dd908fe161b8",
@@ -7099,8 +7099,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Greak:_Memories_of_Azur",
       "steamId": "1311070",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 74,
+      "metacritic_url": "https://www.metacritic.com/game/greak-memories-of-azur/"
     },
     {
       "id": "e7ba7ab5-9fbc-4799-a6a5-c9bb7ec44e44",
@@ -7194,8 +7194,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Haven_Park",
       "steamId": "1549550",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 68,
+      "metacritic_url": "https://www.metacritic.com/game/haven-park/"
     },
     {
       "id": "8c13eec6-e359-426b-bb09-6c6d4e976cae",
@@ -7290,7 +7290,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Hero_of_the_Kingdom_II",
       "steamId": "346560",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/hero-of-the-kingdom-ii/"
     },
     {
       "id": "a49ae9c0-f9dd-47f2-9668-c01a62f73719",
@@ -7366,7 +7366,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/HuniePop",
       "steamId": "339800",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/huniepop/"
     },
     {
       "id": "8e863ba9-015e-4818-9abc-c1cdc8e0403b",
@@ -7442,7 +7442,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Intravenous",
       "steamId": "1486630",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/intravenous/"
     },
     {
       "id": "1dec3401-860d-4547-a5c3-9b111dec7b0f",
@@ -7517,8 +7517,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/King_of_Seas",
       "steamId": "1209410",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 68,
+      "metacritic_url": "https://www.metacritic.com/game/king-of-seas/"
     },
     {
       "id": "dbd9c942-dd92-47ff-a34d-3fd5da40bc21",
@@ -7821,8 +7821,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Moonlighter",
       "steamId": "606150",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 81,
+      "metacritic_url": "https://www.metacritic.com/game/moonlighter/"
     },
     {
       "id": "d7c2e769-2c79-4eac-a438-1724060e5c38",
@@ -8106,8 +8106,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Riot%3A_Civil_Unrest",
       "steamId": "342310",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 54,
+      "metacritic_url": "https://www.metacritic.com/game/riot-civil-unrest/"
     },
     {
       "id": "ee79872f-d5e2-4cca-b6a6-3959ef23abc9",
@@ -8220,8 +8220,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Scorn",
       "steamId": "698670",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 70,
+      "metacritic_url": "https://www.metacritic.com/game/scorn/"
     },
     {
       "id": "4672e276-e61d-4484-b80c-62048eb45e51",
@@ -8354,7 +8354,7 @@
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Sigma_Theory%3A_Global_Cold_War",
       "steamId": "716640",
       "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_url": "https://www.metacritic.com/game/sigma-theory-global-cold-war/"
     },
     {
       "id": "a0b1a613-5bd2-4462-a6be-47859dfaa80b",

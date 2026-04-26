@@ -31,8 +31,8 @@
   "controller_input": "native",
   "community_layout": false,
   "cant_test_linux": false,
-  "databaseId": "1139940",
-  "shortname": "1139940",
+  "databaseId": "1818710374",
+  "shortname": "1818710374",
   "publisher": "AtomTeam",
   "developer": "AtomTeam",
   "releasedate": "05-2020",
@@ -44,17 +44,25 @@
   "genres_structured": [],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/e53c56ac94c36b5f78a21ec5955072ce690b600ba719633f35d6d03e88781041.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4f920e65828b7b79809d74e9045b18144dd1dcc8b401844f923a2977db98d5d5.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/e53c56ac94c36b5f78a21ec5955072ce690b600ba719633f35d6d03e88781041.jpg?namespace=gamesdb",
   "steamId": "1139940",
-  "game_modes": [],
+  "game_modes": [
+    "Single player"
+  ],
   "languages": [
     "English"
   ],
@@ -71,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T00:45:48.868Z"
+  "updated_at": "2026-04-25T22:45:22.408Z"
 }

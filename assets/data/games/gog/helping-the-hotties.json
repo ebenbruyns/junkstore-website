@@ -33,8 +33,8 @@
   "cant_test_linux": false,
   "databaseId": "1237982317",
   "shortname": "1237982317",
-  "publisher": "NIL, NIL",
-  "developer": "NIL, NIL",
+  "publisher": "xRedGames",
+  "developer": "xRedGames",
   "releasedate": "",
   "genre": "NIL, NIL",
   "description": "Helping the Hotties - a unique visual novel harem game filled with girls, humour, exciting secrets, and spicy romance!",
@@ -44,17 +44,25 @@
   "genres_structured": [],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/7d2400f45e71f465921ad9ce5bbc0e6648e67fbc5065ec0e2907e63bdabf4fef.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/3847d0c7fc37d7909292bef4e963e774d48cbb3ce23730bdd21a9d333154e01e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ab5d2ff070fe439afe2d000dbbb326b70311df25d8fc15b337e5e3ad0631b344.jpg?namespace=gamesdb",
   "steamId": "1590730",
-  "game_modes": [],
+  "game_modes": [
+    "Single player"
+  ],
   "languages": [
     "English"
   ],
@@ -72,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-04-25T00:51:32.838Z"
+  "updated_at": "2026-04-25T22:40:04.440Z"
 }
