@@ -62,11 +62,17 @@ function main() {
       counts[sf.label] = { total: 0 };
       continue;
     }
-    const files = fs.readdirSync(dir).filter(f => f.endsWith('.json'));
+    const files = fs.readdirSync(dir)
+      .filter(f => f.endsWith('.json'))
+      .filter(f => f !== 'index.json'); // companion-app manifest, not a game
     let n = 0;
     for (const file of files) {
       const slug = file.replace(/\.json$/, '');
       const game = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
+      if (!game.title) {
+        console.warn(`[warn] skipping ${sf.dir}/${file} — no title field`);
+        continue;
+      }
       games.push(pluck(game, slug, sf.label));
       n++;
     }

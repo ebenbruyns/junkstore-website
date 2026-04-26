@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-26T21:37:25.689Z",
-  "total_games": 997,
+  "generated_at": "2026-04-26T21:47:50.124Z",
+  "total_games": 993,
   "storefronts": {
     "Epic": {
-      "total": 474
+      "total": 473
     },
     "GOG": {
-      "total": 376
+      "total": 375
     },
     "Amazon": {
-      "total": 74
+      "total": 73
     },
     "itch": {
-      "total": 73
+      "total": 72
     }
   },
   "games": [
@@ -3039,10 +3039,6 @@
       "controller_input": "",
       "requires_eac_runtime": false,
       "databaseId": "e757cb1a95f4459ba0950ef51f05ccb4"
-    },
-    {
-      "slug": "index",
-      "storefront": "Epic"
     },
     {
       "slug": "industria",
@@ -9009,10 +9005,6 @@
       "databaseId": "2089001920"
     },
     {
-      "slug": "index",
-      "storefront": "GOG"
-    },
-    {
       "slug": "industria",
       "id": "8fd47f44-86fc-4c1e-957e-6d59186a2833",
       "title": "Industria",
@@ -12303,10 +12295,6 @@
       "databaseId": "amzn1.adg.product.625256c0-9e82-47e3-9bcb-7d1154a7d4a8"
     },
     {
-      "slug": "index",
-      "storefront": "Amazon"
-    },
-    {
       "slug": "kraken-academy",
       "id": "a645188e-5a82-42b1-a3fd-35476f7fd197",
       "title": "Kraken Academy!!",
@@ -13635,10 +13623,6 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "279295"
-    },
-    {
-      "slug": "index",
-      "storefront": "itch"
     },
     {
       "slug": "macbat-64-journey-of-a-nice-chap",
