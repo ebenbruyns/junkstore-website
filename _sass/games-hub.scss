@@ -388,7 +388,7 @@ $hub-radius: 12px;
 
 // Game Card
 .game-card {
-  flex: 0 0 140px;
+  flex: 0 0 160px;
   background: $hub-card-bg;
   border: 1px solid $hub-border;
   border-radius: $hub-radius;
@@ -437,7 +437,7 @@ $hub-radius: 12px;
   }
 
   &__content {
-    padding: 10px;
+    padding: 12px;
   }
 
   &__badges {
@@ -449,19 +449,20 @@ $hub-radius: 12px;
   }
 
   &__title {
-    font-size: 13px;
+    font-size: 10px;
     font-weight: 600;
     color: $hub-text;
-    margin: 0;
+    margin: 4px 0 0 0;
     line-height: 1.3;
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    overflow-wrap: anywhere;
   }
 
   &__rating {
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 600;
 
     &--green { color: $hub-green; }
@@ -471,9 +472,9 @@ $hub-radius: 12px;
   }
 
   &__store {
-    font-size: 9px;
+    font-size: 11px;
     font-weight: 600;
-    padding: 2px 6px;
+    padding: 3px 7px;
     border-radius: 4px;
     text-transform: uppercase;
     cursor: pointer;

@@ -143,7 +143,7 @@ layout: null
 
       {% assign notes_lower = page.notes | downcase | strip %}
       {% assign is_generic = false %}
-      {% if notes_lower == "works out of the box!" or notes_lower == "works out of the box" or notes_lower == "works great!" or notes_lower == "works great" or notes_lower == "" %}
+      {% if notes_lower == "works out of the box!" or notes_lower == "works out of the box" or notes_lower == "works great!" or notes_lower == "works great" or notes_lower == "works out of the box on the decky plugin version." or notes_lower == "works out of the box on the standalone version." or notes_lower == "" %}
         {% assign is_generic = true %}
       {% endif %}
       {% if page.notes and is_generic == false %}
@@ -216,9 +216,23 @@ layout: null
         {% endif %}
       </div>
 
-      {% if page.controller_config or page.performance_notes or page.known_issues %}
+      {% comment %}
+        Filter out controller_config strings that just restate what the
+        structured Controller Support row already conveys (e.g. "Native
+        Steam Deck Controls" when controller_input is "native"). Keeps
+        genuinely useful notes like "Need to use the mouse/trackpad."
+      {% endcomment %}
+      {% assign cc_lower = page.controller_config | downcase | strip | replace: ".", "" %}
+      {% assign cc_is_generic = false %}
+      {% if cc_lower == "" or cc_lower == "native steam deck controls" or cc_lower == "native steam deck controller support" or cc_lower == "native controller support" or cc_lower == "native" %}
+        {% assign cc_is_generic = true %}
+      {% endif %}
+      {% assign show_controller_config = false %}
+      {% if page.controller_config and cc_is_generic == false %}{% assign show_controller_config = true %}{% endif %}
+
+      {% if show_controller_config or page.performance_notes or page.known_issues %}
       <div class="tech-notes">
-        {% if page.controller_config %}
+        {% if show_controller_config %}
         <div class="tech-note">
           <strong>Controller Config:</strong> {{ page.controller_config }}
         </div>
