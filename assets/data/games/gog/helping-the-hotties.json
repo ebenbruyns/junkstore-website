@@ -35,9 +35,9 @@
   "shortname": "1237982317",
   "publisher": "xRedGames",
   "developer": "xRedGames",
-  "release_date": "",
-  "genre": "NIL, NIL",
-  "description": "Helping the Hotties - a unique visual novel harem game filled with girls, humour, exciting secrets, and spicy romance!",
+  "release_date": "31 Aug, 2023",
+  "genre": "Action, Adventure, Indie, RPG, Simulation",
+  "description": "Helping the Hotties is a unique adult visual novel harem game filled with gorgeous girls, humor, exciting secrets, and spicy romance set in a hot summer. It’s time to enjoy your summer in a whole new way.",
   "size": "",
   "franchise": "",
   "tags_structured": [],
@@ -48,9 +48,9 @@
   "was_free_before": false,
   "description_rich": "",
   "description_gog": "",
-  "description_steam": "",
+  "description_steam": "Helping the Hotties is a unique adult visual novel harem game filled with gorgeous girls, humor, exciting secrets, and spicy romance set in a hot summer. It’s time to enjoy your summer in a whole new way.",
   "use_rich_description": false,
-  "description_source": "",
+  "description_source": "steam",
   "gamesdb_game_id": "57345733165499479",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
@@ -64,11 +64,15 @@
     "Single player"
   ],
   "languages": [
-    "English"
+    "English*",
+    "Simplified Chinese",
+    "Turkish",
+    "Russian",
+    "Portuguese - Brazil*languages with full audio support"
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_id": 94467,
+  "hltb_id": "94467",
   "hltb_main": "11 hrs",
   "hltb_main_extra": "19.5 hrs",
   "hltb_completionist": "57 hrs",
@@ -80,5 +84,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-04-26T00:51:07.919Z"
+  "updated_at": "2026-04-26T08:25:39.314Z"
 }

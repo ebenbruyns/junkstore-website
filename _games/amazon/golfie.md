@@ -14,7 +14,7 @@ date_tested: "Sept '25"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
+publisher: Yogscast Games
 developer: Triheart Studio
 genre: "Indie, Platform, Puzzle, Sport, Card & Board Game"
 franchise: 

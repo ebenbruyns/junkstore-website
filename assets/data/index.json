@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-26T04:33:02.002Z",
+  "last_updated": "2026-04-26T08:52:53.631Z",
   "total_tested_games": 993,
   "featured_games": 4,
   "storefronts": {
@@ -26,28 +26,12 @@
   },
   "recent_updates": [
     {
-      "title": "The Whispering Valley",
-      "storefront": "GOG",
-      "slug": "the-whispering-valley",
-      "date_tested": "April '26",
-      "is_featured": true,
-      "updated_at": "2026-04-26T04:32:03.443Z"
-    },
-    {
       "title": "Neo Cab",
       "storefront": "GOG",
       "slug": "neo-cab",
       "date_tested": "April '26",
       "is_featured": true,
-      "updated_at": "2026-04-26T04:31:27.786Z"
-    },
-    {
-      "title": "The Pale Beyond",
-      "storefront": "GOG",
-      "slug": "the-pale-beyond",
-      "date_tested": "April '26",
-      "is_featured": true,
-      "updated_at": "2026-04-26T04:06:34.767Z"
+      "updated_at": "2026-04-26T08:52:34.417Z"
     },
     {
       "title": "DOOMBLADE",
@@ -55,135 +39,151 @@
       "slug": "doomblade",
       "date_tested": "April '26",
       "is_featured": true,
-      "updated_at": "2026-04-26T04:05:18.498Z"
+      "updated_at": "2026-04-26T08:52:31.872Z"
     },
     {
-      "title": "20 Minutes Till Dawn",
-      "storefront": "Epic",
-      "slug": "20-minutes-till-dawn",
-      "date_tested": "July '25",
+      "title": "Gunslugs",
+      "storefront": "GOG",
+      "slug": "gunslugs",
+      "date_tested": "Nov '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
+      "updated_at": "2026-04-26T08:52:29.676Z"
     },
     {
-      "title": "[REDACTED]",
-      "storefront": "Epic",
-      "slug": "redacted",
-      "date_tested": "Dec '24",
+      "title": "Subterrain: Mines of Titan",
+      "storefront": "Amazon",
+      "slug": "subterrain-mines-of-titan",
+      "date_tested": "Sep '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
+      "updated_at": "2026-04-26T08:52:24.747Z"
     },
     {
-      "title": "3 out of 10, Ep. 1: \"Welcome to Shovelworks\"",
-      "storefront": "Epic",
-      "slug": "3-out-of-10-ep-1-welcome-to-shovelworks",
+      "title": "Minabo: A Walk Through Life",
+      "storefront": "Amazon",
+      "slug": "minabo-a-walk-through-life",
       "date_tested": "Dec '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
+      "updated_at": "2026-04-26T08:52:22.234Z"
     },
     {
-      "title": "911 Operator",
-      "storefront": "Epic",
-      "slug": "911-operator",
-      "date_tested": "July '25",
-      "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
-    },
-    {
-      "title": "A Plague Tale: Innocence",
-      "storefront": "Epic",
-      "slug": "a-plague-tale-innocence",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
-    },
-    {
-      "title": "Aerial_Knight's Never Yield",
-      "storefront": "Epic",
-      "slug": "aerialknights-never-yield",
-      "date_tested": "Aug '24",
-      "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
-    },
-    {
-      "title": "Adios",
-      "storefront": "Epic",
-      "slug": "adios",
+      "title": "Sapphire Safari",
+      "storefront": "GOG",
+      "slug": "sapphire-safari",
       "date_tested": "Aug '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
+      "updated_at": "2026-04-26T08:52:19.718Z"
     },
     {
-      "title": "9 Years of Shadows",
+      "title": "JDM: Rise of the Scorpion",
       "storefront": "GOG",
-      "slug": "9-years-of-shadows",
-      "date_tested": "Sept '24",
+      "slug": "jdm-rise-of-the-scorpion",
+      "date_tested": "Feb '26",
       "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
+      "updated_at": "2026-04-26T08:52:17.389Z"
     },
     {
-      "title": "A Plague Tale: Innocence",
+      "title": "Raidborn",
       "storefront": "GOG",
-      "slug": "a-plague-tale-innocence",
+      "slug": "raidborn",
       "date_tested": "Nov '24",
       "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
+      "updated_at": "2026-04-26T08:52:12.246Z"
     },
     {
-      "title": "Delores: A Thimbleweed Park Mini-Adventure",
+      "title": "Flipon",
       "storefront": "GOG",
-      "slug": "delores-a-thimbleweed-park-mini-adventure",
-      "date_tested": "April '25",
+      "slug": "flipon",
+      "date_tested": "Dec '24",
       "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
+      "updated_at": "2026-04-26T08:52:09.708Z"
     },
     {
-      "title": "Aces of the Luftwaffe - Squadron Extended Edition",
-      "storefront": "Amazon",
-      "slug": "aces-of-the-luftwaffe-squadron-extended-edition",
-      "date_tested": "July '25",
+      "title": "Pillars of Eternity: Definitive Edition",
+      "storefront": "GOG",
+      "slug": "pillars-of-eternity-definitive-edition",
+      "date_tested": "Aug '24",
       "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
+      "updated_at": "2026-04-26T08:52:07.337Z"
     },
     {
-      "title": "Alba - A Wildlife Adventure",
+      "title": "Time Loader",
+      "storefront": "GOG",
+      "slug": "time-loader",
+      "date_tested": "Nov '24",
+      "is_featured": false,
+      "updated_at": "2026-04-26T08:52:04.758Z"
+    },
+    {
+      "title": "Hell Division",
+      "storefront": "GOG",
+      "slug": "hell-division",
+      "date_tested": "Sept '24",
+      "is_featured": false,
+      "updated_at": "2026-04-26T08:52:02.242Z"
+    },
+    {
+      "title": "Diggles: The Myth of Fenris",
+      "storefront": "GOG",
+      "slug": "diggles-the-myth-of-fenris",
+      "date_tested": "Nov '24",
+      "is_featured": false,
+      "updated_at": "2026-04-26T08:51:59.701Z"
+    },
+    {
+      "title": "Trackmania",
       "storefront": "Epic",
-      "slug": "alba-a-wildlife-adventure",
+      "slug": "trackmania",
+      "date_tested": "Sep '24",
+      "is_featured": false,
+      "updated_at": "2026-04-26T08:51:56.022Z"
+    },
+    {
+      "title": "Ascendant",
+      "storefront": "GOG",
+      "slug": "ascendant",
       "date_tested": "Sept '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
+      "updated_at": "2026-04-26T08:51:53.487Z"
     },
     {
-      "title": "Albion Online",
-      "storefront": "Epic",
-      "slug": "albion-online",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
-    },
-    {
-      "title": "Alex Kidd in Miracle World DX",
-      "storefront": "Epic",
-      "slug": "alex-kidd-in-miracle-world-dx",
-      "date_tested": "Jan '26",
-      "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
-    },
-    {
-      "title": "Alan Wake 2",
-      "storefront": "Epic",
-      "slug": "alan-wake-2",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
-    },
-    {
-      "title": "Amerzone: The Explorer's Legacy (1999)",
+      "title": "Saints Row: The Third Remastered",
       "storefront": "GOG",
-      "slug": "amerzone-the-explorers-legacy-1999",
+      "slug": "saints-row-the-third-remastered",
       "date_tested": "March '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T02:26:29.954Z"
+      "updated_at": "2026-04-26T08:27:27.560Z"
+    },
+    {
+      "title": "Leap of Love",
+      "storefront": "GOG",
+      "slug": "leap-of-love",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T08:26:16.026Z"
+    },
+    {
+      "title": "Helping the Hotties",
+      "storefront": "GOG",
+      "slug": "helping-the-hotties",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T08:25:39.314Z"
+    },
+    {
+      "title": "The Gap",
+      "storefront": "Amazon",
+      "slug": "the-gap",
+      "date_tested": "July '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T08:24:23.787Z"
+    },
+    {
+      "title": "Faraway: Arctic Escape",
+      "storefront": "Amazon",
+      "slug": "faraway-arctic-escape",
+      "date_tested": "July '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T08:23:24.460Z"
     }
   ]
 }

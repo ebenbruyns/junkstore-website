@@ -35,8 +35,8 @@
   "shortname": "1111421371",
   "publisher": "Andrealphus Games",
   "developer": "Andrealphus Games",
-  "release_date": "",
-  "genre": "NIL, NIL",
+  "release_date": "31 Dec, 2020",
+  "genre": "Casual",
   "description": "Leap of Love is a fantasy game where you play as Kaheroux a frog turned prince by a shady wizard. The catch of that spell is that he needs to find and marry a princess within a month or go back to being a frog.",
   "size": "",
   "franchise": "",
@@ -48,9 +48,9 @@
   "was_free_before": false,
   "description_rich": "",
   "description_gog": "",
-  "description_steam": "",
+  "description_steam": "Leap of Love is a fantasy game where you play as Kaheroux a frog turned prince by a shady wizard. The catch of that spell is that he needs to find and marry a princess within a month or go back to being a frog.",
   "use_rich_description": false,
-  "description_source": "",
+  "description_source": "local",
   "gamesdb_game_id": "53925023543090394",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
@@ -64,11 +64,13 @@
     "Single player"
   ],
   "languages": [
-    "English"
+    "English*",
+    "Russian",
+    "Simplified Chinese*languages with full audio support"
   ],
   "metacritic_score": null,
   "metacritic_url": "",
-  "hltb_id": 139454,
+  "hltb_id": "139454",
   "hltb_main": "1 hrs",
   "hltb_main_extra": "3.5 hrs",
   "hltb_completionist": "6 hrs",
@@ -80,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-04-26T00:51:22.993Z"
+  "updated_at": "2026-04-26T08:26:16.026Z"
 }

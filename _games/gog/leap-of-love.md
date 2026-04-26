@@ -16,12 +16,12 @@ proton_version: ""
 # Game Info
 publisher: Andrealphus Games
 developer: Andrealphus Games
-genre: NIL, NIL
+genre: Casual
 franchise: 
 age_rating_summary: 
-release_date: ""
+release_date: "December 31, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English*","Russian","Simplified Chinese*languages with full audio support"]
 tags_structured: []
 igdb_url: ""
 was_free_before: false

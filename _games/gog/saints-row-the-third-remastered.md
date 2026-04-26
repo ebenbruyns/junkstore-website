@@ -16,12 +16,12 @@ proton_version: ""
 # Game Info
 publisher: Deep Silver
 developer: Deep Silver Volition
-genre: NIL, NIL
+genre: Action, Adventure
 franchise: 
 age_rating_summary: ESRB 17 · PEGI 18
 release_date: "May 22, 2020"
 game_modes: ["Co-op","Multiplayer","Single player"]
-languages: ["English"]
+languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Russian","Czech"]
 tags_structured: []
 igdb_url: ""
 was_free_before: false
@@ -63,12 +63,12 @@ store_url: "https://www.gog.com/en/game/saints_row_the_third_remastered"
 protondb_url: "https://www.protondb.com/app/978300"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_The_Third_Remastered"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/game/saints-row-the-third-remastered/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

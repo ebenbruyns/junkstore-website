@@ -14,14 +14,14 @@ date_tested: "July '25"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
-developer: NIL, NIL
+publisher: Snapbreak
+developer: Pine Studio
 genre: Adventure
 franchise: 
 age_rating_summary: 
-release_date: ""
-game_modes: []
-languages: ["English"]
+release_date: "February 27, 2023"
+game_modes: ["Single-player"]
+languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Dutch","Finnish","Greek","Japanese"]
 tags_structured: []
 igdb_url: ""
 was_free_before: false
@@ -30,7 +30,7 @@ giveaway_events: []
 # Images
 banner_image: "https://images.gog.com/f3ab37f64378a185c17851fcc856df448ec6846be3ab60d9a32165a2f75138a5.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/7c6358ab4c14e639aee1356a9f9e163ffdea96adbbf07e952e7886552b0fbead.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1747690/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "keyboard-mouse"

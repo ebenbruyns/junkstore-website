@@ -33,9 +33,9 @@
   "cant_test_linux": false,
   "databaseId": "amzn1.adg.product.2acb36df-2414-4f0d-8fa4-cdfe9fe604fe",
   "shortname": "amzn1.adg.product.2acb36df-2414-4f0d-8fa4-cdfe9fe604fe",
-  "publisher": "NIL, NIL",
-  "developer": "NIL, NIL",
-  "release_date": "",
+  "publisher": "Snapbreak",
+  "developer": "Pine Studio",
+  "release_date": "27 Feb, 2023",
   "genre": "Adventure",
   "description": "Faraway: Arctic Escape is a relaxing adventure escape game full of new puzzles to solve. The final sequel of the Faraway trilogy.",
   "size": "",
@@ -48,9 +48,9 @@
   "was_free_before": false,
   "description_rich": "",
   "description_gog": "",
-  "description_steam": "",
+  "description_steam": "Faraway: Arctic Escape is a relaxing adventure escape game full of new puzzles to solve. The final sequel of the Faraway trilogy.",
   "use_rich_description": false,
-  "description_source": "",
+  "description_source": "local",
   "gamesdb_game_id": "55241105814186170",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
@@ -58,15 +58,26 @@
   "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/7c6358ab4c14e639aee1356a9f9e163ffdea96adbbf07e952e7886552b0fbead.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f3ab37f64378a185c17851fcc856df448ec6846be3ab60d9a32165a2f75138a5.jpg?namespace=gamesdb",
-  "icon_image": "",
+  "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1747690/capsule_231x87.jpg",
   "steamId": "1747690",
-  "game_modes": [],
+  "game_modes": [
+    "Single-player"
+  ],
   "languages": [
-    "English"
+    "English",
+    "French",
+    "Italian",
+    "German",
+    "Spanish - Spain",
+    "Arabic",
+    "Dutch",
+    "Finnish",
+    "Greek",
+    "Japanese"
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/faraway-arctic-escape/",
-  "hltb_id": 63992,
+  "hltb_id": "63992",
   "hltb_main": "2 hrs",
   "hltb_main_extra": "",
   "hltb_completionist": "4 hrs",
@@ -76,5 +87,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.202Z",
-  "updated_at": "2026-04-26T00:45:14.029Z"
+  "updated_at": "2026-04-26T08:23:24.460Z"
 }

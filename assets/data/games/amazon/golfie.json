@@ -33,7 +33,7 @@
   "cant_test_linux": false,
   "databaseId": "amzn1.adg.product.9274ae27-f99c-4594-a917-9cc01e3f65ad",
   "shortname": "amzn1.adg.product.9274ae27-f99c-4594-a917-9cc01e3f65ad",
-  "publisher": "NIL, NIL",
+  "publisher": "Yogscast Games",
   "developer": "Triheart Studio",
   "release_date": "2023-01-19",
   "genre": "Indie, Platform, Puzzle, Sport, Card & Board Game",
@@ -48,9 +48,9 @@
   "was_free_before": false,
   "description_rich": "",
   "description_gog": "",
-  "description_steam": "",
+  "description_steam": "Golfie is a run-based, roguelike minigolf deck builder for 1-8 players. Play through procedurally-generated levels, build a deck of crazy card abilities, and try to beat all 18 holes. Pick your route carefully because no two runs – or shots – are the same!",
   "use_rich_description": false,
-  "description_source": "",
+  "description_source": "local",
   "gamesdb_game_id": "54532653652798054",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
@@ -78,7 +78,7 @@
   ],
   "metacritic_score": null,
   "metacritic_url": "https://www.metacritic.com/game/golfie/",
-  "hltb_id": 108144,
+  "hltb_id": "108144",
   "hltb_main": "3.5 hrs",
   "hltb_main_extra": "5.5 hrs",
   "hltb_completionist": "",
@@ -88,5 +88,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.041Z",
-  "updated_at": "2026-04-26T02:26:29.954Z"
+  "updated_at": "2026-04-26T08:22:25.782Z"
 }

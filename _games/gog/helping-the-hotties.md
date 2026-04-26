@@ -16,12 +16,12 @@ proton_version: ""
 # Game Info
 publisher: xRedGames
 developer: xRedGames
-genre: NIL, NIL
+genre: Action, Adventure, Indie, RPG, Simulation
 franchise: 
 age_rating_summary: 
-release_date: ""
+release_date: "August 31, 2023"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English*","Simplified Chinese","Turkish","Russian","Portuguese - Brazil*languages with full audio support"]
 tags_structured: []
 igdb_url: ""
 was_free_before: false
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Helping the Hotties - a unique visual novel harem game filled with girls, humour, exciting secrets, and spicy romance!
+Helping the Hotties is a unique adult visual novel harem game filled with gorgeous girls, humor, exciting secrets, and spicy romance set in a hot summer. It’s time to enjoy your summer in a whole new way.

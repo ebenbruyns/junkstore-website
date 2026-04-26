@@ -477,13 +477,19 @@
     "zombie-army-4-dead-war.json"
   ],
   "featured_games": 1,
-  "last_updated": "2026-04-26T04:33:01.981Z",
+  "last_updated": "2026-04-26T08:52:53.596Z",
   "latest_games": [
     {
       "title": "DOOMBLADE",
       "slug": "doomblade",
       "date_tested": "April '26",
       "is_featured": true
+    },
+    {
+      "title": "Trackmania",
+      "slug": "trackmania",
+      "date_tested": "Sep '24",
+      "is_featured": false
     },
     {
       "title": "20 Minutes Till Dawn",
@@ -531,12 +537,6 @@
       "title": "Alba - A Wildlife Adventure",
       "slug": "alba-a-wildlife-adventure",
       "date_tested": "Sept '25",
-      "is_featured": false
-    },
-    {
-      "title": "Albion Online",
-      "slug": "albion-online",
-      "date_tested": "Oct '25",
       "is_featured": false
     }
   ]

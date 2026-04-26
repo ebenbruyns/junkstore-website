@@ -16,12 +16,12 @@ proton_version: ""
 # Game Info
 publisher: Alawar Premium
 developer: Paintbucket Games
-genre: NIL, NIL
+genre: Adventure, Indie, Simulation, Strategy
 franchise: 
 age_rating_summary: 
 release_date: "March 3, 2022"
 game_modes: ["Single-player"]
-languages: ["English"]
+languages: ["English*","German*","Russian*","Simplified Chinese","French","Turkish*languages with full audio support"]
 tags_structured: []
 igdb_url: ""
 was_free_before: false
@@ -30,7 +30,7 @@ giveaway_events: []
 # Images
 banner_image: "https://images.gog.com/48f6cdd4640f73d1a1f195e0c758f7695d1648b9a84e35c4b482515f6a5d0d24.jpg?namespace=gamesdb"
 cover_image: "https://images.gog.com/ca20e874d51e84dafbbd1ff531a25df93b85a2dec471054ac0d6908e358ca8d4.jpg?namespace=gamesdb"
-icon_image: ""
+icon_image: "https://steamcdn-a.akamaihd.net/steam/apps/1570070/capsule_231x87.jpg"
 
 # Technical Details
 controller_input: "native"

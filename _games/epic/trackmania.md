@@ -14,14 +14,14 @@ date_tested: "Sep '24"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
+publisher: Ubisoft
 developer: Ubisoft Nadeo
 genre: Racing
 franchise: 
 age_rating_summary: ESRB Everyone
 release_date: "July 1, 2020"
 game_modes: ["Single player","Multiplayer","Split screen"]
-languages: ["English"]
+languages: ["English","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Russian","Simplified Chinese"]
 tags_structured: [{"id":"1203","name":"Multiplayer"},{"id":"1159","name":"Arcade"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"1279","name":"Vampire"}]
 igdb_url: ""
 was_free_before: false
@@ -53,22 +53,22 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "9 hrs"
+hltb_main_extra: "67 hrs"
+hltb_completionist: "381 hrs"
+hltb_url: "https://howlongtobeat.com/game/76075"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/trackmania"
 protondb_url: "https://www.protondb.com/app/2225070"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trackmania_%282020%29"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 74
+metacritic_url: "https://www.metacritic.com/search/trackmania/"
 
 # Notes
 notes: "Need to download & log in to Uplay"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Trackmania, the racing franchise from Ubisoft Nadeo, is back with the most compelling remake of Trackmania Nations.
+Trackmania – the unique racing game that combines precision and creativity. Play for free across five stunning environments, race on the best player-made tracks every week, and climb your regional rankings.

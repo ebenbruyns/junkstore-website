@@ -379,14 +379,8 @@
     "ziggurat.json"
   ],
   "featured_games": 3,
-  "last_updated": "2026-04-26T04:33:01.982Z",
+  "last_updated": "2026-04-26T08:52:53.600Z",
   "latest_games": [
-    {
-      "title": "The Whispering Valley",
-      "slug": "the-whispering-valley",
-      "date_tested": "April '26",
-      "is_featured": true
-    },
     {
       "title": "Neo Cab",
       "slug": "neo-cab",
@@ -394,51 +388,57 @@
       "is_featured": true
     },
     {
-      "title": "The Pale Beyond",
-      "slug": "the-pale-beyond",
-      "date_tested": "April '26",
-      "is_featured": true
-    },
-    {
-      "title": "9 Years of Shadows",
-      "slug": "9-years-of-shadows",
-      "date_tested": "Sept '24",
+      "title": "Gunslugs",
+      "slug": "gunslugs",
+      "date_tested": "Nov '25",
       "is_featured": false
     },
     {
-      "title": "A Plague Tale: Innocence",
-      "slug": "a-plague-tale-innocence",
-      "date_tested": "Nov '24",
-      "is_featured": false
-    },
-    {
-      "title": "Delores: A Thimbleweed Park Mini-Adventure",
-      "slug": "delores-a-thimbleweed-park-mini-adventure",
-      "date_tested": "April '25",
-      "is_featured": false
-    },
-    {
-      "title": "Amerzone: The Explorer's Legacy (1999)",
-      "slug": "amerzone-the-explorers-legacy-1999",
-      "date_tested": "March '25",
-      "is_featured": false
-    },
-    {
-      "title": "Alder's Blood Prologue",
-      "slug": "alders-blood-prologue",
-      "date_tested": "April '25",
-      "is_featured": false
-    },
-    {
-      "title": "Amnesia: A Machine for Pigs",
-      "slug": "amnesia-a-machine-for-pigs",
+      "title": "Sapphire Safari",
+      "slug": "sapphire-safari",
       "date_tested": "Aug '25",
       "is_featured": false
     },
     {
-      "title": "Mordheim: City of the Damned",
-      "slug": "mordheim-city-of-the-damned",
-      "date_tested": "June '25",
+      "title": "JDM: Rise of the Scorpion",
+      "slug": "jdm-rise-of-the-scorpion",
+      "date_tested": "Feb '26",
+      "is_featured": false
+    },
+    {
+      "title": "Raidborn",
+      "slug": "raidborn",
+      "date_tested": "Nov '24",
+      "is_featured": false
+    },
+    {
+      "title": "Flipon",
+      "slug": "flipon",
+      "date_tested": "Dec '24",
+      "is_featured": false
+    },
+    {
+      "title": "Pillars of Eternity: Definitive Edition",
+      "slug": "pillars-of-eternity-definitive-edition",
+      "date_tested": "Aug '24",
+      "is_featured": false
+    },
+    {
+      "title": "Time Loader",
+      "slug": "time-loader",
+      "date_tested": "Nov '24",
+      "is_featured": false
+    },
+    {
+      "title": "Hell Division",
+      "slug": "hell-division",
+      "date_tested": "Sept '24",
+      "is_featured": false
+    },
+    {
+      "title": "Diggles: The Myth of Fenris",
+      "slug": "diggles-the-myth-of-fenris",
+      "date_tested": "Nov '24",
       "is_featured": false
     }
   ]

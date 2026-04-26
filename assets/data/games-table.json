@@ -32,7 +32,7 @@
     "green_standalone": 839,
     "both_green": 660
   },
-  "last_updated": "2026-04-26T04:33:01.990Z",
+  "last_updated": "2026-04-26T08:52:53.614Z",
   "games": [
     {
       "id": "aa1a2fc7-85e0-4dc6-a4bf-dd908fe161b8",
@@ -5404,12 +5404,12 @@
       "blog_category": "",
       "protondb": "https://www.protondb.com/app/2225070",
       "gog_url": "",
-      "epic_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/trackmania",
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Trackmania_%282020%29",
       "steamId": "2225070",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 74,
+      "metacritic_url": "https://www.metacritic.com/search/trackmania/"
     },
     {
       "id": "c0f13806-1a0e-41fb-8a02-85a5c4e5ba22",
@@ -8182,8 +8182,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_The_Third_Remastered",
       "steamId": "978300",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 74,
+      "metacritic_url": "https://www.metacritic.com/game/saints-row-the-third-remastered/"
     },
     {
       "id": "438b3189-2dfc-4a11-8d3c-00da411ceddc",
@@ -9588,8 +9588,8 @@
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Time_Loader",
       "steamId": "1421970",
-      "metacritic_score": null,
-      "metacritic_url": ""
+      "metacritic_score": 79,
+      "metacritic_url": "https://www.metacritic.com/game/time-loader/"
     },
     {
       "id": "79b674e6-193d-457f-8c02-bffa18560635",

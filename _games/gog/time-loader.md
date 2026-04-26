@@ -16,12 +16,12 @@ proton_version: ""
 # Game Info
 publisher: Flazm
 developer: Flazm
-genre: NIL, NIL
+genre: Action, Adventure, Casual, Indie, Racing, Simulation, Free To Play
 franchise: 
 age_rating_summary: 
-release_date: ""
+release_date: "November 11, 2020"
 game_modes: ["Single player"]
-languages: ["English"]
+languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Russian","Simplified Chinese*languages with full audio support"]
 tags_structured: []
 igdb_url: ""
 was_free_before: false
@@ -53,22 +53,22 @@ requires_battleye_runtime: false
 cant_test_linux: false
 
 # HowLongToBeat
-hltb_main: ""
-hltb_main_extra: ""
-hltb_completionist: ""
-hltb_url: ""
+hltb_main: "3 hrs"
+hltb_main_extra: "4 hrs"
+hltb_completionist: "5 hrs"
+hltb_url: "https://howlongtobeat.com/game/89847"
 
 # Links
 store_url: "https://www.gog.com/en/game/time_loader_prologue"
 protondb_url: "https://www.protondb.com/app/1421970"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Time_Loader"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 79
+metacritic_url: "https://www.metacritic.com/game/time-loader/"
 
 # Notes
 notes: "Works out of the box!"
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 
