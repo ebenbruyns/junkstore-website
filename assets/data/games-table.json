@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-26T21:47:50.124Z",
-  "total_games": 993,
+  "generated_at": "2026-04-26T23:05:34.647Z",
+  "total_games": 992,
   "storefronts": {
     "Epic": {
       "total": 473
     },
     "GOG": {
-      "total": 375
+      "total": 374
     },
     "Amazon": {
       "total": 73
@@ -8177,20 +8177,6 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1876546888"
-    },
-    {
-      "slug": "fallout-2-a-post-nuclear-role-playing-game",
-      "id": "cdf53061-93cd-40dd-8d2c-fcda6abecb2e",
-      "title": "Fallout 2: A Post Nuclear Role Playing Game",
-      "storefront": "GOG",
-      "decky_rating": "green",
-      "standalone_rating": "green",
-      "date_tested": "Dec '25",
-      "cant_test_linux": false,
-      "publisher": "Bethesda Softworks",
-      "controller_input": "keyboard-mouse",
-      "requires_eac_runtime": false,
-      "databaseId": "1440151285"
     },
     {
       "slug": "fallout-2",
