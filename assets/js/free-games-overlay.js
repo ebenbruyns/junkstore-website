@@ -18,12 +18,26 @@
   var state = {
     activeList: [],
     byKey: new Map(),
+    byTitle: new Map(),
     loaded: false,
     loadPromise: null
   };
 
   function key(storefront, slug) {
     return (storefront || '').toLowerCase() + '/' + (slug || '').toLowerCase();
+  }
+
+  // Title-based key: lowercase, strip non-word chars, collapse whitespace.
+  // Lets us match free-games entries to game pages when the upstream feed is
+  // missing website_slug (the bot leaves it null). Storefront is intentionally
+  // omitted so an Amazon Prime giveaway delivering a GOG/Epic code still matches
+  // the GOG/Epic game page.
+  function titleKey(title) {
+    return (title || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, ' ')
+      .trim()
+      .replace(/\s+/g, ' ');
   }
 
   function isActive(entry) {
@@ -44,10 +58,13 @@
         var games = (payload && payload.games) || [];
         state.activeList = games.filter(isActive);
         state.byKey = new Map();
+        state.byTitle = new Map();
         state.activeList.forEach(function (entry) {
           if (entry.website_slug) {
             state.byKey.set(key(entry.storefront, entry.website_slug), entry);
           }
+          var tk = titleKey(entry.title);
+          if (tk) state.byTitle.set(tk, entry);
         });
         state.loaded = true;
         document.dispatchEvent(new CustomEvent('freegames:ready', { detail: { count: state.activeList.length } }));
@@ -73,13 +90,19 @@
   }
 
   function applyBadges(root) {
-    if (!state.loaded || state.byKey.size === 0) return 0;
+    if (!state.loaded) return 0;
+    if (state.byKey.size === 0 && state.byTitle.size === 0) return 0;
     var scope = root || document;
     var elements = scope.querySelectorAll('[data-game-slug][data-game-storefront]');
     var count = 0;
     elements.forEach(function (el) {
       if (el.dataset.freeNowApplied) return;
+      // Primary match: storefront + slug. Fall back to title when the upstream
+      // feed didn't provide website_slug (currently always null).
       var entry = state.byKey.get(key(el.dataset.gameStorefront, el.dataset.gameSlug));
+      if (!entry && el.dataset.gameTitle) {
+        entry = state.byTitle.get(titleKey(el.dataset.gameTitle));
+      }
       if (!entry) return;
       el.dataset.freeNowApplied = '1';
       el.classList.add('has-free-now-badge');

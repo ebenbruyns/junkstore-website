@@ -80,7 +80,7 @@ layout: null
   {% endif %}
   <div class="hero-content">
     <h1 class="hero-title">{{ page.game_title }}</h1>
-    <div class="hero-meta" data-game-slug="{{ page.slug }}" data-game-storefront="{{ page.storefront_key }}">
+    <div class="hero-meta" data-game-slug="{{ page.slug }}" data-game-storefront="{{ page.storefront_key }}" data-game-title="{{ page.game_title | escape }}">
       <span class="store-badge {{ page.storefront_key }}">{{ page.storefront }}</span>
       {% if page.date_tested %}
       <span class="hero-detail">Tested {{ page.date_tested }}</span>

@@ -153,11 +153,6 @@
     // Hide loading, show track
     if (loading) loading.style.display = 'none';
     track.style.display = 'flex';
-
-    // Stamp "Free until …" pills on cards whose game is currently being given away.
-    if (window.FreeGames && window.FreeGames.applyBadges) {
-      window.FreeGames.ready().then(() => window.FreeGames.applyBadges(track));
-    }
   }
 
   // Create a game card element
@@ -172,7 +167,7 @@
     const hasImage = cover && cover.length > 0;
 
     return `
-      <a href="/games/${store}/${slug}/" class="game-card" data-game-slug="${slug}" data-game-storefront="${store}">
+      <a href="/games/${store}/${slug}/" class="game-card">
         <div class="game-card__image ${hasImage ? '' : 'game-card__image--placeholder'}">
           ${hasImage
             ? `<img src="${cover}" alt="${escapeHtml(game.title)}" loading="lazy" onerror="this.parentElement.classList.add('game-card__image--placeholder'); this.remove();">`
