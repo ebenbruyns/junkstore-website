@@ -86,14 +86,6 @@
 }
 
 /* Featured game highlighting */
-.games-table-wrapper #gamesTable tbody tr.featured-game {
-    background: rgba(255, 163, 102, 0.05);
-    border-left: 3px solid $junkstore-accent;
-}
-
-.games-table-wrapper #gamesTable tbody tr.featured-game td {
-    background: rgba(255, 163, 102, 0.05);
-}
 
 /* Row hover effects */
 .games-table-wrapper #gamesTable tbody tr:hover {
@@ -104,14 +96,6 @@
     background: rgba(255, 163, 102, 0.1);
 }
 
-/* Featured games hover (slightly more intense) */
-.games-table-wrapper #gamesTable tbody tr.featured-game:hover {
-    background: rgba(255, 163, 102, 0.15);
-}
-
-.games-table-wrapper #gamesTable tbody tr.featured-game:hover td {
-    background: rgba(255, 163, 102, 0.15);
-}
 
 /* Backlog and retest game highlighting - unified light blue for both */
 .games-table-wrapper #gamesTable tbody tr.retest-game,
@@ -374,81 +358,6 @@
     border-color: $junkstore-accent;
 }
 
-/* Featured games section styling */
-.feature-box.games-featured-box {
-    background: linear-gradient(135deg, #2a3442 0%, $junkstore-bg-card 100%);
-    border: 1px solid #3a4a5c;
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
-
-.feature-box.games-featured-box h3 {
-    color: $junkstore-accent;
-    margin: 0 0 10px 0;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.featured-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.featured-entry {
-    background-color: #334458;
-    padding: 8px 12px;
-    border-radius: 6px;
-    border: 1px solid #4a5a6c;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    user-select: none;
-}
-
-.featured-entry.clickable {
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.featured-entry.clickable:hover {
-    background-color: #3e5068;
-    transform: translateY(-1px);
-}
-
-.featured-game-link {
-    color: #cceeff;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 0.9rem;
-}
-
-/* Store badges in featured games section */
-.featured-row .store-badge {
-    font-size: 0.8rem;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-weight: 600;
-    margin-left: 0.5rem;
-}
-
-.featured-row .store-badge.epic {
-    background-color: #444;
-    color: #fff;
-}
-
-.featured-row .store-badge.gog {
-    background-color: #863399;
-    color: #fff;
-}
-
-.featured-row .store-badge.amazon {
-    background-color: #00a14f;
-    color: #fff;
-}
 
 /* Back to top button - matching table theme */
 #backToTop {
@@ -709,10 +618,6 @@
     position: relative;
   }
 
-  .games-table-wrapper #gamesTable tbody tr.featured-game {
-    border-left: 4px solid $junkstore-accent;
-    background: rgba(255, 163, 102, 0.05);
-  }
 
   .games-table-wrapper #gamesTable tbody tr td {
     display: block;
@@ -799,16 +704,6 @@
     min-width: 44px;
   }
 
-  /* Featured games mobile adjustments */
-  .featured-row {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .featured-entry {
-    width: 100%;
-    justify-content: space-between;
-  }
 
   /* Table controls mobile optimization */
   .table-controls {
