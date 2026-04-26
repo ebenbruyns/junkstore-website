@@ -131,8 +131,13 @@ layout: null
       <div class="compat-grid">
         <div class="compat-item">
           <div class="compat-label">Decky Plugin</div>
+          {% if page.storefront_key == "amazon" or page.storefront_key == "itch" %}
+          <div class="compat-status">🚫</div>
+          <div class="compat-text red">Pro Only</div>
+          {% else %}
           <div class="compat-status">{% include game-page-status-icon.html rating=page.decky_rating %}</div>
           <div class="compat-text {% include game-page-status-class.html rating=page.decky_rating %}">{% include game-page-status-text.html rating=page.decky_rating %}</div>
+          {% endif %}
         </div>
         <div class="compat-item">
           <div class="compat-label">Junk Store Pro</div>
