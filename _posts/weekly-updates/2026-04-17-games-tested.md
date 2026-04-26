@@ -7,6 +7,11 @@ tags: [junk-store, steam-deck, epic-games, gog]
 slug: "games-tested-apr-18"
 excerpt: "Steam Deck compatibility: Monster Harvest, The Stone of Madness, Snake Core, Undead: Rise of the Betrayed King. Tested with GE-Proton - Junk Store Game Mode setup included."
 description: "4 Epic & GOG games tested on Steam Deck this week: Monster Harvest, The Stone of Madness, Snake Core, Undead: Rise of the Betrayed King. Get working Proton settings and compatibility notes for Game Mode play."
+featured_games:
+  - { store: epic, slug: the-stone-of-madness }
+  - { store: epic, slug: monster-harvest }
+  - { store: gog,  slug: snake-core }
+  - { store: epic, slug: undead-rise-of-the-betrayed-king }
 image: /assets/images/blog/260417-hero.webp
 header:
   teaser: /assets/images/blog/260417-hero-thumb.webp

@@ -1,0 +1,11 @@
+{
+  "name": "junkstore-website",
+  "version": "1.0.0",
+  "description": "Junk Store website scripts",
+  "scripts": {
+    "enrich-hltb": "node scripts/enrich-hltb.js",
+    "enrich-hltb:test": "node scripts/enrich-hltb.js --test",
+    "enrich-hltb:force": "node scripts/enrich-hltb.js --force",
+    "gen-recently-tested": "node scripts/generate-recently-tested.js"
+  }
+}

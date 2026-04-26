@@ -87,6 +87,21 @@
     });
   }
 
+  // Try the curated feed first (built from weekly post `featured_games:`
+  // frontmatter by scripts/generate-recently-tested.js). Falls back to null if
+  // the file is missing, malformed, or empty so callers can apply a fallback.
+  async function fetchRecentlyTestedFeed() {
+    try {
+      const response = await fetch('/assets/data/recently-tested.json');
+      if (!response.ok) return null;
+      const data = await response.json();
+      if (!data || !Array.isArray(data.games) || data.games.length === 0) return null;
+      return data.games;
+    } catch (e) {
+      return null;
+    }
+  }
+
   // Populate recently tested carousel
   async function populateRecentlyTested(games) {
     const track = document.getElementById('recently-tested-track');
@@ -94,25 +109,31 @@
 
     if (!track) return;
 
-    // Sort by date_tested (most recent first)
-    const sortedGames = [...games].sort((a, b) => {
-      return compareDates(b.date_tested, a.date_tested);
-    });
+    // Source priority:
+    //   1. Curated feed from weekly post frontmatter (newest at head, deduped, sliced to 12)
+    //   2. Fallback: sort all games by `date_tested` and take top 12
+    //      (used while frontmatter is being rolled out across posts)
+    let recentGames = await fetchRecentlyTestedFeed();
+    if (!recentGames) {
+      const sortedGames = [...games].sort((a, b) => compareDates(b.date_tested, a.date_tested));
+      recentGames = sortedGames.slice(0, 12);
+    }
 
-    // Take top 12 recently tested
-    const recentGames = sortedGames.slice(0, 12);
-
-    // Fetch cover images from individual game files
+    // Fetch each game's full JSON for cover art (and for title/rating when the
+    // entry came from the curated feed, which only carries store/slug/dates).
     const gamesWithImages = await Promise.all(
       recentGames.map(async (game) => {
-        const store = normalizeStore(game.storefrontKey || game.storefront);
+        const store = normalizeStore(game.storefrontKey || game.storefront || game.store);
         const slug = game.slug || slugify(game.title);
         try {
           const response = await fetch(`/assets/data/games/${store === 'itch' ? 'itch.io' : store}/${slug}.json`);
           if (response.ok) {
             const fullData = await response.json();
-            // Use icon_image (square) for cards, vertical_artwork as fallback
+            // Merge: full data first, then overlay the entry's own fields so
+            // feed-only metadata (featured_in, post_url, store) survives. Cover
+            // art always comes from the per-game JSON.
             return {
+              ...fullData,
               ...game,
               icon_image: fullData.icon_image,
               vertical_artwork: fullData.vertical_artwork
