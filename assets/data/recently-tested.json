@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-04-26T01:29:52.554Z",
+  "generated_at": "2026-04-26T04:34:09.096Z",
   "games": [
+    {
+      "store": "epic",
+      "slug": "doomblade",
+      "featured_in": "2026-04-26",
+      "post_url": "/blog/games-tested-apr-26/"
+    },
+    {
+      "store": "gog",
+      "slug": "the-pale-beyond",
+      "featured_in": "2026-04-26",
+      "post_url": "/blog/games-tested-apr-26/"
+    },
+    {
+      "store": "gog",
+      "slug": "neo-cab",
+      "featured_in": "2026-04-26",
+      "post_url": "/blog/games-tested-apr-26/"
+    },
+    {
+      "store": "gog",
+      "slug": "the-whispering-valley",
+      "featured_in": "2026-04-26",
+      "post_url": "/blog/games-tested-apr-26/"
+    },
     {
       "store": "epic",
       "slug": "the-stone-of-madness",
