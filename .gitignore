@@ -24,6 +24,9 @@ __pycache__/
 .bundle/
 node_modules/
 
+# Runtime caches written by enrichment scripts
+scripts/*hltb-failed-cache.json
+
 # Archive directory (keep archived files in git for recovery)
 # _archive/ - commented out to track archived files
 
