@@ -7,47 +7,27 @@ let pageSize = 20;
 
 // Note: Weekly tested games are now identified directly via blog_category field in JSON data
 
-// Load games data
+// Load games data from the build-time slim JSON.
 async function loadGamesData() {
   try {
-    // Use Firebase loader if available, fall back to static JSON
-    if (typeof loadGamesFromFirebase === 'function') {
-      console.log('Loading games data from Firebase...');
-      gamesData = await loadGamesFromFirebase();
-    } else {
-      console.log('Loading games data from /assets/data/games-table.json');
-      const response = await fetch('/assets/data/games-table.json');
-
-      console.log('Response status:', response.status);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-
-      gamesData = await response.json();
+    const response = await fetch('/assets/data/games-table.json');
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
-    console.log(`✅ Loaded ${gamesData.total_games} games successfully`);
-    console.log('First 3 games:', gamesData.games.slice(0, 3));
+    gamesData = await response.json();
+    console.log(`✅ Loaded ${gamesData.total_games} games`);
 
-    // Weekly tested games now identified via blog_category field
-
-    // Initialize the page
     populateFeaturedGames();
     populateStats();
     filteredGames = [...gamesData.games];
-    sortGames(); // Sort featured first, then alphabetically
-    console.log(`Filtered games count: ${filteredGames.length}, pageSize: ${pageSize}`);
+    sortGames();
     updateTable();
     setupEventListeners();
-    
-    // Hide loading indicator
+
     document.getElementById('loadingIndicator').style.display = 'none';
 
-    // Check for URL parameter to auto-open a game modal
     checkForGameParameter();
-
-    // Check for URL hash to auto-open a game modal
     checkForGameHash();
-
   } catch (error) {
     console.error('❌ Error loading games data:', error);
     document.getElementById('loadingIndicator').innerHTML = `
