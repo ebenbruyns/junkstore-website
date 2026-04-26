@@ -26,8 +26,6 @@ async function loadGamesData() {
 
     document.getElementById('loadingIndicator').style.display = 'none';
 
-    checkForGameParameter();
-    checkForGameHash();
   } catch (error) {
     console.error('❌ Error loading games data:', error);
     document.getElementById('loadingIndicator').innerHTML = `
@@ -95,7 +93,7 @@ function populateFeaturedGames() {
     const storefrontDir = game.storefront === 'itch' ? 'itch.io' : game.storefront.toLowerCase();
     const storefrontKey = game.storefront === 'itch' ? 'itchio' : game.storefront.toLowerCase();
     return `
-    <div class="featured-entry clickable" data-game-id="${game.id}" data-modal-file="games/${storefrontDir}/${game.slug}.json" data-game-slug="${game.slug}" data-game-storefront="${storefrontKey}">
+    <div class="featured-entry clickable" data-game-slug="${game.slug}" data-game-storefront="${storefrontKey}" data-storefront="${storefrontDir}">
       <span class="featured-game-link">
         ${game.title}
       </span>
@@ -104,8 +102,8 @@ function populateFeaturedGames() {
     `;
   }).join('');
 
-  // Re-add modal handlers for featured games
-  addModalHandlers();
+  // Re-add row click handlers for featured games
+  addRowClickHandlers();
 
   // Stamp Free-Now pills on any featured game currently being given away.
   if (window.FreeGames && window.FreeGames.applyBadges) {
@@ -177,46 +175,6 @@ function getCompatibilityDisplay(rating) {
   return `<span class="compatibility-rating">${ratingMap[rating] || '❓'}</span>`;
 }
 
-// Convert controller input to user-friendly game mode text
-function getGameModeDisplay(controllerInput) {
-  if (!controllerInput) return 'Unknown';
-  
-  const modeMap = {
-    'native': '🎮 Controller Native',
-    'mouse-only': '🖱️ Mouse Only',
-    'keyboard-mouse': '⌨️ Keyboard + Mouse',
-    'controller': '🎮 Controller',
-    'touchpad': '👆 Touchpad',
-    'mixed': '🎮🖱️ Mixed Input'
-  };
-  
-  return modeMap[controllerInput.toLowerCase()] || `🎮 ${controllerInput}`;
-}
-
-// Format controller input for display
-function formatControllerInput(controllerInput) {
-  if (!controllerInput) return 'Not specified';
-  
-  const inputLower = controllerInput.toLowerCase();
-  const formatMap = {
-    'native': '🎮 Native Controller',
-    'keyboard-mouse': '⌨️ Keyboard & Mouse',
-    'controller': '🎮 Controller',
-    'mouse-only': '🖱️ Mouse Only',
-    'touchpad': '👆 Touchpad',
-    'mixed': '🎮🖱️ Mixed Input'
-  };
-  
-  // If it's a known mapping, use it
-  if (formatMap[inputLower]) {
-    return formatMap[inputLower];
-  }
-  
-  // Otherwise, capitalize first letter and add gamepad emoji if not present
-  const formatted = controllerInput.charAt(0).toUpperCase() + controllerInput.slice(1);
-  return formatted.includes('🎮') ? formatted : `🎮 ${formatted}`;
-}
-
 // Update table with current page
 function updateTable() {
   const tbody = document.getElementById('gamesTableBody');
@@ -239,32 +197,21 @@ function updateTable() {
     // Check if this is an anti-cheat game
     const isAntiCheat = game.cant_test_linux === true;
 
-    // Determine CSS classes for highlighting
-    let rowClasses = '';
-    if (game.is_featured) {
-      rowClasses += 'featured-game ';
-    }
-    else if (game.blog_category === 'retest') {
-      rowClasses += 'retest-game ';
-    }
-    else if (game.blog_category === 'backlog') {
-      rowClasses += 'backlog-game ';
-    }
-
     // Generate unique ID for this game entry (slug + storefront)
     const gameEntryId = `game-${game.slug}-${game.storefront.toLowerCase().replace(/\./g, '-')}`;
 
-    const storefrontKey = game.storefront === 'itch' ? 'itchio' : game.storefront.toLowerCase();
+    const storefrontDir = game.storefront.toLowerCase(); // 'epic' | 'gog' | 'amazon' | 'itch'
+
     return `
-    <tr id="${gameEntryId}" class="${rowClasses.trim()}" data-storefront="${game.storefront}" data-status="${game.overall_status}" data-game-slug="${game.slug}" data-game-storefront="${storefrontKey}">
+    <tr id="${gameEntryId}" data-storefront="${game.storefront}" data-game-slug="${game.slug}" data-game-storefront="${storefrontDir}">
       <td title="${game.title}">
         ${isAntiCheat ?
           `<span class="game-title-static">${game.title}</span>` :
-          `<span class="game-link clickable" data-game-id="${game.id}" data-modal-file="games/${game.storefront === 'itch' ? 'itch.io' : game.storefront.toLowerCase()}/${game.slug}.json">${game.title}</span>`
+          `<span class="game-link clickable" data-game-slug="${game.slug}" data-storefront="${storefrontDir}">${game.title}</span>`
         }
       </td>
       <td>
-        <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
+        <span class="store-badge ${storefrontDir}">${game.storefront}</span>
       </td>
       ${isAntiCheat ?
         `<td colspan="2" class="anticheat-warning">⚠️ Incompatible - Anti Cheat</td>` :
@@ -284,43 +231,14 @@ function updateTable() {
   console.log('tbody rows after setting:', tbody.children.length);
 
   updatePagination();
-  // updateCompatibilityCounts(); // Commented out - compatibility counts row is hidden
 
-  // Re-add modal handlers after table update
-  addModalHandlers();
+  // Re-add row click handlers after table update
+  addRowClickHandlers();
 
   // Stamp Free-Now pills on rows whose game is currently being given away.
   if (window.FreeGames && window.FreeGames.applyBadges) {
     window.FreeGames.ready().then(() => window.FreeGames.applyBadges(tbody));
   }
-}
-
-// Update compatibility counts in column headers
-function updateCompatibilityCounts() {
-  if (!gamesData) return;
-
-  let deckyPerfectCount = 0;
-  let standalonePerfectCount = 0;
-
-  // Count games that work perfectly for each version
-  filteredGames.forEach(game => {
-    // Skip anti-cheat games
-    if (game.cant_test_linux === true) return;
-
-    // Check if Decky version works perfectly
-    if (game.decky_rating && (game.decky_rating.toLowerCase() === 'green' || game.decky_rating.toLowerCase() === 'perfect')) {
-      deckyPerfectCount++;
-    }
-
-    // Check if Standalone version works perfectly
-    if (game.standalone_rating && (game.standalone_rating.toLowerCase() === 'green' || game.standalone_rating.toLowerCase() === 'perfect')) {
-      standalonePerfectCount++;
-    }
-  });
-
-  // Update the header counts
-  document.getElementById('deckyWorksCount').textContent = `✅ (${deckyPerfectCount})`;
-  document.getElementById('standaloneWorksCount').textContent = `✅ (${standalonePerfectCount})`;
 }
 
 // Update pagination controls
@@ -472,7 +390,7 @@ function checkForGameParameter() {
 
       if (game) {
         console.log(`✅ Found game by databaseId:`, game.title);
-        openGameFromSearch(game);
+        // TODO Task 5: navigate to static game page
       } else {
         console.warn(`⚠️ Game not found for store: ${normalizedStore}, id: ${databaseId}`);
       }
@@ -498,55 +416,11 @@ function checkForGameParameter() {
     }
 
     console.log(`✅ Found game:`, game);
-    openGameFromSearch(game);
+    // TODO Task 5: navigate to static game page
 
   } catch (error) {
     console.error('❌ Error processing game parameter:', error);
   }
-}
-
-// Helper function to open a game modal from URL search
-function openGameFromSearch(game) {
-  // Calculate which page this game is on
-  const gameIndex = filteredGames.findIndex(g => g.id === game.id);
-  if (gameIndex === -1) {
-    // Game not in filtered list, clear filters and try again
-    console.log(`📄 Game not in current filter, clearing filters...`);
-    document.getElementById('searchBox').value = '';
-    document.getElementById('ratingFilter').value = 'all';
-    document.getElementById('storefrontFilter').value = 'all';
-    filteredGames = [...gamesData.games];
-    sortGames();
-  }
-
-  const newGameIndex = filteredGames.findIndex(g => g.id === game.id);
-  if (newGameIndex === -1) {
-    console.warn(`⚠️ Game not found in list: ${game.title}`);
-    return;
-  }
-
-  // Switch to the correct page if needed
-  const targetPage = Math.floor(newGameIndex / pageSize) + 1;
-  if (targetPage !== currentPage) {
-    console.log(`📄 Switching to page ${targetPage} (game index: ${newGameIndex})`);
-    currentPage = targetPage;
-    updateTable();
-  }
-
-  // Scroll to the game in the table first for context
-  setTimeout(() => {
-    const gameRow = document.querySelector(`[data-game-id="${game.id}"]`);
-    if (gameRow) {
-      gameRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-
-    // Open the modal after a brief delay to allow scroll
-    setTimeout(() => {
-      const storefrontDir = game.storefront === 'itch' ? 'itch.io' : game.storefront.toLowerCase();
-      const modalFile = `games/${storefrontDir}/${game.slug}.json`;
-      openGameModal(game.id, modalFile);
-    }, 500);
-  }, 300);
 }
 
 // Check for URL hash and auto-open game modal
@@ -624,12 +498,7 @@ function checkForGameHash() {
       // Scroll to the game in the table first for context
       gameRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-      // Open the modal after a brief delay to allow scroll
-      setTimeout(() => {
-        const storefrontDir = game.storefront === 'itch' ? 'itch.io' : game.storefront.toLowerCase();
-        const modalFile = `games/${storefrontDir}/${game.slug}.json`;
-        openGameModal(game.id, modalFile);
-      }, 500);
+      // TODO Task 5: navigate to static game page
     }, 300);
 
   } catch (error) {
@@ -637,652 +506,18 @@ function checkForGameHash() {
   }
 }
 
-// Add click handlers for game links - navigate to individual game pages
-function addModalHandlers() {
-  // Handle clickable game links in table
+// Wire game-row title clicks to navigate to the static game page.
+function addRowClickHandlers() {
   const gameLinks = document.querySelectorAll('.game-link.clickable');
   gameLinks.forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
-      const modalFile = e.target.dataset.modalFile;
-      // Convert modalFile path to game page URL: games/{storefront}/{slug}.json -> /games/{storefront}/{slug}/
-      // Note: itch.io in JSON becomes itch in page URLs
-      const pagePath = '/' + modalFile.replace('.json', '/').replace('itch.io', 'itch');
-      window.location.href = pagePath;
+      const slug = link.dataset.gameSlug;
+      const storefront = link.dataset.storefront;
+      if (!slug || !storefront) return;
+      window.location.href = `/games/${storefront}/${slug}/`;
     });
   });
-
-  // Handle clickable featured game entries (entire div is clickable)
-  const featuredEntries = document.querySelectorAll('.featured-entry.clickable');
-  featuredEntries.forEach(entry => {
-    entry.addEventListener('click', (e) => {
-      e.preventDefault();
-      const modalFile = entry.dataset.modalFile;
-      // Convert modalFile path to game page URL: games/{storefront}/{slug}.json -> /games/{storefront}/{slug}/
-      // Note: itch.io in JSON becomes itch in page URLs
-      const pagePath = '/' + modalFile.replace('.json', '/').replace('itch.io', 'itch');
-      window.location.href = pagePath;
-    });
-  });
-}
-
-// Open game modal
-async function openGameModal(gameId, modalFile) {
-  try {
-    console.log(`Opening modal for game: ${gameId}, modal file: ${modalFile}`);
-
-    // Show loading state
-    const loadingModal = document.createElement('div');
-    loadingModal.className = 'game-modal show';
-    loadingModal.innerHTML = `
-      <div class="modal-backdrop">
-        <div class="modal-content">
-          <div style="text-align: center; padding: 40px;">
-            <div style="font-size: 2rem; color: #ffa366;">Loading...</div>
-            <p style="margin-top: 20px; color: #ccc;">Loading game details...</p>
-          </div>
-        </div>
-      </div>
-    `;
-    document.body.appendChild(loadingModal);
-
-    // Find basic game info from table data
-    const basicGame = gamesData.games.find(g => g.id === gameId);
-    if (!basicGame) {
-      throw new Error('Game not found in table data');
-    }
-
-    // Load detailed game data on-demand from Firebase
-    let detailedGame = basicGame; // fallback to basic data
-
-    // Try to load full details from Firebase (on-demand)
-    if (typeof loadGameDetailsFromFirebase === 'function' && basicGame.storefrontKey) {
-      try {
-        console.log(`🔥 Loading full details from Firebase for: ${basicGame.title}`);
-        const firebaseData = await loadGameDetailsFromFirebase(basicGame.databaseId || basicGame.id, basicGame.storefrontKey);
-        if (firebaseData) {
-          detailedGame = { ...basicGame, ...firebaseData };
-          console.log('✅ Loaded Firebase full data for:', basicGame.title);
-          console.log('🖼️ Image URLs from Firebase data:');
-          console.log('  banner_image:', detailedGame.banner_image);
-          console.log('  vertical_artwork:', detailedGame.vertical_artwork);
-          console.log('  icon_image:', detailedGame.icon_image);
-        }
-      } catch (firebaseError) {
-        console.warn('Firebase detail load failed, trying JSON fallback:', firebaseError);
-      }
-    }
-
-    // Fall back to fetching individual JSON file if Firebase didn't work
-    if (detailedGame === basicGame && modalFile) {
-      try {
-        console.log(`Fetching detailed game data from: /assets/data/${modalFile}`);
-        const detailResponse = await fetch(`/assets/data/${modalFile}`);
-        if (detailResponse.ok) {
-          const detailedData = await detailResponse.json();
-          // Merge basic table data with detailed JSON data
-          detailedGame = { ...basicGame, ...detailedData };
-          console.log('✅ Loaded detailed game data from JSON:', detailedGame.title);
-        } else {
-          console.warn(`Could not load detailed data from ${modalFile}, using basic data`);
-        }
-      } catch (detailError) {
-        console.warn('Error loading detailed game data:', detailError);
-        // Continue with basic data
-      }
-    }
-
-    // Remove loading modal
-    loadingModal.remove();
-
-    // Create actual modal with detailed data
-    createGameModal(detailedGame);
-
-  } catch (error) {
-    console.error('Failed to open game modal:', error);
-    // Remove loading modal if it exists
-    const loadingModal = document.querySelector('.game-modal');
-    if (loadingModal) loadingModal.remove();
-
-    // Show error
-    alert('Failed to load game details. Please try again.');
-  }
-}
-
-// Create game modal
-function createGameModal(game) {
-  console.log('🔥 MODAL DEBUG: Creating modal for', game.title, 'with languages:', game.languages, 'and game_modes:', game.game_modes);
-  console.log('🎮 Debug game_modes:', game.game_modes);
-  console.log('🌍 Debug languages:', game.languages);
-  console.log('⭐ Debug decky_rating:', game.decky_rating, '-> class:', getStatusClass(game.decky_rating), 'text:', getStatusText(game.decky_rating));
-  console.log('⭐ Debug standalone_rating:', game.standalone_rating, '-> class:', getStatusClass(game.standalone_rating), 'text:', getStatusText(game.standalone_rating));
-  console.log('🎨 Creating modal for game:', game.title);
-  console.log('🖼️ Final image URLs for modal:');
-  console.log('  banner_image:', game.banner_image);
-  console.log('  vertical_artwork:', game.vertical_artwork);
-  console.log('  Will show banner?', game.banner_image && !game.banner_image.startsWith('./artwork/'));
-  console.log('  Will show vertical?', game.vertical_artwork && !game.vertical_artwork.startsWith('./artwork/'));
-  
-  // Remove existing modal
-  const existingModal = document.getElementById('gameModal');
-  if (existingModal) {
-    existingModal.remove();
-  }
-  
-  const modal = document.createElement('div');
-  modal.id = 'gameModal';
-  modal.className = 'game-modal';
-  
-  modal.innerHTML = `
-    <div class="modal-backdrop">
-      <div class="modal-content">
-        <!-- Game Banner -->
-        <div id="gameBanner-${game.id}" class="game-banner">
-          ${game.banner_image && !game.banner_image.startsWith('./artwork/') ?
-            `<img src="${game.banner_image}" alt="Game Banner" class="game-banner-img" onerror="this.parentElement.style.display='none';">` : ''}
-        </div>
-        
-        <!-- Enhanced Header -->
-        <div class="modal-header-enhanced">
-          <div class="game-header-content">
-            <div class="game-basic-info">
-              <div class="game-title-area">
-                <h4>${game.title}</h4>
-                <div class="game-meta-row">
-                  ${game.releasedate ? `<div class="game-meta">Released: ${new Date(game.releasedate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>` : ''}
-                  ${game.size && game.size.trim() !== '' ? `<div class="game-meta">Size: ${game.size}</div>` : ''}
-                </div>
-              </div>
-            </div>
-            <div class="header-badges">
-              <span class="storefront-badge storefront-${game.storefront.toLowerCase()}">${game.storefront.toLowerCase()}</span>
-              <button class="copy-game-link-btn" data-game-slug="${game.slug}" data-storefront="${game.storefront}" data-database-id="${game.databaseId || game._fullData?.databaseId || ''}" title="Copy link to this game">🔗</button>
-            </div>
-          </div>
-          <button class="modal-close">&times;</button>
-        </div>
-        
-        <!-- Essential Info Strip -->
-        <div class="essential-info">
-          <div class="feature-grid">
-            <div class="feature-item">
-              <span class="feature-label">Decky Plugin</span>
-              <span class="feature-value ${getStatusClass(game.decky_rating)}">${getStatusText(game.decky_rating)}</span>
-            </div>
-            <div class="feature-item">
-              <span class="feature-label">Pro Version</span>
-              <span class="feature-value ${getStatusClass(game.standalone_rating)}">${getStatusText(game.standalone_rating)}</span>
-            </div>
-            <div class="feature-item">
-              <span class="feature-label">Proton Version</span>
-              <span class="feature-value">${game.proton_version || 'GE-Proton'}</span>
-            </div>
-            <div class="feature-item">
-              <span class="feature-label">Date Tested</span>
-              <span class="feature-value">${game.date_tested || 'Not tested'}</span>
-            </div>
-          </div>
-        </div>
-        
-        <!-- 2-Tab Navigation (Bootstrap Style) -->
-        <ul class="nav nav-tabs nav-tabs-clean" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="tab" href="#overview-${game.id}" role="tab">
-              <i class="fas fa-info-circle me-2"></i>Overview
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#testing-${game.id}" role="tab">
-              <i class="fas fa-cogs me-2"></i>Testing Details
-            </a>
-          </li>
-        </ul>
-        
-        <!-- Tab Content -->
-        <div class="tab-content tab-content-enhanced">
-          <!-- Overview Tab -->
-          <div class="tab-pane active" id="overview-${game.id}" role="tabpanel">
-            <div class="row">
-              <div class="col-md-4">
-                <div id="gameImages-${game.id}" class="game-image-container ${hasEpicFeatures(game) ? '' : 'no-epic-features'}">
-                  ${game.vertical_artwork && !game.vertical_artwork.startsWith('./artwork/') ? 
-                    `<img src="${game.vertical_artwork}" alt="Game Cover" class="game-image-main" onerror="this.style.display='none';">` :
-                    `<div class="game-image-placeholder">
-                      <div class="placeholder-content">
-                        <i class="fas fa-gamepad" style="font-size: 2rem; color: #4a5568; margin-bottom: 8px;"></i>
-                        <p style="color: #a0aec0; margin: 0; font-size: 0.8rem;">Game Image</p>
-                        <p style="color: #a0aec0; margin: 0; font-size: 0.7rem;">Not Available</p>
-                      </div>
-                    </div>`
-                  }
-                </div>
-                
-                ${renderEpicFeatures(game)}
-              </div>
-              <div class="col-md-8" id="gameDescription-${game.id}">
-                <div class="info-section">
-                  <h6><i class="fas fa-gamepad text-primary"></i> Game Information</h6>
-                  <!-- Top row: Genre, Publisher, Game Modes (short items) -->
-                  <div class="info-grid info-grid-top">
-                    ${game.genre ? `
-                      <div class="info-item">
-                        <span class="info-label">Genre</span>
-                        <span class="info-value">${game.genre}</span>
-                      </div>
-                    ` : ''}
-                    ${game.publisher ? `
-                      <div class="info-item">
-                        <span class="info-label">Publisher</span>
-                        <span class="info-value">${game.publisher}</span>
-                      </div>
-                    ` : ''}
-                    ${game.game_modes && Array.isArray(game.game_modes) && game.game_modes.length > 0 ? `
-                      <div class="info-item">
-                        <span class="info-label">Game Modes</span>
-                        <span class="info-value">${game.game_modes.join(', ')}</span>
-                      </div>
-                    ` : ''}
-                  </div>
-                  
-                  <!-- Bottom row: Languages (flexible, can be long) -->
-                  ${game.languages && Array.isArray(game.languages) && game.languages.length > 0 ? `
-                    <div class="info-grid info-grid-languages">
-                      <div class="info-item info-item-full">
-                        <span class="info-label">Languages</span>
-                        <span class="info-value">${game.languages.join(', ')}</span>
-                      </div>
-                    </div>
-                  ` : ''}
-                  
-                  <!-- Legacy language support (if present) -->
-                  ${game.language_support ? `
-                    <div class="info-grid info-grid-languages">
-                      <div class="info-item info-item-full">
-                        <span class="info-label">Language Support</span>
-                        <span class="info-value">${game.language_support}</span>
-                      </div>
-                    </div>
-                  ` : ''}
-                </div>
-              
-                ${game.description ? `
-                  <div class="info-section" style="margin-top: -3px;">
-                    <h6 style="margin-bottom: 4px;">Description</h6>
-                    <div class="notes-content">${game.description}</div>
-                  </div>
-                ` : ''}
-              </div>
-            </div>
-          </div>
-          
-          <!-- Testing Details Tab -->
-          <div class="tab-pane" id="testing-${game.id}" role="tabpanel">
-            ${renderTestingDetailsBootstrap(game)}
-          </div>
-        </div>
-      </div>
-    </div>
-  `;
-  
-  document.body.appendChild(modal);
-  
-  // Setup close handlers
-  const closeBtn = modal.querySelector('.modal-close');
-  if (closeBtn) {
-    closeBtn.addEventListener('click', () => closeModal(modal));
-  }
-  
-  const backdrop = modal.querySelector('.modal-backdrop');
-  if (backdrop) {
-    backdrop.addEventListener('click', (e) => {
-      if (e.target === backdrop) {
-        closeModal(modal);
-      }
-    });
-  }
-  
-  // Bootstrap tab switching
-  const tabLinks = modal.querySelectorAll('.nav-link');
-  tabLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      e.preventDefault();
-      
-      // Remove active classes from all tabs
-      modal.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
-      modal.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
-      
-      // Add active class to clicked tab
-      link.classList.add('active');
-      
-      // Show corresponding tab content
-      const targetId = link.getAttribute('href').substring(1);
-      const targetPanel = modal.querySelector(`#${targetId}`);
-      if (targetPanel) {
-        targetPanel.classList.add('active');
-      }
-    });
-  });
-  
-  // Copy link button handler
-  const copyLinkBtn = modal.querySelector('.copy-game-link-btn');
-  if (copyLinkBtn) {
-    copyLinkBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const storefront = copyLinkBtn.dataset.storefront;
-      const databaseId = copyLinkBtn.dataset.databaseId;
-
-      // Map storefront to URL-friendly store name
-      const storeMap = {
-        'Epic': 'epic',
-        'GOG': 'gog',
-        'Amazon': 'amazon',
-        'itch.io': 'itch'
-      };
-      const store = storeMap[storefront] || storefront.toLowerCase();
-
-      // Use new format: /games/tested/?store=epic&id=abc123
-      const gameUrl = `${window.location.origin}/games/tested/?store=${store}&id=${databaseId}`;
-
-      // Copy to clipboard with multiple fallback methods
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(gameUrl)
-          .then(() => {
-            showCopyNotification(copyLinkBtn, 'Link copied!', 'success');
-          })
-          .catch(err => {
-            console.error('Clipboard API failed:', err);
-            fallbackCopyToClipboard(gameUrl, copyLinkBtn);
-          });
-      } else {
-        fallbackCopyToClipboard(gameUrl, copyLinkBtn);
-      }
-    });
-  }
-
-  // Escape key
-  const escapeHandler = (e) => {
-    if (e.key === 'Escape') {
-      closeModal(modal);
-      document.removeEventListener('keydown', escapeHandler);
-    }
-  };
-  document.addEventListener('keydown', escapeHandler);
-
-  // Show modal
-  requestAnimationFrame(() => {
-    modal.classList.add('show');
-  });
-}
-
-// Fallback copy to clipboard for older browsers
-function fallbackCopyToClipboard(text, button) {
-  // Create a temporary textarea
-  const textarea = document.createElement('textarea');
-  textarea.value = text;
-  textarea.style.position = 'fixed';
-  textarea.style.opacity = '0';
-  document.body.appendChild(textarea);
-
-  try {
-    textarea.select();
-    textarea.setSelectionRange(0, 99999); // For mobile devices
-
-    const successful = document.execCommand('copy');
-    if (successful) {
-      showCopyNotification(button, 'Link copied!', 'success');
-    } else {
-      throw new Error('Copy command failed');
-    }
-  } catch (err) {
-    console.error('Fallback copy failed:', err);
-    showCopyNotification(button, `Copy failed. URL: ${text}`, 'error');
-  } finally {
-    document.body.removeChild(textarea);
-  }
-}
-
-// Show copy notification near button
-function showCopyNotification(button, message, type) {
-  const notification = document.createElement('div');
-  notification.className = `copy-notification copy-notification-${type}`;
-  notification.textContent = message;
-  notification.style.cssText = `
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 12px 20px;
-    background: ${type === 'success' ? '#28a745' : '#dc3545'};
-    color: white;
-    border-radius: 6px;
-    z-index: 10001;
-    font-size: 0.9rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    animation: slideInRight 0.3s ease;
-  `;
-
-  document.body.appendChild(notification);
-
-  setTimeout(() => {
-    notification.style.animation = 'fadeOut 0.3s ease';
-    setTimeout(() => {
-      if (notification.parentNode) {
-        notification.parentNode.removeChild(notification);
-      }
-    }, 300);
-  }, 3000);
-}
-
-// Close modal
-function closeModal(modal) {
-  modal.classList.remove('show');
-  setTimeout(() => {
-    if (modal.parentNode) {
-      modal.parentNode.removeChild(modal);
-    }
-  }, 300);
-}
-
-// Helper functions for modal
-function getStatusClass(rating) {
-  if (!rating) return 'text-muted';
-  const ratingLower = rating.toLowerCase();
-  if (ratingLower === 'green' || ratingLower === 'perfect') return 'text-success';
-  if (ratingLower === 'yellow') return 'text-warning';
-  if (ratingLower === 'red') return 'text-danger';
-  if (ratingLower === 'not-working') return 'text-danger';
-  if (ratingLower === 'not-supported') return 'text-not-supported';
-  if (ratingLower === 'unknown') return 'text-muted';
-  return 'text-muted';
-}
-
-function getStatusText(rating) {
-  if (!rating) return 'Not tested';
-  const ratingLower = rating.toLowerCase();
-  if (ratingLower === 'green' || ratingLower === 'perfect') return 'Works Out of the Box';
-  if (ratingLower === 'yellow') return 'Minor setup';
-  if (ratingLower === 'red') return 'Advanced setup';
-  if (ratingLower === 'not-working') return 'Broken';
-  if (ratingLower === 'unknown') return 'Untested';
-  if (ratingLower === 'not-supported') return 'Not supported';
-  if (ratingLower === 'untested') return 'Untested';
-
-  // For any other value, capitalize first letter
-  return rating.charAt(0).toUpperCase() + rating.slice(1).toLowerCase();
-}
-
-// Check if game has Epic features to display
-function hasEpicFeatures(game) {
-  if (game.storefront !== 'Epic') return false;
-  
-  const epicFeatures = game.epic_features || {};
-  console.log(`🎮 Epic features for ${game.title}:`, epicFeatures);
-  
-  return epicFeatures.epic_achievements || game.epic_achievements ||
-         epicFeatures.epic_offline_mode || game.epic_offline_mode ||
-         epicFeatures.must_be_online || game.must_be_online ||
-         epicFeatures.requires_eos || game.requires_eos ||
-         epicFeatures.supports_eos || game.supports_eos ||
-         epicFeatures.requires_verification || game.requires_verification ||
-         epicFeatures.requires_eac_runtime || game.requires_eac_runtime ||
-         epicFeatures.requires_battleye_runtime || game.requires_battleye_runtime;
-}
-
-// Render Epic Games features
-function renderEpicFeatures(game) {
-  if (!hasEpicFeatures(game)) return '';
-  
-  const epicFeatures = game.epic_features || {};
-  console.log(`✅ Rendering Epic features for ${game.title}`);
-  
-  return `
-    <div class="info-section">
-      <h6><i class="fas fa-star text-warning"></i> Epic Games Features</h6>
-      <div class="epic-features-grid">
-        ${epicFeatures.epic_achievements || game.epic_achievements ? `
-          <div class="epic-feature-item">
-            <span>Achievements</span>
-            <span class="feature-status status-supported">✓ Supported</span>
-          </div>
-        ` : ''}
-        ${epicFeatures.epic_offline_mode || game.epic_offline_mode ? `
-          <div class="epic-feature-item">
-            <span>Offline Mode</span>
-            <span class="feature-status status-supported">✓ Available</span>
-          </div>
-        ` : ''}
-        ${epicFeatures.must_be_online || game.must_be_online ? `
-          <div class="epic-feature-item">
-            <span>Must be Online</span>
-            <span class="feature-status status-required">Required</span>
-          </div>
-        ` : ''}
-        ${epicFeatures.requires_eos || epicFeatures.supports_eos || game.requires_eos || game.supports_eos ? `
-          <div class="epic-feature-item">
-            <span>EOS Overlay</span>
-            <span class="feature-status ${(epicFeatures.requires_eos || game.requires_eos) ? 'status-required' : 'status-supported'}">${(epicFeatures.requires_eos || game.requires_eos) ? 'Required' : '✓ Supported'}</span>
-          </div>
-        ` : ''}
-        ${epicFeatures.requires_verification || game.requires_verification ? `
-          <div class="epic-feature-item">
-            <span>Verification</span>
-            <span class="feature-status status-warning">⚠️ Verify required</span>
-          </div>
-        ` : ''}
-        ${epicFeatures.requires_eac_runtime || game.requires_eac_runtime ? `
-          <div class="epic-feature-item">
-            <span>EasyAntiCheat</span>
-            <span class="feature-status status-required">Required</span>
-          </div>
-        ` : ''}
-        ${epicFeatures.requires_battleye_runtime || game.requires_battleye_runtime ? `
-          <div class="epic-feature-item">
-            <span>BattlEye</span>
-            <span class="feature-status status-required">Required</span>
-          </div>
-        ` : ''}
-      </div>
-    </div>
-  `;
-}
-
-// Render testing details (Bootstrap version)
-function renderTestingDetailsBootstrap(game) {
-  let content = '';
-
-  // Technical Configuration + External Links
-  const hasConfig = game.dependencies || game.controller_config || game.controller_input;
-  const hasExternalLinks = game.protondb || game.epic_url || game.gog_url || game.itch_url || game.amazon_url || game.pc_gaming_wiki_url;
-
-  if (hasConfig || hasExternalLinks) {
-    content += `
-      <div class="info-section">
-        <h6><i class="fas fa-tools text-success"></i> Technical Configuration</h6>
-        <div class="config-row">
-          ${game.controller_config || game.controller_input ? `
-            <div class="config-item">
-              <span class="info-label">Controller Config</span>
-              <span class="info-value">
-                ${formatControllerInput(game.controller_config || game.controller_input)}
-              </span>
-            </div>
-          ` : ''}
-          ${game.dependencies ? `
-            <div class="config-item">
-              <span class="info-label">Dependencies</span>
-              <span class="info-value">${game.dependencies}</span>
-            </div>
-          ` : ''}
-          ${hasExternalLinks ? `
-            <div class="config-item config-item-links">
-              <span class="info-label">External Links</span>
-              <div class="external-links">
-                ${game.protondb || game.protondb_report_url ? `
-                  <a href="${game.protondb_report_url || game.protondb}" target="_blank" rel="noopener noreferrer" class="external-link protondb${game.protondb_report_url ? ' reported' : ''}">
-                    <i class="fas fa-atom"></i> ProtonDB${game.protondb_report_url ? ' <i class="fas fa-check-circle" title="We submitted a report"></i>' : ''}
-                  </a>
-                ` : ''}
-                ${game.pc_gaming_wiki_url ? `
-                  <a href="${game.pc_gaming_wiki_url}" target="_blank" rel="noopener noreferrer" class="external-link pcgaming">
-                    <i class="fas fa-book"></i> PCGamingWiki
-                  </a>
-                ` : ''}
-                ${game.epic_url ? `
-                  <a href="${game.epic_url}" target="_blank" rel="noopener noreferrer" class="external-link epic">
-                    <i class="fas fa-store"></i> Epic Store
-                  </a>
-                ` : ''}
-                ${game.gog_url ? `
-                  <a href="${game.gog_url}" target="_blank" rel="noopener noreferrer" class="external-link gog">
-                    <i class="fas fa-store"></i> GOG Store
-                  </a>
-                ` : ''}
-                ${game.amazon_url ? `
-                  <a href="${game.amazon_url}" target="_blank" rel="noopener noreferrer" class="external-link amazon">
-                    <i class="fas fa-store"></i> Amazon
-                  </a>
-                ` : ''}
-                ${game.itch_url ? `
-                  <a href="${game.itch_url}" target="_blank" rel="noopener noreferrer" class="external-link itch">
-                    <i class="fas fa-gamepad"></i> itch.io
-                  </a>
-                ` : ''}
-              </div>
-            </div>
-          ` : ''}
-        </div>
-      </div>
-    `;
-  }
-
-  // Testing Notes
-  if (game.notes) {
-    content += `
-      <div class="info-section">
-        <h6><i class="fas fa-clipboard-list text-info"></i> Testing Notes</h6>
-        <div class="notes-content">${renderMarkdown(game.notes)}</div>
-      </div>
-    `;
-  }
-
-  return content || '<p style="color: #ccc; text-align: center; padding: 40px;">No additional testing details available.</p>';
-}
-
-// Simple markdown renderer
-function renderMarkdown(text) {
-  if (!text) return '';
-  
-  let html = escapeHtml(text);
-  html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
-  html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
-  
-  return html;
-}
-
-// Escape HTML
-function escapeHtml(text) {
-  const div = document.createElement('div');
-  div.textContent = text;
-  return div.innerHTML;
 }
 
 // Setup event listeners
@@ -1292,8 +527,8 @@ function setupEventListeners() {
   document.getElementById('searchInput').addEventListener('input', handleSearchInput);
   document.getElementById('pageSizeSelect').addEventListener('change', changePageSize);
   
-  // Add modal click handlers
-  addModalHandlers();
+  // Add row click handlers
+  addRowClickHandlers();
   
   // Back to top button
   const backToTop = document.getElementById('backToTop');
