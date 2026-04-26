@@ -19,11 +19,11 @@ developer: Bethesda Game Studios
 genre: RPG, Open World, Adventure
 franchise: Fallout
 age_rating_summary: ESRB Mature 17+
-release_date: "October 21, 2022"
+release_date: "October 20, 2022"
 game_modes: ["Single Player"]
 languages: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/15"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-12-22T15:00:00.000Z","end":"2023-12-23T15:00:00.000Z","type":null,"id":"d6f01b1827c64ed388191ae507fe7c1b"},{"start":"2022-10-19T15:00:00.000Z","end":"2022-10-26T15:00:00.000Z","type":null,"id":"d6f01b1827c64ed388191ae507fe7c1b"}]
 

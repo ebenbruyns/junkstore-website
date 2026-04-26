@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/716640"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sigma_Theory%3A_Global_Cold_War"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/sigma-theory-global-cold-war/"
 
 # Notes
 notes: "Works out of the box!"

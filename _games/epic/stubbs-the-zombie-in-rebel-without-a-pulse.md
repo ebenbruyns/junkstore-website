@@ -19,11 +19,11 @@ developer: Aspyr
 genre: Action
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "October 15, 2021"
+release_date: "October 14, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1137","name":"3D"},{"id":"1220","name":"ZOMBIES"},{"id":"1301","name":"FUNNY"},{"id":"21109","name":"Great Boss Battles"},{"id":"1161","name":"VIOLENT"},{"id":"1306","name":"VILLAIN PROTAGONIST"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
-igdb_url: "https://www.igdb.com/games/79"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-10-13T15:00:00.000Z","end":"2021-10-20T15:00:00.000Z","type":null,"id":"f060c900b80441fda67a7d986c327905"}]
 

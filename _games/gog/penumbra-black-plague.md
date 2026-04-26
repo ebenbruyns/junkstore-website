@@ -19,7 +19,7 @@ developer: Frictional Games
 genre: Adventure, Indie, Puzzle
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "February 1, 2008"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

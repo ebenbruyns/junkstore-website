@@ -18,7 +18,7 @@ publisher: Digerati Distribution
 developer: Devespresso Games
 genre: Adventure, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 12
 release_date: "September 19, 2017"
 game_modes: ["Single player"]
 languages: ["English"]

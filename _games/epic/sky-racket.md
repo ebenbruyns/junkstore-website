@@ -23,7 +23,7 @@ release_date: "September 21, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"1283","name":"Sports"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/115006"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-10T15:00:00.000Z","end":"2025-07-17T15:00:00.000Z","type":null,"id":"4d83f5e4aa8d42bdb2bdda9081a13ef3"}]
 

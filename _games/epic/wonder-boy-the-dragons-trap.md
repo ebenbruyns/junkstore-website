@@ -19,7 +19,7 @@ developer: Dotemu
 genre: Action, Casual, Platformer
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "March 13, 2026"
+release_date: "March 12, 2026"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"39070","name":"iOS"},{"id":"1151","name":"Platformer"}]

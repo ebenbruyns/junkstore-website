@@ -35,7 +35,7 @@
   "shortname": "5bdaa943f48a41598f0614391975242f",
   "publisher": "Akupara Games",
   "developer": "Tmesis Studio",
-  "releasedate": "2023-11-16T17:00:00.000Z",
+  "release_date": "2023-11-16",
   "genre": "Exploration, Adventure, Indie",
   "description": "A space station nestled in the clouds of Jupiter. A bizarre bazaar where a young, worried woman crafts entire universes in the palm of her hand. A mysterious cultist who's stripped the flesh from his bones in order to reach enlightenment. There's a universe for sale. You buying?",
   "size": "",
@@ -78,8 +78,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 151593,
-  "igdb_url": "https://www.igdb.com/games/151593",
   "giveaway_events": [
     {
       "start": "2025-11-27T16:00:00.000Z",
@@ -90,7 +88,15 @@
   ],
   "was_free_before": true,
   "description_rich": "A space station nestled in the clouds of Jupiter. A bizarre bazaar where a young, worried woman crafts entire universes in the palm of her hand. A mysterious cultist who's stripped the flesh from his bones in order to reach enlightenment. There's a universe for sale. You buying?",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54454478124812442",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1627840/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1627840/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1627840/capsule_231x87.jpg",
@@ -121,5 +127,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-11-27T06:08:54.918Z",
-  "updated_at": "2026-04-25T05:53:37.525Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

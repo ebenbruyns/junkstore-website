@@ -35,7 +35,7 @@
   "shortname": "ef50503adc284a8ba65d4dea1ecce91a",
   "publisher": "Skybound Games",
   "developer": "Terrible Posture Games",
-  "releasedate": "2023-11-14T17:00:00.000Z",
+  "release_date": "2023-11-14",
   "genre": "Narration, Adventure",
   "description": "Become Atom Eve and take control of your own path as one of the most powerful superheroes in the Invincible universe! Unravel a mystery and balance the dangers and responsibilities of being a superhero with the relatable challenges of everyday life.",
   "size": "",
@@ -78,8 +78,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 260366,
-  "igdb_url": "https://www.igdb.com/games/260366",
   "giveaway_events": [
     {
       "start": "2024-10-17T15:00:00.000Z",
@@ -96,7 +94,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Become Atom Eve and take control of your own path as one of the most powerful superheroes in the Invincible universe! Unravel a mystery and balance the dangers and responsibilities of being a superhero with the relatable challenges of everyday life.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "56752013126426535",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/ca10a8aa3d9ceae42253d2d78fa11209beda9b27737e357dff2a322299439a12.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d34da6255e83be15c0c524330e80ce35995f30d82d0335d95852f9cc4dab5e30.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/e08f26cd043c9379934090ca7baad0dee88a521e5b18055e055ca01de9267faf.jpg?namespace=gamesdb",
@@ -120,5 +126,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:42:12.325Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

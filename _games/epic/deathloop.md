@@ -19,11 +19,11 @@ developer: Arkane Studios
 genre: Action, Stealth, Adventure
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "March 25, 2022"
+release_date: "March 24, 2022"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/113598"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-06-05T15:00:00.000Z","end":"2025-06-12T15:00:00.000Z","type":null,"id":"b1f88c2f7d114879838a3e79d1d6f163"}]
 

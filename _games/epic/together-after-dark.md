@@ -23,7 +23,7 @@ release_date: "May 27, 2025"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Portuguese - Portugal","Russian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1218","name":"Horror"},{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"}]
-igdb_url: "https://www.igdb.com/games/286654"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

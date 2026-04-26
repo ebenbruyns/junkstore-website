@@ -19,7 +19,7 @@ developer: Wormwood Studios
 genre: role-playing, adventure, indie, puzzle, point-and-click
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "December 1, 2012"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

@@ -35,7 +35,7 @@
   "shortname": "1668986402",
   "publisher": "Image & Form",
   "developer": "Image & Form",
-  "releasedate": "2015-12-09T00:00:00+0000",
+  "release_date": "2015-12-09",
   "genre": "Role-playing (RPG), Adventure, Strategy",
   "description": "Join Captain Piper Faraday, smuggler and occasional pirate, as she recruits a rag-tag team of steam-driven robots and sets out on a daring adventure. With your hearty crew you’ll board, loot and shoot your way through enemy spaceships. Overcome the challenges of the vast frontier by upgrading your robots with unique abilities, weapons – and even stylish hats!",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51154266920101009",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -85,5 +85,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:37:46.346Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

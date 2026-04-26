@@ -35,7 +35,7 @@
   "shortname": "2fb0eae795104757977dfe8f93b5e593",
   "publisher": "Uppercut Games Pty Ltd",
   "developer": "Uppercut Games Pty Ltd",
-  "releasedate": "2022-03-10T00:00:00.000Z",
+  "release_date": "2022-03-10",
   "genre": "Exploration, Adventure",
   "description": "Boat, climb, interact and explore in the beautiful ruins of a sunken world.",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 141373,
-  "igdb_url": "https://www.igdb.com/games/141373",
   "giveaway_events": [
     {
       "start": "2022-08-31T15:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Boat, climb, interact and explore in the beautiful ruins of a sunken world.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53922613352089753",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/225eec7c689f1e473f3b416c73b25a38a84cfbbc407f1feab56fbbdc94f381e7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/20ecdb47322b4e831b91ab2e65642786056d8f8517c6fb73c3ef0659978ba540.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9185c0e9189a6fa034e874de14c5af562d9e1f8ec5dd35adaf33516a7267ab55.jpg?namespace=gamesdb",
@@ -159,5 +165,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-25T05:51:28.890Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

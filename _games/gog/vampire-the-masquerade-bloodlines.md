@@ -18,8 +18,8 @@ publisher: Activision, Electronic Arts
 developer: Troika Games
 genre: role-playing
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 17 · PEGI 18
+release_date: "November 1, 2004"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

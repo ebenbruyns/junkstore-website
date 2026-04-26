@@ -35,7 +35,7 @@
   "shortname": "1619245923",
   "publisher": "Bonus Stage Publishing",
   "developer": "Kami Games",
-  "releasedate": "2023-03-24T00:00:00+0000",
+  "release_date": "2023-03-24",
   "genre": "Adventure, Indie, Shooter",
   "description": "Big fucking guns + twin-stick action = Bullet Runner! Combine crazy movement and combat mechanics to dodge, slide, swing and shoot your way to victory! Brutal attacks, adrenaline, speed, power; you get them all. Free to play 4-hour single player campaign and an endless arena mode.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "56337468563982637",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T22:36:03.351Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

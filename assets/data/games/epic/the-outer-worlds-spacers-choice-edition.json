@@ -35,7 +35,7 @@
   "shortname": "cb3bf7ba89574a66ae3b795e039d4dbc",
   "publisher": "Microsoft",
   "developer": "Obsidian Entertainment",
-  "releasedate": "2023-03-07T16:00:00.000Z",
+  "release_date": "2023-03-07",
   "genre": "Action, RPG, Shooter",
   "description": "The Outer Worlds: Spacer’s Choice Edition is the ultimate way to play the award-winning RPG from Obsidian Entertainment and Private Division. Including the base game and all DLC, this remastered masterpiece is the absolute best version of The Outer Worlds.",
   "size": "",
@@ -126,8 +126,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 113114,
-  "igdb_url": "https://www.igdb.com/games/113114",
   "giveaway_events": [
     {
       "start": "2024-04-03T15:00:00.000Z",
@@ -144,7 +142,15 @@
   ],
   "was_free_before": true,
   "description_rich": "The Outer Worlds: Spacer’s Choice Edition is the ultimate way to play the award-winning RPG from Obsidian Entertainment and Private Division. Including the base game and all DLC, this remastered masterpiece is the absolute best version of The Outer Worlds.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "56289282559874307",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/a2b00e5a570d6c7609c321f1700a9fe1be2a7d7dddb74579c501962c90f2edde.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c97a17e97a6264ac3658a7321c67a17ed941aa2eac209450b13a0ac1f14f248e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/fc07cdba1efb42a90e2ac7e3bb3b60c1606e5e41f0636cda898987a7d1ee0ed0.jpg?namespace=gamesdb",
@@ -168,5 +174,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:45:19.931Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

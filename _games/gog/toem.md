@@ -23,7 +23,7 @@ release_date: "September 17, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/118193"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

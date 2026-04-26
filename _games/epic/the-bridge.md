@@ -19,11 +19,11 @@ developer: The Quantum Astrophysicists Guild
 genre: Puzzle, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "February 23, 2013"
+release_date: "February 22, 2013"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"}]
-igdb_url: "https://www.igdb.com/games/8440"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-03-13T15:00:00.000Z","end":"2024-03-20T15:00:00.000Z","type":null,"id":"674967c55648467ba8e9d163a27170db"},{"start":"2020-01-22T15:00:00.000Z","end":"2020-01-29T15:00:00.000Z","type":null,"id":"674967c55648467ba8e9d163a27170db"}]
 

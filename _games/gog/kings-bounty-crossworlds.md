@@ -18,7 +18,7 @@ publisher: 1C Company, Fulqrum Publishing
 developer: Katauri Interactive
 genre: role-playing, strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "November 19, 2009"
 game_modes: ["Single player"]
 languages: ["English"]

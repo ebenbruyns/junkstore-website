@@ -19,11 +19,11 @@ developer: Tmesis Studio
 genre: Exploration, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "November 17, 2023"
+release_date: "November 16, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Italian","French","Japanese","Simplified Chinese","Spanish - Spain","Korean","Traditional Chinese"]
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/151593"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-11-27T16:00:00.000Z","end":"2025-12-04T16:00:00.000Z","type":null,"id":"b2b995e52f7a413099e2b1421b9fb2d8"}]
 

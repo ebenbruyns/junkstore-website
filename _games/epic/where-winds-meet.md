@@ -19,11 +19,11 @@ developer: Everstone Studio
 genre: Action, RPG, Open World
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "November 15, 2025"
+release_date: "November 14, 2025"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","Japanese","Simplified Chinese*","Traditional Chinese*","Korean","French","German","Spanish - Latin America","Portuguese - Brazil*languages with full audio support"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/214414"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

@@ -35,7 +35,7 @@
   "shortname": "ef041e69837d410ea851934ef879ba7b",
   "publisher": "Rose City Games, wiip, PlayEveryWare",
   "developer": "Rose City Games",
-  "releasedate": "2024-07-11T15:00:00.000Z",
+  "release_date": "2024-07-11",
   "genre": "Turn-Based Strategy, Indie, Card Game",
   "description": "Tactics fuse with card game mechanics as Phoebe and Carlton, a brilliant young inventor & her robot-arm bestie, square off in turn-based battles. Select your Knights, hone your deck, and execute your strategy for victory!",
   "size": "",
@@ -130,8 +130,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 130182,
-  "igdb_url": "https://www.igdb.com/games/130182",
   "giveaway_events": [
     {
       "start": "2024-07-10T15:00:00.000Z",
@@ -142,7 +140,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Tactics fuse with card game mechanics as Phoebe and Carlton, a brilliant young inventor & her robot-arm bestie, square off in turn-based battles. Select your Knights, hone your deck, and execute your strategy for victory!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53162920519376958",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/294e69ecff539103f56cdcb5247e5c3b43554eade34f720683f9d7a52b0b8f4f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4b1d18288e72f0a3adce82bba9db8c0b7071a70a037316b48268b3eec877f9b2.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/2319066743a0e33bdef380a37a9480c54e8b28bb8b2993e4e1964915eb6b8f73.jpg?namespace=gamesdb",
@@ -175,5 +181,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T01:10:01.476Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

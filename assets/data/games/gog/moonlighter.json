@@ -35,7 +35,7 @@
   "shortname": "2147483047",
   "publisher": "11 bit studios",
   "developer": "Digital Sun Games",
-  "releasedate": "2018-05-29T00:00:00+0000",
+  "release_date": "2018-05-29",
   "genre": "Role-playing (RPG), Adventure, Indie, Simulator, Hack and slash/Beat 'em up",
   "description": "Moonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will, an adventurous shopkeeper that secretly dreams of becoming a hero.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51153302703574127",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:37:11.824Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

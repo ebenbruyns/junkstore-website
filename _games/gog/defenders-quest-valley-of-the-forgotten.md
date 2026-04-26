@@ -19,7 +19,7 @@ developer: Level Up Labs
 genre: role-playing-rpg, strategy, indie
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "October 1, 2012"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

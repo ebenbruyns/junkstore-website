@@ -18,7 +18,7 @@ publisher: Activision, Crystal Dynamics, Sony Computer Entertainment, Square Eni
 developer: Silicon Knights
 genre: Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17
 release_date: "November 1, 1996"
 game_modes: ["Single player"]
 languages: ["English"]

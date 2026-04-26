@@ -19,7 +19,7 @@ developer: "Mads & Friends"
 genre: Puzzle, Music, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "February 26, 2025"
+release_date: "February 25, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1129","name":"Music"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"39070","name":"iOS"}]

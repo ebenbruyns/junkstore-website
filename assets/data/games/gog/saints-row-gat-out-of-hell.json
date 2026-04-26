@@ -35,7 +35,7 @@
   "shortname": "1978178686",
   "publisher": "Deep Silver",
   "developer": "High Voltage Software, Volition",
-  "releasedate": "2015-01-20T00:00:00+0000",
+  "release_date": "2015-01-20",
   "genre": "Adventure, Shooter",
   "description": "After the space faring antics of Saints Row IV, many fans asked what we could do next… the answer? Shoot The Devil in the face. Play as either Johnny Gat or Kinzie Kensington as you tear apart Hell in a quest to save the leader of the Saints’ soul. Historical icons, old friends, older enemies, a talking gun, a full length musical number, and a whole lot of other shenanigans all await you in the open world standalone expansion playground that is Saints Row: Gat Out Of Hell.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51154157281172929",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -81,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:37:27.440Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -19,11 +19,11 @@ developer: Bureau 81
 genre: Puzzle, Narration, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "June 20, 2025"
+release_date: "June 19, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1395","name":"Narration"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/216958"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-06-19T15:00:00.000Z","end":"2025-06-26T15:00:00.000Z","type":null,"id":"e462627d3a864052a6b5fe2c0eaf0ba8"}]
 

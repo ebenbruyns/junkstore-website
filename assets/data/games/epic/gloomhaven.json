@@ -35,7 +35,7 @@
   "shortname": "1bcd791d54684eb29ed32ad1c0593d12",
   "publisher": "Twin Sails Interactive",
   "developer": "Flaming Fowl Studios, and Saber Interactive Minsk",
-  "releasedate": "2022-09-22T15:00:00.000Z",
+  "release_date": "2022-09-22",
   "genre": "Turn-Based, RPG, Strategy",
   "description": "Whether you are drawn to Gloomhaven by the call of adventure or by an avid desire for gold glimmering in the dark, your fate will surely be the same. Gloomhaven, the digital adaptation of the acclaimed board game, mixes Tactical-RPG and dungeon-crawling.",
   "size": "",
@@ -142,8 +142,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 106803,
-  "igdb_url": "https://www.igdb.com/games/106803",
   "giveaway_events": [
     {
       "start": "2022-09-21T15:00:00.000Z",
@@ -154,7 +152,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Whether you are drawn to Gloomhaven by the call of adventure or by an avid desire for gold glimmering in the dark, your fate will surely be the same. Gloomhaven, the digital adaptation of the acclaimed board game, mixes Tactical-RPG and dungeon-crawling.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51450532310751331",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/a102d30f0eaafe51d70e0e4cef000c92918b0f5f044899eb3bc6ab249f288aaf.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9fc13cf403170af60068e0116075487cb6defce979fa5857a367d03771974e81.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1ae7e08a37a1f0d360dd1ade9df815b1ea7aea6cf5a42c09e64715be1c318a39.jpg?namespace=gamesdb",
@@ -179,5 +185,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:41:47.790Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

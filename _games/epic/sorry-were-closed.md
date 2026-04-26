@@ -19,11 +19,11 @@ developer: à la mode games
 genre: Horror, RPG, Survival
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "November 15, 2024"
+release_date: "November 14, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1080","name":"Survival"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"9549","name":"Controller Support"}]
-igdb_url: "https://www.igdb.com/games/190964"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-21T16:00:00.000Z","end":"2025-12-22T16:00:00.000Z","type":null,"id":"4e469c7d8bbf49bcabc2c07127d3d946"}]
 

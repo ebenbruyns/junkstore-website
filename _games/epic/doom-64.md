@@ -19,11 +19,11 @@ developer: id Software, Nightdive Studios
 genre: Action, Retro
 franchise: DOOM
 age_rating_summary: ESRB Mature 17+
-release_date: "August 19, 2022"
+release_date: "August 18, 2022"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1185","name":"FPS"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1198","name":"Retro"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/3471"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-08-17T15:00:00.000Z","end":"2022-08-24T15:00:00.000Z","type":null,"id":"4d14124e8e9c484381db3be1e2118e8a"}]
 

@@ -35,7 +35,7 @@
   "shortname": "1135975449",
   "publisher": "EXOR Studios",
   "developer": "Exor Studios",
-  "releasedate": "2017-08-30T00:00:00+0000",
+  "release_date": "2017-08-30",
   "genre": "Strategy, Indie, Shooter",
   "description": "X-Morph: Defense Complete Edition includes: X-Morph: Defense core game, European Assault DLC, Survival Of The Fittest DLC, Last Bastion DLC.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51295434324577202",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -82,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:38:23.400Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

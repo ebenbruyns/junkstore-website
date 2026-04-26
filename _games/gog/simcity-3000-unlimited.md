@@ -18,8 +18,8 @@ publisher: Electronic Arts
 developer: Maxis
 genre: strategy, simulator
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 6
+release_date: "March 1, 2000"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

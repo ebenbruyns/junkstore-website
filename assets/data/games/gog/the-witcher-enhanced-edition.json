@@ -35,7 +35,7 @@
   "shortname": "1207658924",
   "publisher": "Atari, CD Projekt",
   "developer": "CD Projekt RED",
-  "releasedate": "2008-09-16T00:00:00+0000",
+  "release_date": "2008-09-16",
   "genre": "Role-playing (RPG)",
   "description": "Based on the novels by a popular Polish writer Andrzej Sapkowski, The Witcher is an action-oriented, epic fantasy RPG that takes players on a journey through a world which in many ways mirrors our own. Take on the role of Geralt of Rivia, a professional monster hunter, as he embarks on a quest of self-discovery and revenge. \n \nThe game's time-delayed decision-consequence system ensures that the consequences of your choices will become apparent only in the following chapters of Geralt's story, discouraging returns to a previous save point. \n \nThe Enhanced Edition includes technical and gameplay improvements that bring shorter loading times, more natural animations, and improved inventory, among others. Two new adventures titled The Price of Neutrality and Side Effects will extend players' enjoyment of the game. Finally, the \"D'jinni Adventure Editor\" enables players to create their adventures and shared them with others.",
   "size": "10334069000\n",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51295405645397160",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -79,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:38:08.245Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

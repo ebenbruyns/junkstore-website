@@ -19,7 +19,7 @@ developer: Riot Games, Inc.
 genre: Action, RPG, Strategy
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "November 5, 2021"
+release_date: "November 4, 2021"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"10719","name":"Mac OS"}]

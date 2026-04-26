@@ -1,16 +1,16 @@
 {
-  "last_updated": "2026-04-25T22:55:56.294Z",
-  "total_tested_games": 989,
-  "featured_games": 0,
+  "last_updated": "2026-04-26T04:33:02.002Z",
+  "total_tested_games": 993,
+  "featured_games": 4,
   "storefronts": {
     "Epic": {
-      "total": 472,
-      "featured": 0,
+      "total": 473,
+      "featured": 1,
       "directory": "epic"
     },
     "GOG": {
-      "total": 372,
-      "featured": 0,
+      "total": 375,
+      "featured": 3,
       "directory": "gog"
     },
     "Amazon": {
@@ -26,164 +26,164 @@
   },
   "recent_updates": [
     {
-      "title": "JDM: Rise of the Scorpion",
+      "title": "The Whispering Valley",
       "storefront": "GOG",
-      "slug": "jdm-rise-of-the-scorpion",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:49:22.966Z"
-    },
-    {
-      "title": "ATOM RPG: Trudograd",
-      "storefront": "GOG",
-      "slug": "atom-rpg-trudograd",
-      "date_tested": "Oct '24",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:45:22.408Z"
-    },
-    {
-      "title": "XCOM: Enemy Unknown Complete Pack",
-      "storefront": "GOG",
-      "slug": "xcom-enemy-unknown-complete-pack",
+      "slug": "the-whispering-valley",
       "date_tested": "April '26",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:42:36.222Z"
+      "is_featured": true,
+      "updated_at": "2026-04-26T04:32:03.443Z"
     },
     {
-      "title": "Fallout 4: Game of the Year Edition",
+      "title": "Neo Cab",
       "storefront": "GOG",
-      "slug": "fallout-4-game-of-the-year-edition",
+      "slug": "neo-cab",
+      "date_tested": "April '26",
+      "is_featured": true,
+      "updated_at": "2026-04-26T04:31:27.786Z"
+    },
+    {
+      "title": "The Pale Beyond",
+      "storefront": "GOG",
+      "slug": "the-pale-beyond",
+      "date_tested": "April '26",
+      "is_featured": true,
+      "updated_at": "2026-04-26T04:06:34.767Z"
+    },
+    {
+      "title": "DOOMBLADE",
+      "storefront": "Epic",
+      "slug": "doomblade",
+      "date_tested": "April '26",
+      "is_featured": true,
+      "updated_at": "2026-04-26T04:05:18.498Z"
+    },
+    {
+      "title": "20 Minutes Till Dawn",
+      "storefront": "Epic",
+      "slug": "20-minutes-till-dawn",
+      "date_tested": "July '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "[REDACTED]",
+      "storefront": "Epic",
+      "slug": "redacted",
+      "date_tested": "Dec '24",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "3 out of 10, Ep. 1: \"Welcome to Shovelworks\"",
+      "storefront": "Epic",
+      "slug": "3-out-of-10-ep-1-welcome-to-shovelworks",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "911 Operator",
+      "storefront": "Epic",
+      "slug": "911-operator",
+      "date_tested": "July '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "A Plague Tale: Innocence",
+      "storefront": "Epic",
+      "slug": "a-plague-tale-innocence",
+      "date_tested": "Dec '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "Aerial_Knight's Never Yield",
+      "storefront": "Epic",
+      "slug": "aerialknights-never-yield",
+      "date_tested": "Aug '24",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "Adios",
+      "storefront": "Epic",
+      "slug": "adios",
+      "date_tested": "Aug '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "9 Years of Shadows",
+      "storefront": "GOG",
+      "slug": "9-years-of-shadows",
+      "date_tested": "Sept '24",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "A Plague Tale: Innocence",
+      "storefront": "GOG",
+      "slug": "a-plague-tale-innocence",
+      "date_tested": "Nov '24",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "Delores: A Thimbleweed Park Mini-Adventure",
+      "storefront": "GOG",
+      "slug": "delores-a-thimbleweed-park-mini-adventure",
+      "date_tested": "April '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "Aces of the Luftwaffe - Squadron Extended Edition",
+      "storefront": "Amazon",
+      "slug": "aces-of-the-luftwaffe-squadron-extended-edition",
+      "date_tested": "July '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "Alba - A Wildlife Adventure",
+      "storefront": "Epic",
+      "slug": "alba-a-wildlife-adventure",
+      "date_tested": "Sept '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "Albion Online",
+      "storefront": "Epic",
+      "slug": "albion-online",
+      "date_tested": "Oct '25",
+      "is_featured": false,
+      "updated_at": "2026-04-26T02:26:29.954Z"
+    },
+    {
+      "title": "Alex Kidd in Miracle World DX",
+      "storefront": "Epic",
+      "slug": "alex-kidd-in-miracle-world-dx",
       "date_tested": "Jan '26",
       "is_featured": false,
-      "updated_at": "2026-04-25T22:42:06.693Z"
+      "updated_at": "2026-04-26T02:26:29.954Z"
     },
     {
-      "title": "Another World – 20th Anniversary Edition",
-      "storefront": "GOG",
-      "slug": "another-world-20th-anniversary-edition",
-      "date_tested": "Nov '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:56.902Z"
-    },
-    {
-      "title": "True Fear: Forsaken Souls Part 2",
-      "storefront": "GOG",
-      "slug": "true-fear-forsaken-souls-part-2",
+      "title": "Alan Wake 2",
+      "storefront": "Epic",
+      "slug": "alan-wake-2",
       "date_tested": "Oct '25",
       "is_featured": false,
-      "updated_at": "2026-04-25T22:41:49.846Z"
+      "updated_at": "2026-04-26T02:26:29.954Z"
     },
     {
-      "title": "Alan Wake's American Nightmare",
+      "title": "Amerzone: The Explorer's Legacy (1999)",
       "storefront": "GOG",
-      "slug": "alan-wakes-american-nightmare",
-      "date_tested": "Oct '25",
+      "slug": "amerzone-the-explorers-legacy-1999",
+      "date_tested": "March '25",
       "is_featured": false,
-      "updated_at": "2026-04-25T22:41:49.009Z"
-    },
-    {
-      "title": "Fallout: New Vegas Ultimate Edition",
-      "storefront": "GOG",
-      "slug": "fallout-new-vegas-ultimate-edition",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:48.302Z"
-    },
-    {
-      "title": "True Fear: Forsaken Souls Part 1",
-      "storefront": "GOG",
-      "slug": "true-fear-forsaken-souls-part-1",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:47.583Z"
-    },
-    {
-      "title": "Sid Meier's Civilization IV: Complete Edition",
-      "storefront": "GOG",
-      "slug": "sid-meiers-civilization-iv-complete-edition",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:41.336Z"
-    },
-    {
-      "title": "GMDX",
-      "storefront": "GOG",
-      "slug": "gmdx",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:38.859Z"
-    },
-    {
-      "title": "Necroking",
-      "storefront": "GOG",
-      "slug": "necroking",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:32.269Z"
-    },
-    {
-      "title": "Fate: The Traitor Soul",
-      "storefront": "GOG",
-      "slug": "fate-the-traitor-soul",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:31.608Z"
-    },
-    {
-      "title": "Thief: Definitive Edition",
-      "storefront": "GOG",
-      "slug": "thief-definitive-edition",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:30.892Z"
-    },
-    {
-      "title": "Sid Meier's Civilization III: Complete",
-      "storefront": "GOG",
-      "slug": "sid-meiers-civilization-iii-complete",
-      "date_tested": "Aug '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:29.945Z"
-    },
-    {
-      "title": "Ziggurat",
-      "storefront": "GOG",
-      "slug": "ziggurat",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:29.253Z"
-    },
-    {
-      "title": "Total Annihilation: Commander Pack",
-      "storefront": "GOG",
-      "slug": "total-annihilation-commander-pack",
-      "date_tested": "Oct '25",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:13.417Z"
-    },
-    {
-      "title": "The Witcher 2: Assassins of Kings Enhanced Edition",
-      "storefront": "GOG",
-      "slug": "the-witcher-2-assassins-of-kings-enhanced-edition",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:41:09.493Z"
-    },
-    {
-      "title": "STAR WARS™ Galactic Battlegrounds Saga",
-      "storefront": "GOG",
-      "slug": "star-wars-galactic-battlegrounds-saga",
-      "date_tested": "Feb '26",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:40:57.840Z"
-    },
-    {
-      "title": "Pumpkin Jack",
-      "storefront": "GOG",
-      "slug": "pumpkin-jack",
-      "date_tested": "Oct '24",
-      "is_featured": false,
-      "updated_at": "2026-04-25T22:40:43.112Z"
+      "updated_at": "2026-04-26T02:26:29.954Z"
     }
   ]
 }

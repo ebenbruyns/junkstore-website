@@ -14,8 +14,8 @@ date_tested: "Sept '24"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
-developer: NIL, NIL
+publisher: Bonus Stage Publishing
+developer: Kami Games
 genre: Adventure, Indie, Shooter
 franchise: 
 age_rating_summary: 

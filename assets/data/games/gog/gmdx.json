@@ -35,7 +35,7 @@
   "shortname": "1553376539",
   "publisher": "|Totalitarian|",
   "developer": "Totalitarian",
-  "releasedate": "2017",
+  "release_date": "2017-01-01",
   "genre": "Role-playing (RPG), Adventure, Shooter",
   "description": "Dubbed the \"Definitive Deus Ex Experience\" web-wide, GMDX is a one-of-a-kind all-encompassing modification of the classic video game Deus Ex, currently half a decade into rigorous development. Intended to be the best looking and playing version of Deus Ex available all the while remaining true to the original identity of the game, GMDX is the greatest thinking man's Shooter/Sneaker/RPG hybrid on another level. Prepare to be blown away by Deus Ex once more.",
   "size": "",
@@ -51,8 +51,8 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
-  "gamesdb_gog_id": "",
+  "gamesdb_game_id": "58844261768948331",
+  "gamesdb_gog_id": "58844267407476205",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
   "gamesdb_amazon_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-04T23:12:06.973Z",
-  "updated_at": "2026-04-25T22:41:38.859Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -19,7 +19,7 @@ developer: Thomas Happ Games
 genre: Action, Platformer
 franchise: Axiom Verge
 age_rating_summary: ESRB Mature 17+
-release_date: "May 15, 2015"
+release_date: "May 14, 2015"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1247","name":"Metroidvania"}]

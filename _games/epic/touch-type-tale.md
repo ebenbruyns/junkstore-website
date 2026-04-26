@@ -19,11 +19,11 @@ developer: Pumpernickel Studio
 genre: Strategy
 franchise: 
 age_rating_summary: 
-release_date: "March 29, 2023"
+release_date: "March 28, 2023"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/107986"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-08T15:00:00.000Z","end":"2025-05-15T15:00:00.000Z","type":null,"id":"ac63bc06c6d44a5d8c423675bd7208d9"}]
 

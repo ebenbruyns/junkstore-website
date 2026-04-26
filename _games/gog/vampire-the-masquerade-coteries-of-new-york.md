@@ -19,7 +19,7 @@ developer: Draw Distance
 genre: role-playing, adventure, indie, visual novel
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "December 1, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

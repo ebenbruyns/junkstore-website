@@ -35,7 +35,7 @@
   "shortname": "1207658880",
   "publisher": "GT Interactive Software",
   "developer": "Cavedog Entertainment",
-  "releasedate": "1997-09-30T00:00:00+0000",
+  "release_date": "1997-09-30",
   "genre": "Strategy",
   "description": "What began as a conflict over the transfer of consciousness from flesh to machines escalated into a war which has decimated a million worlds. The Core and the Arm have all but exhausted the resources of a galaxy in their struggle for domination. Both sides now crippled beyond repair, the remnants of their armies continue to battle on ravaged planets, their hatred fuelled by over four thousand years of total war. This is a fight to the death. For each side, the only acceptable outcome is the complete elimination of the other.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51295410806397788",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -81,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-04-25T22:41:13.417Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

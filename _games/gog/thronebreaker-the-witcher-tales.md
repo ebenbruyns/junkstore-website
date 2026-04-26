@@ -18,7 +18,7 @@ publisher: CD Projekt RED
 developer: CD Projekt RED
 genre: Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "October 23, 2018"
 game_modes: ["Single player"]
 languages: ["English"]

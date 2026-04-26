@@ -19,11 +19,11 @@ developer: Alblune
 genre: Puzzle, Adventure, Platformer
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "September 27, 2022"
+release_date: "September 26, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"21151","name":"Easy Puzzles"}]
-igdb_url: "https://www.igdb.com/games/134474"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-09-26T15:00:00.000Z","end":"2024-10-03T15:00:00.000Z","type":null,"id":"b9763cf171e446d5864cfa0b8fe8b9bb"}]
 

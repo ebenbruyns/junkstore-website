@@ -15,11 +15,11 @@ proton_version: ""
 
 # Game Info
 publisher: WildTangent
-developer: NIL, NIL
+developer: WildTangent
 genre: Role-playing (RPG), Adventure
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "September 1, 2009"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

@@ -19,7 +19,7 @@ developer: Resonair, Monstars
 genre: Puzzle
 franchise: 
 age_rating_summary: 
-release_date: "July 24, 2019"
+release_date: "July 23, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1159","name":"Arcade"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1179","name":"VR"}]

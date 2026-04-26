@@ -35,7 +35,7 @@
   "shortname": "1772238447",
   "publisher": "Maximum Games, Microids",
   "developer": "Pendulo Studios, Ys Interactive",
-  "releasedate": "2019-11-05T00:00:00+0000",
+  "release_date": "2019-11-05",
   "genre": "Adventure, Puzzle",
   "description": "Based on the noir comic series by the same name. The game features a noir detective story about a PI by the name of Blacksad that gets dragged into the case of a murdered boxing club. The game feature an interactive system much reminiscent of Grim Fandango where you have direct control of the character and only things that catch his gaze is interactable.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51141820672830301",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -87,5 +87,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T22:35:54.307Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

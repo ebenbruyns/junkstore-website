@@ -19,8 +19,8 @@ developer: Pixelnest Studio, Damien Mayance
 genre: adventure, indie, puzzle, arcade
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
-game_modes: []
+release_date: "October 1, 2020"
+game_modes: ["Multiplayer","Single player"]
 languages: ["English"]
 tags_structured: []
 igdb_url: ""

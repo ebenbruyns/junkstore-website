@@ -18,7 +18,7 @@ publisher: Deep Silver
 developer: High Voltage Software, Volition
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "January 20, 2015"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]

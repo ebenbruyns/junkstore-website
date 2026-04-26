@@ -35,7 +35,7 @@
   "shortname": "5919f2a03ba34e36b8e7de60acc26736",
   "publisher": "Bureau 81, indienova",
   "developer": "Bureau 81",
-  "releasedate": "2025-06-19T15:00:00.000Z",
+  "release_date": "2025-06-19",
   "genre": "Puzzle, Narration, Indie",
   "description": "Welcome to the FDI. As our newest Operator, your role is to use your detective skills to assist our field agents and investigate mysterious crimes. Use cutting-edge FDI software to dig for clues, solve puzzles, and uncover the truth.",
   "size": "",
@@ -86,8 +86,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 216958,
-  "igdb_url": "https://www.igdb.com/games/216958",
   "giveaway_events": [
     {
       "start": "2025-06-19T15:00:00.000Z",
@@ -98,7 +96,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Welcome to the FDI. As our newest Operator, your role is to use your detective skills to assist our field agents and investigate mysterious crimes. Use cutting-edge FDI software to dig for clues, solve puzzles, and uncover the truth.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55802227895930350",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1771980/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1771980/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1771980/capsule_231x87.jpg",
@@ -122,5 +128,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:44:01.104Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

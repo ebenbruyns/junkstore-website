@@ -20,7 +20,7 @@ genre: Adventure, Indie
 franchise: 
 age_rating_summary: 
 release_date: ""
-game_modes: []
+game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []
 igdb_url: ""

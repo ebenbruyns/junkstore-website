@@ -19,7 +19,7 @@ developer: Indefatigable
 genre: indie, shooter
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "June 1, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

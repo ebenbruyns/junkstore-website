@@ -19,7 +19,7 @@ developer: Pixel Perfect Dude
 genre: indie, sport, arcade, racing
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "April 1, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

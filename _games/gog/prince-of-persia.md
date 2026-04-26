@@ -18,7 +18,7 @@ publisher: Ubisoft Entertainment
 developer: Ubisoft Montreal
 genre: Adventure, Platform, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "December 2, 2008"
 game_modes: ["Single player"]
 languages: ["English"]

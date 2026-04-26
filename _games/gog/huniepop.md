@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/339800"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/HuniePop"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/huniepop/"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Works out of the box**. **Pro Version: Works out of the box**. You need to set some keybindings to Alt+F4 to quit the game."

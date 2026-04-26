@@ -19,7 +19,7 @@ developer: Analgesic Productions, Melos Han-Tani, Marina Kittaka
 genre: Exploration, Adventure, Indie
 franchise: 
 age_rating_summary: 
-release_date: "February 29, 2020"
+release_date: "February 28, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]

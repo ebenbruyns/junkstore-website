@@ -19,11 +19,11 @@ developer: ANIMAL
 genre: Action, Indie, Shooter
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "July 24, 2024"
+release_date: "July 23, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer","Battle Royale"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/106056"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-01T15:00:00.000Z","end":"2024-08-08T15:00:00.000Z","type":null,"id":"e7e111c658584357a25ff993fca52a3c"}]
 
@@ -73,7 +73,7 @@ performance_notes:
 known_issues: 
 
 # Meta
-database_id: ""
+database_id: "cf66e90baeed4871aaf6be56ce16479c"
 is_featured: false
 owned: true
 ---

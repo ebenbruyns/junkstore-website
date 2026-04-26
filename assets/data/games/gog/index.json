@@ -1,6 +1,6 @@
 {
   "storefront": "GOG",
-  "total_games": 372,
+  "total_games": 375,
   "games": [
     "60-parsecs.json",
     "9-years-of-shadows.json",
@@ -221,6 +221,7 @@
     "mullet-madjack.json",
     "mutazione.json",
     "necroking.json",
+    "neo-cab.json",
     "neurodeck-psychological-deckbuilder.json",
     "neverwinter-nights-diamond.json",
     "neverwinter-nights-enhanced-edition.json",
@@ -318,6 +319,7 @@
     "the-last-spell.json",
     "the-life-and-suffering-of-sir-brante.json",
     "the-outer-worlds.json",
+    "the-pale-beyond.json",
     "the-saboteur.json",
     "the-smurfs-2-the-prisoner-of-the-green-stone.json",
     "the-supper.json",
@@ -325,6 +327,7 @@
     "the-town-of-light.json",
     "the-whispered-world-special-edition.json",
     "the-whisperer.json",
+    "the-whispering-valley.json",
     "the-witcher-2-assassins-of-kings-enhanced-edition.json",
     "the-witcher-3-wild-hunt-game-of-the-year-edition.json",
     "the-witcher-enhanced-edition.json",
@@ -375,67 +378,67 @@
     "you-will-die-here-tonight.json",
     "ziggurat.json"
   ],
-  "featured_games": 0,
-  "last_updated": "2026-04-25T22:55:56.273Z",
+  "featured_games": 3,
+  "last_updated": "2026-04-26T04:33:01.982Z",
   "latest_games": [
     {
-      "title": "JDM: Rise of the Scorpion",
-      "slug": "jdm-rise-of-the-scorpion",
-      "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "ATOM RPG: Trudograd",
-      "slug": "atom-rpg-trudograd",
-      "date_tested": "Oct '24",
-      "is_featured": false
-    },
-    {
-      "title": "XCOM: Enemy Unknown Complete Pack",
-      "slug": "xcom-enemy-unknown-complete-pack",
+      "title": "The Whispering Valley",
+      "slug": "the-whispering-valley",
       "date_tested": "April '26",
+      "is_featured": true
+    },
+    {
+      "title": "Neo Cab",
+      "slug": "neo-cab",
+      "date_tested": "April '26",
+      "is_featured": true
+    },
+    {
+      "title": "The Pale Beyond",
+      "slug": "the-pale-beyond",
+      "date_tested": "April '26",
+      "is_featured": true
+    },
+    {
+      "title": "9 Years of Shadows",
+      "slug": "9-years-of-shadows",
+      "date_tested": "Sept '24",
       "is_featured": false
     },
     {
-      "title": "Fallout 4: Game of the Year Edition",
-      "slug": "fallout-4-game-of-the-year-edition",
-      "date_tested": "Jan '26",
+      "title": "A Plague Tale: Innocence",
+      "slug": "a-plague-tale-innocence",
+      "date_tested": "Nov '24",
       "is_featured": false
     },
     {
-      "title": "Another World – 20th Anniversary Edition",
-      "slug": "another-world-20th-anniversary-edition",
-      "date_tested": "Nov '25",
+      "title": "Delores: A Thimbleweed Park Mini-Adventure",
+      "slug": "delores-a-thimbleweed-park-mini-adventure",
+      "date_tested": "April '25",
       "is_featured": false
     },
     {
-      "title": "True Fear: Forsaken Souls Part 2",
-      "slug": "true-fear-forsaken-souls-part-2",
-      "date_tested": "Oct '25",
+      "title": "Amerzone: The Explorer's Legacy (1999)",
+      "slug": "amerzone-the-explorers-legacy-1999",
+      "date_tested": "March '25",
       "is_featured": false
     },
     {
-      "title": "Alan Wake's American Nightmare",
-      "slug": "alan-wakes-american-nightmare",
-      "date_tested": "Oct '25",
+      "title": "Alder's Blood Prologue",
+      "slug": "alders-blood-prologue",
+      "date_tested": "April '25",
       "is_featured": false
     },
     {
-      "title": "Fallout: New Vegas Ultimate Edition",
-      "slug": "fallout-new-vegas-ultimate-edition",
-      "date_tested": "Oct '25",
+      "title": "Amnesia: A Machine for Pigs",
+      "slug": "amnesia-a-machine-for-pigs",
+      "date_tested": "Aug '25",
       "is_featured": false
     },
     {
-      "title": "True Fear: Forsaken Souls Part 1",
-      "slug": "true-fear-forsaken-souls-part-1",
-      "date_tested": "Oct '25",
-      "is_featured": false
-    },
-    {
-      "title": "Sid Meier's Civilization IV: Complete Edition",
-      "slug": "sid-meiers-civilization-iv-complete-edition",
-      "date_tested": "Sept '25",
+      "title": "Mordheim: City of the Damned",
+      "slug": "mordheim-city-of-the-damned",
+      "date_tested": "June '25",
       "is_featured": false
     }
   ]

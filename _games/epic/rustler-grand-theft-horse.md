@@ -19,11 +19,11 @@ developer: Jutsu Games
 genre: Action, RPG, Open World
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "January 23, 2026"
+release_date: "January 22, 2026"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Portuguese - Brazil","Korean"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
-igdb_url: "https://www.igdb.com/games/99302"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-01-22T16:00:00.000Z","end":"2026-01-29T16:00:00.000Z","type":null,"id":"3d10f32b87b94b769524cd44a12e634a"}]
 

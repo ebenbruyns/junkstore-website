@@ -23,7 +23,7 @@ release_date: "September 19, 2024"
 game_modes: ["Single Player"]
 languages: ["English"]
 tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/134817"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

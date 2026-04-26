@@ -14,8 +14,8 @@ date_tested: "April '25"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
-developer: NIL, NIL
+publisher: Nacon, The Arcade Crew
+developer: Ishtar Games
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS), Indie, Tactical
 franchise: 
 age_rating_summary: 

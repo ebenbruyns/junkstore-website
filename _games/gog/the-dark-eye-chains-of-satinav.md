@@ -18,7 +18,7 @@ publisher: Daedalic Entertainment, Deep Silver, Merge Games
 developer: Daedalic Entertainment
 genre: Role-playing (RPG), Adventure, Indie, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 16
 release_date: "June 22, 2012"
 game_modes: ["Single player"]
 languages: ["English"]

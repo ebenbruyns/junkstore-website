@@ -18,7 +18,7 @@ publisher: Atari, Inc.
 developer: BioWare
 genre: Role-playing (RPG), Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "December 12, 2005"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Italian","Polish","Spanish"]

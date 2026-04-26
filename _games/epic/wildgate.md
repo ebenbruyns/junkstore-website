@@ -19,7 +19,7 @@ developer: Moonshot Games
 genre: Action, Adventure, Casual, Massively Multiplayer, Racing, RPG, Strategy
 franchise: 
 age_rating_summary: 
-release_date: "January 2, 2099"
+release_date: "January 1, 2099"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Korean*","Portuguese - Brazil*","Simplified Chinese*","Spanish - Latin America*"]
 tags_structured: []

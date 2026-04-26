@@ -35,7 +35,7 @@
   "shortname": "5cd54ad0ead447738bd9552b3d2a105b",
   "publisher": "The Drone Racing League",
   "developer": "The Drone Racing League",
-  "releasedate": "2021-08-04T17:00:00.000Z",
+  "release_date": "2021-08-04",
   "genre": "Simulation, Racing",
   "description": "DRL Simulator® is the premier first-person view (FPV) racing game and simulator.  DRL SIM® offers a robust, evolving feature set, including high-intensity drone racing. It packs tracks that DRL's real world pilots compete on, with more added every season.",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 76735,
-  "igdb_url": "https://www.igdb.com/games/76735",
   "giveaway_events": [
     {
       "start": "2022-09-28T15:00:00.000Z",
@@ -134,7 +132,15 @@
   ],
   "was_free_before": true,
   "description_rich": "DRL Simulator® is the premier first-person view (FPV) racing game and simulator.  DRL SIM® offers a robust, evolving feature set, including high-intensity drone racing. It packs tracks that DRL's real world pilots compete on, with more added every season.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51295396462458973",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/b9709889af30d6ba17a36d9ca377ce14e08894c79e3d674b6c3e09668a56bcc0.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/26899baba45a22caf662a08f027dbf57c1c6a796f9d574f7ee07d3f70ad719fb.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/35ffab31602c9257c5284e67ea0ccf51788f0b09ff330c50cb3761eb179c32f5.jpg?namespace=gamesdb",
@@ -159,5 +165,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:45:08.195Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

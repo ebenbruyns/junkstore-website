@@ -19,11 +19,11 @@ developer: Critical Hit Games
 genre: Simulation, Narration, RPG
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "February 13, 2026"
+release_date: "February 12, 2026"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
-igdb_url: "https://www.igdb.com/games/290911"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-02-12T16:00:00.000Z","end":"2026-02-19T16:00:00.000Z","type":null,"id":"9da459f7c3984877bd5a12bdc3b6b3af"}]
 

@@ -18,10 +18,10 @@ publisher: Bethesda Softworks
 developer: Arkane Studios
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "November 11, 2016"
 game_modes: ["Single player"]
-languages: []
+languages: ["Chinese Traditional","English","French","German","Italian","Japanese","Polish","Portuguese (Brazilian)","Russian","Spanish"]
 tags_structured: []
 igdb_url: ""
 was_free_before: false

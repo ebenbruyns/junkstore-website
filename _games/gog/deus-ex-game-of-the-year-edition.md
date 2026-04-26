@@ -18,7 +18,7 @@ publisher: Square Enix
 developer: Ion Storm
 genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 16
 release_date: "June 22, 2000"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]

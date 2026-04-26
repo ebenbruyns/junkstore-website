@@ -23,7 +23,7 @@ release_date: "November 20, 2023"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese*","Japanese","Traditional Chinese","Turkish","Russian*languages with full audio support"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/121235"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-25T15:00:00.000Z","end":"2025-10-02T15:00:00.000Z","type":null,"id":"aa2e42dde7b64a3183855ac1803a829c"}]
 

@@ -18,7 +18,7 @@ publisher: Square Enix, Feral Interactive
 developer: IO Interactive
 genre: Adventure, Shooter, Tactical
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 18
 release_date: "November 19, 2012"
 game_modes: ["Single player"]
 languages: ["English*","French*","German*","Italian*","Spanish - Spain*","Polish*","Russian*","Turkish*languages with full audio support"]

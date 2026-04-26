@@ -35,7 +35,7 @@
   "shortname": "dc07b9ead8214591b8df6d2546d2a0e3",
   "publisher": "Team17",
   "developer": " Mothership Entertainment LLC",
-  "releasedate": "2021-11-04T15:00:00.000Z",
+  "release_date": "2021-11-04",
   "genre": "Simulation, City Builder, Strategy",
   "description": "Build a new home for humanity in Aven Colony. Discover Aven Prime - an alien planet of deserts, tundras, and wetlands light years from earth. Build your colonies into massive, sprawling cities whilst dealing with the threats faced when settling on a new world.",
   "size": "",
@@ -106,8 +106,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 23212,
-  "igdb_url": "https://www.igdb.com/games/23212",
   "giveaway_events": [
     {
       "start": "2021-11-03T15:00:00.000Z",
@@ -118,7 +116,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Build a new home for humanity in Aven Colony. Discover Aven Prime - an alien planet of deserts, tundras, and wetlands light years from earth. Build your colonies into massive, sprawling cities whilst dealing with the threats faced when settling on a new world.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51141455192164330",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/0691ae0fc6a367dbab499a0bf07680f98e6faeccc336fd3f00d6f845948cacfe.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d6aef5b0ae89cd976e6697deb70bec0f6d6eae27994f7c6dd4540128440b2187.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/5e3d01f14212ea1a5d722a10bad6fe7ca0b138a7fb7a0e3f7dfc163761b4c2f2.jpg?namespace=gamesdb",
@@ -142,5 +148,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:02.012Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

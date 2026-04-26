@@ -19,11 +19,11 @@ developer: Psyonix
 genre: Racing
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "September 24, 2020"
+release_date: "September 23, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1141","name":"Free to Play"},{"id":"1205","name":"DRIVING"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"}]
-igdb_url: "https://www.igdb.com/games/11198"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

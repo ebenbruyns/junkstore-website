@@ -19,7 +19,7 @@ developer: ION LANDS
 genre: Role-playing (RPG), Adventure, Indie, Simulator
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "April 1, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

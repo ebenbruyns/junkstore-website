@@ -18,7 +18,7 @@ publisher: Activision, Electronic Arts, LucasArts
 developer: Pandemic Studios, Savage Entertainment
 genre: Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "October 31, 2005"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English**languages with full audio support"]

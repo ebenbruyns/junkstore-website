@@ -19,7 +19,7 @@ developer: Rogue Sun
 genre: Adventure, Strategy, Indie, Platform, Puzzle
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "April 1, 2023"
 game_modes: ["Single player"]
 languages: ["Portuguese (Brazil)","zh-Hans","German","English","Spanish","French","Italian","Japanese","Korean","Polish","Russian","zh-Hans"]
 tags_structured: []

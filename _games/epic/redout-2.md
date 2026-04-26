@@ -19,11 +19,11 @@ developer: 34BigThings
 genre: Racing
 franchise: Redout
 age_rating_summary: 
-release_date: "June 17, 2022"
+release_date: "June 16, 2022"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/186059"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-06-12T15:00:00.000Z","end":"2024-06-19T15:00:00.000Z","type":null,"id":"b77095c5a9224fbe8a7222db84675873"}]
 

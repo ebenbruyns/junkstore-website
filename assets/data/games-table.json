@@ -1,18 +1,18 @@
 {
-  "total_games": 989,
-  "featured_games": 0,
+  "total_games": 993,
+  "featured_games": 4,
   "storefronts": {
     "Epic": {
-      "total": 472,
-      "featured": 0,
-      "green_decky": 417,
-      "green_standalone": 399
+      "total": 473,
+      "featured": 1,
+      "green_decky": 418,
+      "green_standalone": 400
     },
     "GOG": {
-      "total": 372,
-      "featured": 0,
-      "green_decky": 342,
-      "green_standalone": 295
+      "total": 375,
+      "featured": 3,
+      "green_decky": 345,
+      "green_standalone": 298
     },
     "Amazon": {
       "total": 73,
@@ -28,11 +28,11 @@
     }
   },
   "ratings_summary": {
-    "green_decky": 759,
-    "green_standalone": 835,
-    "both_green": 656
+    "green_decky": 763,
+    "green_standalone": 839,
+    "both_green": 660
   },
-  "last_updated": "2026-04-25T22:55:56.279Z",
+  "last_updated": "2026-04-26T04:33:01.990Z",
   "games": [
     {
       "id": "aa1a2fc7-85e0-4dc6-a4bf-dd908fe161b8",
@@ -5863,7 +5863,7 @@
       "epic_url": "https://store.epicgames.com/en-US/p/zenless-zone-zero-c7c151",
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Zenless_Zone_Zero",
-      "steamId": "",
+      "steamId": "4162040",
       "metacritic_score": 77,
       "metacritic_url": "https://www.metacritic.com/game/zenless-zone-zero/"
     },
@@ -12133,7 +12133,7 @@
       "epic_url": "https://store.epicgames.com/en-US/p/destiny-2",
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Destiny_2",
-      "steamId": "",
+      "steamId": "1085660",
       "metacritic_score": null,
       "metacritic_url": ""
     },
@@ -12342,7 +12342,7 @@
       "epic_url": "",
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/League_of_Legends",
-      "steamId": "",
+      "steamId": "20590",
       "metacritic_score": null,
       "metacritic_url": ""
     },
@@ -12418,7 +12418,7 @@
       "epic_url": "https://store.epicgames.com/en-US/p/pubg-59c1d9",
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/PUBG%3A_Battlegrounds",
-      "steamId": "",
+      "steamId": "578080",
       "metacritic_score": null,
       "metacritic_url": ""
     },
@@ -12874,7 +12874,7 @@
       "epic_url": "https://store.epicgames.com/en-US/p/wuthering-waves-76ebc5",
       "itch_url": "",
       "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Wuthering_Waves",
-      "steamId": "",
+      "steamId": "3513350",
       "metacritic_score": null,
       "metacritic_url": ""
     },
@@ -18824,6 +18824,82 @@
       "steamId": "2711180",
       "metacritic_score": null,
       "metacritic_url": ""
+    },
+    {
+      "id": "23b3b7c9-79e8-4756-b7ce-9bd3ec0bbe6a",
+      "title": "DOOMBLADE",
+      "storefront": "Epic",
+      "slug": "doomblade",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "April '26",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/922050",
+      "gog_url": "",
+      "epic_url": "https://store.epicgames.com/en-US/p/doomblade-afdf9a",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Doomblade",
+      "steamId": "922050",
+      "metacritic_score": 83,
+      "metacritic_url": "https://www.metacritic.com/game/pc/doomblade?ftag=MCD-06-10aaa1f"
+    },
+    {
+      "id": "45b98bc8-dd90-4093-b90a-dac14501c650",
+      "title": "The Whispering Valley",
+      "storefront": "GOG",
+      "slug": "the-whispering-valley",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "April '26",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/1512390",
+      "gog_url": "https://www.gog.com/en/game/the_whispering_valley",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Whispering_Valley",
+      "steamId": "1512390",
+      "metacritic_score": null,
+      "metacritic_url": "https://www.metacritic.com/game/the-whispering-valley/"
+    },
+    {
+      "id": "f660c79a-bcd0-4bbc-89f8-b67a23d5292e",
+      "title": "The Pale Beyond",
+      "storefront": "GOG",
+      "slug": "the-pale-beyond",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "April '26",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/1266030",
+      "gog_url": "https://www.gog.com/en/game/the_pale_beyond",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/The_Pale_Beyond",
+      "steamId": "1266030",
+      "metacritic_score": 77,
+      "metacritic_url": "https://www.metacritic.com/game/pc/the-pale-beyond?ftag=MCD-06-10aaa1f"
+    },
+    {
+      "id": "7db3aca7-71f1-4bd8-9787-329376eb31bf",
+      "title": "Neo Cab",
+      "storefront": "GOG",
+      "slug": "neo-cab",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "April '26",
+      "is_featured": true,
+      "blog_category": "",
+      "protondb": "https://www.protondb.com/app/794540",
+      "gog_url": "https://www.gog.com/en/game/neo_cab",
+      "epic_url": "",
+      "itch_url": "",
+      "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Neo_Cab",
+      "steamId": "794540",
+      "metacritic_score": 76,
+      "metacritic_url": "https://www.metacritic.com/game/pc/neo-cab?ftag=MCD-06-10aaa1f"
     }
   ]
 }

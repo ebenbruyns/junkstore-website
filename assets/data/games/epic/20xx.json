@@ -35,7 +35,7 @@
   "shortname": "Quail",
   "publisher": "Batterystaple Games",
   "developer": "Batterystaple Games, Fire Hose Games",
-  "releasedate": "2020-07-30T15:00:00.000Z",
+  "release_date": "2020-07-30",
   "genre": "Rogue-Lite, Platformer",
   "description": "20XX is a roguelike action platformer that you can play with a friend. Jump and shoot your way through ever-changing levels, collect awesome new powers, and battle mighty bosses in the name of saving the human race maybe!",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2020-07-29T15:00:00.000Z",
@@ -122,7 +120,15 @@
   ],
   "was_free_before": true,
   "description_rich": "20XX is a roguelike action platformer that you can play with a friend. Jump and shoot your way through ever-changing levels, collect awesome new powers, and battle mighty bosses in the name of saving the human race maybe!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51141230731153904",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/4c4cc7022c36f2bfbc7b8fe89284506d2ef01998f0d139e7b16f0e97279d32c8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fa93fa634ab3b9ea798267dced057e114ddbfc28e4f9b487e16f7dcd19d3b07f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7363a91a9da27d1741c71f2062892d5e5ff3c6565172540d7142b86632bde188.jpg?namespace=gamesdb",
@@ -148,5 +154,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T01:17:53.190Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

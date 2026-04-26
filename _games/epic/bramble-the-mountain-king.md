@@ -19,11 +19,11 @@ developer: Dimfrost Studio
 genre: Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "April 28, 2023"
+release_date: "April 27, 2023"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Portuguese - Portugal","Russian","Simplified Chinese"]
 tags_structured: [{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/152124"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

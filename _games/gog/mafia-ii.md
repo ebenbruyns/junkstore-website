@@ -18,7 +18,7 @@ publisher: 2K Games, Take-Two Interactive
 developer: 2K Czech, Massive Bear Studios
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "August 24, 2010"
 game_modes: ["Single player"]
 languages: ["Czech","English","French","German","Italian","Polish","Russian","Spanish"]

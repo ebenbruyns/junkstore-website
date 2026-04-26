@@ -35,7 +35,7 @@
   "shortname": "Tamarind",
   "publisher": "505 Games",
   "developer": "Starbreeze Studios AB",
-  "releasedate": "2022-02-17T16:00:00.000Z",
+  "release_date": "2022-02-17",
   "genre": "Adventure",
   "description": "Guide two brothers on an epic fairy tale journey from visionary Swedish film director, Josef Fares and top-tier developer Starbreeze Studios.\n\nThis is one journey you will never forget.",
   "size": "",
@@ -62,8 +62,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 1334,
-  "igdb_url": "https://www.igdb.com/games/1334",
   "giveaway_events": [
     {
       "start": "2022-02-16T15:00:00.000Z",
@@ -74,7 +72,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Guide two brothers on an epic fairy tale journey from visionary Swedish film director, Josef Fares and top-tier developer Starbreeze Studios.\n\nThis is one journey you will never forget.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51141995203973708",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/38843fd0b2952e518beda11fd59cf0f80215991a5a95349b61490b74a14d4a5c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6584ff191a6504bd115342446aeaf5368ca9c5d893bb8e16244bcba6f5a5a043.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/3c09148d2a14bcc7a8d4928315de283272b40b1d6868ba9f73b369f70865f1e2.jpg?namespace=gamesdb",
@@ -98,5 +104,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:12.998Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

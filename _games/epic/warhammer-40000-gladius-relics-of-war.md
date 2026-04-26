@@ -19,11 +19,11 @@ developer: Proxy Studios
 genre: Turn-Based, Strategy
 franchise: Warhammer 40,000
 age_rating_summary: ESRB Teen
-release_date: "November 13, 2020"
+release_date: "November 12, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"1166","name":"4X"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/76410"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-03-15T15:00:00.000Z","end":"2023-03-22T15:00:00.000Z","type":null,"id":"0fffb527a35441b08505c018dc1812bd"}]
 

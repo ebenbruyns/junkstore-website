@@ -18,7 +18,7 @@ publisher: Virgin Interactive Entertainment (Europe) Ltd., Virgin Interactive En
 developer: Revolution Software
 genre: Adventure, Indie, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13
 release_date: "March 1, 1994"
 game_modes: ["Single player"]
 languages: ["English"]

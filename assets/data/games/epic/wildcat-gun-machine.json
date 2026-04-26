@@ -35,7 +35,7 @@
   "shortname": "e9c18eae78964527853bfa2053d346e2",
   "publisher": "Daedalic Entertainment",
   "developer": "Chunkybox Games",
-  "releasedate": "2022-05-04T17:00:00.000Z",
+  "release_date": "2022-05-04",
   "genre": "Action, Dungeon Crawler, Indie",
   "description": "Wildcat Gun Machine is a bullet hell dungeon crawler where you take on hordes of disgusting flesh beasts with a wide variety of guns, giant mech robots, and cute kittens.",
   "size": "",
@@ -94,8 +94,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 139676,
-  "igdb_url": "https://www.igdb.com/games/139676",
   "giveaway_events": [
     {
       "start": "2022-12-07T15:00:00.000Z",
@@ -106,7 +104,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Wildcat Gun Machine is a bullet hell dungeon crawler where you take on hordes of disgusting flesh beasts with a wide variety of guns, giant mech robots, and cute kittens.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53769335651024760",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/ebdd9e79225adf4adadcb782699ba4ea55d098154536dfb7a2c86d8bcb3fa151.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/5372a9e2ff231f05d13de65bc6f407e4b26983d9b26fa7c28367cf79d4b1831e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/965628186c77bd0bc87c5979114992a1d52b784e64c17968fe3145a9aa1c21a3.jpg?namespace=gamesdb",
@@ -129,5 +135,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:46:05.281Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

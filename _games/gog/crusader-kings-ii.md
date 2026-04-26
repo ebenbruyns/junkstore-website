@@ -21,7 +21,7 @@ franchise:
 age_rating_summary: 
 release_date: "February 3, 2012"
 game_modes: ["Single player","Multiplayer"]
-languages: []
+languages: ["English","French","German","Spanish"]
 tags_structured: []
 igdb_url: ""
 was_free_before: false

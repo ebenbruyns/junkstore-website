@@ -35,7 +35,7 @@
   "shortname": "1111530020",
   "publisher": "Square Enix",
   "developer": "SQUARE ENIX",
-  "releasedate": "11-2023",
+  "release_date": "2023-11-01",
   "genre": "role-playing, strategy, tactical",
   "description": "Experience all the memorable battles and heart wrenching drama of Front Mission with improved visuals, an updated interface, and English voiceovers!",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "58891783529380512",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -88,5 +88,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:39:00.879Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

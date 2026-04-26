@@ -19,7 +19,7 @@ developer: Playdead
 genre: Puzzle, Platformer, Indie
 franchise: Limbo
 age_rating_summary: ESRB Teen
-release_date: "July 19, 2019"
+release_date: "July 18, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]

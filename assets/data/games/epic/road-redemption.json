@@ -35,7 +35,7 @@
   "shortname": "39b13b169e1d4e798543f931bc3a95b4",
   "publisher": "Pixel Dash Studios",
   "developer": "Pixel Dash Studios",
-  "releasedate": "2025-08-07T15:00:00.000Z",
+  "release_date": "2025-08-07",
   "genre": "Action, Racing",
   "description": "Road Redemption lets you lead a biker gang on an epic journey across the country in this driving combat road rage adventure.",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2025-08-07T15:00:00.000Z",
@@ -122,7 +120,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Road Redemption lets you lead a biker gang on an epic journey across the country in this driving combat road rage adventure.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51154127203600019",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/0c3d986eaab24223ec0b3e59a1b199cbbf46d42cc0e1ca2fb207517b06f4e599.jpg?namespace=gamesdb.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/95c29bc14adf89c953c23d3ffd84b864903ea6dc7416dd63d9bd09dc58fd65e8.jpg?namespace=gamesdb.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -149,5 +155,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-11T10:15:53.029Z",
-  "updated_at": "2026-04-25T02:46:22.940Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

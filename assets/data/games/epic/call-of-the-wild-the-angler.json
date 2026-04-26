@@ -35,7 +35,7 @@
   "shortname": "fe4168b810314c2fb93f1803e2fe431e",
   "publisher": "Expansive Worlds",
   "developer": "Expansive Worlds",
-  "releasedate": "2022-08-31T13:00:00.000Z",
+  "release_date": "2022-08-31",
   "genre": "Casual, Simulation, Open World",
   "description": "From the creators of theHunter: Call of the Wild comes a genre-defying fishing experience! Explore a vast open world in search of the perfect fishing spot. Ride the open waters alone or with friends and embark on your journey to become a master angler.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 205775,
-  "igdb_url": "https://www.igdb.com/games/205775",
   "giveaway_events": [
     {
       "start": "2024-03-20T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "From the creators of theHunter: Call of the Wild comes a genre-defying fishing experience! Explore a vast open world in search of the perfect fishing spot. Ride the open waters alone or with friends and embark on your journey to become a master angler.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55557734461097642",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/f6753951a5baf5cb11ac061595fec4d9ce3ac02d4881b43e31336a8325cf7171.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/928182a0fe6a162ad81b52114e6b8d3ad6f6f191ebf2108066303d694257b3f8.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0b0e8a2d90f32bb2db7eb256cc7f40788d5a585de6737b343b3e564af37268ad.jpg?namespace=gamesdb",
@@ -156,5 +162,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T01:06:52.333Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

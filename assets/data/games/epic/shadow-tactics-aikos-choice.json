@@ -35,7 +35,7 @@
   "shortname": "a334978574a840d594c31521592925f3",
   "publisher": "Daedalic Entertainment",
   "developer": "Mimimi Games",
-  "releasedate": "2021-12-06T18:00:00.000Z",
+  "release_date": "2021-12-06",
   "genre": "Action, Strategy, Stealth",
   "description": "Aiko's Choice is a brand-new standalone addon to the beloved stealth tactics game Shadow Tactics. Set in Japan around the Edo period, you take control of kunoichi adept Aiko and her deadly assassin friends to hunt down the ghosts of her past.",
   "size": "",
@@ -86,8 +86,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 19085,
-  "igdb_url": "https://www.igdb.com/games/19085",
   "giveaway_events": [
     {
       "start": "2023-01-04T15:00:00.000Z",
@@ -98,7 +96,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Aiko's Choice is a brand-new standalone addon to the beloved stealth tactics game Shadow Tactics. Set in Japan around the Edo period, you take control of kunoichi adept Aiko and her deadly assassin friends to hunt down the ghosts of her past.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54249969478037687",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/61636070654f9116b074496336bcff4bd3c1c387cd104a4b2dd8d7214f0af652.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fa49e73712e53283e9173072df2e63fc14b0381a97c95b6b0bbf6b1daf973870.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/c97c3b5310487d610fe5e868eb1264b1474c08d4b27b7931a833e0a8b2089b6a.jpg?namespace=gamesdb",
@@ -131,5 +137,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-25T02:12:48.188Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

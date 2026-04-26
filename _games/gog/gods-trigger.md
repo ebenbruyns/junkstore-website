@@ -18,7 +18,7 @@ publisher: Techland Publishing
 developer: One More Level
 genre: "Indie, Puzzle, Shooter, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 16
 release_date: "April 18, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]

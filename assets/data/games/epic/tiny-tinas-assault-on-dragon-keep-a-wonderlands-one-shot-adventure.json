@@ -35,7 +35,7 @@
   "shortname": "9e296d276ad447108f12c654c3341d59",
   "publisher": "2K",
   "developer": "Gearbox Software",
-  "releasedate": "2021-11-09T16:00:00.000Z",
+  "release_date": "2021-11-09",
   "genre": "RPG, Action-Adventure, Adventure",
   "description": "Smash skeletons, defeat dragons, and battle giant golems in Tiny Tina's Assault on Dragon Keep: A Wonderlands One-Shot Adventure. Experience the acclaimed 2013 quest jam-packed with fantasy, fun, and mountains of magical loot!\n",
   "size": "",
@@ -126,8 +126,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 13923,
-  "igdb_url": "https://www.igdb.com/games/13923",
   "giveaway_events": [
     {
       "start": "2021-11-10T15:00:00.000Z",
@@ -138,7 +136,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Smash skeletons, defeat dragons, and battle giant golems in Tiny Tina's Assault on Dragon Keep: A Wonderlands One-Shot Adventure. Experience the acclaimed 2013 quest jam-packed with fantasy, fun, and mountains of magical loot!\n",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54911204523111774",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/734453c4fa47c766c7eda703477f83887b2e444460d4a674e709460c0d099abc.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/df84f412beeea15e6b3161365af7ccd74027c949ae339a7c6ba2ae3c0a4cc879.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/34e144ed6ede8269bc272c7a9256304a972179f3a99fdcd5f268ef1d25f5ca22.jpg?namespace=gamesdb",
@@ -171,5 +177,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-25T05:51:49.365Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

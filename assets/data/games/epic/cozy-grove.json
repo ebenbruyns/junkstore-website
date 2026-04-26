@@ -35,7 +35,7 @@
   "shortname": "d6ca441db1c041f1b0ac142e0eea6312",
   "publisher": "Spry Fox",
   "developer": "Spry Fox",
-  "releasedate": "2021-04-08T04:00:00.000Z",
+  "release_date": "2021-04-08",
   "genre": "Indie, Casual",
   "description": "Welcome to Cozy Grove, a life-sim game about camping on a haunted, ever-changing island. As a Spirit Scout, you'll wander the island's forest each day, finding new hidden secrets and helping soothe the local ghosts.",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 144800,
-  "igdb_url": "https://www.igdb.com/games/144800",
   "giveaway_events": [
     {
       "start": "2026-03-12T15:00:00.000Z",
@@ -134,7 +132,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Welcome to Cozy Grove, a life-sim game about camping on a haunted, ever-changing island. As a Spirit Scout, you'll wander the island's forest each day, finding new hidden secrets and helping soothe the local ghosts.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54231790189982287",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1458100/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1458100/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1458100/capsule_231x87.jpg",
@@ -167,5 +173,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-03-14T03:36:33.819Z",
-  "updated_at": "2026-04-25T05:55:31.028Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

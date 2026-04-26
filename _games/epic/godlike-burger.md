@@ -19,11 +19,11 @@ developer: Liquid Pug
 genre: Action, Indie, Rogue-Lite
 franchise: 
 age_rating_summary: 
-release_date: "April 22, 2022"
+release_date: "April 21, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21126","name":"Silly Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/143010"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-10-04T15:00:00.000Z","end":"2023-10-11T15:00:00.000Z","type":null,"id":"d9300ace164b41ac90a7b54e59d47953"}]
 

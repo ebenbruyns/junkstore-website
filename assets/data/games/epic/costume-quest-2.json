@@ -35,7 +35,7 @@
   "shortname": "82a78a4dd6ef4eaa892707791b705073",
   "publisher": "Midnight City, Majesco Entertainment",
   "developer": "Double Fine Productions",
-  "releasedate": "2020-10-22T15:00:00.000Z",
+  "release_date": "2020-10-22",
   "genre": "Action, Action-Adventure, Turn-Based, Adventure",
   "description": "Explore spooky time-traversing landscapes, don adorable new costumes that transform into powerful Hallo-warriors, and collect even Creepier Treat Cards to wield in combat against a legion of hygiene obsessed baddies.",
   "size": "",
@@ -94,8 +94,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2022-12-16T15:00:00.000Z",
@@ -112,7 +110,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Explore spooky time-traversing landscapes, don adorable new costumes that transform into powerful Hallo-warriors, and collect even Creepier Treat Cards to wield in combat against a legion of hygiene obsessed baddies.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51142073342158737",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/02e0b4378b88039e99c39b3b22fbf331390ff32d19b99b0150ad7e87ec537771.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/bebe3fb2341408a1aef4a65b19527cae6dfc6fe9da60e1758ded011bbfd772ad.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/23cf39a791b3d3ad4c40fcd7534541e6ffaa1a0030a8304ee614f634590c91f1.jpg?namespace=gamesdb",
@@ -135,5 +141,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:29:11.378Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

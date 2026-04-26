@@ -35,7 +35,7 @@
   "shortname": "1207659037",
   "publisher": "Microsoft Game Studios, Nordic Games Publishing, E-Frontier, Remedy Entertainment, Namco Bandai Partners, Legacy Interactive",
   "developer": "Remedy Entertainment",
-  "releasedate": "05-2010",
+  "release_date": "2010-05-01",
   "genre": "adventure, shooter",
   "description": "Presented in the style of a TV series, Alan Wake features the trademark Remedy storytelling and pulse-pounding action sequences. As players dive deeper into the mystery, they'll face overwhelming odds, plot twists, and cliffhangers.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51141409426267111",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -89,5 +89,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T22:38:32.105Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

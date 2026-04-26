@@ -35,7 +35,7 @@
   "shortname": "fab83c3bf3d449718e042d44369e7fb6",
   "publisher": "DrinkBox Studios",
   "developer": "DrinkBox Studios",
-  "releasedate": "2023-06-15T15:00:00.000Z",
+  "release_date": "2023-06-15",
   "genre": "Fighting, Action-Adventure, Platformer",
   "description": "Head back to the Mexiverse in this long-awaited sequel to the smash hit Guacamelee! Uppercut your way to victory across stunning new hand-crafted levels. Featuring a dense and colorful world, new luchador moves, sassy new bosses, twice the enemies, and 300% more chickens!",
   "size": "",
@@ -126,8 +126,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 75234,
-  "igdb_url": "https://www.igdb.com/games/75234",
   "giveaway_events": [
     {
       "start": "2023-06-14T15:00:00.000Z",
@@ -138,7 +136,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Head back to the Mexiverse in this long-awaited sequel to the smash hit Guacamelee! Uppercut your way to victory across stunning new hand-crafted levels. Featuring a dense and colorful world, new luchador moves, sassy new bosses, twice the enemies, and 300% more chickens!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152937603564851",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/8561945308f873619b5572fbec0b955425512d99d4db395b138c323c0542dded.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fdfc6a644abac671396e662aaa54ce6ff1b65ca1ed8785745e53a4eefa3f05a7.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/4e0572e965090c50c663829431970a2db1796839b809d884c6641273e6fa4fb3.jpg?namespace=gamesdb",
@@ -163,5 +169,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:41:55.229Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

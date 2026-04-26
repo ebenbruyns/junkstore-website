@@ -35,7 +35,7 @@
   "shortname": "Hazelnut",
   "publisher": "Playdead",
   "developer": "Playdead",
-  "releasedate": "2019-07-18T14:59:00.000Z",
+  "release_date": "2019-07-18",
   "genre": "Puzzle, Platformer, Indie",
   "description": "Limbo is an award-winning indie adventure, critically acclaimed for its captivating puzzle design and immersive sound and visuals. Its dark, misty spaces and haunting narrative will stay with you forever.",
   "size": "",
@@ -90,8 +90,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2025-05-29T15:00:00.000Z",
@@ -108,7 +106,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Limbo is an award-winning indie adventure, critically acclaimed for its captivating puzzle design and immersive sound and visuals. Its dark, misty spaces and haunting narrative will stay with you forever.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51153216498775725",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/41f3f7bae126bb95aef290f488c27df7acf02bb74c36426aae5aac4d2f8fb7af.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9dcb9e88e569817107dfdf42ae1e9b9d847fdcce888faf1e4b0808fce8f98bb0.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/69572f9f8589c5cd4072debe9e727cf2719441abf829747d0c490258e1b53e0a.jpg?namespace=gamesdb",
@@ -131,5 +137,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:42:39.389Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

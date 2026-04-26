@@ -35,7 +35,7 @@
   "shortname": "f8e2163786ea463d81e1374df329fe5b",
   "publisher": "Barrel Roll Games GmbH & Co. KG",
   "developer": "Barrel Roll Games GmbH & Co. KG",
-  "releasedate": "2026-04-09T15:00:00.000Z",
+  "release_date": "2026-04-09",
   "genre": "Action, Casual, Fighting",
   "description": "Prop Sumo is a party fighting game that pits ordinary props together in extraordinary battles!\n\nBeat up your friends and dominate the scoreboard!",
   "size": "",
@@ -90,8 +90,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 355620,
-  "igdb_url": "https://www.igdb.com/games/355620",
   "giveaway_events": [
     {
       "start": "2026-04-09T15:00:00.000Z",
@@ -102,7 +100,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Prop Sumo is a party fighting game that pits ordinary props together in extraordinary battles!\n\nBeat up your friends and dominate the scoreboard!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "58828649153959241",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://cdn2.steamgriddb.com/thumb/eb6617a04e3a3b22bc0306e55333c766.jpg",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/a965174568cb492ca3ebbe7a95886261/propsumo-b47fs.png",
   "icon_image": "https://cdn1.epicgames.com/spt-assets/a965174568cb492ca3ebbe7a95886261/propsumo-logo-ou8et.png?resize=1&w=480&h=270&quality=medium",
@@ -127,5 +133,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-04-10T21:07:10.579Z",
-  "updated_at": "2026-04-25T02:21:54.697Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

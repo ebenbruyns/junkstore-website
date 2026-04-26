@@ -19,11 +19,11 @@ developer: Phobia Game Studio
 genre: Action, Horror, Indie
 franchise: CARRION
 age_rating_summary: ESRB Mature 17+
-release_date: "October 30, 2020"
+release_date: "October 29, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/90055"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

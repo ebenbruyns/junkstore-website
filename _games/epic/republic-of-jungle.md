@@ -19,11 +19,11 @@ developer: Gerdoo Games
 genre: Party, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "January 22, 2025"
+release_date: "January 21, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1299","name":"Competitive"},{"id":"1110","name":"Party"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
-igdb_url: "https://www.igdb.com/games/138655"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

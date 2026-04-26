@@ -14,8 +14,8 @@ date_tested: "Dec '24"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
-developer: NIL, NIL
+publisher: Goblinz Publishing
+developer: Asteroid Lab
 genre: Strategy, Turn-based strategy (TBS), Simulator
 franchise: 
 age_rating_summary: 

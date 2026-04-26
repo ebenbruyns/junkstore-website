@@ -18,7 +18,7 @@ publisher: Daedalic Entertainment
 developer: Daedalic Entertainment
 genre: Adventure, Indie, Point-and-click
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 6 · PEGI 12
 release_date: "May 6, 2014"
 game_modes: ["Single player"]
 languages: ["English"]

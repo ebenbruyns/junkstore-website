@@ -19,11 +19,11 @@ developer: Cozy Game Pals
 genre: Horror, Puzzle, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "October 24, 2025"
+release_date: "October 23, 2025"
 game_modes: ["Single-player"]
 languages: ["English*","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","French","Italian","Spanish - Spain","Japanese"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/199130"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-10-23T15:00:00.000Z","end":"2025-10-30T15:00:00.000Z","type":null,"id":"1f1bb7fd09a94d8f9d9219210ffacf95"}]
 

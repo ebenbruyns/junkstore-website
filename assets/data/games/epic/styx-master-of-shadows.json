@@ -35,7 +35,7 @@
   "shortname": "639c5116ad7d4f31856c34aacda45f2d",
   "publisher": "Nacon",
   "developer": "Cyanide Studio",
-  "releasedate": "2026-01-15T16:00:00.000Z",
+  "release_date": "2026-01-15",
   "genre": "Fantasy, Action-Adventure, Stealth",
   "description": "Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.",
   "size": "",
@@ -106,8 +106,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 6072,
-  "igdb_url": "https://www.igdb.com/games/6072",
   "giveaway_events": [
     {
       "start": "2026-01-15T16:00:00.000Z",
@@ -118,7 +116,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51154279169708416",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/242640/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/242640/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/242640/capsule_231x87.jpg",
@@ -147,5 +153,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-16T00:08:29.278Z",
-  "updated_at": "2026-04-25T02:17:55.257Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

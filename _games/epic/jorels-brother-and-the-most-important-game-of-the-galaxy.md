@@ -19,11 +19,11 @@ developer: Double Dash Studios
 genre: Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "August 5, 2025"
+release_date: "August 4, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Portuguese - Brazil","Spanish - Latin America"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/207334"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-25T15:00:00.000Z","end":"2025-10-02T15:00:00.000Z","type":null,"id":"70d56e56409e4a0384282d9bea1b4e20"}]
 

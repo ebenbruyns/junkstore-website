@@ -35,7 +35,7 @@
   "shortname": "f00b5acabb0f49a7b49e8350d1cd0de0",
   "publisher": "Tomorrow Corporation",
   "developer": "Sysiac games",
-  "releasedate": "2021-12-03T17:00:00.000Z",
+  "release_date": "2021-12-03",
   "genre": "Indie, Adventure",
   "description": "Race back home across the galaxy.  Collect new friends.  Make new enemies.  You won't be able to save everyone.  Who will you leave behind?  Which civilizations will you save - or destroy - along the way?  The decisions are up to you.  You are... The Captain!",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 114666,
-  "igdb_url": "https://www.igdb.com/games/114666",
   "giveaway_events": [
     {
       "start": "2022-09-14T15:00:00.000Z",
@@ -122,7 +120,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Race back home across the galaxy.  Collect new friends.  Make new enemies.  You won't be able to save everyone.  Who will you leave behind?  Which civilizations will you save - or destroy - along the way?  The decisions are up to you.  You are... The Captain!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51966119082865570",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/2bb34483dde3881ee828c62f227a4173aa7f7d5ebfaf12bd4b1ef6a0c6f9a6f7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/8ae113852f4422e1abd832db7b19094f80e08389b7c5de9b8d1e844e8996f168.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0b10086468b44f6d9be6802afd0594f5faf53fe59db9695f0403ddc241a967d0.jpg?namespace=gamesdb",
@@ -146,5 +152,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:45:06.104Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

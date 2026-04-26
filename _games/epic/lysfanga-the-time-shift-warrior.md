@@ -19,11 +19,11 @@ developer: Sand Door Studio
 genre: Action, Strategy, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "February 14, 2024"
+release_date: "February 13, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/252491"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

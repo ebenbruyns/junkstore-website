@@ -14,8 +14,8 @@ date_tested: "Nov '24"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
-developer: NIL, NIL
+publisher: Midwest Games
+developer: Magic Games
 genre: Adventure, Indie
 franchise: 
 age_rating_summary: 

@@ -18,7 +18,7 @@ publisher: The Digital Lounge
 developer: Eric Chahi
 genre: Action, Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "April 4, 2013"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Italian","Spanish - Spain","Portuguese - Brazil","Simplified Chinese","Korean","Polish","Portuguese - Portugal"]

@@ -19,11 +19,11 @@ developer: Woondas
 genre: Sports, Indie
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "October 5, 2023"
+release_date: "October 4, 2023"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","Czech*","Slovak*","French*","German*","Spanish - Spain*","Portuguese - Brazil*","Portuguese - Portugal*","Spanish - Latin America*","Russian*"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1264","name":"Co-op"},{"id":"1283","name":"Sports"},{"id":"1299","name":"Competitive"},{"id":"19847","name":"Achievements"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1183","name":"Local Multiplayer"}]
-igdb_url: "https://www.igdb.com/games/230347"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

@@ -18,7 +18,7 @@ publisher: The Digital Lounge
 developer: Goblinz Enterprises Ltd
 genre: Adventure, Casual
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "October 19, 2016"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Dutch","Russian","Ukrainian","Romanian","Czech"]

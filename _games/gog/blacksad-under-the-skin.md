@@ -18,7 +18,7 @@ publisher: Maximum Games, Microids
 developer: Pendulo Studios, Ys Interactive
 genre: Adventure, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 16
 release_date: "November 5, 2019"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian","German*","Spanish - Spain*","Russian*","Dutch","Simplified Chinese*languages with full audio support"]

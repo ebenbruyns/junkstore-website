@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/1486630"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Intravenous"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/intravenous/"
 
 # Notes
 notes: "Works out of the box!"

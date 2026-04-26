@@ -18,7 +18,7 @@ publisher: Remedy Entertainment
 developer: Remedy Entertainment
 genre: Action, Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 18
 release_date: "May 22, 2012"
 game_modes: ["Single-player"]
 languages: ["English*","German","French","Italian","Spanish - Spain","Japanese","Czech","Hungarian","Polish","Russian*languages with full audio support"]

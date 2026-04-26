@@ -35,7 +35,7 @@
   "shortname": "5b60142e120c4f2d88027595c21d4a04",
   "publisher": "Bethesda Softworks LLC",
   "developer": "id Software, Nightdive Studios",
-  "releasedate": "2022-08-18T15:00:00.000Z",
+  "release_date": "2022-08-18",
   "genre": "Action, Retro",
   "description": "Fight against demons in your crusade to hunt down the Mother of Demons and stop Hell's invasion. As you battle through more than 30 action-packed levels, be on the lookout for enhanced weapons and secrets to help you put an end to the demonic threat.",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 3471,
-  "igdb_url": "https://www.igdb.com/games/3471",
   "giveaway_events": [
     {
       "start": "2022-08-17T15:00:00.000Z",
@@ -134,7 +132,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Fight against demons in your crusade to hunt down the Mother of Demons and stop Hell's invasion. As you battle through more than 30 action-packed levels, be on the lookout for enhanced weapons and secrets to help you put an end to the demonic threat.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152783585471762",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/81e13bb6399adeb1054e9922c4a8ff65608960d85002205df86ea553e5bb8865.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/18ec6024b64845034fac0fd1366740da096322c4eea93d4d98fcf8f8bc2ea7b8.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0af2f06ebc42de210bee76da5cad43595d25098156ea66f208e3ffa2416a21f6.jpg?namespace=gamesdb",
@@ -162,5 +168,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:41:03.090Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

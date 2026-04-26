@@ -35,7 +35,7 @@
   "shortname": "1207659001",
   "publisher": "Square Enix, Eidos Interactive, Eidos Montréal",
   "developer": "Looking Glass Studios",
-  "releasedate": "2000-03-21T00:00:00+0000",
+  "release_date": "2000-03-21",
   "genre": "Adventure, Shooter, Simulator",
   "description": "The ultimate thief is back! Tread softly as you make your way through 15 new complex, non-linear levels full of loot to steal and guards to outsmart. Improved enemy AI, new gadgets and a riveting story will draw you into the world of Thief II: The Metal Age, a place of powerful new technologies, fanatical religions and corruption.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51295406386500558",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:38:09.917Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

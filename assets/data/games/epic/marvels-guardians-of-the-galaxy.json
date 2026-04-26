@@ -35,7 +35,7 @@
   "shortname": "63a665088eb1480298f1e57943b225d8",
   "publisher": "Eidos-Montréal",
   "developer": "Eidos Montréal",
-  "releasedate": "2021-10-26T16:00:00.000Z",
+  "release_date": "2021-10-26",
   "genre": "Action, Action-Adventure, Adventure",
   "description": "You are Star-Lord. The fate of the galaxy and the Guardians is in your hands. Time to show the universe what you’re made of. You got this. Probably.",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 152249,
-  "igdb_url": "https://www.igdb.com/games/152249",
   "giveaway_events": [
     {
       "start": "2024-01-03T15:00:00.000Z",
@@ -134,7 +132,15 @@
   ],
   "was_free_before": true,
   "description_rich": "You are Star-Lord. The fate of the galaxy and the Guardians is in your hands. Time to show the universe what you’re made of. You got this. Probably.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54484443488869928",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/3e31d53e5ff37c524d3640429a7bb27c4f80d5353746d2d3dd896a24feee973a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9c334fd86853fd31774cd91771a404a5200f956d19b40a3b27435825a08945a6.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/c3183e7e6873030f2fdba9afb31b96929d7a37bb2d0b3c98736a6756db60d62f.jpg?namespace=gamesdb",
@@ -158,5 +164,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:43:16.898Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -19,7 +19,7 @@ developer: 5 Lives Studios
 genre: Action, RPG, Survival, Action-Adventure, Adventure, Indie
 franchise: 
 age_rating_summary: 
-release_date: "August 29, 2020"
+release_date: "August 28, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Polish","Russian","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1367","name":"RPG"},{"id":"1080","name":"Survival"},{"id":"1336","name":"Action-Adventure"},{"id":"1289","name":"CRAFTING"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]

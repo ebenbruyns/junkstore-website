@@ -35,7 +35,7 @@
   "shortname": "08c5c041aa2c4fe08fbd87c08fb37c36",
   "publisher": "Rose City Games",
   "developer": "Picogram",
-  "releasedate": "2021-08-11T17:00:00.000Z",
+  "release_date": "2021-08-11",
   "genre": "Action, Indie, RPG",
   "description": "Unify a broken community as the newly-appointed Guardian of The Grove. Traverse a vibrant island to combat invasive Rot, inspire its inhabitants, and rebuild your home. You won't have to do this alone: fruity friends await, ready to lend a hand!",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2025-02-20T16:00:00.000Z",
@@ -122,7 +120,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Unify a broken community as the newly-appointed Guardian of The Grove. Traverse a vibrant island to combat invasive Rot, inspire its inhabitants, and rebuild your home. You won't have to do this alone: fruity friends await, ready to lend a hand!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52373790039453019",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/0cd098f59a34b974802fcb95c18010f33328b07ec3769fe9ac124d8f41c1d623.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/93537aadeaf82cc8c9a4e4434920081f0ebb3f67fab864679fb356f29dd842ff.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/88107dbc65b6b0c77c4f4c8be417f8b7ead669bfcc638e8b8c4a0efbe6bcb289.jpg?namespace=gamesdb",
@@ -145,5 +151,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:41:40.249Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

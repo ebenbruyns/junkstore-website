@@ -19,7 +19,7 @@ developer: Ubisoft
 genre: Action, Adventure
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "October 6, 2023"
+release_date: "October 5, 2023"
 game_modes: ["Single player"]
 languages: ["English*","Italian*","German*","Spanish - Spain*","Arabic*","Simplified Chinese","Traditional Chinese","Korean","Spanish - Latin America","Japanese*"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]

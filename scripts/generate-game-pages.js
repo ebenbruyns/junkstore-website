@@ -147,7 +147,7 @@ developer: ${escapeYaml(game.developer || '')}
 genre: ${escapeYaml(game.genre || '')}
 franchise: ${escapeYaml(game.franchise || '')}
 age_rating_summary: ${escapeYaml(game.age_rating_summary || '')}
-release_date: "${formatDate(game.releasedate)}"
+release_date: "${formatDate(game.release_date || game.releasedate)}"
 game_modes: ${JSON.stringify(game.game_modes || [])}
 languages: ${JSON.stringify(game.languages || [])}
 tags_structured: ${JSON.stringify(game.tags_structured || [])}

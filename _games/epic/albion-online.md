@@ -23,7 +23,7 @@ release_date: "April 16, 2025"
 game_modes: ["Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English*","French","German","Spanish - Spain","Portuguese - Brazil","Polish","Russian","Portuguese - Portugal","Spanish - Latin America","Korean"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1307","name":"Open World"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/19698"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

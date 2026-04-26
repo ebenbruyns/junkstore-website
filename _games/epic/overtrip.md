@@ -19,11 +19,11 @@ developer: GGXYZ
 genre: Action, Shooter
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "July 11, 2024"
+release_date: "July 10, 2024"
 game_modes: ["Battle Royale"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1299","name":"Competitive"},{"id":"21109","name":"Great Boss Battles"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9547","name":"Windows"},{"id":"1310","name":"EARLY ACCESS"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/307818"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

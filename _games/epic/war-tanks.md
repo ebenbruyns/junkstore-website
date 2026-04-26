@@ -19,11 +19,11 @@ developer: XDEVS LTD
 genre: Action, Shooter
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "June 14, 2024"
+release_date: "June 13, 2024"
 game_modes: ["Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/305716"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

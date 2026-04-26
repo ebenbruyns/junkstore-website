@@ -35,7 +35,7 @@
   "shortname": "5ab7c9b39f81481c88dce1e4f106a594",
   "publisher": "Devolver Digital",
   "developer": "Wolfeye Studios",
-  "releasedate": "2022-03-31T15:00:00.000Z",
+  "release_date": "2022-03-31",
   "genre": "Narration, RPG, Action-Adventure",
   "description": "Survive and unveil the mysteries of the Weird West through the intertwined destinies of its unusual heroes in an Action RPG from the co-creators of Dishonored and Prey.",
   "size": "",
@@ -95,12 +95,18 @@
     "recommended_pct": 1,
     "not_recommended_pct": 0
   },
-  "igdb_id": 127350,
-  "igdb_url": "https://www.igdb.com/games/127350",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "Survive and unveil the mysteries of the Weird West through the intertwined destinies of its unusual heroes in an Action RPG from the co-creators of Dishonored and Prey.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52888803977424130",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/9731637da397edd662030d563c33d46c0737e8769c6e695f7c2b1eb32c309774.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/09bb30e47a0d9bba6031d4597b6b4bc003c62450061e5dd55d0ace0c081bb0e5.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6b39a8ecbd1722c4694d6fcbb170950fe2699c33cd952224b379f512bb5340cb.jpg?namespace=gamesdb",
@@ -124,5 +130,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:44:15.724Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

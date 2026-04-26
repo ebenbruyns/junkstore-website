@@ -18,8 +18,8 @@ publisher: Bethesda Softworks
 developer: id Software
 genre: puzzle, shooter
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 17 · PEGI 18
+release_date: "May 1, 2016"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: []

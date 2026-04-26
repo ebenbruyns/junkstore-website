@@ -18,7 +18,7 @@ publisher: Harebrained Schemes
 developer: Harebrained Schemes
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 12
 release_date: "July 25, 2013"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","Spanish - Spain","German","Russian"]

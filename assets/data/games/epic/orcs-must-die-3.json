@@ -35,7 +35,7 @@
   "shortname": "3047a2d268da49588bbd22c806cde4de",
   "publisher": "Robot Entertainment",
   "developer": "Robot Entertainment",
-  "releasedate": "2024-05-02T15:00:00.000Z",
+  "release_date": "2024-05-02",
   "genre": "Action, Tower Defense, Strategy",
   "description": "Slice, burn, toss, zap, grind and gib massive hordes of repugnant orcs in this long-awaited successor to the award-winning Orcs Must Die! series.",
   "size": "",
@@ -146,8 +146,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 121754,
-  "igdb_url": "https://www.igdb.com/games/121754",
   "giveaway_events": [
     {
       "start": "2024-12-29T16:00:00.000Z",
@@ -164,7 +162,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Slice, burn, toss, zap, grind and gib massive hordes of repugnant orcs in this long-awaited successor to the award-winning Orcs Must Die! series.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52554169143767523",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/c4cffd7457dfb04880af65dc12390d72cdcc31939de139cc25a75e9da78d62f1.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c9b7feda60ac1110b77c3dfebf45eba55de83e22e0ffc2b3005dfacadba57dc3.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/73fca4c3891a5e93438da0eb88dcebc5eee523734b7ecdc46199a72e6219a2e0.jpg?namespace=gamesdb",
@@ -190,5 +196,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:43:17.635Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

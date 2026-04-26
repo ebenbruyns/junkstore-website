@@ -19,7 +19,7 @@ developer: Crate Entertainment
 genre: action, role-playing
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "February 1, 2016"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: []

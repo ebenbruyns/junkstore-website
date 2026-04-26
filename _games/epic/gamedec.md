@@ -19,7 +19,7 @@ developer: Anshar Studios
 genre: RPG, Adventure
 franchise: 
 age_rating_summary: 
-release_date: "September 17, 2021"
+release_date: "September 16, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]

@@ -23,7 +23,7 @@ release_date: "April 28, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"1203","name":"Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/117422"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

@@ -18,8 +18,8 @@ publisher: Gambitious Digital Entertainment
 developer: CreativeForge Games
 genre: role-playing, strategy, turn-based, western
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: PEGI 16
+release_date: "November 1, 2015"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

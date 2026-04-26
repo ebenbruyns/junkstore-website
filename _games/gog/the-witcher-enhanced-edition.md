@@ -18,7 +18,7 @@ publisher: Atari, CD Projekt
 developer: CD Projekt RED
 genre: Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "September 16, 2008"
 game_modes: ["Single player"]
 languages: ["English"]

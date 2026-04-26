@@ -18,7 +18,7 @@ publisher: Focus Entertainment
 developer: Asobo Studio
 genre: Role-playing (RPG), Adventure
 franchise: A Plague Tale
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "May 14, 2019"
 game_modes: ["Single player"]
 languages: ["English"]

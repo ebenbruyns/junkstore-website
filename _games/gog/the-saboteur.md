@@ -18,8 +18,8 @@ publisher: Electronic Arts
 developer: Pandemic Studios
 genre: role-playing, adventure, shooter, tactical
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 17 · PEGI 18
+release_date: "November 1, 2009"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

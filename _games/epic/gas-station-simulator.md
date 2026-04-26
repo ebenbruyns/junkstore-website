@@ -23,7 +23,7 @@ release_date: "September 25, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Polish","Russian","Simplified Chinese","Turkish","Czech","Portuguese - Brazil"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/122522"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

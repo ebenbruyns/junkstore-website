@@ -35,7 +35,7 @@
   "shortname": "23cbdd44de914e9caec216acefc51f9b",
   "publisher": "Arcane Embers",
   "developer": "Arcane Embers",
-  "releasedate": "2025-05-08T15:00:00.000Z",
+  "release_date": "2025-05-08",
   "genre": "Indie, Action-Adventure, Shooter",
   "description": "Complete bounties, acquire legendary loot, upgrade your gear, and level up as you fight back against invading monsters in this side-scrolling looter shooter RPG.",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 123520,
-  "igdb_url": "https://www.igdb.com/games/123520",
   "giveaway_events": [
     {
       "start": "2025-05-08T15:00:00.000Z",
@@ -122,7 +120,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Complete bounties, acquire legendary loot, upgrade your gear, and level up as you fight back against invading monsters in this side-scrolling looter shooter RPG.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52697928913770986",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/4404d48fc316ecad61c2ce3266e9ca00f96c0a7f19c5a7fa1eb834fe11943864.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6ac842af6c826128ef41b503f0707c399d489fb24cf7c2b4bb9ba183030d22fc.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f77e81a399b5cd121f1e57e03cf3fef009dffec50db9748e4390249c1b60d257.jpg?namespace=gamesdb",
@@ -146,5 +152,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:40:43.247Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

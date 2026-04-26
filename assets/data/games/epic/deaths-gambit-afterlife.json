@@ -35,7 +35,7 @@
   "shortname": "29d12cc907b148dd957a709f1414843e",
   "publisher": "Serenity Forge",
   "developer": "White Rabbit",
-  "releasedate": "2024-07-25T16:00:00.000Z",
+  "release_date": "2024-07-25",
   "genre": "RPG",
   "description": "Death's Gambit: Afterlife is a challenging 2D action platformer with deep RPG elements. As an agent of Death bound to his service, unravel the mystery of Siradon and discover the true price of immortality.",
   "size": "",
@@ -102,8 +102,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 14760,
-  "igdb_url": "https://www.igdb.com/games/14760",
   "giveaway_events": [
     {
       "start": "2024-08-15T15:00:00.000Z",
@@ -114,7 +112,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Death's Gambit: Afterlife is a challenging 2D action platformer with deep RPG elements. As an agent of Death bound to his service, unravel the mystery of Siradon and discover the true price of immortality.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152749491283668",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/58c8925d94e440c7b0b4206635272579/deaths-gambit--afterlife-1uq5i.jpg",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/58c8925d94e440c7b0b4206635272579/deaths-gambit--afterlife-1v244.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/356650/capsule_231x87.jpg",
@@ -147,5 +153,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T01:08:20.780Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

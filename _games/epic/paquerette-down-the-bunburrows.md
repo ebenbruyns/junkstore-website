@@ -19,11 +19,11 @@ developer: Bunstack
 genre: Exploration
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "August 3, 2023"
+release_date: "August 2, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
-igdb_url: "https://www.igdb.com/games/193565"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

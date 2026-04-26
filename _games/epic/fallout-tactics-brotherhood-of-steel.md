@@ -19,11 +19,11 @@ developer: 14° East
 genre: Turn-Based Strategy, RPG, Strategy
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "October 21, 2022"
+release_date: "October 20, 2022"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/17"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-12-21T15:00:00.000Z","end":"2022-12-22T15:00:00.000Z","type":null,"id":"550b1ad4adcc414a966d459587bcdb30"}]
 

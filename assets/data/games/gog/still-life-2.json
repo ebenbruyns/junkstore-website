@@ -35,7 +35,7 @@
   "shortname": "120765007",
   "publisher": "Meridian4, cdv Software Entertainment, Iceberg Interactive",
   "developer": "Gameco Studios",
-  "releasedate": "03-2009",
+  "release_date": "2009-03-01",
   "genre": "Adventure, Puzzle, Point-and-click",
   "description": "Who is hiding behind Mr. X? Still Life 2 reveals the long-awaited ending of Still Life and spells a new investigation for Agent Victoria McPherson.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51154270589259838",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:39:15.828Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

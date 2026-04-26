@@ -35,7 +35,7 @@
   "shortname": "1409964317",
   "publisher": "Activision, Sierra Entertainment, Vivendi Universal",
   "developer": "Irrational Games",
-  "releasedate": "04-2005",
+  "release_date": "2005-04-01",
   "genre": "strategy, shooter, tactical",
   "description": "SWAT 4 Gold Edition includes the critically acclaimed SWAT 4 and its exciting new expansion pack, SWAT 4: The Stetchkov Syndicate.",
   "size": "",
@@ -51,8 +51,8 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
-  "gamesdb_gog_id": "",
+  "gamesdb_game_id": "51154153805684945",
+  "gamesdb_gog_id": "51428793172699627",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
   "gamesdb_amazon_id": "",
@@ -82,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:39:16.515Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

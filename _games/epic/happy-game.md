@@ -19,11 +19,11 @@ developer: Amanita Design
 genre: Horror, Puzzle, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "May 7, 2025"
+release_date: "May 6, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
-igdb_url: "https://www.igdb.com/games/141681"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-15T15:00:00.000Z","end":"2025-05-22T15:00:00.000Z","type":null,"id":"431ef6a0c3fd4aaab390ceb2f1904bc3"}]
 

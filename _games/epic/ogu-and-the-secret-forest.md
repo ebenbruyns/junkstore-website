@@ -19,11 +19,11 @@ developer: Sinkhole Studio, Moonlab Studio
 genre: Action, Puzzle, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "June 6, 2025"
+release_date: "June 5, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/200923"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-06-05T15:00:00.000Z","end":"2025-06-12T15:00:00.000Z","type":null,"id":"7b96ffa7b1654c6dafa0b54cf1afd413"}]
 

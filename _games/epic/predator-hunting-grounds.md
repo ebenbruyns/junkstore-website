@@ -19,7 +19,7 @@ developer: Illfonic
 genre: Action, Shooter
 franchise: 
 age_rating_summary: 
-release_date: "January 1, 2021"
+release_date: "December 31, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1090","name":"Tactical"},{"id":"1203","name":"Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"}]

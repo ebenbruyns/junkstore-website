@@ -19,11 +19,11 @@ developer: Petr Šimůnek
 genre: Action, Racing, Indie
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "June 4, 2024"
+release_date: "June 3, 2024"
 game_modes: ["Single player","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"22775","name":"MMO"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/254904"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

@@ -23,7 +23,7 @@ release_date: "February 11, 2026"
 game_modes: ["Single-player","Multi-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Czech","Korean","Polish","Portuguese - Brazil","Simplified Chinese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"}]
-igdb_url: "https://www.igdb.com/games/250531"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

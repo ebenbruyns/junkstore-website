@@ -35,7 +35,7 @@
   "shortname": "c2568782280f414aa8476c9fba8bfd60",
   "publisher": "Different Tales",
   "developer": "Jaspel",
-  "releasedate": "2023-11-14T18:00:00.000Z",
+  "release_date": "2023-11-14",
   "genre": "Turn-Based, Dungeon Crawler, Rogue-Lite",
   "description": "The inventory management roguelike! Collect rare items, organize your backpack, and vanquish your foes!",
   "size": "",
@@ -126,8 +126,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 194504,
-  "igdb_url": "https://www.igdb.com/games/194504",
   "giveaway_events": [
     {
       "start": "2025-07-03T15:00:00.000Z",
@@ -138,7 +136,15 @@
   ],
   "was_free_before": true,
   "description_rich": "The inventory management roguelike! Collect rare items, organize your backpack, and vanquish your foes!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55282164922288616",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/b9b85c4a09ca47c6a48d8652d30db31cf938aaa678945fadb66f2f6ea0e34f03.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a0e6c7abe58cc4da7c99d42a30bef3f17fc40a667d1ac7439d1d5f0f5747943e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/4474622eef651e3ec95156b4732f7c7037c4d1045fceb218884029eae2c7c5c3.jpg?namespace=gamesdb",
@@ -161,5 +167,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T04:31:34.603Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

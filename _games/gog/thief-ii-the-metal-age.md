@@ -18,7 +18,7 @@ publisher: Square Enix, Eidos Interactive, Eidos Montréal
 developer: Looking Glass Studios
 genre: Adventure, Shooter, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 16
 release_date: "March 21, 2000"
 game_modes: ["Single player"]
 languages: ["English"]

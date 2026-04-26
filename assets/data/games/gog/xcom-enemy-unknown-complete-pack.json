@@ -35,7 +35,7 @@
   "shortname": "1558688142",
   "publisher": "2K Games",
   "developer": "Firaxis Games",
-  "releasedate": "11 Oct, 2012",
+  "release_date": "2012-10-11",
   "genre": "Strategy",
   "description": "From the makers of Sid Meier’s Civilization comes a game about civilization’s last stand. As the commander of an elite paramilitary organization known as XCOM, you control Earth’s defences against a terrifying alien invasion. This package includes the award-winning XCOM: Enemy Unknown and XCOM: Enemy Within expansion, plus all of the released add-on content.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51295434510209785",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -90,5 +90,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-04-03T21:10:31.315Z",
-  "updated_at": "2026-04-25T22:42:36.222Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

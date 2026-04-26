@@ -35,7 +35,7 @@
   "shortname": "82cdbdf05c61474d89c4f9e8a8bf0ea4",
   "publisher": "Nexon",
   "developer": "NEOPLE Inc., Arc System Works, EIGHTING Co., Ltd.,",
-  "releasedate": "2023-12-18T08:00:00.000Z",
+  "release_date": "2023-12-18",
   "genre": "Fighting",
   "description": "Action fighting at its extreme! One of the most popular and widely played RPGs in the world, Dungeon and Fighter is now back as a 2.5D action fighting game. Choose from 16 charming characters, each with their distinct skills and personalities.",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 142063,
-  "igdb_url": "https://www.igdb.com/games/142063",
   "giveaway_events": [
     {
       "start": "2024-08-08T15:00:00.000Z",
@@ -128,7 +126,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Action fighting at its extreme! One of the most popular and widely played RPGs in the world, Dungeon and Fighter is now back as a 2.5D action fighting game. Choose from 16 charming characters, each with their distinct skills and personalities.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54954829217861193",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/92e93f67b1e6ee74d848a353597904a3b0bbae5b5cc1595faee97ffb8f1154f8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/665ddc45adbcf76968efda55ab9314d545e75bdf1040a40683a05ec2a3bb35d9.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1b1c73afa17d7caa37c757dba3a6bac58a9713d4a986b1ffbca2877a6b2c60e8.jpg?namespace=gamesdb",
@@ -152,5 +158,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:41:07.852Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

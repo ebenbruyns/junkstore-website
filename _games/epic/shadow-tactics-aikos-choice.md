@@ -19,11 +19,11 @@ developer: Mimimi Games
 genre: Action, Strategy, Stealth
 franchise: 
 age_rating_summary: 
-release_date: "December 7, 2021"
+release_date: "December 6, 2021"
 game_modes: ["Single player"]
 languages: ["English*","German","Japanese*","French","Italian","Spanish - Spain","Korean","Polish","Portuguese - Brazil","Russian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"9549","name":"Controller Support"}]
-igdb_url: "https://www.igdb.com/games/19085"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-01-04T15:00:00.000Z","end":"2023-01-11T15:00:00.000Z","type":null,"id":"ef6a61163419450ba4dcf2eacb6b88e7"}]
 

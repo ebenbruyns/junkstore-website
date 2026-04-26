@@ -19,11 +19,11 @@ developer: Arkane Studios
 genre: Action, First Person, Action-Adventure, Shooter, Adventure
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "September 10, 2021"
+release_date: "September 9, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/19531"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-05-11T15:00:00.000Z","end":"2022-05-18T15:00:00.000Z","type":null,"id":"ed17077691c541c19dc95e47fdd1cfd5"},{"start":"2021-12-24T15:00:00.000Z","end":"2021-12-25T15:00:00.000Z","type":null,"id":"ed17077691c541c19dc95e47fdd1cfd5"}]
 

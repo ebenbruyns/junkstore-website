@@ -35,7 +35,7 @@
   "shortname": "4aff63ad39cb4fe7a61720d59a4cebc6",
   "publisher": "Saber Interactive Inc",
   "developer": "Saber Porto Ltd.",
-  "releasedate": "2022-11-15T14:00:00.000Z",
+  "release_date": "2022-11-15",
   "genre": "Simulation, Racing",
   "description": "Dakar Desert Rally is the biggest off-road rally racing adventure ever developed. Experience the speed and excitement of the largest rally race on the planet, featuring a wide variety of licensed vehicles from motorcycles, cars, trucks, quads and SSVs.",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 202590,
-  "igdb_url": "https://www.igdb.com/games/202590",
   "giveaway_events": [
     {
       "start": "2024-02-14T15:00:00.000Z",
@@ -122,7 +120,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Dakar Desert Rally is the biggest off-road rally racing adventure ever developed. Experience the speed and excitement of the largest rally race on the planet, featuring a wide variety of licensed vehicles from motorcycles, cars, trucks, quads and SSVs.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55478272545560507",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/c484090a7c055d9d38f2c1ce4cbb2e6a1c1f1aaf7c0b3b0b3a33bbc7e4554fb3.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d80091ad24b3b7f17245a3a3cbd1a2d345700b3b0327b9aa71a240435e792e30.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ce7196402932541a528fabb9d4c029a5a5411d469516212665a5a78b9cc8aa86.jpg?namespace=gamesdb",
@@ -147,5 +153,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-25T05:47:11.977Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

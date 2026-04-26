@@ -23,7 +23,7 @@ release_date: "September 22, 2017"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/20329"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

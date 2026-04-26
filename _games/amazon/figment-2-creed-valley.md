@@ -23,7 +23,7 @@ release_date: "March 9, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Arabic","Danish","Japanese","Korean","Polish"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1298","name":"Puzzle"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-igdb_url: "https://www.igdb.com/games/119801"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

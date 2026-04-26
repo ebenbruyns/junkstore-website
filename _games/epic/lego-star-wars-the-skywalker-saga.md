@@ -19,11 +19,11 @@ developer: TT Games
 genre: Action, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "April 6, 2022"
+release_date: "April 5, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/119305"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-05-04T15:00:00.000Z","end":"2025-05-05T15:00:00.000Z","type":null,"id":"283939b792814f5e87d8bdd5a8375fac"},{"start":"2024-12-05T16:00:00.000Z","end":"2024-12-12T16:00:00.000Z","type":null,"id":"283939b792814f5e87d8bdd5a8375fac"}]
 

@@ -18,7 +18,7 @@ publisher: Disney Interactive, LucasArts
 developer: LucasArts
 genre: Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 6
 release_date: "February 28, 1998"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]

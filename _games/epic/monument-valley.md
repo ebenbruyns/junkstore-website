@@ -19,11 +19,11 @@ developer: ustwo games
 genre: Casual, Puzzle, Adventure
 franchise: Monument Valley
 age_rating_summary: ESRB Everyone
-release_date: "September 5, 2025"
+release_date: "September 4, 2025"
 game_modes: ["Single player"]
 languages: ["Chinese (Simplified)","Chinese (Traditional)","Dutch","Portuguese","Korean","Japanese","Italian","Spanish (Spain)","Turkish","Swedish","Russian","English","German","French","Hindi","Malay","Thai"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-igdb_url: "https://www.igdb.com/games/8900"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-04T15:00:00.000Z","end":"2025-09-11T15:00:00.000Z","type":null,"id":"f967cff9761c4198b4e972cfd71e40d7"}]
 

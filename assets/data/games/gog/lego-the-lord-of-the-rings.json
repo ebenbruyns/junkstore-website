@@ -35,7 +35,7 @@
   "shortname": "2095741221",
   "publisher": "WB Games, Feral Interactive",
   "developer": "Traveller's Tales",
-  "releasedate": "2012-11-13T00:00:00+0000",
+  "release_date": "2012-11-13",
   "genre": "Adventure",
   "description": "Based on The Lord of the Rings motion picture trilogy, LEGO The Lord of the Rings follows the original storylines of The Lord of the Rings: The Fellowship of the Ring, The Lord of the Rings: The Two Towers, and The Lord of the Rings: The Return of the King, taking players through the epic story events reimagined with the humor and endless variety of LEGO play.\n\nTrusted with the dangerous task to destroy an ancient magical ring that threatens all that is good, Frodo is forced to leave his peaceful home. But the ring wants to be found and the road to Mount Doom, the only place where it can be destroyed, will be perilous and riddled with Orcs and fouler things.\n\nTo help Frodo, a Fellowship is formed —Aragorn the Ranger, Gandalf the Wizard, Legolas the Elf, Gimli the Dwarf, Boromir a Man of Gondor, and Frodo’s Hobbit friends Sam, Merry and Pippin. Players relive the legend through the LEGO minifigures, as they explore wonders, solve timeless riddles, and overcome endless foes in their quest to destroy the Ring.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51153196205638209",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -90,5 +90,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:37:01.631Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

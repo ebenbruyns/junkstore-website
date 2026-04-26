@@ -35,7 +35,7 @@
   "shortname": "d4d31e492ea24c0fbcc239c0bb29aed8",
   "publisher": "Arc Games",
   "developer": "Abstraction Games",
-  "releasedate": "2024-04-09T13:00:00.000Z",
+  "release_date": "2024-04-09",
   "genre": "Action",
   "description": "GIGANTIC: RAMPAGE EDITION is a premium and definitive release of the original 5v5 MOBA Hero Shooter, GIGANTIC. Choose a unique hero and team up with other players to control objectives. GIGANTIC: RAMPAGE EDITION includes a new game mode, cross platform play, new heroes, new maps.",
   "size": "",
@@ -78,8 +78,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 11134,
-  "igdb_url": "https://www.igdb.com/games/11134",
   "giveaway_events": [
     {
       "start": "2024-08-22T15:00:00.000Z",
@@ -90,7 +88,15 @@
   ],
   "was_free_before": true,
   "description_rich": "GIGANTIC: RAMPAGE EDITION is a premium and definitive release of the original 5v5 MOBA Hero Shooter, GIGANTIC. Choose a unique hero and team up with other players to control objectives. GIGANTIC: RAMPAGE EDITION includes a new game mode, cross platform play, new heroes, new maps.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "58342614180770627",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/6630e3dcc72a4e2285e91ca48aa0eb4b/gigantic-rampage-edition-121wb.jpg",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/6630e3dcc72a4e2285e91ca48aa0eb4b/gigantic-rampage-edition-1nkcs.jpg",
   "icon_image": "",
@@ -113,5 +119,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:42:52.791Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

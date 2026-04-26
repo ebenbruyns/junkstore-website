@@ -19,11 +19,11 @@ developer: Alawar Stargaze (Warm Lamp Games)
 genre: Narration, Strategy, Adventure
 franchise: Beholder
 age_rating_summary: ESRB Mature 17+
-release_date: "November 2, 2024"
+release_date: "November 1, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-igdb_url: "https://www.igdb.com/games/24905"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-11-21T16:00:00.000Z","end":"2024-11-28T16:00:00.000Z","type":null,"id":"5ef8a7dc06384428a3effed5cefd0ee1"}]
 

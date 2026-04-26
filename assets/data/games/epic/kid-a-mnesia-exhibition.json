@@ -35,7 +35,7 @@
   "shortname": "33411619626243f1859d0b7fb5cc5405",
   "publisher": "Epic Games Publishing",
   "developer": "Arbitrarily Good Productions, [namethemachine]",
-  "releasedate": "2021-11-18T16:00:00.000Z",
+  "release_date": "2021-11-18",
   "genre": "Exploration, First Person",
   "description": "An upside-down digital/analogue universe created from original artwork and recordings to commemorate 21 years of Radiohead’s Kid A and Amnesiac. Coming in November 2021. Add it to your wishlist now.",
   "size": "",
@@ -78,8 +78,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 180960,
-  "igdb_url": "https://www.igdb.com/games/180960",
   "giveaway_events": [
     {
       "start": "2021-11-17T15:00:00.000Z",
@@ -90,7 +88,15 @@
   ],
   "was_free_before": true,
   "description_rich": "An upside-down digital/analogue universe created from original artwork and recordings to commemorate 21 years of Radiohead’s Kid A and Amnesiac. Coming in November 2021. Add it to your wishlist now.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54919541110467389",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "54937037372011802",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/b298c7f6c9932552b897b3431d5ae34587e990c58bf01ce3d2fab91a84b189e8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/1f2ea0d891bcba7c701f565c2cb09dbee4422f26ef7da3a4ddcff2e200251ca0.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/be9bb7f551108652d07a78019438f8426e3d6d46a48f8d99e4abb148a4af625b.jpg?namespace=gamesdb",
@@ -114,5 +120,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T04:31:34.603Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

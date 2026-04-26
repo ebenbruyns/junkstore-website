@@ -19,11 +19,11 @@ developer: Cosmonaut Studios
 genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "October 20, 2023"
+release_date: "October 19, 2023"
 game_modes: ["Single player"]
 languages: ["English*","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese*languages with full audio support"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/116400"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-10-18T15:00:00.000Z","end":"2023-10-25T15:00:00.000Z","type":null,"id":"921e40c4c69f4d728914ca2a4f0aa407"}]
 

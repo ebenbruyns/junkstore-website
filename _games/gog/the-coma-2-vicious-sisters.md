@@ -19,7 +19,7 @@ developer: Devespresso Games
 genre: adventure, strategy, indie, visual novel
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "January 1, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

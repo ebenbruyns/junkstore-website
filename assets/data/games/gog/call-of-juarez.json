@@ -35,7 +35,7 @@
   "shortname": "1909524379",
   "publisher": "Ubisoft Entertainment, Ascaron Entertainment, Techland, Focus Entertainment",
   "developer": "Techland",
-  "releasedate": "2006-09-05T00:00:00+0000",
+  "release_date": "2006-09-05",
   "genre": "Shooter",
   "description": "Call of Juarez is an epic adventure western themed FPS game. The player alternately assumes the roles of two distinct, antagonistic characters: a sneaking fugitive Billy and his hunter the reverend Ray. Apart from the highly interesting, emotional and psychological aspect of the link between the two",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51142008697820156",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -85,5 +85,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T22:36:04.900Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

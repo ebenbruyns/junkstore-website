@@ -19,11 +19,11 @@ developer: Luden.io
 genre: Simulation, Puzzle
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "December 3, 2021"
+release_date: "December 2, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1102","name":"Programming"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/76840"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-12-01T15:00:00.000Z","end":"2021-12-08T15:00:00.000Z","type":null,"id":"154108003e4e4f099634188deb9a01b8"}]
 

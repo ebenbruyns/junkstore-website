@@ -19,7 +19,7 @@ developer: Ubisoft Nadeo
 genre: Racing
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "July 2, 2020"
+release_date: "July 1, 2020"
 game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English"]
 tags_structured: [{"id":"1203","name":"Multiplayer"},{"id":"1159","name":"Arcade"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"1279","name":"Vampire"}]

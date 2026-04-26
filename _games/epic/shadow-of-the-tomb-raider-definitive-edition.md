@@ -19,11 +19,11 @@ developer: Eidos-Montréal, Crystal Dynamics, Nixxes Software
 genre: Action, Adventure
 franchise: 
 age_rating_summary: 
-release_date: "December 31, 2021"
+release_date: "December 30, 2021"
 game_modes: ["Single player","Co-operative"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"33639","name":"Promotional Content"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/123051"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-08-31T15:00:00.000Z","end":"2022-09-07T15:00:00.000Z","type":null,"id":"ee7f3c6725fd4fd4b8aeab8622cb770e"},{"start":"2021-12-30T15:00:00.000Z","end":"2022-01-05T15:00:00.000Z","type":null,"id":"ee7f3c6725fd4fd4b8aeab8622cb770e"}]
 

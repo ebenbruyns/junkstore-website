@@ -18,7 +18,7 @@ publisher: Focus Entertainment
 developer: Cyanide Studio, Streum On Studio
 genre: "Adventure, Shooter, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17
 release_date: "December 14, 2016"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]

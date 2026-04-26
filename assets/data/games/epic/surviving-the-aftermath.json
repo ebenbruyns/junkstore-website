@@ -35,7 +35,7 @@
   "shortname": "Muscovy",
   "publisher": "Paradox Interactive",
   "developer": "Iceflake Studios",
-  "releasedate": "2021-11-16T17:00:00.000Z",
+  "release_date": "2021-11-16",
   "genre": "Simulation, City Builder, Strategy",
   "description": "Survive and thrive in a post-apocalyptic future — resources are scarce, but opportunity calls! Build the ultimate disaster proof colony, protect your colonists, and restore civilization to a devastated world.",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 188054,
-  "igdb_url": "https://www.igdb.com/games/188054",
   "giveaway_events": [
     {
       "start": "2023-11-15T15:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Survive and thrive in a post-apocalyptic future — resources are scarce, but opportunity calls! Build the ultimate disaster proof colony, protect your colonists, and restore civilization to a devastated world.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52695905768240694",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/5b62aff9978a148cc031704cc98d00c3864970a77bf967afc69b61b37b1c51a8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c6422ccf55df186abe790289fc86cce36b9e7b732951159bb258537fbfdfb5c2.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/4afb23aa68cbe1d19d22133bac5d10717a1effa11778f09a85d4501b448d3c91.jpg?namespace=gamesdb",
@@ -149,5 +155,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:44:48.116Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

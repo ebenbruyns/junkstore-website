@@ -19,11 +19,11 @@ developer: Burgos Games
 genre: Action, Puzzle, Platformer
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "January 12, 2022"
+release_date: "January 11, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1298","name":"Puzzle"},{"id":"1299","name":"Competitive"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1151","name":"Platformer"}]
-igdb_url: "https://www.igdb.com/games/126329"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-03-27T15:00:00.000Z","end":"2025-04-03T15:00:00.000Z","type":null,"id":"8c06c52475f04adb9cdfea4c0a50f734"}]
 

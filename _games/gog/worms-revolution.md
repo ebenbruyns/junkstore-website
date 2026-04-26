@@ -18,7 +18,7 @@ publisher: Team17
 developer: Team17
 genre: Strategy, Turn-based strategy (TBS)
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 10 · PEGI 12
 release_date: "October 9, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]

@@ -35,7 +35,7 @@
   "shortname": "a2ac59c83b704e40b4ab3a9e963fef52",
   "publisher": "505 Games",
   "developer": "ArtPlay",
-  "releasedate": "2025-12-23T16:00:00.000Z",
+  "release_date": "2025-12-23",
   "genre": "Fantasy, RPG, Action-Adventure",
   "description": "Igavania Returns!\n\nPlay as Miriam, an orphan scarred by an alchemist's curse which slowly crystallizes her body. To save humanity, and herself in the process, she must fight through the castle and defeat the summoner, Gebel.",
   "size": "",
@@ -146,8 +146,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 10760,
-  "igdb_url": "https://www.igdb.com/games/10760",
   "giveaway_events": [
     {
       "start": "2025-12-23T16:00:00.000Z",
@@ -158,7 +156,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Igavania Returns!\n\nPlay as Miriam, an orphan scarred by an alchemist's curse which slowly crystallizes her body. To save humanity, and herself in the process, she must fight through the castle and defeat the summoner, Gebel.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51141829103075515",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/692850/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/692850/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/692850/capsule_231x87.jpg",
@@ -194,5 +200,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-26T02:41:32.855Z",
-  "updated_at": "2026-04-25T02:17:23.175Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

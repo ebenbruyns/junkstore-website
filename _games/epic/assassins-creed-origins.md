@@ -19,7 +19,7 @@ developer: Ubisoft Montreal
 genre: Action, Action-Adventure, Open World, Adventure
 franchise: 
 age_rating_summary: 
-release_date: "October 28, 2017"
+release_date: "October 27, 2017"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Czech","Dutch","Japanese*","Korean","Polish"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]

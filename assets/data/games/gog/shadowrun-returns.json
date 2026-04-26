@@ -35,7 +35,7 @@
   "shortname": "1207660413",
   "publisher": "Harebrained Schemes",
   "developer": "Harebrained Schemes",
-  "releasedate": "2013-07-25T00:00:00+0000",
+  "release_date": "2013-07-25",
   "genre": "Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)",
   "description": "The unique cyberpunk-meets-fantasy world of Shadowrun has gained a huge cult following since its creation nearly 25 years ago. Now, creator Jordan Weisman returns to the world of Shadowrun, modernizing this classic game setting as a single player, turn-based tactical RPG.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51154182198455080",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -85,5 +85,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:37:32.221Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

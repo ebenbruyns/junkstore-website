@@ -18,7 +18,7 @@ publisher: Wired Productions, LKA
 developer: LKA
 genre: Adventure, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "February 26, 2016"
 game_modes: ["Single player"]
 languages: ["English"]

@@ -35,7 +35,7 @@
   "shortname": "3a0cae9455844390ad00505a704d641e",
   "publisher": "E-Line Media",
   "developer": "E-Line Media",
-  "releasedate": "2020-06-11T04:00:00.000Z",
+  "release_date": "2020-06-11",
   "genre": "Casual, Adventure, Indie",
   "description": "Beyond Blue is a single-player narrative adventure that takes you deep into our planet’s beating blue heart.  Set in the near future, Beyond Blue explores the mysteries of our ocean through the eyes of Mirai, a deep-sea explorer and scientist. Become a part of a newly-formed r...",
   "size": "",
@@ -82,8 +82,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2025-02-06T16:00:00.000Z",
@@ -100,7 +98,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Beyond Blue is a single-player narrative adventure that takes you deep into our planet’s beating blue heart.  Set in the near future, Beyond Blue explores the mysteries of our ocean through the eyes of Mirai, a deep-sea explorer and scientist. Become a part of a newly-formed r...",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51306668528586328",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/d3fd49a913ef5db2e95cb7478cff44c4301a01198a94c93f1297cd15fc8b7c48.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6a760d12b1f5b37e91be7f88ec50b40eb9cdbf9990b15093357f640ecc1cf689.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f76a8d2b6fbc119c7e2cdb7e8d91715733dea569cdba83cef7bd407cd4e6ce2d.jpg?namespace=gamesdb",
@@ -123,5 +129,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:05.122Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

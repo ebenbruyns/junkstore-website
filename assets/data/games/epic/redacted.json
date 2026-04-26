@@ -35,7 +35,7 @@
   "shortname": "98614687b212444c9ff0d42095f56cb3",
   "publisher": "Krafton",
   "developer": "Striking Distance Studios",
-  "releasedate": "2024-10-31T00:00:00.000Z",
+  "release_date": "2024-10-31",
   "genre": "Action, Dungeon Crawler, Rogue-Lite",
   "description": "In [REDACTED], a fast-action isometric roguelike, a shadowy agent watches Black Iron Prison spiral into chaos. As one of the last guards, fight through monsters, rivals, and reanimated corpses of your fellow guards to escape the penitentiary alive.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 292844,
-  "igdb_url": "https://www.igdb.com/games/292844",
   "giveaway_events": [
     {
       "start": "2024-12-30T16:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "In [REDACTED], a fast-action isometric roguelike, a shadowy agent watches Black Iron Prison spiral into chaos. As one of the last guards, fight through monsters, rivals, and reanimated corpses of your fellow guards to escape the penitentiary alive.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "57422652705165269",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/38d7f3e2a3854e9fa4c31456b87c899f/redacted-13ajm.jpg",
   "banner_image": "https://cdn1.epicgames.com/spt-assets/38d7f3e2a3854e9fa4c31456b87c899f/redacted-1ouju.jpg",
   "icon_image": "",
@@ -154,5 +160,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:40:13.887Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

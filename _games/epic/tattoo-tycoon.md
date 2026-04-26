@@ -19,7 +19,7 @@ developer: CrazyBunch
 genre: Simulation, Strategy, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "October 25, 2025"
+release_date: "October 24, 2025"
 game_modes: ["Single-player"]
 languages: ["English*","German","French","Spanish - Spain","Simplified Chinese*languages with full audio support"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1115","name":"Strategy"},{"id":"35244","name":"Epic Savings"},{"id":"1263","name":"Indie"}]

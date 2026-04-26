@@ -19,7 +19,7 @@ developer: Amanita Design
 genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "March 26, 2025"
+release_date: "March 25, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]

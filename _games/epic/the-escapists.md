@@ -19,11 +19,11 @@ developer: Mouldy Toof Studios
 genre: Action, Strategy
 franchise: The Escapists
 age_rating_summary: ESRB Teen
-release_date: "December 13, 2019"
+release_date: "December 12, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/9241"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-09-22T15:00:00.000Z","end":"2021-09-29T15:00:00.000Z","type":null,"id":"409270ba4b814c20a761407ab7a49dbd"},{"start":"2019-12-11T15:00:00.000Z","end":"2019-12-18T15:00:00.000Z","type":null,"id":"409270ba4b814c20a761407ab7a49dbd"}]
 

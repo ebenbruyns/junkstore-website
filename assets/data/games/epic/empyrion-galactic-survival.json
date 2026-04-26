@@ -35,7 +35,7 @@
   "shortname": "16db0e48c4d84d1490ab96be62a83c4c",
   "publisher": "Eleon Game Studios SA",
   "developer": "Eleon Game Studios SA",
-  "releasedate": "2024-10-10T15:00:00.000Z",
+  "release_date": "2024-10-10",
   "genre": "Space, Survival, Open World",
   "description": "Build and explore in a true space sandbox survival adventure. Construct mighty capital vessels, sprawling planetary settlements, and vast space stations in your galactic journey to discover the mysteries of Empyrion",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 19249,
-  "igdb_url": "https://www.igdb.com/games/19249",
   "giveaway_events": [
     {
       "start": "2024-10-10T15:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Build and explore in a true space sandbox survival adventure. Construct mighty capital vessels, sprawling planetary settlements, and vast space stations in your galactic journey to discover the mysteries of Empyrion",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152825048895518",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/677369d64ce5b0c6db59d1bd3295d927b517d7016e14f3a36c82fb706793bb90.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ff04be25cc6a184f51483d25d6e530acb54015a5144db72d5eb4bd864f553a3c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/008e0f3a8a1403e524ab04d25d843dc9e3ce1fb04006a5b98c614af844dee228.jpg?namespace=gamesdb",
@@ -153,5 +159,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:36.984Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

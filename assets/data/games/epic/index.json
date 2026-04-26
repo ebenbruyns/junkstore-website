@@ -1,6 +1,6 @@
 {
   "storefront": "Epic",
-  "total_games": 472,
+  "total_games": 473,
   "games": [
     "112-operator.json",
     "20-minutes-till-dawn.json",
@@ -134,6 +134,7 @@
     "dodo-peak.json",
     "doki-doki-literature-club.json",
     "doom-64.json",
+    "doomblade.json",
     "doomsday-last-survivors.json",
     "doors-paradox.json",
     "dreamscaper.json",
@@ -475,67 +476,67 @@
     "zoeti.json",
     "zombie-army-4-dead-war.json"
   ],
-  "featured_games": 0,
-  "last_updated": "2026-04-25T22:55:56.269Z",
+  "featured_games": 1,
+  "last_updated": "2026-04-26T04:33:01.981Z",
   "latest_games": [
     {
-      "title": "Monster Harvest",
-      "slug": "monster-harvest",
+      "title": "DOOMBLADE",
+      "slug": "doomblade",
       "date_tested": "April '26",
+      "is_featured": true
+    },
+    {
+      "title": "20 Minutes Till Dawn",
+      "slug": "20-minutes-till-dawn",
+      "date_tested": "July '25",
       "is_featured": false
     },
     {
-      "title": "Symmetry",
-      "slug": "symmetry",
-      "date_tested": "Mar '26",
+      "title": "[REDACTED]",
+      "slug": "redacted",
+      "date_tested": "Dec '24",
       "is_featured": false
     },
     {
-      "title": "Cozy Grove",
-      "slug": "cozy-grove",
-      "date_tested": "Mar '26",
-      "is_featured": false
-    },
-    {
-      "title": "Turnip Boy Robs a Bank",
-      "slug": "turnip-boy-robs-a-bank",
-      "date_tested": "Mar '26",
-      "is_featured": false
-    },
-    {
-      "title": "The Darkside Detective A Fumble in the Dark",
-      "slug": "the-darkside-detective-a-fumble-in-the-dark",
-      "date_tested": "Feb '26",
-      "is_featured": false
-    },
-    {
-      "title": "Dreamscaper",
-      "slug": "dreamscaper",
-      "date_tested": "Jan '26",
-      "is_featured": false
-    },
-    {
-      "title": "Sorry We're Closed",
-      "slug": "sorry-were-closed",
+      "title": "3 out of 10, Ep. 1: \"Welcome to Shovelworks\"",
+      "slug": "3-out-of-10-ep-1-welcome-to-shovelworks",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Jotunnslayer: Hordes of Hel",
-      "slug": "jotunnslayer-hordes-of-hel",
+      "title": "911 Operator",
+      "slug": "911-operator",
+      "date_tested": "July '25",
+      "is_featured": false
+    },
+    {
+      "title": "A Plague Tale: Innocence",
+      "slug": "a-plague-tale-innocence",
       "date_tested": "Dec '25",
       "is_featured": false
     },
     {
-      "title": "Hogwarts Legacy",
-      "slug": "hogwarts-legacy",
-      "date_tested": "Dec '25",
+      "title": "Aerial_Knight's Never Yield",
+      "slug": "aerialknights-never-yield",
+      "date_tested": "Aug '24",
       "is_featured": false
     },
     {
-      "title": "The Darkside Detective",
-      "slug": "the-darkside-detective",
-      "date_tested": "Dec '25",
+      "title": "Adios",
+      "slug": "adios",
+      "date_tested": "Aug '25",
+      "is_featured": false
+    },
+    {
+      "title": "Alba - A Wildlife Adventure",
+      "slug": "alba-a-wildlife-adventure",
+      "date_tested": "Sept '25",
+      "is_featured": false
+    },
+    {
+      "title": "Albion Online",
+      "slug": "albion-online",
+      "date_tested": "Oct '25",
       "is_featured": false
     }
   ]

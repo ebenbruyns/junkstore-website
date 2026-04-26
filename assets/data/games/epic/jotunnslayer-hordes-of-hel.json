@@ -35,7 +35,7 @@
   "shortname": "05cc03868360490aa4d7138723f4d99e",
   "publisher": "Grindstone",
   "developer": "Games Farm",
-  "releasedate": "2025-01-21T15:00:00.000Z",
+  "release_date": "2025-01-21",
   "genre": "Action, Indie, RPG",
   "description": "Hordes of Hel is a gripping roguelike horde-survivor game set in the dark realms of Norse Mythology. Fight waves of enemies to earn divine blessings of ancient Norse Gods, explore hostile worlds and face powerful bosses. Become a god-like warrior in this ultimate showdown.",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 296290,
-  "igdb_url": "https://www.igdb.com/games/296290",
   "giveaway_events": [
     {
       "start": "2025-12-18T16:00:00.000Z",
@@ -134,7 +132,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Hordes of Hel is a gripping roguelike horde-survivor game set in the dark realms of Norse Mythology. Fight waves of enemies to earn divine blessings of ancient Norse Gods, explore hostile worlds and face powerful bosses. Become a god-like warrior in this ultimate showdown.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "57466495605615638",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2820820/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/2820820/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2820820/capsule_231x87.jpg",
@@ -167,5 +173,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-18T19:53:57.030Z",
-  "updated_at": "2026-04-25T05:53:55.166Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

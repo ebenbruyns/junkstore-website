@@ -19,7 +19,7 @@ developer: Ninja Theory Ltd.
 genre: action, adventure
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "August 1, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

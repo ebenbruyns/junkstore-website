@@ -19,7 +19,7 @@ developer: Giant Sparrow
 genre: Puzzle, Narration, First Person
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "April 26, 2017"
+release_date: "April 25, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1395","name":"Narration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"}]

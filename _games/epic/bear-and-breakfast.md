@@ -19,11 +19,11 @@ developer: Gummy Cat
 genre: Casual, Simulation, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "September 16, 2022"
+release_date: "September 15, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1296","name":"Casual"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/136772"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-03T15:00:00.000Z","end":"2024-10-10T15:00:00.000Z","type":null,"id":"5a05b93354d74d2687b3b002d4bfc1a3"}]
 

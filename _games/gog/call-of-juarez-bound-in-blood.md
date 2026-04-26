@@ -18,7 +18,7 @@ publisher: Ubisoft Entertainment, Techland
 developer: Techland
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 16
 release_date: "June 30, 2009"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]

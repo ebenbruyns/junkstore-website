@@ -18,7 +18,7 @@ publisher: Beamdog
 developer: Overhaul Games
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 12
 release_date: "October 30, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["Czech","English","French","German","Italian","Korean","Polish","Portuguese (Brazil)","Russian","Spanish","Turkish","zh-Hans"]

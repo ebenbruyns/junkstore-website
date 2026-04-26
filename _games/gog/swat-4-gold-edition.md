@@ -18,8 +18,8 @@ publisher: Activision, Sierra Entertainment, Vivendi Universal
 developer: Irrational Games
 genre: strategy, shooter, tactical
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 17 · PEGI 18
+release_date: "April 1, 2005"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: []

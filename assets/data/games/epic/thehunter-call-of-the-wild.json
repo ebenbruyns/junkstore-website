@@ -35,7 +35,7 @@
   "shortname": "4f0c34d469bb47b2bcf5b377f47ccfe3",
   "publisher": "Expansive Worlds",
   "developer": "Expansive Worlds",
-  "releasedate": "2021-11-25T16:00:00.000Z",
+  "release_date": "2021-11-25",
   "genre": "First Person, Simulation, Open World",
   "description": "Experience an atmospheric hunting game like no other in this realistic and visually breathtaking open world. Immerse yourself in the atmospheric single player campaign, or share the ultimate hunting experience with friends.",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 26381,
-  "igdb_url": "https://www.igdb.com/games/26381",
   "giveaway_events": [
     {
       "start": "2023-06-21T15:00:00.000Z",
@@ -140,7 +138,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Experience an atmospheric hunting game like no other in this realistic and visually breathtaking open world. Immerse yourself in the atmospheric single player campaign, or share the ultimate hunting experience with friends.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51295441722488591",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/f71c68aab9641f07969854b0d50ec80300e8f4f3820f63cac02aaf8db522bf57.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/7866c86d9e58b7528603f8b83c6b99f02a53898a78415db982803424299eae7a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f348f6176b76b2b5ce44adb2fd126dd15e3f133e99cd500c8d5d7a579a659010.jpg?namespace=gamesdb",
@@ -166,5 +172,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:40:33.556Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -35,7 +35,7 @@
   "shortname": "3da2975945f34c27b536147685816607",
   "publisher": "Silver Lining Interactive",
   "developer": "Dope Games",
-  "releasedate": "2026-01-29T16:00:00.000Z",
+  "release_date": "2026-01-29",
   "genre": "Simulation, Strategy, Indie",
   "description": "Definitely Not Fried Chicken is a business management sim with a Twist! Grow your drugs trade through legitimate fronts, managing both sides of the business. Acquire new \"businesses\", meet new clientele, Develop more potent narcotics, make lots of money and leave a city in ruin!",
   "size": "",
@@ -106,8 +106,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 143078,
-  "igdb_url": "https://www.igdb.com/games/143078",
   "giveaway_events": [
     {
       "start": "2026-01-29T16:00:00.000Z",
@@ -118,7 +116,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Definitely Not Fried Chicken is a business management sim with a Twist! Grow your drugs trade through legitimate fronts, managing both sides of the business. Acquire new \"businesses\", meet new clientele, Develop more potent narcotics, make lots of money and leave a city in ruin!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54165196540539714",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1036240/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1036240/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1036240/capsule_231x87.jpg",
@@ -148,5 +154,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-29T19:47:58.291Z",
-  "updated_at": "2026-04-25T02:18:08.705Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

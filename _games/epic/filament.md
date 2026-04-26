@@ -23,7 +23,7 @@ release_date: "August 11, 2022"
 game_modes: ["Single Player"]
 languages: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"}]
-igdb_url: "https://www.igdb.com/games/121885"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-11-02T15:00:00.000Z","end":"2022-11-09T15:00:00.000Z","type":null,"id":"296453e71c884f95aecf4d582cf66915"}]
 

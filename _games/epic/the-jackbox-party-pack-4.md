@@ -19,11 +19,11 @@ developer: Jackbox Games
 genre: Casual, Party, Trivia
 franchise: The Jackbox Party Pack
 age_rating_summary: ESRB Teen
-release_date: "October 20, 2017"
+release_date: "October 19, 2017"
 game_modes: ["Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English**languages with full audio support"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1299","name":"Competitive"},{"id":"1110","name":"Party"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/28213"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-04T16:00:00.000Z","end":"2025-12-11T16:00:00.000Z","type":null,"id":"da763a33956745888bea060de7ecf059"}]
 

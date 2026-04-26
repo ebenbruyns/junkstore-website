@@ -35,7 +35,7 @@
   "shortname": "fe118ed0362040c994b510da064876ca",
   "publisher": "Mythwright",
   "developer": "Pumpernickel Studio",
-  "releasedate": "2023-03-28T13:00:00.000Z",
+  "release_date": "2023-03-28",
   "genre": "Strategy",
   "description": "Touch Type Tale is a real-time strategy game with a typing twist, featuring a story rich campaign and online competitive play that will delight even the most hardened RTS veterans.",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 107986,
-  "igdb_url": "https://www.igdb.com/games/107986",
   "giveaway_events": [
     {
       "start": "2025-05-08T15:00:00.000Z",
@@ -122,7 +120,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Touch Type Tale is a real-time strategy game with a typing twist, featuring a story rich campaign and online competitive play that will delight even the most hardened RTS veterans.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51541817832263286",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/26334d747a6f76b5245adbffc54bec0817a44c03c404dee587e6d0cfcce4c1d9.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ece2157005bd5984cb2ac89badeb94119de8bc9cf65f754e7de9f73f1dce3bee.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f42cde13de166a61f55a5a10c15333224f2a093edc3b517c744235041ec63511.jpg?namespace=gamesdb",
@@ -146,5 +152,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:45:40.331Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -18,7 +18,7 @@ publisher: Rising Star Games, Intergrow, WayForward
 developer: WayForward
 genre: Role-playing (RPG), Adventure, Indie, Platform
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 10 · PEGI 12
 release_date: "October 22, 2014"
 game_modes: ["Single player"]
 languages: ["English"]

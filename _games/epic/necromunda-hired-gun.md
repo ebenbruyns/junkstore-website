@@ -19,11 +19,11 @@ developer: Streum On Studio
 genre: Action, Action-Adventure, Adventure
 franchise: 
 age_rating_summary: 
-release_date: "June 1, 2021"
+release_date: "May 31, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]
-igdb_url: "https://www.igdb.com/games/144725"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

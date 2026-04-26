@@ -35,7 +35,7 @@
   "shortname": "40cb42e38c0b4a14a1bb133eb3291572",
   "publisher": "Codename Entertainment",
   "developer": "Codename Entertainment",
-  "releasedate": "2021-02-16T17:00:00.000Z",
+  "release_date": "2021-02-16",
   "genre": "Strategy",
   "description": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
   "size": "",
@@ -98,8 +98,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 43178,
-  "igdb_url": "https://www.igdb.com/games/43178",
   "giveaway_events": [
     {
       "start": "2026-03-05T16:00:00.000Z",
@@ -140,7 +138,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152994243096257",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/74208c03ea2f51ff74ff5822ea3e54b2bd64ff7c45f09111f8a7b23b484c8c73.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/49d7bb80fc09d3edab881722e18e1b73e63a671edc44f0ac969303fcb1ab67a1.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7881c8c78ad998fd39c2d9d6170d0c7e15eaca56cacb9b21122d12785546ceb2.jpg?namespace=gamesdb",
@@ -170,5 +176,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:42:09.647Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

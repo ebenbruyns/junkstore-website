@@ -35,7 +35,7 @@
   "shortname": "1207660703",
   "publisher": "Iceberg Interactive",
   "developer": "Darkling Room",
-  "releasedate": "2009-12-04",
+  "release_date": "2009-12-04",
   "genre": "adventure, indie, point-and-click",
   "description": "You, The Inspector, have been trying to solve the case of the eerie abduction of young Amy Haven for several years, but were suspended for tampering with evidence...",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51152736400165377",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -79,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T22:38:54.426Z"
+  "updated_at": "2026-04-26T00:47:19.051Z"
 }

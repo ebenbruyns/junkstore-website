@@ -18,7 +18,7 @@ publisher: WB Games
 developer: Monolith Productions
 genre: "Role-playing (RPG), Adventure, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 18
 release_date: "September 30, 2014"
 game_modes: ["Single player"]
 languages: ["English"]

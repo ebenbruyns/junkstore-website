@@ -35,7 +35,7 @@
   "shortname": "1207659038",
   "publisher": "Remedy Entertainment",
   "developer": "Remedy Entertainment",
-  "releasedate": "22 May, 2012",
+  "release_date": "2012-05-22",
   "genre": "Action, Adventure",
   "description": "A thrilling new storyline, hordes of creepy enemies, serious firepower and beautiful Arizona locations, combined with a fun and challenging new game mode!",
   "size": "2381264613\n",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51141409468815954",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -89,5 +89,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-22T00:30:36.819Z",
-  "updated_at": "2026-04-25T22:41:49.009Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

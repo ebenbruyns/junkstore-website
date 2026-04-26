@@ -18,7 +18,7 @@ publisher: Electronic Arts, Aspyr Media
 developer: Maxis
 genre: strategy, simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 6 · PEGI 3
 release_date: "September 22, 2003"
 game_modes: ["Single player","Multiplayer"]
 languages: ["Danish","Dutch","English","French","German","Italian","Spanish - Spain","Swedish"]

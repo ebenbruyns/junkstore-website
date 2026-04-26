@@ -18,8 +18,8 @@ publisher: Panic
 developer: Campo Santo
 genre: adventure, indie
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 17 · PEGI 16
+release_date: "February 1, 2016"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

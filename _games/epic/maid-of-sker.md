@@ -19,11 +19,11 @@ developer: Wales Interactive
 genre: Horror, Action-Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "October 28, 2022"
+release_date: "October 27, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/111544"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-07-17T15:00:00.000Z","end":"2024-07-24T15:00:00.000Z","type":null,"id":"3795a845a05d4b3baacb8126635ffd74"}]
 

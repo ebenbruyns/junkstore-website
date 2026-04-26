@@ -20,7 +20,7 @@ genre: Role-playing (RPG), Adventure, Strategy, Indie, Simulator
 franchise: 
 age_rating_summary: 
 release_date: "November 16, 2021"
-game_modes: []
+game_modes: ["Co-op","Single player"]
 languages: ["English"]
 tags_structured: []
 igdb_url: ""

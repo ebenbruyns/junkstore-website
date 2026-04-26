@@ -35,7 +35,7 @@
   "shortname": "8032b75cf0914afa87c78d6914adc165",
   "publisher": "PlayWay",
   "developer": "Red Dot Games",
-  "releasedate": "2022-06-23T15:00:00.000Z",
+  "release_date": "2022-06-23",
   "genre": "Simulation",
   "description": "Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. Find classic, unique cars in the new Barn Find module and Junkyard module.",
   "size": "",
@@ -98,8 +98,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 40470,
-  "igdb_url": "https://www.igdb.com/games/40470",
   "giveaway_events": [
     {
       "start": "2022-06-22T15:00:00.000Z",
@@ -110,7 +108,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. Find classic, unique cars in the new Barn Find module and Junkyard module.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51142014789619578",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/6628c486e95fbcd473bc89b3021aba42325e5d2a198c8721a99502510709e566.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d211fdb7009fd246d1846981e8c6acd685dea6dd2c56c6d3856b6cc00aab7d31.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/3eec69dea83e56cf05e0285839ed3a512e05873e1c068e84245af3783c2dd514.jpg?namespace=gamesdb",
@@ -133,5 +139,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:40:28.699Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

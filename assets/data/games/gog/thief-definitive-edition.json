@@ -35,7 +35,7 @@
   "shortname": "1446830366",
   "publisher": "Eidos Interactive Corporation",
   "developer": "Eidos Montreal",
-  "releasedate": "2014-02-28T00:00:00+0000",
+  "release_date": "2014-02-28",
   "genre": "Adventure, Shooter, Simulator",
   "description": "There is a rising tide of fear in The City. Hatred saturates every stone and whilst the rich prosper, the less fortunate face misery and repression. Ravaged with sickness and famine, they wait for something to change.\n\nThe Master Thief Edition includes:\n- Official Digital Artbook - stunning concept art that offers a sneak peek into the shadowy world of Thief.\n- Digital Comic - Delve deeper into the shroud surrounding Thief's obscure world with this complete collection of digital comic books.\n- Booster Pack - Get access to an exclusive bundle of optional in-game consumables that can empower you and hasten your progression through Thief.\n- Director's Cut Original Soundtrack - a remarkable collection of Thief tracks.",
   "size": "594653473",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51295406365568404",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-11T10:15:53.035Z",
-  "updated_at": "2026-04-25T22:41:30.892Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

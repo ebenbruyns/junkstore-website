@@ -19,7 +19,7 @@ developer: Ghost Town Games Ltd.
 genre: Action, Simulation, Indie
 franchise: "Overcooked!"
 age_rating_summary: ESRB Everyone
-release_date: "August 8, 2018"
+release_date: "August 7, 2018"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Simplified Chinese","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1393","name":"Simulation"},{"id":"39940","name":"Gift A Game"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]

@@ -23,7 +23,7 @@ release_date: "December 18, 2023"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/142063"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-08T15:00:00.000Z","end":"2024-08-15T15:00:00.000Z","type":null,"id":"9f314276c254423bb9b145480b5b150b"},{"start":"2023-12-19T15:00:00.000Z","end":"2023-12-20T15:00:00.000Z","type":null,"id":"9f314276c254423bb9b145480b5b150b"}]
 

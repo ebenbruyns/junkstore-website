@@ -19,7 +19,7 @@ developer: Dreams Uncorporated, SYCK
 genre: RPG, Turn-Based, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "July 21, 2021"
+release_date: "July 20, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1263","name":"Indie"}]

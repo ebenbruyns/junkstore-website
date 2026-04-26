@@ -35,7 +35,7 @@
   "shortname": "f452ea20ae1b43698209998b56c2cc1c",
   "publisher": "Giants Software",
   "developer": "Giants Software",
-  "releasedate": "2021-11-22T08:00:00.000Z",
+  "release_date": "2021-11-22",
   "genre": "Simulation",
   "description": "Take on the role of a modern farmer! Agriculture, animal husbandry and forestry offer a huge variety of farming activities while you face the challenges of the four seasons, especially when winter sets in. Creatively build your own farm and extend your farming operations with production chains, forming an agricultural empire! Even run your farm together with friends and enjoy crossplatform multiplayer together.",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2024-05-22T15:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "The new Farming Simulator is incoming!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "54327517352929218",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/7aab80b4f2e181a1233f5eb0ea31f73c19f696b8cc1caf4d1a94f781917b2eaf.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9267539bb51e117b5365b99763608d34daf2d596926eca8027135cbdaea77af9.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d6b1fd9a690ec89b8b18af1bea34ad4599eb9a2fca4e76148379aacefd34b1e7.jpg?namespace=gamesdb",
@@ -151,5 +157,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:41:28.055Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

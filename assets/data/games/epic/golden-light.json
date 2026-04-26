@@ -35,7 +35,7 @@
   "shortname": "0eeaae41305043f7a465310eb2cbaff9",
   "publisher": "HypeTrain Digital",
   "developer": "Mr. Pink",
-  "releasedate": "2023-10-14T16:00:00.000Z",
+  "release_date": "2023-10-14",
   "genre": "Action, Stealth, Retro",
   "description": "Eat weapons, be scared and question your own mind in this Survival-Horror FPS Prop Hunt Roguelike about meat. Walls are watching you!",
   "size": "",
@@ -82,8 +82,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 130218,
-  "igdb_url": "https://www.igdb.com/games/130218",
   "giveaway_events": [
     {
       "start": "2023-11-08T15:00:00.000Z",
@@ -94,7 +92,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Eat weapons, be scared and question your own mind in this Survival-Horror FPS Prop Hunt Roguelike about meat. Walls are watching you!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53264550653082321",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/d68628682068d7873e83237f12e25aaaecac8a737da8e7acffb6bd5578facff8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/1c2240eb81c0ea75cf42b9b75af827093fd42089e7a8fdd3cc68a881f75e9eb8.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/73b79d1f3d51d9ecad2555c2250544d1afe43cb21e93d8e6cae3081959f0379d.jpg?namespace=gamesdb",
@@ -127,5 +133,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-25T05:48:13.713Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

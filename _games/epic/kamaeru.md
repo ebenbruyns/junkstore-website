@@ -19,11 +19,11 @@ developer: Humble Reeds
 genre: Indie, Casual, Simulation
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "December 5, 2024"
+release_date: "December 4, 2024"
 game_modes: ["Single player"]
 languages: ["Korean","Japanese","Spanish (Spain)","Portuguese (Brazil)","English","Chinese (Simplified)","German","French"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1263","name":"Indie"},{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/252773"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-08-21T15:00:00.000Z","end":"2025-08-28T15:00:00.000Z","type":null,"id":"4cbb6c3704d240f19c3dd5f5cb2b0cb4"}]
 

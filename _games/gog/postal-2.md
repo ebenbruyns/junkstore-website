@@ -18,7 +18,7 @@ publisher: Linux Game Publishing, Whiptail Interactive, Running With Scissors
 developer: Running With Scissors
 genre: Adventure, Indie, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "April 14, 2003"
 game_modes: ["Single player"]
 languages: ["English"]

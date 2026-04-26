@@ -18,7 +18,7 @@ publisher: LucasArts
 developer: LucasArts
 genre: Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 7
 release_date: "November 9, 2001"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English*","French*","German*","Spanish - Spain**languages with full audio support"]

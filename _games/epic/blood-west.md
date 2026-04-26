@@ -19,11 +19,11 @@ developer: Hyperstrange
 genre: First Person, Shooter, Stealth
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "July 9, 2024"
+release_date: "July 8, 2024"
 game_modes: ["Single-player"]
 languages: ["English*","German","Polish","Russian","Hungarian","Portuguese - Brazil*languages with full audio support"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/188555"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-20T16:00:00.000Z","end":"2025-12-21T16:00:00.000Z","type":null,"id":"b5c0decff4f24c0892a63d8704f677f0"}]
 

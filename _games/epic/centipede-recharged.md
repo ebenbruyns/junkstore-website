@@ -23,7 +23,7 @@ release_date: "September 29, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/2235"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-03-02T15:00:00.000Z","end":"2022-03-09T15:00:00.000Z","type":null,"id":"b44a2808223f4cd0a8ca1376410b5460"}]
 

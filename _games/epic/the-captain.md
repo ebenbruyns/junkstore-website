@@ -19,11 +19,11 @@ developer: Sysiac games
 genre: Indie, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "December 4, 2021"
+release_date: "December 3, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/114666"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-09-14T15:00:00.000Z","end":"2022-09-21T15:00:00.000Z","type":null,"id":"80fb2028e27b489988bcd2c242b8caf0"}]
 

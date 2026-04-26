@@ -35,7 +35,7 @@
   "shortname": "24b4ee8b16e4450184fe33ff871cc0ee",
   "publisher": "Mythwright",
   "developer": "Payload Studios",
-  "releasedate": "2024-12-21T16:00:00.000Z",
+  "release_date": "2024-12-21",
   "genre": "Action-Adventure, Open World, Adventure",
   "description": "TerraTech is an open-world, sandbox adventure game, where you design & build your own creations through a mix of crafting, combat and discovery. Design vehicles from a huge library of blocks. Scavenge, craft & buy new parts to survive and become the ultimate planetary prospector.",
   "size": "",
@@ -138,8 +138,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 14314,
-  "igdb_url": "https://www.igdb.com/games/14314",
   "giveaway_events": [
     {
       "start": "2024-12-21T16:00:00.000Z",
@@ -150,7 +148,15 @@
   ],
   "was_free_before": true,
   "description_rich": "TerraTech is an open-world, sandbox adventure game, where you design & build your own creations through a mix of crafting, combat and discovery. Design vehicles from a huge library of blocks. Scavenge, craft & buy new parts to survive and become the ultimate planetary prospector.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51154330424843973",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/4bff13a3f2537956f924b288caee78907df93c4e4521ec3c0cdac9ccf60d8068.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f7ec1ef9e88208c93318fe3f0045dba6cda508f2dc6c3972283b6093e4e2d5a5.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d98526cc6611a0f68c8ee5c3350abac9304534e5fddb75148d7a8894a887073c.jpg?namespace=gamesdb",
@@ -176,5 +182,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:44:57.769Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

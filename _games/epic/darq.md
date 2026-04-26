@@ -19,11 +19,11 @@ developer: Unfold Games
 genre: Horror, Puzzle, Adventure
 franchise: 
 age_rating_summary: 
-release_date: "October 29, 2021"
+release_date: "October 28, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"}]
-igdb_url: "https://www.igdb.com/games/138785"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-10-27T15:00:00.000Z","end":"2021-11-03T15:00:00.000Z","type":null,"id":"0af5da05c76943f8a7da7cc65949ffd4"}]
 

@@ -19,7 +19,7 @@ developer: Frogwares
 genre: Adventure, Indie
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "November 1, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

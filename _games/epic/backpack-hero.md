@@ -19,11 +19,11 @@ developer: Jaspel
 genre: Turn-Based, Dungeon Crawler, Rogue-Lite
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "November 15, 2023"
+release_date: "November 14, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/194504"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-03T15:00:00.000Z","end":"2025-07-10T15:00:00.000Z","type":null,"id":"d95cc849f45e406e88c1c371c7af309f"}]
 

@@ -18,7 +18,7 @@ publisher: Sierra Entertainment, Sierra Entertainment
 developer: Monolith Productions
 genre: Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "October 17, 2005"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]

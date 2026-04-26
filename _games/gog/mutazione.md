@@ -18,7 +18,7 @@ publisher: Akupara Games
 developer: Die Gute Fabrik
 genre: Role-playing (RPG), Adventure, Indie, Point-and-click, Music
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 7
 release_date: "September 19, 2019"
 game_modes: ["Single player"]
 languages: ["English"]

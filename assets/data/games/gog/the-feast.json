@@ -35,7 +35,7 @@
   "shortname": "1690611606",
   "publisher": "Prismatika",
   "developer": "Sever",
-  "releasedate": "2022-12-15T00:00:00+0000",
+  "release_date": "2022-12-15",
   "genre": "Adventure, Indie, Point-and-click",
   "description": "The Feast is a short and intensely dramatic experience designed to be completed in one sitting (20-30 minutes).\n\nThis dark and peculiar spectacle grants you the lead role. In a theatrical setting, survive the utterly confusing and twisted dinner. You will be observed and judged, so face reality, weigh every action, consider possible outcomes, make choices - and define the conclusion of this life-changing celebration.\n\nAfter all, what happens here is not your problem…\n… or is it?",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "56064858225674998",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -79,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:37:58.312Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

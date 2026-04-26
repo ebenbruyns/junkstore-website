@@ -19,7 +19,7 @@ developer: Uppercut Games
 genre: Action, Rogue-Lite, First Person
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "May 5, 2018"
+release_date: "May 4, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"},{"id":"21119","name":"Great for Beginners"}]

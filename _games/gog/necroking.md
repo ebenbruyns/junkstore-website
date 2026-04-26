@@ -18,8 +18,8 @@ publisher: Alawar
 developer: KORO.GAMES
 genre: "Adventure, Strategy, Indie, Tactical, Card & Board Game"
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: PEGI 7
+release_date: "September 1, 2024"
 game_modes: ["Single player"]
 languages: ["Portuguese (Brazil)","zh-Hans","German","English","Spanish","French","Japanese","Korean","Polish","Russian","zh-Hans"]
 tags_structured: []

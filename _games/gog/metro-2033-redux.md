@@ -18,7 +18,7 @@ publisher: Deep Silver, Koch Media
 developer: 4A Games
 genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "August 25, 2014"
 game_modes: ["Single player"]
 languages: ["English"]

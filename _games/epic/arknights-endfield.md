@@ -23,7 +23,7 @@ release_date: "January 22, 2026"
 game_modes: ["Singleplayer","Multiplayer"]
 languages: ["Chinese (Simplified)","Chinese (Traditional)","English","Japanese","Korean","French","German","Indonesian","Italian","Portuguese (Brazil)","Russian","Spanish (Latin America)","Thai","Vietnamese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"31313","name":"First Run"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/194558"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

@@ -23,7 +23,7 @@ release_date: "June 16, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1181","name":"Card Game"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/122766"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-31T15:00:00.000Z","end":"2025-08-07T15:00:00.000Z","type":null,"id":"605ced56db424539ba3ac26f904a83f2"}]
 

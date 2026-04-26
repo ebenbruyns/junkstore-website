@@ -35,7 +35,7 @@
   "shortname": "1207658693",
   "publisher": "Empire Interactive, Strategy First, Konami",
   "developer": "Bugbear Entertainment",
-  "releasedate": "11-2004",
+  "release_date": "2004-11-01",
   "genre": "sport, simulator",
   "description": "FlatOut is adrenaline-filled muscle car racing game packed with explosive physics, spectacular effects and graphics, innovative game play mechanics and good old fun!",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51152873310651420",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -82,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:38:59.239Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

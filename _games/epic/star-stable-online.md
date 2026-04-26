@@ -19,11 +19,11 @@ developer: Star Stable Entertainment AB
 genre: Open World, Adventure
 franchise: 
 age_rating_summary: 
-release_date: "June 23, 2022"
+release_date: "June 22, 2022"
 game_modes: ["Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/60338"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

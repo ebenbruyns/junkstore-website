@@ -35,7 +35,7 @@
   "shortname": "b3cb6e007019430ebb1dd87f6e8c87d3",
   "publisher": "Armor Games Studios",
   "developer": "Gummy Cat",
-  "releasedate": "2022-09-15T13:00:00.000Z",
+  "release_date": "2022-09-15",
   "genre": "Casual, Simulation, Adventure",
   "description": "Bear and Breakfast is a laid-back management adventure game where you build and run a bed and breakfast...but you’re a bear.",
   "size": "",
@@ -126,8 +126,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 136772,
-  "igdb_url": "https://www.igdb.com/games/136772",
   "giveaway_events": [
     {
       "start": "2024-10-03T15:00:00.000Z",
@@ -138,7 +136,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Bear and Breakfast is a laid-back management adventure game where you build and run a bed and breakfast...but you’re a bear.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53612209804230389",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/517cbbb8152387755dda9467383271017dac9d46a1d4ccc722e2e7075f83ced5.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/19cecb1499d9d5fe8c875f0e83583309deb1c8a20df60a3e97953854e0e888b7.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6b4e1250fe973dabb3ab765bc87e731114e30d206bcc28a8347e3f016ec718e4.jpg?namespace=gamesdb",
@@ -161,5 +167,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:40:21.424Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

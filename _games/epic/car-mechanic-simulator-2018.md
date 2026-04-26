@@ -19,11 +19,11 @@ developer: Red Dot Games
 genre: Simulation
 franchise: 
 age_rating_summary: 
-release_date: "June 24, 2022"
+release_date: "June 23, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21127","name":"Creative Community"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/40470"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-06-22T15:00:00.000Z","end":"2022-06-29T15:00:00.000Z","type":null,"id":"5eb27cf1747c40b5a0d4f5492774678d"}]
 

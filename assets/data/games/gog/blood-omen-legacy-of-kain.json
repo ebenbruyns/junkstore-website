@@ -35,7 +35,7 @@
   "shortname": "1837805079",
   "publisher": "Activision, Crystal Dynamics, Sony Computer Entertainment, Square Enix Europe",
   "developer": "Silicon Knights",
-  "releasedate": "1996-11-01T00:00:00+0000",
+  "release_date": "1996-11-01",
   "genre": "Adventure",
   "description": "Blood Omen: Legacy of Kain is a top-down action-adventure video game with role-playing game elements. It is the first game in the Legacy of Kain series, and the only one developed by Silicon Knights and published by Crystal Dynamics. The game was first released in 1996 for the PlayStation, and later ported to Microsoft Windows. A Sega Saturn version was announced during production but later cancelled before release. It was followed by four sequels, which were all developed by Crystal Dynamics and published by Eidos Interactive.",
   "size": "",
@@ -51,8 +51,8 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
-  "gamesdb_gog_id": "",
+  "gamesdb_game_id": "51141828392902469",
+  "gamesdb_gog_id": "54530172054086920",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
   "gamesdb_amazon_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T22:35:56.766Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

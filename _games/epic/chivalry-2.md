@@ -19,11 +19,11 @@ developer: Torn Banner Studios
 genre: Action, First Person
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "June 9, 2021"
+release_date: "June 8, 2021"
 game_modes: ["Multiplayer"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Russian"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1294","name":"First Person"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/119342"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-31T16:00:00.000Z","end":"2026-01-01T16:00:00.000Z","type":null,"id":"79e93c9a70b14b1cba2c8c9b45a1c36b"},{"start":"2024-05-29T15:00:00.000Z","end":"2024-06-05T15:00:00.000Z","type":null,"id":"79e93c9a70b14b1cba2c8c9b45a1c36b"}]
 

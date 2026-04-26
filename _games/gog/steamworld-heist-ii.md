@@ -19,7 +19,7 @@ developer: Thunderful
 genre: role-playing, adventure, strategy, indie
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "August 1, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

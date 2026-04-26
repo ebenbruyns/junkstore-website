@@ -19,11 +19,11 @@ developer: Honig Studios, Quantumfrog
 genre: Casual, Exploration, Stealth
 franchise: 
 age_rating_summary: 
-release_date: "March 12, 2022"
+release_date: "March 11, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"}]
-igdb_url: "https://www.igdb.com/games/25227"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

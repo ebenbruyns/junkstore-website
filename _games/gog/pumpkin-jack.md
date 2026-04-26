@@ -18,7 +18,7 @@ publisher: Headup Games, Thunderful, Beep Japan
 developer: Nicolas Meyssonnier
 genre: Adventure, Indie, Platform
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 12
 release_date: "October 23, 2020"
 game_modes: ["Single player"]
 languages: ["English"]

@@ -18,7 +18,7 @@ publisher: Bethesda Softworks
 developer: Bethesda Game Studios
 genre: RPG
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "November 9, 2015"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese**languages with full audio support"]

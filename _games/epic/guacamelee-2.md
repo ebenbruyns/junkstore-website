@@ -19,11 +19,11 @@ developer: DrinkBox Studios
 genre: Fighting, Action-Adventure, Platformer
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "June 16, 2023"
+release_date: "June 15, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1344","name":"Fighting"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"}]
-igdb_url: "https://www.igdb.com/games/75234"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-06-14T15:00:00.000Z","end":"2023-06-21T15:00:00.000Z","type":null,"id":"f7aa0e57c2b94acd97a28a7ec99a7ded"}]
 

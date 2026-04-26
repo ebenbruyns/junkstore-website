@@ -18,8 +18,8 @@ publisher: Activision, Sierra Entertainment
 developer: Saber Interactive
 genre: puzzle, shooter
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 17 · PEGI 18
+release_date: "October 1, 2007"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 tags_structured: []

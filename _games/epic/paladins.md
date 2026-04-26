@@ -19,7 +19,7 @@ developer: Hi-Rez Studios, Evil Mojo Games
 genre: Shooter
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "March 25, 2020"
+release_date: "March 24, 2020"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English*","French","German","Spanish - Spain","Polish","Russian","Turkish","Portuguese - Brazil","Japanese*languages with full audio support"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21125","name":"Competitive Community"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]

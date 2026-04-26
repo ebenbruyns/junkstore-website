@@ -19,11 +19,11 @@ developer: The Irregular Corporation
 genre: Indie, Simulation
 franchise: PC Building Simulator
 age_rating_summary: 
-release_date: "October 8, 2021"
+release_date: "October 7, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Japanese","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Spain","Korean","Polish"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/27792"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-10-06T15:00:00.000Z","end":"2021-10-13T15:00:00.000Z","type":null,"id":"7bfbb022d2fa4d67a4844631ecd5c027"}]
 

@@ -20,7 +20,7 @@ genre: Visual Novel
 franchise: 
 age_rating_summary: 
 release_date: "July 27, 2020"
-game_modes: []
+game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []
 igdb_url: ""

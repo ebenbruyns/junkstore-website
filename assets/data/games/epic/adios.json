@@ -35,7 +35,7 @@
   "shortname": "73c56a1f38a548b2852ce8608c5e436e",
   "publisher": "Mischief",
   "developer": "Mischief",
-  "releasedate": "2021-06-29T04:00:00.000Z",
+  "release_date": "2021-06-29",
   "genre": "Narration, Adventure, First Person",
   "description": "A pig farmer decides he no longer wants to dispose of bodies for the mob. What follows is a discussion between him and his would-be killer.",
   "size": "",
@@ -86,8 +86,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 138270,
-  "igdb_url": "https://www.igdb.com/games/138270",
   "giveaway_events": [
     {
       "start": "2023-01-25T15:00:00.000Z",
@@ -98,7 +96,15 @@
   ],
   "was_free_before": true,
   "description_rich": "A pig farmer decides he no longer wants to dispose of bodies for the mob. What follows is a discussion between him and his would-be killer.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53669335384458468",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/e2d61f63e21a57daa74e6e4873f508d653c86a316024cce836c9952f034c9f1a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e6030f1211af2baa459fe5a8c7ae04f1e1e16f9b1b9c8a692e0788901eba6af8.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6dd436603c9f02c4ef0a56ad0107756da89c4941b252bf9ce359acad679426df.jpg?namespace=gamesdb",
@@ -122,5 +128,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:41:54.492Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -18,7 +18,7 @@ publisher: Sega, Deep Silver
 developer: Ryū Ga Gotoku Studios
 genre: role-playing-rpg, adventure, hack-and-slash-beat-em-up
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "January 21, 2016"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]

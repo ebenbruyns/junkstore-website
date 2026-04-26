@@ -18,9 +18,9 @@ publisher: Deep Silver
 developer: Deep Silver Volition
 genre: NIL, NIL
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "May 22, 2020"
-game_modes: []
+game_modes: ["Co-op","Multiplayer","Single player"]
 languages: ["English"]
 tags_structured: []
 igdb_url: ""

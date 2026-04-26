@@ -19,7 +19,7 @@ developer: Giant Squid
 genre: Exploration, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "August 3, 2016"
+release_date: "August 2, 2016"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]

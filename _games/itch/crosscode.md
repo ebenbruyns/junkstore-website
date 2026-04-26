@@ -19,7 +19,7 @@ developer: Radical Fish Games
 genre: Role-playing (RPG), Adventure, Indie, Puzzle, Shooter
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "September 1, 2018"
 game_modes: ["Single player"]
 languages: ["English","German","Simplified Chinese","Japanese","Korean"]
 tags_structured: []

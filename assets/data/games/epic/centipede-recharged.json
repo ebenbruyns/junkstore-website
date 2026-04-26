@@ -35,7 +35,7 @@
   "shortname": "8727e9d0693542bda60769dc2ce33c20",
   "publisher": "Atari",
   "developer": "Nickervision Studios",
-  "releasedate": "2021-09-29T04:00:00.000Z",
+  "release_date": "2021-09-29",
   "genre": "Action, Shooter",
   "description": "Blast bugs and chase high scores in this glorious revival of an old-school classic, all while jamming to a heart-pounding original score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 unique challenges or the endless arcade mode.",
   "size": "",
@@ -86,8 +86,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 2235,
-  "igdb_url": "https://www.igdb.com/games/2235",
   "giveaway_events": [
     {
       "start": "2022-03-02T15:00:00.000Z",
@@ -98,7 +96,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Blast bugs and chase high scores in this glorious revival of an old-school classic, all while jamming to a heart-pounding original score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 unique challenges or the endless arcade mode.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54724470298220303",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/9ddb19cc379f903092f2bfffb5d51bd08a0a91d9ff26c83d66ed2b457492ce02.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/5016c8fff727023dec0317d4c27b03a76887e983168d7683ba41fcb205814bb0.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/44afc285371adb637740856b9ae5214e86b1fb4482169a3637df29b639583566.jpg?namespace=gamesdb",
@@ -123,5 +129,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:18.596Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

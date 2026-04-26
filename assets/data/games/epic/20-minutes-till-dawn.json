@@ -35,7 +35,7 @@
   "shortname": "4656facc740742a39e265b026e13d075",
   "publisher": "flanne",
   "developer": "flanne",
-  "releasedate": "2024-01-02T16:00:00.000Z",
+  "release_date": "2024-01-02",
   "genre": "Action, Indie, Rogue-Lite",
   "description": "20 Minutes Till Dawn is a survival roguelite where endless hordes of creatures lurk from the dark. Craft an array of overpowering builds and eradicate waves of Lovecraftian nightmares. Will you be able to survive the night?",
   "size": "54.5 MB",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 199748,
-  "igdb_url": "https://www.igdb.com/games/199748",
   "giveaway_events": [
     {
       "start": "2024-01-01T15:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "20 Minutes Till Dawn is a survival roguelite where endless hordes of creatures lurk from the dark. Craft an array of overpowering builds and eradicate waves of Lovecraftian nightmares. Will you be able to survive the night?",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55415887682475749",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/dc6e09d21833f3696ca9d9ff3f9b9758e71d669ef1f912c084a99d5f078c13dc.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a9496a68e60138bc54514978d4255d1bb41ccd69639cf6846fb8b52f2538ee6f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7a7a9f1aad41de777cd56d5d7ac272c2ed1983ec5ce8bce2c373f815dd12e6b3.jpg?namespace=gamesdb",
@@ -150,5 +156,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:41:47.571Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

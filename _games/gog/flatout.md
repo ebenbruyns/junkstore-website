@@ -18,8 +18,8 @@ publisher: Empire Interactive, Strategy First, Konami
 developer: Bugbear Entertainment
 genre: sport, simulator
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 13 · PEGI 12
+release_date: "November 1, 2004"
 game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English"]
 tags_structured: []

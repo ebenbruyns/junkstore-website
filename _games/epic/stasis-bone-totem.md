@@ -19,11 +19,11 @@ developer: THE BROTHERHOOD
 genre: Puzzle, Horror, Adventure
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "June 21, 2023"
+release_date: "June 20, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21150","name":"Challenging Puzzles"}]
-igdb_url: "https://www.igdb.com/games/140866"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

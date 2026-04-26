@@ -35,7 +35,7 @@
   "shortname": "2fb8273dcf6f41e4899c0c881e047053",
   "publisher": "Bethesda Softworks",
   "developer": "Arkane Studios",
-  "releasedate": "2022-12-15T16:00:00.000Z",
+  "release_date": "2022-12-15",
   "genre": "Action, Stealth, Adventure",
   "description": "Take on the role of Billie Lurk as she reunites with her old mentor, Daud, to undertake the greatest assassination ever conceived: killing the Outsider, a god-like figure whom they both see as instrumental to some of the Empire's most dishonorable moments. ",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 11118,
-  "igdb_url": "https://www.igdb.com/games/11118",
   "giveaway_events": [
     {
       "start": "2023-02-01T15:00:00.000Z",
@@ -134,7 +132,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Take on the role of Billie Lurk as she reunites with her old mentor, Daud, to undertake the greatest assassination ever conceived: killing the Outsider, a god-like figure whom they both see as instrumental to some of the Empire's most dishonorable moments. ",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152772282990682",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/186704a0d6616c43b93c7122605f8b539b3abf9538323560e32b049ef9724faa.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e8539eb87b7c14dc694588a01f679470139c2b1063aa26ed9ef513c5eac4d445.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b56ac8e83d6d4ebd2b1bd097cba252b05289e4ee3fe935875d36a4a64a51d9a6.jpg?namespace=gamesdb",
@@ -167,5 +173,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:32.088Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

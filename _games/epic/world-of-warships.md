@@ -19,11 +19,11 @@ developer: Wargaming
 genre: Action, Turn-Based Strategy, Shooter
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "March 19, 2021"
+release_date: "March 18, 2021"
 game_modes: ["Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English*","French*","German*","Czech","Japanese*","Polish*","Russian*","Thai","Turkish","Spanish - Spain*"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1088","name":"Turn-Based Strategy"},{"id":"29088","name":"Online Multiplayer"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21135","name":"Realistic Visuals"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/5587"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

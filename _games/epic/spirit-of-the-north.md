@@ -19,11 +19,11 @@ developer: Infuse Studio
 genre: Adventure
 franchise: Spirit of the North
 age_rating_summary: ESRB Everyone
-release_date: "April 20, 2022"
+release_date: "April 19, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/107141"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-09-14T15:00:00.000Z","end":"2022-09-21T15:00:00.000Z","type":null,"id":"4460a8fcdc3e4f48a11f3174656f8a96"}]
 

@@ -35,7 +35,7 @@
   "shortname": "Arrowroot",
   "publisher": "Uppercut Games",
   "developer": "Uppercut Games",
-  "releasedate": "2018-05-04T15:00:00.000Z",
+  "release_date": "2018-05-04",
   "genre": "Action, Rogue-Lite, First Person",
   "description": "Become a daring thief in City of Brass, a first-person action adventure from senior BioShock developers.  ",
   "size": "",
@@ -98,8 +98,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2022-03-30T15:00:00.000Z",
@@ -116,7 +114,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Become a daring thief in City of Brass, a first-person action adventure from senior BioShock developers.  ",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51142049912944155",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/fa943a7584f7e21aea1935428cb40752001c6d49ceadfc274ab7d8577138f515.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/312ae4c4d421709d672c287ba982635d05aee80bd121667e42f861029042ca7e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f34976b874e63198fdfcf2f36b476568db061534b0a7842f49064684c03c25c9.jpg?namespace=gamesdb",
@@ -139,5 +145,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:29:11.378Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

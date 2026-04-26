@@ -19,11 +19,11 @@ developer: Little Rock Games
 genre: Casual, Simulation, Indie
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "November 3, 2021"
+release_date: "November 2, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1393","name":"Simulation"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/91306"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

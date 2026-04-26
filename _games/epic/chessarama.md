@@ -19,11 +19,11 @@ developer: Minimol Games
 genre: Turn-Based Strategy, Puzzle, Strategy
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "April 18, 2025"
+release_date: "April 17, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21150","name":"Challenging Puzzles"}]
-igdb_url: "https://www.igdb.com/games/202691"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

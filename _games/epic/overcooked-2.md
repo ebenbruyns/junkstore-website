@@ -19,11 +19,11 @@ developer: Ghost Town Games and Team17 Digital Ltd
 genre: Simulation
 franchise: "Overcooked!"
 age_rating_summary: ESRB Everyone
-release_date: "June 18, 2021"
+release_date: "June 17, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"39940","name":"Gift A Game"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/103341"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-06-16T15:00:00.000Z","end":"2021-06-23T15:00:00.000Z","type":null,"id":"0fd170f41c284239a6a6e0be2df3b8e5"}]
 

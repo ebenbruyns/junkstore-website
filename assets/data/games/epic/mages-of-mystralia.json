@@ -35,7 +35,7 @@
   "shortname": "4b920bb4aebf4586a4f6d823817fe32d",
   "publisher": "Borealys Games",
   "developer": "Borealys Games",
-  "releasedate": "2021-12-27T16:00:00.000Z",
+  "release_date": "2021-12-27",
   "genre": "Action, Adventure, Indie",
   "description": "In a world of magic, your mind is your greatest weapon. Learn the ways of magic and design your own spells to fight enemies, navigate treacherous terrain, and right past wrongs in the kingdom of Mystralia.",
   "size": "",
@@ -106,8 +106,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 18869,
-  "igdb_url": "https://www.igdb.com/games/18869",
   "giveaway_events": [
     {
       "start": "2025-02-27T16:00:00.000Z",
@@ -124,7 +122,15 @@
   ],
   "was_free_before": true,
   "description_rich": "In a world of magic, your mind is your greatest weapon. Learn the ways of magic and design your own spells to fight enemies, navigate treacherous terrain, and right past wrongs in the kingdom of Mystralia.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51153241774782274",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/3881869e67b1e68cc0e2956f07d7e7a65c9bee45864b2f234ba9dc5524b8c0e5.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/80bcf1db0ad6d8576740382c507f89ec1186db1275249bc487c2642d22049398.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/5fc29675dd68f7ad5e51ceac83dbe176708933a007019741695fdfddcd35ef53.jpg?namespace=gamesdb",
@@ -147,5 +153,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:42:46.599Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -18,7 +18,7 @@ publisher: Atari, Inc., E-Frontier, Nobilis, Focus Multimedia
 developer: Katauri Interactive
 genre: Role-playing (RPG), Strategy, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "September 23, 2008"
 game_modes: ["Single player"]
 languages: ["English"]

@@ -35,7 +35,7 @@
   "shortname": "525aa0efd70f4399b9f64bcd2a5b38c7",
   "publisher": "COGNOSPHERE PTE. LTD.",
   "developer": "COGNOSPHERE PTE. LTD.",
-  "releasedate": "2024-07-02T02:01:03.000Z",
+  "release_date": "2024-07-02",
   "genre": "Action, RPG, Adventure",
   "description": "Zenless Zone Zero is an all-new 3D action game from HoYoverse, here to provide a thrilling combat experience. Build a squad of up to three and begin your assault with Basic and Special Attacks. Dodge and Parry to neutralize your opponents' counterattacks, and when they're Stunned, unleash a powerful combo of Chain Attacks to finish them off! Remember, different opponents have different traits, and it would be prudent to use their weaknesses to your advantage.",
   "size": "",
@@ -130,16 +130,22 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 200551,
-  "igdb_url": "https://www.igdb.com/games/200551",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "HoYoverse's Urban Fantasy ARPG",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "55436692986828204",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "57709805656923049",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/e312823add70222ffb01671a18217afe22b5c20acacc568d9a0b040c27368947.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/511592cf8c85893f75ac49d453ce959d015b5c60a3fa3447f52a436677de78af.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/a06a6b054a714930af14422e727380d93f1d544b6c8b742e3b1ce9659eccc1bc.jpg?namespace=gamesdb",
-  "steamId": "",
+  "steamId": "4162040",
   "game_modes": [
     "Single player"
   ],
@@ -171,5 +177,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:18:50.619Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

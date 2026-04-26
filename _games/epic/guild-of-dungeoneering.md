@@ -19,7 +19,7 @@ developer: Gambrinous
 genre: Card Game
 franchise: Guild of Dungeoneering
 age_rating_summary: 
-release_date: "November 19, 2021"
+release_date: "November 18, 2021"
 game_modes: ["Single player"]
 languages: ["English*","Simplified Chinese","Japanese","Korean","Traditional Chinese*languages with full audio support"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1181","name":"Card Game"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"}]

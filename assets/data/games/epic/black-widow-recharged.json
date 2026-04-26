@@ -35,7 +35,7 @@
   "shortname": "a21fd90517bf428eb7c995a8c3261722",
   "publisher": "Atari",
   "developer": "Nickervision Studios",
-  "releasedate": "2021-10-28T07:00:00.000Z",
+  "release_date": "2021-10-28",
   "genre": "Action, Shooter",
   "description": "Defend your spider web from an onslaught of bugs in this frenetic revival of the cult classic twin-stick shooter, all while jamming to an infectious score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 challenges or the arcade mode.",
   "size": "",
@@ -82,8 +82,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2022-03-02T15:00:00.000Z",
@@ -94,7 +92,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Defend your spider web from an onslaught of bugs in this frenetic revival of the cult classic twin-stick shooter, all while jamming to an infectious score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 challenges or the arcade mode.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54814493887519809",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/4118b897cbd906fbcc177c0bc59a1f1d81b2dfc8f0ebe85bd85e328e95104d8e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/df290c27ff99144a4b69ead02075658ff1b6da6715a43b27a754b3ec78712512.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6999dccd9875ca754a71a006fdf7bdd59cabb1c9e9a1012cd7d74d54e7825549.jpg?namespace=gamesdb",
@@ -116,5 +122,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T01:06:07.247Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

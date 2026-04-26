@@ -35,7 +35,7 @@
   "shortname": "01f1e8046e9e433db190a611a0411579",
   "publisher": "Cellar Door Games",
   "developer": "Cellar Door Games",
-  "releasedate": "2022-04-07T15:00:00.000Z",
+  "release_date": "2022-04-07",
   "genre": "Action, Indie",
   "description": "A genealogical rogue-\"LITE\" where anyone can be a hero. Each time you die, your unique child will succeed you. One child might be colorblind, another might be a dwarf with vertigo. But that's OK, because no one is perfect, and you don't have to be to succeed.",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 3221,
-  "igdb_url": "https://www.igdb.com/games/3221",
   "giveaway_events": [
     {
       "start": "2022-04-06T15:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "A genealogical rogue-\"LITE\" where anyone can be a hero. Each time you die, your unique child will succeed you. One child might be colorblind, another might be a dwarf with vertigo. But that's OK, because no one is perfect, and you don't have to be to succeed.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51154134612077919",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/eb46ac54ca4326112ff7d39696251b5534f99f6d14015b82c14f41971896f878.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/cbb834b9b4ba2d492448e18ce747560607206f4977aebef93107b48601440858.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/92405dfc8b2422bce55b949b575bd56981f9e62fca14ec372340de72b6c18011.jpg?namespace=gamesdb",
@@ -149,5 +155,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:43:51.905Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

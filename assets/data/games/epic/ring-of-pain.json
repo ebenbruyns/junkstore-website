@@ -35,7 +35,7 @@
   "shortname": "130285de16cc429abc603eaf95b8787b",
   "publisher": "Humble Games",
   "developer": "Simon Boxer, Twice Different",
-  "releasedate": "2022-08-25T15:00:00.000Z",
+  "release_date": "2022-08-25",
   "genre": "Indie, Strategy",
   "description": "Enter the Ring of Pain, a roguelike card crawler where encounters come to you. Each step around the ring a dire decision. Go for the loot or backstab a creeping horror? Choose your gear wisely to survive and discover the secrets of the Ring of Pain.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2022-08-24T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Enter the Ring of Pain, a roguelike card crawler where encounters come to you. Each step around the ring a dire decision. Go for the loot or backstab a creeping horror? Choose your gear wisely to survive and discover the secrets of the Ring of Pain.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51993561456490385",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/01a64c441b9948197746afcac32ba56c9837d70340c3e4e541e7ee2a7bc2ec23.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6da5d39f23e324e00db207860dbd0e92b029af6b1b6f44d862d56f51eaa17dfa.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0d619c0fc34aa9d48ac71a258da6e9758c04cfa5941559ba17018f4f2ba50f38.jpg?namespace=gamesdb",
@@ -154,5 +160,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:43:44.353Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

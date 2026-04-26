@@ -35,7 +35,7 @@
   "shortname": "1207659091",
   "publisher": "Ubisoft Entertainment",
   "developer": "Ubisoft Montreal, Ubisoft Casablanca",
-  "releasedate": "2005-12-01T00:00:00+0000",
+  "release_date": "2005-12-01",
   "genre": "Adventure, Platform, Hack and slash/Beat 'em up",
   "description": "Prince of Persia: The Two Thrones is an action-adventure video game developed and published by Ubisoft Montreal. It was released in December, 2005 in North America for the Xbox, Microsoft Windows, PlayStation 2, and the Nintendo GameCube. It was ported to the PlayStation Portable and Wii, under the title Prince of Persia: Rival Swords with the Wii version utilizing the motion-sensing functionality of its controller, while the PSP version added exclusive content. A remastered, high-definition, version of The Two Thrones was released on the PlayStation Network for the PlayStation 3 on December 21, 2010.\nFollowing Warrior Within, The Two Thrones is the closing chapter in the Sands of Time saga. Prince of Persia: Warrior Within, in which the Prince kills the Dahaka, essentially saving Kaileena. The game opens with the Prince and Kaileena about to sail into Babylon's port. Kaileena offers narration of the events passed and the story following, similar to the Prince's role as both protagonist and narrator in The Sands of Time.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51153515902311311",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:37:20.944Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

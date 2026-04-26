@@ -35,7 +35,7 @@
   "shortname": "Turtle",
   "publisher": "Tripwire Interactive",
   "developer": "Tripwire Interactive",
-  "releasedate": "2020-05-22T09:00:00.000Z",
+  "release_date": "2020-05-22",
   "genre": "Action, RPG",
   "description": "Experience the ultimate power fantasy as the apex predator of the seas - a terrifying SHARK! Maneater is a single player, open world action RPG (ShaRkPG) where YOU are the shark. Eat! Explore! Evolve!",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2022-06-08T15:00:00.000Z",
@@ -134,7 +132,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Experience the ultimate power fantasy as the apex predator of the seas - a terrifying SHARK! Maneater is a single player, open world action RPG (ShaRkPG) where YOU are the shark. Eat! Explore! Evolve!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51153250988016900",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/babf4ce95f73704060313ba2d52e2432aee419a522991c48ba817291a10e64e7.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/08246dbabc060f1ca40d8ca67791dac92b4039ea783e18e35845377edbca32da.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d23307fa4101b4e30c5adca61b3123cb29a2d5b8a73ab2f92e83c5efada5bd5b.jpg?namespace=gamesdb",
@@ -157,5 +163,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:42:51.261Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

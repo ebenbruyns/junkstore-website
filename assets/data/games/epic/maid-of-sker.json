@@ -35,7 +35,7 @@
   "shortname": "e25566912b57452b929cf8c333a16ca8",
   "publisher": "Wales Interactive",
   "developer": "Wales Interactive",
-  "releasedate": "2022-10-27T15:00:00.000Z",
+  "release_date": "2022-10-27",
   "genre": "Horror, Action-Adventure, Indie",
   "description": "Maid of Sker is a first-person survival horror, set in a remote hotel with a gory and macabre history from British folklore. Brave the nightmares of the Quiet Ones. Do not panic…don’t even breathe!",
   "size": "",
@@ -98,8 +98,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 111544,
-  "igdb_url": "https://www.igdb.com/games/111544",
   "giveaway_events": [
     {
       "start": "2024-07-17T15:00:00.000Z",
@@ -110,7 +108,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Maid of Sker is a first-person survival horror, set in a remote hotel with a gory and macabre history from British folklore. Brave the nightmares of the Quiet Ones. Do not panic…don’t even breathe!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51728532831873475",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/3c854a5193fd112f2bdbdca2c9a598328af856f0fd6fa4182af496fe5eb4d05b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a641a0409487ca6af7c6f1a44fbcc037f30d364edffacc835a7280b2c96965c9.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/a89b29d344a036ecfa38d0136b5ef7f57d3ebf748256657578752fd7e9e09e1d.jpg?namespace=gamesdb",
@@ -133,5 +139,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:42:48.867Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

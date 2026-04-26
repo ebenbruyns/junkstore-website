@@ -19,11 +19,11 @@ developer: Springloaded
 genre: Simulation, City Builder, Strategy
 franchise: 
 age_rating_summary: 
-release_date: "November 6, 2021"
+release_date: "November 5, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1146","name":"City Builder"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/146395"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

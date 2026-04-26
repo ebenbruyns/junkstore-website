@@ -19,11 +19,11 @@ developer: Sleepless Clinic
 genre: Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "May 27, 2022"
+release_date: "May 26, 2022"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain","Polish","Portuguese - Portugal","Russian","Czech","Japanese","Simplified Chinese"]
 tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/30988"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

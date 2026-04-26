@@ -18,8 +18,8 @@ publisher: Square Enix
 developer: SQUARE ENIX
 genre: role-playing, strategy, tactical
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: PEGI 12
+release_date: "November 1, 2023"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Japanese","Polish","Portuguese","Spanish","zh-Hans"]
 tags_structured: []

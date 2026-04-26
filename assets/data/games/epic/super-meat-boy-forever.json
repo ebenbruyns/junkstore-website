@@ -35,7 +35,7 @@
   "shortname": "Moose",
   "publisher": "Team Meat",
   "developer": "Team Meat",
-  "releasedate": "2020-12-23T05:00:00.000Z",
+  "release_date": "2020-12-23",
   "genre": "Action, Platformer",
   "description": "The challenge of Super Meat Boy returns in Super Meat Boy Forever! Levels are brutal and death is inevitable. Players will run, jump, punch and kick their way through familiar places and new worlds all while enjoying a story truly meant for the big screen.",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2024-02-21T15:00:00.000Z",
@@ -122,7 +120,15 @@
   ],
   "was_free_before": true,
   "description_rich": "The challenge of Super Meat Boy returns in Super Meat Boy Forever! Levels are brutal and death is inevitable. Players will run, jump, punch and kick their way through familiar places and new worlds all while enjoying a story truly meant for the big screen.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51154291442212746",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/8b06b1812306e9a8a0308c524a1ad913eac1423e34b1eb0291407d5539308040.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9ab1e2e242d0c8eb5a7c9061047cd145942cb3e108b2de0302869a607a619ba1.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/8c0c9d3709c03fed2dc3802a2c1d28c10f4393f0ca401a315b49669152176600.jpg?namespace=gamesdb",
@@ -146,5 +152,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:43:50.218Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

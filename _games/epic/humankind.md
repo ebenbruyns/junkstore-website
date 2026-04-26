@@ -19,7 +19,7 @@ developer: Amplitude Studios
 genre: Strategy, Turn-based strategy (TBS), Simulator
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "November 19, 2021"
+release_date: "November 18, 2021"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 tags_structured: []

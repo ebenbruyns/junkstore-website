@@ -35,7 +35,7 @@
   "shortname": "Curry",
   "publisher": "505 Games",
   "developer": "Giant Squid",
-  "releasedate": "2016-08-02T15:00:00.000Z",
+  "release_date": "2016-08-02",
   "genre": "Exploration, Adventure",
   "description": "From the art director of Journey® and Flower®, ABZÛ is a beautiful underwater adventure that evokes the dream of diving.",
   "size": "",
@@ -74,8 +74,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2020-10-07T15:00:00.000Z",
@@ -92,7 +90,15 @@
   ],
   "was_free_before": true,
   "description_rich": "From the art director of Journey® and Flower®, ABZÛ is a beautiful underwater adventure that evokes the dream of diving.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51141384418629514",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/f84c80d3b1956dc40fe2398a86e8b901d4a1e4e2821e3c8efceba674eb7c8857.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/5472edaf333ac08030cc159aee1a9e3f81074890913bf7204fa45b2d7752a3a4.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b5357de8bd82c95db4da2d6058ae13ea7332edc4bdeac04f2b78dc61af1a2483.jpg?namespace=gamesdb",
@@ -123,5 +129,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:44:22.362Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

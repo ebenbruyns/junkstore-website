@@ -35,7 +35,7 @@
   "shortname": "7ba101a6119b460b9f272a0d02197ee0",
   "publisher": "PLAION",
   "developer": "Critical Hit Games",
-  "releasedate": "2026-02-12T16:00:00.000Z",
+  "release_date": "2026-02-12",
   "genre": "Simulation, Narration, RPG",
   "description": "Lose yourself in the dystopian world of New York, 2329. In this interactive noir story, lead the investigation using advanced technology as Detective James Karra, who risks it all in pursuit of a serial killer targeting the city’s elite.",
   "size": "",
@@ -94,8 +94,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 290911,
-  "igdb_url": "https://www.igdb.com/games/290911",
   "giveaway_events": [
     {
       "start": "2026-02-12T16:00:00.000Z",
@@ -106,7 +104,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Lose yourself in the dystopian world of New York, 2329. In this interactive noir story, lead the investigation using advanced technology as Detective James Karra, who risks it all in pursuit of a serial killer targeting the city’s elite.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "57388113264041680",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1939970/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1939970/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1939970/capsule_231x87.jpg",
@@ -139,5 +145,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-02-07T04:29:11.981Z",
-  "updated_at": "2026-04-25T02:18:22.123Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

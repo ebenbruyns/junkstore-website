@@ -35,7 +35,7 @@
   "shortname": "1963513391",
   "publisher": "Studio MDHR",
   "developer": "Studio MDHR",
-  "releasedate": "2017-09-29",
+  "release_date": "2017-09-29",
   "genre": "platform",
   "description": "Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era...",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51152722288654280",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -81,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T22:38:53.612Z"
+  "updated_at": "2026-04-26T00:47:18.366Z"
 }

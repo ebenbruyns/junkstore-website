@@ -19,11 +19,11 @@ developer: Uprising Studios SL
 genre: Action-Adventure
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "December 24, 2021"
+release_date: "December 23, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
-igdb_url: "https://www.igdb.com/games/106836"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

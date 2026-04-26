@@ -23,7 +23,7 @@ release_date: "March 24, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/128097"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-11-01T15:00:00.000Z","end":"2023-11-08T15:00:00.000Z","type":null,"id":"e0282b701ea04c42ac1b5a55c1a3bfde"}]
 

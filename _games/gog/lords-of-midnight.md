@@ -18,7 +18,7 @@ publisher: Chilli Hugger Software
 developer: Mike Singleton, Chris Wild
 genre: Role-playing (RPG), Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 7
 release_date: "December 31, 1995"
 game_modes: ["Single player"]
 languages: ["English"]

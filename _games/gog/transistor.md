@@ -18,8 +18,8 @@ publisher: Supergiant Games
 developer: Supergiant Games
 genre: role-playing-rpg, strategy
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 13 · PEGI 12
+release_date: "May 1, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

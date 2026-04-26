@@ -18,7 +18,7 @@ publisher: SSI (Strategic Simulations, Inc.), Games Workshop, GOG.com
 developer: DreamForge Intertainment
 genre: Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13
 release_date: "July 23, 1999"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","German"]

@@ -35,7 +35,7 @@
   "shortname": "f7c6294c948b47378659c9a963f449be",
   "publisher": "Daedalic Entertainment",
   "developer": "Liquid Pug",
-  "releasedate": "2022-04-21T17:00:00.000Z",
+  "release_date": "2022-04-21",
   "genre": "Action, Indie, Rogue-Lite",
   "description": "In Godlike Burger you run the craziest restaurant of the galaxy! Stun, poison and kill customers in many devious ways… and turn them into burger meat! And don’t worry: Alien customers will keep coming if you are smart about it, because cannibalism is just too damn tasty.",
   "size": "",
@@ -130,8 +130,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 143010,
-  "igdb_url": "https://www.igdb.com/games/143010",
   "giveaway_events": [
     {
       "start": "2023-10-04T15:00:00.000Z",
@@ -142,7 +140,15 @@
   ],
   "was_free_before": true,
   "description_rich": "In Godlike Burger you run the craziest restaurant of the galaxy! Stun, poison and kill customers in many devious ways… and turn them into burger meat! And don’t worry: Alien customers will keep coming if you are smart about it, because cannibalism is just too damn tasty.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53922027632682923",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/cf55fcddb3a30909c65516221b64410abc3c77fc92a40e15dd47bb2e3d408537.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e413fe17d3922efe72b03dd6305c9fd400a559a572e3ed7925337a56344f5972.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7fbe97aaaf054d6993c6de3936be7e5b142132c302aae6f3dd1533a9c686c807.jpg?namespace=gamesdb",
@@ -165,5 +171,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:41:49.998Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

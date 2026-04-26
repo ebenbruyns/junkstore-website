@@ -19,11 +19,11 @@ developer: Kongregate
 genre: Strategy, Adventure, Card Game
 franchise: 
 age_rating_summary: 
-release_date: "October 5, 2021"
+release_date: "October 4, 2021"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"1117","name":"Adventure"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/29491"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

@@ -19,11 +19,11 @@ developer: WIZNWAR
 genre: Action, Horror
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "May 11, 2021"
+release_date: "May 10, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1218","name":"Horror"},{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/106363"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-03-23T15:00:00.000Z","end":"2022-03-30T15:00:00.000Z","type":null,"id":"08f2539567df4d43a1b0f8a5196f43cc"}]
 

@@ -35,7 +35,7 @@
   "shortname": "da5b18cb1e7a452196c3142f2c1d7dd3",
   "publisher": "Slitherine Ltd.",
   "developer": "Proxy Studios",
-  "releasedate": "2020-11-12T16:00:00.000Z",
+  "release_date": "2020-11-12",
   "genre": "Turn-Based, Strategy",
   "description": "Warhammer 40,000: Gladius – Relics of War is the first turn-based 4X strategy game set in the Warhammer 40,000 universe. Four factions will engage in a brutal war for dominance over the planet’s resources.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 76410,
-  "igdb_url": "https://www.igdb.com/games/76410",
   "giveaway_events": [
     {
       "start": "2023-03-15T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Warhammer 40,000: Gladius – Relics of War is the first turn-based 4X strategy game set in the Warhammer 40,000 universe. Four factions will engage in a brutal war for dominance over the planet’s resources.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51295425697292206",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/38728a6e8d6c8aedb136763e6fad95de857b811e3fe2f3bd802d2e3067b0d7dc.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6b9d27761210c58edbb34b740941443813805b591fa51342f26fd73d1832c99c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/1ff1bbb70da794dbafbbdd1b5e30e107085a46260ebabac5e6335a8040e015f0.jpg?namespace=gamesdb",
@@ -156,5 +162,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:44:13.883Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

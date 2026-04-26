@@ -19,7 +19,7 @@ developer: Daedalic Entertainment, Forgotten Key
 genre: Exploration, Open World, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "June 26, 2020"
+release_date: "June 25, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]

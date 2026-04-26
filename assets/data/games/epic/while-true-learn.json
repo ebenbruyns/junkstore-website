@@ -35,7 +35,7 @@
   "shortname": "4f272a49a39742b795d63e1f483a7c7d",
   "publisher": "Nival",
   "developer": "Luden.io",
-  "releasedate": "2021-12-02T16:00:00.000Z",
+  "release_date": "2021-12-02",
   "genre": "Simulation, Puzzle",
   "description": "You’re a machine learning specialist who makes neural networks but your cat seems to be better at it. Now you must solve puzzles to build a cat-to-human translation system. Earn a fortune, buy kickass cat outfits and learn how machine learning really works!",
   "size": "",
@@ -90,8 +90,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 76840,
-  "igdb_url": "https://www.igdb.com/games/76840",
   "giveaway_events": [
     {
       "start": "2021-12-01T15:00:00.000Z",
@@ -102,7 +100,15 @@
   ],
   "was_free_before": true,
   "description_rich": "You’re a machine learning specialist who makes neural networks but your cat seems to be better at it. Now you must solve puzzles to build a cat-to-human translation system. Earn a fortune, buy kickass cat outfits and learn how machine learning really works!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51295441872215537",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/9c3a91b6fbf7e05009dadb8e38cb02f82694547707f6ee938cb1ce078907bf28.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/df55f7d291e1b1c4885f77611e7e02cbe5518c97e65fbc46ed201b66ff126348.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/25fc593dfe2b9d96bb89e0b279b6c4cad73590514e7a8f5170ebdb9d17ca31db.jpg?namespace=gamesdb",
@@ -126,5 +132,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:44:16.329Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

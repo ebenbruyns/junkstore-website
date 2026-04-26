@@ -15,10 +15,10 @@ proton_version: ""
 
 # Game Info
 publisher: Electronic Arts, Inc.
-developer: 
+developer: Electronic Arts
 genre: Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "March 2, 2004"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]

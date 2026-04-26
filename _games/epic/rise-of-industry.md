@@ -23,7 +23,7 @@ release_date: "August 11, 2022"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese*languages with full audio support"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/51577"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-03-01T15:00:00.000Z","end":"2023-03-08T15:00:00.000Z","type":null,"id":"c04a2ab8ff4442cba0a41fb83453e701"}]
 

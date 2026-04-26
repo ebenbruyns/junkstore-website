@@ -19,7 +19,7 @@ developer: Ubisoft Paris
 genre: Shooter, Open World
 franchise: 
 age_rating_summary: 
-release_date: "October 5, 2019"
+release_date: "October 4, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Arabic","Czech","Dutch","Japanese*","Korean"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1370","name":"Single Player"},{"id":"1210","name":"Shooter"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]

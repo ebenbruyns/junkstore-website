@@ -19,11 +19,11 @@ developer: iMotion Pictures
 genre: Shooter
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "August 8, 2024"
+release_date: "August 7, 2024"
 game_modes: ["Online Multiplayer","Single Player"]
 languages: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21739","name":"NFT BLOCKCHAIN"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"}]
-igdb_url: "https://www.igdb.com/games/138736"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

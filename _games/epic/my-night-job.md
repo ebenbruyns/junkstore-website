@@ -19,11 +19,11 @@ developer: Webcore Games
 genre: Action, Horror, Platformer
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "June 21, 2025"
+release_date: "June 20, 2025"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Portuguese - Brazil","Japanese","Polish","Russian","Portuguese - Portugal"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/33633"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-02-26T16:00:00.000Z","end":"2026-03-05T16:00:00.000Z","type":null,"id":"0c9ceba4cc60473f97510ab2514a4b6e"}]
 

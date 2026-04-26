@@ -23,7 +23,7 @@ release_date: "August 15, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"1298","name":"Puzzle"},{"id":"21109","name":"Great Boss Battles"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1183","name":"Local Multiplayer"}]
-igdb_url: "https://www.igdb.com/games/258252"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-09-12T15:00:00.000Z","end":"2024-09-19T15:00:00.000Z","type":null,"id":"c1480c18d56f476c96b36037f2a81f51"}]
 

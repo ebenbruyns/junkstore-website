@@ -14,7 +14,7 @@ date_tested: "Nov '24"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
+publisher: EXOR Studios
 developer: Exor Studios
 genre: Strategy, Indie, Shooter
 franchise: 

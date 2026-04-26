@@ -18,7 +18,7 @@ publisher: Private Division
 developer: Obsidian Entertainment
 genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "October 25, 2019"
 game_modes: ["Single player"]
 languages: ["English"]

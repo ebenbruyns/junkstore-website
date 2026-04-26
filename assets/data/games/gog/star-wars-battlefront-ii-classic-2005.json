@@ -35,7 +35,7 @@
   "shortname": "1421404701",
   "publisher": "Activision, Electronic Arts, LucasArts",
   "developer": "Pandemic Studios, Savage Entertainment",
-  "releasedate": "2005-10-31T00:00:00+0000",
+  "release_date": "2005-10-31",
   "genre": "Shooter",
   "description": "Star Wars: Battlefront II is the sequel to Star Wars: Battlefront. It is a high-selling Star Wars video game following the many adventures of several characters. The two games are very similar, as both revolve around troopers from various factions fighting in different locales. Battlefront II, however, includes elements and missions from Star Wars: Episode III Revenge of the Sith, as well as enhanced aspects of gameplay including space combat and the ability to play as Jedi characters or other heroes.\n\nWith brand new space combat, playable Jedi characters, and over 16 all new battlefronts, Star Wars Battlefront II gives you more ways than ever before to play the classic Star Wars battles any way you want.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51154259033964181",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -83,5 +83,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:37:43.726Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

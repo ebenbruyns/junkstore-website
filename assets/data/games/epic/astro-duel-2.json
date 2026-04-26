@@ -35,7 +35,7 @@
   "shortname": "e3c0d11648554383b33da58d075fd101",
   "publisher": "Wild Rooster",
   "developer": "Wild Rooster",
-  "releasedate": "2024-03-07T16:00:00.000Z",
+  "release_date": "2024-03-07",
   "genre": "Action, Party, Platformer",
   "description": "Astro Duel 2 is a sci-fi combat game combining top-down space dog fights with up-close platforming action. Whether versus or co-op, battle through space and on foot at the same time! Strike within the fully-destructible arenas or just nuke ‘em from orbit.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 217131,
-  "igdb_url": "https://www.igdb.com/games/217131",
   "giveaway_events": [
     {
       "start": "2024-03-06T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Astro Duel 2 is a sci-fi combat game combining top-down space dog fights with up-close platforming action. Whether versus or co-op, battle through space and on foot at the same time! Strike within the fully-destructible arenas or just nuke ‘em from orbit.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55802677429482561",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/d7f198d3447104ad3b8e86b94805180b7dc6a13445e83c5d993fb96a156e3723.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/af92eed71736be35f5d7d9b20b1bf57bd55635297321e9f36aad4452a6ae2e0d.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/4e395a1a8742b226f39ad584eec9053be160c637f196670805e2a25a07805484.jpg?namespace=gamesdb",
@@ -155,5 +161,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:01.408Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

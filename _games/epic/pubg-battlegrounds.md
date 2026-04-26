@@ -23,7 +23,7 @@ release_date: "December 6, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Battle Royale"]
 languages: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21138","name":"Recommend this Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/27789"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

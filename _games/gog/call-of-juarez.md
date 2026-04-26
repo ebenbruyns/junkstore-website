@@ -18,7 +18,7 @@ publisher: Ubisoft Entertainment, Ascaron Entertainment, Techland, Focus Enterta
 developer: Techland
 genre: Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "September 5, 2006"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Spanish - Spain","Russian"]

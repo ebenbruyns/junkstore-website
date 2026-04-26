@@ -19,7 +19,7 @@ developer: Big Loop Studios
 genre: Casual, Puzzle, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "February 27, 2026"
+release_date: "February 26, 2026"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Indonesian","Japanese","Korean","Polish","Portuguese - Portugal"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"}]

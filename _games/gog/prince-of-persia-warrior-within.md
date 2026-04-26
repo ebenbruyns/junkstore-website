@@ -18,7 +18,7 @@ publisher: Ubisoft Entertainment
 developer: Ubisoft Montreal
 genre: Adventure, Platform
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 16
 release_date: "November 30, 2004"
 game_modes: ["Single player"]
 languages: ["English"]

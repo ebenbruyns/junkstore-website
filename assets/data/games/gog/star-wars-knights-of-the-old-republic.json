@@ -35,7 +35,7 @@
   "shortname": "1207666283",
   "publisher": "Activision, LucasArts, Aspyr Media",
   "developer": "BioWare",
-  "releasedate": "07-2003",
+  "release_date": "2003-07-01",
   "genre": "role-playing, adventure",
   "description": "Choose Your Path! Set 4,000 years before the Galactic Empire, you are the last hope for the Jedi Order and the Republic...",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51154259850067439",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:39:14.189Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

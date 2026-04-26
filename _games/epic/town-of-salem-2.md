@@ -19,11 +19,11 @@ developer: BlankMediaGames
 genre: Casual, Party, Strategy
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "April 19, 2024"
+release_date: "April 18, 2024"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English","French","Italian","German","Spanish - Spain","Japanese","Korean","Polish","Portuguese - Brazil","Portuguese - Portugal"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1110","name":"Party"},{"id":"22776","name":"Cross Platform"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/247531"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-04-17T15:00:00.000Z","end":"2024-04-24T15:00:00.000Z","type":null,"id":"f4c04d050f8c459ab1261ecbeeb5720a"}]
 

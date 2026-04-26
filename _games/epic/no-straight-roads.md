@@ -19,7 +19,7 @@ developer: Metronomik
 genre: Action, Open World
 franchise: 
 age_rating_summary: 
-release_date: "January 1, 2021"
+release_date: "December 31, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"}]

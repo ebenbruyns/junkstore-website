@@ -19,7 +19,7 @@ developer: Saber Interactive
 genre: Action, Shooter
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "April 17, 2019"
+release_date: "April 16, 2019"
 game_modes: ["Co-op","Multiplayer","Single Player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"39940","name":"Gift A Game"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1279","name":"Vampire"}]

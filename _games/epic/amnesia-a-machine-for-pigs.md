@@ -19,11 +19,11 @@ developer: The Chinese Room
 genre: Horror, First Person, Indie
 franchise: Amnesia
 age_rating_summary: ESRB Teen
-release_date: "October 16, 2020"
+release_date: "October 15, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/1882"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-10-14T15:00:00.000Z","end":"2020-10-21T15:00:00.000Z","type":null,"id":"8080b4a777b54ec8a1ded2c8e7ec40a4"}]
 

@@ -19,11 +19,11 @@ developer: LLC Blini Games
 genre: Action, Shooter, Indie
 franchise: "Lovecraft's Untold Stories"
 age_rating_summary: ESRB Teen
-release_date: "July 21, 2021"
+release_date: "July 20, 2021"
 game_modes: ["Single-player"]
 languages: ["English*","Spanish - Spain","Russian","German","Italian","Portuguese - Brazil*languages with full audio support"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/102995"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

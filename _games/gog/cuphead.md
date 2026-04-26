@@ -18,7 +18,7 @@ publisher: Studio MDHR
 developer: Studio MDHR
 genre: platform
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 10 · PEGI 3
 release_date: "September 29, 2017"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]

@@ -19,7 +19,7 @@ developer: Phodex Games
 genre: role-playing, adventure, indie
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "March 1, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

@@ -35,7 +35,7 @@
   "shortname": "78903903b1f1419bae248467f27ff470",
   "publisher": "Headup",
   "developer": "Bleakmill",
-  "releasedate": "2021-09-30T16:00:00.000Z",
+  "release_date": "2021-09-30",
   "genre": "Action, Shooter, Adventure",
   "description": "INDUSTRIA is a first-person shooter that takes you from East Berlin into a parallel reality, shortly before the end of the Cold War. On the search for a missing work colleague, you decypher a dark past in a mysterious parallel dimension.",
   "size": "",
@@ -82,8 +82,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 128948,
-  "igdb_url": "https://www.igdb.com/games/128948",
   "giveaway_events": [
     {
       "start": "2024-04-24T15:00:00.000Z",
@@ -94,7 +92,15 @@
   ],
   "was_free_before": true,
   "description_rich": "INDUSTRIA is a first-person shooter that takes you from East Berlin into a parallel reality, shortly before the end of the Cold War. On the search for a missing work colleague, you decypher a dark past in a mysterious parallel dimension.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53019871958963849",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/0424514c2d6089337d143b2ca11a543dbb9cc4af075b89335a4de9bec56f0927.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ac75ef435d8514fef4a822c65a95e8ba37156b02e6926714e5d837b1d7b13e54.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ddfffeee5940a9b246ea06607f96bafdd8b0452891b72603b1083d204c8f842f.jpg?namespace=gamesdb",
@@ -118,5 +124,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:43:02.864Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

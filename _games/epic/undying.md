@@ -19,11 +19,11 @@ developer: Vanimals
 genre: Horror, Adventure
 franchise: 
 age_rating_summary: 
-release_date: "October 20, 2021"
+release_date: "October 19, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21137","name":"Unique Visuals"},{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/119360"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-30T16:00:00.000Z","end":"2025-02-06T16:00:00.000Z","type":null,"id":"c9d2e42d8b404add9390c0182093abbd"}]
 

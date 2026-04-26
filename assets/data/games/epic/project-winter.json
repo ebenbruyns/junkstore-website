@@ -35,7 +35,7 @@
   "shortname": "31d26cc98fcd4aa9920315f03b55ad0b",
   "publisher": "Other Ocean Group",
   "developer": "Other Ocean Interactive",
-  "releasedate": "2025-09-18T15:00:00.000Z",
+  "release_date": "2025-09-18",
   "genre": "Indie, Casual, Action-Adventure",
   "description": "In Project Winter, survival is just the beginning. Work with your friends to escape the icy wilderness, but don’t get too comfortable. Traitors lurk among you, ready to lie, sabotage, and turn even the closest of friends against each other. Who will you trust?",
   "size": "2421193155\n",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 111033,
-  "igdb_url": "https://www.igdb.com/games/111033",
   "giveaway_events": [
     {
       "start": "2025-09-18T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "In Project Winter, survival is just the beginning. Work with your friends to escape the icy wilderness, but don’t get too comfortable. Traitors lurk among you, ready to lie, sabotage, and turn even the closest of friends against each other. Who will you trust?",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51663032129386155",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/774861/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/774861/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/774861/capsule_231x87.jpg",
@@ -164,5 +170,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-18T23:45:55.373Z",
-  "updated_at": "2026-04-25T02:15:34.725Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

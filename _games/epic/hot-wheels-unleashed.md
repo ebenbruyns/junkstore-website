@@ -19,11 +19,11 @@ developer: Milestone S.r.l.
 genre: Racing
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "October 1, 2021"
+release_date: "September 30, 2021"
 game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"35244","name":"Epic Savings"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/144072"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-12-27T16:00:00.000Z","end":"2024-12-28T16:00:00.000Z","type":null,"id":"7626d56f226c49c5af79685abf167cb6"}]
 

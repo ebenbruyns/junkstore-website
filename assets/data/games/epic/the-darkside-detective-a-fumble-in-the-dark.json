@@ -35,7 +35,7 @@
   "shortname": "be0f81a12c8c462b98ffae5813f2dcc8",
   "publisher": "Akupara Games",
   "developer": "Spooky Doorway",
-  "releasedate": "2021-11-01T07:00:00.000Z",
+  "release_date": "2021-11-01",
   "genre": "Exploration, Comedy, Adventure",
   "description": "Join Detective McQueen as he puzzles his way through 6 cases, risking life and pixelated limb to solve the macabre mysteries that plague the poor town.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 109650,
-  "igdb_url": "https://www.igdb.com/games/109650",
   "giveaway_events": [
     {
       "start": "2026-02-12T16:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Join Detective McQueen as he puzzles his way through 6 cases, risking life and pixelated limb to solve the macabre mysteries that plague the poor town.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51604775413430274",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/795420/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/795420/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/795420/capsule_231x87.jpg",
@@ -158,5 +164,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-02-14T01:47:54.525Z",
-  "updated_at": "2026-04-25T05:55:23.768Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

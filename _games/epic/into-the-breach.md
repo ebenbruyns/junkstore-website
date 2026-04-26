@@ -19,11 +19,11 @@ developer: Subset Games
 genre: Turn-Based Strategy, Turn-Based, Rogue-Lite, Strategy
 franchise: 
 age_rating_summary: 
-release_date: "December 20, 2019"
+release_date: "December 19, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/27117"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-09-02T15:00:00.000Z","end":"2020-09-09T15:00:00.000Z","type":null,"id":"a08681e2143d4c218167e45d76db8de0"},{"start":"2019-12-18T15:00:00.000Z","end":"2019-12-19T15:00:00.000Z","type":null,"id":"a08681e2143d4c218167e45d76db8de0"}]
 

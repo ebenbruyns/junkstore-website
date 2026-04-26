@@ -18,7 +18,7 @@ publisher: Alawar Entertainment, Alawar Premium
 developer: Warm Lamp Games
 genre: Adventure, Strategy, Indie, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 16
 release_date: "October 22, 2018"
 game_modes: ["Single player"]
 languages: ["English*","Simplified Chinese*","Russian*","German","Korean","Polish","Spanish - Spain","Turkish*languages with full audio support"]

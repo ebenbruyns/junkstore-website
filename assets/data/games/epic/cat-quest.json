@@ -35,7 +35,7 @@
   "shortname": "051eaac0842c46d7a5a62858ad534d5a",
   "publisher": "Kepler Interactive",
   "developer": "The Gentlebros",
-  "releasedate": "2023-12-28T16:00:00.000Z",
+  "release_date": "2023-12-28",
   "genre": "Casual, RPG, Action-Adventure",
   "description": "The multi award-winning Action RPG. Cat Quest's loot-fuelled cat-venture is as beautifully crafted, as its combat and magic are ultra-satisfying. Universally adored by critics - it'll have you purring for joy!",
   "size": "",
@@ -130,8 +130,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 36597,
-  "igdb_url": "https://www.igdb.com/games/36597",
   "giveaway_events": [
     {
       "start": "2025-03-27T15:00:00.000Z",
@@ -148,7 +146,15 @@
   ],
   "was_free_before": true,
   "description_rich": "The multi award-winning Action RPG. Cat Quest's loot-fuelled cat-venture is as beautifully crafted, as its combat and magic are ultra-satisfying. Universally adored by critics - it'll have you purring for joy!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51142021964464923",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/8c3b2a62c9f48896ff5157c8a6906e284f63dead1be7f6d70beeccada06f9ab9.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e194b0fe734ecb33551d07edb91983a5140460241f12a8d4a37e8c278b0664e4.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9e392b4095bfb0fb23ce89fccb1d97985497fc82ef005f888458802194497835.jpg?namespace=gamesdb",
@@ -172,5 +178,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:16.754Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

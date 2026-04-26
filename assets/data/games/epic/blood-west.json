@@ -35,7 +35,7 @@
   "shortname": "311021f116f243a0b3e8d2dc2b6b90f9",
   "publisher": "Hyperstrange",
   "developer": "Hyperstrange",
-  "releasedate": "2024-07-08T13:00:00.000Z",
+  "release_date": "2024-07-08",
   "genre": "First Person, Shooter, Stealth",
   "description": "Weird west legends meet eldritch horror in BLOOD WEST, an immersive stealth FPS. Become the Undead Gunslinger, doomed to roam the barren lands until he manages to purge their curse, freeing his soul. 3 varied scenarios, perk-based progression, and 20+ hours of gameplay await you!",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 188555,
-  "igdb_url": "https://www.igdb.com/games/188555",
   "giveaway_events": [
     {
       "start": "2025-12-20T16:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Weird west legends meet eldritch horror in BLOOD WEST, an immersive stealth FPS. Become the Undead Gunslinger, doomed to roam the barren lands until he manages to purge their curse, freeing his soul. 3 varied scenarios, perk-based progression, and 20+ hours of gameplay await you!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55139392654083011",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1587130/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1587130/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1587130/capsule_231x87.jpg",
@@ -155,5 +161,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-20T22:19:51.896Z",
-  "updated_at": "2026-04-25T02:17:12.319Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

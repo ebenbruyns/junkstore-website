@@ -18,7 +18,7 @@ publisher: 2K Games
 developer: Firaxis Games
 genre: Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 6 · PEGI 12
 release_date: "October 11, 2012"
 game_modes: ["Single-player","Multi-player"]
 languages: ["English*","German*","French*","Italian*","Korean","Spanish - Spain*","Russian*","Japanese","Polish*","Traditional Chinese*languages with full audio support"]

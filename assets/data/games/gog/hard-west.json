@@ -35,7 +35,7 @@
   "shortname": "1442827661",
   "publisher": "Gambitious Digital Entertainment",
   "developer": "CreativeForge Games",
-  "releasedate": "11-2015",
+  "release_date": "2015-11-01",
   "genre": "role-playing, strategy, turn-based, western",
   "description": "A supernatural turn-based strategy game in the Wild West. Lead an unlikely posse of heroes across multiple challenging scenarios. Recruit new members and unlock new abilities. Collect upgradeable gear and grow in power to make your story truly legendary.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51152952865336223",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:39:02.464Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

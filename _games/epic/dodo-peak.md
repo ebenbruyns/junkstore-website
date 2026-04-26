@@ -23,7 +23,7 @@ release_date: "August 3, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1198","name":"Retro"},{"id":"1151","name":"Platformer"}]
-igdb_url: "https://www.igdb.com/games/124397"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-08-16T15:00:00.000Z","end":"2023-08-23T15:00:00.000Z","type":null,"id":"97576d7026ab4e4181fdf9b8711a95d9"}]
 

@@ -19,11 +19,11 @@ developer: Dope Games
 genre: Simulation, Strategy, Indie
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "January 30, 2026"
+release_date: "January 29, 2026"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Japanese","Spanish - Latin America","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"21136","name":"Playful Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/143078"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-01-29T16:00:00.000Z","end":"2026-02-05T16:00:00.000Z","type":null,"id":"b916500f733b4973802bdb4fdb276515"}]
 

@@ -23,7 +23,7 @@ release_date: "March 10, 2022"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Portuguese - Portugal","Danish","Finnish","Korean"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/141373"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-08-31T15:00:00.000Z","end":"2022-09-07T15:00:00.000Z","type":null,"id":"befad00f8b354f52a4f10e927025e9f8"}]
 

@@ -18,7 +18,7 @@ publisher: Walkabout Games
 developer: Atomic Wolf
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 16
 release_date: "June 2, 2020"
 game_modes: ["Single player"]
 languages: ["English","French","German","Polish","Portuguese","Portuguese (Brazil)","Russian","Spanish","zh-Hans"]

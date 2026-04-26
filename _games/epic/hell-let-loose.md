@@ -19,11 +19,11 @@ developer: Team17
 genre: First Person, Shooter
 franchise: Hell Let Loose
 age_rating_summary: ESRB Mature 17+
-release_date: "January 3, 2025"
+release_date: "January 2, 2025"
 game_modes: ["Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"39940","name":"Gift A Game"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21135","name":"Realistic Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1210","name":"Shooter"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/32365"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-02T16:00:00.000Z","end":"2025-01-09T16:00:00.000Z","type":null,"id":"5cee37b551534963887a11f6744f6951"}]
 

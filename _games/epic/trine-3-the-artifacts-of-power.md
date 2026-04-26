@@ -19,11 +19,11 @@ developer: Frozenbyte
 genre: Puzzle, Action-Adventure, Platformer
 franchise: Trine
 age_rating_summary: ESRB Everyone 10+
-release_date: "January 1, 2026"
+release_date: "December 31, 2025"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","French*","Italian","German*","Spanish - Spain*","Danish","Norwegian","Russian*","Swedish","Portuguese - Brazil*"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"}]
-igdb_url: "https://www.igdb.com/games/8255"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

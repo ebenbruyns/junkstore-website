@@ -19,7 +19,7 @@ developer: hempuli
 genre: Strategy, Indie, Puzzle
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "March 1, 2019"
 game_modes: ["Single player"]
 languages: ["English","Spanish - Spain","Korean","Norwegian","Polish","Thai","French","Italian","Dutch","Japanese"]
 tags_structured: []

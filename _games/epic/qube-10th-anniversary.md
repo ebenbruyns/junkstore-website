@@ -19,11 +19,11 @@ developer: Toxic Games
 genre: Puzzle, Action-Adventure, First Person
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "September 30, 2022"
+release_date: "September 29, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"21150","name":"Challenging Puzzles"}]
-igdb_url: "https://www.igdb.com/games/5445"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

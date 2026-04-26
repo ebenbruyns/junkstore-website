@@ -19,7 +19,7 @@ developer: inXile Entertainment
 genre: Role-playing (RPG)
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "August 1, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: []

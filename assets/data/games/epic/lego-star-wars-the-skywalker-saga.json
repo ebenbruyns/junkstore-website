@@ -35,7 +35,7 @@
   "shortname": "c390e58246ea4a778acd26473a489b48",
   "publisher": "Warner Bros.",
   "developer": "TT Games",
-  "releasedate": "2022-04-05T17:00:00.000Z",
+  "release_date": "2022-04-05",
   "genre": "Action, Adventure",
   "description": "Play through all nine Skywalker saga films in a game unlike any other. With over 300 playable characters, over 100 vehicles, and 23 planets to explore, a galaxy far, far away has never been more fun! \n\n*Includes classic Obi-Wan Kenobi playable character",
   "size": "",
@@ -126,8 +126,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 119305,
-  "igdb_url": "https://www.igdb.com/games/119305",
   "giveaway_events": [
     {
       "start": "2025-05-04T15:00:00.000Z",
@@ -144,7 +142,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Play through all nine Skywalker saga films in a game unlike any other. With over 300 playable characters, over 100 vehicles, and 23 planets to explore, a galaxy far, far away has never been more fun! \n\n*Includes classic Obi-Wan Kenobi playable character",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52349201140469015",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/b7bfa836f251c85e369d654b237a9f5238acede712a8576644ac5887bb9a396c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/eb44ac521a572e8e9a679e34eeb35afec305b6ef52c14a26b14f52d0661672c1.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/267edb798f59e49175189e0095553aeeeb33cfbbb1e44da6e9d739525a41ae96.jpg?namespace=gamesdb",
@@ -171,5 +177,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:43:10.098Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

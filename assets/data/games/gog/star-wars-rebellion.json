@@ -35,7 +35,7 @@
   "shortname": "1421404828",
   "publisher": "Disney Interactive, LucasArts",
   "developer": "LucasArts",
-  "releasedate": "1998-02-28T00:00:00+0000",
+  "release_date": "1998-02-28",
   "genre": "Strategy",
   "description": "Subvert the Empire. Crush the Alliance. Your Choice. Your Destiny.\n\nIt is a time of great upheaval. The first Death Star has been destroyed, marking a major victory for the Rebellion. But the Empire remains strong. As commander, you must choose to take control of either the Rebel Alliance or the Galactic Empire. Your goal: complete domination of the galaxy.\n\nTake the galaxy by force. Take the galaxy through diplomacy. Take the galaxy via covert operations. Earn the loyalty (or resentment) of up to 200 worlds. Star Wars Rebellion gives you a myraid of means to implement strategy and tactics on a grand scale and in a real-time environment. With control of the entire Star Wars galaxy as the prize, will the Force be with you? Discover for yourself.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51154260086887674",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -81,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:37:44.503Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

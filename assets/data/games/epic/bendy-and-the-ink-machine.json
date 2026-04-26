@@ -35,7 +35,7 @@
   "shortname": "39700e23ec114d7581aedea23779ce2d",
   "publisher": "Joey Drew Studio",
   "developer": "Joey Drew Studio",
-  "releasedate": "2025-09-09T17:00:00.000Z",
+  "release_date": "2025-09-09",
   "genre": "Horror, First Person, Indie",
   "description": "Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons.",
   "size": "1.18 GB",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2025-10-30T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51141487222391408",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/622650/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/622650/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/622650/capsule_231x87.jpg",
@@ -162,5 +168,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-10-25T04:36:14.775Z",
-  "updated_at": "2026-04-25T02:15:59.055Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

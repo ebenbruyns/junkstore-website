@@ -19,11 +19,11 @@ developer: Paradox Development Studio
 genre: Simulation, Strategy
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "October 1, 2021"
+release_date: "September 30, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","German","French","Spanish - Spain"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/1904"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-08-09T15:00:00.000Z","end":"2023-08-16T15:00:00.000Z","type":null,"id":"45b82cb4454b40439b61ba126adfabec"},{"start":"2021-09-29T15:00:00.000Z","end":"2021-10-06T15:00:00.000Z","type":null,"id":"45b82cb4454b40439b61ba126adfabec"}]
 

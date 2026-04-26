@@ -14,8 +14,8 @@ date_tested: "Sept '24"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
-developer: NIL, NIL
+publisher: Valkyrie Initiative
+developer: 1917 Studios
 genre: Role-playing (RPG), Adventure
 franchise: 
 age_rating_summary: 

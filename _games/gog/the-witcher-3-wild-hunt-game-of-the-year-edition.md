@@ -18,8 +18,8 @@ publisher: CD PROJEKT RED
 developer: CD PROJEKT RED
 genre: Role-playing (RPG), Adventure, Action
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 17 · PEGI 18
+release_date: "August 1, 2016"
 game_modes: ["Single player"]
 languages: ["Arabic","Portuguese (Brazil)","Chinese (Simplified)","Czech","German","English (United States)","Spanish (Spain)","Spanish (Mexico)","French","Hungarian","Italian","Japanese","Korean","Polish","Russian","Turkish"]
 tags_structured: []

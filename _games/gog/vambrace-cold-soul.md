@@ -18,7 +18,7 @@ publisher: Headup Games
 developer: Devespresso Games
 genre: Role-playing (RPG), Adventure, Strategy, Turn-based strategy (TBS), Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 12
 release_date: "May 28, 2019"
 game_modes: ["Single player"]
 languages: ["English"]

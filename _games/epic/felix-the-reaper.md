@@ -19,7 +19,7 @@ developer: Kong Orange
 genre: Puzzle, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "November 7, 2099"
+release_date: "November 6, 2099"
 game_modes: ["Single-player"]
 languages: ["English*","German","French","Italian","Spanish - Spain","Portuguese - Brazil","Japanese","Korean","Polish","Russian"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]

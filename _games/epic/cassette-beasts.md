@@ -19,7 +19,7 @@ developer: Bytten Studio
 genre: Indie, RPG
 franchise: 
 age_rating_summary: 
-release_date: "January 2, 2099"
+release_date: "January 1, 2099"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Simplified Chinese","Spanish - Latin America","Portuguese - Brazil*languages with full audio support"]
 tags_structured: []

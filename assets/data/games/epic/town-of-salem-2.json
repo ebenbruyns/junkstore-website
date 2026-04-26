@@ -35,7 +35,7 @@
   "shortname": "fec1a1199e624a79b6293cef4e1d3505",
   "publisher": "Digital Bandidos",
   "developer": "BlankMediaGames",
-  "releasedate": "2024-04-18T15:00:00.000Z",
+  "release_date": "2024-04-18",
   "genre": "Casual, Party, Strategy",
   "description": "Step into the Town of Salem, a realm of Mystery and Deceit awaits! Join us in this thrilling online strategy game. Experience paranoia, taste triumph, and confront Murder in every move!",
   "size": "",
@@ -134,8 +134,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 247531,
-  "igdb_url": "https://www.igdb.com/games/247531",
   "giveaway_events": [
     {
       "start": "2024-04-17T15:00:00.000Z",
@@ -146,7 +144,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Step into the Town of Salem, a realm of Mystery and Deceit awaits! Join us in this thrilling online strategy game. Experience paranoia, taste triumph, and confront Murder in every move!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "56465958812533098",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/2140510/library_600x900.jpg",
   "banner_image": "https://images.gog.com/ed86f4499544d91fc140024019d4d9a3695959fdddd5986ce15b2d19289db51d.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2140510/capsule_231x87.jpg",
@@ -180,5 +186,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-25T02:14:09.912Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -19,7 +19,7 @@ developer: Dragonest Games
 genre: Strategy
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "August 24, 2019"
+release_date: "August 23, 2019"
 game_modes: ["Multiplayer"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Russian","Japanese","Thai","Simplified Chinese*","Traditional Chinese"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1141","name":"Free to Play"},{"id":"21141","name":"Extremely Fun"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"}]

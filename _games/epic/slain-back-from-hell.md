@@ -19,11 +19,11 @@ developer: Steel Mantis
 genre: Action, Platformer, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "October 7, 2022"
+release_date: "October 6, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/18509"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-10-05T15:00:00.000Z","end":"2022-10-12T15:00:00.000Z","type":null,"id":"e5267e621ed14b84829c82a69e289c8e"}]
 

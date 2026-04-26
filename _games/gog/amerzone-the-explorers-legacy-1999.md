@@ -18,7 +18,7 @@ publisher: Microïds, Anuman Interactive
 developer: Virtual Studio
 genre: Adventure, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 6 · PEGI 3
 release_date: "March 18, 1999"
 game_modes: ["Single player"]
 languages: ["English"]

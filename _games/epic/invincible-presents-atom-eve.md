@@ -19,11 +19,11 @@ developer: Terrible Posture Games
 genre: Narration, Adventure
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "November 15, 2023"
+release_date: "November 14, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-igdb_url: "https://www.igdb.com/games/260366"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-17T15:00:00.000Z","end":"2024-10-24T15:00:00.000Z","type":null,"id":"d8abd7984d034e21acafbce5ba0cca9b"},{"start":"2024-03-20T15:00:00.000Z","end":"2024-03-27T15:00:00.000Z","type":null,"id":"d8abd7984d034e21acafbce5ba0cca9b"}]
 

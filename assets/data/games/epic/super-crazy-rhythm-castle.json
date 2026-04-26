@@ -35,7 +35,7 @@
   "shortname": "8c5172fc5e454598aab78a4a19791638",
   "publisher": "KONAMI",
   "developer": "Second Impact Games Ltd.",
-  "releasedate": "2024-08-15T00:00:00.000Z",
+  "release_date": "2024-08-15",
   "genre": "Action, Indie, Puzzle",
   "description": "It’s Super Crazy Rhythm Castle, the chaotic rhythm adventure! A puzzling co-op mashup unlike anything you've ever heard. Solo, or with a band of up to three friends … … Can you conquer the castle?",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 258252,
-  "igdb_url": "https://www.igdb.com/games/258252",
   "giveaway_events": [
     {
       "start": "2024-09-12T15:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "It’s Super Crazy Rhythm Castle, the chaotic rhythm adventure! A puzzling co-op mashup unlike anything you've ever heard. Solo, or with a band of up to three friends … … Can you conquer the castle?",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "56718415144588588",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/6d11ab15d39f91551e0640404e73ac7ceaa533265db9c3f52e774ce5a5eb18c4.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/1a27adc59b4c52ea647b1a739b7a382414da88e30d33625c8296fe3ed472bf72.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ee835ec53a0632d9f2aaae8b19b8dff652f7a56fa6665dc34869faa82d8326bf.jpg?namespace=gamesdb",
@@ -152,5 +158,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:44:40.845Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

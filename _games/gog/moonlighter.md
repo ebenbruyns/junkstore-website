@@ -18,7 +18,7 @@ publisher: 11 bit studios
 developer: Digital Sun Games
 genre: "Role-playing (RPG), Adventure, Indie, Simulator, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 7
 release_date: "May 29, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -63,8 +63,8 @@ store_url: "https://www.gog.com/en/game/moonlighter"
 protondb_url: "https://www.protondb.com/app/606150"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Moonlighter"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 81
+metacritic_url: "https://www.metacritic.com/game/moonlighter/"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. You need to install the C++ runtime dependency."

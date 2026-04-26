@@ -19,11 +19,11 @@ developer: Amanita Design
 genre: Puzzle, Adventure, Indie
 franchise: Samorost
 age_rating_summary: ESRB Everyone
-release_date: "July 1, 2023"
+release_date: "June 30, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Arabic*","Portuguese - Brazil*","Bulgarian*","Danish*","Finnish*"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/8621"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-09-18T15:00:00.000Z","end":"2025-09-25T15:00:00.000Z","type":null,"id":"15176675e3bd4fcc98949566caa754e4"}]
 

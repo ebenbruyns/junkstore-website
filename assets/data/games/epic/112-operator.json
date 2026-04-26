@@ -35,7 +35,7 @@
   "shortname": "59aaa2432a784431b0bfdbb54f3554ee",
   "publisher": "Games Operators",
   "developer": "Jutsu Games",
-  "releasedate": "2025-08-07T15:00:00.000Z",
+  "release_date": "2025-08-07",
   "genre": "Casual, Simulation, Strategy",
   "description": "Manage emergency services in any city in the world! Take calls and dispatch rescue forces. Handle difficult situations, now depending on the weather, and traffic. Help the citizens through cataclysms and natural disasters, becoming a better emergency number operator every day!",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2025-08-07T15:00:00.000Z",
@@ -122,7 +120,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Manage emergency services in any city in the world! Take calls and dispatch rescue forces. Handle difficult situations, now depending on the weather, and traffic. Help the citizens through cataclysms and natural disasters, becoming a better emergency number operator every day!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52011934337826264",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/40a4395b6755b5bcb39000298da3ca4120a703318cfb28aef3f4f8b67d1e040a.jpg?namespace=gamesdb.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/3389d8098c4710422f5ec78e00e2bc009e8f7520e49035ce808fc366ea0174ce.jpg?namespace=gamesdb.jpg?namespace=gamesdb",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/793460/capsule_231x87.jpg",
@@ -146,5 +152,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-11T10:15:53.024Z",
-  "updated_at": "2026-04-25T02:46:22.340Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

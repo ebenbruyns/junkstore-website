@@ -19,11 +19,11 @@ developer: The Dreamerians
 genre: Casual, Action-Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "April 4, 2026"
+release_date: "April 3, 2026"
 game_modes: ["Single-player"]
 languages: ["English*","German","Spanish - Latin America*languages with full audio support"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/122733"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

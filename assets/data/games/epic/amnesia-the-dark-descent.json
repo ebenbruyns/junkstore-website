@@ -35,7 +35,7 @@
   "shortname": "93228a1a7b2b4205811d8edf930a0c18",
   "publisher": "Frictional Games",
   "developer": "Frictional Games",
-  "releasedate": "2020-04-30T15:00:00.000Z",
+  "release_date": "2020-04-30",
   "genre": "Horror, First Person",
   "description": "Amnesia: The Dark Descent, a first person survival horror. A game about immersion, discovery and living through a nightmare. An experience that will chill you to the core.",
   "size": "",
@@ -102,8 +102,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 111,
-  "igdb_url": "https://www.igdb.com/games/111",
   "giveaway_events": [
     {
       "start": "2020-04-29T15:00:00.000Z",
@@ -114,7 +112,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Amnesia: The Dark Descent, a first person survival horror. A game about immersion, discovery and living through a nightmare. An experience that will chill you to the core.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51141421459121357",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/c249233f5ae92174498f2252eae54d2ee01ff11d934063801d80f28059ca4c27.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/26960cb6d47a6a0709e2644c1626a780fabccf5c65741fd033abfd50f1024657.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/698ae66ee45c34b46c79f5b985349b3d4b1eab367bc104859ecbee918676669f.jpg?namespace=gamesdb",
@@ -138,5 +144,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:41:57.122Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

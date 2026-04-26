@@ -19,11 +19,11 @@ developer: Mane6
 genre: Fighting, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "December 20, 2022"
+release_date: "December 19, 2022"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1344","name":"Fighting"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/203089"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-03-06T16:00:00.000Z","end":"2025-03-13T15:00:00.000Z","type":null,"id":"1f723b00df58467998c4984ca39915ad"},{"start":"2022-12-18T15:00:00.000Z","end":"2022-12-19T15:00:00.000Z","type":null,"id":"1f723b00df58467998c4984ca39915ad"}]
 

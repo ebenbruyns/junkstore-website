@@ -19,7 +19,7 @@ developer: Terrible Posture Games LLC
 genre: Action
 franchise: 3 out of 10, EP
 age_rating_summary: 
-release_date: "August 7, 2020"
+release_date: "August 6, 2020"
 game_modes: ["Single Player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1141","name":"Free to Play"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]

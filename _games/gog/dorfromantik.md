@@ -19,7 +19,7 @@ developer: Toukana Interactive
 genre: Casual, Indie, Simulation, Strategy
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "March 1, 2021"
 game_modes: ["Single-player"]
 languages: ["English","German","French","Italian","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America","Traditional Chinese","Polish"]
 tags_structured: []

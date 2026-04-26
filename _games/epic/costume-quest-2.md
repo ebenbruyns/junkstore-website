@@ -19,7 +19,7 @@ developer: Double Fine Productions
 genre: Action, Action-Adventure, Turn-Based, Adventure
 franchise: Costume Quest
 age_rating_summary: 
-release_date: "October 23, 2020"
+release_date: "October 22, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1386","name":"Turn-Based"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]

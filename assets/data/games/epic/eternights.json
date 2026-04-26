@@ -35,7 +35,7 @@
   "shortname": "6ee8fe4d83fe49e49cbb79741616ec3b",
   "publisher": "Studio Sai",
   "developer": "Studio Sai",
-  "releasedate": "2023-09-12T07:00:00.000Z",
+  "release_date": "2023-09-12",
   "genre": "Action, RPG, Indie",
   "description": "Eternights is a dating action game where you try to make the most out of life during the apocalypse. Monday: Go on a date. Tuesday: Clear dungeon. Friday: Freak out! The clock is ticking!!",
   "size": "",
@@ -106,8 +106,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 203367,
-  "igdb_url": "https://www.igdb.com/games/203367",
   "giveaway_events": [
     {
       "start": "2025-12-19T16:00:00.000Z",
@@ -118,7 +116,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Eternights is a dating action game where you try to make the most out of life during the apocalypse. Monday: Go on a date. Tuesday: Clear dungeon. Friday: Freak out! The clock is ticking!!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55506024066536401",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/9df19abab215477c9a840e39b91e6ee13e8fc56e25abecebb4d163e015640dcc.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a1a099bd9e2af6310c2b0ec42a9c7426c163471cfee78381493b796a92885c85.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6bec0b9ef8b9825a6c8d29024506496a4de72f182732a29d8d1d87e4d8d1bc3b.jpg?namespace=gamesdb",
@@ -142,5 +148,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:41:22.587Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

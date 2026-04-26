@@ -15,7 +15,7 @@ proton_version: ""
 
 # Game Info
 publisher: Prismatika
-developer: NIL, NIL
+developer: Sever
 genre: Adventure, Indie, Point-and-click
 franchise: 
 age_rating_summary: 

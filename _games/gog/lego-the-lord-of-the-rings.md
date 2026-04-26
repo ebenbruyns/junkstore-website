@@ -18,7 +18,7 @@ publisher: WB Games, Feral Interactive
 developer: "Traveller's Tales"
 genre: Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 10 · PEGI 7
 release_date: "November 13, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["Danish","Dutch","English*","French*","German*","Italian","Polish","Russian","Spanish - Spain*languages with full audio support"]

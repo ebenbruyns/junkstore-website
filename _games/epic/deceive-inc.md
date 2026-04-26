@@ -19,11 +19,11 @@ developer: Sweet Bandits Studios
 genre: Shooter, Strategy
 franchise: 
 age_rating_summary: 
-release_date: "March 22, 2023"
+release_date: "March 21, 2023"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English*","French*","German","Japanese","Korean","Russian","Traditional Chinese","Spanish - Spain","Simplified Chinese","Spanish - Latin America*languages with full audio support"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"21125","name":"Competitive Community"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1210","name":"Shooter"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/123192"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-11-07T16:00:00.000Z","end":"2024-11-14T16:00:00.000Z","type":null,"id":"327e2f6dbe2b4859b3e1ba4f69dff5c2"}]
 

@@ -14,7 +14,7 @@ date_tested: "Nov '25"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
+publisher: Blackpowder Games
 developer: Blackpowder Games
 genre: Adventure, Indie, Shooter
 franchise: 

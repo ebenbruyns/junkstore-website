@@ -35,7 +35,7 @@
   "shortname": "Duckbill",
   "publisher": "Team17 Digital Ltd",
   "developer": "Playtonic Games Ltd.",
-  "releasedate": "2017-04-11T16:00:00.000Z",
+  "release_date": "2017-04-11",
   "genre": "Adventure, Platformer",
   "description": "Yooka-Laylee and the Impossible Lair is a brand-new platform adventure from some of the key creative talent behind 'Donkey Kong Country'. With their arch-nemesis Capital B up to no good the buddy duo needs to spring into action once again to save the day!",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2022-02-02T15:00:00.000Z",
@@ -132,7 +130,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Yooka-Laylee and the Impossible Lair is a brand-new platform adventure from some of the key creative talent behind 'Donkey Kong Country'. With their arch-nemesis Capital B up to no good the buddy duo needs to spring into action once again to save the day!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52342323175436356",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/669ab147674cae23a40844d4c0eb6c3728ecf37dc6619c8d9e03b3fd493c342e.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d01a503bdde948bb216cccbf4dcf639fcf4423b91992f7a347190f7041cdf10b.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ac71aac90d37937ec348811902e684c915ad6125b920c133cb69311ca917a604.jpg?namespace=gamesdb",
@@ -155,5 +161,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:46:12.547Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

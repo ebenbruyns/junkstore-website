@@ -18,7 +18,7 @@ publisher: Deep Silver, Deep Silver
 developer: 4A Games
 genre: Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "August 26, 2014"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Czech","Dutch","Polish","Russian*","Ukrainian**languages with full audio support"]

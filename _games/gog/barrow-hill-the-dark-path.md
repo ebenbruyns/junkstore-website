@@ -18,8 +18,8 @@ publisher: Iceberg Interactive
 developer: Shadow Tor Studios
 genre: adventure, indie, point-and-click
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 13 · PEGI 12
+release_date: "September 1, 2016"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

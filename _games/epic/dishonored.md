@@ -19,11 +19,11 @@ developer: Arkane Studios
 genre: Action, Stealth, Adventure
 franchise: Dishonored -
 age_rating_summary: ESRB Mature 17+
-release_date: "November 4, 2022"
+release_date: "November 3, 2022"
 game_modes: ["Single player"]
 languages: ["English*","German*","French*","Italian*","Spanish - Spain**languages with full audio support"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1084","name":"Stealth"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/11118"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

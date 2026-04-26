@@ -35,7 +35,7 @@
   "shortname": "Calluna",
   "publisher": "Remedy Entertainment",
   "developer": "Remedy Entertainment Plc",
-  "releasedate": "2019-08-27T15:00:00.000Z",
+  "release_date": "2019-08-27",
   "genre": "Action, Adventure",
   "description": "After a secretive agency in New York is invaded by an otherworldly threat, you become the new Director struggling to regain Control.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2024-12-25T16:00:00.000Z",
@@ -142,7 +140,15 @@
   ],
   "was_free_before": true,
   "description_rich": "After a secretive agency in New York is invaded by an otherworldly threat, you become the new Director struggling to regain Control.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51296940896594468",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/a7109b6805ba44c05a110ceb6401422f3ed6de9289f95216b979b918ad3a0e95.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d76cff73fe6d26607f202fe6abc314e7b113f36dea7c89c3d568d2b183701ef7.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f5d4c750155f5ed637ed1b3c207b01d32429ded62d66a41e654a5894abbc6906.jpg?namespace=gamesdb",
@@ -165,5 +171,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:22.383Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

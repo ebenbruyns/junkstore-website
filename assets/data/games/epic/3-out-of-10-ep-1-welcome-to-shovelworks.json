@@ -35,7 +35,7 @@
   "shortname": "Flounder",
   "publisher": "",
   "developer": "Terrible Posture Games LLC",
-  "releasedate": "2020-08-06T15:00:00.000Z",
+  "release_date": "2020-08-06",
   "genre": "Action",
   "description": "Midge joins Shovelworks Studios as a new animator, but not all is as it seems at the studio.",
   "size": "574 MB",
@@ -66,8 +66,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2020-08-05T15:00:00.000Z",
@@ -78,7 +76,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Midge joins Shovelworks Studios as a new animator, but not all is as it seems at the studio.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53579369600016555",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "53527781917829838",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/8b9de4f9c215ffe205af92cf7c6c1b0b5c6f96ad57b466b341c05812ba8e4d55.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/77861f38eb0bdc97b5fd50a0d539cf888b19c61a828532e78259d89f67521e55.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -102,5 +108,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T01:04:42.737Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

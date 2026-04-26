@@ -18,7 +18,7 @@ publisher: Sega, Sega Corporation, Sega Games
 developer: Ryu Ga Gotoku Studios, Sega Games
 genre: role-playing-rpg, adventure, simulator, hack-and-slash-beat-em-up
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "March 12, 2015"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]

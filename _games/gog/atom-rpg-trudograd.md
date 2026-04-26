@@ -19,8 +19,8 @@ developer: AtomTeam
 genre: Role-playing (RPG), Turn-based strategy
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
-game_modes: []
+release_date: "May 1, 2020"
+game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []
 igdb_url: ""
@@ -73,7 +73,7 @@ performance_notes:
 known_issues: 
 
 # Meta
-database_id: "1139940"
+database_id: "1818710374"
 is_featured: false
 owned: false
 ---

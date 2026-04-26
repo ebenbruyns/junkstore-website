@@ -19,11 +19,11 @@ developer: Mr. Pink
 genre: Action, Stealth, Retro
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "October 15, 2023"
+release_date: "October 14, 2023"
 game_modes: ["Single player"]
 languages: ["English","Russian","German","Spanish - Spain","French","Italian","Portuguese - Brazil","Korean","Simplified Chinese","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"1198","name":"Retro"}]
-igdb_url: "https://www.igdb.com/games/130218"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-11-08T15:00:00.000Z","end":"2023-11-15T15:00:00.000Z","type":null,"id":"f787056536bf43298e39305a0c5c20c8"}]
 

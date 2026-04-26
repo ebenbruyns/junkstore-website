@@ -35,7 +35,7 @@
   "shortname": "3206dba3f9b14fd3b01c18f9dcbc864a",
   "publisher": "Bethesda Softworks",
   "developer": "Arkane Studios",
-  "releasedate": "2022-03-24T15:00:00.000Z",
+  "release_date": "2022-03-24",
   "genre": "Action, Stealth, Adventure",
   "description": "DEATHLOOP is a next-gen first person shooter from Arkane Lyon, the award-winning studio behind Dishonored. In DEATHLOOP, two rival assassins are trapped in a mysterious timeloop on the island of Blackreef, doomed to repeat the same day for eternity.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 113598,
-  "igdb_url": "https://www.igdb.com/games/113598",
   "giveaway_events": [
     {
       "start": "2025-06-05T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "DEATHLOOP is a next-gen first person shooter from Arkane Lyon, the award-winning studio behind Dishonored. In DEATHLOOP, two rival assassins are trapped in a mysterious timeloop on the island of Blackreef, doomed to repeat the same day for eternity.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51909564339298443",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/6deabd4cec8430e32e6013d50fad19063571491a93ea94c47349778ae7de3c1f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a44340913a269b0dd41cbdebf1eb608c11354cebfc779db7a09625f8aa892d68.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9596be4f76e23ca041d6588c3fed52c56c58bd88d9470226eea3b0a816d71200.jpg?namespace=gamesdb",
@@ -155,5 +161,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:27.861Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

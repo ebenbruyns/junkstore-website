@@ -35,7 +35,7 @@
   "shortname": "1355225376",
   "publisher": "HypeTrain Digital, Roman Glebenkov",
   "developer": "Roman Glebenkov, Explosive Squat Games",
-  "releasedate": "2021-07-26T00:00:00+0000",
+  "release_date": "2021-07-26",
   "genre": "Indie, Shooter, Tactical",
   "description": "Teeth-clenching stealth, followed by hardcore gunplay for those not looking for a quiet way in. Intravenous will keep you at the edge of your seat regardless of how you play!",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "54197008413459629",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -87,5 +87,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T21:09:29.289Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

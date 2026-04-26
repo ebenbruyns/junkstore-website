@@ -35,7 +35,7 @@
   "shortname": "Eel",
   "publisher": "Deep Silver",
   "developer": "Warhorse Studios",
-  "releasedate": "2020-02-13T16:00:00.000Z",
+  "release_date": "2020-02-13",
   "genre": "Action, RPG, Open World, Adventure",
   "description": "Kingdom Come: Deliverance is a story-driven open-world RPG that immerses you in an epic adventure in the Holy Roman Empire. Avenge your parents' death as you battle invading forces, go on game-changing quests, and make influential choices.",
   "size": "60660732590\n",
@@ -142,8 +142,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 4843,
-  "igdb_url": "https://www.igdb.com/games/4843",
   "giveaway_events": [
     {
       "start": "2025-01-01T16:00:00.000Z",
@@ -160,7 +158,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Kingdom Come: Deliverance is a story-driven open-world RPG that immerses you in an epic adventure in the Holy Roman Empire. Avenge your parents' death as you battle invading forces, go on game-changing quests, and make influential choices.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51153182152842676",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/5f27e41fb277deec694a2a44c0a24ed656860ad62bdd4af4893e3c84f3051041.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/06da8ac03b7c4cb90ad86b511919b6895adde6a1c393411a4a280e072c693186.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/5e32f4b72226ff3066f8dc8a14a6a336beb2a9da84dfecc0a395468fa537567a.jpg?namespace=gamesdb",
@@ -183,5 +189,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:42:32.569Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -35,7 +35,7 @@
   "shortname": "76233c0af0a441c7bd541e7d7ab3cde1",
   "publisher": "Daedalic Entertainment",
   "developer": "Indoor Astronaut",
-  "releasedate": "2022-04-25T16:00:00.000Z",
+  "release_date": "2022-04-25",
   "genre": "Action, Indie, Party",
   "description": "Unrailed! is a co-op multiplayer game where you have to work together with your friends to build a train track across endless procedurally generated worlds. Master random encounters with its inhabitants, upgrade your train and keep it from derailing!",
   "size": "",
@@ -134,8 +134,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 115201,
-  "igdb_url": "https://www.igdb.com/games/115201",
   "giveaway_events": [
     {
       "start": "2022-08-03T15:00:00.000Z",
@@ -146,7 +144,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Unrailed! is a co-op multiplayer game where you have to work together with your friends to build a train track across endless procedurally generated worlds. Master random encounters with its inhabitants, upgrade your train and keep it from derailing!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52008920376253461",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/b30d7650c5e0406aac19fb8ecb0ef486877ec329756e71ec955ccc8354a9cc4a.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/65ed57a046aee44dbb35ff73ce8e4866a5603018f46ec42a8448ff7572d4e2a9.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/173496952263f8b731dad7c80e566e7f24e7f7efa911a737534e35ff229a388d.jpg?namespace=gamesdb",
@@ -172,5 +178,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T01:17:07.171Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

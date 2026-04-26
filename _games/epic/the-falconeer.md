@@ -19,7 +19,7 @@ developer: Tomas Sala
 genre: Action, Open World, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "August 6, 2021"
+release_date: "August 5, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"1263","name":"Indie"}]

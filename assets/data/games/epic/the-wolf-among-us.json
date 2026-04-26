@@ -35,7 +35,7 @@
   "shortname": "Cobbler",
   "publisher": "Telltale Games",
   "developer": "Telltale Games",
-  "releasedate": "2019-12-01T17:00:00.000Z",
+  "release_date": "2019-12-01",
   "genre": "Action, Adventure",
   "description": "Based on the award-winning Fables comic books (DC Comics/Vertigo). As Bigby Wolf - THE big bad wolf - discover that a brutal, bloody murder is just a taste of things to come in a game series where your every decision can have enormous consequences.",
   "size": "",
@@ -70,8 +70,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2019-12-11T15:00:00.000Z",
@@ -82,7 +80,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Based on the award-winning Fables comic books (DC Comics/Vertigo). As Bigby Wolf - THE big bad wolf - discover that a brutal, bloody murder is just a taste of things to come in a game series where your every decision can have enormous consequences.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51295405689514142",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/45fe32d8cdb9c7fda468eff071d6fb7f736560da19dbcbc967347b8ab9901969.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/69063ca937da983e467d6c5e035942e19067b3a01be968b93b7fdeead33c051e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/49f976b81be54ae20dd5d49235e6a349e991532f1611236d62dc5ee4a017f1e1.jpg?namespace=gamesdb",
@@ -106,5 +112,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:44:34.572Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

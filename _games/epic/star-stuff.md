@@ -19,11 +19,11 @@ developer: Ánimo Games Studio
 genre: Casual, Puzzle, Platformer
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "January 18, 2025"
+release_date: "January 17, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"},{"id":"1151","name":"Platformer"}]
-igdb_url: "https://www.igdb.com/games/198629"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

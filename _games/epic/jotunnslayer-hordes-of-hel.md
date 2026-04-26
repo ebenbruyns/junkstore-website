@@ -19,11 +19,11 @@ developer: Games Farm
 genre: Action, Indie, RPG
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "January 22, 2025"
+release_date: "January 21, 2025"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Slovak"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/296290"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-18T16:00:00.000Z","end":"2025-12-19T16:00:00.000Z","type":null,"id":"1f5e404bb1144fecb8616c2c7bdf3ac6"}]
 

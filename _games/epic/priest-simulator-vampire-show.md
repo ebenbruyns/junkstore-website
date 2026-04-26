@@ -23,7 +23,7 @@ release_date: "September 26, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"9547","name":"Windows"},{"id":"1116","name":"Comedy"}]
-igdb_url: "https://www.igdb.com/games/110993"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

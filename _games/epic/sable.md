@@ -19,11 +19,11 @@ developer: Shedworks
 genre: Indie, Open World, Adventure
 franchise: 
 age_rating_summary: 
-release_date: "September 24, 2021"
+release_date: "September 23, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21124","name":"Kind Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21130","name":"Easy Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1307","name":"Open World"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/79995"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-06-26T15:00:00.000Z","end":"2025-07-03T15:00:00.000Z","type":null,"id":"d19627e74ac445bcbcfc8157a35d6f80"},{"start":"2022-12-17T15:00:00.000Z","end":"2022-12-18T15:00:00.000Z","type":null,"id":"d19627e74ac445bcbcfc8157a35d6f80"}]
 

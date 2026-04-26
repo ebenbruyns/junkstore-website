@@ -15,10 +15,10 @@ proton_version: ""
 
 # Game Info
 publisher: Paradox Interactive
-developer: 
+developer: Obsidian Entertainment
 genre: role-playing-rpg, adventure, strategy, indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 16
 release_date: "November 15, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -56,7 +56,7 @@ cant_test_linux: false
 hltb_main: ""
 hltb_main_extra: ""
 hltb_completionist: ""
-hltb_url: ""
+hltb_url: "https://howlongtobeat.com/game/71293"
 
 # Links
 store_url: "https://www.gog.com/en/game/pillars_of_eternity_definitive_edition"
@@ -68,7 +68,7 @@ metacritic_url: "https://www.metacritic.com/game/pc/pillars-of-eternity?ftag=MCD
 
 # Notes
 notes: Works out of the box on the Decky plugin version.
-controller_config: Native Steam Deck Controls
+controller_config: 
 performance_notes: 
 known_issues: 
 

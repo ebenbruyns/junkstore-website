@@ -23,7 +23,7 @@ release_date: "September 8, 2010"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Russian","Spanish","zh-Hans"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"11631","name":"Requires 2FA"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/111"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

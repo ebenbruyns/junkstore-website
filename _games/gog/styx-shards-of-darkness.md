@@ -18,7 +18,7 @@ publisher: Focus Entertainment
 developer: Cyanide Studio
 genre: Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 16
 release_date: "March 14, 2017"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]

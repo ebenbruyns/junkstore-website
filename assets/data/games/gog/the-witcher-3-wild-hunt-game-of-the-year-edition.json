@@ -35,7 +35,7 @@
   "shortname": "1640424747",
   "publisher": "CD PROJEKT RED",
   "developer": "CD PROJEKT RED",
-  "releasedate": "08-2016",
+  "release_date": "2016-08-01",
   "genre": "Role-playing (RPG), Adventure, Action",
   "description": "Become a professional monster slayer and embark on an adventure of epic proportions! Upon its release, The Witcher 3: Wild Hunt became an instant classic, claiming over 250 Game of the Year awards. Now you can enjoy this huge, over 100-hour long, open-world adventure along with both its story-driven expansions worth an extra 50 hours of gameplay. This edition includes all additional content - new weapons, armor, companion outfits, new game mode and side quests.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51071842242777057",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -95,5 +95,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:39:18.853Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -19,11 +19,11 @@ developer: The Game Kitchen
 genre: Puzzle, Strategy, Stealth
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "January 29, 2025"
+release_date: "January 28, 2025"
 game_modes: ["Single-player"]
 languages: ["English*","French","German","Spanish - Spain*","Japanese","Korean","Portuguese - Brazil","Simplified Chinese","Traditional Chinese*languages with full audio support"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"1084","name":"Stealth"},{"id":"9549","name":"Controller Support"}]
-igdb_url: "https://www.igdb.com/games/138097"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

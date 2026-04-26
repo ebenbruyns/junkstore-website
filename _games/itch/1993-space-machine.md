@@ -19,7 +19,7 @@ developer: Limit Break
 genre: Indie, Shooter
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "March 1, 2016"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
 tags_structured: []

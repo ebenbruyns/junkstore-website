@@ -35,7 +35,7 @@
   "shortname": "Hornbill",
   "publisher": "Snowman",
   "developer": "Team Alto",
-  "releasedate": "2020-08-13T15:00:00.000Z",
+  "release_date": "2020-08-13",
   "genre": "Indie, Adventure",
   "description": "Across the endless desert and atop an alpine expanse two journeys full of wonder await. Choose your path and set off on a thrilling snowboarding or sandboarding adventure with Alto & friends.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2020-08-12T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Across the endless desert and atop an alpine expanse two journeys full of wonder await. Choose your path and set off on a thrilling snowboarding or sandboarding adventure with Alto & friends.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53579371686998138",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/059239dce0358c9d827fb533f88585afea8d855bd1b8c3397e5397b5221584b6.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2aea139b9de69eba22da14882e80b796761993742426a8531bc275fb6d255845.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/477a01b7c077e1583e7666a408a285f216b079a8580b6db8452471d17d5245b5.jpg?namespace=gamesdb",
@@ -154,5 +160,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:46:44.849Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

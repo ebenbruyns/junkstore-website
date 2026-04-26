@@ -19,11 +19,11 @@ developer: "Take IT Studio!"
 genre: First Person, Indie, Simulation
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "August 5, 2023"
+release_date: "August 4, 2023"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Polish","Portuguese - Brazil","Simplified Chinese","Traditional Chinese","Japanese"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"1263","name":"Indie"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/118473"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-03-19T15:00:00.000Z","end":"2026-03-26T15:00:00.000Z","type":null,"id":"b3d56c3e27fc4816bf6cc0cefecd4948"}]
 

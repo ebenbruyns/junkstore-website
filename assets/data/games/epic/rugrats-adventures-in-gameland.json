@@ -35,7 +35,7 @@
   "shortname": "cb28095340aa4bb8ace6f42c9a6e5f13",
   "publisher": "The MIX Games",
   "developer": "The MIX Games. Wallride",
-  "releasedate": "2024-09-12T15:00:00.000Z",
+  "release_date": "2024-09-12",
   "genre": "Action, Action-Adventure",
   "description": "When Tommy, Chuckie, Phil, and Lil see a Reptar video game commercial, they imagine their own game! Switch between 8-bit and HD art, pick your favorite baby, and play solo or co-op in Rugrats: Adventures in Gameland—a neo-retro platformer bursting with nostalgia",
   "size": "",
@@ -82,8 +82,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 264302,
-  "igdb_url": "https://www.igdb.com/games/264302",
   "giveaway_events": [
     {
       "start": "2024-09-12T15:00:00.000Z",
@@ -94,7 +92,15 @@
   ],
   "was_free_before": true,
   "description_rich": "When Tommy, Chuckie, Phil, and Lil see a Reptar video game commercial, they imagine their own game! Switch between 8-bit and HD art, pick your favorite baby, and play solo or co-op in Rugrats: Adventures in Gameland—a neo-retro platformer bursting with nostalgia",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "56824515682625427",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/29906802da168241ef70052a8fad84d35b572581bb11ac8e8b39d10a1399f5f1.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/389d2a794f63433d3a058117b64f9a6b32030da0e0d89224d9545a8271a4fc8f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/c5c3eb418516de68f1af0043245ebb8805e05d8ad9fa289f6dc58dd3e256ac5a.jpg?namespace=gamesdb",
@@ -120,5 +126,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:43:56.863Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

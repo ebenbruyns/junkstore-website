@@ -35,7 +35,7 @@
   "shortname": "e757cb1a95f4459ba0950ef51f05ccb4",
   "publisher": "Illuvium Labs",
   "developer": "Illuvium Labs",
-  "releasedate": "2023-11-28T20:00:00.000Z",
+  "release_date": "2023-11-28",
   "genre": "Turn-Based Strategy, Turn-Based, RPG",
   "description": "Stranded on Illuvium—build your dream squad and conquer the Arena in a thrilling auto-battler!",
   "size": "",
@@ -151,12 +151,18 @@
     "recommended_pct": 1,
     "not_recommended_pct": 0
   },
-  "igdb_id": 198140,
-  "igdb_url": "https://www.igdb.com/games/198140",
   "giveaway_events": [],
   "was_free_before": false,
   "description_rich": "Stranded on Illuvium—build your dream squad and conquer the Arena in a thrilling auto-battler!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55378727582246996",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "57080196927793942",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/1cf292d7d6c68e3647064cf58c55039547de76fb0d4eabf7ef812b41d4009209.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/be1ac0bc19963972e84f915962adb9add8cecc23ca5818027862533bc651d565.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/45e6d550ca36012f168e0719908bd2be742021bc03f6a05dfcdf0b7e70ddeb59.jpg?namespace=gamesdb",
@@ -181,5 +187,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:43:02.264Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

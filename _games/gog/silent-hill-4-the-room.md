@@ -18,8 +18,8 @@ publisher: Konami
 developer: Team Silent
 genre: adventure
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 17 · PEGI 18
+release_date: "June 1, 2004"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Spanish"]
 tags_structured: []

@@ -18,7 +18,7 @@ publisher: Atari, Beamdog
 developer: Overhaul Games
 genre: Role-playing (RPG), Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 12
 release_date: "November 27, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]

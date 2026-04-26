@@ -19,11 +19,11 @@ developer: Noumenon Games
 genre: Puzzle
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "December 30, 2023"
+release_date: "December 29, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21150","name":"Challenging Puzzles"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/239519"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-11-14T16:00:00.000Z","end":"2024-11-21T16:00:00.000Z","type":null,"id":"fddca2297b9a4354b59f8f83d4975c90"},{"start":"2023-12-28T15:00:00.000Z","end":"2023-12-29T15:00:00.000Z","type":null,"id":"fddca2297b9a4354b59f8f83d4975c90"}]
 

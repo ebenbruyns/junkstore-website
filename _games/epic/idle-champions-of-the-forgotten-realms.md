@@ -19,11 +19,11 @@ developer: Codename Entertainment
 genre: Strategy
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "February 17, 2021"
+release_date: "February 16, 2021"
 game_modes: ["Single player"]
 languages: ["English","French","German","Portuguese - Brazil","Russian","Simplified Chinese","Spanish - Latin America"]
 tags_structured: [{"id":"21136","name":"Playful Visuals"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"1188","name":"RELAXING"},{"id":"1141","name":"Free to Play"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/43178"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2025-11-06T16:00:00.000Z","end":"2025-11-13T16:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2025-04-10T15:00:00.000Z","end":"2025-04-17T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2024-06-12T15:00:00.000Z","end":"2024-06-19T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2023-06-21T15:00:00.000Z","end":"2023-06-28T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"},{"start":"2021-04-28T15:00:00.000Z","end":"2021-05-05T15:00:00.000Z","type":null,"id":"a9748abde1c94b66aae5250bb9fc5503"}]
 

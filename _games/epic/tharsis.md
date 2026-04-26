@@ -19,7 +19,7 @@ developer: Choice Provisions
 genre: Strategy
 franchise: 
 age_rating_summary: 
-release_date: "September 17, 2021"
+release_date: "September 16, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"}]

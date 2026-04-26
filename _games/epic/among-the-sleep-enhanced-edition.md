@@ -19,11 +19,11 @@ developer: Krillbite Studio AS
 genre: Horror, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "October 22, 2021"
+release_date: "October 21, 2021"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Norwegian","Russian","Czech","Hungarian","Turkish"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/7642"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2021-10-20T15:00:00.000Z","end":"2021-10-27T15:00:00.000Z","type":null,"id":"2a112cd37b774426990583a259e25ef9"}]
 

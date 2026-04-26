@@ -19,11 +19,11 @@ developer: Leonard Menchiari, Flying Wild Hog
 genre: Action, Action-Adventure, Adventure
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "May 6, 2022"
+release_date: "May 5, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-igdb_url: "https://www.igdb.com/games/152203"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

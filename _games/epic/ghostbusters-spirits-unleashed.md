@@ -19,7 +19,7 @@ developer: IllFonic
 genre: Horror, Shooter
 franchise: Ghostbusters
 age_rating_summary: ESRB Everyone 10+
-release_date: "October 19, 2022"
+release_date: "October 18, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1203","name":"Multiplayer"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]

@@ -18,7 +18,7 @@ publisher: Eidos Interactive
 developer: Crystal Dynamics
 genre: "Adventure, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17
 release_date: "November 11, 2003"
 game_modes: ["Single player"]
 languages: ["English"]

@@ -35,7 +35,7 @@
   "shortname": "8935bb3e1420443a9789fe01758039a5",
   "publisher": "Sega, Feral Interactive",
   "developer": "The Creative Assembly",
-  "releasedate": "2020-12-21T16:00:00.000Z",
+  "release_date": "2020-12-21",
   "genre": "Action",
   "description": "Discover the true meaning of fear in Alien: Isolation, a survival horror set in an atmosphere of constant dread and mortal danger...   Created using the CATHODE™ engine.",
   "size": "",
@@ -102,8 +102,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2021-04-21T15:00:00.000Z",
@@ -120,7 +118,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Discover the true meaning of fear in Alien: Isolation, a survival horror set in an atmosphere of constant dread and mortal danger...   Created using the CATHODE™ engine.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51141413930744144",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/07083bbcfcdeae9d6f73757f113e8bab09f329f4e94f8bf79e5f08da5d69a90c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2a279020ae560b75e393e0fb185c1e037b35c8ee12f27ae04e606ee3952f5137.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6f9e84b42a9f06f9d5555eb632635376cde5a845ab3d986844b12c09745a2bb4.jpg?namespace=gamesdb",
@@ -144,5 +150,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:29:11.378Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

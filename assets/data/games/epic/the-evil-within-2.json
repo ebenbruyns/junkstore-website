@@ -35,7 +35,7 @@
   "shortname": "74977fee80de4e5e9f663e62560a0f2f",
   "publisher": "Bethesda Softworks",
   "developer": "Tango Gameworks",
-  "releasedate": "2023-08-02T15:00:00.000Z",
+  "release_date": "2023-08-02",
   "genre": "Horror, Survival, Shooter",
   "description": "To save his daughter, Detective Sebastian Castellanos returns to a world of nightmares in The Evil Within 2. \n \nFight for your life inside a terrifying reality using weapons, traps and stealth in this survival horror follow-up from Tango Gameworks.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 36813,
-  "igdb_url": "https://www.igdb.com/games/36813",
   "giveaway_events": [
     {
       "start": "2023-10-25T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "To save his daughter, Detective Sebastian Castellanos returns to a world of nightmares in The Evil Within 2. \n \nFight for your life inside a terrifying reality using weapons, traps and stealth in this survival horror follow-up from Tango Gameworks.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51295396997568233",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/97606b5bbebbf3af64f2ef870b32aed20e87e3c8b769e219452a0783f7743b8b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/2a9ca6560a433d3c0afcb102deb94f444dc74b429151ac2d13f0922a53e8f622.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/c9e46d2ab4d164dd468ae160c7a074b5e95c88ec9d2611bbedc6436422092fd1.jpg?namespace=gamesdb",
@@ -163,5 +169,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-25T02:46:11.475Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

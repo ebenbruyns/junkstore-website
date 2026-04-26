@@ -18,7 +18,7 @@ publisher: Wired Productions
 developer: Storm in a Teacup
 genre: Adventure, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "May 2, 2019"
 game_modes: ["Single player"]
 languages: ["English"]

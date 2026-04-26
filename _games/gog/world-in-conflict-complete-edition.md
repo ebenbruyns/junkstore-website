@@ -18,8 +18,8 @@ publisher: Sierra Entertainment
 developer: Massive Entertainment
 genre: strategy
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 13 · PEGI 16
+release_date: "September 1, 2007"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Italian","Spanish"]
 tags_structured: []

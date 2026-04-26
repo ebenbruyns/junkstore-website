@@ -19,7 +19,7 @@ developer: Toxic Games
 genre: Puzzle, Adventure, First Person
 franchise: 
 age_rating_summary: 
-release_date: "March 19, 2018"
+release_date: "March 18, 2018"
 game_modes: ["Single player"]
 languages: ["English*","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese","Traditional Chinese","Italian*languages with full audio support"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"}]

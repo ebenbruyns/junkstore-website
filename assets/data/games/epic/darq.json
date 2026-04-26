@@ -35,7 +35,7 @@
   "shortname": "ee96375fac2f47de978170a24398e581",
   "publisher": "Unfold Games",
   "developer": "Unfold Games",
-  "releasedate": "2021-10-28T15:00:00.000Z",
+  "release_date": "2021-10-28",
   "genre": "Horror, Puzzle, Adventure",
   "description": "DARQ tells the story of Lloyd, a boy who finds himself in the middle of a lucid nightmare. Unable to wake up, Lloyd has to face his fears and decipher the meaning of the dream.",
   "size": "",
@@ -82,8 +82,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 138785,
-  "igdb_url": "https://www.igdb.com/games/138785",
   "giveaway_events": [
     {
       "start": "2021-10-27T15:00:00.000Z",
@@ -94,7 +92,15 @@
   ],
   "was_free_before": true,
   "description_rich": "DARQ tells the story of Lloyd, a boy who finds himself in the middle of a lucid nightmare. Unable to wake up, Lloyd has to face his fears and decipher the meaning of the dream.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152740418921005",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/6d6901c0b6b1a303e26b9a2679276457a3d835f358fb8f9882694c61691a48d2.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b77c85adcb94654d3ebb77af55cb252013b67e089baf6c05d7d16752f2c6507f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ebe949262a7ba7309c9f3e27b35c7cfe0ef7cf1f1d4d7564336d6e29b2b54b9c.jpg?namespace=gamesdb",
@@ -117,5 +123,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:26.667Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -19,11 +19,11 @@ developer: FinalBoss Games
 genre: Casual, Puzzle
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "June 12, 2022"
+release_date: "June 11, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21151","name":"Easy Puzzles"}]
-igdb_url: "https://www.igdb.com/games/163629"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-08-01T15:00:00.000Z","end":"2024-08-08T15:00:00.000Z","type":null,"id":"ed744042986f41f791d295459d75725f"}]
 

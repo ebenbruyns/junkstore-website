@@ -35,7 +35,7 @@
   "shortname": "91e82f342ebf42309703e9ba363daedf",
   "publisher": "Snapbreak Games",
   "developer": "Big Loop Studios",
-  "releasedate": "2023-05-26T15:00:00.000Z",
+  "release_date": "2023-05-26",
   "genre": "Casual, Puzzle, Adventure",
   "description": "A relaxing puzzle escape game! Make your way through a variety of hand-crafted 3D dioramas, look for useful objects, find hidden clues, and solve fun puzzles! Unravel this mysterious adventure about chaos, order, and the surreal.",
   "size": "",
@@ -98,8 +98,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 174803,
-  "igdb_url": "https://www.igdb.com/games/174803",
   "giveaway_events": [
     {
       "start": "2024-01-31T15:00:00.000Z",
@@ -110,7 +108,15 @@
   ],
   "was_free_before": true,
   "description_rich": "A relaxing puzzle escape game! Make your way through a variety of hand-crafted 3D dioramas, look for useful objects, find hidden clues, and solve fun puzzles! Unravel this mysterious adventure about chaos, order, and the surreal.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55125996161795714",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/f6c0f77fe95f9cd4e2db700e61d5f5d251e7c134046e52a9a1ab6457db935c41.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f77c99032711ce69a39d52f95bccdae87a1e2a72c8f089636724c25c6f28bc5a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b7d02fddbd48f656fd28be8034a7188401f43c218e3114992a87638d4ccb51a6.jpg?namespace=gamesdb",
@@ -133,5 +139,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T04:29:18.266Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

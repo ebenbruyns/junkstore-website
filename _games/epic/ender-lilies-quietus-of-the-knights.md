@@ -19,11 +19,11 @@ developer: Live Wire, Adglobe
 genre: Exploration, RPG, Action-Adventure
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "January 23, 2025"
+release_date: "January 22, 2025"
 game_modes: ["Single Player"]
 languages: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/138858"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

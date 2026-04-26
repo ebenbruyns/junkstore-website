@@ -1,0 +1,128 @@
+{
+  "id": "23b3b7c9-79e8-4756-b7ce-9bd3ec0bbe6a",
+  "title": "DOOMBLADE",
+  "storefront": "Epic",
+  "protondb": "https://www.protondb.com/app/922050",
+  "protondb_report_url": "",
+  "gog_url": "",
+  "epic_url": "https://store.epicgames.com/en-US/p/doomblade-afdf9a",
+  "itch_url": "",
+  "pc_gaming_wiki_url": "https://www.pcgamingwiki.com/wiki/Doomblade",
+  "notes": "",
+  "date_tested": "April '26",
+  "decky_rating": "green",
+  "standalone_rating": "green",
+  "proton_version": "",
+  "dependencies": "",
+  "controller_config": "",
+  "performance_notes": "",
+  "known_issues": "",
+  "requires_eos": false,
+  "supports_eos": false,
+  "requires_verification": false,
+  "epic_achievements": false,
+  "epic_offline_mode": true,
+  "must_be_online": false,
+  "requires_eac_runtime": false,
+  "requires_battleye_runtime": false,
+  "required_launcher": "",
+  "requires_account_setup": false,
+  "account_type": "",
+  "controller_input": "native",
+  "community_layout": false,
+  "cant_test_linux": false,
+  "databaseId": "818572d480784b9a904e54aab004d1c4",
+  "shortname": "818572d480784b9a904e54aab004d1c4",
+  "publisher": "Iceberg Interactive",
+  "developer": "Iceberg Interactive",
+  "release_date": "2023-05-31",
+  "genre": "Action, Adventure, Indie",
+  "description": "Deep underground, Gloom Girl discovers DOOMBLADE, a sentient weapon hellbent on escape after eons in chains. Together, “Doom and Gloom” embark on a vengeful quest to unlock the powerful abilities and destroy the Dread Lords once and for all in this 2D Action Metroidvania.",
+  "size": "",
+  "franchise": "",
+  "tags_structured": [
+    {
+      "id": "2",
+      "name": "Single-player"
+    },
+    {
+      "id": "22",
+      "name": "Steam Achievements"
+    },
+    {
+      "id": "28",
+      "name": "Full controller support"
+    },
+    {
+      "id": "29",
+      "name": "Steam Trading Cards"
+    },
+    {
+      "id": "23",
+      "name": "Steam Cloud"
+    },
+    {
+      "id": "62",
+      "name": "Family Sharing"
+    }
+  ],
+  "genres_structured": [
+    {
+      "id": "1",
+      "name": "Action"
+    },
+    {
+      "id": "25",
+      "name": "Adventure"
+    },
+    {
+      "id": "23",
+      "name": "Indie"
+    }
+  ],
+  "age_rating_summary": "",
+  "reviews_summary": null,
+  "giveaway_events": [],
+  "was_free_before": false,
+  "description_rich": "Deep underground, Gloom Girl discovers DOOMBLADE, a sentient weapon hellbent on escape after eons in chains. Together, “Doom and Gloom” embark on a vengeful quest to unlock the powerful abilities and destroy the Dread Lords once and for all in this 2D Action Metroidvania.",
+  "description_gog": "",
+  "description_steam": "Deep underground, Gloom Girl discovers DOOMBLADE, a sentient weapon hellbent on escape after eons in chains. Together, “Doom and Gloom” embark on a vengeful quest to unlock the powerful abilities and destroy the Dread Lords once and for all in this 2D Action Metroidvania.",
+  "use_rich_description": true,
+  "description_source": "rich",
+  "gamesdb_game_id": "51932901268423809",
+  "gamesdb_gog_id": "1862608434",
+  "gamesdb_epic_id": "818572d480784b9a904e54aab004d1c4",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
+  "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-1v156.jpg",
+  "banner_image": "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-1luo5.jpg",
+  "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/922050/capsule_184x69.jpg?t=1762953800",
+  "steamId": "922050",
+  "game_modes": [
+    "Single-player"
+  ],
+  "languages": [
+    "English*",
+    "German",
+    "Russian",
+    "Simplified Chinese",
+    "French",
+    "Spanish - Spain",
+    "Portuguese - Brazil",
+    "Dutch*languages with full audio support"
+  ],
+  "metacritic_score": 83,
+  "metacritic_url": "https://www.metacritic.com/game/pc/doomblade?ftag=MCD-06-10aaa1f",
+  "hltb_id": "",
+  "hltb_main": "",
+  "hltb_main_extra": "",
+  "hltb_completionist": "",
+  "hltb_url": "https://howlongtobeat.com/game/101201",
+  "epic_cloud_saves": false,
+  "tested": true,
+  "owned": true,
+  "is_featured": true,
+  "blog_category": "",
+  "created_at": "2026-04-25T21:51:07.747Z",
+  "updated_at": "2026-04-26T04:05:18.498Z"
+}

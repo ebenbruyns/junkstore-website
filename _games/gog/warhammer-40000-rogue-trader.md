@@ -19,7 +19,7 @@ developer: Owlcat Games
 genre: Role-playing (RPG), Strategy, Turn-based strategy (TBS)
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "December 1, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: []

@@ -18,8 +18,8 @@ publisher: Meridian4, cdv Software Entertainment, Iceberg Interactive
 developer: Gameco Studios
 genre: Adventure, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 17 · PEGI 18
+release_date: "March 1, 2009"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

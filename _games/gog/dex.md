@@ -18,7 +18,7 @@ publisher: Qubic Games, Badland Indie
 developer: Dreadlocks Ltd.
 genre: Role-playing (RPG), Adventure, Indie, Platform
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 16
 release_date: "May 7, 2015"
 game_modes: ["Single player"]
 languages: ["English"]

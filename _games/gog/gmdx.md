@@ -14,7 +14,7 @@ date_tested: "Sept '25"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
+publisher: "|Totalitarian|"
 developer: Totalitarian
 genre: Role-playing (RPG), Adventure, Shooter
 franchise: 

@@ -35,7 +35,7 @@
   "shortname": "1635210189",
   "publisher": "Focus Entertainment",
   "developer": "Spiders",
-  "releasedate": "2019-09-09T00:00:00+0000",
+  "release_date": "2019-09-09",
   "genre": "Role-playing (RPG), Adventure, Strategy",
   "description": "Explore a fresh new world as you set foot - alongside many other settlers, mercenaries and treasure hunters - on a remote island seeping with magic, rumored to be filled with riches and lost secrets.\n\nGreedFall aims for a very unique visual identity, inspired by Baroque art from 17th Century Europe, depicting grandiose sceneries in muted warm colors and dark undertones.\n\nA grand journey filled with mystery follows, as you find yourself in the middle of ever-increasing tensions between the invading settlers and the locals, protected by supernatural beings, manifestation of the island's earthly magic.\n\nWith a strong focus on its core RPG identity, GreedFall follows Spiders’ experience in building intricate worlds filled with mysteries to discover, weaving deep character interactions, and offering players great freedom to achieve quests and objectives in a multitude of different ways – through combat of course, but also through diplomacy, deception or stealth.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51152933950570585",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:36:41.923Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

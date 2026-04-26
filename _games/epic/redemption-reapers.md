@@ -19,11 +19,11 @@ developer: Adglobe
 genre: Simulation
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "February 20, 2025"
+release_date: "February 19, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"21122","name":"Diverse Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"}]
-igdb_url: "https://www.igdb.com/games/228744"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

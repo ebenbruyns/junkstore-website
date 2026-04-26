@@ -19,11 +19,11 @@ developer: AutoAttack Games
 genre: Indie, Tower Defense, Strategy
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "October 23, 2024"
+release_date: "October 22, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"33639","name":"Promotional Content"},{"id":"19847","name":"Achievements"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21141","name":"Extremely Fun"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/32680"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-07-24T15:00:00.000Z","end":"2025-07-31T15:00:00.000Z","type":null,"id":"71f1c64e7e41477ca09228c1253c9ce7"}]
 

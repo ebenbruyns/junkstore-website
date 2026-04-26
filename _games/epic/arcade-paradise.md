@@ -19,11 +19,11 @@ developer: Nosebleed Interactive
 genre: Indie
 franchise: 
 age_rating_summary: 
-release_date: "August 12, 2022"
+release_date: "August 11, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1188","name":"RELAXING"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/145319"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-07-17T15:00:00.000Z","end":"2024-07-24T15:00:00.000Z","type":null,"id":"f7ce9c6bfed74819894366568193d4f8"}]
 

@@ -35,7 +35,7 @@
   "shortname": "0a20ccd3f1b3464da750a4dbf8c80d7c",
   "publisher": "HypeTrain Digital",
   "developer": "RedRuins Softworks",
-  "releasedate": "2021-02-25T18:00:00.000Z",
+  "release_date": "2021-02-25",
   "genre": "Action, Survival",
   "description": "Survive in outer space! Together with your immortal chicken, discover the truth behind your sudden spaceship crash. Craft tools, pilot vehicles, and even control space stations to survive and explore the wreckage.",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2023-04-26T15:00:00.000Z",
@@ -122,7 +120,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Survive in outer space! Together with your immortal chicken, discover the truth behind your sudden spaceship crash. Craft tools, pilot vehicles, and even control space stations to survive and explore the wreckage.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51141992382475105",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/f927e40bb2977a2461d2675306cdcb71fa96ec7c65cea5785c1a2996b201be02.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/789fc18ef66dd688dbf62317714b046175963e3ecc64eef7dfefd903207c83db.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/267992ec9bfbae142508d66ddd8fe41730af1573377242e83080f9bdc082ef48.jpg?namespace=gamesdb",
@@ -146,5 +152,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:29:11.378Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

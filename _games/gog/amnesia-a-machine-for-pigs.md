@@ -23,7 +23,7 @@ release_date: "September 10, 2013"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/1882"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

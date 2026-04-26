@@ -18,7 +18,7 @@ publisher: Kalypso Media, Ubisoft, Revolution Software
 developer: Revolution Software
 genre: Adventure, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "March 19, 2009"
 game_modes: ["Single player"]
 languages: ["English"]

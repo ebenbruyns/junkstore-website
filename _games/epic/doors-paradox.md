@@ -19,11 +19,11 @@ developer: Big Loop Studios
 genre: Casual, Puzzle, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "May 27, 2023"
+release_date: "May 26, 2023"
 game_modes: ["Single Player"]
 languages: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"1298","name":"Puzzle"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/174803"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-01-31T15:00:00.000Z","end":"2024-02-07T15:00:00.000Z","type":null,"id":"b8dee54bce824477bc0b7cb298f9f9a9"}]
 

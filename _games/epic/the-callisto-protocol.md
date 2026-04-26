@@ -19,7 +19,7 @@ developer: Striking Distance Studios
 genre: Adventure, Shooter
 franchise: 
 age_rating_summary: 
-release_date: "January 2, 2099"
+release_date: "January 1, 2099"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Korean*","Polish","Portuguese - Brazil","Simplified Chinese*"]
 tags_structured: []

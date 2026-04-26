@@ -19,11 +19,11 @@ developer: ZA/UM
 genre: RPG, Adventure
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "June 7, 2020"
+release_date: "June 6, 2020"
 game_modes: ["Single-player"]
 languages: ["English*","Simplified Chinese","Spanish - Spain","Korean","Portuguese - Brazil","French","German","Traditional Chinese","Russian","Polish"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1127","name":"Investigation"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"21146","name":"Educational"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/26472"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-25T16:00:00.000Z","end":"2025-12-26T16:00:00.000Z","type":null,"id":"1112adb4b6af47238cbc563ae2b1c6ab"}]
 

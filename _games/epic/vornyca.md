@@ -23,7 +23,7 @@ release_date: "November 11, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/397320"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

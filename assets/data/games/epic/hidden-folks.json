@@ -35,7 +35,7 @@
   "shortname": "886e934842de46bc8a65644e7d4fb75b",
   "publisher": "Adriaan de Jongh",
   "developer": "Adriaan de Jongh",
-  "releasedate": "2025-08-14T15:00:00.000Z",
+  "release_date": "2025-08-14",
   "genre": "Indie, Casual, Comedy",
   "description": "Search for hidden folks in hand-drawn, interactive, miniature landscapes. Unfurl tent flaps, cut through bushes, slam doors, and poke some crocodiles! Rooooaaaarrrr!!!!!",
   "size": "",
@@ -126,8 +126,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2025-08-14T15:00:00.000Z",
@@ -138,7 +136,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Search for hidden folks in hand-drawn, interactive, miniature landscapes. Unfurl tent flaps, cut through bushes, slam doors, and poke some crocodiles! Rooooaaaarrrr!!!!!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152968629860221",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/21590071a3becb3c941e217f0a1793453c8bf1c394f9788c2edd7bb4a0f51dab.jpg?namespace=gamesdb",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/435400/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/435400/capsule_231x87.jpg",
@@ -171,5 +177,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-15T09:02:06.255Z",
-  "updated_at": "2026-04-25T02:15:00.424Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

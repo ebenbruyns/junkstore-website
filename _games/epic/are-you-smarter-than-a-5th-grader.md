@@ -19,11 +19,11 @@ developer: Massive Miniteam
 genre: Casual, Trivia
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "August 24, 2022"
+release_date: "August 23, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1264","name":"Co-op"},{"id":"1318","name":"Trivia"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"}]
-igdb_url: "https://www.igdb.com/games/199325"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

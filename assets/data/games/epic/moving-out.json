@@ -35,7 +35,7 @@
   "shortname": "8e29583ae4b44a21883038668f7e301e",
   "publisher": "Team17",
   "developer": "SMG Studio & Devm Games",
-  "releasedate": "2021-12-28T16:00:00.000Z",
+  "release_date": "2021-12-28",
   "genre": "Casual, Party",
   "description": "Moving Out is a ridiculous physics-based moving simulator that brings new meaning to \"couch co-op\"! As a newly certified Furniture Arrangement & Relocation Technician, you’ll take on moving jobs all across the busy town of Packmore.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 113866,
-  "igdb_url": "https://www.igdb.com/games/113866",
   "giveaway_events": [
     {
       "start": "2024-10-24T15:00:00.000Z",
@@ -136,7 +134,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Moving Out is a ridiculous physics-based moving simulator that brings new meaning to \"couch co-op\"! As a newly certified Furniture Arrangement & Relocation Technician, you’ll take on moving jobs all across the busy town of Packmore.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51912994655857306",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/f1474c475ae2f9391bccc7d30ae0e02563d70adb622a41d4d6b9ca500ee248f8.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/454d8ffade126333e5c67d53b3be9f2b711e92cfe1adbb73d092af41a486aa79.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/60b5084975995b78d6da28a533fa36520ddfc26e1a668fdf28cc56ca8188468c.jpg?namespace=gamesdb",
@@ -161,5 +167,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:43:08.001Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -35,7 +35,7 @@
   "shortname": "347bdce2b3664b309399f611ffc8b2a9",
   "publisher": "Amanita Design",
   "developer": "Amanita Design",
-  "releasedate": "2023-06-30T13:00:00.000Z",
+  "release_date": "2023-06-30",
   "genre": "Puzzle, Adventure, Indie",
   "description": "Samorost 2 tells a surreal story of a space gnome whose dog just got kidnapped by mischievous aliens. Set out on a short expedition to rescue the pup, deal with curious strangers and relax to the soothing music by Tomáš \"Floex\" Dvořák.",
   "size": "114 MB",
@@ -86,8 +86,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 8621,
-  "igdb_url": "https://www.igdb.com/games/8621",
   "giveaway_events": [
     {
       "start": "2025-09-18T15:00:00.000Z",
@@ -98,7 +96,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Samorost 2 tells a surreal story of a space gnome whose dog just got kidnapped by mischievous aliens. Set out on a short expedition to rescue the pup, deal with curious strangers and relax to the soothing music by Tomáš \"Floex\" Dvořák.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51154159949445141",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/40720/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/40720/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/40720/capsule_231x87.jpg",
@@ -131,5 +137,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-18T23:44:20.634Z",
-  "updated_at": "2026-04-25T02:15:32.045Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

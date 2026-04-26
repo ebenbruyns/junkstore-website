@@ -18,12 +18,12 @@ publisher: Paradox Interactive
 developer: Introversion Software
 genre: Adventure, Adventure, Adventure, Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 16
 release_date: "October 6, 2015"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1123","name":"2D"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1293","name":"SANDBOX"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/1338"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

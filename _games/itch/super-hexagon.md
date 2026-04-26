@@ -19,7 +19,7 @@ developer: Distractionware, Terry Cavanagh
 genre: Arcade
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "August 1, 2012"
 game_modes: ["Single player"]
 languages: ["English**languages with full audio support"]
 tags_structured: []

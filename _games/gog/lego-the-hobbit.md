@@ -18,7 +18,7 @@ publisher: WB Games, MGM Interactive
 developer: "Traveller's Tales"
 genre: Role-playing (RPG), Adventure, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 10 · PEGI 7
 release_date: "April 8, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]

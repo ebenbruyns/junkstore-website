@@ -35,7 +35,7 @@
   "shortname": "1421404646",
   "publisher": "LucasArts",
   "developer": "LucasArts",
-  "releasedate": "2001-11-09T00:00:00+0000",
+  "release_date": "2001-11-09",
   "genre": "Strategy",
   "description": "Lead the great armies of the Star Wars Episode II: Attack of the Clones saga in intense real-time strategy clashes. Enter the fray as the Galactic Empire, Rebel Alliance, Wookies, Trade Federation, Gungans or Royal Naboo to determine the course of the Galactic Civil War.\n\nExpand the battlefield with the Clone Campaigns addon. Choose to play as the breakaway Confederacy of Independent Systems or the Galactic Republic in 14 missions based on characters, vehicles and locations from Star Wars Episode II: Attack of the Clones.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51154259545347498",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -84,5 +84,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-04-25T22:40:57.840Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

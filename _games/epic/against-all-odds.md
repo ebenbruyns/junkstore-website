@@ -19,11 +19,11 @@ developer: Microwave Games
 genre: Action, Sports, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "May 5, 2023"
+release_date: "May 4, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Simplified Chinese*languages with full audio support"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1283","name":"Sports"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/144690"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-05-03T15:00:00.000Z","end":"2023-05-10T15:00:00.000Z","type":null,"id":"5b99274688e9465aa9d5ca5cea176cfd"}]
 

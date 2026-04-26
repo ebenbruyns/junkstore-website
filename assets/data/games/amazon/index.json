@@ -77,66 +77,66 @@
     "zombies-ate-my-neighbors-and-ghoul-patrol.json"
   ],
   "featured_games": 0,
-  "last_updated": "2026-04-25T22:55:56.275Z",
+  "last_updated": "2026-04-26T04:33:01.985Z",
   "latest_games": [
     {
-      "title": "Subterrain: Mines of Titan",
-      "slug": "subterrain-mines-of-titan",
-      "date_tested": "Sep '25",
+      "title": "Aces of the Luftwaffe - Squadron Extended Edition",
+      "slug": "aces-of-the-luftwaffe-squadron-extended-edition",
+      "date_tested": "July '25",
       "is_featured": false
     },
     {
-      "title": "Minabo: A Walk Through Life",
-      "slug": "minabo-a-walk-through-life",
-      "date_tested": "Dec '25",
+      "title": "Baldur's Gate II: Enhanced Edition",
+      "slug": "baldurs-gate-ii-enhanced-edition",
+      "date_tested": "July '25",
       "is_featured": false
     },
     {
-      "title": "Gravity Circuit",
-      "slug": "gravity-circuit",
-      "date_tested": "Dec '25",
+      "title": "Baldur's Gate: Enhanced Edition",
+      "slug": "baldurs-gate-enhanced-edition",
+      "date_tested": "July '25",
       "is_featured": false
     },
     {
-      "title": "Deep Sky Derelicts",
-      "slug": "deep-sky-derelicts",
-      "date_tested": "Mar '26",
+      "title": "Bang Bang Racing",
+      "slug": "bang-bang-racing",
+      "date_tested": "July '25",
       "is_featured": false
     },
     {
-      "title": "Scarf",
-      "slug": "scarf",
-      "date_tested": "Dec '25",
+      "title": "Beholder 3",
+      "slug": "beholder-3",
+      "date_tested": "July '25",
       "is_featured": false
     },
     {
-      "title": "Figment 2: Creed Valley",
-      "slug": "figment-2-creed-valley",
-      "date_tested": "Sept '25",
+      "title": "The Collage Atlas",
+      "slug": "the-collage-atlas",
+      "date_tested": "July '25",
       "is_featured": false
     },
     {
-      "title": "Grime",
-      "slug": "grime",
-      "date_tested": "Nov '25",
+      "title": "The Gap",
+      "slug": "the-gap",
+      "date_tested": "July '25",
       "is_featured": false
     },
     {
-      "title": "Tavern Talk",
-      "slug": "tavern-talk",
-      "date_tested": "Feb '26",
+      "title": "Tiny Robots Recharged",
+      "slug": "tiny-robots-recharged",
+      "date_tested": "July '25",
       "is_featured": false
     },
     {
-      "title": "Dread Templar",
-      "slug": "dread-templar",
-      "date_tested": "Feb '26",
+      "title": "Through the Darkest of Times",
+      "slug": "through-the-darkest-of-times",
+      "date_tested": "July '25",
       "is_featured": false
     },
     {
-      "title": "Technotopia",
-      "slug": "technotopia",
-      "date_tested": "Jan '26",
+      "title": "Vlad Circus: Descend Into Madness",
+      "slug": "vlad-circus-descend-into-madness",
+      "date_tested": "July '25",
       "is_featured": false
     }
   ]

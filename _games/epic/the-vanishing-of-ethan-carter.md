@@ -19,11 +19,11 @@ developer: The Astronauts
 genre: Exploration
 franchise: 
 age_rating_summary: 
-release_date: "December 20, 2021"
+release_date: "December 19, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1381","name":"Exploration"},{"id":"21894","name":"Cloud Saves"},{"id":"1127","name":"Investigation"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
-igdb_url: "https://www.igdb.com/games/2939"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-04-06T15:00:00.000Z","end":"2022-04-13T15:00:00.000Z","type":null,"id":"bdea68145b61462f9cd17068e835aadf"},{"start":"2021-12-18T15:00:00.000Z","end":"2021-12-19T15:00:00.000Z","type":null,"id":"bdea68145b61462f9cd17068e835aadf"}]
 

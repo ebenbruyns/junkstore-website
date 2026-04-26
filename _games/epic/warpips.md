@@ -19,11 +19,11 @@ developer: Skirmish Mode Games
 genre: Rogue-Lite, Strategy
 franchise: 
 age_rating_summary: 
-release_date: "April 22, 2022"
+release_date: "April 21, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1188","name":"RELAXING"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/146438"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-02-15T15:00:00.000Z","end":"2023-02-22T15:00:00.000Z","type":null,"id":"f6e75092c08045afa343fb5c5aa817ae"}]
 

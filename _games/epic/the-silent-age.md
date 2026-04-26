@@ -19,11 +19,11 @@ developer: House On Fire
 genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "May 3, 2022"
+release_date: "May 2, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/11444"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-03-29T15:00:00.000Z","end":"2023-04-05T15:00:00.000Z","type":null,"id":"9f476effdb174d789a6d7894d7c39dbb"}]
 

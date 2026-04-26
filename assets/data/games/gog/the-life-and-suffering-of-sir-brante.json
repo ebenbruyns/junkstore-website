@@ -35,7 +35,7 @@
   "shortname": "1656945959",
   "publisher": "101XP",
   "developer": "Sever",
-  "releasedate": "",
+  "release_date": "",
   "genre": "Adventure, Indie",
   "description": "A narrative-driven RPG set in a gritty world where a person's Lot is determined at birth, while the gods are real and preside over the fates of men. Set out on a lifelong journey and carve out your own destiny. Will you become a judge, an inquisitor, or conspire against the old order? You decide!",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "53452960445405775",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:38:01.998Z"
+  "updated_at": "2026-04-26T00:44:20.220Z"
 }

@@ -18,7 +18,7 @@ publisher: Activision, LucasArts, Aspyr Media
 developer: Obsidian Entertainment
 genre: role-playing-rpg, adventure, strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "December 6, 2004"
 game_modes: ["Single player"]
 languages: ["English"]

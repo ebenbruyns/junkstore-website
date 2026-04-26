@@ -18,7 +18,7 @@ publisher: "Image & Form"
 developer: "Image & Form"
 genre: Role-playing (RPG), Adventure, Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 10 · PEGI 7
 release_date: "December 9, 2015"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian"]

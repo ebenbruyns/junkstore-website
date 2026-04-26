@@ -19,7 +19,7 @@ developer: DarkGoose4
 genre: Horror, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "December 19, 2025"
+release_date: "December 18, 2025"
 game_modes: ["Single-player"]
 languages: ["English**languages with full audio support"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"}]

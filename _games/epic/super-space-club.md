@@ -19,7 +19,7 @@ developer: GrahamOfLegend
 genre: Action, Space, Indie
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "January 24, 2025"
+release_date: "January 23, 2025"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1121","name":"Space"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]

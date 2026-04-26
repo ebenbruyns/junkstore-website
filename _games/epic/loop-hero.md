@@ -19,11 +19,11 @@ developer: Four Quarters
 genre: Indie, Card Game
 franchise: Loop Hero
 age_rating_summary: ESRB Teen
-release_date: "March 5, 2021"
+release_date: "March 4, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/141533"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-08-02T15:00:00.000Z","end":"2023-08-09T15:00:00.000Z","type":null,"id":"db122f42b41f4dec927e0f280cf653bd"},{"start":"2021-12-19T15:00:00.000Z","end":"2021-12-20T15:00:00.000Z","type":null,"id":"db122f42b41f4dec927e0f280cf653bd"}]
 

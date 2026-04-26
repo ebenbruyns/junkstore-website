@@ -18,7 +18,7 @@ publisher: 2K
 developer: Hangar 13
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "May 19, 2020"
 game_modes: ["Single player"]
 languages: ["English"]

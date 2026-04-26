@@ -19,7 +19,7 @@ developer: Jutsu Games
 genre: Simulation, Strategy, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "April 24, 2026"
+release_date: "April 23, 2026"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1115","name":"Strategy"},{"id":"39070","name":"iOS"},{"id":"1263","name":"Indie"}]

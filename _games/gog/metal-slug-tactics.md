@@ -18,9 +18,9 @@ publisher: DotEmu
 developer: Leikir Studio
 genre: role-playing, strategy, indie
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
-game_modes: []
+age_rating_summary: PEGI 12
+release_date: "November 1, 2024"
+game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []
 igdb_url: ""

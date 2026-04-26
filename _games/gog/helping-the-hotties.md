@@ -14,13 +14,13 @@ date_tested: "Aug '25"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
-developer: NIL, NIL
+publisher: xRedGames
+developer: xRedGames
 genre: NIL, NIL
 franchise: 
 age_rating_summary: 
 release_date: ""
-game_modes: []
+game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []
 igdb_url: ""

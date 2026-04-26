@@ -35,7 +35,7 @@
   "shortname": "d5cfb57c4c7f4a18a7ca6e695f845f73",
   "publisher": "Armor Games Studios",
   "developer": "Con Artist Games",
-  "releasedate": "2021-11-16T15:00:00.000Z",
+  "release_date": "2021-11-16",
   "genre": "Action, Shooter",
   "description": "From the creators of The Last Stand: Union City comes a new singleplayer rogue-lite action adventure. After you are infected by the zombie virus, set out to explore the apocalypse and find hope for your colony. You can make a difference. Don't give up.",
   "size": "",
@@ -98,8 +98,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 133375,
-  "igdb_url": "https://www.igdb.com/games/133375",
   "giveaway_events": [
     {
       "start": "2024-09-19T15:00:00.000Z",
@@ -110,7 +108,15 @@
   ],
   "was_free_before": true,
   "description_rich": "From the creators of The Last Stand: Union City comes a new singleplayer rogue-lite action adventure. After you are infected by the zombie virus, set out to explore the apocalypse and find hope for your colony. You can make a difference. Don't give up.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53319382779886684",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/b4d7e71b9b711b4c2f67f8759ad67dc78dab73e41bb9cb3cb12d575f6f290b76.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/1ebb960707c688a20d69bbf44bab79e5661c8bcc1f7481c9b8f22b71fd488c96.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/32ef0b3f3a6da97a84c77c5b8e18c5c585ecfdd3e7a5cc439837a41f0fbc4acf.jpg?namespace=gamesdb",
@@ -133,5 +139,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:45:17.675Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

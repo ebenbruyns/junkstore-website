@@ -35,7 +35,7 @@
   "shortname": "1f695dfd76d8438d8dd4046fe75daab0",
   "publisher": "Daedalic Entertainment",
   "developer": "Skirmish Mode Games",
-  "releasedate": "2022-04-21T17:00:00.000Z",
+  "release_date": "2022-04-21",
   "genre": "Rogue-Lite, Strategy",
   "description": "Warpips is the ultimate quick to learn but amazingly deep tug-of-war strategy game. Deploy the right composition of soldiers, tanks, helicopters and planes in this tight, streamlined strategy-focused war game. Compose the best army, research the right tech; overwhelm your enemy!",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 146438,
-  "igdb_url": "https://www.igdb.com/games/146438",
   "giveaway_events": [
     {
       "start": "2023-02-15T15:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Warpips is the ultimate quick to learn but amazingly deep tug-of-war strategy game. Deploy the right composition of soldiers, tanks, helicopters and planes in this tight, streamlined strategy-focused war game. Compose the best army, research the right tech; overwhelm your enemy!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54348741508405425",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/189376e0849ed603351725c115baed3b6758fd0076d92d69953db13eb2dfe533.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d3fc470055cce4a9baf9b4b42d682220f0fc0866a759b31be737c7b24ff874ea.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/6962aff9e641f3f76dafcaadc19e19f9db4f7b1a23b7ec9926e35593ff7ac439.jpg?namespace=gamesdb",
@@ -149,5 +155,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:46:02.677Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

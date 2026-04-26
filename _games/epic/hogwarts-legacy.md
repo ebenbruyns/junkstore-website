@@ -19,11 +19,11 @@ developer: Avalanche Software
 genre: Action, RPG, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "February 11, 2023"
+release_date: "February 10, 2023"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Arabic","Japanese*","Korean","Polish","Portuguese - Brazil*"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"21134","name":"Beautiful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"1117","name":"Adventure"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/136625"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-12-12T02:23:00.000Z","end":"2025-12-18T16:00:00.000Z","type":null,"id":"a31950aa730b4ae391e42a1c3f26b839"}]
 

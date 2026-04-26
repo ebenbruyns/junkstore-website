@@ -18,8 +18,8 @@ publisher: Focus Entertainment
 developer: Frogwares
 genre: adventure, indie, puzzle, shooter
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: PEGI 16
+release_date: "June 1, 2013"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

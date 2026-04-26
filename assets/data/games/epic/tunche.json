@@ -35,7 +35,7 @@
   "shortname": "7e9ca4940ed0427699f687f538d8f72d",
   "publisher": "Hypetrain Digital LTD",
   "developer": "Leap Game Studios",
-  "releasedate": "2021-11-02T17:00:00.000Z",
+  "release_date": "2021-11-02",
   "genre": "Action",
   "description": "Tunche is a charming hand-drawn action game with roguelike elements. Team up with your friends or play solo. Choose from 5 unique characters and restore peace in the Amazon rainforest!",
   "size": "",
@@ -74,8 +74,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 96092,
-  "igdb_url": "https://www.igdb.com/games/96092",
   "giveaway_events": [
     {
       "start": "2023-03-29T15:00:00.000Z",
@@ -86,7 +84,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Tunche is a charming hand-drawn action game with roguelike elements. Team up with your friends or play solo. Choose from 5 unique characters and restore peace in the Amazon rainforest!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51295415269722055",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/a7d891b393f24ed69f690da8b7bcaee3473968328ce236d0b7989bb344ce16ee.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/ecd4a6fef7c24663e12de51b5d82279411d55d394bdd6a3af9a12aed5b97f15c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/a5862997711a7e2313331a05f638b20e2db3117f8f4e61a0744f709c50857be0.jpg?namespace=gamesdb",
@@ -110,5 +116,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:45:50.311Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

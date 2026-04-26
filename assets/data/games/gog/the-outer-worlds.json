@@ -35,7 +35,7 @@
   "shortname": "1242541569",
   "publisher": "Private Division",
   "developer": "Obsidian Entertainment",
-  "releasedate": "2019-10-25T00:00:00+0000",
+  "release_date": "2019-10-25",
   "genre": "Role-playing (RPG), Adventure, Shooter",
   "description": "The Outer Worlds is a new single-player sci-fi RPG from Obsidian Entertainment and Private Division. As you explore the furthest reaches of space and encounter a host of factions all vying for power, who you decide to become will determine the fate of everyone in Halcyon. In the corporate equation for the colony, you are the unplanned variable.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51813507747355052",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:38:02.730Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

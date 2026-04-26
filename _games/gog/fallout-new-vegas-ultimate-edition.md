@@ -18,7 +18,7 @@ publisher: Bethesda Softworks
 developer: Obsidian Entertainment
 genre: Action, RPG
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "October 19, 2010"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Italian","Spanish - Spain"]

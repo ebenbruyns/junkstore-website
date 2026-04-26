@@ -35,7 +35,7 @@
   "shortname": "Salt",
   "publisher": "Maddy Makes Games",
   "developer": "Maddy Makes Games",
-  "releasedate": "2018-01-05T15:00:00.000Z",
+  "release_date": "2018-01-05",
   "genre": "Action, Indie, Platformer",
   "description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
   "size": "",
@@ -126,8 +126,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2019-12-23T15:00:00.000Z",
@@ -144,7 +142,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51142025042257822",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/dd671b444f966deadc2d9902b3e8f71f5ab0b159545b3dcbd05cbe5d9c313798.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a7cb8cce9f9530fd08bbb81271d776c6b0685bda00a801b77acd3fe23573b247.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/dd671b444f966deadc2d9902b3e8f71f5ab0b159545b3dcbd05cbe5d9c313798.jpg?namespace=gamesdb",
@@ -168,5 +174,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:44:27.260Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

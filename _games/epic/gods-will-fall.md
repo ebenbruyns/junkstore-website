@@ -23,7 +23,7 @@ release_date: "January 29, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"}]
-igdb_url: "https://www.igdb.com/games/141207"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-01-05T15:00:00.000Z","end":"2022-01-12T15:00:00.000Z","type":null,"id":"5207cdd79e9145d0bbb947c6bd3699a3"}]
 

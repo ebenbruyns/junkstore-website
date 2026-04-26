@@ -18,8 +18,8 @@ publisher: Shadow Tor Studios
 developer: Shadow Tor Studios
 genre: adventure, indie, point-and-click
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 13 · PEGI 7
+release_date: "October 1, 2006"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

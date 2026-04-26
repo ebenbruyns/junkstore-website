@@ -35,7 +35,7 @@
   "shortname": "019b8e62a48c4278ac5ca98d7986cd75",
   "publisher": "Gaming Factory, Ultimate Games S.A.",
   "developer": "Take IT Studio!",
-  "releasedate": "2023-08-04T16:00:00.000Z",
+  "release_date": "2023-08-04",
   "genre": "First Person, Indie, Simulation",
   "description": "Take on the electrician role and learn the profession's basics! Install sockets, repair worn-out equipment, assemble broken appliances, replace light bulbs, and lay wires at your customers' homes. Be sure to check everything twice, with electricity there are no jokes!",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 118473,
-  "igdb_url": "https://www.igdb.com/games/118473",
   "giveaway_events": [
     {
       "start": "2026-03-19T15:00:00.000Z",
@@ -134,7 +132,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Take on the electrician role and learn the profession's basics! Install sockets, repair worn-out equipment, assemble broken appliances, replace light bulbs, and lay wires at your customers' homes. Be sure to check everything twice, with electricity there are no jokes!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52272989628560687",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/28d8abf4b733c7dc8da26525c9d8a751bd067976f5e6f2e996ba8f4ec1f81743.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/b67a8ba93168c79871ee5c303c415e1f7a0cca58f96e2a031732aee1060a58c0.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/8cdeda31c2730580952a958ae0786cc5ac5dc9c4a3af67aae8b0074cc7755157.jpg?namespace=gamesdb",
@@ -167,5 +173,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:41:14.818Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

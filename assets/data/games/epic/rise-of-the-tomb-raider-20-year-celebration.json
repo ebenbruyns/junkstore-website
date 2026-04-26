@@ -35,7 +35,7 @@
   "shortname": "f7cc1c999ac146f39b356f53e3489514",
   "publisher": "Crystal Dynamics",
   "developer": "Crystal Dynamics",
-  "releasedate": "2021-10-18T13:00:00.000Z",
+  "release_date": "2021-10-18",
   "genre": "Action, Action-Adventure, Adventure",
   "description": "Rise of the Tomb Raider: 20 Year Celebration includes the base game and Season Pass featuring all-new content. Explore Croft Manor in the new “Blood Ties” story, then defend it against a zombie invasion in “Lara’s Nightmare”.",
   "size": "",
@@ -130,8 +130,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 7323,
-  "igdb_url": "https://www.igdb.com/games/7323",
   "giveaway_events": [
     {
       "start": "2021-12-30T15:00:00.000Z",
@@ -142,7 +140,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Rise of the Tomb Raider: 20 Year Celebration includes the base game and Season Pass featuring all-new content. Explore Croft Manor in the new “Blood Ties” story, then defend it against a zombie invasion in “Lara’s Nightmare”.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51154124746385157",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/4db99ceb60c4c4403cf6e639f88912c0f1fdc172d93cc8b0d61fc24d0d67674c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/a2711547b1336ac8a9c5724162c968d6829b2297c5d421aa02409f0c7387a0a2.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/f829e08fcf0d716c957cf2720fe3afe5a961b5312e0dd78daa6a08e9b70aed1a.jpg?namespace=gamesdb",
@@ -166,5 +172,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:43:46.843Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

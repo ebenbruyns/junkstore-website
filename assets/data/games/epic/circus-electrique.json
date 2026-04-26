@@ -35,7 +35,7 @@
   "shortname": "f9d7a68aa77a4b30902af341533abe22",
   "publisher": "Zen Studios",
   "developer": "Zen Studios",
-  "releasedate": "2022-09-06T15:00:00.000Z",
+  "release_date": "2022-09-06",
   "genre": "Indie, RPG, Strategy",
   "description": "Circus Electrique is part story-driven RPG, part tactics, part circus management, and completely enthralling. When everyday Londoners mysteriously turn into vicious killers, only the show’s talented performers possess the skills necessary to save the city. ",
   "size": "",
@@ -126,8 +126,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 185757,
-  "igdb_url": "https://www.igdb.com/games/185757",
   "giveaway_events": [
     {
       "start": "2024-05-08T15:00:00.000Z",
@@ -138,7 +136,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Circus Electrique is part story-driven RPG, part tactics, part circus management, and completely enthralling. When everyday Londoners mysteriously turn into vicious killers, only the show’s talented performers possess the skills necessary to save the city. ",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55013772274050892",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/0a3fea155d0641f7ed3ac135eeb7d74f01c29d6cd4484773c2847fda3e8960f0.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/44bf3a59519e11de2315e42d837c0fbb12f063f51e0c084b2bb51af3b74b219f.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/52ce6e5cb0b6679b738c9c6ee0a0f7dd665edbc748e369d543b346fdd26442c3.jpg?namespace=gamesdb",
@@ -162,5 +168,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:40:38.489Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -18,7 +18,7 @@ publisher: GT Interactive Software
 developer: Cavedog Entertainment
 genre: Strategy
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13
 release_date: "September 30, 1997"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English**languages with full audio support"]

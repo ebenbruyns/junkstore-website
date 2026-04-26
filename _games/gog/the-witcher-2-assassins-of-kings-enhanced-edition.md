@@ -18,7 +18,7 @@ publisher: CD Projekt
 developer: CD Projekt RED
 genre: Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "April 17, 2012"
 game_modes: ["Single player"]
 languages: ["English*","German*","French*","Spanish - Spain","Russian*","Czech","Hungarian","Japanese","Polish*","Turkish"]

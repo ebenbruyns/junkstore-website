@@ -23,7 +23,7 @@ release_date: "July 3, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
-igdb_url: "https://www.igdb.com/games/157375"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

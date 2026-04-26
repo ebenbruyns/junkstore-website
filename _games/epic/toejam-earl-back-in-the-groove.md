@@ -19,11 +19,11 @@ developer: HumaNature Studios
 genre: Casual
 franchise: 
 age_rating_summary: 
-release_date: "October 14, 2022"
+release_date: "October 13, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"10719","name":"Mac OS"}]
-igdb_url: "https://www.igdb.com/games/11122"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-10-12T15:00:00.000Z","end":"2022-10-19T15:00:00.000Z","type":null,"id":"db9725548f40419cac7d1c10f94c0736"}]
 

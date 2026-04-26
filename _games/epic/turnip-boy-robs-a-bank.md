@@ -19,11 +19,11 @@ developer: Snoozy Kazoo
 genre: Shooter, Rogue-Lite, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "January 19, 2024"
+release_date: "January 18, 2024"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Latin America","Korean","Japanese","Portuguese - Brazil","Russian","Simplified Chinese"]
 tags_structured: [{"id":"21136","name":"Playful Visuals"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"19847","name":"Achievements"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/217645"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T16:00:00.000Z","type":null,"id":"68d9f0e261464ba284e10418d98532ea"},{"start":"2026-03-05T16:00:00.000Z","end":"2026-03-12T15:00:00.000Z","type":null,"id":"68d9f0e261464ba284e10418d98532ea"}]
 

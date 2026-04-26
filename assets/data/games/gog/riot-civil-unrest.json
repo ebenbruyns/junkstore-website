@@ -35,7 +35,7 @@
   "shortname": "1989052770",
   "publisher": "Merge Games",
   "developer": "IV Productions, Leonard Menchiari",
-  "releasedate": "2019-02-06T00:00:00+0000",
+  "release_date": "2019-02-06",
   "genre": "Strategy, Indie, Simulator",
   "description": "As civil crisis deepens and inequality tears the very fabric of society the discontentment of the masses manifests itself in violent public disturbances and civil disorder. Play as the police or the angry horde as Riot – Civil Unrest places you in some of the world's most fractious disputes.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51154089345443529",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -82,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T21:09:29.289Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

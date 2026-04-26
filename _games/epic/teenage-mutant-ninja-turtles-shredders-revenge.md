@@ -23,7 +23,7 @@ release_date: "July 2, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21109","name":"Great Boss Battles"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
-igdb_url: "https://www.igdb.com/games/144465"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

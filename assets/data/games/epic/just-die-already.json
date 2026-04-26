@@ -35,7 +35,7 @@
   "shortname": "06621054d7d24f44bf13e3c31c9ec05d",
   "publisher": "Curve Digital, DoubleMoose Games",
   "developer": "DoubleMoose Games",
-  "releasedate": "2021-05-20T17:00:00.000Z",
+  "release_date": "2021-05-20",
   "genre": "Open World, Comedy, Adventure",
   "description": "Just Die Already is an old people mayhem sandbox game created by the designers of Goat Simulator. You are old and angry and you've just been kicked out of your retirement home. How will you survive in a world that wants you to Just Die Already?",
   "size": "",
@@ -130,8 +130,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2022-04-27T15:00:00.000Z",
@@ -142,7 +140,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Just Die Already is an old people mayhem sandbox game created by the designers of Goat Simulator. You are old and angry and you've just been kicked out of your retirement home. How will you survive in a world that wants you to Just Die Already?",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53420931064261513",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/dcfc9a8fc07912874bd9cd329760619f49881367daafbbbba9b407f14c42caac.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/56d0b7e66187906b17f7028e46abceacb88da3f9cbf0c88dba1257b6d9938c9a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b704dceb7856f4d36b1f1b71a281d4a5411b11e5463bc7d817e78f62ce5c2e8f.jpg?namespace=gamesdb",
@@ -168,5 +174,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:42:25.039Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

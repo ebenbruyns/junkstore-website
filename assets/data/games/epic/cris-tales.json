@@ -35,7 +35,7 @@
   "shortname": "e7d92786abe54fae9319c1ddb94ae271",
   "publisher": "Maximum Entertainment LLC",
   "developer": "Dreams Uncorporated, SYCK",
-  "releasedate": "2021-07-20T13:00:00.000Z",
+  "release_date": "2021-07-20",
   "genre": "RPG, Turn-Based, Indie",
   "description": "Experience Past, Present, and Future simultaneously in this gorgeous, indie love letter to classic JRPGs",
   "size": "",
@@ -90,8 +90,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2022-02-23T15:00:00.000Z",
@@ -102,7 +100,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Experience Past, Present, and Future simultaneously in this gorgeous, indie love letter to classic JRPGs",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52351410162190092",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/791b972c7b79ecf7010bd180ced8bea4505642e4325be36e59f7a8b19b952d0f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/1e6f3a954d4261e4e427053bc286b668646ff7ab58a738721505674d32946e90.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9418a69fa74cae8dd24799a503daeb5dad6dfad43b00e0325ce9784af3cd324f.jpg?namespace=gamesdb",
@@ -125,5 +131,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:40:40.769Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

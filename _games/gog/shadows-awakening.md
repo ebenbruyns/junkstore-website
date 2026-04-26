@@ -18,7 +18,7 @@ publisher: Kalypso Media Digital
 developer: Games Farm
 genre: "Role-playing (RPG), Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 16
 release_date: "August 30, 2018"
 game_modes: ["Single player"]
 languages: ["English"]

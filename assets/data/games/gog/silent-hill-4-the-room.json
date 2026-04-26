@@ -35,7 +35,7 @@
   "shortname": "1141086411",
   "publisher": "Konami",
   "developer": "Team Silent",
-  "releasedate": "06-2004",
+  "release_date": "2004-06-01",
   "genre": "adventure",
   "description": "Silent Hill 4: The Room is the fourth installment in the Silent Hill survival horror series. The game is similar to the past entries in terms of atmosphere, never letting the player know what's behind the next corner or down the street.",
   "size": "",
@@ -51,8 +51,8 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
-  "gamesdb_gog_id": "",
+  "gamesdb_game_id": "51154198196844815",
+  "gamesdb_gog_id": "53254576931986279",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
   "gamesdb_amazon_id": "",
@@ -84,5 +84,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:38:45.054Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

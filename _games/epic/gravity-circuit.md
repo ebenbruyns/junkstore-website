@@ -19,11 +19,11 @@ developer: Domesticated Ant Games
 genre: Action, Platformer, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "July 14, 2023"
+release_date: "July 13, 2023"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Japanese","Simplified Chinese","Traditional Chinese","Dutch"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"21129","name":"Challenging Combat"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/106534"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-10-09T15:00:00.000Z","end":"2025-10-16T15:00:00.000Z","type":null,"id":"ca6648eabced4312bd29c543307ecd29"}]
 

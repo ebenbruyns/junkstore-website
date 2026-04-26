@@ -35,7 +35,7 @@
   "shortname": "1163487128",
   "publisher": "Digerati Distribution",
   "developer": "Devespresso Games",
-  "releasedate": "2017-09-19T00:00:00+0000",
+  "release_date": "2017-09-19",
   "genre": "Adventure, Indie",
   "description": "\"In this creepy Korean survival-horror you take the role of Youngho, a hapless student who finds himself trapped in the nightmarish halls of his high school. After drifting asleep during his final exam, he awakes in the school at night. The only problem is...he’s not alone. Relentlessly pursued by a psychotic killer, he must now muster the courage to solve the mystery of why he is here and how to escape.\"",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51295395630729560",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -79,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T22:37:55.035Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

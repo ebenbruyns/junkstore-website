@@ -19,11 +19,11 @@ developer: Kyle Thompson
 genre: Exploration, Action-Adventure, Platformer
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "August 25, 2022"
+release_date: "August 24, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","German","Spanish - Spain","Portuguese - Brazil","Russian","Simplified Chinese"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"1381","name":"Exploration"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1151","name":"Platformer"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/180154"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-03-27T15:00:00.000Z","end":"2024-04-03T15:00:00.000Z","type":null,"id":"4862aa73b8b048c782958b8f22118d28"}]
 

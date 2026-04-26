@@ -35,7 +35,7 @@
   "shortname": "266d978cc221471787b597695cbb9a75",
   "publisher": "QubicGames S.A.",
   "developer": "Choice Provisions",
-  "releasedate": "2021-09-16T15:00:00.000Z",
+  "release_date": "2021-09-16",
   "genre": "Strategy",
   "description": "Tharsis is a turn-based space strategy game. With dice. And cannibalism. It puts you in control of humanity’s first mission to Mars, just as it’s struck by a micrometeorite storm. ",
   "size": "",
@@ -66,8 +66,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2021-09-15T15:00:00.000Z",
@@ -78,7 +76,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Tharsis is a turn-based space strategy game. With dice. And cannibalism. It puts you in control of humanity’s first mission to Mars, just as it’s struck by a micrometeorite storm. ",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51154333347002834",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/fb593d37b155ec000b9c39f54266f3f5b61420970ec2bfe76e3001f4c199b619.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/4c8d33807cf3f2aab31d051e4d76ec3261555720491f0618b73ec9fd9c1330ba.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d9c3b48254a9cb72ac7d0f3d61b79ff365f601fff6e41f2f8c56d264aadb61dd.jpg?namespace=gamesdb",
@@ -102,5 +108,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:45:00.307Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

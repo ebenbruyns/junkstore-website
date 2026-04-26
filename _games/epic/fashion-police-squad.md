@@ -19,7 +19,7 @@ developer: Mopeful Games
 genre: Shooter, First Person
 franchise: 
 age_rating_summary: 
-release_date: "August 16, 2022"
+release_date: "August 15, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1185","name":"FPS"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]

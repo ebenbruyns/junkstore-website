@@ -35,7 +35,7 @@
   "shortname": "1207659236",
   "publisher": "Focus Entertainment",
   "developer": "Frogwares",
-  "releasedate": "06-2013",
+  "release_date": "2013-06-01",
   "genre": "adventure, indie, puzzle, shooter",
   "description": "When technology meets Cthulhu! Magrunner: Dark Pulse is an action-puzzle game in which technology confronts the Cthulhu Mythos, as imagined by author, H. P. Lovecraft. You are Dax, one of seven Magrunners selected among the elite to participate in MagTech Corporation's space training program. But, what should be the chance of a lifetime quickly becomes a horrific nightmare.\\n\\nEquipped with your Magtech glove, you must harness the ability to magnetically polarize and manipulate objects in the environment to survive and surpass challenging puzzles. Your reflexes and ingenuity will be pushed to their limits as you make your way through 40+ immense and dangerous levels, including high-tech training rooms and the endless chasms of the lost cosmos, on a path to confront the horrendous creatures of Cthulhu!",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51153245544025007",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:39:07.328Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

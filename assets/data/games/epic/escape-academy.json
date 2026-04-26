@@ -35,7 +35,7 @@
   "shortname": "4237ffc575c94a0e89ef9ab7dd884ad5",
   "publisher": "iam8bit Presents",
   "developer": "Coin Crew Games",
-  "releasedate": "2022-07-14T04:00:00.000Z",
+  "release_date": "2022-07-14",
   "genre": "First Person, Puzzle, Adventure",
   "description": "Welcome to Escape Academy. Train to become the ultimate Escapist. Solve Puzzles. Hack Servers. Meet the Faculty. Brew the perfect cup of tea. Escape Rooms in single player or co-op with a friend - local or online!",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 194464,
-  "igdb_url": "https://www.igdb.com/games/194464",
   "giveaway_events": [
     {
       "start": "2025-01-16T16:00:00.000Z",
@@ -140,7 +138,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Welcome to Escape Academy. Train to become the ultimate Escapist. Solve Puzzles. Hack Servers. Meet the Faculty. Brew the perfect cup of tea. Escape Rooms in single player or co-op with a friend - local or online!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55279346485903132",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/546fce5acfc1217bb879bfd4445d7207ec8df6c0cd9d54413bdcd7c80eab08cf.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/e50b56f70c4ef3b03707d4c41e116e7a4ab8f027c18b51dde6bc6ae78d6d43e0.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7d3a484332bdb22c666c00426784c540133e36b1acba2b4cd23eb6f045f96f16.jpg?namespace=gamesdb",
@@ -166,5 +172,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:41:19.875Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

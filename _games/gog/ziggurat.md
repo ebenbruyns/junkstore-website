@@ -18,7 +18,7 @@ publisher: SOEDESCO Publishing, SOEDESCO Publishing
 developer: Milkstone Studios
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 12
 release_date: "October 23, 2014"
 game_modes: ["Single player"]
 languages: ["English","French","German","Hungarian","Italian","Portuguese (Brazil)","Russian","Spanish","Swedish"]

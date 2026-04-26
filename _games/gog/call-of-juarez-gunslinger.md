@@ -18,7 +18,7 @@ publisher: Ubisoft Entertainment, Techland
 developer: Techland
 genre: Adventure, Shooter, Arcade
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 16
 release_date: "May 22, 2013"
 game_modes: ["Single player"]
 languages: ["English"]

@@ -35,7 +35,7 @@
   "shortname": "828b2ff07ee548f59b7e172b4b4c9686",
   "publisher": "Total Mayhem Games",
   "developer": "Total Mayhem Games",
-  "releasedate": "2025-12-04T09:00:00.000Z",
+  "release_date": "2025-12-04",
   "genre": "Puzzle, Adventure, Indie",
   "description": "As we explore these frozen wastes, misfortune strikes once again. Through the fierce blizzard, a flare lights the sky, followed by a cry for help over the radio - broken, dying... No one else can come to their rescue. Can we make it back - together?",
   "size": "",
@@ -98,8 +98,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 109535,
-  "igdb_url": "https://www.igdb.com/games/109535",
   "giveaway_events": [
     {
       "start": "2025-12-26T16:00:00.000Z",
@@ -110,7 +108,15 @@
   ],
   "was_free_before": true,
   "description_rich": "As we explore these frozen wastes, misfortune strikes once again. Through the fierce blizzard, a flare lights the sky, followed by a cry for help over the radio - broken, dying... No one else can come to their rescue. Can we make it back - together?",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51604774324039454",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/865360/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/865360/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/865360/capsule_231x87.jpg",
@@ -144,5 +150,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-12-27T20:06:45.079Z",
-  "updated_at": "2026-04-25T02:17:25.865Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

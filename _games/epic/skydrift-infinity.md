@@ -19,11 +19,11 @@ developer: Digital Reality
 genre: Racing
 franchise: 
 age_rating_summary: 
-release_date: "May 7, 2022"
+release_date: "May 6, 2022"
 game_modes: ["Multiplayer","Split screen"]
 languages: ["English"]
 tags_structured: [{"id":"1299","name":"Competitive"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"}]
-igdb_url: "https://www.igdb.com/games/9424"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

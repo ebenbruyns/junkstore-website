@@ -19,7 +19,7 @@ developer: Artak Avetisyan IE
 genre: Fantasy, RPG, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "February 20, 2026"
+release_date: "February 19, 2026"
 game_modes: ["Single-player"]
 languages: ["English*","Russian*languages with full audio support"]
 tags_structured: [{"id":"1287","name":"Fantasy"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1310","name":"EARLY ACCESS"},{"id":"1263","name":"Indie"}]

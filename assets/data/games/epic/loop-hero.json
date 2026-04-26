@@ -35,7 +35,7 @@
   "shortname": "f7a0ebb44f93430fb1c4388a395eba96",
   "publisher": "Devolver Digital",
   "developer": "Four Quarters",
-  "releasedate": "2021-03-04T18:00:00.000Z",
+  "release_date": "2021-03-04",
   "genre": "Indie, Card Game",
   "description": "The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos. Wield an expanding deck of mystical cards to place enemies, buildings, and terrain along each unique expedition loop for the brave hero.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 141533,
-  "igdb_url": "https://www.igdb.com/games/141533",
   "giveaway_events": [
     {
       "start": "2023-08-02T15:00:00.000Z",
@@ -136,7 +134,15 @@
   ],
   "was_free_before": true,
   "description_rich": "The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos. Wield an expanding deck of mystical cards to place enemies, buildings, and terrain along each unique expedition loop for the brave hero.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53943640587105519",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/8ef3980678c5a1a96bc924663def96362a91fdcf362958ad880a23135e8282ad.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c6600bc7e19e367f36734acc5fe74f7fbaf097a0bb14079db123e19ec2c2ac6c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/dc1f63ac806f9cd519266d5e76ccf042319a97f42df2e3d9974e578544594f61.jpg?namespace=gamesdb",
@@ -159,5 +165,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:43:12.664Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

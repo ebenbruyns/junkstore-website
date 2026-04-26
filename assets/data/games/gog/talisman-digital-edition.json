@@ -35,7 +35,7 @@
   "shortname": "1557744677",
   "publisher": "Asmodee Digital, Nomad Games",
   "developer": "Nomad Games",
-  "releasedate": "2011-03-09T00:00:00+0000",
+  "release_date": "2011-03-09",
   "genre": "Role-playing (RPG), Strategy, Indie",
   "description": "Talisman Digital Edition - The Magical Quest Game for 1 to 4 players.\n\nThe officially licensed multiplayer version of the classic fantasy adventure board game, Talisman.\n\nIn Talisman Digital Edition, there are 14 characters a player can control, from the heroic Warrior to the powerful Sorceress. In this perilous adventure, players battle it out to journey across a dangerous land and be the first to claim the Crown of Command, a magical artefact with the power to destroy all rivals and make the bearer the true ruler of the kingdom. On your travels, you will need strength, courage and some good dice rolls to survive the dangers you face and beat your opponents to the centre of the board.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51154317766059767",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -81,5 +81,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:37:52.476Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

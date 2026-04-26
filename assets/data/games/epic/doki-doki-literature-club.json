@@ -35,7 +35,7 @@
   "shortname": "c5109bdceb3a453bb38c2fdc964ddee8",
   "publisher": "Team Salvato",
   "developer": "Team Salvato",
-  "releasedate": "2021-06-30T16:00:00.000Z",
+  "release_date": "2021-06-30",
   "genre": "Horror, RPG",
   "description": "Welcome to the club! Write poems for your crush and experience the terror of school romance in this critically-acclaimed psychological horror story.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 55935,
-  "igdb_url": "https://www.igdb.com/games/55935",
   "giveaway_events": [
     {
       "start": "2024-02-07T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Welcome to the club! Write poems for your crush and experience the terror of school romance in this critically-acclaimed psychological horror story.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152779374360242",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/2d07b27fbfb6007903d5b662933ce501e4b90c3ce8fc15753429f6e899dc78dc.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/389a2bce9d3aa944ea74d8c68c311352443788074fba3ffe5636bfff3c85a1bf.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/7cd115a4191a350ecbc3f1be7686aa21457904ececedb9e4021a5c1ec0c8f9d0.jpg?namespace=gamesdb",
@@ -153,5 +159,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:40:58.113Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

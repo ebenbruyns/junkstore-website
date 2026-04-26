@@ -18,7 +18,7 @@ publisher: Focus Entertainment
 developer: Rogue Factor
 genre: Role-playing (RPG), Strategy, Tactical
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 16
 release_date: "November 19, 2015"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]

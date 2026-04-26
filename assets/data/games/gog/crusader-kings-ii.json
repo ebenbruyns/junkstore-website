@@ -35,7 +35,7 @@
   "shortname": "1137712636",
   "publisher": "Paradox Interactive",
   "developer": "Paradox Development Studio",
-  "releasedate": "2012-02-03T00:00:00+0000",
+  "release_date": "2012-02-03",
   "genre": "Role-playing (RPG), Strategy, Simulator",
   "description": "The Dark Ages might be drawing to a close, but Europe is still in turmoil. Petty lords vie against beleaguered kings who struggle to assert control over their fragmented realms. The Pope calls for a Crusade to protect the Christians in the Holy Land even as he refuses to relinquish control over the investiture of bishops - and their riches. Now is the time for greatness. Expand your demesne and secure the future of your dynasty. Fill your coffers, appoint vassals, root out traitors and heretics, introduce laws and interact with hundreds of nobles, each with their own agenda.\nA good lord will always need friends to support him. But beware, as loyal vassals can quickly turn to bitter rivals, and some might not be as reliable as they seem... Stand ready, and increase your prestige until the world whispers your name in awe. Do you have what it takes to become a Crusader King?\nCrusader Kings II explores one of the defining periods in world history in an experience crafted by the masters of Grand Strategy. Medieval Europe is brought to life in this epic game of knights, schemes, and thrones...",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51142085585496987",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -84,5 +84,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T22:36:12.907Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -19,11 +19,11 @@ developer: Marvelous First Studio
 genre: Action
 franchise: 
 age_rating_summary: 
-release_date: "January 28, 2022"
+release_date: "January 27, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"21139","name":"Amazing Characters"},{"id":"21109","name":"Great Boss Battles"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/103338"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-01-26T15:00:00.000Z","end":"2022-02-02T15:00:00.000Z","type":null,"id":"f6d665930cc34c34ac69cfe52906a723"}]
 

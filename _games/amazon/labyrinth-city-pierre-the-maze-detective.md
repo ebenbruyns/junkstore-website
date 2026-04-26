@@ -19,7 +19,7 @@ developer: Darjeeling
 genre: Adventure, Puzzle
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "June 1, 2021"
 game_modes: ["Single player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","Italian","German","Spanish - Spain","Japanese","Korean","Russian"]
 tags_structured: []

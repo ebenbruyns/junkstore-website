@@ -35,7 +35,7 @@
   "shortname": "fe5d52fb67b949ec9ea8b5ea70824059",
   "publisher": "Iceberg Interactive",
   "developer": "Bad Viking",
-  "releasedate": "2022-01-21T14:00:00.000Z",
+  "release_date": "2022-01-21",
   "genre": "Exploration, Simulation, Puzzle",
   "description": "An occult puzzle game in which you play as the proprietor of a local plant store. Find and identify new plants, pet your cat, speak to a coven, or join a cult. Use your collection of powerful plants to influence the story and unravel Undermere’s dark mysteries.",
   "size": "283214202\n",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 186597,
-  "igdb_url": "https://www.igdb.com/games/186597",
   "giveaway_events": [
     {
       "start": "2025-08-21T15:00:00.000Z",
@@ -134,7 +132,15 @@
   ],
   "was_free_before": true,
   "description_rich": "An occult puzzle game in which you play as the proprietor of a local plant store. Find and identify new plants, pet your cat, speak to a coven, or join a cult. Use your collection of powerful plants to influence the story and unravel Undermere’s dark mysteries.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "55084116564661924",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/e7c78884cac0d381fb0bea9a567e19b5287c7d50898d568ee8bd12a3a16a755b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6e4b731f73ba7e7bd2a4bdfa0856f1e2b0ff544f7d4da96267b2e37b03d0fa47.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/9ef214fd189fdcd12ec9707ec516e21b896c3e039e0c6399091da8c4246c9506.jpg?namespace=gamesdb",
@@ -161,5 +167,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-23T03:13:13.159Z",
-  "updated_at": "2026-04-25T05:52:44.912Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

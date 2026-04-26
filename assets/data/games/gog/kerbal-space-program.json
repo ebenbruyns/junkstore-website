@@ -35,7 +35,7 @@
   "shortname": "1429864849",
   "publisher": "Private Division",
   "developer": "Squad",
-  "releasedate": "2015-04-27T00:00:00+0000",
+  "release_date": "2015-04-27",
   "genre": "Indie, Simulator",
   "description": "In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.",
   "size": "",
@@ -105,7 +105,7 @@
   "description_steam": "",
   "use_rich_description": true,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51153174990624383",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -134,5 +134,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:36:57.794Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

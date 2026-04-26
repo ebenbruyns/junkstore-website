@@ -21,7 +21,7 @@ franchise:
 age_rating_summary: 
 release_date: "June 30, 1979"
 game_modes: ["Single player"]
-languages: []
+languages: ["English"]
 tags_structured: []
 igdb_url: ""
 was_free_before: false

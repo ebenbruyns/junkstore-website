@@ -35,7 +35,7 @@
   "shortname": "25b902f42cf04b17bc8a3db2f7292d58",
   "publisher": "DrinkBox Studios",
   "developer": "DrinkBox Studios",
-  "releasedate": "2023-06-15T15:00:00.000Z",
+  "release_date": "2023-06-15",
   "genre": "Fighting, Action-Adventure, Platformer",
   "description": "Guacamelee! is a Metroidvania-style action-platformer set in a magical Mexican-inspired world. The game draws its inspiration from traditional Mexican culture and folklore, and features many interesting and unique characters.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 19121,
-  "igdb_url": "https://www.igdb.com/games/19121",
   "giveaway_events": [
     {
       "start": "2023-06-14T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Guacamelee! is a Metroidvania-style action-platformer set in a magical Mexican-inspired world. The game draws its inspiration from traditional Mexican culture and folklore, and features many interesting and unique characters.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152937644129816",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/aa1ae4f60aa63548d9fef17cea0c2ac24d87a837398c2071d43ae429e17db504.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c1ffa2cef30212a7e557c38eca632e6177d200a696c78844be86b779324b242b.jpg?namespace=gamesdb",
   "icon_image": "",
@@ -155,5 +161,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:41:57.479Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

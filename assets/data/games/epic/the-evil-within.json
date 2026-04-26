@@ -35,7 +35,7 @@
   "shortname": "591e049d72b349daa64784a171379357",
   "publisher": "Bethesda Softworks",
   "developer": "Tango Gameworks",
-  "releasedate": "2023-08-02T15:00:00.000Z",
+  "release_date": "2023-08-02",
   "genre": "Horror, Survival, Shooter",
   "description": "Developed by Tango Gameworks and directed by Resident Evil series creator Shinji Mikami, The Evil Within embodies pure survival horror. \n\nAs Detective Sebastian Castellanos, fight for survival with limited resources in a twisted world of nightmares.",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 4786,
-  "igdb_url": "https://www.igdb.com/games/4786",
   "giveaway_events": [
     {
       "start": "2023-10-18T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Developed by Tango Gameworks and directed by Resident Evil series creator Shinji Mikami, The Evil Within embodies pure survival horror. \n\nAs Detective Sebastian Castellanos, fight for survival with limited resources in a twisted world of nightmares.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51295396964081359",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/236137d8ab1e89325159424b3e090dd3f9f5b0b486d30d8bd8297624e222dfcc.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/1253933a15469bc398c946f090f9fca187ee1cdd3a06f795c972df441b49d539.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/5e82c01c116083f2fca8915ee88ab65589dfd13426c64ac54df7623d7100682a.jpg?namespace=gamesdb",
@@ -160,5 +166,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-25T02:46:10.869Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

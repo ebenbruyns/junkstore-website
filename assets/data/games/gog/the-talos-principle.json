@@ -35,7 +35,7 @@
   "shortname": "1577265251",
   "publisher": "Devolver Digital",
   "developer": "Croteam",
-  "releasedate": "2014-12-11T00:00:00+0000",
+  "release_date": "2014-12-11",
   "genre": "Adventure, Indie, Puzzle",
   "description": "The Talos Principle is a philosophical first-person puzzle game from Croteam, the creators of the legendary Serious Sam series, written by Tom Jubert (FTL, The Swapper) and Jonas Kyratzes (The Sea Will Claim Everything).",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51295404492923400",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -79,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:38:05.093Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

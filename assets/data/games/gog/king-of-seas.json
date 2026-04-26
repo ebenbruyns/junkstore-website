@@ -35,7 +35,7 @@
   "shortname": "1105915912",
   "publisher": "Team17, 3DClouds",
   "developer": "3DClouds",
-  "releasedate": "2021-05-24T00:00:00+0000",
+  "release_date": "2021-05-24",
   "genre": "Role-playing (RPG), Adventure, Strategy, Indie, Hack and slash/Beat 'em up, Fighting",
   "description": "King of Seas is an Action Role playing game set in a procedural pirate world. An epic adventure awaits you in a fantastic world, dotted with fights, lost islands and treasures. A universe that will keep you anchored as you struggle to become the king of all pirates.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "53540098816458695",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -90,5 +90,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T21:09:29.289Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

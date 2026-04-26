@@ -19,7 +19,7 @@ developer: Artefacts Studio
 genre: RPG, Adventure
 franchise: 
 age_rating_summary: 
-release_date: "May 26, 2021"
+release_date: "May 25, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21894","name":"Cloud Saves"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]

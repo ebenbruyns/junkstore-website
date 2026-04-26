@@ -35,7 +35,7 @@
   "shortname": "1435068351",
   "publisher": "Kalypso Media, Feral Interactive, Zoo Corporation, FX Interactive",
   "developer": "Haemimont Games",
-  "releasedate": "2011-08-26T00:00:00+0000",
+  "release_date": "2011-08-26",
   "genre": "Strategy, Simulator",
   "description": "Fancy being a dictator? Well this is the ideal time! Build a Tropico and control who and what happens in it. Juggle foreign relations and run a nuclear program! Apply Edicts to make your people happier, or to scare them to obey the rules. Recruit soldiers and have them carry out your will. just make sure to watch out for rebel attacks and even international invasion!",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51295414640596801",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -79,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:38:16.081Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

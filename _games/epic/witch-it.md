@@ -19,11 +19,11 @@ developer: Barrel Roll Games
 genre: Action, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "March 27, 2024"
+release_date: "March 26, 2024"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"21136","name":"Playful Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/30408"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-31T15:00:00.000Z","end":"2024-11-07T15:00:00.000Z","type":null,"id":"d2db7ad960a84551825707261c8437c4"}]
 

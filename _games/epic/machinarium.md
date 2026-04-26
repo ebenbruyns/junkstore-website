@@ -19,11 +19,11 @@ developer: Amanita Design
 genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "February 19, 2025"
+release_date: "February 18, 2025"
 game_modes: ["Single player"]
 languages: ["Too many to list"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]
-igdb_url: "https://www.igdb.com/games/2990"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

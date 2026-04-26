@@ -19,7 +19,7 @@ developer: HAMMER95
 genre: Indie, Shooter
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "May 1, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

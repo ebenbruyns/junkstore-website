@@ -63,8 +63,8 @@ store_url: "https://www.gog.com/en/game/king_of_seas"
 protondb_url: "https://www.protondb.com/app/1209410"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/King_of_Seas"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 68
+metacritic_url: "https://www.metacritic.com/game/king-of-seas/"
 
 # Notes
 notes: "Works out of the box!"

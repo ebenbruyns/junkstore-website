@@ -19,11 +19,11 @@ developer: Ubisoft
 genre: Casual, Party
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "December 10, 2021"
+release_date: "December 9, 2021"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1203","name":"Multiplayer"},{"id":"1110","name":"Party"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"}]
-igdb_url: "https://www.igdb.com/games/178279"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

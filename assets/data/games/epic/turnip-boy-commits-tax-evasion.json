@@ -35,7 +35,7 @@
   "shortname": "3d34f303a68c44c2a9b44a3988533e90",
   "publisher": "Graffiti Games",
   "developer": "Snoozy Kazoo",
-  "releasedate": "2022-03-24T07:00:00.000Z",
+  "release_date": "2022-03-24",
   "genre": "Casual, Action-Adventure, Indie",
   "description": "Play as an adorable yet trouble-making turnip. Avoid paying taxes, solve plantastic puzzles, harvest crops and battle massive beasts all in a journey to tear down a corrupt vegetable government!",
   "size": "",
@@ -82,8 +82,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 128097,
-  "igdb_url": "https://www.igdb.com/games/128097",
   "giveaway_events": [
     {
       "start": "2023-11-01T15:00:00.000Z",
@@ -94,7 +92,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Play as an adorable yet trouble-making turnip. Avoid paying taxes, solve plantastic puzzles, harvest crops and battle massive beasts all in a journey to tear down a corrupt vegetable government!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53298259176215735",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/56da2af58edc09684982d2f4618fc0989a278ed3e1d25ef057942e22b27fe156.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/9d9d82290a3a9b250d4e67add5257fde089d022b99a435237f76af46c3de3302.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/8b1a122b3035dc4f9d2a436918bb0c4e18a4be42b585fd164d81b3ebd0574ea0.jpg?namespace=gamesdb",
@@ -117,5 +123,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:45:52.532Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

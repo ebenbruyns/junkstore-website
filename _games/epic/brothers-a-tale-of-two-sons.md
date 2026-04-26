@@ -19,11 +19,11 @@ developer: Starbreeze Studios AB
 genre: Adventure
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "February 18, 2022"
+release_date: "February 17, 2022"
 game_modes: ["Single player","Co-operative"]
 languages: ["English"]
 tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-igdb_url: "https://www.igdb.com/games/1334"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-02-16T15:00:00.000Z","end":"2022-02-23T15:00:00.000Z","type":null,"id":"751c3ae311cf48e1926233fdddae9cb8"}]
 

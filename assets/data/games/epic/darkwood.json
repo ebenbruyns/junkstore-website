@@ -35,7 +35,7 @@
   "shortname": "923130ebb546417b9d3115507f752d34",
   "publisher": "Hooded Horse Inc.",
   "developer": "Acid Wizard Studio",
-  "releasedate": "2022-10-13T15:00:00.000Z",
+  "release_date": "2022-10-13",
   "genre": "Horror, Indie, Survival",
   "description": "Darkwood - a new perspective on survival horror. Scavenge and explore a rich, ever-changing free-roam world by day, then hunker down in your hideout and pray for the morning light.",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 17032,
-  "igdb_url": "https://www.igdb.com/games/17032",
   "giveaway_events": [
     {
       "start": "2022-10-12T15:00:00.000Z",
@@ -134,7 +132,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Darkwood - a new perspective on survival horror. Scavenge and explore a rich, ever-changing free-roam world by day, then hunker down in your hideout and pray for the morning light.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152740379920055",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/ce428e47acc09268d2a3ae398f35fd4e3ce4c829a160f45cee000caf0cc204a5.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/afcbccf62e6ef2c56b8fcdddffcce3b7b16e14d9c47c1601f83ab253185b7103.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/b3655e1313d943a10476113504bfcd2931b24bf4a5bae800152eafde572e4f21.jpg?namespace=gamesdb",
@@ -167,5 +173,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T01:08:04.129Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -19,11 +19,11 @@ developer: Chunkybox Games
 genre: Action, Dungeon Crawler, Indie
 franchise: 
 age_rating_summary: 
-release_date: "May 5, 2022"
+release_date: "May 4, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1265","name":"Dungeon Crawler"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/139676"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-12-07T15:00:00.000Z","end":"2022-12-14T15:00:00.000Z","type":null,"id":"d6531a64aa334d8d9c993cc607e48406"}]
 

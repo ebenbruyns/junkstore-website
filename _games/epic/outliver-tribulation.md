@@ -19,11 +19,11 @@ developer: GBROSSOFT
 genre: Horror, Action-Adventure, Shooter
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "July 19, 2023"
+release_date: "July 18, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
-igdb_url: "https://www.igdb.com/games/129234"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-10-10T15:00:00.000Z","end":"2024-10-17T15:00:00.000Z","type":null,"id":"a4d3ae371e674ce3b2892d63c8bb4041"}]
 

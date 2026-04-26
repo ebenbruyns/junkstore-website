@@ -18,7 +18,7 @@ publisher: 2K Games
 developer: Firaxis Games
 genre: Strategy, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 10 · PEGI 12
 release_date: "September 14, 2004"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]

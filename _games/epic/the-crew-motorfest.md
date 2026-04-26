@@ -19,7 +19,7 @@ developer: Ubisoft Ivory Tower
 genre: Action, Racing
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "July 5, 2024"
+release_date: "July 4, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English*","French*","Italian","German*","Spanish - Spain","Arabic","Simplified Chinese","Traditional Chinese","Korean","Japanese"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21138","name":"Recommend this Game"},{"id":"1203","name":"Multiplayer"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]

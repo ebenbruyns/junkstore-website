@@ -19,11 +19,11 @@ developer: Wolfeye Studios
 genre: Narration, RPG, Action-Adventure
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "April 1, 2022"
+release_date: "March 31, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"21123","name":"Impact the Story"},{"id":"21139","name":"Amazing Characters"},{"id":"1367","name":"RPG"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"}]
-igdb_url: "https://www.igdb.com/games/127350"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

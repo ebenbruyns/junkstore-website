@@ -18,8 +18,8 @@ publisher: Activision, LucasArts, Aspyr Media
 developer: BioWare
 genre: role-playing, adventure
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 13 · PEGI 12
+release_date: "July 1, 2003"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

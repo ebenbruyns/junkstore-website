@@ -35,7 +35,7 @@
   "shortname": "5ff96008f7314df4bb188cd085b1cdf4",
   "publisher": "Armor Games Studios",
   "developer": "FinalBoss Games",
-  "releasedate": "2022-06-11T16:30:00.000Z",
+  "release_date": "2022-06-11",
   "genre": "Casual, Puzzle",
   "description": "Grab your axe and save the environment by chopping and recycling every man-made thing in your path and solving puzzles with your charming animal friends!",
   "size": "",
@@ -78,8 +78,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 163629,
-  "igdb_url": "https://www.igdb.com/games/163629",
   "giveaway_events": [
     {
       "start": "2024-08-01T15:00:00.000Z",
@@ -90,7 +88,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Grab your axe and save the environment by chopping and recycling every man-made thing in your path and solving puzzles with your charming animal friends!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54650073962378967",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/f80e9d171c9c723a04ba580d3c31420e9708933e200a24f4774ae411870fcf9d.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/42e3879965fc9cdba1cc95e81f98458b15dbc2a5da9a968bad13690ea598d8a4.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/35aab8d2df1c7849dd303b3da363ead39d5e4533e56d5bd2661e4c2927f99fc8.jpg?namespace=gamesdb",
@@ -113,5 +119,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:42:41.873Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

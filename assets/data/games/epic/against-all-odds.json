@@ -35,7 +35,7 @@
   "shortname": "1465560",
   "publisher": "Freedom Games",
   "developer": "Microwave Games",
-  "releasedate": "2023-05-04T15:00:00.000Z",
+  "release_date": "2023-05-04",
   "genre": "Action, Sports, Indie",
   "description": "Water's cut. Rent's due. Jobs, scarce. Time to get rich. Enter the Slaughter League & win against all odds in supremely lethal races. Platforming meets slaughter in this casual racing game designed for players looking for a new experience - or wind down with blood & guts galore!",
   "size": "",
@@ -82,8 +82,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 144690,
-  "igdb_url": "https://www.igdb.com/games/144690",
   "giveaway_events": [
     {
       "start": "2023-05-03T15:00:00.000Z",
@@ -94,7 +92,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Water's cut. Rent's due. Jobs, scarce. Time to get rich. Enter the Slaughter League & win against all odds in supremely lethal races. Platforming meets slaughter in this casual racing game designed for players looking for a new experience - or wind down with blood & guts galore!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "53872597897645045",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/1465560/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/1465560/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1465560/capsule_231x87.jpg",
@@ -126,5 +132,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T01:18:06.883Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

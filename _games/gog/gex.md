@@ -18,7 +18,7 @@ publisher: Square Enix, Square Enix, Square Enix, Square Enix, Square Enix
 developer: Crystal Dynamics, Crystal Dynamics
 genre: Adventure, Adventure
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 6 · PEGI 12
 release_date: "November 16, 1994"
 game_modes: ["Single player"]
 languages: ["English"]

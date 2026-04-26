@@ -35,7 +35,7 @@
   "shortname": "1429223464",
   "publisher": "Flazm",
   "developer": "Flazm",
-  "releasedate": "",
+  "release_date": "",
   "genre": "NIL, NIL",
   "description": "In Time Loader, you play as a small, time-traveling robot sent on a mission by its inventor to alter past events in order to undo a tragic childhood accident. But meddling with time has serious consequences. You can change the past but will you be able to deal with the repercussions in the present?",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "53475077048906636",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -79,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:38:26.780Z"
+  "updated_at": "2026-04-26T00:45:04.463Z"
 }

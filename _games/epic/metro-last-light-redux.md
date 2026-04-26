@@ -19,7 +19,7 @@ developer: 4A Games
 genre: Action, Shooter, First Person
 franchise: 
 age_rating_summary: 
-release_date: "August 15, 2019"
+release_date: "August 14, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1294","name":"First Person"}]

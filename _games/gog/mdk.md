@@ -18,7 +18,7 @@ publisher: Playmates Interactive Entertainment, Interplay Entertainment
 developer: Shiny Entertainment
 genre: platform, shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "April 30, 1997"
 game_modes: ["Single player"]
 languages: ["English"]

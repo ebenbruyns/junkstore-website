@@ -18,8 +18,8 @@ publisher: Microsoft Game Studios, Nordic Games Publishing, E-Frontier, Remedy E
 developer: Remedy Entertainment
 genre: adventure, shooter
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 13 · PEGI 16
+release_date: "May 1, 2010"
 game_modes: ["Single player"]
 languages: ["English*","German*","French*","Italian*","Korean","Spanish - Spain*","Russian","Japanese*","Polish","Traditional Chinese"]
 tags_structured: []

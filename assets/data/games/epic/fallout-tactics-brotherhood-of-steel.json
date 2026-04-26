@@ -35,7 +35,7 @@
   "shortname": "908f75e7f1624819a70c27f543741dcd",
   "publisher": "Bethesda Softworks",
   "developer": "14° East",
-  "releasedate": "2022-10-20T15:00:00.000Z",
+  "release_date": "2022-10-20",
   "genre": "Turn-Based Strategy, RPG, Strategy",
   "description": "Tactical Squad-Based Combat comes to the Fallout® Universe!\nIn these dark times, the Brotherhood - your Brotherhood - is all that stands between the rekindled flame of civilization and the howling, radiated wasteland.",
   "size": "",
@@ -126,8 +126,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 17,
-  "igdb_url": "https://www.igdb.com/games/17",
   "giveaway_events": [
     {
       "start": "2022-12-21T15:00:00.000Z",
@@ -138,7 +136,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Tactical Squad-Based Combat comes to the Fallout® Universe!\nIn these dark times, the Brotherhood - your Brotherhood - is all that stands between the rekindled flame of civilization and the howling, radiated wasteland.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51152851544826772",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/167a302bf82ec4edfcfc2a10493069abf1174e737d43cd50c50c340f8d6e0ded.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6ffa0c1b1ea418b043a2a360baca479b2945f5ffce044ebd64c4c78992b421f5.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d0c8aeb40f65c8e036dd476e19995e96a6ebcf605fcda10f6d074e33b36692f9.jpg?namespace=gamesdb",
@@ -163,5 +169,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:42.489Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

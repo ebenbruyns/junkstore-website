@@ -35,7 +35,7 @@
   "shortname": "1666688320",
   "publisher": "Lonely Troops",
   "developer": "Lonely Troops",
-  "releasedate": "2015-02-20T00:00:00+0000",
+  "release_date": "2015-02-20",
   "genre": "Role-playing (RPG), Adventure, Indie, Point-and-click",
   "description": "You and your sister had finally found a safe haven in a small fishing village. But more troubles came soon after that. The threat of an unstoppable crew of pirates spread its shadow over the entire kingdom. Your beloved sister was kidnapped by the pirates and taken far away to lands unknown. You have no choice but to embark on a journey to save her. You must be brave. You will travel to the end of the world, helping people, fulfilling quests, learning valuable skills, and finding hundreds of useful items.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51152964737288349",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T21:09:29.289Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

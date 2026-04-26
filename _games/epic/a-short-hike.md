@@ -19,7 +19,7 @@ developer: Adam Gryu
 genre: Casual, Platformer, Indie
 franchise: 
 age_rating_summary: 
-release_date: "March 5, 2020"
+release_date: "March 4, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]

@@ -35,7 +35,7 @@
   "shortname": "1207658890",
   "publisher": "Atari, Inc.",
   "developer": "BioWare",
-  "releasedate": "2005-12-12T00:00:00+0000",
+  "release_date": "2005-12-12",
   "genre": "Role-playing (RPG), Adventure",
   "description": "Experience one of the most popular role-playing adventures of our time, a journey that has thrilled millions. Inhabit dreamlike worlds of myth and mystery. Boundless lands of deadly creatures, foreboding omens and bold heroism.\n\nThis game puts you at the center of an epic tale of faith, war and betrayal, all the while staying true to the pen-and-paper role-playing tradition.\nNeverwinter Nights - A world without limits!\n\nThe Diamond Edition includes the original Neverwinter Nights and three official expansion packs: Shadows of Undrentide, Hordes of the Underdark and Kingmaker.\n\nA fast-paced RPG with an intuitive interface, suitable for new players and RPG veterans alike.\n\nA classic RPG experience that will keep you entertained for over one hundred hours!",
   "size": "",
@@ -51,8 +51,8 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
-  "gamesdb_gog_id": "",
+  "gamesdb_game_id": "51153339731185657",
+  "gamesdb_gog_id": "51428782656271149",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
   "gamesdb_amazon_id": "",
@@ -86,5 +86,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:37:15.305Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

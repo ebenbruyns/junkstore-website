@@ -23,7 +23,7 @@ release_date: "June 9, 2023"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1395","name":"Narration"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/151177"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

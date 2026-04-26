@@ -19,11 +19,11 @@ developer: Frontier Developments
 genre: Action, Space
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "November 20, 2020"
+release_date: "November 19, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"29088","name":"Online Multiplayer"},{"id":"1121","name":"Space"},{"id":"1281","name":"Space Sim"},{"id":"1188","name":"RELAXING"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"217","name":"SPACE SIMULATION"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1279","name":"Vampire"}]
-igdb_url: "https://www.igdb.com/games/2955"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2020-11-18T15:00:00.000Z","end":"2020-11-25T15:00:00.000Z","type":null,"id":"7b002177046841a69da1adc0e1d0c98f"}]
 

@@ -18,7 +18,7 @@ publisher: Square Enix, Feral Interactive
 developer: Eidos Montréal, GRIP Entertainment
 genre: Role-playing (RPG), Shooter
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 18
 release_date: "October 22, 2013"
 game_modes: ["Single player"]
 languages: ["English"]

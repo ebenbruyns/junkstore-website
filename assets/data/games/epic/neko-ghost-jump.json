@@ -35,7 +35,7 @@
   "shortname": "a9999cf992d74279b410a0ac9608e153",
   "publisher": "Burgos Games",
   "developer": "Burgos Games",
-  "releasedate": "2022-01-11T17:00:00.000Z",
+  "release_date": "2022-01-11",
   "genre": "Action, Puzzle, Platformer",
   "description": "Neko Ghost, Jump! is a puzzle-platformer where you not only switch between 2D & 3D camera perspectives but also between your physical & ghost forms to solve puzzles, combat enemies, and clear levels faster.",
   "size": "",
@@ -90,8 +90,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 126329,
-  "igdb_url": "https://www.igdb.com/games/126329",
   "giveaway_events": [
     {
       "start": "2025-03-27T15:00:00.000Z",
@@ -102,7 +100,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Neko Ghost, Jump! is a puzzle-platformer where you not only switch between 2D & 3D camera perspectives but also between your physical & ghost forms to solve puzzles, combat enemies, and clear levels faster.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52843130633156823",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/fe62da8c8d50c93c8c67e3256d9ee0a7805e43c7ac97bcc490654a373c1eb3ea.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/870d8fe35ab069486985bd673720e61dc2894cba70516107cfb7048eb205774c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/591d179b15a312cc70ecf685dcbaf3117c5d1361c27a651109ebc4f3c5bac849.jpg?namespace=gamesdb",
@@ -125,5 +131,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:43:21.714Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

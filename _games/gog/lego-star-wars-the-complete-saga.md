@@ -18,7 +18,7 @@ publisher: WB Games, LucasArts, Feral Interactive
 developer: "Traveller's Tales, Robosoft Technologies"
 genre: Adventure, Platform
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 10 · PEGI 3
 release_date: "November 6, 2007"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]

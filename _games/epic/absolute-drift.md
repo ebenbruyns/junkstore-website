@@ -19,7 +19,7 @@ developer: Funselektor Labs
 genre: Racing, Indie
 franchise: 
 age_rating_summary: 
-release_date: "February 19, 2021"
+release_date: "February 18, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21138","name":"Recommend this Game"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1212","name":"Racing"},{"id":"10719","name":"Mac OS"},{"id":"1263","name":"Indie"}]

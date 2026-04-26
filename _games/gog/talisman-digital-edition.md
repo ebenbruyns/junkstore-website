@@ -18,7 +18,7 @@ publisher: Asmodee Digital, Nomad Games
 developer: Nomad Games
 genre: Role-playing (RPG), Strategy, Indie
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 7
 release_date: "March 9, 2011"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]

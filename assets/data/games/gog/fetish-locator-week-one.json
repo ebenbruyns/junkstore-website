@@ -35,7 +35,7 @@
   "shortname": "1654462894",
   "publisher": "ViNovella Games",
   "developer": "ViNovella Games",
-  "releasedate": "2020-07-27T00:00:00+0000",
+  "release_date": "2020-07-27",
   "genre": "Visual Novel",
   "description": "Play as a young college student exploring love, lust, and sexual fetishes with the hottest women in town. Score points in the Fetish Locator app, which has taken the campus by storm. Make choices and decide the fate of the story in Fetish Locator!",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "53551283475794183",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.039Z",
-  "updated_at": "2026-04-25T22:39:54.125Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

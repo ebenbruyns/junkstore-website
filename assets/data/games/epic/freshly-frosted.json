@@ -35,7 +35,7 @@
   "shortname": "c95f2c3e2e8b41f1bb9de3036e53f319",
   "publisher": "The Quantum Astrophysicists Guild",
   "developer": "The Quantum Astrophysicists Guild",
-  "releasedate": "2022-06-10T07:00:00.000Z",
+  "release_date": "2022-06-10",
   "genre": "Simulation, Puzzle, Indie",
   "description": "Place conveyor belts to solve puzzles in the world's most adorable donut factory!",
   "size": "",
@@ -90,8 +90,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 117697,
-  "igdb_url": "https://www.igdb.com/games/117697",
   "giveaway_events": [
     {
       "start": "2024-06-19T15:00:00.000Z",
@@ -102,7 +100,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Place conveyor belts to solve puzzles in the world's most adorable donut factory!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52212135697870735",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/51988980e85d2c14df39ad2d2da730e2cfb0f77b372f231ea5a2f9da54223250.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/eba064f7bcb280867c493f0fd1138a04893cbc90a0bedf7cc051af4dc2a06eac.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/88586f350e622cd179e01a9507d5624e0d4ab3bb292c727d8d5047cfe6c6a3a5.jpg?namespace=gamesdb",
@@ -135,5 +141,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:41:37.763Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

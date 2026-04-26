@@ -18,7 +18,7 @@ publisher: Plug In Digital, SeithCG
 developer: SeithCG
 genre: Role-playing (RPG), Adventure, Indie, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 10 · PEGI 12
 release_date: "March 13, 2018"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian","Simplified Chinese"]

@@ -19,11 +19,11 @@ developer: Tango Gameworks
 genre: Horror, Survival, Shooter
 franchise: The Evil Within
 age_rating_summary: ESRB Mature 17+
-release_date: "August 3, 2023"
+release_date: "August 2, 2023"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Japanese*","Russian*","Korean","Polish","Portuguese - Brazil*"]
 tags_structured: [{"id":"1218","name":"Horror"},{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1080","name":"Survival"},{"id":"1210","name":"Shooter"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/36813"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-10-25T15:00:00.000Z","end":"2023-11-01T15:00:00.000Z","type":null,"id":"77693e5298d94911a0edd2492203d9ea"}]
 

@@ -35,7 +35,7 @@
   "shortname": "a617890cec1542d6ba760ba13f79225e",
   "publisher": "META Publishing",
   "developer": "Flazm",
-  "releasedate": "2022-06-08T14:00:00.000Z",
+  "release_date": "2022-06-08",
   "genre": "Simulation, Puzzle, Strategy",
   "description": "Build even more complex railway networks than ever before! Building on the success of the original, you’ll get more of what you loved about the original and then some. With increasingly difficult and complex challenges from local industries, the Valley has never felt so vast!",
   "size": "",
@@ -138,8 +138,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 29272,
-  "igdb_url": "https://www.igdb.com/games/29272",
   "giveaway_events": [
     {
       "start": "2023-07-12T15:00:00.000Z",
@@ -150,7 +148,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Build even more complex railway networks than ever before! Building on the success of the original, you’ll get more of what you loved about the original and then some. With increasingly difficult and complex challenges from local industries, the Valley has never felt so vast!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51295412620815483",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/cd24af43fef14abcf9fa292d785a1c49a248681609eb96fcdccbf5e91dc00f9c.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/c2eb2deae4f93332c16405a2dd2f290cd1c68548213d00826bb698f995192e0a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/d097b61dd3102fb48014b6f770d7b0f7604725e5e39955539c0f19b8be07ef3a.jpg?namespace=gamesdb",
@@ -174,5 +180,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:45:42.820Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

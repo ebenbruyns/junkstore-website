@@ -19,11 +19,11 @@ developer: UBISOFT MONTREAL
 genre: Sport, Simulator, Racing
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "June 24, 2022"
+release_date: "June 23, 2022"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21125","name":"Competitive Community"},{"id":"21141","name":"Extremely Fun"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/119158"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

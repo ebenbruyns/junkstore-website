@@ -35,7 +35,7 @@
   "shortname": "d1df808b70104992a53512d64fae933c",
   "publisher": "KONAMI",
   "developer": "KONAMI",
-  "releasedate": "2024-11-14T16:00:00.000Z",
+  "release_date": "2024-11-14",
   "genre": "Action, Retro, Platformer",
   "description": "Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
   "size": "",
@@ -122,8 +122,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 116138,
-  "igdb_url": "https://www.igdb.com/games/116138",
   "giveaway_events": [
     {
       "start": "2024-11-14T16:00:00.000Z",
@@ -134,7 +132,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52090602383367458",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/7ff5dba0766680d0a7693d0f57db05cc0536bf32038e1a8f03597c7485a65458.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/f3dc5910382a610f92b15d6b375b7bb507aafa3e80c162359c7a75c44985fd12.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/2920263403abac29c17415a8581a48a41b778d82ac6fb8f2e6422c2be0158308.jpg?namespace=gamesdb",
@@ -159,5 +165,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:16.137Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

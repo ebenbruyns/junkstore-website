@@ -35,7 +35,7 @@
   "shortname": "1757179626",
   "publisher": "Square Enix, Feral Interactive",
   "developer": "IO Interactive",
-  "releasedate": "2012-11-19T00:00:00+0000",
+  "release_date": "2012-11-19",
   "genre": "Adventure, Shooter, Tactical",
   "description": "Hitman: Absolution follows the Original Assassin undertaking his most personal contract to date. Betrayed by the Agency and hunted by the police, Agent 47 finds himself pursuing redemption in a corrupt and twisted world.\n\nShowcasing Io-Interactive’s new proprietary Glacier 2 technology, the game has been built from the ground up, boasting a cinematic story, distinctive art direction and highly original game design, Hitman Absolution combines much loved classic gameplay with completely new gameplay features for the Hitman franchise.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51152973436278595",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -87,5 +87,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:36:50.799Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

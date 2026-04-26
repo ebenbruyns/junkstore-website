@@ -35,7 +35,7 @@
   "shortname": "f9685170f7b142909c661a080bd9e60c",
   "publisher": "Akupara Games",
   "developer": "Little Leo",
-  "releasedate": "2023-09-21T16:00:00.000Z",
+  "release_date": "2023-09-21",
   "genre": "Card Game, Adventure",
   "description": "An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 178127,
-  "igdb_url": "https://www.igdb.com/games/178127",
   "giveaway_events": [
     {
       "start": "2024-12-20T16:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54859544758948831",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/32e62ac12316689864046cd799dc449deff6ef60ba09dc7262853cf2996aa79d.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d2c18404ab356e058d8d9f9383069b08948b1a3be529a35b34c3535aabffb87a.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/a53f7c4a099523b0403c253d9ae9db51531f6b7b547ad613fbcc11e8223fa727.jpg?namespace=gamesdb",
@@ -150,5 +156,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:00.816Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

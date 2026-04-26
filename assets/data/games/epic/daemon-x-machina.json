@@ -35,7 +35,7 @@
   "shortname": "f4f0d39fbb4640e0be62aa91d9eca87d",
   "publisher": "Nintendo, Marvelous, XSEED Games",
   "developer": "Marvelous First Studio",
-  "releasedate": "2022-01-27T16:00:00.000Z",
+  "release_date": "2022-01-27",
   "genre": "Action",
   "description": "Pilot your fully customizable Arsenal mech and join your fellow mercenaries in defending humanity from the corrupted machines and gigantic robots in this post-apocalyptic action game!",
   "size": "",
@@ -110,8 +110,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 103338,
-  "igdb_url": "https://www.igdb.com/games/103338",
   "giveaway_events": [
     {
       "start": "2022-01-26T15:00:00.000Z",
@@ -122,7 +120,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Pilot your fully customizable Arsenal mech and join your fellow mercenaries in defending humanity from the corrupted machines and gigantic robots in this post-apocalyptic action game!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51298669682691754",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/6fa5b8c9872decb8f690980e60b8ba3ed0f2050dbf2ec57127bf7418d9fc3e1b.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/51a78aff25a7e1cb493d51606938f6aa86c38e2d7646f634af936f888d36b02e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/69cd587edb9a33532d0c52876685a0dfd4fa14d9fab589e334d312009809fdd7.jpg?namespace=gamesdb",
@@ -147,5 +153,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T02:42:26.052Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

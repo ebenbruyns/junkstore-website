@@ -35,7 +35,7 @@
   "shortname": "1207658847",
   "publisher": "Microïds, Anuman Interactive",
   "developer": "Virtual Studio",
-  "releasedate": "1999-03-18T00:00:00+0000",
+  "release_date": "1999-03-18",
   "genre": "Adventure, Puzzle, Point-and-click",
   "description": "Amerzone is a first person adventure, similar to Myst, using 360º vision, movement and point & click interface. It's the first adventure game from the author of Syberia and Syberia 2, Benoît Sokal, presenting very rich scenarios and more than 50 puzzles to solve and 200 locations to visit.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51141421038331124",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T22:35:42.695Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

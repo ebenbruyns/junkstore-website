@@ -19,7 +19,7 @@ developer: Balloon Studios
 genre: Puzzle, Adventure, Indie
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "February 6, 2026"
+release_date: "February 5, 2026"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Japanese","Spanish - Latin America","Portuguese - Brazil","Simplified Chinese","Traditional Chinese"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"1263","name":"Indie"},{"id":"39071","name":"Android"}]

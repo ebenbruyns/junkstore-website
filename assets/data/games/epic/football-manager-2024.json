@@ -35,7 +35,7 @@
   "shortname": "da2038ef19e94554898056d79168b3f8",
   "publisher": "SEGA",
   "developer": "Sports Interactive",
-  "releasedate": "2023-11-06T16:00:00.000Z",
+  "release_date": "2023-11-06",
   "genre": "Simulation",
   "description": "Progress never stops when you're pursuing footballing greatness. Gameplay upgrades empower you to develop a blueprint for success on and off the pitch. Pre-order for 10% off and Early Access*.",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 266382,
-  "igdb_url": "https://www.igdb.com/games/266382",
   "giveaway_events": [
     {
       "start": "2024-09-05T15:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Football Manager 2024",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "56860305429570112",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/a3fdf0ee4026c257a75140a2843b85a2e3e844e67ba8f79b98e5a6c94c9a3187.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/0d34c456880db7082c86b1496835aef3d12f1d04aa4662108445f11d75a8a0ef.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/61c108f33def83d631ec67f2c2f8194c45b9393d0d17e5fc989a21f68c466384.jpg?namespace=gamesdb",
@@ -151,5 +157,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:41:35.283Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

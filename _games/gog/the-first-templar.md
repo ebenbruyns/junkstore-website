@@ -18,7 +18,7 @@ publisher: Kalypso Media, FX Interactive
 developer: Haemimont Games
 genre: Role-playing (RPG), Adventure, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 16
 release_date: "May 6, 2011"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English","French","German"]

@@ -35,7 +35,7 @@
   "shortname": "a7270bff1bad44298091dd61c6c7bc00",
   "publisher": "Headup GmbH",
   "developer": "Goody Gameworks",
-  "releasedate": "2023-03-22T16:00:00.000Z",
+  "release_date": "2023-03-22",
   "genre": "Action, Retro, Indie",
   "description": "Become a customizable giant monster with manifold skills in Gigapocalypse, inspired by classical Kaijū movies such as “Godzilla” and “King Kong” and the game classic “Rampage”.",
   "size": "",
@@ -134,8 +134,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 158921,
-  "igdb_url": "https://www.igdb.com/games/158921",
   "giveaway_events": [
     {
       "start": "2025-05-22T15:00:00.000Z",
@@ -146,7 +144,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Become a customizable giant monster with manifold skills in Gigapocalypse, inspired by classical Kaijū movies such as “Godzilla” and “King Kong” and the game classic “Rampage”.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54382582317122069",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/fbfe6bb1a00b417e8954e439abf096ad93f37be8da9806415b4992a00e47dcfa.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fb5edb845f340a69ed689ed5e76f116852770f92dba099fdb0d70c5d811ed40c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/ff03b577350c025724ff562f4c04631a18ab376a0fb2fc2e08d496076600d4c5.jpg?namespace=gamesdb",
@@ -170,5 +176,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:41:45.275Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

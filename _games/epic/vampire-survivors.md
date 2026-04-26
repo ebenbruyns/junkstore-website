@@ -19,11 +19,11 @@ developer: Poncle
 genre: Indie, Action-Adventure, Rogue-Lite
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "December 20, 2024"
+release_date: "December 19, 2024"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"21127","name":"Creative Community"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1336","name":"Action-Adventure"},{"id":"1083","name":"Rogue-Lite"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1183","name":"Local Multiplayer"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/186725"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-12-19T16:00:00.000Z","end":"2024-12-20T16:00:00.000Z","type":null,"id":"9b6d6cc0e10a42a3a0aa4fe02f5dbee5"}]
 

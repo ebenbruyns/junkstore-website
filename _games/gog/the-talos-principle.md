@@ -18,7 +18,7 @@ publisher: Devolver Digital
 developer: Croteam
 genre: Adventure, Indie, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13
 release_date: "December 11, 2014"
 game_modes: ["Single player"]
 languages: ["English"]

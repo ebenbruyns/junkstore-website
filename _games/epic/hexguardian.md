@@ -19,7 +19,7 @@ developer: Split Second Games
 genre: Tower Defense, Rogue-Lite, Strategy
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "February 5, 2026"
+release_date: "February 4, 2026"
 game_modes: ["Single-player"]
 languages: ["English","Simplified Chinese","Traditional Chinese","French","German","Spanish - Spain","Japanese","Korean","Portuguese - Brazil","Russian"]
 tags_structured: [{"id":"21121","name":"Great for Quick Sessions"},{"id":"1170","name":"Tower Defense"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1115","name":"Strategy"},{"id":"9547","name":"Windows"},{"id":"21119","name":"Great for Beginners"}]

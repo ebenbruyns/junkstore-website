@@ -19,11 +19,11 @@ developer: Aerial_Knight
 genre: Action, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "May 20, 2021"
+release_date: "May 19, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21894","name":"Cloud Saves"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/138206"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-02-28T15:00:00.000Z","end":"2024-03-06T15:00:00.000Z","type":null,"id":"2fecb1793ce446408cd869611400a797"}]
 

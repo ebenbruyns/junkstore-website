@@ -19,7 +19,7 @@ developer: Astralium Games
 genre: Platformer
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "July 2, 2024"
+release_date: "July 1, 2024"
 game_modes: ["Single-player"]
 languages: ["English"]
 tags_structured: [{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1151","name":"Platformer"}]

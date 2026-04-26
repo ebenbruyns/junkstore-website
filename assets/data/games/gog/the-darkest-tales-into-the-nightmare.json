@@ -35,7 +35,7 @@
   "shortname": "1358213898",
   "publisher": "101XP",
   "developer": "Trinity Team",
-  "releasedate": "2021-10-14T00:00:00+0000",
+  "release_date": "2021-10-14",
   "genre": "Adventure, Indie, Platform, Simulator",
   "description": "When a nightmare creeps into reality, the only ones that can help are those whose magical powers we’ve believed in since childhood. A brave teddy bear and his fairy sidekick head to the darker side of “happily ever after” to rescue his owner, Alicia.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "53692502730495434",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -79,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.191Z",
-  "updated_at": "2026-04-25T22:37:56.571Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

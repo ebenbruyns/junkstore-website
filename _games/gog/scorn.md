@@ -18,7 +18,7 @@ publisher: Ebb Software, Kepler Interactive
 developer: Ebb Software
 genre: Adventure, Indie, Puzzle
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 18
 release_date: "October 14, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -63,8 +63,8 @@ store_url: "https://www.gog.com/en/game/scorn"
 protondb_url: "https://www.protondb.com/app/698670"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Scorn"
-metacritic_score: 
-metacritic_url: ""
+metacritic_score: 70
+metacritic_url: "https://www.metacritic.com/game/scorn/"
 
 # Notes
 notes: "Native controller support. **Decky Plugin: Some tinkering required**. **Pro Version: Works out of the box**. May need C++ Runtime. Resolution wrong on launch but automatically set to correct one after opening settings menu."

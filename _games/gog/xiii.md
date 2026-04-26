@@ -18,8 +18,8 @@ publisher: Ubisoft Entertainment, Feral Interactive
 developer: Ubisoft Paris
 genre: puzzle, shooter
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 17 · PEGI 16
+release_date: "October 1, 2003"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

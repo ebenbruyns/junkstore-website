@@ -19,7 +19,7 @@ developer: Nicalis, Inc.
 genre: Action, Adventure, Platformer
 franchise: 
 age_rating_summary: 
-release_date: "December 4, 2020"
+release_date: "December 3, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21109","name":"Great Boss Battles"},{"id":"21894","name":"Cloud Saves"},{"id":"21129","name":"Challenging Combat"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"}]

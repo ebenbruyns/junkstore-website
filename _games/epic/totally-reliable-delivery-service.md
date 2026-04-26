@@ -19,7 +19,7 @@ developer: "We're Five Games"
 genre: Indie
 franchise: 
 age_rating_summary: 
-release_date: "April 2, 2020"
+release_date: "April 1, 2020"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1400","name":"Physics"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1263","name":"Indie"},{"id":"10719","name":"Mac OS"}]

@@ -35,7 +35,7 @@
   "shortname": "9447b19ffb6a47e1a654b75178779a28",
   "publisher": "The Astronauts",
   "developer": "The Astronauts",
-  "releasedate": "2021-12-19T16:00:00.000Z",
+  "release_date": "2021-12-19",
   "genre": "Exploration",
   "description": "The Vanishing of Ethan Carter is a first-person mystery focused on exploration and discovery. As an occult-minded detective Paul Prospero, piece together the truth behind Ethan’s disappearance — and the fate of his family.",
   "size": "",
@@ -70,8 +70,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 2939,
-  "igdb_url": "https://www.igdb.com/games/2939",
   "giveaway_events": [
     {
       "start": "2022-04-06T15:00:00.000Z",
@@ -88,7 +86,15 @@
   ],
   "was_free_before": true,
   "description_rich": "The Vanishing of Ethan Carter is a first-person mystery focused on exploration and discovery. As an occult-minded detective Paul Prospero, piece together the truth behind Ethan’s disappearance — and the fate of his family.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51295405140344828",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/4a10c26a2af82117df64a2e265935ea626eb8ce7198b7456017b2e1e6cac2086.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/84daca4b918390739f3e7a6cce8b66d1095f1040649d92cf31edd4f47916879c.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/659292536b3557ea22a7612045099f42ae42bda8f0cec5c57d00934767fb608c.jpg?namespace=gamesdb",
@@ -111,5 +117,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:45:28.025Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

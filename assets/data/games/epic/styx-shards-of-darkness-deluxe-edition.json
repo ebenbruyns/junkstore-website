@@ -35,7 +35,7 @@
   "shortname": "e68e9229fd4a4a6c9a76038705ba6ae3",
   "publisher": "Nacon",
   "developer": "Cyanide Studio",
-  "releasedate": "2026-01-15T16:00:00.000Z",
+  "release_date": "2026-01-15",
   "genre": "Fantasy, Action-Adventure, Stealth",
   "description": "Styx returns in a new stealth adventure! Explore and master huge open environments, sneak past or assassinate new enemies and bosses, and experiment with the new array of lethal abilities and weapons in our goblin assassin's arsenal.",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": 13554,
-  "igdb_url": "https://www.igdb.com/games/13554",
   "giveaway_events": [
     {
       "start": "2026-01-15T16:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Styx returns in a new stealth adventure! Explore and master huge open environments, sneak past or assassinate new enemies and bosses, and experiment with the new array of lethal abilities and weapons in our goblin assassin's arsenal.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51154279182760291",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/355790/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/355790/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/355790/capsule_231x87.jpg",
@@ -159,5 +165,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2026-01-16T01:54:04.067Z",
-  "updated_at": "2026-04-25T02:17:57.886Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -23,7 +23,7 @@ release_date: "October 21, 2022"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian","German","Spanish - Spain","Portuguese - Brazil*languages with full audio support"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-igdb_url: "https://www.igdb.com/games/214139"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

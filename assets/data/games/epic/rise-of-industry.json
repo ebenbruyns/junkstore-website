@@ -35,7 +35,7 @@
   "shortname": "cf6c487e39a14113b75d1f625fed1da7",
   "publisher": "Kasedo Games",
   "developer": "Dapper Penguin Studios",
-  "releasedate": "2022-08-11T11:00:00.000Z",
+  "release_date": "2022-08-11",
   "genre": "Strategy",
   "description": "Test your entrepreneurial skills in the first title in the ROI series as you create & optimise production lines. As an early 20th Century industrialist, grow your empire & adapt to an ever-changing business landscape with unexpected events that could lead to boom…or bust.",
   "size": "",
@@ -106,8 +106,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 51577,
-  "igdb_url": "https://www.igdb.com/games/51577",
   "giveaway_events": [
     {
       "start": "2023-03-01T15:00:00.000Z",
@@ -118,7 +116,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Test your entrepreneurial skills in the first title in the ROI series as you create & optimise production lines. As an early 20th Century industrialist, grow your empire & adapt to an ever-changing business landscape with unexpected events that could lead to boom…or bust.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51154124192714841",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/c2f74f7719891b4f7639cd94f7851ec37a96e6f98e0d8a7fbef8eb3a0e618d0f.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/6161708f7319def77f5f1a207e17512cc420b9345b6d4216988111bd68e6ada0.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/0617f704f5fcdaea9d1460b9ca7d993d7a50730590bb519f9b2126cad2239ae7.jpg?namespace=gamesdb",
@@ -149,5 +155,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-04T05:34:28.034Z",
-  "updated_at": "2026-04-25T05:50:46.769Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

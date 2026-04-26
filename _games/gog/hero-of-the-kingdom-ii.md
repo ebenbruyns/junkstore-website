@@ -64,7 +64,7 @@ protondb_url: "https://www.protondb.com/app/346560"
 protondb_report_url: ""
 pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hero_of_the_Kingdom_II"
 metacritic_score: 
-metacritic_url: ""
+metacritic_url: "https://www.metacritic.com/game/hero-of-the-kingdom-ii/"
 
 # Notes
 notes: "Works out of the box!"

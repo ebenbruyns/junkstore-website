@@ -35,7 +35,7 @@
   "shortname": "14a38161ad3c45adab18425415b5df3d",
   "publisher": "Kasedo Games",
   "developer": "Beard Envy",
-  "releasedate": "2022-08-11T11:00:00.000Z",
+  "release_date": "2022-08-11",
   "genre": "Indie, Puzzle",
   "description": "Solve challenging cable-based puzzles and uncover what really happened to the crew of The Alabaster. Now with Hint System (for those ultra tricky puzzles).",
   "size": "",
@@ -114,8 +114,6 @@
   ],
   "age_rating_summary": "ESRB Everyone",
   "reviews_summary": null,
-  "igdb_id": 121885,
-  "igdb_url": "https://www.igdb.com/games/121885",
   "giveaway_events": [
     {
       "start": "2022-11-02T15:00:00.000Z",
@@ -126,7 +124,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Solve challenging cable-based puzzles and uncover what really happened to the crew of The Alabaster. Now with Hint System (for those ultra tricky puzzles).",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "52539229695248607",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/6cb10ea4586df12466c40a8958d6f2d844142a1b08aef7fa3824e5ddb9eeebab.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/7c591c2e1ddcb93a423edeab88bc80ee16bbc060bbaa51fa42763a76af834a0b.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/8cdd14eb248051e6476548a858e92ecbfdfa6419b79669111eb4dac08feac09f.jpg?namespace=gamesdb",
@@ -149,5 +155,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T05:41:33.032Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -19,7 +19,7 @@ developer: Telltale Games
 genre: Action, Adventure
 franchise: The Wolf Among Us
 age_rating_summary: 
-release_date: "December 2, 2019"
+release_date: "December 1, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]

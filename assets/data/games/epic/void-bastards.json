@@ -35,7 +35,7 @@
   "shortname": "595e35287b824902a2f7107139603732",
   "publisher": "Blue Manchu Pty Ltd",
   "developer": "Blue Manchu",
-  "releasedate": "2021-08-19T15:00:00.000Z",
+  "release_date": "2021-08-19",
   "genre": "Action, Shooter",
   "description": "Void Bastards is a revolutionary new strategy-shooter that will test your wits as well as exercise your aim. Can you lead the misfit prisoners of the Void Ark through the derelict spaceships?",
   "size": "",
@@ -118,8 +118,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2021-08-18T15:00:00.000Z",
@@ -130,7 +128,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Void Bastards is a revolutionary new strategy-shooter that will test your wits as well as exercise your aim. Can you lead the misfit prisoners of the Void Ark through the derelict spaceships?",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51737198671958894",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/056c36bf6716da438eb78deeb0cc57752659e36ac71a5029c7b34ef826a620fa.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/20b55a320faf94468a4ec7208da34241561a26f43d2ee659fe291cf71b401122.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/2a876f13309e471905a9008050d93b567851a26915ca3654deb347cfc67fb5ed.jpg?namespace=gamesdb",
@@ -154,5 +160,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T02:29:11.378Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

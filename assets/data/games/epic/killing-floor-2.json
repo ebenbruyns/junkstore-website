@@ -35,7 +35,7 @@
   "shortname": "Finch",
   "publisher": "Deep Silver, Iceberg Interactive, Tripwire Interactive",
   "developer": "Tripwire Interactive",
-  "releasedate": "2020-07-09T15:00:00.000Z",
+  "release_date": "2020-07-09",
   "genre": "Action, Horror, First Person, Survival, Shooter",
   "description": "In KILLING FLOOR 2, players descend into continental Europe after it has been overrun by horrific, murderous clones called Zeds that were created by rogue elements of the Horzine Corporation. 6-player Co-Op & 12-player VS Zed-slaughtering mayhem.",
   "size": "",
@@ -150,8 +150,6 @@
   ],
   "age_rating_summary": "ESRB Mature 17+",
   "reviews_summary": null,
-  "igdb_id": "",
-  "igdb_url": "",
   "giveaway_events": [
     {
       "start": "2022-07-06T15:00:00.000Z",
@@ -168,7 +166,15 @@
   ],
   "was_free_before": true,
   "description_rich": "In KILLING FLOOR 2, players descend into continental Europe after it has been overrun by horrific, murderous clones called Zeds that were created by rogue elements of the Horzine Corporation. 6-player Co-Op & 12-player VS Zed-slaughtering mayhem.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51153178759884138",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/8638324ce417bb1b218a89bd6a4137978ad449616f644492d51385f467b76ff6.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/8a3d6bed3d9ec99283bbb548a135ad980cf278140326b44dba87e523bd51ee1e.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/4200471306ae23b0e3cd09762b354fe032f26ae2135e71087a3dd9e1a0e92777.jpg?namespace=gamesdb",
@@ -193,5 +199,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:42:30.305Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

@@ -18,8 +18,8 @@ publisher: Bandai Namco Entertainment
 developer: Tarsier Studios
 genre: adventure, strategy, indie, platform, puzzle
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: ESRB 13 · PEGI 16
+release_date: "April 1, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

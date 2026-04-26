@@ -18,7 +18,7 @@ publisher: 101XP
 developer: Trinity Team
 genre: Adventure, Indie, Platform, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 16
 release_date: "October 14, 2021"
 game_modes: ["Single player"]
 languages: ["English"]

@@ -35,7 +35,7 @@
   "shortname": "6",
   "publisher": "Playmates Interactive Entertainment, Interplay Entertainment",
   "developer": "Shiny Entertainment",
-  "releasedate": "1997-04-30",
+  "release_date": "1997-04-30",
   "genre": "platform, shooter",
   "description": "The game tells the story of Kurt Hectic, a janitor who reluctantly must attempt to save Earth from an alien invasion of gigantic strip mining city-size vehicles named \"Minecrawlers\".",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51153234893910292",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -79,5 +79,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:38:40.663Z"
+  "updated_at": "2026-04-26T00:46:54.699Z"
 }

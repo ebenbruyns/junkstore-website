@@ -18,7 +18,7 @@ publisher: Eek Games
 developer: Eek Games
 genre: Role-playing (RPG), Adventure, Indie, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17
 release_date: "July 15, 2022"
 game_modes: ["Single player"]
 languages: ["English"]

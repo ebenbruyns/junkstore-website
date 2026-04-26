@@ -18,8 +18,8 @@ publisher: Frogwares
 developer: Frogwares
 genre: adventure
 franchise: 
-age_rating_summary: 
-release_date: "Invalid Date"
+age_rating_summary: PEGI 16
+release_date: "February 1, 2007"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: []

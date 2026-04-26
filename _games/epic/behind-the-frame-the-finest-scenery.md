@@ -19,11 +19,11 @@ developer: Silver Lining Studio
 genre: Puzzle, Adventure, First Person
 franchise: 
 age_rating_summary: 
-release_date: "August 26, 2021"
+release_date: "August 25, 2021"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1298","name":"Puzzle"},{"id":"21894","name":"Cloud Saves"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"1294","name":"First Person"},{"id":"10719","name":"Mac OS"},{"id":"21151","name":"Easy Puzzles"}]
-igdb_url: "https://www.igdb.com/games/148499"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-01-23T16:00:00.000Z","end":"2025-01-30T16:00:00.000Z","type":null,"id":"ade0eed6f17a412b97d29a992b35754c"}]
 

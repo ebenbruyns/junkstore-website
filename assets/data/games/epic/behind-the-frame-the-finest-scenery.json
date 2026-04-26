@@ -35,7 +35,7 @@
   "shortname": "ba94c39030df477180e5141aadcc8b13",
   "publisher": "Akupara Games, Akatsuki Taiwan",
   "developer": "Silver Lining Studio",
-  "releasedate": "2021-08-25T13:00:00.000Z",
+  "release_date": "2021-08-25",
   "genre": "Puzzle, Adventure, First Person",
   "description": "Guide brush strokes and solve a variety of puzzles to help an aspiring artist complete her masterpiece. As her painting starts to take shape, uncover an emotional tale of chance and artistry revealed behind unrelated yet familiar moments.",
   "size": "",
@@ -90,8 +90,6 @@
   ],
   "age_rating_summary": "",
   "reviews_summary": null,
-  "igdb_id": 148499,
-  "igdb_url": "https://www.igdb.com/games/148499",
   "giveaway_events": [
     {
       "start": "2025-01-23T16:00:00.000Z",
@@ -102,7 +100,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Guide brush strokes and solve a variety of puzzles to help an aspiring artist complete her masterpiece. As her painting starts to take shape, uncover an emotional tale of chance and artistry revealed behind unrelated yet familiar moments.",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "54421179608266377",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/dbcf6f5fad7ca70025900f562ca2f51f88f9e7f300076be9b04fc5d526dd6771.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/d57bf01a920499c0d001aaa2848117618d12420fad32216ac685162d91acd88b.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/a3ab314cc9e311017e4ef1d56247a05cba74fea08b587f9b5ea669a5c149a410.jpg?namespace=gamesdb",
@@ -125,5 +131,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.200Z",
-  "updated_at": "2026-04-25T04:29:18.266Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

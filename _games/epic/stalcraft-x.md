@@ -19,11 +19,11 @@ developer: EXBO
 genre: Shooter, Open World, First Person
 franchise: 
 age_rating_summary: ESRB Mature 17+
-release_date: "February 20, 2026"
+release_date: "February 19, 2026"
 game_modes: ["Multi-player","Co-op"]
 languages: ["English","Russian*","Spanish - Spain","French","Korean*languages with full audio support"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"21137","name":"Unique Visuals"},{"id":"21138","name":"Recommend this Game"},{"id":"1299","name":"Competitive"},{"id":"21125","name":"Competitive Community"},{"id":"22775","name":"MMO"},{"id":"21129","name":"Challenging Combat"},{"id":"1210","name":"Shooter"},{"id":"9547","name":"Windows"},{"id":"1307","name":"Open World"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"1294","name":"First Person"}]
-igdb_url: "https://www.igdb.com/games/133748"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

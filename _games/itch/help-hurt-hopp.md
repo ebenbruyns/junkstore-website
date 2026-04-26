@@ -19,7 +19,7 @@ developer: Daniel Linssen
 genre: Platformer
 franchise: 
 age_rating_summary: 
-release_date: "Invalid Date"
+release_date: "July 1, 2018"
 game_modes: ["Local multiplayer"]
 languages: []
 tags_structured: []

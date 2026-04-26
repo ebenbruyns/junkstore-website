@@ -35,7 +35,7 @@
   "shortname": "1390579243",
   "publisher": "Bethesda Softworks",
   "developer": "id Software",
-  "releasedate": "05-2016",
+  "release_date": "2016-05-01",
   "genre": "puzzle, shooter",
   "description": "Developed by id software, the studio that pioneered the first-person shooter genre and created multiplayer Deathmatch, Doom returns as a brutally fun and challenging modern-day shooter experience.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51152729192739317",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -82,5 +82,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:38:56.781Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

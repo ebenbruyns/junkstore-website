@@ -14,11 +14,11 @@ date_tested: "Aug '25"
 proton_version: ""
 
 # Game Info
-publisher: NIL, NIL
-developer: NIL, NIL
+publisher: Eidos Interactive Corporation
+developer: Eidos Montreal
 genre: Adventure, Shooter, Simulator
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 17 · PEGI 16
 release_date: "February 28, 2014"
 game_modes: ["Single player"]
 languages: ["English"]

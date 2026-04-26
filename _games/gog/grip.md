@@ -18,7 +18,7 @@ publisher: Wired Productions
 developer: Caged Element
 genre: Indie, Shooter, Racing
 franchise: 
-age_rating_summary: 
+age_rating_summary: ESRB 13 · PEGI 12
 release_date: "November 6, 2018"
 game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English"]

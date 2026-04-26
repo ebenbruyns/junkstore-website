@@ -23,7 +23,7 @@ release_date: "June 10, 2022"
 game_modes: ["Single player"]
 languages: ["English*","French","Italian","German","Spanish - Spain","Dutch","Japanese","Korean","Polish","Portuguese - Portugal"]
 tags_structured: [{"id":"1393","name":"Simulation"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21150","name":"Challenging Puzzles"},{"id":"1263","name":"Indie"}]
-igdb_url: "https://www.igdb.com/games/117697"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2024-06-19T15:00:00.000Z","end":"2024-06-26T15:00:00.000Z","type":null,"id":"eba5b90a4eda4234a26259bf2ea8b07a"}]
 

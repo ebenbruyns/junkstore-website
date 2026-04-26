@@ -19,11 +19,11 @@ developer: ustwo games
 genre: Casual
 franchise: 
 age_rating_summary: ESRB Everyone
-release_date: "November 11, 2022"
+release_date: "November 10, 2022"
 game_modes: ["Single-player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Arabic","Japanese","Portuguese - Portugal","Russian","Simplified Chinese"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"21122","name":"Diverse Characters"},{"id":"21138","name":"Recommend this Game"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"9547","name":"Windows"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/135919"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2022-11-09T15:00:00.000Z","end":"2022-11-16T15:00:00.000Z","type":null,"id":"44a89fd06011419d9df5fe412ab305e1"}]
 

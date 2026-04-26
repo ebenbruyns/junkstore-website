@@ -18,7 +18,7 @@ publisher: Iceberg Interactive
 developer: Darkling Room
 genre: adventure, indie, point-and-click
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 16
 release_date: "December 4, 2009"
 game_modes: ["Single player"]
 languages: ["English"]

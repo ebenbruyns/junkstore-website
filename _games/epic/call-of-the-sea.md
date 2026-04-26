@@ -19,11 +19,11 @@ developer: Out of the Blue
 genre: Casual, Puzzle, Adventure
 franchise: 
 age_rating_summary: 
-release_date: "February 18, 2022"
+release_date: "February 17, 2022"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"1296","name":"Casual"},{"id":"1298","name":"Puzzle"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-igdb_url: "https://www.igdb.com/games/133306"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2023-03-08T15:00:00.000Z","end":"2023-03-15T15:00:00.000Z","type":null,"id":"92da5d8d918543b6b408e36d9af81765"}]
 

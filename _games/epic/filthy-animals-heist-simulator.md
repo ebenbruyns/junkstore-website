@@ -19,11 +19,11 @@ developer: Pewter Games Studios
 genre: Action, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "April 5, 2023"
+release_date: "April 4, 2023"
 game_modes: ["Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1203","name":"Multiplayer"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"}]
-igdb_url: "https://www.igdb.com/games/193203"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

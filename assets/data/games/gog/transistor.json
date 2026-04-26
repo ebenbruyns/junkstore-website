@@ -35,7 +35,7 @@
   "shortname": "1429612159",
   "publisher": "Supergiant Games",
   "developer": "Supergiant Games",
-  "releasedate": "05-2014",
+  "release_date": "2014-05-01",
   "genre": "role-playing-rpg, strategy",
   "description": "An unconventional tactical action RPG in which after a powerful group called the Camerata cause measureless destruction through the ambiguous settlement of Cloudbank, Red, a famous singer in the city, goes on a journey along with her lover who is trapped inside the Transistor...",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51295412943011222",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.193Z",
-  "updated_at": "2026-04-25T22:38:46.030Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

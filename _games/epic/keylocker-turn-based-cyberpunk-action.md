@@ -19,7 +19,7 @@ developer: Moonana Games
 genre: Turn-Based, Indie, RPG
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "August 1, 2025"
+release_date: "July 31, 2025"
 game_modes: ["Single player"]
 languages: ["English (United States)"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"19847","name":"Achievements"},{"id":"1386","name":"Turn-Based"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1263","name":"Indie"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1367","name":"RPG"},{"id":"1370","name":"Single Player"},{"id":"21147","name":"Inclusive Character Customization"},{"id":"21119","name":"Great for Beginners"}]

@@ -19,7 +19,7 @@ developer: Deck13
 genre: Action, Adventure
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "November 1, 2023"
+release_date: "October 31, 2023"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"19847","name":"Achievements"},{"id":"1370","name":"Single Player"},{"id":"9547","name":"Windows"},{"id":"1117","name":"Adventure"},{"id":"9549","name":"Controller Support"}]

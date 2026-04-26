@@ -19,7 +19,7 @@ developer: Holyday Studios
 genre: Action, Casual, Adventure
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "January 24, 2025"
+release_date: "January 23, 2025"
 game_modes: ["Single player","Co-operative","Multiplayer","Massively Multiplayer Online (MMO)"]
 languages: ["English"]
 tags_structured: [{"id":"1216","name":"Action"},{"id":"1264","name":"Co-op"},{"id":"1296","name":"Casual"},{"id":"29088","name":"Online Multiplayer"},{"id":"21894","name":"Cloud Saves"},{"id":"22775","name":"MMO"},{"id":"22776","name":"Cross Platform"},{"id":"1370","name":"Single Player"},{"id":"1117","name":"Adventure"},{"id":"39070","name":"iOS"}]

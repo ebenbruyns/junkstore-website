@@ -35,7 +35,7 @@
   "shortname": "1620735257",
   "publisher": "Ebb Software, Kepler Interactive",
   "developer": "Ebb Software",
-  "releasedate": "2022-10-14T00:00:00+0000",
+  "release_date": "2022-10-14",
   "genre": "Adventure, Indie, Puzzle",
   "description": "Scorn is an atmospheric first person horror adventure game set in a nightmarish universe of odd forms and somber tapestry. It is designed around an idea of \"being thrown into the world\". Isolated and lost inside this dream-like world you will explore different interconnected regions in a non-linear fashion. The unsettling environment is a character itself. Every location contains its own theme (story), puzzles and characters that are integral in creating a cohesive lived in world. Throughout the game you will open up new areas, acquire different skill sets, weapons, various items and try to comprehend the sights presented to you.",
   "size": "",
@@ -51,7 +51,7 @@
   "description_steam": "",
   "use_rich_description": false,
   "description_source": "",
-  "gamesdb_game_id": "",
+  "gamesdb_game_id": "51154167859905151",
   "gamesdb_gog_id": "",
   "gamesdb_epic_id": "",
   "gamesdb_itch_id": "",
@@ -80,5 +80,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.192Z",
-  "updated_at": "2026-04-25T22:37:29.845Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

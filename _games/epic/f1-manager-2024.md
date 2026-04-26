@@ -19,11 +19,11 @@ developer: FrontierDevelopments
 genre: Simulation, Strategy
 franchise: F1® Manager
 age_rating_summary: ESRB Everyone
-release_date: "July 24, 2024"
+release_date: "July 23, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
 tags_structured: [{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21125","name":"Competitive Community"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"33639","name":"Promotional Content"},{"id":"9547","name":"Windows"},{"id":"21135","name":"Realistic Visuals"},{"id":"1393","name":"Simulation"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21146","name":"Educational"},{"id":"1115","name":"Strategy"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/290808"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-02-13T16:00:00.000Z","end":"2025-02-20T16:00:00.000Z","type":null,"id":"80480c4dce974e03a009beeffc625b21"}]
 

@@ -19,11 +19,11 @@ developer: Dusklight CO., LTD.
 genre: Turn-Based Strategy, Rogue-Lite, Card Game
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "May 17, 2023"
+release_date: "May 16, 2023"
 game_modes: ["Single-player"]
 languages: ["English","Traditional Chinese","French","Spanish - Spain","Simplified Chinese"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"21138","name":"Recommend this Game"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"1083","name":"Rogue-Lite"},{"id":"1181","name":"Card Game"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"10719","name":"Mac OS"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/151780"
+igdb_url: ""
 was_free_before: true
 giveaway_events: [{"start":"2025-11-20T16:00:00.000Z","end":"2025-11-27T16:00:00.000Z","type":null,"id":"257195bad91744b1803c616135332bdb"}]
 

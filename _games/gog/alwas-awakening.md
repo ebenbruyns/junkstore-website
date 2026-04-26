@@ -18,7 +18,7 @@ publisher: Elden Pixels, Mega Cat Studios
 developer: Elden Pixels
 genre: Adventure, Indie, Platform
 franchise: 
-age_rating_summary: 
+age_rating_summary: PEGI 7
 release_date: "February 2, 2017"
 game_modes: ["Single player"]
 languages: ["English","Swedish","German","Spanish - Spain","Portuguese - Brazil","French","Italian","Russian"]

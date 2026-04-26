@@ -35,7 +35,7 @@
   "shortname": "3ce838d7a25c49368a22918b56e88f2a",
   "publisher": "Midjiwan AB",
   "developer": "Midjiwan AB",
-  "releasedate": "2025-06-17T15:00:00.000Z",
+  "release_date": "2025-06-17",
   "genre": "Turn-Based Strategy, Turn-Based, Strategy",
   "description": "Award-winning strategy game! Build your civilization, master tech, conquer tribes, and dominate the world map!",
   "size": "126179892\n",
@@ -134,8 +134,6 @@
   ],
   "age_rating_summary": "ESRB Everyone 10+",
   "reviews_summary": null,
-  "igdb_id": 57153,
-  "igdb_url": "https://www.igdb.com/games/57153",
   "giveaway_events": [
     {
       "start": "2025-09-11T15:00:00.000Z",
@@ -152,7 +150,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Award-winning strategy game! Build your civilization, master tech, conquer tribes, and dominate the world map!",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": true,
+  "description_source": "",
+  "gamesdb_game_id": "51141477704086480",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://steamcdn-a.akamaihd.net/steam/apps/874390/library_600x900.jpg",
   "banner_image": "https://steamcdn-a.akamaihd.net/steam/apps/874390/library_hero.jpg",
   "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/874390/capsule_231x87.jpg",
@@ -186,5 +192,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-09-11T19:54:30.627Z",
-  "updated_at": "2026-04-25T05:52:55.337Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }

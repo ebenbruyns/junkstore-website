@@ -19,11 +19,11 @@ developer: Frozenbyte
 genre: Puzzle, Action-Adventure, Platformer
 franchise: 
 age_rating_summary: ESRB Everyone 10+
-release_date: "January 1, 2026"
+release_date: "December 31, 2025"
 game_modes: ["Single-player","Multi-player","Co-op","Shared/Split Screen Co-op"]
 languages: ["English*","French*","German*","Italian*","Spanish - Spain**languages with full audio support"]
 tags_structured: [{"id":"1264","name":"Co-op"},{"id":"29088","name":"Online Multiplayer"},{"id":"1298","name":"Puzzle"},{"id":"1188","name":"RELAXING"},{"id":"21140","name":"Amazing Storytelling"},{"id":"19847","name":"Achievements"},{"id":"1336","name":"Action-Adventure"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"1151","name":"Platformer"},{"id":"1183","name":"Local Multiplayer"},{"id":"21119","name":"Great for Beginners"}]
-igdb_url: "https://www.igdb.com/games/6247"
+igdb_url: ""
 was_free_before: false
 giveaway_events: []
 

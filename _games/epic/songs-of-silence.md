@@ -19,7 +19,7 @@ developer: Chimera Entertainment GmbH
 genre: Turn-Based Strategy, Fantasy, Indie
 franchise: 
 age_rating_summary: ESRB Teen
-release_date: "November 14, 2025"
+release_date: "November 13, 2025"
 game_modes: ["Single-player","Multi-player","Co-op"]
 languages: ["English*","French","German","Spanish - Spain","Japanese","Polish","Portuguese - Brazil","Simplified Chinese","Russian","Korean"]
 tags_structured: [{"id":"1088","name":"Turn-Based Strategy"},{"id":"29088","name":"Online Multiplayer"},{"id":"21122","name":"Diverse Characters"},{"id":"1188","name":"RELAXING"},{"id":"21894","name":"Cloud Saves"},{"id":"1287","name":"Fantasy"},{"id":"19847","name":"Achievements"},{"id":"9547","name":"Windows"},{"id":"9549","name":"Controller Support"},{"id":"21134","name":"Beautiful Visuals"},{"id":"1263","name":"Indie"},{"id":"1264","name":"Co-op"},{"id":"21138","name":"Recommend this Game"},{"id":"21139","name":"Amazing Characters"},{"id":"21140","name":"Amazing Storytelling"},{"id":"21141","name":"Extremely Fun"},{"id":"1370","name":"Single Player"},{"id":"21149","name":"Quickly Understand the Controls"},{"id":"21119","name":"Great for Beginners"}]

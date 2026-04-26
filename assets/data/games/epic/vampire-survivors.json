@@ -35,7 +35,7 @@
   "shortname": "1136763135c0482cbbb4b2d45e978156",
   "publisher": "Poncle",
   "developer": "Poncle",
-  "releasedate": "2024-12-19T16:00:00.000Z",
+  "release_date": "2024-12-19",
   "genre": "Indie, Action-Adventure, Rogue-Lite",
   "description": "Mow thousands of night creatures and survive until dawn! Vampire Survivors is a gothic horror casual game with rogue-lite elements, where your choices can allow you to quickly snowball against the hundreds of monsters that get thrown at you.",
   "size": "",
@@ -134,8 +134,6 @@
   ],
   "age_rating_summary": "ESRB Teen",
   "reviews_summary": null,
-  "igdb_id": 186725,
-  "igdb_url": "https://www.igdb.com/games/186725",
   "giveaway_events": [
     {
       "start": "2024-12-19T16:00:00.000Z",
@@ -146,7 +144,15 @@
   ],
   "was_free_before": true,
   "description_rich": "Be the bullet hell",
+  "description_gog": "",
+  "description_steam": "",
   "use_rich_description": false,
+  "description_source": "",
+  "gamesdb_game_id": "55092756686247210",
+  "gamesdb_gog_id": "",
+  "gamesdb_epic_id": "",
+  "gamesdb_itch_id": "",
+  "gamesdb_amazon_id": "",
   "vertical_artwork": "https://images.gog.com/45ba8e3a8a126acfc22c344b24e99423522e6c7bc4113dfb8eda3c76f83f4ca5.jpg?namespace=gamesdb",
   "banner_image": "https://images.gog.com/fa4e1713fdba621d767680a2d6103823cf419a8e173c97ca28192c6ccae5ae77.jpg?namespace=gamesdb",
   "icon_image": "https://images.gog.com/cc40e792418ec465f72c1cd668fb2bf54012970996524d9cbb66f8527b29aff4.jpg?namespace=gamesdb",
@@ -173,5 +179,5 @@
   "is_featured": false,
   "blog_category": "",
   "created_at": "2025-08-01T02:40:48.201Z",
-  "updated_at": "2026-04-25T05:18:50.619Z"
+  "updated_at": "2026-04-26T02:26:29.954Z"
 }
