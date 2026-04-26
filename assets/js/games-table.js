@@ -3,9 +3,6 @@ let gamesData = null;
 let filteredGames = [];
 let currentPage = 1;
 let pageSize = 20;
-// Note: Weekly tested games are now identified via blog_category field in JSON data
-
-// Note: Weekly tested games are now identified directly via blog_category field in JSON data
 
 // Load games data from the build-time slim JSON.
 async function loadGamesData() {
@@ -17,7 +14,6 @@ async function loadGamesData() {
     gamesData = await response.json();
     console.log(`✅ Loaded ${gamesData.total_games} games`);
 
-    populateFeaturedGames();
     populateStats();
     filteredGames = [...gamesData.games];
     sortGames();
@@ -38,76 +34,6 @@ async function loadGamesData() {
         </button>
       </div>
     `;
-  }
-}
-
-// Estimate visual width of game entry for optimal packing
-function estimateGameEntryWidth(game) {
-  const titleLength = game.title.length;
-  const storeLength = game.storefront.length;
-  
-  // Weight factors: title characters are wider than store badge
-  // Add base padding/margin estimates
-  const baseWidth = 40; // padding, borders, gaps
-  const titleWeight = titleLength * 8; // ~8px per character for title
-  const storeWeight = storeLength * 6; // ~6px per character for badge
-  
-  return baseWidth + titleWeight + storeWeight;
-}
-
-// Sort games by estimated width for better space utilization
-function sortGamesByWidth(games) {
-  return games
-    .map(game => ({
-      ...game,
-      estimatedWidth: estimateGameEntryWidth(game)
-    }))
-    .sort((a, b) => {
-      // Alternate between short and long titles for better packing
-      // This creates a more balanced visual layout
-      const aIndex = games.indexOf(a);
-      const bIndex = games.indexOf(b);
-      
-      if (aIndex % 2 === 0) {
-        return a.estimatedWidth - b.estimatedWidth; // Short first for even positions
-      } else {
-        return b.estimatedWidth - a.estimatedWidth; // Long first for odd positions
-      }
-    });
-}
-
-// Populate featured games
-function populateFeaturedGames() {
-  const featuredGames = gamesData.games.filter(game => game.is_featured);
-  const container = document.getElementById('featuredGamesContainer');
-  
-  if (featuredGames.length === 0) {
-    container.innerHTML = '<div class="featured-entry">No featured games at this time.</div>';
-    return;
-  }
-  
-  // Sort games for optimal space utilization
-  const sortedGames = sortGamesByWidth(featuredGames);
-  
-  container.innerHTML = sortedGames.map(game => {
-    const storefrontDir = game.storefront === 'itch' ? 'itch.io' : game.storefront.toLowerCase();
-    const storefrontKey = game.storefront === 'itch' ? 'itchio' : game.storefront.toLowerCase();
-    return `
-    <div class="featured-entry clickable" data-game-slug="${game.slug}" data-game-storefront="${storefrontKey}" data-storefront="${storefrontDir}">
-      <span class="featured-game-link">
-        ${game.title}
-      </span>
-      <span class="store-badge ${game.storefront.toLowerCase()}">${game.storefront}</span>
-    </div>
-    `;
-  }).join('');
-
-  // Re-add row click handlers for featured games
-  addRowClickHandlers();
-
-  // Stamp Free-Now pills on any featured game currently being given away.
-  if (window.FreeGames && window.FreeGames.applyBadges) {
-    window.FreeGames.ready().then(() => window.FreeGames.applyBadges(container));
   }
 }
 
@@ -140,23 +66,9 @@ function populateStats() {
   `;
 }
 
-// Sort games: featured first, then backlog/retest (alphabetized together), then regular games
+// Sort games alphabetically by title.
 function sortGames() {
-  filteredGames.sort((a, b) => {
-    // Featured games come first
-    if (a.is_featured && !b.is_featured) return -1;
-    if (!a.is_featured && b.is_featured) return 1;
-
-    // If neither are featured, prioritize backlog/retest games as one group
-    const aIsBacklogRetest = a.blog_category === 'backlog' || a.blog_category === 'retest';
-    const bIsBacklogRetest = b.blog_category === 'backlog' || b.blog_category === 'retest';
-
-    if (aIsBacklogRetest && !bIsBacklogRetest) return -1;
-    if (!aIsBacklogRetest && bIsBacklogRetest) return 1;
-
-    // Then sort alphabetically by title (both within and across groups)
-    return a.title.localeCompare(b.title);
-  });
+  filteredGames.sort((a, b) => a.title.localeCompare(b.title));
 }
 
 // Get compatibility display for ratings

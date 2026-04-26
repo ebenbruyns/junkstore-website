@@ -15,14 +15,6 @@ image: /assets/images/blog/features/games-table/games-table-hero-card.webp
   <span class="free-games-banner__cta">See all →</span>
 </a>
 
-<!-- Featured Games Section -->
-<div class="feature-box games-featured-box">
-  <h3>This Week's Giveaways and Featured Games</h3>
-  <div class="featured-row" id="featuredGamesContainer">
-    <!-- Featured games will be populated by JavaScript -->
-  </div>
-</div>
-
 <p style="border-left: 4px solid #e67300; background-color: #1f1f1f; padding: 10px; margin-top: 20px;">
   <strong>Note:</strong> Games tested by the Junk Store team use <strong>GE-Proton 10.26</strong>, as it consistently provides the best out-of-the-box compatibility.<br>
   To use the <strong>EOS overlay</strong> with Epic Games, you'll need <strong>GE-Proton 10.2 or newer</strong>.<br>
