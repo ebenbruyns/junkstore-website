@@ -38,7 +38,32 @@ image: /assets/images/blog/features/games-table/games-table-hero-card.webp
       <option value="itch">itch</option>
     </select>
   </div>
-  
+
+  <div class="control-group">
+    <label for="controllerFilter">Controller Support:</label>
+    <select id="controllerFilter">
+      <option value="All">Any</option>
+      <option value="native">Native</option>
+      <option value="controller">Controller</option>
+      <option value="keyboard-mouse">Keyboard &amp; Mouse</option>
+      <option value="mouse-only">Mouse Only</option>
+      <option value="touchpad">Touchpad</option>
+      <option value="mixed">Mixed Input</option>
+    </select>
+  </div>
+
+  <div class="control-group control-group--toggle">
+    <label><input type="checkbox" id="filterNoEac" /> Hide anti-cheat</label>
+  </div>
+
+  <div class="control-group control-group--toggle">
+    <label><input type="checkbox" id="filterFreeNow" /> Free now only</label>
+  </div>
+
+  <div class="control-group control-group--toggle">
+    <label><input type="checkbox" id="filterRecent" /> Tested in last 90 days</label>
+  </div>
+
   <div class="control-group">
     <label for="searchInput">Search:</label>
     <div class="search-input-wrapper">
@@ -46,7 +71,7 @@ image: /assets/images/blog/features/games-table/games-table-hero-card.webp
       <div class="search-clear-btn" id="clearSearch" title="Clear search">&times;</div>
     </div>
   </div>
-  
+
   <div class="control-group">
     <label for="pageSizeSelect">Show:</label>
     <select id="pageSizeSelect">

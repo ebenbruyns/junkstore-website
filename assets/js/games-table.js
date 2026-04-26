@@ -225,20 +225,70 @@ function changePage(page) {
 // Filter table
 function filterTable() {
   if (!gamesData) return;
-  
+
   const storeValue = document.getElementById('storefrontFilter').value;
+  const controllerValue = document.getElementById('controllerFilter').value;
+  const hideEac = document.getElementById('filterNoEac').checked;
+  const freeNowOnly = document.getElementById('filterFreeNow').checked;
+  const recentOnly = document.getElementById('filterRecent').checked;
   const searchValue = document.getElementById('searchInput').value.toLowerCase();
-  
+
+  // Build a fast lookup of currently-free games (storefront/slug) from the
+  // free-games overlay, if available. Empty set when the overlay isn't loaded
+  // yet — the toggle will simply hide everything until ready, then refilter.
+  const freeKeys = new Set();
+  if (window.FreeGames && window.FreeGames.activeList) {
+    for (const entry of window.FreeGames.activeList) {
+      if (entry.website_slug && entry.storefront) {
+        freeKeys.add(`${entry.storefront.toLowerCase()}/${entry.website_slug.toLowerCase()}`);
+      }
+    }
+  }
+
+  // 90-day cutoff for date_tested. The stored format is "Mon 'YY" (e.g. "Jul '25"),
+  // so parse to a month-precision date and compare.
+  const ninetyDaysAgo = Date.now() - 90 * 24 * 60 * 60 * 1000;
+  const parseDateTested = (s) => {
+    if (!s) return null;
+    const m = s.match(/^([A-Za-z]+)\s+'(\d{2})$/);
+    if (!m) return null;
+    const monthIdx = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+      .findIndex(mn => mn.toLowerCase() === m[1].toLowerCase().slice(0,3));
+    if (monthIdx < 0) return null;
+    return new Date(2000 + parseInt(m[2], 10), monthIdx, 15).getTime();
+  };
+
   filteredGames = gamesData.games.filter(game => {
-    const storeMatches = (storeValue === 'All' || game.storefront === storeValue);
-    const searchMatches = game.title.toLowerCase().includes(searchValue) || 
-                         (game.publisher && game.publisher.toLowerCase().includes(searchValue));
-    
-    return storeMatches && searchMatches;
+    if (storeValue !== 'All' && game.storefront !== storeValue) return false;
+
+    if (controllerValue !== 'All') {
+      const ci = (game.controller_input || '').toLowerCase();
+      if (ci !== controllerValue) return false;
+    }
+
+    if (hideEac && game.requires_eac_runtime) return false;
+
+    if (freeNowOnly) {
+      const k = `${game.storefront.toLowerCase()}/${game.slug.toLowerCase()}`;
+      if (!freeKeys.has(k)) return false;
+    }
+
+    if (recentOnly) {
+      const t = parseDateTested(game.date_tested);
+      if (t === null || t < ninetyDaysAgo) return false;
+    }
+
+    if (searchValue) {
+      const inTitle = game.title.toLowerCase().includes(searchValue);
+      const inPub = game.publisher && game.publisher.toLowerCase().includes(searchValue);
+      if (!inTitle && !inPub) return false;
+    }
+
+    return true;
   });
-  
-  sortGames(); // Re-sort after filtering
-  currentPage = 1; // Reset to first page
+
+  sortGames();
+  currentPage = 1;
   updateTable();
 }
 
@@ -322,6 +372,16 @@ function addRowClickHandlers() {
 function setupEventListeners() {
   // Filter controls
   document.getElementById('storefrontFilter').addEventListener('change', filterTable);
+  document.getElementById('controllerFilter').addEventListener('change', filterTable);
+  document.getElementById('filterNoEac').addEventListener('change', filterTable);
+  document.getElementById('filterFreeNow').addEventListener('change', filterTable);
+  document.getElementById('filterRecent').addEventListener('change', filterTable);
+
+  // Re-apply filter when free-games data lands, so the "Free now only" toggle works.
+  document.addEventListener('freegames:ready', () => {
+    if (document.getElementById('filterFreeNow').checked) filterTable();
+  });
+
   document.getElementById('searchInput').addEventListener('input', handleSearchInput);
   document.getElementById('pageSizeSelect').addEventListener('change', changePageSize);
   
