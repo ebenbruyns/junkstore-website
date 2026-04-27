@@ -14,8 +14,8 @@ let pageSize = 20;
 
 const filterState = {
   store:  'All',           // single value
-  decky:  new Set(),       // multi-select rating buckets
-  pro:    new Set(),       // multi-select rating buckets
+  decky:  'All',           // single value (rating bucket or 'All')
+  pro:    'All',           // single value (rating bucket or 'All')
   recent: false,           // boolean: tested in last 90 days
   search: ''               // free-text
 };
@@ -114,13 +114,15 @@ function parseDateTested(s) {
 
 function gameMatchesAllExcept(game, skipDim) {
   if (skipDim !== 'store' && filterState.store !== 'All' && game.storefront !== filterState.store) return false;
-  if (skipDim !== 'decky' && filterState.decky.size > 0) {
+  if (skipDim !== 'decky' && filterState.decky !== 'All') {
     const r = (game.decky_rating || '').toLowerCase();
-    if (!RATING_OPTIONS.some(o => filterState.decky.has(o.value) && o.match(r))) return false;
+    const opt = RATING_OPTIONS.find(o => o.value === filterState.decky);
+    if (!opt || !opt.match(r)) return false;
   }
-  if (skipDim !== 'pro' && filterState.pro.size > 0) {
+  if (skipDim !== 'pro' && filterState.pro !== 'All') {
     const r = (game.standalone_rating || '').toLowerCase();
-    if (!RATING_OPTIONS.some(o => filterState.pro.has(o.value) && o.match(r))) return false;
+    const opt = RATING_OPTIONS.find(o => o.value === filterState.pro);
+    if (!opt || !opt.match(r)) return false;
   }
   if (skipDim !== 'recent' && filterState.recent) {
     const t = parseDateTested(game.date_tested);
@@ -178,10 +180,9 @@ function computePillCount(dim) {
   }
   if (dim === 'decky' || dim === 'pro') {
     const field = dim === 'decky' ? 'decky_rating' : 'standalone_rating';
-    return gamesData.games.filter(g => {
-      const r = (g[field] || '').toLowerCase();
-      return RATING_OPTIONS.some(o => filterState[dim].has(o.value) && o.match(r));
-    }).length;
+    const opt = RATING_OPTIONS.find(o => o.value === filterState[dim]);
+    if (!opt) return 0;
+    return gamesData.games.filter(g => opt.match((g[field] || '').toLowerCase())).length;
   }
   if (dim === 'recent') {
     const cutoff = Date.now() - NINETY_DAYS_MS;
@@ -196,16 +197,14 @@ function computePillCount(dim) {
 // ---- Filter mutations ------------------------------------------------------
 
 function setFilter(dim, value) {
-  if (dim === 'store') filterState.store = value;
-  else if (dim === 'decky' || dim === 'pro') filterState[dim] = new Set(value);
+  if (dim === 'store' || dim === 'decky' || dim === 'pro') filterState[dim] = value;
   else if (dim === 'recent') filterState.recent = !!value;
   else if (dim === 'search') filterState.search = value || '';
   applyFilters();
 }
 
 function clearFilter(dim) {
-  if (dim === 'store') filterState.store = 'All';
-  else if (dim === 'decky' || dim === 'pro') filterState[dim] = new Set();
+  if (dim === 'store' || dim === 'decky' || dim === 'pro') filterState[dim] = 'All';
   else if (dim === 'recent') filterState.recent = false;
   else if (dim === 'search') filterState.search = '';
   applyFilters();
@@ -213,8 +212,8 @@ function clearFilter(dim) {
 
 function isDimActive(dim) {
   if (dim === 'store')  return filterState.store !== 'All';
-  if (dim === 'decky')  return filterState.decky.size > 0;
-  if (dim === 'pro')    return filterState.pro.size > 0;
+  if (dim === 'decky')  return filterState.decky !== 'All';
+  if (dim === 'pro')    return filterState.pro !== 'All';
   if (dim === 'recent') return filterState.recent;
   return false;
 }
@@ -268,16 +267,17 @@ function renderFilterBarPills() {
 
   for (const dim of PINNED_DIMS) {
     const active = isDimActive(dim);
+    const isToggle = dim === 'recent'; // boolean dims have no popover
     const pill = document.createElement('button');
     pill.type = 'button';
-    pill.className = 'filter-pill' + (active ? ' is-active' : '');
+    pill.className = 'filter-pill' + (active ? ' is-active' : '') + (isToggle ? ' is-toggle' : '');
     pill.dataset.dim = dim;
-    pill.innerHTML = `
-      <span class="filter-pill__label">${formatPillLabel(dim)}</span>
-      ${active
-        ? `<span class="filter-pill__clear" data-clear="${dim}" role="button" aria-label="Clear ${DIMENSION_LABEL[dim]}">×</span>`
-        : `<span class="filter-pill__arrow">▾</span>`}
-    `;
+    // Inactive: show ▾ for dropdown pills, nothing for toggle pills.
+    // Active:   show × clear button for all.
+    const indicator = active
+      ? `<span class="filter-pill__clear" data-clear="${dim}" role="button" aria-label="Clear ${DIMENSION_LABEL[dim]}">×</span>`
+      : (isToggle ? '' : `<span class="filter-pill__arrow">▾</span>`);
+    pill.innerHTML = `<span class="filter-pill__label">${formatPillLabel(dim)}</span>${indicator}`;
     pill.addEventListener('click', e => {
       if (e.target.closest('[data-clear]')) return;
       onPillClick(dim, pill);
@@ -359,49 +359,40 @@ function renderPopoverContent(dim, counts) {
         </label>`;
     }).join('');
   } else if (dim === 'decky' || dim === 'pro') {
-    body = RATING_OPTIONS.map(o => {
-      const checked = filterState[dim].has(o.value);
+    // Single-select like Store: "Any rating" option to clear, then ratings
+    const totalPool = gamesData.games.filter(g => gameMatchesAllExcept(g, dim)).length;
+    const allRow = `
+      <label class="filter-popover__opt">
+        <input type="radio" name="popover-${dim}" value="All" ${filterState[dim] === 'All' ? 'checked' : ''}>
+        Any rating
+        <span class="filter-popover__count">${totalPool}</span>
+      </label>`;
+    const ratings = RATING_OPTIONS.map(o => {
+      const checked = filterState[dim] === o.value;
       const ct = counts[o.value] !== undefined ? counts[o.value] : 0;
       return `
         <label class="filter-popover__opt">
-          <input type="checkbox" value="${o.value}" ${checked ? 'checked' : ''}>
+          <input type="radio" name="popover-${dim}" value="${o.value}" ${checked ? 'checked' : ''}>
           ${o.label}
           <span class="filter-popover__count">${ct}</span>
         </label>`;
     }).join('');
+    body = allRow + ratings;
   }
 
-  const foot = `
-    <div class="filter-popover__foot">
-      <button type="button" data-action="clear">Clear</button>
-      <button type="button" class="is-primary" data-action="done">Done</button>
-    </div>`;
-
-  return head + `<div class="filter-popover__body">${body}</div>` + foot;
+  // No footer — single-select dims apply on change and close.
+  return head + `<div class="filter-popover__body">${body}</div>`;
 }
 
 function bindPopoverEvents(pop, dim) {
-  if (dim === 'store') {
+  if (dim === 'store' || dim === 'decky' || dim === 'pro') {
     pop.querySelectorAll('input[type="radio"]').forEach(r => {
       r.addEventListener('change', () => {
-        setFilter('store', r.value);
+        setFilter(dim, r.value);
         closePopover();
       });
     });
   }
-  // decky/pro: multi-select; wait for Done
-
-  pop.querySelector('[data-action=clear]').addEventListener('click', () => {
-    clearFilter(dim);
-    closePopover();
-  });
-  pop.querySelector('[data-action=done]').addEventListener('click', () => {
-    if (dim === 'decky' || dim === 'pro') {
-      const selected = [...pop.querySelectorAll('input[type="checkbox"]:checked')].map(c => c.value);
-      setFilter(dim, selected);
-    }
-    closePopover();
-  });
 }
 
 function positionPopover(pop, anchorPill) {
