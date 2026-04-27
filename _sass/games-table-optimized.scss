@@ -85,37 +85,15 @@
     word-wrap: break-word;
 }
 
-/* Featured game highlighting */
-
-/* Row hover effects */
-.games-table-wrapper #gamesTable tbody tr:hover {
-    background: rgba(255, 163, 102, 0.1);
+/* Whole-row click affordance: cursor + hover lift */
+.games-table-wrapper #gamesTable tbody tr {
+    cursor: pointer;
+    transition: background 0.12s;
 }
 
+.games-table-wrapper #gamesTable tbody tr:hover,
 .games-table-wrapper #gamesTable tbody tr:hover td {
     background: rgba(255, 163, 102, 0.1);
-}
-
-
-/* Backlog and retest game highlighting - unified light blue for both */
-.games-table-wrapper #gamesTable tbody tr.retest-game,
-.games-table-wrapper #gamesTable tbody tr.backlog-game {
-    background: rgba(102, 191, 255, 0.08);
-    border-left: 3px solid $junkstore-primary;
-}
-.games-table-wrapper #gamesTable tbody tr.retest-game td,
-.games-table-wrapper #gamesTable tbody tr.backlog-game td {
-    background: rgba(102, 191, 255, 0.08);
-}
-
-/* Backlog and retest games hover (slightly more intense) */
-.games-table-wrapper #gamesTable tbody tr.retest-game:hover,
-.games-table-wrapper #gamesTable tbody tr.backlog-game:hover {
-    background: rgba(102, 191, 255, 0.15);
-}
-.games-table-wrapper #gamesTable tbody tr.retest-game:hover td,
-.games-table-wrapper #gamesTable tbody tr.backlog-game:hover td {
-    background: rgba(102, 191, 255, 0.15);
 }
 
 /* Game title links - make them more obvious and clickable */

@@ -465,9 +465,7 @@ function updateTable() {
     return `
       <tr id="${gameEntryId}" data-storefront="${game.storefront}" data-game-slug="${game.slug}" data-game-storefront="${storefrontDir}">
         <td title="${game.title}">
-          ${isAntiCheat
-            ? `<span class="game-title-static">${game.title}</span>`
-            : `<span class="game-link clickable" data-game-slug="${game.slug}" data-storefront="${storefrontDir}">${game.title}</span>`}
+          <span class="game-link clickable">${game.title}</span>
         </td>
         <td><span class="store-badge ${storefrontDir}">${game.storefront}</span></td>
         ${isAntiCheat
@@ -481,7 +479,6 @@ function updateTable() {
 
   tbody.innerHTML = tableHTML;
   updatePagination();
-  addRowClickHandlers();
   syncBarToTable(); // table widths may have changed (anti-cheat colspan etc)
 
   if (window.FreeGames && window.FreeGames.applyBadges) {
@@ -528,17 +525,24 @@ function changePage(page) {
   document.querySelector('.games-table-wrapper').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
-// ---- Row click handlers ----------------------------------------------------
+// ---- Row click handler (delegated, fires once on tbody) -------------------
+// Whole row navigates to the static game page. Text selection is preserved:
+// if the user dragged to select text, we skip navigation.
 
-function addRowClickHandlers() {
-  document.querySelectorAll('.game-link.clickable').forEach(link => {
-    link.addEventListener('click', e => {
-      e.preventDefault();
-      const slug = link.dataset.gameSlug;
-      const storefront = link.dataset.storefront;
-      if (!slug || !storefront) return;
-      window.location.href = `/games/${storefront}/${slug}/`;
-    });
+function bindRowClicks() {
+  const tbody = document.getElementById('gamesTableBody');
+  if (!tbody || tbody.dataset.clickBound) return;
+  tbody.dataset.clickBound = '1';
+  tbody.addEventListener('click', e => {
+    const tr = e.target.closest('tr');
+    if (!tr || !tr.dataset.gameSlug) return;
+    // Skip if the user selected text rather than clicked.
+    const sel = window.getSelection();
+    if (sel && sel.toString().length > 0) return;
+    const slug = tr.dataset.gameSlug;
+    const storefront = tr.dataset.gameStorefront;
+    if (!slug || !storefront) return;
+    window.location.href = `/games/${storefront}/${slug}/`;
   });
 }
 
@@ -585,6 +589,8 @@ function checkForGameParameter() {
 // ---- Misc setup ------------------------------------------------------------
 
 function setupEventListeners() {
+  bindRowClicks();
+
   const backToTop = document.getElementById('backToTop');
   if (backToTop) {
     window.addEventListener('scroll', () => {
