@@ -394,32 +394,37 @@
 
 /* Games Statistics Section */
 .games-stats {
-    margin: 20px 0;
-    padding: 20px;
+    margin: 14px 0;
+    padding: 14px 18px;
     background: #1f1f1f;
     border-radius: 8px;
 }
 
 .stats-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 0;
     text-align: center;
 }
 
 .stat-item {
     display: flex;
     flex-direction: column;
+    padding: 4px 0;
 }
 
 .stat-number {
-    font-size: 2em;
+    font-size: 1.7rem;
+    line-height: 1.1;
     font-weight: bold;
     color: $junkstore-accent;
+    margin: 0;
 }
 
 .stat-label {
-    font-size: $type-size-body-small;
+    font-size: 0.78rem;
+    margin-top: 2px;
+    letter-spacing: 0.02em;
     color: #ccc;
 }
 

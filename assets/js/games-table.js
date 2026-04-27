@@ -96,17 +96,6 @@ function updateTable() {
   const endIdx = Math.min(startIdx + pageSize, filteredGames.length);
   const pageGames = filteredGames.slice(startIdx, endIdx);
 
-  console.log(`Page ${currentPage}: showing ${pageGames.length} games (${startIdx}-${endIdx}) of ${filteredGames.length} total, pageSize: ${pageSize}`);
-  
-  // Add info row on every page
-  const infoRow = `
-    <tr class="info-row">
-      <td colspan="5" style="text-align: center !important; padding: 14px !important; font-weight: bold !important; color: #ffa366 !important; font-size: 1.05rem !important;">
-        Click any game title for detailed compatibility info, testing notes, controller configs, and more
-      </td>
-    </tr>
-    `;
-
   const tableHTML = pageGames.map(game => {
     // Check if this is an anti-cheat game
     const isAntiCheat = game.cant_test_linux === true;
@@ -137,11 +126,7 @@ function updateTable() {
     `;
   }).join('');
 
-  const finalHTML = infoRow + tableHTML;
-
-  console.log('Generated HTML length:', finalHTML.length);
-  console.log('Setting tbody innerHTML...');
-  tbody.innerHTML = finalHTML;
+  tbody.innerHTML = tableHTML;
   console.log('tbody rows after setting:', tbody.children.length);
 
   updatePagination();
