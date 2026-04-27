@@ -272,25 +272,40 @@
 .games-table-wrapper #gamesTable td:nth-child(5) { text-align: center; }
 
 /* ==========================================================================
-   FILTER BAR — Stripe-style pills with popovers
+   FILTER BAR — column-aligned pill row above the table
    ========================================================================== */
 
 .filter-bar {
-    display: flex;
+    // Grid columns are sized from CSS variables set by JS (syncBarToTable),
+    // matching the actual table column widths. Fallback fr units used until
+    // the first measurement lands.
+    display: grid;
+    grid-template-columns:
+        var(--col-1-w, 2.4fr)
+        var(--col-2-w, 1fr)
+        var(--col-3-w, 1fr)
+        var(--col-4-w, 1fr)
+        var(--col-5-w, 0.85fr);
     align-items: center;
-    flex-wrap: wrap;
-    gap: 16px;
-    justify-content: space-between;
-    padding: 12px 16px;
+    gap: 0;
+    padding: 12px 0;
     margin: 14px 0 18px;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 10px;
     position: relative; // anchor for popovers
 
+    &__col-1 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        min-width: 0;
+        padding: 0 16px;
+    }
+
     &__search {
-        flex: 0 1 380px;
-        min-width: 240px;
+        flex: 1 1 auto;
+        min-width: 180px;
         height: 36px;
         background: #1f2530;
         color: #eee;
@@ -306,19 +321,13 @@
         }
     }
 
-    &__pills {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        flex-wrap: wrap;
-    }
-
     &__show {
         display: inline-flex;
         align-items: center;
         gap: 6px;
         color: #9aa;
         font-size: 0.85rem;
+        flex: 0 0 auto;
 
         select {
             background: #1f2530;
@@ -328,8 +337,26 @@
             padding: 4px 8px;
             height: 32px;
             font-size: 0.88rem;
+            min-width: 64px;
+            text-align: center;
+            text-align-last: center;
 
             &:focus { outline: none; border-color: $junkstore-accent; }
+        }
+    }
+}
+
+// Mobile fallback — drop column alignment, stack as flex
+@media (max-width: 700px) {
+    .filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 10px 12px;
+
+        &__col-1 {
+            flex: 1 1 100%;
+            padding: 0;
         }
     }
 }
@@ -350,6 +377,7 @@
     box-sizing: border-box;
     transition: background 0.15s, border-color 0.15s;
     font-family: inherit;
+    justify-self: center; // center pills inside their grid cells
 
     &:hover, &:focus {
         background: #2a3140;
@@ -366,11 +394,6 @@
     &.is-open {
         background: #2a3140;
         border-color: #4a5568;
-    }
-
-    &.is-add {
-        color: #9aa;
-        border-style: dashed;
     }
 
     &__arrow {
@@ -478,75 +501,6 @@
         }
     }
 }
-
-/* "+ Filter" menu (list of secondary filters that aren't pinned) */
-.filter-add-menu {
-    @extend .filter-popover;
-
-    .filter-add-menu__opt {
-        display: flex;
-        align-items: center;
-        padding: 8px 12px;
-        border-radius: 6px;
-        cursor: pointer;
-        color: #ddd;
-        font-size: 0.9rem;
-
-        &:hover { background: rgba(255, 255, 255, 0.05); }
-    }
-}
-
-/* Mobile filter button (replaces pills on narrow screens) */
-.filter-bar__mobile-btn {
-    display: none; // shown via media query below
-    align-items: center;
-    gap: 6px;
-    background: #1f2530;
-    border: 1px solid #364150;
-    color: #ddd;
-    padding: 8px 14px;
-    border-radius: 8px;
-    font-size: 0.92rem;
-    cursor: pointer;
-    height: 40px;
-    box-sizing: border-box;
-    white-space: nowrap;
-    font-family: inherit;
-
-    &:hover { background: #2a3140; border-color: #4a5568; }
-
-    .filter-bar__mobile-badge {
-        background: $junkstore-accent;
-        color: #fff;
-        padding: 1px 7px;
-        border-radius: 10px;
-        font-size: 0.78rem;
-        font-weight: 700;
-    }
-}
-
-@media (max-width: 700px) {
-    .filter-bar {
-        padding: 10px 12px;
-        gap: 8px;
-
-        &__pills, &__show {
-            display: none;
-        }
-
-        &__search {
-            flex: 1;
-            min-width: 0;
-            height: 40px;
-            font-size: 1rem;
-        }
-
-        &__mobile-btn {
-            display: inline-flex;
-        }
-    }
-}
-
 
 /* Back to top button - matching table theme */
 #backToTop {

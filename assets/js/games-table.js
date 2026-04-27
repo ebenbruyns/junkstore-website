@@ -1,46 +1,32 @@
 // =============================================================================
 // games-table.js — /games/tested/ filter bar + table renderer
 //
-// State-driven filter bar with Stripe-style pills + popovers. All filter state
-// lives in `filterState`; mutations go through setFilter/clearFilter and trigger
-// a single applyFilters → updateTable cycle. Popover/menu open state is tracked
-// in `uiState`.
+// Four pinned filter pills (Store, Decky, Pro, Last 90 days) sit aligned with
+// their corresponding table columns. Search + page-size live in cell 1 (Game
+// column area). Pill labels show absolute counts from the full dataset; live
+// counts appear inside popovers for option-by-option feedback.
 // =============================================================================
-
-// ---- Data + view state -----------------------------------------------------
 
 let gamesData = null;
 let filteredGames = [];
 let currentPage = 1;
 let pageSize = 20;
 
-// ---- Filter state ----------------------------------------------------------
-
 const filterState = {
-  store: 'All',                  // single value
-  decky: new Set(),              // multi-select rating buckets
-  pro: new Set(),                // multi-select rating buckets
-  controller: 'All',             // single value
-  hideEac: false,                // boolean toggle
-  freeNow: false,                // boolean toggle
-  recent: false,                 // boolean toggle (last 90 days)
-  search: '',                    // free-text
-  pinnedSecondary: new Set()     // which secondary dims are pinned as pills
+  store:  'All',           // single value
+  decky:  new Set(),       // multi-select rating buckets
+  pro:    new Set(),       // multi-select rating buckets
+  recent: false,           // boolean: tested in last 90 days
+  search: ''               // free-text
 };
 
-// ---- Filter dimension config ----------------------------------------------
-//
-// Each dimension knows how to: render its popover options, format its pill
-// label, test a single game against the current selection, and report whether
-// it's currently active (worth showing as an active pill).
-
 const RATING_OPTIONS = [
-  { value: 'perfect',     label: '✅ Works',         match: r => r === 'green' || r === 'perfect' },
-  { value: 'yellow',      label: '🟡 Minor setup',   match: r => r === 'yellow' },
+  { value: 'perfect',     label: '✅ Works',          match: r => r === 'green' || r === 'perfect' },
+  { value: 'yellow',      label: '🟡 Minor setup',    match: r => r === 'yellow' },
   { value: 'red',         label: '🔧 Advanced setup', match: r => r === 'red' },
-  { value: 'broken',      label: '❌ Broken',        match: r => r === 'not-working' },
-  { value: 'unsupported', label: '🚫 Unsupported',   match: r => r === 'not-supported' },
-  { value: 'untested',    label: '❓ Untested',      match: r => !r || !['green','perfect','yellow','red','not-working','not-supported'].includes(r) }
+  { value: 'broken',      label: '❌ Broken',         match: r => r === 'not-working' },
+  { value: 'unsupported', label: '🚫 Unsupported',    match: r => r === 'not-supported' },
+  { value: 'untested',    label: '❓ Untested',       match: r => !r || !['green','perfect','yellow','red','not-working','not-supported'].includes(r) }
 ];
 
 const STORE_OPTIONS = [
@@ -51,29 +37,14 @@ const STORE_OPTIONS = [
   { value: 'itch',   label: 'itch' }
 ];
 
-const CONTROLLER_OPTIONS = [
-  { value: 'All',            label: 'Any controller' },
-  { value: 'native',         label: 'Native' },
-  { value: 'controller',     label: 'Controller' },
-  { value: 'keyboard-mouse', label: 'Keyboard & Mouse' },
-  { value: 'mouse-only',     label: 'Mouse Only' },
-  { value: 'touchpad',       label: 'Touchpad' },
-  { value: 'mixed',          label: 'Mixed Input' }
-];
-
-// Pinned-by-default dimensions (always visible in the bar) and secondary
-// dimensions (behind "+ Filter"). Order in the bar follows array order.
-const PINNED_DIMS = ['store', 'decky', 'pro'];
-const SECONDARY_DIMS = ['controller', 'hideEac', 'freeNow', 'recent'];
+// Pills always pinned in the bar, in order. Each maps to a table column.
+const PINNED_DIMS = ['store', 'decky', 'pro', 'recent'];
 
 const DIMENSION_LABEL = {
-  store:      'Store',
-  decky:      'Decky',
-  pro:        'Pro',
-  controller: 'Controller',
-  hideEac:    'Hide anti-cheat',
-  freeNow:    'Free now only',
-  recent:     'Tested in last 90 days'
+  store:  'Store',
+  decky:  'Decky',
+  pro:    'Pro',
+  recent: 'Last 90 days'
 };
 
 // ---- Bootstrap -------------------------------------------------------------
@@ -89,6 +60,8 @@ async function loadGamesData() {
     renderFilterBar();
     applyFilters();
     setupEventListeners();
+    syncBarToTable();
+    window.addEventListener('resize', debounce(syncBarToTable, 100));
 
     document.getElementById('loadingIndicator').style.display = 'none';
 
@@ -125,59 +98,10 @@ function sortGames() {
 }
 
 // ---- Filter logic ----------------------------------------------------------
-//
-// `applyFilters` is the single entry point. It rebuilds `filteredGames` from
-// `filterState`, sorts, resets the page, and re-renders the table + bar.
 
-function gameMatchesAllExcept(game, skipDim, freeKeys, ninetyDaysAgo) {
-  // Helper: returns true if the game would survive every filter EXCEPT skipDim.
-  // Used to compute live counts that update as other filters narrow the pool.
-  if (skipDim !== 'store' && filterState.store !== 'All' && game.storefront !== filterState.store) return false;
+const NINETY_DAYS_MS = 90 * 24 * 60 * 60 * 1000;
 
-  if (skipDim !== 'decky' && filterState.decky.size > 0) {
-    const r = (game.decky_rating || '').toLowerCase();
-    const hit = RATING_OPTIONS.some(o => filterState.decky.has(o.value) && o.match(r));
-    if (!hit) return false;
-  }
-  if (skipDim !== 'pro' && filterState.pro.size > 0) {
-    const r = (game.standalone_rating || '').toLowerCase();
-    const hit = RATING_OPTIONS.some(o => filterState.pro.has(o.value) && o.match(r));
-    if (!hit) return false;
-  }
-  if (skipDim !== 'controller' && filterState.controller !== 'All') {
-    if ((game.controller_input || '').toLowerCase() !== filterState.controller) return false;
-  }
-  if (skipDim !== 'hideEac' && filterState.hideEac && game.requires_eac_runtime) return false;
-  if (skipDim !== 'freeNow' && filterState.freeNow) {
-    const k = `${game.storefront.toLowerCase()}/${game.slug.toLowerCase()}`;
-    if (!freeKeys.has(k)) return false;
-  }
-  if (skipDim !== 'recent' && filterState.recent) {
-    const t = parseDateTested(game.date_tested);
-    if (t === null || t < ninetyDaysAgo) return false;
-  }
-  if (skipDim !== 'search' && filterState.search) {
-    const s = filterState.search.toLowerCase();
-    const inTitle = game.title.toLowerCase().includes(s);
-    const inPub = game.publisher && game.publisher.toLowerCase().includes(s);
-    if (!inTitle && !inPub) return false;
-  }
-  return true;
-}
-
-function buildFreeKeys() {
-  const set = new Set();
-  if (window.FreeGames && window.FreeGames.activeList) {
-    for (const e of window.FreeGames.activeList) {
-      if (e.website_slug && e.storefront) {
-        set.add(`${e.storefront.toLowerCase()}/${e.website_slug.toLowerCase()}`);
-      }
-    }
-  }
-  return set;
-}
-
-// `date_tested` is stored like "Jul '25". Parse to month-precision ms.
+// Parse "Mon 'YY" date format to month-precision ms.
 function parseDateTested(s) {
   if (!s) return null;
   const m = s.match(/^([A-Za-z]+)\s+'(\d{2})$/);
@@ -188,41 +112,47 @@ function parseDateTested(s) {
   return new Date(2000 + parseInt(m[2], 10), monthIdx, 15).getTime();
 }
 
+function gameMatchesAllExcept(game, skipDim) {
+  if (skipDim !== 'store' && filterState.store !== 'All' && game.storefront !== filterState.store) return false;
+  if (skipDim !== 'decky' && filterState.decky.size > 0) {
+    const r = (game.decky_rating || '').toLowerCase();
+    if (!RATING_OPTIONS.some(o => filterState.decky.has(o.value) && o.match(r))) return false;
+  }
+  if (skipDim !== 'pro' && filterState.pro.size > 0) {
+    const r = (game.standalone_rating || '').toLowerCase();
+    if (!RATING_OPTIONS.some(o => filterState.pro.has(o.value) && o.match(r))) return false;
+  }
+  if (skipDim !== 'recent' && filterState.recent) {
+    const t = parseDateTested(game.date_tested);
+    if (t === null || t < Date.now() - NINETY_DAYS_MS) return false;
+  }
+  if (skipDim !== 'search' && filterState.search) {
+    const s = filterState.search.toLowerCase();
+    const inTitle = game.title.toLowerCase().includes(s);
+    const inPub = game.publisher && game.publisher.toLowerCase().includes(s);
+    if (!inTitle && !inPub) return false;
+  }
+  return true;
+}
+
 function applyFilters() {
   if (!gamesData) return;
-  const freeKeys = buildFreeKeys();
-  const ninetyDaysAgo = Date.now() - 90 * 24 * 60 * 60 * 1000;
-
-  filteredGames = gamesData.games.filter(g => gameMatchesAllExcept(g, null, freeKeys, ninetyDaysAgo));
-
+  filteredGames = gamesData.games.filter(g => gameMatchesAllExcept(g, null));
   sortGames();
   currentPage = 1;
   updateTable();
-  renderFilterBarPills(); // refresh pills only — preserve search focus
+  renderFilterBarPills();
 }
 
-// Live counts for the popover of one dimension — i.e. how many games WOULD
-// match each option of `dim` if you applied it on top of all OTHER current
-// filters. This is what powers Stripe-style "the count next to each chip".
-function computeCounts(dim) {
-  const freeKeys = buildFreeKeys();
-  const ninetyDaysAgo = Date.now() - 90 * 24 * 60 * 60 * 1000;
-  // Pool that survives all OTHER filters (skipping the one we're counting).
-  const pool = gamesData.games.filter(g => gameMatchesAllExcept(g, dim, freeKeys, ninetyDaysAgo));
-
+// Live counts for popover options — pool excludes the dimension being counted,
+// so each option's count reflects "what would be selected if I picked this on
+// top of all my OTHER current filters".
+function computePopoverCounts(dim) {
+  const pool = gamesData.games.filter(g => gameMatchesAllExcept(g, dim));
   if (dim === 'store') {
     const counts = { All: pool.length };
     for (const o of STORE_OPTIONS) if (o.value !== 'All') counts[o.value] = 0;
     for (const g of pool) if (counts[g.storefront] !== undefined) counts[g.storefront]++;
-    return counts;
-  }
-  if (dim === 'controller') {
-    const counts = { All: pool.length };
-    for (const o of CONTROLLER_OPTIONS) if (o.value !== 'All') counts[o.value] = 0;
-    for (const g of pool) {
-      const ci = (g.controller_input || '').toLowerCase();
-      if (counts[ci] !== undefined) counts[ci]++;
-    }
     return counts;
   }
   if (dim === 'decky' || dim === 'pro') {
@@ -236,124 +166,86 @@ function computeCounts(dim) {
     }
     return counts;
   }
-  // Boolean dims: { on: count of games matching when the toggle is ON }
-  if (dim === 'hideEac') {
-    return { on: pool.filter(g => !g.requires_eac_runtime).length };
+  return {};
+}
+
+// Pill-label count: how many games match THIS dim's selection, against the
+// full dataset (independent of other filters). Gives stable "this is what
+// you've narrowed to" feedback in the pill text.
+function computePillCount(dim) {
+  if (dim === 'store') {
+    return gamesData.games.filter(g => g.storefront === filterState.store).length;
   }
-  if (dim === 'freeNow') {
-    return { on: pool.filter(g => freeKeys.has(`${g.storefront.toLowerCase()}/${g.slug.toLowerCase()}`)).length };
+  if (dim === 'decky' || dim === 'pro') {
+    const field = dim === 'decky' ? 'decky_rating' : 'standalone_rating';
+    return gamesData.games.filter(g => {
+      const r = (g[field] || '').toLowerCase();
+      return RATING_OPTIONS.some(o => filterState[dim].has(o.value) && o.match(r));
+    }).length;
   }
   if (dim === 'recent') {
-    return { on: pool.filter(g => {
+    const cutoff = Date.now() - NINETY_DAYS_MS;
+    return gamesData.games.filter(g => {
       const t = parseDateTested(g.date_tested);
-      return t !== null && t >= ninetyDaysAgo;
-    }).length };
+      return t !== null && t >= cutoff;
+    }).length;
   }
-  return {};
+  return 0;
 }
 
 // ---- Filter mutations ------------------------------------------------------
 
 function setFilter(dim, value) {
-  if (dim === 'store' || dim === 'controller') {
-    filterState[dim] = value;
-  } else if (dim === 'decky' || dim === 'pro') {
-    filterState[dim] = new Set(value); // value: array or Set of selected option values
-  } else if (dim === 'hideEac' || dim === 'freeNow' || dim === 'recent') {
-    filterState[dim] = !!value;
-  } else if (dim === 'search') {
-    filterState[dim] = value || '';
-  }
+  if (dim === 'store') filterState.store = value;
+  else if (dim === 'decky' || dim === 'pro') filterState[dim] = new Set(value);
+  else if (dim === 'recent') filterState.recent = !!value;
+  else if (dim === 'search') filterState.search = value || '';
   applyFilters();
 }
 
 function clearFilter(dim) {
-  if (dim === 'store' || dim === 'controller') filterState[dim] = 'All';
+  if (dim === 'store') filterState.store = 'All';
   else if (dim === 'decky' || dim === 'pro') filterState[dim] = new Set();
-  else if (dim === 'hideEac' || dim === 'freeNow' || dim === 'recent') filterState[dim] = false;
-  else if (dim === 'search') filterState[dim] = '';
-  // Unpin from secondary list when cleared (keeps the bar clean)
-  if (SECONDARY_DIMS.includes(dim)) filterState.pinnedSecondary.delete(dim);
-  applyFilters();
-}
-
-function clearAllFilters() {
-  filterState.store = 'All';
-  filterState.decky = new Set();
-  filterState.pro = new Set();
-  filterState.controller = 'All';
-  filterState.hideEac = false;
-  filterState.freeNow = false;
-  filterState.recent = false;
-  filterState.search = '';
-  filterState.pinnedSecondary = new Set();
-  const searchInput = document.querySelector('.filter-bar__search');
-  if (searchInput) searchInput.value = '';
+  else if (dim === 'recent') filterState.recent = false;
+  else if (dim === 'search') filterState.search = '';
   applyFilters();
 }
 
 function isDimActive(dim) {
-  if (dim === 'store')      return filterState.store !== 'All';
-  if (dim === 'decky')      return filterState.decky.size > 0;
-  if (dim === 'pro')        return filterState.pro.size > 0;
-  if (dim === 'controller') return filterState.controller !== 'All';
-  if (dim === 'hideEac')    return filterState.hideEac;
-  if (dim === 'freeNow')    return filterState.freeNow;
-  if (dim === 'recent')     return filterState.recent;
+  if (dim === 'store')  return filterState.store !== 'All';
+  if (dim === 'decky')  return filterState.decky.size > 0;
+  if (dim === 'pro')    return filterState.pro.size > 0;
+  if (dim === 'recent') return filterState.recent;
   return false;
 }
-
-// ---- Pill label formatting -------------------------------------------------
 
 function formatPillLabel(dim) {
   const base = DIMENSION_LABEL[dim];
   if (!isDimActive(dim)) return base;
-
-  if (dim === 'store') return `${base}: ${filterState.store}`;
-  if (dim === 'controller') {
-    const opt = CONTROLLER_OPTIONS.find(o => o.value === filterState.controller);
-    return `${base}: ${opt ? opt.label.replace(/^Any /, '') : filterState.controller}`;
-  }
-  if (dim === 'decky' || dim === 'pro') {
-    const selected = [...filterState[dim]];
-    if (selected.length >= 3) return `${base}: ${selected.length} selected`;
-    const labels = selected
-      .map(v => RATING_OPTIONS.find(o => o.value === v))
-      .filter(Boolean)
-      .map(o => o.label.replace(/^[^\s]+\s/, '')); // drop the emoji prefix for compactness
-    return `${base}: ${labels.join(', ')}`;
-  }
-  // Boolean dims: just the label is enough (the active style indicates it's on)
-  return base;
+  return `${base} (${computePillCount(dim)})`;
 }
 
 // ---- Filter bar rendering --------------------------------------------------
 
-// Renders the full bar shell — called once on init. Subsequent updates only
-// touch the pills container so the search input doesn't lose focus mid-typing.
 function renderFilterBar() {
   const bar = document.getElementById('filterBar');
   if (!bar) return;
 
   bar.innerHTML = `
-    <input class="filter-bar__search" type="search" placeholder="Search games or publishers…"
-           value="${escapeAttr(filterState.search)}" aria-label="Search games">
-    <div class="filter-bar__pills" id="filterBarPills"></div>
-    <div class="filter-bar__show">
-      Show
-      <select aria-label="Page size">
-        <option value="10" ${pageSize === 10 ? 'selected' : ''}>10</option>
-        <option value="20" ${pageSize === 20 ? 'selected' : ''}>20</option>
-        <option value="50" ${pageSize === 50 ? 'selected' : ''}>50</option>
-      </select>
+    <div class="filter-bar__col-1">
+      <input class="filter-bar__search" type="search" placeholder="Search games or publishers…"
+             value="${escapeAttr(filterState.search)}" aria-label="Search games">
+      <div class="filter-bar__show">
+        Show
+        <select aria-label="Page size">
+          <option value="10" ${pageSize === 10 ? 'selected' : ''}>10</option>
+          <option value="20" ${pageSize === 20 ? 'selected' : ''}>20</option>
+          <option value="50" ${pageSize === 50 ? 'selected' : ''}>50</option>
+        </select>
+      </div>
     </div>
-    <button class="filter-bar__mobile-btn" type="button" data-mobile-filters>
-      🎛 Filters
-      <span class="filter-bar__mobile-badge" data-mobile-badge hidden></span>
-    </button>
   `;
 
-  // Wire static elements (search + show + mobile btn) — these survive re-renders
   bar.querySelector('.filter-bar__search').addEventListener('input', e => {
     filterState.search = e.target.value;
     applyFiltersDebounced();
@@ -368,58 +260,56 @@ function renderFilterBar() {
 }
 
 function renderFilterBarPills() {
-  const container = document.getElementById('filterBarPills');
-  if (!container) return;
+  const bar = document.getElementById('filterBar');
+  if (!bar) return;
 
-  const pillDims = [...PINNED_DIMS, ...filterState.pinnedSecondary];
-  const pillsHTML = pillDims.map(dim => {
-    const label = formatPillLabel(dim);
+  // Remove existing pills (keep cell-1 untouched so search retains focus)
+  bar.querySelectorAll(':scope > .filter-pill').forEach(el => el.remove());
+
+  for (const dim of PINNED_DIMS) {
     const active = isDimActive(dim);
-    return `
-      <button class="filter-pill ${active ? 'is-active' : ''}" data-dim="${dim}" type="button">
-        <span class="filter-pill__label">${label}</span>
-        ${active
-          ? `<span class="filter-pill__clear" data-clear="${dim}" role="button" aria-label="Clear ${DIMENSION_LABEL[dim]}">×</span>`
-          : `<span class="filter-pill__arrow">▾</span>`}
-      </button>
+    const pill = document.createElement('button');
+    pill.type = 'button';
+    pill.className = 'filter-pill' + (active ? ' is-active' : '');
+    pill.dataset.dim = dim;
+    pill.innerHTML = `
+      <span class="filter-pill__label">${formatPillLabel(dim)}</span>
+      ${active
+        ? `<span class="filter-pill__clear" data-clear="${dim}" role="button" aria-label="Clear ${DIMENSION_LABEL[dim]}">×</span>`
+        : `<span class="filter-pill__arrow">▾</span>`}
     `;
-  }).join('');
-
-  const unpinnedSecondary = SECONDARY_DIMS.filter(d => !filterState.pinnedSecondary.has(d));
-  const addPillHTML = unpinnedSecondary.length > 0
-    ? `<button class="filter-pill is-add" data-add-filter type="button">+ Filter <span class="filter-pill__arrow">▾</span></button>`
-    : '';
-
-  container.innerHTML = pillsHTML + addPillHTML;
-
-  // Update mobile badge
-  const activeCount = ['store','decky','pro','controller','hideEac','freeNow','recent'].filter(isDimActive).length;
-  const badge = document.querySelector('[data-mobile-badge]');
-  if (badge) {
-    badge.textContent = activeCount;
-    badge.hidden = activeCount === 0;
-  }
-
-  // Bind pill events (re-bound each pill render)
-  container.querySelectorAll('.filter-pill[data-dim]').forEach(pill => {
     pill.addEventListener('click', e => {
       if (e.target.closest('[data-clear]')) return;
-      togglePopover(pill.dataset.dim, pill);
+      onPillClick(dim, pill);
     });
-  });
-  container.querySelectorAll('[data-clear]').forEach(btn => {
-    btn.addEventListener('click', e => {
+    pill.querySelector('[data-clear]')?.addEventListener('click', e => {
       e.stopPropagation();
-      clearFilter(btn.dataset.clear);
+      clearFilter(dim);
     });
-  });
-  const addBtn = container.querySelector('[data-add-filter]');
-  if (addBtn) {
-    addBtn.addEventListener('click', e => {
-      e.stopPropagation();
-      toggleAddFilterMenu(addBtn);
-    });
+    bar.appendChild(pill);
   }
+}
+
+// Click handler — popover for store/decky/pro; direct toggle for recent.
+function onPillClick(dim, pill) {
+  if (dim === 'recent') {
+    setFilter('recent', !filterState.recent);
+    return;
+  }
+  togglePopover(dim, pill);
+}
+
+// ---- Sync bar grid to table column widths ---------------------------------
+// The bar uses CSS grid with template-columns set from the table's actual
+// column widths so pills sit centered above their column. Re-run on resize.
+
+function syncBarToTable() {
+  const bar = document.getElementById('filterBar');
+  const headers = document.querySelectorAll('#gamesTable thead th');
+  if (!bar || headers.length !== 5) return;
+  headers.forEach((th, i) => {
+    bar.style.setProperty(`--col-${i + 1}-w`, `${th.getBoundingClientRect().width}px`);
+  });
 }
 
 // ---- Popovers --------------------------------------------------------------
@@ -433,11 +323,10 @@ function togglePopover(dim, anchorPill) {
 }
 
 function openPopover(dim, anchorPill) {
-  closeAddFilterMenu();
   openPopoverDim = dim;
   anchorPill.classList.add('is-open');
 
-  const counts = computeCounts(dim);
+  const counts = computePopoverCounts(dim);
   const pop = document.createElement('div');
   pop.className = 'filter-popover';
   pop.dataset.dim = dim;
@@ -448,7 +337,6 @@ function openPopover(dim, anchorPill) {
 
   bindPopoverEvents(pop, dim);
 
-  // Close on outside click / Escape
   setTimeout(() => {
     document.addEventListener('mousedown', onDocMouseDown);
     document.addEventListener('keydown', onDocKeyDown);
@@ -470,17 +358,6 @@ function renderPopoverContent(dim, counts) {
           <span class="filter-popover__count">${ct}</span>
         </label>`;
     }).join('');
-  } else if (dim === 'controller') {
-    body = CONTROLLER_OPTIONS.map(o => {
-      const checked = filterState.controller === o.value;
-      const ct = counts[o.value] !== undefined ? counts[o.value] : '';
-      return `
-        <label class="filter-popover__opt">
-          <input type="radio" name="popover-controller" value="${o.value}" ${checked ? 'checked' : ''}>
-          ${o.label}
-          <span class="filter-popover__count">${ct}</span>
-        </label>`;
-    }).join('');
   } else if (dim === 'decky' || dim === 'pro') {
     body = RATING_OPTIONS.map(o => {
       const checked = filterState[dim].has(o.value);
@@ -492,15 +369,6 @@ function renderPopoverContent(dim, counts) {
           <span class="filter-popover__count">${ct}</span>
         </label>`;
     }).join('');
-  } else if (dim === 'hideEac' || dim === 'freeNow' || dim === 'recent') {
-    const checked = filterState[dim];
-    const ct = counts.on;
-    body = `
-      <label class="filter-popover__opt">
-        <input type="checkbox" ${checked ? 'checked' : ''}>
-        ${DIMENSION_LABEL[dim]}
-        <span class="filter-popover__count">${ct}</span>
-      </label>`;
   }
 
   const foot = `
@@ -513,26 +381,15 @@ function renderPopoverContent(dim, counts) {
 }
 
 function bindPopoverEvents(pop, dim) {
-  // Single-select dims: radio click = immediate apply (no need for Done)
-  if (dim === 'store' || dim === 'controller') {
+  if (dim === 'store') {
     pop.querySelectorAll('input[type="radio"]').forEach(r => {
       r.addEventListener('change', () => {
-        setFilter(dim, r.value);
+        setFilter('store', r.value);
         closePopover();
       });
     });
   }
-  // Multi-select dims: checkbox toggles, Done applies
-  if (dim === 'decky' || dim === 'pro') {
-    // No live apply — wait for Done button
-  }
-  // Boolean dims
-  if (dim === 'hideEac' || dim === 'freeNow' || dim === 'recent') {
-    pop.querySelector('input[type="checkbox"]').addEventListener('change', e => {
-      setFilter(dim, e.target.checked);
-      closePopover();
-    });
-  }
+  // decky/pro: multi-select; wait for Done
 
   pop.querySelector('[data-action=clear]').addEventListener('click', () => {
     clearFilter(dim);
@@ -563,8 +420,7 @@ function positionPopover(pop, anchorPill) {
 }
 
 function closePopover() {
-  const pop = document.querySelector('.filter-popover');
-  if (pop) pop.remove();
+  document.querySelector('.filter-popover')?.remove();
   document.querySelectorAll('.filter-pill.is-open').forEach(p => p.classList.remove('is-open'));
   openPopoverDim = null;
   document.removeEventListener('mousedown', onDocMouseDown);
@@ -572,60 +428,12 @@ function closePopover() {
 }
 
 function onDocMouseDown(e) {
-  if (e.target.closest('.filter-popover, .filter-add-menu, .filter-pill')) return;
+  if (e.target.closest('.filter-popover, .filter-pill')) return;
   closePopover();
-  closeAddFilterMenu();
 }
 
 function onDocKeyDown(e) {
-  if (e.key === 'Escape') {
-    closePopover();
-    closeAddFilterMenu();
-  }
-}
-
-// ---- "+ Filter" menu -------------------------------------------------------
-
-function toggleAddFilterMenu(anchorBtn) {
-  const existing = document.querySelector('.filter-add-menu');
-  if (existing) { closeAddFilterMenu(); return; }
-  closePopover();
-
-  const unpinned = SECONDARY_DIMS.filter(d => !filterState.pinnedSecondary.has(d));
-  const menu = document.createElement('div');
-  menu.className = 'filter-add-menu';
-  menu.innerHTML = `
-    <div class="filter-popover__head">Add Filter</div>
-    <div class="filter-popover__body">
-      ${unpinned.map(d => `
-        <div class="filter-add-menu__opt" data-add="${d}">${DIMENSION_LABEL[d]}</div>
-      `).join('')}
-    </div>
-  `;
-  document.getElementById('filterBar').appendChild(menu);
-  positionPopover(menu, anchorBtn);
-
-  menu.querySelectorAll('[data-add]').forEach(item => {
-    item.addEventListener('click', () => {
-      const d = item.dataset.add;
-      filterState.pinnedSecondary.add(d);
-      closeAddFilterMenu();
-      renderFilterBar();
-      // Open the freshly-pinned pill's popover so user can pick a value
-      const pill = document.querySelector(`.filter-pill[data-dim="${d}"]`);
-      if (pill) togglePopover(d, pill);
-    });
-  });
-
-  setTimeout(() => {
-    document.addEventListener('mousedown', onDocMouseDown);
-    document.addEventListener('keydown', onDocKeyDown);
-  }, 0);
-}
-
-function closeAddFilterMenu() {
-  const menu = document.querySelector('.filter-add-menu');
-  if (menu) menu.remove();
+  if (e.key === 'Escape') closePopover();
 }
 
 // ---- Search debounce -------------------------------------------------------
@@ -634,6 +442,14 @@ let searchTimer = null;
 function applyFiltersDebounced() {
   clearTimeout(searchTimer);
   searchTimer = setTimeout(applyFilters, 120);
+}
+
+function debounce(fn, ms) {
+  let t = null;
+  return (...args) => {
+    clearTimeout(t);
+    t = setTimeout(() => fn(...args), ms);
+  };
 }
 
 // ---- Table rendering -------------------------------------------------------
@@ -675,6 +491,7 @@ function updateTable() {
   tbody.innerHTML = tableHTML;
   updatePagination();
   addRowClickHandlers();
+  syncBarToTable(); // table widths may have changed (anti-cheat colspan etc)
 
   if (window.FreeGames && window.FreeGames.applyBadges) {
     window.FreeGames.ready().then(() => window.FreeGames.applyBadges(tbody));
@@ -777,12 +594,6 @@ function checkForGameParameter() {
 // ---- Misc setup ------------------------------------------------------------
 
 function setupEventListeners() {
-  // Re-apply filters when free-games data lands so the "Free now" filter works
-  document.addEventListener('freegames:ready', () => {
-    if (filterState.freeNow) applyFilters();
-  });
-
-  // Back to top button
   const backToTop = document.getElementById('backToTop');
   if (backToTop) {
     window.addEventListener('scroll', () => {
@@ -792,8 +603,6 @@ function setupEventListeners() {
     backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
 }
-
-// ---- Helpers ---------------------------------------------------------------
 
 function escapeAttr(s) {
   return String(s ?? '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
