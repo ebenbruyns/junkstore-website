@@ -44,7 +44,7 @@ hide_title: true
     epic:   { cls: 'epic',   label: 'Epic',     ctaLabel: 'Epic Games' },
     gog:    { cls: 'gog',    label: 'GOG',      ctaLabel: 'GOG.com' },
     amazon: { cls: 'amazon', label: 'Amazon',   ctaLabel: 'Prime Gaming' },
-    itchio: { cls: 'itch',   label: 'itch.io',  ctaLabel: 'itch.io' }
+    itchio: { cls: 'itch',   label: 'itch',     ctaLabel: 'itch' }
   };
 
   function storeMeta(key) {
