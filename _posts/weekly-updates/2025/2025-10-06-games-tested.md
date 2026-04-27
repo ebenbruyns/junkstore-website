@@ -177,9 +177,9 @@ Updated compatibility for BioShock 2 Remastered, Salt and Sanctuary, Metro: Last
 
 Unfortunately, there were a few games this week that didn't cooperate during testing:
 
-**[Nightingale](/games/tested/?game=Nightingale) (Epic)** - Encountered a persistent error claiming the game couldn't link to Steam—despite being an Epic title. This one needs further investigation to understand what's going on.
+**Nightingale (Epic)** - Encountered a persistent error claiming the game couldn't link to Steam—despite being an Epic title. This one needs further investigation to understand what's going on.
 
-**[DragonStrike](/games/tested/?game=DragonStrike) (Amazon Prime Gaming - GOG key)** - The DOSBox configuration files weren't located where Junk Store expects to find them. We'll be implementing a fix for this and other DOSBox-based games in an upcoming update.
+**DragonStrike (Amazon Prime Gaming - GOG key)** - The DOSBox configuration files weren't located where Junk Store expects to find them. We'll be implementing a fix for this and other DOSBox-based games in an upcoming update.
 
 **[Paladins](/games/epic/paladins/) (Epic) - Decky Plugin only** - Couldn't get this working on the Decky version, though given our unreliable internet this week, that may have been the culprit. The silver lining? It works flawlessly on Junk Store Pro!
 
@@ -194,7 +194,7 @@ All three games will be retested once we've resolved these issues—stay tuned f
 - **[Rogue Journeyman Bundle for Albion Online](/games/epic/albion-online/)** - Starter bundle for the cross-platform sandbox MMORPG
 
 **Amazon Prime Gaming:**
-- **[XCOM 2](/games/tested/?game=XCOM+2)** (GOG key) - Lead a resistance against alien occupation in this acclaimed turn-based strategy game
+- **XCOM 2** (GOG key) - Lead a resistance against alien occupation in this acclaimed turn-based strategy game
 - **[Vampire: The Masquerade - Reckoning of New York](/games/epic/vampire-the-masquerade-reckoning-of-new-york/)** (Epic key) - A narrative-driven visual novel set in the World of Darkness universe, featuring the grand finale to the New York Vampire Trilogy
 
 We hope you're having a wonderful time wherever you are in the world, and as always, if you've got any questions about these games or Junk Store in general, please don't hesitate to reach out through our community channels.
