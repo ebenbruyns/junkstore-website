@@ -271,91 +271,280 @@
 .games-table-wrapper #gamesTable td:nth-child(4) { text-align: center; }
 .games-table-wrapper #gamesTable td:nth-child(5) { text-align: center; }
 
-/* Table controls styling (outside the table wrapper) */
-.table-controls {
+/* ==========================================================================
+   FILTER BAR — Stripe-style pills with popovers
+   ========================================================================== */
+
+.filter-bar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 20px;
-    padding: 15px;
-    background: #2a2a2a;
-    border-radius: 8px;
+    gap: 16px;
+    justify-content: space-between;
+    padding: 12px 16px;
+    margin: 14px 0 18px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    position: relative; // anchor for popovers
+
+    &__search {
+        flex: 0 1 380px;
+        min-width: 240px;
+        height: 36px;
+        background: #1f2530;
+        color: #eee;
+        border: 1px solid #364150;
+        border-radius: 8px;
+        padding: 8px 12px;
+        font-size: 0.92rem;
+        box-sizing: border-box;
+
+        &:focus {
+            outline: none;
+            border-color: $junkstore-accent;
+        }
+    }
+
+    &__pills {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    &__show {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        color: #9aa;
+        font-size: 0.85rem;
+
+        select {
+            background: #1f2530;
+            color: #eee;
+            border: 1px solid #364150;
+            border-radius: 6px;
+            padding: 4px 8px;
+            height: 32px;
+            font-size: 0.88rem;
+
+            &:focus { outline: none; border-color: $junkstore-accent; }
+        }
+    }
 }
 
-.control-group {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.control-group label {
-    font-weight: 600;
-    color: $junkstore-accent;
-    font-size: 0.9rem;
-}
-
-/* Form controls styling */
-#storefrontFilter,
-#searchInput,
-#pageSizeSelect {
-    background: #445465;
-    color: #ddd;
-    border: 1px solid #666;
-    border-radius: 6px;
-    padding: 8px 12px;
-    font-size: 0.9rem;
-}
-
-/* Search input wrapper with clear button */
-.search-input-wrapper {
-    position: relative;
+.filter-pill {
     display: inline-flex;
     align-items: center;
-}
-
-.search-input-wrapper #searchInput {
-    padding-right: 40px;
-}
-
-.search-clear-btn {
-    position: absolute;
-    right: 6px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: transparent;
-    color: #ccc;
-    font-size: 20px;
-    font-weight: bold;
+    gap: 6px;
+    background: #1f2530;
+    border: 1px solid #364150;
+    color: #ddd;
+    padding: 6px 12px;
+    border-radius: 18px;
+    font-size: 0.88rem;
     cursor: pointer;
-    width: 28px;
-    height: 28px;
-    display: none;
+    height: 36px;
+    line-height: 1;
+    box-sizing: border-box;
+    transition: background 0.15s, border-color 0.15s;
+    font-family: inherit;
+
+    &:hover, &:focus {
+        background: #2a3140;
+        border-color: #4a5568;
+        outline: none;
+    }
+
+    &.is-active {
+        background: rgba(230, 115, 0, 0.15);
+        border-color: $junkstore-accent;
+        color: #ffae66;
+    }
+
+    &.is-open {
+        background: #2a3140;
+        border-color: #4a5568;
+    }
+
+    &.is-add {
+        color: #9aa;
+        border-style: dashed;
+    }
+
+    &__arrow {
+        color: #6a7585;
+        font-size: 0.7rem;
+    }
+
+    &.is-active &__arrow {
+        color: #ffae66;
+    }
+
+    &__clear {
+        color: #9aa;
+        padding: 0 2px 0 4px;
+        cursor: pointer;
+        font-size: 1rem;
+        line-height: 1;
+        background: transparent;
+        border: 0;
+
+        &:hover { color: #fff; }
+    }
+
+    &.is-active &__clear { color: #ffae66; }
+}
+
+/* Popover anchored under a pill */
+.filter-popover {
+    position: absolute;
+    min-width: 240px;
+    max-width: 320px;
+    background: #1a1f29;
+    border: 1px solid #364150;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    padding: 0;
+    overflow: hidden;
+
+    &__head {
+        padding: 10px 14px;
+        color: #9aa;
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    &__body {
+        padding: 6px;
+        max-height: 320px;
+        overflow-y: auto;
+    }
+
+    &__opt {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 10px;
+        border-radius: 6px;
+        cursor: pointer;
+        color: #ddd;
+        font-size: 0.9rem;
+        user-select: none;
+
+        &:hover { background: rgba(255, 255, 255, 0.05); }
+
+        input { margin: 0; cursor: pointer; }
+
+        .filter-popover__count {
+            margin-left: auto;
+            color: #9aa;
+            font-weight: 600;
+            font-size: 0.82rem;
+        }
+    }
+
+    &__foot {
+        padding: 8px 14px;
+        border-top: 1px solid rgba(255, 255, 255, 0.06);
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+
+        button {
+            background: transparent;
+            border: 1px solid #364150;
+            color: #ddd;
+            padding: 5px 12px;
+            border-radius: 6px;
+            font-size: 0.82rem;
+            cursor: pointer;
+            font-family: inherit;
+
+            &:hover { background: rgba(255, 255, 255, 0.05); }
+
+            &.is-primary {
+                background: $junkstore-accent;
+                border-color: $junkstore-accent;
+                color: #fff;
+
+                &:hover { background: darken($junkstore-accent, 6%); border-color: darken($junkstore-accent, 6%); }
+            }
+        }
+    }
+}
+
+/* "+ Filter" menu (list of secondary filters that aren't pinned) */
+.filter-add-menu {
+    @extend .filter-popover;
+
+    .filter-add-menu__opt {
+        display: flex;
+        align-items: center;
+        padding: 8px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        color: #ddd;
+        font-size: 0.9rem;
+
+        &:hover { background: rgba(255, 255, 255, 0.05); }
+    }
+}
+
+/* Mobile filter button (replaces pills on narrow screens) */
+.filter-bar__mobile-btn {
+    display: none; // shown via media query below
     align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: all 0.2s ease;
-    text-align: center;
-    line-height: 28px;
-    user-select: none;
-    border: none;
+    gap: 6px;
+    background: #1f2530;
+    border: 1px solid #364150;
+    color: #ddd;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.92rem;
+    cursor: pointer;
+    height: 40px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    font-family: inherit;
+
+    &:hover { background: #2a3140; border-color: #4a5568; }
+
+    .filter-bar__mobile-badge {
+        background: $junkstore-accent;
+        color: #fff;
+        padding: 1px 7px;
+        border-radius: 10px;
+        font-size: 0.78rem;
+        font-weight: 700;
+    }
 }
 
-.search-clear-btn:hover {
-    background: rgba(255, 163, 102, 0.2);
-    color: $junkstore-accent;
-}
+@media (max-width: 700px) {
+    .filter-bar {
+        padding: 10px 12px;
+        gap: 8px;
 
-.search-clear-btn.show {
-    display: flex;
-}
+        &__pills, &__show {
+            display: none;
+        }
 
-#storefrontFilter:focus,
-#searchInput:focus,
-#pageSizeSelect:focus {
-    outline: none;
-    border-color: $junkstore-accent;
+        &__search {
+            flex: 1;
+            min-width: 0;
+            height: 40px;
+            font-size: 1rem;
+        }
+
+        &__mobile-btn {
+            display: inline-flex;
+        }
+    }
 }
 
 
@@ -751,20 +940,3 @@
   }
 }
 
-.control-group--toggle {
-  display: flex;
-  align-items: center;
-
-  label {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    font-weight: normal;
-    cursor: pointer;
-    margin: 0;
-  }
-
-  input[type="checkbox"] {
-    margin: 0;
-  }
-}
