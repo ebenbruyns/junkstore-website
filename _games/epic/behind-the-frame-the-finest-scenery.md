@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93531"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/behind-the-frame-the-finest-scenery"
-protondb_url: "https://www.protondb.com/app/1634150"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Behind_the_Frame%3A_The_Finest_Scenery"
+pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/behind-the-frame-the-finest-scenery?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Guide brush strokes and solve a variety of puzzles to help an aspiring artist complete her masterpiece. As her painting starts to take shape, uncover an emotional tale of chance and artistry revealed behind unrelated yet familiar moments.
+A narrative-driven puzzle game about collecting, fixing and painting. Enjoy the scenery en route in the world of Behind the Frame, and search for the secrets within. Recollect memories in the time corridor, and savor some beautiful little moments. Combining escape rooms and narrative games, Behind the Frame: The Finest Scenery presents a profoundly interactive storytelling of characters' emotions and plot development. With 360° panorama techniques and an exquisite hand-painted art style, the game takes you into the world of Behind the Frame.

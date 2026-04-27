@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/131327"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/doomsday-last-survivors-024df3"
-protondb_url: "https://www.protondb.com/app/2439510"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Doomsday: Last Survivors is a zombie survival game with multiplayer online competition and real-time strategy elements.
+Doomsday: Last Survivors is a zombie survival strategy game with multiplayer online competition and real-time strategy elements. Set in a near future where zombies have taken over the world, survivors must fight for their lives and for the future of humanity. As the Commander, it's your duty to lead your fellow survivors to build their Shelter, explore fog-filled areas, and fight the zombies and rival factions! Enjoy zombie games, survival games, and strategy games? Doomsday: Last Survivors has got you covered!

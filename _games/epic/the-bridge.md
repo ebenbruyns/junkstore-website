@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/9793"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-bridge"
-protondb_url: "https://www.protondb.com/app/204240"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Bridge"
+pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/pc/the-bridge-2013?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The Bridge is a logic puzzle game that forces the player to reevaluate their preconceptions of physics and perspective. It is Isaac Newton meets M.C. Escher. Manipulate gravity to redefine the ceiling as the floor while venturing through impossible architectures.
+The Bridge is a 2D logic puzzle game that forces you to reevaluate your preconceptions of physics and perspective. It is Isaac Newton meets M. C. Escher. Manipulate gravity to redefine the ceiling as the floor while venturing through impossible architectures.

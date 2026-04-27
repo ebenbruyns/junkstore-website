@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/41986"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gigantic-rampage-edition-03f532"
-protondb_url: "https://www.protondb.com/app/1924490"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gigantic%3A_Rampage_Edition"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-GIGANTIC: RAMPAGE EDITION is a premium and definitive release of the original 5v5 MOBA Hero Shooter, GIGANTIC. Choose a unique hero and team up with other players to control objectives. GIGANTIC: RAMPAGE EDITION includes a new game mode, cross platform play, new heroes, new maps.
+GO GIGANTIC! THE UNIQUE MOBA HERO SHOOTER RETURNS!

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/83463"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-falconeer"
-protondb_url: "https://www.protondb.com/app/1135260"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Falconeer"
+pcgamingwiki_url: ""
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/the-falconeer/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Take to the skies aboard a feathered serpent and unleash fiery vengeance from above with The Hunter content pack. Includes a new ‘Mongres Hunter’ player Class.
+The Falconeer is an open-world air combat game, featuring frenetic aerial dogfights and deep exploration of the mysterious open-world of The Great Ursee. Generations of poisonous decisions and treason swirl in the deep, as factions clash in a fight to preserve the past or flee its terrible consequences.

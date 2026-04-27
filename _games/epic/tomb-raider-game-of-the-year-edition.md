@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tomb-raider"
-protondb_url: "https://www.protondb.com/app/750920"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shadow_of_the_Tomb_Raider"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/shadow-of-the-tomb-raider?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Armed only with raw instincts and the ability to push beyond the limits of human endurance, Lara must fight to unravel the dark history of a forgotten island to escape its relentless hold.
+Tomb Raider explores the intense and gritty origin story of Lara Croft and her ascent from a young woman to a hardened survivor. Armed only with raw instincts and the ability to push beyond the limits of human endurance, Lara must fight to unravel the dark history of a forgotten island to escape its relentless hold.

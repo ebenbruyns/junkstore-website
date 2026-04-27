@@ -3,7 +3,7 @@ layout: game-page
 title: "2064: Read Only Memories INTEGRAL - Steam Deck Compatibility"
 game_title: "2064: Read Only Memories INTEGRAL"
 slug: "2064-read-only-memories-integral"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/2064-read-only-memories-integral/
 
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/29142"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/330820"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/2064:_Read_Only_Memories"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/2064-read-only-memories?ftag=MCD-06-10aaa1f"
 

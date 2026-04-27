@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/50694"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-battle-of-polytopia-12fed6"
-protondb_url: "https://www.protondb.com/app/874390"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Battle_of_Polytopia"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/the-battle-of-polytopia?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Award-winning strategy game! Build your civilization, master tech, conquer tribes, and dominate the world map!
+Welcome to the unique, turn-based strategy game set in the strange, flat world of the Square. Lead one of 16 distinct civilizations to victory by expanding your empire, researching technologies, and ultimately become ruler of the world! Play in single-player or multiplayer mode for up to 16 players.

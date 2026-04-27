@@ -18,7 +18,7 @@ publisher: CD Projekt RED
 developer: CD Projekt RED
 genre: Role-playing (RPG)
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "October 23, 2018"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/61381"
 
 # Links
 store_url: "https://www.gog.com/en/game/thronebreaker_the_witcher_tales"
-protondb_url: "https://www.protondb.com/app/973760"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thronebreaker%3A_The_Witcher_Tales"
+pcgamingwiki_url: ""
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/thronebreaker-the-witcher-tales?ftag=MCD-06-10aaa1f"
 

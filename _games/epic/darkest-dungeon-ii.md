@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/85972"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/darkest-dungeon-2"
-protondb_url: "https://www.protondb.com/app/262060"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Darkest_Dungeon"
+pcgamingwiki_url: ""
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/darkest-dungeon?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Suka"
 is_featured: false
-owned: false
+owned: true
 ---
 
-The eagerly awaited follow-up to Red Hook's smash hit gothic horror RPG!  DDII will test your mettle and drive you to the brink of madness. Armor yourself with purpose and provision your party for the journey ahead. It will be arduous.
+The eagerly awaited follow-up to Red Hook's smash hit gothic horror RPG! DDII will test your mettle and drive you to the brink of madness.

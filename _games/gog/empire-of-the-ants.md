@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/147067"
 
 # Links
 store_url: "https://www.gog.com/en/game/empire_of_the_ants"
-protondb_url: "https://www.protondb.com/app/2287330"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Empire_of_the_Ants_%282024%29"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "2108847100"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Embark on an epic journey into the infinitesimal in this photorealistic strategy game. Play as a fearless ant and guide your colony through the dangers of the forest.

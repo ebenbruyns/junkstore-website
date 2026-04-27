@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3338"
 
 # Links
 store_url: "https://www.gog.com/en/game/fallout"
-protondb_url: "https://www.protondb.com/app/38400"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout"
+pcgamingwiki_url: ""
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/pc/fallout?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-You've just unearthed the classic post-apocalyptic role-playing game that revitalized the entire CRPG genre. Make the right decisions or you could end up as another fallen hero in the wastelands…
+You've just unearthed the classic post-apocalyptic role-playing game that revitalized the entire CRPG genre. The Fallout® SPECIAL system allows drastically different types of characters, meaningful decisions and development that puts you in complete control. Explore the devastated ruins of a golden age civilization.

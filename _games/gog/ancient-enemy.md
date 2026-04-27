@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/76938"
 
 # Links
 store_url: "https://www.gog.com/en/game/ancient_enemy"
-protondb_url: "https://www.protondb.com/app/993790"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ancient_Enemy"
+pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/ancient-enemy/"
 
@@ -78,4 +78,8 @@ is_featured: false
 owned: true
 ---
 
-Ancient Enemy is an RPG card battler set in a crumbling world where the forces of evil have already won. Blast distorted enemies with a satisfying range of spells and abilities. Journey into a scarred wilderness and defeat the deadliest foe of all!
+An unusual, strategic RPG card game from the makers of Shadowhand and Regency Solitaire.
+
+"Awakening from centuries of slumber, a fallen mage returns to battle twisted folkloric foe across sprawling, ghostly landscapes. His ultimate destination: the nameless antagonist, a dread nemesis waiting patiently in the dark fastness of monstrous citadel, his Ancient Enemy.
+
+You'll embark upon a quest inspired by British mythology and Mabinogion, so expect card battling, visceral fights, mixed with bleak and evocative folklore! Loot the fallen to fill your hero's RPG-style inventory with collectible cards, capture strongholds and gather talented henchmen. Only powerful magic and iron determination will enable revenge upon your ultimate foe."

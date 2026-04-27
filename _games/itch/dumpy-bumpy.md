@@ -3,7 +3,7 @@ layout: game-page
 title: "Dumpy & Bumpy - Steam Deck Compatibility"
 game_title: "Dumpy & Bumpy"
 slug: "dumpy-bumpy"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/dumpy-bumpy/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://programancer.itch.io/dumpy"
-protondb_url: "https://www.protondb.com/app/1631500"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dumpy_%26_Bumpy"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

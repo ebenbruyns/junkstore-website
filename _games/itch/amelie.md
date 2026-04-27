@@ -3,7 +3,7 @@ layout: game-page
 title: "Amelie - Steam Deck Compatibility"
 game_title: "Amelie"
 slug: "amelie"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/amelie/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://twoandahalfstudios.itch.io/amelie"
-protondb_url: "https://www.protondb.com/app/1835810"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amelie"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

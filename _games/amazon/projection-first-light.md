@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/71191"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/726490"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Projection:_First_Light"
+pcgamingwiki_url: ""
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/projection-first-light?ftag=MCD-06-10aaa1f"
 

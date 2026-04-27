@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/27113"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rocket-league"
-protondb_url: "https://www.protondb.com/app/252950"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rocket_League"
+pcgamingwiki_url: ""
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/rocket-league?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition.
+Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and basketball-inspired Extra Modes, and more than 500 trillion possible cosmetic customization combinations.

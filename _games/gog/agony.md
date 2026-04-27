@@ -18,7 +18,7 @@ publisher: Forever Entertainment S. A., PlayWay
 developer: Madmind Studio
 genre: Adventure, Indie, Shooter
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "May 29, 2018"
 game_modes: ["Single player"]
 languages: ["English*","French","German","Polish","Italian","Spanish - Spain","Japanese","Korean","Portuguese - Portugal","Russian"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/56879"
 
 # Links
 store_url: "https://www.gog.com/en/game/agony"
-protondb_url: "https://www.protondb.com/app/487720"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Agony"
+pcgamingwiki_url: ""
 metacritic_score: 47
 metacritic_url: "https://www.metacritic.com/game/pc/agony?ftag=MCD-06-10aaa1f"
 

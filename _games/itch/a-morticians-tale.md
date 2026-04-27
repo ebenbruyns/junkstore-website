@@ -3,7 +3,7 @@ layout: game-page
 title: "A Mortician's Tale - Steam Deck Compatibility"
 game_title: "A Mortician's Tale"
 slug: "a-morticians-tale"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-morticians-tale/
 
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/50016"
 
 # Links
 store_url: "https://laundrybear.itch.io/morticians-tale"
-protondb_url: "https://www.protondb.com/app/578720"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Mortician%27s_Tale"
+pcgamingwiki_url: ""
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/a-morticians-tale?ftag=MCD-06-10aaa1f"
 

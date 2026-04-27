@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/151159"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-operator-b835e9"
-protondb_url: "https://www.protondb.com/app/1771980"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Operator"
+pcgamingwiki_url: ""
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/the-operator?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Welcome to the FDI. As our newest Operator, your role is to use your detective skills to assist our field agents and investigate mysterious crimes. Use cutting-edge FDI software to dig for clues, solve puzzles, and uncover the truth.
+As an Operator, you will assist FDI's field agents by analyzing evidence on your computer and making deductions. Help them solve impossible cases in this immersive interface game, full of plot twists and mysteries. Everything will be explained, you just have to ████ ██ ██████.

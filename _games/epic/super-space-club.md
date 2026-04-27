@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/126714"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/super-space-club"
-protondb_url: "https://www.protondb.com/app/1100290"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Super_Space_Club"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Super Space Club is a lo-fi arcade space shooter to chill to. Defend a vibrant galaxy as a club of misfit heroes and battle endless waves of spacecrafts to the tune of atmospheric beats. Outlast your enemies and vibe to the rhythm of the stars.
+In Super Space Club, journey alongside a group of anthropomorphic heroes as they set out to be the top-ranked defenders of the galaxy. You'll take on various missions, partake in several space dogfights, and jam out to lo-fi beats in this chill, arcade-style shooter.

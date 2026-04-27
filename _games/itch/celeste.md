@@ -3,7 +3,7 @@ layout: game-page
 title: "Celeste - Steam Deck Compatibility"
 game_title: "Celeste"
 slug: "celeste"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/celeste/
 
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/42818"
 
 # Links
 store_url: "https://maddymakesgamesinc.itch.io/celeste"
-protondb_url: "https://www.protondb.com/app/504230"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Celeste"
+pcgamingwiki_url: ""
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/celeste?ftag=MCD-06-10aaa1f"
 

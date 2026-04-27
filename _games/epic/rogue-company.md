@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/70213"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rogue-company"
-protondb_url: "https://www.protondb.com/app/872200"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rogue_Company"
+pcgamingwiki_url: ""
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/rogue-company?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The world needs saving and only the best of the best can do it. Suit up as one of the elite agents of Rogue Company and go to war in a variety of different game modes.  Gear up and go Rogue! Download and play FREE now!
+Gear up and drop in to Rogue Company, the third-person tactical action shooter that puts the fate of the world in your hands. Defeat the enemy team in objective and action based game modes featuring exotic locales, thrilling gun-play, and explosions…lots of explosions. Save the day. Look Good. Get Paid.

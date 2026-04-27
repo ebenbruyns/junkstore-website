@@ -18,7 +18,7 @@ publisher: Square Enix, Square Enix, Square Enix, Square Enix, Square Enix
 developer: Crystal Dynamics, Crystal Dynamics
 genre: Adventure, Adventure
 franchise: 
-age_rating_summary: ESRB 6 · PEGI 12
+age_rating_summary: ESRB 6
 release_date: "November 16, 1994"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/3902"
 store_url: "https://www.gog.com/en/game/gex"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gex"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/gex/"
 

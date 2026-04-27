@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3339"
 
 # Links
 store_url: "https://www.gog.com/en/game/fallout_2"
-protondb_url: "https://www.protondb.com/app/38410"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_2"
+pcgamingwiki_url: ""
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/fallout-2?ftag=MCD-06-10aaa1f"
 

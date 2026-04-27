@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/109938"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jennifer-wilde-unlikely-revolutionaries-7eda5e"
-protondb_url: "https://www.protondb.com/app/1466350"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-In 1921, young French artist Jennifer Chevalier becomes embroiled in death, espionage and revolution, assisted by the ghost of Oscar Wilde. A hand-drawn Point & Click adventure with a unique comic book inventory design
+In 1921, young French artist Jennifer Chevalier becomes embroiled in death, espionage and revolution, assisted by the ghost of Oscar Wilde. A hand-drawn Point & Click adventure with a unique comic book inventory design.

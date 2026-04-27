@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/87723"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/blazing-sails"
-protondb_url: "https://www.protondb.com/app/1158940"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blazing_Sails:_Pirate_Battle_Royale"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/blazing-sails/"
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Fight for survival in Blazing Sails, a fast-paced pirate PvP game! Create your own unique pirate and ship. Band together with other players to command your mighty vessel! Explore different game-modes, maps, weapons, ship types and more while eliminating other crews in epic bat...
+In Blazing Sails you, your ship and crew have to battle other teams on a huge map of land and sea until one team survives.
+
+As a battle hardened pirate you have to fulfill different tasks on your ship like steering the ship, deploying the sails, repairing ship damage and firing the cannons to crush your enemy’s. You’ll also be forced to go on land to gather different resources, weapons and ammo. But be careful to not abandon ship completely! If your ship goes down, your team goes down with it.

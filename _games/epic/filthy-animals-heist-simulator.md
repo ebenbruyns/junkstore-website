@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/achievements/filthy-animals-f6c65c"
-protondb_url: "https://www.protondb.com/app/1195420"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Filthy Animals is a chaotic multiplayer heist game for 1-4 players. Become a mutant animal working for criminal mastermind Tony as you steal, fight, fall over, and eat tacos while trying to make off with the loot. Solve puzzles, avoid enemies, and bumble your way to victory.
+Join a gang of mutant animals and embark on a series of hilarious heists under the guidance of Tony, the mad scientist and getaway driver as he tries to pull off his master plan!

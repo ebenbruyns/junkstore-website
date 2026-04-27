@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/80870"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/far-cry-6"
-protondb_url: "https://www.protondb.com/app/2369390"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Far_Cry_6"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,6 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Enter the adrenaline-filled world of a modern-day guerrilla revolution. With stunning vistas, visceral gunplay, and a huge variety of gameplay experiences, there's never been a better time to join the fight. 
-
-Play the Far Cry® 6 FREE TRIAL and discover why GAME INFORMER calls it "A nonstop thrill ride from start to finish." And, when you buy the full game, all of your progression will be saved.
+Dive into the gritty world of a modern-day guerrilla revolution to liberate a nation from its oppressive dictators. Welcome to Yara, a tropical paradise frozen in time. Far Cry 6 thrusts players into a modern-day guerrilla revolution. As dictator of Yara, Anton Castillo is intent on restoring his nation back to its former glory by any means, with his son, Diego, following in his bloody footsteps. Become a guerrilla fighter and liberate Yara.

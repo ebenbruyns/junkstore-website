@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45547"
 
 # Links
 store_url: "https://www.gog.com/en/game/immortal_redneck"
-protondb_url: "https://www.protondb.com/app/595140"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Immortal_Redneck"
+pcgamingwiki_url: ""
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/immortal-redneck?ftag=MCD-06-10aaa1f"
 

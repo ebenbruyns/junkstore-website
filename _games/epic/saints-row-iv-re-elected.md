@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/39397"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/saints-row-iv-re-elected"
-protondb_url: "https://www.protondb.com/app/206420"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row_IV"
+pcgamingwiki_url: ""
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/saints-row-iv?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-You're the President now! The Saints have gone from the Penthouse to the White House - but Earth has been invaded and it’s up to you to save it with an arsenal of superpowers and strange weapons, in the wildest open world game ever.
+Saints Row IV: Re-Elected is an updated port version of Saints Row IV, originally ported to Xbox One and Playstation 4, and later on to Nintendo Switch.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/97879"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bus-simulator-21"
-protondb_url: "https://www.protondb.com/app/976590"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bus_Simulator_21"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/bus-simulator-21-next-stop/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-It's your stop! Bus Simulator 21 Next Stop is here! Enjoy many game improvements and a brand-new game mode with this comprehensive update.
+Experience the daily life of a bus driver in two open world cities either in the USA or Europe. Drive up to 30 licensed buses by international manufacturers, including a double-decker and e-buses. Take your passengers to their destinations safely and on time - either in single- or multiplayer mode.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/31384"
 
 # Links
 store_url: "https://www.gog.com/en/game/middleearth_shadow_of_mordor"
-protondb_url: "https://www.protondb.com/app/241930"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Middle-earth%3A_Shadow_of_Mordor"
+pcgamingwiki_url: ""
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/middle-earth-shadow-of-mordor?ftag=MCD-06-10aaa1f"
 

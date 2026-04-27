@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rawmen-03f74e"
-protondb_url: "https://www.protondb.com/app/782940"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/RAWMEN"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-RAWMEN is an outrageous multiplayer battler that cooks up a refreshingly tasty take on the arena shooter. Dine solo or call on your broth buds to feast as a party of up to four in food-based fighting across locales around the world.
+RAWMEN is a radical multiplayer arena shooter that pits you against 2-8 of your closest taste buds or foes. Channel your inner souperiority and unleash culinary devastation for good. Join our Discord and Playtest today!

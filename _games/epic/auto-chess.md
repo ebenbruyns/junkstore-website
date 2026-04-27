@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/71928"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/auto-chess"
-protondb_url: "https://www.protondb.com/app/1530300"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Auto_Chess"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/auto-chess/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Auto Chess is a multiplayer online strategy game co-developed by Dragonest Game Co.Ltd and Drodo Studio and published by Dragonest Game Co.Ltd.
+Auto Chess is the original auto battler game that had a significant worldwide influence with its brand new gameplay mode and strategic competitive features. It has also attracted tens of millions of players around the globe. Each player can play against others through the internet and enjoy a brand new strategy competitive experience.

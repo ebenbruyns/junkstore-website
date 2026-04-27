@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/definitely-not-fried-chicken-a30160"
-protondb_url: "https://www.protondb.com/app/1036240"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Definitely Not Fried Chicken is a business management sim with a Twist! Grow your drugs trade through legitimate fronts, managing both sides of the business. Acquire new "businesses", meet new clientele, Develop more potent narcotics, make lots of money and leave a city in ruin!
+Definitely Not Fried Chicken is a business management sim with a Twist! Grow your drugs trade through legitimate fronts by managing both sides of the business. Acquire new &quot;businesses&quot;, meet new clientele, Develop more potent narcotics, make lots of money and leave a city in ruin!

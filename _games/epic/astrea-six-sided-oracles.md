@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/121206"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/astrea-six-sided-oracles-33c949"
-protondb_url: "https://www.protondb.com/app/1755830"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Astrea%3A_Six-Sided_Oracles"
+pcgamingwiki_url: ""
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/astrea-six-sided-oracles?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System.
+An all new dice-deck-building roguelike, Astrea, has you chart a path through the ruins of a lost civilization as one of six brave Oracles. Using an ever-changing deck of dice and enchanted Sentinels, Purify waves of Corrupted foes and a decayed goddess to save the Star System. Choose among hundreds of different dice that suit your penchant; reliably safe, perfectly balanced, or powerfully risky. Tactfully wield an innate risk vs reward system by pacifying enemies through Purification, or Corrupt yourself to unleash abilities that help tip the scales. Laden with bountiful boons to enhance your chances for success and encounters against waves of enemies that impede your progress, chart a course through the ruins of a lost civilization to the source of Corruption.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/44590"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/prey"
-protondb_url: "https://www.protondb.com/app/480490"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prey_%282017%29"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an experiment meant to alter humanity forever – but things have gone terribly wrong.
+In Prey, you awaken aboard Talos I, a space station orbiting the moon in the year 2032. You are the key subject of an experiment meant to alter humanity forever – but things have gone terribly wrong. The space station has been overrun by hostile aliens and you are now being hunted. As you dig into the dark secrets of Talos I and your own past, you must survive using the tools found on the station, your wits, weapons, and mind-bending abilities.

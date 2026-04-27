@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/123801"
 
 # Links
 store_url: "https://www.gog.com/en/game/trinity_fusion"
-protondb_url: "https://www.protondb.com/app/1911360"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trinity_Fusion"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/trinity-fusion?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "2090070295"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Take control of your parallel selves on a mission to save the dying multiverse in this rogue-lite action platformer!

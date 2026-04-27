@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/86843"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/stasis-bone-totem-ca8320"
-protondb_url: "https://www.protondb.com/app/1426010"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stasis%3A_Bone_Totem"
+pcgamingwiki_url: ""
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/stasis-bone-totem?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Get ready for a thrilling underwater adventure with classic point-and-click gameplay. Sci-fi & horror, we have it here! Explore with three characters simultaneously. Featuring atmospheric isometric graphics, rendered video, and a soundtrack by Mark Morgan.
+Stasis: Bone Totem is a thrilling and spine-tingling journey into the unknown fathoms of the icy ocean and the terrors that await a family. They will uncover a threat far beyond their wildest dreams.

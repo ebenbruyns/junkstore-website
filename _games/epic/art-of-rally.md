@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/83381"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/art-of-rally"
-protondb_url: "https://www.protondb.com/app/550320"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Art_of_Rally"
+pcgamingwiki_url: ""
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/art-of-rally/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-art of rally is a stylized experience inspired by the golden era of rally from the creator of Absolute Drift  Race across the world through colorful and stylized environments in top-down view.  Will you master the art of rally?
+Race in the golden era of rally. Drive iconic cars from the 60s to Group B on challenging stages through stylized environments. Will you master the art of rally?

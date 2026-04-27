@@ -18,7 +18,7 @@ publisher: Studio MDHR
 developer: Studio MDHR
 genre: platform
 franchise: 
-age_rating_summary: ESRB 10 · PEGI 3
+age_rating_summary: ESRB 10
 release_date: "September 29, 2017"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/21680"
 
 # Links
 store_url: "https://www.gog.com/en/game/cuphead"
-protondb_url: "https://www.protondb.com/app/268910"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cuphead"
+pcgamingwiki_url: ""
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/cuphead?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1963513391"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Cuphead is a classic run and gun action game heavily focused on boss battles. Inspired by cartoons of the 1930s, the visuals and audio are painstakingly created with the same techniques of the era...

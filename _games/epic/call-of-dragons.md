@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-An MMO Fantasy Conquest Game by the RoK Team! Capture behemoths to fight. Use hero skills with allies. Deploy flying units over 3D terrain. Huge wars. Huge choices. Your journey starts here!
+Call of Dragons is an MMO fantasy conquest game from the creators of Rise of Kingdoms, offering an incredible strategic combat experience.

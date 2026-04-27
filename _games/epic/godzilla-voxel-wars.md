@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/139800"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/godzillawars-2c30e4"
-protondb_url: "https://www.protondb.com/app/2439780"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Godzilla_Voxel_Wars"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Godzilla, Mothra, King Ghidorah, and more are here to rampage across an 8x8 grid! Control Toho monsters and save the world from the Fungoid mushroom invasion! Relish the sense of accomplishment earned from clearing each stage of this all-new strategy puzzle game!
+Get ready to battle using your brain! A full-fledged turn-based strategy game with a difficulty level: GODZILLA! Godzilla, Mothra, King Ghidorah, and more are here to rampage across an 8x8 grid! Control Toho monsters and save the world from the Fungoid mushroom invasion!

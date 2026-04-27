@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/61488"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/breathedge"
-protondb_url: "https://www.protondb.com/app/738520"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Breathedge"
+pcgamingwiki_url: ""
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/breathedge?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/99345"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/1085220"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment_2%3A_Creed_Valley"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/figment-2-creed-valley/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Figment 2: Creed Valley is an action-adventure game set in the human mind. Nightmares are spreading chaos and have overrun once-peaceful lands. Join Dusty, The Mind’s courage, as you make your way through puzzles, musical boss fights and unique environments.
+Figment 2: Creed Valley is an encore to Figment. Dusty and Piper have restored peace in The Mind, however, a new adversary is threatening its balance. Our two heroes must travel to Creed Valley, where The Mind’s beliefs and ideals are formed, to face their most menacing and theatrical foe so far.

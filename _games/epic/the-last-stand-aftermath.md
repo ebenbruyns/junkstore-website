@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/87027"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-last-stand-aftermath"
-protondb_url: "https://www.protondb.com/app/1266840"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Last_Stand%3A_Aftermath"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-From the creators of The Last Stand: Union City comes a new singleplayer rogue-lite action adventure. After you are infected by the zombie virus, set out to explore the apocalypse and find hope for your colony. You can make a difference. Don't give up.
+From the creators of The Last Stand: Union City and Dead Zone comes an all-new singleplayer rogue-lite action adventure. After you become infected by the zombie virus, you set out to explore the post-apocalypse and find hope for your fellow survivors. You can still make a difference. Don't give up.

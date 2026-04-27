@@ -18,7 +18,7 @@ publisher: Atari, Inc., E-Frontier, Nobilis, Focus Multimedia
 developer: Katauri Interactive
 genre: Role-playing (RPG), Strategy, Simulator
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "September 23, 2008"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/5020"
 
 # Links
 store_url: "https://www.gog.com/en/game/kings_bounty_the_legend"
-protondb_url: "https://www.protondb.com/app/25900"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/King%27s_Bounty%3A_The_Legend"
+pcgamingwiki_url: ""
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/kings-bounty-the-legend?ftag=MCD-06-10aaa1f"
 

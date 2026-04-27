@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/94467"
 
 # Links
 store_url: "https://www.gog.com/en/game/helping_the_hotties"
-protondb_url: "https://www.protondb.com/app/1590730"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Helping the Hotties is a unique adult visual novel harem game filled with gorgeous girls, humor, exciting secrets, and spicy romance set in a hot summer. It’s time to enjoy your summer in a whole new way.
+Helping the Hotties - a unique visual novel harem game filled with girls, humour, exciting secrets, and spicy romance!

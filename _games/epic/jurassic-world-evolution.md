@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57068"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jurassic-world-evolution"
-protondb_url: "https://www.protondb.com/app/648350"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Jurassic_World_Evolution"
+pcgamingwiki_url: ""
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/pc/jurassic-world-evolution?ftag=MCD-06-10aaa1f"
 
@@ -79,3 +79,9 @@ owned: true
 ---
 
 Take charge of operations on the legendary islands of the Muertes archipelago and bring the wonder, majesty and danger of dinosaurs to life. Build for Science, Entertainment or Security interests in an uncertain world where life always finds a way.
+
+Jurassic World Evolution is a new chapter in the official Jurassic mythology that puts you in charge of cinema’s most famous tourist destination.
+
+Bioengineer dinosaurs that think, feel and react intelligently to the world around them. Play with life itself to give your dinosaurs unique behaviors, traits and appearances, then contain and profit from them to fund your global search for lost dinosaur DNA.
+
+Control the big picture with deep management tools or go hands-on to confront challenges on the ground or in the air. Expand your islands and choose your own journey in an all-new narrative featuring iconic characters from across the franchise and decades of Jurassic lore at your fingertips.

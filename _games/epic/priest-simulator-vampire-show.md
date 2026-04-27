@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/157940"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/priest-simulator-vampire-show-71f336"
-protondb_url: "https://www.protondb.com/app/950620"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Priest_Simulator"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-A mockumental action game. Go forth and rock in the absolute weirdest and most messed up simulator in the history of sandbox shooters. Fully unprofessional English language version. This dub will have you in stitches.
+Imagine that you have divine powers. What do you do? Help people or take the piss out of them? That's a priest's life.

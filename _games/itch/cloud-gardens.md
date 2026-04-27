@@ -3,7 +3,7 @@ layout: game-page
 title: "Cloud Gardens - Steam Deck Compatibility"
 game_title: "Cloud Gardens"
 slug: "cloud-gardens"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/cloud-gardens/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://noio.itch.io/cloud-gardens"
-protondb_url: "https://www.protondb.com/app/1372320"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cloud_Gardens"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

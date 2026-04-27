@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/71500"
 
 # Links
 store_url: "https://www.gog.com/en/game/yes_your_grace"
-protondb_url: "https://www.protondb.com/app/1115690"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Yes%2C_Your_Grace"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

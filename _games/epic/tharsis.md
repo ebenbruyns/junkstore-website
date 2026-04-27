@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/33590"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tharsis"
-protondb_url: "https://www.protondb.com/app/323060"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tharsis"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,5 @@ is_featured: false
 owned: true
 ---
 
-Tharsis is a turn-based space strategy game. With dice. And cannibalism. It puts you in control of humanity’s first mission to Mars, just as it’s struck by a micrometeorite storm. 
+Tharsis is a turn-based space strategy game. With dice and cannibalism. It puts you in control of humanity's first manned mission to Mars, just as it's struck by a micrometeoroid storm. You must guide your crew through disasters, food shortages, and the unforgiving nature of space - all while maintaining your sanity amidst cryptic signals and warnings from Mars.
+Defy the odds, make the difficult decisions, and embark on the most important mission in human history.

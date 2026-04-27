@@ -3,7 +3,7 @@ layout: game-page
 title: "10mg: Snaaak - Steam Deck Compatibility"
 game_title: "10mg: Snaaak"
 slug: "10mg-snaaak"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/10mg-snaaak/
 
@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://clov.itch.io/snaaak"
-protondb_url: "https://www.protondb.com/app/1428840"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

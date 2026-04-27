@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68145"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/creature-in-the-well"
-protondb_url: "https://www.protondb.com/app/852300"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Creature_in_the_Well"
+pcgamingwiki_url: ""
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/creature-in-the-well?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "a579a08e71b341e6af106dbd170e2ab2"
 is_featured: false
-owned: false
+owned: true
 ---
 
-As the last remaining BOT-C unit, venture deep into a desert mountain to restore power to an ancient facility, haunted by a desperate Creature. Uncover and upgrade powerful gear in order to free the city of Mirage from a deadly sandstorm.
+A top-down, pinball-inspired hack and slash dungeon crawler. Venture deep into a desert mountain to restore power to an ancient facility.

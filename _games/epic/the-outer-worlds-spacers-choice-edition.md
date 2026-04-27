@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/125175"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-outer-worlds-spacers-choice-edition"
-protondb_url: "https://www.protondb.com/app/1920490"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Outer_Worlds%3A_Spacer's_Choice_Edition"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The Outer Worlds: Spacer’s Choice Edition is the ultimate way to play the award-winning RPG from Obsidian Entertainment and Private Division. Including the base game and all DLC, this remastered masterpiece is the absolute best version of The Outer Worlds.
+The Outer Worlds: Spacer's Choice Edition is the ultimate way to play the award-winning RPG from Obsidian Entertainment and Private Division. Including the base game and all DLC, this remastered masterpiece is the absolute best version of The Outer Worlds.

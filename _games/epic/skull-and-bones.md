@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57531"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/skull-and-bones"
-protondb_url: "https://www.protondb.com/app/2853730"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Skull_and_Bones"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Enter the perilous world of Skull and Bones, a co-op pirate open world action-RPG experience, to become the most infamous pirate kingpin! Engage in thrilling naval battles, craft a variety of unique ships, forge unlikely alliances as you overcome the odds, and bring mayhem on the seas. Be part of an immersive world that introduces new challenges and features every season.
+Set sail into the vibrant open world of Skull and Bones, a naval online action RPG where you rise to become the most fearsome pirate kingpin.
+
+Customize your fleet, craft unique ships, and forge formidable weapons to dominate in exhilarating sea battles against your foes, all while expanding your pirate empire. Join a dynamic and ever-evolving world that brings fresh challenges, features, and stories with each season, immersing you in a continuously unfolding pirate saga.

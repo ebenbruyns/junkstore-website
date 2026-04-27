@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/101186"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-captain"
-protondb_url: "https://www.protondb.com/app/1721530"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Captain"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Race back home across the galaxy.  Collect new friends.  Make new enemies.  You won't be able to save everyone.  Who will you leave behind?  Which civilizations will you save - or destroy - along the way?  The decisions are up to you.  You are... The Captain!
+Race back home across the galaxy. Collect new friends. Make new enemies. You won't be able to save everyone. Who will you leave behind? Which civilizations will you save - or destroy - along the way? The decisions are up to you.

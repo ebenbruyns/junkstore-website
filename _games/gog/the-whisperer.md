@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/101553"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_whisperer"
-protondb_url: "https://www.protondb.com/app/2329580"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Whisperer"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

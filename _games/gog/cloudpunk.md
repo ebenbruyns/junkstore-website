@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/62579"
 
 # Links
 store_url: "https://www.gog.com/en/game/cloudpunk"
-protondb_url: "https://www.protondb.com/app/746850"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cloudpunk"
+pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/cloudpunk?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "2048907635"
 is_featured: false
-owned: false
+owned: true
 ---
 
 A neon-noir story in a rain-drenched cyberpunk metropolis. It's your first night on the job working for the Cloudpunk delivery service.

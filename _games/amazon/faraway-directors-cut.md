@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/91969"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/883880"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Faraway:_Director%27s_Cut"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/faraway-directors-cut/"
 

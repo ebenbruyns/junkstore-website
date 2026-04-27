@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/16886"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/wolfenstein-the-new-order"
-protondb_url: "https://www.protondb.com/app/201810"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wolfenstein%3A_The_New_Order"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/wolfenstein-the-new-order?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Wolfenstein®: The New Order reignites the series that created the first-person shooter genre. Set against a backdrop of an alternate 1960s, discover an unfamiliar world ruled by a familiar enemy—one that has changed and twisted history as you know it.
+Wolfenstein: The New Order is an action-adventure shooter game played from a first-person perspective. It is the semi-sequel to 2009's Wolfenstein, however utilizes very little from the game and drops any direct references to veil or supernatural.
+
+To progress through the story, the player battle enemies throughout levels. The game utilizes a health system in which players' health is divided into separate sections that regenerate; if an entire section is lost, the player must use a health pack to replenish the missing health. In combat, a cover system can be used as assistance against enemies. The player have the ability to lean around, over, and under cover, which can be used as a tactical advantage during shootouts and stealth levels. The game gives the player a wide variety of weapon options—they can be found on the ground, retrieved from dead enemies, or removed from their stationary position and carried around.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/77495"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/beyond-blue"
-protondb_url: "https://www.protondb.com/app/883360"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beyond_Blue"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/beyond-blue?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,8 @@ is_featured: false
 owned: true
 ---
 
-Beyond Blue is a single-player narrative adventure that takes you deep into our planet’s beating blue heart.  Set in the near future, Beyond Blue explores the mysteries of our ocean through the eyes of Mirai, a deep-sea explorer and scientist. Become a part of a newly-formed r...
+Explore and uncover the secrets of Earth’s last uncharted frontier
+
+Set in the near future, players will probe the mysteries of our ocean through the eyes of Mirai, the lead on a newly formed research team that will use groundbreaking technologies to see, hear, and sense the ocean in a more meaningful way than has ever been attempted. The game will feature both an evocative narrative and high level resource management, challenging the player to make high-stakes decisions and prioritize which objectives can be successfully achieved during the crew’s expedition.
+
+Embracing the same inclusive development process that was used to create Never Alone (Kisima Ingitchuna), E-Line’s BAFTA award-winning game about Alaska Native culture, the company paired world class game makers with some of the field’s leading ocean experts to craft an experience that reflects the awesome wonder and unbounded mystery that infuses our planet’s beating blue heart.

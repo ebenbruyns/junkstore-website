@@ -18,7 +18,7 @@ publisher: Sega, Sega Corporation, Sega Games
 developer: Ryu Ga Gotoku Studios, Sega Games
 genre: role-playing-rpg, adventure, simulator, hack-and-slash-beat-em-up
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "March 12, 2015"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/43056"
 
 # Links
 store_url: "https://www.gog.com/en/game/yakuza_0"
-protondb_url: "https://www.protondb.com/app/638970"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Yakuza_0"
+pcgamingwiki_url: ""
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/yakuza-0?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1103602225"
 is_featured: false
-owned: false
+owned: true
 ---
 
 The glitz, glamour, and unbridled decadence of the 80s are back! Yakuza 0 is a prequel set in 1988 to the Yakuza series, taking place before the first game.

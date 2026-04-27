@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/humankind"
-protondb_url: "https://www.protondb.com/app/1124300"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Humankind"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

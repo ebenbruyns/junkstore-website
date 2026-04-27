@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/30944"
 
 # Links
 store_url: "https://www.gog.com/en/game/rebel_galaxy"
-protondb_url: "https://www.protondb.com/app/290300"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rebel_Galaxy"
+pcgamingwiki_url: ""
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/rebel-galaxy?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Rebel Galaxy is a game of action-packed combat, exploration, discovery, trade, and “negotiation” with the outlandish denizens at the edge of the known universe.  You’ll battle pirates, explore anomalies, befriend aliens, scavenge battle wreckage, mine asteroids, and discover a...
+Rebel Galaxy is an action-packed, swashbuckling space opera. You'll battle pirates, explore anomalies, befriend aliens, scavenge battle wreckage, mine asteroids, and discover artifacts. Choose your path as a roguish do-gooder, crafty space-trader or power-hungry privateer - or maybe a little of each! Buy larger and more powerful craft with your hard-earned credits, and outfit them with a variety of wicked weapons and defenses. Set in a galaxy of fantastic sights, and secrets to be found, Rebel Galaxy is above all a space epic of adventure, exploration, and combat.

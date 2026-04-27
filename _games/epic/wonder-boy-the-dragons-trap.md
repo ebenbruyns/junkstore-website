@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/wonder-boy-the-dragon-s-trap"
-protondb_url: "https://www.protondb.com/app/543260"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wonder_Boy%3A_The_Dragon%27s_Trap"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-The cult classic returns with hand-drawn animation and re-orchestrated music! Battle dragons, transform into unique animal forms, and explore vast lands in search of a cure. Switch anytime between modern visuals or retro 8-bit style!
+"A modern version of cult classic Wonder Boy: The Dragon's Trap! A close collaboration between Lizardcube, DotEmu and legendary series creator Ryuichi Nishizawa, based on Westone Bit Entertainment's original masterpiece. 
+ 
+How many more transformations can one hopeful body survive as it turns into a Lizard, a Mouse, a Piranha, a Lion, and a Hawk... The six different forms of our shape-shifting hero make up the cast of this non-stop action-adventure platformer!"

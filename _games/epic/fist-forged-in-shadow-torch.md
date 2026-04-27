@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/83127"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fist-forged-in-shadow-torch"
-protondb_url: "https://www.protondb.com/app/1330470"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/F.I.S.T.:_Forged_in_Shadow_Torch"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/fist-forged-in-shadow-torch?ftag=MCD-06-10aaa1f"
 
@@ -78,5 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Explore more than a dozen unique areas in a Metroidvania style map. 
-The Fist, Drill, and Whip are three weapons with completely different fighting styles that offer seamless switching between high combo, high damage, and long range attacks. 
+It is a metroidvania game that the player will play as a rabbit who can manipulate the big mech-arm on his back, exploring in a vivid diesel punk world and fighting against the evil robot army. There will be a vast world map for the player to explore to meet with friend NPCs and encounter enemies, discover items and weapons and seek for the answers for the secrets hidden behind.

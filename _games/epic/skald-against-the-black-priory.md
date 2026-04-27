@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/skald-against-the-black-priory-cffcc0"
-protondb_url: "https://www.protondb.com/app/1069160"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Skald:_Against_the_Black_Priory"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-SKALD is a retro-style party-based RPG set in a grim-dark fantasy world of tragic heroes, violent deaths and Lovecraftian horror. Take a chance and roll the dice as you embark on a compelling story filled with deadly creatures, branching story and tactical, turn-based combat
+SKALD:Against the Black Priory is a retro-style party-based RPG set in a grim-dark fantasy world of tragic heroes, violent deaths and Lovecraftian horror. Take a chance and roll the dice as you embark on a compelling story filled with deadly creatures, branching story and tactical, turn-based combat

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/89847"
 
 # Links
 store_url: "https://www.gog.com/en/game/time_loader_prologue"
-protondb_url: "https://www.protondb.com/app/1421970"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Time_Loader"
+pcgamingwiki_url: ""
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/time-loader/"
 

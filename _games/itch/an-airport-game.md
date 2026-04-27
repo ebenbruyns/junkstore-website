@@ -3,7 +3,7 @@ layout: game-page
 title: "An Airport Game - Steam Deck Compatibility"
 game_title: "An Airport Game"
 slug: "an-airport-game"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/an-airport-game/
 

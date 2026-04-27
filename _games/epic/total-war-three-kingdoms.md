@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/total-war-three-kingdoms-d3bb7a"
-protondb_url: "https://www.protondb.com/app/779340"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Total_War:_Three_Kingdoms"
+pcgamingwiki_url: ""
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/total-war-three-kingdoms?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Total War: THREE KINGDOMS recreates epic conflict across ancient China in an age of heroes and legends, combining gripping empire-building, statecraft and conquest with stunning real-time battles.
+Total War: THREE KINGDOMS is the first in the award-winning series to recreate epic conflict across ancient China. Combining a gripping turn-based campaign of empire-building &amp; conquest with stunning real-time battles, THREE KINGDOMS redefines the series in an age of heroes &amp; legends.

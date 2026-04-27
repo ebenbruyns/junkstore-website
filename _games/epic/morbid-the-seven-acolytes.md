@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/83854"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/morbid-the-seven-acolytes-7c5303"
-protondb_url: "https://www.protondb.com/app/1140890"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Morbid%3A_The_Seven_Acolytes"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Morbid: The Seven Acolytes is a Horrorpunk Action RPG filled with Lovecraftian horrors and Cronenbergian gore, making it the most gruesome take on the isometric Souls-like genre yet!n is not set
+Morbid: The Seven Acolytes is a Horrorpunk Action RPG filled with Lovecraftian horrors and Cronenbergian gore, making it the most gruesome take on the isometric Souls-like genre yet!

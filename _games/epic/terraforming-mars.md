@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/63476"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/terraforming-mars-18c3ad"
-protondb_url: "https://www.protondb.com/app/800270"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Terraforming_Mars"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,8 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The taming of the Red Planet has begun!
-
-Control your corporation, play project cards, build up production, place your cities and green areas on the map, and race for milestones and awards!
-
-Will your corporation lead the way into humanity's new era?
+The taming of the Red Planet has begun! Corporations are competing to transform Mars into a habitable planet by spending vast resources and using innovative technology to raise temperature, create a breathable atmosphere, and make oceans of water. As terraforming progresses, more and more people will immigrate from Earth to live on the Red Planet.

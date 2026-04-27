@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/23246"
 
 # Links
 store_url: "https://www.gog.com/en/game/sunrider_mask_of_arcadius"
-protondb_url: "https://www.protondb.com/app/313730"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sunrider%3A_Mask_of_Arcadius"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

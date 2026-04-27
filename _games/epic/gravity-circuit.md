@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/94203"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gravity-circuit-489baa"
-protondb_url: "https://www.protondb.com/app/858710"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gravity_Circuit"
+pcgamingwiki_url: ""
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/gravity-circuit/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics. Follow Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit, on an adventure in a post-apocalyptic world inhabited by sentient robots.
+Gravity Circuit is a flashy action packed 2D platformer in the spirit of console classics. Follow Kai, a lone operative war hero who harnesses the mysterious powers of the Gravity Circuit, on an adventure in a futuristic world inhabited by sentient robots.

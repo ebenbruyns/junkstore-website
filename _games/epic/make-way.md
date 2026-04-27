@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/make-way-bddf5f"
-protondb_url: "https://www.protondb.com/app/1445790"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Make_Way"
+pcgamingwiki_url: ""
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/make-way?ftag=MCD-06-10aaa1f"
 

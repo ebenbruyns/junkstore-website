@@ -3,7 +3,7 @@ layout: game-page
 title: "10 Flights of Ballooning - Steam Deck Compatibility"
 game_title: "10 Flights of Ballooning"
 slug: "10-flights-of-ballooning"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/10-flights-of-ballooning/
 

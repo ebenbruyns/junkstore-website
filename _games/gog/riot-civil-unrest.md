@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/34405"
 
 # Links
 store_url: "https://www.gog.com/en/game/riot_civil_unrest"
-protondb_url: "https://www.protondb.com/app/342310"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Riot%3A_Civil_Unrest"
+pcgamingwiki_url: ""
 metacritic_score: 54
 metacritic_url: "https://www.metacritic.com/game/riot-civil-unrest/"
 

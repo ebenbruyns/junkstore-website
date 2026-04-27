@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/88842"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/1155460"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Academy:_The_First_Riddle"
+pcgamingwiki_url: ""
 metacritic_score: 59
 metacritic_url: "https://www.metacritic.com/game/the-academy-the-first-riddle/"
 

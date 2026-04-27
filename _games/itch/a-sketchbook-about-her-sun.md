@@ -3,7 +3,7 @@ layout: game-page
 title: "A Sketchbook About Her Sun - Steam Deck Compatibility"
 game_title: "A Sketchbook About Her Sun"
 slug: "a-sketchbook-about-her-sun"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-sketchbook-about-her-sun/
 
@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://team-soletude.itch.io/a-sketchbook-about"
-protondb_url: "https://www.protondb.com/app/1611760"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

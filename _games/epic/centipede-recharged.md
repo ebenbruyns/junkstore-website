@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/98572"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/centipede-recharged"
-protondb_url: "https://www.protondb.com/app/1630960"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Centipede%3A_Recharged"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Blast bugs and chase high scores in this glorious revival of an old-school classic, all while jamming to a heart-pounding original score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 unique challenges or the endless arcade mode.
+The original bug-blasting arcade game is back! Centipede: Recharged has been reimagined for modern gameplay, with vibrant visuals designed for modern screens, a 16:9 field of play, and an original soundtrack from award-winning video game composer Megan McDuffee. Aim for a high score in the old school arcade mode and earn bragging rights with your name at the top of the leaderboard. Or test your skills and rank on the boards in one of 30 intensely creative challenges, which twist the gameplay in new and exciting ways. A dozen new power-ups can give you an edge by introducing abilities like screen-clearing explosions, rail guns, and even slowing down time. Every mode and level is playable in local co-op mode with a friend.

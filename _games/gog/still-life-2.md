@@ -18,7 +18,7 @@ publisher: Meridian4, cdv Software Entertainment, Iceberg Interactive
 developer: Gameco Studios
 genre: Adventure, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "March 1, 2009"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/9212"
 
 # Links
 store_url: "https://www.gog.com/en/game/still_life_2"
-protondb_url: "https://www.protondb.com/app/46490"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Still_Life_2"
+pcgamingwiki_url: ""
 metacritic_score: 67
 metacritic_url: "https://www.metacritic.com/game/pc/still-life-2?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659007"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Who is hiding behind Mr. X? Still Life 2 reveals the long-awaited ending of Still Life and spells a new investigation for Agent Victoria McPherson.

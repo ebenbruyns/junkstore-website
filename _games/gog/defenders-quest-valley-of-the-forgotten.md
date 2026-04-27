@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/2409"
 
 # Links
 store_url: "https://www.gog.com/en/game/defenders_quest"
-protondb_url: "https://www.protondb.com/app/218410"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Defender%27s_Quest%3A_Valley_of_the_Forgotten"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/defenders-quest/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659129"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Defender's Quest is a tower defense and RPG hybrid that features classic tower defense gameplay intermingled with RPG mechanics.

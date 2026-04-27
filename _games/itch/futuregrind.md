@@ -3,7 +3,7 @@ layout: game-page
 title: "FutureGrind - Steam Deck Compatibility"
 game_title: "FutureGrind"
 slug: "futuregrind"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/futuregrind/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://milkbaggames.itch.io/futuregrind"
-protondb_url: "https://www.protondb.com/app/355820"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FutureGrind"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

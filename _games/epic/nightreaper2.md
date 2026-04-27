@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/nightreaper2-bc3b86"
-protondb_url: "https://www.protondb.com/app/4282590"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-A dark stylized action game where you hunt villagers, escape the police, and battle four powerful kings in a fast-paced chaotic world.
+NightReaper2 is a dark fantasy action game where you become the Reaper, harvesting souls and fighting cursed enemies in a haunted world. Explore eerie environments, face relentless threats, and survive intense combat in a grim, atmospheric experience.

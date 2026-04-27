@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57052"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/albion-online-7eb24d"
-protondb_url: "https://www.protondb.com/app/761890"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Albion_Online"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/albion-online/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Albion Online is a sandbox MMORPG in which you write your own story. Explore a vast open world, grow your wealth, forge alliances, and leave your mark on the world of Albion!
+Albion Online is a sandbox MMORPG set in an open medieval fantasy world. The game features a player-driven economy where nearly every item is player-crafted. Combine armor pieces and weapons suited to your playstyle in a unique, classless "you are what you wear" system. Explore the world, take on other adventurers in thrilling battles, conquer territories, and build a home.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/83359"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-dungeon-of-naheulbeuk-the-amulet-of-chaos"
-protondb_url: "https://www.protondb.com/app/970830"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Dungeon_of_Naheulbeuk:_The_Amulet_of_Chaos"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/the-dungeon-of-naheulbeuk-the-amulet-of-chaos?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The ULTIMATE EDITION includes the base game THE DUNGEON OF NAHEULBEUK: THE AMULET OF CHAOS, the Season Pass of 3 DLC, a Goodies Pack and the game Soundtrack.
+Step into the wacky heroic fantasy universe of the Dungeon of Naheulbeuk. Lead a team of unlikely and clumsy heroes in an epic and challenging tactical RPG. Live an adventure filled with humor, surprises and silly encounters.

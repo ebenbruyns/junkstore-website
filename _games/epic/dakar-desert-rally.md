@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/116194"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dakar-desert-rally"
-protondb_url: "https://www.protondb.com/app/1839940"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dakar_Desert_Rally"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Dakar Desert Rally is the biggest off-road rally racing adventure ever developed. Experience the speed and excitement of the largest rally race on the planet, featuring a wide variety of licensed vehicles from motorcycles, cars, trucks, quads and SSVs.
+Dakar Desert Rally is the biggest and most epic off-road rally racing adventure ever developed. Experience the speed and excitement of the largest rally race on the planet, featuring a wide variety of licensed vehicles from the world’s top makers, including motorcycles, cars, trucks, quads and SSVs.

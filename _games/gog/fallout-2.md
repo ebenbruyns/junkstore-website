@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3339"
 
 # Links
 store_url: "https://www.gog.com/en/game/fallout_2"
-protondb_url: "https://www.protondb.com/app/38410"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_2"
+pcgamingwiki_url: ""
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/fallout-2?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Fallout® 2 is the sequel to the critically acclaimed game that took RPG'ing out of the dungeons and into a dynamic, apocalyptic retro-future. Mastering your character's skills and traits for survival, Fallout® 2 challenges you to endure in a post-nuclear world
+A turn-based tactical Western RPG in which the Chosen One is tasked with exploring post-nuclear California to locate and retrieve the fabled Garden of Eden Creation Kit for their famine-stricken tribe, while coming into contact through branching dialogue trees with numerous tribes, factions and micro-civilizations, each with their own virtues, vices, socioeconomic situations and political agendas.

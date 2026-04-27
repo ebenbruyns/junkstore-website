@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/100548"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/skydrift-infinity-c4ca37"
-protondb_url: "https://www.protondb.com/app/827330"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SkyDrift_Infinity"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

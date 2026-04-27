@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/79440"
 
 # Links
 store_url: "https://www.gog.com/en/game/dorfromantik"
-protondb_url: "https://www.protondb.com/app/1455840"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dorfromantik"
+pcgamingwiki_url: ""
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/dorfromantik/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1721001406"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Dorfromantik is a peaceful building strategy and puzzle game where you create a beautiful and ever-growing village landscape by placing tiles. Explore a variety of colorful biomes, discover and unlock new tiles and complete quests to fill your world with life!

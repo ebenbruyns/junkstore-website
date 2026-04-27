@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/43450"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/legion-td-2-a244b9"
-protondb_url: "https://www.protondb.com/app/469600"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legion_TD_2"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

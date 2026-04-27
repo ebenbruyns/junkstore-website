@@ -3,7 +3,7 @@ layout: game-page
 title: "Mutiny Island - Steam Deck Compatibility"
 game_title: "Mutiny Island"
 slug: "mutiny-island"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/mutiny-island/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://elushis.itch.io/mutiny-island"
-protondb_url: "https://www.protondb.com/app/709490"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mutiny_Island"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

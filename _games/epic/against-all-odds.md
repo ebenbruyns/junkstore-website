@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/128172"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/against-all-odds-409105"
-protondb_url: "https://www.protondb.com/app/1465560"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Against_All_Odds"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/against-all-odds/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1465560"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Water's cut. Rent's due. Jobs, scarce. Time to get rich. Enter the Slaughter League & win against all odds in supremely lethal races. Platforming meets slaughter in this casual racing game designed for players looking for a new experience - or wind down with blood & guts galore!
+Are you willing to risk it all in order to be the world’s greatest? Outrun and survive against an onslaught of twisted obstacles in the brutalist game show on the planet. Get dressed up and compete in a diverse lineup of lethal multiplayer modes online or with friends!

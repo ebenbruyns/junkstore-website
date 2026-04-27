@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/20076"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/abzu"
-protondb_url: "https://www.protondb.com/app/384190"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Abz%C3%BB"
+pcgamingwiki_url: ""
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/abzu?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Curry"
 is_featured: false
-owned: false
+owned: true
 ---
 
-From the art director of Journey® and Flower®, ABZÛ is a beautiful underwater adventure that evokes the dream of diving.
+Abzu is an exploration game where you are a lone diver in a lush ocean world. The diver descends deeper and deeper into the depths...

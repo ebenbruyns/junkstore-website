@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/62062"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/maid-of-sker-2ae24e"
-protondb_url: "https://www.protondb.com/app/826940"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Maid_of_Sker"
+pcgamingwiki_url: ""
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/pc/maid-of-sker?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,10 @@ is_featured: false
 owned: true
 ---
 
-Maid of Sker is a first-person survival horror, set in a remote hotel with a gory and macabre history from British folklore. Brave the nightmares of the Quiet Ones. Do not panic…don’t even breathe!
+Maid of Sker is a first-person survival horror, set in a remote hotel with a macabre history from Welsh folklore. Brave the nightmares of the Quiet Men. When they arrive, do not panic — don't even breathe.
+
+Featuring realistic 4k visuals with gameplay focused on story, exploration and no-weapon survival tactics. Experience a multiple thread narrative where your decisions matter, unlocking different story paths and multiple endings.
+
+A 3D sound based AI system is the core survival gameplay mechanic. Hide, run, creep, trap and distract are some of the techniques you need to master to survive enemies with super hearing. As you progress, enemies become more difficult to avoid, to the point where standing still and holding your breath is the only option!
+
+Time it correctly and you’re safe, for now. Run out of breath and — suffer.

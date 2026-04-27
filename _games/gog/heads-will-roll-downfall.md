@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/139148"
 
 # Links
 store_url: "https://www.gog.com/en/game/heads_will_roll_downfall"
-protondb_url: "https://www.protondb.com/app/1903060"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

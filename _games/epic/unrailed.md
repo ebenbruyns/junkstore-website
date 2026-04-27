@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/73803"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/unrailed-e19729"
-protondb_url: "https://www.protondb.com/app/1016920"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Unrailed!"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/unrailed!?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Unrailed! is a co-op multiplayer game where you have to work together with your friends to build a train track across endless procedurally generated worlds. Master random encounters with its inhabitants, upgrade your train and keep it from derailing!
+Unrailed! is all about getting an unstoppable train safely to the station through a variety of procedurally generated maps, both weird and wonderful in online multiplayer, local multiplayer or versus mode.

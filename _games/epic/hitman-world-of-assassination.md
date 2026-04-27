@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/102780"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hitman-3"
-protondb_url: "https://www.protondb.com/app/1659040"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hitman:_World_of_Assassination"
+pcgamingwiki_url: ""
 metacritic_score: 87
 metacritic_url: "https://www.metacritic.com/game/pc/hitman-3?ftag=MCD-06-10aaa1f"
 
@@ -75,8 +75,7 @@ known_issues:
 # Meta
 database_id: "Eider"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Become Agent 47 in the ultimate spy-thriller adventure across more than 20 locations
-HITMAN World of Assassination brings together the best of HITMAN HITMAN 2 and HITMAN 3 including the main campaign, escalations, elusive target arcades and HITMAN: Freelancer.
+Hitman 3 is the dramatic conclusion to the World of Assassination trilogy. Become Agent 47, a legendary assassin and use creativity and improvisation to execute the most ingenious and spectacular eliminations

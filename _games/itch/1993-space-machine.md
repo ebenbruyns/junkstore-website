@@ -3,7 +3,7 @@ layout: game-page
 title: "1993 Space Machine - Steam Deck Compatibility"
 game_title: "1993 Space Machine"
 slug: "1993-space-machine"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/1993-space-machine/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://aurora-punks.itch.io/1993-space-machine"
-protondb_url: "https://www.protondb.com/app/373480"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/1993_Space_Machine"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

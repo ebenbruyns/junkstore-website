@@ -18,7 +18,7 @@ publisher: Electronic Arts, Inc.
 developer: Electronic Arts
 genre: Shooter
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "March 2, 2004"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/25775"
 store_url: "https://www.gog.com/en/game/medal_of_honor_allied_assault_war_chest"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Medal_of_Honor%3A_Allied_Assault"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/medal-of-honor-allied-assault-war-chest/"
 

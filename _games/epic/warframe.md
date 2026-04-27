@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11037"
 
 # Links
 store_url: "https://www.pcgamingwiki.com/wiki/Warframe"
-protondb_url: "https://www.protondb.com/app/230410"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://store.epicgames.com/en-US/p/warframe"
+pcgamingwiki_url: ""
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/pc/warframe?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Warring factions have brought the Origin System to the brink of destruction. Join the Tenno and defend an ever-expanding universe. Master your Warframe, build your Arsenal and become an unstoppable force in this genre-defining looter-shooter.
+Warframe situates players as members of the Tenno race, newly awoken after years of cryo-sleep into a solar system at war. Reborn into a corrupt era, the Tenno are sought by the oppressive Grineer Empire for annihilation. Warframe armor is the key to overthrowing the Grineer by providing players with unique offensive and defensive powers to explore, upgrade and master during purpose-driven radical raids.

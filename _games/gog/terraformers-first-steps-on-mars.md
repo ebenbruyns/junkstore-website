@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/99695"
 
 # Links
 store_url: "https://www.gog.com/en/game/terraformers_first_steps_on_mars"
-protondb_url: "https://www.protondb.com/app/1557040"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Terraformers"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

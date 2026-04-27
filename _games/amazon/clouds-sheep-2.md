@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/44498"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/439800"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Clouds_%26_Sheep_2"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/clouds-and-sheep-2/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/69307"
 
 # Links
 store_url: "https://www.gog.com/en/game/harold_halibut"
-protondb_url: "https://www.protondb.com/app/924750"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Harold_Halibut"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

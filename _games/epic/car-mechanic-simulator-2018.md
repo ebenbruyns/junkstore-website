@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/48426"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/car-mechanic-simulator-2018"
-protondb_url: "https://www.protondb.com/app/645630"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Car_Mechanic_Simulator_2018"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. Find classic, unique cars in the new Barn Find module and Junkyard module.
+Build and expand your repair service empire in this incredibly detailed and highly realistic simulation game, where attention to car detail is astonishing. Find classic, unique cars in the new Barn Find module and Junkyard module. You can even add your self-made car in the Car Editor.

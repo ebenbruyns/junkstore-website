@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/82170"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/golden-light-f543b3"
-protondb_url: "https://www.protondb.com/app/1245430"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Golden_Light"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Eat weapons, be scared and question your own mind in this Survival-Horror FPS Prop Hunt Roguelike about meat. Walls are watching you!
+Golden Light is a first-person survival horror with rogue-like elements and an eerie atmosphere.

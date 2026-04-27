@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/4867"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/journey"
-protondb_url: "https://www.protondb.com/app/638230"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Journey"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Lemur"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Explore the ancient, mysterious world of Journey as you soar above ruins and glide across sands to discover its secrets. Play alone or in the company of a fellow traveler and explore its vast world together. Featuring stunning visuals and a Grammy-nominated musical score, Jour...
+A third-person adventure game in which the player, controlling a robed figure, makes a pilgrimage through a desert landscape to a rugged mountain

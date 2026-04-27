@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hexguardian-2b0cbe"
-protondb_url: "https://www.protondb.com/app/2381740"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles! Build and upgrade towers, recruit armies, learn spells, construct wonders and place hexagonal tiles to create a path to enhance your defenses
+Hexguardian is a roguelite, tower defense game where you build your own maps with hexagonal tiles! Build and upgrade towers, recruit armies, learn spells, construct wonders and place hexagonal tiles to create a path to enhance your defenses. With plenty of game modes and talents to unlock!

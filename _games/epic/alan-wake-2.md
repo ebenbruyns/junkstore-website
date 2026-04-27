@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/101237"
 store_url: "https://store.epicgames.com/en-US/p/alan-wake-2--deluxe-edition"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alan_Wake_II"
+pcgamingwiki_url: ""
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/alan-wake-ii/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Saga Anderson arrives to investigate ritualistic murders in a small town. Alan Wake pens a dark story to shape the reality around him. These two heroes are somehow connected. Can they become the heroes they need to be?
+Alan Wake 2 marks Remedy Entertainment’s first foray into the survival horror genre. Ritualistic murders in a small town. A writer trapped in a nightmare. An FBI agent looking for answers. Two realities. Two hero characters. One horror story that wants them dead.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/47359"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/witch-it-3624a9"
-protondb_url: "https://www.protondb.com/app/559650"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Witch_It"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Witch It is a multiplayer "hide & seek" game in a living, magical world. Brave hunters seek hidden witches that curse their villages!
+Witch It is a multiplayer hide & seek game set in a humorous, magical world. Brave hunters are tasked with finding the witches that curse their villages!

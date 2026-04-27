@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/38231"
 
 # Links
 store_url: "https://www.gog.com/en/game/obduction"
-protondb_url: "https://www.protondb.com/app/306760"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Obduction"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/obduction?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-A sci-fi adventure from Cyan, the creators of Myst. Abducted far across the universe, you find yourself on a broken alien landscape with odd pieces of Earth. Explore, uncover, solve, and find a way to make it home.
+From Cyan, the indie studio that brought you Myst and Riven comes a whole new adventure that will become your world.
+
+The new worlds of Obduction reveal their secrets only as you explore, coax, and consider them. And as you bask in the otherworldly beauty and explore through the enigmatic landscapes, remember that the choices you make will have substantial consequences. This is your story now.

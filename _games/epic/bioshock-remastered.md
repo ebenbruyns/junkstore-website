@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1065"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bioshock-remastered"
-protondb_url: "https://www.protondb.com/app/409710"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock_Remastered"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/bioshock-the-collection?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Explore the undersea city of Rapture, a haven for society's greatest minds that has devolved into a dystopian nightmare wrought by one man's hubris. Includes Museum of Orphaned Concepts, Challenge Rooms and Director's Commentary - Imagining BioShock.
+BioShock is a shooter unlike any other, loaded with unique weapons and tactics. Complete with an arsenal of revolvers, shotguns, and grenade launchers, players will be forced to genetically modify their DNA to become an even deadlier weapon.

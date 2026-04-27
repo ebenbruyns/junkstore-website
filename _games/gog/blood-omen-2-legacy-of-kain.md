@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1183"
 
 # Links
 store_url: "https://www.gog.com/en/game/legacy_of_kain_blood_omen_2"
-protondb_url: "https://www.protondb.com/app/242960"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legacy_of_Kain%3A_Blood_Omen_2"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/blood-omen-2/"
 

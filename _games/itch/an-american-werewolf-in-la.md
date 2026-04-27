@@ -3,7 +3,7 @@ layout: game-page
 title: "An American Werewolf in LA - Steam Deck Compatibility"
 game_title: "An American Werewolf in LA"
 slug: "an-american-werewolf-in-la"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/an-american-werewolf-in-la/
 
@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://playmedusa.itch.io/american-werewolf-en"
-protondb_url: "https://www.protondb.com/app/2614640"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

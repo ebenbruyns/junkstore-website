@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68274"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/el-hijo-6b63c5"
-protondb_url: "https://www.protondb.com/app/853050"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/El_Hijo_-_A_Wild_West_Tale"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/el-hijo-a-wild-west-tale?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,7 @@ is_featured: false
 owned: true
 ---
 
-"El Hijo - A Wild West Tale" is an exciting spaghetti-western stealth game, in which you guide a 6-year-old boy on his quest to find his mother.
+El Hijo is a spaghetti western, indie stealth game.
+The game is set in a mythical place of the 19th century that very much resembles the American west, as we know it from Sergio Leone‘s westerns, taking some of its most popular characteristics of outlaw gangs, saloons, cunning, sarcasm, irony, etc. There is no indication of a specific time, or place. It could be everywhere and anywhere.
+
+You guide 6-year old boy El Hijo on his quest to find his father, by escaping a monastery, fighting his way through the desert and avoiding monstrous creatures, and outsmarting horrible gangsters in the saloon of a villain town.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/113859"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/electrician-simulator-164e9f"
-protondb_url: "https://www.protondb.com/app/1080020"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Electrician_Simulator"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Take on the electrician role and learn the profession's basics! Install sockets, repair worn-out equipment, assemble broken appliances, replace light bulbs, and lay wires at your customers' homes. Be sure to check everything twice, with electricity there are no jokes!
+Take over the family business from your Dad and become an electrician. Learn the basics and test your skills in the Electrician Simulator. Repair and assemble sockets, panels, strips, plugs, chandeliers and even change light bulbs. Oh... and don't mix up the wires! Results might be shocking.

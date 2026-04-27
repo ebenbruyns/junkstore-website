@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68169"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/carrion"
-protondb_url: "https://www.protondb.com/app/953490"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Carrion"
+pcgamingwiki_url: ""
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/carrion?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "9faa3b0871e44b639d49a209f9405aab"
 is_featured: false
-owned: false
+owned: true
 ---
 
-CARRION is a reverse horror game in which you assume the role of an amorphous creature of unknown origins, stalking and consuming those that imprisoned you.  STALK. CONSUME. GROW. EVOLVE.
+Carrion is a reverse horror game in which you assume the role of an amorphous alien being. Use your unique otherworldly abilities to hunt down your prey!

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/86977"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/toem"
-protondb_url: "https://www.protondb.com/app/1307580"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/TOEM"
+pcgamingwiki_url: ""
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/toem?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,5 @@ is_featured: false
 owned: true
 ---
 
-Set off on a delightful expedition and use your photographic eye to uncover the mysteries of the magical TOEM in this hand-drawn adventure game. Chat with quirky characters and solve their problems by snapping neat photos!
+An aesthetic adventure with the premise of enjoying the little things!
+Toem is an adventure game, it aims to capture the curiosity of a child! Should I go left, right, who cares I'm on an adventure! Your smile, that's what's important to us.

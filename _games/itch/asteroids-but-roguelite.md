@@ -3,7 +3,7 @@ layout: game-page
 title: "Asteroids... But Roguelite - Steam Deck Compatibility"
 game_title: "Asteroids... But Roguelite"
 slug: "asteroids-but-roguelite"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/asteroids-but-roguelite/
 
@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://ghostgoats.itch.io/asteroids-but-roguelite"
-protondb_url: "https://www.protondb.com/app/1392790"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

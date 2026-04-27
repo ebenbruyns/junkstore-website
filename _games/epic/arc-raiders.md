@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/101424"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/arc-raiders"
-protondb_url: "https://www.protondb.com/app/1808500"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ARC_Raiders"
+pcgamingwiki_url: ""
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/arc-raiders/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "20f01ab5e0fa4e798c6d58eeb8d86989"
 is_featured: false
-owned: false
+owned: true
 ---
 
-ARC Raiders is an upcoming multiplayer, extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.
+ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.

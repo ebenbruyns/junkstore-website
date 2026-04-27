@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3160"
 
 # Links
 store_url: "https://www.gog.com/en/game/eschalon_book_ii"
-protondb_url: "https://www.protondb.com/app/25620"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eschalon:_Book_II"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/eschalon-book-ii/"
 

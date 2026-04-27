@@ -18,7 +18,7 @@ publisher: Focus Entertainment
 developer: Asobo Studio
 genre: Role-playing (RPG), Adventure
 franchise: A Plague Tale
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "May 14, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/65080"
 
 # Links
 store_url: "https://www.gog.com/en/game/a_plague_tale_innocence"
-protondb_url: "https://www.protondb.com/app/752590"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Plague_Tale:_Innocence"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/a-plague-tale-innocence?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Follow the grim tale of young Amicia and her little brother Hugo, in a heartrending journey through the darkest hours of history. Hunted by Inquisition soldiers and surrounded by unstoppable swarms of rats, they will come to know and trust each other.
+A Plague Tale: Innocence, on PlayStation 4, Xbox One and PC, tells the grim story of two siblings fighting together for survival in the darkest hours of History. This new video game from Asobo Studio sends you on an emotional journey through 14th-century France, with gameplay combining adventure, action and stealth, supported by a compelling story. Follow the young Amicia and her little brother Hugo, who face the brutality of a ravaged world as they discover their purpose to expose a dark secret. On the run from the Inquisition's soldiers, surrounded by unstoppable swarms of rats incarnating the Black Death, Amicia and Hugo will learn to know and trust each other as they struggle for their lives against all odds.

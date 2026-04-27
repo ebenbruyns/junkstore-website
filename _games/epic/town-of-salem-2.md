@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/130128"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/town-of-salem-2-ab6497"
-protondb_url: "https://www.protondb.com/app/2140510"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Step into the Town of Salem, a realm of Mystery and Deceit awaits! Join us in this thrilling online strategy game. Experience paranoia, taste triumph, and confront Murder in every move!
+Town of Salem 2 is the sequel to BlankMediaGames' hit Murder Mystery game, Town of Salem. With a revitalized 3d world, new and reworked roles, improved chat features and much more you can't help but join the Witch Hunt!
+
+Town of Salem 2 pits the Town vs the Coven, Serial Killers, Arsonist, Werewolves, and even the Horsemen of the Apocalypse themselves. Can you survive the Town of Salem again? Use your wits, abilities of deduction, and your role's special abilities to help, or hurt, the Town and lead your side to victory!

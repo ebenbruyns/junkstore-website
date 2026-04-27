@@ -18,7 +18,7 @@ publisher: Deep Silver, Deep Silver
 developer: 4A Games
 genre: Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "August 26, 2014"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Czech","Dutch","Polish","Russian*","Ukrainian**languages with full audio support"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/20883"
 
 # Links
 store_url: "https://www.gog.com/en/game/metro_last_light_redux"
-protondb_url: "https://www.protondb.com/app/287390"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Metro:_Last_Light_Redux"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/metro-last-light-redux?ftag=MCD-06-10aaa1f"
 

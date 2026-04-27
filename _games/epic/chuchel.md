@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/53975"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/chuchel-203808"
-protondb_url: "https://www.protondb.com/app/711660"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Chuchel"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/chuchel?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-CHUCHEL is a comedy adventure game from the creators of Machinarium, Botanicula and Samorost. Join the hairy hero Chuchel and his rival Kekel as they will be facing numerous puzzles and challenges in their quest to retrieve the precious cherry!
+CHUCHEL is a comedy adventure game from the creators of Machinarium, Botanicula and Samorost. Help Chuchel to chase down the mysterious villain and retrieve his cherished cherry! The reward? A hearty situational humor, wild music and hilarious animations that warm up even the coldest of souls

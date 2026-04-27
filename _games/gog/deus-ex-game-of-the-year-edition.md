@@ -18,7 +18,7 @@ publisher: Square Enix
 developer: Ion Storm
 genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 16
+age_rating_summary: ESRB 17
 release_date: "June 22, 2000"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/2486"
 
 # Links
 store_url: "https://www.gog.com/en/game/deus_ex"
-protondb_url: "https://www.protondb.com/app/6910"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex"
+pcgamingwiki_url: ""
 metacritic_score: 90
 metacritic_url: "https://www.metacritic.com/game/pc/deus-ex?ftag=MCD-06-10aaa1f"
 

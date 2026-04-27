@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/131141"
 
 # Links
 store_url: "https://www.gog.com/en/game/south_scrimshaw_part_one"
-protondb_url: "https://www.protondb.com/app/2443110"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

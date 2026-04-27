@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/156481"
 
 # Links
 store_url: "https://www.gog.com/en/game/necroking"
-protondb_url: "https://www.protondb.com/app/2852980"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

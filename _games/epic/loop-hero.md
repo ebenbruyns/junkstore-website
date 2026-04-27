@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/86112"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/loop-hero"
-protondb_url: "https://www.protondb.com/app/1282730"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Loop_Hero"
+pcgamingwiki_url: ""
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/loop-hero?ftag=MCD-06-10aaa1f"
 

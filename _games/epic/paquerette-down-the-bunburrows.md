@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/132419"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/paquerette-down-the-bunburrows-2fd777"
-protondb_url: "https://www.protondb.com/app/1628610"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The buns... you HAVE to capture them!! Think outside the bunburrow or get outsmarted by bunnies in this cute pathfinding-based puzzle game!
+Pâquerette Down the Bunburrows is a pathfinding-based bunny-catching puzzle game. The bunnies flee when Pâquerette gets too close: they dash through tunnels carefully avoiding dead ends. Will you let the lil buns outsmart you? Each level is carefully crafted to teach you new, surprising and tricky ways of catching bunnies~

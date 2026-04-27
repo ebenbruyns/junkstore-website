@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57334"
 
 # Links
 store_url: "https://www.gog.com/en/game/neo_cab"
-protondb_url: "https://www.protondb.com/app/794540"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neo_Cab"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/neo-cab?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,6 @@ is_featured: true
 owned: true
 ---
 
-A visual novel about emotional survival in an automated world. Play as Lina, the last human cab driver. It’s your first night driving the lonely streets of Los Ojos, and your best friend has just disappeared. Stay on the road. Stay on the search. Stay human.
+Neo Cab is an emotional survival game about staying human in a world disrupted by automation.
+
+You play as Lina, the last human driver on the neon-drenched streets of Los Ojos. When your friend and only lifeline mysteriously vanishes, you'll need to use wits and empathy to survive. Choose your passengers— and your words— wisely. If you can balance your cash, star rating and emotional health, you might just keep your job long enough to find her.

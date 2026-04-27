@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/80051"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/shapez-0929c9"
-protondb_url: "https://www.protondb.com/app/1318690"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shapez"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-shapez is a game about building factories to automate the creation and processing of increasingly complex shapes across an infinitely expanding map.
+Shapez is a game about building factories to automate the creation and combination of increasingly complex shapes within an infinite map.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/113035"
 
 # Links
 store_url: "https://www.gog.com/en/game/flashout_3d_enhanced_edition"
-protondb_url: "https://www.protondb.com/app/2022780"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Flashout_3D:_Enhanced_Edition"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/flashout-3d-enhanced-edition/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/101772"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/scarf-dd1030"
-protondb_url: "https://www.protondb.com/app/645320"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Scarf"
+pcgamingwiki_url: ""
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/scarf-2021/"
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Scarf is an atmospheric and emotional journey about what it means to be a hero. An adventure game mixing puzzles and 3D platforms. Explore beautifully crafted worlds and discover your true destiny with the help of a dragon-shaped scarf.
+Scarf is a 3D Adventure game, where protagonist Hyke must use his polymorphic scarf to explore a magical environment, solve mysterious puzzles and overcome difficult challenges. Hyke’s scarf morphs into different objects which will help to progress the adventure. Hyke was born in an unknown place, surrounded by other souls. All of them will start a path through the World with the main goal being to meld with it and become part of nature.
+
+"Mixing walking simulator and 3D platformers, Scarf is an atmospheric and emotional journey about what it means to be a hero. Travel to three beautiful crafted worlds and discover your true destiny."

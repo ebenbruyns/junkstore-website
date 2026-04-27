@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/21586"
 
 # Links
 store_url: "https://www.gog.com/en/game/styx_master_of_shadows"
-protondb_url: "https://www.protondb.com/app/242640"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Styx:_Master_of_Shadows"
+pcgamingwiki_url: ""
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/styx-master-of-shadows?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age.
+Styx: Master of Shadows is an infiltration game with RPG elements taking place in a dark fantasy universe, where you sneak, steal and assassinate your way through as Styx, a Goblin two-centuries of age. Deep inside the vertiginous and multi-layered forsaken Tower of Akenash, where Humans and Elves protect the World-Tree, source of the Amber – a powerful and magical golden sap – is hidden Styx’ chance to understand his true origin... and to make a fortune at the same time.

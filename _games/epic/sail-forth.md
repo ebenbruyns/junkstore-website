@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/78525"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sail-forth-51847e"
-protondb_url: "https://www.protondb.com/app/1031460"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sail_Forth"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Sail a fleet of customizable ships across an ocean whose ancient depths have swallowed the key to the mysterious past. Befriend fishfolk to expand your boat crews, take up arms against petulant pirates, and chart a course across an expansive watery world.
+Heave! Fake the bull rope and stay the mizzen royal! Command a fleet of custom-rigged sailing ships on a procedurally crafted adventure over an unending ocean whose ancient depths have swallowed the key to a planet’s mysterious past. The Deepblue calls with the bellow of High Adventure! Sail Forth!

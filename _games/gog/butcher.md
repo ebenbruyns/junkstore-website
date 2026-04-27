@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/40350"
 
 # Links
 store_url: "https://www.gog.com/en/game/butcher"
-protondb_url: "https://www.protondb.com/app/474210"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Butcher"
+pcgamingwiki_url: ""
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/butcher?ftag=MCD-06-10aaa1f"
 

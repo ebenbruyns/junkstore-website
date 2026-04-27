@@ -18,7 +18,7 @@ publisher: Electronic Arts, Aspyr Media
 developer: Maxis
 genre: strategy, simulator
 franchise: 
-age_rating_summary: ESRB 6 · PEGI 3
+age_rating_summary: ESRB 6
 release_date: "September 22, 2003"
 game_modes: ["Single player","Multiplayer"]
 languages: ["Danish","Dutch","English","French","German","Italian","Spanish - Spain","Swedish"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/27210"
 
 # Links
 store_url: "https://www.gog.com/en/game/simcity_4_deluxe_edition"
-protondb_url: "https://www.protondb.com/app/24780"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SimCity_4"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

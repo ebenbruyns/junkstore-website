@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/71494"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/surviving-the-aftermath"
-protondb_url: "https://www.protondb.com/app/684450"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Surviving_the_Aftermath"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,5 @@ is_featured: false
 owned: true
 ---
 
-Survive and thrive in a post-apocalyptic future — resources are scarce, but opportunity calls! Build the ultimate disaster proof colony, protect your colonists, and restore civilization to a devastated world.
+Survive and thrive in a post-apocalyptic future - resources are scarce but opportunity calls. Build the ultimate disaster proof colony, protect your colonists and restore civilization to a devastated world. Remember: The end of the world is just the beginning.
+Build and manage a colony of survivors after a world-ending event. Construct more than 50 unique buildings to handle everything from resource collection and farming to exploration and security. Don’t forget to construct the Gate to venture into the savage world beyond your colony.

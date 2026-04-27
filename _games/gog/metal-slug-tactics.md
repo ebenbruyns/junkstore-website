@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93937"
 
 # Links
 store_url: "https://www.gog.com/en/game/metal_slug_tactics"
-protondb_url: "https://www.protondb.com/app/1590760"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Metal_Slug_Tactics"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1366624267"
 is_featured: false
-owned: false
+owned: true
 ---
 
 METAL SLUG is back with a brand new entry in the METAL SLUG universe. Discover a new side of the emblematic run'n'gun and jump into a dynamic tactical RPG with roguelike elements!

@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/138060"
 store_url: "https://store.epicgames.com/en-US/p/wuthering-waves-76ebc5"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wuthering_Waves"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Wuthering Waves is a story-rich open-world action RPG with a high degree of freedom. You wake from your slumber as Rover, joined by a vibrant cast of Resonators on a journey to reclaim your lost memories and surmount the Lament.
+Wuthering Waves is a story-rich open-world action RPG. You wake from your slumber as Rover, joined by a vibrant cast of Resonators on a journey to reclaim your lost memories and surmount the Lament.
+
+The game features fast-paced combat with a variety of mechanics such as Extreme Evasion and Dodge Counter. You can also absorb the remaining of the monsters you've defeated and use their power in battles.

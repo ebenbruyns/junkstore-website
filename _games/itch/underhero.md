@@ -3,7 +3,7 @@ layout: game-page
 title: "Underhero - Steam Deck Compatibility"
 game_title: "Underhero"
 slug: "underhero"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/underhero/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://papercastlegames.itch.io/underhero"
-protondb_url: "https://www.protondb.com/app/573320"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Underhero"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

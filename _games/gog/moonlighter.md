@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/56787"
 
 # Links
 store_url: "https://www.gog.com/en/game/moonlighter"
-protondb_url: "https://www.protondb.com/app/606150"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Moonlighter"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/moonlighter/"
 

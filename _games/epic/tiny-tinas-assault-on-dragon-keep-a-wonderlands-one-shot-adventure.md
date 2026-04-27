@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/100017"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure"
-protondb_url: "https://www.protondb.com/app/1712840"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tiny_Tina%27s_Assault_on_Dragon_Keep:_A_Wonderlands_One-Shot_Adventure"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -79,4 +79,3 @@ owned: true
 ---
 
 Smash skeletons, defeat dragons, and battle giant golems in Tiny Tina's Assault on Dragon Keep: A Wonderlands One-Shot Adventure. Experience the acclaimed 2013 quest jam-packed with fantasy, fun, and mountains of magical loot!
-

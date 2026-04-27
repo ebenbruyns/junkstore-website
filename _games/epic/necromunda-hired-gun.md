@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/90106"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/necromunda-hired-gun"
-protondb_url: "https://www.protondb.com/app/1222370"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Necromunda%3A_Hired_Gun"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,13 @@ is_featured: false
 owned: true
 ---
 
-Become a Hired Gun. The money’s good, the dog’s loyal, and the gun’s reliable. Embark on an indie fast-paced, violent, and thrilling FPS set in the darkest reaches of Warhammer 40,000’s most infamous hive city.
+Pick your contracts. Hunt your targets. Collect the bounty.
+
+Navigate an ocean of crime and corruption to balance the bloody ecosystem of Necromunda as a merciless hired gun. The money’s good, the dog’s loyal, and the gun’s reliable – but can you survive the hunt? Necromunda: Hired Gun is an indie fast-paced, violent, and thrilling FPS set in the darkest reaches of Warhammer 40,000’s most infamous hive city.
+
+For the right price, eliminate the most notorious gangers and mutants. Your armory is a sprawling arsenal. Your body is enhanced with a dozen customizable augments to run on walls and leap over chasms. Your cyber-mastiff will sniff out and kill enemies for you, while your grappling hook allows quick, agile traversal of the massive environments.
+
+- An indie fast-paced FPS in the Warhammer 40,000 universe
+- Upgrade and fight alongside your loyal cyber-mastiff
+- Endless weapon and augment customization
+- Upgrade, advance, and level up as you collect bounties

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/39800"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/redout-enhanced-edition"
-protondb_url: "https://www.protondb.com/app/517710"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Redout"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/redout-2016?ftag=MCD-06-10aaa1f"
 
@@ -78,5 +78,4 @@ is_featured: false
 owned: true
 ---
 
-NEXT GENERATION AG RACING IS HERE!
-Redout is a tribute to the classic racing monsters. It is designed to be an uncompromising, fast, tough and satisfying driving experience, soaked in that vertigo that stands at the core of the arcade racing genre.
+Redout is a tribute to the old racing monsters such as F-Zero, WipeOut, Rollcage, and POD. It is designed to be an uncompromising, fast, tough and satisfying driving experience, soaked in that vertigo that stands at the core of the arcade racing genre.

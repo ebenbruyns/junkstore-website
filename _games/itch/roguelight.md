@@ -3,7 +3,7 @@ layout: game-page
 title: "Roguelight - Steam Deck Compatibility"
 game_title: "Roguelight"
 slug: "roguelight"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/roguelight/
 

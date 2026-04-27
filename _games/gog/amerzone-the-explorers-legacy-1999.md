@@ -18,7 +18,7 @@ publisher: Microïds, Anuman Interactive
 developer: Virtual Studio
 genre: Adventure, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: ESRB 6 · PEGI 3
+age_rating_summary: ESRB 6
 release_date: "March 18, 1999"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/434"
 
 # Links
 store_url: "https://www.gog.com/en/game/amerzone_the_explorer_legacy"
-protondb_url: "https://www.protondb.com/app/302190"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amerzone%3A_The_Explorer%27s_Legacy"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/amerzone-the-explorers-legacy-1999/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/70726"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/session-skate-sim"
-protondb_url: "https://www.protondb.com/app/861650"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Session"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Made by and for skaters, dual stick controls faithfully reproduce your feet on the skateboard for an ultra-realistic skateboarding experience. Try out real-life iconic skate spots, customize your skater and equipment with items from the top brands.
+Inspired by the golden era of skateboarding, the early 90s and early 2000, Session's primary goal is to make you experience what skateboarding really is; an incredible sport where there are no other goals other than expressing your creativity and achieving success through hard work, perseverance and bits of madness for no one else other than yourself.

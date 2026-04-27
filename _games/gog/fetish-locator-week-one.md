@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/82686"
 
 # Links
 store_url: "https://www.gog.com/en/game/fetish_locator_week_one"
-protondb_url: "https://www.protondb.com/app/1360980"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fetish_Locator:_Week_One"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

@@ -18,7 +18,7 @@ publisher: Bethesda Softworks
 developer: Bethesda Game Studios
 genre: RPG
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "November 9, 2015"
 game_modes: ["Single-player"]
 languages: ["English*","French*","Italian*","German*","Spanish - Spain*","Polish","Portuguese - Brazil","Russian","Traditional Chinese","Japanese**languages with full audio support"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/49483"
 
 # Links
 store_url: "https://www.gog.com/en/game/fallout_4_game_of_the_year_edition"
-protondb_url: "https://www.protondb.com/app/377160"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_4"
+pcgamingwiki_url: ""
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/fallout-4?ftag=MCD-06-10aaa1f"
 

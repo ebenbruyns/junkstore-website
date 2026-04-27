@@ -3,7 +3,7 @@ layout: game-page
 title: "Sundered - Steam Deck Compatibility"
 game_title: "Sundered"
 slug: "sundered"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/sundered/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://thunderlotus.itch.io/sundered"
-protondb_url: "https://www.protondb.com/app/535480"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sundered"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

@@ -18,7 +18,7 @@ publisher: Square Enix, Eidos Interactive, Eidos Montréal
 developer: Looking Glass Studios
 genre: Adventure, Shooter, Simulator
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 16
+age_rating_summary: ESRB 17
 release_date: "March 21, 2000"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10298"
 
 # Links
 store_url: "https://www.gog.com/en/game/thief_2_the_metal_age"
-protondb_url: "https://www.protondb.com/app/211740"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thief_II%3A_The_Metal_Age"
+pcgamingwiki_url: ""
 metacritic_score: 87
 metacritic_url: "https://www.metacritic.com/game/pc/thief-ii-the-metal-age?ftag=MCD-06-10aaa1f"
 

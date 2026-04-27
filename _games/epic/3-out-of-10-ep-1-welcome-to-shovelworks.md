@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/81609"
 store_url: "https://store.epicgames.com/en-US/p/3-out-of-10-ep-1"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/3_out_of_10"
+pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/3-out-of-10-season-one/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Midge joins Shovelworks Studios as a new animator, but not all is as it seems at the studio.
+Join the ongoing adventures of developers at the world's worst video game studio as they endure antics both absurd and topical. This week Midge joins Shovelworks Studios as a new animator, but not all is as it seems at the studio.

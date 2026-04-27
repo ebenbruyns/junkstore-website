@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/23495"
 
 # Links
 store_url: "https://www.gog.com/en/game/silver_box_classics"
-protondb_url: "https://www.protondb.com/app/2344020"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shadow_Sorcerer"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/advanced-dungeons-and-dragons-shadow-sorcerer/"
 

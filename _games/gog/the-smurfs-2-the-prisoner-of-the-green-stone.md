@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/128830"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_smurfs_2_the_prisoner_of_the_green_stone"
-protondb_url: "https://www.protondb.com/app/2397500"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Smurfs_2%3A_The_Prisoner_of_the_Green_Stone"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

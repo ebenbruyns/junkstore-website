@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/107522"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/backpack-hero-449c5e"
-protondb_url: "https://www.protondb.com/app/1970580"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Backpack_Hero"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/backpack-hero?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The inventory management roguelike! Collect rare items, organize your backpack, and vanquish your foes!
+Backpack Hero is the inventory management roguelike! Collect rare items, organize your bag, and vanquish your foes!

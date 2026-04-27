@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1066"
 
 # Links
 store_url: "https://www.gog.com/en/game/bioshock_2_remastered"
-protondb_url: "https://www.protondb.com/app/409720"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock_2_Remastered"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/bioshock-2-remastered/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-See Rapture through the eyes of Subject Delta, a fearsome Big Daddy prototype on a life-or-death mission to rescue his missing Little Sister. Includes Minerva’s Den and Protector Trials.
+In BioShock 2, you step into the boots of the most iconic denizen of Rapture, the Big Daddy, as you explore through the decrepit and beautiful fallen city, chasing an unseen foe in search of answers and your own survival.

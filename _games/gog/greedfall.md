@@ -18,7 +18,7 @@ publisher: Focus Entertainment
 developer: Spiders
 genre: Role-playing (RPG), Adventure, Strategy
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "September 9, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/62519"
 
 # Links
 store_url: "https://www.gog.com/en/game/greedfall"
-protondb_url: "https://www.protondb.com/app/606880"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/GreedFall"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/greedfall?ftag=MCD-06-10aaa1f"
 

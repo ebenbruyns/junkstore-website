@@ -3,7 +3,7 @@ layout: game-page
 title: "Magnibox - Steam Deck Compatibility"
 game_title: "Magnibox"
 slug: "magnibox"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/magnibox/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://josephgribbin.itch.io/magnibox"
-protondb_url: "https://www.protondb.com/app/999410"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Magnibox"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

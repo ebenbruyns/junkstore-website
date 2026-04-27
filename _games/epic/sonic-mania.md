@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/38916"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sonic-mania"
-protondb_url: "https://www.protondb.com/app/584400"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sonic_Mania"
+pcgamingwiki_url: ""
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/sonic-mania?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "818447bb519b46d48d365d5753362796"
 is_featured: false
-owned: false
+owned: true
 ---
 
-The ultimate celebration of past and future. An all-new adventure full of unique bosses, rolling 2D landscapes, and fun classic gameplay. Sonic Mania brings retro fast-paced platforming into the future through pixel perfect 2D graphics running at 60FPS.
+Experience the ultimate celebration of past and future in Sonic Mania! Re-live the Sonic of the past with an exciting new twist on classic zones

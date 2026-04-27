@@ -14,7 +14,7 @@
     "abz.json",
     "adios.json",
     "aer-memories-of-old.json",
-    "aerialknights-never-yield.json",
+    "aerial-knights-never-yield.json",
     "against-all-odds.json",
     "ak-xolotl-together.json",
     "alan-wake-2.json",
@@ -420,7 +420,7 @@
     "tom-clancys-rainbow-six-extraction.json",
     "tomak-save-the-earth-regeneration.json",
     "tomb-raider-game-of-the-year-edition.json",
-    "tony-hawks-pro-skater-12.json",
+    "tony-hawks-pro-skater-1-2.json",
     "total-war-pharaoh-dynasties.json",
     "total-war-three-kingdoms.json",
     "totally-reliable-delivery-service.json",
@@ -475,69 +475,5 @@
     "zero-hour.json",
     "zoeti.json",
     "zombie-army-4-dead-war.json"
-  ],
-  "featured_games": 1,
-  "last_updated": "2026-04-26T08:52:53.596Z",
-  "latest_games": [
-    {
-      "title": "DOOMBLADE",
-      "slug": "doomblade",
-      "date_tested": "April '26",
-      "is_featured": true
-    },
-    {
-      "title": "Trackmania",
-      "slug": "trackmania",
-      "date_tested": "Sep '24",
-      "is_featured": false
-    },
-    {
-      "title": "20 Minutes Till Dawn",
-      "slug": "20-minutes-till-dawn",
-      "date_tested": "July '25",
-      "is_featured": false
-    },
-    {
-      "title": "[REDACTED]",
-      "slug": "redacted",
-      "date_tested": "Dec '24",
-      "is_featured": false
-    },
-    {
-      "title": "3 out of 10, Ep. 1: \"Welcome to Shovelworks\"",
-      "slug": "3-out-of-10-ep-1-welcome-to-shovelworks",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "911 Operator",
-      "slug": "911-operator",
-      "date_tested": "July '25",
-      "is_featured": false
-    },
-    {
-      "title": "A Plague Tale: Innocence",
-      "slug": "a-plague-tale-innocence",
-      "date_tested": "Dec '25",
-      "is_featured": false
-    },
-    {
-      "title": "Aerial_Knight's Never Yield",
-      "slug": "aerialknights-never-yield",
-      "date_tested": "Aug '24",
-      "is_featured": false
-    },
-    {
-      "title": "Adios",
-      "slug": "adios",
-      "date_tested": "Aug '25",
-      "is_featured": false
-    },
-    {
-      "title": "Alba - A Wildlife Adventure",
-      "slug": "alba-a-wildlife-adventure",
-      "date_tested": "Sept '25",
-      "is_featured": false
-    }
   ]
 }

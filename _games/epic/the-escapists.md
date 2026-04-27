@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/15198"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-escapists"
-protondb_url: "https://www.protondb.com/app/298630"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Escapists"
+pcgamingwiki_url: ""
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/the-escapists?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-You’ve landed yourself in prison again, and your only chance is to engineer an escape by any means necessary. How you do it is up to you! Why not cause a prison riot? Or dig a tunnel right under the walls of the prison? Or even steal a guard uniform to blend in with your captors?
+All that stands between you and your freedom is a perfectly executed escape plan. The Escapists provides players the opportunity of experiencing a light-hearted insight into everyday prison life with the main objective being that of breaking out.

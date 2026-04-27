@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/66152"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/a-short-hike"
-protondb_url: "https://www.protondb.com/app/1055540"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Short_Hike"
+pcgamingwiki_url: ""
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/a-short-hike/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "d6407c9e6fd54cb492b8c6635480d792"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak. Follow the trails or explore the backcountry as you make your way to the summit. Along the way, meet other hikers, discover hidden treasures, and take in the world around you
+Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak Provincial Park as you make your way to the summit.

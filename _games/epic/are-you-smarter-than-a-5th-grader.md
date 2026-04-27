@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/118851"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/are-you-smarter-than-a-5th-grader-bc328a"
-protondb_url: "https://www.protondb.com/app/1521160"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Are_You_Smarter_Than_a_5th_Grader%3F_%282022%29"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Based on the popular TV franchise, this charming couch co-op quiz game for 1-8 players will have you face more than 6800 fully English-voiced questions. Prove how much you still know from school and that you are, in fact, smarter than a 5th grader.
+The Are You Smarter Than A 5th Grader? Plug-and-Play game is is based off the game show of the same name. It was released in 2006 by Jakks Pacific.

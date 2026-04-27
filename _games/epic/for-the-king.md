@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45024"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/for-the-king"
-protondb_url: "https://www.protondb.com/app/527230"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/For_the_King"
+pcgamingwiki_url: ""
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/for-the-king?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Discus"
 is_featured: false
-owned: false
+owned: true
 ---
 
-For The King is a challenging blend of strategy, turn-based combat, and roguelike elements. Each playthrough is unique with procedural maps, quests, and events. Explore Fahrul in either single player, local, or online co-op.
+For The King is a turn based roguelike, RPG that can be played solo or cooperatively online and features strategic adventuring, turn based combat, and persistent choices.

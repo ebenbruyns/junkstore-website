@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/98455"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deaths-gambit-afterlife-b5f411"
-protondb_url: "https://www.protondb.com/app/356650"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death%27s_Gambit"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/deaths-gambit-afterlife?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Death's Gambit: Afterlife is a challenging 2D action platformer with deep RPG elements. As an agent of Death bound to his service, unravel the mystery of Siradon and discover the true price of immortality.
+Death's Gambit is a challenging Action-RPG where you explore an alien medieval planet filled with beasts, knights, and horrors.
+
+Climb big creatures that will test your resolve. Fight dangerous monsters that will make you think outside the box.

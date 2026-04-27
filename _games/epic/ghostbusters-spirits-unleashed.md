@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ghostbusters-spirits-unleashed"
-protondb_url: "https://www.protondb.com/app/2383990"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghostbusters%3A_Spirits_Unleashed"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,5 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Hunting or haunting! The choice is yours in the upcoming asymmetrical Ghostbusters game from IllFonic, Ghostbusters: Spirits Unleashed. Play with up to four friends or solo on multiple platforms.
-
+An all-ages take on its brand of four-versus-one asymmetric multiplayer games, where you play as your own original Ghostbusters team — or take on the role of a ghost hellbent on wreaking haunted havoc.

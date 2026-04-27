@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/109101"
 store_url: "https://store.epicgames.com/en-US/p/zenless-zone-zero-c7c151"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Zenless_Zone_Zero"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/zenless-zone-zero/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93683"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bramble-the-mountain-king-c0d1c6"
-protondb_url: "https://www.protondb.com/app/1623940"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bramble:_The_Mountain_King"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/bramble-the-mountain-king/"
 
@@ -78,4 +78,8 @@ is_featured: false
 owned: true
 ---
 
-Bramble The Mountain King is a grim adventure set in a world inspired by dark, Nordic fables. Explore the beautiful yet dangerous and twisted land of Bramble, traverse a wondrous landscape and survive deadly encounters with Bramble's many hideous creatures.
+Bramble: The Mountain King is a grim adventure set in a world inspired by dark, Nordic fables.
+
+Explore the beautiful yet dangerous and twisted land of Bramble in your endeavour to rescue your sister. Traverse a wondrous landscape and survive deadly encounters with Bramble's many hideous creatures.
+
+Not everything in Bramble is exactly how it seems - in this strange land with creatures big and small, you must be careful when to approach and when to hide. Many hungry and spiteful beasts lurk in these forests and caves. Watch your step....

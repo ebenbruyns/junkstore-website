@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/51203"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/city-of-brass"
-protondb_url: "https://www.protondb.com/app/301840"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/City_of_Brass"
+pcgamingwiki_url: ""
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/pc/city-of-brass?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,5 @@ is_featured: false
 owned: true
 ---
 
-Become a daring thief in City of Brass, a first-person action adventure from senior BioShock developers.  
+Armed with scimitar and versatile whip, lash, slash, trick and trap
+your way through the City of Brass, a first-person rogue-lite of treasure, snares and ghoulish foes.

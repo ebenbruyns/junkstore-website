@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/25807"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/samorost-3-0c4489"
-protondb_url: "https://www.protondb.com/app/421120"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Samorost_3"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/samorost-3?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Samorost 3 follows a curious space gnome who uses the powers of a magic flute to travel across the cosmos in search of its mysterious origins. Visit nine unique and alien worlds teeming with colorful challenges, creatures and surprises to discover.
+Samorost 3 is an exploration adventure and puzzle game from the award-winning creators of Machinarium and Botanicula. Travel across space to nine unique worlds teeming with colorful challenges, creatures and surprises to discover, brought to life with beautiful artwork, sound and music.

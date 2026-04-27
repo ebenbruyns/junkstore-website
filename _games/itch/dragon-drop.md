@@ -3,7 +3,7 @@ layout: game-page
 title: "Dragon Drop - Steam Deck Compatibility"
 game_title: "Dragon Drop"
 slug: "dragon-drop"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/dragon-drop/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://cloudygamesllc.itch.io/dragon-drop"
-protondb_url: "https://www.protondb.com/app/1581500"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dragon_Drop"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

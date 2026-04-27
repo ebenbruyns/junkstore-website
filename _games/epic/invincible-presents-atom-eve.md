@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/132002"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/atom-eve-ff090d"
-protondb_url: "https://www.protondb.com/app/2060870"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Invincible_Presents%3A_Atom_Eve"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -79,3 +79,5 @@ owned: true
 ---
 
 Become Atom Eve and take control of your own path as one of the most powerful superheroes in the Invincible universe! Unravel a mystery and balance the dangers and responsibilities of being a superhero with the relatable challenges of everyday life.
+
+Experience an original story with striking art directed by Rossi Gifford and creative direction by award-winning writer Jill Murray, and explore the life of Atom Eve in a world filled with beloved characters. Based on the comic book by Robert Kirkman, Cory Walker, and Ryan Ottley.

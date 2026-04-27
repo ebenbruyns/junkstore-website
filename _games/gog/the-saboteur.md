@@ -18,7 +18,7 @@ publisher: Electronic Arts
 developer: Pandemic Studios
 genre: role-playing, adventure, shooter, tactical
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "November 1, 2009"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10157"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_saboteur"
-protondb_url: "https://www.protondb.com/app/24880"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Saboteur"
+pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/the-saboteur/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1403000599"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Experience the ultimate open-world action/adventure as The Saboteur. Fight, climb, and race your way through a uniquely stylized version of Nazi-occupied France...

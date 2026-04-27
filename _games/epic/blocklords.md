@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/137876"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/blocklords-2a2ccd"
-protondb_url: "https://www.protondb.com/app/1278420"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-BLOCKLORDS is a player-driven grand strategy game by MetaKing Studios. Rule, conquer, and grow with your medieval Hero Now!
+Blocklords is a player-driven grand strategy game by MetaKing Studios. Rule, conquer, and grow with your medieval Hero.

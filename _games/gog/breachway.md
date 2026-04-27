@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/148225"
 
 # Links
 store_url: "https://www.gog.com/en/game/breachway"
-protondb_url: "https://www.protondb.com/app/2118810"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1263094765"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Assemble your crew, load out your ship, and explore the galaxy in this deck-building space roguelike. Your deck is determined by your spaceship's loadout, mix and match equipment to discover different powerful card synergies, and obliterate your enemies in tactical space battles

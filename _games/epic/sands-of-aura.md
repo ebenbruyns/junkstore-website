@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/99489"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sands-of-aura"
-protondb_url: "https://www.protondb.com/app/1119840"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sands_of_Aura"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Sands of Aura is an open-world adventure set in a world buried beneath a sea of sand. Sail across the sandseas to return life to a dying world in an unforgettable experience that is equal parts engaging story and unrelenting, souls-like combat.
+A powerful spell has turned a lush world into a sea of liquid sand. You must navigate between the ruins – delving deep into dungeons, fighting off the evil that lurks within them, acquiring powerful equipment, and uncovering the history beneath the sand.

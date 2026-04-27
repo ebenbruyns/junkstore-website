@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/6962"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_penumbra_collection"
-protondb_url: "https://www.protondb.com/app/22120"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Penumbra:_Black_Plague"
+pcgamingwiki_url: ""
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/penumbra-black-plague?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1207662743"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Surrounded by enemies and assaulted by terror from all sides, Philip must collect clues and solve vexing puzzles while combating the gnawing psychological terrors that assail his mind

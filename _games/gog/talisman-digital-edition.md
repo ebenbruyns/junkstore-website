@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/17600"
 
 # Links
 store_url: "https://www.gog.com/en/game/talisman_digital_edition"
-protondb_url: "https://www.protondb.com/app/247000"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Talisman%3A_Digital_Edition"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

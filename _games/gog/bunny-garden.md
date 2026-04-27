@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/147423"
 
 # Links
 store_url: "https://www.gog.com/en/game/bunny_garden"
-protondb_url: "https://www.protondb.com/app/2654470"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bunny_Garden"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1184941116"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Enjoy a conversation with the cast while having a drink! This is a dating sim adventure game that takes place in a gentlemen's haven called "Bunny Garden".

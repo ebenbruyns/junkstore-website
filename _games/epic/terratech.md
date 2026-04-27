@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/28607"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/terratech-02ab0a"
-protondb_url: "https://www.protondb.com/app/285920"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/TerraTech"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-TerraTech is an open-world, sandbox adventure game, where you design & build your own creations through a mix of crafting, combat and discovery. Design vehicles from a huge library of blocks. Scavenge, craft & buy new parts to survive and become the ultimate planetary prospector.
+As a prospector starting out on a procedurally generated exo-planet, TerraTech is a galactic exploration game where you need to build an empire from the ground up. Design your own fleet of unique vehicles and take them into battle, and you shape your journey the way you want to, researching the technologies you want and allying yourself with various corporations to create a burgeoning fleet in the lawless frontier of space.

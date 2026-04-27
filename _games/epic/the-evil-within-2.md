@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/46568"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-evil-within-2"
-protondb_url: "https://www.protondb.com/app/601430"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Evil_Within_2"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/the-evil-within-2?ftag=MCD-06-10aaa1f"
 
@@ -78,6 +78,6 @@ is_featured: false
 owned: true
 ---
 
-To save his daughter, Detective Sebastian Castellanos returns to a world of nightmares in The Evil Within 2. 
- 
-Fight for your life inside a terrifying reality using weapons, traps and stealth in this survival horror follow-up from Tango Gameworks.
+The Evil Within 2 is the latest evolution of survival horror. Detective Sebastian Castellanos has lost it all. But when given a chance to save his daughter, he must descend once more into the nightmarish world of STEM.
+
+Horrifying threats emerge from every corner as the world twists and warps around him. Will Sebastian face adversity head on with weapons and traps, or sneak through the shadows to survive.

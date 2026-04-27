@@ -18,7 +18,7 @@ publisher: Activision, Electronic Arts, LucasArts
 developer: Pandemic Studios, Savage Entertainment
 genre: Shooter
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "October 31, 2005"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English**languages with full audio support"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/9098"
 
 # Links
 store_url: "https://www.gog.com/en/game/star_wars_battlefront_ii"
-protondb_url: "https://www.protondb.com/app/6060"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars:_Battlefront_II"
+pcgamingwiki_url: ""
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/star-wars-battlefront-ii?ftag=MCD-06-10aaa1f"
 

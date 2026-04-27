@@ -3,7 +3,7 @@ layout: game-page
 title: "Arachnowopunk - Steam Deck Compatibility"
 game_title: "Arachnowopunk"
 slug: "arachnowopunk"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/arachnowopunk/
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/86020"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-spirit-and-the-mouse-42390b"
-protondb_url: "https://www.protondb.com/app/1679210"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Spirit_and_the_Mouse"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Bring kindness and light to the people of Sainte-et-Claire as Lila—a tiny mouse with a big heart! Explore a quaint French village, make electrifying new friends, and do good deeds for those in need in this lush narrative adventure game.
+Bring kindness and light to the people of Sainte-et-Claire as Lila - a tiny mouse with a big heart! Explore a quaint French village, make electrifying new friends, and do good deeds for those in need in this lush narrative adventure game.

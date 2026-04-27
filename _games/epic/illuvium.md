@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Stranded on Illuvium—build your dream squad and conquer the Arena in a thrilling auto-battler!
+Step into the adrenaline-fueled Arena, where strategy and action converge. Whether facing the relentless waves of Illuvials in the Survival Arena or outwitting foes in competitive duels in the Ascendant Arena.
+
+Illuvium: Overworld will be an expansive third-person RPG set within a diverse and dynamic open world. Across this alien terrain, mystical creatures lurk—each with potent abilities. Craft gear to explore, collect precious resources, and empower your team. Every decision shapes your path, carving out your legacy in the wilds of an alien world.

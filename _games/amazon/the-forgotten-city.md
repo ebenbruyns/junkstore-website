@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/52194"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/874260"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Forgotten_City"
+pcgamingwiki_url: ""
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/the-forgotten-city?ftag=MCD-06-10aaa1f"
 

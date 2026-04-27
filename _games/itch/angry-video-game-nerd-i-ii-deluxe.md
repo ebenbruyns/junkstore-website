@@ -3,7 +3,7 @@ layout: game-page
 title: "Angry Video Game Nerd I & II Deluxe - Steam Deck Compatibility"
 game_title: "Angry Video Game Nerd I & II Deluxe"
 slug: "angry-video-game-nerd-i-ii-deluxe"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/angry-video-game-nerd-i-ii-deluxe/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://jhm28mario.itch.io/avgn-the-game"
-protondb_url: "https://www.protondb.com/app/1162960"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Angry_Video_Game_Nerd_I_%26_II_Deluxe"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

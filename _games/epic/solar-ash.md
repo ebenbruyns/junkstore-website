@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/66727"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/solar-ash"
-protondb_url: "https://www.protondb.com/app/1867530"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Solar_Ash"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1867530"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Journey through a surreal, vivid and highly stylized world filled with mystery, wild high-speed traversal...

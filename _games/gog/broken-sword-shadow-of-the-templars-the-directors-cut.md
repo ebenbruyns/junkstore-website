@@ -18,7 +18,7 @@ publisher: Kalypso Media, Ubisoft, Revolution Software
 developer: Revolution Software
 genre: Adventure, Puzzle, Point-and-click
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "March 19, 2009"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1338"
 
 # Links
 store_url: "https://www.gog.com/en/game/broken_sword_shadow_of_the_templars_reforged"
-protondb_url: "https://www.protondb.com/app/57640"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Broken_Sword:_Shadow_of_the_Templars:_Director%27s_Cut"
+pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/broken-sword-shadow-of-the-templars/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/80375"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/1002000"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spitlings"
+pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/spitlings?ftag=MCD-06-10aaa1f"
 

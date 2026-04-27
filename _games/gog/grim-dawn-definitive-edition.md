@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11847"
 
 # Links
 store_url: "https://www.gog.com/en/game/grim_dawn_definitive_edition"
-protondb_url: "https://www.protondb.com/app/219990"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Grim_Dawn"
+pcgamingwiki_url: ""
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/grim-dawn?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "2023885455"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Enter an apocalyptic fantasy world where humanity is on the brink of extinction, iron is valued above gold and trust is hard earned. This ARPG features complex character development, hundreds of unique items, crafting and quests with choice & consequence.

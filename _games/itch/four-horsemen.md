@@ -3,7 +3,7 @@ layout: game-page
 title: "Four Horsemen - Steam Deck Compatibility"
 game_title: "Four Horsemen"
 slug: "four-horsemen"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/four-horsemen/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://nuclearfishinsoftware.itch.io/four-horsemen"
-protondb_url: "https://www.protondb.com/app/668200"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Four_Horsemen"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

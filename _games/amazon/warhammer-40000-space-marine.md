@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11050"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/55150"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40,000:_Space_Marine"
+pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/pc/warhammer-40000-space-marine?ftag=MCD-06-10aaa1f"
 

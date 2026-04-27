@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/41486"
 
 # Links
 store_url: "https://www.gog.com/en/game/book_of_demons"
-protondb_url: "https://www.protondb.com/app/449960"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Book_of_Demons"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/book-of-demons?ftag=MCD-06-10aaa1f"
 

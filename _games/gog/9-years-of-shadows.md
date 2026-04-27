@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/100574"
 
 # Links
 store_url: "https://www.gog.com/en/game/9_years_of_shadows"
-protondb_url: "https://www.protondb.com/app/1402120"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/9_Years_of_Shadows"
+pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/9-years-of-shadows/"
 

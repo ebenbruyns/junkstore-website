@@ -18,7 +18,7 @@ publisher: Wired Productions
 developer: Storm in a Teacup
 genre: Adventure, Indie
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "May 2, 2019"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/66966"
 
 # Links
 store_url: "https://www.gog.com/en/game/close_to_the_sun"
-protondb_url: "https://www.protondb.com/app/968870"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Close_to_the_Sun"
+pcgamingwiki_url: ""
 metacritic_score: 66
 metacritic_url: "https://www.metacritic.com/game/pc/close-to-the-sun?ftag=MCD-06-10aaa1f"
 

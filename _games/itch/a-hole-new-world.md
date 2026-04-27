@@ -3,7 +3,7 @@ layout: game-page
 title: "A Hole New World - Steam Deck Compatibility"
 game_title: "A Hole New World"
 slug: "a-hole-new-world"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-hole-new-world/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://madgeargames.itch.io/a-hole-new-world"
-protondb_url: "https://www.protondb.com/app/434160"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Hole_New_World"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

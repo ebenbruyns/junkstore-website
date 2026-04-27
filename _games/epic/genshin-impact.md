@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/68133"
 store_url: "https://store.epicgames.com/en-US/p/genshin-impact"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Genshin_Impact"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/genshin-impact/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Embark on a journey across Teyvat to find your lost sibling and seek answers from The Seven — the gods of each element. Explore this wondrous world, join forces with a diverse range of characters, and unravel the countless mysteries that Teyvat holds...
+Genshin Impact is an open-world action RPG, where you embark on a journey across Teyvat to find your lost sibling and seek answers from The Seven, the gods of each element. Explore this wondrous world, join forces with a diverse range of characters, and unravel the countless mysteries that Teyvat holds...

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/108941"
 
 # Links
 store_url: "https://www.gog.com/en/game/warhammer_40000_rogue_trader"
-protondb_url: "https://www.protondb.com/app/2186680"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40%2C000%3A_Rogue_Trader"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1347700224"
 is_featured: false
-owned: false
+owned: true
 ---
 
 You will take on the role of a Rogue Trader, a scion of an ancient dynasty of daring privateers, that reign over their own merchant empire and explore the fringes of Imperial space with the blessing of the Emperor Himself. Thanks to their Warrant of Trade - the Rogue Trader is endowed with privileges and power beyond imagination as well as the task of expanding the borders of the Imperium. At their disposal is a gargantuan voidship of immense power and innumerable servants and personnel ready to do the bidding of their lord. Their adventures begin in the vast Koronus Expanse - a treacherous region of unexplored space at the edge of Humanity’s domain.

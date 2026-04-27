@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/26266"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bloodstained-f3f575"
-protondb_url: "https://www.protondb.com/app/692850"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bloodstained:_Ritual_of_the_Night"
+pcgamingwiki_url: ""
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/bloodstained-ritual-of-the-night/"
 
@@ -78,6 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Igavania Returns!
-
-Play as Miriam, an orphan scarred by an alchemist's curse which slowly crystallizes her body. To save humanity, and herself in the process, she must fight through the castle and defeat the summoner, Gebel.
+Bloodstained: Ritual of the Night is an exploration-focused, side-scroller action RPG by Koji Igarashi. Play as Miriam, an orphan scarred by an alchemist's curse that slowly crystallizes her body. Battle through a demon-infested castle and defeat its master to save yourself, and all of humanity!

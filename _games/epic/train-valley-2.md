@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/55002"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/train-valley-2-3606da"
-protondb_url: "https://www.protondb.com/app/602320"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Train_Valley_2"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Build even more complex railway networks than ever before! Building on the success of the original, you’ll get more of what you loved about the original and then some. With increasingly difficult and complex challenges from local industries, the Valley has never felt so vast!
+Drive forward the industrial revolution in our train tycoon management puzzle game. Build an efficient railroad, upgrade your locomotives, and keep trains on track without delays to meet the ever-growing demand of the cities and industries in your tiny valley. Choo-choo!

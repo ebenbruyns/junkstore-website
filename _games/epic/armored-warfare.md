@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/50736"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/armored-warfare"
-protondb_url: "https://www.protondb.com/app/443110"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Armored_Warfare"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/armored-warfare/"
 
@@ -78,4 +78,19 @@ is_featured: false
 owned: true
 ---
 
-Armored Warfare is a free-to-play MMO where you can engage in explosive online tank battles against millions of players around the world.  With a force of the most powerful combat vehicles, take to the battlefield to wage war with over 100 powerful vehicles.
+Armored Warfare, is a free-to-play massively multiplayer online tactical military video game that puts you in control of some of the most incredible, modern destructive machines to grace a battlefield. Drive modern tanks, armored vehicles and more.
+
+MODERN MILITARY HARDWARE
+Use steel giants to wipe the enemy from the face of the earth! Operate the most powerful tools of destruction invented by mankind: heavily armed tanks and artillery.In Armored Warfare you will be able to drive and do battle in the mightiest armored vehicles from dozens of countries around the world.
+
+JOIN CO-OP MISSIONS
+Team up with friends to carry out the most difficult missions sent down to you by command. These missions will differ depending on the vehicle selected. Only well coordinated squads will be able to outwit the enemy! The enemy's superior forces, controlled by artificial intelligence, will present a serious obstacle to victory.
+
+MODERN GRAPHICS
+Armored Warfare uses CryENGINE 3 technology, which ensures the feeling of complete immersion in the game. See the glare in the crosshairs, the spray from water hazards, drops of rain shrouding the enemy, smoking ruins and other obstacles - step into a virtual world that is in no way inferior to reality!
+
+LARGE-SCALE BATTLES
+Engage in challenging, fast-paced player versus player combat. Collaborate with your allies and execute clever tactics and maneuvers to emerge from battle victorious and your enemies ground beneath your treads. Armored Warfare is easy to learn, but challenging to master.
+
+MODERN BATTLEFIELD
+Fight in hotspots around the world from frozen tundras to sun-scorched deserts. Do battle in locations that might be the focus of a modern military conflict, such as oil refineries, port facilities and population centers. Bring the fight to the 21st Century.

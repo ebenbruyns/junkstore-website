@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/109371"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deceive-inc"
-protondb_url: "https://www.protondb.com/app/820520"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deceive_Inc."
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Go undercover as the world’s greatest spies in this multiplayer game of subterfuge. Disguise as anyone, deploy high-tech gadgets or neutralize the competition. As long as you extract with the objective, no trick is too dirty when you work for DECEIVE INC.
+Go undercover as the world’s greatest spies in this tense multiplayer game of subterfuge. Disguise as anyone, deploy an arsenal of high-tech gadgets or neutralize the competition. As long as you extract with the objective, no trick is too dirty when you work for Deceive Inc.

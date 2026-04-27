@@ -18,7 +18,7 @@ publisher: Empire Interactive, Strategy First, Konami
 developer: Bugbear Entertainment
 genre: sport, simulator
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "November 1, 2004"
 game_modes: ["Single player","Multiplayer","Split screen"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3586"
 
 # Links
 store_url: "https://www.gog.com/en/game/flatout"
-protondb_url: "https://www.protondb.com/app/6220"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FlatOut"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/flatout?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658693"
 is_featured: false
-owned: false
+owned: true
 ---
 
 FlatOut is adrenaline-filled muscle car racing game packed with explosive physics, spectacular effects and graphics, innovative game play mechanics and good old fun!

@@ -18,7 +18,7 @@ publisher: Rising Star Games, Intergrow, WayForward
 developer: WayForward
 genre: Role-playing (RPG), Adventure, Indie, Platform
 franchise: 
-age_rating_summary: ESRB 10 · PEGI 12
+age_rating_summary: ESRB 10
 release_date: "October 22, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/22140"
 
 # Links
 store_url: "https://www.gog.com/en/game/shantae_and_the_pirates_curse"
-protondb_url: "https://www.protondb.com/app/345820"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shantae_and_the_Pirate%27s_Curse"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

@@ -3,7 +3,7 @@ layout: game-page
 title: "Backspace Bouken - Steam Deck Compatibility"
 game_title: "Backspace Bouken"
 slug: "backspace-bouken"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/backspace-bouken/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://rngpartygames.itch.io/backspace-bouken"
-protondb_url: "https://www.protondb.com/app/1097170"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Backspace_Bouken"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

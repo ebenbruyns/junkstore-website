@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/114221"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/3008050"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

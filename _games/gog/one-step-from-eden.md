@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/64665"
 
 # Links
 store_url: "https://www.gog.com/en/game/one_step_from_eden"
-protondb_url: "https://www.protondb.com/app/960690"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/One_Step_from_Eden"
+pcgamingwiki_url: ""
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/one-step-from-eden?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1112715616"
 is_featured: false
-owned: false
+owned: true
 ---
 
 One Step From Eden combines strategic deckbuilding and realtime action with roguelike elements. Cast powerful spells on the fly, battle evolving enemies, collect game-changing artifacts, make friends or make enemies. Make it one step from Eden, the last shining beacon of hope in a bleak post-war world. Fight alone (or with a friend in co-op) and lead your character down a path of mercy or destruction.

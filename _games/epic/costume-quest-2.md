@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/21537"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/costume-quest-2"
-protondb_url: "https://www.protondb.com/app/275180"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Costume_Quest_2"
+pcgamingwiki_url: ""
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/pc/costume-quest-2?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Explore spooky time-traversing landscapes, don adorable new costumes that transform into powerful Hallo-warriors, and collect even Creepier Treat Cards to wield in combat against a legion of hygiene obsessed baddies.
+In developer Double Fine’s triumphant return to Auburn Pines, our candy-crazed crusaders Wren and Reynold must once again protect Halloween from untold horrors, and grown-ups! Your favorite trick-or-treaters will come armed with a new batch of costumes they wear to transform into giant super powered fantasy Hallowarriors. Fans of the original can look forward to a sweet upgraded battle system and a story that is unmistakably Double Fine.

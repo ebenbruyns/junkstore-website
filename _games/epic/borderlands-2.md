@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1274"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/borderlands-2"
-protondb_url: "https://www.protondb.com/app/49520"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Borderlands_2"
+pcgamingwiki_url: ""
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/pc/borderlands-2?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The time is now to take out Handsome Jack.  Gather up your friends as you run rampant through the world collecting bazillions of loot and guns in an effort to save Pandora from the evil grips of the Hyperion Corporation.
+A new era of shoot and loot is about to begin. Play as one of four new vault hunters facing off against a massive new world of creatures, psychos and the evil mastermind, Handsome Jack. Make new friends, arm them with a bazillion weapons and fight alongside them in 4 player co-op on a relentless quest for revenge and redemption across the undiscovered and unpredictable living planet.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/54536"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rise-of-industry-0af838"
-protondb_url: "https://www.protondb.com/app/671440"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rise_of_Industry"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Test your entrepreneurial skills in the first title in the ROI series as you create & optimise production lines. As an early 20th Century industrialist, grow your empire & adapt to an ever-changing business landscape with unexpected events that could lead to boom…or bust.
+Rise of Industry is a strategic tycoon game that puts you in the shoes of an early 20th-century industrialist. Build and manage your growing empire in a living, breathing, and procedurally generated world that is constantly evolving and adapting to your playstyle.

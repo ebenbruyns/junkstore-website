@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/113213"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/circus-electrique"
-protondb_url: "https://www.protondb.com/app/1666250"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Circus_Electrique"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Circus Electrique is part story-driven RPG, part tactics, part circus management, and completely enthralling. When everyday Londoners mysteriously turn into vicious killers, only the show’s talented performers possess the skills necessary to save the city. 
+Circus Electrique is part story-driven RPG, part tactics, part circus management, and completely enthralling - all with a steampunk twist. When everyday Londoners mysteriously turn into vicious killers, only the show's talented performers possess the skills necessary to save the city.

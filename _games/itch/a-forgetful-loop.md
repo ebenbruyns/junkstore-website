@@ -3,7 +3,7 @@ layout: game-page
 title: "A Forgetful Loop - Steam Deck Compatibility"
 game_title: "A Forgetful Loop"
 slug: "a-forgetful-loop"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-forgetful-loop/
 
@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://bighandinsky.itch.io/forgetful-loop"
-protondb_url: "https://www.protondb.com/app/1399540"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

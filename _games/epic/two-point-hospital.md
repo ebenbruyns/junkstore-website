@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/60043"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/two-point-hospital"
-protondb_url: "https://www.protondb.com/app/535930"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Two_Point_Hospital"
+pcgamingwiki_url: ""
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/two-point-hospital?ftag=MCD-06-10aaa1f"
 
@@ -79,3 +79,4 @@ owned: true
 ---
 
 Design stunning hospitals, cure peculiar illnesses and manage troublesome staff as you spread your budding healthcare organisation across Two Point County.
+Build and customise your hospital - it is yours after all - with specialist diagnosis and treatment facilities, as well as the very latest in ornamental technology!

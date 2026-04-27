@@ -3,7 +3,7 @@ layout: game-page
 title: "A Good Snowman Is Hard To Build - Steam Deck Compatibility"
 game_title: "A Good Snowman Is Hard To Build"
 slug: "a-good-snowman-is-hard-to-build"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-good-snowman-is-hard-to-build/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://draknek.itch.io/a-good-snowman"
-protondb_url: "https://www.protondb.com/app/316610"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Good_Snowman_Is_Hard_to_Build"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/65900"
 
 # Links
 store_url: "https://www.gog.com/dreamlist/game/60-parsecs-2018"
-protondb_url: "https://www.protondb.com/app/646270"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/60_Parsecs!"
+pcgamingwiki_url: ""
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/60-parsecs/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1135130303"
 is_featured: false
-owned: false
+owned: true
 ---
 
 60 Parsecs! is an Atomic Space Age adventure of scavenge and survival. Keep your crew alive and ready for action. Make difficult choices, face soup shortages and other horrors of outer space. And maybe reach your destination. Or not.

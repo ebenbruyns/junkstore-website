@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/25231"
 
 # Links
 store_url: "https://www.gog.com/en/game/mordheim_city_of_the_damned"
-protondb_url: "https://www.protondb.com/app/276810"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mordheim%3A_City_of_the_Damned"
+pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/pc/mordheim-city-of-the-damned?ftag=MCD-06-10aaa1f"
 

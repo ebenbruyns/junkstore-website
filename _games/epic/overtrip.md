@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The ultimate skill-based third-person shooter, where the thrill of competition meets the world of skill-based token betting and the captivating integration of diverse NFT collections.
+A skill-based third-person shooter, where the thrill of competition meets the world of skill-based token betting and the captivating integration of diverse NFT collections.

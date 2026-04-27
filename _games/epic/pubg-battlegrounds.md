@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/44704"
 store_url: "https://store.epicgames.com/en-US/p/pubg-59c1d9"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/PUBG%3A_Battlegrounds"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,5 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Play PUBG: BATTLEGROUNDS for free! 
-Land on strategic locations, loot weapons and supplies, and survive to become the last team standing across various, diverse Battlegrounds.
+PUBG: Battlegrounds is a battle royale shooter that pits 100 players against each other in a struggle for survival. Gather supplies and outwit your opponents to become the last person standing.

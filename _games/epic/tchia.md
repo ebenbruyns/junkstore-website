@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/85999"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tchia"
-protondb_url: "https://www.protondb.com/app/1496590"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tchia"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1496590"
 is_featured: false
-owned: false
+owned: true
 ---
 
-A Tropical Open-World adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox. Take control of any animal or object you can find, and Jam on your fully playable Ukulele. A game inspired by New Caledonia.
+A tropical open-world adventure. Climb, glide, swim, and sail your boat around a beautiful archipelago in this physics-driven sandbox.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/117559"
 
 # Links
 store_url: "https://www.gog.com/en/game/amnesia_the_bunker"
-protondb_url: "https://www.protondb.com/app/1944430"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia:_The_Bunker"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/amnesia-the-bunker/"
 
@@ -75,9 +75,7 @@ known_issues:
 # Meta
 database_id: "1186009992"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker.
-
-Face the oppressing terrors stalking in the dark. Search for and use the tools and weapons at your disposal. Keep the lights on at all costs and make your way out alive.
+Amnesia: The Bunker is a first-person horror game set in a desolate WW1 Bunker. Face the oppressing terrors stalking the dark corridors.

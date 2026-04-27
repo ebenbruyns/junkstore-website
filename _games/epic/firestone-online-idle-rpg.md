@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b"
-protondb_url: "https://www.protondb.com/app/1013320"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Firestone_Idle_RPG"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Firestone: Online Idle RPG is a multiplayer fantasy game with idle rpg mechanics. Collect heroes🧙‍♂️, upgrade their gear & skills, and sent them in AFK battles or go on an incremental clicker frenzy to beat monstrous bosses! Chat with guild friends or engage in PVP⚔️.
+Firestone is an Idle RPG set in the Fantasy world of Alandria, where Undead and Orc forces have gathered for the first time in millennia to bring chaos and disorder to the realm. This time, they possess the great power of the Firestones. Your aim is to stop them and reclaim the Firestones.

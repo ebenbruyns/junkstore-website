@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/22804"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tales-from-the-borderlands"
-protondb_url: "https://www.protondb.com/app/330830"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tales_from_the_Borderlands"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Tales from the Borderlands is a five-part episodic game set on the unforgiving world of Pandora between the events of Borderlands 2 and Borderlands 3. This is a story full of Borderlands' trademark humor, following two adventurers on their quest for greatness.
+Tales from the Borderlands is a five part episodic game series. Set on the unforgiving world of Pandora after the events seen in Borderlands 2, this is a story full of Borderlands' trademark humor, following two adventurers on their quest for greatness.

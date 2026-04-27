@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/75031"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/moving-out"
-protondb_url: "https://www.protondb.com/app/996770"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Moving_Out"
+pcgamingwiki_url: ""
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/moving-out?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Moving Out is a ridiculous physics-based moving simulator that brings new meaning to "couch co-op"! As a newly certified Furniture Arrangement & Relocation Technician, you’ll take on moving jobs all across the busy town of Packmore.
+Moving Out is a cooperative moving simulation game. In a local cooperative experience, players move objects from houses into a moving van while coping with exaggerated physics.
+
+It was followed by Moving Out 2.

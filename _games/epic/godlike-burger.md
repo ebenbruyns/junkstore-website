@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/109801"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/godlike-burger-4150a0"
-protondb_url: "https://www.protondb.com/app/1432910"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Godlike_Burger"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-In Godlike Burger you run the craziest restaurant of the galaxy! Stun, poison and kill customers in many devious ways… and turn them into burger meat! And don’t worry: Alien customers will keep coming if you are smart about it, because cannibalism is just too damn tasty.
+Godlike Burger puts you in the shoes of a crazy chef who makes the best burgers in the universe. Secret ingredient? The clients themselves! Run the restaurant, create new recipes and kill delicious aliens! But be careful – leave no witnesses uncooked!

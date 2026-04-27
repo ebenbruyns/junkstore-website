@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/106338"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dnf-duel-07d055"
-protondb_url: "https://www.protondb.com/app/1216060"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/DNF_Duel"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,8 @@ is_featured: false
 owned: true
 ---
 
-Action fighting at its extreme! One of the most popular and widely played RPGs in the world, Dungeon and Fighter is now back as a 2.5D action fighting game. Choose from 16 charming characters, each with their distinct skills and personalities.
+DNF Duel is a 2D fighting game using Dungeon Fighter Online's characters/classes as fighters. Dungeon Fighter Online currently has 16 base characters with over 60 total classes, though there is some overlap between the male and female variations.
+It was revealed at the 2020 Dungeon&Fighter Universe Festival in Korea.
+It is being developed by Neople, Arc System Works and Eighting.
+
+A date was not announced but It is planned to be a multi-platform release

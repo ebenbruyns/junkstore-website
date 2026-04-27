@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/astralium-ee19a6"
-protondb_url: "https://www.protondb.com/app/3258470"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Climb, jump, and parkour your way through Skybound Only Up. Choose safer or riskier routes, navigate obstacles, and reach new heights in this straightforward but challenging adventure. How far—and how fast—can you climb without falling?
+Get ready for an epic VR adventure! Jump, climb, and conquer towering obstacles in a world of thrilling challenges. Master movement, reach new heights, and feel the rush. Your goal: overcome the challenge. Your reward: unforgettable thrills. A one-of-a-kind VR experience awaits—dive in!

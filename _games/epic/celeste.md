@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/42818"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/celeste"
-protondb_url: "https://www.protondb.com/app/504230"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Celeste"
+pcgamingwiki_url: ""
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/celeste?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Salt"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.
+Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer

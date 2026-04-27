@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/77798"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ring-of-pain"
-protondb_url: "https://www.protondb.com/app/998740"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ring_of_Pain"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Enter the Ring of Pain, a roguelike card crawler where encounters come to you. Each step around the ring a dire decision. Go for the loot or backstab a creeping horror? Choose your gear wisely to survive and discover the secrets of the Ring of Pain.
+Ring of Pain is a roguelike card game in a world distorted by your mind... - Frail and fragile bear the curse, through the shadow you traverse - Darkness favours cunning few, stare too long and be consumed...

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/146740"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/astro-duel-2-e1261d"
-protondb_url: "https://www.protondb.com/app/655350"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Astro_Duel_II"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

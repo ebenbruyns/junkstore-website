@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10588"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/to-the-rescue-a6c254"
-protondb_url: "https://www.protondb.com/app/946720"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/To_the_Rescue%21"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,5 @@ is_featured: false
 owned: true
 ---
 
-To The Rescue! is a charming dog shelter simulator. Take care of unique dogs and find the right homes for as many of them as you can. Upgrade your shelter, control disease outbreaks, and learn each dog's preferences, all while helping support real-world animal shelters!
+To The Rescue! is a charming dog shelter simulator. Take care of unique dogs and find the right homes for as many of them as you can. Upgrade your shelter, control disease outbreaks, learn each dog's preferences, and make tough decisions, all while helping support real-world animal shelters!
+Each day brings new challenges and rewards. Dogs have specific preferences, can get infectious diseases, and can have negative traits. But you can also have fundraisers, get random donations, and help someone find their new best friend. Unfortunately, there's never enough room, and always more dogs.

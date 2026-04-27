@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/109289"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/islets-5f2670"
-protondb_url: "https://www.protondb.com/app/1669420"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Islets"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

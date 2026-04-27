@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/309"
 store_url: "https://www.gog.com/en/game/akalabeth_world_of_doom"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Akalabeth:_World_of_Doom"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/akalabeth-world-of-doom/"
 

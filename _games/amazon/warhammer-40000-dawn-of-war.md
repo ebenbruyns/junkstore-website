@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11039"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/4570"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40,000:_Dawn_of_War"
+pcgamingwiki_url: ""
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/warhammer-40000-dawn-of-war?ftag=MCD-06-10aaa1f"
 

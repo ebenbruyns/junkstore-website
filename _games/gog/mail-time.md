@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/95986"
 
 # Links
 store_url: "https://www.gog.com/en/game/mail_time"
-protondb_url: "https://www.protondb.com/app/1607240"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mail_Time"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

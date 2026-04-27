@@ -18,7 +18,7 @@ publisher: Deep Silver, Koch Media
 developer: 4A Games
 genre: Role-playing (RPG), Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "August 25, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/20737"
 
 # Links
 store_url: "https://www.gog.com/en/game/metro_2033_redux"
-protondb_url: "https://www.protondb.com/app/286690"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Metro_2033_Redux"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

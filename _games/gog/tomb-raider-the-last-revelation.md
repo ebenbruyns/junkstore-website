@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10480"
 
 # Links
 store_url: "https://www.gog.com/en/game/tomb_raider_the_last_revelation"
-protondb_url: "https://www.protondb.com/app/224980"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider:_The_Last_Revelation"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/tomb-raider-the-last-revelation/"
 

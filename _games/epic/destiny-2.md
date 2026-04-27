@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/43894"
 store_url: "https://store.epicgames.com/en-US/p/destiny-2"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Destiny_2"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Destiny 2 is an action MMO with a single evolving world that you and your friends can join anytime, anywhere, absolutely free.
+Dive into the world of Destiny 2 to explore the mysteries of the solar system and experience responsive first-person shooter combat. Unlock powerful elemental abilities and collect unique gear to customize your Guardian's look and playstyle. Enjoy Destiny 2’s cinematic story, challenging co-op missions, and a variety of PvP modes alone or with friends. Download for free today and write your legend in the stars.

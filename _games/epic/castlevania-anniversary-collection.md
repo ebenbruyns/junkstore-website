@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/67286"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/castlevania-anniversary-collection-a61f94"
-protondb_url: "https://www.protondb.com/app/1018010"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Castlevania_Anniversary_Collection"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -79,3 +79,5 @@ owned: true
 ---
 
 Konami's Castlevania Anniversary Collection traces the origins of the historic vampire franchise. Included is a unique eBook with details provided by developers, artists and others inspired by the Castlevania legacy which sheds a fresh light into the world of Castlevania.
+
+Released as part of the Konami 50th Anniversary celebration, relive these timeless classics that helped define the platformer genre. From the Belmont clan to their extended bloodlines and allies, the Castlevania Anniversary Collection is the best first step for anyone to take into the world of Castlevania and the fight against Dracula!

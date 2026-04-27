@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/104809"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/black-widow-recharged"
-protondb_url: "https://www.protondb.com/app/1714180"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Black_Widow:_Recharged"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/black-widow-recharged/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Defend your spider web from an onslaught of bugs in this frenetic revival of the cult classic twin-stick shooter, all while jamming to an infectious score by Megan McDuffee. Play solo or tag in a friend for local co-op across 30 challenges or the arcade mode.
+The original cult classic arachnid-starring, twin-stick shooter returns! Just in time for Halloween, Black Widow: Recharged has been reimagined for modern gameplay, with vibrant visuals, powerful new abilities, and another original soundtrack from award-winning video game composer Megan McDuffee. Aim for a high score in the old school arcade mode and earn bragging rights with your name at the top of the leaderboard. Or test your skills and rank on the boards in one of 30 intensely creative challenges, which twist the gameplay in new and exciting ways. Collect cash from downed enemies to charge a powerful web blast, or pick up one of a dozen new power-ups including explosive blasts, spread-shots, and fear, trapping all enemies in your web. Every mode and level is playable in local co-op mode with a friend.

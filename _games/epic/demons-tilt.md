@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/64628"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/demons-tilt"
-protondb_url: "https://www.protondb.com/app/422510"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Demon%27s_Tilt"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-TURBO CHARGED PINBALL RETURNS! Now with bigger sprites, more baddies, more secrets & MORE BULLETS! Demon's Tilt pushes the limits of the Video Pinball genre with SHMUP & Hack N' Slash elements.
+Turbo charged pinball returns! Now with bigger sprites, more baddies, more secrets & more bullets! Demon's Tilt pushes the limits of the Video Pinball genre with Shump & Hack N' Slash elements.

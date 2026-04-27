@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/138074"
 store_url: "https://store.epicgames.com/en-US/p/arknightsendfield-f0f167"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Arknights:_Endfield"
+pcgamingwiki_url: ""
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/arknights-endfield/"
 

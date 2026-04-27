@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/98356"
 
 # Links
 store_url: "https://www.gog.com/en/game/dagon_by_h_p_lovecraft"
-protondb_url: "https://www.protondb.com/app/1481400"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dagon:_by_H._P._Lovecraft"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/dagon-by-h-p-lovecraft/"
 

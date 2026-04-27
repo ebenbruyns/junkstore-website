@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/50133"
 
 # Links
 store_url: "https://www.pcgamingwiki.com/wiki/Aer:_Memories_of_Old"
-protondb_url: "https://www.protondb.com/app/331870"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aer:_Memories_of_Old"
+pcgamingwiki_url: ""
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/aer-memories-of-old/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "26b63c46de9e4dcc856b3c6b106b6777"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Transform into a bird and fly to explore and experience a vibrant world of floating islands in the sky. Venture down into lost ancient ruins where each step leads you closer to the end of the world.
+Transform into a bird and fly to explore and experience a vibrant world of floating islands in the sky.

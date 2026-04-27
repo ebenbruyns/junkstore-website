@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/81948"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/card-shark-8f95f0"
-protondb_url: "https://www.protondb.com/app/1371720"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Card_Shark"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Card Shark is an adventure game full of cunning, intrigue, and delectable deceit. Enter a world where you’ll need to play your opponents better than you play your cards.
+Card Shark is an adventure game full of cunning, intrigue, and delectable deceit. Enter a world where you’ll need to play your opponents better than you play your cards. Cheat your way to the top of 18th-century French society. Master deceptions using card marking, false shuffles, deck switching, false deals, and more! Use your ill-gotten gains to buy your way into the closed world of high-stakes tables. Card Shark is a new adventure that’s all about playing your cards right.

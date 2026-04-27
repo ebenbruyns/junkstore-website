@@ -18,7 +18,7 @@ publisher: Microsoft Game Studios, Nordic Games Publishing, E-Frontier, Remedy E
 developer: Remedy Entertainment
 genre: adventure, shooter
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 16
+age_rating_summary: ESRB 13
 release_date: "May 1, 2010"
 game_modes: ["Single player"]
 languages: ["English*","German*","French*","Italian*","Korean","Spanish - Spain*","Russian","Japanese*","Polish","Traditional Chinese"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/319"
 
 # Links
 store_url: "https://www.gog.com/en/game/alan_wake"
-protondb_url: "https://www.protondb.com/app/108710"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alan_Wake"
+pcgamingwiki_url: ""
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/alan-wake?ftag=MCD-06-10aaa1f"
 

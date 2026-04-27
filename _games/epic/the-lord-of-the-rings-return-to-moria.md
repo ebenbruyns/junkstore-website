@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-lord-of-the-rings-return-to-moria-f01344"
-protondb_url: "https://www.protondb.com/app/2933130"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Lord_of_the_Rings:_Return_to_Moria"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

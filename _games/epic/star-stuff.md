@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/151903"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/star-stuff-9ea201"
-protondb_url: "https://www.protondb.com/app/1955110"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Stuff"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Star Stuff is a deceptively cute programming puzzle game. Program and work alongside bots to tackle the most important (and undoubtedly safest) task in the galaxy: fixing a star factory. Ready for your first day on the job?
+Star Stuff is a puzzle automation game that mixes bot programming with real time shenanigans. Play as Mija (me-ha), a cosmic employee on their first day at a star factory. Automate bots, interact in real time with bot actions to solve mind-bending puzzles, and save the ever-expanding universe while you're at it!

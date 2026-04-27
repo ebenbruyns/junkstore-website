@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/propsumo-ca8bd7"
-protondb_url: "https://www.protondb.com/app/3089420"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,6 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Prop Sumo is a party fighting game that pits ordinary props together in extraordinary battles!
-
-Beat up your friends and dominate the scoreboard!
+Prop Sumo is a physics-driven fighting game that pits ordinary props together in extraordinary battles!

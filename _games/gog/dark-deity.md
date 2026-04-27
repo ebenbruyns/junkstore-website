@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/94190"
 
 # Links
 store_url: "https://www.gog.com/en/game/dark_deity_complete_edition"
-protondb_url: "https://www.protondb.com/app/1374840"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Deity"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/dark-deity?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Command legendary heroes to reshape a land fractured by broken oaths, reckless wars, and secret arcane powers. Claim ancient artifacts and powerful weapons to empower your cast of 30 voiced, playable characters as they form bonds and battle their way to become legends.
+Command legendary heroes to reshape a land fractured by broken oaths, reckless war, and a secret search for arcane power. The ancient artifacts and powerful weapons you discover will empower your cast of 30 playable characters as they form bonds and battle their way into legend.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/21248"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/borderlands-the-pre-sequel"
-protondb_url: "https://www.protondb.com/app/261640"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Borderlands%3A_The_Pre-Sequel"
+pcgamingwiki_url: ""
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/borderlands-the-pre-sequel?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-LAUNCH INTO THE BORDERLANDS UNIVERSE AND SHOOT ‘N’ LOOT YOUR WAY THROUGH A BRAND NEW ADVENTURE THAT ROCKETS YOU ONTO PANDORA’S MOON IN BORDERLANDS: THE PRE-SEQUEL!
+Shoot 'n' loot your way through a brand new adventure that rockets you onto Pandora's moon in Borderlands: The Pre-Sequel. Discover the story behind Borderlands 2’s villain, Handsome Jack, and his rise to power in this brand new game in the Borderlands series. Taking place between the original Borderlands and Borderlands 2, the Pre-Sequel gives you a whole lotta new gameplay featuring the genre fusion of shooter and RPG gameplay that players can’t get enough of.
+
+Get high in low gravity and launch across the moonscape to take enemies down from above using new ice and laser weapons. Catch-a-ride on the lunar landscape with new vehicles equipped with deadly weapons allowing for more levels of destructive mayhem. So grab a friend (or two, or three), strap on a rocket, and take off on a brand new Borderlands adventure

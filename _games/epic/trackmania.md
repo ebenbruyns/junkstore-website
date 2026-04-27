@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/76075"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/trackmania"
-protondb_url: "https://www.protondb.com/app/2225070"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trackmania_%282020%29"
+pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/search/trackmania/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Trackmania – the unique racing game that combines precision and creativity. Play for free across five stunning environments, race on the best player-made tracks every week, and climb your regional rankings.
+Trackmania, the racing franchise from Ubisoft Nadeo, is back with the most compelling remake of Trackmania Nations.

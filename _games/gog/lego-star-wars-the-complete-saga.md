@@ -18,7 +18,7 @@ publisher: WB Games, LucasArts, Feral Interactive
 developer: "Traveller's Tales, Robosoft Technologies"
 genre: Adventure, Platform
 franchise: 
-age_rating_summary: ESRB 10 · PEGI 3
+age_rating_summary: ESRB 10
 release_date: "November 6, 2007"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/5263"
 
 # Links
 store_url: "https://www.gog.com/en/game/lego_star_wars_the_complete_saga"
-protondb_url: "https://www.protondb.com/app/32440"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Star_Wars%3A_The_Complete_Saga"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/lego-star-wars?ftag=MCD-06-10aaa1f"
 

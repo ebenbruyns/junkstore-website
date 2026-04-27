@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/41512"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/911-operator"
-protondb_url: "https://www.protondb.com/app/503560"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/911_Operator"
+pcgamingwiki_url: ""
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/pc/911-operator?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-A game about the difficult work of people that manage emergency services. Answer incoming calls and react properly - give first aid instructions, advise, dispatch the correct number of firemen/police/ambulances, or sometimes - just ignore the call. Play on ANY CITY in the world!
+911 Operator is a game about the difficult work of people that manage emergency lines and services. Main task is to answer incoming calls and to react properly - give first aid instructions, advise, dispatch correct number of firemen / police / ambulances, or sometimes just ignore the call.

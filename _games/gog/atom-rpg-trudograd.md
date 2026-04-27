@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/78978"
 
 # Links
 store_url: "https://www.gog.com/en/game/atom_rpg_trudograd"
-protondb_url: "https://www.protondb.com/app/1139940"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ATOM_RPG_Trudograd"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/atom-rpg-trudograd?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1818710374"
 is_featured: false
-owned: false
+owned: true
 ---
 
 ATOM RPG: Trudograd is a turn-based post-apocalyptic roleplaying game, which continues the story of ATOM RPG

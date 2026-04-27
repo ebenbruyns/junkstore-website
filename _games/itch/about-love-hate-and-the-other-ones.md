@@ -3,7 +3,7 @@ layout: game-page
 title: "About Love, Hate and the other ones - Steam Deck Compatibility"
 game_title: "About Love, Hate and the other ones"
 slug: "about-love-hate-and-the-other-ones"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/about-love-hate-and-the-other-ones/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://blackpants.itch.io/about-love-hate-and-the-other-ones"
-protondb_url: "https://www.protondb.com/app/277680"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/About_Love,_Hate_and_the_other_ones"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

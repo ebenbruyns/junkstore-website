@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/7285"
 
 # Links
 store_url: "https://www.gog.com/en/game/primordia"
-protondb_url: "https://www.protondb.com/app/227000"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Primordia"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659144"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Life has ceased. Man is but a myth. And now, even the machines have begun to fail. Lead Horatio Nullbuilt and his sarcastic sidekick Crispin on a journey through the crumbling world of Primordia...

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68258"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deathloop"
-protondb_url: "https://www.protondb.com/app/1252330"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deathloop"
+pcgamingwiki_url: ""
 metacritic_score: 87
 metacritic_url: "https://www.metacritic.com/game/pc/deathloop?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-DEATHLOOP is a next-gen first person shooter from Arkane Lyon, the award-winning studio behind Dishonored. In DEATHLOOP, two rival assassins are trapped in a mysterious timeloop on the island of Blackreef, doomed to repeat the same day for eternity.
+Deathloop transports players to the lawless island of Blackreef in an eternal struggle between two extraordinary assassins. Explore stunning environments and meticulously designed levels in an immersive gameplay experience that lets you approach every situation any way you like. Hunt down targets all over the island in an effort to put an end to the cycle once and for all, and remember, if at first you don’t succeed… die, die again.

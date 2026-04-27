@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/105954"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-machines-arena-74e0f1"
-protondb_url: "https://www.protondb.com/app/1539860"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The Machines Arena is an adrenaline-fueled PvP game where players are put right into the action! Battle competitively in teams of 4vs4 for some fast-paced combat mayhem, delivered in a top-down perspective. Get rewarded with digital collectibles in PvP and PvE game plays.
+The Machines Arena is an adrenaline-fueled 4v4 top-down hero shooter where players compete in chaotic close quarters combat to plant bombs, deliver payloads and rack up kills in a growing number of game modes. Choose between 9 unique characters spread across 3 distinct roles and dive right into the action. Find your hero, hone your skills, and dominate the arena.

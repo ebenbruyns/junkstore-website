@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/9866"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-evil-within"
-protondb_url: "https://www.protondb.com/app/268050"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Evil_Within"
+pcgamingwiki_url: ""
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/pc/the-evil-within?ftag=MCD-06-10aaa1f"
 
@@ -78,6 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Developed by Tango Gameworks and directed by Resident Evil series creator Shinji Mikami, The Evil Within embodies pure survival horror. 
-
-As Detective Sebastian Castellanos, fight for survival with limited resources in a twisted world of nightmares.
+The Evil Within is an action survival horror game that draws inspiration from the Resident Evil series with a grimy look with exaggerated gore. The game was directed by Shinji Mikami, the creator of Resident Evil & a former Resident Evil 4 director. You must navigate through the hostile game world with limited resources, this requires to use your wits to survive and correctly manage your resources as you encounters various terrors and dangers throughout the game. The environments may also change without warning in real-time based on your actions, adding more variables to the game.

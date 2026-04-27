@@ -3,7 +3,7 @@ layout: game-page
 title: "WaveCrash!! - Steam Deck Compatibility"
 game_title: "WaveCrash!!"
 slug: "wavecrash"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/wavecrash/
 
@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://flyover-games.itch.io/wavecrash"
-protondb_url: "https://www.protondb.com/app/751490"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "32275"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Head-to-head puzzle brawling action! Match blocks to send waves at your opponent! Dodge their waves or crash them head-on to survive. Unleash unique super attacks and explosive Hype Mode to tip the scales. It's a back-and-forth struggle for arcade puzzling dominance!

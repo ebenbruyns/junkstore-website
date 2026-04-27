@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/89344"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hot-wheels-unleashed"
-protondb_url: "https://www.protondb.com/app/1271700"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hot_Wheels_Unleashed"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,5 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Collect the best vehicles in the Hot Wheels™ universe, build spectacular tracks and dive into breathtaking races.
-The most iconic and sought after Hot Wheels™ vehicles are waiting for you. Get ready to make them race at full speed!
+Collect the best vehicles in the Hot Wheels universe, build spectacular tracks and dive into breathtaking races. The most iconic and sought after Hot Wheels vehicles are waiting for you. Get ready to make them race at full speed!

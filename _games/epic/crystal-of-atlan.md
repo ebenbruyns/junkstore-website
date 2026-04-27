@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/142382"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/crystal-of-atlan-c5f8b3"
-protondb_url: "https://www.protondb.com/app/3839850"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Crystal of Atlan is a Magicpunk MMO Action RPG where you can immerse yourself in a Magicpunk world. Build your skills, fight and uncover the secrets of this world with your allies! Time to embark on a wondrous journey of Magic and Machinery!
+Crystal of Atlan is a Magipunk MMO Action RPG! As a member of the Adventurer's Guild, you'll be missioned to explore the world of Atlan and gradually unveil the mysteries around the Crystals of Atlan, the source of all energy in the world!

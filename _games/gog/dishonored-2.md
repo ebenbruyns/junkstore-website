@@ -18,7 +18,7 @@ publisher: Bethesda Softworks
 developer: Arkane Studios
 genre: Role-playing (RPG), Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "November 11, 2016"
 game_modes: ["Single player"]
 languages: ["Chinese Traditional","English","French","German","Italian","Japanese","Polish","Portuguese (Brazilian)","Russian","Spanish"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/26731"
 
 # Links
 store_url: "https://www.gog.com/en/game/dishonored_2"
-protondb_url: "https://www.protondb.com/app/403640"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dishonored_2"
+pcgamingwiki_url: ""
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/dishonored-2?ftag=MCD-06-10aaa1f"
 

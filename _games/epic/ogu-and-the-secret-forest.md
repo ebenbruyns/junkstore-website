@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/126770"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ogu-and-the-secret-forest-ffc421"
-protondb_url: "https://www.protondb.com/app/1985960"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ogu_and_the_Secret_Forest"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

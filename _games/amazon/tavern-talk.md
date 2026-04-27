@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/139114"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/2076140"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/tavern-talk?ftag=MCD-06-10aaa1f"
 

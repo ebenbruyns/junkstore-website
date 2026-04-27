@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/76004"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tunche"
-protondb_url: "https://www.protondb.com/app/887450"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tunche"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Tunche is a charming hand-drawn action game with roguelike elements. Team up with your friends or play solo. Choose from 5 unique characters and restore peace in the Amazon rainforest!
+Tunche is a charming, hand-drawn adventure that blends classic beat'em up brawler gameplay with roguelike elements, 4-player co-op and a pinch of shaman witchcraft. Master the ancient magical arts, defeat epic bosses and unravel the secrets of the mysterious Amazonian jungle!

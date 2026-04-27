@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/58082"
 
 # Links
 store_url: "https://www.gog.com/en/game/amid_evil"
-protondb_url: "https://www.protondb.com/app/673130"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amid_Evil"
+pcgamingwiki_url: ""
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/amid-evil?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "2023945788"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Once branded a heretic. Now you have been chosen. Reclaim our sacred weapons. Take back our ancestral lands. If you can stand... Amid Evil.

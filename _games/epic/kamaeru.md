@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/129902"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/kamaeru-0c301e"
-protondb_url: "https://www.protondb.com/app/1978150"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

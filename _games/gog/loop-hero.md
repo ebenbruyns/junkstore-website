@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/86112"
 
 # Links
 store_url: "https://www.gog.com/en/game/loop_hero"
-protondb_url: "https://www.protondb.com/app/1282730"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Loop_Hero"
+pcgamingwiki_url: ""
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/loop-hero?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1896497767"
 is_featured: false
-owned: false
+owned: true
 ---
 
 The Lich has thrown the world into a timeless loop and plunged its inhabitants into never ending chaos. Wield an expanding deck of mystical cards to place enemies, buildings, and terrain along each unique expedition loop for the brave hero.

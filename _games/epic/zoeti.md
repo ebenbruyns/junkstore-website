@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/127217"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/zoeti-3ccef9"
-protondb_url: "https://www.protondb.com/app/1434540"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Zoeti"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Zoeti is a turn-based roguelike that features a deck of playing cards used to create card combos and activate skills in the heat of battle. Bolster your arsenal of skills through battles and discoverable upgrades, or aid from locals to overcome the evil plaguing your land.
+Zoeti is a turn-based roguelite that features a deck of playing cards used to create card combos and activate skills in the heat of battle. Bolster your arsenal of skills through battles, discoverable upgrades, or aid from the locals which enhance your plays to overcome the evil plaguing your land.

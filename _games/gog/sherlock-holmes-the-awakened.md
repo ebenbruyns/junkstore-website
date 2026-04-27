@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/8407"
 
 # Links
 store_url: "https://www.gog.com/en/game/sherlock_holmes_the_awakened"
-protondb_url: "https://www.protondb.com/app/1949030"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes:_The_Awakened"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/sherlock-holmes-the-awakened-2007/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1430061181"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Experience a nerve-racking Lovecraftian adventure, rebuilt from the ground up with modern graphics and gameplay. Become Sherlock Holmes...

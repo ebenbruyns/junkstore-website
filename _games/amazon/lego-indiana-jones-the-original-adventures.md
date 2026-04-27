@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/5253"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/32330"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Indiana_Jones:_The_Original_Adventures"
+pcgamingwiki_url: ""
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/lego-indiana-jones-the-original-adventures?ftag=MCD-06-10aaa1f"
 

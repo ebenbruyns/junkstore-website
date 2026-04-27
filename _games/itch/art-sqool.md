@@ -3,7 +3,7 @@ layout: game-page
 title: "Art Sqool - Steam Deck Compatibility"
 game_title: "Art Sqool"
 slug: "art-sqool"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/art-sqool/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://glander.itch.io/art-sqool"
-protondb_url: "https://www.protondb.com/app/953300"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Art_Sqool"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

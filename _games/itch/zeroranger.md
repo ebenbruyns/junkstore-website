@@ -3,7 +3,7 @@ layout: game-page
 title: "ZeroRanger - Steam Deck Compatibility"
 game_title: "ZeroRanger"
 slug: "zeroranger"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/zeroranger/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://system-erasure.itch.io/zeroranger"
-protondb_url: "https://www.protondb.com/app/809020"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ZeroRanger"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

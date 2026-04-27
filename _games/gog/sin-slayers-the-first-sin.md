@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/76439"
 store_url: "https://www.gog.com/dreamlist/game/sin-slayers-the-first-sin-2019"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sin_Slayers"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/sin-slayers-the-first-sin/"
 

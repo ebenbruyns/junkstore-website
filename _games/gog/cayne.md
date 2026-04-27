@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/43249"
 
 # Links
 store_url: "https://www.gog.com/en/game/cayne"
-protondb_url: "https://www.protondb.com/app/532840"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cayne"
+pcgamingwiki_url: ""
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/cayne?ftag=MCD-06-10aaa1f"
 

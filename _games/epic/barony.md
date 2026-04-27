@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/26050"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/barony"
-protondb_url: "https://www.protondb.com/app/371970"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barony"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/barony-2015/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "c98c4cd6d83a4524b4b22f13af95a104"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Barony is the premier first-person roguelike with co-op. Cryptic items, brutal traps and devious monsters, like those found in classic roguelikes and CRPGs, await you. Conquer the dungeons alone, or gather a party in co-op with iconic and exotic RPG classes.
+Barony is a 3D, first-person roguelike that brings back the cryptic and intricate designs of classic roguelikes such as Nethack

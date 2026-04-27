@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68209"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/cris-tales"
-protondb_url: "https://www.protondb.com/app/1079830"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cris_Tales"
+pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/pc/cris-tales?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Experience Past, Present, and Future simultaneously in this gorgeous, indie love letter to classic JRPGs
+Discover a unique combination of branching stories, innovative combat, and classic RPG gameplay in Cris Tales’ exciting and unforgettable exploration of how our actions echo through time. Join the newly awakened Time Mage, Crisbell, and her fantastical companions in a fantasy world facing a grim future. The powerful Time Empress and her forces threaten to bring about a cataclysm tearing apart Crystallis and the other four Kingdoms of the region.

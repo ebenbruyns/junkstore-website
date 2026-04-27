@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11774"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rogue-legacy"
-protondb_url: "https://www.protondb.com/app/241600"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rogue_Legacy"
+pcgamingwiki_url: ""
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/rogue-legacy?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-A genealogical rogue-"LITE" where anyone can be a hero. Each time you die, your unique child will succeed you. One child might be colorblind, another might be a dwarf with vertigo. But that's OK, because no one is perfect, and you don't have to be to succeed.
+You control a family of characters one at a time, and when your character dies, you choose who his or her successor is, whether it is a barbarian son of yours who has OCD, your daughter who became a ninja even though she can't see well, an assassin who is fighting for the gays, or a miner who wants to collect gold! Traits are randomized each time upon death, leading to multiple playthroughs with 35 traits, each character will be unique.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/79899"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/cygni-all-guns-blazing-98f872"
-protondb_url: "https://www.protondb.com/app/1248080"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cygni:_All_Guns_Blazing"
+pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/cygni-all-guns-blazing/"
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-An unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes CYGNI the vanguard for the next generation of shoot-em ups. Outgunned, outmanned and out on your own, plunge into a sky full of hell in a last-ditch battle for survival.
+It's a twin-stick vertical scrolling Shooter hybrid with a cinematic flare:
+
+An unrelenting onslaught of eye-popping visuals, ear bursting soundscapes and mind-melting action makes Cygni the vanguard for the next generation of shoot-em ups.

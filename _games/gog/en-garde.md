@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/129877"
 
 # Links
 store_url: "https://www.gog.com/en/game/en_garde"
-protondb_url: "https://www.protondb.com/app/1654660"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/En_Garde%21"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

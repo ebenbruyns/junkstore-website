@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/34956"
 
 # Links
 store_url: "https://www.gog.com/en/game/golf_with_your_friends"
-protondb_url: "https://www.protondb.com/app/431240"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Golf_with_Your_Friends"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

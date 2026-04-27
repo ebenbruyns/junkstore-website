@@ -18,7 +18,7 @@ publisher: The Digital Lounge
 developer: Goblinz Enterprises Ltd
 genre: Adventure, Casual
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "November 2, 2018"
 game_modes: ["Single-player"]
 languages: ["English*","Russian","French","German","Spanish - Spain","Dutch","Ukrainian","Portuguese - Brazil","Italian","Romanian"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/67867"
 
 # Links
 store_url: "https://www.gog.com/en/game/true_fear_forsaken_souls_part_2"
-protondb_url: "https://www.protondb.com/app/935580"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/True_Fear:_Forsaken_Souls_Part_2"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

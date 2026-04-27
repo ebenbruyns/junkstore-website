@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/65277"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/toejam-and-earl-back-in-the-groove-cddc16"
-protondb_url: "https://www.protondb.com/app/516110"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ToeJam_%26_Earl:_Back_in_the_Groove!"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/toejam-earl-back-in-the-groove?ftag=MCD-06-10aaa1f"
 
@@ -78,6 +78,5 @@ is_featured: false
 owned: true
 ---
 
-ToeJam & Earl: Back in the Groove is a mash-up of the best features from the classic console games with a ton of funky fresh improvements.
-
-Relive the original roguelike game with new 4 player online and local co-op, crazy Earthlings, weird presents and aliens from Funkotron!
+ToeJam and Earl have crash-landed back on Earth in ToeJam and Earl: Back in the Groove!, a funky fresh rogue-like adventure infused with old skool hip-hop and jam packed with awesome throwbacks to the 1991 classic.
+The iconic '90s duo is back in the groove with all-new presents to help them navigate this wack planet "Earth" and retrieve all the lost pieces to the Rapmaster Rocket. Team up for co-op play to discover secret locations, hidden presents and new friends as you make your way through a constantly changing and unpredictable world!

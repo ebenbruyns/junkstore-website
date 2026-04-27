@@ -18,7 +18,7 @@ publisher: Capcom
 developer: Capcom
 genre: Action, Horror, Survival
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 16
+age_rating_summary: ESRB 17
 release_date: "September 1, 2024"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1630229434"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Three years ago, a scientist died during an experiment on 'Third Energy', a clean energy source. Government funding was cut, and the incident was considered insignificant. Until now.

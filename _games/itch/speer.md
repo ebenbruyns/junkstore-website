@@ -3,7 +3,7 @@ layout: game-page
 title: "[Speer] - Steam Deck Compatibility"
 game_title: "[Speer]"
 slug: "speer"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/speer/
 
@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://ohsat-andrej.itch.io/speer"
-protondb_url: "https://www.protondb.com/app/1945800"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

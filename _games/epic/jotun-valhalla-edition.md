@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/30623"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jotun"
-protondb_url: "https://www.protondb.com/app/323580"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Jotun"
+pcgamingwiki_url: ""
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/jotun?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Jotun is a hand-drawn action-exploration game set in Norse mythology. In Jotun, you play Thora, a Viking warrior who died an inglorious death and must prove herself to the Gods to enter Valhalla. Impress the Gods!
+Jotun is a hand-drawn action-exploration game set in Norse mythology. In Jotun, you play Thora, a Norse warrior who has died an inglorious death and must prove herself to the Gods to enter Valhalla.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/72916"
 
 # Links
 store_url: "https://www.gog.com/en/game/vampire_the_masquerade_coteries_of_new_york"
-protondb_url: "https://www.protondb.com/app/1096410"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire%3A_The_Masquerade_-_Coteries_of_New_York"
+pcgamingwiki_url: ""
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/vampire-the-masquerade---coteries-of-new-york?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1636588470"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Coteries of New York presents the struggle for power between two vampiric factions: Camarilla and Anarchs among the iconic buildings and night lights of Big Apple.

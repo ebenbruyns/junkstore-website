@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/89898"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gas-station-simulator-ee93c7"
-protondb_url: "https://www.protondb.com/app/1149620"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gas_Station_Simulator"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/gas-station-simulator?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Buy an abandoned gas station and restore it to its full glory. Renovate, upgrade and expand upon the offered services to keep up with your clients demands.
+Gas Station Simulator is all about renovating, expanding and running a gas station along a highway in the middle of a desert. Freedom of choice and multiple approaches to run your business and deal with pressure are key ingredients in this game.

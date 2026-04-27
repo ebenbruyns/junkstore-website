@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45615"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/animation-throwdown-the-quest-for-cards"
-protondb_url: "https://www.protondb.com/app/591960"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Animation_Throwdown:_The_Quest_for_Cards"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/animation-throwdown-the-quest-for-cards/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Family Guy, Bob's Burgers, Futurama, American Dad, and King of the Hill join forces in Animation Throwdown, your favorite new collectible card game.
+Family Guy, Bob's Burgers, Futurama, American Dad, and King of the Hill join forces in Animation Throwdown, your favorite new collectible card game. Collect your favorite characters, combine cards to make hilarious combos, and battle your way through an adventure of animated proportions.

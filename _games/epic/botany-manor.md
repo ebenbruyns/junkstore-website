@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/116071"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/botany-manor-e7c456"
-protondb_url: "https://www.protondb.com/app/1425350"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Botany_Manor"
+pcgamingwiki_url: ""
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/botany-manor?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora.
+Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora. Grow each plant to discover the mysterious qualities they hold…

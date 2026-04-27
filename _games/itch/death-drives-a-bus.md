@@ -3,7 +3,7 @@ layout: game-page
 title: "Death Drives a Bus - Steam Deck Compatibility"
 game_title: "Death Drives a Bus"
 slug: "death-drives-a-bus"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/death-drives-a-bus/
 
@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://tallbeard.itch.io/death-drives-a-bus"
-protondb_url: "https://www.protondb.com/app/1400210"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

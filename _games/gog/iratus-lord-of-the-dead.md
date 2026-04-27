@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/69397"
 
 # Links
 store_url: "https://www.gog.com/en/game/iratus_lord_of_the_dead"
-protondb_url: "https://www.protondb.com/app/807120"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Iratus:_Lord_of_the_Dead"
+pcgamingwiki_url: ""
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/iratus-lord-of-the-dead?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Iratus: Lord of the Dead is a turn-based tactical roguelike RPG set in a dark fantasy universe. Lead an army of undead to help an angry necromancer in his quest to reach the surface world and bring death to the mortal realms!
+Iratus: Lord of the Dead is a dark, challenging turn-based roguelike RPG where you play as an evil necromancer escaping from your dungeon prison to once again embark on the domination of the world.

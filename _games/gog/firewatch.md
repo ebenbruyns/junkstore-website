@@ -18,7 +18,7 @@ publisher: Panic
 developer: Campo Santo
 genre: adventure, indie
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 16
+age_rating_summary: ESRB 17
 release_date: "February 1, 2016"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/26806"
 
 # Links
 store_url: "https://www.gog.com/en/game/firewatch"
-protondb_url: "https://www.protondb.com/app/383870"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Firewatch"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/firewatch?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1459256379"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Firewatch is a single-player first-person video game where you, as a man named Henry, explore the Wyoming wilderness after taking a summer job as a fire lookout.

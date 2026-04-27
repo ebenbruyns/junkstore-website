@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/126805"
 
 # Links
 store_url: "https://www.gog.com/en/game/raidborn"
-protondb_url: "https://www.protondb.com/app/1546090"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "2061161309"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Enough of wasting precious time by walking eternal distances and engaging in endless dialogue? Want to get to the fun part quickly?

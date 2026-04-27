@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68384"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sniper-ghost-warrior-contracts-c772b9"
-protondb_url: "https://www.protondb.com/app/973580"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sniper%3A_Ghost_Warrior_Contracts"
+pcgamingwiki_url: ""
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/sniper-ghost-warrior-contracts?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Become the ultimate assassin in the most realistic modern warfare sniping game available. Engage in an immersive single-player campaign across large, open-ended maps. Tactical thinking, stealth approach and precision in execution of long shots required.
+Experience the ultimate sniper gameplay, set against the rough terrain of the Siberian wilderness and featuring a brand new contracts system that encourages strategic thinking across engaging, replayable missions.

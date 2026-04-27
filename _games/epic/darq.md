@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/69726"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/darq-complete-edition"
-protondb_url: "https://www.protondb.com/app/433550"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/DARQ"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-DARQ tells the story of Lloyd, a boy who finds himself in the middle of a lucid nightmare. Unable to wake up, Lloyd has to face his fears and decipher the meaning of the dream.
+Darq tells the story of Lloyd, a boy who becomes aware of the fact that he is dreaming. To Lloyd's misfortune, the dream quickly turns into a nightmare and all attempts to wake up end in failure. While exploring the darkest corners of his subconscious, Lloyd learns how to survive the nightmare by bending the laws of physics and manipulating the fluid fabric of the dream world.

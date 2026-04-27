@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/167534"
 
 # Links
 store_url: "https://www.gog.com/en/game/gunslugs_3_rogue_tactics"
-protondb_url: "https://www.protondb.com/app/1012360"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gunslugs:_Rogue_Tactics"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/gunslugsrogue-tactics/"
 

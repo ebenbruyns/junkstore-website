@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/16882"
 
 # Links
 store_url: "https://www.gog.com/en/game/gunslugs"
-protondb_url: "https://www.protondb.com/app/371890"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gunslugs"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/gunslugs/"
 

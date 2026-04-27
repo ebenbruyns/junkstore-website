@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/82067"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/suicide-squad-kill-the-justice-league"
-protondb_url: "https://www.protondb.com/app/315210"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Suicide_Squad%3A_Kill_the_Justice_League"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-From the creators of Batman: Arkham, Suicide Squad: Kill the Justice League is a genre-defying third-person action shooter where the ultimate band of misfits must do the impossible: Kill the Justice League.
+Suicide Squad: Kill the Justice League is an action-adventure shooter developed by Rocksteady Studios. Set in Metropolis, players control Harley Quinn, Deadshot, Captain Boomerang, and King Shark as they battle a brainwashed Justice League under Brainiac's control. The game features third-person combat, open-world exploration, and live-service elements.

@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/97552"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/monster-harvest-75f018"
-protondb_url: "https://www.protondb.com/app/1363350"
+protondb_url: ""
 protondb_report_url: "https://www.protondb.com/app/1363350#hsoq7Rj16L"
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Monster Harvest is a monster collecting and farming action RPG with a twist! Grow, collect and mutate your crops then take them into battle!
+Monster Harvest is a monster collecting and farming action RPG with a twist! Grow, collect and mutate your crops then take them into battle! Filled with places to discover and multiple ways to build your farm, get ready to craft, explore and battle across the vibrant world of Planimal Point.

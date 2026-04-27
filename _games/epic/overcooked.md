@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/83776"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/overcooked"
-protondb_url: "https://www.protondb.com/app/448510"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Overcooked!"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "http://www.metacritic.com/game/pc/overcooked?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Sage"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Overcooked! is a co-op cooking game for 1-4 players. Working as a team, you and your fellow chefs must prepare, cook and serve up a variety of tasty orders before the baying customers storm out. Take part in an epic journey across the Onion Kingdom and tackle an increasingly challenging and bizarre gauntlet of kitchens which will push your skills of co-operation and co-ordination to the very limits.

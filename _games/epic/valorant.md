@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/76906"
 store_url: "https://store.epicgames.com/en-US/p/valorant"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Valorant"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/valorant/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork.
+Valorant is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise gunplay, and adaptive teamwork.

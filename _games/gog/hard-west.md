@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/28907"
 
 # Links
 store_url: "https://www.gog.com/en/game/hard_west"
-protondb_url: "https://www.protondb.com/app/307670"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hard_West"
+pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/hard-west?ftag=MCD-06-10aaa1f"
 

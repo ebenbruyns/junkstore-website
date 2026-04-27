@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/48142"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/cat-quest-8373e0"
-protondb_url: "https://www.protondb.com/app/593280"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cat_Quest"
+pcgamingwiki_url: ""
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/cat-quest?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,5 @@ is_featured: false
 owned: true
 ---
 
-The multi award-winning Action RPG. Cat Quest's loot-fuelled cat-venture is as beautifully crafted, as its combat and magic are ultra-satisfying. Universally adored by critics - it'll have you purring for joy!
+Cat Quest is a 2D open world RPG with the exploration of Skyrim, but set in the visual style of an overworld. This is a fantasy world that asks the question of how different it would be if cats lived in it instead of humans!
+Go to places like the Catpital where the Lion King rules, or experience delicacies like the catnip pie! Talk to the locals, some already on their 7th or 8th lives(what? not all cats have nine lives y'know), and go on a catventure through a world you've never seen before!

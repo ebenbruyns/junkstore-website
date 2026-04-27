@@ -18,7 +18,7 @@ publisher: Konami
 developer: Team Silent
 genre: adventure
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "June 1, 2004"
 game_modes: ["Single player"]
 languages: ["English","French","German","Italian","Spanish"]
@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/8527"
 store_url: "https://www.gog.com/en/game/silent_hill_4_the_room"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Silent_Hill_4%3A_The_Room"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/silent-hill-4-the-room/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1141086411"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Silent Hill 4: The Room is the fourth installment in the Silent Hill survival horror series. The game is similar to the past entries in terms of atmosphere, never letting the player know what's behind the next corner or down the street.

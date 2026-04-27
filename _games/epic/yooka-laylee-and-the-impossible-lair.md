@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68031"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/yooka-laylee-and-the-impossible-lair"
-protondb_url: "https://www.protondb.com/app/846870"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Yooka-Laylee_and_the_Impossible_Lair"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/yooka-laylee-and-the-impossible-lair?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,8 @@ is_featured: false
 owned: true
 ---
 
-Yooka-Laylee and the Impossible Lair is a brand-new platform adventure from some of the key creative talent behind 'Donkey Kong Country'. With their arch-nemesis Capital B up to no good the buddy duo needs to spring into action once again to save the day!
+Yooka and Laylee are back for a brand new adventure! Get ready for the ultimate challenge - the Impossible Lair!
+
+Capital B has created a Hivemind device and used it to enslave the toughest bees in the Royal Stingdom - the Royal Beettalion Guard!
+
+Liberate them from chapters filled with only the tastiest 2D platforming trimmings, and take on a 3D overworld that contains a wealth of puzzles, secrets and some familiar faces!

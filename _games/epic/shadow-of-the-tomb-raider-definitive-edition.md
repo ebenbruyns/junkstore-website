@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/102192"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/shadow-of-the-tomb-raider"
-protondb_url: "https://www.protondb.com/app/750920"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shadow_of_the_Tomb_Raider"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/shadow-of-the-tomb-raider?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,12 @@ is_featured: false
 owned: true
 ---
 
-In Shadow of the Tomb Raider Definitive Edition experience the final chapter of Lara’s origin as she is forged into the Tomb Raider she is destined to be.
+In Shadow of the Tomb Raider Definitive Edition experience the final chapter of Lara’s origin as she is forged into the Tomb Raider she is destined to be. Combining the base game, all seven DLC challenge tombs, as well as all downloadable weapons, outfits, and skills, Shadow of the Tomb Raider Definitive Edition is the ultimate way to experience Lara’s defining moment.
+
+Survive and Thrive In the Deadliest Place on Earth: Master an unforgiving jungle setting in order to survive. Explore underwater environments filled with crevasses and deep tunnel systems.
+
+Become One With the Jungle: Outgunned and outnumbered, Lara must use the jungle to her advantage. Strike suddenly and disappear like a jaguar, use mud as camouflage, and instill fear in enemies to sow chaos.
+
+Discover Dark and Brutal Tombs: Tombs are more terrifying than ever before, requiring advanced traversal techniques to reach them, and once inside they are filled with deadly puzzles.
+
+Uncover Living History: Discover a hidden city and explore the biggest hub space ever found in a Tomb Raider game.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/100591"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/farming-simulator-22"
-protondb_url: "https://www.protondb.com/app/1248130"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Farming_Simulator_22"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/14354"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-silent-age-eb6972"
-protondb_url: "https://www.protondb.com/app/352520"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Silent_Age"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,5 @@ is_featured: false
 owned: true
 ---
 
-Experience a post-apocalyptic world like never before in The Silent Age, a thrilling point-and-click adventure game. Use time travel to unravel the mystery behind humanity's disappearance and save the world from extinction. Start your journey now!
+Lose yourself in The Silent Age, the thrilling point-and-click adventure with over seven million mobile downloads, completely revamped and updated for PC.
+The Silent Age is an unforgettable experience. Can you, a simple janitor and literally, “the average Joe,” save humankind?

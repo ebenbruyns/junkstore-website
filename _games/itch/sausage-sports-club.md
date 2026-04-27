@@ -3,7 +3,7 @@ layout: game-page
 title: "Sausage Sports Club - Steam Deck Compatibility"
 game_title: "Sausage Sports Club"
 slug: "sausage-sports-club"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/sausage-sports-club/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://chriswade.itch.io/sausage-sports-club"
-protondb_url: "https://www.protondb.com/app/574120"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sausage_Sports_Club"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/127090"
 
 # Links
 store_url: "https://www.gog.com/en/game/spells_secrets"
-protondb_url: "https://www.protondb.com/app/1518220"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

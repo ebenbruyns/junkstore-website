@@ -3,7 +3,7 @@ layout: game-page
 title: "An Outcry, Prelude - Steam Deck Compatibility"
 game_title: "An Outcry, Prelude"
 slug: "an-outcry-prelude"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/an-outcry-prelude/
 
@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://quinnk.itch.io/an-outcry"
-protondb_url: "https://www.protondb.com/app/1817470"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

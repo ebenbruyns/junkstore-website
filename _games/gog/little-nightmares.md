@@ -18,7 +18,7 @@ publisher: Bandai Namco Entertainment
 developer: Tarsier Studios
 genre: adventure, strategy, indie, platform, puzzle
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 16
+age_rating_summary: ESRB 13
 release_date: "April 1, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/39417"
 
 # Links
 store_url: "https://www.gog.com/en/game/little_nightmares"
-protondb_url: "https://www.protondb.com/app/424840"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Little_Nightmares"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/little-nightmares?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1433377508"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Little Nightmares is a puzzle-platform horror adventure game developed by Tarsier Studios and published by Bandai Namco Entertainment. Set in a mysterious world, Little Nightmares follows the journey of Six, a hungry little girl who must escape the Maw, an iron vessel inhabited by monstrous, twisted beings.

@@ -3,7 +3,7 @@ layout: game-page
 title: "Macbat 64: Journey of a Nice Chap - Steam Deck Compatibility"
 game_title: "Macbat 64: Journey of a Nice Chap"
 slug: "macbat-64-journey-of-a-nice-chap"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/macbat-64-journey-of-a-nice-chap/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://siactro.itch.io/macbat64"
-protondb_url: "https://www.protondb.com/app/568040"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Macbat_64"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

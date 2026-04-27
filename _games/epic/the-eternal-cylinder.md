@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/80034"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-eternal-cylinder"
-protondb_url: "https://www.protondb.com/app/865680"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Eternal_Cylinder"
+pcgamingwiki_url: ""
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/the-eternal-cylinder?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Control a herd of strange creatures called Trebhums and explore an unforgettable alien world filled with exotic lifeforms and surreal environments. Discover dozens of mutations and evolve to reach new areas, overcome puzzles and survive a dangerous world. 
+In The Eternal Cylinder, players control a herd of adorable creatures called Trebhums and must explore a strange alien world filled with exotic lifeforms, surreal environments, and the constant threat of the Cylinder, a gargantuan rolling structure of ancient origin which crushes everything in its path. This unique ecosystem is a massive, procedurally generated land with unique animal AI, real-time world destruction, and organic exploration and puzzle design to create emergent gameplay that ensures no two playthroughs are ever the same.

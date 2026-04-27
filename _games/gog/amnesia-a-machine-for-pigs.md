@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/438"
 
 # Links
 store_url: "https://www.gog.com/en/game/amnesia_a_machine_for_pigs"
-protondb_url: "https://www.protondb.com/app/239200"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia%3A_A_Machine_for_Pigs"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/amnesia-a-machine-for-pigs?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-First-person horror that will drag you to the depths of greed, power and madness. Developed by The Chinese Room, the creators of Dear Esther, and published Frictional Games, the studio behind Amnesia: The Dark Descent.
+From the creators of Amnesia: The Dark Descent and Dear Esther comes a new first-person horrorgame that will drag you to the depths of greed power and madness. It will bury its snout into your ribs and it will eat your heart.

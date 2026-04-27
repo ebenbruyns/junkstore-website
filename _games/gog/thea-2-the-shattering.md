@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/64270"
 
 # Links
 store_url: "https://www.gog.com/en/game/thea_2_the_shattering"
-protondb_url: "https://www.protondb.com/app/606230"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thea_2%3A_The_Shattering"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

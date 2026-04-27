@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/12079"
 
 # Links
 store_url: "https://www.gog.com/en/game/kerbal_space_program"
-protondb_url: "https://www.protondb.com/app/220200"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Kerbal_Space_Program"
+pcgamingwiki_url: ""
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/kerbal-space-program?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.
+In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics. Launch your Kerbal crew into orbit and beyond (while keeping them alive) to explore moons and planets in the Kerbol solar system, constructing bases and space stations to expand the reach of your expedition.

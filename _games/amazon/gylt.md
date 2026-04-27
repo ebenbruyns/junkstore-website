@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/67988"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/2206210"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gylt"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/gylt/"
 

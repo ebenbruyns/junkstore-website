@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/70865"
 
 # Links
 store_url: "https://www.gog.com/en/game/gamedec"
-protondb_url: "https://www.protondb.com/app/917720"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gamedec"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/gamedec?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Gamedec is a single-player cyberpunk isometric RPG. You are a game detective, who solves crimes inside virtual worlds. Use your wits to gather info from your witnesses and suspects, getting to the bottom of deceptive schemes. You are the sum of your choices.
+Gamedec is an adaptive cyberpunk RPG. As a private detective, it’s your job to solve crimes inside virtual worlds. What decisions will you make in a world where child slavery is a F2P game, where murder over a game-clan dispute is an every-day reality? Who will you become in the XXII century?

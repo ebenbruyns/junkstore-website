@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/50275"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jackbox-party-pack-4"
-protondb_url: "https://www.protondb.com/app/610180"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Jackbox_Party_Pack_4"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The biggest and fourthiest addition to this storied party game franchise features not five but FIVE AND A HALF crowd-slaying games!
+The fourth pack in this storied party game franchise features Fibbage 3 and its new game mode, Fibbage: Enough About You; the twisted web game Survive the Internet; the dating contest Monster Seeking Monster; the deranged debate match Bracketeering; and the one-up art game Civic Doodle.

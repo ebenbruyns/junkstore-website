@@ -3,7 +3,7 @@ layout: game-page
 title: "A Short Hike - Steam Deck Compatibility"
 game_title: "A Short Hike"
 slug: "a-short-hike"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-short-hike/
 
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/66152"
 
 # Links
 store_url: "https://adamgryu.itch.io/a-short-hike"
-protondb_url: "https://www.protondb.com/app/1055540"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Short_Hike"
+pcgamingwiki_url: ""
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/a-short-hike/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak. Follow the trails or explore the backcountry as you make your way to the summit. Along the way, meet other hikers, discover hidden treasures, and take in the world around you
+Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak Provincial Park as you make your way to the summit.

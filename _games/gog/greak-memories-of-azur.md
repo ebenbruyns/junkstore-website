@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/83340"
 
 # Links
 store_url: "https://www.gog.com/en/game/greak_memories_of_azur"
-protondb_url: "https://www.protondb.com/app/1311070"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Greak:_Memories_of_Azur"
+pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/greak-memories-of-azur/"
 

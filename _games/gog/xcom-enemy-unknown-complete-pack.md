@@ -18,7 +18,7 @@ publisher: 2K Games
 developer: Firaxis Games
 genre: Strategy
 franchise: 
-age_rating_summary: ESRB 6 · PEGI 12
+age_rating_summary: ESRB 6
 release_date: "October 11, 2012"
 game_modes: ["Single-player","Multi-player"]
 languages: ["English*","German*","French*","Italian*","Korean","Spanish - Spain*","Russian*","Japanese","Polish*","Traditional Chinese*languages with full audio support"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11397"
 
 # Links
 store_url: "https://www.gog.com/en/game/xcom_enemy_unknown_complete_pack"
-protondb_url: "https://www.protondb.com/app/200510"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/XCOM:_Enemy_Unknown"
+pcgamingwiki_url: ""
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/pc/xcom-enemy-unknown?ftag=MCD-06-10aaa1f"
 

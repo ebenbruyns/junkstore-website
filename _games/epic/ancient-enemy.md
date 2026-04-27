@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/76938"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ancient-enemy"
-protondb_url: "https://www.protondb.com/app/993790"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ancient_Enemy"
+pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/ancient-enemy/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Ancient Enemy is an RPG card battler set in a crumbling world where the forces of evil have already won. Blast distorted enemies with a satisfying range of spells and abilities. Journey into a scarred wilderness and defeat the deadliest foe of all!
+Ancient Enemy is an RPG card battler set in a crumbling world where the forces of evil have already won. Blast distorted enemies with a satisfying range of spells and abilities. Journey into a scarred wilderness and draw power and hope from the landscape to defeat the deadliest foe of all!

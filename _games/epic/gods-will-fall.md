@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/87797"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gods-will-fall"
-protondb_url: "https://www.protondb.com/app/1243690"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gods_Will_Fall"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Experience the trials of 8 warriors in their plight to sever the gods’ grip on humanity as you take on legions of beasts in each of the gods’ realms.
+The gods’ torturous rule over humanity has lasted for millennia. Bent on cruelty and suffering, they demand to be served with blind worship through an oath of fealty pledged from every man, woman and child. To those who don't submit to the gods’ will; a slow and merciless death awaits.

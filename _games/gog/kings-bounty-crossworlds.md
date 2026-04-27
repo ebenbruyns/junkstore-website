@@ -18,7 +18,7 @@ publisher: 1C Company, Fulqrum Publishing
 developer: Katauri Interactive
 genre: role-playing, strategy
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "November 19, 2009"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/5018"
 
 # Links
 store_url: "https://www.gog.com/en/game/kings_bounty_crossworlds_goty"
-protondb_url: "https://www.protondb.com/app/63910"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/King%27s_Bounty%3A_Crossworlds"
+pcgamingwiki_url: ""
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/kings-bounty-crossworlds?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659154"
 is_featured: false
-owned: false
+owned: true
 ---
 
 King's Bounty: Crossworlds is the expansion for the famous King's Bounty: Armored Princess role-playing game.

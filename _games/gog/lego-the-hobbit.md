@@ -18,7 +18,7 @@ publisher: WB Games, MGM Interactive
 developer: "Traveller's Tales"
 genre: Role-playing (RPG), Adventure, Puzzle
 franchise: 
-age_rating_summary: ESRB 10 · PEGI 7
+age_rating_summary: ESRB 10
 release_date: "April 8, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer","Split screen"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/16635"
 
 # Links
 store_url: "https://www.gog.com/en/game/lego_the_hobbit"
-protondb_url: "https://www.protondb.com/app/285160"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_The_Hobbit"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

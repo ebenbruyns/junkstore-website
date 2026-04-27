@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/87524"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ender-lilies-quietus-of-the-knights-9cea76"
-protondb_url: "https://www.protondb.com/app/1369630"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ender_Lilies%3A_Quietus_of_the_Knights"
+pcgamingwiki_url: ""
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/ender-lilies-quietus-of-the-knights?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-ENDER LILIES is a dark fantasy 2D action RPG about unraveling the mysteries of a destroyed kingdom. On this sorrowful journey, encounter horrific enemies against whom a moment of inattention could be fatal.
+Ender Lilies is a dark fantasy 2D Action RPG about unraveling the mysteries of a nation destroyed by a cataclysmic event. The fallen Kingdom of End is a tragic and beautiful world featuring a majestic castle, submerged forests and forbidden underground areas.
+
+On this sorrowful journey, encounter horrific enemies against whom a moment of inattention could be fatal. By releasing foes from their undying curse, you may gain their strength. Overcome the hardships of your journey and uncover the truth with the aid of the fallen knights.

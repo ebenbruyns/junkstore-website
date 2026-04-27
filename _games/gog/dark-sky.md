@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/154142"
 
 # Links
 store_url: "https://www.gog.com/en/game/dark_sky"
-protondb_url: "https://www.protondb.com/app/1454960"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Sky"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

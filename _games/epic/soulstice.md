@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93959"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/soulstice"
-protondb_url: "https://www.protondb.com/app/1602080"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Soulstice"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Explore a dark world brimming with hidden mysteries, master a diverse combat system, and inhabit the dual forces of two sisters in a coming-of-age dark fantasy story with fast-paced action, vicious enemies, and spectacular boss fights.
+Explore a dark world brimming with hidden mysteries, master a diverse combat system, and inhabit the dual forces of two sisters in a coming-of-age fantasy story with fast-paced action, vicious enemies and breathtaking boss fights.

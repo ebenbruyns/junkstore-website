@@ -18,7 +18,7 @@ publisher: Team17
 developer: Team17
 genre: Strategy, Turn-based strategy (TBS)
 franchise: 
-age_rating_summary: ESRB 10 · PEGI 12
+age_rating_summary: ESRB 10
 release_date: "October 9, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11315"
 
 # Links
 store_url: "https://www.gog.com/en/game/worms_revolution"
-protondb_url: "https://www.protondb.com/app/200170"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Worms_Revolution"
+pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/worms-revolution?ftag=MCD-06-10aaa1f"
 

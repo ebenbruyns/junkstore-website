@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/89573"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/teenage-mutant-ninja-turtles-shredders-revenge"
-protondb_url: "https://www.protondb.com/app/1361510"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Teenage_Mutant_Ninja_Turtles%3A_Shredder%27s_Revenge"
+pcgamingwiki_url: ""
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/teenage-mutant-ninja-turtles-shredders-revenge?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Teenage Mutant Ninja Turtles: Shredder’s Revenge reunites Leonardo, Michelangelo, Donatello and Raphael as they kick shell in a beautifully realized beat ’em up.
+Teenage Mutant Ninja Turtles: Shredder's Revenge is a side-scrolling beat 'em up developed by Tribute Games and published by DotEmu. Inspired by the 1987 Teenage Mutant Ninja Turtles animated series, the game pays homage to classic TMNT titles like Turtles in Time, featuring retro-inspired pixel art and dynamic combat. Players control Leonardo, Michelangelo, Donatello, Raphael, or other allies, each with unique abilities, as they battle through various levels to thwart Shredder and Krang's plans to conquer New York City. The game supports solo play or co-op for up to six players, blending nostalgic design with modern gameplay mechanics.

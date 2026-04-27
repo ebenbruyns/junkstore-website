@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/82601"
 
 # Links
 store_url: "https://www.gog.com/en/game/chained_echoes"
-protondb_url: "https://www.protondb.com/app/1229240"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Chained_Echoes"
+pcgamingwiki_url: ""
 metacritic_score: 91
 metacritic_url: "https://www.metacritic.com/game/pc/chained-echoes?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "2067731250"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Take up your sword, channel your magic or board your Mech. Chained Echoes is a 16-bit SNES style RPG set in a fantasy world where dragons are as common as piloted mechanical suits.

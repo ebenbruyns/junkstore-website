@@ -18,7 +18,7 @@ publisher: Activision, LucasArts, Aspyr Media
 developer: BioWare
 genre: role-playing, adventure
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "July 1, 2003"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/9111"
 
 # Links
 store_url: "https://www.gog.com/en/game/star_wars_knights_of_the_old_republic"
-protondb_url: "https://www.protondb.com/app/32370"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars%3A_Knights_of_the_Old_Republic"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1207666283"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Choose Your Path! Set 4,000 years before the Galactic Empire, you are the last hope for the Jedi Order and the Republic...

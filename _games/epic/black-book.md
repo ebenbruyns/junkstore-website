@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/72957"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/black-book"
-protondb_url: "https://www.protondb.com/app/1138660"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Black_Book"
+pcgamingwiki_url: ""
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/black-book?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-“Black Book” is a dark RPG Adventure, based on Slavic myths, in which you play as a young sorceress. Fight evil forces in card-based battles and explore the world, where humans live alongside mythological creatures.
+A fusion of card-based RPGs and Adventure games, “Black Book” is a haunting tale of a young sorceress, who gave her life to serve the dark forces. Dive into the cold, yet alluring world of folk tales - and uncover the secrets that hide in the darkness.

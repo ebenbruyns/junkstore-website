@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/153472"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rennsport-3776b8"
-protondb_url: "https://www.protondb.com/app/2077750"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rennsport"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-RENNSPORT is the playground that car enthusiasts have been waiting for. It is a photo-realistic racing simulation offering the highest levels of competition and a space for drivers, modders, and car lovers to come together to drive, and share their passion for racing and cars.
+A racing simulation developed in Unreal Engine 5, making use of feedback from professional real world drivers to simulate car physics and behavior in a realistic way.

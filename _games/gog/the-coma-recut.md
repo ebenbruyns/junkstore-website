@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/49417"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_coma_recut"
-protondb_url: "https://www.protondb.com/app/600090"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Coma%3A_Recut"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

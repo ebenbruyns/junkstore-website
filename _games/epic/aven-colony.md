@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45626"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/aven-colony"
-protondb_url: "https://www.protondb.com/app/484900"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aven_Colony"
+pcgamingwiki_url: ""
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/pc/aven-colony?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Build a new home for humanity in Aven Colony. Discover Aven Prime - an alien planet of deserts, tundras, and wetlands light years from earth. Build your colonies into massive, sprawling cities whilst dealing with the threats faced when settling on a new world.
+Aven Colony is a city-building and management sim that tells the story of humanity’s first settlement of an extrasolar world. Land on exotic Aven Prime, where you must construct and maintain the infrastructure and ensure the well-being of your citizens, all while dealing with the often harsh realities of an exotic alien world.
+
+On top of this, you’ll face the greatest challenge of all — keeping your people happy. How will you feed your people? Will you be able to provide them with enough jobs, entertainment, retail outlets, and other services while protecting them from the planet’s many dangers? What social policies will you enact to influence your people? The future of the colony rests on your decisions.

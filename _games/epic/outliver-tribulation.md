@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/111433"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/outliver-tribulations-679884"
-protondb_url: "https://www.protondb.com/app/1236930"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-A dark history comes calling in this "African Mythology meets Survival-Horror and Souls-like" experience! You play as the soldier who mysteriously ends up in a supernatural realm, of which her only way out is to partake in an ancient ritual... or so she believes.
+Outliver: Tribulation is an atmospheric, story-driven survival horror action game where you play as Bolanle Gboyega a soldier who mysteriously finds herself in the Realm of Tribulations, a supernatural realm of African mythology where she soon discovers she has to undergo an ancient ritual in order to regain passage back to her realm… or so she thinks.

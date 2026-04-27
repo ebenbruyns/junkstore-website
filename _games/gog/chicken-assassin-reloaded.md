@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/69440"
 
 # Links
 store_url: "https://www.gog.com/en/game/chicken_assassin_reloaded"
-protondb_url: "https://www.protondb.com/app/489610"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Chicken_Assassin_-_Master_of_Humiliation"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/chicken-assassin-reloaded/"
 

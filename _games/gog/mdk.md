@@ -18,7 +18,7 @@ publisher: Playmates Interactive Entertainment, Interplay Entertainment
 developer: Shiny Entertainment
 genre: platform, shooter
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "April 30, 1997"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/5750"
 
 # Links
 store_url: "https://www.gog.com/en/game/mdk"
-protondb_url: "https://www.protondb.com/app/38450"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/MDK"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "6"
 is_featured: false
-owned: false
+owned: true
 ---
 
 The game tells the story of Kurt Hectic, a janitor who reluctantly must attempt to save Earth from an alien invasion of gigantic strip mining city-size vehicles named "Minecrawlers".

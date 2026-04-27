@@ -3,7 +3,7 @@ layout: game-page
 title: "Arlo the Rabbit - Steam Deck Compatibility"
 game_title: "Arlo the Rabbit"
 slug: "arlo-the-rabbit"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/arlo-the-rabbit/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://famicam.itch.io/arlo-the-rabbit"
-protondb_url: "https://www.protondb.com/app/854450"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Arlo_The_Rabbit"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

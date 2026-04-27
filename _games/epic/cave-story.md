@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1618"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/cave-story"
-protondb_url: "https://www.protondb.com/app/200900"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cave_Story%2B"
+pcgamingwiki_url: ""
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/cave-story-plus?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Arguably the most well-known indie game of all time, Cave Story+ features an original story brimming with personality, mystery and fast-paced fun. Run, jump, shoot, fly and explore your way through a massive adventure reminiscent of classic 8 and 16-bit games!
+A fun epic 2D platformer side scroller that brings a refreshing look to not only retro games, but this is what a "Remastered Edition" looks like.  Now with multiple endings.

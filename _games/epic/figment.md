@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/48177"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/figment"
-protondb_url: "https://www.protondb.com/app/493540"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/figment?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,8 @@ is_featured: false
 owned: true
 ---
 
-Figment is an action-adventure game that invites you to explore a unique surreal universe filled with music, humor and multi layered narrative.
+A musical action-adventure set in the recesses of the human mind... Welcome to the world of Figment. A strange and surreal world; a place filled with our deepest thoughts, urges and memories, populated by the many voices we hear in our heads.
+
+This mind has been quiet and calm for many years. But something has changed. New thoughts have started to emerge - taking the shape of nightmarish creatures who spread fear wherever they go. The only hope is for the grumpy Dusty, the mind's former voice of courage, to get back to his old self and help the mind to face its fears.
+
+Join Dusty and his ever-optimistic friend, Piper, on an adventure through the different sides of the mind, solving puzzles to set things straight, beating back the nightmares and seeking to restore the courage that's been lost.

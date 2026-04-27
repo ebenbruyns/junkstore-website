@@ -3,7 +3,7 @@ layout: game-page
 title: "A Nightmare's Trip - Steam Deck Compatibility"
 game_title: "A Nightmare's Trip"
 slug: "a-nightmares-trip"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-nightmares-trip/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://skyhour.itch.io/a-nightmares-trip"
-protondb_url: "https://www.protondb.com/app/1156630"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_NIGHTMARE%27S_TRIP"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

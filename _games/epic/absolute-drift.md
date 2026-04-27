@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/28913"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/absolute-drift"
-protondb_url: "https://www.protondb.com/app/320140"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Absolute_Drift"
+pcgamingwiki_url: ""
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/absolute-drift/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "19927295d6e3467887d4e830d8c85963"
 is_featured: false
-owned: false
+owned: true
 ---
 
-This is a drifting experience like no other. Journey from apprentice to master as you hone your skill in a gorgeous minimalist world. Push yourself to the limit on drifting tracks and wild mountain roads until you finally master the art of drifting.
+Master the art of drifting. Practice your skills in Free-Roam and compete in drift events such as Driftkhana and Mountain Drifting.

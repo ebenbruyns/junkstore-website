@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/129790"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lysfanga-9608f2"
-protondb_url: "https://www.protondb.com/app/2161620"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lysfanga%3A_The_Time_Shift_Warrior"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

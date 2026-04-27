@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1285"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/botanicula"
-protondb_url: "https://www.protondb.com/app/207690"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Botanicula"
+pcgamingwiki_url: ""
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/botanicula?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Five friends, little tree creatures, set out on a journey to save the last seed from their home tree which is infested by evil parasites.
+Humor-filled indie adventure game created by the makers of Machinarium.
+
+Like the previous games from Amanita Design, in Botanicula the player controls a protagonist (or multiple protagonists) while exploring the environment, solving puzzles and collecting items that are required for the obstacles that come in their way. The player is able to interact with other creatures and find easter eggs that are present in the lush environment. Like Machinarium, the game has no spoken or written dialogue.

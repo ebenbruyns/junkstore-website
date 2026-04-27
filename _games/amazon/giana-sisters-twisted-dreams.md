@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3930"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/223220"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Giana_Sisters:_Twisted_Dreams"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/giana-sisters-twisted-dreams?ftag=MCD-06-10aaa1f"
 

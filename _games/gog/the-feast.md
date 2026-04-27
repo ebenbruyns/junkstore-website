@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://www.gog.com/game/the-feast"
-protondb_url: "https://www.protondb.com/app/2221940"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Feast"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

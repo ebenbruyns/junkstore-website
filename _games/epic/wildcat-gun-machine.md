@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/77677"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/wildcat-gun-machine-c66c4e"
-protondb_url: "https://www.protondb.com/app/1288610"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wildcat_Gun_Machine"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

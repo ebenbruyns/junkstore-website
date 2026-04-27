@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/100477"
 store_url: "https://store.epicgames.com/en-US/p/kid-a-mnesia-exhibition"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Kid_A_Mnesia_Exhibition"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/kid-a-mnesia-exhibition/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-An upside-down digital/analogue universe created from original artwork and recordings to commemorate 21 years of Radiohead’s Kid A and Amnesiac. Coming in November 2021. Add it to your wishlist now.
+Kid A Mnesia Exhibition is an upside-down digital/analogue universe created from original artwork and recordings to commemorate 21 years of Radiohead’s Kid A and Amnesiac.

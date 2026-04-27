@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/123574"
 
 # Links
 store_url: "https://www.gog.com/en/game/mahokenshi"
-protondb_url: "https://www.protondb.com/app/1717640"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mah%C5%8Dkenshi"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

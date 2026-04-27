@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/keylocker-622bcc"
-protondb_url: "https://www.protondb.com/app/1325040"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Keylocker"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Keylocker is a Cyberpunk turn-based rhythm JRPG. As the electric singer, B0B0, you’ll choose your class, master a challenging combat system, and shake the foundations of Saturnite society in rhythm-game style!
+Keylocker is a Cyberpunk turn based rhythm JRPG inspired by the Mario&Luigi RPG series and Chrono Trigger, in which you play as the singer and songwriter, BOBO. Fuel your moves with the electric power of music in this unforgiving planet by using real-time execution of moves in rhythm game style! Battle the authorities, unlock the secrets of Saturn, play on your own bands' concerts and hack into the network to bring an end to this corrupt system, for better or worse.

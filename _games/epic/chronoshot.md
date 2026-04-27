@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/99818"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/chronoshot-4b6a41"
-protondb_url: "https://www.protondb.com/app/1326700"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Chronoshot is a free-to-play sci-fi arena shooting game, with specialized time mechanics. Time in the game moves when the player does, allowing players to set up shots, create combos, or examine the arena to determine their next move against a growing number of enemies.
+CHRONOSHOT is a free-to-play score-driven sci-fi arena shooting game, with specialized time mechanics. The player is equipped with a Jetpack, several weapons, and special ammunition which can be used to turn the tide against the enemy and dominate the leader board!

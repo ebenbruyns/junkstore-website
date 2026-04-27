@@ -18,7 +18,7 @@ publisher: Linux Game Publishing, Whiptail Interactive, Running With Scissors
 developer: Running With Scissors
 genre: Adventure, Indie, Shooter
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "April 14, 2003"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/7240"
 
 # Links
 store_url: "https://www.gog.com/game/postal-2"
-protondb_url: "https://www.protondb.com/app/223470"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Postal_2"
+pcgamingwiki_url: ""
 metacritic_score: 59
 metacritic_url: "https://www.metacritic.com/game/pc/postal-2-share-the-pain?ftag=MCD-06-10aaa1f"
 

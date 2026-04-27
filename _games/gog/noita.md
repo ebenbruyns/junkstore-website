@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/67295"
 
 # Links
 store_url: "https://www.gog.com/en/game/noita"
-protondb_url: "https://www.protondb.com/app/881100"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Noita"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1310457090"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Noita is a magical action roguelite set in a world where every pixel is physically simulated. Fight, explore, melt, burn, freeze and evaporate your way through the procedurally generated world using spells you've created yourself. Explore a variety of environments ranging from coal mines to freezing wastelands while delving deeper in search for unknown mysteries.

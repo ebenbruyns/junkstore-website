@@ -3,7 +3,7 @@ layout: game-page
 title: "A Dance of Fire and Ice - Steam Deck Compatibility"
 game_title: "A Dance of Fire and Ice"
 slug: "a-dance-of-fire-and-ice"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-dance-of-fire-and-ice/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://fizzd.itch.io/a-dance-of-fire-and-ice"
-protondb_url: "https://www.protondb.com/app/977950"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Dance_of_Fire_and_Ice"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

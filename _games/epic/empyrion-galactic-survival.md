@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/empyrion-galactic-survival-fbd99f"
-protondb_url: "https://www.protondb.com/app/383120"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Empyrion_-_Galactic_Survival"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Build and explore in a true space sandbox survival adventure. Construct mighty capital vessels, sprawling planetary settlements, and vast space stations in your galactic journey to discover the mysteries of Empyrion
+Empyrion - Galactic Survival is a 3D open world space sandbox survival adventure. Build mighty ships, menacing space stations and vast planetary settlements to explore, conquer or exploit a variety of different planets and the allegedly empty space!

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/53253"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-drone-racing-league-simulator"
-protondb_url: "https://www.protondb.com/app/641780"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Drone_Racing_League_Simulator"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-DRL Simulator® is the premier first-person view (FPV) racing game and simulator.  DRL SIM® offers a robust, evolving feature set, including high-intensity drone racing. It packs tracks that DRL's real world pilots compete on, with more added every season.
+This is what it feels like to fly in the cockpit of the fastest drones! The DRL Simulator will push the limits of your drone racing abilities and prepare you to fly in real life. Explore legendary locations and new worlds. Battle it out with your friends to the finish line. Crash nonstop without wrecking your drone and breaking the bank. Master this game and you can compete for a chance to become a professional pilot in the Drone Racing League!

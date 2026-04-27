@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/132657"
 
 # Links
 store_url: "https://www.gog.com/en/game/shogun_showdown"
-protondb_url: "https://www.protondb.com/app/2084000"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shogun_Showdown"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/86018"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/cozy-grove"
-protondb_url: "https://www.protondb.com/app/1458100"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cozy_Grove"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Welcome to Cozy Grove, a life-sim game about camping on a haunted, ever-changing island. As a Spirit Scout, you'll wander the island's forest each day, finding new hidden secrets and helping soothe the local ghosts.
+Welcome to Cozy Grove, a life-sim game camping on a haunted, ever-changing island. As a Spirit Scout, you’ll wander the island’s forest each day, finding new hidden secrets and help soothe the local ghosts. With a little time and a lot of crafting, you’ll bring colour and joy back to Cozy Grove!

@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/30904"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-walking-dead-no-mans-land-d3b769"
-protondb_url: "https://www.protondb.com/app/2936310"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-The Walking Dead: No Man’s Land is a turn-based tactical RPG based on AMC’s massive hit show “The Walking Dead”. In this action-packed strategy game you attempt to survive in a post-apocalyptic world.
+Join Rick, Daryl, Michonne and other iconic characters from AMC's The Walking Dead in the official mobile game of the show. Do you have what it takes to stay alive?
+
+The Walking Dead: No Man's Land is a thrilling, action-packed RPG where tactical choices make the difference between life and death. Only the strongest will survive so choose your team wisely: bring Michonne and dominate in close-quarter combat or send Rick to dispatch enemies from afar. Or perhaps you'll choose to snipe from a distance with Daryl's crossbow, or mow the herd down with Abraham's assault rifle.

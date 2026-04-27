@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68011"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sky-racket-4cf23a"
-protondb_url: "https://www.protondb.com/app/994500"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sky_Racket"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Sky Racket is a game that mixes two classic genres from the Arcade era: Shoot’em up and Brick Breakers. In a world where you are unable to attack, using your racket to strike enemy bullets back at them is your only option! Bounce bullets back at your foes and save the galaxy!
+The universe is in peril! Two kids are chosen to hold the powerful artifact "Sky Racket" and put a stop to an evil tyrant. Play as Racket Boy or Racket Girl, and with the help of cute and strong buddies, save this nonsense dystopian pixel art universe.

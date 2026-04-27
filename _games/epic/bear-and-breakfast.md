@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/94162"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bear-and-breakfast-77c209"
-protondb_url: "https://www.protondb.com/app/1136370"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bear_and_Breakfast"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

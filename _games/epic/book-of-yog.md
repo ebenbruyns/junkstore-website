@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/119211"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/book-of-yog-idle-rpg-74cebc"
-protondb_url: "https://www.protondb.com/app/1097430"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Book_of_Yog_Idle_RPG"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The Book of Yog is a 3D idle RPG game. You can rally heroes, develop the kingdom and explore the secrets of a lost world. Dozens of heroes, hundreds of skills, thousands of loot for you to combine freely. Come to embark on a journey to build the strongest team!
+The Book of Yog is a 3D idle RPG game presenting with Cel-Shading skills. You can call heroes, develop the kingdom and explore secrets of the lost world. Dozens of heroes, hundreds of skills, thousands of equipment, free combinations, come and form the most powerful team that belongs to you!

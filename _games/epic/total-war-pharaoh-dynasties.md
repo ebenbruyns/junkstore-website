@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/total-war-pharaoh-dynasties-f6a34c"
-protondb_url: "https://www.protondb.com/app/2951630"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Total_War:_Pharaoh"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Wage total war across the ancient world from the Aegean to Mesopotamia in Total War: PHARAOH DYNASTIES. Challenge the Bronze Age Collapse, build your dynasty and lead your faction to victory with new cultures, units and battle mechanics.
+Wage total war across the ancient world from the Aegean to Mesopotamia in this free addition to Total War: PHARAOH. Challenge the Bronze Age Collapse by building your own dynasty and leading your faction to victory with new cultures, new units and dramatic new battle mechanics.

@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tattoo-tycoon-b4352c"
-protondb_url: "https://www.protondb.com/app/2375260"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tattoo_Tycoon"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Become a tattoo artist and manage your very own tattoo parlor. Find the best designs for your clients, turning their vague ideas into stunning works of body art. Expand from a cozy personal studio into a thriving multi-parlor business across the diverse districts of Tattuga Bay.
+Become a tattoo artist and manage your own tattoo parlor. Find the perfect designs for your curious customers and turn their vague wishes into amazing skin art. Grow from a small personal studio to a multi-parlor business throughout the different districts of Tattuga Bay.

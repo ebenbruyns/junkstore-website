@@ -18,7 +18,7 @@ publisher: Atari, Inc.
 developer: BioWare
 genre: Role-playing (RPG), Adventure
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "December 12, 2005"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English","French","German","Italian","Polish","Spanish"]
@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/6521"
 store_url: "https://www.gog.com/en/game/neverwinter_nights_enhanced_edition_pack"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neverwinter_Nights"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/neverwinter-nights-diamond/"
 

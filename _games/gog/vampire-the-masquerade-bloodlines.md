@@ -18,7 +18,7 @@ publisher: Activision, Electronic Arts
 developer: Troika Games
 genre: role-playing
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "November 1, 2004"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10890"
 
 # Links
 store_url: "https://www.gog.com/en/game/vampire_the_masquerade_bloodlines"
-protondb_url: "https://www.protondb.com/app/2600"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire%3A_The_Masquerade_-_Bloodlines"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/vampire-the-masquerade---bloodlines?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659240"
 is_featured: false
-owned: false
+owned: true
 ---
 
 A first- and third-person Western RPG based on the Vampire: The Masquerade tabletop RPG with a heavy emphasis on character building and role-playing

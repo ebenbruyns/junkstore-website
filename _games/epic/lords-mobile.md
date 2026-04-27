@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/61832"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lords-mobile-014f32"
-protondb_url: "https://www.protondb.com/app/1041320"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lords_Mobile"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,6 @@ is_featured: false
 owned: true
 ---
 
-Clash with global players in this epic real-time strategy game!
+Want to clash with 50 million global players? Dive into LORDS MOBILE, the real-time-strategy mobile MMO game.
+
+Explore exotic magical lands thrown into chaos by terrifying monsters and powerful enemies. Choose your favorite heroes, make new friends, and charge fearlessly into war! Strike down your foes and build an empire!

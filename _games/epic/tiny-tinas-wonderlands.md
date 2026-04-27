@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93455"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tiny-tinas-wonderlands"
-protondb_url: "https://www.protondb.com/app/1286680"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tiny_Tina%27s_Wonderlands"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Embark on an epic adventure full of whimsy, wonder, and high-powered weaponry! Roll your own multiclass hero then shoot, loot, slash, and cast on a quest to stop the Dragon Lord.
+Embark on an epic adventure full of whimsy, wonder, and high-powered weaponry! Bullets, magic, and broadswords collide across this chaotic fantasy world brought to life by the unpredictable Tiny Tina.

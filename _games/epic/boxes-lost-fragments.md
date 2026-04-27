@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/144798"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/boxes-lost-fragments-079041"
-protondb_url: "https://www.protondb.com/app/2019810"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 84

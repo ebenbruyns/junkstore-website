@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/118740"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/redemption-reapers-54dabd"
-protondb_url: "https://www.protondb.com/app/2139300"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Redemption_Reapers"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,5 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Descending suddenly on the world, the macabre Mort armies destroy nation after nation, leaving humanity decimated in their wake.
-Among the forces resisting the Mort is a small band of mercenaries known as the Ashen Hawk Brigade.
+Descending suddenly on the world, the macabre Mort armies destroy nation after nation, leaving humanity decimated in their wake. Among the forces resisting the Mort is a small band of mercenaries known as the Ashen Hawk Brigade.

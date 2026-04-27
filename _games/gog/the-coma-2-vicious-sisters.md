@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/75365"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_coma_2_vicious_sisters"
-protondb_url: "https://www.protondb.com/app/1045720"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Coma_2%3A_Vicious_Sisters"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/the-coma-2-vicious-sisters?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1854689188"
 is_featured: false
-owned: false
+owned: true
 ---
 
 The Coma 2: Vicious Sisters is a Korean survival horror-adventure. As Mina Park, you must venture from your deserted school to survive.

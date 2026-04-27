@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/25024"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/axiom-verge"
-protondb_url: "https://www.protondb.com/app/332200"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Axiom_Verge"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/axiom-verge?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Puffin"
 is_featured: false
-owned: false
+owned: true
 ---
 
-“You think you know how Axiom Verge will play out. But you don't.” 5/5 Stars – Giant Bomb  “...simply one of the best games I've played in years.” 5/5 Stars – US Gamer  After a lab accident, a scientist awakens in a mysterious, alien world. Is this a distant planet? The far fu...
+After a lab accident, a scientist awakens in a mysterious, alien world. Is this a distant planet? The far future? Or a complex virtual-reality computer simulation?

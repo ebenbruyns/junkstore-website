@@ -18,7 +18,7 @@ publisher: Daedalic Entertainment
 developer: Daedalic Entertainment
 genre: Adventure, Indie, Point-and-click
 franchise: 
-age_rating_summary: ESRB 6 · PEGI 12
+age_rating_summary: ESRB 6
 release_date: "May 6, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10263"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_whispered_world_special_edition"
-protondb_url: "https://www.protondb.com/app/268540"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Whispered_World"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

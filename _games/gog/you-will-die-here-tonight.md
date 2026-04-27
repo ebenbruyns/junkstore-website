@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/129939"
 
 # Links
 store_url: "https://www.gog.com/en/game/you_will_die_here_tonight"
-protondb_url: "https://www.protondb.com/app/1446350"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/You_Will_Die_Here_Tonight"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

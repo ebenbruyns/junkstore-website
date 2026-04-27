@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/42532"
 
 # Links
 store_url: "https://www.gog.com/en/game/wasteland_3"
-protondb_url: "https://www.protondb.com/app/719040"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wasteland_3"
+pcgamingwiki_url: ""
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/wasteland-3?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "2057748185"
 is_featured: false
-owned: false
+owned: true
 ---
 
 As the sole survivor of Team November, a Ranger squad dispatched to the icy Colorado wastes, you find this is a land of buried secrets, lost technology, fearsome lunatics, and deadly factions. No one here has ever heard of the Desert Rangers. Your reputation is yours to build from scratch, and your choices may save this land or doom it. With a renewed focus on macro-reactivity, you'll be picking between warring factions, deciding whether locations are destroyed or saved, and making other far reaching decisions that have a marked impact on the shape of your world.

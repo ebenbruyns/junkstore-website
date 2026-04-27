@@ -18,7 +18,7 @@ publisher: Square Enix, Feral Interactive
 developer: Eidos Montréal, GRIP Entertainment
 genre: Role-playing (RPG), Shooter
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "October 22, 2013"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/14286"
 
 # Links
 store_url: "https://www.gog.com/en/game/deus_ex_human_revolution_directors_cut"
-protondb_url: "https://www.protondb.com/app/238010"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deus_Ex%3A_Human_Revolution_-_Director%27s_Cut"
+pcgamingwiki_url: ""
 metacritic_score: 91
 metacritic_url: "https://www.metacritic.com/game/pc/deus-ex-human-revolution---directors-cut?ftag=MCD-06-10aaa1f"
 

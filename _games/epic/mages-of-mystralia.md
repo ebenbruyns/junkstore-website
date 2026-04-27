@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45399"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/mages-of-mystralia"
-protondb_url: "https://www.protondb.com/app/529660"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mages_of_Mystralia"
+pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/pc/mages-of-mystralia?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-In a world of magic, your mind is your greatest weapon. Learn the ways of magic and design your own spells to fight enemies, navigate treacherous terrain, and right past wrongs in the kingdom of Mystralia.
+Accompany Zia as she strikes off to train and learn to control her magical abilities that had her exiled. Journey across the lands to meet other exiled mages and uncover runes with magical properties that can be combined into millions of different possibilities, letting you come up with completely new and incredible spells!

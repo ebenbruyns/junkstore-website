@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11640"
 
 # Links
 store_url: "https://www.gog.com/en/game/magrunner_dark_pulse"
-protondb_url: "https://www.protondb.com/app/209630"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Magrunner%3A_Dark_Pulse"
+pcgamingwiki_url: ""
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/magrunner-dark-pulse?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1207659236"
 is_featured: false
-owned: false
+owned: true
 ---
 
 When technology meets Cthulhu! Magrunner: Dark Pulse is an action-puzzle game in which technology confronts the Cthulhu Mythos, as imagined by author, H. P. Lovecraft. You are Dax, one of seven Magrunners selected among the elite to participate in MagTech Corporation's space training program. But, what should be the chance of a lifetime quickly becomes a horrific nightmare.\n\nEquipped with your Magtech glove, you must harness the ability to magnetically polarize and manipulate objects in the environment to survive and surpass challenging puzzles. Your reflexes and ingenuity will be pushed to their limits as you make your way through 40+ immense and dangerous levels, including high-tech training rooms and the endless chasms of the lost cosmos, on a path to confront the horrendous creatures of Cthulhu!

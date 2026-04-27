@@ -3,7 +3,7 @@ layout: game-page
 title: "A Snake's Tale - Steam Deck Compatibility"
 game_title: "A Snake's Tale"
 slug: "a-snakes-tale"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-snakes-tale/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://m12y.itch.io/a-snakes-tale"
-protondb_url: "https://www.protondb.com/app/654810"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Snake%27s_Tale"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

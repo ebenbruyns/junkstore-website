@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/plateup-a99631"
-protondb_url: "https://www.protondb.com/app/1599600"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/PlateUp!"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

@@ -18,7 +18,7 @@ publisher: 2K Games
 developer: Hangar 13
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "September 25, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/78135"
 
 # Links
 store_url: "https://www.gog.com/en/game/mafia_definitive_edition"
-protondb_url: "https://www.protondb.com/app/1030840"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia%3A_Definitive_Edition"
+pcgamingwiki_url: ""
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/mafia-definitive-edition?ftag=MCD-06-10aaa1f"
 

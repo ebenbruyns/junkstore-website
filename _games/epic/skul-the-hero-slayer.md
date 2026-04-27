@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/73152"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/skul-the-hero-slayer"
-protondb_url: "https://www.protondb.com/app/1147560"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Skul:_The_Hero_Slayer"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/skul-the-hero-slayer?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "dec246c71964468f94ef4d686f0802c3"
 is_featured: false
-owned: false
+owned: true
 ---
 
 An action-platformer with rogue-like features, challenging maps. Guide 'Skul' to take on the Imperial Army and rescue his King.

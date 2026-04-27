@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/duetnightabyss-016366"
-protondb_url: "https://www.protondb.com/app/3950020"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Duet_Night_Abyss"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom. The game features "Multiple Weapon Loadouts x 3D Combat" at its core, and tells the story of "Demons" from dual perspectives.
+Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom developed by Hero Games' Pan Studio. The game features "Multiple Weapon Loadouts x 3D Combat" at its core, and tells the story of "Demons" from dual perspectives.

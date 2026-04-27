@@ -18,7 +18,7 @@ publisher: Maximum Games, Microids
 developer: Pendulo Studios, Ys Interactive
 genre: Adventure, Puzzle
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 16
+age_rating_summary: ESRB 17
 release_date: "November 5, 2019"
 game_modes: ["Single player"]
 languages: ["English*","French*","Italian","German*","Spanish - Spain*","Russian*","Dutch","Simplified Chinese*languages with full audio support"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/65983"
 
 # Links
 store_url: "https://www.gog.com/en/game/blacksad_under_the_skin"
-protondb_url: "https://www.protondb.com/app/1003890"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blacksad:_Under_the_Skin"
+pcgamingwiki_url: ""
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/blacksad-under-the-skin/"
 

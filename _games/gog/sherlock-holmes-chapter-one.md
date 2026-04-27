@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/82678"
 
 # Links
 store_url: "https://www.gog.com/en/game/sherlock_holmes_chapter_one"
-protondb_url: "https://www.protondb.com/app/1137300"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes%3A_Chapter_One"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/sherlock-holmes-chapter-one?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "2094849865"
 is_featured: false
-owned: false
+owned: true
 ---
 
 In this story-driven detective thriller, a young Sherlock Holmes struggles to prove himself as he navigates an exotic, dangerous island in the Mediterranean to investigate the mystery of his mother's death.

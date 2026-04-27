@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/147712"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/marvel-rivals-182004"
-protondb_url: "https://www.protondb.com/app/2767030"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Marvel_Rivals"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Marvel Rivals is a Super Hero Team-Based PVP Shooterr! Assemble an all-star Marvel squad, devise countless strategies by combining powers to form unique Team-Up skills and fight in destructible, ever-changing battlefields across the continually evolving Marvel universe!
+Marvel Rivals is an hero shooter video game developed and published by NetEase Games in collaboration with Marvel Games. The game is free-to-play with a current line up of 33 characters from Marvel Comics.

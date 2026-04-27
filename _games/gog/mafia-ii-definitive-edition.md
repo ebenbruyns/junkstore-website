@@ -18,7 +18,7 @@ publisher: 2K
 developer: Hangar 13
 genre: Adventure
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "May 19, 2020"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://www.gog.com/en/game/mafia_ii_definitive_edition"
-protondb_url: "https://www.protondb.com/app/1030830"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia_II%3A_Definitive_Edition"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

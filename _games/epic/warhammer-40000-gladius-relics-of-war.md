@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/58533"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/warhammer-40000-gladius-relics-of-war"
-protondb_url: "https://www.protondb.com/app/489630"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40%2C000%3A_Gladius_-_Relics_of_War"
+pcgamingwiki_url: ""
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/warhammer-40000-gladius---relics-of-war?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,8 @@ is_featured: false
 owned: true
 ---
 
-Warhammer 40,000: Gladius – Relics of War is the first turn-based 4X strategy game set in the Warhammer 40,000 universe. Four factions will engage in a brutal war for dominance over the planet’s resources.
+Warhammer 40,000: Gladius - Relics of War brings you to a world of terror and violence. Four factions will engage in a brutal war for dominance over the planet's resources.
+
+In the first 4X turn-based strategy game set in Warhammer 40,000 you will lead one of four factions: Astra Militarum, Space Marines, Orks and Necrons, each with their own unique gameplay, technological tree, units and heroes.
+
+Face a challenging AI or cooperate or compete with friends and strangers across the globe.

@@ -3,7 +3,7 @@ layout: game-page
 title: "Toree 2 - Steam Deck Compatibility"
 game_title: "Toree 2"
 slug: "toree-2"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/toree-2/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://siactro.itch.io/toree-2"
-protondb_url: "https://www.protondb.com/app/1722620"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Toree_2"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

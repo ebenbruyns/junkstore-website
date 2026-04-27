@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/136080"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rugrats-adventures-in-gameland-737402"
-protondb_url: "https://www.protondb.com/app/2633950"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rugrats%3A_Adventures_in_Gameland"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-When Tommy, Chuckie, Phil, and Lil see a Reptar video game commercial, they imagine their own game! Switch between 8-bit and HD art, pick your favorite baby, and play solo or co-op in Rugrats: Adventures in Gameland—a neo-retro platformer bursting with nostalgia
+A baby-fresh take on retro-inspired gameplay, featuring a unique co-op design, where kids and parents need to stick together to win!

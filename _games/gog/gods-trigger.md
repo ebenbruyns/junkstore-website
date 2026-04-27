@@ -18,7 +18,7 @@ publisher: Techland Publishing
 developer: One More Level
 genre: "Indie, Puzzle, Shooter, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 16
+age_rating_summary: ESRB 17
 release_date: "April 18, 2019"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/65581"
 
 # Links
 store_url: "https://www.gog.com/en/game/gods_trigger"
-protondb_url: "https://www.protondb.com/app/488730"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/God%27s_Trigger"
+pcgamingwiki_url: ""
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/gods-trigger?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57532"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/daemon-x-machina"
-protondb_url: "https://www.protondb.com/app/1167450"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Daemon_X_Machina"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/daemon-x-machina?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Pilot your fully customizable Arsenal mech and join your fellow mercenaries in defending humanity from the corrupted machines and gigantic robots in this post-apocalyptic action game!
+Daemon X Machina is a third-person action-shooter game in which players; represented by their avatars called Outers, pilot highly customizable mechs known as Arsenals on missions to suppress various mechanized foes. Choose and equip your Arsenal with a multitude of weapons, obtain more from downed enemy Arsenals, and swap them on the fly to suit your strategy in the face of ever-changing threats.

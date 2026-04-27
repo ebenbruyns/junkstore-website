@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57523"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tetris-effect"
-protondb_url: "https://www.protondb.com/app/1003590"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tetris_Effect%3A_Connected"
+pcgamingwiki_url: ""
 metacritic_score: 93
 metacritic_url: "https://www.metacritic.com/game/pc/tetris-effect-connected?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "06c89b64de954c6fbcab914f8837fd4b"
 is_featured: false
-owned: false
+owned: true
 ---
 
 TETRIS® EFFECT: CONNECTED adds an all-new robust multiplayer expansion to the huge variety of addictive and innovative single-player modes

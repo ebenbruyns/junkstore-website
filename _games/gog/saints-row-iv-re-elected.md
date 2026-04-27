@@ -18,7 +18,7 @@ publisher: Koch Media
 developer: Deep Silver
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "May 9, 2014"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/39397"
 
 # Links
 store_url: "https://www.gog.com/en/game/saints_row_iv_reelected"
-protondb_url: "https://www.protondb.com/app/206420"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row_IV"
+pcgamingwiki_url: ""
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/saints-row-iv?ftag=MCD-06-10aaa1f"
 

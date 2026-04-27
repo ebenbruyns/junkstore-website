@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/126072"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/parakacuk-22f4b2"
-protondb_url: "https://www.protondb.com/app/1498740"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Grab a backpack, boxing tape, and focus on what high school is all about: Beating the ever loving crap out of one another! Troublemaker brings favorite action-adventure-beat-'em-up elements from the strongest traditions in the genre.
+Troublemaker tells the story of friendship, chaos, romance, and strife between school gangs. Defeat the enemy gangs, Seize their territory, And become the ruler of the School in the Strongest High School here.

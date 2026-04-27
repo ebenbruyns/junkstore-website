@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/46204"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/clone-drone-in-the-danger-zone-4daf6e"
-protondb_url: "https://www.protondb.com/app/597170"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Clone_Drone_in_the_Danger_Zone"
+pcgamingwiki_url: ""
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/clone-drone-in-the-danger-zone?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Clone Drone in the Danger Zone is a robot voxel slice-em-up where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.
+Clone Drone in the Danger Zone is a third person sword fighter where any part of your body can be sliced off. With your mind downloaded into a robot gladiator, you must survive the sinister trials of the arena.

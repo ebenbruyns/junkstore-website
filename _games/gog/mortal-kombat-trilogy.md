@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/6209"
 store_url: "https://www.gog.com/en/game/mortal_kombat_trilogy"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mortal_Kombat_Trilogy"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/mortal-kombat-trilogy/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1403485498"
 is_featured: false
-owned: false
+owned: true
 ---
 
 This successor to the arcade megahits features the meanest of the mean and the baddest of the bad. If you think you've mastered the moves and out-bossed the bosses, think again!

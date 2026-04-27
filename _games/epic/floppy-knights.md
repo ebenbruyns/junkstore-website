@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/77703"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/floppy-knights-6a735a"
-protondb_url: "https://www.protondb.com/app/1057800"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Floppy_Knights"
+pcgamingwiki_url: ""
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/floppy-knights?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Tactics fuse with card game mechanics as Phoebe and Carlton, a brilliant young inventor & her robot-arm bestie, square off in turn-based battles. Select your Knights, hone your deck, and execute your strategy for victory!
+Meet the Floppy Knights: tangible projections summoned from floppy disks! Tactics fuse with card game mechanics as Phoebe and Carlton - a brilliant young inventor & her robot-arm bestie - square off in turn-based battles. Select your Knights, hone your deck, and execute your strategy for victory!

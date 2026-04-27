@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/71765"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/touch-type-tale"
-protondb_url: "https://www.protondb.com/app/909470"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Touch_Type_Tale"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,7 @@ is_featured: false
 owned: true
 ---
 
-Touch Type Tale is a real-time strategy game with a typing twist, featuring a story rich campaign and online competitive play that will delight even the most hardened RTS veterans.
+A boy is wanted for his nimble fingers by four rivaling dukes and duchesses of a kingdom in turmoil.
+
+Touch Type Tale is a real-time strategy typing game featuring a story rich campaign and online competitive play.
+Challenge your friends in a battle of tactics and typing skills!

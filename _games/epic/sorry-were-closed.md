@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/125118"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sorry-were-closed-724c86"
-protondb_url: "https://www.protondb.com/app/1796580"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sorry_We%27re_Closed"
+pcgamingwiki_url: ""
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/sorry-were-closed?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.
+Sorry We're Closed is an eccentric story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of classic fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/22849"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dishonored-definitive-edition"
-protondb_url: "https://www.protondb.com/app/205100"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dishonored"
+pcgamingwiki_url: ""
 metacritic_score: 91
 metacritic_url: "https://www.metacritic.com/game/pc/dishonored?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Dishonored 2 is set 15 years after the Lord Regent has been vanquished. An otherworldly usurper has seized Empress Emily Kaldwin’s throne. As Emily or Corvo, travel to Karnaca to track down your enemies and take back what’s rightfully yours. 
+Dishonored is an immersive first-person action game that casts you as a supernatural assassin driven by revenge. With Dishonored’s flexible combat system, creatively eliminate your targets as you combine the supernatural abilities, weapons and unusual gadgets at your disposal. Pursue your enemies under the cover of darkness or ruthlessly attack them head on with weapons drawn. The outcome of each mission plays out based on the choices you make.

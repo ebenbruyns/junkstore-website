@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-26T08:52:53.631Z",
+  "last_updated": "2026-04-27T03:37:29.342Z",
   "total_tested_games": 993,
   "featured_games": 4,
   "storefronts": {
@@ -26,164 +26,84 @@
   },
   "recent_updates": [
     {
-      "title": "Neo Cab",
+      "title": "The Pale Beyond",
       "storefront": "GOG",
-      "slug": "neo-cab",
+      "slug": "the-pale-beyond",
       "date_tested": "April '26",
       "is_featured": true,
-      "updated_at": "2026-04-26T08:52:34.417Z"
+      "updated_at": "2026-04-27T02:02:18.909Z"
     },
     {
-      "title": "DOOMBLADE",
-      "storefront": "Epic",
-      "slug": "doomblade",
-      "date_tested": "April '26",
-      "is_featured": true,
-      "updated_at": "2026-04-26T08:52:31.872Z"
-    },
-    {
-      "title": "Gunslugs",
+      "title": "Mortal Kombat Trilogy",
       "storefront": "GOG",
-      "slug": "gunslugs",
-      "date_tested": "Nov '25",
+      "slug": "mortal-kombat-trilogy",
+      "date_tested": "Oct '24",
       "is_featured": false,
-      "updated_at": "2026-04-26T08:52:29.676Z"
+      "updated_at": "2026-04-27T01:26:26.428Z"
     },
     {
-      "title": "Subterrain: Mines of Titan",
-      "storefront": "Amazon",
-      "slug": "subterrain-mines-of-titan",
-      "date_tested": "Sep '25",
-      "is_featured": false,
-      "updated_at": "2026-04-26T08:52:24.747Z"
-    },
-    {
-      "title": "Minabo: A Walk Through Life",
-      "storefront": "Amazon",
-      "slug": "minabo-a-walk-through-life",
-      "date_tested": "Dec '25",
-      "is_featured": false,
-      "updated_at": "2026-04-26T08:52:22.234Z"
-    },
-    {
-      "title": "Sapphire Safari",
+      "title": "Dino Crisis Bundle",
       "storefront": "GOG",
-      "slug": "sapphire-safari",
-      "date_tested": "Aug '25",
+      "slug": "dino-crisis-bundle",
+      "date_tested": "April '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T08:52:19.718Z"
+      "updated_at": "2026-04-27T01:26:01.024Z"
     },
     {
-      "title": "JDM: Rise of the Scorpion",
+      "title": "Sin Slayers: The First Sin",
       "storefront": "GOG",
-      "slug": "jdm-rise-of-the-scorpion",
-      "date_tested": "Feb '26",
+      "slug": "sin-slayers-the-first-sin",
+      "date_tested": "April '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T08:52:17.389Z"
+      "updated_at": "2026-04-27T01:25:59.443Z"
     },
     {
-      "title": "Raidborn",
+      "title": "STAR WARS™ Jedi Knight: Mysteries of the Sith",
       "storefront": "GOG",
-      "slug": "raidborn",
-      "date_tested": "Nov '24",
+      "slug": "star-wars-jedi-knight-mysteries-of-the-sith",
+      "date_tested": "July '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T08:52:12.246Z"
+      "updated_at": "2026-04-27T01:25:56.452Z"
     },
     {
-      "title": "Flipon",
+      "title": "Neverwinter Nights: Diamond",
       "storefront": "GOG",
-      "slug": "flipon",
+      "slug": "neverwinter-nights-diamond",
       "date_tested": "Dec '24",
       "is_featured": false,
-      "updated_at": "2026-04-26T08:52:09.708Z"
+      "updated_at": "2026-04-27T01:25:53.894Z"
     },
     {
-      "title": "Pillars of Eternity: Definitive Edition",
+      "title": "Medal of Honor: Allied Assault War Chest",
       "storefront": "GOG",
-      "slug": "pillars-of-eternity-definitive-edition",
-      "date_tested": "Aug '24",
-      "is_featured": false,
-      "updated_at": "2026-04-26T08:52:07.337Z"
-    },
-    {
-      "title": "Time Loader",
-      "storefront": "GOG",
-      "slug": "time-loader",
-      "date_tested": "Nov '24",
-      "is_featured": false,
-      "updated_at": "2026-04-26T08:52:04.758Z"
-    },
-    {
-      "title": "Hell Division",
-      "storefront": "GOG",
-      "slug": "hell-division",
-      "date_tested": "Sept '24",
-      "is_featured": false,
-      "updated_at": "2026-04-26T08:52:02.242Z"
-    },
-    {
-      "title": "Diggles: The Myth of Fenris",
-      "storefront": "GOG",
-      "slug": "diggles-the-myth-of-fenris",
-      "date_tested": "Nov '24",
-      "is_featured": false,
-      "updated_at": "2026-04-26T08:51:59.701Z"
-    },
-    {
-      "title": "Trackmania",
-      "storefront": "Epic",
-      "slug": "trackmania",
-      "date_tested": "Sep '24",
-      "is_featured": false,
-      "updated_at": "2026-04-26T08:51:56.022Z"
-    },
-    {
-      "title": "Ascendant",
-      "storefront": "GOG",
-      "slug": "ascendant",
-      "date_tested": "Sept '25",
-      "is_featured": false,
-      "updated_at": "2026-04-26T08:51:53.487Z"
-    },
-    {
-      "title": "Saints Row: The Third Remastered",
-      "storefront": "GOG",
-      "slug": "saints-row-the-third-remastered",
+      "slug": "medal-of-honor-allied-assault-war-chest",
       "date_tested": "March '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T08:27:27.560Z"
+      "updated_at": "2026-04-27T01:25:51.326Z"
     },
     {
-      "title": "Leap of Love",
+      "title": "Gex",
       "storefront": "GOG",
-      "slug": "leap-of-love",
-      "date_tested": "Aug '25",
+      "slug": "gex",
+      "date_tested": "March '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T08:26:16.026Z"
+      "updated_at": "2026-04-27T01:25:48.822Z"
     },
     {
-      "title": "Helping the Hotties",
+      "title": "Doomdark's Revenge",
       "storefront": "GOG",
-      "slug": "helping-the-hotties",
-      "date_tested": "Aug '25",
+      "slug": "doomdarks-revenge",
+      "date_tested": "April '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T08:25:39.314Z"
+      "updated_at": "2026-04-27T01:25:46.248Z"
     },
     {
-      "title": "The Gap",
-      "storefront": "Amazon",
-      "slug": "the-gap",
-      "date_tested": "July '25",
+      "title": "Blood Omen: Legacy of Kain",
+      "storefront": "GOG",
+      "slug": "blood-omen-legacy-of-kain",
+      "date_tested": "April '25",
       "is_featured": false,
-      "updated_at": "2026-04-26T08:24:23.787Z"
-    },
-    {
-      "title": "Faraway: Arctic Escape",
-      "storefront": "Amazon",
-      "slug": "faraway-arctic-escape",
-      "date_tested": "July '25",
-      "is_featured": false,
-      "updated_at": "2026-04-26T08:23:24.460Z"
+      "updated_at": "2026-04-27T01:25:43.162Z"
     }
   ]
 }

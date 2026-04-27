@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/85736"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/submerged-hidden-depths-6065a1"
-protondb_url: "https://www.protondb.com/app/1614270"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Submerged:_Hidden_Depths"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Boat, climb, interact and explore in the beautiful ruins of a sunken world.
+A drowned city, crumbling tips of skyscrapers stubbornly standing above the waves. Deserted villages, now inhabited by enigmatic creatures. And beneath the surging ocean waits an anguished, angry presence. Submerged: Hidden Depths is a non-combat third-person “relaxploration” adventure, set in the sunken ruins of a beautiful world. Take on the role of Miku and Taku – one cursed with a mysterious power that she wants to use for good, the other determined not to let it tear them apart. Boat across tranquil waters and storm-driven white-caps, explore and climb what remains of a once-towering city, and scour the buildings for the seeds of its salvation.

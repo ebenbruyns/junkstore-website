@@ -18,7 +18,7 @@ publisher: Deep Silver
 developer: High Voltage Software, Volition
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "January 20, 2015"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/21260"
 
 # Links
 store_url: "https://www.gog.com/en/game/saints_row_gat_out_of_hell"
-protondb_url: "https://www.protondb.com/app/301910"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_Gat_out_of_Hell"
+pcgamingwiki_url: ""
 metacritic_score: 66
 metacritic_url: "https://www.metacritic.com/game/pc/saints-row-gat-out-of-hell?ftag=MCD-06-10aaa1f"
 

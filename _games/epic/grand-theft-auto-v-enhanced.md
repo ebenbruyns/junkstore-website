@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/4064"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/grand-theft-auto-v"
-protondb_url: "https://www.protondb.com/app/3240220"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V_Enhanced"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/grand-theft-auto-v-enhanced/"
 
@@ -79,3 +79,5 @@ owned: true
 ---
 
 Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.
+
+Current PC players can transfer both GTAV Story Mode progress and GTA Online characters and progression with a one-time migration from the legacy version of GTAV to GTAV Enhanced.

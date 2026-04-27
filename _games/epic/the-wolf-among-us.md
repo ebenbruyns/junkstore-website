@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/14013"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-wolf-among-us"
-protondb_url: "https://www.protondb.com/app/250320"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Wolf_Among_Us"
+pcgamingwiki_url: ""
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/the-wolf-among-us-episode-1---faith?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Cobbler"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Based on the award-winning Fables comic books (DC Comics/Vertigo). As Bigby Wolf - THE big bad wolf - discover that a brutal, bloody murder is just a taste of things to come in a game series where your every decision can have enormous consequences.
+A five-episode series based on Fables comic, a violent thriller where myth and legend characters exist in our world.

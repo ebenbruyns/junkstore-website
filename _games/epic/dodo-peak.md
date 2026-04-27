@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/70697"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dodo-peak-159276"
-protondb_url: "https://www.protondb.com/app/2845610"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dodo_Peak"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,8 @@ is_featured: false
 owned: true
 ---
 
-A throwback to the classic arcade platformers of the past with a modern twist! Play as a dodo bird to find and rescue your lost babies from a series of dangerous island peaks.
+Play as a dodo bird to find and rescue your lost babies from a series of dangerous peaks. Maneuver them home while avoiding obstacles and enemies!
+
+Dodo Peak is a throwback to the classic arcade platformers of the past with a modern twist. Collect coins, dodge sneaky snakes, avoid malevolent monkeys, grab power-ups for extra speed or super strength, and strive for the best time across a stunning variety of handcrafted islands.
+
+As your pack grows, so does the challenge in bringing them home!

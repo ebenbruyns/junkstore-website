@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/143272"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/snakebird-complete-e6f0ae"
-protondb_url: "https://www.protondb.com/app/357300"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Snakebird"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Experience hit puzzle classic Snakebird and Snakebird Primer in Snakebird Complete, a brand new package that reunites both beloved titles into one seamless experience. Now with a hint system!
+A console version of Snakebird that contains both Snakebird and Snakebird Primer and some minor adjustments.

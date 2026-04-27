@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/17960"
 store_url: "https://www.gog.com/en/game/the_lords_of_midnight"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Lords_of_Midnight"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/the-lords-of-midnight/"
 

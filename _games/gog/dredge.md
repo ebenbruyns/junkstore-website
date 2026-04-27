@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/94128"
 
 # Links
 store_url: "https://www.gog.com/en/game/dredge"
-protondb_url: "https://www.protondb.com/app/1562430"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dredge"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/dredge/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-DREDGE is a single-player fishing adventure with a sinister undercurrent. Sell your catch, upgrade your boat, and dredge the depths for long-buried secrets. Explore a mysterious archipelago and discover why some things are best left forgotten.
+Dredge is a fishing adventure with a sinister undercurrent. Sell your catch, upgrade your vessel and dredge the depths for long-buried relics. Explore the stories of the strange locals and discover why some things are best left forgotten.

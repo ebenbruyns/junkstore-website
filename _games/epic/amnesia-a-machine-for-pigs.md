@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/438"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/amnesia-a-machine-for-pigs"
-protondb_url: "https://www.protondb.com/app/239200"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia%3A_A_Machine_for_Pigs"
+pcgamingwiki_url: ""
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/amnesia-a-machine-for-pigs?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "d7db33dfe7634d6b8a188c708f2caa3c"
 is_featured: false
-owned: false
+owned: true
 ---
 
-First-person horror that will drag you to the depths of greed, power and madness. Developed by The Chinese Room, the creators of Dear Esther, and published Frictional Games, the studio behind Amnesia: The Dark Descent.
+From the creators of Amnesia: The Dark Descent comes a new story, a new environment, and a fresh horror experience. A machine for pigs is a machine for meat – and all of us are meat. The year is 1899. Wealthy industrialist Oswald Mandus awakes in his bed, wracked with fever and haunted by dreams of a dark and hellish engine. Tortured by visions of a disastrous expedition to Mexico, broken by grief and tropical disease, he is slowly rebuilding his life and his industrial empire. When his children are mysteriously abducted however, he finds himself descending into the hellish depths of his own machine.

@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/nobody-wants-to-die-fe21cd"
-protondb_url: "https://www.protondb.com/app/1939970"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Nobody_Wants_to_Die"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Lose yourself in the dystopian world of New York, 2329. In this interactive noir story, lead the investigation using advanced technology as Detective James Karra, who risks it all in pursuit of a serial killer targeting the city’s elite.
+Lose yourself in the dystopian world of New York, 2329; immortality comes at a price that someone has to pay. In this interactive noir story, lead the investigation using advanced technology, as Detective James Karra who risks it all in pursuit of a serial killer targeting the city’s elite.

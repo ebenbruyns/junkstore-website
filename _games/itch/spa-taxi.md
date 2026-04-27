@@ -3,7 +3,7 @@ layout: game-page
 title: "Spaß Taxi - Steam Deck Compatibility"
 game_title: "Spaß Taxi"
 slug: "spa-taxi"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/spa-taxi/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://scanix.itch.io/spasstaxi"
-protondb_url: "https://www.protondb.com/app/1206770"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spa%C3%9F_Taxi"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

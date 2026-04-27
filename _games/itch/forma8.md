@@ -3,7 +3,7 @@ layout: game-page
 title: "Forma.8 - Steam Deck Compatibility"
 game_title: "Forma.8"
 slug: "forma8"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/forma8/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://mixedbaggames.itch.io/forma8"
-protondb_url: "https://www.protondb.com/app/510240"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Forma.8"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68637"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/1003090"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Through_the_Darkest_of_Times"
+pcgamingwiki_url: ""
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/through-the-darkest-of-times/"
 

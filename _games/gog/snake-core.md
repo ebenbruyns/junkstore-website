@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/148794"
 
 # Links
 store_url: "https://www.gog.com/en/game/snake_core"
-protondb_url: "https://www.protondb.com/app/1262770"
+protondb_url: ""
 protondb_report_url: "https://www.protondb.com/app/1262770"
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Snake_Core"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/snake-core/"
 

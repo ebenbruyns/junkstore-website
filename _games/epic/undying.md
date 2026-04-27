@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68379"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/undying"
-protondb_url: "https://www.protondb.com/app/638990"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Undying"
+pcgamingwiki_url: ""
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/pc/undying?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Infected by a zombie, Anling's days are limited. She must now fight to survive, not for herself but her young son, Cody. Ensure Cody's survival in this zombie-infested world by protecting him, searching for safety, and teaching him valuable skills at any cost.
+Infected by a zombie bite, Anling's days are numbered. She must now fight to survive, not for herself but her young son, Cody. Ensure Cody's survival in this zombie infested world by protecting him, searching for safety, and teaching him valuable skills, at any cost.

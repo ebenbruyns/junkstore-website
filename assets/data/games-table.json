@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-26T23:05:34.647Z",
-  "total_games": 992,
+  "generated_at": "2026-04-27T03:37:50.403Z",
+  "total_games": 997,
   "storefronts": {
     "Epic": {
-      "total": 473
+      "total": 475
     },
     "GOG": {
-      "total": 374
+      "total": 377
     },
     "Amazon": {
       "total": 73
@@ -83,7 +83,6 @@
       "cant_test_linux": false,
       "publisher": "Games Operators",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "a7594e61a4f24e6d9495ea959749598e"
     },
     {
@@ -183,6 +182,18 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "26b63c46de9e4dcc856b3c6b106b6777"
+    },
+    {
+      "slug": "aerial-knights-never-yield",
+      "id": "7e348709-f17f-4478-8176-2fe84241bb78",
+      "title": "Aerial_Knight's Never Yield",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Aug '24",
+      "publisher": "Headup",
+      "controller_input": "native",
+      "databaseId": "9b2c200d7dec4825a83664d8888adad8"
     },
     {
       "slug": "aerialknights-never-yield",
@@ -584,10 +595,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Wild Rooster",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "e3c0d11648554383b33da58d075fd101"
     },
     {
@@ -654,10 +663,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Different Tales",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "c2568782280f414aa8476c9fba8bfd60"
     },
     {
@@ -682,10 +689,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Armor Games Studios",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "b3cb6e007019430ebb1dd87f6e8c87d3"
     },
     {
@@ -696,10 +701,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '25",
-      "cant_test_linux": false,
       "publisher": "Akupara Games, Akatsuki Taiwan",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "ba94c39030df477180e5141aadcc8b13"
     },
     {
@@ -710,10 +712,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Alawar",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "6fa12837a99e4b16bc21d7719b3c401e"
     },
     {
@@ -738,10 +738,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '25",
-      "cant_test_linux": false,
       "publisher": "E-Line Media",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "3a0cae9455844390ad00505a704d641e"
     },
     {
@@ -766,10 +764,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "2K",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f9d6f0530ea140909f8e8a997a7532d7"
     },
     {
@@ -794,10 +790,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Aug '24",
-      "cant_test_linux": false,
       "publisher": "HypeTrain Digital",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1d74dcbca79540efb52cab2ff026215f"
     },
     {
@@ -934,10 +928,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "2K Games, Take-Two Interactive, Aspyr Media",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Turkey"
     },
     {
@@ -1018,10 +1010,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Blobfish Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "e8bbb84be35640cda646233152ff3428"
     },
     {
@@ -1032,10 +1022,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Aug '24",
-      "cant_test_linux": false,
       "publisher": "505 Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Tamarind"
     },
     {
@@ -1077,7 +1065,6 @@
       "cant_test_linux": false,
       "publisher": "Raw Fury",
       "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "6278dd278d714aeb88239a423fa0f8be"
     },
     {
@@ -1102,10 +1089,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "PlayWay",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "8032b75cf0914afa87c78d6914adc165"
     },
     {
@@ -1116,10 +1101,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Devolver Digital",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "9d4ccd48ba554809b402bf85c5806e0a"
     },
     {
@@ -1175,7 +1158,6 @@
       "cant_test_linux": false,
       "publisher": "Kepler Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "6a2cc8b03e684bbd9096a338f96a7ba2"
     },
     {
@@ -1189,7 +1171,6 @@
       "cant_test_linux": false,
       "publisher": "Kepler Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "051eaac0842c46d7a5a62858ad534d5a"
     },
     {
@@ -1228,10 +1209,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Atari",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "8727e9d0693542bda60769dc2ce33c20"
     },
     {
@@ -1315,7 +1294,6 @@
       "cant_test_linux": false,
       "publisher": "Zen Studios",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f9d7a68aa77a4b30902af341533abe22"
     },
     {
@@ -1326,10 +1304,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Uppercut Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Arrowroot"
     },
     {
@@ -1354,10 +1330,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Remedy Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Calluna"
     },
     {
@@ -1368,10 +1342,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Vertigo Gaming Inc.",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "680599141dc14accb456887a2be3ac0c"
     },
     {
@@ -1382,10 +1354,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Midnight City, Majesco Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "82a78a4dd6ef4eaa892707791b705073"
     },
     {
@@ -1438,10 +1408,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Maximum Entertainment LLC",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "e7d92786abe54fae9319c1ddb94ae271"
     },
     {
@@ -1494,10 +1462,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Nintendo, Marvelous, XSEED Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f4f0d39fbb4640e0be62aa91d9eca87d"
     },
     {
@@ -1511,7 +1477,6 @@
       "cant_test_linux": false,
       "publisher": "Saber Interactive Inc",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "4aff63ad39cb4fe7a61720d59a4cebc6"
     },
     {
@@ -1550,10 +1515,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Unfold Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "ee96375fac2f47de978170a24398e581"
     },
     {
@@ -1606,10 +1569,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "505 Games, Sony Interactive Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "5bf67f3153364181b54cb9e40ca7fa82"
     },
     {
@@ -1634,10 +1595,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Devolver Digital",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "65d73e3be8824829b5b788bd849b6559"
     },
     {
@@ -1721,7 +1680,6 @@
       "cant_test_linux": false,
       "publisher": "FLARB LLC",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "b8b37813c5634dbdac61d88ff411135c"
     },
     {
@@ -1735,7 +1693,6 @@
       "cant_test_linux": true,
       "publisher": "Bungie",
       "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "592c359fb0e0413fb46dee2d24448eb4"
     },
     {
@@ -1816,10 +1773,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Aug '24",
-      "cant_test_linux": false,
       "publisher": "Nexon",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "82cdbdf05c61474d89c4f9e8a8bf0ea4"
     },
     {
@@ -1844,10 +1799,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Team Salvato",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "c5109bdceb3a453bb38c2fdc964ddee8"
     },
     {
@@ -1900,10 +1853,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "May '25",
-      "cant_test_linux": false,
       "publisher": "Snapbreak Games",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "91e82f342ebf42309703e9ba363daedf"
     },
     {
@@ -1970,10 +1920,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "HandyGames",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "feb56be2152940029af3bc193970799d"
     },
     {
@@ -2026,10 +1974,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '25",
-      "cant_test_linux": false,
       "publisher": "Binary Haze Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "7965f1986b164300886ff35757217f54"
     },
     {
@@ -2040,10 +1986,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '25",
-      "cant_test_linux": false,
       "publisher": "iam8bit Presents",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "4237ffc575c94a0e89ef9ab7dd884ad5"
     },
     {
@@ -2152,10 +2096,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Aug '24",
-      "cant_test_linux": false,
       "publisher": "Bethesda Softworks",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "74034e8449f2470d9f45115f3a49f9aa"
     },
     {
@@ -2180,10 +2122,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Aug '24",
-      "cant_test_linux": false,
       "publisher": "Bethesda Softworks",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f8ef168f3522419caad27d82878e0329"
     },
     {
@@ -2236,10 +2176,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Giants Software",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f452ea20ae1b43698209998b56c2cc1c"
     },
     {
@@ -2250,10 +2188,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "No More Robots, Mopeful Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "34207deee7704cae912ff861937af7ed"
     },
     {
@@ -2306,10 +2242,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Bedtime Digital Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "ed5e8d42b2ac461eb6f9176d163b9515"
     },
     {
@@ -2320,10 +2254,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Kasedo Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "14a38161ad3c45adab18425415b5df3d"
     },
     {
@@ -2449,7 +2381,6 @@
       "cant_test_linux": true,
       "publisher": "Epic Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Fortnite"
     },
     {
@@ -2502,10 +2433,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Rose City Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "08c5c041aa2c4fe08fbd87c08fb37c36"
     },
     {
@@ -2600,10 +2529,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Aug '24",
-      "cant_test_linux": false,
       "publisher": "Arc Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "d4d31e492ea24c0fbcc239c0bb29aed8"
     },
     {
@@ -2628,10 +2555,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "Twin Sails Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1bcd791d54684eb29ed32ad1c0593d12"
     },
     {
@@ -2656,10 +2581,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '24",
-      "cant_test_linux": false,
       "publisher": "Daedalic Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f7c6294c948b47378659c9a963f449be"
     },
     {
@@ -2670,10 +2593,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Deep Silver, Koch Media",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "69911638c74449d2a2651241be1b3ad4"
     },
     {
@@ -2754,10 +2675,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Akupara Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "028263f54a874e35800d142275254d2c"
     },
     {
@@ -2768,10 +2687,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "DrinkBox Studios",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "fab83c3bf3d449718e042d44369e7fb6"
     },
     {
@@ -2782,10 +2699,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "DrinkBox Studios",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "25b902f42cf04b17bc8a3db2f7292d58"
     },
     {
@@ -2838,10 +2752,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '25",
-      "cant_test_linux": false,
       "publisher": "Blackbird Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "52c0559bfc1a481aae81a179d8466848"
     },
     {
@@ -2936,10 +2848,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Aquiris Game Studio",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "bb406082b69a47208489d3616b22b5c2"
     },
     {
@@ -3079,7 +2989,6 @@
       "cant_test_linux": false,
       "publisher": "Skybound Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "ef50503adc284a8ba65d4dea1ecce91a"
     },
     {
@@ -3188,10 +3097,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Frontier Developments",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "70883ed009994efe86d00a5fb8f2b52e"
     },
     {
@@ -3202,10 +3108,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Frontier Developments, Universal Pictures",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "373a4372c20540aca7fdd880d27fa49a"
     },
     {
@@ -3244,10 +3148,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Akupara Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "985373b4b4754b18b2f88ca100040ccc"
     },
     {
@@ -3261,7 +3163,6 @@
       "cant_test_linux": false,
       "publisher": "Serenity Forge",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f976812fbda048fab62b072c44ff2521"
     },
     {
@@ -3275,7 +3176,6 @@
       "cant_test_linux": false,
       "publisher": "Fireshine Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "8e13887ce02a4b5eb1a0ba17aa5405f3"
     },
     {
@@ -3303,7 +3203,6 @@
       "cant_test_linux": false,
       "publisher": "PlaySide",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "c7cb232d49d347aabfa73d583660d7ee"
     },
     {
@@ -3314,10 +3213,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Deep Silver, Iceberg Interactive, Tripwire Interactive",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "Finch"
     },
     {
@@ -3328,10 +3224,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '25",
-      "cant_test_linux": false,
       "publisher": "Deep Silver",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Eel"
     },
     {
@@ -3359,7 +3253,6 @@
       "cant_test_linux": false,
       "publisher": "Ninja Kiwi",
       "controller_input": "mouse-only",
-      "requires_eac_runtime": false,
       "databaseId": "d50bfa4d5a8c4b0885f846d826df16b8"
     },
     {
@@ -3412,10 +3305,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "No More Robots",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "f7a456368be244ddbb2424774917a3a8"
     },
     {
@@ -3426,10 +3316,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "May '25",
-      "cant_test_linux": false,
       "publisher": "Anshar Publishing",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "fdf3e1fda2ea4a7384c3cc7b0e7267ed"
     },
     {
@@ -3440,10 +3328,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "May '25",
-      "cant_test_linux": false,
       "publisher": "Playdead",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Hazelnut"
     },
     {
@@ -3454,10 +3340,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Aug '24",
-      "cant_test_linux": false,
       "publisher": "Devolver Digital",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f7a0ebb44f93430fb1c4388a395eba96"
     },
     {
@@ -3510,10 +3394,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Aug '24",
-      "cant_test_linux": false,
       "publisher": "Armor Games Studios",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "5ff96008f7314df4bb188cd085b1cdf4"
     },
     {
@@ -3524,10 +3406,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '25",
-      "cant_test_linux": false,
       "publisher": "Quantic Dream",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f3208566bd004bbfb1a7a4d40fbf8ea4"
     },
     {
@@ -3552,10 +3432,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Borealys Games",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "4b920bb4aebf4586a4f6d823817fe32d"
     },
     {
@@ -3566,10 +3443,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '24",
-      "cant_test_linux": false,
       "publisher": "Wales Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "e25566912b57452b929cf8c333a16ca8"
     },
     {
@@ -3594,10 +3469,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '24",
-      "cant_test_linux": false,
       "publisher": "Tripwire Interactive",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "Turtle"
     },
     {
@@ -3636,10 +3508,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "2K",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "49550aa9fcd74552ae07c4e9f2c262fe"
     },
     {
@@ -3650,10 +3520,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Deep Silver, Koch Media",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Speedwell"
     },
     {
@@ -3667,7 +3535,6 @@
       "cant_test_linux": false,
       "publisher": "Ubisoft",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f016b92b99e644fe80a40c8c21bddf69"
     },
     {
@@ -3720,10 +3587,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Silver Lining Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "339aea309f8249d998659728790f149e"
     },
     {
@@ -3762,10 +3627,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Team17",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "8e29583ae4b44a21883038668f7e301e"
     },
     {
@@ -3804,10 +3667,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Focus Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "04b548b98c934229842ffc00fb93aaba"
     },
     {
@@ -3818,10 +3679,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Burgos Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "a9999cf992d74279b410a0ac9608e153"
     },
     {
@@ -3860,10 +3719,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "H2 Interactive Co., Ltd., Sold Out, Fireshine Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Raven"
     },
     {
@@ -3891,7 +3748,6 @@
       "cant_test_linux": false,
       "publisher": "Sinkhole Studio",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "ad10e9b2f38d491499785412149cdc49"
     },
     {
@@ -3989,7 +3845,6 @@
       "cant_test_linux": false,
       "publisher": "Abiding Bridge",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "280b22dbb7e24f7bada5520e9d38d3a2"
     },
     {
@@ -4059,7 +3914,6 @@
       "cant_test_linux": false,
       "publisher": "Illfonic",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Boxfish"
     },
     {
@@ -4070,10 +3924,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Bethesda Softworks",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "52d88e9a6df248da913c8e99f1e4c526"
     },
     {
@@ -4084,10 +3936,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Ultimate Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "5ffb49b9c01c44c6adb03fd5430e9b03"
     },
     {
@@ -4199,7 +4049,6 @@
       "cant_test_linux": false,
       "publisher": "Krafton",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "98614687b212444c9ff0d42095f56cb3"
     },
     {
@@ -4210,10 +4059,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Binary Haze Ineractive",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "0a0841c5f62f4c59bdb78ee9b5a7d58b"
     },
     {
@@ -4266,10 +4112,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Gerdoo Games",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "3bb6343f56bd47e095610348c8fabdba"
     },
     {
@@ -4311,7 +4154,6 @@
       "cant_test_linux": false,
       "publisher": "Humble Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "130285de16cc429abc603eaf95b8787b"
     },
     {
@@ -4336,10 +4178,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '24",
-      "cant_test_linux": false,
       "publisher": "Crystal Dynamics",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f7cc1c999ac146f39b356f53e3489514"
     },
     {
@@ -4350,10 +4190,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "WayForward / Arc System Works",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "588cec64448242d8b61188205d97f887"
     },
     {
@@ -4381,7 +4219,6 @@
       "cant_test_linux": false,
       "publisher": "Psyonix",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Sugar"
     },
     {
@@ -4420,10 +4257,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Cellar Door Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "01f1e8046e9e433db190a611a0411579"
     },
     {
@@ -4436,8 +4271,6 @@
       "date_tested": "Sep '24",
       "cant_test_linux": false,
       "publisher": "UBISOFT",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "540f935fa0ad4bd498177ee5ad3b54e4"
     },
     {
@@ -4451,7 +4284,6 @@
       "cant_test_linux": false,
       "publisher": "The MIX Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "cb28095340aa4bb8ace6f42c9a6e5f13"
     },
     {
@@ -4476,10 +4308,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Raw Fury",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "9b48cbb1a0cf4a73b87ccbf4cde04b26"
     },
     {
@@ -4490,10 +4320,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "The Quantum Astrophysicists Guild",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "11ba63f98ce94a38b631104a12c7adab"
     },
     {
@@ -4588,10 +4416,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "HandyGames",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "56348ac4c88f4d6aa8881b1da06e1f49"
     },
     {
@@ -4619,7 +4445,6 @@
       "cant_test_linux": false,
       "publisher": "Nacon",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "6c1001a19926456db77fd1b4dd705a79"
     },
     {
@@ -4633,7 +4458,6 @@
       "cant_test_linux": false,
       "publisher": "Crystal Dynamics",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "890d9cf396d04922a1559333df419fed"
     },
     {
@@ -4689,7 +4513,6 @@
       "cant_test_linux": false,
       "publisher": "Sloclap",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "d36336f190094951873ed6138ac208d8"
     },
     {
@@ -4730,8 +4553,6 @@
       "date_tested": "Sep '24",
       "cant_test_linux": false,
       "publisher": "Ubisoft",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "2dd699910d5a4542994868a716be537f"
     },
     {
@@ -4745,7 +4566,6 @@
       "cant_test_linux": false,
       "publisher": "Double Dash Studios",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "dbc90aa36f124c63b3a804ea0ced6af9"
     },
     {
@@ -4770,10 +4590,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '25",
-      "cant_test_linux": false,
       "publisher": "HandyGames",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "6d3e443c997b4ebdb61a299161b3367a"
     },
     {
@@ -4784,10 +4601,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Digerati",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "d8a4c98b5020483881eb7f0c3fc4cea3"
     },
     {
@@ -4798,10 +4613,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Astra Logical",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "8337d1f975514d35ad0c1176e8a29f26"
     },
     {
@@ -4812,10 +4625,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "CI Games SE",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "f8b6cc851ab34f5f9f07654426dc2429"
     },
     {
@@ -4885,7 +4696,6 @@
       "cant_test_linux": false,
       "publisher": "Maximum Entertainment LLC",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "d366ae16e31b41869cf26c6ee309e7f3"
     },
     {
@@ -4896,10 +4706,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Silver Lining Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "d2d941e5c1ec44ae9e87e9e7cdddf1dd"
     },
     {
@@ -4938,10 +4746,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '25",
-      "cant_test_linux": false,
       "publisher": "Animo Games Studio LLC",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "c331118f7ded4050ba0a1182677e3b97"
     },
     {
@@ -4980,10 +4786,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Aspyr",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "272d51db75be476f9ad60c0e7fc24470"
     },
     {
@@ -5050,10 +4854,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Warner Bros. Interactive Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "e3306721e7c64f1cbf71235bcb260d53"
     },
     {
@@ -5081,7 +4883,6 @@
       "cant_test_linux": false,
       "publisher": "KONAMI",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "8c5172fc5e454598aab78a4a19791638"
     },
     {
@@ -5134,10 +4935,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Paradox Interactive",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "Muscovy"
     },
     {
@@ -5162,10 +4960,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Telltale Games, Take-Two Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "178c9c2b209a409e88a729ddb9aba7d2"
     },
     {
@@ -5176,10 +4972,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Hatinh Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "57ad8e72d9a446dea9ef5cac2770a0b8"
     },
     {
@@ -5515,7 +5309,6 @@
       "cant_test_linux": false,
       "publisher": "Bedtime Digital Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "dbb0b84f31244c7584490d205b74010c"
     },
     {
@@ -5554,10 +5347,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Armor Games Studios",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "d5cfb57c4c7f4a18a7ca6e695f845f73"
     },
     {
@@ -5613,7 +5404,6 @@
       "cant_test_linux": false,
       "publisher": "Microsoft",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "cb3bf7ba89574a66ae3b795e039d4dbc"
     },
     {
@@ -5624,10 +5414,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "House on Fire",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "19a750a7d7974f9291c0584feedb94b0"
     },
     {
@@ -5641,7 +5429,6 @@
       "cant_test_linux": false,
       "publisher": "Armor Games Studios",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "8de4840d52d645119f0a08d1f6ce206d"
     },
     {
@@ -5666,10 +5453,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "The Astronauts",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "9447b19ffb6a47e1a654b75178779a28"
     },
     {
@@ -5680,10 +5465,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '24",
-      "cant_test_linux": false,
       "publisher": "Deca Live Operations GmbH",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "b5271de997b44ef993d7a84196717452"
     },
     {
@@ -5764,10 +5547,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '25",
-      "cant_test_linux": false,
       "publisher": "Freedom Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "b52629f0e26f42adb0ee85573bb7fc87"
     },
     {
@@ -5792,10 +5573,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Something We Made",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "8d3aca1e5ccb454abc4e83429439cb50"
     },
     {
@@ -5862,11 +5641,23 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Crystal Dynamics",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "d6264d56f5ba434e91d4b0a0b056c83a"
+    },
+    {
+      "slug": "tony-hawks-pro-skater-1-2",
+      "id": "5cc520fa-1d3c-4ad7-b1ba-a16a6ed8a421",
+      "title": "Tony Hawk's Pro Skater 1+2",
+      "storefront": "Epic",
+      "decky_rating": "green",
+      "standalone_rating": "unknown",
+      "date_tested": "May '24",
+      "cant_test_linux": false,
+      "publisher": "Activision",
+      "controller_input": "native",
+      "requires_eac_runtime": false,
+      "databaseId": "GuppyDummy"
     },
     {
       "slug": "tony-hawks-pro-skater-12",
@@ -5932,10 +5723,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "May '25",
-      "cant_test_linux": false,
       "publisher": "Mythwright",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "fe118ed0362040c994b510da064876ca"
     },
     {
@@ -6002,10 +5790,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Aug '24",
-      "cant_test_linux": false,
       "publisher": "Devolver Digital",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "4dfe86c3ca4541edb53d47f6e2e47d30"
     },
     {
@@ -6072,10 +5857,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "Freedom Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "4ef688c407a048aba79b8c5e1fdfa61f"
     },
     {
@@ -6086,10 +5869,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Hypetrain Digital LTD",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "fd51551d919847beb178985f6daf0306"
     },
     {
@@ -6114,10 +5894,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Graffiti Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "3d34f303a68c44c2a9b44a3988533e90"
     },
     {
@@ -6170,10 +5948,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '25",
-      "cant_test_linux": false,
       "publisher": "Skystone Games Inc.",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "c98c934106994f2d8afc36c3f1872549"
     },
     {
@@ -6338,10 +6114,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "Kasedo Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "dd95e8c01b4b456f8ecbf18376a49c94"
     },
     {
@@ -6352,10 +6126,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Daedalic Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1f695dfd76d8438d8dd4046fe75daab0"
     },
     {
@@ -6436,10 +6208,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Daedalic Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "e9c18eae78964527853bfa2053d346e2"
     },
     {
@@ -6478,10 +6248,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Barrel Roll Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "fdbd9987b8344d2ead326c7f18d6da0e"
     },
     {
@@ -6506,10 +6274,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Bethesda Softworks",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "a64dcf9b711a4a60a3c0b6f052dfc7da"
     },
     {
@@ -6520,10 +6286,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "StoreRider",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "4c30fe9841264abfb120b581d061a8fd"
     },
     {
@@ -6564,8 +6328,6 @@
       "date_tested": "",
       "cant_test_linux": true,
       "publisher": "KURO GAMES",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "a5faf668dbaf499c8dc2917bf1c346e5"
     },
     {
@@ -6576,10 +6338,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Team17 Digital Ltd",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Duckbill"
     },
     {
@@ -6632,10 +6392,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '25",
-      "cant_test_linux": false,
       "publisher": "Rebellion Developments",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "Sparrow"
     },
     {
@@ -6968,10 +6726,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "AtomTeam",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1818710374"
     },
     {
@@ -7388,10 +7144,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "qureate, MediBang",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1184941116"
     },
     {
@@ -7514,10 +7268,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "May '25",
-      "cant_test_linux": false,
       "publisher": "Ark Heiral, Deck13 Spotlight",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "2067731250"
     },
     {
@@ -7626,10 +7378,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "June '24",
-      "cant_test_linux": false,
       "publisher": "Studio MDHR",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1963513391"
     },
     {
@@ -7682,10 +7432,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Freedom Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1084829247"
     },
     {
@@ -7696,10 +7444,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Event Horizon",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "1459769749"
     },
     {
@@ -7710,10 +7455,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Iceberg Interactive",
       "controller_input": "mouse-only",
-      "requires_eac_runtime": false,
       "databaseId": "1207660703"
     },
     {
@@ -7724,10 +7467,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '25",
-      "cant_test_linux": false,
       "publisher": "Midwest Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "2033569195"
     },
     {
@@ -7738,10 +7479,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Destructive Creations",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1544460195"
     },
     {
@@ -7752,10 +7491,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "CIRCLE Entertainment, SMG Studio",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "1566969207"
     },
     {
@@ -7766,10 +7502,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Trialforge Studio",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1326221139"
     },
     {
@@ -7850,10 +7584,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Square Enix, Feral Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1370227705"
     },
     {
@@ -7892,10 +7624,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Size Five Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1807052519"
     },
     {
@@ -7906,10 +7636,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Qubic Games, Badland Indie",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1929434313"
     },
     {
@@ -8060,10 +7788,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Midwest Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1816031813"
     },
     {
@@ -8088,10 +7814,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Microids",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "2108847100"
     },
     {
@@ -8116,10 +7840,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Fireplace Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1589319779"
     },
     {
@@ -8177,6 +7899,20 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1876546888"
+    },
+    {
+      "slug": "fallout-2-a-post-nuclear-role-playing-game",
+      "id": "cdf53061-93cd-40dd-8d2c-fcda6abecb2e",
+      "title": "Fallout 2: A Post Nuclear Role Playing Game",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Dec '25",
+      "cant_test_linux": false,
+      "publisher": "Bethesda Softworks",
+      "controller_input": "keyboard-mouse",
+      "requires_eac_runtime": false,
+      "databaseId": "1440151285"
     },
     {
       "slug": "fallout-2",
@@ -8536,10 +8272,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "Techland Publishing",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1150150052"
     },
     {
@@ -8550,10 +8284,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "May '25",
-      "cant_test_linux": false,
       "publisher": "Blacklight Interactive, Team17",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1265338731"
     },
     {
@@ -8620,10 +8352,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '25",
-      "cant_test_linux": false,
       "publisher": "Wired Productions",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1342466874"
     },
     {
@@ -8861,7 +8591,6 @@
       "cant_test_linux": false,
       "publisher": "Abstraction Games, Orangepixel",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1303124319"
     },
     {
@@ -8914,10 +8643,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Midwest Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1577460220"
     },
     {
@@ -9040,10 +8767,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Goblinz Studio, Klabater, Maple Whispering Limited, Mugen Creations",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1297646450"
     },
     {
@@ -9071,7 +8796,6 @@
       "cant_test_linux": false,
       "publisher": "ChaosForge",
       "controller_input": "keyboard-mouse",
-      "requires_eac_runtime": false,
       "databaseId": "1603513052"
     },
     {
@@ -9124,10 +8848,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "1C Company, Fulqrum Publishing",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1207659154"
     },
     {
@@ -9138,10 +8860,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Atari, Inc., E-Frontier, Nobilis, Focus Multimedia",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1207658867"
     },
     {
@@ -9152,10 +8872,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Assemble Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1139279216"
     },
     {
@@ -9208,10 +8926,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "Feb '25",
-      "cant_test_linux": false,
       "publisher": "Aspyr Media",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1214553287"
     },
     {
@@ -9222,10 +8938,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Goblinz Studio",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1208434383"
     },
     {
@@ -9250,10 +8964,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "WB Games, MGM Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1753068551"
     },
     {
@@ -9390,10 +9102,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "2K Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1993581340"
     },
     {
@@ -9404,10 +9114,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "2K",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1449710114"
     },
     {
@@ -9432,10 +9140,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "2K",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1578751750"
     },
     {
@@ -9474,10 +9180,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "May '25",
-      "cant_test_linux": false,
       "publisher": "Freedom Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1937407919"
     },
     {
@@ -9488,10 +9192,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "July '24",
-      "cant_test_linux": false,
       "publisher": "Playmates Interactive Entertainment, Interplay Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "6"
     },
     {
@@ -9530,10 +9232,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "Deep Silver, Koch Media",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "1436434037"
     },
     {
@@ -9586,10 +9285,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Good Shepherd Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1304291300"
     },
     {
@@ -9614,10 +9311,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Humble Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "2106173825"
     },
     {
@@ -9670,10 +9365,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Akupara Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1621558174"
     },
     {
@@ -9768,10 +9461,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Goblinz Publishing",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1669882559"
     },
     {
@@ -9796,10 +9487,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Crunching Koalas",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1974801979"
     },
     {
@@ -9908,10 +9597,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Thunderful",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1812138501"
     },
     {
@@ -10006,10 +9693,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Paradox Interactive",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "1441974651"
     },
     {
@@ -10022,8 +9706,6 @@
       "date_tested": "Oct '24",
       "cant_test_linux": false,
       "publisher": "Headup Games, Thunderful, Beep Japan",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "1097498205"
     },
     {
@@ -10034,10 +9716,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Activision, TecToy, Hyperion Entertainment, Macmillan Digital Publishing",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1947927225"
     },
     {
@@ -10160,10 +9840,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "May '25",
-      "cant_test_linux": false,
       "publisher": "Deep Silver",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1978178686"
     },
     {
@@ -10174,10 +9852,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Koch Media",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "2037689757"
     },
     {
@@ -10286,10 +9961,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Rising Star Games, Intergrow, WayForward",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1456141287"
     },
     {
@@ -10328,10 +10001,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Goblinz Publishing, Gamera Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1104084973"
     },
     {
@@ -10342,10 +10013,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Hitcents",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1689019552"
     },
     {
@@ -10482,10 +10151,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "AtomicElbow AB",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1542885660"
     },
     {
@@ -10524,10 +10191,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Nathan O. Marsh",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1501803768"
     },
     {
@@ -10538,10 +10203,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Focus Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1896039326"
     },
     {
@@ -10566,10 +10229,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Derek Yu",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1207659257"
     },
     {
@@ -10594,10 +10255,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "LucasArts",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1158717618"
     },
     {
@@ -10650,10 +10309,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '24",
-      "cant_test_linux": false,
       "publisher": "Activision, LucasArts, Aspyr Media",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1421404581"
     },
     {
@@ -10720,10 +10377,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '25",
-      "cant_test_linux": false,
       "publisher": "Thunderful",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1941294775"
     },
     {
@@ -10762,10 +10417,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "May '25",
-      "cant_test_linux": false,
       "publisher": "Focus Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "2038001955"
     },
     {
@@ -10846,10 +10499,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "March '25",
-      "cant_test_linux": false,
       "publisher": "Microids",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1731334260"
     },
     {
@@ -10874,10 +10525,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Asmodee Digital, Nomad Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1557744677"
     },
     {
@@ -10888,10 +10537,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Goblinz Publishing",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1132435802"
     },
     {
@@ -10930,10 +10577,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Digerati Distribution",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1163487128"
     },
     {
@@ -10944,10 +10589,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Daedalic Entertainment, Deep Silver, Merge Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1207659133"
     },
     {
@@ -10958,10 +10601,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "101XP",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1358213898"
     },
     {
@@ -10972,10 +10613,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "Wired Productions",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "2147483137"
     },
     {
@@ -10986,10 +10625,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "Prismatika",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1690611606"
     },
     {
@@ -11014,10 +10651,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Thunderful",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1198537397"
     },
     {
@@ -11028,10 +10663,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "Nacon, The Arcade Crew",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "2081410845"
     },
     {
@@ -11059,7 +10692,6 @@
       "cant_test_linux": false,
       "publisher": "Private Division",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1242541569"
     },
     {
@@ -11098,10 +10730,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '25",
-      "cant_test_linux": false,
       "publisher": "Microïds",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1906012961"
     },
     {
@@ -11126,10 +10756,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Feb '25",
-      "cant_test_linux": false,
       "publisher": "Devolver Digital",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1577265251"
     },
     {
@@ -11140,10 +10768,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Wired Productions, LKA",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1655492231"
     },
     {
@@ -11224,10 +10850,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Atari, CD Projekt",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "1207658924"
     },
     {
@@ -11280,10 +10903,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Sept '24",
-      "cant_test_linux": false,
       "publisher": "CD Projekt RED",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1297352383"
     },
     {
@@ -11336,10 +10957,7 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "July '25",
-      "cant_test_linux": false,
       "publisher": "Something We Made, Popagenda",
-      "controller_input": "",
-      "requires_eac_runtime": false,
       "databaseId": "1436499377"
     },
     {
@@ -11350,10 +10968,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Eidos Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1202885143"
     },
     {
@@ -11369,6 +10985,17 @@
       "controller_input": "requires-mapping",
       "requires_eac_runtime": false,
       "databaseId": "1207663523"
+    },
+    {
+      "slug": "tomb-raider-i-ii-iii-remastered",
+      "id": "9be42709-ef15-4677-8ca2-6b50f0a5c410",
+      "title": "Tomb Raider I•II•III Remastered",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "July '25",
+      "publisher": "Aspyr Media",
+      "databaseId": "1407750955"
     },
     {
       "slug": "tomb-raider-iiiiii-remastered",
@@ -11420,10 +11047,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Dec '24",
-      "cant_test_linux": false,
       "publisher": "Square Enix, Eidos Interactive, Feral Interactive, Warner Bros. Interactive Entertainment",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1900745791"
     },
     {
@@ -11453,6 +11078,18 @@
       "controller_input": "keyboard-mouse",
       "requires_eac_runtime": false,
       "databaseId": "1411626324"
+    },
+    {
+      "slug": "tr-berbrook",
+      "id": "225b3cb9-f482-43c6-b6d4-c484353ef6ca",
+      "title": "Trüberbrook",
+      "storefront": "GOG",
+      "decky_rating": "green",
+      "standalone_rating": "green",
+      "date_tested": "Nov '24",
+      "cant_test_linux": false,
+      "publisher": "WhisperGames, Headup Games",
+      "databaseId": "1289701346"
     },
     {
       "slug": "transistor",
@@ -11518,10 +11155,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Aug '24",
-      "cant_test_linux": false,
       "publisher": "Kalypso Media, Feral Interactive, Zoo Corporation, FX Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1435068351"
     },
     {
@@ -11574,10 +11209,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Jan '25",
-      "cant_test_linux": false,
       "publisher": "Headup Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1075740587"
     },
     {
@@ -11619,7 +11252,6 @@
       "cant_test_linux": false,
       "publisher": "Visai Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1925770843"
     },
     {
@@ -11714,10 +11346,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Abstraction Games, LOOT Interactive, Akupara Games, Night Light Interactive",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1340051324"
     },
     {
@@ -11728,10 +11358,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "April '25",
-      "cant_test_linux": false,
       "publisher": "The Iterative Collective, Lost Native Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1929718166"
     },
     {
@@ -11756,10 +11384,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "Team17",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1421309312"
     },
     {
@@ -11770,10 +11396,8 @@
       "decky_rating": "green",
       "standalone_rating": "green",
       "date_tested": "Nov '24",
-      "cant_test_linux": false,
       "publisher": "EXOR Studios",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1135975449"
     },
     {
@@ -11812,10 +11436,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Sega, Sega Corporation, Sega Games",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1103602225"
     },
     {
@@ -11826,10 +11448,8 @@
       "decky_rating": "green",
       "standalone_rating": "unknown",
       "date_tested": "Oct '24",
-      "cant_test_linux": false,
       "publisher": "Sega, Deep Silver",
       "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "1951443960"
     },
     {

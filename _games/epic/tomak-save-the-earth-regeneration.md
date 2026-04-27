@@ -78,5 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The legendary cult hit "Tomak: Save the Earth" arrives on the Epic Games Store!
-Nurture Evian, the Goddess of Love—trapped in a flowerpot—and save humanity from destruction. From divine ascension to total annihilation, every choice you make leads to a different destiny.
+The legendary cult hit "Tomak: Save the Earth" arrives on the Epic Games Store! Nurture Evian, the Goddess of Love—trapped in a flowerpot—and save humanity from destruction. From divine ascension to total annihilation, every choice you make leads to a different destiny.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3342"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fallout-3-game-of-the-year-edition"
-protondb_url: "https://www.protondb.com/app/22370"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_3"
+pcgamingwiki_url: ""
 metacritic_score: 91
 metacritic_url: "https://www.metacritic.com/game/fallout-3-game-of-the-year-edition/"
 
@@ -78,5 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Prepare for the Future™
-Experience the most acclaimed game of 2008 like never before with Fallout 3: Game of the Year Edition. Create a character of your choosing and descend into a post-apocalyptic world where every minute is a fight for survival
+Prepare for the Future with Fallout 3: Game of the Year Edition, experience the most acclaimed game of 2008 like never before. Create a character of your choosing and descend into an awe-inspiring, post-apocalyptic world where every minute is a fight for survival.

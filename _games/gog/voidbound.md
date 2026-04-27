@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/104673"
 
 # Links
 store_url: "https://www.gog.com/en/game/voidbound"
-protondb_url: "https://www.protondb.com/app/2500710"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/VoidBound"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1282078853"
 is_featured: false
-owned: false
+owned: true
 ---
 
 A sci-fi ero tactics RPG where you play as an engineer on a mission to free the Earth after it's caught in the crossfire of an intergalactic alien war.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3356"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fallout-new-vegas"
-protondb_url: "https://www.protondb.com/app/22380"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout:_New_Vegas"
+pcgamingwiki_url: ""
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/fallout-new-vegas?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,10 @@ is_featured: false
 owned: true
 ---
 
-Feel the Heat in New Vegas! Not even nuclear fallout could slow the hustle of Sin City. Explore the vast expanses of the desert wastelands and see the Great Southwest as could only be imagined in Fallout.
+Welcome back to New Vegas!
+
+With the introduction of the Ultimate Edition Bethesda Softworks presents the definitive edition of Fallout: New Vegas. This complete package, which includes the Dead Money, Honest Hearts, Old World Blues and Lonesome Road add-on packs, allows you to experience everything that New Vegas has to offer. To sweeten the pot, you'll be armed with the latest cache of unique weapons, ammo types and recipes from the most recent add-on packs Courier's Stash and Gun Runners Arsenal.
+
+Whether you're a seasoned explorer of the Mojave or playing the game for the first time you will find there are more friends, and enemies, to make, more consequences to be responsible for and more opportunities to live in glory, or infamy, throughout the Wasteland. The choices you make will be as influential as ever.
+
+Enjoy your stay.

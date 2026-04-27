@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/62941"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hades"
-protondb_url: "https://www.protondb.com/app/1145360"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hades"
+pcgamingwiki_url: ""
 metacritic_score: 93
 metacritic_url: "https://www.metacritic.com/game/pc/hades?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "3b586acd98e146ee9a92549c158d870f"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Defy the god of the dead as you hack and slash your way out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion and Transistor.
+A rogue-lite hack and slash dungeon crawler in which Zagreus, son of Hades the Greek god of the dead, attempts to escape his home...

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/109125"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/goat-simulator-3"
-protondb_url: "https://www.protondb.com/app/850190"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Goat_Simulator_3"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "69f916aead6e4947aa3587ea234268be"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Pilgor’s baaack! Gather your herd and venture forth into Goat Simulator 3; a totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage together, or compete in mini-games and then not be friends.
+Pilgor's baaack! Gather your herd and venture forth into Goat Simulator 3; an all-new (at least on Steam), totally realistic, sandbox farmyard experience. Invite up to three friends in local or online co-op, create carnage as a team, or compete in mini-games and then not be friends anymore.

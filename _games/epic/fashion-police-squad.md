@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/96587"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fashion-police-squad"
-protondb_url: "https://www.protondb.com/app/1319460"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fashion_Police_Squad"
+pcgamingwiki_url: ""
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/fashion-police-squad?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Even at this moment, our fashionable city is under assault. Baggy pants, dull suits, sightings of socks with sandals. A message needs to be sent, and it needs to be sent in style... Time to serve some good ol' Fashion Justice!
+Fashion Police Squad is a humorous retro FPS where you fight against fashion crime using attire enhancing weaponry. Clean the streets off of socks in sandals as Sergeant Des, and experience a single player story full of fabulous characters, dazzling encounters and fierce runway shows!

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/81774"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-alto-collection"
-protondb_url: "https://www.protondb.com/app/2837600"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Alto_Collection"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Hornbill"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Across the endless desert and atop an alpine expanse two journeys full of wonder await. Choose your path and set off on a thrilling snowboarding or sandboarding adventure with Alto & friends.
+Across the endless desert and atop an alpine expanse two journeys full of wonder await. Choose your path and set off on a thrilling snowboarding...

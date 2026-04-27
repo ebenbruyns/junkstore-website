@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/167626"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deadtime-defenders-3e9fc8"
-protondb_url: "https://www.protondb.com/app/1148700"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deadtime_Defenders"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Complete bounties, acquire legendary loot, upgrade your gear, and level up as you fight back against invading monsters in this side-scrolling looter shooter RPG.
+Deadtime Defenders is a hectic, side-scrolling looter shooter where you battle your way through monster-filled alternate dimensions all while collecting lots of randomly rolled glorious loot! Unlock the end-game to complete Void Runs chasing after Legendary items!

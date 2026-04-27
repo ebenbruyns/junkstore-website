@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1068"
 
 # Links
 store_url: "https://www.gog.com/en/game/bioshock_infinite"
-protondb_url: "https://www.protondb.com/app/8870"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock_Infinite"
+pcgamingwiki_url: ""
 metacritic_score: 94
 metacritic_url: "https://www.metacritic.com/game/pc/bioshock-infinite?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Indebted to the wrong people, private investigator Booker DeWitt must take on an impossible task: travel to Columbia, a flying city above the clouds, and rescue a mysterious woman named Elizabeth. Includes Burial at Sea Episodes 1/2 and Clash in the Clouds.
+BioShock Infinite is the third game in the BioShock series. It is not a direct sequel/prequel to any of the previous BioShock games but takes place in an entirely different setting, although it shares similar features, gameplay and concepts with the previous games. BioShock Infinite features a range of environments that force the player to adapt, with different weapons and strategies for each situation. Interior spaces feature close combat with enemies, but unlike previous games set in Rapture, the setting of Infinite contains open spaces with emphasis on sniping and ranged combat against as many as fifteen enemies at once.

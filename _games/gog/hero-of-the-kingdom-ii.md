@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/26317"
 
 # Links
 store_url: "https://www.gog.com/en/game/hero_of_the_kingdom_ii"
-protondb_url: "https://www.protondb.com/app/346560"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hero_of_the_Kingdom_II"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/hero-of-the-kingdom-ii/"
 

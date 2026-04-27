@@ -3,7 +3,7 @@ layout: game-page
 title: "Toree 3D - Steam Deck Compatibility"
 game_title: "Toree 3D"
 slug: "toree-3d"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/toree-3d/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://siactro.itch.io/toree3d"
-protondb_url: "https://www.protondb.com/app/1554840"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Toree_3D"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

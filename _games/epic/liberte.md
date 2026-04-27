@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/104440"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/liberte-96a5e5"
-protondb_url: "https://www.protondb.com/app/1590160"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Libert%C3%A9"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Liberté is a deck-builder roguelite inspired by the French Revolution and body horror. Brave the war-torn streets as Rene - a regular Parisian entangled in a civil war caused by a cryptic invader, Lady Bliss. Collect cards, nurture alliances, and try to stay alive!
+Liberté is a deck-builder roguelite inspired by the French Revolution and body horror. Brave the war-torn streets as Rene - a regular Parisian entangled in a civil war caused by a cryptic invader from another dimension, Lady Bliss. Collect cards, nurture alliances, and try to stay alive!

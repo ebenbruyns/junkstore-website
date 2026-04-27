@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/86657"
 
 # Links
 store_url: "https://www.gog.com/en/game/flipon"
-protondb_url: "https://www.protondb.com/app/1285020"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Flipon"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/flipon/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1897057118"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Join Kat and her crew in an epic quest in Flipon, a juicy, fun and fast-paced arcade puzzle game!

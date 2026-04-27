@@ -18,7 +18,7 @@ publisher: 2K Games, Take-Two Interactive
 developer: 2K Czech, Massive Bear Studios
 genre: Adventure, Shooter
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "August 24, 2010"
 game_modes: ["Single player"]
 languages: ["Czech","English","French","German","Italian","Polish","Russian","Spanish"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/5513"
 
 # Links
 store_url: "https://www.gog.com/en/game/mafia_ii_definitive_edition"
-protondb_url: "https://www.protondb.com/app/50130"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia_II"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/mafia-ii?ftag=MCD-06-10aaa1f"
 

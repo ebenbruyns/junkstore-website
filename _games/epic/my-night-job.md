@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/37336"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/my-night-job-a416a6"
-protondb_url: "https://www.protondb.com/app/437100"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/My_Night_Job"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-My Night Job sends players into an abandoned building and sicks hordes of monsters on them. Using more than 60 weapons to defend themselves and save as many survivors as possible. But beware – if too many rooms are thrashed, the end may be nigh-er than you originally thought.
+My Night Job sends players into an abandoned building and sicks hordes of monsters on them. They can use more than 60 weapons to defend themselves and save as many survivors as possible. But beware – if too many rooms are thrashed, the end may be nigh-er than you originally thought.

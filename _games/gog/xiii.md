@@ -18,7 +18,7 @@ publisher: Ubisoft Entertainment, Feral Interactive
 developer: Ubisoft Paris
 genre: puzzle, shooter
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 16
+age_rating_summary: ESRB 17
 release_date: "October 1, 2003"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11413"
 
 # Links
 store_url: "https://www.gog.com/en/game/xiii"
-protondb_url: "https://www.protondb.com/app/1154790"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/XIII_%282020%29"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1207658920"
 is_featured: false
-owned: false
+owned: true
 ---
 
 XIII is a cel-shaded first-person shooter based on the popular Belgian cult comic created by Jean Van Hamme and illustrated by William Vance.

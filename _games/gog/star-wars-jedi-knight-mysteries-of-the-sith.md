@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/9088"
 
 # Links
 store_url: "https://www.gog.com/en/game/star_wars_jedi_knight_dark_forces_ii"
-protondb_url: "https://www.protondb.com/app/32380"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars%3A_Jedi_Knight_-_Dark_Forces_II"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/star-wars-jedi-knight-mysteries-of-the-sith/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/96765"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lumbearjack-b5bedf"
-protondb_url: "https://www.protondb.com/app/1582290"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/LumbearJack"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

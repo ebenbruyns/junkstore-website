@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/103897"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/kardboard-kings-0962f8"
-protondb_url: "https://www.protondb.com/app/1298480"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Kardboard_Kings"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Open your own Card shop by the seaside! Buy, trade and sell Cards, OR keep them for your own collection! Earn reputation with customers, beat your shop goals, unlock new decorations, and host exciting events to bring everyone to the best Card shop in town!
+Open your own Card shop by the seaside in Kardboard Kings: Card Shop Simulator! Buy, trade and sell Cards, or keep them for your own collection. Earn reputation with customers, beat your shop goals, unlock new decorations, and host exciting events to bring everyone to the best Card shop in town!

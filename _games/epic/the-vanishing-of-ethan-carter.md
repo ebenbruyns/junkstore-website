@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/21142"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-vanishing-of-ethan-carter"
-protondb_url: "https://www.protondb.com/app/258520"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Vanishing_of_Ethan_Carter"
+pcgamingwiki_url: ""
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/the-vanishing-of-ethan-carter?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The Vanishing of Ethan Carter is a first-person mystery focused on exploration and discovery. As an occult-minded detective Paul Prospero, piece together the truth behind Ethan’s disappearance — and the fate of his family.
+In The Vanishing of Ethan Carter, you play as Paul Prospero, an occult detective who receives a disturbing letter from Ethan Carter and realizes that the boy is in grave danger. When Paul arrives in Ethan's home of Red Creek Valley, he realizes things are even worse than he imagined. Ethan has vanished in the wake of a brutal murder, which Paul comes to see might not be the only murder to investigate. Using both regular and supernatural detective skills, Paul must figure out what happened to the missing boy.

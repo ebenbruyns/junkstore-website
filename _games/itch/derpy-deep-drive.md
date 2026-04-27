@@ -3,7 +3,7 @@ layout: game-page
 title: "Derpy Deep Drive - Steam Deck Compatibility"
 game_title: "Derpy Deep Drive"
 slug: "derpy-deep-drive"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/derpy-deep-drive/
 

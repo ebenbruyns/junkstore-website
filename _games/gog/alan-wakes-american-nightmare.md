@@ -18,7 +18,7 @@ publisher: Remedy Entertainment
 developer: Remedy Entertainment
 genre: Action, Adventure
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 18
+age_rating_summary: ESRB 13
 release_date: "May 22, 2012"
 game_modes: ["Single-player"]
 languages: ["English*","German","French","Italian","Spanish - Spain","Japanese","Czech","Hungarian","Polish","Russian*languages with full audio support"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/320"
 
 # Links
 store_url: "https://www.gog.com/en/game/alan_wakes_american_nightmare"
-protondb_url: "https://www.protondb.com/app/202750"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alan_Wake%27s_American_Nightmare"
+pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/alan-wakes-american-nightmare?ftag=MCD-06-10aaa1f"
 

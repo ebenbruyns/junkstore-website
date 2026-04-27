@@ -18,7 +18,7 @@ publisher: "Image & Form"
 developer: "Image & Form"
 genre: Role-playing (RPG), Adventure, Strategy
 franchise: 
-age_rating_summary: ESRB 10 · PEGI 7
+age_rating_summary: ESRB 10
 release_date: "December 9, 2015"
 game_modes: ["Single player"]
 languages: ["English","French","Italian","German","Spanish - Spain","Russian"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/24012"
 
 # Links
 store_url: "https://www.gog.com/en/game/steamworld_heist"
-protondb_url: "https://www.protondb.com/app/322190"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SteamWorld_Heist"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/steamworld-heist?ftag=MCD-06-10aaa1f"
 

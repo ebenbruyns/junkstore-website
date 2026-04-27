@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/25173"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/galactic-civilizations-iii"
-protondb_url: "https://www.protondb.com/app/226860"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Galactic_Civilizations_III"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/galactic-civilizations-iii?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Build a civilization that will stand the test of time! Choose from dozens of unique races and make a name for yourself across the galaxy through diplomacy, espionage, technological advances, and more.
+Galactic Civilizations III is the largest strategy sandbox ever made. Start with a single world and expand across the galaxy through diplomacy, trade, cultural hegemony or military conquest in this single-player or multiplayer 4X strategy game.

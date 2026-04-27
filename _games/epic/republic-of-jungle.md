@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/145348"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/republic-of-jungle-fab3f9"
-protondb_url: "https://www.protondb.com/app/1413250"
+protondb_url: ""
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Gather your friends (5 to 10 players) and play as advisors to President Puma. In a social deduction party game, Leakers try to sneak into missions to leak Puma's secrets- Loyalists try to suss them out. Read the room and bluff your way to a political victory.
+Who do you trust? In a party game for 5 to 10 players, a secret group of Leakers undermine President Puma and his Loyalists by earning their trust and leaking their confidential affairs to media. Bluff, betray, confide and conspire in a crossover between Jackbox and social deduction games.

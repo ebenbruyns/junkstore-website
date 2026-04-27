@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/75810"
 
 # Links
 store_url: "https://www.gog.com/en/game/gravewood_high_complete"
-protondb_url: "https://www.protondb.com/app/1239300"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gravewood_High"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/gravewood-high/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/134813"
 
 # Links
 store_url: "https://www.gog.com/game/symphonia"
-protondb_url: "https://www.protondb.com/app/1865960"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Symphonia_%282024%29"
+pcgamingwiki_url: ""
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/symphonia/"
 

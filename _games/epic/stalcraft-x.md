@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/stalcraft-x-stalcraft-x-starter-edition-0b06d4"
-protondb_url: "https://www.protondb.com/app/1818450"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stalcraft:_X"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,6 +78,6 @@ is_featured: false
 owned: true
 ---
 
-STALCRAFT: X is a free-to-play MMOFPS with RPG elements.
+STALCRAFT: X is the largest online game set in the open world of the Chernobyl Exclusion Zone.
 
-Explore an open world, engage in PvPvE activities, participate in events, and choose from a variety of weapons — all set in the post-Soviet Chernobyl Exclusion Zone!
+Dive into this universe, filled with mutants and anomalies alone or with friends — unforgettable experiences are guaranteed!

@@ -18,7 +18,7 @@ publisher: Sierra Entertainment, Sierra Entertainment
 developer: Monolith Productions
 genre: Shooter
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "October 17, 2005"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3293"
 
 # Links
 store_url: "https://www.gog.com/en/game/fear_platinum"
-protondb_url: "https://www.protondb.com/app/21090"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/F.E.A.R."
+pcgamingwiki_url: ""
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/fear?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/havendock-64983e"
-protondb_url: "https://www.protondb.com/app/2020710"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Havendock"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Breathe easy and thrive in this cozy colony sim. Build a haven for castaways, manage resources, live your best life on the ocean. Lead your humble settlement into a high-tech society.
+A simulation game where you build a town in the middle of the sea. Reach self-sufficiency, invite travelers to join you, then manage their needs and research new facilities to keep them happy. Build a submarine and discover islands to produce increasingly complex resources.

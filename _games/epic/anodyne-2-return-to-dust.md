@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/69583"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/anodyne-2-return-to-dust"
-protondb_url: "https://www.protondb.com/app/877810"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Anodyne_2:_Return_to_Dust"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/anodyne-2-return-to-dust/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Tanzanite"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Run, jump, and drive across vast, dreamy 3D landscapes. Shrink into surreal, 2D dungeons inside of characters' bodies. Travel the world, meet strange people, and save the world from the dangerous Nano Dust.
+Traverse a moody, 3D world and surreal 2D spaces, with PSX and 16-bit-influenced art styles. Play as Nova, the Nano Cleaner...

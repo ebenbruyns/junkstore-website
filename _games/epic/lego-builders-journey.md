@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/73040"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lego-builders-journey"
-protondb_url: "https://www.protondb.com/app/1544360"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Builder%27s_Journey"
+pcgamingwiki_url: ""
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/lego-builders-journey?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-LEGO Builder’s Journey is an atmospheric, geometric puzzle game that asks us to sometimes follow the instructions… and sometimes to break the rules.
+Builder’s Journey is a poetic puzzle that takes place in a LEGO brick world, brought to life with the most accurately rendered LEGO elements yet to feature on screens. Be taken through a breathtaking world filled with brick-by-brick effects, accompanied by a beautiful soundtrack.

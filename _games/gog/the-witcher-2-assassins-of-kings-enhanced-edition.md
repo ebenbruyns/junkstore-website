@@ -18,7 +18,7 @@ publisher: CD Projekt
 developer: CD Projekt RED
 genre: Role-playing (RPG), Role-playing (RPG)
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 18
+age_rating_summary: ESRB 17
 release_date: "April 17, 2012"
 game_modes: ["Single player"]
 languages: ["English*","German*","French*","Spanish - Spain","Russian*","Czech","Hungarian","Japanese","Polish*","Turkish"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10268"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_witcher_2"
-protondb_url: "https://www.protondb.com/app/20920"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Witcher_2:_Assassins_of_Kings"
+pcgamingwiki_url: ""
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/the-witcher-2-assassins-of-kings?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/8122"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/samorost-2-1b9bb1"
-protondb_url: "https://www.protondb.com/app/40720"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Samorost_2"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Samorost 2 tells a surreal story of a space gnome whose dog just got kidnapped by mischievous aliens. Set out on a short expedition to rescue the pup, deal with curious strangers and relax to the soothing music by Tomáš "Floex" Dvořák.
+Samorost 2 tells a surreal story of a space gnome whose dog just got kidnapped by mischievous aliens. Set out on a short expedition to rescue the pup, deal with curious strangers and relax to the soothing music by Tomáš &quot;Floex&quot; Dvořák.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/20064"
 
 # Links
 store_url: "https://www.gog.com/en/game/rime"
-protondb_url: "https://www.protondb.com/app/493200"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rime"
+pcgamingwiki_url: ""
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/rime?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Play as a young boy who has awakened on a mysterious island after a torrential storm. You see wild animals, long-forgotten ruins and a massive tower that beckons you to come closer. Armed with your wits and a will to overcome—and the guidance of a helpful fox—you must explore ...
+A third-person exploratory action/adventure title in which a boy ends up on a mysterious island and makes his way through its highly stylized environments, containing puzzles and slight navigation challenges, to get to the bottom of why he's ended up there and to reach the end of the road he's inadvertently begun to travel.

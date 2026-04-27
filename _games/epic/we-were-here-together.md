@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/we-were-here-together-6a6d66"
-protondb_url: "https://www.protondb.com/app/865360"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/We_Were_Here_Together"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/we-were-here-together?ftag=MCD-06-10aaa1f"
 

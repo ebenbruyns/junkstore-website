@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/46439"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/into-the-breach"
-protondb_url: "https://www.protondb.com/app/590380"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Into_the_Breach"
+pcgamingwiki_url: ""
 metacritic_score: 90
 metacritic_url: "https://www.metacritic.com/game/pc/into-the-breach?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Control powerful mechs from the future to defeat an alien threat. Each attempt to save the world presents a new randomly generated challenge in this turn-based strategy game from the makers of FTL.
+The remnants of human civilization are threatened by gigantic creatures breeding beneath the earth. You must control powerful mechs from the future to hold off this alien threat. Each attempt to save the world presents a new randomly generated challenge in this turn-based strategy game from the makers of FTL.

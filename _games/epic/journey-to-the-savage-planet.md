@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68368"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/journey-to-the-savage-planet"
-protondb_url: "https://www.protondb.com/app/973810"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Journey_to_the_Savage_Planet"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/journey-to-the-savage-planet?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "Oleander"
 is_featured: false
-owned: false
+owned: true
 ---
 
-WELCOME TO THE PIONEER PROGRAM! As the newest recruit of Kindred Aerospace - The 4th best interstellar space exploration company - Your job is to determine if the planet ARY-26 planet is fit for humans. You may be short on equipment and experience, but you'll figure it out!
+Onward To Adventure. In this colorful, co-op adventure game you play as the newest recruit to Kindred Aerospace...

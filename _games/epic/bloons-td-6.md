@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57650"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bloons-td-6-bf95a0"
-protondb_url: "https://www.protondb.com/app/960090"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bloons_TD_6"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/bloons-td-6/"
 
@@ -78,6 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Mega Popular Tower Defense
-
-Craft your perfect defense from a combination of powerful Monkey Towers and awesome Heroes, then pop every last invading Bloon!
+The Bloons are back and better than ever! Craft your perfect defense from a combination of awesome monkey towers, upgrades, Heroes, and activated abilities, then pop every last Bloon that comes your way!

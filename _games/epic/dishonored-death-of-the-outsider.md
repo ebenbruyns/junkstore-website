@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/46419"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dishonored-death-of-the-outsider"
-protondb_url: "https://www.protondb.com/app/614570"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dishonored:_Death_of_the_Outsider"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/dishonored-death-of-the-outsider?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Take on the role of Billie Lurk as she reunites with her old mentor, Daud, to undertake the greatest assassination ever conceived: killing the Outsider, a god-like figure whom they both see as instrumental to some of the Empire's most dishonorable moments. 
+Dishonored: Death of the Outsider is a standalone expansion pack and a sequel to Dishonored 2. The game features all the series hallmarks, including brutal combat systems, unique level design and immersive storytelling that responds to your every choice. With compelling characters and exhilarating action, Death of the Outsider is the perfect entry point for those new to the Dishonored series, while delivering a significant expansion of the gameplay and world for longtime fans.

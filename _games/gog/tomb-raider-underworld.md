@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10482"
 
 # Links
 store_url: "https://www.gog.com/en/game/tomb_raider_underworld"
-protondb_url: "https://www.protondb.com/app/8140"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider%3A_Underworld"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/tomb-raider-underworld?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93913"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/trek-to-yomi-70d134"
-protondb_url: "https://www.protondb.com/app/1370050"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trek_to_Yomi"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

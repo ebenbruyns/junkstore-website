@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/27125"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/world-of-warships"
-protondb_url: "https://www.protondb.com/app/552990"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/World_of_Warships"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/world-of-warships?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Experience epic, free-to-play naval combat when you helm one of over 350 historic vessels in the exciting balance of strategy and real-time combat that World of Warships offers.
+World of Warships is a free to play online naval combat game by Wargaming.net. Players compete in a variety of historic warships from numerous national origins. Take control of Destroyers, Cruisers, Battleships, Submarines and Aircraft Carriers in competitive game modes, or cooperatively sail into historic operations.

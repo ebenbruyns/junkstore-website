@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/155715"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/achievements/faaast-penguin-4319d6"
-protondb_url: "https://www.protondb.com/app/2590150"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Faaast_Penguin"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,5 +78,4 @@ is_featured: false
 owned: true
 ---
 
-"Faaast Penguin" is a wild and thrilling knockout action racing game where up to 40 penguins collide in a chaotic race. It's free with cross-platform support!
-Unleash attacks! Hop on ULTIMATE RIDES! Use shortcuts! Pass your rivals and reach the finish line first!
+&quot;Faaast Penguin&quot; is a wild and thrilling knockout action racing game where up to 40 penguins collide in a chaotic race to the finish! It's free with cross-platform support! Unleash attacks! Hop on ULTIMATE RIDES! Use shortcuts! Pass your rivals and reach the finish line first!

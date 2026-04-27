@@ -18,7 +18,7 @@ publisher: Ubisoft Entertainment
 developer: Ubisoft Montreal, Ubisoft Casablanca
 genre: "Adventure, Platform, Hack and slash/Beat 'em up"
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 16
+age_rating_summary: ESRB 17
 release_date: "December 1, 2005"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/7298"
 
 # Links
 store_url: "https://www.gog.com/en/game/prince_of_persia_the_two_thrones"
-protondb_url: "https://www.protondb.com/app/13530"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia%3A_The_Two_Thrones"
+pcgamingwiki_url: ""
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia-the-two-thrones?ftag=MCD-06-10aaa1f"
 

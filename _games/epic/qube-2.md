@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/53060"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/q-u-b-e-2"
-protondb_url: "https://www.protondb.com/app/359100"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Q.U.B.E._2"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/qube-2?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-As stranded archaeologist, Amelia Cross, you must solve the puzzles of this mysterious world and find a way back home.
+Q.U.B.E. 2 is the sequel to the hit first-person puzzle game Q.U.B.E. You are Amelia Cross, a stranded archaeologist who has awoken among the ruins of an ancient alien landscape. With the distant help of another survivor you must manipulate the structure of this mysterious world and find a way back home.

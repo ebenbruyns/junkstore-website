@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/109596"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/call-of-the-wild-the-angler"
-protondb_url: "https://www.protondb.com/app/1408610"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_the_Wild:_The_Angler"
+pcgamingwiki_url: ""
 metacritic_score: 63
 metacritic_url: "https://www.metacritic.com/game/call-of-the-wild-the-angler/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-From the creators of theHunter: Call of the Wild comes a genre-defying fishing experience! Explore a vast open world in search of the perfect fishing spot. Ride the open waters alone or with friends and embark on your journey to become a master angler.
+From the creators of theHunter: Call of the Wild comes a genre-defying fishing experience! Explore a vast and atmospheric open world in search of the perfect fishing spot. Ride the open waters alone or with friends and embark on your journey to become a master angler.

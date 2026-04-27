@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/bundles/trine-classic-collection"
-protondb_url: "https://www.protondb.com/app/319910"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trine_3:_The_Artifacts_of_Power"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,6 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Trine 3: The Artifacts of Power is a 3D platforming game of action, puzzles and adventure. 
-
-The heroes return their extraordinary gifts to the Artifact called Trine, and so they meddle with powers beyond their understanding: Trine shatters, and an ancient sorcerer escapes!
+Trine 3: The Artifacts of Power is a platforming game of action, puzzles and adventure, and the sequel to the award winning Trine and Trine 2. Reunite with the three heroes in an all-new adventure, now for the first time in full 3D!

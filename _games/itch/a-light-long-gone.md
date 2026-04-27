@@ -3,7 +3,7 @@ layout: game-page
 title: "A Light Long Gone - Steam Deck Compatibility"
 game_title: "A Light Long Gone"
 slug: "a-light-long-gone"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/a-light-long-gone/
 

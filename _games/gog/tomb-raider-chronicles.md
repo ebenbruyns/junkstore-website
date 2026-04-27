@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10470"
 
 # Links
 store_url: "https://www.gog.com/en/game/tomb_raider_chronicles"
-protondb_url: "https://www.protondb.com/app/225000"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider_Chronicles"
+pcgamingwiki_url: ""
 metacritic_score: 63
 metacritic_url: "https://www.metacritic.com/game/tomb-raider-chronicles/"
 

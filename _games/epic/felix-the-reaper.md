@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/felix-the-reaper-3f7e62"
-protondb_url: "https://www.protondb.com/app/919410"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Felix_the_Reaper"
+pcgamingwiki_url: ""
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/felix-the-reaper?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,16 @@ is_featured: false
 owned: true
 ---
 
-Felix The Reaper is a challenging and strict 3D puzzle game about bringing humans into deadly situations. You are Felix, the ever-dancing bringer of death, who just so happens to be dangerously in love with Life.
+Felix The Reaper - A romantic comedy game about the life of death.
+
+Felix The Reaper is a romantic comedy about the life of Death. It's brought to you on PC as a 3D shadow manipulation puzzle adventure game of dance, dying people and dangerous love.
+
+Felix has set out to conquer the heart of Betty The Maiden. He's fallen in love watching her from the train window commuting to work everyday for ages. He works at The Ministry of Death, she works at The Ministry of Life. Hence they don't meet.
+
+He's taught himself to dance, because he's convinced, that will win Betty over. And he's gotten really good at it too.
+
+Finally Felix has come to realise, that it's not enough, that he can dance, if they never meet. And one day he decides to become a Field Reaper and go to work in the human world. That's where life and death collides. Hence he might finally get to ask Betty out for a dance.
+
+Excel at making sure people die, the way they are destined to, because that's what Field Reapers do, and Felix might finally get to meet Betty here in the human world.
+
+Felix The Reaper is produced by Kong Orange with support from The Danish Film Institute and The West Danish Film Fund, and the production has been invested in by CapNova.

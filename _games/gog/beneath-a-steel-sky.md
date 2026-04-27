@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1005"
 
 # Links
 store_url: "https://www.gog.com/en/game/beneath_a_steel_sky"
-protondb_url: "https://www.protondb.com/app/1368340"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beneath_a_Steel_Sky"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/beneath-a-steel-sky/"
 

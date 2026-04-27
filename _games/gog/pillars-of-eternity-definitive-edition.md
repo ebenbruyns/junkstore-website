@@ -18,7 +18,7 @@ publisher: Paradox Interactive
 developer: Obsidian Entertainment
 genre: role-playing-rpg, adventure, strategy, indie
 franchise: 
-age_rating_summary: ESRB 17 · PEGI 16
+age_rating_summary: ESRB 17
 release_date: "November 15, 2017"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/71293"
 
 # Links
 store_url: "https://www.gog.com/en/game/pillars_of_eternity_definitive_edition"
-protondb_url: "https://www.protondb.com/app/291650"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Pillars_of_Eternity"
+pcgamingwiki_url: ""
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/pc/pillars-of-eternity?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1344895033"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Experience the game that revitalized the classic RPG genre in a complete and definitive package that includes every expansion, bonus, and update, presenting Pillars of Eternity at its best.

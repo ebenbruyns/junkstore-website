@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/cassette-beasts-32c8e0"
-protondb_url: "https://www.protondb.com/app/1321440"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cassette_Beasts"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

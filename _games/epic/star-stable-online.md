@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/105432"
 store_url: "https://store.epicgames.com/en-US/p/star-stable"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Stable"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/star-stable-online/"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Star Stable is an exciting online game where adventures are waiting to be explored from horseback. With over 6000 quests and 300 unique horses, Star Stable gathers a global community of millions of players with one thing in common: horses.
+Star Stable is a MMORPG built especially for those with a passion for horses and games. Players will ride their own horse through the huge 3D world, customise their character and horse, compete in different races and competitions, chat and help each other through challenges, mysteries, and horse adventures the game has to offer.

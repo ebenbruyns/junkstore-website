@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/19973"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/guacamelee-stce-7cdbc8"
-protondb_url: "https://www.protondb.com/app/275390"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Guacamelee%21_Super_Turbo_Championship_Edition"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Guacamelee! is a Metroidvania-style action-platformer set in a magical Mexican-inspired world. The game draws its inspiration from traditional Mexican culture and folklore, and features many interesting and unique characters.
+"Guacamelee! STCE is an enhanced version of Guacamelee! Gold Edition that adds in two huge new levels, an explosive new ‘Intenso’ power mode, 4-player local co-op support and more. You’ll need to use every bit of your skill and power to defeat STCE’s new challenges (including a scheming new boss- El Trio de la Muerte), in addition to everything the original game's sprawling world has to throw at you."

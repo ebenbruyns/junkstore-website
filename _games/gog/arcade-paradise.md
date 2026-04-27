@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/112251"
 
 # Links
 store_url: "https://www.gog.com/en/game/arcade_paradise"
-protondb_url: "https://www.protondb.com/app/1388870"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Arcade_Paradise"
+pcgamingwiki_url: ""
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/arcade-paradise/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1065"
 
 # Links
 store_url: "https://www.gog.com/en/game/bioshock_remastered"
-protondb_url: "https://www.protondb.com/app/7670"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock"
+pcgamingwiki_url: ""
 metacritic_score: 96
 metacritic_url: "https://www.metacritic.com/game/pc/bioshock?ftag=MCD-06-10aaa1f"
 

@@ -18,7 +18,7 @@ publisher: WB Games, Feral Interactive
 developer: "Traveller's Tales"
 genre: Adventure
 franchise: 
-age_rating_summary: ESRB 10 · PEGI 7
+age_rating_summary: ESRB 10
 release_date: "November 13, 2012"
 game_modes: ["Single player","Co-operative","Multiplayer"]
 languages: ["Danish","Dutch","English*","French*","German*","Italian","Polish","Russian","Spanish - Spain*languages with full audio support"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/5265"
 
 # Links
 store_url: "https://www.gog.com/en/game/lego_the_lord_of_the_rings"
-protondb_url: "https://www.protondb.com/app/214510"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_The_Lord_of_the_Rings"
+pcgamingwiki_url: ""
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/lego-the-lord-of-the-rings?ftag=MCD-06-10aaa1f"
 

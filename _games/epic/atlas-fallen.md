@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/112665"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/atlas-fallen"
-protondb_url: "https://www.protondb.com/app/1230530"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Atlas_Fallen"
+pcgamingwiki_url: ""
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/atlas-fallen/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "886d19a2d3194eb8890f0068b91926ae"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Rise from the dust and glide the sands of a timeless land, filled with ancient dangers, mysteries and fragments of the past. Hunt legendary monsters with powerful sand-infused weapons and abilities in spectacular, super-powered combat.
+Rise from the dust and glide the sands of a timeless land, filled with ancient dangers, mysteries and fragments of the past.

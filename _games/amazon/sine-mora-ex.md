@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/48048"
 
 # Links
 store_url: ""
-protondb_url: "https://www.protondb.com/app/606730"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sine_Mora_EX"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/sine-mora-ex/"
 

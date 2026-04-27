@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/132639"
 
 # Links
 store_url: "https://www.gog.com/en/game/deathbound"
-protondb_url: "https://www.protondb.com/app/1277130"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deathbound"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1326221139"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Deathbound is a one-of-a-kind party-based soulslike set in a callous world where Faith and Science clash.

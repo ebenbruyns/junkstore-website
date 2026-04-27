@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/59847"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lovecrafts-untold-stories"
-protondb_url: "https://www.protondb.com/app/871420"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lovecraft%27s_Untold_Stories"
+pcgamingwiki_url: ""
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/lovecrafts-untold-stories?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Lovecraft’s Untold Stories is an action rogue-lite with RPG elements. Explore randomly generated levels based on Lovecraft's stories, fight cultists and monsters from the Mythos, improve your gear, solve puzzles, and find how to defeat the Great Old Ones.
+Lovecraft’s Untold Stories is an action RPG with rogue-like elements. Explore, improve your skills and gear, and fight cultists and creatures from the Mythos to stop the Old Ones’ plans in randomly generated levels based on Lovecraft stories. Madness and death await you—but maybe you can delay the inevitable…

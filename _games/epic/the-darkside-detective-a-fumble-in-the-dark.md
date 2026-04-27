@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/91005"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-darkside-detective-a-fumble-in-the-dark-174fcf"
-protondb_url: "https://www.protondb.com/app/795420"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Darkside_Detective:_A_Fumble_in_the_Dark"
+pcgamingwiki_url: ""
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/the-darkside-detective-a-fumble-in-the-dark?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Join Detective McQueen as he puzzles his way through 6 cases, risking life and pixelated limb to solve the macabre mysteries that plague the poor town.
+Delouse your room with sage and pack up your travel-sized ouija board, it's time to re-enter Twin Lakes - America's 34th most haunted city. Join Detective McQueen as he puzzles his way through 6 chilling cases, risking life and pixelated limb to solve the macabre mysteries that plague the poor town.

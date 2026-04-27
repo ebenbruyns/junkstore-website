@@ -18,7 +18,7 @@ publisher: Supergiant Games
 developer: Supergiant Games
 genre: role-playing-rpg, strategy
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "May 1, 2014"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/17617"
 
 # Links
 store_url: "https://www.gog.com/en/game/transistor"
-protondb_url: "https://www.protondb.com/app/237930"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Transistor"
+pcgamingwiki_url: ""
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/transistor?ftag=MCD-06-10aaa1f"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1429612159"
 is_featured: false
-owned: false
+owned: true
 ---
 
 An unconventional tactical action RPG in which after a powerful group called the Camerata cause measureless destruction through the ambiguous settlement of Cloudbank, Red, a famous singer in the city, goes on a journey along with her lover who is trapped inside the Transistor...

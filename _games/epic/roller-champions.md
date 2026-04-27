@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68264"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/roller-champions"
-protondb_url: "https://www.protondb.com/app/2211280"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Roller_Champions"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,5 @@ is_featured: false
 owned: true
 ---
 
-Skate and roll your way up to glory in Roller Champions™. Discover a free-to-play, team PvP sports game like no other!
+Skate your way to victory!
+Advance through the ranks as you rise from street to stadium, winning matches and gaining fans on your way to Roller Champion fame. Feel the thrill of rushing down the track, weaving between opponents, and slamming goals in this electrifying derby-inspired game. The arena awaits you!

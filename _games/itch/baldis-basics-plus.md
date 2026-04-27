@@ -3,7 +3,7 @@ layout: game-page
 title: "Baldi's Basics Plus - Steam Deck Compatibility"
 game_title: "Baldi's Basics Plus"
 slug: "baldis-basics-plus"
-storefront: "itch.io"
+storefront: "itch"
 storefront_key: "itch"
 permalink: /games/itch/baldis-basics-plus/
 
@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://basically-games.itch.io/baldis-basics-plus"
-protondb_url: "https://www.protondb.com/app/1275890"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Baldi%27s_Basics_Plus"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 

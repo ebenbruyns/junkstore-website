@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/126315"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/akxolotl-114f77"
-protondb_url: "https://www.protondb.com/app/1479140"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/AK-xolotl:_Together"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-The cutest, deadliest top-down roguelike shooter featuring AK-wielding Axolotls. Blast your way through the animal kingdom with an arsenal of kick-ass guns, mighty power-ups and even raise an army of trigger-happy baby axolotls. Double the firepower! Local co-op update now live!
+The cutest, deadliest and only top-down roguelike shooter featuring AK-wielding axolotls. Blast your way through the animal kingdom...

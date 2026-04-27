@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/112983"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/assassin-s-creed-mirage"
-protondb_url: "https://www.protondb.com/app/3035570"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Assassin%27s_Creed_Mirage"
+pcgamingwiki_url: ""
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/assassins-creed-mirage/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "9cd229b0323f485bafca042ef00b14af"
 is_featured: false
-owned: false
+owned: true
 ---
 
-Experience the story of Basim, a cunning street thief with nightmarish visions, seeking answers and justice as he navigates the bustling streets of ninth-century Baghdad. Through a mysterious, ancient organization known as the Hidden Ones, he will become a deadly Master Assassin and change his fate in ways he never could have imagined.
+Experience the story of Basim, a cunning street thief with nightmarish visions seeking answers and justice. Join an ancient organization and come to understand a new creed – one that will change Basim's fate in ways he never could have imagined.

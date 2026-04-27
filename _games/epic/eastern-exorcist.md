@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/81868"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/eastern-exorcist-d49923"
-protondb_url: "https://www.protondb.com/app/1120810"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Eastern_Exorcist"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Eastern Exorcist is a stunning 2D side-scrolling action RPG set in a fantasy eastern world with vicious spirits and monsters. Play as a skilled exorcist against chaotic evil to fight your way through the brutal world, and experience different stories of joy and sorrow.
+The Eastern Exorcist is a stunning 2D side-scrolling action RPG set in a fictitious oriental world with the infestation of vicious demon monsters. Play as a skilled exorcist against chaotic evil to fight your way through the brutal world, and experience unforeseen entanglements of complex beings.

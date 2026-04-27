@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/101422"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/monopoly-madness"
-protondb_url: "https://www.protondb.com/app/2383760"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Monopoly_Madness"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Rediscover the MONOPOLY you love in a way you’ve never seen before. This is Madness!
+Would you like to become the new Mr. Monopoly? It’s your lucky day! Our favorite Real-Estate Mogul is going on a well-earned vacation and he’s looking for a temporary stand-in. The method of selection? A race for fame and fortune. This time the rules have slightly changed. Monopoly Madness brings the Monopoly experience into the arena for the first time ever. Roam the chaotic streets of Monopoly City, collect resources, buy and upgrade properties, mess with your opponents, and avoid their tricks to win the race for riches. This is madness!

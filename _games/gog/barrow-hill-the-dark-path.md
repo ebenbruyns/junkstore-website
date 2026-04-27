@@ -18,7 +18,7 @@ publisher: Iceberg Interactive
 developer: Shadow Tor Studios
 genre: adventure, indie, point-and-click
 franchise: 
-age_rating_summary: ESRB 13 · PEGI 12
+age_rating_summary: ESRB 13
 release_date: "September 1, 2016"
 game_modes: ["Single player"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45207"
 
 # Links
 store_url: "https://www.gog.com/en/game/barrow_hill_the_dark_path"
-protondb_url: "https://www.protondb.com/app/520990"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_The_Dark_Path"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/barrow-hill-the-dark-path/"
 
@@ -75,7 +75,7 @@ known_issues:
 # Meta
 database_id: "1840673966"
 is_featured: false
-owned: false
+owned: true
 ---
 
 Follow the Dark Path into a world of Druidic lore and Celtic myths. It is the Autumn Equinox on Barrow Hill, a time of great power, when the ancient standing stones are at their most powerful and dangerous.

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93892"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/doki-doki-literature-club"
-protondb_url: "https://www.protondb.com/app/1388880"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doki_Doki_Literature_Club_Plus%21"
+pcgamingwiki_url: ""
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/doki-doki-literature-club-plus!?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-Welcome to the club! Write poems for your crush and experience the terror of school romance in this critically-acclaimed psychological horror story.
+The Literature Club is full of cute girls! Will you write the way into their heart? This game is not suitable for children or those who are easily disturbed.

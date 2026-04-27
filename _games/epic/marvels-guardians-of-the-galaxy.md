@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/72584"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/marvels-guardians-of-the-galaxy"
-protondb_url: "https://www.protondb.com/app/1088850"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Marvel%27s_Guardians_of_the_Galaxy"
+pcgamingwiki_url: ""
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/marvels-guardians-of-the-galaxy?ftag=MCD-06-10aaa1f"
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-You are Star-Lord. The fate of the galaxy and the Guardians is in your hands. Time to show the universe what you’re made of. You got this. Probably.
+Fire up a wild ride across the cosmos with a fresh take on Marvel’s Guardians of the Galaxy. In this action-adventure game, you are Star-Lord leading the unpredictable Guardians from one explosion of chaos to the next. You got this. Probably.

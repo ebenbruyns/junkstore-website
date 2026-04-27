@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/105664"
 
 # Links
 store_url: "https://www.gog.com/en/game/heros_hour"
-protondb_url: "https://www.protondb.com/app/1656780"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hero%27s_Hour"
+pcgamingwiki_url: ""
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/heros-hour?ftag=MCD-06-10aaa1f"
 

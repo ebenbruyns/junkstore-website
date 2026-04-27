@@ -18,7 +18,7 @@ publisher: 2K Games
 developer: Firaxis Games
 genre: Strategy, Simulator
 franchise: 
-age_rating_summary: ESRB 10 · PEGI 12
+age_rating_summary: ESRB 10
 release_date: "September 14, 2004"
 game_modes: ["Single player","Multiplayer"]
 languages: ["English"]
@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/8502"
 
 # Links
 store_url: "https://www.gog.com/en/game/sid_meiers_civilization_iii_complete"
-protondb_url: "https://www.protondb.com/app/3910"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sid_Meier%27s_Civilization_III"
+pcgamingwiki_url: ""
 metacritic_score: 90
 metacritic_url: "https://www.metacritic.com/game/pc/sid-meiers-civilization-iii?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/131602"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/super-crazy-rhythm-castle-e3b464"
-protondb_url: "https://www.protondb.com/app/1812560"
+protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Super_Crazy_Rhythm_Castle"
+pcgamingwiki_url: ""
 metacritic_score: 
 metacritic_url: ""
 
@@ -78,4 +78,4 @@ is_featured: false
 owned: true
 ---
 
-It’s Super Crazy Rhythm Castle, the chaotic rhythm adventure! A puzzling co-op mashup unlike anything you've ever heard. Solo, or with a band of up to three friends … … Can you conquer the castle?
+It’s Super Crazy Rhythm Castle, the chaotic rhythm adventure! A puzzling co-op mashup unlike anything you've ever heard. Solo, or with a band of up to three friends… Can you conquer the castle?
