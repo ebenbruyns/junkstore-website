@@ -119,35 +119,10 @@
       recentGames = sortedGames.slice(0, 12);
     }
 
-    // Fetch each game's full JSON for cover art (and for title/rating when the
-    // entry came from the curated feed, which only carries store/slug/dates).
-    const gamesWithImages = await Promise.all(
-      recentGames.map(async (game) => {
-        const store = normalizeStore(game.storefrontKey || game.storefront || game.store);
-        const slug = game.slug || slugify(game.title);
-        try {
-          const response = await fetch(`/assets/data/games/${store === 'itch' ? 'itch.io' : store}/${slug}.json`);
-          if (response.ok) {
-            const fullData = await response.json();
-            // Merge: full data first, then overlay the entry's own fields so
-            // feed-only metadata (featured_in, post_url, store) survives. Cover
-            // art always comes from the per-game JSON.
-            return {
-              ...fullData,
-              ...game,
-              icon_image: fullData.icon_image,
-              vertical_artwork: fullData.vertical_artwork
-            };
-          }
-        } catch (e) {
-          // Ignore fetch errors, use placeholder
-        }
-        return game;
-      })
-    );
-
-    // Build carousel HTML
-    const html = gamesWithImages.map(game => createGameCard(game)).join('');
+    // recently-tested.json already carries title, standalone_rating, icon_image,
+    // and vertical_artwork per entry (baked in by the companion's publish
+    // pipeline), so we render directly without per-game JSON fetches.
+    const html = recentGames.map(game => createGameCard(game)).join('');
     track.innerHTML = html;
 
     // Hide loading, show track
@@ -157,7 +132,9 @@
 
   // Create a game card element
   function createGameCard(game) {
-    const store = normalizeStore(game.storefrontKey || game.storefront);
+    // recently-tested.json uses `store`; games-table.json uses `storefront` —
+    // accept either so the carousel works with both data sources.
+    const store = normalizeStore(game.storefrontKey || game.storefront || game.store);
     const slug = game.slug || slugify(game.title);
     const rating = game.standalone_rating || 'unknown';
     const ratingClass = getRatingClass(rating);

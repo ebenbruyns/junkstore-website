@@ -1,53 +1,85 @@
 {
-  "generated_at": "2026-04-26T04:34:09.096Z",
+  "generated_at": "2026-04-27T05:24:25.263Z",
   "games": [
     {
       "store": "epic",
       "slug": "doomblade",
       "featured_in": "2026-04-26",
-      "post_url": "/blog/games-tested-apr-26/"
+      "post_url": "/blog/games-tested-apr-26/",
+      "title": "DOOMBLADE",
+      "standalone_rating": "green",
+      "icon_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/922050/capsule_184x69.jpg?t=1762953800",
+      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-1v156.jpg"
     },
     {
       "store": "gog",
       "slug": "the-pale-beyond",
       "featured_in": "2026-04-26",
-      "post_url": "/blog/games-tested-apr-26/"
+      "post_url": "/blog/games-tested-apr-26/",
+      "title": "The Pale Beyond",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/feffd491f055a0bcdf9972876ee07f1bdbc31d5b904b8468170169fd5c6838d4.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/44f7aa48dbbd595dc470ee64d6320534dc8aec1a821ce4cabeb1828b5cdcb44a.jpg?namespace=gamesdb"
     },
     {
       "store": "gog",
       "slug": "neo-cab",
       "featured_in": "2026-04-26",
-      "post_url": "/blog/games-tested-apr-26/"
+      "post_url": "/blog/games-tested-apr-26/",
+      "title": "Neo Cab",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/f1f0e2bfeefc84be76886c4c478afa6362fbb7bc970d783c92b2ebf26d4ad793.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/3b424f32c2c8848e3f137ef9d51fb922110cbeeecae2ba9fecead5f8d3588d77.jpg?namespace=gamesdb"
     },
     {
       "store": "gog",
       "slug": "the-whispering-valley",
       "featured_in": "2026-04-26",
-      "post_url": "/blog/games-tested-apr-26/"
+      "post_url": "/blog/games-tested-apr-26/",
+      "title": "The Whispering Valley",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/3feed2c9964ff4e7f34b4fb7f78b31f152794aef0b17cfbd5c9e24509b97ed70.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/00a5557d5297739fc5ba6b493c265f75e66b2bfdb06245d70b956932d269758d.jpg?namespace=gamesdb"
     },
     {
       "store": "epic",
       "slug": "the-stone-of-madness",
       "featured_in": "2026-04-18",
-      "post_url": "/blog/games-tested-apr-18/"
+      "post_url": "/blog/games-tested-apr-18/",
+      "title": "The Stone of Madness",
+      "standalone_rating": "green",
+      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/1309710/capsule_231x87.jpg",
+      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-680ls.jpg"
     },
     {
       "store": "epic",
       "slug": "monster-harvest",
       "featured_in": "2026-04-18",
-      "post_url": "/blog/games-tested-apr-18/"
+      "post_url": "/blog/games-tested-apr-18/",
+      "title": "Monster Harvest",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/a619548509f7106478975e16c80ac62c9b641e19f64d61382976358a113aaf89.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/5f1eb1585c6049199a499059c2326087/download-monster-harvest-offer-idy8y.jpg"
     },
     {
       "store": "gog",
       "slug": "snake-core",
       "featured_in": "2026-04-18",
-      "post_url": "/blog/games-tested-apr-18/"
+      "post_url": "/blog/games-tested-apr-18/",
+      "title": "Snake Core",
+      "standalone_rating": "green",
+      "icon_image": "https://images.gog.com/45d5c4f8647030f4f26e257104848e579875346cdfbe8a7b0df0064f79ef35bc.jpg?namespace=gamesdb",
+      "vertical_artwork": "https://images.gog.com/e49ab3e1b405234acceab90b90ea9cf7a22aa3a31f81dd86e527abd67ff5b622.jpg?namespace=gamesdb"
     },
     {
       "store": "epic",
       "slug": "undead-rise-of-the-betrayed-king",
       "featured_in": "2026-04-18",
-      "post_url": "/blog/games-tested-apr-18/"
+      "post_url": "/blog/games-tested-apr-18/",
+      "title": "Undead: Rise of the Betrayed King",
+      "standalone_rating": "green",
+      "icon_image": "https://steamcdn-a.akamaihd.net/steam/apps/2711180/capsule_231x87.jpg",
+      "vertical_artwork": "https://cdn1.epicgames.com/spt-assets/e0b2ef75c4ca470eae076d9d54087eb4/undead-rise-of-the-betrayed-king-14f7w.jpg"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-27T03:37:50.403Z",
-  "total_games": 997,
+  "generated_at": "2026-04-27T05:24:25.255Z",
+  "total_games": 992,
   "storefronts": {
     "Epic": {
-      "total": 475
+      "total": 473
     },
     "GOG": {
-      "total": 377
+      "total": 374
     },
     "Amazon": {
       "total": 73
@@ -193,20 +193,6 @@
       "date_tested": "Aug '24",
       "publisher": "Headup",
       "controller_input": "native",
-      "databaseId": "9b2c200d7dec4825a83664d8888adad8"
-    },
-    {
-      "slug": "aerialknights-never-yield",
-      "id": "7e348709-f17f-4478-8176-2fe84241bb78",
-      "title": "Aerial_Knight's Never Yield",
-      "storefront": "Epic",
-      "decky_rating": "green",
-      "standalone_rating": "green",
-      "date_tested": "Aug '24",
-      "cant_test_linux": false,
-      "publisher": "Headup",
-      "controller_input": "native",
-      "requires_eac_runtime": false,
       "databaseId": "9b2c200d7dec4825a83664d8888adad8"
     },
     {
@@ -5660,20 +5646,6 @@
       "databaseId": "GuppyDummy"
     },
     {
-      "slug": "tony-hawks-pro-skater-12",
-      "id": "5cc520fa-1d3c-4ad7-b1ba-a16a6ed8a421",
-      "title": "Tony Hawk's Pro Skater 1+2",
-      "storefront": "Epic",
-      "decky_rating": "green",
-      "standalone_rating": "unknown",
-      "date_tested": "May '24",
-      "cant_test_linux": false,
-      "publisher": "Activision",
-      "controller_input": "native",
-      "requires_eac_runtime": false,
-      "databaseId": "GuppyDummy"
-    },
-    {
       "slug": "total-war-pharaoh-dynasties",
       "id": "75a36c7b-e5de-4602-ae39-686b19573476",
       "title": "Total War: Pharaoh Dynasties",
@@ -7899,20 +7871,6 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1876546888"
-    },
-    {
-      "slug": "fallout-2-a-post-nuclear-role-playing-game",
-      "id": "cdf53061-93cd-40dd-8d2c-fcda6abecb2e",
-      "title": "Fallout 2: A Post Nuclear Role Playing Game",
-      "storefront": "GOG",
-      "decky_rating": "green",
-      "standalone_rating": "green",
-      "date_tested": "Dec '25",
-      "cant_test_linux": false,
-      "publisher": "Bethesda Softworks",
-      "controller_input": "keyboard-mouse",
-      "requires_eac_runtime": false,
-      "databaseId": "1440151285"
     },
     {
       "slug": "fallout-2",
@@ -10998,20 +10956,6 @@
       "databaseId": "1407750955"
     },
     {
-      "slug": "tomb-raider-iiiiii-remastered",
-      "id": "9be42709-ef15-4677-8ca2-6b50f0a5c410",
-      "title": "Tomb Raider I•II•III Remastered",
-      "storefront": "GOG",
-      "decky_rating": "green",
-      "standalone_rating": "green",
-      "date_tested": "July '25",
-      "cant_test_linux": false,
-      "publisher": "Aspyr Media",
-      "controller_input": "",
-      "requires_eac_runtime": false,
-      "databaseId": "1407750955"
-    },
-    {
       "slug": "tomb-raider-legend",
       "id": "c3e6be6d-2112-44d8-9763-54394582cec5",
       "title": "Tomb Raider: Legend",
@@ -11104,20 +11048,6 @@
       "controller_input": "native",
       "requires_eac_runtime": false,
       "databaseId": "1429612159"
-    },
-    {
-      "slug": "trberbrook",
-      "id": "225b3cb9-f482-43c6-b6d4-c484353ef6ca",
-      "title": "Trüberbrook",
-      "storefront": "GOG",
-      "decky_rating": "green",
-      "standalone_rating": "green",
-      "date_tested": "Nov '24",
-      "cant_test_linux": false,
-      "publisher": "WhisperGames, Headup Games",
-      "controller_input": "",
-      "requires_eac_runtime": false,
-      "databaseId": "1289701346"
     },
     {
       "slug": "treasure-of-nadia",
