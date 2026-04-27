@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68156"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ghostwire-tokyo"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1475810"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghostwire:_Tokyo"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/ghostwire-tokyo?ftag=MCD-06-10aaa1f"
 

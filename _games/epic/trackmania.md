@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/76075"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/trackmania"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2225070"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trackmania_%282020%29"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/search/trackmania/"
 

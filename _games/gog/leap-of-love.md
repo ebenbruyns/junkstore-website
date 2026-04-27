@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/139454"
 
 # Links
 store_url: "https://www.gog.com/en/game/leap_of_love"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1469300"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

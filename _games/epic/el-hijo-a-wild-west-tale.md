@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68274"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/el-hijo-6b63c5"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/853050"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/El_Hijo_-_A_Wild_West_Tale"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/el-hijo-a-wild-west-tale?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/stalcraft-x-stalcraft-x-starter-edition-0b06d4"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1818450"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Stalcraft:_X"
 metacritic_score: 
 metacritic_url: ""
 

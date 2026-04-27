@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/101201"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/doomblade-afdf9a"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/922050"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doomblade"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/doomblade?ftag=MCD-06-10aaa1f"
 

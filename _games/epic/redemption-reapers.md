@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/118740"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/redemption-reapers-54dabd"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2139300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Redemption_Reapers"
 metacritic_score: 
 metacritic_url: ""
 

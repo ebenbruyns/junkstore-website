@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://josephgribbin.itch.io/magnibox"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/999410"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Magnibox"
 metacritic_score: 
 metacritic_url: ""
 

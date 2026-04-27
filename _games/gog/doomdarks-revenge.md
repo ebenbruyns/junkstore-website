@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/18399"
 store_url: "https://www.gog.com/en/game/doomdarks_revenge"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doomdark%27s_Revenge"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/doomdarks-revenge/"
 

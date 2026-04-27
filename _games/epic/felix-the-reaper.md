@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/felix-the-reaper-3f7e62"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/919410"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Felix_the_Reaper"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/felix-the-reaper?ftag=MCD-06-10aaa1f"
 

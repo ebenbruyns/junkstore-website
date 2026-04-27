@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/99345"
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1085220"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Figment_2%3A_Creed_Valley"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/figment-2-creed-valley/"
 

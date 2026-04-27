@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/27887"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/guild-of-dungeoneering-ultimate-edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/317820"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Guild_of_Dungeoneering"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/guild-of-dungeoneering?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/71765"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/touch-type-tale"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/909470"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Touch_Type_Tale"
 metacritic_score: 
 metacritic_url: ""
 

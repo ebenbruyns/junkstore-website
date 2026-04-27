@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/145872"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/disney-epic-mickey-rebrushed"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1522160"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Epic_Mickey%3A_Rebrushed"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/disney-epic-mickey-rebrushed?ftag=MCD-06-10aaa1f"
 

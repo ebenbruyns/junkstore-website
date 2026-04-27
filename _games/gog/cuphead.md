@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/21680"
 
 # Links
 store_url: "https://www.gog.com/en/game/cuphead"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/268910"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cuphead"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/cuphead?ftag=MCD-06-10aaa1f"
 

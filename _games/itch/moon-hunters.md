@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/33004"
 
 # Links
 store_url: "https://kitfoxgames.itch.io/moon-hunters"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/320040"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Moon_Hunters"
 metacritic_score: 62
 metacritic_url: "https://www.metacritic.com/game/pc/moon-hunters?ftag=MCD-06-10aaa1f"
 

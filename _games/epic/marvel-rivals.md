@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/147712"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/marvel-rivals-182004"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2767030"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Marvel_Rivals"
 metacritic_score: 
 metacritic_url: ""
 

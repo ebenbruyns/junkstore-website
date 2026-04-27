@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68145"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/creature-in-the-well"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/852300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Creature_in_the_Well"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/creature-in-the-well?ftag=MCD-06-10aaa1f"
 

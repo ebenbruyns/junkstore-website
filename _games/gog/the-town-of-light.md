@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/34947"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_town_of_light"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/433100"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Town_of_Light"
 metacritic_score: 64
 metacritic_url: "https://www.metacritic.com/game/pc/the-town-of-light?ftag=MCD-06-10aaa1f"
 

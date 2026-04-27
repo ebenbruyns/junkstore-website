@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/56967"
 
 # Links
 store_url: "https://www.gog.com/en/game/space_hulk_deathwing_enhanced_edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/816090"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Space_Hulk%3A_Deathwing_-_Enhanced_Edition"
 metacritic_score: 
 metacritic_url: ""
 

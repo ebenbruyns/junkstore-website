@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/77798"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ring-of-pain"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/998740"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ring_of_Pain"
 metacritic_score: 
 metacritic_url: ""
 

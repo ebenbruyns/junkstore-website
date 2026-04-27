@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/105432"
 store_url: "https://store.epicgames.com/en-US/p/star-stable"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Stable"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/star-stable-online/"
 

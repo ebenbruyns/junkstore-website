@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/44590"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/prey"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/480490"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prey_%282017%29"
 metacritic_score: 
 metacritic_url: ""
 

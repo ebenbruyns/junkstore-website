@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/25991"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/killing-floor-2"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/232090"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Killing_Floor_2"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/killing-floor-2?ftag=MCD-06-10aaa1f"
 

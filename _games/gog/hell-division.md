@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/127370"
 
 # Links
 store_url: "https://www.gog.com/en/game/hell_division"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2004360"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hell_Division"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/hell-division/"
 

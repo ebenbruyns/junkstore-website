@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/30623"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jotun"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/323580"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Jotun"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/jotun?ftag=MCD-06-10aaa1f"
 

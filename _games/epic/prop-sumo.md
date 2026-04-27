@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/propsumo-ca8bd7"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/3089420"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

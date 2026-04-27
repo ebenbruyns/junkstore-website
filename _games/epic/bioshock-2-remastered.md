@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1066"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/bioshock-2-remastered"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/409720"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/BioShock_2_Remastered"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/bioshock-2-remastered/"
 

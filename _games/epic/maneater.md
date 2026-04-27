@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68266"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/maneater"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/629820"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Maneater"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/maneater?ftag=MCD-06-10aaa1f"
 

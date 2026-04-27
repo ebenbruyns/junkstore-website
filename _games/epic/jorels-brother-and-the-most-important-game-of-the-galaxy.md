@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jorels-brother-and-the-most-important-game-of-the-galaxy-47435f"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1398910"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

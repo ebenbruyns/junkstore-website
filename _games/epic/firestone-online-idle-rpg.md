@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1013320"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Firestone_Idle_RPG"
 metacritic_score: 
 metacritic_url: ""
 

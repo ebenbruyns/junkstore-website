@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/48446"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/achievements/idle-champions-of-the-forgotten-realms"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/627690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Idle_Champions_of_the_Forgotten_Realms"
 metacritic_score: 
 metacritic_url: ""
 

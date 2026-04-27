@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hyper-echelon-2d23ff"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/953330"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

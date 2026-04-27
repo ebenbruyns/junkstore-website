@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/44704"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/pubg-59c1d9"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/578080"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/PUBG%3A_Battlegrounds"
 metacritic_score: 
 metacritic_url: ""
 

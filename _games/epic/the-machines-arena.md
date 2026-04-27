@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/105954"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-machines-arena-74e0f1"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1539860"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

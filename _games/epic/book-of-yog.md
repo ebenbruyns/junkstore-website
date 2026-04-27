@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/119211"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/book-of-yog-idle-rpg-74cebc"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1097430"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Book_of_Yog_Idle_RPG"
 metacritic_score: 
 metacritic_url: ""
 

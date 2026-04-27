@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93531"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/behind-the-frame-the-finest-scenery"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1634150"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Behind_the_Frame%3A_The_Finest_Scenery"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/behind-the-frame-the-finest-scenery?ftag=MCD-06-10aaa1f"
 

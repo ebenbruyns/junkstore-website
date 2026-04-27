@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/137867"
 
 # Links
 store_url: "https://www.gog.com/en/game/tomb_raider_i_to_iii_remastered"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2478970"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tomb_Raider_I-III_Remastered"
 metacritic_score: 
 metacritic_url: ""
 

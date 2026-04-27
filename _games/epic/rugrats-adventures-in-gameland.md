@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/136080"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rugrats-adventures-in-gameland-737402"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2633950"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rugrats%3A_Adventures_in_Gameland"
 metacritic_score: 
 metacritic_url: ""
 

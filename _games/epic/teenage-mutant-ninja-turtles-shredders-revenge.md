@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/89573"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/teenage-mutant-ninja-turtles-shredders-revenge"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1361510"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Teenage_Mutant_Ninja_Turtles%3A_Shredder%27s_Revenge"
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/teenage-mutant-ninja-turtles-shredders-revenge?ftag=MCD-06-10aaa1f"
 

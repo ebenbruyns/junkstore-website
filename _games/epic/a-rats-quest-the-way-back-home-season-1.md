@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/a-rats-quest-f610d5"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1124420"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

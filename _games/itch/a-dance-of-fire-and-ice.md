@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://fizzd.itch.io/a-dance-of-fire-and-ice"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/977950"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Dance_of_Fire_and_Ice"
 metacritic_score: 
 metacritic_url: ""
 

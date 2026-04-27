@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/duetnightabyss-016366"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/3950020"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Duet_Night_Abyss"
 metacritic_score: 
 metacritic_url: ""
 

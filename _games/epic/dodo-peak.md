@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/70697"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dodo-peak-159276"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2845610"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dodo_Peak"
 metacritic_score: 
 metacritic_url: ""
 

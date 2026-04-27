@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/440"
 
 # Links
 store_url: "https://www.gog.com/en/game/amnesia_the_dark_descent"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/57300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia:_The_Dark_Descent"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/amnesia-the-dark-descent?ftag=MCD-06-10aaa1f"
 

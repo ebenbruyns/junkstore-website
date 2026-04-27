@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/41878"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/beholder-8c3b4c"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/475550"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beholder"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/beholder?ftag=MCD-06-10aaa1f"
 

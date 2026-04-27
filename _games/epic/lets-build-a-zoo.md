@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/95925"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lets-build-a-zoo"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1547890"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Let%27s_Build_a_Zoo"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/lets-build-a-zoo?ftag=MCD-06-10aaa1f"
 

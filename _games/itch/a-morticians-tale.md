@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/50016"
 
 # Links
 store_url: "https://laundrybear.itch.io/morticians-tale"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/578720"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Mortician%27s_Tale"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/a-morticians-tale?ftag=MCD-06-10aaa1f"
 

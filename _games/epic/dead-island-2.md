@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/21273"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dead-island-2"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/934700"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dead_Island_2"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/dead-island-2/"
 

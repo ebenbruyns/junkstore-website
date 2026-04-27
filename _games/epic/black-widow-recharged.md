@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/104809"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/black-widow-recharged"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1714180"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Black_Widow:_Recharged"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/black-widow-recharged/"
 

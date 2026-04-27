@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/46204"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/clone-drone-in-the-danger-zone-4daf6e"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/597170"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Clone_Drone_in_the_Danger_Zone"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/clone-drone-in-the-danger-zone?ftag=MCD-06-10aaa1f"
 

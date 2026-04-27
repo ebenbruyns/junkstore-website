@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45626"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/aven-colony"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/484900"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aven_Colony"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/pc/aven-colony?ftag=MCD-06-10aaa1f"
 

@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/137876"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/blocklords-2a2ccd"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1278420"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

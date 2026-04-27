@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/78633"
 
 # Links
 store_url: "https://www.gog.com/en/game/monster_train"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1102190"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Monster_Train"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/monster-train?ftag=MCD-06-10aaa1f"
 

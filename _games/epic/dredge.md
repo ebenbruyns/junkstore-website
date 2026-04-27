@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/94128"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dredge-3e3a5f"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1562430"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dredge"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/dredge/"
 

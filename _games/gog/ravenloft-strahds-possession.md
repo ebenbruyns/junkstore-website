@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/12829"
 
 # Links
 store_url: "https://www.gog.com/en/game/dungeons_dragons_ravenloft_series"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1904560"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ravenloft:_Strahd%27s_Possession"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/ravenloft-strahds-possession/"
 

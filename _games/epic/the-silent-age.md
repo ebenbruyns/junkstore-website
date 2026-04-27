@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/14354"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-silent-age-eb6972"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/352520"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Silent_Age"
 metacritic_score: 
 metacritic_url: ""
 

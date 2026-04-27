@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10298"
 
 # Links
 store_url: "https://www.gog.com/en/game/thief_2_the_metal_age"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/211740"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Thief_II%3A_The_Metal_Age"
 metacritic_score: 87
 metacritic_url: "https://www.metacritic.com/game/pc/thief-ii-the-metal-age?ftag=MCD-06-10aaa1f"
 

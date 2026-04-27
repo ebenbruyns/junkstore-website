@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/67286"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/castlevania-anniversary-collection-a61f94"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1018010"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Castlevania_Anniversary_Collection"
 metacritic_score: 
 metacritic_url: ""
 

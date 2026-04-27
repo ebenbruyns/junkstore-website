@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/106842"
 
 # Links
 store_url: "https://www.gog.com/en/game/blast_brigade_vs_the_evil_legion_of_dr_cread"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1550760"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blast_Brigade_vs._the_Evil_Legion_of_Dr._Cread"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/blast-brigade-vs-the-evil-legion-of-dr-cread/"
 

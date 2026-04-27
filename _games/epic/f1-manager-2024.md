@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/146988"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/f1-manager-2024-fe51bd"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2591280"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/F1_Manager_2024"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/f1-manager-2024?ftag=MCD-06-10aaa1f"
 

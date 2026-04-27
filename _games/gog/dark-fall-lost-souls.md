@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/2208"
 
 # Links
 store_url: "https://www.gog.com/en/game/dark_fall_3_lost_souls"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/46750"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Fall_3%3A_Lost_Souls"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/dark-fall-3-lost-souls?ftag=MCD-06-10aaa1f"
 

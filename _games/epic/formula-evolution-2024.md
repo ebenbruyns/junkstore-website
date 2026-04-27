@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/formula-evolution-2024-085f66"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2456080"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

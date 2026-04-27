@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/53474"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/thems-fightin-herds"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/574980"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Them%27s_Fightin%27_Herds"
 metacritic_score: 
 metacritic_url: ""
 

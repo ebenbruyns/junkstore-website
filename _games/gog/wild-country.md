@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://www.gog.com/en/game/wild_country"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1515000"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wild_Country"
 metacritic_score: 
 metacritic_url: ""
 

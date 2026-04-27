@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45024"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/for-the-king"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/527230"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/For_the_King"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/for-the-king?ftag=MCD-06-10aaa1f"
 

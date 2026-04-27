@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3586"
 
 # Links
 store_url: "https://www.gog.com/en/game/flatout"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/6220"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FlatOut"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/flatout?ftag=MCD-06-10aaa1f"
 

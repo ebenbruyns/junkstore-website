@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/320"
 
 # Links
 store_url: "https://www.gog.com/en/game/alan_wakes_american_nightmare"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/202750"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alan_Wake%27s_American_Nightmare"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/alan-wakes-american-nightmare?ftag=MCD-06-10aaa1f"
 

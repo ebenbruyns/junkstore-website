@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/53253"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-drone-racing-league-simulator"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/641780"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Drone_Racing_League_Simulator"
 metacritic_score: 
 metacritic_url: ""
 

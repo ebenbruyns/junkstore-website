@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/62935"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_outer_worlds"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/578650"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Outer_Worlds"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/the-outer-worlds?ftag=MCD-06-10aaa1f"
 

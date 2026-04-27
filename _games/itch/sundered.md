@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://thunderlotus.itch.io/sundered"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/535480"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sundered"
 metacritic_score: 
 metacritic_url: ""
 

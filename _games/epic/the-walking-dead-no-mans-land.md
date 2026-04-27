@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/30904"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-walking-dead-no-mans-land-d3b769"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2936310"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/2058"
 
 # Links
 store_url: "https://www.gog.com/en/game/crusader_kings_ii"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/203770"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Crusader_Kings_II"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/crusader-kings-ii?ftag=MCD-06-10aaa1f"
 

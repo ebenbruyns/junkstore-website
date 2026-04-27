@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/11023"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/war-of-tanks-e916f2"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2018320"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

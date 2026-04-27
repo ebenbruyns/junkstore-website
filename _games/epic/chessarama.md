@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/143762"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/chessarama-03026f"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1831830"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 73

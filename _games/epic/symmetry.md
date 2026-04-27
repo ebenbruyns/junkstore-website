@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/63310"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/symmetry-44cf24"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/537520"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Symmetry"
 metacritic_score: 60
 metacritic_url: "https://www.metacritic.com/game/pc/symmetry?ftag=MCD-06-10aaa1f"
 

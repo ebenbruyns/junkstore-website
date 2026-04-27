@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/139322"
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1702430"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vlad_Circus:_Descend_Into_Madness"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/vlad-circus-descend-into-madness/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/97298"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/marvels-midnight-suns"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/368260"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Marvel%27s_Midnight_Suns"
 metacritic_score: 
 metacritic_url: ""
 

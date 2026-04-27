@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/50736"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/armored-warfare"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/443110"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Armored_Warfare"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/armored-warfare/"
 

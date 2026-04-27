@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/80870"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/far-cry-6"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2369390"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Far_Cry_6"
 metacritic_score: 
 metacritic_url: ""
 

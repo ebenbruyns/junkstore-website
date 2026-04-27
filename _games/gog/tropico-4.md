@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10674"
 
 # Links
 store_url: "https://www.gog.com/en/game/tropico_4"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/57690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tropico_4"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/tropico-4?ftag=MCD-06-10aaa1f"
 

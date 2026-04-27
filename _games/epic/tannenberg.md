@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/53337"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tannenberg"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/633460"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tannenberg"
 metacritic_score: 69
 metacritic_url: "https://www.metacritic.com/game/pc/tannenberg?ftag=MCD-06-10aaa1f"
 

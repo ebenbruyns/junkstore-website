@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/126315"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/akxolotl-114f77"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1479140"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/AK-xolotl:_Together"
 metacritic_score: 
 metacritic_url: ""
 

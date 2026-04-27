@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://ohsat-andrej.itch.io/speer"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1945800"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/58557"
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/859350"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aces_of_the_Luftwaffe_-_Squadron"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/aces-of-the-luftwaffe-squadron/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/144030"
 
 # Links
 store_url: "https://www.gog.com/en/game/duck_paradox"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2058150"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Duck_Paradox"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/duck-paradox?ftag=MCD-06-10aaa1f"
 

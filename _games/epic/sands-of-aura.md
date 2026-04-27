@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/99489"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sands-of-aura"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1119840"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sands_of_Aura"
 metacritic_score: 
 metacritic_url: ""
 

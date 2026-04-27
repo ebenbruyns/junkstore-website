@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/457"
 
 # Links
 store_url: "https://brokenrules.itch.io/and-yet-it-moves"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/18700"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/And_Yet_It_Moves"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/and-yet-it-moves?ftag=MCD-06-10aaa1f"
 

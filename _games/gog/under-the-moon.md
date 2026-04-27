@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/43223"
 
 # Links
 store_url: "https://www.gog.com/en/game/under_the_moon"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1945780"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Under_The_Moon"
 metacritic_score: 
 metacritic_url: ""
 

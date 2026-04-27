@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/47455"
 
 # Links
 store_url: "https://www.gog.com/en/game/terroir"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/559910"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Terroir"
 metacritic_score: 
 metacritic_url: ""
 

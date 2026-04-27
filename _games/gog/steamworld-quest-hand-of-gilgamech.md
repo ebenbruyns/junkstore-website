@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/66603"
 
 # Links
 store_url: "https://www.gog.com/en/game/steamworld_quest_hand_of_gilgamech"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/804010"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SteamWorld_Quest%3A_Hand_of_Gilgamech"
 metacritic_score: 
 metacritic_url: ""
 

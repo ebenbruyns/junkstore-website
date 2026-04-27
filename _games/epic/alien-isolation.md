@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/16638"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/alien-isolation"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/214490"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alien%3A_Isolation"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/alien-isolation?ftag=MCD-06-10aaa1f"
 

@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://tallbeard.itch.io/death-drives-a-bus"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1400210"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

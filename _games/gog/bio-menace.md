@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1052"
 
 # Links
 store_url: "https://www.gog.com/en/game/bio_menace"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/358180"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Bio_Menace"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/bio-menace/"
 

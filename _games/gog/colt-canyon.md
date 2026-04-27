@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/80457"
 
 # Links
 store_url: "https://www.gog.com/en/game/colt_canyon"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/940710"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Colt_Canyon"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/colt-canyon/"
 

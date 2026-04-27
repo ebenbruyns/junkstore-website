@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/75608"
 
 # Links
 store_url: "https://www.gog.com/en/game/iris_and_the_giant_deckbuilding_roguelike"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1127610"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Iris_and_the_Giant"
 metacritic_score: 
 metacritic_url: ""
 

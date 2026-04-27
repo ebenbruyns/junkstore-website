@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://www.gog.com/en/game/mafia_ii_definitive_edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1030830"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mafia_II%3A_Definitive_Edition"
 metacritic_score: 
 metacritic_url: ""
 

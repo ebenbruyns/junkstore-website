@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1463"
 
 # Links
 store_url: "https://www.gog.com/en/game/call_of_cthulhu_dark_corners_of_the_earth"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/22340"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_Cthulhu%3A_Dark_Corners_of_the_Earth"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/call-of-cthulhu-dark-corners-of-the-earth?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/46419"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dishonored-death-of-the-outsider"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/614570"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dishonored:_Death_of_the_Outsider"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/dishonored-death-of-the-outsider?ftag=MCD-06-10aaa1f"
 

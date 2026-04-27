@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/14632"
 
 # Links
 store_url: "https://www.gog.com/en/game/fate_the_cursed_king"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/303690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FATE:_The_Cursed_King"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/fate-the-cursed-king/"
 

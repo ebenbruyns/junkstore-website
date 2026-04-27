@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/142382"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/crystal-of-atlan-c5f8b3"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/3839850"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

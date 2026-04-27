@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45392"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/what-remains-of-edith-finch"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/501300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/What_Remains_of_Edith_Finch"
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/pc/what-remains-of-edith-finch?ftag=MCD-06-10aaa1f"
 

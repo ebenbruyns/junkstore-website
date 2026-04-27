@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57334"
 
 # Links
 store_url: "https://www.gog.com/en/game/neo_cab"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/794540"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neo_Cab"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/neo-cab?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/96677"
 
 # Links
 store_url: "https://www.gog.com/en/game/ambition_a_minuet_in_power"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/949200"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ambition:_A_Minuet_in_Power"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/ambition-a-minuet-in-power?ftag=MCD-06-10aaa1f"
 

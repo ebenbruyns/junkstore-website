@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/7298"
 
 # Links
 store_url: "https://www.gog.com/en/game/prince_of_persia_the_two_thrones"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/13530"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia%3A_The_Two_Thrones"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia-the-two-thrones?ftag=MCD-06-10aaa1f"
 

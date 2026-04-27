@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://salmanshh.itch.io/10mg-sealed-estate"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1435480"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

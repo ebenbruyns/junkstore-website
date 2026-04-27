@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45399"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/mages-of-mystralia"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/529660"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mages_of_Mystralia"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/pc/mages-of-mystralia?ftag=MCD-06-10aaa1f"
 

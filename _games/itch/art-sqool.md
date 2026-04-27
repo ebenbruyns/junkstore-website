@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://glander.itch.io/art-sqool"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/953300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Art_Sqool"
 metacritic_score: 
 metacritic_url: ""
 

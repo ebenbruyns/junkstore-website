@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/38916"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sonic-mania"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/584400"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sonic_Mania"
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/sonic-mania?ftag=MCD-06-10aaa1f"
 

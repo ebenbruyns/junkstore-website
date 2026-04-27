@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/horizon-zero-dawn"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2561580"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Horizon_Zero_Dawn_Remastered"
 metacritic_score: 
 metacritic_url: ""
 

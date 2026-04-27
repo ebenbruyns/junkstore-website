@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/70865"
 
 # Links
 store_url: "https://www.gog.com/en/game/gamedec"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/917720"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gamedec"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/gamedec?ftag=MCD-06-10aaa1f"
 

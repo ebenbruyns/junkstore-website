@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/137711"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/football-manager-2024"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2252570"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Football_Manager_2024"
 metacritic_score: 
 metacritic_url: ""
 

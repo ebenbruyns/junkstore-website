@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/disco-elysium"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/632470"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Disco_Elysium"
 metacritic_score: 97
 metacritic_url: "https://www.metacritic.com/game/pc/disco-elysium-the-final-cut?ftag=MCD-06-10aaa1f"
 

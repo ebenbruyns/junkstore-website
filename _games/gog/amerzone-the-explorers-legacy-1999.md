@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/434"
 
 # Links
 store_url: "https://www.gog.com/en/game/amerzone_the_explorer_legacy"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/302190"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amerzone%3A_The_Explorer%27s_Legacy"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/amerzone-the-explorers-legacy-1999/"
 

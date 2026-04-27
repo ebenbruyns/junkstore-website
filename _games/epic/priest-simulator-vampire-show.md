@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/157940"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/priest-simulator-vampire-show-71f336"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/950620"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Priest_Simulator"
 metacritic_score: 
 metacritic_url: ""
 

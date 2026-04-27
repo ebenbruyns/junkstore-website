@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/98455"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deaths-gambit-afterlife-b5f411"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/356650"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Death%27s_Gambit"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/deaths-gambit-afterlife?ftag=MCD-06-10aaa1f"
 

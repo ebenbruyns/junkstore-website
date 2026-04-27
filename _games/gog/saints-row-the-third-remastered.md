@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/66591"
 
 # Links
 store_url: "https://www.gog.com/en/game/saints_row_the_third_remastered"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/978300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Saints_Row%3A_The_Third_Remastered"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/saints-row-the-third-remastered/"
 

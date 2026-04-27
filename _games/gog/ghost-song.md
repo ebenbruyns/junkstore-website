@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/37065"
 
 # Links
 store_url: "https://www.gog.com/en/game/ghost_song"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/347800"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghost_Song"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/ghost-song?ftag=MCD-06-10aaa1f"
 

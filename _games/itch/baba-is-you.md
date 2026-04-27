@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/52538"
 
 # Links
 store_url: "https://hempuli.itch.io/baba"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/736260"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Baba_Is_You"
 metacritic_score: 87
 metacritic_url: "https://www.metacritic.com/game/pc/baba-is-you?ftag=MCD-06-10aaa1f"
 

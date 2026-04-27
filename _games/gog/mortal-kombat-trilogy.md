@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/6209"
 store_url: "https://www.gog.com/en/game/mortal_kombat_trilogy"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mortal_Kombat_Trilogy"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/mortal-kombat-trilogy/"
 

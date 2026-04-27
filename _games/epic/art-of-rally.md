@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/83381"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/art-of-rally"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/550320"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Art_of_Rally"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/art-of-rally/"
 

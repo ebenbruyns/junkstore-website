@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/wonder-boy-the-dragon-s-trap"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/543260"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wonder_Boy%3A_The_Dragon%27s_Trap"
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/where-winds-meet-58a176"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/3564740"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Where_Winds_Meet"
 metacritic_score: 
 metacritic_url: ""
 

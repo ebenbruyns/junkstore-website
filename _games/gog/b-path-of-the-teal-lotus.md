@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/111259"
 
 # Links
 store_url: "https://www.gog.com/en/game/bo_path_of_the_teal_lotus"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1614440"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/B%C5%8D:_Path_of_the_Teal_Lotus"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/bo-path-of-the-teal-lotus/"
 

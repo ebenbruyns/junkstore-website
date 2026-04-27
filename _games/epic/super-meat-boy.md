@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/9389"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/super-meat-boy"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/40800"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Super_Meat_Boy"
 metacritic_score: 87
 metacritic_url: "https://www.metacritic.com/game/pc/super-meat-boy?ftag=MCD-06-10aaa1f"
 

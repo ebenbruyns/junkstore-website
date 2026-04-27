@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11640"
 
 # Links
 store_url: "https://www.gog.com/en/game/magrunner_dark_pulse"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/209630"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Magrunner%3A_Dark_Pulse"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/magrunner-dark-pulse?ftag=MCD-06-10aaa1f"
 

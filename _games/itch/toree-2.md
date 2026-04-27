@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://siactro.itch.io/toree-2"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1722620"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Toree_2"
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/155773"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/redacted-d9d21e"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2229940"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Redacted"
 metacritic_score: 
 metacritic_url: ""
 

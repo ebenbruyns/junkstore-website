@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/111986"
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1202200"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Paleo_Pines"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/paleo-pines/"
 

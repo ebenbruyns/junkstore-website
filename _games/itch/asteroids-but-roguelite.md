@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://ghostgoats.itch.io/asteroids-but-roguelite"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1392790"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

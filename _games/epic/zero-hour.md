@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/zero-hour-8449a0"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1359090"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Zero_Hour"
 metacritic_score: 
 metacritic_url: ""
 

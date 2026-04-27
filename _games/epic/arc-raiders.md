@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/101424"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/arc-raiders"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1808500"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ARC_Raiders"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/arc-raiders/"
 

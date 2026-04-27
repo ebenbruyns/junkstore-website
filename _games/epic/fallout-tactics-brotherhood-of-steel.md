@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3349"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fallout-tactics-brotherhood-of-steel"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/38420"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_Tactics%3A_Brotherhood_of_Steel"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/fallout-tactics-brotherhood-of-steel?ftag=MCD-06-10aaa1f"
 

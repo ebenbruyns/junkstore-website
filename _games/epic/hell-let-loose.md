@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/64501"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hell-let-loose-03f036"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/686810"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hell_Let_Loose"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/hell-let-loose?ftag=MCD-06-10aaa1f"
 

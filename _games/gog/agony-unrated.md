@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/56879"
 
 # Links
 store_url: "https://www.gog.com/en/game/agony"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/879420"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Agony_Unrated"
 metacritic_score: 
 metacritic_url: ""
 

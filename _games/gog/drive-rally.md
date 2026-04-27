@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/140501"
 
 # Links
 store_url: "https://www.gog.com/en/game/drive_rally"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2494780"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Drive_Rally"
 metacritic_score: 63
 metacritic_url: "https://www.metacritic.com/game/drive-rally/"
 

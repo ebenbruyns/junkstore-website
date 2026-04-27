@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/19973"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/guacamelee-stce-7cdbc8"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/275390"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Guacamelee%21_Super_Turbo_Championship_Edition"
 metacritic_score: 
 metacritic_url: ""
 

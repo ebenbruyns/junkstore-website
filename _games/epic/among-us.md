@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/74207"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/among-us"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/945360"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Among_Us"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/among-us?ftag=MCD-06-10aaa1f"
 

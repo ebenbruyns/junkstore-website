@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/65983"
 
 # Links
 store_url: "https://www.gog.com/en/game/blacksad_under_the_skin"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1003890"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blacksad:_Under_the_Skin"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/blacksad-under-the-skin/"
 

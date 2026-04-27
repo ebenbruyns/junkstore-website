@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://nuclearfishinsoftware.itch.io/four-horsemen"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/668200"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Four_Horsemen"
 metacritic_score: 
 metacritic_url: ""
 

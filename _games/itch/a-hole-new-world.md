@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://madgeargames.itch.io/a-hole-new-world"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/434160"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Hole_New_World"
 metacritic_score: 
 metacritic_url: ""
 

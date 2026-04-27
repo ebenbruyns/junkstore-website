@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/156341"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deliver-at-all-costs-a30c8d"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1880610"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deliver_at_All_Costs"
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hexguardian-2b0cbe"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2381740"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

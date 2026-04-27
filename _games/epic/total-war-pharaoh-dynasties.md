@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/total-war-pharaoh-dynasties-f6a34c"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2951630"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Total_War:_Pharaoh"
 metacritic_score: 
 metacritic_url: ""
 

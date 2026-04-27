@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/8932"
 
 # Links
 store_url: "https://www.gog.com/en/game/spelunky"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/239350"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Spelunky"
 metacritic_score: 90
 metacritic_url: "https://www.metacritic.com/game/pc/spelunky?ftag=MCD-06-10aaa1f"
 

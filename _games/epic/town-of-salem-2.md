@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/130128"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/town-of-salem-2-ab6497"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2140510"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

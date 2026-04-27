@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/38317"
 
 # Links
 store_url: "https://www.gog.com/en/game/styx_shards_of_darkness"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/355790"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Styx:_Shards_of_Darkness"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/styx-shards-of-darkness?ftag=MCD-06-10aaa1f"
 

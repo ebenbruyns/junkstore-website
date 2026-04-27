@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68368"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/journey-to-the-savage-planet"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/973810"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Journey_to_the_Savage_Planet"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/journey-to-the-savage-planet?ftag=MCD-06-10aaa1f"
 

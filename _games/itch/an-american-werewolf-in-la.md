@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://playmedusa.itch.io/american-werewolf-en"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2614640"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

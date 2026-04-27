@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10588"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/to-the-rescue-a6c254"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/946720"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/To_the_Rescue%21"
 metacritic_score: 
 metacritic_url: ""
 

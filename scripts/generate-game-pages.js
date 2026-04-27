@@ -188,9 +188,9 @@ hltb_url: "${game.hltb_url || ''}"
 
 # Links
 store_url: "${getStoreUrl(game)}"
-protondb_url: "${game.protondb || ''}"
+protondb_url: "${game.protondb_url || game.protondb || ''}"
 protondb_report_url: "${game.protondb_report_url || ''}"
-pcgamingwiki_url: "${game.pc_gaming_wiki_url || ''}"
+pcgamingwiki_url: "${game.pcgamingwiki_url || game.pc_gaming_wiki_url || ''}"
 metacritic_score: ${game.metacritic_score || ''}
 metacritic_url: "${game.metacritic_url || ''}"
 

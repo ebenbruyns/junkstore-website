@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/6521"
 store_url: "https://www.gog.com/en/game/neverwinter_nights_enhanced_edition_pack"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Neverwinter_Nights"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/neverwinter-nights-diamond/"
 

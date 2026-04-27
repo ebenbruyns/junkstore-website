@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/127927"
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1403650"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Everdream_Valley"
 metacritic_score: 68
 metacritic_url: "https://www.metacritic.com/game/everdream-valley/"
 

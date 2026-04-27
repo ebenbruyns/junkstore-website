@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/77541"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/garden-story"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1062140"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Garden_Story"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/garden-story?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/77760"
 
 # Links
 store_url: "https://www.gog.com/en/game/scorn"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/698670"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Scorn"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/scorn/"
 

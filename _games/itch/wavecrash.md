@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://flyover-games.itch.io/wavecrash"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/751490"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

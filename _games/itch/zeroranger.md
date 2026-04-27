@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://system-erasure.itch.io/zeroranger"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/809020"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/ZeroRanger"
 metacritic_score: 
 metacritic_url: ""
 

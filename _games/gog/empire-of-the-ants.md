@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/147067"
 
 # Links
 store_url: "https://www.gog.com/en/game/empire_of_the_ants"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2287330"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Empire_of_the_Ants_%282024%29"
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/101222"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/shadow-tactics-aikos-choice-5678c1"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1579380"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shadow_Tactics:_Blades_of_the_Shogun_-_Aiko%27s_Choice"
 metacritic_score: 83
 metacritic_url: "https://www.metacritic.com/game/pc/shadow-tactics-blades-of-the-shogun---aikos-choice?ftag=MCD-06-10aaa1f"
 

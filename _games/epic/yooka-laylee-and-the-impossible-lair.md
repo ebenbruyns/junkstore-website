@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68031"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/yooka-laylee-and-the-impossible-lair"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/846870"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Yooka-Laylee_and_the_Impossible_Lair"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/yooka-laylee-and-the-impossible-lair?ftag=MCD-06-10aaa1f"
 

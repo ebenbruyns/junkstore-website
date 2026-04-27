@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/87027"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-last-stand-aftermath"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1266840"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Last_Stand%3A_Aftermath"
 metacritic_score: 
 metacritic_url: ""
 

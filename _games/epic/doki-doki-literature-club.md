@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93892"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/doki-doki-literature-club"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1388880"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Doki_Doki_Literature_Club_Plus%21"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/doki-doki-literature-club-plus!?ftag=MCD-06-10aaa1f"
 

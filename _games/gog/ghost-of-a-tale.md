@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/21687"
 
 # Links
 store_url: "https://www.gog.com/en/game/ghost_of_a_tale"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/417290"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghost_of_a_Tale"
 metacritic_score: 75
 metacritic_url: "https://www.metacritic.com/game/pc/ghost-of-a-tale?ftag=MCD-06-10aaa1f"
 

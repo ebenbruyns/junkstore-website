@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/113711"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/qube-10th-anniversary-59e999"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1564220"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Q.U.B.E._10th_Anniversary"
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/66966"
 
 # Links
 store_url: "https://www.gog.com/en/game/close_to_the_sun"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/968870"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Close_to_the_Sun"
 metacritic_score: 66
 metacritic_url: "https://www.metacritic.com/game/pc/close-to-the-sun?ftag=MCD-06-10aaa1f"
 

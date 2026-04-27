@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://quinnk.itch.io/an-outcry"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1817470"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

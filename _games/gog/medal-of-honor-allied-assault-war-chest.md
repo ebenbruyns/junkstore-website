@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/25775"
 store_url: "https://www.gog.com/en/game/medal_of_honor_allied_assault_war_chest"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Medal_of_Honor%3A_Allied_Assault"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/medal-of-honor-allied-assault-war-chest/"
 

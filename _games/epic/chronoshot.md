@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/99818"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/chronoshot-4b6a41"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1326700"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

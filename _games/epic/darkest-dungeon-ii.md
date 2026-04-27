@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/85972"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/darkest-dungeon-2"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/262060"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Darkest_Dungeon"
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/darkest-dungeon?ftag=MCD-06-10aaa1f"
 

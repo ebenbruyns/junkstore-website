@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/113859"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/electrician-simulator-164e9f"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1080020"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Electrician_Simulator"
 metacritic_score: 
 metacritic_url: ""
 

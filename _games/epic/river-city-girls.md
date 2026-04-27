@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/69993"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/river-city-girls-e6f608"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1049320"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/River_City_Girls"
 metacritic_score: 
 metacritic_url: ""
 

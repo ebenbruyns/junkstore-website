@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68213"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tom-clancy-s-rainbow-six-extraction"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2379390"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tom_Clancy%27s_Rainbow_Six_Extraction"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/tom-clancys-rainbow-six-extraction/"
 

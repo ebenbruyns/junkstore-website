@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/34553"
 
 # Links
 store_url: "https://www.gog.com/en/game/grip"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/396900"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/GRIP%3A_Combat_Racing"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/grip?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/20649"
 
 # Links
 store_url: "https://www.gog.com/en/game/silver_box_classics"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2344020"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/War_of_the_Lance"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/war-of-the-lance/"
 

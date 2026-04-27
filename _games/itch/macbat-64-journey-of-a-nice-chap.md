@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://siactro.itch.io/macbat64"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/568040"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Macbat_64"
 metacritic_score: 
 metacritic_url: ""
 

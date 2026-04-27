@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/809"
 
 # Links
 store_url: "https://www.gog.com/en/game/baldurs_gate_2_enhanced_edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/494360"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_Curse_of_the_Ancient_Circle"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/baldurs-gate-ii-enhanced-edition?ftag=MCD-06-10aaa1f"
 

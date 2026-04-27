@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/achievements/filthy-animals-f6c65c"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1195420"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

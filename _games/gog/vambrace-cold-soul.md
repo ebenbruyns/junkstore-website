@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/67877"
 
 # Links
 store_url: "https://www.gog.com/en/game/vambrace_cold_soul"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/904380"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vambrace%3A_Cold_Soul"
 metacritic_score: 
 metacritic_url: ""
 

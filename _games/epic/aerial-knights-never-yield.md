@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/91068"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/aerial-knights-never-yield"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1323540"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Aerial_Knight%27s_Never_Yield"
 metacritic_score: 
 metacritic_url: ""
 

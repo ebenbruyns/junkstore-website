@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/113622"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/turnip-boy-robs-a-bank-3fae0e"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2097230"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Turnip_Boy_Robs_a_Bank"
 metacritic_score: 
 metacritic_url: ""
 

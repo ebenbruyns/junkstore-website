@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/111433"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/outliver-tribulations-679884"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1236930"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

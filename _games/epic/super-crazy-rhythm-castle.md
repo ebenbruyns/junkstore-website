@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/131602"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/super-crazy-rhythm-castle-e3b464"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1812560"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Super_Crazy_Rhythm_Castle"
 metacritic_score: 
 metacritic_url: ""
 

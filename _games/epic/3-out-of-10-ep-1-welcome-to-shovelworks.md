@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/81609"
 store_url: "https://store.epicgames.com/en-US/p/3-out-of-10-ep-1"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/3_out_of_10"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/3-out-of-10-season-one/"
 

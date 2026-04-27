@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/149747"
 
 # Links
 store_url: "https://www.gog.com/en/game/mullet_madjack"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2111190"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Mullet_MadJack"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/mullet-madjack?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/80560"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rogue-legacy-2"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1253920"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rogue_Legacy_2"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/rogue-legacy-2?ftag=MCD-06-10aaa1f"
 

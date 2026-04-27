@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/103900"
 
 # Links
 store_url: "https://www.gog.com/en/game/blood_west"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1587130"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Blood_West"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/blood-west?ftag=MCD-06-10aaa1f"
 

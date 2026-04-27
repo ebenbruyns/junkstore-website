@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/167626"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/deadtime-defenders-3e9fc8"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1148700"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Deadtime_Defenders"
 metacritic_score: 
 metacritic_url: ""
 

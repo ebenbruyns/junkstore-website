@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/86020"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-spirit-and-the-mouse-42390b"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1679210"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Spirit_and_the_Mouse"
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/46996"
 
 # Links
 store_url: "https://www.gog.com/en/game/house_party"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/611790"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/House_Party"
 metacritic_score: 
 metacritic_url: ""
 

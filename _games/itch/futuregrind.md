@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://milkbaggames.itch.io/futuregrind"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/355820"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FutureGrind"
 metacritic_score: 
 metacritic_url: ""
 

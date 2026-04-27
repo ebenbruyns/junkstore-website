@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/49483"
 
 # Links
 store_url: "https://www.gog.com/en/game/fallout_4_game_of_the_year_edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/377160"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout_4"
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/fallout-4?ftag=MCD-06-10aaa1f"
 

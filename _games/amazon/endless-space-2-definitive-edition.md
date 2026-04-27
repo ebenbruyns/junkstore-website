@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/41360"
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/392110"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Endless_Space_2"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/endless-space-2?ftag=MCD-06-10aaa1f"
 

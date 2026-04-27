@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/166019"
 
 # Links
 store_url: "https://www.gog.com/en/game/sir_questionnaire"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2124790"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sir_Questionnaire"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/sir-questionnaire/"
 

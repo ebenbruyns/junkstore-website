@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://mixedbaggames.itch.io/forma8"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/510240"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Forma.8"
 metacritic_score: 
 metacritic_url: ""
 

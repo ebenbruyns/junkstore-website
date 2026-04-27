@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/126805"
 
 # Links
 store_url: "https://www.gog.com/en/game/raidborn"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1546090"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

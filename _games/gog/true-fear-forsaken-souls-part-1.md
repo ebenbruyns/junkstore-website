@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/42362"
 
 # Links
 store_url: "https://www.gog.com/en/game/true_fear_forsaken_souls"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/440420"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/True_Fear:_Forsaken_Souls_Part_1"
 metacritic_score: 
 metacritic_url: ""
 

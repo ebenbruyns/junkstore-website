@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/91093"
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1421790"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Labyrinth_City:_Pierre_the_Maze_Detective"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/labyrinth-city-pierre-the-maze-detective?ftag=MCD-06-10aaa1f"
 

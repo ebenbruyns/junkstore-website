@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/24970"
 
 # Links
 store_url: "https://radicalfishgames.itch.io/crosscode"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/368340"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/CrossCode"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/crosscode?ftag=MCD-06-10aaa1f"
 

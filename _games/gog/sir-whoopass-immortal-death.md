@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/117040"
 
 # Links
 store_url: "https://www.gog.com/en/game/sir_whoopass_immortal_death"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1240590"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sir_Whoopass"
 metacritic_score: 
 metacritic_url: ""
 

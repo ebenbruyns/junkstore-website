@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://twoandahalfstudios.itch.io/amelie"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1835810"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amelie"
 metacritic_score: 
 metacritic_url: ""
 

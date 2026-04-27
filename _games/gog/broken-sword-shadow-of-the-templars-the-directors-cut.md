@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/1338"
 
 # Links
 store_url: "https://www.gog.com/en/game/broken_sword_shadow_of_the_templars_reforged"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/57640"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Broken_Sword:_Shadow_of_the_Templars:_Director%27s_Cut"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/broken-sword-shadow-of-the-templars/"
 

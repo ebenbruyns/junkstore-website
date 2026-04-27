@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10539"
 
 # Links
 store_url: "https://www.gog.com/en/game/total_anihilation_commander_pack"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/298030"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Total_Annihilation"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/total-annihilation?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/69273"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gloomhaven-92f741"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/780290"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gloomhaven"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/gloomhaven?ftag=MCD-06-10aaa1f"
 

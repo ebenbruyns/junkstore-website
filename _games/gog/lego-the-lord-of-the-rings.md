@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/5265"
 
 # Links
 store_url: "https://www.gog.com/en/game/lego_the_lord_of_the_rings"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/214510"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_The_Lord_of_the_Rings"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/lego-the-lord-of-the-rings?ftag=MCD-06-10aaa1f"
 

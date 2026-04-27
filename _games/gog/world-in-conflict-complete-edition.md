@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/81168"
 store_url: "https://www.gog.com/en/game/world_in_conflict_complete_edition"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/World_in_Conflict"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/world-in-conflict-complete-edition/"
 

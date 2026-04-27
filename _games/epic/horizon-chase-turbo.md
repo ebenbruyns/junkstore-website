@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57066"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/horizon-chase-turbo"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/389140"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Horizon_Chase_Turbo"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/horizon-chase-turbo?ftag=MCD-06-10aaa1f"
 

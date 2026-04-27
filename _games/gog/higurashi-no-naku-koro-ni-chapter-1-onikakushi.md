@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/26829"
 
 # Links
 store_url: "https://www.gog.com/en/game/higurashi_when_they_cry_hou_ch1_onikakushi"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/310360"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Higurashi_When_They_Cry_Hou_-_Ch.1_Onikakushi"
 metacritic_score: 
 metacritic_url: ""
 

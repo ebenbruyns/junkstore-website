@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/438"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/amnesia-a-machine-for-pigs"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/239200"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia%3A_A_Machine_for_Pigs"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/amnesia-a-machine-for-pigs?ftag=MCD-06-10aaa1f"
 

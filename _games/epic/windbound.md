@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/windbound"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1162130"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Windbound"
 metacritic_score: 
 metacritic_url: ""
 

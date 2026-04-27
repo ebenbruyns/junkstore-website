@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/nightreaper2-bc3b86"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/4282590"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

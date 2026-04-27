@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11397"
 
 # Links
 store_url: "https://www.gog.com/en/game/xcom_enemy_unknown_complete_pack"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/200510"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/XCOM:_Enemy_Unknown"
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/pc/xcom-enemy-unknown?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/82067"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/suicide-squad-kill-the-justice-league"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/315210"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Suicide_Squad%3A_Kill_the_Justice_League"
 metacritic_score: 
 metacritic_url: ""
 

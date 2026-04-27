@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/117559"
 
 # Links
 store_url: "https://www.gog.com/en/game/amnesia_the_bunker"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1944430"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia:_The_Bunker"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/amnesia-the-bunker/"
 

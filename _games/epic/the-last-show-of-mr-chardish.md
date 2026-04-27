@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/82702"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-last-show-of-mr-chardish"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1164060"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Last_Show_of_Mr._Chardish"
 metacritic_score: 79
 metacritic_url: "https://www.metacritic.com/game/pc/the-last-show-of-mr-chardish?ftag=MCD-06-10aaa1f"
 

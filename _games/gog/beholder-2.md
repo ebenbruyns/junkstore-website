@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/59333"
 
 # Links
 store_url: "https://www.gog.com/en/game/beholder_2"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/761620"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beholder_2"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/beholder-2?ftag=MCD-06-10aaa1f"
 

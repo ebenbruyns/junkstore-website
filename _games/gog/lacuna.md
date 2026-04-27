@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/92555"
 
 # Links
 store_url: "https://www.gog.com/en/game/lacuna_a_scifi_noir_adventure"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1364100"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lacuna"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/lacuna---a-sci-fi-noir-adventure?ftag=MCD-06-10aaa1f"
 

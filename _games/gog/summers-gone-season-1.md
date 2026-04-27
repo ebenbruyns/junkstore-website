@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/116605"
 
 # Links
 store_url: "https://www.gog.com/en/game/summers_gone_season_1"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2240150"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

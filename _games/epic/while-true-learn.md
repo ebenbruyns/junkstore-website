@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/56591"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/while-true-learn"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/619150"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/While_True%3A_learn%28%29"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/while-true-learn()?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/66152"
 
 # Links
 store_url: "https://adamgryu.itch.io/a-short-hike"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1055540"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_Short_Hike"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/a-short-hike/"
 

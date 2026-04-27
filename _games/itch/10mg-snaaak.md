@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://clov.itch.io/snaaak"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1428840"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

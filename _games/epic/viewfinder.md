@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/viewfinder-61691c"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1382070"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Viewfinder"
 metacritic_score: 84
 metacritic_url: "https://www.metacritic.com/game/pc/viewfinder?ftag=MCD-06-10aaa1f"
 

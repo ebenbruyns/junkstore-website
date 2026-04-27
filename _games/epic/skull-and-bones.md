@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57531"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/skull-and-bones"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2853730"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Skull_and_Bones"
 metacritic_score: 
 metacritic_url: ""
 

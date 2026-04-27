@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68209"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/cris-tales"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1079830"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cris_Tales"
 metacritic_score: 74
 metacritic_url: "https://www.metacritic.com/game/pc/cris-tales?ftag=MCD-06-10aaa1f"
 

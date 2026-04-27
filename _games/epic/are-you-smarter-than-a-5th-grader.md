@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/118851"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/are-you-smarter-than-a-5th-grader-bc328a"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1521160"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Are_You_Smarter_Than_a_5th_Grader%3F_%282022%29"
 metacritic_score: 
 metacritic_url: ""
 

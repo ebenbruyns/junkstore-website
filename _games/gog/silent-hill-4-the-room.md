@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/8527"
 store_url: "https://www.gog.com/en/game/silent_hill_4_the_room"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Silent_Hill_4%3A_The_Room"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/silent-hill-4-the-room/"
 

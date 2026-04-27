@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45615"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/animation-throwdown-the-quest-for-cards"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/591960"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Animation_Throwdown:_The_Quest_for_Cards"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/animation-throwdown-the-quest-for-cards/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/94203"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/gravity-circuit-489baa"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/858710"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gravity_Circuit"
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/gravity-circuit/"
 

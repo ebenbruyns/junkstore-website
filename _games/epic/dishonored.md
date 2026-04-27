@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/22849"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/dishonored-definitive-edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/205100"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dishonored"
 metacritic_score: 91
 metacritic_url: "https://www.metacritic.com/game/pc/dishonored?ftag=MCD-06-10aaa1f"
 

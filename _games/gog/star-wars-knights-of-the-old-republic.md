@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/9111"
 
 # Links
 store_url: "https://www.gog.com/en/game/star_wars_knights_of_the_old_republic"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/32370"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Star_Wars%3A_Knights_of_the_Old_Republic"
 metacritic_score: 
 metacritic_url: ""
 

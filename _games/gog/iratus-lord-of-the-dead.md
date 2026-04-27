@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/69397"
 
 # Links
 store_url: "https://www.gog.com/en/game/iratus_lord_of_the_dead"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/807120"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Iratus:_Lord_of_the_Dead"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/iratus-lord-of-the-dead?ftag=MCD-06-10aaa1f"
 

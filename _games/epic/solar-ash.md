@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/66727"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/solar-ash"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1867530"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Solar_Ash"
 metacritic_score: 
 metacritic_url: ""
 

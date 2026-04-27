@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/4064"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/grand-theft-auto-v"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/3240220"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Grand_Theft_Auto_V_Enhanced"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/grand-theft-auto-v-enhanced/"
 

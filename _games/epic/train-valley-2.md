@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/55002"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/train-valley-2-3606da"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/602320"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Train_Valley_2"
 metacritic_score: 
 metacritic_url: ""
 

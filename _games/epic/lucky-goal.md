@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/luckygoal-201ee6"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2174420"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

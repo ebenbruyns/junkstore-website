@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/bundles/trine-classic-collection"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/319910"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Trine_3:_The_Artifacts_of_Power"
 metacritic_score: 
 metacritic_url: ""
 

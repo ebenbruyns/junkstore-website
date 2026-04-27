@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/8407"
 
 # Links
 store_url: "https://www.gog.com/en/game/sherlock_holmes_the_awakened"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1949030"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes:_The_Awakened"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/sherlock-holmes-the-awakened-2007/"
 

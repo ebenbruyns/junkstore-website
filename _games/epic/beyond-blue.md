@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/77495"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/beyond-blue"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/883360"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Beyond_Blue"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/beyond-blue?ftag=MCD-06-10aaa1f"
 

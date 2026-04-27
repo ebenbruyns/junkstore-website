@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/83359"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-dungeon-of-naheulbeuk-the-amulet-of-chaos"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/970830"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Dungeon_of_Naheulbeuk:_The_Amulet_of_Chaos"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/the-dungeon-of-naheulbeuk-the-amulet-of-chaos?ftag=MCD-06-10aaa1f"
 

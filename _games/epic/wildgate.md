@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/wildgate-standard-edition-b886b5"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/3504780"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Wildgate"
 metacritic_score: 
 metacritic_url: ""
 

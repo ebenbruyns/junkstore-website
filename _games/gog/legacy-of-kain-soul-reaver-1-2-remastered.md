@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://www.gog.com/en/game/legacy_of_kain_soul_reaver_12_remastered"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2521380"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Legacy_of_Kain%3A_Soul_Reaver_1_%26_2_Remastered"
 metacritic_score: 
 metacritic_url: ""
 

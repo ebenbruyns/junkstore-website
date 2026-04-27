@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/definitely-not-fried-chicken-a30160"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1036240"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

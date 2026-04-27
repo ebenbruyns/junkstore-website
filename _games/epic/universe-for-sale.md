@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/106304"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/universe-for-sale-05c53e"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1627840"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Universe_For_Sale"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/universe-for-sale?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://skyhour.itch.io/a-nightmares-trip"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1156630"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/A_NIGHTMARE%27S_TRIP"
 metacritic_score: 
 metacritic_url: ""
 

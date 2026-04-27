@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/52418"
 
 # Links
 store_url: "https://www.gog.com/en/game/xmorph_defense_complete_edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/408410"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/X-Morph%3A_Defense"
 metacritic_score: 
 metacritic_url: ""
 

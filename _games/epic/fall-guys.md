@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68270"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/fall-guys"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1097150"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fall_Guys"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/fall-guys-ultimate-knockout?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/total-war-three-kingdoms-d3bb7a"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/779340"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Total_War:_Three_Kingdoms"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/pc/total-war-three-kingdoms?ftag=MCD-06-10aaa1f"
 

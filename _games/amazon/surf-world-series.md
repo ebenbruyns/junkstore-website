@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57690"
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/462640"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Surf_World_Series"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/surf-world-series/"
 

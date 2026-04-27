@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/814"
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/228280"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Baldur%27s_Gate%3A_Enhanced_Edition"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/baldurs-gate-enhanced-edition?ftag=MCD-06-10aaa1f"
 

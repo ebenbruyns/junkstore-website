@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/train-sim-world-5"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2967990"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Train_Sim_World_5"
 metacritic_score: 
 metacritic_url: ""
 

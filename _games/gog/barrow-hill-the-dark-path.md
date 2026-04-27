@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/45207"
 
 # Links
 store_url: "https://www.gog.com/en/game/barrow_hill_the_dark_path"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/520990"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Barrow_Hill%3A_The_Dark_Path"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/barrow-hill-the-dark-path/"
 

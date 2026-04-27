@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/the-stone-of-madness-7b22f3"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1309710"
 protondb_report_url: "https://www.protondb.com/app/1309710#5Pr0WIj8A8"
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Stone_of_Madness"
 metacritic_score: 
 metacritic_url: ""
 

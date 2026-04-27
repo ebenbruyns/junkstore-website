@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/104673"
 
 # Links
 store_url: "https://www.gog.com/en/game/voidbound"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2500710"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/VoidBound"
 metacritic_score: 
 metacritic_url: ""
 

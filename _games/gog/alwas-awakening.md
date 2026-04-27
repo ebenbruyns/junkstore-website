@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/43500"
 
 # Links
 store_url: "https://www.gog.com/en/game/alwas_awakening"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/549260"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alwa%27s_Awakening"
 metacritic_score: 71
 metacritic_url: "https://www.metacritic.com/game/pc/alwas-awakening?ftag=MCD-06-10aaa1f"
 

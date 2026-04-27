@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3338"
 
 # Links
 store_url: "https://www.gog.com/en/game/fallout"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/38400"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Fallout"
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/pc/fallout?ftag=MCD-06-10aaa1f"
 

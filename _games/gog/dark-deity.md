@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/94190"
 
 # Links
 store_url: "https://www.gog.com/en/game/dark_deity_complete_edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1374840"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Dark_Deity"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/dark-deity?ftag=MCD-06-10aaa1f"
 

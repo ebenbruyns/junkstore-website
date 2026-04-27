@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/20737"
 
 # Links
 store_url: "https://www.gog.com/en/game/metro_2033_redux"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/286690"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Metro_2033_Redux"
 metacritic_score: 
 metacritic_url: ""
 

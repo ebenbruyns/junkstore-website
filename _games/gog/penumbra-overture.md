@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/6963"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_penumbra_collection"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/22180"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Penumbra:_Overture"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/penumbra-overture?ftag=MCD-06-10aaa1f"
 

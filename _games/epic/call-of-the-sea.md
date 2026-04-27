@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/77918"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/call-of-the-sea"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1042490"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Call_of_the_Sea"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/call-of-the-sea?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/50275"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jackbox-party-pack-4"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/610180"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Jackbox_Party_Pack_4"
 metacritic_score: 
 metacritic_url: ""
 

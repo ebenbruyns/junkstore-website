@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/78011"
 
 # Links
 store_url: "https://www.gog.com/en/game/delores_a_thimbleweed_park_miniadventure"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1305720"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Delores%3A_A_Thimbleweed_Park_Mini-Adventure"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/delores-a-thimbleweed-park-mini-adventure/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/77629"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/filament-332a92"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1137350"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Filament"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/filament?ftag=MCD-06-10aaa1f"
 

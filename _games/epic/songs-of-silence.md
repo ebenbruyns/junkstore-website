@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/songs-of-silence-778d86"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2195410"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Songs_of_Silence"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/songs-of-silence?ftag=MCD-06-10aaa1f"
 

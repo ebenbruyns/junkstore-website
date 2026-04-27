@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/tattoo-tycoon-b4352c"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2375260"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tattoo_Tycoon"
 metacritic_score: 
 metacritic_url: ""
 

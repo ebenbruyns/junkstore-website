@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/101237"
 store_url: "https://store.epicgames.com/en-US/p/alan-wake-2--deluxe-edition"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Alan_Wake_II"
 metacritic_score: 89
 metacritic_url: "https://www.metacritic.com/game/alan-wake-ii/"
 

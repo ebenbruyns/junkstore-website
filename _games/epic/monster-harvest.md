@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/97552"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/monster-harvest-75f018"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1363350"
 protondb_report_url: "https://www.protondb.com/app/1363350#hsoq7Rj16L"
 pcgamingwiki_url: ""
 metacritic_score: 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/46402"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/assassin-s-creed-origins"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/582160"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Assassin%27s_Creed_Origins"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/assassins-creed-origins/"
 

@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/100477"
 store_url: "https://store.epicgames.com/en-US/p/kid-a-mnesia-exhibition"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Kid_A_Mnesia_Exhibition"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/kid-a-mnesia-exhibition/"
 

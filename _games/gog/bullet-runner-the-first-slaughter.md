@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/126020"
 
 # Links
 store_url: "https://www.gog.com/en/game/bullet_runner_the_first_slaughter"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2343570"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

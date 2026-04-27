@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://www.gog.com/en/game/hive_jump_2_survivors"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2545740"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hive_Jump_2%3A_Survivors"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/hive-jump-2-survivors?ftag=MCD-06-10aaa1f"
 

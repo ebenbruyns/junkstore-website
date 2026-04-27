@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/126072"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/parakacuk-22f4b2"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1498740"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

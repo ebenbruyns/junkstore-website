@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ghostbusters-spirits-unleashed"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2383990"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ghostbusters%3A_Spirits_Unleashed"
 metacritic_score: 
 metacritic_url: ""
 

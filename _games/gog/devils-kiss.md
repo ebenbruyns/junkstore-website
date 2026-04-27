@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://www.gog.com/en/game/devils_kiss"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1213550"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Devil%27s_Kiss"
 metacritic_score: 
 metacritic_url: ""
 

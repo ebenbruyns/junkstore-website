@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ghost-recon-breakpoint"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2231380"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Tom_Clancy%27s_Ghost_Recon_Breakpoint"
 metacritic_score: 56
 metacritic_url: "https://www.metacritic.com/game/tom-clancys-ghost-recon-breakpoint/"
 

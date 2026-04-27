@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/143272"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/snakebird-complete-e6f0ae"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/357300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Snakebird"
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/53060"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/q-u-b-e-2"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/359100"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Q.U.B.E._2"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/pc/qube-2?ftag=MCD-06-10aaa1f"
 

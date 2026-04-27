@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/40171"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_witcher_3_wild_hunt_game_of_the_year_edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/292030"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_Witcher_3:_Wild_Hunt"
 metacritic_score: 93
 metacritic_url: "https://www.metacritic.com/game/pc/the-witcher-3-wild-hunt?ftag=MCD-06-10aaa1f"
 

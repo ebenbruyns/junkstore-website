@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/31637"
 
 # Links
 store_url: "https://www.gog.com/en/game/endless_sky"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/404410"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Endless_Sky"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/endless-sky/"
 

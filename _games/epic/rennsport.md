@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/153472"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rennsport-3776b8"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2077750"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rennsport"
 metacritic_score: 
 metacritic_url: ""
 

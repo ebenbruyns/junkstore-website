@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/47826"
 
 # Links
 store_url: "https://www.gog.com/en/game/brigador"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/274500"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Brigador:_Up-Armored_Edition"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/brigador-up-armored-edition/"
 

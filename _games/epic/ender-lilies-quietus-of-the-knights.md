@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/87524"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/ender-lilies-quietus-of-the-knights-9cea76"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1369630"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Ender_Lilies%3A_Quietus_of_the_Knights"
 metacritic_score: 86
 metacritic_url: "https://www.metacritic.com/game/pc/ender-lilies-quietus-of-the-knights?ftag=MCD-06-10aaa1f"
 

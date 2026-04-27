@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/80121"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/amnesia-rebirth"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/999220"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Amnesia%3A_Rebirth"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/amnesia-rebirth?ftag=MCD-06-10aaa1f"
 

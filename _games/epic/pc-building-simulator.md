@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/55219"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/pc-building-simulator"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/621060"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/PC_Building_Simulator"
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/141056"
 
 # Links
 store_url: "https://www.gog.com/en/game/cyberpunk_2077_ultimate_edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1091500"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cyberpunk_2077"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/cyberpunk-2077-ultimate-edition/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/48602"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/sunless-skies-bb4947"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/596970"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sunless_Skies"
 metacritic_score: 87
 metacritic_url: "https://www.metacritic.com/game/pc/sunless-skies?ftag=MCD-06-10aaa1f"
 

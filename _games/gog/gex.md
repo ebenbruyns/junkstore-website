@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/3902"
 store_url: "https://www.gog.com/en/game/gex"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Gex"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/gex/"
 

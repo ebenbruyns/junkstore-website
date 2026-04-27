@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/108941"
 
 # Links
 store_url: "https://www.gog.com/en/game/warhammer_40000_rogue_trader"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2186680"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Warhammer_40%2C000%3A_Rogue_Trader"
 metacritic_score: 
 metacritic_url: ""
 

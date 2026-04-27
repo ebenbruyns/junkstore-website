@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93251"
 
 # Links
 store_url: "https://www.gog.com/en/game/cursed_to_golf"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1726120"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://store.epicgames.com/en-US/p/cursed-to-golf-a6bc22"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/cursed-to-golf?ftag=MCD-06-10aaa1f"
 

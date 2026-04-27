@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93459"
 
 # Links
 store_url: "https://www.gog.com/en/game/planet_of_lana"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1608230"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Planet_of_Lana"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/planet-of-lana?ftag=MCD-06-10aaa1f"
 

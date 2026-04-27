@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/68261"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/lego-star-wars-the-skywalker-saga"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/920210"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Lego_Star_Wars%3A_The_Skywalker_Saga"
 metacritic_score: 78
 metacritic_url: "https://www.metacritic.com/game/pc/lego-star-wars-the-skywalker-saga?ftag=MCD-06-10aaa1f"
 

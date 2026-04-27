@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/93937"
 
 # Links
 store_url: "https://www.gog.com/en/game/metal_slug_tactics"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1590760"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Metal_Slug_Tactics"
 metacritic_score: 
 metacritic_url: ""
 

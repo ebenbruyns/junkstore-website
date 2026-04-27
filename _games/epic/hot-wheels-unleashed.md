@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/89344"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/hot-wheels-unleashed"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1271700"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Hot_Wheels_Unleashed"
 metacritic_score: 
 metacritic_url: ""
 

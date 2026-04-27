@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/112983"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/assassin-s-creed-mirage"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/3035570"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Assassin%27s_Creed_Mirage"
 metacritic_score: 76
 metacritic_url: "https://www.metacritic.com/game/assassins-creed-mirage/"
 

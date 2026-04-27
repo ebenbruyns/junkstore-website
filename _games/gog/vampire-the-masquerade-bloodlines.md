@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/10890"
 
 # Links
 store_url: "https://www.gog.com/en/game/vampire_the_masquerade_bloodlines"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/2600"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire%3A_The_Masquerade_-_Bloodlines"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/pc/vampire-the-masquerade---bloodlines?ftag=MCD-06-10aaa1f"
 

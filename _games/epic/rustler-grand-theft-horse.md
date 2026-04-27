@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/rustler-grand-theft-horse-21a7ca"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/844260"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Rustler"
 metacritic_score: 65
 metacritic_url: "https://www.metacritic.com/game/pc/rustler?ftag=MCD-06-10aaa1f"
 

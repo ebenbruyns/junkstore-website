@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/57532"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/daemon-x-machina"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1167450"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Daemon_X_Machina"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/daemon-x-machina?ftag=MCD-06-10aaa1f"
 

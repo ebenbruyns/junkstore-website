@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/98725"
 
 # Links
 store_url: ""
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1493760"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Youtubers_Life_2"
 metacritic_score: 63
 metacritic_url: "https://www.metacritic.com/game/youtubers-life-2/"
 

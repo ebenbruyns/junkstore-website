@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/72916"
 
 # Links
 store_url: "https://www.gog.com/en/game/vampire_the_masquerade_coteries_of_new_york"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1096410"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Vampire%3A_The_Masquerade_-_Coteries_of_New_York"
 metacritic_score: 70
 metacritic_url: "https://www.metacritic.com/game/pc/vampire-the-masquerade---coteries-of-new-york?ftag=MCD-06-10aaa1f"
 

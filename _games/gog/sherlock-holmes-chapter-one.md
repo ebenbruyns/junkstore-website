@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/82678"
 
 # Links
 store_url: "https://www.gog.com/en/game/sherlock_holmes_chapter_one"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1137300"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sherlock_Holmes%3A_Chapter_One"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/sherlock-holmes-chapter-one?ftag=MCD-06-10aaa1f"
 

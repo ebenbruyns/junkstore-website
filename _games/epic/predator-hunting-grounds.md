@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/predator-hunting-grounds"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1556200"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Predator%3A_Hunting_Grounds"
 metacritic_score: 
 metacritic_url: ""
 

@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://blackpants.itch.io/about-love-hate-and-the-other-ones"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/277680"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/About_Love,_Hate_and_the_other_ones"
 metacritic_score: 
 metacritic_url: ""
 

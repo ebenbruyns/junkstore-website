@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://draknek.itch.io/cosmic-express"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/583270"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Cosmic_Express"
 metacritic_score: 
 metacritic_url: ""
 

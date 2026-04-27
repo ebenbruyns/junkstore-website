@@ -62,7 +62,7 @@ hltb_url: "https://howlongtobeat.com/game/9498"
 store_url: "https://www.gog.com/en/game/swat_4_gold_edition"
 protondb_url: ""
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/SWAT_4"
 metacritic_score: 85
 metacritic_url: "https://www.metacritic.com/game/swat-4/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/503"
 
 # Links
 store_url: "https://www.gog.com/en/game/another_world_20th_anniversary_edition"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/233550"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Another_World"
 metacritic_score: 80
 metacritic_url: "https://www.metacritic.com/game/another-world-20th-anniversary/"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/80383"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/turnip-boy-commits-tax-evasion-fb2084"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1205450"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Turnip_Boy_Commits_Tax_Evasion"
 metacritic_score: 72
 metacritic_url: "https://www.metacritic.com/game/pc/turnip-boy-commits-tax-evasion?ftag=MCD-06-10aaa1f"
 

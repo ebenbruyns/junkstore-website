@@ -60,7 +60,7 @@ hltb_url: ""
 
 # Links
 store_url: "https://team-soletude.itch.io/a-sketchbook-about"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1611760"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

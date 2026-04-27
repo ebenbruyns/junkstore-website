@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/3419"
 
 # Links
 store_url: "https://www.gog.com/en/game/fate_undiscovered_realms"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/276890"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/FATE:_Undiscovered_Realms"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/fate-undiscovered-realms/"
 

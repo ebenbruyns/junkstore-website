@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/9353"
 
 # Links
 store_url: "https://terrycavanagh.itch.io/super-hexagon"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/221640"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Super_Hexagon"
 metacritic_score: 88
 metacritic_url: "https://www.metacritic.com/game/pc/super-hexagon?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/81948"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/card-shark-8f95f0"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1371720"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Card_Shark"
 metacritic_score: 
 metacritic_url: ""
 

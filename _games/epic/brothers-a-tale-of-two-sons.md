@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/12660"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/brothers-a-tale-of-two-sons"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/225080"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Brothers%3A_A_Tale_of_Two_Sons"
 metacritic_score: 90
 metacritic_url: "https://www.metacritic.com/game/pc/brothers-a-tale-of-two-sons?ftag=MCD-06-10aaa1f"
 

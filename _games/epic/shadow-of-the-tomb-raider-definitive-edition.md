@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/102192"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/shadow-of-the-tomb-raider"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/750920"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Shadow_of_the_Tomb_Raider"
 metacritic_score: 77
 metacritic_url: "https://www.metacritic.com/game/pc/shadow-of-the-tomb-raider?ftag=MCD-06-10aaa1f"
 

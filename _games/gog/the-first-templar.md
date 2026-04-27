@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/9877"
 
 # Links
 store_url: "https://www.gog.com/en/game/the_first_templar"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/57680"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/The_First_Templar"
 metacritic_score: 57
 metacritic_url: "https://www.metacritic.com/game/pc/the-first-templar?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/9212"
 
 # Links
 store_url: "https://www.gog.com/en/game/still_life_2"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/46490"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Still_Life_2"
 metacritic_score: 67
 metacritic_url: "https://www.metacritic.com/game/pc/still-life-2?ftag=MCD-06-10aaa1f"
 

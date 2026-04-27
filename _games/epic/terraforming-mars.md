@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/63476"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/terraforming-mars-18c3ad"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/800270"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Terraforming_Mars"
 metacritic_score: 
 metacritic_url: ""
 

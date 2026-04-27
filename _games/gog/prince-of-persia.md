@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/7288"
 
 # Links
 store_url: "https://www.gog.com/en/game/prince_of_persia"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/19980"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Prince_of_Persia_%282008%29"
 metacritic_score: 82
 metacritic_url: "https://www.metacritic.com/game/pc/prince-of-persia?ftag=MCD-06-10aaa1f"
 

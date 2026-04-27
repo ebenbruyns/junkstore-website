@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/128172"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/against-all-odds-409105"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1465560"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Against_All_Odds"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/against-all-odds/"
 

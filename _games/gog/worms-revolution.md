@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/11315"
 
 # Links
 store_url: "https://www.gog.com/en/game/worms_revolution"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/200170"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Worms_Revolution"
 metacritic_score: 73
 metacritic_url: "https://www.metacritic.com/game/pc/worms-revolution?ftag=MCD-06-10aaa1f"
 

@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/109172"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/20-minutes-till-dawn-be3305"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1966900"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/20_Minutes_till_Dawn"
 metacritic_score: 
 metacritic_url: "https://www.metacritic.com/game/20-minutes-till-dawn/"
 

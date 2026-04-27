@@ -60,9 +60,9 @@ hltb_url: ""
 
 # Links
 store_url: "https://chriswade.itch.io/sausage-sports-club"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/574120"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Sausage_Sports_Club"
 metacritic_score: 
 metacritic_url: ""
 

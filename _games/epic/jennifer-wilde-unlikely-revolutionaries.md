@@ -60,7 +60,7 @@ hltb_url: "https://howlongtobeat.com/game/109938"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/jennifer-wilde-unlikely-revolutionaries-7eda5e"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/1466350"
 protondb_report_url: ""
 pcgamingwiki_url: ""
 metacritic_score: 

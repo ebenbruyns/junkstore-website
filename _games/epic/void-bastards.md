@@ -60,9 +60,9 @@ hltb_url: "https://howlongtobeat.com/game/67475"
 
 # Links
 store_url: "https://store.epicgames.com/en-US/p/void-bastards"
-protondb_url: ""
+protondb_url: "https://www.protondb.com/app/857980"
 protondb_report_url: ""
-pcgamingwiki_url: ""
+pcgamingwiki_url: "https://www.pcgamingwiki.com/wiki/Void_Bastards"
 metacritic_score: 81
 metacritic_url: "https://www.metacritic.com/game/pc/void-bastards?ftag=MCD-06-10aaa1f"
 
