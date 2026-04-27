@@ -56,7 +56,7 @@ This week featuring Boxes: Lost Fragments, My Night Job.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2019810/library_600x900.jpg" alt="Boxes: Lost Fragments" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Boxes%3A%20Lost%20Fragments">Boxes: Lost Fragments</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/boxes-lost-fragments/">Boxes: Lost Fragments</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">As a legendary thief, your next assignment lures you into a grand and lavish mansion.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -68,7 +68,7 @@ This week featuring Boxes: Lost Fragments, My Night Job.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/437100/library_600x900.jpg" alt="My Night Job" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=My%20Night%20Job">My Night Job</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/my-night-job/">My Night Job</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">My Night Job sends players into an abandoned building and sicks hordes of monsters on them.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -84,7 +84,7 @@ This week featuring Tavern Talk. I also had a go at Total War: ATTILA and Rebel 
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2076140/library_600x900.jpg" alt="Tavern Talk" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Tavern%20Talk">Tavern Talk</a></strong> <span class="store-badge amazon">Amazon</span>
+    <strong><a href="/games/amazon/tavern-talk/">Tavern Talk</a></strong> <span class="store-badge amazon">Amazon</span>
     <div class="game-description">A cozy visual novel about running a tavern in a D&D-inspired fantasy.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -100,7 +100,7 @@ Updated compatibility for Death's Gambit: Afterlife, Forager, Hard West 2.
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/58c8925d94e440c7b0b4206635272579/deaths-gambit--afterlife-1uq5i.jpg" alt="Death's Gambit: Afterlife" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Death's%20Gambit%3A%20Afterlife">Death's Gambit: Afterlife</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/deaths-gambit-afterlife/">Death's Gambit: Afterlife</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Death's Gambit is a challenging Action-RPG where you explore an alien medieval planet filled with beasts, knights, and horrors. Climb big creatures that will test your resolve. Fight dangerous monsters that will make you think outside the box.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -112,7 +112,7 @@ Updated compatibility for Death's Gambit: Afterlife, Forager, Hard West 2.
 <div class="game-entry">
   <img src="https://images.gog.com/2c9c372e2469b81b23d2732c5d8c41cf32a2c1d538a836cb5d97834ff33d8fab.jpg?namespace=gamesdb" alt="Forager" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Forager">Forager</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/forager/">Forager</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">The highly popular and quirky, idle game that you want to actively keep playing. Explore, craft, gather & manage resources, find secrets and build your base out of nothing! Buy land to explore and expand!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -124,7 +124,7 @@ Updated compatibility for Death's Gambit: Afterlife, Forager, Hard West 2.
 <div class="game-entry">
   <img src="https://images.gog.com/71f7dd3aded183188a0f6e889b8f3557a0fbd6e66fe831e8519a0716270a6241.jpg?namespace=gamesdb" alt="Hard West 2" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Hard%20West%202">Hard West 2</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/hard-west-2/">Hard West 2</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Hard West 2 is a supernatural journey to the dark heart of the West.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>

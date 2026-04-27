@@ -48,7 +48,7 @@ This week featuring Bendy and the Ink Machine, Five Nights at Freddy's: Into the
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/622650/library_600x900.jpg" alt="Bendy and the Ink Machine" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Bendy+and+the+Ink+Machine">Bendy and the Ink Machine</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/epic/bendy-and-the-ink-machine/">Bendy and the Ink Machine</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Bendy and the Ink Machine® is the first person puzzle action horror game that will forever ruin your childhood love of cartoons.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
@@ -60,7 +60,7 @@ This week featuring Bendy and the Ink Machine, Five Nights at Freddy's: Into the
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/2638370/library_600x900.jpg" alt="Five Nights at Freddy's: Into the Pit" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Five+Nights+at+Freddy%27s%3A+Into+the+Pit">Five Nights at Freddy's: Into the Pit</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/epic/five-nights-at-freddys-into-the-pit/">Five Nights at Freddy's: Into the Pit</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Survive five nights of terror in this chilling adventure game.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
@@ -76,7 +76,7 @@ This week featuring You Will Die Here Tonight, Werewolf: The Apocalypse — Hear
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1446350/library_600x900.jpg" alt="You Will Die Here Tonight" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=You+Will+Die+Here+Tonight">You Will Die Here Tonight</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/gog/you-will-die-here-tonight/">You Will Die Here Tonight</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Immerse yourself in retro top-down visuals as you face the horrors of Breckenridge Hall through intense first-person combat. Scavenge, solve puzzles, and upgrade your gear. Do whatever it takes to survive—but remember: You Will Die Here Tonight.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
@@ -88,7 +88,7 @@ This week featuring You Will Die Here Tonight, Werewolf: The Apocalypse — Hear
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1342620/library_600x900.jpg" alt="Werewolf: The Apocalypse — Heart of the Forest" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Werewolf%3A+The+Apocalypse+%E2%80%94+Heart+of+the+Forest">Werewolf: The Apocalypse — Heart of the Forest</a></strong> <span style="color: #999;">(Prime Gaming)</span>
+    <strong><a href="/games/amazon/werewolf-the-apocalypse-heart-of-the-forest/">Werewolf: The Apocalypse — Heart of the Forest</a></strong> <span style="color: #999;">(Prime Gaming)</span>
     <div class="game-description">Explore the myths and monsters of Europe’s last primeval wilderness.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -104,7 +104,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/8dedebdcd9f03a59a825b9e833c74be297bb8fc15669561cda99243ca2da2219.jpg?namespace=gamesdb" alt="Europa Universalis IV" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Europa+Universalis+IV">Europa Universalis IV</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/epic/europa-universalis-iv/">Europa Universalis IV</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Rule your land and dominate the world with unparalleled freedom, depth and historical accuracy.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
@@ -116,7 +116,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/52e61adae1bb2a645fd088f1f2d36791de0ab100004379128cf6e44a58d521f6.jpg?namespace=gamesdb" alt="Sunblaze" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Sunblaze">Sunblaze</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/gog/sunblaze/">Sunblaze</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Lead Josie, aka. Sunblaze into a superhero training simulator built by her dad, a retired protagonist fighting the evils of our universe. Sunblaze is a brain-twisting precision platformer with hundreds of challenging levels, an awesome story, a superb soundtrack, and a beautiful game design.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
@@ -128,7 +128,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/b845bf5dfe6b356de2b91a90c22e44270bed8fd5c9c708e13e4438423bb389d7.jpg?namespace=gamesdb" alt="DreadOut 2" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=DreadOut+2">DreadOut 2</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/games/amazon/dreadout-2/">DreadOut 2</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">Second installment of a third person action adventure survival horror with Indonesian supernatural in veins.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -140,7 +140,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/2189211d4c06271a2eda6c1ac4e92024281aafbf35a3d95e75792e37dbc513c7.jpg?namespace=gamesdb" alt="Spitlings" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Spitlings">Spitlings</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/games/amazon/spitlings/">Spitlings</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="game-description">Spitlings is a cute but hardcore Arcade game that’s made for playing locally with friends.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -152,7 +152,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/e99dd0cffc181d54fc5cb6d37a218639a038e1d01670934be5a2a6bbca9ec26f.jpg?namespace=gamesdb" alt="Magnibox" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Magnibox">Magnibox</a></strong> <span style="color: #999;">(itch.io)</span>
+    <strong><a href="/games/itch/magnibox/">Magnibox</a></strong> <span style="color: #999;">(itch.io)</span>
     <div class="game-description">Magnibox is a colorful and challenging puzzle game about a magnet that's also a box.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -164,7 +164,7 @@ Catching up on Europa Universalis IV, Sunblaze, DreadOut 2, Spitlings, Magnibox,
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/a8e2c349316fde74c4e31ff20d37034ee39de3f5c69763a367ffa5cfcc75078f.jpg?namespace=gamesdb" alt="Sundered" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Sundered">Sundered</a></strong> <span style="color: #999;">(itch.io)</span>
+    <strong><a href="/games/itch/sundered/">Sundered</a></strong> <span style="color: #999;">(itch.io)</span>
     <div class="game-description">Sundered is a horrifying fight for survival and sanity, a hand­-drawn epic from the ​creators of ​Jotun.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -180,7 +180,7 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/160a8b89ce30e123bb2022a8f54983a73a02f728fc0a85c3b9ff661eb9fc527f.jpg?namespace=gamesdb" alt="Ancient Enemy" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Ancient+Enemy">Ancient Enemy</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/gog/ancient-enemy/">Ancient Enemy</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">An unusual, strategic RPG card game from the makers of Shadowhand and Regency Solitaire.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
@@ -192,7 +192,7 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/b964138274b2e33439f4f2262729483cdc328003f3946eab079d84a07b0f8965.jpg?namespace=gamesdb" alt="Beholder 2" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Beholder+2">Beholder 2</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/gog/beholder-2/">Beholder 2</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="game-description">Every citizen of our great State dreams of working at the Prime Ministry.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
@@ -204,7 +204,7 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/ef2122f5d91abead1a42ddacb07ea57558f596bf627846a02fafcc9d1a14bf67.jpg?namespace=gamesdb" alt="Dishonored" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Dishonored">Dishonored</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/gog/dishonored/">Dishonored</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">Dishonored is an immersive first-person action game that casts you as a supernatural assassin driven by revenge.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
@@ -216,7 +216,7 @@ Updated compatibility for Ancient Enemy, Beholder 2, Dishonored, Happy Game.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/4114b275a2ae97abdcb9e9b7d9d0675afe2988469b389faa3461ad89ad22e6f7.jpg?namespace=gamesdb" alt="Happy Game" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Happy+Game">Happy Game</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/epic/happy-game/">Happy Game</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="game-description">A little boy falls asleep to a horrible nightmare.  Can you make him happy again.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>
@@ -232,7 +232,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/5746e1e4b29716cce704ea03f7756d76135866652deae21ccd37fedc542cc73a.jpg?namespace=gamesdb" alt="Cloud Gardens" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Cloud+Gardens">Cloud Gardens</a></strong> <span style="color: #999;">(itch.io)</span>
+    <strong><a href="/games/itch/cloud-gardens/">Cloud Gardens</a></strong> <span style="color: #999;">(itch.io)</span>
     <div class="game-description">A chill game about using plants to overgrow abandoned wasteland dioramas.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -244,7 +244,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/81eca4fc04cdd3da7c88bf1dbc38d9b5c256f9721bb1e500ed1dc11de91518a8.jpg?namespace=gamesdb" alt="Cosmic Express" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Cosmic+Express">Cosmic Express</a></strong>
+    <strong><a href="/games/itch/cosmic-express/">Cosmic Express</a></strong>
     <div class="game-description">Plan the train route for the universe's most awkward space colony.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -256,7 +256,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/24b36ae2e07c11b187eeb149f0ba6aadd75be7b498e5e82368a3fcb317273dfa.jpg?namespace=gamesdb" alt="Dumpy & Bumpy" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Dumpy+%26+Bumpy">Dumpy & Bumpy</a></strong>
+    <strong><a href="/games/itch/dumpy-bumpy/">Dumpy & Bumpy</a></strong>
     <div class="game-description">A retro styled character puzzle game with couch co-op and 80 puzzles to solve.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -268,7 +268,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/b1d9a60da36ccb327169a62b20c712e17b792e5611503544cc9c25bd513d6b26.jpg?namespace=gamesdb" alt="Omeganaut" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Omeganaut">Omeganaut</a></strong>
+    <strong><a href="/games/itch/omeganaut/">Omeganaut</a></strong>
     <div class="game-description">When Starfox meets roguelike.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -280,7 +280,7 @@ Testing Cloud Gardens, Cosmic Express, Dumpy & Bumpy, Omeganaut, Underhero by re
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/46d69269c14fdeacab5a35db05d0911a68a78afbb1a34112fd9a43dc8daf9d0b.jpg?namespace=gamesdb" alt="Underhero" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Underhero">Underhero</a></strong>
+    <strong><a href="/games/itch/underhero/">Underhero</a></strong>
     <div class="game-description">Underhero is a 2D side-scroller RPG adventure game with timing-based combat.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -296,7 +296,7 @@ This week highlighting Duet Night Abyss.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/5b4d660e4cc58cf6d600d3dba40a36a7460ddaf4c89a0692e65328d00c8760c7.jpg?namespace=gamesdb" alt="Duet Night Abyss" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Duet+Night+Abyss">Duet Night Abyss</a></strong>
+    <strong><a href="/games/epic/duet-night-abyss/">Duet Night Abyss</a></strong>
     <div class="game-description">Duet Night Abyss is a fantasy adventure RPG with a high degree of freedom developed by Hero Games' Pan Studio.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box!</div>

@@ -58,7 +58,7 @@ This week featuring Botany Manor.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1425350/library_600x900.jpg" alt="Botany Manor" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Botany%20Manor">Botany Manor</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/botany-manor/">Botany Manor</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Welcome to Botany Manor, a stately home in 19th century England.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -74,7 +74,7 @@ This week featuring Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot A
 <div class="game-entry">
   <img src="https://images.gog.com/734453c4fa47c766c7eda703477f83887b2e444460d4a674e709460c0d099abc.jpg?namespace=gamesdb" alt="Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Tiny%20Tina's%20Assault%20on%20Dragon%20Keep%3A%20A%20Wonderlands%20One-shot%20Adventure">Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure/">Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Smash skeletons, defeat dragons, and battle giant golems in Tiny Tina's Assault on Dragon Keep: A Wonderlands One-Shot Adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -86,7 +86,7 @@ This week featuring Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot A
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1334730/library_600x900.jpg" alt="Dread Templar" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Dread%20Templar">Dread Templar</a></strong> <span class="store-badge amazon">Amazon</span>
+    <strong><a href="/games/amazon/dread-templar/">Dread Templar</a></strong> <span class="store-badge amazon">Amazon</span>
     <div class="game-description">Dread Templar is a fast-paced hardcore old-school FPS, combining classic 90s shooter and modern FPS elements.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -102,7 +102,7 @@ Catching up on The Machines Arena, STAR WARS™ Galactic Battlegrounds Saga, STA
 <div class="game-entry">
   <img src="https://images.gog.com/bda160821ad78d82f674c29fa940cde498e8ca5afd6486cd8e079accd55f56e5.jpg?namespace=gamesdb" alt="The Machines Arena" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=The%20Machines%20Arena">The Machines Arena</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/the-machines-arena/">The Machines Arena</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">The Machines Arena is an adrenaline-fueled 4v4 top-down hero shooter where players compete in chaotic close quarters combat to plant bombs, deliver payloads and rack up kills in a growing number of game modes.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -114,7 +114,7 @@ Catching up on The Machines Arena, STAR WARS™ Galactic Battlegrounds Saga, STA
 <div class="game-entry">
   <img src="https://images.gog.com/ced2e9013b1128ab890dc72d0dcc7a96c82442e0c8260aef3c5b828f68fa600e.jpg?namespace=gamesdb" alt="STAR WARS™ Galactic Battlegrounds Saga" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=STAR%20WARS%E2%84%A2%20Galactic%20Battlegrounds%20Saga">STAR WARS™ Galactic Battlegrounds Saga</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/star-wars-galactic-battlegrounds-saga/">STAR WARS™ Galactic Battlegrounds Saga</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Lead the great armies of the Star Wars Episode II: Attack of the Clones saga in intense real-time strategy clashes.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -126,7 +126,7 @@ Catching up on The Machines Arena, STAR WARS™ Galactic Battlegrounds Saga, STA
 <div class="game-entry">
   <img src="https://images.gog.com/ef2e953d8330a4af2bea0c947e660e2b857aef0e1e453e5b62e544d4aa798b6b.jpg?namespace=gamesdb" alt="STAR WARS™ Jedi Knight: Dark Forces II" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=STAR%20WARS%E2%84%A2%20Jedi%20Knight%3A%20Dark%20Forces%20II">STAR WARS™ Jedi Knight: Dark Forces II</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/star-wars-jedi-knight-dark-forces-ii/">STAR WARS™ Jedi Knight: Dark Forces II</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Whatever path Kyle Katarn chooses will change the face of the galaxy forever.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -142,7 +142,7 @@ Updated compatibility for BioShock™ Remastered, Bramble: The Mountain King, Ch
 <div class="game-entry">
   <img src="https://images.gog.com/5148b840cdb4a8c36ace0be14875e0af17ff0d69269524afd5a528c13bbcb979.jpg?namespace=gamesdb" alt="BioShock™ Remastered" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=BioShock%E2%84%A2%20Remastered">BioShock™ Remastered</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/bioshock-remastered/">BioShock™ Remastered</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">BioShock is a shooter unlike any other, loaded with unique weapons and tactics.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -154,7 +154,7 @@ Updated compatibility for BioShock™ Remastered, Bramble: The Mountain King, Ch
 <div class="game-entry">
   <img src="https://images.gog.com/233477b7de1891561b29051d86299382d6f2cd5c561c07218abdde946df68003.jpg?namespace=gamesdb" alt="Bramble: The Mountain King" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Bramble%3A%20The%20Mountain%20King">Bramble: The Mountain King</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/bramble-the-mountain-king/">Bramble: The Mountain King</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Bramble: The Mountain King is a grim adventure set in a world inspired by dark, Nordic fables.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -166,7 +166,7 @@ Updated compatibility for BioShock™ Remastered, Bramble: The Mountain King, Ch
 <div class="game-entry">
   <img src="https://images.gog.com/1e78df381dea0492f2d134fe0202ebc40ac36e6ae78fd7f5581bcb8f7fc1e197.jpg?namespace=gamesdb" alt="Chuchel" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Chuchel">Chuchel</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/chuchel/">Chuchel</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">CHUCHEL is a comedy adventure game from the creators of Machinarium, Botanicula and Samorost.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -178,7 +178,7 @@ Updated compatibility for BioShock™ Remastered, Bramble: The Mountain King, Ch
 <div class="game-entry">
   <img src="https://images.gog.com/c2945e0e1fa4f9690b485744d30e27331ec2f8acd6b3695438c77c2583119295.jpg?namespace=gamesdb" alt="Deep Sky Derelicts" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Deep%20Sky%20Derelicts">Deep Sky Derelicts</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/amazon/deep-sky-derelicts/">Deep Sky Derelicts</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Deep Sky Derelicts will bring the players into the burdensome life of a society outcast, a scavenger trying to make a living, while aspiring for a better life of a full-fledged citizen.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -190,7 +190,7 @@ Updated compatibility for BioShock™ Remastered, Bramble: The Mountain King, Ch
 <div class="game-entry">
   <img src="https://images.gog.com/8a612a80a3113cfba87f451255ec70e6f7dfb89ce5e6cb53e83b8fb91e840393.jpg?namespace=gamesdb" alt="Deus Ex: Mankind Divided" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Deus%20Ex%3A%20Mankind%20Divided">Deus Ex: Mankind Divided</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/deus-ex-mankind-divided/">Deus Ex: Mankind Divided</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">The year is now 2029, and the golden era of augmentations is over.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -206,7 +206,7 @@ This week highlighting The Witcher 2: Assassins of Kings Enhanced Edition, Night
 <div class="game-entry">
   <img src="https://images.gog.com/37fa9409b8756108e64eacba4345b5380e59e93e99d2b4fa377f921bf4dd1fbf.jpg?namespace=gamesdb" alt="The Witcher 2: Assassins of Kings Enhanced Edition" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=The%20Witcher%202%3A%20Assassins%20of%20Kings%20Enhanced%20Edition">The Witcher 2: Assassins of Kings Enhanced Edition</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/the-witcher-2-assassins-of-kings-enhanced-edition/">The Witcher 2: Assassins of Kings Enhanced Edition</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">A time of untold chaos has come.  Mighty forces clash behind the scenes in a struggle for power and influence.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -218,7 +218,7 @@ This week highlighting The Witcher 2: Assassins of Kings Enhanced Edition, Night
 <div class="game-entry">
   <img src="https://shared.steamstatic.com/store_item_assets/steam/apps/4282590/86737a21156b3d794cf61c4cc91ba925a5270305/library_capsule_2x.jpg?t=1768233869" alt="NightReaper2" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=NightReaper2">NightReaper2</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/nightreaper2/">NightReaper2</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">NightReaper2 is a dark fantasy action game where you become the Reaper, harvesting souls and fighting cursed enemies in a haunted world. </div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>

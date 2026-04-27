@@ -56,7 +56,7 @@ This week featuring Idle Champions of the Forgotten Realms, Turnip Boy Robs a Ba
 <div class="game-entry">
   <img src="https://images.gog.com/74208c03ea2f51ff74ff5822ea3e54b2bd64ff7c45f09111f8a7b23b484c8c73.jpg?namespace=gamesdb" alt="Idle Champions of the Forgotten Realms" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Idle%20Champions%20of%20the%20Forgotten%20Realms">Idle Champions of the Forgotten Realms</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/idle-champions-of-the-forgotten-realms/">Idle Champions of the Forgotten Realms</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Idle Champions of the Forgotten Realms is a Dungeons & Dragons strategy management game uniting characters from throughout the D&D multiverse into a grand adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -68,7 +68,7 @@ This week featuring Idle Champions of the Forgotten Realms, Turnip Boy Robs a Ba
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2097230/library_600x900.jpg" alt="Turnip Boy Robs a Bank" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Turnip%20Boy%20Robs%20a%20Bank">Turnip Boy Robs a Bank</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/turnip-boy-robs-a-bank/">Turnip Boy Robs a Bank</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Turnip Boy is back! This time he’s teaming up with the fearsome Pickled Gang to plan and execute the weirdest heist of all time.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -84,7 +84,7 @@ This week featuring Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot A
 <div class="game-entry">
   <img src="https://images.gog.com/734453c4fa47c766c7eda703477f83887b2e444460d4a674e709460c0d099abc.jpg?namespace=gamesdb" alt="Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Tiny%20Tina's%20Assault%20on%20Dragon%20Keep%3A%20A%20Wonderlands%20One-shot%20Adventure">Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/tiny-tinas-assault-on-dragon-keep-a-wonderlands-one-shot-adventure/">Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot Adventure</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Smash skeletons, defeat dragons, and battle giant golems in Tiny Tina's Assault on Dragon Keep: A Wonderlands One-Shot Adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -96,7 +96,7 @@ This week featuring Tiny Tina's Assault on Dragon Keep: A Wonderlands One-shot A
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2375260/library_600x900.jpg" alt="Tattoo Tycoon" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Tattoo%20Tycoon">Tattoo Tycoon</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/tattoo-tycoon/">Tattoo Tycoon</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Become a tattoo artist and manage your own tattoo parlor.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -112,7 +112,7 @@ Updated compatibility for Deceive Inc., F.I.S.T.: Forged In Shadow Torch, Tiny T
 <div class="game-entry">
   <img src="https://images.gog.com/65b1eaeda7d1a54fd85ba5bfdf50a443b10d8ff9634aa708453e12d8b4f3106b.jpg?namespace=gamesdb" alt="Deceive Inc." class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Deceive%20Inc.">Deceive Inc.</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/deceive-inc/">Deceive Inc.</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Go undercover as the world’s greatest spies in this tense multiplayer game of subterfuge.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -124,7 +124,7 @@ Updated compatibility for Deceive Inc., F.I.S.T.: Forged In Shadow Torch, Tiny T
 <div class="game-entry">
   <img src="https://images.gog.com/bf91b5131532afb8db412cfc6c14ec302c74985d613a3c00b2d6d8fc9081ca9a.jpg?namespace=gamesdb" alt="F.I.S.T.: Forged In Shadow Torch" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=F.I.S.T.%3A%20Forged%20In%20Shadow%20Torch">F.I.S.T.: Forged In Shadow Torch</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/fist-forged-in-shadow-torch/">F.I.S.T.: Forged In Shadow Torch</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">F.I.S.T.: Forged In Shadow Torch is a Metroidvania action game featuring exploration, intense combat and challenging platforming.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -136,7 +136,7 @@ Updated compatibility for Deceive Inc., F.I.S.T.: Forged In Shadow Torch, Tiny T
 <div class="game-entry">
   <img src="https://images.gog.com/c43830e8b2ec6524dfbc18974cf171de38ed3eafa0dcfcca0393134e31b3d77a.jpg?namespace=gamesdb" alt="Tiny Tina's Wonderlands" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Tiny%20Tina's%20Wonderlands">Tiny Tina's Wonderlands</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/tiny-tinas-wonderlands/">Tiny Tina's Wonderlands</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Embark on an epic adventure full of whimsy, wonder, and high-powered weaponry.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -148,7 +148,7 @@ Updated compatibility for Deceive Inc., F.I.S.T.: Forged In Shadow Torch, Tiny T
 <div class="game-entry">
   <img src="https://images.gog.com/07f92c3c3b4f1918f297906f7f9f6c7a570346d17f27f81e580727dc6a0be3a3.jpg?namespace=gamesdb" alt="Haven Park" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Haven%20Park">Haven Park</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/haven-park/">Haven Park</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Be Flint, who is doing his best to keep his grandma's park up and running and make it a place for the campers to enjoy.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -160,7 +160,7 @@ Updated compatibility for Deceive Inc., F.I.S.T.: Forged In Shadow Torch, Tiny T
 <div class="game-entry">
   <img src="https://images.gog.com/8cac6229578e368007550c1dc6808812914b609b88cec502269a9232ea1f795c.jpg?namespace=gamesdb" alt="Intravenous" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Intravenous">Intravenous</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/intravenous/">Intravenous</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Teeth-clenching stealth, followed by hardcore gunplay for those not looking for a quiet way in.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>

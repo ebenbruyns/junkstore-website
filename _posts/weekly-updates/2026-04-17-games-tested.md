@@ -51,9 +51,9 @@ This week featuring The Stone of Madness.
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/8de621e8d91b473f892472024035dc22/the-stone-of-madness-680ls.jpg" alt="The Stone of Madness" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=The%20Stone%20of%20Madness">The Stone of Madness</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/the-stone-of-madness/">The Stone of Madness</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">My fave of the bunch. This style of game is right up my alley. Problem solving and situations that keep you on your toes. The more people you gather in your party, the more you need to think things through. Will definitely be going back to this one.</p>
-    <a href="/games/tested/?game=The%20Stone%20of%20Madness" class="view-details">View compatibility details →</a>
+    <a href="/games/epic/the-stone-of-madness/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
@@ -64,18 +64,18 @@ This week featuring Monster Harvest, Snake Core.
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/5f1eb1585c6049199a499059c2326087/download-monster-harvest-offer-idy8y.jpg" alt="Monster Harvest" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Monster%20Harvest">Monster Harvest</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/monster-harvest/">Monster Harvest</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">Cute game you can pick up for short sessions. Reminded me of Forager and Kamaeru: A Frog Refuge. Good choice for all you cozy gamers.</p>
-    <a href="/games/tested/?game=Monster%20Harvest" class="view-details">View compatibility details →</a>
+    <a href="/games/epic/monster-harvest/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
 <div class="game-entry">
   <img src="https://images.gog.com/e49ab3e1b405234acceab90b90ea9cf7a22aa3a31f81dd86e527abd67ff5b622.jpg?namespace=gamesdb" alt="Snake Core" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Snake%20Core">Snake Core</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/snake-core/">Snake Core</a></strong> <span class="store-badge gog">GOG</span>
     <p class="game-blurb">Flash back to the late 90s when Snake ruled mobile gaming. This one adds aliens, different units, and missions. A fun twist that's perfect for quick Deck sessions.</p>
-    <a href="/games/tested/?game=Snake%20Core" class="view-details">View compatibility details →</a>
+    <a href="/games/gog/snake-core/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
@@ -86,9 +86,9 @@ This week featuring Undead: Rise of the Betrayed King.
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/e0b2ef75c4ca470eae076d9d54087eb4/undead-rise-of-the-betrayed-king-14f7w.jpg" alt="Undead: Rise of the Betrayed King" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Undead%3A%20Rise%20of%20the%20Betrayed%20King">Undead: Rise of the Betrayed King</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/undead-rise-of-the-betrayed-king/">Undead: Rise of the Betrayed King</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">An Early Access action RPG where you play as a dragon hiding in barbarian form, fighting the undead with magic and combat companions. Might be too demanding for the Steam Deck, but hopefully with some tweaking it will run well.</p>
-    <a href="/games/tested/?game=Undead%3A%20Rise%20of%20the%20Betrayed%20King" class="view-details">View compatibility details →</a>
+    <a href="/games/epic/undead-rise-of-the-betrayed-king/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 

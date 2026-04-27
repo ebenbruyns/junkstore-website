@@ -36,7 +36,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/916054a7da196bb23e1c50bd29511ada7c87ea1db08de1d26339b829f25dc66b.jpg?namespace=gamesdb" alt="Ghostrunner II" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Ghostrunner+II">Ghostrunner II</a></strong>
+    <strong><a href="/games/epic/ghostrunner-ii/">Ghostrunner II</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -47,7 +47,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/874390/capsule_231x87.jpg" alt="The Battle of Polytopia" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=The+Battle+of+Polytopia">The Battle of Polytopia</a></strong>
+    <strong><a href="/games/epic/the-battle-of-polytopia/">The Battle of Polytopia</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -58,7 +58,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1927740/capsule_231x87.jpg" alt="Monument Valley 2" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Monument+Valley+2">Monument Valley 2</a></strong>
+    <strong><a href="/games/epic/monument-valley-2/">Monument Valley 2</a></strong>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -71,7 +71,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/a7a09b3ac646a6cb2ff952df4c6ff40d5ffe2e073db809b1bae25584736d94a9.jpg?namespace=gamesdb" alt="Tower of Time" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Tower+of+Time">Tower of Time</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/gog/tower-of-time/">Tower of Time</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -82,7 +82,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1701520/capsule_231x87.jpg" alt="Afterimage" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Afterimage">Afterimage</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/games/amazon/afterimage/">Afterimage</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -93,7 +93,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1573100/capsule_231x87.jpg" alt="Subterrain: Mines of Titan" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Subterrain%3A+Mines+of+Titan">Subterrain: Mines of Titan</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/games/amazon/subterrain-mines-of-titan/">Subterrain: Mines of Titan</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -106,7 +106,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/0cf063c8d36640df637982c3d7f9c9eb838e347cbc55b3fad50da352ea81d2bb.jpg?namespace=gamesdb" alt="Lords Mobile" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Lords+Mobile">Lords Mobile</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/epic/lords-mobile/">Lords Mobile</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -117,7 +117,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/f40ff0211e465aaf814aff67b3fd040b56281f866f4846b5ec6ddb1e9717770f.jpg?namespace=gamesdb" alt="Liberated" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Liberated">Liberated</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/gog/liberated/">Liberated</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -128,7 +128,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/32330/capsule_231x87.jpg" alt="LEGO Indiana Jones: The Original Adventures" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=LEGO+Indiana+Jones%3A+The+Original+Adventures">LEGO Indiana Jones: The Original Adventures</a></strong> <span style="color: #999;">(Amazon)</span>
+    <strong><a href="/games/amazon/lego-indiana-jones-the-original-adventures/">LEGO Indiana Jones: The Original Adventures</a></strong> <span style="color: #999;">(Amazon)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
         <div class="compatibility-line">Pro Version: 🟡 Minor tinkering</div>
@@ -139,7 +139,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1110910/capsule_231x87.jpg" alt="Mortal Shell Tech Beta" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Mortal+Shell+Tech+Beta">Mortal Shell Tech Beta</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/epic/mortal-shell-tech-beta/">Mortal Shell Tech Beta</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -152,7 +152,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/a835897e14e64edb71d9c48e8da22e047304b6266586569f7ffcb49696c9f51b.jpg?namespace=gamesdb" alt="Alba: A Wildlife Adventure" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Alba%3A+A+Wildlife+Adventure">Alba: A Wildlife Adventure</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/epic/alba-a-wildlife-adventure/">Alba: A Wildlife Adventure</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -163,7 +163,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/b489b17adecb4e813fe37f8501373c52d233e259ce4ca1525f332b2917013abc.jpg?namespace=gamesdb" alt="Art of Rally" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Art+of+Rally">Art of Rally</a></strong> <span style="color: #999;">(Epic)</span>
+    <strong><a href="/games/epic/art-of-rally/">Art of Rally</a></strong> <span style="color: #999;">(Epic)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -174,7 +174,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/faaa39ce7bcf3d3d6ec8df1cddfb88cc8f89c65804fdc41f9a9d1deca3a7243f.jpg?namespace=gamesdb" alt="Ascendant" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Ascendant">Ascendant</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/gog/ascendant/">Ascendant</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -185,7 +185,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/39f4dfc1951e7beb36b71271b2b415fabd882a56645a01fe03eedadbc5e0c298.jpg?namespace=gamesdb" alt="Dishonored" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Dishonored">Dishonored</a></strong> <span style="color: #999;">(GOG)</span>
+    <strong><a href="/games/gog/dishonored/">Dishonored</a></strong> <span style="color: #999;">(GOG)</span>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works perfectly</div>
         <div class="compatibility-line">Pro Version: 🟢 Works perfectly</div>
@@ -197,7 +197,7 @@ Fortunately, I managed to get some solid testing done earlier in the week before
 
 <h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
-Next week's Epic Games freebies are **[Project Winter](/games/tested/?game=Project+Winter)** and **[Samorost 2](/games/tested/?game=Samorost+2)**, while Amazon Prime Gaming brings us **[Residual](/games/tested/?game=Residual)** and **[Fate: The Cursed King](/games/tested/?game=FATE%3A+The+Cursed+King)** (both GOG keys). Looking forward to testing these titles and seeing how they perform with our Junk Store setup!
+Next week's Epic Games freebies are **[Project Winter](/games/epic/project-winter/)** and **[Samorost 2](/games/epic/samorost-2/)**, while Amazon Prime Gaming brings us **[Residual](/games/gog/residual/)** and **[Fate: The Cursed King](/games/gog/fate-the-cursed-king/)** (both GOG keys). Looking forward to testing these titles and seeing how they perform with our Junk Store setup!
 
 We hope you're having a wonderful time wherever you are in the world, and as always, if you've got any questions about these games or Junk Store in general, please don't hesitate to reach out through our community channels.
 

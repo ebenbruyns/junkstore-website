@@ -41,7 +41,7 @@ A few quick updates before we dive into the games:
 * **Proton**: GE-Proton 10.26
 * **SteamOS**: v3.7.21 (Stable)
 
-## This Week's Featured Games <a href="/tested-games/" class="inline-games-cta-button">View Full List →</a>
+## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 ### Epic Games Giveaway
 
@@ -50,9 +50,9 @@ This week featuring DOOMBLADE.
 <div class="game-entry">
   <img src="https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-1v156.jpg" alt="DOOMBLADE" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=DOOMBLADE">DOOMBLADE</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/doomblade/">DOOMBLADE</a></strong> <span class="store-badge epic">Epic</span>
     <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
-    <a href="/tested-games/?game=DOOMBLADE" class="view-details">View compatibility details →</a>
+    <a href="/games/epic/doomblade/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
@@ -63,18 +63,18 @@ This week featuring The Pale Beyond, Neo Cab.
 <div class="game-entry">
   <img src="https://images.gog.com/44f7aa48dbbd595dc470ee64d6320534dc8aec1a821ce4cabeb1828b5cdcb44a.jpg?namespace=gamesdb" alt="The Pale Beyond" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=The%20Pale%20Beyond">The Pale Beyond</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/the-pale-beyond/">The Pale Beyond</a></strong> <span class="store-badge gog">GOG</span>
     <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
-    <a href="/tested-games/?game=The%20Pale%20Beyond" class="view-details">View compatibility details →</a>
+    <a href="/games/gog/the-pale-beyond/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
 <div class="game-entry">
   <img src="https://images.gog.com/3b424f32c2c8848e3f137ef9d51fb922110cbeeecae2ba9fecead5f8d3588d77.jpg?namespace=gamesdb" alt="Neo Cab" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=Neo%20Cab">Neo Cab</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/neo-cab/">Neo Cab</a></strong> <span class="store-badge gog">GOG</span>
     <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
-    <a href="/tested-games/?game=Neo%20Cab" class="view-details">View compatibility details →</a>
+    <a href="/games/gog/neo-cab/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 
@@ -85,9 +85,9 @@ This week featuring The Whispering Valley.
 <div class="game-entry">
   <img src="https://images.gog.com/00a5557d5297739fc5ba6b493c265f75e66b2bfdb06245d70b956932d269758d.jpg?namespace=gamesdb" alt="The Whispering Valley" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/tested-games/?game=The%20Whispering%20Valley">The Whispering Valley</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/the-whispering-valley/">The Whispering Valley</a></strong> <span class="store-badge gog">GOG</span>
     <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
-    <a href="/tested-games/?game=The%20Whispering%20Valley" class="view-details">View compatibility details →</a>
+    <a href="/games/gog/the-whispering-valley/" class="view-details">View compatibility details →</a>
   </div>
 </div>
 

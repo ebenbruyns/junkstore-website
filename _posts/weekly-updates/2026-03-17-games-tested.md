@@ -45,7 +45,7 @@ This week featuring Cozy Grove.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1458100/library_600x900.jpg" alt="Cozy Grove" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Cozy%20Grove">Cozy Grove</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/cozy-grove/">Cozy Grove</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Welcome to Cozy Grove, a life-sim game camping on a haunted, ever-changing island.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -61,7 +61,7 @@ This week featuring Mahokenshi - The Samurai Deckbuilder.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/1717640/library_600x900.jpg" alt="Mahokenshi - The Samurai Deckbuilder" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Mahokenshi%20-%20The%20Samurai%20Deckbuilder">Mahokenshi - The Samurai Deckbuilder</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/mahokenshi-the-samurai-deckbuilder/">Mahokenshi - The Samurai Deckbuilder</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Mahokenshi is a turn-based blend of adventure, deck-building and deep hex-grid strategy.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -73,7 +73,7 @@ This week featuring Mahokenshi - The Samurai Deckbuilder.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/361280/library_600x900.jpg" alt="Turmoil" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Turmoil">Turmoil</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/turmoil/">Turmoil</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Turmoil is a simulation game set during the 19th century oil rush in North America.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -89,7 +89,7 @@ Catching up on Mitos, Viral Reload, Fallout 2.
 <div class="game-entry">
   <img src="https://images.gog.com/763b0c2e1f250bac5b3071066999e4cb35d5f3629c24f896740d42c29464b450.jpg?namespace=gamesdb" alt="Mitos" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Mitos">Mitos</a></strong> <span class="store-badge itch">itch.io</span>
+    <strong><a href="/games/itch/mitos/">Mitos</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">Solve the puzzle of decomposition
 Dead things don't disappear by themselves.</div>
     <div class="compatibility-info">
@@ -102,7 +102,7 @@ Dead things don't disappear by themselves.</div>
 <div class="game-entry">
   <img src="https://images.gog.com/badb6d3c6cabc673508de3e30505f7356fac8355f32e71e2b6378828b705e0e5.jpg?namespace=gamesdb" alt="Viral Reload" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Viral%20Reload">Viral Reload</a></strong> <span class="store-badge itch">itch.io</span>
+    <strong><a href="/games/itch/viral-reload/">Viral Reload</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">Viral Reload is an Infinite Wave based shoot-em-up with a unique dash mechanic.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -114,7 +114,7 @@ Dead things don't disappear by themselves.</div>
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/38410/library_600x900.jpg" alt="Fallout 2" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Fallout%202">Fallout 2</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/fallout-2/">Fallout 2</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Fallout® 2 is the sequel to the critically acclaimed game that took RPG'ing out of the dungeons and into a dynamic, apocalyptic retro-future.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -130,7 +130,7 @@ Updated compatibility for Floppy Knights, Freshly Frosted, Zenless Zone Zero, LE
 <div class="game-entry">
   <img src="https://images.gog.com/294e69ecff539103f56cdcb5247e5c3b43554eade34f720683f9d7a52b0b8f4f.jpg?namespace=gamesdb" alt="Floppy Knights" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Floppy%20Knights">Floppy Knights</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/floppy-knights/">Floppy Knights</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Meet the Floppy Knights: tangible projections summoned from floppy disks.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -142,7 +142,7 @@ Updated compatibility for Floppy Knights, Freshly Frosted, Zenless Zone Zero, LE
 <div class="game-entry">
   <img src="https://images.gog.com/51988980e85d2c14df39ad2d2da730e2cfb0f77b372f231ea5a2f9da54223250.jpg?namespace=gamesdb" alt="Freshly Frosted" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Freshly%20Frosted">Freshly Frosted</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/freshly-frosted/">Freshly Frosted</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Place conveyor belts to solve puzzles in the world's most adorable donut factory.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -154,7 +154,7 @@ Updated compatibility for Floppy Knights, Freshly Frosted, Zenless Zone Zero, LE
 <div class="game-entry">
   <img src="https://images.gog.com/e312823add70222ffb01671a18217afe22b5c20acacc568d9a0b040c27368947.jpg?namespace=gamesdb" alt="Zenless Zone Zero" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Zenless%20Zone%20Zero">Zenless Zone Zero</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/zenless-zone-zero/">Zenless Zone Zero</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Zenless Zone Zero is an all-new 3D action game from HoYoverse, here to provide a thrilling combat experience.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -166,7 +166,7 @@ Updated compatibility for Floppy Knights, Freshly Frosted, Zenless Zone Zero, LE
 <div class="game-entry">
   <img src="https://images.gog.com/fb0cf5cd9ec020a983cac06e25df1a941e448a2e8c94cf71f6561500cbbbf722.jpg?namespace=gamesdb" alt="LEGO The Lord of the Rings" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=LEGO%20The%20Lord%20of%20the%20Rings">LEGO The Lord of the Rings</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/lego-the-lord-of-the-rings/">LEGO The Lord of the Rings</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Players relive the legend through the LEGO minifigures, as they explore wonders, solve timeless riddles, and overcome endless foes in their quest to destroy the Ring.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -178,7 +178,7 @@ Updated compatibility for Floppy Knights, Freshly Frosted, Zenless Zone Zero, LE
 <div class="game-entry">
   <img src="https://images.gog.com/7834a7443842d1a866a1fecaa81ab1ba674e6306bf3ebf9d774004e53ac1cffc.jpg?namespace=gamesdb" alt="Spells & Secrets" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Spells%20%26%20Secrets">Spells & Secrets</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/spells-secrets/">Spells & Secrets</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Spells & Secrets is a modern-day fantasy roguelike set in a procedurally generated wizarding school.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>

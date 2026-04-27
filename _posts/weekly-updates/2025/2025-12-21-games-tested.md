@@ -54,7 +54,7 @@ This week featuring Eternights, Jotunnslayer: Hordes of Hel, Blood West.
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/9df19abab215477c9a840e39b91e6ee13e8fc56e25abecebb4d163e015640dcc.jpg?namespace=gamesdb" alt="Eternights" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Eternights">Eternights</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/eternights/">Eternights</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Eternights is a dating action game where you try to make the most out of life during the apocalypse.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -66,7 +66,7 @@ This week featuring Eternights, Jotunnslayer: Hordes of Hel, Blood West.
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/2820820/library_600x900.jpg" alt="Jotunnslayer: Hordes of Hel" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Jotunnslayer%3A%20Hordes%20of%20Hel">Jotunnslayer: Hordes of Hel</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/jotunnslayer-hordes-of-hel/">Jotunnslayer: Hordes of Hel</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Hordes of Hel is a gripping roguelike horde-survivor game set in the dark realms of Norse Mythology.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -78,7 +78,7 @@ This week featuring Eternights, Jotunnslayer: Hordes of Hel, Blood West.
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1587130/library_600x900.jpg" alt="Blood West" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Blood%20West">Blood West</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/gog/blood-west/">Blood West</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Weird west legends meet eldritch horror in BLOOD WEST, an immersive stealth FPS.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -94,7 +94,7 @@ This week featuring Bō: Path of the Teal Lotus and Ashworld.
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1614440/library_600x900.jpg" alt="Bō: Path of the Teal Lotus" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=B%C5%8D%3A%20Path%20of%20the%20Teal%20Lotus">Bō: Path of the Teal Lotus</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/b-path-of-the-teal-lotus/">Bō: Path of the Teal Lotus</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Flow gracefully through a colorful, hand-drawn 2. 5D action platformer inspired by Japanese folklore.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -106,7 +106,7 @@ This week featuring Bō: Path of the Teal Lotus and Ashworld.
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/580320/library_600x900.jpg" alt="Ashworld" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Ashworld">Ashworld</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/ashworld/">Ashworld</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Fight, scavenge, and survive in Ashworld, a post-apocalyptic open world filled with danger.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -122,7 +122,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/a1a27a0f5c40a3ae73b9a939a216dde67fe84d4a066d5eb53cb13d290b013af6.jpg?namespace=gamesdb" alt="Call of Dragons" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Call%20of%20Dragons">Call of Dragons</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/call-of-dragons/">Call of Dragons</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Call of Dragons is an MMO fantasy conquest game from the creators of Rise of Kingdoms, offering an incredible strategic ...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -134,7 +134,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/8ddcff9507659b075262e8949c45ba35dbda9a411e1f40ee6ca14d7c3fc69454.jpg?namespace=gamesdb" alt="Eternal Threads" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Eternal%20Threads">Eternal Threads</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/eternal-threads/">Eternal Threads</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Eternal Threads is a single-player, first-person story-driven puzzle game of time manipulation, choice and consequence.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -146,7 +146,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/edd21e7a826f7774caf7138d57f75365c4c5c3f9b20f11b732cb5124597bacf1.jpg?namespace=gamesdb" alt="Jotun: Valhalla Edition" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Jotun%3A%20Valhalla%20Edition">Jotun: Valhalla Edition</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/jotun-valhalla-edition/">Jotun: Valhalla Edition</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Jotun is a hand-drawn action-exploration game set in Norse mythology.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -158,7 +158,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/5610076c2e08b70452f744ea069f973244763dcaa5f1070998a4e1f5a5ece097.jpg?namespace=gamesdb" alt="Absolute Drift" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Absolute%20Drift">Absolute Drift</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/absolute-drift/">Absolute Drift</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">In Absolute Drift, you will master the art of drifting.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -170,7 +170,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/c249233f5ae92174498f2252eae54d2ee01ff11d934063801d80f28059ca4c27.jpg?namespace=gamesdb" alt="Amnesia: The Dark Descent" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Amnesia%3A%20The%20Dark%20Descent">Amnesia: The Dark Descent</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/amnesia-the-dark-descent/">Amnesia: The Dark Descent</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Amnesia: The Dark Descent is a survival horror video game by Frictional Games.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -182,7 +182,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/30cfd064a36dd90f81aa24f5aa36e3e65f5fd6f9fe4fc3860718ac142f2105d4.jpg?namespace=gamesdb" alt="BioShock" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=BioShock">BioShock</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/bioshock/">BioShock</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">BioShock is a horror-themed first-person shooter set in a steampunk underwater dystopia.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -194,7 +194,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/7fd010b23d36a8bb086ff4f2b6a321308efc2914628a01b2ced3e5309458612e.jpg?namespace=gamesdb" alt="BioShock 2" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=BioShock%202">BioShock 2</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/bioshock-2/">BioShock 2</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">BioShock 2 is the second game of the BioShock series and the sequel to BioShock.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -206,7 +206,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/29470c5777955841afd0a106f498c2b81398201b73ab8818ecf7f3a3101de095.jpg?namespace=gamesdb" alt="Obduction" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Obduction">Obduction</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/obduction/">Obduction</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">From Cyan, the indie studio that brought you Myst and Riven comes a whole new adventure that will become your world.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -218,7 +218,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/18ae5ab62998a324fc92b7b0b54c9bfbc48c440e1f43c479ba2655b8a433103d.jpg?namespace=gamesdb" alt="RiME" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=RiME">RiME</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/rime/">RiME</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">A third-person exploratory action/adventure title in which a boy ends up on a mysterious island and makes his way throug...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -230,7 +230,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/376572bab0624164c0f5163611c83073cacc12a0a329cf996087526adae2a287.jpg?namespace=gamesdb" alt="An American Werewolf in LA" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=An%20American%20Werewolf%20in%20LA">An American Werewolf in LA</a></strong> <span class="store-badge itch">itch.io</span>
+    <strong><a href="/games/itch/an-american-werewolf-in-la/">An American Werewolf in LA</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">You are a Werewolf.  But there are worse monsters in Hell's Creek.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -242,7 +242,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/aa920f53b851c948f1f33e4f9ae06e3d825a48e8b6c89fe8eca5d3bae64c9944.jpg?namespace=gamesdb" alt="An Outcry, Prelude" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=An%20Outcry%2C%20Prelude">An Outcry, Prelude</a></strong> <span class="store-badge itch">itch.io</span>
+    <strong><a href="/games/itch/an-outcry-prelude/">An Outcry, Prelude</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">A branching-path narrative horror RPG set in Vienna, Austria.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -254,7 +254,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/83704a59cdf13550a2bb489e461fb47b18c11b838700517205f44bf5eec304a8.jpg?namespace=gamesdb" alt="And Yet It Moves" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=And%20Yet%20It%20Moves">And Yet It Moves</a></strong> <span class="store-badge itch">itch.io</span>
+    <strong><a href="/games/itch/and-yet-it-moves/">And Yet It Moves</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">And Yet It Moves is a puzzle-platformer, set in a unique world, made of ripped paper.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -266,7 +266,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1162960/library_600x900.jpg" alt="Angry Video Game Nerd I & II Deluxe" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Angry%20Video%20Game%20Nerd%20I%20%26%20II%20Deluxe">Angry Video Game Nerd I & II Deluxe</a></strong> <span class="store-badge itch">itch.io</span>
+    <strong><a href="/games/itch/angry-video-game-nerd-i-ii-deluxe/">Angry Video Game Nerd I & II Deluxe</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">Control &quot;The Nerd&quot; in a retro-inspired action platformer.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -278,7 +278,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/1b2337f98e9c9319e1b44872aed528d398aaf1db7e5641caa34e7e2fb496c781.jpg?namespace=gamesdb" alt="Arachnowopunk" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Arachnowopunk">Arachnowopunk</a></strong> <span class="store-badge itch">itch.io</span>
+    <strong><a href="/games/itch/arachnowopunk/">Arachnowopunk</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">A Single button infinite runner metriodvania about a friendly spider.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -290,7 +290,7 @@ Catching up on Call of Dragons, Eternal Threads, Jotun: Valhalla Edition, Absolu
 <div class="game-entry">
   <img loading="lazy" src="https://steamcdn-a.akamaihd.net/steam/apps/1097170/library_600x900.jpg" alt="Backspace Bouken" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Backspace%20Bouken">Backspace Bouken</a></strong> <span class="store-badge itch">itch.io</span>
+    <strong><a href="/games/itch/backspace-bouken/">Backspace Bouken</a></strong> <span class="store-badge itch">itch.io</span>
     <div class="game-description">Type your way through absurd encounters and mysterious puzzles in this old-school typing dungeon crawler.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -306,7 +306,7 @@ Updated compatibility for 3 out of 10, Ep. 1: "Welcome to Shovelworks", Greak: M
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/8b9de4f9c215ffe205af92cf7c6c1b0b5c6f96ad57b466b341c05812ba8e4d55.jpg?namespace=gamesdb" alt="3 out of 10, Ep. 1: &quot;Welcome to Shovelworks&quot;" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=3%20out%20of%2010%2C%20Ep.%201%3A%20%22Welcome%20to%20Shovelworks%22">3 out of 10, Ep. 1: "Welcome to Shovelworks"</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/3-out-of-10-ep-1-welcome-to-shovelworks/">3 out of 10, Ep. 1: "Welcome to Shovelworks"</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Join the ongoing adventures of developers at the world's worst video game studio as they endure antics both absurd and t...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -318,7 +318,7 @@ Updated compatibility for 3 out of 10, Ep. 1: "Welcome to Shovelworks", Greak: M
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/fada2822ee7ab2f6808b0d4f3facd88d14220b100b3d4aaeb4063f7e8f3287da.jpg?namespace=gamesdb" alt="Greak: Memories of Azur" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Greak%3A%20Memories%20of%20Azur">Greak: Memories of Azur</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/greak-memories-of-azur/">Greak: Memories of Azur</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Greak: Memories of Azur is a beautiful single-player puzzle platformer adventure.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -330,7 +330,7 @@ Updated compatibility for 3 out of 10, Ep. 1: "Welcome to Shovelworks", Greak: M
 <div class="game-entry">
   <img loading="lazy" src="https://images.gog.com/27470eea4b8846eb1cb73359fb1e37697ce512e18c14ad50ad8847527f999661.jpg?namespace=gamesdb" alt="Iratus: Lord of the Dead" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Iratus%3A%20Lord%20of%20the%20Dead">Iratus: Lord of the Dead</a></strong> <span class="store-badge gog">GOG</span>
+    <strong><a href="/games/gog/iratus-lord-of-the-dead/">Iratus: Lord of the Dead</a></strong> <span class="store-badge gog">GOG</span>
     <div class="game-description">Iratus: Lord of the Dead is a dark, challenging turn-based roguelike RPG where you play as an evil necromancer escaping ...</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>

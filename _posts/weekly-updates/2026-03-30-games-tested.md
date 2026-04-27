@@ -51,7 +51,7 @@ This week featuring Hyper Echelon, Havendock.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/953330/library_600x900.jpg" alt="Hyper Echelon" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Hyper%20Echelon">Hyper Echelon</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/hyper-echelon/">Hyper Echelon</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">The Cyan galaxy is in peril! Your trusty little star fighter and rag tag squad of wingmen are the only hope against the evil EXODON!</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -63,7 +63,7 @@ This week featuring Hyper Echelon, Havendock.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2020710/library_600x900.jpg" alt="Havendock" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Havendock">Havendock</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/havendock/">Havendock</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">A simulation game where you build a town in the middle of the sea.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -79,7 +79,7 @@ This week featuring Deep Sky Derelicts and Total War: THREE KINGDOMS.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/698640/library_600x900.jpg" alt="Deep Sky Derelicts" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Deep%20Sky%20Derelicts">Deep Sky Derelicts</a></strong> <span class="store-badge amazon">Amazon</span>
+    <strong><a href="/games/amazon/deep-sky-derelicts/">Deep Sky Derelicts</a></strong> <span class="store-badge amazon">Amazon</span>
     <div class="game-description">Deep Sky Derelicts will bring the players into the burdensome life of a society outcast, a scavenger trying to make a living, while aspiring for a better life of a full-fledged citizen.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🚫 Not Supported</div>
@@ -91,7 +91,7 @@ This week featuring Deep Sky Derelicts and Total War: THREE KINGDOMS.
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/779340/library_600x900.jpg" alt="Total War: THREE KINGDOMS" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Total%20War%3A%20THREE%20KINGDOMS">Total War: THREE KINGDOMS</a></strong> <span class="store-badge amazon">Amazon</span>
+    <strong><a href="/games/epic/total-war-three-kingdoms/">Total War: THREE KINGDOMS</a></strong> <span class="store-badge amazon">Amazon</span>
     <div class="game-description">Total War: THREE KINGDOMS is the first in the award-winning series to recreate epic conflict across ancient China.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -107,7 +107,7 @@ These are bonus giveaways from game devs on Epic this week: Symmetry and Lucky G
 <div class="game-entry">
   <img src="https://cdn2.steamgriddb.com/thumb/c74c7da0ec0abfaeadb3ea1d96db7f9f.jpg" alt="Symmetry" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Symmetry">Symmetry</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/symmetry/">Symmetry</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">A research spaceship reaches an abandoned planet. Nothing is what it seems here and the situation quickly slips out of control. Can the crew manage to survive and get back home?</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
@@ -119,7 +119,7 @@ These are bonus giveaways from game devs on Epic this week: Symmetry and Lucky G
 <div class="game-entry">
   <img src="https://steamcdn-a.akamaihd.net/steam/apps/2174420/library_600x900.jpg" alt="Lucky Goal" class="game-thumbnail">
   <div class="game-details">
-    <strong><a href="/games/tested/?game=Lucky%20Goal">Lucky Goal</a></strong> <span class="store-badge epic">Epic</span>
+    <strong><a href="/games/epic/lucky-goal/">Lucky Goal</a></strong> <span class="store-badge epic">Epic</span>
     <div class="game-description">Lucky goal offers an experience of a soccer game through a third-person view.</div>
     <div class="compatibility-info">
       <div class="compatibility-line">Decky Plugin: 🟢 Works out of the box</div>
