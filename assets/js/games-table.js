@@ -144,6 +144,19 @@ function applyFilters() {
   currentPage = 1;
   updateTable();
   renderFilterBarPills();
+  updateMobileBadge();
+  if (document.querySelector('.filter-drawer')) {
+    renderMobileDrawerBody();
+    updateDrawerDoneCount();
+  }
+}
+
+function clearAllFilters() {
+  filterState.store = 'All';
+  filterState.decky = 'All';
+  filterState.pro = 'All';
+  filterState.recent = false;
+  applyFilters();
 }
 
 // Live counts for popover options — pool excludes the dimension being counted,
@@ -226,9 +239,39 @@ function formatPillLabel(dim) {
 
 // ---- Filter bar rendering --------------------------------------------------
 
+const mobileMql = window.matchMedia('(max-width: 700px)');
+const isMobile = () => mobileMql.matches;
+mobileMql.addEventListener('change', () => {
+  closeMobileDrawer();
+  renderFilterBar();
+});
+
 function renderFilterBar() {
   const bar = document.getElementById('filterBar');
   if (!bar) return;
+
+  if (isMobile()) {
+    bar.innerHTML = `
+      <input class="filter-bar__search" type="search" placeholder="Search games or publishers…"
+             value="${escapeAttr(filterState.search)}" aria-label="Search games">
+      <button class="filter-bar__mobile-btn" type="button" data-mobile-filters>
+        🎛 Filters
+        <span class="filter-bar__mobile-badge" data-mobile-badge hidden></span>
+      </button>
+      <div class="filter-bar__show">
+        Show
+        <select aria-label="Page size">
+          <option value="10" ${pageSize === 10 ? 'selected' : ''}>10</option>
+          <option value="20" ${pageSize === 20 ? 'selected' : ''}>20</option>
+          <option value="50" ${pageSize === 50 ? 'selected' : ''}>50</option>
+        </select>
+      </div>
+    `;
+    wireBarStaticControls(bar);
+    bar.querySelector('[data-mobile-filters]').addEventListener('click', openMobileDrawer);
+    updateMobileBadge();
+    return;
+  }
 
   bar.innerHTML = `
     <div class="filter-bar__col-1">
@@ -244,7 +287,11 @@ function renderFilterBar() {
       </div>
     </div>
   `;
+  wireBarStaticControls(bar);
+  renderFilterBarPills();
+}
 
+function wireBarStaticControls(bar) {
   bar.querySelector('.filter-bar__search').addEventListener('input', e => {
     filterState.search = e.target.value;
     applyFiltersDebounced();
@@ -254,13 +301,19 @@ function renderFilterBar() {
     currentPage = 1;
     updateTable();
   });
+}
 
-  renderFilterBarPills();
+function updateMobileBadge() {
+  const badge = document.querySelector('[data-mobile-badge]');
+  if (!badge) return;
+  const n = ['store','decky','pro','recent'].filter(isDimActive).length;
+  badge.textContent = n;
+  badge.hidden = n === 0;
 }
 
 function renderFilterBarPills() {
   const bar = document.getElementById('filterBar');
-  if (!bar) return;
+  if (!bar || isMobile()) return;
 
   // Remove existing pills (keep cell-1 untouched so search retains focus)
   bar.querySelectorAll(':scope > .filter-pill').forEach(el => el.remove());
@@ -425,6 +478,130 @@ function onDocMouseDown(e) {
 
 function onDocKeyDown(e) {
   if (e.key === 'Escape') closePopover();
+}
+
+// ---- Mobile drawer --------------------------------------------------------
+
+function openMobileDrawer() {
+  if (document.querySelector('.filter-drawer')) return;
+
+  const backdrop = document.createElement('div');
+  backdrop.className = 'filter-drawer-backdrop';
+
+  const drawer = document.createElement('aside');
+  drawer.className = 'filter-drawer';
+  drawer.setAttribute('role', 'dialog');
+  drawer.setAttribute('aria-modal', 'true');
+  drawer.setAttribute('aria-label', 'Filters');
+  drawer.innerHTML = `
+    <header class="filter-drawer__head">
+      <h3>Filters</h3>
+      <button class="filter-drawer__close" type="button" aria-label="Close filters">&times;</button>
+    </header>
+    <div class="filter-drawer__body" id="filterDrawerBody"></div>
+    <footer class="filter-drawer__foot">
+      <button class="filter-drawer__clear" type="button">Clear all</button>
+      <button class="filter-drawer__done" type="button" data-result-count>Show ${filteredGames.length} games</button>
+    </footer>
+  `;
+
+  document.body.appendChild(backdrop);
+  document.body.appendChild(drawer);
+  document.body.classList.add('filter-drawer-open');
+
+  renderMobileDrawerBody();
+
+  // Trigger CSS transitions
+  requestAnimationFrame(() => {
+    backdrop.classList.add('is-visible');
+    drawer.classList.add('is-open');
+  });
+
+  drawer.querySelector('.filter-drawer__close').addEventListener('click', closeMobileDrawer);
+  drawer.querySelector('.filter-drawer__clear').addEventListener('click', clearAllFilters);
+  drawer.querySelector('.filter-drawer__done').addEventListener('click', closeMobileDrawer);
+  backdrop.addEventListener('click', closeMobileDrawer);
+  document.addEventListener('keydown', onDrawerKeyDown);
+}
+
+function closeMobileDrawer() {
+  const drawer = document.querySelector('.filter-drawer');
+  const backdrop = document.querySelector('.filter-drawer-backdrop');
+  if (!drawer) return;
+  drawer.classList.remove('is-open');
+  backdrop?.classList.remove('is-visible');
+  document.body.classList.remove('filter-drawer-open');
+  document.removeEventListener('keydown', onDrawerKeyDown);
+  setTimeout(() => {
+    drawer.remove();
+    backdrop?.remove();
+  }, 250);
+}
+
+function onDrawerKeyDown(e) {
+  if (e.key === 'Escape') closeMobileDrawer();
+}
+
+function renderMobileDrawerBody() {
+  const body = document.getElementById('filterDrawerBody');
+  if (!body) return;
+
+  const ratingOpts = [{ value: 'All', label: 'Any rating' }, ...RATING_OPTIONS];
+  body.innerHTML = `
+    ${renderDrawerSection('store', 'Store', STORE_OPTIONS)}
+    ${renderDrawerSection('decky', 'Decky Plugin', ratingOpts)}
+    ${renderDrawerSection('pro', 'Junk Store Pro', ratingOpts)}
+    ${renderDrawerToggle('recent', 'Tested in last 90 days')}
+  `;
+
+  body.querySelectorAll('[data-drawer-chip]').forEach(chip => {
+    chip.addEventListener('click', () => {
+      setFilter(chip.dataset.drawerChip, chip.dataset.value);
+    });
+  });
+  body.querySelectorAll('[data-drawer-toggle]').forEach(t => {
+    t.addEventListener('click', () => {
+      const dim = t.dataset.drawerToggle;
+      setFilter(dim, !filterState[dim]);
+    });
+  });
+}
+
+function renderDrawerSection(dim, title, options) {
+  const counts = computePopoverCounts(dim);
+  const chips = options.map(o => {
+    const active = (filterState[dim] || 'All') === o.value;
+    let countSpan = '';
+    if (o.value !== 'All' && counts[o.value] !== undefined) {
+      countSpan = `<span class="filter-drawer__chip-count">${counts[o.value]}</span>`;
+    }
+    return `<button type="button" class="filter-drawer__chip ${active ? 'is-active' : ''}" data-drawer-chip="${dim}" data-value="${o.value}">${o.label}${countSpan}</button>`;
+  }).join('');
+  return `
+    <section class="filter-drawer__section">
+      <h4>${title}</h4>
+      <div class="filter-drawer__chips">${chips}</div>
+    </section>
+  `;
+}
+
+function renderDrawerToggle(dim, title) {
+  const active = !!filterState[dim];
+  return `
+    <section class="filter-drawer__section">
+      <button type="button" class="filter-drawer__row-toggle ${active ? 'is-on' : ''}" data-drawer-toggle="${dim}" aria-pressed="${active}">
+        <span class="filter-drawer__row-label">${title}</span>
+        <span class="filter-drawer__row-switch" aria-hidden="true"></span>
+      </button>
+    </section>
+  `;
+}
+
+function updateDrawerDoneCount() {
+  const btn = document.querySelector('[data-result-count]');
+  if (!btn) return;
+  const n = filteredGames.length;
+  btn.textContent = n === 0 ? 'No matches' : `Show ${n} games`;
 }
 
 // ---- Search debounce -------------------------------------------------------
