@@ -1,7 +1,7 @@
 ---
 layout: junkstore-splash
 title: "Play Epic, GOG, Amazon & itch on Steam Deck | Junk Store"
-hero_title: "Your Non-Steam Gaming Hub — Epic, GOG, Amazon & itch in Game Mode"
+hero_title: "Your Non-Steam Gaming Hub for Steam Deck — Epic, GOG, Amazon & itch in Game Mode"
 description: "Play your Epic, GOG, Amazon Prime & itch libraries on Steam Deck — no Desktop Mode, no extra launchers, zero background processes. Try Junk Store free for 7 days."
 permalink: /
 classes: home
