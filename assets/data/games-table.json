@@ -1,18 +1,26 @@
 {
-  "generated_at": "2026-04-27T05:24:25.255Z",
+  "generated_at": "2026-04-28T02:22:34.126Z",
   "total_games": 992,
   "storefronts": {
     "Epic": {
-      "total": 473
+      "total": 473,
+      "green_standalone": 400,
+      "green_decky": 418
     },
     "GOG": {
-      "total": 374
+      "total": 374,
+      "green_standalone": 297,
+      "green_decky": 344
     },
     "Amazon": {
-      "total": 73
+      "total": 73,
+      "green_standalone": 69,
+      "green_decky": 0
     },
     "itch": {
-      "total": 72
+      "total": 72,
+      "green_standalone": 72,
+      "green_decky": 0
     }
   },
   "games": [

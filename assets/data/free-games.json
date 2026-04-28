@@ -1,30 +1,6 @@
 {
-  "generated_at": "2026-04-23T19:56:45.225Z",
+  "generated_at": "2026-04-27T20:19:19.884Z",
   "games": [
-    {
-      "id": "gp_3600",
-      "title": "Flowerdrops",
-      "storefront": "itchio",
-      "website_slug": null,
-      "store_url": "https://www.gamerpower.com/open/flowerdrops-itchio-giveaway",
-      "image": "https://www.gamerpower.com/offers/1b/69e9062ec928b.jpg",
-      "end_date": "2026-04-24 23:59:00",
-      "end_date_formatted": "Friday, Apr 24",
-      "first_seen": "2026-04-23 02:18:12",
-      "original_price": "$9.99"
-    },
-    {
-      "id": "gp_3577",
-      "title": "Lihiman",
-      "storefront": "itchio",
-      "website_slug": null,
-      "store_url": "https://www.gamerpower.com/open/lihiman-itchio-giveaway",
-      "image": "https://www.gamerpower.com/offers/1b/69de855c94b1e.jpg",
-      "end_date": "2026-04-25 23:59:00",
-      "end_date_formatted": "Saturday, Apr 25",
-      "first_seen": "2026-04-23 02:18:12",
-      "original_price": "$4.99"
-    },
     {
       "id": "gp_3596",
       "title": "Emily_",
