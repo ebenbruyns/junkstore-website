@@ -34,7 +34,7 @@ A few quick updates before we dive into the games:
 * **GOG Extension:** Exclusively available through the <a href="https://portal.junkstore.xyz/" target="_blank" rel="noopener">Junk Store Portal</a>.
 
 ## Current System Setup
-* **<a href="/buy_now/">Junk Store Pro</a>**: v3.0.1.0 (Stable Channel)
+* **<a href="/portal-redirect/">Junk Store Pro</a>**: v3.0.1.0 (Stable Channel)
 * **Junk Store Plugin**: v1.1.13 (Main/Default)
 * **GOG Extension**: v0.1.11 (can be purchased from the [Junk Store Portal](https://portal.junkstore.xyz/))
 * **Decky Loader**: v3.2.3 (Prerelease)

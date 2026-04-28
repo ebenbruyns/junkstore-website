@@ -70,7 +70,7 @@ function trackTrialButtons() {
  */
 function trackNavigationIntent() {
   var intentPages = {
-    '/buy_now/': 'high_intent',
+    '/portal-redirect/': 'high_intent',
     '/get_started/': 'high_intent',
     '/pricing/': 'high_intent',
     '/comparison/': 'comparing_options',
