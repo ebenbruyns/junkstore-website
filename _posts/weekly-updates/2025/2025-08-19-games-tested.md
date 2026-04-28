@@ -6,7 +6,7 @@ categories: [Weekly Update, Game Compatibility]
 tags: [junk-store, steam-deck, game-testing, epic-games, gog, itch-io]
 slug: "games-tested-aug-19"
 excerpt: "Major announcement: itch.io integration is live! Plus updated games compatibility table with detailed modals, and testing results from Epic giveaways, Prime Gaming, and our first batch of itch.io indies."
-image: /assets/images/blog/aug19-hero.jpg
+image: /assets/images/blog/weekly-updates/aug19-hero.jpg
 read_time: "6 min read"
 toc: true
 ---
