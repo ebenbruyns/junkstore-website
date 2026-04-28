@@ -10,6 +10,7 @@ excerpt: "R&D release - our diagnostics framework for detecting issues and sugge
 image: /assets/images/blog/features/diagnostics/JunkStoreDiagnostics-1.webp
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 It's unusual for us to release early R&D work, but we have a diagnostics tool based on extensive research that we think would be useful to users. This framework is still in the early phases of development, but we have already found it useful. It's available on the beta build channel for Junk Store Pro.

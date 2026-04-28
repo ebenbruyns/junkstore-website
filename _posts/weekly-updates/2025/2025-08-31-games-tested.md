@@ -172,14 +172,6 @@ As always, if you've got any questions about these games or JunkStore in general
 
 Cheers from a much calmer Kawau Island!
 
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Experience what premium Steam Deck gaming feels like</p>
-</div>
-
 ---
 
 *All compatibility information is based on real testing with the hardware and software versions listed above.*

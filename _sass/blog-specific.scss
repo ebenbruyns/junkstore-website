@@ -265,6 +265,26 @@ $blog-layouts: '.layout--single', '.layout--blog', '.layout--post';
   font-style: italic;
 }
 
+/* Secondary cross-link to /features/ — small, low-emphasis, sits below the
+   main trial button without competing with it. Drives internal SEO juice
+   to the features page (audit recommendation). */
+.inline-blog-cta-features-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #66bfff;
+  font-size: $type-size-body-small;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(102, 191, 255, 0.4);
+  transition: color 0.2s ease, border-color 0.2s ease;
+
+  &:hover,
+  &:focus {
+    color: #99d4ff;
+    border-bottom-color: #99d4ff;
+    text-decoration: none;
+  }
+}
+
 /* Blog community buttons */
 .layout--single .community-btn,
 .layout--blog .community-btn,

@@ -15,8 +15,6 @@ toc: true
 
 **This week's testing highlights:** 15 games across Epic, GOG, Amazon, itch.io storefronts — including standout finds like Darkwood running flawlessly and Eastern Exorcist running flawlessly. 15 games work perfectly out of the box!
 
-
-
 Kia ora Everyone!
 
 Finally feels like summer is on its way down under! Just had daylight savings, so losing that hour threw us off a bit, but at least it's lighter later in the evening now. Looking forward to summer and getting back on track with some long-neglected boat jobs!
@@ -231,8 +229,6 @@ Updated compatibility for Darkwood, Islets, Hitman: Absolution, King of Seas.
   </div>
 </div>
 
-
-
 <h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
 Next week's Epic giveaways look exciting! **Nightingale** is a first-person, PVE, open-world survival crafting game that can be played solo or cooperatively with friends. Build, craft, fight and explore as you venture through mystical portals into amazing and fantastical realms. This one looks really interesting — like something the two of us could get completely lost in. Really looking forward to testing that one!
@@ -247,14 +243,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,  
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">See why users are ditching multiple launchers for Pro</p>
-</div>
 
 ---
 

@@ -339,8 +339,6 @@ Updated compatibility for 3 out of 10, Ep. 1: "Welcome to Shovelworks", Greak: M
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 This week's giveaway from Epic includes today's [Sorry We're Closed](https://store.epicgames.com/en-US/p/sorry-were-closed-724c86) and a new mystery game tomorrow. From Amazon Luna we get two games from GOG - [Fallout](https://www.gog.com/en/game/fallout) and [Fallout 2](https://www.gog.com/en/game/fallout_2).
@@ -351,14 +349,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

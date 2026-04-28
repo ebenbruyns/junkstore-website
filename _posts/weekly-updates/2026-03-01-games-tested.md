@@ -133,8 +133,6 @@ Updated compatibility for Death's Gambit: Afterlife, Forager, Hard West 2.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 This weekend's Epic giveaways include [Turnip Boy Robs a Bank](https://store.epicgames.com/en-US/p/turnip-boy-robs-a-bank-3fae0e) and the previously given away [Idle Champions of the Forgotten Realms](https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms). Amazon Luna offerings are still unannounced. I wonder what they have in store for us this month.
@@ -145,14 +143,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

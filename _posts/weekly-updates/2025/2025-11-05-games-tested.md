@@ -15,8 +15,6 @@ toc: true
 
 **This week's testing highlights:** 20 games across GOG, Epic, Amazon, itch.io storefronts — including fun finds like Magnibox (itch.io) and Bendy and the Ink Machine. 19 games work out of the box!
 
-
-
 Kia ora Everyone!
 
 This week's post is delayed as we took the weekend and Monday off (no computers or work allowed) to attend a family reunion on the mainland in Auckland. It was an amazing day all round: perfect summer weather, great food, and most importantly, great company. We were able to catch up with family we hadn't seen in far too long and were happy to see everyone was happy, healthy, and living their best life!
@@ -305,8 +303,6 @@ This week highlighting Duet Night Abyss.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week's Epic Games giveaways are [Felix the Reaper](https://store.epicgames.com/en-US/p/felix-the-reaper-3f7e62) and a bundle pack for [Idle Champions of the Forgotten Realms](https://store.epicgames.com/en-US/p/idle-champions-of-the-forgotten-realms). Felix the Reaper looks like my type of game — I love puzzle games, so I'll have to do my best to not let my testing session turn into a gaming session! Not sure yet what we're getting from Prime Gaming, so it'll be a surprise for us later this week.
@@ -317,14 +313,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

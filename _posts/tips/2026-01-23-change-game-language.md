@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/tips/langvar/langvar-thumb.webp
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Use the **Additional Variables** field in the Decky Plugin to set language environment variables for Epic games that support multiple languages!

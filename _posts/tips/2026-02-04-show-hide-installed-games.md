@@ -12,6 +12,7 @@ toc: true
 image: /assets/images/blog/tips/show-hide/show-hide-installed-card.webp
 header:
   og_image: /assets/images/blog/tips/show-hide/show-hide-installed-card.jpg
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Press X in any Junk Store library to toggle between showing only installed games and showing your complete library - perfect for decluttering large collections!

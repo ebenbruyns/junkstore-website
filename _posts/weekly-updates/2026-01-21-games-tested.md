@@ -21,7 +21,6 @@ G'day Everyone!
 
 I'm back down in Papamoa for the week helping my parents out with a few things, heading back up on Monday. The weather here in NZ has been absolutely shocking this week. Not much of a summer happening at the moment, and it looks set to stick around until late in the week. Fingers crossed for some warm sunny days next week so we can all dry out! On the bright side, being stuck indoors means plenty of time for testing. I'll be taking full advantage of my parents' super fast and stable internet to get cracking on as many games as I can handle.
 
-
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:
@@ -253,8 +252,6 @@ This week highlighting Fallout 4, got this as a Christmas presnet to myself as w
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week's giveaways include <a href="https://www.gog.com/en/game/harold_halibut" target="_blank" rel="noopener">Harold Halibut</a> (GOG Code), <a href="https://www.gog.com/en/game/dd_stronghold_kingdom_simulator" target="_blank" rel="noopener">D&D Stronghold: Kingdom Simulator</a> (GOG Code), and <a href="https://store.epicgames.com/en-US/p/rustler-grand-theft-horse-21a7ca" target="_blank" rel="noopener">Rustler (Grand Theft Horse)</a> from Epic.
@@ -265,14 +262,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

@@ -128,8 +128,6 @@ These are bonus giveaways from game devs on Epic this week: Symmetry and Lucky G
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 This weekend's Epic giveaway is <a href="https://store.epicgames.com/en-US/p/clone-drone-in-the-danger-zone-4daf6e" target="_blank" rel="noopener">Clone Drone in the Danger Zone</a>.
@@ -142,14 +140,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools. Upgrade to the all-in-one solution.</p>
-</div>
 
 ---
 

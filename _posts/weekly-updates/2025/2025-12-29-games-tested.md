@@ -300,8 +300,6 @@ Updated compatibility for A Plague Tale: Innocence, Midnight Fight Express, Shad
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Today's Epic game giveaway was [Viewfinder](https://store.epicgames.com/en-US/p/viewfinder-61691c) — hope we get something interesting tomorrow! From Amazon Luna (Prime Gaming) we have [Deus Ex: Mankind Divided](https://store.epicgames.com/en-US/p/deus-ex-mankind-divided-4c6370), [Dreamscaper](https://store.epicgames.com/en-US/p/dreamscaper), and Living Legends: The Crystal Tear Collector's Edition available through the Amazon Games Store.
@@ -312,14 +310,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

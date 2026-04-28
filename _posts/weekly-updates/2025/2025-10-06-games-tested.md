@@ -15,8 +15,6 @@ toc: true
 
 **This week's testing highlights:** 10 games across Epic, GOG, Amazon storefronts — including games like Gargoyles Remastered, Shadow Tactics, and Salt and Sanctuary that I could have easily turned into gaming sessions instead of testing sessions! All 10 games tested this week work perfectly out of the box on Junk Store Pro.
 
-
-
 G'day Everyone!
 
 Apologies for the lateness of this week's post! The weather hasn't been the best these past few days, which means our internet hasn't been cooperating either. Couple that with school holidays and lots of people up at their holiday homes, and it makes for very slow internet for us on the boat. Thankfully today is a beautiful Spring day, which gives us a chance to dry out and warm up! If only summer could arrive a little faster—that would be bliss.
@@ -171,8 +169,6 @@ Updated compatibility for BioShock 2 Remastered, Salt and Sanctuary, Metro: Last
   </div>
 </div>
 
-
-
 ## Games That Didn't Make the Cut
 
 Unfortunately, there were a few games this week that didn't cooperate during testing:
@@ -201,14 +197,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers, 
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

@@ -10,6 +10,7 @@ description: "Double your FPS with LSFG frame generation on Steam Deck. Built in
 excerpt: "Double your FPS with LSFG frame generation - now built directly into Junk Store with simple toggles. No manual launch arguments needed!"
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** LSFG (Lossless Scaling Frame Generation) is now built into Junk Store! Enable frame generation with simple toggles instead of fiddling with manual launch arguments.

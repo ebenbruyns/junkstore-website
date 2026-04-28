@@ -130,8 +130,6 @@ This week featuring Total War: Pharaoh Dynasties, XCOM: Enemy Unknown Complete P
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next up on the free games front, Epic's got <a href="https://store.epicgames.com/en-US/p/propsumo-ca8bd7" target="_blank" rel="noopener">Prop Sumo</a> coming this week.
@@ -144,14 +142,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

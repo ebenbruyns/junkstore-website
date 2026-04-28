@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/v3-release/thumb.webp
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 **Bet you weren't expecting this.** Junk Store Pro v3.0 just dropped with a bunch of new tools, performance improvements, and quality-of-life upgrades that make managing your non-Steam games easier than ever.

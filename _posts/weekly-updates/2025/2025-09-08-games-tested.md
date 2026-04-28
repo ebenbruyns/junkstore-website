@@ -158,14 +158,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 Cheers,  
 The Junk Store Team
 
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
-
 ---
 
 *All compatibility information is based on real testing with the hardware and software versions listed above.*

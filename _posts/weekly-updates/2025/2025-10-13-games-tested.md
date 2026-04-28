@@ -15,8 +15,6 @@ toc: true
 
 **This week's testing highlights:** 5 games across Epic, Amazon storefronts, including fun finds like Faaast Penguin and Gravity Circuit running flawlessly. All 5 games work perfectly out of the box!
 
-
-
 G'day!
 
 What a week for wildlife here in North Cove, Kawau Island! We've had a pod of dolphins visit twice this week, and between their appearances, a group of orca showed up right at our mooring. Living on a boat has its share of compromises and challenges compared to life on land, but experiences like these make it all worthwhile. Watching these magnificent creatures from our floating home is something we never could have imagined in our previous landlocked life and honestly, we wouldn't trade it for anything!
@@ -107,8 +105,6 @@ Catching up on Youtubers Life 2 and Faaast Penguin.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week's Epic Games giveaways look absolutely fantastic! We're getting <a href="/games/epic/samorost-3/">Samorost 3</a> and <a href="/games/gog/amnesia-the-bunker/">Amnesia: The Bunker</a>, two games I'm genuinely excited to "test" (read: play for way too long). Meanwhile, Prime Gaming is delivering three GOG keys this weekend: <a href="/games/gog/empty-shell/">Empty Shell</a>, <a href="/games/gog/fallout-new-vegas-ultimate-edition/">Fallout: New Vegas Ultimate Edition</a>, and <a href="/games/gog/true-fear-forsaken-souls-part-1/">True Fear: Forsaken Souls Part 1</a>. What an incredible lineup for the weekend!
@@ -117,14 +113,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,  
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

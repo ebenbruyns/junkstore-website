@@ -41,7 +41,6 @@ A few quick updates before we dive into the games:
 * **Proton**: GE-Proton 10.26
 * **SteamOS**: v3.7.21 (Stable)
 
-
 ## This Week's Featured Games <a href="/games/tested/" class="inline-games-cta-button">View Full List →</a>
 
 ### Epic Games Giveaway
@@ -107,14 +106,6 @@ Got questions or want to share what you're keen to try? Flick us a message on <a
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 <style>
 blockquote {

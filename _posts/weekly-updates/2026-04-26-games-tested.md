@@ -91,8 +91,6 @@ This week featuring The Whispering Valley.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next up on the free games front:
@@ -111,14 +109,6 @@ Got questions or want to share what you're keen to try? Flick us a message on <a
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/buy_now/" class="inline-blog-cta-button">
-    Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

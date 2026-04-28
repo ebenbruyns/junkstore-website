@@ -421,8 +421,6 @@ This week highlighting A Hole New World, [Speer], Where Winds Meet.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week's Amazon Luna (Prime Gaming) freebies are already lined up: <a href="https://www.gog.com/en/game/gunslugs_2" target="_blank" rel="noopener">Gun Slugs 2</a>, <a href="https://www.gog.com/en/game/ashworld" target="_blank" rel="noopener">Ashworld</a>, <a href="https://www.gog.com/en/game/forgotten_realms_the_archives_collection_three" target="_blank" rel="noopener">Forgotten Realms: The Archives – Collection Three</a>, and <a href="https://www.gog.com/en/game/bo_path_of_the_teal_lotus" target="_blank" rel="noopener">Bo: Path of the Teal Lotus</a>. All GOG versions, which is always a nice bonus.
@@ -435,14 +433,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

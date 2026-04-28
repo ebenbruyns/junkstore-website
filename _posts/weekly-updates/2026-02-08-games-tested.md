@@ -227,8 +227,6 @@ This week highlighting The Witcher 2: Assassins of Kings Enhanced Edition, Night
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week's giveaways include <a href="https://store.epicgames.com/en-US/p/hexguardian-2b0cbe" target="_blank" rel="noopener">Hexguardian</a> (Epic Code) and Around the World: Travel to Brazil Collector's Edition (Legacy Game) from Amazon Prime Gaming. From Epic we will be able to claim <a href="https://store.epicgames.com/en-US/p/nobody-wants-to-die-fe21cd" target="_blank" rel="noopener">Nobody Wants to Die</a> and <a href="https://store.epicgames.com/en-US/p/the-darkside-detective-a-fumble-in-the-dark-174fcf" target="_blank" rel="noopener">The Darkside Detective: A Fumble in the Dark</a>.
@@ -239,14 +237,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

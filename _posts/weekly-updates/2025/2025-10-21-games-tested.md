@@ -15,8 +15,6 @@ toc: true
 
 **This week's testing highlights:** 12 games across Epic, GOG, Amazon storefronts — including standout finds like Dishonored: Death of the Outsider running flawlessly and Shadowrun Returns running flawlessly. 12 games work perfectly out of the box!
 
-
-
 Kia ora Everyone!
 
 The sun is shining, the internet is cooperating, AND I managed to resist turning my testing session into a full gaming session! Quite a few games tested my willpower this week - they've all been added to my ever-growing backlog of games I'd love to actually play when time allows. Might need to schedule some enforced gaming time for both of us since we haven't had a proper session in almost a year!
@@ -195,8 +193,6 @@ Updated compatibility for Dishonored: Death of the Outsider, Shadowrun Returns.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week we'll be diving into **[Fear the Spotlight](/games/epic/fear-the-spotlight/)** from Epic Games - an atmospheric third-person horror adventure perfect for spooky season. Plus we've got a handful of Prime Gaming titles (all GOG codes) including **[True Fear: Forsaken Souls Part 2](/games/gog/true-fear-forsaken-souls-part-2/)**, **[Hellslave](/games/gog/hellslave/)**, and the classic **[Fallout 3: Game of the Year Edition](/games/gog/fallout-3-game-of-the-year-edition/)**. Looking forward to seeing how these run on the Deck!
@@ -207,14 +203,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,  
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

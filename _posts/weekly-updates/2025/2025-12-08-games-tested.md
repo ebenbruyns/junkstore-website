@@ -332,8 +332,6 @@ Updated compatibility for Borderlands 3, Redout 2, Crusader Kings II.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week's lineup is still mostly a mystery since Epic is giving away a mystery game to coincide with the 2025 edition of The Game Awards. Over on Amazon Luna, they're giving away [Forgotten Realms: The Archives - Collection Two](https://www.gog.com/en/game/forgotten_realms_the_archives_collection_two) as a GOG code, which should be a nice treat for RPG fans.
@@ -344,14 +342,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

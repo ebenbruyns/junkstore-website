@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/tips/offline-tip/globalofflineon.webp
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Want to play your Epic games without an internet connection? Junk Store makes it easy to enable offline mode.

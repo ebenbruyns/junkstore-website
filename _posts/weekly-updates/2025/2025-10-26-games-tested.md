@@ -15,8 +15,6 @@ toc: true
 
 **This week's testing highlights:** 15 games across Epic, GOG, Amazon, itch.io storefronts, including Alan Wake II running flawlessly and Spaß Taxi as a cool find in our itch.io library. 14 games work perfectly out of the box!
 
-
-
 Kia ora Everyone!
 
 It's Labour Weekend here in New Zealand and we're keeping our fingers crossed the weather cooperates! Big news this week: our niece Ella arrived just a couple of days ago, and she's the cutest thing ever (even if we are all a little biased). Between us and her dad, she's going to become a well-rounded gamer for sure!
@@ -235,8 +233,6 @@ This week highlighting Alan Wake II, Alan Wake, Alan Wake's American Nightmare.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week's lineup is absolutely stacked with horror games perfect for the season! Epic Games is giving away two incredible titles: **[Bendy and the Ink Machine](https://store.epicgames.com/en-US/p/bendy-and-the-ink-machine-60cf5a)** and **[Five Nights at Freddy's: Into the Pit](https://store.epicgames.com/en-US/p/five-nights-at-freddys-into-the-pit-99c563)**. Super excited about both of these — Bendy has been on my wishlist for ages, so it's awesome to see it being given away!
@@ -249,14 +245,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

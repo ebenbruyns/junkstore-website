@@ -193,8 +193,6 @@ Fortunately, I managed to get some solid testing done earlier in the week before
   </div>
 </div>
 
-
-
 <h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
 Next week's Epic Games freebies are **[Project Winter](/games/epic/project-winter/)** and **[Samorost 2](/games/epic/samorost-2/)**, while Amazon Prime Gaming brings us **[Residual](/games/gog/residual/)** and **[Fate: The Cursed King](/games/gog/fate-the-cursed-king/)** (both GOG keys). Looking forward to testing these titles and seeing how they perform with our Junk Store setup!
@@ -203,14 +201,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,  
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Game Mode native — the way handheld gaming should be</p>
-</div>
 
 ---
 

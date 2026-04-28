@@ -13,6 +13,7 @@ toc: true
 header:
   teaser: /assets/images/tips/anticheat/dependencies-not-installed.webp
   og_image: /assets/images/tips/anticheat/dependencies-not-installed.webp
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Some games require anti-cheat dependencies to run properly. Junk Store makes it easy to download and enable them in game mode.

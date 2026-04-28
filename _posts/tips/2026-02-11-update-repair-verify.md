@@ -12,6 +12,7 @@ toc: true
 image: /assets/images/blog/tips/verify-repair/update-repair-verify-card.webp
 header:
   og_image: /assets/images/blog/tips/verify-repair/update-repair-verify-teaser.webp
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Use the sliders menu on any installed game to update, repair, or verify your game files - all without leaving Game Mode!

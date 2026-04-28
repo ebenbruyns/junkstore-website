@@ -178,8 +178,6 @@ Updated compatibility for South of the Circle, SteamWorld Heist.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 This weekend's Epic giveaways include [Havendock](https://store.epicgames.com/en-US/p/havendock-64983e) and [Hyper Echelon](https://store.epicgames.com/en-US/p/hyper-echelon-2d23ff).
@@ -192,14 +190,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Happy Gaming,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

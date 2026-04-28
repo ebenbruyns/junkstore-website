@@ -90,14 +90,6 @@ This is bleeding edge stuff - you're getting access to something that's never ex
 **Game on!**  
 **The Junk Store Team**
 
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Your Steam Deck, simplified and supercharged</p>
-</div>
-
 ---
 
 <style>

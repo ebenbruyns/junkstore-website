@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/tips/proton-tip/proton-tip-thumb.webp
 read_time: "4 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** If a game shows a black screen, won't launch, or crashes immediately, try changing the Proton version. It's often the fix.

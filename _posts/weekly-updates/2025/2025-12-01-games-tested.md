@@ -288,8 +288,6 @@ Thanks to **Trekopep** and **Alt** for testing these games. Apologies for the de
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week's Epic Games giveaways are [The Darkside Detective](https://store.epicgames.com/en-US/p/the-darkside-detective-02fd5a) and [Jackbox Party Pack 4](https://store.epicgames.com/en-US/p/jackbox-party-pack-4). Let's hope we get some more gems from Amazon Luna this week!
@@ -300,14 +298,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

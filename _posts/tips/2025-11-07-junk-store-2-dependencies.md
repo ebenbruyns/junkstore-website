@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/tips/dependencies/251017-deps-thumb.webp
 read_time: "3 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Games won't launch due to missing Windows components? Junk Store Pro includes **built-in dependency management** directly in Game Mode menus - no Protontricks needed!

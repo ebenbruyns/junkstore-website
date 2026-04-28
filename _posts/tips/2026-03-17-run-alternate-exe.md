@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/blog/tips/run-exe/runexeblogcard.webp
 read_time: "2 min read"
 toc: true
+cta_disabled: true
 ---
 
 **This Week's Pro Tip:** Some games bundle multiple executables like expansion packs, config tools, or alternate launchers. Here's how to run any of them without switching to Desktop Mode.

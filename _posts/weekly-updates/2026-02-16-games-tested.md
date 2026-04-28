@@ -175,8 +175,6 @@ Updated compatibility for Endless Sky, Eschalon: Book I.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week's Epic Games giveaways include <a href="https://store.epicgames.com/en-US/p/return-to-ash-dee3ff" target="_blank" rel="noopener">Return to Ash</a> and <a href="https://store.epicgames.com/en-US/p/stalcraft-x-stalcraft-x-starter-edition-0b06d4" target="_blank" rel="noopener">STALCRAFT: X Starter Edition</a>.
@@ -189,14 +187,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

@@ -187,8 +187,6 @@ Updated compatibility for Arcade Paradise, Cat Quest II.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week's Epic freebies include <a href="https://store.epicgames.com/en-US/p/botany-manor-e7c456" target="_blank" rel="noopener">Botany Manor</a> and <a href="https://store.epicgames.com/en-US/p/pixel-gun-3d-poison-retro-set-55a7dd" target="_blank" rel="noopener">Poison Retro Set</a>. For the Poison Retro Set, you'll need to have the base game <a href="https://store.epicgames.com/en-US/p/pixel-gun-3d-812855" target="_blank" rel="noopener">Pixel Gun 3D</a> (which is free). Next week also brings a new month of freebies from Amazon Gaming. Looking forward to finding out what's in store for us!
@@ -199,14 +197,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

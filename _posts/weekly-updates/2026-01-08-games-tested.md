@@ -149,8 +149,6 @@ This week highlighting The Invisible Hand.
   </div>
 </div>
 
-
-
 ## Looking Forward
 
 Next week's free game lineup is already looking good. Epic Games is giving away <a href="https://store.epicgames.com/en-US/p/bloons-td-6-bf95a0" target="_blank" rel="noopener">Bloons TD 6</a> again, and Amazon Luna (Prime Gaming) has three GOG titles: <a href="https://www.gog.com/en/game/deathkeep" target="_blank" rel="noopener">DeathKeep</a>, <a href="https://www.gog.com/en/game/gunslugs_3_rogue_tactics" target="_blank" rel="noopener">Gunslugs: Rogue Tactics</a>, and <a href="https://www.gog.com/en/game/brigador" target="_blank" rel="noopener">Brigador: Up-Armored Edition</a>. We'll get those tested and included in next week's post.
@@ -161,14 +159,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Ngā mihi o te Tau Hou (Happy New Year),<br>
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

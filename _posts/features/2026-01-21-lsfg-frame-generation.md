@@ -12,6 +12,7 @@ header:
   teaser: /assets/images/lsfg-vk/lsfg-blog-card.webp
 read_time: "4 min read"
 toc: true
+cta_disabled: true
 ---
 
 **Big News:** LSFG-VK (Lossless Scaling Frame Generation) is now built into Junk Store! We noticed some folks were running into trouble getting it set up manually, so we figured we'd just build it in and save everyone the hassle. Simple toggles, no launch arguments needed.

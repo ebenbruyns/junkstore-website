@@ -237,14 +237,6 @@ Whether you're a longtime member of our community or just discovering what we do
 **Cheers,**  
 **The Junk Store Team**
 
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
-
 <style>
 .community-btn {
   display: inline-flex;

@@ -15,8 +15,6 @@ toc: true
 
 **This week's testing highlights:** 12 games across Epic, GOG, Amazon, itch.io storefronts — including standout finds like Bloons TD 6 running flawlessly and Cursed to Golf running flawlessly. 11 games work perfectly out of the box!
 
-
-
 G'day Everyone!
 
 This week was spent refining the website and fixing bugs uncovered through testing and community feedback. While testing Samorost 2, I hit an elusive bug that also affects Guild of Dungeoneering — sometimes these games work, sometimes they don't. We think we've narrowed it down though!
@@ -204,8 +202,6 @@ Updated compatibility for Bloons TD 6, Cursed to Golf, Dishonored 2, Ghost of a 
   </div>
 </div>
 
-
-
 <h2 style="text-align: left !important; margin-left: 0;">Looking Forward</h2>
 
 Next week we're looking at some exciting new releases! Prime Gaming is featuring **Mystical Riddles: Ghostly Park Collector's Edition** (Legacy Games Code) and **Pixel Cafe** (Amazon Games App), while Epic Games has **Eastern Exorcist** and **Jorel's Brother and the Most Important Game of the Galaxy**. Should be a fun mix of mystery, café management, and action-adventure to test!
@@ -216,14 +212,6 @@ We hope you're having a wonderful time wherever you are in the world, and as alw
 
 Cheers,  
 The Junk Store Team
-
-<div class="inline-blog-cta">
-  <p><strong>Ready for an all-in-one launcher?</strong></p>
-  <a href="/portal-redirect/" class="inline-blog-cta-button">
-    🚀 Try Junk Store Pro Free for 7 Days
-  </a>
-  <p class="inline-cta-subtext">Stop juggling multiple tools — upgrade to the all-in-one solution</p>
-</div>
 
 ---
 

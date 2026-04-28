@@ -10,6 +10,7 @@ image: /assets/images/blog/news/last-day-trial-hero.jpg
 header:
   teaser: /assets/images/blog/news/last-day-trial-hero-thumb.jpg
 read_time: "1 min read"
+cta_disabled: true
 ---
 
 <div class="notice--warning">
