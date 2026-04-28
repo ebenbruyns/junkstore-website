@@ -45,13 +45,13 @@ layout: null
   {
     "@context": "https://schema.org",
     "@type": "VideoGame",
-    "name": "{{ page.game_title }}",
-    "description": "{{ content | strip_html | truncate: 200 | escape }}",
-    {% if page.cover_image %}"image": "{{ page.cover_image }}",{% endif %}
-    {% if page.genre %}"genre": "{{ page.genre }}",{% endif %}
-    {% if page.publisher %}"publisher": { "@type": "Organization", "name": "{{ page.publisher }}" },{% endif %}
-    {% if page.developer %}"author": { "@type": "Organization", "name": "{{ page.developer }}" },{% endif %}
-    {% if page.release_date and page.release_date != "" and page.release_date != "Invalid Date" %}"datePublished": "{{ page.release_date | date: '%Y-%m-%d' }}",{% endif %}
+    "name": {{ page.game_title | jsonify }},
+    "description": {{ content | strip_html | strip_newlines | truncate: 200 | jsonify }},
+    {% if page.cover_image %}"image": {{ page.cover_image | jsonify }},{% endif %}
+    {% if page.genre %}"genre": {{ page.genre | jsonify }},{% endif %}
+    {% if page.publisher %}"publisher": { "@type": "Organization", "name": {{ page.publisher | jsonify }} },{% endif %}
+    {% if page.developer %}"author": { "@type": "Organization", "name": {{ page.developer | jsonify }} },{% endif %}
+    {% if page.release_date and page.release_date != "" and page.release_date != "Invalid Date" %}"datePublished": {{ page.release_date | date: '%Y-%m-%d' | jsonify }},{% endif %}
     "gamePlatform": ["PC", "Steam Deck"],
     "applicationCategory": "Game"
   }
@@ -63,10 +63,10 @@ layout: null
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ '/' | absolute_url }}" },
-      { "@type": "ListItem", "position": 2, "name": "Games", "item": "{{ '/games/' | absolute_url }}" },
-      { "@type": "ListItem", "position": 3, "name": "{{ page.storefront }}", "item": "{{ '/games/tested/' | absolute_url }}?store={{ page.storefront }}" },
-      { "@type": "ListItem", "position": 4, "name": "{{ page.game_title | escape }}", "item": "{{ page.url | absolute_url }}" }
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ '/' | absolute_url | jsonify }} },
+      { "@type": "ListItem", "position": 2, "name": "Games", "item": {{ '/games/' | absolute_url | jsonify }} },
+      { "@type": "ListItem", "position": 3, "name": {{ page.storefront | jsonify }}, "item": {{ '/games/tested/' | absolute_url | append: '?store=' | append: page.storefront | jsonify }} },
+      { "@type": "ListItem", "position": 4, "name": {{ page.game_title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
     ]
   }
   </script>
