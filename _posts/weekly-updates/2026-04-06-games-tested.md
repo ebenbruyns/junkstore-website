@@ -27,14 +27,14 @@ Down under we're officially heading out of summer and into winter. Daylight savi
 We're a bit bummed about daylight savings, we had so many jobs we needed to do on the boat over summer but never got the right weather or enough free time. Fingers crossed things can hang in there over winter or until we get some free time to work on them.
 
 <div class="update-callout">
-<strong>🚀 Junk Store Pro 3.0 is here!</strong> In case you missed the <a href="/blog/junk-store-3-0-release/" target="_blank" rel="noopener">announcement</a>, we've added heaps of new goodies: built-in SteamGridDB, a File Manager, Disk Analyser, and Process Manager. Check out the <a href="https://youtu.be/DI-5Wdvu7Kw" target="_blank" rel="noopener">YouTube video</a> for a full rundown. If you've got a license, update now. If you haven't tried it yet, give it a go with our 7 day free trial. Features like these aren't available anywhere else, and yes they all run right in Game Mode.
+<strong>🚀 Junk Store Pro 3.0 is here!</strong> In case you missed the <a href="/blog/junk-store-3-release/" target="_blank" rel="noopener">announcement</a>, we've added heaps of new goodies: built-in SteamGridDB, a File Manager, Disk Analyser, and Process Manager. Check out the <a href="https://youtu.be/DI-5Wdvu7Kw" target="_blank" rel="noopener">YouTube video</a> for a full rundown. If you've got a license, update now. If you haven't tried it yet, give it a go with our 7 day free trial. Features like these aren't available anywhere else, and yes they all run right in Game Mode.
 </div>
 
 ## Housekeeping Notes
 
 A few quick updates before we dive into the games:
 
-* **Junk Store Pro 3.0 Released:** The big update is here! Highlights include built-in SteamGridDB support, a File Manager, Disk Analyser, and Process Manager. <a href="/blog/junk-store-3-0-release/" target="_blank" rel="noopener">Read the full announcement →</a>
+* **Junk Store Pro 3.0 Released:** The big update is here! Highlights include built-in SteamGridDB support, a File Manager, Disk Analyser, and Process Manager. <a href="/blog/junk-store-3-release/" target="_blank" rel="noopener">Read the full announcement →</a>
 * **Decky Loader Conflict Resolved:** The conflict has been resolved in version 3.0. You can now download from Stable without issue.
 * **GOG Extension:** Exclusively available through the <a href="/portal-redirect/" target="_blank" rel="noopener">Junk Store Portal</a>.
 
