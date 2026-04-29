@@ -11,6 +11,15 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
 
 {% include video-demo-player.html %}
 
+<a href="/status/" class="homepage-uptime-badge" id="homepage-uptime" style="display: none;">
+  <span class="homepage-uptime__icon">🛡️</span>
+  <span class="homepage-uptime__text">
+    <strong>Junk Store Pro: <span id="homepage-uptime-days">--</span> days stable</strong>
+    <span class="homepage-uptime__sub">on Steam Deck — through every recent SteamOS update</span>
+  </span>
+  <span class="homepage-uptime__cta">Live status &rarr;</span>
+</a>
+
 <section class="what-is-junkstore">
   <h2>One Launcher. All Your Games</h2>
   <p class="explainer-lead">Junk Store is your all-in-one launcher platform for non-Steam games on Steam Deck. Instead of juggling multiple launchers or switching to Desktop Mode, Junk Store brings all your game libraries into Steam's Game Mode interface.</p>

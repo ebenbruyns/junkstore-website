@@ -10,6 +10,23 @@
     return;
   }
 
+  // Render a note's text. HTML-escape everything first (XSS defense — note
+  // authors are Firebase-authed admins but defense-in-depth costs nothing),
+  // then convert `[text](https://...)` markdown links into <a> tags.
+  function renderNoteText(raw) {
+    if (!raw) return '';
+    const escaped = String(raw)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+    return escaped.replace(
+      /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,
+      (_, text, url) => `<a href="${url}" target="_blank" rel="noopener noreferrer">${text}</a>`
+    );
+  }
+
   try {
     // Fetch from Cloudflare Worker cache instead of direct Firebase
     const data = await window.fetchCachedDocument('metadata/uptime');
@@ -47,6 +64,14 @@
       if (milestones.includes(diffDays) || diffDays >= 100) {
         tracker.classList.add('uptime-milestone');
       }
+    }
+
+    // Update homepage badge if present
+    const homepageBadge = document.getElementById('homepage-uptime');
+    const homepageDays = document.getElementById('homepage-uptime-days');
+    if (homepageBadge && homepageDays) {
+      homepageDays.textContent = diffDays;
+      homepageBadge.style.display = '';
     }
 
     // Update status page elements if present
@@ -105,7 +130,7 @@
             row.innerHTML = `
               <td>${noteDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'short', day: 'numeric' })}</td>
               <td>${typeBadge}</td>
-              <td>${note.text}</td>
+              <td>${renderNoteText(note.text)}</td>
             `;
             tbody.appendChild(row);
           });
@@ -120,7 +145,7 @@
             row.innerHTML = `
               <td>${noteDate.toLocaleDateString('en-NZ', { year: 'numeric', month: 'short', day: 'numeric' })}</td>
               <td>${typeBadge}</td>
-              <td>${note.text}</td>
+              <td>${renderNoteText(note.text)}</td>
             `;
             tbody.appendChild(row);
           });
