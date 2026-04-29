@@ -16,32 +16,6 @@
   }
 }
 
-.featured-games-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-}
-
-.featured-game-card {
-  background-color: #253445;
-  padding: 0.75rem 1rem;
-  border-radius: 6px;
-  border: 1px solid #444;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-
-  .game-title {
-    color: $junkstore-primary;
-    text-decoration: none;
-    font-weight: 600;
-    
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
 .storefront-tag {
   font-size: 0.85rem;
   padding: 0.2rem 0.6rem;
@@ -386,11 +360,6 @@
   .protondb-cell::before { content: "ProtonDB: "; }
   .notes-cell::before { content: "Notes: "; }
   .date-cell::before { content: "Tested: "; }
-
-  .featured-games-grid {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
 
   .scroll-to-top-btn {
     bottom: 1rem;
