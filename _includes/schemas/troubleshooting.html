@@ -1,208 +1,23 @@
+{%- comment -%}
+Troubleshooting JSON-LD as FAQPage (Google's only FAQ-style schema —
+there's no "TroubleshootingPage" type). Generated from
+_data/troubleshooting.json so schema and visible HTML match 1:1.
+{%- endcomment -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
+    {%- for item in site.data.troubleshooting -%}
     {
       "@type": "Question",
-      "name": "Junk Store Pro installation fails",
+      "name": {{ item.title | strip_newlines | jsonify }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Junk Store Pro: What to do: Wait for completion: Let the installation dialog run until it specifically shows \"Installation Complete\" Don't click OK early: The OK button appears before installation finishes - ignore it until completion message shows If you clicked too early: Re-run the installer and wait for the complete message this time This is the #1 cause of installation issues - incomplete installations due to clicking OK too early. CRITICAL: When installing Junk Store Pro, you MUST wait until the dialogue box says \"Installation Complete\" before clicking OK. Clicking the OK button too early cancels the installation process."
+        "text": {{ item.solution | strip_html | strip_newlines | jsonify }}
       }
-    },
-    {
-      "@type": "Question",
-      "name": "Downloaded executables won't run on Steam Deck",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both Versions: Executable files don't run when double-clicked, or open in text editor instead. Quick fixes: File permissions: Right-click \u2192 Properties \u2192 Permissions \u2192 Enable \"Is executable\" Theme interference: Custom icons/themes can break dialogs - switch to default temporarily Console execution: Right-click \u2192 \"Run in Konsole\" for error details Most common cause: Custom icon themes interfering with system dialogs (zenity)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "I don't have any extensions\u2014what do I do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Junk Store Pro: If you don't see any extensions, you'll need to generate them. Currently, Junk Store supports extensions for Epic , GOG , Amazon , and itch (beta) . To generate extensions: Open Junk Store by pushing Select button above the D-pad. Make sure you're logged in to your Junk Store account. Scroll down to the Tools section. Open the sliders menu (\u2630) next to the search bar and select Download All Presets from Server . Then, go to each extension you want (Epic, GOG, Amazon, itch (beta)) and press the Download button (\ud83d\udce5) for each one. Once downloaded, the extensions will appear as tabs in Junk Store. \ud83d\udcd6 Need detailed installation steps? Check our Installation Tutorial for complete setup instructions."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Junk Store isn't working or showing errors after installation?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Junk Store Pro: This might be caused by a couple of common issues: Outdated Decky version Outdated versions can cause compatibility errors, such as: An error occurred while rendering this content Error reference: shared SteamUI_9871360_fede34d936775239 Try updating Decky and see if the issue is resolved. If you're still having trouble, feel free to reach out on our Discord server . You're using the Steam Beta branch Breakages can happen on Steam Beta due to ongoing codebase changes. We do our best to patch any issues quickly. For the most stable experience, we recommend using the Stable version of Steam. The Beta branch often includes bugs or breaking changes. If you do choose to stay on Steam Beta , we also recommend using the Beta version of Junk Store for better compatibility."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "My game won't launch or crashes immediately. What should I do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both Versions: Games may fail to launch for various reasons. Let's go through a step-by-step checklist to identify and fix the issue. After each step, try launching the game; this helps identify exactly what fixed the problem. Check offline mode settings Games or storefronts set to offline mode can sometimes prevent launching. Check global settings: Go to the storefront tab (Epic/GOG/Amazon/itch) > \u2699\ufe0f Cog Icon and make sure Offline Mode is toggled off Check per-game settings ( Junk Store Pro only): Go to Junk Store > [Your Game] > Press Y > \u2699\ufe0f Cog Icon > Game Configs and check if Offline Mode is enabled for that specific game If you change any settings, make sure to Press X to Save Install any missing game dependencies Missing or broken dependencies can cause launch issues. You may get prompted to install things like Microsoft C++ runtimes when first launching. Easily install any missing dependencies via our built-in dependency installer Update, Verify or repair the game files Corrupted or incomplete installs can be fixed with these tools. Sometimes updates or patches will cause games to no longer launch that used to work. To update game files: Junk Store > [Your Game] > \u2630 Sliders Menu > Update Game To verify game files: Junk Store > [Your Game] > \u2630 Sliders Menu > Verify Game To repair game files: Junk Store > [Your Game] > \u2630 Sliders Menu > Repair Game Change to a GE-Proton version Some games require a more compatible version of Proton. Go to: Junk Store > [Your Game] > Press Y > \u2699\ufe0f Cog Icon > Compatibility Select a GE-Proton version Enable the EOS Overlay (Epic games only) Some Epic games require the Epic Online Services (EOS) overlay to launch properly. Go to: Junk Store > [Your Game] > \u2630 Sliders Menu > Enable EOS Overlay Still not working? Check compatibility resources: First check our Games Tested table to see if your game has been tested with compatibility notes and workarounds. If not found there, visit ProtonDB.com for community tips. You may find game-specific tweaks, compatibility reports, or Proton version recommendations that solve your issue."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Having issues bringing up the keyboard in Game Mode?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both Versions: If the Steam + X shortcut isn't bringing up the keyboard try the following: Try to bring up the keyboard \u2328\ufe0f from the Quick Access Menu ( \u22ef ). Tap directly on a text field (like a password box) to prompt the keyboard. Try toggling to Desktop Mode and back to Game Mode to reset input services. Restart Steam or the device if the issue persists. This is a known Steam bug that has been around for a while. These steps usually help work around it until Valve fixes it in a future update."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "My games aren't showing up in my library. What should I check?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both Versions: If your games aren't appearing in one of the store tabs, try the following checks to resolve it: Check \"Show Installed\" filter: Check the bottom-right of the store tab (Epic/GOG/Amazon/itch (beta)) If Show Installed is enabled, only games already installed will be visible Disable this to see your full game library Check the search bar: Make sure you haven't accidentally typed something into the search bar that's filtering your games Clear the text field to show all titles Check your login account: You might be logged into a different Epic/GOG/Amazon/itch (beta) account Log out and back in with the correct account linked to your game library Refresh the game list: Go to the Epic/GOG/Amazon/itch (beta) tab and select the sliders menu to manually refresh the game list This can help pull in any missing titles, especially after login or token changes Reboot your Steam Deck: Sometimes a restart is all it takes to reload everything properly Force Refresh: Run the following in Konsole to refresh: flatpak run com.github.derrod.legendary list --force-refresh If missing games still don't appear, they may require a third-party launcher and are currently unsupported."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Installing games to SD card causes a Permissions Error?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Junk Store Pro: If you're getting permissions errors when trying to install games to your SD card, you need to properly configure your install location in Junk Store Pro. How to fix: Follow the steps in our FAQ for How to manage game storage and SD card downloads Make sure to set the dropdown at the top to All When setting your install location, select Specify your own path Put the path to your SD card in the Custom Install Path field Press X to save your changes This ensures Junk Store has the correct permissions to write to your SD card location. Decky Plugin: Possible causes: Your SD card may not be formatted correctly. Old dependencies \u2014 revisit About > Dependencies and reinstall them. SD card naming: If you've renamed your SD card, it may not be in the path Junk Store expects ( /run/media/mmcblk0p1 ). See solution below. Bazzite users: If you are getting this error you need to edit the settings.sh file to match your setup. The file you need to edit is here: ~/homebrew/plugins/Junk-Store/scripts/Extensions/Epic/settings.sh Look for the line: INSTALL_DIR=\"/run/media/mmcblk0p1/Games/epic/\" That's the fallback path Junk Store expects. If your SD card has a different name or path, update this line to match your actual SD card location."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "My game shows a rainbow screen (TV test), black screen, or fails to launch. What should I do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both Versions: These issues are common with non-Steam games and are often related to Proton compatibility. Junk Store defaults to the system version of Proton, but this doesn't always work well for all games. Try using a GE-Proton version: GE-Proton tends to be more compatible with non-Steam games and often fixes these launch issues. To change Proton version: Junk Store > [Your Game] > Press Y > \u2699\ufe0f Cog Icon > Compatibility Select a GE-Proton version from the list Where to get GE-Proton versions: Wine Cellar (Decky Plugin) ProtonUp-QT from the Discover Store on your Steam Deck Need more tweaks? Or still having issues? If you're still stuck, feel free to reach out on our Discord or Reddit community for help with your specific game. Check ProtonDB.com for community-recommended tweaks or launch options that may be needed to get your specific game working."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "My game gets stuck at the Steam pre-launch screen. What should I do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Junk Store Pro: This issue might be caused by another plugin\u2014such as decky-cloud-save or syncthing \u2014locking Junk Store's files. Make sure nothing is interfering with the following folder: ~/.config/junkstore and ~/.local/share/junkstore Junk Store relies on this data directory to function correctly, so if another tool is syncing or locking files in that path, it can prevent games from launching. Decky Plugin: This might be caused by another plugin (like decky-cloud-save ) locking Junk Store's files. Make sure nothing is interfering with this folder: /home/deck/homebrew/data/Junk Store Junk Store relies on that data directory to function correctly."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "I installed a game on the new version and can't see it in the Decky one?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Junk Store Pro: The new version of Junk Store uses a different system, so games installed there won't show up in the older Decky version \u2014 and can't be moved over. If you're switching back to the Decky version: Back up any save files manually otherwise they will be deleted. Uninstall the game from the new version (to free up space). Reinstall the game from within the Decky version of Junk Store. Restore your game save manually. Tip: Do this before your trial ends \u2014 otherwise, you may lose access and the games will still occupy storage."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Dependencies aren't installing - how do I fix this?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Decky Plugin: After installing Junk Store you're seeing errors and dependencies aren't installing. If this happens try running the following commands in Konsole: Command sequence: export DECKY_PLUGIN_RUNTIME_DIR = ~/homebrew/data/Junk Store export PYTHONPATH = ~/homebrew/plugins/Junk Store/scripts: $PYTHONPATH :~/homebrew/plugins/Junk Store/scripts/shared export DECKY_PLUGIN_DIR = ~/homebrew/plugins/Junk Store export DECKY_PLUGIN_LOG_DIR = ~/homebrew/logs/Junk Store cd ~/homebrew/plugins/Junk Store ./scripts/install_deps.sh \u29c9 function copyCode(button) { const code = button.parentElement.parentElement.querySelector('code').textContent.trim(); navigator.clipboard.writeText(code).then(() => { button.innerHTML = ' \u2713 Copied '; setTimeout(() => { button.innerHTML = ` `; }, 2000); }); } What this does: Sets up the correct environment and runs the dependency installer manually."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "When I launch a game, Steam tries to download something but it gets stuck at 0%",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Decky Plugin: This is a known Steam issue, often related to Proton 9. We recommend switching to a GE-Proton version instead, as these are better suited for running non-Steam games. Open the game's properties in Steam and select a different Proton version from the Compatibility tab to resolve the issue."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "After downloading, game shortcuts aren't showing up in the Non-Steam tab.",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both Versions: Try rebooting your device and check if show up after a restart. Check your settings and make sure the shortcut isn't hidden. After changing settings, reboot your Steam Deck for changes to take effect. If they still don't appear, ask for help in the #plugin-support channel on Discord ."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "I am experiencing issues trying to log in to my Epic Games account. What should I do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both Versions: Legendary sometimes has trouble logging in, especially with alternative authentication methods. Try these solutions: Method 1 - Big Picture Mode Login: This is common if you are trying to login using an OAuth or Third Party method (e.g. google, Steam, etc). Switch to Desktop Mode Launch Steam in Big Picture mode Try logging in there Once successful, return to Gaming Mode Method 2 - \"Unable to complete login\" error: If you get this error, use the command-line workaround: Switch to Desktop Mode and open Konsole Run: flatpak run com.github.derrod.legendary auth --disable-webview It will launch a browser for you to log in Copy the provided code and paste it back into Konsole If you are still having issues logging in please reach out to us via Discord or reddit so we can help to get you up and running. Note: If you've changed your password and are having issues logging in, simply reboot your Steam Deck."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Legendary ERROR pop-up when signing in?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Decky Plugin: If you see \"Legendary status produced no output,\" your credentials may be corrupted. In Desktop Mode, open Konsole and run: /bin/flatpak run com.github.derrod.legendary auth --delete Then re-authenticate with: /bin/flatpak run com.github.derrod.legendary auth"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can't verify captcha \u2014 mouse won't reach button?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Decky Plugin: Try the following: Use a keyboard and press Tab to cycle to the Verify button. In Game Mode, change the resolution to 3840x2160 via: Epic Games Login > Properties > Shortcut > Game Resolution. Or run in Konsole: flatpak run com.github.derrod.legendary auth --disable-webview"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Games won't load \u2014 Microsoft Visual C++ error?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Decky Plugin: If prompted to install Microsoft Visual C++ Runtime: Download the X64 redistributable from Microsoft Learn . Copy the file to the game's install folder: ~/Games/epic/[game title] In Junk Store, go to the game's slider menu \u2192 Run EXE in Game Folder Select VC_redist.x64.exe and complete the install. This should allow the game to run."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Game won't download \u2014 CRITICAL error?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both Versions: If you get the following error while trying to download a game: CRITICAL: installation cannot proceed, exiting It likely means your storage is full. Free up space or install to another location."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "I can't get GOG to run in Junk Store. What do I do?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Decky Plugin: Make sure you're using the latest version of Junk Store from the Decky Testing Store . You'll also need to reinstall dependencies by going to the About section and clicking \"Install Dependencies.\" Once you've purchased the GOG extension, please follow the GOG Extension Install Guide to install the extension and link it to your Junk Store plugin."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Game launches but controller doesn't work?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both Versions: Try the following: Restart your Steam Deck this can resolve odd controller issues. Check your Steam Input settings they may be interfering. Open and close the Quick Access menu this can \"wake\" controller detection. Change the Proton version ProtonGE is often more compatible. If none of these work, further research may be needed. Note that we can't test every game."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the backend scripts, and do I need them?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Decky Plugin: These are optional example scripts mainly for DOSBox games. They are not officially supported and may stop working if Junk Store is updated. Use them only if you know how they work."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I uninstall the backend scripts for DOS and Win 3.1?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Decky Plugin: You can delete them manually from: ~/homebrew/data/Junk Store/scripts/Extensions"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Game stuck on EAC/BattlEye screen or getting kicked due to anti-cheat",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Both Versions: If your game launches but stops at an anti-cheat loading screen, or loads but immediately kicks you out with an anti-cheat error, the anti-cheat dependencies likely aren't installed or enabled. Solution: Install the required anti-cheat dependency via About > System (look for \"Install Proton Easy Anti Cheat\" or \"Install Proton BattlEye Runtime\") Open the game's Settings (cog icon) \u2192 Proton config Set dropdown to All to see advanced options Toggle on EAC Runtime or BattlEye Runtime as needed Press X to save Tip: If the game is still not working try the following tips. Try using GE-Proton instead of standard Proton For Epic games, also enable the EOS overlay Install dependencies to the internal SSD (external drives/microSD can cause issues) Check ProtonDB or tested games list - some anti-cheat systems don't support Linux at all (e.g., Fortnite)"
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why can I only see games A-L in my Epic/GOG library?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Decky Plugin: This is normal behavior for the Decky plugin. The free Decky version only loads your first 100 games by default for performance optimization. To see your full library: Open your Epic or GOG library in Junk Store Navigate to any game in the list (move out of the search field) Look for the bottom menu with \"SHOW ALL\" button Press the Y button on your Steam Deck Wait a moment for your complete library to load Can't see the \"SHOW ALL\" button? Your CSS Loader theme might be hiding the bottom menu Try temporarily disabling your CSS theme to access the button You can still search for specific games by name Note: Each store (Epic, GOG, Amazon) needs \"SHOW ALL\" pressed separately. Refer: Tip of the Week: Missing the 'Press Y to Show All Prompt"
-      }
-    }
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
   ]
 }
 </script>

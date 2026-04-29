@@ -1,6 +1,88 @@
 /* ==================== HELP PAGE STYLES ==================== */
 /* Extracted from help.md - March 2026 */
 
+/* ========== HUB-PAGE GRID (4 sub-page cards) ========== */
+.help-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0 2.5rem 0;
+}
+
+.help-hub-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.25rem;
+  background: $junkstore-bg-card;
+  border: 1px solid $junkstore-border;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    border-color: $junkstore-primary;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+  }
+}
+
+.help-hub-card__title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.4rem;
+  color: $junkstore-primary;
+}
+
+// Need to outrank the global rule
+//   .js-page__content p, .initial-content p { text-align: justify }
+// (specificity 0,1,1, declared in two places). Use the parent class
+// here to get specificity 0,2,1 so left alignment sticks.
+.help-hub-card .help-hub-card__desc {
+  margin: 0 0 1rem 0;
+  color: $junkstore-gray-text;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.help-hub-card__count {
+  font-size: 0.85rem;
+  color: $junkstore-accent;
+  font-weight: 600;
+}
+
+/* ========== PERMALINK BUTTON (chain icon on each Q&A summary) ==========
+   Restored from the old inline <style> block in help.md so the button
+   shows as a faded icon rather than a default white-bg <button>. */
+.faq-item-compact summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.permalink-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.4;
+  font-size: 0.85em;
+  padding: 2px 6px;
+  margin-left: auto;
+  flex-shrink: 0;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.permalink-btn:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.permalink-btn.copied {
+  opacity: 1;
+  color: #198754;
+}
+
 /* ========== COMPACT HEADER ========== */
 .help-header-compact {
   max-width: 800px;

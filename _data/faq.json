@@ -1,0 +1,287 @@
+[
+  {
+    "id": "d9e68253-752c-4958-81a6-261fd2104bf2",
+    "originalId": "anti-cheat-games",
+    "product": "both",
+    "category": "Game Compatibility",
+    "order": 0,
+    "question": "What about games with anti-cheat systems (including Fortnite)?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n<strong>General Anti-Cheat Compatibility:</strong> Most games with BattlEye and Easy Anti-Cheat (EAC) that work on Steam Deck should also work through Junk Store, since they use the same Proton compatibility layer.\n  <br>\n  <br>\n    <strong>Fortnite Specifically:</strong>\n  <ul>\n    <li><strong>Does not work</strong> - Epic Games does not support Fortnite on Linux due to anti-cheat policy</li>\n    <li>This is Epic's decision, not a Junk Store limitation</li>\n    <li><strong>Alternatives:</strong> Dual-boot Windows or use cloud gaming services</li>\n    <li>More info: <a href=\"https://www.theverge.com/2022/2/8/22923163/fortnite-steam-deck-update-epic-tim-sweeney\" target=\"_blank\" rel=\"noopener\">The Verge article</a></li>\n  </ul>\n    <strong>Best Practice:</strong> Check <a href=\"https://www.protondb.com\" target=\"_blank\" rel=\"noopener\">ProtonDB</a> for compatibility reports specific to your anti-cheat games before installing.\n  <br>\n  <br>\n    <strong>Check our testing:</strong> Visit our <a href=\"/tested-games/\">Games Tested table</a> to see which anti-cheat games have been tested and their compatibility status.\n</div>"
+  },
+  {
+    "id": "d3879ed4-8dfc-45e6-affe-7f32cb29c702",
+    "originalId": "third-party-launchers",
+    "product": "both",
+    "category": "Game Compatibility",
+    "order": 1,
+    "question": "Do games requiring third-party launchers (EA, Ubisoft, etc.) work with Junk Store?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n<strong>EA Games:</strong>\n    <ul>\n      <li><strong>Not supported</strong> - Require EA Launcher/Origin integration</li>\n      <li>EA titles will not appear in your Epic Games library through Junk Store</li>\n    </ul>\n    <strong>Ubisoft Games:</strong>\n    <ul>\n      <li><strong>Mixed support</strong> - Some appear in Epic library, others don't</li>\n      <li>Ubisoft Connect launcher not officially supported</li>\n      <li>Some users have manually installed Ubisoft Connect and run select games</li>\n    </ul>\n    <strong>Other affected games:</strong>\n    <ul>\n      <li>Games with custom launchers or activation systems</li>\n      <li>Titles requiring additional DRM verification</li>\n      <li>Games that need launcher-specific features</li>\n    </ul>\n    <strong>Workarounds:</strong> Advanced users can attempt manual setup via CLI or modify extension scripts, but this requires technical knowledge and isn't officially supported.\n  <br>\n  <br>\n    <strong>Check specific games:</strong> Visit our <a href=\"/tested-games/\">Games Tested table</a> to see compatibility status and any workarounds for specific titles.\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Tip:</strong> For Ubisoft games that appear in your Epic library we have written a guide on how to install them here <a href=\"/tutorials/ubisoft-games\">How to Play Ubisoft Games from Epic Games Store in Junk Store</a>\n</div>\n</div>"
+  },
+  {
+    "id": "cd7d24e2-d534-4d20-8e1c-35daac2ede97",
+    "product": "pro",
+    "category": "Game Compatibility",
+    "order": 2,
+    "question": "Does Junk Store Pro support Dos, ScummVM or native Linux games?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong><br><br>\n<strong>Dos, ScummVM and Native Linux Games:</strong><br>\n<strong>Yes.</strong> In Junk Store Pro, <strong>DOS</strong>, <strong>ScummVM</strong> and <strong>native Linux</strong> games downloaded via GOG are supported.<br><br>\nDOS and ScummVM games will automatically launch using the <strong>Flatpak versions</strong> of <code>DosBox</code> and <code>ScummVM</code> once installed.<br><br>\n<strong style=\"color: #d4a84b;\">Note:</strong> This is for our rebuilt GOG extension. You will need to toggle <strong>'Use Legacy Clients' off</strong> for GOG in order to have DOS, ScummVM or native Linux game support.\n</div>\n"
+  },
+  {
+    "id": "2053e392-440d-43c8-b177-53ab7a4d0623",
+    "originalId": "how-to-access-itch-io-beta",
+    "product": "pro",
+    "category": "Game Compatibility",
+    "order": 3,
+    "question": "How do I access the itch.io extension (beta)?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nTo access the itch.io extension currently in beta testing:\n  <ol>\n    <li>Change both your <strong>Build Channel</strong> and <strong>Extension Channel</strong> to <strong>Beta</strong></li>\n    <li>Press <strong>Select button</strong> → <strong>About</strong> → <strong>System</strong> to access channel settings</li>\n    <li>Check for updates in Junk Store</li>\n    <li>Open the <strong>hamburger menu</strong> (☰) and select <strong>Extension Generator</strong></li>\n    <li><strong>Download the itch.io extension</strong></li>\n    <li> Click the 📥 <strong>Install</strong> button</li>\n    <li> You should now see the <strong>itch.io tab</strong> in Junk Store - log into your account and start downloading games!</li>\n  </ol>\n    <strong>Important:</strong> Both channels must be set to Beta to access itch.io support. This ensures you have the latest core features and the beta extension system.\n  <br>\n  <br>\n    <strong>Beta Status:</strong> itch.io support is actively being tested. Report any issues on our <a href=\"https://github.com/SDK-Innovation/JunkStoreBugs/issues\" target=\"_blank\">GitHub Issues page</a>.\n</div>"
+  },
+  {
+    "id": "71cc88fc-de71-4d19-9031-172218dd6e65",
+    "originalId": "cheatdeck-compatibility",
+    "product": "both",
+    "category": "Game Compatibility",
+    "order": 4,
+    "question": "Does CheatDeck work with Junk Store?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong>\n<strong>Not reliably.</strong> Epic Games launch options are very sensitive, and tools like CheatDeck often conflict with Junk Store's custom launch configuration. We've spent many hours fine-tuning this setup (over 100 in the Decky plugin alone), so use CheatDeck at your own risk.\n<br>\n<br>\n  That said, our extension scripts are user accessible and can be modified.\n</div>\n\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #0d6efd; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin note:</strong> Decky scripts are open and easier to modify than the plugin core. If you want to experiment and send a working pull request, we're happy to review it!\n</div>"
+  },
+  {
+    "id": "934d4b43-ce2a-448e-ba5d-8380b660c9c2",
+    "originalId": "use-with-existing-games",
+    "product": "both",
+    "category": "Game Compatibility",
+    "order": 5,
+    "question": "Can I use Junk Store with games I already installed using other third-party solutions?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n<strong>No.</strong> Junk Store manages its own installations and environment. Games installed through other launchers are not recognized or managed by Junk Store.\n<br><br>\nIf you want to use Junk Store to manage a game, you'll need to install it again through Junk Store directly.\n</div>"
+  },
+  {
+    "id": "d272b311-3dda-4645-ac68-c13d8c993c86",
+    "originalId": "install-decky-plugin",
+    "product": "version-specific",
+    "category": "Getting Started",
+    "order": 0,
+    "contentType": "faq",
+    "question": "How do I install Junk Store?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong> To install Junk Store Pro follow these simple steps.<br><br>\n<strong>1. Go to Desktop Mode</strong><br>\n<strong>2. Log into the portal</strong></li>\n    <ol>\n    <li>Go to the <a href=\"https://portal.junkstore.xyz\" target=\"_blank\" rel=\"noopener\">portal</a> and log in with your account credentials.</li>\n    <li>If you can't remember your password, use the reset option on the login page.</li>\n    </ol>\n<strong>3. Download and install Junk Store Pro</strong></li>\n    <ol>\n        <li>Download the latest <code>js_pro</code> build from the portal</li>\n        <li>Open Dolphin → Downloads → Right-click the file → Properties → Permissions</li>\n        <li>Mark it as executable and click <strong>OK</strong>, then double-click to install</li>\n    </ol>\n\n    <div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 15px; margin: 10px 0; border-radius: 0 6px 6px 0;\">\n      <strong style=\"color: #d4a84b; font-size: 1.1em;\">⚠️ CRITICAL:</strong> When installing Junk Store Pro, you <strong>MUST wait until the dialogue box says \"Installation Complete\"</strong> before clicking OK. <strong>Clicking the OK button too early cancels the installation process.</strong>\n    </div>\n    \n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Note:</strong> For full install and set up instructions please refer to our <a href=\"/tutorials/install-junk-store-2\">How to Install Junk Store Pro</a>\n</div>\n\n</div>\n\n<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nThe Junk Store Decky plugin requires <strong>Decky Loader</strong> to be installed first on your Steam Deck.\n  <br>\n  <ol>\n    <li>Install Decky Loader by following the <a href=\"https://wiki.deckbrew.xyz/en/user-guide/home\" target=\"_blank\" rel=\"noopener\">official Decky installation guide</a></li>\n    <li>Once Decky is installed, access the Decky Plugin Store from your Quick Access Menu</li>\n    <li>Search for \"Junk Store\" and install the plugin</li>\n    <li>The plugin will appear in your Decky menu after installation</li>\n  </ol>\n    For detailed instructions, refer to our <a href=\"/tutorials/install-decky-plugin\">Junk Store Decky Plugin Install Guide</a>.\n</div>"
+  },
+  {
+    "id": "a8571e4f-2c62-4c93-b713-4bcf1180e7af",
+    "originalId": "access-junk-store",
+    "product": "version-specific",
+    "category": "Getting Started",
+    "order": 1,
+    "contentType": "faq",
+    "question": "How do I access Junk Store after installation?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nAfter installing Junk Store Pro, access it by:\n<ul>\n<li>Pressing the <strong>Select</strong> button (above the D-pad) on your Steam Deck</li>\n<li>Or by pressing <strong>Ctrl+3</strong> if using a PC</li>\n</ul>\nThis opens Junk Store directly in Game Mode, giving you immediate access to your Epic, GOG, Amazon & itch game libraries. No need to switch to Desktop Mode or launch separate applications.\n</div>\n\n<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nAfter installing the Decky plugin, access Junk Store through the <strong>Decky Loader menu</strong>:\n  <ol>\n    <li>Press the <strong>three-dot button</strong> (Quick Access Menu) on your Steam Deck</li>\n    <li>Look for the <strong>Decky</strong> icon in the menu</li>\n    <li>Select <strong>Junk Store</strong> from the plugin list</li>\n  </ol>\n    The plugin opens directly in Game Mode without requiring Desktop Mode switching.\n</div>"
+  },
+  {
+    "id": "24cf0d51-60b8-4f18-ab84-a9d3fb09ed69",
+    "originalId": "what-to-do-first",
+    "product": "version-specific",
+    "category": "Getting Started",
+    "order": 3,
+    "question": "What should I do first after accessing Junk Store?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n<ol>\n    <li>Log into Junk Store</li>\n    <li>Generate extensions for the platforms you want to use (Epic, GOG, Amazon, itch.io (beta))</li>\n    <li>Log into your game store accounts when prompted</li>\n    <li>Your existing libraries will automatically sync and appear in Junk Store</li>\n    <li>Start installing games directly from Game Mode</li>\n  </ol>\n    The initial library sync can take a few minutes as Junk Store builds the database for each platform.\n  <br><br>\n    <strong>Try This During Your Trial:</strong>\n    <ul>\n      <li>🎯 Install 2-3 games  to see the automation difference</li>\n      <li>⚡ Compare setup time vs Desktop Mode alternatives you've used</li>\n      <li>🎮 Notice how everything stays in Game Mode without app switching</li>\n    </ul>\n    <strong>Most users know within 2-3 days if the convenience justifies the cost.</strong> The 7-day trial gives plenty of time to test real usage patterns.\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n  <strong style=\"color: #d4a84b;\">📖 Need detailed setup instructions?</strong> Check out our <a href=\"/tutorials/install-junk-store-2\">Installation Tutorial</a>\n</div>\n</div>\n\n<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\n<ol>\n    <li>Open Junk Store from the Decky menu</li>\n    <li>Go to the <strong>Epic</strong> tab and log into your Epic Games account</li>\n    <li>Your Epic Games library will automatically sync and appear</li>\n    <li>(Optional) Download and install the GOG extension if you want GOG game support (paid)</li>\n  </ol>\n    <strong>Note:</strong> The initial library sync can take a few minutes as Junk Store builds the database for your games.\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n  <strong style=\"color: #d4a84b;\">📖 Need detailed setup instructions?</strong> Check out our <a href=\"/tutorials/install-decky-plugin\">Install Junk Store Decky Plugin</a>\n</div>\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; border-radius: 0 6px 6px 0; padding: 15px; margin: 1rem 0;\">\n<strong style=\"color: #d4a84b;\"> For GOG support</strong> You will need to purchase the GOG extension separately from the <a href=\"https://portal.junkstore.xyz/\" target=\"_blank\">Junk Store Portal</a>.\n</div>   \n</div>"
+  },
+  {
+    "id": "7042fc41-e577-4aa9-b919-fb0882063bde",
+    "originalId": "import-games-from-decky",
+    "product": "pro",
+    "category": "Getting Started",
+    "order": 4,
+    "question": "How do I import and play my games from the Decky version in Junk Store Pro?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n<strong>Automatic Import:</strong> This happens automatically when you first install and launch Junk Store Pro. Once you've generated the extensions (Epic and/or GOG), your games will sync across when you open each corresponding tab.\n  <br>\n  <br>\n    <strong>Playing Imported Games:</strong> Yes, your games will work, but you'll need to <strong>Reset Launch Options</strong> for each game (found in the sliders menu on the game page). This only needs to be done once per game to fully migrate it to the new version.\n  <br>\n  <br>\n    <strong>Note:</strong> The initial import process can take some time, as Junk Store is rebuilding the databases for each storefront.\n</div>"
+  },
+  {
+    "id": "dc14b7ae-3b74-4580-a389-ed7fbe91b29e",
+    "originalId": "how-to-update-junk-store",
+    "product": "pro",
+    "category": "Getting Started",
+    "order": 5,
+    "question": "How do I update Junk Store Pro and track new Steam Deck gaming features?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nStay current with the latest Steam Deck non-Steam gaming improvements through our direct update system:\n  <br>\n  <br>\n    <strong>Update Notifications:</strong> Join our <a href=\"https://discord.gg/6mRUhR6Teh\" target=\"_blank\">Discord</a> and follow our <strong>#version-2-updates</strong> channel for immediate update announcements.\n  <br>\n  <br>\n    <strong>Update Channels:</strong>\n  <ul>\n    <li><strong>Stable:</strong> Recommended for most Steam Deck users</li>\n    <li><strong>Test:</strong> Early access to hotfixes and new gaming features</li>\n    <li><strong>Beta:</strong> SteamOS compatibility updates (use if on SteamOS beta)</li>\n  </ul>\n    <strong>Change Channels:</strong> Press <strong>Select</strong> → <strong>About</strong> → <strong>System</strong>. Choose channels for both Junk Store core and Extensions (where new platform support is added).\n</div>"
+  },
+  {
+    "id": "300a3451-7891-4310-9213-4b8f38820e69",
+    "originalId": "bb4e155b-d5a8-4a29-8e6b-527f42010752",
+    "product": "decky",
+    "category": "Getting Started",
+    "order": 6,
+    "question": "How do I update the Legendary Flatpak?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\n<p> </p>\n    Go to <strong>About &gt; Dependencies</strong> in the Junk Store UI and click \"Install Dependencies\" again.\n</div>"
+  },
+  {
+    "id": "c5964f92-0772-4507-874d-0b6127f4f705",
+    "originalId": "find-gog-extension",
+    "product": "decky",
+    "category": "GOG Extension",
+    "order": 0,
+    "contentType": "faq",
+    "question": "Where can I find the GOG extension?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nPurchase access with a one-time payment through the Junk Store Portal:<br><br>\n    \n    <div class=\"purchase-buttons-container\">\n      <a href=\"https://portal.junkstore.xyz/\" target=\"_blank\" class=\"purchase-button portal-button\">\n        <span class=\"button-text\">Junk Store Portal</span>\n        <span class=\"button-subtitle\">Portal-only sales - Instant access!</span>\n      </a>\n    </div>\n\n    <p><strong>Important:</strong> The GOG extension is now exclusively available through the Junk Store Portal. All updates are delivered through the Portal for faster distribution and easier downloads.</p>\n\n    <p><strong>Previous Supporters:</strong> All migrations have been completed. Sign in to the Portal using your original email address to access your extension. <a href=\"https://www.junkstore.xyz/blog/gog-extension-portal-only/\" target=\"_blank\">Read our step-by-step guide</a> for instructions on activating your Portal account.</p>\n    \n    Once you have it, you have it. We can't take away GOG functionality/integration with the Junk Store plugin. All funds go back into the enhancement and development of Junk Store.\n</div>"
+  },
+  {
+    "id": "0698e2ef-a2a8-4f23-bf91-8c4a2bbab935",
+    "originalId": "why-gog-not-free",
+    "product": "decky",
+    "category": "GOG Extension",
+    "order": 1,
+    "question": "Why isn't GOG free to use?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nGOG support is available to paid supporters, and while we'd love to offer it for free, there's a lot of behind-the-scenes work and resources involved in creating and maintaining Junk Store. We appreciate your understanding and support as we continue to improve and expand Junk Store. All funds go back into the enhancement and development of Junk Store.\n</div>"
+  },
+  {
+    "id": "2ef3c170-fb9b-4e7f-942f-43cf54a15ed7",
+    "originalId": "gog-dos-scummvm-support",
+    "product": "decky",
+    "category": "GOG Extension",
+    "order": 2,
+    "question": "Does the GOG extension support DOS, ScummVM and native Linux games?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong><br><br>\n<strong>Dos and ScummVM Games:</strong><br>\n<strong>No.</strong> DOS games and some ScummVM titles are not supported by the GOG extension in the Decky version of Junk Store.<br><br>\n<strong>Native Linux Games:</strong>\nNo — the GOG extension is designed for Windows games running through Proton. Native Linux games from GOG are not currently supported, as Junk Store relies on Proton's compatibility layer for game execution and integration.\n</div>"
+  },
+  {
+    "id": "f0f0fccf-5780-4001-a5e3-59c13f91c2df",
+    "originalId": "gog-extension-refunds",
+    "product": "decky",
+    "category": "GOG Extension",
+    "order": 3,
+    "question": "Can I get a refund for the GOG extension?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\n<strong>All sales are final.</strong> Due to the DRM-free nature of the GOG extension, we are unable to offer refunds. This policy is clearly stated on the Junk Store Portal at the time of purchase.\n  <br>\n  <br>\n    Because the extension is delivered as a downloadable file without copy protection, we cannot verify whether it has been used or copied after purchase.\n  <br>\n  <br>\n    If you're experiencing technical issues with the extension, please visit our <a href=\"/troubleshooting/decky/\">Troubleshooting page</a> or reach out on <a href=\"https://discord.gg/6mRUhR6Teh\" target=\"_blank\" rel=\"noopener\">Discord</a> and we'll do our best to help resolve them.\n</div>"
+  },
+  {
+    "id": "6ccb83bc-e658-46a3-b588-b7febf5043da",
+    "originalId": "get-help-stuck",
+    "product": "both",
+    "category": "Help & Support",
+    "order": 0,
+    "question": "Where can I get help if I'm stuck?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n<strong>Community Support:</strong> Our community is great for troubleshooting and general questions.\n  <ul>\n    <li><strong>Discord:</strong> <a href=\"https://discord.gg/6mRUhR6Teh\" target=\"_blank\" rel=\"noopener\">Join our Discord server</a> for real-time help</li>\n    <li><strong>Reddit:</strong> <a href=\"https://www.reddit.com/r/JunkStore/\" target=\"_blank\" rel=\"noopener\">r/JunkStore subreddit</a> for discussions and tips</li>\n  </ul>\n    <strong>On This Page:</strong>\n  <ul>\n    <li><a href=\"javascript:switchTab('quicktips')\">Quick Tips</a> - How-to guides for common tasks</li>\n    <li><a href=\"javascript:switchTab('troubleshooting')\">Troubleshooting</a> - Solutions to common issues</li>\n    <li><a href=\"javascript:switchTab('tutorials')\">Tutorials</a> - Step-by-step setup guides</li>\n  </ul>\n    <strong>Game Info:</strong>\n  <ul>\n    <li><a href=\"/tested-games/\">Tested Games</a> - Check compatibility for specific games</li>\n  </ul>\n    <strong>When contacting support:</strong> Include your Steam Deck model, SteamOS version, and specific error messages or symptoms.\n</div>"
+  },
+  {
+    "id": "12151cf5-d9d2-423f-ab1a-1e23fc99abd6",
+    "originalId": "report-bug",
+    "product": "both",
+    "category": "Help & Support",
+    "order": 1,
+    "question": "I think I've found a bug. How do I report it?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nWe really appreciate bug reports! Like you, we want Junk Store to just work—so if you come across a bug, please let us know. If we don't know about it, we can't fix it.\n  <br><br>\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong><br>\n    Submit bugs on GitHub so we can track them properly: <a href=\"https://github.com/SDK-Innovation/JunkStoreBugs/issues/new\" target=\"_blank\" rel=\"noopener\">Submit a bug report</a>\n<br><br>\n    <strong style=\"color: #0d6efd;\">Decky Plugin:</strong><br>\nSubmit bugs on GitHub so we can track them properly: <a href=\"https://github.com/ebenbruyns/junkstore/issues/new\" target=\"_blank\" rel=\"noopener\">Submit a bug report</a>\n  <br>\n  <br>\n    You'll need a GitHub account to submit an issue. It's free to create one if you don't already have it.\n  <br>\n  <br>\n    <strong>Note:</strong> Bug reports aren't support tickets. If you need help or aren't sure if it's a bug, please ask in our <a href=\"https://discord.gg/6mRUhR6Teh\" target=\"_blank\" rel=\"noopener\">Discord server</a> first.\n</div>"
+  },
+  {
+    "id": "6dc377f8-8acf-4faa-9874-3084d8ed5cbf",
+    "originalId": "request-features",
+    "product": "decky",
+    "category": "Help & Support",
+    "order": 2,
+    "question": "How do I request features or get X feature added?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\n<strong>We prefer feature requests via GitHub where they can be tracked:</strong><br>\n  <a href=\"https://github.com/ebenbruyns/junkstore/issues/new/choose\" target=\"_blank\" rel=\"noopener noreferrer\">Submit a feature request</a>\n  <br>\n  <br>\n  <strong>Ways to get features implemented:</strong>\n<ol>\n  <li>Submit a pull request if you know how to code</li>\n  <li>Offer a bounty and pay a developer to implement it</li>\n</ol>\n  <strong>Alternative:</strong> Discuss ideas first in our Discord community before submitting requests.\n</div>"
+  },
+  {
+    "id": "1b1d8a36-b4a6-4d04-b7f1-b799f82e6e3c",
+    "originalId": "migrate-games-to-decky",
+    "product": "pro",
+    "category": "Help & Support",
+    "order": 3,
+    "question": "How do I migrate games back to the Decky (free) version?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n<strong>It depends on when the games were originally installed:</strong>\n    <br>\n    <br>\n    <strong>Games originally from Decky version:</strong> These CAN be migrated back. For already installed games, open the game page in Junk Store and use <strong>Reset Launch Options</strong> from the sliders menu. This completes the migration back to Decky compatibility.\n    <br>\n    <br>\n    <strong>❌ Games newly installed in Junk Store Pro:</strong> These cannot be migrated back to Decky due to different install paths and configuration systems.\n    <br>\n    <br>\n    <strong>For games newly installed in 2.0 that you want to keep:</strong>\n    <ul>\n      <li>Back up your save files for any games you plan to keep playing</li>\n      <li>Manually uninstall games installed via the new version before your trial expires (to free up space)</li>\n      <li>Reinstall those games using the Decky version</li>\n      <li>Restore your game saves manually</li>\n    </ul>\n     <strong>Tip:</strong> Complete this process before your trial ends — otherwise, you may lose access and the games will still occupy storage.\n</div>"
+  },
+  {
+    "id": "fca11d3e-cce6-45b0-87c2-b3c9f7e3eaf0",
+    "originalId": "uninstall-junk-store",
+    "product": "pro",
+    "category": "Help & Support",
+    "order": 4,
+    "contentType": "faq",
+    "question": "How do I uninstall Junk Store Pro?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nBefore uninstalling, complete the migration process outlined in \"How do I migrate games back to the Decky version?\" above to preserve your games and saves.\n  <br>\n  <br>\n    Once migration is complete, run the uninstall script in konsole:\n    <code>~/.local/share/junkstore/uninstall.sh</code>\n</div>"
+  },
+  {
+    "id": "9a30ddfe-0987-424f-8486-dd410bbc13d0",
+    "originalId": "decky-vs-paid-version",
+    "product": "both",
+    "category": "Overview",
+    "order": 0,
+    "question": "What's the difference between the Decky version and the Professional version?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nThe Professional version includes extra convenience features and doesn't require Decky to run.\n  <br>\n  <br>\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>The Decky version is free and open source, designed to run via the Decky Loader. \n  <strong><br><br>\nFor detailed feature comparison:</strong> <a href=\"/comparison/\">View Complete Comparison Chart</a>\n</div>"
+  },
+  {
+    "id": "00df440f-7a0d-4fe0-881f-f97e9936c5b4",
+    "originalId": "what-makes-junk-store-different",
+    "product": "pro",
+    "category": "Overview",
+    "order": 1,
+    "contentType": "faq",
+    "question": "What makes Junk Store Pro different from free alternatives?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n<strong>Junk Store is Steam Deck-specific software</strong> designed exclusively for handheld gaming workflows, while alternatives are general PC gaming tools adapted for Steam Deck.\n  <br>\n  <br>\n    <strong>Key differences:</strong>\n  <br>\n  <br>\n    <strong>1. Steam Deck Controller Navigation:</strong> Every interaction optimized for the full Steam Deck controller experience - analog sticks, D-pad, buttons, touchpads\n  <br>\n  <br>\n    <strong>2. Game Mode Native:</strong> Works entirely within Game Mode - no desktop switching required to view libraries or install games\n  <br>\n  <br>\n    <strong>3. Direct Launch:</strong> Games launch directly without the need to restart Steam or nested launchers - no \"launcher to launch a launcher to launch your game\" complexity\n  <br>\n  <br>\n    <strong>4. Unified Library:</strong> Epic, GOG, Amazon & itch.io (beta) games AND emulators integrated into your Steam library as if they were native Steam games\n  <br>\n  <br>\n    <strong>5. Built-in Automation:</strong> Dependency management, artwork caching, and ROM downloads handled automatically\n  <br>\n  <br>\n    If Desktop Mode workflows work for you, free alternatives are excellent choices. Junk Store focuses specifically on seamless Game Mode integration for users who prefer staying in the Steam ecosystem.\n</div>"
+  },
+  {
+    "id": "130e65aa-9c15-4264-92f4-2558c46bf96a",
+    "originalId": "is-junk-store-trustworthy",
+    "product": "both",
+    "category": "Overview",
+    "order": 2,
+    "question": "Is Junk Store trustworthy and how are my credentials handled?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n<strong>Yes, Junk Store is trustworthy.</strong> We prioritize user security and transparency in how we handle your gaming credentials.\n  <br>\n  <br>\n  \n   <strong>Developer Credentials:</strong>\n    <ul>\n      <li>Developed by a cybersecurity expert and white-hat professional</li>\n      <li>You can verify our lead developer's credentials on <a href=\"https://www.linkedin.com/in/eben-bruyns/\" target=\"_blank\">LinkedIn</a></li>\n      <li>Open-source Decky plugin code is publicly auditable on <a href=\"https://github.com/ebenbruyns/junkstore\" target=\"_blank\">GitHub</a></li>\n      <li>Active in Steam Deck community since launch with established reputation</li>\n    </ul>\n  \n    <strong>Credential Security & Privacy Protection:</strong>\n    <ul>\n      <li><strong>No password storage:</strong> Junk Store never stores your any of your login credentials for any storefront (Epic, GOG, Amazon, or itch.io)</li>\n      <li><strong>Token-based authentication:</strong> Uses secure login tokens provided by each platform</li>\n      <li><strong>Local storage only:</strong> All tokens stored locally on your Steam Deck</li>      \n      <li><strong>Standard OAuth flow:</strong> Same login method used by official store websites</li>\n      <li><strong>No personal data collection:</strong> We don't collect or store personal information</li>\n      <li><strong>No game tracking:</strong> Your gaming habits aren't monitored or reported</li>\n    </ul>\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Bottom line:</strong> Your credentials are handled using industry-standard practices by established tools in the Linux gaming community.\n</div>\n</div>"
+  },
+  {
+    "id": "af454829-b047-48d4-9f06-f11826dd070a",
+    "originalId": "cloud-saves-support",
+    "product": "version-specific",
+    "category": "Overview",
+    "order": 3,
+    "question": "Does Junk Store support cloud saves?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nJunk Store Pro currently offers <strong>experimental cloud save support</strong> for <strong>Epic</strong> and <strong>GOG</strong>. However, this feature is intended only for advanced users who understand and accept the risks involved — including the potential for save data loss.\n  <br>\n  <br>\n    <strong>Important:</strong> We do <em>not</em> offer technical support for issues related to cloud saves at this time. If you choose to enable it, please make sure you're confident in your ability to troubleshoot and back up your save data manually if needed.\n  <br>\n  <br>\n    <strong>Note:</strong> Not all games from either platform support cloud saves.\n</div>\n\n<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\n<strong>No, cloud saves are not supported.</strong> We don't want users to run the risk of losing their game saves.\n  <br>\n  <br>\n    <strong>Technical details:</strong>\n  <ul>\n    <li><strong>Epic Games:</strong> While Legendary supports this, we haven't implemented it due to potential data loss risks</li>\n    <li><strong>GOG Games:</strong> Not implemented as it isn't a trivial problem to solve and requires more resources than currently available</li>\n    <li><strong>Manual configuration:</strong> Tech-savvy users can manually configure via CLI, but it's not recommended</li>\n  </ul>\n</div>"
+  },
+  {
+    "id": "52b5a82a-4088-4bff-b01b-6444c8fd5c20",
+    "originalId": "download-queue",
+    "product": "version-specific",
+    "category": "Overview",
+    "order": 4,
+    "question": "Is there a download queue in Junk Store?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n<strong>Yes!</strong> Junk Store Pro includes a download queue that lets you queue multiple games for installation. Downloads continue in the background while you browse your library or use other features.\n<ul>\n<li>Queue as many games as you want</li>\n<li>Downloads progress automatically</li>\n<li>Monitor progress from the downloads section</li>\n</ul>\n</div>\n<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\n<strong>No.</strong> The Decky plugin doesn't have a background download queue. You need to stay on the game page until installation is complete.\n<ul>\n<li>Stay on the game page while downloading</li>\n<li>Navigating away may stop or interrupt the download</li>\n<li>Download one game at a time</li>\n</ul>\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Tip:</strong> If your download stops unexpectedly, check our Troubleshooting section for help.\n</div>\n</div>"
+  },
+  {
+    "id": "677a7dcf-6024-4b66-8133-2b66b62bf289",
+    "originalId": "free-decky-available",
+    "product": "both",
+    "category": "Overview",
+    "order": 5,
+    "question": "Will the free Decky version continue to be available?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n<strong>Yes.</strong> The open source Decky version remains available for the community, free to use and collaborate on.\n  <br>\n  <br>\n    Junk Store Pro is completely separate software that doesn't share code with the open source version. Both versions can coexist, and you can choose what works best for your needs.\n  <br>\n  <br>\n    <strong>Key difference:</strong> The free Decky version focuses on basic Epic Games support, while Junk Store Pro provides the complete Game Mode native experience across multiple platforms.\n</div>"
+  },
+  {
+    "id": "89141597-83f6-4561-96b4-792aac15b6d7",
+    "originalId": "new-platforms-planned",
+    "product": "pro",
+    "category": "Overview",
+    "order": 6,
+    "contentType": "faq",
+    "question": "What new platforms are planned for future releases?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n<strong>Current platform support:</strong>\n  <ul>\n    <li><strong>Itch.io</strong> - Now available in beta</li>\n  </ul>\n    <strong>Planned platform support</strong> (pending successful launch and resources):\n  <ul>\n    <li><strong>EA, Ubisoft, Battle.net</strong> - If technically viable</li>\n    <li><strong>Community extension sharing</strong> - User-created platform support</li>\n  </ul>\n    <strong>Development approach:</strong> Each new platform requires extensive testing and compatibility work. We prioritize stable, Game Mode native implementations over quick additions.\n  <br>\n  <br>\n    <strong>Important:</strong> Base your purchase decision on current features, not future promises. New platforms will be added as development resources allow.\n</div>"
+  },
+  {
+    "id": "11f05ea3-59cf-49c2-b5e8-34f5de8fd869",
+    "originalId": "can-i-try-before-buy",
+    "product": "pro",
+    "category": "Overview",
+    "order": 7,
+    "contentType": "faq",
+    "question": "What's included in the free trial and what happens when it ends?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nEvery purchase includes a <strong>7-day free trial</strong> with full access to all features:\n<br><br>\n<strong>Trial includes:</strong>\n<ul>\n  <li>Full Epic, GOG, Amazon & itch integration</li>\n  <li>Emulator setup and ROM management</li>\n  <li>All premium features (cloud saves, dependencies, automation)</li>\n  <li>Technical support via Discord</li>\n</ul>\n<strong>When the trial ends:</strong>\n<ul>\n  <li>If you purchase → Continue using everything seamlessly</li>\n  <li>If you cancel → You lose access to Pro features and games installed via Pro</li>\n  <li>You can reactivate anytime to restore full functionality</li>\n  <li>The free Decky version remains available for basic Epic support</li>\n</ul>\n<strong>No commitment:</strong> Cancel anytime during trial for zero charges.\n</div>"
+  },
+  {
+    "id": "a44ae4ec-3da2-4136-bd55-b29c4f43a6b9",
+    "originalId": "is-this-a-subscription",
+    "product": "pro",
+    "category": "Pricing & Trial",
+    "order": 1,
+    "question": "Is this a subscription? Do I need to keep paying?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\n<strong>No - it's a one-time $40 purchase</strong> that includes 12 months of updates and support.\n<br><br>\n<strong>What's included:</strong>\n<ul>\n  <li>✅ 12 months of updates, new features & bug fixes</li>\n  <li>✅ 12 months of technical support</li>\n</ul>\n<strong>After 12 months:</strong>\n<ul>\n  <li>Your version doesn't expire or get disabled</li>\n  <li>Games you've installed continue to work through Steam</li>\n  <li>Renewal is optional but recommended</li>\n</ul>\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Why we recommend renewal:</strong> Steam Deck and store clients (Epic, GOG, etc.) update frequently. When they change, Junk Store may need updates to stay compatible. Without renewal, you won't receive these fixes, and Junk Store could stop working correctly.\n</div>\n</div>"
+  },
+  {
+    "id": "de5170b0-439a-4414-bfba-23f8e6e19fba",
+    "originalId": "how-many-devices",
+    "product": "pro",
+    "category": "Pricing & Trial",
+    "order": 2,
+    "question": "How many devices can I install Junk Store on?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nYou can install Junk Store on up to <strong>five</strong> devices under a single license. We think this strikes a fair balance between flexibility and sustainability.\n  <br>\n  <br>\n    <strong>Device management:</strong> Each installation counts toward your device limit when you first activate it. If you need to replace a device or reinstall, contact support for assistance with license transfers.\n</div>"
+  }
+]

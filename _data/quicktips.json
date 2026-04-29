@@ -1,0 +1,150 @@
+[
+  {
+    "id": "4cbd2770-13b5-486a-a3ae-cc7f252bc6f2",
+    "originalId": "change-game-language",
+    "product": "version-specific",
+    "category": "Game Options",
+    "order": 0,
+    "contentType": "quicktip",
+    "question": "How do I change game language settings?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong><br>\nYou can change your Epic, GOG, Amazon or itch game language settings directly in Game Mode - no desktop switching required.\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Tip:</strong> For instructions, see: <a href=\"/tutorials/change-game-language/\">Change Game Language</a>\n</div>\n</div>\n\n<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong><br>\nYou can change the language for Epic games that have built-in language support using environment variables directly in Game Mode - no desktop switching required.\n\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Tip:</strong> For instructions, see: <a href=\"/blog/change-game-language-environment-variables/\">Change Game Language</a>  \n</div>\n</div>"
+  },
+  {
+    "id": "7cd57314-9335-4c32-b5ab-fc960bcdd3b4",
+    "originalId": "enable-offline-mode",
+    "product": "version-specific",
+    "category": "Game Options",
+    "order": 1,
+    "contentType": "quicktip",
+    "question": "How do I enable offline mode for supported games?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong><br>\nYou can set offline mode as a global setting or per game.<br><br>\n<strong>Per Game setting:</strong><br>\nSet offline mode per individual game (improved from the global setting in free alternatives) directly in Game Mode:\n  <ul>\n    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>\n    <li>Select <strong>Game Configs</strong></li>\n    <li>Change the dropdown to <strong>All</strong></li>\n    <li>Click <strong>ENVIRONMENT</strong> dropdown</li>\n    <li>Find <strong>TOGGLE OFFLINE MODE</strong> and turn it on (blue = enabled)</li>\n    <li>Press <kbd>X</kbd> to save changes</li>\n  </ul>\n<strong>Global setting:</strong><br>\nYou can set this from each game tab to set offline mode for all games in game mode:<br><br>\n  <ul>\n    <li>On the store tab in Junk Store, e.g. Epic, click the <strong>⚙️ Settings menu</strong></li>\n    <li>Change the dropdown to <strong>All</strong></li>\n    <li>Find <strong>TOGGLE OFFLINE MODE</strong> and turn it on (blue = enabled)</li>\n    <li>Press <kbd>X</kbd> to save changes</li>\n  </ul>\n    Your games that support offline play will now work without internet connection.\n</div>\n\n<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong><br><br>\n<strong>Global setting:</strong><br>\nYou can set this from each game tab to set offline mode for all games in game mode:<br>\n  <ul>\n    <li>On the store tab in Junk Store, e.g. Epic, click the <strong>⚙️ Settings menu</strong></li>\n    <li>Change the dropdown to <strong>All</strong></li>\n    <li>Find <strong>TOGGLE OFFLINE MODE</strong> and turn it on (blue = enabled)</li>\n    <li>Press <kbd>X</kbd> to save changes</li>\n  </ul>\n    Your games that support offline play will now work without internet connection.\n</div>"
+  },
+  {
+    "id": "1d66c0b1-c892-4944-991e-fda19ef2d97e",
+    "originalId": "add-custom-launch-arguments",
+    "product": "both",
+    "category": "Game Options",
+    "order": 2,
+    "contentType": "quicktip",
+    "question": "Is it possible to add custom launch arguments to games?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">                                                                \n<strong style=\"color: #198754;\">Both Versions:</strong><br>           \nYes, you can add custom launch arguments for games in Game Mode via the <strong>Proton Config</strong> menu.\n                      \n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Tip:</strong> For step-by-step instructions, see: <a href=\"/blog/custom-launch-arguments/\">Custom Launch Arguments</a>\n</div>\n</div> "
+  },
+  {
+    "id": "619fa9b0-ef1f-49b1-a7bf-df5f57c13005",
+    "originalId": "install-uninstall-game",
+    "product": "both",
+    "category": "Managing Games",
+    "order": 0,
+    "contentType": "quicktip",
+    "question": "How do I install or uninstall a game?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong>\n\n<strong>To install a game in Junk Store:</strong>\n<ul>\n  <li>Open the game's page in Junk Store and click install.</li>\n  <li><strong>Junk Store Pro:</strong> Games are added to the download queue — you can navigate away and continue using Junk Store while they install.</li>\n  <li><strong>Decky Plugin:</strong> Stay on the game page until installation is complete.</li>\n</ul>\n\n<strong>To uninstall a game in Junk Store:</strong>\n<ol>\n  <li>Open the game's page in Junk Store.</li>\n  <li>Open the <strong>☰ Slider menu</strong> and select <strong>Uninstall</strong>.</li>\n  <li>\n    Manually delete any leftover files to free up space:\n    <ul>\n      <li><strong>Epic:</strong> <code>~/Games/epic</code> or <code>/*your-SD-card*/Games/epic</code></li>\n      <li><strong>GOG:</strong> <code>~/Games/gog</code> or <code>/*your-SD-card*/Games/gog</code></li>\n      <li><strong>Amazon:</strong> <code>~/Games/amazon</code> or <code>/*your-SD-card*/Games/amazon</code> <em>(Pro only)</em></li>\n      <li><strong>itch:</strong> <code>~/Games/itch</code> or <code>/*your-SD-card*/Games/itch</code> <em>(Pro only)</em></li>\n    </ul>\n  </li>\n  <li><strong>Decky Plugin tip:</strong> Note the game's SteamID before uninstalling so you can locate and clean up its <code>compatdata</code> and <code>shadercache</code> folders.</li>\n</ol>\n\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\"><strong style=\"color: #d4a84b;\">Important:</strong> Uninstalling removes all local save data. To back up saves first, see \"How do I find save data for my games?\" below.\n</div>\n</div>"
+  },
+  {
+    "id": "68af3e8f-2c04-42bf-9250-58b2eb554f89",
+    "originalId": "manage-game-storage",
+    "product": "both",
+    "category": "Managing Games",
+    "order": 1,
+    "contentType": "quicktip",
+    "question": "How do I manage game storage and SD card downloads?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n<strong>Changing Download Location:</strong> You can set your preferred download location for each platform separately:<br>\n<ul>\n  <li>Select the store tab you want to manage the download location for, e.g. Epic</li>\n  <li>Click the <strong>⚙️ Gear icon</strong> to open settings</li>\n  <li>Set your desired download path (e.g. your SD card directory)</li>\n  <li>Press <kbd>X</kbd> to save your changes</li>\n  <li>Repeat for each platform you want to configure</li>\n</ul>\n\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Note:</strong>\nMoving existing games is not supported on either version. Moving installed games to SD card is a complex feature to get right; if you need to move a game to a different location it will need to be redownloaded.\n</div>\n</div>"
+  },
+  {
+    "id": "82491446-0522-40a6-a52b-b8ecf51b11ed",
+    "originalId": "manage-dlc-installations",
+    "product": "version-specific",
+    "category": "Managing Games",
+    "order": 2,
+    "contentType": "quicktip",
+    "question": "How do I manage DLC installations for Steam Deck non-Steam games?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nControl which DLCs install for your Epic and GOG games without leaving Game Mode:\n  <ul>\n    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>\n    <li>Select <strong>Installation</strong></li>\n    <li>Click <strong>DLC</strong></li>\n    <li>Toggle DLCs on/off (blue = will install, grey = won't install)</li>\n    <li>Press <kbd>X</kbd> to save changes</li>\n  </ul>\n    <strong>Timing:</strong> Configure before installation to download only wanted DLCs, or update existing games to add/remove DLC content. No external tools or desktop switching required.\n</div>\n\n<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\n<strong>Yes, DLC is installed automatically by default.</strong> If\n   you purchase DLC after installing a game, choose                  \n  <strong>Update</strong> to download the new DLC content. \n  <br>\n  <br>\n    <strong>Platform details:</strong>\n  <ul>\n    <li><strong>Epic Games:</strong> DLC is installed automatically by default</li>\n    <li><strong>GOG Games:</strong> DLC content is automatically installed by default</li>\n  </ul>\n    <strong>Known limitations:</strong> \n  <ul>\n    <li><strong>Epic Games:</strong> Ideally, all Epic DLCs should download automatically, but not all games handle them the same way. It really depends on how the developers packaged the content, and unfortunately, the current plugin solution doesn't catch every scenario</li>\n    <li><strong>GOG Games:</strong> We have identified some GOG games that require GOG Galaxy to be installed in order to access the DLC</li>\n  </ul>\n    We're aware of these limitations, but right now we don't have the resources to fully address them.\n</div>"
+  },
+  {
+    "id": "cce9ca1a-2f30-40cd-9dc0-3865f8990342",
+    "originalId": "find-save-data",
+    "product": "both",
+    "category": "Managing Games",
+    "order": 3,
+    "contentType": "quicktip",
+    "question": "How do I find save data for my games?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong>\n<ol>\n  <li>Find the game's <strong>Steam ID</strong> at the bottom of its page in Junk Store.</li>\n  <li>Navigate to the following path on your Steam Deck:<br>\n    <code>~/.local/share/Steam/steamapps/compatdata/&lt;SteamID&gt;/pfx/drive_c/users/steamuser/</code></li>\n  <li>From there, follow the path used by your game. Here are some examples:\n    <ul>\n      <li><strong>Epic example:</strong> <code>Local Settings/Application Data/Dying Light/Saved</code></li>\n      <li><strong>GOG example:</strong> <code>AppData/Roaming/Lonely Troops/Hero of the Kingdom II</code></li>\n    </ul>\n  </li>\n</ol>\nEach game may store saves in slightly different locations depending on how it was packaged or ported. Look under <code>AppData</code>, <code>Local Settings</code>, or <code>Documents</code> within the Steam compatibility prefix.\n\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Tip:</strong> You can find game save paths on <a href=\"https://www.pcgamingwiki.com/wiki/Home\" target=\"_blank\" rel=\"noopener\">PC Gaming Wiki</a>\n</div>\n</div>"
+  },
+  {
+    "id": "09ad9e87-36b7-4784-afed-2150d4b3e061",
+    "originalId": "specify-custom-install-path",
+    "product": "pro",
+    "category": "Managing Games",
+    "order": 4,
+    "contentType": "quicktip",
+    "question": "How do I set a custom install path for my games?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong><br>\nYou can <strong>specify your own path</strong> in Junk Store Pro:\n<ol>\n  <li>Make sure to set the dropdown at the top to <strong>All</strong></li>\n  <li>When setting your install location, select <strong>Specify your own path</strong></li>\n  <li>Put the path to your SD card in the <strong>Custom Install Path</strong> field</li>\n  <li>Press <kbd>X</kbd> to save your changes</li>\n</ol>\n</div>"
+  },
+  {
+    "id": "87ff111a-bf8b-4712-819c-cfeff1d86337",
+    "originalId": "change-fps-performance-settings",
+    "product": "both",
+    "category": "Performance",
+    "order": 0,
+    "contentType": "quicktip",
+    "question": "How do I change the FPS or performance settings for games?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nJust like with regular Steam games, you can change the FPS cap and other performance settings through the Quick Access Menu (QAM).\n    <ul> \n      <li>Hit the <strong>three-dot button</strong> on your Deck to open the QAM</li>\n      <li>Scroll to the performance tab</li>\n      <li>Adjust the FPS, TDP, refresh rate, or any other performance settings from there</li>\n    </ul>\n    This works for all games since they're integrated as Steam shortcuts.\n</div>"
+  },
+  {
+    "id": "5d0f7051-7a23-4905-bd4a-dd2c0391182e",
+    "product": "both",
+    "category": "Performance",
+    "order": 1,
+    "contentType": "quicktip",
+    "question": "How do I enable LSFG-VK frame generation?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">                                                                \n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nLSFG-VK is now built into JunkStore. You can easily toggle it on or off and adjust the settings directly, no manual tinkering or separate plugin required.                                            \n  \n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Tip:</strong> For more details, see <a href=\"/blog/lsfg-frame-generation-built-in/\">LSFG Frame Generation Now Built Into Junk Store</a>                          \n  </div>                                        "
+  },
+  {
+    "id": "b1eaf561-16d1-42cd-b5a3-421a4d1ac57a",
+    "originalId": "enable-anticheat-settings",
+    "product": "both",
+    "category": "Performance",
+    "order": 2,
+    "contentType": "quicktip",
+    "question": "How do I enable advanced Proton settings on Steam Deck?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nConfigure anticheat runtimes and Proton performance settings for your non-Steam games directly in Game Mode:\n  <ul>\n    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>\n    <li>Select <strong>PROTON</strong></li>\n    <li>Toggle required settings: <strong>EAC</strong>, <strong>BattlEye</strong>, <strong>VKD3</strong>, <strong>ESYNC</strong>, <strong>FSYNC</strong></li>\n    <li>Adjust <strong>Frame Rate</strong>, <strong>FSR strength</strong>, and other performance options</li>\n    <li>Press <kbd>X</kbd> to save changes</li>\n  </ul>\n    <strong>Advanced Options:</strong> Extensive configuration available for power users who want to optimize Epic, GOG, and Amazon game performance without leaving the handheld interface.\n</div>"
+  },
+  {
+    "id": "d65ab12f-86d6-4ffd-a0b5-b1f12ed8fcc5",
+    "originalId": "change-proton-version",
+    "product": "both",
+    "category": "Proton & Compatibility",
+    "order": 0,
+    "contentType": "quicktip",
+    "question": "How do I change the Proton version for a game?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong> You can do this from either your Steam Library or directly inside Junk Store.\n<br><br>\n<strong>From Junk Store:</strong><br>\nPress <code>Y</code> to open the Steam shortcut.\n<ol>\n  <li>Click the gear icon ⚙️ → <strong>Properties</strong> → <strong>Compatibility</strong></li>\n  <li>Select the Proton version you want to use</li>\n  <li>Relaunch the game</li>\n</ol>\n<strong>From Steam Library:</strong><br>\n<ol>\n  <li>Highlight the game and press the <strong>Start/Options</strong> button (the one with three lines)</li>\n  <li>Go to <strong>Properties</strong> → <strong>Compatibility</strong></li>\n  <li>Select the Proton version you want to use</li>\n  <li>Relaunch the game</li>\n</ol>\nOnce you've selected a version, back out to the game screen and hit <strong>Play</strong>.\n\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Tip:</strong> If you need custom versions like GE-Proton, see <a href=\"/tutorials/proton-versions\">How to Check/Change Proton Version</a>\n</div>\n</div>"
+  },
+  {
+    "id": "ca486b5b-227a-4f68-b8c5-2381337d15f1",
+    "originalId": "install-custom-proton",
+    "product": "both",
+    "category": "Proton & Compatibility",
+    "order": 1,
+    "contentType": "quicktip",
+    "question": "How do I install custom Proton versions (like GE-Proton)?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\nTo get GE-Proton or other custom Proton versions, use one of these tools:\n  <ul>\n    <li><strong>ProtonUp-QT</strong> — Download from the <strong>Discover Store</strong> (Desktop Mode)</li>\n    <li><strong>Wine Cellar</strong> — Install from the <strong>Decky Plugin Store</strong> (if you have Decky)</li>\n  </ul>\n    After installation, download a <strong>GE-Proton</strong> release. You can then select it as a compatibility option when changing Proton versions.\n\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 1rem 1.5rem; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">Tip:</strong> For detailed steps, see <a href=\"/tutorials/proton-versions\">How to Check/Change Proton Version</a>\n</div>\n</div>"
+  },
+  {
+    "id": "23918af4-e6b1-4940-93bc-803fbaf82227",
+    "originalId": "install-game-dependencies",
+    "product": "pro",
+    "category": "Proton & Compatibility",
+    "order": 2,
+    "contentType": "quicktip",
+    "question": "How do I install game dependencies on Steam Deck without Proton Tricks?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #fd7e14;\">Junk Store Pro:</strong>\nJunk Store includes built-in dependency management for common gaming requirements - no third-party tools needed:\n  <ul>\n    <li>From the game page in Junk Store, click the <strong>⚙️ Settings menu</strong></li>\n    <li>Select <strong>Installation</strong></li>\n    <li>Set dropdown to <strong>Expert</strong> mode</li>\n    <li>Click <strong>Dependencies</strong></li>\n    <li>Toggle needed dependencies on (blue = will install)</li>\n    <li>Press <kbd>X</kbd> to save changes</li>\n  </ul>\n    <strong>Coverage:</strong> Handles most common game dependencies. For rare or game-specific requirements not listed, you may still need external tools. Install before or after game installation as needed.\n</div>"
+  },
+  {
+    "id": "1a461e59-4f8f-411e-9427-527677d8d1ef",
+    "product": "both",
+    "category": "Proton & Compatibility",
+    "order": 3,
+    "contentType": "quicktip",
+    "question": "How do I install anti-cheat dependencies (EAC/BattlEye) for games in Junk Store?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #198754;\">Both Versions:</strong><br>\n<strong>To install anti-cheat runtimes:</strong>\n<ol>\n  <li>Go to About > System (or Dependencies) in Junk Store</li>                                                                                                                     \n  <li>Scroll to find Install Proton Easy Anti Cheat and Install Proton BattlEye Runtime</li>                                                                      \n  <li>Select the one(s) you need (greyed out = already installed)</li>                                                                                            \n  <li>No restart required</li>    \n</ol>\n<strong>To enable for a specific game:</strong>                                                                                                                            \n  <ol>\n  <li>Open the game's Settings (cog icon) → Proton config</li>                                                                                                    \n  <li>Set dropdown to All to see advanced options</li>                                                                                                            \n  <li>Toggle on EAC Runtime or BattlEye Runtime as needed</li>                                                                                                    \n  <li>Press X to save</li>\n</ol>\n<div style=\"background: rgba(255, 255, 255, 0.04); border-left: 4px solid #666; padding: 15px; margin: 1rem 0; border-radius: 0 6px 6px 0;\">\n<strong style=\"color: #d4a84b;\">CRITICAL:</strong> Important: Install dependencies to the internal SSD - external drives/microSD can cause issues.\n</div>\n</div> "
+  }
+]

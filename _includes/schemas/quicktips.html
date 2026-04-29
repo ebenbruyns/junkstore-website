@@ -1,16 +1,14 @@
 {%- comment -%}
-FAQPage JSON-LD generated from _data/faq.json so the schema content
-matches the visible HTML 1:1 (Google rewards rich-results when schema
-and rendered content agree). The strip_html + jsonify combination
-escapes any control characters / quotes / backslashes in the answer
-HTML safely.
+Quick Tips JSON-LD as FAQPage (no dedicated "QuickTips" schema.org type
+exists). Generated from _data/quicktips.json so schema and visible HTML
+match 1:1.
 {%- endcomment -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {%- for item in site.data.faq -%}
+    {%- for item in site.data.quicktips -%}
     {
       "@type": "Question",
       "name": {{ item.question | strip_newlines | jsonify }},
