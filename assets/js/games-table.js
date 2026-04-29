@@ -184,18 +184,12 @@ function computePopoverCounts(dim) {
   return {};
 }
 
-// Pill-label count: how many games match THIS dim's selection, against the
-// full dataset (independent of other filters). Gives stable "this is what
-// you've narrowed to" feedback in the pill text.
+// Pill-label count: how many games match this dim's selection AND all other
+// currently-active filters. Gives an accurate "narrowed result" count that
+// matches what the table actually shows.
 function computePillCount(dim) {
-  if (dim === 'store') {
-    return gamesData.games.filter(g => g.storefront === filterState.store).length;
-  }
-  if (dim === 'decky' || dim === 'pro') {
-    const field = dim === 'decky' ? 'decky_rating' : 'standalone_rating';
-    const opt = RATING_OPTIONS.find(o => o.value === filterState[dim]);
-    if (!opt) return 0;
-    return gamesData.games.filter(g => opt.match((g[field] || '').toLowerCase())).length;
+  if (dim === 'store' || dim === 'decky' || dim === 'pro') {
+    return gamesData.games.filter(g => gameMatchesAllExcept(g, null)).length;
   }
   if (dim === 'recent') {
     const cutoff = Date.now() - NINETY_DAYS_MS;
