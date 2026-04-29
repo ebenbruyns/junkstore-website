@@ -112,10 +112,14 @@
      respected.
      ============================================================ */
   function applySearch(term) {
-    const lower = term.trim().toLowerCase();
+    // Tokenize: every whitespace-separated word must appear somewhere in the
+    // text. Lets "decky pro" match an item whose text contains both words in
+    // any order, instead of requiring the exact phrase.
+    const tokens = term.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const matchAll = (text) => tokens.length === 0 || tokens.every(t => text.includes(t));
     document.querySelectorAll('.faq-item-compact').forEach(item => {
       const text = item.textContent.toLowerCase();
-      const matchesSearch = !lower || text.includes(lower);
+      const matchesSearch = matchAll(text);
       const isVersionHidden = item.classList.contains('version-hidden');
       item.classList.toggle('hidden', !matchesSearch || isVersionHidden);
     });
@@ -124,13 +128,14 @@
     document.querySelectorAll('.tutorial-item, .tip-item').forEach(item => {
       const title = item.querySelector('h4')?.textContent.toLowerCase() || '';
       const desc  = item.querySelector('p')?.textContent.toLowerCase() || '';
-      const matchesSearch = !lower || title.includes(lower) || desc.includes(lower);
+      const combined = title + ' ' + desc;
+      const matchesSearch = matchAll(combined);
       const isVersionHidden = item.classList.contains('version-hidden');
       item.classList.toggle('hidden', !matchesSearch || isVersionHidden);
     });
 
     // Auto-expand categories that still have visible matches
-    if (lower) {
+    if (tokens.length) {
       document.querySelectorAll('.category-accordion').forEach(cat => {
         const hasVisible = cat.querySelectorAll('.faq-item-compact:not(.hidden)').length > 0;
         if (hasVisible) cat.classList.add('expanded');

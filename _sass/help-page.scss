@@ -78,9 +78,37 @@
   transform: scale(1.1);
 }
 
+.permalink-btn {
+  position: relative;
+}
+
 .permalink-btn.copied {
   opacity: 1;
   color: #198754;
+}
+
+.permalink-btn.copied::after {
+  content: "Copied!";
+  position: absolute;
+  top: 50%;
+  right: calc(100% + 6px);
+  transform: translateY(-50%);
+  background: #198754;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  animation: permalink-toast-fade 1.5s ease-out forwards;
+}
+
+@keyframes permalink-toast-fade {
+  0%   { opacity: 0; transform: translate(6px, -50%); }
+  15%  { opacity: 1; transform: translate(0, -50%); }
+  80%  { opacity: 1; transform: translate(0, -50%); }
+  100% { opacity: 0; transform: translate(0, -50%); }
 }
 
 /* ========== COMPACT HEADER ========== */
@@ -783,11 +811,13 @@ details.faq-item-compact[open] {
   }
 
   .help-tabs-compact {
+    flex-wrap: wrap;
     gap: 6px;
+    padding: 0 0.5rem;
   }
 
   .help-tab {
-    padding: 8px 14px;
+    padding: 8px 12px;
     font-size: $type-size-caption;
   }
 

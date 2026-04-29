@@ -129,10 +129,12 @@ function gameMatchesAllExcept(game, skipDim) {
     if (t === null || t < Date.now() - NINETY_DAYS_MS) return false;
   }
   if (skipDim !== 'search' && filterState.search) {
-    const s = filterState.search.toLowerCase();
-    const inTitle = game.title.toLowerCase().includes(s);
-    const inPub = game.publisher && game.publisher.toLowerCase().includes(s);
-    if (!inTitle && !inPub) return false;
+    // Tokenize: every whitespace-separated word must appear somewhere in the
+    // searchable text. Lets multi-word queries like "celeste indie" match a
+    // game whose title and publisher both mention those words in any order.
+    const tokens = filterState.search.toLowerCase().split(/\s+/).filter(Boolean);
+    const haystack = (game.title + ' ' + (game.publisher || '')).toLowerCase();
+    if (!tokens.every(t => haystack.includes(t))) return false;
   }
   return true;
 }
