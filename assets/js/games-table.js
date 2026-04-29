@@ -213,6 +213,12 @@ function setFilter(dim, value) {
   if (dim === 'store' || dim === 'decky' || dim === 'pro') filterState[dim] = value;
   else if (dim === 'recent') filterState.recent = !!value;
   else if (dim === 'search') filterState.search = value || '';
+  // Decky and Pro are alternative views, not stackable filters. Picking a
+  // rating on one auto-clears the other so users don't get an empty table
+  // from AND-combining e.g. Decky=Works + Pro=Works on Amazon games where
+  // Decky has no coverage.
+  if (dim === 'decky' && value !== 'All') filterState.pro = 'All';
+  else if (dim === 'pro' && value !== 'All') filterState.decky = 'All';
   applyFilters();
 }
 
