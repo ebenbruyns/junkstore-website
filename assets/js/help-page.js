@@ -251,6 +251,23 @@
   }
 
   /* ============================================================
+     Card-wide click delegation — tutorial-item and tip-item cards
+     style themselves as clickable (cursor: pointer) but only the
+     inner <h4><a> is a real link. Make any click within the card
+     follow that link, unless the user already hit an interactive
+     descendant (a, button).
+     ============================================================ */
+  function wireCardClicks() {
+    document.querySelectorAll('.tutorial-item, .tip-item').forEach(card => {
+      card.addEventListener('click', e => {
+        if (e.target.closest('a, button')) return;
+        const link = card.querySelector('h4 a');
+        if (link) window.location.href = link.href;
+      });
+    });
+  }
+
+  /* ============================================================
      Init.
      ============================================================ */
   document.addEventListener('DOMContentLoaded', () => {
@@ -260,6 +277,7 @@
     wireSearch();
     wireMobileFab();
     wirePermalinkButtons();
+    wireCardClicks();
     handleDeepLink();
   });
 
