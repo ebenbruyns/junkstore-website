@@ -110,7 +110,7 @@ excerpt: "All your non-Steam games in one place. No desktop mode. No multiple la
     </div>
     <div class="question-item">
       <h4>Is Junk Store trustworthy?</h4>
-      <p><strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores.<br><a href="/help/#is-junk-store-trustworthy">Learn more →</a></p>
+      <p><strong>Zero password storage.</strong> Local tokens only, same OAuth as official stores.<br><a href="/help/faq/#is-junk-store-trustworthy">Learn more →</a></p>
     </div>
     <div class="question-item">
       <h4>Will this impact performance?</h4>

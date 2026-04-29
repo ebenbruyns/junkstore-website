@@ -474,7 +474,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 }
 </style>
 
-<section class="feature-groups">
+<section id="difference" class="feature-groups">
   <h2>Decky Plugin vs Junk Store Pro</h2>
 
   <!-- Group 1: Platforms & Storefronts -->
@@ -815,7 +815,7 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
 </style>
 
 <!-- Demo Section -->
-<section class="demo-section">
+<section id="gallery" class="demo-section">
   <h2>See It In Action</h2>
   <p>Click to preview Pro features</p>
 
