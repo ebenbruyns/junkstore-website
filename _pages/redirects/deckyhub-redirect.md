@@ -1,11 +1,20 @@
 ---
 layout: none
-title: "Page Moved"
 permalink: /deckyhub/
-redirect_to: /deckyhelp/
-classes: wide
 ---
-
-This page has moved to our [Decky Plugin Help hub](/deckyhelp/).
-
-You should be automatically redirected in a few seconds. If not, [click here to go to the new location](/deckyhelp/).
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting to Junk Store Help...</title>
+  <meta http-equiv="refresh" content="0; url=/help/">
+  <link rel="canonical" href="/help/">
+  <script>
+    localStorage.setItem('junkstore-version', 'decky');
+    window.location.replace('/help/');
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="/help/">Junk Store Help</a>...</p>
+</body>
+</html>
