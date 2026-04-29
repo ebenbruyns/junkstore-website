@@ -271,18 +271,18 @@ button:focus,
   flex: 0 0 auto;
   display: inline-block;
   padding: 0.55rem 1.1rem;
-  background: linear-gradient(135deg, #f5c542, #e09f3e);
-  color: #1a1a1a !important;
+  background: #ff751a;
+  color: #fff !important;
   font-weight: 700;
   font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   border-radius: 6px;
   text-decoration: none !important;
-  box-shadow: 0 2px 8px rgba(245, 197, 66, 0.35);
+  box-shadow: 0 2px 8px rgba(255, 117, 26, 0.35);
   transition: filter 0.15s ease, transform 0.15s ease;
 }
-.breadcrumb-cta:hover { filter: brightness(1.05); transform: translateY(-1px); }
+.breadcrumb-cta:hover { filter: brightness(1.1); transform: translateY(-1px); }
 @media (max-width: 700px) {
   .breadcrumb-bar { flex-direction: column; align-items: stretch; gap: 0.5rem; }
   .breadcrumb-cta { text-align: center; }
