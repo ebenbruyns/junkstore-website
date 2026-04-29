@@ -6,7 +6,7 @@ layout: null
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.game_title }} - Steam Deck Compatibility | Junk Store</title>
+  <title>{{ page.game_title }} on {{ page.storefront }} — Steam Deck Compatibility | Junk Store</title>
 
   {%- assign compat = page.standalone_rating | default: page.decky_rating -%}
   {%- assign tool_name = "Junk Store" -%}
@@ -21,7 +21,7 @@ layout: null
   <link rel="canonical" href="{{ page.url | absolute_url }}">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ page.game_title }} - Steam Deck Compatibility">
+  <meta property="og:title" content="{{ page.game_title }} on {{ page.storefront }} — Steam Deck Compatibility">
   <meta property="og:description" content="Play {{ page.game_title }} ({{ page.storefront }}) on Steam Deck via {{ tool_name }} — {{ compat_text }}. Proton version, setup notes, and compatibility details.">
   <meta property="og:image" content="{{ page.banner_image }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
@@ -29,7 +29,7 @@ layout: null
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.game_title }} - Steam Deck Compatibility">
+  <meta name="twitter:title" content="{{ page.game_title }} on {{ page.storefront }} — Steam Deck Compatibility">
   <meta name="twitter:description" content="{{ page.game_title }} ({{ page.storefront }}) on Steam Deck via {{ tool_name }} — {{ compat_text }}.">
   <meta name="twitter:image" content="{{ page.banner_image }}">
 
