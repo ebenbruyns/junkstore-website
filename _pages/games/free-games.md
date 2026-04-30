@@ -10,6 +10,7 @@ hide_title: true
   <header class="free-games-page__header">
     <h1>Free Right Now</h1>
     <p>Current giveaways from Epic, GOG, Amazon Prime Gaming, and itch, claim them before the deal ends.</p>
+    <p class="free-games-page__caveat">Heads up: Amazon Prime Gaming giveaways require an active Amazon Prime subscription to claim.</p>
     <span class="free-games-page__updated" id="freeGamesUpdated"></span>
   </header>
 

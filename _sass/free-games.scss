@@ -137,6 +137,13 @@ table .free-now-badge {
       margin: 0 auto;
       text-align: center;  // override .js-page__content p { text-align: justify }
     }
+
+    .free-games-page__caveat {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      font-style: italic;
+      color: #888;
+    }
   }
 
   &__updated {
