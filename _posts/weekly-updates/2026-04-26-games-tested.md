@@ -1,10 +1,10 @@
 ---
 layout: junkstore-post
-title: "DOOMBLADE & The Whispering Valley + 2 More - Steam Deck Tested | Apr 26"
-date: 2026-04-26 12:00:00 +1200
+title: "DOOMBLADE & The Whispering Valley + 2 More - Steam Deck Tested | Apr 30"
+date: 2026-04-30 15:00:00 +1200
 categories: [Weekly Update, Game Compatibility]
-tags: [junk-store, steam-deck, epic-games, gog, amazon-games, itch-io]
-slug: "games-tested-apr-26"
+tags: [junk-store, steam-deck]
+slug: "games-tested-apr-30"
 excerpt: "Steam Deck compatibility: DOOMBLADE, The Whispering Valley, The Pale Beyond + 1 more. Tested with GE-Proton - Junk Store Game Mode setup included."
 description: "4 Epic & GOG games tested on Steam Deck this week: DOOMBLADE, The Whispering Valley, The Pale Beyond. Get working Proton settings and compatibility notes for Game Mode play."
 featured_games:
@@ -21,9 +21,11 @@ toc: true
 
 G'day Everyone!
 
-[This will be a placeholder for a personal update about boat life, travel, or current situation - keep it conversational and authentic]
+We've had some amazing weather this past week and here I thought winter was already upon us. The weather forecast for our winter looks pretty sweet, a dry winter for us in the North Island. Maybe, just maybe we will be able to take some time and knock off some DIY jobs on our floating home (fingers crossed)!
 
-[IMPORTANT STYLE NOTES: Keep it clear, concise, and well-paced. No waffle. Cut unnecessary words. Make it flow smoothly. Edit for clarity and readability - not just typos/grammar.]
+We will be antifouling (cleaning and painting) the bottom of the boat at some point in the next couple of months. This entails a couple of days traipsing around in the mud between high tides. It's a hard and dirty job. Thankfully it only has to be done once a year!
+
+Anyways, sorry for the late post this week. I've been head down working on some things while keeping an eye on the NBA finals. I'll do my best to be more timely this weekend.
 
 ## Housekeeping Notes
 
@@ -51,7 +53,7 @@ This week featuring DOOMBLADE.
   <img src="https://cdn1.epicgames.com/spt-assets/df87b66c9f3042ac83311bdc9b442884/doomblade-1v156.jpg" alt="DOOMBLADE" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/epic/doomblade/">DOOMBLADE</a></strong> <span class="store-badge epic">Epic</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">This was my favourite of the bunch this week. I do enjoy this genre and the gameplay was just what I was in the mood for. Once you free and wield DOOMBLADE, you hack and slash your way through enemies in your quest for vengeance. I'll be keeping this one on my Steam Deck for now.</p>
     <a href="/games/epic/doomblade/" class="view-details">View compatibility details →</a>
   </div>
 </div>
@@ -64,7 +66,7 @@ This week featuring The Pale Beyond, Neo Cab.
   <img src="https://images.gog.com/44f7aa48dbbd595dc470ee64d6320534dc8aec1a821ce4cabeb1828b5cdcb44a.jpg?namespace=gamesdb" alt="The Pale Beyond" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/gog/the-pale-beyond/">The Pale Beyond</a></strong> <span class="store-badge gog">GOG</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">The story is intriguing and the balancing act behind every decision could mean life or death for your crew. It reminded me of the TV show 'The Terror', based on the real life expedition of two British Navy ships that became trapped in the Arctic ice in 1845. I'm looking forward to coming back to this one with a clearer head.</p>
     <a href="/games/gog/the-pale-beyond/" class="view-details">View compatibility details →</a>
   </div>
 </div>
@@ -73,7 +75,7 @@ This week featuring The Pale Beyond, Neo Cab.
   <img src="https://images.gog.com/3b424f32c2c8848e3f137ef9d51fb922110cbeeecae2ba9fecead5f8d3588d77.jpg?namespace=gamesdb" alt="Neo Cab" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/gog/neo-cab/">Neo Cab</a></strong> <span class="store-badge gog">GOG</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">I'm not really one for visual novels, so this didn't grab me from the start. I do like that while testing I get exposed to games I would normally skip. Unfortunately, this is one that won't be making my backlog.</p>
     <a href="/games/gog/neo-cab/" class="view-details">View compatibility details →</a>
   </div>
 </div>
@@ -86,7 +88,7 @@ This week featuring The Whispering Valley.
   <img src="https://images.gog.com/00a5557d5297739fc5ba6b493c265f75e66b2bfdb06245d70b956932d269758d.jpg?namespace=gamesdb" alt="The Whispering Valley" class="game-thumbnail">
   <div class="game-details">
     <strong><a href="/games/gog/the-whispering-valley/">The Whispering Valley</a></strong> <span class="store-badge gog">GOG</span>
-    <p class="game-blurb">[Why try this: What makes it interesting or who it's for]</p>
+    <p class="game-blurb">This is one of my favourite types of game, a point and click puzzle with a theme that I rather enjoy. Another similar dark point and click series I've enjoyed is the Creepy Tale franchise. Pretty dark, but oh so much fun! I can't wait to get back to it and get stuck into solving the mystery behind 'The Whispering Valley'.</p>
     <a href="/games/gog/the-whispering-valley/" class="view-details">View compatibility details →</a>
   </div>
 </div>
@@ -96,14 +98,10 @@ This week featuring The Whispering Valley.
 Next up on the free games front:
 
 **Epic Games:**
-<!-- EPIC: Replace GAME-SLUG and Game Title -->
-Epic's got <a href="https://store.epicgames.com/en-US/p/GAME-SLUG" target="_blank" rel="noopener">Game Title</a> coming this week.
+Epic's got <a href="https://store.epicgames.com/en-US/p/oddsparks-58440c" target="_blank" rel="noopener">Oddsparks: An Automation Adventure</a> and a goodies pack for <a href="https://store.epicgames.com/en-US/p/firestone-online-idle-rpg-bfd04b" target="_blank" rel="noopener">Firestone – Idle Clicker Online RPG</a> this week.
 
 **Amazon Prime Gaming:**
-<!-- PRIME GOG: Replace game-slug and Game Title -->
-Amazon Prime Gaming has a couple worth grabbing too: a GOG code for <a href="https://www.gog.com/en/game/game-slug" target="_blank" rel="noopener">Game Title</a>
-<!-- PRIME EPIC: Replace game-slug and Game Title -->
-and an Epic code for <a href="https://store.epicgames.com/en-US/p/game-slug" target="_blank" rel="noopener">Game Title</a>. We'll get these tested once they're live.
+We'll have to wait and see what's on offer this week from Amazon Prime Gaming. Fingers crossed for some gems!
 
 Got questions or want to share what you're keen to try? Flick us a message on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>
 
@@ -111,10 +109,6 @@ Cheers,<br>
 The Junk Store Team
 
 ---
-
-*All compatibility information is based on real testing with the hardware and software versions listed above.*
-
-*Have questions about any of these featured games? Join our community on <a href="https://discord.gg/6mRUhR6Teh" target="_blank" rel="noopener" class="community-btn discord-btn"><i class="fab fa-discord" style="margin-right: 6px;"></i>Discord</a> or <a href="https://www.reddit.com/r/JunkStore" target="_blank" rel="noopener" class="community-btn reddit-btn"><i class="fab fa-reddit" style="margin-right: 6px;"></i>Reddit</a>!*
 
 <style>
 .weekly-highlights {
