@@ -1,5 +1,14 @@
 [
   {
+    "id": "7aafcec3-0bf8-455a-b6e0-f5111bda7267",
+    "originalId": "gog-extension-maintenance-mode",
+    "product": "decky",
+    "category": "GOG Extension",
+    "order": 0,
+    "question": "Is the GOG extension still being actively developed?",
+    "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #d4a84b; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #d4a84b;\">Important:</strong> The GOG extension for the Decky plugin is currently in <strong>maintenance-only mode</strong>. This means we will continue fixing bugs and ensuring compatibility, but we are not actively adding new features.<br><br>\nFor the latest GOG functionality, including DOS, ScummVM and native Linux game support, we recommend <a href=\"/features/\">Junk Store Pro</a>, which has its own rebuilt GOG extension that we are actively developing.\n</div>"
+  },
+  {
     "id": "d9e68253-752c-4958-81a6-261fd2104bf2",
     "originalId": "anti-cheat-games",
     "product": "both",
@@ -113,7 +122,7 @@
     "originalId": "find-gog-extension",
     "product": "decky",
     "category": "GOG Extension",
-    "order": 0,
+    "order": 1,
     "contentType": "faq",
     "question": "Where can I find the GOG extension?",
     "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nPurchase access with a one-time payment through the Junk Store Portal:<br><br>\n    \n    <div class=\"purchase-buttons-container\">\n      <a href=\"https://portal.junkstore.xyz/\" target=\"_blank\" class=\"purchase-button portal-button\">\n        <span class=\"button-text\">Junk Store Portal</span>\n        <span class=\"button-subtitle\">Portal-only sales - Instant access!</span>\n      </a>\n    </div>\n\n    <p><strong>Important:</strong> The GOG extension is now exclusively available through the Junk Store Portal. All updates are delivered through the Portal for faster distribution and easier downloads.</p>\n\n    <p><strong>Previous Supporters:</strong> All migrations have been completed. Sign in to the Portal using your original email address to access your extension. <a href=\"https://www.junkstore.xyz/blog/gog-extension-portal-only/\" target=\"_blank\">Read our step-by-step guide</a> for instructions on activating your Portal account.</p>\n    \n    Once you have it, you have it. We can't take away GOG functionality/integration with the Junk Store plugin. All funds go back into the enhancement and development of Junk Store.\n</div>"
@@ -123,7 +132,7 @@
     "originalId": "why-gog-not-free",
     "product": "decky",
     "category": "GOG Extension",
-    "order": 1,
+    "order": 2,
     "question": "Why isn't GOG free to use?",
     "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\nGOG support is available to paid supporters, and while we'd love to offer it for free, there's a lot of behind-the-scenes work and resources involved in creating and maintaining Junk Store. We appreciate your understanding and support as we continue to improve and expand Junk Store. All funds go back into the enhancement and development of Junk Store.\n</div>"
   },
@@ -132,7 +141,7 @@
     "originalId": "gog-dos-scummvm-support",
     "product": "decky",
     "category": "GOG Extension",
-    "order": 2,
+    "order": 3,
     "question": "Does the GOG extension support DOS, ScummVM and native Linux games?",
     "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong><br><br>\n<strong>Dos and ScummVM Games:</strong><br>\n<strong>No.</strong> DOS games and some ScummVM titles are not supported by the GOG extension in the Decky version of Junk Store.<br><br>\n<strong>Native Linux Games:</strong>\nNo — the GOG extension is designed for Windows games running through Proton. Native Linux games from GOG are not currently supported, as Junk Store relies on Proton's compatibility layer for game execution and integration.\n</div>"
   },
@@ -141,7 +150,7 @@
     "originalId": "gog-extension-refunds",
     "product": "decky",
     "category": "GOG Extension",
-    "order": 3,
+    "order": 4,
     "question": "Can I get a refund for the GOG extension?",
     "answer": "<div style=\"background-color: rgba(255, 255, 255, 0.03); border-left: 3px solid #555; padding: 10px; margin: 10px 0; border-radius: 4px;\">\n<strong style=\"color: #0d6efd;\">Decky Plugin:</strong>\n<strong>All sales are final.</strong> Due to the DRM-free nature of the GOG extension, we are unable to offer refunds. This policy is clearly stated on the Junk Store Portal at the time of purchase.\n  <br>\n  <br>\n    Because the extension is delivered as a downloadable file without copy protection, we cannot verify whether it has been used or copied after purchase.\n  <br>\n  <br>\n    If you're experiencing technical issues with the extension, please visit our <a href=\"/troubleshooting/decky/\">Troubleshooting page</a> or reach out on <a href=\"https://discord.gg/6mRUhR6Teh\" target=\"_blank\" rel=\"noopener\">Discord</a> and we'll do our best to help resolve them.\n</div>"
   },
