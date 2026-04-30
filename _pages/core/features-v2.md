@@ -8,6 +8,7 @@ classes: wide
 excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam solution"
 ---
 {% include content-schema.html type="software" %}
+{% include lazy-media.html %}
 <div id="top"></div>
 
 <!-- Tab Navigation -->
@@ -220,9 +221,9 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
     </ul>
   </div>
   <div class="hero-feature-visual">
-    <video autoplay loop muted playsinline>
-      <source src="/assets/images/jspro/features/gamemode.webm" type="video/webm">
-      <source src="/assets/images/jspro/features/gamemode.mp4" type="video/mp4">
+    <video loop muted playsinline preload="none" data-lazy-video style="aspect-ratio: 16/9; background: #1a1d24;">
+      <source data-src="/assets/images/jspro/features/gamemode.webm" type="video/webm">
+      <source data-src="/assets/images/jspro/features/gamemode.mp4" type="video/mp4">
     </video>
   </div>
 </div>
@@ -241,9 +242,9 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
     </ul>
   </div>
   <div class="hero-feature-visual">
-    <video autoplay loop muted playsinline>
-      <source src="/assets/images/jspro/features/libraries.webm" type="video/webm">
-      <source src="/assets/images/jspro/features/libraries.mp4" type="video/mp4">
+    <video loop muted playsinline preload="none" data-lazy-video style="aspect-ratio: 16/9; background: #1a1d24;">
+      <source data-src="/assets/images/jspro/features/libraries.webm" type="video/webm">
+      <source data-src="/assets/images/jspro/features/libraries.mp4" type="video/mp4">
     </video>
   </div>
 </div>
@@ -262,9 +263,9 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
     </ul>
   </div>
   <div class="hero-feature-visual">
-    <video autoplay loop muted playsinline>
-      <source src="/assets/images/jspro/features/filemanager.webm" type="video/webm">
-      <source src="/assets/images/jspro/features/filemanager.mp4" type="video/mp4">
+    <video loop muted playsinline preload="none" data-lazy-video style="aspect-ratio: 16/9; background: #1a1d24;">
+      <source data-src="/assets/images/jspro/features/filemanager.webm" type="video/webm">
+      <source data-src="/assets/images/jspro/features/filemanager.mp4" type="video/mp4">
     </video>
   </div>
 </div>
@@ -282,9 +283,9 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
     </ul>
   </div>
   <div class="hero-feature-visual">
-    <video autoplay loop muted playsinline>
-      <source src="/assets/images/jspro/features/diskanalyser.webm" type="video/webm">
-      <source src="/assets/images/jspro/features/diskanalyser.mp4" type="video/mp4">
+    <video loop muted playsinline preload="none" data-lazy-video style="aspect-ratio: 16/9; background: #1a1d24;">
+      <source data-src="/assets/images/jspro/features/diskanalyser.webm" type="video/webm">
+      <source data-src="/assets/images/jspro/features/diskanalyser.mp4" type="video/mp4">
     </video>
   </div>
 </div>
@@ -302,9 +303,9 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
     </ul>
   </div>
   <div class="hero-feature-visual">
-    <video autoplay loop muted playsinline>
-      <source src="/assets/images/jspro/features/gamedetails.webm" type="video/webm">
-      <source src="/assets/images/jspro/features/gamedetails.mp4" type="video/mp4">
+    <video loop muted playsinline preload="none" data-lazy-video style="aspect-ratio: 16/9; background: #1a1d24;">
+      <source data-src="/assets/images/jspro/features/gamedetails.webm" type="video/webm">
+      <source data-src="/assets/images/jspro/features/gamedetails.mp4" type="video/mp4">
     </video>
   </div>
 </div>

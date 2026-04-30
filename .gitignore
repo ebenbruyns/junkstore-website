@@ -44,3 +44,8 @@ build.log
 
 .playwright-mcp/
 assets/data/games/
+
+# Environment variables — never commit secrets
+.env
+.env.local
+.env.*.local

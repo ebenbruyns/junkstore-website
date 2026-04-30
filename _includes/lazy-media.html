@@ -1,0 +1,96 @@
+<style>
+.lite-youtube {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: #000;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.lite-youtube__poster {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.lite-youtube__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.lite-youtube:hover .lite-youtube__play,
+.lite-youtube:focus-visible .lite-youtube__play {
+  transform: translate(-50%, -50%) scale(1.08);
+  filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.4));
+}
+</style>
+<script>
+(function () {
+  // Lazy-load YouTube embeds: clicking the poster swaps in an iframe with autoplay.
+  document.querySelectorAll('.lite-youtube').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var id = btn.dataset.ytId;
+      if (!id) return;
+      var title = btn.dataset.ytTitle || 'YouTube video';
+      var iframe = document.createElement('iframe');
+      iframe.width = '560';
+      iframe.height = '315';
+      iframe.src = 'https://www.youtube.com/embed/' + id + '?autoplay=1';
+      iframe.title = title;
+      iframe.frameBorder = '0';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.allowFullscreen = true;
+      iframe.style.cssText = 'position:absolute; inset:0; width:100%; height:100%; border:0;';
+      btn.replaceWith(iframe);
+    }, { once: true });
+  });
+
+  // Lazy-load <video data-lazy-video>: only fetch once scrolled near viewport,
+  // then autoplay (muted) so the marketing UX still feels automatic.
+  var videos = document.querySelectorAll('video[data-lazy-video]');
+  if (videos.length && 'IntersectionObserver' in window) {
+    var obs = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var v = entry.target;
+        v.querySelectorAll('source[data-src]').forEach(function (s) {
+          s.src = s.dataset.src;
+          s.removeAttribute('data-src');
+        });
+        v.load();
+        var p = v.play();
+        if (p && typeof p.catch === 'function') p.catch(function () {});
+        obs.unobserve(v);
+      });
+    }, { rootMargin: '200px' });
+    videos.forEach(function (v) { obs.observe(v); });
+  } else {
+    // Fallback for old browsers — load eagerly
+    videos.forEach(function (v) {
+      v.querySelectorAll('source[data-src]').forEach(function (s) {
+        s.src = s.dataset.src;
+        s.removeAttribute('data-src');
+      });
+      v.load();
+      v.play && v.play();
+    });
+  }
+})();
+</script>

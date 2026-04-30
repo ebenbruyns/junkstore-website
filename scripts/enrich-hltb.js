@@ -6,15 +6,49 @@
  *   node scripts/enrich-hltb.js           # Update all games missing HLTB data
  *   node scripts/enrich-hltb.js --test    # Test mode - show what would be updated
  *   node scripts/enrich-hltb.js --force   # Re-fetch all HLTB data
+ *
+ * Setup:
+ *   Put your RapidAPI key in a `.env` file at the repo root:
+ *     RAPIDAPI_KEY=your-key-here
+ *   The script auto-loads `.env` on startup.
  */
 
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
+// Lightweight .env loader (no extra dep). Reads KEY=value pairs from the
+// repo-root .env file and sets them on process.env if not already defined.
+(function loadDotenv() {
+  const envPath = path.join(__dirname, '..', '.env');
+  if (!fs.existsSync(envPath)) return;
+  const lines = fs.readFileSync(envPath, 'utf8').split('\n');
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#')) continue;
+    const eq = trimmed.indexOf('=');
+    if (eq < 0) continue;
+    const key = trimmed.slice(0, eq).trim();
+    let val = trimmed.slice(eq + 1).trim();
+    if ((val.startsWith('"') && val.endsWith('"')) ||
+        (val.startsWith("'") && val.endsWith("'"))) {
+      val = val.slice(1, -1);
+    }
+    if (!(key in process.env)) process.env[key] = val;
+  }
+})();
+
 // RapidAPI config
-const RAPIDAPI_KEY = 'REDACTED';
+const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
 const RAPIDAPI_HOST = 'howlongtobeat-data-api.p.rapidapi.com';
+
+if (!RAPIDAPI_KEY) {
+  console.error('ERROR: RAPIDAPI_KEY is not set.');
+  console.error('Create a .env file at the repo root containing:');
+  console.error('  RAPIDAPI_KEY=your-rapidapi-key-here');
+  console.error('Or export it in your shell: export RAPIDAPI_KEY=your-key');
+  process.exit(1);
+}
 
 // Directories containing game JSON files
 const GAMES_DIR = path.join(__dirname, '..', 'assets', 'data', 'games');
