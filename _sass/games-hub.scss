@@ -119,7 +119,6 @@ $hub-radius: 12px;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
-  text-transform: uppercase;
   transition: transform 0.2s, opacity 0.2s;
 
   &:hover {
@@ -237,7 +236,6 @@ $hub-radius: 12px;
       font-weight: 600;
       padding: 3px 8px;
       border-radius: 4px;
-      text-transform: uppercase;
 
       &.epic { background: #444; color: #fff; }
       &.gog { background: #86328a; color: #fff; }
@@ -475,7 +473,6 @@ $hub-radius: 12px;
     font-weight: 600;
     padding: 3px 7px;
     border-radius: 4px;
-    text-transform: uppercase;
     cursor: pointer;
     transition: opacity 0.15s;
 
@@ -529,7 +526,6 @@ $hub-radius: 12px;
     padding: 6px 16px;
     border-radius: 20px;
     margin-bottom: 12px;
-    text-transform: uppercase;
   }
 
   &__stats {

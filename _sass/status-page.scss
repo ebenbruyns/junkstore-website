@@ -146,6 +146,7 @@
     border-radius: 12px;
     font-size: 0.85rem;
     font-weight: 600;
+    white-space: nowrap;
     // Default: muted green tint (covers any unknown types)
     background: rgba(46, 204, 113, 0.15);
     color: #2ecc71;
@@ -258,6 +259,48 @@
   @media (max-width: 600px) {
     .track-record-stats {
       grid-template-columns: 1fr;
+    }
+
+    // Stack notes + break-history rows as cards (tables overflow at this width)
+    #notes-table,
+    #break-history-table {
+      thead { display: none; }
+
+      tbody, tr { display: block; }
+
+      tr {
+        padding: 0.75rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      td {
+        display: block;
+        padding: 0.15rem 0;
+        border: none;
+      }
+
+      // Date row
+      td:first-child {
+        color: #888;
+        font-size: 0.85rem;
+      }
+
+      // Badge row gets a small bottom margin before text
+      td:nth-child(2) {
+        padding-bottom: 0.4rem;
+      }
+
+      // Note/issue text
+      td:nth-child(3) {
+        color: #ccc;
+        font-size: 0.95rem;
+      }
+
+      // "Show all notes" full-width row
+      tr:has(.show-all-notes-btn) {
+        text-align: center;
+        border-bottom: none;
+      }
     }
   }
 

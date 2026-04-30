@@ -306,7 +306,7 @@ layout: null
         <a href="{{ page.areweanticheat_url }}" target="_blank" rel="noopener" class="external-link anticheat">AreWeAntiCheat</a>
         {% endif %}
         {% if page.metacritic_url and page.metacritic_url != "" %}
-        <a href="{{ page.metacritic_url }}" target="_blank" rel="noopener" class="external-link metacritic">Metacritic <span class="badge-score">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</span></a>
+        <a href="{{ page.metacritic_url | replace: 'http://', 'https://' }}" target="_blank" rel="noopener" class="external-link metacritic">Metacritic <span class="badge-score">{% if page.metacritic_score %}{{ page.metacritic_score }}{% else %}TBD{% endif %}</span></a>
         {% endif %}
         {% if page.hltb_url and page.hltb_url != "" %}
         <a href="{{ page.hltb_url }}" target="_blank" rel="noopener" class="external-link hltb">HowLongToBeat</a>
