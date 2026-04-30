@@ -17,14 +17,8 @@ cta_disabled: true
 
 **Bet you weren't expecting this.** Junk Store Pro v3.0 just dropped with a bunch of new tools, performance improvements, and quality-of-life upgrades that make managing your non-Steam games easier than ever.
 
-{% include lazy-media.html %}
-<div style="margin: 2rem 0;">
-  <button type="button" class="lite-youtube" data-yt-id="DI-5Wdvu7Kw" data-yt-title="Junk Store 3.0 Release" aria-label="Play video: Junk Store 3.0 Release">
-    <img class="lite-youtube__poster" src="https://i.ytimg.com/vi/DI-5Wdvu7Kw/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
-    <span class="lite-youtube__play" aria-hidden="true">
-      <svg viewBox="0 0 68 48" width="68" height="48" focusable="false"><path d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#212121" fill-opacity=".85"></path><path d="M 45,24 27,14 27,34" fill="#fff"></path></svg>
-    </span>
-  </button>
+<div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin: 2rem 0;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/DI-5Wdvu7Kw" title="Junk Store 3.0 Release" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <h2 style="text-align: left !important; margin-left: 0;">What's New in 3.0</h2>

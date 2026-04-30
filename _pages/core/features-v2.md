@@ -125,6 +125,41 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
   display: block;
 }
 
+/* Click-to-play hero feature videos: poster placeholder + play button overlay,
+   video doesn't download until user clicks. */
+.hero-feature-visual--clickable {
+  position: relative;
+  cursor: pointer;
+}
+
+.hero-feature-visual--clickable .hero-feature-visual__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.hero-feature-visual--clickable:hover .hero-feature-visual__play,
+.hero-feature-visual--clickable:focus-visible .hero-feature-visual__play {
+  background: rgba(255, 117, 26, 0.9);
+  transform: translate(-50%, -50%) scale(1.05);
+}
+
+.hero-feature-visual--clickable.playing .hero-feature-visual__play {
+  display: none;
+}
+
 .hero-feature-visual .placeholder {
   aspect-ratio: 16/10;
   display: flex;
@@ -220,11 +255,12 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
       <li>Browse and install from your couch</li>
     </ul>
   </div>
-  <div class="hero-feature-visual">
-    <video loop muted playsinline preload="none" data-lazy-video style="aspect-ratio: 16/9; background: #1a1d24;">
+  <div class="hero-feature-visual hero-feature-visual--clickable" onclick="playHeroVideo(this)" role="button" tabindex="0">
+    <video loop muted playsinline preload="none" poster="/assets/images/jspro/features/gamemode.webp" style="aspect-ratio: 16/9; background: #1a1d24;">
       <source data-src="/assets/images/jspro/features/gamemode.webm" type="video/webm">
       <source data-src="/assets/images/jspro/features/gamemode.mp4" type="video/mp4">
     </video>
+    <span class="hero-feature-visual__play" aria-hidden="true">▶</span>
   </div>
 </div>
 
@@ -241,11 +277,12 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
       <li>itch</li>
     </ul>
   </div>
-  <div class="hero-feature-visual">
-    <video loop muted playsinline preload="none" data-lazy-video style="aspect-ratio: 16/9; background: #1a1d24;">
+  <div class="hero-feature-visual hero-feature-visual--clickable" onclick="playHeroVideo(this)" role="button" tabindex="0">
+    <video loop muted playsinline preload="none" poster="/assets/images/jspro/features/libraries.webp" style="aspect-ratio: 16/9; background: #1a1d24;">
       <source data-src="/assets/images/jspro/features/libraries.webm" type="video/webm">
       <source data-src="/assets/images/jspro/features/libraries.mp4" type="video/mp4">
     </video>
+    <span class="hero-feature-visual__play" aria-hidden="true">▶</span>
   </div>
 </div>
 
@@ -262,11 +299,12 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
       <li>Manage SD cards</li>
     </ul>
   </div>
-  <div class="hero-feature-visual">
-    <video loop muted playsinline preload="none" data-lazy-video style="aspect-ratio: 16/9; background: #1a1d24;">
+  <div class="hero-feature-visual hero-feature-visual--clickable" onclick="playHeroVideo(this)" role="button" tabindex="0">
+    <video loop muted playsinline preload="none" poster="/assets/images/jspro/features/filemanager.webp" style="aspect-ratio: 16/9; background: #1a1d24;">
       <source data-src="/assets/images/jspro/features/filemanager.webm" type="video/webm">
       <source data-src="/assets/images/jspro/features/filemanager.mp4" type="video/mp4">
     </video>
+    <span class="hero-feature-visual__play" aria-hidden="true">▶</span>
   </div>
 </div>
 
@@ -282,11 +320,12 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
       <li>Easily drill down into directories</li>
     </ul>
   </div>
-  <div class="hero-feature-visual">
-    <video loop muted playsinline preload="none" data-lazy-video style="aspect-ratio: 16/9; background: #1a1d24;">
+  <div class="hero-feature-visual hero-feature-visual--clickable" onclick="playHeroVideo(this)" role="button" tabindex="0">
+    <video loop muted playsinline preload="none" poster="/assets/images/jspro/features/diskanalyser.webp" style="aspect-ratio: 16/9; background: #1a1d24;">
       <source data-src="/assets/images/jspro/features/diskanalyser.webm" type="video/webm">
       <source data-src="/assets/images/jspro/features/diskanalyser.mp4" type="video/mp4">
     </video>
+    <span class="hero-feature-visual__play" aria-hidden="true">▶</span>
   </div>
 </div>
 
@@ -302,11 +341,12 @@ excerpt: "Features, demos & comparisons for Steam Deck's professional non-Steam 
       <li>Edit game descriptions</li>
     </ul>
   </div>
-  <div class="hero-feature-visual">
-    <video loop muted playsinline preload="none" data-lazy-video style="aspect-ratio: 16/9; background: #1a1d24;">
+  <div class="hero-feature-visual hero-feature-visual--clickable" onclick="playHeroVideo(this)" role="button" tabindex="0">
+    <video loop muted playsinline preload="none" poster="/assets/images/jspro/features/gamedetails.webp" style="aspect-ratio: 16/9; background: #1a1d24;">
       <source data-src="/assets/images/jspro/features/gamedetails.webm" type="video/webm">
       <source data-src="/assets/images/jspro/features/gamedetails.mp4" type="video/mp4">
     </video>
+    <span class="hero-feature-visual__play" aria-hidden="true">▶</span>
   </div>
 </div>
 
@@ -905,6 +945,23 @@ function toggleDemo(card) {
       video.play();
     }
   }
+}
+
+// Click-to-play for the 5 hero-feature-visual videos at the top of /features/.
+// First click swaps the data-src attributes to src, calls load(), then plays.
+// No-op if already playing (so accidental double-clicks don't restart).
+function playHeroVideo(container) {
+  if (container.classList.contains('playing')) return;
+  container.classList.add('playing');
+  const video = container.querySelector('video');
+  if (!video) return;
+  video.querySelectorAll('source[data-src]').forEach(s => {
+    s.src = s.dataset.src;
+    s.removeAttribute('data-src');
+  });
+  video.load();
+  const p = video.play();
+  if (p && typeof p.catch === 'function') p.catch(() => {});
 }
 </script>
 
